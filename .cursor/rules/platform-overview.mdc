@@ -1,0 +1,49 @@
+---
+description: Contexto del workspace Suplai Platform — repos del ecosistema Suplai y cómo navegarlos
+alwaysApply: true
+---
+
+# Suplai Platform — contexto del workspace
+
+Este workspace agrupa **siete carpetas** de código + `platform/`:
+
+| Carpeta | Repo real | Rol |
+|---------|-----------|-----|
+| `platform/` | `suplai-platform` | Config MCP, docs, reglas |
+| `agent/` | `agente-conversacional-multi_tenant` | Agente WhatsApp (LangGraph) |
+| `backend/` | `backend-supabase` | API REST multi-tenant |
+| `backoffice/` | `product-management-app` | Back office Next.js |
+| `tienda/` | `wholesale-catalog-app` | Catálogo web B2B (link del agente) |
+| `sniffer/` | `sniffer-vendedores` | Espejo Kommo — análisis conversaciones vendedor |
+| `sales-engine/` | `sales-engine` | ML co-ocurrencia / frecuencia compra PdV |
+
+## Cuándo usar qué repo
+
+- **Tools, prompts, webhook, link tienda** → `agent/`
+- **Endpoints REST, migraciones SQL** → `backend/`
+- **UI back office, proxy API** → `backoffice/`
+- **Catálogo web, carrito, login tienda** → `tienda/`
+- **Webhooks Kommo, patrones vendedor** → `sniffer/`
+- **Retrain modelo, predict-combo** → `sales-engine/`
+- **Investigación cross-cutting** → `platform/docs/CROSS-REPO-QUERIES.md` + MCP
+
+## Multi-tenant (Supabase principal)
+
+- `public.distribuidoras`: tenant maestro.
+- Schema `{tenant}`: productos, contactos, pedidos.
+- Schema `core`: conversaciones del agente.
+
+Header API: `x-schema-name`.
+
+## Bases de datos
+
+- **Supabase `nxmeezcvjltlqfybbczt`**: agent, backend, backoffice (vía API), tienda (vía API), sales-engine.
+- **Postgres sniffer**: tablas `kommo_*` — puede ser proyecto distinto; no asumir mismo MCP sin verificar.
+
+Usar MCP Supabase para esquema principal (regla `supabase-mcp-database.mdc`).
+
+## Producción (referencia)
+
+- Backend: `web-production-f544f.up.railway.app`
+- Agente: `agente-conversacional-multitenant-production.up.railway.app`
+- Tienda: `tienda.suplaisales.com`

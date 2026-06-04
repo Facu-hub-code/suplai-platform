@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "n8n-mcp": {
+      "type": "http",
+      "url": "https://primary-production-c1d08.up.railway.app/mcp-server/http",
+      "headers": {
+        "Authorization": "Bearer <TU_TOKEN_N8N_MCP>"
+      }
+    }
+  }
+}

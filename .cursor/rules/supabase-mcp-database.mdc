@@ -1,0 +1,16 @@
+---
+description: Fuente de verdad para estructura de BD — MCP Supabase del workspace platform
+alwaysApply: true
+---
+
+# Estructura de base de datos vía MCP Supabase
+
+- **`MUST`**: ante columnas, tipos, PK/FK, índices, enums o schemas (`public`, `core`, tenant), consultar **MCP Supabase** antes de afirmar el modelo o escribir SQL.
+- **`MUST`**: usar `list_tables` con `verbose: true` sobre `public`, `core` y el **schema del tenant** que aplique.
+- **`SHOULD`**: usar `execute_sql` cuando `list_tables` no alcance (vistas, RLS, `information_schema`). Mantener solo lectura salvo cambios explícitos pedidos por el usuario.
+- **`MUST NOT`**: basarse solo en dumps/SQL locales (`agent/context_db/`, `backend/docs/db-structure/snapshots/`) sin contrastar con MCP cuando está disponible.
+- **`SHOULD`**: migraciones nuevas en `backend/`; el agente y el back office consumen el esquema resultante.
+
+Proyecto Supabase: `nxmeezcvjltlqfybbczt`.
+
+Schemas tenant conocidos (no exhaustivo): `gonzales`, `demo`, `del_corro`, `tonadita`, `cordoba_frost`. Confirmar activos con MCP.

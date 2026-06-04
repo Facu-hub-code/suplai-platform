@@ -1,0 +1,423 @@
+{
+  "name": "del_corro — campaña semana23 personalizada (manual)",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "name": "Ejecutar manualmente",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            { "id": "schema", "name": "schema", "value": "del_corro", "type": "string" },
+            { "id": "dia_visita", "name": "dia_visita", "value": "martes", "type": "string" },
+            {
+              "id": "spreadsheet_id",
+              "name": "spreadsheet_id",
+              "value": "1pQV0uJmwhw3sX0idg9KjeIPXwhVCk2oihLITe8yZqU8",
+              "type": "string"
+            },
+            { "id": "sheet_name", "name": "sheet_name", "value": "Hoja 1", "type": "string" },
+            {
+              "id": "template_name",
+              "name": "template_name",
+              "value": "campi_semana23_zona5",
+              "type": "string"
+            },
+            { "id": "language_code", "name": "language_code", "value": "es_AR", "type": "string" },
+            { "id": "dry_run", "name": "dry_run", "value": true, "type": "boolean" },
+            {
+              "id": "crear_cliente_si_no_existe",
+              "name": "crear_cliente_si_no_existe",
+              "value": false,
+              "type": "boolean"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a1b2c3d4-0002-4000-8000-000000000002",
+      "name": "Config",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [240, 0]
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $('Config').first().json.spreadsheet_id }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "={{ $('Config').first().json.sheet_name }}",
+          "mode": "name"
+        },
+        "options": {}
+      },
+      "id": "a1b2c3d4-0003-4000-8000-000000000003",
+      "name": "Google Sheets — leer campaña",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [480, 0],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "CONFIGURE_IN_N8N",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const cfg = $('Config').first().json;\nconst diaVisita = String(cfg.dia_visita || 'martes').trim().toLowerCase();\n\nfunction normCodigo(v) {\n  const s = String(v ?? '').trim();\n  if (!s) return null;\n  const n = Number(s.replace(/,/g, '.'));\n  return Number.isFinite(n) ? String(n) : null;\n}\n\nfunction normPhone(v) {\n  if (!v) return null;\n  const digits = String(v).replace(/\\D/g, '');\n  return digits.length >= 10 ? digits : null;\n}\n\nfunction firstName(razon) {\n  const t = String(razon || '').trim();\n  if (!t) return 'Cliente';\n  return t.split(/\\s+/)[0];\n}\n\nfunction prodLine(name, code) {\n  const n = String(name || '').trim();\n  const c = String(code || '').trim();\n  if (!n || n.toUpperCase() === 'N/A') return null;\n  return c && c.toUpperCase() !== 'N/A' ? `${n} (${c})` : n;\n}\n\nfunction trunc(s, max = 900) {\n  const t = String(s || '').trim();\n  return t.length > max ? `${t.slice(0, max - 1)}…` : t;\n}\n\nconst out = [];\nfor (const item of $input.all()) {\n  const row = item.json;\n  const codigo = normCodigo(row.Cliente ?? row.cliente);\n  if (!codigo) continue;\n\n  const parrafo = trunc(row.Parrafo_Personalizado ?? row.parrafo_personalizado ?? '');\n  const lines = [\n    prodLine(row.Producto_1, row.Codigo_1),\n    prodLine(row.Producto_2, row.Codigo_2),\n    prodLine(row.Producto_3, row.Codigo_3),\n  ].filter(Boolean);\n  const productos_bloque = lines.length ? lines.map((l) => `• ${l}`).join('\\n') : '• (sin productos sugeridos)';\n\n  out.push({\n    json: {\n      schema: cfg.schema,\n      dia_visita: diaVisita,\n      codigo,\n      razon_social: String(row.Razon_Social ?? row.razon_social ?? '').trim(),\n      rubro: String(row.Rubro ?? '').trim(),\n      parrafo,\n      producto_1: String(row.Producto_1 ?? '').trim(),\n      codigo_1: String(row.Codigo_1 ?? '').trim(),\n      producto_2: String(row.Producto_2 ?? '').trim(),\n      codigo_2: String(row.Codigo_2 ?? '').trim(),\n      producto_3: String(row.Producto_3 ?? '').trim(),\n      codigo_3: String(row.Codigo_3 ?? '').trim(),\n      telefono_sheet: normPhone(row.Telefono ?? row.telefono),\n      template_name: cfg.template_name,\n      language_code: cfg.language_code,\n      dry_run: cfg.dry_run === true || cfg.dry_run === 'true',\n      crear_cliente_si_no_existe:\n        cfg.crear_cliente_si_no_existe === true || cfg.crear_cliente_si_no_existe === 'true',\n      body_params: [\n        firstName(row.Razon_Social),\n        parrafo,\n        String(row.Producto_1 ?? '-').trim() || '-',\n        String(row.Codigo_1 ?? '-').trim() || '-',\n        String(row.Producto_2 ?? '-').trim() || '-',\n        String(row.Codigo_2 ?? '-').trim() || '-',\n        String(row.Producto_3 ?? '-').trim() || '-',\n        String(row.Codigo_3 ?? '-').trim() || '-',\n      ],\n      mensaje_preview: `Hola ${firstName(row.Razon_Social)}!\\n\\n${parrafo}\\n\\n${productos_bloque}`,\n    },\n  });\n}\n\nreturn out;"
+      },
+      "id": "a1b2c3d4-0004-4000-8000-000000000004",
+      "name": "Normalizar filas Excel",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [720, 0]
+    },
+    {
+      "parameters": { "options": {} },
+      "id": "a1b2c3d4-0005-4000-8000-000000000005",
+      "name": "Loop por PDV",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [960, 0]
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "tableId": "clients",
+        "returnAll": false,
+        "limit": 1,
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "codigo",
+              "condition": "eq",
+              "keyValue": "={{ $json.codigo }}"
+            }
+          ]
+        }
+      },
+      "id": "a1b2c3d4-0006-4000-8000-000000000006",
+      "name": "Supabase — buscar client",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [1200, 0],
+      "credentials": {
+        "supabaseApi": {
+          "id": "CONFIGURE_IN_N8N",
+          "name": "Supabase del_corro"
+        }
+      },
+      "notesInFlow": true,
+      "notes": "Configurar schema del_corro en credencial o opción Use Schema del nodo."
+    },
+    {
+      "parameters": {
+        "jsCode": "const row = $('Loop por PDV').first().json;\nconst matches = $input.all().map((i) => i.json).filter((c) => c && c.id != null);\nconst cfg = {\n  dia_visita: String(row.dia_visita || '').toLowerCase(),\n  crear: row.crear_cliente_si_no_existe,\n  telefono_sheet: row.telefono_sheet,\n};\n\nlet client = matches[0] || null;\nlet skip_reason = null;\n\nif (!client) {\n  if (cfg.crear && cfg.telefono_sheet) {\n    return [{\n      json: {\n        ...row,\n        action: 'create',\n        phone_number: cfg.telefono_sheet,\n        client_id: null,\n      },\n    }];\n  }\n  skip_reason = 'cliente_no_encontrado_sin_telefono_en_sheet';\n} else {\n  const dia = String(client.dia_de_visita || '').toLowerCase();\n  const diaOk = dia === cfg.dia_visita || (cfg.dia_visita === 'miercoles' && dia === 'miércoles');\n  if (!diaOk) skip_reason = `dia_visita_${dia}_!=_${cfg.dia_visita}`;\n  const phone = String(client.phone_number || '').replace(/\\D/g, '');\n  if (!skip_reason && phone.length < 10) skip_reason = 'sin_telefono_en_bd';\n  if (!skip_reason && client.activo_ai === false) skip_reason = 'activo_ai_false';\n}\n\nif (skip_reason) {\n  return [{ json: { ...row, action: 'skip', skip_reason, client } }];\n}\n\nreturn [{\n  json: {\n    ...row,\n    action: 'send',\n    client_id: client.id,\n    phone_number: String(client.phone_number).replace(/\\D/g, ''),\n    dia_de_visita: client.dia_de_visita,\n    client,\n  },\n}];"
+      },
+      "id": "a1b2c3d4-0007-4000-8000-000000000007",
+      "name": "Validar dia visita y telefono",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1440, 0]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.action }}",
+                    "rightValue": "create",
+                    "operator": { "type": "string", "operation": "equals" }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "crear"
+            },
+            {
+              "conditions": {
+                "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.action }}",
+                    "rightValue": "send",
+                    "operator": { "type": "string", "operation": "equals" }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "enviar"
+            },
+            {
+              "conditions": {
+                "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.action }}",
+                    "rightValue": "skip",
+                    "operator": { "type": "string", "operation": "equals" }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "skip"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a1b2c3d4-0008-4000-8000-000000000008",
+      "name": "Switch acción",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [1680, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "const row = $('Loop por PDV').first().json;\nconst created = $input.first().json;\nconst phone = String(created.phone_number || row.phone_number || '').replace(/\\D/g, '');\nreturn [{\n  json: {\n    ...row,\n    action: 'send',\n    client_id: created.id,\n    phone_number: phone,\n    client: created,\n  },\n}];"
+      },
+      "id": "a1b2c3d4-0017-4000-8000-000000000017",
+      "name": "Preparar envío tras alta",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1920, 200]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "dry-run",
+              "leftValue": "={{ $json.dry_run }}",
+              "rightValue": true,
+              "operator": { "type": "boolean", "operation": "true" }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "a1b2c3d4-0009-4000-8000-000000000009",
+      "name": "¿Dry run?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [1920, -120]
+    },
+    {
+      "parameters": {
+        "operation": "sendTemplate",
+        "phoneNumberId": "={{ $credentials.whatsAppCloudApi.phoneNumberId }}",
+        "recipientPhoneNumber": "={{ $json.phone_number }}",
+        "template": "={{ $json.template_name }}",
+        "language": "={{ $json.language_code }}",
+        "components": {
+          "component": [
+            {
+              "type": "body",
+              "bodyParameters": {
+                "parameter": "={{ $json.body_params.map((p) => ({ text: String(p) })) }}"
+              }
+            }
+          ]
+        }
+      },
+      "id": "a1b2c3d4-0010-4000-8000-000000000010",
+      "name": "WhatsApp — enviar plantilla",
+      "type": "n8n-nodes-base.whatsApp",
+      "typeVersion": 1,
+      "position": [2160, -40],
+      "credentials": {
+        "whatsAppCloudApi": {
+          "id": "CONFIGURE_IN_N8N",
+          "name": "WhatsApp del_corro"
+        }
+      },
+      "notesInFlow": true,
+      "notes": "Misma cuenta WABA que del_corro en producción."
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "tableId": "envios_plantillas",
+        "fieldsUi": {
+          "fieldValues": [
+            { "fieldId": "session_id", "fieldValue": "={{ $json.phone_number }}" },
+            { "fieldId": "template_name", "fieldValue": "={{ $json.template_name }}" }
+          ]
+        }
+      },
+      "id": "a1b2c3d4-0011-4000-8000-000000000011",
+      "name": "Supabase — log envios_plantillas",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [2400, -40],
+      "credentials": {
+        "supabaseApi": {
+          "id": "CONFIGURE_IN_N8N",
+          "name": "Supabase del_corro"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "tableId": "n8n_chat_histories",
+        "fieldsUi": {
+          "fieldValues": [
+            {
+              "fieldId": "session_id",
+              "fieldValue": "={{ $('WhatsApp — enviar plantilla').first().json.phone_number || $json.phone_number }}"
+            },
+            {
+              "fieldId": "message",
+              "fieldValue": "={{ JSON.stringify({ type: 'ia', content: $('Validar dia visita y telefono').first().json.mensaje_preview }) }}"
+            }
+          ]
+        }
+      },
+      "id": "a1b2c3d4-0012-4000-8000-000000000012",
+      "name": "Supabase — historial chat",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [2640, -40],
+      "credentials": {
+        "supabaseApi": {
+          "id": "CONFIGURE_IN_N8N",
+          "name": "Supabase del_corro"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const row = $input.first().json;\nreturn [{\n  json: {\n    status: 'preview',\n    codigo: row.codigo,\n    phone_number: row.phone_number,\n    template_name: row.template_name,\n    body_params: row.body_params,\n    mensaje_preview: row.mensaje_preview,\n  },\n}];"
+      },
+      "id": "a1b2c3d4-0013-4000-8000-000000000013",
+      "name": "Log preview (dry run)",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2160, -200]
+    },
+    {
+      "parameters": {
+        "jsCode": "const row = $input.first().json;\nreturn [{ json: { status: 'skipped', codigo: row.codigo, reason: row.skip_reason || row.action } }];"
+      },
+      "id": "a1b2c3d4-0014-4000-8000-000000000014",
+      "name": "Log skip",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1920, 160]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "tableId": "clients",
+        "fieldsUi": {
+          "fieldValues": [
+            { "fieldId": "phone_number", "fieldValue": "={{ $json.phone_number }}" },
+            { "fieldId": "razon_social", "fieldValue": "={{ $json.razon_social }}" },
+            { "fieldId": "codigo", "fieldValue": "={{ $json.codigo }}" },
+            { "fieldId": "nombre", "fieldValue": "={{ $json.razon_social }}" },
+            { "fieldId": "activo_ai", "fieldValue": true },
+            { "fieldId": "dia_de_visita", "fieldValue": "={{ $json.dia_visita }}" }
+          ]
+        }
+      },
+      "id": "a1b2c3d4-0015-4000-8000-000000000015",
+      "name": "Supabase — crear client",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [1440, 200],
+      "credentials": {
+        "supabaseApi": {
+          "id": "CONFIGURE_IN_N8N",
+          "name": "Supabase del_corro"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Ejecutar manualmente": {
+      "main": [[{ "node": "Config", "type": "main", "index": 0 }]]
+    },
+    "Config": {
+      "main": [[{ "node": "Google Sheets — leer campaña", "type": "main", "index": 0 }]]
+    },
+    "Google Sheets — leer campaña": {
+      "main": [[{ "node": "Normalizar filas Excel", "type": "main", "index": 0 }]]
+    },
+    "Normalizar filas Excel": {
+      "main": [[{ "node": "Loop por PDV", "type": "main", "index": 0 }]]
+    },
+    "Loop por PDV": {
+      "main": [
+        [{ "node": "Supabase — buscar client", "type": "main", "index": 0 }],
+        []
+      ]
+    },
+    "Supabase — buscar client": {
+      "main": [[{ "node": "Validar dia visita y telefono", "type": "main", "index": 0 }]]
+    },
+    "Validar dia visita y telefono": {
+      "main": [[{ "node": "Switch acción", "type": "main", "index": 0 }]]
+    },
+    "Switch acción": {
+      "main": [
+        [{ "node": "Supabase — crear client", "type": "main", "index": 0 }],
+        [{ "node": "¿Dry run?", "type": "main", "index": 0 }],
+        [{ "node": "Log skip", "type": "main", "index": 0 }]
+      ]
+    },
+    "¿Dry run?": {
+      "main": [
+        [{ "node": "Log preview (dry run)", "type": "main", "index": 0 }],
+        [{ "node": "WhatsApp — enviar plantilla", "type": "main", "index": 0 }]
+      ]
+    },
+    "WhatsApp — enviar plantilla": {
+      "main": [[{ "node": "Supabase — log envios_plantillas", "type": "main", "index": 0 }]]
+    },
+    "Supabase — log envios_plantillas": {
+      "main": [[{ "node": "Supabase — historial chat", "type": "main", "index": 0 }]]
+    },
+    "Supabase — historial chat": {
+      "main": [[{ "node": "Loop por PDV", "type": "main", "index": 0 }]]
+    },
+    "Log preview (dry run)": {
+      "main": [[{ "node": "Loop por PDV", "type": "main", "index": 0 }]]
+    },
+    "Log skip": {
+      "main": [[{ "node": "Loop por PDV", "type": "main", "index": 0 }]]
+    },
+    "Supabase — crear client": {
+      "main": [[{ "node": "Preparar envío tras alta", "type": "main", "index": 0 }]]
+    },
+    "Preparar envío tras alta": {
+      "main": [[{ "node": "¿Dry run?", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": []
+}

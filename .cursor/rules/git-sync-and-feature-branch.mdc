@@ -1,0 +1,52 @@
+---
+description: Antes de editar código — git fetch/pull y trabajar siempre en rama aparte de la troncal
+alwaysApply: true
+---
+
+# Git — sincronizar y rama de trabajo
+
+Antes de **modificar, crear o borrar archivos de código** en cualquier carpeta con repositorio git (`platform/`, `agent/`, `backend/`, `backoffice/`, `tienda/`, `sniffer/`, `sales-engine/`), el agente **debe** completar este flujo en **ese** repo (cada carpeta tiene su propio `.git`).
+
+## 1. Sincronizar con remoto (obligatorio)
+
+En el directorio raíz del repo que vas a tocar:
+
+```bash
+cd <ruta-del-repo>
+git fetch
+git pull
+```
+
+- Ejecutar **fetch** y **pull** por separado, en ese orden.
+- Si `git pull` falla (conflictos, cambios locales sin commitear, sin upstream), **detenerse**, informar al usuario y **no** editar código hasta resolverlo.
+- Si solo vas a leer/explorar sin cambios, no hace falta pull; aplica al **primer** cambio de código en esa sesión/repo.
+
+## 2. Rama aparte de la troncal (obligatorio)
+
+**Nunca** implementar cambios estando en la rama troncal (`main`, `master` o la rama por defecto del remoto).
+
+Antes del primer cambio de código:
+
+1. Identificar la troncal: `git symbolic-ref refs/remotes/origin/HEAD` o `git remote show origin` (suele ser `main` o `master`).
+2. Si estás en la troncal, crear y cambiar a una rama de trabajo:
+   ```bash
+   git checkout <troncal>
+   git pull
+   git checkout -b <tipo>/<descripcion-corta>
+   ```
+   Ejemplos: `feat/login-tienda-otp`, `fix/pedidos-duplicados`, `chore/actualizar-deps`.
+3. Si ya estás en una rama que **no** es la troncal, verificar que esté actualizada (`git pull` en esa rama) y seguir ahí.
+
+**Prohibido** commitear en `main` / `master` salvo que el usuario lo pida explícitamente.
+
+## 3. Resumen del orden
+
+```
+cd <repo> → git fetch → git pull → (si troncal) checkout -b <rama> → editar código
+```
+
+## 4. Excepciones
+
+- El usuario pide explícitamente trabajar en la troncal o sin pull.
+- El directorio no es un repositorio git (solo documentación suelta sin `.git`): no aplicar fetch/pull; avisar si se esperaba un repo.
+- Operaciones **solo** de git pedidas por el usuario (status, diff, commit, PR) siguen las reglas de commit/PR del usuario; aun así, antes de **nuevos** cambios de código, repetir sync + rama si hace falta.

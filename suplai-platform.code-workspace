@@ -1,0 +1,63 @@
+{
+  "folders": [
+    {
+      "name": "platform",
+      "path": "."
+    },
+    {
+      "name": "agent",
+      "path": "../agente-conversacional-multi_tenant"
+    },
+    {
+      "name": "backend",
+      "path": "../backend-supabase"
+    },
+    {
+      "name": "backoffice",
+      "path": "../product-management-app"
+    },
+    {
+      "name": "tienda",
+      "path": "../wholesale-catalog-app"
+    },
+    {
+      "name": "sniffer",
+      "path": "../sniffer-vendedores"
+    },
+    {
+      "name": "sales-engine",
+      "path": "../sales-engine"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.next": true,
+      "**/__pycache__": true,
+      "**/.pytest_cache": true,
+      "**/node_modules": true,
+      "**/.venv": true
+    },
+    "search.exclude": {
+      "**/.git": true,
+      "**/.next": true,
+      "**/node_modules": true,
+      "**/.venv": true,
+      "**/docs/db-structure/snapshots": false
+    },
+    "python.analysis.extraPaths": [
+      "${workspaceFolder:agent}",
+      "${workspaceFolder:backend}",
+      "${workspaceFolder:sniffer}",
+      "${workspaceFolder:sales-engine}"
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "charliermarsh.ruff",
+      "dbaeumer.vscode-eslint",
+      "bradlc.vscode-tailwindcss"
+    ]
+  }
+}

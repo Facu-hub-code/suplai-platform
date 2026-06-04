@@ -1,0 +1,10 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+
+# MCP local (tokens personales; usar los .example como plantilla)
+.cursor/mcp.local.json
+.cursor/mcp.n8n.json
