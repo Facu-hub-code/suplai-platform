@@ -1,0 +1,49 @@
+---
+description: Protocolo MCP Supabase para cargas de implementación (escritura controlada)
+globs: implementacion/**
+alwaysApply: false
+---
+
+# MCP Supabase — implementación con escritura
+
+## Conexión
+
+- Proyecto: `nxmeezcvjltlqfybbczt`
+- Servidor MCP: `supabase` en `.cursor/mcp.json`
+- Para **cargar datos**, el implementador debe quitar `read_only=true` de la URL MCP durante la sesión y volver a activarlo al terminar (ver `implementacion/README.md`).
+
+## Antes de escribir
+
+1. `list_tables` en `{schema}` y tablas `public` necesarias (`verbose: true` si hay dudas de columnas).
+2. Confirmar que **no existe** columna conflictiva; no inventar columnas — contrastar con MCP.
+3. Confirmar `schema_name` dos veces con el implementador.
+
+## Escritura
+
+- **MUST** acotar SQL a `{schema}.tabla` del tenant activo (y `public.tenant_*_mappings` con `tenant_id` correcto).
+- **MUST** insertar en lotes de 50–100 filas máximo; informar progreso en lenguaje simple.
+- **MUST** usar valores del CSV ya aprobado; no improvisar precios/SKUs distintos al CSV.
+- **SHOULD** preferir `INSERT` explícito con columnas listadas; evitar `DELETE` salvo Fase 9.
+
+## Después de escribir
+
+- **MUST** ejecutar verificación: `COUNT(*)` por tabla tocada + `SELECT` de 3 filas muestra.
+- **MUST** comparar conteo con filas del CSV (tolerancia 0 salvo filas rechazadas documentadas).
+
+## Tablas habituales por fase
+
+| Fase | Tablas |
+|------|--------|
+| 1 | `{schema}.productos`, `listas_precios`, `precios_productos`, `productos_aliases` |
+| 2 | `{schema}.promociones_semanales` |
+| 3 | `public.tenant_cross_sell_mappings`, `public.tenant_up_sell_mappings` |
+| 4 | `{schema}.vendedores`, `geo_zones`, `vendedor_geo_zones`, `clients`, `client_locations` |
+| 5 | `{schema}.clients` (update flags) |
+| 6 | `{schema}.pedidos`, `items_pedido` |
+| 7 | `{schema}.n8n_chat_histories` |
+| 8 | `{schema}.ia_tickets` (+ mensajes si aplica efecto cruzado) |
+
+## Seguridad
+
+- No exponer service role keys en el chat.
+- Si MCP devuelve error de permisos o columna inexistente: detener, explicar al implementador y proponer fix vía ingeniería.

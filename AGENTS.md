@@ -80,4 +80,5 @@ Migraciones oficiales viven en `backend/`.
 
 ## Skill recomendada
 
-Investigaciones cross-repo: `.cursor/skills/cross-repo-investigation/SKILL.md`
+Investigaciones cross-repo: `.cursor/skills/cross-repo-investigation/SKILL.md`  
+Onboarding / implementación tenant: `.cursor/skills/suplai-implementation/SKILL.md` + `implementacion/README.md`

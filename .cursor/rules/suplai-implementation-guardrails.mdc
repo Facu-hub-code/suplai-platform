@@ -1,0 +1,41 @@
+---
+description: Guardrails para implementadores no técnicos — onboarding de tenants Suplai
+globs: implementacion/**
+alwaysApply: false
+---
+
+# Implementación Suplai — guardrails
+
+Aplica cuando trabajás en `implementacion/**` o el usuario pide implementar/onboarding de un distribuidor.
+
+## Alcance
+
+- **MUST** trabajar solo en `implementacion/{schema_name}/` del tenant activo.
+- **MUST** ejecutar Fase 0 (preflight) antes de Fase 1; no saltar fases del pipeline.
+- **MUST** pedir `schema_name` al inicio y **repetirlo textualmente** antes del primer `INSERT`/`UPDATE`/`DELETE` en Supabase.
+- **MUST** generar el CSV de salida de la fase y pedir al implementador que lo revise **antes** de cargar a BD.
+- **MUST** cerrar cada fase actualizando `manifest.yaml` y verificando conteos con MCP (`SELECT`).
+
+## Prohibiciones
+
+- **MUST NOT** modificar schemas distintos al `{schema_name}` confirmado.
+- **MUST NOT** alterar `public.distribuidoras` salvo lectura o campos acordados en la skill (ej. metadata de ciudad).
+- **MUST NOT** ejecutar Fase 9 (purga) sin la frase exacta del implementador: `PURGE MOCK {schema_name}`.
+- **MUST NOT** borrar datos si `COUNT(*) > 0` en productos/clientes y el implementador no confirmó que es entorno de prueba/mock.
+- **MUST NOT** pedir al implementador que escriba SQL; vos proponés pasos en lenguaje simple.
+
+## Vocabulario con el implementador
+
+Usar: "confirmar", "revisar CSV", "siguiente fase", "schema", "cantidad de productos cargados".
+
+Evitar: jerga de migraciones, transacciones, FK, sin explicar en una línea.
+
+## Bloqueos
+
+- Si falta `is_mock` en tablas: seguir con CSV marcado `is_mock=true` y registrar `blocked: is_mock_migration` en manifest; Fase 9 queda bloqueada.
+- Si preflight falla (tenant con datos sin acuerdo): **STOP** y escalar.
+
+## Referencia
+
+- Resumen del flujo: `docs/implementacion/flujo-agentico-resumen.md`
+- Orquestador: skill `suplai-implementation`

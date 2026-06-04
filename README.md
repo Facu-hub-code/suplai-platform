@@ -71,6 +71,12 @@ Sniffer (FastAPI)      →  Kommo webhooks → Postgres espejo (Kommo)
 Agente                 →  link tienda → Tienda web
 ```
 
+## Implementación de tenants (onboarding)
+
+Guía para implementadores: [`implementacion/README.md`](implementacion/README.md).  
+Skills Cursor: `.cursor/skills/suplai-implementation/` (fases 0–9, CSV + carga MCP).  
+Piloto: `implementacion/colormix/`.
+
 ## Documentación
 
 - [Arquitectura](./docs/ARCHITECTURE.md)
