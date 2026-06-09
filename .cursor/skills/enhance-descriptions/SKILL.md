@@ -7,6 +7,9 @@ description: Proponer y aplicar descripciones comerciales optimizadas y alias lo
 
 Este flujo permite auditar y reescribir las descripciones de los productos y generar alias regionales de calidad para un tenant en Supabase. Elimina el ruido gramatical/publicitario (como *"Descubre..."*, *"Ideal para tu negocio..."*, *"Te traemos..."*) para que el RAG del agente identifique los productos con mayor velocidad y precisión.
 
+> [!IMPORTANT]
+> **REGLA DE OBLIGADA LECTURA PARA EL AGENTE**: Antes de ejecutar cualquier paso de esta skill, el agente **DEBE LEER obligatoriamente** la guía de uso detallada en [skill-guide.md](./skill-guide.md). Esto asegura que se realicen los auto-chequeos correctos, se apliquen los guardrails contra alucinaciones locales y se comprenda el flujo de validación proactiva.
+
 ---
 
 ## 1. Identificar el Esquema y Origen
@@ -14,25 +17,25 @@ Este flujo permite auditar y reescribir las descripciones de los productos y gen
 1. Preguntar al implementador por el **`esquema`** del tenant (ej: `gonzales`).
 2. Determinar la fuente de productos:
    - **Opción A (CSV del Usuario)**: El usuario provee una ruta a un CSV con las columnas `codigo_producto`, `nombre`, `descripcion` de los productos que desea enriquecer.
-   - **Opción B (Auto-Detección)**: El agente analiza la base de datos del tenant (vía Supabase MCP `list_tables` con `verbose=true` para inspeccionar productos/aliases o queries directas) para seleccionar automáticamente hasta **50 productos** que considere ambiguos, confusos para RAG (ej: marcas/chocolates sin el sustantivo "chocolate", jugos sin "jugo") o que carezcan de alias y sustantivos de categoría.
+   - **Opción B (Auto-Detección)**: El agente analiza la base de datos del tenant (vía Supabase MCP `list_tables` con `verbose=true` para inspeccionar productos/aliases o queries directas) para seleccionar automáticamente hasta **N productos** (50 por defecto, o configurable mediante `--limite`) que considere ambiguos, confusos para RAG (ej: marcas/chocolates sin el sustantivo "chocolate", jugos sin "jugo") o que carezcan de alias y sustantivos de categoría.
 
 ---
 
 ## 2. Preparación de Candidatos (Solo Opción B)
 
-1. Si no hay CSV de entrada provisto, el agente debe ejecutar el script `scripts/buscar_candidatos.py` para recopilar automáticamente los productos más ambiguos o desclasificados del catálogo del tenant:
+1. Si no hay CSV de entrada provisto, el agente debe ejecutar el script `scripts/buscar_candidatos.py` para recopilar automáticamente los productos más ambiguos o desclasificados del catálogo del tenant. Se puede pasar el parámetro opcional `--limite` (ej: `--limite 100`):
    ```bash
-   python scripts/buscar_candidatos.py --esquema {esquema}
+   python scripts/buscar_candidatos.py --esquema {esquema} [--limite {limite}]
    ```
-2. Este script consultará la base de datos y escribirá la lista propuesta de 50 candidatos en un CSV temporal:
+2. Este script consultará la base de datos y escribirá la lista propuesta de candidatos en un CSV temporal:
    `implementacion/{esquema}/inputs/candidatos_a_enriquecer.csv`
    - Formato requerido generado automáticamente por el script:
      ```csv
      codigo_producto,nombre,descripcion
      12397,COFLER RELLENA YOGURT FRUTILLA,"Descubre el sabor..."
      ```
-3. Presentar los 50 candidatos al implementador y pedir confirmación:
-   > *"Detecté 50 productos en la base de datos que se beneficiarían de mejores descripciones y alias (ej: carecen de categoría o contienen relleno). ¿Confirmás iniciar la generación?"*
+3. Presentar los candidatos al implementador y pedir confirmación:
+   > *"Detecté {limite} productos en la base de datos que se beneficiarían de mejores descripciones y alias (ej: carecen de categoría o contienen relleno). ¿Confirmás iniciar la generación?"*
 
 ---
 
@@ -44,7 +47,7 @@ Una vez confirmados los candidatos o especificado el CSV de entrada:
    ```bash
    python scripts/enriquecer_catalogo.py --esquema {esquema} --csv-entrada implementacion/{esquema}/inputs/candidatos_a_enriquecer.csv --csv-salida implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv
    ```
-2. El script consultará **SerpAPI** (Google restringido a `mercadolibre.com.ar` y `carrefour.com.ar`) y **OpenAI** (`gpt-4o-mini` por defecto) para generar descripciones B2B factuales y alias limpios para el contexto de la distribuidora.
+2. El script consultará **Serper** (opción preferida y más barata, requiere configurar `SEARCH_PROVIDER=serper` y `SERPER_API_KEY` en el archivo `.env`) o **SerpAPI** (Google restringido a `mercadolibre.com.ar` y `carrefour.com.ar`) y **OpenAI** (`gpt-4o-mini` por defecto) para generar descripciones B2B factuales y alias limpios para el contexto de la distribuidora.
 3. El resultado se guardará en `implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv`.
 
 ---

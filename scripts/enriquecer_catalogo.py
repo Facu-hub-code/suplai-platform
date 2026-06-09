@@ -62,52 +62,133 @@ def filtrar_alias_peligrosos(nombre_producto: str, alias_locales: List[str]) -> 
 # ==========================================
 # CONEXIÓN CON BÚSQUEDA WEB (SerpAPI)
 # ==========================================
-def buscar_contexto_serpapi(nombre_producto: str) -> str:
-    """
-    Realiza la búsqueda en Google Argentina filtrando por MercadoLibre y Carrefour.
-    """
-    if not SERPAPI_API_KEY:
-        return "Sin contexto web (API Key no configurada)."
+# ==========================================
+# PATRÓN STRATEGY PARA PROVEEDORES DE BÚSQUEDA
+# ==========================================
+from abc import ABC, abstractmethod
 
-    nombre_busqueda = limpiar_nombre_producto(nombre_producto)
-    
-    # Buscar exclusivamente en e-commerce y retailers argentinos líderes
-    query = f"site:mercadolibre.com.ar OR site:carrefour.com.ar {nombre_busqueda}"
-    
-    params = {
-        "engine": "google",
-        "q": query,
-        "api_key": SERPAPI_API_KEY,
-        "gl": "ar",  # Ubicación: Argentina
-        "hl": "es"   # Idioma: Español
-    }
-    
-    try:
-        response = requests.get("https://serpapi.com/search", params=params, timeout=30)
-        if response.status_code == 200:
-            data = response.json()
-            results = data.get("organic_results", [])
-            snippets = [r.get("snippet") for r in results if r.get("snippet")]
-            if snippets:
-                return "\n".join(f"- {s}" for s in snippets[:3])
-    except Exception as e:
-        print(f"Error consultando SerpAPI restringido para '{nombre_producto}': {e}")
+class SearchProvider(ABC):
+    @abstractmethod
+    def buscar(self, query: str, fallback_query: str = None) -> str:
+        pass
+
+class SerpApiProvider(SearchProvider):
+    def __init__(self, api_key: str):
+        self.api_key = api_key
+
+    def buscar(self, query: str, fallback_query: str = None) -> str:
+        if not self.api_key:
+            return "Sin contexto web (API Key no configurada)."
+            
+        params = {
+            "engine": "google",
+            "q": query,
+            "api_key": self.api_key,
+            "gl": "ar",
+            "hl": "es"
+        }
         
-    # Fallback abierto en caso de no obtener resultados
-    print(f"Búsqueda restringida sin resultados para '{nombre_producto}'. Usando fallback abierto...")
-    params["q"] = f"{nombre_busqueda} golosina alimento argentina"
-    try:
-        response = requests.get("https://serpapi.com/search", params=params, timeout=30)
-        if response.status_code == 200:
-            data = response.json()
-            results = data.get("organic_results", [])
-            snippets = [r.get("snippet") for r in results if r.get("snippet")]
-            if snippets:
-                return "\n".join(f"- {s}" for s in snippets[:3])
-    except Exception as e:
-        print(f"Error consultando SerpAPI fallback para '{nombre_producto}': {e}")
+        try:
+            response = requests.get("https://serpapi.com/search", params=params, timeout=30)
+            if response.status_code == 200:
+                data = response.json()
+                results = data.get("organic_results", [])
+                snippets = [r.get("snippet") for r in results if r.get("snippet")]
+                if snippets:
+                    return "\n".join(f"- {s}" for s in snippets[:3])
+        except Exception as e:
+            print(f"Error consultando SerpAPI para '{query}': {e}")
 
-    return "No se encontraron snippets web relevantes."
+        if fallback_query:
+            print(f"Búsqueda restringida sin resultados. Usando fallback abierto...")
+            params["q"] = fallback_query
+            try:
+                response = requests.get("https://serpapi.com/search", params=params, timeout=30)
+                if response.status_code == 200:
+                    data = response.json()
+                    results = data.get("organic_results", [])
+                    snippets = [r.get("snippet") for r in results if r.get("snippet")]
+                    if snippets:
+                        return "\n".join(f"- {s}" for s in snippets[:3])
+            except Exception as e:
+                print(f"Error consultando SerpAPI fallback para '{fallback_query}': {e}")
+                
+        return "No se encontraron snippets web relevantes."
+
+class SerperProvider(SearchProvider):
+    def __init__(self, api_key: str):
+        self.api_key = api_key
+
+    def buscar(self, query: str, fallback_query: str = None) -> str:
+        if not self.api_key:
+            return "Sin contexto web (API Key no configurada)."
+
+        url = "https://google.serper.dev/search"
+        headers = {
+            "X-API-KEY": self.api_key,
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "q": query,
+            "gl": "ar",
+            "hl": "es"
+        }
+        
+        try:
+            response = requests.post(url, headers=headers, json=payload, timeout=30)
+            if response.status_code == 200:
+                data = response.json()
+                results = data.get("organic", [])
+                snippets = [r.get("snippet") for r in results if r.get("snippet")]
+                if snippets:
+                    return "\n".join(f"- {s}" for s in snippets[:3])
+        except Exception as e:
+            print(f"Error consultando Serper para '{query}': {e}")
+
+        if fallback_query:
+            print(f"Búsqueda restringida sin resultados. Usando fallback abierto...")
+            payload["q"] = fallback_query
+            try:
+                response = requests.post(url, headers=headers, json=payload, timeout=30)
+                if response.status_code == 200:
+                    data = response.json()
+                    results = data.get("organic", [])
+                    snippets = [r.get("snippet") for r in results if r.get("snippet")]
+                    if snippets:
+                        return "\n".join(f"- {s}" for s in snippets[:3])
+            except Exception as e:
+                print(f"Error consultando Serper fallback para '{fallback_query}': {e}")
+
+        return "No se encontraron snippets web relevantes."
+
+def obtener_proveedor_busqueda() -> SearchProvider:
+    provider_pref = os.getenv("SEARCH_PROVIDER", "").strip().lower()
+    
+    serpapi_key = os.getenv("SERPAPI_API_KEY")
+    serper_key = os.getenv("SERPER_API_KEY")
+    
+    if provider_pref == "serper" and serper_key:
+        return SerperProvider(serper_key)
+    elif provider_pref == "serpapi" and serpapi_key:
+        return SerpApiProvider(serpapi_key)
+        
+    if serper_key:
+        return SerperProvider(serper_key)
+    elif serpapi_key:
+        return SerpApiProvider(serpapi_key)
+        
+    raise ValueError("No se encontró ninguna API Key para búsqueda (SERPAPI_API_KEY o SERPER_API_KEY).")
+
+def buscar_contexto_web(nombre_producto: str) -> str:
+    nombre_busqueda = limpiar_nombre_producto(nombre_producto)
+    query = f"site:mercadolibre.com.ar OR site:carrefour.com.ar {nombre_busqueda}"
+    fallback = f"{nombre_busqueda} golosina alimento argentina"
+    
+    try:
+        provider = obtener_proveedor_busqueda()
+        return provider.buscar(query, fallback_query=fallback)
+    except ValueError as e:
+        return f"Sin contexto web ({e})."
 
 # ==========================================
 # LLAMADA AL LLM (OPENAI LLM ENDPOINT)
@@ -223,8 +304,8 @@ def ejecutar_enriquecimiento_csv(csv_entrada: str, csv_salida: str):
         nombre_clean = limpiar_nombre_producto(nombre)
         print(f"[{i}/{len(productos)}] Procesando: {code} | {nombre_clean}")
         
-        # 1. SerpAPI
-        contexto = buscar_contexto_serpapi(nombre)
+        # 1. Búsqueda Web (SerpAPI o Serper)
+        contexto = buscar_contexto_web(nombre)
         
         # 2. OpenAI
         data_ia = generar_enriquecimiento_ia(nombre, contexto)

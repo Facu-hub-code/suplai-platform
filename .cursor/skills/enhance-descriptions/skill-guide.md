@@ -43,7 +43,13 @@ Debes tener un archivo `.env` configurado en la raíz del proyecto (`suplai-plat
 OPENAI_API_KEY=tu-api-key-de-openai
 OPENAI_MODEL=gpt-4o-mini
 
-# SerpAPI para la búsqueda de contexto comercial en retailers argentinos
+# Proveedor de búsqueda web (serper o serpapi). Se recomienda serper por ser más barato.
+SEARCH_PROVIDER=serper
+
+# API Key para Serper (requerido si SEARCH_PROVIDER=serper)
+SERPER_API_KEY=tu-api-key-de-serper
+
+# API Key para SerpAPI (requerido si SEARCH_PROVIDER=serpapi)
 SERPAPI_API_KEY=tu-api-key-de-serpapi
 
 # URL de conexión directa a la base de datos PostgreSQL de Supabase
@@ -73,10 +79,10 @@ Usa esta opción cuando el implementador o el cliente ya posean un archivo CSV c
 ### Opción B: Auto-Detección desde la Base de Datos
 Usa esta opción cuando no haya un CSV de entrada y quieras auditar la base de datos para identificar automáticamente productos ambiguos, desclasificados o con exceso de texto publicitario (fluff) utilizando un sistema inteligente de puntuación de ambigüedad RAG.
 
-1. **Obtener los 50 mejores candidatos**:
-   Corre el script detector de candidatos pasando el esquema del tenant deseado:
+1. **Obtener los candidatos**:
+   Corre el script detector de candidatos pasando el esquema del tenant deseado. Puedes usar el parámetro opcional `--limite` (50 por defecto, o cualquier número, ej: 100):
    ```bash
-   python scripts/buscar_candidatos.py --esquema <nombre_esquema>
+   python scripts/buscar_candidatos.py --esquema <nombre_esquema> [--limite <cantidad>]
    ```
    *Esto generará automáticamente la lista en:*
    `implementacion/{nombre_esquema}/inputs/candidatos_a_enriquecer.csv`

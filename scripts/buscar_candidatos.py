@@ -54,7 +54,7 @@ def calcular_puntuacion_ambiguedad(nombre: str, descripcion: str, tiene_alias: b
 
     return score
 
-async def buscar_candidatos(esquema: str):
+async def buscar_candidatos(esquema: str, limite: int = 50):
     db_url = os.getenv("SUPABASE_DB_URL")
     if not db_url:
         print("Error: SUPABASE_DB_URL no configurada en el archivo .env.")
@@ -104,8 +104,8 @@ async def buscar_candidatos(esquema: str):
     # Ordenar por puntuación de ambigüedad descendente
     candidatos.sort(key=lambda x: x["score"], reverse=True)
     
-    # Tomamos los 50 más ambiguos
-    top_candidatos = candidatos[:50]
+    # Tomamos los N más ambiguos
+    top_candidatos = candidatos[:limite]
     
     print(f"Búsqueda finalizada. Seleccionados {len(top_candidatos)} candidatos más ambiguos para enriquecer.")
     
@@ -124,9 +124,10 @@ async def buscar_candidatos(esquema: str):
 def main():
     parser = argparse.ArgumentParser(description="Busca candidatos a enriquecer según criterios de ambigüedad RAG.")
     parser.add_argument("--esquema", required=True, help="Esquema del tenant en la base de datos (ej: gonzales)")
+    parser.add_argument("--limite", type=int, default=50, help="Cantidad de candidatos a buscar (default: 50)")
     args = parser.parse_args()
     
-    asyncio.run(buscar_candidatos(args.esquema))
+    asyncio.run(buscar_candidatos(args.esquema, args.limite))
 
 if __name__ == "__main__":
     main()
