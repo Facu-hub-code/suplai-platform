@@ -8,9 +8,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Listado de sustantivos comunes de categorías de alimentos/bebidas y golosinas en Argentina.
+# Listado de sustantivos comunes de categorías de consumo masivo, bebidas, limpieza, perfumería, ferretería y pinturería en Argentina.
 # Si el nombre del producto no contiene ninguno de estos, se considera altamente ambiguo para un LLM/RAG.
 SUSTANTIVOS_CATEGORIA = {
+    # --- Alimentos y Golosinas ---
     "chocolate", "choco", "jugo", "galleta", "galletita", "oblea", "caramelo", "chupetin", 
     "chicle", "alfajor", "bebida", "agua", "gaseosa", "salsa", "aderezo", "papas", "snack", 
     "barrita", "aceite", "ketchup", "mostaza", "mayonesa", "arroz", "fideos", "pure", "tomate", 
@@ -22,7 +23,26 @@ SUSTANTIVOS_CATEGORIA = {
     "caldo", "sopa", "jardinera", "arveja", "lenteja", "poroto", "garbanzo", "choclo", 
     "maiz", "atun", "sardina", "caballa", "pate", "picadillo", "condimento", "oregano", 
     "provenzal", "pimenton", "aji", "comino", "masala", "curry", "aceituna", "durazno", 
-    "pera", "piña", "anana", "coctel", "cacao", "edulcorante", "azucar", "miel", "helado"
+    "pera", "piña", "anana", "coctel", "cacao", "edulcorante", "azucar", "miel", "helado",
+
+    # --- Bebidas Alcohólicas y Vinos (Vadra, etc.) ---
+    "vino", "tinto", "blanco", "rosado", "espumante", "champagne", "champan", "sidra", 
+    "cerveza", "aperitivo", "fernet", "licor", "gin", "vodka", "whisky", "ron", "tequila", 
+    "vermut", "malbec", "cabernet", "chardonnay", "sauvignon", "merlot", "pinot", "syrah", 
+    "tempranillo", "bonarda", "torrontes", "brut", "extra brut", "sweet", "cosecha",
+
+    # --- Limpieza y Perfumería ---
+    "detergente", "jabon", "suavizante", "lavandina", "desinfectante", "limpiador", "esponja", 
+    "trapo", "rejilla", "balde", "escoba", "secador", "lustramuebles", "desodorante", 
+    "insecticida", "shampoo", "acondicionador", "colonia", "perfume", "crema", "pasta dental", 
+    "cepillo", "talco", "repelente", "toallitas", "pañal", "afeitadora", "espuma",
+
+    # --- Ferretería y Pinturería (Colormix, etc.) ---
+    "tornillo", "clavo", "pintura", "latex", "esmalte", "barniz", "pincel", "rodillo", 
+    "lija", "martillo", "taladro", "destornillador", "tuerca", "arandela", "tarugo", "llave", 
+    "pinza", "alicate", "soldador", "disco", "electrodo", "sellador", "silicona", "adhesivo", 
+    "pegamento", "solvente", "aguarras", "diluyente", "espatula", "soplete", "cinta", 
+    "alambre", "soga", "cadena", "candado", "cerradura", "bisagra"
 }
 
 BOILERPLATE_MARKETING = [
