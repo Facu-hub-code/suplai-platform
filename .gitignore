@@ -8,3 +8,8 @@ credentials.json
 # MCP local (tokens personales; usar los .example como plantilla)
 .cursor/mcp.local.json
 .cursor/mcp.n8n.json
+
+# Antigravity (Toto)
+.agents/
+
+scratch/

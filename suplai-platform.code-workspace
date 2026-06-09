@@ -21,10 +21,6 @@
       "path": "../wholesale-catalog-app"
     },
     {
-      "name": "sniffer",
-      "path": "../sniffer-vendedores"
-    },
-    {
       "name": "sales-engine",
       "path": "../sales-engine"
     }
