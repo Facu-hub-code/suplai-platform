@@ -8,6 +8,9 @@ Esta guía sirve como fuente de verdad para entender, preparar y ejecutar el flu
 > Explícale al usuario que puedes encargarte de todo el flujo (buscar candidatos, enriquecer catálogo, mostrar vista previa y aplicar cambios a Supabase) si en su siguiente prompt te indica:
 > 1. El **esquema del tenant** (ej. `gonzales`).
 > 2. Si utilizará un **CSV de entrada** (Opción A) o si prefiere realizar **Auto-detección** (Opción B) desde la base de datos.
+> 
+> **MANDATORIO**: Antes de iniciar la ejecución, **debes preguntar activamente al usuario** si desea configurar parámetros de búsqueda específicos para el rubro (como `--dominios` específicos de ferretería o pinturería, o un `--sufijo-fallback` personalizado) y el modo de detalle de descripción deseado (`--modo-contexto` como `reducido` o `ampliado`).
+> 
 > Antes de ejecutar comandos, **realiza un autochequeo (self-check)** verificando la existencia y configuración de los siguientes elementos en el entorno local (puedes leer archivos o listar el directorio):
 > - El archivo `.env` en la raíz del proyecto.
 > - La presencia de las variables `OPENAI_API_KEY`, `SERPAPI_API_KEY` y `SUPABASE_DB_URL` en dicho `.env` (si faltan, avísale al usuario qué variables debe agregar).
@@ -59,6 +62,22 @@ SUPABASE_DB_URL=postgresql://<usuario>:<password>@<host>:<puerto>/postgres
 BACKEND_URL=https://web-production-f544f.up.railway.app
 ```
 
+### 4. Configuración por Esquema (`config.json`) (Altamente Recomendado)
+Para evitar ingresar los parámetros por consola en cada ejecución y forzar reglas específicas del catálogo al LLM, podés configurar un archivo `config.json` por distribuidora. El agente de IA **debe verificar activamente si existe o crearlo** si no lo encuentra.
+
+El archivo debe vivir en: `implementacion/{esquema}/config.json`
+
+**Estructura del archivo `config.json` (ejemplo para Vadra, distribuidora de vinos):**
+```json
+{
+  "dominios": "losfenicios.com.ar,mercadolibre.com.ar,carrefour.com.ar",
+  "sufijo_fallback": "vino bebida argentina",
+  "modo_contexto": "ampliado",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA VINOS:\n1. OBLIGATORIEDAD DE MARCA/BODEGA: Es mandatorio incluir explícitamente la bodega productora (ej. Domaine Bousquet, Alta Yari) y la marca o línea comercial específica en la descripción técnica.\n2. ALIAS DE BODEGA: En los alias locales, incluye siempre el nombre de la bodega y de la línea del vino (ej. 'domaine bousquet', 'alta yari', 'ameri', 'gaia') además de los sinónimos comunes."
+}
+```
+*Si un parámetro se pasa explícitamente por CLI (consola), este tendrá prioridad sobre el valor configurado en el `config.json`.*
+
 ---
 
 ## 🚀 Formas de Ejecución
@@ -71,7 +90,7 @@ Usa esta opción cuando el implementador o el cliente ya posean un archivo CSV c
 1. **Estructura del CSV de entrada**: Debe contener al menos las columnas `codigo_producto`, `nombre` y `descripcion` (o `product_code`, `name` y `description`).
 2. **Ejecutar el enriquecimiento**:
    ```bash
-   python scripts/enriquecer_catalogo.py --esquema <nombre_esquema> --csv-entrada <ruta_al_csv_de_entrada> --csv-salida <ruta_al_csv_de_salida_preview>
+   python scripts/enriquecer_catalogo.py --esquema <nombre_esquema> --csv-entrada <ruta_al_csv_de_entrada> --csv-salida <ruta_al_csv_de_salida_preview> [--dominios <dominios>] [--sufijo-fallback <sufijo>] [--modo-contexto <modo>]
    ```
 
 ---
@@ -89,7 +108,7 @@ Usa esta opción cuando no haya un CSV de entrada y quieras auditar la base de d
 
 2. **Ejecutar el enriquecimiento (Dry Run)**:
    ```bash
-   python scripts/enriquecer_catalogo.py --esquema <nombre_esquema> --csv-entrada implementacion/{nombre_esquema}/inputs/candidatos_a_enriquecer.csv --csv-salida implementacion/{nombre_esquema}/outputs/vista_previa_enriquecimiento.csv
+   python scripts/enriquecer_catalogo.py --esquema <nombre_esquema> --csv-entrada implementacion/{nombre_esquema}/inputs/candidatos_a_enriquecer.csv --csv-salida implementacion/{nombre_esquema}/outputs/vista_previa_enriquecimiento.csv [--dominios <dominios>] [--sufijo-fallback <sufijo>] [--modo-contexto <modo>]
    ```
 
 ---

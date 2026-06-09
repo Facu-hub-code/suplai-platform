@@ -179,10 +179,17 @@ def obtener_proveedor_busqueda() -> SearchProvider:
         
     raise ValueError("No se encontró ninguna API Key para búsqueda (SERPAPI_API_KEY o SERPER_API_KEY).")
 
-def buscar_contexto_web(nombre_producto: str) -> str:
+def buscar_contexto_web(nombre_producto: str, dominios: List[str] = None, sufijo_fallback: str = None) -> str:
     nombre_busqueda = limpiar_nombre_producto(nombre_producto)
-    query = f"site:mercadolibre.com.ar OR site:carrefour.com.ar {nombre_busqueda}"
-    fallback = f"{nombre_busqueda} golosina alimento argentina"
+    
+    if dominios:
+        query_parts = [f"site:{d.strip()}" for d in dominios]
+        query = f"({' OR '.join(query_parts)}) {nombre_busqueda}"
+    else:
+        query = f"site:mercadolibre.com.ar OR site:carrefour.com.ar {nombre_busqueda}"
+        
+    sufijo = sufijo_fallback or "golosina alimento argentina"
+    fallback = f"{nombre_busqueda} {sufijo}"
     
     try:
         provider = obtener_proveedor_busqueda()
@@ -193,7 +200,7 @@ def buscar_contexto_web(nombre_producto: str) -> str:
 # ==========================================
 # LLAMADA AL LLM (OPENAI LLM ENDPOINT)
 # ==========================================
-def generar_enriquecimiento_ia(nombre: str, contexto_web: str) -> dict:
+def generar_enriquecimiento_ia(nombre: str, contexto_web: str, modo_contexto: str = "reducido", instrucciones_extra: str = None) -> dict:
     """
     Llama de manera directa al endpoint de OpenAI utilizando JSON Mode para formatear la descripción.
     No pasamos la descripción anterior para evitar sesgos de marketing.
@@ -208,37 +215,59 @@ def generar_enriquecimiento_ia(nombre: str, contexto_web: str) -> dict:
         "Content-Type": "application/json"
     }
     
+    if modo_contexto == "ampliado":
+        reglas_descripcion = (
+            "REGLAS ESTRICTAS PARA LA DESCRIPCIÓN (MODO AMPLIADO - CRUCIAL):\n"
+            "1. LONGITUD MÁXIMA: La descripción mejorada debe tener un máximo de 40 a 50 palabras.\n"
+            "2. CERO FLUFF/MARKETING: Queda terminantemente prohibido usar palabras subjetivas o publicitarias como "
+            "'delicioso', 'irresistible', 'ideal', 'único', 'descubre', 'disfruta', etc.\n"
+            "3. FORMATO DIRECTO: Empezá directamente con el sustantivo de la categoría del producto (ej: 'Vino tinto...', 'Pintura látex...').\n"
+            "4. DETALLE TÉCNICO PROFUNDO: Incluye detalles adicionales importantes para RAG. Para alimentos y bebidas (como vinos): "
+            "tipo de uva, origen geográfico, organicidad, proceso de fabricación. Para otros rubros (como herramientas, ferretería o "
+            "pinturería): especificaciones técnicas detalladas, materiales, compatibilidades y tipo de uso.\n"
+            "Ejemplo correcto: 'Vino tinto orgánico tipo Malbec cosechado en Mendoza, añejado en barricas de roble francés durante 12 meses, marca Vadra.'\n"
+        )
+        limite_palabras_instruccion = "máximo 50 palabras"
+    else:
+        reglas_descripcion = (
+            "REGLAS ESTRICTAS PARA LA DESCRIPCIÓN (MODO REDUCIDO - CRUCIAL):\n"
+            "1. LONGITUD MÁXIMA: La descripción mejorada debe tener un máximo de 10 a 15 palabras (una sola oración breve).\n"
+            "2. CERO FLUFF/MARKETING: Queda terminantemente prohibido usar palabras como 'delicioso', 'irresistible', 'suave', "
+            "'refrescante', 'ideal', 'perfecto', 'único', 'descubre', 'disfruta', o cualquier mención a kioscos, almacenes, "
+            "ganancia, rotación o ventas.\n"
+            "3. FORMATO DIRECTO: Empezá directamente con el sustantivo de la categoría del producto (ej: 'Chocolate con leche...', "
+            "'Jugo en polvo...', 'Galletitas dulces...', 'Aceite de girasol...').\n"
+            "4. DETALLE TÉCNICO: Nombrá la marca principal, el sabor y formato físico sin adornar.\n"
+            "Ejemplo correcto: 'Chocolate con leche relleno con crema de yogurt sabor frutilla, marca Cofler.'\n"
+            "Ejemplo incorrecto: 'Delicioso chocolate Cofler relleno de yogurt sabor frutilla, presentado en cajas ideal para kiosco.'\n"
+        )
+        limite_palabras_instruccion = "máximo 15 palabras"
+
     prompt_sistema = (
         "Sos un sistema experto en auditoría de catálogos e indexación RAG para e-commerce en Argentina.\n"
-        "El catálogo pertenece a una distribuidora mayorista de consumo masivo (golosinas, alimentos, bebidas, artículos de limpieza y perfumería). Ten en cuenta este contexto al interpretar la verdadera naturaleza del producto (por ejemplo, evita confundir marcas de golosinas o alimentos con herramientas industriales, pinturas artísticas u otros rubros ajenos).\n"
-        "Tu objetivo es generar una descripción técnica y ultra-concisa del producto y una lista de alias de alta calidad.\n\n"
+        "El catálogo pertenece a una distribuidora de consumo masivo (golosinas, alimentos, bebidas, artículos de limpieza, perfumería, ferretería, pinturería u otros rubros). Ten en cuenta este contexto al interpretar la verdadera naturaleza del producto (por ejemplo, evita confundir marcas de golosinas o alimentos con herramientas industriales, pinturas artísticas u otros rubros ajenos y viceversa).\n"
+        "Tu objetivo es generar una descripción técnica del producto y una lista de alias de alta calidad.\n\n"
         
-        "REGLAS ESTRICTAS PARA LA DESCRIPCIÓN (CRUCIAL):\n"
-        "1. LONGITUD MÁXIMA: La descripción mejorada debe tener un máximo de 10 a 15 palabras (una sola oración breve).\n"
-        "2. CERO FLUFF/MARKETING: Queda terminantemente prohibido usar palabras como 'delicioso', 'irresistible', 'suave', "
-        "'refrescante', 'ideal', 'perfecto', 'único', 'descubre', 'disfruta', o cualquier mención a kioscos, almacenes, "
-        "ganancia, rotación o ventas.\n"
-        "3. FORMATO DIRECTO: Empezá directamente con el sustantivo de la categoría del producto (ej: 'Chocolate con leche...', "
-        "'Jugo en polvo...', 'Galletitas dulces...', 'Aceite de girasol...').\n"
-        "4. DETALLE TÉCNICO: Nombrá la marca principal, el sabor y formato físico sin adornar.\n"
-        "Ejemplo correcto: 'Chocolate con leche relleno con crema de yogurt sabor frutilla, marca Cofler.'\n"
-        "Ejemplo incorrecto: 'Delicioso chocolate Cofler relleno de yogurt sabor frutilla, presentado en cajas ideal para kiosco.'\n\n"
+        f"{reglas_descripcion}\n"
         
         "REGLAS PARA LOS ALIAS:\n"
         "- Extraé sinónimos coloquiales válidos en Argentina en minúsculas (ej: 'galletitas', 'chicle', 'chupetin', 'pastillas').\n"
         "- No inventes abreviaturas peligrosas (nunca uses 'choclo' para chocolate).\n\n"
         
         "Deberás responder estrictamente con un objeto JSON que contenga las llaves:\n"
-        "- 'descripcion_mejorada': (string) La descripción técnica ultra-concisa.\n"
+        "- 'descripcion_mejorada': (string) La descripción técnica según las reglas.\n"
         "- 'alias_locales': (array de strings) Los alias válidos en minúsculas."
     )
+    
+    if instrucciones_extra:
+        prompt_sistema += f"\n\nINSTRUCCIONES ADICIONALES ESPECÍFICAS PARA EL CATÁLOGO:\n{instrucciones_extra}"
     
     prompt_usuario = (
         f"=== CONTEXTO DE BÚSQUEDA WEB (Google Argentina) ===\n"
         f"{contexto_web}\n\n"
         f"PRODUCTO TARGET: {nombre}\n\n"
         f"INSTRUCCIÓN: Basándote únicamente en el contexto web, identifica la verdadera naturaleza de {nombre}. "
-        f"Escribí una descripción técnica ultra-concisa de una sola oración (máximo 15 palabras) que empiece con la categoría del producto. "
+        f"Escribí una descripción técnica de una sola oración ({limite_palabras_instruccion}) que empiece con la categoría del producto. "
         f"Extraé sus alias locales."
     )
     
@@ -266,7 +295,7 @@ def generar_enriquecimiento_ia(nombre: str, contexto_web: str) -> dict:
 # ==========================================
 # PROCESAMIENTO MODO ENRIQUECIMIENTO (CSV)
 # ==========================================
-def ejecutar_enriquecimiento_csv(csv_entrada: str, csv_salida: str):
+def ejecutar_enriquecimiento_csv(csv_entrada: str, csv_salida: str, dominios: List[str] = None, sufijo_fallback: str = None, modo_contexto: str = "reducido", instrucciones_extra: str = None):
     print(f"\nIniciando enriquecimiento de catálogo desde: {csv_entrada}")
     if not os.path.exists(csv_entrada):
         print(f"Error: El archivo de entrada '{csv_entrada}' no existe.")
@@ -305,10 +334,10 @@ def ejecutar_enriquecimiento_csv(csv_entrada: str, csv_salida: str):
         print(f"[{i}/{len(productos)}] Procesando: {code} | {nombre_clean}")
         
         # 1. Búsqueda Web (SerpAPI o Serper)
-        contexto = buscar_contexto_web(nombre)
+        contexto = buscar_contexto_web(nombre, dominios=dominios, sufijo_fallback=sufijo_fallback)
         
         # 2. OpenAI
-        data_ia = generar_enriquecimiento_ia(nombre, contexto)
+        data_ia = generar_enriquecimiento_ia(nombre, contexto, modo_contexto=modo_contexto, instrucciones_extra=instrucciones_extra)
         
         # 3. Guardrails
         alias_crudos = data_ia.get("alias_locales", [])
@@ -454,15 +483,45 @@ def main():
     parser.add_argument("--csv-entrada", required=True, help="Ruta del CSV de entrada con los productos")
     parser.add_argument("--csv-salida", help="Ruta del CSV de salida para preview (no requerido si se usa --aplicar)")
     parser.add_argument("--aplicar", action="store_true", help="Aplica las descripciones y alias del CSV de entrada a la DB")
+    parser.add_argument("--dominios", help="Lista separada por comas de dominios para restringir la búsqueda de Google (ej: easy.com.ar,sodimac.com.ar)")
+    parser.add_argument("--sufijo-fallback", help="Sufijo para la query de fallback (ej: 'ferreteria construccion argentina')")
+    parser.add_argument("--modo-contexto", choices=["reducido", "ampliado"], default=None, help="Modo de detalle para las descripciones ('reducido' o 'ampliado')")
     
     args = parser.parse_args()
 
     if args.aplicar:
         asyncio.run(aplicar_actualizaciones_db(args.esquema, args.csv_entrada))
     else:
+        # Intentar cargar la configuración por defecto del esquema
+        config_esquema = {}
+        config_path = f"implementacion/{args.esquema}/config.json"
+        if os.path.exists(config_path):
+            try:
+                with open(config_path, "r", encoding="utf-8") as cf:
+                    config_esquema = json.load(cf)
+                print(f"Configuración cargada de forma automática para el esquema '{args.esquema}' desde: {config_path}")
+            except Exception as e:
+                print(f"Advertencia: No se pudo leer el archivo de configuración en {config_path}: {e}")
+
+        # Resolver parámetros: CLI tiene prioridad sobre config.json
+        dominios_raw = args.dominios or config_esquema.get("dominios")
+        dominios_list = [d.strip() for d in dominios_raw.split(",")] if dominios_raw else None
+        
+        sufijo_fallback = args.sufijo_fallback or config_esquema.get("sufijo_fallback")
+        modo_contexto = args.modo_contexto or config_esquema.get("modo_contexto") or "reducido"
+        instrucciones_extra = config_esquema.get("instrucciones_extra")
+
         # Modo Enriquecimiento (Dry-run / Preview)
         csv_out_path = args.csv_salida or f"implementacion/{args.esquema}/outputs/descripciones_mejoradas.csv"
-        ejecutar_enriquecimiento_csv(args.csv_entrada, csv_out_path)
+        
+        ejecutar_enriquecimiento_csv(
+            args.csv_entrada, 
+            csv_out_path, 
+            dominios=dominios_list, 
+            sufijo_fallback=sufijo_fallback, 
+            modo_contexto=modo_contexto,
+            instrucciones_extra=instrucciones_extra
+        )
 
 if __name__ == "__main__":
     main()

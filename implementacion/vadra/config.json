@@ -1,0 +1,6 @@
+{
+  "dominios": "losfenicios.com.ar,mercadolibre.com.ar,carrefour.com.ar",
+  "sufijo_fallback": "vino bebida argentina",
+  "modo_contexto": "ampliado",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA VINOS:\n1. OBLIGATORIEDAD DE MARCA/BODEGA: Es mandatorio incluir explícitamente la bodega productora (ej. Domaine Bousquet, Alta Yari) y la marca o línea comercial específica en la descripción técnica.\n2. ALIAS DE BODEGA: En los alias locales, incluye siempre el nombre de la bodega y de la línea del vino (ej. 'domaine bousquet', 'alta yari', 'ameri', 'gaia') además de los sinónimos comunes."
+}

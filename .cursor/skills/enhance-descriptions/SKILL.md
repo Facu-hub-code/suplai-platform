@@ -12,10 +12,15 @@ Este flujo permite auditar y reescribir las descripciones de los productos y gen
 
 ---
 
-## 1. Identificar el Esquema y Origen
+## 1. Identificar el Esquema, Rubro y Configuración
 
 1. Preguntar al implementador por el **`esquema`** del tenant (ej: `gonzales`).
-2. Determinar la fuente de productos:
+2. **MANDATORIO — Configuración de Búsqueda y Detalle**: Antes de iniciar la ejecución, verificar si existe un archivo de configuración en `implementacion/{esquema}/config.json` o preguntar al implementador si requiere ajustar alguna de las siguientes opciones de configuración (explicando los valores por defecto):
+   * **Configuración por Archivo (`config.json`) (Recomendado)**: El agente debe verificar o proponer crear un archivo `implementacion/{esquema}/config.json` para definir automáticamente los defaults del rubro y reglas específicas para el prompt (`instrucciones_extra`) como obligar a incluir bodegas/marcas o terminología especializada.
+   * **Dominios de búsqueda (`--dominios`)**: Sitios a buscar en Google (por defecto: `mercadolibre.com.ar,carrefour.com.ar`). Para otros rubros como ferretería/pinturería, sugerir `easy.com.ar,sodimac.com.ar`.
+   * **Términos de fallback (`--sufijo-fallback`)**: Sufijo de búsqueda de respaldo (por defecto: `golosina alimento argentina`). Para otros rubros, proponer ej: `ferreteria construccion argentina` o `vino premium argentina`.
+   * **Modo de descripción (`--modo-contexto`)**: `reducido` (10-15 palabras, corto y directo para e-commerce masivo) o `ampliado` (40-50 palabras, ideal para añadir especificaciones técnicas, origen de vinos tipo Vadra, etc.).
+3. Determinar la fuente de productos:
    - **Opción A (CSV del Usuario)**: El usuario provee una ruta a un CSV con las columnas `codigo_producto`, `nombre`, `descripcion` de los productos que desea enriquecer.
    - **Opción B (Auto-Detección)**: El agente analiza la base de datos del tenant (vía Supabase MCP `list_tables` con `verbose=true` para inspeccionar productos/aliases o queries directas) para seleccionar automáticamente hasta **N productos** (50 por defecto, o configurable mediante `--limite`) que considere ambiguos, confusos para RAG (ej: marcas/chocolates sin el sustantivo "chocolate", jugos sin "jugo") o que carezcan de alias y sustantivos de categoría.
 
@@ -43,11 +48,11 @@ Este flujo permite auditar y reescribir las descripciones de los productos y gen
 
 Una vez confirmados los candidatos o especificado el CSV de entrada:
 
-1. Ejecutar el script `scripts/enriquecer_catalogo.py` con los argumentos:
+1. Ejecutar el script `scripts/enriquecer_catalogo.py` con los argumentos configurados (agregando `--dominios`, `--sufijo-fallback` y `--modo-contexto` si el usuario decidió personalizarlos):
    ```bash
-   python scripts/enriquecer_catalogo.py --esquema {esquema} --csv-entrada implementacion/{esquema}/inputs/candidatos_a_enriquecer.csv --csv-salida implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv
+   python scripts/enriquecer_catalogo.py --esquema {esquema} --csv-entrada implementacion/{esquema}/inputs/candidatos_a_enriquecer.csv --csv-salida implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv [--dominios {dominios}] [--sufijo-fallback {sufijo-fallback}] [--modo-contexto {modo-contexto}]
    ```
-2. El script consultará **Serper** (opción preferida y más barata, requiere configurar `SEARCH_PROVIDER=serper` y `SERPER_API_KEY` en el archivo `.env`) o **SerpAPI** (Google restringido a `mercadolibre.com.ar` y `carrefour.com.ar`) y **OpenAI** (`gpt-4o-mini` por defecto) para generar descripciones B2B factuales y alias limpios para el contexto de la distribuidora.
+2. El script consultará **Serper** (opción preferida y más barata, requiere configurar `SEARCH_PROVIDER=serper` y `SERPER_API_KEY` en el archivo `.env`) o **SerpAPI** y **OpenAI** (`gpt-4o-mini` por defecto) para generar descripciones B2B factuales y alias limpios para el contexto del rubro seleccionado.
 3. El resultado se guardará en `implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv`.
 
 ---
