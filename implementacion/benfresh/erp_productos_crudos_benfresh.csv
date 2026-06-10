@@ -1,0 +1,201 @@
+sku,nombre,cantidad,odoo_id,barcode,categoria,uom,list_price,active
+10001,BAG Benfresh 3lb - Blueberry organic,3376,4735,,Packaging Materials,Box,0.0,True
+10002,BAG Benfresh 3lb - Broccoli,564,4736,,Packaging Materials,Box,0.0,True
+10003,BAG Benfresh 3lb - Mamey,796,4737,,Packaging Materials,Box,0.0,True
+10003,Boxes - 12x12x10,0,4754,,Packaging Materials,Box,0.0,True
+10004,BAG Benfresh 3lb - Mix berry,299,4739,,Packaging Materials,Box,0.0,True
+10005,BAG Benfresh 3lb - Mix tropical,1110,4740,,Packaging Materials,Box,0.0,True
+10006,BAG Benfresh 3lb - Pineapple,802,4741,,Packaging Materials,Box,0.0,True
+10007,BAG Benfresh 3lb - Spinach,2828,4742,,Packaging Materials,Box,0.0,True
+10008,BAG Benfresh 3lb - Strawberry,662,4743,,Packaging Materials,Box,0.0,True
+10009,BAG Benfresh 5lb - Blueberry,0,4744,,Packaging Materials,Box,0.0,True
+10010,BAGS  16 x 24,0,4750,,Packaging Materials,Box,0.0,True
+10011,BAGS 12 x 15,5689,4747,,Packaging Materials,Box,0.0,True
+10012,BAG Rainforest,0,4746,,Packaging Materials,Box,0.0,True
+10013,BAGS 8 X 10,1000,4751,,Packaging Materials,Box,0.0,True
+10014,BAG 16 x 13 x 21,14,4725,,Packaging Materials,Box,0.0,True
+10015,BAG Benfresh 0.75lb - Blueberry,2453,4726,,Packaging Materials,Box,0.0,True
+10016,BAG Benfresh 0.75lb - Broccoli,300,4727,,Packaging Materials,Box,0.0,True
+10017,BAG Benfresh 0.75lb - Mango,1626,4728,,Packaging Materials,Box,0.0,True
+10018,BAG Benfresh 0.75lb - Mix berry,775,4729,,Packaging Materials,Box,0.0,True
+10019,BAG Benfresh 0.75lb - Mix tropical,1912,4730,,Packaging Materials,Box,0.0,True
+10020,BAG Benfresh 0.75lb - Pineapple,955,4731,,Packaging Materials,Box,0.0,True
+10021,BAG Benfresh 0.75lb - Spinach,240,4732,,Packaging Materials,Box,0.0,True
+10022,BAG Benfresh 0.75lb - STRAWBERRY,1268,4733,,Packaging Materials,Box,0.0,True
+10023,BAG Benfresh 3lb - Blueberry,1839,4734,,Packaging Materials,Box,0.0,True
+10024,BAG Benfresh 3lb - Mango,3634,4738,,Packaging Materials,Box,0.0,True
+10025,BAG Benfresh 5lb - Strawberry,0,4745,,Packaging Materials,Box,0.0,True
+10026,BAGS 8x15,1725,4752,,Packaging Materials,Box,0.0,True
+10027,BAGS 16 x 12 x 30,511,4748,,Packaging Materials,Box,0.0,True
+10855006 006283,ACAI TROPICAL organic packs 3.5 oz,0,2377,,Frozen Fruit / Acai,Box,55.18,True
+10855006006016,ACAI TROPICAL organic packs 3.5 oz (NO SUGAR),3,2549,,Frozen Fruit / Acai,Box,55.12,True
+1841100039,[NO USAR] ACAI SAMBAZON smoothie Blend Organic 2.64G,5,2521,,Frozen Fruit,Box,83.06,True
+1841100055,ACAI SAMBAZON smoothie Blend Organic 3G Tub,24,2522,,Frozen Fruit / Acai,Box,99.75,True
+196852037308,Coconut water 12 LT,0,2416,,Frozen Fruit,Box,18.77,True
+20001,BOX 16 X 12 X 8 RAINFOREST,0,4753,,Packaging Materials,Box,0.0,True
+20002,Boxes -  17 1/14 x 11 1/2 x 7 1/2,0,4762,,Packaging Materials,Box,0.0,True
+20004,Boxes - 12x9x6,2729,4755,,Packaging Materials,Box,0.0,True
+20005,Boxes - 14.75x10.75x9,0,4756,,Packaging Materials,Box,0.0,True
+20006,Boxes - 14x10x6,899,4757,,Packaging Materials,Box,0.0,True
+20007,Boxes - 14x10x8,0,4758,,Packaging Materials,Box,0.0,True
+20008,Boxes - 15x12x6,0,4759,,Packaging Materials,Box,0.0,True
+20009,Boxes - 16x12x10,0,4760,,Packaging Materials,Box,0.0,True
+20010,Boxes - 16x12x8,3049,4761,,Packaging Materials,Box,0.0,True
+20011,Boxes - AB - 18,0,4763,,Packaging Materials,Box,0.0,True
+20012,Boxes - CB - 113,0,4764,,Packaging Materials,Box,0.0,True
+736952195999,Blueberries frozen 5lb Benfresh Box 30 lb (6x5lb),1,2390,736952195999,Frozen Fruit / Blueberry,Box,60.0,True
+736952196002,Strawberry frozen 5 lb BENFRESH-Box 30 lb (6x5lb),1068,2532,,Frozen Fruit / Strawberry,Box,52.5,True
+736952196019,Raspberries frozen 5 lb - Box 10 lb (2x5lb),6,2511,,Frozen Fruit / Raspberry,Box,47.1,True
+736952196026,Blackberry frozen -Box 10 lb (2x5lb),13,2383,,Frozen Fruit / Blackberry,Box,38.15,True
+736952196033,Papaya Chunk frozen IQF - Box 21 lb (7x3lb),53,2471,,Frozen Fruit / Papaya,Box,49.62,True
+736952196064,"Blueberries frozen 0,75lb BENFRESH",7,2386,,Frozen Fruit Retail / Blueberry Retail,Box,41.9,True
+736952196071,"Strawberry frozen 0,75lb BENFRESH",5,2530,,Frozen Fruit Retail / Strawberry retail,Box,34.0,True
+736952196088,Blueberries frozen 3lb BENFRESH-Box 24 lb (8x3lb),1,2387,,Frozen Fruit Retail / Blueberry Retail,Box,63.0,True
+736952201522,Broccoli Floret frozen3 lb BENFRESH,0,2396,,Frozen Vegetables / Broccoli retail,Box,24.4,True
+736952201546,Pineapple Chunks frozen 3lb BENFRESH-Box 24 lb (8x3lb),30,2482,,Frozen Fruit Retail / Pineapple retail,Box,63.0,True
+736952201553,Mix Berries frozen 3 lb BENFRESH-Box 24 lb (8x3lb),5,2457,,Frozen Fruit Retail / Mix berry retail,Box,69.0,True
+736952201560,Banana frozen 3lb -Box 21 lb (7x3lb),452,2560,736952201560,Frozen Fruit / Banana,Box,34.65,True
+736952201669,Onion Diced,0,2463,,Frozen Vegetables / Onion diced,Box,28.95,True
+736952201683,"Spinach Leaf frozen 0,75lb BENFRESH",0,2527,,Frozen Vegetables / Spinach retail,Box,34.0,True
+736952201690,Mix Tropical frozen 3lb BENFRESH-Box 24 lb (8x3lb),18,2461,,Frozen Fruit Retail / Mix Tropical retail,Box,63.0,True
+736952201706,"Mix Tropical frozen 0,75lb BENFRESH",2,2460,,Frozen Fruit Retail / Mix Tropical retail,Box,41.9,True
+736952201713,"Mango Chunk Frozen 0,75lb BENFRESH",2,2444,,Frozen Fruit Retail / Mango / retail,Box,41.9,True
+736952201720,"Pineapple Chunk frozen 0,75lb BENFRESH",1,2481,,Frozen Fruit Retail / Pineapple retail,Box,41.9,True
+736952201744,"Mix Berries frozen 0,75lb BENFRESH",0,2456,,Frozen Fruit Retail / Mix berry retail,Box,41.9,True
+736952201751,"Broccoli Floret frozen 0,75lb BENFRESH",0,2393,,Frozen Vegetables / Broccoli retail,Box,22.83,True
+736952201768,French whole GREEN BEANS  22 lb,0,2429,,Frozen Vegetables / Green Beans,Box,24.51,True
+736952201775,GREEN PEAS frozen 22 lb,873,2433,,Frozen Vegetables / Green Peas,Box,23.8,True
+736952201782,Mamey Chunk frozen 3lb BENFRESH-Box 24 lb (8x3lb),0,2442,,Frozen Fruit Retail / Mamey retail,Box,63.0,True
+736952201799,Pepper 3 Color Slice 1lb,0,2362,,Frozen Vegetables / Peppers,Box,31.44,True
+736952201805,Pineapple chunk frozen 22.04 lb C,1193,2486,,Frozen Fruit / Pineapple,Box,2.38,True
+736952201829,POTATO DICED frozen 22.04 lb,776,2504,,Frozen Vegetables / Potato diced,Box,22.9,True
+736952201843,Spinach leaf,1,2525,,Frozen Vegetables / Spinach,Box,22.36,True
+736952201850,SPINACH frozen 8/15,1616,2529,,Frozen Vegetables / Spinach,Box,30.89,True
+736952201867,"Spinach Pellet - Bag 22,50 lb",492,2528,,Frozen Vegetables / Spinach,Box,18.0,True
+736952201874,Strawberry sliced 4 + 1 30 lb,4,2537,,Frozen Fruit / Strawberry 4+1,Box,67.5,True
+736952201898,Sweetcorn frozen 22lb,0,2540,,Frozen Vegetables / Sweetcorn,Box,26.67,True
+736952201911,4 vegetables Peas & Carrot & Sweetcorn & Green Beans 22 lb,330,2368,,Frozen Vegetables / Mix 4 vegetables,Box,26.45,True
+736952201928,Pepper 3 Color 10x10 -22.04lb,0,2359,,Frozen Vegetables / Peppers,Box,27.19,True
+736952201935,Pepper 3 Color Slice,0,2360,,Frozen Vegetables / Peppers,Box,30.25,True
+736952201942,Spinach leaf 3lb BENFRESH,0,2526,,Frozen Vegetables / Spinach retail,Box,32.66,True
+736952201959,Mango Chunks Frozen 3lb BENFRESH-Box 24 lb (8x3lb),23,2445,,Frozen Fruit Retail / Mango / retail,Box,63.0,True
+736952201973,Strawberry frozen 3lb BENFRESH-Box 24 lb (8x3lb),7,2531,,Frozen Fruit Retail / Strawberry retail,Box,63.0,True
+74987455845,"ONION DICED 10X10 22,5LB",2,2466,,Frozen Vegetables / Onion diced,Box,24.74,True
+74987455846,ONION SLICE 4/5 MM,474,2468,,Frozen Vegetables / Onion strips,Box,22.55,True
+74987455848,Banana Frozen 20 lb,1,2380,,Frozen Fruit / Banana,Box 20lb,34.03,True
+74987455849,Blueberries frozen 30 lb,19,2391,,Frozen Fruit / Blueberry,Box,60.0,True
+74987455851,"Butternut Squash frozen-22,04 lb",616,2400,,Frozen Vegetables / Butternut,Box,23.29,True
+74987455853,Celery 10x10 frozen IQF,0,2415,,Frozen Vegetables / Celery,Box,21.28,True
+74987455859,Mix Berries frozen 10 lb (2x5lb),80,2459,,Frozen Fruit / Mix Berry,Box,28.4,True
+74987455860,Platano Maduro Sweet Plantain Slices 24 lb,91,2501,,Frozen Fruit / Platano Maduro,Box,30.67,True
+74987455861,[NO USAR] Red Pepper diced 10x10 -Box 22 lb,0,2518,,Frozen Vegetables / Peppers,Box,22.09,True
+74987455862,Strawberry Frozen 30lb,0,2535,,Frozen Fruit / Strawberry,Box,33.97,True
+74987455864,Pepper Yellow sliced,50,2552,,Frozen Vegetables / Peppers,Box,30.68,True
+74987455943,"Broccoli frozen 22,04 lb",909,2397,,Frozen Vegetables / Broccoli,Box,26.67,True
+81006311002,Mini rice cakes coated in dark chocolate,20,2576,,Dry products,Box,18.0,True
+818411000423,Sambazon - DRAGON FRUIT SORBET 3GAL,9,2371,,Frozen Fruit / Sorbet,Unit,99.95,True
+834641,BEAN BLACK DRY 50 lb,58,2571,,Dry products / Rice,Box,33.9,True
+8411547213112,Natural water mineral Solan de Cabras 0.75l,0,2557,,Dry products,Box,28.8,True
+8437020396066,Raspberries frozen FRANUI in white & milk chocolate 60 oz,178,2428,,Franui,Box,60.0,True
+8437020396073,Raspberries frozen FRANUI in white & dark chocolate 60 oz,157,2427,,Franui,Box,60.0,True
+853687004096,ORGANIC PITAYA DRAGON FRUIT Sorbet 3Gal,0,2496,,Frozen Fruit / Sorbet,Box,94.26,True
+855006006392,ACAI TROPICAL Organic Sorbet 22 lb,94,2550,,Frozen Fruit / Acai,Box,82.5,True
+858000004739,Coconut Tropical Sorbet 3 gal,0,2419,,Frozen Fruit / Sorbet,Box,80.44,True
+858000004746,Passion Fruit TROPICAL Sorbet 3 gal,0,2480,,Frozen Fruit / Sorbet,Box,79.95,True
+89010005,Packing goods Box,0,2574,,Service Packing,Box,1.98,True
+89010008,Strawberry sliced IQF 30 lb,0,2538,,Frozen Fruit / Strawberry,Box,52.5,True
+89010012,PITAYA sobre,3,2495,,Frozen Fruit / Varios fruit,Box,73.47,True
+89010014,DARK SWEET CHERRIES FROZEN,0,2539,,Frozen Fruit / Varios fruit,Box,52.5,True
+89010020,Blackberry frozen 30 lb,0,2382,,Frozen Fruit / Blackberry,Box,23.94,True
+89010025,Pineapple Chunks frozen 30 lb-Box 30 lb (1x30lb),0,2489,,Frozen Fruit / Pineapple,Box,54.3,True
+89010026,Pineapple Chunk frozen 5 lb (6x5lb),472,2487,,Frozen Fruit / Pineapple,Box,54.3,True
+89010027,Passion Fruit with seeds Maracuya 22 lb,4,2478,,Frozen Pulps,Box,71.73,True
+89010028,TOMATE DE ARBOL,180,2547,,Frozen Fruit,Box,41.43,True
+89010030,MIX TROPICAL 30 lb (6 x 5 lb),0,4789,,Frozen Fruit / Mix Tropical,Box,64.5,True
+89010031,Mamey Chunks frozen 5lb,2,2443,,Frozen Fruit / Mamey,Box,46.0,True
+89090009,Sweetcorn frozen 30 lb,2940,2542,,Frozen Vegetables / Sweetcorn,Box,36.3,True
+89090012,Butternut 3 lb.,0,2399,,Frozen Vegetables / Butternut,Box,23.22,True
+89090013,"Carrot diced frozen Box 22,04 lb (1x22,04 lb)",1090,2407,,Frozen Vegetables / Carrot diced,Box,22.28,True
+89090014,Carrot Slice Thin,15,2410,,Frozen Vegetables / Carrot sliced,Box,20.2,True
+89090015,CAULIFLOWER frozen IQF 15 lb,0,2413,,Frozen Vegetables / Cauliflower,Box,20.55,True
+89090016,Edamame frozen 22lb,295,2424,,Frozen Vegetables / varios,Box,38.01,True
+89090017,FRENCH GREEN BEANS L 20 lb,0,2430,,Frozen Vegetables / Green Beans,Box,22.8,True
+89090021,Onion Diced 21lb (7x3lb),0,2464,,Frozen Vegetables / Onion diced,Box,28.66,True
+89090024,PEAS and CARROT DICED 22LB,3341,2438,,Frozen Vegetables / Peas & Carrot,Box,22.26,True
+89090029,Carrot sliced 20 LB,36,2409,,Frozen Vegetables / Carrot sliced,Box,20.2,True
+89090031,CAULIFLOWER frozen IQF 20 lb,34,2414,,Frozen Vegetables / Cauliflower,Box,27.4,True
+89090038,Spinach Frozen IQF - Box 24lb (1x24lb),91,2524,,Frozen Vegetables / Spinach,Box,32.95,True
+89090040,Mango Tropical Sorbet 3 gal,0,2455,,Frozen Fruit / Sorbet,Box,80.58,True
+89090043,BLUE MAGIC TROPICAL Sorbet 3 gal,0,2385,,Frozen Fruit / Sorbet,Box,78.51,True
+89090045,3 vegetables Peas & Carrot & Sweetcorn 22 lb,789,2365,,Frozen Vegetables / Mix 3 Vegetables,Box,26.45,True
+89090046,YUCA CHUNK FROZEN 5 lb -Box 30 lb (6x5lb),189,2554,,Frozen Vegetables / Yuca,Box,35.95,True
+89090051,CUT GREEN BEANS 20 lb,0,2421,,Frozen Vegetables / Green Beans,Box,18.81,True
+89090052,YUCA CHUNK CASSAVA FROZEN 20 lb,0,2553,,Frozen Vegetables / Yuca,Box,28.66,True
+89090053,Pineapple chunk frozen 21lb (7 x 3 lb),0,2484,,Frozen Fruit / Pineapple,Box,38.02,True
+89090054,Green apples 40 lb,0,2431,,Frozen Fruit / Varios fruit,Box,61.64,True
+89090055,Cut Okra 24 lb,39,2462,,Frozen Vegetables / varios,Box,33.26,True
+89090056,CALIFORNIA BLEND 22.04 lb (BroccoliCarrot slicedCauliflower),1547,2405,,Frozen Vegetables / California,Box,27.55,True
+89090057,Guacamole Western 12 lb,0,2567,,Frozen Vegetables / varios,Box,41.99,True
+89090059,Cranberry 20 lb,30,2420,,Frozen Fruit / Cranberry,Box,43.64,True
+89090061,Carrot Diced 20 lb,2,2406,,Frozen Vegetables / Carrot diced,Box,20.22,True
+89090063,Soup Mix 22 lb,118,2551,,Frozen Vegetables / Soup,Box,24.04,True
+89090064,Onion Diced Frozen 20 lb,6753,2467,,Frozen Vegetables / Onion diced,Box,23.6,True
+89090065,Raspberries frozen 22.04 lb,47,2509,,Frozen Fruit / Raspberry,Box,103.65,True
+89090066,Green Pepper diced 10x10 20lb,1822,2441,,Frozen Vegetables / Peppers,Box,22.8,True
+89090067,Red Pepper diced 10x10 - Box 20 lb,1731,2516,,Frozen Vegetables / Peppers,Box,26.07,True
+89090068,Baby Carrot 24lb,78,2379,,Frozen Vegetables / Baby Carrot,Box,32.87,True
+89090073,Blueberries frozen 22.04lb,101,4808,,Frozen Fruit / Blueberry,Box,40.84,True
+89090074,Mango Chunk frozen Box 30 lb (6x5lb),129,2452,89090074,Frozen Fruit / Mango,Box,58.05,True
+89090074,Mango frozen -30lb (1x30lb),0,4542,89090074,Frozen Fruit / Mango,Box,43.44,True
+89090075,CUT GREEN BEANS 30 lb,0,2423,,Frozen Vegetables / Green Beans,Box,28.5,True
+89090076,Sweetcorn Kernel Brix 68 frozen 30 lb,0,2545,,Frozen Vegetables / Sweetcorn,Box,30.16,True
+89090077,Baby Carrot 22.04lb,0,2378,,Frozen Vegetables / Baby Carrot,Box,30.19,True
+89090082,Pineapple chunk frozen 20 lb,0,2483,,Frozen Fruit / Pineapple,Box,36.2,True
+89090086,"Frozen Green Asparagus whole 22,04 lb",0,2566,,Frozen Vegetables / varios,Box,52.5,True
+89090087,POTATO WEDGES 22.04 lb,1,2506,,Frozen Vegetables / Potato Wedge,Box,37.47,True
+89090088,Red & Green Pepper Strips Mix 25 lb,0,2568,,Frozen Vegetables / Peppers,Box,34.55,True
+89090089,Celery frozen 20 lb,80,2564,,Frozen Vegetables / Celery,Box,18.6,True
+89090090,Sweet Potato Wedges 15 lb,3,2508,,Frozen Vegetables / Sweet Potato,Box,44.16,True
+89090092,ONION STRIPS 22.04 lb,379,2470,,Frozen Vegetables / Onion strips,Box,25.26,True
+89090093,POTATO WEDGES 30 lb,0,2507,,Frozen Vegetables / Potato Wedge,Box,51.0,True
+89090094,Pineapple chunk frozen 22 lb,0,2485,,Frozen Fruit / Pineapple,Box,29.89,True
+89090096,Acai Berry Cubes Tropical 17.6 lb (No Sugar),12,2548,,Frozen Fruit / Acai,Box,85.6,True
+89090098,ONION STRIPS 20 lb,0,2469,,Frozen Vegetables / Onion strips,Box,22.92,True
+89090101,Blue diamond Sorbet SP,8,2384,,Frozen Fruit / Sorbet,Box,80.24,True
+89090102,Passion fruit Sorbet SP,6,2479,,Frozen Fruit / Sorbet,Box,80.63,True
+89090103,Mango Sorbet SP,2,2454,,Frozen Fruit / Sorbet,Box,80.0,True
+89090104,Coconut Sorbet SP,5,2418,,Frozen Fruit / Sorbet,Box,80.0,True
+89090107,Passion Fruit with seeds. Maracuya 11lb,25,2476,,Frozen Pulps,Box,33.35,True
+89090108,Berenjena - Aubergine 10x10 - 22.04 lb,120,4549,,Frozen Vegetables / Berenjena,Box,22.04,True
+89090109,Zucchini Courgette 10x10 - 22.04 lb,120,4547,,Frozen Vegetables / Zucchini,Box,22.14,True
+89090110,Zucchini Courgette Slices 4/5 22.04 lb,109,2555,,Frozen Vegetables / Zucchini,Box,24.56,True
+89090112,Tomatoes diced - 22 lb,79,2546,,Frozen Vegetables / Tomate,Box,28.04,True
+89090114,Zucchini Sliced 24lb,2,2556,,Frozen Vegetables / Zucchini,Box,22.14,True
+89090115,RICE PARBOILED LONG GRAIN,47,2572,,Dry products / Rice,Box,25.9,True
+89090116,FAJITA MIX - 20 lb,1405,4545,,Frozen Vegetables / Fajita,Box,27.6,True
+89090117,SOFRITO BLEND - 20 lb,394,4551,89090117,Frozen Vegetables / Sofrito,Box,21.39,True
+89090120,Passion fruit pulp 5 lb,0,2475,,Frozen Pulps,Box,43.33,True
+89090121,Passion fruit pulp 2.2lb,31,2474,,Frozen Pulps,Box,33.35,True
+89090123,BAGS 16 x 14 x 36,149,4749,,Packaging Materials,Box,0.0,True
+89090124,Pepper 3 Color Diced 10 x 10 - 20lb,210,4771,,Frozen Vegetables / Peppers,Box,27.33,True
+89090125,Pepper 3 Color Slice - 20lb,575,4772,,Frozen Vegetables / Peppers,Box,27.64,True
+89090126,Spinach Chopped Box 36lb (12x3lb),0,4769,,Frozen Vegetables / Spinach,Box,49.45,True
+89090127,Sweet Potato Diced 20lb,6,2569,,Frozen Vegetables / Sweet Potato,Box,25.4,True
+89090128,Spinach chopped 30 lb,0,4546,,Frozen Vegetables / Spinach,Box,41.2,True
+89090129,Red & Green Pepper slice 20lb (1x20lb),1600,4775,,Frozen Vegetables / Peppers,Box,30.46,True
+89090130,CUT GREEN BEANS 22 lb,598,2422,,Frozen Vegetables / Green Beans,Box,23.14,True
+89090131,"Carrot Sliced 22,04 lb",1347,2411,,Frozen Vegetables / Carrot sliced,Box,22.26,True
+89090132,"Carrot Diced 10x10 frozen Box 22,50 lb (1x22,50lb)",20,2408,,Frozen Vegetables / Carrot diced,Box,22.75,True
+89090133,Soup Mix 20 lb,0,4778,,Frozen Vegetables / Soup,Box,21.8,True
+89090199,RICE WHITE XTRA LONG,97,2573,,Dry products / Rice,Box,26.0,True
+89090200,Onion Red Diced 20 lb,7,4790,89090200,Frozen Vegetables / Onion diced,Box,23.6,True
+89090201,Tomato Diced 24 lb (8 x 3 lb),0,4792,89090201,Frozen Vegetables / Tomate,Box,28.88,True
+89090202,Cauliflower 22.04 lb (1 x 22.04 lb),351,4793,89090202,Frozen Vegetables / Cauliflower,Box,30.19,True
+89090203,Sweet Potato Diced 22.04 lb,178,4784,,Frozen Vegetables / Sweet Potato,Box,27.99,True
+89090204,Cut Green Beans 24lb (12x2lb),0,4780,,Frozen Vegetables / Green Beans,Box,26.4,True
+89090205,Carrot Sliced 24 lb (12x2lb),0,4791,,Frozen Vegetables / Carrot sliced,Box,24.6,True
+89090206,GREEN PEAS frozen 30 lb (12x2.5lb),1,4788,,Frozen Vegetables / Green Peas,Box,32.4,True
+89090207,Mamey Chunks 24 lb (4x6lb),0,4796,,Frozen Fruit / Mamey,Box,1.0,True
+89090208,Guayaba quarters 24 lb (4x6lb),0,4798,,Frozen Fruit / Guayaba,Box,1.0,True
+89090209,Guayaba Pulp 39.67 lb (18 kg),0,4799,,Frozen Fruit / Guayaba,Box,1.0,True
+89090210,Passion Fruit pulp Without Seeds 22 lb (10x2.02 lb),0,4797,,Frozen Pulps,Box,1.0,True

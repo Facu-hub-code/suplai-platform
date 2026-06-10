@@ -1,0 +1,518 @@
+nombre,telefono,telefono_normalizado,email,vat,direccion,zip,ref,lista_precios_odoo,odoo_id,match_status,client_id,client_phone
+# 17- BRAVO FLAMINGO,(954) 443-5521,9544435521,superbravoflamingo@gmail.com,,"12141 Pembroke Rd,, Pembroke Pines",33025,,Price List (USD),469,existente,57,19544435521
+-4 DEGREES CAFE,(561) 956-4465,5619564465,RIKIN@CAFE-4DEGREES.COM,,"2650 S Military Trail
+Unit 28, West Palm Beach",33415,,Default (USD) (USD),470,existente,83,15619564465
+1-Bite LLC,(786) 294-8109,7862948109,fmerlino@1-bite.com,,"14260 sw 136th street, unit 18, Miami",33186,,Default (USD) (USD),471,existente,67,17862948109
+3 BF Group LLC,,,,,"2827 NW 3rd Ave - Unit 108, Miami",33127,,Default (USD) (USD),13879,sin_telefono,,
+3 BF Group LLC,,,,,"2827 NW 3rd Ave - Unit 108, Miami",33127,,Default (USD) (USD),13878,sin_telefono,,
+A Family - Brickell,+1 305-801-1684,13058011684,,,"41 SE 5th St, Miami",33131,,Default (USD) (USD),13872,existente,84,113058011684
+A Marshall Catering & Take Out II,(954) 889-4410,9548894410,"contact@marshallmeals.com,mercedes@franciscomeals.com",,"613/615 E Atlantic Blvd, Pompano Beach",33060,,Marshall's & Francisco's (USD),472,existente,27,19548894410
+A- Family Winwood,+1 786-510-3374,17865103374,,,"2827 NW 3 ave, Miami",33127,,Default (USD) (USD),13898,nuevo,,
+A-Family Winwood,+1 786-510-3374,17865103374,,,"2827 NW 3 AVE, MIAMI",33127,,Default (USD) (USD),13899,nuevo,,
+ACAI MASTERS,(305) 775-3414,3057753414,tanyavdenis@gmail.com,,"8842 SW 129th St, Miami",33176,,Default (USD) (USD),475,existente,68,13057753414
+ACAI TASTY,(786) 646-7438,7866467438,,,"1024 71st STREET, MIAMI BEACH",33141,,Default (USD) (USD),476,existente,58,17866467438
+AGUAMIEL - Doral,,,admin@aguamiel.us,,"8455 NW 53rd St, Doral",33166,,Default (USD) (USD),480,sin_telefono,,
+AGUAMIEL LLC,(786) 650-4076,7866504076,admin@aguamiel.us,,"10 Village Green Way, Key Biscayne",33149,,Default (USD) (USD),481,existente,34,17866504076
+Aguamiel KB,,,,,"10 Village Green Way, Key Biscayne",33149,,Default (USD) (USD),13829,sin_telefono,,
+ALWAYS FOOD LLC,,,,,"30 N GOULD ST, SHERIDAN",82801,,Default (USD) (USD),483,sin_telefono,,
+"AMAZONIC VENTURES, LLC - NATIVO (CUSTOMER)",(786) 552-2582,7865522582,groovemanto@gmail.com,,"888 Biscayne Blvd, Miami",33132,,Default (USD) (USD),484,existente,99,17865522582
+AMIGOS DELI LLC,(786) 920-7180,7869207180,mvilledah@gmail.com,,"312 N Federal Hwy, Hallandale Beach",33009,,Default (USD) (USD),486,existente,147,17869207180
+Maria Villeda,,,,,"312 N Federal Hwy, Hallandale Beach",33009,,Default (USD) (USD),13823,sin_telefono,,
+AMILCO,,,,,,,,Default (USD) (USD),487,sin_telefono,,
+ANDES TROPICAL LLC,(678) 488-2992,6784882992,,,"3856 OAKCLIFF INDUSTRIAL CT, ATLANTA",30340,,Default (USD) (USD),488,existente,148,16784882992
+ANDES VALLEY L.L.C.,,,,L20000396258,"201 Crandon Blvd APT 161, Key Biscayne",33149-1517,,Default (USD) (USD),13908,sin_telefono,,
+ANDIAS FROZEN,,,,,"1000 N BROADWALK, HOLLYWOOD",33019,,Default (USD) (USD),489,sin_telefono,,
+ANGELES FOOD CORP,,,angelsfoodcorp@gmail.com,,"4245 EAST 4TH AVE, HIALEAH",33013,,Default (USD) (USD),490,sin_telefono,,
+ANGELICA PAZ,,,,,,,,Default (USD) (USD),491,sin_telefono,,
+ANTOINE MELHEM,,,TONYOATRADES@GMAIL.COM,,1682 E OAKLAND PARK BLVD,33334,,Default (USD) (USD),492,sin_telefono,,
+"APOLLO EXPORT WAREHOUSE, INC",(305) 592-8790,3055928790,TOML@BCNEUROPESUPPLY.COM,,"6950 NW 77 Court, Miami",33166,,Default (USD) (USD),493,existente,24,13055928790
+AR Espanola - Rosaluna Cafe,+1 646-757-0482,16467570482,info@rosalunacafe.com,,"200 S Biscayne Blvd, Miami",33130,,Default (USD) (USD),494,existente,113,116467570482
+ARABICO LLC,(305) 645-1884,3056451884,arabicocf@gmail.com,,"1021 NE 110 Street, Biscayne Park",33161,,Default (USD) (USD),495,existente,149,13056451884
+"ARCO LOGISTICS, LLC",,,gerencia@algcol.com,,,,,Default (USD) (USD),496,sin_telefono,,
+AROMA CATERING INC,+1 305-330-5432,13053305432,aromacatering12@gmail.com,,"530 Sharazad Blvd, Miami",33054,,Aroma Café (USD),13835,existente,36,113053305432
+ARTISANAL HOME FOOD  LLC,,,FPEDRERO@ME.COM,,"251 Crandon Blvd, #906, Miami",33149,,Default (USD) (USD),499,sin_telefono,,
+ASAADA CORP.  - NAHUÉN - KEY BISCAYNE,(305) 361-0662,3053610662,keybiscayne@nahuen.com,,"⁠260 Crandon Blvd, Key Biscayne",33149,,Nahuen (USD),500,existente,37,13053610662
+Jorge,+1 786-890-1720,17868901720,,,"⁠260 Crandon Blvd, Key Biscayne",33149,,Nahuen (USD),13911,nuevo,,
+AURA BOWLS,(786) 909-0573 NATALIA,7869090573,,,"760 Jefferson Ave, Miami Beach",33139,,Default (USD) (USD),502,existente,59,17869090573
+AYE CATERING LLC,(305) 456-7277,3054567277,ayecateringllc@gmail.com,,"7836 NW 178th St, Hialeah",33015,,Default (USD) (USD),503,existente,12,13054567277
+Acai by the Sea,+1 781-443-2105,17814432105,,,"7601 E Treasure Drive
+Suite CU14, North bay village",33141,,Default (USD) (USD),473,existente,40,117814432105
+Acai exotic,(305) 918-1700,3059181700,,,"1835 E HALLANDALE BEACH BLVD, HALLANDALE BEACH",33009,,Default (USD) (USD),474,existente,150,13059181700
+Ace General Hauling LLC,+1 7869096211,17869096211,acegeneralhaulingllc@gmail.com,,"3901 SW 109th Ave Apt A7, Miami",33165,,Default (USD) (USD),477,existente,151,117869096211
+Adriana Cherry,(754) 366-9620,7543669620,Adrianaicherry@gmail.com,,"2420 dove creek drive, Little elm",75068,,Default (USD) (USD),478,existente,152,17543669620
+Alchemy Juice co & Market,(561) 889-6294,5618896294,,,"527 Clematis St, West Palm Beach",33401,,Default (USD) (USD),482,existente,154,15618896294
+Amanda Sanclemente,,,,,,,,Default (USD) (USD),13875,sin_telefono,,
+"Amazonic Ventures, LLC dba Nativo Acai",(305) 446-4806,3054464806,info@nativoacai.com,,"PMB 1274, 1000 Brickell Ave, Suite 715, Miami",33131,,Default (USD) (USD),485,existente,155,13054464806
+Aries Supermarket,(305) 558-9114,3055589114,romazifoodcorp@outlook.com,,"5945 W 25 CT, HIALEAH",33016,,Default (USD) (USD),497,existente,156,13055589114
+Aunties Key to Life Juice Bar,(786) 732-0185,7867320185,,,"17350 S dixie Hwy, Palmetto Bay",33157,,Default (USD) (USD),501,existente,157,17867320185
+B&A Gourmet Foods LLC - Art meat,,,accounting@artmeat.com,,"3740 W 104th st unit 12, Hialeah",33018,,Default (USD) (USD),498,sin_telefono,,
+BA Food Imports LLC,,,admin@bafoodimports.com,,"435 east 77th st  Suite 4E, New York",10075,,Default (USD) (USD),13882,sin_telefono,,
+BAHAMAS FISH,(305) 877-3888,3058773888,,,"13399 SW BIRD ROAD, Miami",,,Default (USD) (USD),504,existente,158,13058773888
+BAKERY CORP,(305) 623-3838,3056233838,luis.lacal@bakerycorp.com,,"15625 NW 15 ave, Miami",33169,,Default (USD) (USD),505,existente,159,13056233838
+BAY  SUPERMARKET,(305) 864-3433,3058643433,Baysupermarket@comcast.com,,"909 Normandy Dr., Miami Beach",33141,,Default (USD) (USD),506,existente,35,13058643433
+BB 18 trading LLC,,,"RUBEN@FOODSALESFORCE.COM , MIGDELIA@FOODSALESFORCE.COM",,"2000 Island Blvd - Suite 905, Aventura",33160,,Default (USD) (USD),507,sin_telefono,,
+BE FRESH MEAT & FISH SUPERMARKET,(786) 269-8523,7862698523,keyfoodsupermarket@yahoo.com,,"12010 N Miami Ave, Miami",33168,,Default (USD) (USD),508,existente,160,17862698523
+Benfresh LLC,+1 786-403-5046,17864035046,benazzichristian@gmail.com,,"7337 NW 37 AVE, MIAMI",33147,,Default (USD) (USD),3,existente,50,117864035046
+BENFRESH MARKET LLC,+1 786-403-5046,17864035046,benazzichristian@gmail.com,,"7337NW 37 AVE, Miami",33147,,Default (USD) (USD),509,existente,50,117864035046
+"BENFRESH,LLC",(786) 403-5046,7864035046,benazzichristian@gmail.com,,"7337 NW 37 AVE
+UNIT 3, MIAMI",33147,,Default (USD) (USD),12739,existente,50,117864035046
+BLEND PLUS,(561) 385-8263,5613858263,,,"1925N Military Trail, West Palm Beach",33409,,Default (USD) (USD),512,existente,161,15613858263
+BLENDERS JUICE BAR,(954) 812-5233,9548125233,,,"600-2 W Hallandale Beach Blvd, Hallandale Beach",33009,,Default (USD) (USD),513,existente,85,19548125233
+BLUE LAVENDER CAFE,(305) 390-6282,3053906282,,,"1414 Collins Ave codigo puerta 1414 A, Miami Beach",33139,,Default (USD) (USD),515,existente,69,13053906282
+BRAVO HOLLYWOOD WEST PARK,(954) 362-7099,9543627099,bravo.westpark@gmail.com,,"4000 SW 40 Ave., West Park",33023,,Default (USD) (USD),517,existente,86,19543627099
+BRAVO KENDALL SUPERMARKET,(305) 252-0870,3052520870,,,"11247 SW 152 Street, Kendall",33157,,Default (USD) (USD),518,existente,162,13052520870
+BRAVO OAKLAND - Fort Lauderdale,(954) 769-1985,9547691985,,,"3400 N Andrews Ave, Fort Lauderdale",33309,,Default (USD) (USD),519,existente,163,19547691985
+BRAVO OAKLAND WEST,(954) 909-0368,9549090368,,,"6330 Oakland Park Blvd, Sunrise",33313,,Default (USD) (USD),520,existente,164,19549090368
+BRAVO PEMBROKE #53,(954) 986-4039,9549864039,,,"6767 Pembroke Rd., Pembroke Pines",33023,,Default (USD) (USD),521,existente,132,19549864039
+BRAVO SABAL,(305) 751-3373,3057513373,,,"5299 NE 2 AVE, Miami",33137,,Default (USD) (USD),522,existente,165,13057513373
+BRAVO SUPERMARKET (Lords Plaza),,,,,"12630 SW 8th St, Miami",33184,,Default (USD) (USD),523,sin_telefono,,
+BRAVO SUPERMARKET - Homestead,(786) 349-4986,7863494986,,,"32955 S Dixie Hwy, Florida City",33034,,Default (USD) (USD),524,existente,166,17863494986
+BRAVO WEST palm,,,,,,,,Default (USD) (USD),525,sin_telefono,,
+BRENO LEITE,(786) 678-4637,7866784637,Brenomoreiraleite@gmail.com,,"19900 E COUNTRY CLUB DR. PH04., Aventura",33180,,Default (USD) (USD),526,existente,44,17866784637
+BROTHERS FARMERS MARKET II,(561) 814-2847,5618142847,,,"1937 N Military Trail, West Palm Beach",33409,,Default (USD) (USD),529,existente,167,15618142847
+"BUDARE BISTRO MARKET, LLC",,,,,"1830 SW  3rd Ave., Miami",33129,,Default (USD) (USD),532,sin_telefono,,
+BY THE POUND,,,,,,,,Default (USD) (USD),534,sin_telefono,,
+Big Mike's Baking Company,(954) 952-3100,9549523100,bigmikesglutenfree@gmail.com,,"7891 W Sample Rd, Coral Springs",33065,,Default (USD) (USD),511,existente,168,19549523100
+Bliss food international LLC,,,Blisslogistic847@gmail.com,,,,,Default (USD) (USD),514,sin_telefono,,
+Boca Brazil Supermarket,(561) 372-0777,5613720777,,,"22819 State Road 7, Boca Raton",33428,,Default (USD) (USD),516,existente,169,15613720777
+Brothers Farmers Market - Sunrise,(954) 747-3970,9547473970,,,"3431 N Hiatus Road, Sunrise",33351,,Default (USD) (USD),527,existente,114,19547473970
+Brothers Farmers Market Davie,(954) 585-2225,9545852225,,,"6871 Sterling Road, Davie",33314,,Default (USD) (USD),528,existente,170,19545852225
+Broward Meat & Fish #1,(954) 597-2552,9545972552,lcurbelo@browardmeatandfish.com,,"8040 W Mc Nab Rd., Fort Lauderdale",33068,,Default (USD) (USD),530,existente,171,19545972552
+Broward Meat & Fish #3,(954) 437-8330,9544378330,,,"8030 Pines Blvd, Pembroke Pines",33024,,Default (USD) (USD),531,existente,172,19544378330
+Bruno Borges,(410) 948-9123,4109489123,brunosborges@gmail.com,,"801 Fairway Drive, Miami Beach",33141,,Default (USD) (USD),479,existente,153,14109489123
+Adriana Molina,,,,,"801 Fairway Drive, Miami Beach",33141,,Default (USD) (USD),13901,sin_telefono,,
+Buns and Roses Catering dba Le Macaron,(954) 329-8125,9543298125,dan@bunsandrosescatering.com,,"142 NW 209 Way, Pembroke Pines",33029,,Default (USD) (USD),533,existente,173,19543298125
+CACAO EXPRESS,,,,,"7165 SW 47th St. Suite 312, Miami",33155,,Default (USD) (USD),535,sin_telefono,,
+Elda Benshimol,+1 786-413-6562,17864136562,,,"7165 SW 47th St. Suite 312, Miami",33155,,Default (USD) (USD),13866,existente,174,117864136562
+CAFE BONJOUR,(305) 491-1088,3054911088,,,"865 Collins Ave Ste. B, Miami Beach",33139,,Default (USD) (USD),537,existente,42,13054911088
+CAFE CANELA RESTAURANT,,,,,"15960 WEST STATE RD 84, WESTON",33326,,Default (USD) (USD),538,sin_telefono,,
+"CAMERICAN INTERNATIONAL, INC",(440) 223-9161,4402239161,rparedes@camerican.com,,"1649 N Decatur Road, NE, Atlanta",33307,,Default (USD) (USD),541,existente,175,14402239161
+CARROT EXPRESSCOMMISSARY LLC,,,admin@carrotexpress.com,,"105 E HALLANDALE BEACH BLVD, HALLANDALE BEACH",33009,,Default (USD) (USD),13839,sin_telefono,,
+CASA DO PASTEL - ws food's corp,(954) 781-8778,9547818778,,,"430 E Sample Rd, Pompano Beach",33064,,Default (USD) (USD),542,existente,176,19547818778
+CASA MAIZ RESTAURANT,,,,,"7396 W 4th Ave, Hialeah",33014,,Default (USD) (USD),543,sin_telefono,,
+CELIS DELRAY BEACH,,,invoices@celisjuicebar.com,,"335 E linton Blvd B-12, Delray Beach",33483,,Default (USD) (USD),545,sin_telefono,,
+CELIS PRODUCE,,,invoices@celisjuicebar.com,,"2814 S Dixie Hwy Suite D, West Palm Beach",33405,,Price List (USD),546,sin_telefono,,
+CELIS WEST PALM BEACH,,,invoices@celisjuicebar.com,,"340 ROYAL POINCIANA WAY C4, PALM BEACH",33480,,Default (USD) (USD),547,sin_telefono,,
+CELIS WPB - RAILROAD,,,invoices@celisjuicebar.com,,"895 N RAILROAD AVE (PASS 7482), WEST PALM BEACH",33401,,Default (USD) (USD),548,sin_telefono,,
+CHEESE XPRESS,(954) 274-3317,9542743317,,,"9970 W OAKLAND PARK BLVD, SUNRISE",33351,,Default (USD) (USD),550,existente,177,19542743317
+"CHEF ODELL, LLC",(305) 761-5756,3057615756,chefodell.llc@yahoo.com,,"12222 SW 132 CORT, MIAMI",33186,,Default (USD) (USD),551,existente,178,13057615756
+CONSUMER,,,,,,,,Default (USD) (USD),553,sin_telefono,,
+CULINARY AFFAIRS BY DOMINIC INC,(754) 366-8682,7543668682,1culinaryaffairs@gmail.com,,"2400 Griffin Road, Fort Lauderdale",33312,,Default (USD) (USD),555,existente,179,17543668682
+CUSTOMER BORDER PROTECTION,,,,,,,,Default (USD) (USD),556,sin_telefono,,
+Caesar's Acai Corp,(954) 487-8090,9544878090,,,"120 NE 23rd Street, Miami",33137,,Default (USD) (USD),536,existente,180,19544878090
+Café Deli Grab n’ Go,(786) 503-5052,7865035052,Gbendana0829@icloud.com,,"1059 Collins #104, Miami Beach",33139,,Default (USD) (USD),539,existente,181,17865035052
+California foods corp,(786) 728-6088,7867286088,,,"10530 NW 37th Terrace, Doral",33178,,Default (USD) (USD),540,existente,100,17867286088
+Charanga Catering,(786) 795-9590,7867959590,,,"233 W 28th st, Hialeah",33010,,Default (USD) (USD),549,existente,19,17867959590
+Cheney Brothers,(561) 845-4700,5618454700,carlosf@cheneybrothers.com,,"1 Cheney Way, Riviera Beach",33404,,Cheeny brothers (USD),12763,existente,33,15618454700
+Compañia Industrial Frutihorticola S.A. - CIFSA,,,,,"Padre Cardiel 4702, Mar del Plata",,,Default (USD) (USD),552,sin_telefono,,
+Cornycopia,(786) 587-9554,7865879554,,,"14601 SW 103rd Ct, Miami",33176,,Default (USD) (USD),554,existente,101,17865879554
+D&S On Time Trucking LLC,,,dstrucking0511@gmail.com,,"6703 Bayfront Dr, Margate",33063,,Default (USD) (USD),13853,sin_telefono,,
+D&S On Time Trucking LLC,+1 305-799-4277,13057994277,dstrucking0511@gmail.com,,"6703 Bayfront Dr, Margate",33063,,Default (USD) (USD),13852,existente,133,113057994277
+DAIMIS CAFE,,,,,"23601 SW 177 KROME, MIAMI",33031,,Default (USD) (USD),557,sin_telefono,,
+"DAIRY SHINE, LLC",(561) 908-3806,5619083806,alexa.dairyshine@gmail.com,,"1809 S POWERLINE ROAD
+SUITE 108C, DEERFIELD BEACH",33442,,Default (USD) (USD),558,existente,182,15619083806
+DAVID POSNACK,,,,,,,,Default (USD) (USD),559,sin_telefono,,
+DAY3HUNDRED65 LLC,(954) 292-1377,9542921377,DAY3HUNDRED65@GMAIL.COM,,"139 SW 6 STREET, POMPANO BEACH",33060,,Default (USD) (USD),560,existente,183,19542921377
+"DDL ROWING, LLC",,,DOLORES@BENFRESHFOOD.COM,,,,,Default (USD) (USD),561,sin_telefono,,
+DEL SUR BAKERY,(786) 647-3329 (Eduardo),7866473329,,,"2566 NE MIAMI GARDENS DR, MIAMI",33180,,Default (USD) (USD),562,existente,184,17866473329
+DETIOMOI,,,,,"2555 W 3rd ave, Hialeah",33010,,Default (USD) (USD),564,sin_telefono,,
+DIANA FOOD GROUP,(954) 788-0411,9547880411,richard@dianafoodgroup.com,,"4020 NE 10TH WAY, POMPANO BEACH",33064,,Default (USD) (USD),565,existente,185,19547880411
+DIAZ SUPERMARKET,,,,,"13501 SW 268th St, Homestead",33032,,Default (USD) (USD),566,sin_telefono,,
+DIXIE RIBS,305 962 5412 JOHNNY,3059625412,dixieribs@gmail.com,,"2620 W 2 AVE, HIALEAH",33010,,Dixie (USD),568,existente,13,13059625412
+"DOS CROQUETAS, LLC",(305) 505-0665,3055050665,vicky@doscroquetas.com,,"7287 NW 78th Terrace, Medley",33166,,Default (USD) (USD),570,existente,186,13055050665
+Dennis Leventis,(786) 218-7053,7862187053,,,"8167 NW 201st ST, Miami Lakes",33015,,Default (USD) (USD),563,existente,187,17862187053
+Denny,,,,,,,,Default (USD) (USD),13883,sin_telefono,,
+Disfrutalos USA,,,Jpm@disfrutalosusa.com,,"3990 W 108th St, Hialeah",33018,,Default (USD) (USD),567,sin_telefono,,
+Doral Nutrition (Miguel Carrillo),(786) 301-5187,7863015187,mcglobal@gmail.com,,"10555 NW 41st St
+ Ste. 200 - Sub Suite 31, Doral",33178,,Default (USD) (USD),569,existente,188,17863015187
+Dr. Juice,(954) 533-7727,9545337727,paiday@live.com,,"222 Comercial Blvd # 104, Lauderdale",33308,,Default (USD) (USD),571,existente,189,19545337727
+EL MAGUEY DORADO,,,,,"196 W 25th St, Hialeah",33010,,Default (USD) (USD),578,sin_telefono,,
+EL MIO INC,(305) 431-6828,3054316828,,,"12362 QUAIL ROOST DRIVE, Miami",33177,,Default (USD) (USD),579,existente,29,13054316828
+EL RANCHITO,(786) 475-2800,7864752800,,,"12320 SW 56 Street, Kendall",33175,,Default (USD) (USD),581,existente,102,17864752800
+EL REY ENTERPRISES INC,,,,,"280 W 28 STREET, HIALEAH",33010,,Default (USD) (USD),582,sin_telefono,,
+ELISES BANOS,(305) 323-8309,3053238309,,,"1521 NW 93 STREET, MIAMI",33143,,Default (USD) (USD),583,existente,190,13053238309
+ERIK'S FIT MEALS,(305) 540-9571,3055409571,,,"10851 SW 40th STREET, MIAMI",33165,,Default (USD) (USD),585,existente,87,13055409571
+EXTRA SUPERMARKET,(305) 554-7436,3055547436,extrasupermarketmiami@gmail.com,,"12890 SW 8th street, Miami",33184,,Default (USD) (USD),587,existente,88,13055547436
+Easy Parking Systems Inc,,,,,,,,Default (USD) (USD),572,sin_telefono,,
+El BODEGON # 6,,,,,"6365 FOREST HILL Blvd, Green Acres",33414,,Default (USD) (USD),573,sin_telefono,,
+El BODEGON #4,,,,,"4481 Lake  Worth Rd, Lake Worth",33461,,Default (USD) (USD),576,sin_telefono,,
+El BODEGON #5,,,,,"1910 Lake Worth Rd, Lake Worth",33461,,Default (USD) (USD),577,sin_telefono,,
+El Bodegon #1,(561) 927-5151,5619275151,,,"West Palm Plaza 4704 Forest Hill Blvd, West Palm Beach",33415,,Default (USD) (USD),574,existente,191,15619275151
+El Bodegon #3,(954) 227-2753,9542272753,Comprasbodegon3@hotmail.com,,"8022 W Sample RD, Margate",33065,,Default (USD) (USD),575,existente,192,19542272753
+El Patio Supermarket,,,,,,,,Default (USD) (USD),580,sin_telefono,,
+Empanadas 305,(786) 332-4869,7863324869,empanada305@gmail.com,,"221 W 27th Street, Hialeah",33010,,Default (USD) (USD),584,existente,60,17863324869
+Estación de Pan,+1 561-617-1574,15616171574,estacaodopaousa@gmail.com,,"23269 State Rd 7 #107, Boca Raton",33428,,Default (USD) (USD),13887,existente,134,115616171574
+561 345 9964,,,,,"23269 State Rd 7 #107, Boca Raton",33428,,Default (USD) (USD),13888,sin_telefono,,
+FESTIVAL  #5 - 7208 North Lauderdale,,,,,"7208 Southgate Blvd, North Lauderdale",33068,,Default (USD) (USD),588,sin_telefono,,
+FESTIVAL POMPANO,,,,,"220 NE 17 CT, Pompano Beach",33060,,Default (USD) (USD),589,sin_telefono,,
+FESTIVAL SUPERMARKET #4218,(786) 298-7893,7862987893,,,"7346 W Commercial Blvd, Lauderhill",33319,,Default (USD) (USD),591,existente,193,17862987893
+FESTIVAL SUPERMARKET - Kendall,(305) 386-3304,3053863304,,,"14870 N Kendall Drive, Miami",33196,,Default (USD) (USD),592,existente,194,13053863304
+FESTIVAL SUPERMARKET 3,(305) 551-3344,3055513344,,,"10927 SW 40 STREET, MIAMI",33165,,Default (USD) (USD),593,existente,195,13055513344
+FOOD GIANT NW 10th ave (EX BRAVO TROPICAL MEAT & FISH),(305) 953-9503,3059539503,iribek2015@gmail.com,,"11800 NW 10 Ave., Miami",33168,,Default (USD) (USD),599,existente,115,13059539503
+FOOD LAB FLORIDA; LLC GABLES DELIGHT,(786) 395-6994,7863956994,info@gablesdelight.com,,"2180 NW 24TH CT UNIT 2602, MIAMI",33142-7115,,Default (USD) (USD),600,existente,31,17863956994
+FOOD STAR SUPERMARKET,(305) 559-1487,3055591487,,,"10751 W Flagler Street, Miami",33174,,Default (USD) (USD),601,existente,196,13055591487
+FRANCISCO'S CAFE & SERVICES,(305) 223-5599,3052235599,contact@franciscomeals.com,,"2711 SW 137th ave suite 75, Miami",33175,,Marshall's & Francisco's (USD),603,existente,26,13052235599
+FRANK'S FRESH FRUIT,(786) 273-1340,7862731340,,,"5291 SW 127 Ave, MIAMI",33175,,Default (USD) (USD),604,existente,79,17862731340
+FRANK'S FRESH FRUIT #2,(786) 229-7059,7862297059,yurayura966@yahoo.com,,"6480 SW 8 STREET, WEST MIAMI",33144,,Default (USD) (USD),605,existente,135,17862297059
+FRESCO Y MAS # 1717 - 7851 Palm river rd,(813) 620-1043,8136201043,,,"7851 Palm river rd, Tampa",33619,,Fresco y más (USD),606,existente,116,18136201043
+FRESCO Y MAS # 201 HIALEAH SHOPPING CENTER,(305) 558-7618,3055587618,,,"6500 W 4th Ave, Hialeah",33012,,Fresco y más (USD),607,existente,136,13055587618
+FRESCO Y MAS # 231 en Miami Gardens Shopping,(305) 819-0097,3058190097,,,"5850 N.W. 183Rd Street, Hialeah",33015,,Fresco y más (USD),608,existente,103,13058190097
+FRESCO Y MAS # 235 en 3401 NW y 18th Ave,(305) 634-4492,3056344492,,,"3401 NW 18th Ave, MIAMI",33142,,Fresco y más (USD),609,existente,104,13056344492
+FRESCO Y MAS # 237 en Inter Plaza,,,,,"12254 SW 8th Street, Miami",33184,,Fresco y más (USD),610,sin_telefono,,
+FRESCO Y MAS # 239 Bird Square Plaza,,,,,"14555 SW 42nd St, MIAMI",33155,,Fresco y más (USD),611,sin_telefono,,
+FRESCO Y MAS # 242 en Flamingo Plaza Shopping,,,,,"1201 E 10th Ave, Hialeah",33010,,Fresco y más (USD),612,sin_telefono,,
+FRESCO Y MAS # 243 en Palm Spring Mile,(305) 556-6588,3055566588,,,"541 West 49th Street, Hialeah",33012,,Fresco y más (USD),613,existente,117,13055566588
+FRESCO Y MAS # 2450 - 4056 N Armenia Ave,(813) 876-3280,8138763280,,,"4056 N Armenia ave suite 101, Tampa",33607,,Fresco y más (USD),614,existente,197,18138763280
+FRESCO Y MAS # 252 - 1525 Coral Way,(305) 854-8479,3058548479,,,"1525  Coral Way, Coral Gables",33145,,Fresco y más (USD),615,existente,118,13058548479
+FRESCO Y MAS # 270 en Lago Plaza,(305) 828-0812,3058280812,,,"2750  W 68th St. Ste 201, Hialeah",33016,,Fresco y más (USD),616,existente,105,13058280812
+FRESCO Y MAS # 274 en Taft Street Center,(954) 985-0490,9549850490,,,"6775 Taft St, Hollywood",33024,,Fresco y más (USD),617,existente,106,19549850490
+FRESCO Y MAS # 283 Coral Way Plaza,,,,,"8855  Coral Way, MIAMI",33165,,Fresco y más (USD),618,sin_telefono,,
+FRESCO Y MAS # 286 en Trail Plaza,,,,,"948  SW 67th Ave, Miami",33144,,Fresco y más (USD),619,sin_telefono,,
+FRESCO Y MAS # 287 Shoppes at 104th,,,,,"14655 SW 104th St, Miami",33186,,Fresco y más (USD),620,sin_telefono,,
+FRESCO Y MAS # 292 en 1630 West 49th St,(305) 822-7811,3058227811,,,"1630 west 49 street, Hialeah",33012,,Fresco y más (USD),621,existente,89,13058227811
+FRESCO Y MAS # 304 Lauderhill Mall,(954) 791-4516,9547914516,,,"1531 NW 40th ave, Lauderhill",33313,,Fresco y más (USD),622,existente,198,19547914516
+FRESCO Y MAS # 353 Parkill Plaza,,,,,"9565  W Flagler St., MIAMI",33174,,Fresco y más (USD),623,sin_telefono,,
+FRESCO Y MAS # 361 en Westlakes Plaza,,,,,"15050  SW 72nd St, Miami",33193,,Fresco y más (USD),624,sin_telefono,,
+FRESCO Y MAS # 384 en Deerwood Town Center,,,,,"12107 SW 152nd St, Miami",33177,,Fresco y más (USD),625,sin_telefono,,
+FRESCO Y MAS # 385 en Naranja Lakes,(305) 248-0660,3052480660,,,"27359 S Dixie Hwy, HOMESTEAD",33032,,Fresco y más (USD),626,existente,199,13052480660
+FRESCO Y MAS # 387 Quail Heights Plaza,(305) 252-6837,3052526837,,,"18801 SW 117th Ave., MIAMI",33177,,Fresco y más (USD),627,existente,119,13052526837
+FRESCO Y MAS # 388 18300 SW 137th Ave,(305) 234-3929,3052343929,,,"18300 SW 137th Ave, MIAMI",33177,,Fresco y más (USD),628,existente,107,13052343929
+FRESCO Y MAS # 697 - 8424 Sheldon Rd,(813) 884-6819,8138846819,,,"8424 SHELDON RD, Tampa",33615,,Fresco y más (USD),629,existente,200,18138846819
+FRESCO Y MAS #359 TJ Maxx Plaza,,,,,"7480 SW 117th Ave, Miami",33183,,Fresco y más (USD),630,sin_telefono,,
+FRESCO Y MAS #366  en Central Shopping Center,,,,,"3701 NW 7th Street, Miami",33126,,Fresco y más (USD),631,sin_telefono,,
+FRESH COCONUT & SMOOTHIES,(419) 810-6057,4198106057,JCHRIS2419@GMAIL.COM,,"1500 NE 16TH TERRACE, FORT LAUDERDALE",33304,,Default (USD) (USD),632,existente,201,14198106057
+FRUTERIA LA HACIENDA #3,(954) 935-5959,9549355959,,,"2900 W SAMPLE Rd, Pompano Beach",33073,,Default (USD) (USD),634,existente,202,19549355959
+FSM Foods International Inc.,(954) 970-9020,9549709020,lee.schefer@fsmfoods.com,,"750 S. Powerline Road, Bldg 5, Unit 1, Deerfield Beach",33442,,Default (USD) (USD),635,existente,203,19549709020
+FUZZBEE'S,(305) 609-4323,3056094323,fuzzbeesflorida@gmail.com,,"3444 Main Hwy #2, Coconut Grove",33133,,Default (USD) (USD),636,existente,49,13056094323
+Festival Supermarket #42 (ex Presidente),(954) 606-5675,9546065675,,,"2450 N State Road 7, Margate",33063,,Default (USD) (USD),590,existente,90,19546065675
+"Fiscer Mercantile Group, LLC",,,fiscerfoods@gmail.com,,"1572 NW 82nd Ave., Doral",33126,,Default (USD) (USD),594,sin_telefono,,
+Flavio Diaz,,,,,,,,Default (USD) (USD),595,sin_telefono,,
+Food Fair Broward,(754) 223-3855,7542233855,foodfairplantation@gmail.com,,"7139 W Broward Blvd, Plantation",33317,,Default (USD) (USD),596,existente,204,17542233855
+Food Fair Broward Smoothie bar (NO USAR),(754) 223-3855,7542233855,,,"7139 W Broward Blvd, Plantation",33317,,Default (USD) (USD),597,existente,204,17542233855
+Food Fair Miramar (Presidente 59),(954) 505-4349,9545054349,foodfairmiramar@gmail.com,,"6301 NW 215 street, Miramar",33023,,Default (USD) (USD),598,existente,205,19545054349
+Foodtown West Palm Beach,(561) 242-1100,5612421100,,,"5335 N Military Trl, West Palm Beach",33407,,Default (USD) (USD),602,existente,206,15612421100
+Fruteria La Hacienda #2,(561) 708-2383,5617082383,fruterialahacienda@outlook.com,,"1700 E Hallandale Beach Blvd, Hallandale",33009,,Default (USD) (USD),633,existente,207,15617082383
+GERMAN VILLAGE NUTRITION,,,,,,,,Default (USD) (USD),637,sin_telefono,,
+GIANT MARKETPLACE,(305) 760-5010,3057605010,,,"15006 NE 6th Ave, North Miami",33161,,Default (USD) (USD),638,existente,208,13057605010
+GILBERTO ARAUJO,,,,,,,,Default (USD) (USD),639,sin_telefono,,
+GLOW MEALS LLC,(305) 876-5525,3058765525,,,"1915 W 60 STREET, HIALEAH",33012,,Default (USD) (USD),640,existente,209,13058765525
+GOLD PIZZA CAFE,(786) 804-3884,7868043884,,,"401 71 street, Miami Beach",33141,,Default (USD) (USD),641,existente,210,17868043884
+GORDON FOOD SERVICE (CUSTOMER),,,,,,,,Default (USD) (USD),642,sin_telefono,,
+GOURMET KOSHER,(786) 423-8291,7864238291,accounting@gourmetkosher.us,,"330 NE 59th St, Miami",33137,,Gourmet Kosher (USD),643,existente,41,17864238291
+GRANJA S/M (CHAVEZ DISTRIBUTORS),,,,,"151 Opa-locka Blvd, Opa-locka",33054,,Default (USD) (USD),645,sin_telefono,,
+"GREATER MIAMI CATERERS, INC",(305) 633-8066,3056338066,Yrodriguez@gmcater.com,,"4001 NW 31 AVE, MIAMI",33142,,Greater (USD),646,existente,17,13056338066
+GUARAPO JUICE BAR & CAFE,(786) 402-2070,7864022070,guarapojuicebar@gmail.com,,"553 NE 81 Street, Miami",33138,,Default (USD) (USD),648,existente,43,17864022070
+GUSTO CASERO LLC - MDQ SWEETS,(786) 261-6957,7862616957,,,"2030 DOUGLAS RD 
+#102, CORAL GABLES",33134,,Default (USD) (USD),649,existente,211,17862616957
+Grain and Berry,,,denise@grainandberry.com,,"701 North Federal Hwy, Fort Lauderdale",33304,,Default (USD) (USD),644,sin_telefono,,
+Guarapo Juice Bar #2,,,,,"171 NW 36th St., Miami",33127,,Default (USD) (USD),647,sin_telefono,,
+H&L International foods,,,,,"55 Post Road West, Westport",,,Default (USD) (USD),650,sin_telefono,,
+"HARBOR CAFE 90, LLC",,,,,20308 SW 324 STREET,,,Default (USD) (USD),652,sin_telefono,,
+"HARVEST VALLEY, INC.",+1 305-620-4441,13056204441,German.dao@harvestvalley.com,P93000077740,"501 NE 183RD St, Miami",33179-4524,,Default (USD) (USD),13900,nuevo,,
+HAV-A-BALL TRADING CORP,(954) 655-8944,9546558944,havabowl64fl@gmail.com,,"1572 NW 82nd ave, Doral",33126,,Default (USD) (USD),653,existente,212,19546558944
+Happy foods 18 LLC,(786) 599-2280,7865992280,,,"18220 W. Dixie Hwy, North Miami Beach",33160,,Default (USD) (USD),651,existente,213,17865992280
+INTERFRIES,,,dunch@interfries.com,,"10491 N COMMERCE PKWY, MIRAMAR",33025,,Default (USD) (USD),657,sin_telefono,,
+INTERNATIONAL FROZEN PRODUCTS USA  LLC,(305) 999-5278,3059995278,sales@intproductsus.com,,"18239 NE 4th Ct, Miami",33162,,Default (USD) (USD),658,existente,214,13059995278
+INTERNATIONAL SUPERMARKET - MERCADO LATINO,(954) 973-6529,9549736529,international999@bellsouth.net,,"6091 W Atlantic Blvd, Margate",33063,,Default (USD) (USD),659,existente,215,19549736529
+IRIMIA LLC - PASIONES ARGENTINAS,(786) 442-6579 Romina,7864426579,,,"2756 SW 137 AVE, MIAMI",33175,,Default (USD) (USD),660,existente,137,17864426579
+Ideal Food Basket - Dania Beach,(954) 544-2976,9545442976,afb0242@amfmanagement.com,,"308 E Dania Beach Blvd, Dania Beach",33004,,Default (USD) (USD),654,existente,138,19545442976
+Paola Guzman,718-497-7777 / 718-497-1697,71849777777184971697,,,"308 E Dania Beach Blvd, Dania Beach",33004,,Default (USD) (USD),13912,nuevo,,
+Ideal Food Basket - Deerfield,(954) 421-6444,9544216444,,,"202 W. Hillsboro Blvd, Deerfield Beach",33441,,Default (USD) (USD),655,existente,216,19544216444
+Ideal Supermarket Pompano,(754) 205-7948,7542057948,,,"1040 E Sample Rd, Pompano Beach",33064,,Default (USD) (USD),656,existente,217,17542057948
+J CAFE KOSHER CATERING,,,,,"18900 NE 25 AVE, North Miami Beach",33180,,Default (USD) (USD),661,sin_telefono,,
+"JAL DISTRIBUTOR, LLC",(305) 821-4491,3058214491,luismytcentralfoods@gmail.com,,"260 W 27 STREET
+Suite 117, HIALEAH",33010,,Default (USD) (USD),662,existente,218,13058214491
+JAV AUTO TAG,,,,,,,,Default (USD) (USD),664,sin_telefono,,
+JAV AUTO TAG AGENCY INC,,,,,,,,Default (USD) (USD),665,sin_telefono,,
+JIMACA 112301 LLC,,,JIMACA112301@GMAIL.COM,,"14003 Sanctuary view trail, Orlando",32832,,Default (USD) (USD),666,sin_telefono,,
+JOMARA WHOLESALE,,,,,"2250 W 9 Ave, Hialeah",33010,,Default (USD) (USD),667,sin_telefono,,
+JOSE LUIS TURO,(786) 402-0916,7864020916,,,"2716 W VS HWY 27, CLEWISTON",33440,,Default (USD) (USD),669,existente,219,17864020916
+"JRK! AVENTURA, LLC",(805) 452-3120,8054523120,kavan@eatjrk.com,,"19565 Biscayne Blvd Suite FH10, Aventura",33180,,Default (USD) (USD),670,existente,220,18054523120
+JUICE LAND,(954) 260-1083,9542601083,justnatural100fl@gmail.com,,"905 Sunrise Ln, Fort Lauderdale",33304,,Default (USD) (USD),671,existente,221,19542601083
+JUICE WORLD FL,(954) 348-2500,9543482500,juiceworldfla@gmail.com,,"110 NE 12 AVE, FORT LAUDERALE",33301,,Default (USD) (USD),672,existente,222,19543482500
+Janser Pinho,,,janser.pinho@payrocsales.com,,,,,Default (USD) (USD),663,sin_telefono,,
+Jonatan,,,,,,,,Default (USD) (USD),668,sin_telefono,,
+Juice Zaza,(561) 377-4477,5613774477,zazajuice104@gmail.com,,"Snappers Fish & Chicken
+5330 NW 17th Ave, Miami",33142,,Default (USD) (USD),673,existente,223,15613774477
+Just feed me,+1 917-902-9373,19179029373,,,"335 E Linton Blvd, Delray Beach",33483,,Default (USD) (USD),13840,existente,139,119179029373
+KANUI MIA LLC - VITA MIA,,,,,"704 71st st, Miami Beach",33141,,Default (USD) (USD),674,sin_telefono,,
+KB SPECIALTIES LLC,,,ceferinoestrada@kbspecialties.com,,"3802 W HIBISCUS ST, WESTON",33332,,Default (USD) (USD),675,sin_telefono,,
+KEY FOOD BOCA RATON,(754) 212-4290,7542124290,,,"4301 W Hillsboro Blvd, Coconut Creek",33073,,Default (USD) (USD),676,existente,224,17542124290
+KEY FOOD CORAL SPRINGS (EX BRAVO CORAL SPRINGS),(954) 227-2446,9542272446,bravoroyalpalm@hotmail.com,,"10301 Royal Palm Blvd, Coral Springs",33065,,Default (USD) (USD),677,existente,140,19542272446
+KEY FOOD HOLLYWOOD - (EX BRAVO JOHNSON),(954) 893-1104,9548931104,keyfoodhollywood@gmail.com,,"3025 Johnson St, Hollywood",33021,,Default (USD) (USD),678,existente,91,19548931104
+KEY FOOD KIMBERLY (EX BRAVO KIMBERLY),(954) 970-1003,9549701003,,,"6039 A Kimberly Blvd, North Lauderdale",33068,,Default (USD) (USD),679,existente,120,19549701003
+KEY FOOD LAKE WORTH N DIXIE,(561) 588-0220,5615880220,,,"1337 N Dixie Hwy, Lake Worth",33460,,Default (USD) (USD),680,existente,225,15615880220
+KEY FOOD LAKE WORTH S DIXIE,(561) 547-6330,5615476330,kfoodlantana@gmail.com,,"1206 S Dixie Hwy, Lake Worth",33460,,Default (USD) (USD),681,existente,226,15615476330
+KEY FOOD LAUDERHILL #1621 ( Ex Bravo),,,bravolauderhill@yahoo.com,,"1627 N State Road 7, Lauderhill",33313,,Default (USD) (USD),682,sin_telefono,,
+KEY FOOD MIRAMAR (BRAVO # 54),(954) 322-8707,9543228707,,,"6819 Miramar Pkwy, Miramar",33023,,Default (USD) (USD),683,existente,227,19543228707
+KEY FOOD PEMBROKE PINES (Ex Price Choice #12),(954) 589-1929,9545891929,,,"701 NW 99 ave., Pembroke Pines",33024,,Default (USD) (USD),684,existente,70,19545891929
+KEY FOOD SUNRISE - Sunset Strip,(954) 746-1856,9547461856,bravosunrise@hotmail.com,,"8251 Sunset Strip, Sunrise",33322,,Default (USD) (USD),685,existente,54,19547461856
+KEY FOOD SUPERMARKET (BS DADE),(305) 681-4670,3056814670,,,"1701 NW 119 Street, Miami",33167,,Default (USD) (USD),686,existente,228,13056814670
+KEY FOOD SUPERMARKET MIAMI 104 (EX Bravo Miami),(305) 455-6720,3054556720,,,"10400 NW 7 ave, Miami",33150,,Default (USD) (USD),687,existente,229,13054556720
+KEY FOOD WESTON (EX BRAVO),(954) 533-5312,9545335312,keyfood15860@gmail.com,,"15860 W State Ed 84, Sunrise",33326,,Default (USD) (USD),688,existente,46,19545335312
+KOOL TREATS BY MAMA DUKES,(786) 224-9797,7862249797,ktbymd@gmail.com,,"7700 NW 14th court, MIAMI",33147,,Default (USD) (USD),690,existente,48,17862249797
+Key Foods Supermarket Hollywood (NO USAR),,,,,"3025 Johnson St., Hollywood",33021,,Default (USD) (USD),689,sin_telefono,,
+Kosher KINGDOM Supermarket,(305) 792-7988,3057927988,,,"3017 NE 199 St., Aventura",33180,,Default (USD) (USD),691,existente,230,13057927988
+LA CROCANTE,(786) 554-0766,7865540766,,,"3050 NW 40 STREET, MIAMI",33142,,Default (USD) (USD),692,existente,231,17865540766
+"LA DULCE VIDA RASPADOS, LLC",(773) 551-6452,7735516452,ladulcevidaraspados@gmail.com,,"12141 PEMBROKE RD,, Pembroke Pines",33025,,Default (USD) (USD),693,existente,232,17735516452
+LA NUEVA COPA,(305) 822-9661,3058229661,,,650 E 9 STREET,33010,,Default (USD) (USD),694,existente,233,13058229661
+LAMEX AGRIFOODS,,,,,,,,Default (USD) (USD),697,sin_telefono,,
+LARA WAIHRICH ROSA,+1 786-362-2790,17863622790,larawrosa@gmail.com,,"800 SE 4th Ave, Hallandale Beach",,,Default (USD) (USD),13891,existente,121,117863622790
+LAS ACACIAS RESTAURANT,,,,,"8200 NW 14th Street, Doral",33126,,Default (USD) (USD),698,sin_telefono,,
+LEVAN BERRY  LLC,,,,,"20100 W COUNTRY CLUB DRIVE, AVENTURA",33180,,Default (USD) (USD),700,sin_telefono,,
+LKD GROUP LLC,,,,,"2739 NW 54th st, Miami",33142,,LKD (USD),13859,sin_telefono,,
+LOCATEL STORES OPERATIONS LLC,(786) 740-1301,7867401301,,,"1713 E HALLANDALE BEACH BLVD, HALLANDALE BEACH",33009,,Default (USD) (USD),703,existente,234,17867401301
+LOVE IT OR LIKE IT,,,,,"18587 NW 27 AVE, MIAMI GARDEN",33056,,Default (USD) (USD),705,sin_telefono,,
+La Real Food,(786) 440-3730,7864403730,info@larealfoods.com,,"13013 SW 122 ave, Miami",33186,,Default (USD) (USD),695,existente,235,117864403730
+Yair Rosemberg,+1 786-440-3730,17864403730,yair@larealfoods.com,,"13013 SW 122 ave, Miami",33186,,Default (USD) (USD),13869,existente,235,117864403730
+La Terraza Organic Restaurant,(305) 629-9464,3056299464,,,"3105  NW 107 Ave # Ste 102, Doral",33172,,Default (USD) (USD),696,existente,236,13056299464
+Latinos meat market,(954) 604-5768,9546045768,,,"1718 W Hillsboro Blvd, Deerfield Beach",33442,,Default (USD) (USD),699,existente,237,19546045768
+"Life Extension Nutrition Center, Inc.",(954) 766-8433,9547668433,confirmationandinvoice@lifeextension.com,,"900 N Federal Hwy, Fort Lauderdale",33304,,Default (USD) (USD),701,existente,238,19547668433
+Lineage Miami (Hialeah),,,,,"3990 W. 108th Street, Hialeah",33018,,Default (USD) (USD),702,sin_telefono,,
+Lorena Acosta,,,,,"7300 SW 83rd Ct, Miami",33143,,Default (USD) (USD),704,sin_telefono,,
+M&L Food Market,(305) 865-2649,3058652649,mlfood@gmx.com,,"7446 Collins Ave #2714, Miami Beach",33141,,Default (USD) (USD),706,existente,239,13058652649
+MAJESTY FOODS LLC,,,"pacevedo@majestyfoods.com, mchavarria@majestyfoods.com",,"2740 W 81 STREET, HIALEAH",33016,,Majestick (USD),13841,sin_telefono,,
+MANGO TREE,(954) 797-7790,9547977790,jguevara@ftfla.com,,"6431 Stirling road, Davie",33314,,Default (USD) (USD),709,existente,240,19547977790
+MARANEROS FRESH CAFE LLC - EXTRAORDINARY JUICES,,,,,"4613 S University Dr, Davie",33328,,Default (USD) (USD),711,sin_telefono,,
+MARIMBAS CAFE,(305) 240-7605,3052407605,,,"24763 SW 177 AVE, HOMESTEAD",33031,,Default (USD) (USD),712,existente,241,13052407605
+MARKY'S  STORE,,,,,"687 NE 79TH STREET, MIAMI",33138,,Default (USD) (USD),713,sin_telefono,,
+MAX FOOD DISTRIBUTORS,(305) 635-2464,3056352464,,,"1495 NW 23 Street, Miami",33142,,Default (USD) (USD),714,existente,242,13056352464
+MIC Food,(800) 788-9335,8007889335,,,"13595 SW 134th Avenue
+Suite 201, Miami",33186,,Default (USD) (USD),723,existente,243,18007889335
+MILLER MEAT & FISH,,,,,"13445 SW 56th St, Miami",33175,,Default (USD) (USD),728,sin_telefono,,
+"MODERATO DORAL, LLC",(786) 360-3707,7863603707,,,"6933 NW 52 STREET, MIAMI",33166,,Default (USD) (USD),729,existente,244,17863603707
+Mango Man,(786) 797-2438,7867972438,,,"3598 W Broward Boulevard, Fort Lauderdale",33313,,Default (USD) (USD),707,existente,122,17867972438
+Mango Mix LLC,(561) 628-6961.0,56162869610,Ej7779311@gmail.com,,"4922 NW 2nd tr, Pompano",33064,,Default (USD) (USD),708,existente,245,156162869610
+Mango tree Deli,(954) 797-7790,9547977790,jguevara@ftfla.com,,"6431 Stirling road, Davie",33314,,Default (USD) (USD),710,existente,240,19547977790
+Marlond Marques,,,,,,,,Default (USD) (USD),13868,sin_telefono,,
+McKay Fruit Palace,(786) 436-1065,7864361065,jmckay2401@gmail.com,,17350 S Dixie Hwy,,,Default (USD) (USD),715,existente,246,17864361065
+Meat Club Market,(305) 456-5295,3054565295,vmingoia@meatclubmarket.com,,"5900 NW 97th Ave Unit 26, Doral",33178,,Default (USD) (USD),716,existente,108,13054565295
+Mexico Market,,,,,"407 Park Pl, Homestead",33030,,Default (USD) (USD),718,sin_telefono,,
+Mezze Inc.,+592-657-4040,5926574040,"richard@mezzelife.com, richard@richard.io",,"288 Middle Street, Georgetown",,,Default (USD) (USD),719,existente,247,15926574040
+Mi Campo Farmers Market,,,,,"7642 N Nob Hill Rd, Tamarac",33321,,Default (USD) (USD),720,sin_telefono,,
+Miami Juice,(305) 945-0444,3059450444,,,"18660 Collins Ave #101, Sunny Isles Beach",33160,,Default (USD) (USD),721,existente,123,13059450444
+Miami Squeeze,(305) 935-8544,3059358544,accounting@miamisqueeze.com,,"18315 W Dixie Hwy, North Miami Beach",33160,,Default (USD) (USD),722,existente,248,13059358544
+Miguel Carrillo,,,,,"10350 PINES BLVD 
+SUITE D 106 A - 117, PEMBROKE PINES",33024,,Default (USD) (USD),724,sin_telefono,,
+Milanos Bakery,,,,,"7120 N University Dr, Tamarac",33321,,Default (USD) (USD),725,sin_telefono,,
+Milky Ways Cereal Bar,(787) 322-4040,7873224040,milkywaysmiami@gmail.com,,"17013 S Dixie Hwy, Palmetto Bay",33157,,Default (USD) (USD),726,existente,124,17873224040
+Milky Ways Cereal Bar - Kendall,(787) 322-4040,7873224040,milkywaysmiami@gmail.com,,"13818 SW 56th St, Miami",33175,,Default (USD) (USD),727,existente,124,17873224040
+NAHUÉN Gourmet Market - DORAL,(305) 513-2624,3055132624,,,"10375 NW 41st St, Doral, Doral",33178,,Nahuen (USD),730,existente,125,13055132624
+NANA'S FOOD FOR YOU,(786) 310-5184,7863105184,adm3@lobainc.com,,"312 N Federal Hwy, Hallandale Beach",33009,,Default (USD) (USD),731,existente,249,17863105184
+NRGIZE - WELLINGTON,,,yocla2007@gmail.com,,"10180 Forest Hill Blvd, WELLINGTON",33414,,Default (USD) (USD),733,sin_telefono,,
+NRGIZE Cafe Kendall. Racketbol & Tennis Cafe,(305) 967-0648,3059670648,yocla2007@gmail.com,,"8555 SW 124 Ave, Kendall",33183,,Default (USD) (USD),734,existente,250,13059670648
+NUTRISPA INC,(305) 330-9321,3053309321,raiza@mynutrispa.org,,"8175 NW 31 st, Miami",33122,,Nutrispa (USD),735,existente,15,13053309321
+No Ordinary Vegan,(305) 878-2864,3058782864,thrivevegan@gmail.com,,"1525 Meridian Ave 210, Miami Beach",33147,,Default (USD) (USD),732,existente,126,13058782864
+OLA GELATO LLC,(954) 451-8359,9544518359,,,"13115 W OKEECHOBEE ROAD
+SUITE 113, HIALEAH GARDENS",33018,,Default (USD) (USD),737,existente,127,19544518359
+"OSSO EDIBLE PROJECT, LLC",+1 786-439-8116,17864398116,Soniacch44@gmail.com,L25000177752,"8510 NW 3RD Ln APT 7, Miami",33126-3857,,Default (USD) (USD),13914,nuevo,,
+Sonia Castro,+1 786-439-8116,17864398116,,L25000177752,"8510 NW 3RD Ln APT 7, Miami",33126-3857,,Default (USD) (USD),13915,nuevo,,
+Ocean View Tiki Bar,,,,,,,,Default (USD) (USD),736,sin_telefono,,
+PALERMO MARKET,(786) 592-1399,7865921399,,,"8269 SW 124th st, Miami",33156,,Default (USD) (USD),738,existente,251,17865921399
+PALMITA JUICE,(786) 653-0828,7866530828,FADDY.HALABI@GMAIL.COM,,"58 NE 14TH ST, MIAMI",33132,,Default (USD) (USD),739,existente,252,17866530828
+PANNA MANUFACTURING LLC,(954) 707-6752,9547076752,kflaviani@pannatogo.com,,"18330 NE 2nd ave, Miami",33179,,Default (USD) (USD),740,existente,32,19547076752
+PAPAREPA FROZEN FOODS,(786) 615-8295,7866158295,paparepa2013@gmail.com,,"7360 NW 35 AVE, Miami",33147,,Default (USD) (USD),741,existente,253,17866158295
+PEÑA FOODS,(305) 885-9785,3058859785,payables@penafoods.com,,"9800 NW 79 AVE, HIALEAH",33016,,Default (USD) (USD),742,existente,38,13058859785
+PINK LOVE DONUTS AND MORE,+1 786-863-9882,17868639882,,,"222 67TH ST, Miami Beach",33141-5701,,Default (USD) (USD),13884,existente,141,117868639882
+Diego,+1 786-863-9882,17868639882,,,"222 67TH ST, Miami Beach",33141-5701,,Default (USD) (USD),13886,existente,141,117868639882
+PINTON BY TIME 2 GROW,+1 786-630-6716,17866306716,info@usapinton.com,,"13435 SW 128th st # 106, Miami",33186,,Pinton (USD),13855,existente,62,117866306716
+POLIDORI MIAMI CORP - POLIDORI MARKET,+5493516289918,5493516289918,babarnes@ggjiinvestment.com,,"13408 BISCAYNE BLVD, MIAMI",33181,,Default (USD) (USD),744,existente,128,5493516289918
+POWERFUEL SMOOTHIE SHOP 2 INC.,(786) 222-2429,7862222429,mbvoip@gmail.com,,"57 NW 183 Street, Miami Gardens",33169,,Default (USD) (USD),745,existente,23,17862222429
+POWERFUEL SMOOTHIE SHOP 2 INC. #2 (no usar),,,,,"16357 NW 57 ave, Miami Lakes",33014,,Default (USD) (USD),746,sin_telefono,,
+POWERFUEL SMOOTHIE SHOP MIRAMAR,+1 954-613-5100,19546135100,powerfuelsmoothieshop@gmail.com,,"11348 miramar parkway, Miramar",33025,,Default (USD) (USD),13827,existente,21,119546135100
+PRESIDENTE SUPERMARKET #43,,,,,"1026 NW 10th Ave, Fort Lauderdale",33311,,Default (USD) (USD),750,sin_telefono,,
+PRESIDENTE SUPERMARKET #8,(561) 478-5696,5614785696,,,"4645 B Gun Club Road, West Palm Beach",33415,,Default (USD) (USD),751,existente,129,15614785696
+PRICE CHOICE #10,(954) 581-2660,9545812660,,,"109 N State Rd 7, Fort Lauderdale",33317,,Default (USD) (USD),752,existente,254,19545812660
+PRICE CHOICE #2,(305) 628-1948,3056281948,pricechoice2@gmail.com,,"18351 NW 27 ave, Miami",33056,,Default (USD) (USD),754,existente,255,13056281948
+PRICE CHOICE #5,(305) 374-2525,3053742525,pricechoice5@yahoo.com,,"1851 NE 2  Ave., Miami",33132,,Default (USD) (USD),755,existente,18,13053742525
+PRICE CHOICE #6,(305) 646-1800,3056461800,,,"1900 W 60th STREET, HIALEAH",33012,,Default (USD) (USD),756,existente,256,13056461800
+PRICE CHOICE #8,(305) 625-0074,3056250074,pricechoice08@gmail.com,,4500 NW 183 street,,,Default (USD) (USD),758,existente,257,13056250074
+PRICE CHOICE #9,(305) 681-5424,3056815424,,,"13931 NW 27 ave, Opa-locka",33054,,Default (USD) (USD),759,existente,258,13056815424
+"PRIME MEALS, LLC",(813) 650-6183,8136506183,,,"12221 PEMBROKE RD, PEMBROKE PINES",33025,,Default (USD) (USD),760,existente,28,18136506183
+PURA VIDA - FLAMINGO,,,,,"12141 Pembroke Rd,, Pembroke Pines",33025,,Default (USD) (USD),761,sin_telefono,,
+Pinkacake USA LLC,(786) 925-4937,7869254937,info@pinkacake.us,,,,,Default (USD) (USD),743,existente,259,17869254937
+Presidente Supermarket #4,,,,,"1510 Hollywood S Federal Hwy, Hollywood",33020,,Default (USD) (USD),749,sin_telefono,,
+Presidente bar (DDL),(305) 987-1267,3059871267,,,"146 NW 28th St, Miami",33127,,Default (USD) (USD),748,existente,260,13059871267
+Price Choice #11,,,,,"1490 NW 3 Ave., Miami",33136,,Default (USD) (USD),753,sin_telefono,,
+Price Choice #7,(305) 696-6363,3056966363,,,"2712 NW 95 street, Miami",33147,,Default (USD) (USD),757,existente,261,13056966363
+QUIO PRODUCTS LLC,(786) 203-0764,7862030764,fcabrera@quioproducts.com,,"11700 NW 102 ND RD UNIT1-2, MEDLEY",33178,,Default (USD) (USD),763,existente,262,17862030764
+"QUIRCH FOODS, LLC",,,,,"7600 NW 82nd PLACE, MEDLEY",33166,,Default (USD) (USD),764,sin_telefono,,
+RADU DISTRIBUCION,,,,,"2750 W 3 AVE, HIALEAH",,,Default (USD) (USD),13904,sin_telefono,,
+JUAN,,,,,"2750 W 3 AVE, HIALEAH",,,Default (USD) (USD),13905,sin_telefono,,
+REDLAND FARMERS MARKET,745 309 9755,7453099755,pupo891108@gmail.com,,"24801 SW 177th Ave, Homestead",33031,,Default (USD) (USD),13889,existente,142,17453099755
+Roberto Fernandez,,,,,"24801 SW 177th Ave, Homestead",33031,,Default (USD) (USD),13890,sin_telefono,,
+REY CHAVEZ #2,,,,,"780 W 17 Street, Miami",33010,,Rey chavez (USD),765,sin_telefono,,
+RINCONCITO SUPER LATINO,(305) 232-6691,3052326691,,,"11356 Quall Roost Dr,, Miami",33157,,Default (USD) (USD),768,existente,263,13052326691
+ROBERT IS HERE!,(305) 246-1592,3052461592,,,"19200 SW 344th Street, Homestead",33034,,Default (USD) (USD),769,existente,264,13052461592
+RONNIE & MOE'S ITALIAN ICE,(786) 970-1805,7869701805,,,"6600 NW 27th AVE, MIAMI",33147,,Default (USD) (USD),770,existente,47,17869701805
+RORABECK'S PLANTS & PRODUCE,(561) 964-9316,5619649316,rorabecks@gmail.com,,"5539 S Military Trail, Lake Worth",33463,,Default (USD) (USD),771,existente,71,15619649316
+ROUIE,,,rouie1011@gmail.com,,"1991 PRESIDENTIAL WAY UNIT 820, WEST PALM BEACH",33401,,Default (USD) (USD),772,sin_telefono,,
+RPM Pizzería LLC,+1 239-291-8458,12392918458,,,"1327 NW 8th pl, Cape Coral",33993,,Default (USD) (USD),13842,existente,55,112392918458
+Rey Chavez Distributor Corp.#1,3056964677,3056964677,reychavezrogelio@gmail.com,,"3400 NW 62nd St Ste 101, Miami",33147,,Rey chavez (USD),766,existente,25,13056964677
+Rey chavez distributor #1,,,,,"3400 nw 62 ave, Miami",,,Default (USD) (USD),12985,sin_telefono,,
+Reyes Juice & Fruits,(786) 230-0997,7862300997,,,"18636 SW 137 ave, Miami",33177,,Default (USD) (USD),767,existente,265,17862300997
+S4L Industries,+1 786-458-5237,17864585237,Stuff4less305@gmail.com,,"270 W 25 st, Hialeah",33010,,Default (USD) (USD),773,existente,52,117864585237
+SABOR TROPICAL #2,(305) 380-8967,3053808967,,,"8700 SW 137 CT, MIAMI",33183,,Default (USD) (USD),774,existente,266,13053808967
+SABOR TROPICAL #3,(305) 242-6499,3052426499,,,"28945 S DIXIE HWY, Homestead",33033,,Default (USD) (USD),775,existente,267,13052426499
+SABOR TROPICAL SUPERMARKET #1,(305) 226-4722,3052264722,,,"10692 NW 7th St, Miami",33172,,Default (USD) (USD),776,existente,268,13052264722
+SABOR TROPICAL SUPERMARKET #4,(305) 482-0261,3054820261,st4@stropical.net,,"8000 NE 5 Ave, Miami",33138,,Default (USD) (USD),777,existente,56,13054820261
+SABOR TROPICAL SUPERMARKET #5,(305) 266-6678,3052666678,,,"6190 SW 8th St, West Miami",33144,,Default (USD) (USD),778,existente,80,13052666678
+SABOR TROPICAL SUPERMARKET #6,,,,,"1410 N Krome Ave, Homestead",33030,,Default (USD) (USD),779,sin_telefono,,
+SABOR TROPICAL SUPERMARKET #7,(305) 482-0261,3054820261,,,"969 Normandy Dr, MIAMI BEACH",33141,,Default (USD) (USD),780,existente,56,13054820261
+SABORES MARKET,(786) 292-6622,7862926622,compras@consorciow.com,,"10720 NW 74 Street, Doral",33178,,Default (USD) (USD),781,existente,269,17862926622
+SCOOP HEALTHY SMOOTHIES LLC,+1 407-923-9927,14079239927,alexandre@scoophs.com,,"2829 Bird Ave, Suite #4, Miami",33130,,Default (USD) (USD),13913,nuevo,,
+SEABRA FOODS,,,dearfield@seabrafoods.com,,"839 W Sample Road, Pompano Beach",33064,,Default (USD) (USD),784,sin_telefono,,
+SEBASTIAN,,,,,,,,Default (USD) (USD),785,sin_telefono,,
+SEDANOS # 1 - Hialeah 1,(305) 696-0928,3056960928,sedanos1@sedanos.com,,"3801  W Flager st, Coral Gables",33126,,Sedanos (USD),786,existente,270,13056960928
+SEDANOS # 10 - Hialeah 10,(305) 556-5201,3055565201,sedanos10@sedanos.com,,"1690 W 68th st, Hialeah",33014,,Sedanos (USD),787,existente,143,13055565201
+SEDANOS # 11 - Hialeah 11,(305) 884-0032,3058840032,sedanos11@sedanos.com,,"950 E 4th ave, Hialeah",33010,,Sedanos (USD),788,existente,72,13058840032
+SEDANOS # 14 - Little Havana 14,,,sedanos14@sedanos.com,,"3801  W Flager st, Coral Gables",33126,,Sedanos (USD),789,sin_telefono,,
+SEDANOS # 15 - West Dade 15,,,sedanos15@sedanos.com,,"13659 SW 26th St, Miami",33175,,Sedanos (USD),790,sin_telefono,,
+SEDANOS # 16 - Hialeah 16,(305) 825-1243,3058251243,sedanos16@sedanos.com,,"3925  Palm ave, HIALEAH",33012,,Sedanos (USD),791,existente,92,13058251243
+SEDANOS # 17 - Miami 17,,,sedanos17@sedanos.com,,"10720  West Flagler St, MIAMI",33174,,Sedanos (USD),792,sin_telefono,,
+SEDANOS # 18 - West Dade 18,(305) 559-5221,3055595221,sedanos18@sedanos.com,,"12175  SW 26th st, MIAMI",33175,,Sedanos (USD),793,existente,73,13055595221
+SEDANOS # 20 - Miami Gardens 20,(305) 558-5073,3055585073,sedanos20@sedanos.com,,"3801  W Flager st, Coral Gables",33126,,Sedanos (USD),794,existente,63,13055585073
+SEDANOS # 21 - West Kendall 21,(305) 255-3386,3052553386,sedanos21@sedanos.com,,"13794  SW 152nd st, MIAMI",33177,,Sedanos (USD),795,existente,74,13052553386
+SEDANOS # 22 - Hialeah 22,(305) 828-1060,3058281060,sedanos22@sedanos.com,,"5360  W 16th ave, HIALEAH",33012,,Sedanos (USD),796,existente,64,13058281060
+SEDANOS # 23 - Little Havana 23,,,sedanos23@sedanos.com,,"2425  SW 8th st, Miami",33135,,Sedanos (USD),797,sin_telefono,,
+SEDANOS # 24 - Hollywood 24,(954) 986-9281,9549869281,sedanos24@sedanos.com,,"2325 N state road 7, Hollywood",33021,,Sedanos (USD),798,existente,93,19549869281
+SEDANOS # 26- Hialeah 26,(305) 824-9954,3058249954,sedanos26@sedanos.com,,"2301 W 52nd St, Hialeah",33016,,Sedanos (USD),799,existente,130,13058249954
+SEDANOS # 27 - Pembroke Pines 27,(954) 450-0793,9544500793,sedanos27@sedanos.com,,"10333  Pines Blvd, Pembroke Pines",33026,,Sedanos (USD),800,existente,109,19544500793
+SEDANOS # 28 - Hialeah 28,(305) 364-2303,3053642303,sedanos28@sedanos.com,,"3140 W 76th st, Hialeah",33018,,Sedanos (USD),801,existente,131,13053642303
+SEDANOS # 29 - West Kendall 29,,,sedanos29@sedanos.com,,"16255 SW 88th st, Miami",33196,,Sedanos (USD),802,sin_telefono,,
+SEDANOS # 31 - Homestead 31,(305) 245-1405,3052451405,sedanos31@sedanos.com,,"831  NE 8th st, Homestead",33030,,Sedanos (USD),803,existente,144,13052451405
+SEDANOS # 32 - West Dade 32,(305) 220-7313,3052207313,sedanos32@sedanos.com,,"14655  SW 56th st, Miami",33175,,Sedanos (USD),804,existente,110,13052207313
+SEDANOS # 33 - Doral 33,(305) 716-2884,3057162884,sedanos33@sedanos.com,,"10780 NW 58th St, Doral",33178,,Sedanos (USD),805,existente,94,13057162884
+SEDANOS # 34 - Pembroke Pines 34,,,sedanos34@sedanos.com,,"17171 Pines Blvd, Pembroke Pines",33027,,Sedanos (USD),806,sin_telefono,,
+SEDANOS # 36- Miami Gardens 36,(786) 364-4120,7863644120,sedanos36@sedanos.com,,"18600 NW 87th ave, Hialeah",33018,,Sedanos (USD),807,existente,145,17863644120
+SEDANOS # 37 - West Dade 37,,,sedanos37@sedanos.com,,"14524 SW 8th st, Miami",33184,,Sedanos (USD),808,sin_telefono,,
+SEDANOS # 38 - Westchester 38,(305) 403-8010,3054038010,sedanos38@sedanos.com,,"8601  Bird Rd, MIAMI",33155,,Sedanos (USD),809,existente,95,13054038010
+SEDANOS # 4 - West Miami 4,,,sedanos4@sedanos.com,,"6709  W Flager st, Miami",33144,,Sedanos (USD),810,sin_telefono,,
+SEDANOS # 42 - Miami 42,(786) 502-3420,7865023420,sedanos42@sedanos.com,,"3801  W Flager st, Coral Gables",33126,,Sedanos (USD),811,existente,65,17865023420
+SEDANOS # 43 - Hialeah 43,(786) 364-4100,7863644100,sedanos43@sedanos.com,,"1170 W 49th st, Hialeah",33012,,Sedanos (USD),812,existente,75,17863644100
+SEDANOS # 5- Westchester 5,,,sedanos5@sedanos.com,,"9688  SW 24th st, MIAMI",33165,,Sedanos (USD),813,sin_telefono,,
+SEDANOS # 7 - Coral Gables 7,,,sedanos7@sedanos.com,,"4803  SW 8th St., Coral Gables",33134,,Sedanos (USD),814,sin_telefono,,
+SEDANOS # 9 - Hialeah 9,(305) 825-1725,3058251725,sedanos9@sedanos.com,,"4040 E 4th ave, Hialeah",33013,,Sedanos (USD),815,existente,51,13058251725
+SEDANOS #8 - Hialeah,(305) 556-6477,3055566477,sedanos08@sedanos.com,,"3950  W 12th ave, HIALEAH",33012,,Sedanos (USD),816,existente,271,13055566477
+SERGIO'S CATERING,(305) 454-1900,3054541900,RICARDO@SERGIOSCAFETERIA.COM,,"4720 NW 167TH STREET, MIAMI GARDENS",33014,,Sergios (USD),818,existente,14,13054541900
+SHAKA FRESH,,,shakafresh21@gmail.com,,"6808 SW 81 STREET
+STUNNA'S FIT, Miami",33143,,Default (USD) (USD),819,sin_telefono,,
+SIMON,,,,,,,,Default (USD) (USD),820,sin_telefono,,
+SMOOTHIE BAR FLEX APPEAL,,,,,"12814 SW 122nd Ave, Miami",33186,,Default (USD) (USD),821,sin_telefono,,
+SMOOTHIE EXPRESS,(305) 218-6915,3052186915,,,"835 NE 132 STREET, NORTH MIAMI",33161,,Default (USD) (USD),822,existente,76,13052186915
+SMOOTHIE PLUS,(954) 549-3660,9545493660,,,"360 N PARK RD, HOLLYWOOD",33021,,Default (USD) (USD),823,existente,20,19545493660
+SMOOTHIE PLUS #2 - MIRAMAR,,,,,"2925 SW 160 Ave, Miramar",33027,,Default (USD) (USD),824,sin_telefono,,
+SMOOTHIE SQUAD - KENDALL,,,derek@thesmoothiesquad.com,,"8851 sw 107th ave unit 320
+Located Inside UFC Gym, Miami",33176,,Default (USD) (USD),825,sin_telefono,,
+SMOOTHIE SQUAD - PLANTATION,(786) 413-9883 Derek,7864139883,derek@thesmoothiesquad.com,,"331 N university drive unit 114
+(Inside UFC fit gym), Plantation",33324,,Default (USD) (USD),826,existente,81,17864139883
+SMOOTHIE TIME,(205) 926-8753,2059268753,smoothietimehollywood@gmail.com,,"8900 TAFT STREET, PEMBROKE PINES",33024,,Default (USD) (USD),827,existente,96,12059268753
+"SOUTH FLORIDA FOOD, LLC",(954) 549-3146,9545493146,southfloridafoodllc@gmail.com,,"5801 WILEY street, Hollywood",33023,,Default (USD) (USD),830,existente,66,19545493146
+SOUTH FLORIDA FOODS INTL INC,,,,,"5900 NW 97 AVE.
+UNIT 19, DORAL",33178,,Default (USD) (USD),831,sin_telefono,,
+SOUTHERN BEAR,,,,,,,,Default (USD) (USD),832,sin_telefono,,
+SOUTHERN BEAR INC,,,info@southernbearfoods.com,,"1950 Hayes Street, Hollywood",33020,,Default (USD) (USD),833,sin_telefono,,
+SPANISH CREATIONS CATERING LLC,,,,,"2555 W 3 ave, Hialeah",33010,,Default (USD) (USD),835,sin_telefono,,
+SPUNTINO,(305) 339-4461,3053394461,,,"1000 NW 54 STREET, MIAMI",33127,,Default (USD) (USD),836,existente,272,13053394461
+"STYLE 10, LLC",(954) 552-0101,9545520101,,,"200 Crandon Blvd , suite 110, Key Biscayne",33149,,Default (USD) (USD),838,existente,273,19545520101
+SUNSHINE  AVERTISING PROMOTIONS,(786) 444-3158,7864443158,,,,,,Default (USD) (USD),839,existente,274,17864443158
+"SUNSOF, INC",(305) 691-1875,3056911875,juan.velez@sunsof.com,,"5821 E 10 th. Ave Unit 105, Hialeah",33013,,Default (USD) (USD),840,existente,30,13056911875
+"SUSIE'S HEAVENLY CATERING, LLC",(305) 308-7417,3053087417,wlustgarten@gmail.com,,"2228 NE 123 rd STREET, NORTH MIAMI",33181,,Default (USD) (USD),841,existente,275,13053087417
+SWEET AND HEALTHY,(305) 504-1453,3055041453,,,"24763 SW 177 ave, Homestead",33031,,Default (USD) (USD),843,existente,276,13055041453
+SWEETGEM CUPCAKES LLC,+1 305-923-7722,13059237722,cake@sweetgemcupcakes.com,L17000015367,"2580 Azalea Ave, Miramar",33025-2402,,Default (USD) (USD),13826,existente,97,113059237722
+Sano Piacere,(786) 992-6068,7869926068,sanopiacere58@gmail.com,,"7001 MW 84th ave, Medley",33166,,Default (USD) (USD),782,existente,277,17869926068
+Sarah's Tent,,,,,"3565 NE 207 Street, Aventura",33180,,Default (USD) (USD),783,sin_telefono,,
+Sedanos Supermarket #,,,,,"3801  W Flager st, Coral Gables",33126,,Sedanos (USD),13854,sin_telefono,,
+Serafin management group LLC,,,,,"233 W 28th St, Hialeah",33010,,Default (USD) (USD),817,sin_telefono,,
+Smoothie Whirl'd,(561) 602-8654,5616028654,,,"1924 N Military Trl, West Palm Beach",33409,,Default (USD) (USD),828,existente,278,15616028654
+Soul Delight Catering LLC,(305) 747-9721,3057479721,souldelightcatering@gmail.com,,"6118 NW 7th ave, Miami",33127,,Default (USD) (USD),829,existente,279,13057479721
+Space Kamp,(786) 612-1735,7866121735,,,"2251 Plunkett Street, Hollywood",33020,,Default (USD) (USD),834,existente,280,17866121735
+Sterling Group Foods - Bagel Boss,+1 954-683-9161,19546839161,bagelboss@documents.restaurant365.com,,"5850 S Pine Island Rd, Davie",33328,,Default (USD) (USD),837,existente,111,119546839161
+Sweet & Salt (Mamaxi LLC DBA Sweet & Salt),(786) 877-1053,7868771053,xzhan017@fiu.edu,,"17010 W Dixie Hwy
+Suite D, North Miami Beach",33160,,Default (USD) (USD),842,existente,281,17868771053
+THE BERRY FARMS,+1 (786) 878-7900 (HEMMA),17868787900,Karl@visittheberryfarm.com,,"13720 SW 216th St, Miami",33170,,Default (USD) (USD),845,existente,282,117868787900
+THE ICE CREAM FACTORY LLC,(786) 486-0590,7864860590,sobeicf@gmail.com,,"1626 Michigan Ave, Miami Beach",33138,,Default (USD) (USD),846,existente,112,17864860590
+THE SPRUCE JUICE,(305) 753-4330,3057534330,hq@thesprucejuice.com,,"200 CRANDON BLVD, SUITE 110, KEY BISCAYNE",33149,,Default (USD) (USD),849,existente,77,13057534330
+THE THRIST TRAP,,,,,"895 SW 67 AVE, MIAMI",33144,,Default (USD) (USD),850,sin_telefono,,
+TOP EAT ALL LLC,,,,,"21431 Highland Lakes Boulevard, Miami",33179,,Default (USD) (USD),851,sin_telefono,,
+TOSTADO CAFE CLUB MIAMI LLC,,,Miami@tostadocafeclub.com,,"3401 N MIAMI AVE ste 122, MIAMI",33127,,Default (USD) (USD),852,sin_telefono,,
+TOTAL SUPERMARKET NW 7th ave - (EX NEW WAY FOOD),(305) 681-0246,3056810246,,,"12955 NW 7th Ave., Miami",33168,,Default (USD) (USD),853,existente,283,13056810246
+TROPIC HOLLYWOOD,(917) 805-5958,9178055958,tropichollywoodfl@gmail.com,,"1305 S 33rd AVE, HOLLYWOOD",33021,,Default (USD) (USD),854,existente,284,19178055958
+TROPICAL JUICES,,,Pedrogracaepaz@gmail.com,,"4815 Dixie Hwy, Pompano Beach",33064,,Default (USD) (USD),856,sin_telefono,,
+TROPICAL SUPERMARKET,(305) 797-1354,3057971354,,,"1099 NW 118 STREET, MIAMI",33168,,Default (USD) (USD),857,existente,285,13057971354
+TRUE BRANDS CO. - Havanna,(305) 773-6818,3057736818,jorge.amad@havannausa.com,,"1476 NW 168 ave., Pembroke Pines",33028,,Default (USD) (USD),858,existente,286,13057736818
+TU COCINITA CATERING,(786) 312-7830,7863127830,,,"2430 W 8 AVE, HIALEAH",33016,,Tu cocinita (USD),859,existente,16,17863127830
+TWISTED SMOOTHIE EXPRESS-jungle smoothies,(305) 974-4349,3059744349,,,"17637 NW 27th Ave., Miami Garden",33056,,Default (USD) (USD),861,existente,287,13059744349
+The Avalon Miami,(305) 281-4828,3052814828,Jason.caballero@gmail.com,,"12837 SW 42nd St, Miami",33175,,Default (USD) (USD),844,existente,39,13052814828
+The Juice Box,(786) 588-4808,7865884808,,,"15900 SW 92nd Avenue, Palmetto Bay",33157,,Default (USD) (USD),847,existente,78,17865884808
+The Pcock Brothers LLC,(786) 525-2718,7865252718,,,"1058 NW 21st Street, Miami",33127,,Default (USD) (USD),848,existente,288,17865252718
+The Urban grab and go,,,,,"1059 Collins #104, Miami Beach",33139,,Default (USD) (USD),13828,sin_telefono,,
+Tropical Argentina SRL,,,,,"Del Mar 0 (esquina de la pala) - MCBA, Buenos Aires",,,Default (USD) (USD),855,sin_telefono,,
+Tutos Fit,,,,,"701 NW 99 Ave., Pembroke Pines",33024,,Default (USD) (USD),860,sin_telefono,,
+Twisted Juice Cafe Express LLC,,,,,"17637 NW 27th Ave, Miami",33054,,Default (USD) (USD),13860,sin_telefono,,
+"ULTRA PADEL, LLC",,,,,"6301 NE 4TH  AVENUE, MIAMI",33138,,Default (USD) (USD),863,sin_telefono,,
+"US 27 FUEL TRUCK STOP, LLC",,,,,"2716 W US HIGHWAY 27, CLEWISTON",33440,,Default (USD) (USD),864,sin_telefono,,
+"Ultra Orange Foods, LLC",,,rcruz@ultraorangefoods.com,,"7610 NW 25 street Unit 4, Miami",33122,,Default (USD) (USD),862,sin_telefono,,
+VALE FOOD BRICKELL,(954) 681-9119,9546819119,sunny@valefoodco.com,,"900 S MIAMI AVE, # 125, Miami",33130,,Default (USD) (USD),867,existente,289,19546819119
+VALE FOOD FORT LAUDERDALE,,,sunny@valefoodco.com,,"420 N Federal Highway, Fort Lauderdale",33301,,Default (USD) (USD),868,sin_telefono,,
+VICTORIA EVER INC - ALE MEAT,(954) 384-8948,9543848948,,,"123 Weston RD, Weston",33326,,Default (USD) (USD),870,existente,290,19543848948
+VICTORIA GREEN MARKET,(561) 517-8946,5615178946,victoriagreenmarket@gmail.com,,"3133 Lake Worth Rd, Palm Springs",33461,,Default (USD) (USD),871,existente,291,15615178946
+VINI PLUS INC (Fábrica Nahuén),,,,,"1750 nw 96 ave, Doral",33172,,Nahuen (USD),872,sin_telefono,,
+Vaella Coffe & Tea,(754) 261-4681,7542614681,,,"991 E Commercial Blvd, Oakland Park",33334,,Default (USD) (USD),865,existente,292,17542614681
+Valbert Natural Foods,,,whynesa@yahoo.com,,"5007 N HIATUS Road, Sunrise",33351,,Default (USD) (USD),866,sin_telefono,,
+Veggy Burger LLC,,,,,"801 S Federal Hwy.,APT 1117, Pompano Beach",33062,,Default (USD) (USD),869,sin_telefono,,
+Vivian Galkys,(786) 403-7462,7864037462,,,"17100 North Bay Road #1705, Sunny Isles Beach",33160,,Default (USD) (USD),873,existente,293,17864037462
+WELLS MARKET,(305) 561-9040,3055619040,,,"1756 N BAYSHORE DR, MIAMI",33132,,Default (USD) (USD),875,existente,53,13055619040
+WHITE BAY FOODS CORP,(786) 553-4187,7865534187,,,"1617 NE 163RD St, North Miami Beach",33162,,Nahuen (USD),876,existente,22,17865534187
+WINN-DIXIE - # 203 HALLANDALE SHOPPING CENTER,,,,,"1055 HALLANDALE BEACH BLVD, HALLANDALE",33009,,Winn Dixie (USD),877,sin_telefono,,
+WINN-DIXIE - # 210 - 3 Lakes Plaza,,,,,"1055 HALLANDALE BEACH BLVD, HALLANDALE",33009,,Winn Dixie (USD),878,sin_telefono,,
+WINN-DIXIE - # 213 Grove Market,,,,,"5060 Seminole Pratt Whitney Rd, Westlake",33470,,Winn Dixie (USD),879,sin_telefono,,
+WINN-DIXIE - # 226 Southport Plaza,,,,,"1625 Cordova Rd, Fort Lauderdale",33316,,Winn Dixie (USD),880,sin_telefono,,
+WINN-DIXIE - # 233 Miami,,,,,"11030 N.W. 7TH AVE, Miami",33168,,Winn Dixie (USD),881,sin_telefono,,
+WINN-DIXIE - # 236 SOUTHLAND PLAZA,,,,,"941 SW 24TH ST., FT LAUDERDALE",33315,,Winn Dixie (USD),884,sin_telefono,,
+WINN-DIXIE - # 246 DOLPHIN PLAZA,,,,,"17221 NW 27TH AVENUE, MIAMI GARDENS",33056,,Winn Dixie (USD),885,sin_telefono,,
+WINN-DIXIE - # 247 MIAMI,,,,,"1155 NW 11TH ST, MIAMI",33136,,Winn Dixie (USD),886,sin_telefono,,
+WINN-DIXIE - # 249 BIRD LUDLAM SHOPPING CENTER,,,,,"6770  BIRD ROAD, Miami",33155,,Winn Dixie (USD),887,sin_telefono,,
+WINN-DIXIE - # 250 PARK VIEW SQUARE,,,,,"17101 MIRAMAR PKWY, MIRAMAR",33027,,Winn Dixie (USD),888,sin_telefono,,
+WINN-DIXIE - # 251 MIAMI,,,,,"3275 SW 22ND STREET, MIAMI",33145,,Winn Dixie (USD),889,sin_telefono,,
+WINN-DIXIE - # 271 Lantana Village Shopping Center,,,,,"1491 S Dixie Hwy, Lantana",33462,,Winn Dixie (USD),890,sin_telefono,,
+WINN-DIXIE - # 280 DORAL AREA,(305) 591-0780,3055910780,,,"10505 NW 41ST St, MIAMI",33178,,Winn Dixie (USD),891,existente,82,13055910780
+WINN-DIXIE - # 285 SOUTH MIAMI,,,,,"5850 SW 73RD STREET, SOUTH MIAMI",33143,,Winn Dixie (USD),892,sin_telefono,,
+WINN-DIXIE - # 290 Victoria Park Shoppes,,,,,"680 N Federal Hwy, Fort Lauderdale",33304,,Winn Dixie (USD),893,sin_telefono,,
+WINN-DIXIE - # 291 PROMENADE SHOPPES,,,,,"20417 BISCAYNE BOULEVARD, AVENTURA",33180,,Winn Dixie (USD),894,sin_telefono,,
+WINN-DIXIE - # 306 DIPLOMAT MALL,,,,,"1515 EAST HALLANDALE BCH BLVD., HALLANDALE",33009,,Winn Dixie (USD),896,sin_telefono,,
+WINN-DIXIE - # 309 at Palm Coast Plaza,,,,,"7915 S. Dixie Highway, West Palm Beach",33405,,Winn Dixie (USD),898,sin_telefono,,
+WINN-DIXIE - # 311 THE PLAZA,,,,,"11290  STATE ROAD 84, DAVIE",33325,,Winn Dixie (USD),899,sin_telefono,,
+WINN-DIXIE - # 318 KEY BISCAYNE SHOPPING CENTER,(305) 361-8261,3053618261,,,"604 CRANDON BLVD., KEY BISCAYNE",33149,,Winn Dixie (USD),900,existente,45,13053618261
+WINN-DIXIE - # 319 DIXIE CENTER,(305) 246-3998,3052463998,,,"30346 OLD DIXIE HIGHWAY, HOMESTEAD",33030,,Winn Dixie (USD),901,existente,146,13052463998
+WINN-DIXIE - # 330 TWIN OAKS PLAZA,,,,,"3260  DAVIE BLVD, FT LAUDERDALE",33312,,Winn Dixie (USD),902,sin_telefono,,
+WINN-DIXIE - # 333 Gardens Park Plaza,,,,,"8924 N Military Trl, Palm Beach Gardens",33410,,Winn Dixie (USD),903,sin_telefono,,
+WINN-DIXIE - # 336 Emerald Woods Plaza,,,,,"3850 N 46th Ave, Hollywood",33021,,Winn Dixie (USD),904,sin_telefono,,
+WINN-DIXIE - # 343 at Northway Shopping Center,,,,,"14900 NW 7th Ave, Miami",33168,,Winn Dixie (USD),905,sin_telefono,,
+WINN-DIXIE - # 345 Rivertowne Square,,,,,"1019 S Federal Hwy, Deerfield Beach",33441,,Winn Dixie (USD),906,sin_telefono,,
+WINN-DIXIE - # 349 Pepper Tree Plaza,,,,,"5600 West Sample Road, MARGATE",33073,,Winn Dixie (USD),907,sin_telefono,,
+WINN-DIXIE - # 355 Delmar Shopping Plaza,,,,,"7024 Beracasa Way, Boca Raton",33433,,Winn Dixie (USD),908,sin_telefono,,
+WINN-DIXIE - # 357 CALIFORNIA CLUB SHOPPING CTR,(305) 653-2657,3056532657,,,"980 IVES DAIRY RD, MIAMI",33179,,Winn Dixie (USD),909,existente,294,13056532657
+WINN-DIXIE - # 370,,,,,"8710 SW 72nd st, Miami",33173,,Winn Dixie (USD),911,sin_telefono,,
+WINN-DIXIE - # 371 POINT ROYALE SHOPPING CENTER,(305) 232-1316,3052321316,,,"19167 S DIXIE HWY, CUTLER BAY",33157,,Winn Dixie (USD),912,existente,295,13052321316
+WINN-DIXIE - # 378 Intracoastal Mall,,,,,"3805 NE 163RD ST, N MIAMI BEACH",33160,,Winn Dixie (USD),913,sin_telefono,,
+WINN-DIXIE - # 386 Galt Ocean Marketplace,,,,,"3800 N Ocean Blvd, Fort Lauderdale",33308,,Winn Dixie (USD),914,sin_telefono,,
+WINN-DIXIE - # 397 Charleston Square,,,,,"6600 Hypoluxo Rd, Lake Worth",33467,,Winn Dixie (USD),915,sin_telefono,,
+WINN-DIXIE - # 757 VISCAYA SQUARE,,,,,"901  NORTH NOB HILL ROAD, PLANTATION",33324,,Winn Dixie (USD),916,sin_telefono,,
+WINN-DIXIE - #212 Village Royale,,,,,"1135 Royal Palm Beach Blvd, Royal Palm Beach",33411,,Winn Dixie (USD),917,sin_telefono,,
+WINN-DIXIE - 262 - ROYAL OAKS PLAZA,,,,,"15450 NW 77th COURT, MIAMI LAKES",33016,,Winn Dixie (USD),918,sin_telefono,,
+WINN-DIXIE 214 - THE SHOPPES OF LIBERTY CITY,(305) 757-0696,3057570696,,,"1150 NW 54TH STREET, Miami",33127,,Winn Dixie (USD),919,existente,98,13057570696
+WINN-DIXIE- # 254 CONCORD SHOPPING MALL,,,,,"11241 SW 40th St, Miami",33165,,Winn Dixie (USD),920,sin_telefono,,
+WYNWOOD DOG FOOD CO. - Dishes for Dogs,,,mason@wynwooddogfood.com,,"2561 N Miami Ave, Miami",33127,,Wynwood Dogs (USD),921,sin_telefono,,
+Walter Valencia,,,,,,,,Default (USD) (USD),874,sin_telefono,,
+Winn-Dixie - # 2348 Port St Lucie,,,,,"281 SW Port St Lucie Blvd., Port Saint Lucie",34984,,Winn Dixie (USD),882,sin_telefono,,
+Winn-Dixie - # 2355 Fort Pierce,,,,,"4967 S US 1, Fort Pierce",34982,,Winn Dixie (USD),883,sin_telefono,,
+Winn-Dixie - # 305 Royal Palm Beach,,,,,"1135 Royal Palm Beach Blvd., Royal Palm Beach",33411,,Winn Dixie (USD),895,sin_telefono,,
+Winn-Dixie - # 308 Jensen Beach,,,,,"1105 NE Jensen Beach Blvd., Jensen Beach",34957,,Winn Dixie (USD),897,sin_telefono,,
+Winn-Dixie - # 364 Stuart,,,,,"3320 SE Salerno Rd., Stuart",34997,,Winn Dixie (USD),910,sin_telefono,,
+YAYABO CAFETERIA,,,,,"1087 E 25 STREET, HIALEAH",33013,,Default (USD) (USD),922,sin_telefono,,
+Yogurt ur Way,(954) 429-2792,9544292792,,,"3932 W Hillsboro Blvd, Deerfield Beach",33442,,Default (USD) (USD),923,existente,296,19544292792
+ba foo,,,,,,,,Default (USD) (USD),13881,sin_telefono,,
+great,,,,,,,,Default (USD) (USD),13857,sin_telefono,,
+q,,,,,,,,Default (USD) (USD),762,sin_telefono,,
+smoothie plus,,,,,"11348 miramar parkway, Miramar",33025,,Default (USD) (USD),747,sin_telefono,,
