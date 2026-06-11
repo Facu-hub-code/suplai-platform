@@ -1,0 +1,61 @@
+---
+name: agent_e2e_testing
+description: Realizar un healthcheck de base de datos para una distribuidora y correr pruebas de conversación E2E automáticas con análisis de trazas de herramientas e IA.
+---
+
+# E2E Testing & Healthcheck del Agente (agent_e2e_testing)
+
+Este flujo permite validar que el agente de Suplai Sales de una distribuidora esté configurado correctamente en base de datos y funcione sin errores ni latencias excesivas en sus flujos de conversación típicos.
+
+> [!IMPORTANT]
+> **REGLA DE OBLIGADA LECTURA PARA EL AGENTE**: Antes de ejecutar cualquier paso de esta skill, el agente **DEBE LEER obligatoriamente** la guía de uso detallada en [skill-guide.md](./skill-guide.md). Esto asegura que se sigan las reglas de deshabilitación de herramientas, la creación del cliente de pruebas y el flujo de análisis/optimización.
+
+---
+
+## 1. Identificar el Esquema del Tenant
+1. Preguntar al usuario por el **`esquema`** de la distribuidora (ej: `vadra`). Si ya fue provisto en el prompt inicial, proceder directamente.
+
+---
+
+## 2. Ejecutar Healthcheck de Base de Datos
+1. Ejecutar el script `scripts/healthcheck_schema.py` para analizar el estado de configuración de la distribuidora:
+   ```bash
+   python scripts/healthcheck_schema.py --schema {esquema}
+   ```
+2. Si el healthcheck reporta fallos:
+   - **Herramientas (tools_habilitadas):** Si hay demasiadas tools asignadas, **NO** editarlas de forma automática. Detenerse y sugerir al usuario la desactivación interactiva de las herramientas innecesarias según el perfil (seller o client). Si da su aprobación, correr el script con el flag `--fix-tools`.
+   - **Cliente de prueba:** Si no existe el cliente `suplai-platform-test` con teléfono `5491133333333`, el script de E2E lo creará al iniciar las pruebas o el healthcheck lo insertará al correr con `--fix-tools`.
+   - **Descripciones vacías:** Recomendar al usuario ejecutar la skill `enhance-descriptions` para enriquecerlas.
+   - **Tags o categorías vacías:** Recomendar y pedir aprobación para disparar la taxonomía automática. Si se aprueba, el script puede automatizar las llamadas a la API del backend.
+   - **Category/Product RAG:** Si faltan vectorizar productos o categorías, el script encolará la re-vectorización vía endpoints REST del backend.
+
+---
+
+## 3. Generar y Ejecutar Pruebas Conversacionales E2E
+1. Confirmar con el usuario si el agente a probar opera en modo **Asistente de Vendedor** (`--seller=true`) o modo **Cliente Final** (`--seller=false`).
+2. Correr el script de pruebas E2E, que generará 10 casos específicos y disparará los mensajes midiendo latencia y validando llamadas a herramientas:
+   ```bash
+   python scripts/test_agent_e2e.py --schema {esquema} [--seller {true/false}]
+   ```
+3. El script consultará el log de ejecución de herramientas (`core.agent_tool_runs`) para cada paso mediante consultas directas a PostgreSQL.
+
+---
+
+## 4. Análisis Proactivo de Resultados e Iteración
+1. Abrir y analizar el reporte final generado en:
+   `implementacion/{esquema}/outputs/reporte_e2e_{timestamp}.md`
+2. **Validar y Corregir el Reporte (Rol del Agente del IDE):** Como agente del IDE con acceso a todo el código, base de datos e historial de ejecución, debes verificar críticamente los resultados clasificados como `🔴 FAIL` por el auditor de OpenAI. Si identificas falsos negativos (por ejemplo, el auditor juzgando rígidamente una desambiguación correcta, o penalizando la acumulación de estado/herramientas de edición en modo secuencial), **modifica el archivo del reporte markdown por tu cuenta**. Cambia el estado del caso a `🟢 PASS`, actualiza los contadores del resumen ejecutivo y añade una aclaración en la sección de análisis del caso (ej: `*[Corrección del Agente del IDE]*: El auditor marcó FAIL por X, pero el comportamiento es correcto porque Y`).
+3. Identificar las herramientas que provocaron alta latencia o respuestas incorrectas del LLM.
+4. Proponer mejoras específicas al usuario (ej: desactivar tools no usadas, ajustar directrices de formato en el prompt de sistema del distribuidor en `public.distribuidoras.contexto`).
+5. Si el usuario aprueba, aplicar los cambios en base de datos y volver a ejecutar las pruebas conversacionales para contrastar resultados.
+
+---
+
+## 5. Diagnóstico de Errores Críticos de Configuración o Datos (e.g. `no_price_for_list`, errores de red/BD)
+Si durante el healthcheck o la ejecución de las pruebas E2E se identifican errores recurrentes o estructurales de configuración/datos (por ejemplo, fallas masivas con `no_price_for_list` debido a listas de precios sin productos asignados, errores de conexión, herramientas críticas deshabilitadas, etc.):
+1. **Detenerse de inmediato**: No continuar con ejecuciones automáticas repetitivas sin corregir la causa raíz.
+2. **Analizar la causa raíz**: Realizar las consultas o inspecciones necesarias en la base de datos o el código del agente para entender por qué ocurre el error.
+3. **Explicar y Proponer**: Explicar de forma clara y concisa el problema al usuario y proponer la modificación exacta para solucionarlo (ya sea en el código de prueba, scripts, o registros de la base de datos).
+4. **Esperar Aprobación**: No aplicar cambios que modifiquen la base de datos o el código del proyecto sin antes tener el visto bueno explícito del usuario.
+5. **Solucionar y Proponer Re-ejecución**: Una vez aprobada la solución, aplicar los cambios requeridos y proponer al usuario volver a ejecutar la prueba. **Deberás esperar la confirmación y aprobación explícita del usuario en el chat antes de disparar la nueva ejecución.**
+
