@@ -133,6 +133,53 @@ def call_openai_chat(system_prompt: str, user_prompt: str, json_mode: bool = Fal
         print(f"[FAIL] Error llamando a OpenAI: {e}")
         raise e
 
+def repair_test_suite(test_cases: list, products: list) -> list:
+    """
+    Completa expected_skus cuando el LLM genera menos de los requeridos (tipologías 2 y 4).
+    Evita reintentos fallidos en modo secuencial sin relajar la validación posterior.
+    """
+    import re
+
+    by_code = {p["product_code"]: p for p in products}
+
+    def _words(name: str) -> set[str]:
+        clean = re.sub(r"[^\w\s]", " ", (name or "").lower())
+        return {w for w in clean.split() if len(w) > 2}
+
+    def _pick_related(extra_pool: list, anchor_codes: list[str]) -> str | None:
+        anchor_words: set[str] = set()
+        for code in anchor_codes:
+            prod = by_code.get(code)
+            if prod:
+                anchor_words |= _words(prod.get("nombre", ""))
+        if anchor_words:
+            for p in extra_pool:
+                code = p["product_code"]
+                if code in anchor_codes:
+                    continue
+                if anchor_words & _words(p.get("nombre", "")):
+                    return code
+        for p in extra_pool:
+            if p["product_code"] not in anchor_codes:
+                return p["product_code"]
+        return None
+
+    for idx, case in enumerate(test_cases):
+        if not isinstance(case, dict):
+            continue
+        case_id = idx + 1
+        if case_id not in (2, 4):
+            continue
+        skus = list(case.get("expected_skus") or [])
+        while len(skus) < 2:
+            extra = _pick_related(products, skus)
+            if not extra or extra in skus:
+                break
+            skus.append(extra)
+        case["expected_skus"] = skus
+    return test_cases
+
+
 def validate_test_suite(test_cases: list, valid_skus: set, valid_tools: set, products: list, seller: bool) -> list[str]:
     """
     Valida de forma determinista que los casos de prueba generados por el LLM
@@ -390,7 +437,7 @@ Generá el suite de 10 pruebas en formato JSON. Sé extremadamente específico c
         try:
             content = call_openai_chat(system_prompt, user_prompt, json_mode=True)
             suite = json.loads(content)
-            test_cases = suite.get("test_cases", [])
+            test_cases = repair_test_suite(suite.get("test_cases", []), products)
             errors = validate_test_suite(test_cases, valid_skus, valid_tools, products, seller)
             if not errors:
                 print(f"[*] Suite de pruebas generado y validado con éxito (intento {attempt}).")
