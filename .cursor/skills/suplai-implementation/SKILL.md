@@ -20,6 +20,8 @@ Guía al **implementador no técnico** fase por fase. No mezclar fases en un sol
 |---|-------|---------|
 | 0 | `phase-00-preflight` | `.cursor/skills/suplai-implementation/phase-00-preflight/` |
 | 1 | `phase-01-catalogo` | `phase-01-catalogo/` |
+| 1.1 | `phase-01.1-tags` | `phase-01.1-tags/` |
+| 1.2 | `phase-01.2-mejora-descripciones` | `phase-01.2-mejora-descripciones/` |
 | 2 | `phase-02-promociones` | `phase-02-promociones/` |
 | 3 | `phase-03-cross-upsell` | `phase-03-cross-upsell/` |
 | 4 | `phase-04-red-comercial` | `phase-04-red-comercial/` |
