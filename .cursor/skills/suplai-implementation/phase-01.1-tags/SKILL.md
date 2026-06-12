@@ -5,7 +5,8 @@ description: Fase 1.1 Tags jerárquicos — Consumir propose-taxonomy y aplicar 
 
 # Fase 1.1 — Tags Jerárquicos
 
-Prerequisito: Fase 1 catálogo `cargado` en el manifest.
+> [!IMPORTANT]
+> **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
 
 ## Input
 

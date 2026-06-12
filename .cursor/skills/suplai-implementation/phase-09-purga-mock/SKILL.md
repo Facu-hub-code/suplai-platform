@@ -5,6 +5,9 @@ description: Fase 9 purga mock — borrar datos de simulación. Solo con is_mock
 
 # Fase 9 — Purga mock (destructiva)
 
+> [!IMPORTANT]
+> **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
+
 ## Gate estricto
 
 **NO ejecutar** si:

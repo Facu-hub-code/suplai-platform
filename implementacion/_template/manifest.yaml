@@ -26,6 +26,11 @@ fases:
     estado: pendiente
     output_json: outputs/phase-01-1-propuesta-tags.json
     cargado_at: null
+  "01.3":
+    nombre: prompt_agente
+    estado: pendiente
+    output_json: outputs/phase-01-3-prompt-config.json
+    cargado_at: null
   "02":
     nombre: promociones
     estado: pendiente

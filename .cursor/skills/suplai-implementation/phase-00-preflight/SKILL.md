@@ -5,6 +5,9 @@ description: Fase 0 preflight — verificar tenant vacío y listo para implement
 
 # Fase 0 — Preflight
 
+> [!IMPORTANT]
+> **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
+
 ## Input (pedir al implementador)
 
 - [ ] `schema_name` (ej. `colormix`)

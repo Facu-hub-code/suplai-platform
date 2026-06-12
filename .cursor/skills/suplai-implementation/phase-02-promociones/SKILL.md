@@ -5,7 +5,8 @@ description: Fase 2 promociones — 4 promos mock activas desde top rotación. U
 
 # Fase 2 — Promociones
 
-Prerequisito: Fase 1 `cargado`, `phase-01-productos.csv` con `rotacion_index`.
+> [!IMPORTANT]
+> **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
 
 ## Input
 
