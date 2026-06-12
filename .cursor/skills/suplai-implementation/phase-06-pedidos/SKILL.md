@@ -5,7 +5,8 @@ description: Fase 6 pedidos — histórico cerrado y 6-7 pedidos abiertos. Usar 
 
 # Fase 6 — Pedidos
 
-Prerequisito: Productos, clientes y precios cargados.
+> [!IMPORTANT]
+> **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
 
 ## Input
 

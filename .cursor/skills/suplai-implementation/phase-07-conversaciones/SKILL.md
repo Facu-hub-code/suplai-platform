@@ -5,7 +5,8 @@ description: Fase 7 conversaciones — historial mock en n8n_chat_histories y re
 
 # Fase 7 — Conversaciones
 
-Prerequisito: Clientes y promos cargados.
+> [!IMPORTANT]
+> **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
 
 ## Input
 

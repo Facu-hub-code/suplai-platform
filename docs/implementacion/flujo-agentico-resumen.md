@@ -21,7 +21,7 @@ Poblar un tenant **recién registrado** (schema vacío) a partir del Excel de pr
 ## Pipeline (orden obligatorio)
 
 ```text
-Excel → Catálogo (F1) → Tags (F1.1) → Promos (F2) + Cross/Up (F3)
+Excel → Catálogo (F1) → Tags (F1.1) → Prompt Agente (F1.3) → Promos (F2) + Cross/Up (F3)
      → Red comercial (F4) → Flags clientes (F5)
      → Pedidos (F6) → Conversaciones (F7) → Insights (F8)
      → [opcional] Purga mock (F9)
@@ -68,6 +68,13 @@ Tablas: `{tenant}.productos`, `listas_precios`, `precios_productos`, `productos_
 - Consumir el endpoint `POST /{schema}/tags/propose-taxonomy` enviando como base el listado de productos de la Fase 1.
 - Guardar la propuesta devuelta por la IA en un archivo JSON en `outputs/phase-01-1-propuesta-tags.json`.
 - Enviar el JSON resultante al endpoint `POST /{schema}/tags/apply-proposed-taxonomy` para impactar la base de datos de tags jerárquicos (4 niveles).
+
+## Fase 1.3 — Personalización del Prompt del Agente
+
+- Recopilar el rubro del distribuidor (ej. ferretería, consumo masivo) y restricciones del negocio (ej. "solo vende productos Arcor").
+- Generar mediante LLM las definiciones estructuradas de `identidad`, `contexto` y el objeto JSON `reglas_negocio` del agente.
+- Guardar el resultado propuesto en `outputs/phase-01-3-prompt-config.json`.
+- Cargar/Actualizar la configuración en la tabla maestra `public.distribuidoras` para el tenant correspondiente (vía Supabase MCP).
 
 ## Fase 2 — Promociones
 

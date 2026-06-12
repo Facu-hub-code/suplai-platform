@@ -5,7 +5,8 @@ description: Fase 5 flags clientes — ERP, prospectos y estado WhatsApp. Usar t
 
 # Fase 5 — Flags de clientes
 
-Prerequisito: Fase 4 `cargado`, 50 clientes en BD.
+> [!IMPORTANT]
+> **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
 
 ## Input
 

@@ -5,7 +5,8 @@ description: Fase 8 insights — 15-20 tickets ia_tickets con efecto cruzado en 
 
 # Fase 8 — Insights y notificaciones
 
-Prerequisito: Fases 1–7 cargadas, chats existentes para clientes live feed.
+> [!IMPORTANT]
+> **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
 
 ## Input
 

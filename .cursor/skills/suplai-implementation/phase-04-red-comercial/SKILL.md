@@ -5,7 +5,8 @@ description: Fase 4 red comercial — 3 vendedores, 6 zonas, 50 clientes mock ge
 
 # Fase 4 — Red comercial
 
-Prerequisito: Fases 1–3 cargadas.
+> [!IMPORTANT]
+> **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
 
 ## Input (obligatorio)
 
