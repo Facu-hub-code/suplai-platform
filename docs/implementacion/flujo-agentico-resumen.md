@@ -24,7 +24,7 @@ Poblar un tenant **recién registrado** (schema vacío) a partir del Excel de pr
 Excel → Catálogo (F1) → Tags (F1.1) → Mejora Descripciones (F1.2) → Prompt Agente (F1.3) → Promos (F2) + Cross/Up (F3)
      → Red comercial (F4) → Flags clientes (F5)
      → Pedidos (F6) → Conversaciones (F7) → Insights (F8)
-     → [opcional] Purga mock (F9) → Pruebas E2E (F10)
+     → Pruebas E2E (F9) → [opcional] Purga mock (F10)
 ```
 
 **Grafo comercial:** la misma marca/producto estrella debe aparecer en promos, up-sell y alertas de calidad (efecto cruzado).
@@ -143,14 +143,9 @@ Tabla: `{tenant}.promociones_semanales`.
 - Categorías: Calidad, Logística, Comercial, Administración.
 - **Efecto cruzado:** alertas abiertas de Calidad/Logística deben tener mensaje entrante coherente en el chat del mismo cliente.
 
-## Fase 9 — Purga mock
+## Fase 9 — Pruebas E2E y Healthcheck
 
-- Solo con columna `is_mock` y confirmación explícita `PURGE MOCK {schema}`.
-- Borrado en cascada de todo registro mock; dejar tenant listo para producción.
-
-## Fase 10 — Pruebas E2E y Healthcheck
-
-- **Propósito**: Ejecutar la validación integral y pruebas de conversación automáticas del agente conversacional ([SKILL.md](../../.cursor/skills/agent-e2e-testing/SKILL.md) / [skill-guide.md](../../.cursor/skills/agent-e2e-testing/skill-guide.md)) para auditar su correcto funcionamiento.
+- **Propósito**: Ejecutar la validación integral y pruebas de conversación automáticas del agente conversacional ([SKILL.md](../../.cursor/skills/suplai-implementation/phase-09-e2e-testing/SKILL.md) / [skill-guide.md](../../.cursor/skills/suplai-implementation/phase-09-e2e-testing/skill-guide.md)) para auditar su correcto funcionamiento.
 - **Healthcheck**:
   - Correr el script de validación de base de datos (que debería pasar exitosamente dado que todas las fases previas se completaron de manera correcta):
     ```bash
@@ -164,9 +159,14 @@ Tabla: `{tenant}.promociones_semanales`.
 - **Auditoría del Reporte**:
   - Revisar críticamente el reporte generado en `implementacion/{esquema}/outputs/reporte_e2e_{timestamp}.md` y realizar la validación de falsos negativos.
 
+## Fase 10 — Purga mock
+
+- Solo con columna `is_mock` y confirmación explícita `PURGE MOCK {schema}`.
+- Borrado en cascada de todo registro mock; dejar tenant listo para producción.
+
 ## Prerequisito técnico
 
-Migración backend pendiente: columna `is_mock` en tablas tocadas + endpoint/script de purga. Hasta entonces: CSV lleva `is_mock=true` y `manifest.yaml` registra `blocked: is_mock_migration` para Fase 9.
+Migración backend pendiente: columna `is_mock` en tablas tocadas + endpoint/script de purga. Hasta entonces: CSV lleva `is_mock=true` y `manifest.yaml` registra `blocked: is_mock_migration` para Fase 10.
 
 ## Salidas por fase
 

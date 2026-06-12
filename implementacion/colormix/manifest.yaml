@@ -67,9 +67,14 @@ fases:
     filas_csv: 19
     cargado_at: "2026-06-08T19:01:00Z"
   "09":
+    nombre: e2e_testing
+    estado: pendiente
+    output_markdown: outputs/reporte_e2e_*.md
+    cargado_at: null
+  "10":
     nombre: purga_mock
     estado: bloqueado
-    output_csv: outputs/phase-09-purga-log.csv
+    output_csv: outputs/phase-10-purga-log.csv
     filas_csv: 0
     cargado_at: null
 

@@ -28,8 +28,11 @@ description: Fase 4 red comercial — 3 vendedores, 6 zonas, 50 clientes mock ge
 ## Generación
 
 - Vendedores: nombres locales, teléfono país correcto (549 AR), email `*@suplaisales.mock`, `is_mock=true`
-- Zonas: nombres con barrios/rutas reales de `ciudad_base`; `dia_visita` lunes–sábado rotado; color hex brillante
-- Clientes: ferreterías/pinturerías/corralones si rubro pintura; `lista_precios_id` 1–4 distribuido; teléfonos únicos
+- Zonas: nombres con barrios/rutas reales de `ciudad_base`; `dia_visita` lunes–sábado rotado; color hex brillante.
+  - **Criterio de Tamaño y Topología**: Las 6 zonas deben ser **chicas** e independientes (polígonos de barrios puntuales, no uno gigante que cubra toda la ciudad). Evitar cruces de líneas o vértices inválidos.
+  - **Tipado Geométrico**: Representación espacial estrictamente formateada como `MultiPolygon` con SRID 4326: `SRID=4326;MULTIPOLYGON(((lon lat, lon lat, ...)))` para evitar fallas PostGIS.
+  - **Enumerador `zone_type`**: Usar valores enums permitidos por el esquema (ej. `'sales'` o `'route'`). NO usar términos no soportados como `'territory'`.
+- Clientes: ferreterías/pinturerías/corralones si rubro pintura; `lista_precios_id` 1–4 distribuido; teléfonos únicos.
 
 ## Carga MCP
 
@@ -37,10 +40,12 @@ Orden:
 
 1. `{schema}.vendedores` → guardar IDs
 2. `{schema}.geo_zones` + `{schema}.vendedor_geo_zones`
-3. `{schema}.clients` (sin flags ERP aún — Fase 5)
-4. `{schema}.client_locations` si aplica (lat/lng)
+3. `{schema}.puntos_venta` (CRÍTICO) → Crear un punto de venta por cliente (`razon_social`, `codigo`, `lista_precios_id`, `is_mock`) y guardar el `pdv_id` retornado.
+4. `{schema}.clients` (sin flags ERP aún — Fase 5) → Insertar asociando la columna `pdv_id` rescatada de la tabla `puntos_venta` (guardar los `cliente_id` insertados). ¡Si no se asocia al PDV, los clientes no se mostrarán en el Backoffice/Frontend!
+5. `{schema}.vendedores_clientes` (CRÍTICO) → Vincular cada cliente con su vendedor correspondiente insertando en esta tabla usando `vendedor_id`, `cliente_id` y `activo = true`.
+6. `{schema}.client_locations` si aplica (lat/lng)
 
-Verificar columnas: `clients` usa `phone_number`, `razon_social`, `codigo`, `lista_precios_id`, `vendedor`.
+Verificar columnas: `clients` usa `phone_number`, `razon_social`, `codigo`, `lista_precios_id`, `vendedor`, `pdv_id`.
 
 ## Verificación
 

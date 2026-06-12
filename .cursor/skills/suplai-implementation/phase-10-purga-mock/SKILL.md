@@ -1,9 +1,9 @@
 ---
-name: suplai-implementation-phase-09
-description: Fase 9 purga mock — borrar datos de simulación. Solo con is_mock en BD y confirmación PURGE MOCK.
+name: suplai-implementation-phase-10
+description: Fase 10 purga mock — borrar datos de simulación. Solo con is_mock en BD y confirmación PURGE MOCK.
 ---
 
-# Fase 9 — Purga mock (destructiva)
+# Fase 10 — Purga mock (destructiva)
 
 > [!IMPORTANT]
 > **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
@@ -46,6 +46,6 @@ Registrar en purga-log: `ok=false`, `notas=requiere migración is_mock` y escala
 
 ## Cierre
 
-- manifest fase `09` → `cargado` o `bloqueado`
+- manifest fase `10` → `cargado` o `bloqueado`
 - Verificar COUNT productos = 0 y clients = 0
 - Recordar restaurar `read_only=true` en mcp.json

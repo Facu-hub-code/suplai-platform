@@ -1,4 +1,4 @@
-# Guía de Uso — Fase 9: Purga Mock (suplai-implementation-phase-09)
+# Guía de Uso — Fase 10: Purga Mock (suplai-implementation-phase-10)
 
 Esta guía detalla el proceso para eliminar de manera destructiva y controlada todos los datos simulados (`is_mock = true`) del tenant, dejándolo listo para su uso en producción.
 
@@ -46,9 +46,9 @@ Para evitar fallas de Llave Foránea (FK), eliminar los registros simulados (`is
 
 ### 3. Salida Local (Output)
 Generar el reporte de la purga en:
-**`implementacion/{schema}/outputs/phase-09-purga-log.csv`**
+**`implementacion/{schema}/outputs/phase-10-purga-log.csv`**
 
-Columnas: `tabla`, `filas_borradas`, `ok`, `notas`.
+Columnas: `tabla`, `filas_borradas`, `ok`, `notes`.
 
 ---
 
@@ -59,5 +59,5 @@ Columnas: `tabla`, `filas_borradas`, `ok`, `notas`.
 ---
 
 ## 🏁 Cierre de la Fase
-1. Actualizar `manifest.yaml` estableciendo `fases["09"].estado = "cargado"` y registrando la fecha en `cargado_at`.
+1. Actualizar `manifest.yaml` estableciendo `fases["10"].estado = "cargado"` y registrando la fecha en `cargado_at`.
 2. Informar al implementador. El tenant queda purgado y listo para producción.

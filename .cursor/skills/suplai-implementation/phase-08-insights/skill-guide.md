@@ -17,22 +17,24 @@ Esta guía detalla los pasos para poblar las alertas de calidad, logística, adm
 
 ## 🚀 Paso a Paso de la Ejecución
 
-### 1. Generación de Tickets
-Crear entre 15 y 20 tickets mock distribuidos en 4 categorías:
-- **Calidad**: Reclamo de mercadería dañada (ej: "Látex con pérdidas en envase de marca [Marca Líder]").
-- **Logística**: Demoras en la entrega (ej: "El transporte no entregó el pedido del martes").
-- **Comercial**: Consultas de cuentas o precios (ej: "Solicita hablar con el vendedor asignado").
-- **Administración**: Errores de datos (ej: "Actualización de CUIT o razón social").
+### 1. Generación de Tickets y Lectura de CSV
+- **Carga de CSV previo**: Leer el archivo `phase-07-conversaciones-resumen.csv` para identificar qué clientes (`client_phone`) tienen conversaciones activas y cuáles simularon quejas/reclamos.
+- **Creación de Tickets**: Generar entre 15 y 20 tickets mock distribuidos en 4 categorías, mapeando las quejas abiertas de Calidad y Logística a los clientes identificados con quejas en la Fase 7.
+  - **Calidad**: Reclamo de mercadería dañada (ej: "Látex con pérdidas en envase de marca [Marca Líder]").
+  - **Logística**: Demoras en la entrega (ej: "El transporte no entregó el pedido del martes").
+  - **Comercial**: Consultas de cuentas o precios (ej: "Solicita hablar con el vendedor asignado").
+  - **Administración**: Errores de datos (ej: "Actualización de CUIT o razón social").
 
-- **Volumen**:
+- **Volumen y Trazabilidad**:
   - 60% en estado `Abierto`.
   - 40% en estado `Cerrado` (o resuelto).
   - Fechas: Los abiertos deben tener fecha de hoy o hace máximo 3 días. Los cerrados deben ser de hace 5 a 20 días.
 
-### 2. Lógica del "Efecto Cruzado" (MANDATORIO)
+### 2. Lógica del "Efecto Cruzado" y Trazabilidad (MANDATORIO)
 Por cada ticket en estado **Abierto** de Calidad o Logística:
-- Identificar al cliente asociado.
-- Inyectar en la tabla `{schema}.n8n_chat_histories` un mensaje entrante del cliente describiendo exactamente la misma problemática (ej. si el ticket es *"Rodillo roto"*, inyectar un mensaje del cliente diciendo *"Hola, me llegó el rodillo que compré quebrado, ¿me lo cambian?"*).
+- Identificar al cliente en el CSV de la Fase 7.
+- Asociar la descripción del ticket al mensaje de queja correspondiente registrado en `{schema}.n8n_chat_histories` para ese cliente (ej. si el chat del cliente contenía *"Hola, me llegó el esmalte chorreado"*, el ticket debe decir *"Esmalte dañado/con pérdidas"*).
+- En caso de que se necesiten tickets adicionales de Calidad/Logística no contemplados en el CSV previo, inyectar en `{schema}.n8n_chat_histories` el mensaje del cliente entrante (`incoming`) correspondiente para asegurar la correlación 100% exacta entre el ticket y el chat.
 
 ### 3. Salida Local (Output)
 Generar el archivo CSV:

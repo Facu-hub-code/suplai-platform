@@ -12,6 +12,7 @@ description: Fase 7 conversaciones — historial mock en n8n_chat_histories y re
 
 - Subset de clientes (50)
 - Textos de promos Fase 2
+- Pedidos y líneas de la Fase 6 (`phase-06-pedidos.csv` y `phase-06-items-pedido.csv`)
 
 ## Output
 
@@ -31,8 +32,10 @@ Columnas: `client_phone,cantidad_mensajes,ultimo_mensaje_at,is_unread,live_feed,
 Por cliente seleccionado, insertar 3–5 filas en `{schema}.n8n_chat_histories`:
 
 - Saludo agente
-- Empuje promo volumen (texto de promo Fase 2)
-- Respuesta comercio corta ("Buen día", "Anítame una caja")
+- Empuje promo volumen o discusión sobre pedidos de la Fase 6 (simulando que el agente tomó el pedido de ese cliente).
+- Respuestas y consultas del cliente.
+- **Mensajes de Quejas**: Simular quejas y reclamos para un subgrupo de clientes (por ejemplo, demoras, errores de facturación, o productos faltantes) para dar soporte a la creación de tickets en la Fase 8.
+- **Restricción Obligatoria de Cierre**: Toda conversación **DEBE** terminar obligatoriamente con un mensaje de tipo `ai` (`sender_type` = 'ai'). Si el último mensaje natural es del cliente (`human`), se debe inyectar una respuesta de contingencia (ej. saludo formal, confirmación de pedido recibido o cierre de contacto).
 
 **MUST** verificar columnas reales (`session_id`, `message`, `type`, etc.) con `list_tables` verbose.
 
@@ -44,6 +47,7 @@ Indicar al implementador: probar agente en backoffice/lab con datos del tenant; 
 
 - COUNT filas chat > 0
 - 10–15 clientes con `live_feed=true` en CSV resumen
+- Ninguna conversación finaliza con `sender_type = 'human'` o `type = 'human'`.
 
 ## Cierre
 
