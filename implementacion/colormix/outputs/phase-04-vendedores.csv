@@ -1,1 +1,4 @@
-vendedor_codigo,nombre,telefono,email,activo,is_mock
+nombre,telefono,email,codigo_ruta,id
+Carlos Gómez,+5493512362039,carlos@suplaisales.mock,R1,1
+Martina Rossi,+5493513630219,martina@suplaisales.mock,R2,2
+Diego Sánchez,+5493514545644,diego@suplaisales.mock,R3,3

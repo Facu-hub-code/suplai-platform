@@ -1,1 +1,51 @@
-cliente_codigo,razon_social,nombre,phone_number,zona_codigo,vendedor_codigo,lat,lng,lista_precios_id,is_mock
+phone_number,nombre,razon_social,lista_precios_id,codigo,dia_de_visita,direccion,vendedor,activo_ai,pdv_id,id,lat,lng
+5493515006299,Pinturería Centro 1,Pinturería Centro 1 S.R.L.,1,1,lunes,"Calle Falsa 1019, Córdoba",Carlos Gómez,True,1,152,-31.399185237975114,-64.16113320874155
+5493515013608,Pinturería Imperial 2,Pinturería Imperial 2 S.R.L.,1,2,martes,"Calle Falsa 6045, Córdoba",Carlos Gómez,True,2,153,-31.47165913879654,-64.19085184268093
+5493515029491,Pinturería San Martín 3,Pinturería San Martín 3 S.R.L.,1,3,miercoles,"Calle Falsa 5608, Córdoba",Martina Rossi,True,3,154,-31.35976142730929,-64.19363687222196
+5493515037159,Ferretería Belgrano 4,Ferretería Belgrano 4 S.R.L.,1,4,jueves,"Calle Falsa 7124, Córdoba",Martina Rossi,True,4,155,-31.422528754694216,-64.15447260569249
+5493515044945,Color Belgrano 5,Color Belgrano 5 S.R.L.,4,5,viernes,"Calle Falsa 6504, Córdoba",Diego Sánchez,True,5,156,-31.435498405813206,-64.19403381229311
+5493515056003,Bulonera Obrero 6,Bulonera Obrero 6 S.R.L.,1,6,sabado,"Calle Falsa 5202, Córdoba",Diego Sánchez,True,6,157,-31.446448093562882,-64.17222123507797
+5493515062238,Pinturería Imperial 7,Pinturería Imperial 7 S.R.L.,2,7,lunes,"Calle Falsa 1250, Córdoba",Carlos Gómez,True,7,158,-31.38429011884681,-64.12692398409865
+5493515077747,Pinturería Centro 8,Pinturería Centro 8 S.R.L.,3,8,martes,"Calle Falsa 9879, Córdoba",Carlos Gómez,True,8,159,-31.418766556974692,-64.11723580928417
+5493515087531,Pinturería Belgrano 9,Pinturería Belgrano 9 S.R.L.,3,9,miercoles,"Calle Falsa 6843, Córdoba",Martina Rossi,True,9,160,-31.402385969579452,-64.16467776112086
+5493515095987,Bulonera Obrero 10,Bulonera Obrero 10 S.R.L.,4,10,jueves,"Calle Falsa 9012, Córdoba",Martina Rossi,True,10,161,-31.430026702578925,-64.09658101443381
+5493515102657,Pinturería Imperial 11,Pinturería Imperial 11 S.R.L.,1,11,viernes,"Calle Falsa 5720, Córdoba",Diego Sánchez,True,11,162,-31.358087325990844,-64.22181137233011
+5493515111036,Ferretería Obrero 12,Ferretería Obrero 12 S.R.L.,4,12,sabado,"Calle Falsa 1494, Córdoba",Diego Sánchez,True,12,163,-31.416055970366152,-64.21317691582703
+5493515128912,Ferretería Norte 13,Ferretería Norte 13 S.R.L.,4,13,lunes,"Calle Falsa 4643, Córdoba",Carlos Gómez,True,13,164,-31.4072579203588,-64.12632867508931
+5493515131366,Corralón Imperial 14,Corralón Imperial 14 S.R.L.,3,14,martes,"Calle Falsa 3696, Córdoba",Carlos Gómez,True,14,165,-31.416081217421798,-64.15623412700216
+5493515144801,Corralón Norte 15,Corralón Norte 15 S.R.L.,3,15,miercoles,"Calle Falsa 1982, Córdoba",Martina Rossi,True,15,166,-31.427314001415787,-64.2011508774015
+5493515152378,Corralón Belgrano 16,Corralón Belgrano 16 S.R.L.,2,16,jueves,"Calle Falsa 5843, Córdoba",Martina Rossi,True,16,167,-31.41596757413097,-64.20564031659626
+5493515161979,Bulonera Avenida 17,Bulonera Avenida 17 S.R.L.,3,17,viernes,"Calle Falsa 6945, Córdoba",Diego Sánchez,True,17,168,-31.422092826035207,-64.14644197906107
+5493515171949,Color San Martín 18,Color San Martín 18 S.R.L.,3,18,sabado,"Calle Falsa 3472, Córdoba",Diego Sánchez,True,18,169,-31.428261315497643,-64.18072372543938
+5493515184385,Ferretería Avenida 19,Ferretería Avenida 19 S.R.L.,3,19,lunes,"Calle Falsa 5296, Córdoba",Carlos Gómez,True,19,170,-31.402486520011813,-64.16782091632751
+5493515196767,Color Avenida 20,Color Avenida 20 S.R.L.,1,20,martes,"Calle Falsa 5483, Córdoba",Carlos Gómez,True,20,171,-31.414990961584927,-64.16555165091312
+5493515206181,Ferretería Avenida 21,Ferretería Avenida 21 S.R.L.,4,21,miercoles,"Calle Falsa 4695, Córdoba",Martina Rossi,True,21,172,-31.391039229677283,-64.17293960750304
+5493515219404,Color Obrero 22,Color Obrero 22 S.R.L.,2,22,jueves,"Calle Falsa 5558, Córdoba",Martina Rossi,True,22,173,-31.387443282367432,-64.20028150603873
+5493515223680,Corralón Centro 23,Corralón Centro 23 S.R.L.,2,23,viernes,"Calle Falsa 5890, Córdoba",Diego Sánchez,True,23,174,-31.436921405409716,-64.17882595984523
+5493515235284,Ferretería Centro 24,Ferretería Centro 24 S.R.L.,3,24,sabado,"Calle Falsa 6428, Córdoba",Diego Sánchez,True,24,175,-31.370281542962527,-64.2271232882795
+5493515249717,Bulonera Belgrano 25,Bulonera Belgrano 25 S.R.L.,2,25,lunes,"Calle Falsa 9767, Córdoba",Carlos Gómez,True,25,176,-31.35360542880035,-64.20489989443037
+5493515255308,Color Norte 26,Color Norte 26 S.R.L.,4,26,martes,"Calle Falsa 1326, Córdoba",Carlos Gómez,True,26,177,-31.428881572553532,-64.19924972337914
+5493515264422,Bulonera Norte 27,Bulonera Norte 27 S.R.L.,4,27,miercoles,"Calle Falsa 2417, Córdoba",Martina Rossi,True,27,178,-31.45273453443904,-64.16019510072107
+5493515274892,Pinturería Avenida 28,Pinturería Avenida 28 S.R.L.,2,28,jueves,"Calle Falsa 5268, Córdoba",Martina Rossi,True,28,179,-31.3964061798685,-64.18703076305691
+5493515284304,Color Norte 29,Color Norte 29 S.R.L.,3,29,viernes,"Calle Falsa 5300, Córdoba",Diego Sánchez,True,29,180,-31.397701236374203,-64.13466615852707
+5493515298101,Ferretería Norte 30,Ferretería Norte 30 S.R.L.,2,30,sabado,"Calle Falsa 8445, Córdoba",Diego Sánchez,True,30,181,-31.395283579031208,-64.13739944593652
+5493515304234,Ferretería San Martín 31,Ferretería San Martín 31 S.R.L.,3,31,lunes,"Calle Falsa 9391, Córdoba",Carlos Gómez,True,31,182,-31.392442797753,-64.22542972482486
+5493515318601,Bulonera Norte 32,Bulonera Norte 32 S.R.L.,4,32,martes,"Calle Falsa 4619, Córdoba",Carlos Gómez,True,32,183,-31.423717909206786,-64.19949708150088
+5493515328976,Bulonera Norte 33,Bulonera Norte 33 S.R.L.,3,33,miercoles,"Calle Falsa 6775, Córdoba",Martina Rossi,True,33,184,-31.39485252494804,-64.1932296810341
+5493515339316,Corralón Avenida 34,Corralón Avenida 34 S.R.L.,2,34,jueves,"Calle Falsa 1915, Córdoba",Martina Rossi,True,34,185,-31.425549792402617,-64.15086871628189
+5493515348562,Pinturería Norte 35,Pinturería Norte 35 S.R.L.,3,35,viernes,"Calle Falsa 5567, Córdoba",Diego Sánchez,True,35,186,-31.35903001671391,-64.18488674054082
+5493515351396,Ferretería Imperial 36,Ferretería Imperial 36 S.R.L.,3,36,sabado,"Calle Falsa 7205, Córdoba",Diego Sánchez,True,36,187,-31.431624080182846,-64.13775454387628
+5493515369407,Bulonera San Martín 37,Bulonera San Martín 37 S.R.L.,3,37,lunes,"Calle Falsa 5436, Córdoba",Carlos Gómez,True,37,188,-31.4411856260894,-64.22882336361386
+5493515372144,Bulonera San Martín 38,Bulonera San Martín 38 S.R.L.,4,38,martes,"Calle Falsa 7608, Córdoba",Carlos Gómez,True,38,189,-31.364793726866594,-64.16011813717198
+5493515381873,Pinturería Avenida 39,Pinturería Avenida 39 S.R.L.,4,39,miercoles,"Calle Falsa 2701, Córdoba",Martina Rossi,True,39,190,-31.377420358752378,-64.19305372405236
+5493515391580,Ferretería Belgrano 40,Ferretería Belgrano 40 S.R.L.,3,40,jueves,"Calle Falsa 5790, Córdoba",Martina Rossi,True,40,191,-31.462854619415236,-64.1804961216032
+5493515404537,Color Belgrano 41,Color Belgrano 41 S.R.L.,1,41,viernes,"Calle Falsa 2438, Córdoba",Diego Sánchez,True,41,192,-31.37881689157825,-64.16310584416246
+5493515417663,Bulonera El Sol 42,Bulonera El Sol 42 S.R.L.,2,42,sabado,"Calle Falsa 4121, Córdoba",Diego Sánchez,True,42,193,-31.41802582936538,-64.1708156885915
+5493515421150,Bulonera Avenida 43,Bulonera Avenida 43 S.R.L.,4,43,lunes,"Calle Falsa 6905, Córdoba",Carlos Gómez,True,43,194,-31.407104615126237,-64.0931296815746
+5493515431984,Pinturería Avenida 44,Pinturería Avenida 44 S.R.L.,4,44,martes,"Calle Falsa 3799, Córdoba",Carlos Gómez,True,44,195,-31.457432360074012,-64.21652135908337
+5493515442388,Pinturería Imperial 45,Pinturería Imperial 45 S.R.L.,2,45,miercoles,"Calle Falsa 4835, Córdoba",Martina Rossi,True,45,196,-31.39570958672979,-64.15769565823369
+5493515451124,Color El Sol 46,Color El Sol 46 S.R.L.,1,46,jueves,"Calle Falsa 7053, Córdoba",Martina Rossi,True,46,197,-31.45006144510459,-64.19546275586302
+5493515462776,Ferretería Imperial 47,Ferretería Imperial 47 S.R.L.,3,47,viernes,"Calle Falsa 2064, Córdoba",Diego Sánchez,True,47,198,-31.39895289199347,-64.18465993605373
+5493515474437,Pinturería San Martín 48,Pinturería San Martín 48 S.R.L.,1,48,sabado,"Calle Falsa 1751, Córdoba",Diego Sánchez,True,48,199,-31.402696404729667,-64.15238799247925
+5493515484345,Ferretería Obrero 49,Ferretería Obrero 49 S.R.L.,3,49,lunes,"Calle Falsa 937, Córdoba",Carlos Gómez,True,49,200,-31.46923873739513,-64.1713807808764
+5493515499519,Corralón Imperial 50,Corralón Imperial 50 S.R.L.,3,50,martes,"Calle Falsa 8168, Córdoba",Carlos Gómez,True,50,201,-31.415926394064204,-64.20282078683884

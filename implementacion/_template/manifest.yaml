@@ -18,8 +18,13 @@ fases:
     nombre: catalogo
     estado: pendiente
     output_csv: outputs/phase-01-productos.csv
-    output_csv_extra: outputs/phase-01-listas-precios.csv
+    output_csv_extra: outputs/phase-01-lista-precios-*.csv
     filas_csv: 0
+    cargado_at: null
+  "01.1":
+    nombre: tags
+    estado: pendiente
+    output_json: outputs/phase-01-1-propuesta-tags.json
     cargado_at: null
   "02":
     nombre: promociones

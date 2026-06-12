@@ -1,1 +1,14 @@
 base_product_code,related_product_code,reason,is_mock
+101085,101144,Accesorio recomendado,True
+101088,97127,Accesorio recomendado,True
+101021,97027,Accesorio recomendado,True
+101074,40643,Accesorio recomendado,True
+101072,40645,Accesorio recomendado,True
+101073,101144,Accesorio recomendado,True
+101027,97127,Accesorio recomendado,True
+101104,97027,Accesorio recomendado,True
+101090,40643,Accesorio recomendado,True
+101092,40645,Accesorio recomendado,True
+101093,101144,Accesorio recomendado,True
+101091,97127,Accesorio recomendado,True
+11468,101089,Cross-sell de marca líder,True

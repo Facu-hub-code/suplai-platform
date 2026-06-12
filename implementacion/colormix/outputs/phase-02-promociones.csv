@@ -1,1 +1,5 @@
-promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+product_code,product_name,fecha_inicio,fecha_fin,lista_precios_id,min_qty_umv,discount_kind,descuento_percent,descuento_nominal,precio_promocional,descripcion
+11468,Enduido Int/Ext Talento 4 Lt,2026-06-01,2026-07-08,1,1,percent,15.0,,,¡Llevate Enduido Int/Ext Talento 4 Lt con un 15% OFF! Oferta imperdible de la marca líder.
+3038,MASILLA EN POLVO SECADO RAPIDO X 20KG (MULTIMIX),2026-06-01,2026-07-08,2,1,nominal,,500.0,,¡Ahorrá $500 directos en cada MASILLA EN POLVO SECADO RAPIDO X 20KG (MULTIMIX)!
+1311,RUST OLEUM (7990830)STONE BLANCO X 340GR,2026-06-01,2026-07-08,1,3,fixed_price,,,23516.82,"¡Llevando 3 unidades o más, el precio queda súper rebajado!"
+1302,RUST OLEUM( 284317) PEEL COAT ROSA MATE,2026-06-01,2026-07-08,3,1,percent,20.0,,,Liquidación total: 20% de descuento en RUST OLEUM( 284317) PEEL COAT ROSA MATE.

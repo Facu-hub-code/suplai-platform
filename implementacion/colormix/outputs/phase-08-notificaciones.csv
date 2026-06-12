@@ -1,1 +1,20 @@
-ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,is_mock
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,is_mock
+TKT-1000,Logística,Abierto,No recibió mercadería el viernes,5493515223680,"Buen día, estoy esperando el pedido del viernes y nunca pasó el camión.",2026-06-08 01:21:52,True
+TKT-1001,Logística,Cerrado,No recibió mercadería el viernes,5493515077747,,2026-05-30 01:26:10,True
+TKT-1002,Logística,Cerrado,No recibió mercadería el viernes,5493515255308,,2026-05-21 06:15:14,True
+TKT-1003,Administración,Abierto,Corregir apellido en sistema,5493515264422,,2026-06-07 00:11:03,True
+TKT-1004,Administración,Abierto,Corregir apellido en sistema,5493515223680,,2026-06-07 06:27:53,True
+TKT-1005,Calidad,Cerrado,Reclamo lata de Latex abollada,5493515372144,,2026-06-02 07:39:45,True
+TKT-1006,Comercial,Abierto,Pide hablar con encargado,5493515235284,,2026-06-06 14:11:42,True
+TKT-1007,Administración,Abierto,Corregir apellido en sistema,5493515298101,,2026-06-07 10:47:44,True
+TKT-1008,Calidad,Abierto,Reclamo lata de Latex abollada,5493515111036,"Hola, me llegó la lata de Latex abollada, está perdiendo pintura.",2026-06-06 01:42:40,True
+TKT-1009,Calidad,Cerrado,Reclamo lata de Latex abollada,5493515474437,,2026-06-01 19:22:10,True
+TKT-1010,Comercial,Abierto,Pide hablar con encargado,5493515339316,,2026-06-06 11:44:31,True
+TKT-1011,Comercial,Abierto,Pide hablar con encargado,5493515499519,,2026-06-06 19:24:06,True
+TKT-1012,Calidad,Cerrado,Reclamo lata de Latex abollada,5493515044945,,2026-05-26 02:31:55,True
+TKT-1013,Logística,Abierto,No recibió mercadería el viernes,5493515255308,"Buen día, estoy esperando el pedido del viernes y nunca pasó el camión.",2026-06-08 10:20:33,True
+TKT-1014,Administración,Abierto,Corregir apellido en sistema,5493515348562,,2026-06-07 05:46:52,True
+TKT-1015,Administración,Cerrado,Corregir apellido en sistema,5493515111036,,2026-05-20 09:13:47,True
+TKT-1016,Calidad,Abierto,Reclamo lata de Latex abollada,5493515077747,"Hola, me llegó la lata de Latex abollada, está perdiendo pintura.",2026-06-08 14:45:47,True
+TKT-1017,Comercial,Abierto,Pide hablar con encargado,5493515484345,,2026-06-06 12:11:29,True
+TKT-1018,Logística,Abierto,No recibió mercadería el viernes,5493515223680,"Buen día, estoy esperando el pedido del viernes y nunca pasó el camión.",2026-06-07 07:59:27,True
