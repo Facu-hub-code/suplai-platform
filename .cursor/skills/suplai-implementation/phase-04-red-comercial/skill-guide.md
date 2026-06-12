@@ -25,11 +25,15 @@ Crear 3 vendedores mock:
 - `is_mock = true`.
 
 ### 2. Generación de Zonas
-Crear 6 zonas (asociando 2 a cada vendedor):
+Crear 6 zonas independientes y pequeñas (polígonos de barrios o avenidas puntuales, no un polígono gigante que cubra toda la ciudad):
 - Nombres basados en barrios reales de la `ciudad_base` (ej: "ZONA SUR - Godoy Cruz", "CENTRO - Quinta Sección").
 - `dia_visita`: distribuido equitativamente de lunes a sábado.
 - Colores HEX de contraste alto para el visualizador del mapa.
-- `geometry_geojson`: Crear un polígono pequeño en formato GeoJSON alrededor del barrio indicado.
+- **Formato Geométrico**: La representación espacial de cada zona en la base de datos debe ser formateada estrictamente bajo el estándar PostGIS como **`MultiPolygon`** y con referencia espacial **`SRID=4326`**:
+  `SRID=4326;MULTIPOLYGON(((lon lat, lon lat, ...)))`
+  *Advertencia: No insertar un Polygon simple, ya que fallará el renderizado o la validación geométrica del mapa en el Backoffice.*
+- **Validación de Enumerador `zone_type`**: Usar enums aceptados en base de datos (ej. `'sales'` o `'route'`). Evitar términos no soportados como `'territory'`.
+- **Coherencia Topológica**: Validar que los vértices no tengan cruces de líneas o polígonos inválidos (deben cerrarse correctamente repitiendo la primera coordenada al final).
 
 ### 3. Generación de Clientes
 Crear 50 clientes mock geolocalizados:
@@ -48,10 +52,12 @@ Escribir:
 ## 💾 Carga a la Base de Datos (MCP Supabase)
 
 Realizar la inserción secuencial (respetando llaves foráneas):
-1. Insertar en `{schema}.vendedores` y rescatar los IDs autogenerados.
-2. Insertar en `{schema}.geo_zones` y asociar en `{schema}.vendedor_geo_zones`.
-3. Insertar en `{schema}.clients` (asignando listas de precios y vendedor correspondiente).
-4. Insertar lat/lng en `{schema}.client_locations` si la estructura del schema lo requiere.
+1. **Vendedores**: Insertar en `{schema}.vendedores` y rescatar los IDs autogenerados.
+2. **Zonas**: Insertar en `{schema}.geo_zones` (aplicando el formato PostGIS `MultiPolygon` y el enum `zone_type` correctos) y asociar en `{schema}.vendedor_geo_zones`.
+3. **Puntos de Venta (MANDATORIO)**: Por cada cliente de la lista de 50, primero insertar un registro en la tabla `{schema}.puntos_venta` (`razon_social`, `codigo`, `lista_precios_id`, `is_mock`) y guardar el `id` autogenerado (será el `pdv_id`).
+4. **Clientes**: Insertar en `{schema}.clients` asignando la lista de precios, el vendedor, y el **`pdv_id`** obtenido en el paso anterior. Rescatar los `id` autogenerados de cada cliente. ¡Si no se crea y vincula el punto de venta a nivel de base de datos, el cliente no se visualizará en la app o backoffice!
+5. **Asociación Vendedor-Cliente (MANDATORIO)**: Para cada cliente insertado, agregar un registro en la tabla `{schema}.vendedores_clientes` vinculando su `vendedor_id` y `cliente_id` (id autogenerado en la tabla clients), con la columna `activo` establecida en `true`.
+6. **Geolocalización**: Insertar lat/lng en `{schema}.client_locations` vinculándolo al cliente.
 
 ---
 

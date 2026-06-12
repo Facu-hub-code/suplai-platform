@@ -11,7 +11,7 @@ description: Fase 8 insights — 15-20 tickets ia_tickets con efecto cruzado en 
 ## Input
 
 - Producto/marca líder (reclamo coherente)
-- Clientes con `live_feed=true` del CSV Fase 7
+- Archivo CSV de la Fase 7 (`phase-07-conversaciones-resumen.csv`) conteniendo los teléfonos de clientes con conversaciones y quejas registradas.
 
 ## Output
 

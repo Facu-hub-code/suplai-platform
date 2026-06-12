@@ -30,8 +30,8 @@ Guía al **implementador no técnico** fase por fase. No mezclar fases en un sol
 | 6 | `phase-06-pedidos` | `phase-06-pedidos/` |
 | 7 | `phase-07-conversaciones` | `phase-07-conversaciones/` |
 | 8 | `phase-08-insights` | `phase-08-insights/` |
-| 9 | `phase-09-purga-mock` | `phase-09-purga-mock/` |
-| 10 | `phase-10-e2e-testing` | `phase-10-e2e-testing/` |
+| 9 | `phase-09-e2e-testing` | `phase-09-e2e-testing/` |
+| 10 | `phase-10-purga-mock` | `phase-10-purga-mock/` |
 
 ## Lógica del orquestador
 
@@ -41,7 +41,7 @@ SI fase N está pendiente Y fase N-1 está cargado (o N=0):
 SI implementador pide fase concreta ("fase 1 colormix"):
   → verificar prerequisito; si falla, explicar qué fase falta
 SI todas hasta 8 cargadas:
-  → felicitar y ofrecer sandbox agente + Fase 9 (si is_mock existe) + Fase 10 (Pruebas E2E y Healthcheck)
+  → felicitar y ofrecer sandbox agente + Fase 9 (Pruebas E2E y Healthcheck) + Fase 10 (Purga Mock si is_mock existe)
 ```
 
 ## Actualizar manifest
