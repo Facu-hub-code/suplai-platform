@@ -26,6 +26,10 @@ fases:
     estado: pendiente
     output_json: outputs/phase-01-1-propuesta-tags.json
     cargado_at: null
+  "01.2":
+    nombre: mejora_descripciones
+    estado: pendiente
+    output_csv: outputs/vista_previa_enriquecimiento.csv
   "01.3":
     nombre: prompt_agente
     estado: pendiente

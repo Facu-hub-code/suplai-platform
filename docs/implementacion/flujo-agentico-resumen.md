@@ -21,7 +21,7 @@ Poblar un tenant **recién registrado** (schema vacío) a partir del Excel de pr
 ## Pipeline (orden obligatorio)
 
 ```text
-Excel → Catálogo (F1) → Tags (F1.1) → Prompt Agente (F1.3) → Promos (F2) + Cross/Up (F3)
+Excel → Catálogo (F1) → Tags (F1.1) → Mejora Descripciones (F1.2) → Prompt Agente (F1.3) → Promos (F2) + Cross/Up (F3)
      → Red comercial (F4) → Flags clientes (F5)
      → Pedidos (F6) → Conversaciones (F7) → Insights (F8)
      → [opcional] Purga mock (F9)
@@ -69,6 +69,29 @@ Tablas: `{tenant}.productos`, `listas_precios`, `precios_productos`, `productos_
 - Guardar la propuesta devuelta por la IA en un archivo JSON en `outputs/phase-01-1-propuesta-tags.json`.
 - Enviar el JSON resultante al endpoint `POST /{schema}/tags/apply-proposed-taxonomy` para impactar la base de datos de tags jerárquicos (4 niveles).
 
+## Fase 1.2 — Mejora de descripciones
+
+- **Propósito**: Ejecutar la skill de enriquecimiento de descripciones comerciales y alias locales ([SKILL.md](file:///c:/Users/totot/OneDrive/Escritorio/Suplai_Sales/suplai-platform/.cursor/skills/enhance-descriptions/SKILL.md) / [skill-guide.md](file:///c:/Users/totot/OneDrive/Escritorio/Suplai_Sales/suplai-platform/.cursor/skills/enhance-descriptions/skill-guide.md)) para optimizar las fichas de productos frente al RAG del agente, eliminando relleno publicitario y agregando contexto técnico B2B.
+- **Funcionamiento por Defecto**:
+  - Se seleccionan automáticamente los **100 productos** más ambiguos de la base de datos usando el script [buscar_candidatos.py](file:///c:/Users/totot/OneDrive/Escritorio/Suplai_Sales/suplai-platform/scripts/buscar_candidatos.py):
+    ```bash
+    python scripts/buscar_candidatos.py --esquema {esquema} --limite 100
+    ```
+  - Esto guardará la lista en `implementacion/{esquema}/inputs/candidatos_a_enriquecer.csv`.
+- **Interacción y Guardrails del IDE Agéntico**:
+  - **Preguntar Siempre**: El IDE agéntico debe preguntar al implementador cuántos productos desea mejorar.
+  - **Estimación de Tiempo**: Proveer una estimación clara del tiempo de ejecución (aproximadamente **3 segundos por producto**; por ejemplo, 100 productos tomarán unos **5 minutos**).
+  - **Creación de `config.json`**: Ofrecer la creación de un archivo de configuración específico en `implementacion/{esquema}/config.json` previo a correr la skill para mejorar los resultados.
+  - **Proponer Configuración**: Si el IDE tiene contexto de la distribuidora (ej. vinos con Vadra, ferretería con Colormix) o aprende de sus productos, propondrá proactivamente la estructura de este JSON (especificando dominios de búsqueda, términos de fallback, modo y reglas adicionales del catálogo).
+- **Ejecución y Persistencia**:
+  - **Dry Run**:
+    ```bash
+    python scripts/enriquecer_catalogo.py --esquema {esquema} --csv-entrada implementacion/{esquema}/inputs/candidatos_a_enriquecer.csv --csv-salida implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv
+    ```
+  - **Persistir**: Tras el visto bueno del implementador (revisión manual del CSV), aplicar cambios a Supabase y re-vectorizar:
+    ```bash
+    python scripts/enriquecer_catalogo.py --esquema {esquema} --aplicar --csv-entrada implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv
+    ```
 ## Fase 1.3 — Personalización del Prompt del Agente
 
 - Recopilar el rubro del distribuidor (ej. ferretería, consumo masivo) y restricciones del negocio (ej. "solo vende productos Arcor").
