@@ -21,7 +21,7 @@ Poblar un tenant **recién registrado** (schema vacío) a partir del Excel de pr
 ## Pipeline (orden obligatorio)
 
 ```text
-Excel → Catálogo (F1) → Tags (F1.1) → Mejora Descripciones (F1.2) → Promos (F2) + Cross/Up (F3)
+Excel → Catálogo (F1) → Tags (F1.1) → Mejora Descripciones (F1.2) → Prompt Agente (F1.3) → Promos (F2) + Cross/Up (F3)
      → Red comercial (F4) → Flags clientes (F5)
      → Pedidos (F6) → Conversaciones (F7) → Insights (F8)
      → [opcional] Purga mock (F9)
@@ -92,6 +92,12 @@ Tablas: `{tenant}.productos`, `listas_precios`, `precios_productos`, `productos_
     ```bash
     python scripts/enriquecer_catalogo.py --esquema {esquema} --aplicar --csv-entrada implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv
     ```
+## Fase 1.3 — Personalización del Prompt del Agente
+
+- Recopilar el rubro del distribuidor (ej. ferretería, consumo masivo) y restricciones del negocio (ej. "solo vende productos Arcor").
+- Generar mediante LLM las definiciones estructuradas de `identidad`, `contexto` y el objeto JSON `reglas_negocio` del agente.
+- Guardar el resultado propuesto en `outputs/phase-01-3-prompt-config.json`.
+- Cargar/Actualizar la configuración en la tabla maestra `public.distribuidoras` para el tenant correspondiente (vía Supabase MCP).
 
 ## Fase 2 — Promociones
 

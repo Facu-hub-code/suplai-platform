@@ -5,7 +5,8 @@ description: Fase 1 catálogo — Excel a CSV de productos enriquecidos y carga 
 
 # Fase 1 — Catálogo
 
-Prerequisito: Fase 0 `cargado` o `csv_listo` con gate OK.
+> [!IMPORTANT]
+> **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
 
 ## Input
 
@@ -16,7 +17,7 @@ Prerequisito: Fase 0 `cargado` o `csv_listo` con gate OK.
 ## Output
 
 1. **`phase-01-productos.csv`** (obligatorio) — headers en `implementacion/_template/outputs/phase-01-productos.csv`
-2. **`phase-01-listas-precios.csv`** (obligatorio si solo hay un precio en Excel)
+2. **`phase-01-lista-precios-{lista_precios_id}.csv`** (un archivo independiente por cada lista de precios, ej. `phase-01-lista-precios-1.csv`, `phase-01-lista-precios-2.csv`, etc., obligatorios si solo hay un precio en Excel)
 
 ## Inferencia (por fila)
 
@@ -51,8 +52,9 @@ Orden sugerido:
 
 1. `INSERT` `{schema}.listas_precios` (4 filas) — anotar IDs
 2. `INSERT` `{schema}.productos` en lotes
-3. `INSERT` `{schema}.precios_productos` desde phase-01-listas-precios.csv
+3. `INSERT` `{schema}.precios_productos` desde cada uno de los archivos `phase-01-lista-precios-*.csv`
 4. `INSERT` `{schema}.productos_aliases` (un alias por fila o split)
+5. **Re-vectorización (CRÍTICO)**: Realizar un request `POST` a `https://web-production-f544f.up.railway.app/{schema}/productos/vectorize` enviando el listado de códigos de productos insertados en el body (como un JSON Array de strings, ej: `["PROD01", "PROD02"]`). Esto encolará la vectorización y permitirá al agente de IA entender los productos.
 
 Contrastar columnas con `list_tables` verbose. No insertar columnas inexistentes.
 

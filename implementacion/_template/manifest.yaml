@@ -30,6 +30,10 @@ fases:
     nombre: mejora_descripciones
     estado: pendiente
     output_csv: outputs/vista_previa_enriquecimiento.csv
+  "01.3":
+    nombre: prompt_agente
+    estado: pendiente
+    output_json: outputs/phase-01-3-prompt-config.json
     cargado_at: null
   "02":
     nombre: promociones

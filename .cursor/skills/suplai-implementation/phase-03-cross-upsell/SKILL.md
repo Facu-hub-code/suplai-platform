@@ -5,7 +5,8 @@ description: Fase 3 cross-sell y up-sell — relaciones mock coherentes por marc
 
 # Fase 3 — Cross-sell y Up-sell
 
-Prerequisito: Fase 1 `cargado`, `tenant_id` en manifest.
+> [!IMPORTANT]
+> **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
 
 ## Input
 
