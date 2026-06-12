@@ -24,7 +24,7 @@ Poblar un tenant **recién registrado** (schema vacío) a partir del Excel de pr
 Excel → Catálogo (F1) → Tags (F1.1) → Mejora Descripciones (F1.2) → Prompt Agente (F1.3) → Promos (F2) + Cross/Up (F3)
      → Red comercial (F4) → Flags clientes (F5)
      → Pedidos (F6) → Conversaciones (F7) → Insights (F8)
-     → [opcional] Purga mock (F9)
+     → [opcional] Purga mock (F9) → Pruebas E2E (F10)
 ```
 
 **Grafo comercial:** la misma marca/producto estrella debe aparecer en promos, up-sell y alertas de calidad (efecto cruzado).
@@ -71,9 +71,9 @@ Tablas: `{tenant}.productos`, `listas_precios`, `precios_productos`, `productos_
 
 ## Fase 1.2 — Mejora de descripciones
 
-- **Propósito**: Ejecutar la skill de enriquecimiento de descripciones comerciales y alias locales ([SKILL.md](file:///c:/Users/totot/OneDrive/Escritorio/Suplai_Sales/suplai-platform/.cursor/skills/enhance-descriptions/SKILL.md) / [skill-guide.md](file:///c:/Users/totot/OneDrive/Escritorio/Suplai_Sales/suplai-platform/.cursor/skills/enhance-descriptions/skill-guide.md)) para optimizar las fichas de productos frente al RAG del agente, eliminando relleno publicitario y agregando contexto técnico B2B.
+- **Propósito**: Ejecutar la skill de enriquecimiento de descripciones comerciales y alias locales ([SKILL.md](../../.cursor/skills/enhance-descriptions/SKILL.md) / [skill-guide.md](../../.cursor/skills/enhance-descriptions/skill-guide.md)) para optimizar las fichas de productos frente al RAG del agente, eliminando relleno publicitario y agregando contexto técnico B2B.
 - **Funcionamiento por Defecto**:
-  - Se seleccionan automáticamente los **100 productos** más ambiguos de la base de datos usando el script [buscar_candidatos.py](file:///c:/Users/totot/OneDrive/Escritorio/Suplai_Sales/suplai-platform/scripts/buscar_candidatos.py):
+  - Se seleccionan automáticamente los **100 productos** más ambiguos de la base de datos usando el script [buscar_candidatos.py](../../scripts/buscar_candidatos.py):
     ```bash
     python scripts/buscar_candidatos.py --esquema {esquema} --limite 100
     ```
@@ -147,6 +147,22 @@ Tabla: `{tenant}.promociones_semanales`.
 
 - Solo con columna `is_mock` y confirmación explícita `PURGE MOCK {schema}`.
 - Borrado en cascada de todo registro mock; dejar tenant listo para producción.
+
+## Fase 10 — Pruebas E2E y Healthcheck
+
+- **Propósito**: Ejecutar la validación integral y pruebas de conversación automáticas del agente conversacional ([SKILL.md](../../.cursor/skills/agent-e2e-testing/SKILL.md) / [skill-guide.md](../../.cursor/skills/agent-e2e-testing/skill-guide.md)) para auditar su correcto funcionamiento.
+- **Healthcheck**:
+  - Correr el script de validación de base de datos (que debería pasar exitosamente dado que todas las fases previas se completaron de manera correcta):
+    ```bash
+    python scripts/healthcheck_schema.py --schema {esquema}
+    ```
+- **Suite de Pruebas E2E**:
+  - Simular y validar los flujos típicos del agente conversacional (10 casos de prueba midiendo latencia y correcto llamado de herramientas):
+    ```bash
+    python scripts/test_agent_e2e.py --schema {esquema}
+    ```
+- **Auditoría del Reporte**:
+  - Revisar críticamente el reporte generado en `implementacion/{esquema}/outputs/reporte_e2e_{timestamp}.md` y realizar la validación de falsos negativos.
 
 ## Prerequisito técnico
 

@@ -87,6 +87,11 @@ fases:
     output_csv: outputs/phase-09-purga-log.csv
     filas_csv: 0
     cargado_at: null
+  "10":
+    nombre: e2e_testing
+    estado: pendiente
+    output_markdown: outputs/reporte_e2e_*.md
+    cargado_at: null
 
 marca_lider: ""  # completar tras Fase 1 (ej. ALBA, SIKA)
 tenant_id: ""    # UUID de public.distribuidoras — completar en Fase 0
