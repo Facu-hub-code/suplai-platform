@@ -1,0 +1,6 @@
+{
+  "dominios": "webstaurantstore.com,usfoods.com,sysco.com,costco.com,walmart.com",
+  "sufijo_fallback": "frozen produce IQF wholesale USA",
+  "modo_contexto": "ampliado",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA BENFRESH (FRUTAS/VERDURAS CONGELADAS Y EMPAQUES B2B):\n1. OBLIGATORIEDAD DE TIPO Y PRESENTACIÓN: Incluir si es fruta congelada, verdura congelada, pulpa, sorbet, producto seco, empaque (bag/box) o material de packaging. Indicar peso o formato (ej. 3 lb, 5 lb, 22 lb, 30 lb, 0.75 lb retail, 6x5lb, 8x3lb).\n2. CATEGORÍA IQF / ORGÁNICO: Si el nombre menciona IQF, organic, sliced, diced, chunk, floret, pellet o retail, incluirlo explícitamente en la descripción.\n3. MARCA BENFRESH: Cuando aparezca BENFRESH en el nombre, incluir 'Benfresh' como marca en descripción y alias.\n4. ALIAS EN INGLÉS Y ESPAÑOL: Incluir alias bilingües comunes del rubro (ej. blueberry/arándano, strawberry/fresa, spinach/espinaca, broccoli/brócoli, mango, pineapple/piña, green beans/ejotes, sweetcorn/maíz dulce, yuca/cassava, passion fruit/maracuyá, plantain/plátano).\n5. NO CONFUNDIR: No clasificar bolsas/cajas de packaging (BAG, Boxes) como alimentos. No inventar certificaciones ni origen si no aparece en el nombre o contexto web."
+}
