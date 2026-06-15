@@ -57,5 +57,6 @@ Ver [docs/implementacion/colormix-notas.md](../docs/implementacion/colormix-nota
 
 ## Purga de datos de prueba
 
-Solo cuando exista la columna `is_mock` en la base (migración de ingeniería).  
+Cuando exista la columna `is_mock` en la base (migración en [`docs/implementacion/migrations/20260615_add_is_mock_columns_demo_and_tenants.sql`](../docs/implementacion/migrations/20260615_add_is_mock_columns_demo_and_tenants.sql)).  
+Aplicarla: Supabase SQL Editor, o MCP Supabase **sin** `read_only=true` en `.cursor/mcp.json`.  
 Debés escribir exactamente: **`PURGE MOCK colormix`** (cambiá el schema si aplica).

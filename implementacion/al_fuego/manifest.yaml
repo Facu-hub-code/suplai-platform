@@ -1,24 +1,25 @@
-# Copiar esta carpeta a implementacion/{schema_name}/ y completar.
-schema_name: ""
-nombre_comercial: ""
-ciudad_base: ""
-excel_input: "inputs/lista-productos.xlsx"
+schema_name: al_fuego
+nombre_comercial: Al Fuego
+ciudad_base: "Valle Escondido, Córdoba, Argentina"
+excel_input: inputs/LDP-AlFuego.csv
+sitio_web: https://alfuego.com.ar/
+notas: "Franquicia carnicería — carnes envasadas al vacío. Sucursal Valle Escondido."
 
 blocked:
-  is_mock_migration: true  # pasar a false tras aplicar docs/implementacion/migrations/20260615_add_is_mock_columns_demo_and_tenants.sql
+  is_mock_migration: true
 
 fases:
   "00":
     nombre: preflight
-    estado: pendiente  # pendiente | en_curso | csv_listo | cargado | bloqueado
+    estado: cargado
     output_csv: outputs/phase-00-preflight.csv
-    filas_csv: 0
-    cargado_at: null
+    filas_csv: 8
+    cargado_at: "2026-06-15T12:00:00Z"
   "01":
     nombre: catalogo
     estado: pendiente
     output_csv: outputs/phase-01-productos.csv
-    output_csv_extra: outputs/phase-01-lista-precios-*.csv
+    output_csv_extra: outputs/phase-01-listas-precios-*.csv
     filas_csv: 0
     cargado_at: null
   "01.1":
@@ -93,5 +94,5 @@ fases:
     filas_csv: 0
     cargado_at: null
 
-marca_lider: ""  # completar tras Fase 1 (ej. ALBA, SIKA)
-tenant_id: ""    # UUID de public.distribuidoras — completar en Fase 0
+marca_lider: ""
+tenant_id: e8261700-ca7c-4091-b5b3-7aa9e9d31e08
