@@ -1,0 +1,43 @@
+{
+  "name": "Nutrispa — foto, edición y consulta",
+  "slug": "04-nutrispa-foto-lista",
+  "order": 2,
+  "source_case": "04-nutrispa-foto-lista",
+  "client_identifier": "NUTRISPA INC",
+  "steps": [
+    {
+      "step_order": 1,
+      "name": "Carga desde foto simulada",
+      "message_file": "01-carga-foto.txt",
+      "expected_tools_any": [
+        "set_seller_selected_client",
+        "load_seller_order_text",
+        "edit_order_for_client",
+        "search_products"
+      ],
+      "expected_skus": ["89090009", "89090130", "89090038"],
+      "expected_behavior": "Procesar foto simulada de Nutrispa: 5 CS corn 30lb, 2 CS green beans 22lb, 1 CS spinach 24lb.",
+      "tags": ["carga", "foto"]
+    },
+    {
+      "step_order": 2,
+      "name": "Ajustar corn y spinach",
+      "message_file": "02-editar-cantidades.txt",
+      "isolated_message_file": "02-editar-cantidades-aislado.txt",
+      "expected_tools_any": ["edit_order_for_client", "load_seller_order_text"],
+      "expected_skus": ["89090009", "89090038"],
+      "expected_behavior": "Subir corn a 6 CS y spinach a 2 CS en el pedido de Nutrispa.",
+      "tags": ["edicion"]
+    },
+    {
+      "step_order": 3,
+      "name": "Consultar pedido",
+      "message_file": "03-consultar-pedido.txt",
+      "isolated_message_file": "03-consultar-pedido-aislado.txt",
+      "expected_tools_any": ["get_open_order_status_for_client"],
+      "expected_skus": [],
+      "expected_behavior": "Resumir pedido Nutrispa con corn 6, green beans 2, spinach 2.",
+      "tags": ["consulta"]
+    }
+  ]
+}

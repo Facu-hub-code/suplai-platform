@@ -1,0 +1,16 @@
+{
+  "name": "[Real] Pedido Powerfuel #2 — fresa y piña",
+  "sequential_order": 5,
+  "message_file": "mensaje.txt",
+  "client_identifier": "POWERFUEL SMOOTHIE SHOP 2 INC.",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "set_seller_selected_client",
+    "get_seller_client_details",
+    "load_seller_order_text",
+    "edit_order_for_client"
+  ],
+  "expected_skus": ["736952196071", "736952201546"],
+  "expected_behavior": "Identificar Powerfuel Smoothie Shop 2, interpretar pedido mínimo (1 fresa, 1 piña) mapeando a formatos smoothie del catálogo (bolsas Benfresh 0.75lb) y cargar al pedido.",
+  "tags": ["real", "powerfuel", "smoothie", "texto-libre"]
+}

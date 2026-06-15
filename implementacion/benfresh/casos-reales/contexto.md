@@ -13,8 +13,8 @@ Automatizar la carga usando el **agente asistente de vendedor**:
 1. El operador (o el mismo vendedor con perfil seller) recibe el reenvío en el WhatsApp del agente.
 2. Identifica al **cliente** (`set_seller_selected_client` / `get_seller_client_details`).
 3. Interpreta el contenido:
-   - **Texto libre** con cantidades y productos → `resolve_free_text_order`
-   - **Foto de lista** (manuscrita o captura) → visión + `resolve_free_text_order` o búsqueda + `create_order_for_client`
+   - **Texto libre** con cantidades y productos → `load_seller_order_text`
+   - **Foto de lista** (manuscrita o captura) → visión + `load_seller_order_text` (texto OCR en el mensaje)
 4. Confirma o ajusta con el operador.
 5. Cierra con `confirm_order_for_client` cuando corresponda.
 
@@ -24,8 +24,31 @@ Automatizar la carga usando el **agente asistente de vendedor**:
 |---------|----------------|
 | `01-owner-angeles-delivery-hoy` | Mensaje real del dueño: cliente ANGELES, delivery hoy, sweetcorn/green peas/fajitas |
 | `02-owner-rey-chavez-miercoles` | Mensaje real del dueño: Rey Chavez 1, entrega miércoles, mamey/strawberry/mix berry/passion |
+| `03-sergios-carrot-broccoli` | Sergio's Catering: carrot sliced 20lb, 4 vegetales, broccoli 22lb |
+| `04-nutrispa-foto-lista` | Nutrispa: foto WhatsApp con corn 30lb, green beans 22lb, spinach 24lb (OCR simulado) |
+| `05-powerfuel-fresa-pina` | Powerfuel #2: pedido mínimo smoothie (1 fresa, 1 piña) |
+| `06-dixie-black-beans-mix` | Dixie: black beans, plantains, mixed vegetables, green beans, sofrito |
 
 Los casos sintéticos de diseño anterior están en `casos-archivados/`.
+
+## Journeys multi-paso (`../journeys/`)
+
+Cada caso real 03–06 tiene un **journey** con pasos encadenados: carga → edición de cantidades → consulta.
+
+| Journey | Pasos |
+|---------|-------|
+| `03-sergios-carrot-broccoli` | carga → broccoli 40 → +2 carrot → consulta |
+| `04-nutrispa-foto-lista` | foto → corn 6 / spinach 2 → consulta |
+| `05-powerfuel-fresa-pina` | carga → 2 fresas → quitar piña → consulta |
+| `06-dixie-black-beans-mix` | carga → mix/green beans → +1 sofrito → consulta |
+
+```bash
+# Encadenado (misma sesión por escenario)
+python scripts/test_agent_e2e.py --schema benfresh --suite journey --seller --journey-mode chained
+
+# Aislado (cleanup por paso; mensajes autocontenidos en ediciones)
+python scripts/test_agent_e2e.py --schema benfresh --suite journey --seller --journey-mode isolated
+```
 
 ## Cómo agregar casos nuevos
 
