@@ -1,0 +1,308 @@
+Producto Nombre,Producto Codigo,Categoria,Precio,Stock
+Chinchulin,AFTE0020,Achuras,$10.990.00,7.88
+Chinchulin (C),AFTE0020 (C),Achuras,"$10,990.00",8.02
+Molleja,AFTE0007,Achuras,"$40,990.00",6.70
+Molleja (C),AFTE0007 (C),Achuras,"$40,990.00",3.25
+Bondiola Magret EV,AFCE0103,Al Fuego,"$14,417.27",4.94
+Chorizo x 4un Magret EV x 400gr,AFCE0108,Al Fuego,"$13,940.78",0.80
+Enemigo cab-franc x750 ,AFBO0203,Al Fuego,"$31,600.00",3.00
+Enemigo malbec x750,AFBO0202,Al Fuego,"$31,600.00",1.00
+Jamon crudo feteado env vacio x kg,VACO0195,Al Fuego,"$60,476.15",0.72
+Jamon crudo trozo en vacio x kg,VACO0194,Al Fuego,"$55,623.50",0.68
+Luca Beso de Dante,VINO0173,Al Fuego,"$48,400.00",6.00
+Luca malbec,VINO0172,Al Fuego,"$33,700.00",5.00
+Luca pinot noir,VINO0171,Al Fuego,"$28,700.00",5.00
+Matambre de cerdo Magret,AFCE0102,Al Fuego,"$27,654.17",10.58
+Pizza 4 quesos Luco,DELI0035,Al Fuego,"$12,000.00",3.00
+Pizza Especial Luco,DELI0034,Al Fuego,"$12,000.00",3.00
+Pizza Fugazzetta Luco,DELI0036,Al Fuego,"$12,000.00",3.00
+Pizza Muzzarella Luco,DELI0037,Al Fuego,"$11,500.00",3.00
+Salsa Barbacoa,AFDE0159,Al Fuego,$0.00,-1.00
+Sorrentinos Premium Molleja al verdeo,DELI0038,Al Fuego,"$18,900.00",1.00
+Sorrentinos premium camarones al limón,DELI0039,Al Fuego,"$16,100.00",2.00
+Sorrentinos premium salmón al limón,DELI0040,Al Fuego,"$16,100.00",2.00
+los sauces piel y hueso,VACO0235,Al Fuego,"$20,000.00",2.00
+naranjo piel y hueso,VACO0233,Al Fuego,"$30,000.00",2.00
+rosado primero piel y hueso,VACO0236,Al Fuego,"$25,000.00",3.00
+señor piel y hueso,VACO0234,Al Fuego,"$32,000.00",3.00
+Coca Cola Vid. x 350cc,AFBE0050,Bebida,$0.00,48.00
+Coca Cola x 1.5Lt,AFBE0001,Bebida,"$4,502.92",11.00
+Coca Zero Lata x 354CC,AFBE0015,Bebida,"$1,900.00",7.00
+Coca Zero x 1.5Lt,AFBE0004,Bebida,"$4,502.92",6.00
+Fanta Naranja x 1.5Lt,AFBE0002,Bebida,"$4,238.04",10.00
+Schweppes Pomelo x 1.5Lt,AFBE0013,Bebida,"$3,827.91",6.00
+Schweppes Tonica x 1.5Lt,AFBE0010,Bebida,$0.00,12.00
+Sprite Lata x 354CC,AFBE0018,Bebida,"$1,400.00",11.00
+coca 500 ml ,VACO0178,Bebida,"$1,600.00",35.00
+coca cola 1L ,VACO0177,Bebida,"$3,600.00",15.00
+coca cola 2.25 L ,VACO0175,Bebida,"$6,000.00",4.00
+coca cola vidrio ret 350 ml ,VACO0174,Bebida,"$2,500.00",-1.00
+coca zero 2.25 L,VACO0176,Bebida,"$6,000.00",3.00
+coca zero 500 ml ,VACO0179,Bebida,"$1,600.00",20.00
+sprite 2.25 L ,VACO0171,Bebida,"$5,700.00",4.00
+sprite 500 ml ,VACO0172,Bebida,"$1,600.00",11.00
+sprite lata 230 ml ,VACO0173,Bebida,"$1,300.00",12.00
+Champagne Salentein Brut Nature,VACO0091,Bebidas Whisky,"$13,600.00",11.00
+Champagne Salentein Extra Brut,VACO0092,Bebidas Whisky,"$13,600.00",4.00
+Champagne las perdices brut nature,VACO0090,Bebidas Whisky,"$14,100.00",6.00
+Fernet Branca,VACO0084,Bebidas Whisky,"$15,400.00",11.00
+Ramazotti,VACO0082,Bebidas Whisky,"$8,700.00",18.00
+Vodka Sky,VACO0085,Bebidas Whisky,"$10,700.00",13.00
+Whisky black label,VACO0088,Bebidas Whisky,"$10,000.00",6.00
+Whisky jack daniels,VACO0089,Bebidas Whisky,"$10,000.00",6.00
+Whisky red label,VACO0087,Bebidas Whisky,"$10,000.00",6.00
+Al Al Pasión Sauvignon Blanc,VACO0138,Bodega,"$21,280.00",6.00
+Al Pasión Cabernet Franc,VACO0140,Bodega,"$52,500.00",9.00
+Al Pasión Cabernet Sauvignon,VACO0137,Bodega,"$21,280.00",12.00
+Al Pasión Grand Malbec,VACO0139,Bodega,"$52,500.00",5.00
+Al Pasión Malbec,VACO0136,Bodega,"$21,280.00",11.00
+Al Pasión Petit Verdot,VACO0141,Bodega,"$10,000.00",6.00
+Angelica Cabernet Franc,VACO0121,Bodega,"$39,000.00",7.00
+Angelica Cabernet Sauvignon,VACO0120,Bodega,"$39,000.00",11.00
+Angelica Malbec,VACO0119,Bodega,"$43,000.00",9.00
+Angélica Zapata Cabernet Franc 750 cc,AFBO0100,Bodega,$0.00,12.00
+Angélica Zapata Cabernet Sauvignon 750 cc,AFBO0126,Bodega,$0.00,12.00
+Angélica Zapata Chardonnay 750 cc,AFBO1024,Bodega,$0.00,8.00
+Angélica Zapata Malbec 750 cc,AFBO1025,Bodega,$0.00,20.00
+Angélica Zapata Merlot 750 cc,AFBO0099,Bodega,$0.00,16.00
+As de Bravas,VACO0135,Bodega,"$105,000.00",5.00
+Capitulo 1 Cabernet Franc Los Chacayes,VACO0152,Bodega,"$19,000.00",5.00
+Capitulo 1 Cabernet Sauvignon Vista,VACO0153,Bodega,"$19,000.00",4.00
+Capitulo 1 Malbec Los Chacayes,VACO0151,Bodega,"$19,000.00",5.00
+Capitulo 1 Malbec Vista Flores,VACO0150,Bodega,"$19,000.00",2.00
+Capitulo 1 Petit Verdot Los Chacayes,VACO0154,Bodega,"$19,000.00",2.00
+Capitulo 1 Tempranillo Chilecito,VACO0155,Bodega,"$19,000.00",5.00
+Capitulo 2 Malbec Cabernet Franc,VACO0156,Bodega,"$33,000.00",15.00
+Chaman Gewusrtaminner,VACO0133,Bodega,"$22,300.00",12.00
+Chaman Red Blend,VACO0132,Bodega,"$20,800.00",15.00
+Corlieri,VACO0162,Bodega,"$3,400.00",2.00
+Cos de Cal,VACO0134,Bodega,"$59,000.00",10.00
+DV Catena Cab-Malb x 750cc,AFBO0067,Bodega,"$22,000.00",22.00
+DV Catena Cabernet Cabernet,VACO0112,Bodega,"$25,200.00",12.00
+DV Catena Chardonnay,VACO0113,Bodega,"$20,500.00",2.00
+DV Catena Chardonnay Chardonnay 750 cc,AFBO1027,Bodega,$0.00,6.00
+DV Catena Malbec Malbec,VACO0110,Bodega,"$25,200.00",17.00
+DV Catena Malbec Malbec 750cc,AFBO0022,Bodega,"$25,200.00",22.00
+DV Catena Pinot Noir - Pinot Noir 750cc,AFBO0124,Bodega,$0.00,18.00
+DV Lesplorator La Rioja,VACO0118,Bodega,"$35,700.00",11.00
+DV Lesplorator Salta ,VACO0117,Bodega,"$35,700.00",10.00
+Domaine Edem No7,VACO0116,Bodega,"$20,300.00",11.00
+Domaine Edem blonde,VACO0114,Bodega,"$21,500.00",6.00
+Domaine edem Brunnette,VACO0115,Bodega,"$17,800.00",6.00
+Enemigo Cabernet Franc ,VACO0144,Bodega,"$31,600.00",5.00
+Enemigo Malbec,VACO0142,Bodega,"$31,600.00",7.00
+Etcetera Semillon Chilecito,VACO0159,Bodega,"$16,300.00",12.00
+Etcétera Pinot Noir,VACO0149,Bodega,"$16,300.00",9.00
+Etcétera Tocai Vista Flores,VACO0160,Bodega,"$16,300.00",11.00
+Etcétera Torrontes Valle Famatina,VACO0161,Bodega,"$16,300.00",8.00
+Gran Enemigo Blend,VACO0148,Bodega,"$66,700.00",6.00
+Gran Enemigo Cepillo,VACO0147,Bodega,"$66,700.00",4.00
+Gran Enemigo Chacayes,VACO0146,Bodega,"$66,700.00",5.00
+Gran Enemigo Gualtallary,VACO0145,Bodega,"$66,700.00",5.00
+Lo Sance Blend Cab Franc,VACO0128,Bodega,"$25,999.82",12.00
+Lo Sance Brut Nature,VACO0125,Bodega,"$20,200.00",6.00
+Lo Sance Chenin,VACO0127,Bodega,"$16,600.00",4.00
+Lo Sance Extra Brut,VACO0124,Bodega,"$20,200.00",9.00
+Lo Sance Rosado,VACO0126,Bodega,"$20,200.00",5.00
+Relator Cabernet Franc,VACO0131,Bodega,"$17,900.00",11.00
+Relator Malbec,VACO0129,Bodega,"$17,900.00",8.00
+Saint Felicien Cabernet Franc,VACO0108,Bodega,"$13,500.00",9.00
+Saint Felicien Cabernet Sauvignon,VACO0107,Bodega,"$13,500.00",9.00
+Saint Felicien Cabernet-Merlot x 750cc,AFBO0020,Bodega,"$13,500.00",15.00
+Saint Felicien Chardonnay,VACO0109,Bodega,"$13,500.00",5.00
+Saint Felicien Chardonnay 750 cc,AFBO1036,Bodega,$0.00,6.00
+Saint Felicien Malbec,VACO0105,Bodega,"$13,500.00",19.00
+Saint Felicien Malbec 750cc,AFBO0023,Bodega,"$13,500.00",26.00
+Son Vida Cabernet Sauvignon,VACO0123,Bodega,"$23,000.00",16.00
+Son Vida Malbec,VACO0122,Bodega,"$23,000.00",6.00
+Tabanera Grand Blend,VACO0158,Bodega,"$46,400.00",5.00
+luigi bosca de sangre malbec x 750ml,AFVA0165,Bodega,"$18,400.00",11.00
+Costillitas Ribbs,AFCE0009,Cerdo,"$14,501.58",4.49
+Corona Bot x 330CC,AFBO0060,Cervezas,"$4,000.00",20.00
+Imperial Ipa  Lata 473 cc,AFCV0005,Cervezas,$0.00,16.00
+Imperial Lager Lata 473 cc,AFCV0001,Cervezas,$0.00,18.00
+Imperial Stout Lata 473 cc,AFCV0002,Cervezas,"$2,900.00",12.00
+ chimichurri el viajero 310gr ,AFDE0201,Delicatessen,"$9,700.00",3.00
+Aceite de oliva Arauco x 250ml,AFDE0170,Delicatessen,"$22,300.00",5.00
+Aceite de oliva Genovesa x 500ml,AFDE0173,Delicatessen,"$28,900.00",8.00
+Aceite de oliva arauco x 500ml,AFDE0171,Delicatessen,"$42,000.00",2.00
+Ajíes Dulces en Vinagre x 300gr,AFDE0040,Delicatessen,"$6,500.00",2.00
+Berenjenas en Escabeche x 310gr,AFDE0041,Delicatessen,"$7,000.00",3.00
+Cubanitos Caprice x 115gr,AFDE0055,Delicatessen,"$6,900.00",1.00
+Dientes de Ajo Negro Garlic x 60gr,AFDE0110,Delicatessen,"$8,000.00",3.00
+Heinz Sweet Relish x 375gr,AFDE0063,Delicatessen,"$14,300.00",3.00
+Hummus Baba Ganush x 170gr,AFDE0155,Delicatessen,"$5,500.00",3.00
+Hummus Higos Turcos x 170gr,AFDE0153,Delicatessen,"$5,500.00",5.00
+Hummus Zanahorias Asadas x 170gr,AFDE0152,Delicatessen,"$5,500.00",4.00
+Lindt Chocolate Classic Con Leche x 100gr,AFDE0082,Delicatessen,"$17,200.00",6.00
+Lindt Chocolate Excellence 70% x 100gr,AFDE0083,Delicatessen,"$17,700.00",6.00
+M&M Mani con Chocolate x 150gr,AFDE0115,Delicatessen,"$12,700.00",8.00
+M&M confite chocolate x 150gr,AFDE0174,Delicatessen,"$12,700.00",2.00
+Molinillo Mix Pimientas x 50gr,AFDE0087,Delicatessen,"$7,865.60",13.00
+Molinillo Pimienta Negra x 55gr,AFDE0088,Delicatessen,"$7,100.00",15.00
+Molinillo Sal Marina Gruesa x 110gr,AFDE0091,Delicatessen,"$5,206.39",15.00
+Mostaza Dijon 200 Grs.,AFDE0002,Delicatessen,$0.00,5.00
+Pepinos Agridulces x 310gr,AFDE0042,Delicatessen,"$7,419.60",4.00
+Porotos Condimentados En Aceite x 310gr,AFDE0044,Delicatessen,"$7,297.60",4.00
+Pringles Cebolla 109gr,AFDE0211,Delicatessen,"$6,300.00",15.00
+Pringles Chedar & Bacon 105gr,AFDE0233,Delicatessen,"$6,300.00",15.00
+Pringles Original 109gr,AFDE0210,Delicatessen,"$5,600.00",9.00
+Pringles Original x 37gr,AFDE0150,Delicatessen,"$6,300.00",9.00
+Pringles Queso 109gr,AFDE0212,Delicatessen,"$6,300.00",15.00
+Sal Marina Entrefina con Especias x 350gr,AFDE0033,Delicatessen,"$3,760.00",9.00
+Sal Marina Entrefina x 500gr,AFDE0034,Delicatessen,"$2,600.00",6.00
+Sal Marina Fina x 500gr,AFDE0035,Delicatessen,"$2,548.78",9.00
+Sal de campo 5 pimientas,VACO0165,Delicatessen,"$5,200.00",5.00
+Sal de campo ahumada,VACO0166,Delicatessen,"$4,500.00",7.00
+Sal de campo especial,VACO0169,Delicatessen,"$7,200.00",3.00
+Sal de campo fina,VACO0164,Delicatessen,"$3,000.00",5.00
+Sal de campo light,VACO0170,Delicatessen,"$6,900.00",3.00
+Sal de campo marina con especias,VACO0167,Delicatessen,"$4,600.00",3.00
+Sal de campo marina sin especias,VACO0168,Delicatessen,"$3,400.00",3.00
+Sal de campo tradicional,VACO0163,Delicatessen,"$3,500.00",8.00
+sal agua saborizada levite naranja 1.5 l,VASN0008,Delicatessen,$0.00,6.00
+Branca 750cc,AFAP0001,Destilados,"$18,000.00",72.00
+Campari x 750cc,AFBO0047,Destilados,"$9,500.00",24.00
+Vodka Absolut x 750 cc.,AFDS0017,Destilados,"$15,000.00",12.00
+Whisky J. Walker Black x 750cc,AFWKY007,Destilados,"$57,200.00",5.00
+Whisky J. Walker Red x 750cc,AFWKY009,Destilados,"$31,700.00",4.00
+Hamburguesa Green Gold casera de 120grs x 4,AFEL0051,Elaborados,"$10,000.00",2.00
+Hamburguesa Green Gold clasica de 80grs x 2,AFEL0050,Elaborados,"$3,000.00",36.00
+BONDIOLA MAGRET GRANEL,AFCE0103G,Granel-MP,$0.00,5.90
+CHINCHULIN BOVINO (EN BOLSA),BOBOCHIBO,Granel-MP,$0.00,14.05
+CHURRASCO MAGRET GRANEL,AFCE0106G,Granel-MP,$0.00,5.89
+DENVER SETEACK GRANEL,AFTE0099GRANEL,Granel-MP,$0.00,10.48
+MOLLEJA DE TERNERA (EN BOLSA),BOBOMOTE,Granel-MP,$0.00,7.08
+PICAÑA DE TERNERA (EN BOLSA),BOBOPITE,Granel-MP,$0.00,9.90
+VACIO DE TERNERA (EN BOLSA),BOBOVATE,Granel-MP,$0.00,15.81
+Iniciador de Fuego Penicas x 9un,AFVA0100,Kamado & Accesorios Para El Asado,"$2,100.00",-1.00
+BONDIOLA EN TROZO (AL VACÍO)DON RAMON,VACO0103,Lacteos,"$42,852.15",0.95
+BONDIOLA FETEADA (AL VACÍO)DON RAMON,VACO0104,Lacteos,"$47,758.88",0.51
+Brie Formagge x 100gr,AFLA0070,Lacteos,"$9,400.00",49.00
+Corazon de Gouda Formagge x 210gr ,AFLA0080,Lacteos,"$9,690.00",63.00
+Provoleta Mediterranea Formagge x 220gr,AFLA0076,Lacteos,"$7,200.00",2.00
+Provoleta Napolitana Formagge x 220gr,AFLA0075,Lacteos,"$7,200.00",7.00
+Provoleta Parrillera Formagge x 450gr,AFLA0074,Lacteos,"$12,000.00",12.00
+Provoleta Tres Pimientas Formagge x 220gr,AFLA0077,Lacteos,"$7,200.00",2.00
+Provoleta de cabra Formagge,VARI0002,Lacteos,$0.00,10.00
+Provolone Patagonico Formagge x 220gr,AFLA0078,Lacteos,"$8,000.00",10.00
+SALAME COCIDO (AL VACÍO)DON RAMON,VACO0101,Lacteos,"$44,501.36",0.80
+SALAME EN GRASA (AL VACÍO)DON RAMON,VACO0102,Lacteos,"$48,044.99",0.78
+SALAME PELADO (AL VACÍO)DON RAMON,VACO0100,Lacteos,"$51,420.00",2.39
+Salame RE envasado al vacío,VACO0001,Lacteos,"$69,650.00",2.43
+Carbon x 4 Kg,AFVA0031,Leña - Carbon,"$4,400.00",-1.00
+carbón mezcla pura 4kg,VACO0181,Leña - Carbon,"$4,600.00",5.00
+leña quebracho puro 6kg,VACO0183,Leña - Carbon,"$8,400.00",16.00
+7up 500ml,VACO0205,Pescados,"$2,200.00",5.00
+Agua Villavicencio 1.5 L,VACO0035,Pescados,"$2,500.00",20.00
+Agua Villavicencio 500ml,VACO0034,Pescados,"$1,900.00",12.00
+Arrollados de pollo FazzioFazzio,VACO0023,Pescados,"$16,800.00",2.00
+Atún rojoFazzio,VACO0024,Pescados,"$56,700.00",3.00
+Bandeja servir asado 42x20El Mansero,VACO0040,Pescados,"$18,400.00",4.00
+Bandeja servir asado 50x25El Mansero,VACO0038,Pescados,"$30,000.00",3.00
+Bullseye BBQ,VACO0213,Pescados,"$12,500.00",3.00
+Caja empanada mariscoFazzio,VACO0013,Pescados,"$30,200.00",3.00
+Caja empanada pescadoFazzio,VACO0014,Pescados,"$30,200.00",7.00
+CalamaretesFazzio,VACO0004,Pescados,"$25,200.00",1.00
+Camarones peladosFazzio,VACO0007,Pescados,"$32,700.00",4.00
+Canelones de mariscoFazzio,VACO0017,Pescados,"$44,100.00",2.00
+Cazuela de mariscos cocinadaFazzio,VACO0016,Pescados,"$37,800.00",1.00
+Coca cola vidrio 237ml,VACO0029,Pescados,"$2,000.00",24.00
+Combo paellaFazzio,VACO0012,Pescados,"$49,100.00",2.00
+Cuchillo n16El Mansero,VACO0052,Pescados,"$36,000.00",1.00
+Filet de merluza Fazzio,VACO0008,Pescados,"$17,640.00",4.00
+Filet galloFazzio,VACO0011,Pescados,"$17,640.00",2.00
+Filet salmónFazzio,VACO0021,Pescados,"$77,200.00",9.00
+Filet trucha despinadaFazzio,VACO0022,Pescados,"$35,280.00",1.00
+Grillero verduraEl Mansero,VACO0058,Pescados,"$22,200.00",1.00
+Hacha cheffEl Mansero,VACO0051,Pescados,"$34,800.00",1.00
+Heineken Litro,VACO0037,Pescados,"$6,520.00",14.00
+Heinz ketchup con jalapeño,VACO0216,Pescados,"$9,500.00",4.00
+Juego cuchillo y tenedorEl Mansero,VACO0049,Pescados,"$28,600.00",2.00
+KRAFT mac cheese 206G,VACO0214,Pescados,"$6,700.00",4.00
+KRAFT salsa BBQ pet,VACO0215,Pescados,"$10,200.00",2.00
+KanikamaFazzio,VACO0027,Pescados,"$30,200.00",2.00
+LEA & PERRINS salsa Worcestershire,VACO0217,Pescados,"$12,600.00",4.00
+Langostinos peladosFazzio,VACO0005,Pescados,"$37,800.00",5.00
+Lata Blue Moon,VACO0032,Pescados,"$4,000.00",17.00
+Lata HeinekeN,VACO0030,Pescados,"$3,800.00",13.00
+Mejillones peladosFazzio,VACO0006,Pescados,"$17,600.00",3.00
+Milanesas de merluza finas hierbasFazzio,VACO0025,Pescados,"$19,600.00",2.00
+Milanesas de merluzaFazzio,VACO0019,Pescados,"$20,160.00",5.00
+Milanesas de pollloFazzio,VACO0020,Pescados,"$18,200.00",4.00
+Mix Mariscos surtidosFazzio,VACO0002,Pescados,"$32,700.00",4.00
+Monjita Blue Moon,VACO0033,Pescados,"$4,760.00",60.00
+Monjita Heineken,VACO0031,Pescados,"$3,700.00",37.00
+Monjita Imperial golden,VACO0036,Pescados,"$2,600.00",28.00
+Pack Brochettes de salmónFazzio,VACO0018,Pescados,"$30,240.00",1.00
+Paella cocinadaFazzio,VACO0015,Pescados,"$27,700.00",1.00
+Parmesano corazón de hormaFormagge,VACO0075,Pescados,"$16,200.00",2.00
+Pizza envasada al vacio fugazettaPIZZA NAPLES,VACO0078,Pescados,"$12,700.00",1.00
+Pizza envasada al vacío especial con jamónPIZZA NAPLES,VACO0079,Pescados,"$13,500.00",3.00
+Pizza envasada al vacío muzzarellaPIZZA NAPLES,VACO0077,Pescados,"$12,700.00",2.00
+Planchetita con tapaEl Mansero,VACO0045,Pescados,"$38,000.00",3.00
+Provoleta de cabra Formagge,VACO0074,Pescados,"$10,000.00",5.00
+Provolone parrileroFormagge,VACO0076,Pescados,"$12,300.00",-1.00
+RabasFazzio,VACO0003,Pescados,"$35,200.00",6.00
+Rodajas de surubíFazzio,VACO0009,Pescados,"$25,200.00",2.00
+Salmón blancoFazzio,VACO0026,Pescados,"$22,600.00",1.00
+Set TramontinaEl Mansero,VACO0053,Pescados,"$10,000.00",2.00
+Set cuchillo y tenedor chicoEl Mansero,VACO0056,Pescados,"$36,500.00",2.00
+Set cuchillo y tenedor n23El Mansero,VACO0055,Pescados,"$42,300.00",2.00
+Set parrilero pala y atizadorEl Mansero,VACO0059,Pescados,"$10,000.00",-1.00
+SmasherEl Mansero (copia),VACO0057,Pescados,"$15,000.00",1.00
+Sobres salmón ahumadoFazzio,VACO0028,Pescados,"$12,300.00",1.00
+Tabla 20x30 guayubiraEl Mansero,VACO0044,Pescados,"$33,400.00",3.00
+Tabla 30x15El Mansero,VACO0043,Pescados,"$26,600.00",12.00
+Tabla 30x60 KiriEl Mansero,VACO0042,Pescados,"$76,200.00",4.00
+Tabla picada 60x15El Mansero,VACO0039,Pescados,"$25,000.00",3.00
+corona 710cc,VACO0201,Pescados,"$7,500.00",1.00
+lata pepsi,VACO0210,Pescados,"$1,900.00",29.00
+monjita stella artois,VACO0211,Pescados,"$2,300.00",7.00
+paso de los toros 500ml,VACO0203,Pescados,"$2,050.00",4.00
+pepsi 2L,VACO0212,Pescados,"$4,500.00",-1.00
+pepsi 500ml,VACO0204,Pescados,"$2,200.00",11.00
+red bull,VACO0206,Pescados,"$5,710.00",4.00
+red bull 350,VACO0207,Pescados,"$6,000.00",3.00
+red bull sugar free,VACO0208,Pescados,"$4,230.00",3.00
+red bull summer edition,VACO0209,Pescados,"$4,230.00",9.00
+Destapador aguja,VARI0007,Resto,"$17,600.00",1.00
+Destapador común,VARI0010,Resto,"$4,000.00",5.00
+Enfriador y pico servidor,VARI0009,Resto,"$27,200.00",1.00
+Tapón vacio,VARI0008,Resto,"$11,000.00",2.00
+Arañita Vacuna,AFTE0029,Vacuno,"$18,990.00",7.82
+Asado Banderita(6 costillas),AFTE0085,Vacuno,"$33,990.00",7.49
+Asado en tiras (6 costillas),AFTE0092,Vacuno,"$33,990.00",1.54
+Asado en tiras (6 costillas)(C),AFTE0092(C),Vacuno,"$32,990.00",1.66
+Asado tira ancha (6 costillas),AFTE0091,Vacuno,"$33,990.00",10.07
+Asado tira ancha (6 costillas)(C),AFTE0091(C),Vacuno,"$32,990.00",4.87
+Bife de Chorizo,AFTE0005,Vacuno,"$43,990.00",16.88
+Centro de asado marcado al medio (6 costillas)(C),AFTE0090(C),Vacuno,"$32,990.00",8.13
+Colita de Cuadril,AFTE0003,Vacuno,"$22,990.00",4.91
+Denver Steak,AFTE0099,Vacuno,"$16,990.00",13.53
+Entraña,AFTE0012,Vacuno,"$39,990.00",3.65
+Entraña estancia CP,AFTE0999,Vacuno,"$34,990.00",12.97
+Hookipa beef,AFTE0100,Vacuno,"$20,990.00",11.71
+Lomo Estancia CP,AFTE0086,Vacuno,"$37,990.00",10.29
+Matambre,AFTE0011,Vacuno,"$14,990.00",7.72
+Media Luna De Vacio,AFTE0067,Vacuno,"$39,990.00",14.52
+Mustang Steak,AFTE0069,Vacuno,"$44,990.00",10.26
+Nalga Porcionada,AFTE0045,Vacuno,"$22,990.00",12.68
+Ojo de Bife,AFTE0006,Vacuno,"$44,990.00",7.71
+Picaña,AFTE0002,Vacuno,"$32,990.00",23.10
+Tapa De Vacio,AFTE0068,Vacuno,"$37,990.00",6.13
+Tapa de Asado ,AFTE0052,Vacuno,"$19,990.00",10.33
+Tomahawk,AFTE0023,Vacuno,"$35,990.00",5.64
+Vacio,AFTE0010,Vacuno,"$23,990.00",21.68
+Maderita iniciadoras de fuego,AFVA0206,Ventas,"$2,100.00",9.00
+Parrilla 80x50 Acero Inox,VAPA0024,Ventas,"$330,000.00",1.00
+Parrilla 95x58 Acero Inox,VAPA0023,Ventas,"$423,000.00",2.00
+Set Palitas Acero Inox,VAPA0025,Ventas,"$130,000.00",2.00
+cuchilla resina equipos cacique artesanal ,VACO0187,Ventas,"$34,800.00",4.00
+juego doble cacique artesanal,VACO0185,Ventas,"$27,800.00",4.00
+juego parrillero cacique artesanal ,VACO0188,Ventas,"$39,000.00",2.00
+Morcilla bombom magret EV x 400 gr,AFCE0111,Otros,"$10,377.11",2.80
+luco ravioles de pollo,VACO0227,Otros,"$8,500.00",1.00
+luco sorrentinos bondiola de cerdo,VACO0221,Otros,"$16,500.00",1.00
+luco sorrentinos osobuco al malbec,VACO0222,Otros,"$16,500.00",1.00
+luco ñoquis de papa,VACO0223,Otros,"$7,000.00",1.00

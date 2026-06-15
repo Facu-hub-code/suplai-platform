@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: e8261700-ca7c-4091-b5b3-7aa9e9d31e08 nombre: Al Fuego
+schema_existe,Tablas en al_fuego,ok,33 tablas verificadas via list_tables MCP
+productos_vacio,COUNT productos = 0,ok,0 productos
+clients_vacio,COUNT clients = 0,ok,0 clientes
+mcp_conectado,MCP supabase responde,ok,conectado proyecto nxmeezcvjltlqfybbczt
+carpeta_implementacion,manifest.yaml presente,ok,implementacion/al_fuego/ creada desde _template
+is_mock_column,Columna is_mock en productos,pendiente,columna ausente; blocked.is_mock_migration=true; Fase 10 bloqueada
+excel_presente,Archivo en inputs/,ok,inputs/LDP-AlFuego.csv (307 filas producto)

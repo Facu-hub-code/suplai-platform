@@ -166,7 +166,7 @@ Tabla: `{tenant}.promociones_semanales`.
 
 ## Prerequisito técnico
 
-Migración backend pendiente: columna `is_mock` en tablas tocadas + endpoint/script de purga. Hasta entonces: CSV lleva `is_mock=true` y `manifest.yaml` registra `blocked: is_mock_migration` para Fase 10.
+Migración: [`docs/implementacion/migrations/20260615_add_is_mock_columns_demo_and_tenants.sql`](migrations/20260615_add_is_mock_columns_demo_and_tenants.sql) — columna `is_mock` en `demo` (plantilla) y tablas tocadas por el onboarding. Aplicar vía Supabase MCP (sin `read_only`) o SQL Editor. Hasta aplicarla: CSV lleva `is_mock=true` y `manifest.yaml` registra `blocked: is_mock_migration` para Fase 10.
 
 ## Salidas por fase
 
