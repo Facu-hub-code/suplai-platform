@@ -1,0 +1,7 @@
+Cliente Nutrispa
+Pedido:
+- FZ CORN 30 LB - 5 CS
+- FZ GREEN BEANS 22 LB - 2 CS
+- FZ SPINACH 24 LB - 1 CS
+
+Corrección: corn a 6 CS y spinach a 2 CS.

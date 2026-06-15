@@ -1,0 +1,52 @@
+{
+  "name": "Sergio's — carga, edición y consulta",
+  "slug": "03-sergios-carrot-broccoli",
+  "order": 1,
+  "source_case": "03-sergios-carrot-broccoli",
+  "client_identifier": "SERGIO'S CATERING",
+  "steps": [
+    {
+      "step_order": 1,
+      "name": "Carga inicial del pedido",
+      "message_file": "01-carga-inicial.txt",
+      "expected_tools_any": [
+        "set_seller_selected_client",
+        "load_seller_order_text",
+        "edit_order_for_client"
+      ],
+      "expected_skus": ["89090029", "736952201911", "74987455943"],
+      "expected_behavior": "Identificar Sergio's Catering y cargar carrot sliced 10, 4 vegetales 15 y broccoli 53.",
+      "tags": ["carga"]
+    },
+    {
+      "step_order": 2,
+      "name": "Reducir broccoli a 40 cajas",
+      "message_file": "02-editar-broccoli.txt",
+      "isolated_message_file": "02-editar-broccoli-aislado.txt",
+      "expected_tools_any": ["edit_order_for_client", "load_seller_order_text"],
+      "expected_skus": ["74987455943"],
+      "expected_behavior": "Ajustar cantidad de broccoli a 40 en el pedido abierto de Sergio's.",
+      "tags": ["edicion"]
+    },
+    {
+      "step_order": 3,
+      "name": "Sumar 2 cajas carrot sliced",
+      "message_file": "03-agregar-carrot.txt",
+      "isolated_message_file": "03-agregar-carrot-aislado.txt",
+      "expected_tools_any": ["edit_order_for_client", "load_seller_order_text"],
+      "expected_skus": ["89090029"],
+      "expected_behavior": "Agregar 2 cajas más de carrot sliced 20lb al pedido de Sergio's.",
+      "tags": ["edicion"]
+    },
+    {
+      "step_order": 4,
+      "name": "Consultar pedido abierto",
+      "message_file": "04-consultar-pedido.txt",
+      "isolated_message_file": "04-consultar-pedido-aislado.txt",
+      "expected_tools_any": ["get_open_order_status_for_client", "get_seller_selected_client"],
+      "expected_skus": [],
+      "expected_behavior": "Mostrar resumen del pedido de Sergio's con cantidades actualizadas (broccoli 40, carrot 12, 4 veg 15).",
+      "tags": ["consulta"]
+    }
+  ]
+}

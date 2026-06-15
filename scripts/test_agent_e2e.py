@@ -12,6 +12,20 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+from e2e_journeys import (
+    flatten_journey_steps,
+    load_journey_manifest,
+    load_journeys,
+    validate_journey_cases,
+)
+from e2e_real_cases import (
+    expand_real_cases_with_llm,
+    load_manifest,
+    load_real_cases,
+    resolve_sender_phone,
+    validate_real_cases,
+)
+
 # Reconfigure stdout to use UTF-8 on Windows
 if sys.platform.startswith('win'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -21,6 +35,7 @@ OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
 TEST_CLIENT_PHONE = "5491133333333"
+TEST_SELLER_PHONE = os.getenv("E2E_SELLER_PHONE")
 
 # The default set of 29 tools in the system
 ALL_TOOLS = [
@@ -28,10 +43,10 @@ ALL_TOOLS = [
     "get_product_by_code", "get_catalog_link", "list_promotions", "suggest_order_boost",
     "create_order", "list_recent_orders", "get_order_status", "get_open_order_status",
     "edit_order", "confirm_order", "create_distributor_ticket", "manage_contact_agenda",
-    "register_client_location", "create_order_for_client", "list_seller_clients",
+    "register_client_location", "load_seller_order_text", "list_seller_clients",
     "get_seller_client_details", "set_seller_selected_client", "get_seller_selected_client",
     "get_open_order_status_for_client", "edit_order_for_client", "confirm_order_for_client",
-    "suggest_order_boost_for_client", "clear_seller_context", "seller_help", "resolve_free_text_order"
+    "suggest_order_boost_for_client", "clear_seller_context", "seller_help"
 ]
 
 async def ensure_test_client(conn: asyncpg.Connection, schema: str) -> int:
@@ -50,6 +65,122 @@ async def ensure_test_client(conn: asyncpg.Connection, schema: str) -> int:
         )
     print(f"[*] Cliente de prueba 'suplai-platform-test' verificado con éxito (Lista Precios ID: {row['lista_precios_id']}).")
     return row["lista_precios_id"]
+
+async def resolve_client_id_by_identifier(
+    conn: asyncpg.Connection, schema: str, client_identifier: str
+) -> int | None:
+    """Busca cliente por nombre o razón social (ILIKE)."""
+    if not client_identifier:
+        return None
+    pattern = f"%{client_identifier.strip()}%"
+    return await conn.fetchval(
+        f"""
+        SELECT id FROM {schema}.clients
+        WHERE nombre ILIKE $1 OR razon_social ILIKE $1
+        ORDER BY CASE
+          WHEN nombre ILIKE $2 OR razon_social ILIKE $2 THEN 0
+          ELSE 1
+        END
+        LIMIT 1
+        """,
+        pattern,
+        client_identifier.strip(),
+    )
+
+
+async def clear_client_orders_by_id(conn: asyncpg.Connection, schema: str, client_id: int) -> None:
+    await conn.execute(
+        f"""
+        DELETE FROM {schema}.items_pedido
+        WHERE pedido_id IN (SELECT id FROM {schema}.pedidos WHERE cliente_id = $1)
+        """,
+        client_id,
+    )
+    await conn.execute(
+        f"DELETE FROM {schema}.pedidos WHERE cliente_id = $1",
+        client_id,
+    )
+
+
+async def clear_client_orders_by_identifier(
+    conn: asyncpg.Connection, schema: str, client_identifier: str | None
+) -> None:
+    if not client_identifier:
+        return
+    client_id = await resolve_client_id_by_identifier(conn, schema, client_identifier)
+    if not client_id:
+        print(f"[WARN] No se encontró cliente '{client_identifier}' para limpiar pedidos.")
+        return
+    print(f"[*] Limpiando pedidos del cliente '{client_identifier}' (ID: {client_id})...")
+    await clear_client_orders_by_id(conn, schema, client_id)
+
+
+async def clear_session_context(conn: asyncpg.Connection, schema: str, session_phone: str) -> None:
+    tenant_id = await conn.fetchval(
+        "SELECT id::text FROM public.distribuidoras WHERE schema_name = $1",
+        schema,
+    )
+    if not tenant_id:
+        return
+    conv_ids = await conn.fetch(
+        "SELECT id FROM core.conversations WHERE tenant_id = $1::uuid AND session_id = $2",
+        tenant_id,
+        session_phone,
+    )
+    if not conv_ids:
+        return
+    ids = [int(r["id"]) for r in conv_ids]
+    await conn.execute(
+        """
+        DELETE FROM core.followup_sequence_executions
+        WHERE conversation_id = ANY($1::bigint[])
+        """,
+        ids,
+    )
+    await conn.execute(
+        "DELETE FROM core.seller_context WHERE conversation_id = ANY($1::bigint[])",
+        ids,
+    )
+    await conn.execute(
+        "DELETE FROM core.conversation_events WHERE conversation_id = ANY($1::bigint[])",
+        ids,
+    )
+    await conn.execute(
+        "DELETE FROM core.conversations WHERE id = ANY($1::bigint[])",
+        ids,
+    )
+    await conn.execute(
+        "DELETE FROM core.message_buffers WHERE tenant_id = $1::uuid AND session_id = $2",
+        tenant_id,
+        session_phone,
+    )
+    print(f"[*] Contexto core limpiado para sesión {session_phone}.")
+
+
+async def clear_journey_state(
+    conn: asyncpg.Connection,
+    schema: str,
+    *,
+    session_phone: str,
+    client_identifier: str | None,
+) -> None:
+    await clear_client_orders_by_identifier(conn, schema, client_identifier)
+    await clear_session_context(conn, schema, session_phone)
+    try:
+        backend_url = os.getenv("BACKEND_URL", "https://web-production-f544f.up.railway.app").rstrip("/")
+        conv_id = await conn.fetchval(
+            "SELECT id FROM core.conversations WHERE session_id = $1 AND schema_name = $2 LIMIT 1",
+            session_phone,
+            schema,
+        )
+        if conv_id:
+            url = f"{backend_url}/{schema}/conversaciones/{conv_id}/context"
+            resp = requests.delete(url, timeout=30)
+            if resp.status_code == 200:
+                print(f"[*] Contexto API eliminado para conversación {conv_id}.")
+    except Exception as e:
+        print(f"[WARN] Error al limpiar contexto API de journey: {e}")
+
 
 async def clear_test_client_orders(conn: asyncpg.Connection, schema: str):
     """
@@ -101,6 +232,30 @@ async def fetch_catalog_sample(conn: asyncpg.Connection, schema: str, lista_prec
     tags = [dict(r) for r in tag_rows]
     
     return products, tags
+
+
+async def fetch_valid_catalog_skus(
+    conn: asyncpg.Connection, schema: str, lista_precios_id: int | None = None
+) -> set[str]:
+    """SKUs activos con stock. Si hay lista_precios_id, filtra por precio en esa lista."""
+    if lista_precios_id is not None:
+        rows = await conn.fetch(
+            f"""
+            SELECT p.product_code
+            FROM {schema}.productos p
+            JOIN {schema}.precios_productos pp ON p.product_code = pp.product_code
+            WHERE p.en_catalogo = true AND p.stock > 0 AND pp.lista_precios_id = $1
+            """,
+            lista_precios_id,
+        )
+    else:
+        rows = await conn.fetch(
+            f"""
+            SELECT product_code FROM {schema}.productos
+            WHERE en_catalogo = true AND stock > 0
+            """
+        )
+    return {r["product_code"] for r in rows}
 
 def call_openai_chat(system_prompt: str, user_prompt: str, json_mode: bool = False) -> str:
     if not OPENAI_API_KEY:
@@ -282,7 +437,7 @@ def validate_test_suite(test_cases: list, valid_skus: set, valid_tools: set, pro
                     errors.append(f"{prefix} Debe esperar la herramienta 'search_products' para búsqueda directa.")
             elif case_id == 2:
                 # Pedido texto libre (multi-ítem)
-                order_tools = ["create_order_for_client", "resolve_free_text_order", "edit_order_for_client"] if seller else ["create_order", "edit_order"]
+                order_tools = ["load_seller_order_text", "edit_order_for_client"] if seller else ["create_order", "edit_order"]
                 if not any(t in expected_tools for t in order_tools):
                     errors.append(f"{prefix} Debe esperar alguna tool de pedido ({', '.join(order_tools)}) para pedido multi-ítem.")
             elif case_id == 3:
@@ -301,7 +456,7 @@ def validate_test_suite(test_cases: list, valid_skus: set, valid_tools: set, pro
                     errors.append(f"{prefix} Debe esperar 'search_products' o 'search_products_by_category' para búsqueda semántica/atributo.")
             elif case_id == 6:
                 # Producto por código
-                code_tools = ["get_product_by_code", "create_order", "create_order_for_client", "resolve_free_text_order"]
+                code_tools = ["get_product_by_code", "create_order", "load_seller_order_text"]
                 if not any(t in expected_tools for t in code_tools):
                     errors.append(f"{prefix} Debe esperar una tool de código o pedido ({', '.join(code_tools)}) para producto por código.")
             elif case_id == 8:
@@ -340,7 +495,7 @@ Línea temporal secuencial que DEBES seguir estrictamente:
    - expected_tools: ["search_products"]
    - expected_skus: [SKU de A]
 2. Pedido en texto libre (multi-ítem): El usuario pide agregar 2 unidades de A y 3 unidades de un producto B de tu catálogo a su pedido, mencionando los nombres específicos completos para evitar ambigüedades.
-   - expected_tools: ["create_order"], ["edit_order"], ["create_order_for_client"], ["edit_order_for_client"] o ["resolve_free_text_order"]
+   - expected_tools: ["create_order"], ["edit_order"], ["load_seller_order_text"], ["edit_order_for_client"] o ["load_seller_order_text"]
    - expected_skus: [SKU de A, SKU de B]
 3. Consulta de precio: El usuario pregunta el precio de un tercer producto C de tu catálogo sin intención de comprarlo por ahora.
    - expected_tools: ["search_products"] o ["get_product_by_code"]
@@ -352,10 +507,10 @@ Línea temporal secuencial que DEBES seguir estrictamente:
    - expected_tools: ["search_products"] o ["search_products_by_category"]
    - expected_skus: [Al menos 1 SKU de producto que cumpla con el tag seleccionado]
 6. Producto por código: El usuario pide agregar un producto D usando su product_code SKU directo de forma explícita (ej. "cargame 12 unidades del código [SKU de D]").
-   - expected_tools: ["get_product_by_code"], ["create_order"], ["create_order_for_client"] o ["resolve_free_text_order"]
+   - expected_tools: ["get_product_by_code"], ["create_order"], ["load_seller_order_text"] o ["load_seller_order_text"]
    - expected_skus: [SKU de D]
 7. Formato o empaque distinto: El usuario pide un producto E en una presentación de empaque específica (ej. "caja cerrada de [Nombre de E]" o "bulto de [Nombre de E]"), indicando el nombre comercial muy detallado de E para que no haya confusión.
-   - expected_tools: ["search_products"], ["get_product_by_code"], ["create_order"] o ["create_order_for_client"]
+   - expected_tools: ["search_products"], ["get_product_by_code"], ["create_order"] o ["load_seller_order_text"]
    - expected_skus: [SKU de E]
 8. Sugerencia / Acompañamiento: El usuario pregunta qué recomendás para acompañar, maridar o complementar el producto A que cargó al inicio de la conversación.
    - expected_tools: ["suggest_order_boost"] o ["suggest_order_boost_for_client"]
@@ -376,7 +531,7 @@ Tipologías de los 10 casos:
    - expected_tools: Debe contener exactamente ["search_products"].
    - expected_skus: Al menos 1 SKU real. El mensaje de texto DEBE mencionar claramente el nombre o parte del nombre de ese producto.
 2. Pedido en texto libre (multi-ítem): Mensaje informal pidiendo comprar/cargar al menos 2 productos con cantidades (ej: bultos, botellas, unidades), indicando nombres comerciales muy específicos para evitar ambigüedades.
-   - expected_tools: ["create_order"], ["edit_order"], ["create_order_for_client"], ["edit_order_for_client"] o ["resolve_free_text_order"].
+   - expected_tools: ["create_order"], ["edit_order"], ["load_seller_order_text"], ["edit_order_for_client"] o ["load_seller_order_text"].
    - expected_skus: Al menos 2 SKUs reales. El mensaje de texto DEBE mencionar los nombres de ambos productos.
 3. Consulta de precio: Pregunta sobre el precio o valor de un producto (ej. "¿Cuánto cuesta...?"), usando el nombre comercial específico.
    - expected_tools: ["search_products"] o ["get_product_by_code"].
@@ -388,10 +543,10 @@ Tipologías de los 10 casos:
    - expected_tools: ["search_products"] o ["search_products_by_category"].
    - expected_skus: Al menos 1 SKU real de un producto que comparta el tag seleccionado.
 6. Producto por código: Pedir o consultar usando el product_code / SKU directo (ej. "Cargá el código [SKU] x 12 unidades").
-   - expected_tools: ["get_product_by_code"], ["create_order"], ["create_order_for_client"] o ["resolve_free_text_order"].
+   - expected_tools: ["get_product_by_code"], ["create_order"], ["load_seller_order_text"] o ["load_seller_order_text"].
    - expected_skus: Al menos 1 SKU real. El mensaje de texto DEBE contener exactamente el código SKU en mayúsculas.
 7. Formato o empaque distinto: Pedir el producto en un formato específico (ej. "caja", "botella", "pack"), especificando el nombre completo del producto de forma precisa.
-   - expected_tools: ["search_products"], ["get_product_by_code"], ["create_order"] o ["create_order_for_client"].
+   - expected_tools: ["search_products"], ["get_product_by_code"], ["create_order"] o ["load_seller_order_text"].
    - expected_skus: Al menos 1 SKU real. El mensaje de texto DEBE mencionar el nombre del producto y el empaque.
 8. Sugerencia / Acompañamiento: Preguntar qué recomendación da para un producto base (cross-sell), mencionando el nombre comercial de dicho producto de manera específica.
    - expected_tools: ["suggest_order_boost"] o ["suggest_order_boost_for_client"].
@@ -450,6 +605,98 @@ Generá el suite de 10 pruebas en formato JSON. Sé extremadamente específico c
             print(f"[WARN] Error en intento {attempt} al generar suite: {e}")
             
     raise ValueError("No se pudo generar un suite de pruebas validado de forma determinista después de 3 intentos.")
+
+
+def build_test_suite(
+    schema: str,
+    products: List[Dict[str, Any]],
+    tags: List[Dict[str, Any]],
+    seller: bool,
+    sequential: bool,
+    *,
+    suite_mode: str = "generic",
+    expand: int = 0,
+    valid_skus: set[str] | None = None,
+    journey_mode: str = "chained",
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """
+    suite_mode: generic | real | hybrid
+    """
+    meta: dict[str, Any] = {"suite_mode": suite_mode, "expand": expand, "source": "generic"}
+
+    if suite_mode == "generic":
+        return generate_test_suite(schema, products, tags, seller, sequential), meta
+
+    if suite_mode == "journey":
+        journey_manifest = load_journey_manifest(schema)
+        isolated = journey_mode == "isolated"
+        journeys = load_journeys(schema, isolated=isolated)
+        sku_set = valid_skus if valid_skus is not None else {p["product_code"] for p in products}
+        cases = flatten_journey_steps(journeys, journey_mode=journey_mode)
+        errors = validate_journey_cases(cases, sku_set, set(ALL_TOOLS))
+        if errors:
+            raise ValueError("Journeys inválidos:\n" + "\n".join(f"  - {e}" for e in errors))
+        if journey_manifest.get("profile") == "seller":
+            seller = True
+        return cases, {
+            "suite_mode": "journey",
+            "journey_mode": journey_mode,
+            "journey_count": len(journeys),
+            "step_count": len(cases),
+            "manifest_profile": journey_manifest.get("profile"),
+        }
+
+    manifest = load_manifest(schema)
+    if manifest.get("profile") == "seller":
+        seller = True
+    if manifest.get("sequential_default") and suite_mode in {"real", "hybrid"}:
+        sequential = True
+
+    real_cases = load_real_cases(schema)
+    sku_set = valid_skus if valid_skus is not None else {p["product_code"] for p in products}
+    errors = validate_real_cases(real_cases, sku_set, set(ALL_TOOLS))
+    if errors:
+        raise ValueError("Casos reales inválidos:\n" + "\n".join(f"  - {e}" for e in errors))
+
+    expanded: list[dict[str, Any]] = []
+    if expand > 0:
+        print(f"[*] Generando {expand} variantes similares desde casos reales...")
+        expanded = expand_real_cases_with_llm(
+            schema=schema,
+            real_cases=real_cases,
+            products=products,
+            tags=tags,
+            seller=seller,
+            extra_count=expand,
+            call_openai_chat=call_openai_chat,
+        )
+        err2 = validate_real_cases(expanded, sku_set, set(ALL_TOOLS))
+        if err2:
+            print("[WARN] Variantes generadas con errores (se omiten las inválidas):")
+            for e in err2:
+                print(f"  - {e}")
+            expanded = [c for c in expanded if not any(c.get("slug") in e for e in err2)]
+
+    cases = real_cases + expanded
+    if suite_mode == "hybrid":
+        print("[*] Modo hybrid: agregando suite genérica de catálogo después de casos reales...")
+        generic = generate_test_suite(schema, products, tags, seller, sequential)
+        offset = len(cases)
+        for g in generic:
+            g = dict(g)
+            g["id"] = offset + int(g["id"])
+            g["source"] = "generic"
+            cases.append(g)
+
+    meta = {
+        "suite_mode": suite_mode,
+        "expand": expand,
+        "source": "real",
+        "real_count": len(real_cases),
+        "generated_count": len(expanded),
+        "manifest_profile": manifest.get("profile"),
+    }
+    return cases, meta
 
 async def toggle_implementation_debug(conn: asyncpg.Connection, schema: str, enable: bool) -> dict | None:
     """
@@ -560,6 +807,33 @@ def evaluate_test_case_result(case: Dict[str, Any], reply: str, tools_called: Li
     """
     case_txt = json.dumps(case, indent=2, ensure_ascii=False)
     tools_txt = json.dumps(tools_called, indent=2, ensure_ascii=False)
+    tools_names = [t.get("tool_name") for t in tools_called if t.get("tool_name")]
+
+    journey_hint = ""
+    if case.get("source") == "journey":
+        journey_hint = f"""
+JOURNEY E2E: Escenario '{case.get("journey_name")}' paso {case.get("journey_step")}/{case.get("journey_total_steps")} (modo {case.get("journey_mode")}).
+"""
+        if case.get("journey_mode") == "chained" and int(case.get("journey_step") or 1) > 1:
+            journey_hint += """
+Este paso corre ENCADENADO: el pedido y la conversación del journey ya existen desde pasos anteriores.
+Es correcto usar edit_order_for_client / load_seller_order_text para ajustar cantidades sin recrear el pedido desde cero.
+"""
+        elif case.get("journey_mode") == "isolated":
+            journey_hint += """
+Este paso corre AISLADO: el mensaje es autocontenido (incluye contexto del pedido en el mismo turno si hace falta).
+"""
+
+    real_case_hint = ""
+    if case.get("source") in {"real", "generated", "journey"}:
+        any_tools = case.get("expected_tools_any") or []
+        if any_tools:
+            real_case_hint = f"""
+CASO REAL / VARIANTE: Si se ejecutó al menos una de {any_tools}, no penalices por no haber usado otras tools equivalentes.
+Tools ejecutadas: {tools_names}
+"""
+        if case.get("client_identifier"):
+            real_case_hint += f"\nEl operador trabaja para el cliente: {case['client_identifier']}.\n"
     
     seq_context = ""
     if sequential:
@@ -584,9 +858,11 @@ Vas a recibir:
 3. El trace real de herramientas llamadas en la base de datos ('tools_called').
 
 {seq_context}
+{journey_hint}
+{real_case_hint}
 
 Reglas de Evaluación:
-- Si el caso esperaba cargar ítems al pedido (ej. create_order, edit_order, create_order_for_client, edit_order_for_client o resolve_free_text_order) y no se llamó a ninguna tool de carga, o fallaron, califica como passed: false.
+- Si el caso esperaba cargar ítems al pedido (ej. create_order, edit_order, load_seller_order_text, edit_order_for_client o load_seller_order_text) y no se llamó a ninguna tool de carga, o fallaron, califica como passed: false.
 - En el caso de desambiguación (Caso 4), si el bot lista las opciones de productos disponibles y le pide de alguna forma al usuario indicar cuál de ellos desea agregar o confirmar (ej: "Avisame si te interesa alguno y lo agregamos"), esto se considera una desambiguación conversacional correcta y debe ser aprobado (passed: true).
 - Si el caso requería desambiguación (Caso 4) y el bot cargó un SKU directamente en el carrito sin preguntar ni listar opciones, califica como passed: false.
 - Si la respuesta del bot es errónea, no responde a la intención o alucina SKUs que no estaban en catálogo, califica como passed: false.
@@ -633,7 +909,28 @@ async def clear_conversation_context_db_and_api(conn: asyncpg.Connection, schema
     except Exception as e:
         print(f"[WARN] Error al limpiar contexto de conversación: {e}")
 
-async def run_e2e_suite(schema: str, seller: bool, limit: Optional[int], sequential: bool = False):
+def _should_cleanup_journey_step(
+    case: dict[str, Any],
+    prev_case: dict[str, Any] | None,
+    journey_mode: str,
+) -> bool:
+    if journey_mode == "isolated":
+        return True
+    if not prev_case or prev_case.get("journey_slug") != case.get("journey_slug"):
+        return True
+    return False
+
+
+async def run_e2e_suite(
+    schema: str,
+    seller: bool,
+    limit: Optional[int],
+    sequential: bool = False,
+    *,
+    suite_mode: str = "generic",
+    expand: int = 0,
+    journey_mode: str = "chained",
+):
     db_url = os.getenv("SUPABASE_DB_URL")
     conn = await asyncpg.connect(db_url)
     
@@ -649,9 +946,42 @@ async def run_e2e_suite(schema: str, seller: bool, limit: Optional[int], sequent
         if not products:
             print("[FAIL] El catálogo del esquema no tiene productos activos con stock. Healthcheck fallido.")
             sys.exit(1)
+
+        catalog_skus = await fetch_valid_catalog_skus(
+            conn,
+            schema,
+            lista_precios_id=None if suite_mode in {"real", "hybrid", "journey"} else lista_precios_id,
+        )
             
         # 3. Generar casos de prueba
-        test_cases = generate_test_suite(schema, products, tags, seller, sequential)
+        test_cases, suite_meta = build_test_suite(
+            schema, products, tags, seller, sequential,
+            suite_mode=suite_mode, expand=expand,
+            valid_skus=catalog_skus if suite_mode in {"real", "hybrid", "journey"} else None,
+            journey_mode=journey_mode,
+        )
+        if suite_mode == "journey":
+            journey_manifest = load_journey_manifest(schema)
+            if journey_manifest.get("profile") == "seller":
+                seller = True
+            if seller and not TEST_SELLER_PHONE and not journey_manifest.get("sender_phone"):
+                print(
+                    "[FAIL] Modo seller con journeys requiere E2E_SELLER_PHONE en .env "
+                    "o sender_phone en manifest.json."
+                )
+                sys.exit(1)
+        elif suite_mode in {"real", "hybrid"}:
+            manifest = load_manifest(schema)
+            if manifest.get("profile") == "seller":
+                seller = True
+            if manifest.get("sequential_default"):
+                sequential = True
+            if seller and not TEST_SELLER_PHONE and not manifest.get("sender_phone"):
+                print(
+                    "[FAIL] Modo seller con casos reales requiere E2E_SELLER_PHONE en .env "
+                    "o sender_phone en manifest.json (vendedor registrado en el tenant)."
+                )
+                sys.exit(1)
         if limit:
             test_cases = test_cases[:limit]
             print(f"[*] Modo limit activo: reduciendo suite de pruebas a {limit} casos.")
@@ -668,9 +998,35 @@ async def run_e2e_suite(schema: str, seller: bool, limit: Optional[int], sequent
         print("=" * 60)
         
         results_report = []
+        prev_case: dict[str, Any] | None = None
+        journey_mode_effective = suite_meta.get("journey_mode", "chained")
+        manifest = (
+            load_journey_manifest(schema) if suite_mode == "journey"
+            else load_manifest(schema) if suite_mode in {"real", "hybrid"} else {}
+        )
         
         for idx, case in enumerate(test_cases, start=1):
-            if not sequential:
+            if suite_mode == "journey":
+                if _should_cleanup_journey_step(case, prev_case, journey_mode_effective):
+                    sender_for_cleanup = resolve_sender_phone(
+                        case,
+                        manifest,
+                        default_client_phone=TEST_CLIENT_PHONE,
+                        default_seller_phone=TEST_SELLER_PHONE,
+                        seller_mode=seller,
+                    )
+                    print(
+                        f"[*] Journey ({journey_mode_effective}): limpiando estado antes de "
+                        f"'{case.get('journey_name')}' paso {case.get('journey_step')}..."
+                    )
+                    await clear_journey_state(
+                        conn,
+                        schema,
+                        session_phone=sender_for_cleanup,
+                        client_identifier=case.get("client_identifier"),
+                    )
+                    await asyncio.sleep(0.5)
+            elif not sequential:
                 # Si no es secuencial, limpiamos el estado antes de cada caso para asegurar aislamiento total
                 print(f"[*] Aislamiento activo: Limpiando carrito y contexto antes de '{case['name']}'...")
                 await clear_test_client_orders(conn, schema)
@@ -680,9 +1036,21 @@ async def run_e2e_suite(schema: str, seller: bool, limit: Optional[int], sequent
             print(f"\n[{idx}/{len(test_cases)}] Ejecutando caso: {case['name']}")
             print(f"    Mensaje: '{case['message']}'")
             
-            # El caso 10 simula un teléfono no registrado
-            is_unregistered = (case['id'] == 10)
-            sender_phone = f"54999{int(time.time()) % 100000000:08d}" if is_unregistered else TEST_CLIENT_PHONE
+            # El caso 10 genérico simula un teléfono no registrado
+            is_unregistered = (
+                suite_mode == "generic"
+                and case.get("id") == 10
+                and case.get("source") != "real"
+            )
+            sender_phone = resolve_sender_phone(
+                case,
+                manifest,
+                default_client_phone=TEST_CLIENT_PHONE,
+                default_seller_phone=TEST_SELLER_PHONE,
+                seller_mode=seller,
+            ) if suite_mode in {"real", "hybrid", "journey"} else (
+                f"54999{int(time.time()) % 100000000:08d}" if is_unregistered else TEST_CLIENT_PHONE
+            )
             
             # Marcamos tiempo de inicio para buscar los logs después en PostgreSQL
             test_start_time = datetime.now(timezone.utc)
@@ -703,7 +1071,12 @@ async def run_e2e_suite(schema: str, seller: bool, limit: Optional[int], sequent
                 print(f"      - {t['tool_name']} (Status: {t['status']}, Latency: {t['latency_ms']:.1f}ms)")
                 
             # Evaluación con LLM
-            passed, analysis = evaluate_test_case_result(case, reply, tools_called, sequential)
+            eval_sequential = sequential or (
+                suite_mode == "journey"
+                and journey_mode_effective == "chained"
+                and int(case.get("journey_step") or 1) > 1
+            )
+            passed, analysis = evaluate_test_case_result(case, reply, tools_called, eval_sequential)
             status_str = "PASS" if passed else "FAIL"
             print(f"    Resultado: {status_str}")
             print(f"    Análisis: {analysis}")
@@ -716,6 +1089,7 @@ async def run_e2e_suite(schema: str, seller: bool, limit: Optional[int], sequent
                 "passed": passed,
                 "analysis": analysis
             })
+            prev_case = case
             
         # 6. Restaurar metadata del distribuidor
         print("\n[*] Restaurando 'implementation_debug.trace_enabled' original...")
@@ -723,17 +1097,20 @@ async def run_e2e_suite(schema: str, seller: bool, limit: Optional[int], sequent
             await restore_metadata(conn, schema, original_meta)
             
         # 7. Escribir reporte markdown
-        write_markdown_report(schema, seller, results_report)
+        write_markdown_report(schema, seller, results_report, suite_meta)
         
     finally:
         await conn.close()
 
-def write_markdown_report(schema: str, seller: bool, results: List[Dict[str, Any]]):
+def write_markdown_report(schema: str, seller: bool, results: List[Dict[str, Any]], suite_meta: Optional[dict[str, Any]] = None):
     report_dir = f"implementacion/{schema}/outputs"
     os.makedirs(report_dir, exist_ok=True)
     
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = os.path.join(report_dir, f"reporte_e2e_{timestamp}.md")
+    suffix = ""
+    if suite_meta.get("suite_mode") == "journey":
+        suffix = f"_{suite_meta.get('journey_mode', 'chained')}"
+    filename = os.path.join(report_dir, f"reporte_e2e_{timestamp}{suffix}.md")
     
     passed_count = sum(1 for r in results if r["passed"])
     total_count = len(results)
@@ -771,12 +1148,27 @@ def write_markdown_report(schema: str, seller: bool, results: List[Dict[str, Any
     if not results:
         optimization_suggestions.append("No se ejecutaron pruebas.")
         
+    suite_meta = suite_meta or {}
+    suite_line = ""
+    if suite_meta.get("suite_mode") == "journey":
+        suite_line = (
+            f"- **Suite:** journey — modo **{suite_meta.get('journey_mode', 'chained')}** "
+            f"({suite_meta.get('journey_count', 0)} journeys, "
+            f"{suite_meta.get('step_count', 0)} pasos)\n"
+        )
+    elif suite_meta.get("suite_mode") and suite_meta["suite_mode"] != "generic":
+        suite_line = (
+            f"- **Suite:** {suite_meta['suite_mode']} "
+            f"(reales: {suite_meta.get('real_count', 0)}, "
+            f"generados: {suite_meta.get('generated_count', 0)})\n"
+        )
+
     md_content = f"""# Reporte de Testing E2E — Agente Suplai
 
 Distribuidora: **{schema}**
 Perfil de prueba: **{"Asistente de Vendedor" if seller else "Cliente Final"}**
 Fecha de ejecución: **{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}**
-
+{suite_line}
 ## 📊 Resumen Ejecutivo
 - **Resultado Global:** {passed_count}/{total_count} Aprobados ({(passed_count/total_count)*100:.1f}%)
 - **Latencia Promedio:** {avg_latency:.2f} segundos
@@ -788,7 +1180,14 @@ Fecha de ejecución: **{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}**
     for r in results:
         status_icon = "🟢 PASS" if r["passed"] else "🔴 FAIL"
         tools_str = ", ".join(f"`{t['tool_name']}`" for t in r["tools"]) if r["tools"] else "*Ninguna*"
-        md_content += f"| {r['case']['id']} | {r['case']['name']} | {status_icon} | {r['latency']:.2f} | {tools_str} |\n"
+        source_tag = ""
+        if r["case"].get("source") == "real":
+            source_tag = " `[real]`"
+        elif r["case"].get("source") == "generated":
+            source_tag = " `[generado]`"
+        elif r["case"].get("source") == "journey":
+            source_tag = f" `[journey p{r['case'].get('journey_step')}]`"
+        md_content += f"| {r['case']['id']} | {r['case']['name']}{source_tag} | {status_icon} | {r['latency']:.2f} | {tools_str} |\n"
 
     md_content += "\n## 📝 Detalle de Casos de Prueba\n"
     
@@ -806,6 +1205,7 @@ Fecha de ejecución: **{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}**
 ---
 
 ### Caso {r['case']['id']}: {r['case']['name']} ({status_icon})
+- **Origen:** {r['case'].get('source', 'generic')}{f" — fixture `{r['case'].get('fixture_dir')}`" if r['case'].get('fixture_dir') else ""}{f" — journey `{r['case'].get('journey_slug')}` paso {r['case'].get('journey_step')}/{r['case'].get('journey_total_steps')}" if r['case'].get('source') == 'journey' else ""}
 - **Mensaje enviado:** *"{r['case']['message']}"*
 - **Comportamiento esperado:** {r['case']['expected_behavior']}
 - **Respuesta del bot:**
@@ -833,10 +1233,38 @@ def main():
     parser.add_argument("--seller", action="store_true", help="Ejecutar pruebas del perfil asistente de vendedor")
     parser.add_argument("--limit", type=int, help="Límite de casos de prueba a ejecutar (para smoke test rápido)")
     parser.add_argument("--sequential", action="store_true", help="Ejecutar pruebas de forma secuencial (manteniendo el estado del carrito y conversación)")
+    parser.add_argument(
+        "--suite",
+        choices=["generic", "real", "hybrid", "journey"],
+        default="generic",
+        help="generic: 10 casos de catálogo (default). real: casos-reales. hybrid: reales + genéricos. journey: multi-paso.",
+    )
+    parser.add_argument(
+        "--journey-mode",
+        choices=["chained", "isolated"],
+        default="chained",
+        help="Con --suite journey: chained encadena pasos por escenario; isolated usa mensajes autocontenidos por paso.",
+    )
+    parser.add_argument(
+        "--expand",
+        type=int,
+        default=0,
+        help="Con --suite real|hybrid: cantidad de variantes similares generadas por LLM desde casos reales.",
+    )
     
     args = parser.parse_args()
     
-    asyncio.run(run_e2e_suite(args.schema, args.seller, args.limit, args.sequential))
+    asyncio.run(
+        run_e2e_suite(
+            args.schema,
+            args.seller,
+            args.limit,
+            args.sequential,
+            suite_mode=args.suite,
+            expand=args.expand,
+            journey_mode=args.journey_mode,
+        )
+    )
 
 if __name__ == "__main__":
     main()

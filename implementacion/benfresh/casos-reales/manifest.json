@@ -1,0 +1,9 @@
+{
+  "schema": "benfresh",
+  "profile": "seller",
+  "sequential_default": false,
+  "context_file": "contexto.md",
+  "sender_phone": null,
+  "seller_phone_env": "E2E_SELLER_PHONE",
+  "notes": "Configurar E2E_SELLER_PHONE en .env con un teléfono de vendedor registrado en benfresh.vendedores. Si es null, el script fallará con instrucciones."
+}

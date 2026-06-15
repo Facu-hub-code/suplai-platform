@@ -1,0 +1,8 @@
+{
+  "schema": "{schema}",
+  "profile": "seller",
+  "sequential_default": true,
+  "context_file": "contexto.md",
+  "sender_phone": null,
+  "seller_phone_env": "E2E_SELLER_PHONE"
+}

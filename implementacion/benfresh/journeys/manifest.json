@@ -1,0 +1,6 @@
+{
+  "schema": "benfresh",
+  "profile": "seller",
+  "seller_phone_env": "E2E_SELLER_PHONE",
+  "notes": "Journeys multi-paso para casos reales 03-06: carga, edición de cantidades y consulta de pedido."
+}

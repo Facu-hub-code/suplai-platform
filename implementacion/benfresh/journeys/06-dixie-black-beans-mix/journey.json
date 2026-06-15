@@ -1,0 +1,52 @@
+{
+  "name": "Dixie — carga, edición y consulta",
+  "slug": "06-dixie-black-beans-mix",
+  "order": 4,
+  "source_case": "06-dixie-black-beans-mix",
+  "client_identifier": "DIXIE RIBS",
+  "steps": [
+    {
+      "step_order": 1,
+      "name": "Carga inicial del pedido",
+      "message_file": "01-carga-inicial.txt",
+      "expected_tools_any": [
+        "set_seller_selected_client",
+        "load_seller_order_text",
+        "edit_order_for_client"
+      ],
+      "expected_skus": ["834641", "74987455860", "736952201911", "89090130", "89090117"],
+      "expected_behavior": "Identificar Dixie y cargar black beans 3, plantains 4, mixed vegetables 8, green beans 8, sofrito 2.",
+      "tags": ["carga"]
+    },
+    {
+      "step_order": 2,
+      "name": "Ajustar mixed veg y green beans",
+      "message_file": "02-editar-cantidades.txt",
+      "isolated_message_file": "02-editar-cantidades-aislado.txt",
+      "expected_tools_any": ["edit_order_for_client", "load_seller_order_text"],
+      "expected_skus": ["736952201911", "89090130"],
+      "expected_behavior": "Bajar mixed vegetables a 5 y green beans a 6 en el pedido de Dixie.",
+      "tags": ["edicion"]
+    },
+    {
+      "step_order": 3,
+      "name": "Agregar 1 sofrito",
+      "message_file": "03-agregar-sofrito.txt",
+      "isolated_message_file": "03-agregar-sofrito-aislado.txt",
+      "expected_tools_any": ["edit_order_for_client", "load_seller_order_text"],
+      "expected_skus": ["89090117"],
+      "expected_behavior": "Sumar 1 sofrito más (total 3) al pedido de Dixie.",
+      "tags": ["edicion"]
+    },
+    {
+      "step_order": 4,
+      "name": "Consultar pedido",
+      "message_file": "04-consultar-pedido.txt",
+      "isolated_message_file": "04-consultar-pedido-aislado.txt",
+      "expected_tools_any": ["get_open_order_status_for_client"],
+      "expected_skus": [],
+      "expected_behavior": "Resumir pedido Dixie: beans 3, plantains 4, mixed veg 5, green beans 6, sofrito 3.",
+      "tags": ["consulta"]
+    }
+  ]
+}
