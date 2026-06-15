@@ -1,0 +1,11 @@
+{
+  "name": "Ejemplo — primer paso del flujo",
+  "sequential_order": 1,
+  "message_file": "mensaje.txt",
+  "client_identifier": "suplai-platform-test",
+  "expected_tools": [],
+  "expected_tools_any": ["set_seller_selected_client"],
+  "expected_skus": [],
+  "expected_behavior": "Describí qué debe hacer el agente en este turno.",
+  "tags": ["ejemplo"]
+}

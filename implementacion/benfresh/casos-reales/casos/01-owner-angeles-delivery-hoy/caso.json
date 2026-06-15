@@ -1,0 +1,17 @@
+{
+  "name": "[Dueño] Pedido ANGELES — delivery hoy",
+  "sequential_order": 1,
+  "message_file": "mensaje.txt",
+  "client_identifier": "ANGELES",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "set_seller_selected_client",
+    "get_seller_client_details",
+    "resolve_free_text_order",
+    "create_order_for_client",
+    "edit_order_for_client"
+  ],
+  "expected_skus": ["89090009", "736952201775", "89090116"],
+  "expected_behavior": "Mensaje real reenviado por vendedor: identificar al cliente ANGELES desde el encabezado, interpretar la lista (10 Sweetcorn, 10 Green Peas, 10 fajitas) y cargar ítems al pedido. Si el cliente no existe en el sistema, debe pedir aclaración o buscar coincidencias sin inventar SKUs.",
+  "tags": ["dueño", "reenvio", "angeles", "texto-libre"]
+}

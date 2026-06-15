@@ -1,0 +1,11 @@
+{
+  "name": "Confirmar pedido del cliente",
+  "sequential_order": 4,
+  "message_file": "mensaje.txt",
+  "client_identifier": "suplai-platform-test",
+  "expected_tools": [],
+  "expected_tools_any": ["confirm_order_for_client"],
+  "expected_skus": [],
+  "expected_behavior": "Con pedido abierto acumulado en la sesión, confirmar vía confirm_order_for_client y basar la respuesta en el resultado de la tool.",
+  "tags": ["confirmacion", "checkout"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Lista reenviada por vendedor (texto libre)",
+  "sequential_order": 2,
+  "message_file": "mensaje.txt",
+  "client_identifier": "suplai-platform-test",
+  "expected_tools": [],
+  "expected_tools_any": ["resolve_free_text_order", "create_order_for_client", "edit_order_for_client"],
+  "expected_skus": ["89090009", "89090056"],
+  "expected_behavior": "Interpretar la lista informal con cantidades y cargar los ítems al pedido abierto del cliente seleccionado. Debe usar resolve_free_text_order o equivalente de vendedor, no inventar SKUs.",
+  "tags": ["lista", "reenvio", "texto-libre"]
+}

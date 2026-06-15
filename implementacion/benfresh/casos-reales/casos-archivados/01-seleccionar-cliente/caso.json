@@ -1,0 +1,11 @@
+{
+  "name": "Seleccionar cliente del pedido reenviado",
+  "sequential_order": 1,
+  "message_file": "mensaje.txt",
+  "client_identifier": "suplai-platform-test",
+  "expected_tools": [],
+  "expected_tools_any": ["set_seller_selected_client", "get_seller_client_details"],
+  "expected_skus": [],
+  "expected_behavior": "El vendedor/operador indica el cliente del pedido reenviado. El agente debe fijar o buscar ese cliente sin listar todos los clientes del vendedor.",
+  "tags": ["cliente", "onboarding-turno"]
+}

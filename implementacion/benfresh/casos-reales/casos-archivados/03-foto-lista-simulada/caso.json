@@ -1,0 +1,12 @@
+{
+  "name": "Foto de lista manuscrita (simulación OCR)",
+  "sequential_order": 3,
+  "message_file": "mensaje_simulado.txt",
+  "reference_image": "REFERENCIA.md",
+  "client_identifier": "suplai-platform-test",
+  "expected_tools": [],
+  "expected_tools_any": ["resolve_free_text_order", "search_products", "create_order_for_client"],
+  "expected_skus": [],
+  "expected_behavior": "Tratar el bloque [Consulta con foto por WhatsApp] como pedido real, resolver ítems y cargar al pedido del cliente. No rechazar por ser imagen.",
+  "tags": ["foto", "ocr", "lista"]
+}

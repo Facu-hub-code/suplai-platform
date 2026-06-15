@@ -12,6 +12,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+from e2e_real_cases import (
+    expand_real_cases_with_llm,
+    load_manifest,
+    load_real_cases,
+    resolve_sender_phone,
+    validate_real_cases,
+)
+
 # Reconfigure stdout to use UTF-8 on Windows
 if sys.platform.startswith('win'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -21,6 +29,7 @@ OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
 TEST_CLIENT_PHONE = "5491133333333"
+TEST_SELLER_PHONE = os.getenv("E2E_SELLER_PHONE")
 
 # The default set of 29 tools in the system
 ALL_TOOLS = [
@@ -101,6 +110,30 @@ async def fetch_catalog_sample(conn: asyncpg.Connection, schema: str, lista_prec
     tags = [dict(r) for r in tag_rows]
     
     return products, tags
+
+
+async def fetch_valid_catalog_skus(
+    conn: asyncpg.Connection, schema: str, lista_precios_id: int | None = None
+) -> set[str]:
+    """SKUs activos con stock. Si hay lista_precios_id, filtra por precio en esa lista."""
+    if lista_precios_id is not None:
+        rows = await conn.fetch(
+            f"""
+            SELECT p.product_code
+            FROM {schema}.productos p
+            JOIN {schema}.precios_productos pp ON p.product_code = pp.product_code
+            WHERE p.en_catalogo = true AND p.stock > 0 AND pp.lista_precios_id = $1
+            """,
+            lista_precios_id,
+        )
+    else:
+        rows = await conn.fetch(
+            f"""
+            SELECT product_code FROM {schema}.productos
+            WHERE en_catalogo = true AND stock > 0
+            """
+        )
+    return {r["product_code"] for r in rows}
 
 def call_openai_chat(system_prompt: str, user_prompt: str, json_mode: bool = False) -> str:
     if not OPENAI_API_KEY:
@@ -451,6 +484,78 @@ Generá el suite de 10 pruebas en formato JSON. Sé extremadamente específico c
             
     raise ValueError("No se pudo generar un suite de pruebas validado de forma determinista después de 3 intentos.")
 
+
+def build_test_suite(
+    schema: str,
+    products: List[Dict[str, Any]],
+    tags: List[Dict[str, Any]],
+    seller: bool,
+    sequential: bool,
+    *,
+    suite_mode: str = "generic",
+    expand: int = 0,
+    valid_skus: set[str] | None = None,
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """
+    suite_mode: generic | real | hybrid
+    """
+    meta: dict[str, Any] = {"suite_mode": suite_mode, "expand": expand, "source": "generic"}
+
+    if suite_mode == "generic":
+        return generate_test_suite(schema, products, tags, seller, sequential), meta
+
+    manifest = load_manifest(schema)
+    if manifest.get("profile") == "seller":
+        seller = True
+    if manifest.get("sequential_default") and suite_mode in {"real", "hybrid"}:
+        sequential = True
+
+    real_cases = load_real_cases(schema)
+    sku_set = valid_skus if valid_skus is not None else {p["product_code"] for p in products}
+    errors = validate_real_cases(real_cases, sku_set, set(ALL_TOOLS))
+    if errors:
+        raise ValueError("Casos reales inválidos:\n" + "\n".join(f"  - {e}" for e in errors))
+
+    expanded: list[dict[str, Any]] = []
+    if expand > 0:
+        print(f"[*] Generando {expand} variantes similares desde casos reales...")
+        expanded = expand_real_cases_with_llm(
+            schema=schema,
+            real_cases=real_cases,
+            products=products,
+            tags=tags,
+            seller=seller,
+            extra_count=expand,
+            call_openai_chat=call_openai_chat,
+        )
+        err2 = validate_real_cases(expanded, sku_set, set(ALL_TOOLS))
+        if err2:
+            print("[WARN] Variantes generadas con errores (se omiten las inválidas):")
+            for e in err2:
+                print(f"  - {e}")
+            expanded = [c for c in expanded if not any(c.get("slug") in e for e in err2)]
+
+    cases = real_cases + expanded
+    if suite_mode == "hybrid":
+        print("[*] Modo hybrid: agregando suite genérica de catálogo después de casos reales...")
+        generic = generate_test_suite(schema, products, tags, seller, sequential)
+        offset = len(cases)
+        for g in generic:
+            g = dict(g)
+            g["id"] = offset + int(g["id"])
+            g["source"] = "generic"
+            cases.append(g)
+
+    meta = {
+        "suite_mode": suite_mode,
+        "expand": expand,
+        "source": "real",
+        "real_count": len(real_cases),
+        "generated_count": len(expanded),
+        "manifest_profile": manifest.get("profile"),
+    }
+    return cases, meta
+
 async def toggle_implementation_debug(conn: asyncpg.Connection, schema: str, enable: bool) -> dict | None:
     """
     Habilita o deshabilita la traza del laboratorio en el metadata del distribuidor.
@@ -560,6 +665,18 @@ def evaluate_test_case_result(case: Dict[str, Any], reply: str, tools_called: Li
     """
     case_txt = json.dumps(case, indent=2, ensure_ascii=False)
     tools_txt = json.dumps(tools_called, indent=2, ensure_ascii=False)
+    tools_names = [t.get("tool_name") for t in tools_called if t.get("tool_name")]
+
+    real_case_hint = ""
+    if case.get("source") in {"real", "generated"}:
+        any_tools = case.get("expected_tools_any") or []
+        if any_tools:
+            real_case_hint = f"""
+CASO REAL / VARIANTE: Si se ejecutó al menos una de {any_tools}, no penalices por no haber usado otras tools equivalentes.
+Tools ejecutadas: {tools_names}
+"""
+        if case.get("client_identifier"):
+            real_case_hint += f"\nEl operador trabaja para el cliente: {case['client_identifier']}.\n"
     
     seq_context = ""
     if sequential:
@@ -584,6 +701,7 @@ Vas a recibir:
 3. El trace real de herramientas llamadas en la base de datos ('tools_called').
 
 {seq_context}
+{real_case_hint}
 
 Reglas de Evaluación:
 - Si el caso esperaba cargar ítems al pedido (ej. create_order, edit_order, create_order_for_client, edit_order_for_client o resolve_free_text_order) y no se llamó a ninguna tool de carga, o fallaron, califica como passed: false.
@@ -633,7 +751,15 @@ async def clear_conversation_context_db_and_api(conn: asyncpg.Connection, schema
     except Exception as e:
         print(f"[WARN] Error al limpiar contexto de conversación: {e}")
 
-async def run_e2e_suite(schema: str, seller: bool, limit: Optional[int], sequential: bool = False):
+async def run_e2e_suite(
+    schema: str,
+    seller: bool,
+    limit: Optional[int],
+    sequential: bool = False,
+    *,
+    suite_mode: str = "generic",
+    expand: int = 0,
+):
     db_url = os.getenv("SUPABASE_DB_URL")
     conn = await asyncpg.connect(db_url)
     
@@ -649,9 +775,29 @@ async def run_e2e_suite(schema: str, seller: bool, limit: Optional[int], sequent
         if not products:
             print("[FAIL] El catálogo del esquema no tiene productos activos con stock. Healthcheck fallido.")
             sys.exit(1)
+
+        catalog_skus = await fetch_valid_catalog_skus(
+            conn, schema, lista_precios_id=None if suite_mode in {"real", "hybrid"} else lista_precios_id
+        )
             
         # 3. Generar casos de prueba
-        test_cases = generate_test_suite(schema, products, tags, seller, sequential)
+        test_cases, suite_meta = build_test_suite(
+            schema, products, tags, seller, sequential,
+            suite_mode=suite_mode, expand=expand,
+            valid_skus=catalog_skus if suite_mode in {"real", "hybrid"} else None,
+        )
+        if suite_mode in {"real", "hybrid"}:
+            manifest = load_manifest(schema)
+            if manifest.get("profile") == "seller":
+                seller = True
+            if manifest.get("sequential_default"):
+                sequential = True
+            if seller and not TEST_SELLER_PHONE and not manifest.get("sender_phone"):
+                print(
+                    "[FAIL] Modo seller con casos reales requiere E2E_SELLER_PHONE en .env "
+                    "o sender_phone en manifest.json (vendedor registrado en el tenant)."
+                )
+                sys.exit(1)
         if limit:
             test_cases = test_cases[:limit]
             print(f"[*] Modo limit activo: reduciendo suite de pruebas a {limit} casos.")
@@ -680,9 +826,22 @@ async def run_e2e_suite(schema: str, seller: bool, limit: Optional[int], sequent
             print(f"\n[{idx}/{len(test_cases)}] Ejecutando caso: {case['name']}")
             print(f"    Mensaje: '{case['message']}'")
             
-            # El caso 10 simula un teléfono no registrado
-            is_unregistered = (case['id'] == 10)
-            sender_phone = f"54999{int(time.time()) % 100000000:08d}" if is_unregistered else TEST_CLIENT_PHONE
+            # El caso 10 genérico simula un teléfono no registrado
+            is_unregistered = (
+                suite_mode == "generic"
+                and case.get("id") == 10
+                and case.get("source") != "real"
+            )
+            manifest = load_manifest(schema) if suite_mode in {"real", "hybrid"} else {}
+            sender_phone = resolve_sender_phone(
+                case,
+                manifest,
+                default_client_phone=TEST_CLIENT_PHONE,
+                default_seller_phone=TEST_SELLER_PHONE,
+                seller_mode=seller,
+            ) if suite_mode in {"real", "hybrid"} else (
+                f"54999{int(time.time()) % 100000000:08d}" if is_unregistered else TEST_CLIENT_PHONE
+            )
             
             # Marcamos tiempo de inicio para buscar los logs después en PostgreSQL
             test_start_time = datetime.now(timezone.utc)
@@ -723,12 +882,12 @@ async def run_e2e_suite(schema: str, seller: bool, limit: Optional[int], sequent
             await restore_metadata(conn, schema, original_meta)
             
         # 7. Escribir reporte markdown
-        write_markdown_report(schema, seller, results_report)
+        write_markdown_report(schema, seller, results_report, suite_meta)
         
     finally:
         await conn.close()
 
-def write_markdown_report(schema: str, seller: bool, results: List[Dict[str, Any]]):
+def write_markdown_report(schema: str, seller: bool, results: List[Dict[str, Any]], suite_meta: Optional[dict[str, Any]] = None):
     report_dir = f"implementacion/{schema}/outputs"
     os.makedirs(report_dir, exist_ok=True)
     
@@ -771,12 +930,21 @@ def write_markdown_report(schema: str, seller: bool, results: List[Dict[str, Any
     if not results:
         optimization_suggestions.append("No se ejecutaron pruebas.")
         
+    suite_meta = suite_meta or {}
+    suite_line = ""
+    if suite_meta.get("suite_mode") and suite_meta["suite_mode"] != "generic":
+        suite_line = (
+            f"- **Suite:** {suite_meta['suite_mode']} "
+            f"(reales: {suite_meta.get('real_count', 0)}, "
+            f"generados: {suite_meta.get('generated_count', 0)})\n"
+        )
+
     md_content = f"""# Reporte de Testing E2E — Agente Suplai
 
 Distribuidora: **{schema}**
 Perfil de prueba: **{"Asistente de Vendedor" if seller else "Cliente Final"}**
 Fecha de ejecución: **{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}**
-
+{suite_line}
 ## 📊 Resumen Ejecutivo
 - **Resultado Global:** {passed_count}/{total_count} Aprobados ({(passed_count/total_count)*100:.1f}%)
 - **Latencia Promedio:** {avg_latency:.2f} segundos
@@ -788,7 +956,12 @@ Fecha de ejecución: **{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}**
     for r in results:
         status_icon = "🟢 PASS" if r["passed"] else "🔴 FAIL"
         tools_str = ", ".join(f"`{t['tool_name']}`" for t in r["tools"]) if r["tools"] else "*Ninguna*"
-        md_content += f"| {r['case']['id']} | {r['case']['name']} | {status_icon} | {r['latency']:.2f} | {tools_str} |\n"
+        source_tag = ""
+        if r["case"].get("source") == "real":
+            source_tag = " `[real]`"
+        elif r["case"].get("source") == "generated":
+            source_tag = " `[generado]`"
+        md_content += f"| {r['case']['id']} | {r['case']['name']}{source_tag} | {status_icon} | {r['latency']:.2f} | {tools_str} |\n"
 
     md_content += "\n## 📝 Detalle de Casos de Prueba\n"
     
@@ -806,6 +979,7 @@ Fecha de ejecución: **{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}**
 ---
 
 ### Caso {r['case']['id']}: {r['case']['name']} ({status_icon})
+- **Origen:** {r['case'].get('source', 'generic')}{f" — fixture `{r['case'].get('fixture_dir')}`" if r['case'].get('fixture_dir') else ""}
 - **Mensaje enviado:** *"{r['case']['message']}"*
 - **Comportamiento esperado:** {r['case']['expected_behavior']}
 - **Respuesta del bot:**
@@ -833,10 +1007,31 @@ def main():
     parser.add_argument("--seller", action="store_true", help="Ejecutar pruebas del perfil asistente de vendedor")
     parser.add_argument("--limit", type=int, help="Límite de casos de prueba a ejecutar (para smoke test rápido)")
     parser.add_argument("--sequential", action="store_true", help="Ejecutar pruebas de forma secuencial (manteniendo el estado del carrito y conversación)")
+    parser.add_argument(
+        "--suite",
+        choices=["generic", "real", "hybrid"],
+        default="generic",
+        help="generic: 10 casos de catálogo (default). real: casos-reales del distribuidor. hybrid: reales + genéricos.",
+    )
+    parser.add_argument(
+        "--expand",
+        type=int,
+        default=0,
+        help="Con --suite real|hybrid: cantidad de variantes similares generadas por LLM desde casos reales.",
+    )
     
     args = parser.parse_args()
     
-    asyncio.run(run_e2e_suite(args.schema, args.seller, args.limit, args.sequential))
+    asyncio.run(
+        run_e2e_suite(
+            args.schema,
+            args.seller,
+            args.limit,
+            args.sequential,
+            suite_mode=args.suite,
+            expand=args.expand,
+        )
+    )
 
 if __name__ == "__main__":
     main()

@@ -14,6 +14,8 @@ Debes tener un archivo `.env` configurado en la raíz del proyecto (`suplai-plat
 SUPABASE_DB_URL=postgresql://<usuario>:<password>@db.nxmeezcvjltlqfybbczt.supabase.co:5432/postgres
 OPENAI_API_KEY=tu-api-key-de-openai
 OPENAI_MODEL=gpt-4o-mini
+# Solo para --suite real|hybrid con perfil vendedor (teléfono en {schema}.vendedores):
+E2E_SELLER_PHONE=5493XXXXXXXX
 ```
 
 ### 2. Dependencias de Python
@@ -66,14 +68,46 @@ python scripts/test_agent_e2e.py --schema <nombre_esquema> --seller
 
 # Limitar cantidad de casos para smoke-test rápido
 python scripts/test_agent_e2e.py --schema <nombre_esquema> --limit 2
+
+# --- Casos reales del distribuidor (fixtures en implementacion/{schema}/casos-reales/) ---
+python scripts/test_agent_e2e.py --schema <nombre_esquema> --suite real --seller --sequential
+python scripts/test_agent_e2e.py --schema <nombre_esquema> --suite real --seller --sequential --expand 3
+python scripts/test_agent_e2e.py --schema <nombre_esquema> --suite hybrid --seller
 ```
+
+### Modos de suite (`--suite`)
+
+| Modo | Origen de casos | Cuándo usarlo |
+|------|-----------------|---------------|
+| `generic` (default) | LLM genera 10 casos desde catálogo/tags | Smoke test de catálogo, regresión general |
+| `real` | Fixtures en `implementacion/{schema}/casos-reales/` | Validar un caso de uso concreto del distribuidor |
+| `hybrid` | Casos reales + suite genérica | Regresión amplia tras validar el flujo prioritario |
+
+El módulo `scripts/e2e_real_cases.py` carga manifest, contexto y casos; valida SKUs/tools; y con `--expand N` genera variantes similares leyendo `contexto.md`.
+
+### Preparar casos reales (rol del agente del IDE)
+
+1. **Crear carpeta** `implementacion/{schema}/casos-reales/` (copiar plantilla desde `.cursor/skills/agent-e2e-testing/templates/casos-reales/`).
+2. **Escribir `contexto.md`**: narrativa AS-IS / TO-BE que el LLM usa al expandir (ej. Benfresh: teléfono central, reenvíos de vendedores, carga manual → automatización).
+3. **Configurar `manifest.json`**: `profile` (`seller`|`client`), `sequential_default`, `seller_phone_env`.
+4. **Por cada escenario**, carpeta `casos/NN-slug/` con:
+   - `caso.json` — metadatos y expectativas (`expected_tools`, `expected_tools_any`, `expected_skus`, `client_identifier` para seller).
+   - `mensaje.txt` — texto WhatsApp que se envía al webhook.
+   - `mensaje_simulado.txt` (opcional) — para fotos: `[Consulta con foto por WhatsApp]` + OCR simulado.
+   - `imagen.jpg/png` (opcional) — solo referencia documental; no se sube al webhook v1.
+5. **Consultar catálogo** (MCP Supabase o healthcheck) para SKUs y tools habilitadas del tenant antes de definir expectativas.
+6. **Referencia completa:** `implementacion/benfresh/casos-reales/` (4 casos: seleccionar cliente, lista texto, foto simulada, confirmar pedido).
 
 ### Detalle del Flujo de Ejecución:
 1. **Cliente de pruebas:** El script verifica que exista el cliente de pruebas `suplai-platform-test` con teléfono `5491133333333` (creado previamente por el healthcheck).
 2. **Aislamiento de Estado Limpio (Cleanup):**
    * **Modo Aislamiento (Por Defecto):** Antes de ejecutar **cada** caso de prueba individual del bucle, el script limpia por completo los pedidos del cliente en base de datos (`{schema}.pedidos` y `{schema}.items_pedido`) y su contexto en el backend (`DELETE /{schema}/conversaciones/{conversation_id}/context`). Esto previene que la memoria conversacional anterior afecte el resultado actual.
    * **Modo Secuencial (`--sequential`):** Limpia la base de datos y la memoria conversacional **únicamente una vez al iniciar la suite**. Los casos 1 al 9 se ejecutan de manera encadenada (e.g. agregando ítems, sugiriendo cross-sell y finalmente confirmando la compra), mientras que el caso 10 simula un flujo onboarding desde un número diferente.
-3. **Generación de Casos (LLM):** Lee productos y categorías reales del catálogo del esquema y genera un suite de pruebas personalizado (Directo, Multi-ítem, Consulta de precio, Desambiguación, Filtro semántico, Código de producto, Presentación de empaque, Ticket alto/Premium, Cross-sell/Follow-up, Teléfono no registrado).
+3. **Generación / carga de casos:**
+   * **Modo `generic`:** Lee productos y categorías del catálogo y genera 10 casos (Directo, Multi-ítem, Consulta de precio, Desambiguación, Filtro semántico, Código de producto, Presentación de empaque, Ticket alto/Premium, Cross-sell/Follow-up, Teléfono no registrado).
+   * **Modo `real`:** Carga `implementacion/{schema}/casos-reales/casos/*/caso.json` + mensajes; respeta `sequential_order`; usa `E2E_SELLER_PHONE` si `profile=seller`.
+   * **Modo `hybrid`:** Ejecuta casos reales primero y luego añade la suite genérica.
+   * **`--expand N`:** Tras cargar casos reales, el LLM genera N variantes similares usando `contexto.md` y el catálogo (marcadas `[generado]` en el reporte).
 4. **Validación Determinista Rigurosa:**
    * Verifica la correcta estructura del JSON, IDs correlativos de 1 a 10 y herramientas existentes.
    * Valida la presencia de herramientas requeridas por tipología (ej: Caso 1 debe esperar `search_products`, Caso 2 herramientas de orden, etc.) según el rol (`seller` vs `client`).
