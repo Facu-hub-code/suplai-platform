@@ -49,20 +49,38 @@ def load_context(schema: str) -> str:
     return ""
 
 
+def _read_message_file(case_dir: Path, fname: str) -> str:
+    p = case_dir / fname
+    if not p.is_file():
+        raise ValueError(f"Archivo de mensaje no encontrado: {p}")
+    return p.read_text(encoding="utf-8").strip()
+
+
 def _read_message(case_dir: Path, spec: dict[str, Any]) -> str:
     if spec.get("message"):
         return str(spec["message"]).strip()
     for key in ("message_file", "mensaje_file"):
         fname = spec.get(key)
         if fname:
-            p = case_dir / fname
-            if p.is_file():
-                return p.read_text(encoding="utf-8").strip()
+            return _read_message_file(case_dir, fname)
     for candidate in ("mensaje_simulado.txt", "mensaje.txt", "message.txt"):
         p = case_dir / candidate
         if p.is_file():
             return p.read_text(encoding="utf-8").strip()
     raise ValueError(f"Sin mensaje en {case_dir} (message, message_file o mensaje.txt)")
+
+
+def _read_products_message(case_dir: Path, spec: dict[str, Any]) -> str | None:
+    if spec.get("message_products"):
+        return str(spec["message_products"]).strip()
+    fname = spec.get("message_products_file")
+    if fname:
+        return _read_message_file(case_dir, fname)
+    for candidate in ("mensaje_productos.txt",):
+        p = case_dir / candidate
+        if p.is_file():
+            return p.read_text(encoding="utf-8").strip()
+    return None
 
 
 def _normalize_case(spec: dict[str, Any], case_dir: Path, *, idx: int) -> dict[str, Any]:
@@ -80,14 +98,20 @@ def _normalize_case(spec: dict[str, Any], case_dir: Path, *, idx: int) -> dict[s
     if isinstance(case_id, str) and case_id.isdigit():
         case_id = int(case_id)
 
+    message_products = _read_products_message(case_dir, spec)
+
     return {
         "id": case_id,
         "name": spec.get("name") or case_dir.name,
         "message": message,
+        "message_products": message_products,
         "expected_skus": list(spec.get("expected_skus") or []),
         "expected_behavior": (spec.get("expected_behavior") or "").strip(),
+        "expected_behavior_products": (spec.get("expected_behavior_products") or "").strip(),
         "expected_tools": list(spec.get("expected_tools") or []),
         "expected_tools_any": list(spec.get("expected_tools_any") or []),
+        "expected_tools_products": list(spec.get("expected_tools_products") or []),
+        "expected_tools_products_any": list(spec.get("expected_tools_products_any") or []),
         "client_identifier": spec.get("client_identifier"),
         "client_id": spec.get("client_id"),
         "client_alias_recommended": spec.get("client_alias_recommended"),
@@ -133,18 +157,32 @@ def validate_real_cases(
     test_cases: list[dict[str, Any]],
     valid_skus: set[str],
     valid_tools: set[str],
+    *,
+    products_only: bool = False,
 ) -> list[str]:
     errors: list[str] = []
     for case in test_cases:
         prefix = f"Caso real [{case.get('slug', case.get('id'))}]:"
-        if not case.get("message"):
-            errors.append(f"{prefix} mensaje vacío.")
-        if not case.get("expected_behavior"):
-            errors.append(f"{prefix} falta expected_behavior.")
-        tools = case.get("expected_tools") or []
-        tools_any = case.get("expected_tools_any") or []
-        if not tools and not tools_any:
-            errors.append(f"{prefix} definí expected_tools o expected_tools_any.")
+        if products_only:
+            if not case.get("message_products"):
+                errors.append(f"{prefix} falta mensaje_productos (message_products_file o mensaje_productos.txt).")
+            if not case.get("expected_behavior_products") and not case.get("expected_behavior"):
+                errors.append(f"{prefix} falta expected_behavior_products.")
+            if not case.get("client_id"):
+                errors.append(f"{prefix} falta client_id (requerido en modo --products-only).")
+            tools = case.get("expected_tools_products") or []
+            tools_any = case.get("expected_tools_products_any") or []
+            if not tools and not tools_any:
+                errors.append(f"{prefix} definí expected_tools_products o expected_tools_products_any.")
+        else:
+            if not case.get("message"):
+                errors.append(f"{prefix} mensaje vacío.")
+            if not case.get("expected_behavior"):
+                errors.append(f"{prefix} falta expected_behavior.")
+            tools = case.get("expected_tools") or []
+            tools_any = case.get("expected_tools_any") or []
+            if not tools and not tools_any:
+                errors.append(f"{prefix} definí expected_tools o expected_tools_any.")
         for tool in tools + tools_any:
             if tool not in valid_tools:
                 errors.append(f"{prefix} tool inválida '{tool}'.")
@@ -152,6 +190,32 @@ def validate_real_cases(
             if sku and sku not in valid_skus:
                 errors.append(f"{prefix} SKU '{sku}' no está en catálogo activo.")
     return errors
+
+
+def apply_products_only_mode(cases: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Transforma casos reales para evaluar solo carga de productos (cliente pre-seleccionado)."""
+    out: list[dict[str, Any]] = []
+    for case in cases:
+        if case.get("source") not in {"real", "generated"}:
+            continue
+        if not case.get("message_products"):
+            raise ValueError(
+                f"Caso '{case.get('slug')}': sin message_products para modo --products-only."
+            )
+        nc = dict(case)
+        nc["message"] = case["message_products"]
+        nc["products_only"] = True
+        nc["expected_behavior"] = (
+            case.get("expected_behavior_products") or case.get("expected_behavior") or ""
+        ).strip()
+        nc["expected_tools"] = list(case.get("expected_tools_products") or [])
+        nc["expected_tools_any"] = list(
+            case.get("expected_tools_products_any")
+            or ["load_seller_order_text", "edit_order_for_client"]
+        )
+        nc["name"] = f"{case['name']} [solo productos]"
+        out.append(nc)
+    return out
 
 
 def expand_real_cases_with_llm(

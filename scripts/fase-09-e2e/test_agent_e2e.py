@@ -20,6 +20,7 @@ from e2e_journeys import (
     validate_journey_cases,
 )
 from e2e_real_cases import (
+    apply_products_only_mode,
     expand_real_cases_with_llm,
     load_manifest,
     load_real_cases,
@@ -181,6 +182,151 @@ async def clear_journey_state(
                 print(f"[*] Contexto API eliminado para conversación {conv_id}.")
     except Exception as e:
         print(f"[WARN] Error al limpiar contexto API de journey: {e}")
+
+
+async def resolve_client_id_for_case(
+    conn: asyncpg.Connection, schema: str, case: dict[str, Any]
+) -> int:
+    client_id = case.get("client_id")
+    if client_id:
+        return int(client_id)
+    client_identifier = case.get("client_identifier")
+    if client_identifier:
+        resolved = await resolve_client_id_by_identifier(conn, schema, client_identifier)
+        if resolved:
+            return int(resolved)
+    raise ValueError(
+        f"Caso '{case.get('slug', case.get('name'))}': falta client_id o client_identifier resoluble."
+    )
+
+
+async def prepare_products_only_session(
+    conn: asyncpg.Connection,
+    schema: str,
+    *,
+    session_phone: str,
+    client_id: int,
+) -> None:
+    """Limpia pedidos del cliente y pre-selecciona cliente en seller_context."""
+    await clear_client_orders_by_id(conn, schema, client_id)
+
+    tenant_id = await conn.fetchval(
+        "SELECT id::text FROM public.distribuidoras WHERE schema_name = $1",
+        schema,
+    )
+    if not tenant_id:
+        raise ValueError(f"Tenant no encontrado para schema '{schema}'.")
+
+    seller_id = await conn.fetchval(
+        f"SELECT id FROM {schema}.vendedores WHERE telefono = $1 LIMIT 1",
+        session_phone,
+    )
+    if not seller_id:
+        raise ValueError(
+            f"Vendedor con teléfono {session_phone} no encontrado en {schema}.vendedores."
+        )
+
+    client_name = await conn.fetchval(
+        f"SELECT COALESCE(NULLIF(nombre, ''), razon_social) FROM {schema}.clients WHERE id = $1",
+        client_id,
+    )
+
+    conv_id = await conn.fetchval(
+        """
+        INSERT INTO core.conversations (tenant_id, schema_name, session_id)
+        VALUES ($1::uuid, $2, $3)
+        ON CONFLICT (tenant_id, session_id)
+        DO UPDATE SET schema_name = EXCLUDED.schema_name, updated_at = NOW()
+        RETURNING id
+        """,
+        tenant_id,
+        schema,
+        session_phone,
+    )
+
+    await conn.execute(
+        "DELETE FROM core.followup_sequence_executions WHERE conversation_id = $1",
+        conv_id,
+    )
+    await conn.execute(
+        "DELETE FROM core.seller_context WHERE conversation_id = $1",
+        conv_id,
+    )
+    await conn.execute(
+        """
+        INSERT INTO core.seller_context (
+            tenant_id, conversation_id, seller_id, last_selected_client_id, pending_client_candidates
+        )
+        VALUES ($1::uuid, $2, $3, $4, '[]'::jsonb)
+        ON CONFLICT (tenant_id, conversation_id, seller_id)
+        DO UPDATE SET
+            last_selected_client_id = EXCLUDED.last_selected_client_id,
+            pending_client_candidates = '[]'::jsonb,
+            updated_at = NOW()
+        """,
+        tenant_id,
+        conv_id,
+        seller_id,
+        client_id,
+    )
+    await conn.execute(
+        "DELETE FROM core.message_buffers WHERE tenant_id = $1::uuid AND session_id = $2",
+        tenant_id,
+        session_phone,
+    )
+
+    # Limpiar historial del turno previo sin borrar seller_context (API delete solo eventos).
+    await conn.execute(
+        """
+        UPDATE core.agent_turns
+        SET user_message_event_id = NULL
+        WHERE conversation_id = $1 AND tenant_id = $2::uuid
+        """,
+        conv_id,
+        tenant_id,
+    )
+    await conn.execute(
+        "DELETE FROM core.conversation_events WHERE conversation_id = $1 AND tenant_id = $2::uuid",
+        conv_id,
+        tenant_id,
+    )
+
+    prime_text = (
+        f"Contexto E2E: cliente operativo {client_name or client_id} "
+        f"(id={client_id}) ya seleccionado. Listo para cargar pedido."
+    )
+    await conn.execute(
+        """
+        INSERT INTO core.conversation_events (
+            tenant_id, conversation_id, request_id, event_type, event_payload
+        )
+        VALUES ($1::uuid, $2, $3, 'assistant_message', $4::jsonb)
+        """,
+        tenant_id,
+        conv_id,
+        f"e2e-products-only-{uuid.uuid4().hex[:12]}",
+        json.dumps({"text": prime_text}, ensure_ascii=False),
+    )
+
+    verified = await conn.fetchval(
+        """
+        SELECT last_selected_client_id
+        FROM core.seller_context
+        WHERE tenant_id = $1::uuid AND conversation_id = $2 AND seller_id = $3
+        """,
+        tenant_id,
+        conv_id,
+        seller_id,
+    )
+    if int(verified or 0) != int(client_id):
+        raise RuntimeError(
+            f"seller_context no quedó seeded (esperado {client_id}, got {verified})."
+        )
+
+    print(
+        f"[*] Products-only: cliente id={client_id} ({client_name}) pre-seleccionado "
+        f"(conv={conv_id}, seller={seller_id})."
+    )
 
 
 async def clear_test_client_orders(conn: asyncpg.Connection, schema: str):
@@ -619,6 +765,7 @@ def build_test_suite(
     expand: int = 0,
     valid_skus: set[str] | None = None,
     journey_mode: str = "chained",
+    products_only: bool = False,
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     """
     suite_mode: generic | real | hybrid
@@ -655,9 +802,14 @@ def build_test_suite(
 
     real_cases = load_real_cases(schema)
     sku_set = valid_skus if valid_skus is not None else {p["product_code"] for p in products}
-    errors = validate_real_cases(real_cases, sku_set, set(ALL_TOOLS))
+    errors = validate_real_cases(
+        real_cases, sku_set, set(ALL_TOOLS), products_only=products_only
+    )
     if errors:
         raise ValueError("Casos reales inválidos:\n" + "\n".join(f"  - {e}" for e in errors))
+
+    if products_only:
+        real_cases = apply_products_only_mode(real_cases)
 
     expanded: list[dict[str, Any]] = []
     if expand > 0:
@@ -696,6 +848,7 @@ def build_test_suite(
         "real_count": len(real_cases),
         "generated_count": len(expanded),
         "manifest_profile": manifest.get("profile"),
+        "products_only": products_only,
     }
     return cases, meta
 
@@ -845,6 +998,15 @@ Tools ejecutadas: {tools_names}
 STOCK ERP: Los SKUs {out_of_stock} tienen stock=0 en ERP. NO penalices si no se cargaron al pedido.
 El agente DEBE avisar explícitamente que esos ítems quedaron fuera por falta de stock. Carga parcial con aviso = passed: true.
 """
+
+    products_only_hint = ""
+    if case.get("products_only"):
+        products_only_hint = f"""
+MODO SOLO PRODUCTOS: El cliente YA está resuelto y pre-seleccionado en seller_context (id={case.get('client_id')}).
+NO evalúes resolución de cliente, ambigüedad de nombres, aliases ni set_seller_selected_client.
+Evalúa SOLO: parseo del texto/OCR, mapeo a SKUs del catálogo, cantidades y carga al pedido vía load_seller_order_text o edit_order_for_client.
+Si el bot pide identificar o elegir cliente en lugar de cargar productos, califica passed: false.
+"""
     
     seq_context = ""
     if sequential:
@@ -871,6 +1033,7 @@ Vas a recibir:
 {seq_context}
 {journey_hint}
 {real_case_hint}
+{products_only_hint}
 
 Reglas de Evaluación:
 - Si el caso esperaba cargar ítems al pedido (ej. create_order, edit_order, load_seller_order_text, edit_order_for_client o load_seller_order_text) y no se llamó a ninguna tool de carga, o fallaron, califica como passed: false.
@@ -941,6 +1104,7 @@ async def run_e2e_suite(
     suite_mode: str = "generic",
     expand: int = 0,
     journey_mode: str = "chained",
+    products_only: bool = False,
 ):
     db_url = os.getenv("SUPABASE_DB_URL")
     conn = await asyncpg.connect(db_url)
@@ -970,7 +1134,14 @@ async def run_e2e_suite(
             suite_mode=suite_mode, expand=expand,
             valid_skus=catalog_skus if suite_mode in {"real", "hybrid", "journey"} else None,
             journey_mode=journey_mode,
+            products_only=products_only,
         )
+        if products_only and suite_mode not in {"real", "hybrid"}:
+            print("[FAIL] --products-only requiere --suite real o hybrid.")
+            sys.exit(1)
+        if products_only:
+            sequential = False
+            print("[*] Modo products-only: cliente pre-seleccionado; evaluando solo carga de productos.")
         if suite_mode == "journey":
             journey_manifest = load_journey_manifest(schema)
             if journey_manifest.get("profile") == "seller":
@@ -1040,14 +1211,23 @@ async def run_e2e_suite(
             elif not sequential:
                 # Si no es secuencial, limpiamos el estado antes de cada caso para asegurar aislamiento total
                 print(f"[*] Aislamiento activo: Limpiando carrito y contexto antes de '{case['name']}'...")
-                if suite_mode in {"real", "hybrid"} and case.get("client_identifier"):
-                    sender_for_cleanup = resolve_sender_phone(
-                        case,
-                        manifest,
-                        default_client_phone=TEST_CLIENT_PHONE,
-                        default_seller_phone=TEST_SELLER_PHONE,
-                        seller_mode=seller,
+                sender_for_cleanup = resolve_sender_phone(
+                    case,
+                    manifest,
+                    default_client_phone=TEST_CLIENT_PHONE,
+                    default_seller_phone=TEST_SELLER_PHONE,
+                    seller_mode=seller,
+                ) if suite_mode in {"real", "hybrid", "journey"} else TEST_CLIENT_PHONE
+
+                if products_only and suite_mode in {"real", "hybrid"}:
+                    client_id = await resolve_client_id_for_case(conn, schema, case)
+                    await prepare_products_only_session(
+                        conn,
+                        schema,
+                        session_phone=sender_for_cleanup,
+                        client_id=client_id,
                     )
+                elif suite_mode in {"real", "hybrid"} and case.get("client_identifier"):
                     await clear_journey_state(
                         conn,
                         schema,
@@ -1278,6 +1458,12 @@ def main():
         help="Con --suite real|hybrid: cantidad de variantes similares generadas por LLM desde casos reales.",
     )
     
+    parser.add_argument(
+        "--products-only",
+        action="store_true",
+        help="Con --suite real|hybrid: usa mensaje_productos.txt y pre-selecciona cliente (sin evaluar resolución).",
+    )
+    
     args = parser.parse_args()
     
     asyncio.run(
@@ -1289,6 +1475,7 @@ def main():
             suite_mode=args.suite,
             expand=args.expand,
             journey_mode=args.journey_mode,
+            products_only=args.products_only,
         )
     )
 
