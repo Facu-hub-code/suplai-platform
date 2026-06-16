@@ -1,4 +1,4 @@
-# Suplai Platform Workspace
+﻿# Suplai Platform Workspace
 
 Proyecto Cursor que agrupa los repositorios del stack Suplai Sales para trabajar con contexto cruzado y consultas a Supabase vía MCP.
 
@@ -22,8 +22,8 @@ Los repos deben quedar como **carpetas hermanas** (mismos nombres que en GitHub)
 # Opción A: script (desde cualquier máquina con acceso SSH a GitHub)
 git clone git@github.com:Facu-hub-code/suplai-platform.git
 cd suplai-platform
-chmod +x scripts/clone-stack.sh
-./scripts/clone-stack.sh ~/SuplaiSales/source   # o la carpeta padre que prefieran
+chmod +x scripts/utils/clone-stack.sh
+./scripts/utils/clone-stack.sh ~/SuplaiSales/source   # o la carpeta padre que prefieran
 
 # Opción B: clones manuales en la misma carpeta padre
 mkdir -p ~/SuplaiSales/source && cd ~/SuplaiSales/source

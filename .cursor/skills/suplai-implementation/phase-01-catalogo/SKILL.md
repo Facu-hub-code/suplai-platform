@@ -50,7 +50,7 @@ Pedir: **"Revisá phase-01-productos.csv y confirmá carga"**.
 
 Orden sugerido:
 
-1. `INSERT` `{schema}.listas_precios` (4 filas) — anotar IDs
+1. `INSERT` `{schema}.listas_precios` (4 filas) — anotar IDs, todas deben ser visibles (`listas_precios.activa = true` AND `listas_precios.es_publica = true`)
 2. `INSERT` `{schema}.productos` en lotes
 3. `INSERT` `{schema}.precios_productos` desde cada uno de los archivos `phase-01-lista-precios-*.csv`
 4. `INSERT` `{schema}.productos_aliases` (un alias por fila o split)

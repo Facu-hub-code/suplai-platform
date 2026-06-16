@@ -1,4 +1,4 @@
----
+﻿---
 name: agent_e2e_testing
 description: Realizar un healthcheck de base de datos para una distribuidora y correr pruebas de conversación E2E automáticas con análisis de trazas de herramientas e IA.
 ---
@@ -18,9 +18,9 @@ Este flujo permite validar que el agente de Suplai Sales de una distribuidora es
 ---
 
 ## 2. Ejecutar Healthcheck de Base de Datos
-1. Ejecutar el script `scripts/healthcheck_schema.py` para analizar el estado de configuración de la distribuidora:
+1. Ejecutar el script `scripts/fase-09-e2e/healthcheck_schema.py` para analizar el estado de configuración de la distribuidora:
    ```bash
-   python scripts/healthcheck_schema.py --schema {esquema}
+   python scripts/fase-09-e2e/healthcheck_schema.py --schema {esquema}
    ```
 2. Si el healthcheck reporta fallos:
    - **Herramientas (tools_habilitadas):** Si hay demasiadas tools asignadas, **NO** editarlas de forma automática. Detenerse y sugerir al usuario la desactivación interactiva de las herramientas innecesarias según el perfil (seller o client). Si da su aprobación, correr el script con el flag `--fix-tools`.
@@ -35,7 +35,7 @@ Este flujo permite validar que el agente de Suplai Sales de una distribuidora es
 1. Confirmar con el usuario si el agente a probar opera en modo **Asistente de Vendedor** (`--seller=true`) o modo **Cliente Final** (`--seller=false`).
 2. Correr el script de pruebas E2E, que generará 10 casos específicos y disparará los mensajes midiendo latencia y validando llamadas a herramientas:
    ```bash
-   python scripts/test_agent_e2e.py --schema {esquema} [--seller {true/false}]
+   python scripts/fase-09-e2e/test_agent_e2e.py --schema {esquema} [--seller {true/false}]
    ```
 3. El script consultará el log de ejecución de herramientas (`core.agent_tool_runs`) para cada paso mediante consultas directas a PostgreSQL.
 

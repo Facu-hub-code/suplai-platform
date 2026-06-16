@@ -1,1 +1,7 @@
-zona_codigo,nombre,dia_visita,color_hex,vendedor_codigo,geometry_geojson,is_mock
+nombre,zone_type,description,color,dia_visita,codigo_ruta,vendedor_idx,geometry_wkt,is_mock
+ZONA NORTE - Villa Allende,sales,"Zona comercial Villa Allende, acceso por Av. San Martín.",#E74C3C,lunes,R01-A,0,"SRID=4326;MULTIPOLYGON(((-64.2082 -31.3687, -64.2002 -31.3687, -64.2002 -31.360699999999998, -64.2082 -31.360699999999998, -64.2082 -31.3687)))",true
+ZONA NORTE - Mendiolaza,sales,"Zona comercial Mendiolaza, acceso por Ruta E-53.",#F39C12,lunes,R01-B,0,"SRID=4326;MULTIPOLYGON(((-64.2142 -31.3637, -64.2062 -31.3637, -64.2062 -31.3557, -64.2142 -31.3557, -64.2142 -31.3637)))",true
+ZONA SUR - Malagueño,sales,"Zona comercial Malagueño, acceso por Av. Córdoba.",#2ECC71,martes,R02-A,1,"SRID=4326;MULTIPOLYGON(((-64.25420000000001 -31.3447, -64.2462 -31.3447, -64.2462 -31.336699999999997, -64.25420000000001 -31.336699999999997, -64.25420000000001 -31.3447)))",true
+ZONA SUR - Valle Escondido,sales,"Zona comercial Valle Escondido, acceso por Calle Principal.",#3498DB,martes,R02-B,1,"SRID=4326;MULTIPOLYGON(((-64.2442 -31.3547, -64.2362 -31.3547, -64.2362 -31.3467, -64.2442 -31.3467, -64.2442 -31.3547)))",true
+ZONA OESTE - Argüello,sales,"Zona comercial Argüello, acceso por Av. Argüello.",#9B59B6,miercoles,R03-A,2,"SRID=4326;MULTIPOLYGON(((-64.22420000000001 -31.364700000000003, -64.2162 -31.364700000000003, -64.2162 -31.3567, -64.22420000000001 -31.3567, -64.22420000000001 -31.364700000000003)))",true
+ZONA OESTE - La Calera,sales,"Zona comercial La Calera, acceso por Ruta 20.",#E67E22,miercoles,R03-B,2,"SRID=4326;MULTIPOLYGON(((-64.2342 -31.3747, -64.22619999999999 -31.3747, -64.22619999999999 -31.366699999999998, -64.2342 -31.366699999999998, -64.2342 -31.3747)))",true

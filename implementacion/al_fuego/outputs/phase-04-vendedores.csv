@@ -1,1 +1,4 @@
-vendedor_codigo,nombre,telefono,email,activo,is_mock
+nombre,telefono,email,zona,codigo_ruta,is_mock
+Juan Pérez,5493516123456,juan.perez@suplaisales.mock,NORTE,R01,true
+María González,5493516987654,maria.gonzalez@suplaisales.mock,SUR,R02,true
+Carlos Rodríguez,5493516345678,carlos.rodriguez@suplaisales.mock,OESTE,R03,true

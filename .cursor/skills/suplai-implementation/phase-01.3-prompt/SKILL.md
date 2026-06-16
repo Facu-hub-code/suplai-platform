@@ -1,4 +1,4 @@
----
+﻿---
 name: suplai-implementation-phase-01-3
 description: Fase 1.3 Personalización del Prompt — Definir identidad, contexto y reglas de negocio del agente mediante LLM. Usar tras Fase 1.1 cargada.
 ---
@@ -34,18 +34,13 @@ Usar LLM pasándole la información comercial y restricciones del distribuidor p
 Escribir la propuesta estructurada en:
 `implementacion/{schema}/outputs/phase-01-3-prompt-config.json`
 
-### 3. Carga a la Base de Datos (MCP Supabase)
-Realizar una actualización en la tabla maestra `public.distribuidoras` buscando por el `schema_name` del cliente para guardar la identidad, contexto, reglas de negocio y un número aleatorio de WhatsApp para simulación:
-```sql
-UPDATE public.distribuidoras 
-SET 
-  identidad = :identidad,
-  contexto = :contexto,
-  reglas_negocio = :reglas_negocio::jsonb,
-  agent_phone_number = :agent_phone_number, -- Generar un número aleatorio de WhatsApp (ej: string de 10-12 dígitos numéricos)
-  updated_at = NOW()
-WHERE schema_name = :schema_name;
+### 3. Carga a la Base de Datos (MANDATORIO — Usar Script)
+
+Para aplicar la propuesta a la base de datos de Supabase, se **DEBE utilizar obligatoriamente** el script de automatización:
+```bash
+python scripts/fase-01-catalogo/aplicar_prompt.py --esquema {schema}
 ```
+Este script leerá el archivo JSON generado, actualizará de forma segura la tabla maestra `public.distribuidoras` y realizará una consulta de verificación post-carga para asegurar que los datos fueron impactados correctamente.
 
 ## Cierre de la Fase
 

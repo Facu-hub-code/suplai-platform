@@ -1,4 +1,4 @@
-# Guía de Uso — Enriquecimiento de Catálogos (enhance_descriptions)
+﻿# Guía de Uso — Enriquecimiento de Catálogos (enhance_descriptions)
 
 Esta guía sirve como fuente de verdad para entender, preparar y ejecutar el flujo de enriquecimiento de descripciones y alias de productos en los catálogos de los tenants de Suplai.
 
@@ -11,13 +11,17 @@ Esta guía sirve como fuente de verdad para entender, preparar y ejecutar el flu
 > 
 > **MANDATORIO**: Antes de iniciar la ejecución, **debes preguntar activamente al usuario** si desea configurar parámetros de búsqueda específicos para el rubro (como `--dominios` específicos de ferretería o pinturería, o un `--sufijo-fallback` personalizado) y el modo de detalle de descripción deseado (`--modo-contexto` como `reducido` o `ampliado`).
 > 
-> Antes de ejecutar comandos, **realiza un autochequeo (self-check)** verificando la existencia y configuración de los siguientes elementos en el entorno local (puedes leer archivos o listar el directorio):
+> Antes de ejecutar comandos, **realiza un autochequeo (self-check)** ejecutando el script de diagnóstico de entorno:
+> ```bash
+> python scripts/utils/verificar_entorno.py
+> ```
+> O verificando de manera equivalente:
 > - El archivo `.env` en la raíz del proyecto.
-> - La presencia de las variables `OPENAI_API_KEY`, `SERPAPI_API_KEY` y `SUPABASE_DB_URL` en dicho `.env` (si faltan, avísale al usuario qué variables debe agregar).
-> - Que las dependencias en `requirements.txt` estén instaladas o que puedas ejecutar scripts de Python.
-> - La existencia de los scripts [buscar_candidatos.py](../../../scripts/buscar_candidatos.py) y [enriquecer_catalogo.py](../../../scripts/enriquecer_catalogo.py).
+> - La presencia de las variables `OPENAI_API_KEY`, `SERPER_API_KEY`/`SERPAPI_API_KEY` y `SUPABASE_DB_URL` en dicho `.env`.
+> - Que las dependencias en `requirements.txt` estén instaladas o que puedas ejecutar los scripts.
+> - La existencia de los scripts [buscar_candidatos.py](../../../scripts/fase-01-catalogo/buscar_candidatos.py) y [enriquecer_catalogo.py](../../../scripts/fase-01-catalogo/enriquecer_catalogo.py).
 >
-> Si el autochequeo es exitoso, infórmale al usuario que todo está listo y configurado, y procede a ejecutar las herramientas directamente según el flujo. Si falta algo, pídele al usuario que lo complete antes de iniciar.
+> Si el autochequeo del script es exitoso, infórmale al usuario que todo está listo y configurado, y procede a ejecutar las herramientas directamente según el flujo. Si falta alguna variable o dependencia, detén la ejecución y guíalo con instrucciones sencillas para completarla.
 
 ---
 
@@ -90,7 +94,7 @@ Usa esta opción cuando el implementador o el cliente ya posean un archivo CSV c
 1. **Estructura del CSV de entrada**: Debe contener al menos las columnas `codigo_producto`, `nombre` y `descripcion` (o `product_code`, `name` y `description`).
 2. **Ejecutar el enriquecimiento**:
    ```bash
-   python scripts/enriquecer_catalogo.py --esquema <nombre_esquema> --csv-entrada <ruta_al_csv_de_entrada> --csv-salida <ruta_al_csv_de_salida_preview> [--dominios <dominios>] [--sufijo-fallback <sufijo>] [--modo-contexto <modo>]
+   python scripts/fase-01-catalogo/enriquecer_catalogo.py --esquema <nombre_esquema> --csv-entrada <ruta_al_csv_de_entrada> --csv-salida <ruta_al_csv_de_salida_preview> [--dominios <dominios>] [--sufijo-fallback <sufijo>] [--modo-contexto <modo>]
    ```
 
 ---
@@ -101,14 +105,14 @@ Usa esta opción cuando no haya un CSV de entrada y quieras auditar la base de d
 1. **Obtener los candidatos**:
    Corre el script detector de candidatos pasando el esquema del tenant deseado. Puedes usar el parámetro opcional `--limite` (50 por defecto, o cualquier número, ej: 100):
    ```bash
-   python scripts/buscar_candidatos.py --esquema <nombre_esquema> [--limite <cantidad>]
+   python scripts/fase-01-catalogo/buscar_candidatos.py --esquema <nombre_esquema> [--limite <cantidad>]
    ```
    *Esto generará automáticamente la lista en:*
    `implementacion/{nombre_esquema}/inputs/candidatos_a_enriquecer.csv`
 
 2. **Ejecutar el enriquecimiento (Dry Run)**:
    ```bash
-   python scripts/enriquecer_catalogo.py --esquema <nombre_esquema> --csv-entrada implementacion/{nombre_esquema}/inputs/candidatos_a_enriquecer.csv --csv-salida implementacion/{nombre_esquema}/outputs/vista_previa_enriquecimiento.csv [--dominios <dominios>] [--sufijo-fallback <sufijo>] [--modo-contexto <modo>]
+   python scripts/fase-01-catalogo/enriquecer_catalogo.py --esquema <nombre_esquema> --csv-entrada implementacion/{nombre_esquema}/inputs/candidatos_a_enriquecer.csv --csv-salida implementacion/{nombre_esquema}/outputs/vista_previa_enriquecimiento.csv [--dominios <dominios>] [--sufijo-fallback <sufijo>] [--modo-contexto <modo>]
    ```
 
 ---
@@ -135,7 +139,7 @@ El paso intermedio obligatorio antes de persistir los cambios:
 Una vez que el archivo CSV revisado ha sido guardado de vuelta en la base de código, el agente ejecutará el comando con el flag `--aplicar` para leer las modificaciones y persistir los cambios en las tablas `{esquema}.productos` y `{esquema}.productos_aliases` de Supabase:
 
 ```bash
-python scripts/enriquecer_catalogo.py --esquema <nombre_esquema> --aplicar --csv-entrada implementacion/<nombre_esquema>/outputs/vista_previa_enriquecimiento.csv
+python scripts/fase-01-catalogo/enriquecer_catalogo.py --esquema <nombre_esquema> --aplicar --csv-entrada implementacion/<nombre_esquema>/outputs/vista_previa_enriquecimiento.csv
 ```
 Al finalizar la ejecución, el script:
 1. Reportará un resumen con la cantidad exacta de productos y alias actualizados de forma exitosa en la base de datos.

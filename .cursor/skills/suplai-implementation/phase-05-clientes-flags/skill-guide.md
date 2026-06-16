@@ -3,8 +3,8 @@
 Esta guía detalla los pasos para actualizar y enriquecer a los 50 clientes mock de la base de datos asignándoles estados de validación de WhatsApp e identificadores del ERP (o marcándolos como prospectos).
 
 > [!NOTE]
-> **Ejecución Directa por el Agente (Recomendado)**
-> Como agente de IA, lee el CSV de clientes generado en la Fase 4 para actualizar la tabla `{schema}.clients` mediante sentencias `UPDATE` (vía Supabase MCP). No crees registros nuevos; solo actualiza los existentes.
+> **Ejecución por script (obligatoria)**
+> La Fase 5 ya no se resuelve con SQL manual. Primero se genera el CSV local con `preparar_clientes_flags.py` y luego se carga con `cargar_clientes_flags.py`. El agente puede revisar los datos, pero la escritura a BD debe pasar por esos scripts para mantener la distribución y la trazabilidad consistentes.
 
 ---
 
@@ -17,38 +17,35 @@ Esta guía detalla los pasos para actualizar y enriquecer a los 50 clientes mock
 
 ## 🚀 Paso a Paso de la Ejecución
 
-### 1. Clasificación de Clientes (Distribución Fija)
-Clasificar los 50 clientes de la siguiente forma:
-- **40 Clientes de Cartera (ERP)**:
-  - Asignar un `codigo` ERP numérico secuencial (iniciando en `25001`).
-  - Marcar como `is_prospect = false` (o `prospecto = false`).
-  - Dividir estados de WhatsApp: 30 marcados como `validado` / con `whatsapp_validado_at` seteado al timestamp actual; y 10 marcados como `existe` o `sin_validar`.
-- **10 Clientes Prospectos**:
-  - Asignar `codigo = 0`.
-  - Marcar como `is_prospect = true`.
-  - Mezclar el estado de WhatsApp de manera libre.
+### 1. Preparar el CSV
+Tomar el archivo de Fase 4 (`implementacion/{schema}/outputs/phase-04-clientes.csv`) y correr:
 
-### 2. Salida Local (Output)
-Generar el archivo CSV en la ruta:
-**`implementacion/{schema}/outputs/phase-05-clientes-flags.csv`**
+```bash
+python scripts/fase-05-clientes-flags/preparar_clientes_flags.py --esquema <schema>
+```
 
-Columnas: `cliente_codigo`, `codigo_erp`, `is_prospect`, `whatsapp_status`.
+El script:
+- Genera `implementacion/{schema}/outputs/phase-05-clientes-flags.csv`.
+- Asigna 40 clientes ERP y 10 prospectos.
+- Usa `codigo_erp` secuencial desde `25001`.
+- Marca `whatsapp_estado` y `whatsapp_validado_at` según la distribución fija.
+- Escribe las columnas `phone_number`, `razon_social`, `codigo_erp`, `whatsapp_estado`, `whatsapp_validado_at`, `etiqueta` e `is_prospect`.
 
----
+### 2. Cargar al tenant
+Una vez revisado el CSV, ejecutar:
 
-## 💾 Carga a la Base de Datos (MCP Supabase)
+```bash
+python scripts/fase-05-clientes-flags/cargar_clientes_flags.py --esquema <schema>
+```
 
-1. **Chequear Enums**:
-   ```sql
-   SELECT DISTINCT whatsapp_estado FROM {schema}.clients;
-   ```
-2. **Ejecutar Actualizaciones**:
-   Realizar actualizaciones por bloque o individuales a `{schema}.clients` buscando a los clientes correspondientes por teléfono o código interno.
+El script:
+- Hace `UPDATE` sobre `{schema}.clients` por `phone_number`.
+- No inserta filas nuevas.
+- Valida la distribución final y reporta los contadores en consola.
 
----
+### 3. Verificación
+La verificación principal ya queda impresa por el script de carga. Si hace falta revisar a mano:
 
-## 🔍 Verificación Post-Carga
-Comprobar los contadores:
 ```sql
 SELECT COUNT(*) FROM {schema}.clients WHERE codigo > 0; -- Debe ser aproximadamente 40
 SELECT COUNT(*) FROM {schema}.clients WHERE codigo = 0; -- Debe ser aproximadamente 10

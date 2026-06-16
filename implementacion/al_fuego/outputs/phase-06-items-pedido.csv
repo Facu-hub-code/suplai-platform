@@ -1,1 +1,401 @@
-pedido_ref,product_code,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587905250,25001,AFCE0108,Chorizo x 4un Magret EV x 400gr,5,13940.78,2,Pedido: 5 unidad (normalizado: 20 unidad; equiv: 5 unidad),true,false,false
+P-00001,5493587905250,25001,AFTE0020 (C),Chinchulin (C),5,10990.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00001,5493587905250,25001,VACO0159,Etcetera Semillon Chilecito,3,16300.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00001,5493587905250,25001,VACO0045,Planchetita con tapaEl Mansero,5,38000.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00002,5493587905250,25001,VACO0028,Sobres salmón ahumadoFazzio,4,12300.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00002,5493587905250,25001,DELI0036,Pizza Fugazzetta Luco,2,12000.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00002,5493587905250,25001,AFTE0007,Molleja,2,40990.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00003,5493587905250,25001,AFDE0173,Aceite de oliva Genovesa x 500ml,1,28900.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00003,5493587905250,25001,VACO0114,Domaine Edem blonde,1,21500.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00003,5493587905250,25001,VACO0028,Sobres salmón ahumadoFazzio,2,12300.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00004,5493582641213,25002,VACO0006,Mejillones peladosFazzio,1,17600.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00004,5493582641213,25002,AFAP0001,Branca 750cc,5,18000.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00004,5493582641213,25002,VACO0135,As de Bravas,3,105000.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00004,5493582641213,25002,VACO0153,Capitulo 1 Cabernet Sauvignon Vista,4,19000.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00005,5493582641213,25002,VACO0053,Set TramontinaEl Mansero,3,10000.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00005,5493582641213,25002,VACO0037,Heineken Litro,2,6520.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00005,5493582641213,25002,AFTE0029,Arañita Vacuna,2,18990.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00005,5493582641213,25002,VACO0003,RabasFazzio,3,35200.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00006,5493582641213,25002,VACO0107,Saint Felicien Cabernet Sauvignon,1,13500.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00006,5493582641213,25002,VACO0117,DV Lesplorator Salta,2,35700.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00006,5493582641213,25002,VACO0122,Son Vida Malbec,5,23000.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00007,5492991227644,25003,AFCV0002,Imperial Stout Lata 473 cc,5,2900.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00007,5492991227644,25003,VACO0092,Champagne Salentein Extra Brut,2,13600.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00008,5492991227644,25003,VACO0121,Angelica Cabernet Franc,4,39000.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00009,5492991227644,25003,VACO0167,Sal de campo marina con especias,5,4600.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00009,5492991227644,25003,VACO0104,BONDIOLA FETEADA (AL VACÍO)DON RAMON,1,47758.88,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00009,5492991227644,25003,AFDE0211,Pringles Cebolla 109gr,5,6300.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00010,5493418277249,25004,VACO0222,luco sorrentinos osobuco al malbec,1,16500.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00010,5493418277249,25004,VACO0121,Angelica Cabernet Franc,2,39000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00010,5493418277249,25004,AFTE0090(C),Centro de asado marcado al medio (6 costillas)(C),1,32990.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00011,5493418277249,25004,VACO0089,Whisky jack daniels,2,10000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00011,5493418277249,25004,AFTE0010,Vacio,4,23990.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00011,5493418277249,25004,VACO0058,Grillero verduraEl Mansero,4,22200.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00011,5493418277249,25004,AFTE0091(C),Asado tira ancha (6 costillas)(C),3,32990.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00012,5493418277249,25004,AFDE0171,Aceite de oliva arauco x 500ml,5,42000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00012,5493418277249,25004,VACO0139,Al Pasión Grand Malbec,2,52500.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00012,5493418277249,25004,AFDE0212,Pringles Queso 109gr,2,6300.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00012,5493418277249,25004,VACO0135,As de Bravas,5,105000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00013,5493587747641,25005,AFDE0044,Porotos Condimentados En Aceite x 310gr,2,7297.60,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00014,5493587747641,25005,VAPA0023,Parrilla 95x58 Acero Inox,3,423000.00,2,Pedido: 3 unidad (normalizado: 285 unidad; equiv: 3 unidad),true,false,false
+P-00014,5493587747641,25005,VACO0089,Whisky jack daniels,3,10000.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00014,5493587747641,25005,AFBE0018,Sprite Lata x 354CC,5,1400.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00015,5493587747641,25005,VACO0113,DV Catena Chardonnay,4,20500.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00015,5493587747641,25005,AFTE0011,Matambre,2,14990.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00015,5493587747641,25005,DELI0039,Sorrentinos premium camarones al limón,5,16100.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00015,5493587747641,25005,VACO0110,DV Catena Malbec Malbec,5,25200.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00016,5492614053074,25006,AFBE0015,Coca Zero Lata x 354CC,5,1900.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00016,5492614053074,25006,VACO0236,rosado primero piel y hueso,5,25000.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00017,5492614053074,25006,AFAP0001,Branca 750cc,5,18000.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00018,5492614053074,25006,AFDE0088,Molinillo Pimienta Negra x 55gr,4,7100.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00018,5492614053074,25006,VACO0022,Filet trucha despinadaFazzio,5,35280.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00018,5492614053074,25006,AFBE0004,Coca Zero x 1.5Lt,4,4502.92,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00018,5492614053074,25006,VACO0216,Heinz ketchup con jalapeño,3,9500.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00019,5493514079279,25007,AFWKY009,Whisky J. Walker Red x 750cc,5,31700.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00019,5493514079279,25007,VACO0022,Filet trucha despinadaFazzio,1,35280.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00019,5493514079279,25007,AFTE0045,Nalga Porcionada,5,22990.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00019,5493514079279,25007,AFDE0110,Dientes de Ajo Negro Garlic x 60gr,3,8000.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00020,5493514079279,25007,AFTE0005,Bife de Chorizo,2,43990.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00020,5493514079279,25007,AFTE0002,Picaña,1,32990.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00020,5493514079279,25007,VACO0058,Grillero verduraEl Mansero,3,22200.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00021,5493514079279,25007,VACO0209,red bull summer edition,2,4230.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00021,5493514079279,25007,VACO0078,Pizza envasada al vacio fugazettaPIZZA NAPLES,1,12700.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00022,5493876914178,25008,VACO0201,corona 710cc,4,7500.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00023,5493876914178,25008,AFBE0013,Schweppes Pomelo x 1.5Lt,3,3827.91,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00023,5493876914178,25008,VACO0019,Milanesas de merluzaFazzio,4,20160.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00023,5493876914178,25008,VAPA0025,Set Palitas Acero Inox,1,130000.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00024,5493876914178,25008,VACO0089,Whisky jack daniels,3,10000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00024,5493876914178,25008,VACO0108,Saint Felicien Cabernet Franc,1,13500.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00024,5493876914178,25008,VACO0207,red bull 350,5,6000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00025,5492617175545,25009,VACO0233,naranjo piel y hueso,4,30000.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00025,5492617175545,25009,VACO0034,Agua Villavicencio 500ml,1,1900.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00026,5492617175545,25009,VACO0188,juego parrillero cacique artesanal,5,39000.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00026,5492617175545,25009,VACO0029,Coca cola vidrio 237ml,5,2000.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00027,5492617175545,25009,VACO0227,luco ravioles de pollo,3,8500.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00028,5493818437953,25010,VACO0006,Mejillones peladosFazzio,4,17600.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00028,5493818437953,25010,VACO0017,Canelones de mariscoFazzio,4,44100.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00028,5493818437953,25010,DELI0039,Sorrentinos premium camarones al limón,4,16100.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00028,5493818437953,25010,VACO0090,Champagne las perdices brut nature,2,14100.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00029,5493818437953,25010,VACO0126,Lo Sance Rosado,5,20200.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00029,5493818437953,25010,AFDE0091,Molinillo Sal Marina Gruesa x 110gr,1,5206.39,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00029,5493818437953,25010,DELI0036,Pizza Fugazzetta Luco,5,12000.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00030,5493818437953,25010,VACO0107,Saint Felicien Cabernet Sauvignon,1,13500.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00031,5493582132179,25011,VACO0021,Filet salmónFazzio,3,77200.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00031,5493582132179,25011,AFTE0086,Lomo Estancia CP,3,37990.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00031,5493582132179,25011,VACO0221,luco sorrentinos bondiola de cerdo,3,16500.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00032,5493582132179,25011,AFTE0006,Ojo de Bife,5,44990.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00032,5493582132179,25011,VACO0181,carbón mezcla pura 4kg,5,4600.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00032,5493582132179,25011,VACO0174,coca cola vidrio ret 350 ml,4,2500.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00032,5493582132179,25011,VACO0045,Planchetita con tapaEl Mansero,1,38000.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00033,5493582132179,25011,VACO0049,Juego cuchillo y tenedorEl Mansero,4,28600.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00034,5493872845902,25012,VACO0144,Enemigo Cabernet Franc,4,31600.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00034,5493872845902,25012,AFTE0052,Tapa de Asado,5,19990.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00035,5493872845902,25012,VACO0089,Whisky jack daniels,4,10000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00036,5493872845902,25012,VACO0100,SALAME PELADO (AL VACÍO)DON RAMON,4,51420.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00037,5492997670210,25013,VACO0227,luco ravioles de pollo,1,8500.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00037,5492997670210,25013,VACO0028,Sobres salmón ahumadoFazzio,4,12300.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00037,5492997670210,25013,VACO0169,Sal de campo especial,3,7200.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00037,5492997670210,25013,VACO0125,Lo Sance Brut Nature,1,20200.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00038,5492997670210,25013,AFTE0086,Lomo Estancia CP,2,37990.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00038,5492997670210,25013,VACO0088,Whisky black label,3,10000.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00038,5492997670210,25013,VACO0031,Monjita Heineken,5,3700.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00038,5492997670210,25013,VACO0042,Tabla 30x60 KiriEl Mansero,4,76200.00,2,Pedido: 4 unidad (normalizado: 120 unidad; equiv: 4 unidad),true,false,false
+P-00039,5492997670210,25013,VACO0027,KanikamaFazzio,3,30200.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00039,5492997670210,25013,AFDE0150,Pringles Original x 37gr,5,6300.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00040,5493811657614,25014,VACO0166,Sal de campo ahumada,5,4500.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00041,5493811657614,25014,AFBO0047,Campari x 750cc,2,9500.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00041,5493811657614,25014,DELI0036,Pizza Fugazzetta Luco,5,12000.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00041,5493811657614,25014,VINO0171,Luca pinot noir,5,28700.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00042,5493811657614,25014,AFDE0041,Berenjenas en Escabeche x 310gr,4,7000.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00042,5493811657614,25014,VACO0015,Paella cocinadaFazzio,2,27700.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00042,5493811657614,25014,VACO0022,Filet trucha despinadaFazzio,5,35280.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00043,5492994145193,25015,VACO0055,Set cuchillo y tenedor n23El Mansero,5,42300.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00044,5492994145193,25015,VACO0014,Caja empanada pescadoFazzio,2,30200.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00045,5492994145193,25015,VACO0135,As de Bravas,1,105000.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00045,5492994145193,25015,VACO0175,coca cola 2.25 L,2,6000.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00045,5492994145193,25015,AFVA0100,Iniciador de Fuego Penicas x 9un,4,2100.00,4,Pedido: 4 unidad (normalizado: 36 unidad; equiv: 4 unidad),true,false,false
+P-00046,5493515971311,25016,VACO0233,naranjo piel y hueso,1,30000.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00047,5493515971311,25016,VACO0115,Domaine edem Brunnette,2,17800.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00047,5493515971311,25016,VACO0149,Etcétera Pinot Noir,2,16300.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00048,5493515971311,25016,VACO0037,Heineken Litro,2,6520.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00048,5493515971311,25016,AFTE0067,Media Luna De Vacio,1,39990.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00048,5493515971311,25016,VACO0206,red bull,3,5710.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00048,5493515971311,25016,VACO0168,Sal de campo marina sin especias,5,3400.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00049,5492994228106,25017,AFTE0086,Lomo Estancia CP,3,37990.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00050,5492994228106,25017,VACO0215,KRAFT salsa BBQ pet,3,10200.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00050,5492994228106,25017,AFBE0001,Coca Cola x 1.5Lt,2,4502.92,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00051,5492994228106,25017,VACO0040,Bandeja servir asado 42x20El Mansero,2,18400.00,2,Pedido: 2 unidad (normalizado: 84 unidad; equiv: 2 unidad),true,false,false
+P-00052,5492998718887,25018,VACO0036,Monjita Imperial golden,2,2600.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00053,5492998718887,25018,VACO0145,Gran Enemigo Gualtallary,2,66700.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00053,5492998718887,25018,VACO0005,Langostinos peladosFazzio,3,37800.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00053,5492998718887,25018,AFTE0999,Entraña estancia CP,2,34990.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00053,5492998718887,25018,AFBO0202,Enemigo malbec x750,2,31600.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00054,5492998718887,25018,AFVA0165,luigi bosca de sangre malbec x 750ml,2,18400.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00054,5492998718887,25018,VACO0105,Saint Felicien Malbec,1,13500.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00054,5492998718887,25018,VACO0129,Relator Malbec,5,17900.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00054,5492998718887,25018,AFDE0170,Aceite de oliva Arauco x 250ml,1,22300.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00055,5492995028869,25019,VACO0104,BONDIOLA FETEADA (AL VACÍO)DON RAMON,3,47758.88,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00055,5492995028869,25019,VACO0033,Monjita Blue Moon,1,4760.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00056,5492995028869,25019,VACO0125,Lo Sance Brut Nature,3,20200.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00056,5492995028869,25019,AFCV0002,Imperial Stout Lata 473 cc,1,2900.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00056,5492995028869,25019,VACO0121,Angelica Cabernet Franc,3,39000.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00056,5492995028869,25019,VACO0032,Lata Blue Moon,2,4000.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00057,5492995028869,25019,VACO0173,sprite lata 230 ml,1,1300.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00057,5492995028869,25019,AFLA0074,Provoleta Parrillera Formagge x 450gr,4,12000.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00057,5492995028869,25019,VACO0113,DV Catena Chardonnay,3,20500.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00058,5493517304254,25020,VACO0222,luco sorrentinos osobuco al malbec,4,16500.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00058,5493517304254,25020,VACO0103,BONDIOLA EN TROZO (AL VACÍO)DON RAMON,3,42852.15,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00059,5493517304254,25020,VACO0144,Enemigo Cabernet Franc,3,31600.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00059,5493517304254,25020,VACO0216,Heinz ketchup con jalapeño,3,9500.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00060,5493517304254,25020,AFDE0034,Sal Marina Entrefina x 500gr,4,2600.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00060,5493517304254,25020,VACO0235,los sauces piel y hueso,3,20000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00060,5493517304254,25020,VACO0222,luco sorrentinos osobuco al malbec,3,16500.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00061,5493416986538,25021,VACO0002,Mix Mariscos surtidosFazzio,4,32700.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00062,5493416986538,25021,AFVA0100,Iniciador de Fuego Penicas x 9un,4,2100.00,2,Pedido: 4 unidad (normalizado: 36 unidad; equiv: 4 unidad),true,false,false
+P-00062,5493416986538,25021,VACO0149,Etcétera Pinot Noir,4,16300.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00062,5493416986538,25021,AFDS0017,Vodka Absolut x 750 cc.,2,15000.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00063,5493416986538,25021,VACO0119,Angelica Malbec,4,43000.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00063,5493416986538,25021,VACO0045,Planchetita con tapaEl Mansero,5,38000.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00063,5493416986538,25021,VACO0154,Capitulo 1 Petit Verdot Los Chacayes,5,19000.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00063,5493416986538,25021,VACO0117,DV Lesplorator Salta,3,35700.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00064,5492619239862,25022,VARI0008,Tapón vacio,3,11000.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00064,5492619239862,25022,VACO0038,Bandeja servir asado 50x25El Mansero,4,30000.00,3,Pedido: 4 unidad (normalizado: 200 unidad; equiv: 4 unidad),true,false,false
+P-00065,5492619239862,25022,VACO0212,pepsi 2L,1,4500.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00066,5492619239862,25022,VACO0162,Corlieri,4,3400.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00066,5492619239862,25022,VACO0207,red bull 350,3,6000.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00066,5492619239862,25022,VACO0108,Saint Felicien Cabernet Franc,2,13500.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00066,5492619239862,25022,AFLA0074,Provoleta Parrillera Formagge x 450gr,5,12000.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00067,5493513952681,25023,VACO0014,Caja empanada pescadoFazzio,1,30200.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00067,5493513952681,25023,VACO0235,los sauces piel y hueso,5,20000.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00068,5493513952681,25023,AFDE0211,Pringles Cebolla 109gr,3,6300.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00068,5493513952681,25023,VACO0183,leña quebracho puro 6kg,2,8400.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00068,5493513952681,25023,VACO0148,Gran Enemigo Blend,4,66700.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00068,5493513952681,25023,VACO0160,Etcétera Tocai Vista Flores,2,16300.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00069,5493513952681,25023,VACO0206,red bull,1,5710.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00069,5493513952681,25023,VACO0203,paso de los toros 500ml,2,2050.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00069,5493513952681,25023,VACO0140,Al Pasión Cabernet Franc,2,52500.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00069,5493513952681,25023,VACO0051,Hacha cheffEl Mansero,1,34800.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00070,5493414799650,25024,AFDE0201,chimichurri el viajero 310gr,2,9700.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00070,5493414799650,25024,VACO0126,Lo Sance Rosado,4,20200.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00071,5493414799650,25024,VACO0123,Son Vida Cabernet Sauvignon,2,23000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00072,5493414799650,25024,VACO0173,sprite lata 230 ml,4,1300.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00072,5493414799650,25024,AFDE0171,Aceite de oliva arauco x 500ml,3,42000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00072,5493414799650,25024,VACO0207,red bull 350,5,6000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00073,5492992500733,25025,AFTE0045,Nalga Porcionada,1,22990.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00074,5492992500733,25025,AFBE0013,Schweppes Pomelo x 1.5Lt,5,3827.91,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00074,5492992500733,25025,VACO0004,CalamaretesFazzio,2,25200.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00075,5492992500733,25025,AFDE0040,Ajíes Dulces en Vinagre x 300gr,2,6500.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00075,5492992500733,25025,AFTE0007,Molleja,5,40990.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00075,5492992500733,25025,VACO0162,Corlieri,2,3400.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00075,5492992500733,25025,VACO0150,Capitulo 1 Malbec Vista Flores,1,19000.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00076,5492615139305,25026,VACO0057,SmasherEl Mansero (copia),4,15000.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00076,5492615139305,25026,DELI0035,Pizza 4 quesos Luco,4,12000.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00077,5492615139305,25026,AFBO0203,Enemigo cab-franc x750,3,31600.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00077,5492615139305,25026,VACO0146,Gran Enemigo Chacayes,5,66700.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00077,5492615139305,25026,VACO0161,Etcétera Torrontes Valle Famatina,1,16300.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00078,5492615139305,25026,VACO0187,cuchilla resina equipos cacique artesanal,1,34800.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00078,5492615139305,25026,VACO0082,Ramazotti,4,8700.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00078,5492615139305,25026,AFCE0111,Morcilla bombom magret EV x 400 gr,4,10377.11,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00078,5492615139305,25026,AFLA0075,Provoleta Napolitana Formagge x 220gr,4,7200.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00079,5492618861463,25027,AFTE0007,Molleja,5,40990.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00079,5492618861463,25027,VACO0146,Gran Enemigo Chacayes,3,66700.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00080,5492618861463,25027,VACO0020,Milanesas de pollloFazzio,5,18200.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00080,5492618861463,25027,VACO0153,Capitulo 1 Cabernet Sauvignon Vista,4,19000.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00080,5492618861463,25027,AFVA0206,Maderita iniciadoras de fuego,1,2100.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00080,5492618861463,25027,VACO0028,Sobres salmón ahumadoFazzio,4,12300.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00081,5492618861463,25027,VACO0179,coca zero 500 ml,4,1600.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00082,5493812941974,25028,AFBO0023,Saint Felicien Malbec 750cc,1,13500.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00082,5493812941974,25028,VACO0117,DV Lesplorator Salta,2,35700.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00082,5493812941974,25028,VARI0009,Enfriador y pico servidor,2,27200.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00082,5493812941974,25028,VACO0022,Filet trucha despinadaFazzio,1,35280.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00083,5493812941974,25028,VACO0051,Hacha cheffEl Mansero,1,34800.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00083,5493812941974,25028,AFBE0015,Coca Zero Lata x 354CC,4,1900.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00084,5493812941974,25028,VACO0210,lata pepsi,4,1900.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00084,5493812941974,25028,VACO0015,Paella cocinadaFazzio,5,27700.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00084,5493812941974,25028,AFTE0999,Entraña estancia CP,3,34990.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00085,5493817404433,25029,AFTE0086,Lomo Estancia CP,3,37990.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00085,5493817404433,25029,AFCE0111,Morcilla bombom magret EV x 400 gr,4,10377.11,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00086,5493817404433,25029,AFVA0100,Iniciador de Fuego Penicas x 9un,2,2100.00,2,Pedido: 2 unidad (normalizado: 18 unidad; equiv: 2 unidad),true,false,false
+P-00086,5493817404433,25029,VACO0137,Al Pasión Cabernet Sauvignon,1,21280.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00087,5493817404433,25029,VACO0166,Sal de campo ahumada,4,4500.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00087,5493817404433,25029,AFTE0100,Hookipa beef,3,20990.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00087,5493817404433,25029,VACO0207,red bull 350,5,6000.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00087,5493817404433,25029,VACO0028,Sobres salmón ahumadoFazzio,5,12300.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00088,5493419686914,25030,AFCE0108,Chorizo x 4un Magret EV x 400gr,3,13940.78,3,Pedido: 3 unidad (normalizado: 12 unidad; equiv: 3 unidad),true,false,false
+P-00088,5493419686914,25030,VACO0009,Rodajas de surubíFazzio,4,25200.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00088,5493419686914,25030,VACO0023,Arrollados de pollo FazzioFazzio,4,16800.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00088,5493419686914,25030,AFWKY009,Whisky J. Walker Red x 750cc,3,31700.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00089,5493419686914,25030,VACO0139,Al Pasión Grand Malbec,4,52500.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00089,5493419686914,25030,AFDE0211,Pringles Cebolla 109gr,3,6300.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00089,5493419686914,25030,VINO0172,Luca malbec,2,33700.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00089,5493419686914,25030,VACO0141,Al Pasión Petit Verdot,3,10000.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00090,5493419686914,25030,VACO0005,Langostinos peladosFazzio,2,37800.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00090,5493419686914,25030,VARI0008,Tapón vacio,2,11000.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00090,5493419686914,25030,VACO0027,KanikamaFazzio,3,30200.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00091,5493518648263,25031,VACO0082,Ramazotti,4,8700.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00091,5493518648263,25031,VACO0214,KRAFT mac cheese 206G,2,6700.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00091,5493518648263,25031,AFDE0155,Hummus Baba Ganush x 170gr,5,5500.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00091,5493518648263,25031,VACO0171,sprite 2.25 L,1,5700.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00092,5493518648263,25031,VACO0212,pepsi 2L,4,4500.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00092,5493518648263,25031,VACO0077,Pizza envasada al vacío muzzarellaPIZZA NAPLES,3,12700.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00092,5493518648263,25031,VACO0138,Al Al Pasión Sauvignon Blanc,1,21280.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00093,5493518648263,25031,VACO0203,paso de los toros 500ml,4,2050.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00094,5493516216782,25032,AFBO0067,DV Catena Cab-Malb x 750cc,1,22000.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00094,5493516216782,25032,VACO0147,Gran Enemigo Cepillo,1,66700.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00094,5493516216782,25032,AFBE0004,Coca Zero x 1.5Lt,2,4502.92,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00094,5493516216782,25032,AFDE0110,Dientes de Ajo Negro Garlic x 60gr,4,8000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00095,5493516216782,25032,VACO0025,Milanesas de merluza finas hierbasFazzio,4,19600.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00095,5493516216782,25032,VACO0167,Sal de campo marina con especias,4,4600.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00095,5493516216782,25032,AFBO0022,DV Catena Malbec Malbec 750cc,5,25200.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00095,5493516216782,25032,AFDE0091,Molinillo Sal Marina Gruesa x 110gr,5,5206.39,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00096,5493516216782,25032,AFTE0010,Vacio,3,23990.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00096,5493516216782,25032,VACO0082,Ramazotti,3,8700.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00096,5493516216782,25032,VACO0194,Jamon crudo trozo en vacio x kg,3,55623.50,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00096,5493516216782,25032,AFDE0153,Hummus Higos Turcos x 170gr,3,5500.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00097,5492612780568,25033,AFDE0041,Berenjenas en Escabeche x 310gr,4,7000.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00097,5492612780568,25033,VACO0161,Etcétera Torrontes Valle Famatina,1,16300.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00097,5492612780568,25033,AFDE0044,Porotos Condimentados En Aceite x 310gr,4,7297.60,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00098,5492612780568,25033,AFTE0091(C),Asado tira ancha (6 costillas)(C),3,32990.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00099,5492612780568,25033,VACO0059,Set parrilero pala y atizadorEl Mansero,1,10000.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00099,5492612780568,25033,VACO0195,Jamon crudo feteado env vacio x kg,5,60476.15,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00100,5493582639964,25034,VACO0204,pepsi 500ml,3,2200.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00100,5493582639964,25034,VACO0008,Filet de merluza Fazzio,2,17640.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00101,5493582639964,25034,VACO0212,pepsi 2L,3,4500.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00101,5493582639964,25034,VINO0173,Luca Beso de Dante,4,48400.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00102,5493582639964,25034,VACO0121,Angelica Cabernet Franc,1,39000.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00102,5493582639964,25034,AFDE0034,Sal Marina Entrefina x 500gr,1,2600.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00102,5493582639964,25034,VACO0214,KRAFT mac cheese 206G,4,6700.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00103,5493814729528,25035,VACO0058,Grillero verduraEl Mansero,3,22200.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00103,5493814729528,25035,VACO0013,Caja empanada mariscoFazzio,5,30200.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00103,5493814729528,25035,VACO0008,Filet de merluza Fazzio,2,17640.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00104,5493814729528,25035,AFTE0012,Entraña,2,39990.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00104,5493814729528,25035,AFLA0070,Brie Formagge x 100gr,1,9400.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493814729528,25035,VACO0160,Etcétera Tocai Vista Flores,3,16300.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00106,5493876922419,25036,AFVA0100,Iniciador de Fuego Penicas x 9un,1,2100.00,1,Pedido: 1 unidad (normalizado: 9 unidad; equiv: 1 unidad),true,false,false
+P-00106,5493876922419,25036,AFDE0152,Hummus Zanahorias Asadas x 170gr,5,5500.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00106,5493876922419,25036,AFTE0100,Hookipa beef,5,20990.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00106,5493876922419,25036,VACO0002,Mix Mariscos surtidosFazzio,4,32700.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00107,5493876922419,25036,VACO0011,Filet galloFazzio,1,17640.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00107,5493876922419,25036,VACO0030,Lata HeinekeN,4,3800.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00107,5493876922419,25036,AFTE0020,Chinchulin,1,10990.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00108,5493876922419,25036,VACO0038,Bandeja servir asado 50x25El Mansero,5,30000.00,1,Pedido: 5 unidad (normalizado: 250 unidad; equiv: 5 unidad),true,false,false
+P-00108,5493876922419,25036,VACO0109,Saint Felicien Chardonnay,3,13500.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00109,5492618889598,25037,VACO0025,Milanesas de merluza finas hierbasFazzio,1,19600.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00109,5492618889598,25037,VACO0110,DV Catena Malbec Malbec,2,25200.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00110,5492618889598,25037,VACO0142,Enemigo Malbec,3,31600.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00111,5492618889598,25037,AFTE0007 (C),Molleja (C),5,40990.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00111,5492618889598,25037,VACO0153,Capitulo 1 Cabernet Sauvignon Vista,2,19000.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00111,5492618889598,25037,VACO0043,Tabla 30x15El Mansero,1,26600.00,2,Pedido: 1 unidad (normalizado: 30 unidad; equiv: 1 unidad),true,false,false
+P-00112,5492615021286,25038,VACO0008,Filet de merluza Fazzio,3,17640.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00112,5492615021286,25038,VACO0185,juego doble cacique artesanal,5,27800.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00112,5492615021286,25038,VACO0033,Monjita Blue Moon,2,4760.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00112,5492615021286,25038,VACO0028,Sobres salmón ahumadoFazzio,5,12300.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00113,5492615021286,25038,VACO0044,Tabla 20x30 guayubiraEl Mansero,5,33400.00,3,Pedido: 5 unidad (normalizado: 100 unidad; equiv: 5 unidad),true,false,false
+P-00113,5492615021286,25038,VACO0173,sprite lata 230 ml,3,1300.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00113,5492615021286,25038,VACO0016,Cazuela de mariscos cocinadaFazzio,3,37800.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00113,5492615021286,25038,VACO0108,Saint Felicien Cabernet Franc,3,13500.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00114,5492615021286,25038,VACO0019,Milanesas de merluzaFazzio,3,20160.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00115,5493813520000,25039,AFTE0007,Molleja,1,40990.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00116,5493813520000,25039,VACO0222,luco sorrentinos osobuco al malbec,5,16500.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00116,5493813520000,25039,VACO0129,Relator Malbec,2,17900.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00116,5493813520000,25039,AFCE0111,Morcilla bombom magret EV x 400 gr,5,10377.11,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00116,5493813520000,25039,VACO0021,Filet salmónFazzio,4,77200.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00117,5493813520000,25039,AFTE0999,Entraña estancia CP,1,34990.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00117,5493813520000,25039,VACO0145,Gran Enemigo Gualtallary,5,66700.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00117,5493813520000,25039,AFTE0002,Picaña,2,32990.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00117,5493813520000,25039,VACO0160,Etcétera Tocai Vista Flores,1,16300.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00118,5492997489876,25040,VACO0019,Milanesas de merluzaFazzio,3,20160.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00118,5492997489876,25040,AFTE0012,Entraña,5,39990.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00119,5492997489876,25040,AFDE0040,Ajíes Dulces en Vinagre x 300gr,1,6500.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00119,5492997489876,25040,VACO0038,Bandeja servir asado 50x25El Mansero,5,30000.00,1,Pedido: 5 unidad (normalizado: 250 unidad; equiv: 5 unidad),true,false,false
+P-00119,5492997489876,25040,VACO0194,Jamon crudo trozo en vacio x kg,1,55623.50,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00119,5492997489876,25040,VACO0165,Sal de campo 5 pimientas,1,5200.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00120,5492997489876,25040,AFCE0103,Bondiola Magret EV,2,14417.27,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00120,5492997489876,25040,VACO0074,Provoleta de cabra Formagge,5,10000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00120,5492997489876,25040,VACO0038,Bandeja servir asado 50x25El Mansero,2,30000.00,1,Pedido: 2 unidad (normalizado: 100 unidad; equiv: 2 unidad),true,false,false
+P-00120,5492997489876,25040,VACO0207,red bull 350,1,6000.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00121,5492612928724,0,VACO0124,Lo Sance Extra Brut,3,20200.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5492612928724,0,VACO0127,Lo Sance Chenin,1,16600.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00121,5492612928724,0,AFDE0170,Aceite de oliva Arauco x 250ml,4,22300.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00122,5492612928724,0,VACO0123,Son Vida Cabernet Sauvignon,2,23000.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00122,5492612928724,0,VACO0145,Gran Enemigo Gualtallary,5,66700.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00122,5492612928724,0,VACO0030,Lata HeinekeN,1,3800.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00122,5492612928724,0,AFTE0090(C),Centro de asado marcado al medio (6 costillas)(C),1,32990.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00123,5492612928724,0,VACO0118,DV Lesplorator La Rioja,3,35700.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00124,5492617236955,0,VACO0173,sprite lata 230 ml,4,1300.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00124,5492617236955,0,VACO0116,Domaine Edem No7,2,20300.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00124,5492617236955,0,VACO0212,pepsi 2L,2,4500.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00125,5492617236955,0,AFDE0210,Pringles Original 109gr,5,5600.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00125,5492617236955,0,VACO0115,Domaine edem Brunnette,5,17800.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00126,5492617236955,0,VACO0236,rosado primero piel y hueso,1,25000.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00127,5492617413812,0,VACO0147,Gran Enemigo Cepillo,4,66700.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00128,5492617413812,0,DELI0034,Pizza Especial Luco,5,12000.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00128,5492617413812,0,VACO0016,Cazuela de mariscos cocinadaFazzio,5,37800.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00128,5492617413812,0,VACO0015,Paella cocinadaFazzio,5,27700.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00129,5492617413812,0,VACO0213,Bullseye BBQ,5,12500.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00130,5492998066543,0,VACO0116,Domaine Edem No7,5,20300.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00130,5492998066543,0,VACO0234,señor piel y hueso,3,32000.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00130,5492998066543,0,AFDE0174,M&M confite chocolate x 150gr,5,12700.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00130,5492998066543,0,AFDE0171,Aceite de oliva arauco x 500ml,1,42000.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00131,5492998066543,0,AFDE0212,Pringles Queso 109gr,5,6300.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00132,5492998066543,0,VACO0022,Filet trucha despinadaFazzio,4,35280.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00132,5492998066543,0,VACO0052,Cuchillo n16El Mansero,1,36000.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00133,5492999435946,0,AFBO0067,DV Catena Cab-Malb x 750cc,1,22000.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00133,5492999435946,0,VARI0008,Tapón vacio,5,11000.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00133,5492999435946,0,AFDE0083,Lindt Chocolate Excellence 70% x 100gr,4,17700.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00134,5492999435946,0,VACO0135,As de Bravas,4,105000.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00134,5492999435946,0,VACO0178,coca 500 ml,1,1600.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00134,5492999435946,0,AFBO0060,Corona Bot x 330CC,4,4000.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00134,5492999435946,0,VACO0204,pepsi 500ml,4,2200.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00135,5492999435946,0,VACO0217,LEA & PERRINS salsa Worcestershire,4,12600.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00136,5493416524997,0,VACO0027,KanikamaFazzio,4,30200.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00136,5493416524997,0,AFDE0150,Pringles Original x 37gr,4,6300.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00137,5493416524997,0,VACO0038,Bandeja servir asado 50x25El Mansero,1,30000.00,1,Pedido: 1 unidad (normalizado: 50 unidad; equiv: 1 unidad),true,false,false
+P-00137,5493416524997,0,VACO0057,SmasherEl Mansero (copia),4,15000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00137,5493416524997,0,VACO0026,Salmón blancoFazzio,5,22600.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00138,5493416524997,0,VACO0026,Salmón blancoFazzio,3,22600.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00138,5493416524997,0,AFTE0003,Colita de Cuadril,3,22990.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00139,5493517632424,0,VACO0134,Cos de Cal,5,59000.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00139,5493517632424,0,AFDE0173,Aceite de oliva Genovesa x 500ml,5,28900.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00139,5493517632424,0,VACO0120,Angelica Cabernet Sauvignon,4,39000.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00140,5493517632424,0,AFVA0031,Carbon x 4 Kg,4,4400.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00140,5493517632424,0,VACO0088,Whisky black label,4,10000.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00140,5493517632424,0,VACO0169,Sal de campo especial,1,7200.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00140,5493517632424,0,DELI0035,Pizza 4 quesos Luco,3,12000.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00141,5493517632424,0,AFDS0017,Vodka Absolut x 750 cc.,3,15000.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00141,5493517632424,0,VACO0114,Domaine Edem blonde,5,21500.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00141,5493517632424,0,VACO0183,leña quebracho puro 6kg,1,8400.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00142,5493519107005,0,AFDE0063,Heinz Sweet Relish x 375gr,4,14300.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00142,5493519107005,0,VACO0151,Capitulo 1 Malbec Los Chacayes,2,19000.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00143,5493519107005,0,VACO0023,Arrollados de pollo FazzioFazzio,4,16800.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00144,5493519107005,0,VACO0024,Atún rojoFazzio,5,56700.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00144,5493519107005,0,VACO0175,coca cola 2.25 L,5,6000.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00144,5493519107005,0,VACO0205,7up 500ml,1,2200.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00145,5493874104594,0,AFTE0091(C),Asado tira ancha (6 costillas)(C),2,32990.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00146,5493874104594,0,VACO0110,DV Catena Malbec Malbec,1,25200.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00146,5493874104594,0,VACO0168,Sal de campo marina sin especias,1,3400.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00147,5493874104594,0,AFTE0091(C),Asado tira ancha (6 costillas)(C),5,32990.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00147,5493874104594,0,VACO0108,Saint Felicien Cabernet Franc,2,13500.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00148,5493876499570,0,AFTE0010,Vacio,3,23990.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00149,5493876499570,0,AFLA0078,Provolone Patagonico Formagge x 220gr,1,8000.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00150,5493876499570,0,AFCE0009,Costillitas Ribbs,1,14501.58,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00150,5493876499570,0,VACO0160,Etcétera Tocai Vista Flores,1,16300.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00150,5493876499570,0,AFDE0088,Molinillo Pimienta Negra x 55gr,4,7100.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00151,5493418277249,25004,AFLA0074,Provoleta Parrillera Formagge x 450gr,1,10200.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad) - promo fase 2,true,true,true
+P-00151,5493418277249,25004,VACO0108,Saint Felicien Cabernet Franc,5,13500.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00152,5493587905250,25001,VINO0171,Luca pinot noir,3,28700.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00153,5493582641213,25002,VACO0121,Angelica Cabernet Franc,3,39000.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00153,5493582641213,25002,AFBO0202,Enemigo malbec x750,2,31600.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00153,5493582641213,25002,AFTE0012,Entraña,3,39990.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00153,5493582641213,25002,VACO0034,Agua Villavicencio 500ml,5,1900.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00154,5492991227644,25003,VACO0002,Mix Mariscos surtidosFazzio,4,32700.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00154,5492991227644,25003,AFDE0055,Cubanitos Caprice x 115gr,3,6900.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00154,5492991227644,25003,VACO0122,Son Vida Malbec,3,23000.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00155,5493587747641,25005,VACO0153,Capitulo 1 Cabernet Sauvignon Vista,3,19000.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00156,5492614053074,25006,VACO0160,Etcétera Tocai Vista Flores,4,16300.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00156,5492614053074,25006,VACO0107,Saint Felicien Cabernet Sauvignon,4,13500.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00157,5493514079279,25007,AFTE0006,Ojo de Bife,3,44990.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00157,5493514079279,25007,AFBO0067,DV Catena Cab-Malb x 750cc,1,22000.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00157,5493514079279,25007,VACO0166,Sal de campo ahumada,1,4500.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00157,5493514079279,25007,VACO0128,Lo Sance Blend Cab Franc,4,25999.82,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false

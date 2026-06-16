@@ -1,1 +1,51 @@
-cliente_codigo,razon_social,nombre,phone_number,zona_codigo,vendedor_codigo,lat,lng,lista_precios_id,is_mock
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Parrilla El Asador,Parrilla El Asador,5493587905250,2,1,lunes,martes,"Zona ZONA NORTE - Villa Allende - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,0,-31.300006,-64.188595,true
+2,Carnicería La Tradición,Carnicería La Tradición,5493582641213,3,2,lunes,martes,"Zona ZONA NORTE - Villa Allende - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,0,-31.429115,-64.147312,true
+3,Asadería Don Carlos,Asadería Don Carlos,5492991227644,4,3,lunes,martes,"Zona ZONA NORTE - Villa Allende - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,0,-31.430466,-64.218304,true
+4,Restaurante La Parrilla,Restaurante La Parrilla,5493418277249,1,4,lunes,martes,"Zona ZONA NORTE - Villa Allende - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,0,-31.411166,-64.243688,true
+5,Almacén del Sabor,Almacén del Sabor,5493587747641,2,5,lunes,martes,"Zona ZONA NORTE - Villa Allende - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,0,-31.319886,-64.169001,true
+6,Carnicería El Buen Corte,Carnicería El Buen Corte,5492614053074,3,6,lunes,martes,"Zona ZONA NORTE - Villa Allende - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,0,-31.404179,-64.282528,true
+7,Parrilla La Estancia,Parrilla La Estancia,5493514079279,4,7,lunes,martes,"Zona ZONA NORTE - Villa Allende - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,0,-31.320882,-64.131047,true
+8,Asadería La Abuela,Asadería La Abuela,5493876914178,1,8,lunes,martes,"Zona ZONA NORTE - Villa Allende - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,0,-31.398963,-64.230205,true
+9,Carnicería El Rancho,Carnicería El Rancho,5492617175545,2,9,lunes,martes,"Zona ZONA NORTE - Villa Allende - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,0,-31.434616,-64.138166,true
+10,Restaurante El Fogón,Restaurante El Fogón,5493818437953,3,10,lunes,martes,"Zona ZONA NORTE - Mendiolaza - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,1,-31.398006,-64.182913,true
+11,Almacén La Huerta,Almacén La Huerta,5493582132179,4,11,lunes,martes,"Zona ZONA NORTE - Mendiolaza - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,1,-31.438172,-64.269769,true
+12,Parrilla El Rincón,Parrilla El Rincón,5493872845902,1,12,lunes,martes,"Zona ZONA NORTE - Mendiolaza - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,1,-31.324624,-64.290152,true
+13,Carnicería La Familia,Carnicería La Familia,5492997670210,2,13,lunes,martes,"Zona ZONA NORTE - Mendiolaza - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,1,-31.298567,-64.190968,true
+14,Asadería El Pampa,Asadería El Pampa,5493811657614,3,14,lunes,martes,"Zona ZONA NORTE - Mendiolaza - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,1,-31.321611,-64.253415,true
+15,Restaurante El Sazón,Restaurante El Sazón,5492994145193,4,15,lunes,martes,"Zona ZONA NORTE - Mendiolaza - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,1,-31.387472,-64.134063,true
+16,Almacén El Mercado,Almacén El Mercado,5493515971311,1,16,lunes,martes,"Zona ZONA NORTE - Mendiolaza - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,1,-31.423189,-64.226336,true
+17,Carnicería El Noble,Carnicería El Noble,5492994228106,2,17,lunes,martes,"Zona ZONA NORTE - Mendiolaza - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,1,-31.317709,-64.243494,true
+18,Parrilla La Cabaña,Parrilla La Cabaña,5492998718887,3,18,lunes,martes,"Zona ZONA NORTE - Mendiolaza - Valle Escondido, Córdoba, Argentina",Juan Pérez,0,1,-31.303347,-64.145464,true
+19,Asadería El Mate,Asadería El Mate,5492995028869,4,19,martes,miercoles,"Zona ZONA SUR - Malagueño - Valle Escondido, Córdoba, Argentina",María González,1,2,-31.415458,-64.233676,true
+20,Restaurante La Parrillita,Restaurante La Parrillita,5493517304254,1,20,martes,miercoles,"Zona ZONA SUR - Malagueño - Valle Escondido, Córdoba, Argentina",María González,1,2,-31.417494,-64.303421,true
+21,Almacén El Gourmet,Almacén El Gourmet,5493416986538,2,21,martes,miercoles,"Zona ZONA SUR - Malagueño - Valle Escondido, Córdoba, Argentina",María González,1,2,-31.317132,-64.214464,true
+22,Carnicería El Paraíso,Carnicería El Paraíso,5492619239862,3,22,martes,miercoles,"Zona ZONA SUR - Malagueño - Valle Escondido, Córdoba, Argentina",María González,1,2,-31.372454,-64.293156,true
+23,Parrilla La Esquina,Parrilla La Esquina,5493513952681,4,23,martes,miercoles,"Zona ZONA SUR - Malagueño - Valle Escondido, Córdoba, Argentina",María González,1,2,-31.407672,-64.225903,true
+24,Asadería El Chulengo,Asadería El Chulengo,5493414799650,1,24,martes,miercoles,"Zona ZONA SUR - Malagueño - Valle Escondido, Córdoba, Argentina",María González,1,2,-31.304073,-64.287491,true
+25,Restaurante La Casa de la Carne,Restaurante La Casa de la Carne,5492992500733,2,25,martes,miercoles,"Zona ZONA SUR - Malagueño - Valle Escondido, Córdoba, Argentina",María González,1,2,-31.285002,-64.186904,true
+26,Almacén El Sabor Argentino,Almacén El Sabor Argentino,5492615139305,3,26,martes,miercoles,"Zona ZONA SUR - Malagueño - Valle Escondido, Córdoba, Argentina",María González,1,2,-31.307308,-64.294238,true
+27,Carnicería El Gran Asado,Carnicería El Gran Asado,5492618861463,4,27,martes,miercoles,"Zona ZONA SUR - Valle Escondido - Valle Escondido, Córdoba, Argentina",María González,1,3,-31.383224,-64.180649,true
+28,Parrilla El Fogón de Oro,Parrilla El Fogón de Oro,5493812941974,1,28,martes,miercoles,"Zona ZONA SUR - Valle Escondido - Valle Escondido, Córdoba, Argentina",María González,1,3,-31.385947,-64.202739,true
+29,Asadería El Fuego,Asadería El Fuego,5493817404433,2,29,martes,miercoles,"Zona ZONA SUR - Valle Escondido - Valle Escondido, Córdoba, Argentina",María González,1,3,-31.282133,-64.285072,true
+30,Restaurante El Corte Perfecto,Restaurante El Corte Perfecto,5493419686914,3,30,martes,miercoles,"Zona ZONA SUR - Valle Escondido - Valle Escondido, Córdoba, Argentina",María González,1,3,-31.282011,-64.221482,true
+31,Almacén La Carnicería,Almacén La Carnicería,5493518648263,4,31,martes,miercoles,"Zona ZONA SUR - Valle Escondido - Valle Escondido, Córdoba, Argentina",María González,1,3,-31.315083,-64.311407,true
+32,Carnicería El Sabor del Campo,Carnicería El Sabor del Campo,5493516216782,1,32,martes,miercoles,"Zona ZONA SUR - Valle Escondido - Valle Escondido, Córdoba, Argentina",María González,1,3,-31.388483,-64.170755,true
+33,Parrilla La Tradición Familiar,Parrilla La Tradición Familiar,5492612780568,2,33,martes,miercoles,"Zona ZONA SUR - Valle Escondido - Valle Escondido, Córdoba, Argentina",María González,1,3,-31.328753,-64.202509,true
+34,Asadería El Asador Criollo,Asadería El Asador Criollo,5493582639964,3,34,martes,miercoles,"Zona ZONA SUR - Valle Escondido - Valle Escondido, Córdoba, Argentina",María González,1,3,-31.41568,-64.283813,true
+35,Restaurante El Rincón del Asado,Restaurante El Rincón del Asado,5493814729528,4,35,miercoles,jueves,"Zona ZONA OESTE - Argüello - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.314202,-64.247636,true
+36,Almacén El Asado,Almacén El Asado,5493876922419,1,36,miercoles,jueves,"Zona ZONA OESTE - Argüello - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.339116,-64.171418,true
+37,Carnicería El Sabor de la Tierra,Carnicería El Sabor de la Tierra,5492618889598,2,37,miercoles,jueves,"Zona ZONA OESTE - Argüello - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.421913,-64.261137,true
+38,Parrilla El Gran Asador,Parrilla El Gran Asador,5492615021286,3,38,miercoles,jueves,"Zona ZONA OESTE - Argüello - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.413945,-64.208619,true
+39,Asadería La Parrilla de Oro,Asadería La Parrilla de Oro,5493813520000,4,39,miercoles,jueves,"Zona ZONA OESTE - Argüello - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.392948,-64.200541,true
+40,Restaurante El Asado de la Abuela,Restaurante El Asado de la Abuela,5492997489876,1,40,miercoles,jueves,"Zona ZONA OESTE - Argüello - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.29609,-64.199322,true
+41,Almacén El Sabor de Casa,Almacén El Sabor de Casa,5493519107005,2,41,miercoles,jueves,"Zona ZONA OESTE - Argüello - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.400278,-64.247015,true
+42,Carnicería El Corte de Oro,Carnicería El Corte de Oro,5493874104594,3,42,miercoles,jueves,"Zona ZONA OESTE - Argüello - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.285528,-64.172996,true
+43,Parrilla El Sabor del Asado,Parrilla El Sabor del Asado,5492617413812,4,43,miercoles,jueves,"Zona ZONA OESTE - La Calera - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.335756,-64.252561,true
+44,Asadería El Asador de la Familia,Asadería El Asador de la Familia,5492617236955,1,44,miercoles,jueves,"Zona ZONA OESTE - La Calera - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.338977,-64.297005,true
+45,Restaurante El Gran Asado,Restaurante El Gran Asado,5492612928724,2,45,miercoles,jueves,"Zona ZONA OESTE - La Calera - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.425438,-64.190399,true
+46,Almacén La Casa del Sabor,Almacén La Casa del Sabor,5492999435946,3,46,miercoles,jueves,"Zona ZONA OESTE - La Calera - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.348853,-64.178556,true
+47,Carnicería El Paraíso del Asado,Carnicería El Paraíso del Asado,5493517632424,4,47,miercoles,jueves,"Zona ZONA OESTE - La Calera - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.413183,-64.249252,true
+48,Parrilla La Estancia del Asado,Parrilla La Estancia del Asado,5493416524997,1,48,miercoles,jueves,"Zona ZONA OESTE - La Calera - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.445293,-64.191193,true
+49,Asadería El Fogón de la Abuela,Asadería El Fogón de la Abuela,5493876499570,2,49,miercoles,jueves,"Zona ZONA OESTE - La Calera - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.352317,-64.245682,true
+50,Restaurante El Sabor de la Parrilla,Restaurante El Sabor de la Parrilla,5492998066543,3,50,miercoles,jueves,"Zona ZONA OESTE - La Calera - Valle Escondido, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.393344,-64.280651,true

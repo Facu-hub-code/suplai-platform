@@ -1,6 +1,6 @@
 ---
 name: suplai-implementation-phase-06
-description: Fase 6 pedidos — histórico cerrado y 6-7 pedidos abiertos. Usar tras Fases 1 y 4-5.
+description: Fase 6 pedidos — histórico cerrado y 6-7 pedidos abiertos. Usar tras Fases 1, 4 y 5 cargadas con los scripts deterministas de `scripts/fase-06-pedidos/`.
 ---
 
 # Fase 6 — Pedidos
@@ -11,12 +11,15 @@ description: Fase 6 pedidos — histórico cerrado y 6-7 pedidos abiertos. Usar 
 ## Input
 
 - Clientes con `lista_precios_id`
-- Catálogo y promos Fase 2
+- Clientes ya actualizados por la Fase 5 vía `scripts/fase-05-clientes-flags/`
+- Catálogo, listas de precios y promos cargadas
 
 ## Output
 
 1. `phase-06-pedidos.csv` — `pedido_ref,cliente_codigo,fecha,estado,total,notas,is_mock,es_pedido_abierto`
 2. `phase-06-items-pedido.csv` — líneas por pedido
+
+Los scripts de la fase pueden agregar columnas auxiliares reutilizables como `cliente_phone`, `cliente_razon_social`, `lista_precios_id`, `nombre` y `promo_aplicada` para hacer la carga y las fases siguientes más deterministas. El contrato principal sigue siendo el mismo.
 
 ## Volumen
 
@@ -33,11 +36,17 @@ description: Fase 6 pedidos — histórico cerrado y 6-7 pedidos abiertos. Usar 
 
 ## Carga MCP
 
-1. `INSERT {schema}.pedidos` → obtener `id`
-2. `INSERT {schema}.items_pedido` con `pedido_id`, `client_id`, `cantidad_solicitada`, `precio_unitario`, `lista_precios`
-3. Actualizar `total` en pedido
+La fase debe ejecutarse con scripts:
 
-Estados válidos: consultar `SELECT DISTINCT estado FROM {schema}.pedidos` en tenant con datos o usar `abierto`, `confirmado`, `entregado`.
+1. Generar los CSV con `python scripts/fase-06-pedidos/preparar_pedidos.py --esquema <schema>`
+2. Cargar en BD con `python scripts/fase-06-pedidos/cargar_pedidos.py --esquema <schema>`
+
+El cargador:
+- Inserta cabeceras en `{schema}.pedidos` y rescata `id`.
+- Inserta líneas en `{schema}.items_pedido`.
+- Recalcula `total` del pedido a partir de sus ítems.
+
+Estados válidos: consultar `SELECT DISTINCT estado FROM {schema}.pedidos` en tenant con datos o usar `abierto`, `pendiente`, `confirmado`, `entregado`, `facturado`.
 
 ## Verificación
 
