@@ -2,6 +2,7 @@
   "name": "[Real] Foto lista Nutrispa — corn, green beans, spinach",
   "sequential_order": 4,
   "message_file": "mensaje_simulado.txt",
+  "message_products_file": "mensaje_productos.txt",
   "reference_image": "REFERENCIA.md",
   "client_identifier": "NUTRISPA INC",
   "client_id": 15,
@@ -13,7 +14,12 @@
     "load_seller_order_text",
     "edit_order_for_client"
   ],
+  "expected_tools_products_any": [
+    "load_seller_order_text",
+    "edit_order_for_client"
+  ],
   "expected_skus": ["89090009", "89090130", "89090038"],
   "expected_behavior": "Tratar el bloque [Consulta con foto por WhatsApp] como pedido real de Nutrispa: 5 CS sweetcorn 30lb, 2 CS green beans 22lb, 1 CS spinach 24lb. No rechazar por ser imagen; cargar ítems al pedido. El cliente correcto es NUTRISPA INC (id 15, código 13053309321), NO otro cliente que comparta la razón social genérica 'Catering Educational'. Hasta exista alias 'Nutrispa' → NUTRISPA INC, se acepta resolución por nombre parcial si carga el pedido correcto.",
+  "expected_behavior_products": "Con cliente ya seleccionado: tratar el bloque OCR como pedido (5 CS sweetcorn 30lb, 2 CS green beans 22lb, 1 CS spinach 24lb) y cargar ítems al pedido.",
   "tags": ["real", "nutrispa", "foto", "ocr", "lista", "alias-pendiente"]
 }
