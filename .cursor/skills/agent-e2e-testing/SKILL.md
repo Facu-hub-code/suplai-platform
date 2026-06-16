@@ -1,6 +1,6 @@
 ﻿---
 name: agent_e2e_testing
-description: Realizar un healthcheck de base de datos para una distribuidora y correr pruebas de conversación E2E automáticas con análisis de trazas de herramientas e IA.
+description: Healthcheck de BD, pruebas E2E genéricas o basadas en casos reales del distribuidor (fixtures en implementacion/{schema}/casos-reales), con expansión LLM de variantes similares y análisis de trazas.
 ---
 
 # E2E Testing & Healthcheck del Agente (agent_e2e_testing)
@@ -32,12 +32,54 @@ Este flujo permite validar que el agente de Suplai Sales de una distribuidora es
 ---
 
 ## 3. Generar y Ejecutar Pruebas Conversacionales E2E
-1. Confirmar con el usuario si el agente a probar opera en modo **Asistente de Vendedor** (`--seller=true`) o modo **Cliente Final** (`--seller=false`).
-2. Correr el script de pruebas E2E, que generará 10 casos específicos y disparará los mensajes midiendo latencia y validando llamadas a herramientas:
+
+### 3a. Suite genérica (default)
+1. Confirmar con el usuario si el agente opera en modo **Asistente de Vendedor** (`--seller`) o **Cliente Final** (sin flag).
+2. Correr el script — genera 10 casos desde el catálogo real del tenant:
    ```bash
-   python scripts/fase-09-e2e/test_agent_e2e.py --schema {esquema} [--seller {true/false}]
+   python scripts/test_agent_e2e.py --schema {esquema} [--seller] [--sequential] [--limit N]
    ```
-3. El script consultará el log de ejecución de herramientas (`core.agent_tool_runs`) para cada paso mediante consultas directas a PostgreSQL.
+
+### 3b. Suite de casos reales del distribuidor (nuevo)
+Usar cuando el distribuidor comparte **mensajes reales, fotos de listas, flujos AS-IS** que quieren automatizar (ej. Benfresh: vendedores reenvían pedidos a un teléfono central).
+
+**Estructura obligatoria:**
+```
+implementacion/{esquema}/casos-reales/
+  manifest.json
+  contexto.md
+  casos/NN-slug/
+    caso.json
+    mensaje.txt | mensaje_simulado.txt
+    imagen.* (opcional, referencia visual)
+```
+
+**Rol del agente del IDE al preparar casos:**
+1. Leer `contexto.md` y materiales del distribuidor (textos, capturas en la carpeta del tenant).
+2. Crear o completar `casos/*/caso.json` con `expected_behavior`, `expected_tools` / `expected_tools_any` y SKUs del catálogo.
+3. Para fotos de listas: copiar la imagen como referencia y escribir `mensaje_simulado.txt` con prefijo `[Consulta con foto por WhatsApp]` + texto OCR/simulado (el webhook E2E actual no envía binario).
+4. Plantilla de referencia: [templates/casos-reales/](./templates/casos-reales/) y ejemplo completo: `implementacion/benfresh/casos-reales/`.
+
+**Variables extra para perfil vendedor:**
+```env
+E2E_SELLER_PHONE=5493XXXXXXXX  # teléfono registrado en {schema}.vendedores
+```
+
+**Comandos:**
+```bash
+# Solo casos reales (secuencial si manifest.sequential_default=true)
+python scripts/test_agent_e2e.py --schema {esquema} --suite real --seller --sequential
+
+# Casos reales + N variantes similares generadas por LLM desde contexto.md
+python scripts/test_agent_e2e.py --schema {esquema} --suite real --seller --sequential --expand 3
+
+# Híbrido: casos reales primero, luego suite genérica de catálogo
+python scripts/test_agent_e2e.py --schema {esquema} --suite hybrid --seller
+```
+
+**Modos de suite:** `generic` (default) | `real` | `hybrid`
+
+3. El script consulta `core.agent_tool_runs` y marca en el reporte el origen de cada caso: `[real]`, `[generado]` o genérico.
 
 ---
 

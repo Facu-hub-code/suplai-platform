@@ -1,0 +1,8 @@
+Dixie 
+Black Beans-3
+Plantains-4
+Mixed Vegtables-8
+Green Beans-8
+Sofrito-2
+
+Corrección: mixed vegetables a 5 y green beans a 6.

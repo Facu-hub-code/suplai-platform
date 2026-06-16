@@ -1,0 +1,16 @@
+{
+  "name": "[Real] Pedido Dixie — beans, plantains, mix veg, green beans, sofrito",
+  "sequential_order": 6,
+  "message_file": "mensaje.txt",
+  "client_identifier": "DIXIE RIBS",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "set_seller_selected_client",
+    "get_seller_client_details",
+    "load_seller_order_text",
+    "edit_order_for_client"
+  ],
+  "expected_skus": ["834641", "74987455860", "736952201911", "89090130", "89090117"],
+  "expected_behavior": "Identificar cliente Dixie, tolerar typo 'Mixed Vegtables', mapear black beans, plantains, 4 vegetales, green beans y sofrito con las cantidades indicadas y cargar el pedido.",
+  "tags": ["real", "dixie", "catering", "texto-libre", "typo"]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Powerfuel #2 — carga, edición y consulta",
+  "slug": "05-powerfuel-fresa-pina",
+  "order": 3,
+  "source_case": "05-powerfuel-fresa-pina",
+  "client_identifier": "POWERFUEL SMOOTHIE SHOP 2 INC.",
+  "steps": [
+    {
+      "step_order": 1,
+      "name": "Carga inicial fresa y piña",
+      "message_file": "01-carga-inicial.txt",
+      "expected_tools_any": [
+        "set_seller_selected_client",
+        "load_seller_order_text",
+        "edit_order_for_client"
+      ],
+      "expected_skus": ["736952196071", "736952201546"],
+      "expected_behavior": "Identificar Powerfuel #2 y cargar 1 fresa y 1 piña (bolsa/caja piña con stock).",
+      "tags": ["carga"]
+    },
+    {
+      "step_order": 2,
+      "name": "Duplicar fresa",
+      "message_file": "02-duplicar-fresa.txt",
+      "isolated_message_file": "02-duplicar-fresa-aislado.txt",
+      "expected_tools_any": ["edit_order_for_client", "load_seller_order_text"],
+      "expected_skus": ["736952196071"],
+      "expected_behavior": "Dejar fresa en cantidad 2 en el pedido de Powerfuel.",
+      "tags": ["edicion"]
+    },
+    {
+      "step_order": 3,
+      "name": "Quitar piña",
+      "message_file": "03-quitar-pina.txt",
+      "isolated_message_file": "03-quitar-pina-aislado.txt",
+      "expected_tools_any": ["edit_order_for_client", "load_seller_order_text"],
+      "expected_skus": ["736952201546"],
+      "expected_behavior": "Eliminar piña del pedido; debe quedar solo fresa x2.",
+      "tags": ["edicion"]
+    },
+    {
+      "step_order": 4,
+      "name": "Consultar pedido",
+      "message_file": "04-consultar-pedido.txt",
+      "isolated_message_file": "04-consultar-pedido-aislado.txt",
+      "expected_tools_any": ["get_open_order_status_for_client"],
+      "expected_skus": ["736952196071"],
+      "expected_behavior": "Confirmar que el pedido de Powerfuel tiene solo 2 fresas, sin piña.",
+      "tags": ["consulta"]
+    }
+  ]
+}

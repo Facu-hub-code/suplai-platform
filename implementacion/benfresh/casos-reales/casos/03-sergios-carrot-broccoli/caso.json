@@ -1,0 +1,16 @@
+{
+  "name": "[Real] Pedido Sergio's — carrot, 4 vegetales, broccoli",
+  "sequential_order": 3,
+  "message_file": "mensaje.txt",
+  "client_identifier": "SERGIO'S CATERING",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "set_seller_selected_client",
+    "get_seller_client_details",
+    "load_seller_order_text",
+    "edit_order_for_client"
+  ],
+  "expected_skus": ["89090029", "736952201911", "74987455943"],
+  "expected_behavior": "Identificar cliente Sergio's Catering, interpretar cantidades (10 carrot sliced 20lb, 15 cajas 4 vegetales 22lb, 53 broccoli 22lb) y cargar ítems al pedido sin inventar productos.",
+  "tags": ["real", "sergios", "catering", "texto-libre"]
+}

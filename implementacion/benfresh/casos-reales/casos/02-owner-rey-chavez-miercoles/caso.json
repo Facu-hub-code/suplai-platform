@@ -1,0 +1,17 @@
+{
+  "name": "[Dueño] Pedido Rey Chavez 1 — miércoles",
+  "sequential_order": 2,
+  "message_file": "mensaje.txt",
+  "client_identifier": "Rey Chavez Distributor Corp.#1",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "set_seller_selected_client",
+    "get_seller_client_details",
+    "resolve_free_text_order",
+    "create_order_for_client",
+    "edit_order_for_client"
+  ],
+  "expected_skus": ["736952201973", "736952201553", "89090107"],
+  "expected_behavior": "Mensaje real reenviado: identificar cliente Rey Chavez 1, interpretar cantidades con formatos 4x5 y 8x3 (cajas Benfresh), mapear mamey/strawberry/mix berry/passion con semilla al catálogo y cargar el pedido sin inventar productos.",
+  "tags": ["dueño", "reenvio", "rey-chavez", "texto-libre", "formato-caja"]
+}
