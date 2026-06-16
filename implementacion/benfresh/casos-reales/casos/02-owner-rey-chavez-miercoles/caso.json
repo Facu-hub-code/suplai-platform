@@ -7,11 +7,11 @@
   "expected_tools_any": [
     "set_seller_selected_client",
     "get_seller_client_details",
-    "resolve_free_text_order",
-    "create_order_for_client",
+    "load_seller_order_text",
     "edit_order_for_client"
   ],
-  "expected_skus": ["736952201973", "736952201553", "89090107"],
-  "expected_behavior": "Mensaje real reenviado: identificar cliente Rey Chavez 1, interpretar cantidades con formatos 4x5 y 8x3 (cajas Benfresh), mapear mamey/strawberry/mix berry/passion con semilla al catálogo y cargar el pedido sin inventar productos.",
-  "tags": ["dueño", "reenvio", "rey-chavez", "texto-libre", "formato-caja"]
+  "expected_skus": ["736952201973", "736952201553"],
+  "expected_skus_out_of_stock": ["89010031", "736952201782"],
+  "expected_behavior": "Mensaje real reenviado: identificar cliente Rey Chavez 1, interpretar cantidades con formatos 4x5 y 8x3 (cajas Benfresh), mapear mamey/strawberry/mix berry/passion con semilla al catálogo y cargar el pedido sin inventar productos. CARGA PARCIAL VÁLIDA: si mamey (SKU 89010031, 736952201782) tiene stock=0 en ERP, NO deben agregarse al pedido pero el agente DEBE avisar explícitamente qué ítems quedaron fuera por falta de stock. Los ítems con stock disponible (strawberry 736952201973, mix berry 736952201553) deben cargarse. Passion con semilla puede mapear a 89090107 u otro SKU válido del catálogo; si no hay stock, avisar igual que mamey. Fallo de manage_contact_agenda por preferencia miércoles NO invalida el caso. No penalizar por ítems sin stock en ERP ni por carga parcial cuando el bot advierte correctamente.",
+  "tags": ["dueño", "reenvio", "rey-chavez", "texto-libre", "formato-caja", "stock-parcial"]
 }

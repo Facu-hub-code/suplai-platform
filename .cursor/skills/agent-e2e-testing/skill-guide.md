@@ -148,5 +148,6 @@ Si durante la auditoría o la ejecución de las pruebas detectas fallos generali
 Presenta al usuario propuestas de mejora accionables basadas en la ejecución real:
 * **Desactivar herramientas:** Si detectas que se ejecutan herramientas que aumentan la latencia y no son necesarias para el rubro (ej: RAG de categorías para consultas simples).
 * **Ajustar System Prompt:** Si el agente realmente alucina SKUs o no cumple con directrices de empaque, sugerir refinar el campo `public.distribuidoras.contexto` o `reglas_negocio`.
+* **Aliases de clientes:** Si `set_seller_selected_client` falla o resuelve al cliente incorrecto (apodo comercial vs `nombre`/`razon_social` ERP, ej. "Nutrispa", "Dixie"), documentar `client_alias_recommended` en el fixture y proponer la spec `agent/docs/specs/031-client-aliases-busqueda-vendedor.md` antes de implementar en código.
 * **Re-correr:** Si el usuario aprueba los cambios, aplícalos en base de datos y vuelve a correr la prueba para verificar la mejora (siempre esperando su confirmación previa).
 
