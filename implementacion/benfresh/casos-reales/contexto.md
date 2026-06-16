@@ -22,7 +22,7 @@ Automatizar la carga usando el **agente asistente de vendedor**:
 
 | Carpeta | Qué representa |
 |---------|----------------|
-| `01-owner-angeles-delivery-hoy` | Mensaje real del dueño: cliente ANGELES, delivery hoy, sweetcorn/green peas/fajitas |
+| `01-owner-aye-catering-delivery-hoy` | Mensaje real del dueño: cliente AYE CATERING LLC, delivery hoy, sweetcorn/green peas/fajitas |
 | `02-owner-rey-chavez-miercoles` | Mensaje real del dueño: Rey Chavez 1, entrega miércoles, mamey/strawberry/mix berry/passion |
 | `03-sergios-carrot-broccoli` | Sergio's Catering: carrot sliced 20lb, 4 vegetales, broccoli 22lb |
 | `04-nutrispa-foto-lista` | Nutrispa: foto WhatsApp con corn 30lb, green beans 22lb, spinach 24lb (OCR simulado) |

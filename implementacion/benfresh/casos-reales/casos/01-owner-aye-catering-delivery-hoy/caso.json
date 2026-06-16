@@ -1,0 +1,16 @@
+{
+  "name": "[Dueño] Pedido AYE CATERING — delivery hoy",
+  "sequential_order": 1,
+  "message_file": "mensaje.txt",
+  "client_identifier": "AYE CATERING LLC",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "set_seller_selected_client",
+    "get_seller_client_details",
+    "load_seller_order_text",
+    "edit_order_for_client"
+  ],
+  "expected_skus": ["89090009", "736952201775", "89090116"],
+  "expected_behavior": "Mensaje real reenviado por vendedor: identificar al cliente AYE CATERING LLC desde el encabezado (nombre comercial, no la razón social genérica 'Catering Educational'), interpretar la lista (10 Sweetcorn, 10 Green Peas, 10 fajitas) y cargar ítems al pedido.",
+  "tags": ["dueño", "reenvio", "aye-catering", "texto-libre"]
+}

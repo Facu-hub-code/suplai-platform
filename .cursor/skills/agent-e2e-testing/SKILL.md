@@ -88,8 +88,9 @@ python scripts/test_agent_e2e.py --schema {esquema} --suite hybrid --seller
    `implementacion/{esquema}/outputs/reporte_e2e_{timestamp}.md`
 2. **Validar y Corregir el Reporte (Rol del Agente del IDE):** Como agente del IDE con acceso a todo el código, base de datos e historial de ejecución, debes verificar críticamente los resultados clasificados como `🔴 FAIL` por el auditor de OpenAI. Si identificas falsos negativos (por ejemplo, el auditor juzgando rígidamente una desambiguación correcta, o penalizando la acumulación de estado/herramientas de edición en modo secuencial), **modifica el archivo del reporte markdown por tu cuenta**. Cambia el estado del caso a `🟢 PASS`, actualiza los contadores del resumen ejecutivo y añade una aclaración en la sección de análisis del caso (ej: `*[Corrección del Agente del IDE]*: El auditor marcó FAIL por X, pero el comportamiento es correcto porque Y`).
 3. Identificar las herramientas que provocaron alta latencia o respuestas incorrectas del LLM.
-4. Proponer mejoras específicas al usuario (ej: desactivar tools no usadas, ajustar directrices de formato en el prompt de sistema del distribuidor en `public.distribuidoras.contexto`).
-5. Si el usuario aprueba, aplicar los cambios en base de datos y volver a ejecutar las pruebas conversacionales para contrastar resultados.
+4. **Resolución de cliente fallida:** Si el reporte muestra `set_seller_selected_client` en error, cliente incorrecto (ej. match por `razon_social` genérica del ERP) o repregunta innecesaria con apodo comercial ("Nutrispa", "Dixie"), **proponer crear o actualizar la spec de aliases de clientes** (`agent/docs/specs/031-client-aliases-busqueda-vendedor.md`) documentando el alias recomendado en el fixture (`client_alias_recommended` en `caso.json`) y, tras aprobación, seed en BD o implementación del feature.
+5. Proponer mejoras específicas al usuario (ej: desactivar tools no usadas, ajustar directrices de formato en el prompt de sistema del distribuidor en `public.distribuidoras.contexto`).
+6. Si el usuario aprueba, aplicar los cambios en base de datos y volver a ejecutar las pruebas conversacionales para contrastar resultados.
 
 ---
 

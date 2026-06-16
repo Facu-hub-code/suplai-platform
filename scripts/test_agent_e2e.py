@@ -5,6 +5,7 @@ import asyncio
 import asyncpg
 import json
 import time
+import uuid
 import requests
 from datetime import datetime, timezone
 from typing import Dict, List, Any, Optional
@@ -787,7 +788,7 @@ def send_message_to_agent(agent_phone: str, sender_phone: str, text: str) -> tup
         "from_user_id": sender_phone,
         "text": text,
         "timestamp": int(time.time()),
-        "provider_message_id": f"test_{int(time.time())}"
+        "provider_message_id": str(uuid.uuid4())
     }
     
     start_time = time.perf_counter()
@@ -834,6 +835,16 @@ Tools ejecutadas: {tools_names}
 """
         if case.get("client_identifier"):
             real_case_hint += f"\nEl operador trabaja para el cliente: {case['client_identifier']}.\n"
+        if case.get("client_id"):
+            real_case_hint += f"Cliente esperado en BD: id={case['client_id']}.\n"
+        if case.get("client_alias_recommended"):
+            real_case_hint += f"Alias comercial recomendado (pendiente de implementación): '{case['client_alias_recommended']}' → {case.get('client_identifier', 'cliente esperado')}.\n"
+        out_of_stock = case.get("expected_skus_out_of_stock") or []
+        if out_of_stock:
+            real_case_hint += f"""
+STOCK ERP: Los SKUs {out_of_stock} tienen stock=0 en ERP. NO penalices si no se cargaron al pedido.
+El agente DEBE avisar explícitamente que esos ítems quedaron fuera por falta de stock. Carga parcial con aviso = passed: true.
+"""
     
     seq_context = ""
     if sequential:
@@ -1029,8 +1040,23 @@ async def run_e2e_suite(
             elif not sequential:
                 # Si no es secuencial, limpiamos el estado antes de cada caso para asegurar aislamiento total
                 print(f"[*] Aislamiento activo: Limpiando carrito y contexto antes de '{case['name']}'...")
-                await clear_test_client_orders(conn, schema)
-                await clear_conversation_context_db_and_api(conn, schema)
+                if suite_mode in {"real", "hybrid"} and case.get("client_identifier"):
+                    sender_for_cleanup = resolve_sender_phone(
+                        case,
+                        manifest,
+                        default_client_phone=TEST_CLIENT_PHONE,
+                        default_seller_phone=TEST_SELLER_PHONE,
+                        seller_mode=seller,
+                    )
+                    await clear_journey_state(
+                        conn,
+                        schema,
+                        session_phone=sender_for_cleanup,
+                        client_identifier=case.get("client_identifier"),
+                    )
+                else:
+                    await clear_test_client_orders(conn, schema)
+                    await clear_conversation_context_db_and_api(conn, schema)
                 await asyncio.sleep(0.5)
 
             print(f"\n[{idx}/{len(test_cases)}] Ejecutando caso: {case['name']}")
