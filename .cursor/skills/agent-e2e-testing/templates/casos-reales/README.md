@@ -27,7 +27,7 @@ Copiá esta carpeta a `implementacion/{schema}/casos-reales/` y adaptá.
 ## Comando
 
 ```bash
-python scripts/test_agent_e2e.py --schema {schema} --suite real --seller --sequential --expand 2
+python scripts/fase-09-e2e/test_agent_e2e.py --schema {schema} --suite real --seller --sequential --expand 2
 ```
 
 ## Ejemplo productivo
