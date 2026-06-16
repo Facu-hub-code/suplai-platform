@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5492612780568,5492612780568,ai,ai,"Hola Parrilla La Tradición Familiar, paso a revisar tu pedido P-00099 de Set parrilero pala y atizadorEl Mansero.","Hola Parrilla La Tradición Familiar, paso a revisar tu pedido P-00099 de Set parrilero pala y atizadorEl Mansero.",2026-06-15 09:36:42,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 09:38:11,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 312380.75.,Te confirmo que el pedido P-00099 fue registrado correctamente por 312380.75.,2026-06-15 09:39:07,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 09:40:16,true
+5492612928724,5492612928724,ai,ai,"Hola Restaurante El Gran Asado, paso a revisar tu pedido P-00123 de DV Lesplorator La Rioja.","Hola Restaurante El Gran Asado, paso a revisar tu pedido P-00123 de DV Lesplorator La Rioja.",2026-06-16 11:36:42,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 11:37:27,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 107100.00.,Te confirmo que el pedido P-00123 fue registrado correctamente por 107100.00.,2026-06-16 11:38:00,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-16 11:39:33,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 11:40:29,true
+5492614053074,5492614053074,ai,ai,"Hola Carnicería El Buen Corte, vi que tenes un pedido abierto por Etcétera Tocai Vista Flores y queria ayudarte a cerrarlo.","Hola Carnicería El Buen Corte, vi que tenes un pedido abierto por Etcétera Tocai Vista Flores y queria ayudarte a cerrarlo.",2026-06-16 08:36:42,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-16 08:38:20,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 119200.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 119200.00. Si queres te lo dejo cerrado hoy.,2026-06-16 08:38:56,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-16 08:40:14,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-16 08:41:31,true
+5492615021286,5492615021286,ai,ai,"Hola Parrilla El Gran Asador, paso a revisar tu pedido P-00112 de Filet de merluza Fazzio.","Hola Parrilla El Gran Asador, paso a revisar tu pedido P-00112 de Filet de merluza Fazzio.",2026-06-14 09:36:42,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 09:38:31,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 262940.00.,Te confirmo que el pedido P-00112 fue registrado correctamente por 262940.00.,2026-06-14 09:39:19,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 09:40:02,true
+5492615139305,5492615139305,ai,ai,"Hola Almacén El Sabor Argentino, paso a revisar tu pedido P-00076 de SmasherEl Mansero (copia).","Hola Almacén El Sabor Argentino, paso a revisar tu pedido P-00076 de SmasherEl Mansero (copia).",2026-06-14 11:36:42,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 11:37:49,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 108000.00.,Te confirmo que el pedido P-00076 fue registrado correctamente por 108000.00.,2026-06-14 11:39:06,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 11:39:49,true
+5492617175545,5492617175545,ai,ai,"Hola Carnicería El Rancho, paso a revisar tu pedido P-00027 de luco ravioles de pollo.","Hola Carnicería El Rancho, paso a revisar tu pedido P-00027 de luco ravioles de pollo.",2026-06-15 08:36:42,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:38:11,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 25500.00.,Te confirmo que el pedido P-00027 fue registrado correctamente por 25500.00.,2026-06-15 08:39:00,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:40:19,true
+5492617236955,5492617236955,ai,ai,"Hola Asadería El Asador de la Familia, paso a revisar tu pedido P-00126 de rosado primero piel y hueso.","Hola Asadería El Asador de la Familia, paso a revisar tu pedido P-00126 de rosado primero piel y hueso.",2026-06-16 10:36:42,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 10:37:33,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 25000.00.,Te confirmo que el pedido P-00126 fue registrado correctamente por 25000.00.,2026-06-16 10:38:20,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-16 10:39:09,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 10:39:59,true
+5492617413812,5492617413812,ai,ai,"Hola Parrilla El Sabor del Asado, paso a revisar tu pedido P-00129 de Bullseye BBQ.","Hola Parrilla El Sabor del Asado, paso a revisar tu pedido P-00129 de Bullseye BBQ.",2026-06-16 09:36:42,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 09:38:32,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 62500.00.,Te confirmo que el pedido P-00129 fue registrado correctamente por 62500.00.,2026-06-16 09:39:49,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-16 09:40:44,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 09:41:56,true
+5492618861463,5492618861463,ai,ai,"Hola Carnicería El Gran Asado, paso a revisar tu pedido P-00079 de Molleja.","Hola Carnicería El Gran Asado, paso a revisar tu pedido P-00079 de Molleja.",2026-06-15 10:36:42,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 10:38:08,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 405050.00.,Te confirmo que el pedido P-00079 fue registrado correctamente por 405050.00.,2026-06-15 10:38:41,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 10:40:11,true
+5492618889598,5492618889598,ai,ai,"Hola Carnicería El Sabor de la Tierra, paso a revisar tu pedido P-00110 de Enemigo Malbec.","Hola Carnicería El Sabor de la Tierra, paso a revisar tu pedido P-00110 de Enemigo Malbec.",2026-06-15 10:36:42,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 10:38:17,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 94800.00.,Te confirmo que el pedido P-00110 fue registrado correctamente por 94800.00.,2026-06-15 10:39:14,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 10:40:16,true
+5492619239862,5492619239862,ai,ai,"Hola Carnicería El Paraíso, paso a revisar tu pedido P-00066 de Corlieri.","Hola Carnicería El Paraíso, paso a revisar tu pedido P-00066 de Corlieri.",2026-06-14 10:36:42,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 10:38:26,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 118600.00.,Te confirmo que el pedido P-00066 fue registrado correctamente por 118600.00.,2026-06-14 10:39:54,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 10:40:33,true
+5492991227644,5492991227644,ai,ai,"Hola Asadería Don Carlos, vi que tenes un pedido abierto por Mix Mariscos surtidosFazzio y queria ayudarte a cerrarlo.","Hola Asadería Don Carlos, vi que tenes un pedido abierto por Mix Mariscos surtidosFazzio y queria ayudarte a cerrarlo.",2026-06-16 11:36:42,true
+5492991227644,5492991227644,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-06-16 11:38:22,true
+5492991227644,5492991227644,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-06-16 11:39:41,true
+5492991227644,5492991227644,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-16 11:41:06,true
+5492991227644,5492991227644,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-16 11:42:11,true
+5492992500733,5492992500733,ai,ai,"Hola Restaurante La Casa de la Carne, paso a revisar tu pedido P-00073 de Nalga Porcionada.","Hola Restaurante La Casa de la Carne, paso a revisar tu pedido P-00073 de Nalga Porcionada.",2026-06-15 07:36:42,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 07:38:25,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 22990.00.,Te confirmo que el pedido P-00073 fue registrado correctamente por 22990.00.,2026-06-15 07:39:03,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 07:39:50,true
+5492994145193,5492994145193,ai,ai,"Hola Restaurante El Sazón, paso a revisar tu pedido P-00045 de As de Bravas.","Hola Restaurante El Sazón, paso a revisar tu pedido P-00045 de As de Bravas.",2026-06-15 07:36:42,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 07:37:43,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 125400.00.,Te confirmo que el pedido P-00045 fue registrado correctamente por 125400.00.,2026-06-15 07:38:50,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 07:40:15,true
+5492994228106,5492994228106,ai,ai,"Hola Carnicería El Noble, paso a revisar tu pedido P-00051 de Bandeja servir asado 42x20El Mansero.","Hola Carnicería El Noble, paso a revisar tu pedido P-00051 de Bandeja servir asado 42x20El Mansero.",2026-06-15 10:36:42,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 10:38:01,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 36800.00.,Te confirmo que el pedido P-00051 fue registrado correctamente por 36800.00.,2026-06-15 10:38:35,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 10:39:16,true
+5492995028869,5492995028869,ai,ai,"Hola Asadería El Mate, paso a revisar tu pedido P-00057 de sprite lata 230 ml.","Hola Asadería El Mate, paso a revisar tu pedido P-00057 de sprite lata 230 ml.",2026-06-15 08:36:42,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:38:07,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 110800.00.,Te confirmo que el pedido P-00057 fue registrado correctamente por 110800.00.,2026-06-15 08:38:37,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:39:51,true
+5492997489876,5492997489876,ai,ai,"Hola Restaurante El Asado de la Abuela, paso a revisar tu pedido P-00118 de Milanesas de merluzaFazzio.","Hola Restaurante El Asado de la Abuela, paso a revisar tu pedido P-00118 de Milanesas de merluzaFazzio.",2026-06-14 07:36:42,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 07:38:23,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 260430.00.,Te confirmo que el pedido P-00118 fue registrado correctamente por 260430.00.,2026-06-14 07:39:15,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 07:40:05,true
+5492997670210,5492997670210,ai,ai,"Hola Carnicería La Familia, paso a revisar tu pedido P-00037 de luco ravioles de pollo.","Hola Carnicería La Familia, paso a revisar tu pedido P-00037 de luco ravioles de pollo.",2026-06-15 09:36:42,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 09:37:49,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 99500.00.,Te confirmo que el pedido P-00037 fue registrado correctamente por 99500.00.,2026-06-15 09:38:36,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 09:39:37,true
+5492998066543,5492998066543,ai,ai,"Hola Restaurante El Sabor de la Parrilla, paso a revisar tu pedido P-00132 de Filet trucha despinadaFazzio.","Hola Restaurante El Sabor de la Parrilla, paso a revisar tu pedido P-00132 de Filet trucha despinadaFazzio.",2026-06-16 08:36:42,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 08:38:20,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 177120.00.,Te confirmo que el pedido P-00132 fue registrado correctamente por 177120.00.,2026-06-16 08:38:59,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-16 08:40:34,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 08:41:44,true
+5492998718887,5492998718887,ai,ai,"Hola Parrilla La Cabaña, paso a revisar tu pedido P-00054 de luigi bosca de sangre malbec x 750ml.","Hola Parrilla La Cabaña, paso a revisar tu pedido P-00054 de luigi bosca de sangre malbec x 750ml.",2026-06-14 09:36:42,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 09:38:39,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 162100.00.,Te confirmo que el pedido P-00054 fue registrado correctamente por 162100.00.,2026-06-14 09:39:25,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 09:40:31,true
+5492999435946,5492999435946,ai,ai,"Hola Almacén La Casa del Sabor, paso a revisar tu pedido P-00135 de LEA & PERRINS salsa Worcestershire.","Hola Almacén La Casa del Sabor, paso a revisar tu pedido P-00135 de LEA & PERRINS salsa Worcestershire.",2026-06-16 07:36:42,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 07:38:25,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 50400.00.,Te confirmo que el pedido P-00135 fue registrado correctamente por 50400.00.,2026-06-16 07:39:13,true
+5492999435946,5492999435946,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-16 07:40:59,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 07:41:31,true
+5493414799650,5493414799650,ai,ai,"Hola Asadería El Chulengo, paso a revisar tu pedido P-00071 de Son Vida Cabernet Sauvignon.","Hola Asadería El Chulengo, paso a revisar tu pedido P-00071 de Son Vida Cabernet Sauvignon.",2026-06-14 08:36:42,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 08:37:40,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 46000.00.,Te confirmo que el pedido P-00071 fue registrado correctamente por 46000.00.,2026-06-14 08:38:20,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 08:39:13,true
+5493416524997,5493416524997,ai,ai,"Hola Parrilla La Estancia del Asado, paso a revisar tu pedido P-00138 de Salmón blancoFazzio.","Hola Parrilla La Estancia del Asado, paso a revisar tu pedido P-00138 de Salmón blancoFazzio.",2026-06-14 11:36:42,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 11:37:33,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 136770.00.,Te confirmo que el pedido P-00138 fue registrado correctamente por 136770.00.,2026-06-14 11:38:32,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 11:39:39,true
+5493416986538,5493416986538,ai,ai,"Hola Almacén El Gourmet, paso a revisar tu pedido P-00063 de Angelica Malbec.","Hola Almacén El Gourmet, paso a revisar tu pedido P-00063 de Angelica Malbec.",2026-06-15 11:36:42,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 11:38:11,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 564100.00.,Te confirmo que el pedido P-00063 fue registrado correctamente por 564100.00.,2026-06-15 11:39:13,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 11:40:16,true
+5493418277249,5493418277249,ai,ai,"Hola Restaurante La Parrilla, vi que tenes un pedido abierto por Provoleta Parrillera Formagge x 450gr y queria ayudarte a cerrarlo.","Hola Restaurante La Parrilla, vi que tenes un pedido abierto por Provoleta Parrillera Formagge x 450gr y queria ayudarte a cerrarlo.",2026-06-16 10:36:42,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-06-16 10:38:39,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,2026-06-16 10:39:53,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-16 10:41:34,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-16 10:42:44,true
+5493419686914,5493419686914,ai,ai,"Hola Restaurante El Corte Perfecto, paso a revisar tu pedido P-00090 de Langostinos peladosFazzio.","Hola Restaurante El Corte Perfecto, paso a revisar tu pedido P-00090 de Langostinos peladosFazzio.",2026-06-14 07:36:42,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 07:37:38,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 188200.00.,Te confirmo que el pedido P-00090 fue registrado correctamente por 188200.00.,2026-06-14 07:39:02,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 07:40:25,true
+5493513952681,5493513952681,ai,ai,"Hola Parrilla La Esquina, paso a revisar tu pedido P-00068 de Pringles Cebolla 109gr.","Hola Parrilla La Esquina, paso a revisar tu pedido P-00068 de Pringles Cebolla 109gr.",2026-06-15 09:36:42,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 09:37:52,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 335100.00.,Te confirmo que el pedido P-00068 fue registrado correctamente por 335100.00.,2026-06-15 09:39:03,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 09:40:01,true
+5493514079279,5493514079279,ai,ai,"Hola Parrilla La Estancia, vi que tenes un pedido abierto por Ojo de Bife y queria ayudarte a cerrarlo.","Hola Parrilla La Estancia, vi que tenes un pedido abierto por Ojo de Bife y queria ayudarte a cerrarlo.",2026-06-16 07:36:42,true
+5493514079279,5493514079279,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-16 07:38:30,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 265469.28. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 265469.28. Si queres te lo dejo cerrado hoy.,2026-06-16 07:39:45,true
+5493514079279,5493514079279,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-16 07:40:47,true
+5493514079279,5493514079279,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-16 07:41:51,true
+5493515971311,5493515971311,ai,ai,"Hola Almacén El Mercado, paso a revisar tu pedido P-00048 de Heineken Litro.","Hola Almacén El Mercado, paso a revisar tu pedido P-00048 de Heineken Litro.",2026-06-14 11:36:42,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 11:37:50,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 87160.00.,Te confirmo que el pedido P-00048 fue registrado correctamente por 87160.00.,2026-06-14 11:39:08,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 11:39:46,true
+5493516216782,5493516216782,ai,ai,"Hola Carnicería El Sabor del Campo, paso a revisar tu pedido P-00096 de Vacio.","Hola Carnicería El Sabor del Campo, paso a revisar tu pedido P-00096 de Vacio.",2026-06-14 10:36:42,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 10:37:28,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 281440.50.,Te confirmo que el pedido P-00096 fue registrado correctamente por 281440.50.,2026-06-14 10:38:47,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 10:39:55,true
+5493517304254,5493517304254,ai,ai,"Hola Restaurante La Parrillita, paso a revisar tu pedido P-00060 de Sal Marina Entrefina x 500gr.","Hola Restaurante La Parrillita, paso a revisar tu pedido P-00060 de Sal Marina Entrefina x 500gr.",2026-06-14 07:36:42,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 07:38:31,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 119900.00.,Te confirmo que el pedido P-00060 fue registrado correctamente por 119900.00.,2026-06-14 07:39:23,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 07:40:37,true
+5493517632424,5493517632424,ai,ai,"Hola Carnicería El Paraíso del Asado, paso a revisar tu pedido P-00141 de Vodka Absolut x 750 cc..","Hola Carnicería El Paraíso del Asado, paso a revisar tu pedido P-00141 de Vodka Absolut x 750 cc..",2026-06-15 10:36:42,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 10:37:58,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 160900.00.,Te confirmo que el pedido P-00141 fue registrado correctamente por 160900.00.,2026-06-15 10:39:05,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 10:40:32,true
+5493518648263,5493518648263,ai,ai,"Hola Almacén La Carnicería, paso a revisar tu pedido P-00093 de paso de los toros 500ml.","Hola Almacén La Carnicería, paso a revisar tu pedido P-00093 de paso de los toros 500ml.",2026-06-15 11:36:42,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 11:38:35,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 8200.00.,Te confirmo que el pedido P-00093 fue registrado correctamente por 8200.00.,2026-06-15 11:39:48,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 11:41:13,true
+5493519107005,5493519107005,ai,ai,"Hola Almacén El Sabor de Casa, paso a revisar tu pedido P-00144 de Atún rojoFazzio.","Hola Almacén El Sabor de Casa, paso a revisar tu pedido P-00144 de Atún rojoFazzio.",2026-06-14 09:36:42,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 09:38:16,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 315700.00.,Te confirmo que el pedido P-00144 fue registrado correctamente por 315700.00.,2026-06-14 09:38:59,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 09:40:28,true
+5493582132179,5493582132179,ai,ai,"Hola Almacén La Huerta, paso a revisar tu pedido P-00032 de Ojo de Bife.","Hola Almacén La Huerta, paso a revisar tu pedido P-00032 de Ojo de Bife.",2026-06-15 11:36:42,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 11:38:15,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 295950.00.,Te confirmo que el pedido P-00032 fue registrado correctamente por 295950.00.,2026-06-15 11:39:39,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 11:40:26,true
+5493582639964,5493582639964,ai,ai,"Hola Asadería El Asador Criollo, paso a revisar tu pedido P-00102 de Angelica Cabernet Franc.","Hola Asadería El Asador Criollo, paso a revisar tu pedido P-00102 de Angelica Cabernet Franc.",2026-06-14 08:36:42,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 08:37:30,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 68400.00.,Te confirmo que el pedido P-00102 fue registrado correctamente por 68400.00.,2026-06-14 08:38:21,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 08:39:01,true
+5493582641213,5493582641213,ai,ai,"Hola Carnicería La Tradición, vi que tenes un pedido abierto por Angelica Cabernet Franc y queria ayudarte a cerrarlo.","Hola Carnicería La Tradición, vi que tenes un pedido abierto por Angelica Cabernet Franc y queria ayudarte a cerrarlo.",2026-06-16 00:36:42,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-06-16 00:38:12,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-06-16 00:39:01,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-16 00:40:04,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-16 00:41:04,true
+5493587747641,5493587747641,ai,ai,"Hola Almacén del Sabor, vi que tenes un pedido abierto por Capitulo 1 Cabernet Sauvignon Vista y queria ayudarte a cerrarlo.","Hola Almacén del Sabor, vi que tenes un pedido abierto por Capitulo 1 Cabernet Sauvignon Vista y queria ayudarte a cerrarlo.",2026-06-16 09:36:42,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-16 09:38:26,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 57000.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 57000.00. Si queres te lo dejo cerrado hoy.,2026-06-16 09:39:28,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-16 09:41:04,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-16 09:41:54,true
+5493587905250,5493587905250,ai,ai,"Hola Parrilla El Asador, vi que tenes un pedido abierto por Luca pinot noir y queria ayudarte a cerrarlo.","Hola Parrilla El Asador, vi que tenes un pedido abierto por Luca pinot noir y queria ayudarte a cerrarlo.",2026-06-16 01:36:42,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-06-16 01:37:44,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-06-16 01:39:03,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-16 01:40:59,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-16 01:42:07,true
+5493811657614,5493811657614,ai,ai,"Hola Asadería El Pampa, paso a revisar tu pedido P-00040 de Sal de campo ahumada.","Hola Asadería El Pampa, paso a revisar tu pedido P-00040 de Sal de campo ahumada.",2026-06-14 08:36:42,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 08:38:05,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 22500.00.,Te confirmo que el pedido P-00040 fue registrado correctamente por 22500.00.,2026-06-14 08:39:01,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 08:39:58,true
+5493812941974,5493812941974,ai,ai,"Hola Parrilla El Fogón de Oro, paso a revisar tu pedido P-00084 de lata pepsi.","Hola Parrilla El Fogón de Oro, paso a revisar tu pedido P-00084 de lata pepsi.",2026-06-14 09:36:42,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 09:38:37,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 251070.00.,Te confirmo que el pedido P-00084 fue registrado correctamente por 251070.00.,2026-06-14 09:39:47,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 09:40:20,true
+5493813520000,5493813520000,ai,ai,"Hola Asadería La Parrilla de Oro, paso a revisar tu pedido P-00115 de Molleja.","Hola Asadería La Parrilla de Oro, paso a revisar tu pedido P-00115 de Molleja.",2026-06-15 08:36:42,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:37:33,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 40990.00.,Te confirmo que el pedido P-00115 fue registrado correctamente por 40990.00.,2026-06-15 08:38:39,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:40:05,true
+5493814729528,5493814729528,ai,ai,"Hola Restaurante El Rincón del Asado, paso a revisar tu pedido P-00105 de Etcétera Tocai Vista Flores.","Hola Restaurante El Rincón del Asado, paso a revisar tu pedido P-00105 de Etcétera Tocai Vista Flores.",2026-06-15 07:36:42,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 07:38:16,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 48900.00.,Te confirmo que el pedido P-00105 fue registrado correctamente por 48900.00.,2026-06-15 07:39:26,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 07:40:48,true
+5493817404433,5493817404433,ai,ai,"Hola Asadería El Fuego, paso a revisar tu pedido P-00087 de Sal de campo ahumada.","Hola Asadería El Fuego, paso a revisar tu pedido P-00087 de Sal de campo ahumada.",2026-06-15 08:36:42,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:38:18,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 172470.00.,Te confirmo que el pedido P-00087 fue registrado correctamente por 172470.00.,2026-06-15 08:39:44,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:40:47,true
+5493818437953,5493818437953,ai,ai,"Hola Restaurante El Fogón, paso a revisar tu pedido P-00029 de Lo Sance Rosado.","Hola Restaurante El Fogón, paso a revisar tu pedido P-00029 de Lo Sance Rosado.",2026-06-14 07:36:42,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 07:38:20,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 166206.39.,Te confirmo que el pedido P-00029 fue registrado correctamente por 166206.39.,2026-06-14 07:39:11,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 07:40:06,true
+5493872845902,5493872845902,ai,ai,"Hola Parrilla El Rincón, paso a revisar tu pedido P-00034 de Enemigo Cabernet Franc.","Hola Parrilla El Rincón, paso a revisar tu pedido P-00034 de Enemigo Cabernet Franc.",2026-06-14 10:36:42,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 10:37:44,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 226350.00.,Te confirmo que el pedido P-00034 fue registrado correctamente por 226350.00.,2026-06-14 10:39:07,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 10:39:46,true
+5493874104594,5493874104594,ai,ai,"Hola Carnicería El Corte de Oro, paso a revisar tu pedido P-00146 de DV Catena Malbec Malbec.","Hola Carnicería El Corte de Oro, paso a revisar tu pedido P-00146 de DV Catena Malbec Malbec.",2026-06-15 08:36:42,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:37:51,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 28600.00.,Te confirmo que el pedido P-00146 fue registrado correctamente por 28600.00.,2026-06-15 08:39:09,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:39:40,true
+5493876499570,5493876499570,ai,ai,"Hola Asadería El Fogón de la Abuela, paso a revisar tu pedido P-00149 de Provolone Patagonico Formagge x 220gr.","Hola Asadería El Fogón de la Abuela, paso a revisar tu pedido P-00149 de Provolone Patagonico Formagge x 220gr.",2026-06-14 07:36:42,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 07:37:30,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 8000.00.,Te confirmo que el pedido P-00149 fue registrado correctamente por 8000.00.,2026-06-14 07:38:08,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 07:39:04,true
+5493876914178,5493876914178,ai,ai,"Hola Asadería La Abuela, paso a revisar tu pedido P-00024 de Whisky jack daniels.","Hola Asadería La Abuela, paso a revisar tu pedido P-00024 de Whisky jack daniels.",2026-06-14 09:36:42,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 09:38:15,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 73500.00.,Te confirmo que el pedido P-00024 fue registrado correctamente por 73500.00.,2026-06-14 09:39:24,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 09:40:29,true
+5493876922419,5493876922419,ai,ai,"Hola Almacén El Asado, paso a revisar tu pedido P-00107 de Filet galloFazzio.","Hola Almacén El Asado, paso a revisar tu pedido P-00107 de Filet galloFazzio.",2026-06-14 11:36:42,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-14 11:37:46,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 43830.00.,Te confirmo que el pedido P-00107 fue registrado correctamente por 43830.00.,2026-06-14 11:38:24,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-14 11:39:15,true

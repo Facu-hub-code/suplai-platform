@@ -1,4 +1,4 @@
----
+﻿---
 name: suplai-implementation-phase-01-1
 description: Fase 1.1 Tags jerárquicos — Consumir propose-taxonomy y aplicar tags propuestos. Usar tras carga exitosa de Fase 1.
 ---
@@ -19,24 +19,22 @@ description: Fase 1.1 Tags jerárquicos — Consumir propose-taxonomy y aplicar 
 
 ## Proceso de Ejecución
 
-### 1. Solicitar Propuesta de Tags
-Hacer una petición HTTP POST al endpoint del backend para obtener la propuesta de tags para los productos cargados:
-- **URL**: `https://web-production-f544f.up.railway.app/{schema}/tags/propose-taxonomy`
-- **Método**: `POST`
-- **Body**:
-  ```json
-  {
-    "limit": 500
-  }
-  ```
-- **Respuesta**: Guardar la respuesta JSON (de estructura `{"schema": "{schema}", "products": [...]}`) en el archivo de salida `implementacion/{schema}/outputs/phase-01-1-propuesta-tags.json`.
+### Ejecutar el Script de Taxonomía
+Para realizar esta fase de forma automatizada y consistente, se puede ejecutar el script genérico `scripts/fase-01-catalogo/aplicar_taxonomia.py`:
+```bash
+python scripts/fase-01-catalogo/aplicar_taxonomia.py --esquema {schema} --limite 300
+```
 
-### 2. Aplicar Propuesta
-Enviar la propuesta guardada para que el backend cree y asocie los tags jerárquicos en la base de datos:
-- **URL**: `https://web-production-f544f.up.railway.app/{schema}/tags/apply-proposed-taxonomy`
-- **Método**: `POST`
-- **Body**: El contenido del archivo JSON obtenido en el paso 1 (con la lista de productos y sus tags).
-- **Validación**: Validar que la respuesta retorne exitosa (`200 OK`) con el resumen de inserciones.
+Este script se encargará de:
+1. Realizar la petición HTTP POST al endpoint `propose-taxonomy`.
+2. Guardar la propuesta devuelta por la IA en `implementacion/{schema}/outputs/phase-01-1-propuesta-tags.json`.
+3. Solicitar confirmación interactiva en la consola antes de aplicar los tags a Supabase.
+
+### Aplicar una Propuesta Modificada
+Si el implementador decide editar el JSON propuesto (por ejemplo, para eliminar niveles redundantes), se debe usar el script `scripts/fase-01-catalogo/aplicar_propuesta_guardada.py` para impactar los cambios editados en Supabase:
+```bash
+python scripts/fase-01-catalogo/aplicar_propuesta_guardada.py --esquema {schema}
+```
 
 ## Cierre de la Fase
 

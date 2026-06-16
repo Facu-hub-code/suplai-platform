@@ -5,5 +5,5 @@ productos_vacio,COUNT productos = 0,ok,0 productos
 clients_vacio,COUNT clients = 0,ok,0 clientes
 mcp_conectado,MCP supabase responde,ok,conectado proyecto nxmeezcvjltlqfybbczt
 carpeta_implementacion,manifest.yaml presente,ok,implementacion/al_fuego/ creada desde _template
-is_mock_column,Columna is_mock en productos,pendiente,columna ausente; blocked.is_mock_migration=true; Fase 10 bloqueada
+is_mock_column,Columna is_mock en productos,ok,columna agregada via migración 20260615
 excel_presente,Archivo en inputs/,ok,inputs/LDP-AlFuego.csv (307 filas producto)

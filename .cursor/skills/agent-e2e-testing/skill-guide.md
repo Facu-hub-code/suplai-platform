@@ -1,4 +1,4 @@
-# Guía de Uso — Testing E2E y Healthcheck del Agente (`agent_e2e_testing`)
+﻿# Guía de Uso — Testing E2E y Healthcheck del Agente (`agent_e2e_testing`)
 
 Esta guía sirve como fuente de verdad para entender, preparar, ejecutar y auditar el estado del agente conversacional de un tenant en Suplai.
 
@@ -33,10 +33,10 @@ Este script se conecta directamente a Supabase para verificar si la distribuidor
 ### Forma de uso:
 ```bash
 # Modo solo lectura (auditoría)
-python scripts/healthcheck_schema.py --schema <nombre_esquema>
+python scripts/fase-09-e2e/healthcheck_schema.py --schema <nombre_esquema>
 
 # Modo aplicación de auto-fixes (previo acuerdo con el usuario)
-python scripts/healthcheck_schema.py --schema <nombre_esquema> --fix-tools
+python scripts/fase-09-e2e/healthcheck_schema.py --schema <nombre_esquema> --fix-tools
 ```
 
 ### Validaciones que realiza:
@@ -58,21 +58,21 @@ Este script genera dinámicamente un conjunto de 10 casos de prueba conversacion
 ### Forma de uso:
 ```bash
 # Ejecutar pruebas independientes con aislamiento total (carrito/contexto limpio por cada caso, recomendado)
-python scripts/test_agent_e2e.py --schema <nombre_esquema>
+python scripts/fase-09-e2e/test_agent_e2e.py --schema <nombre_esquema>
 
 # Ejecutar pruebas en un flujo secuencial continuado (manteniendo estado de carrito/conversación entre casos 1-9)
-python scripts/test_agent_e2e.py --schema <nombre_esquema> --sequential
+python scripts/fase-09-e2e/test_agent_e2e.py --schema <nombre_esquema> --sequential
 
 # Ejecutar pruebas para perfil vendedor asistente
-python scripts/test_agent_e2e.py --schema <nombre_esquema> --seller
+python scripts/fase-09-e2e/test_agent_e2e.py --schema <nombre_esquema> --seller
 
 # Limitar cantidad de casos para smoke-test rápido
-python scripts/test_agent_e2e.py --schema <nombre_esquema> --limit 2
+python scripts/fase-09-e2e/test_agent_e2e.py --schema <nombre_esquema> --limit 2
 
 # --- Casos reales del distribuidor (fixtures en implementacion/{schema}/casos-reales/) ---
-python scripts/test_agent_e2e.py --schema <nombre_esquema> --suite real --seller --sequential
-python scripts/test_agent_e2e.py --schema <nombre_esquema> --suite real --seller --sequential --expand 3
-python scripts/test_agent_e2e.py --schema <nombre_esquema> --suite hybrid --seller
+python scripts/fase-09-e2e/test_agent_e2e.py --schema <nombre_esquema> --suite real --seller --sequential
+python scripts/fase-09-e2e/test_agent_e2e.py --schema <nombre_esquema> --suite real --seller --sequential --expand 3
+python scripts/fase-09-e2e/test_agent_e2e.py --schema <nombre_esquema> --suite hybrid --seller
 ```
 
 ### Modos de suite (`--suite`)

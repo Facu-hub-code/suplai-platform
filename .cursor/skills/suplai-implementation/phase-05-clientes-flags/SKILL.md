@@ -1,6 +1,6 @@
 ---
 name: suplai-implementation-phase-05
-description: Fase 5 flags clientes — ERP, prospectos y estado WhatsApp. Usar tras Fase 4.
+description: Fase 5 flags clientes — ERP, prospectos y estado WhatsApp. Usar tras Fase 4 con los scripts de `scripts/fase-05-clientes-flags/`.
 ---
 
 # Fase 5 — Flags de clientes
@@ -17,10 +17,10 @@ description: Fase 5 flags clientes — ERP, prospectos y estado WhatsApp. Usar t
 
 `implementacion/{schema}/outputs/phase-05-clientes-flags.csv`
 
-| cliente_codigo | codigo_erp | is_prospect | whatsapp_status |
-|----------------|------------|-------------|-----------------|
-| 40 filas | numérico autoincremental desde 25001 | false | validado (30) / existe o sin_validar (20) |
-| 10 filas | 0 | true | mezcla |
+| phone_number | razon_social | codigo_erp | whatsapp_estado | whatsapp_validado_at | etiqueta | is_prospect |
+|--------------|--------------|------------|------------------|----------------------|----------|-------------|
+| 40 filas ERP | texto | numérico autoincremental desde 25001 | validado / existente | timestamp solo para validado | vacío | false |
+| 10 filas prospecto | texto | 0 | mezcla | timestamp solo si validado | `PROSPECTO` | true |
 
 ## Mapeo WhatsApp (schema real)
 
@@ -33,7 +33,14 @@ Usar columnas del tenant:
 
 ## Carga MCP
 
-`UPDATE {schema}.clients` por `cliente_codigo` o id interno (join por phone desde CSV Fase 4).
+La fase se ejecuta en dos pasos obligatorios:
+
+1. Generar el CSV local con:
+   `python scripts/fase-05-clientes-flags/preparar_clientes_flags.py --esquema <schema>`
+2. Cargarlo al tenant con:
+   `python scripts/fase-05-clientes-flags/cargar_clientes_flags.py --esquema <schema>`
+
+El script de carga hace el `UPDATE {schema}.clients` por `phone_number` y deja trazabilidad en consola.
 
 - Prospectos: `codigo = 0` y etiqueta PROSPECTO si existe campo `etiqueta`
 - ERP: `codigo` numérico único

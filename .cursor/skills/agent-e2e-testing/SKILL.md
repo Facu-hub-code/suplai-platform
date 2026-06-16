@@ -1,4 +1,4 @@
----
+﻿---
 name: agent_e2e_testing
 description: Healthcheck de BD, pruebas E2E genéricas o basadas en casos reales del distribuidor (fixtures en implementacion/{schema}/casos-reales), con expansión LLM de variantes similares y análisis de trazas.
 ---
@@ -18,9 +18,9 @@ Este flujo permite validar que el agente de Suplai Sales de una distribuidora es
 ---
 
 ## 2. Ejecutar Healthcheck de Base de Datos
-1. Ejecutar el script `scripts/healthcheck_schema.py` para analizar el estado de configuración de la distribuidora:
+1. Ejecutar el script `scripts/fase-09-e2e/healthcheck_schema.py` para analizar el estado de configuración de la distribuidora:
    ```bash
-   python scripts/healthcheck_schema.py --schema {esquema}
+   python scripts/fase-09-e2e/healthcheck_schema.py --schema {esquema}
    ```
 2. Si el healthcheck reporta fallos:
    - **Herramientas (tools_habilitadas):** Si hay demasiadas tools asignadas, **NO** editarlas de forma automática. Detenerse y sugerir al usuario la desactivación interactiva de las herramientas innecesarias según el perfil (seller o client). Si da su aprobación, correr el script con el flag `--fix-tools`.

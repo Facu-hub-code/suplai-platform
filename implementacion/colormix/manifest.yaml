@@ -1,7 +1,11 @@
 schema_name: colormix
 nombre_comercial: Colormix
 ciudad_base: "Córdoba, Argentina"
+coordenadas_centro: [-31.4135, -64.1810]  # Centro Córdoba Capital
+rubro: "pinturería / materiales de construcción"
 excel_input: inputs/Productos ColorMix.xlsx
+sitio_web: ""
+notas: "Distribuidora de pinturas y materiales de construcción, Córdoba."
 
 blocked:
   is_mock_migration: true

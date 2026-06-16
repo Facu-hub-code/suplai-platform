@@ -1,4 +1,4 @@
-# Guía de Uso — Fase 9: Testing E2E y Healthcheck del Agente (suplai-implementation-phase-09)
+﻿# Guía de Uso — Fase 9: Testing E2E y Healthcheck del Agente (suplai-implementation-phase-09)
 
 Esta guía sirve como fuente de verdad para entender, preparar, ejecutar y auditar el estado del agente conversacional de un tenant en Suplai como parte de la validación final del onboarding.
 
@@ -31,10 +31,10 @@ Este script se conecta directamente a Supabase para verificar si la distribuidor
 ### Forma de uso:
 ```bash
 # Modo solo lectura (auditoría)
-python scripts/healthcheck_schema.py --schema <nombre_esquema>
+python scripts/fase-09-e2e/healthcheck_schema.py --schema <nombre_esquema>
 
 # Modo aplicación de auto-fixes (previo acuerdo con el usuario)
-python scripts/healthcheck_schema.py --schema <nombre_esquema> --fix-tools
+python scripts/fase-09-e2e/healthcheck_schema.py --schema <nombre_esquema> --fix-tools
 ```
 
 ### Validaciones que realiza:
@@ -55,10 +55,10 @@ Este script genera un conjunto de 10 casos de prueba conversacionales, los ejecu
 ### Forma de uso:
 ```bash
 # Ejecutar pruebas independientes con aislamiento total (carrito/contexto limpio por cada caso, recomendado)
-python scripts/test_agent_e2e.py --schema <nombre_esquema>
+python scripts/fase-09-e2e/test_agent_e2e.py --schema <nombre_esquema>
 
 # Ejecutar pruebas para perfil vendedor asistente
-python scripts/test_agent_e2e.py --schema <nombre_esquema> --seller
+python scripts/fase-09-e2e/test_agent_e2e.py --schema <nombre_esquema> --seller
 ```
 
 ---

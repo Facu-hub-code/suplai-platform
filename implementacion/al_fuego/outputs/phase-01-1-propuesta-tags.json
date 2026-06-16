@@ -1,0 +1,2845 @@
+{
+  "schema": "al_fuego",
+  "products": [
+    {
+      "product_code": "AFAP0001",
+      "nombre": "Branca 750cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Aperitivo"
+      }
+    },
+    {
+      "product_code": "AFBE0001",
+      "nombre": "Coca Cola x 1.5Lt",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Gaseosa Cola"
+      }
+    },
+    {
+      "product_code": "AFBE0002",
+      "nombre": "Fanta Naranja x 1.5Lt",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Gaseosa Naranja"
+      }
+    },
+    {
+      "product_code": "AFBE0004",
+      "nombre": "Coca Zero x 1.5Lt",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Gaseosa Cola Sin Azúcar"
+      }
+    },
+    {
+      "product_code": "AFBE0013",
+      "nombre": "Schweppes Pomelo x 1.5Lt",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Gaseosa Pomelo"
+      }
+    },
+    {
+      "product_code": "AFBE0015",
+      "nombre": "Coca Zero Lata x 354CC",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Gaseosa Cola Lata"
+      }
+    },
+    {
+      "product_code": "AFBE0018",
+      "nombre": "Sprite Lata x 354CC",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Gaseosa Limón"
+      }
+    },
+    {
+      "product_code": "AFBO0020",
+      "nombre": "Saint Felicien Cabernet-Merlot x 750cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "AFBO0022",
+      "nombre": "DV Catena Malbec Malbec 750cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "AFBO0023",
+      "nombre": "Saint Felicien Malbec 750cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "AFBO0047",
+      "nombre": "Campari x 750cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Aperitivo"
+      }
+    },
+    {
+      "product_code": "AFBO0060",
+      "nombre": "Corona Bot x 330CC",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza Rubia"
+      }
+    },
+    {
+      "product_code": "AFBO0067",
+      "nombre": "DV Catena Cab-Malb x 750cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "AFBO0202",
+      "nombre": "Enemigo malbec x750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "AFBO0203",
+      "nombre": "Enemigo cab-franc x750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "AFCE0009",
+      "nombre": "Costillitas Ribbs",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Procesadas",
+        "3": "Costillas",
+        "4": "Costillitas"
+      }
+    },
+    {
+      "product_code": "AFCE0102",
+      "nombre": "Matambre de cerdo Magret",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Cerdo",
+        "4": "Matambre"
+      }
+    },
+    {
+      "product_code": "AFCE0103",
+      "nombre": "Bondiola Magret EV",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Cerdo",
+        "4": "Bondiola"
+      }
+    },
+    {
+      "product_code": "AFCE0108",
+      "nombre": "Chorizo x 4un Magret EV x 400gr",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Procesadas",
+        "3": "Embutidos",
+        "4": "Chorizo"
+      }
+    },
+    {
+      "product_code": "AFCE0111",
+      "nombre": "Morcilla bombom magret EV x 400 gr",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Procesadas",
+        "3": "Embutidos",
+        "4": "Morcilla"
+      }
+    },
+    {
+      "product_code": "AFCV0002",
+      "nombre": "Imperial Stout Lata 473 cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza Imperial Stout"
+      }
+    },
+    {
+      "product_code": "AFDE0033",
+      "nombre": "Sal Marina Entrefina con Especias x 350gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Sales",
+        "4": "Sal Marina"
+      }
+    },
+    {
+      "product_code": "AFDE0034",
+      "nombre": "Sal Marina Entrefina x 500gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Sales",
+        "4": "Sal Marina"
+      }
+    },
+    {
+      "product_code": "AFDE0035",
+      "nombre": "Sal Marina Fina x 500gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Sales",
+        "4": "Sal Marina"
+      }
+    },
+    {
+      "product_code": "AFDE0040",
+      "nombre": "Ajíes Dulces en Vinagre x 300gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Vegetales",
+        "4": "Ajíes"
+      }
+    },
+    {
+      "product_code": "AFDE0041",
+      "nombre": "Berenjenas en Escabeche x 310gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Vegetales",
+        "4": "Berenjenas"
+      }
+    },
+    {
+      "product_code": "AFDE0042",
+      "nombre": "Pepinos Agridulces x 310gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Vegetales",
+        "4": "Pepinos"
+      }
+    },
+    {
+      "product_code": "AFDE0044",
+      "nombre": "Porotos Condimentados En Aceite x 310gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Legumbres",
+        "4": "Porotos"
+      }
+    },
+    {
+      "product_code": "AFDE0055",
+      "nombre": "Cubanitos Caprice x 115gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galletas Saladas"
+      }
+    },
+    {
+      "product_code": "AFDE0063",
+      "nombre": "Heinz Sweet Relish x 375gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Salsas",
+        "3": "Salsas",
+        "4": "Relish"
+      }
+    },
+    {
+      "product_code": "AFDE0082",
+      "nombre": "Lindt Chocolate Classic Con Leche x 100gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Chocolates",
+        "3": "Chocolates",
+        "4": "Chocolate con Leche"
+      }
+    },
+    {
+      "product_code": "AFDE0083",
+      "nombre": "Lindt Chocolate Excellence 70% x 100gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Chocolates",
+        "3": "Chocolates",
+        "4": "Chocolate Amargo"
+      }
+    },
+    {
+      "product_code": "AFDE0087",
+      "nombre": "Molinillo Mix Pimientas x 50gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Mezcla de Pimientas"
+      }
+    },
+    {
+      "product_code": "AFDE0088",
+      "nombre": "Molinillo Pimienta Negra x 55gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Pimienta Negra"
+      }
+    },
+    {
+      "product_code": "AFDE0091",
+      "nombre": "Molinillo Sal Marina Gruesa x 110gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Sal Marina Gruesa"
+      }
+    },
+    {
+      "product_code": "AFDE0110",
+      "nombre": "Dientes de Ajo Negro Garlic x 60gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Ajo"
+      }
+    },
+    {
+      "product_code": "AFDE0115",
+      "nombre": "M&M Mani con Chocolate x 150gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galletas con Chocolate"
+      }
+    },
+    {
+      "product_code": "AFDE0150",
+      "nombre": "Pringles Original x 37gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Chips de Papas"
+      }
+    },
+    {
+      "product_code": "AFDE0152",
+      "nombre": "Hummus Zanahorias Asadas x 170gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dips",
+        "3": "Hummus",
+        "4": "Hummus de Zanahoria"
+      }
+    },
+    {
+      "product_code": "AFDE0153",
+      "nombre": "Hummus Higos Turcos x 170gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dips",
+        "3": "Hummus",
+        "4": "Hummus de Higo"
+      }
+    },
+    {
+      "product_code": "AFDE0155",
+      "nombre": "Hummus Baba Ganush x 170gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dips",
+        "3": "Hummus",
+        "4": "Hummus Baba Ganush"
+      }
+    },
+    {
+      "product_code": "AFDE0170",
+      "nombre": "Aceite de oliva Arauco x 250ml",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Aceites",
+        "3": "Aceites",
+        "4": "Aceite de Oliva"
+      }
+    },
+    {
+      "product_code": "AFDE0171",
+      "nombre": "Aceite de oliva arauco x 500ml",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Aceites",
+        "3": "Aceites",
+        "4": "Aceite de Oliva"
+      }
+    },
+    {
+      "product_code": "AFDE0173",
+      "nombre": "Aceite de oliva Genovesa x 500ml",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Aceites",
+        "3": "Aceites",
+        "4": "Aceite de Oliva"
+      }
+    },
+    {
+      "product_code": "AFDE0174",
+      "nombre": "M&M confite chocolate x 150gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galletas con Chocolate"
+      }
+    },
+    {
+      "product_code": "AFDE0201",
+      "nombre": "chimichurri el viajero 310gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Salsas",
+        "3": "Salsas",
+        "4": "Chimichurri"
+      }
+    },
+    {
+      "product_code": "AFDE0210",
+      "nombre": "Pringles Original 109gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Chips de Papas"
+      }
+    },
+    {
+      "product_code": "AFDE0211",
+      "nombre": "Pringles Cebolla 109gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Chips de Papas"
+      }
+    },
+    {
+      "product_code": "AFDE0212",
+      "nombre": "Pringles Queso 109gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Chips de Papas"
+      }
+    },
+    {
+      "product_code": "AFDE0233",
+      "nombre": "Pringles Chedar & Bacon 105gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Chips de Papas"
+      }
+    },
+    {
+      "product_code": "AFDS0017",
+      "nombre": "Vodka Absolut x 750 cc.",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Vodka"
+      }
+    },
+    {
+      "product_code": "AFEL0050",
+      "nombre": "Hamburguesa Green Gold clasica de 80grs x 2",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Procesadas",
+        "3": "Hamburguesas",
+        "4": "Hamburguesa"
+      }
+    },
+    {
+      "product_code": "AFEL0051",
+      "nombre": "Hamburguesa Green Gold casera de 120grs x 4",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Procesadas",
+        "3": "Hamburguesas",
+        "4": "Hamburguesa"
+      }
+    },
+    {
+      "product_code": "AFLA0070",
+      "nombre": "Brie Formagge x 100gr",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Frescos",
+        "4": "Queso Brie"
+      }
+    },
+    {
+      "product_code": "AFLA0074",
+      "nombre": "Provoleta Parrillera Formagge x 450gr",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Provoleta",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "AFLA0075",
+      "nombre": "Provoleta Napolitana Formagge x 220gr",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Provoleta",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "AFLA0076",
+      "nombre": "Provoleta Mediterranea Formagge x 220gr",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Provoleta",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "AFLA0077",
+      "nombre": "Provoleta Tres Pimientas Formagge x 220gr",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Provoleta",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "AFLA0078",
+      "nombre": "Provolone Patagonico Formagge x 220gr",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Provolone",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "AFLA0080",
+      "nombre": "Corazon de Gouda Formagge x 210gr",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Frescos",
+        "4": "Queso Gouda"
+      }
+    },
+    {
+      "product_code": "AFTE0002",
+      "nombre": "Picaña",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Picaña"
+      }
+    },
+    {
+      "product_code": "AFTE0003",
+      "nombre": "Colita de Cuadril",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Colita de Cuadril"
+      }
+    },
+    {
+      "product_code": "AFTE0005",
+      "nombre": "Bife de Chorizo",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Bife de Chorizo"
+      }
+    },
+    {
+      "product_code": "AFTE0006",
+      "nombre": "Ojo de Bife",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Ojo de Bife"
+      }
+    },
+    {
+      "product_code": "AFTE0007",
+      "nombre": "Molleja",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Molleja"
+      }
+    },
+    {
+      "product_code": "AFTE0007 (C)",
+      "nombre": "Molleja (C)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Molleja"
+      }
+    },
+    {
+      "product_code": "AFTE0010",
+      "nombre": "Vacio",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Vacio"
+      }
+    },
+    {
+      "product_code": "AFTE0011",
+      "nombre": "Matambre",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Matambre"
+      }
+    },
+    {
+      "product_code": "AFTE0012",
+      "nombre": "Entraña",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Entraña"
+      }
+    },
+    {
+      "product_code": "AFTE0020",
+      "nombre": "Chinchulin",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Chinchulín"
+      }
+    },
+    {
+      "product_code": "AFTE0020 (C)",
+      "nombre": "Chinchulin (C)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Chinchulín"
+      }
+    },
+    {
+      "product_code": "AFTE0023",
+      "nombre": "Tomahawk",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Tomahawk"
+      }
+    },
+    {
+      "product_code": "AFTE0029",
+      "nombre": "Arañita Vacuna",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Arañita"
+      }
+    },
+    {
+      "product_code": "AFTE0045",
+      "nombre": "Nalga Porcionada",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Nalga"
+      }
+    },
+    {
+      "product_code": "AFTE0052",
+      "nombre": "Tapa de Asado",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Tapa de Asado"
+      }
+    },
+    {
+      "product_code": "AFTE0067",
+      "nombre": "Media Luna De Vacio",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Media Luna de Vacio"
+      }
+    },
+    {
+      "product_code": "AFTE0068",
+      "nombre": "Tapa De Vacio",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Tapa de Vacio"
+      }
+    },
+    {
+      "product_code": "AFTE0069",
+      "nombre": "Mustang Steak",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Mustang Steak"
+      }
+    },
+    {
+      "product_code": "AFTE0085",
+      "nombre": "Asado Banderita(6 costillas)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Asado"
+      }
+    },
+    {
+      "product_code": "AFTE0086",
+      "nombre": "Lomo Estancia CP",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Res",
+        "4": "Lomo"
+      }
+    },
+    {
+      "product_code": "AFTE0090(C)",
+      "nombre": "Centro de asado marcado al medio (6 costillas)(C)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes de Carne",
+        "3": "Asado",
+        "4": "Centro de Asado"
+      }
+    },
+    {
+      "product_code": "AFTE0091",
+      "nombre": "Asado tira ancha (6 costillas)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes de Carne",
+        "3": "Asado",
+        "4": "Asado Tira Ancha"
+      }
+    },
+    {
+      "product_code": "AFTE0091(C)",
+      "nombre": "Asado tira ancha (6 costillas)(C)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes de Carne",
+        "3": "Asado",
+        "4": "Asado Tira Ancha"
+      }
+    },
+    {
+      "product_code": "AFTE0092",
+      "nombre": "Asado en tiras (6 costillas)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes de Carne",
+        "3": "Asado",
+        "4": "Asado en Tiras"
+      }
+    },
+    {
+      "product_code": "AFTE0092(C)",
+      "nombre": "Asado en tiras (6 costillas)(C)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes de Carne",
+        "3": "Asado",
+        "4": "Asado en Tiras"
+      }
+    },
+    {
+      "product_code": "AFTE0099",
+      "nombre": "Denver Steak",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes de Carne",
+        "3": "Asado",
+        "4": "Denver Steak"
+      }
+    },
+    {
+      "product_code": "AFTE0100",
+      "nombre": "Hookipa beef",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes de Carne",
+        "3": "Asado",
+        "4": "Hookipa Beef"
+      }
+    },
+    {
+      "product_code": "AFTE0999",
+      "nombre": "Entraña estancia CP",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes de Carne",
+        "3": "Asado",
+        "4": "Entraña"
+      }
+    },
+    {
+      "product_code": "AFVA0031",
+      "nombre": "Carbon x 4 Kg",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Carbón",
+        "3": "Carbón",
+        "4": "Carbón"
+      }
+    },
+    {
+      "product_code": "AFVA0100",
+      "nombre": "Iniciador de Fuego Penicas x 9un",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Iniciadores de Fuego",
+        "3": "Iniciador de Fuego",
+        "4": "Iniciador de Fuego"
+      }
+    },
+    {
+      "product_code": "AFVA0165",
+      "nombre": "luigi bosca de sangre malbec x 750ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vino Tinto",
+        "4": "Malbec"
+      }
+    },
+    {
+      "product_code": "AFVA0206",
+      "nombre": "Maderita iniciadoras de fuego",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Iniciadores de Fuego",
+        "3": "Madera",
+        "4": "Maderita Iniciadora"
+      }
+    },
+    {
+      "product_code": "AFWKY007",
+      "nombre": "Whisky J. Walker Black x 750cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Whisky",
+        "4": "Whisky"
+      }
+    },
+    {
+      "product_code": "AFWKY009",
+      "nombre": "Whisky J. Walker Red x 750cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Whisky",
+        "4": "Whisky"
+      }
+    },
+    {
+      "product_code": "DELI0034",
+      "nombre": "Pizza Especial Luco",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pizzas",
+        "3": "Pizza",
+        "4": "Pizza Especial"
+      }
+    },
+    {
+      "product_code": "DELI0035",
+      "nombre": "Pizza 4 quesos Luco",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pizzas",
+        "3": "Pizza",
+        "4": "Pizza 4 Quesos"
+      }
+    },
+    {
+      "product_code": "DELI0036",
+      "nombre": "Pizza Fugazzetta Luco",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pizzas",
+        "3": "Pizza",
+        "4": "Pizza Fugazzetta"
+      }
+    },
+    {
+      "product_code": "DELI0037",
+      "nombre": "Pizza Muzzarella Luco",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pizzas",
+        "3": "Pizza",
+        "4": "Pizza Muzzarella"
+      }
+    },
+    {
+      "product_code": "DELI0038",
+      "nombre": "Sorrentinos Premium Molleja al verdeo",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sorrentinos",
+        "3": "Sorrentinos",
+        "4": "Sorrentinos Premium Molleja"
+      }
+    },
+    {
+      "product_code": "DELI0039",
+      "nombre": "Sorrentinos premium camarones al limón",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sorrentinos",
+        "3": "Sorrentinos",
+        "4": "Sorrentinos Premium Camarones"
+      }
+    },
+    {
+      "product_code": "DELI0040",
+      "nombre": "Sorrentinos premium salmón al limón",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sorrentinos",
+        "3": "Sorrentinos",
+        "4": "Sorrentinos Premium Salmón"
+      }
+    },
+    {
+      "product_code": "VACO0001",
+      "nombre": "Salame RE envasado al vacío",
+      "tags": {
+        "1": "Embutidos",
+        "2": "Salames",
+        "3": "Salame",
+        "4": "Salame Envasado"
+      }
+    },
+    {
+      "product_code": "VACO0002",
+      "nombre": "Mix Mariscos surtidosFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Mix de Mariscos",
+        "4": "Mix Mariscos Surtidos"
+      }
+    },
+    {
+      "product_code": "VACO0003",
+      "nombre": "RabasFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Rabas",
+        "4": "Rabas"
+      }
+    },
+    {
+      "product_code": "VACO0004",
+      "nombre": "CalamaretesFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Calamaretes",
+        "4": "Calamaretes"
+      }
+    },
+    {
+      "product_code": "VACO0005",
+      "nombre": "Langostinos peladosFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Langostinos",
+        "4": "Langostinos Pelados"
+      }
+    },
+    {
+      "product_code": "VACO0006",
+      "nombre": "Mejillones peladosFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Mejillones",
+        "4": "Mejillones Pelados"
+      }
+    },
+    {
+      "product_code": "VACO0007",
+      "nombre": "Camarones peladosFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Camarones",
+        "4": "Camarones Pelados"
+      }
+    },
+    {
+      "product_code": "VACO0008",
+      "nombre": "Filet de merluza Fazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Pescados",
+        "3": "Filet de Pescado",
+        "4": "Filet de Merluza"
+      }
+    },
+    {
+      "product_code": "VACO0009",
+      "nombre": "Rodajas de surubíFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Pescados",
+        "3": "Filet de Pescado",
+        "4": "Rodajas de Surubí"
+      }
+    },
+    {
+      "product_code": "VACO0011",
+      "nombre": "Filet galloFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Pescados",
+        "3": "Filet de Pescado",
+        "4": "Filet de Gallo"
+      }
+    },
+    {
+      "product_code": "VACO0012",
+      "nombre": "Combo paellaFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Combo",
+        "4": "Combo Paella"
+      }
+    },
+    {
+      "product_code": "VACO0013",
+      "nombre": "Caja empanada mariscoFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Empanadas",
+        "4": "Caja Empanada Marisco"
+      }
+    },
+    {
+      "product_code": "VACO0014",
+      "nombre": "Caja empanada pescadoFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Empanadas",
+        "4": "Caja Empanada Pescado"
+      }
+    },
+    {
+      "product_code": "VACO0015",
+      "nombre": "Paella cocinadaFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Paella",
+        "4": "Paella Cocinada"
+      }
+    },
+    {
+      "product_code": "VACO0016",
+      "nombre": "Cazuela de mariscos cocinadaFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Cazuela",
+        "4": "Cazuela de Mariscos Cocinada"
+      }
+    },
+    {
+      "product_code": "VACO0017",
+      "nombre": "Canelones de mariscoFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Canelones",
+        "4": "Canelones de Marisco"
+      }
+    },
+    {
+      "product_code": "VACO0018",
+      "nombre": "Pack Brochettes de salmónFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Brochettes",
+        "4": "Pack Brochettes de Salmón"
+      }
+    },
+    {
+      "product_code": "VACO0019",
+      "nombre": "Milanesas de merluzaFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Milanesas",
+        "4": "Milanesas de Merluza"
+      }
+    },
+    {
+      "product_code": "VACO0020",
+      "nombre": "Milanesas de pollloFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Milanesas",
+        "4": "Milanesas de Pollo"
+      }
+    },
+    {
+      "product_code": "VACO0021",
+      "nombre": "Filet salmónFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Pescados",
+        "3": "Filet de Pescado",
+        "4": "Filet de Salmón"
+      }
+    },
+    {
+      "product_code": "VACO0022",
+      "nombre": "Filet trucha despinadaFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Pescados",
+        "3": "Filet de Pescado",
+        "4": "Filet de Trucha Despinada"
+      }
+    },
+    {
+      "product_code": "VACO0023",
+      "nombre": "Arrollados de pollo FazzioFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Arrollados",
+        "4": "Arrollados de Pollo"
+      }
+    },
+    {
+      "product_code": "VACO0024",
+      "nombre": "Atún rojoFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Pescados",
+        "3": "Atún",
+        "4": "Atún Rojo"
+      }
+    },
+    {
+      "product_code": "VACO0025",
+      "nombre": "Milanesas de merluza finas hierbasFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Milanesas",
+        "4": "Milanesas de Merluza Finas Hierbas"
+      }
+    },
+    {
+      "product_code": "VACO0026",
+      "nombre": "Salmón blancoFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Pescados",
+        "3": "Salmón",
+        "4": "Salmón Blanco"
+      }
+    },
+    {
+      "product_code": "VACO0027",
+      "nombre": "KanikamaFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Kanikama",
+        "4": "Kanikama"
+      }
+    },
+    {
+      "product_code": "VACO0028",
+      "nombre": "Sobres salmón ahumadoFazzio",
+      "tags": {
+        "1": "Mariscos",
+        "2": "Mariscos",
+        "3": "Salmón Ahumado",
+        "4": "Sobres Salmón Ahumado"
+      }
+    },
+    {
+      "product_code": "VACO0029",
+      "nombre": "Coca cola vidrio 237ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosa",
+        "4": "Coca Cola"
+      }
+    },
+    {
+      "product_code": "VACO0030",
+      "nombre": "Lata HeinekeN",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cerveza",
+        "4": "Cerveza Heineken"
+      }
+    },
+    {
+      "product_code": "VACO0031",
+      "nombre": "Monjita Heineken",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cerveza",
+        "4": "Cerveza Heineken"
+      }
+    },
+    {
+      "product_code": "VACO0032",
+      "nombre": "Lata Blue Moon",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cerveza",
+        "4": "Cerveza Blue Moon"
+      }
+    },
+    {
+      "product_code": "VACO0033",
+      "nombre": "Monjita Blue Moon",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cerveza",
+        "4": "Cerveza Blue Moon"
+      }
+    },
+    {
+      "product_code": "VACO0034",
+      "nombre": "Agua Villavicencio 500ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua Mineral",
+        "4": "Agua Villavicencio"
+      }
+    },
+    {
+      "product_code": "VACO0035",
+      "nombre": "Agua Villavicencio 1.5 L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua Mineral",
+        "4": "Agua Villavicencio"
+      }
+    },
+    {
+      "product_code": "VACO0036",
+      "nombre": "Monjita Imperial golden",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cerveza",
+        "4": "Cerveza Imperial Golden"
+      }
+    },
+    {
+      "product_code": "VACO0037",
+      "nombre": "Heineken Litro",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cerveza",
+        "4": "Cerveza Heineken"
+      }
+    },
+    {
+      "product_code": "VACO0038",
+      "nombre": "Bandeja servir asado 50x25El Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Bandejas",
+        "3": "Bandeja",
+        "4": "Bandeja Servir Asado"
+      }
+    },
+    {
+      "product_code": "VACO0039",
+      "nombre": "Tabla picada 60x15El Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Tablas",
+        "3": "Tabla",
+        "4": "Tabla Picada"
+      }
+    },
+    {
+      "product_code": "VACO0040",
+      "nombre": "Bandeja servir asado 42x20El Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Bandejas",
+        "3": "Bandeja",
+        "4": "Bandeja Servir Asado"
+      }
+    },
+    {
+      "product_code": "VACO0042",
+      "nombre": "Tabla 30x60 KiriEl Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Tablas",
+        "3": "Tabla",
+        "4": "Tabla"
+      }
+    },
+    {
+      "product_code": "VACO0043",
+      "nombre": "Tabla 30x15El Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Tablas",
+        "3": "Tabla",
+        "4": "Tabla"
+      }
+    },
+    {
+      "product_code": "VACO0044",
+      "nombre": "Tabla 20x30 guayubiraEl Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Tablas",
+        "3": "Tabla",
+        "4": "Tabla"
+      }
+    },
+    {
+      "product_code": "VACO0045",
+      "nombre": "Planchetita con tapaEl Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Utensilios",
+        "3": "Planchetita",
+        "4": "Planchetita con Tapa"
+      }
+    },
+    {
+      "product_code": "VACO0049",
+      "nombre": "Juego cuchillo y tenedorEl Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Utensilios",
+        "3": "Juego de Cuchillos",
+        "4": "Juego Cuchillo y Tenedor"
+      }
+    },
+    {
+      "product_code": "VACO0051",
+      "nombre": "Hacha cheffEl Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Utensilios",
+        "3": "Hacha",
+        "4": "Hacha Chef"
+      }
+    },
+    {
+      "product_code": "VACO0052",
+      "nombre": "Cuchillo n16El Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Utensilios",
+        "3": "Cuchillo",
+        "4": "Cuchillo"
+      }
+    },
+    {
+      "product_code": "VACO0053",
+      "nombre": "Set TramontinaEl Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Utensilios",
+        "3": "Set de Cuchillos",
+        "4": "Set Tramontina"
+      }
+    },
+    {
+      "product_code": "VACO0055",
+      "nombre": "Set cuchillo y tenedor n23El Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Utensilios",
+        "3": "Set de Cuchillos",
+        "4": "Set Cuchillo y Tenedor"
+      }
+    },
+    {
+      "product_code": "VACO0056",
+      "nombre": "Set cuchillo y tenedor chicoEl Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Utensilios",
+        "3": "Set de Cuchillos",
+        "4": "Set Cuchillo y Tenedor Chico"
+      }
+    },
+    {
+      "product_code": "VACO0057",
+      "nombre": "SmasherEl Mansero (copia)",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Utensilios",
+        "3": "Smasher",
+        "4": "Smasher"
+      }
+    },
+    {
+      "product_code": "VACO0058",
+      "nombre": "Grillero verduraEl Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Utensilios",
+        "3": "Grillero",
+        "4": "Grillero Verdura"
+      }
+    },
+    {
+      "product_code": "VACO0059",
+      "nombre": "Set parrilero pala y atizadorEl Mansero",
+      "tags": {
+        "1": "Accesorios de Asado",
+        "2": "Utensilios",
+        "3": "Set Parrilero",
+        "4": "Set Parrilero Pala y Atizador"
+      }
+    },
+    {
+      "product_code": "VACO0074",
+      "nombre": "Provoleta de cabra Formagge",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Provoleta de Cabra"
+      }
+    },
+    {
+      "product_code": "VACO0075",
+      "nombre": "Parmesano corazón de hormaFormagge",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Parmesano"
+      }
+    },
+    {
+      "product_code": "VACO0076",
+      "nombre": "Provolone parrileroFormagge",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Provolone"
+      }
+    },
+    {
+      "product_code": "VACO0077",
+      "nombre": "Pizza envasada al vacío muzzarellaPIZZA NAPLES",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pizzas",
+        "3": "Pizza",
+        "4": "Pizza Envasada Muzzarella"
+      }
+    },
+    {
+      "product_code": "VACO0078",
+      "nombre": "Pizza envasada al vacio fugazettaPIZZA NAPLES",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pizzas",
+        "3": "Pizza",
+        "4": "Pizza Envasada Fugazzetta"
+      }
+    },
+    {
+      "product_code": "VACO0079",
+      "nombre": "Pizza envasada al vacío especial con jamónPIZZA NAPLES",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pizzas",
+        "3": "Pizza",
+        "4": "Pizza Envasada Especial"
+      }
+    },
+    {
+      "product_code": "VACO0082",
+      "nombre": "Ramazotti",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licor",
+        "4": "Ramazotti"
+      }
+    },
+    {
+      "product_code": "VACO0084",
+      "nombre": "Fernet Branca",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Fernet"
+      }
+    },
+    {
+      "product_code": "VACO0085",
+      "nombre": "Vodka Sky",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Vodka"
+      }
+    },
+    {
+      "product_code": "VACO0087",
+      "nombre": "Whisky red label",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Whiskies",
+        "4": "Whisky"
+      }
+    },
+    {
+      "product_code": "VACO0088",
+      "nombre": "Whisky black label",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Whiskies",
+        "4": "Whisky"
+      }
+    },
+    {
+      "product_code": "VACO0089",
+      "nombre": "Whisky jack daniels",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Whiskies",
+        "4": "Whisky"
+      }
+    },
+    {
+      "product_code": "VACO0090",
+      "nombre": "Champagne las perdices brut nature",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Champagnes",
+        "4": "Champagne"
+      }
+    },
+    {
+      "product_code": "VACO0091",
+      "nombre": "Champagne Salentein Brut Nature",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Champagnes",
+        "4": "Champagne"
+      }
+    },
+    {
+      "product_code": "VACO0092",
+      "nombre": "Champagne Salentein Extra Brut",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Champagnes",
+        "4": "Champagne"
+      }
+    },
+    {
+      "product_code": "VACO0100",
+      "nombre": "SALAME PELADO (AL VACÍO)DON RAMON",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Salame Pelado"
+      }
+    },
+    {
+      "product_code": "VACO0101",
+      "nombre": "SALAME COCIDO (AL VACÍO)DON RAMON",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Salame Cocido"
+      }
+    },
+    {
+      "product_code": "VACO0102",
+      "nombre": "SALAME EN GRASA (AL VACÍO)DON RAMON",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Salame en Grasa"
+      }
+    },
+    {
+      "product_code": "VACO0103",
+      "nombre": "BONDIOLA EN TROZO (AL VACÍO)DON RAMON",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Bondiola en Trozo"
+      }
+    },
+    {
+      "product_code": "VACO0104",
+      "nombre": "BONDIOLA FETEADA (AL VACÍO)DON RAMON",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Bondiola Feteada"
+      }
+    },
+    {
+      "product_code": "VACO0105",
+      "nombre": "Saint Felicien Malbec",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Malbec"
+      }
+    },
+    {
+      "product_code": "VACO0107",
+      "nombre": "Saint Felicien Cabernet Sauvignon",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cabernet Sauvignon"
+      }
+    },
+    {
+      "product_code": "VACO0108",
+      "nombre": "Saint Felicien Cabernet Franc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cabernet Franc"
+      }
+    },
+    {
+      "product_code": "VACO0109",
+      "nombre": "Saint Felicien Chardonnay",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Blancos",
+        "4": "Chardonnay"
+      }
+    },
+    {
+      "product_code": "VACO0110",
+      "nombre": "DV Catena Malbec Malbec",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Malbec"
+      }
+    },
+    {
+      "product_code": "VACO0112",
+      "nombre": "DV Catena Cabernet Cabernet",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cabernet Sauvignon"
+      }
+    },
+    {
+      "product_code": "VACO0113",
+      "nombre": "DV Catena Chardonnay",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Blancos",
+        "4": "Chardonnay"
+      }
+    },
+    {
+      "product_code": "VACO0114",
+      "nombre": "Domaine Edem blonde",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Blancos",
+        "4": "Blonde"
+      }
+    },
+    {
+      "product_code": "VACO0115",
+      "nombre": "Domaine edem Brunnette",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Oscuros",
+        "4": "Brunnette"
+      }
+    },
+    {
+      "product_code": "VACO0116",
+      "nombre": "Domaine Edem No7",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Oscuros",
+        "4": "No7"
+      }
+    },
+    {
+      "product_code": "VACO0117",
+      "nombre": "DV Lesplorator Salta",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Malbec"
+      }
+    },
+    {
+      "product_code": "VACO0118",
+      "nombre": "DV Lesplorator La Rioja",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "La Rioja"
+      }
+    },
+    {
+      "product_code": "VACO0119",
+      "nombre": "Angelica Malbec",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Malbec"
+      }
+    },
+    {
+      "product_code": "VACO0120",
+      "nombre": "Angelica Cabernet Sauvignon",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cabernet Sauvignon"
+      }
+    },
+    {
+      "product_code": "VACO0121",
+      "nombre": "Angelica Cabernet Franc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cabernet Franc"
+      }
+    },
+    {
+      "product_code": "VACO0122",
+      "nombre": "Son Vida Malbec",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Malbec"
+      }
+    },
+    {
+      "product_code": "VACO0123",
+      "nombre": "Son Vida Cabernet Sauvignon",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cabernet Sauvignon"
+      }
+    },
+    {
+      "product_code": "VACO0124",
+      "nombre": "Lo Sance Extra Brut",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Champagnes",
+        "4": "Champagne"
+      }
+    },
+    {
+      "product_code": "VACO0125",
+      "nombre": "Lo Sance Brut Nature",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Champagnes",
+        "4": "Champagne"
+      }
+    },
+    {
+      "product_code": "VACO0126",
+      "nombre": "Lo Sance Rosado",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Champagnes",
+        "4": "Champagne"
+      }
+    },
+    {
+      "product_code": "VACO0127",
+      "nombre": "Lo Sance Chenin",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Champagnes",
+        "4": "Champagne"
+      }
+    },
+    {
+      "product_code": "VACO0128",
+      "nombre": "Lo Sance Blend Cab Franc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Champagnes",
+        "4": "Champagne"
+      }
+    },
+    {
+      "product_code": "VACO0129",
+      "nombre": "Relator Malbec",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Malbec"
+      }
+    },
+    {
+      "product_code": "VACO0131",
+      "nombre": "Relator Cabernet Franc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cabernet Franc"
+      }
+    },
+    {
+      "product_code": "VACO0132",
+      "nombre": "Chaman Red Blend",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Red Blend"
+      }
+    },
+    {
+      "product_code": "VACO0133",
+      "nombre": "Chaman Gewusrtaminner",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Blancos",
+        "4": "Gewurztraminer"
+      }
+    },
+    {
+      "product_code": "VACO0134",
+      "nombre": "Cos de Cal",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cos de Cal"
+      }
+    },
+    {
+      "product_code": "VACO0135",
+      "nombre": "As de Bravas",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "As de Bravas"
+      }
+    },
+    {
+      "product_code": "VACO0136",
+      "nombre": "Al Pasión Malbec",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Malbec"
+      }
+    },
+    {
+      "product_code": "VACO0137",
+      "nombre": "Al Pasión Cabernet Sauvignon",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cabernet Sauvignon"
+      }
+    },
+    {
+      "product_code": "VACO0138",
+      "nombre": "Al Al Pasión Sauvignon Blanc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Blancos",
+        "4": "Sauvignon Blanc"
+      }
+    },
+    {
+      "product_code": "VACO0139",
+      "nombre": "Al Pasión Grand Malbec",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Grand Malbec"
+      }
+    },
+    {
+      "product_code": "VACO0140",
+      "nombre": "Al Pasión Cabernet Franc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cabernet Franc"
+      }
+    },
+    {
+      "product_code": "VACO0141",
+      "nombre": "Al Pasión Petit Verdot",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Petit Verdot"
+      }
+    },
+    {
+      "product_code": "VACO0142",
+      "nombre": "Enemigo Malbec",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Malbec"
+      }
+    },
+    {
+      "product_code": "VACO0144",
+      "nombre": "Enemigo Cabernet Franc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cabernet Franc"
+      }
+    },
+    {
+      "product_code": "VACO0145",
+      "nombre": "Gran Enemigo Gualtallary",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Gualtallary"
+      }
+    },
+    {
+      "product_code": "VACO0146",
+      "nombre": "Gran Enemigo Chacayes",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Chacayes"
+      }
+    },
+    {
+      "product_code": "VACO0147",
+      "nombre": "Gran Enemigo Cepillo",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cepillo"
+      }
+    },
+    {
+      "product_code": "VACO0148",
+      "nombre": "Gran Enemigo Blend",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Blend"
+      }
+    },
+    {
+      "product_code": "VACO0149",
+      "nombre": "Etcétera Pinot Noir",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Pinot Noir"
+      }
+    },
+    {
+      "product_code": "VACO0150",
+      "nombre": "Capitulo 1 Malbec Vista Flores",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Malbec"
+      }
+    },
+    {
+      "product_code": "VACO0151",
+      "nombre": "Capitulo 1 Malbec Los Chacayes",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Malbec"
+      }
+    },
+    {
+      "product_code": "VACO0152",
+      "nombre": "Capitulo 1 Cabernet Franc Los Chacayes",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cabernet Franc"
+      }
+    },
+    {
+      "product_code": "VACO0153",
+      "nombre": "Capitulo 1 Cabernet Sauvignon Vista",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Cabernet Sauvignon"
+      }
+    },
+    {
+      "product_code": "VACO0154",
+      "nombre": "Capitulo 1 Petit Verdot Los Chacayes",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Petit Verdot"
+      }
+    },
+    {
+      "product_code": "VACO0155",
+      "nombre": "Capitulo 1 Tempranillo Chilecito",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Tempranillo"
+      }
+    },
+    {
+      "product_code": "VACO0156",
+      "nombre": "Capitulo 2 Malbec Cabernet Franc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Malbec Cabernet Franc"
+      }
+    },
+    {
+      "product_code": "VACO0158",
+      "nombre": "Tabanera Grand Blend",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Grand Blend"
+      }
+    },
+    {
+      "product_code": "VACO0159",
+      "nombre": "Etcetera Semillon Chilecito",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Blancos",
+        "4": "Semillon"
+      }
+    },
+    {
+      "product_code": "VACO0160",
+      "nombre": "Etcétera Tocai Vista Flores",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Blancos",
+        "4": "Tocai"
+      }
+    },
+    {
+      "product_code": "VACO0161",
+      "nombre": "Etcétera Torrontes Valle Famatina",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Blancos",
+        "4": "Torrontés"
+      }
+    },
+    {
+      "product_code": "VACO0162",
+      "nombre": "Corlieri",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sales",
+        "4": "Sal"
+      }
+    },
+    {
+      "product_code": "VACO0163",
+      "nombre": "Sal de campo tradicional",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sales",
+        "4": "Sal Tradicional"
+      }
+    },
+    {
+      "product_code": "VACO0164",
+      "nombre": "Sal de campo fina",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sales",
+        "4": "Sal Fina"
+      }
+    },
+    {
+      "product_code": "VACO0165",
+      "nombre": "Sal de campo 5 pimientas",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sales",
+        "4": "Sal 5 Pimientas"
+      }
+    },
+    {
+      "product_code": "VACO0166",
+      "nombre": "Sal de campo ahumada",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sales",
+        "4": "Sal Ahumada"
+      }
+    },
+    {
+      "product_code": "VACO0167",
+      "nombre": "Sal de campo marina con especias",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sales",
+        "4": "Sal Marina con Especias"
+      }
+    },
+    {
+      "product_code": "VACO0168",
+      "nombre": "Sal de campo marina sin especias",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sales",
+        "4": "Sal Marina sin Especias"
+      }
+    },
+    {
+      "product_code": "VACO0169",
+      "nombre": "Sal de campo especial",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sales",
+        "4": "Sal Especial"
+      }
+    },
+    {
+      "product_code": "VACO0170",
+      "nombre": "Sal de campo light",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sales",
+        "4": "Sal Light"
+      }
+    },
+    {
+      "product_code": "VACO0171",
+      "nombre": "sprite 2.25 L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Sprite"
+      }
+    },
+    {
+      "product_code": "VACO0172",
+      "nombre": "sprite 500 ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Sprite"
+      }
+    },
+    {
+      "product_code": "VACO0173",
+      "nombre": "sprite lata 230 ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Sprite"
+      }
+    },
+    {
+      "product_code": "VACO0174",
+      "nombre": "coca cola vidrio ret 350 ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Coca Cola"
+      }
+    },
+    {
+      "product_code": "VACO0175",
+      "nombre": "coca cola 2.25 L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Coca Cola"
+      }
+    },
+    {
+      "product_code": "VACO0176",
+      "nombre": "coca zero 2.25 L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Coca Cola Zero"
+      }
+    },
+    {
+      "product_code": "VACO0177",
+      "nombre": "coca cola 1L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Coca Cola"
+      }
+    },
+    {
+      "product_code": "VACO0178",
+      "nombre": "coca 500 ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Coca Cola"
+      }
+    },
+    {
+      "product_code": "VACO0179",
+      "nombre": "coca zero 500 ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Coca Cola Zero"
+      }
+    },
+    {
+      "product_code": "VACO0181",
+      "nombre": "carbón mezcla pura 4kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Carbón y Leña",
+        "3": "Carbón",
+        "4": "Carbón Mezcla Pura"
+      }
+    },
+    {
+      "product_code": "VACO0183",
+      "nombre": "leña quebracho puro 6kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Carbón y Leña",
+        "3": "Leña",
+        "4": "Leña Quebracho Puro"
+      }
+    },
+    {
+      "product_code": "VACO0185",
+      "nombre": "juego doble cacique artesanal",
+      "tags": {
+        "1": "Almacén",
+        "2": "Utensilios de Cocina",
+        "3": "Juegos de Parrilla",
+        "4": "Juego Parrillero"
+      }
+    },
+    {
+      "product_code": "VACO0187",
+      "nombre": "cuchilla resina equipos cacique artesanal",
+      "tags": {
+        "1": "Almacén",
+        "2": "Utensilios de Cocina",
+        "3": "Cuchillos",
+        "4": "Cuchilla de Resina"
+      }
+    },
+    {
+      "product_code": "VACO0188",
+      "nombre": "juego parrillero cacique artesanal",
+      "tags": {
+        "1": "Almacén",
+        "2": "Utensilios de Cocina",
+        "3": "Juegos de Parrilla",
+        "4": "Juego Parrillero"
+      }
+    },
+    {
+      "product_code": "VACO0194",
+      "nombre": "Jamon crudo trozo en vacio x kg",
+      "tags": {
+        "1": "Carnes",
+        "2": "Fiambres",
+        "3": "Jamon",
+        "4": "Jamon Crudo"
+      }
+    },
+    {
+      "product_code": "VACO0195",
+      "nombre": "Jamon crudo feteado env vacio x kg",
+      "tags": {
+        "1": "Carnes",
+        "2": "Fiambres",
+        "3": "Jamon",
+        "4": "Jamon Crudo Feteado"
+      }
+    },
+    {
+      "product_code": "VACO0201",
+      "nombre": "corona 710cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Cerveza Corona"
+      }
+    },
+    {
+      "product_code": "VACO0203",
+      "nombre": "paso de los toros 500ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Paso de los Toros"
+      }
+    },
+    {
+      "product_code": "VACO0204",
+      "nombre": "pepsi 500ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Pepsi"
+      }
+    },
+    {
+      "product_code": "VACO0205",
+      "nombre": "7up 500ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "7up"
+      }
+    },
+    {
+      "product_code": "VACO0206",
+      "nombre": "red bull",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Energéticas",
+        "4": "Red Bull"
+      }
+    },
+    {
+      "product_code": "VACO0207",
+      "nombre": "red bull 350",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Energéticas",
+        "4": "Red Bull"
+      }
+    },
+    {
+      "product_code": "VACO0208",
+      "nombre": "red bull sugar free",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Energéticas",
+        "4": "Red Bull Sugar Free"
+      }
+    },
+    {
+      "product_code": "VACO0209",
+      "nombre": "red bull summer edition",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Energéticas",
+        "4": "Red Bull Summer Edition"
+      }
+    },
+    {
+      "product_code": "VACO0210",
+      "nombre": "lata pepsi",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Lata Pepsi"
+      }
+    },
+    {
+      "product_code": "VACO0211",
+      "nombre": "monjita stella artois",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza Monjita Stella Artois"
+      }
+    },
+    {
+      "product_code": "VACO0212",
+      "nombre": "pepsi 2L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Pepsi"
+      }
+    },
+    {
+      "product_code": "VACO0213",
+      "nombre": "Bullseye BBQ",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas BBQ",
+        "4": "Salsa BBQ Bullseye"
+      }
+    },
+    {
+      "product_code": "VACO0214",
+      "nombre": "KRAFT mac cheese 206G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Comidas Preparadas",
+        "3": "Comidas Instantáneas",
+        "4": "Macarrones con Queso"
+      }
+    },
+    {
+      "product_code": "VACO0215",
+      "nombre": "KRAFT salsa BBQ pet",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas BBQ",
+        "4": "Salsa BBQ Kraft"
+      }
+    },
+    {
+      "product_code": "VACO0216",
+      "nombre": "Heinz ketchup con jalapeño",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Ketchup",
+        "4": "Ketchup con Jalapeño"
+      }
+    },
+    {
+      "product_code": "VACO0217",
+      "nombre": "LEA & PERRINS salsa Worcestershire",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas Especiales",
+        "4": "Salsa Worcestershire"
+      }
+    },
+    {
+      "product_code": "VACO0221",
+      "nombre": "luco sorrentinos bondiola de cerdo",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Sorrentinos",
+        "4": "Sorrentinos de Bondiola de Cerdo"
+      }
+    },
+    {
+      "product_code": "VACO0222",
+      "nombre": "luco sorrentinos osobuco al malbec",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Sorrentinos",
+        "4": "Sorrentinos de Osobuco al Malbec"
+      }
+    },
+    {
+      "product_code": "VACO0223",
+      "nombre": "luco ñoquis de papa",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Ñoquis",
+        "4": "Ñoquis de Papa"
+      }
+    },
+    {
+      "product_code": "VACO0227",
+      "nombre": "luco ravioles de pollo",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Ravioles",
+        "4": "Ravioles de Pollo"
+      }
+    },
+    {
+      "product_code": "VACO0233",
+      "nombre": "naranjo piel y hueso",
+      "tags": {
+        "1": "Frutas y Verduras",
+        "2": "Frutas",
+        "3": "Frutas Frescas",
+        "4": "Naranja"
+      }
+    },
+    {
+      "product_code": "VACO0234",
+      "nombre": "señor piel y hueso",
+      "tags": {
+        "1": "Frutas y Verduras",
+        "2": "Frutas",
+        "3": "Frutas Frescas",
+        "4": "Señor"
+      }
+    },
+    {
+      "product_code": "VACO0235",
+      "nombre": "los sauces piel y hueso",
+      "tags": {
+        "1": "Frutas y Verduras",
+        "2": "Frutas",
+        "3": "Frutas Frescas",
+        "4": "Los Sauces"
+      }
+    },
+    {
+      "product_code": "VACO0236",
+      "nombre": "rosado primero piel y hueso",
+      "tags": {
+        "1": "Frutas y Verduras",
+        "2": "Frutas",
+        "3": "Frutas Frescas",
+        "4": "Rosado Primero"
+      }
+    },
+    {
+      "product_code": "VAPA0023",
+      "nombre": "Parrilla 95x58 Acero Inox",
+      "tags": {
+        "1": "Almacén",
+        "2": "Utensilios de Cocina",
+        "3": "Parrillas",
+        "4": "Parrilla de Acero Inoxidable"
+      }
+    },
+    {
+      "product_code": "VAPA0024",
+      "nombre": "Parrilla 80x50 Acero Inox",
+      "tags": {
+        "1": "Almacén",
+        "2": "Utensilios de Cocina",
+        "3": "Parrillas",
+        "4": "Parrilla de Acero Inoxidable"
+      }
+    },
+    {
+      "product_code": "VAPA0025",
+      "nombre": "Set Palitas Acero Inox",
+      "tags": {
+        "1": "Almacén",
+        "2": "Utensilios de Cocina",
+        "3": "Utensilios de Cocina",
+        "4": "Set de Palitas de Acero Inoxidable"
+      }
+    },
+    {
+      "product_code": "VARI0007",
+      "nombre": "Destapador aguja",
+      "tags": {
+        "1": "Almacén",
+        "2": "Utensilios de Cocina",
+        "3": "Accesorios",
+        "4": "Destapador Aguja"
+      }
+    },
+    {
+      "product_code": "VARI0008",
+      "nombre": "Tapón vacio",
+      "tags": {
+        "1": "Almacén",
+        "2": "Utensilios de Cocina",
+        "3": "Accesorios",
+        "4": "Tapón Vacío"
+      }
+    },
+    {
+      "product_code": "VARI0009",
+      "nombre": "Enfriador y pico servidor",
+      "tags": {
+        "1": "Almacén",
+        "2": "Utensilios de Cocina",
+        "3": "Accesorios",
+        "4": "Enfriador y Pico Servidor"
+      }
+    },
+    {
+      "product_code": "VARI0010",
+      "nombre": "Destapador común",
+      "tags": {
+        "1": "Almacén",
+        "2": "Utensilios de Cocina",
+        "3": "Accesorios",
+        "4": "Destapador Común"
+      }
+    },
+    {
+      "product_code": "VINO0171",
+      "nombre": "Luca pinot noir",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "VINO0172",
+      "nombre": "Luca malbec",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "VINO0173",
+      "nombre": "Luca Beso de Dante",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    }
+  ]
+}

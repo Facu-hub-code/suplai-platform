@@ -1,1 +1,51 @@
-cliente_codigo,codigo_erp,is_prospect,whatsapp_status,is_mock
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Parrilla El Asador,25001,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493582641213,Carnicería La Tradición,25002,validado,2026-06-16T14:00:59.208448+00:00,,false
+5492991227644,Asadería Don Carlos,25003,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493418277249,Restaurante La Parrilla,25004,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493587747641,Almacén del Sabor,25005,validado,2026-06-16T14:00:59.208448+00:00,,false
+5492614053074,Carnicería El Buen Corte,25006,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493514079279,Parrilla La Estancia,25007,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493876914178,Asadería La Abuela,25008,validado,2026-06-16T14:00:59.208448+00:00,,false
+5492617175545,Carnicería El Rancho,25009,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493818437953,Restaurante El Fogón,25010,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493582132179,Almacén La Huerta,25011,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493872845902,Parrilla El Rincón,25012,validado,2026-06-16T14:00:59.208448+00:00,,false
+5492997670210,Carnicería La Familia,25013,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493811657614,Asadería El Pampa,25014,validado,2026-06-16T14:00:59.208448+00:00,,false
+5492994145193,Restaurante El Sazón,25015,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493515971311,Almacén El Mercado,25016,validado,2026-06-16T14:00:59.208448+00:00,,false
+5492994228106,Carnicería El Noble,25017,validado,2026-06-16T14:00:59.208448+00:00,,false
+5492998718887,Parrilla La Cabaña,25018,validado,2026-06-16T14:00:59.208448+00:00,,false
+5492995028869,Asadería El Mate,25019,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493517304254,Restaurante La Parrillita,25020,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493416986538,Almacén El Gourmet,25021,validado,2026-06-16T14:00:59.208448+00:00,,false
+5492619239862,Carnicería El Paraíso,25022,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493513952681,Parrilla La Esquina,25023,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493414799650,Asadería El Chulengo,25024,validado,2026-06-16T14:00:59.208448+00:00,,false
+5492992500733,Restaurante La Casa de la Carne,25025,validado,2026-06-16T14:00:59.208448+00:00,,false
+5492615139305,Almacén El Sabor Argentino,25026,validado,2026-06-16T14:00:59.208448+00:00,,false
+5492618861463,Carnicería El Gran Asado,25027,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493812941974,Parrilla El Fogón de Oro,25028,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493817404433,Asadería El Fuego,25029,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493419686914,Restaurante El Corte Perfecto,25030,validado,2026-06-16T14:00:59.208448+00:00,,false
+5493518648263,Almacén La Carnicería,25031,existente,,,false
+5493516216782,Carnicería El Sabor del Campo,25032,existente,,,false
+5492612780568,Parrilla La Tradición Familiar,25033,existente,,,false
+5493582639964,Asadería El Asador Criollo,25034,existente,,,false
+5493814729528,Restaurante El Rincón del Asado,25035,existente,,,false
+5493876922419,Almacén El Asado,25036,existente,,,false
+5492618889598,Carnicería El Sabor de la Tierra,25037,existente,,,false
+5492615021286,Parrilla El Gran Asador,25038,existente,,,false
+5493813520000,Asadería La Parrilla de Oro,25039,existente,,,false
+5492997489876,Restaurante El Asado de la Abuela,25040,existente,,,false
+5493519107005,Almacén El Sabor de Casa,0,no_validado,,PROSPECTO,true
+5493874104594,Carnicería El Corte de Oro,0,existente,,PROSPECTO,true
+5492617413812,Parrilla El Sabor del Asado,0,no_validado,,PROSPECTO,true
+5492617236955,Asadería El Asador de la Familia,0,existente,,PROSPECTO,true
+5492612928724,Restaurante El Gran Asado,0,no_validado,,PROSPECTO,true
+5492999435946,Almacén La Casa del Sabor,0,validado,2026-06-16T14:00:59.208448+00:00,PROSPECTO,true
+5493517632424,Carnicería El Paraíso del Asado,0,no_existente,,PROSPECTO,true
+5493416524997,Parrilla La Estancia del Asado,0,no_validado,,PROSPECTO,true
+5493876499570,Asadería El Fogón de la Abuela,0,existente,,PROSPECTO,true
+5492998066543,Restaurante El Sabor de la Parrilla,0,no_validado,,PROSPECTO,true

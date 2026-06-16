@@ -1,11 +1,18 @@
 # Copiar esta carpeta a implementacion/{schema_name}/ y completar.
-schema_name: ""
-nombre_comercial: ""
-ciudad_base: ""
+# Campos obligatorios marcados con ★
+
+schema_name: ""              # ★ Nombre del schema en Supabase (ej: al_fuego)
+nombre_comercial: ""         # ★ Nombre visible del tenant (ej: Al Fuego)
+ciudad_base: ""              # ★ Ciudad de operaciones (ej: "Valle Escondido, Córdoba, Argentina")
+coordenadas_centro: []       # ★ [lat, lon] del centro geográfico (ej: [-31.3547, -64.2442]) — usado en Fase 4
+rubro: ""                    # ★ Descripción libre del rubro (ej: "carnicería / parrilla") — usado en Fase 4
 excel_input: "inputs/lista-productos.xlsx"
+sitio_web: ""                # URL del sitio web del cliente (ej: https://alfuego.com.ar/)
+notas: ""                    # Descripción libre del negocio y sucursal
 
 blocked:
   is_mock_migration: true  # pasar a false tras aplicar docs/implementacion/migrations/20260615_add_is_mock_columns_demo_and_tenants.sql
+
 
 fases:
   "00":
@@ -93,5 +100,7 @@ fases:
     filas_csv: 0
     cargado_at: null
 
-marca_lider: ""  # completar tras Fase 1 (ej. ALBA, SIKA)
-tenant_id: ""    # UUID de public.distribuidoras — completar en Fase 0
+marca_lider: ""  # ★ Completar tras Fase 1 — marca principal del tenant (ej: Formagge, ALBA, SIKA)
+                 #   Usada en Fase 2 (promo 1) y Fase 8 (insights de calidad)
+tenant_id: ""    # ★ UUID de public.distribuidoras.id — completar en Fase 0
+                 #   Usado en Fases 03, y siguientes para mapeos en tablas public.*

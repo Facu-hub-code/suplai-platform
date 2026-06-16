@@ -1,4 +1,4 @@
-# Guía de Uso — Fase 2: Promociones (suplai-implementation-phase-02)
+﻿# Guía de Uso — Fase 2: Promociones (suplai-implementation-phase-02)
 
 Esta guía detalla el proceso para diseñar, generar e insertar 4 promociones mock activas vinculadas a los productos de mayor rotación del catálogo del tenant.
 
@@ -54,31 +54,29 @@ Generar el archivo en la ruta del tenant:
 
 ---
 
-## 💾 Carga a la Base de Datos (MCP Supabase)
+## 💾 Carga a la Base de Datos (MANDATORIO — Usar Script)
 
-1. **Verificar Columnas Reales**: 
-   Antes de insertar, ejecutar `list_tables` verbose sobre la tabla `{schema}.promociones_semanales`. 
-   Mapear las columnas del CSV según las columnas de la BD (como `descuento_percent`, `descuento_nominal` o `precio_promocional` según corresponda al tipo de descuento).
+Para aplicar las promociones de forma segura y consistente, evitando conflictos con las restricciones de la base de datos, se **debe ejecutar obligatoriamente** el script de carga automatizado:
 
-2. **Ejecutar Inserciones**:
-   ```sql
-   INSERT INTO {schema}.promociones_semanales (
-       product_code, titulo, descripcion, discount_kind, 
-       lista_precios_id, min_qty_umv, fecha_inicio, fecha_fin, activa, is_mock
-   ) VALUES (...)
-   ```
-   *(Asegurar que `lista_precios_id` sea de tipo numérico entero).*
+```bash
+python scripts/fase-02-promociones/cargar_promociones.py --esquema <nombre_esquema>
+```
+
+Este script se encargará de:
+1. Eliminar las promociones mock o remanentes del esquema.
+2. Resolver el nombre real del producto en base al catálogo actual.
+3. Formatear la descripción agregando el título.
+4. Mapear de forma precisa el tipo de descuento y su respectiva columna en la base de datos (`descuento_percent`, `descuento_nominal` o `precio_promocional`).
 
 ---
 
 ## 🔍 Verificación Post-Carga
 
-El agente debe ejecutar una consulta rápida para certificar que las 4 promociones se insertaron correctamente:
+El script de carga realizará de forma automática la verificación imprimiendo las promociones cargadas. Si se desea verificar manualmente:
 ```sql
-SELECT id, product_code, titulo, fecha_inicio, fecha_fin, activa 
-FROM {schema}.promociones_semanales 
-ORDER BY id DESC 
-LIMIT 4;
+SELECT id, product_code, product_name, discount_kind, precio_promocional, descuento_percent, descuento_nominal, lista_precios_id
+FROM <nombre_esquema>.promociones_semanales
+ORDER BY id ASC;
 ```
 
 ---

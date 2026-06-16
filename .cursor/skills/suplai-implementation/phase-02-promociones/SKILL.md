@@ -1,4 +1,4 @@
----
+﻿---
 name: suplai-implementation-phase-02
 description: Fase 2 promociones — 4 promos mock activas desde top rotación. Usar tras Fase 1 cargada.
 ---
@@ -29,22 +29,34 @@ description: Fase 2 promociones — 4 promos mock activas desde top rotación. U
 - `fecha_inicio` = hoy − 7 días
 - `fecha_fin` = hoy + 30 días
 - `activa` = true
-- `titulo` / `descripcion`: LLM con gancho comercial + nombre producto (ver flujo-agentico-resumen)
+- `titulo` / `descripcion`: LLM con gancho comercial + nombre producto
 - `is_mock` = true
 
-## Carga MCP
+## Generación (MANDATORIO — Usar Script)
 
-Tabla `{schema}.promociones_semanales`:
+Para preparar el archivo CSV de promociones aplicando la alineación de la `marca_lider` y la redacción comercial de OpenAI:
+```bash
+python scripts/fase-02-promociones/preparar_promociones.py --esquema {schema}
+```
+Esto generará `implementacion/{schema}/outputs/phase-02-promociones.csv`.
 
-- Mapear `discount_kind` → `discount_kind`, `descuento_percent` o `descuento_nominal` o `precio_promocional` según columnas reales (verificar MCP).
-- `product_name` desde catálogo
-- `lista_precios_id` numérico
+## Carga a la Base de Datos (MANDATORIO — Usar Script)
+
+Para aplicar las promociones de forma segura respetando las restricciones de base de datos (`promociones_semanales_fields_chk`):
+```bash
+python scripts/fase-02-promociones/cargar_promociones.py --esquema {schema}
+```
+Este script limpiará las promociones mock/template anteriores, buscará los nombres reales de los productos en la base de datos, mapeará los tipos de descuento (`percent`, `nominal`, `fixed_price`) e insertará los registros.
 
 ## Verificación
 
-`SELECT id, product_code, descripcion, fecha_inicio, fecha_fin FROM {schema}.promociones_semanales LIMIT 4`
+El script de carga realizará de forma automática la verificación imprimiendo los registros insertados. Si se desea verificar manualmente:
+```sql
+SELECT id, product_code, product_name, discount_kind, precio_promocional, descuento_percent, descuento_nominal FROM {schema}.promociones_semanales LIMIT 4;
+```
 
 ## Cierre
 
 - manifest fase `02` → `cargado`
-- Mencionar que la promo 1 debe alinearse con `marca_lider` para efecto cruzado Fase 8
+- `filas_csv` = 4
+- Asegurar que la Promo 1 se asocie a la `marca_lider` (manejado automáticamente por el script).
