@@ -1,4 +1,4 @@
----
+﻿---
 name: enhance_descriptions
 description: Proponer y aplicar descripciones comerciales optimizadas y alias locales para catálogos de productos a través de SerpAPI y OpenAI, eliminando el ruido de marketing para RAG.
 ---
@@ -8,7 +8,7 @@ description: Proponer y aplicar descripciones comerciales optimizadas y alias lo
 Este flujo permite auditar y reescribir las descripciones de los productos y generar alias regionales de calidad para un tenant en Supabase. Elimina el ruido gramatical/publicitario (como *"Descubre..."*, *"Ideal para tu negocio..."*, *"Te traemos..."*) para que el RAG del agente identifique los productos con mayor velocidad y precisión.
 
 > [!IMPORTANT]
-> **REGLA DE OBLIGADA LECTURA PARA EL AGENTE**: Antes de ejecutar cualquier paso de esta skill, el agente **DEBE LEER obligatoriamente** la guía de uso detallada en [skill-guide.md](./skill-guide.md). Esto asegura que se realicen los auto-chequeos correctos, se apliquen los guardrails contra alucinaciones locales y se comprenda el flujo de validación proactiva.
+> **REGLA DE OBLIGADA LECTURA PARA EL AGENTE**: Antes de ejecutar cualquier paso de esta skill, el agente **DEBE LEER obligatoriamente** la guía de uso detallada en [skill-guide.md](./skill-guide.md) y **ejecutar el script de auto-diagnóstico** `python scripts/utils/verificar_entorno.py`. Esto asegura que se realicen los auto-chequeos correctos del entorno local, se apliquen los guardrails contra alucinaciones locales y se comprenda el flujo de validación proactiva.
 
 ---
 
@@ -28,9 +28,9 @@ Este flujo permite auditar y reescribir las descripciones de los productos y gen
 
 ## 2. Preparación de Candidatos (Solo Opción B)
 
-1. Si no hay CSV de entrada provisto, el agente debe ejecutar el script `scripts/buscar_candidatos.py` para recopilar automáticamente los productos más ambiguos o desclasificados del catálogo del tenant. Se puede pasar el parámetro opcional `--limite` (ej: `--limite 100`):
+1. Si no hay CSV de entrada provisto, el agente debe ejecutar el script `scripts/fase-01-catalogo/buscar_candidatos.py` para recopilar automáticamente los productos más ambiguos o desclasificados del catálogo del tenant. Se puede pasar el parámetro opcional `--limite` (ej: `--limite 100`):
    ```bash
-   python scripts/buscar_candidatos.py --esquema {esquema} [--limite {limite}]
+   python scripts/fase-01-catalogo/buscar_candidatos.py --esquema {esquema} [--limite {limite}]
    ```
 2. Este script consultará la base de datos y escribirá la lista propuesta de candidatos en un CSV temporal:
    `implementacion/{esquema}/inputs/candidatos_a_enriquecer.csv`
@@ -48,9 +48,9 @@ Este flujo permite auditar y reescribir las descripciones de los productos y gen
 
 Una vez confirmados los candidatos o especificado el CSV de entrada:
 
-1. Ejecutar el script `scripts/enriquecer_catalogo.py` con los argumentos configurados (agregando `--dominios`, `--sufijo-fallback` y `--modo-contexto` si el usuario decidió personalizarlos):
+1. Ejecutar el script `scripts/fase-01-catalogo/enriquecer_catalogo.py` con los argumentos configurados (agregando `--dominios`, `--sufijo-fallback` y `--modo-contexto` si el usuario decidió personalizarlos):
    ```bash
-   python scripts/enriquecer_catalogo.py --esquema {esquema} --csv-entrada implementacion/{esquema}/inputs/candidatos_a_enriquecer.csv --csv-salida implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv [--dominios {dominios}] [--sufijo-fallback {sufijo-fallback}] [--modo-contexto {modo-contexto}]
+   python scripts/fase-01-catalogo/enriquecer_catalogo.py --esquema {esquema} --csv-entrada implementacion/{esquema}/inputs/candidatos_a_enriquecer.csv --csv-salida implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv [--dominios {dominios}] [--sufijo-fallback {sufijo-fallback}] [--modo-contexto {modo-contexto}]
    ```
 2. El script consultará **Serper** (opción preferida y más barata, requiere configurar `SEARCH_PROVIDER=serper` y `SERPER_API_KEY` en el archivo `.env`) o **SerpAPI** y **OpenAI** (`gpt-4o-mini` por defecto) para generar descripciones B2B factuales y alias limpios para el contexto del rubro seleccionado.
 3. El resultado se guardará en `implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv`.
@@ -81,7 +81,7 @@ Cuando el implementador dé el visto bueno:
 1. Asegurar que las variables de base de datos están configuradas en `.env` (particularmente `SUPABASE_DB_URL`).
 2. Ejecutar la actualización masiva utilizando el flag `--aplicar`:
    ```bash
-   python scripts/enriquecer_catalogo.py --esquema {esquema} --aplicar --csv-entrada implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv
+   python scripts/fase-01-catalogo/enriquecer_catalogo.py --esquema {esquema} --aplicar --csv-entrada implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv
    ```
 3. El script actualizará las tablas `{esquema}.productos` y `{esquema}.productos_aliases`.
 4. El script encolará la re-vectorización en el backend llamando a `POST /{schema}/productos/vectorize` (usando `BACKEND_URL`).

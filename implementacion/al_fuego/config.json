@@ -1,0 +1,6 @@
+{
+  "dominios": "alfuego.com.ar,carniceria-parrilladonjulio.com.ar,losfenicios.com.ar,mercadolibre.com.ar",
+  "sufijo_fallback": "carnes envasadas al vacio carniceria boutique cordoba argentina",
+  "modo_contexto": "ampliado",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA AL FUEGO (CARNES, VINOS Y DELICATESSEN):\n1. ENFOQUE EN CARNES Y PARRILLA: Especificar el tipo de corte (ej. vacío, entraña, mollejas, picaña) y la presentación (envasado al vacío, congelado, refrigerado).\n2. VINOS Y BODEGAS: Si es vino o champagne (ej. Saint Felicien, DV Catena, Salentein), destacar la bodega, la variedad de uva (Malbec, Cabernet Franc, Blend) y sugerencias de maridaje con asado/carnes.\n3. ALIAS COLOQUIALES: Incluir alias comunes en Argentina para cortes y bebidas (ej. 'chinchu', 'provo', 'fernet', 'vino tinto', 'tira de asado', 'carbon').\n4. PROVEEDORES EMBLEMÁTICOS: Mantener el contexto de marcas de calidad presentes (ej. Don Ramón en chacinados, Formagge en quesos, Fazzio en pescados)."
+}

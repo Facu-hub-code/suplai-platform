@@ -1,12 +1,15 @@
 schema_name: al_fuego
 nombre_comercial: Al Fuego
 ciudad_base: "Valle Escondido, Córdoba, Argentina"
+coordenadas_centro: [-31.3547, -64.2442]
+rubro: "carnicería / parrilla / delicatessen"
 excel_input: inputs/LDP-AlFuego.csv
 sitio_web: https://alfuego.com.ar/
 notas: "Franquicia carnicería — carnes envasadas al vacío. Sucursal Valle Escondido."
 
+
 blocked:
-  is_mock_migration: true
+  is_mock_migration: false
 
 fases:
   "00":
@@ -17,65 +20,66 @@ fases:
     cargado_at: "2026-06-15T12:00:00Z"
   "01":
     nombre: catalogo
-    estado: pendiente
+    estado: cargado
     output_csv: outputs/phase-01-productos.csv
-    output_csv_extra: outputs/phase-01-listas-precios-*.csv
-    filas_csv: 0
-    cargado_at: null
+    output_csv_extra: outputs/phase-01-listas-precios.csv
+    filas_csv: 284
+    cargado_at: "2026-06-16T09:30:00-03:00"
   "01.1":
     nombre: tags
-    estado: pendiente
+    estado: cargado
     output_json: outputs/phase-01-1-propuesta-tags.json
-    cargado_at: null
+    cargado_at: "2026-06-16T09:58:00-03:00"
   "01.2":
     nombre: mejora_descripciones
-    estado: pendiente
+    estado: cargado
     output_csv: outputs/vista_previa_enriquecimiento.csv
+    cargado_at: "2026-06-16T10:15:00-03:00"
   "01.3":
     nombre: prompt_agente
-    estado: pendiente
+    estado: cargado
     output_json: outputs/phase-01-3-prompt-config.json
-    cargado_at: null
+    cargado_at: "2026-06-16T10:21:00-03:00"
   "02":
     nombre: promociones
-    estado: pendiente
+    estado: cargado
     output_csv: outputs/phase-02-promociones.csv
-    filas_csv: 0
-    cargado_at: null
+    filas_csv: 4
+    cargado_at: "2026-06-16T10:25:00-03:00"
   "03":
     nombre: cross_upsell
-    estado: pendiente
+    estado: cargado
     output_csv: outputs/phase-03-cross-sell.csv
     output_csv_extra: outputs/phase-03-up-sell.csv
-    filas_csv: 0
-    cargado_at: null
+    filas_csv: 11
+    cargado_at: "2026-06-16T10:35:00-03:00"
   "04":
     nombre: red_comercial
-    estado: pendiente
+    estado: cargado
     output_csv: outputs/phase-04-vendedores.csv
     output_csv_extra: outputs/phase-04-zonas.csv
     output_csv_extra_2: outputs/phase-04-clientes.csv
-    filas_csv: 0
-    cargado_at: null
+    filas_csv: 50
+    cargado_at: "2026-06-16T10:53:00-03:00"
   "05":
     nombre: clientes_flags
-    estado: pendiente
+    estado: cargado
     output_csv: outputs/phase-05-clientes-flags.csv
-    filas_csv: 0
-    cargado_at: null
+    filas_csv: 50
+    cargado_at: "2026-06-16T11:41:40.1595862-03:00"
   "06":
     nombre: pedidos
-    estado: pendiente
+    estado: cargado
     output_csv: outputs/phase-06-pedidos.csv
     output_csv_extra: outputs/phase-06-items-pedido.csv
-    filas_csv: 0
-    cargado_at: null
+    filas_csv: 157
+    cargado_at: "2026-06-16T11:41:40.1595862-03:00"
   "07":
     nombre: conversaciones
-    estado: pendiente
+    estado: cargado
     output_csv: outputs/phase-07-conversaciones-resumen.csv
-    filas_csv: 0
-    cargado_at: null
+    filas_csv: 50
+    cargado_at: "2026-06-16T11:41:40.1595862-03:00"
   "08":
     nombre: insights
     estado: pendiente
@@ -94,5 +98,5 @@ fases:
     filas_csv: 0
     cargado_at: null
 
-marca_lider: ""
+marca_lider: "Formagge"
 tenant_id: e8261700-ca7c-4091-b5b3-7aa9e9d31e08

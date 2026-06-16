@@ -26,13 +26,13 @@ casos-reales/
 
 ```bash
 # Solo casos reales (secuencial por defecto en manifest)
-python scripts/test_agent_e2e.py --schema benfresh --suite real --seller --sequential
+python scripts/fase-09-e2e/test_agent_e2e.py --schema benfresh --suite real --seller --sequential
 
 # Casos reales + 3 variantes generadas por LLM
-python scripts/test_agent_e2e.py --schema benfresh --suite real --seller --sequential --expand 3
+python scripts/fase-09-e2e/test_agent_e2e.py --schema benfresh --suite real --seller --sequential --expand 3
 
 # Híbrido: casos reales primero, luego suite genérica de catálogo
-python scripts/test_agent_e2e.py --schema benfresh --suite hybrid --seller
+python scripts/fase-09-e2e/test_agent_e2e.py --schema benfresh --suite hybrid --seller
 ```
 
 ## Formato `caso.json`

@@ -1,4 +1,4 @@
-# Benfresh — textos listos para backoffice
+﻿# Benfresh — textos listos para backoffice
 
 Propuesta tras auditoría `auditoria_prompt_20260612.md`. Copiar/pegar en **Configuración → Agente**.
 
@@ -162,7 +162,7 @@ WHERE schema_name = 'benfresh';
 
 1. Backoffice → vista previa system prompt (`POST /benfresh/system-prompt/preview`) perfil **client**.
 2. Confirmar que `full_text` ya no contiene "INSTRUCCIONES DE PEDIDO" ni "get_catalogo_link".
-3. E2E: `python scripts/test_agent_e2e.py --schema benfresh --seller false`
+3. E2E: `python scripts/fase-09-e2e/test_agent_e2e.py --schema benfresh --seller false`
 4. Casos foco: **#9 confirmación** (debe llamar `confirm_order`), **#7 empaque** (unidad `caja`).
 
 ---

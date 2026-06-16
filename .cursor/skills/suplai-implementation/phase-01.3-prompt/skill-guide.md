@@ -1,4 +1,4 @@
-# Guía de Uso — Fase 1.3: Personalización del Prompt del Agente (suplai-implementation-phase-01-3)
+﻿# Guía de Uso — Fase 1.3: Personalización del Prompt del Agente (suplai-implementation-phase-01-3)
 
 Esta guía detalla el proceso para estructurar y personalizar la identidad (`identidad`), el contexto operativo (`contexto`) y las políticas comerciales (`reglas_negocio`) del agente de IA de WhatsApp de un distribuidor mediante inferencia de LLM.
 
@@ -51,7 +51,7 @@ Objeto JSON que codifica las políticas estrictas que el agente debe verificar o
 *Ejemplo:*
 ```json
 {
-  "solo_marcas": ["arcor", "bagley"],
+  "solo_marcas": [],
   "monto_minimo_envio": 30000,
   "horario_entrega": "24-48 horas",
   "metodos_pago": ["efectivo", "transferencia bancaria"]
@@ -72,20 +72,15 @@ Este archivo JSON debe almacenar las claves `identidad`, `contexto`, `reglas_neg
 
 ---
 
-### Paso 4: Carga a la Base de Datos (MCP Supabase)
+### Paso 4: Carga a la Base de Datos (MANDATORIO — Usar Script)
 
-Ejecutar la sentencia `UPDATE` en la tabla maestra `public.distribuidoras` de Supabase, identificando de manera estricta el registro que corresponda al `schema_name` del cliente (ej. 'colormix'):
+Para impactar los cambios de forma segura en la tabla maestra `public.distribuidoras` de Supabase, se **debe ejecutar obligatoriamente** el script de carga provisto en la base de código:
 
-```sql
-UPDATE public.distribuidoras 
-SET 
-  identidad = 'Texto de identidad generado...',
-  contexto = 'Texto de contexto generado...',
-  reglas_negocio = '{"solo_marcas": ["arcor"], ...}'::jsonb,
-  agent_phone_number = '5493415981234', -- Número aleatorio generado
-  updated_at = NOW()
-WHERE schema_name = 'colormix';
+```bash
+python scripts/fase-01-catalogo/aplicar_prompt.py --esquema <nombre_esquema>
 ```
+
+Este script automatizado se encargará de establecer la conexión, validar la existencia del esquema, estructurar las reglas de negocio en formato JSONB y realizar el `UPDATE` correspondiente.
 
 ---
 

@@ -1,1 +1,158 @@
-pedido_ref,cliente_codigo,fecha,estado,total,notas,is_mock,es_pedido_abierto
+pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
+P-00001,25001,5493587905250,Parrilla El Asador,2026-03-01 08:00:00,confirmado,363553.90,Pedido historico mock - Parrilla El Asador,true,false,2
+P-00002,25001,5493587905250,Parrilla El Asador,2026-03-18 09:19:07,entregado,155180.00,Pedido historico mock - Parrilla El Asador,true,false,2
+P-00003,25001,5493587905250,Parrilla El Asador,2026-04-04 10:38:14,facturado,75000.00,Pedido historico mock - Parrilla El Asador,true,false,2
+P-00004,25002,5493582641213,Carnicería La Tradición,2026-03-08 11:11:23,entregado,498600.00,Pedido historico mock - Carnicería La Tradición,true,false,3
+P-00005,25002,5493582641213,Carnicería La Tradición,2026-03-25 12:30:30,facturado,186620.00,Pedido historico mock - Carnicería La Tradición,true,false,3
+P-00006,25002,5493582641213,Carnicería La Tradición,2026-04-11 13:49:37,confirmado,199900.00,Pedido historico mock - Carnicería La Tradición,true,false,3
+P-00007,25003,5492991227644,Asadería Don Carlos,2026-03-15 14:22:46,facturado,41700.00,Pedido historico mock - Asadería Don Carlos,true,false,4
+P-00008,25003,5492991227644,Asadería Don Carlos,2026-04-01 15:41:53,confirmado,156000.00,Pedido historico mock - Asadería Don Carlos,true,false,4
+P-00009,25003,5492991227644,Asadería Don Carlos,2026-04-18 16:00:00,entregado,102258.88,Pedido historico mock - Asadería Don Carlos,true,false,4
+P-00010,25004,5493418277249,Restaurante La Parrilla,2026-03-22 17:33:09,confirmado,127490.00,Pedido historico mock - Restaurante La Parrilla,true,false,1
+P-00011,25004,5493418277249,Restaurante La Parrilla,2026-04-08 08:52:16,entregado,303730.00,Pedido historico mock - Restaurante La Parrilla,true,false,1
+P-00012,25004,5493418277249,Restaurante La Parrilla,2026-04-25 09:11:23,facturado,852600.00,Pedido historico mock - Restaurante La Parrilla,true,false,1
+P-00013,25005,5493587747641,Almacén del Sabor,2026-03-29 10:44:32,entregado,14595.20,Pedido historico mock - Almacén del Sabor,true,false,2
+P-00014,25005,5493587747641,Almacén del Sabor,2026-04-15 11:03:39,facturado,1306000.00,Pedido historico mock - Almacén del Sabor,true,false,2
+P-00015,25005,5493587747641,Almacén del Sabor,2026-05-02 12:22:46,confirmado,318480.00,Pedido historico mock - Almacén del Sabor,true,false,2
+P-00016,25006,5492614053074,Carnicería El Buen Corte,2026-04-05 13:55:55,facturado,134500.00,Pedido historico mock - Carnicería El Buen Corte,true,false,3
+P-00017,25006,5492614053074,Carnicería El Buen Corte,2026-04-22 14:14:02,confirmado,90000.00,Pedido historico mock - Carnicería El Buen Corte,true,false,3
+P-00018,25006,5492614053074,Carnicería El Buen Corte,2026-05-09 15:33:09,entregado,251311.68,Pedido historico mock - Carnicería El Buen Corte,true,false,3
+P-00019,25007,5493514079279,Parrilla La Estancia,2026-04-12 16:06:18,confirmado,332730.00,Pedido historico mock - Parrilla La Estancia,true,false,4
+P-00020,25007,5493514079279,Parrilla La Estancia,2026-04-29 17:25:25,entregado,187570.00,Pedido historico mock - Parrilla La Estancia,true,false,4
+P-00021,25007,5493514079279,Parrilla La Estancia,2026-05-16 08:44:32,facturado,21160.00,Pedido historico mock - Parrilla La Estancia,true,false,4
+P-00022,25008,5493876914178,Asadería La Abuela,2026-04-19 09:17:41,entregado,30000.00,Pedido historico mock - Asadería La Abuela,true,false,1
+P-00023,25008,5493876914178,Asadería La Abuela,2026-05-06 10:36:48,facturado,222123.73,Pedido historico mock - Asadería La Abuela,true,false,1
+P-00024,25008,5493876914178,Asadería La Abuela,2026-05-23 11:55:55,confirmado,73500.00,Pedido historico mock - Asadería La Abuela,true,false,1
+P-00025,25009,5492617175545,Carnicería El Rancho,2026-04-26 12:28:04,facturado,121900.00,Pedido historico mock - Carnicería El Rancho,true,false,2
+P-00026,25009,5492617175545,Carnicería El Rancho,2026-05-13 13:47:11,confirmado,205000.00,Pedido historico mock - Carnicería El Rancho,true,false,2
+P-00027,25009,5492617175545,Carnicería El Rancho,2026-05-30 14:06:18,entregado,25500.00,Pedido historico mock - Carnicería El Rancho,true,false,2
+P-00028,25010,5493818437953,Restaurante El Fogón,2026-05-03 15:39:27,confirmado,339400.00,Pedido historico mock - Restaurante El Fogón,true,false,3
+P-00029,25010,5493818437953,Restaurante El Fogón,2026-05-20 16:58:34,entregado,166206.39,Pedido historico mock - Restaurante El Fogón,true,false,3
+P-00030,25010,5493818437953,Restaurante El Fogón,2026-03-06 17:17:41,facturado,13500.00,Pedido historico mock - Restaurante El Fogón,true,false,3
+P-00031,25011,5493582132179,Almacén La Huerta,2026-05-10 08:50:50,entregado,395070.00,Pedido historico mock - Almacén La Huerta,true,false,4
+P-00032,25011,5493582132179,Almacén La Huerta,2026-05-27 09:09:57,facturado,295950.00,Pedido historico mock - Almacén La Huerta,true,false,4
+P-00033,25011,5493582132179,Almacén La Huerta,2026-03-13 10:28:04,confirmado,114400.00,Pedido historico mock - Almacén La Huerta,true,false,4
+P-00034,25012,5493872845902,Parrilla El Rincón,2026-05-17 11:01:13,facturado,226350.00,Pedido historico mock - Parrilla El Rincón,true,false,1
+P-00035,25012,5493872845902,Parrilla El Rincón,2026-03-03 12:20:20,confirmado,40000.00,Pedido historico mock - Parrilla El Rincón,true,false,1
+P-00036,25012,5493872845902,Parrilla El Rincón,2026-03-20 13:39:27,entregado,205680.00,Pedido historico mock - Parrilla El Rincón,true,false,1
+P-00037,25013,5492997670210,Carnicería La Familia,2026-05-24 14:12:36,confirmado,99500.00,Pedido historico mock - Carnicería La Familia,true,false,2
+P-00038,25013,5492997670210,Carnicería La Familia,2026-03-10 15:31:43,entregado,429280.00,Pedido historico mock - Carnicería La Familia,true,false,2
+P-00039,25013,5492997670210,Carnicería La Familia,2026-03-27 16:50:50,facturado,122100.00,Pedido historico mock - Carnicería La Familia,true,false,2
+P-00040,25014,5493811657614,Asadería El Pampa,2026-05-31 17:23:59,entregado,22500.00,Pedido historico mock - Asadería El Pampa,true,false,3
+P-00041,25014,5493811657614,Asadería El Pampa,2026-03-17 08:42:06,facturado,222500.00,Pedido historico mock - Asadería El Pampa,true,false,3
+P-00042,25014,5493811657614,Asadería El Pampa,2026-04-03 09:01:13,confirmado,259800.00,Pedido historico mock - Asadería El Pampa,true,false,3
+P-00043,25015,5492994145193,Restaurante El Sazón,2026-03-07 10:34:22,facturado,211500.00,Pedido historico mock - Restaurante El Sazón,true,false,4
+P-00044,25015,5492994145193,Restaurante El Sazón,2026-03-24 11:53:29,confirmado,60400.00,Pedido historico mock - Restaurante El Sazón,true,false,4
+P-00045,25015,5492994145193,Restaurante El Sazón,2026-04-10 12:12:36,entregado,125400.00,Pedido historico mock - Restaurante El Sazón,true,false,4
+P-00046,25016,5493515971311,Almacén El Mercado,2026-03-14 13:45:45,confirmado,30000.00,Pedido historico mock - Almacén El Mercado,true,false,1
+P-00047,25016,5493515971311,Almacén El Mercado,2026-03-31 14:04:52,entregado,68200.00,Pedido historico mock - Almacén El Mercado,true,false,1
+P-00048,25016,5493515971311,Almacén El Mercado,2026-04-17 15:23:59,facturado,87160.00,Pedido historico mock - Almacén El Mercado,true,false,1
+P-00049,25017,5492994228106,Carnicería El Noble,2026-03-21 16:56:08,entregado,113970.00,Pedido historico mock - Carnicería El Noble,true,false,2
+P-00050,25017,5492994228106,Carnicería El Noble,2026-04-07 17:15:15,facturado,39605.84,Pedido historico mock - Carnicería El Noble,true,false,2
+P-00051,25017,5492994228106,Carnicería El Noble,2026-04-24 08:34:22,confirmado,36800.00,Pedido historico mock - Carnicería El Noble,true,false,2
+P-00052,25018,5492998718887,Parrilla La Cabaña,2026-03-28 09:07:31,facturado,5200.00,Pedido historico mock - Parrilla La Cabaña,true,false,3
+P-00053,25018,5492998718887,Parrilla La Cabaña,2026-04-14 10:26:38,confirmado,379980.00,Pedido historico mock - Parrilla La Cabaña,true,false,3
+P-00054,25018,5492998718887,Parrilla La Cabaña,2026-05-01 11:45:45,entregado,162100.00,Pedido historico mock - Parrilla La Cabaña,true,false,3
+P-00055,25019,5492995028869,Asadería El Mate,2026-04-04 12:18:54,confirmado,148036.64,Pedido historico mock - Asadería El Mate,true,false,4
+P-00056,25019,5492995028869,Asadería El Mate,2026-04-21 13:37:01,entregado,188500.00,Pedido historico mock - Asadería El Mate,true,false,4
+P-00057,25019,5492995028869,Asadería El Mate,2026-05-08 14:56:08,facturado,110800.00,Pedido historico mock - Asadería El Mate,true,false,4
+P-00058,25020,5493517304254,Restaurante La Parrillita,2026-04-11 15:29:17,entregado,194556.45,Pedido historico mock - Restaurante La Parrillita,true,false,1
+P-00059,25020,5493517304254,Restaurante La Parrillita,2026-04-28 16:48:24,facturado,123300.00,Pedido historico mock - Restaurante La Parrillita,true,false,1
+P-00060,25020,5493517304254,Restaurante La Parrillita,2026-05-15 17:07:31,confirmado,119900.00,Pedido historico mock - Restaurante La Parrillita,true,false,1
+P-00061,25021,5493416986538,Almacén El Gourmet,2026-04-18 08:40:40,facturado,130800.00,Pedido historico mock - Almacén El Gourmet,true,false,2
+P-00062,25021,5493416986538,Almacén El Gourmet,2026-05-05 09:59:47,confirmado,103600.00,Pedido historico mock - Almacén El Gourmet,true,false,2
+P-00063,25021,5493416986538,Almacén El Gourmet,2026-05-22 10:18:54,entregado,564100.00,Pedido historico mock - Almacén El Gourmet,true,false,2
+P-00064,25022,5492619239862,Carnicería El Paraíso,2026-04-25 11:51:03,confirmado,153000.00,Pedido historico mock - Carnicería El Paraíso,true,false,3
+P-00065,25022,5492619239862,Carnicería El Paraíso,2026-05-12 12:10:10,entregado,4500.00,Pedido historico mock - Carnicería El Paraíso,true,false,3
+P-00066,25022,5492619239862,Carnicería El Paraíso,2026-05-29 13:29:17,facturado,118600.00,Pedido historico mock - Carnicería El Paraíso,true,false,3
+P-00067,25023,5493513952681,Parrilla La Esquina,2026-05-02 14:02:26,entregado,130200.00,Pedido historico mock - Parrilla La Esquina,true,false,4
+P-00068,25023,5493513952681,Parrilla La Esquina,2026-05-19 15:21:33,facturado,335100.00,Pedido historico mock - Parrilla La Esquina,true,false,4
+P-00069,25023,5493513952681,Parrilla La Esquina,2026-03-05 16:40:40,confirmado,149610.00,Pedido historico mock - Parrilla La Esquina,true,false,4
+P-00070,25024,5493414799650,Asadería El Chulengo,2026-05-09 17:13:49,facturado,100200.00,Pedido historico mock - Asadería El Chulengo,true,false,1
+P-00071,25024,5493414799650,Asadería El Chulengo,2026-05-26 08:32:56,confirmado,46000.00,Pedido historico mock - Asadería El Chulengo,true,false,1
+P-00072,25024,5493414799650,Asadería El Chulengo,2026-03-12 09:51:03,entregado,161200.00,Pedido historico mock - Asadería El Chulengo,true,false,1
+P-00073,25025,5492992500733,Restaurante La Casa de la Carne,2026-05-16 10:24:12,confirmado,22990.00,Pedido historico mock - Restaurante La Casa de la Carne,true,false,2
+P-00074,25025,5492992500733,Restaurante La Casa de la Carne,2026-03-02 11:43:19,entregado,69539.55,Pedido historico mock - Restaurante La Casa de la Carne,true,false,2
+P-00075,25025,5492992500733,Restaurante La Casa de la Carne,2026-03-19 12:02:26,facturado,243750.00,Pedido historico mock - Restaurante La Casa de la Carne,true,false,2
+P-00076,25026,5492615139305,Almacén El Sabor Argentino,2026-05-23 13:35:35,entregado,108000.00,Pedido historico mock - Almacén El Sabor Argentino,true,false,3
+P-00077,25026,5492615139305,Almacén El Sabor Argentino,2026-03-09 14:54:42,facturado,444600.00,Pedido historico mock - Almacén El Sabor Argentino,true,false,3
+P-00078,25026,5492615139305,Almacén El Sabor Argentino,2026-03-26 15:13:49,confirmado,139908.44,Pedido historico mock - Almacén El Sabor Argentino,true,false,3
+P-00079,25027,5492618861463,Carnicería El Gran Asado,2026-05-30 16:46:58,facturado,405050.00,Pedido historico mock - Carnicería El Gran Asado,true,false,4
+P-00080,25027,5492618861463,Carnicería El Gran Asado,2026-03-16 17:05:05,confirmado,218300.00,Pedido historico mock - Carnicería El Gran Asado,true,false,4
+P-00081,25027,5492618861463,Carnicería El Gran Asado,2026-04-02 08:24:12,entregado,6400.00,Pedido historico mock - Carnicería El Gran Asado,true,false,4
+P-00082,25028,5493812941974,Parrilla El Fogón de Oro,2026-03-06 09:57:21,confirmado,174580.00,Pedido historico mock - Parrilla El Fogón de Oro,true,false,1
+P-00083,25028,5493812941974,Parrilla El Fogón de Oro,2026-03-23 10:16:28,entregado,42400.00,Pedido historico mock - Parrilla El Fogón de Oro,true,false,1
+P-00084,25028,5493812941974,Parrilla El Fogón de Oro,2026-04-09 11:35:35,facturado,251070.00,Pedido historico mock - Parrilla El Fogón de Oro,true,false,1
+P-00085,25029,5493817404433,Asadería El Fuego,2026-03-13 12:08:44,entregado,155478.44,Pedido historico mock - Asadería El Fuego,true,false,2
+P-00086,25029,5493817404433,Asadería El Fuego,2026-03-30 13:27:51,facturado,25480.00,Pedido historico mock - Asadería El Fuego,true,false,2
+P-00087,25029,5493817404433,Asadería El Fuego,2026-04-16 14:46:58,confirmado,172470.00,Pedido historico mock - Asadería El Fuego,true,false,2
+P-00088,25030,5493419686914,Restaurante El Corte Perfecto,2026-03-20 15:19:07,facturado,304922.34,Pedido historico mock - Restaurante El Corte Perfecto,true,false,3
+P-00089,25030,5493419686914,Restaurante El Corte Perfecto,2026-04-06 16:38:14,confirmado,326300.00,Pedido historico mock - Restaurante El Corte Perfecto,true,false,3
+P-00090,25030,5493419686914,Restaurante El Corte Perfecto,2026-04-23 17:57:21,entregado,188200.00,Pedido historico mock - Restaurante El Corte Perfecto,true,false,3
+P-00091,25031,5493518648263,Almacén La Carnicería,2026-03-27 08:30:30,confirmado,81400.00,Pedido historico mock - Almacén La Carnicería,true,false,4
+P-00092,25031,5493518648263,Almacén La Carnicería,2026-04-13 09:49:37,entregado,77380.00,Pedido historico mock - Almacén La Carnicería,true,false,4
+P-00093,25031,5493518648263,Almacén La Carnicería,2026-04-30 10:08:44,facturado,8200.00,Pedido historico mock - Almacén La Carnicería,true,false,4
+P-00094,25032,5493516216782,Carnicería El Sabor del Campo,2026-04-03 11:41:53,entregado,129705.84,Pedido historico mock - Carnicería El Sabor del Campo,true,false,1
+P-00095,25032,5493516216782,Carnicería El Sabor del Campo,2026-04-20 12:00:00,facturado,248831.95,Pedido historico mock - Carnicería El Sabor del Campo,true,false,1
+P-00096,25032,5493516216782,Carnicería El Sabor del Campo,2026-05-07 13:19:07,confirmado,281440.50,Pedido historico mock - Carnicería El Sabor del Campo,true,false,1
+P-00097,25033,5492612780568,Parrilla La Tradición Familiar,2026-04-10 14:52:16,facturado,73490.40,Pedido historico mock - Parrilla La Tradición Familiar,true,false,2
+P-00098,25033,5492612780568,Parrilla La Tradición Familiar,2026-04-27 15:11:23,confirmado,98970.00,Pedido historico mock - Parrilla La Tradición Familiar,true,false,2
+P-00099,25033,5492612780568,Parrilla La Tradición Familiar,2026-05-14 16:30:30,entregado,312380.75,Pedido historico mock - Parrilla La Tradición Familiar,true,false,2
+P-00100,25034,5493582639964,Asadería El Asador Criollo,2026-04-17 17:03:39,confirmado,41880.00,Pedido historico mock - Asadería El Asador Criollo,true,false,3
+P-00101,25034,5493582639964,Asadería El Asador Criollo,2026-05-04 08:22:46,entregado,207100.00,Pedido historico mock - Asadería El Asador Criollo,true,false,3
+P-00102,25034,5493582639964,Asadería El Asador Criollo,2026-05-21 09:41:53,facturado,68400.00,Pedido historico mock - Asadería El Asador Criollo,true,false,3
+P-00103,25035,5493814729528,Restaurante El Rincón del Asado,2026-04-24 10:14:02,entregado,252880.00,Pedido historico mock - Restaurante El Rincón del Asado,true,false,4
+P-00104,25035,5493814729528,Restaurante El Rincón del Asado,2026-05-11 11:33:09,facturado,89380.00,Pedido historico mock - Restaurante El Rincón del Asado,true,false,4
+P-00105,25035,5493814729528,Restaurante El Rincón del Asado,2026-05-28 12:52:16,confirmado,48900.00,Pedido historico mock - Restaurante El Rincón del Asado,true,false,4
+P-00106,25036,5493876922419,Almacén El Asado,2026-05-01 13:25:25,facturado,265350.00,Pedido historico mock - Almacén El Asado,true,false,1
+P-00107,25036,5493876922419,Almacén El Asado,2026-05-18 14:44:32,confirmado,43830.00,Pedido historico mock - Almacén El Asado,true,false,1
+P-00108,25036,5493876922419,Almacén El Asado,2026-03-04 15:03:39,entregado,190500.00,Pedido historico mock - Almacén El Asado,true,false,1
+P-00109,25037,5492618889598,Carnicería El Sabor de la Tierra,2026-05-08 16:36:48,confirmado,70000.00,Pedido historico mock - Carnicería El Sabor de la Tierra,true,false,2
+P-00110,25037,5492618889598,Carnicería El Sabor de la Tierra,2026-05-25 17:55:55,entregado,94800.00,Pedido historico mock - Carnicería El Sabor de la Tierra,true,false,2
+P-00111,25037,5492618889598,Carnicería El Sabor de la Tierra,2026-03-11 08:14:02,facturado,269550.00,Pedido historico mock - Carnicería El Sabor de la Tierra,true,false,2
+P-00112,25038,5492615021286,Parrilla El Gran Asador,2026-05-15 09:47:11,entregado,262940.00,Pedido historico mock - Parrilla El Gran Asador,true,false,3
+P-00113,25038,5492615021286,Parrilla El Gran Asador,2026-03-01 10:06:18,facturado,324800.00,Pedido historico mock - Parrilla El Gran Asador,true,false,3
+P-00114,25038,5492615021286,Parrilla El Gran Asador,2026-03-18 11:25:25,confirmado,60480.00,Pedido historico mock - Parrilla El Gran Asador,true,false,3
+P-00115,25039,5493813520000,Asadería La Parrilla de Oro,2026-05-22 12:58:34,facturado,40990.00,Pedido historico mock - Asadería La Parrilla de Oro,true,false,4
+P-00116,25039,5493813520000,Asadería La Parrilla de Oro,2026-03-08 13:17:41,confirmado,478985.55,Pedido historico mock - Asadería La Parrilla de Oro,true,false,4
+P-00117,25039,5493813520000,Asadería La Parrilla de Oro,2026-03-25 14:36:48,entregado,450770.00,Pedido historico mock - Asadería La Parrilla de Oro,true,false,4
+P-00118,25040,5492997489876,Restaurante El Asado de la Abuela,2026-05-29 15:09:57,confirmado,260430.00,Pedido historico mock - Restaurante El Asado de la Abuela,true,false,1
+P-00119,25040,5492997489876,Restaurante El Asado de la Abuela,2026-03-15 16:28:04,entregado,217323.50,Pedido historico mock - Restaurante El Asado de la Abuela,true,false,1
+P-00120,25040,5492997489876,Restaurante El Asado de la Abuela,2026-04-01 17:47:11,facturado,144834.54,Pedido historico mock - Restaurante El Asado de la Abuela,true,false,1
+P-00121,0,5492612928724,Restaurante El Gran Asado,2026-03-05 08:20:20,entregado,166400.00,Pedido historico mock - Restaurante El Gran Asado,true,false,2
+P-00122,0,5492612928724,Restaurante El Gran Asado,2026-03-22 09:39:27,facturado,416290.00,Pedido historico mock - Restaurante El Gran Asado,true,false,2
+P-00123,0,5492612928724,Restaurante El Gran Asado,2026-04-08 10:58:34,confirmado,107100.00,Pedido historico mock - Restaurante El Gran Asado,true,false,2
+P-00124,0,5492617236955,Asadería El Asador de la Familia,2026-03-12 11:31:43,facturado,54800.00,Pedido historico mock - Asadería El Asador de la Familia,true,false,1
+P-00125,0,5492617236955,Asadería El Asador de la Familia,2026-03-29 12:50:50,confirmado,117000.00,Pedido historico mock - Asadería El Asador de la Familia,true,false,1
+P-00126,0,5492617236955,Asadería El Asador de la Familia,2026-04-15 13:09:57,entregado,25000.00,Pedido historico mock - Asadería El Asador de la Familia,true,false,1
+P-00127,0,5492617413812,Parrilla El Sabor del Asado,2026-03-19 14:42:06,confirmado,266800.00,Pedido historico mock - Parrilla El Sabor del Asado,true,false,4
+P-00128,0,5492617413812,Parrilla El Sabor del Asado,2026-04-05 15:01:13,entregado,387500.00,Pedido historico mock - Parrilla El Sabor del Asado,true,false,4
+P-00129,0,5492617413812,Parrilla El Sabor del Asado,2026-04-22 16:20:20,facturado,62500.00,Pedido historico mock - Parrilla El Sabor del Asado,true,false,4
+P-00130,0,5492998066543,Restaurante El Sabor de la Parrilla,2026-03-26 17:53:29,entregado,303000.00,Pedido historico mock - Restaurante El Sabor de la Parrilla,true,false,3
+P-00131,0,5492998066543,Restaurante El Sabor de la Parrilla,2026-04-12 08:12:36,facturado,31500.00,Pedido historico mock - Restaurante El Sabor de la Parrilla,true,false,3
+P-00132,0,5492998066543,Restaurante El Sabor de la Parrilla,2026-04-29 09:31:43,confirmado,177120.00,Pedido historico mock - Restaurante El Sabor de la Parrilla,true,false,3
+P-00133,0,5492999435946,Almacén La Casa del Sabor,2026-04-02 10:04:52,facturado,147800.00,Pedido historico mock - Almacén La Casa del Sabor,true,false,3
+P-00134,0,5492999435946,Almacén La Casa del Sabor,2026-04-19 11:23:59,confirmado,446400.00,Pedido historico mock - Almacén La Casa del Sabor,true,false,3
+P-00135,0,5492999435946,Almacén La Casa del Sabor,2026-05-06 12:42:06,entregado,50400.00,Pedido historico mock - Almacén La Casa del Sabor,true,false,3
+P-00136,0,5493416524997,Parrilla La Estancia del Asado,2026-04-09 13:15:15,confirmado,146000.00,Pedido historico mock - Parrilla La Estancia del Asado,true,false,1
+P-00137,0,5493416524997,Parrilla La Estancia del Asado,2026-04-26 14:34:22,entregado,203000.00,Pedido historico mock - Parrilla La Estancia del Asado,true,false,1
+P-00138,0,5493416524997,Parrilla La Estancia del Asado,2026-05-13 15:53:29,facturado,136770.00,Pedido historico mock - Parrilla La Estancia del Asado,true,false,1
+P-00139,0,5493517632424,Carnicería El Paraíso del Asado,2026-04-16 16:26:38,entregado,595500.00,Pedido historico mock - Carnicería El Paraíso del Asado,true,false,4
+P-00140,0,5493517632424,Carnicería El Paraíso del Asado,2026-05-03 17:45:45,facturado,100800.00,Pedido historico mock - Carnicería El Paraíso del Asado,true,false,4
+P-00141,0,5493517632424,Carnicería El Paraíso del Asado,2026-05-20 08:04:52,confirmado,160900.00,Pedido historico mock - Carnicería El Paraíso del Asado,true,false,4
+P-00142,0,5493519107005,Almacén El Sabor de Casa,2026-04-23 09:37:01,facturado,95200.00,Pedido historico mock - Almacén El Sabor de Casa,true,false,2
+P-00143,0,5493519107005,Almacén El Sabor de Casa,2026-05-10 10:56:08,confirmado,67200.00,Pedido historico mock - Almacén El Sabor de Casa,true,false,2
+P-00144,0,5493519107005,Almacén El Sabor de Casa,2026-05-27 11:15:15,entregado,315700.00,Pedido historico mock - Almacén El Sabor de Casa,true,false,2
+P-00145,0,5493874104594,Carnicería El Corte de Oro,2026-04-30 12:48:24,confirmado,65980.00,Pedido historico mock - Carnicería El Corte de Oro,true,false,3
+P-00146,0,5493874104594,Carnicería El Corte de Oro,2026-05-17 13:07:31,entregado,28600.00,Pedido historico mock - Carnicería El Corte de Oro,true,false,3
+P-00147,0,5493874104594,Carnicería El Corte de Oro,2026-03-03 14:26:38,facturado,191950.00,Pedido historico mock - Carnicería El Corte de Oro,true,false,3
+P-00148,0,5493876499570,Asadería El Fogón de la Abuela,2026-05-07 15:59:47,entregado,71970.00,Pedido historico mock - Asadería El Fogón de la Abuela,true,false,2
+P-00149,0,5493876499570,Asadería El Fogón de la Abuela,2026-05-24 16:18:54,facturado,8000.00,Pedido historico mock - Asadería El Fogón de la Abuela,true,false,2
+P-00150,0,5493876499570,Asadería El Fogón de la Abuela,2026-03-10 17:37:01,confirmado,59201.58,Pedido historico mock - Asadería El Fogón de la Abuela,true,false,2
+P-00151,25004,5493418277249,Restaurante La Parrilla,2026-06-16 11:15:00,abierto,77700.00,Pedido abierto mock - promo Fase 2 - Restaurante La Parrilla,true,true,1
+P-00152,25001,5493587905250,Parrilla El Asador,2026-06-16 11:15:13,pendiente,86100.00,Pedido abierto mock - Parrilla El Asador,true,true,2
+P-00153,25002,5493582641213,Carnicería La Tradición,2026-06-16 11:15:26,abierto,309670.00,Pedido abierto mock - Carnicería La Tradición,true,true,3
+P-00154,25003,5492991227644,Asadería Don Carlos,2026-06-16 11:15:39,pendiente,220500.00,Pedido abierto mock - Asadería Don Carlos,true,true,4
+P-00155,25005,5493587747641,Almacén del Sabor,2026-06-16 11:15:52,abierto,57000.00,Pedido abierto mock - Almacén del Sabor,true,true,2
+P-00156,25006,5492614053074,Carnicería El Buen Corte,2026-06-16 11:15:05,pendiente,119200.00,Pedido abierto mock - Carnicería El Buen Corte,true,true,3
+P-00157,25007,5493514079279,Parrilla La Estancia,2026-06-16 11:15:18,abierto,265469.28,Pedido abierto mock - Parrilla La Estancia,true,true,4

@@ -1,4 +1,4 @@
----
+﻿---
 name: suplai-implementation-phase-04
 description: Fase 4 red comercial — 3 vendedores, 6 zonas, 50 clientes mock geolocalizados. Usar tras Fase 3.
 ---
@@ -34,25 +34,47 @@ description: Fase 4 red comercial — 3 vendedores, 6 zonas, 50 clientes mock ge
   - **Enumerador `zone_type`**: Usar valores enums permitidos por el esquema (ej. `'sales'` o `'route'`). NO usar términos no soportados como `'territory'`.
 - Clientes: ferreterías/pinturerías/corralones si rubro pintura; `lista_precios_id` 1–4 distribuido; teléfonos únicos.
 
-## Carga MCP
+## Campos OBLIGATORIOS en manifest.yaml (a partir de Fase 4)
 
-Orden:
+Además de los campos base, el manifest del tenant debe incluir:
+- `rubro`: texto libre describiendo el negocio (ej: `"carnicería / parrilla"`)
+- `coordenadas_centro`: `[lat, lon]` del centro geográfico (ej: `[-31.3547, -64.2442]`)
 
-1. `{schema}.vendedores` → guardar IDs
-2. `{schema}.geo_zones` + `{schema}.vendedor_geo_zones`
-3. `{schema}.puntos_venta` (CRÍTICO) → Crear un punto de venta por cliente (`razon_social`, `codigo`, `lista_precios_id`, `is_mock`) y guardar el `pdv_id` retornado.
-4. `{schema}.clients` (sin flags ERP aún — Fase 5) → Insertar asociando la columna `pdv_id` rescatada de la tabla `puntos_venta` (guardar los `cliente_id` insertados). ¡Si no se asocia al PDV, los clientes no se mostrarán en el Backoffice/Frontend!
-5. `{schema}.vendedores_clientes` (CRÍTICO) → Vincular cada cliente con su vendedor correspondiente insertando en esta tabla usando `vendedor_id`, `cliente_id` y `activo = true`.
-6. `{schema}.client_locations` si aplica (lat/lng)
+## Generación (MANDATORIO — Usar Script)
 
-Verificar columnas: `clients` usa `phone_number`, `razon_social`, `codigo`, `lista_precios_id`, `vendedor`, `pdv_id`.
+Para generar los 3 CSVs de red comercial usando OpenAI con contexto real de `ciudad_base` y `rubro`:
+```bash
+python scripts/fase-04-red-comercial/preparar_red_comercial.py --esquema {schema}
+```
+Este script:
+- Lee `ciudad_base`, `rubro` y `coordenadas_centro` del manifest
+- Llama a OpenAI para generar vendedores, zonas (barrios REALES) y nombres de clientes acorde al rubro
+- Si no hay API key, usa un fallback geométrico genérico
+- Permite personalización via `config.json` del tenant (clave `"red_comercial"`)
+
+## Carga a la Base de Datos (MANDATORIO — Usar Script)
+
+Para cargar los datos respetando las FKs en orden correcto:
+```bash
+python scripts/fase-04-red-comercial/cargar_red_comercial.py --esquema {schema}
+```
+Este script se encarga de:
+1. Limpiar datos mock previos del tenant
+2. Insertar vendedores → geo_zones + vendedor_geo_zones → puntos_venta → clients → vendedores_clientes → client_locations
+3. Hacer `SET search_path` al esquema del tenant (necesario para resolver los tipos enum `dia_de_visita_enum`)
+4. Proveer geometría PostGIS Point en `client_locations` para satisfacer la constraint `client_locations_check`
 
 ## Verificación
 
-- COUNT clients = 50
-- COUNT vendedores = 3
-- COUNT geo_zones = 6
+El script de carga imprime automáticamente los conteos. Verificación manual:
+```sql
+SELECT COUNT(*) FROM {schema}.clients;    -- 50
+SELECT COUNT(*) FROM {schema}.vendedores; -- 3
+SELECT COUNT(*) FROM {schema}.geo_zones;  -- 6
+```
 
 ## Cierre
 
-manifest fase `04` → `cargado`; Fase 5 enriquece flags.
+- manifest fase `04` → `cargado`, `filas_csv = 50`
+- Proceder a Fase 5 (flags de clientes).
+

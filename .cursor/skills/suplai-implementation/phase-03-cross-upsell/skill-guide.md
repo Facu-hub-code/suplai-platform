@@ -1,4 +1,4 @@
-# Guía de Uso — Fase 3: Cross-sell y Up-sell (suplai-implementation-phase-03)
+﻿# Guía de Uso — Fase 3: Cross-sell y Up-sell (suplai-implementation-phase-03)
 
 Esta guía sirve para diseñar, mapear e impactar relaciones mock inteligentes de venta cruzada (Cross-sell) y venta incremental (Up-sell) asociadas a los productos del tenant.
 
@@ -33,26 +33,25 @@ Columnas: `base_product_code`, `related_product_code`, `reason`, `is_mock`.
 
 ---
 
-## 💾 Carga a la Base de Datos (MCP Supabase)
+## 💾 Carga a la Base de Datos (MANDATORIO — Usar Script)
 
-Insertar los registros en la base de datos Supabase utilizando la conexión MCP.
-> [!IMPORTANT]
-> Estas tablas están en el esquema `public`, no en el esquema del cliente. Requieren el `tenant_id` UUID guardado en el manifest.
+Para aplicar las relaciones de forma segura y evitar inconsistencias o alucinaciones de códigos, se **debe ejecutar obligatoriamente** el script de carga automatizado:
 
-```sql
--- Insertar Cross-sell
-INSERT INTO public.tenant_cross_sell_mappings (tenant_id, base_product_code, related_product_code, score, is_mock)
-VALUES ('{tenant_id}', 'SKU_BASE', 'SKU_RELACIONADO', 1.0, true);
-
--- Insertar Up-sell
-INSERT INTO public.tenant_up_sell_mappings (tenant_id, base_product_code, related_product_code, score, is_mock)
-VALUES ('{tenant_id}', 'SKU_BASE', 'SKU_RELACIONADO', 1.0, true);
+```bash
+python scripts/fase-03-cross-upsell/cargar_cross_upsell.py --esquema <nombre_esquema>
 ```
+
+Este script se encargará de:
+1. Leer el `tenant_id` del manifest del cliente.
+2. Limpiar las relaciones previas (cross-sell y up-sell) del tenant para evitar duplicados.
+3. Verificar que cada código de producto exista en la tabla `{schema}.productos` antes de insertar.
+4. Mapear de forma precisa las prioridades y flags correspondientes en las tablas públicas globales `public.tenant_cross_sell_mappings` y `public.tenant_up_sell_mappings`.
 
 ---
 
 ## 🔍 Verificación Post-Carga
-Comprobar los registros insertados:
+
+El script de carga realizará de forma automática la verificación imprimiendo los registros insertados. Si se desea verificar manualmente:
 ```sql
 SELECT COUNT(*) FROM public.tenant_cross_sell_mappings WHERE tenant_id = '{tenant_id}';
 SELECT COUNT(*) FROM public.tenant_up_sell_mappings WHERE tenant_id = '{tenant_id}';
@@ -61,5 +60,10 @@ SELECT COUNT(*) FROM public.tenant_up_sell_mappings WHERE tenant_id = '{tenant_i
 ---
 
 ## 🏁 Cierre de la Fase
-1. Establecer `fases["03"].estado = "cargado"` y agregar `cargado_at` en el `manifest.yaml`.
-2. Solicitar al implementador la **ciudad base** (ej. "Rosario", "Mendoza") para la Fase 4 si no está presente en el manifest.
+
+1. Modificar el archivo `implementacion/{schema}/manifest.yaml`:
+   - Cambiar `fases["03"].estado` a `cargado`.
+   - Establecer `fases["03"].filas_csv` a la cantidad de filas del CSV de cross-sell (ej. `11`).
+   - Registrar `fases["03"].cargado_at` al timestamp actual.
+2. Invitar al usuario a avanzar a la **Fase 4 (Red Comercial)**. Pedir la **ciudad base** (ej. "Rosario", "Mendoza") si no está presente en el manifest (para `al_fuego` ya se cuenta con "Valle Escondido, Córdoba, Argentina").
+

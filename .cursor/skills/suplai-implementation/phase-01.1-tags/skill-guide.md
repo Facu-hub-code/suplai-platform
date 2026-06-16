@@ -1,4 +1,4 @@
-# Guía de Uso — Fase 1.1: Mapeo de Tags de Productos (suplai-implementation-phase-01-1)
+﻿# Guía de Uso — Fase 1.1: Mapeo de Tags de Productos (suplai-implementation-phase-01-1)
 
 Esta guía detalla el proceso para estructurar y asociar la taxonomía jerárquica de 4 niveles en el catálogo de productos de un tenant recién cargado.
 
@@ -62,35 +62,26 @@ Consiste en invocar el endpoint generativo que analiza los nombres de los produc
 
 ### Paso 2: Aplicación e Impacto en la Base de Datos (Apply Proposed Taxonomy)
 
-Una vez guardado y validado el archivo JSON con la propuesta, se debe enviar de vuelta al backend para crear los tags (si no existen) y asociar la taxonomía a cada producto.
+Una vez guardada y validada la propuesta de taxonomía en el archivo JSON, se debe enviar de vuelta al backend para crear los tags (si no existen) y asociar la taxonomía a cada producto.
 
-- **Endpoint**: `POST {BACKEND_URL}/{schema}/tags/apply-proposed-taxonomy`
-- **Headers**: `Content-Type: application/json`
-- **Body**: El contenido completo de `phase-01-1-propuesta-tags.json` (`{"products": [...]}`).
+#### Uso de los scripts genéricos:
 
-#### Ejemplo de llamada usando un script rápido de Python:
-```python
-import json
-import requests
+1. **Flujo Interactivo / Automático**:
+   Se puede utilizar el script genérico provisto en `scripts/fase-01-catalogo/aplicar_taxonomia.py`:
+   ```bash
+   python scripts/fase-01-catalogo/aplicar_taxonomia.py --esquema {schema} --limite 300
+   ```
+   Este script automatiza tanto la llamada a `propose-taxonomy` (Paso 1) como la llamada a `apply-proposed-taxonomy` (Paso 2) tras solicitar confirmación interactiva en la consola.
 
-schema = "colormix"
-backend_url = "https://web-production-f544f.up.railway.app"
+2. **Flujo con Modificación Manual**:
+   Si el implementador edita el archivo JSON generado en el Paso 1 (por ejemplo, para eliminar categorías redundantes o corregir jerarquías), debe utilizar el script `scripts/fase-01-catalogo/aplicar_propuesta_guardada.py` para subir los datos corregidos al backend y de allí a Supabase:
+   ```bash
+   python scripts/fase-01-catalogo/aplicar_propuesta_guardada.py --esquema {schema}
+   ```
 
-# 1. Cargar JSON propuesto
-with open(f"implementacion/{schema}/outputs/phase-01-1-propuesta-tags.json", "r", encoding="utf-8") as f:
-    proposal_data = json.load(f)
-
-# 2. Hacer POST al endpoint de aplicación
-apply_url = f"{backend_url}/{schema}/tags/apply-proposed-taxonomy"
-response = requests.post(apply_url, json={"products": proposal_data["products"]})
-response.raise_for_status()
-
-print("Resultado de la aplicación:", response.json())
-```
-
-- **Validación del Agente**: 
-  - Asegurar un código de respuesta HTTP `200 OK`.
-  - El backend devolverá un resumen (`summary`) con la cantidad de asignaciones y tags creados. Informar este resultado al implementador.
+- **Validación**:
+  - Ambos scripts informarán sobre el resultado de la aplicación.
+  - Asegurar que la ejecución termine correctamente con un status code exitoso.
 
 ---
 

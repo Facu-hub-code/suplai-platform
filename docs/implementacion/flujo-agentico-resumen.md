@@ -1,4 +1,4 @@
-# Flujo agéntico de implementación — Suplai Sales
+﻿# Flujo agéntico de implementación — Suplai Sales
 
 Resumen operativo del documento *Flujo Agéntico de Implementación*. Fuente de verdad para las skills en `.cursor/skills/suplai-implementation/`.
 
@@ -73,9 +73,9 @@ Tablas: `{tenant}.productos`, `listas_precios`, `precios_productos`, `productos_
 
 - **Propósito**: Ejecutar la skill de enriquecimiento de descripciones comerciales y alias locales ([SKILL.md](../../.cursor/skills/enhance-descriptions/SKILL.md) / [skill-guide.md](../../.cursor/skills/enhance-descriptions/skill-guide.md)) para optimizar las fichas de productos frente al RAG del agente, eliminando relleno publicitario y agregando contexto técnico B2B.
 - **Funcionamiento por Defecto**:
-  - Se seleccionan automáticamente los **100 productos** más ambiguos de la base de datos usando el script [buscar_candidatos.py](../../scripts/buscar_candidatos.py):
+  - Se seleccionan automáticamente los **100 productos** más ambiguos de la base de datos usando el script [buscar_candidatos.py](../../scripts/fase-01-catalogo/buscar_candidatos.py):
     ```bash
-    python scripts/buscar_candidatos.py --esquema {esquema} --limite 100
+    python scripts/fase-01-catalogo/buscar_candidatos.py --esquema {esquema} --limite 100
     ```
   - Esto guardará la lista en `implementacion/{esquema}/inputs/candidatos_a_enriquecer.csv`.
 - **Interacción y Guardrails del IDE Agéntico**:
@@ -86,11 +86,11 @@ Tablas: `{tenant}.productos`, `listas_precios`, `precios_productos`, `productos_
 - **Ejecución y Persistencia**:
   - **Dry Run**:
     ```bash
-    python scripts/enriquecer_catalogo.py --esquema {esquema} --csv-entrada implementacion/{esquema}/inputs/candidatos_a_enriquecer.csv --csv-salida implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv
+    python scripts/fase-01-catalogo/enriquecer_catalogo.py --esquema {esquema} --csv-entrada implementacion/{esquema}/inputs/candidatos_a_enriquecer.csv --csv-salida implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv
     ```
   - **Persistir**: Tras el visto bueno del implementador (revisión manual del CSV), aplicar cambios a Supabase y re-vectorizar:
     ```bash
-    python scripts/enriquecer_catalogo.py --esquema {esquema} --aplicar --csv-entrada implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv
+    python scripts/fase-01-catalogo/enriquecer_catalogo.py --esquema {esquema} --aplicar --csv-entrada implementacion/{esquema}/outputs/vista_previa_enriquecimiento.csv
     ```
 ## Fase 1.3 — Personalización del Prompt del Agente
 
@@ -149,12 +149,12 @@ Tabla: `{tenant}.promociones_semanales`.
 - **Healthcheck**:
   - Correr el script de validación de base de datos (que debería pasar exitosamente dado que todas las fases previas se completaron de manera correcta):
     ```bash
-    python scripts/healthcheck_schema.py --schema {esquema}
+    python scripts/fase-09-e2e/healthcheck_schema.py --schema {esquema}
     ```
 - **Suite de Pruebas E2E**:
   - Simular y validar los flujos típicos del agente conversacional (10 casos de prueba midiendo latencia y correcto llamado de herramientas):
     ```bash
-    python scripts/test_agent_e2e.py --schema {esquema}
+    python scripts/fase-09-e2e/test_agent_e2e.py --schema {esquema}
     ```
 - **Auditoría del Reporte**:
   - Revisar críticamente el reporte generado en `implementacion/{esquema}/outputs/reporte_e2e_{timestamp}.md` y realizar la validación de falsos negativos.

@@ -1,1 +1,19 @@
-ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,is_mock
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2008,Calidad,open,Reclamo por Luca pinot noir con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego Luca pinot noir en mal estado y quiero hacer el reclamo.",2026-06-16 11:15:00,,true
+TKT-2009,Calidad,open,Reclamo por Angelica Cabernet Franc con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego Angelica Cabernet Franc en mal estado y quiero hacer el reclamo.",2026-06-15 08:15:00,,true
+TKT-2010,Calidad,open,Reclamo por Mix Mariscos surtidosFazzio con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego Mix Mariscos surtidosFazzio en mal estado y quiero hacer el reclamo.",2026-06-14 05:15:00,,true
+TKT-2011,Logistica,open,Demora en la entrega del pedido P-00151 de Provoleta Parrillera Formagge x 450gr.,5493418277249,"Buen dia, sigo esperando el pedido P-00151 de Provoleta Parrillera Formagge x 450gr y no llego.",2026-06-16 02:15:00,,true
+TKT-2012,Logistica,open,Demora en la entrega del pedido P-00123 de DV Lesplorator La Rioja.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de DV Lesplorator La Rioja y no llego.",2026-06-15 11:15:00,,true
+TKT-2013,Logistica,open,Demora en la entrega del pedido P-00126 de rosado primero piel y hueso.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de rosado primero piel y hueso y no llego.",2026-06-14 08:15:00,,true
+TKT-2014,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Parrilla El Asador.,5493587905250,,2026-06-16 05:15:00,,true
+TKT-2015,Administracion,open,Solicita corregir datos administrativos de Carnicería La Tradición en el sistema.,5493582641213,,2026-06-15 02:15:00,,true
+TKT-2016,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Asadería Don Carlos.,5492991227644,,2026-06-14 11:15:00,,true
+TKT-2017,Administracion,open,Solicita corregir datos administrativos de Restaurante La Parrilla en el sistema.,5493418277249,,2026-06-16 08:15:00,,true
+TKT-2018,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Restaurante El Gran Asado.,5492612928724,,2026-06-15 05:15:00,,true
+TKT-2019,Administracion,closed,Solicita corregir datos administrativos de Asadería El Asador de la Familia en el sistema.,5492617236955,,2026-05-31 05:15:00,2026-05-31 20:15:00,true
+TKT-2020,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Parrilla El Sabor del Asado.,5492617413812,,2026-05-30 11:15:00,2026-05-31 03:15:00,true
+TKT-2021,Logistica,closed,Demora en la entrega del pedido P-00132 de Filet trucha despinadaFazzio.,5492998066543,,2026-05-29 09:15:00,2026-05-30 02:15:00,true
+TKT-2022,Calidad,closed,Reclamo por LEA & PERRINS salsa Worcestershire con entrega en mal estado o faltante parcial.,5492999435946,,2026-05-28 07:15:00,2026-05-29 01:15:00,true
+TKT-2023,Administracion,closed,Solicita corregir datos administrativos de Almacén del Sabor en el sistema.,5493587747641,,2026-05-27 05:15:00,2026-05-28 00:15:00,true
+TKT-2024,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Carnicería El Buen Corte.,5492614053074,,2026-06-11 11:15:00,2026-06-12 07:15:00,true
+TKT-2025,Logistica,closed,Demora en la entrega del pedido P-00157 de Ojo de Bife.,5493514079279,,2026-06-10 09:15:00,2026-06-11 06:15:00,true

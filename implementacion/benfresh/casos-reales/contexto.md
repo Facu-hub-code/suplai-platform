@@ -44,15 +44,15 @@ Cada caso real 03–06 tiene un **journey** con pasos encadenados: carga → edi
 
 ```bash
 # Encadenado (misma sesión por escenario)
-python scripts/test_agent_e2e.py --schema benfresh --suite journey --seller --journey-mode chained
+python scripts/fase-09-e2e/test_agent_e2e.py --schema benfresh --suite journey --seller --journey-mode chained
 
 # Aislado (cleanup por paso; mensajes autocontenidos en ediciones)
-python scripts/test_agent_e2e.py --schema benfresh --suite journey --seller --journey-mode isolated
+python scripts/fase-09-e2e/test_agent_e2e.py --schema benfresh --suite journey --seller --journey-mode isolated
 ```
 
 ## Cómo agregar casos nuevos
 
 1. Creá `casos/NN-slug/caso.json` + `mensaje.txt` (o `mensaje_simulado.txt` para fotos).
 2. Opcional: colocá `imagen.jpg` como referencia visual (el E2E usa el texto simulado).
-3. Corré: `python scripts/test_agent_e2e.py --schema benfresh --suite real --seller --sequential`
+3. Corré: `python scripts/fase-09-e2e/test_agent_e2e.py --schema benfresh --suite real --seller --sequential`
 4. Para variantes automáticas: agregá `--expand 3`
