@@ -1,158 +1,158 @@
 pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
-P-00001,25001,5493587905250,Dulces y Bebidas,2026-03-01 08:00:00,confirmado,47230.50,Pedido historico mock - Dulces y Bebidas,true,false,2
-P-00002,25001,5493587905250,Dulces y Bebidas,2026-03-18 09:19:07,entregado,2104.50,Pedido historico mock - Dulces y Bebidas,true,false,2
-P-00003,25001,5493587905250,Dulces y Bebidas,2026-04-04 10:38:14,facturado,46598.00,Pedido historico mock - Dulces y Bebidas,true,false,2
-P-00004,25002,5493582641213,La Golosina,2026-03-08 11:11:23,entregado,43497.00,Pedido historico mock - La Golosina,true,false,3
-P-00005,25002,5493582641213,La Golosina,2026-03-25 12:30:30,facturado,34326.00,Pedido historico mock - La Golosina,true,false,3
-P-00006,25002,5493582641213,La Golosina,2026-04-11 13:49:37,confirmado,18882.00,Pedido historico mock - La Golosina,true,false,3
-P-00007,25003,5492991227644,Bebidas del Norte,2026-03-15 14:22:46,facturado,7539.50,Pedido historico mock - Bebidas del Norte,true,false,4
-P-00008,25003,5492991227644,Bebidas del Norte,2026-04-01 15:41:53,confirmado,15878.00,Pedido historico mock - Bebidas del Norte,true,false,4
-P-00009,25003,5492991227644,Bebidas del Norte,2026-04-18 16:00:00,entregado,6927.50,Pedido historico mock - Bebidas del Norte,true,false,4
-P-00010,25004,5493418277249,Golosinas Formoseñas,2026-03-22 17:33:09,confirmado,44200.00,Pedido historico mock - Golosinas Formoseñas,true,false,1
-P-00011,25004,5493418277249,Golosinas Formoseñas,2026-04-08 08:52:16,entregado,25190.00,Pedido historico mock - Golosinas Formoseñas,true,false,1
-P-00012,25004,5493418277249,Golosinas Formoseñas,2026-04-25 09:11:23,facturado,58200.00,Pedido historico mock - Golosinas Formoseñas,true,false,1
-P-00013,25005,5493587747641,El Refugio de Dulces,2026-03-29 10:44:32,entregado,55246.00,Pedido historico mock - El Refugio de Dulces,true,false,2
-P-00014,25005,5493587747641,El Refugio de Dulces,2026-04-15 11:03:39,facturado,56591.50,Pedido historico mock - El Refugio de Dulces,true,false,2
-P-00015,25005,5493587747641,El Refugio de Dulces,2026-05-02 12:22:46,confirmado,83386.50,Pedido historico mock - El Refugio de Dulces,true,false,2
-P-00016,25006,5492614053074,Sabor a Golosina,2026-04-05 13:55:55,facturado,13779.00,Pedido historico mock - Sabor a Golosina,true,false,3
-P-00017,25006,5492614053074,Sabor a Golosina,2026-04-22 14:14:02,confirmado,16416.00,Pedido historico mock - Sabor a Golosina,true,false,3
-P-00018,25006,5492614053074,Sabor a Golosina,2026-05-09 15:33:09,entregado,31977.00,Pedido historico mock - Sabor a Golosina,true,false,3
-P-00019,25007,5493514079279,Bebidas y Más,2026-04-12 16:06:18,confirmado,20859.00,Pedido historico mock - Bebidas y Más,true,false,4
-P-00020,25007,5493514079279,Bebidas y Más,2026-04-29 17:25:25,entregado,83563.50,Pedido historico mock - Bebidas y Más,true,false,4
-P-00021,25007,5493514079279,Bebidas y Más,2026-05-16 08:44:32,facturado,52147.50,Pedido historico mock - Bebidas y Más,true,false,4
-P-00022,25008,5493876914178,Dulce Encanto,2026-04-19 09:17:41,entregado,1700.00,Pedido historico mock - Dulce Encanto,true,false,1
-P-00023,25008,5493876914178,Dulce Encanto,2026-05-06 10:36:48,facturado,33150.00,Pedido historico mock - Dulce Encanto,true,false,1
-P-00024,25008,5493876914178,Dulce Encanto,2026-05-23 11:55:55,confirmado,45720.00,Pedido historico mock - Dulce Encanto,true,false,1
+P-00001,25001,5493587905250,Dulce Sorpresa,2026-03-01 08:00:00,confirmado,47230.50,Pedido historico mock - Dulce Sorpresa,true,false,2
+P-00002,25001,5493587905250,Dulce Sorpresa,2026-03-18 09:19:07,entregado,2104.50,Pedido historico mock - Dulce Sorpresa,true,false,2
+P-00003,25001,5493587905250,Dulce Sorpresa,2026-04-04 10:38:14,facturado,46598.00,Pedido historico mock - Dulce Sorpresa,true,false,2
+P-00004,25002,5493582641213,Bebidas y Golosinas,2026-03-08 11:11:23,entregado,43497.00,Pedido historico mock - Bebidas y Golosinas,true,false,3
+P-00005,25002,5493582641213,Bebidas y Golosinas,2026-03-25 12:30:30,facturado,34326.00,Pedido historico mock - Bebidas y Golosinas,true,false,3
+P-00006,25002,5493582641213,Bebidas y Golosinas,2026-04-11 13:49:37,confirmado,18882.00,Pedido historico mock - Bebidas y Golosinas,true,false,3
+P-00007,25003,5492991227644,La Golosina Feliz,2026-03-15 14:22:46,facturado,7539.50,Pedido historico mock - La Golosina Feliz,true,false,4
+P-00008,25003,5492991227644,La Golosina Feliz,2026-04-01 15:41:53,confirmado,15878.00,Pedido historico mock - La Golosina Feliz,true,false,4
+P-00009,25003,5492991227644,La Golosina Feliz,2026-04-18 16:00:00,entregado,6927.50,Pedido historico mock - La Golosina Feliz,true,false,4
+P-00010,25004,5493418277249,El Refugio de Sabor,2026-03-22 17:33:09,confirmado,44200.00,Pedido historico mock - El Refugio de Sabor,true,false,1
+P-00011,25004,5493418277249,El Refugio de Sabor,2026-04-08 08:52:16,entregado,25190.00,Pedido historico mock - El Refugio de Sabor,true,false,1
+P-00012,25004,5493418277249,El Refugio de Sabor,2026-04-25 09:11:23,facturado,58200.00,Pedido historico mock - El Refugio de Sabor,true,false,1
+P-00013,25005,5493587747641,Golosinas del Norte,2026-03-29 10:44:32,entregado,55246.00,Pedido historico mock - Golosinas del Norte,true,false,2
+P-00014,25005,5493587747641,Golosinas del Norte,2026-04-15 11:03:39,facturado,56591.50,Pedido historico mock - Golosinas del Norte,true,false,2
+P-00015,25005,5493587747641,Golosinas del Norte,2026-05-02 12:22:46,confirmado,83386.50,Pedido historico mock - Golosinas del Norte,true,false,2
+P-00016,25006,5492614053074,Bebidas del Sur,2026-04-05 13:55:55,facturado,13779.00,Pedido historico mock - Bebidas del Sur,true,false,3
+P-00017,25006,5492614053074,Bebidas del Sur,2026-04-22 14:14:02,confirmado,16416.00,Pedido historico mock - Bebidas del Sur,true,false,3
+P-00018,25006,5492614053074,Bebidas del Sur,2026-05-09 15:33:09,entregado,31977.00,Pedido historico mock - Bebidas del Sur,true,false,3
+P-00019,25007,5493514079279,Dulces Momentos,2026-04-12 16:06:18,confirmado,20859.00,Pedido historico mock - Dulces Momentos,true,false,4
+P-00020,25007,5493514079279,Dulces Momentos,2026-04-29 17:25:25,entregado,83563.50,Pedido historico mock - Dulces Momentos,true,false,4
+P-00021,25007,5493514079279,Dulces Momentos,2026-05-16 08:44:32,facturado,52147.50,Pedido historico mock - Dulces Momentos,true,false,4
+P-00022,25008,5493876914178,Sabor Argentino,2026-04-19 09:17:41,entregado,1700.00,Pedido historico mock - Sabor Argentino,true,false,1
+P-00023,25008,5493876914178,Sabor Argentino,2026-05-06 10:36:48,facturado,33150.00,Pedido historico mock - Sabor Argentino,true,false,1
+P-00024,25008,5493876914178,Sabor Argentino,2026-05-23 11:55:55,confirmado,45720.00,Pedido historico mock - Sabor Argentino,true,false,1
 P-00025,25009,5492617175545,La Casa de las Golosinas,2026-04-26 12:28:04,facturado,15870.00,Pedido historico mock - La Casa de las Golosinas,true,false,2
 P-00026,25009,5492617175545,La Casa de las Golosinas,2026-05-13 13:47:11,confirmado,14490.00,Pedido historico mock - La Casa de las Golosinas,true,false,2
 P-00027,25009,5492617175545,La Casa de las Golosinas,2026-05-30 14:06:18,entregado,40928.50,Pedido historico mock - La Casa de las Golosinas,true,false,2
-P-00028,25010,5493818437953,Bebidas y Snacks,2026-05-03 15:39:27,confirmado,8280.00,Pedido historico mock - Bebidas y Snacks,true,false,3
-P-00029,25010,5493818437953,Bebidas y Snacks,2026-05-20 16:58:34,entregado,10827.00,Pedido historico mock - Bebidas y Snacks,true,false,3
-P-00030,25010,5493818437953,Bebidas y Snacks,2026-03-06 17:17:41,facturado,8640.00,Pedido historico mock - Bebidas y Snacks,true,false,3
-P-00031,25011,5493582132179,Golosinas y Refrescos,2026-05-10 08:50:50,entregado,16711.00,Pedido historico mock - Golosinas y Refrescos,true,false,4
-P-00032,25011,5493582132179,Golosinas y Refrescos,2026-05-27 09:09:57,facturado,8228.00,Pedido historico mock - Golosinas y Refrescos,true,false,4
-P-00033,25011,5493582132179,Golosinas y Refrescos,2026-03-13 10:28:04,confirmado,159341.00,Pedido historico mock - Golosinas y Refrescos,true,false,4
-P-00034,25012,5493872845902,Dulces del Río,2026-05-17 11:01:13,facturado,29450.00,Pedido historico mock - Dulces del Río,true,false,1
-P-00035,25012,5493872845902,Dulces del Río,2026-03-03 12:20:20,confirmado,17350.00,Pedido historico mock - Dulces del Río,true,false,1
-P-00036,25012,5493872845902,Dulces del Río,2026-03-20 13:39:27,entregado,1560.00,Pedido historico mock - Dulces del Río,true,false,1
-P-00037,25013,5492997670210,La Tienda de la Alegría,2026-05-24 14:12:36,confirmado,4899.00,Pedido historico mock - La Tienda de la Alegría,true,false,2
-P-00038,25013,5492997670210,La Tienda de la Alegría,2026-03-10 15:31:43,entregado,146222.50,Pedido historico mock - La Tienda de la Alegría,true,false,2
-P-00039,25013,5492997670210,La Tienda de la Alegría,2026-03-27 16:50:50,facturado,5106.00,Pedido historico mock - La Tienda de la Alegría,true,false,2
-P-00040,25014,5493811657614,Bebidas del Sur,2026-05-31 17:23:59,entregado,1098.00,Pedido historico mock - Bebidas del Sur,true,false,3
-P-00041,25014,5493811657614,Bebidas del Sur,2026-03-17 08:42:06,facturado,8208.00,Pedido historico mock - Bebidas del Sur,true,false,3
-P-00042,25014,5493811657614,Bebidas del Sur,2026-04-03 09:01:13,confirmado,92439.00,Pedido historico mock - Bebidas del Sur,true,false,3
-P-00043,25015,5492994145193,La Golosina Feliz,2026-03-07 10:34:22,facturado,27480.50,Pedido historico mock - La Golosina Feliz,true,false,4
-P-00044,25015,5492994145193,La Golosina Feliz,2026-03-24 11:53:29,confirmado,94953.50,Pedido historico mock - La Golosina Feliz,true,false,4
-P-00045,25015,5492994145193,La Golosina Feliz,2026-04-10 12:12:36,entregado,1989.00,Pedido historico mock - La Golosina Feliz,true,false,4
-P-00046,25016,5493515971311,Dulce y Salado,2026-03-14 13:45:45,confirmado,11430.00,Pedido historico mock - Dulce y Salado,true,false,1
-P-00047,25016,5493515971311,Dulce y Salado,2026-03-31 14:04:52,entregado,55600.00,Pedido historico mock - Dulce y Salado,true,false,1
-P-00048,25016,5493515971311,Dulce y Salado,2026-04-17 15:23:59,facturado,12930.00,Pedido historico mock - Dulce y Salado,true,false,1
-P-00049,25017,5492994228106,El Mundo de las Golosinas,2026-03-21 16:56:08,entregado,40917.00,Pedido historico mock - El Mundo de las Golosinas,true,false,2
-P-00050,25017,5492994228106,El Mundo de las Golosinas,2026-04-07 17:15:15,facturado,2162.00,Pedido historico mock - El Mundo de las Golosinas,true,false,2
-P-00051,25017,5492994228106,El Mundo de las Golosinas,2026-04-24 08:34:22,confirmado,6083.50,Pedido historico mock - El Mundo de las Golosinas,true,false,2
-P-00052,25018,5492998718887,Bebidas Naturales,2026-03-28 09:07:31,facturado,55449.00,Pedido historico mock - Bebidas Naturales,true,false,3
-P-00053,25018,5492998718887,Bebidas Naturales,2026-04-14 10:26:38,confirmado,30249.00,Pedido historico mock - Bebidas Naturales,true,false,3
-P-00054,25018,5492998718887,Bebidas Naturales,2026-05-01 11:45:45,entregado,59778.00,Pedido historico mock - Bebidas Naturales,true,false,3
-P-00055,25019,5492995028869,Dulces y Risas,2026-04-04 12:18:54,confirmado,134920.50,Pedido historico mock - Dulces y Risas,true,false,4
-P-00056,25019,5492995028869,Dulces y Risas,2026-04-21 13:37:01,entregado,20901.50,Pedido historico mock - Dulces y Risas,true,false,4
-P-00057,25019,5492995028869,Dulces y Risas,2026-05-08 14:56:08,facturado,13217.50,Pedido historico mock - Dulces y Risas,true,false,4
-P-00058,25020,5493517304254,La Tienda de los Sabores,2026-04-11 15:29:17,entregado,7480.00,Pedido historico mock - La Tienda de los Sabores,true,false,1
-P-00059,25020,5493517304254,La Tienda de los Sabores,2026-04-28 16:48:24,facturado,6320.00,Pedido historico mock - La Tienda de los Sabores,true,false,1
-P-00060,25020,5493517304254,La Tienda de los Sabores,2026-05-15 17:07:31,confirmado,58200.00,Pedido historico mock - La Tienda de los Sabores,true,false,1
-P-00061,25021,5493416986538,Bebidas y Golosinas,2026-04-18 08:40:40,facturado,70598.50,Pedido historico mock - Bebidas y Golosinas,true,false,2
-P-00062,25021,5493416986538,Bebidas y Golosinas,2026-05-05 09:59:47,confirmado,50197.50,Pedido historico mock - Bebidas y Golosinas,true,false,2
-P-00063,25021,5493416986538,Bebidas y Golosinas,2026-05-22 10:18:54,entregado,54314.50,Pedido historico mock - Bebidas y Golosinas,true,false,2
-P-00064,25022,5492619239862,El Sabor del Norte,2026-04-25 11:51:03,confirmado,93636.00,Pedido historico mock - El Sabor del Norte,true,false,3
-P-00065,25022,5492619239862,El Sabor del Norte,2026-05-12 12:10:10,entregado,47052.00,Pedido historico mock - El Sabor del Norte,true,false,3
-P-00066,25022,5492619239862,El Sabor del Norte,2026-05-29 13:29:17,facturado,7425.00,Pedido historico mock - El Sabor del Norte,true,false,3
-P-00067,25023,5493513952681,Dulces y Sonrisas,2026-05-02 14:02:26,entregado,16532.50,Pedido historico mock - Dulces y Sonrisas,true,false,4
-P-00068,25023,5493513952681,Dulces y Sonrisas,2026-05-19 15:21:33,facturado,6239.00,Pedido historico mock - Dulces y Sonrisas,true,false,4
-P-00069,25023,5493513952681,Dulces y Sonrisas,2026-03-05 16:40:40,confirmado,77477.50,Pedido historico mock - Dulces y Sonrisas,true,false,4
-P-00070,25024,5493414799650,La Golosina Perfecta,2026-05-09 17:13:49,facturado,57040.00,Pedido historico mock - La Golosina Perfecta,true,false,1
-P-00071,25024,5493414799650,La Golosina Perfecta,2026-05-26 08:32:56,confirmado,49800.00,Pedido historico mock - La Golosina Perfecta,true,false,1
-P-00072,25024,5493414799650,La Golosina Perfecta,2026-03-12 09:51:03,entregado,22220.00,Pedido historico mock - La Golosina Perfecta,true,false,1
-P-00073,25025,5492992500733,Bebidas y Alegría,2026-05-16 10:24:12,confirmado,33971.00,Pedido historico mock - Bebidas y Alegría,true,false,2
-P-00074,25025,5492992500733,Bebidas y Alegría,2026-03-02 11:43:19,entregado,77107.50,Pedido historico mock - Bebidas y Alegría,true,false,2
-P-00075,25025,5492992500733,Bebidas y Alegría,2026-03-19 12:02:26,facturado,22000.65,Pedido historico mock - Bebidas y Alegría,true,false,2
-P-00076,25026,5492615139305,Dulces y Momentos,2026-05-23 13:35:35,entregado,15966.00,Pedido historico mock - Dulces y Momentos,true,false,3
-P-00077,25026,5492615139305,Dulces y Momentos,2026-03-09 14:54:42,facturado,6930.00,Pedido historico mock - Dulces y Momentos,true,false,3
-P-00078,25026,5492615139305,Dulces y Momentos,2026-03-26 15:13:49,confirmado,1233.00,Pedido historico mock - Dulces y Momentos,true,false,3
-P-00079,25027,5492618861463,La Casa de los Snacks,2026-05-30 16:46:58,facturado,32419.00,Pedido historico mock - La Casa de los Snacks,true,false,4
-P-00080,25027,5492618861463,La Casa de los Snacks,2026-03-16 17:05:05,confirmado,58420.50,Pedido historico mock - La Casa de los Snacks,true,false,4
-P-00081,25027,5492618861463,La Casa de los Snacks,2026-04-02 08:24:12,entregado,3527.50,Pedido historico mock - La Casa de los Snacks,true,false,4
-P-00082,25028,5493812941974,Bebidas del Pueblo,2026-03-06 09:57:21,confirmado,38100.00,Pedido historico mock - Bebidas del Pueblo,true,false,1
-P-00083,25028,5493812941974,Bebidas del Pueblo,2026-03-23 10:16:28,entregado,3990.00,Pedido historico mock - Bebidas del Pueblo,true,false,1
-P-00084,25028,5493812941974,Bebidas del Pueblo,2026-04-09 11:35:35,facturado,18620.00,Pedido historico mock - Bebidas del Pueblo,true,false,1
-P-00085,25029,5493817404433,Dulces y Tradiciones,2026-03-13 12:08:44,entregado,67620.00,Pedido historico mock - Dulces y Tradiciones,true,false,2
-P-00086,25029,5493817404433,Dulces y Tradiciones,2026-03-30 13:27:51,facturado,32165.50,Pedido historico mock - Dulces y Tradiciones,true,false,2
-P-00087,25029,5493817404433,Dulces y Tradiciones,2026-04-16 14:46:58,confirmado,6497.50,Pedido historico mock - Dulces y Tradiciones,true,false,2
-P-00088,25030,5493419686914,La Golosina del Barrio,2026-03-20 15:19:07,facturado,24660.00,Pedido historico mock - La Golosina del Barrio,true,false,3
-P-00089,25030,5493419686914,La Golosina del Barrio,2026-04-06 16:38:14,confirmado,1098.00,Pedido historico mock - La Golosina del Barrio,true,false,3
-P-00090,25030,5493419686914,La Golosina del Barrio,2026-04-23 17:57:21,entregado,24894.00,Pedido historico mock - La Golosina del Barrio,true,false,3
-P-00091,25031,5493518648263,Bebidas y Diversión,2026-03-27 08:30:30,confirmado,1572.50,Pedido historico mock - Bebidas y Diversión,true,false,4
-P-00092,25031,5493518648263,Bebidas y Diversión,2026-04-13 09:49:37,entregado,24752.00,Pedido historico mock - Bebidas y Diversión,true,false,4
-P-00093,25031,5493518648263,Bebidas y Diversión,2026-04-30 10:08:44,facturado,45560.00,Pedido historico mock - Bebidas y Diversión,true,false,4
-P-00094,25032,5493516216782,Dulces y Recuerdos,2026-04-03 11:41:53,entregado,25940.00,Pedido historico mock - Dulces y Recuerdos,true,false,1
-P-00095,25032,5493516216782,Dulces y Recuerdos,2026-04-20 12:00:00,facturado,58200.00,Pedido historico mock - Dulces y Recuerdos,true,false,1
-P-00096,25032,5493516216782,Dulces y Recuerdos,2026-05-07 13:19:07,confirmado,41170.00,Pedido historico mock - Dulces y Recuerdos,true,false,1
-P-00097,25033,5492612780568,La Tienda de los Dulces,2026-04-10 14:52:16,facturado,954.50,Pedido historico mock - La Tienda de los Dulces,true,false,2
-P-00098,25033,5492612780568,La Tienda de los Dulces,2026-04-27 15:11:23,confirmado,11994.50,Pedido historico mock - La Tienda de los Dulces,true,false,2
-P-00099,25033,5492612780568,La Tienda de los Dulces,2026-05-14 16:30:30,entregado,17123.50,Pedido historico mock - La Tienda de los Dulces,true,false,2
-P-00100,25034,5493582639964,Bebidas y Sabores,2026-04-17 17:03:39,confirmado,65367.00,Pedido historico mock - Bebidas y Sabores,true,false,3
-P-00101,25034,5493582639964,Bebidas y Sabores,2026-05-04 08:22:46,entregado,9441.00,Pedido historico mock - Bebidas y Sabores,true,false,3
-P-00102,25034,5493582639964,Bebidas y Sabores,2026-05-21 09:41:53,facturado,19440.00,Pedido historico mock - Bebidas y Sabores,true,false,3
-P-00103,25035,5493814729528,Dulces y Placeres,2026-04-24 10:14:02,entregado,75658.50,Pedido historico mock - Dulces y Placeres,true,false,4
-P-00104,25035,5493814729528,Dulces y Placeres,2026-05-11 11:33:09,facturado,1572.50,Pedido historico mock - Dulces y Placeres,true,false,4
-P-00105,25035,5493814729528,Dulces y Placeres,2026-05-28 12:52:16,confirmado,27769.50,Pedido historico mock - Dulces y Placeres,true,false,4
-P-00106,25036,5493876922419,La Golosina de Todos,2026-05-01 13:25:25,facturado,32100.00,Pedido historico mock - La Golosina de Todos,true,false,1
-P-00107,25036,5493876922419,La Golosina de Todos,2026-05-18 14:44:32,confirmado,16725.00,Pedido historico mock - La Golosina de Todos,true,false,1
-P-00108,25036,5493876922419,La Golosina de Todos,2026-03-04 15:03:39,entregado,58820.00,Pedido historico mock - La Golosina de Todos,true,false,1
-P-00109,25037,5492618889598,Bebidas y Amistad,2026-05-08 16:36:48,confirmado,7015.00,Pedido historico mock - Bebidas y Amistad,true,false,2
-P-00110,25037,5492618889598,Bebidas y Amistad,2026-05-25 17:55:55,entregado,29555.00,Pedido historico mock - Bebidas y Amistad,true,false,2
-P-00111,25037,5492618889598,Bebidas y Amistad,2026-03-11 08:14:02,facturado,40434.00,Pedido historico mock - Bebidas y Amistad,true,false,2
-P-00112,25038,5492615021286,Dulces y Celebraciones,2026-05-15 09:47:11,entregado,57114.00,Pedido historico mock - Dulces y Celebraciones,true,false,3
-P-00113,25038,5492615021286,Dulces y Celebraciones,2026-03-01 10:06:18,facturado,151704.00,Pedido historico mock - Dulces y Celebraciones,true,false,3
-P-00114,25038,5492615021286,Dulces y Celebraciones,2026-03-18 11:25:25,confirmado,24498.00,Pedido historico mock - Dulces y Celebraciones,true,false,3
-P-00115,25039,5493813520000,La Casa de la Golosina,2026-05-22 12:58:34,facturado,17051.00,Pedido historico mock - La Casa de la Golosina,true,false,4
-P-00116,25039,5493813520000,La Casa de la Golosina,2026-03-08 13:17:41,confirmado,6290.00,Pedido historico mock - La Casa de la Golosina,true,false,4
-P-00117,25039,5493813520000,La Casa de la Golosina,2026-03-25 14:36:48,entregado,24590.50,Pedido historico mock - La Casa de la Golosina,true,false,4
-P-00118,25040,5492997489876,Bebidas y Risas,2026-05-29 15:09:57,confirmado,120640.00,Pedido historico mock - Bebidas y Risas,true,false,1
-P-00119,25040,5492997489876,Bebidas y Risas,2026-03-15 16:28:04,entregado,1110.00,Pedido historico mock - Bebidas y Risas,true,false,1
-P-00120,25040,5492997489876,Bebidas y Risas,2026-04-01 17:47:11,facturado,90680.00,Pedido historico mock - Bebidas y Risas,true,false,1
-P-00121,0,5492612928724,La Tienda de la Diversión,2026-03-05 08:20:20,entregado,62100.00,Pedido historico mock - La Tienda de la Diversión,true,false,2
-P-00122,0,5492612928724,La Tienda de la Diversión,2026-03-22 09:39:27,facturado,25449.50,Pedido historico mock - La Tienda de la Diversión,true,false,2
-P-00123,0,5492612928724,La Tienda de la Diversión,2026-04-08 10:58:34,confirmado,2047.00,Pedido historico mock - La Tienda de la Diversión,true,false,2
-P-00124,0,5492617236955,Dulces y Sorpresas,2026-03-12 11:31:43,facturado,3990.00,Pedido historico mock - Dulces y Sorpresas,true,false,1
-P-00125,0,5492617236955,Dulces y Sorpresas,2026-03-29 12:50:50,confirmado,5950.00,Pedido historico mock - Dulces y Sorpresas,true,false,1
-P-00126,0,5492617236955,Dulces y Sorpresas,2026-04-15 13:09:57,entregado,31260.00,Pedido historico mock - Dulces y Sorpresas,true,false,1
-P-00127,0,5492617413812,Bebidas y Momentos,2026-03-19 14:42:06,confirmado,40375.00,Pedido historico mock - Bebidas y Momentos,true,false,4
-P-00128,0,5492617413812,Bebidas y Momentos,2026-04-05 15:01:13,entregado,12809.50,Pedido historico mock - Bebidas y Momentos,true,false,4
-P-00129,0,5492617413812,Bebidas y Momentos,2026-04-22 16:20:20,facturado,19431.00,Pedido historico mock - Bebidas y Momentos,true,false,4
-P-00130,0,5492998066543,Dulces y Amistades,2026-03-26 17:53:29,entregado,59067.00,Pedido historico mock - Dulces y Amistades,true,false,3
-P-00131,0,5492998066543,Dulces y Amistades,2026-04-12 08:12:36,facturado,10485.00,Pedido historico mock - Dulces y Amistades,true,false,3
-P-00132,0,5492998066543,Dulces y Amistades,2026-04-29 09:31:43,confirmado,28926.00,Pedido historico mock - Dulces y Amistades,true,false,3
-P-00133,0,5492999435946,Bebidas y Recuerdos,2026-04-02 10:04:52,facturado,25470.00,Pedido historico mock - Bebidas y Recuerdos,true,false,3
-P-00134,0,5492999435946,Bebidas y Recuerdos,2026-04-19 11:23:59,confirmado,10800.00,Pedido historico mock - Bebidas y Recuerdos,true,false,3
-P-00135,0,5492999435946,Bebidas y Recuerdos,2026-05-06 12:42:06,entregado,28674.00,Pedido historico mock - Bebidas y Recuerdos,true,false,3
-P-00136,0,5493416524997,La Golosina de la Semana,2026-04-09 13:15:15,confirmado,58220.00,Pedido historico mock - La Golosina de la Semana,true,false,1
-P-00137,0,5493416524997,La Golosina de la Semana,2026-04-26 14:34:22,entregado,70519.20,Pedido historico mock - La Golosina de la Semana,true,false,1
-P-00138,0,5493416524997,La Golosina de la Semana,2026-05-13 15:53:29,facturado,32680.00,Pedido historico mock - La Golosina de la Semana,true,false,1
-P-00139,0,5493517632424,Dulces y Sabores,2026-04-16 16:26:38,entregado,27837.50,Pedido historico mock - Dulces y Sabores,true,false,4
-P-00140,0,5493517632424,Dulces y Sabores,2026-05-03 17:45:45,facturado,11577.00,Pedido historico mock - Dulces y Sabores,true,false,4
-P-00141,0,5493517632424,Dulces y Sabores,2026-05-20 08:04:52,confirmado,4054.50,Pedido historico mock - Dulces y Sabores,true,false,4
-P-00142,0,5493519107005,Dulces y Alegrías,2026-04-23 09:37:01,facturado,11960.00,Pedido historico mock - Dulces y Alegrías,true,false,2
-P-00143,0,5493519107005,Dulces y Alegrías,2026-05-10 10:56:08,confirmado,5106.00,Pedido historico mock - Dulces y Alegrías,true,false,2
-P-00144,0,5493519107005,Dulces y Alegrías,2026-05-27 11:15:15,entregado,52382.50,Pedido historico mock - Dulces y Alegrías,true,false,2
-P-00145,0,5493874104594,La Golosina del Día,2026-04-30 12:48:24,confirmado,60894.00,Pedido historico mock - La Golosina del Día,true,false,3
-P-00146,0,5493874104594,La Golosina del Día,2026-05-17 13:07:31,entregado,44262.00,Pedido historico mock - La Golosina del Día,true,false,3
-P-00147,0,5493874104594,La Golosina del Día,2026-03-03 14:26:38,facturado,1485.00,Pedido historico mock - La Golosina del Día,true,false,3
-P-00148,0,5493876499570,Bebidas y Tradiciones,2026-05-07 15:59:47,entregado,24495.00,Pedido historico mock - Bebidas y Tradiciones,true,false,2
-P-00149,0,5493876499570,Bebidas y Tradiciones,2026-05-24 16:18:54,facturado,39065.50,Pedido historico mock - Bebidas y Tradiciones,true,false,2
-P-00150,0,5493876499570,Bebidas y Tradiciones,2026-03-10 17:37:01,confirmado,10005.00,Pedido historico mock - Bebidas y Tradiciones,true,false,2
-P-00151,25004,5493418277249,Golosinas Formoseñas,2026-06-17 11:15:00,abierto,21407.50,Pedido abierto mock - promo Fase 2 - Golosinas Formoseñas,true,true,1
-P-00152,25001,5493587905250,Dulces y Bebidas,2026-06-17 11:15:13,pendiente,12420.00,Pedido abierto mock - Dulces y Bebidas,true,true,2
-P-00153,25002,5493582641213,La Golosina,2026-06-17 11:15:26,abierto,666.00,Pedido abierto mock - La Golosina,true,true,3
-P-00154,25003,5492991227644,Bebidas del Norte,2026-06-17 11:15:39,pendiente,5678.00,Pedido abierto mock - Bebidas del Norte,true,true,4
-P-00155,25005,5493587747641,El Refugio de Dulces,2026-06-17 11:15:52,abierto,68195.00,Pedido abierto mock - El Refugio de Dulces,true,true,2
-P-00156,25006,5492614053074,Sabor a Golosina,2026-06-17 11:15:05,pendiente,5094.00,Pedido abierto mock - Sabor a Golosina,true,true,3
-P-00157,25007,5493514079279,Bebidas y Más,2026-06-17 11:15:18,abierto,49801.50,Pedido abierto mock - Bebidas y Más,true,true,4
+P-00028,25010,5493818437953,Bebidas y Más,2026-05-03 15:39:27,confirmado,8280.00,Pedido historico mock - Bebidas y Más,true,false,3
+P-00029,25010,5493818437953,Bebidas y Más,2026-05-20 16:58:34,entregado,10827.00,Pedido historico mock - Bebidas y Más,true,false,3
+P-00030,25010,5493818437953,Bebidas y Más,2026-03-06 17:17:41,facturado,8640.00,Pedido historico mock - Bebidas y Más,true,false,3
+P-00031,25011,5493582132179,El Paraíso de las Golosinas,2026-05-10 08:50:50,entregado,16711.00,Pedido historico mock - El Paraíso de las Golosinas,true,false,4
+P-00032,25011,5493582132179,El Paraíso de las Golosinas,2026-05-27 09:09:57,facturado,8228.00,Pedido historico mock - El Paraíso de las Golosinas,true,false,4
+P-00033,25011,5493582132179,El Paraíso de las Golosinas,2026-03-13 10:28:04,confirmado,159341.00,Pedido historico mock - El Paraíso de las Golosinas,true,false,4
+P-00034,25012,5493872845902,Dulces y Bebidas,2026-05-17 11:01:13,facturado,29450.00,Pedido historico mock - Dulces y Bebidas,true,false,1
+P-00035,25012,5493872845902,Dulces y Bebidas,2026-03-03 12:20:20,confirmado,17350.00,Pedido historico mock - Dulces y Bebidas,true,false,1
+P-00036,25012,5493872845902,Dulces y Bebidas,2026-03-20 13:39:27,entregado,1560.00,Pedido historico mock - Dulces y Bebidas,true,false,1
+P-00037,25013,5492997670210,La Dulcería,2026-05-24 14:12:36,confirmado,4899.00,Pedido historico mock - La Dulcería,true,false,2
+P-00038,25013,5492997670210,La Dulcería,2026-03-10 15:31:43,entregado,146222.50,Pedido historico mock - La Dulcería,true,false,2
+P-00039,25013,5492997670210,La Dulcería,2026-03-27 16:50:50,facturado,5106.00,Pedido historico mock - La Dulcería,true,false,2
+P-00040,25014,5493811657614,Golosinas y Refrescos,2026-05-31 17:23:59,entregado,1098.00,Pedido historico mock - Golosinas y Refrescos,true,false,3
+P-00041,25014,5493811657614,Golosinas y Refrescos,2026-03-17 08:42:06,facturado,8208.00,Pedido historico mock - Golosinas y Refrescos,true,false,3
+P-00042,25014,5493811657614,Golosinas y Refrescos,2026-04-03 09:01:13,confirmado,92439.00,Pedido historico mock - Golosinas y Refrescos,true,false,3
+P-00043,25015,5492994145193,Sabor y Color,2026-03-07 10:34:22,facturado,27480.50,Pedido historico mock - Sabor y Color,true,false,4
+P-00044,25015,5492994145193,Sabor y Color,2026-03-24 11:53:29,confirmado,94953.50,Pedido historico mock - Sabor y Color,true,false,4
+P-00045,25015,5492994145193,Sabor y Color,2026-04-10 12:12:36,entregado,1989.00,Pedido historico mock - Sabor y Color,true,false,4
+P-00046,25016,5493515971311,El Rincón de las Golosinas,2026-03-14 13:45:45,confirmado,11430.00,Pedido historico mock - El Rincón de las Golosinas,true,false,1
+P-00047,25016,5493515971311,El Rincón de las Golosinas,2026-03-31 14:04:52,entregado,55600.00,Pedido historico mock - El Rincón de las Golosinas,true,false,1
+P-00048,25016,5493515971311,El Rincón de las Golosinas,2026-04-17 15:23:59,facturado,12930.00,Pedido historico mock - El Rincón de las Golosinas,true,false,1
+P-00049,25017,5492994228106,Bebidas Naturales,2026-03-21 16:56:08,entregado,40917.00,Pedido historico mock - Bebidas Naturales,true,false,2
+P-00050,25017,5492994228106,Bebidas Naturales,2026-04-07 17:15:15,facturado,2162.00,Pedido historico mock - Bebidas Naturales,true,false,2
+P-00051,25017,5492994228106,Bebidas Naturales,2026-04-24 08:34:22,confirmado,6083.50,Pedido historico mock - Bebidas Naturales,true,false,2
+P-00052,25018,5492998718887,Dulces y Snacks,2026-03-28 09:07:31,facturado,55449.00,Pedido historico mock - Dulces y Snacks,true,false,3
+P-00053,25018,5492998718887,Dulces y Snacks,2026-04-14 10:26:38,confirmado,30249.00,Pedido historico mock - Dulces y Snacks,true,false,3
+P-00054,25018,5492998718887,Dulces y Snacks,2026-05-01 11:45:45,entregado,59778.00,Pedido historico mock - Dulces y Snacks,true,false,3
+P-00055,25019,5492995028869,La Tienda de Sabor,2026-04-04 12:18:54,confirmado,134920.50,Pedido historico mock - La Tienda de Sabor,true,false,4
+P-00056,25019,5492995028869,La Tienda de Sabor,2026-04-21 13:37:01,entregado,20901.50,Pedido historico mock - La Tienda de Sabor,true,false,4
+P-00057,25019,5492995028869,La Tienda de Sabor,2026-05-08 14:56:08,facturado,13217.50,Pedido historico mock - La Tienda de Sabor,true,false,4
+P-00058,25020,5493517304254,Golosinas y Alegría,2026-04-11 15:29:17,entregado,7480.00,Pedido historico mock - Golosinas y Alegría,true,false,1
+P-00059,25020,5493517304254,Golosinas y Alegría,2026-04-28 16:48:24,facturado,6320.00,Pedido historico mock - Golosinas y Alegría,true,false,1
+P-00060,25020,5493517304254,Golosinas y Alegría,2026-05-15 17:07:31,confirmado,58200.00,Pedido historico mock - Golosinas y Alegría,true,false,1
+P-00061,25021,5493416986538,Bebidas Frías,2026-04-18 08:40:40,facturado,70598.50,Pedido historico mock - Bebidas Frías,true,false,2
+P-00062,25021,5493416986538,Bebidas Frías,2026-05-05 09:59:47,confirmado,50197.50,Pedido historico mock - Bebidas Frías,true,false,2
+P-00063,25021,5493416986538,Bebidas Frías,2026-05-22 10:18:54,entregado,54314.50,Pedido historico mock - Bebidas Frías,true,false,2
+P-00064,25022,5492619239862,Dulce y Salado,2026-04-25 11:51:03,confirmado,93636.00,Pedido historico mock - Dulce y Salado,true,false,3
+P-00065,25022,5492619239862,Dulce y Salado,2026-05-12 12:10:10,entregado,47052.00,Pedido historico mock - Dulce y Salado,true,false,3
+P-00066,25022,5492619239862,Dulce y Salado,2026-05-29 13:29:17,facturado,7425.00,Pedido historico mock - Dulce y Salado,true,false,3
+P-00067,25023,5493513952681,El Sabor de Formosa,2026-05-02 14:02:26,entregado,16532.50,Pedido historico mock - El Sabor de Formosa,true,false,4
+P-00068,25023,5493513952681,El Sabor de Formosa,2026-05-19 15:21:33,facturado,6239.00,Pedido historico mock - El Sabor de Formosa,true,false,4
+P-00069,25023,5493513952681,El Sabor de Formosa,2026-03-05 16:40:40,confirmado,77477.50,Pedido historico mock - El Sabor de Formosa,true,false,4
+P-00070,25024,5493414799650,La Golosina de Oro,2026-05-09 17:13:49,facturado,57040.00,Pedido historico mock - La Golosina de Oro,true,false,1
+P-00071,25024,5493414799650,La Golosina de Oro,2026-05-26 08:32:56,confirmado,49800.00,Pedido historico mock - La Golosina de Oro,true,false,1
+P-00072,25024,5493414799650,La Golosina de Oro,2026-03-12 09:51:03,entregado,22220.00,Pedido historico mock - La Golosina de Oro,true,false,1
+P-00073,25025,5492992500733,Bebidas y Snacks,2026-05-16 10:24:12,confirmado,33971.00,Pedido historico mock - Bebidas y Snacks,true,false,2
+P-00074,25025,5492992500733,Bebidas y Snacks,2026-03-02 11:43:19,entregado,77107.50,Pedido historico mock - Bebidas y Snacks,true,false,2
+P-00075,25025,5492992500733,Bebidas y Snacks,2026-03-19 12:02:26,facturado,22000.65,Pedido historico mock - Bebidas y Snacks,true,false,2
+P-00076,25026,5492615139305,Dulce Encanto,2026-05-23 13:35:35,entregado,15966.00,Pedido historico mock - Dulce Encanto,true,false,3
+P-00077,25026,5492615139305,Dulce Encanto,2026-03-09 14:54:42,facturado,6930.00,Pedido historico mock - Dulce Encanto,true,false,3
+P-00078,25026,5492615139305,Dulce Encanto,2026-03-26 15:13:49,confirmado,1233.00,Pedido historico mock - Dulce Encanto,true,false,3
+P-00079,25027,5492618861463,El Mundo de las Golosinas,2026-05-30 16:46:58,facturado,32419.00,Pedido historico mock - El Mundo de las Golosinas,true,false,4
+P-00080,25027,5492618861463,El Mundo de las Golosinas,2026-03-16 17:05:05,confirmado,58420.50,Pedido historico mock - El Mundo de las Golosinas,true,false,4
+P-00081,25027,5492618861463,El Mundo de las Golosinas,2026-04-02 08:24:12,entregado,3527.50,Pedido historico mock - El Mundo de las Golosinas,true,false,4
+P-00082,25028,5493812941974,Bebidas para Todos,2026-03-06 09:57:21,confirmado,38100.00,Pedido historico mock - Bebidas para Todos,true,false,1
+P-00083,25028,5493812941974,Bebidas para Todos,2026-03-23 10:16:28,entregado,3990.00,Pedido historico mock - Bebidas para Todos,true,false,1
+P-00084,25028,5493812941974,Bebidas para Todos,2026-04-09 11:35:35,facturado,18620.00,Pedido historico mock - Bebidas para Todos,true,false,1
+P-00085,25029,5493817404433,Golosinas y Diversión,2026-03-13 12:08:44,entregado,67620.00,Pedido historico mock - Golosinas y Diversión,true,false,2
+P-00086,25029,5493817404433,Golosinas y Diversión,2026-03-30 13:27:51,facturado,32165.50,Pedido historico mock - Golosinas y Diversión,true,false,2
+P-00087,25029,5493817404433,Golosinas y Diversión,2026-04-16 14:46:58,confirmado,6497.50,Pedido historico mock - Golosinas y Diversión,true,false,2
+P-00088,25030,5493419686914,Dulce Fiesta,2026-03-20 15:19:07,facturado,24660.00,Pedido historico mock - Dulce Fiesta,true,false,3
+P-00089,25030,5493419686914,Dulce Fiesta,2026-04-06 16:38:14,confirmado,1098.00,Pedido historico mock - Dulce Fiesta,true,false,3
+P-00090,25030,5493419686914,Dulce Fiesta,2026-04-23 17:57:21,entregado,24894.00,Pedido historico mock - Dulce Fiesta,true,false,3
+P-00091,25031,5493518648263,La Casa de las Bebidas,2026-03-27 08:30:30,confirmado,1572.50,Pedido historico mock - La Casa de las Bebidas,true,false,4
+P-00092,25031,5493518648263,La Casa de las Bebidas,2026-04-13 09:49:37,entregado,24752.00,Pedido historico mock - La Casa de las Bebidas,true,false,4
+P-00093,25031,5493518648263,La Casa de las Bebidas,2026-04-30 10:08:44,facturado,45560.00,Pedido historico mock - La Casa de las Bebidas,true,false,4
+P-00094,25032,5493516216782,Sabor y Diversión,2026-04-03 11:41:53,entregado,25940.00,Pedido historico mock - Sabor y Diversión,true,false,1
+P-00095,25032,5493516216782,Sabor y Diversión,2026-04-20 12:00:00,facturado,58200.00,Pedido historico mock - Sabor y Diversión,true,false,1
+P-00096,25032,5493516216782,Sabor y Diversión,2026-05-07 13:19:07,confirmado,41170.00,Pedido historico mock - Sabor y Diversión,true,false,1
+P-00097,25033,5492612780568,El Rincón del Dulce,2026-04-10 14:52:16,facturado,954.50,Pedido historico mock - El Rincón del Dulce,true,false,2
+P-00098,25033,5492612780568,El Rincón del Dulce,2026-04-27 15:11:23,confirmado,11994.50,Pedido historico mock - El Rincón del Dulce,true,false,2
+P-00099,25033,5492612780568,El Rincón del Dulce,2026-05-14 16:30:30,entregado,17123.50,Pedido historico mock - El Rincón del Dulce,true,false,2
+P-00100,25034,5493582639964,Bebidas y Alegría,2026-04-17 17:03:39,confirmado,65367.00,Pedido historico mock - Bebidas y Alegría,true,false,3
+P-00101,25034,5493582639964,Bebidas y Alegría,2026-05-04 08:22:46,entregado,9441.00,Pedido historico mock - Bebidas y Alegría,true,false,3
+P-00102,25034,5493582639964,Bebidas y Alegría,2026-05-21 09:41:53,facturado,19440.00,Pedido historico mock - Bebidas y Alegría,true,false,3
+P-00103,25035,5493814729528,Dulce y Fresco,2026-04-24 10:14:02,entregado,75658.50,Pedido historico mock - Dulce y Fresco,true,false,4
+P-00104,25035,5493814729528,Dulce y Fresco,2026-05-11 11:33:09,facturado,1572.50,Pedido historico mock - Dulce y Fresco,true,false,4
+P-00105,25035,5493814729528,Dulce y Fresco,2026-05-28 12:52:16,confirmado,27769.50,Pedido historico mock - Dulce y Fresco,true,false,4
+P-00106,25036,5493876922419,La Dulce Vida,2026-05-01 13:25:25,facturado,32100.00,Pedido historico mock - La Dulce Vida,true,false,1
+P-00107,25036,5493876922419,La Dulce Vida,2026-05-18 14:44:32,confirmado,16725.00,Pedido historico mock - La Dulce Vida,true,false,1
+P-00108,25036,5493876922419,La Dulce Vida,2026-03-04 15:03:39,entregado,58820.00,Pedido historico mock - La Dulce Vida,true,false,1
+P-00109,25037,5492618889598,Golosinas y Risas,2026-05-08 16:36:48,confirmado,7015.00,Pedido historico mock - Golosinas y Risas,true,false,2
+P-00110,25037,5492618889598,Golosinas y Risas,2026-05-25 17:55:55,entregado,29555.00,Pedido historico mock - Golosinas y Risas,true,false,2
+P-00111,25037,5492618889598,Golosinas y Risas,2026-03-11 08:14:02,facturado,40434.00,Pedido historico mock - Golosinas y Risas,true,false,2
+P-00112,25038,5492615021286,Bebidas del Mundo,2026-05-15 09:47:11,entregado,57114.00,Pedido historico mock - Bebidas del Mundo,true,false,3
+P-00113,25038,5492615021286,Bebidas del Mundo,2026-03-01 10:06:18,facturado,151704.00,Pedido historico mock - Bebidas del Mundo,true,false,3
+P-00114,25038,5492615021286,Bebidas del Mundo,2026-03-18 11:25:25,confirmado,24498.00,Pedido historico mock - Bebidas del Mundo,true,false,3
+P-00115,25039,5493813520000,Dulce Tentación,2026-05-22 12:58:34,facturado,17051.00,Pedido historico mock - Dulce Tentación,true,false,4
+P-00116,25039,5493813520000,Dulce Tentación,2026-03-08 13:17:41,confirmado,6290.00,Pedido historico mock - Dulce Tentación,true,false,4
+P-00117,25039,5493813520000,Dulce Tentación,2026-03-25 14:36:48,entregado,24590.50,Pedido historico mock - Dulce Tentación,true,false,4
+P-00118,25040,5492997489876,El Paraíso de las Bebidas,2026-05-29 15:09:57,confirmado,120640.00,Pedido historico mock - El Paraíso de las Bebidas,true,false,1
+P-00119,25040,5492997489876,El Paraíso de las Bebidas,2026-03-15 16:28:04,entregado,1110.00,Pedido historico mock - El Paraíso de las Bebidas,true,false,1
+P-00120,25040,5492997489876,El Paraíso de las Bebidas,2026-04-01 17:47:11,facturado,90680.00,Pedido historico mock - El Paraíso de las Bebidas,true,false,1
+P-00121,0,5492612928724,Bebidas de Calidad,2026-03-05 08:20:20,entregado,62100.00,Pedido historico mock - Bebidas de Calidad,true,false,2
+P-00122,0,5492612928724,Bebidas de Calidad,2026-03-22 09:39:27,facturado,25449.50,Pedido historico mock - Bebidas de Calidad,true,false,2
+P-00123,0,5492612928724,Bebidas de Calidad,2026-04-08 10:58:34,confirmado,2047.00,Pedido historico mock - Bebidas de Calidad,true,false,2
+P-00124,0,5492617236955,La Golosina Perfecta,2026-03-12 11:31:43,facturado,3990.00,Pedido historico mock - La Golosina Perfecta,true,false,1
+P-00125,0,5492617236955,La Golosina Perfecta,2026-03-29 12:50:50,confirmado,5950.00,Pedido historico mock - La Golosina Perfecta,true,false,1
+P-00126,0,5492617236955,La Golosina Perfecta,2026-04-15 13:09:57,entregado,31260.00,Pedido historico mock - La Golosina Perfecta,true,false,1
+P-00127,0,5492617413812,Dulce y Rico,2026-03-19 14:42:06,confirmado,40375.00,Pedido historico mock - Dulce y Rico,true,false,4
+P-00128,0,5492617413812,Dulce y Rico,2026-04-05 15:01:13,entregado,12809.50,Pedido historico mock - Dulce y Rico,true,false,4
+P-00129,0,5492617413812,Dulce y Rico,2026-04-22 16:20:20,facturado,19431.00,Pedido historico mock - Dulce y Rico,true,false,4
+P-00130,0,5492998066543,Dulce Alegría,2026-03-26 17:53:29,entregado,59067.00,Pedido historico mock - Dulce Alegría,true,false,3
+P-00131,0,5492998066543,Dulce Alegría,2026-04-12 08:12:36,facturado,10485.00,Pedido historico mock - Dulce Alegría,true,false,3
+P-00132,0,5492998066543,Dulce Alegría,2026-04-29 09:31:43,confirmado,28926.00,Pedido historico mock - Dulce Alegría,true,false,3
+P-00133,0,5492999435946,Dulce y Natural,2026-04-02 10:04:52,facturado,25470.00,Pedido historico mock - Dulce y Natural,true,false,3
+P-00134,0,5492999435946,Dulce y Natural,2026-04-19 11:23:59,confirmado,10800.00,Pedido historico mock - Dulce y Natural,true,false,3
+P-00135,0,5492999435946,Dulce y Natural,2026-05-06 12:42:06,entregado,28674.00,Pedido historico mock - Dulce y Natural,true,false,3
+P-00136,0,5493416524997,Golosinas para Compartir,2026-04-09 13:15:15,confirmado,58220.00,Pedido historico mock - Golosinas para Compartir,true,false,1
+P-00137,0,5493416524997,Golosinas para Compartir,2026-04-26 14:34:22,entregado,70519.20,Pedido historico mock - Golosinas para Compartir,true,false,1
+P-00138,0,5493416524997,Golosinas para Compartir,2026-05-13 15:53:29,facturado,32680.00,Pedido historico mock - Golosinas para Compartir,true,false,1
+P-00139,0,5493517632424,El Rincón de Sabor,2026-04-16 16:26:38,entregado,27837.50,Pedido historico mock - El Rincón de Sabor,true,false,4
+P-00140,0,5493517632424,El Rincón de Sabor,2026-05-03 17:45:45,facturado,11577.00,Pedido historico mock - El Rincón de Sabor,true,false,4
+P-00141,0,5493517632424,El Rincón de Sabor,2026-05-20 08:04:52,confirmado,4054.50,Pedido historico mock - El Rincón de Sabor,true,false,4
+P-00142,0,5493519107005,Golosinas y Sorpresas,2026-04-23 09:37:01,facturado,11960.00,Pedido historico mock - Golosinas y Sorpresas,true,false,2
+P-00143,0,5493519107005,Golosinas y Sorpresas,2026-05-10 10:56:08,confirmado,5106.00,Pedido historico mock - Golosinas y Sorpresas,true,false,2
+P-00144,0,5493519107005,Golosinas y Sorpresas,2026-05-27 11:15:15,entregado,52382.50,Pedido historico mock - Golosinas y Sorpresas,true,false,2
+P-00145,0,5493874104594,Bebidas y Sabores,2026-04-30 12:48:24,confirmado,60894.00,Pedido historico mock - Bebidas y Sabores,true,false,3
+P-00146,0,5493874104594,Bebidas y Sabores,2026-05-17 13:07:31,entregado,44262.00,Pedido historico mock - Bebidas y Sabores,true,false,3
+P-00147,0,5493874104594,Bebidas y Sabores,2026-03-03 14:26:38,facturado,1485.00,Pedido historico mock - Bebidas y Sabores,true,false,3
+P-00148,0,5493876499570,Bebidas y Momentos,2026-05-07 15:59:47,entregado,24495.00,Pedido historico mock - Bebidas y Momentos,true,false,2
+P-00149,0,5493876499570,Bebidas y Momentos,2026-05-24 16:18:54,facturado,39065.50,Pedido historico mock - Bebidas y Momentos,true,false,2
+P-00150,0,5493876499570,Bebidas y Momentos,2026-03-10 17:37:01,confirmado,10005.00,Pedido historico mock - Bebidas y Momentos,true,false,2
+P-00151,25004,5493418277249,El Refugio de Sabor,2026-06-17 11:15:00,abierto,21407.50,Pedido abierto mock - promo Fase 2 - El Refugio de Sabor,true,true,1
+P-00152,25001,5493587905250,Dulce Sorpresa,2026-06-17 11:15:13,pendiente,12420.00,Pedido abierto mock - Dulce Sorpresa,true,true,2
+P-00153,25002,5493582641213,Bebidas y Golosinas,2026-06-17 11:15:26,abierto,666.00,Pedido abierto mock - Bebidas y Golosinas,true,true,3
+P-00154,25003,5492991227644,La Golosina Feliz,2026-06-17 11:15:39,pendiente,5678.00,Pedido abierto mock - La Golosina Feliz,true,true,4
+P-00155,25005,5493587747641,Golosinas del Norte,2026-06-17 11:15:52,abierto,68195.00,Pedido abierto mock - Golosinas del Norte,true,true,2
+P-00156,25006,5492614053074,Bebidas del Sur,2026-06-17 11:15:05,pendiente,5094.00,Pedido abierto mock - Bebidas del Sur,true,true,3
+P-00157,25007,5493514079279,Dulces Momentos,2026-06-17 11:15:18,abierto,49801.50,Pedido abierto mock - Dulces Momentos,true,true,4
