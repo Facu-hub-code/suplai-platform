@@ -232,6 +232,7 @@ async def main_async(esquema: str) -> None:
 
             incoming = row.get("mensaje_cruzado_incoming", "").strip()
             if incoming:
+                # 1. Mensaje entrante del Humano
                 payload = {
                     "sender_type": "human",
                     "type": "human",
@@ -254,6 +255,40 @@ async def main_async(esquema: str) -> None:
                 }
                 chat_sql, chat_params = build_insert_sql(esquema, "n8n_chat_histories", chat_cols, chat_values)
                 await conn.fetchval(chat_sql, *chat_params)
+                inserted_chats += 1
+
+                # 2. Mensaje saliente de la IA (Respuesta del Agente)
+                categoria = row.get("categoria", "")
+                ticket_ref = row.get("ticket_ref", "")
+                if categoria == "Calidad":
+                    ai_reply = f"Hola, disculpas por el inconveniente. Registré tu reclamo por la calidad del producto con el ticket {ticket_ref}. Un asesor se contactará a la brevedad."
+                elif categoria == "Logistica":
+                    ai_reply = f"Hola, lamento la demora con tu pedido. Ya generé un ticket de reclamo a logística con la referencia {ticket_ref} para agilizar la entrega. Te mantendremos informado."
+                else:
+                    ai_reply = f"Hola, recibí tu mensaje. Generé un ticket de soporte con la referencia {ticket_ref} para dar seguimiento a tu caso. Un asesor se comunicará pronto."
+
+                ai_payload = {
+                    "sender_type": "ai",
+                    "type": "ai",
+                    "message": ai_reply,
+                    "content": ai_reply,
+                    "created_at": format_dt(created_at + timedelta(minutes=16)),
+                    "is_mock": True,
+                    "session_id": client_phone,
+                    "client_phone": client_phone,
+                    "origin": "fase-08-insights",
+                    "ticket_ref": ticket_ref,
+                    "categoria": categoria,
+                    "status": status,
+                }
+                ai_chat_values: dict[str, object] = {
+                    chat_session_col: client_phone,
+                    chat_message_col: json.dumps(ai_payload, ensure_ascii=False),
+                    chat_created_col: created_at + timedelta(minutes=16),
+                    chat_mock_col: True,
+                }
+                ai_chat_sql, ai_chat_params = build_insert_sql(esquema, "n8n_chat_histories", chat_cols, ai_chat_values)
+                await conn.fetchval(ai_chat_sql, *ai_chat_params)
                 inserted_chats += 1
 
         total_tickets = await conn.fetchval(
