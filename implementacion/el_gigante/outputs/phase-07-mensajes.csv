@@ -1,213 +1,213 @@
 client_phone,session_id,sender_type,type,message,content,created_at,is_mock
-5492612780568,5492612780568,ai,ai,"Hola La Tienda de los Dulces, paso a revisar tu pedido P-00099 de DURAZNO 200 CC X18 PINDAPOY.","Hola La Tienda de los Dulces, paso a revisar tu pedido P-00099 de DURAZNO 200 CC X18 PINDAPOY.",2026-06-16 06:46:53,true
-5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 06:48:22,true
-5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 17123.50.,Te confirmo que el pedido P-00099 fue registrado correctamente por 17123.50.,2026-06-16 06:49:18,true
-5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 06:50:27,true
-5492612928724,5492612928724,ai,ai,"Hola La Tienda de la Diversión, paso a revisar tu pedido P-00123 de BIZCOCHO AZUCARADO 1X180GRS GAONA.","Hola La Tienda de la Diversión, paso a revisar tu pedido P-00123 de BIZCOCHO AZUCARADO 1X180GRS GAONA.",2026-06-17 08:46:53,true
-5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 08:47:38,true
-5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 2047.00.,Te confirmo que el pedido P-00123 fue registrado correctamente por 2047.00.,2026-06-17 08:48:11,true
-5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-17 08:49:44,true
-5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 08:50:40,true
-5492614053074,5492614053074,ai,ai,"Hola Sabor a Golosina, vi que tenes un pedido abierto por MANAOS LATA POMELO X6 UNIDADES y queria ayudarte a cerrarlo.","Hola Sabor a Golosina, vi que tenes un pedido abierto por MANAOS LATA POMELO X6 UNIDADES y queria ayudarte a cerrarlo.",2026-06-17 05:46:53,true
-5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-17 05:48:31,true
-5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 5094.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 5094.00. Si queres te lo dejo cerrado hoy.,2026-06-17 05:49:07,true
-5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-17 05:50:25,true
-5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-17 05:51:42,true
-5492615021286,5492615021286,ai,ai,"Hola Dulces y Celebraciones, paso a revisar tu pedido P-00112 de MANAOS LATA NARANJA X6 UNIDADES.","Hola Dulces y Celebraciones, paso a revisar tu pedido P-00112 de MANAOS LATA NARANJA X6 UNIDADES.",2026-06-15 06:46:53,true
-5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 06:48:42,true
-5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 57114.00.,Te confirmo que el pedido P-00112 fue registrado correctamente por 57114.00.,2026-06-15 06:49:30,true
-5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 06:50:13,true
-5492615139305,5492615139305,ai,ai,"Hola Dulces y Momentos, paso a revisar tu pedido P-00076 de SARDINA BAHIA ACEITE Y AGUA 125 GR.","Hola Dulces y Momentos, paso a revisar tu pedido P-00076 de SARDINA BAHIA ACEITE Y AGUA 125 GR.",2026-06-15 08:46:53,true
-5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:48:00,true
-5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 15966.00.,Te confirmo que el pedido P-00076 fue registrado correctamente por 15966.00.,2026-06-15 08:49:17,true
-5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:50:00,true
-5492617175545,5492617175545,ai,ai,"Hola La Casa de las Golosinas, paso a revisar tu pedido P-00027 de GRANADINA 3 LTS X6 MANAOS.","Hola La Casa de las Golosinas, paso a revisar tu pedido P-00027 de GRANADINA 3 LTS X6 MANAOS.",2026-06-16 05:46:53,true
-5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 05:48:22,true
-5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 40928.50.,Te confirmo que el pedido P-00027 fue registrado correctamente por 40928.50.,2026-06-16 05:49:11,true
-5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 05:50:30,true
-5492617236955,5492617236955,ai,ai,"Hola Dulces y Sorpresas, paso a revisar tu pedido P-00126 de POMELO ROSADO 500 ML PLACER.","Hola Dulces y Sorpresas, paso a revisar tu pedido P-00126 de POMELO ROSADO 500 ML PLACER.",2026-06-17 07:46:53,true
-5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 07:47:44,true
-5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 31260.00.,Te confirmo que el pedido P-00126 fue registrado correctamente por 31260.00.,2026-06-17 07:48:31,true
-5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-17 07:49:20,true
-5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 07:50:10,true
-5492617413812,5492617413812,ai,ai,"Hola Bebidas y Momentos, paso a revisar tu pedido P-00129 de NARANJA-DURAZNO S/ AZUCAR 2.25 LTS. X 6 MANAOS.","Hola Bebidas y Momentos, paso a revisar tu pedido P-00129 de NARANJA-DURAZNO S/ AZUCAR 2.25 LTS. X 6 MANAOS.",2026-06-17 06:46:53,true
-5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 06:48:43,true
-5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 19431.00.,Te confirmo que el pedido P-00129 fue registrado correctamente por 19431.00.,2026-06-17 06:50:00,true
-5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-17 06:50:55,true
-5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 06:52:07,true
-5492618861463,5492618861463,ai,ai,"Hola La Casa de los Snacks, paso a revisar tu pedido P-00079 de CRUNCHIPS MINI 1X70GRS GAONA.","Hola La Casa de los Snacks, paso a revisar tu pedido P-00079 de CRUNCHIPS MINI 1X70GRS GAONA.",2026-06-16 07:46:53,true
-5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 07:48:19,true
-5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 32419.00.,Te confirmo que el pedido P-00079 fue registrado correctamente por 32419.00.,2026-06-16 07:48:52,true
-5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 07:50:22,true
-5492618889598,5492618889598,ai,ai,"Hola Bebidas y Amistad, paso a revisar tu pedido P-00110 de GUARANA 3 lts. X 6 MANAOS.","Hola Bebidas y Amistad, paso a revisar tu pedido P-00110 de GUARANA 3 lts. X 6 MANAOS.",2026-06-16 07:46:53,true
-5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 07:48:28,true
-5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 29555.00.,Te confirmo que el pedido P-00110 fue registrado correctamente por 29555.00.,2026-06-16 07:49:25,true
-5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 07:50:27,true
-5492619239862,5492619239862,ai,ai,"Hola El Sabor del Norte, paso a revisar tu pedido P-00066 de BIZCOCHO SALADO 1X180GRS GAONA.","Hola El Sabor del Norte, paso a revisar tu pedido P-00066 de BIZCOCHO SALADO 1X180GRS GAONA.",2026-06-15 07:46:53,true
-5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 07:48:37,true
-5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 7425.00.,Te confirmo que el pedido P-00066 fue registrado correctamente por 7425.00.,2026-06-15 07:50:05,true
-5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 07:50:44,true
-5492991227644,5492991227644,ai,ai,"Hola Bebidas del Norte, vi que tenes un pedido abierto por SINFONIA THINS 1X50GRS GAONA y queria ayudarte a cerrarlo.","Hola Bebidas del Norte, vi que tenes un pedido abierto por SINFONIA THINS 1X50GRS GAONA y queria ayudarte a cerrarlo.",2026-06-17 08:46:53,true
-5492991227644,5492991227644,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-06-17 08:48:33,true
-5492991227644,5492991227644,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-06-17 08:49:52,true
-5492991227644,5492991227644,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-17 08:51:17,true
-5492991227644,5492991227644,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-17 08:52:22,true
-5492992500733,5492992500733,ai,ai,"Hola Bebidas y Alegría, paso a revisar tu pedido P-00073 de TONICA SIN AZÚCAR MANAOS 2.25 LTS..","Hola Bebidas y Alegría, paso a revisar tu pedido P-00073 de TONICA SIN AZÚCAR MANAOS 2.25 LTS..",2026-06-16 04:46:53,true
-5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 04:48:36,true
-5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 33971.00.,Te confirmo que el pedido P-00073 fue registrado correctamente por 33971.00.,2026-06-16 04:49:14,true
-5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 04:50:01,true
-5492994145193,5492994145193,ai,ai,"Hola La Golosina Feliz, paso a revisar tu pedido P-00045 de VALENCIANO CHIPS 1X150 GRS.","Hola La Golosina Feliz, paso a revisar tu pedido P-00045 de VALENCIANO CHIPS 1X150 GRS.",2026-06-16 04:46:53,true
-5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 04:47:54,true
-5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 1989.00.,Te confirmo que el pedido P-00045 fue registrado correctamente por 1989.00.,2026-06-16 04:49:01,true
-5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 04:50:26,true
-5492994228106,5492994228106,ai,ai,"Hola El Mundo de las Golosinas, paso a revisar tu pedido P-00051 de SINFONIA (CLASICA) VAINILLA 1X100GRS GAONA.","Hola El Mundo de las Golosinas, paso a revisar tu pedido P-00051 de SINFONIA (CLASICA) VAINILLA 1X100GRS GAONA.",2026-06-16 07:46:53,true
-5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 07:48:12,true
-5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 6083.50.,Te confirmo que el pedido P-00051 fue registrado correctamente por 6083.50.,2026-06-16 07:48:46,true
-5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 07:49:27,true
-5492995028869,5492995028869,ai,ai,"Hola Dulces y Risas, paso a revisar tu pedido P-00057 de DURAZNO 1 LITRO PINDAPOY.","Hola Dulces y Risas, paso a revisar tu pedido P-00057 de DURAZNO 1 LITRO PINDAPOY.",2026-06-16 05:46:53,true
-5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 05:48:18,true
-5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 13217.50.,Te confirmo que el pedido P-00057 fue registrado correctamente por 13217.50.,2026-06-16 05:48:48,true
-5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 05:50:02,true
-5492997489876,5492997489876,ai,ai,"Hola Bebidas y Risas, paso a revisar tu pedido P-00118 de TE VERDE HURLINGHAM X25 SAQ. S/S.","Hola Bebidas y Risas, paso a revisar tu pedido P-00118 de TE VERDE HURLINGHAM X25 SAQ. S/S.",2026-06-15 04:46:53,true
-5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 04:48:34,true
-5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 120640.00.,Te confirmo que el pedido P-00118 fue registrado correctamente por 120640.00.,2026-06-15 04:49:26,true
-5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 04:50:16,true
-5492997670210,5492997670210,ai,ai,"Hola La Tienda de la Alegría, paso a revisar tu pedido P-00037 de ALAMESA TOSTADA CLASICA 1X200GRS GAONA.","Hola La Tienda de la Alegría, paso a revisar tu pedido P-00037 de ALAMESA TOSTADA CLASICA 1X200GRS GAONA.",2026-06-16 06:46:53,true
-5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 06:48:00,true
-5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 4899.00.,Te confirmo que el pedido P-00037 fue registrado correctamente por 4899.00.,2026-06-16 06:48:47,true
-5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 06:49:48,true
-5492998066543,5492998066543,ai,ai,"Hola Dulces y Amistades, paso a revisar tu pedido P-00132 de MANAOS LATA COLA X6 UNIDADES.","Hola Dulces y Amistades, paso a revisar tu pedido P-00132 de MANAOS LATA COLA X6 UNIDADES.",2026-06-17 05:46:53,true
-5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 05:48:31,true
-5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 28926.00.,Te confirmo que el pedido P-00132 fue registrado correctamente por 28926.00.,2026-06-17 05:49:10,true
-5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-17 05:50:45,true
-5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 05:51:55,true
-5492998718887,5492998718887,ai,ai,"Hola Bebidas Naturales, paso a revisar tu pedido P-00054 de SABORES DE LA VIDA AVENA/MANZANA 1X160GRS GAONA.","Hola Bebidas Naturales, paso a revisar tu pedido P-00054 de SABORES DE LA VIDA AVENA/MANZANA 1X160GRS GAONA.",2026-06-15 06:46:53,true
-5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 06:48:50,true
-5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 59778.00.,Te confirmo que el pedido P-00054 fue registrado correctamente por 59778.00.,2026-06-15 06:49:36,true
-5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 06:50:42,true
-5492999435946,5492999435946,ai,ai,"Hola Bebidas y Recuerdos, paso a revisar tu pedido P-00135 de POMELO ROSADO 500 ML PLACER.","Hola Bebidas y Recuerdos, paso a revisar tu pedido P-00135 de POMELO ROSADO 500 ML PLACER.",2026-06-17 04:46:53,true
-5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 04:48:36,true
-5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 28674.00.,Te confirmo que el pedido P-00135 fue registrado correctamente por 28674.00.,2026-06-17 04:49:24,true
-5492999435946,5492999435946,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-17 04:51:10,true
-5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 04:51:42,true
-5493414799650,5493414799650,ai,ai,"Hola La Golosina Perfecta, paso a revisar tu pedido P-00071 de ATUN BAHIA AL NAT. DESM. 170 GR.","Hola La Golosina Perfecta, paso a revisar tu pedido P-00071 de ATUN BAHIA AL NAT. DESM. 170 GR.",2026-06-15 05:46:53,true
-5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 05:47:51,true
-5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 49800.00.,Te confirmo que el pedido P-00071 fue registrado correctamente por 49800.00.,2026-06-15 05:48:31,true
-5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 05:49:24,true
-5493416524997,5493416524997,ai,ai,"Hola La Golosina de la Semana, paso a revisar tu pedido P-00138 de BIZCOCHO SALADO 1X180GRS GAONA.","Hola La Golosina de la Semana, paso a revisar tu pedido P-00138 de BIZCOCHO SALADO 1X180GRS GAONA.",2026-06-15 08:46:53,true
-5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:47:44,true
-5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 32680.00.,Te confirmo que el pedido P-00138 fue registrado correctamente por 32680.00.,2026-06-15 08:48:43,true
-5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:49:50,true
-5493416986538,5493416986538,ai,ai,"Hola Bebidas y Golosinas, paso a revisar tu pedido P-00063 de F-NANDITO VII SIMPLE 1 LITRO X6.","Hola Bebidas y Golosinas, paso a revisar tu pedido P-00063 de F-NANDITO VII SIMPLE 1 LITRO X6.",2026-06-16 08:46:53,true
-5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 08:48:22,true
-5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 54314.50.,Te confirmo que el pedido P-00063 fue registrado correctamente por 54314.50.,2026-06-16 08:49:24,true
-5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 08:50:27,true
-5493418277249,5493418277249,ai,ai,"Hola Golosinas Formoseñas, vi que tenes un pedido abierto por SURTIDO MANAOS 1.5 LITROS y queria ayudarte a cerrarlo.","Hola Golosinas Formoseñas, vi que tenes un pedido abierto por SURTIDO MANAOS 1.5 LITROS y queria ayudarte a cerrarlo.",2026-06-17 07:46:53,true
-5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-06-17 07:48:50,true
-5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,2026-06-17 07:50:04,true
-5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-17 07:51:45,true
-5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-17 07:52:55,true
-5493419686914,5493419686914,ai,ai,"Hola La Golosina del Barrio, paso a revisar tu pedido P-00090 de ANANA 500ml X12 PLACER.","Hola La Golosina del Barrio, paso a revisar tu pedido P-00090 de ANANA 500ml X12 PLACER.",2026-06-15 04:46:53,true
-5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 04:47:49,true
-5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 24894.00.,Te confirmo que el pedido P-00090 fue registrado correctamente por 24894.00.,2026-06-15 04:49:13,true
-5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 04:50:36,true
-5493513952681,5493513952681,ai,ai,"Hola Dulces y Sonrisas, paso a revisar tu pedido P-00068 de ANILLO LIMON 1X220GRS GAONA.","Hola Dulces y Sonrisas, paso a revisar tu pedido P-00068 de ANILLO LIMON 1X220GRS GAONA.",2026-06-16 06:46:53,true
-5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 06:48:03,true
-5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 6239.00.,Te confirmo que el pedido P-00068 fue registrado correctamente por 6239.00.,2026-06-16 06:49:14,true
-5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 06:50:12,true
-5493514079279,5493514079279,ai,ai,"Hola Bebidas y Más, vi que tenes un pedido abierto por CRUNCHIPS 1X132GRS GAONA y queria ayudarte a cerrarlo.","Hola Bebidas y Más, vi que tenes un pedido abierto por CRUNCHIPS 1X132GRS GAONA y queria ayudarte a cerrarlo.",2026-06-17 04:46:53,true
-5493514079279,5493514079279,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-17 04:48:41,true
-5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 49801.50. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 49801.50. Si queres te lo dejo cerrado hoy.,2026-06-17 04:49:56,true
-5493514079279,5493514079279,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-17 04:50:58,true
-5493514079279,5493514079279,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-17 04:52:02,true
-5493515971311,5493515971311,ai,ai,"Hola Dulce y Salado, paso a revisar tu pedido P-00048 de MASITA COCO 1X220GRS GAONA.","Hola Dulce y Salado, paso a revisar tu pedido P-00048 de MASITA COCO 1X220GRS GAONA.",2026-06-15 08:46:53,true
-5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:48:01,true
-5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 12930.00.,Te confirmo que el pedido P-00048 fue registrado correctamente por 12930.00.,2026-06-15 08:49:19,true
-5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:49:57,true
-5493516216782,5493516216782,ai,ai,"Hola Dulces y Recuerdos, paso a revisar tu pedido P-00096 de PALITOS SALADO 5X150G OVNI.","Hola Dulces y Recuerdos, paso a revisar tu pedido P-00096 de PALITOS SALADO 5X150G OVNI.",2026-06-15 07:46:53,true
-5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 07:47:39,true
-5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 41170.00.,Te confirmo que el pedido P-00096 fue registrado correctamente por 41170.00.,2026-06-15 07:48:58,true
-5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 07:50:06,true
-5493517304254,5493517304254,ai,ai,"Hola La Tienda de los Sabores, paso a revisar tu pedido P-00060 de MULTIFRUTA 1 LITRO X8 PINDAPOY.","Hola La Tienda de los Sabores, paso a revisar tu pedido P-00060 de MULTIFRUTA 1 LITRO X8 PINDAPOY.",2026-06-15 04:46:53,true
-5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 04:48:42,true
-5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 58200.00.,Te confirmo que el pedido P-00060 fue registrado correctamente por 58200.00.,2026-06-15 04:49:34,true
-5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 04:50:48,true
-5493517632424,5493517632424,ai,ai,"Hola Dulces y Sabores, paso a revisar tu pedido P-00141 de RECREO SURTIDO 1X300 GRS GAONA.","Hola Dulces y Sabores, paso a revisar tu pedido P-00141 de RECREO SURTIDO 1X300 GRS GAONA.",2026-06-16 07:46:53,true
-5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 07:48:09,true
-5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 4054.50.,Te confirmo que el pedido P-00141 fue registrado correctamente por 4054.50.,2026-06-16 07:49:16,true
-5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 07:50:43,true
-5493518648263,5493518648263,ai,ai,"Hola Bebidas y Diversión, paso a revisar tu pedido P-00093 de LIMA LIMON 1.5 LTS X 6 MANAOS.","Hola Bebidas y Diversión, paso a revisar tu pedido P-00093 de LIMA LIMON 1.5 LTS X 6 MANAOS.",2026-06-16 08:46:53,true
-5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 08:48:46,true
-5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 45560.00.,Te confirmo que el pedido P-00093 fue registrado correctamente por 45560.00.,2026-06-16 08:49:59,true
-5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 08:51:24,true
-5493519107005,5493519107005,ai,ai,"Hola Dulces y Alegrías, paso a revisar tu pedido P-00144 de CHIPS CHOCOLATE 1X230GRS GAONA.","Hola Dulces y Alegrías, paso a revisar tu pedido P-00144 de CHIPS CHOCOLATE 1X230GRS GAONA.",2026-06-15 06:46:53,true
-5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 06:48:27,true
-5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 52382.50.,Te confirmo que el pedido P-00144 fue registrado correctamente por 52382.50.,2026-06-15 06:49:10,true
-5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 06:50:39,true
-5493582132179,5493582132179,ai,ai,"Hola Golosinas y Refrescos, paso a revisar tu pedido P-00032 de CRUNCHIPS DARK 1X132GRS GAONA.","Hola Golosinas y Refrescos, paso a revisar tu pedido P-00032 de CRUNCHIPS DARK 1X132GRS GAONA.",2026-06-16 08:46:53,true
-5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 08:48:26,true
-5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 8228.00.,Te confirmo que el pedido P-00032 fue registrado correctamente por 8228.00.,2026-06-16 08:49:50,true
-5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 08:50:37,true
-5493582639964,5493582639964,ai,ai,"Hola Bebidas y Sabores, paso a revisar tu pedido P-00102 de GUARANA 3 lts. X 6 MANAOS.","Hola Bebidas y Sabores, paso a revisar tu pedido P-00102 de GUARANA 3 lts. X 6 MANAOS.",2026-06-15 05:46:53,true
-5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 05:47:41,true
-5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 19440.00.,Te confirmo que el pedido P-00102 fue registrado correctamente por 19440.00.,2026-06-15 05:48:32,true
-5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 05:49:12,true
-5493582641213,5493582641213,ai,ai,"Hola La Golosina, vi que tenes un pedido abierto por OREGANO BASILIA 1 X 25 GR y queria ayudarte a cerrarlo.","Hola La Golosina, vi que tenes un pedido abierto por OREGANO BASILIA 1 X 25 GR y queria ayudarte a cerrarlo.",2026-06-16 21:46:53,true
-5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-06-16 21:48:23,true
-5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-06-16 21:49:12,true
-5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-16 21:50:15,true
-5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-16 21:51:15,true
-5493587747641,5493587747641,ai,ai,"Hola El Refugio de Dulces, vi que tenes un pedido abierto por MAYONESA NATURA 20X125GR y queria ayudarte a cerrarlo.","Hola El Refugio de Dulces, vi que tenes un pedido abierto por MAYONESA NATURA 20X125GR y queria ayudarte a cerrarlo.",2026-06-17 06:46:53,true
-5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-17 06:48:37,true
-5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 68195.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 68195.00. Si queres te lo dejo cerrado hoy.,2026-06-17 06:49:39,true
-5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-17 06:51:15,true
-5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-17 06:52:05,true
-5493587905250,5493587905250,ai,ai,"Hola Dulces y Bebidas, vi que tenes un pedido abierto por QUESITOS GALACTICOS 1X65GR y queria ayudarte a cerrarlo.","Hola Dulces y Bebidas, vi que tenes un pedido abierto por QUESITOS GALACTICOS 1X65GR y queria ayudarte a cerrarlo.",2026-06-16 22:46:53,true
-5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-06-16 22:47:55,true
-5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-06-16 22:49:14,true
-5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-16 22:51:10,true
-5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-16 22:52:18,true
-5493811657614,5493811657614,ai,ai,"Hola Bebidas del Sur, paso a revisar tu pedido P-00040 de SABORES DE LA VIDA AVENA/CACAO/MIEL 1X160GRS GAONA.","Hola Bebidas del Sur, paso a revisar tu pedido P-00040 de SABORES DE LA VIDA AVENA/CACAO/MIEL 1X160GRS GAONA.",2026-06-15 05:46:53,true
-5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 05:48:16,true
-5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 1098.00.,Te confirmo que el pedido P-00040 fue registrado correctamente por 1098.00.,2026-06-15 05:49:12,true
-5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 05:50:09,true
-5493812941974,5493812941974,ai,ai,"Hola Bebidas del Pueblo, paso a revisar tu pedido P-00084 de SINFONIA DUO FRUTILLA C/CREMA 1X50GRS GAONA.","Hola Bebidas del Pueblo, paso a revisar tu pedido P-00084 de SINFONIA DUO FRUTILLA C/CREMA 1X50GRS GAONA.",2026-06-15 06:46:53,true
-5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 06:48:48,true
-5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 18620.00.,Te confirmo que el pedido P-00084 fue registrado correctamente por 18620.00.,2026-06-15 06:49:58,true
-5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 06:50:31,true
-5493813520000,5493813520000,ai,ai,"Hola La Casa de la Golosina, paso a revisar tu pedido P-00115 de SURTIDO MANAOS 1.5 LITROS.","Hola La Casa de la Golosina, paso a revisar tu pedido P-00115 de SURTIDO MANAOS 1.5 LITROS.",2026-06-16 05:46:53,true
-5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 05:47:44,true
-5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 17051.00.,Te confirmo que el pedido P-00115 fue registrado correctamente por 17051.00.,2026-06-16 05:48:50,true
-5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 05:50:16,true
-5493814729528,5493814729528,ai,ai,"Hola Dulces y Placeres, paso a revisar tu pedido P-00105 de PIMIENTA NEGRA MOLIDA BASILIA 1 X 25 GR.","Hola Dulces y Placeres, paso a revisar tu pedido P-00105 de PIMIENTA NEGRA MOLIDA BASILIA 1 X 25 GR.",2026-06-16 04:46:53,true
-5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 04:48:27,true
-5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 27769.50.,Te confirmo que el pedido P-00105 fue registrado correctamente por 27769.50.,2026-06-16 04:49:37,true
-5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 04:50:59,true
-5493817404433,5493817404433,ai,ai,"Hola Dulces y Tradiciones, paso a revisar tu pedido P-00087 de SINFONIA (CLASICA) VAINILLA 1X50GRS GAONA.","Hola Dulces y Tradiciones, paso a revisar tu pedido P-00087 de SINFONIA (CLASICA) VAINILLA 1X50GRS GAONA.",2026-06-16 05:46:53,true
-5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 05:48:29,true
-5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 6497.50.,Te confirmo que el pedido P-00087 fue registrado correctamente por 6497.50.,2026-06-16 05:49:55,true
-5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 05:50:58,true
-5493818437953,5493818437953,ai,ai,"Hola Bebidas y Snacks, paso a revisar tu pedido P-00029 de ARITOS GALACTICOS SABOR CEBOLLA X60GR OVNI.","Hola Bebidas y Snacks, paso a revisar tu pedido P-00029 de ARITOS GALACTICOS SABOR CEBOLLA X60GR OVNI.",2026-06-15 04:46:53,true
-5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 04:48:31,true
-5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 10827.00.,Te confirmo que el pedido P-00029 fue registrado correctamente por 10827.00.,2026-06-15 04:49:22,true
-5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 04:50:17,true
-5493872845902,5493872845902,ai,ai,"Hola Dulces del Río, paso a revisar tu pedido P-00034 de MANI SALADO 5X160G OVNI.","Hola Dulces del Río, paso a revisar tu pedido P-00034 de MANI SALADO 5X160G OVNI.",2026-06-15 07:46:53,true
-5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 07:47:55,true
-5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 29450.00.,Te confirmo que el pedido P-00034 fue registrado correctamente por 29450.00.,2026-06-15 07:49:18,true
-5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 07:49:57,true
-5493874104594,5493874104594,ai,ai,"Hola La Golosina del Día, paso a revisar tu pedido P-00146 de SINFONIA LIMON 1X50GRS GAONA.","Hola La Golosina del Día, paso a revisar tu pedido P-00146 de SINFONIA LIMON 1X50GRS GAONA.",2026-06-16 05:46:53,true
-5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 05:48:02,true
-5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 44262.00.,Te confirmo que el pedido P-00146 fue registrado correctamente por 44262.00.,2026-06-16 05:49:20,true
-5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 05:49:51,true
-5493876499570,5493876499570,ai,ai,"Hola Bebidas y Tradiciones, paso a revisar tu pedido P-00149 de F-NANDITO VII SIMPLE 1 LITRO X6.","Hola Bebidas y Tradiciones, paso a revisar tu pedido P-00149 de F-NANDITO VII SIMPLE 1 LITRO X6.",2026-06-15 04:46:53,true
-5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 04:47:41,true
-5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 39065.50.,Te confirmo que el pedido P-00149 fue registrado correctamente por 39065.50.,2026-06-15 04:48:19,true
-5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 04:49:15,true
-5493876914178,5493876914178,ai,ai,"Hola Dulce Encanto, paso a revisar tu pedido P-00024 de COLA S/AZUCAR 2.25 lts. X 6 MANAOS.","Hola Dulce Encanto, paso a revisar tu pedido P-00024 de COLA S/AZUCAR 2.25 lts. X 6 MANAOS.",2026-06-15 06:46:53,true
-5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 06:48:26,true
-5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 45720.00.,Te confirmo que el pedido P-00024 fue registrado correctamente por 45720.00.,2026-06-15 06:49:35,true
-5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 06:50:40,true
-5493876922419,5493876922419,ai,ai,"Hola La Golosina de Todos, paso a revisar tu pedido P-00107 de SINFONIA CHOCOLATE 1X100GRS GAONA.","Hola La Golosina de Todos, paso a revisar tu pedido P-00107 de SINFONIA CHOCOLATE 1X100GRS GAONA.",2026-06-15 08:46:53,true
-5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:47:57,true
-5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 16725.00.,Te confirmo que el pedido P-00107 fue registrado correctamente por 16725.00.,2026-06-15 08:48:35,true
-5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:49:26,true
+5492612780568,5492612780568,ai,ai,"Hola El Rincón del Dulce, paso a revisar tu pedido P-00099 de DURAZNO 200 CC X18 PINDAPOY.","Hola El Rincón del Dulce, paso a revisar tu pedido P-00099 de DURAZNO 200 CC X18 PINDAPOY.",2026-06-16 10:11:55,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 10:13:24,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 17123.50.,Te confirmo que el pedido P-00099 fue registrado correctamente por 17123.50.,2026-06-16 10:14:20,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 10:15:29,true
+5492612928724,5492612928724,ai,ai,"Hola Bebidas de Calidad, paso a revisar tu pedido P-00123 de BIZCOCHO AZUCARADO 1X180GRS GAONA.","Hola Bebidas de Calidad, paso a revisar tu pedido P-00123 de BIZCOCHO AZUCARADO 1X180GRS GAONA.",2026-06-17 12:11:55,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 12:12:40,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 2047.00.,Te confirmo que el pedido P-00123 fue registrado correctamente por 2047.00.,2026-06-17 12:13:13,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-17 12:14:46,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 12:15:42,true
+5492614053074,5492614053074,ai,ai,"Hola Bebidas del Sur, vi que tenes un pedido abierto por MANAOS LATA POMELO X6 UNIDADES y queria ayudarte a cerrarlo.","Hola Bebidas del Sur, vi que tenes un pedido abierto por MANAOS LATA POMELO X6 UNIDADES y queria ayudarte a cerrarlo.",2026-06-17 09:11:55,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-17 09:13:33,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 5094.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 5094.00. Si queres te lo dejo cerrado hoy.,2026-06-17 09:14:09,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-17 09:15:27,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-17 09:16:44,true
+5492615021286,5492615021286,ai,ai,"Hola Bebidas del Mundo, paso a revisar tu pedido P-00112 de MANAOS LATA NARANJA X6 UNIDADES.","Hola Bebidas del Mundo, paso a revisar tu pedido P-00112 de MANAOS LATA NARANJA X6 UNIDADES.",2026-06-15 10:11:55,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 10:13:44,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 57114.00.,Te confirmo que el pedido P-00112 fue registrado correctamente por 57114.00.,2026-06-15 10:14:32,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 10:15:15,true
+5492615139305,5492615139305,ai,ai,"Hola Dulce Encanto, paso a revisar tu pedido P-00076 de SARDINA BAHIA ACEITE Y AGUA 125 GR.","Hola Dulce Encanto, paso a revisar tu pedido P-00076 de SARDINA BAHIA ACEITE Y AGUA 125 GR.",2026-06-15 12:11:55,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 12:13:02,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 15966.00.,Te confirmo que el pedido P-00076 fue registrado correctamente por 15966.00.,2026-06-15 12:14:19,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 12:15:02,true
+5492617175545,5492617175545,ai,ai,"Hola La Casa de las Golosinas, paso a revisar tu pedido P-00027 de GRANADINA 3 LTS X6 MANAOS.","Hola La Casa de las Golosinas, paso a revisar tu pedido P-00027 de GRANADINA 3 LTS X6 MANAOS.",2026-06-16 09:11:55,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 09:13:24,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 40928.50.,Te confirmo que el pedido P-00027 fue registrado correctamente por 40928.50.,2026-06-16 09:14:13,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 09:15:32,true
+5492617236955,5492617236955,ai,ai,"Hola La Golosina Perfecta, paso a revisar tu pedido P-00126 de POMELO ROSADO 500 ML PLACER.","Hola La Golosina Perfecta, paso a revisar tu pedido P-00126 de POMELO ROSADO 500 ML PLACER.",2026-06-17 11:11:55,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 11:12:46,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 31260.00.,Te confirmo que el pedido P-00126 fue registrado correctamente por 31260.00.,2026-06-17 11:13:33,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-17 11:14:22,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 11:15:12,true
+5492617413812,5492617413812,ai,ai,"Hola Dulce y Rico, paso a revisar tu pedido P-00129 de NARANJA-DURAZNO S/ AZUCAR 2.25 LTS. X 6 MANAOS.","Hola Dulce y Rico, paso a revisar tu pedido P-00129 de NARANJA-DURAZNO S/ AZUCAR 2.25 LTS. X 6 MANAOS.",2026-06-17 10:11:55,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 10:13:45,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 19431.00.,Te confirmo que el pedido P-00129 fue registrado correctamente por 19431.00.,2026-06-17 10:15:02,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-17 10:15:57,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 10:17:09,true
+5492618861463,5492618861463,ai,ai,"Hola El Mundo de las Golosinas, paso a revisar tu pedido P-00079 de CRUNCHIPS MINI 1X70GRS GAONA.","Hola El Mundo de las Golosinas, paso a revisar tu pedido P-00079 de CRUNCHIPS MINI 1X70GRS GAONA.",2026-06-16 11:11:55,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 11:13:21,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 32419.00.,Te confirmo que el pedido P-00079 fue registrado correctamente por 32419.00.,2026-06-16 11:13:54,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 11:15:24,true
+5492618889598,5492618889598,ai,ai,"Hola Golosinas y Risas, paso a revisar tu pedido P-00110 de GUARANA 3 lts. X 6 MANAOS.","Hola Golosinas y Risas, paso a revisar tu pedido P-00110 de GUARANA 3 lts. X 6 MANAOS.",2026-06-16 11:11:55,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 11:13:30,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 29555.00.,Te confirmo que el pedido P-00110 fue registrado correctamente por 29555.00.,2026-06-16 11:14:27,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 11:15:29,true
+5492619239862,5492619239862,ai,ai,"Hola Dulce y Salado, paso a revisar tu pedido P-00066 de BIZCOCHO SALADO 1X180GRS GAONA.","Hola Dulce y Salado, paso a revisar tu pedido P-00066 de BIZCOCHO SALADO 1X180GRS GAONA.",2026-06-15 11:11:55,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 11:13:39,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 7425.00.,Te confirmo que el pedido P-00066 fue registrado correctamente por 7425.00.,2026-06-15 11:15:07,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 11:15:46,true
+5492991227644,5492991227644,ai,ai,"Hola La Golosina Feliz, vi que tenes un pedido abierto por SINFONIA THINS 1X50GRS GAONA y queria ayudarte a cerrarlo.","Hola La Golosina Feliz, vi que tenes un pedido abierto por SINFONIA THINS 1X50GRS GAONA y queria ayudarte a cerrarlo.",2026-06-17 12:11:55,true
+5492991227644,5492991227644,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-06-17 12:13:35,true
+5492991227644,5492991227644,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-06-17 12:14:54,true
+5492991227644,5492991227644,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-17 12:16:19,true
+5492991227644,5492991227644,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-17 12:17:24,true
+5492992500733,5492992500733,ai,ai,"Hola Bebidas y Snacks, paso a revisar tu pedido P-00073 de TONICA SIN AZÚCAR MANAOS 2.25 LTS..","Hola Bebidas y Snacks, paso a revisar tu pedido P-00073 de TONICA SIN AZÚCAR MANAOS 2.25 LTS..",2026-06-16 08:11:55,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 08:13:38,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 33971.00.,Te confirmo que el pedido P-00073 fue registrado correctamente por 33971.00.,2026-06-16 08:14:16,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 08:15:03,true
+5492994145193,5492994145193,ai,ai,"Hola Sabor y Color, paso a revisar tu pedido P-00045 de VALENCIANO CHIPS 1X150 GRS.","Hola Sabor y Color, paso a revisar tu pedido P-00045 de VALENCIANO CHIPS 1X150 GRS.",2026-06-16 08:11:55,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 08:12:56,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 1989.00.,Te confirmo que el pedido P-00045 fue registrado correctamente por 1989.00.,2026-06-16 08:14:03,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 08:15:28,true
+5492994228106,5492994228106,ai,ai,"Hola Bebidas Naturales, paso a revisar tu pedido P-00051 de SINFONIA (CLASICA) VAINILLA 1X100GRS GAONA.","Hola Bebidas Naturales, paso a revisar tu pedido P-00051 de SINFONIA (CLASICA) VAINILLA 1X100GRS GAONA.",2026-06-16 11:11:55,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 11:13:14,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 6083.50.,Te confirmo que el pedido P-00051 fue registrado correctamente por 6083.50.,2026-06-16 11:13:48,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 11:14:29,true
+5492995028869,5492995028869,ai,ai,"Hola La Tienda de Sabor, paso a revisar tu pedido P-00057 de DURAZNO 1 LITRO PINDAPOY.","Hola La Tienda de Sabor, paso a revisar tu pedido P-00057 de DURAZNO 1 LITRO PINDAPOY.",2026-06-16 09:11:55,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 09:13:20,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 13217.50.,Te confirmo que el pedido P-00057 fue registrado correctamente por 13217.50.,2026-06-16 09:13:50,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 09:15:04,true
+5492997489876,5492997489876,ai,ai,"Hola El Paraíso de las Bebidas, paso a revisar tu pedido P-00118 de TE VERDE HURLINGHAM X25 SAQ. S/S.","Hola El Paraíso de las Bebidas, paso a revisar tu pedido P-00118 de TE VERDE HURLINGHAM X25 SAQ. S/S.",2026-06-15 08:11:55,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:13:36,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 120640.00.,Te confirmo que el pedido P-00118 fue registrado correctamente por 120640.00.,2026-06-15 08:14:28,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:15:18,true
+5492997670210,5492997670210,ai,ai,"Hola La Dulcería, paso a revisar tu pedido P-00037 de ALAMESA TOSTADA CLASICA 1X200GRS GAONA.","Hola La Dulcería, paso a revisar tu pedido P-00037 de ALAMESA TOSTADA CLASICA 1X200GRS GAONA.",2026-06-16 10:11:55,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 10:13:02,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 4899.00.,Te confirmo que el pedido P-00037 fue registrado correctamente por 4899.00.,2026-06-16 10:13:49,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 10:14:50,true
+5492998066543,5492998066543,ai,ai,"Hola Dulce Alegría, paso a revisar tu pedido P-00132 de MANAOS LATA COLA X6 UNIDADES.","Hola Dulce Alegría, paso a revisar tu pedido P-00132 de MANAOS LATA COLA X6 UNIDADES.",2026-06-17 09:11:55,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 09:13:33,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 28926.00.,Te confirmo que el pedido P-00132 fue registrado correctamente por 28926.00.,2026-06-17 09:14:12,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-17 09:15:47,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 09:16:57,true
+5492998718887,5492998718887,ai,ai,"Hola Dulces y Snacks, paso a revisar tu pedido P-00054 de SABORES DE LA VIDA AVENA/MANZANA 1X160GRS GAONA.","Hola Dulces y Snacks, paso a revisar tu pedido P-00054 de SABORES DE LA VIDA AVENA/MANZANA 1X160GRS GAONA.",2026-06-15 10:11:55,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 10:13:52,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 59778.00.,Te confirmo que el pedido P-00054 fue registrado correctamente por 59778.00.,2026-06-15 10:14:38,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 10:15:44,true
+5492999435946,5492999435946,ai,ai,"Hola Dulce y Natural, paso a revisar tu pedido P-00135 de POMELO ROSADO 500 ML PLACER.","Hola Dulce y Natural, paso a revisar tu pedido P-00135 de POMELO ROSADO 500 ML PLACER.",2026-06-17 08:11:55,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 08:13:38,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 28674.00.,Te confirmo que el pedido P-00135 fue registrado correctamente por 28674.00.,2026-06-17 08:14:26,true
+5492999435946,5492999435946,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-17 08:16:12,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 08:16:44,true
+5493414799650,5493414799650,ai,ai,"Hola La Golosina de Oro, paso a revisar tu pedido P-00071 de ATUN BAHIA AL NAT. DESM. 170 GR.","Hola La Golosina de Oro, paso a revisar tu pedido P-00071 de ATUN BAHIA AL NAT. DESM. 170 GR.",2026-06-15 09:11:55,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 09:12:53,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 49800.00.,Te confirmo que el pedido P-00071 fue registrado correctamente por 49800.00.,2026-06-15 09:13:33,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 09:14:26,true
+5493416524997,5493416524997,ai,ai,"Hola Golosinas para Compartir, paso a revisar tu pedido P-00138 de BIZCOCHO SALADO 1X180GRS GAONA.","Hola Golosinas para Compartir, paso a revisar tu pedido P-00138 de BIZCOCHO SALADO 1X180GRS GAONA.",2026-06-15 12:11:55,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 12:12:46,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 32680.00.,Te confirmo que el pedido P-00138 fue registrado correctamente por 32680.00.,2026-06-15 12:13:45,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 12:14:52,true
+5493416986538,5493416986538,ai,ai,"Hola Bebidas Frías, paso a revisar tu pedido P-00063 de F-NANDITO VII SIMPLE 1 LITRO X6.","Hola Bebidas Frías, paso a revisar tu pedido P-00063 de F-NANDITO VII SIMPLE 1 LITRO X6.",2026-06-16 12:11:55,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 12:13:24,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 54314.50.,Te confirmo que el pedido P-00063 fue registrado correctamente por 54314.50.,2026-06-16 12:14:26,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 12:15:29,true
+5493418277249,5493418277249,ai,ai,"Hola El Refugio de Sabor, vi que tenes un pedido abierto por SURTIDO MANAOS 1.5 LITROS y queria ayudarte a cerrarlo.","Hola El Refugio de Sabor, vi que tenes un pedido abierto por SURTIDO MANAOS 1.5 LITROS y queria ayudarte a cerrarlo.",2026-06-17 11:11:55,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-06-17 11:13:52,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,2026-06-17 11:15:06,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-17 11:16:47,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-17 11:17:57,true
+5493419686914,5493419686914,ai,ai,"Hola Dulce Fiesta, paso a revisar tu pedido P-00090 de ANANA 500ml X12 PLACER.","Hola Dulce Fiesta, paso a revisar tu pedido P-00090 de ANANA 500ml X12 PLACER.",2026-06-15 08:11:55,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:12:51,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 24894.00.,Te confirmo que el pedido P-00090 fue registrado correctamente por 24894.00.,2026-06-15 08:14:15,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:15:38,true
+5493513952681,5493513952681,ai,ai,"Hola El Sabor de Formosa, paso a revisar tu pedido P-00068 de ANILLO LIMON 1X220GRS GAONA.","Hola El Sabor de Formosa, paso a revisar tu pedido P-00068 de ANILLO LIMON 1X220GRS GAONA.",2026-06-16 10:11:55,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 10:13:05,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 6239.00.,Te confirmo que el pedido P-00068 fue registrado correctamente por 6239.00.,2026-06-16 10:14:16,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 10:15:14,true
+5493514079279,5493514079279,ai,ai,"Hola Dulces Momentos, vi que tenes un pedido abierto por CRUNCHIPS 1X132GRS GAONA y queria ayudarte a cerrarlo.","Hola Dulces Momentos, vi que tenes un pedido abierto por CRUNCHIPS 1X132GRS GAONA y queria ayudarte a cerrarlo.",2026-06-17 08:11:55,true
+5493514079279,5493514079279,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-17 08:13:43,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 49801.50. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 49801.50. Si queres te lo dejo cerrado hoy.,2026-06-17 08:14:58,true
+5493514079279,5493514079279,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-17 08:16:00,true
+5493514079279,5493514079279,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-17 08:17:04,true
+5493515971311,5493515971311,ai,ai,"Hola El Rincón de las Golosinas, paso a revisar tu pedido P-00048 de MASITA COCO 1X220GRS GAONA.","Hola El Rincón de las Golosinas, paso a revisar tu pedido P-00048 de MASITA COCO 1X220GRS GAONA.",2026-06-15 12:11:55,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 12:13:03,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 12930.00.,Te confirmo que el pedido P-00048 fue registrado correctamente por 12930.00.,2026-06-15 12:14:21,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 12:14:59,true
+5493516216782,5493516216782,ai,ai,"Hola Sabor y Diversión, paso a revisar tu pedido P-00096 de PALITOS SALADO 5X150G OVNI.","Hola Sabor y Diversión, paso a revisar tu pedido P-00096 de PALITOS SALADO 5X150G OVNI.",2026-06-15 11:11:55,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 11:12:41,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 41170.00.,Te confirmo que el pedido P-00096 fue registrado correctamente por 41170.00.,2026-06-15 11:14:00,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 11:15:08,true
+5493517304254,5493517304254,ai,ai,"Hola Golosinas y Alegría, paso a revisar tu pedido P-00060 de MULTIFRUTA 1 LITRO X8 PINDAPOY.","Hola Golosinas y Alegría, paso a revisar tu pedido P-00060 de MULTIFRUTA 1 LITRO X8 PINDAPOY.",2026-06-15 08:11:55,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:13:44,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 58200.00.,Te confirmo que el pedido P-00060 fue registrado correctamente por 58200.00.,2026-06-15 08:14:36,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:15:50,true
+5493517632424,5493517632424,ai,ai,"Hola El Rincón de Sabor, paso a revisar tu pedido P-00141 de RECREO SURTIDO 1X300 GRS GAONA.","Hola El Rincón de Sabor, paso a revisar tu pedido P-00141 de RECREO SURTIDO 1X300 GRS GAONA.",2026-06-16 11:11:55,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 11:13:11,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 4054.50.,Te confirmo que el pedido P-00141 fue registrado correctamente por 4054.50.,2026-06-16 11:14:18,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 11:15:45,true
+5493518648263,5493518648263,ai,ai,"Hola La Casa de las Bebidas, paso a revisar tu pedido P-00093 de LIMA LIMON 1.5 LTS X 6 MANAOS.","Hola La Casa de las Bebidas, paso a revisar tu pedido P-00093 de LIMA LIMON 1.5 LTS X 6 MANAOS.",2026-06-16 12:11:55,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 12:13:48,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 45560.00.,Te confirmo que el pedido P-00093 fue registrado correctamente por 45560.00.,2026-06-16 12:15:01,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 12:16:26,true
+5493519107005,5493519107005,ai,ai,"Hola Golosinas y Sorpresas, paso a revisar tu pedido P-00144 de CHIPS CHOCOLATE 1X230GRS GAONA.","Hola Golosinas y Sorpresas, paso a revisar tu pedido P-00144 de CHIPS CHOCOLATE 1X230GRS GAONA.",2026-06-15 10:11:55,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 10:13:29,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 52382.50.,Te confirmo que el pedido P-00144 fue registrado correctamente por 52382.50.,2026-06-15 10:14:12,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 10:15:41,true
+5493582132179,5493582132179,ai,ai,"Hola El Paraíso de las Golosinas, paso a revisar tu pedido P-00032 de CRUNCHIPS DARK 1X132GRS GAONA.","Hola El Paraíso de las Golosinas, paso a revisar tu pedido P-00032 de CRUNCHIPS DARK 1X132GRS GAONA.",2026-06-16 12:11:55,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 12:13:28,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 8228.00.,Te confirmo que el pedido P-00032 fue registrado correctamente por 8228.00.,2026-06-16 12:14:52,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 12:15:39,true
+5493582639964,5493582639964,ai,ai,"Hola Bebidas y Alegría, paso a revisar tu pedido P-00102 de GUARANA 3 lts. X 6 MANAOS.","Hola Bebidas y Alegría, paso a revisar tu pedido P-00102 de GUARANA 3 lts. X 6 MANAOS.",2026-06-15 09:11:55,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 09:12:43,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 19440.00.,Te confirmo que el pedido P-00102 fue registrado correctamente por 19440.00.,2026-06-15 09:13:34,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 09:14:14,true
+5493582641213,5493582641213,ai,ai,"Hola Bebidas y Golosinas, vi que tenes un pedido abierto por OREGANO BASILIA 1 X 25 GR y queria ayudarte a cerrarlo.","Hola Bebidas y Golosinas, vi que tenes un pedido abierto por OREGANO BASILIA 1 X 25 GR y queria ayudarte a cerrarlo.",2026-06-17 01:11:55,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-06-17 01:13:25,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-06-17 01:14:14,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-17 01:15:17,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-17 01:16:17,true
+5493587747641,5493587747641,ai,ai,"Hola Golosinas del Norte, vi que tenes un pedido abierto por MAYONESA NATURA 20X125GR y queria ayudarte a cerrarlo.","Hola Golosinas del Norte, vi que tenes un pedido abierto por MAYONESA NATURA 20X125GR y queria ayudarte a cerrarlo.",2026-06-17 10:11:55,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-17 10:13:39,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 68195.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 68195.00. Si queres te lo dejo cerrado hoy.,2026-06-17 10:14:41,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-17 10:16:17,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-17 10:17:07,true
+5493587905250,5493587905250,ai,ai,"Hola Dulce Sorpresa, vi que tenes un pedido abierto por QUESITOS GALACTICOS 1X65GR y queria ayudarte a cerrarlo.","Hola Dulce Sorpresa, vi que tenes un pedido abierto por QUESITOS GALACTICOS 1X65GR y queria ayudarte a cerrarlo.",2026-06-17 02:11:55,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-06-17 02:12:57,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-06-17 02:14:16,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-17 02:16:12,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-17 02:17:20,true
+5493811657614,5493811657614,ai,ai,"Hola Golosinas y Refrescos, paso a revisar tu pedido P-00040 de SABORES DE LA VIDA AVENA/CACAO/MIEL 1X160GRS GAONA.","Hola Golosinas y Refrescos, paso a revisar tu pedido P-00040 de SABORES DE LA VIDA AVENA/CACAO/MIEL 1X160GRS GAONA.",2026-06-15 09:11:55,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 09:13:18,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 1098.00.,Te confirmo que el pedido P-00040 fue registrado correctamente por 1098.00.,2026-06-15 09:14:14,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 09:15:11,true
+5493812941974,5493812941974,ai,ai,"Hola Bebidas para Todos, paso a revisar tu pedido P-00084 de SINFONIA DUO FRUTILLA C/CREMA 1X50GRS GAONA.","Hola Bebidas para Todos, paso a revisar tu pedido P-00084 de SINFONIA DUO FRUTILLA C/CREMA 1X50GRS GAONA.",2026-06-15 10:11:55,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 10:13:50,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 18620.00.,Te confirmo que el pedido P-00084 fue registrado correctamente por 18620.00.,2026-06-15 10:15:00,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 10:15:33,true
+5493813520000,5493813520000,ai,ai,"Hola Dulce Tentación, paso a revisar tu pedido P-00115 de SURTIDO MANAOS 1.5 LITROS.","Hola Dulce Tentación, paso a revisar tu pedido P-00115 de SURTIDO MANAOS 1.5 LITROS.",2026-06-16 09:11:55,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 09:12:46,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 17051.00.,Te confirmo que el pedido P-00115 fue registrado correctamente por 17051.00.,2026-06-16 09:13:52,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 09:15:18,true
+5493814729528,5493814729528,ai,ai,"Hola Dulce y Fresco, paso a revisar tu pedido P-00105 de PIMIENTA NEGRA MOLIDA BASILIA 1 X 25 GR.","Hola Dulce y Fresco, paso a revisar tu pedido P-00105 de PIMIENTA NEGRA MOLIDA BASILIA 1 X 25 GR.",2026-06-16 08:11:55,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 08:13:29,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 27769.50.,Te confirmo que el pedido P-00105 fue registrado correctamente por 27769.50.,2026-06-16 08:14:39,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 08:16:01,true
+5493817404433,5493817404433,ai,ai,"Hola Golosinas y Diversión, paso a revisar tu pedido P-00087 de SINFONIA (CLASICA) VAINILLA 1X50GRS GAONA.","Hola Golosinas y Diversión, paso a revisar tu pedido P-00087 de SINFONIA (CLASICA) VAINILLA 1X50GRS GAONA.",2026-06-16 09:11:55,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 09:13:31,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 6497.50.,Te confirmo que el pedido P-00087 fue registrado correctamente por 6497.50.,2026-06-16 09:14:57,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 09:16:00,true
+5493818437953,5493818437953,ai,ai,"Hola Bebidas y Más, paso a revisar tu pedido P-00029 de ARITOS GALACTICOS SABOR CEBOLLA X60GR OVNI.","Hola Bebidas y Más, paso a revisar tu pedido P-00029 de ARITOS GALACTICOS SABOR CEBOLLA X60GR OVNI.",2026-06-15 08:11:55,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:13:33,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 10827.00.,Te confirmo que el pedido P-00029 fue registrado correctamente por 10827.00.,2026-06-15 08:14:24,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:15:19,true
+5493872845902,5493872845902,ai,ai,"Hola Dulces y Bebidas, paso a revisar tu pedido P-00034 de MANI SALADO 5X160G OVNI.","Hola Dulces y Bebidas, paso a revisar tu pedido P-00034 de MANI SALADO 5X160G OVNI.",2026-06-15 11:11:55,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 11:12:57,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 29450.00.,Te confirmo que el pedido P-00034 fue registrado correctamente por 29450.00.,2026-06-15 11:14:20,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 11:14:59,true
+5493874104594,5493874104594,ai,ai,"Hola Bebidas y Sabores, paso a revisar tu pedido P-00146 de SINFONIA LIMON 1X50GRS GAONA.","Hola Bebidas y Sabores, paso a revisar tu pedido P-00146 de SINFONIA LIMON 1X50GRS GAONA.",2026-06-16 09:11:55,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-16 09:13:04,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 44262.00.,Te confirmo que el pedido P-00146 fue registrado correctamente por 44262.00.,2026-06-16 09:14:22,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-16 09:14:53,true
+5493876499570,5493876499570,ai,ai,"Hola Bebidas y Momentos, paso a revisar tu pedido P-00149 de F-NANDITO VII SIMPLE 1 LITRO X6.","Hola Bebidas y Momentos, paso a revisar tu pedido P-00149 de F-NANDITO VII SIMPLE 1 LITRO X6.",2026-06-15 08:11:55,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 08:12:43,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 39065.50.,Te confirmo que el pedido P-00149 fue registrado correctamente por 39065.50.,2026-06-15 08:13:21,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 08:14:17,true
+5493876914178,5493876914178,ai,ai,"Hola Sabor Argentino, paso a revisar tu pedido P-00024 de COLA S/AZUCAR 2.25 lts. X 6 MANAOS.","Hola Sabor Argentino, paso a revisar tu pedido P-00024 de COLA S/AZUCAR 2.25 lts. X 6 MANAOS.",2026-06-15 10:11:55,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 10:13:28,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 45720.00.,Te confirmo que el pedido P-00024 fue registrado correctamente por 45720.00.,2026-06-15 10:14:37,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 10:15:42,true
+5493876922419,5493876922419,ai,ai,"Hola La Dulce Vida, paso a revisar tu pedido P-00107 de SINFONIA CHOCOLATE 1X100GRS GAONA.","Hola La Dulce Vida, paso a revisar tu pedido P-00107 de SINFONIA CHOCOLATE 1X100GRS GAONA.",2026-06-15 12:11:55,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-15 12:12:59,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 16725.00.,Te confirmo que el pedido P-00107 fue registrado correctamente por 16725.00.,2026-06-15 12:13:37,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-15 12:14:28,true
