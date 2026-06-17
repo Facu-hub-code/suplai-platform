@@ -114,8 +114,8 @@ def dispersar_coordenada(lat_base: float, lon_base: float, zona_idx: int, client
     Determinista por semilla.
     """
     random.seed(zona_idx * 100 + cliente_idx + 999)
-    magnitud_lat = random.uniform(0.01, 0.08)
-    magnitud_lon = random.uniform(0.01, 0.08)
+    magnitud_lat = random.uniform(0.001, 0.004)
+    magnitud_lon = random.uniform(0.001, 0.004)
     signo_lat = random.choice([-1, 1])
     signo_lon = random.choice([-1, 1])
     delta_lat = signo_lat * magnitud_lat
@@ -182,8 +182,8 @@ Devuelve un JSON con EXACTAMENTE esta estructura:
       "zone_type": "sales",
       "description": "Zona comercial barrio X, acceso por Av. Y.",
       "vendedor_idx": 0,
-      "lon_center": {round(lon + 0.05, 4)},
-      "lat_center": {round(lat - 0.02, 4)}
+      "lon_center": {round(lon + 0.015, 4)},
+      "lat_center": {round(lat - 0.015, 4)}
     }}
   ],
   "nombres_comerciales": [
@@ -194,13 +194,14 @@ Devuelve un JSON con EXACTAMENTE esta estructura:
 Requisitos OBLIGATORIOS:
 1. Exactamente 3 vendedores con nombres argentinos reales (no inventados).
    Teléfono: formato 549 + código de área de la provincia (ej. 5493516XXXXXXX para Córdoba).
-2. Exactamente 6 zonas (2 por vendedor, vendedor_idx en 0, 1, 2).
+2. Exactamente 6 zonas en direcciones distintas (Norte, Sur, Este, Oeste, Noreste, Suroeste, etc.).
+   Sus centros (lon_center y lat_center) deben estar separados entre sí por al menos 0.015 grados,
+   y dispersos entre 0.010 y 0.025 grados del centro general {lat}, {lon} para asegurar que no se superpongan.
    - zone_type SOLO puede ser 'sales' o 'route'. NO usar otros valores.
    - dia_visita SOLO puede ser: lunes, martes, miercoles, jueves, viernes, sabado.
    - Los nombres de zonas DEBEN usar barrios o localidades REALES de {ciudad_base}
      (ej. Villa Allende, Mendiolaza, Malagueño, Valle Escondido, Argüello, La Calera).
    - Cada zona en un barrio DISTINTO y pequeño (puntual), NO una zona que cubra toda la ciudad.
-   - lon_center y lat_center dispersos ~0.02-0.10 grados del centro {lat}, {lon}.
 3. Al menos 55 nombres comerciales acordes al rubro '{rubro}'.
    Para carnicería/parrilla: usar Parrilla, Asadería, Carnicería, Restaurante, Almacén + apodo local.
    Para pinturería: usar Pinturería, Ferretería, Corralón + apodo local.
@@ -284,7 +285,7 @@ def fallback_geometrico(lat: float, lon: float, rubro: str) -> dict:
     zonas = []
     for i in range(6):
         angulo = math.radians(i * 60)
-        dist = 0.05  # ~5.5 km de desplazamiento del centro
+        dist = 0.016  # ~1.8 km de desplazamiento del centro
         lon_c = round(lon + dist * math.cos(angulo), 4)
         lat_c = round(lat + dist * math.sin(angulo), 4)
         zonas.append({
@@ -452,7 +453,7 @@ def main():
         writer.writeheader()
         for v in vendedores_data[:3]:
             writer.writerow({
-                "nombre": v["nombre"],
+            "nombre": v["nombre"],
                 "telefono": v["telefono"],
                 "email": v["email"],
                 "zona": v.get("zona", "GENERAL"),
@@ -460,6 +461,58 @@ def main():
                 "is_mock": "true",
             })
     print(f"✅ Vendedores: {len(vendedores_data[:3])} → {vendedores_path}")
+
+    # --- Generación de Clientes en Memoria y Agrupación por Zona ---
+    clientes_por_zona = 50 // min(len(zonas_data), 6)
+    resto = 50 % min(len(zonas_data), 6)
+
+    clientes_rows = []
+    cliente_num = 1
+    nombre_idx = 0
+    coords_por_zona = {i: [] for i in range(6)}
+
+    for zona_idx, zona in enumerate(zonas_data[:6]):
+        count = clientes_por_zona + (1 if zona_idx < resto else 0)
+        vendedor_idx = int(zona.get("vendedor_idx", zona_idx // 2))
+        vendedor = vendedores_data[min(vendedor_idx, len(vendedores_data) - 1)]
+        dia_visita = normalize_dia(zona.get("dia_visita", DIAS_VISITA[zona_idx % len(DIAS_VISITA)]))
+
+        # Usar el centro geográfico del barrio (de OpenAI o Fallback)
+        if "lat_center" in zona and "lon_center" in zona:
+            lat_zona = float(zona["lat_center"])
+            lon_zona = float(zona["lon_center"])
+        else:
+            lat_zona = lat_centro
+            lon_zona = lon_centro
+
+        for c in range(count):
+            lat, lng = dispersar_coordenada(lat_zona, lon_zona, zona_idx, c)
+            coords_por_zona[zona_idx].append((lng, lat)) # (lon, lat)
+
+            razon_social = nombres_comerciales[nombre_idx % len(nombres_comerciales)]
+            nombre_idx += 1
+            lista_precios_id = (cliente_num % 4) + 1
+            dia_entrega_idx = (DIAS_ENTREGA.index(dia_visita) + 1) % len(DIAS_ENTREGA)
+            dia_entrega = DIAS_ENTREGA[dia_entrega_idx]
+
+            clientes_rows.append({
+                "numero": cliente_num,
+                "razon_social": razon_social,
+                "nombre_contacto": razon_social,
+                "phone_number": generar_telefono(cliente_num + 5000),
+                "lista_precios_id": lista_precios_id,
+                "codigo": cliente_num,
+                "dia_de_visita": dia_visita,
+                "dia_de_entrega": dia_entrega,
+                "direccion": f"Zona {zona['nombre']} - {ciudad_base}",
+                "vendedor_nombre": vendedor["nombre"],
+                "vendedor_idx": vendedor_idx,
+                "zona_idx": zona_idx,
+                "lat": lat,
+                "lng": lng,
+                "is_mock": "true",
+            })
+            cliente_num += 1
 
     # --- Zonas ---
     # SKILL.md: zone_type solo 'sales' o 'route'; polígonos CHICOS (barrios puntuales)
@@ -471,16 +524,30 @@ def main():
             "dia_visita", "codigo_ruta", "vendedor_idx", "geometry_wkt", "is_mock",
         ])
         writer.writeheader()
-        for z in zonas_data[:6]:
-            # Construir geometría: prioridad coords explícitas > lon_center/lat_center > fallback
-            if "coords" in z:
-                # Asegurar que el polígono esté cerrado (primer == último vértice)
+        for zona_idx, z in enumerate(zonas_data[:6]):
+            # Construir geometría a partir del bounding box de sus clientes si hay coordenadas disponibles
+            if coords_por_zona[zona_idx]:
+                lons = [pt[0] for pt in coords_por_zona[zona_idx]]
+                lats = [pt[1] for pt in coords_por_zona[zona_idx]]
+                min_lon, max_lon = min(lons), max(lons)
+                min_lat, max_lat = min(lats), max(lats)
+                
+                # Agregar margen (padding) de 0.0008 (~90 metros) para contener a los clientes
+                padding = 0.0008
+                poly = [
+                    (min_lon - padding, min_lat - padding),
+                    (max_lon + padding, min_lat - padding),
+                    (max_lon + padding, max_lat + padding),
+                    (min_lon - padding, max_lat + padding),
+                    (min_lon - padding, min_lat - padding),
+                ]
+                geom = build_multipolygon_wkt(poly)
+            elif "coords" in z:
                 coords = z["coords"]
                 if coords[0] != coords[-1]:
                     coords = coords + [coords[0]]
                 geom = build_multipolygon_wkt(coords)
             elif "lon_center" in z and "lat_center" in z:
-                # delta=0.004 ≈ 450m de lado → zona "chica" según SKILL.md
                 poly = cuadrado_polygon(float(z["lon_center"]), float(z["lat_center"]), delta=0.004)
                 geom = build_multipolygon_wkt(poly)
             else:
@@ -506,10 +573,7 @@ def main():
             })
     print(f"✅ Zonas: {len(zonas_data[:6])} → {zonas_path}")
 
-    # --- Clientes ---
-    clientes_por_zona = 50 // min(len(zonas_data), 6)
-    resto = 50 % min(len(zonas_data), 6)
-
+    # --- Escribir Clientes ---
     clientes_path = f"{output_dir}/phase-04-clientes.csv"
     with open(clientes_path, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=[
@@ -518,51 +582,8 @@ def main():
             "direccion", "vendedor_nombre", "vendedor_idx", "zona_idx", "lat", "lng", "is_mock",
         ])
         writer.writeheader()
-
-        cliente_num = 1
-        nombre_idx = 0
-
-        for zona_idx, zona in enumerate(zonas_data[:6]):
-            count = clientes_por_zona + (1 if zona_idx < resto else 0)
-            vendedor_idx = int(zona.get("vendedor_idx", zona_idx // 2))
-            vendedor = vendedores_data[min(vendedor_idx, len(vendedores_data) - 1)]
-            dia_visita = normalize_dia(zona.get("dia_visita", DIAS_VISITA[zona_idx % len(DIAS_VISITA)]))
-
-            # Centro de dispersión: usar lat_center/lon_center de la zona si disponibles
-            if "lat_center" in zona and "lon_center" in zona:
-                lat_zona = float(zona["lat_center"])
-                lon_zona = float(zona["lon_center"])
-            else:
-                lat_zona = lat_centro
-                lon_zona = lon_centro
-
-            for c in range(count):
-                lat, lng = dispersar_coordenada(lat_zona, lon_zona, zona_idx, c)
-                razon_social = nombres_comerciales[nombre_idx % len(nombres_comerciales)]
-                nombre_idx += 1
-                lista_precios_id = (cliente_num % 4) + 1
-                dia_entrega_idx = (DIAS_ENTREGA.index(dia_visita) + 1) % len(DIAS_ENTREGA)
-                dia_entrega = DIAS_ENTREGA[dia_entrega_idx]
-
-                writer.writerow({
-                    "numero": cliente_num,
-                    "razon_social": razon_social,
-                    "nombre_contacto": razon_social,
-                    "phone_number": generar_telefono(cliente_num + 5000),
-                    "lista_precios_id": lista_precios_id,
-                    "codigo": cliente_num,
-                    "dia_de_visita": dia_visita,
-                    "dia_de_entrega": dia_entrega,
-                    "direccion": f"Zona {zona['nombre']} - {ciudad_base}",
-                    "vendedor_nombre": vendedor["nombre"],
-                    "vendedor_idx": vendedor_idx,
-                    "zona_idx": zona_idx,
-                    "lat": lat,
-                    "lng": lng,
-                    "is_mock": "true",
-                })
-                cliente_num += 1
-
+        for crow in clientes_rows:
+            writer.writerow(crow)
     print(f"✅ Clientes: {cliente_num - 1} → {clientes_path}")
 
     # Preview
