@@ -1,0 +1,6 @@
+{
+  "dominios": "mercadolibre.com.ar,carrefour.com.ar,andinacocacolaar.vtexassets.com",
+  "sufijo_fallback": "gaseosa bebida coca cola argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA BEBIDAS COCA-COLA:\n1. Sustantivo de categoría al inicio: Empezar siempre con 'Gaseosa...', 'Agua saborizada...', 'Agua mineral...', 'Bebida isotónica...', 'Energizante...'.\n2. Mención de la marca y sabor de forma directa (ej. 'marca Coca-Cola sabor Original', 'marca Fanta sabor Naranja', 'marca Aquarius sabor Manzana').\n3. Envase y volumen: Especificar volumen exacto y tipo de envase (ej. 'en botella descartable de 1.5L', 'en lata de 354ml')."
+}

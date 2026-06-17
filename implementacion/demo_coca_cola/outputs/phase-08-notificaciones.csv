@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,is_mock
+TKT-00001,Logística,Abierto,"PED-H-00138 demorado por tránsito, cliente reclama entrega urgente",549351500147,"Hola, mi pedido PED-H-00138 todavía no llegó. Iba a entregarse hoy a la mañana.",true
+TKT-00002,Calidad,Abierto,PED-H-00141: 2 botellas de Fanta 2.25L rotas al entregar,549351500148,"Hola, me llegó el pedido pero hay dos botellas de Fanta que vinieron rotas y perdieron todo el líquido.",true
+TKT-00003,Comercial,Abierto,Discrepancia de precio en boleta: Coca-Cola Zero cobrado a $27063 en vez de $25000,549351500149,"Hola, el vendedor me había dicho que el pack de Coca-Cola Zero estaba en promo a $25000 pero en la boleta me lo cobraron a $27063. Quiero que me solucionen esto.",true
+TKT-00004,Administración,Abierto,Verificar comprobante de pago de $45000 por saldo pendiente de cliente,549351500150,"Hola, me llegó una notificación de que tengo saldo pendiente de pago pero yo ya pagué esa factura la semana pasada.",true
+TKT-00005,Calidad,Abierto,Caja incompleta de Coca-Cola Original 500ml (falta 1 botella),549351500145,"Hola, acabo de abrir la caja de Coca-Cola de 500ml y faltaba una botella. Vinieron 11 en vez de 12.",true
+TKT-00006,Calidad,Abierto,Lata de Sprite golpeada/sin gas,549351500146,"Hola, dos latas de Sprite vinieron súper abolladas y perdieron el gas. No las puedo vender así.",true
+TKT-00007,Logística,Abierto,Entrega programada para zona Centro no realizada,549351500101,"Hola, hoy tocaba reparto de Coca-Cola pero no pasó el camión. Quería saber si vienen más tarde.",true
+TKT-00008,Comercial,Abierto,Cliente solicita cambio de lista de precios a Mayorista Especial,549351500102,,true
+TKT-00009,Administración,Abierto,Cliente solicita actualizar número de CUIT por cambio de firma,549351500103,,true
+TKT-00010,Logística,Abierto,Reclamo de mercadería enviada a dirección anterior,549351500104,"Hola, el pedido lo mandaron al local viejo. Por favor avisen al fletero de la nueva dirección.",true
+TKT-00011,Comercial,Abierto,Consulta por recargo financiero en cuenta corriente,549351500105,,true
+TKT-00012,Logística,Cerrado,No recibió mercadería el viernes anterior,549351500106,,true
+TKT-00013,Calidad,Cerrado,Pack Coca-Cola sin precinto de seguridad,549351500107,,true
+TKT-00014,Comercial,Cerrado,Solicitud de visita del preventista,549351500108,,true
+TKT-00015,Administración,Cerrado,Actualización de correo electrónico,549351500109,,true
+TKT-00016,Calidad,Cerrado,Etiqueta dañada en botellas Retornables,549351500110,,true
+TKT-00017,Logística,Cerrado,Error en horario de entrega de la tarde,549351500111,,true
+TKT-00018,Comercial,Cerrado,Consulta de saldo de cuenta corriente,549351500112,,true

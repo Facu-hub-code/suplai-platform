@@ -1,0 +1,4 @@
+vendedor_codigo,nombre,telefono,email,activo,is_mock
+V1,Martín Gómez,+5493512345601,martin.gomez@suplaisales.mock,True,True
+V2,Valeria Díaz,+5493512345602,valeria.diaz@suplaisales.mock,True,True
+V3,Santiago López,+5493512345603,santiago.lopez@suplaisales.mock,True,True

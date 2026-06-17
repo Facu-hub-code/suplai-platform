@@ -1,0 +1,7 @@
+zona_codigo,nombre,dia_visita,color_hex,vendedor_codigo,geometry_geojson,is_mock
+Z1,Zona Centro,lunes,#FF5733,V1,"{""type"": ""MultiPolygon"", ""coordinates"": [[[[-64.2, -31.43], [-64.17, -31.43], [-64.17, -31.4], [-64.2, -31.4], [-64.2, -31.43]]]]}",True
+Z2,Zona Sur,martes,#33FF57,V1,"{""type"": ""MultiPolygon"", ""coordinates"": [[[[-64.2, -31.46], [-64.17, -31.46], [-64.17, -31.43], [-64.2, -31.43], [-64.2, -31.46]]]]}",True
+Z3,Zona Norte,miercoles,#3357FF,V2,"{""type"": ""MultiPolygon"", ""coordinates"": [[[[-64.2, -31.4], [-64.17, -31.4], [-64.17, -31.37], [-64.2, -31.37], [-64.2, -31.4]]]]}",True
+Z4,Zona Este,jueves,#F3FF33,V2,"{""type"": ""MultiPolygon"", ""coordinates"": [[[[-64.17, -31.43], [-64.14, -31.43], [-64.14, -31.4], [-64.17, -31.4], [-64.17, -31.43]]]]}",True
+Z5,Zona Oeste,viernes,#FF33F3,V3,"{""type"": ""MultiPolygon"", ""coordinates"": [[[[-64.23, -31.43], [-64.2, -31.43], [-64.2, -31.4], [-64.23, -31.4], [-64.23, -31.43]]]]}",True
+Z6,Zona Noreste,sabado,#33FFF3,V3,"{""type"": ""MultiPolygon"", ""coordinates"": [[[[-64.17, -31.4], [-64.14, -31.4], [-64.14, -31.37], [-64.17, -31.37], [-64.17, -31.4]]]]}",True
