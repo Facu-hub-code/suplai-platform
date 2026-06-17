@@ -1,0 +1,6 @@
+{
+  "dominios": "mercadolibre.com.ar,carrefour.com.ar,diaonline.com.ar",
+  "sufijo_fallback": "golosina alimento bebida argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA ALIMENTOS, GOLOSINAS Y BEBIDAS:\n1. Evitar frases de marketing o relleno como 'ideal para tu negocio', 'no te pierdas', 'disfruta de'.\n2. La descripción debe ser corta, directa y objetiva, indicando sabor, presentación (gramos, litros, pack) y marca.\n3. Los alias deben incluir nombres alternativos comunes, marcas acortadas y términos de búsqueda comunes (ej. 'manaos tónica', 'agua tónica manaos')."
+}

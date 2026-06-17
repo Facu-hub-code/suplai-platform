@@ -1,0 +1,5 @@
+promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+1,10161,¡Oferta Semanal! Surtido Manaos 1.5L,Disfrutá de un 15% de descuento en la mejor variedad de bebidas. ¡No te lo pierdas!,percent_off,15,1,1,2026-06-09,2026-07-16,true,true
+2,10128,Imperdible: Alamesa Tostada Clásica 200g,Llevate por solo $420. Ideal para acompañar tus comidas. ¡Aprovechá el descuento!,total_off,1000,2,1,2026-06-09,2026-07-16,true,true
+3,10117,¡Promo Especial! Anillo Vainilla 220g,Lleva 3 unidades a solo $1170.4 cada una. ¡Endulzá tus momentos con esta oferta!,fixed_price,1170.4,1,3,2026-06-09,2026-07-16,true,true
+4,10104,¡Descuento del 20%! Magdalena Vainilla c/ Chips,Llevá nuestros deliciosos muffins a un precio increíble. ¡Dale un gusto a tu día!,percent_off,20,3,1,2026-06-09,2026-07-16,true,true

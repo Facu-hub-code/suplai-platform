@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2555,Calidad,open,Reclamo por QUESITOS GALACTICOS 1X65GR con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego QUESITOS GALACTICOS 1X65GR en mal estado y quiero hacer el reclamo.",2026-06-17 11:15:00,,true
+TKT-2556,Calidad,open,Reclamo por OREGANO BASILIA 1 X 25 GR con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego OREGANO BASILIA 1 X 25 GR en mal estado y quiero hacer el reclamo.",2026-06-16 08:15:00,,true
+TKT-2557,Calidad,open,Reclamo por SINFONIA THINS 1X50GRS GAONA con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego SINFONIA THINS 1X50GRS GAONA en mal estado y quiero hacer el reclamo.",2026-06-15 05:15:00,,true
+TKT-2558,Logistica,open,Demora en la entrega del pedido P-00151 de SURTIDO MANAOS 1.5 LITROS.,5493418277249,"Buen dia, sigo esperando el pedido P-00151 de SURTIDO MANAOS 1.5 LITROS y no llego.",2026-06-17 02:15:00,,true
+TKT-2559,Logistica,open,Demora en la entrega del pedido P-00123 de BIZCOCHO AZUCARADO 1X180GRS GAONA.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de BIZCOCHO AZUCARADO 1X180GRS GAONA y no llego.",2026-06-16 11:15:00,,true
+TKT-2560,Logistica,open,Demora en la entrega del pedido P-00126 de POMELO ROSADO 500 ML PLACER.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de POMELO ROSADO 500 ML PLACER y no llego.",2026-06-15 08:15:00,,true
+TKT-2561,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Dulces y Bebidas.,5493587905250,,2026-06-17 05:15:00,,true
+TKT-2562,Administracion,open,Solicita corregir datos administrativos de La Golosina en el sistema.,5493582641213,,2026-06-16 02:15:00,,true
+TKT-2563,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Bebidas del Norte.,5492991227644,,2026-06-15 11:15:00,,true
+TKT-2564,Administracion,open,Solicita corregir datos administrativos de Golosinas Formoseñas en el sistema.,5493418277249,,2026-06-17 08:15:00,,true
+TKT-2565,Comercial,open,Pide hablar con el encargado comercial por la cuenta de La Tienda de la Diversión.,5492612928724,,2026-06-16 05:15:00,,true
+TKT-2566,Administracion,closed,Solicita corregir datos administrativos de Dulces y Sorpresas en el sistema.,5492617236955,,2026-06-01 05:15:00,2026-06-01 20:15:00,true
+TKT-2567,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Bebidas y Momentos.,5492617413812,,2026-05-31 11:15:00,2026-06-01 03:15:00,true
+TKT-2568,Logistica,closed,Demora en la entrega del pedido P-00132 de MANAOS LATA COLA X6 UNIDADES.,5492998066543,,2026-05-30 09:15:00,2026-05-31 02:15:00,true
+TKT-2569,Calidad,closed,Reclamo por POMELO ROSADO 500 ML PLACER con entrega en mal estado o faltante parcial.,5492999435946,,2026-05-29 07:15:00,2026-05-30 01:15:00,true
+TKT-2570,Administracion,closed,Solicita corregir datos administrativos de El Refugio de Dulces en el sistema.,5493587747641,,2026-05-28 05:15:00,2026-05-29 00:15:00,true
+TKT-2571,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Sabor a Golosina.,5492614053074,,2026-06-12 11:15:00,2026-06-13 07:15:00,true
+TKT-2572,Logistica,closed,Demora en la entrega del pedido P-00157 de CRUNCHIPS 1X132GRS GAONA.,5493514079279,,2026-06-11 09:15:00,2026-06-12 06:15:00,true

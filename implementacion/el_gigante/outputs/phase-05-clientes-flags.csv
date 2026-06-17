@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Dulces y Bebidas,25001,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493582641213,La Golosina,25002,validado,2026-06-17T02:58:50.221252+00:00,,false
+5492991227644,Bebidas del Norte,25003,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493418277249,Golosinas Formoseñas,25004,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493587747641,El Refugio de Dulces,25005,validado,2026-06-17T02:58:50.221252+00:00,,false
+5492614053074,Sabor a Golosina,25006,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493514079279,Bebidas y Más,25007,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493876914178,Dulce Encanto,25008,validado,2026-06-17T02:58:50.221252+00:00,,false
+5492617175545,La Casa de las Golosinas,25009,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493818437953,Bebidas y Snacks,25010,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493582132179,Golosinas y Refrescos,25011,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493872845902,Dulces del Río,25012,validado,2026-06-17T02:58:50.221252+00:00,,false
+5492997670210,La Tienda de la Alegría,25013,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493811657614,Bebidas del Sur,25014,validado,2026-06-17T02:58:50.221252+00:00,,false
+5492994145193,La Golosina Feliz,25015,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493515971311,Dulce y Salado,25016,validado,2026-06-17T02:58:50.221252+00:00,,false
+5492994228106,El Mundo de las Golosinas,25017,validado,2026-06-17T02:58:50.221252+00:00,,false
+5492998718887,Bebidas Naturales,25018,validado,2026-06-17T02:58:50.221252+00:00,,false
+5492995028869,Dulces y Risas,25019,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493517304254,La Tienda de los Sabores,25020,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493416986538,Bebidas y Golosinas,25021,validado,2026-06-17T02:58:50.221252+00:00,,false
+5492619239862,El Sabor del Norte,25022,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493513952681,Dulces y Sonrisas,25023,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493414799650,La Golosina Perfecta,25024,validado,2026-06-17T02:58:50.221252+00:00,,false
+5492992500733,Bebidas y Alegría,25025,validado,2026-06-17T02:58:50.221252+00:00,,false
+5492615139305,Dulces y Momentos,25026,validado,2026-06-17T02:58:50.221252+00:00,,false
+5492618861463,La Casa de los Snacks,25027,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493812941974,Bebidas del Pueblo,25028,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493817404433,Dulces y Tradiciones,25029,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493419686914,La Golosina del Barrio,25030,validado,2026-06-17T02:58:50.221252+00:00,,false
+5493518648263,Bebidas y Diversión,25031,existente,,,false
+5493516216782,Dulces y Recuerdos,25032,existente,,,false
+5492612780568,La Tienda de los Dulces,25033,existente,,,false
+5493582639964,Bebidas y Sabores,25034,existente,,,false
+5493814729528,Dulces y Placeres,25035,existente,,,false
+5493876922419,La Golosina de Todos,25036,existente,,,false
+5492618889598,Bebidas y Amistad,25037,existente,,,false
+5492615021286,Dulces y Celebraciones,25038,existente,,,false
+5493813520000,La Casa de la Golosina,25039,existente,,,false
+5492997489876,Bebidas y Risas,25040,existente,,,false
+5493519107005,Dulces y Alegrías,0,no_validado,,PROSPECTO,true
+5493874104594,La Golosina del Día,0,existente,,PROSPECTO,true
+5492617413812,Bebidas y Momentos,0,no_validado,,PROSPECTO,true
+5492617236955,Dulces y Sorpresas,0,existente,,PROSPECTO,true
+5492612928724,La Tienda de la Diversión,0,no_validado,,PROSPECTO,true
+5492999435946,Bebidas y Recuerdos,0,validado,2026-06-17T02:58:50.221252+00:00,PROSPECTO,true
+5493517632424,Dulces y Sabores,0,no_existente,,PROSPECTO,true
+5493416524997,La Golosina de la Semana,0,no_validado,,PROSPECTO,true
+5493876499570,Bebidas y Tradiciones,0,existente,,PROSPECTO,true
+5492998066543,Dulces y Amistades,0,no_validado,,PROSPECTO,true

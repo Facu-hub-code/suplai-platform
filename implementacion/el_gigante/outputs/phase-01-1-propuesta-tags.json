@@ -1,0 +1,2065 @@
+{
+  "schema": "el_gigante",
+  "products": [
+    {
+      "product_code": "1",
+      "nombre": "VINO LOS DURMIENTES MALBEC 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Malbec"
+      }
+    },
+    {
+      "product_code": "10",
+      "nombre": "BARRAS DE CEREAL CHOCOLATE 15X23GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Barras de Cereal",
+        "4": "Barra de Cereal con Chocolate"
+      }
+    },
+    {
+      "product_code": "10009",
+      "nombre": "MAYONESA NATURA 20X125GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas Frías",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "10014",
+      "nombre": "ARITOS GALACTICOS SABOR CEBOLLA X60GR OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Aritos Salados"
+      }
+    },
+    {
+      "product_code": "10021",
+      "nombre": "YERBA MATE NATURA SUAVE 1KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Suave"
+      }
+    },
+    {
+      "product_code": "10022",
+      "nombre": "YERBA MATE NATURA SUAVE 500 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Suave"
+      }
+    },
+    {
+      "product_code": "10023",
+      "nombre": "YERBA MATE NATURA SELEC. ESPECIAL 500 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Seleccionada"
+      }
+    },
+    {
+      "product_code": "10024",
+      "nombre": "YERBA MATE NATURA ORGANICA 500 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Orgánica"
+      }
+    },
+    {
+      "product_code": "10026",
+      "nombre": "YERBA MATE NATURA SAB. NARANJA 500 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Saborizada"
+      }
+    },
+    {
+      "product_code": "10029",
+      "nombre": "TE VERDE HURLINGHAM X25 SAQ. S/S",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Tés",
+        "4": "Té Verde"
+      }
+    },
+    {
+      "product_code": "10030",
+      "nombre": "BOLDO HURLINGHAM X25 SAQ. S/S",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Tés",
+        "4": "Té de Boldo"
+      }
+    },
+    {
+      "product_code": "10031",
+      "nombre": "MANZANILLA HURLINGHAM X25 SAQ. S/S",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Tés",
+        "4": "Té de Manzanilla"
+      }
+    },
+    {
+      "product_code": "10032",
+      "nombre": "MEZC. HIERBAS HURLINGHAM X25 SAQ. S/S",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Tés",
+        "4": "Té de Hierbas"
+      }
+    },
+    {
+      "product_code": "10034",
+      "nombre": "VAGONETA GATOS X10KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Alimentos para Mascotas",
+        "3": "Alimentos para Gatos",
+        "4": "Alimento Seco para Gatos"
+      }
+    },
+    {
+      "product_code": "10040",
+      "nombre": "MANAOS LATA COLA X6 UNIDADES",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Gaseosa de Cola"
+      }
+    },
+    {
+      "product_code": "10041",
+      "nombre": "MANAOS LATA LIMA X6 UNIDADES",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Gaseosa de Lima"
+      }
+    },
+    {
+      "product_code": "10042",
+      "nombre": "MANAOS LATA NARANJA X6 UNIDADES",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Gaseosa de Naranja"
+      }
+    },
+    {
+      "product_code": "10043",
+      "nombre": "MANAOS LATA POMELO X6 UNIDADES",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Gaseosa de Pomelo"
+      }
+    },
+    {
+      "product_code": "10044",
+      "nombre": "MANAOS LATA TÓNICA X6 UNIDADES",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Gaseosa Tónica"
+      }
+    },
+    {
+      "product_code": "10045",
+      "nombre": "SURTIDO MANAOS LATA X6 UNIDADES",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Surtido de Gaseosas"
+      }
+    },
+    {
+      "product_code": "10047",
+      "nombre": "POMELO ROSADO 1.5 LTS X6 PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Gaseosas",
+        "3": "Gaseosas",
+        "4": "Gaseosa de Pomelo Rosado"
+      }
+    },
+    {
+      "product_code": "10048",
+      "nombre": "CRUNCHIPS MINI 1X70GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Chips"
+      }
+    },
+    {
+      "product_code": "10049",
+      "nombre": "CRUNCHIPS DDL 1X132GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Chips"
+      }
+    },
+    {
+      "product_code": "10051",
+      "nombre": "CRUNCHIPS COLORES 1X132GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Chips"
+      }
+    },
+    {
+      "product_code": "10052",
+      "nombre": "CRUNCHIPS MANI 1X132GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Chips"
+      }
+    },
+    {
+      "product_code": "10053",
+      "nombre": "CRUNCHIPS 1X132GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Chips"
+      }
+    },
+    {
+      "product_code": "10054",
+      "nombre": "CRUNCHIPS DARK 1X132GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Chips"
+      }
+    },
+    {
+      "product_code": "10055",
+      "nombre": "CRUNCHIPS POCKET 1X72GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Chips"
+      }
+    },
+    {
+      "product_code": "10056",
+      "nombre": "CRUNCHIPS COLORES POCKET 1X72GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Chips"
+      }
+    },
+    {
+      "product_code": "10057",
+      "nombre": "SABORES DE LA VIDA AVENA/PASAS 1X160GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10058",
+      "nombre": "SABORES DE LA VIDA AVENA/CHIPS 1X160GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10059",
+      "nombre": "SABORES DE LA VIDA AVENA/MANZANA 1X160GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10060",
+      "nombre": "SABORES DE LA VIDA AVENA/COCO/CHIPS DDL 1X160GRS G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10061",
+      "nombre": "SABORES DE LA VIDA AVENA/MIEL 1X160GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10062",
+      "nombre": "SABORES DE LA VIDA AVENA/CACAO/MIEL 1X160GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10069",
+      "nombre": "CUBICUB DUO FRUTILLA C/CREMA 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10070",
+      "nombre": "CUBICUB FRUTILLA 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10071",
+      "nombre": "CUBICUB LEMON PIE 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10072",
+      "nombre": "CUBICUB ORIGINAL (AVELLANA) 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10073",
+      "nombre": "CUBICUB VAINILLA 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10074",
+      "nombre": "CUBICUB VOLCAN DE CHOCOLATE 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10075",
+      "nombre": "CUBICUB BON 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10076",
+      "nombre": "SINFONIA (CLASICA) AGRUPADA 4X50GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10077",
+      "nombre": "SINFONIA DUO FRUTILLA C/CREMA 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10078",
+      "nombre": "SINFONIA LIMON 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10079",
+      "nombre": "SINFONIA CHOCOLATE 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10080",
+      "nombre": "SINFONIA (CLASICA) VAINILLA 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10081",
+      "nombre": "SINFONIA FRUTILLA 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10082",
+      "nombre": "SINFONIA DUO DOS CHOCOLATES 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10083",
+      "nombre": "SINFONIA NARANJA/CHOCOLATE 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10084",
+      "nombre": "SINFONIA COCO Y DDL 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10085",
+      "nombre": "SINFONIA CHOCOLATE 1X50GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10086",
+      "nombre": "SINFONIA (CLASICA) VAINILLA 1X50GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10087",
+      "nombre": "SINFONIA DUO FRUTILLA C/CREMA 1X50GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10088",
+      "nombre": "SINFONIA DUO DOS CHOCOLATES 1X50GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10089",
+      "nombre": "SINFONIA FRUTILLA 1X50GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10090",
+      "nombre": "SINFONIA LIMON 1X50GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10091",
+      "nombre": "SINFONIA THINS 1X95GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10092",
+      "nombre": "SINFONIA THINS 1X50GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10093",
+      "nombre": "SINFONIA BLACK 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10094",
+      "nombre": "SINFONIA DDL 1X100GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10095",
+      "nombre": "MAGDALENA BICOLOR 1X200GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10096",
+      "nombre": "MAGDALENA CHOCO RELL. DDL 1X215GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10097",
+      "nombre": "MAGDALENA (CLASICA) VAINILLA 1X200GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10098",
+      "nombre": "MAGDALENA COCO RELL. DDL 1X215GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10099",
+      "nombre": "MAGDALENA FIESTA CHOCO 1X200GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10100",
+      "nombre": "MAGDALENA FIESTA VAINILLA 1X200GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10101",
+      "nombre": "MAGDALENA LIMON 1X200GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10102",
+      "nombre": "MAGDALENA RELL. FRUTILLA 1X215GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10103",
+      "nombre": "MAGDALENA NARANJA C/CHIPS 1X180GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10104",
+      "nombre": "MAGDALENA VAINILLA C/CHIPS 1X180GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10105",
+      "nombre": "MAGDALENA VAINILLA RELL. DDL 1X200GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10106",
+      "nombre": "MAGDALENA VAINILLA RELL. CHOCOLATE 1X200GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10107",
+      "nombre": "MINI BUDINES VAINILLA 1X180GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10108",
+      "nombre": "MINI BUDIN VAINILLA C/DDL 1X180GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10109",
+      "nombre": "BIZCOCHO AZUCARADO 1X180GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Galletitas"
+      }
+    },
+    {
+      "product_code": "10110",
+      "nombre": "BIZCOCHO SALADO 1X180GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Bizcochos"
+      }
+    },
+    {
+      "product_code": "10111",
+      "nombre": "CHIPS CHOCO BLANCO 1X230GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Chips"
+      }
+    },
+    {
+      "product_code": "10112",
+      "nombre": "CHIPS CHOCOLATE 1X230GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Chips"
+      }
+    },
+    {
+      "product_code": "10113",
+      "nombre": "CHIPS DDL 1X200GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Chips"
+      }
+    },
+    {
+      "product_code": "10114",
+      "nombre": "CHIPS COLORES 1X200GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Chips Colores"
+      }
+    },
+    {
+      "product_code": "10115",
+      "nombre": "ANILLO COCO 1X220GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Anillo Coco"
+      }
+    },
+    {
+      "product_code": "10116",
+      "nombre": "ANILLO LIMON 1X220GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Anillo Limón"
+      }
+    },
+    {
+      "product_code": "10117",
+      "nombre": "ANILLO VAINILLA 1X220GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Anillo Vainilla"
+      }
+    },
+    {
+      "product_code": "10118",
+      "nombre": "MANTECADITAS 1X220GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Mantecaditas"
+      }
+    },
+    {
+      "product_code": "10119",
+      "nombre": "MASITA COCO 1X220GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Masita Coco"
+      }
+    },
+    {
+      "product_code": "10120",
+      "nombre": "MASITA LIMON 1X220GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Masita Limón"
+      }
+    },
+    {
+      "product_code": "10121",
+      "nombre": "MASITA VAINILLA 1X220GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Masita Vainilla"
+      }
+    },
+    {
+      "product_code": "10122",
+      "nombre": "PALMERITAS 1X200GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Palmeritas"
+      }
+    },
+    {
+      "product_code": "10123",
+      "nombre": "PEPA BATATA 1X300GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Pepa Batata"
+      }
+    },
+    {
+      "product_code": "10124",
+      "nombre": "PEPA 1X300GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Pepa"
+      }
+    },
+    {
+      "product_code": "10125",
+      "nombre": "PEPA 1X180GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Pepa"
+      }
+    },
+    {
+      "product_code": "10126",
+      "nombre": "RECREO SURTIDO 1X300 GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Recreo Surtido"
+      }
+    },
+    {
+      "product_code": "10127",
+      "nombre": "ALAMESA MINI TOSTADAS DE ARROZ 1X120GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Tostadas",
+        "4": "Mini Tostadas de Arroz"
+      }
+    },
+    {
+      "product_code": "10128",
+      "nombre": "ALAMESA TOSTADA CLASICA 1X200GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Tostadas",
+        "4": "Tostada Clásica"
+      }
+    },
+    {
+      "product_code": "10129",
+      "nombre": "ALAMESA TOSTADA DULCES 1X200GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Tostadas",
+        "4": "Tostada Dulce"
+      }
+    },
+    {
+      "product_code": "10130",
+      "nombre": "ALAMESA TOSTADA LIGHT 1X200GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Tostadas",
+        "4": "Tostada Light"
+      }
+    },
+    {
+      "product_code": "10131",
+      "nombre": "ALAMESA TOSTADAS DE ARROZ CLÁSICAS 1X150GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Tostadas",
+        "4": "Tostadas de Arroz Clásicas"
+      }
+    },
+    {
+      "product_code": "10132",
+      "nombre": "ALAMESA TOSTADAS DE ARROZ DULCES 1X150GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Tostadas",
+        "4": "Tostadas de Arroz Dulces"
+      }
+    },
+    {
+      "product_code": "10133",
+      "nombre": "ALAMESA TOSTADAS DE ARROZ SIN SAL 1X150GRS GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Tostadas",
+        "4": "Tostadas de Arroz Sin Sal"
+      }
+    },
+    {
+      "product_code": "10134",
+      "nombre": "VALENCIANO CHIPS 1X150 GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Chips Valenciano"
+      }
+    },
+    {
+      "product_code": "10135",
+      "nombre": "VALENCIANO PEPAS 1X150GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Pepas Valenciano"
+      }
+    },
+    {
+      "product_code": "10136",
+      "nombre": "VALENCIANO ANILLO LIMON 1X150GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Anillo Limón Valenciano"
+      }
+    },
+    {
+      "product_code": "10137",
+      "nombre": "VALENCIANO MASITA VAINILLA 1X150GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Masita Vainilla Valenciano"
+      }
+    },
+    {
+      "product_code": "10138",
+      "nombre": "VALENCIANO SURTIDO 1X150GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Surtido Valenciano"
+      }
+    },
+    {
+      "product_code": "10139",
+      "nombre": "POMELO BLANCO 1.5LTS X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Pomelo Blanco"
+      }
+    },
+    {
+      "product_code": "10140",
+      "nombre": "COLA 1.5 LTS X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Cola"
+      }
+    },
+    {
+      "product_code": "10141",
+      "nombre": "LIMA LIMON 1.5 LTS X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Lima Limón"
+      }
+    },
+    {
+      "product_code": "10142",
+      "nombre": "NARANJA 1.5 LTS X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Naranja"
+      }
+    },
+    {
+      "product_code": "10143",
+      "nombre": "CHOCOLATADA CRUNCHIPS 1X150GR GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Chocolatada Crunchips"
+      }
+    },
+    {
+      "product_code": "10145",
+      "nombre": "CHOCOLATADA CRUNCHIPS 1X300 GR GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Chocolatada Crunchips"
+      }
+    },
+    {
+      "product_code": "10146",
+      "nombre": "CUBICUB DOS CHOCOLATES 1X100 GR GAONA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Cubicub Dos Chocolates"
+      }
+    },
+    {
+      "product_code": "10147",
+      "nombre": "MAYONESA NATURA 12X250GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "10160",
+      "nombre": "POMELO ROSADO 500 ML PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Pomelo Rosado"
+      }
+    },
+    {
+      "product_code": "10161",
+      "nombre": "SURTIDO MANAOS 1.5 LITROS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Surtido"
+      }
+    },
+    {
+      "product_code": "10163",
+      "nombre": "ARMA TU CUMPLE",
+      "tags": {
+        "1": "Almacén",
+        "2": "Fiestas",
+        "3": "Artículos de Fiesta",
+        "4": "Arma Tu Cumple"
+      }
+    },
+    {
+      "product_code": "10164",
+      "nombre": "CERVEZA PILSEN SAMBA LATA 6X473ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza Pilsen"
+      }
+    },
+    {
+      "product_code": "10165",
+      "nombre": "CERVEZA PILSEN CONTI ZERO GRAU 6X473 ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza Pilsen Zero"
+      }
+    },
+    {
+      "product_code": "10166",
+      "nombre": "CERVEZA PURA MALTA SMITH 44 LATA 6X473 ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza Pura Malta"
+      }
+    },
+    {
+      "product_code": "10167",
+      "nombre": "CERVEZA PURA MALTA SMITH 44 BOTELLA 24X330 ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza Pura Malta"
+      }
+    },
+    {
+      "product_code": "10168",
+      "nombre": "ATUN BAHIA DESMENUZADO AL ACEITE 170G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Pescados",
+        "4": "Atún Desmenuzado"
+      }
+    },
+    {
+      "product_code": "10169",
+      "nombre": "LOMITO DE ATUN AL NATURAL BAHIA 170G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Pescados",
+        "4": "Lomito de Atún"
+      }
+    },
+    {
+      "product_code": "10170",
+      "nombre": "LOMITO DE ATUN EN ACEITE Y AGUA BAHIA 170G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Pescados",
+        "4": "Lomito de Atún"
+      }
+    },
+    {
+      "product_code": "10171",
+      "nombre": "DURAZNOS EN MITADES BAHIA 820G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Frutas",
+        "4": "Duraznos en Mitades"
+      }
+    },
+    {
+      "product_code": "13",
+      "nombre": "PALITOS DE MAIZ (AMARILLOS) X1KG OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Palitos",
+        "4": "Palitos de Maíz"
+      }
+    },
+    {
+      "product_code": "17",
+      "nombre": "PALITOS DE MAIZ (AMARILLOS) X500GR OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Palitos",
+        "4": "Palitos de Maíz"
+      }
+    },
+    {
+      "product_code": "210",
+      "nombre": "QUESITOS GALACTICOS 1X65GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Quesitos Galácticos"
+      }
+    },
+    {
+      "product_code": "213",
+      "nombre": "PAPAS FRITAS GALACTICAS 1X90 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Papas Fritas Galácticas"
+      }
+    },
+    {
+      "product_code": "226",
+      "nombre": "Productos varios",
+      "tags": {
+        "1": "Almacén",
+        "2": "Varios",
+        "3": "Productos",
+        "4": "Productos Varios"
+      }
+    },
+    {
+      "product_code": "229",
+      "nombre": "ATUN BAHIA AL NAT. DESM. 170 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Pescados",
+        "4": "Atún Desmenuzado"
+      }
+    },
+    {
+      "product_code": "235",
+      "nombre": "SARDINA BAHIA ACEITE Y AGUA 125 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Pescados",
+        "4": "Sardina"
+      }
+    },
+    {
+      "product_code": "281",
+      "nombre": "COLA 600ml X 12 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Cola"
+      }
+    },
+    {
+      "product_code": "283",
+      "nombre": "NARANJA 600ml X 12 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Naranja"
+      }
+    },
+    {
+      "product_code": "284",
+      "nombre": "POMELO BLANCO 600ml X 12 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Pomelo Blanco"
+      }
+    },
+    {
+      "product_code": "289",
+      "nombre": "COLA 2.25 lts. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Cola"
+      }
+    },
+    {
+      "product_code": "292",
+      "nombre": "POMELO BLANCO 2.25 LTS. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Pomelo Blanco"
+      }
+    },
+    {
+      "product_code": "293",
+      "nombre": "MANZANA 2.25 LTS. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Manzana"
+      }
+    },
+    {
+      "product_code": "294",
+      "nombre": "COLA S/AZUCAR 2.25 lts. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Cola Sin Azúcar"
+      }
+    },
+    {
+      "product_code": "295",
+      "nombre": "COLA 3 lts. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Cola"
+      }
+    },
+    {
+      "product_code": "296",
+      "nombre": "LIMA LIMON 3 LTS. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Lima Limón"
+      }
+    },
+    {
+      "product_code": "297",
+      "nombre": "NARANJA 3 lts. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Naranja"
+      }
+    },
+    {
+      "product_code": "298",
+      "nombre": "UVA 2.25 LTS. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Uva"
+      }
+    },
+    {
+      "product_code": "299",
+      "nombre": "CITRUS 3 lts. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Citrus"
+      }
+    },
+    {
+      "product_code": "3",
+      "nombre": "LECHE CHOCOLATADA CRUNCHIP 18X200ML",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Leches",
+        "4": "Leche Chocolatada"
+      }
+    },
+    {
+      "product_code": "300",
+      "nombre": "MANZANA 3 lts. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Manzana"
+      }
+    },
+    {
+      "product_code": "301",
+      "nombre": "POMELO BLANCO 3 lts. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Pomelo Blanco"
+      }
+    },
+    {
+      "product_code": "302",
+      "nombre": "GUARANA 3 lts. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Guaraná"
+      }
+    },
+    {
+      "product_code": "303",
+      "nombre": "NARANJA 500ml X12 PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Naranja"
+      }
+    },
+    {
+      "product_code": "304",
+      "nombre": "POMELO 500ml X12 PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Pomelo"
+      }
+    },
+    {
+      "product_code": "305",
+      "nombre": "MANZANA 500ml X12 PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Manzana"
+      }
+    },
+    {
+      "product_code": "306",
+      "nombre": "PERA 500ml X12 PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Pera"
+      }
+    },
+    {
+      "product_code": "307",
+      "nombre": "ANANA 500ml X12 PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Ananá"
+      }
+    },
+    {
+      "product_code": "308",
+      "nombre": "MULTIFRUTA 500ml X12 PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Multifruta"
+      }
+    },
+    {
+      "product_code": "309",
+      "nombre": "NARANJA 1.5 lts. X6 PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Naranja"
+      }
+    },
+    {
+      "product_code": "310",
+      "nombre": "POMELO 1.5 lts. X6 PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Pomelo"
+      }
+    },
+    {
+      "product_code": "311",
+      "nombre": "MANZANA 1.5 lts. X6 PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Manzana"
+      }
+    },
+    {
+      "product_code": "312",
+      "nombre": "PERA 1.5 lts. X6 PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Pera"
+      }
+    },
+    {
+      "product_code": "313",
+      "nombre": "ANANA 1.5 lts. X6 PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Ananá"
+      }
+    },
+    {
+      "product_code": "314",
+      "nombre": "MULTIFRUTA 1.5 lts. X6 PLACER",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Jugos",
+        "4": "Multifruta"
+      }
+    },
+    {
+      "product_code": "315",
+      "nombre": "SODA SIFON 2 lts. X6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Gaseosas",
+        "4": "Soda Sifón"
+      }
+    },
+    {
+      "product_code": "316",
+      "nombre": "AGUA 600ml X12 VILLA MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua Sin Gas",
+        "4": "Agua"
+      }
+    },
+    {
+      "product_code": "317",
+      "nombre": "AGUA c/ GAS 600ml X12 VILLA MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua Con Gas",
+        "4": "Agua"
+      }
+    },
+    {
+      "product_code": "318",
+      "nombre": "AGUA 2 lts. X6 VILLA MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua Sin Gas",
+        "4": "Agua"
+      }
+    },
+    {
+      "product_code": "319",
+      "nombre": "AGUA BIDON 6lts. VILLA MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua Sin Gas",
+        "4": "Agua"
+      }
+    },
+    {
+      "product_code": "320",
+      "nombre": "NARANJA 1 LITRO X8 PINDAPOY",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo de Naranja",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "321",
+      "nombre": "MANZANA 1 LITRO PINDAPOY",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo de Manzana",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "322",
+      "nombre": "MULTIFRUTA 1 LITRO X8 PINDAPOY",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo Multifruta",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "323",
+      "nombre": "F-NANDITO VII DOBLE 1 litro X6",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "337",
+      "nombre": "NARANJA-DURAZNO S/ AZUCAR 2.25 LTS. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo de Naranja y Durazno",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "338",
+      "nombre": "POMELO ROSADO 2.25 LTS. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo de Pomelo",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "345",
+      "nombre": "MANZANA 200 CC X18 PINDAPOY",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo de Manzana",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "346",
+      "nombre": "MULTIFRUTA 200 CC X18 PINDAPOY",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo Multifruta",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "347",
+      "nombre": "NARANJA 200 CC X18 PINDAPOY",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo de Naranja",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "356",
+      "nombre": "AGUA EL SANO CORAZON ARGENTINO 1.5 LTS. X 6 S/GAS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua Sin Gas",
+        "4": "Agua"
+      }
+    },
+    {
+      "product_code": "361",
+      "nombre": "F-NANDITO VII SIMPLE 1 LITRO X6",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "375",
+      "nombre": "LIMON 3 LTS. X 6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo de Limón",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "379",
+      "nombre": "DURAZNO 200 CC X18 PINDAPOY",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo de Durazno",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "380",
+      "nombre": "DURAZNO 1 LITRO PINDAPOY",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo de Durazno",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "393",
+      "nombre": "AGUA EL SANO CORAZON ARGENTINO 500 ML X 12 S/GAS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua Sin Gas",
+        "4": "Agua"
+      }
+    },
+    {
+      "product_code": "395",
+      "nombre": "GRANADINA 3 LTS X6 MANAOS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo de Granadina",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "4",
+      "nombre": "COPOS DE MAIZ AZUCARADOS 1X200 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Copos de Maíz",
+        "4": "Copos de Maíz Azucarados"
+      }
+    },
+    {
+      "product_code": "430",
+      "nombre": "PALITOS DE MAIZ (NARANJA) 5X120G OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Palitos de Maíz",
+        "4": "Palitos de Maíz"
+      }
+    },
+    {
+      "product_code": "431",
+      "nombre": "PALITOS DE MAIZ (NARANJA) 5X50G OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Palitos de Maíz",
+        "4": "Palitos de Maíz"
+      }
+    },
+    {
+      "product_code": "432",
+      "nombre": "PALITOS DE MAIZ (AMARILLO) 5X120G OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Palitos de Maíz",
+        "4": "Palitos de Maíz"
+      }
+    },
+    {
+      "product_code": "433",
+      "nombre": "MAIZ INFLADO / TUTUCA 5X200G OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maíz Inflado",
+        "4": "Maíz Inflado"
+      }
+    },
+    {
+      "product_code": "435",
+      "nombre": "MANI SALADO 5X160G OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Salado"
+      }
+    },
+    {
+      "product_code": "436",
+      "nombre": "PALITOS SALADO 5X150G OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Palitos Salados",
+        "4": "Palitos Salados"
+      }
+    },
+    {
+      "product_code": "437",
+      "nombre": "MAIZ INFLADO / TUTUCA 5X50G OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maíz Inflado",
+        "4": "Maíz Inflado"
+      }
+    },
+    {
+      "product_code": "440",
+      "nombre": "PAPAS FRITAS 5X90G OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Papas Fritas"
+      }
+    },
+    {
+      "product_code": "441",
+      "nombre": "PELOTITAS DE MAIZ 5X50G OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Pelotitas de Maíz",
+        "4": "Pelotitas de Maíz"
+      }
+    },
+    {
+      "product_code": "453",
+      "nombre": "PALITOS GALÁCTICO 1X150G OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Palitos Galácticos",
+        "4": "Palitos Galácticos"
+      }
+    },
+    {
+      "product_code": "456",
+      "nombre": "AJI MOLIDO BASILIA 1 X 25GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Ají",
+        "4": "Ají Molido"
+      }
+    },
+    {
+      "product_code": "457",
+      "nombre": "CHIMICHURRI BASILIA 1 X 25GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Chimichurri",
+        "4": "Chimichurri"
+      }
+    },
+    {
+      "product_code": "458",
+      "nombre": "CONDIMENTO PARA PIZZA BASILIA 1 X 25GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Condimento",
+        "4": "Condimento para Pizza"
+      }
+    },
+    {
+      "product_code": "459",
+      "nombre": "OREGANO BASILIA 1 X 25 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Orégano",
+        "4": "Orégano"
+      }
+    },
+    {
+      "product_code": "460",
+      "nombre": "PIMIENTA NEGRA MOLIDA BASILIA 1 X 25 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Pimienta",
+        "4": "Pimienta Negra Molida"
+      }
+    },
+    {
+      "product_code": "461",
+      "nombre": "PIMENTON BASILIA 1 X 25GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Pimentón",
+        "4": "Pimentón"
+      }
+    },
+    {
+      "product_code": "462",
+      "nombre": "PROVENZAL BASILIA 1X25 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Provenzal",
+        "4": "Provenzal"
+      }
+    },
+    {
+      "product_code": "464",
+      "nombre": "CONITOS GALACTICOS 1X180GR OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Conitos",
+        "4": "Conitos Galácticos"
+      }
+    },
+    {
+      "product_code": "469",
+      "nombre": "PIZZETAS GALÁCTICAS X 100GR OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Pizzetas",
+        "4": "Pizzetas Galácticas"
+      }
+    },
+    {
+      "product_code": "470",
+      "nombre": "SERRANITOS GALÁCTICOS 1X150GR OVNI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Serranitos",
+        "4": "Serranitos Galácticos"
+      }
+    },
+    {
+      "product_code": "472",
+      "nombre": "TONICA SIN AZÚCAR MANAOS 2.25 LTS.",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas",
+        "3": "Tónica",
+        "4": "Tónica Sin Azúcar"
+      }
+    },
+    {
+      "product_code": "5",
+      "nombre": "COPOS DE MAIZ TRADICIONALES 1X150 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Copos de Maíz",
+        "4": "Copos de Maíz Tradicionales"
+      }
+    },
+    {
+      "product_code": "6",
+      "nombre": "BARRAS DE CEREAL ORIGINAL 15X23 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Barras de Cereal",
+        "4": "Barras de Cereal"
+      }
+    },
+    {
+      "product_code": "80000",
+      "nombre": "ADELANTO CTA CTE",
+      "tags": {
+        "1": "Almacén",
+        "2": "Otros",
+        "3": "Otros",
+        "4": "Otros"
+      }
+    },
+    {
+      "product_code": "9",
+      "nombre": "BARRAS DE CEREAL YOGUR FRUTILLA 15X23GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Barras de Cereal",
+        "4": "Barras de Cereal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,"ID: 965a6919-7967-4f3b-93bd-2b468b3ccb2e, Nombre: El Gigante"
+schema_existe,Tablas en el_gigante,ok,Encontradas 33 tablas
+productos_vacio,COUNT productos = 0,ok,COUNT = 0 productos
+clients_vacio,COUNT clients = 0,ok,COUNT = 0 clientes
+mcp_conectado,MCP supabase responde,ok,asyncpg conectado a db.nxmeezcvjltlqfybbczt.supabase.co
+carpeta_implementacion,manifest.yaml presente,ok,manifest.yaml presente
+is_mock_column,Columna is_mock en productos,ok,Columna is_mock existe en la tabla productos
+excel_presente,Archivo en inputs/,ok,Excel presente en inputs/LISTADO DE ARTICULOS VIGENTES 09-06-2026  GIGANTE (2).xlsx

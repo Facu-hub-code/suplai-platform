@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Dulces y Bebidas,Dulces y Bebidas,5493587905250,2,1,lunes,martes,Zona ZONA NORTE - Villa del Rosario - Formosa,Juan Pérez,0,0,-26.120806,-58.139495,true
+2,La Golosina,La Golosina,5493582641213,3,2,lunes,martes,Zona ZONA NORTE - Villa del Rosario - Formosa,Juan Pérez,0,0,-26.249915,-58.098212,true
+3,Bebidas del Norte,Bebidas del Norte,5492991227644,4,3,lunes,martes,Zona ZONA NORTE - Villa del Rosario - Formosa,Juan Pérez,0,0,-26.251266,-58.169204,true
+4,Golosinas Formoseñas,Golosinas Formoseñas,5493418277249,1,4,lunes,martes,Zona ZONA NORTE - Villa del Rosario - Formosa,Juan Pérez,0,0,-26.231966,-58.194588,true
+5,El Refugio de Dulces,El Refugio de Dulces,5493587747641,2,5,lunes,martes,Zona ZONA NORTE - Villa del Rosario - Formosa,Juan Pérez,0,0,-26.140686,-58.119901,true
+6,Sabor a Golosina,Sabor a Golosina,5492614053074,3,6,lunes,martes,Zona ZONA NORTE - Villa del Rosario - Formosa,Juan Pérez,0,0,-26.224979,-58.233428,true
+7,Bebidas y Más,Bebidas y Más,5493514079279,4,7,lunes,martes,Zona ZONA NORTE - Villa del Rosario - Formosa,Juan Pérez,0,0,-26.141682,-58.081947,true
+8,Dulce Encanto,Dulce Encanto,5493876914178,1,8,lunes,martes,Zona ZONA NORTE - Villa del Rosario - Formosa,Juan Pérez,0,0,-26.219763,-58.181105,true
+9,La Casa de las Golosinas,La Casa de las Golosinas,5492617175545,2,9,lunes,martes,Zona ZONA NORTE - Villa del Rosario - Formosa,Juan Pérez,0,0,-26.255416,-58.089066,true
+10,Bebidas y Snacks,Bebidas y Snacks,5493818437953,3,10,lunes,martes,Zona ZONA NORTE - La Nueva Formosa - Formosa,Juan Pérez,0,1,-26.218806,-58.134813,true
+11,Golosinas y Refrescos,Golosinas y Refrescos,5493582132179,4,11,lunes,martes,Zona ZONA NORTE - La Nueva Formosa - Formosa,Juan Pérez,0,1,-26.258972,-58.221669,true
+12,Dulces del Río,Dulces del Río,5493872845902,1,12,lunes,martes,Zona ZONA NORTE - La Nueva Formosa - Formosa,Juan Pérez,0,1,-26.145424,-58.242052,true
+13,La Tienda de la Alegría,La Tienda de la Alegría,5492997670210,2,13,lunes,martes,Zona ZONA NORTE - La Nueva Formosa - Formosa,Juan Pérez,0,1,-26.119367,-58.142868,true
+14,Bebidas del Sur,Bebidas del Sur,5493811657614,3,14,lunes,martes,Zona ZONA NORTE - La Nueva Formosa - Formosa,Juan Pérez,0,1,-26.142411,-58.205315,true
+15,La Golosina Feliz,La Golosina Feliz,5492994145193,4,15,lunes,martes,Zona ZONA NORTE - La Nueva Formosa - Formosa,Juan Pérez,0,1,-26.208272,-58.085963,true
+16,Dulce y Salado,Dulce y Salado,5493515971311,1,16,lunes,martes,Zona ZONA NORTE - La Nueva Formosa - Formosa,Juan Pérez,0,1,-26.243989,-58.178236,true
+17,El Mundo de las Golosinas,El Mundo de las Golosinas,5492994228106,2,17,lunes,martes,Zona ZONA NORTE - La Nueva Formosa - Formosa,Juan Pérez,0,1,-26.138509,-58.195394,true
+18,Bebidas Naturales,Bebidas Naturales,5492998718887,3,18,lunes,martes,Zona ZONA NORTE - La Nueva Formosa - Formosa,Juan Pérez,0,1,-26.124147,-58.097364,true
+19,Dulces y Risas,Dulces y Risas,5492995028869,4,19,martes,miercoles,Zona ZONA SUR - San Antonio - Formosa,María González,1,2,-26.245258,-58.178576,true
+20,La Tienda de los Sabores,La Tienda de los Sabores,5493517304254,1,20,martes,miercoles,Zona ZONA SUR - San Antonio - Formosa,María González,1,2,-26.247294,-58.248321,true
+21,Bebidas y Golosinas,Bebidas y Golosinas,5493416986538,2,21,martes,miercoles,Zona ZONA SUR - San Antonio - Formosa,María González,1,2,-26.146932,-58.159364,true
+22,El Sabor del Norte,El Sabor del Norte,5492619239862,3,22,martes,miercoles,Zona ZONA SUR - San Antonio - Formosa,María González,1,2,-26.202254,-58.238056,true
+23,Dulces y Sonrisas,Dulces y Sonrisas,5493513952681,4,23,martes,miercoles,Zona ZONA SUR - San Antonio - Formosa,María González,1,2,-26.237472,-58.170803,true
+24,La Golosina Perfecta,La Golosina Perfecta,5493414799650,1,24,martes,miercoles,Zona ZONA SUR - San Antonio - Formosa,María González,1,2,-26.133873,-58.232391,true
+25,Bebidas y Alegría,Bebidas y Alegría,5492992500733,2,25,martes,miercoles,Zona ZONA SUR - San Antonio - Formosa,María González,1,2,-26.114802,-58.131804,true
+26,Dulces y Momentos,Dulces y Momentos,5492615139305,3,26,martes,miercoles,Zona ZONA SUR - San Antonio - Formosa,María González,1,2,-26.137108,-58.239138,true
+27,La Casa de los Snacks,La Casa de los Snacks,5492618861463,4,27,martes,miercoles,Zona ZONA SUR - La Floresta - Formosa,María González,1,3,-26.208024,-58.130549,true
+28,Bebidas del Pueblo,Bebidas del Pueblo,5493812941974,1,28,martes,miercoles,Zona ZONA SUR - La Floresta - Formosa,María González,1,3,-26.210747,-58.152639,true
+29,Dulces y Tradiciones,Dulces y Tradiciones,5493817404433,2,29,martes,miercoles,Zona ZONA SUR - La Floresta - Formosa,María González,1,3,-26.106933,-58.234972,true
+30,La Golosina del Barrio,La Golosina del Barrio,5493419686914,3,30,martes,miercoles,Zona ZONA SUR - La Floresta - Formosa,María González,1,3,-26.106811,-58.171382,true
+31,Bebidas y Diversión,Bebidas y Diversión,5493518648263,4,31,martes,miercoles,Zona ZONA SUR - La Floresta - Formosa,María González,1,3,-26.139883,-58.261307,true
+32,Dulces y Recuerdos,Dulces y Recuerdos,5493516216782,1,32,martes,miercoles,Zona ZONA SUR - La Floresta - Formosa,María González,1,3,-26.213283,-58.120655,true
+33,La Tienda de los Dulces,La Tienda de los Dulces,5492612780568,2,33,martes,miercoles,Zona ZONA SUR - La Floresta - Formosa,María González,1,3,-26.153553,-58.152409,true
+34,Bebidas y Sabores,Bebidas y Sabores,5493582639964,3,34,martes,miercoles,Zona ZONA SUR - La Floresta - Formosa,María González,1,3,-26.24048,-58.233713,true
+35,Dulces y Placeres,Dulces y Placeres,5493814729528,4,35,miercoles,jueves,Zona ZONA OESTE - Villa del Parque - Formosa,Carlos Fernández,2,4,-26.136002,-58.212536,true
+36,La Golosina de Todos,La Golosina de Todos,5493876922419,1,36,miercoles,jueves,Zona ZONA OESTE - Villa del Parque - Formosa,Carlos Fernández,2,4,-26.160916,-58.136318,true
+37,Bebidas y Amistad,Bebidas y Amistad,5492618889598,2,37,miercoles,jueves,Zona ZONA OESTE - Villa del Parque - Formosa,Carlos Fernández,2,4,-26.243713,-58.226037,true
+38,Dulces y Celebraciones,Dulces y Celebraciones,5492615021286,3,38,miercoles,jueves,Zona ZONA OESTE - Villa del Parque - Formosa,Carlos Fernández,2,4,-26.235745,-58.173519,true
+39,La Casa de la Golosina,La Casa de la Golosina,5493813520000,4,39,miercoles,jueves,Zona ZONA OESTE - Villa del Parque - Formosa,Carlos Fernández,2,4,-26.214748,-58.165441,true
+40,Bebidas y Risas,Bebidas y Risas,5492997489876,1,40,miercoles,jueves,Zona ZONA OESTE - Villa del Parque - Formosa,Carlos Fernández,2,4,-26.11789,-58.164222,true
+41,Dulces y Alegrías,Dulces y Alegrías,5493519107005,2,41,miercoles,jueves,Zona ZONA OESTE - Villa del Parque - Formosa,Carlos Fernández,2,4,-26.222078,-58.211915,true
+42,La Golosina del Día,La Golosina del Día,5493874104594,3,42,miercoles,jueves,Zona ZONA OESTE - Villa del Parque - Formosa,Carlos Fernández,2,4,-26.107328,-58.137896,true
+43,Bebidas y Momentos,Bebidas y Momentos,5492617413812,4,43,miercoles,jueves,Zona ZONA OESTE - El Palmar - Formosa,Carlos Fernández,2,5,-26.142556,-58.202461,true
+44,Dulces y Sorpresas,Dulces y Sorpresas,5492617236955,1,44,miercoles,jueves,Zona ZONA OESTE - El Palmar - Formosa,Carlos Fernández,2,5,-26.145777,-58.246905,true
+45,La Tienda de la Diversión,La Tienda de la Diversión,5492612928724,2,45,miercoles,jueves,Zona ZONA OESTE - El Palmar - Formosa,Carlos Fernández,2,5,-26.232238,-58.140299,true
+46,Bebidas y Recuerdos,Bebidas y Recuerdos,5492999435946,3,46,miercoles,jueves,Zona ZONA OESTE - El Palmar - Formosa,Carlos Fernández,2,5,-26.155653,-58.128456,true
+47,Dulces y Sabores,Dulces y Sabores,5493517632424,4,47,miercoles,jueves,Zona ZONA OESTE - El Palmar - Formosa,Carlos Fernández,2,5,-26.219983,-58.199152,true
+48,La Golosina de la Semana,La Golosina de la Semana,5493416524997,1,48,miercoles,jueves,Zona ZONA OESTE - El Palmar - Formosa,Carlos Fernández,2,5,-26.252093,-58.141093,true
+49,Bebidas y Tradiciones,Bebidas y Tradiciones,5493876499570,2,49,miercoles,jueves,Zona ZONA OESTE - El Palmar - Formosa,Carlos Fernández,2,5,-26.159117,-58.195582,true
+50,Dulces y Amistades,Dulces y Amistades,5492998066543,3,50,miercoles,jueves,Zona ZONA OESTE - El Palmar - Formosa,Carlos Fernández,2,5,-26.200144,-58.230551,true
