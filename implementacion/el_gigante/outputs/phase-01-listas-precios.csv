@@ -1,0 +1,825 @@
+lista_precios_id,nombre,multiplicador_sobre_lista_1,product_code,precio_unidad,is_mock
+1,Lista 1 (Base),1.0,80000,1.0,true
+2,Lista 2 (Minorista sugerido),1.15,80000,1.15,true
+3,Lista 3 (Mayorista especial),0.9,80000,0.9,true
+4,Lista 4 (Gran distribuidor),0.85,80000,0.85,true
+1,Lista 1 (Base),1.0,318,5040.0,true
+2,Lista 2 (Minorista sugerido),1.15,318,5796.0,true
+3,Lista 3 (Mayorista especial),0.9,318,4536.0,true
+4,Lista 4 (Gran distribuidor),0.85,318,4284.0,true
+1,Lista 1 (Base),1.0,316,5950.0,true
+2,Lista 2 (Minorista sugerido),1.15,316,6842.5,true
+3,Lista 3 (Mayorista especial),0.9,316,5355.0,true
+4,Lista 4 (Gran distribuidor),0.85,316,5057.5,true
+1,Lista 1 (Base),1.0,319,2230.0,true
+2,Lista 2 (Minorista sugerido),1.15,319,2564.5,true
+3,Lista 3 (Mayorista especial),0.9,319,2007.0,true
+4,Lista 4 (Gran distribuidor),0.85,319,1895.5,true
+1,Lista 1 (Base),1.0,317,5930.0,true
+2,Lista 2 (Minorista sugerido),1.15,317,6819.5,true
+3,Lista 3 (Mayorista especial),0.9,317,5337.0,true
+4,Lista 4 (Gran distribuidor),0.85,317,5040.5,true
+1,Lista 1 (Base),1.0,356,4410.0,true
+2,Lista 2 (Minorista sugerido),1.15,356,5071.5,true
+3,Lista 3 (Mayorista especial),0.9,356,3969.0,true
+4,Lista 4 (Gran distribuidor),0.85,356,3748.5,true
+1,Lista 1 (Base),1.0,393,5020.0,true
+2,Lista 2 (Minorista sugerido),1.15,393,5773.0,true
+3,Lista 3 (Mayorista especial),0.9,393,4518.0,true
+4,Lista 4 (Gran distribuidor),0.85,393,4267.0,true
+1,Lista 1 (Base),1.0,456,430.0,true
+2,Lista 2 (Minorista sugerido),1.15,456,494.5,true
+3,Lista 3 (Mayorista especial),0.9,456,387.0,true
+4,Lista 4 (Gran distribuidor),0.85,456,365.5,true
+1,Lista 1 (Base),1.0,10127,1760.0,true
+2,Lista 2 (Minorista sugerido),1.15,10127,2024.0,true
+3,Lista 3 (Mayorista especial),0.9,10127,1584.0,true
+4,Lista 4 (Gran distribuidor),0.85,10127,1496.0,true
+1,Lista 1 (Base),1.0,10128,1420.0,true
+2,Lista 2 (Minorista sugerido),1.15,10128,1633.0,true
+3,Lista 3 (Mayorista especial),0.9,10128,1278.0,true
+4,Lista 4 (Gran distribuidor),0.85,10128,1207.0,true
+1,Lista 1 (Base),1.0,10129,1420.0,true
+2,Lista 2 (Minorista sugerido),1.15,10129,1633.0,true
+3,Lista 3 (Mayorista especial),0.9,10129,1278.0,true
+4,Lista 4 (Gran distribuidor),0.85,10129,1207.0,true
+1,Lista 1 (Base),1.0,10130,1420.0,true
+2,Lista 2 (Minorista sugerido),1.15,10130,1633.0,true
+3,Lista 3 (Mayorista especial),0.9,10130,1278.0,true
+4,Lista 4 (Gran distribuidor),0.85,10130,1207.0,true
+1,Lista 1 (Base),1.0,10131,1900.0,true
+2,Lista 2 (Minorista sugerido),1.15,10131,2185.0,true
+3,Lista 3 (Mayorista especial),0.9,10131,1710.0,true
+4,Lista 4 (Gran distribuidor),0.85,10131,1615.0,true
+1,Lista 1 (Base),1.0,10132,1900.0,true
+2,Lista 2 (Minorista sugerido),1.15,10132,2185.0,true
+3,Lista 3 (Mayorista especial),0.9,10132,1710.0,true
+4,Lista 4 (Gran distribuidor),0.85,10132,1615.0,true
+1,Lista 1 (Base),1.0,10133,1900.0,true
+2,Lista 2 (Minorista sugerido),1.15,10133,2185.0,true
+3,Lista 3 (Mayorista especial),0.9,10133,1710.0,true
+4,Lista 4 (Gran distribuidor),0.85,10133,1615.0,true
+1,Lista 1 (Base),1.0,313,7480.0,true
+2,Lista 2 (Minorista sugerido),1.15,313,8602.0,true
+3,Lista 3 (Mayorista especial),0.9,313,6732.0,true
+4,Lista 4 (Gran distribuidor),0.85,313,6358.0,true
+1,Lista 1 (Base),1.0,307,7870.0,true
+2,Lista 2 (Minorista sugerido),1.15,307,9050.5,true
+3,Lista 3 (Mayorista especial),0.9,307,7083.0,true
+4,Lista 4 (Gran distribuidor),0.85,307,6689.5,true
+1,Lista 1 (Base),1.0,10115,1330.0,true
+2,Lista 2 (Minorista sugerido),1.15,10115,1529.5,true
+3,Lista 3 (Mayorista especial),0.9,10115,1197.0,true
+4,Lista 4 (Gran distribuidor),0.85,10115,1130.5,true
+1,Lista 1 (Base),1.0,10116,1330.0,true
+2,Lista 2 (Minorista sugerido),1.15,10116,1529.5,true
+3,Lista 3 (Mayorista especial),0.9,10116,1197.0,true
+4,Lista 4 (Gran distribuidor),0.85,10116,1130.5,true
+1,Lista 1 (Base),1.0,10117,1330.0,true
+2,Lista 2 (Minorista sugerido),1.15,10117,1529.5,true
+3,Lista 3 (Mayorista especial),0.9,10117,1197.0,true
+4,Lista 4 (Gran distribuidor),0.85,10117,1130.5,true
+1,Lista 1 (Base),1.0,10014,1110.0,true
+2,Lista 2 (Minorista sugerido),1.15,10014,1276.5,true
+3,Lista 3 (Mayorista especial),0.9,10014,999.0,true
+4,Lista 4 (Gran distribuidor),0.85,10014,943.5,true
+1,Lista 1 (Base),1.0,10163,31230.0,true
+2,Lista 2 (Minorista sugerido),1.15,10163,35914.5,true
+3,Lista 3 (Mayorista especial),0.9,10163,28107.0,true
+4,Lista 4 (Gran distribuidor),0.85,10163,26545.5,true
+1,Lista 1 (Base),1.0,229,1550.0,true
+2,Lista 2 (Minorista sugerido),1.15,229,1782.5,true
+3,Lista 3 (Mayorista especial),0.9,229,1395.0,true
+4,Lista 4 (Gran distribuidor),0.85,229,1317.5,true
+1,Lista 1 (Base),1.0,10168,1550.0,true
+2,Lista 2 (Minorista sugerido),1.15,10168,1782.5,true
+3,Lista 3 (Mayorista especial),0.9,10168,1395.0,true
+4,Lista 4 (Gran distribuidor),0.85,10168,1317.5,true
+1,Lista 1 (Base),1.0,10,11840.0,true
+2,Lista 2 (Minorista sugerido),1.15,10,13616.0,true
+3,Lista 3 (Mayorista especial),0.9,10,10656.0,true
+4,Lista 4 (Gran distribuidor),0.85,10,10064.0,true
+1,Lista 1 (Base),1.0,6,11840.0,true
+2,Lista 2 (Minorista sugerido),1.15,6,13616.0,true
+3,Lista 3 (Mayorista especial),0.9,6,10656.0,true
+4,Lista 4 (Gran distribuidor),0.85,6,10064.0,true
+1,Lista 1 (Base),1.0,9,11840.0,true
+2,Lista 2 (Minorista sugerido),1.15,9,13616.0,true
+3,Lista 3 (Mayorista especial),0.9,9,10656.0,true
+4,Lista 4 (Gran distribuidor),0.85,9,10064.0,true
+1,Lista 1 (Base),1.0,10109,890.0,true
+2,Lista 2 (Minorista sugerido),1.15,10109,1023.5,true
+3,Lista 3 (Mayorista especial),0.9,10109,801.0,true
+4,Lista 4 (Gran distribuidor),0.85,10109,756.5,true
+1,Lista 1 (Base),1.0,10110,890.0,true
+2,Lista 2 (Minorista sugerido),1.15,10110,1023.5,true
+3,Lista 3 (Mayorista especial),0.9,10110,801.0,true
+4,Lista 4 (Gran distribuidor),0.85,10110,756.5,true
+1,Lista 1 (Base),1.0,10030,1010.0,true
+2,Lista 2 (Minorista sugerido),1.15,10030,1161.5,true
+3,Lista 3 (Mayorista especial),0.9,10030,909.0,true
+4,Lista 4 (Gran distribuidor),0.85,10030,858.5,true
+1,Lista 1 (Base),1.0,10165,8460.0,true
+2,Lista 2 (Minorista sugerido),1.15,10165,9729.0,true
+3,Lista 3 (Mayorista especial),0.9,10165,7614.0,true
+4,Lista 4 (Gran distribuidor),0.85,10165,7191.0,true
+1,Lista 1 (Base),1.0,10164,7250.0,true
+2,Lista 2 (Minorista sugerido),1.15,10164,8337.5,true
+3,Lista 3 (Mayorista especial),0.9,10164,6525.0,true
+4,Lista 4 (Gran distribuidor),0.85,10164,6162.5,true
+1,Lista 1 (Base),1.0,10167,50320.0,true
+2,Lista 2 (Minorista sugerido),1.15,10167,57868.0,true
+3,Lista 3 (Mayorista especial),0.9,10167,45288.0,true
+4,Lista 4 (Gran distribuidor),0.85,10167,42772.0,true
+1,Lista 1 (Base),1.0,10166,11120.0,true
+2,Lista 2 (Minorista sugerido),1.15,10166,12788.0,true
+3,Lista 3 (Mayorista especial),0.9,10166,10008.0,true
+4,Lista 4 (Gran distribuidor),0.85,10166,9452.0,true
+1,Lista 1 (Base),1.0,457,390.0,true
+2,Lista 2 (Minorista sugerido),1.15,457,448.5,true
+3,Lista 3 (Mayorista especial),0.9,457,351.0,true
+4,Lista 4 (Gran distribuidor),0.85,457,331.5,true
+1,Lista 1 (Base),1.0,10111,1450.0,true
+2,Lista 2 (Minorista sugerido),1.15,10111,1667.5,true
+3,Lista 3 (Mayorista especial),0.9,10111,1305.0,true
+4,Lista 4 (Gran distribuidor),0.85,10111,1232.5,true
+1,Lista 1 (Base),1.0,10112,1450.0,true
+2,Lista 2 (Minorista sugerido),1.15,10112,1667.5,true
+3,Lista 3 (Mayorista especial),0.9,10112,1305.0,true
+4,Lista 4 (Gran distribuidor),0.85,10112,1232.5,true
+1,Lista 1 (Base),1.0,10114,1450.0,true
+2,Lista 2 (Minorista sugerido),1.15,10114,1667.5,true
+3,Lista 3 (Mayorista especial),0.9,10114,1305.0,true
+4,Lista 4 (Gran distribuidor),0.85,10114,1232.5,true
+1,Lista 1 (Base),1.0,10113,1450.0,true
+2,Lista 2 (Minorista sugerido),1.15,10113,1667.5,true
+3,Lista 3 (Mayorista especial),0.9,10113,1305.0,true
+4,Lista 4 (Gran distribuidor),0.85,10113,1232.5,true
+1,Lista 1 (Base),1.0,10143,1140.0,true
+2,Lista 2 (Minorista sugerido),1.15,10143,1311.0,true
+3,Lista 3 (Mayorista especial),0.9,10143,1026.0,true
+4,Lista 4 (Gran distribuidor),0.85,10143,969.0,true
+1,Lista 1 (Base),1.0,10145,2370.0,true
+2,Lista 2 (Minorista sugerido),1.15,10145,2725.5,true
+3,Lista 3 (Mayorista especial),0.9,10145,2133.0,true
+4,Lista 4 (Gran distribuidor),0.85,10145,2014.5,true
+1,Lista 1 (Base),1.0,299,10800.0,true
+2,Lista 2 (Minorista sugerido),1.15,299,12420.0,true
+3,Lista 3 (Mayorista especial),0.9,299,9720.0,true
+4,Lista 4 (Gran distribuidor),0.85,299,9180.0,true
+1,Lista 1 (Base),1.0,10140,7750.0,true
+2,Lista 2 (Minorista sugerido),1.15,10140,8912.5,true
+3,Lista 3 (Mayorista especial),0.9,10140,6975.0,true
+4,Lista 4 (Gran distribuidor),0.85,10140,6587.5,true
+1,Lista 1 (Base),1.0,289,11340.0,true
+2,Lista 2 (Minorista sugerido),1.15,289,13041.0,true
+3,Lista 3 (Mayorista especial),0.9,289,10206.0,true
+4,Lista 4 (Gran distribuidor),0.85,289,9639.0,true
+1,Lista 1 (Base),1.0,295,10800.0,true
+2,Lista 2 (Minorista sugerido),1.15,295,12420.0,true
+3,Lista 3 (Mayorista especial),0.9,295,9720.0,true
+4,Lista 4 (Gran distribuidor),0.85,295,9180.0,true
+1,Lista 1 (Base),1.0,281,9360.0,true
+2,Lista 2 (Minorista sugerido),1.15,281,10764.0,true
+3,Lista 3 (Mayorista especial),0.9,281,8424.0,true
+4,Lista 4 (Gran distribuidor),0.85,281,7956.0,true
+1,Lista 1 (Base),1.0,294,11430.0,true
+2,Lista 2 (Minorista sugerido),1.15,294,13144.5,true
+3,Lista 3 (Mayorista especial),0.9,294,10287.0,true
+4,Lista 4 (Gran distribuidor),0.85,294,9715.5,true
+1,Lista 1 (Base),1.0,458,380.0,true
+2,Lista 2 (Minorista sugerido),1.15,458,437.0,true
+3,Lista 3 (Mayorista especial),0.9,458,342.0,true
+4,Lista 4 (Gran distribuidor),0.85,458,323.0,true
+1,Lista 1 (Base),1.0,464,3680.0,true
+2,Lista 2 (Minorista sugerido),1.15,464,4232.0,true
+3,Lista 3 (Mayorista especial),0.9,464,3312.0,true
+4,Lista 4 (Gran distribuidor),0.85,464,3128.0,true
+1,Lista 1 (Base),1.0,4,1260.0,true
+2,Lista 2 (Minorista sugerido),1.15,4,1449.0,true
+3,Lista 3 (Mayorista especial),0.9,4,1134.0,true
+4,Lista 4 (Gran distribuidor),0.85,4,1071.0,true
+1,Lista 1 (Base),1.0,5,950.0,true
+2,Lista 2 (Minorista sugerido),1.15,5,1092.5,true
+3,Lista 3 (Mayorista especial),0.9,5,855.0,true
+4,Lista 4 (Gran distribuidor),0.85,5,807.5,true
+1,Lista 1 (Base),1.0,10053,1220.0,true
+2,Lista 2 (Minorista sugerido),1.15,10053,1403.0,true
+3,Lista 3 (Mayorista especial),0.9,10053,1098.0,true
+4,Lista 4 (Gran distribuidor),0.85,10053,1037.0,true
+1,Lista 1 (Base),1.0,10051,1220.0,true
+2,Lista 2 (Minorista sugerido),1.15,10051,1403.0,true
+3,Lista 3 (Mayorista especial),0.9,10051,1098.0,true
+4,Lista 4 (Gran distribuidor),0.85,10051,1037.0,true
+1,Lista 1 (Base),1.0,10056,560.0,true
+2,Lista 2 (Minorista sugerido),1.15,10056,644.0,true
+3,Lista 3 (Mayorista especial),0.9,10056,504.0,true
+4,Lista 4 (Gran distribuidor),0.85,10056,476.0,true
+1,Lista 1 (Base),1.0,10054,1220.0,true
+2,Lista 2 (Minorista sugerido),1.15,10054,1403.0,true
+3,Lista 3 (Mayorista especial),0.9,10054,1098.0,true
+4,Lista 4 (Gran distribuidor),0.85,10054,1037.0,true
+1,Lista 1 (Base),1.0,10049,1220.0,true
+2,Lista 2 (Minorista sugerido),1.15,10049,1403.0,true
+3,Lista 3 (Mayorista especial),0.9,10049,1098.0,true
+4,Lista 4 (Gran distribuidor),0.85,10049,1037.0,true
+1,Lista 1 (Base),1.0,10052,1220.0,true
+2,Lista 2 (Minorista sugerido),1.15,10052,1403.0,true
+3,Lista 3 (Mayorista especial),0.9,10052,1098.0,true
+4,Lista 4 (Gran distribuidor),0.85,10052,1037.0,true
+1,Lista 1 (Base),1.0,10048,700.0,true
+2,Lista 2 (Minorista sugerido),1.15,10048,805.0,true
+3,Lista 3 (Mayorista especial),0.9,10048,630.0,true
+4,Lista 4 (Gran distribuidor),0.85,10048,595.0,true
+1,Lista 1 (Base),1.0,10055,560.0,true
+2,Lista 2 (Minorista sugerido),1.15,10055,644.0,true
+3,Lista 3 (Mayorista especial),0.9,10055,504.0,true
+4,Lista 4 (Gran distribuidor),0.85,10055,476.0,true
+1,Lista 1 (Base),1.0,10075,950.0,true
+2,Lista 2 (Minorista sugerido),1.15,10075,1092.5,true
+3,Lista 3 (Mayorista especial),0.9,10075,855.0,true
+4,Lista 4 (Gran distribuidor),0.85,10075,807.5,true
+1,Lista 1 (Base),1.0,10146,950.0,true
+2,Lista 2 (Minorista sugerido),1.15,10146,1092.5,true
+3,Lista 3 (Mayorista especial),0.9,10146,855.0,true
+4,Lista 4 (Gran distribuidor),0.85,10146,807.5,true
+1,Lista 1 (Base),1.0,10069,950.0,true
+2,Lista 2 (Minorista sugerido),1.15,10069,1092.5,true
+3,Lista 3 (Mayorista especial),0.9,10069,855.0,true
+4,Lista 4 (Gran distribuidor),0.85,10069,807.5,true
+1,Lista 1 (Base),1.0,10070,950.0,true
+2,Lista 2 (Minorista sugerido),1.15,10070,1092.5,true
+3,Lista 3 (Mayorista especial),0.9,10070,855.0,true
+4,Lista 4 (Gran distribuidor),0.85,10070,807.5,true
+1,Lista 1 (Base),1.0,10071,950.0,true
+2,Lista 2 (Minorista sugerido),1.15,10071,1092.5,true
+3,Lista 3 (Mayorista especial),0.9,10071,855.0,true
+4,Lista 4 (Gran distribuidor),0.85,10071,807.5,true
+1,Lista 1 (Base),1.0,10072,950.0,true
+2,Lista 2 (Minorista sugerido),1.15,10072,1092.5,true
+3,Lista 3 (Mayorista especial),0.9,10072,855.0,true
+4,Lista 4 (Gran distribuidor),0.85,10072,807.5,true
+1,Lista 1 (Base),1.0,10073,950.0,true
+2,Lista 2 (Minorista sugerido),1.15,10073,1092.5,true
+3,Lista 3 (Mayorista especial),0.9,10073,855.0,true
+4,Lista 4 (Gran distribuidor),0.85,10073,807.5,true
+1,Lista 1 (Base),1.0,10074,950.0,true
+2,Lista 2 (Minorista sugerido),1.15,10074,1092.5,true
+3,Lista 3 (Mayorista especial),0.9,10074,855.0,true
+4,Lista 4 (Gran distribuidor),0.85,10074,807.5,true
+1,Lista 1 (Base),1.0,380,14550.0,true
+2,Lista 2 (Minorista sugerido),1.15,380,16732.5,true
+3,Lista 3 (Mayorista especial),0.9,380,13095.0,true
+4,Lista 4 (Gran distribuidor),0.85,380,12367.5,true
+1,Lista 1 (Base),1.0,379,9340.0,true
+2,Lista 2 (Minorista sugerido),1.15,379,10741.0,true
+3,Lista 3 (Mayorista especial),0.9,379,8406.0,true
+4,Lista 4 (Gran distribuidor),0.85,379,7939.0,true
+1,Lista 1 (Base),1.0,10171,3200.0,true
+2,Lista 2 (Minorista sugerido),1.15,10171,3680.0,true
+3,Lista 3 (Mayorista especial),0.9,10171,2880.0,true
+4,Lista 4 (Gran distribuidor),0.85,10171,2720.0,true
+1,Lista 1 (Base),1.0,323,6790.0,true
+2,Lista 2 (Minorista sugerido),1.15,323,7808.5,true
+3,Lista 3 (Mayorista especial),0.9,323,6111.0,true
+4,Lista 4 (Gran distribuidor),0.85,323,5771.5,true
+1,Lista 1 (Base),1.0,361,6040.0,true
+2,Lista 2 (Minorista sugerido),1.15,361,6946.0,true
+3,Lista 3 (Mayorista especial),0.9,361,5436.0,true
+4,Lista 4 (Gran distribuidor),0.85,361,5134.0,true
+1,Lista 1 (Base),1.0,395,10800.0,true
+2,Lista 2 (Minorista sugerido),1.15,395,12420.0,true
+3,Lista 3 (Mayorista especial),0.9,395,9720.0,true
+4,Lista 4 (Gran distribuidor),0.85,395,9180.0,true
+1,Lista 1 (Base),1.0,302,10800.0,true
+2,Lista 2 (Minorista sugerido),1.15,302,12420.0,true
+3,Lista 3 (Mayorista especial),0.9,302,9720.0,true
+4,Lista 4 (Gran distribuidor),0.85,302,9180.0,true
+1,Lista 1 (Base),1.0,3,16780.0,true
+2,Lista 2 (Minorista sugerido),1.15,3,19297.0,true
+3,Lista 3 (Mayorista especial),0.9,3,15102.0,true
+4,Lista 4 (Gran distribuidor),0.85,3,14263.0,true
+1,Lista 1 (Base),1.0,10141,7750.0,true
+2,Lista 2 (Minorista sugerido),1.15,10141,8912.5,true
+3,Lista 3 (Mayorista especial),0.9,10141,6975.0,true
+4,Lista 4 (Gran distribuidor),0.85,10141,6587.5,true
+1,Lista 1 (Base),1.0,296,10800.0,true
+2,Lista 2 (Minorista sugerido),1.15,296,12420.0,true
+3,Lista 3 (Mayorista especial),0.9,296,9720.0,true
+4,Lista 4 (Gran distribuidor),0.85,296,9180.0,true
+1,Lista 1 (Base),1.0,375,10800.0,true
+2,Lista 2 (Minorista sugerido),1.15,375,12420.0,true
+3,Lista 3 (Mayorista especial),0.9,375,9720.0,true
+4,Lista 4 (Gran distribuidor),0.85,375,9180.0,true
+1,Lista 1 (Base),1.0,10169,3040.0,true
+2,Lista 2 (Minorista sugerido),1.15,10169,3496.0,true
+3,Lista 3 (Mayorista especial),0.9,10169,2736.0,true
+4,Lista 4 (Gran distribuidor),0.85,10169,2584.0,true
+1,Lista 1 (Base),1.0,10170,3040.0,true
+2,Lista 2 (Minorista sugerido),1.15,10170,3496.0,true
+3,Lista 3 (Mayorista especial),0.9,10170,2736.0,true
+4,Lista 4 (Gran distribuidor),0.85,10170,2584.0,true
+1,Lista 1 (Base),1.0,10097,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10097,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10097,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10097,1572.5,true
+1,Lista 1 (Base),1.0,10095,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10095,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10095,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10095,1572.5,true
+1,Lista 1 (Base),1.0,10096,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10096,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10096,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10096,1572.5,true
+1,Lista 1 (Base),1.0,10098,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10098,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10098,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10098,1572.5,true
+1,Lista 1 (Base),1.0,10099,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10099,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10099,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10099,1572.5,true
+1,Lista 1 (Base),1.0,10100,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10100,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10100,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10100,1572.5,true
+1,Lista 1 (Base),1.0,10101,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10101,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10101,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10101,1572.5,true
+1,Lista 1 (Base),1.0,10103,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10103,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10103,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10103,1572.5,true
+1,Lista 1 (Base),1.0,10102,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10102,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10102,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10102,1572.5,true
+1,Lista 1 (Base),1.0,10104,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10104,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10104,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10104,1572.5,true
+1,Lista 1 (Base),1.0,10106,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10106,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10106,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10106,1572.5,true
+1,Lista 1 (Base),1.0,10105,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10105,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10105,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10105,1572.5,true
+1,Lista 1 (Base),1.0,433,6790.0,true
+2,Lista 2 (Minorista sugerido),1.15,433,7808.5,true
+3,Lista 3 (Mayorista especial),0.9,433,6111.0,true
+4,Lista 4 (Gran distribuidor),0.85,433,5771.5,true
+1,Lista 1 (Base),1.0,437,2300.0,true
+2,Lista 2 (Minorista sugerido),1.15,437,2645.0,true
+3,Lista 3 (Mayorista especial),0.9,437,2070.0,true
+4,Lista 4 (Gran distribuidor),0.85,437,1955.0,true
+1,Lista 1 (Base),1.0,10040,5660.0,true
+2,Lista 2 (Minorista sugerido),1.15,10040,6509.0,true
+3,Lista 3 (Mayorista especial),0.9,10040,5094.0,true
+4,Lista 4 (Gran distribuidor),0.85,10040,4811.0,true
+1,Lista 1 (Base),1.0,10041,5660.0,true
+2,Lista 2 (Minorista sugerido),1.15,10041,6509.0,true
+3,Lista 3 (Mayorista especial),0.9,10041,5094.0,true
+4,Lista 4 (Gran distribuidor),0.85,10041,4811.0,true
+1,Lista 1 (Base),1.0,10042,5660.0,true
+2,Lista 2 (Minorista sugerido),1.15,10042,6509.0,true
+3,Lista 3 (Mayorista especial),0.9,10042,5094.0,true
+4,Lista 4 (Gran distribuidor),0.85,10042,4811.0,true
+1,Lista 1 (Base),1.0,10043,5660.0,true
+2,Lista 2 (Minorista sugerido),1.15,10043,6509.0,true
+3,Lista 3 (Mayorista especial),0.9,10043,5094.0,true
+4,Lista 4 (Gran distribuidor),0.85,10043,4811.0,true
+1,Lista 1 (Base),1.0,10044,5660.0,true
+2,Lista 2 (Minorista sugerido),1.15,10044,6509.0,true
+3,Lista 3 (Mayorista especial),0.9,10044,5094.0,true
+4,Lista 4 (Gran distribuidor),0.85,10044,4811.0,true
+1,Lista 1 (Base),1.0,435,5790.0,true
+2,Lista 2 (Minorista sugerido),1.15,435,6658.5,true
+3,Lista 3 (Mayorista especial),0.9,435,5211.0,true
+4,Lista 4 (Gran distribuidor),0.85,435,4921.5,true
+1,Lista 1 (Base),1.0,10118,1330.0,true
+2,Lista 2 (Minorista sugerido),1.15,10118,1529.5,true
+3,Lista 3 (Mayorista especial),0.9,10118,1197.0,true
+4,Lista 4 (Gran distribuidor),0.85,10118,1130.5,true
+1,Lista 1 (Base),1.0,321,14550.0,true
+2,Lista 2 (Minorista sugerido),1.15,321,16732.5,true
+3,Lista 3 (Mayorista especial),0.9,321,13095.0,true
+4,Lista 4 (Gran distribuidor),0.85,321,12367.5,true
+1,Lista 1 (Base),1.0,311,7480.0,true
+2,Lista 2 (Minorista sugerido),1.15,311,8602.0,true
+3,Lista 3 (Mayorista especial),0.9,311,6732.0,true
+4,Lista 4 (Gran distribuidor),0.85,311,6358.0,true
+1,Lista 1 (Base),1.0,293,8730.0,true
+2,Lista 2 (Minorista sugerido),1.15,293,10039.5,true
+3,Lista 3 (Mayorista especial),0.9,293,7857.0,true
+4,Lista 4 (Gran distribuidor),0.85,293,7420.5,true
+1,Lista 1 (Base),1.0,345,9340.0,true
+2,Lista 2 (Minorista sugerido),1.15,345,10741.0,true
+3,Lista 3 (Mayorista especial),0.9,345,8406.0,true
+4,Lista 4 (Gran distribuidor),0.85,345,7939.0,true
+1,Lista 1 (Base),1.0,300,10800.0,true
+2,Lista 2 (Minorista sugerido),1.15,300,12420.0,true
+3,Lista 3 (Mayorista especial),0.9,300,9720.0,true
+4,Lista 4 (Gran distribuidor),0.85,300,9180.0,true
+1,Lista 1 (Base),1.0,305,7870.0,true
+2,Lista 2 (Minorista sugerido),1.15,305,9050.5,true
+3,Lista 3 (Mayorista especial),0.9,305,7083.0,true
+4,Lista 4 (Gran distribuidor),0.85,305,6689.5,true
+1,Lista 1 (Base),1.0,10031,700.0,true
+2,Lista 2 (Minorista sugerido),1.15,10031,805.0,true
+3,Lista 3 (Mayorista especial),0.9,10031,630.0,true
+4,Lista 4 (Gran distribuidor),0.85,10031,595.0,true
+1,Lista 1 (Base),1.0,10119,1330.0,true
+2,Lista 2 (Minorista sugerido),1.15,10119,1529.5,true
+3,Lista 3 (Mayorista especial),0.9,10119,1197.0,true
+4,Lista 4 (Gran distribuidor),0.85,10119,1130.5,true
+1,Lista 1 (Base),1.0,10120,1330.0,true
+2,Lista 2 (Minorista sugerido),1.15,10120,1529.5,true
+3,Lista 3 (Mayorista especial),0.9,10120,1197.0,true
+4,Lista 4 (Gran distribuidor),0.85,10120,1130.5,true
+1,Lista 1 (Base),1.0,10121,1330.0,true
+2,Lista 2 (Minorista sugerido),1.15,10121,1529.5,true
+3,Lista 3 (Mayorista especial),0.9,10121,1197.0,true
+4,Lista 4 (Gran distribuidor),0.85,10121,1130.5,true
+1,Lista 1 (Base),1.0,10147,16670.0,true
+2,Lista 2 (Minorista sugerido),1.15,10147,19170.5,true
+3,Lista 3 (Mayorista especial),0.9,10147,15003.0,true
+4,Lista 4 (Gran distribuidor),0.85,10147,14169.5,true
+1,Lista 1 (Base),1.0,10009,15500.0,true
+2,Lista 2 (Minorista sugerido),1.15,10009,17825.0,true
+3,Lista 3 (Mayorista especial),0.9,10009,13950.0,true
+4,Lista 4 (Gran distribuidor),0.85,10009,13175.0,true
+1,Lista 1 (Base),1.0,10032,760.0,true
+2,Lista 2 (Minorista sugerido),1.15,10032,874.0,true
+3,Lista 3 (Mayorista especial),0.9,10032,684.0,true
+4,Lista 4 (Gran distribuidor),0.85,10032,646.0,true
+1,Lista 1 (Base),1.0,10108,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10108,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10108,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10108,1572.5,true
+1,Lista 1 (Base),1.0,10107,1850.0,true
+2,Lista 2 (Minorista sugerido),1.15,10107,2127.5,true
+3,Lista 3 (Mayorista especial),0.9,10107,1665.0,true
+4,Lista 4 (Gran distribuidor),0.85,10107,1572.5,true
+1,Lista 1 (Base),1.0,322,14550.0,true
+2,Lista 2 (Minorista sugerido),1.15,322,16732.5,true
+3,Lista 3 (Mayorista especial),0.9,322,13095.0,true
+4,Lista 4 (Gran distribuidor),0.85,322,12367.5,true
+1,Lista 1 (Base),1.0,314,7480.0,true
+2,Lista 2 (Minorista sugerido),1.15,314,8602.0,true
+3,Lista 3 (Mayorista especial),0.9,314,6732.0,true
+4,Lista 4 (Gran distribuidor),0.85,314,6358.0,true
+1,Lista 1 (Base),1.0,346,9340.0,true
+2,Lista 2 (Minorista sugerido),1.15,346,10741.0,true
+3,Lista 3 (Mayorista especial),0.9,346,8406.0,true
+4,Lista 4 (Gran distribuidor),0.85,346,7939.0,true
+1,Lista 1 (Base),1.0,308,7870.0,true
+2,Lista 2 (Minorista sugerido),1.15,308,9050.5,true
+3,Lista 3 (Mayorista especial),0.9,308,7083.0,true
+4,Lista 4 (Gran distribuidor),0.85,308,6689.5,true
+1,Lista 1 (Base),1.0,320,14550.0,true
+2,Lista 2 (Minorista sugerido),1.15,320,16732.5,true
+3,Lista 3 (Mayorista especial),0.9,320,13095.0,true
+4,Lista 4 (Gran distribuidor),0.85,320,12367.5,true
+1,Lista 1 (Base),1.0,10142,7750.0,true
+2,Lista 2 (Minorista sugerido),1.15,10142,8912.5,true
+3,Lista 3 (Mayorista especial),0.9,10142,6975.0,true
+4,Lista 4 (Gran distribuidor),0.85,10142,6587.5,true
+1,Lista 1 (Base),1.0,309,7480.0,true
+2,Lista 2 (Minorista sugerido),1.15,309,8602.0,true
+3,Lista 3 (Mayorista especial),0.9,309,6732.0,true
+4,Lista 4 (Gran distribuidor),0.85,309,6358.0,true
+1,Lista 1 (Base),1.0,347,9340.0,true
+2,Lista 2 (Minorista sugerido),1.15,347,10741.0,true
+3,Lista 3 (Mayorista especial),0.9,347,8406.0,true
+4,Lista 4 (Gran distribuidor),0.85,347,7939.0,true
+1,Lista 1 (Base),1.0,297,10800.0,true
+2,Lista 2 (Minorista sugerido),1.15,297,12420.0,true
+3,Lista 3 (Mayorista especial),0.9,297,9720.0,true
+4,Lista 4 (Gran distribuidor),0.85,297,9180.0,true
+1,Lista 1 (Base),1.0,303,7870.0,true
+2,Lista 2 (Minorista sugerido),1.15,303,9050.5,true
+3,Lista 3 (Mayorista especial),0.9,303,7083.0,true
+4,Lista 4 (Gran distribuidor),0.85,303,6689.5,true
+1,Lista 1 (Base),1.0,283,9360.0,true
+2,Lista 2 (Minorista sugerido),1.15,283,10764.0,true
+3,Lista 3 (Mayorista especial),0.9,283,8424.0,true
+4,Lista 4 (Gran distribuidor),0.85,283,7956.0,true
+1,Lista 1 (Base),1.0,337,11430.0,true
+2,Lista 2 (Minorista sugerido),1.15,337,13144.5,true
+3,Lista 3 (Mayorista especial),0.9,337,10287.0,true
+4,Lista 4 (Gran distribuidor),0.85,337,9715.5,true
+1,Lista 1 (Base),1.0,459,370.0,true
+2,Lista 2 (Minorista sugerido),1.15,459,425.5,true
+3,Lista 3 (Mayorista especial),0.9,459,333.0,true
+4,Lista 4 (Gran distribuidor),0.85,459,314.5,true
+1,Lista 1 (Base),1.0,432,4120.0,true
+2,Lista 2 (Minorista sugerido),1.15,432,4738.0,true
+3,Lista 3 (Mayorista especial),0.9,432,3708.0,true
+4,Lista 4 (Gran distribuidor),0.85,432,3502.0,true
+1,Lista 1 (Base),1.0,13,4200.0,true
+2,Lista 2 (Minorista sugerido),1.15,13,4830.0,true
+3,Lista 3 (Mayorista especial),0.9,13,3780.0,true
+4,Lista 4 (Gran distribuidor),0.85,13,3570.0,true
+1,Lista 1 (Base),1.0,17,2300.0,true
+2,Lista 2 (Minorista sugerido),1.15,17,2645.0,true
+3,Lista 3 (Mayorista especial),0.9,17,2070.0,true
+4,Lista 4 (Gran distribuidor),0.85,17,1955.0,true
+1,Lista 1 (Base),1.0,430,4120.0,true
+2,Lista 2 (Minorista sugerido),1.15,430,4738.0,true
+3,Lista 3 (Mayorista especial),0.9,430,3708.0,true
+4,Lista 4 (Gran distribuidor),0.85,430,3502.0,true
+1,Lista 1 (Base),1.0,431,1990.0,true
+2,Lista 2 (Minorista sugerido),1.15,431,2288.5,true
+3,Lista 3 (Mayorista especial),0.9,431,1791.0,true
+4,Lista 4 (Gran distribuidor),0.85,431,1691.5,true
+1,Lista 1 (Base),1.0,453,1630.0,true
+2,Lista 2 (Minorista sugerido),1.15,453,1874.5,true
+3,Lista 3 (Mayorista especial),0.9,453,1467.0,true
+4,Lista 4 (Gran distribuidor),0.85,453,1385.5,true
+1,Lista 1 (Base),1.0,436,5720.0,true
+2,Lista 2 (Minorista sugerido),1.15,436,6578.0,true
+3,Lista 3 (Mayorista especial),0.9,436,5148.0,true
+4,Lista 4 (Gran distribuidor),0.85,436,4862.0,true
+1,Lista 1 (Base),1.0,10122,2420.0,true
+2,Lista 2 (Minorista sugerido),1.15,10122,2783.0,true
+3,Lista 3 (Mayorista especial),0.9,10122,2178.0,true
+4,Lista 4 (Gran distribuidor),0.85,10122,2057.0,true
+1,Lista 1 (Base),1.0,440,8070.0,true
+2,Lista 2 (Minorista sugerido),1.15,440,9280.5,true
+3,Lista 3 (Mayorista especial),0.9,440,7263.0,true
+4,Lista 4 (Gran distribuidor),0.85,440,6859.5,true
+1,Lista 1 (Base),1.0,213,1970.0,true
+2,Lista 2 (Minorista sugerido),1.15,213,2265.5,true
+3,Lista 3 (Mayorista especial),0.9,213,1773.0,true
+4,Lista 4 (Gran distribuidor),0.85,213,1674.5,true
+1,Lista 1 (Base),1.0,441,1990.0,true
+2,Lista 2 (Minorista sugerido),1.15,441,2288.5,true
+3,Lista 3 (Mayorista especial),0.9,441,1791.0,true
+4,Lista 4 (Gran distribuidor),0.85,441,1691.5,true
+1,Lista 1 (Base),1.0,10125,970.0,true
+2,Lista 2 (Minorista sugerido),1.15,10125,1115.5,true
+3,Lista 3 (Mayorista especial),0.9,10125,873.0,true
+4,Lista 4 (Gran distribuidor),0.85,10125,824.5,true
+1,Lista 1 (Base),1.0,10124,1450.0,true
+2,Lista 2 (Minorista sugerido),1.15,10124,1667.5,true
+3,Lista 3 (Mayorista especial),0.9,10124,1305.0,true
+4,Lista 4 (Gran distribuidor),0.85,10124,1232.5,true
+1,Lista 1 (Base),1.0,10123,1450.0,true
+2,Lista 2 (Minorista sugerido),1.15,10123,1667.5,true
+3,Lista 3 (Mayorista especial),0.9,10123,1305.0,true
+4,Lista 4 (Gran distribuidor),0.85,10123,1232.5,true
+1,Lista 1 (Base),1.0,312,7480.0,true
+2,Lista 2 (Minorista sugerido),1.15,312,8602.0,true
+3,Lista 3 (Mayorista especial),0.9,312,6732.0,true
+4,Lista 4 (Gran distribuidor),0.85,312,6358.0,true
+1,Lista 1 (Base),1.0,306,7870.0,true
+2,Lista 2 (Minorista sugerido),1.15,306,9050.5,true
+3,Lista 3 (Mayorista especial),0.9,306,7083.0,true
+4,Lista 4 (Gran distribuidor),0.85,306,6689.5,true
+1,Lista 1 (Base),1.0,461,430.0,true
+2,Lista 2 (Minorista sugerido),1.15,461,494.5,true
+3,Lista 3 (Mayorista especial),0.9,461,387.0,true
+4,Lista 4 (Gran distribuidor),0.85,461,365.5,true
+1,Lista 1 (Base),1.0,460,550.0,true
+2,Lista 2 (Minorista sugerido),1.15,460,632.5,true
+3,Lista 3 (Mayorista especial),0.9,460,495.0,true
+4,Lista 4 (Gran distribuidor),0.85,460,467.5,true
+1,Lista 1 (Base),1.0,469,1370.0,true
+2,Lista 2 (Minorista sugerido),1.15,469,1575.5,true
+3,Lista 3 (Mayorista especial),0.9,469,1233.0,true
+4,Lista 4 (Gran distribuidor),0.85,469,1164.5,true
+1,Lista 1 (Base),1.0,310,7480.0,true
+2,Lista 2 (Minorista sugerido),1.15,310,8602.0,true
+3,Lista 3 (Mayorista especial),0.9,310,6732.0,true
+4,Lista 4 (Gran distribuidor),0.85,310,6358.0,true
+1,Lista 1 (Base),1.0,304,7870.0,true
+2,Lista 2 (Minorista sugerido),1.15,304,9050.5,true
+3,Lista 3 (Mayorista especial),0.9,304,7083.0,true
+4,Lista 4 (Gran distribuidor),0.85,304,6689.5,true
+1,Lista 1 (Base),1.0,10139,7750.0,true
+2,Lista 2 (Minorista sugerido),1.15,10139,8912.5,true
+3,Lista 3 (Mayorista especial),0.9,10139,6975.0,true
+4,Lista 4 (Gran distribuidor),0.85,10139,6587.5,true
+1,Lista 1 (Base),1.0,292,8730.0,true
+2,Lista 2 (Minorista sugerido),1.15,292,10039.5,true
+3,Lista 3 (Mayorista especial),0.9,292,7857.0,true
+4,Lista 4 (Gran distribuidor),0.85,292,7420.5,true
+1,Lista 1 (Base),1.0,301,10800.0,true
+2,Lista 2 (Minorista sugerido),1.15,301,12420.0,true
+3,Lista 3 (Mayorista especial),0.9,301,9720.0,true
+4,Lista 4 (Gran distribuidor),0.85,301,9180.0,true
+1,Lista 1 (Base),1.0,284,9360.0,true
+2,Lista 2 (Minorista sugerido),1.15,284,10764.0,true
+3,Lista 3 (Mayorista especial),0.9,284,8424.0,true
+4,Lista 4 (Gran distribuidor),0.85,284,7956.0,true
+1,Lista 1 (Base),1.0,10047,7480.0,true
+2,Lista 2 (Minorista sugerido),1.15,10047,8602.0,true
+3,Lista 3 (Mayorista especial),0.9,10047,6732.0,true
+4,Lista 4 (Gran distribuidor),0.85,10047,6358.0,true
+1,Lista 1 (Base),1.0,338,11340.0,true
+2,Lista 2 (Minorista sugerido),1.15,338,13041.0,true
+3,Lista 3 (Mayorista especial),0.9,338,10206.0,true
+4,Lista 4 (Gran distribuidor),0.85,338,9639.0,true
+1,Lista 1 (Base),1.0,10160,7870.0,true
+2,Lista 2 (Minorista sugerido),1.15,10160,9050.5,true
+3,Lista 3 (Mayorista especial),0.9,10160,7083.0,true
+4,Lista 4 (Gran distribuidor),0.85,10160,6689.5,true
+1,Lista 1 (Base),1.0,226,7665.84,true
+2,Lista 2 (Minorista sugerido),1.15,226,8815.72,true
+3,Lista 3 (Mayorista especial),0.9,226,6899.26,true
+4,Lista 4 (Gran distribuidor),0.85,226,6515.96,true
+1,Lista 1 (Base),1.0,462,470.0,true
+2,Lista 2 (Minorista sugerido),1.15,462,540.5,true
+3,Lista 3 (Mayorista especial),0.9,462,423.0,true
+4,Lista 4 (Gran distribuidor),0.85,462,399.5,true
+1,Lista 1 (Base),1.0,210,970.0,true
+2,Lista 2 (Minorista sugerido),1.15,210,1115.5,true
+3,Lista 3 (Mayorista especial),0.9,210,873.0,true
+4,Lista 4 (Gran distribuidor),0.85,210,824.5,true
+1,Lista 1 (Base),1.0,10126,1590.0,true
+2,Lista 2 (Minorista sugerido),1.15,10126,1828.5,true
+3,Lista 3 (Mayorista especial),0.9,10126,1431.0,true
+4,Lista 4 (Gran distribuidor),0.85,10126,1351.5,true
+1,Lista 1 (Base),1.0,10062,1220.0,true
+2,Lista 2 (Minorista sugerido),1.15,10062,1403.0,true
+3,Lista 3 (Mayorista especial),0.9,10062,1098.0,true
+4,Lista 4 (Gran distribuidor),0.85,10062,1037.0,true
+1,Lista 1 (Base),1.0,10058,1220.0,true
+2,Lista 2 (Minorista sugerido),1.15,10058,1403.0,true
+3,Lista 3 (Mayorista especial),0.9,10058,1098.0,true
+4,Lista 4 (Gran distribuidor),0.85,10058,1037.0,true
+1,Lista 1 (Base),1.0,10060,1220.0,true
+2,Lista 2 (Minorista sugerido),1.15,10060,1403.0,true
+3,Lista 3 (Mayorista especial),0.9,10060,1098.0,true
+4,Lista 4 (Gran distribuidor),0.85,10060,1037.0,true
+1,Lista 1 (Base),1.0,10059,1220.0,true
+2,Lista 2 (Minorista sugerido),1.15,10059,1403.0,true
+3,Lista 3 (Mayorista especial),0.9,10059,1098.0,true
+4,Lista 4 (Gran distribuidor),0.85,10059,1037.0,true
+1,Lista 1 (Base),1.0,10061,1220.0,true
+2,Lista 2 (Minorista sugerido),1.15,10061,1403.0,true
+3,Lista 3 (Mayorista especial),0.9,10061,1098.0,true
+4,Lista 4 (Gran distribuidor),0.85,10061,1037.0,true
+1,Lista 1 (Base),1.0,10057,1220.0,true
+2,Lista 2 (Minorista sugerido),1.15,10057,1403.0,true
+3,Lista 3 (Mayorista especial),0.9,10057,1098.0,true
+4,Lista 4 (Gran distribuidor),0.85,10057,1037.0,true
+1,Lista 1 (Base),1.0,235,1600.0,true
+2,Lista 2 (Minorista sugerido),1.15,235,1840.0,true
+3,Lista 3 (Mayorista especial),0.9,235,1440.0,true
+4,Lista 4 (Gran distribuidor),0.85,235,1360.0,true
+1,Lista 1 (Base),1.0,470,1630.0,true
+2,Lista 2 (Minorista sugerido),1.15,470,1874.5,true
+3,Lista 3 (Mayorista especial),0.9,470,1467.0,true
+4,Lista 4 (Gran distribuidor),0.85,470,1385.5,true
+1,Lista 1 (Base),1.0,10076,1550.0,true
+2,Lista 2 (Minorista sugerido),1.15,10076,1782.5,true
+3,Lista 3 (Mayorista especial),0.9,10076,1395.0,true
+4,Lista 4 (Gran distribuidor),0.85,10076,1317.5,true
+1,Lista 1 (Base),1.0,10080,830.0,true
+2,Lista 2 (Minorista sugerido),1.15,10080,954.5,true
+3,Lista 3 (Mayorista especial),0.9,10080,747.0,true
+4,Lista 4 (Gran distribuidor),0.85,10080,705.5,true
+1,Lista 1 (Base),1.0,10086,500.0,true
+2,Lista 2 (Minorista sugerido),1.15,10086,575.0,true
+3,Lista 3 (Mayorista especial),0.9,10086,450.0,true
+4,Lista 4 (Gran distribuidor),0.85,10086,425.0,true
+1,Lista 1 (Base),1.0,10093,830.0,true
+2,Lista 2 (Minorista sugerido),1.15,10093,954.5,true
+3,Lista 3 (Mayorista especial),0.9,10093,747.0,true
+4,Lista 4 (Gran distribuidor),0.85,10093,705.5,true
+1,Lista 1 (Base),1.0,10079,830.0,true
+2,Lista 2 (Minorista sugerido),1.15,10079,954.5,true
+3,Lista 3 (Mayorista especial),0.9,10079,747.0,true
+4,Lista 4 (Gran distribuidor),0.85,10079,705.5,true
+1,Lista 1 (Base),1.0,10085,500.0,true
+2,Lista 2 (Minorista sugerido),1.15,10085,575.0,true
+3,Lista 3 (Mayorista especial),0.9,10085,450.0,true
+4,Lista 4 (Gran distribuidor),0.85,10085,425.0,true
+1,Lista 1 (Base),1.0,10084,830.0,true
+2,Lista 2 (Minorista sugerido),1.15,10084,954.5,true
+3,Lista 3 (Mayorista especial),0.9,10084,747.0,true
+4,Lista 4 (Gran distribuidor),0.85,10084,705.5,true
+1,Lista 1 (Base),1.0,10094,830.0,true
+2,Lista 2 (Minorista sugerido),1.15,10094,954.5,true
+3,Lista 3 (Mayorista especial),0.9,10094,747.0,true
+4,Lista 4 (Gran distribuidor),0.85,10094,705.5,true
+1,Lista 1 (Base),1.0,10082,830.0,true
+2,Lista 2 (Minorista sugerido),1.15,10082,954.5,true
+3,Lista 3 (Mayorista especial),0.9,10082,747.0,true
+4,Lista 4 (Gran distribuidor),0.85,10082,705.5,true
+1,Lista 1 (Base),1.0,10088,500.0,true
+2,Lista 2 (Minorista sugerido),1.15,10088,575.0,true
+3,Lista 3 (Mayorista especial),0.9,10088,450.0,true
+4,Lista 4 (Gran distribuidor),0.85,10088,425.0,true
+1,Lista 1 (Base),1.0,10077,830.0,true
+2,Lista 2 (Minorista sugerido),1.15,10077,954.5,true
+3,Lista 3 (Mayorista especial),0.9,10077,747.0,true
+4,Lista 4 (Gran distribuidor),0.85,10077,705.5,true
+1,Lista 1 (Base),1.0,10087,500.0,true
+2,Lista 2 (Minorista sugerido),1.15,10087,575.0,true
+3,Lista 3 (Mayorista especial),0.9,10087,450.0,true
+4,Lista 4 (Gran distribuidor),0.85,10087,425.0,true
+1,Lista 1 (Base),1.0,10081,830.0,true
+2,Lista 2 (Minorista sugerido),1.15,10081,954.5,true
+3,Lista 3 (Mayorista especial),0.9,10081,747.0,true
+4,Lista 4 (Gran distribuidor),0.85,10081,705.5,true
+1,Lista 1 (Base),1.0,10089,500.0,true
+2,Lista 2 (Minorista sugerido),1.15,10089,575.0,true
+3,Lista 3 (Mayorista especial),0.9,10089,450.0,true
+4,Lista 4 (Gran distribuidor),0.85,10089,425.0,true
+1,Lista 1 (Base),1.0,10078,830.0,true
+2,Lista 2 (Minorista sugerido),1.15,10078,954.5,true
+3,Lista 3 (Mayorista especial),0.9,10078,747.0,true
+4,Lista 4 (Gran distribuidor),0.85,10078,705.5,true
+1,Lista 1 (Base),1.0,10090,500.0,true
+2,Lista 2 (Minorista sugerido),1.15,10090,575.0,true
+3,Lista 3 (Mayorista especial),0.9,10090,450.0,true
+4,Lista 4 (Gran distribuidor),0.85,10090,425.0,true
+1,Lista 1 (Base),1.0,10083,830.0,true
+2,Lista 2 (Minorista sugerido),1.15,10083,954.5,true
+3,Lista 3 (Mayorista especial),0.9,10083,747.0,true
+4,Lista 4 (Gran distribuidor),0.85,10083,705.5,true
+1,Lista 1 (Base),1.0,10092,500.0,true
+2,Lista 2 (Minorista sugerido),1.15,10092,575.0,true
+3,Lista 3 (Mayorista especial),0.9,10092,450.0,true
+4,Lista 4 (Gran distribuidor),0.85,10092,425.0,true
+1,Lista 1 (Base),1.0,10091,830.0,true
+2,Lista 2 (Minorista sugerido),1.15,10091,954.5,true
+3,Lista 3 (Mayorista especial),0.9,10091,747.0,true
+4,Lista 4 (Gran distribuidor),0.85,10091,705.5,true
+1,Lista 1 (Base),1.0,315,10490.0,true
+2,Lista 2 (Minorista sugerido),1.15,315,12063.5,true
+3,Lista 3 (Mayorista especial),0.9,315,9441.0,true
+4,Lista 4 (Gran distribuidor),0.85,315,8916.5,true
+1,Lista 1 (Base),1.0,10161,7750.0,true
+2,Lista 2 (Minorista sugerido),1.15,10161,8912.5,true
+3,Lista 3 (Mayorista especial),0.9,10161,6975.0,true
+4,Lista 4 (Gran distribuidor),0.85,10161,6587.5,true
+1,Lista 1 (Base),1.0,10045,5660.0,true
+2,Lista 2 (Minorista sugerido),1.15,10045,6509.0,true
+3,Lista 3 (Mayorista especial),0.9,10045,5094.0,true
+4,Lista 4 (Gran distribuidor),0.85,10045,4811.0,true
+1,Lista 1 (Base),1.0,10029,610.0,true
+2,Lista 2 (Minorista sugerido),1.15,10029,701.5,true
+3,Lista 3 (Mayorista especial),0.9,10029,549.0,true
+4,Lista 4 (Gran distribuidor),0.85,10029,518.5,true
+1,Lista 1 (Base),1.0,472,11430.0,true
+2,Lista 2 (Minorista sugerido),1.15,472,13144.5,true
+3,Lista 3 (Mayorista especial),0.9,472,10287.0,true
+4,Lista 4 (Gran distribuidor),0.85,472,9715.5,true
+1,Lista 1 (Base),1.0,298,11340.0,true
+2,Lista 2 (Minorista sugerido),1.15,298,13041.0,true
+3,Lista 3 (Mayorista especial),0.9,298,10206.0,true
+4,Lista 4 (Gran distribuidor),0.85,298,9639.0,true
+1,Lista 1 (Base),1.0,10034,17280.0,true
+2,Lista 2 (Minorista sugerido),1.15,10034,19872.0,true
+3,Lista 3 (Mayorista especial),0.9,10034,15552.0,true
+4,Lista 4 (Gran distribuidor),0.85,10034,14688.0,true
+1,Lista 1 (Base),1.0,10136,780.0,true
+2,Lista 2 (Minorista sugerido),1.15,10136,897.0,true
+3,Lista 3 (Mayorista especial),0.9,10136,702.0,true
+4,Lista 4 (Gran distribuidor),0.85,10136,663.0,true
+1,Lista 1 (Base),1.0,10134,780.0,true
+2,Lista 2 (Minorista sugerido),1.15,10134,897.0,true
+3,Lista 3 (Mayorista especial),0.9,10134,702.0,true
+4,Lista 4 (Gran distribuidor),0.85,10134,663.0,true
+1,Lista 1 (Base),1.0,10137,780.0,true
+2,Lista 2 (Minorista sugerido),1.15,10137,897.0,true
+3,Lista 3 (Mayorista especial),0.9,10137,702.0,true
+4,Lista 4 (Gran distribuidor),0.85,10137,663.0,true
+1,Lista 1 (Base),1.0,10135,780.0,true
+2,Lista 2 (Minorista sugerido),1.15,10135,897.0,true
+3,Lista 3 (Mayorista especial),0.9,10135,702.0,true
+4,Lista 4 (Gran distribuidor),0.85,10135,663.0,true
+1,Lista 1 (Base),1.0,10138,780.0,true
+2,Lista 2 (Minorista sugerido),1.15,10138,897.0,true
+3,Lista 3 (Mayorista especial),0.9,10138,702.0,true
+4,Lista 4 (Gran distribuidor),0.85,10138,663.0,true
+1,Lista 1 (Base),1.0,1,20270.0,true
+2,Lista 2 (Minorista sugerido),1.15,1,23310.5,true
+3,Lista 3 (Mayorista especial),0.9,1,18243.0,true
+4,Lista 4 (Gran distribuidor),0.85,1,17229.5,true
+1,Lista 1 (Base),1.0,10024,2750.0,true
+2,Lista 2 (Minorista sugerido),1.15,10024,3162.5,true
+3,Lista 3 (Mayorista especial),0.9,10024,2475.0,true
+4,Lista 4 (Gran distribuidor),0.85,10024,2337.5,true
+1,Lista 1 (Base),1.0,10026,1550.0,true
+2,Lista 2 (Minorista sugerido),1.15,10026,1782.5,true
+3,Lista 3 (Mayorista especial),0.9,10026,1395.0,true
+4,Lista 4 (Gran distribuidor),0.85,10026,1317.5,true
+1,Lista 1 (Base),1.0,10023,3210.0,true
+2,Lista 2 (Minorista sugerido),1.15,10023,3691.5,true
+3,Lista 3 (Mayorista especial),0.9,10023,2889.0,true
+4,Lista 4 (Gran distribuidor),0.85,10023,2728.5,true
+1,Lista 1 (Base),1.0,10021,2990.0,true
+2,Lista 2 (Minorista sugerido),1.15,10021,3438.5,true
+3,Lista 3 (Mayorista especial),0.9,10021,2691.0,true
+4,Lista 4 (Gran distribuidor),0.85,10021,2541.5,true
+1,Lista 1 (Base),1.0,10022,1530.0,true
+2,Lista 2 (Minorista sugerido),1.15,10022,1759.5,true
+3,Lista 3 (Mayorista especial),0.9,10022,1377.0,true
+4,Lista 4 (Gran distribuidor),0.85,10022,1300.5,true
