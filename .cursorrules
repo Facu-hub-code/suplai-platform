@@ -1,0 +1,35 @@
+# 📌 IMPORTANT: Additional Workspace Rules
+The `.cursor/rules/` directory contains crucial, specific rules for different parts of this multi-repo workspace. 
+Before making any changes, you **MUST** locate, read, and strictly follow the rules defined in `.cursor/rules/`:
+- **`git-sync-and-feature-branch.mdc`**: Git workflow and branching strategy.
+- **`platform-overview.mdc`**: Ecosystem structure and repo responsibilities.
+- **`supabase-mcp-connections-and-pooling.mdc`**: Detailed rules on Supabase connection pooling.
+- **`supabase-mcp-database.mdc`**: Guidelines for Supabase database operations.
+- **`suplai-implementation-guardrails.mdc`**: Safety rules for tenant onboardings.
+- **`suplai-implementation-mcp-writes.mdc`**: Protocol for Supabase database writes.
+
+---
+
+# Supabase Connections & Pooling Rules (Límite 60)
+
+El proyecto utiliza Supabase con un límite físico estricto de **60 conexiones concurrentes** compartidas entre backend, agentes, entornos locales y herramientas de IA (MCP). Todo agente que opere en este workspace **MUST** seguir y aplicar las siguientes reglas para evitar agotar las conexiones y causar caídas de servicio.
+
+## 1. Reglas de Puertos de Base de Datos
+- **MUST NOT** usar el puerto de conexión directa `5432` (Session Mode) en scripts, tests o archivos de configuración locales.
+- **MUST** enrutar todas las conexiones a través del puerto **`6543`** (Supabase Transaction Mode pooler) en todos los entornos (desarrollo, testing y producción).
+
+## 2. Configuración de Prepared Statements (Obligatorio en Puerto 6543)
+Conectarse al pooler en modo transacción con el cache de sentencias activado genera errores del tipo `InvalidSQLStatementNameError` o `DuplicatePreparedStatementError`.
+- **MUST** desactivar el cache de sentencias preparadas en cualquier script o aplicación que configure la base de datos:
+  - **asyncpg (Python direct client):** Pasar `statement_cache_size=0` en `asyncpg.create_pool()` o `asyncpg.connect()`.
+  - **SQLAlchemy (Python ORM):** Pasar `connect_args={"statement_cache_size": 0, "prepared_statement_cache_size": 0}` al inicializar el engine.
+
+## 3. Límites de Pooling Local y de Tests
+- **MUST** configurar el tamaño del pool al mínimo requerido en scripts locales, herramientas de análisis y suites de pruebas:
+  - **asyncpg:** `min_size=1`, `max_size=2` máximo.
+  - **SQLAlchemy:** `pool_size=1` o `2` con `max_overflow=0`.
+
+## 4. Uso Eficiente de Herramientas de IA y MCP
+- **MUST NOT** realizar consultas secuenciales repetitivas (loops de queries) en el chat o herramientas MCP. Si necesitás verificar datos o realizar comprobaciones en varias tablas, **MUST** consolidar las consultas en una sola sentencia SQL combinada (`JOIN` o múltiples consultas separadas por punto y coma en una sola llamada a `execute_sql`).
+- **MUST** envolver todo uso de conexiones locales en manejadores de contexto (`async with` o bloques `try...finally`) para garantizar que la conexión se libere de inmediato en caso de error.
+- **MUST** asegurar que cualquier servidor de pruebas o aplicación web local cierre de manera ordenada el pool en sus hooks de apagado (ej. `await pool.close()` o `await engine.dispose()`) para evitar fugas de conexiones en reinicios progresivos.
