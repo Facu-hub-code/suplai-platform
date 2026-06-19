@@ -30,9 +30,23 @@ description: Fase 1 catálogo — Excel a CSV de productos enriquecidos y carga 
 | NLP en nombre | `categoria_2`..`categoria_4` |
 | Top ~20% marcas líderes del rubro | `rotacion_index` 0.75–0.95 |
 | Resto | Pareto hacia 0.1 |
-| LLM | `aliases` (pipe-separated en CSV), `descripcion`, `image_url` placeholder |
+| LLM | `aliases` (pipe-separated en CSV), `descripcion` (ver reglas abajo), `image_url` placeholder |
 | Sin stock en Excel | `stock` 10–500 según rotación |
 | Simulación | `is_mock=true` en CSV |
+
+
+## Reglas estrictas para `descripcion` (generación inicial sin búsqueda web)
+
+> ⚠️ Esta descripción es provisoria. La Fase 1.2 la mejora con búsqueda web solo para los N productos seleccionados. Por eso la calidad inicial importa: el resto nunca se enriquecerá.
+
+1. **Longitud**: 10 a 25 palabras. Una sola oración breve.
+2. **Cero fluff/marketing**: Prohibido usar palabras como `delicioso`, `irresistible`, `suave`, `ideal`, `perfecto`, `descubre`, `disfruta`, `cautivará`, `atractivo`, `rotación rápida`, ni mencionar kioscos, ventas o márgenes.
+3. **Formato directo**: Empezar con el sustantivo de la categoría del producto.
+   - ✅ `Chocolate con leche relleno de crema de frutilla, marca Cofler, 30 g.`
+   - ✅ `Ravioles de pollo y verdura, marca DeViano, 900 g, x12 unidades.`
+   - ❌ `Descubre los irresistibles Ravioles DeViano, ideales para compartir en familia...`
+4. **Contenido permitido**: marca, sabor, formato físico (peso, presentación, unidades por bulto). Sin adornos.
+5. **Sin contexto inventado**: No incluir afirmaciones sobre comportamiento del consumidor, sugerencias de venta ni beneficios percibidos.
 
 ## Listas de precios mock
 
