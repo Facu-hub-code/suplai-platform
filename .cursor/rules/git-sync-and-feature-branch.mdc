@@ -45,8 +45,32 @@ Antes del primer cambio de código:
 cd <repo> → git fetch → git pull → (si troncal) checkout -b <rama> → editar código
 ```
 
-## 4. Excepciones
+## 4. Pull request obligatorio (todos los repos)
+
+Aplica a **todos** los repos del ecosistema: `platform/`, `agent/`, `backend/`, `backoffice/`, `tienda/`, `field-app/`, `sniffer/`, `sales-engine/`.
+
+Cuando el agente termina cambios de código (o el usuario pide subirlos):
+
+1. **Commitear** en la rama de feature (nunca en troncal).
+2. **Push** de la rama al remoto (`git push -u origin HEAD`).
+3. **Crear PR** hacia la troncal (`main` / `master`) con `gh pr create`.
+4. **Entregar la URL del PR** al usuario.
+
+**Prohibido** mergear a la troncal sin aprobación explícita del usuario desde la web de GitHub. El agente **no** debe:
+- Hacer `gh pr merge` ni mergear desde la CLI.
+- Hacer push directo a `main` / `master` (salvo pedido explícito del usuario).
+
+Si ya existe un PR abierto para la rama, **actualizarlo** (push a la misma rama) en lugar de crear uno duplicado.
+
+Flujo completo:
+
+```
+rama feature → commit → push → PR → usuario aprueba y mergea en GitHub
+```
+
+## 5. Excepciones
 
 - El usuario pide explícitamente trabajar en la troncal o sin pull.
 - El directorio no es un repositorio git (solo documentación suelta sin `.git`): no aplicar fetch/pull; avisar si se esperaba un repo.
 - Operaciones **solo** de git pedidas por el usuario (status, diff, commit, PR) siguen las reglas de commit/PR del usuario; aun así, antes de **nuevos** cambios de código, repetir sync + rama si hace falta.
+- El usuario pide explícitamente mergear o pushear a troncal sin PR.
