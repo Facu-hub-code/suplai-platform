@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Suplai Platform — contexto del workspace
 
-Este workspace agrupa **siete carpetas** de código + `platform/`:
+Este workspace agrupa **ocho carpetas** de código + `platform/`:
 
 | Carpeta | Repo real | Rol |
 |---------|-----------|-----|
@@ -14,6 +14,7 @@ Este workspace agrupa **siete carpetas** de código + `platform/`:
 | `backend/` | `backend-supabase` | API REST multi-tenant |
 | `backoffice/` | `product-management-app` | Back office Next.js |
 | `tienda/` | `wholesale-catalog-app` | Catálogo web B2B (link del agente) |
+| `field-app/` | `field-app` | App mobile-first vendedores (Suplai Field) |
 | `sniffer/` | `sniffer-vendedores` | Espejo Kommo — análisis conversaciones vendedor |
 | `sales-engine/` | `sales-engine` | ML co-ocurrencia / frecuencia compra PdV |
 
@@ -23,6 +24,7 @@ Este workspace agrupa **siete carpetas** de código + `platform/`:
 - **Endpoints REST, migraciones SQL** → `backend/`
 - **UI back office, proxy API** → `backoffice/`
 - **Catálogo web, carrito, login tienda** → `tienda/`
+- **App vendedor, tareas gamificadas, torneos** → `field-app/` + `platform/docs/specs/003-suplai-field-app.md`
 - **Webhooks Kommo, patrones vendedor** → `sniffer/`
 - **Retrain modelo, predict-combo** → `sales-engine/`
 - **Investigación cross-cutting** → `platform/docs/CROSS-REPO-QUERIES.md` + MCP
@@ -47,3 +49,4 @@ Usar MCP Supabase para esquema principal (regla `supabase-mcp-database.mdc`).
 - Backend: `web-production-f544f.up.railway.app`
 - Agente: `agente-conversacional-multitenant-production.up.railway.app`
 - Tienda: `tienda.suplaisales.com`
+- Suplai Field: `field.suplaisales.com`

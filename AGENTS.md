@@ -2,7 +2,7 @@
 
 ## Qué es este workspace
 
-Meta-proyecto que agrupa **siete repos** del ecosistema Suplai Sales. Úsalo cuando la tarea cruce capas: UI → API → BD → agente → tienda → ML → análisis de conversaciones.
+Meta-proyecto que agrupa **ocho repos** del ecosistema Suplai Sales. Úsalo cuando la tarea cruce capas: UI → API → BD → agente → tienda → field app → ML → análisis de conversaciones.
 
 ## Repos y responsabilidades
 
@@ -12,6 +12,7 @@ Meta-proyecto que agrupa **siete repos** del ecosistema Suplai Sales. Úsalo cua
 | `backend/` | Python, FastAPI | Directo vía asyncpg; fuente de migraciones |
 | `backoffice/` | Next.js 16, React 19 | Solo vía backend (proxy en `app/api/*`) |
 | `tienda/` | Next.js (v0/Vercel) | Solo vía backend (`lib/tienda-api.ts`) |
+| `field-app/` | Next.js (Vercel) | Solo vía backend (`lib/field-api.ts`) — app vendedores |
 | `sniffer/` | Python, FastAPI, Alembic | Postgres propio (espejo Kommo) |
 | `sales-engine/` | Python, FastAPI, scikit-learn | Lee `{tenant}.pedidos` / `items_pedido` en Supabase |
 
@@ -41,7 +42,9 @@ Regla completa (Cursor): `.cursor/rules/git-sync-and-feature-branch.mdc`
 | Flujo | Origen | Destino |
 |-------|--------|---------|
 | Link de catálogo | `agent/` tool `get_catalog_link` | `tienda/` (`https://tienda.suplaisales.com/{schema}?wp=...`) |
+| App vendedor (Suplai Field) | `agent/` tools `get_field_app_link`, `get_seller_*` | `field-app/` (`https://field.suplaisales.com/{schema}?wp=...`) |
 | Pedido en tienda | `tienda/` | `backend/` endpoints `/login-tienda`, `/{schema}/tienda/*` |
+| Tareas y torneos vendedor | `field-app/`, `agent/` | `backend/` endpoints `/{schema}/vendedor-app/*`, `/{schema}/field/*` |
 | Recomendaciones combo | `sales-engine/` | Entrena desde pedidos del tenant; puede alimentar sugerencias del agente |
 | Análisis comercial vendedor | `sniffer/` | Webhooks Kommo → espejo para patrones de éxito (independiente del agente Meta) |
 | Automatización / workflows | n8n en Railway (`n8n infra`) | MCP instance-level + REST API; skill `platform/.cursor/skills/n8n-railway-mcp/` |
@@ -64,6 +67,7 @@ Migraciones oficiales viven en `backend/`.
 | Endpoint REST, migraciones | `backend/routers/`, `backend/services/` |
 | Back office UI / proxy | `backoffice/app/`, `backoffice/components/` |
 | Catálogo web, carrito, login tienda | `tienda/components/`, `tienda/lib/tienda-api.ts` |
+| App vendedor Suplai Field | `field-app/`, spec índice `platform/docs/specs/003-suplai-field-app.md` |
 | Conversaciones Kommo, patrones vendedor | `sniffer/app/`, `sniffer/docs/` |
 | Modelo ML, retrain, predict-combo | `sales-engine/main.py`, `sales-engine/docs/` |
 | n8n, workflows, MCP n8n, integraciones GEV | `platform/.cursor/skills/n8n-railway-mcp/`, repo `test-api-gev/` |
@@ -76,6 +80,7 @@ Migraciones oficiales viven en `backend/`.
 - Backend: `https://web-production-f544f.up.railway.app`
 - Agente: `https://agente-conversacional-multitenant-production.up.railway.app`
 - Tienda: `https://tienda.suplaisales.com`
+- Suplai Field (vendedores): `https://field.suplaisales.com`
 - Swagger backend: `https://web-production-f544f.up.railway.app/docs`
 
 ## Skill recomendada

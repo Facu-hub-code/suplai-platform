@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Git — sincronizar y rama de trabajo
 
-Antes de **modificar, crear o borrar archivos de código** en cualquier carpeta con repositorio git (`platform/`, `agent/`, `backend/`, `backoffice/`, `tienda/`, `sniffer/`, `sales-engine/`), el agente **debe** completar este flujo en **ese** repo (cada carpeta tiene su propio `.git`).
+Antes de **modificar, crear o borrar archivos de código** en cualquier carpeta con repositorio git (`platform/`, `agent/`, `backend/`, `backoffice/`, `tienda/`, `field-app/`, `sniffer/`, `sales-engine/`), el agente **debe** completar este flujo en **ese** repo (cada carpeta tiene su propio `.git`).
 
 ## 1. Sincronizar con remoto (obligatorio)
 
