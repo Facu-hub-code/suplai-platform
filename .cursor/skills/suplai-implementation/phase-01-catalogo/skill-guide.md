@@ -55,7 +55,16 @@ Por cada producto (fila), aplicar las siguientes reglas para completar los campo
   - Para el resto de marcas, aplicar una distribución Pareto descendente con base en `0.1`.
 - **Enriquecimiento con LLM**:
   - Generar `aliases` comerciales en formato texto separado por tuberías (`|`) (ej. `sika 1 | sika impermeabilizante | sika uno`).
-  - Crear una `descripcion` comercial limpia y atractiva para RAG.
+  - Crear una `descripcion` técnica para RAG siguiendo estas **reglas estrictas** (sin búsqueda web):
+    1. **Longitud**: 10 a 25 palabras. Una sola oración breve.
+    2. **Cero fluff/marketing**: Prohibido usar `delicioso`, `irresistible`, `suave`, `ideal`, `perfecto`, `descubre`, `disfruta`, `cautivará`, `atractivo`, `rotación rápida`, ni mencionar kioscos, ventas o márgenes.
+    3. **Formato directo**: Empezar con el sustantivo de la categoría del producto.
+       - ✅ `Chocolate con leche relleno de crema de frutilla, marca Cofler, 30 g.`
+       - ✅ `Ravioles de pollo y verdura, marca DeViano, 900 g, x12 unidades.`
+       - ❌ `Descubre los irresistibles Ravioles DeViano, ideales para compartir en familia...`
+    4. **Contenido permitido**: marca, sabor, formato físico (peso, presentación, unidades por bulto). Sin adornos.
+    5. **Sin contexto inventado**: No incluir afirmaciones sobre comportamiento del consumidor, sugerencias de venta ni beneficios percibidos.
+  - > ⚠️ Esta descripción es provisoria. La Fase 1.2 la mejora con búsqueda web solo para los N productos seleccionados. El resto de los productos conservará esta descripción inicial de forma permanente.
   - Asignar un `image_url` placeholder descriptivo basado en la categoría.
 - **Stock por Defecto**: Si el Excel no provee stock real, asignar valores simulados de stock entre `10` y `500` unidades según el índice de rotación.
 - **Flag de Simulación**: Establecer `is_mock = true` para diferenciar los datos de prueba de los reales de producción.
