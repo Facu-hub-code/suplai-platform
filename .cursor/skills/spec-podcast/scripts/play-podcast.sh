@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-# play-podcast.sh — abre un archivo de audio en el reproductor de macOS.
+# play-podcast.sh — abre un archivo de audio en QuickTime Player (macOS).
 set -euo pipefail
+
+PLAYER_APP="${PODCAST_PLAYER_APP:-QuickTime Player}"
 
 AUDIO="${1:-}"
 MODE="${2:-}"
@@ -22,5 +24,5 @@ if [[ "$MODE" == "--background" ]]; then
   exit 0
 fi
 
-echo "Abriendo reproductor: $AUDIO"
-open "$AUDIO"
+echo "Abriendo $PLAYER_APP: $AUDIO"
+open -a "$PLAYER_APP" "$AUDIO"
