@@ -115,7 +115,7 @@ Salida: `output/{slug}/podcast.m4a` (+ intermedio `podcast.aiff` o `podcast.mp3`
   .cursor/skills/spec-podcast/output/{slug}/podcast.m4a
 ```
 
-Abre el reproductor por defecto de macOS (`open`). Pasar `--background` para `afplay` sin ventana.
+Abre **QuickTime Player** (`open -a "QuickTime Player"`). Pasar `--background` para `afplay` sin ventana. Otro reproductor: `PODCAST_PLAYER_APP="Music" play-podcast.sh ...`.
 
 ## Entrega al usuario
 
