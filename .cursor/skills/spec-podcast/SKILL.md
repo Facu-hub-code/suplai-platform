@@ -99,10 +99,11 @@ Opciones (env vars):
 | `MACOS_VOICE` | `Reed` | voz masculina del fallback `say` |
 | `RATE` | `170` | palabras/min (solo `macos`) |
 
-Para voz **neuronal humana** basta exportar una key, por ejemplo:
+Para voz **neuronal** (ElevenLabs u OpenAI), copiar `.env.example` → `.env` en la carpeta de la skill y completar credenciales. `render-podcast.sh` carga `.env` automáticamente.
 
 ```bash
-export OPENAI_API_KEY=sk-...   # luego render usa backend openai automáticamente
+cp .cursor/skills/spec-podcast/.env.example .cursor/skills/spec-podcast/.env
+# editar .env con ELEVENLABS_API_KEY y PODCAST_VOICE_ID
 ```
 
 Salida: `output/{slug}/podcast.m4a` (+ intermedio `podcast.aiff` o `podcast.mp3`).

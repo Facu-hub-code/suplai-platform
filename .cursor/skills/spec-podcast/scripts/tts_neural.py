@@ -11,6 +11,7 @@ Env requeridas:
 import argparse
 import json
 import os
+import ssl
 import sys
 import urllib.error
 import urllib.request
@@ -26,6 +27,14 @@ FACUNDO_INSTRUCTIONS = (
 )
 
 
+def _ssl_context() -> ssl.SSLContext:
+    try:
+        import certifi  # noqa: PLC0415 — opcional; común en macOS Python
+        return ssl.create_default_context(cafile=certifi.where())
+    except ImportError:
+        return ssl.create_default_context()
+
+
 def _read_text(path: str) -> str:
     with open(path, "r", encoding="utf-8") as fh:
         text = fh.read().strip()
@@ -38,7 +47,7 @@ def _post(url: str, headers: dict, payload: dict, out_path: str) -> None:
     data = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(url, data=data, headers=headers, method="POST")
     try:
-        with urllib.request.urlopen(req, timeout=120) as resp:
+        with urllib.request.urlopen(req, timeout=120, context=_ssl_context()) as resp:
             audio = resp.read()
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode("utf-8", "replace")[:500]

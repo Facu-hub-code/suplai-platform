@@ -18,6 +18,15 @@ if [[ -z "$SCRIPT_TXT" || ! -f "$SCRIPT_TXT" ]]; then
 fi
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SKILL_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+ENV_FILE="$SKILL_ROOT/.env"
+if [[ -f "$ENV_FILE" ]]; then
+  set -a
+  # shellcheck disable=SC1090
+  source "$ENV_FILE"
+  set +a
+fi
+
 OUT_DIR="$(dirname "$SCRIPT_TXT")"
 AIFF="$OUT_DIR/podcast.aiff"
 MP3="$OUT_DIR/podcast.mp3"
