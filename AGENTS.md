@@ -83,7 +83,38 @@ Migraciones oficiales viven en `backend/`.
 - Suplai Field (vendedores): `https://field.suplaisales.com`
 - Swagger backend: `https://web-production-f544f.up.railway.app/docs`
 
-## Skill recomendada
+## Skills
 
-Investigaciones cross-repo: `.cursor/skills/cross-repo-investigation/SKILL.md`  
-Onboarding / implementación tenant: `.cursor/skills/suplai-implementation/SKILL.md` + `implementacion/README.md`
+### Custom Suplai (en git, `.cursor/skills/`)
+
+| Skill | Cuándo |
+|-------|--------|
+| `cross-repo-investigation` | Bugs o preguntas que cruzan repos |
+| `suplai-implementation` | Onboarding tenant (fases 0–10) + `implementacion/README.md` |
+| `agent-e2e-testing` | E2E conversacional + healthcheck BD por tenant |
+| `analyze-system-prompt` | Auditar prompt ensamblado y tokens |
+| `analyze-conversations` | Análisis cualitativo de chats reales |
+| `n8n-railway-mcp` | Operación n8n en Railway |
+| `enhance-descriptions` | Optimizar descripciones comerciales |
+| `feature-test-guide` | Guías de prueba de features |
+
+### Vendor (skills.sh — no en git, lock sí)
+
+Tras clone o actualización del lock:
+
+```bash
+bash scripts/install-vendor-skills.sh
+```
+
+- **Lock:** `skills-lock.json` — versiones pinneadas.
+- **Catálogo y mapeo:** `skills-vendor.manifest.json` (tiers 1–5, Cursor vs Antigravity).
+- **Antigravity:** lee `.agents/skills/` directamente.
+- **Cursor:** symlinks en `.cursor/skills/_vendor/` (no mezclar con skills Suplai).
+
+| Tier | Skills clave | Agentes |
+|------|--------------|---------|
+| 1 Arquitectura | `langchain-architecture`, `langgraph`, `mcp-builder` | Cursor + Antigravity |
+| 2 Meta | `writing-skills`, `skill-creator`, `find-skills` | Cursor + Antigravity |
+| 3 Orquestación dev | `brainstorming`, `writing-plans`, `subagent-driven-development`, … | Solo Cursor |
+| 4 Evaluación | `llm-evaluation`, `eval-harness` (+ `agent-e2e-testing` Suplai) | Cursor + Antigravity |
+| 5 Testing web | `webapp-testing`, `agent-browser`, `web-design-guidelines` | Cursor + Antigravity |

@@ -1,0 +1,133 @@
+{
+  "$schema": "internal",
+  "description": "Catálogo de skills vendor (skills.sh). Fuente de verdad operativa: skills-lock.json. Tras clone: bash scripts/install-vendor-skills.sh",
+  "agents": {
+    "shared": ["cursor", "antigravity"],
+    "cursor_only": ["cursor"]
+  },
+  "tiers": {
+    "1_arquitectura_agente": {
+      "agents": "shared",
+      "skills": [
+        {
+          "name": "langchain-architecture",
+          "source": "wshobson/agents",
+          "suplai_use": "Auditar y mejorar LangGraph del agente WhatsApp (StateGraph, checkpointers Postgres, multi-agent)."
+        },
+        {
+          "name": "langgraph",
+          "source": "sickn33/antigravity-awesome-skills",
+          "suplai_use": "Patrones concretos de grafos, routing, anti-patrones (loops, nodos stateless)."
+        },
+        {
+          "name": "mcp-builder",
+          "source": "anthropics/skills",
+          "suplai_use": "Formalizar diseño de MCP (Supabase, n8n) y tools del agente."
+        }
+      ]
+    },
+    "2_meta_skills": {
+      "agents": "shared",
+      "skills": [
+        {
+          "name": "writing-skills",
+          "source": "obra/superpowers",
+          "suplai_use": "TDD para documentar y mantener skills en .cursor/skills/."
+        },
+        {
+          "name": "skill-creator",
+          "source": "anthropics/skills",
+          "suplai_use": "Crear/evaluar skills nuevas con benchmarks de triggering."
+        },
+        {
+          "name": "find-skills",
+          "source": "vercel-labs/skills",
+          "suplai_use": "Descubrir skills adicionales en skills.sh mid-session."
+        }
+      ]
+    },
+    "3_orquestacion_cursor": {
+      "agents": "cursor_only",
+      "note": "Solo Cursor — optimizan token usage y subagentes en sesiones de desarrollo.",
+      "skills": [
+        { "name": "brainstorming", "source": "obra/superpowers" },
+        { "name": "writing-plans", "source": "obra/superpowers" },
+        { "name": "executing-plans", "source": "obra/superpowers" },
+        { "name": "subagent-driven-development", "source": "obra/superpowers" },
+        { "name": "dispatching-parallel-agents", "source": "obra/superpowers" },
+        { "name": "verification-before-completion", "source": "obra/superpowers" },
+        { "name": "systematic-debugging", "source": "obra/superpowers" },
+        { "name": "using-git-worktrees", "source": "obra/superpowers" }
+      ]
+    },
+    "4_evaluacion_agente": {
+      "agents": "shared",
+      "note": "Complementan agent-e2e-testing (Suplai). No reemplazan scripts ni healthcheck.",
+      "skills": [
+        {
+          "name": "llm-evaluation",
+          "source": "wshobson/agents",
+          "suplai_use": "Métricas, regresiones por cambio de prompt, baselines."
+        },
+        {
+          "name": "eval-harness",
+          "source": "affaan-m/everything-claude-code",
+          "suplai_use": "Eval-driven development: criterios pass/fail antes de cambiar prompts/tools."
+        },
+        {
+          "name": "agent-evaluation",
+          "source": "supercent-io/skills-template",
+          "status": "pending",
+          "suplai_use": "Framework evals multi-turn (Anthropic demystifying evals). Instalar manualmente si el clone HTTPS falla.",
+          "install": "npx skills add https://github.com/supercent-io/skills-template --skill agent-evaluation --agent cursor antigravity -y --copy"
+        }
+      ]
+    },
+    "5_testing_web": {
+      "agents": "shared",
+      "skills": [
+        {
+          "name": "webapp-testing",
+          "source": "anthropics/skills",
+          "suplai_use": "Playwright Python para tienda, backoffice, field-app."
+        },
+        {
+          "name": "agent-browser",
+          "source": "vercel-labs/agent-browser",
+          "suplai_use": "Automatización browser desde el agente (forms, screenshots)."
+        },
+        {
+          "name": "web-design-guidelines",
+          "source": "vercel-labs/agent-skills",
+          "suplai_use": "Review UX/a11y de interfaces Next.js."
+        }
+      ]
+    }
+  },
+  "suplai_custom_skills": {
+    "agent-e2e-testing": {
+      "scope": "E2E conversacional + healthcheck BD por tenant",
+      "vendor_tier4": "Usar llm-evaluation / eval-harness para diseñar evals; agent-e2e-testing para ejecutar contra el agente real."
+    },
+    "analyze-system-prompt": {
+      "scope": "Auditoría read-only del prompt ensamblado",
+      "vendor_tier4": "llm-evaluation para medir impacto de optimizaciones."
+    },
+    "analyze-conversations": {
+      "scope": "Análisis cualitativo de chats reales",
+      "vendor_tier4": "agent-evaluation (cuando esté instalada) para formalizar graders."
+    },
+    "suplai-implementation": {
+      "scope": "Onboarding tenant fases 0-10",
+      "vendor_tier2": "writing-skills + skill-creator para evolucionar fases."
+    },
+    "cross-repo-investigation": {
+      "scope": "Bugs cross-repo",
+      "vendor_tier3": "dispatching-parallel-agents + systematic-debugging."
+    },
+    "n8n-railway-mcp": {
+      "scope": "Operación n8n en Railway",
+      "vendor_tier1": "mcp-builder para diseño de tools MCP."
+    }
+  }
+}

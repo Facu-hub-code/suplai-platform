@@ -75,6 +75,7 @@ Agente                 →  link tienda → Tienda web
 
 Guía para implementadores: [`implementacion/README.md`](implementacion/README.md).  
 Skills Cursor: `.cursor/skills/suplai-implementation/` (fases 0–9, CSV + carga MCP).  
+Skills vendor (skills.sh): `bash scripts/install-vendor-skills.sh` — ver `skills-vendor.manifest.json`.  
 Piloto: `implementacion/colormix/`.
 
 ## Documentación

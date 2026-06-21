@@ -10,6 +10,16 @@ Este flujo permite validar que el agente de Suplai Sales de una distribuidora es
 > [!IMPORTANT]
 > **REGLA DE OBLIGADA LECTURA PARA EL AGENTE**: Antes de ejecutar cualquier paso de esta skill, el agente **DEBE LEER obligatoriamente** la guía de uso detallada en [skill-guide.md](./skill-guide.md). Esto asegura que se sigan las reglas de deshabilitación de herramientas, la creación del cliente de pruebas y el flujo de análisis/optimización.
 
+### Skills vendor relacionadas (Tier 4 — no reemplazan este flujo)
+
+| Skill vendor | Rol vs `agent-e2e-testing` |
+|--------------|----------------------------|
+| `llm-evaluation` | Diseñar métricas y detectar regresiones tras cambios de prompt — **antes/después** de correr E2E. |
+| `eval-harness` | Definir criterios pass/fail formales (EDD) para nuevos casos de prueba. |
+| `agent-evaluation` | Framework evals multi-turn (opcional; ver `skills-vendor.manifest.json`). |
+
+**Regla:** Para validar un tenant en Suplai, **usar siempre esta skill** (`healthcheck_schema.py` + `test_agent_e2e.py`). Las vendor complementan diseño de evals, no sustituyen los scripts ni el cliente `suplai-platform-test`.
+
 ---
 
 ## 1. Identificar el Esquema del Tenant
