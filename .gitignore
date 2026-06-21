@@ -9,8 +9,12 @@ credentials.json
 .cursor/mcp.local.json
 .cursor/mcp.n8n.json
 
-# Antigravity (Toto)
+# Antigravity (Toto) + skills vendor (skills.sh → .agents/skills/)
 .agents/
+
+# Symlinks Cursor → .agents/skills/ (generados por scripts/install-vendor-skills.sh)
+.cursor/skills/_vendor/*
+!.cursor/skills/_vendor/README.md
 
 scratch/
 
