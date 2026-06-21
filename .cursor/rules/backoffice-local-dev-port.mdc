@@ -1,0 +1,41 @@
+---
+description: Puerto obligatorio del backoffice en localhost — Google Maps SDK whitelist
+alwaysApply: true
+---
+
+# Backoffice — puerto local 3000 (Google Maps)
+
+El backoffice (`product-management-app/`) usa **Google Maps** en el mapa comercial (`CommercialMapDisplay`, `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY`).
+
+La API key de Google Maps tiene **restricción por referrer/origen HTTP** configurada para desarrollo local en:
+
+- `http://localhost:3000`
+- `http://127.0.0.1:3000`
+
+## Reglas
+
+- **`MUST`** levantar el backoffice en el **puerto 3000** al probar en localhost:
+  ```bash
+  cd backoffice   # product-management-app/
+  BACKEND_URL=http://localhost:8000 npm run dev
+  # o explícito: npm run dev -- -p 3000
+  ```
+- **`MUST NOT`** documentar ni sugerir otro puerto para el backoffice local (p. ej. 3001) salvo que el usuario haya actualizado la whitelist en Google Cloud Console.
+- Si el mapa comercial falla con error de API key / referrer bloqueado, **primero** verificar que la URL sea `http://localhost:3000`, no otro puerto.
+
+## Stack local multi-app
+
+Cuando se prueban **backoffice + field-app + backend** a la vez:
+
+| Servicio | Puerto local |
+|----------|--------------|
+| Backend | `8000` |
+| **Backoffice** | **`3000`** (fijo — Maps SDK) |
+| Field app | `3001` (u otro distinto de 3000) |
+| Tienda (si aplica) | `3002` |
+
+Field-app **`MUST NOT`** usar 3000 si el backoffice está corriendo en la misma máquina.
+
+## Guías de prueba y skills
+
+Al generar instrucciones de localhost (skill `feature-test-guide`, README, specs de QA), respetar esta tabla de puertos.

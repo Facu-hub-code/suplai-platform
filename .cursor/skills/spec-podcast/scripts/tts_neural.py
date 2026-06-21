@@ -43,7 +43,7 @@ def _read_text(path: str) -> str:
     return text
 
 
-def _post(url: str, headers: dict, payload: dict, out_path: str) -> None:
+def _post(url: str, headers: dict, payload: dict, out_path: str, provider: str) -> None:
     data = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(url, data=data, headers=headers, method="POST")
     try:
@@ -51,9 +51,20 @@ def _post(url: str, headers: dict, payload: dict, out_path: str) -> None:
             audio = resp.read()
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode("utf-8", "replace")[:500]
-        sys.exit(f"Error HTTP {exc.code} del proveedor: {detail}")
+        if exc.code in (402, 429) or "quota_exceeded" in detail or "quota" in detail.lower():
+            hint = " (créditos agotados o insuficientes para este texto)"
+        elif exc.code in (401, 403):
+            hint = " (¿API key inválida o sin permiso?)"
+        else:
+            hint = ""
+        print(f"[{provider}] HTTP {exc.code}{hint}: {detail}", file=sys.stderr)
+        sys.exit(1)
     except urllib.error.URLError as exc:
-        sys.exit(f"Error de red: {exc.reason}")
+        print(f"[{provider}] Error de red: {exc.reason}", file=sys.stderr)
+        sys.exit(1)
+    if len(audio) < 256:
+        print(f"[{provider}] Respuesta demasiado corta; posible error del proveedor.", file=sys.stderr)
+        sys.exit(1)
     with open(out_path, "wb") as fh:
         fh.write(audio)
 
@@ -75,7 +86,7 @@ def gen_openai(text: str, out_path: str, voice: str, model: str) -> None:
         "Authorization": f"Bearer {key}",
         "Content-Type": "application/json",
     }
-    _post(OPENAI_URL, headers, payload, out_path)
+    _post(OPENAI_URL, headers, payload, out_path, "openai")
 
 
 def gen_elevenlabs(text: str, out_path: str, voice_id: str, model: str) -> None:
@@ -95,7 +106,7 @@ def gen_elevenlabs(text: str, out_path: str, voice_id: str, model: str) -> None:
         "Content-Type": "application/json",
         "Accept": "audio/mpeg",
     }
-    _post(url, headers, payload, out_path)
+    _post(url, headers, payload, out_path, "elevenlabs")
 
 
 def main() -> None:
