@@ -10,15 +10,15 @@ description: >-
 
 Genera un episodio corto (~2–4 min) a partir de un spec `.md`: guion hablado en español rioplatense + audio `.m4a`. El host es **Facundo** (voz masculina, joven, argentina).
 
-**Backends de voz:**
+**Backends de voz (cadena de fallback en `auto`):**
 
-| Backend | Calidad | Requiere | Acento argentino |
-|---------|---------|----------|------------------|
-| `macos` | Sintética | nada (`say`, `afconvert`) | aproximado (voz masculina + guion) |
-| `openai` | Neuronal natural | `OPENAI_API_KEY` | guiado por instrucciones |
-| `elevenlabs` | Neuronal / clonable | `ELEVENLABS_API_KEY` + `PODCAST_VOICE_ID` | configurable por voz |
+| Orden | Backend | Requiere | Notas |
+|-------|---------|----------|-------|
+| 1 | `elevenlabs` | `ELEVENLABS_API_KEY` + `PODCAST_VOICE_ID` | Preferido — voz natural |
+| 2 | `openai` | `OPENAI_API_KEY` | Fallback si ElevenLabs sin créditos / error |
+| 3 | `macos` | `say`, `afconvert` | Último recurso — voz sintética |
 
-Por defecto (`auto`) usa el neuronal si hay credenciales; si no, cae a `macos`. Diseño completo: [docs/specs/008-spec-podcast-voz-humana.md](../../../docs/specs/008-spec-podcast-voz-humana.md).
+`PODCAST_TTS_BACKEND=auto` (default) recorre la cadena **ElevenLabs → OpenAI → macOS** hasta que uno funcione.
 
 ## Cuándo usar
 
@@ -91,13 +91,15 @@ Opciones (env vars):
 
 | Variable | Default | Notas |
 |----------|---------|-------|
-| `PODCAST_TTS_BACKEND` | `auto` | `auto` \| `macos` \| `openai` \| `elevenlabs` |
-| `OPENAI_API_KEY` | — | habilita backend `openai` (voz `onyx` por defecto) |
-| `OPENAI_VOICE` | `onyx` | voz OpenAI (`onyx`, `ash`, etc.) |
-| `ELEVENLABS_API_KEY` | — | habilita backend `elevenlabs` |
-| `PODCAST_VOICE_ID` | — | voice id de ElevenLabs (clon o pre-hecha) |
-| `MACOS_VOICE` | `Reed` | voz masculina del fallback `say` |
+| `PODCAST_TTS_BACKEND` | `auto` | `auto` \| `elevenlabs` \| `openai` \| `macos` — en `auto`/`elevenlabs`/`openai` hay fallback en cadena |
+| `ELEVENLABS_API_KEY` | — | primer intento en `auto` |
+| `PODCAST_VOICE_ID` | — | voice id ElevenLabs |
+| `OPENAI_API_KEY` | — | fallback si ElevenLabs falla |
+| `OPENAI_VOICE` | `onyx` | voz OpenAI |
+| `MACOS_VOICE` | `Reed` | último fallback local |
 | `RATE` | `170` | palabras/min (solo `macos`) |
+
+**No** forzar `PODCAST_TTS_BACKEND=macos` salvo prueba offline. Configurar `.env` con ElevenLabs + OpenAI como respaldo.
 
 Para voz **neuronal** (ElevenLabs u OpenAI), copiar `.env.example` → `.env` en la carpeta de la skill y completar credenciales. `render-podcast.sh` carga `.env` automáticamente.
 

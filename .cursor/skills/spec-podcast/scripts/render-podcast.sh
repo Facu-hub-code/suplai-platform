@@ -2,10 +2,10 @@
 # render-podcast.sh — convierte un guion de texto en podcast.m4a.
 #
 # Backends de voz (env PODCAST_TTS_BACKEND):
-#   auto        (default) → elevenlabs si hay key; si no openai; si no macos
+#   auto        (default) → ElevenLabs → OpenAI → macOS (fallback en cadena)
+#   elevenlabs  → ElevenLabs; si falla (créditos/red) → OpenAI → macOS
+#   openai      → OpenAI; si falla → macOS
 #   macos       → TTS nativo (say). Sin red ni credenciales. Voz sintética.
-#   openai      → OpenAI TTS (voz neuronal natural). Requiere OPENAI_API_KEY.
-#   elevenlabs  → ElevenLabs (neuronal/clonable). Requiere ELEVENLABS_API_KEY.
 #
 # Voz "Facundo" (host): masculina, joven. Acento argentino real solo con
 # backend neuronal; en macos se aproxima con voz masculina + guion humanizado.
@@ -20,11 +20,15 @@ fi
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SKILL_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 ENV_FILE="$SKILL_ROOT/.env"
+BACKEND_PRESET="${PODCAST_TTS_BACKEND:-}"
 if [[ -f "$ENV_FILE" ]]; then
   set -a
   # shellcheck disable=SC1090
   source "$ENV_FILE"
   set +a
+fi
+if [[ -n "$BACKEND_PRESET" ]]; then
+  PODCAST_TTS_BACKEND="$BACKEND_PRESET"
 fi
 
 OUT_DIR="$(dirname "$SCRIPT_TXT")"
@@ -34,58 +38,107 @@ M4A="$OUT_DIR/podcast.m4a"
 
 BACKEND="${PODCAST_TTS_BACKEND:-auto}"
 
-# macOS: voz masculina por defecto (Facundo). Configurable con MACOS_VOICE.
 MACOS_VOICE="${MACOS_VOICE:-${VOICE:-Reed}}"
 RATE="${RATE:-170}"
 
-# Neuronal
-OPENAI_VOICE="${OPENAI_VOICE:-onyx}"          # masculina grave/natural
+OPENAI_VOICE="${OPENAI_VOICE:-onyx}"
 OPENAI_MODEL="${OPENAI_MODEL:-gpt-4o-mini-tts}"
 ELEVEN_VOICE_ID="${PODCAST_VOICE_ID:-${ELEVEN_VOICE_ID:-}}"
 ELEVEN_MODEL="${ELEVEN_MODEL:-eleven_multilingual_v2}"
 
-resolve_backend() {
-  if [[ "$BACKEND" != "auto" ]]; then echo "$BACKEND"; return; fi
-  if [[ -n "${ELEVENLABS_API_KEY:-}" && -n "$ELEVEN_VOICE_ID" ]]; then echo "elevenlabs"; return; fi
-  if [[ -n "${OPENAI_API_KEY:-}" ]]; then echo "openai"; return; fi
-  echo "macos"
-}
+USED_BACKEND=""
 
 require_cmd() {
   command -v "$1" >/dev/null 2>&1 || { echo "Error: falta '$1'." >&2; exit 1; }
 }
 
+has_elevenlabs() {
+  [[ -n "${ELEVENLABS_API_KEY:-}" && -n "$ELEVEN_VOICE_ID" ]]
+}
+
+has_openai() {
+  [[ -n "${OPENAI_API_KEY:-}" ]]
+}
+
 to_m4a_from() {
-  # $1 = archivo fuente (aiff/mp3) → M4A
   require_cmd afconvert
   afconvert "$1" "$M4A" -f m4af -d aac -q 127
 }
 
-EFFECTIVE="$(resolve_backend)"
-echo "Backend de voz: $EFFECTIVE"
+run_neural() {
+  local provider="$1"
+  require_cmd python3
+  python3 "$SCRIPT_DIR/tts_neural.py" \
+    --provider "$provider" \
+    --text-file "$SCRIPT_TXT" \
+    --out "$MP3" \
+    --openai-voice "$OPENAI_VOICE" \
+    --openai-model "$OPENAI_MODEL" \
+    --eleven-voice-id "$ELEVEN_VOICE_ID" \
+    --eleven-model "$ELEVEN_MODEL"
+}
 
-case "$EFFECTIVE" in
-  macos)
-    require_cmd say
-    echo "Generando con macOS say (voz=$MACOS_VOICE rate=$RATE) ..."
-    say -v "$MACOS_VOICE" -r "$RATE" -o "$AIFF" -f "$SCRIPT_TXT"
-    to_m4a_from "$AIFF"
-    ;;
-  openai|elevenlabs)
-    require_cmd python3
-    echo "Generando con $EFFECTIVE (voz neuronal) ..."
-    python3 "$SCRIPT_DIR/tts_neural.py" \
-      --provider "$EFFECTIVE" \
-      --text-file "$SCRIPT_TXT" \
-      --out "$MP3" \
-      --openai-voice "$OPENAI_VOICE" \
-      --openai-model "$OPENAI_MODEL" \
-      --eleven-voice-id "$ELEVEN_VOICE_ID" \
-      --eleven-model "$ELEVEN_MODEL"
+run_macos() {
+  require_cmd say
+  echo "Generando con macOS say (voz=$MACOS_VOICE rate=$RATE) ..."
+  say -v "$MACOS_VOICE" -r "$RATE" -o "$AIFF" -f "$SCRIPT_TXT"
+  to_m4a_from "$AIFF"
+  USED_BACKEND="macos"
+}
+
+try_elevenlabs() {
+  if ! has_elevenlabs; then
+    return 1
+  fi
+  echo "Intentando ElevenLabs (voz neuronal) ..."
+  if run_neural elevenlabs; then
     to_m4a_from "$MP3"
+    USED_BACKEND="elevenlabs"
+    return 0
+  fi
+  echo "⚠ ElevenLabs falló (créditos, auth o red). Probando siguiente proveedor ..." >&2
+  return 1
+}
+
+try_openai() {
+  if ! has_openai; then
+    echo "ℹ OpenAI omitido: agregá OPENAI_API_KEY en spec-podcast/.env para fallback neuronal." >&2
+    return 1
+  fi
+  echo "Intentando OpenAI TTS (voz=$OPENAI_VOICE) ..."
+  if run_neural openai; then
+    to_m4a_from "$MP3"
+    USED_BACKEND="openai"
+    return 0
+  fi
+  echo "⚠ OpenAI TTS falló. Probando macOS say ..." >&2
+  return 1
+}
+
+run_chain_from_elevenlabs() {
+  try_elevenlabs || try_openai || run_macos
+}
+
+run_chain_from_openai() {
+  try_openai || run_macos
+}
+
+case "$BACKEND" in
+  auto)
+    echo "Modo auto: ElevenLabs → OpenAI → macOS"
+    run_chain_from_elevenlabs
+    ;;
+  elevenlabs)
+    run_chain_from_elevenlabs
+    ;;
+  openai)
+    run_chain_from_openai
+    ;;
+  macos)
+    run_macos
     ;;
   *)
-    echo "Error: backend desconocido '$EFFECTIVE' (usa macos|openai|elevenlabs|auto)." >&2
+    echo "Error: backend desconocido '$BACKEND' (usa auto|macos|openai|elevenlabs)." >&2
     exit 1
     ;;
 esac
@@ -95,4 +148,5 @@ if command -v afinfo >/dev/null 2>&1; then
   DURATION="$(afinfo "$M4A" 2>/dev/null | awk -F': ' '/estimated duration/ {printf "%.0f", $2; exit}')"
 fi
 SIZE="$(du -h "$M4A" | cut -f1)"
+echo "Backend usado: ${USED_BACKEND:-desconocido}"
 echo "OK: $M4A ($SIZE${DURATION:+, ~${DURATION}s})"
