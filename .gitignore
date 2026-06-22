@@ -23,3 +23,9 @@ scripts/*/__pycache__/
 
 # Reportes E2E generados localmente (test_agent_e2e.py)
 implementacion/**/outputs/reporte_e2e_*.md
+
+# Spec podcast — artefactos de audio/guion generados localmente (skill spec-podcast)
+.tmp-audio-demo/
+.cursor/skills/spec-podcast/output/**/*
+!.cursor/skills/spec-podcast/output/.gitignore
+!.cursor/skills/spec-podcast/output/.gitkeep
