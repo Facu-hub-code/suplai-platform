@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Distribuidora El Sol,Distribuidora El Sol,5493587905250,2,1,lunes,martes,"Zona ZONA NORTE - Barrio El Libertador - Río Tercero, Córdoba, Argentina",Juan Pérez,0,0,-32.188456,-64.09676,true
+2,Almacén La Esperanza,Almacén La Esperanza,5493582641213,3,2,lunes,martes,"Zona ZONA NORTE - Barrio El Libertador - Río Tercero, Córdoba, Argentina",Juan Pérez,0,0,-32.195132,-64.094991,true
+3,Pinturería Colorín,Pinturería Colorín,5492991227644,4,3,lunes,martes,"Zona ZONA NORTE - Barrio El Libertador - Río Tercero, Córdoba, Argentina",Juan Pérez,0,0,-32.19519,-64.099176,true
+4,Ferretería La Nueva,Ferretería La Nueva,5493418277249,1,4,lunes,martes,"Zona ZONA NORTE - Barrio El Libertador - Río Tercero, Córdoba, Argentina",Juan Pérez,0,0,-32.194363,-64.100264,true
+5,Corralón Los Amigos,Corralón Los Amigos,5493587747641,2,5,lunes,martes,"Zona ZONA NORTE - Barrio El Libertador - Río Tercero, Córdoba, Argentina",Juan Pérez,0,0,-32.189308,-64.09592,true
+6,Distribuidora La Familia,Distribuidora La Familia,5492614053074,3,6,lunes,martes,"Zona ZONA NORTE - Barrio El Libertador - Río Tercero, Córdoba, Argentina",Juan Pérez,0,0,-32.194063,-64.101928,true
+7,Almacén El Buen Sabor,Almacén El Buen Sabor,5493514079279,4,7,lunes,martes,"Zona ZONA NORTE - Barrio El Libertador - Río Tercero, Córdoba, Argentina",Juan Pérez,0,0,-32.189351,-64.094293,true
+8,Pinturería La Casa,Pinturería La Casa,5493876914178,1,8,lunes,martes,"Zona ZONA NORTE - Barrio El Libertador - Río Tercero, Córdoba, Argentina",Juan Pérez,0,0,-32.19384,-64.099686,true
+9,Ferretería El Martillo,Ferretería El Martillo,5492617175545,2,9,lunes,martes,"Zona ZONA NORTE - Barrio El Libertador - Río Tercero, Córdoba, Argentina",Juan Pérez,0,0,-32.195368,-64.094599,true
+10,Corralón El Progreso,Corralón El Progreso,5493818437953,3,10,martes,miercoles,"Zona ZONA SUR - Barrio Villa Zulema - Río Tercero, Córdoba, Argentina",María González,1,1,-32.186213,-64.111259,true
+11,Distribuidora La Estrella,Distribuidora La Estrella,5493582132179,4,11,martes,miercoles,"Zona ZONA SUR - Barrio Villa Zulema - Río Tercero, Córdoba, Argentina",María González,1,1,-32.187935,-64.116124,true
+12,Almacén El Rincón,Almacén El Rincón,5493872845902,1,12,martes,miercoles,"Zona ZONA SUR - Barrio Villa Zulema - Río Tercero, Córdoba, Argentina",María González,1,1,-32.181925,-64.116998,true
+13,Pinturería La Paleta,Pinturería La Paleta,5492997670210,2,13,martes,miercoles,"Zona ZONA SUR - Barrio Villa Zulema - Río Tercero, Córdoba, Argentina",María González,1,1,-32.180809,-64.111604,true
+14,Ferretería El Taller,Ferretería El Taller,5493811657614,3,14,martes,miercoles,"Zona ZONA SUR - Barrio Villa Zulema - Río Tercero, Córdoba, Argentina",María González,1,1,-32.181796,-64.115424,true
+15,Corralón La Tierra,Corralón La Tierra,5492994145193,4,15,martes,miercoles,"Zona ZONA SUR - Barrio Villa Zulema - Río Tercero, Córdoba, Argentina",María González,1,1,-32.185762,-64.109166,true
+16,Distribuidora El Camino,Distribuidora El Camino,5493515971311,1,16,martes,miercoles,"Zona ZONA SUR - Barrio Villa Zulema - Río Tercero, Córdoba, Argentina",María González,1,1,-32.187292,-64.114263,true
+17,Almacén La Abundancia,Almacén La Abundancia,5492994228106,2,17,martes,miercoles,"Zona ZONA SUR - Barrio Villa Zulema - Río Tercero, Córdoba, Argentina",María González,1,1,-32.181629,-64.114998,true
+18,Pinturería El Color,Pinturería El Color,5492998718887,3,18,martes,miercoles,"Zona ZONA SUR - Barrio Villa Zulema - Río Tercero, Córdoba, Argentina",María González,1,1,-32.181013,-64.109654,true
+19,Ferretería La Herramienta,Ferretería La Herramienta,5492995028869,4,19,miercoles,jueves,"Zona ZONA ESTE - Barrio Centro - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,2,-32.178775,-64.10372,true
+20,Corralón El Barrial,Corralón El Barrial,5493517304254,1,20,miercoles,jueves,"Zona ZONA ESTE - Barrio Centro - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,2,-32.178863,-64.107852,true
+21,Distribuidora La Unión,Distribuidora La Unión,5493416986538,2,21,miercoles,jueves,"Zona ZONA ESTE - Barrio Centro - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,2,-32.173419,-64.102897,true
+22,Almacén El Sabor Criollo,Almacén El Sabor Criollo,5492619239862,3,22,miercoles,jueves,"Zona ZONA ESTE - Barrio Centro - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,2,-32.176932,-64.107412,true
+23,Pinturería El Arcoíris,Pinturería El Arcoíris,5493513952681,4,23,miercoles,jueves,"Zona ZONA ESTE - Barrio Centro - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,2,-32.178442,-64.103387,true
+24,Ferretería El Constructor,Ferretería El Constructor,5493414799650,1,24,miercoles,jueves,"Zona ZONA ESTE - Barrio Centro - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,2,-32.172859,-64.10717,true
+25,Corralón La Solución,Corralón La Solución,5492992500733,2,25,miercoles,jueves,"Zona ZONA ESTE - Barrio Centro - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,2,-32.172042,-64.101716,true
+26,Distribuidora El Éxito,Distribuidora El Éxito,5492615139305,3,26,miercoles,jueves,"Zona ZONA ESTE - Barrio Centro - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,2,-32.172997,-64.107459,true
+27,Almacén La Tradición,Almacén La Tradición,5492618861463,4,27,jueves,viernes,"Zona ZONA OESTE - Barrio Santa Rosa - Río Tercero, Córdoba, Argentina",Juan Pérez,0,3,-32.179965,-64.124876,true
+28,Pinturería La Brillante,Pinturería La Brillante,5493812941974,1,28,jueves,viernes,"Zona ZONA OESTE - Barrio Santa Rosa - Río Tercero, Córdoba, Argentina",Juan Pérez,0,3,-32.180082,-64.125823,true
+29,Ferretería El Proveedor,Ferretería El Proveedor,5493817404433,2,29,jueves,viernes,"Zona ZONA OESTE - Barrio Santa Rosa - Río Tercero, Córdoba, Argentina",Juan Pérez,0,3,-32.17449,-64.130495,true
+30,Corralón El Refugio,Corralón El Refugio,5493419686914,3,30,jueves,viernes,"Zona ZONA OESTE - Barrio Santa Rosa - Río Tercero, Córdoba, Argentina",Juan Pérez,0,3,-32.174485,-64.126626,true
+31,Distribuidora La Oportunidad,Distribuidora La Oportunidad,5493518648263,4,31,jueves,viernes,"Zona ZONA OESTE - Barrio Santa Rosa - Río Tercero, Córdoba, Argentina",Juan Pérez,0,3,-32.175902,-64.131623,true
+32,Almacén El Mercado,Almacén El Mercado,5493516216782,1,32,jueves,viernes,"Zona ZONA OESTE - Barrio Santa Rosa - Río Tercero, Córdoba, Argentina",Juan Pérez,0,3,-32.180191,-64.124452,true
+33,Pinturería La Gama,Pinturería La Gama,5492612780568,2,33,jueves,viernes,"Zona ZONA OESTE - Barrio Santa Rosa - Río Tercero, Córdoba, Argentina",Juan Pérez,0,3,-32.176488,-64.125813,true
+34,Ferretería El Aliado,Ferretería El Aliado,5493582639964,3,34,jueves,viernes,"Zona ZONA OESTE - Barrio Santa Rosa - Río Tercero, Córdoba, Argentina",Juan Pérez,0,3,-32.181356,-64.130441,true
+35,Corralón La Base,Corralón La Base,5493814729528,4,35,viernes,sabado,"Zona ZONA NORESTE - Barrio La Cumbre - Río Tercero, Córdoba, Argentina",María González,1,4,-32.157436,-64.091747,true
+36,Distribuidora El Futuro,Distribuidora El Futuro,5493876922419,1,36,viernes,sabado,"Zona ZONA NORESTE - Barrio La Cumbre - Río Tercero, Córdoba, Argentina",María González,1,4,-32.158504,-64.087338,true
+37,Almacén El Paraíso,Almacén El Paraíso,5492618889598,2,37,viernes,sabado,"Zona ZONA NORESTE - Barrio La Cumbre - Río Tercero, Córdoba, Argentina",María González,1,4,-32.163195,-64.092326,true
+38,Pinturería El Maestro,Pinturería El Maestro,5492615021286,3,38,viernes,sabado,"Zona ZONA NORESTE - Barrio La Cumbre - Río Tercero, Córdoba, Argentina",María González,1,4,-32.162853,-64.088932,true
+39,Ferretería La Fuerza,Ferretería La Fuerza,5493813520000,4,39,viernes,sabado,"Zona ZONA NORESTE - Barrio La Cumbre - Río Tercero, Córdoba, Argentina",María González,1,4,-32.161954,-64.088586,true
+40,Corralón El Faro,Corralón El Faro,5492997489876,1,40,viernes,sabado,"Zona ZONA NORESTE - Barrio La Cumbre - Río Tercero, Córdoba, Argentina",María González,1,4,-32.15666,-64.088534,true
+41,Distribuidora La Conexión,Distribuidora La Conexión,5493519107005,2,41,viernes,sabado,"Zona ZONA NORESTE - Barrio La Cumbre - Río Tercero, Córdoba, Argentina",María González,1,4,-32.162268,-64.091721,true
+42,Almacén El Buen Gusto,Almacén El Buen Gusto,5493874104594,3,42,viernes,sabado,"Zona ZONA NORESTE - Barrio La Cumbre - Río Tercero, Córdoba, Argentina",María González,1,4,-32.156207,-64.087406,true
+43,Pinturería El Estilo,Pinturería El Estilo,5492617413812,4,43,sabado,lunes,"Zona ZONA SUROESTE - Barrio La Paz - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,5,-32.187931,-64.12153,true
+44,Ferretería La Solidez,Ferretería La Solidez,5492617236955,1,44,sabado,lunes,"Zona ZONA SUROESTE - Barrio La Paz - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,5,-32.188069,-64.123434,true
+45,Corralón El Camino,Corralón El Camino,5492612928724,2,45,sabado,lunes,"Zona ZONA SUROESTE - Barrio La Paz - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,5,-32.192917,-64.117723,true
+46,Distribuidora La Satisfacción,Distribuidora La Satisfacción,5492999435946,3,46,sabado,lunes,"Zona ZONA SUROESTE - Barrio La Paz - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,5,-32.188492,-64.117215,true
+47,Almacén El Abasto,Almacén El Abasto,5493517632424,4,47,sabado,lunes,"Zona ZONA SUROESTE - Barrio La Paz - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,5,-32.192392,-64.121388,true
+48,Pinturería El Toque,Pinturería El Toque,5493416524997,1,48,sabado,lunes,"Zona ZONA SUROESTE - Barrio La Paz - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,5,-32.193768,-64.117757,true
+49,Ferretería La Estrella,Ferretería La Estrella,5493876499570,2,49,sabado,lunes,"Zona ZONA SUROESTE - Barrio La Paz - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,5,-32.188641,-64.121235,true
+50,Corralón El Horizonte,Corralón El Horizonte,5492998066543,3,50,sabado,lunes,"Zona ZONA SUROESTE - Barrio La Paz - Río Tercero, Córdoba, Argentina",Carlos Fernández,2,5,-32.191542,-64.122734,true

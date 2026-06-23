@@ -1,0 +1,392 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587905250,25001,U50,MILANESA DE SOJA RELLENAS CON TOMATE Y QUESO,2,2463.47,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00002,5493587905250,25001,T4,Magrela - Mortadela,5,1357.02,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00002,5493587905250,25001,U75,BOCADITOS DE POLLO KIDS 12X400,4,4690.41,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00003,5493587905250,25001,O5,XAvena Instantánea 500grs,5,0.01,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00003,5493587905250,25001,F10,BONDIOLA CURADA X120GR FET,4,3019.83,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00004,5493582641213,25002,F19,BONDIOLA FETEADA AV 150GRS. C. AUSTRAL,5,1835.60,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00004,5493582641213,25002,S15,Bocaditos rell c/ crema de avellana 10 x 180 g,2,1877.24,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00005,5493582641213,25002,B40,Pan Blanco Cero&Cero 385 Grs. 0% Azúcares y grasas.,2,0.01,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00006,5493582641213,25002,W20,CINTA ARGENTINA,3,313.32,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00006,5493582641213,25002,L10,TUBITOON SABOR JAMON SERRANO X60GRS,3,469.42,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00007,5492991227644,25003,G16,MANÍ PELADO SALADO DAN JUL BOLSA LAMINADO x 1 KG.,1,867.77,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00007,5492991227644,25003,B11,Pan Hamb Artesano PAPA 240g BIM,3,2598.35,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00008,5492991227644,25003,A29,VINAGRE ALCOHOL ZANONI12 x 1000 cc.,4,854.55,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00008,5492991227644,25003,W6,MOÑOS,5,276.28,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00008,5492991227644,25003,W19,CABELLO DE ANGEL AL HUEVO,4,260.96,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00009,5492991227644,25003,G39,JUGO GENY NARANJA BOTELLA VIDRIO 910 CC,2,573.02,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00009,5492991227644,25003,U68,CARNAZA CUADRADA EN PORCIONES ENF SWIFT (L),5,8056.75,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00009,5492991227644,25003,205,QUESO BLANCO CLASICO 12x290GRS,4,2297.52,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00009,5492991227644,25003,G17,MANÍ PELADO TOSTADO SIN SAL DAN JUL BOLSA LAMINADO x 1 KG.,5,867.77,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00010,5493418277249,25004,H8,X Pre-pizza x 580g. (2u.),1,0.01,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00010,5493418277249,25004,G28,ÉMOLA DE TRIGO x 500 GRS.,4,215.11,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00010,5493418277249,25004,B47,Madalena Chocolate Rellena DDL x1 BIMBO 32 GRAMOS,3,0.01,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00011,5493418277249,25004,A26,PULPA DE TOMATE DON PEPE x 520 grs,2,329.75,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00011,5493418277249,25004,O14,XCopos Naturales 250grs,4,0.01,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00012,5493418277249,25004,L3,PALITOS SALADOS X 150 GRS,1,598.35,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00013,5493587747641,25005,G8,MANI PELADO SALADO POTE x 200 GRS.,1,388.26,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00013,5493587747641,25005,X2,"MAIXANAS - Nachos Maíz, Chía & Sal x 98 grs",4,1065.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00014,5493587747641,25005,B2,Pan Cereales 600g ORO,2,4695.04,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00014,5493587747641,25005,82,ARROZ C/LECHE LIGHT CAJA 20x180GRS,3,567.77,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00015,5493587747641,25005,2232,Yogur Firme Entero Vainilla x 170 grs,3,588.43,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00015,5493587747641,25005,R8,Morenas azuca 12 x 400g,2,937.07,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00016,5492614053074,25006,H16,"X Budines x 220g. Vainilla, Choc, Marmolado, Limón (u.)",3,0.01,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00016,5492614053074,25006,B10,Pan para Pancho Artesano 240g,3,2230.58,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00017,5492614053074,25006,A32,VINAGRE MANZANA 12 x 500 cc.,4,0.01,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00017,5492614053074,25006,2177,YOGURT BATIDO DE LIMON X 12 UNIDADES X120GRS,2,688.43,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00017,5492614053074,25006,D46,.ÑOQUIS C/SEMOLIN X900 G DEVIANO,3,1053.72,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00017,5492614053074,25006,J22,COPOS DE MAIZ X2.5KG,4,7921.49,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00018,5492614053074,25006,Y18,Nuggets de Poroto negro a la mostaza,3,928.20,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00018,5492614053074,25006,U30,SALCHICHAS LA BLANCA 24x6x190grs,5,950.58,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00019,5493514079279,25007,V1,Madalenas Choco DDL 1p 180g FLOW VLT,2,1257.02,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00019,5493514079279,25007,J10,CHIP DE ARROZ X50GRS,2,695.92,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00019,5493514079279,25007,G37,JUGO GENY DURAZNO BIDÓN x 5 LTS.,4,1133.55,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00020,5493514079279,25007,D49,.RAVIOLES C/VERDURA X450 G DEVIANO,5,2248.76,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00021,5493514079279,25007,312,LEP X 25 KG ALIMENTA,3,249785.95,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00022,5493876914178,25008,A36,INTERPRETE ROBLE MALBEC 6X750,5,0.01,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00022,5493876914178,25008,U33,PICADILLO DE CARNE 24X90G SWIFT,2,796.61,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00023,5493876914178,25008,A18,MAYONESA ZANONI 4 x 2900 grs.,2,2673.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00023,5493876914178,25008,K4,RUMEL PETIT VERDOT 2022 X 750 ML,5,12231.40,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00023,5493876914178,25008,S37,REBOZADOR INTEGRAL 10X750,4,1564.30,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00024,5493876914178,25008,S28,Salvado x240grs,3,1096.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00024,5493876914178,25008,V9,Vainilla 1p 74 VLT,2,561.98,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00025,5492617175545,25009,G30,JUGO GENY NARANJA BOTELLA PET x 1500 CC.,3,433.79,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00025,5492617175545,25009,K13,KEFIR NEUTRO 1 L,1,3681.82,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00025,5492617175545,25009,S21,Frutigran Sésamo Amaranto y Girasol 24 x 250 g,4,1385.85,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00025,5492617175545,25009,E2,JAMON COCIDO OVAL,3,8500.83,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00026,5492617175545,25009,V27,Budin Marmolado V 1p 170g FLOW VLT,4,1663.64,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00026,5492617175545,25009,D6,Tapa de Empanadas ROTISERAS HOJALDRE x12 un x500 g DON YEYO,4,1427.27,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00026,5492617175545,25009,B7,Pan Blanco 550g Bolsa BIM,1,3675.21,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00027,5492617175545,25009,Z17,MAITE - Mermelada Sin azúcar Arándanos x 360 grs,5,2166.92,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00027,5492617175545,25009,O52,XAvellanas con chocolate 100grs,2,0.01,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00028,5493818437953,25010,E11,FIAMBRE PARA EMPAREDADOS RECTANGULAR,2,5355.37,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00028,5493818437953,25010,U43,NUGGETS DE ESPINACA X300GR,4,2964.42,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00028,5493818437953,25010,B12,Pan Hamb Artesano 240g BIM,4,2230.58,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00028,5493818437953,25010,W11,TIRABUZON AL HUEVO,2,166.64,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00029,5493818437953,25010,338,LECHE UAT ENTERA PACK 12x1LT,3,1397.52,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00029,5493818437953,25010,225,QUESO MASCARPONE CAJA 12x200GRS,5,2166.12,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00029,5493818437953,25010,1334,QUESO AZUL MEDIA HORMA Caja  x 4 unidades,4,14500.83,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00029,5493818437953,25010,O56,XGranola Tradicional 500grs,5,0.01,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00030,5493818437953,25010,B45,FAJITAS TIA ROSA 275GR,5,1680.99,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00030,5493818437953,25010,N16,NESTLE DOLCA BANANITA GRANDE 12(16X30G)N1 AR,4,0.01,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00030,5493818437953,25010,Z20,VIA VITA Crackers garbanzo sabor tomillo y curry X100GRS,5,1794.87,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00031,5493582132179,25011,R10,Anillito Vainilla Azucarado 12 x 400g,5,937.07,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00032,5493582132179,25011,N9,NESCAFE DOLCA SUAVE 6X100G,3,0.01,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00032,5493582132179,25011,Z11,VIA VITA - Soft Cookies Naranja con chips Chocolate x 50 grs,4,811.44,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00032,5493582132179,25011,M4,Tostadas sin sal 200 g,1,1063.64,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00033,5493582132179,25011,K07,KEFIR LIMON 500 ML,2,1611.57,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00033,5493582132179,25011,BI7,X Panceta Salada /Libre De Gluten(sin tacc),5,0.01,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00033,5493582132179,25011,J5,GRANOLA TROPICAL FRUITS,5,4132.64,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00034,5493872845902,25012,A27,PURE DE TOMATE DON PEPE x 520 grs,2,475.21,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00034,5493872845902,25012,Y6,PAN DE HAMBURGUESA VIENA CON QUESO POR UNIDAD,3,334.71,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00034,5493872845902,25012,E5,MORTADELA MINI,2,8260.33,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00034,5493872845902,25012,F13,PANCETA AHUMADA X120GR FET,5,2368.60,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00035,5493872845902,25012,U85,LOMO DE ATUN EN ACEITE SWIFT 170 GR,4,2365.29,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00035,5493872845902,25012,M14,Jugo de limón  1L,3,541.80,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00035,5493872845902,25012,B62,Takis Xplosion 1p 85g FLOW BAR EXP,3,1712.40,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00036,5493872845902,25012,Y15,Premezcla Falafel,5,928.20,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00036,5493872845902,25012,Q1,BIZCOCHOS x 500 g.,2,1228.02,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00037,5492997670210,25013,Y48,Semillas de Sesamo,2,343.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00038,5492997670210,25013,B3,Pan Artesano semillas x 500gr BIM,3,0.01,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00038,5492997670210,25013,B21,Madalena Vainilla 1p 200g FLOW BIM,2,1911.57,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00038,5492997670210,25013,F9,JAMON CRUDO 12 MESES X120GR FET,1,6072.73,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00038,5492997670210,25013,P6,MANI CON CHOCOLATE EN ESTUCHES X 25GR IMPERIAL,3,144.10,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00039,5492997670210,25013,D12,PASCUALINA CRIOLLA x2 un x380 g DON YEYO,1,1323.14,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00039,5492997670210,25013,A52,JUGO DE LIMON ZANONI 6 x 1000 ml,4,1305.45,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00039,5492997670210,25013,M9,Aceto Reducción FRUTOS DEL BOSQUE  250ml,2,497.70,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00039,5492997670210,25013,A18,MAYONESA ZANONI 4 x 2900 grs.,4,2673.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00040,5493811657614,25014,D18,RAVIOLES Carne y Espinaca x 500 g DON YEYO,1,1951.24,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00040,5493811657614,25014,W12,TIRABUZON TRISABOR,5,188.26,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00040,5493811657614,25014,N5,NESCAFE DOLCA MAS AROMA 6X50G,4,2248.14,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00040,5493811657614,25014,A37,ARVEJAS ENTERAS DEL AGRICULTOR  10 X 400 G,5,475.21,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00041,5493811657614,25014,S2,Arroz crocante 8 x 170 g,2,0.08,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00042,5493811657614,25014,S39,POROTOS NEGROS 10X400 GRANIX,3,1508.76,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00042,5493811657614,25014,B30,Budin tipo casero relleno ddl BIM 320 g,5,2889.26,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00042,5493811657614,25014,O29,XLenteja 500grs,3,0.01,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00043,5492994145193,25015,G12,MANI CROCANTE SABOR QUESO x 200 GRS.,1,457.88,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00044,5492994145193,25015,S19,Frutigran Salvado dulce 12 x 250 g,4,1251.12,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00045,5492994145193,25015,Z7,VIA VITA - Chalitas Jamón x 100 grs,3,1259.79,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00045,5492994145193,25015,I7,224- ÑOQUIS X 500 GR,3,258.79,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00045,5492994145193,25015,S6,Cereal 16 x 185 g,1,862.76,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00046,5493515971311,25016,B6,Pan Liviano Acti Leche CP 400g BIM,2,2680.17,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00046,5493515971311,25016,150,YOGUR BEBIBLE DESCREMADO DURAZNO 20x900GRS,1,1455.37,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00047,5493515971311,25016,O4,XCacao Amargo Brasilero 250grs,5,0.01,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00047,5493515971311,25016,H9,X Ravioles Pasteurizados x 500g. BLISTER (R/V - R/J - P/V),3,0.01,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00047,5493515971311,25016,E11,FIAMBRE PARA EMPAREDADOS RECTANGULAR,3,5355.37,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00048,5493515971311,25016,L9,CHEDDITAS X60 GRS,2,469.42,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00049,5492994228106,25017,O44,XMix Salado 100grs,3,0.01,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00049,5492994228106,25017,Q4,BIZCOCHOS x 205 g.,5,369.66,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00049,5492994228106,25017,I3,209- EMPANADAS CRIOLLAS,4,135.58,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00049,5492994228106,25017,Y22,Semillas Amaranto,1,428.40,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00050,5492994228106,25017,214,QUESO BLANCO LIGHT 12x290GRS,4,2297.52,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00050,5492994228106,25017,A58,VINAGRE MANZANA 12 x 1000 cc.,1,427.27,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00050,5492994228106,25017,X12,MAIXANAS ZANAHORIA Y CREMA Y CEBOLLA,1,1065.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00051,5492994228106,25017,B68,GRISINES CIB 1P 75GR BIM,2,531.40,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00052,5492998718887,25018,I9,219- RAVIOLES POLLO Y ESPINACA X 500 GR,1,253.89,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00053,5492998718887,25018,B24,Vainillas 1p 148g FLOW BIM,5,1015.70,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00054,5492998718887,25018,O36,XAlmendra Non pareil 100grs,2,0.01,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00054,5492998718887,25018,740,YOGUR CON GRANOLA DESCREMADO,3,715.70,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00054,5492998718887,25018,T2,Fiambre cocido de Paleta mini (3.5kg),1,1702.48,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00054,5492998718887,25018,S24,Naturitos Frutos Rojos 10 x 90 g,5,1076.03,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00055,5492995028869,25019,E3,JAMON COCIDO BOLON MINI 07,4,7570.25,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00056,5492995028869,25019,Q2,BIZC. AZUCARADOS x 500 g.,2,1228.02,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00056,5492995028869,25019,S22,Frutigran Semillas Chia y Lino 24 x 250 g,5,1385.85,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00056,5492995028869,25019,A51,JUGO DE LIMON ZANONI 12 x 500 ml,1,505.79,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00056,5492995028869,25019,O33,XCiruela DÄGEN BOMBON descarozada 100grs,5,0.01,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00057,5492995028869,25019,M5,Tostadas salvado 200 g,2,1063.64,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00058,5493517304254,25020,V9,Vainilla 1p 74 VLT,1,561.98,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00058,5493517304254,25020,F12,SALAME DE CERDO X120GR FET,4,2995.04,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00059,5493517304254,25020,B29,Budin tipo casero chocochips BIM 250 g,1,2889.26,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00060,5493517304254,25020,V28,Budin Chip Chocolate V 1p 170g FLOW VLT,4,1663.64,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00060,5493517304254,25020,72,CHATEL CLASICO CAJA 12x190GRS,3,1252.07,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00061,5493416986538,25021,Q3,BIZCOCHOS LIGHT x 500 g.,1,1228.02,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00061,5493416986538,25021,2172,YOGUR NATURAL ENDULZADO CAJA 12 X 280 GRS,1,1098.35,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00061,5493416986538,25021,269,CREMA CHANTILLY CLASICA Spray C. X12U,4,6428.93,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00061,5493416986538,25021,O13,XAritos de Miel 250grs,3,0.01,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00062,5493416986538,25021,M16,Aceite de girasol en AEROSOL  120g,2,512.82,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00062,5493416986538,25021,I2,208- EMPANADAS HORNO,1,135.58,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00062,5493416986538,25021,318,YOGUR FRUTAS ENTERO ARANDANOS 24x160GRS,2,706.61,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00062,5493416986538,25021,N2,NESCAFE CLASICO 6X100G,4,0.01,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00063,5493416986538,25021,W17,TALLARINES ESPINACA N2,5,252.07,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00064,5492619239862,25022,F16,JAMON COCIDO FET AV 200G. C.AUSTRAL,5,1033.50,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00064,5492619239862,25022,S37,REBOZADOR INTEGRAL 10X750,3,1564.30,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00065,5492619239862,25022,L12,TUBITOON CEBOLLA A LA CREMA x 60g,1,469.42,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00065,5492619239862,25022,U12,HAMBURGUESA 30x250g CLASICA XL SWIFT,2,2933.18,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00066,5492619239862,25022,I6,214-TALLARINES CINTA FRESCOS,1,179.27,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00066,5492619239862,25022,G36,JUGO GENY NARANJA BIDÓN x 5 LTS.,5,1133.55,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00067,5493513952681,25023,J4,GRANOLA COCONUT,1,4132.64,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00067,5493513952681,25023,G40,JUGO GENY DURAZNO BOTELLA VIDRIO 910 CC,4,573.02,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00068,5493513952681,25023,Y18,Nuggets de Poroto negro a la mostaza,5,928.20,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00069,5493513952681,25023,269,CREMA CHANTILLY CLASICA Spray C. X12U,2,6428.93,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00069,5493513952681,25023,B18,Rapiditas Light 8p 220g BIM,1,1680.99,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00070,5493414799650,25024,W2,DEDALITOS,4,148.10,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00070,5493414799650,25024,T9,FET Mortadela Magrela Magret,1,344.63,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00070,5493414799650,25024,U48,MILANESA DE SOJA RELLENAS CON JAMON Y QUESO,4,2463.47,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00071,5493414799650,25024,A19,MAYONESA ZANONI LIGHT 12 x 250 grs.,3,0.01,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00071,5493414799650,25024,O45,XMix Premium 100grs,2,0.01,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00071,5493414799650,25024,J15,COPOS CON AZUCAR X500GRS PATAGONIA,1,1781.45,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00072,5493414799650,25024,U40,PATE JAMON AHUMADO 24X85G,1,952.81,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00072,5493414799650,25024,H14,X Pan rallado / Rebozador x 400g. (x 10u.),3,0.01,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00072,5493414799650,25024,R16,Pepas 25 paq x 180g,1,444.63,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00072,5493414799650,25024,U81,MEDALLON 60X109G CARNE VACUNA PARRILLERO SWIFT,4,1258.21,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00073,5492992500733,25025,G17,MANÍ PELADO TOSTADO SIN SAL DAN JUL BOLSA LAMINADO x 1 KG.,3,867.77,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00073,5492992500733,25025,F12,SALAME DE CERDO X120GR FET,4,2995.04,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00073,5492992500733,25025,2175,YOGURT BATIDO CON CAFE X 12 UNIDADES X120GRS,3,688.43,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00074,5492992500733,25025,J16,CHOCOPICOS X500GRS,3,954.55,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00074,5492992500733,25025,Q3,BIZCOCHOS LIGHT x 500 g.,3,1228.02,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00074,5492992500733,25025,136,YOGUR CREM LIGHT VAINILLA 18x125GRS,4,432.23,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00074,5492992500733,25025,Y45,Quinoa,3,607.60,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00075,5492992500733,25025,D6,Tapa de Empanadas ROTISERAS HOJALDRE x12 un x500 g DON YEYO,3,1427.27,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00075,5492992500733,25025,D48,.RAVIOLES C/RICOTA X450 G DEVIANO,4,2248.76,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00075,5492992500733,25025,B63,Takis Xplosion 1p 140g FLOW BAR EXP,1,2714.88,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00076,5492615139305,25026,H1,"X Tapas para empanadas x 330g. (Horno, Freir, Criolla)",2,0.01,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00076,5492615139305,25026,1334,QUESO AZUL MEDIA HORMA Caja  x 4 unidades,3,14500.83,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00076,5492615139305,25026,Z9,VIA VITA - Galletitas Limón x 200 grs,3,1719.90,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00077,5492615139305,25026,N14,"KIT KAT 4 FINGER LECHE 4(24X41,5G)",1,832.31,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00078,5492615139305,25026,Y1,PREPIZZAS X2 PANNITOS,5,1611.57,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00078,5492615139305,25026,O33,XCiruela DÄGEN BOMBON descarozada 100grs,5,0.01,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00078,5492615139305,25026,W7,MOÑITOS,5,276.28,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00078,5492615139305,25026,O36,XAlmendra Non pareil 100grs,2,0.01,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00079,5492618861463,25027,A49,POROTOS SECOS REMOJADOS DEL AGRICULTOR24 x 350 gr.,2,628.10,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00079,5492618861463,25027,G30,JUGO GENY NARANJA BOTELLA PET x 1500 CC.,1,433.79,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00079,5492618861463,25027,1101,QUESO POR SALUT LIGHT FRACC. S/SAL x12U,3,8372.73,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00080,5492618861463,25027,D12,PASCUALINA CRIOLLA x2 un x380 g DON YEYO,2,1323.14,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00081,5492618861463,25027,U17,MEDALLON 12x4x69G LA BLANCA POR 4,1,2060.70,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00081,5492618861463,25027,B16,Rapiditas Clasicas 8p 220g BIM,3,1680.99,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00082,5493812941974,25028,2175,YOGURT BATIDO CON CAFE X 12 UNIDADES X120GRS,2,688.43,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00082,5493812941974,25028,U26,SALCHICHAS 24x6 SWIFT,2,1541.90,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00082,5493812941974,25028,L11,TUBITOON SABOR QUESO CREMA X 60GRS,3,469.42,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00082,5493812941974,25028,O26,XPorotos Negros 500grs,3,0.01,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00083,5493812941974,25028,D19,RAVIOLES Pollo y Espinaca x500 g DON YEYO,5,1876.86,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00083,5493812941974,25028,Y44,Poroto Negro,4,277.20,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00083,5493812941974,25028,D50,PIONONO X 180G DEVIANO,5,1171.07,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00084,5493812941974,25028,Y43,Poroto de Soja,2,236.60,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00085,5493817404433,25029,E15,LOMO AHUMADO CANADIENSE,2,11640.50,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00085,5493817404433,25029,208,QUESO REGGIANITO FRACC. X 12 PORCIONES,2,17283.47,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00085,5493817404433,25029,U16,MEDALLON 42x112G LA BLANCA POR 2,5,773.18,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00085,5493817404433,25029,B64,Takis Fuego 1p 49g FLOW BAR EXP,1,1138.02,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00086,5493817404433,25029,V7,Vainilla 1p 148g VLT,3,987.60,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00086,5493817404433,25029,B25,Vainilla 1p 74g FLOW BIM,5,568.60,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00087,5493817404433,25029,BI6,X Panceta Ahumada C/Cuero/Libre De Gluten(sin tacc),1,0.01,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00088,5493419686914,25030,Y52,Trigo Sarraceno,1,476.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00088,5493419686914,25030,L2,PALITOS DE MAIZ SABOR QUESO X 80 GRS,4,419.01,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00089,5493419686914,25030,O48,XGranola Tradicional 100grs,3,0.01,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00089,5493419686914,25030,1077,YOGUR FRUTAS ENTERO MANGO/MARACUYA 18x160GRS,4,706.61,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00089,5493419686914,25030,D14,FIDEOS FUSILES x 500 g DON YEYO,3,1848.76,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00090,5493419686914,25030,O19,XCoco rallado 400grs,1,0.01,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00091,5493518648263,25031,G38,JUGO GENY LIMON BIDÓN x 5 LTS.,3,1133.55,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00091,5493518648263,25031,BI9,X Lomo De Cerdo Ahumado x1.7 Kg /Libre De Gluten(sin tacc),4,0.01,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00091,5493518648263,25031,B39,Pan Integral 600g BIM,5,4052.89,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00092,5493518648263,25031,D14,FIDEOS FUSILES x 500 g DON YEYO,4,1848.76,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00092,5493518648263,25031,U1,HAMBURGUESAS 30x160g CLASICA x2 SWIFT ROJA X 2,5,2084.13,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00092,5493518648263,25031,G29,GARBANZOS x 500 GRS.,5,257.06,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00092,5493518648263,25031,B43,PAN DULCE FRUTA V 1P 600G FLOW VLT,3,5930.73,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00093,5493518648263,25031,J10,CHIP DE ARROZ X50GRS,2,695.92,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00093,5493518648263,25031,Y19,Croquetas de Arroz Caprese,2,928.20,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00093,5493518648263,25031,G5,FÉCULA DE MAÍZ Paquete x 200 Grs. (x20),5,109.79,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00093,5493518648263,25031,G31,JUGO GENY DURAZNO BOTELLA PET x 1500 CC.,5,433.79,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00094,5493516216782,25032,R10,Anillito Vainilla Azucarado 12 x 400g,3,937.07,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00094,5493516216782,25032,195,QUESO CRIOLLO CAJA ESPECIAL,2,11880.99,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00094,5493516216782,25032,O1,XAzúcar mascabo 500grs,1,0.01,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00095,5493516216782,25032,132,YOGUR CREM ENTERO VAINILLA 24x125GRS,1,432.23,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00095,5493516216782,25032,U39,PATE DE PIMIENTA VERDE 24X85G SWIFT GOURMET,5,952.81,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00095,5493516216782,25032,B9,Pan Integral 400g BIM,5,2950.41,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00096,5493516216782,25032,J24,BOLITAS CHOCOLATADAS 2.5KGS,1,9177.19,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00096,5493516216782,25032,1684,CREMA DE LECHE UAT 36% CAJA 12x500ml,2,0.01,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00096,5493516216782,25032,X4,MAIXANAS - Nachos Humus x 95 grs,4,1065.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00096,5493516216782,25032,H5,X Tapas para pascualina SALVADO 400g. (Fuente de Fibras),3,0.01,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00097,5492612780568,25033,W15,MOÑITOS AL HUEVO,3,305.67,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00097,5492612780568,25033,E7,BONDIOLA SECA,4,20175.21,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00098,5492612780568,25033,G42,REFRESCO GRANADINA CARLIMAR BOTELLA x 1 L.,3,874.71,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00098,5492612780568,25033,Z20,VIA VITA Crackers garbanzo sabor tomillo y curry X100GRS,5,1794.87,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00098,5492612780568,25033,K12,KEFIR NARANJA 1 L,3,3681.82,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00098,5492612780568,25033,A2,ACEITE GIR. ZANONI 12 x 1500 cc,3,1732.23,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00099,5492612780568,25033,R10,Anillito Vainilla Azucarado 12 x 400g,4,937.07,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00099,5492612780568,25033,102,ARROZ C/LECHE DULCE DE LECHE CAJA 20x180GRS,3,567.77,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00099,5492612780568,25033,B54,BOH PAN SUPERPANCHO 390GR,2,2710.74,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00099,5492612780568,25033,B39,Pan Integral 600g BIM,2,4052.89,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00100,5493582639964,25034,U7,MEDALLON BURGER SWIFT MEGA 30x160g,2,0.01,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00101,5493582639964,25034,D46,.ÑOQUIS C/SEMOLIN X900 G DEVIANO,2,1053.72,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00101,5493582639964,25034,U74,CRUNCHIES DE POLLO SWIFT 12X380,4,5219.26,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00101,5493582639964,25034,D4,Tapa empanada HOJALDRE x12 un x330 g DON YEYO,2,992.56,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00101,5493582639964,25034,BI2,X Salame Milan x  2Kg (1154),4,0.01,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00102,5493582639964,25034,S24,Naturitos Frutos Rojos 10 x 90 g,2,1076.03,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00103,5493814729528,25035,O34,XPasas de uva morochas Premium 200grs,4,0.01,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00104,5493814729528,25035,A37,ARVEJAS ENTERAS DEL AGRICULTOR  10 X 400 G,5,475.21,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00104,5493814729528,25035,W15,MOÑITOS AL HUEVO,2,305.67,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00105,5493814729528,25035,U72,PAPAS FRITAS  SUPERCONGELADAS LIBRES DE GLUTEN 700G,1,2920.91,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493814729528,25035,D3,Tapa empanada CRIOLLA x18 un x615 g DON YEYO,1,1743.80,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493814729528,25035,253,RICOTTA ENTERA CAJA 6x290GRS,1,2085.12,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493814729528,25035,205,QUESO BLANCO CLASICO 12x290GRS,2,2297.52,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00106,5493876922419,25036,T11,Fiambre para Emparedados TÍVOLI (PALADINI),5,923.56,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00106,5493876922419,25036,J5,GRANOLA TROPICAL FRUITS,5,4132.64,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00107,5493876922419,25036,U12,HAMBURGUESA 30x250g CLASICA XL SWIFT,4,2933.18,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00107,5493876922419,25036,O4,XCacao Amargo Brasilero 250grs,2,0.01,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00108,5493876922419,25036,31,DULCE DE LECHE CLASICO 12x400GRS,2,1980.17,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00108,5493876922419,25036,D9,Tapa de Empanadas COPETIN HOJALDRE x24 un x360 g DON YEYO,2,1080.17,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00109,5492618889598,25037,J12,HOJUELAS FRUTILLA X500GRS,1,1221.49,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00109,5492618889598,25037,I5,215- TALLARINES FINO FRESCOS,1,179.27,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00109,5492618889598,25037,J6,GRANOLA CRUNCH,3,4132.64,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00109,5492618889598,25037,139,YOGUR FRUTAS ENTERO DURAZNO 24x160GRS,2,706.61,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00110,5492618889598,25037,U72,PAPAS FRITAS  SUPERCONGELADAS LIBRES DE GLUTEN 700G,1,2920.91,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00110,5492618889598,25037,A3,ACEITE GIR. ZANONI 12 x 900 cc,2,1305.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00111,5492618889598,25037,B59,Takis Original 1p 85g FLOW BAR EXP,3,1712.40,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00112,5492615021286,25038,Y19,Croquetas de Arroz Caprese,1,928.20,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00112,5492615021286,25038,N9,NESCAFE DOLCA SUAVE 6X100G,1,0.01,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00112,5492615021286,25038,P7,LENTEJAS DE CHOCOLATE EN ESTUCHES X 25GR IMPERIAL,4,74.75,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00112,5492615021286,25038,T6,FET Mortadela Trozer,2,301.65,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00113,5492615021286,25038,K07,KEFIR LIMON 500 ML,5,1611.57,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00113,5492615021286,25038,F7,SALAME DE CERDO -150grs para feteado,2,21216.53,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00114,5492615021286,25038,B44,RAPIDITAS XL CLASICAS x8 UNIDADES,3,4323.14,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00114,5492615021286,25038,Y13,Caldo Natural de Verduras,4,1344.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00114,5492615021286,25038,S37,REBOZADOR INTEGRAL 10X750,5,1564.30,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00114,5492615021286,25038,U76,MILANESITAS DE CARNE SWIFT 12X400,3,4488.47,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00115,5493813520000,25039,360,CHATEL CIBOULETTE CAJA 12 x180GRS,3,1252.07,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00115,5493813520000,25039,G25,AVENA ARROLLADA x 400 GRS.,5,491.80,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00116,5493813520000,25039,102,ARROZ C/LECHE DULCE DE LECHE CAJA 20x180GRS,3,567.77,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00116,5493813520000,25039,Y47,Semillas de Girasol,5,340.20,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00116,5493813520000,25039,N21,MAGGI REBOZADOR 12X350G,1,0.01,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00116,5493813520000,25039,J10,CHIP DE ARROZ X50GRS,5,695.92,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00117,5493813520000,25039,B47,Madalena Chocolate Rellena DDL x1 BIMBO 32 GRAMOS,5,0.01,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00118,5492997489876,25040,D25,RAVIOLES Pollo y Espinaca x1kg DON YEYO,1,3433.88,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00118,5492997489876,25040,Y9,Burgol Oriental,3,616.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00118,5492997489876,25040,F11,LOMO CURADO X120GR FET,5,3295.87,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00118,5492997489876,25040,O29,XLenteja 500grs,3,0.01,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00119,5492997489876,25040,L9,CHEDDITAS X60 GRS,4,469.42,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00119,5492997489876,25040,Y43,Poroto de Soja,3,236.60,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00119,5492997489876,25040,170,QUESO CREMOSO FRACC.  x24 PORCIONES,3,7894.21,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00119,5492997489876,25040,W18,TALLARINES MORRON N2,5,252.07,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00120,5492997489876,25040,01,Operaciones Logísticas Enero 2025,3,1000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00120,5492997489876,25040,J13,HOJUELAS AVELLANAS X500GRS,4,1221.49,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00120,5492997489876,25040,R6,Pepa Choco 12 paq x 350g,1,937.07,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00120,5492997489876,25040,J16,CHOCOPICOS X500GRS,4,954.55,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00121,5492612928724,0,180,QUESO RALLADO DISPLAY 20x40GRS,4,923.97,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00122,5492612928724,0,X6,MAIXANAS - Frijoles Negros & Lino x 95 grs,4,1065.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00122,5492612928724,0,K08,KEFIR NARANJA 500 ML,5,1611.57,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00123,5492612928724,0,O37,XNuez pelada mariposa Chandler Extra Light 100grs,1,0.01,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00123,5492612928724,0,U100,ALFAJOR DE CHOCOLATE TRADICIÓN,4,612.40,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00123,5492612928724,0,1688,QUESO CHEDDAR CAJA4 UNID. ME (BARRA),3,0.01,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00124,5492617236955,0,BI1,X Salame Crespon Premium x2 Kg Calibre 0.90,3,0.01,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00124,5492617236955,0,738,YOGUR C/ GRANOLA ENTERO 18x155GRS,1,715.70,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00125,5492617236955,0,U47,MILANESAS DE SOJA CLASICA PREFRITA,5,1700.33,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00125,5492617236955,0,L9,CHEDDITAS X60 GRS,1,469.42,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00125,5492617236955,0,D32,Pan Lacteado grande x600 g DON YEYO,1,2419.83,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00125,5492617236955,0,671,LECHE  0% LACTOSA PACK 12x1LT,2,1645.45,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00126,5492617236955,0,M2,Tostadas dulces 200 g,1,998.35,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00127,5492617413812,0,D49,.RAVIOLES C/VERDURA X450 G DEVIANO,2,2248.76,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00127,5492617413812,0,V3,Madalenas Rellenas DDL 1p 180g FLOW VLT,2,1257.02,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00127,5492617413812,0,136,YOGUR CREM LIGHT VAINILLA 18x125GRS,1,432.23,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00127,5492617413812,0,139,YOGUR FRUTAS ENTERO DURAZNO 24x160GRS,3,706.61,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00128,5492617413812,0,D2,Tapas de Empanadas  FREIR x18 un x615 g DON YEYO,2,1743.80,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00128,5492617413812,0,D25,RAVIOLES Pollo y Espinaca x1kg DON YEYO,4,3433.88,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00129,5492617413812,0,W16,TALLARIES AL HUEVO N2,4,252.07,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00129,5492617413812,0,7,QUESO POR SALUT CAJA x2 HORMAS,3,8313.22,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00129,5492617413812,0,V9,Vainilla 1p 74 VLT,5,561.98,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00129,5492617413812,0,X5,MAIXANAS - Nachos Guacamole x 95 grs,5,1065.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00130,5492998066543,0,B26,Pan Pancho Artesano De Papa 240gr BIM,3,2598.35,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00130,5492998066543,0,U16,MEDALLON 42x112G LA BLANCA POR 2,2,773.18,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00130,5492998066543,0,L4,PALITOS SALADOS SABOR JAMON S X 120 GRS,4,774.55,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00131,5492998066543,0,131,YOGUR CREM ENTERO FRUTILLA 24x125GRS,3,432.23,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00131,5492998066543,0,S34,BOCADITOS RELL C/CREMA DE AVELLANA X2KG,4,6622.81,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00132,5492998066543,0,311,QUESO CREMA LIGHT CAJA 12x190GRS,4,1761.98,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00132,5492998066543,0,K2,CONTRACALMA CABERNET S.750ML,1,6604.96,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00132,5492998066543,0,A19,MAYONESA ZANONI LIGHT 12 x 250 grs.,5,0.01,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00133,5492999435946,0,143,YOGUR FRUTAS DESC DURAZNO 24x160GRS,1,706.61,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00133,5492999435946,0,254,RICOTTA MAGRA CAJA 6x290GRS,2,2085.12,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00134,5492999435946,0,31,DULCE DE LECHE CLASICO 12x400GRS,5,1980.17,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00134,5492999435946,0,V3,Madalenas Rellenas DDL 1p 180g FLOW VLT,1,1257.02,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00134,5492999435946,0,L11,TUBITOON SABOR QUESO CREMA X 60GRS,4,469.42,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00134,5492999435946,0,Y23,Arroz Integral,5,242.20,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00135,5492999435946,0,N5,NESCAFE DOLCA MAS AROMA 6X50G,4,2248.14,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00135,5492999435946,0,1684,CREMA DE LECHE UAT 36% CAJA 12x500ml,5,0.01,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00136,5493416524997,0,B68,GRISINES CIB 1P 75GR BIM,3,531.40,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00136,5493416524997,0,B27,Pan Integral Cero Cero 400g BIM,1,0.01,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00137,5493416524997,0,B21,Madalena Vainilla 1p 200g FLOW BIM,5,1911.57,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00137,5493416524997,0,338,LECHE UAT ENTERA PACK 12x1LT,5,1397.52,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00138,5493416524997,0,D15,FIDEOS CINTA ANCHA x 500 g DON YEYO,3,1751.24,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00138,5493416524997,0,B57,BROWNIE CHIPS SABE BIEN 1P 62GR,5,873.55,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00138,5493416524997,0,W20,CINTA ARGENTINA,2,313.32,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00139,5493517632424,0,M19,Mayonesa Sabor Original - Libre de Gluten sin TACC*  100cc,5,91.98,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00140,5493517632424,0,G12,MANI CROCANTE SABOR QUESO x 200 GRS.,4,457.88,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00140,5493517632424,0,F3,BONDIOLA CURADA -DOINA,3,18142.98,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00141,5493517632424,0,Y34,Lentejas,3,417.20,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00141,5493517632424,0,2171,YOGUR NATURAL SIN AZUCAR CAJA 12 X 280 GRS,2,1098.35,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00141,5493517632424,0,T1,Salchichón Primavera,5,1312.40,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00142,5493519107005,0,U7,MEDALLON BURGER SWIFT MEGA 30x160g,2,0.01,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00142,5493519107005,0,B25,Vainilla 1p 74g FLOW BIM,1,568.60,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00142,5493519107005,0,Y1,PREPIZZAS X2 PANNITOS,5,1611.57,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00142,5493519107005,0,Y13,Caldo Natural de Verduras,4,1344.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00143,5493519107005,0,Y54,Sopa de Quinoa,1,791.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00143,5493519107005,0,N14,"KIT KAT 4 FINGER LECHE 4(24X41,5G)",3,832.31,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00143,5493519107005,0,H2,X Tapas para Empanadas SALVADO 330g. (Fuente de Fibras),1,0.01,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00144,5493519107005,0,B2,Pan Cereales 600g ORO,5,4695.04,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00145,5493874104594,0,A2,ACEITE GIR. ZANONI 12 x 1500 cc,1,1732.23,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00146,5493874104594,0,134,YOGUR CREM LIGHT FRUTILLA 18x125GRS,4,432.23,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00146,5493874104594,0,A9,HAR. MAIZ LIVORNO COMUN 10 x 1000 grs.,3,355.05,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00146,5493874104594,0,17,QUESO REGGIANITO HORMA,2,16154.55,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00146,5493874104594,0,B1,Pan Semillas 600g ORO,5,4695.04,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00147,5493874104594,0,S36,REBOZADOR NATURAL 10X750,5,1428.93,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00148,5493876499570,0,B61,Takis Xplosion 1p 49g FLOW BAR EXP,5,1138.02,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00148,5493876499570,0,X13,MAIXANAS MANDIOCA Y GUACAMOLE,4,1065.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00148,5493876499570,0,N9,NESCAFE DOLCA SUAVE 6X100G,2,0.01,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00148,5493876499570,0,O44,XMix Salado 100grs,4,0.01,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00149,5493876499570,0,G20,MAÍZ PISINGALLO x 400 GRS.,5,216.89,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00149,5493876499570,0,N12,BATON LECHE 32(30X16G),5,0.01,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00149,5493876499570,0,740,YOGUR CON GRANOLA DESCREMADO,5,715.70,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00149,5493876499570,0,Q1,BIZCOCHOS x 500 g.,1,1228.02,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00150,5493876499570,0,139,YOGUR FRUTAS ENTERO DURAZNO 24x160GRS,3,706.61,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00151,5493418277249,25004,180,QUESO RALLADO DISPLAY 20x40GRS,1,785.37,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad) - promo fase 2,true,true,true
+P-00151,5493418277249,25004,Z10,VIA VITA - Soft Cookies Vainilla con miel x 50 grs,1,811.44,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00151,5493418277249,25004,Y17,Torrejas de Arvejas y Espinaca,3,928.20,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00151,5493418277249,25004,B58,Takis Original 1p 49g FLOW BAR EXP,3,1138.02,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00152,5493587905250,25001,G36,JUGO GENY NARANJA BIDÓN x 5 LTS.,4,1133.55,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00153,5493582641213,25002,Y20,Poroto Aduki,3,573.30,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00153,5493582641213,25002,X1,MAIXANAS - Nachos Maíz & Girasol x 98 grs,5,1065.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00153,5493582641213,25002,R2,Scons 12 paq x 400g,4,937.07,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00154,5492991227644,25003,G10,MANI CROCANTE SABOR CLÁSICO x 200 GRS.,1,457.88,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00154,5492991227644,25003,B58,Takis Original 1p 49g FLOW BAR EXP,2,1138.02,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00155,5493587747641,25005,D2,Tapas de Empanadas  FREIR x18 un x615 g DON YEYO,1,1743.80,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00156,5492614053074,25006,A30,VINAGRE ALCOHOL ZANONI 3 x 5000 cc.,1,1558.68,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00156,5492614053074,25006,A8,HAR. MAIZ LIVORNO COCC. RAPIDA 10 x 500 grs.,4,180.99,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00156,5492614053074,25006,U34,PICADILLO DE CARNE PICANTE 24X90G SWIFT,4,796.61,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00157,5493514079279,25007,K08,KEFIR NARANJA 500 ML,1,1611.57,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false

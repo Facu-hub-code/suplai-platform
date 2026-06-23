@@ -1,0 +1,158 @@
+pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
+P-00001,25001,5493587905250,Distribuidora La Nueva,2026-03-01 08:00:00,confirmado,13250.00,Pedido historico mock - Distribuidora La Nueva,true,false,2
+P-00002,25001,5493587905250,Distribuidora La Nueva,2026-03-18 09:19:07,entregado,29906.67,Pedido historico mock - Distribuidora La Nueva,true,false,2
+P-00003,25001,5493587905250,Distribuidora La Nueva,2026-04-04 10:38:14,facturado,75338.45,Pedido historico mock - Distribuidora La Nueva,true,false,2
+P-00004,25002,5493582641213,Almacén El Buen Sabor,2026-03-08 11:11:23,entregado,66050.01,Pedido historico mock - Almacén El Buen Sabor,true,false,3
+P-00005,25002,5493582641213,Almacén El Buen Sabor,2026-03-25 12:30:30,facturado,21000.00,Pedido historico mock - Almacén El Buen Sabor,true,false,3
+P-00006,25002,5493582641213,Almacén El Buen Sabor,2026-04-11 13:49:37,confirmado,18233.32,Pedido historico mock - Almacén El Buen Sabor,true,false,3
+P-00007,25003,5492991227644,Pinturería Color y Vida,2026-03-15 14:22:46,facturado,10974.98,Pedido historico mock - Pinturería Color y Vida,true,false,4
+P-00008,25003,5492991227644,Pinturería Color y Vida,2026-04-01 15:41:53,confirmado,6810.00,Pedido historico mock - Pinturería Color y Vida,true,false,4
+P-00009,25003,5492991227644,Pinturería Color y Vida,2026-04-18 16:00:00,entregado,40766.68,Pedido historico mock - Pinturería Color y Vida,true,false,4
+P-00010,25004,5493418277249,Ferretería El Martillo,2026-03-22 17:33:09,confirmado,4612.86,Pedido historico mock - Ferretería El Martillo,true,false,1
+P-00011,25004,5493418277249,Ferretería El Martillo,2026-04-08 08:52:16,entregado,28075.00,Pedido historico mock - Ferretería El Martillo,true,false,1
+P-00012,25004,5493418277249,Ferretería El Martillo,2026-04-25 09:11:23,facturado,40.87,Pedido historico mock - Ferretería El Martillo,true,false,1
+P-00013,25005,5493587747641,Carnicería El Asador,2026-03-29 10:44:32,entregado,7770.00,Pedido historico mock - Carnicería El Asador,true,false,2
+P-00014,25005,5493587747641,Carnicería El Asador,2026-04-15 11:03:39,facturado,13500.00,Pedido historico mock - Carnicería El Asador,true,false,2
+P-00015,25005,5493587747641,Carnicería El Asador,2026-05-02 12:22:46,confirmado,32150.00,Pedido historico mock - Carnicería El Asador,true,false,2
+P-00016,25006,5492614053074,Distribuidora Los Amigos,2026-04-05 13:55:55,facturado,54550.00,Pedido historico mock - Distribuidora Los Amigos,true,false,3
+P-00017,25006,5492614053074,Distribuidora Los Amigos,2026-04-22 14:14:02,confirmado,5900.00,Pedido historico mock - Distribuidora Los Amigos,true,false,3
+P-00018,25006,5492614053074,Distribuidora Los Amigos,2026-05-09 15:33:09,entregado,22050.00,Pedido historico mock - Distribuidora Los Amigos,true,false,3
+P-00019,25007,5493514079279,Almacén La Esquina,2026-04-12 16:06:18,confirmado,5750.01,Pedido historico mock - Almacén La Esquina,true,false,4
+P-00020,25007,5493514079279,Almacén La Esquina,2026-04-29 17:25:25,entregado,8590.49,Pedido historico mock - Almacén La Esquina,true,false,4
+P-00021,25007,5493514079279,Almacén La Esquina,2026-05-16 08:44:32,facturado,28560.00,Pedido historico mock - Almacén La Esquina,true,false,4
+P-00022,25008,5493876914178,Pinturería Casa de Color,2026-04-19 09:17:41,entregado,23950.00,Pedido historico mock - Pinturería Casa de Color,true,false,1
+P-00023,25008,5493876914178,Pinturería Casa de Color,2026-05-06 10:36:48,facturado,10283.34,Pedido historico mock - Pinturería Casa de Color,true,false,1
+P-00024,25008,5493876914178,Pinturería Casa de Color,2026-05-23 11:55:55,confirmado,1520.00,Pedido historico mock - Pinturería Casa de Color,true,false,1
+P-00025,25009,5492617175545,Ferretería Todo en Uno,2026-04-26 12:28:04,facturado,32433.32,Pedido historico mock - Ferretería Todo en Uno,true,false,2
+P-00026,25009,5492617175545,Ferretería Todo en Uno,2026-05-13 13:47:11,confirmado,16100.00,Pedido historico mock - Ferretería Todo en Uno,true,false,2
+P-00027,25009,5492617175545,Ferretería Todo en Uno,2026-05-30 14:06:18,entregado,8460.02,Pedido historico mock - Ferretería Todo en Uno,true,false,2
+P-00028,25010,5493818437953,Carnicería La Parrilla,2026-05-03 15:39:27,confirmado,24491.67,Pedido historico mock - Carnicería La Parrilla,true,false,3
+P-00029,25010,5493818437953,Carnicería La Parrilla,2026-05-20 16:58:34,entregado,870.00,Pedido historico mock - Carnicería La Parrilla,true,false,3
+P-00030,25010,5493818437953,Carnicería La Parrilla,2026-03-06 17:17:41,facturado,1100.00,Pedido historico mock - Carnicería La Parrilla,true,false,3
+P-00031,25011,5493582132179,Distribuidora La Familia,2026-05-10 08:50:50,entregado,10611.52,Pedido historico mock - Distribuidora La Familia,true,false,4
+P-00032,25011,5493582132179,Distribuidora La Familia,2026-05-27 09:09:57,facturado,35000.00,Pedido historico mock - Distribuidora La Familia,true,false,4
+P-00033,25011,5493582132179,Distribuidora La Familia,2026-03-13 10:28:04,confirmado,44096.67,Pedido historico mock - Distribuidora La Familia,true,false,4
+P-00034,25012,5493872845902,Almacén El Rincón,2026-05-17 11:01:13,facturado,4800.00,Pedido historico mock - Almacén El Rincón,true,false,1
+P-00035,25012,5493872845902,Almacén El Rincón,2026-03-03 12:20:20,confirmado,212.50,Pedido historico mock - Almacén El Rincón,true,false,1
+P-00036,25012,5493872845902,Almacén El Rincón,2026-03-20 13:39:27,entregado,20100.00,Pedido historico mock - Almacén El Rincón,true,false,1
+P-00037,25013,5492997670210,Pinturería Colorín,2026-05-24 14:12:36,confirmado,37600.00,Pedido historico mock - Pinturería Colorín,true,false,2
+P-00038,25013,5492997670210,Pinturería Colorín,2026-03-10 15:31:43,entregado,11400.00,Pedido historico mock - Pinturería Colorín,true,false,2
+P-00039,25013,5492997670210,Pinturería Colorín,2026-03-27 16:50:50,facturado,8366.66,Pedido historico mock - Pinturería Colorín,true,false,2
+P-00040,25014,5493811657614,Ferretería El Progreso,2026-05-31 17:23:59,entregado,29689.50,Pedido historico mock - Ferretería El Progreso,true,false,3
+P-00041,25014,5493811657614,Ferretería El Progreso,2026-03-17 08:42:06,facturado,23634.00,Pedido historico mock - Ferretería El Progreso,true,false,3
+P-00042,25014,5493811657614,Ferretería El Progreso,2026-04-03 09:01:13,confirmado,17013.35,Pedido historico mock - Ferretería El Progreso,true,false,3
+P-00043,25015,5492994145193,Carnicería El Sabor Argentino,2026-03-07 10:34:22,facturado,7230.01,Pedido historico mock - Carnicería El Sabor Argentino,true,false,4
+P-00044,25015,5492994145193,Carnicería El Sabor Argentino,2026-03-24 11:53:29,confirmado,12200.00,Pedido historico mock - Carnicería El Sabor Argentino,true,false,4
+P-00045,25015,5492994145193,Carnicería El Sabor Argentino,2026-04-10 12:12:36,entregado,1100.00,Pedido historico mock - Carnicería El Sabor Argentino,true,false,4
+P-00046,25016,5493515971311,Distribuidora El Mercado,2026-03-14 13:45:45,confirmado,13850.00,Pedido historico mock - Distribuidora El Mercado,true,false,1
+P-00047,25016,5493515971311,Distribuidora El Mercado,2026-03-31 14:04:52,entregado,11625.00,Pedido historico mock - Distribuidora El Mercado,true,false,1
+P-00048,25016,5493515971311,Distribuidora El Mercado,2026-04-17 15:23:59,facturado,1770.85,Pedido historico mock - Distribuidora El Mercado,true,false,1
+P-00049,25017,5492994228106,Almacén La Abundancia,2026-03-21 16:56:08,entregado,7800.00,Pedido historico mock - Almacén La Abundancia,true,false,2
+P-00050,25017,5492994228106,Almacén La Abundancia,2026-04-07 17:15:15,facturado,10100.00,Pedido historico mock - Almacén La Abundancia,true,false,2
+P-00051,25017,5492994228106,Almacén La Abundancia,2026-04-24 08:34:22,confirmado,3600.00,Pedido historico mock - Almacén La Abundancia,true,false,2
+P-00052,25018,5492998718887,Pinturería La Paleta,2026-03-28 09:07:31,facturado,16000.00,Pedido historico mock - Pinturería La Paleta,true,false,3
+P-00053,25018,5492998718887,Pinturería La Paleta,2026-04-14 10:26:38,confirmado,7725.00,Pedido historico mock - Pinturería La Paleta,true,false,3
+P-00054,25018,5492998718887,Pinturería La Paleta,2026-05-01 11:45:45,entregado,19150.00,Pedido historico mock - Pinturería La Paleta,true,false,3
+P-00055,25019,5492995028869,Ferretería La Herramienta,2026-04-04 12:18:54,confirmado,1380.00,Pedido historico mock - Ferretería La Herramienta,true,false,4
+P-00056,25019,5492995028869,Ferretería La Herramienta,2026-04-21 13:37:01,entregado,2680.00,Pedido historico mock - Ferretería La Herramienta,true,false,4
+P-00057,25019,5492995028869,Ferretería La Herramienta,2026-05-08 14:56:08,facturado,14382.00,Pedido historico mock - Ferretería La Herramienta,true,false,4
+P-00058,25020,5493517304254,Carnicería El Buen Corte,2026-04-11 15:29:17,entregado,4246.67,Pedido historico mock - Carnicería El Buen Corte,true,false,1
+P-00059,25020,5493517304254,Carnicería El Buen Corte,2026-04-28 16:48:24,facturado,13150.00,Pedido historico mock - Carnicería El Buen Corte,true,false,1
+P-00060,25020,5493517304254,Carnicería El Buen Corte,2026-05-15 17:07:31,confirmado,48566.68,Pedido historico mock - Carnicería El Buen Corte,true,false,1
+P-00061,25021,5493416986538,Distribuidora El Éxito,2026-04-18 08:40:40,facturado,11837.50,Pedido historico mock - Distribuidora El Éxito,true,false,2
+P-00062,25021,5493416986538,Distribuidora El Éxito,2026-05-05 09:59:47,confirmado,975.00,Pedido historico mock - Distribuidora El Éxito,true,false,2
+P-00063,25021,5493416986538,Distribuidora El Éxito,2026-05-22 10:18:54,entregado,10866.67,Pedido historico mock - Distribuidora El Éxito,true,false,2
+P-00064,25022,5492619239862,Almacén La Tradición,2026-04-25 11:51:03,confirmado,4750.00,Pedido historico mock - Almacén La Tradición,true,false,3
+P-00065,25022,5492619239862,Almacén La Tradición,2026-05-12 12:10:10,entregado,24500.00,Pedido historico mock - Almacén La Tradición,true,false,3
+P-00066,25022,5492619239862,Almacén La Tradición,2026-05-29 13:29:17,facturado,11030.00,Pedido historico mock - Almacén La Tradición,true,false,3
+P-00067,25023,5493513952681,Pinturería El Colorido,2026-05-02 14:02:26,entregado,15450.00,Pedido historico mock - Pinturería El Colorido,true,false,4
+P-00068,25023,5493513952681,Pinturería El Colorido,2026-05-19 15:21:33,facturado,7200.00,Pedido historico mock - Pinturería El Colorido,true,false,4
+P-00069,25023,5493513952681,Pinturería El Colorido,2026-03-05 16:40:40,confirmado,23575.01,Pedido historico mock - Pinturería El Colorido,true,false,4
+P-00070,25024,5493414799650,Ferretería El Taller,2026-05-09 17:13:49,facturado,7974.00,Pedido historico mock - Ferretería El Taller,true,false,1
+P-00071,25024,5493414799650,Ferretería El Taller,2026-05-26 08:32:56,confirmado,24850.00,Pedido historico mock - Ferretería El Taller,true,false,1
+P-00072,25024,5493414799650,Ferretería El Taller,2026-03-12 09:51:03,entregado,1622.24,Pedido historico mock - Ferretería El Taller,true,false,1
+P-00073,25025,5492992500733,Carnicería La Especial,2026-05-16 10:24:12,confirmado,204.35,Pedido historico mock - Carnicería La Especial,true,false,2
+P-00074,25025,5492992500733,Carnicería La Especial,2026-03-02 11:43:19,entregado,15333.32,Pedido historico mock - Carnicería La Especial,true,false,2
+P-00075,25025,5492992500733,Carnicería La Especial,2026-03-19 12:02:26,facturado,8594.28,Pedido historico mock - Carnicería La Especial,true,false,2
+P-00076,25026,5492615139305,Distribuidora La Oportunidad,2026-05-23 13:35:35,entregado,34600.00,Pedido historico mock - Distribuidora La Oportunidad,true,false,3
+P-00077,25026,5492615139305,Distribuidora La Oportunidad,2026-03-09 14:54:42,facturado,8400.00,Pedido historico mock - Distribuidora La Oportunidad,true,false,3
+P-00078,25026,5492615139305,Distribuidora La Oportunidad,2026-03-26 15:13:49,confirmado,6600.00,Pedido historico mock - Distribuidora La Oportunidad,true,false,3
+P-00079,25027,5492618861463,Almacén El Surtidor,2026-05-30 16:46:58,facturado,13939.15,Pedido historico mock - Almacén El Surtidor,true,false,4
+P-00080,25027,5492618861463,Almacén El Surtidor,2026-03-16 17:05:05,confirmado,851.14,Pedido historico mock - Almacén El Surtidor,true,false,4
+P-00081,25027,5492618861463,Almacén El Surtidor,2026-04-02 08:24:12,entregado,14500.00,Pedido historico mock - Almacén El Surtidor,true,false,4
+P-00082,25028,5493812941974,Pinturería La Casa del Pintor,2026-03-06 09:57:21,confirmado,6962.50,Pedido historico mock - Pinturería La Casa del Pintor,true,false,1
+P-00083,25028,5493812941974,Pinturería La Casa del Pintor,2026-03-23 10:16:28,entregado,3300.00,Pedido historico mock - Pinturería La Casa del Pintor,true,false,1
+P-00084,25028,5493812941974,Pinturería La Casa del Pintor,2026-04-09 11:35:35,facturado,22708.35,Pedido historico mock - Pinturería La Casa del Pintor,true,false,1
+P-00085,25029,5493817404433,Ferretería El Refugio,2026-03-13 12:08:44,entregado,11361.13,Pedido historico mock - Ferretería El Refugio,true,false,2
+P-00086,25029,5493817404433,Ferretería El Refugio,2026-03-30 13:27:51,facturado,4041.68,Pedido historico mock - Ferretería El Refugio,true,false,2
+P-00087,25029,5493817404433,Ferretería El Refugio,2026-04-16 14:46:58,confirmado,3150.00,Pedido historico mock - Ferretería El Refugio,true,false,2
+P-00088,25030,5493419686914,Carnicería El Gran Asado,2026-03-20 15:19:07,facturado,12541.66,Pedido historico mock - Carnicería El Gran Asado,true,false,3
+P-00089,25030,5493419686914,Carnicería El Gran Asado,2026-04-06 16:38:14,confirmado,7533.34,Pedido historico mock - Carnicería El Gran Asado,true,false,3
+P-00090,25030,5493419686914,Carnicería El Gran Asado,2026-04-23 17:57:21,entregado,5200.00,Pedido historico mock - Carnicería El Gran Asado,true,false,3
+P-00091,25031,5493518648263,Distribuidora La Solución,2026-03-27 08:30:30,confirmado,61667.01,Pedido historico mock - Distribuidora La Solución,true,false,4
+P-00092,25031,5493518648263,Distribuidora La Solución,2026-04-13 09:49:37,entregado,10050.00,Pedido historico mock - Distribuidora La Solución,true,false,4
+P-00093,25031,5493518648263,Distribuidora La Solución,2026-04-30 10:08:44,facturado,76799.99,Pedido historico mock - Distribuidora La Solución,true,false,4
+P-00094,25032,5493516216782,Almacén El Abasto,2026-04-03 11:41:53,entregado,26450.00,Pedido historico mock - Almacén El Abasto,true,false,1
+P-00095,25032,5493516216782,Almacén El Abasto,2026-04-20 12:00:00,facturado,10660.00,Pedido historico mock - Almacén El Abasto,true,false,1
+P-00096,25032,5493516216782,Almacén El Abasto,2026-05-07 13:19:07,confirmado,13550.00,Pedido historico mock - Almacén El Abasto,true,false,1
+P-00097,25033,5492612780568,Pinturería El Arcoíris,2026-04-10 14:52:16,facturado,7434.99,Pedido historico mock - Pinturería El Arcoíris,true,false,2
+P-00098,25033,5492612780568,Pinturería El Arcoíris,2026-04-27 15:11:23,confirmado,28133.34,Pedido historico mock - Pinturería El Arcoíris,true,false,2
+P-00099,25033,5492612780568,Pinturería El Arcoíris,2026-05-14 16:30:30,entregado,1650.00,Pedido historico mock - Pinturería El Arcoíris,true,false,2
+P-00100,25034,5493582639964,Ferretería El Aliado,2026-04-17 17:03:39,confirmado,3000.00,Pedido historico mock - Ferretería El Aliado,true,false,3
+P-00101,25034,5493582639964,Ferretería El Aliado,2026-05-04 08:22:46,entregado,38950.00,Pedido historico mock - Ferretería El Aliado,true,false,3
+P-00102,25034,5493582639964,Ferretería El Aliado,2026-05-21 09:41:53,facturado,12700.00,Pedido historico mock - Ferretería El Aliado,true,false,3
+P-00103,25035,5493814729528,Carnicería El Rincón del Asado,2026-04-24 10:14:02,entregado,29690.00,Pedido historico mock - Carnicería El Rincón del Asado,true,false,4
+P-00104,25035,5493814729528,Carnicería El Rincón del Asado,2026-05-11 11:33:09,facturado,18400.00,Pedido historico mock - Carnicería El Rincón del Asado,true,false,4
+P-00105,25035,5493814729528,Carnicería El Rincón del Asado,2026-05-28 12:52:16,confirmado,5000.00,Pedido historico mock - Carnicería El Rincón del Asado,true,false,4
+P-00106,25036,5493876922419,Distribuidora El Camino,2026-05-01 13:25:25,facturado,10100.00,Pedido historico mock - Distribuidora El Camino,true,false,1
+P-00107,25036,5493876922419,Distribuidora El Camino,2026-05-18 14:44:32,confirmado,12875.00,Pedido historico mock - Distribuidora El Camino,true,false,1
+P-00108,25036,5493876922419,Distribuidora El Camino,2026-03-04 15:03:39,entregado,22420.00,Pedido historico mock - Distribuidora El Camino,true,false,1
+P-00109,25037,5492618889598,Almacén La Selección,2026-05-08 16:36:48,confirmado,29670.00,Pedido historico mock - Almacén La Selección,true,false,2
+P-00110,25037,5492618889598,Almacén La Selección,2026-05-25 17:55:55,entregado,6491.68,Pedido historico mock - Almacén La Selección,true,false,2
+P-00111,25037,5492618889598,Almacén La Selección,2026-03-11 08:14:02,facturado,64300.00,Pedido historico mock - Almacén La Selección,true,false,2
+P-00112,25038,5492615021286,Pinturería La Estrella,2026-05-15 09:47:11,entregado,33300.00,Pedido historico mock - Pinturería La Estrella,true,false,3
+P-00113,25038,5492615021286,Pinturería La Estrella,2026-03-01 10:06:18,facturado,4286.68,Pedido historico mock - Pinturería La Estrella,true,false,3
+P-00114,25038,5492615021286,Pinturería La Estrella,2026-03-18 11:25:25,confirmado,27410.00,Pedido historico mock - Pinturería La Estrella,true,false,3
+P-00115,25039,5493813520000,Ferretería El Socorro,2026-05-22 12:58:34,facturado,25695.00,Pedido historico mock - Ferretería El Socorro,true,false,4
+P-00116,25039,5493813520000,Ferretería El Socorro,2026-03-08 13:17:41,confirmado,6850.00,Pedido historico mock - Ferretería El Socorro,true,false,4
+P-00117,25039,5493813520000,Ferretería El Socorro,2026-03-25 14:36:48,entregado,15012.01,Pedido historico mock - Ferretería El Socorro,true,false,4
+P-00118,25040,5492997489876,Carnicería El Sabor del Campo,2026-05-29 15:09:57,confirmado,10916.66,Pedido historico mock - Carnicería El Sabor del Campo,true,false,1
+P-00119,25040,5492997489876,Carnicería El Sabor del Campo,2026-03-15 16:28:04,entregado,4186.68,Pedido historico mock - Carnicería El Sabor del Campo,true,false,1
+P-00120,25040,5492997489876,Carnicería El Sabor del Campo,2026-04-01 17:47:11,facturado,1400.00,Pedido historico mock - Carnicería El Sabor del Campo,true,false,1
+P-00121,0,5492612928724,Carnicería El Asador Criollo,2026-03-05 08:20:20,entregado,15000.00,Pedido historico mock - Carnicería El Asador Criollo,true,false,2
+P-00122,0,5492612928724,Carnicería El Asador Criollo,2026-03-22 09:39:27,facturado,32550.00,Pedido historico mock - Carnicería El Asador Criollo,true,false,2
+P-00123,0,5492612928724,Carnicería El Asador Criollo,2026-04-08 10:58:34,confirmado,18000.00,Pedido historico mock - Carnicería El Asador Criollo,true,false,2
+P-00124,0,5492617236955,Ferretería La Fuerza,2026-03-12 11:31:43,facturado,12187.50,Pedido historico mock - Ferretería La Fuerza,true,false,1
+P-00125,0,5492617236955,Ferretería La Fuerza,2026-03-29 12:50:50,confirmado,4483.34,Pedido historico mock - Ferretería La Fuerza,true,false,1
+P-00126,0,5492617236955,Ferretería La Fuerza,2026-04-15 13:09:57,entregado,6825.00,Pedido historico mock - Ferretería La Fuerza,true,false,1
+P-00127,0,5492617413812,Pinturería El Color de la Vida,2026-03-19 14:42:06,confirmado,9500.00,Pedido historico mock - Pinturería El Color de la Vida,true,false,4
+P-00128,0,5492617413812,Pinturería El Color de la Vida,2026-04-05 15:01:13,entregado,26166.66,Pedido historico mock - Pinturería El Color de la Vida,true,false,4
+P-00129,0,5492617413812,Pinturería El Color de la Vida,2026-04-22 16:20:20,facturado,5266.68,Pedido historico mock - Pinturería El Color de la Vida,true,false,4
+P-00130,0,5492998066543,Carnicería El Sabor del Barrio,2026-03-26 17:53:29,entregado,9974.08,Pedido historico mock - Carnicería El Sabor del Barrio,true,false,3
+P-00131,0,5492998066543,Carnicería El Sabor del Barrio,2026-04-12 08:12:36,facturado,675.00,Pedido historico mock - Carnicería El Sabor del Barrio,true,false,3
+P-00132,0,5492998066543,Carnicería El Sabor del Barrio,2026-04-29 09:31:43,confirmado,12316.66,Pedido historico mock - Carnicería El Sabor del Barrio,true,false,3
+P-00133,0,5492999435946,Distribuidora La Conexión,2026-04-02 10:04:52,facturado,13150.00,Pedido historico mock - Distribuidora La Conexión,true,false,3
+P-00134,0,5492999435946,Distribuidora La Conexión,2026-04-19 11:23:59,confirmado,65633.33,Pedido historico mock - Distribuidora La Conexión,true,false,3
+P-00135,0,5492999435946,Distribuidora La Conexión,2026-05-06 12:42:06,entregado,6373.34,Pedido historico mock - Distribuidora La Conexión,true,false,3
+P-00136,0,5493416524997,Pinturería El Color de la Casa,2026-04-09 13:15:15,confirmado,8099.99,Pedido historico mock - Pinturería El Color de la Casa,true,false,1
+P-00137,0,5493416524997,Pinturería El Color de la Casa,2026-04-26 14:34:22,entregado,16100.00,Pedido historico mock - Pinturería El Color de la Casa,true,false,1
+P-00138,0,5493416524997,Pinturería El Color de la Casa,2026-05-13 15:53:29,facturado,16958.35,Pedido historico mock - Pinturería El Color de la Casa,true,false,1
+P-00139,0,5493517632424,Almacén El Mercado de la Gente,2026-04-16 16:26:38,entregado,10763.34,Pedido historico mock - Almacén El Mercado de la Gente,true,false,4
+P-00140,0,5493517632424,Almacén El Mercado de la Gente,2026-05-03 17:45:45,facturado,22250.00,Pedido historico mock - Almacén El Mercado de la Gente,true,false,4
+P-00141,0,5493517632424,Almacén El Mercado de la Gente,2026-05-20 08:04:52,confirmado,31860.45,Pedido historico mock - Almacén El Mercado de la Gente,true,false,4
+P-00142,0,5493519107005,Distribuidora La Esperanza,2026-04-23 09:37:01,facturado,5375.00,Pedido historico mock - Distribuidora La Esperanza,true,false,2
+P-00143,0,5493519107005,Distribuidora La Esperanza,2026-05-10 10:56:08,confirmado,43500.00,Pedido historico mock - Distribuidora La Esperanza,true,false,2
+P-00144,0,5493519107005,Distribuidora La Esperanza,2026-05-27 11:15:15,entregado,11430.00,Pedido historico mock - Distribuidora La Esperanza,true,false,2
+P-00145,0,5493874104594,Almacén El Paraíso,2026-04-30 12:48:24,confirmado,27450.00,Pedido historico mock - Almacén El Paraíso,true,false,3
+P-00146,0,5493874104594,Almacén El Paraíso,2026-05-17 13:07:31,entregado,4390.32,Pedido historico mock - Almacén El Paraíso,true,false,3
+P-00147,0,5493874104594,Almacén El Paraíso,2026-03-03 14:26:38,facturado,9400.00,Pedido historico mock - Almacén El Paraíso,true,false,3
+P-00148,0,5493876499570,Ferretería El Aliado del Hogar,2026-05-07 15:59:47,entregado,6400.00,Pedido historico mock - Ferretería El Aliado del Hogar,true,false,2
+P-00149,0,5493876499570,Ferretería El Aliado del Hogar,2026-05-24 16:18:54,facturado,101350.00,Pedido historico mock - Ferretería El Aliado del Hogar,true,false,2
+P-00150,0,5493876499570,Ferretería El Aliado del Hogar,2026-03-10 17:37:01,confirmado,2680.00,Pedido historico mock - Ferretería El Aliado del Hogar,true,false,2
+P-00151,25004,5493418277249,Ferretería El Martillo,2026-06-22 11:15:00,abierto,6643.89,Pedido abierto mock - promo Fase 2 - Ferretería El Martillo,true,true,1
+P-00152,25001,5493587905250,Distribuidora La Nueva,2026-06-22 11:15:13,pendiente,11797.69,Pedido abierto mock - Distribuidora La Nueva,true,true,2
+P-00153,25002,5493582641213,Almacén El Buen Sabor,2026-06-22 11:15:26,abierto,47200.00,Pedido abierto mock - Almacén El Buen Sabor,true,true,3
+P-00154,25003,5492991227644,Pinturería Color y Vida,2026-06-22 11:15:39,pendiente,30538.45,Pedido abierto mock - Pinturería Color y Vida,true,true,4
+P-00155,25005,5493587747641,Carnicería El Asador,2026-06-22 11:15:52,abierto,3500.00,Pedido abierto mock - Carnicería El Asador,true,true,2
+P-00156,25006,5492614053074,Distribuidora Los Amigos,2026-06-22 11:15:05,pendiente,3940.00,Pedido abierto mock - Distribuidora Los Amigos,true,true,3
+P-00157,25007,5493514079279,Almacén La Esquina,2026-06-22 11:15:18,abierto,13233.34,Pedido abierto mock - Almacén La Esquina,true,true,4

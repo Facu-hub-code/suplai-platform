@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Distribuidora La Nueva,25001,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493582641213,Almacén El Buen Sabor,25002,validado,2026-06-22T15:33:58.232677+00:00,,false
+5492991227644,Pinturería Color y Vida,25003,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493418277249,Ferretería El Martillo,25004,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493587747641,Carnicería El Asador,25005,validado,2026-06-22T15:33:58.232677+00:00,,false
+5492614053074,Distribuidora Los Amigos,25006,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493514079279,Almacén La Esquina,25007,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493876914178,Pinturería Casa de Color,25008,validado,2026-06-22T15:33:58.232677+00:00,,false
+5492617175545,Ferretería Todo en Uno,25009,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493818437953,Carnicería La Parrilla,25010,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493582132179,Distribuidora La Familia,25011,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493872845902,Almacén El Rincón,25012,validado,2026-06-22T15:33:58.232677+00:00,,false
+5492997670210,Pinturería Colorín,25013,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493811657614,Ferretería El Progreso,25014,validado,2026-06-22T15:33:58.232677+00:00,,false
+5492994145193,Carnicería El Sabor Argentino,25015,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493515971311,Distribuidora El Mercado,25016,validado,2026-06-22T15:33:58.232677+00:00,,false
+5492994228106,Almacén La Abundancia,25017,validado,2026-06-22T15:33:58.232677+00:00,,false
+5492998718887,Pinturería La Paleta,25018,validado,2026-06-22T15:33:58.232677+00:00,,false
+5492995028869,Ferretería La Herramienta,25019,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493517304254,Carnicería El Buen Corte,25020,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493416986538,Distribuidora El Éxito,25021,validado,2026-06-22T15:33:58.232677+00:00,,false
+5492619239862,Almacén La Tradición,25022,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493513952681,Pinturería El Colorido,25023,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493414799650,Ferretería El Taller,25024,validado,2026-06-22T15:33:58.232677+00:00,,false
+5492992500733,Carnicería La Especial,25025,validado,2026-06-22T15:33:58.232677+00:00,,false
+5492615139305,Distribuidora La Oportunidad,25026,validado,2026-06-22T15:33:58.232677+00:00,,false
+5492618861463,Almacén El Surtidor,25027,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493812941974,Pinturería La Casa del Pintor,25028,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493817404433,Ferretería El Refugio,25029,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493419686914,Carnicería El Gran Asado,25030,validado,2026-06-22T15:33:58.232677+00:00,,false
+5493518648263,Distribuidora La Solución,25031,existente,,,false
+5493516216782,Almacén El Abasto,25032,existente,,,false
+5492612780568,Pinturería El Arcoíris,25033,existente,,,false
+5493582639964,Ferretería El Aliado,25034,existente,,,false
+5493814729528,Carnicería El Rincón del Asado,25035,existente,,,false
+5493876922419,Distribuidora El Camino,25036,existente,,,false
+5492618889598,Almacén La Selección,25037,existente,,,false
+5492615021286,Pinturería La Estrella,25038,existente,,,false
+5493813520000,Ferretería El Socorro,25039,existente,,,false
+5492997489876,Carnicería El Sabor del Campo,25040,existente,,,false
+5493519107005,Distribuidora La Esperanza,0,no_validado,,PROSPECTO,true
+5493874104594,Almacén El Paraíso,0,existente,,PROSPECTO,true
+5492617413812,Pinturería El Color de la Vida,0,no_validado,,PROSPECTO,true
+5492617236955,Ferretería La Fuerza,0,existente,,PROSPECTO,true
+5492612928724,Carnicería El Asador Criollo,0,no_validado,,PROSPECTO,true
+5492999435946,Distribuidora La Conexión,0,validado,2026-06-22T15:33:58.232677+00:00,PROSPECTO,true
+5493517632424,Almacén El Mercado de la Gente,0,no_existente,,PROSPECTO,true
+5493416524997,Pinturería El Color de la Casa,0,no_validado,,PROSPECTO,true
+5493876499570,Ferretería El Aliado del Hogar,0,existente,,PROSPECTO,true
+5492998066543,Carnicería El Sabor del Barrio,0,no_validado,,PROSPECTO,true

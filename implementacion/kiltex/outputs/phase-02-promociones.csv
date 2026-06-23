@@ -1,0 +1,5 @@
+promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+1,180,¡Oferta Semanal! Queso Rallado Display,Llevá tu queso rallado con un 15% de descuento. Ideal para tus platos.,percent_off,15,1,1,2026-06-10,2026-07-17,true,true
+2,338,Imperdible: Leche UAT Entera,Aprovechá $1000 de descuento al comprar el pack de 12 litros. ¡No te lo pierdas!,total_off,1000,2,1,2026-06-10,2026-07-17,true,true
+3,132,Promo Especial: Yogur Crem Entero Vainilla,Llevá 3 y pagá solo $380.36 cada uno. ¡Delicia y ahorro asegurados!,fixed_price,380.36,1,3,2026-06-10,2026-07-17,true,true
+4,131,Descuento del 20%: Yogur Crem Entero Frutilla,Disfrutá de un 20% de descuento en cada yogur. ¡Sabor y frescura!,percent_off,20,3,1,2026-06-10,2026-07-17,true,true

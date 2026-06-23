@@ -437,12 +437,13 @@ def call_openai_chat(system_prompt: str, user_prompt: str, json_mode: bool = Fal
 
 def repair_test_suite(test_cases: list, products: list) -> list:
     """
-    Completa expected_skus cuando el LLM genera menos de los requeridos (tipologías 2 y 4).
-    Evita reintentos fallidos en modo secuencial sin relajar la validación posterior.
+    Completa expected_skus cuando el LLM genera menos de los requeridos o vacíos,
+    y asegura que cumplan las restricciones del validador determinista.
     """
     import re
 
     by_code = {p["product_code"]: p for p in products}
+    stop_words = {"de", "del", "la", "las", "el", "los", "un", "una", "unos", "unas", "con", "sin", "y", "en", "para", "por", "a", "al", "o", "x"}
 
     def _words(name: str) -> set[str]:
         clean = re.sub(r"[^\w\s]", " ", (name or "").lower())
@@ -470,15 +471,65 @@ def repair_test_suite(test_cases: list, products: list) -> list:
         if not isinstance(case, dict):
             continue
         case_id = idx + 1
-        if case_id not in (2, 4):
+        
+        required_len = 0
+        if case_id in (1, 3, 5, 6, 7, 8):
+            required_len = 1
+        elif case_id in (2, 4):
+            required_len = 2
+            
+        if required_len == 0:
             continue
+            
         skus = list(case.get("expected_skus") or [])
-        while len(skus) < 2:
+        # Filtrar SKUs que no estén en by_code
+        skus = [sku for sku in skus if sku in by_code]
+        
+        # Para tipologías que validan estrictamente mención en mensaje,
+        # limpiamos las que no cumplan para re-buscarlas correctamente.
+        if case_id in (1, 2, 3, 6, 7):
+            mentioned = []
+            for sku in skus:
+                prod = by_code.get(sku)
+                if prod:
+                    msg_lower = case.get("message", "").lower()
+                    sku_lower = sku.lower()
+                    prod_name_lower = prod.get("nombre", "").lower()
+                    clean_name = re.sub(r'[^\w\s]', ' ', prod_name_lower)
+                    words = [w.strip() for w in clean_name.split() if len(w.strip()) > 2 and w.strip() not in stop_words]
+                    has_code = sku_lower in msg_lower
+                    has_name_word = any(w in msg_lower for w in words) if words else False
+                    if has_code or has_name_word:
+                        mentioned.append(sku)
+            skus = mentioned
+
+        # Intentar buscar en el mensaje menciones a otros productos válidos
+        if len(skus) < required_len:
+            msg_lower = case.get("message", "").lower()
+            for p in products:
+                sku = p["product_code"]
+                if sku in skus:
+                    continue
+                sku_lower = sku.lower()
+                prod_name_lower = p.get("nombre", "").lower()
+                clean_name = re.sub(r'[^\w\s]', ' ', prod_name_lower)
+                words = [w.strip() for w in clean_name.split() if len(w.strip()) > 2 and w.strip() not in stop_words]
+                has_code = sku_lower in msg_lower
+                has_name_word = any(w in msg_lower for w in words) if words else False
+                if has_code or has_name_word:
+                    skus.append(sku)
+                    if len(skus) >= required_len:
+                        break
+
+        # Fallback si aún faltan SKUs
+        while len(skus) < required_len:
             extra = _pick_related(products, skus)
             if not extra or extra in skus:
                 break
             skus.append(extra)
+            
         case["expected_skus"] = skus
+        
     return test_cases
 
 

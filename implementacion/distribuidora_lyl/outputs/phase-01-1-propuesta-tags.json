@@ -1,0 +1,4345 @@
+{
+  "schema": "distribuidora_lyl",
+  "products": [
+    {
+      "product_code": "LYL-0001",
+      "nombre": "Gaseosa Secco 3L x 4u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Gaseosas Saborizadas",
+        "4": "Gaseosa"
+      }
+    },
+    {
+      "product_code": "LYL-0002",
+      "nombre": "Gaseosa Winner´s x 3L x 4u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Gaseosas Saborizadas",
+        "4": "Gaseosa"
+      }
+    },
+    {
+      "product_code": "LYL-0003",
+      "nombre": "Gaseosa Secco 2,25L x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Gaseosas Saborizadas",
+        "4": "Gaseosa"
+      }
+    },
+    {
+      "product_code": "LYL-0004",
+      "nombre": "Gaseosa Secco 1,5L x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Gaseosas Saborizadas",
+        "4": "Gaseosa"
+      }
+    },
+    {
+      "product_code": "LYL-0005",
+      "nombre": "Gaseosa Secco 500cc x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Gaseosas Saborizadas",
+        "4": "Gaseosa"
+      }
+    },
+    {
+      "product_code": "LYL-0006",
+      "nombre": "Fiestita de los niños: Manzana Fizz / Ananá Fizz / Frutilla / Multifruta",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Gaseosas Saborizadas",
+        "4": "Gaseosa"
+      }
+    },
+    {
+      "product_code": "LYL-0007",
+      "nombre": "Soda Secco 500cc x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Sodas",
+        "4": "Soda"
+      }
+    },
+    {
+      "product_code": "LYL-0008",
+      "nombre": "Soda Secco 1,5L x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Sodas",
+        "4": "Soda"
+      }
+    },
+    {
+      "product_code": "LYL-0009",
+      "nombre": "Soda Secco 2,25L x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Sodas",
+        "4": "Soda"
+      }
+    },
+    {
+      "product_code": "LYL-0010",
+      "nombre": "Soda en Sifón Secco 2L x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Sodas",
+        "4": "Soda"
+      }
+    },
+    {
+      "product_code": "LYL-0011",
+      "nombre": "Sporting Isotónica x 500cc x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Bebidas Isotónicas",
+        "4": "Bebida Isotónica"
+      }
+    },
+    {
+      "product_code": "LYL-0012",
+      "nombre": "Agua Saborizada Bio Balance 500cc x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua Saborizada",
+        "4": "Agua Saborizada"
+      }
+    },
+    {
+      "product_code": "LYL-0013",
+      "nombre": "Agua Saborizada Bio Balance 1,5L x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua Saborizada",
+        "4": "Agua Saborizada"
+      }
+    },
+    {
+      "product_code": "LYL-0014",
+      "nombre": "Jugo en tetrapack Tutti x 200cc x 18u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugos en Tetrapack",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "LYL-0015",
+      "nombre": "Jugo en tetrapack Tutti x 1L x 8u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugos en Tetrapack",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "LYL-0016",
+      "nombre": "Chocolatada Mr. Choco x 200cc x 18u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Leches y Chocolatadas",
+        "3": "Chocolatadas",
+        "4": "Chocolatada"
+      }
+    },
+    {
+      "product_code": "LYL-0017",
+      "nombre": "Chocolatada Mr. Choco x 1L x 8u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Leches y Chocolatadas",
+        "3": "Chocolatadas",
+        "4": "Chocolatada"
+      }
+    },
+    {
+      "product_code": "LYL-0018",
+      "nombre": "Bidón agua de mesa x 6L x 2u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua de Mesa",
+        "4": "Agua de Mesa"
+      }
+    },
+    {
+      "product_code": "LYL-0019",
+      "nombre": "Agua Mineral Bio Balance 2,250L x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua Mineral",
+        "4": "Agua Mineral"
+      }
+    },
+    {
+      "product_code": "LYL-0020",
+      "nombre": "Agua Mineral Bio Sports 1,5L x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua Mineral",
+        "4": "Agua Mineral"
+      }
+    },
+    {
+      "product_code": "LYL-0021",
+      "nombre": "Agua Mineral Bio Sports 500cc x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Agua",
+        "3": "Agua Mineral",
+        "4": "Agua Mineral"
+      }
+    },
+    {
+      "product_code": "LYL-0022",
+      "nombre": "Jugo Yap en polvo x 18u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugos en Polvo",
+        "4": "Jugo en Polvo"
+      }
+    },
+    {
+      "product_code": "LYL-0023",
+      "nombre": "Speed Lata 250cc x unidad",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Bebidas Energéticas en Lata",
+        "4": "Bebida Energética"
+      }
+    },
+    {
+      "product_code": "LYL-0024",
+      "nombre": "Speed Pack 250cc                                                      x 24u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Bebidas Energéticas en Pack",
+        "4": "Bebida Energética"
+      }
+    },
+    {
+      "product_code": "LYL-0025",
+      "nombre": "Speed Lata 473cc XL x unidad",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Bebidas Energéticas en Lata",
+        "4": "Bebida Energética"
+      }
+    },
+    {
+      "product_code": "LYL-0026",
+      "nombre": "Speed Pack 473cc XL                                       x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Bebidas Energéticas en Pack",
+        "4": "Bebida Energética"
+      }
+    },
+    {
+      "product_code": "LYL-0027",
+      "nombre": "Speed ZERO Lata 250cc x unidad",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Bebidas Energéticas en Lata",
+        "4": "Bebida Energética"
+      }
+    },
+    {
+      "product_code": "LYL-0028",
+      "nombre": "Speed ZERO Pack 250cc x 24u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Bebidas Energéticas en Pack",
+        "4": "Bebida Energética"
+      }
+    },
+    {
+      "product_code": "LYL-0029",
+      "nombre": "Speed ZERO Lata 473cc XL x unidad",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Bebidas Energéticas en Lata",
+        "4": "Bebida Energética"
+      }
+    },
+    {
+      "product_code": "LYL-0030",
+      "nombre": "Speed ZERO Pack 473cc XL x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Bebidas Energéticas en Pack",
+        "4": "Bebida Energética"
+      }
+    },
+    {
+      "product_code": "LYL-0031",
+      "nombre": "Energizante Block Lata 473cc x unidad",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Bebidas Energéticas en Lata",
+        "4": "Bebida Energética"
+      }
+    },
+    {
+      "product_code": "LYL-0032",
+      "nombre": "Energizante Block Pack 473cc x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Energéticas",
+        "3": "Bebidas Energéticas en Pack",
+        "4": "Bebida Energética"
+      }
+    },
+    {
+      "product_code": "LYL-0033",
+      "nombre": "Juguitos para congelar Krosty (25 unidades)",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugos Congelables",
+        "4": "Jugo Congelable"
+      }
+    },
+    {
+      "product_code": "LYL-0034",
+      "nombre": "Fernet ONLY (Preparado) x 1L x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Aperitivo"
+      }
+    },
+    {
+      "product_code": "LYL-0035",
+      "nombre": "Fernet ONLY FORTE (Preparado) x 1L x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Aperitivo"
+      }
+    },
+    {
+      "product_code": "LYL-0036",
+      "nombre": "Gancia Americano x 950cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0037",
+      "nombre": "Fernet VITTONE x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Aperitivo"
+      }
+    },
+    {
+      "product_code": "LYL-0038",
+      "nombre": "Fernet BRANCA x 50cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Aperitivo"
+      }
+    },
+    {
+      "product_code": "LYL-0039",
+      "nombre": "Fernet BRANCA x 450cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Aperitivo"
+      }
+    },
+    {
+      "product_code": "LYL-0040",
+      "nombre": "Fernet BRANCA x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Aperitivo"
+      }
+    },
+    {
+      "product_code": "LYL-0041",
+      "nombre": "Fernet BRANCA x 1L x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Aperitivo"
+      }
+    },
+    {
+      "product_code": "LYL-0042",
+      "nombre": "Fernet BRANCA MENTA x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Aperitivo"
+      }
+    },
+    {
+      "product_code": "LYL-0043",
+      "nombre": "CARPANO (Rosso - Bianco) x 950cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Aperitivo"
+      }
+    },
+    {
+      "product_code": "LYL-0044",
+      "nombre": "SMIRNOFF (Framb -Manz Verde - Nar. y Lima-Pomelo y Lima-Tamarindo)",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Aperitivo"
+      }
+    },
+    {
+      "product_code": "LYL-0045",
+      "nombre": "FRIZZÉ Evolution Blue New / Bubble Mood x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Aperitivo"
+      }
+    },
+    {
+      "product_code": "LYL-0046",
+      "nombre": "Trumpeter Malbec x 750cc                              x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0047",
+      "nombre": "DADA (Malbec - Nº1 - Nº2 - Nº3 y Nº8) x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0048",
+      "nombre": "ALMA MORA (Malbec - Cabernet S.) x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0049",
+      "nombre": "FINCA LAS MORAS Malbec x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0050",
+      "nombre": "ELEMENTOS Malbec x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0051",
+      "nombre": "Vino LOS ÁRBOLES Malbec x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0052",
+      "nombre": "Dada Espumante Extra Brut x 750cc                      x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos Espumantes",
+        "4": "Vino Espumante"
+      }
+    },
+    {
+      "product_code": "LYL-0053",
+      "nombre": "Espumante DADA 7 Maracuyá x 750cc                  x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos Espumantes",
+        "4": "Vino Espumante"
+      }
+    },
+    {
+      "product_code": "LYL-0054",
+      "nombre": "Dada Espumante Rose x 750cc                                             x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos Espumantes",
+        "4": "Vino Espumante"
+      }
+    },
+    {
+      "product_code": "LYL-0055",
+      "nombre": "Navarro Correas NATURE x 750cc                                            x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos Espumantes",
+        "4": "Vino Espumante"
+      }
+    },
+    {
+      "product_code": "LYL-0056",
+      "nombre": "Navarro Correas Brut Rose x 750cc                                              x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos Espumantes",
+        "4": "Vino Espumante"
+      }
+    },
+    {
+      "product_code": "LYL-0057",
+      "nombre": "Vino Zorro Salvaje Malbec / Cabernet Sauvignon x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0058",
+      "nombre": "Vino El Náufrago Malbec x 750cc               x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0059",
+      "nombre": "Vino Prófugo Malbec / Oveja Black Malbec x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0060",
+      "nombre": "Vino Oveja Black Chardonnay x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0061",
+      "nombre": "Vino Prófugo Bco. Dulce/Oveja Black Bco Dulce x 750cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0062",
+      "nombre": "Vino Cuatro Monos Locos x 750cc                         x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0063",
+      "nombre": "Vino Sensei Malbec Ahumado x 750cc                         x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0064",
+      "nombre": "Vino Quara Malbec x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0065",
+      "nombre": "Vino Marques del Sur Malbec x 750cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0066",
+      "nombre": "Vino Piuké Malbec / Cabernet Sauvignon x 750cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0067",
+      "nombre": "Vino Piuké Rosado Dulce x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0068",
+      "nombre": "Vino Tornaghi Clásico / Dulce Carlón x 1125cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0069",
+      "nombre": "Vino Magna Malbec Santa Julia x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0070",
+      "nombre": "Vino Alambrado Malbec Santa Julia x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0071",
+      "nombre": "Vino Santa Julia Reserva Malbec x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0072",
+      "nombre": "Vino Santa Julia New Malbec / Cabernet x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0073",
+      "nombre": "Vino Santa Julia BLEND Malbec/Cabernet x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0074",
+      "nombre": "Vino Santa Julia  Tardío x 500cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0075",
+      "nombre": "Vino Santa Julia Sauvignon Blanc / Torrontés / Chardonnay x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0076",
+      "nombre": "Vino Santa Julia Syrah Rosé x 750cc x1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0077",
+      "nombre": "Vino Santa Julia Chenin Dulce / Dulce Tinto x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0078",
+      "nombre": "Vino Santa Julia Lata Dulce Tinto x 269cc  x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0079",
+      "nombre": "Vino Santa Julia Lata Chenin Dulce x 269cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "LYL-0080",
+      "nombre": "Vina Riojanas Tetra TINTO x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos en Tetra",
+        "4": "Vino Tetra"
+      }
+    },
+    {
+      "product_code": "LYL-0081",
+      "nombre": "Vina Riojanas Tetra BLANCO x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Blanco"
+      }
+    },
+    {
+      "product_code": "LYL-0082",
+      "nombre": "Vina Riojanas Tetra BLANCO DULCE x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Blanco Dulce"
+      }
+    },
+    {
+      "product_code": "LYL-0083",
+      "nombre": "TORO Tetra TINTO x 1L x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "LYL-0084",
+      "nombre": "TORO Tetra BLANCO x 1L x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Blanco"
+      }
+    },
+    {
+      "product_code": "LYL-0085",
+      "nombre": "NATIVO Tetra TINTO x 1L x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "LYL-0086",
+      "nombre": "NATIVO Tetra BLANCO x 1L x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Blanco"
+      }
+    },
+    {
+      "product_code": "LYL-0087",
+      "nombre": "Vino Pico de Oro BLANCO Tetrabrick - Blanco/Tinto x1L x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Blanco"
+      }
+    },
+    {
+      "product_code": "LYL-0088",
+      "nombre": "Vino Pico de Oro TINTO Tetrabrick - Blanco/Tinto x1L x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "LYL-0089",
+      "nombre": "Vino Viñas y Parrales Patero x 1L x 12u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "LYL-0090",
+      "nombre": "Toro Tinto BOTELLA x 1L x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "LYL-0091",
+      "nombre": "ESTANCIA MENDOZA Malbec - Cab. Sauv. - Blend x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "LYL-0092",
+      "nombre": "ESTANCIA MENDOZA Chenin/ Chardonnay DULCE x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Blanco Dulce"
+      }
+    },
+    {
+      "product_code": "LYL-0093",
+      "nombre": "ESTANCIA MENDOZA Chenin/ Chardonnay x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Blanco"
+      }
+    },
+    {
+      "product_code": "LYL-0094",
+      "nombre": "Club de Playa Blanco Dulce x 750cc                                 x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Blanco Dulce"
+      }
+    },
+    {
+      "product_code": "LYL-0095",
+      "nombre": "CANCILLER Tinto - Blanco Dulce x 1.125cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto Dulce"
+      }
+    },
+    {
+      "product_code": "LYL-0096",
+      "nombre": "BARRIL de Chopp santafesino Sauce                                     x 20lts",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza de Chopp"
+      }
+    },
+    {
+      "product_code": "LYL-0097",
+      "nombre": "BARRIL de Chopp santafesino Sauce                                     x 30lts",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza de Chopp"
+      }
+    },
+    {
+      "product_code": "LYL-0098",
+      "nombre": "Cerveza 361 Plástica x 1L - No retornable x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza Plástica"
+      }
+    },
+    {
+      "product_code": "LYL-0099",
+      "nombre": "Cerveza 361 Plástica x 1,5L - No retornable x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza Plástica"
+      }
+    },
+    {
+      "product_code": "LYL-0100",
+      "nombre": "Cerveza 361 VIDRIO x 1L - No retornable x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza de Vidrio"
+      }
+    },
+    {
+      "product_code": "LYL-0101",
+      "nombre": "Cerveza MARADONA VIDRIO x 1L - No retornable x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza de Vidrio"
+      }
+    },
+    {
+      "product_code": "LYL-0102",
+      "nombre": "Cerveza rubia BRÜL x 1L - VIDRIO No retornable x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza de Vidrio"
+      }
+    },
+    {
+      "product_code": "LYL-0103",
+      "nombre": "Cerveza 361 LATA x 473cc x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza en Lata"
+      }
+    },
+    {
+      "product_code": "LYL-0104",
+      "nombre": "Cerveza 361 LATA x 710cc x 6u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Cervezas",
+        "4": "Cerveza en Lata"
+      }
+    },
+    {
+      "product_code": "LYL-0105",
+      "nombre": "Petaca La Triestina x 200cc - 8 Sabores x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Petaca de Licor"
+      }
+    },
+    {
+      "product_code": "LYL-0106",
+      "nombre": "Ron Bombarder x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Ron"
+      }
+    },
+    {
+      "product_code": "LYL-0107",
+      "nombre": "Vodka Nita x 750cc - Clásico / Saborizados x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Vodka"
+      }
+    },
+    {
+      "product_code": "LYL-0108",
+      "nombre": "Vodka Sernova x 700cc - Wild Berries / Caribbean Blend x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Vodka"
+      }
+    },
+    {
+      "product_code": "LYL-0109",
+      "nombre": "Vodka Sernova Candy Glow x 700cc -  x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Vodka"
+      }
+    },
+    {
+      "product_code": "LYL-0110",
+      "nombre": "Vodka Malandra x 750cc - Uva / Frutos Rojos x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Vodka"
+      }
+    },
+    {
+      "product_code": "LYL-0111",
+      "nombre": "Licor La Triestina x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Licor"
+      }
+    },
+    {
+      "product_code": "LYL-0112",
+      "nombre": "Café al cognac La Triestina x 750cc            x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Licor de Café"
+      }
+    },
+    {
+      "product_code": "LYL-0113",
+      "nombre": "Whisky Don Jhon New x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Whisky"
+      }
+    },
+    {
+      "product_code": "LYL-0114",
+      "nombre": "Gin Spirito Blu London Dry x 700cc         x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Gin"
+      }
+    },
+    {
+      "product_code": "LYL-0115",
+      "nombre": "Gin Prófugo Mendocina Picante / London Dry x 750cc x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Gin"
+      }
+    },
+    {
+      "product_code": "LYL-0116",
+      "nombre": "Gin Príncipe de los Apóstoles x 750cc      x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Licores",
+        "4": "Gin"
+      }
+    },
+    {
+      "product_code": "LYL-0117",
+      "nombre": "Chocolate BALLCHOC Leche y Maní  x 50g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Chocolate con Maní"
+      }
+    },
+    {
+      "product_code": "LYL-0118",
+      "nombre": "Chocolate HERSHEY´S Aireado /Cookies´n Creme /Con Leche x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Chocolate Variado"
+      }
+    },
+    {
+      "product_code": "LYL-0119",
+      "nombre": "TOKKE Leche / Leche y Maní / Dulce de leche x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Chocolate Variado"
+      }
+    },
+    {
+      "product_code": "LYL-0120",
+      "nombre": "Chocolate GEORGALOS Full Maní Display x 15u x35g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Chocolate con Maní"
+      }
+    },
+    {
+      "product_code": "LYL-0121",
+      "nombre": "GEORGALOS Full Maní x 900g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Chocolate con Maní"
+      }
+    },
+    {
+      "product_code": "LYL-0122",
+      "nombre": "GEORGALOS Full Maní Relleno          x 140g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Chocolate con Maní"
+      }
+    },
+    {
+      "product_code": "LYL-0123",
+      "nombre": "GEORGALOS Full Maní Tableta           x 160g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Chocolate con Maní"
+      }
+    },
+    {
+      "product_code": "LYL-0124",
+      "nombre": "DAQUI Leche y Maní x 70g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Chocolate con Maní"
+      }
+    },
+    {
+      "product_code": "LYL-0125",
+      "nombre": "HAMLET Almendra-Bicolor-Blanco - Chocolatoso-Frutilla-Leche x 45g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Chocolate Variado"
+      }
+    },
+    {
+      "product_code": "LYL-0126",
+      "nombre": "HAMLETON OBLEA x 28g x 16u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Obleas"
+      }
+    },
+    {
+      "product_code": "LYL-0127",
+      "nombre": "MISKY Blanco - Negro x 25g x 30u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Chocolatín"
+      }
+    },
+    {
+      "product_code": "LYL-0128",
+      "nombre": "MISKY Chocolatín Negro / Blanco x 8g x 20u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Chocolatín"
+      }
+    },
+    {
+      "product_code": "LYL-0129",
+      "nombre": "MISKY Blanco - Negro x 50g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Chocolatín"
+      }
+    },
+    {
+      "product_code": "LYL-0130",
+      "nombre": "MISKY TAZA x 100g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Chocolates",
+        "4": "Chocolate"
+      }
+    },
+    {
+      "product_code": "LYL-0131",
+      "nombre": "Bocadito Fantoche x 20u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Galletas",
+        "4": "Bocaditos"
+      }
+    },
+    {
+      "product_code": "LYL-0132",
+      "nombre": "Bocaditos MARROC x 60u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Galletas",
+        "4": "Bocaditos"
+      }
+    },
+    {
+      "product_code": "LYL-0133",
+      "nombre": "Monedas Piratas de chocolate x 60u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Galletas",
+        "4": "Monedas de Chocolate"
+      }
+    },
+    {
+      "product_code": "LYL-0134",
+      "nombre": "DOS CORAZONES x 26g x 20u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Galletas",
+        "4": "Galletas"
+      }
+    },
+    {
+      "product_code": "LYL-0135",
+      "nombre": "Huevitos KINDER x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Galletas",
+        "4": "Huevitos de Chocolate"
+      }
+    },
+    {
+      "product_code": "LYL-0136",
+      "nombre": "Huevitos KINDER x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Galletas",
+        "4": "Huevitos de Chocolate"
+      }
+    },
+    {
+      "product_code": "LYL-0137",
+      "nombre": "PARAGÜITAS FELFORT x 13g x 20u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Galletas",
+        "4": "Galletas"
+      }
+    },
+    {
+      "product_code": "LYL-0138",
+      "nombre": "SAPITO Chocolatoso - Blanco - DDL -  Frutilla - C/Maní x 10g x 24u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Galletas",
+        "4": "Galletas"
+      }
+    },
+    {
+      "product_code": "LYL-0139",
+      "nombre": "Budín Fantasía x 180g (Chocolate - Limón) x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Galletas",
+        "4": "Budín"
+      }
+    },
+    {
+      "product_code": "LYL-0140",
+      "nombre": "Budín Valenciano x 170g (Vain-C/Chips-Marm.- C/Fr)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Galletas",
+        "4": "Budín"
+      }
+    },
+    {
+      "product_code": "LYL-0141",
+      "nombre": "Pan Dulce Valenciano x 380g (DDL - C/Frut. - C/Chips)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Galletas",
+        "4": "Pan Dulce"
+      }
+    },
+    {
+      "product_code": "LYL-0142",
+      "nombre": "Girasol PIPAS Gigantes x 50g x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Frutos Secos",
+        "4": "Pipas de Girasol"
+      }
+    },
+    {
+      "product_code": "LYL-0143",
+      "nombre": "Marshmallows Twist x 30u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Marshmallows"
+      }
+    },
+    {
+      "product_code": "LYL-0144",
+      "nombre": "GONGYS x 200g (Frut-Nubes-Palitos-Tradic.-Trenza)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Gomitas Variadas"
+      }
+    },
+    {
+      "product_code": "LYL-0145",
+      "nombre": "GONGYS x 28g (Nubes - Trenza)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Gomitas Variadas"
+      }
+    },
+    {
+      "product_code": "LYL-0146",
+      "nombre": "Gomitas YUMMY x 30g x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Gomitas"
+      }
+    },
+    {
+      "product_code": "LYL-0147",
+      "nombre": "Pastillitas Bull Dog x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Gomitas"
+      }
+    },
+    {
+      "product_code": "LYL-0148",
+      "nombre": "MORITAS YUMMY / Huevos Fritos YUMMY x 500g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Gomitas Variadas"
+      }
+    },
+    {
+      "product_code": "LYL-0149",
+      "nombre": "Pastillas LA YAPA x 36u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Gomitas"
+      }
+    },
+    {
+      "product_code": "LYL-0150",
+      "nombre": "Pastillas DRF x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Gomitas"
+      }
+    },
+    {
+      "product_code": "LYL-0151",
+      "nombre": "Pastillas Confitadas FLYNN PAFF           x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Gomitas"
+      }
+    },
+    {
+      "product_code": "LYL-0152",
+      "nombre": "MENTITAS La Casa x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Gomitas"
+      }
+    },
+    {
+      "product_code": "LYL-0153",
+      "nombre": "Chupetín ventilador x 9u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Chupetín"
+      }
+    },
+    {
+      "product_code": "LYL-0154",
+      "nombre": "Pastillas Tic Tac x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Chupetín"
+      }
+    },
+    {
+      "product_code": "LYL-0155",
+      "nombre": "Coco Pop (Cocodrilo con chupetin)           x 8u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Chupetín"
+      }
+    },
+    {
+      "product_code": "LYL-0156",
+      "nombre": "Crazy Pop - Chupetín ácido Frutilla / Manzana / Naranja / Uva x 20u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Chupetín"
+      }
+    },
+    {
+      "product_code": "LYL-0157",
+      "nombre": "Xtreme (Gomitas Ácidas) Berry / Rainbow / Tropical x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Gomitas Ácidas"
+      }
+    },
+    {
+      "product_code": "LYL-0158",
+      "nombre": "Bubble Roll (Chicle en cinta x 1,8m)          x 8u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chicles",
+        "4": "Chicle en Cinta"
+      }
+    },
+    {
+      "product_code": "LYL-0159",
+      "nombre": "Puppy House (Perritos) / Caty House (Gatitos) x 8u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Gomitas"
+      }
+    },
+    {
+      "product_code": "LYL-0160",
+      "nombre": "Hamburguesas / Panchitos (Gomitas) x 24u x 9g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Gomitas",
+        "4": "Gomitas"
+      }
+    },
+    {
+      "product_code": "LYL-0161",
+      "nombre": "Pizzitas (Gomitas) x 24u x 15g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Gomitas",
+        "4": "Gomitas Dulces"
+      }
+    },
+    {
+      "product_code": "LYL-0162",
+      "nombre": "Caramelos duros Lipo Súper Ácidos           x 454g x 65u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos Duros",
+        "4": "Caramelo Ácido"
+      }
+    },
+    {
+      "product_code": "LYL-0163",
+      "nombre": "Caramelos duros Lipo Gajitos x 454g x 65u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos Duros",
+        "4": "Caramelo Gajitos"
+      }
+    },
+    {
+      "product_code": "LYL-0164",
+      "nombre": "Caramelos duros Lipo Candy 10 x 454g x 43u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos Duros",
+        "4": "Caramelo Candy"
+      }
+    },
+    {
+      "product_code": "LYL-0165",
+      "nombre": "Caramelos duros Lipo Bastón Viena x 454g x 65u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos Duros",
+        "4": "Caramelo Bastón"
+      }
+    },
+    {
+      "product_code": "LYL-0166",
+      "nombre": "Caramelo de MIEL Marengo x 454g          x 100u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos Duros",
+        "4": "Caramelo de Miel"
+      }
+    },
+    {
+      "product_code": "LYL-0167",
+      "nombre": "Caramelo de MENTA Marengo x 454g x 70u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos Duros",
+        "4": "Caramelo de Menta"
+      }
+    },
+    {
+      "product_code": "LYL-0168",
+      "nombre": "Caramelo de MENTA MISKY x 800g x 180u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos Duros",
+        "4": "Caramelo de Menta"
+      }
+    },
+    {
+      "product_code": "LYL-0169",
+      "nombre": "Caramelo FLYNN PAFF Tutti Frutti x 70u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos Duros",
+        "4": "Caramelo Tutti Frutti"
+      }
+    },
+    {
+      "product_code": "LYL-0170",
+      "nombre": "Caramelos masticables BIT Pico Dulce x 51u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos Masticables",
+        "4": "Caramelo Masticable"
+      }
+    },
+    {
+      "product_code": "LYL-0171",
+      "nombre": "Gomitas Frutales Pico Dulce x 600grs x 270u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Gomitas",
+        "4": "Gomitas Frutales"
+      }
+    },
+    {
+      "product_code": "LYL-0172",
+      "nombre": "Gomitas MISKY FANTASÍA x 1kg x 450u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Gomitas",
+        "4": "Gomitas Fantasía"
+      }
+    },
+    {
+      "product_code": "LYL-0173",
+      "nombre": "Gomitas MISKY JELLY ROLL x 1kg x 208u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Gomitas",
+        "4": "Gomitas Jelly Roll"
+      }
+    },
+    {
+      "product_code": "LYL-0174",
+      "nombre": "Masticables MISKY x 800g x 240u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos Masticables",
+        "4": "Caramelo Masticable"
+      }
+    },
+    {
+      "product_code": "LYL-0175",
+      "nombre": "Caramelos masticables Lerithier x 450g x 147u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos Masticables",
+        "4": "Caramelo Masticable"
+      }
+    },
+    {
+      "product_code": "LYL-0176",
+      "nombre": "Caramelos masticables Pico Dulce x 500g x 165u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos Masticables",
+        "4": "Caramelo Masticable"
+      }
+    },
+    {
+      "product_code": "LYL-0177",
+      "nombre": "Caramelos masticables Animals x 500g x 143u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos Masticables",
+        "4": "Caramelo Masticable"
+      }
+    },
+    {
+      "product_code": "LYL-0178",
+      "nombre": "Chicle Alka en tableta Fruta/Menta            x 20u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chicles",
+        "4": "Chicle en Tableta"
+      }
+    },
+    {
+      "product_code": "LYL-0179",
+      "nombre": "Chicle Fierita x 100u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chicles",
+        "4": "Chicle"
+      }
+    },
+    {
+      "product_code": "LYL-0180",
+      "nombre": "Chicle relleno Fierita x 50u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chicles",
+        "4": "Chicle Relleno"
+      }
+    },
+    {
+      "product_code": "LYL-0181",
+      "nombre": "Chupetín Pico Dulce Estuche x 24u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chupetines",
+        "4": "Chupetín"
+      }
+    },
+    {
+      "product_code": "LYL-0182",
+      "nombre": "Chupetín Pico Dulce x 48u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chupetines",
+        "4": "Chupetín"
+      }
+    },
+    {
+      "product_code": "LYL-0183",
+      "nombre": "Chupetín Pelotita  Duo Lerithier x 50u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chupetines",
+        "4": "Chupetín Pelotita"
+      }
+    },
+    {
+      "product_code": "LYL-0184",
+      "nombre": "Chupetín Pelotita  Lerithier x 100u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chupetines",
+        "4": "Chupetín Pelotita"
+      }
+    },
+    {
+      "product_code": "LYL-0185",
+      "nombre": "Chupetín Bola Loca Lerithier C/Chicle x 24u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chupetines",
+        "4": "Chupetín"
+      }
+    },
+    {
+      "product_code": "LYL-0186",
+      "nombre": "Chupetín Fierita masticable c/Tatoo          x 50u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chupetines",
+        "4": "Chupetín Masticable"
+      }
+    },
+    {
+      "product_code": "LYL-0187",
+      "nombre": "Chupetín melón azucarado x 25u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chupetines",
+        "4": "Chupetín"
+      }
+    },
+    {
+      "product_code": "LYL-0188",
+      "nombre": "Paleta forma de Corazón / Estrella / Manito / Redonda x 10u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chupetines",
+        "4": "Paleta"
+      }
+    },
+    {
+      "product_code": "LYL-0189",
+      "nombre": "Chupete c/aro x 10u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chupetines",
+        "4": "Chupete"
+      }
+    },
+    {
+      "product_code": "LYL-0190",
+      "nombre": "Heladito de merengue con cucurucho           x 10u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Helados",
+        "4": "Heladito"
+      }
+    },
+    {
+      "product_code": "LYL-0191",
+      "nombre": "Caramelo en polvo c/billetes x 50u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos",
+        "4": "Caramelo en Polvo"
+      }
+    },
+    {
+      "product_code": "LYL-0192",
+      "nombre": "Alfajor XS Rose Mtv Fantoche  (Negro) x 20u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor XS"
+      }
+    },
+    {
+      "product_code": "LYL-0193",
+      "nombre": "Alfajor Simple Mogy (Blanco o Negro) – Nevares x 40u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor Simple"
+      }
+    },
+    {
+      "product_code": "LYL-0194",
+      "nombre": "Alfajor Triple Genio (Blanco o Negro)-Nevares x 24u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor Triple"
+      }
+    },
+    {
+      "product_code": "LYL-0195",
+      "nombre": "Alfajor Simple Guaymallen (Blanco o Negro) – Nevares x 40u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor Simple"
+      }
+    },
+    {
+      "product_code": "LYL-0196",
+      "nombre": "Alfajor Triple Guaymallen (Blanco o Negro)-Nevares x 24u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor Triple"
+      }
+    },
+    {
+      "product_code": "LYL-0197",
+      "nombre": "Alfajor Triple Fantoche (Blanco o Negro) x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor Triple"
+      }
+    },
+    {
+      "product_code": "LYL-0198",
+      "nombre": "Alfajor RED VELVET x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor Red Velvet"
+      }
+    },
+    {
+      "product_code": "LYL-0199",
+      "nombre": "Alfajor SUPER TRIPLE x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor Super Triple"
+      }
+    },
+    {
+      "product_code": "LYL-0200",
+      "nombre": "Alfajor Pescado Raul x 12u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor"
+      }
+    },
+    {
+      "product_code": "LYL-0201",
+      "nombre": "Alfajor Rasta (Blanco y Negro) x 18u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor"
+      }
+    },
+    {
+      "product_code": "LYL-0202",
+      "nombre": "Alfajor Marley (Blanco y Negro) x 20u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor"
+      }
+    },
+    {
+      "product_code": "LYL-0203",
+      "nombre": "Minitorta Rapsodia – Nevares x 24u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Tortas",
+        "4": "Minitorta"
+      }
+    },
+    {
+      "product_code": "LYL-0204",
+      "nombre": "Bizcochuelo Picnic – Nevares x 40u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Bizcochuelos",
+        "4": "Bizcochuelo"
+      }
+    },
+    {
+      "product_code": "LYL-0205",
+      "nombre": "Huevito con sorpresa Toca-Toca x 16u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Huevitos",
+        "4": "Huevito con Sorpresa"
+      }
+    },
+    {
+      "product_code": "LYL-0206",
+      "nombre": "Latitas con pastillitas x 24u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Latitas",
+        "4": "Latitas con Pastillitas"
+      }
+    },
+    {
+      "product_code": "LYL-0207",
+      "nombre": "Turrón de oblea y maní MISKY x 50u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Turrones",
+        "4": "Turrón de Oblea"
+      }
+    },
+    {
+      "product_code": "LYL-0208",
+      "nombre": "Turrón de oblea c/pasta de Marroc NEVARES x 50u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Turrones",
+        "4": "Turrón de Oblea"
+      }
+    },
+    {
+      "product_code": "LYL-0209",
+      "nombre": "Choco Krispis Kelloggs x 185g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Cereales",
+        "4": "Cereal de Chocolate"
+      }
+    },
+    {
+      "product_code": "LYL-0210",
+      "nombre": "Froot Loops Kelloggs x 195g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Cereales",
+        "4": "Cereal de Frutas"
+      }
+    },
+    {
+      "product_code": "LYL-0211",
+      "nombre": "Pringles Original / Crema y Cebolla / Queso / Chedar y Bacon x 104g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Papas Fritas"
+      }
+    },
+    {
+      "product_code": "LYL-0212",
+      "nombre": "Pringles Original x 37g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Papas Fritas"
+      }
+    },
+    {
+      "product_code": "LYL-0213",
+      "nombre": "Papas Fritas Bachilitos x 800g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Papas Fritas"
+      }
+    },
+    {
+      "product_code": "LYL-0214",
+      "nombre": "Palitos de Maíz Bachilitos x 1000g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Palitos de Maíz"
+      }
+    },
+    {
+      "product_code": "LYL-0215",
+      "nombre": "Palitos Salados Bachilitos x 1000g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Palitos Salados"
+      }
+    },
+    {
+      "product_code": "LYL-0216",
+      "nombre": "Maní Pelado Salado Bachilitos x 1000g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Pelado Salado"
+      }
+    },
+    {
+      "product_code": "LYL-0217",
+      "nombre": "Maní Saborizado Bachilitos x 1000g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Saborizado"
+      }
+    },
+    {
+      "product_code": "LYL-0218",
+      "nombre": "Puflitos Bachilitos x 1000g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Puflitos",
+        "4": "Puflitos"
+      }
+    },
+    {
+      "product_code": "LYL-0219",
+      "nombre": "Aritos de Pizza Bachilitos x 1000g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Aritos de Pizza"
+      }
+    },
+    {
+      "product_code": "LYL-0220",
+      "nombre": "Cascarones Bachilitos x 800g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Cascarones"
+      }
+    },
+    {
+      "product_code": "LYL-0221",
+      "nombre": "Conitos Bachilitos x 800g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Conitos"
+      }
+    },
+    {
+      "product_code": "LYL-0222",
+      "nombre": "Tutucas Bachilitos x 1000g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Tutucas"
+      }
+    },
+    {
+      "product_code": "LYL-0223",
+      "nombre": "Papas fritas Españolas / Acanaladas CRAKET x 70g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Papas Fritas"
+      }
+    },
+    {
+      "product_code": "LYL-0224",
+      "nombre": "Papas fritas Españolas CRAKET x 180g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Papas Fritas"
+      }
+    },
+    {
+      "product_code": "LYL-0225",
+      "nombre": "Papas Pay CRACKET x 90g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Papas Pay"
+      }
+    },
+    {
+      "product_code": "LYL-0226",
+      "nombre": "Papas CRAKET Jamon / Cebolla y crema / Barbacoa / Cheddar x 90g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Papas"
+      }
+    },
+    {
+      "product_code": "LYL-0227",
+      "nombre": "Palitos de maiz CRAKET x 80g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Palitos de Maíz"
+      }
+    },
+    {
+      "product_code": "LYL-0228",
+      "nombre": "Palitos de maiz CRAKET x 140g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Palitos de Maíz"
+      }
+    },
+    {
+      "product_code": "LYL-0229",
+      "nombre": "Palitos salados CRAKET x 100g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Palitos Salados"
+      }
+    },
+    {
+      "product_code": "LYL-0230",
+      "nombre": "Palitos de queso CRAKET x 100g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Palitos de Queso"
+      }
+    },
+    {
+      "product_code": "LYL-0231",
+      "nombre": "Mani salado CRAKET x 240g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Salado"
+      }
+    },
+    {
+      "product_code": "LYL-0232",
+      "nombre": "Mani saborizado CRAKET Jamón / Queso / Pizza x 240g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Saborizado"
+      }
+    },
+    {
+      "product_code": "LYL-0233",
+      "nombre": "Mani saborizado NÖTTER Jamón / Queso / Pizza / Salame x 125g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Saborizado"
+      }
+    },
+    {
+      "product_code": "LYL-0234",
+      "nombre": "Maní Tostado Salado NÖTTER x 1Kg x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Tostado Salado"
+      }
+    },
+    {
+      "product_code": "LYL-0235",
+      "nombre": "Maní en vaina saladoNÖTTER x 1Kg x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní en Vaina Salado"
+      }
+    },
+    {
+      "product_code": "LYL-0236",
+      "nombre": "Tutuca CRAKET x 150g                              x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Tutuca"
+      }
+    },
+    {
+      "product_code": "LYL-0237",
+      "nombre": "Tornaditos CRAKET x 150g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Tornaditos"
+      }
+    },
+    {
+      "product_code": "LYL-0238",
+      "nombre": "Combo CRAKET Papa x 90g + Palitos x 100g + Palito de maíz x 80g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Combos",
+        "4": "Combo de Snacks"
+      }
+    },
+    {
+      "product_code": "LYL-0239",
+      "nombre": "Pan Blanco / Salvado de Masa Madre Bauducco x 400g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan",
+        "4": "Pan Blanco"
+      }
+    },
+    {
+      "product_code": "LYL-0240",
+      "nombre": "Pan multigranos de Masa Madre Bauducco x 400g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan",
+        "4": "Pan Multigrano"
+      }
+    },
+    {
+      "product_code": "LYL-0241",
+      "nombre": "Galleta Rellena Chocolate / Fresa x 108g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galleta Rellena"
+      }
+    },
+    {
+      "product_code": "LYL-0242",
+      "nombre": "Oblea Chocolate / Frutilla x 78g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Oblea"
+      }
+    },
+    {
+      "product_code": "LYL-0243",
+      "nombre": "Oblea Chocolate / Frutilla / Vainilla x 140g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Oblea Variada"
+      }
+    },
+    {
+      "product_code": "LYL-0244",
+      "nombre": "COOKIES Original / Chocolate x 60g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Cookies"
+      }
+    },
+    {
+      "product_code": "LYL-0245",
+      "nombre": "VOCACIÓN Clásica x 141g                   x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galleta Clásica"
+      }
+    },
+    {
+      "product_code": "LYL-0246",
+      "nombre": "VOCACIÓN Clásica x 384g x 3u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galleta Clásica"
+      }
+    },
+    {
+      "product_code": "LYL-0247",
+      "nombre": "VOCACIÓN Acaramelada x 435g x 3u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galleta Acaramelada"
+      }
+    },
+    {
+      "product_code": "LYL-0248",
+      "nombre": "Galletitas POLVORITA Choc/Vai -Vai/Frut -Vai/Vai x 81g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galletitas Variadas"
+      }
+    },
+    {
+      "product_code": "LYL-0249",
+      "nombre": "Galletitas ONIX (Oreo) Chocolate rellenas de vainilla x 90g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galletitas Rellenas"
+      }
+    },
+    {
+      "product_code": "LYL-0250",
+      "nombre": "Galletitas 5 semillas Paseo x 300g          x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galletitas de Semillas"
+      }
+    },
+    {
+      "product_code": "LYL-0251",
+      "nombre": "Galletitas Salvado Paseo x 300g             x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galletitas de Salvado"
+      }
+    },
+    {
+      "product_code": "LYL-0252",
+      "nombre": "Galletitas Clásicas Paseo x 300g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galletitas Clásicas"
+      }
+    },
+    {
+      "product_code": "LYL-0253",
+      "nombre": "Galletitas saladas Media Tarde - Pack  x 330g x 3u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Saladas",
+        "4": "Galletitas Saladas"
+      }
+    },
+    {
+      "product_code": "LYL-0254",
+      "nombre": "Bizcochitos materos FANTOCHE x 200g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Bizcochos",
+        "4": "Bizcochitos Materos"
+      }
+    },
+    {
+      "product_code": "LYL-0255",
+      "nombre": "Galletitas Chispas Fantoche x 155g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galletitas con Chips"
+      }
+    },
+    {
+      "product_code": "LYL-0256",
+      "nombre": "Galletita con CHIPS Yayita x 275g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galletita con Chips"
+      }
+    },
+    {
+      "product_code": "LYL-0257",
+      "nombre": "Galletita c/CHIPS Yayita BLACK x250g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galletita con Chips"
+      }
+    },
+    {
+      "product_code": "LYL-0258",
+      "nombre": "Galletitas Marmoladas Fantoche x155g x1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galletitas Marmoladas"
+      }
+    },
+    {
+      "product_code": "LYL-0259",
+      "nombre": "Tapitas P/Alfajores Fantoche x 300g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Tapitas para Alfajores"
+      }
+    },
+    {
+      "product_code": "LYL-0260",
+      "nombre": "Bizcochito 9 de Oro Clásico / Azuc. / Agridulce x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Bizcochos",
+        "4": "Bizcochito Clásico"
+      }
+    },
+    {
+      "product_code": "LYL-0261",
+      "nombre": "Galletitas TRIO                                               x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galletitas Variadas"
+      }
+    },
+    {
+      "product_code": "LYL-0262",
+      "nombre": "Galletitas Trichips                                               x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletitas Dulces",
+        "4": "Galletitas Variadas"
+      }
+    },
+    {
+      "product_code": "LYL-0263",
+      "nombre": "Chocolatinas / Chocotrio / Oskito TRIO x 300g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Chocolatinas",
+        "4": "Chocolatinas Variadas"
+      }
+    },
+    {
+      "product_code": "LYL-0264",
+      "nombre": "Larguita Hojalmar x 150g x1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Hojalmar",
+        "4": "Galleta Hojalmar"
+      }
+    },
+    {
+      "product_code": "LYL-0265",
+      "nombre": "Palmera Hojalmar x 150g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Hojalmar",
+        "4": "Palmera Hojalmar"
+      }
+    },
+    {
+      "product_code": "LYL-0266",
+      "nombre": "Vainillas Mauri x 80g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Vainillas"
+      }
+    },
+    {
+      "product_code": "LYL-0267",
+      "nombre": "Vainillas Mauri x 160g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Vainillas"
+      }
+    },
+    {
+      "product_code": "LYL-0268",
+      "nombre": "Fauna Mauri x 400g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Galletitas Variadas"
+      }
+    },
+    {
+      "product_code": "LYL-0269",
+      "nombre": "Galletitas Sin Sal Mauri x 400g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Galletitas Sin Sal"
+      }
+    },
+    {
+      "product_code": "LYL-0270",
+      "nombre": "Grisines Italianos Tradic. x 170g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Saladas",
+        "4": "Grisines"
+      }
+    },
+    {
+      "product_code": "LYL-0271",
+      "nombre": "Grisines Italianos Clásicos x 200g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Saladas",
+        "4": "Grisines"
+      }
+    },
+    {
+      "product_code": "LYL-0272",
+      "nombre": "Grisines Italianos Mix de semillas x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Saladas",
+        "4": "Grisines"
+      }
+    },
+    {
+      "product_code": "LYL-0273",
+      "nombre": "Grisines Italianos Light x 160g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Saladas",
+        "4": "Grisines Light"
+      }
+    },
+    {
+      "product_code": "LYL-0274",
+      "nombre": "Tostadas C/ Gluten x 200g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Saladas",
+        "4": "Tostadas"
+      }
+    },
+    {
+      "product_code": "LYL-0275",
+      "nombre": "Tostadas Saladas x 1kg x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Saladas",
+        "4": "Tostadas Saladas"
+      }
+    },
+    {
+      "product_code": "LYL-0276",
+      "nombre": "Chapatitas x 140g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Saladas",
+        "4": "Chapatitas"
+      }
+    },
+    {
+      "product_code": "LYL-0277",
+      "nombre": "Chapatitas con queso x 140g                x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Saladas",
+        "4": "Chapatitas con Queso"
+      }
+    },
+    {
+      "product_code": "LYL-0278",
+      "nombre": "Pan rallado x 250g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Saladas",
+        "4": "Pan Rallado"
+      }
+    },
+    {
+      "product_code": "LYL-0279",
+      "nombre": "Tumbitos x 150g                                    x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Saladas",
+        "4": "Tumbitos"
+      }
+    },
+    {
+      "product_code": "LYL-0280",
+      "nombre": "Arroz María Largo Fino x 500g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Arroz",
+        "4": "Arroz Largo Fino"
+      }
+    },
+    {
+      "product_code": "LYL-0281",
+      "nombre": "Arroz María Largo Fino x 1kg x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Arroz",
+        "4": "Arroz Largo Fino"
+      }
+    },
+    {
+      "product_code": "LYL-0282",
+      "nombre": "Arroz Carogran Largo Fino x 500g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Arroz",
+        "4": "Arroz Largo Fino"
+      }
+    },
+    {
+      "product_code": "LYL-0283",
+      "nombre": "Arroz Vincha de Oro Largo Fino x 1kg x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Arroz",
+        "4": "Arroz Largo Fino"
+      }
+    },
+    {
+      "product_code": "LYL-0284",
+      "nombre": "Polenta Instantánea La Abadía x 500g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Legumbres",
+        "4": "Polenta Instantánea"
+      }
+    },
+    {
+      "product_code": "LYL-0285",
+      "nombre": "Fideos Verizzia x 500g (Tirabuzón - Mostachol - Spaghetti - Tallarín) x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Secas",
+        "4": "Fideos"
+      }
+    },
+    {
+      "product_code": "LYL-0286",
+      "nombre": "Fideos tipo nido (Huevo - Espinaca - Morrón) x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Secas",
+        "4": "Fideos Tipo Nido"
+      }
+    },
+    {
+      "product_code": "LYL-0287",
+      "nombre": "Puré de Tomates Noel x 530g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Tomates",
+        "4": "Puré de Tomates"
+      }
+    },
+    {
+      "product_code": "LYL-0288",
+      "nombre": "Atún NOEL - Aceite / Natural x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Pescados",
+        "4": "Atún"
+      }
+    },
+    {
+      "product_code": "LYL-0289",
+      "nombre": "Palmito Entero Bahía x 400g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Vegetales",
+        "4": "Palmito"
+      }
+    },
+    {
+      "product_code": "LYL-0290",
+      "nombre": "Cacao El Quilla x 200g                           x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cacao y Chocolates",
+        "3": "Cacao",
+        "4": "Cacao"
+      }
+    },
+    {
+      "product_code": "LYL-0291",
+      "nombre": "Cacao El Quilla x 450g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cacao y Chocolates",
+        "3": "Cacao",
+        "4": "Cacao"
+      }
+    },
+    {
+      "product_code": "LYL-0292",
+      "nombre": "Malta El Pocillo sin azúcares Doypack x 115g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Malta",
+        "4": "Malta"
+      }
+    },
+    {
+      "product_code": "LYL-0293",
+      "nombre": "Malta El Pocillo Pote x 170g                 x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Malta",
+        "4": "Malta"
+      }
+    },
+    {
+      "product_code": "LYL-0294",
+      "nombre": "Mermelada NOEL - Durazno / Ciruela / Damasco / Nja. x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Mermeladas",
+        "4": "Mermelada"
+      }
+    },
+    {
+      "product_code": "LYL-0295",
+      "nombre": "Leche Esperanza ENTERA x 800g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Leche",
+        "4": "Leche Entera"
+      }
+    },
+    {
+      "product_code": "LYL-0296",
+      "nombre": "Leche Esperanza Descremada x 800g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Leche",
+        "4": "Leche Descremada"
+      }
+    },
+    {
+      "product_code": "LYL-0297",
+      "nombre": "Leche en Polvo ELECCIÓN Entera x 800g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Leche en Polvo",
+        "4": "Leche en Polvo Entera"
+      }
+    },
+    {
+      "product_code": "LYL-0298",
+      "nombre": "Leche en Polvo ELECCIÓN Descremada x 800g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Leche en Polvo",
+        "4": "Leche en Polvo Descremada"
+      }
+    },
+    {
+      "product_code": "LYL-0299",
+      "nombre": "Durazno Natural La Colina x 820g                 x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Frutas",
+        "4": "Durazno Natural"
+      }
+    },
+    {
+      "product_code": "LYL-0300",
+      "nombre": "Cóctel de 4 frutas Alcyone x 820g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Frutas",
+        "4": "Cóctel de Frutas"
+      }
+    },
+    {
+      "product_code": "LYL-0301",
+      "nombre": "Mayonesa Cada Día x 125cc Sachet                       x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "LYL-0302",
+      "nombre": "Mayonesa Cada Día x 250cc Doypack                x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "LYL-0303",
+      "nombre": "Mayonesa Natura x 125cc Sachet                       x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "LYL-0304",
+      "nombre": "Mayonesa Natura x 250cc Doypack                x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "LYL-0305",
+      "nombre": "Mayonesa Natura x 500cc Doypack              x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "LYL-0306",
+      "nombre": "Mayonesa Natura x 1000cc Doypack          x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "LYL-0307",
+      "nombre": "Mayonesa D´FIESTA x 100cc Doypack x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "LYL-0308",
+      "nombre": "Ketchup Natura x 250cc Doypack                              x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas",
+        "4": "Ketchup"
+      }
+    },
+    {
+      "product_code": "LYL-0309",
+      "nombre": "Mostaza Savora x 250cc Doypack                         x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas",
+        "4": "Mostaza"
+      }
+    },
+    {
+      "product_code": "LYL-0310",
+      "nombre": "Mostaza Natura x 250cc Doypack                      x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas",
+        "4": "Mostaza"
+      }
+    },
+    {
+      "product_code": "LYL-0311",
+      "nombre": "Salsa Golf Natura x 125cc Doypack                        x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas",
+        "4": "Salsa Golf"
+      }
+    },
+    {
+      "product_code": "LYL-0312",
+      "nombre": "Salsa Golf Natura x 250cc Doypack                             x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas",
+        "4": "Salsa Golf"
+      }
+    },
+    {
+      "product_code": "LYL-0313",
+      "nombre": "Sal Fina CELUSAL x 500g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sal",
+        "4": "Sal Fina"
+      }
+    },
+    {
+      "product_code": "LYL-0314",
+      "nombre": "Sal Parrillera CELUSAL x 500g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sal",
+        "4": "Sal Parrillera"
+      }
+    },
+    {
+      "product_code": "LYL-0315",
+      "nombre": "Sal Gruesa CELUSAL x 500g x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sal",
+        "4": "Sal Gruesa"
+      }
+    },
+    {
+      "product_code": "LYL-0316",
+      "nombre": "Aceite de girasol Natura x 900cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceite",
+        "4": "Aceite de Girasol"
+      }
+    },
+    {
+      "product_code": "LYL-0317",
+      "nombre": "Aceite de girasol Natura x 1500cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceite",
+        "4": "Aceite de Girasol"
+      }
+    },
+    {
+      "product_code": "LYL-0318",
+      "nombre": "Aceite de girasol Premier x 900cc x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceite",
+        "4": "Aceite de Girasol"
+      }
+    },
+    {
+      "product_code": "LYL-0319",
+      "nombre": "Aceite de girasol Costa del Sol x 1,5L",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceite",
+        "4": "Aceite de Girasol"
+      }
+    },
+    {
+      "product_code": "LYL-0320",
+      "nombre": "Aceite de girasol Costa del Sol x 4,5L x 1u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceite",
+        "4": "Aceite de Girasol"
+      }
+    },
+    {
+      "product_code": "LYL-0321",
+      "nombre": "Yerba REINA DE MISIONES x 500g x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0322",
+      "nombre": "Yerba Taragui  c/p 1/4 x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0323",
+      "nombre": "Yerba Taragui  1/2kg x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0324",
+      "nombre": "Yerba Taragui  1kg x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0325",
+      "nombre": "Yerba Taragui  Sin Palo 1/2. x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0326",
+      "nombre": "Yerba Taragui  Sin Palo 1kg x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0327",
+      "nombre": "Yerba Unión  c/p 1/4kg x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0328",
+      "nombre": "Yerba Unión  1/2kg x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0329",
+      "nombre": "Yerba Unión  1kg x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0330",
+      "nombre": "Yerba La Merced Campo/Monte/Barbacua/Campo y Monte/Campo Sur 1/2kg x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0331",
+      "nombre": "Yerba La Merced 1kg                                                  x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0332",
+      "nombre": "Yerba Buenas y Santas Hierbas 1/2kg x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0333",
+      "nombre": "Yerba Unión  Liviana 1/2kg",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0334",
+      "nombre": "Yerba Unión  Liviana 1kg x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0335",
+      "nombre": "Yerba Mañanita  1/4kg x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0336",
+      "nombre": "Yerba Mañanita  1/2kg x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0337",
+      "nombre": "Yerba Mañanita  1kg x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0338",
+      "nombre": "Mate Cocido Taragui s/Ens. 25saq.                       x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Mate Cocido",
+        "4": "Mate Cocido"
+      }
+    },
+    {
+      "product_code": "LYL-0339",
+      "nombre": "Mate Cocido Taragui s/Ens. 50saq.                        x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Mate Cocido",
+        "4": "Mate Cocido"
+      }
+    },
+    {
+      "product_code": "LYL-0340",
+      "nombre": "Mate Cocido Taragui s/Ens.100 saq.                       x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Mate Cocido",
+        "4": "Mate Cocido"
+      }
+    },
+    {
+      "product_code": "LYL-0341",
+      "nombre": "Mate Cocido Taragui ens x 40 saq. Hermético x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Mate Cocido",
+        "4": "Mate Cocido"
+      }
+    },
+    {
+      "product_code": "LYL-0342",
+      "nombre": "Mate Cocido Unión ens x 40 saq. Hermético x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Mate Cocido",
+        "4": "Mate Cocido"
+      }
+    },
+    {
+      "product_code": "LYL-0343",
+      "nombre": "Mate Cocido Unión s/Ens. 25saq.                                     x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Mate Cocido",
+        "4": "Mate Cocido"
+      }
+    },
+    {
+      "product_code": "LYL-0344",
+      "nombre": "Mate Cocido Unión s/Ens. 50saq.                                  x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Mate Cocido",
+        "4": "Mate Cocido"
+      }
+    },
+    {
+      "product_code": "LYL-0345",
+      "nombre": "Mate Cocido Unión s/Ens.100 saq.                                         x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Mate Cocido",
+        "4": "Mate Cocido"
+      }
+    },
+    {
+      "product_code": "LYL-0346",
+      "nombre": "Té Taragui Ensobrado 100saq x 2gr                                   x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Tés",
+        "3": "Té En Sobres",
+        "4": "Té"
+      }
+    },
+    {
+      "product_code": "LYL-0347",
+      "nombre": "Té Taragui s/e F.x 25 x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Tés",
+        "3": "Té En Sobres",
+        "4": "Té"
+      }
+    },
+    {
+      "product_code": "LYL-0348",
+      "nombre": "Té Taragui s/e F.x 50 x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Tés",
+        "3": "Té En Sobres",
+        "4": "Té"
+      }
+    },
+    {
+      "product_code": "LYL-0349",
+      "nombre": "Té Taragui s/e F.100 x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Tés",
+        "3": "Té En Sobres",
+        "4": "Té"
+      }
+    },
+    {
+      "product_code": "LYL-0350",
+      "nombre": "Mate Listo Taragui 12 Un x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Mate Listo",
+        "4": "Mate Listo"
+      }
+    },
+    {
+      "product_code": "LYL-0351",
+      "nombre": "Botella Termica Taragui x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Accesorios",
+        "3": "Botellas",
+        "4": "Botella Térmica"
+      }
+    },
+    {
+      "product_code": "LYL-0352",
+      "nombre": "Yerba HERENCIA x 500g x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0353",
+      "nombre": "Yerba CHAMIGO x 500g x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0354",
+      "nombre": "Yerba LA HOJA x 500g x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0355",
+      "nombre": "Yerba AMANDA x 500g x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0356",
+      "nombre": "Yerba Canarias x 250g x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0357",
+      "nombre": "Yerba Canarias x 500g x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0358",
+      "nombre": "Yerba Canarias x 1Kg                          x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0359",
+      "nombre": "Yerba Canarias SERENA x 1Kg                                         x 1u",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "LYL-0360",
+      "nombre": "LA GOTITA Poxipol - 2ml x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Adhesivos",
+        "3": "Adhesivos",
+        "4": "Adhesivo"
+      }
+    },
+    {
+      "product_code": "LYL-0361",
+      "nombre": "FASTIX Transparente -  25g x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Adhesivos",
+        "3": "Adhesivos",
+        "4": "Adhesivo"
+      }
+    },
+    {
+      "product_code": "LYL-0362",
+      "nombre": "ECCOLE - 9g x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Adhesivos",
+        "3": "Adhesivos",
+        "4": "Adhesivo"
+      }
+    },
+    {
+      "product_code": "LYL-0363",
+      "nombre": "POXI-RAN - 23g x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Adhesivos",
+        "3": "Adhesivos",
+        "4": "Adhesivo"
+      }
+    },
+    {
+      "product_code": "LYL-0364",
+      "nombre": "Detergente ODEX ULTRA x 250ml x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergentes Líquidos",
+        "4": "Detergente"
+      }
+    },
+    {
+      "product_code": "LYL-0365",
+      "nombre": "Detergente ODEX Ultra x 500ml x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergentes Líquidos",
+        "4": "Detergente"
+      }
+    },
+    {
+      "product_code": "LYL-0366",
+      "nombre": "Detergente ODEX ULTRA x 750ml x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergentes Líquidos",
+        "4": "Detergente"
+      }
+    },
+    {
+      "product_code": "LYL-0367",
+      "nombre": "Detergente VENCEDOR x 750ml x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergentes Líquidos",
+        "4": "Detergente"
+      }
+    },
+    {
+      "product_code": "LYL-0368",
+      "nombre": "Desodorante P/ PISO ODEX x 900ml x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Desinfectante"
+      }
+    },
+    {
+      "product_code": "LYL-0369",
+      "nombre": "Jabón líquido p/manos Polyana x 220m x1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabones Líquidos",
+        "4": "Jabón Líquido"
+      }
+    },
+    {
+      "product_code": "LYL-0370",
+      "nombre": "Jabón líquido QUERUBIN P/ROPA x800ml x1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabones Líquidos",
+        "4": "Jabón Líquido"
+      }
+    },
+    {
+      "product_code": "LYL-0371",
+      "nombre": "Jabón líquido P/ROPA QUERUBIN x 3L x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabones Líquidos",
+        "4": "Jabón Líquido"
+      }
+    },
+    {
+      "product_code": "LYL-0372",
+      "nombre": "Suavizante P/Ropa Querubin x 900cc x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Suavizantes",
+        "3": "Suavizantes Líquidos",
+        "4": "Suavizante"
+      }
+    },
+    {
+      "product_code": "LYL-0373",
+      "nombre": "Polvo Limpiador ODEX Original x 400g x1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiadores en Polvo",
+        "4": "Limpiador"
+      }
+    },
+    {
+      "product_code": "LYL-0374",
+      "nombre": "Limpiador de VIDRIO ODEX x 450ml x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiadores Líquidos",
+        "4": "Limpiador"
+      }
+    },
+    {
+      "product_code": "LYL-0375",
+      "nombre": "Limpiador de BAÑO ODEX x 450ml x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiadores Líquidos",
+        "4": "Limpiador"
+      }
+    },
+    {
+      "product_code": "LYL-0376",
+      "nombre": "Limpiador ANTIGRASA ODEX x 450ml x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiadores Líquidos",
+        "4": "Limpiador"
+      }
+    },
+    {
+      "product_code": "LYL-0377",
+      "nombre": "Lavandina ODEX x 1L x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Desinfectante"
+      }
+    },
+    {
+      "product_code": "LYL-0378",
+      "nombre": "Lavandina ODEX x 2L x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Desinfectante"
+      }
+    },
+    {
+      "product_code": "LYL-0379",
+      "nombre": "Lavandina ODEX x 4L x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Desinfectante"
+      }
+    },
+    {
+      "product_code": "LYL-0380",
+      "nombre": "Lavandina GEL ODEX x 700ml x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Desinfectante"
+      }
+    },
+    {
+      "product_code": "LYL-0381",
+      "nombre": "Lavandina GEL AYUDÍN x 700ml x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Desinfectante"
+      }
+    },
+    {
+      "product_code": "LYL-0382",
+      "nombre": "Lavandina AYUDÍN Clásica x 1L x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Desinfectante"
+      }
+    },
+    {
+      "product_code": "LYL-0383",
+      "nombre": "Lavandina AYUDÍN Clásica x 2L x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Desinfectante"
+      }
+    },
+    {
+      "product_code": "LYL-0384",
+      "nombre": "Desodorante de ambiente Saphirus x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ambientadores",
+        "3": "Ambientadores",
+        "4": "Ambientador"
+      }
+    },
+    {
+      "product_code": "LYL-0385",
+      "nombre": "Perfume para ropa Saphirus x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ambientadores",
+        "3": "Ambientadores",
+        "4": "Ambientador"
+      }
+    },
+    {
+      "product_code": "LYL-0386",
+      "nombre": "Difusor en cajita Saphirus x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ambientadores",
+        "3": "Ambientadores",
+        "4": "Ambientador"
+      }
+    },
+    {
+      "product_code": "LYL-0387",
+      "nombre": "Bolsa Camiseta 45 x 60 x 50u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Bolsas",
+        "3": "Bolsas de Plástico",
+        "4": "Bolsa"
+      }
+    },
+    {
+      "product_code": "LYL-0388",
+      "nombre": "Bolsas de residuos 45 x 60 x 10u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Bolsas",
+        "3": "Bolsas de Plástico",
+        "4": "Bolsa"
+      }
+    },
+    {
+      "product_code": "LYL-0389",
+      "nombre": "Bolsas de residuos 45 x 60 x 30u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Bolsas",
+        "3": "Bolsas de Plástico",
+        "4": "Bolsa"
+      }
+    },
+    {
+      "product_code": "LYL-0390",
+      "nombre": "Bolsas de residuos 60 x 90 x 10u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Bolsas",
+        "3": "Bolsas de Plástico",
+        "4": "Bolsa"
+      }
+    },
+    {
+      "product_code": "LYL-0391",
+      "nombre": "Bolsas de residuos 80 x 110 x 10u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Bolsas",
+        "3": "Bolsas de Plástico",
+        "4": "Bolsa"
+      }
+    },
+    {
+      "product_code": "LYL-0392",
+      "nombre": "Esponja Cuadriculada Mortimer x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Esponjas",
+        "3": "Esponjas",
+        "4": "Esponja"
+      }
+    },
+    {
+      "product_code": "LYL-0393",
+      "nombre": "Esponja Lisa Mortimer x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Esponjas",
+        "3": "Esponjas",
+        "4": "Esponja"
+      }
+    },
+    {
+      "product_code": "LYL-0394",
+      "nombre": "Rejilla económica x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Rejillas",
+        "3": "Rejillas",
+        "4": "Rejilla"
+      }
+    },
+    {
+      "product_code": "LYL-0395",
+      "nombre": "Rejilla 38 x 40 x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Rejillas",
+        "3": "Rejillas",
+        "4": "Rejilla"
+      }
+    },
+    {
+      "product_code": "LYL-0396",
+      "nombre": "Trapo de piso                                          x  1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Trapos",
+        "3": "Trapos",
+        "4": "Trapo"
+      }
+    },
+    {
+      "product_code": "LYL-0397",
+      "nombre": "Papel higienico                                      x 4u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Papel",
+        "3": "Papel Higiénico",
+        "4": "Papel Higiénico"
+      }
+    },
+    {
+      "product_code": "LYL-0398",
+      "nombre": "Rollo de cocina x 3u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Papel",
+        "3": "Papel de Cocina",
+        "4": "Rollo de Cocina"
+      }
+    },
+    {
+      "product_code": "LYL-0399",
+      "nombre": "Rollo gigante de cocina x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Papel",
+        "3": "Papel de Cocina",
+        "4": "Rollo de Cocina"
+      }
+    },
+    {
+      "product_code": "LYL-0400",
+      "nombre": "Rollo gigante de cocina decorado x 1u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Papel",
+        "3": "Papel de Cocina",
+        "4": "Rollo de Cocina"
+      }
+    },
+    {
+      "product_code": "LYL-0401",
+      "nombre": "Pañuelos descartables Candela x 6u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desechables",
+        "3": "Pañuelos",
+        "4": "Pañuelos Descartables"
+      }
+    },
+    {
+      "product_code": "LYL-0402",
+      "nombre": "Encendedores Fuegolandia x 25u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Encendedores",
+        "3": "Encendedores",
+        "4": "Encendedores Descartables"
+      }
+    },
+    {
+      "product_code": "LYL-0403",
+      "nombre": "Encendedores Candela x 25u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Encendedores",
+        "3": "Encendedores",
+        "4": "Encendedores Descartables"
+      }
+    },
+    {
+      "product_code": "LYL-0404",
+      "nombre": "Pasta Dental OB 123 x 70 g                                                          x 1u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene Oral",
+        "3": "Pasta Dental",
+        "4": "Pasta Dental"
+      }
+    },
+    {
+      "product_code": "LYL-0405",
+      "nombre": "Pasta Dental OB 4 en 1 x 180g                                            x 1u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene Oral",
+        "3": "Pasta Dental",
+        "4": "Pasta Dental"
+      }
+    },
+    {
+      "product_code": "LYL-0406",
+      "nombre": "Pasta Dental OB Mickey x 50g x 1u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene Oral",
+        "3": "Pasta Dental",
+        "4": "Pasta Dental"
+      }
+    },
+    {
+      "product_code": "LYL-0407",
+      "nombre": "Cepillo de dientes Mickey                                                           x 1u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene Oral",
+        "3": "Cepillos de Dientes",
+        "4": "Cepillo de Dientes"
+      }
+    },
+    {
+      "product_code": "LYL-0408",
+      "nombre": "Cepillos ORAL-B x 6u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene Oral",
+        "3": "Cepillos de Dientes",
+        "4": "Cepillo de Dientes"
+      }
+    },
+    {
+      "product_code": "LYL-0409",
+      "nombre": "Antitranspirante Polyana HOMBRE/MUJER x150ml x 1u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Desodorantes",
+        "3": "Antitranspirantes",
+        "4": "Antitranspirante"
+      }
+    },
+    {
+      "product_code": "LYL-0410",
+      "nombre": "Talco pédico Aktiol x 100g x 1u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene",
+        "3": "Talcos",
+        "4": "Talco Pédico"
+      }
+    },
+    {
+      "product_code": "LYL-0411",
+      "nombre": "Talco pédico Aktiol AEROSOL x 150g x 1u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene",
+        "3": "Talcos",
+        "4": "Talco Pédico"
+      }
+    },
+    {
+      "product_code": "LYL-0412",
+      "nombre": "Prestobarba Gillette 3                          x 10u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Afeitado",
+        "3": "Cuchillas de Afeitar",
+        "4": "Cuchilla de Afeitar"
+      }
+    },
+    {
+      "product_code": "LYL-0413",
+      "nombre": "Prestobarba Gillette 2 Ultra Grip x 10u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Afeitado",
+        "3": "Cuchillas de Afeitar",
+        "4": "Cuchilla de Afeitar"
+      }
+    },
+    {
+      "product_code": "LYL-0414",
+      "nombre": "Prestobarba Minora Pro                          x 10u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Afeitado",
+        "3": "Cuchillas de Afeitar",
+        "4": "Cuchilla de Afeitar"
+      }
+    },
+    {
+      "product_code": "LYL-0415",
+      "nombre": "Shampoo / Acondicionador Pantene en sachet x 24u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene",
+        "3": "Shampoos",
+        "4": "Shampoo/Acondicionador"
+      }
+    },
+    {
+      "product_code": "LYL-0416",
+      "nombre": "Shampoo / Acondicionador Pantene x 200ml (Pote) x 1u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene",
+        "3": "Shampoos",
+        "4": "Shampoo/Acondicionador"
+      }
+    },
+    {
+      "product_code": "LYL-0417",
+      "nombre": "Shampoo / Acondicionador Pantene x 400ml (Pote) x 1u",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene",
+        "3": "Shampoos",
+        "4": "Shampoo/Acondicionador"
+      }
+    },
+    {
+      "product_code": "LYL-0418",
+      "nombre": "Espirales Selton                                                         x 12u",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Insecticidas",
+        "3": "Espirales",
+        "4": "Espirales Insecticidas"
+      }
+    },
+    {
+      "product_code": "LYL-0419",
+      "nombre": "Repelente AKTIOL x 1u x 143ml",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Insecticidas",
+        "3": "Repelentes",
+        "4": "Repelente"
+      }
+    },
+    {
+      "product_code": "LYL-0420",
+      "nombre": "Lámpara LED Kian 6W - Fría                          x 1u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Lámparas",
+        "3": "Lámparas LED",
+        "4": "Lámpara LED"
+      }
+    },
+    {
+      "product_code": "LYL-0421",
+      "nombre": "Lámpara LED Kian 9W- Fría                         x 1u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Lámparas",
+        "3": "Lámparas LED",
+        "4": "Lámpara LED"
+      }
+    },
+    {
+      "product_code": "LYL-0422",
+      "nombre": "Lámpara LED Kian 12W- Fría                           x 1u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Lámparas",
+        "3": "Lámparas LED",
+        "4": "Lámpara LED"
+      }
+    },
+    {
+      "product_code": "LYL-0423",
+      "nombre": "Lámpara LED Kian 15W- Fría                            x 1u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Lámparas",
+        "3": "Lámparas LED",
+        "4": "Lámpara LED"
+      }
+    },
+    {
+      "product_code": "LYL-0424",
+      "nombre": "Lámpara LED Kian Globo 20W- Fría                    x 1u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Lámparas",
+        "3": "Lámparas LED",
+        "4": "Lámpara LED"
+      }
+    },
+    {
+      "product_code": "LYL-0425",
+      "nombre": "Linterna ENERGIZER Paw Patrol + 2 pilas Energizer",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Linternas",
+        "3": "Linternas",
+        "4": "Linterna"
+      }
+    },
+    {
+      "product_code": "LYL-0426",
+      "nombre": "Pilas A.A.A / AA ENERGIZER x 10u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Baterías",
+        "3": "Baterías",
+        "4": "Batería"
+      }
+    },
+    {
+      "product_code": "LYL-0427",
+      "nombre": "Pilas C ENERGIZER x 2u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Baterías",
+        "3": "Baterías",
+        "4": "Batería"
+      }
+    },
+    {
+      "product_code": "LYL-0428",
+      "nombre": "Pilas Alcalinas D ENERGIZER               x 2u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Baterías",
+        "3": "Baterías",
+        "4": "Batería"
+      }
+    },
+    {
+      "product_code": "LYL-0429",
+      "nombre": "Batería 9Vol ENERGIZER x 1u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Baterías",
+        "3": "Baterías",
+        "4": "Batería"
+      }
+    },
+    {
+      "product_code": "LYL-0430",
+      "nombre": "Pilas 2032 ENERGIZER                                   x 5u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Baterías",
+        "3": "Baterías",
+        "4": "Batería"
+      }
+    },
+    {
+      "product_code": "LYL-0431",
+      "nombre": "Pilas Alcalinas A.A.A / AA RAYOVAC x 4u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Baterías",
+        "3": "Baterías",
+        "4": "Batería"
+      }
+    },
+    {
+      "product_code": "LYL-0432",
+      "nombre": "Pilas Alcalinas C RAYOVAC x 2u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Baterías",
+        "3": "Baterías",
+        "4": "Batería"
+      }
+    },
+    {
+      "product_code": "LYL-0433",
+      "nombre": "Pilas Carbon A.A.A RAYOVAC                                x 10u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Baterías",
+        "3": "Baterías",
+        "4": "Batería"
+      }
+    },
+    {
+      "product_code": "LYL-0434",
+      "nombre": "Pilas Carbon A.A. RAYOVAC              x 4u",
+      "tags": {
+        "1": "Iluminación",
+        "2": "Baterías",
+        "3": "Baterías",
+        "4": "Batería"
+      }
+    }
+  ]
+}
