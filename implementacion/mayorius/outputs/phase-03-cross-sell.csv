@@ -1,0 +1,11 @@
+base_product_code,related_product_code,reason,is_mock
+RV-CLASSICA-004,RV-BOMBILLA-001,Disfruta de tu yerba mate clásica con una bombilla de acero inoxidable.,true
+RV-CLASSICA-007,RV-BOMBILLA-002,Complementa tu yerba mate de 5 kg con una bombilla de calidad.,true
+RV-TRADICIONAL-001,RV-BOMBILLA-003,La yerba tradicional se disfruta mejor con una bombilla adecuada.,true
+RV-TRADICIONAL-004,RV-BOMBILLA-004,Acompaña tu yerba tradicional con una bombilla fácil de limpiar.,true
+RV-PREMIUM-001,RV-BOMBILLA-005,La yerba premium merece una bombilla de acero inoxidable de alta calidad.,true
+RV-TERERE-001,RV-KIT-TERERE-001,Disfruta del tereré de limón con el kit que incluye todo lo necesario.,true
+RV-TERERE-002,RV-KIT-TERERE-002,El tereré de ananá se complementa perfectamente con su kit.,true
+RV-TERERE-003,RV-KIT-TERERE-003,Aprovecha el sabor del tereré de naranja con su kit especial.,true
+RV-PADRON-004,RV-BOMBILLA-001,La yerba con palo se disfruta mejor con una buena bombilla.,true
+RV-COMPUESTA-001,RV-BOMBILLA-003,Combina tu yerba compuesta con una bombilla ideal para su sabor.,true

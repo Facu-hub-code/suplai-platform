@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Yerba Mate La Tradición,25001,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493582641213,Accesorios de Mate El Gaucho,25002,validado,2026-06-19T15:28:53.789767+00:00,,false
+5492991227644,La Casa del Mate,25003,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493418277249,Yerba Mate El Cielo,25004,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493587747641,Mate y Más,25005,validado,2026-06-19T15:28:53.789767+00:00,,false
+5492614053074,El Rincón del Mate,25006,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493514079279,Yerba Mate del Pueblo,25007,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493876914178,Accesorios del Mate,25008,validado,2026-06-19T15:28:53.789767+00:00,,false
+5492617175545,La Yerba de Rafaela,25009,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493818437953,Mateando,25010,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493582132179,El Mate de Oro,25011,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493872845902,Yerba Mate La Estrella,25012,validado,2026-06-19T15:28:53.789767+00:00,,false
+5492997670210,El Mate de la Abuela,25013,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493811657614,Accesorios de Mate La Huella,25014,validado,2026-06-19T15:28:53.789767+00:00,,false
+5492994145193,Yerba Mate El Sabor,25015,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493515971311,La Yerba de Mis Abuelos,25016,validado,2026-06-19T15:28:53.789767+00:00,,false
+5492994228106,El Mate de la Tía,25017,validado,2026-06-19T15:28:53.789767+00:00,,false
+5492998718887,Yerba Mate El Camino,25018,validado,2026-06-19T15:28:53.789767+00:00,,false
+5492995028869,Mate y Tradición,25019,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493517304254,La Yerba de Siempre,25020,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493416986538,Accesorios de Mate El Cacique,25021,validado,2026-06-19T15:28:53.789767+00:00,,false
+5492619239862,Yerba Mate El Sol,25022,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493513952681,El Mate de la Ciudad,25023,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493414799650,Yerba Mate La Amistad,25024,validado,2026-06-19T15:28:53.789767+00:00,,false
+5492992500733,Accesorios de Mate El Corazón,25025,validado,2026-06-19T15:28:53.789767+00:00,,false
+5492615139305,Yerba Mate La Esperanza,25026,validado,2026-06-19T15:28:53.789767+00:00,,false
+5492618861463,El Mate de la Familia,25027,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493812941974,Yerba Mate La Tierra,25028,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493817404433,Accesorios de Mate La Vida,25029,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493419686914,Yerba Mate El Encuentro,25030,validado,2026-06-19T15:28:53.789767+00:00,,false
+5493518648263,El Mate de los Amigos,25031,existente,,,false
+5493516216782,Yerba Mate La Pasión,25032,existente,,,false
+5492612780568,Accesorios de Mate El Refugio,25033,existente,,,false
+5493582639964,Yerba Mate El Aroma,25034,existente,,,false
+5493814729528,La Yerba de la Abuela,25035,existente,,,false
+5493876922419,El Mate de la Tradición,25036,existente,,,false
+5492618889598,Yerba Mate El Legado,25037,existente,,,false
+5492615021286,Accesorios de Mate La Cultura,25038,existente,,,false
+5493813520000,Yerba Mate La Raíz,25039,existente,,,false
+5492997489876,El Mate del Pueblo,25040,existente,,,false
+5493519107005,Yerba Mate La Herencia,0,no_validado,,PROSPECTO,true
+5493874104594,Accesorios de Mate El Saber,0,existente,,PROSPECTO,true
+5492617413812,Yerba Mate El Viento,0,no_validado,,PROSPECTO,true
+5492617236955,La Yerba de la Tierra,0,existente,,PROSPECTO,true
+5492612928724,El Mate de la Historia,0,no_validado,,PROSPECTO,true
+5492999435946,Yerba Mate La Luz,0,validado,2026-06-19T15:28:53.789767+00:00,PROSPECTO,true
+5493517632424,Accesorios de Mate El Camino,0,no_existente,,PROSPECTO,true
+5493416524997,Yerba Mate El Eco,0,no_validado,,PROSPECTO,true
+5493876499570,La Yerba de la Amistad,0,existente,,PROSPECTO,true
+5492998066543,El Mate de la Naturaleza,0,no_validado,,PROSPECTO,true

@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Yerba Mate La Tradición,Yerba Mate La Tradición,5493587905250,1,1,lunes,martes,"Zona ZONA NORTE - Villa El Libertador - Rafaela, Santa Fe, Argentina",Juan Pérez,0,0,-31.256212,-61.46832,true
+2,Accesorios de Mate El Gaucho,Accesorios de Mate El Gaucho,5493582641213,1,2,lunes,martes,"Zona ZONA NORTE - Villa El Libertador - Rafaela, Santa Fe, Argentina",Juan Pérez,0,0,-31.269564,-61.464781,true
+3,La Casa del Mate,La Casa del Mate,5492991227644,1,3,lunes,martes,"Zona ZONA NORTE - Villa El Libertador - Rafaela, Santa Fe, Argentina",Juan Pérez,0,0,-31.26968,-61.473152,true
+4,Yerba Mate El Cielo,Yerba Mate El Cielo,5493418277249,1,4,lunes,martes,"Zona ZONA NORTE - Villa El Libertador - Rafaela, Santa Fe, Argentina",Juan Pérez,0,0,-31.268026,-61.475328,true
+5,Mate y Más,Mate y Más,5493587747641,1,5,lunes,martes,"Zona ZONA NORTE - Villa El Libertador - Rafaela, Santa Fe, Argentina",Juan Pérez,0,0,-31.257916,-61.46664,true
+6,El Rincón del Mate,El Rincón del Mate,5492614053074,1,6,lunes,martes,"Zona ZONA NORTE - Villa El Libertador - Rafaela, Santa Fe, Argentina",Juan Pérez,0,0,-31.267427,-61.478657,true
+7,Yerba Mate del Pueblo,Yerba Mate del Pueblo,5493514079279,1,7,lunes,martes,"Zona ZONA NORTE - Villa El Libertador - Rafaela, Santa Fe, Argentina",Juan Pérez,0,0,-31.258001,-61.463387,true
+8,Accesorios del Mate,Accesorios del Mate,5493876914178,1,8,lunes,martes,"Zona ZONA NORTE - Villa El Libertador - Rafaela, Santa Fe, Argentina",Juan Pérez,0,0,-31.26698,-61.474172,true
+9,La Yerba de Rafaela,La Yerba de Rafaela,5492617175545,1,9,lunes,martes,"Zona ZONA NORTE - Villa El Libertador - Rafaela, Santa Fe, Argentina",Juan Pérez,0,0,-31.270036,-61.463997,true
+10,Mateando,Mateando,5493818437953,1,10,lunes,martes,"Zona ZONA NORTE - Barrio 2 de Abril - Rafaela, Santa Fe, Argentina",Juan Pérez,0,1,-31.257326,-61.457318,true
+11,El Mate de Oro,El Mate de Oro,5493582132179,1,11,lunes,martes,"Zona ZONA NORTE - Barrio 2 de Abril - Rafaela, Santa Fe, Argentina",Juan Pérez,0,1,-31.260769,-61.467049,true
+12,Yerba Mate La Estrella,Yerba Mate La Estrella,5493872845902,1,12,lunes,martes,"Zona ZONA NORTE - Barrio 2 de Abril - Rafaela, Santa Fe, Argentina",Juan Pérez,0,1,-31.248751,-61.468796,true
+13,El Mate de la Abuela,El Mate de la Abuela,5492997670210,1,13,lunes,martes,"Zona ZONA NORTE - Barrio 2 de Abril - Rafaela, Santa Fe, Argentina",Juan Pérez,0,1,-31.246517,-61.458009,true
+14,Accesorios de Mate La Huella,Accesorios de Mate La Huella,5493811657614,1,14,lunes,martes,"Zona ZONA NORTE - Barrio 2 de Abril - Rafaela, Santa Fe, Argentina",Juan Pérez,0,1,-31.248492,-61.465647,true
+15,Yerba Mate El Sabor,Yerba Mate El Sabor,5492994145193,1,15,lunes,martes,"Zona ZONA NORTE - Barrio 2 de Abril - Rafaela, Santa Fe, Argentina",Juan Pérez,0,1,-31.256423,-61.453131,true
+16,La Yerba de Mis Abuelos,La Yerba de Mis Abuelos,5493515971311,1,16,lunes,martes,"Zona ZONA NORTE - Barrio 2 de Abril - Rafaela, Santa Fe, Argentina",Juan Pérez,0,1,-31.259485,-61.463326,true
+17,El Mate de la Tía,El Mate de la Tía,5492994228106,1,17,lunes,martes,"Zona ZONA NORTE - Barrio 2 de Abril - Rafaela, Santa Fe, Argentina",Juan Pérez,0,1,-31.248158,-61.464797,true
+18,Yerba Mate El Camino,Yerba Mate El Camino,5492998718887,1,18,lunes,martes,"Zona ZONA NORTE - Barrio 2 de Abril - Rafaela, Santa Fe, Argentina",Juan Pérez,0,1,-31.246927,-61.454108,true
+19,Mate y Tradición,Mate y Tradición,5492995028869,1,19,martes,miercoles,"Zona ZONA SUR - Barrio Los Nogales - Rafaela, Santa Fe, Argentina",María González,1,2,-31.250451,-61.483241,true
+20,La Yerba de Siempre,La Yerba de Siempre,5493517304254,1,20,martes,miercoles,"Zona ZONA SUR - Barrio Los Nogales - Rafaela, Santa Fe, Argentina",María González,1,2,-31.250625,-61.491505,true
+21,Accesorios de Mate El Cacique,Accesorios de Mate El Cacique,5493416986538,1,21,martes,miercoles,"Zona ZONA SUR - Barrio Los Nogales - Rafaela, Santa Fe, Argentina",María González,1,2,-31.239737,-61.481594,true
+22,Yerba Mate El Sol,Yerba Mate El Sol,5492619239862,1,22,martes,miercoles,"Zona ZONA SUR - Barrio Los Nogales - Rafaela, Santa Fe, Argentina",María González,1,2,-31.246765,-61.490625,true
+23,El Mate de la Ciudad,El Mate de la Ciudad,5493513952681,1,23,martes,miercoles,"Zona ZONA SUR - Barrio Los Nogales - Rafaela, Santa Fe, Argentina",María González,1,2,-31.249783,-61.482575,true
+24,Yerba Mate La Amistad,Yerba Mate La Amistad,5493414799650,1,24,martes,miercoles,"Zona ZONA SUR - Barrio Los Nogales - Rafaela, Santa Fe, Argentina",María González,1,2,-31.238618,-61.490139,true
+25,Accesorios de Mate El Corazón,Accesorios de Mate El Corazón,5492992500733,1,25,martes,miercoles,"Zona ZONA SUR - Barrio Los Nogales - Rafaela, Santa Fe, Argentina",María González,1,2,-31.236983,-61.479232,true
+26,Yerba Mate La Esperanza,Yerba Mate La Esperanza,5492615139305,1,26,martes,miercoles,"Zona ZONA SUR - Barrio Los Nogales - Rafaela, Santa Fe, Argentina",María González,1,2,-31.238895,-61.490718,true
+27,El Mate de la Familia,El Mate de la Familia,5492618861463,1,27,martes,miercoles,"Zona ZONA SUR - Villa María - Rafaela, Santa Fe, Argentina",María González,1,3,-31.256831,-61.484553,true
+28,Yerba Mate La Tierra,Yerba Mate La Tierra,5493812941974,1,28,martes,miercoles,"Zona ZONA SUR - Villa María - Rafaela, Santa Fe, Argentina",María González,1,3,-31.257064,-61.486446,true
+29,Accesorios de Mate La Vida,Accesorios de Mate La Vida,5493817404433,1,29,martes,miercoles,"Zona ZONA SUR - Villa María - Rafaela, Santa Fe, Argentina",María González,1,3,-31.24588,-61.495789,true
+30,Yerba Mate El Encuentro,Yerba Mate El Encuentro,5493419686914,1,30,martes,miercoles,"Zona ZONA SUR - Villa María - Rafaela, Santa Fe, Argentina",María González,1,3,-31.245869,-61.488053,true
+31,El Mate de los Amigos,El Mate de los Amigos,5493518648263,1,31,martes,miercoles,"Zona ZONA SUR - Villa María - Rafaela, Santa Fe, Argentina",María González,1,3,-31.248704,-61.498046,true
+32,Yerba Mate La Pasión,Yerba Mate La Pasión,5493516216782,1,32,martes,miercoles,"Zona ZONA SUR - Villa María - Rafaela, Santa Fe, Argentina",María González,1,3,-31.257281,-61.483705,true
+33,Accesorios de Mate El Refugio,Accesorios de Mate El Refugio,5492612780568,1,33,martes,miercoles,"Zona ZONA SUR - Villa María - Rafaela, Santa Fe, Argentina",María González,1,3,-31.249876,-61.486427,true
+34,Yerba Mate El Aroma,Yerba Mate El Aroma,5493582639964,1,34,martes,miercoles,"Zona ZONA SUR - Villa María - Rafaela, Santa Fe, Argentina",María González,1,3,-31.259613,-61.495681,true
+35,La Yerba de la Abuela,La Yerba de la Abuela,5493814729528,1,35,miercoles,jueves,"Zona ZONA OESTE - Barrio San Martín - Rafaela, Santa Fe, Argentina",Carlos López,2,4,-31.257772,-61.504294,true
+36,El Mate de la Tradición,El Mate de la Tradición,5493876922419,1,36,miercoles,jueves,"Zona ZONA OESTE - Barrio San Martín - Rafaela, Santa Fe, Argentina",Carlos López,2,4,-31.259907,-61.495476,true
+37,Yerba Mate El Legado,Yerba Mate El Legado,5492618889598,1,37,miercoles,jueves,"Zona ZONA OESTE - Barrio San Martín - Rafaela, Santa Fe, Argentina",Carlos López,2,4,-31.26929,-61.505452,true
+38,Accesorios de Mate La Cultura,Accesorios de Mate La Cultura,5492615021286,1,38,miercoles,jueves,"Zona ZONA OESTE - Barrio San Martín - Rafaela, Santa Fe, Argentina",Carlos López,2,4,-31.268607,-61.498664,true
+39,Yerba Mate La Raíz,Yerba Mate La Raíz,5493813520000,1,39,miercoles,jueves,"Zona ZONA OESTE - Barrio San Martín - Rafaela, Santa Fe, Argentina",Carlos López,2,4,-31.266807,-61.497972,true
+40,El Mate del Pueblo,El Mate del Pueblo,5492997489876,1,40,miercoles,jueves,"Zona ZONA OESTE - Barrio San Martín - Rafaela, Santa Fe, Argentina",Carlos López,2,4,-31.256219,-61.497868,true
+41,Yerba Mate La Herencia,Yerba Mate La Herencia,5493519107005,1,41,miercoles,jueves,"Zona ZONA OESTE - Barrio San Martín - Rafaela, Santa Fe, Argentina",Carlos López,2,4,-31.267435,-61.504241,true
+42,Accesorios de Mate El Saber,Accesorios de Mate El Saber,5493874104594,1,42,miercoles,jueves,"Zona ZONA OESTE - Barrio San Martín - Rafaela, Santa Fe, Argentina",Carlos López,2,4,-31.255314,-61.495611,true
+43,Yerba Mate El Viento,Yerba Mate El Viento,5492617413812,1,43,miercoles,jueves,"Zona ZONA OESTE - Barrio Belgrano - Rafaela, Santa Fe, Argentina",Carlos López,2,5,-31.248762,-61.48386,true
+44,La Yerba de la Tierra,La Yerba de la Tierra,5492617236955,1,44,miercoles,jueves,"Zona ZONA OESTE - Barrio Belgrano - Rafaela, Santa Fe, Argentina",Carlos López,2,5,-31.249038,-61.487669,true
+45,El Mate de la Historia,El Mate de la Historia,5492612928724,1,45,miercoles,jueves,"Zona ZONA OESTE - Barrio Belgrano - Rafaela, Santa Fe, Argentina",Carlos López,2,5,-31.258735,-61.476246,true
+46,Yerba Mate La Luz,Yerba Mate La Luz,5492999435946,1,46,miercoles,jueves,"Zona ZONA OESTE - Barrio Belgrano - Rafaela, Santa Fe, Argentina",Carlos López,2,5,-31.249885,-61.475231,true
+47,Accesorios de Mate El Camino,Accesorios de Mate El Camino,5493517632424,1,47,miercoles,jueves,"Zona ZONA OESTE - Barrio Belgrano - Rafaela, Santa Fe, Argentina",Carlos López,2,5,-31.257684,-61.483576,true
+48,Yerba Mate El Eco,Yerba Mate El Eco,5493416524997,1,48,miercoles,jueves,"Zona ZONA OESTE - Barrio Belgrano - Rafaela, Santa Fe, Argentina",Carlos López,2,5,-31.260437,-61.476314,true
+49,La Yerba de la Amistad,La Yerba de la Amistad,5493876499570,1,49,miercoles,jueves,"Zona ZONA OESTE - Barrio Belgrano - Rafaela, Santa Fe, Argentina",Carlos López,2,5,-31.250181,-61.48327,true
+50,El Mate de la Naturaleza,El Mate de la Naturaleza,5492998066543,1,50,miercoles,jueves,"Zona ZONA OESTE - Barrio Belgrano - Rafaela, Santa Fe, Argentina",Carlos López,2,5,-31.255984,-61.486267,true

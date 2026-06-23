@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: 26710a09-94f8-4c78-b483-50a372e04a77
+schema_existe,Tablas en mayorius,ok,schema verificado
+productos_vacio,COUNT productos = 0,ok,0 productos encontrados
+clients_vacio,COUNT clients = 0,ok,0 clientes encontrados
+mcp_conectado,MCP supabase responde,ok,conectado
+carpeta_implementacion,manifest.yaml presente,ok,verificado
+is_mock_column,Columna is_mock en productos,ok,columna presente
+excel_presente,Archivo en inputs/,pendiente,Excel 'no encontrado'

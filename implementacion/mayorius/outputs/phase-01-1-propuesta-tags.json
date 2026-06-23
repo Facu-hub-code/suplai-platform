@@ -1,0 +1,235 @@
+{
+  "schema": "mayorius",
+  "products": [
+    {
+      "product_code": "RV-BOMBILLA-001",
+      "nombre": "Bombilla Plana 19 Cm. Acero Inox.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Utensilios de Cocina",
+        "3": "Bombillas",
+        "4": "Bombilla Plana"
+      }
+    },
+    {
+      "product_code": "RV-BOMBILLA-002",
+      "nombre": "Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Utensilios de Cocina",
+        "3": "Bombillas",
+        "4": "Bombilla Pico de Rey"
+      }
+    },
+    {
+      "product_code": "RV-BOMBILLA-003",
+      "nombre": "Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Utensilios de Cocina",
+        "3": "Bombillas",
+        "4": "Bombilla Pico de Loro"
+      }
+    },
+    {
+      "product_code": "RV-BOMBILLA-004",
+      "nombre": "Bombilla Plana 17 Cm. Acero Inox.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Utensilios de Cocina",
+        "3": "Bombillas",
+        "4": "Bombilla Plana"
+      }
+    },
+    {
+      "product_code": "RV-BOMBILLA-005",
+      "nombre": "Bombilla Plana 15 Cm. Acero Inox.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Utensilios de Cocina",
+        "3": "Bombillas",
+        "4": "Bombilla Plana"
+      }
+    },
+    {
+      "product_code": "RV-CLASSICA-004",
+      "nombre": "Yerba M. Clas. Export X 1 Kg",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Clásica"
+      }
+    },
+    {
+      "product_code": "RV-CLASSICA-007",
+      "nombre": "Yerba M. Clas. Export X 5 Kg",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Clásica"
+      }
+    },
+    {
+      "product_code": "RV-COMPUESTA-001",
+      "nombre": "Yerba M. Comp. C/ Hierbas X 500 Gr.",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Compuesta"
+      }
+    },
+    {
+      "product_code": "RV-KIT-TERERE-001",
+      "nombre": "KIT Terere -   LIMON c/ MENTA x250 Gr",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Kit de Tereré"
+      }
+    },
+    {
+      "product_code": "RV-KIT-TERERE-002",
+      "nombre": "KIT Terere -   ANANA c/ MENTA x250 Gr",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Kit de Tereré"
+      }
+    },
+    {
+      "product_code": "RV-KIT-TERERE-003",
+      "nombre": "KIT Terere -   NARANJA c/ MENTA x250 Gr",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Kit de Tereré"
+      }
+    },
+    {
+      "product_code": "RV-ORGANICA-001",
+      "nombre": "Yerba M. Org.  Export X 500 Grs",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Orgánica"
+      }
+    },
+    {
+      "product_code": "RV-PADRON-001",
+      "nombre": "Yerba M. Padron Arg. C/ Palo X 500 Gr.",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Padrón"
+      }
+    },
+    {
+      "product_code": "RV-PADRON-004",
+      "nombre": "Yerba M. Padron Arg. Export C/ Palo X 1 Kg",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Padrón"
+      }
+    },
+    {
+      "product_code": "RV-PREMIUM-001",
+      "nombre": "Yerba M. Premiun Export X 500 Gr.",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Premium"
+      }
+    },
+    {
+      "product_code": "RV-PREMIUM-004",
+      "nombre": "Yerba M. Premiun Export X 1 Kg",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Premium"
+      }
+    },
+    {
+      "product_code": "RV-PREMIUM-007",
+      "nombre": "Yerba M. Premiun Ed. Limitada X 1 Kg",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Premium"
+      }
+    },
+    {
+      "product_code": "RV-TERERE-001",
+      "nombre": "Terere - LIMON c/ MENTA x250 Gr",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Tereré"
+      }
+    },
+    {
+      "product_code": "RV-TERERE-002",
+      "nombre": "Terere - ANANA c/ MENTA  x250 Gr",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Tereré"
+      }
+    },
+    {
+      "product_code": "RV-TERERE-003",
+      "nombre": "Terere - NARANJA c/ MENTA x250 Gr",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Tereré"
+      }
+    },
+    {
+      "product_code": "RV-TRADICIONAL-001",
+      "nombre": "Yerba M. Tradicional Export X 500 Gr.",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Tradicional"
+      }
+    },
+    {
+      "product_code": "RV-TRADICIONAL-004",
+      "nombre": "Yerba M. Tradicional Export X 1 Kg",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Tradicional"
+      }
+    },
+    {
+      "product_code": "RV-TRADICIONAL-007",
+      "nombre": "Yerba M. Tradicional Export X 3 Kg",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerbas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Tradicional"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+1,RV-CLASSICA-004,¡Oferta Semanal! Yerba M. Clas. Export 1 Kg,Disfrutá de un 15% de descuento en cada bolsa. ¡No te lo pierdas!,percent_off,15.0,1,1,2026-06-12,2026-07-19,True,True
+2,RV-CLASSICA-007,Imperdible: Yerba M. Clas. Export 5 Kg,Llevate 5 Kg y ahorrá $1000. Ideal para los amantes del mate.,total_off,1000.0,1,1,2026-06-12,2026-07-19,True,True
+3,RV-TRADICIONAL-001,Promo Especial: Yerba M. Tradicional Export 500 Gr.,Llevá 3 y pagá solo $3196.53 por cada una. ¡Aprovechá!,fixed_price,3196.53,1,3,2026-06-12,2026-07-19,True,True
+4,RV-TRADICIONAL-004,Descuentazo: Yerba M. Tradicional Export 1 Kg,20% de descuento en tu compra. Perfecta para un buen mate.,percent_off,20.0,1,1,2026-06-12,2026-07-19,True,True

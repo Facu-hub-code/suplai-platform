@@ -1,0 +1,398 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587905250,25001,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,3,1900.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00002,5493587905250,25001,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,1,1900.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00003,5493587905250,25001,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00004,5493582641213,25002,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00005,5493582641213,25002,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",1,16500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00005,5493582641213,25002,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,1,15500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00005,5493582641213,25002,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00006,5493582641213,25002,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,5,5812.54,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00006,5493582641213,25002,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,1,8247.90,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00007,5492991227644,25003,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00007,5492991227644,25003,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,3,8247.90,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00008,5492991227644,25003,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,3,15500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00009,5492991227644,25003,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,2,5812.54,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00009,5492991227644,25003,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,1,20235.23,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00010,5493418277249,25004,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,2,8247.90,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00010,5493418277249,25004,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,3,5812.54,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00010,5493418277249,25004,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",5,16500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00010,5493418277249,25004,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,5,3065.10,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00011,5493418277249,25004,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,3,5500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00012,5493418277249,25004,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,5,8247.90,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00012,5493418277249,25004,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00013,5493587747641,25005,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",5,16500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00013,5493587747641,25005,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00013,5493587747641,25005,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,3,5500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00014,5493587747641,25005,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00014,5493587747641,25005,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00015,5493587747641,25005,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00015,5493587747641,25005,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,5,15500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00015,5493587747641,25005,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00015,5493587747641,25005,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,2,20235.23,1,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00016,5492614053074,25006,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00016,5492614053074,25006,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,4,8247.90,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00016,5492614053074,25006,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,2,15500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00016,5492614053074,25006,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00017,5492614053074,25006,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",1,16500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00017,5492614053074,25006,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,4,5812.54,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00017,5492614053074,25006,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,3,4505.14,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00018,5492614053074,25006,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00018,5492614053074,25006,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00018,5492614053074,25006,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00019,5493514079279,25007,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00019,5493514079279,25007,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00019,5493514079279,25007,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",2,16500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00020,5493514079279,25007,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,4,1900.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00020,5493514079279,25007,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,3,15500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00020,5493514079279,25007,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00020,5493514079279,25007,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,4,15500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00021,5493514079279,25007,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00021,5493514079279,25007,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,1,15500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00021,5493514079279,25007,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00021,5493514079279,25007,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,3,3632.42,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00022,5493876914178,25008,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00022,5493876914178,25008,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00023,5493876914178,25008,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00023,5493876914178,25008,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,1,8247.90,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00024,5493876914178,25008,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00024,5493876914178,25008,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,1,20235.23,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00024,5493876914178,25008,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,5,5500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00024,5493876914178,25008,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00025,5492617175545,25009,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,3,8247.90,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00025,5492617175545,25009,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00025,5492617175545,25009,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",5,16500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00026,5492617175545,25009,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,4,3632.42,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00026,5492617175545,25009,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00027,5492617175545,25009,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,1,6918.21,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00028,5493818437953,25010,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,2,5500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00028,5493818437953,25010,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,1,5812.54,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00028,5493818437953,25010,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00029,5493818437953,25010,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,5,5500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00030,5493818437953,25010,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,3,5500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00030,5493818437953,25010,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,1,15500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00030,5493818437953,25010,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,1,5812.54,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00030,5493818437953,25010,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,1,15500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00031,5493582132179,25011,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,2,5500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00031,5493582132179,25011,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,5,5500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00031,5493582132179,25011,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,3,15500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00032,5493582132179,25011,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,2,5500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00032,5493582132179,25011,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,5,6918.21,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00033,5493582132179,25011,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,5,5500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00033,5493582132179,25011,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,5,15500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00034,5493872845902,25012,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,2,5500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00034,5493872845902,25012,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00035,5493872845902,25012,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00036,5493872845902,25012,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00036,5493872845902,25012,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,2,6918.21,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00036,5493872845902,25012,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,4,1900.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00036,5493872845902,25012,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,4,1900.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00037,5492997670210,25013,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00038,5492997670210,25013,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,1,5812.54,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00038,5492997670210,25013,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00039,5492997670210,25013,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00039,5492997670210,25013,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",4,16500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00040,5493811657614,25014,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",5,16500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00040,5493811657614,25014,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00040,5493811657614,25014,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,4,3632.42,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00040,5493811657614,25014,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,3,1900.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00041,5493811657614,25014,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,1,4505.14,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00041,5493811657614,25014,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,5,6918.21,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00041,5493811657614,25014,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",2,16500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00042,5493811657614,25014,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,2,15500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00042,5493811657614,25014,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00043,5492994145193,25015,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,5,15500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00043,5492994145193,25015,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,1,8247.90,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00043,5492994145193,25015,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,5,5500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00043,5492994145193,25015,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00044,5492994145193,25015,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,5,15500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00044,5492994145193,25015,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,5,3632.42,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00044,5492994145193,25015,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",1,16500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00045,5492994145193,25015,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,1,8247.90,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00045,5492994145193,25015,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,1,3632.42,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00045,5492994145193,25015,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,5,5500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00045,5492994145193,25015,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,1,8247.90,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00046,5493515971311,25016,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,5,6096.76,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00047,5493515971311,25016,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00047,5493515971311,25016,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,4,5500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00048,5493515971311,25016,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,4,3632.42,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00048,5493515971311,25016,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,5,5500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00048,5493515971311,25016,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,5,4505.14,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00049,5492994228106,25017,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,2,15500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00049,5492994228106,25017,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,5,15500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00049,5492994228106,25017,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",2,16500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00050,5492994228106,25017,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,5,28959.06,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00050,5492994228106,25017,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,5,4505.14,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00050,5492994228106,25017,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,5,20235.23,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00050,5492994228106,25017,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,1,15500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00051,5492994228106,25017,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,5,6918.21,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00051,5492994228106,25017,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,2,5812.54,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00051,5492994228106,25017,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00051,5492994228106,25017,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00052,5492998718887,25018,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,1,1900.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00052,5492998718887,25018,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,3,1900.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00053,5492998718887,25018,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00053,5492998718887,25018,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00054,5492998718887,25018,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,1,8247.90,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00054,5492998718887,25018,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,4,3632.42,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00054,5492998718887,25018,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,1,8247.90,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00055,5492995028869,25019,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00056,5492995028869,25019,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00057,5492995028869,25019,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,4,20235.23,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00057,5492995028869,25019,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",5,16500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00058,5493517304254,25020,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",5,16500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00058,5493517304254,25020,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00059,5493517304254,25020,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,2,15500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00059,5493517304254,25020,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,5,5500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00059,5493517304254,25020,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,3,1900.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00060,5493517304254,25020,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00060,5493517304254,25020,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,2,8247.90,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00060,5493517304254,25020,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,2,15500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00061,5493416986538,25021,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,3,5812.54,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00062,5493416986538,25021,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00062,5493416986538,25021,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",2,16500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00062,5493416986538,25021,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,5,20235.23,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00063,5493416986538,25021,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,3,5500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00063,5493416986538,25021,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",5,16500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00064,5492619239862,25022,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,1,1900.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00064,5492619239862,25022,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,4,15500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00064,5492619239862,25022,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,3,8247.90,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00065,5492619239862,25022,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,3,1900.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00066,5492619239862,25022,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00066,5492619239862,25022,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,3,6918.21,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00066,5492619239862,25022,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,2,15500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00067,5493513952681,25023,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00068,5493513952681,25023,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,5,15500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00068,5493513952681,25023,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00068,5493513952681,25023,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00069,5493513952681,25023,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00069,5493513952681,25023,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,4,8247.90,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00069,5493513952681,25023,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,2,20235.23,1,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00070,5493414799650,25024,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00071,5493414799650,25024,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00071,5493414799650,25024,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,1,1900.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00072,5493414799650,25024,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,2,5500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00072,5493414799650,25024,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,1,3632.42,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00072,5493414799650,25024,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,1,1900.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00072,5493414799650,25024,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,2,8247.90,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00073,5492992500733,25025,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",4,16500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00073,5492992500733,25025,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,1,15500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00073,5492992500733,25025,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,5,28959.06,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00074,5492992500733,25025,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,5,3065.10,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00074,5492992500733,25025,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00075,5492992500733,25025,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00076,5492615139305,25026,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,5,8247.90,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00077,5492615139305,25026,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,4,5500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00077,5492615139305,25026,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00078,5492615139305,25026,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,3,5500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00078,5492615139305,25026,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00078,5492615139305,25026,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00078,5492615139305,25026,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,1,6918.21,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00079,5492618861463,25027,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00079,5492618861463,25027,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",2,16500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00080,5492618861463,25027,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00080,5492618861463,25027,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",2,16500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00081,5492618861463,25027,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,5,15500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00081,5492618861463,25027,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",1,16500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00081,5492618861463,25027,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,5,5812.54,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00081,5492618861463,25027,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,4,1900.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00082,5493812941974,25028,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",2,16500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00083,5493812941974,25028,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00083,5493812941974,25028,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00083,5493812941974,25028,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,3,5812.54,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00083,5493812941974,25028,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00084,5493812941974,25028,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00084,5493812941974,25028,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,4,1900.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00084,5493812941974,25028,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,4,5500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00084,5493812941974,25028,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00085,5493817404433,25029,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",4,16500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00085,5493817404433,25029,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,1,4505.14,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00085,5493817404433,25029,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,5,5500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00085,5493817404433,25029,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00086,5493817404433,25029,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00087,5493817404433,25029,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",4,16500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00087,5493817404433,25029,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,2,20235.23,1,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00087,5493817404433,25029,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,1,15500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00087,5493817404433,25029,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,5,4721.37,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00088,5493419686914,25030,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,3,4505.14,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00088,5493419686914,25030,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,3,8247.90,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00088,5493419686914,25030,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00088,5493419686914,25030,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00089,5493419686914,25030,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,5,4721.37,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00089,5493419686914,25030,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,5,3778.43,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00089,5493419686914,25030,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00089,5493419686914,25030,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,1,3632.42,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00090,5493419686914,25030,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,3,5500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00090,5493419686914,25030,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,5,5500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00091,5493518648263,25031,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",4,16500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00092,5493518648263,25031,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,1,15500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00092,5493518648263,25031,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",5,16500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00093,5493518648263,25031,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,5,3778.43,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00094,5493516216782,25032,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,4,5812.54,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00094,5493516216782,25032,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,4,8247.90,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00094,5493516216782,25032,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,1,1900.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00094,5493516216782,25032,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,1,15500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00095,5493516216782,25032,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00095,5493516216782,25032,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",2,16500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00095,5493516216782,25032,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,5,5500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00096,5493516216782,25032,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,4,5812.54,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00096,5493516216782,25032,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00097,5492612780568,25033,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00098,5492612780568,25033,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,3,15500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00098,5492612780568,25033,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",4,16500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00098,5492612780568,25033,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,2,1900.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00098,5492612780568,25033,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00099,5492612780568,25033,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,5,8247.90,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00099,5492612780568,25033,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00099,5492612780568,25033,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00099,5492612780568,25033,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,1,4505.14,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00100,5493582639964,25034,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,2,1900.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00100,5493582639964,25034,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00100,5493582639964,25034,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,5,3065.10,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00100,5493582639964,25034,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",4,16500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00101,5493582639964,25034,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00102,5493582639964,25034,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00102,5493582639964,25034,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",4,16500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00103,5493814729528,25035,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,1,1900.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00103,5493814729528,25035,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",2,16500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00104,5493814729528,25035,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,3,5812.54,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00105,5493814729528,25035,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,4,5500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00105,5493814729528,25035,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,4,1900.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00106,5493876922419,25036,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00106,5493876922419,25036,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,3,5500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00106,5493876922419,25036,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00106,5493876922419,25036,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,1,3632.42,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00107,5493876922419,25036,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,2,5500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00107,5493876922419,25036,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,4,15500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00108,5493876922419,25036,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00108,5493876922419,25036,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00108,5493876922419,25036,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,3,15500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00109,5492618889598,25037,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00109,5492618889598,25037,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,5,15500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00109,5492618889598,25037,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,3,5812.54,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00110,5492618889598,25037,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00111,5492618889598,25037,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,3,3632.42,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00111,5492618889598,25037,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,4,5812.54,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00111,5492618889598,25037,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,3,1900.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00112,5492615021286,25038,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00112,5492615021286,25038,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,5,8247.90,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00113,5492615021286,25038,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,5,20235.23,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00113,5492615021286,25038,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00113,5492615021286,25038,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",5,16500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00114,5492615021286,25038,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,3,1900.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00114,5492615021286,25038,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00115,5493813520000,25039,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,4,1900.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00115,5493813520000,25039,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00116,5493813520000,25039,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00116,5493813520000,25039,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,2,5500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00116,5493813520000,25039,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,3,15500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00117,5493813520000,25039,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00118,5492997489876,25040,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,4,5812.54,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00118,5492997489876,25040,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,4,20235.23,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00119,5492997489876,25040,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,3,5500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00119,5492997489876,25040,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00120,5492997489876,25040,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00120,5492997489876,25040,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00120,5492997489876,25040,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,4,1900.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00120,5492997489876,25040,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00121,5492612928724,0,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,1,3632.42,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00121,5492612928724,0,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00122,5492612928724,0,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00122,5492612928724,0,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,4,15500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00122,5492612928724,0,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,1,20235.23,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00122,5492612928724,0,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",2,16500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00123,5492612928724,0,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,1,20235.23,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00123,5492612928724,0,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00123,5492612928724,0,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,3,15500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00124,5492617236955,0,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00125,5492617236955,0,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,5,6918.21,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00126,5492617236955,0,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00126,5492617236955,0,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,5,15500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00126,5492617236955,0,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00127,5492617413812,0,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",5,16500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00127,5492617413812,0,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00127,5492617413812,0,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,2,8247.90,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00127,5492617413812,0,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,4,3632.42,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00128,5492617413812,0,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,5,3778.43,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00128,5492617413812,0,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,4,15500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00128,5492617413812,0,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00129,5492617413812,0,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00129,5492617413812,0,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,5,15500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00129,5492617413812,0,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,4,1900.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00130,5492998066543,0,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",1,16500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00131,5492998066543,0,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,1,6918.21,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00131,5492998066543,0,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,5,5500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00131,5492998066543,0,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,1,1900.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00131,5492998066543,0,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,5,8247.90,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00132,5492998066543,0,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,2,5812.54,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00132,5492998066543,0,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00132,5492998066543,0,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,2,15500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00132,5492998066543,0,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,1,15500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00133,5492999435946,0,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,3,1900.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00133,5492999435946,0,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,2,8247.90,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00133,5492999435946,0,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00133,5492999435946,0,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",5,16500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00134,5492999435946,0,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,3,15500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00134,5492999435946,0,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00135,5492999435946,0,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,2,3632.42,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00135,5492999435946,0,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00135,5492999435946,0,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00135,5492999435946,0,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,2,5812.54,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00136,5493416524997,0,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,4,3632.42,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00136,5493416524997,0,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00136,5493416524997,0,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00137,5493416524997,0,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00137,5493416524997,0,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,3,5500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00138,5493416524997,0,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,3,1900.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00138,5493416524997,0,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00138,5493416524997,0,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,1,20235.23,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00139,5493517632424,0,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,1,15500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00139,5493517632424,0,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,5,5500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00139,5493517632424,0,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,4,1900.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00139,5493517632424,0,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,5,15500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00140,5493517632424,0,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,3,8247.90,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00140,5493517632424,0,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,4,20235.23,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00140,5493517632424,0,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,5,15500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00140,5493517632424,0,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,1,1900.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00141,5493517632424,0,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,2,1900.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00142,5493519107005,0,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,5,1900.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00143,5493519107005,0,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00144,5493519107005,0,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00144,5493519107005,0,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00144,5493519107005,0,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",4,16500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00145,5493874104594,0,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,5,3778.43,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,false,false
+P-00146,5493874104594,0,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00146,5493874104594,0,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00146,5493874104594,0,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,3,5500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,false,false
+P-00147,5493874104594,0,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,2,1900.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,false,false
+P-00147,5493874104594,0,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,3,8247.90,1,Pedido: 3 1 (normalizado: 60 1; equiv: 3 1),true,false,false
+P-00148,5493876499570,0,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,1,5812.54,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00148,5493876499570,0,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00148,5493876499570,0,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,1,1900.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00148,5493876499570,0,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,1,3632.42,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,false,false
+P-00149,5493876499570,0,RV-BOMBILLA-005,Bombilla Plana 15 Cm. Acero Inox.,5,15500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00149,5493876499570,0,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido: 2 1 (normalizado: 40 1; equiv: 2 1),true,false,false
+P-00150,5493876499570,0,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,false,false
+P-00150,5493876499570,0,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,false,false
+P-00150,5493876499570,0,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,false,false
+P-00150,5493876499570,0,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",5,16500.00,1,Pedido: 5 1 (normalizado: 5 1; equiv: 5 1),true,false,false
+P-00151,5493587905250,25001,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,5182.25,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1) - promo fase 2,true,true,true
+P-00151,5493587905250,25001,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,5,6918.21,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,true,false
+P-00151,5493587905250,25001,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,true,false
+P-00151,5493587905250,25001,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,true,false
+P-00152,5493582641213,25002,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,true,false
+P-00152,5493582641213,25002,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,true,false
+P-00152,5493582641213,25002,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,1,5812.54,1,Pedido: 1 1 (normalizado: 20 1; equiv: 1 1),true,true,false
+P-00153,5492991227644,25003,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,4,3632.42,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,true,false
+P-00153,5492991227644,25003,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,true,false
+P-00153,5492991227644,25003,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,true,false
+P-00154,5493418277249,25004,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",2,16500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,true,false
+P-00154,5493418277249,25004,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido: 4 1 (normalizado: 80 1; equiv: 4 1),true,true,false
+P-00154,5493418277249,25004,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,4,5500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,true,false
+P-00155,5493587747641,25005,RV-BOMBILLA-003,"Bombilla  Pico De Loro 19,5 Cm. Acero Inox.",3,16500.00,1,Pedido: 3 1 (normalizado: 3 1; equiv: 3 1),true,true,false
+P-00155,5493587747641,25005,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,5,8247.90,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,true,false
+P-00155,5493587747641,25005,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,1,5500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,true,false
+P-00156,5492614053074,25006,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,2,1900.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,true,false
+P-00156,5492614053074,25006,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,1,15500.00,1,Pedido: 1 1 (normalizado: 1 1; equiv: 1 1),true,true,false
+P-00156,5492614053074,25006,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,2,15500.00,1,Pedido: 2 1 (normalizado: 2 1; equiv: 2 1),true,true,false
+P-00157,5493514079279,25007,RV-BOMBILLA-004,Bombilla Plana 17 Cm. Acero Inox.,4,15500.00,1,Pedido: 4 1 (normalizado: 4 1; equiv: 4 1),true,true,false
+P-00157,5493514079279,25007,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,5,8247.90,1,Pedido: 5 1 (normalizado: 100 1; equiv: 5 1),true,true,false
