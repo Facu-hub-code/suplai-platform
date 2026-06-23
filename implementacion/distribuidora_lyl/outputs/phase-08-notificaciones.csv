@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2490,Calidad,open,"Reclamo por Soda Secco 2,25L x 6u con entrega en mal estado o faltante parcial.",5493587905250,"Hola, me llego Soda Secco 2,25L x 6u en mal estado y quiero hacer el reclamo.",2026-06-22 11:15:00,,true
+TKT-2491,Calidad,open,Reclamo por Speed ZERO Lata 250cc x unidad con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego Speed ZERO Lata 250cc x unidad en mal estado y quiero hacer el reclamo.",2026-06-21 08:15:00,,true
+TKT-2492,Calidad,open,Reclamo por Repelente AKTIOL x 1u x 143ml con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego Repelente AKTIOL x 1u x 143ml en mal estado y quiero hacer el reclamo.",2026-06-20 05:15:00,,true
+TKT-2493,Logistica,open,Demora en la entrega del pedido P-00151 de Chocolatada Mr. Choco x 200cc x 18u.,5493418277249,"Buen dia, sigo esperando el pedido P-00151 de Chocolatada Mr. Choco x 200cc x 18u y no llego.",2026-06-22 02:15:00,,true
+TKT-2494,Logistica,open,Demora en la entrega del pedido P-00123 de Gaseosa Winner´s x 3L x 4u.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de Gaseosa Winner´s x 3L x 4u y no llego.",2026-06-21 11:15:00,,true
+TKT-2495,Logistica,open,Demora en la entrega del pedido P-00126 de Detergente ODEX ULTRA x 250ml x 1u.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de Detergente ODEX ULTRA x 250ml x 1u y no llego.",2026-06-20 08:15:00,,true
+TKT-2496,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Distribuidora La Nueva.,5493587905250,,2026-06-22 05:15:00,,true
+TKT-2497,Administracion,open,Solicita corregir datos administrativos de Almacén El Buen Sabor en el sistema.,5493582641213,,2026-06-21 02:15:00,,true
+TKT-2498,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Pinturería Color y Vida.,5492991227644,,2026-06-20 11:15:00,,true
+TKT-2499,Administracion,open,Solicita corregir datos administrativos de Ferretería El Martillo en el sistema.,5493418277249,,2026-06-22 08:15:00,,true
+TKT-2500,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Carnicería El Asador Criollo.,5492612928724,,2026-06-21 05:15:00,,true
+TKT-2501,Administracion,closed,Solicita corregir datos administrativos de Ferretería La Fuerza en el sistema.,5492617236955,,2026-06-06 05:15:00,2026-06-06 20:15:00,true
+TKT-2502,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Pinturería El Color de la Vida.,5492617413812,,2026-06-05 11:15:00,2026-06-06 03:15:00,true
+TKT-2503,Logistica,closed,Demora en la entrega del pedido P-00132 de Xtreme (Gomitas Ácidas) Berry / Rainbow / Tropical x 12u.,5492998066543,,2026-06-04 09:15:00,2026-06-05 02:15:00,true
+TKT-2504,Calidad,closed,Reclamo por Fiestita de los niños: Manzana Fizz / Ananá Fizz / Frutilla / Multifruta con entrega en mal estado o faltante parcial.,5492999435946,,2026-06-03 07:15:00,2026-06-04 01:15:00,true
+TKT-2505,Administracion,closed,Solicita corregir datos administrativos de Carnicería El Asador en el sistema.,5493587747641,,2026-06-02 05:15:00,2026-06-03 00:15:00,true
+TKT-2506,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Distribuidora Los Amigos.,5492614053074,,2026-06-17 11:15:00,2026-06-18 07:15:00,true
+TKT-2507,Logistica,closed,Demora en la entrega del pedido P-00157 de Lámpara LED Kian 15W- Fría                            x 1u.,5493514079279,,2026-06-16 09:15:00,2026-06-17 06:15:00,true

@@ -1,0 +1,8575 @@
+{
+  "schema": "kiltex",
+  "products": [
+    {
+      "product_code": "9",
+      "nombre": "QUESO CREMOSO CAJA x4 HORMAS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "7",
+      "nombre": "QUESO POR SALUT CAJA x2 HORMAS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "11",
+      "nombre": "QUESO POR SALUT LIGHT CAJA x2 HORMAS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "211",
+      "nombre": "QUESO AZUL HORMA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "1334",
+      "nombre": "QUESO AZUL MEDIA HORMA Caja  x 4 unidades",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "195",
+      "nombre": "QUESO CRIOLLO CAJA ESPECIAL",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "1095",
+      "nombre": "QUESO CRIOLLO CAJA x2 HORMAS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "1098",
+      "nombre": "QUESO DANBO CAJA X 4 HORMAS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "104",
+      "nombre": "QUESO FONTINA HORMA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "1096",
+      "nombre": "QUESO HOLANDA CAJA x2 HORMAS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "1097",
+      "nombre": "QUESO MOZZARELLA CAJA x4 HORMAS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "1099",
+      "nombre": "QUESO PATEGRAS CAJA x2 HORMAS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "17",
+      "nombre": "QUESO REGGIANITO HORMA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "170",
+      "nombre": "QUESO CREMOSO FRACC.  x24 PORCIONES",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Fraccionados"
+      }
+    },
+    {
+      "product_code": "257",
+      "nombre": "QUESO CRIOLLO FRACC. x10 PORCIONES",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Fraccionados"
+      }
+    },
+    {
+      "product_code": "142",
+      "nombre": "QUESO HOLANDA FRACC. x12 PORCIONES",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Fraccionados"
+      }
+    },
+    {
+      "product_code": "171",
+      "nombre": "QUESO POR SALUT FRACC. x24 PORCIONES",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Fraccionados"
+      }
+    },
+    {
+      "product_code": "1101",
+      "nombre": "QUESO POR SALUT LIGHT FRACC. S/SAL x12U",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "1100",
+      "nombre": "QUESO POR SALUT LIGHT FRACC. x12U",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "208",
+      "nombre": "QUESO REGGIANITO FRACC. X 12 PORCIONES",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Fraccionados"
+      }
+    },
+    {
+      "product_code": "184",
+      "nombre": "QUESO RALLADO CAJA 24x120GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Rallados"
+      }
+    },
+    {
+      "product_code": "197",
+      "nombre": "QUESO RALLADO CAJA MADRE X 6 DISPLAYS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Rallados"
+      }
+    },
+    {
+      "product_code": "180",
+      "nombre": "QUESO RALLADO DISPLAY 20x40GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Rallados"
+      }
+    },
+    {
+      "product_code": "67",
+      "nombre": "QUESO CREMOSO REMANSO CAJA x4 HORMAS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "312",
+      "nombre": "LEP X 25 KG ALIMENTA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Alimentos a Granel",
+        "3": "Alimentos",
+        "4": "Alimento a Granel"
+      }
+    },
+    {
+      "product_code": "378",
+      "nombre": "LECHE EN POLVO CAJA 10x800GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Batido"
+      }
+    },
+    {
+      "product_code": "1274",
+      "nombre": "LECHE UAT 0% GRASA PACK 12x1LT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Leches",
+        "3": "Leche UAT",
+        "4": "Leche UAT 0% Grasa"
+      }
+    },
+    {
+      "product_code": "363",
+      "nombre": "LECHE UAT CHOCOLATADA PACK 12x1LT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Leches",
+        "3": "Leche UAT",
+        "4": "Leche Chocolatada"
+      }
+    },
+    {
+      "product_code": "662",
+      "nombre": "LECHE UAT CHOCOLATADA PACK 18x200ML",
+      "tags": {
+        "1": "Almacén",
+        "2": "Leches",
+        "3": "Leche UAT",
+        "4": "Leche Chocolatada"
+      }
+    },
+    {
+      "product_code": "671",
+      "nombre": "LECHE  0% LACTOSA PACK 12x1LT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Leches",
+        "3": "Leche UAT",
+        "4": "Leche Descremada 0% Lactosa"
+      }
+    },
+    {
+      "product_code": "1244",
+      "nombre": "LECHE UAT DESC 0% LACTOSA PACK 12x500ML",
+      "tags": {
+        "1": "Almacén",
+        "2": "Leches",
+        "3": "Leche UAT",
+        "4": "Leche UAT Descremada"
+      }
+    },
+    {
+      "product_code": "338",
+      "nombre": "LECHE UAT ENTERA PACK 12x1LT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Leches",
+        "3": "Leche UAT",
+        "4": "Leche UAT Entera"
+      }
+    },
+    {
+      "product_code": "339",
+      "nombre": "LECHE UAT DESCREMADA PACK 12x1LT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Leches",
+        "3": "Leche UAT",
+        "4": "Leche Descremada"
+      }
+    },
+    {
+      "product_code": "678",
+      "nombre": "LECHE UAT PEQUES PACK 12x1LT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Leches",
+        "3": "Leche UAT",
+        "4": "Leche Peques"
+      }
+    },
+    {
+      "product_code": "1084",
+      "nombre": "LECHE UAT PEQUES PACK 18x200ML",
+      "tags": {
+        "1": "Almacén",
+        "2": "Leches",
+        "3": "Leche UAT",
+        "4": "Leche UAT Peques"
+      }
+    },
+    {
+      "product_code": "269",
+      "nombre": "CREMA CHANTILLY CLASICA Spray C. X12U",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Crema",
+        "4": "Crema Chantilly"
+      }
+    },
+    {
+      "product_code": "176",
+      "nombre": "CREMA DOBLE CAJA 12x200CC",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Crema",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "122",
+      "nombre": "CREMA DOBLE CAJA 12x350CC",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Crema",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "1684",
+      "nombre": "CREMA DE LECHE UAT 36% CAJA 12x500ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Crema",
+        "4": "Crema de Leche"
+      }
+    },
+    {
+      "product_code": "177",
+      "nombre": "CREMA DE LECHE UAT 36% CAJA 18x200ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Crema",
+        "4": "Crema de Leche"
+      }
+    },
+    {
+      "product_code": "12",
+      "nombre": "NEUFCHATEL C/AZUL CAJA 12x190GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "212",
+      "nombre": "CHATEL JAMON CAJA 12x190GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "105",
+      "nombre": "CHATEL SALAME CAJA 12x190GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Untar"
+      }
+    },
+    {
+      "product_code": "72",
+      "nombre": "CHATEL CLASICO CAJA 12x190GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Untar"
+      }
+    },
+    {
+      "product_code": "D43",
+      "nombre": "Tortillas de Trigo Integral x180 g x 6 un DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Tortillas",
+        "4": "Tortillas de Trigo Integral"
+      }
+    },
+    {
+      "product_code": "230",
+      "nombre": "CHATEL LIGHT CAJA 12x190GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "359",
+      "nombre": "CHATEL CHEDDAR CAJA 12x190GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Untar"
+      }
+    },
+    {
+      "product_code": "253",
+      "nombre": "RICOTTA ENTERA CAJA 6x290GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "254",
+      "nombre": "RICOTTA MAGRA CAJA 6x290GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "81",
+      "nombre": "ARROZ C/LECHE CANELA CAJA 20x180GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "313",
+      "nombre": "ARROZ C/LECHE CHOCOLATE CAJA 20x180GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "62",
+      "nombre": "ARROZ C/LECHE CLASICO CAJA 20x180GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "102",
+      "nombre": "ARROZ C/LECHE DULCE DE LECHE CAJA 20x180GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "82",
+      "nombre": "ARROZ C/LECHE LIGHT CAJA 20x180GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "737",
+      "nombre": "YOGUR C/ CEREALES DESC 18x164GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Batido"
+      }
+    },
+    {
+      "product_code": "736",
+      "nombre": "YOGUR C/ CEREALES ENTERO 18x164GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Batido"
+      }
+    },
+    {
+      "product_code": "133",
+      "nombre": "YOGUR CREM ENTERO DULCE LECHE 24x125GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Cremoso"
+      }
+    },
+    {
+      "product_code": "131",
+      "nombre": "YOGUR CREM ENTERO FRUTILLA 24x125GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Cremoso"
+      }
+    },
+    {
+      "product_code": "132",
+      "nombre": "YOGUR CREM ENTERO VAINILLA 24x125GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Cremoso"
+      }
+    },
+    {
+      "product_code": "134",
+      "nombre": "YOGUR CREM LIGHT FRUTILLA 18x125GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Cremoso"
+      }
+    },
+    {
+      "product_code": "136",
+      "nombre": "YOGUR CREM LIGHT VAINILLA 18x125GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Cremoso"
+      }
+    },
+    {
+      "product_code": "425",
+      "nombre": "YOGUR FRUTAS DESC ARANDANOS 24x160GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Batido"
+      }
+    },
+    {
+      "product_code": "143",
+      "nombre": "YOGUR FRUTAS DESC DURAZNO 24x160GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Batido"
+      }
+    },
+    {
+      "product_code": "141",
+      "nombre": "YOGUR FRUTAS DESCREMADO FRUTILLA 24x160GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Batido"
+      }
+    },
+    {
+      "product_code": "694",
+      "nombre": "YOGUR FRUTAS ENTERO ANANA 18x160GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Batido"
+      }
+    },
+    {
+      "product_code": "318",
+      "nombre": "YOGUR FRUTAS ENTERO ARANDANOS 24x160GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Entero"
+      }
+    },
+    {
+      "product_code": "139",
+      "nombre": "YOGUR FRUTAS ENTERO DURAZNO 24x160GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Entero"
+      }
+    },
+    {
+      "product_code": "138",
+      "nombre": "YOGUR FRUTAS ENTERO FRUTILLA 24x160GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Entero"
+      }
+    },
+    {
+      "product_code": "1077",
+      "nombre": "YOGUR FRUTAS ENTERO MANGO/MARACUYA 18x160GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Entero"
+      }
+    },
+    {
+      "product_code": "1262",
+      "nombre": "YOGUR NATURAL ENDULZADO CAJA 18x140GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Natural"
+      }
+    },
+    {
+      "product_code": "148",
+      "nombre": "YOGUR BEBIBLE DESC FRUTILLA 20x900GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Bebible"
+      }
+    },
+    {
+      "product_code": "149",
+      "nombre": "YOGUR BEBIBLE DESC VAINILLA 20x900GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Bebible"
+      }
+    },
+    {
+      "product_code": "144",
+      "nombre": "YOGUR BEBIBLE ENTERO FRUTILLA 18x900GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Bebible"
+      }
+    },
+    {
+      "product_code": "145",
+      "nombre": "YOGUR BEBIBLE ENTERO VAINILLA 18x900GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Bebible"
+      }
+    },
+    {
+      "product_code": "205",
+      "nombre": "QUESO BLANCO CLASICO 12x290GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "214",
+      "nombre": "QUESO BLANCO LIGHT 12x290GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "216",
+      "nombre": "QUESO CREMA CLASICO CAJA 12x190GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "311",
+      "nombre": "QUESO CREMA LIGHT CAJA 12x190GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "225",
+      "nombre": "QUESO MASCARPONE CAJA 12x200GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "31",
+      "nombre": "DULCE DE LECHE CLASICO 12x400GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Dulces",
+        "4": "Dulce de Leche Clasico"
+      }
+    },
+    {
+      "product_code": "B1",
+      "nombre": "Pan Semillas 600g ORO",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan de Semillas",
+        "3": "Pan Semillas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B2",
+      "nombre": "Pan Cereales 600g ORO",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan de Cereales",
+        "3": "Pan Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B3",
+      "nombre": "Pan Artesano semillas x 500gr BIM",
+      "tags": {
+        "1": "Pan Artesano",
+        "2": "Pan Artesano Semillas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B4",
+      "nombre": "Pan Artesano IN TEGRAL 500g BIM",
+      "tags": {
+        "1": "Pan Artesano",
+        "2": "Pan Artesano Integral",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B5",
+      "nombre": "Pan Artesano 500g BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B6",
+      "nombre": "Pan Liviano Acti Leche CP 400g BIM",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan Liviano",
+        "3": "Pan Liviano Acti Leche",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B7",
+      "nombre": "Pan Blanco 550g Bolsa BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B8",
+      "nombre": "Pan Semillado Lino 1p 400g BOLSA BIM",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan Semillado",
+        "3": "Pan Semillado Lino",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B9",
+      "nombre": "Pan Integral 400g BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Pan Integral",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B10",
+      "nombre": "Pan para Pancho Artesano 240g",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan",
+        "3": "Pan para Pancho",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B11",
+      "nombre": "Pan Hamb Artesano PAPA 240g BIM",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan Hamburguesa",
+        "3": "Pan Hamburguesa Artesano",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B12",
+      "nombre": "Pan Hamb Artesano 240g BIM",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan Hamburguesa",
+        "3": "Pan Hamburguesa Artesano",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B13",
+      "nombre": "Hamb Brioche Artesano 1p 240g BOLSA BIM",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan Brioche",
+        "3": "Pan Brioche Artesano",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B14",
+      "nombre": "Pan Panchos Acti Leche 210g BIM",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan para Hot Dog",
+        "3": "Pan Panchos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B15",
+      "nombre": "Pan Hamburguesa CS Acti Leche 210g BIM",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan Hamburguesa",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B16",
+      "nombre": "Rapiditas Clasicas 8p 220g BIM",
+      "tags": {
+        "1": "Panadería",
+        "2": "Rapiditas",
+        "3": "Rapiditas Clásicas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B17",
+      "nombre": "Rapiditas Integrales 8p 220g BIM",
+      "tags": {
+        "1": "Panadería",
+        "2": "Rapiditas",
+        "3": "Rapiditas Integrales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B18",
+      "nombre": "Rapiditas Light 8p 220g BIM",
+      "tags": {
+        "1": "Panadería",
+        "2": "Rapiditas",
+        "3": "Rapiditas Light",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B19",
+      "nombre": "Madalenas Choc Rell DDL 1p 180g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Madalenas",
+        "4": "Madalenas Chocolate Rellenas"
+      }
+    },
+    {
+      "product_code": "B20",
+      "nombre": "Madalenas Marmoladas 1p 200g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Madalenas",
+        "4": "Madalenas Marmoladas"
+      }
+    },
+    {
+      "product_code": "B21",
+      "nombre": "Madalena Vainilla 1p 200g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Madalenas",
+        "4": "Madalena Vainilla"
+      }
+    },
+    {
+      "product_code": "B22",
+      "nombre": "Madalenas Rellenas DDL 1p 180g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Madalenas",
+        "4": "Madalenas Rellenas"
+      }
+    },
+    {
+      "product_code": "B23",
+      "nombre": "Vainillas 1p 444g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Vainillas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B24",
+      "nombre": "Vainillas 1p 148g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Vainillas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "V1",
+      "nombre": "Madalenas Choco DDL 1p 180g FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Madalenas",
+        "4": "Madalenas de Chocolate"
+      }
+    },
+    {
+      "product_code": "V2",
+      "nombre": "Madalenas Chips Choco 1p 180g FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Madalenas",
+        "4": "Madalenas de Chips de Chocolate"
+      }
+    },
+    {
+      "product_code": "V3",
+      "nombre": "Madalenas Rellenas DDL 1p 180g FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Madalenas",
+        "4": "Madalenas Rellenas"
+      }
+    },
+    {
+      "product_code": "V4",
+      "nombre": "Madalenas Vainilla 1p 200g FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Madalenas",
+        "4": "Madalenas de Vainilla"
+      }
+    },
+    {
+      "product_code": "V5",
+      "nombre": "Madalenas Marmoladas 1p 200g FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Madalenas",
+        "4": "Madalenas Marmoladas"
+      }
+    },
+    {
+      "product_code": "V6",
+      "nombre": "Vainilla 1p 444g VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Vainillas",
+        "4": "Vainilla"
+      }
+    },
+    {
+      "product_code": "V7",
+      "nombre": "Vainilla 1p 148g VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Vainillas",
+        "4": "Vainilla"
+      }
+    },
+    {
+      "product_code": "V8",
+      "nombre": "Tarteletas chicas V 1p x 150 grs VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Tarteletas",
+        "4": "Tarteletas Chicas"
+      }
+    },
+    {
+      "product_code": "T1",
+      "nombre": "Salchichón Primavera",
+      "tags": {
+        "1": "Fiambres",
+        "2": "Salchichón",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "T2",
+      "nombre": "Fiambre cocido de Paleta mini (3.5kg)",
+      "tags": {
+        "1": "Fiambres",
+        "2": "Fiambre Cocido",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "T3",
+      "nombre": "Jamón cocido mini (3.5kg)",
+      "tags": {
+        "1": "Fiambres",
+        "2": "Jamón Cocido",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "T4",
+      "nombre": "Magrela - Mortadela",
+      "tags": {
+        "1": "Fiambres",
+        "2": "Mortadela",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "T5",
+      "nombre": "FET Salchichon Primavera Trozer",
+      "tags": {
+        "1": "Fiambres",
+        "2": "Salchichón",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "T6",
+      "nombre": "FET Mortadela Trozer",
+      "tags": {
+        "1": "Fiambres",
+        "2": "Mortadela",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "T7",
+      "nombre": "FET Fiambre cocido de Paleta Trozer",
+      "tags": {
+        "1": "Fiambres",
+        "2": "Fiambre Cocido",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "T8",
+      "nombre": "FET Jamón cocido Trozer",
+      "tags": {
+        "1": "Fiambres",
+        "2": "Jamón Cocido",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "T9",
+      "nombre": "FET Mortadela Magrela Magret",
+      "tags": {
+        "1": "Fiambres",
+        "2": "Mortadela",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "C1",
+      "nombre": "Barritas arroz x 12 - Chocolate",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barritas",
+        "4": "Barritas de Arroz con Chocolate"
+      }
+    },
+    {
+      "product_code": "Y44",
+      "nombre": "Poroto Negro",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Poroto Negro"
+      }
+    },
+    {
+      "product_code": "C2",
+      "nombre": "Barritas arroz x 12 - Chocolate Blanco",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barritas",
+        "4": "Barritas de Arroz con Chocolate Blanco"
+      }
+    },
+    {
+      "product_code": "C3",
+      "nombre": "Barritas arroz x 12 - Frutilla",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barritas",
+        "4": "Barritas de Arroz con Frutilla"
+      }
+    },
+    {
+      "product_code": "C4",
+      "nombre": "Barritas arroz x 12 - Limón",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barritas",
+        "4": "Barritas de Arroz con Limón"
+      }
+    },
+    {
+      "product_code": "C5",
+      "nombre": "Barritas arroz x 12 - Marroc con maní",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barritas",
+        "4": "Barritas de Arroz con Marroc"
+      }
+    },
+    {
+      "product_code": "C6",
+      "nombre": "Barritas arroz x 12 - Coco",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barritas",
+        "4": "Barritas de Arroz con Coco"
+      }
+    },
+    {
+      "product_code": "C7",
+      "nombre": "Snacks de arroz Crowie x 50 grs - Jamón Serrano",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks de Arroz",
+        "4": "Snacks de Arroz con Jamón Serrano"
+      }
+    },
+    {
+      "product_code": "C8",
+      "nombre": "Snacks de arroz Crowie x 50 grs - Pizza",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks de Arroz",
+        "4": "Snacks de Arroz con Pizza"
+      }
+    },
+    {
+      "product_code": "C9",
+      "nombre": "Snacks de arroz Crowie x 50 grs - Queso",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks de Arroz",
+        "4": "Snacks de Arroz con Queso"
+      }
+    },
+    {
+      "product_code": "C10",
+      "nombre": "Mini Bars x 50grs Chocolimon",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barritas",
+        "4": "Mini Bars"
+      }
+    },
+    {
+      "product_code": "Z1",
+      "nombre": "VIA VITA - Veggies tomate / remolacha & oliva x 50 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Proteínas Vegetales",
+        "3": "Vegetales Deshidratados",
+        "4": "Veggies Tomate Remolacha y Oliva"
+      }
+    },
+    {
+      "product_code": "Z2",
+      "nombre": "VIA VITA - Veggies garbanzos & finas hierbas x 50 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Proteínas Vegetales",
+        "3": "Vegetales Deshidratados",
+        "4": "Veggies Garbanzos y Finas Hierbas"
+      }
+    },
+    {
+      "product_code": "Z3",
+      "nombre": "VIA VITA - Chalitas Clásicas x 100 grs",
+      "tags": {
+        "1": "Galletas",
+        "2": "Chalitas Clásicas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Z4",
+      "nombre": "VIA VITA - Chalitas Chimichurri x 100 grs",
+      "tags": {
+        "1": "Galletas",
+        "2": "Chalitas Chimichurri",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Z5",
+      "nombre": "VIA VITA - Chalitas con Semillas x 100 grs",
+      "tags": {
+        "1": "Galletas",
+        "2": "Chalitas con Semillas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Z6",
+      "nombre": "VIA VITA - Chalitas Queso Parmesano x 100 grs",
+      "tags": {
+        "1": "Galletas",
+        "2": "Chalitas Queso Parmesano",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Z7",
+      "nombre": "VIA VITA - Chalitas Jamón x 100 grs",
+      "tags": {
+        "1": "Galletas",
+        "2": "Chalitas Jamón",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Z8",
+      "nombre": "VIA VITA - Galletitas Vainilla con canela x 200 grs",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletitas Vainilla con Canela",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Z9",
+      "nombre": "VIA VITA - Galletitas Limón x 200 grs",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletitas Limón",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Z10",
+      "nombre": "VIA VITA - Soft Cookies Vainilla con miel x 50 grs",
+      "tags": {
+        "1": "Galletas",
+        "2": "Soft Cookies Vainilla con Miel",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Z11",
+      "nombre": "VIA VITA - Soft Cookies Naranja con chips Chocolate x 50 grs",
+      "tags": {
+        "1": "Galletas",
+        "2": "Soft Cookies Naranja con Chips Chocolate",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Z12",
+      "nombre": "VIA VITA - Crackers Lino, Chía & Quinoa x 150 grs",
+      "tags": {
+        "1": "Galletas",
+        "2": "Crackers Lino Chía y Quinoa",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Z13",
+      "nombre": "VIA VITA - Crackers Quinoa sin sal x 150 grs",
+      "tags": {
+        "1": "Galletas",
+        "2": "Crackers Quinoa Sin Sal",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Z14",
+      "nombre": "MAITE - Mermelada Sin azúcar Durazno x 360 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Mermeladas",
+        "4": "Mermelada Sin Azúcar Durazno"
+      }
+    },
+    {
+      "product_code": "Z15",
+      "nombre": "MAITE - Mermelada Sin azúcar Higos x 360 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Mermeladas",
+        "4": "Mermelada Sin Azúcar Higos"
+      }
+    },
+    {
+      "product_code": "Z16",
+      "nombre": "MAITE - Mermelada Sin azúcar Frutilla x 360 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Mermeladas",
+        "4": "Mermelada Sin Azúcar Frutilla"
+      }
+    },
+    {
+      "product_code": "Z17",
+      "nombre": "MAITE - Mermelada Sin azúcar Arándanos x 360 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Mermeladas",
+        "4": "Mermelada Sin Azúcar Arándanos"
+      }
+    },
+    {
+      "product_code": "Z18",
+      "nombre": "MAITE - Dulce de Leche Sin azúcar x 260 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Dulces",
+        "4": "Dulce de Leche Sin Azúcar"
+      }
+    },
+    {
+      "product_code": "X1",
+      "nombre": "MAIXANAS - Nachos Maíz & Girasol x 98 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Nachos",
+        "4": "Nachos de Maíz y Girasol"
+      }
+    },
+    {
+      "product_code": "X2",
+      "nombre": "MAIXANAS - Nachos Maíz, Chía & Sal x 98 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Nachos",
+        "4": "Nachos de Maíz, Chía y Sal"
+      }
+    },
+    {
+      "product_code": "X3",
+      "nombre": "MAIXANAS - Nachos Maíz Morado x 95 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Nachos",
+        "4": "Nachos de Maíz Morado"
+      }
+    },
+    {
+      "product_code": "X4",
+      "nombre": "MAIXANAS - Nachos Humus x 95 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Nachos",
+        "4": "Nachos de Humus"
+      }
+    },
+    {
+      "product_code": "X5",
+      "nombre": "MAIXANAS - Nachos Guacamole x 95 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Nachos",
+        "4": "Nachos de Guacamole"
+      }
+    },
+    {
+      "product_code": "X6",
+      "nombre": "MAIXANAS - Frijoles Negros & Lino x 95 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Nachos",
+        "4": "Nachos de Frijoles Negros y Lino"
+      }
+    },
+    {
+      "product_code": "X7",
+      "nombre": "ANTOJITOS - Nacho Mexicano x 100 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Antojitos",
+        "4": "Antojitos Nacho Mexicano"
+      }
+    },
+    {
+      "product_code": "X8",
+      "nombre": "ANTOJITOS - Nacho Cheddar x 95 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Antojitos",
+        "4": "Antojitos Nacho Cheddar"
+      }
+    },
+    {
+      "product_code": "X9",
+      "nombre": "ANTOJITOS - Nacho Panceta x 95 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Antojitos",
+        "4": "Antojitos Nacho Panceta"
+      }
+    },
+    {
+      "product_code": "Y1",
+      "nombre": "PREPIZZAS X2 PANNITOS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Pizzas",
+        "4": "Prepizzas Pannitos"
+      }
+    },
+    {
+      "product_code": "Y2",
+      "nombre": "PREPIZZA PANNITOS X5 UNIDADES",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Pizzas",
+        "4": "Prepizzas Pannitos"
+      }
+    },
+    {
+      "product_code": "Y3",
+      "nombre": "PAN DE HAMBURGUESAS X4 UNIDADES MAX CON QUESO",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y4",
+      "nombre": "PAN DE PAPA X12 CM DE DIAMETRO POR UNIDAD",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y5",
+      "nombre": "PAN DE LOMO X 22.5 CM DE LARGO POR UNIDAD",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y6",
+      "nombre": "PAN DE HAMBURGUESA VIENA CON QUESO POR UNIDAD",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y7",
+      "nombre": "Risotto Napolitano",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Risotto",
+        "4": "Risotto Napolitano"
+      }
+    },
+    {
+      "product_code": "Y8",
+      "nombre": "Risotto al Pesto",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Risotto",
+        "4": "Risotto al Pesto"
+      }
+    },
+    {
+      "product_code": "Y9",
+      "nombre": "Burgol Oriental",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Burgol Oriental"
+      }
+    },
+    {
+      "product_code": "Y10",
+      "nombre": "Polenta Mediterránea",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Polenta Mediterránea"
+      }
+    },
+    {
+      "product_code": "Y11",
+      "nombre": "Sopa Thai",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y12",
+      "nombre": "Cous Cous Marroquí",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Cous Cous Marroquí"
+      }
+    },
+    {
+      "product_code": "Y13",
+      "nombre": "Caldo Natural de Verduras",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Caldo",
+        "4": "Caldo Natural de Verduras"
+      }
+    },
+    {
+      "product_code": "Y14",
+      "nombre": "Rebozador Natural todo en uno",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y15",
+      "nombre": "Premezcla Falafel",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Premezcla Falafel"
+      }
+    },
+    {
+      "product_code": "Y16",
+      "nombre": "Bolitas de Lentejas sabor barbacoa",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Bolitas de Lentejas Sabor Barbacoa",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y17",
+      "nombre": "Torrejas de Arvejas y Espinaca",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Torrejas de Arvejas y Espinaca",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y18",
+      "nombre": "Nuggets de Poroto negro a la mostaza",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Nuggets de Poroto Negro a la Mostaza",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y19",
+      "nombre": "Croquetas de Arroz Caprese",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Croquetas de Arroz Caprese",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y20",
+      "nombre": "Poroto Aduki",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Porotos Secos",
+        "4": "Poroto Aduki"
+      }
+    },
+    {
+      "product_code": "Y21",
+      "nombre": "Poroto Alubia",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Porotos Secos",
+        "4": "Poroto Alubia"
+      }
+    },
+    {
+      "product_code": "Y22",
+      "nombre": "Semillas Amaranto",
+      "tags": {
+        "1": "Almacén",
+        "2": "Semillas y Granos",
+        "3": "Semillas",
+        "4": "Semillas de Amaranto"
+      }
+    },
+    {
+      "product_code": "Y23",
+      "nombre": "Arroz Integral",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "Y24",
+      "nombre": "Arroz Koshi",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "Y25",
+      "nombre": "Arroz Parboil",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "Y26",
+      "nombre": "Arroz Salvaje Negro",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "Y27",
+      "nombre": "Arvejas Partidas",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Arvejas Partidas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y28",
+      "nombre": "Carne Vegetal",
+      "tags": {
+        "1": "Almacén",
+        "2": "Proteínas Vegetales",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y29",
+      "nombre": "Chia",
+      "tags": {
+        "1": "Almacén",
+        "2": "Semillas y Granos",
+        "3": "Semillas",
+        "4": "Chia"
+      }
+    },
+    {
+      "product_code": "Y30",
+      "nombre": "Chips de banana",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Frutas Deshidratadas",
+        "4": "Chips de Banana"
+      }
+    },
+    {
+      "product_code": "Y31",
+      "nombre": "Cous Cous",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Cous Cous Marroquí"
+      }
+    },
+    {
+      "product_code": "Y32",
+      "nombre": "Garbanzos",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Garbanzos"
+      }
+    },
+    {
+      "product_code": "Y33",
+      "nombre": "Hongos de Pino",
+      "tags": {
+        "1": "Almacén",
+        "2": "Hongos",
+        "3": "Hongos Secos",
+        "4": "Hongos de Pino"
+      }
+    },
+    {
+      "product_code": "Y34",
+      "nombre": "Lentejas",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Lentejas"
+      }
+    },
+    {
+      "product_code": "Y35",
+      "nombre": "Lentejas Turcas",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Lentejas Turcas"
+      }
+    },
+    {
+      "product_code": "Y36",
+      "nombre": "Maiz Blanco",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Maiz Blanco"
+      }
+    },
+    {
+      "product_code": "Y37",
+      "nombre": "Maiz Frito",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maiz",
+        "4": "Maiz Frito"
+      }
+    },
+    {
+      "product_code": "Y38",
+      "nombre": "Maiz Pisingallo",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Maiz Pisingallo"
+      }
+    },
+    {
+      "product_code": "Y39",
+      "nombre": "Mijo",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Mijo"
+      }
+    },
+    {
+      "product_code": "Y40",
+      "nombre": "Mix Fusion: Arroz, Quinoa, Lenteja",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Mezclas de Granos",
+        "4": "Mix Fusion"
+      }
+    },
+    {
+      "product_code": "Y41",
+      "nombre": "Mix Semillas",
+      "tags": {
+        "1": "Almacén",
+        "2": "Semillas y Granos",
+        "3": "Semillas",
+        "4": "Mix Semillas"
+      }
+    },
+    {
+      "product_code": "Y42",
+      "nombre": "Porotos Mung",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Porotos Mung"
+      }
+    },
+    {
+      "product_code": "Y43",
+      "nombre": "Poroto de Soja",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Poroto de Soja"
+      }
+    },
+    {
+      "product_code": "Y45",
+      "nombre": "Quinoa",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Quinoa"
+      }
+    },
+    {
+      "product_code": "Y46",
+      "nombre": "Rebozador Natural",
+      "tags": {
+        "1": "Rebozadores",
+        "2": "Rebozador Natural",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y47",
+      "nombre": "Semillas de Girasol",
+      "tags": {
+        "1": "Almacén",
+        "2": "Semillas y Granos",
+        "3": "Semillas",
+        "4": "Semillas de Girasol"
+      }
+    },
+    {
+      "product_code": "Y48",
+      "nombre": "Semillas de Sesamo",
+      "tags": {
+        "1": "Almacén",
+        "2": "Semillas y Granos",
+        "3": "Semillas",
+        "4": "Semillas de Sesamo"
+      }
+    },
+    {
+      "product_code": "Y49",
+      "nombre": "Semillas de Zapallo",
+      "tags": {
+        "1": "Almacén",
+        "2": "Semillas y Granos",
+        "3": "Semillas",
+        "4": "Semillas de Zapallo"
+      }
+    },
+    {
+      "product_code": "Y50",
+      "nombre": "Trigo Burgol",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Trigo Burgol"
+      }
+    },
+    {
+      "product_code": "Y51",
+      "nombre": "Trigo Candeal",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Trigo Candeal"
+      }
+    },
+    {
+      "product_code": "Y52",
+      "nombre": "Trigo Sarraceno",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Trigo Sarraceno"
+      }
+    },
+    {
+      "product_code": "Y53",
+      "nombre": "Arroz Yamani",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz Yamani"
+      }
+    },
+    {
+      "product_code": "R1",
+      "nombre": "Pepas 12 paq x 400g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Saladas",
+        "3": "Pepas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R2",
+      "nombre": "Scons 12 paq x 400g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Saladas",
+        "3": "Scons",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R3",
+      "nombre": "Sol de Coco 12 paq x 400g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Sol de Coco",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R4",
+      "nombre": "Choco Mix 12 paq x 350g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Choco Mix",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R5",
+      "nombre": "Pepa Nevada 12 paq x 350g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Pepa Nevada",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R6",
+      "nombre": "Pepa Choco 12 paq x 350g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Pepa Choco",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R7",
+      "nombre": "Rubias azuca 12 x 400g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Saladas",
+        "3": "Rubias Azucaradas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R8",
+      "nombre": "Morenas azuca 12 x 400g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Saladas",
+        "3": "Morenas Azucaradas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R9",
+      "nombre": "Bonitas  C/Choco 12 x 350g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Bonitas C/Choco",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R10",
+      "nombre": "Anillito Vainilla Azucarado 12 x 400g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Anillito Vainilla Azucarado",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R11",
+      "nombre": "Anillito limon Azucarado 12 x 400g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Anillito Limón Azucarado",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R12",
+      "nombre": "Anillito Coco Azucarado 12 x 400g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Anillito Coco Azucarado",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R13",
+      "nombre": "Anillito Coco Azucarado 12 x 400g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Anillito Coco Azucarado",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R14",
+      "nombre": "COOKIES CHOCO CHIP X250",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Cookies Choco Chip",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R15",
+      "nombre": "COOKIES MANI CHIP X250",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Cookies Maní Chip",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "R16",
+      "nombre": "Pepas 25 paq x 180g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Saladas",
+        "3": "Pepas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "M1",
+      "nombre": "Tostadas de mesa 200 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tostadas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "M2",
+      "nombre": "Tostadas dulces 200 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tostadas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "M3",
+      "nombre": "Tostadas light 200 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tostadas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "M4",
+      "nombre": "Tostadas sin sal 200 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tostadas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "M5",
+      "nombre": "Tostadas salvado 200 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tostadas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "M6",
+      "nombre": "Tostadas cereales y semillas 200 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tostadas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "M7",
+      "nombre": "Tostadas integrales 200gr",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tostadas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "M8",
+      "nombre": "Aceto Reducción ORIGINAL  250ml",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Vinagres",
+        "4": "Aceto Reducción Original"
+      }
+    },
+    {
+      "product_code": "M9",
+      "nombre": "Aceto Reducción FRUTOS DEL BOSQUE  250ml",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Vinagres",
+        "4": "Aceto Reducción Frutos del Bosque"
+      }
+    },
+    {
+      "product_code": "M10",
+      "nombre": "Aceto Reducción LIMON  250ml",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Vinagres",
+        "4": "Aceto Reducción Limón"
+      }
+    },
+    {
+      "product_code": "M11",
+      "nombre": "Aceto Reducción MANZANA  250ml",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Vinagres",
+        "4": "Aceto Reducción Manzana"
+      }
+    },
+    {
+      "product_code": "M12",
+      "nombre": "Jugo de limón 250ml",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Limón"
+      }
+    },
+    {
+      "product_code": "M13",
+      "nombre": "Jugo de limón  500ml",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Limón"
+      }
+    },
+    {
+      "product_code": "M14",
+      "nombre": "Jugo de limón  1L",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Limón"
+      }
+    },
+    {
+      "product_code": "M15",
+      "nombre": "Salsa de Soja Tradicional  250ml",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Salsas",
+        "4": "Salsa de Soja Tradicional"
+      }
+    },
+    {
+      "product_code": "M16",
+      "nombre": "Aceite de girasol en AEROSOL  120g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceites en Aerosol",
+        "4": "Aceite de Girasol en Aerosol"
+      }
+    },
+    {
+      "product_code": "M17",
+      "nombre": "Aceite de oliva extra virgen Clásico  250ml",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceites de Oliva",
+        "4": "Aceite de Oliva Extra Virgen Clásico"
+      }
+    },
+    {
+      "product_code": "M18",
+      "nombre": "Aceite de oliva extra virgen Selecto  250ml",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceites de Oliva",
+        "4": "Aceite de Oliva Extra Virgen Selecto"
+      }
+    },
+    {
+      "product_code": "M19",
+      "nombre": "Mayonesa Sabor Original - Libre de Gluten sin TACC*  100cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Salsas",
+        "4": "Mayonesa Sabor Original"
+      }
+    },
+    {
+      "product_code": "M20",
+      "nombre": "Mayonesa Sabor Original - Libre de Gluten sin TACC  250cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Salsas",
+        "4": "Mayonesa Sabor Original"
+      }
+    },
+    {
+      "product_code": "M21",
+      "nombre": "Mostaza Sabor Original - Libre de Gluten sin TACC*  60g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Salsas",
+        "4": "Mostaza Sabor Original"
+      }
+    },
+    {
+      "product_code": "M22",
+      "nombre": "Mostaza Sabor Original - Libre de Gluten sin TACC  250g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Salsas",
+        "4": "Mostaza Sabor Original"
+      }
+    },
+    {
+      "product_code": "W1",
+      "nombre": "AVE MARIA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Ave María"
+      }
+    },
+    {
+      "product_code": "W2",
+      "nombre": "DEDALITOS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Dedalitos"
+      }
+    },
+    {
+      "product_code": "W3",
+      "nombre": "MOSTACHOLES",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Mostacholes"
+      }
+    },
+    {
+      "product_code": "W4",
+      "nombre": "TIRABUZON",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Tirabuzón al Huevo"
+      }
+    },
+    {
+      "product_code": "W5",
+      "nombre": "CODOS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Codos"
+      }
+    },
+    {
+      "product_code": "W6",
+      "nombre": "MOÑOS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Moños"
+      }
+    },
+    {
+      "product_code": "W7",
+      "nombre": "MOÑITOS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Moñitos al Huevo"
+      }
+    },
+    {
+      "product_code": "W8",
+      "nombre": "MOÑITOS COLOR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Moñitos Color"
+      }
+    },
+    {
+      "product_code": "W9",
+      "nombre": "MOÑOS COLOR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Moños Color"
+      }
+    },
+    {
+      "product_code": "W10",
+      "nombre": "CORBATAS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Corbatas"
+      }
+    },
+    {
+      "product_code": "W11",
+      "nombre": "TIRABUZON AL HUEVO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Tirabuzón al Huevo"
+      }
+    },
+    {
+      "product_code": "W12",
+      "nombre": "TIRABUZON TRISABOR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Tirabuzón Trisabor"
+      }
+    },
+    {
+      "product_code": "W13",
+      "nombre": "MOSTACHOL TRISABOR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Mostachol Trisabor"
+      }
+    },
+    {
+      "product_code": "W14",
+      "nombre": "MOÑO AL HUEVO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Moño al Huevo"
+      }
+    },
+    {
+      "product_code": "W15",
+      "nombre": "MOÑITOS AL HUEVO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Moñitos al Huevo"
+      }
+    },
+    {
+      "product_code": "W16",
+      "nombre": "TALLARIES AL HUEVO N2",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Tallarines al Huevo N2"
+      }
+    },
+    {
+      "product_code": "W17",
+      "nombre": "TALLARINES ESPINACA N2",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Tallarines Espinaca N2"
+      }
+    },
+    {
+      "product_code": "W18",
+      "nombre": "TALLARINES MORRON N2",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Tallarines Morron N2"
+      }
+    },
+    {
+      "product_code": "W19",
+      "nombre": "CABELLO DE ANGEL AL HUEVO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Cabello de Ángel al Huevo"
+      }
+    },
+    {
+      "product_code": "W20",
+      "nombre": "CINTA ARGENTINA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Cinta Argentina"
+      }
+    },
+    {
+      "product_code": "W21",
+      "nombre": "NIDO N1",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Nido N1"
+      }
+    },
+    {
+      "product_code": "N22",
+      "nombre": "LA LECHERA 12X400",
+      "tags": {
+        "1": "Almacén",
+        "2": "Leches",
+        "3": "Leches Condensadas",
+        "4": "Leche Condensada"
+      }
+    },
+    {
+      "product_code": "W22",
+      "nombre": "NIDON2",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Nido N2"
+      }
+    },
+    {
+      "product_code": "W23",
+      "nombre": "NIDO N3",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Nido N3"
+      }
+    },
+    {
+      "product_code": "W24",
+      "nombre": "NIDO ESPINACA N2",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Nido Espinaca N2"
+      }
+    },
+    {
+      "product_code": "W25",
+      "nombre": "NIDO MORRON N2",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Nido Morron N2"
+      }
+    },
+    {
+      "product_code": "W26",
+      "nombre": "SPAGETTI INTEGRAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Spaghetti Integral"
+      }
+    },
+    {
+      "product_code": "G1",
+      "nombre": "ACEITUNAS VERDES RICO GUSTO SACHET X 100 GRS. (x30)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Verdes"
+      }
+    },
+    {
+      "product_code": "G2",
+      "nombre": "NUECES PELADAS Bolsita x 100 grs (x20)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Nueces",
+        "4": "Nueces Peladas"
+      }
+    },
+    {
+      "product_code": "G3",
+      "nombre": "ESENCIA DE VAINILLA x 35 cc (x12)",
+      "tags": {
+        "1": "Esencias",
+        "2": "Esencia de Vainilla",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "G4",
+      "nombre": "ESENCIA DE VAINILLA x 110 cc. (x12)",
+      "tags": {
+        "1": "Esencias",
+        "2": "Esencia de Vainilla",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "G5",
+      "nombre": "FÉCULA DE MAÍZ Paquete x 200 Grs. (x20)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Fécula de Maíz"
+      }
+    },
+    {
+      "product_code": "G6",
+      "nombre": "AZÚCAR IMPALPABLE 500 g",
+      "tags": {
+        "1": "Azúcares",
+        "2": "Azúcar Impalpable",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "G7",
+      "nombre": "PASAS DE UVA SIN SEMILLAS  Paquete x 100 Grs. (x30)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Frutas Secas"
+      }
+    },
+    {
+      "product_code": "G8",
+      "nombre": "MANI PELADO SALADO POTE x 200 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Pelado Salado"
+      }
+    },
+    {
+      "product_code": "G9",
+      "nombre": "MANÍ PELADO TOSTADO SIN SAL POTE x 200 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Pelado Tostado"
+      }
+    },
+    {
+      "product_code": "G10",
+      "nombre": "MANI CROCANTE SABOR CLÁSICO x 200 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Crocante Sabor Clásico"
+      }
+    },
+    {
+      "product_code": "G11",
+      "nombre": "MANI CROCANTE SABOR JAMÓN x 200 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Crocante Sabor Jamón"
+      }
+    },
+    {
+      "product_code": "G12",
+      "nombre": "MANI CROCANTE SABOR QUESO x 200 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Crocante Sabor Queso"
+      }
+    },
+    {
+      "product_code": "G13",
+      "nombre": "MANI CROCANTE SABOR PIZZA x 200 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Crocante Sabor Pizza"
+      }
+    },
+    {
+      "product_code": "G14",
+      "nombre": "MANI CROCANTE SABOR SALAME x 200 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Crocante Sabor Salame"
+      }
+    },
+    {
+      "product_code": "G15",
+      "nombre": "MANÍ PELADO SALADO Bolsita x 100 grs (x30)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Pelado Salado"
+      }
+    },
+    {
+      "product_code": "G16",
+      "nombre": "MANÍ PELADO SALADO DAN JUL BOLSA LAMINADO x 1 KG.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Pelado Salado"
+      }
+    },
+    {
+      "product_code": "G17",
+      "nombre": "MANÍ PELADO TOSTADO SIN SAL DAN JUL BOLSA LAMINADO x 1 KG.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Pelado Tostado"
+      }
+    },
+    {
+      "product_code": "G18",
+      "nombre": "MANÍ CROCANTE (PIZZA,JAMON,SALAME,QUESO)DJ BOLSA NYLON x 1 KG.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní Crocante Variado"
+      }
+    },
+    {
+      "product_code": "G19",
+      "nombre": "MANÍ CON CÁSCARA TOSTADO DJ BOLSA NYLON x 1 KG.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Maní",
+        "4": "Maní con Cáscara Tostado"
+      }
+    },
+    {
+      "product_code": "G20",
+      "nombre": "MAÍZ PISINGALLO x 400 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Maíz"
+      }
+    },
+    {
+      "product_code": "G21",
+      "nombre": "POROTOS ALUBIA x 500 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Porotos Secos",
+        "4": "Porotos Negros"
+      }
+    },
+    {
+      "product_code": "G22",
+      "nombre": "LENTEJAS x 500 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Lentejas"
+      }
+    },
+    {
+      "product_code": "G23",
+      "nombre": "SOJA x 500 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Soja",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "G24",
+      "nombre": "MAÍZ MOLIDO BLANCO x 500 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Maíz"
+      }
+    },
+    {
+      "product_code": "G25",
+      "nombre": "AVENA ARROLLADA x 400 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Avena"
+      }
+    },
+    {
+      "product_code": "G26",
+      "nombre": "HARINA DE MAIZ COCCION RAPIDA x 500 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Maíz"
+      }
+    },
+    {
+      "product_code": "G27",
+      "nombre": "HARINA DE MAIZ x 500 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Maíz"
+      }
+    },
+    {
+      "product_code": "G28",
+      "nombre": "ÉMOLA DE TRIGO x 500 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Trigo"
+      }
+    },
+    {
+      "product_code": "G29",
+      "nombre": "GARBANZOS x 500 GRS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Garbanzos"
+      }
+    },
+    {
+      "product_code": "G30",
+      "nombre": "JUGO GENY NARANJA BOTELLA PET x 1500 CC.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Naranja"
+      }
+    },
+    {
+      "product_code": "G31",
+      "nombre": "JUGO GENY DURAZNO BOTELLA PET x 1500 CC.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Durazno"
+      }
+    },
+    {
+      "product_code": "G32",
+      "nombre": "JUGO GENY LIMON BOTELLA PET x 1500 CC.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Limón"
+      }
+    },
+    {
+      "product_code": "G33",
+      "nombre": "JUGO GENY NARANJA BIDÓN x 3 LTS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Naranja Bidón"
+      }
+    },
+    {
+      "product_code": "G34",
+      "nombre": "JUGO GENY DURAZNO BIDÓN x 3 LTS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Durazno Bidón"
+      }
+    },
+    {
+      "product_code": "G35",
+      "nombre": "JUGO GENY LIMON BIDÓN x 3 LTS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Limón Bidón"
+      }
+    },
+    {
+      "product_code": "G36",
+      "nombre": "JUGO GENY NARANJA BIDÓN x 5 LTS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Naranja Bidón"
+      }
+    },
+    {
+      "product_code": "G37",
+      "nombre": "JUGO GENY DURAZNO BIDÓN x 5 LTS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Durazno Bidón"
+      }
+    },
+    {
+      "product_code": "G38",
+      "nombre": "JUGO GENY LIMON BIDÓN x 5 LTS.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Limón Bidón"
+      }
+    },
+    {
+      "product_code": "G39",
+      "nombre": "JUGO GENY NARANJA BOTELLA VIDRIO 910 CC",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Naranja Botella"
+      }
+    },
+    {
+      "product_code": "G40",
+      "nombre": "JUGO GENY DURAZNO BOTELLA VIDRIO 910 CC",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Durazno Botella"
+      }
+    },
+    {
+      "product_code": "G41",
+      "nombre": "JUGO GENY GRANADINA BOTELLA VIDRIO 910 CC",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo de Granadina"
+      }
+    },
+    {
+      "product_code": "G42",
+      "nombre": "REFRESCO GRANADINA CARLIMAR BOTELLA x 1 L.",
+      "tags": {
+        "1": "Refrescos",
+        "2": "Refresco Granadina",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I1",
+      "nombre": "207- EMPANADAS FREIR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I2",
+      "nombre": "208- EMPANADAS HORNO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I3",
+      "nombre": "209- EMPANADAS CRIOLLAS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I4",
+      "nombre": "211- MASA PASCUALINAS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Masa",
+        "4": "Masa Pascualina"
+      }
+    },
+    {
+      "product_code": "I5",
+      "nombre": "215- TALLARINES FINO FRESCOS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I6",
+      "nombre": "214-TALLARINES CINTA FRESCOS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I7",
+      "nombre": "224- ÑOQUIS X 500 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I8",
+      "nombre": "218- RAVIOLES 4 QUESOS X 500 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I9",
+      "nombre": "219- RAVIOLES POLLO Y ESPINACA X 500 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I10",
+      "nombre": "220- RAVIOLES JAMÓN Y MOZARRELLA X 500 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I11",
+      "nombre": "216- CAPELLETTIS CARNE X 500 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I12",
+      "nombre": "212-CAPELLETTIS JAMON Y MOZARELLA X 500 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I13",
+      "nombre": "200-RAVIOLES POLLO Y ESPINACA X 1 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I14",
+      "nombre": "203-RAVIOLES JAMON Y MOZZARELLA X 1KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I15",
+      "nombre": "210-RAVIOLES 4 Q X1KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "I16",
+      "nombre": "213-TAPAS ARABES",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Tapas",
+        "4": "Tapas Árabes"
+      }
+    },
+    {
+      "product_code": "N1",
+      "nombre": "NESQUIK POLVO CHOCOL. 18X180G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Cereales en Polvo"
+      }
+    },
+    {
+      "product_code": "N2",
+      "nombre": "NESCAFE CLASICO 6X100G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Café",
+        "3": "Café Instantáneo",
+        "4": "Café Clásico"
+      }
+    },
+    {
+      "product_code": "N3",
+      "nombre": "NESCAFE CLASICO DOYPACK 12X170G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Café",
+        "3": "Café Instantáneo",
+        "4": "Café Clásico Doypack"
+      }
+    },
+    {
+      "product_code": "N4",
+      "nombre": "NESCAFE DOLCA MAS AROMA 6X100G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Café",
+        "3": "Café Instantáneo",
+        "4": "Café Dolca Más Aroma"
+      }
+    },
+    {
+      "product_code": "N5",
+      "nombre": "NESCAFE DOLCA MAS AROMA 6X50G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Café",
+        "3": "Café Instantáneo",
+        "4": "Café Dolca Más Aroma"
+      }
+    },
+    {
+      "product_code": "N6",
+      "nombre": "NESCAFE DOLCA MS AROMA DOYPACK 12X170G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Café",
+        "3": "Café Instantáneo",
+        "4": "Café Dolca Más Aroma Doypack"
+      }
+    },
+    {
+      "product_code": "N7",
+      "nombre": "NESCAFE DOLCA SUAVE DOYPACK 12X170G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Café",
+        "3": "Café Instantáneo",
+        "4": "Café Dolca Suave Doypack"
+      }
+    },
+    {
+      "product_code": "N8",
+      "nombre": "NESCAFE DOLCA SUAVE  6X50G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Café",
+        "3": "Café Instantáneo",
+        "4": "Café Dolca Suave Doypack"
+      }
+    },
+    {
+      "product_code": "N9",
+      "nombre": "NESCAFE DOLCA SUAVE 6X100G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Café",
+        "3": "Café Instantáneo",
+        "4": "Café Dolca Suave Doypack"
+      }
+    },
+    {
+      "product_code": "N10",
+      "nombre": "CRUNCH CHOCOLATE 4(14X90G) BR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletitas Saladas",
+        "4": "Crunch Chocolate"
+      }
+    },
+    {
+      "product_code": "N11",
+      "nombre": "BATON BLANCO 32(30X16G)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barras de Chocolate",
+        "4": "Baton Blanco"
+      }
+    },
+    {
+      "product_code": "N12",
+      "nombre": "BATON LECHE 32(30X16G)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barras de Chocolate",
+        "4": "Baton Leche"
+      }
+    },
+    {
+      "product_code": "N13",
+      "nombre": "KIT KAT 4 FINGER DARK 4(24X41,5G)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barras de Chocolate",
+        "4": "Kit Kat Dark"
+      }
+    },
+    {
+      "product_code": "N14",
+      "nombre": "KIT KAT 4 FINGER LECHE 4(24X41,5G)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barras de Chocolate",
+        "4": "Kit Kat Leche"
+      }
+    },
+    {
+      "product_code": "N15",
+      "nombre": "KIT KAT 4 FINGER WHITE 4(24X41,5G)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barras de Chocolate",
+        "4": "Kit Kat White"
+      }
+    },
+    {
+      "product_code": "N16",
+      "nombre": "NESTLE DOLCA BANANITA GRANDE 12(16X30G)N1 AR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barras de Chocolate",
+        "4": "Nestlé Dolca Bananita Grande"
+      }
+    },
+    {
+      "product_code": "N17",
+      "nombre": "NESTLE DOLCA NV BANANITA CHICA 36(15X14G)AR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barras de Chocolate",
+        "4": "Nestlé Dolca Bananita Chica"
+      }
+    },
+    {
+      "product_code": "N18",
+      "nombre": "SUFLAIR CHOCOLATE LECHE 12(20X50G)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletitas Saladas",
+        "4": "Suflair Chocolate Leche"
+      }
+    },
+    {
+      "product_code": "N19",
+      "nombre": "MAGGI CALDO  VERDURAS (12u) 60X114G N3 XR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Caldo",
+        "4": "Caldo en Cubos"
+      }
+    },
+    {
+      "product_code": "N20",
+      "nombre": "MAGGI PURE DE PAPAS CREMOSO 12X125G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Purés",
+        "3": "Purés Instantáneos",
+        "4": "Purés de Papas"
+      }
+    },
+    {
+      "product_code": "N21",
+      "nombre": "MAGGI REBOZADOR 12X350G",
+      "tags": {
+        "1": "Almacén",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "N23",
+      "nombre": "NESTLE LECHE CONDENSADA TETRA TOP AR 24X395G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Leches",
+        "3": "Leches Condensadas",
+        "4": "Leche Condensada Tetra Top"
+      }
+    },
+    {
+      "product_code": "Q1",
+      "nombre": "BIZCOCHOS x 500 g.",
+      "tags": {
+        "1": "Almacén",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Q2",
+      "nombre": "BIZC. AZUCARADOS x 500 g.",
+      "tags": {
+        "1": "Bizcochos",
+        "2": "Bizcochos Azucarados",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Q3",
+      "nombre": "BIZCOCHOS LIGHT x 500 g.",
+      "tags": {
+        "1": "Bizcochos",
+        "2": "Bizcochos Light",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Q4",
+      "nombre": "BIZCOCHOS x 205 g.",
+      "tags": {
+        "1": "Almacén",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Q5",
+      "nombre": "BIZC. AZUCARADOS x 205 g.",
+      "tags": {
+        "1": "Bizcochos",
+        "2": "Bizcochos Azucarados",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Q6",
+      "nombre": "BIZCOCHOS LIGHT x 205 g.",
+      "tags": {
+        "1": "Bizcochos",
+        "2": "Bizcochos Light",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "146",
+      "nombre": "YOGUR BEBIBLE ENTERO DURAZNO 18x900GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Bebible"
+      }
+    },
+    {
+      "product_code": "147",
+      "nombre": "YOGUR BEBIBLE ENTERO ARANDANOS 18x900GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Bebible"
+      }
+    },
+    {
+      "product_code": "01",
+      "nombre": "Operaciones Logísticas Enero 2025",
+      "tags": {
+        "1": "Almacén",
+        "2": "Operaciones Logísticas",
+        "3": "Informes",
+        "4": "Informe Logístico"
+      }
+    },
+    {
+      "product_code": "F1",
+      "nombre": "JAMON CRUDO C/HUESO-12 MESES DOINA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Jamon Crudo con Hueso"
+      }
+    },
+    {
+      "product_code": "F2",
+      "nombre": "JAMON CRUDO S/HUESO-12 MESES -TIPO IBERICO-DOINA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Jamon Crudo sin Hueso"
+      }
+    },
+    {
+      "product_code": "F3",
+      "nombre": "BONDIOLA CURADA -DOINA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Bondiola Curada"
+      }
+    },
+    {
+      "product_code": "F4",
+      "nombre": "LOMO CURADO-DOINA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Lomo Curado"
+      }
+    },
+    {
+      "product_code": "F5",
+      "nombre": "PANCETA SALADA-DOINA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Panceta Salada"
+      }
+    },
+    {
+      "product_code": "F6",
+      "nombre": "PANCETA AHUMADA DOINA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Panceta Ahumada"
+      }
+    },
+    {
+      "product_code": "F7",
+      "nombre": "SALAME DE CERDO -150grs para feteado",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Salame de Cerdo"
+      }
+    },
+    {
+      "product_code": "F8",
+      "nombre": "SALAME FUET-picado fino-150gr peso exacto",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Salame Fuet"
+      }
+    },
+    {
+      "product_code": "F9",
+      "nombre": "JAMON CRUDO 12 MESES X120GR FET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Jamon Crudo con Hueso"
+      }
+    },
+    {
+      "product_code": "F10",
+      "nombre": "BONDIOLA CURADA X120GR FET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Bondiola Curada"
+      }
+    },
+    {
+      "product_code": "F11",
+      "nombre": "LOMO CURADO X120GR FET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Lomo Curado"
+      }
+    },
+    {
+      "product_code": "F12",
+      "nombre": "SALAME DE CERDO X120GR FET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Salame de Cerdo"
+      }
+    },
+    {
+      "product_code": "F13",
+      "nombre": "PANCETA AHUMADA X120GR FET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Panceta Ahumada"
+      }
+    },
+    {
+      "product_code": "F14",
+      "nombre": "CAJA DE REGALO -Jamon c/hueso, soporte y cuchillo",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Caja de Regalo de Jamón"
+      }
+    },
+    {
+      "product_code": "F15",
+      "nombre": "BACON BREAKFAST FET 150G C.AUSTRAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Bacon"
+      }
+    },
+    {
+      "product_code": "F16",
+      "nombre": "JAMON COCIDO FET AV 200G. C.AUSTRAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Jamon Cocido Feteado"
+      }
+    },
+    {
+      "product_code": "F17",
+      "nombre": "AMON COC MILL FET AV 200G C.AUSTRAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Jamon Cocido Mill"
+      }
+    },
+    {
+      "product_code": "F18",
+      "nombre": "FIAMBRE PALETA FET AV 200G. C.AUSTRAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Fiambre de Paleta"
+      }
+    },
+    {
+      "product_code": "F19",
+      "nombre": "BONDIOLA FETEADA AV 150GRS. C. AUSTRAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Bondiola Feteada"
+      }
+    },
+    {
+      "product_code": "F20",
+      "nombre": "PECHUGA DE PAVO FET AV 150GRS C. AUSTRAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Pechuga de Pavo Feteada"
+      }
+    },
+    {
+      "product_code": "F21",
+      "nombre": "JAMON CRUDO FETEADO AV 150G. C.AUSTRAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Jamon Crudo Feteado"
+      }
+    },
+    {
+      "product_code": "D1",
+      "nombre": "Tapa empanada HOJALDREx18 un x 615 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Hojaldres",
+        "4": "Tarta Regional Hojaldre"
+      }
+    },
+    {
+      "product_code": "D2",
+      "nombre": "Tapas de Empanadas  FREIR x18 un x615 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Hojaldres",
+        "4": "Tarta Regional Freír"
+      }
+    },
+    {
+      "product_code": "D3",
+      "nombre": "Tapa empanada CRIOLLA x18 un x615 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Hojaldres",
+        "4": "Tarta Regional Criolla"
+      }
+    },
+    {
+      "product_code": "D4",
+      "nombre": "Tapa empanada HOJALDRE x12 un x330 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Hojaldres",
+        "4": "Tarta Hojaldre"
+      }
+    },
+    {
+      "product_code": "D5",
+      "nombre": "Tapa empanada freir x12 un x330 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Hojaldres",
+        "4": "Tarta Freír"
+      }
+    },
+    {
+      "product_code": "D6",
+      "nombre": "Tapa de Empanadas ROTISERAS HOJALDRE x12 un x500 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Hojaldres",
+        "4": "Tarta Rotiseras Hojaldre"
+      }
+    },
+    {
+      "product_code": "D7",
+      "nombre": "Tapa empanada CRIOLLA x12 un x330 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Hojaldres",
+        "4": "Tarta Criolla"
+      }
+    },
+    {
+      "product_code": "D8",
+      "nombre": "Tapa empanada ROTISERAS CRIOLLA x12 un x500 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Hojaldres",
+        "4": "Tarta Rotiseras Criolla"
+      }
+    },
+    {
+      "product_code": "D9",
+      "nombre": "Tapa de Empanadas COPETIN HOJALDRE x24 un x360 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Hojaldres",
+        "4": "Tarta Copetín"
+      }
+    },
+    {
+      "product_code": "D10",
+      "nombre": "PASCUALINA HOJALDRE x 2 un x400 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Hojaldres",
+        "4": "Pascualina Hojaldre"
+      }
+    },
+    {
+      "product_code": "D11",
+      "nombre": "PASCUALINA HOJALDRE LIGHT x2 un x400 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Hojaldres",
+        "4": "Pascualina Hojaldre Light"
+      }
+    },
+    {
+      "product_code": "D12",
+      "nombre": "PASCUALINA CRIOLLA x2 un x380 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Pascualinas",
+        "4": "Pascualina Criolla"
+      }
+    },
+    {
+      "product_code": "D13",
+      "nombre": "FIDEOS CINTA FINA x 500 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Cinta Fina"
+      }
+    },
+    {
+      "product_code": "D14",
+      "nombre": "FIDEOS FUSILES x 500 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Fusiles"
+      }
+    },
+    {
+      "product_code": "D15",
+      "nombre": "FIDEOS CINTA ANCHA x 500 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Cinta Ancha"
+      }
+    },
+    {
+      "product_code": "D16",
+      "nombre": "ÑOQUIS Papa x 500 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D17",
+      "nombre": "SORRENTINOS Jamon y Queso x400 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D18",
+      "nombre": "RAVIOLES Carne y Espinaca x 500 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D19",
+      "nombre": "RAVIOLES Pollo y Espinaca x500 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D20",
+      "nombre": "RAVIOLES Espinaca y Ricota x500 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D21",
+      "nombre": "RAVIOLES Carne y Espinaca x1kg DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D22",
+      "nombre": "RAVIOLES 4 Quesos X 500 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D23",
+      "nombre": "RAVIOLES espinaca Ricota y Queso x1kg DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D24",
+      "nombre": "CAPELLETIS Jamon y Queso x400 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Capelletis",
+        "4": "Capelletis con Jamón y Queso"
+      }
+    },
+    {
+      "product_code": "D25",
+      "nombre": "RAVIOLES Pollo y Espinaca x1kg DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D26",
+      "nombre": "CAPELLETIS Carne y Jamon x400 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Capelletis",
+        "4": "Capelletis con Carne y Jamón"
+      }
+    },
+    {
+      "product_code": "D27",
+      "nombre": "Pan Lacteado chico x360 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D28",
+      "nombre": "Pan de Mesa chico x350 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "K1",
+      "nombre": "CONTRACALMA MALBEC X 750 ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vino Tinto",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "K2",
+      "nombre": "CONTRACALMA CABERNET S.750ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vino Tinto",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "K3",
+      "nombre": "RUMEL MALBEC 2022 X 750ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vino Tinto",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "K4",
+      "nombre": "RUMEL PETIT VERDOT 2022 X 750 ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vino Tinto",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "K5",
+      "nombre": "HUMMUS GUACAMOLE KAMAR POTE X 250 GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dips",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y54",
+      "nombre": "Sopa de Quinoa",
+      "tags": {
+        "1": "Sopas",
+        "2": "Sopa de Quinoa",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Y55",
+      "nombre": "Arroz con Remolacha",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz con Remolacha"
+      }
+    },
+    {
+      "product_code": "Y56",
+      "nombre": "ESTO NO ES HUEVO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Proteínas Vegetales",
+        "3": "Sustitutos de Huevo",
+        "4": "Esto No Es Huevo"
+      }
+    },
+    {
+      "product_code": "Y57",
+      "nombre": "ESTO NO ES CARNE",
+      "tags": {
+        "1": "Almacén",
+        "2": "Proteínas Vegetales",
+        "3": "Sustitutos de Carne",
+        "4": "Esto No Es Carne"
+      }
+    },
+    {
+      "product_code": "Y58",
+      "nombre": "Hummus de Garbanzo",
+      "tags": {
+        "1": "Hummus",
+        "2": "Hummus de Garbanzo",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "H1",
+      "nombre": "X Tapas para empanadas x 330g. (Horno, Freir, Criolla)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Tapas",
+        "4": "Tapas para Empanadas"
+      }
+    },
+    {
+      "product_code": "H2",
+      "nombre": "X Tapas para Empanadas SALVADO 330g. (Fuente de Fibras)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Tapas",
+        "4": "Tapas para Empanadas"
+      }
+    },
+    {
+      "product_code": "H3",
+      "nombre": "X Tapas para pascualina x 400g. (Horno, Criolla)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Tapas",
+        "4": "Tapas para Pascualina"
+      }
+    },
+    {
+      "product_code": "H4",
+      "nombre": "X Tapas para pascualina light x 400g. (reducida en grasas)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Tapas",
+        "4": "Tapas para Pascualina"
+      }
+    },
+    {
+      "product_code": "H5",
+      "nombre": "X Tapas para pascualina SALVADO 400g. (Fuente de Fibras)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Tapas",
+        "4": "Tapas para Pascualina"
+      }
+    },
+    {
+      "product_code": "H6",
+      "nombre": "X Tapas para copetin x 330g.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Tapas",
+        "4": "Tapas para Copetín"
+      }
+    },
+    {
+      "product_code": "H7",
+      "nombre": "X Tapas para pastel x 450g.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Tapas",
+        "4": "Tapas para Pastel"
+      }
+    },
+    {
+      "product_code": "H8",
+      "nombre": "X Pre-pizza x 580g. (2u.)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "H9",
+      "nombre": "X Ravioles Pasteurizados x 500g. BLISTER (R/V - R/J - P/V)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "H10",
+      "nombre": "X Ravioles Pasteurizados x  1kg.   BOLSA   (R/V - PV)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "H11",
+      "nombre": "X Fideos frescos x 500g. BLISTER",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Fideos Frescos"
+      }
+    },
+    {
+      "product_code": "H12",
+      "nombre": "X Ñoquis x 500g. BLISTER",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "H13",
+      "nombre": "X Ñoquis x 1Kg. BOLSA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "H14",
+      "nombre": "X Pan rallado / Rebozador x 400g. (x 10u.)",
+      "tags": {
+        "1": "Almacén",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "H15",
+      "nombre": "X Budines x 220g. Vainilla, Choc, Marmolado, Limón (x 15u.)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Artesano Banana"
+      }
+    },
+    {
+      "product_code": "H16",
+      "nombre": "X Budines x 220g. Vainilla, Choc, Marmolado, Limón (u.)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Artesano Banana"
+      }
+    },
+    {
+      "product_code": "H17",
+      "nombre": "X Pionono x 200g. (u.)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Piononos",
+        "4": "Pionono"
+      }
+    },
+    {
+      "product_code": "B25",
+      "nombre": "Vainilla 1p 74g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Vainillas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "V9",
+      "nombre": "Vainilla 1p 74 VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Vainillas",
+        "4": "Vainilla"
+      }
+    },
+    {
+      "product_code": "1760",
+      "nombre": "QUESO CREMA CLASICO CAJA 12X280GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "1782",
+      "nombre": "QUESO CREMA LIGHT CAJA 12X280GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "BI5",
+      "nombre": "X Fuet Baston x2Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Fuets"
+      }
+    },
+    {
+      "product_code": "U1",
+      "nombre": "HAMBURGUESAS 30x160g CLASICA x2 SWIFT ROJA X 2",
+      "tags": {
+        "1": "Carnes",
+        "2": "Hamburguesas",
+        "3": "Hamburguesa",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U2",
+      "nombre": "HAMBURGUESA 18x80g CLASICA SWIFT ROJA X4",
+      "tags": {
+        "1": "Carnes",
+        "2": "Hamburguesas",
+        "3": "Hamburguesa",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A1",
+      "nombre": "ACEITE GIR. ZANONI 4 X 4000",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A2",
+      "nombre": "ACEITE GIR. ZANONI 12 x 1500 cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A3",
+      "nombre": "ACEITE GIR. ZANONI 12 x 900 cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A4",
+      "nombre": "ACEITE MAIZ ZANONI 12 x 500 cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A5",
+      "nombre": "ACEITE OLIVA ZANONI PREM. 12 x 500 cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A6",
+      "nombre": "ACEITE MEZCLA LIVORNO12 x 900 cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A7",
+      "nombre": "ACEITE MEZCLA LIVORNO12 x 1500 CC",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A8",
+      "nombre": "HAR. MAIZ LIVORNO COCC. RAPIDA 10 x 500 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Maíz"
+      }
+    },
+    {
+      "product_code": "A9",
+      "nombre": "HAR. MAIZ LIVORNO COMUN 10 x 1000 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Maíz"
+      }
+    },
+    {
+      "product_code": "A10",
+      "nombre": "ARROZ LIVORNO 10 x 1 Kg.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "A11",
+      "nombre": "ARROZ LIVORNO 10 x 500 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "A12",
+      "nombre": "ROCIO VEGETAL ZANONI GIRASOL 6 x 120 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceite Vegetal",
+        "4": "Rocío Vegetal"
+      }
+    },
+    {
+      "product_code": "A13",
+      "nombre": "ACETO BALSAMICO ZANONI 12 u x 500 cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Vinagres",
+        "4": "Vinagre"
+      }
+    },
+    {
+      "product_code": "A14",
+      "nombre": "MAYONESA ZANONI 40 x 125 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Salsas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "A15",
+      "nombre": "MAYONESA ZANONI 12 x 250 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Salsas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "A16",
+      "nombre": "MAYONESA ZANONI 12 x 500 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Salsas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "A17",
+      "nombre": "MAYONESA ZANONI 8 x 1000 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Salsas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "A18",
+      "nombre": "MAYONESA ZANONI 4 x 2900 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Salsas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "A19",
+      "nombre": "MAYONESA ZANONI LIGHT 12 x 250 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Salsas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "A20",
+      "nombre": "DON PEPE TALLARIN 12 x 500 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A21",
+      "nombre": "DON PEPE SPAGHETTI 12 x 500 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Espaguetis"
+      }
+    },
+    {
+      "product_code": "A22",
+      "nombre": "DON PEPE MOSTACHOL 12 x 500 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Mostacholes"
+      }
+    },
+    {
+      "product_code": "A23",
+      "nombre": "DON PEPE TIRABUZON 12 x 500 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Fideos",
+        "4": "Tirabuzones"
+      }
+    },
+    {
+      "product_code": "A24",
+      "nombre": "YERBA MATE GRAPIA MILENARIA 10 x 500 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Yerbas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A25",
+      "nombre": "YERBA MATE GRAPIA MILENARIA 10 x 1 kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Yerbas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A26",
+      "nombre": "PULPA DE TOMATE DON PEPE x 520 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A27",
+      "nombre": "PURE DE TOMATE DON PEPE x 520 grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A28",
+      "nombre": "VINAGRE ALCOHOL ZANONI 12 x 500 cc.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Vinagres",
+        "4": "Vinagre"
+      }
+    },
+    {
+      "product_code": "A29",
+      "nombre": "VINAGRE ALCOHOL ZANONI12 x 1000 cc.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Vinagres",
+        "4": "Vinagre"
+      }
+    },
+    {
+      "product_code": "A30",
+      "nombre": "VINAGRE ALCOHOL ZANONI 3 x 5000 cc.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Vinagres",
+        "4": "Vinagre"
+      }
+    },
+    {
+      "product_code": "A31",
+      "nombre": "VINAGRE VINO ZANONI 12 x 500 cc.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Vinagres",
+        "4": "Vinagre"
+      }
+    },
+    {
+      "product_code": "A32",
+      "nombre": "VINAGRE MANZANA 12 x 500 cc.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Vinagres",
+        "4": "Vinagre"
+      }
+    },
+    {
+      "product_code": "A33",
+      "nombre": "VARON DE LA CHACRA MALBEC RESERVA 6 X 750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vino Tinto",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "A34",
+      "nombre": "VARON DE LA CHACRA MALBEC ROBLE 6 X 750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vino Tinto",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "A35",
+      "nombre": "VARON DE LA CHACRA VINO ESPUMOSO BLANCO 6 X 750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vino Tinto",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "A36",
+      "nombre": "INTERPRETE ROBLE MALBEC 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vino Tinto",
+        "4": "Vino"
+      }
+    },
+    {
+      "product_code": "A37",
+      "nombre": "ARVEJAS ENTERAS DEL AGRICULTOR  10 X 400 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Arvejas Enteras",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A38",
+      "nombre": "MAIZ PISINGALLO DEL AGRICULTOR 10 X 400 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Maíz"
+      }
+    },
+    {
+      "product_code": "A39",
+      "nombre": "GARBANZOS DEL AGRICULTOR  10 X 400 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Garbanzos"
+      }
+    },
+    {
+      "product_code": "A40",
+      "nombre": "POROTOS NEGROS DEL AGRICULTOR 10 X 400 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Porotos Secos",
+        "4": "Porotos Negros"
+      }
+    },
+    {
+      "product_code": "A41",
+      "nombre": "LENTEJAS DEL AGRICULTOR 10 X 400 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Lentejas"
+      }
+    },
+    {
+      "product_code": "A42",
+      "nombre": "POROTOS ALUBIA DEL AGRICULTOR X 400 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Porotos Secos",
+        "4": "Porotos Negros"
+      }
+    },
+    {
+      "product_code": "BI6",
+      "nombre": "X Panceta Ahumada C/Cuero/Libre De Gluten(sin tacc)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Panceta Ahumada"
+      }
+    },
+    {
+      "product_code": "A43",
+      "nombre": "ARVEJAS SECAS REMOJADAS DEL AGRICULTOR 24 x 350 gr",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Arvejas Secas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A44",
+      "nombre": "CHOCLO AMARILLO EN GRANO DEL AGRICULTOR 24 x 350 gr",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Choclo Amarillo",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A45",
+      "nombre": "CHOCLO AMARILLO CREMOSO DEL AGRICULTOR 24 x 350 gr.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Choclo Amarillo Cremoso",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A46",
+      "nombre": "CHOCLO BLANCO CREMOSO DEL AGRICULTOR 24 x 350 gr",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Choclo Blanco Cremoso",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A47",
+      "nombre": "JARDINERA DEL AGRICULTOR 24 x 350 gr.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Jardinera",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A48",
+      "nombre": "LENTEJAS SECAS REMOJADAS DEL AGRICULTOR 24 x 350 gr.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Lentejas Secas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A49",
+      "nombre": "POROTOS SECOS REMOJADOS DEL AGRICULTOR24 x 350 gr.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Porotos Secos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A50",
+      "nombre": "GARBANZOS DEL AGRICULTOR 24 x 350 gr.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Garbanzos"
+      }
+    },
+    {
+      "product_code": "A51",
+      "nombre": "JUGO DE LIMON ZANONI 12 x 500 ml",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "A52",
+      "nombre": "JUGO DE LIMON ZANONI 6 x 1000 ml",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Jugos",
+        "4": "Jugo"
+      }
+    },
+    {
+      "product_code": "A53",
+      "nombre": "HARINA DE TRIGO FEDERACION  000 10 x 1 kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Harina"
+      }
+    },
+    {
+      "product_code": "A54",
+      "nombre": "HARINA DE TRIGO FEDERACION 0000 10 x 1 kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Harina"
+      }
+    },
+    {
+      "product_code": "P1",
+      "nombre": "MERM. ARTES. EL PROD. X 450 GR DURAZNO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermerados",
+        "3": "Mermerados de Fruta",
+        "4": "Mermerado de Durazno"
+      }
+    },
+    {
+      "product_code": "P2",
+      "nombre": "MERM. ARTES. EL PROD. X 450 GR FRUTILLA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermerados",
+        "3": "Mermerados de Fruta",
+        "4": "Mermerado de Frutilla"
+      }
+    },
+    {
+      "product_code": "P3",
+      "nombre": "MERM. ARTES. EL PROD. X 450 GR HIGO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermerados",
+        "3": "Mermerados de Fruta",
+        "4": "Mermerado de Higo"
+      }
+    },
+    {
+      "product_code": "P4",
+      "nombre": "MERM. ARTES. EL PROD. X 450 GR NARANJA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermerados",
+        "3": "Mermerados de Fruta",
+        "4": "Mermerado de Naranja"
+      }
+    },
+    {
+      "product_code": "P5",
+      "nombre": "MERM. ARTES. EL PROD. X 450 GR PERA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermerados",
+        "3": "Mermerados de Fruta",
+        "4": "Mermerado de Pera"
+      }
+    },
+    {
+      "product_code": "P6",
+      "nombre": "MANI CON CHOCOLATE EN ESTUCHES X 25GR IMPERIAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Maní con Chocolate en Estuches"
+      }
+    },
+    {
+      "product_code": "P7",
+      "nombre": "LENTEJAS DE CHOCOLATE EN ESTUCHES X 25GR IMPERIAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Lentejas de Chocolate en Estuches"
+      }
+    },
+    {
+      "product_code": "1688",
+      "nombre": "QUESO CHEDDAR CAJA4 UNID. ME (BARRA)",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Quesos Frescos"
+      }
+    },
+    {
+      "product_code": "B40",
+      "nombre": "Pan Blanco Cero&Cero 385 Grs. 0% Azúcares y grasas.",
+      "tags": {
+        "1": "Pan Blanco",
+        "2": "Pan Blanco Cero Cero",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B41",
+      "nombre": "Salmas Horneadas NF 5p 90g CJ ZEN EXP",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B42",
+      "nombre": "Rapiditas Cero Cero x275 grs BIM",
+      "tags": {
+        "1": "Panadería",
+        "2": "Rapiditas",
+        "3": "Rapiditas Cero Cero",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B43",
+      "nombre": "PAN DULCE FRUTA V 1P 600G FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Pan Dulce",
+        "4": "Pan Dulce Fruta"
+      }
+    },
+    {
+      "product_code": "B44",
+      "nombre": "RAPIDITAS XL CLASICAS x8 UNIDADES",
+      "tags": {
+        "1": "Panadería",
+        "2": "Rapiditas",
+        "3": "Rapiditas XL Clásicas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B45",
+      "nombre": "FAJITAS TIA ROSA 275GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Tortillas",
+        "4": "Fajitas"
+      }
+    },
+    {
+      "product_code": "B46",
+      "nombre": "BURRERA TIA ROSA 420GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Tortillas",
+        "4": "Burreras"
+      }
+    },
+    {
+      "product_code": "B47",
+      "nombre": "Madalena Chocolate Rellena DDL x1 BIMBO 32 GRAMOS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Madalenas",
+        "4": "Madalena Chocolate Rellena"
+      }
+    },
+    {
+      "product_code": "B48",
+      "nombre": "Madalena Vainilla Rellena DDL x1 BIMBO 32 GRAMOS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Madalenas",
+        "4": "Madalena Vainilla Rellena"
+      }
+    },
+    {
+      "product_code": "B49",
+      "nombre": "BOH PAN BLANCO 315GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B50",
+      "nombre": "BOH PAN HAMBURGUESA SIN SESAMO 210GR",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan Hamburguesa",
+        "3": "Pan Hamburguesa Sin Sésamo",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B51",
+      "nombre": "BOH PAN SALVADO 330GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B52",
+      "nombre": "BOH PAN PANCHOS 210GR",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan para Hot Dog",
+        "3": "Pan Panchos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B53",
+      "nombre": "BOH PAN SEMILLADO 390GR",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan Semillado",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "T10",
+      "nombre": "SALCHICHAS X6 190Grs. MANECA",
+      "tags": {
+        "1": "Carnes",
+        "2": "Salchichas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U10",
+      "nombre": "MEDALLON 42x112g DOBLE GURGER SWIFT AMARILLA X2",
+      "tags": {
+        "1": "Carnes",
+        "2": "Medallones",
+        "3": "Medallón",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U12",
+      "nombre": "HAMBURGUESA 30x250g CLASICA XL SWIFT",
+      "tags": {
+        "1": "Carnes",
+        "2": "Hamburguesas",
+        "3": "Hamburguesa",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U13",
+      "nombre": "HAMBURGUESA 24x2x120g CASERA SWIFT",
+      "tags": {
+        "1": "Carnes",
+        "2": "Hamburguesas",
+        "3": "Hamburguesa",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "342",
+      "nombre": "Dulce De Leche CLASICO 12X200GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Dulces",
+        "4": "Dulce de Leche Clasico"
+      }
+    },
+    {
+      "product_code": "2149",
+      "nombre": "YOGUR NATURAL SIN AZUCAR CAJA 12X140GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Natural"
+      }
+    },
+    {
+      "product_code": "BI1",
+      "nombre": "X Salame Crespon Premium x2 Kg Calibre 0.90",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Salames"
+      }
+    },
+    {
+      "product_code": "BI2",
+      "nombre": "X Salame Milan x  2Kg (1154)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Salames"
+      }
+    },
+    {
+      "product_code": "BI3",
+      "nombre": "X Salame Milan Corto x2.5 Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Salames"
+      }
+    },
+    {
+      "product_code": "BI4",
+      "nombre": "X Chacarero P/Grueso x4 Kg",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes",
+        "3": "Chacares",
+        "4": "Chacarero"
+      }
+    },
+    {
+      "product_code": "BI7",
+      "nombre": "X Panceta Salada /Libre De Gluten(sin tacc)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Panceta Salada"
+      }
+    },
+    {
+      "product_code": "BI8",
+      "nombre": "X Lomo De Cerdo A Las Finas Hierbas /Libre De Gluten(sin tacc)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes",
+        "3": "Lomos",
+        "4": "Lomo de Cerdo a las Finas Hierbas"
+      }
+    },
+    {
+      "product_code": "BI9",
+      "nombre": "X Lomo De Cerdo Ahumado x1.7 Kg /Libre De Gluten(sin tacc)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes",
+        "3": "Lomos",
+        "4": "Lomo de Cerdo Ahumado"
+      }
+    },
+    {
+      "product_code": "BI10",
+      "nombre": "X Bondiola /Libre De Gluten(sin tacc)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "BI11",
+      "nombre": "X Jamon Cocido Clasico x4 Kg /Libre De Gluten(sin tacc)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "BI12",
+      "nombre": "X Fiambre De Paleta Oval x4 Kg S/Tocino /Libre De Gluten(sin tacc)",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "BI13",
+      "nombre": "X Fiambre P/Emp.Cristal x 3.5 Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A59",
+      "nombre": "Vinagre de vino 12 x 1000 cc.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Vinagres",
+        "4": "Vinagre"
+      }
+    },
+    {
+      "product_code": "BI15",
+      "nombre": "X Salchichon Primavera x 2.8 Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Salames"
+      }
+    },
+    {
+      "product_code": "BI16",
+      "nombre": "X Mortadela Familiar x375 xGrs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Mortadelas"
+      }
+    },
+    {
+      "product_code": "BI17",
+      "nombre": "X Mortadela Bocha x3.5 Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Mortadelas"
+      }
+    },
+    {
+      "product_code": "BI18",
+      "nombre": "X Mortadela Bologna x 3.5 Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Mortadelas"
+      }
+    },
+    {
+      "product_code": "BI19",
+      "nombre": "X Queso De Cerdo x2.4 Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Queso de Cerdo"
+      }
+    },
+    {
+      "product_code": "BI20",
+      "nombre": "X Matambre Especial",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes",
+        "3": "Matambres",
+        "4": "Matambre Especial"
+      }
+    },
+    {
+      "product_code": "BI21",
+      "nombre": "X Matambre De  Pollo Artesanal",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes",
+        "3": "Matambres",
+        "4": "Matambre de Pollo"
+      }
+    },
+    {
+      "product_code": "U14",
+      "nombre": "HAMBURGUESA X-TREMA 36 X 185 grs",
+      "tags": {
+        "1": "Carnes",
+        "2": "Hamburguesas",
+        "3": "Hamburguesa",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A55",
+      "nombre": "MAYONESA ZANONI LIGHT 12 x 500 grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Salsas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "T11",
+      "nombre": "Fiambre para Emparedados TÍVOLI (PALADINI)",
+      "tags": {
+        "1": "Fiambres",
+        "2": "Fiambre para Emparedados",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B26",
+      "nombre": "Pan Pancho Artesano De Papa 240gr BIM",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan para Hot Dog",
+        "3": "Pan Pancho Artesano",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B27",
+      "nombre": "Pan Integral Cero Cero 400g BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Pan Integral",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "O1",
+      "nombre": "XAzúcar mascabo 500grs",
+      "tags": {
+        "1": "Azúcares",
+        "2": "Azúcar Mascabo",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "O2",
+      "nombre": "XAzúcar Rubio 500grs",
+      "tags": {
+        "1": "Azúcares",
+        "2": "Azúcar Rubio",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "O3",
+      "nombre": "XAzúcar negra 500grs",
+      "tags": {
+        "1": "Azúcares",
+        "2": "Azúcar Negra",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "O15",
+      "nombre": "XCopos Azucarados 250grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Copos de Maíz"
+      }
+    },
+    {
+      "product_code": "O4",
+      "nombre": "XCacao Amargo Brasilero 250grs",
+      "tags": {
+        "1": "Cacao",
+        "2": "Cacao Amargo",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "O5",
+      "nombre": "XAvena Instantánea 500grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Avena"
+      }
+    },
+    {
+      "product_code": "O6",
+      "nombre": "XQinoa POP 150grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Quinoa"
+      }
+    },
+    {
+      "product_code": "B28",
+      "nombre": "Budin tipo casero marmolado BIM 250 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Tipo Casero Marmolado"
+      }
+    },
+    {
+      "product_code": "B29",
+      "nombre": "Budin tipo casero chocochips BIM 250 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Tipo Casero Chocochips"
+      }
+    },
+    {
+      "product_code": "B30",
+      "nombre": "Budin tipo casero relleno ddl BIM 320 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Tipo Casero Relleno"
+      }
+    },
+    {
+      "product_code": "B31",
+      "nombre": "Budin tipo casero chocolate relleno ddl BIM 320 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Tipo Casero Chocolate Relleno"
+      }
+    },
+    {
+      "product_code": "J25",
+      "nombre": "ALMOHADITAS SIN AZÚCAR FRUTILLA x100g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "O12",
+      "nombre": "XAritos Frutados 250grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Aritos",
+        "4": "Aritos Frutados"
+      }
+    },
+    {
+      "product_code": "O13",
+      "nombre": "XAritos de Miel 250grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Aritos",
+        "4": "Aritos de Miel"
+      }
+    },
+    {
+      "product_code": "O14",
+      "nombre": "XCopos Naturales 250grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Copos de Maíz"
+      }
+    },
+    {
+      "product_code": "L12",
+      "nombre": "TUBITOON CEBOLLA A LA CREMA x 60g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Tubitos",
+        "4": "Tubitoon"
+      }
+    },
+    {
+      "product_code": "O17",
+      "nombre": "XBastones de Salvado 250grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Bastones",
+        "4": "Bastones de Salvado"
+      }
+    },
+    {
+      "product_code": "O18",
+      "nombre": "XPasas de uva morochas Premium 400grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Pasas"
+      }
+    },
+    {
+      "product_code": "O19",
+      "nombre": "XCoco rallado 400grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Pasas"
+      }
+    },
+    {
+      "product_code": "O20",
+      "nombre": "XDatiles 250grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "O21",
+      "nombre": "XHarina de Almendra 250grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Preparados",
+        "3": "Harinas",
+        "4": "Harina de Almendra"
+      }
+    },
+    {
+      "product_code": "O22",
+      "nombre": "XGarbanzos 500grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Garbanzos"
+      }
+    },
+    {
+      "product_code": "O23",
+      "nombre": "XMaíz Blanco 500grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Leches",
+        "3": "Leches Condensadas",
+        "4": "Leche Condensada"
+      }
+    },
+    {
+      "product_code": "O24",
+      "nombre": "XMaíz frito tostado sabor queso 300grs",
+      "tags": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "O25",
+      "nombre": "XMaíz Pisingallo de Exportación 1kg",
+      "tags": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "O26",
+      "nombre": "XPorotos Negros 500grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Porotos Secos",
+        "4": "Porotos Negros"
+      }
+    },
+    {
+      "product_code": "O27",
+      "nombre": "XPorotos Aduki 500grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Porotos Secos",
+        "4": "Porotos Negros"
+      }
+    },
+    {
+      "product_code": "O28",
+      "nombre": "XPorotos Alubia 500grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Porotos Secos",
+        "4": "Porotos Negros"
+      }
+    },
+    {
+      "product_code": "O29",
+      "nombre": "XLenteja 500grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Lentejas"
+      }
+    },
+    {
+      "product_code": "O30",
+      "nombre": "XGirasol Pelado 500grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Semillas y Granos",
+        "3": "Semillas",
+        "4": "Girasol Pelado"
+      }
+    },
+    {
+      "product_code": "O31",
+      "nombre": "XSal del Himalaya 500grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Sales",
+        "4": "Sal del Himalaya"
+      }
+    },
+    {
+      "product_code": "C12",
+      "nombre": "CEREAL BAR DARK CHOCOLATE X25GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barritas",
+        "4": "Cereal Bar Dark Chocolate"
+      }
+    },
+    {
+      "product_code": "O33",
+      "nombre": "XCiruela DÄGEN BOMBON descarozada 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Frutas Secas"
+      }
+    },
+    {
+      "product_code": "O34",
+      "nombre": "XPasas de uva morochas Premium 200grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Pasas"
+      }
+    },
+    {
+      "product_code": "O35",
+      "nombre": "XPasas de uva Rubias 200grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Pasas"
+      }
+    },
+    {
+      "product_code": "O36",
+      "nombre": "XAlmendra Non pareil 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Almendra Non Pareil"
+      }
+    },
+    {
+      "product_code": "O37",
+      "nombre": "XNuez pelada mariposa Chandler Extra Light 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Nuez Pelada Mariposa"
+      }
+    },
+    {
+      "product_code": "O38",
+      "nombre": "XCastaña de Cajú natural 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Castaña de Cajú"
+      }
+    },
+    {
+      "product_code": "O39",
+      "nombre": "XAvellana pelada 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Avellana Pelada"
+      }
+    },
+    {
+      "product_code": "O40",
+      "nombre": "XPistacho Premium c/cascara tostado y salado 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Pistacho Premium"
+      }
+    },
+    {
+      "product_code": "O41",
+      "nombre": "XMix de semillas 200grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Mezclas de Semillas",
+        "4": "Mix de Semillas"
+      }
+    },
+    {
+      "product_code": "O42",
+      "nombre": "XMix Clásico 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Mezclas de Semillas",
+        "4": "Mix Clásico"
+      }
+    },
+    {
+      "product_code": "O43",
+      "nombre": "XMix Energía 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Mezclas de Semillas",
+        "4": "Mix Energía"
+      }
+    },
+    {
+      "product_code": "O44",
+      "nombre": "XMix Salado 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Mezclas de Semillas",
+        "4": "Mix Salado"
+      }
+    },
+    {
+      "product_code": "O45",
+      "nombre": "XMix Premium 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Mezclas de Semillas",
+        "4": "Mix Premium"
+      }
+    },
+    {
+      "product_code": "O46",
+      "nombre": "XMix Tropical 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Mezclas de Semillas",
+        "4": "Mix Tropical"
+      }
+    },
+    {
+      "product_code": "O47",
+      "nombre": "XGranola Energética 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "O48",
+      "nombre": "XGranola Tradicional 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "O49",
+      "nombre": "XGranola Patagónica 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "O50",
+      "nombre": "XAlmendras con chocolate grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Almendras con Chocolate"
+      }
+    },
+    {
+      "product_code": "O51",
+      "nombre": "XPasas de uva con chocolate 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Pasas de Uva con Chocolate"
+      }
+    },
+    {
+      "product_code": "K07",
+      "nombre": "KEFIR LIMON 500 ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "O52",
+      "nombre": "XAvellanas con chocolate 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Avellanas con Chocolate"
+      }
+    },
+    {
+      "product_code": "O53",
+      "nombre": "XLentejas de chocolate 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Lentejas de Chocolate"
+      }
+    },
+    {
+      "product_code": "O54",
+      "nombre": "XManí crocante cubierto de chocolate 100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Maní Crocante Cubierto de Chocolate"
+      }
+    },
+    {
+      "product_code": "O55",
+      "nombre": "XMix de Semillas (lino/Girasol/chia/sésamo/integral)500grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Mezclas de Semillas",
+        "4": "Mix de Semillas Integral"
+      }
+    },
+    {
+      "product_code": "O56",
+      "nombre": "XGranola Tradicional 500grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "O57",
+      "nombre": "XArroz Yamani Integral 500grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "G43",
+      "nombre": "Yerba Mate Organica Natural Santa Lucia",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerba Mate",
+        "3": "Yerba Mate Orgánica",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U7",
+      "nombre": "MEDALLON BURGER SWIFT MEGA 30x160g",
+      "tags": {
+        "1": "Carnes",
+        "2": "Medallones",
+        "3": "Medallón Burger",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U8",
+      "nombre": "MEDALLON CAJITA 12x4 69grs (BURGER 4x276GR) AMARILLA X4",
+      "tags": {
+        "1": "Carnes",
+        "2": "Medallones",
+        "3": "Medallón Cajita",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "X10",
+      "nombre": "MAIXANAS CALABAZA Y MOSTAZA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Nachos",
+        "4": "Nachos de Calabaza y Mostaza"
+      }
+    },
+    {
+      "product_code": "X11",
+      "nombre": "MAIXANAS REMOLACHA Y MERKEN",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Nachos",
+        "4": "Nachos de Remolacha y Merken"
+      }
+    },
+    {
+      "product_code": "V25",
+      "nombre": "Budin Fruta V 1p 170g FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín de Fruta"
+      }
+    },
+    {
+      "product_code": "V26",
+      "nombre": "Budin Vainilla V 1p 170g FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín de Vainilla"
+      }
+    },
+    {
+      "product_code": "V27",
+      "nombre": "Budin Marmolado V 1p 170g FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Marmolado"
+      }
+    },
+    {
+      "product_code": "V28",
+      "nombre": "Budin Chip Chocolate V 1p 170g FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín de Chips de Chocolate"
+      }
+    },
+    {
+      "product_code": "V29",
+      "nombre": "Budin Relleno DDL V 1p 220g FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Relleno"
+      }
+    },
+    {
+      "product_code": "V32",
+      "nombre": "Pan Dulce Chips Choco V 1p 400g FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Pan Dulce",
+        "4": "Pan Dulce con Chips de Chocolate"
+      }
+    },
+    {
+      "product_code": "V33",
+      "nombre": "Pan Dulce Fruta V 1p 400g FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Pan Dulce",
+        "4": "Pan Dulce de Fruta"
+      }
+    },
+    {
+      "product_code": "V34",
+      "nombre": "Pan Dulce Sin Fruta V 1p 350g FLOW VLT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Pan Dulce",
+        "4": "Pan Dulce Sin Fruta"
+      }
+    },
+    {
+      "product_code": "P8",
+      "nombre": "Mani con chocolate X100grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos y Semillas",
+        "3": "Frutos Secos",
+        "4": "Maní con Chocolate en Estuches"
+      }
+    },
+    {
+      "product_code": "P9",
+      "nombre": "Confite mani color X100Grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites y Golosinas",
+        "3": "Golosinas",
+        "4": "Confite de Maní"
+      }
+    },
+    {
+      "product_code": "P10",
+      "nombre": "Garrapiñada X100Grs.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites y Golosinas",
+        "3": "Golosinas",
+        "4": "Garrapiñada"
+      }
+    },
+    {
+      "product_code": "S1",
+      "nombre": "Baloncitos chocolate 9 x190 g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Baloncitos Chocolatados",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S2",
+      "nombre": "Arroz crocante 8 x 170 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Arroz Crocante"
+      }
+    },
+    {
+      "product_code": "S3",
+      "nombre": "Copos de maíz 16 x 160 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Copos de Maíz"
+      }
+    },
+    {
+      "product_code": "S4",
+      "nombre": "Skarchitos 16 x 240 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S5",
+      "nombre": "Granagua Sandwich 24 x 200 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S6",
+      "nombre": "Cereal 16 x 185 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S7",
+      "nombre": "Lino16 x 185 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Semillas y Granos",
+        "3": "Semillas",
+        "4": "Lino"
+      }
+    },
+    {
+      "product_code": "S8",
+      "nombre": "Sésamo 16 x 185 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Semillas y Granos",
+        "3": "Semillas",
+        "4": "Sésamo"
+      }
+    },
+    {
+      "product_code": "S9",
+      "nombre": "Aritos frutales 9 x 130 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S10",
+      "nombre": "Aritos con miel 10 x 130 g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Aritos con Miel",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S11",
+      "nombre": "Avena instantánea 8 x 400 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Avena"
+      }
+    },
+    {
+      "product_code": "S12",
+      "nombre": "Frutigran avena y pasas 24 x 250 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "S13",
+      "nombre": "Frutigran avena y frutos rojos 24 x 250 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "S14",
+      "nombre": "Fiesta surtida 10 x 350 g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Fiesta Surtida",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S15",
+      "nombre": "Bocaditos rell c/ crema de avellana 10 x 180 g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Bocaditos Rellenos c/ Crema de Avellana",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S16",
+      "nombre": "ALMOHADITAS frutilla 10 x 180 g",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Bocaditos Rellenos c/ Crema de Frutilla",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S17",
+      "nombre": "Granola crocante 8 x 350 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "S18",
+      "nombre": "Salvado (3) 18 x 720 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S19",
+      "nombre": "Frutigran Salvado dulce 12 x 250 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S20",
+      "nombre": "Frutigran Chips Chocolate 24 x 250 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Frutigran Chips Chocolate"
+      }
+    },
+    {
+      "product_code": "S21",
+      "nombre": "Frutigran Sésamo Amaranto y Girasol 24 x 250 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Frutigran Sésamo Amaranto y Girasol"
+      }
+    },
+    {
+      "product_code": "S22",
+      "nombre": "Frutigran Semillas Chia y Lino 24 x 250 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Frutigran Semillas Chía y Lino"
+      }
+    },
+    {
+      "product_code": "E1",
+      "nombre": "JAMON COCIDO NATURAL MEDIA CAÑA CON CUERO",
+      "tags": {
+        "1": "Fiambres",
+        "2": "Jamon Cocido Clasico",
+        "3": "Jamon Cocido Natural",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "E2",
+      "nombre": "JAMON COCIDO OVAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Jamon Cocido"
+      }
+    },
+    {
+      "product_code": "E3",
+      "nombre": "JAMON COCIDO BOLON MINI 07",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Jamon Cocido Mini"
+      }
+    },
+    {
+      "product_code": "E4",
+      "nombre": "MORTADELA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Mortadelas"
+      }
+    },
+    {
+      "product_code": "E5",
+      "nombre": "MORTADELA MINI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Mortadela Mini"
+      }
+    },
+    {
+      "product_code": "J1",
+      "nombre": "GRANOLA PEANUT BUTTER",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "J2",
+      "nombre": "GRANOLA SEEDS&NUTS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "J3",
+      "nombre": "GRANOLA BERRIES",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "J4",
+      "nombre": "GRANOLA COCONUT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "J5",
+      "nombre": "GRANOLA TROPICAL FRUITS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "J6",
+      "nombre": "GRANOLA CRUNCH",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "J7",
+      "nombre": "PASTA DE MANI CROPPERS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "J8",
+      "nombre": "COPOS DE MAIZ X100GRS PATAGONIA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Copos de Maíz"
+      }
+    },
+    {
+      "product_code": "J9",
+      "nombre": "COPOS CON AZUCAR X100GRS PATAGONIA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Copos de Maíz"
+      }
+    },
+    {
+      "product_code": "J10",
+      "nombre": "CHIP DE ARROZ X50GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "J11",
+      "nombre": "HOJUELAS LIMON X500GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "J12",
+      "nombre": "HOJUELAS FRUTILLA X500GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "J13",
+      "nombre": "HOJUELAS AVELLANAS X500GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "J14",
+      "nombre": "COPOS DE MAIZ X500GRS PATAGONIA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Copos de Maíz"
+      }
+    },
+    {
+      "product_code": "J15",
+      "nombre": "COPOS CON AZUCAR X500GRS PATAGONIA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Copos de Maíz"
+      }
+    },
+    {
+      "product_code": "J16",
+      "nombre": "CHOCOPICOS X500GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "J17",
+      "nombre": "ANILLITOS FRUTADOS X500GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "J18",
+      "nombre": "SOJA NO TRANSGENICA X500GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "J19",
+      "nombre": "GRANOLA CROCANTE X250GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "J20",
+      "nombre": "GRANOLA SIN AZUCAR X250GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granola"
+      }
+    },
+    {
+      "product_code": "J21",
+      "nombre": "HOJUELAS FRUTILLA X2.5KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "J22",
+      "nombre": "COPOS DE MAIZ X2.5KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Copos de Maíz"
+      }
+    },
+    {
+      "product_code": "J23",
+      "nombre": "COPOS CON AZUCAR X2.5 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Copos de Maíz"
+      }
+    },
+    {
+      "product_code": "C11",
+      "nombre": "CEREAL BAR CROWIE ORIGINAL 25GRS X12",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barritas",
+        "4": "Cereal Bar Original"
+      }
+    },
+    {
+      "product_code": "B32",
+      "nombre": "Budin Vainilla 1p 170g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Vainilla"
+      }
+    },
+    {
+      "product_code": "B33",
+      "nombre": "Budin Marmolado 1p 170g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Marmolado"
+      }
+    },
+    {
+      "product_code": "B34",
+      "nombre": "Budin Chocolate 1p 170g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Chocolate"
+      }
+    },
+    {
+      "product_code": "B35",
+      "nombre": "Budín Chips Choco 1p 170g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Chips Choco"
+      }
+    },
+    {
+      "product_code": "B36",
+      "nombre": "Budin Relleno DDL 1p 220g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Relleno"
+      }
+    },
+    {
+      "product_code": "B37",
+      "nombre": "Budin Artes. Carnot Cake 1p 350g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Artesano Carnot Cake"
+      }
+    },
+    {
+      "product_code": "B38",
+      "nombre": "Budin Artesano Banana 1p 350g FLOW BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Artesano Banana"
+      }
+    },
+    {
+      "product_code": "E6",
+      "nombre": "MORTADELA CON PISTACHO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Mortadela con Pistacho"
+      }
+    },
+    {
+      "product_code": "E7",
+      "nombre": "BONDIOLA SECA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Bondiola Seca"
+      }
+    },
+    {
+      "product_code": "E8",
+      "nombre": "SALCHICHON PRIMAVERA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Salchichón Primavera"
+      }
+    },
+    {
+      "product_code": "E9",
+      "nombre": "MATAMBRE VACUNO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Matambre Vacuno"
+      }
+    },
+    {
+      "product_code": "E10",
+      "nombre": "MATAMBRE DE POLLO",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes",
+        "3": "Matambres",
+        "4": "Matambre de Pollo"
+      }
+    },
+    {
+      "product_code": "E11",
+      "nombre": "FIAMBRE PARA EMPAREDADOS RECTANGULAR",
+      "tags": {
+        "1": "Fiambres",
+        "2": "Fiambre para Emparedados",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "E12",
+      "nombre": "PANCETA AHUMADA ELABORADA",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes",
+        "3": "Pancetas",
+        "4": "Panceta Ahumada Elaborada"
+      }
+    },
+    {
+      "product_code": "E13",
+      "nombre": "PANCETA AHUMADA CON CUERO",
+      "tags": {
+        "1": "Carnes",
+        "2": "Cortes",
+        "3": "Pancetas",
+        "4": "Panceta Ahumada con Cuero"
+      }
+    },
+    {
+      "product_code": "A56",
+      "nombre": "TOMATE DON PEPE LATA X400",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "K06",
+      "nombre": "KEFIR UVA 500 ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "K08",
+      "nombre": "KEFIR NARANJA 500 ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "K09",
+      "nombre": "KEFIR NEUTRO 500 ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "K10",
+      "nombre": "KEFIR UVA 1 L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "K11",
+      "nombre": "KEFIR LIMON 1 L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "K12",
+      "nombre": "KEFIR NARANJA 1 L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "K13",
+      "nombre": "KEFIR NEUTRO 1 L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "150",
+      "nombre": "YOGUR BEBIBLE DESCREMADO DURAZNO 20x900GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Bebible"
+      }
+    },
+    {
+      "product_code": "J24",
+      "nombre": "BOLITAS CHOCOLATADAS 2.5KGS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A57",
+      "nombre": "Ketchup Zanonni 12x250 gr",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Salsas",
+        "4": "Ketchup"
+      }
+    },
+    {
+      "product_code": "B39",
+      "nombre": "Pan Integral 600g BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Pan Integral",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Z19",
+      "nombre": "VIA VITA Crackers garbanzo sabor caprese X100 GRS",
+      "tags": {
+        "1": "Galletas",
+        "2": "Crackers Garbanzo Sabor Caprese",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "Z20",
+      "nombre": "VIA VITA Crackers garbanzo sabor tomillo y curry X100GRS",
+      "tags": {
+        "1": "Galletas",
+        "2": "Crackers Garbanzo Sabor Tomillo y Curry",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "A58",
+      "nombre": "VINAGRE MANZANA 12 x 1000 cc.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas y Condimentos",
+        "3": "Vinagres",
+        "4": "Vinagre"
+      }
+    },
+    {
+      "product_code": "X12",
+      "nombre": "MAIXANAS ZANAHORIA Y CREMA Y CEBOLLA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Nachos",
+        "4": "Nachos de Zanahoria y Crema y Cebolla"
+      }
+    },
+    {
+      "product_code": "X13",
+      "nombre": "MAIXANAS MANDIOCA Y GUACAMOLE",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Nachos",
+        "4": "Nachos de Mandioaca y Guacamole"
+      }
+    },
+    {
+      "product_code": "X14",
+      "nombre": "ANTOJITOS ORIGINAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Antojitos",
+        "4": "Antojitos Original"
+      }
+    },
+    {
+      "product_code": "X15",
+      "nombre": "ANTOJITOS CHEESE BURGUER",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Antojitos",
+        "4": "Antojitos Cheese Burger"
+      }
+    },
+    {
+      "product_code": "X17",
+      "nombre": "ANTOJITOS BACON",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Antojitos",
+        "4": "Antojitos Bacon"
+      }
+    },
+    {
+      "product_code": "X16",
+      "nombre": "ANTOJITOS CHEDDAR MELT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Antojitos",
+        "4": "Antojitos Cheddar Melt"
+      }
+    },
+    {
+      "product_code": "S23",
+      "nombre": "Semoladas (2) 12 x 420 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Semoladas"
+      }
+    },
+    {
+      "product_code": "738",
+      "nombre": "YOGUR C/ GRANOLA ENTERO 18x155GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Batido"
+      }
+    },
+    {
+      "product_code": "L1",
+      "nombre": "PAPAS FRITAS CLASICAS X 75 GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas Fritas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "L2",
+      "nombre": "PALITOS DE MAIZ SABOR QUESO X 80 GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Palitos",
+        "4": "Palitos de Maíz"
+      }
+    },
+    {
+      "product_code": "L3",
+      "nombre": "PALITOS SALADOS X 150 GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Palitos",
+        "4": "Palitos Salados"
+      }
+    },
+    {
+      "product_code": "L4",
+      "nombre": "PALITOS SALADOS SABOR JAMON S X 120 GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Palitos",
+        "4": "Palitos Salados"
+      }
+    },
+    {
+      "product_code": "L5",
+      "nombre": "CHALITAS DE CEREAL SABOR PIZZA X 60GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chalitas",
+        "4": "Chalitas de Cereal"
+      }
+    },
+    {
+      "product_code": "L6",
+      "nombre": "PIZZITAS X 60GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletitas Saladas",
+        "4": "Pizzitas"
+      }
+    },
+    {
+      "product_code": "L7",
+      "nombre": "TOSTADAS DE ARROZ X 120 GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tostadas",
+        "3": "Tostadas de Arroz",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "L8",
+      "nombre": "PAPAS FRITAS SABOR JAMON S X 70 GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas Fritas",
+        "4": "Papas Fritas Sabor Jamón"
+      }
+    },
+    {
+      "product_code": "L9",
+      "nombre": "CHEDDITAS X60 GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletitas Saladas",
+        "4": "Chedditas"
+      }
+    },
+    {
+      "product_code": "L10",
+      "nombre": "TUBITOON SABOR JAMON SERRANO X60GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Tubitos",
+        "4": "Tubitoon"
+      }
+    },
+    {
+      "product_code": "L11",
+      "nombre": "TUBITOON SABOR QUESO CREMA X 60GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Tubitos",
+        "4": "Tubitoon"
+      }
+    },
+    {
+      "product_code": "S24",
+      "nombre": "Naturitos Frutos Rojos 10 x 90 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Naturitos Frutos Rojos"
+      }
+    },
+    {
+      "product_code": "S25",
+      "nombre": "Naturitos Dulce de Leche 10 x 90 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Naturitos Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "360",
+      "nombre": "CHATEL CIBOULETTE CAJA 12 x180GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Untar"
+      }
+    },
+    {
+      "product_code": "S26",
+      "nombre": "Granagua Sandwich (3) 8 x 600 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Granagua Sandwich"
+      }
+    },
+    {
+      "product_code": "2172",
+      "nombre": "YOGUR NATURAL ENDULZADO CAJA 12 X 280 GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Natural"
+      }
+    },
+    {
+      "product_code": "2171",
+      "nombre": "YOGUR NATURAL SIN AZUCAR CAJA 12 X 280 GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Natural"
+      }
+    },
+    {
+      "product_code": "K14",
+      "nombre": "KOMBUCHA  NARANJA 473ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Fermentadas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "K15",
+      "nombre": "KOMBUCHA LIMON 473ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Fermentadas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "K16",
+      "nombre": "KOMBUCHA ZANAHORIA 473ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Fermentadas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "K17",
+      "nombre": "KOMBUCHA REMOLACHA 473ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Fermentadas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U90",
+      "nombre": "ALFAJOR MAICENA TRADICIÓN",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Alfajores",
+        "4": "Alfajor Maicena"
+      }
+    },
+    {
+      "product_code": "U100",
+      "nombre": "ALFAJOR DE CHOCOLATE TRADICIÓN",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Alfajores",
+        "4": "Alfajor de Chocolate"
+      }
+    },
+    {
+      "product_code": "S27",
+      "nombre": "FRUTIGRAN TROPICAL X250GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Frutigran Tropical"
+      }
+    },
+    {
+      "product_code": "S28",
+      "nombre": "Salvado x240grs",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S29",
+      "nombre": "Sin sal agregada 185 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Sin Sal Agregada"
+      }
+    },
+    {
+      "product_code": "S30",
+      "nombre": "Sin sal agregada (3) 555 g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Sin Sal Agregada"
+      }
+    },
+    {
+      "product_code": "C13",
+      "nombre": "CEREAL BAR FRUTILLA Y AMAPOLAS X25GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barritas",
+        "4": "Cereal Bar Frutilla"
+      }
+    },
+    {
+      "product_code": "S31",
+      "nombre": "FIBRA CON PASAS X200GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Fibra con Pasas"
+      }
+    },
+    {
+      "product_code": "S32",
+      "nombre": "COPICHOC 9 X150GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Copichoc"
+      }
+    },
+    {
+      "product_code": "S33",
+      "nombre": "AVENA TRADICIONAL 8X400GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales y Granos",
+        "3": "Cereales",
+        "4": "Avena"
+      }
+    },
+    {
+      "product_code": "S34",
+      "nombre": "BOCADITOS RELL C/CREMA DE AVELLANA X2KG",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Bocaditos Rellenos c/ Crema de Avellana",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S35",
+      "nombre": "BOCADITOS RELL C/CREMA DE FRUTILLA X2KG",
+      "tags": {
+        "1": "Galletas",
+        "2": "Galletas Dulces",
+        "3": "Bocaditos Rellenos c/ Crema de Frutilla",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S36",
+      "nombre": "REBOZADOR NATURAL 10X750",
+      "tags": {
+        "1": "Rebozadores",
+        "2": "Rebozadores Naturales",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S37",
+      "nombre": "REBOZADOR INTEGRAL 10X750",
+      "tags": {
+        "1": "Rebozadores",
+        "2": "Rebozadores Integrales",
+        "3": "Rebozador Integral",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "S38",
+      "nombre": "LENTEJAS 10X400 GRANIX",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Lentejas"
+      }
+    },
+    {
+      "product_code": "S39",
+      "nombre": "POROTOS NEGROS 10X400 GRANIX",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Porotos Secos",
+        "4": "Porotos Negros"
+      }
+    },
+    {
+      "product_code": "2174",
+      "nombre": "YOGUR FRUTADO CEREZA x160 x18U",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Frutado"
+      }
+    },
+    {
+      "product_code": "2173",
+      "nombre": "YOGURT FRUTAS DESCREMADO ANANA X160 X 18U",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Batido"
+      }
+    },
+    {
+      "product_code": "2175",
+      "nombre": "YOGURT BATIDO CON CAFE X 12 UNIDADES X120GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Batido"
+      }
+    },
+    {
+      "product_code": "2176",
+      "nombre": "YOGURT BATIDO CON COCO RALLADO X 12 UNIDADES X120GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Batido"
+      }
+    },
+    {
+      "product_code": "2177",
+      "nombre": "YOGURT BATIDO DE LIMON X 12 UNIDADES X120GRS",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Batido"
+      }
+    },
+    {
+      "product_code": "U16",
+      "nombre": "MEDALLON 42x112G LA BLANCA POR 2",
+      "tags": {
+        "1": "Carnes",
+        "2": "Medallones",
+        "3": "Medallón",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U17",
+      "nombre": "MEDALLON 12x4x69G LA BLANCA POR 4",
+      "tags": {
+        "1": "Carnes",
+        "2": "Medallones",
+        "3": "Medallón",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U26",
+      "nombre": "SALCHICHAS 24x6 SWIFT",
+      "tags": {
+        "1": "Carnes",
+        "2": "Salchichas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U30",
+      "nombre": "SALCHICHAS LA BLANCA 24x6x190grs",
+      "tags": {
+        "1": "Carnes",
+        "2": "Salchichas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U32",
+      "nombre": "PATE DE FOIE 24X90G SWIFT",
+      "tags": {
+        "1": "Carnes",
+        "2": "Patés",
+        "3": "Paté de Foie",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U33",
+      "nombre": "PICADILLO DE CARNE 24X90G SWIFT",
+      "tags": {
+        "1": "Carnes",
+        "2": "Picadillos",
+        "3": "Picadillo de Carne",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U34",
+      "nombre": "PICADILLO DE CARNE PICANTE 24X90G SWIFT",
+      "tags": {
+        "1": "Carnes",
+        "2": "Picadillos",
+        "3": "Picadillo de Carne Picante",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U35",
+      "nombre": "PATE DE FOIE A LA CREMA 24X88G SWIFT",
+      "tags": {
+        "1": "Carnes",
+        "2": "Patés",
+        "3": "Paté de Foie",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U36",
+      "nombre": "JAMON DEL DIABLO 24X88GSWIFT",
+      "tags": {
+        "1": "Carnes",
+        "2": "Patés",
+        "3": "Paté de Jamón",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U37",
+      "nombre": "PATE DE FOIE DE POLLO 24X85G SWIFT",
+      "tags": {
+        "1": "Carnes",
+        "2": "Patés",
+        "3": "Paté de Foie de Pollo",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U38",
+      "nombre": "PATE DE PROVENZAL 24X85G SWIFT GOURMET",
+      "tags": {
+        "1": "Carnes",
+        "2": "Patés",
+        "3": "Paté de Foie Gourmet",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U39",
+      "nombre": "PATE DE PIMIENTA VERDE 24X85G SWIFT GOURMET",
+      "tags": {
+        "1": "Carnes",
+        "2": "Patés",
+        "3": "Paté de Foie Gourmet",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U40",
+      "nombre": "PATE JAMON AHUMADO 24X85G",
+      "tags": {
+        "1": "Carnes",
+        "2": "Patés",
+        "3": "Paté de Jamón Ahumado",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U41",
+      "nombre": "PATE HONGOS 24X85G",
+      "tags": {
+        "1": "Carnes",
+        "2": "Patés",
+        "3": "Paté de Hongos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U42",
+      "nombre": "PATE DE SALMON 24X85G SWIFT GOURMET",
+      "tags": {
+        "1": "Carnes",
+        "2": "Patés",
+        "3": "Paté de Salmón",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U47",
+      "nombre": "MILANESAS DE SOJA CLASICA PREFRITA",
+      "tags": {
+        "1": "Carnes",
+        "2": "Milanesas",
+        "3": "Milanesa de Soja",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U48",
+      "nombre": "MILANESA DE SOJA RELLENAS CON JAMON Y QUESO",
+      "tags": {
+        "1": "Carnes",
+        "2": "Milanesas",
+        "3": "Milanesa de Soja Rellena",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U49",
+      "nombre": "MILANESA DE SOJA RELLENAS CON ESPINACA Y QUESO",
+      "tags": {
+        "1": "Carnes",
+        "2": "Milanesas",
+        "3": "Milanesa de Soja Rellena",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U50",
+      "nombre": "MILANESA DE SOJA RELLENAS CON TOMATE Y QUESO",
+      "tags": {
+        "1": "Carnes",
+        "2": "Milanesas",
+        "3": "Milanesa de Soja Rellena",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U51",
+      "nombre": "BOCADITOS DE CARNE SWIFT 12X380G",
+      "tags": {
+        "1": "Carnes",
+        "2": "Bocaditos",
+        "3": "Bocadito de Carne",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U52",
+      "nombre": "BOCADITO DE POLLO SWIFT 12X380G",
+      "tags": {
+        "1": "Carnes",
+        "2": "Bocaditos",
+        "3": "Bocadito de Pollo",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U55",
+      "nombre": "PALITO DE POLLO SWIFT 12X260GRS",
+      "tags": {
+        "1": "Carnes",
+        "2": "Bocaditos",
+        "3": "Palito de Pollo",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U57",
+      "nombre": "MEDALLONES DE POLLO SWIFT 12X4X80G",
+      "tags": {
+        "1": "Carnes",
+        "2": "Medallones",
+        "3": "Medallón de Pollo",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U59",
+      "nombre": "MILANESA DE CARNE VACUNA CONGELADA 24 UN X 500G",
+      "tags": {
+        "1": "Carnes",
+        "2": "Milanesas",
+        "3": "Milanesa de Carne",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U62",
+      "nombre": "GRASA VACUNA  SWIFT 10 X 500G",
+      "tags": {
+        "1": "Carnes",
+        "2": "Grasas",
+        "3": "Grasa Vacuna Refinada",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U64",
+      "nombre": "CARNE PICADA CONGELADA 36 UN X500G SWIFT",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carne Picada",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U66",
+      "nombre": "ENTRAÑA FINA ENF SWIFT",
+      "tags": {
+        "1": "Carnes",
+        "2": "Entraña",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U67",
+      "nombre": "ROAST BEEF EN PORCIONES ENF SWIFT (L)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Roast Beef",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U68",
+      "nombre": "CARNAZA CUADRADA EN PORCIONES ENF SWIFT (L)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnaza Cuadrada",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U69",
+      "nombre": "TAPA DE ASADO EN PORCIONES ENF SWIFT (L)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Tapa de Asado",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U70",
+      "nombre": "VACIO EN PORCIONES NOV ENFRIADO PARA VENTA LOCAL (L)",
+      "tags": {
+        "1": "Carnes",
+        "2": "Vacio",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U71",
+      "nombre": "CHORIZOS  DE CERDO LIBRE DE GLUTEN",
+      "tags": {
+        "1": "Carnes",
+        "2": "Salchichas",
+        "3": "Chorizos Frescos",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U63",
+      "nombre": "GRASA VACUNA  SWIFT 12X 1KG",
+      "tags": {
+        "1": "Carnes",
+        "2": "Grasas",
+        "3": "Grasa Vacuna Refinada",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U72",
+      "nombre": "PAPAS FRITAS  SUPERCONGELADAS LIBRES DE GLUTEN 700G",
+      "tags": {
+        "1": "Carnes",
+        "2": "Papas",
+        "3": "Papas Pre Cocidas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U43",
+      "nombre": "NUGGETS DE ESPINACA X300GR",
+      "tags": {
+        "1": "Carnes",
+        "2": "Nuggets",
+        "3": "Nuggets de Espinaca",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U44",
+      "nombre": "NUGGETS DE BROCOLÌ X300GR",
+      "tags": {
+        "1": "Carnes",
+        "2": "Nuggets",
+        "3": "Nuggets de Brócoli",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U45",
+      "nombre": "MEDALLON DE CALABAZA Y CHOCLO X300GR",
+      "tags": {
+        "1": "Carnes",
+        "2": "Medallones",
+        "3": "Medallón de Calabaza y Choclo",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U46",
+      "nombre": "MEDALLON DE ESPINACA X300GR",
+      "tags": {
+        "1": "Carnes",
+        "2": "Medallones",
+        "3": "Medallón de Espinaca y Soja",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B54",
+      "nombre": "BOH PAN SUPERPANCHO 390GR",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan para Hot Dog",
+        "3": "Pan Superpancho",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U73",
+      "nombre": "SALCHICHAS KIDS",
+      "tags": {
+        "1": "Carnes",
+        "2": "Salchichas",
+        "3": "Salchichas Kids",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B55",
+      "nombre": "BROWNIE CHOC SABE BIEN 1P 35GR AZUL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Brownies",
+        "4": "Brownie Chocolate Sabe Bien"
+      }
+    },
+    {
+      "product_code": "B56",
+      "nombre": "BROWNIE MINI SABE BIEN 1P 35GR ROJO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Brownies",
+        "4": "Brownie Mini Sabe Bien"
+      }
+    },
+    {
+      "product_code": "B57",
+      "nombre": "BROWNIE CHIPS SABE BIEN 1P 62GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Brownies",
+        "4": "Brownie Chips Sabe Bien"
+      }
+    },
+    {
+      "product_code": "B58",
+      "nombre": "Takis Original 1p 49g FLOW BAR EXP",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Takis Original"
+      }
+    },
+    {
+      "product_code": "B59",
+      "nombre": "Takis Original 1p 85g FLOW BAR EXP",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Takis Original"
+      }
+    },
+    {
+      "product_code": "B60",
+      "nombre": "Takis Original 1p 140g FLOW BAR EXP",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Takis Original"
+      }
+    },
+    {
+      "product_code": "B61",
+      "nombre": "Takis Xplosion 1p 49g FLOW BAR EXP",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Takis Xplosion"
+      }
+    },
+    {
+      "product_code": "D41",
+      "nombre": "Vainillas x12 un x180 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Vainillas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B62",
+      "nombre": "Takis Xplosion 1p 85g FLOW BAR EXP",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Takis Xplosion"
+      }
+    },
+    {
+      "product_code": "B63",
+      "nombre": "Takis Xplosion 1p 140g FLOW BAR EXP",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Takis Xplosion"
+      }
+    },
+    {
+      "product_code": "B64",
+      "nombre": "Takis Fuego 1p 49g FLOW BAR EXP",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Takis Fuego"
+      }
+    },
+    {
+      "product_code": "B65",
+      "nombre": "Takis Fuego 1p 85g FLOW BAR EXP",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Takis Fuego"
+      }
+    },
+    {
+      "product_code": "B66",
+      "nombre": "Takis Fuego 1p 140g FLOW BAR EXP",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Takis Fuego"
+      }
+    },
+    {
+      "product_code": "B67",
+      "nombre": "BUDIN CHOCOCHIPS 250GR BIMBO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Budines",
+        "4": "Budín Chocochips"
+      }
+    },
+    {
+      "product_code": "U74",
+      "nombre": "CRUNCHIES DE POLLO SWIFT 12X380",
+      "tags": {
+        "1": "Carnes",
+        "2": "Nuggets",
+        "3": "Crunchies de Pollo",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U75",
+      "nombre": "BOCADITOS DE POLLO KIDS 12X400",
+      "tags": {
+        "1": "Carnes",
+        "2": "Bocaditos",
+        "3": "Bocaditos de Pollo Kids",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U76",
+      "nombre": "MILANESITAS DE CARNE SWIFT 12X400",
+      "tags": {
+        "1": "Carnes",
+        "2": "Milanesas",
+        "3": "Milanesitas de Carne",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U80",
+      "nombre": "MEDALLONES 60X69 G SWIFT BURGER PARRILLERAS FAMILY",
+      "tags": {
+        "1": "Carnes",
+        "2": "Medallones",
+        "3": "Medallón",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U81",
+      "nombre": "MEDALLON 60X109G CARNE VACUNA PARRILLERO SWIFT",
+      "tags": {
+        "1": "Carnes",
+        "2": "Medallones",
+        "3": "Medallón",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U54",
+      "nombre": "BOCADITOSDE POLLO GASTRONOMICOS LA BLANCA X6KG",
+      "tags": {
+        "1": "Carnes",
+        "2": "Bocaditos",
+        "3": "Bocaditos de Pollo",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "E14",
+      "nombre": "PANCETA SALADA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Panceta Salada"
+      }
+    },
+    {
+      "product_code": "E15",
+      "nombre": "LOMO AHUMADO CANADIENSE",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Lomo Ahumado"
+      }
+    },
+    {
+      "product_code": "E16",
+      "nombre": "LOMO AHUMADO CON FINAS HIERBAS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Lomo Ahumado con Hierbas"
+      }
+    },
+    {
+      "product_code": "E17",
+      "nombre": "QUESO DE CERDO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Queso de Cerdo"
+      }
+    },
+    {
+      "product_code": "E18",
+      "nombre": "SALAME TIPO MILAN ESPECIAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Charcutería",
+        "3": "Embutidos",
+        "4": "Salame Tipo Milan"
+      }
+    },
+    {
+      "product_code": "740",
+      "nombre": "YOGUR CON GRANOLA DESCREMADO",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Batido"
+      }
+    },
+    {
+      "product_code": "B68",
+      "nombre": "GRISINES CIB 1P 75GR BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "B69",
+      "nombre": "GRISINES CEBOLLA 1P 75GR BIM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U82",
+      "nombre": "PATE DE FOIE JALAPEÑO 24X90G SWIFT",
+      "tags": {
+        "1": "Carnes",
+        "2": "Patés",
+        "3": "Paté de Foie",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U83",
+      "nombre": "SALCHICHAS LARGAS 10 X 12 SWIFT INSTITUCIONAL",
+      "tags": {
+        "1": "Carnes",
+        "2": "Salchichas",
+        "3": "Salchichas Largas",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D42",
+      "nombre": "Tortillas de Trigo x180 g x6 un DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Tortillas",
+        "4": "Tortillas de Trigo"
+      }
+    },
+    {
+      "product_code": "D29",
+      "nombre": "Pan Salvado chico x350 g DON YEYO",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan",
+        "3": "Pan con Salvado",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D30",
+      "nombre": "Pan con Semilas x400 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Pan Integral",
+        "4": "Pan Integral con Semillas"
+      }
+    },
+    {
+      "product_code": "D31",
+      "nombre": "Pan  Integral grande x500 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Pan Integral",
+        "4": "Pan de Harina de Trigo Integral"
+      }
+    },
+    {
+      "product_code": "D32",
+      "nombre": "Pan Lacteado grande x600 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D33",
+      "nombre": "Pan de Mesa grande x570 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D34",
+      "nombre": "Pan Salvado grande x600 g DON YEYO",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan",
+        "3": "Pan con Salvado",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D35",
+      "nombre": "Pan Hamburguesa  x4 un x210 g DON YEYO",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan",
+        "3": "Pan para Hamburguesa con Sésamo",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D36",
+      "nombre": "Pan Maxihamburguesa x4 un x 280 g DON YEYO",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan",
+        "3": "Pan para Maxihamburguesa con Sésamo",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D37",
+      "nombre": "Pan Pancho x6 un x210 g DON YEYO",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan",
+        "3": "Pan para Pancho",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D38",
+      "nombre": "Pan Superpancho x 6un x320 g DON YEYO",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan",
+        "3": "Pan para Superpancho",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D39",
+      "nombre": "Pan Lomito  x4 un x280 g DON YEYO",
+      "tags": {
+        "1": "Panadería",
+        "2": "Pan",
+        "3": "Pan para Lomito con Sésamo",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D40",
+      "nombre": "Pionono x200 g DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Piononos",
+        "4": "Pionono"
+      }
+    },
+    {
+      "product_code": "2240",
+      "nombre": "Yogur Firme Descremado Frutilla x170g",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Firme"
+      }
+    },
+    {
+      "product_code": "2241",
+      "nombre": "Yogur Firme Descremado Vainilla x170g",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Firme"
+      }
+    },
+    {
+      "product_code": "2231",
+      "nombre": "Yogur Firme Entero Futilla x 170 grs",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Firme"
+      }
+    },
+    {
+      "product_code": "2232",
+      "nombre": "Yogur Firme Entero Vainilla x 170 grs",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Firme"
+      }
+    },
+    {
+      "product_code": "D50",
+      "nombre": "PIONONO X 180G DEVIANO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Piononos",
+        "4": "Pionono"
+      }
+    },
+    {
+      "product_code": "D51",
+      "nombre": "PAN DULCE CON FRUTAS DON YEYO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Pan Dulce",
+        "4": "Pan Dulce con Frutas"
+      }
+    },
+    {
+      "product_code": "D44",
+      "nombre": ".TAPAS DE EMPANADA HORNO Y FREIR X12 UN DEVIANO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Tapas",
+        "4": "Tapas de Empanada"
+      }
+    },
+    {
+      "product_code": "D45",
+      "nombre": ".PASCUALINA CRIOLLA X2 UN X350 G DEVIANO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panes y Tartas",
+        "3": "Pascualinas",
+        "4": "Pascualina Criolla"
+      }
+    },
+    {
+      "product_code": "D46",
+      "nombre": ".ÑOQUIS C/SEMOLIN X900 G DEVIANO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D47",
+      "nombre": ".RAVIOLES C/POLLO Y VERDURA X900 G DEVIANO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D48",
+      "nombre": ".RAVIOLES C/RICOTA X450 G DEVIANO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "D49",
+      "nombre": ".RAVIOLES C/VERDURA X450 G DEVIANO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "product_code": "U84",
+      "nombre": "LOMO DE ATUN AL NATURAL SWIFT 170GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pescados",
+        "3": "Atún",
+        "4": "Lomo de Atún"
+      }
+    },
+    {
+      "product_code": "U85",
+      "nombre": "LOMO DE ATUN EN ACEITE SWIFT 170 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pescados",
+        "3": "Atún",
+        "4": "Lomo de Atún en Aceite"
+      }
+    }
+  ]
+}

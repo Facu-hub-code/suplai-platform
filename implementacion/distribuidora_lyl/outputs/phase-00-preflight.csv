@@ -1,0 +1,7 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: 3eae0384-a219-48a6-98bd-3541e3458114 nombre: Distribuidora LyL
+schema_existe,Tablas en distribuidora_lyl,ok,schema verificado
+productos_vacio,COUNT productos = 0,ok,0 productos encontrados
+clients_vacio,COUNT clients = 0,ok,0 clientes encontrados
+mcp_conectado,MCP supabase responde,ok,conectado
+carpeta_implementacion,manifest.yaml presente,ok,verificado

@@ -1,0 +1,5 @@
+promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+1,LYL-0016,¡Oferta Semanal! Chocolatada Mr. Choco,Disfrutá de un 15% de descuento en cada pack de 18 unidades.,percent_off,15,1,1,2026-06-15,2026-07-22,true,true
+2,LYL-0135,Imperdible: Huevitos KINDER,Llevate un pack de 12 y ahorrá $1000. ¡No te lo pierdas!,total_off,1000,2,1,2026-06-15,2026-07-22,true,true
+3,LYL-0136,Promo Especial: Huevitos KINDER,Comprá 3 packs a solo $2493.33 cada uno. Ideal para compartir.,fixed_price,2493.33,1,3,2026-06-15,2026-07-22,true,true
+4,LYL-0001,¡Refrescante! Gaseosa Secco,Aprovechá un 20% off en packs de 4 unidades de 3L.,percent_off,20,3,1,2026-06-15,2026-07-22,true,true

@@ -9,7 +9,7 @@ if sys.platform.startswith('win'):
     sys.stdout.reconfigure(encoding='utf-8')
 
 # Intentar cargar .env
-dotenv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env')
+dotenv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), '.env')
 dotenv_exists = os.path.exists(dotenv_path)
 
 if dotenv_exists:

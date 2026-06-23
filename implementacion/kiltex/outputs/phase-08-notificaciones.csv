@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2240,Calidad,open,Reclamo por JUGO GENY NARANJA BIDÓN x 5 LTS. con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego JUGO GENY NARANJA BIDÓN x 5 LTS. en mal estado y quiero hacer el reclamo.",2026-06-17 11:15:00,,true
+TKT-2241,Calidad,open,Reclamo por Poroto Aduki con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego Poroto Aduki en mal estado y quiero hacer el reclamo.",2026-06-16 08:15:00,,true
+TKT-2242,Calidad,open,Reclamo por MANI CROCANTE SABOR CLÁSICO x 200 GRS. con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego MANI CROCANTE SABOR CLÁSICO x 200 GRS. en mal estado y quiero hacer el reclamo.",2026-06-15 05:15:00,,true
+TKT-2243,Logistica,open,Demora en la entrega del pedido P-00151 de QUESO RALLADO DISPLAY 20x40GRS.,5493418277249,"Buen dia, sigo esperando el pedido P-00151 de QUESO RALLADO DISPLAY 20x40GRS y no llego.",2026-06-17 02:15:00,,true
+TKT-2244,Logistica,open,Demora en la entrega del pedido P-00123 de XNuez pelada mariposa Chandler Extra Light 100grs.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de XNuez pelada mariposa Chandler Extra Light 100grs y no llego.",2026-06-16 11:15:00,,true
+TKT-2245,Logistica,open,Demora en la entrega del pedido P-00126 de Tostadas dulces 200 g.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de Tostadas dulces 200 g y no llego.",2026-06-15 08:15:00,,true
+TKT-2246,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Almacén La Abuela.,5493587905250,,2026-06-17 05:15:00,,true
+TKT-2247,Administracion,open,Solicita corregir datos administrativos de Carnicería El Buen Sabor en el sistema.,5493582641213,,2026-06-16 02:15:00,,true
+TKT-2248,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Parrilla El Asador.,5492991227644,,2026-06-15 11:15:00,,true
+TKT-2249,Administracion,open,Solicita corregir datos administrativos de Restaurante La Estancia en el sistema.,5493418277249,,2026-06-17 08:15:00,,true
+TKT-2250,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Almacén El Sabor de Casa.,5492612928724,,2026-06-16 05:15:00,,true
+TKT-2251,Administracion,closed,Solicita corregir datos administrativos de Restaurante La Casa de la Carne en el sistema.,5492617236955,,2026-06-01 05:15:00,2026-06-01 20:15:00,true
+TKT-2252,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Parrilla El Sabor del Campo.,5492617413812,,2026-05-31 11:15:00,2026-06-01 03:15:00,true
+TKT-2253,Logistica,closed,Demora en la entrega del pedido P-00132 de QUESO CREMA LIGHT CAJA 12x190GRS.,5492998066543,,2026-05-30 09:15:00,2026-05-31 02:15:00,true
+TKT-2254,Calidad,closed,Reclamo por NESCAFE DOLCA MAS AROMA 6X50G con entrega en mal estado o faltante parcial.,5492999435946,,2026-05-29 07:15:00,2026-05-30 01:15:00,true
+TKT-2255,Administracion,closed,Solicita corregir datos administrativos de Almacén del Pueblo en el sistema.,5493587747641,,2026-05-28 05:15:00,2026-05-29 00:15:00,true
+TKT-2256,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Carnicería Don José.,5492614053074,,2026-06-12 11:15:00,2026-06-13 07:15:00,true
+TKT-2257,Logistica,closed,Demora en la entrega del pedido P-00157 de KEFIR NARANJA 500 ML.,5493514079279,,2026-06-11 09:15:00,2026-06-12 06:15:00,true

@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Almacén La Abuela,Almacén La Abuela,5493587905250,2,1,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.425156,-64.16476,true
+2,Carnicería El Buen Sabor,Carnicería El Buen Sabor,5493582641213,3,2,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.431832,-64.162991,true
+3,Parrilla El Asador,Parrilla El Asador,5492991227644,4,3,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.43189,-64.167176,true
+4,Restaurante La Estancia,Restaurante La Estancia,5493418277249,1,4,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.431063,-64.168264,true
+5,Almacén del Pueblo,Almacén del Pueblo,5493587747641,2,5,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.426008,-64.16392,true
+6,Carnicería Don José,Carnicería Don José,5492614053074,3,6,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.430763,-64.169928,true
+7,Pinturería Colorín,Pinturería Colorín,5493514079279,4,7,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.426051,-64.162293,true
+8,Ferretería La Herradura,Ferretería La Herradura,5493876914178,1,8,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.43054,-64.167686,true
+9,Corralón El Progreso,Corralón El Progreso,5492617175545,2,9,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.432068,-64.162599,true
+10,Asadería El Fuego,Asadería El Fuego,5493818437953,3,10,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.412713,-64.181259,true
+11,Almacén La Esquina,Almacén La Esquina,5493582132179,4,11,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.414435,-64.186124,true
+12,Carnicería La Tradición,Carnicería La Tradición,5493872845902,1,12,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.408425,-64.186998,true
+13,Parrilla El Rincón,Parrilla El Rincón,5492997670210,2,13,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.407309,-64.181604,true
+14,Restaurante El Fogón,Restaurante El Fogón,5493811657614,3,14,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.408296,-64.185424,true
+15,Almacén El Mercado,Almacén El Mercado,5492994145193,4,15,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.412262,-64.179166,true
+16,Carnicería El Amigo,Carnicería El Amigo,5493515971311,1,16,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.413792,-64.184263,true
+17,Pinturería La Paleta,Pinturería La Paleta,5492994228106,2,17,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.408129,-64.184998,true
+18,Ferretería El Martillo,Ferretería El Martillo,5492998718887,3,18,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.407513,-64.179654,true
+19,Corralón La Construcción,Corralón La Construcción,5492995028869,4,19,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Fernández,2,2,-31.409275,-64.17372,true
+20,Asadería La Parrilla,Asadería La Parrilla,5493517304254,1,20,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Fernández,2,2,-31.409363,-64.177852,true
+21,Almacén La Familia,Almacén La Familia,5493416986538,2,21,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Fernández,2,2,-31.403919,-64.172897,true
+22,Carnicería El Sabor Argentino,Carnicería El Sabor Argentino,5492619239862,3,22,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Fernández,2,2,-31.407432,-64.177412,true
+23,Parrilla El Rancho,Parrilla El Rancho,5493513952681,4,23,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Fernández,2,2,-31.408942,-64.173387,true
+24,Restaurante El Buen Gusto,Restaurante El Buen Gusto,5493414799650,1,24,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Fernández,2,2,-31.403359,-64.17717,true
+25,Almacén La Nueva,Almacén La Nueva,5492992500733,2,25,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Fernández,2,2,-31.402542,-64.171716,true
+26,Carnicería La Preferida,Carnicería La Preferida,5492615139305,3,26,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Fernández,2,2,-31.403497,-64.177459,true
+27,Pinturería El Color,Pinturería El Color,5492618861463,4,27,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.422465,-64.191876,true
+28,Ferretería El Tornillo,Ferretería El Tornillo,5493812941974,1,28,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.422582,-64.192823,true
+29,Corralón La Tierra,Corralón La Tierra,5493817404433,2,29,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.41699,-64.197495,true
+30,Asadería El Asador,Asadería El Asador,5493419686914,3,30,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.416985,-64.193626,true
+31,Almacén La Vida,Almacén La Vida,5493518648263,4,31,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.418402,-64.198623,true
+32,Carnicería El Corte Perfecto,Carnicería El Corte Perfecto,5493516216782,1,32,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.422691,-64.191452,true
+33,Parrilla La Tradición,Parrilla La Tradición,5492612780568,2,33,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.418988,-64.192813,true
+34,Restaurante El Sazón,Restaurante El Sazón,5493582639964,3,34,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.423856,-64.197441,true
+35,Almacén El Rincón,Almacén El Rincón,5493814729528,4,35,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.397936,-64.168247,true
+36,Carnicería La Estrella,Carnicería La Estrella,5493876922419,1,36,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.399004,-64.163838,true
+37,Pinturería El Arcoíris,Pinturería El Arcoíris,5492618889598,2,37,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.403695,-64.168826,true
+38,Ferretería La Clave,Ferretería La Clave,5492615021286,3,38,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.403353,-64.165432,true
+39,Corralón El Refugio,Corralón El Refugio,5493813520000,4,39,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.402454,-64.165086,true
+40,Asadería El Fogón,Asadería El Fogón,5492997489876,1,40,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.39716,-64.165034,true
+41,Almacén El Buen Gusto,Almacén El Buen Gusto,5493519107005,2,41,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.402768,-64.168221,true
+42,Carnicería El Gran Asado,Carnicería El Gran Asado,5493874104594,3,42,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.396707,-64.163906,true
+43,Parrilla El Sabor del Campo,Parrilla El Sabor del Campo,5492617413812,4,43,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Fernández,2,5,-31.428431,-64.20153,true
+44,Restaurante La Casa de la Carne,Restaurante La Casa de la Carne,5492617236955,1,44,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Fernández,2,5,-31.428569,-64.203434,true
+45,Almacén El Sabor de Casa,Almacén El Sabor de Casa,5492612928724,2,45,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Fernández,2,5,-31.433417,-64.197723,true
+46,Carnicería El Maestro,Carnicería El Maestro,5492999435946,3,46,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Fernández,2,5,-31.428992,-64.197215,true
+47,Pinturería La Gama,Pinturería La Gama,5493517632424,4,47,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Fernández,2,5,-31.432892,-64.201388,true
+48,Ferretería El Proveedor,Ferretería El Proveedor,5493416524997,1,48,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Fernández,2,5,-31.434268,-64.197757,true
+49,Corralón La Base,Corralón La Base,5493876499570,2,49,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Fernández,2,5,-31.429141,-64.201235,true
+50,Asadería El Gran Asador,Asadería El Gran Asador,5492998066543,3,50,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Fernández,2,5,-31.432042,-64.202734,true

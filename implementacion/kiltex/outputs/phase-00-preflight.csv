@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: 4793c074-c83f-4cdd-b667-41fb7113c594
+schema_existe,Tablas en kiltex,ok,schema kiltex verificado
+productos_vacio,COUNT productos = 0,ok,0 productos encontrados
+clients_vacio,COUNT clients = 0,ok,0 clientes encontrados
+mcp_conectado,MCP supabase responde,ok,Conexion exitosa a la base de datos
+carpeta_implementacion,manifest.yaml presente,ok,manifest.yaml verificado
+is_mock_column,Columna is_mock en productos,ok,columna is_mock presente
+excel_presente,Archivo en inputs/,ok,productos_rows.csv presente
