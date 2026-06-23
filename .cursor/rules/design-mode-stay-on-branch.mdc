@@ -1,0 +1,38 @@
+---
+description: Design mode — permanecer en la rama de trabajo actual (no cambiar a main/master)
+alwaysApply: true
+---
+
+# Design mode — quedarse en la rama actual
+
+Cuando el usuario está en **design mode** (iteración de UI en browser preview, canvas de diseño, o lo indica explícitamente), el agente **debe** seguir trabajando en la **rama git actual** del repo que toque — **sin** cambiar a `main`, `master` ni crear una rama nueva desde troncal.
+
+## Señales de design mode
+
+- El usuario dice "design mode", "modo diseño" o pide probar/ajustar UI en el browser preview.
+- Hay canvas de diseño o selección de elementos DOM del preview activa.
+- El usuario pide seguir iterando sobre la misma feature branch (ej. `feat/vendedor-phone-country-selector`).
+
+## Reglas
+
+1. **Antes de editar código**, verificar la rama actual (`git branch --show-current`) y **permanecer en ella**.
+2. **NO** ejecutar `git checkout main`, `git checkout master`, ni `git checkout -b …` desde troncal salvo que el usuario lo pida explícitamente.
+3. **SÍ** permitido en design mode:
+   - `git merge <otra-rama-feature>` hacia la rama actual (ej. integrar layout V2 en la rama de phone).
+   - `git pull` en la rama actual si tiene upstream.
+   - commit local en la rama actual (solo si el usuario lo pide).
+4. Si hace falta traer cambios de otra feature, **mergear esa rama en la actual**, no mover el working tree a otra rama ni a troncal.
+5. Al iniciar tareas de UI, informar brevemente en qué rama se trabaja (una línea).
+
+## Excepción a git-sync-and-feature-branch
+
+La regla `git-sync-and-feature-branch.mdc` sigue aplicando fetch/pull y PRs hacia troncal al **terminar** entregables. En design mode, la restricción "crear rama desde troncal" **no aplica**: la rama ya elegida es la de trabajo.
+
+## Ejemplo
+
+```
+Usuario en design mode, rama: feat/vendedor-phone-country-selector
+✅ merge feat/vendedores-v2-layout → feat/vendedor-phone-country-selector
+✅ editar components/phone-country-input.tsx en la misma rama
+❌ git checkout main && git checkout -b feat/nueva-cosa
+```
