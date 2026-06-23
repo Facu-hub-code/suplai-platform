@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2603,Calidad,open,Reclamo por Yerba M. Clas. Export X 1 Kg con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego Yerba M. Clas. Export X 1 Kg en mal estado y quiero hacer el reclamo.",2026-06-19 11:15:00,,true
+TKT-2604,Calidad,open,"Reclamo por Bombilla  Pico De Rey 17,5 Cm. Acero Inox. con entrega en mal estado o faltante parcial.",5493582641213,"Hola, me llego Bombilla  Pico De Rey 17,5 Cm. Acero Inox. en mal estado y quiero hacer el reclamo.",2026-06-18 08:15:00,,true
+TKT-2605,Calidad,open,Reclamo por Yerba M. Tradicional Export X 500 Gr. con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego Yerba M. Tradicional Export X 500 Gr. en mal estado y quiero hacer el reclamo.",2026-06-17 05:15:00,,true
+TKT-2606,Logistica,open,"Demora en la entrega del pedido P-00154 de Bombilla  Pico De Rey 17,5 Cm. Acero Inox..",5493418277249,"Buen dia, sigo esperando el pedido P-00154 de Bombilla  Pico De Rey 17,5 Cm. Acero Inox. y no llego.",2026-06-19 02:15:00,,true
+TKT-2607,Logistica,open,Demora en la entrega del pedido P-00123 de Yerba M. Tradicional Export X 3 Kg.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de Yerba M. Tradicional Export X 3 Kg y no llego.",2026-06-18 11:15:00,,true
+TKT-2608,Logistica,open,Demora en la entrega del pedido P-00126 de Terere - NARANJA c/ MENTA x250 Gr.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de Terere - NARANJA c/ MENTA x250 Gr y no llego.",2026-06-17 08:15:00,,true
+TKT-2609,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Yerba Mate La Tradición.,5493587905250,,2026-06-19 05:15:00,,true
+TKT-2610,Administracion,open,Solicita corregir datos administrativos de Accesorios de Mate El Gaucho en el sistema.,5493582641213,,2026-06-18 02:15:00,,true
+TKT-2611,Comercial,open,Pide hablar con el encargado comercial por la cuenta de La Casa del Mate.,5492991227644,,2026-06-17 11:15:00,,true
+TKT-2612,Administracion,open,Solicita corregir datos administrativos de Yerba Mate El Cielo en el sistema.,5493418277249,,2026-06-19 08:15:00,,true
+TKT-2613,Comercial,open,Pide hablar con el encargado comercial por la cuenta de El Mate de la Historia.,5492612928724,,2026-06-18 05:15:00,,true
+TKT-2614,Administracion,closed,Solicita corregir datos administrativos de La Yerba de la Tierra en el sistema.,5492617236955,,2026-06-03 05:15:00,2026-06-03 20:15:00,true
+TKT-2615,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Yerba Mate El Viento.,5492617413812,,2026-06-02 11:15:00,2026-06-03 03:15:00,true
+TKT-2616,Logistica,closed,Demora en la entrega del pedido P-00132 de Yerba M. Padron Arg. Export C/ Palo X 1 Kg.,5492998066543,,2026-06-01 09:15:00,2026-06-02 02:15:00,true
+TKT-2617,Calidad,closed,Reclamo por Yerba M. Tradicional Export X 500 Gr. con entrega en mal estado o faltante parcial.,5492999435946,,2026-05-31 07:15:00,2026-06-01 01:15:00,true
+TKT-2618,Administracion,closed,Solicita corregir datos administrativos de Mate y Más en el sistema.,5493587747641,,2026-05-30 05:15:00,2026-05-31 00:15:00,true
+TKT-2619,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de El Rincón del Mate.,5492614053074,,2026-06-14 11:15:00,2026-06-15 07:15:00,true
+TKT-2620,Logistica,closed,Demora en la entrega del pedido P-00157 de Bombilla Plana 17 Cm. Acero Inox..,5493514079279,,2026-06-13 09:15:00,2026-06-14 06:15:00,true

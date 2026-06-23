@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5492612780568,5492612780568,ai,ai,"Hola Accesorios de Mate El Refugio, paso a revisar tu pedido P-00099 de Yerba M. Premiun Ed. Limitada X 1 Kg.","Hola Accesorios de Mate El Refugio, paso a revisar tu pedido P-00099 de Yerba M. Premiun Ed. Limitada X 1 Kg.",2026-06-18 10:50:41,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 10:52:10,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 57341.40.,Te confirmo que el pedido P-00099 fue registrado correctamente por 57341.40.,2026-06-18 10:53:06,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 10:54:15,true
+5492612928724,5492612928724,ai,ai,"Hola El Mate de la Historia, paso a revisar tu pedido P-00123 de Yerba M. Tradicional Export X 3 Kg.","Hola El Mate de la Historia, paso a revisar tu pedido P-00123 de Yerba M. Tradicional Export X 3 Kg.",2026-06-19 12:50:41,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-19 12:51:26,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 80899.34.,Te confirmo que el pedido P-00123 fue registrado correctamente por 80899.34.,2026-06-19 12:51:59,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-19 12:53:32,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-19 12:54:28,true
+5492614053074,5492614053074,ai,ai,"Hola El Rincón del Mate, vi que tenes un pedido abierto por Terere - LIMON c/ MENTA x250 Gr y queria ayudarte a cerrarlo.","Hola El Rincón del Mate, vi que tenes un pedido abierto por Terere - LIMON c/ MENTA x250 Gr y queria ayudarte a cerrarlo.",2026-06-19 09:50:41,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-19 09:52:19,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 50300.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 50300.00. Si queres te lo dejo cerrado hoy.,2026-06-19 09:52:55,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-19 09:54:13,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-19 09:55:30,true
+5492615021286,5492615021286,ai,ai,"Hola Accesorios de Mate La Cultura, paso a revisar tu pedido P-00112 de KIT Terere -   LIMON c/ MENTA x250 Gr.","Hola Accesorios de Mate La Cultura, paso a revisar tu pedido P-00112 de KIT Terere -   LIMON c/ MENTA x250 Gr.",2026-06-17 10:50:41,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 10:52:30,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 63239.50.,Te confirmo que el pedido P-00112 fue registrado correctamente por 63239.50.,2026-06-17 10:53:18,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 10:54:01,true
+5492615139305,5492615139305,ai,ai,"Hola Yerba Mate La Esperanza, paso a revisar tu pedido P-00076 de Yerba M. Premiun Export X 1 Kg.","Hola Yerba Mate La Esperanza, paso a revisar tu pedido P-00076 de Yerba M. Premiun Export X 1 Kg.",2026-06-17 12:50:41,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 12:51:48,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 41239.50.,Te confirmo que el pedido P-00076 fue registrado correctamente por 41239.50.,2026-06-17 12:53:05,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 12:53:48,true
+5492617175545,5492617175545,ai,ai,"Hola La Yerba de Rafaela, paso a revisar tu pedido P-00027 de Yerba M. Tradicional Export X 1 Kg.","Hola La Yerba de Rafaela, paso a revisar tu pedido P-00027 de Yerba M. Tradicional Export X 1 Kg.",2026-06-18 09:50:41,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 09:52:10,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 6918.21.,Te confirmo que el pedido P-00027 fue registrado correctamente por 6918.21.,2026-06-18 09:52:59,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 09:54:18,true
+5492617236955,5492617236955,ai,ai,"Hola La Yerba de la Tierra, paso a revisar tu pedido P-00126 de Terere - NARANJA c/ MENTA x250 Gr.","Hola La Yerba de la Tierra, paso a revisar tu pedido P-00126 de Terere - NARANJA c/ MENTA x250 Gr.",2026-06-19 11:50:41,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-19 11:51:32,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 96195.30.,Te confirmo que el pedido P-00126 fue registrado correctamente por 96195.30.,2026-06-19 11:52:19,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-19 11:53:08,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-19 11:53:58,true
+5492617413812,5492617413812,ai,ai,"Hola Yerba Mate El Viento, paso a revisar tu pedido P-00129 de Yerba M. Clas. Export X 1 Kg.","Hola Yerba Mate El Viento, paso a revisar tu pedido P-00129 de Yerba M. Clas. Export X 1 Kg.",2026-06-19 10:50:41,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-19 10:52:31,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 91196.76.,Te confirmo que el pedido P-00129 fue registrado correctamente por 91196.76.,2026-06-19 10:53:48,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-19 10:54:43,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-19 10:55:55,true
+5492618861463,5492618861463,ai,ai,"Hola El Mate de la Familia, paso a revisar tu pedido P-00079 de Terere - ANANA c/ MENTA  x250 Gr.","Hola El Mate de la Familia, paso a revisar tu pedido P-00079 de Terere - ANANA c/ MENTA  x250 Gr.",2026-06-18 11:50:41,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 11:52:07,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 42500.00.,Te confirmo que el pedido P-00079 fue registrado correctamente por 42500.00.,2026-06-18 11:52:40,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 11:54:10,true
+5492618889598,5492618889598,ai,ai,"Hola Yerba Mate El Legado, paso a revisar tu pedido P-00110 de Yerba M. Padron Arg. C/ Palo X 500 Gr..","Hola Yerba Mate El Legado, paso a revisar tu pedido P-00110 de Yerba M. Padron Arg. C/ Palo X 500 Gr..",2026-06-18 11:50:41,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 11:52:16,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 12260.40.,Te confirmo que el pedido P-00110 fue registrado correctamente por 12260.40.,2026-06-18 11:53:13,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 11:54:15,true
+5492619239862,5492619239862,ai,ai,"Hola Yerba Mate El Sol, paso a revisar tu pedido P-00066 de Terere - NARANJA c/ MENTA x250 Gr.","Hola Yerba Mate El Sol, paso a revisar tu pedido P-00066 de Terere - NARANJA c/ MENTA x250 Gr.",2026-06-17 11:50:41,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 11:52:25,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 61254.63.,Te confirmo que el pedido P-00066 fue registrado correctamente por 61254.63.,2026-06-17 11:53:53,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 11:54:32,true
+5492991227644,5492991227644,ai,ai,"Hola La Casa del Mate, vi que tenes un pedido abierto por Yerba M. Tradicional Export X 500 Gr. y queria ayudarte a cerrarlo.","Hola La Casa del Mate, vi que tenes un pedido abierto por Yerba M. Tradicional Export X 500 Gr. y queria ayudarte a cerrarlo.",2026-06-19 12:50:41,true
+5492991227644,5492991227644,human,human,"Hola, queria hacer un reclamo por error de facturacion.","Hola, queria hacer un reclamo por error de facturacion.",2026-06-19 12:51:39,true
+5492991227644,5492991227644,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-06-19 12:52:55,true
+5492991227644,5492991227644,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-19 12:54:40,true
+5492991227644,5492991227644,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-19 12:55:10,true
+5492992500733,5492992500733,ai,ai,"Hola Accesorios de Mate El Corazón, paso a revisar tu pedido P-00073 de Bombilla  Pico De Rey 17,5 Cm. Acero Inox..","Hola Accesorios de Mate El Corazón, paso a revisar tu pedido P-00073 de Bombilla  Pico De Rey 17,5 Cm. Acero Inox..",2026-06-18 08:50:41,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 08:52:24,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 226295.30.,Te confirmo que el pedido P-00073 fue registrado correctamente por 226295.30.,2026-06-18 08:53:02,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 08:53:49,true
+5492994145193,5492994145193,ai,ai,"Hola Yerba Mate El Sabor, paso a revisar tu pedido P-00045 de Yerba M. Premiun Ed. Limitada X 1 Kg.","Hola Yerba Mate El Sabor, paso a revisar tu pedido P-00045 de Yerba M. Premiun Ed. Limitada X 1 Kg.",2026-06-18 08:50:41,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 08:51:42,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 47628.22.,Te confirmo que el pedido P-00045 fue registrado correctamente por 47628.22.,2026-06-18 08:52:49,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 08:54:14,true
+5492994228106,5492994228106,ai,ai,"Hola El Mate de la Tía, paso a revisar tu pedido P-00051 de Yerba M. Tradicional Export X 1 Kg.","Hola El Mate de la Tía, paso a revisar tu pedido P-00051 de Yerba M. Tradicional Export X 1 Kg.",2026-06-18 11:50:41,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 11:52:00,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 75324.54.,Te confirmo que el pedido P-00051 fue registrado correctamente por 75324.54.,2026-06-18 11:52:34,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 11:53:15,true
+5492995028869,5492995028869,ai,ai,"Hola Mate y Tradición, paso a revisar tu pedido P-00057 de Yerba M. Tradicional Export X 3 Kg.","Hola Mate y Tradición, paso a revisar tu pedido P-00057 de Yerba M. Tradicional Export X 3 Kg.",2026-06-18 09:50:41,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 09:52:06,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 163440.92.,Te confirmo que el pedido P-00057 fue registrado correctamente por 163440.92.,2026-06-18 09:52:36,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 09:53:50,true
+5492997489876,5492997489876,ai,ai,"Hola El Mate del Pueblo, paso a revisar tu pedido P-00118 de Yerba M. Padron Arg. Export C/ Palo X 1 Kg.","Hola El Mate del Pueblo, paso a revisar tu pedido P-00118 de Yerba M. Padron Arg. Export C/ Palo X 1 Kg.",2026-06-17 08:50:41,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 08:52:22,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 104191.08.,Te confirmo que el pedido P-00118 fue registrado correctamente por 104191.08.,2026-06-17 08:53:14,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 08:54:04,true
+5492997670210,5492997670210,ai,ai,"Hola El Mate de la Abuela, paso a revisar tu pedido P-00037 de Terere - ANANA c/ MENTA  x250 Gr.","Hola El Mate de la Abuela, paso a revisar tu pedido P-00037 de Terere - ANANA c/ MENTA  x250 Gr.",2026-06-18 10:50:41,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 10:51:48,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 9500.00.,Te confirmo que el pedido P-00037 fue registrado correctamente por 9500.00.,2026-06-18 10:52:35,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 10:53:36,true
+5492998066543,5492998066543,ai,ai,"Hola El Mate de la Naturaleza, paso a revisar tu pedido P-00132 de Yerba M. Padron Arg. Export C/ Palo X 1 Kg.","Hola El Mate de la Naturaleza, paso a revisar tu pedido P-00132 de Yerba M. Padron Arg. Export C/ Palo X 1 Kg.",2026-06-19 09:50:41,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-19 09:52:19,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 118830.77.,Te confirmo que el pedido P-00132 fue registrado correctamente por 118830.77.,2026-06-19 09:52:58,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-19 09:54:33,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-19 09:55:43,true
+5492998718887,5492998718887,ai,ai,"Hola Yerba Mate El Camino, paso a revisar tu pedido P-00054 de Yerba M. Premiun Export X 1 Kg.","Hola Yerba Mate El Camino, paso a revisar tu pedido P-00054 de Yerba M. Premiun Export X 1 Kg.",2026-06-17 10:50:41,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 10:52:38,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 31025.48.,Te confirmo que el pedido P-00054 fue registrado correctamente por 31025.48.,2026-06-17 10:53:24,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 10:54:30,true
+5492999435946,5492999435946,ai,ai,"Hola Yerba Mate La Luz, paso a revisar tu pedido P-00135 de Yerba M. Tradicional Export X 500 Gr..","Hola Yerba Mate La Luz, paso a revisar tu pedido P-00135 de Yerba M. Tradicional Export X 500 Gr..",2026-06-19 08:50:41,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-19 08:52:24,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 34928.75.,Te confirmo que el pedido P-00135 fue registrado correctamente por 34928.75.,2026-06-19 08:53:12,true
+5492999435946,5492999435946,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-19 08:54:58,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-19 08:55:30,true
+5493414799650,5493414799650,ai,ai,"Hola Yerba Mate La Amistad, paso a revisar tu pedido P-00071 de Yerba M. Clas. Export X 5 Kg.","Hola Yerba Mate La Amistad, paso a revisar tu pedido P-00071 de Yerba M. Clas. Export X 5 Kg.",2026-06-17 09:50:41,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 09:51:39,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 117736.24.,Te confirmo que el pedido P-00071 fue registrado correctamente por 117736.24.,2026-06-17 09:52:19,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 09:53:12,true
+5493416524997,5493416524997,ai,ai,"Hola Yerba Mate El Eco, paso a revisar tu pedido P-00138 de Terere - ANANA c/ MENTA  x250 Gr.","Hola Yerba Mate El Eco, paso a revisar tu pedido P-00138 de Terere - ANANA c/ MENTA  x250 Gr.",2026-06-17 12:50:41,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 12:51:32,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 141771.47.,Te confirmo que el pedido P-00138 fue registrado correctamente por 141771.47.,2026-06-17 12:52:31,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 12:53:38,true
+5493416986538,5493416986538,ai,ai,"Hola Accesorios de Mate El Cacique, paso a revisar tu pedido P-00063 de KIT Terere -   NARANJA c/ MENTA x250 Gr.","Hola Accesorios de Mate El Cacique, paso a revisar tu pedido P-00063 de KIT Terere -   NARANJA c/ MENTA x250 Gr.",2026-06-18 12:50:41,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 12:52:10,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 99000.00.,Te confirmo que el pedido P-00063 fue registrado correctamente por 99000.00.,2026-06-18 12:53:12,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 12:54:15,true
+5493418277249,5493418277249,ai,ai,"Hola Yerba Mate El Cielo, vi que tenes un pedido abierto por Bombilla  Pico De Rey 17,5 Cm. Acero Inox. y queria ayudarte a cerrarlo.","Hola Yerba Mate El Cielo, vi que tenes un pedido abierto por Bombilla  Pico De Rey 17,5 Cm. Acero Inox. y queria ayudarte a cerrarlo.",2026-06-19 11:50:41,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-06-19 11:52:19,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-06-19 11:53:01,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-19 11:54:02,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-19 11:54:51,true
+5493419686914,5493419686914,ai,ai,"Hola Yerba Mate El Encuentro, paso a revisar tu pedido P-00090 de KIT Terere -   NARANJA c/ MENTA x250 Gr.","Hola Yerba Mate El Encuentro, paso a revisar tu pedido P-00090 de KIT Terere -   NARANJA c/ MENTA x250 Gr.",2026-06-17 08:50:41,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 08:51:37,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 44000.00.,Te confirmo que el pedido P-00090 fue registrado correctamente por 44000.00.,2026-06-17 08:53:01,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 08:54:24,true
+5493513952681,5493513952681,ai,ai,"Hola El Mate de la Ciudad, paso a revisar tu pedido P-00068 de Bombilla Plana 19 Cm. Acero Inox..","Hola El Mate de la Ciudad, paso a revisar tu pedido P-00068 de Bombilla Plana 19 Cm. Acero Inox..",2026-06-18 10:50:41,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 10:51:51,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 175712.47.,Te confirmo que el pedido P-00068 fue registrado correctamente por 175712.47.,2026-06-18 10:53:02,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 10:54:00,true
+5493514079279,5493514079279,ai,ai,"Hola Yerba Mate del Pueblo, vi que tenes un pedido abierto por Bombilla Plana 17 Cm. Acero Inox. y queria ayudarte a cerrarlo.","Hola Yerba Mate del Pueblo, vi que tenes un pedido abierto por Bombilla Plana 17 Cm. Acero Inox. y queria ayudarte a cerrarlo.",2026-06-19 08:50:41,true
+5493514079279,5493514079279,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-19 08:52:29,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 103239.50. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 103239.50. Si queres te lo dejo cerrado hoy.,2026-06-19 08:53:44,true
+5493514079279,5493514079279,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-19 08:54:46,true
+5493514079279,5493514079279,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-19 08:55:50,true
+5493515971311,5493515971311,ai,ai,"Hola La Yerba de Mis Abuelos, paso a revisar tu pedido P-00048 de Yerba M. Tradicional Export X 500 Gr..","Hola La Yerba de Mis Abuelos, paso a revisar tu pedido P-00048 de Yerba M. Tradicional Export X 500 Gr..",2026-06-17 12:50:41,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 12:51:49,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 64555.38.,Te confirmo que el pedido P-00048 fue registrado correctamente por 64555.38.,2026-06-17 12:53:07,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 12:53:45,true
+5493516216782,5493516216782,ai,ai,"Hola Yerba Mate La Pasión, paso a revisar tu pedido P-00096 de Yerba M. Padron Arg. Export C/ Palo X 1 Kg.","Hola Yerba Mate La Pasión, paso a revisar tu pedido P-00096 de Yerba M. Padron Arg. Export C/ Palo X 1 Kg.",2026-06-17 11:50:41,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 11:51:27,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 27971.53.,Te confirmo que el pedido P-00096 fue registrado correctamente por 27971.53.,2026-06-17 11:52:46,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 11:53:54,true
+5493517304254,5493517304254,ai,ai,"Hola La Yerba de Siempre, paso a revisar tu pedido P-00060 de KIT Terere -   ANANA c/ MENTA x250 Gr.","Hola La Yerba de Siempre, paso a revisar tu pedido P-00060 de KIT Terere -   ANANA c/ MENTA x250 Gr.",2026-06-17 08:50:41,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 08:52:30,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 52995.80.,Te confirmo que el pedido P-00060 fue registrado correctamente por 52995.80.,2026-06-17 08:53:22,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 08:54:36,true
+5493517632424,5493517632424,ai,ai,"Hola Accesorios de Mate El Camino, paso a revisar tu pedido P-00141 de Terere - LIMON c/ MENTA x250 Gr.","Hola Accesorios de Mate El Camino, paso a revisar tu pedido P-00141 de Terere - LIMON c/ MENTA x250 Gr.",2026-06-18 11:50:41,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 11:51:57,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 3800.00.,Te confirmo que el pedido P-00141 fue registrado correctamente por 3800.00.,2026-06-18 11:53:04,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 11:54:31,true
+5493518648263,5493518648263,ai,ai,"Hola El Mate de los Amigos, paso a revisar tu pedido P-00093 de Yerba M. Comp. C/ Hierbas X 500 Gr..","Hola El Mate de los Amigos, paso a revisar tu pedido P-00093 de Yerba M. Comp. C/ Hierbas X 500 Gr..",2026-06-18 12:50:41,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 12:52:34,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 18892.15.,Te confirmo que el pedido P-00093 fue registrado correctamente por 18892.15.,2026-06-18 12:53:47,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 12:55:12,true
+5493519107005,5493519107005,ai,ai,"Hola Yerba Mate La Herencia, paso a revisar tu pedido P-00144 de Yerba M. Clas. Export X 5 Kg.","Hola Yerba Mate La Herencia, paso a revisar tu pedido P-00144 de Yerba M. Clas. Export X 5 Kg.",2026-06-17 10:50:41,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 10:52:15,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 187336.24.,Te confirmo que el pedido P-00144 fue registrado correctamente por 187336.24.,2026-06-17 10:52:58,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 10:54:27,true
+5493582132179,5493582132179,ai,ai,"Hola El Mate de Oro, paso a revisar tu pedido P-00032 de KIT Terere -   LIMON c/ MENTA x250 Gr.","Hola El Mate de Oro, paso a revisar tu pedido P-00032 de KIT Terere -   LIMON c/ MENTA x250 Gr.",2026-06-18 12:50:41,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 12:52:14,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 45591.05.,Te confirmo que el pedido P-00032 fue registrado correctamente por 45591.05.,2026-06-18 12:53:38,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 12:54:25,true
+5493582639964,5493582639964,ai,ai,"Hola Yerba Mate El Aroma, paso a revisar tu pedido P-00102 de Yerba M. Tradicional Export X 3 Kg.","Hola Yerba Mate El Aroma, paso a revisar tu pedido P-00102 de Yerba M. Tradicional Export X 3 Kg.",2026-06-17 09:50:41,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 09:51:29,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 126705.69.,Te confirmo que el pedido P-00102 fue registrado correctamente por 126705.69.,2026-06-17 09:52:20,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 09:53:00,true
+5493582641213,5493582641213,ai,ai,"Hola Accesorios de Mate El Gaucho, vi que tenes un pedido abierto por Bombilla  Pico De Rey 17,5 Cm. Acero Inox. y queria ayudarte a cerrarlo.","Hola Accesorios de Mate El Gaucho, vi que tenes un pedido abierto por Bombilla  Pico De Rey 17,5 Cm. Acero Inox. y queria ayudarte a cerrarlo.",2026-06-19 01:50:41,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-06-19 01:52:05,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-06-19 01:53:09,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-19 01:54:04,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-19 01:55:01,true
+5493587747641,5493587747641,ai,ai,"Hola Mate y Más, vi que tenes un pedido abierto por Bombilla  Pico De Loro 19,5 Cm. Acero Inox. y queria ayudarte a cerrarlo.","Hola Mate y Más, vi que tenes un pedido abierto por Bombilla  Pico De Loro 19,5 Cm. Acero Inox. y queria ayudarte a cerrarlo.",2026-06-19 10:50:41,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-19 10:52:25,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 96239.50. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 96239.50. Si queres te lo dejo cerrado hoy.,2026-06-19 10:53:27,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-19 10:55:03,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-19 10:55:53,true
+5493587905250,5493587905250,ai,ai,"Hola Yerba Mate La Tradición, vi que tenes un pedido abierto por Yerba M. Clas. Export X 1 Kg y queria ayudarte a cerrarlo.","Hola Yerba Mate La Tradición, vi que tenes un pedido abierto por Yerba M. Clas. Export X 1 Kg y queria ayudarte a cerrarlo.",2026-06-19 02:50:41,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-06-19 02:51:39,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,2026-06-19 02:53:06,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-19 02:54:49,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-19 02:55:21,true
+5493811657614,5493811657614,ai,ai,"Hola Accesorios de Mate La Huella, paso a revisar tu pedido P-00040 de Bombilla  Pico De Loro 19,5 Cm. Acero Inox..","Hola Accesorios de Mate La Huella, paso a revisar tu pedido P-00040 de Bombilla  Pico De Loro 19,5 Cm. Acero Inox..",2026-06-17 09:50:41,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 09:52:04,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 108229.68.,Te confirmo que el pedido P-00040 fue registrado correctamente por 108229.68.,2026-06-17 09:53:00,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 09:53:57,true
+5493812941974,5493812941974,ai,ai,"Hola Yerba Mate La Tierra, paso a revisar tu pedido P-00084 de Yerba M. Premiun Export X 500 Gr..","Hola Yerba Mate La Tierra, paso a revisar tu pedido P-00084 de Yerba M. Premiun Export X 500 Gr..",2026-06-17 10:50:41,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 10:52:36,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 62734.28.,Te confirmo que el pedido P-00084 fue registrado correctamente por 62734.28.,2026-06-17 10:53:46,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 10:54:19,true
+5493813520000,5493813520000,ai,ai,"Hola Yerba Mate La Raíz, paso a revisar tu pedido P-00115 de Terere - LIMON c/ MENTA x250 Gr.","Hola Yerba Mate La Raíz, paso a revisar tu pedido P-00115 de Terere - LIMON c/ MENTA x250 Gr.",2026-06-18 09:50:41,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 09:51:32,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 57100.00.,Te confirmo que el pedido P-00115 fue registrado correctamente por 57100.00.,2026-06-18 09:52:38,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 09:54:04,true
+5493814729528,5493814729528,ai,ai,"Hola La Yerba de la Abuela, paso a revisar tu pedido P-00105 de KIT Terere -   ANANA c/ MENTA x250 Gr.","Hola La Yerba de la Abuela, paso a revisar tu pedido P-00105 de KIT Terere -   ANANA c/ MENTA x250 Gr.",2026-06-18 08:50:41,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 08:52:15,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 29600.00.,Te confirmo que el pedido P-00105 fue registrado correctamente por 29600.00.,2026-06-18 08:53:25,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 08:54:47,true
+5493817404433,5493817404433,ai,ai,"Hola Accesorios de Mate La Vida, paso a revisar tu pedido P-00087 de Bombilla  Pico De Rey 17,5 Cm. Acero Inox..","Hola Accesorios de Mate La Vida, paso a revisar tu pedido P-00087 de Bombilla  Pico De Rey 17,5 Cm. Acero Inox..",2026-06-18 09:50:41,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 09:52:17,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 145577.31.,Te confirmo que el pedido P-00087 fue registrado correctamente por 145577.31.,2026-06-18 09:53:43,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 09:54:46,true
+5493818437953,5493818437953,ai,ai,"Hola Mateando, paso a revisar tu pedido P-00029 de KIT Terere -   NARANJA c/ MENTA x250 Gr.","Hola Mateando, paso a revisar tu pedido P-00029 de KIT Terere -   NARANJA c/ MENTA x250 Gr.",2026-06-17 08:50:41,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 08:52:19,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 27500.00.,Te confirmo que el pedido P-00029 fue registrado correctamente por 27500.00.,2026-06-17 08:53:10,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 08:54:05,true
+5493872845902,5493872845902,ai,ai,"Hola Yerba Mate La Estrella, paso a revisar tu pedido P-00034 de KIT Terere -   ANANA c/ MENTA x250 Gr.","Hola Yerba Mate La Estrella, paso a revisar tu pedido P-00034 de KIT Terere -   ANANA c/ MENTA x250 Gr.",2026-06-17 11:50:41,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 11:51:43,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 68918.12.,Te confirmo que el pedido P-00034 fue registrado correctamente por 68918.12.,2026-06-17 11:53:06,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 11:53:45,true
+5493874104594,5493874104594,ai,ai,"Hola Accesorios de Mate El Saber, paso a revisar tu pedido P-00146 de Yerba M. Org.  Export X 500 Grs.","Hola Accesorios de Mate El Saber, paso a revisar tu pedido P-00146 de Yerba M. Org.  Export X 500 Grs.",2026-06-18 09:50:41,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-18 09:51:50,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 81927.06.,Te confirmo que el pedido P-00146 fue registrado correctamente por 81927.06.,2026-06-18 09:53:08,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-18 09:53:39,true
+5493876499570,5493876499570,ai,ai,"Hola La Yerba de la Amistad, paso a revisar tu pedido P-00149 de Bombilla Plana 15 Cm. Acero Inox..","Hola La Yerba de la Amistad, paso a revisar tu pedido P-00149 de Bombilla Plana 15 Cm. Acero Inox..",2026-06-17 08:50:41,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 08:51:29,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 86510.28.,Te confirmo que el pedido P-00149 fue registrado correctamente por 86510.28.,2026-06-17 08:52:07,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 08:53:03,true
+5493876914178,5493876914178,ai,ai,"Hola Accesorios del Mate, paso a revisar tu pedido P-00024 de Yerba M. Clas. Export X 1 Kg.","Hola Accesorios del Mate, paso a revisar tu pedido P-00024 de Yerba M. Clas. Export X 1 Kg.",2026-06-17 10:50:41,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 10:52:14,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 175764.99.,Te confirmo que el pedido P-00024 fue registrado correctamente por 175764.99.,2026-06-17 10:53:23,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 10:54:28,true
+5493876922419,5493876922419,ai,ai,"Hola El Mate de la Tradición, paso a revisar tu pedido P-00107 de KIT Terere -   NARANJA c/ MENTA x250 Gr.","Hola El Mate de la Tradición, paso a revisar tu pedido P-00107 de KIT Terere -   NARANJA c/ MENTA x250 Gr.",2026-06-17 12:50:41,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-17 12:51:45,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 73000.00.,Te confirmo que el pedido P-00107 fue registrado correctamente por 73000.00.,2026-06-17 12:52:23,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-17 12:53:14,true

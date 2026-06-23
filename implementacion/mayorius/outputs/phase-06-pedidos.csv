@@ -1,0 +1,158 @@
+pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
+P-00001,25001,5493587905250,Yerba Mate La Tradición,2026-03-01 08:00:00,confirmado,5700.00,Pedido historico mock - Yerba Mate La Tradición,true,false,1
+P-00002,25001,5493587905250,Yerba Mate La Tradición,2026-03-18 09:19:07,entregado,1900.00,Pedido historico mock - Yerba Mate La Tradición,true,false,1
+P-00003,25001,5493587905250,Yerba Mate La Tradición,2026-04-04 10:38:14,facturado,18885.48,Pedido historico mock - Yerba Mate La Tradición,true,false,1
+P-00004,25002,5493582641213,Accesorios de Mate El Gaucho,2026-03-08 11:11:23,entregado,9500.00,Pedido historico mock - Accesorios de Mate El Gaucho,true,false,1
+P-00005,25002,5493582641213,Accesorios de Mate El Gaucho,2026-03-25 12:30:30,facturado,41500.00,Pedido historico mock - Accesorios de Mate El Gaucho,true,false,1
+P-00006,25002,5493582641213,Accesorios de Mate El Gaucho,2026-04-11 13:49:37,confirmado,37310.60,Pedido historico mock - Accesorios de Mate El Gaucho,true,false,1
+P-00007,25003,5492991227644,La Casa del Mate,2026-03-15 14:22:46,facturado,34243.70,Pedido historico mock - La Casa del Mate,true,false,1
+P-00008,25003,5492991227644,La Casa del Mate,2026-04-01 15:41:53,confirmado,46500.00,Pedido historico mock - La Casa del Mate,true,false,1
+P-00009,25003,5492991227644,La Casa del Mate,2026-04-18 16:00:00,entregado,31860.31,Pedido historico mock - La Casa del Mate,true,false,1
+P-00010,25004,5493418277249,Yerba Mate El Cielo,2026-03-22 17:33:09,confirmado,131758.92,Pedido historico mock - Yerba Mate El Cielo,true,false,1
+P-00011,25004,5493418277249,Yerba Mate El Cielo,2026-04-08 08:52:16,entregado,16500.00,Pedido historico mock - Yerba Mate El Cielo,true,false,1
+P-00012,25004,5493418277249,Yerba Mate El Cielo,2026-04-25 09:11:23,facturado,50682.24,Pedido historico mock - Yerba Mate El Cielo,true,false,1
+P-00013,25005,5493587747641,Mate y Más,2026-03-29 10:44:32,entregado,156918.12,Pedido historico mock - Mate y Más,true,false,1
+P-00014,25005,5493587747641,Mate y Más,2026-04-15 11:03:39,facturado,16567.14,Pedido historico mock - Mate y Más,true,false,1
+P-00015,25005,5493587747641,Mate y Más,2026-05-02 12:22:46,confirmado,144394.97,Pedido historico mock - Mate y Más,true,false,1
+P-00016,25006,5492614053074,El Rincón del Mate,2026-04-05 13:55:55,facturado,88548.06,Pedido historico mock - El Rincón del Mate,true,false,1
+P-00017,25006,5492614053074,El Rincón del Mate,2026-04-22 14:14:02,confirmado,53265.58,Pedido historico mock - El Rincón del Mate,true,false,1
+P-00018,25006,5492614053074,El Rincón del Mate,2026-05-09 15:33:09,entregado,95887.04,Pedido historico mock - El Rincón del Mate,true,false,1
+P-00019,25007,5493514079279,Yerba Mate del Pueblo,2026-04-12 16:06:18,confirmado,66887.04,Pedido historico mock - Yerba Mate del Pueblo,true,false,1
+P-00020,25007,5493514079279,Yerba Mate del Pueblo,2026-04-29 17:25:25,entregado,138100.00,Pedido historico mock - Yerba Mate del Pueblo,true,false,1
+P-00021,25007,5493514079279,Yerba Mate del Pueblo,2026-05-16 08:44:32,facturado,41994.02,Pedido historico mock - Yerba Mate del Pueblo,true,false,1
+P-00022,25008,5493876914178,Accesorios del Mate,2026-04-19 09:17:41,entregado,92973.94,Pedido historico mock - Accesorios del Mate,true,false,1
+P-00023,25008,5493876914178,Accesorios del Mate,2026-05-06 10:36:48,facturado,11313.00,Pedido historico mock - Accesorios del Mate,true,false,1
+P-00024,25008,5493876914178,Accesorios del Mate,2026-05-23 11:55:55,confirmado,175764.99,Pedido historico mock - Accesorios del Mate,true,false,1
+P-00025,25009,5492617175545,La Yerba de Rafaela,2026-04-26 12:28:04,facturado,112743.70,Pedido historico mock - La Yerba de Rafaela,true,false,1
+P-00026,25009,5492617175545,La Yerba de Rafaela,2026-05-13 13:47:11,confirmado,24029.68,Pedido historico mock - La Yerba de Rafaela,true,false,1
+P-00027,25009,5492617175545,La Yerba de Rafaela,2026-05-30 14:06:18,entregado,6918.21,Pedido historico mock - La Yerba de Rafaela,true,false,1
+P-00028,25010,5493818437953,Mateando,2026-05-03 15:39:27,confirmado,77518.23,Pedido historico mock - Mateando,true,false,1
+P-00029,25010,5493818437953,Mateando,2026-05-20 16:58:34,entregado,27500.00,Pedido historico mock - Mateando,true,false,1
+P-00030,25010,5493818437953,Mateando,2026-03-06 17:17:41,facturado,53312.54,Pedido historico mock - Mateando,true,false,1
+P-00031,25011,5493582132179,El Mate de Oro,2026-05-10 08:50:50,entregado,85000.00,Pedido historico mock - El Mate de Oro,true,false,1
+P-00032,25011,5493582132179,El Mate de Oro,2026-05-27 09:09:57,facturado,45591.05,Pedido historico mock - El Mate de Oro,true,false,1
+P-00033,25011,5493582132179,El Mate de Oro,2026-03-13 10:28:04,confirmado,105000.00,Pedido historico mock - El Mate de Oro,true,false,1
+P-00034,25012,5493872845902,Yerba Mate La Estrella,2026-05-17 11:01:13,facturado,68918.12,Pedido historico mock - Yerba Mate La Estrella,true,false,1
+P-00035,25012,5493872845902,Yerba Mate La Estrella,2026-03-03 12:20:20,confirmado,18020.56,Pedido historico mock - Yerba Mate La Estrella,true,false,1
+P-00036,25012,5493872845902,Yerba Mate La Estrella,2026-03-20 13:39:27,entregado,86954.54,Pedido historico mock - Yerba Mate La Estrella,true,false,1
+P-00037,25013,5492997670210,El Mate de la Abuela,2026-05-24 14:12:36,confirmado,9500.00,Pedido historico mock - El Mate de la Abuela,true,false,1
+P-00038,25013,5492997670210,El Mate de la Abuela,2026-03-10 15:31:43,entregado,11312.54,Pedido historico mock - El Mate de la Abuela,true,false,1
+P-00039,25013,5492997670210,El Mate de la Abuela,2026-03-27 16:50:50,facturado,77335.29,Pedido historico mock - El Mate de la Abuela,true,false,1
+P-00040,25014,5493811657614,Accesorios de Mate La Huella,2026-05-31 17:23:59,entregado,108229.68,Pedido historico mock - Accesorios de Mate La Huella,true,false,1
+P-00041,25014,5493811657614,Accesorios de Mate La Huella,2026-03-17 08:42:06,facturado,72096.19,Pedido historico mock - Accesorios de Mate La Huella,true,false,1
+P-00042,25014,5493811657614,Accesorios de Mate La Huella,2026-04-03 09:01:13,confirmado,40195.30,Pedido historico mock - Accesorios de Mate La Huella,true,false,1
+P-00043,25015,5492994145193,Yerba Mate El Sabor,2026-03-07 10:34:22,facturado,127412.01,Pedido historico mock - Yerba Mate El Sabor,true,false,1
+P-00044,25015,5492994145193,Yerba Mate El Sabor,2026-03-24 11:53:29,confirmado,112162.10,Pedido historico mock - Yerba Mate El Sabor,true,false,1
+P-00045,25015,5492994145193,Yerba Mate El Sabor,2026-04-10 12:12:36,entregado,47628.22,Pedido historico mock - Yerba Mate El Sabor,true,false,1
+P-00046,25016,5493515971311,La Yerba de Mis Abuelos,2026-03-14 13:45:45,confirmado,30483.80,Pedido historico mock - La Yerba de Mis Abuelos,true,false,1
+P-00047,25016,5493515971311,La Yerba de Mis Abuelos,2026-03-31 14:04:52,entregado,82705.69,Pedido historico mock - La Yerba de Mis Abuelos,true,false,1
+P-00048,25016,5493515971311,La Yerba de Mis Abuelos,2026-04-17 15:23:59,facturado,64555.38,Pedido historico mock - La Yerba de Mis Abuelos,true,false,1
+P-00049,25017,5492994228106,El Mate de la Tía,2026-03-21 16:56:08,entregado,141500.00,Pedido historico mock - El Mate de la Tía,true,false,1
+P-00050,25017,5492994228106,El Mate de la Tía,2026-04-07 17:15:15,facturado,283997.15,Pedido historico mock - El Mate de la Tía,true,false,1
+P-00051,25017,5492994228106,El Mate de la Tía,2026-04-24 08:34:22,confirmado,75324.54,Pedido historico mock - El Mate de la Tía,true,false,1
+P-00052,25018,5492998718887,Yerba Mate El Camino,2026-03-28 09:07:31,facturado,7600.00,Pedido historico mock - Yerba Mate El Camino,true,false,1
+P-00053,25018,5492998718887,Yerba Mate El Camino,2026-04-14 10:26:38,confirmado,59000.00,Pedido historico mock - Yerba Mate El Camino,true,false,1
+P-00054,25018,5492998718887,Yerba Mate El Camino,2026-05-01 11:45:45,entregado,31025.48,Pedido historico mock - Yerba Mate El Camino,true,false,1
+P-00055,25019,5492995028869,Mate y Tradición,2026-04-04 12:18:54,confirmado,9500.00,Pedido historico mock - Mate y Tradición,true,false,1
+P-00056,25019,5492995028869,Mate y Tradición,2026-04-21 13:37:01,entregado,11335.29,Pedido historico mock - Mate y Tradición,true,false,1
+P-00057,25019,5492995028869,Mate y Tradición,2026-05-08 14:56:08,facturado,163440.92,Pedido historico mock - Mate y Tradición,true,false,1
+P-00058,25020,5493517304254,La Yerba de Siempre,2026-04-11 15:29:17,entregado,96664.11,Pedido historico mock - La Yerba de Siempre,true,false,1
+P-00059,25020,5493517304254,La Yerba de Siempre,2026-04-28 16:48:24,facturado,64200.00,Pedido historico mock - La Yerba de Siempre,true,false,1
+P-00060,25020,5493517304254,La Yerba de Siempre,2026-05-15 17:07:31,confirmado,52995.80,Pedido historico mock - La Yerba de Siempre,true,false,1
+P-00061,25021,5493416986538,Accesorios de Mate El Cacique,2026-04-18 08:40:40,facturado,17437.62,Pedido historico mock - Accesorios de Mate El Cacique,true,false,1
+P-00062,25021,5493416986538,Accesorios de Mate El Cacique,2026-05-05 09:59:47,confirmado,152196.71,Pedido historico mock - Accesorios de Mate El Cacique,true,false,1
+P-00063,25021,5493416986538,Accesorios de Mate El Cacique,2026-05-22 10:18:54,entregado,99000.00,Pedido historico mock - Accesorios de Mate El Cacique,true,false,1
+P-00064,25022,5492619239862,Yerba Mate El Sol,2026-04-25 11:51:03,confirmado,88643.70,Pedido historico mock - Yerba Mate El Sol,true,false,1
+P-00065,25022,5492619239862,Yerba Mate El Sol,2026-05-12 12:10:10,entregado,5700.00,Pedido historico mock - Yerba Mate El Sol,true,false,1
+P-00066,25022,5492619239862,Yerba Mate El Sol,2026-05-29 13:29:17,facturado,61254.63,Pedido historico mock - Yerba Mate El Sol,true,false,1
+P-00067,25023,5493513952681,El Mate de la Ciudad,2026-05-02 14:02:26,entregado,60705.69,Pedido historico mock - El Mate de la Ciudad,true,false,1
+P-00068,25023,5493513952681,El Mate de la Ciudad,2026-05-19 15:21:33,facturado,175712.47,Pedido historico mock - El Mate de la Ciudad,true,false,1
+P-00069,25023,5493513952681,El Mate de la Ciudad,2026-03-05 16:40:40,confirmado,131380.18,Pedido historico mock - El Mate de la Ciudad,true,false,1
+P-00070,25024,5493414799650,Yerba Mate La Amistad,2026-05-09 17:13:49,facturado,5500.00,Pedido historico mock - Yerba Mate La Amistad,true,false,1
+P-00071,25024,5493414799650,Yerba Mate La Amistad,2026-05-26 08:32:56,confirmado,117736.24,Pedido historico mock - Yerba Mate La Amistad,true,false,1
+P-00072,25024,5493414799650,Yerba Mate La Amistad,2026-03-12 09:51:03,entregado,33028.22,Pedido historico mock - Yerba Mate La Amistad,true,false,1
+P-00073,25025,5492992500733,Accesorios de Mate El Corazón,2026-05-16 10:24:12,confirmado,226295.30,Pedido historico mock - Accesorios de Mate El Corazón,true,false,1
+P-00074,25025,5492992500733,Accesorios de Mate El Corazón,2026-03-02 11:43:19,entregado,30439.22,Pedido historico mock - Accesorios de Mate El Corazón,true,false,1
+P-00075,25025,5492992500733,Accesorios de Mate El Corazón,2026-03-19 12:02:26,facturado,5500.00,Pedido historico mock - Accesorios de Mate El Corazón,true,false,1
+P-00076,25026,5492615139305,Yerba Mate La Esperanza,2026-05-23 13:35:35,entregado,41239.50,Pedido historico mock - Yerba Mate La Esperanza,true,false,1
+P-00077,25026,5492615139305,Yerba Mate La Esperanza,2026-03-09 14:54:42,facturado,40020.56,Pedido historico mock - Yerba Mate La Esperanza,true,false,1
+P-00078,25026,5492615139305,Yerba Mate La Esperanza,2026-03-26 15:13:49,confirmado,76696.64,Pedido historico mock - Yerba Mate La Esperanza,true,false,1
+P-00079,25027,5492618861463,El Mate de la Familia,2026-05-30 16:46:58,facturado,42500.00,Pedido historico mock - El Mate de la Familia,true,false,1
+P-00080,25027,5492618861463,El Mate de la Familia,2026-03-16 17:05:05,confirmado,42010.28,Pedido historico mock - El Mate de la Familia,true,false,1
+P-00081,25027,5492618861463,El Mate de la Familia,2026-04-02 08:24:12,entregado,130662.70,Pedido historico mock - El Mate de la Familia,true,false,1
+P-00082,25028,5493812941974,Yerba Mate La Tierra,2026-03-06 09:57:21,confirmado,33000.00,Pedido historico mock - Yerba Mate La Tierra,true,false,1
+P-00083,25028,5493812941974,Yerba Mate La Tierra,2026-03-23 10:16:28,entregado,50756.92,Pedido historico mock - Yerba Mate La Tierra,true,false,1
+P-00084,25028,5493812941974,Yerba Mate La Tierra,2026-04-09 11:35:35,facturado,62734.28,Pedido historico mock - Yerba Mate La Tierra,true,false,1
+P-00085,25029,5493817404433,Accesorios de Mate La Vida,2026-03-13 12:08:44,entregado,103505.14,Pedido historico mock - Accesorios de Mate La Vida,true,false,1
+P-00086,25029,5493817404433,Accesorios de Mate La Vida,2026-03-30 13:27:51,facturado,11335.29,Pedido historico mock - Accesorios de Mate La Vida,true,false,1
+P-00087,25029,5493817404433,Accesorios de Mate La Vida,2026-04-16 14:46:58,confirmado,145577.31,Pedido historico mock - Accesorios de Mate La Vida,true,false,1
+P-00088,25030,5493419686914,Yerba Mate El Encuentro,2026-03-20 15:19:07,facturado,68776.36,Pedido historico mock - Yerba Mate El Encuentro,true,false,1
+P-00089,25030,5493419686914,Yerba Mate El Encuentro,2026-04-06 16:38:14,confirmado,55631.42,Pedido historico mock - Yerba Mate El Encuentro,true,false,1
+P-00090,25030,5493419686914,Yerba Mate El Encuentro,2026-04-23 17:57:21,entregado,44000.00,Pedido historico mock - Yerba Mate El Encuentro,true,false,1
+P-00091,25031,5493518648263,El Mate de los Amigos,2026-03-27 08:30:30,confirmado,66000.00,Pedido historico mock - El Mate de los Amigos,true,false,1
+P-00092,25031,5493518648263,El Mate de los Amigos,2026-04-13 09:49:37,entregado,98000.00,Pedido historico mock - El Mate de los Amigos,true,false,1
+P-00093,25031,5493518648263,El Mate de los Amigos,2026-04-30 10:08:44,facturado,18892.15,Pedido historico mock - El Mate de los Amigos,true,false,1
+P-00094,25032,5493516216782,Yerba Mate La Pasión,2026-04-03 11:41:53,entregado,73641.76,Pedido historico mock - Yerba Mate La Pasión,true,false,1
+P-00095,25032,5493516216782,Yerba Mate La Pasión,2026-04-20 12:00:00,facturado,147377.18,Pedido historico mock - Yerba Mate La Pasión,true,false,1
+P-00096,25032,5493516216782,Yerba Mate La Pasión,2026-05-07 13:19:07,confirmado,27971.53,Pedido historico mock - Yerba Mate La Pasión,true,false,1
+P-00097,25033,5492612780568,Accesorios de Mate El Refugio,2026-04-10 14:52:16,facturado,18020.56,Pedido historico mock - Accesorios de Mate El Refugio,true,false,1
+P-00098,25033,5492612780568,Accesorios de Mate El Refugio,2026-04-27 15:11:23,confirmado,145259.06,Pedido historico mock - Accesorios de Mate El Refugio,true,false,1
+P-00099,25033,5492612780568,Accesorios de Mate El Refugio,2026-05-14 16:30:30,entregado,57341.40,Pedido historico mock - Accesorios de Mate El Refugio,true,false,1
+P-00100,25034,5493582639964,Yerba Mate El Aroma,2026-04-17 17:03:39,confirmado,90625.50,Pedido historico mock - Yerba Mate El Aroma,true,false,1
+P-00101,25034,5493582639964,Yerba Mate El Aroma,2026-05-04 08:22:46,entregado,49500.00,Pedido historico mock - Yerba Mate El Aroma,true,false,1
+P-00102,25034,5493582639964,Yerba Mate El Aroma,2026-05-21 09:41:53,facturado,126705.69,Pedido historico mock - Yerba Mate El Aroma,true,false,1
+P-00103,25035,5493814729528,La Yerba de la Abuela,2026-04-24 10:14:02,entregado,34900.00,Pedido historico mock - La Yerba de la Abuela,true,false,1
+P-00104,25035,5493814729528,La Yerba de la Abuela,2026-05-11 11:33:09,facturado,17437.62,Pedido historico mock - La Yerba de la Abuela,true,false,1
+P-00105,25035,5493814729528,La Yerba de la Abuela,2026-05-28 12:52:16,confirmado,29600.00,Pedido historico mock - La Yerba de la Abuela,true,false,1
+P-00106,25036,5493876922419,El Mate de la Tradición,2026-05-01 13:25:25,facturado,42083.00,Pedido historico mock - El Mate de la Tradición,true,false,1
+P-00107,25036,5493876922419,El Mate de la Tradición,2026-05-18 14:44:32,confirmado,73000.00,Pedido historico mock - El Mate de la Tradición,true,false,1
+P-00108,25036,5493876922419,El Mate de la Tradición,2026-03-04 15:03:39,entregado,125226.25,Pedido historico mock - El Mate de la Tradición,true,false,1
+P-00109,25037,5492618889598,Yerba Mate El Legado,2026-05-08 16:36:48,confirmado,104437.62,Pedido historico mock - Yerba Mate El Legado,true,false,1
+P-00110,25037,5492618889598,Yerba Mate El Legado,2026-05-25 17:55:55,entregado,12260.40,Pedido historico mock - Yerba Mate El Legado,true,false,1
+P-00111,25037,5492618889598,Yerba Mate El Legado,2026-03-11 08:14:02,facturado,39847.42,Pedido historico mock - Yerba Mate El Legado,true,false,1
+P-00112,25038,5492615021286,Accesorios de Mate La Cultura,2026-05-15 09:47:11,entregado,63239.50,Pedido historico mock - Accesorios de Mate La Cultura,true,false,1
+P-00113,25038,5492615021286,Accesorios de Mate La Cultura,2026-03-01 10:06:18,facturado,189806.35,Pedido historico mock - Accesorios de Mate La Cultura,true,false,1
+P-00114,25038,5492615021286,Accesorios de Mate La Cultura,2026-03-18 11:25:25,confirmado,14710.28,Pedido historico mock - Accesorios de Mate La Cultura,true,false,1
+P-00115,25039,5493813520000,Yerba Mate La Raíz,2026-05-22 12:58:34,facturado,57100.00,Pedido historico mock - Yerba Mate La Raíz,true,false,1
+P-00116,25039,5493813520000,Yerba Mate La Raíz,2026-03-08 13:17:41,confirmado,66510.28,Pedido historico mock - Yerba Mate La Raíz,true,false,1
+P-00117,25039,5493813520000,Yerba Mate La Raíz,2026-03-25 14:36:48,entregado,115836.24,Pedido historico mock - Yerba Mate La Raíz,true,false,1
+P-00118,25040,5492997489876,El Mate del Pueblo,2026-05-29 15:09:57,confirmado,104191.08,Pedido historico mock - El Mate del Pueblo,true,false,1
+P-00119,25040,5492997489876,El Mate del Pueblo,2026-03-15 16:28:04,entregado,26000.00,Pedido historico mock - El Mate del Pueblo,true,false,1
+P-00120,25040,5492997489876,El Mate del Pueblo,2026-04-01 17:47:11,facturado,48632.21,Pedido historico mock - El Mate del Pueblo,true,false,1
+P-00121,0,5492612928724,El Mate de la Historia,2026-03-05 08:20:20,entregado,13075.16,Pedido historico mock - El Mate de la Historia,true,false,1
+P-00122,0,5492612928724,El Mate de la Historia,2026-03-22 09:39:27,facturado,124677.97,Pedido historico mock - El Mate de la Historia,true,false,1
+P-00123,0,5492612928724,El Mate de la Historia,2026-04-08 10:58:34,confirmado,80899.34,Pedido historico mock - El Mate de la Historia,true,false,1
+P-00124,0,5492617236955,La Yerba de la Tierra,2026-03-12 11:31:43,facturado,18020.56,Pedido historico mock - La Yerba de la Tierra,true,false,1
+P-00125,0,5492617236955,La Yerba de la Tierra,2026-03-29 12:50:50,confirmado,34591.05,Pedido historico mock - La Yerba de la Tierra,true,false,1
+P-00126,0,5492617236955,La Yerba de la Tierra,2026-04-15 13:09:57,entregado,96195.30,Pedido historico mock - La Yerba de la Tierra,true,false,1
+P-00127,0,5492617413812,Yerba Mate El Viento,2026-03-19 14:42:06,confirmado,124860.77,Pedido historico mock - Yerba Mate El Viento,true,false,1
+P-00128,0,5492617413812,Yerba Mate El Viento,2026-04-05 15:01:13,entregado,90392.15,Pedido historico mock - Yerba Mate El Viento,true,false,1
+P-00129,0,5492617413812,Yerba Mate El Viento,2026-04-22 16:20:20,facturado,91196.76,Pedido historico mock - Yerba Mate El Viento,true,false,1
+P-00130,0,5492998066543,El Mate de la Naturaleza,2026-03-26 17:53:29,entregado,16500.00,Pedido historico mock - El Mate de la Naturaleza,true,false,1
+P-00131,0,5492998066543,El Mate de la Naturaleza,2026-04-12 08:12:36,facturado,77557.71,Pedido historico mock - El Mate de la Naturaleza,true,false,1
+P-00132,0,5492998066543,El Mate de la Naturaleza,2026-04-29 09:31:43,confirmado,118830.77,Pedido historico mock - El Mate de la Naturaleza,true,false,1
+P-00133,0,5492999435946,Yerba Mate La Luz,2026-04-02 10:04:52,facturado,114195.80,Pedido historico mock - Yerba Mate La Luz,true,false,1
+P-00134,0,5492999435946,Yerba Mate La Luz,2026-04-19 11:23:59,confirmado,52000.00,Pedido historico mock - Yerba Mate La Luz,true,false,1
+P-00135,0,5492999435946,Yerba Mate La Luz,2026-05-06 12:42:06,entregado,34928.75,Pedido historico mock - Yerba Mate La Luz,true,false,1
+P-00136,0,5493416524997,Yerba Mate El Eco,2026-04-09 13:15:15,confirmado,82319.96,Pedido historico mock - Yerba Mate El Eco,true,false,1
+P-00137,0,5493416524997,Yerba Mate El Eco,2026-04-26 14:34:22,entregado,25695.30,Pedido historico mock - Yerba Mate El Eco,true,false,1
+P-00138,0,5493416524997,Yerba Mate El Eco,2026-05-13 15:53:29,facturado,141771.47,Pedido historico mock - Yerba Mate El Eco,true,false,1
+P-00139,0,5493517632424,Accesorios de Mate El Camino,2026-04-16 16:26:38,entregado,128100.00,Pedido historico mock - Accesorios de Mate El Camino,true,false,1
+P-00140,0,5493517632424,Accesorios de Mate El Camino,2026-05-03 17:45:45,facturado,185084.62,Pedido historico mock - Accesorios de Mate El Camino,true,false,1
+P-00141,0,5493517632424,Accesorios de Mate El Camino,2026-05-20 08:04:52,confirmado,3800.00,Pedido historico mock - Accesorios de Mate El Camino,true,false,1
+P-00142,0,5493519107005,Yerba Mate La Herencia,2026-04-23 09:37:01,facturado,9500.00,Pedido historico mock - Yerba Mate La Herencia,true,false,1
+P-00143,0,5493519107005,Yerba Mate La Herencia,2026-05-10 10:56:08,confirmado,115836.24,Pedido historico mock - Yerba Mate La Herencia,true,false,1
+P-00144,0,5493519107005,Yerba Mate La Herencia,2026-05-27 11:15:15,entregado,187336.24,Pedido historico mock - Yerba Mate La Herencia,true,false,1
+P-00145,0,5493874104594,Accesorios de Mate El Saber,2026-04-30 12:48:24,confirmado,18892.15,Pedido historico mock - Accesorios de Mate El Saber,true,false,1
+P-00146,0,5493874104594,Accesorios de Mate El Saber,2026-05-17 13:07:31,entregado,81927.06,Pedido historico mock - Accesorios de Mate El Saber,true,false,1
+P-00147,0,5493874104594,Accesorios de Mate El Saber,2026-03-03 14:26:38,facturado,28543.70,Pedido historico mock - Accesorios de Mate El Saber,true,false,1
+P-00148,0,5493876499570,La Yerba de la Amistad,2026-05-07 15:59:47,entregado,23538.48,Pedido historico mock - La Yerba de la Amistad,true,false,1
+P-00149,0,5493876499570,La Yerba de la Amistad,2026-05-24 16:18:54,facturado,86510.28,Pedido historico mock - La Yerba de la Amistad,true,false,1
+P-00150,0,5493876499570,La Yerba de la Amistad,2026-03-10 17:37:01,confirmado,128885.48,Pedido historico mock - La Yerba de la Amistad,true,false,1
+P-00151,25001,5493587905250,Yerba Mate La Tradición,2026-06-19 11:15:00,abierto,50773.30,Pedido abierto mock - promo Fase 2 - Yerba Mate La Tradición,true,true,1
+P-00152,25002,5493582641213,Accesorios de Mate El Gaucho,2026-06-19 11:15:13,pendiente,142189.72,Pedido abierto mock - Accesorios de Mate El Gaucho,true,true,1
+P-00153,25003,5492991227644,La Casa del Mate,2026-06-19 11:15:26,abierto,94120.85,Pedido abierto mock - La Casa del Mate,true,true,1
+P-00154,25004,5493418277249,Yerba Mate El Cielo,2026-06-19 11:15:39,pendiente,67260.40,Pedido abierto mock - Yerba Mate El Cielo,true,true,1
+P-00155,25005,5493587747641,Mate y Más,2026-06-19 11:15:52,abierto,96239.50,Pedido abierto mock - Mate y Más,true,true,1
+P-00156,25006,5492614053074,El Rincón del Mate,2026-06-19 11:15:05,pendiente,50300.00,Pedido abierto mock - El Rincón del Mate,true,true,1
+P-00157,25007,5493514079279,Yerba Mate del Pueblo,2026-06-19 11:15:18,abierto,103239.50,Pedido abierto mock - Yerba Mate del Pueblo,true,true,1

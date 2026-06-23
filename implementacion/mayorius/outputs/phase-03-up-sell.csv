@@ -1,0 +1,7 @@
+base_product_code,related_product_code,reason,is_mock
+RV-CLASSICA-004,RV-CLASSICA-007,Opta por el formato de 5 kg para disfrutar más tiempo de tu yerba.,true
+RV-TRADICIONAL-001,RV-TRADICIONAL-004,Mejora tu experiencia con el formato de 1 kg de yerba tradicional.,true
+RV-PREMIUM-001,RV-PREMIUM-004,Disfruta de más cantidad con la yerba premium de 1 kg.,true
+RV-PADRON-001,RV-PADRON-004,Elige el formato de 1 kg para disfrutar más de tu yerba con palo.,true
+RV-ORGANICA-001,RV-PREMIUM-001,Opta por la yerba premium para una experiencia superior.,true
+RV-TERERE-001,RV-TERERE-002,Prueba el tereré de ananá para una experiencia refrescante.,true
