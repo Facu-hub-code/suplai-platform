@@ -53,7 +53,7 @@ Regla completa (Cursor): `.cursor/rules/git-sync-and-feature-branch.mdc`
 
 Antes de afirmar columnas, FKs o escribir SQL de esquema del stack principal:
 
-1. Usar MCP `supabase` con `project_ref=nxmeezcvjltlqfybbczt`.
+1. Usar MCP `supabase` con `project_ref=cvlbietibaaehgeimxgw`.
 2. `list_tables` con `verbose: true` en `public`, `core` y el tenant relevante.
 3. `execute_sql` solo lectura salvo cambios explícitos pedidos por el usuario.
 

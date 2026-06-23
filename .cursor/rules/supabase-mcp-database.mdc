@@ -11,6 +11,6 @@ alwaysApply: true
 - **`MUST NOT`**: basarse solo en dumps/SQL locales (`agent/context_db/`, `backend/docs/db-structure/snapshots/`) sin contrastar con MCP cuando está disponible.
 - **`SHOULD`**: migraciones nuevas en `backend/`; el agente y el back office consumen el esquema resultante.
 
-Proyecto Supabase: `nxmeezcvjltlqfybbczt`.
+Proyecto Supabase: `cvlbietibaaehgeimxgw`.
 
 Schemas tenant conocidos (no exhaustivo): `gonzales`, `demo`, `del_corro`, `tonadita`, `cordoba_frost`. Confirmar activos con MCP.

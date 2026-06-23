@@ -39,7 +39,7 @@ Header API: `x-schema-name`.
 
 ## Bases de datos
 
-- **Supabase `nxmeezcvjltlqfybbczt`**: agent, backend, backoffice (vía API), tienda (vía API), sales-engine.
+- **Supabase `cvlbietibaaehgeimxgw`**: agent, backend, backoffice (vía API), tienda (vía API), sales-engine.
 - **Postgres sniffer**: tablas `kommo_*` — puede ser proyecto distinto; no asumir mismo MCP sin verificar.
 
 Usar MCP Supabase para esquema principal (regla `supabase-mcp-database.mdc`).

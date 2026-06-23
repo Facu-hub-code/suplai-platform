@@ -58,4 +58,4 @@ Reportar: flujo trazado, evidencia BD, archivos clave, fix mínimo por repo.
 
 - `platform/docs/CROSS-REPO-QUERIES.md`
 - `platform/docs/ARCHITECTURE.md`
-- Supabase principal: `nxmeezcvjltlqfybbczt`
+- Supabase principal: `cvlbietibaaehgeimxgw`

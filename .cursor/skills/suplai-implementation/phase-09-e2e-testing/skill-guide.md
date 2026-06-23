@@ -1,4 +1,4 @@
-﻿# Guía de Uso — Fase 9: Testing E2E y Healthcheck del Agente (suplai-implementation-phase-09)
+# Guía de Uso — Fase 9: Testing E2E y Healthcheck del Agente (suplai-implementation-phase-09)
 
 Esta guía sirve como fuente de verdad para entender, preparar, ejecutar y auditar el estado del agente conversacional de un tenant en Suplai como parte de la validación final del onboarding.
 
@@ -11,7 +11,7 @@ Antes de ejecutar la skill, asegúrate de cumplir con los siguientes prerrequisi
 ### 1. Variables de Entorno (`.env`)
 Debes tener un archivo `.env` configurado en la raíz del proyecto (`suplai-platform/`) con las siguientes credenciales:
 ```env
-SUPABASE_DB_URL=postgresql://<usuario>:<password>@db.nxmeezcvjltlqfybbczt.supabase.co:5432/postgres
+SUPABASE_DB_URL=postgresql://<usuario>:<password>@db.cvlbietibaaehgeimxgw.supabase.co:5432/postgres
 OPENAI_API_KEY=tu-api-key-de-openai
 OPENAI_MODEL=gpt-4o-mini
 ```
