@@ -1,0 +1,20 @@
+---
+description: Al redactar specs, ofrecer resumen en audio (Spec Podcast)
+alwaysApply: true
+---
+
+# Spec draft — ofrecer audio
+
+Cuando el agente **redacta, crea o actualiza** un spec (`.md` en `docs/specs/`, `doc/specs/`, o equivalente cross-repo):
+
+1. **Al terminar el borrador**, preguntar al usuario:
+   > ¿Querés el resumen en audio (Spec Podcast / Suplai Spec Cast)?
+
+2. **No generar audio** salvo que el usuario confirme en ese turno o lo pida explícitamente (ej. "con audio", "podcast del spec").
+
+3. Si confirma, seguir la skill `.cursor/skills/spec-podcast/SKILL.md`:
+   - Guion en `.cursor/skills/spec-podcast/output/{slug}/podcast.txt`
+   - Render con `render-podcast.sh`
+   - Entregar path del `.m4a` y comando para reproducir
+
+4. Excepción: si el usuario pidió audio **en la misma solicitud** que el spec (ej. "redactá el spec y el reporte en audio"), generar ambos sin volver a preguntar.
