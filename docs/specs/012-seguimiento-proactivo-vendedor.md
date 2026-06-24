@@ -19,7 +19,7 @@ Liberarle tiempo al **jefe de ventas** delegando en el agente:
 
 | # | Tema | Decisión |
 |---|------|----------|
-| 1 | Canal Q&A | **Extender el canal seller del agente** (spec [025 del agente](../../../agente-conversacional-multi_tenant/docs/specs/025-canal-deterministico-asistente-vendedor.md)) con **tools determinísticas** nuevas — sin narrativa LLM. La respuesta es el `user_facing_message` de la tool, no texto del modelo. |
+| 1 | Canal Q&A | **Extender el canal seller del agente** (spec [025 del agente](../../../agente-conversacional-multi_tenant/docs/specs/025-canal-deterministico-asistente-vendedor.md)) con **5 tools paraguas** determinísticas (`mode` de operación) — sin narrativa LLM. La respuesta es el `user_facing_message` de la tool, no texto del modelo. Evita inflar el registry a ~40 tools atómicas (degradación de routing LLM). |
 | 2 | Persona del podcast | **Voz configurable por tenant** (no se fija "Facundo" como persona única del ecosistema). Cada distribuidora elige proveedor TTS, voice_id y nombre del host en `distribuidoras.metadata.field_podcast.*`. |
 | 3 | Pipeline TTS | Reutiliza la decisión de la [spec 008 del podcast spec-cast](./008-spec-podcast-voz-humana.md) §4: backends `azure | elevenlabs | openai`. Descartamos `macos` (corre en cloud). |
 | 4 | Delivery WhatsApp | **Audio nativo** (upload Meta media → `media_id` → mensaje `type: audio`). No se envía como link. |
@@ -36,7 +36,7 @@ Liberarle tiempo al **jefe de ventas** delegando en el agente:
 
 | Repo | Archivo | Contenido |
 |------|---------|-----------|
-| `agente-conversacional-multi_tenant` | [033-seller-qna-tools-proactivas.md](../../../agente-conversacional-multi_tenant/docs/specs/033-seller-qna-tools-proactivas.md) | Tools nuevas de Q&A, contratos `user_facing_message`, actualización de `seller_help` y `_system_prompt`. |
+| `agente-conversacional-multi_tenant` | [033-seller-qna-tools-proactivas.md](../../../agente-conversacional-multi_tenant/docs/specs/033-seller-qna-tools-proactivas.md) | **5 tools paraguas** de Q&A (`seller_catalog_query`, `seller_promo_pricing_query`, `seller_client_query`, `seller_my_metrics`, `seller_orders_query`) con modos de operación; contratos `user_facing_message`; `seller_help` y `_system_prompt`. |
 | `backend-supabase` | [055-field-podcast-diario.md](../../../backend-supabase/docs/specs/055-field-podcast-diario.md) | Migración `field_podcast_jobs`, dossier builder, sender WhatsApp nativo, endpoints admin, integración CRON. |
 | `backend-supabase` | [056-field-podcast-tts-provider.md](../../../backend-supabase/docs/specs/056-field-podcast-tts-provider.md) | Adaptador multi-proveedor TTS (Azure / ElevenLabs / OpenAI), config por tenant, bucket `field-podcasts` y RLS. |
 | `product-management-app` | [048-field-podcast-backoffice.md](../../../product-management-app/doc/specs/048-field-podcast-backoffice.md) | UI player en conversación seller, proxy `/api/field/podcast/[event_id]/audio`, sección admin de briefings. |
@@ -73,7 +73,17 @@ flowchart TD
 
 ## 5) Catálogo de preguntas que el agente debe responder (Q&A)
 
-Las preguntas del enunciado del usuario más las propuestas, agrupadas por la tool que las atiende. Detalle de contratos en la [spec 033 del agente](../../../agente-conversacional-multi_tenant/docs/specs/033-seller-qna-tools-proactivas.md).
+Las preguntas del enunciado del usuario más las propuestas, agrupadas por **tool paraguas + `mode`**. Detalle de contratos en la [spec 033 del agente](../../../agente-conversacional-multi_tenant/docs/specs/033-seller-qna-tools-proactivas.md).
+
+| Tool paraguas | Modos principales | Preguntas que cubre |
+|---------------|-------------------|---------------------|
+| `seller_catalog_query` | `stock`, `price_for_client`, `news` | Stock SKU, precio producto×cliente, novedades catálogo |
+| `seller_promo_pricing_query` | `active_promotions`, `expiring_soon`, `price_list`, `minimum_order` | Promos vigentes/vencen, lista precios, pedido mínimo |
+| `seller_client_query` | `last_order`, `purchase_summary`, `contact`, `whatsapp_status` | Último pedido, compras período, ficha PDV, estado WA |
+| `seller_my_metrics` | `route`, `tasks`, `task_detail`, `objectives`, `tournament`, `sales` | Ruta del día, tareas/puntos, objetivos, torneo, facturación |
+| `seller_orders_query` | `open_orders`, `erp_failed` | Pedidos abiertos, errores inyección ERP |
+
+Tools existentes que siguen usándose sin paraguas: `search_products`, `get_product_by_code`, `seller_help`. Field 032 (`get_seller_daily_route`, etc.) permanece; `seller_my_metrics` es la entrada preferida para Q&A.
 
 ### 5.1 Catálogo / producto
 
@@ -181,7 +191,7 @@ Tools de Q&A: gate por `seller_assistant.deterministic_channel` ya existente —
 
 | Fase | Entregable usuario |
 |------|-------------------|
-| **1** | Q&A canal seller (sin podcast): tools de promos, lista precios, stock, objetivos progreso, torneo, ruta. Despeja gran parte del trabajo del jefe. |
+| **1** | Q&A canal seller (sin podcast): 5 tools paraguas (catálogo, promos/precios, cliente, mis métricas, pedidos). Despeja gran parte del trabajo del jefe. |
 | **2** | Podcast V1: pipeline TTS solo con Azure `es-AR-*`, sin clonación; envío WhatsApp nativo; persistencia en `conversation_events`; UI backoffice player. |
 | **3** | Multi-proveedor TTS y voz clonada: adaptador ElevenLabs + voz por tenant; integración con spec 008 (Facundo). |
 | **4** | Métricas y A/B: medir engagement (vendedores que escuchan, cumplimiento de tareas pre vs post podcast), tuneo de guion. |
@@ -198,7 +208,7 @@ Tools de Q&A: gate por `seller_assistant.deterministic_channel` ya existente —
 
 ## 10) Criterios de aceptación (alto nivel)
 
-- [ ] Vendedor puede preguntar por WhatsApp las 3 preguntas del enunciado del usuario (promo vigente, lista precios cliente X, stock SKU X) + al menos 8 de las propuestas y recibe respuesta determinística de tool.
+- [ ] Vendedor puede preguntar por WhatsApp las 3 preguntas del enunciado del usuario (promo vigente, lista precios cliente X, stock SKU X) + al menos 8 de las propuestas y recibe respuesta determinística vía tool paraguas + `mode` correcto.
 - [ ] CRON nocturno genera audio para cada vendedor activo con flag `field_podcast.enabled`.
 - [ ] Audio guardado en bucket `field-podcasts` con path `{schema}/{vendedor_id}/{fecha}.m4a`.
 - [ ] WhatsApp del vendedor recibe el audio nativo a la hora configurada del tenant.
