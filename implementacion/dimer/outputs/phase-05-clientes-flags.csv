@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Congelados del Sur,25001,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493582641213,Alimentos Fríos,25002,validado,2026-06-24T15:47:21.950911+00:00,,false
+5492991227644,Frío y Sabor,25003,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493418277249,La Helada,25004,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493587747641,Cocina Congelada,25005,validado,2026-06-24T15:47:21.950911+00:00,,false
+5492614053074,Almacén de Nieve,25006,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493514079279,Sabor Congelado,25007,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493876914178,Delicias Congeladas,25008,validado,2026-06-24T15:47:21.950911+00:00,,false
+5492617175545,Frío Express,25009,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493818437953,Comida Helada,25010,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493582132179,El Congelador,25011,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493872845902,Alimentos Árticos,25012,validado,2026-06-24T15:47:21.950911+00:00,,false
+5492997670210,Sabor del Hielo,25013,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493811657614,Cocina Fría,25014,validado,2026-06-24T15:47:21.950911+00:00,,false
+5492994145193,Helados y Más,25015,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493515971311,Congelados Gourmet,25016,validado,2026-06-24T15:47:21.950911+00:00,,false
+5492994228106,Frío Natural,25017,validado,2026-06-24T15:47:21.950911+00:00,,false
+5492998718887,Alimentos de Invierno,25018,validado,2026-06-24T15:47:21.950911+00:00,,false
+5492995028869,Sabor Helado,25019,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493517304254,Delicias del Frío,25020,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493416986538,Cocina de Hielo,25021,validado,2026-06-24T15:47:21.950911+00:00,,false
+5492619239862,Almacén Congelado,25022,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493513952681,Frío y Fresco,25023,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493414799650,Sabor a Nieve,25024,validado,2026-06-24T15:47:21.950911+00:00,,false
+5492992500733,Helados del Campo,25025,validado,2026-06-24T15:47:21.950911+00:00,,false
+5492615139305,La Casa del Frío,25026,validado,2026-06-24T15:47:21.950911+00:00,,false
+5492618861463,Comidas Congeladas,25027,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493812941974,Alimentos de Hielo,25028,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493817404433,Frío y Sazón,25029,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493419686914,Delicias Árticas,25030,validado,2026-06-24T15:47:21.950911+00:00,,false
+5493518648263,Sabor Frío,25031,existente,,,false
+5493516216782,Cocina Helada,25032,existente,,,false
+5492612780568,Congelados de la Tierra,25033,existente,,,false
+5493582639964,Alimentos del Ártico,25034,existente,,,false
+5493814729528,Frío y Rico,25035,existente,,,false
+5493876922419,Sabor a Frío,25036,existente,,,false
+5492618889598,Delicias Congeladas,25037,existente,,,false
+5492615021286,Cocina de Invierno,25038,existente,,,false
+5493813520000,Almacén del Frío,25039,existente,,,false
+5492997489876,Frío y Sabor,25040,existente,,,false
+5493519107005,Sabor del Congelador,0,no_validado,,PROSPECTO,true
+5493874104594,Helados y Comidas,0,existente,,PROSPECTO,true
+5492617413812,La Heladería,0,no_validado,,PROSPECTO,true
+5492617236955,Cocina Congelada,0,existente,,PROSPECTO,true
+5492612928724,Alimentos Fríos,0,no_validado,,PROSPECTO,true
+5492999435946,Frío Gourmet,0,validado,2026-06-24T15:47:21.950911+00:00,PROSPECTO,true
+5493517632424,Sabor Helado,0,no_existente,,PROSPECTO,true
+5493416524997,Delicias del Hielo,0,no_validado,,PROSPECTO,true
+5493876499570,Cocina Fría,0,existente,,PROSPECTO,true
+5492998066543,Alimentos de Nieve,0,no_validado,,PROSPECTO,true

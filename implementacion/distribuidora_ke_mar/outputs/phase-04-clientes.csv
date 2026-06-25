@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Bebidas del Sur,Bebidas del Sur,5493587905250,2,1,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.431756,-64.17256,true
+2,La Cerveza de Córdoba,La Cerveza de Córdoba,5493582641213,3,2,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.438432,-64.170791,true
+3,Bebidas y Más,Bebidas y Más,5492991227644,4,3,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.43849,-64.174976,true
+4,Distribuidora La Estrella,Distribuidora La Estrella,5493418277249,1,4,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.437663,-64.176064,true
+5,El Refugio de las Bebidas,El Refugio de las Bebidas,5493587747641,2,5,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.432608,-64.17172,true
+6,Cerveza Artesanal Córdoba,Cerveza Artesanal Córdoba,5492614053074,3,6,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.437363,-64.177728,true
+7,Bebidas La Nueva,Bebidas La Nueva,5493514079279,4,7,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.432651,-64.170093,true
+8,Distribuidora El Trago,Distribuidora El Trago,5493876914178,1,8,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.43714,-64.175486,true
+9,La Casa de la Cerveza,La Casa de la Cerveza,5492617175545,2,9,lunes,martes,"Zona ZONA NORTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.438668,-64.170399,true
+10,Bebidas y Snacks,Bebidas y Snacks,5493818437953,3,10,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.402313,-64.195759,true
+11,El Sabor del Norte,El Sabor del Norte,5493582132179,4,11,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.404035,-64.200624,true
+12,Cerveza y Compañía,Cerveza y Compañía,5493872845902,1,12,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.398025,-64.201498,true
+13,La Bodega Cordobesa,La Bodega Cordobesa,5492997670210,2,13,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.396909,-64.196104,true
+14,Bebidas del Centro,Bebidas del Centro,5493811657614,3,14,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.397896,-64.199924,true
+15,Distribuidora El Buen Trago,Distribuidora El Buen Trago,5492994145193,4,15,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.401862,-64.193666,true
+16,La Barra de Bebidas,La Barra de Bebidas,5493515971311,1,16,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.403392,-64.198763,true
+17,Bebidas del Río,Bebidas del Río,5492994228106,2,17,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.397729,-64.199498,true
+18,El Rincón de las Bebidas,El Rincón de las Bebidas,5492998718887,3,18,martes,miercoles,"Zona ZONA SUR - Alta Gracia - Córdoba, Argentina",María González,1,1,-31.397113,-64.194154,true
+19,Cerveza y Más,Cerveza y Más,5492995028869,4,19,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Rodríguez,2,2,-31.423775,-64.18672,true
+20,Bebidas del Mercado,Bebidas del Mercado,5493517304254,1,20,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Rodríguez,2,2,-31.423863,-64.190852,true
+21,La Cerveza de la Ciudad,La Cerveza de la Ciudad,5493416986538,2,21,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Rodríguez,2,2,-31.418419,-64.185897,true
+22,Distribuidora El Barril,Distribuidora El Barril,5492619239862,3,22,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Rodríguez,2,2,-31.421932,-64.190412,true
+23,Bebidas de la Sierra,Bebidas de la Sierra,5493513952681,4,23,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Rodríguez,2,2,-31.423442,-64.186387,true
+24,La Cerveza de los Amigos,La Cerveza de los Amigos,5493414799650,1,24,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Rodríguez,2,2,-31.417859,-64.19017,true
+25,Bebidas y Diversión,Bebidas y Diversión,5492992500733,2,25,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Rodríguez,2,2,-31.417042,-64.184716,true
+26,El Surtidor de Bebidas,El Surtidor de Bebidas,5492615139305,3,26,miercoles,jueves,"Zona ZONA ESTE - Nueva Córdoba - Córdoba, Argentina",Carlos Rodríguez,2,2,-31.417997,-64.190459,true
+27,La Cerveza del Pueblo,La Cerveza del Pueblo,5492618861463,4,27,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.441965,-64.201876,true
+28,Bebidas del Sol,Bebidas del Sol,5493812941974,1,28,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.442082,-64.202823,true
+29,Distribuidora La Alegría,Distribuidora La Alegría,5493817404433,2,29,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.43649,-64.207495,true
+30,El Trago Perfecto,El Trago Perfecto,5493419686914,3,30,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.436485,-64.203626,true
+31,Bebidas de la Tarde,Bebidas de la Tarde,5493518648263,4,31,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.437902,-64.208623,true
+32,La Cerveza de la Casa,La Cerveza de la Casa,5493516216782,1,32,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.442191,-64.201452,true
+33,Bebidas y Alegría,Bebidas y Alegría,5492612780568,2,33,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.438488,-64.202813,true
+34,Distribuidora El Cielo,Distribuidora El Cielo,5493582639964,3,34,jueves,viernes,"Zona ZONA OESTE - Villa El Libertador - Córdoba, Argentina",Juan Pérez,0,3,-31.443356,-64.207441,true
+35,La Cerveza de la Amistad,La Cerveza de la Amistad,5493814729528,4,35,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.402436,-64.171747,true
+36,Bebidas del Encuentro,Bebidas del Encuentro,5493876922419,1,36,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.403504,-64.167338,true
+37,El Trago Cordobés,El Trago Cordobés,5492618889598,2,37,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.408195,-64.172326,true
+38,Bebidas del Barrio,Bebidas del Barrio,5492615021286,3,38,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.407853,-64.168932,true
+39,La Cerveza del Sur,La Cerveza del Sur,5493813520000,4,39,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.406954,-64.168586,true
+40,Distribuidora El Paraíso,Distribuidora El Paraíso,5492997489876,1,40,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.40166,-64.168534,true
+41,Bebidas de la Fiesta,Bebidas de la Fiesta,5493519107005,2,41,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.407268,-64.171721,true
+42,La Cerveza de la Noche,La Cerveza de la Noche,5493874104594,3,42,viernes,sabado,"Zona ZONA NORESTE - Argüello - Córdoba, Argentina",María González,1,4,-31.401207,-64.167406,true
+43,Bebidas y Risas,Bebidas y Risas,5492617413812,4,43,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Rodríguez,2,5,-31.447931,-64.25153,true
+44,El Surtidor Cordobés,El Surtidor Cordobés,5492617236955,1,44,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Rodríguez,2,5,-31.448069,-64.253434,true
+45,Bebidas del Camino,Bebidas del Camino,5492612928724,2,45,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Rodríguez,2,5,-31.452917,-64.247723,true
+46,La Cerveza de la Tradición,La Cerveza de la Tradición,5492999435946,3,46,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Rodríguez,2,5,-31.448492,-64.247215,true
+47,Distribuidora El Oasis,Distribuidora El Oasis,5493517632424,4,47,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Rodríguez,2,5,-31.452392,-64.251388,true
+48,Bebidas de la Alegría,Bebidas de la Alegría,5493416524997,1,48,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Rodríguez,2,5,-31.453768,-64.247757,true
+49,La Cerveza de los Sueños,La Cerveza de los Sueños,5493876499570,2,49,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Rodríguez,2,5,-31.448641,-64.251235,true
+50,Bebidas del Recuerdo,Bebidas del Recuerdo,5492998066543,3,50,sabado,lunes,"Zona ZONA SUROESTE - Malagueño - Córdoba, Argentina",Carlos Rodríguez,2,5,-31.451542,-64.252734,true

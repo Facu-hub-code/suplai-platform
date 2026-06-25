@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: 02a0c4e0-8ac7-4bf1-aee9-19b44a14f66a
+schema_existe,Tablas en dimer,ok,schema verificado
+productos_vacio,COUNT productos = 0,ok,0 productos encontrados
+clients_vacio,COUNT clients = 0,ok,0 clientes encontrados
+mcp_conectado,MCP supabase responde,ok,conectado a la base de datos
+carpeta_implementacion,manifest.yaml presente,ok,verificado
+is_mock_column,Columna is_mock en productos,ok,columna encontrada
+excel_presente,Archivo en inputs/,pendiente,excel no provisto aun por el implementador

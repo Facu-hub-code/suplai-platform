@@ -1,0 +1,158 @@
+pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
+P-00001,25001,5493587905250,Bebidas del Sur,2026-03-01 08:00:00,confirmado,73653.57,Pedido historico mock - Bebidas del Sur,true,false,2
+P-00002,25001,5493587905250,Bebidas del Sur,2026-03-18 09:19:07,entregado,56158.09,Pedido historico mock - Bebidas del Sur,true,false,2
+P-00003,25001,5493587905250,Bebidas del Sur,2026-04-04 10:38:14,facturado,58769.94,Pedido historico mock - Bebidas del Sur,true,false,2
+P-00004,25002,5493582641213,La Cerveza de Córdoba,2026-03-08 11:11:23,entregado,240248.85,Pedido historico mock - La Cerveza de Córdoba,true,false,3
+P-00005,25002,5493582641213,La Cerveza de Córdoba,2026-03-25 12:30:30,facturado,103830.77,Pedido historico mock - La Cerveza de Córdoba,true,false,3
+P-00006,25002,5493582641213,La Cerveza de Córdoba,2026-04-11 13:49:37,confirmado,101169.00,Pedido historico mock - La Cerveza de Córdoba,true,false,3
+P-00007,25003,5492991227644,Bebidas y Más,2026-03-15 14:22:46,facturado,84080.36,Pedido historico mock - Bebidas y Más,true,false,4
+P-00008,25003,5492991227644,Bebidas y Más,2026-04-01 15:41:53,confirmado,62197.70,Pedido historico mock - Bebidas y Más,true,false,4
+P-00009,25003,5492991227644,Bebidas y Más,2026-04-18 16:00:00,entregado,119387.23,Pedido historico mock - Bebidas y Más,true,false,4
+P-00010,25004,5493418277249,Distribuidora La Estrella,2026-03-22 17:33:09,confirmado,31157.00,Pedido historico mock - Distribuidora La Estrella,true,false,1
+P-00011,25004,5493418277249,Distribuidora La Estrella,2026-04-08 08:52:16,entregado,103307.51,Pedido historico mock - Distribuidora La Estrella,true,false,1
+P-00012,25004,5493418277249,Distribuidora La Estrella,2026-04-25 09:11:23,facturado,193708.33,Pedido historico mock - Distribuidora La Estrella,true,false,1
+P-00013,25005,5493587747641,El Refugio de las Bebidas,2026-03-29 10:44:32,entregado,87451.52,Pedido historico mock - El Refugio de las Bebidas,true,false,2
+P-00014,25005,5493587747641,El Refugio de las Bebidas,2026-04-15 11:03:39,facturado,199433.67,Pedido historico mock - El Refugio de las Bebidas,true,false,2
+P-00015,25005,5493587747641,El Refugio de las Bebidas,2026-05-02 12:22:46,confirmado,171691.83,Pedido historico mock - El Refugio de las Bebidas,true,false,2
+P-00016,25006,5492614053074,Cerveza Artesanal Córdoba,2026-04-05 13:55:55,facturado,82778.09,Pedido historico mock - Cerveza Artesanal Córdoba,true,false,3
+P-00017,25006,5492614053074,Cerveza Artesanal Córdoba,2026-04-22 14:14:02,confirmado,131270.27,Pedido historico mock - Cerveza Artesanal Córdoba,true,false,3
+P-00018,25006,5492614053074,Cerveza Artesanal Córdoba,2026-05-09 15:33:09,entregado,188071.02,Pedido historico mock - Cerveza Artesanal Córdoba,true,false,3
+P-00019,25007,5493514079279,Bebidas La Nueva,2026-04-12 16:06:18,confirmado,124297.36,Pedido historico mock - Bebidas La Nueva,true,false,4
+P-00020,25007,5493514079279,Bebidas La Nueva,2026-04-29 17:25:25,entregado,42902.22,Pedido historico mock - Bebidas La Nueva,true,false,4
+P-00021,25007,5493514079279,Bebidas La Nueva,2026-05-16 08:44:32,facturado,105216.27,Pedido historico mock - Bebidas La Nueva,true,false,4
+P-00022,25008,5493876914178,Distribuidora El Trago,2026-04-19 09:17:41,entregado,81729.88,Pedido historico mock - Distribuidora El Trago,true,false,1
+P-00023,25008,5493876914178,Distribuidora El Trago,2026-05-06 10:36:48,facturado,69777.05,Pedido historico mock - Distribuidora El Trago,true,false,1
+P-00024,25008,5493876914178,Distribuidora El Trago,2026-05-23 11:55:55,confirmado,184442.36,Pedido historico mock - Distribuidora El Trago,true,false,1
+P-00025,25009,5492617175545,La Casa de la Cerveza,2026-04-26 12:28:04,facturado,148056.26,Pedido historico mock - La Casa de la Cerveza,true,false,2
+P-00026,25009,5492617175545,La Casa de la Cerveza,2026-05-13 13:47:11,confirmado,87421.07,Pedido historico mock - La Casa de la Cerveza,true,false,2
+P-00027,25009,5492617175545,La Casa de la Cerveza,2026-05-30 14:06:18,entregado,70945.80,Pedido historico mock - La Casa de la Cerveza,true,false,2
+P-00028,25010,5493818437953,Bebidas y Snacks,2026-05-03 15:39:27,confirmado,145198.29,Pedido historico mock - Bebidas y Snacks,true,false,3
+P-00029,25010,5493818437953,Bebidas y Snacks,2026-05-20 16:58:34,entregado,148538.79,Pedido historico mock - Bebidas y Snacks,true,false,3
+P-00030,25010,5493818437953,Bebidas y Snacks,2026-03-06 17:17:41,facturado,141067.40,Pedido historico mock - Bebidas y Snacks,true,false,3
+P-00031,25011,5493582132179,El Sabor del Norte,2026-05-10 08:50:50,entregado,152360.31,Pedido historico mock - El Sabor del Norte,true,false,4
+P-00032,25011,5493582132179,El Sabor del Norte,2026-05-27 09:09:57,facturado,126983.47,Pedido historico mock - El Sabor del Norte,true,false,4
+P-00033,25011,5493582132179,El Sabor del Norte,2026-03-13 10:28:04,confirmado,46018.90,Pedido historico mock - El Sabor del Norte,true,false,4
+P-00034,25012,5493872845902,Cerveza y Compañía,2026-05-17 11:01:13,facturado,190546.20,Pedido historico mock - Cerveza y Compañía,true,false,1
+P-00035,25012,5493872845902,Cerveza y Compañía,2026-03-03 12:20:20,confirmado,460348.12,Pedido historico mock - Cerveza y Compañía,true,false,1
+P-00036,25012,5493872845902,Cerveza y Compañía,2026-03-20 13:39:27,entregado,130163.51,Pedido historico mock - Cerveza y Compañía,true,false,1
+P-00037,25013,5492997670210,La Bodega Cordobesa,2026-05-24 14:12:36,confirmado,233320.93,Pedido historico mock - La Bodega Cordobesa,true,false,2
+P-00038,25013,5492997670210,La Bodega Cordobesa,2026-03-10 15:31:43,entregado,124382.30,Pedido historico mock - La Bodega Cordobesa,true,false,2
+P-00039,25013,5492997670210,La Bodega Cordobesa,2026-03-27 16:50:50,facturado,63515.40,Pedido historico mock - La Bodega Cordobesa,true,false,2
+P-00040,25014,5493811657614,Bebidas del Centro,2026-05-31 17:23:59,entregado,96981.06,Pedido historico mock - Bebidas del Centro,true,false,3
+P-00041,25014,5493811657614,Bebidas del Centro,2026-03-17 08:42:06,facturado,150547.47,Pedido historico mock - Bebidas del Centro,true,false,3
+P-00042,25014,5493811657614,Bebidas del Centro,2026-04-03 09:01:13,confirmado,111796.30,Pedido historico mock - Bebidas del Centro,true,false,3
+P-00043,25015,5492994145193,Distribuidora El Buen Trago,2026-03-07 10:34:22,facturado,45103.50,Pedido historico mock - Distribuidora El Buen Trago,true,false,4
+P-00044,25015,5492994145193,Distribuidora El Buen Trago,2026-03-24 11:53:29,confirmado,70404.94,Pedido historico mock - Distribuidora El Buen Trago,true,false,4
+P-00045,25015,5492994145193,Distribuidora El Buen Trago,2026-04-10 12:12:36,entregado,12439.54,Pedido historico mock - Distribuidora El Buen Trago,true,false,4
+P-00046,25016,5493515971311,La Barra de Bebidas,2026-03-14 13:45:45,confirmado,62947.08,Pedido historico mock - La Barra de Bebidas,true,false,1
+P-00047,25016,5493515971311,La Barra de Bebidas,2026-03-31 14:04:52,entregado,172818.50,Pedido historico mock - La Barra de Bebidas,true,false,1
+P-00048,25016,5493515971311,La Barra de Bebidas,2026-04-17 15:23:59,facturado,130433.56,Pedido historico mock - La Barra de Bebidas,true,false,1
+P-00049,25017,5492994228106,Bebidas del Río,2026-03-21 16:56:08,entregado,14189.16,Pedido historico mock - Bebidas del Río,true,false,2
+P-00050,25017,5492994228106,Bebidas del Río,2026-04-07 17:15:15,facturado,110867.78,Pedido historico mock - Bebidas del Río,true,false,2
+P-00051,25017,5492994228106,Bebidas del Río,2026-04-24 08:34:22,confirmado,121675.09,Pedido historico mock - Bebidas del Río,true,false,2
+P-00052,25018,5492998718887,El Rincón de las Bebidas,2026-03-28 09:07:31,facturado,64029.03,Pedido historico mock - El Rincón de las Bebidas,true,false,3
+P-00053,25018,5492998718887,El Rincón de las Bebidas,2026-04-14 10:26:38,confirmado,75931.93,Pedido historico mock - El Rincón de las Bebidas,true,false,3
+P-00054,25018,5492998718887,El Rincón de las Bebidas,2026-05-01 11:45:45,entregado,6143.64,Pedido historico mock - El Rincón de las Bebidas,true,false,3
+P-00055,25019,5492995028869,Cerveza y Más,2026-04-04 12:18:54,confirmado,343597.80,Pedido historico mock - Cerveza y Más,true,false,4
+P-00056,25019,5492995028869,Cerveza y Más,2026-04-21 13:37:01,entregado,64977.71,Pedido historico mock - Cerveza y Más,true,false,4
+P-00057,25019,5492995028869,Cerveza y Más,2026-05-08 14:56:08,facturado,103357.41,Pedido historico mock - Cerveza y Más,true,false,4
+P-00058,25020,5493517304254,Bebidas del Mercado,2026-04-11 15:29:17,entregado,83898.92,Pedido historico mock - Bebidas del Mercado,true,false,1
+P-00059,25020,5493517304254,Bebidas del Mercado,2026-04-28 16:48:24,facturado,210950.32,Pedido historico mock - Bebidas del Mercado,true,false,1
+P-00060,25020,5493517304254,Bebidas del Mercado,2026-05-15 17:07:31,confirmado,131641.53,Pedido historico mock - Bebidas del Mercado,true,false,1
+P-00061,25021,5493416986538,La Cerveza de la Ciudad,2026-04-18 08:40:40,facturado,139309.17,Pedido historico mock - La Cerveza de la Ciudad,true,false,2
+P-00062,25021,5493416986538,La Cerveza de la Ciudad,2026-05-05 09:59:47,confirmado,20133.28,Pedido historico mock - La Cerveza de la Ciudad,true,false,2
+P-00063,25021,5493416986538,La Cerveza de la Ciudad,2026-05-22 10:18:54,entregado,194155.68,Pedido historico mock - La Cerveza de la Ciudad,true,false,2
+P-00064,25022,5492619239862,Distribuidora El Barril,2026-04-25 11:51:03,confirmado,103722.98,Pedido historico mock - Distribuidora El Barril,true,false,3
+P-00065,25022,5492619239862,Distribuidora El Barril,2026-05-12 12:10:10,entregado,138930.85,Pedido historico mock - Distribuidora El Barril,true,false,3
+P-00066,25022,5492619239862,Distribuidora El Barril,2026-05-29 13:29:17,facturado,21475.42,Pedido historico mock - Distribuidora El Barril,true,false,3
+P-00067,25023,5493513952681,Bebidas de la Sierra,2026-05-02 14:02:26,entregado,151428.73,Pedido historico mock - Bebidas de la Sierra,true,false,4
+P-00068,25023,5493513952681,Bebidas de la Sierra,2026-05-19 15:21:33,facturado,77776.20,Pedido historico mock - Bebidas de la Sierra,true,false,4
+P-00069,25023,5493513952681,Bebidas de la Sierra,2026-03-05 16:40:40,confirmado,140235.63,Pedido historico mock - Bebidas de la Sierra,true,false,4
+P-00070,25024,5493414799650,La Cerveza de los Amigos,2026-05-09 17:13:49,facturado,166562.11,Pedido historico mock - La Cerveza de los Amigos,true,false,1
+P-00071,25024,5493414799650,La Cerveza de los Amigos,2026-05-26 08:32:56,confirmado,84751.43,Pedido historico mock - La Cerveza de los Amigos,true,false,1
+P-00072,25024,5493414799650,La Cerveza de los Amigos,2026-03-12 09:51:03,entregado,41290.48,Pedido historico mock - La Cerveza de los Amigos,true,false,1
+P-00073,25025,5492992500733,Bebidas y Diversión,2026-05-16 10:24:12,confirmado,379794.05,Pedido historico mock - Bebidas y Diversión,true,false,2
+P-00074,25025,5492992500733,Bebidas y Diversión,2026-03-02 11:43:19,entregado,31829.75,Pedido historico mock - Bebidas y Diversión,true,false,2
+P-00075,25025,5492992500733,Bebidas y Diversión,2026-03-19 12:02:26,facturado,230804.11,Pedido historico mock - Bebidas y Diversión,true,false,2
+P-00076,25026,5492615139305,El Surtidor de Bebidas,2026-05-23 13:35:35,entregado,170616.76,Pedido historico mock - El Surtidor de Bebidas,true,false,3
+P-00077,25026,5492615139305,El Surtidor de Bebidas,2026-03-09 14:54:42,facturado,128389.41,Pedido historico mock - El Surtidor de Bebidas,true,false,3
+P-00078,25026,5492615139305,El Surtidor de Bebidas,2026-03-26 15:13:49,confirmado,27315.44,Pedido historico mock - El Surtidor de Bebidas,true,false,3
+P-00079,25027,5492618861463,La Cerveza del Pueblo,2026-05-30 16:46:58,facturado,66727.40,Pedido historico mock - La Cerveza del Pueblo,true,false,4
+P-00080,25027,5492618861463,La Cerveza del Pueblo,2026-03-16 17:05:05,confirmado,205642.11,Pedido historico mock - La Cerveza del Pueblo,true,false,4
+P-00081,25027,5492618861463,La Cerveza del Pueblo,2026-04-02 08:24:12,entregado,31118.68,Pedido historico mock - La Cerveza del Pueblo,true,false,4
+P-00082,25028,5493812941974,Bebidas del Sol,2026-03-06 09:57:21,confirmado,19097.85,Pedido historico mock - Bebidas del Sol,true,false,1
+P-00083,25028,5493812941974,Bebidas del Sol,2026-03-23 10:16:28,entregado,42567.48,Pedido historico mock - Bebidas del Sol,true,false,1
+P-00084,25028,5493812941974,Bebidas del Sol,2026-04-09 11:35:35,facturado,69179.73,Pedido historico mock - Bebidas del Sol,true,false,1
+P-00085,25029,5493817404433,Distribuidora La Alegría,2026-03-13 12:08:44,entregado,133290.12,Pedido historico mock - Distribuidora La Alegría,true,false,2
+P-00086,25029,5493817404433,Distribuidora La Alegría,2026-03-30 13:27:51,facturado,46042.26,Pedido historico mock - Distribuidora La Alegría,true,false,2
+P-00087,25029,5493817404433,Distribuidora La Alegría,2026-04-16 14:46:58,confirmado,115819.14,Pedido historico mock - Distribuidora La Alegría,true,false,2
+P-00088,25030,5493419686914,El Trago Perfecto,2026-03-20 15:19:07,facturado,82175.61,Pedido historico mock - El Trago Perfecto,true,false,3
+P-00089,25030,5493419686914,El Trago Perfecto,2026-04-06 16:38:14,confirmado,6365.95,Pedido historico mock - El Trago Perfecto,true,false,3
+P-00090,25030,5493419686914,El Trago Perfecto,2026-04-23 17:57:21,entregado,188746.75,Pedido historico mock - El Trago Perfecto,true,false,3
+P-00091,25031,5493518648263,Bebidas de la Tarde,2026-03-27 08:30:30,confirmado,102812.30,Pedido historico mock - Bebidas de la Tarde,true,false,4
+P-00092,25031,5493518648263,Bebidas de la Tarde,2026-04-13 09:49:37,entregado,19777.17,Pedido historico mock - Bebidas de la Tarde,true,false,4
+P-00093,25031,5493518648263,Bebidas de la Tarde,2026-04-30 10:08:44,facturado,105859.00,Pedido historico mock - Bebidas de la Tarde,true,false,4
+P-00094,25032,5493516216782,La Cerveza de la Casa,2026-04-03 11:41:53,entregado,73630.20,Pedido historico mock - La Cerveza de la Casa,true,false,1
+P-00095,25032,5493516216782,La Cerveza de la Casa,2026-04-20 12:00:00,facturado,26369.56,Pedido historico mock - La Cerveza de la Casa,true,false,1
+P-00096,25032,5493516216782,La Cerveza de la Casa,2026-05-07 13:19:07,confirmado,51420.63,Pedido historico mock - La Cerveza de la Casa,true,false,1
+P-00097,25033,5492612780568,Bebidas y Alegría,2026-04-10 14:52:16,facturado,34370.36,Pedido historico mock - Bebidas y Alegría,true,false,2
+P-00098,25033,5492612780568,Bebidas y Alegría,2026-04-27 15:11:23,confirmado,9347.55,Pedido historico mock - Bebidas y Alegría,true,false,2
+P-00099,25033,5492612780568,Bebidas y Alegría,2026-05-14 16:30:30,entregado,113780.01,Pedido historico mock - Bebidas y Alegría,true,false,2
+P-00100,25034,5493582639964,Distribuidora El Cielo,2026-04-17 17:03:39,confirmado,10066.64,Pedido historico mock - Distribuidora El Cielo,true,false,3
+P-00101,25034,5493582639964,Distribuidora El Cielo,2026-05-04 08:22:46,entregado,70736.54,Pedido historico mock - Distribuidora El Cielo,true,false,3
+P-00102,25034,5493582639964,Distribuidora El Cielo,2026-05-21 09:41:53,facturado,91279.59,Pedido historico mock - Distribuidora El Cielo,true,false,3
+P-00103,25035,5493814729528,La Cerveza de la Amistad,2026-04-24 10:14:02,entregado,162815.97,Pedido historico mock - La Cerveza de la Amistad,true,false,4
+P-00104,25035,5493814729528,La Cerveza de la Amistad,2026-05-11 11:33:09,facturado,132185.56,Pedido historico mock - La Cerveza de la Amistad,true,false,4
+P-00105,25035,5493814729528,La Cerveza de la Amistad,2026-05-28 12:52:16,confirmado,57132.50,Pedido historico mock - La Cerveza de la Amistad,true,false,4
+P-00106,25036,5493876922419,Bebidas del Encuentro,2026-05-01 13:25:25,facturado,67734.08,Pedido historico mock - Bebidas del Encuentro,true,false,1
+P-00107,25036,5493876922419,Bebidas del Encuentro,2026-05-18 14:44:32,confirmado,41273.20,Pedido historico mock - Bebidas del Encuentro,true,false,1
+P-00108,25036,5493876922419,Bebidas del Encuentro,2026-03-04 15:03:39,entregado,42550.71,Pedido historico mock - Bebidas del Encuentro,true,false,1
+P-00109,25037,5492618889598,El Trago Cordobés,2026-05-08 16:36:48,confirmado,77869.52,Pedido historico mock - El Trago Cordobés,true,false,2
+P-00110,25037,5492618889598,El Trago Cordobés,2026-05-25 17:55:55,entregado,59783.81,Pedido historico mock - El Trago Cordobés,true,false,2
+P-00111,25037,5492618889598,El Trago Cordobés,2026-03-11 08:14:02,facturado,135317.50,Pedido historico mock - El Trago Cordobés,true,false,2
+P-00112,25038,5492615021286,Bebidas del Barrio,2026-05-15 09:47:11,entregado,62947.08,Pedido historico mock - Bebidas del Barrio,true,false,3
+P-00113,25038,5492615021286,Bebidas del Barrio,2026-03-01 10:06:18,facturado,41330.80,Pedido historico mock - Bebidas del Barrio,true,false,3
+P-00114,25038,5492615021286,Bebidas del Barrio,2026-03-18 11:25:25,confirmado,51833.36,Pedido historico mock - Bebidas del Barrio,true,false,3
+P-00115,25039,5493813520000,La Cerveza del Sur,2026-05-22 12:58:34,facturado,99198.63,Pedido historico mock - La Cerveza del Sur,true,false,4
+P-00116,25039,5493813520000,La Cerveza del Sur,2026-03-08 13:17:41,confirmado,159790.51,Pedido historico mock - La Cerveza del Sur,true,false,4
+P-00117,25039,5493813520000,La Cerveza del Sur,2026-03-25 14:36:48,entregado,126985.61,Pedido historico mock - La Cerveza del Sur,true,false,4
+P-00118,25040,5492997489876,Distribuidora El Paraíso,2026-05-29 15:09:57,confirmado,362623.39,Pedido historico mock - Distribuidora El Paraíso,true,false,1
+P-00119,25040,5492997489876,Distribuidora El Paraíso,2026-03-15 16:28:04,entregado,89053.65,Pedido historico mock - Distribuidora El Paraíso,true,false,1
+P-00120,25040,5492997489876,Distribuidora El Paraíso,2026-04-01 17:47:11,facturado,155604.77,Pedido historico mock - Distribuidora El Paraíso,true,false,1
+P-00121,0,5492612928724,Bebidas del Camino,2026-03-05 08:20:20,entregado,98385.29,Pedido historico mock - Bebidas del Camino,true,false,2
+P-00122,0,5492612928724,Bebidas del Camino,2026-03-22 09:39:27,facturado,132753.08,Pedido historico mock - Bebidas del Camino,true,false,2
+P-00123,0,5492612928724,Bebidas del Camino,2026-04-08 10:58:34,confirmado,54162.82,Pedido historico mock - Bebidas del Camino,true,false,2
+P-00124,0,5492617236955,El Surtidor Cordobés,2026-03-12 11:31:43,facturado,130394.44,Pedido historico mock - El Surtidor Cordobés,true,false,1
+P-00125,0,5492617236955,El Surtidor Cordobés,2026-03-29 12:50:50,confirmado,64132.03,Pedido historico mock - El Surtidor Cordobés,true,false,1
+P-00126,0,5492617236955,El Surtidor Cordobés,2026-04-15 13:09:57,entregado,288074.40,Pedido historico mock - El Surtidor Cordobés,true,false,1
+P-00127,0,5492617413812,Bebidas y Risas,2026-03-19 14:42:06,confirmado,46641.25,Pedido historico mock - Bebidas y Risas,true,false,4
+P-00128,0,5492617413812,Bebidas y Risas,2026-04-05 15:01:13,entregado,25166.58,Pedido historico mock - Bebidas y Risas,true,false,4
+P-00129,0,5492617413812,Bebidas y Risas,2026-04-22 16:20:20,facturado,144469.46,Pedido historico mock - Bebidas y Risas,true,false,4
+P-00130,0,5492998066543,Bebidas del Recuerdo,2026-03-26 17:53:29,entregado,39447.51,Pedido historico mock - Bebidas del Recuerdo,true,false,3
+P-00131,0,5492998066543,Bebidas del Recuerdo,2026-04-12 08:12:36,facturado,37549.38,Pedido historico mock - Bebidas del Recuerdo,true,false,3
+P-00132,0,5492998066543,Bebidas del Recuerdo,2026-04-29 09:31:43,confirmado,142656.08,Pedido historico mock - Bebidas del Recuerdo,true,false,3
+P-00133,0,5492999435946,La Cerveza de la Tradición,2026-04-02 10:04:52,facturado,108418.14,Pedido historico mock - La Cerveza de la Tradición,true,false,3
+P-00134,0,5492999435946,La Cerveza de la Tradición,2026-04-19 11:23:59,confirmado,78584.34,Pedido historico mock - La Cerveza de la Tradición,true,false,3
+P-00135,0,5492999435946,La Cerveza de la Tradición,2026-05-06 12:42:06,entregado,67355.14,Pedido historico mock - La Cerveza de la Tradición,true,false,3
+P-00136,0,5493416524997,Bebidas de la Alegría,2026-04-09 13:15:15,confirmado,95684.64,Pedido historico mock - Bebidas de la Alegría,true,false,1
+P-00137,0,5493416524997,Bebidas de la Alegría,2026-04-26 14:34:22,entregado,85430.95,Pedido historico mock - Bebidas de la Alegría,true,false,1
+P-00138,0,5493416524997,Bebidas de la Alegría,2026-05-13 15:53:29,facturado,92827.20,Pedido historico mock - Bebidas de la Alegría,true,false,1
+P-00139,0,5493517632424,Distribuidora El Oasis,2026-04-16 16:26:38,entregado,74327.16,Pedido historico mock - Distribuidora El Oasis,true,false,4
+P-00140,0,5493517632424,Distribuidora El Oasis,2026-05-03 17:45:45,facturado,150619.04,Pedido historico mock - Distribuidora El Oasis,true,false,4
+P-00141,0,5493517632424,Distribuidora El Oasis,2026-05-20 08:04:52,confirmado,80150.22,Pedido historico mock - Distribuidora El Oasis,true,false,4
+P-00142,0,5493519107005,Bebidas de la Fiesta,2026-04-23 09:37:01,facturado,82580.96,Pedido historico mock - Bebidas de la Fiesta,true,false,2
+P-00143,0,5493519107005,Bebidas de la Fiesta,2026-05-10 10:56:08,confirmado,82271.35,Pedido historico mock - Bebidas de la Fiesta,true,false,2
+P-00144,0,5493519107005,Bebidas de la Fiesta,2026-05-27 11:15:15,entregado,42567.48,Pedido historico mock - Bebidas de la Fiesta,true,false,2
+P-00145,0,5493874104594,La Cerveza de la Noche,2026-04-30 12:48:24,confirmado,211037.15,Pedido historico mock - La Cerveza de la Noche,true,false,3
+P-00146,0,5493874104594,La Cerveza de la Noche,2026-05-17 13:07:31,entregado,31829.75,Pedido historico mock - La Cerveza de la Noche,true,false,3
+P-00147,0,5493874104594,La Cerveza de la Noche,2026-03-03 14:26:38,facturado,39554.34,Pedido historico mock - La Cerveza de la Noche,true,false,3
+P-00148,0,5493876499570,La Cerveza de los Sueños,2026-05-07 15:59:47,entregado,72043.84,Pedido historico mock - La Cerveza de los Sueños,true,false,2
+P-00149,0,5493876499570,La Cerveza de los Sueños,2026-05-24 16:18:54,facturado,72985.79,Pedido historico mock - La Cerveza de los Sueños,true,false,2
+P-00150,0,5493876499570,La Cerveza de los Sueños,2026-03-10 17:37:01,confirmado,199681.98,Pedido historico mock - La Cerveza de los Sueños,true,false,2
+P-00151,25001,5493587905250,Bebidas del Sur,2026-06-23 11:15:00,abierto,42256.31,Pedido abierto mock - promo Fase 2 - Bebidas del Sur,true,true,2
+P-00152,25002,5493582641213,La Cerveza de Córdoba,2026-06-23 11:15:13,pendiente,60879.16,Pedido abierto mock - La Cerveza de Córdoba,true,true,3
+P-00153,25003,5492991227644,Bebidas y Más,2026-06-23 11:15:26,abierto,130662.23,Pedido abierto mock - Bebidas y Más,true,true,4
+P-00154,25004,5493418277249,Distribuidora La Estrella,2026-06-23 11:15:39,pendiente,189860.62,Pedido abierto mock - Distribuidora La Estrella,true,true,1
+P-00155,25005,5493587747641,El Refugio de las Bebidas,2026-06-23 11:15:52,abierto,31062.75,Pedido abierto mock - El Refugio de las Bebidas,true,true,2
+P-00156,25006,5492614053074,Cerveza Artesanal Córdoba,2026-06-23 11:15:05,pendiente,111211.52,Pedido abierto mock - Cerveza Artesanal Córdoba,true,true,3
+P-00157,25007,5493514079279,Bebidas La Nueva,2026-06-23 11:15:18,abierto,169764.94,Pedido abierto mock - Bebidas La Nueva,true,true,4

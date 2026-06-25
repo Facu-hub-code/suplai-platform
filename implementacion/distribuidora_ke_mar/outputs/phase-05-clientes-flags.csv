@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Bebidas del Sur,25001,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493582641213,La Cerveza de Córdoba,25002,validado,2026-06-23T16:17:16.578077+00:00,,false
+5492991227644,Bebidas y Más,25003,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493418277249,Distribuidora La Estrella,25004,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493587747641,El Refugio de las Bebidas,25005,validado,2026-06-23T16:17:16.578077+00:00,,false
+5492614053074,Cerveza Artesanal Córdoba,25006,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493514079279,Bebidas La Nueva,25007,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493876914178,Distribuidora El Trago,25008,validado,2026-06-23T16:17:16.578077+00:00,,false
+5492617175545,La Casa de la Cerveza,25009,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493818437953,Bebidas y Snacks,25010,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493582132179,El Sabor del Norte,25011,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493872845902,Cerveza y Compañía,25012,validado,2026-06-23T16:17:16.578077+00:00,,false
+5492997670210,La Bodega Cordobesa,25013,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493811657614,Bebidas del Centro,25014,validado,2026-06-23T16:17:16.578077+00:00,,false
+5492994145193,Distribuidora El Buen Trago,25015,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493515971311,La Barra de Bebidas,25016,validado,2026-06-23T16:17:16.578077+00:00,,false
+5492994228106,Bebidas del Río,25017,validado,2026-06-23T16:17:16.578077+00:00,,false
+5492998718887,El Rincón de las Bebidas,25018,validado,2026-06-23T16:17:16.578077+00:00,,false
+5492995028869,Cerveza y Más,25019,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493517304254,Bebidas del Mercado,25020,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493416986538,La Cerveza de la Ciudad,25021,validado,2026-06-23T16:17:16.578077+00:00,,false
+5492619239862,Distribuidora El Barril,25022,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493513952681,Bebidas de la Sierra,25023,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493414799650,La Cerveza de los Amigos,25024,validado,2026-06-23T16:17:16.578077+00:00,,false
+5492992500733,Bebidas y Diversión,25025,validado,2026-06-23T16:17:16.578077+00:00,,false
+5492615139305,El Surtidor de Bebidas,25026,validado,2026-06-23T16:17:16.578077+00:00,,false
+5492618861463,La Cerveza del Pueblo,25027,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493812941974,Bebidas del Sol,25028,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493817404433,Distribuidora La Alegría,25029,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493419686914,El Trago Perfecto,25030,validado,2026-06-23T16:17:16.578077+00:00,,false
+5493518648263,Bebidas de la Tarde,25031,existente,,,false
+5493516216782,La Cerveza de la Casa,25032,existente,,,false
+5492612780568,Bebidas y Alegría,25033,existente,,,false
+5493582639964,Distribuidora El Cielo,25034,existente,,,false
+5493814729528,La Cerveza de la Amistad,25035,existente,,,false
+5493876922419,Bebidas del Encuentro,25036,existente,,,false
+5492618889598,El Trago Cordobés,25037,existente,,,false
+5492615021286,Bebidas del Barrio,25038,existente,,,false
+5493813520000,La Cerveza del Sur,25039,existente,,,false
+5492997489876,Distribuidora El Paraíso,25040,existente,,,false
+5493519107005,Bebidas de la Fiesta,0,no_validado,,PROSPECTO,true
+5493874104594,La Cerveza de la Noche,0,existente,,PROSPECTO,true
+5492617413812,Bebidas y Risas,0,no_validado,,PROSPECTO,true
+5492617236955,El Surtidor Cordobés,0,existente,,PROSPECTO,true
+5492612928724,Bebidas del Camino,0,no_validado,,PROSPECTO,true
+5492999435946,La Cerveza de la Tradición,0,validado,2026-06-23T16:17:16.578077+00:00,PROSPECTO,true
+5493517632424,Distribuidora El Oasis,0,no_existente,,PROSPECTO,true
+5493416524997,Bebidas de la Alegría,0,no_validado,,PROSPECTO,true
+5493876499570,La Cerveza de los Sueños,0,existente,,PROSPECTO,true
+5492998066543,Bebidas del Recuerdo,0,no_validado,,PROSPECTO,true

@@ -1,0 +1,6 @@
+{
+  "dominios": "mercadolibre.com.ar,coto.com.ar,jumbo.com.ar",
+  "sufijo_fallback": "bebida gaseosa agua argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA BEBIDAS:\n1. Mantener la descripción corta y directa para e-commerce masivo.\n2. Identificar claramente el tipo de bebida (gaseosa, agua, jugo, isotónica), sabor, marca y presentación (botella, lata, retornable, etc.).\n3. En los alias locales, incluir formas cortas de nombrar (ej: 'coca', 'sprite', 'pas de los toros')."
+}

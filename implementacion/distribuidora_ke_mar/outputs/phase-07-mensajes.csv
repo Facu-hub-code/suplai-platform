@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5492612780568,5492612780568,ai,ai,"Hola Bebidas y Alegría, paso a revisar tu pedido P-00099 de Bonaqua 1,5L Sin Gas x6 + Bowl Grande 3500 cm3.","Hola Bebidas y Alegría, paso a revisar tu pedido P-00099 de Bonaqua 1,5L Sin Gas x6 + Bowl Grande 3500 cm3.",2026-06-22 11:36:06,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 11:37:35,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 113780.01.,Te confirmo que el pedido P-00099 fue registrado correctamente por 113780.01.,2026-06-22 11:38:31,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 11:39:40,true
+5492612928724,5492612928724,ai,ai,"Hola Bebidas del Camino, paso a revisar tu pedido P-00123 de Bonaqua con gas 1,5L x6.","Hola Bebidas del Camino, paso a revisar tu pedido P-00123 de Bonaqua con gas 1,5L x6.",2026-06-23 13:36:06,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 13:36:51,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 54162.82.,Te confirmo que el pedido P-00123 fue registrado correctamente por 54162.82.,2026-06-23 13:37:24,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-23 13:38:57,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 13:39:53,true
+5492614053074,5492614053074,ai,ai,"Hola Cerveza Artesanal Córdoba, vi que tenes un pedido abierto por Schweppes Pomelo Zero 1,5L x6 y queria ayudarte a cerrarlo.","Hola Cerveza Artesanal Córdoba, vi que tenes un pedido abierto por Schweppes Pomelo Zero 1,5L x6 y queria ayudarte a cerrarlo.",2026-06-23 10:36:06,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-23 10:37:44,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 111211.52. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 111211.52. Si queres te lo dejo cerrado hoy.,2026-06-23 10:38:20,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-23 10:39:38,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-23 10:40:55,true
+5492615021286,5492615021286,ai,ai,"Hola Bebidas del Barrio, paso a revisar tu pedido P-00112 de Monster Green 473ml x6 + Monster Pipeline Punch 473ml x6.","Hola Bebidas del Barrio, paso a revisar tu pedido P-00112 de Monster Green 473ml x6 + Monster Pipeline Punch 473ml x6.",2026-06-21 11:36:06,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 11:37:55,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 62947.08.,Te confirmo que el pedido P-00112 fue registrado correctamente por 62947.08.,2026-06-21 11:38:43,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 11:39:26,true
+5492615139305,5492615139305,ai,ai,"Hola El Surtidor de Bebidas, paso a revisar tu pedido P-00076 de Monster Green 473ml x6 + Monster Ultra White 473ml x6.","Hola El Surtidor de Bebidas, paso a revisar tu pedido P-00076 de Monster Green 473ml x6 + Monster Ultra White 473ml x6.",2026-06-21 13:36:06,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 13:37:13,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 170616.76.,Te confirmo que el pedido P-00076 fue registrado correctamente por 170616.76.,2026-06-21 13:38:30,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 13:39:13,true
+5492617175545,5492617175545,ai,ai,"Hola La Casa de la Cerveza, paso a revisar tu pedido P-00027 de Aquarius Naranja 1,5L x6.","Hola La Casa de la Cerveza, paso a revisar tu pedido P-00027 de Aquarius Naranja 1,5L x6.",2026-06-22 10:36:06,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 10:37:35,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 70945.80.,Te confirmo que el pedido P-00027 fue registrado correctamente por 70945.80.,2026-06-22 10:38:24,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 10:39:43,true
+5492617236955,5492617236955,ai,ai,"Hola El Surtidor Cordobés, paso a revisar tu pedido P-00126 de Cepita Naranja Hot Fill 300ml x6 + Sprite Lata 354ml x6.","Hola El Surtidor Cordobés, paso a revisar tu pedido P-00126 de Cepita Naranja Hot Fill 300ml x6 + Sprite Lata 354ml x6.",2026-06-23 12:36:06,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 12:36:57,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 288074.40.,Te confirmo que el pedido P-00126 fue registrado correctamente por 288074.40.,2026-06-23 12:37:44,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-23 12:38:33,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 12:39:23,true
+5492617413812,5492617413812,ai,ai,"Hola Bebidas y Risas, paso a revisar tu pedido P-00129 de Bonaqua Sin gas 1,5L x6.","Hola Bebidas y Risas, paso a revisar tu pedido P-00129 de Bonaqua Sin gas 1,5L x6.",2026-06-23 11:36:06,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 11:37:56,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 144469.46.,Te confirmo que el pedido P-00129 fue registrado correctamente por 144469.46.,2026-06-23 11:39:13,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-23 11:40:08,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 11:41:20,true
+5492618861463,5492618861463,ai,ai,"Hola La Cerveza del Pueblo, paso a revisar tu pedido P-00079 de Bonaqua Sin gas 1,5L x6.","Hola La Cerveza del Pueblo, paso a revisar tu pedido P-00079 de Bonaqua Sin gas 1,5L x6.",2026-06-22 12:36:06,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 12:37:32,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 66727.40.,Te confirmo que el pedido P-00079 fue registrado correctamente por 66727.40.,2026-06-22 12:38:05,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 12:39:35,true
+5492618889598,5492618889598,ai,ai,"Hola El Trago Cordobés, paso a revisar tu pedido P-00110 de Schweppes Tónica Lata 310ml x6.","Hola El Trago Cordobés, paso a revisar tu pedido P-00110 de Schweppes Tónica Lata 310ml x6.",2026-06-22 12:36:06,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 12:37:41,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 59783.81.,Te confirmo que el pedido P-00110 fue registrado correctamente por 59783.81.,2026-06-22 12:38:38,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 12:39:40,true
+5492619239862,5492619239862,ai,ai,"Hola Distribuidora El Barril, paso a revisar tu pedido P-00066 de Cepita Durazno Hot Fill 1L x6 + Aquarius Pomelo 1,5L x6.","Hola Distribuidora El Barril, paso a revisar tu pedido P-00066 de Cepita Durazno Hot Fill 1L x6 + Aquarius Pomelo 1,5L x6.",2026-06-21 12:36:06,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 12:37:50,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 21475.42.,Te confirmo que el pedido P-00066 fue registrado correctamente por 21475.42.,2026-06-21 12:39:18,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 12:39:57,true
+5492991227644,5492991227644,ai,ai,"Hola Bebidas y Más, vi que tenes un pedido abierto por Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6 y queria ayudarte a cerrarlo.","Hola Bebidas y Más, vi que tenes un pedido abierto por Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6 y queria ayudarte a cerrarlo.",2026-06-23 13:36:06,true
+5492991227644,5492991227644,human,human,"Hola, queria hacer un reclamo por error de facturacion.","Hola, queria hacer un reclamo por error de facturacion.",2026-06-23 13:37:04,true
+5492991227644,5492991227644,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-06-23 13:38:20,true
+5492991227644,5492991227644,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-23 13:40:05,true
+5492991227644,5492991227644,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-23 13:40:35,true
+5492992500733,5492992500733,ai,ai,"Hola Bebidas y Diversión, paso a revisar tu pedido P-00073 de Bonaqua 1,5L Sin Gas x6 + Fibre Bowl Coca–Cola x2.","Hola Bebidas y Diversión, paso a revisar tu pedido P-00073 de Bonaqua 1,5L Sin Gas x6 + Fibre Bowl Coca–Cola x2.",2026-06-22 09:36:06,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 09:37:49,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 379794.05.,Te confirmo que el pedido P-00073 fue registrado correctamente por 379794.05.,2026-06-22 09:38:27,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 09:39:14,true
+5492994145193,5492994145193,ai,ai,"Hola Distribuidora El Buen Trago, paso a revisar tu pedido P-00045 de Monster Pipeline Punch 473x6.","Hola Distribuidora El Buen Trago, paso a revisar tu pedido P-00045 de Monster Pipeline Punch 473x6.",2026-06-22 09:36:06,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 09:37:07,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 12439.54.,Te confirmo que el pedido P-00045 fue registrado correctamente por 12439.54.,2026-06-22 09:38:14,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 09:39:39,true
+5492994228106,5492994228106,ai,ai,"Hola Bebidas del Río, paso a revisar tu pedido P-00051 de Fanta Naranja 500ml x12.","Hola Bebidas del Río, paso a revisar tu pedido P-00051 de Fanta Naranja 500ml x12.",2026-06-22 12:36:06,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 12:37:25,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 121675.09.,Te confirmo que el pedido P-00051 fue registrado correctamente por 121675.09.,2026-06-22 12:37:59,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 12:38:40,true
+5492995028869,5492995028869,ai,ai,"Hola Cerveza y Más, paso a revisar tu pedido P-00057 de Cepita Durazno Tetra 200ml x6.","Hola Cerveza y Más, paso a revisar tu pedido P-00057 de Cepita Durazno Tetra 200ml x6.",2026-06-22 10:36:06,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 10:37:31,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 103357.41.,Te confirmo que el pedido P-00057 fue registrado correctamente por 103357.41.,2026-06-22 10:38:01,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 10:39:15,true
+5492997489876,5492997489876,ai,ai,"Hola Distribuidora El Paraíso, paso a revisar tu pedido P-00118 de Sprite 500ml x12 + Coca–Cola Original 500ml x12.","Hola Distribuidora El Paraíso, paso a revisar tu pedido P-00118 de Sprite 500ml x12 + Coca–Cola Original 500ml x12.",2026-06-21 09:36:06,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 09:37:47,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 362623.39.,Te confirmo que el pedido P-00118 fue registrado correctamente por 362623.39.,2026-06-21 09:38:39,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 09:39:29,true
+5492997670210,5492997670210,ai,ai,"Hola La Bodega Cordobesa, paso a revisar tu pedido P-00037 de Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6.","Hola La Bodega Cordobesa, paso a revisar tu pedido P-00037 de Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6.",2026-06-22 11:36:06,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 11:37:13,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 233320.93.,Te confirmo que el pedido P-00037 fue registrado correctamente por 233320.93.,2026-06-22 11:38:00,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 11:39:01,true
+5492998066543,5492998066543,ai,ai,"Hola Bebidas del Recuerdo, paso a revisar tu pedido P-00132 de Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6.","Hola Bebidas del Recuerdo, paso a revisar tu pedido P-00132 de Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6.",2026-06-23 10:36:06,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 10:37:44,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 142656.08.,Te confirmo que el pedido P-00132 fue registrado correctamente por 142656.08.,2026-06-23 10:38:23,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-23 10:39:58,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 10:41:08,true
+5492998718887,5492998718887,ai,ai,"Hola El Rincón de las Bebidas, paso a revisar tu pedido P-00054 de Schweppes Ginger Ale Lata 310ml x6.","Hola El Rincón de las Bebidas, paso a revisar tu pedido P-00054 de Schweppes Ginger Ale Lata 310ml x6.",2026-06-21 11:36:06,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 11:38:03,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 6143.64.,Te confirmo que el pedido P-00054 fue registrado correctamente por 6143.64.,2026-06-21 11:38:49,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 11:39:55,true
+5492999435946,5492999435946,ai,ai,"Hola La Cerveza de la Tradición, paso a revisar tu pedido P-00135 de Coca–Cola Zero 500ml x12.","Hola La Cerveza de la Tradición, paso a revisar tu pedido P-00135 de Coca–Cola Zero 500ml x12.",2026-06-23 09:36:06,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 09:37:49,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 67355.14.,Te confirmo que el pedido P-00135 fue registrado correctamente por 67355.14.,2026-06-23 09:38:37,true
+5492999435946,5492999435946,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-23 09:40:23,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 09:40:55,true
+5493414799650,5493414799650,ai,ai,"Hola La Cerveza de los Amigos, paso a revisar tu pedido P-00071 de Cepita Naranja Tentacion 1L x6 25%.","Hola La Cerveza de los Amigos, paso a revisar tu pedido P-00071 de Cepita Naranja Tentacion 1L x6 25%.",2026-06-21 10:36:06,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 10:37:04,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 84751.43.,Te confirmo que el pedido P-00071 fue registrado correctamente por 84751.43.,2026-06-21 10:37:44,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 10:38:37,true
+5493416524997,5493416524997,ai,ai,"Hola Bebidas de la Alegría, paso a revisar tu pedido P-00138 de Fanta Naranja Lata 354ml x6.","Hola Bebidas de la Alegría, paso a revisar tu pedido P-00138 de Fanta Naranja Lata 354ml x6.",2026-06-21 13:36:06,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 13:36:57,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 92827.20.,Te confirmo que el pedido P-00138 fue registrado correctamente por 92827.20.,2026-06-21 13:37:56,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 13:39:03,true
+5493416986538,5493416986538,ai,ai,"Hola La Cerveza de la Ciudad, paso a revisar tu pedido P-00063 de Cepita Durazno Hot Fill 1L x6 + Aquarius Pomelo 1,5L x6.","Hola La Cerveza de la Ciudad, paso a revisar tu pedido P-00063 de Cepita Durazno Hot Fill 1L x6 + Aquarius Pomelo 1,5L x6.",2026-06-22 13:36:06,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 13:37:35,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 194155.68.,Te confirmo que el pedido P-00063 fue registrado correctamente por 194155.68.,2026-06-22 13:38:37,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 13:39:40,true
+5493418277249,5493418277249,ai,ai,"Hola Distribuidora La Estrella, vi que tenes un pedido abierto por Monster Mango Loco 473ml x6 y queria ayudarte a cerrarlo.","Hola Distribuidora La Estrella, vi que tenes un pedido abierto por Monster Mango Loco 473ml x6 y queria ayudarte a cerrarlo.",2026-06-23 12:36:06,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-06-23 12:37:44,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-06-23 12:38:26,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-23 12:39:27,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-23 12:40:16,true
+5493419686914,5493419686914,ai,ai,"Hola El Trago Perfecto, paso a revisar tu pedido P-00090 de Bonaqua Sin gas 1,5L x6.","Hola El Trago Perfecto, paso a revisar tu pedido P-00090 de Bonaqua Sin gas 1,5L x6.",2026-06-21 09:36:06,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 09:37:02,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 188746.75.,Te confirmo que el pedido P-00090 fue registrado correctamente por 188746.75.,2026-06-21 09:38:26,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 09:39:49,true
+5493513952681,5493513952681,ai,ai,"Hola Bebidas de la Sierra, paso a revisar tu pedido P-00068 de Schweppes Pomelo Zero 1,5L x6.","Hola Bebidas de la Sierra, paso a revisar tu pedido P-00068 de Schweppes Pomelo Zero 1,5L x6.",2026-06-22 11:36:06,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 11:37:16,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 77776.20.,Te confirmo que el pedido P-00068 fue registrado correctamente por 77776.20.,2026-06-22 11:38:27,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 11:39:25,true
+5493514079279,5493514079279,ai,ai,"Hola Bebidas La Nueva, vi que tenes un pedido abierto por Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2 y queria ayudarte a cerrarlo.","Hola Bebidas La Nueva, vi que tenes un pedido abierto por Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2 y queria ayudarte a cerrarlo.",2026-06-23 09:36:06,true
+5493514079279,5493514079279,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-23 09:37:54,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 169764.94. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 169764.94. Si queres te lo dejo cerrado hoy.,2026-06-23 09:39:09,true
+5493514079279,5493514079279,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-23 09:40:11,true
+5493514079279,5493514079279,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-23 09:41:15,true
+5493515971311,5493515971311,ai,ai,"Hola La Barra de Bebidas, paso a revisar tu pedido P-00048 de Sprite Zero 2,25L x6.","Hola La Barra de Bebidas, paso a revisar tu pedido P-00048 de Sprite Zero 2,25L x6.",2026-06-21 13:36:06,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 13:37:14,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 130433.56.,Te confirmo que el pedido P-00048 fue registrado correctamente por 130433.56.,2026-06-21 13:38:32,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 13:39:10,true
+5493516216782,5493516216782,ai,ai,"Hola La Cerveza de la Casa, paso a revisar tu pedido P-00096 de Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6.","Hola La Cerveza de la Casa, paso a revisar tu pedido P-00096 de Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6.",2026-06-21 12:36:06,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 12:36:52,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 51420.63.,Te confirmo que el pedido P-00096 fue registrado correctamente por 51420.63.,2026-06-21 12:38:11,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 12:39:19,true
+5493517304254,5493517304254,ai,ai,"Hola Bebidas del Mercado, paso a revisar tu pedido P-00060 de Sprite Zero Lata 354ml x6.","Hola Bebidas del Mercado, paso a revisar tu pedido P-00060 de Sprite Zero Lata 354ml x6.",2026-06-21 09:36:06,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 09:37:55,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 131641.53.,Te confirmo que el pedido P-00060 fue registrado correctamente por 131641.53.,2026-06-21 09:38:47,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 09:40:01,true
+5493517632424,5493517632424,ai,ai,"Hola Distribuidora El Oasis, paso a revisar tu pedido P-00141 de Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2.","Hola Distribuidora El Oasis, paso a revisar tu pedido P-00141 de Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2.",2026-06-22 12:36:06,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 12:37:22,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 80150.22.,Te confirmo que el pedido P-00141 fue registrado correctamente por 80150.22.,2026-06-22 12:38:29,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 12:39:56,true
+5493518648263,5493518648263,ai,ai,"Hola Bebidas de la Tarde, paso a revisar tu pedido P-00093 de Sprite 2,25L x6.","Hola Bebidas de la Tarde, paso a revisar tu pedido P-00093 de Sprite 2,25L x6.",2026-06-22 13:36:06,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 13:37:59,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 105859.00.,Te confirmo que el pedido P-00093 fue registrado correctamente por 105859.00.,2026-06-22 13:39:12,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 13:40:37,true
+5493519107005,5493519107005,ai,ai,"Hola Bebidas de la Fiesta, paso a revisar tu pedido P-00144 de Aquarius Uva 1,5L x6.","Hola Bebidas de la Fiesta, paso a revisar tu pedido P-00144 de Aquarius Uva 1,5L x6.",2026-06-21 11:36:06,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 11:37:40,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 42567.48.,Te confirmo que el pedido P-00144 fue registrado correctamente por 42567.48.,2026-06-21 11:38:23,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 11:39:52,true
+5493582132179,5493582132179,ai,ai,"Hola El Sabor del Norte, paso a revisar tu pedido P-00032 de Aquarius Uva 2,25L x6.","Hola El Sabor del Norte, paso a revisar tu pedido P-00032 de Aquarius Uva 2,25L x6.",2026-06-22 13:36:06,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 13:37:39,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 126983.47.,Te confirmo que el pedido P-00032 fue registrado correctamente por 126983.47.,2026-06-22 13:39:03,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 13:39:50,true
+5493582639964,5493582639964,ai,ai,"Hola Distribuidora El Cielo, paso a revisar tu pedido P-00102 de Sprite Zero 2,25L x6.","Hola Distribuidora El Cielo, paso a revisar tu pedido P-00102 de Sprite Zero 2,25L x6.",2026-06-21 10:36:06,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 10:36:54,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 91279.59.,Te confirmo que el pedido P-00102 fue registrado correctamente por 91279.59.,2026-06-21 10:37:45,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 10:38:25,true
+5493582641213,5493582641213,ai,ai,"Hola La Cerveza de Córdoba, vi que tenes un pedido abierto por Cepita Durazno 200ml x6 + Cepita Naranja 200ml x6 y queria ayudarte a cerrarlo.","Hola La Cerveza de Córdoba, vi que tenes un pedido abierto por Cepita Durazno 200ml x6 + Cepita Naranja 200ml x6 y queria ayudarte a cerrarlo.",2026-06-23 02:36:06,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-06-23 02:37:30,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-06-23 02:38:34,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-23 02:39:29,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-23 02:40:26,true
+5493587747641,5493587747641,ai,ai,"Hola El Refugio de las Bebidas, vi que tenes un pedido abierto por Cepita Naranja Tentacion Hot Fill 1L x6 y queria ayudarte a cerrarlo.","Hola El Refugio de las Bebidas, vi que tenes un pedido abierto por Cepita Naranja Tentacion Hot Fill 1L x6 y queria ayudarte a cerrarlo.",2026-06-23 11:36:06,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-23 11:37:50,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 31062.75. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 31062.75. Si queres te lo dejo cerrado hoy.,2026-06-23 11:38:52,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-23 11:40:28,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-23 11:41:18,true
+5493587905250,5493587905250,ai,ai,"Hola Bebidas del Sur, vi que tenes un pedido abierto por Coca–Cola Original Lata 220ml x6 y queria ayudarte a cerrarlo.","Hola Bebidas del Sur, vi que tenes un pedido abierto por Coca–Cola Original Lata 220ml x6 y queria ayudarte a cerrarlo.",2026-06-23 03:36:06,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-06-23 03:37:04,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,2026-06-23 03:38:31,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-23 03:40:14,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-23 03:40:46,true
+5493811657614,5493811657614,ai,ai,"Hola Bebidas del Centro, paso a revisar tu pedido P-00040 de Fanta XBOX Carmesi lata 354ml x6.","Hola Bebidas del Centro, paso a revisar tu pedido P-00040 de Fanta XBOX Carmesi lata 354ml x6.",2026-06-21 10:36:06,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 10:37:29,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 96981.06.,Te confirmo que el pedido P-00040 fue registrado correctamente por 96981.06.,2026-06-21 10:38:25,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 10:39:22,true
+5493812941974,5493812941974,ai,ai,"Hola Bebidas del Sol, paso a revisar tu pedido P-00084 de Fanta Naranja Zero 500ml x6.","Hola Bebidas del Sol, paso a revisar tu pedido P-00084 de Fanta Naranja Zero 500ml x6.",2026-06-21 11:36:06,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 11:38:01,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 69179.73.,Te confirmo que el pedido P-00084 fue registrado correctamente por 69179.73.,2026-06-21 11:39:11,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 11:39:44,true
+5493813520000,5493813520000,ai,ai,"Hola La Cerveza del Sur, paso a revisar tu pedido P-00115 de Schweppes Pomelo Zero 1,5L x6.","Hola La Cerveza del Sur, paso a revisar tu pedido P-00115 de Schweppes Pomelo Zero 1,5L x6.",2026-06-22 10:36:06,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 10:36:57,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 99198.63.,Te confirmo que el pedido P-00115 fue registrado correctamente por 99198.63.,2026-06-22 10:38:03,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 10:39:29,true
+5493814729528,5493814729528,ai,ai,"Hola La Cerveza de la Amistad, paso a revisar tu pedido P-00105 de Coca–Cola Original 1,5L x6 + Fanta 1,5L x6.","Hola La Cerveza de la Amistad, paso a revisar tu pedido P-00105 de Coca–Cola Original 1,5L x6 + Fanta 1,5L x6.",2026-06-22 09:36:06,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 09:37:40,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 57132.50.,Te confirmo que el pedido P-00105 fue registrado correctamente por 57132.50.,2026-06-22 09:38:50,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 09:40:12,true
+5493817404433,5493817404433,ai,ai,"Hola Distribuidora La Alegría, paso a revisar tu pedido P-00087 de Sprite Zero 1,5L x6.","Hola Distribuidora La Alegría, paso a revisar tu pedido P-00087 de Sprite Zero 1,5L x6.",2026-06-22 10:36:06,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 10:37:42,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 115819.14.,Te confirmo que el pedido P-00087 fue registrado correctamente por 115819.14.,2026-06-22 10:39:08,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 10:40:11,true
+5493818437953,5493818437953,ai,ai,"Hola Bebidas y Snacks, paso a revisar tu pedido P-00029 de Sprite 1L x9.","Hola Bebidas y Snacks, paso a revisar tu pedido P-00029 de Sprite 1L x9.",2026-06-21 09:36:06,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 09:37:44,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 148538.79.,Te confirmo que el pedido P-00029 fue registrado correctamente por 148538.79.,2026-06-21 09:38:35,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 09:39:30,true
+5493872845902,5493872845902,ai,ai,"Hola Cerveza y Compañía, paso a revisar tu pedido P-00034 de Schweppes Pomelo Zero 2,25L x6.","Hola Cerveza y Compañía, paso a revisar tu pedido P-00034 de Schweppes Pomelo Zero 2,25L x6.",2026-06-21 12:36:06,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 12:37:08,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 190546.20.,Te confirmo que el pedido P-00034 fue registrado correctamente por 190546.20.,2026-06-21 12:38:31,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 12:39:10,true
+5493874104594,5493874104594,ai,ai,"Hola La Cerveza de la Noche, paso a revisar tu pedido P-00146 de Sprite Zero Lata 354ml x6.","Hola La Cerveza de la Noche, paso a revisar tu pedido P-00146 de Sprite Zero Lata 354ml x6.",2026-06-22 10:36:06,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 10:37:15,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 31829.75.,Te confirmo que el pedido P-00146 fue registrado correctamente por 31829.75.,2026-06-22 10:38:33,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 10:39:04,true
+5493876499570,5493876499570,ai,ai,"Hola La Cerveza de los Sueños, paso a revisar tu pedido P-00149 de Bonaqua 1,5L Sin Gas x6 + Vaso Plastico 350ml.","Hola La Cerveza de los Sueños, paso a revisar tu pedido P-00149 de Bonaqua 1,5L Sin Gas x6 + Vaso Plastico 350ml.",2026-06-21 09:36:06,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 09:36:54,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 72985.79.,Te confirmo que el pedido P-00149 fue registrado correctamente por 72985.79.,2026-06-21 09:37:32,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 09:38:28,true
+5493876914178,5493876914178,ai,ai,"Hola Distribuidora El Trago, paso a revisar tu pedido P-00024 de Sprite 2,25L x6.","Hola Distribuidora El Trago, paso a revisar tu pedido P-00024 de Sprite 2,25L x6.",2026-06-21 11:36:06,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 11:37:39,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 184442.36.,Te confirmo que el pedido P-00024 fue registrado correctamente por 184442.36.,2026-06-21 11:38:48,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 11:39:53,true
+5493876922419,5493876922419,ai,ai,"Hola Bebidas del Encuentro, paso a revisar tu pedido P-00107 de Bonaqua con gas 1,5L x6.","Hola Bebidas del Encuentro, paso a revisar tu pedido P-00107 de Bonaqua con gas 1,5L x6.",2026-06-21 13:36:06,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-21 13:37:10,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 41273.20.,Te confirmo que el pedido P-00107 fue registrado correctamente por 41273.20.,2026-06-21 13:37:48,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-21 13:38:39,true

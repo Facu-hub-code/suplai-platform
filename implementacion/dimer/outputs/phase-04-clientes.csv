@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Congelados del Sur,Congelados del Sur,5493587905250,2,1,lunes,martes,"Zona ZONA NORTE - Recreo - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,0,-33.036156,-71.53556,true
+2,Alimentos Fríos,Alimentos Fríos,5493582641213,3,2,lunes,martes,"Zona ZONA NORTE - Recreo - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,0,-33.042832,-71.533791,true
+3,Frío y Sabor,Frío y Sabor,5492991227644,4,3,lunes,martes,"Zona ZONA NORTE - Recreo - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,0,-33.04289,-71.537976,true
+4,La Helada,La Helada,5493418277249,1,4,lunes,martes,"Zona ZONA NORTE - Recreo - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,0,-33.042063,-71.539064,true
+5,Cocina Congelada,Cocina Congelada,5493587747641,2,5,lunes,martes,"Zona ZONA NORTE - Recreo - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,0,-33.037008,-71.53472,true
+6,Almacén de Nieve,Almacén de Nieve,5492614053074,3,6,lunes,martes,"Zona ZONA NORTE - Recreo - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,0,-33.041763,-71.540728,true
+7,Sabor Congelado,Sabor Congelado,5493514079279,4,7,lunes,martes,"Zona ZONA NORTE - Recreo - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,0,-33.037051,-71.533093,true
+8,Delicias Congeladas,Delicias Congeladas,5493876914178,1,8,lunes,martes,"Zona ZONA NORTE - Recreo - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,0,-33.04154,-71.538486,true
+9,Frío Express,Frío Express,5492617175545,2,9,lunes,martes,"Zona ZONA NORTE - Recreo - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,0,-33.043068,-71.533399,true
+10,Comida Helada,Comida Helada,5493818437953,3,10,martes,miercoles,"Zona ZONA SUR - Gómez Carreño - Viña del Mar, Valparaíso, Chile",María González,1,1,-33.022713,-71.550059,true
+11,El Congelador,El Congelador,5493582132179,4,11,martes,miercoles,"Zona ZONA SUR - Gómez Carreño - Viña del Mar, Valparaíso, Chile",María González,1,1,-33.024435,-71.554924,true
+12,Alimentos Árticos,Alimentos Árticos,5493872845902,1,12,martes,miercoles,"Zona ZONA SUR - Gómez Carreño - Viña del Mar, Valparaíso, Chile",María González,1,1,-33.018425,-71.555798,true
+13,Sabor del Hielo,Sabor del Hielo,5492997670210,2,13,martes,miercoles,"Zona ZONA SUR - Gómez Carreño - Viña del Mar, Valparaíso, Chile",María González,1,1,-33.017309,-71.550404,true
+14,Cocina Fría,Cocina Fría,5493811657614,3,14,martes,miercoles,"Zona ZONA SUR - Gómez Carreño - Viña del Mar, Valparaíso, Chile",María González,1,1,-33.018296,-71.554224,true
+15,Helados y Más,Helados y Más,5492994145193,4,15,martes,miercoles,"Zona ZONA SUR - Gómez Carreño - Viña del Mar, Valparaíso, Chile",María González,1,1,-33.022262,-71.547966,true
+16,Congelados Gourmet,Congelados Gourmet,5493515971311,1,16,martes,miercoles,"Zona ZONA SUR - Gómez Carreño - Viña del Mar, Valparaíso, Chile",María González,1,1,-33.023792,-71.553063,true
+17,Frío Natural,Frío Natural,5492994228106,2,17,martes,miercoles,"Zona ZONA SUR - Gómez Carreño - Viña del Mar, Valparaíso, Chile",María González,1,1,-33.018129,-71.553798,true
+18,Alimentos de Invierno,Alimentos de Invierno,5492998718887,3,18,martes,miercoles,"Zona ZONA SUR - Gómez Carreño - Viña del Mar, Valparaíso, Chile",María González,1,1,-33.017513,-71.548454,true
+19,Sabor Helado,Sabor Helado,5492995028869,4,19,miercoles,jueves,"Zona ZONA ESTE - Viña del Mar Centro - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,2,-33.025775,-71.53872,true
+20,Delicias del Frío,Delicias del Frío,5493517304254,1,20,miercoles,jueves,"Zona ZONA ESTE - Viña del Mar Centro - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,2,-33.025863,-71.542852,true
+21,Cocina de Hielo,Cocina de Hielo,5493416986538,2,21,miercoles,jueves,"Zona ZONA ESTE - Viña del Mar Centro - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,2,-33.020419,-71.537897,true
+22,Almacén Congelado,Almacén Congelado,5492619239862,3,22,miercoles,jueves,"Zona ZONA ESTE - Viña del Mar Centro - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,2,-33.023932,-71.542412,true
+23,Frío y Fresco,Frío y Fresco,5493513952681,4,23,miercoles,jueves,"Zona ZONA ESTE - Viña del Mar Centro - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,2,-33.025442,-71.538387,true
+24,Sabor a Nieve,Sabor a Nieve,5493414799650,1,24,miercoles,jueves,"Zona ZONA ESTE - Viña del Mar Centro - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,2,-33.019859,-71.54217,true
+25,Helados del Campo,Helados del Campo,5492992500733,2,25,miercoles,jueves,"Zona ZONA ESTE - Viña del Mar Centro - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,2,-33.019042,-71.536716,true
+26,La Casa del Frío,La Casa del Frío,5492615139305,3,26,miercoles,jueves,"Zona ZONA ESTE - Viña del Mar Centro - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,2,-33.019997,-71.542459,true
+27,Comidas Congeladas,Comidas Congeladas,5492618861463,4,27,jueves,viernes,"Zona ZONA OESTE - El Salto - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,3,-33.031965,-71.563676,true
+28,Alimentos de Hielo,Alimentos de Hielo,5493812941974,1,28,jueves,viernes,"Zona ZONA OESTE - El Salto - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,3,-33.032082,-71.564623,true
+29,Frío y Sazón,Frío y Sazón,5493817404433,2,29,jueves,viernes,"Zona ZONA OESTE - El Salto - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,3,-33.02649,-71.569295,true
+30,Delicias Árticas,Delicias Árticas,5493419686914,3,30,jueves,viernes,"Zona ZONA OESTE - El Salto - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,3,-33.026485,-71.565426,true
+31,Sabor Frío,Sabor Frío,5493518648263,4,31,jueves,viernes,"Zona ZONA OESTE - El Salto - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,3,-33.027902,-71.570423,true
+32,Cocina Helada,Cocina Helada,5493516216782,1,32,jueves,viernes,"Zona ZONA OESTE - El Salto - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,3,-33.032191,-71.563252,true
+33,Congelados de la Tierra,Congelados de la Tierra,5492612780568,2,33,jueves,viernes,"Zona ZONA OESTE - El Salto - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,3,-33.028488,-71.564613,true
+34,Alimentos del Ártico,Alimentos del Ártico,5493582639964,3,34,jueves,viernes,"Zona ZONA OESTE - El Salto - Viña del Mar, Valparaíso, Chile",Juan Pérez,0,3,-33.033356,-71.569241,true
+35,Frío y Rico,Frío y Rico,5493814729528,4,35,viernes,sabado,"Zona ZONA NORESTE - Playa Ancha - Viña del Mar, Valparaíso, Chile",María González,1,4,-33.012436,-71.542247,true
+36,Sabor a Frío,Sabor a Frío,5493876922419,1,36,viernes,sabado,"Zona ZONA NORESTE - Playa Ancha - Viña del Mar, Valparaíso, Chile",María González,1,4,-33.013504,-71.537838,true
+37,Delicias Congeladas,Delicias Congeladas,5492618889598,2,37,viernes,sabado,"Zona ZONA NORESTE - Playa Ancha - Viña del Mar, Valparaíso, Chile",María González,1,4,-33.018195,-71.542826,true
+38,Cocina de Invierno,Cocina de Invierno,5492615021286,3,38,viernes,sabado,"Zona ZONA NORESTE - Playa Ancha - Viña del Mar, Valparaíso, Chile",María González,1,4,-33.017853,-71.539432,true
+39,Almacén del Frío,Almacén del Frío,5493813520000,4,39,viernes,sabado,"Zona ZONA NORESTE - Playa Ancha - Viña del Mar, Valparaíso, Chile",María González,1,4,-33.016954,-71.539086,true
+40,Frío y Sabor,Frío y Sabor,5492997489876,1,40,viernes,sabado,"Zona ZONA NORESTE - Playa Ancha - Viña del Mar, Valparaíso, Chile",María González,1,4,-33.01166,-71.539034,true
+41,Sabor del Congelador,Sabor del Congelador,5493519107005,2,41,viernes,sabado,"Zona ZONA NORESTE - Playa Ancha - Viña del Mar, Valparaíso, Chile",María González,1,4,-33.017268,-71.542221,true
+42,Helados y Comidas,Helados y Comidas,5493874104594,3,42,viernes,sabado,"Zona ZONA NORESTE - Playa Ancha - Viña del Mar, Valparaíso, Chile",María González,1,4,-33.011207,-71.537906,true
+43,La Heladería,La Heladería,5492617413812,4,43,sabado,lunes,"Zona ZONA SUROESTE - Forestal - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,5,-33.025931,-71.55953,true
+44,Cocina Congelada,Cocina Congelada,5492617236955,1,44,sabado,lunes,"Zona ZONA SUROESTE - Forestal - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,5,-33.026069,-71.561434,true
+45,Alimentos Fríos,Alimentos Fríos,5492612928724,2,45,sabado,lunes,"Zona ZONA SUROESTE - Forestal - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,5,-33.030917,-71.555723,true
+46,Frío Gourmet,Frío Gourmet,5492999435946,3,46,sabado,lunes,"Zona ZONA SUROESTE - Forestal - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,5,-33.026492,-71.555215,true
+47,Sabor Helado,Sabor Helado,5493517632424,4,47,sabado,lunes,"Zona ZONA SUROESTE - Forestal - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,5,-33.030392,-71.559388,true
+48,Delicias del Hielo,Delicias del Hielo,5493416524997,1,48,sabado,lunes,"Zona ZONA SUROESTE - Forestal - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,5,-33.031768,-71.555757,true
+49,Cocina Fría,Cocina Fría,5493876499570,2,49,sabado,lunes,"Zona ZONA SUROESTE - Forestal - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,5,-33.026641,-71.559235,true
+50,Alimentos de Nieve,Alimentos de Nieve,5492998066543,3,50,sabado,lunes,"Zona ZONA SUROESTE - Forestal - Viña del Mar, Valparaíso, Chile",Carlos Rodríguez,2,5,-33.029542,-71.560734,true

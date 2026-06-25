@@ -1,0 +1,384 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587905250,25001,29230,"Aquarius Manzana 2,25L x6",3,18407.55,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00001,5493587905250,25001,29038,Schweppes Tónica Lata 310ml x6,3,6143.64,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00002,5493587905250,25001,29148,Sprite 500ml x12,3,13661.86,2,Pedido: 3 1 (normalizado: 36 1; equiv: 3 1),true,false,false
+P-00002,5493587905250,25001,29191,"Bonaqua 1,5L Sin Gas x6 + Botella Metal Coca–Cola",1,15172.51,2,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00003,5493587905250,25001,29107,Cepita Durazno 200ml x6 + Cepita Naranja 200ml x6,5,6231.72,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00003,5493587905250,25001,29194,"Bonaqua Sin gas 1,5L x6",3,9203.78,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00004,5493582641213,25002,29097,Monster Ultra Watermelon 473ml x6,1,12439.54,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00004,5493582641213,25002,29102,Monster Green 473ml x6 + Powerade Mountain Blast 500ml x6,5,18765.47,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00004,5493582641213,25002,29220,"Aquarius Pera 1,5L x6",3,14189.16,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00004,5493582641213,25002,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,3,Pedido: 4 1 (normalizado: 48 1; equiv: 4 1),true,false,false
+P-00005,5493582641213,25002,29023,Coca-Cola Zero Lata 354ml x6,4,6143.64,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00005,5493582641213,25002,29134,Schweppes Ginger Ale Lata 310ml x6,2,6143.64,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00005,5493582641213,25002,29173,"Fanta Naranja 1,5L x6",4,15034.50,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00005,5493582641213,25002,29218,Aquarius Uva 500ml x6,1,6830.93,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00006,5493582641213,25002,29177,"Fanta Naranja 2,25L x6",2,20432.47,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00006,5493582641213,25002,29096,Monster Pipeline Punch 473x6,2,12439.54,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00006,5493582641213,25002,29116,Cepita Naranja 200ml x6,1,3595.23,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00006,5493582641213,25002,29041,Schweppes Pomelo Zero lata 310ml x6,5,6365.95,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00007,5492991227644,25003,29223,"Aquarius Pomelo 1,5L x6",4,14189.16,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00007,5492991227644,25003,29216,Aquarius Manzana 500ml x6,4,6830.93,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00008,5492991227644,25003,29094,Monster Mango Loco 473ml x6,5,12439.54,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00009,5492991227644,25003,29203,Bonaqua 500ml Sin Gas x12 + Bowl mediano 1500 cm3,2,16300.94,4,Pedido: 2 1 (normalizado: 24 1; equiv: 2 1),true,false,false
+P-00009,5492991227644,25003,29204,"Bonaqua 1,5L Sin Gas x6 + Bowl Grande 3500 cm3",5,17357.07,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00010,5493418277249,25004,29051,"Sprite Zero 1,5L x6",2,15578.50,1,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00011,5493418277249,25004,29135,Schweppes Tónica Lata 310ml x6,4,6143.64,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00011,5493418277249,25004,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00011,5493418277249,25004,29154,"Sprite Zero 1,5L x6",2,15578.50,1,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00012,5493418277249,25004,29035,Sprite Zero 500ml x6,2,6830.93,1,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00012,5493418277249,25004,29095,Monster Green Zero 473ml x6,3,12439.54,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00012,5493418277249,25004,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",3,47575.95,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00013,5493587747641,25005,29118,Cepita Durazno Delicioso Hot Fill 1L x6,2,10354.25,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00013,5493587747641,25005,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",2,17070.57,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00013,5493587747641,25005,29203,Bonaqua 500ml Sin Gas x12 + Bowl mediano 1500 cm3,2,16300.94,2,Pedido: 2 1 (normalizado: 24 1; equiv: 2 1),true,false,false
+P-00014,5493587747641,25005,29024,Sprite Lata 354ml x6,2,6365.95,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00014,5493587747641,25005,29045,"Sprite 1,5L x6",4,15578.50,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00014,5493587747641,25005,29147,Sprite Zero 500ml x6 + Coca–Cola Zero 500ml x12,4,17291.28,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00014,5493587747641,25005,29229,"Aquarius Naranja 2,25 x6",3,18407.55,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00015,5493587747641,25005,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,4,17140.21,2,Pedido: 4 1 (normalizado: 48 1; equiv: 4 1),true,false,false
+P-00015,5493587747641,25005,29194,"Bonaqua Sin gas 1,5L x6",2,9203.78,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00015,5493587747641,25005,29216,Aquarius Manzana 500ml x6,1,6830.93,2,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00015,5493587747641,25005,29154,"Sprite Zero 1,5L x6",5,15578.50,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00016,5492614053074,25006,29189,"Bonaqua 1,5L Sin Gas x6 + Fibre Bowl Coca–Cola x2",4,15920.06,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00016,5492614053074,25006,29145,Sprite Lata 354ml x6,3,6365.95,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00017,5492614053074,25006,29195,Bonaqua Sin Gas 2L x6,4,11121.23,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00017,5492614053074,25006,29204,"Bonaqua 1,5L Sin Gas x6 + Bowl Grande 3500 cm3",5,17357.07,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00018,5492614053074,25006,29092,Monster Peachy Keen 473ml x6,5,12439.54,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00018,5492614053074,25006,29034,Fanta Naranja 500ml x12,4,13184.78,3,Pedido: 4 1 (normalizado: 48 1; equiv: 4 1),true,false,false
+P-00018,5492614053074,25006,29202,"Bonaqua 1,5L Sin Gas x6 + Paño de cocina Coca–Cola x2",5,14626.84,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00019,5493514079279,25007,29220,"Aquarius Pera 1,5L x6",3,14189.16,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00019,5493514079279,25007,29015,"Coca–Cola Zero 2,25L x6",4,20432.47,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00020,5493514079279,25007,29154,"Sprite Zero 1,5L x6",1,15578.50,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00020,5493514079279,25007,29035,Sprite Zero 500ml x6,4,6830.93,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00021,5493514079279,25007,29043,Schweppes Tónica Zero lata 310ml x6,3,6143.64,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00021,5493514079279,25007,29204,"Bonaqua 1,5L Sin Gas x6 + Bowl Grande 3500 cm3",5,17357.07,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00022,5493876914178,25008,29050,"Fanta Naranja Zero 2,25L x6",4,20432.47,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00023,5493876914178,25008,29225,"Aquarius Uva 2,25L x6",2,18407.55,1,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00023,5493876914178,25008,29033,Fanta Naranja Zero 500ml x6,5,6592.39,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00024,5493876914178,25008,29047,"Sprite 2,25L x6",3,21171.80,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00024,5493876914178,25008,29006,Coca–Cola Zero 500ml x12,2,13184.78,1,Pedido: 2 1 (normalizado: 24 1; equiv: 2 1),true,false,false
+P-00024,5493876914178,25008,29113,Cepita Ananá Tropical Hot Fill 300ml x6,5,5033.32,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00024,5493876914178,25008,29036,Coca-Cola Original 1L x9,4,17347.70,1,Pedido: 4 1 (normalizado: 36 1; equiv: 4 1),true,false,false
+P-00025,5492617175545,25009,29004,Coca-Cola Zero Edicion Limitada Mundial 473ml X6,4,6592.39,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00025,5492617175545,25009,29200,Bonaqua 500ml Sin Gas x12 + Botella Metalica Coca–Cola 750ml,5,24337.34,2,Pedido: 5 1 (normalizado: 60 1; equiv: 5 1),true,false,false
+P-00026,5492617175545,25009,29223,"Aquarius Pomelo 1,5L x6",1,14189.16,2,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00026,5492617175545,25009,29219,Aquarius Limonada 500ml x6,3,6830.93,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00026,5492617175545,25009,29006,Coca–Cola Zero 500ml x12,4,13184.78,2,Pedido: 4 1 (normalizado: 48 1; equiv: 4 1),true,false,false
+P-00027,5492617175545,25009,29228,"Aquarius Naranja 1,5L x6",5,14189.16,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00028,5493818437953,25010,29226,"Aquarius Limonada 1,5L x6",4,14189.16,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00028,5493818437953,25010,29125,Cepita Manzana Roja Hot Fill 1L x6,5,10354.25,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00028,5493818437953,25010,29106,Cepita Durazno Hot Fill 300ml x6 + Coca-Cola Original Lata 354ml x6,4,9167.60,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00029,5493818437953,25010,29053,Sprite 1L x9,3,17975.41,3,Pedido: 3 1 (normalizado: 27 1; equiv: 3 1),true,false,false
+P-00029,5493818437953,25010,29230,"Aquarius Manzana 2,25L x6",4,18407.55,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00029,5493818437953,25010,29089,Monster Green 473ml x6 + Monster Pipeline Punch 473ml x6,1,20982.36,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00030,5493818437953,25010,29026,Sprite Vidrio 237ml x6,5,5033.32,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00030,5493818437953,25010,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00030,5493818437953,25010,29176,"Fanta Limón 2,25L x6",2,21171.80,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00031,5493582132179,25011,29147,Sprite Zero 500ml x6 + Coca–Cola Zero 500ml x12,2,17291.28,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00031,5493582132179,25011,29116,Cepita Naranja 200ml x6,3,3595.23,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00031,5493582132179,25011,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",3,35664.02,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00032,5493582132179,25011,29225,"Aquarius Uva 2,25L x6",5,18407.55,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00032,5493582132179,25011,29110,Cepita Naranja Tentación Hot Fill 300ml x6,2,5033.32,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00032,5493582132179,25011,29100,Monster Sunrise 473ml x6,2,12439.54,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00033,5493582132179,25011,29194,"Bonaqua Sin gas 1,5L x6",5,9203.78,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00034,5493872845902,25012,29048,"Schweppes Pomelo Zero 2,25L x6",5,21171.80,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00034,5493872845902,25012,29139,"Schweppes Pomelo Zero 2,25L x6",4,21171.80,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00035,5493872845902,25012,29053,Sprite 1L x9,1,17975.41,1,Pedido: 1 1 (normalizado: 9 1; equiv: 1 1),true,false,false
+P-00035,5493872845902,25012,29227,"Aquarius Uva 1,5L x6",1,14189.16,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00035,5493872845902,25012,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00035,5493872845902,25012,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",5,47575.95,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00036,5493872845902,25012,29003,Coca–Cola Original 500ml x12,4,13184.78,1,Pedido: 4 1 (normalizado: 48 1; equiv: 4 1),true,false,false
+P-00036,5493872845902,25012,29149,Sprite Zero 500ml x6,1,6830.93,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00036,5493872845902,25012,29023,Coca-Cola Zero Lata 354ml x6,4,6143.64,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00036,5493872845902,25012,29114,"Cepita Durazno Hot Fill 1,5L x4",5,9203.78,1,Pedido: 5 1 (normalizado: 20 1; equiv: 5 1),true,false,false
+P-00037,5492997670210,25013,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,5,17140.21,2,Pedido: 5 1 (normalizado: 60 1; equiv: 5 1),true,false,false
+P-00037,5492997670210,25013,29098,Monster pineapple 473ml x6,4,12439.54,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00037,5492997670210,25013,29162,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",1,35664.02,2,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00037,5492997670210,25013,29100,Monster Sunrise 473ml x6,5,12439.54,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00038,5492997670210,25013,29025,Coca Cola Original Vidrio 237ml x12 + Coca-Cola Lata 354ml x6,2,14248.86,2,Pedido: 2 1 (normalizado: 24 1; equiv: 2 1),true,false,false
+P-00038,5492997670210,25013,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido: 3 1 (normalizado: 36 1; equiv: 3 1),true,false,false
+P-00038,5492997670210,25013,29149,Sprite Zero 500ml x6,4,6830.93,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00039,5492997670210,25013,29056,"Fanta Limón 2,25L x6",3,21171.80,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00040,5493811657614,25014,29009,Fanta XBOX Carmesi lata 354ml x6,4,6143.64,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00040,5493811657614,25014,29145,Sprite Lata 354ml x6,2,6365.95,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00040,5493811657614,25014,29190,"Bonaqua 1,5L Sin Gas x6 + Toalla Coca–Cola x1",4,14918.65,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00041,5493811657614,25014,29215,Aquarius Pera 500ml x6,3,6830.93,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00041,5493811657614,25014,29166,Fanta Naranja Lata 354ml x6,4,6143.64,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00041,5493811657614,25014,29139,"Schweppes Pomelo Zero 2,25L x6",3,21171.80,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00041,5493811657614,25014,29101,Monster Green 473ml x6 + Monster Ultra Watermelon 473ml x6,2,20982.36,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00042,5493811657614,25014,29016,"Coca–Cola Original 2,5L x6",5,22359.26,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00043,5492994145193,25015,29040,"Schweppes Tónica 1,5L x6",3,15034.50,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00044,5492994145193,25015,29201,"Bonaqua 1,5L Sin Gas x6 + Tabla Coca–Cola",2,12193.03,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00044,5492994145193,25015,29188,Bonaqua sin gas 500ml x12,4,11504.72,4,Pedido: 4 1 (normalizado: 48 1; equiv: 4 1),true,false,false
+P-00045,5492994145193,25015,29096,Monster Pipeline Punch 473x6,1,12439.54,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00046,5493515971311,25016,29090,Monster Green 473ml x6 + Monster Mango Loco 473ml x6,3,20982.36,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00047,5493515971311,25016,29024,Sprite Lata 354ml x6,4,6365.95,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00047,5493515971311,25016,29030,Schweppes Pomelo Zero 500ml x6,4,6830.93,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00047,5493515971311,25016,29096,Monster Pipeline Punch 473x6,2,12439.54,1,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00047,5493515971311,25016,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",2,47575.95,1,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00048,5493515971311,25016,29044,"Sprite Zero 2,25L x6",5,21171.80,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00048,5493515971311,25016,29005,Coca-Cola Lata 354ml x6 “Edicion Paises Mundialistas”,4,6143.64,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00049,5492994228106,25017,29228,"Aquarius Naranja 1,5L x6",1,14189.16,2,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00050,5492994228106,25017,29226,"Aquarius Limonada 1,5L x6",5,14189.16,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00050,5492994228106,25017,29005,Coca-Cola Lata 354ml x6 “Edicion Paises Mundialistas”,2,6143.64,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00050,5492994228106,25017,29038,Schweppes Tónica Lata 310ml x6,3,6143.64,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00050,5492994228106,25017,29123,"Cepita Ananá Tropical Hot Fill 1,5L x4",1,9203.78,2,Pedido: 1 1 (normalizado: 4 1; equiv: 1 1),true,false,false
+P-00051,5492994228106,25017,29034,Fanta Naranja 500ml x12,3,13184.78,2,Pedido: 3 1 (normalizado: 36 1; equiv: 3 1),true,false,false
+P-00051,5492994228106,25017,29192,Bonaqua Con Gas 500ml x6,5,5752.36,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00051,5492994228106,25017,29198,"Bonaqua 1,5L Sin Gas x6 + Vaso Plastico 350ml",5,10671.79,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00052,5492998718887,25018,29147,Sprite Zero 500ml x6 + Coca–Cola Zero 500ml x12,1,17291.28,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00052,5492998718887,25018,29108,Cepita Naranja Hot Fill 300ml x6 + Sprite Lata 354ml x6,5,9347.55,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00053,5492998718887,25018,29106,Cepita Durazno Hot Fill 300ml x6 + Coca-Cola Original Lata 354ml x6,3,9167.60,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00053,5492998718887,25018,29189,"Bonaqua 1,5L Sin Gas x6 + Fibre Bowl Coca–Cola x2",1,15920.06,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00053,5492998718887,25018,29170,Fanta Naranja Zero 500ml x6,3,6592.39,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00053,5492998718887,25018,29150,Sprite Zero Lata 354ml x6,2,6365.95,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00054,5492998718887,25018,29134,Schweppes Ginger Ale Lata 310ml x6,1,6143.64,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00055,5492995028869,25019,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",2,47575.95,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00055,5492995028869,25019,29016,"Coca–Cola Original 2,5L x6",5,22359.26,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00055,5492995028869,25019,29202,"Bonaqua 1,5L Sin Gas x6 + Paño de cocina Coca–Cola x2",5,14626.84,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00055,5492995028869,25019,29056,"Fanta Limón 2,25L x6",3,21171.80,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00056,5492995028869,25019,29124,Cepita Naranja Tentacion 1L x6 25%,4,11121.23,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00056,5492995028869,25019,29219,Aquarius Limonada 500ml x6,3,6830.93,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00057,5492995028869,25019,29120,Cepita Durazno Tetra 200ml x6,1,3595.23,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00057,5492995028869,25019,29090,Monster Green 473ml x6 + Monster Mango Loco 473ml x6,3,20982.36,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00057,5492995028869,25019,29230,"Aquarius Manzana 2,25L x6",2,18407.55,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00058,5493517304254,25020,29107,Cepita Durazno 200ml x6 + Cepita Naranja 200ml x6,3,6231.72,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00058,5493517304254,25020,29203,Bonaqua 500ml Sin Gas x12 + Bowl mediano 1500 cm3,4,16300.94,1,Pedido: 4 1 (normalizado: 48 1; equiv: 4 1),true,false,false
+P-00059,5493517304254,25020,29023,Coca-Cola Zero Lata 354ml x6,3,6143.64,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00059,5493517304254,25020,29167,Fanta Naranja Vidrio 237ml x6,2,4857.55,1,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00059,5493517304254,25020,29089,Monster Green 473ml x6 + Monster Pipeline Punch 473ml x6,5,20982.36,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00059,5493517304254,25020,29051,"Sprite Zero 1,5L x6",5,15578.50,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00060,5493517304254,25020,29042,Sprite Zero Lata 354ml x6,5,6365.95,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00060,5493517304254,25020,29123,"Cepita Ananá Tropical Hot Fill 1,5L x4",2,9203.78,1,Pedido: 2 1 (normalizado: 8 1; equiv: 2 1),true,false,false
+P-00060,5493517304254,25020,29137,"Schweppes Tónica 1,5L x6",5,15034.50,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00060,5493517304254,25020,29107,Cepita Durazno 200ml x6 + Cepita Naranja 200ml x6,1,6231.72,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00061,5493416986538,25021,29171,Fanta Naranja 500ml x12,4,13184.78,2,Pedido: 4 1 (normalizado: 48 1; equiv: 4 1),true,false,false
+P-00061,5493416986538,25021,29098,Monster pineapple 473ml x6,1,12439.54,2,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00061,5493416986538,25021,29125,Cepita Manzana Roja Hot Fill 1L x6,5,10354.25,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00061,5493416986538,25021,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00062,5493416986538,25021,29111,Cepita Durazno Delicioso Hot Fill 300ml x6,4,5033.32,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00063,5493416986538,25021,29115,"Cepita Durazno Hot Fill 1L x6 + Aquarius Pomelo 1,5L x6",4,21475.42,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00063,5493416986538,25021,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",4,27063.50,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00064,5492619239862,25022,29152,"Sprite 1,5L x6",2,15578.50,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00064,5492619239862,25022,29169,Fanta Limón 500ml x6,3,6830.93,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00064,5492619239862,25022,29138,Schweppes Pomelo Zero lata 310ml x6,1,6365.95,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00064,5492619239862,25022,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido: 2 1 (normalizado: 24 1; equiv: 2 1),true,false,false
+P-00065,5492619239862,25022,29137,"Schweppes Tónica 1,5L x6",3,15034.50,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00065,5492619239862,25022,29102,Monster Green 473ml x6 + Powerade Mountain Blast 500ml x6,5,18765.47,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00066,5492619239862,25022,29115,"Cepita Durazno Hot Fill 1L x6 + Aquarius Pomelo 1,5L x6",1,21475.42,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00067,5493513952681,25023,29012,"Coca–Cola Original 2,25L x6",1,20432.47,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00067,5493513952681,25023,29224,"Aquarius Pomelo 2,25L x6",5,18407.55,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00067,5493513952681,25023,29090,Monster Green 473ml x6 + Monster Mango Loco 473ml x6,1,20982.36,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00067,5493513952681,25023,29116,Cepita Naranja 200ml x6,5,3595.23,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00068,5493513952681,25023,29136,"Schweppes Pomelo Zero 1,5L x6",1,15578.50,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00068,5493513952681,25023,29093,Monster Ultra White Zero 473ml x6,5,12439.54,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00069,5493513952681,25023,29177,"Fanta Naranja 2,25L x6",2,20432.47,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00069,5493513952681,25023,29162,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",2,35664.02,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00069,5493513952681,25023,29108,Cepita Naranja Hot Fill 300ml x6 + Sprite Lata 354ml x6,3,9347.55,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00070,5493414799650,25024,29003,Coca–Cola Original 500ml x12,4,13184.78,1,Pedido: 4 1 (normalizado: 48 1; equiv: 4 1),true,false,false
+P-00070,5493414799650,25024,29032,Fanta Limón 500ml x6,1,6830.93,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00070,5493414799650,25024,29162,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",3,35664.02,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00071,5493414799650,25024,29124,Cepita Naranja Tentacion 1L x6 25%,1,11121.23,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00071,5493414799650,25024,29225,"Aquarius Uva 2,25L x6",4,18407.55,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00072,5493414799650,25024,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",2,20645.24,1,Pedido: 2 1 (normalizado: 8 1; equiv: 2 1),true,false,false
+P-00073,5492992500733,25025,29189,"Bonaqua 1,5L Sin Gas x6 + Fibre Bowl Coca–Cola x2",5,15920.06,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00073,5492992500733,25025,29039,"Schweppes Pomelo Zero 1,5L x6",4,15578.50,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00073,5492992500733,25025,29132,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",5,47575.95,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00074,5492992500733,25025,29041,Schweppes Pomelo Zero lata 310ml x6,5,6365.95,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00075,5492992500733,25025,29230,"Aquarius Manzana 2,25L x6",5,18407.55,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00075,5492992500733,25025,29118,Cepita Durazno Delicioso Hot Fill 1L x6,4,10354.25,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00075,5492992500733,25025,29200,Bonaqua 500ml Sin Gas x12 + Botella Metalica Coca–Cola 750ml,4,24337.34,2,Pedido: 4 1 (normalizado: 48 1; equiv: 4 1),true,false,false
+P-00076,5492615139305,25026,29091,Monster Green 473ml x6 + Monster Ultra White 473ml x6,5,20982.36,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00076,5492615139305,25026,29214,Aquarius Pomelo 500ml x6,2,6830.93,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00076,5492615139305,25026,29036,Coca-Cola Original 1L x9,3,17347.70,3,Pedido: 3 1 (normalizado: 27 1; equiv: 3 1),true,false,false
+P-00077,5492615139305,25026,29190,"Bonaqua 1,5L Sin Gas x6 + Toalla Coca–Cola x1",5,14918.65,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00077,5492615139305,25026,29015,"Coca–Cola Zero 2,25L x6",1,20432.47,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00077,5492615139305,25026,29124,Cepita Naranja Tentacion 1L x6 25%,3,11121.23,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00078,5492615139305,25026,29135,Schweppes Tónica Lata 310ml x6,1,6143.64,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00078,5492615139305,25026,29151,"Sprite Zero 2,25L x6",1,21171.80,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00079,5492618861463,25027,29194,"Bonaqua Sin gas 1,5L x6",5,9203.78,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00079,5492618861463,25027,29125,Cepita Manzana Roja Hot Fill 1L x6,2,10354.25,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00080,5492618861463,25027,29177,"Fanta Naranja 2,25L x6",2,20432.47,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00080,5492618861463,25027,29057,"Fanta Naranja 2,25L x6",2,20432.47,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00080,5492618861463,25027,29201,"Bonaqua 1,5L Sin Gas x6 + Tabla Coca–Cola",5,12193.03,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00080,5492618861463,25027,29090,Monster Green 473ml x6 + Monster Mango Loco 473ml x6,3,20982.36,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00081,5492618861463,25027,29167,Fanta Naranja Vidrio 237ml x6,5,4857.55,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00081,5492618861463,25027,29218,Aquarius Uva 500ml x6,1,6830.93,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00082,5493812941974,25028,29042,Sprite Zero Lata 354ml x6,3,6365.95,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00083,5493812941974,25028,29223,"Aquarius Pomelo 1,5L x6",3,14189.16,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00084,5493812941974,25028,29170,Fanta Naranja Zero 500ml x6,1,6592.39,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00084,5493812941974,25028,29193,"Bonaqua sin gas 2,5L x6",4,11888.21,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00084,5493812941974,25028,29140,"Schweppes Citrus 1,5L x6",1,15034.50,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00085,5493817404433,25029,29091,Monster Green 473ml x6 + Monster Ultra White 473ml x6,5,20982.36,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00085,5493817404433,25029,29223,"Aquarius Pomelo 1,5L x6",2,14189.16,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00086,5493817404433,25029,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00086,5493817404433,25029,29114,"Cepita Durazno Hot Fill 1,5L x4",3,9203.78,2,Pedido: 3 1 (normalizado: 12 1; equiv: 3 1),true,false,false
+P-00087,5493817404433,25029,29154,"Sprite Zero 1,5L x6",3,15578.50,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00087,5493817404433,25029,29122,Cepita Manzana 200ml x6,2,3595.23,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00087,5493817404433,25029,29134,Schweppes Ginger Ale Lata 310ml x6,4,6143.64,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00087,5493817404433,25029,29097,Monster Ultra Watermelon 473ml x6,3,12439.54,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00088,5493419686914,25030,29010,"Coca–Cola Zero 1,5L x6",3,15034.50,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00088,5493419686914,25030,29100,Monster Sunrise 473ml x6,2,12439.54,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00088,5493419686914,25030,29201,"Bonaqua 1,5L Sin Gas x6 + Tabla Coca–Cola",1,12193.03,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00089,5493419686914,25030,29138,Schweppes Pomelo Zero lata 310ml x6,1,6365.95,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00090,5493419686914,25030,29194,"Bonaqua Sin gas 1,5L x6",5,9203.78,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00090,5493419686914,25030,29132,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",3,47575.95,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00091,5493518648263,25031,29173,"Fanta Naranja 1,5L x6",1,15034.50,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00091,5493518648263,25031,29154,"Sprite Zero 1,5L x6",4,15578.50,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00091,5493518648263,25031,29145,Sprite Lata 354ml x6,4,6365.95,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00092,5493518648263,25031,29170,Fanta Naranja Zero 500ml x6,3,6592.39,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00093,5493518648263,25031,29047,"Sprite 2,25L x6",5,21171.80,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00094,5493516216782,25032,29230,"Aquarius Manzana 2,25L x6",4,18407.55,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00095,5493516216782,25032,29003,Coca–Cola Original 500ml x12,2,13184.78,1,Pedido: 2 1 (normalizado: 24 1; equiv: 2 1),true,false,false
+P-00096,5493516216782,25032,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,3,17140.21,1,Pedido: 3 1 (normalizado: 36 1; equiv: 3 1),true,false,false
+P-00097,5492612780568,25033,29028,Sprite 500ml x12,1,13661.86,2,Pedido: 1 1 (normalizado: 12 1; equiv: 1 1),true,false,false
+P-00097,5492612780568,25033,29125,Cepita Manzana Roja Hot Fill 1L x6,2,10354.25,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00098,5492612780568,25033,29108,Cepita Naranja Hot Fill 300ml x6 + Sprite Lata 354ml x6,1,9347.55,2,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00099,5492612780568,25033,29204,"Bonaqua 1,5L Sin Gas x6 + Bowl Grande 3500 cm3",4,17357.07,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00099,5492612780568,25033,29163,Fanta XBOX Carmesi lata 354ml x6,4,6143.64,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00099,5492612780568,25033,29170,Fanta Naranja Zero 500ml x6,3,6592.39,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00100,5493582639964,25034,29110,Cepita Naranja Tentación Hot Fill 300ml x6,2,5033.32,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00101,5493582639964,25034,29010,"Coca–Cola Zero 1,5L x6",1,15034.50,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00101,5493582639964,25034,29223,"Aquarius Pomelo 1,5L x6",2,14189.16,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00101,5493582639964,25034,29028,Sprite 500ml x12,2,13661.86,3,Pedido: 2 1 (normalizado: 24 1; equiv: 2 1),true,false,false
+P-00102,5493582639964,25034,29044,"Sprite Zero 2,25L x6",4,21171.80,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00102,5493582639964,25034,29033,Fanta Naranja Zero 500ml x6,1,6592.39,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00103,5493814729528,25035,29217,Aquarius Naranja 500ml x6,4,6830.93,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00103,5493814729528,25035,29139,"Schweppes Pomelo Zero 2,25L x6",2,21171.80,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00103,5493814729528,25035,29116,Cepita Naranja 200ml x6,5,3595.23,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00103,5493814729528,25035,29137,"Schweppes Tónica 1,5L x6",5,15034.50,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00104,5493814729528,25035,29031,Schweppes Ginger Ale Lata 310ml x6,4,6143.64,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00104,5493814729528,25035,29126,Cepita Manzana Tentacion 1L x6 25%,4,11121.23,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00104,5493814729528,25035,29046,"Coca–Cola Zero 2,5L x6",2,22359.26,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00104,5493814729528,25035,29194,"Bonaqua Sin gas 1,5L x6",2,9203.78,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00105,5493814729528,25035,29001,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",1,27063.50,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00105,5493814729528,25035,29173,"Fanta Naranja 1,5L x6",2,15034.50,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00106,5493876922419,25036,29117,Cepita Manzana Roja Hot Fill 300ml x6,5,5033.32,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00106,5493876922419,25036,29226,"Aquarius Limonada 1,5L x6",3,14189.16,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00107,5493876922419,25036,29196,"Bonaqua con gas 1,5L x6",3,9203.78,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00107,5493876922419,25036,29030,Schweppes Pomelo Zero 500ml x6,2,6830.93,1,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00108,5493876922419,25036,29116,Cepita Naranja 200ml x6,5,3595.23,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00108,5493876922419,25036,29023,Coca-Cola Zero Lata 354ml x6,4,6143.64,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00109,5492618889598,25037,29190,"Bonaqua 1,5L Sin Gas x6 + Toalla Coca–Cola x1",2,14918.65,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00109,5492618889598,25037,29133,Schweppes Pomelo Zero 500ml x6,4,6830.93,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00109,5492618889598,25037,29118,Cepita Durazno Delicioso Hot Fill 1L x6,2,10354.25,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00110,5492618889598,25037,29135,Schweppes Tónica Lata 310ml x6,4,6143.64,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00110,5492618889598,25037,29226,"Aquarius Limonada 1,5L x6",2,14189.16,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00110,5492618889598,25037,29218,Aquarius Uva 500ml x6,1,6830.93,2,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00111,5492618889598,25037,29001,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",5,27063.50,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00112,5492615021286,25038,29089,Monster Green 473ml x6 + Monster Pipeline Punch 473ml x6,3,20982.36,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00113,5492615021286,25038,29006,Coca–Cola Zero 500ml x12,1,13184.78,3,Pedido: 1 1 (normalizado: 12 1; equiv: 1 1),true,false,false
+P-00113,5492615021286,25038,29163,Fanta XBOX Carmesi lata 354ml x6,3,6143.64,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00113,5492615021286,25038,29167,Fanta Naranja Vidrio 237ml x6,2,4857.55,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00114,5492615021286,25038,29042,Sprite Zero Lata 354ml x6,4,6365.95,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00114,5492615021286,25038,29033,Fanta Naranja Zero 500ml x6,4,6592.39,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00115,5493813520000,25039,29039,"Schweppes Pomelo Zero 1,5L x6",1,15578.50,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00115,5493813520000,25039,29102,Monster Green 473ml x6 + Powerade Mountain Blast 500ml x6,3,18765.47,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00115,5493813520000,25039,29214,Aquarius Pomelo 500ml x6,4,6830.93,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00116,5493813520000,25039,29145,Sprite Lata 354ml x6,3,6365.95,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00116,5493813520000,25039,29217,Aquarius Naranja 500ml x6,2,6830.93,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00116,5493813520000,25039,29048,"Schweppes Pomelo Zero 2,25L x6",1,21171.80,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00116,5493813520000,25039,29139,"Schweppes Pomelo Zero 2,25L x6",5,21171.80,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00117,5493813520000,25039,29177,"Fanta Naranja 2,25L x6",1,20432.47,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00117,5493813520000,25039,29109,"Cepita Naranja Hot Fill 1,5L x4",1,9203.78,4,Pedido: 1 1 (normalizado: 4 1; equiv: 1 1),true,false,false
+P-00117,5493813520000,25039,29200,Bonaqua 500ml Sin Gas x12 + Botella Metalica Coca–Cola 750ml,4,24337.34,4,Pedido: 4 1 (normalizado: 48 1; equiv: 4 1),true,false,false
+P-00118,5492997489876,25040,29144,Sprite 500ml x12 + Coca–Cola Original 500ml x12,1,23267.09,1,Pedido: 1 1 (normalizado: 12 1; equiv: 1 1),true,false,false
+P-00118,5492997489876,25040,29051,"Sprite Zero 1,5L x6",4,15578.50,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00118,5492997489876,25040,29019,Coca–Cola Zero 1L x9,5,17347.70,1,Pedido: 5 1 (normalizado: 45 1; equiv: 5 1),true,false,false
+P-00118,5492997489876,25040,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00119,5492997489876,25040,29219,Aquarius Limonada 500ml x6,3,6830.93,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00119,5492997489876,25040,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,1,Pedido: 3 1 (normalizado: 36 1; equiv: 3 1),true,false,false
+P-00120,5492997489876,25040,29189,"Bonaqua 1,5L Sin Gas x6 + Fibre Bowl Coca–Cola x2",3,15920.06,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00120,5492997489876,25040,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00120,5492997489876,25040,29221,"Aquarius Pera 2,25L x6",1,18407.55,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00121,5492612928724,0,29149,Sprite Zero 500ml x6,3,6830.93,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00121,5492612928724,0,29039,"Schweppes Pomelo Zero 1,5L x6",5,15578.50,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00122,5492612928724,0,29228,"Aquarius Naranja 1,5L x6",3,14189.16,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00122,5492612928724,0,29150,Sprite Zero Lata 354ml x6,2,6365.95,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00122,5492612928724,0,29045,"Sprite 1,5L x6",3,15578.50,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00122,5492612928724,0,29009,Fanta XBOX Carmesi lata 354ml x6,5,6143.64,2,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00123,5492612928724,0,29196,"Bonaqua con gas 1,5L x6",4,9203.78,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00123,5492612928724,0,29036,Coca-Cola Original 1L x9,1,17347.70,2,Pedido: 1 1 (normalizado: 9 1; equiv: 1 1),true,false,false
+P-00124,5492617236955,0,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,1,Pedido: 2 1 (normalizado: 24 1; equiv: 2 1),true,false,false
+P-00124,5492617236955,0,29153,"Sprite 2,25L x6",4,21171.80,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00125,5492617236955,0,29177,"Fanta Naranja 2,25L x6",2,20432.47,1,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00125,5492617236955,0,29144,Sprite 500ml x12 + Coca–Cola Original 500ml x12,1,23267.09,1,Pedido: 1 1 (normalizado: 12 1; equiv: 1 1),true,false,false
+P-00126,5492617236955,0,29108,Cepita Naranja Hot Fill 300ml x6 + Sprite Lata 354ml x6,4,9347.55,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00126,5492617236955,0,29153,"Sprite 2,25L x6",5,21171.80,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00126,5492617236955,0,29151,"Sprite Zero 2,25L x6",4,21171.80,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00126,5492617236955,0,29049,"Fanta Naranja 1,5L x6",4,15034.50,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00127,5492617413812,0,29121,Cepita Naranja Tentacion Hot Fill 1L x6,3,10354.25,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00127,5492617413812,0,29045,"Sprite 1,5L x6",1,15578.50,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00128,5492617413812,0,29192,Bonaqua Con Gas 500ml x6,2,5752.36,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00128,5492617413812,0,29218,Aquarius Uva 500ml x6,2,6830.93,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00129,5492617413812,0,29194,"Bonaqua Sin gas 1,5L x6",2,9203.78,4,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00129,5492617413812,0,29021,"Coca-Cola Light 1,5L x6",4,15034.50,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00129,5492617413812,0,29003,Coca–Cola Original 500ml x12,5,13184.78,4,Pedido: 5 1 (normalizado: 60 1; equiv: 5 1),true,false,false
+P-00130,5492998066543,0,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00130,5492998066543,0,29094,Monster Mango Loco 473ml x6,1,12439.54,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00130,5492998066543,0,29003,Coca–Cola Original 500ml x12,1,13184.78,3,Pedido: 1 1 (normalizado: 12 1; equiv: 1 1),true,false,false
+P-00131,5492998066543,0,29199,"Bonaqua 1,5L Sin Gas x6 + Bolso Verano Coca–Cola x1",1,13772.96,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00131,5492998066543,0,29193,"Bonaqua sin gas 2,5L x6",2,11888.21,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00132,5492998066543,0,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",4,35664.02,3,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00133,5492999435946,0,29001,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",1,27063.50,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00133,5492999435946,0,29194,"Bonaqua Sin gas 1,5L x6",2,9203.78,3,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00133,5492999435946,0,29089,Monster Green 473ml x6 + Monster Pipeline Punch 473ml x6,3,20982.36,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00134,5492999435946,0,29011,"Coca–Cola Original 1,5L x6",1,15034.50,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00134,5492999435946,0,29223,"Aquarius Pomelo 1,5L x6",3,14189.16,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00134,5492999435946,0,29101,Monster Green 473ml x6 + Monster Ultra Watermelon 473ml x6,1,20982.36,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00135,5492999435946,0,29006,Coca–Cola Zero 500ml x12,2,13184.78,3,Pedido: 2 1 (normalizado: 24 1; equiv: 2 1),true,false,false
+P-00135,5492999435946,0,29028,Sprite 500ml x12,3,13661.86,3,Pedido: 3 1 (normalizado: 36 1; equiv: 3 1),true,false,false
+P-00136,5493416524997,0,29223,"Aquarius Pomelo 1,5L x6",3,14189.16,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00136,5493416524997,0,29202,"Bonaqua 1,5L Sin Gas x6 + Paño de cocina Coca–Cola x2",1,14626.84,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00136,5493416524997,0,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,4,9622.58,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00137,5493416524997,0,29004,Coca-Cola Zero Edicion Limitada Mundial 473ml X6,3,6592.39,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00137,5493416524997,0,29089,Monster Green 473ml x6 + Monster Pipeline Punch 473ml x6,1,20982.36,1,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00137,5493416524997,0,29219,Aquarius Limonada 500ml x6,4,6830.93,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00137,5493416524997,0,29036,Coca-Cola Original 1L x9,1,17347.70,1,Pedido: 1 1 (normalizado: 9 1; equiv: 1 1),true,false,false
+P-00138,5493416524997,0,29022,Fanta Naranja Lata 354ml x6,2,6143.64,1,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00138,5493416524997,0,29148,Sprite 500ml x12,3,13661.86,1,Pedido: 3 1 (normalizado: 36 1; equiv: 3 1),true,false,false
+P-00138,5493416524997,0,29034,Fanta Naranja 500ml x12,3,13184.78,1,Pedido: 3 1 (normalizado: 36 1; equiv: 3 1),true,false,false
+P-00139,5493517632424,0,29021,"Coca-Cola Light 1,5L x6",4,15034.50,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00139,5493517632424,0,29223,"Aquarius Pomelo 1,5L x6",1,14189.16,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00140,5493517632424,0,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,4,Pedido: 2 1 (normalizado: 24 1; equiv: 2 1),true,false,false
+P-00140,5493517632424,0,29101,Monster Green 473ml x6 + Monster Ultra Watermelon 473ml x6,5,20982.36,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00141,5493517632424,0,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",1,17070.57,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00141,5493517632424,0,29175,"Fanta Naranja Zero 1,5L x6",3,15034.50,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00141,5493517632424,0,29119,Cepita Multifruta 200ml x6,5,3595.23,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00142,5493519107005,0,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",4,20645.24,2,Pedido: 4 1 (normalizado: 16 1; equiv: 4 1),true,false,false
+P-00143,5493519107005,0,29132,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,2,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00143,5493519107005,0,29036,Coca-Cola Original 1L x9,2,17347.70,2,Pedido: 2 1 (normalizado: 18 1; equiv: 2 1),true,false,false
+P-00144,5493519107005,0,29227,"Aquarius Uva 1,5L x6",3,14189.16,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00145,5493874104594,0,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",3,47575.95,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,false,false
+P-00145,5493874104594,0,29028,Sprite 500ml x12,5,13661.86,3,Pedido: 5 1 (normalizado: 60 1; equiv: 5 1),true,false,false
+P-00146,5493874104594,0,29150,Sprite Zero Lata 354ml x6,5,6365.95,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,false,false
+P-00147,5493874104594,0,29003,Coca–Cola Original 500ml x12,3,13184.78,3,Pedido: 3 1 (normalizado: 36 1; equiv: 3 1),true,false,false
+P-00148,5493876499570,0,29054,Crush Naranja Zero 2.25X6,4,11180.03,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00148,5493876499570,0,29217,Aquarius Naranja 500ml x6,4,6830.93,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00149,5493876499570,0,29198,"Bonaqua 1,5L Sin Gas x6 + Vaso Plastico 350ml",1,10671.79,2,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,false,false
+P-00149,5493876499570,0,29051,"Sprite Zero 1,5L x6",4,15578.50,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,false,false
+P-00150,5493876499570,0,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido: 4 1 (normalizado: 48 1; equiv: 4 1),true,false,false
+P-00150,5493876499570,0,29003,Coca–Cola Original 500ml x12,5,13184.78,2,Pedido: 5 1 (normalizado: 60 1; equiv: 5 1),true,false,false
+P-00150,5493876499570,0,29056,"Fanta Limón 2,25L x6",2,21171.80,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,false,false
+P-00151,5493587905250,25001,29008,Coca–Cola Original Lata 220ml x6,1,3607.73,2,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1) - promo fase 2,true,true,true
+P-00151,5493587905250,25001,29017,Coca–Cola Light 500ml x6,2,6592.39,2,Pedido: 2 1 (normalizado: 12 1; equiv: 2 1),true,true,false
+P-00151,5493587905250,25001,29138,Schweppes Pomelo Zero lata 310ml x6,4,6365.95,2,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,true,false
+P-00152,5493582641213,25002,29107,Cepita Durazno 200ml x6 + Cepita Naranja 200ml x6,1,6231.72,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,true,false
+P-00152,5493582641213,25002,29035,Sprite Zero 500ml x6,5,6830.93,3,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,true,false
+P-00152,5493582641213,25002,29218,Aquarius Uva 500ml x6,3,6830.93,3,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,true,false
+P-00153,5492991227644,25003,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,4,9622.58,4,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,true,false
+P-00153,5492991227644,25003,29026,Sprite Vidrio 237ml x6,3,5033.32,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,true,false
+P-00153,5492991227644,25003,29139,"Schweppes Pomelo Zero 2,25L x6",1,21171.80,4,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,true,false
+P-00153,5492991227644,25003,29054,Crush Naranja Zero 2.25X6,5,11180.03,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,true,false
+P-00154,5493418277249,25004,29094,Monster Mango Loco 473ml x6,4,12439.54,1,Pedido: 4 1 (normalizado: 24 1; equiv: 4 1),true,true,false
+P-00154,5493418277249,25004,29196,"Bonaqua con gas 1,5L x6",3,9203.78,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,true,false
+P-00154,5493418277249,25004,29099,Monster Valentino Rossi 473ml x6,3,12439.54,1,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,true,false
+P-00154,5493418277249,25004,29021,"Coca-Cola Light 1,5L x6",5,15034.50,1,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,true,false
+P-00155,5493587747641,25005,29121,Cepita Naranja Tentacion Hot Fill 1L x6,3,10354.25,2,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,true,false
+P-00156,5492614053074,25006,29136,"Schweppes Pomelo Zero 1,5L x6",1,15578.50,3,Pedido: 1 1 (normalizado: 6 1; equiv: 1 1),true,true,false
+P-00156,5492614053074,25006,29148,Sprite 500ml x12,3,13661.86,3,Pedido: 3 1 (normalizado: 36 1; equiv: 3 1),true,true,false
+P-00156,5492614053074,25006,29028,Sprite 500ml x12,4,13661.86,3,Pedido: 4 1 (normalizado: 48 1; equiv: 4 1),true,true,false
+P-00157,5493514079279,25007,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",3,17070.57,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,true,false
+P-00157,5493514079279,25007,29126,Cepita Manzana Tentacion 1L x6 25%,5,11121.23,4,Pedido: 5 1 (normalizado: 30 1; equiv: 5 1),true,true,false
+P-00157,5493514079279,25007,29089,Monster Green 473ml x6 + Monster Pipeline Punch 473ml x6,3,20982.36,4,Pedido: 3 1 (normalizado: 18 1; equiv: 3 1),true,true,false

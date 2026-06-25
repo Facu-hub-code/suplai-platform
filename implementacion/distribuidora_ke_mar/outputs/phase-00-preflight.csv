@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+"distribuidora_existe","Registro en public.distribuidoras","ok","tenant_id: fd5621c2-f0c4-4e35-a9cb-bd02baa94d2f"
+"schema_existe","Tablas en distribuidora_ke_mar","ok","schema verificado"
+"productos_vacio","COUNT productos = 0","ok","0 productos encontrados"
+"clients_vacio","COUNT clients = 0","ok","0 clientes encontrados"
+"mcp_conectado","MCP supabase responde","ok","conectado via asyncpg"
+"carpeta_implementacion","manifest.yaml presente","ok","verificado"
+"is_mock_column","Columna is_mock en productos","ok","columna is_mock encontrada"
+"excel_presente","Archivo en inputs/","ok","Archivos encontrados en la raiz del workspace"
