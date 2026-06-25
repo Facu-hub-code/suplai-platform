@@ -41,6 +41,8 @@ Liberarle tiempo al **jefe de ventas** delegando en el agente:
 | `backend-supabase` | [056-field-podcast-tts-provider.md](../../../backend-supabase/docs/specs/056-field-podcast-tts-provider.md) | Adaptador multi-proveedor TTS (Azure / ElevenLabs / OpenAI), config por tenant, bucket `field-podcasts` y RLS. |
 | `product-management-app` | [048-field-podcast-backoffice.md](../../../product-management-app/doc/specs/048-field-podcast-backoffice.md) | UI player en conversación seller, proxy `/api/field/podcast/[event_id]/audio`, sección admin de briefings. |
 
+**Deuda técnica relacionada:** unificación del historial de chat — ver [013-deprecar-n8n-chat-histories-unificar-conversaciones.md](./013-deprecar-n8n-chat-histories-unificar-conversaciones.md).
+
 ---
 
 ## 4) Arquitectura end-to-end
