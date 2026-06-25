@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5492612780568,5492612780568,ai,ai,"Hola Congelados de la Tierra, paso a revisar tu pedido P-00099 de LA CREMERIA Hel Frambuesa Crunchy 6x1L CL.","Hola Congelados de la Tierra, paso a revisar tu pedido P-00099 de LA CREMERIA Hel Frambuesa Crunchy 6x1L CL.",2026-06-23 10:50:14,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 10:51:43,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 300029.25.,Te confirmo que el pedido P-00099 fue registrado correctamente por 300029.25.,2026-06-23 10:52:39,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 10:53:48,true
+5492612928724,5492612928724,ai,ai,"Hola Alimentos Fríos, paso a revisar tu pedido P-00123 de POLLO GANSO VACUNO VACIO IMP.","Hola Alimentos Fríos, paso a revisar tu pedido P-00123 de POLLO GANSO VACUNO VACIO IMP.",2026-06-24 12:50:14,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-24 12:50:59,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 249652.35.,Te confirmo que el pedido P-00123 fue registrado correctamente por 249652.35.,2026-06-24 12:51:32,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-24 12:53:05,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-24 12:54:01,true
+5492614053074,5492614053074,ai,ai,"Hola Almacén de Nieve, vi que tenes un pedido abierto por LASAGNA BOLOGNESA 6X600 y queria ayudarte a cerrarlo.","Hola Almacén de Nieve, vi que tenes un pedido abierto por LASAGNA BOLOGNESA 6X600 y queria ayudarte a cerrarlo.",2026-06-24 09:50:14,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-24 09:51:52,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 138604.50. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 138604.50. Si queres te lo dejo cerrado hoy.,2026-06-24 09:52:28,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-24 09:53:46,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-24 09:55:03,true
+5492615021286,5492615021286,ai,ai,"Hola Cocina de Invierno, paso a revisar tu pedido P-00112 de EGOCENTRICO Helado 20x85ml.","Hola Cocina de Invierno, paso a revisar tu pedido P-00112 de EGOCENTRICO Helado 20x85ml.",2026-06-22 10:50:14,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 10:52:03,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 287042.40.,Te confirmo que el pedido P-00112 fue registrado correctamente por 287042.40.,2026-06-22 10:52:51,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 10:53:34,true
+5492615139305,5492615139305,ai,ai,"Hola La Casa del Frío, paso a revisar tu pedido P-00076 de GOLDEN CHICKEN RBZ PICANTE 16X300GR.","Hola La Casa del Frío, paso a revisar tu pedido P-00076 de GOLDEN CHICKEN RBZ PICANTE 16X300GR.",2026-06-22 12:50:14,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 12:51:21,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 38175.30.,Te confirmo que el pedido P-00076 fue registrado correctamente por 38175.30.,2026-06-22 12:52:38,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 12:53:21,true
+5492617175545,5492617175545,ai,ai,"Hola Frío Express, paso a revisar tu pedido P-00027 de PASTA DE CHOCLO 10X1 CONDIMENT.","Hola Frío Express, paso a revisar tu pedido P-00027 de PASTA DE CHOCLO 10X1 CONDIMENT.",2026-06-23 09:50:14,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 09:51:43,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 160896.50.,Te confirmo que el pedido P-00027 fue registrado correctamente por 160896.50.,2026-06-23 09:52:32,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 09:53:51,true
+5492617236955,5492617236955,ai,ai,"Hola Cocina Congelada, paso a revisar tu pedido P-00126 de SAVORY TRITON PALETA 16X80 ml CL.","Hola Cocina Congelada, paso a revisar tu pedido P-00126 de SAVORY TRITON PALETA 16X80 ml CL.",2026-06-24 11:50:14,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-24 11:51:05,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 151559.00.,Te confirmo que el pedido P-00126 fue registrado correctamente por 151559.00.,2026-06-24 11:51:52,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-24 11:52:41,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-24 11:53:31,true
+5492617413812,5492617413812,ai,ai,"Hola La Heladería, paso a revisar tu pedido P-00129 de PIZZA 4 QUESOS 12X460 GR.","Hola La Heladería, paso a revisar tu pedido P-00129 de PIZZA 4 QUESOS 12X460 GR.",2026-06-24 10:50:14,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-24 10:52:04,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 192472.30.,Te confirmo que el pedido P-00129 fue registrado correctamente por 192472.30.,2026-06-24 10:53:21,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-24 10:54:16,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-24 10:55:28,true
+5492618861463,5492618861463,ai,ai,"Hola Comidas Congeladas, paso a revisar tu pedido P-00079 de HABAS 30*500 MINUTO VERDE.","Hola Comidas Congeladas, paso a revisar tu pedido P-00079 de HABAS 30*500 MINUTO VERDE.",2026-06-23 11:50:14,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 11:51:40,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 207846.25.,Te confirmo que el pedido P-00079 fue registrado correctamente por 207846.25.,2026-06-23 11:52:13,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 11:53:43,true
+5492618889598,5492618889598,ai,ai,"Hola Delicias Congeladas, paso a revisar tu pedido P-00110 de P. GRANADO 15X1 LC F/SERVICE.","Hola Delicias Congeladas, paso a revisar tu pedido P-00110 de P. GRANADO 15X1 LC F/SERVICE.",2026-06-23 11:50:14,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 11:51:49,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 760760.65.,Te confirmo que el pedido P-00110 fue registrado correctamente por 760760.65.,2026-06-23 11:52:46,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 11:53:48,true
+5492619239862,5492619239862,ai,ai,"Hola Almacén Congelado, paso a revisar tu pedido P-00066 de PECHUGA POLLO DESHUESADA CONG 7,5X2 KG.","Hola Almacén Congelado, paso a revisar tu pedido P-00066 de PECHUGA POLLO DESHUESADA CONG 7,5X2 KG.",2026-06-22 11:50:14,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 11:51:58,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 466595.10.,Te confirmo que el pedido P-00066 fue registrado correctamente por 466595.10.,2026-06-22 11:53:26,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 11:54:05,true
+5492991227644,5492991227644,ai,ai,"Hola Frío y Sabor, vi que tenes un pedido abierto por MARGARINA POTE QUALY ORIGINAL 12X500 GR y queria ayudarte a cerrarlo.","Hola Frío y Sabor, vi que tenes un pedido abierto por MARGARINA POTE QUALY ORIGINAL 12X500 GR y queria ayudarte a cerrarlo.",2026-06-24 12:50:14,true
+5492991227644,5492991227644,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-06-24 12:51:54,true
+5492991227644,5492991227644,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-06-24 12:53:13,true
+5492991227644,5492991227644,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-24 12:54:38,true
+5492991227644,5492991227644,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-24 12:55:43,true
+5492992500733,5492992500733,ai,ai,"Hola Helados del Campo, paso a revisar tu pedido P-00073 de MCCAIN SMILES: CROQUETAS DE PAPA 6 X 1,5 KG.","Hola Helados del Campo, paso a revisar tu pedido P-00073 de MCCAIN SMILES: CROQUETAS DE PAPA 6 X 1,5 KG.",2026-06-23 08:50:14,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 08:51:57,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 172680.55.,Te confirmo que el pedido P-00073 fue registrado correctamente por 172680.55.,2026-06-23 08:52:35,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 08:53:22,true
+5492994145193,5492994145193,ai,ai,"Hola Helados y Más, paso a revisar tu pedido P-00045 de IANSA CERO K ALULOSA SUCRALOSA 4x90ml.","Hola Helados y Más, paso a revisar tu pedido P-00045 de IANSA CERO K ALULOSA SUCRALOSA 4x90ml.",2026-06-23 08:50:14,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 08:51:15,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 27511.95.,Te confirmo que el pedido P-00045 fue registrado correctamente por 27511.95.,2026-06-23 08:52:22,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 08:53:47,true
+5492994228106,5492994228106,ai,ai,"Hola Frío Natural, paso a revisar tu pedido P-00051 de CHAMONIX helado Tres Leches Chocolate 4x2.5 LCL.","Hola Frío Natural, paso a revisar tu pedido P-00051 de CHAMONIX helado Tres Leches Chocolate 4x2.5 LCL.",2026-06-23 11:50:14,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 11:51:33,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 445492.75.,Te confirmo que el pedido P-00051 fue registrado correctamente por 445492.75.,2026-06-23 11:52:07,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 11:52:48,true
+5492995028869,5492995028869,ai,ai,"Hola Sabor Helado, paso a revisar tu pedido P-00057 de DONUTS RELLENA DE FRESA 36x70grs.","Hola Sabor Helado, paso a revisar tu pedido P-00057 de DONUTS RELLENA DE FRESA 36x70grs.",2026-06-23 09:50:14,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 09:51:39,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 282824.75.,Te confirmo que el pedido P-00057 fue registrado correctamente por 282824.75.,2026-06-23 09:52:09,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 09:53:23,true
+5492997489876,5492997489876,ai,ai,"Hola Frío y Sabor, paso a revisar tu pedido P-00118 de NUGGETS DE POLLO CROCANTES 16X275 GR.","Hola Frío y Sabor, paso a revisar tu pedido P-00118 de NUGGETS DE POLLO CROCANTES 16X275 GR.",2026-06-22 08:50:14,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 08:51:55,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 150317.00.,Te confirmo que el pedido P-00118 fue registrado correctamente por 150317.00.,2026-06-22 08:52:47,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 08:53:37,true
+5492997670210,5492997670210,ai,ai,"Hola Sabor del Hielo, paso a revisar tu pedido P-00037 de AROS DE CEBOLLA 10*1 MV.","Hola Sabor del Hielo, paso a revisar tu pedido P-00037 de AROS DE CEBOLLA 10*1 MV.",2026-06-23 10:50:14,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 10:51:21,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 175974.15.,Te confirmo que el pedido P-00037 fue registrado correctamente por 175974.15.,2026-06-23 10:52:08,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 10:53:09,true
+5492998066543,5492998066543,ai,ai,"Hola Alimentos de Nieve, paso a revisar tu pedido P-00132 de BOTE CREMERIA TRES LECHE.","Hola Alimentos de Nieve, paso a revisar tu pedido P-00132 de BOTE CREMERIA TRES LECHE.",2026-06-24 09:50:14,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-24 09:51:52,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 110036.70.,Te confirmo que el pedido P-00132 fue registrado correctamente por 110036.70.,2026-06-24 09:52:31,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-24 09:54:06,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-24 09:55:16,true
+5492998718887,5492998718887,ai,ai,"Hola Alimentos de Invierno, paso a revisar tu pedido P-00054 de CROCANTY 20 X 90 ML.","Hola Alimentos de Invierno, paso a revisar tu pedido P-00054 de CROCANTY 20 X 90 ML.",2026-06-22 10:50:14,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 10:52:11,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 203762.70.,Te confirmo que el pedido P-00054 fue registrado correctamente por 203762.70.,2026-06-22 10:52:57,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 10:54:03,true
+5492999435946,5492999435946,ai,ai,"Hola Frío Gourmet, paso a revisar tu pedido P-00135 de MILANESA POLLO REB 3X3 KG.","Hola Frío Gourmet, paso a revisar tu pedido P-00135 de MILANESA POLLO REB 3X3 KG.",2026-06-24 08:50:14,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-24 08:51:57,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 292890.60.,Te confirmo que el pedido P-00135 fue registrado correctamente por 292890.60.,2026-06-24 08:52:45,true
+5492999435946,5492999435946,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-06-24 08:54:31,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-24 08:55:03,true
+5493414799650,5493414799650,ai,ai,"Hola Sabor a Nieve, paso a revisar tu pedido P-00071 de ALITAS DE POLLO REB PQ 14 X 400G SD CL.","Hola Sabor a Nieve, paso a revisar tu pedido P-00071 de ALITAS DE POLLO REB PQ 14 X 400G SD CL.",2026-06-22 09:50:14,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 09:51:12,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 308717.00.,Te confirmo que el pedido P-00071 fue registrado correctamente por 308717.00.,2026-06-22 09:51:52,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 09:52:45,true
+5493416524997,5493416524997,ai,ai,"Hola Delicias del Hielo, paso a revisar tu pedido P-00138 de SAHNE NUSS MINI PALETA MULTIPACK 12(5X60ml).","Hola Delicias del Hielo, paso a revisar tu pedido P-00138 de SAHNE NUSS MINI PALETA MULTIPACK 12(5X60ml).",2026-06-22 12:50:14,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 12:51:05,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 135688.00.,Te confirmo que el pedido P-00138 fue registrado correctamente por 135688.00.,2026-06-22 12:52:04,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 12:53:11,true
+5493416986538,5493416986538,ai,ai,"Hola Cocina de Hielo, paso a revisar tu pedido P-00063 de MARGARINA POTE DELINE 12X500 GR.","Hola Cocina de Hielo, paso a revisar tu pedido P-00063 de MARGARINA POTE DELINE 12X500 GR.",2026-06-23 12:50:14,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 12:51:43,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 93260.40.,Te confirmo que el pedido P-00063 fue registrado correctamente por 93260.40.,2026-06-23 12:52:45,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 12:53:48,true
+5493418277249,5493418277249,ai,ai,"Hola La Helada, vi que tenes un pedido abierto por SAVORY CHOCOLITO Hel MiniMP16(10x50ml)CL y queria ayudarte a cerrarlo.","Hola La Helada, vi que tenes un pedido abierto por SAVORY CHOCOLITO Hel MiniMP16(10x50ml)CL y queria ayudarte a cerrarlo.",2026-06-24 11:50:14,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-06-24 11:52:11,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,2026-06-24 11:53:25,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-24 11:55:06,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-24 11:56:16,true
+5493419686914,5493419686914,ai,ai,"Hola Delicias Árticas, paso a revisar tu pedido P-00090 de PIZZA MOZZARELLA 12X440 GR.","Hola Delicias Árticas, paso a revisar tu pedido P-00090 de PIZZA MOZZARELLA 12X440 GR.",2026-06-22 08:50:14,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 08:51:10,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 67725.00.,Te confirmo que el pedido P-00090 fue registrado correctamente por 67725.00.,2026-06-22 08:52:34,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 08:53:57,true
+5493513952681,5493513952681,ai,ai,"Hola Frío y Fresco, paso a revisar tu pedido P-00068 de P.VERDE C/F 9*1KG F/S MINUTO VERDE.","Hola Frío y Fresco, paso a revisar tu pedido P-00068 de P.VERDE C/F 9*1KG F/S MINUTO VERDE.",2026-06-23 10:50:14,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 10:51:24,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 82665.90.,Te confirmo que el pedido P-00068 fue registrado correctamente por 82665.90.,2026-06-23 10:52:35,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 10:53:33,true
+5493514079279,5493514079279,ai,ai,"Hola Sabor Congelado, vi que tenes un pedido abierto por MEGABITES NUTTY 24x41grs y queria ayudarte a cerrarlo.","Hola Sabor Congelado, vi que tenes un pedido abierto por MEGABITES NUTTY 24x41grs y queria ayudarte a cerrarlo.",2026-06-24 08:50:14,true
+5493514079279,5493514079279,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-24 08:52:02,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 53890.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 53890.00. Si queres te lo dejo cerrado hoy.,2026-06-24 08:53:17,true
+5493514079279,5493514079279,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-24 08:54:19,true
+5493514079279,5493514079279,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-24 08:55:23,true
+5493515971311,5493515971311,ai,ai,"Hola Congelados Gourmet, paso a revisar tu pedido P-00048 de COGOTE CONGELADOS ENV AL VACÍO PARAGUAYA.","Hola Congelados Gourmet, paso a revisar tu pedido P-00048 de COGOTE CONGELADOS ENV AL VACÍO PARAGUAYA.",2026-06-22 12:50:14,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 12:51:22,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 231798.00.,Te confirmo que el pedido P-00048 fue registrado correctamente por 231798.00.,2026-06-22 12:52:40,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 12:53:18,true
+5493516216782,5493516216782,ai,ai,"Hola Cocina Helada, paso a revisar tu pedido P-00096 de CHOMP HELADO FRAMBUESA 8X225ML CL.","Hola Cocina Helada, paso a revisar tu pedido P-00096 de CHOMP HELADO FRAMBUESA 8X225ML CL.",2026-06-22 11:50:14,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 11:51:00,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 307871.00.,Te confirmo que el pedido P-00096 fue registrado correctamente por 307871.00.,2026-06-22 11:52:19,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 11:53:27,true
+5493517304254,5493517304254,ai,ai,"Hola Delicias del Frío, paso a revisar tu pedido P-00060 de PAPAS COUNTRY FRIES CASERA 4x2.5KG 12MM.","Hola Delicias del Frío, paso a revisar tu pedido P-00060 de PAPAS COUNTRY FRIES CASERA 4x2.5KG 12MM.",2026-06-22 08:50:14,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 08:52:03,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 17860.00.,Te confirmo que el pedido P-00060 fue registrado correctamente por 17860.00.,2026-06-22 08:52:55,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 08:54:09,true
+5493517632424,5493517632424,ai,ai,"Hola Sabor Helado, paso a revisar tu pedido P-00141 de KIT KAT HEL PALETA PREMIUM 16X85ml.","Hola Sabor Helado, paso a revisar tu pedido P-00141 de KIT KAT HEL PALETA PREMIUM 16X85ml.",2026-06-23 11:50:14,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 11:51:30,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 104471.80.,Te confirmo que el pedido P-00141 fue registrado correctamente por 104471.80.,2026-06-23 11:52:37,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 11:54:04,true
+5493518648263,5493518648263,ai,ai,"Hola Sabor Frío, paso a revisar tu pedido P-00093 de SAVORY CENTELLA Galactea Hel 26x37.6g CL.","Hola Sabor Frío, paso a revisar tu pedido P-00093 de SAVORY CENTELLA Galactea Hel 26x37.6g CL.",2026-06-23 12:50:14,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 12:52:07,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 154700.85.,Te confirmo que el pedido P-00093 fue registrado correctamente por 154700.85.,2026-06-23 12:53:20,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 12:54:45,true
+5493519107005,5493519107005,ai,ai,"Hola Sabor del Congelador, paso a revisar tu pedido P-00144 de ARVEJA 10x200 INTERAGRO.","Hola Sabor del Congelador, paso a revisar tu pedido P-00144 de ARVEJA 10x200 INTERAGRO.",2026-06-22 10:50:14,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 10:51:48,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 253355.35.,Te confirmo que el pedido P-00144 fue registrado correctamente por 253355.35.,2026-06-22 10:52:31,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 10:54:00,true
+5493582132179,5493582132179,ai,ai,"Hola El Congelador, paso a revisar tu pedido P-00032 de LOMO VETADO VACUNO VACIO IMP.","Hola El Congelador, paso a revisar tu pedido P-00032 de LOMO VETADO VACUNO VACIO IMP.",2026-06-23 12:50:14,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 12:51:47,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 98398.55.,Te confirmo que el pedido P-00032 fue registrado correctamente por 98398.55.,2026-06-23 12:53:11,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 12:53:58,true
+5493582639964,5493582639964,ai,ai,"Hola Alimentos del Ártico, paso a revisar tu pedido P-00102 de PAPAS MCCAIN CRINKLE 5X2,5KG.","Hola Alimentos del Ártico, paso a revisar tu pedido P-00102 de PAPAS MCCAIN CRINKLE 5X2,5KG.",2026-06-22 09:50:14,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 09:51:02,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 494833.50.,Te confirmo que el pedido P-00102 fue registrado correctamente por 494833.50.,2026-06-22 09:51:53,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 09:52:33,true
+5493582641213,5493582641213,ai,ai,"Hola Alimentos Fríos, vi que tenes un pedido abierto por PECHUGAS DE POLLO REB. CONG TIRAS 12 X 300G SD CL y queria ayudarte a cerrarlo.","Hola Alimentos Fríos, vi que tenes un pedido abierto por PECHUGAS DE POLLO REB. CONG TIRAS 12 X 300G SD CL y queria ayudarte a cerrarlo.",2026-06-24 01:50:14,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-06-24 01:51:44,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-06-24 01:52:33,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-24 01:53:36,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-24 01:54:36,true
+5493587747641,5493587747641,ai,ai,"Hola Cocina Congelada, vi que tenes un pedido abierto por KRIKO FRUTILLA 20X60 ML CL y queria ayudarte a cerrarlo.","Hola Cocina Congelada, vi que tenes un pedido abierto por KRIKO FRUTILLA 20X60 ML CL y queria ayudarte a cerrarlo.",2026-06-24 10:50:14,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-06-24 10:51:58,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 31493.90. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 31493.90. Si queres te lo dejo cerrado hoy.,2026-06-24 10:53:00,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-06-24 10:54:36,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-06-24 10:55:26,true
+5493587905250,5493587905250,ai,ai,"Hola Congelados del Sur, vi que tenes un pedido abierto por AZUCAR IANSA 20x400grs y queria ayudarte a cerrarlo.","Hola Congelados del Sur, vi que tenes un pedido abierto por AZUCAR IANSA 20x400grs y queria ayudarte a cerrarlo.",2026-06-24 02:50:14,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-06-24 02:51:16,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-06-24 02:52:35,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-06-24 02:54:31,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-06-24 02:55:39,true
+5493811657614,5493811657614,ai,ai,"Hola Cocina Fría, paso a revisar tu pedido P-00040 de AZUCAR LA PATRONA 25Kg.","Hola Cocina Fría, paso a revisar tu pedido P-00040 de AZUCAR LA PATRONA 25Kg.",2026-06-22 09:50:14,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 09:51:37,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 215561.70.,Te confirmo que el pedido P-00040 fue registrado correctamente por 215561.70.,2026-06-22 09:52:33,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 09:53:30,true
+5493812941974,5493812941974,ai,ai,"Hola Alimentos de Hielo, paso a revisar tu pedido P-00084 de MEGA Cookies&Cream Helado 16x90ml CL.","Hola Alimentos de Hielo, paso a revisar tu pedido P-00084 de MEGA Cookies&Cream Helado 16x90ml CL.",2026-06-22 10:50:14,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 10:52:09,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 153635.00.,Te confirmo que el pedido P-00084 fue registrado correctamente por 153635.00.,2026-06-22 10:53:19,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 10:53:52,true
+5493813520000,5493813520000,ai,ai,"Hola Almacén del Frío, paso a revisar tu pedido P-00115 de ARVEJA 30X200 MINUTO VERDE MINI.","Hola Almacén del Frío, paso a revisar tu pedido P-00115 de ARVEJA 30X200 MINUTO VERDE MINI.",2026-06-23 09:50:14,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 09:51:05,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 25273.90.,Te confirmo que el pedido P-00115 fue registrado correctamente por 25273.90.,2026-06-23 09:52:11,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 09:53:37,true
+5493814729528,5493814729528,ai,ai,"Hola Frío y Rico, paso a revisar tu pedido P-00105 de LITRO CHOCOLATE Y LUCUMA.","Hola Frío y Rico, paso a revisar tu pedido P-00105 de LITRO CHOCOLATE Y LUCUMA.",2026-06-23 08:50:14,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 08:51:48,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 57703.95.,Te confirmo que el pedido P-00105 fue registrado correctamente por 57703.95.,2026-06-23 08:52:58,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 08:54:20,true
+5493817404433,5493817404433,ai,ai,"Hola Frío y Sazón, paso a revisar tu pedido P-00087 de PRIMAVERA 30*200. MINI M/V.","Hola Frío y Sazón, paso a revisar tu pedido P-00087 de PRIMAVERA 30*200. MINI M/V.",2026-06-23 09:50:14,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 09:51:50,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 259635.50.,Te confirmo que el pedido P-00087 fue registrado correctamente por 259635.50.,2026-06-23 09:53:16,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 09:54:19,true
+5493818437953,5493818437953,ai,ai,"Hola Comida Helada, paso a revisar tu pedido P-00029 de ARVEJA 16*1 INTERAGRO.","Hola Comida Helada, paso a revisar tu pedido P-00029 de ARVEJA 16*1 INTERAGRO.",2026-06-22 08:50:14,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 08:51:52,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 139060.80.,Te confirmo que el pedido P-00029 fue registrado correctamente por 139060.80.,2026-06-22 08:52:43,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 08:53:38,true
+5493872845902,5493872845902,ai,ai,"Hola Alimentos Árticos, paso a revisar tu pedido P-00034 de PECHUGAS DE POLLO REB. CONG TIRAS 12 X 300G SD CL.","Hola Alimentos Árticos, paso a revisar tu pedido P-00034 de PECHUGAS DE POLLO REB. CONG TIRAS 12 X 300G SD CL.",2026-06-22 11:50:14,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 11:51:16,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 151775.00.,Te confirmo que el pedido P-00034 fue registrado correctamente por 151775.00.,2026-06-22 11:52:39,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 11:53:18,true
+5493874104594,5493874104594,ai,ai,"Hola Helados y Comidas, paso a revisar tu pedido P-00146 de PAPA DUQUESA MINUTO VERDE 20X500.","Hola Helados y Comidas, paso a revisar tu pedido P-00146 de PAPA DUQUESA MINUTO VERDE 20X500.",2026-06-23 09:50:14,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-23 09:51:23,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 332332.20.,Te confirmo que el pedido P-00146 fue registrado correctamente por 332332.20.,2026-06-23 09:52:41,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-23 09:53:12,true
+5493876499570,5493876499570,ai,ai,"Hola Cocina Fría, paso a revisar tu pedido P-00149 de ASADO CARNICERO VACUNO VACIO IMP.","Hola Cocina Fría, paso a revisar tu pedido P-00149 de ASADO CARNICERO VACUNO VACIO IMP.",2026-06-22 08:50:14,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 08:51:02,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 162968.80.,Te confirmo que el pedido P-00149 fue registrado correctamente por 162968.80.,2026-06-22 08:51:40,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 08:52:36,true
+5493876914178,5493876914178,ai,ai,"Hola Delicias Congeladas, paso a revisar tu pedido P-00024 de COSTILLAR C/H SADIA 17 KG.","Hola Delicias Congeladas, paso a revisar tu pedido P-00024 de COSTILLAR C/H SADIA 17 KG.",2026-06-22 10:50:14,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 10:51:47,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 550879.00.,Te confirmo que el pedido P-00024 fue registrado correctamente por 550879.00.,2026-06-22 10:52:56,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 10:54:01,true
+5493876922419,5493876922419,ai,ai,"Hola Sabor a Frío, paso a revisar tu pedido P-00107 de PIZZA CHORIZO 12X460 GR.","Hola Sabor a Frío, paso a revisar tu pedido P-00107 de PIZZA CHORIZO 12X460 GR.",2026-06-22 12:50:14,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-06-22 12:51:18,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 336469.00.,Te confirmo que el pedido P-00107 fue registrado correctamente por 336469.00.,2026-06-22 12:51:56,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-06-22 12:52:47,true

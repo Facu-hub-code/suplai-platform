@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2270,Calidad,open,Reclamo por AZUCAR IANSA 20x400grs con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego AZUCAR IANSA 20x400grs en mal estado y quiero hacer el reclamo.",2026-06-24 11:15:00,,true
+TKT-2271,Calidad,open,Reclamo por PECHUGAS DE POLLO REB. CONG TIRAS 12 X 300G SD CL con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego PECHUGAS DE POLLO REB. CONG TIRAS 12 X 300G SD CL en mal estado y quiero hacer el reclamo.",2026-06-23 08:15:00,,true
+TKT-2272,Calidad,open,Reclamo por MARGARINA POTE QUALY ORIGINAL 12X500 GR con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego MARGARINA POTE QUALY ORIGINAL 12X500 GR en mal estado y quiero hacer el reclamo.",2026-06-22 05:15:00,,true
+TKT-2273,Logistica,open,Demora en la entrega del pedido P-00151 de SAVORY CHOCOLITO Hel MiniMP16(10x50ml)CL.,5493418277249,"Buen dia, sigo esperando el pedido P-00151 de SAVORY CHOCOLITO Hel MiniMP16(10x50ml)CL y no llego.",2026-06-24 02:15:00,,true
+TKT-2274,Logistica,open,Demora en la entrega del pedido P-00123 de POLLO GANSO VACUNO VACIO IMP.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de POLLO GANSO VACUNO VACIO IMP y no llego.",2026-06-23 11:15:00,,true
+TKT-2275,Logistica,open,Demora en la entrega del pedido P-00126 de SAVORY TRITON PALETA 16X80 ml CL.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de SAVORY TRITON PALETA 16X80 ml CL y no llego.",2026-06-22 08:15:00,,true
+TKT-2276,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Congelados del Sur.,5493587905250,,2026-06-24 05:15:00,,true
+TKT-2277,Administracion,open,Solicita corregir datos administrativos de Alimentos Fríos en el sistema.,5493582641213,,2026-06-23 02:15:00,,true
+TKT-2278,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Frío y Sabor.,5492991227644,,2026-06-22 11:15:00,,true
+TKT-2279,Administracion,open,Solicita corregir datos administrativos de La Helada en el sistema.,5493418277249,,2026-06-24 08:15:00,,true
+TKT-2280,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Alimentos Fríos.,5492612928724,,2026-06-23 05:15:00,,true
+TKT-2281,Administracion,closed,Solicita corregir datos administrativos de Cocina Congelada en el sistema.,5492617236955,,2026-06-08 05:15:00,2026-06-08 20:15:00,true
+TKT-2282,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de La Heladería.,5492617413812,,2026-06-07 11:15:00,2026-06-08 03:15:00,true
+TKT-2283,Logistica,closed,Demora en la entrega del pedido P-00132 de BOTE CREMERIA TRES LECHE.,5492998066543,,2026-06-06 09:15:00,2026-06-07 02:15:00,true
+TKT-2284,Calidad,closed,Reclamo por MILANESA POLLO REB 3X3 KG con entrega en mal estado o faltante parcial.,5492999435946,,2026-06-05 07:15:00,2026-06-06 01:15:00,true
+TKT-2285,Administracion,closed,Solicita corregir datos administrativos de Cocina Congelada en el sistema.,5493587747641,,2026-06-04 05:15:00,2026-06-05 00:15:00,true
+TKT-2286,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Almacén de Nieve.,5492614053074,,2026-06-19 11:15:00,2026-06-20 07:15:00,true
+TKT-2287,Logistica,closed,Demora en la entrega del pedido P-00157 de MEGABITES NUTTY 24x41grs.,5493514079279,,2026-06-18 09:15:00,2026-06-19 06:15:00,true

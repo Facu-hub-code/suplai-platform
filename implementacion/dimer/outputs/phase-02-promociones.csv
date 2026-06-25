@@ -1,0 +1,5 @@
+promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+1,12611300,¡Oferta Semanal! SAVORY CENTELLA Galactea Hel,Aprovechá un 15% de descuento en packs de 26x37.6g. ¡No te lo pierdas!,percent_off,15,1,1,2026-06-17,2026-07-24,true,true
+2,12579266,Imperdible: SAVORY CENTELLA Hel Mz Lm,Llevate 26x52g con $1000 de descuento. ¡Ideal para disfrutar!,total_off,1000,2,1,2026-06-17,2026-07-24,true,true
+3,12023357,¡Oportunidad Única! SAVORY CHOCOLITO Hel Mini,Comprá 3 y pagá solo $56129.92. ¡Dulzura a buen precio!,fixed_price,56129.92,1,3,2026-06-17,2026-07-24,true,true
+4,12219159,Descuento Especial: SAVORY CROCANTY Hel Mini,Disfrutá un 20% menos en packs de 8x50ml. ¡Date un gusto!,percent_off,20,3,1,2026-06-17,2026-07-24,true,true

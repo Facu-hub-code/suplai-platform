@@ -1,0 +1,7 @@
+{
+  "dominios": "lider.cl,jumbo.cl,unimarc.cl,cornershopapp.com",
+  "sufijo_fallback": "congelados savory mccain chile",
+  "modo_contexto": "reducido",
+  "gl": "cl",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA CHILE:\n1. TERMINOLOGÍA LOCAL: Utilizar términos comerciales de Chile (ej: 'pote', 'caja', 'bolsa', 'tarrina', 'helado', 'postre'). Evitar términos argentinos como 'kiosco', 'alfajores', 'dulce de leche' a menos que el producto lo requiera.\n2. MARCAS Y FORMATOS: Mantener marcas líderes (Savory, McCain, Minuto Verde, Sadia) visibles en la descripción y alias."
+}

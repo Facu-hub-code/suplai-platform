@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2121,Calidad,open,Reclamo por Coca–Cola Original Lata 220ml x6 con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego Coca–Cola Original Lata 220ml x6 en mal estado y quiero hacer el reclamo.",2026-06-23 11:15:00,,true
+TKT-2122,Calidad,open,Reclamo por Cepita Durazno 200ml x6 + Cepita Naranja 200ml x6 con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego Cepita Durazno 200ml x6 + Cepita Naranja 200ml x6 en mal estado y quiero hacer el reclamo.",2026-06-22 08:15:00,,true
+TKT-2123,Calidad,open,Reclamo por Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6 con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6 en mal estado y quiero hacer el reclamo.",2026-06-21 05:15:00,,true
+TKT-2124,Logistica,open,Demora en la entrega del pedido P-00154 de Monster Mango Loco 473ml x6.,5493418277249,"Buen dia, sigo esperando el pedido P-00154 de Monster Mango Loco 473ml x6 y no llego.",2026-06-23 02:15:00,,true
+TKT-2125,Logistica,open,"Demora en la entrega del pedido P-00123 de Bonaqua con gas 1,5L x6.",5492612928724,"Buen dia, sigo esperando el pedido P-00123 de Bonaqua con gas 1,5L x6 y no llego.",2026-06-22 11:15:00,,true
+TKT-2126,Logistica,open,Demora en la entrega del pedido P-00126 de Cepita Naranja Hot Fill 300ml x6 + Sprite Lata 354ml x6.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de Cepita Naranja Hot Fill 300ml x6 + Sprite Lata 354ml x6 y no llego.",2026-06-21 08:15:00,,true
+TKT-2127,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Bebidas del Sur.,5493587905250,,2026-06-23 05:15:00,,true
+TKT-2128,Administracion,open,Solicita corregir datos administrativos de La Cerveza de Córdoba en el sistema.,5493582641213,,2026-06-22 02:15:00,,true
+TKT-2129,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Bebidas y Más.,5492991227644,,2026-06-21 11:15:00,,true
+TKT-2130,Administracion,open,Solicita corregir datos administrativos de Distribuidora La Estrella en el sistema.,5493418277249,,2026-06-23 08:15:00,,true
+TKT-2131,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Bebidas del Camino.,5492612928724,,2026-06-22 05:15:00,,true
+TKT-2132,Administracion,closed,Solicita corregir datos administrativos de El Surtidor Cordobés en el sistema.,5492617236955,,2026-06-07 05:15:00,2026-06-07 20:15:00,true
+TKT-2133,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Bebidas y Risas.,5492617413812,,2026-06-06 11:15:00,2026-06-07 03:15:00,true
+TKT-2134,Logistica,closed,"Demora en la entrega del pedido P-00132 de Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6.",5492998066543,,2026-06-05 09:15:00,2026-06-06 02:15:00,true
+TKT-2135,Calidad,closed,Reclamo por Coca–Cola Zero 500ml x12 con entrega en mal estado o faltante parcial.,5492999435946,,2026-06-04 07:15:00,2026-06-05 01:15:00,true
+TKT-2136,Administracion,closed,Solicita corregir datos administrativos de El Refugio de las Bebidas en el sistema.,5493587747641,,2026-06-03 05:15:00,2026-06-04 00:15:00,true
+TKT-2137,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Cerveza Artesanal Córdoba.,5492614053074,,2026-06-18 11:15:00,2026-06-19 07:15:00,true
+TKT-2138,Logistica,closed,"Demora en la entrega del pedido P-00157 de Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2.",5493514079279,,2026-06-17 09:15:00,2026-06-18 06:15:00,true

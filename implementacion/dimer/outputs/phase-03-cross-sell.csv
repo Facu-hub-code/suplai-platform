@@ -1,0 +1,14 @@
+base_product_code,related_product_code,reason,is_mock
+110A18951,11000447,Las croquetas de papa son perfectas para acompañar con papas duquesas.,true
+110A18951,110079,Disfruta de las croquetas de papa con un delicioso asado carnicería.,true
+110A18951,1021008,Combina las croquetas de papa con queso chanco laminado para un snack irresistible.,true
+11009004,11000447,Las papas crinkle cut son ideales para acompañar con papas duquesas.,true
+11000509,110079,Las papas crunch son perfectas para disfrutar con un asado carnicería.,true
+11000069,110A18951,Las papas duquesas son un acompañamiento ideal para las croquetas de papa.,true
+11000069,1021008,Combina las papas duquesas con queso chanco laminado para un sabor único.,true
+11009147,110079,Las papas gajo son perfectas para acompañar un asado carnicería.,true
+11009147,110A18951,Disfruta de las papas gajo junto a las croquetas de papa para un plato delicioso.,true
+11000081,110079,Las papas pre fritas son ideales para acompañar un asado carnicería.,true
+11000706,110079,Las papas pre fritas finas son perfectas para disfrutar con un asado carnicería.,true
+1021008,110A18951,El queso chanco laminado es un excelente complemento para las croquetas de papa.,true
+1021008,11000069,El queso chanco laminado combina perfectamente con las papas duquesas.,true

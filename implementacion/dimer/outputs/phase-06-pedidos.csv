@@ -1,0 +1,158 @@
+pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
+P-00001,25001,5493587905250,Congelados del Sur,2026-03-01 08:00:00,confirmado,157976.65,Pedido historico mock - Congelados del Sur,true,false,2
+P-00002,25001,5493587905250,Congelados del Sur,2026-03-18 09:19:07,entregado,69943.00,Pedido historico mock - Congelados del Sur,true,false,2
+P-00003,25001,5493587905250,Congelados del Sur,2026-04-04 10:38:14,facturado,584234.50,Pedido historico mock - Congelados del Sur,true,false,2
+P-00004,25002,5493582641213,Alimentos Fríos,2026-03-08 11:11:23,entregado,249327.90,Pedido historico mock - Alimentos Fríos,true,false,3
+P-00005,25002,5493582641213,Alimentos Fríos,2026-03-25 12:30:30,facturado,444540.60,Pedido historico mock - Alimentos Fríos,true,false,3
+P-00006,25002,5493582641213,Alimentos Fríos,2026-04-11 13:49:37,confirmado,335092.50,Pedido historico mock - Alimentos Fríos,true,false,3
+P-00007,25003,5492991227644,Frío y Sabor,2026-03-15 14:22:46,facturado,152009.75,Pedido historico mock - Frío y Sabor,true,false,4
+P-00008,25003,5492991227644,Frío y Sabor,2026-04-01 15:41:53,confirmado,289986.00,Pedido historico mock - Frío y Sabor,true,false,4
+P-00009,25003,5492991227644,Frío y Sabor,2026-04-18 16:00:00,entregado,379740.05,Pedido historico mock - Frío y Sabor,true,false,4
+P-00010,25004,5493418277249,La Helada,2026-03-22 17:33:09,confirmado,286313.00,Pedido historico mock - La Helada,true,false,1
+P-00011,25004,5493418277249,La Helada,2026-04-08 08:52:16,entregado,155816.00,Pedido historico mock - La Helada,true,false,1
+P-00012,25004,5493418277249,La Helada,2026-04-25 09:11:23,facturado,422638.00,Pedido historico mock - La Helada,true,false,1
+P-00013,25005,5493587747641,Cocina Congelada,2026-03-29 10:44:32,entregado,793583.95,Pedido historico mock - Cocina Congelada,true,false,2
+P-00014,25005,5493587747641,Cocina Congelada,2026-04-15 11:03:39,facturado,141599.50,Pedido historico mock - Cocina Congelada,true,false,2
+P-00015,25005,5493587747641,Cocina Congelada,2026-05-02 12:22:46,confirmado,122771.70,Pedido historico mock - Cocina Congelada,true,false,2
+P-00016,25006,5492614053074,Almacén de Nieve,2026-04-05 13:55:55,facturado,168845.40,Pedido historico mock - Almacén de Nieve,true,false,3
+P-00017,25006,5492614053074,Almacén de Nieve,2026-04-22 14:14:02,confirmado,76793.40,Pedido historico mock - Almacén de Nieve,true,false,3
+P-00018,25006,5492614053074,Almacén de Nieve,2026-05-09 15:33:09,entregado,68544.00,Pedido historico mock - Almacén de Nieve,true,false,3
+P-00019,25007,5493514079279,Sabor Congelado,2026-04-12 16:06:18,confirmado,78316.45,Pedido historico mock - Sabor Congelado,true,false,4
+P-00020,25007,5493514079279,Sabor Congelado,2026-04-29 17:25:25,entregado,195032.50,Pedido historico mock - Sabor Congelado,true,false,4
+P-00021,25007,5493514079279,Sabor Congelado,2026-05-16 08:44:32,facturado,162661.10,Pedido historico mock - Sabor Congelado,true,false,4
+P-00022,25008,5493876914178,Delicias Congeladas,2026-04-19 09:17:41,entregado,216328.00,Pedido historico mock - Delicias Congeladas,true,false,1
+P-00023,25008,5493876914178,Delicias Congeladas,2026-05-06 10:36:48,facturado,116174.00,Pedido historico mock - Delicias Congeladas,true,false,1
+P-00024,25008,5493876914178,Delicias Congeladas,2026-05-23 11:55:55,confirmado,550879.00,Pedido historico mock - Delicias Congeladas,true,false,1
+P-00025,25009,5492617175545,Frío Express,2026-04-26 12:28:04,facturado,164223.45,Pedido historico mock - Frío Express,true,false,2
+P-00026,25009,5492617175545,Frío Express,2026-05-13 13:47:11,confirmado,70416.80,Pedido historico mock - Frío Express,true,false,2
+P-00027,25009,5492617175545,Frío Express,2026-05-30 14:06:18,entregado,160896.50,Pedido historico mock - Frío Express,true,false,2
+P-00028,25010,5493818437953,Comida Helada,2026-05-03 15:39:27,confirmado,37321.20,Pedido historico mock - Comida Helada,true,false,3
+P-00029,25010,5493818437953,Comida Helada,2026-05-20 16:58:34,entregado,139060.80,Pedido historico mock - Comida Helada,true,false,3
+P-00030,25010,5493818437953,Comida Helada,2026-03-06 17:17:41,facturado,300033.00,Pedido historico mock - Comida Helada,true,false,3
+P-00031,25011,5493582132179,El Congelador,2026-05-10 08:50:50,entregado,59590.95,Pedido historico mock - El Congelador,true,false,4
+P-00032,25011,5493582132179,El Congelador,2026-05-27 09:09:57,facturado,98398.55,Pedido historico mock - El Congelador,true,false,4
+P-00033,25011,5493582132179,El Congelador,2026-03-13 10:28:04,confirmado,136117.30,Pedido historico mock - El Congelador,true,false,4
+P-00034,25012,5493872845902,Alimentos Árticos,2026-05-17 11:01:13,facturado,151775.00,Pedido historico mock - Alimentos Árticos,true,false,1
+P-00035,25012,5493872845902,Alimentos Árticos,2026-03-03 12:20:20,confirmado,240323.00,Pedido historico mock - Alimentos Árticos,true,false,1
+P-00036,25012,5493872845902,Alimentos Árticos,2026-03-20 13:39:27,entregado,60603.00,Pedido historico mock - Alimentos Árticos,true,false,1
+P-00037,25013,5492997670210,Sabor del Hielo,2026-05-24 14:12:36,confirmado,175974.15,Pedido historico mock - Sabor del Hielo,true,false,2
+P-00038,25013,5492997670210,Sabor del Hielo,2026-03-10 15:31:43,entregado,818236.50,Pedido historico mock - Sabor del Hielo,true,false,2
+P-00039,25013,5492997670210,Sabor del Hielo,2026-03-27 16:50:50,facturado,270500.70,Pedido historico mock - Sabor del Hielo,true,false,2
+P-00040,25014,5493811657614,Cocina Fría,2026-05-31 17:23:59,entregado,215561.70,Pedido historico mock - Cocina Fría,true,false,3
+P-00041,25014,5493811657614,Cocina Fría,2026-03-17 08:42:06,facturado,168182.10,Pedido historico mock - Cocina Fría,true,false,3
+P-00042,25014,5493811657614,Cocina Fría,2026-04-03 09:01:13,confirmado,285048.90,Pedido historico mock - Cocina Fría,true,false,3
+P-00043,25015,5492994145193,Helados y Más,2026-03-07 10:34:22,facturado,307515.55,Pedido historico mock - Helados y Más,true,false,4
+P-00044,25015,5492994145193,Helados y Más,2026-03-24 11:53:29,confirmado,320838.45,Pedido historico mock - Helados y Más,true,false,4
+P-00045,25015,5492994145193,Helados y Más,2026-04-10 12:12:36,entregado,27511.95,Pedido historico mock - Helados y Más,true,false,4
+P-00046,25016,5493515971311,Congelados Gourmet,2026-03-14 13:45:45,confirmado,341778.00,Pedido historico mock - Congelados Gourmet,true,false,1
+P-00047,25016,5493515971311,Congelados Gourmet,2026-03-31 14:04:52,entregado,417289.00,Pedido historico mock - Congelados Gourmet,true,false,1
+P-00048,25016,5493515971311,Congelados Gourmet,2026-04-17 15:23:59,facturado,231798.00,Pedido historico mock - Congelados Gourmet,true,false,1
+P-00049,25017,5492994228106,Frío Natural,2026-03-21 16:56:08,entregado,348910.00,Pedido historico mock - Frío Natural,true,false,2
+P-00050,25017,5492994228106,Frío Natural,2026-04-07 17:15:15,facturado,104489.00,Pedido historico mock - Frío Natural,true,false,2
+P-00051,25017,5492994228106,Frío Natural,2026-04-24 08:34:22,confirmado,445492.75,Pedido historico mock - Frío Natural,true,false,2
+P-00052,25018,5492998718887,Alimentos de Invierno,2026-03-28 09:07:31,facturado,329679.00,Pedido historico mock - Alimentos de Invierno,true,false,3
+P-00053,25018,5492998718887,Alimentos de Invierno,2026-04-14 10:26:38,confirmado,83027.70,Pedido historico mock - Alimentos de Invierno,true,false,3
+P-00054,25018,5492998718887,Alimentos de Invierno,2026-05-01 11:45:45,entregado,203762.70,Pedido historico mock - Alimentos de Invierno,true,false,3
+P-00055,25019,5492995028869,Sabor Helado,2026-04-04 12:18:54,confirmado,54774.85,Pedido historico mock - Sabor Helado,true,false,4
+P-00056,25019,5492995028869,Sabor Helado,2026-04-21 13:37:01,entregado,153657.05,Pedido historico mock - Sabor Helado,true,false,4
+P-00057,25019,5492995028869,Sabor Helado,2026-05-08 14:56:08,facturado,282824.75,Pedido historico mock - Sabor Helado,true,false,4
+P-00058,25020,5493517304254,Delicias del Frío,2026-04-11 15:29:17,entregado,224853.00,Pedido historico mock - Delicias del Frío,true,false,1
+P-00059,25020,5493517304254,Delicias del Frío,2026-04-28 16:48:24,facturado,436049.00,Pedido historico mock - Delicias del Frío,true,false,1
+P-00060,25020,5493517304254,Delicias del Frío,2026-05-15 17:07:31,confirmado,17860.00,Pedido historico mock - Delicias del Frío,true,false,1
+P-00061,25021,5493416986538,Cocina de Hielo,2026-04-18 08:40:40,facturado,74007.10,Pedido historico mock - Cocina de Hielo,true,false,2
+P-00062,25021,5493416986538,Cocina de Hielo,2026-05-05 09:59:47,confirmado,70711.20,Pedido historico mock - Cocina de Hielo,true,false,2
+P-00063,25021,5493416986538,Cocina de Hielo,2026-05-22 10:18:54,entregado,93260.40,Pedido historico mock - Cocina de Hielo,true,false,2
+P-00064,25022,5492619239862,Almacén Congelado,2026-04-25 11:51:03,confirmado,100125.90,Pedido historico mock - Almacén Congelado,true,false,3
+P-00065,25022,5492619239862,Almacén Congelado,2026-05-12 12:10:10,entregado,78350.40,Pedido historico mock - Almacén Congelado,true,false,3
+P-00066,25022,5492619239862,Almacén Congelado,2026-05-29 13:29:17,facturado,466595.10,Pedido historico mock - Almacén Congelado,true,false,3
+P-00067,25023,5493513952681,Frío y Fresco,2026-05-02 14:02:26,entregado,278477.85,Pedido historico mock - Frío y Fresco,true,false,4
+P-00068,25023,5493513952681,Frío y Fresco,2026-05-19 15:21:33,facturado,82665.90,Pedido historico mock - Frío y Fresco,true,false,4
+P-00069,25023,5493513952681,Frío y Fresco,2026-03-05 16:40:40,confirmado,62290.55,Pedido historico mock - Frío y Fresco,true,false,4
+P-00070,25024,5493414799650,Sabor a Nieve,2026-05-09 17:13:49,facturado,272344.00,Pedido historico mock - Sabor a Nieve,true,false,1
+P-00071,25024,5493414799650,Sabor a Nieve,2026-05-26 08:32:56,confirmado,308717.00,Pedido historico mock - Sabor a Nieve,true,false,1
+P-00072,25024,5493414799650,Sabor a Nieve,2026-03-12 09:51:03,entregado,71346.00,Pedido historico mock - Sabor a Nieve,true,false,1
+P-00073,25025,5492992500733,Helados del Campo,2026-05-16 10:24:12,confirmado,172680.55,Pedido historico mock - Helados del Campo,true,false,2
+P-00074,25025,5492992500733,Helados del Campo,2026-03-02 11:43:19,entregado,482729.75,Pedido historico mock - Helados del Campo,true,false,2
+P-00075,25025,5492992500733,Helados del Campo,2026-03-19 12:02:26,facturado,306929.25,Pedido historico mock - Helados del Campo,true,false,2
+P-00076,25026,5492615139305,La Casa del Frío,2026-05-23 13:35:35,entregado,38175.30,Pedido historico mock - La Casa del Frío,true,false,3
+P-00077,25026,5492615139305,La Casa del Frío,2026-03-09 14:54:42,facturado,351309.60,Pedido historico mock - La Casa del Frío,true,false,3
+P-00078,25026,5492615139305,La Casa del Frío,2026-03-26 15:13:49,confirmado,281496.60,Pedido historico mock - La Casa del Frío,true,false,3
+P-00079,25027,5492618861463,Comidas Congeladas,2026-05-30 16:46:58,facturado,207846.25,Pedido historico mock - Comidas Congeladas,true,false,4
+P-00080,25027,5492618861463,Comidas Congeladas,2026-03-16 17:05:05,confirmado,61193.20,Pedido historico mock - Comidas Congeladas,true,false,4
+P-00081,25027,5492618861463,Comidas Congeladas,2026-04-02 08:24:12,entregado,154580.15,Pedido historico mock - Comidas Congeladas,true,false,4
+P-00082,25028,5493812941974,Alimentos de Hielo,2026-03-06 09:57:21,confirmado,366152.00,Pedido historico mock - Alimentos de Hielo,true,false,1
+P-00083,25028,5493812941974,Alimentos de Hielo,2026-03-23 10:16:28,entregado,187820.00,Pedido historico mock - Alimentos de Hielo,true,false,1
+P-00084,25028,5493812941974,Alimentos de Hielo,2026-04-09 11:35:35,facturado,153635.00,Pedido historico mock - Alimentos de Hielo,true,false,1
+P-00085,25029,5493817404433,Frío y Sazón,2026-03-13 12:08:44,entregado,79800.80,Pedido historico mock - Frío y Sazón,true,false,2
+P-00086,25029,5493817404433,Frío y Sazón,2026-03-30 13:27:51,facturado,458002.45,Pedido historico mock - Frío y Sazón,true,false,2
+P-00087,25029,5493817404433,Frío y Sazón,2026-04-16 14:46:58,confirmado,259635.50,Pedido historico mock - Frío y Sazón,true,false,2
+P-00088,25030,5493419686914,Delicias Árticas,2026-03-20 15:19:07,facturado,242231.40,Pedido historico mock - Delicias Árticas,true,false,3
+P-00089,25030,5493419686914,Delicias Árticas,2026-04-06 16:38:14,confirmado,118015.20,Pedido historico mock - Delicias Árticas,true,false,3
+P-00090,25030,5493419686914,Delicias Árticas,2026-04-23 17:57:21,entregado,67725.00,Pedido historico mock - Delicias Árticas,true,false,3
+P-00091,25031,5493518648263,Sabor Frío,2026-03-27 08:30:30,confirmado,214198.30,Pedido historico mock - Sabor Frío,true,false,4
+P-00092,25031,5493518648263,Sabor Frío,2026-04-13 09:49:37,entregado,181796.30,Pedido historico mock - Sabor Frío,true,false,4
+P-00093,25031,5493518648263,Sabor Frío,2026-04-30 10:08:44,facturado,154700.85,Pedido historico mock - Sabor Frío,true,false,4
+P-00094,25032,5493516216782,Cocina Helada,2026-04-03 11:41:53,entregado,655008.00,Pedido historico mock - Cocina Helada,true,false,1
+P-00095,25032,5493516216782,Cocina Helada,2026-04-20 12:00:00,facturado,163347.00,Pedido historico mock - Cocina Helada,true,false,1
+P-00096,25032,5493516216782,Cocina Helada,2026-05-07 13:19:07,confirmado,307871.00,Pedido historico mock - Cocina Helada,true,false,1
+P-00097,25033,5492612780568,Congelados de la Tierra,2026-04-10 14:52:16,facturado,178213.20,Pedido historico mock - Congelados de la Tierra,true,false,2
+P-00098,25033,5492612780568,Congelados de la Tierra,2026-04-27 15:11:23,confirmado,288705.20,Pedido historico mock - Congelados de la Tierra,true,false,2
+P-00099,25033,5492612780568,Congelados de la Tierra,2026-05-14 16:30:30,entregado,300029.25,Pedido historico mock - Congelados de la Tierra,true,false,2
+P-00100,25034,5493582639964,Alimentos del Ártico,2026-04-17 17:03:39,confirmado,197755.20,Pedido historico mock - Alimentos del Ártico,true,false,3
+P-00101,25034,5493582639964,Alimentos del Ártico,2026-05-04 08:22:46,entregado,155288.70,Pedido historico mock - Alimentos del Ártico,true,false,3
+P-00102,25034,5493582639964,Alimentos del Ártico,2026-05-21 09:41:53,facturado,494833.50,Pedido historico mock - Alimentos del Ártico,true,false,3
+P-00103,25035,5493814729528,Frío y Rico,2026-04-24 10:14:02,entregado,162326.20,Pedido historico mock - Frío y Rico,true,false,4
+P-00104,25035,5493814729528,Frío y Rico,2026-05-11 11:33:09,facturado,25641.10,Pedido historico mock - Frío y Rico,true,false,4
+P-00105,25035,5493814729528,Frío y Rico,2026-05-28 12:52:16,confirmado,57703.95,Pedido historico mock - Frío y Rico,true,false,4
+P-00106,25036,5493876922419,Sabor a Frío,2026-05-01 13:25:25,facturado,419623.00,Pedido historico mock - Sabor a Frío,true,false,1
+P-00107,25036,5493876922419,Sabor a Frío,2026-05-18 14:44:32,confirmado,336469.00,Pedido historico mock - Sabor a Frío,true,false,1
+P-00108,25036,5493876922419,Sabor a Frío,2026-03-04 15:03:39,entregado,256708.00,Pedido historico mock - Sabor a Frío,true,false,1
+P-00109,25037,5492618889598,Delicias Congeladas,2026-05-08 16:36:48,confirmado,349786.30,Pedido historico mock - Delicias Congeladas,true,false,2
+P-00110,25037,5492618889598,Delicias Congeladas,2026-05-25 17:55:55,entregado,760760.65,Pedido historico mock - Delicias Congeladas,true,false,2
+P-00111,25037,5492618889598,Delicias Congeladas,2026-03-11 08:14:02,facturado,208516.85,Pedido historico mock - Delicias Congeladas,true,false,2
+P-00112,25038,5492615021286,Cocina de Invierno,2026-05-15 09:47:11,entregado,287042.40,Pedido historico mock - Cocina de Invierno,true,false,3
+P-00113,25038,5492615021286,Cocina de Invierno,2026-03-01 10:06:18,facturado,48485.70,Pedido historico mock - Cocina de Invierno,true,false,3
+P-00114,25038,5492615021286,Cocina de Invierno,2026-03-18 11:25:25,confirmado,587182.50,Pedido historico mock - Cocina de Invierno,true,false,3
+P-00115,25039,5493813520000,Almacén del Frío,2026-05-22 12:58:34,facturado,25273.90,Pedido historico mock - Almacén del Frío,true,false,4
+P-00116,25039,5493813520000,Almacén del Frío,2026-03-08 13:17:41,confirmado,161740.55,Pedido historico mock - Almacén del Frío,true,false,4
+P-00117,25039,5493813520000,Almacén del Frío,2026-03-25 14:36:48,entregado,134150.40,Pedido historico mock - Almacén del Frío,true,false,4
+P-00118,25040,5492997489876,Frío y Sabor,2026-05-29 15:09:57,confirmado,150317.00,Pedido historico mock - Frío y Sabor,true,false,1
+P-00119,25040,5492997489876,Frío y Sabor,2026-03-15 16:28:04,entregado,96426.00,Pedido historico mock - Frío y Sabor,true,false,1
+P-00120,25040,5492997489876,Frío y Sabor,2026-04-01 17:47:11,facturado,212061.00,Pedido historico mock - Frío y Sabor,true,false,1
+P-00121,0,5492612928724,Alimentos Fríos,2026-03-05 08:20:20,entregado,385005.05,Pedido historico mock - Alimentos Fríos,true,false,2
+P-00122,0,5492612928724,Alimentos Fríos,2026-03-22 09:39:27,facturado,72247.60,Pedido historico mock - Alimentos Fríos,true,false,2
+P-00123,0,5492612928724,Alimentos Fríos,2026-04-08 10:58:34,confirmado,249652.35,Pedido historico mock - Alimentos Fríos,true,false,2
+P-00124,0,5492617236955,Cocina Congelada,2026-03-12 11:31:43,facturado,481621.00,Pedido historico mock - Cocina Congelada,true,false,1
+P-00125,0,5492617236955,Cocina Congelada,2026-03-29 12:50:50,confirmado,80340.00,Pedido historico mock - Cocina Congelada,true,false,1
+P-00126,0,5492617236955,Cocina Congelada,2026-04-15 13:09:57,entregado,151559.00,Pedido historico mock - Cocina Congelada,true,false,1
+P-00127,0,5492617413812,La Heladería,2026-03-19 14:42:06,confirmado,119693.60,Pedido historico mock - La Heladería,true,false,4
+P-00128,0,5492617413812,La Heladería,2026-04-05 15:01:13,entregado,197568.05,Pedido historico mock - La Heladería,true,false,4
+P-00129,0,5492617413812,La Heladería,2026-04-22 16:20:20,facturado,192472.30,Pedido historico mock - La Heladería,true,false,4
+P-00130,0,5492998066543,Alimentos de Nieve,2026-03-26 17:53:29,entregado,59024.70,Pedido historico mock - Alimentos de Nieve,true,false,3
+P-00131,0,5492998066543,Alimentos de Nieve,2026-04-12 08:12:36,facturado,84685.50,Pedido historico mock - Alimentos de Nieve,true,false,3
+P-00132,0,5492998066543,Alimentos de Nieve,2026-04-29 09:31:43,confirmado,110036.70,Pedido historico mock - Alimentos de Nieve,true,false,3
+P-00133,0,5492999435946,Frío Gourmet,2026-04-02 10:04:52,facturado,390185.10,Pedido historico mock - Frío Gourmet,true,false,3
+P-00134,0,5492999435946,Frío Gourmet,2026-04-19 11:23:59,confirmado,127220.40,Pedido historico mock - Frío Gourmet,true,false,3
+P-00135,0,5492999435946,Frío Gourmet,2026-05-06 12:42:06,entregado,292890.60,Pedido historico mock - Frío Gourmet,true,false,3
+P-00136,0,5493416524997,Delicias del Hielo,2026-04-09 13:15:15,confirmado,335866.00,Pedido historico mock - Delicias del Hielo,true,false,1
+P-00137,0,5493416524997,Delicias del Hielo,2026-04-26 14:34:22,entregado,297468.00,Pedido historico mock - Delicias del Hielo,true,false,1
+P-00138,0,5493416524997,Delicias del Hielo,2026-05-13 15:53:29,facturado,135688.00,Pedido historico mock - Delicias del Hielo,true,false,1
+P-00139,0,5493517632424,Sabor Helado,2026-04-16 16:26:38,entregado,218688.85,Pedido historico mock - Sabor Helado,true,false,4
+P-00140,0,5493517632424,Sabor Helado,2026-05-03 17:45:45,facturado,301045.35,Pedido historico mock - Sabor Helado,true,false,4
+P-00141,0,5493517632424,Sabor Helado,2026-05-20 08:04:52,confirmado,104471.80,Pedido historico mock - Sabor Helado,true,false,4
+P-00142,0,5493519107005,Sabor del Congelador,2026-04-23 09:37:01,facturado,64842.75,Pedido historico mock - Sabor del Congelador,true,false,2
+P-00143,0,5493519107005,Sabor del Congelador,2026-05-10 10:56:08,confirmado,110565.60,Pedido historico mock - Sabor del Congelador,true,false,2
+P-00144,0,5493519107005,Sabor del Congelador,2026-05-27 11:15:15,entregado,253355.35,Pedido historico mock - Sabor del Congelador,true,false,2
+P-00145,0,5493874104594,Helados y Comidas,2026-04-30 12:48:24,confirmado,77720.40,Pedido historico mock - Helados y Comidas,true,false,3
+P-00146,0,5493874104594,Helados y Comidas,2026-05-17 13:07:31,entregado,332332.20,Pedido historico mock - Helados y Comidas,true,false,3
+P-00147,0,5493874104594,Helados y Comidas,2026-03-03 14:26:38,facturado,215788.50,Pedido historico mock - Helados y Comidas,true,false,3
+P-00148,0,5493876499570,Cocina Fría,2026-05-07 15:59:47,entregado,325898.50,Pedido historico mock - Cocina Fría,true,false,2
+P-00149,0,5493876499570,Cocina Fría,2026-05-24 16:18:54,facturado,162968.80,Pedido historico mock - Cocina Fría,true,false,2
+P-00150,0,5493876499570,Cocina Fría,2026-03-10 17:37:01,confirmado,313985.65,Pedido historico mock - Cocina Fría,true,false,2
+P-00151,25004,5493418277249,La Helada,2026-06-24 11:15:00,abierto,168389.76,Pedido abierto mock - promo Fase 2 - La Helada,true,true,1
+P-00152,25001,5493587905250,Congelados del Sur,2026-06-24 11:15:13,pendiente,61640.00,Pedido abierto mock - Congelados del Sur,true,true,2
+P-00153,25002,5493582641213,Alimentos Fríos,2026-06-24 11:15:26,abierto,260651.70,Pedido abierto mock - Alimentos Fríos,true,true,3
+P-00154,25003,5492991227644,Frío y Sabor,2026-06-24 11:15:39,pendiente,85485.35,Pedido abierto mock - Frío y Sabor,true,true,4
+P-00155,25005,5493587747641,Cocina Congelada,2026-06-24 11:15:52,abierto,31493.90,Pedido abierto mock - Cocina Congelada,true,true,2
+P-00156,25006,5492614053074,Almacén de Nieve,2026-06-24 11:15:05,pendiente,138604.50,Pedido abierto mock - Almacén de Nieve,true,true,3
+P-00157,25007,5493514079279,Sabor Congelado,2026-06-24 11:15:18,abierto,53890.00,Pedido abierto mock - Sabor Congelado,true,true,4
