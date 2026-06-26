@@ -1,0 +1,11 @@
+tenant_id: "demo"
+nombre: "Demo"
+ciudad_base: "Rosario, Santa Fe, Argentina"
+rubro: "distribuidora de alimentos"
+coordenadas_centro: [-32.9468, -60.6393]
+fases:
+  "00": { estado: "completado" }
+  "01": { estado: "completado" }
+  "02": { estado: "completado" }
+  "03": { estado: "completado" }
+  "04": { estado: "pendiente" }

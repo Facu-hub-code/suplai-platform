@@ -1,0 +1,10 @@
+tenant_id: "agus_prueba"
+nombre: "Agus Prueba"
+ciudad_base: "Paraná, Entre Ríos, Argentina"
+rubro: "distribuidora de alimentos"
+fases:
+  "00": { estado: "completado" }
+  "01": { estado: "completado" }
+  "02": { estado: "completado" }
+  "03": { estado: "completado" }
+  "04": { estado: "pendiente" }

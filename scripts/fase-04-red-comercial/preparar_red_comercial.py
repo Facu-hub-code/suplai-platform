@@ -106,20 +106,43 @@ def cuadrado_polygon(lon_center: float, lat_center: float, delta: float = 0.004)
         (lon_center - delta, lat_center - delta),  # cerrar polígono
     ]
 
+def obtener_coordenadas_ciudad(ciudad: str) -> tuple:
+    """Obtiene el centroide geométrico de una ciudad consultando Nominatim (OpenStreetMap)."""
+    try:
+        headers = {"User-Agent": "SuplaiSales-MockGen/1.0"}
+        url = f"https://nominatim.openstreetmap.org/search?q={ciudad}&format=json&limit=1"
+        resp = requests.get(url, headers=headers, timeout=10)
+        if resp.status_code == 200 and resp.json():
+            data = resp.json()[0]
+            return float(data["lat"]), float(data["lon"])
+    except Exception as e:
+        print(f"[WARN] No se pudo obtener coordenadas de Nominatim para {ciudad}: {e}")
+    return None, None
+
+
+def obtener_centro_zona_grid(lat_centro: float, lon_centro: float, zona_idx: int):
+    """
+    Distribuye hasta 6 zonas en una grilla 3x2 alrededor del centro de la ciudad para evitar superposición.
+    W = 0.02 grados, H = 0.02 grados.
+    """
+    W = 0.02
+    H = 0.02
+    col = (zona_idx % 3) - 1   # -1, 0, 1
+    row = 0.5 if zona_idx < 3 else -0.5
+    
+    lat_c = lat_centro + row * H
+    lon_c = lon_centro + col * W
+    return round(lat_c, 5), round(lon_c, 5)
 
 def dispersar_coordenada(lat_base: float, lon_base: float, zona_idx: int, cliente_idx: int):
     """
-    Genera lat/lon disperso en rango 0.01 a 0.08 grados desde el centro de la zona.
-    Según especificación SKILL.md: dispersión de 0.01 a 0.08° ≈ 1.1 km a 8.9 km.
-    Determinista por semilla.
+    Genera lat/lon estrictamente dentro de la celda de la zona para evitar solapamientos.
+    Celda es W=0.02, H=0.02 (extensión +/- 0.01 desde el centro).
+    Dispersamos a los clientes en un radio interno de +/- 0.005 para hacer zonas más compactas.
     """
     random.seed(zona_idx * 100 + cliente_idx + 999)
-    magnitud_lat = random.uniform(0.001, 0.004)
-    magnitud_lon = random.uniform(0.001, 0.004)
-    signo_lat = random.choice([-1, 1])
-    signo_lon = random.choice([-1, 1])
-    delta_lat = signo_lat * magnitud_lat
-    delta_lon = signo_lon * magnitud_lon
+    delta_lat = random.uniform(-0.005, 0.005)
+    delta_lon = random.uniform(-0.005, 0.005)
     return round(lat_base + delta_lat, 6), round(lon_base + delta_lon, 6)
 
 
@@ -175,15 +198,13 @@ Devuelve un JSON con EXACTAMENTE esta estructura:
   ],
   "zonas": [
     {{
-      "nombre": "ZONA NORTE - Nombre Barrio Real",
+      "nombre": "ZONA NOROESTE - Nombre Barrio Real",
       "dia_visita": "lunes",
       "color": "#E74C3C",
       "codigo_ruta": "R01-A",
       "zone_type": "sales",
       "description": "Zona comercial barrio X, acceso por Av. Y.",
-      "vendedor_idx": 0,
-      "lon_center": {round(lon + 0.015, 4)},
-      "lat_center": {round(lat - 0.015, 4)}
+      "vendedor_idx": 0
     }}
   ],
   "nombres_comerciales": [
@@ -194,9 +215,9 @@ Devuelve un JSON con EXACTAMENTE esta estructura:
 Requisitos OBLIGATORIOS:
 1. Exactamente 3 vendedores con nombres argentinos reales (no inventados).
    Teléfono: formato 549 + código de área de la provincia (ej. 5493516XXXXXXX para Córdoba).
-2. Exactamente 6 zonas en direcciones distintas (Norte, Sur, Este, Oeste, Noreste, Suroeste, etc.).
-   Sus centros (lon_center y lat_center) deben estar separados entre sí por al menos 0.015 grados,
-   y dispersos entre 0.010 y 0.025 grados del centro general {lat}, {lon} para asegurar que no se superpongan.
+2. Exactamente 6 zonas en estas direcciones específicas: Noroeste, Norte, Noreste, Suroeste, Sur, Sureste.
+   - El atributo "nombre" debe tener el formato "ZONA <DIRECCION> - Nombre Barrio Real".
+   - NO incluyas coordenadas geográficas.
    - zone_type SOLO puede ser 'sales' o 'route'. NO usar otros valores.
    - dia_visita SOLO puede ser: lunes, martes, miercoles, jueves, viernes, sabado.
    - Los nombres de zonas DEBEN usar barrios o localidades REALES de {ciudad_base}
@@ -385,23 +406,28 @@ def main():
 
     red_config = config.get("red_comercial", {})
 
-    # 3. Determinar coordenadas centro (prioridad: config.json > manifest > default Córdoba)
+    # 3. Determinar coordenadas centro (Prioridad: config.json > Nominatim > manifest > fallback)
     coords_config = red_config.get("coordenadas_centro", None)
     if coords_config:
         lat_centro = float(coords_config[0])
         lon_centro = float(coords_config[1])
         print(f"[*] Coordenadas (config.json):     {lat_centro}, {lon_centro}")
-    elif coords_manifest:
-        lat_centro = float(coords_manifest[0])
-        lon_centro = float(coords_manifest[1])
-        print(f"[*] Coordenadas (manifest.yaml):   {lat_centro}, {lon_centro}")
     else:
-        # Último fallback: centroide de Córdoba Capital
-        lat_centro = -31.4135
-        lon_centro = -64.1810
-        print(f"[WARN] 'coordenadas_centro' no encontrado en manifest ni config.json.")
-        print(f"       Usando centroide Córdoba Capital: {lat_centro}, {lon_centro}")
-        print(f"       Recomendado: agregar 'coordenadas_centro: [lat, lon]' al manifest.yaml.")
+        print(f"[*] Buscando centro geográfico de '{ciudad_base}' en OpenStreetMap...")
+        lat_nom, lon_nom = obtener_coordenadas_ciudad(ciudad_base)
+        if lat_nom and lon_nom:
+            lat_centro = lat_nom
+            lon_centro = lon_nom
+            print(f"[*] Coordenadas (OpenStreetMap): {lat_centro}, {lon_centro}")
+        elif coords_manifest:
+            lat_centro = float(coords_manifest[0])
+            lon_centro = float(coords_manifest[1])
+            print(f"[*] Coordenadas (manifest.yaml fallback): {lat_centro}, {lon_centro}")
+        else:
+            # Último fallback: centroide de Córdoba Capital
+            lat_centro = -31.4135
+            lon_centro = -64.1810
+            print(f"[WARN] Usando centroide Córdoba Capital por defecto: {lat_centro}, {lon_centro}")
 
     # 4. Resolver datos: config.json tiene prioridad → luego OpenAI → luego fallback geométrico
     vendedores_data = red_config.get("vendedores", None)
@@ -477,13 +503,11 @@ def main():
         vendedor = vendedores_data[min(vendedor_idx, len(vendedores_data) - 1)]
         dia_visita = normalize_dia(zona.get("dia_visita", DIAS_VISITA[zona_idx % len(DIAS_VISITA)]))
 
-        # Usar el centro geográfico del barrio (de OpenAI o Fallback)
-        if "lat_center" in zona and "lon_center" in zona:
-            lat_zona = float(zona["lat_center"])
-            lon_zona = float(zona["lon_center"])
-        else:
-            lat_zona = lat_centro
-            lon_zona = lon_centro
+        # Forzar el uso del centro geográfico de la grilla para evitar superposición
+        lat_zona, lon_zona = obtener_centro_zona_grid(lat_centro, lon_centro, zona_idx)
+        # Actualizamos la zona para que el bounding box use el centro correcto si no hay clientes (fallback)
+        zona["lat_center"] = lat_zona
+        zona["lon_center"] = lon_zona
 
         for c in range(count):
             lat, lng = dispersar_coordenada(lat_zona, lon_zona, zona_idx, c)
