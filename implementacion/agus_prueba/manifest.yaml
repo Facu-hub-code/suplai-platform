@@ -1,6 +1,6 @@
 tenant_id: "agus_prueba"
 nombre: "Agus Prueba"
-ciudad_base: "Paraná, Entre Ríos, Argentina"
+ciudad_base: "Montevideo, Uruguay"
 rubro: "distribuidora de alimentos"
 fases:
   "00": { estado: "completado" }

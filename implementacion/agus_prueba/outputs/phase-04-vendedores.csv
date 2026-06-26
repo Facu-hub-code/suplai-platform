@@ -1,0 +1,4 @@
+nombre,telefono,email,zona,codigo_ruta,is_mock
+Juan Pérez,59891234567,juan.perez@suplaisales.mock,NORTE,R01,true
+María González,59893456789,maria.gonzalez@suplaisales.mock,NORESTE,R02,true
+Carlos Rodríguez,59895678901,carlos.rodriguez@suplaisales.mock,SUR,R03,true

@@ -149,16 +149,20 @@ def dispersar_coordenada(lat_base: float, lon_base: float, zona_idx: int, client
 def generar_telefono(seed: int, prefijo_pais: str = "549") -> str:
     """Genera teléfono único con seed determinista."""
     random.seed(seed + 7777)
-    codigo_area = random.choice(["351", "387", "341", "261", "299", "381", "358"])
-    sufijo = random.randint(1000000, 9999999)
-    return f"{prefijo_pais}{codigo_area}{sufijo}"
+    if prefijo_pais == "549":
+        codigo_area = random.choice(["351", "387", "341", "261", "299", "381", "358"])
+        sufijo = random.randint(1000000, 9999999)
+        return f"{prefijo_pais}{codigo_area}{sufijo}"
+    else:
+        digitos = random.randint(10000000, 999999999)
+        return f"{prefijo_pais}{digitos}"
 
 
 # ---------------------------------------------------------------------------
 # Generación por OpenAI
 # ---------------------------------------------------------------------------
 
-def generar_red_con_ia(ciudad_base: str, rubro: str, lat: float, lon: float) -> dict:
+def generar_red_con_ia(ciudad_base: str, rubro: str, lat: float, lon: float, prefijo_pais: str = "549") -> dict:
     """
     Llama a OpenAI para generar datos contextuales de red comercial.
     Sigue las especificaciones de phase-04-red-comercial/SKILL.md:
@@ -190,7 +194,7 @@ Devuelve un JSON con EXACTAMENTE esta estructura:
   "vendedores": [
     {{
       "nombre": "Nombre Apellido",
-      "telefono": "549351XXXXXXX",
+      "telefono": "{prefijo_pais}XXXXXXXXX",
       "email": "nombre.apellido@suplaisales.mock",
       "zona": "NORTE",
       "codigo_ruta": "R01"
@@ -214,7 +218,7 @@ Devuelve un JSON con EXACTAMENTE esta estructura:
 
 Requisitos OBLIGATORIOS:
 1. Exactamente 3 vendedores con nombres argentinos reales (no inventados).
-   Teléfono: formato 549 + código de área de la provincia (ej. 5493516XXXXXXX para Córdoba).
+   Teléfono: El número debe comenzar con {prefijo_pais} seguido de los dígitos locales correspondientes, respetando la longitud de un número celular de {ciudad_base}. NO incluyas signos `+` ni guiones.
 2. Exactamente 6 zonas en estas direcciones específicas: Noroeste, Norte, Noreste, Suroeste, Sur, Sureste.
    - El atributo "nombre" debe tener el formato "ZONA <DIRECCION> - Nombre Barrio Real".
    - NO incluyas coordenadas geográficas.
@@ -266,7 +270,7 @@ Requisitos OBLIGATORIOS:
     return {}
 
 
-def fallback_geometrico(lat: float, lon: float, rubro: str) -> dict:
+def fallback_geometrico(lat: float, lon: float, rubro: str, prefijo_pais: str = "549") -> dict:
     """
     Genera 3 vendedores y 6 zonas con polígonos distribuidos angularmente.
     zone_type siempre 'sales' o 'route' según SKILL.md.
@@ -277,21 +281,21 @@ def fallback_geometrico(lat: float, lon: float, rubro: str) -> dict:
     vendedores = [
         {
             "nombre": "Martín Herrera",
-            "telefono": generar_telefono(1),
+            "telefono": generar_telefono(1, prefijo_pais),
             "email": "martin.herrera@suplaisales.mock",
             "zona": "NORTE",
             "codigo_ruta": "R01",
         },
         {
             "nombre": "Valeria Díaz",
-            "telefono": generar_telefono(2),
+            "telefono": generar_telefono(2, prefijo_pais),
             "email": "valeria.diaz@suplaisales.mock",
             "zona": "SUR",
             "codigo_ruta": "R02",
         },
         {
             "nombre": "Pablo Romero",
-            "telefono": generar_telefono(3),
+            "telefono": generar_telefono(3, prefijo_pais),
             "email": "pablo.romero@suplaisales.mock",
             "zona": "CENTRO-ESTE",
             "codigo_ruta": "R03",
@@ -406,6 +410,23 @@ def main():
 
     red_config = config.get("red_comercial", {})
 
+    prefijo_pais = manifest.get("prefijo_pais")
+    if not prefijo_pais:
+        cb_lower = ciudad_base.lower()
+        if "chile" in cb_lower:
+            prefijo_pais = "569"
+        elif "méxico" in cb_lower or "mexico" in cb_lower:
+            prefijo_pais = "52"
+        elif "colombia" in cb_lower:
+            prefijo_pais = "57"
+        elif "perú" in cb_lower or "peru" in cb_lower:
+            prefijo_pais = "51"
+        elif "uruguay" in cb_lower:
+            prefijo_pais = "598"
+        else:
+            prefijo_pais = "549"
+
+
     # 3. Determinar coordenadas centro (Prioridad: config.json > Nominatim > manifest > fallback)
     coords_config = red_config.get("coordenadas_centro", None)
     if coords_config:
@@ -438,7 +459,7 @@ def main():
         print("[*] Usando datos de red_comercial desde config.json.")
     else:
         print("[*] Datos de red_comercial no encontrados en config.json. Generando con IA...")
-        ia_data = generar_red_con_ia(ciudad_base, rubro, lat_centro, lon_centro)
+        ia_data = generar_red_con_ia(ciudad_base, rubro, lat_centro, lon_centro, prefijo_pais)
 
         if ia_data.get("vendedores") and ia_data.get("zonas") and ia_data.get("nombres_comerciales"):
             print("[*] Datos generados con éxito por OpenAI.")
@@ -523,7 +544,7 @@ def main():
                 "numero": cliente_num,
                 "razon_social": razon_social,
                 "nombre_contacto": razon_social,
-                "phone_number": generar_telefono(cliente_num + 5000),
+                "phone_number": generar_telefono(cliente_num + 5000, prefijo_pais),
                 "lista_precios_id": lista_precios_id,
                 "codigo": cliente_num,
                 "dia_de_visita": dia_visita,
