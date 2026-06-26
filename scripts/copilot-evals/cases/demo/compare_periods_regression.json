@@ -1,0 +1,20 @@
+{
+  "id": "compare_periods_regression",
+  "description": "Regresión Fase 1 — comparación de periodos",
+  "critical": false,
+  "input": {
+    "message": "Compará ventas de este mes vs el anterior",
+    "locale": "es"
+  },
+  "expect": {
+    "tools": [
+      {
+        "name": "sales_compare_periods"
+      }
+    ],
+    "artifacts": {
+      "types_include": ["kpi_row"]
+    },
+    "definitions_version": "copilot-sales-v1"
+  }
+}

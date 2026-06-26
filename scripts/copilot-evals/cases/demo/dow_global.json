@@ -1,0 +1,35 @@
+{
+  "id": "dow_global",
+  "description": "Día de semana con más ventas — agregado global (últimos 90 días)",
+  "critical": true,
+  "input": {
+    "message": "¿Qué día de la semana se vende más en los últimos 90 días?",
+    "locale": "es"
+  },
+  "expect": {
+    "tools": [
+      {
+        "name": "sales_by_day_of_week",
+        "args_match": {
+          "period": "last_90_days"
+        }
+      }
+    ],
+    "artifacts": {
+      "types_include": ["kpi_row", "chart"],
+      "chart": {
+        "chartType": "bar",
+        "min_points": 7
+      }
+    },
+    "follow_ups": {
+      "min_count": 2,
+      "ids_include_any": ["dow_by_vendedor", "compare_periods", "report_pdf"]
+    },
+    "thought_steps": {
+      "min_count": 3,
+      "ids_include": ["interpret", "query_sales"]
+    },
+    "definitions_version": "copilot-sales-v1"
+  }
+}

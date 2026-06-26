@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "defaults": {
+    "min_confirmed_orders": 20,
+    "period_days": 90,
+    "force_heuristic": true,
+    "timeout_seconds": 30
+  },
+  "tenants": [
+    {
+      "schema": "demo",
+      "enabled": true,
+      "critical": true,
+      "min_confirmed_orders": 10,
+      "cases": [
+        "dow_global",
+        "dow_by_vendedor",
+        "followups_after_dow",
+        "thought_steps_present",
+        "top_products_regression",
+        "compare_periods_regression"
+      ]
+    },
+    {
+      "schema": "gonzales",
+      "enabled": true,
+      "critical": false,
+      "min_confirmed_orders": 20,
+      "cases": [
+        "dow_global",
+        "top_products_regression"
+      ]
+    }
+  ]
+}

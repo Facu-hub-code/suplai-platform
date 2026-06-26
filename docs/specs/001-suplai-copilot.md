@@ -32,6 +32,11 @@ Documento maestro que enlaza las specs anidadas. Implementación repartida en `b
 | `backend-supabase` | [041-suplai-copilot-plataforma.md](../../backend-supabase/docs/specs/041-suplai-copilot-plataforma.md) | API, orquestador, tools, PDF/Brevo, DB, fases, seguridad |
 | `backend-supabase` | [042-suplai-copilot-contrato-ventas.md](../../backend-supabase/docs/specs/042-suplai-copilot-contrato-ventas.md) | Definiciones SQL de métricas de venta para tools y PDF |
 | `product-management-app` | [039-suplai-copilot-ui-artefactos.md](../../product-management-app/doc/specs/039-suplai-copilot-ui-artefactos.md) | Panel, bubble, canvas de artefactos, confirmación write |
+| `suplai-platform` | [014-suplai-copilot-supervisor-ritmo-ventas.md](./014-suplai-copilot-supervisor-ritmo-ventas.md) | **Epic Fase 2.5:** día de semana por vendedor, thought stream, follow-ups, evals CI |
+| `backend-supabase` | [043-suplai-copilot-sales-by-day-of-week.md](../../backend-supabase/docs/specs/043-suplai-copilot-sales-by-day-of-week.md) | Tool `sales_by_day_of_week` |
+| `backend-supabase` | [044-suplai-copilot-thought-stream-followups.md](../../backend-supabase/docs/specs/044-suplai-copilot-thought-stream-followups.md) | SSE progreso + follow-ups sugeridos |
+| `backend-supabase` | [045-suplai-copilot-evals-ci.md](../../backend-supabase/docs/specs/045-suplai-copilot-evals-ci.md) | Eval harness pytest por tenant |
+| `product-management-app` | [050-suplai-copilot-thought-followups-ui.md](../../product-management-app/doc/specs/050-suplai-copilot-thought-followups-ui.md) | UI thought steps + chips dinámicos |
 
 ## Fases (resumen)
 
@@ -40,6 +45,7 @@ Documento maestro que enlaza las specs anidadas. Implementación repartida en `b
 | **0** | Chat + lectura + tablas/gráficos (artefactos) + definiciones explícitas |
 | **1** | PDF descarga + email Brevo + mapa embebido + comparación de periodos |
 | **2** | Acciones write (agenda) con preview + confirmación + audit log |
+| **2.5** | Ritmo ventas supervisor: día de semana + vendedor, thought stream, follow-ups, evals CI |
 | **3** | Secuencias de seguimiento multi-paso (diseño + ejecución) |
 
 ## Relación con productos existentes

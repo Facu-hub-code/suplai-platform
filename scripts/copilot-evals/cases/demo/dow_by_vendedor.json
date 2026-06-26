@@ -1,0 +1,30 @@
+{
+  "id": "dow_by_vendedor",
+  "description": "Ventas por día de semana desglosadas por vendedor",
+  "critical": true,
+  "input": {
+    "message": "Mostrame las ventas por día de la semana desglosadas por vendedor en los últimos 90 días.",
+    "locale": "es"
+  },
+  "expect": {
+    "tools": [
+      {
+        "name": "sales_by_day_of_week",
+        "args_match": {
+          "group_by_vendedor": true
+        }
+      }
+    ],
+    "artifacts": {
+      "types_include": ["kpi_row", "chart", "table"]
+    },
+    "follow_ups": {
+      "min_count": 2
+    },
+    "thought_steps": {
+      "min_count": 3,
+      "ids_include": ["query_sales"]
+    },
+    "definitions_version": "copilot-sales-v1"
+  }
+}

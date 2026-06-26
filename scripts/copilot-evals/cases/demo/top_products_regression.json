@@ -1,0 +1,23 @@
+{
+  "id": "top_products_regression",
+  "description": "Regresión Fase 0 — top productos mes pasado",
+  "critical": false,
+  "input": {
+    "message": "¿Cuál fue el producto más vendido el mes pasado?",
+    "locale": "es"
+  },
+  "expect": {
+    "tools": [
+      {
+        "name": "sales_top_products",
+        "args_match": {
+          "period": "last_month"
+        }
+      }
+    ],
+    "artifacts": {
+      "types_include": ["kpi_row", "table"]
+    },
+    "definitions_version": "copilot-sales-v1"
+  }
+}
