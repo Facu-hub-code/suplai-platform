@@ -233,9 +233,9 @@ async def cargar_red_comercial(esquema: str):
                         (client_id, source, latitude, longitude, location,
                          geocode_status, is_primary)
                     VALUES ($1, 'backoffice', $2, $3,
-                            extensions.ST_SetSRID(extensions.ST_MakePoint($4, $3), 4326),
+                            extensions.ST_SetSRID(extensions.ST_MakePoint($3, $2), 4326),
                             'not_required', true)
-                """, cliente_id, lat, lng, lng)
+                """, cliente_id, lat, lng)
 
                 inserted_clients += 1
 
