@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,La Parrilla del Pueblo,La Parrilla del Pueblo,598947936495,2,1,lunes,martes,"Zona ZONA NOROESTE - Villa del Cerro - Montevideo, Uruguay",Juan Pérez,0,0,-34.893077,-56.215509,true
+2,Carnicería El Buen Sabor,Carnicería El Buen Sabor,598937094546,3,2,lunes,martes,"Zona ZONA NOROESTE - Villa del Cerro - Montevideo, Uruguay",Juan Pérez,0,0,-34.893116,-56.209612,true
+3,Almacén de la Abuela,Almacén de la Abuela,598614621136,4,3,lunes,martes,"Zona ZONA NOROESTE - Villa del Cerro - Montevideo, Uruguay",Juan Pérez,0,0,-34.892923,-56.215724,true
+4,Asadería La Tradición,Asadería La Tradición,598376743943,1,4,lunes,martes,"Zona ZONA NOROESTE - Villa del Cerro - Montevideo, Uruguay",Juan Pérez,0,0,-34.895681,-56.212097,true
+5,Restaurante El Fogón,Restaurante El Fogón,598934311921,2,5,lunes,martes,"Zona ZONA NOROESTE - Villa del Cerro - Montevideo, Uruguay",Juan Pérez,0,0,-34.895917,-56.21271,true
+6,Carnicería La Estancia,Carnicería La Estancia,598436720135,3,6,lunes,martes,"Zona ZONA NOROESTE - Villa del Cerro - Montevideo, Uruguay",Juan Pérez,0,0,-34.896679,-56.206549,true
+7,Pinturería Color y Vida,Pinturería Color y Vida,59853931364,4,7,lunes,martes,"Zona ZONA NOROESTE - Villa del Cerro - Montevideo, Uruguay",Juan Pérez,0,0,-34.896059,-56.207288,true
+8,Ferretería El Clavo,Ferretería El Clavo,598146637220,1,8,lunes,martes,"Zona ZONA NOROESTE - Villa del Cerro - Montevideo, Uruguay",Juan Pérez,0,0,-34.897424,-56.214024,true
+9,Corralón La Construcción,Corralón La Construcción,598429086693,2,9,lunes,martes,"Zona ZONA NOROESTE - Villa del Cerro - Montevideo, Uruguay",Juan Pérez,0,0,-34.892331,-56.208305,true
+10,Almacén El Rincón,Almacén El Rincón,598729901593,3,10,martes,miercoles,"Zona ZONA NORTE - La Teja - Montevideo, Uruguay",María González,1,1,-34.896846,-56.19384,true
+11,Parrilla El Asador,Parrilla El Asador,598837105773,4,11,martes,miercoles,"Zona ZONA NORTE - La Teja - Montevideo, Uruguay",María González,1,1,-34.891108,-56.189229,true
+12,Carnicería La Casa del Chorizo,Carnicería La Casa del Chorizo,598165197212,1,12,martes,miercoles,"Zona ZONA NORTE - La Teja - Montevideo, Uruguay",María González,1,1,-34.897308,-56.186317,true
+13,Pinturería El Colorín,Pinturería El Colorín,598620615887,2,13,martes,miercoles,"Zona ZONA NORTE - La Teja - Montevideo, Uruguay",María González,1,1,-34.893585,-56.194991,true
+14,Ferretería El Martillo,Ferretería El Martillo,598738695054,3,14,martes,miercoles,"Zona ZONA NORTE - La Teja - Montevideo, Uruguay",María González,1,1,-34.896877,-56.191565,true
+15,Corralón El Material,Corralón El Material,598657131510,4,15,martes,miercoles,"Zona ZONA NORTE - La Teja - Montevideo, Uruguay",María González,1,1,-34.898351,-56.186862,true
+16,Almacén La Esquina,Almacén La Esquina,59849559358,1,16,martes,miercoles,"Zona ZONA NORTE - La Teja - Montevideo, Uruguay",María González,1,1,-34.893249,-56.195433,true
+17,Asadería El Sabor,Asadería El Sabor,598572456995,2,17,martes,miercoles,"Zona ZONA NORTE - La Teja - Montevideo, Uruguay",María González,1,1,-34.89632,-56.192982,true
+18,Restaurante La Parrilla,Restaurante La Parrilla,598608450244,3,18,martes,miercoles,"Zona ZONA NORTE - La Teja - Montevideo, Uruguay",María González,1,1,-34.894268,-56.188491,true
+19,Carnicería El Corte Perfecto,Carnicería El Corte Perfecto,598680048308,4,19,miercoles,jueves,"Zona ZONA NORESTE - Parque Batlle - Montevideo, Uruguay",María González,1,2,-34.891639,-56.175378,true
+20,Pinturería Color y Luz,Pinturería Color y Luz,598111224289,1,20,miercoles,jueves,"Zona ZONA NORESTE - Parque Batlle - Montevideo, Uruguay",María González,1,2,-34.891348,-56.170136,true
+21,Ferretería La Herramienta,Ferretería La Herramienta,598393677471,2,21,miercoles,jueves,"Zona ZONA NORESTE - Parque Batlle - Montevideo, Uruguay",María González,1,2,-34.898952,-56.172633,true
+22,Corralón El Proveedor,Corralón El Proveedor,598487650299,3,22,miercoles,jueves,"Zona ZONA NORESTE - Parque Batlle - Montevideo, Uruguay",María González,1,2,-34.897782,-56.171602,true
+23,Almacén La Familia,Almacén La Familia,59848664505,4,23,miercoles,jueves,"Zona ZONA NORESTE - Parque Batlle - Montevideo, Uruguay",María González,1,2,-34.892751,-56.174268,true
+24,Parrilla El Gran Asado,Parrilla El Gran Asado,598950596491,1,24,miercoles,jueves,"Zona ZONA NORESTE - Parque Batlle - Montevideo, Uruguay",María González,1,2,-34.897086,-56.172411,true
+25,Carnicería La Mejor Carne,Carnicería La Mejor Carne,598636256281,2,25,miercoles,jueves,"Zona ZONA NORESTE - Parque Batlle - Montevideo, Uruguay",María González,1,2,-34.894362,-56.168696,true
+26,Pinturería El Arcoíris,Pinturería El Arcoíris,598432440743,3,26,miercoles,jueves,"Zona ZONA NORESTE - Parque Batlle - Montevideo, Uruguay",María González,1,2,-34.897548,-56.171447,true
+27,Ferretería El Tornillo,Ferretería El Tornillo,598541068986,4,27,jueves,viernes,"Zona ZONA SUROESTE - Cerrito - Montevideo, Uruguay",Carlos Rodríguez,2,3,-34.917672,-56.209231,true
+28,Corralón La Solución,Corralón La Solución,598776622791,1,28,jueves,viernes,"Zona ZONA SUROESTE - Cerrito - Montevideo, Uruguay",Carlos Rodríguez,2,3,-34.917283,-56.212387,true
+29,Almacén El Buen Gusto,Almacén El Buen Gusto,598763216734,2,29,jueves,viernes,"Zona ZONA SUROESTE - Cerrito - Montevideo, Uruguay",Carlos Rodríguez,2,3,-34.912523,-56.211328,true
+30,Asadería El Pampa,Asadería El Pampa,598394265428,3,30,jueves,viernes,"Zona ZONA SUROESTE - Cerrito - Montevideo, Uruguay",Carlos Rodríguez,2,3,-34.912506,-56.215065,true
+31,Restaurante El Sazón,Restaurante El Sazón,59861326722,4,31,jueves,viernes,"Zona ZONA SUROESTE - Cerrito - Montevideo, Uruguay",Carlos Rodríguez,2,3,-34.91723,-56.207566,true
+32,Carnicería El Rey de la Carne,Carnicería El Rey de la Carne,598107364148,1,32,jueves,viernes,"Zona ZONA SUROESTE - Cerrito - Montevideo, Uruguay",Carlos Rodríguez,2,3,-34.916921,-56.207818,true
+33,Pinturería La Paleta,Pinturería La Paleta,598515383713,2,33,jueves,viernes,"Zona ZONA SUROESTE - Cerrito - Montevideo, Uruguay",Carlos Rodríguez,2,3,-34.919183,-56.212354,true
+34,Ferretería El Ancla,Ferretería El Ancla,598850898975,3,34,jueves,viernes,"Zona ZONA SUROESTE - Cerrito - Montevideo, Uruguay",Carlos Rodríguez,2,3,-34.913036,-56.211508,true
+35,Corralón El Aliado,Corralón El Aliado,598721947783,4,35,viernes,sabado,"Zona ZONA SUR - Ciudad Vieja - Montevideo, Uruguay",Carlos Rodríguez,2,4,-34.915676,-56.193819,true
+36,Almacén La Delicia,Almacén La Delicia,598175121602,1,36,viernes,sabado,"Zona ZONA SUR - Ciudad Vieja - Montevideo, Uruguay",Carlos Rodríguez,2,4,-34.919235,-56.19077,true
+37,Parrilla La Cabaña,Parrilla La Cabaña,598513477592,2,37,viernes,sabado,"Zona ZONA SUR - Ciudad Vieja - Montevideo, Uruguay",Carlos Rodríguez,2,4,-34.913574,-56.19189,true
+38,Carnicería El Sabor Argentino,Carnicería El Sabor Argentino,598453179529,3,38,viernes,sabado,"Zona ZONA SUR - Ciudad Vieja - Montevideo, Uruguay",Carlos Rodríguez,2,4,-34.914712,-56.196084,true
+39,Pinturería El Maestro,Pinturería El Maestro,598739084072,4,39,viernes,sabado,"Zona ZONA SUR - Ciudad Vieja - Montevideo, Uruguay",Carlos Rodríguez,2,4,-34.917712,-56.19493,true
+40,Ferretería La Fuerza,Ferretería La Fuerza,598611665915,1,40,viernes,sabado,"Zona ZONA SUR - Ciudad Vieja - Montevideo, Uruguay",Carlos Rodríguez,2,4,-34.913089,-56.194756,true
+41,Corralón El Constructor,Corralón El Constructor,598954797238,2,41,viernes,sabado,"Zona ZONA SUR - Ciudad Vieja - Montevideo, Uruguay",Carlos Rodríguez,2,4,-34.916665,-56.193908,true
+42,Almacén El Surtidor,Almacén El Surtidor,598207312293,3,42,viernes,sabado,"Zona ZONA SUR - Ciudad Vieja - Montevideo, Uruguay",Carlos Rodríguez,2,4,-34.91158,-56.190995,true
+43,Asadería El Asador Criollo,Asadería El Asador Criollo,598473342087,4,43,sabado,lunes,"Zona ZONA SURESTE - Punta Carretas - Montevideo, Uruguay",Juan Pérez,0,5,-34.917327,-56.174544,true
+44,Restaurante El Rincón del Sabor,Restaurante El Rincón del Sabor,598519945103,1,44,sabado,lunes,"Zona ZONA SURESTE - Punta Carretas - Montevideo, Uruguay",Juan Pérez,0,5,-34.917787,-56.168195,true
+45,Carnicería El Abasto,Carnicería El Abasto,598508001342,2,45,sabado,lunes,"Zona ZONA SURESTE - Punta Carretas - Montevideo, Uruguay",Juan Pérez,0,5,-34.914499,-56.172053,true
+46,Pinturería El Color del Sol,Pinturería El Color del Sol,598572529990,3,46,sabado,lunes,"Zona ZONA SURESTE - Punta Carretas - Montevideo, Uruguay",Juan Pérez,0,5,-34.919198,-56.170361,true
+47,Ferretería El Progreso,Ferretería El Progreso,598106491874,4,47,sabado,lunes,"Zona ZONA SURESTE - Punta Carretas - Montevideo, Uruguay",Juan Pérez,0,5,-34.91625,-56.175017,true
+48,Corralón El Aliado de la Construcción,Corralón El Aliado de la Construcción,598338831586,1,48,sabado,lunes,"Zona ZONA SURESTE - Punta Carretas - Montevideo, Uruguay",Juan Pérez,0,5,-34.911662,-56.172166,true
+49,Almacén La Nueva,Almacén La Nueva,598205317094,2,49,sabado,lunes,"Zona ZONA SURESTE - Punta Carretas - Montevideo, Uruguay",Juan Pérez,0,5,-34.919692,-56.175527,true
+50,Parrilla El Fogón Criollo,Parrilla El Fogón Criollo,598671456149,3,50,sabado,lunes,"Zona ZONA SURESTE - Punta Carretas - Montevideo, Uruguay",Juan Pérez,0,5,-34.919084,-56.170531,true
