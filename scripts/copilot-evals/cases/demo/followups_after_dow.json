@@ -1,0 +1,21 @@
+{
+  "id": "followups_after_dow",
+  "description": "Follow-ups sugeridos tras consulta de día de semana",
+  "critical": true,
+  "input": {
+    "message": "¿Qué día de la semana se vende más?",
+    "locale": "es"
+  },
+  "expect": {
+    "tools": [
+      {
+        "name": "sales_by_day_of_week"
+      }
+    ],
+    "follow_ups": {
+      "min_count": 2,
+      "ids_include_any": ["dow_by_vendedor", "compare_periods", "time_series", "report_pdf"]
+    },
+    "definitions_version": "copilot-sales-v1"
+  }
+}

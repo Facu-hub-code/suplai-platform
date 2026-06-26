@@ -1,0 +1,20 @@
+{
+  "id": "top_products_regression",
+  "description": "Regresión top productos — gonzales",
+  "critical": false,
+  "input": {
+    "message": "¿Cuál fue el producto más vendido el mes pasado?",
+    "locale": "es"
+  },
+  "expect": {
+    "tools": [
+      {
+        "name": "sales_top_products"
+      }
+    ],
+    "artifacts": {
+      "types_include": ["table"]
+    },
+    "definitions_version": "copilot-sales-v1"
+  }
+}

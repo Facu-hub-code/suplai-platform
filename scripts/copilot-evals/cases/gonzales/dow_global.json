@@ -1,0 +1,23 @@
+{
+  "id": "dow_global",
+  "description": "Día de semana — tenant gonzales (no critical CI)",
+  "critical": false,
+  "input": {
+    "message": "¿Qué día de la semana se vende más en los últimos 90 días?",
+    "locale": "es"
+  },
+  "expect": {
+    "tools": [
+      {
+        "name": "sales_by_day_of_week"
+      }
+    ],
+    "artifacts": {
+      "types_include": ["chart"],
+      "chart": {
+        "min_points": 7
+      }
+    },
+    "definitions_version": "copilot-sales-v1"
+  }
+}

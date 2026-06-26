@@ -1,0 +1,15 @@
+{
+  "id": "thought_steps_present",
+  "description": "Pasos de progreso visibles en el stream SSE",
+  "critical": true,
+  "input": {
+    "message": "¿Qué día de la semana se vende más?",
+    "locale": "es"
+  },
+  "expect": {
+    "thought_steps": {
+      "min_count": 3,
+      "ids_include": ["interpret", "query_sales", "build_viz"]
+    }
+  }
+}
