@@ -28,6 +28,7 @@ Guía al **implementador no técnico** fase por fase. No mezclar fases en un sol
 | 4 | `phase-04-red-comercial` | `phase-04-red-comercial/` |
 | 5 | `phase-05-clientes-flags` | `phase-05-clientes-flags/` |
 | 6 | `phase-06-pedidos` | `phase-06-pedidos/` |
+| 6.1 | `phase-06.1-field-setup` | `phase-06.1-field-setup/` |
 | 7 | `phase-07-conversaciones` | `phase-07-conversaciones/` |
 | 8 | `phase-08-insights` | `phase-08-insights/` |
 | 9 | `phase-09-e2e-testing` | `phase-09-e2e-testing/` |

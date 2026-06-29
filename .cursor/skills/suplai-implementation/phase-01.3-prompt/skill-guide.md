@@ -82,6 +82,15 @@ python scripts/fase-01-catalogo/aplicar_prompt.py --esquema <nombre_esquema>
 
 Este script automatizado se encargará de establecer la conexión, validar la existencia del esquema, estructurar las reglas de negocio en formato JSONB y realizar el `UPDATE` correspondiente.
 
+Además, como efecto secundario del mismo script, se crean automáticamente las **2 secuencias de seguimiento por defecto** para el tenant en `public.followup_sequences` (desactivadas):
+
+| Secuencia | Trigger |
+|---|---|
+| `followup_sin_respuesta_10min` | 10 min sin respuesta del cliente |
+| `followup_carrito_abandonado_30min` | 30 min con pedido abierto sin confirmar |
+
+El cliente las activa desde el backoffice cuando lo considere oportuno. Son idempotentes — si el script se ejecuta más de una vez, no genera duplicados.
+
 ---
 
 ## 🔍 Verificación Post-Carga
