@@ -42,6 +42,12 @@ python scripts/fase-01-catalogo/aplicar_prompt.py --esquema {schema}
 ```
 Este script leerá el archivo JSON generado, actualizará de forma segura la tabla maestra `public.distribuidoras` y realizará una consulta de verificación post-carga para asegurar que los datos fueron impactados correctamente.
 
+> **También crea automáticamente** las 2 secuencias de seguimiento por defecto en `public.followup_sequences` (desactivadas):
+> - `followup_sin_respuesta_10min` — 10 min sin respuesta del cliente
+> - `followup_carrito_abandonado_30min` — 30 min con pedido abierto sin confirmar
+>
+> El cliente las activa desde el backoffice cuando lo desee. Son idempotentes (`ON CONFLICT DO NOTHING`).
+
 ## Cierre de la Fase
 
 - Registrar en `manifest.yaml`:
