@@ -1,0 +1,22 @@
+product_code,nombre,slot_asado,tags_runtime_template,tags_anexo_a,accion_fase4
+AFTE0010,Vacio,carne_principal,Carnes|Vacio,parrilla|corte-principal|vacio,existente_fase_01_1
+AFTE0012,Entraña,carne_principal,Carnes|Entraña,parrilla|corte-principal|entrania,existente_fase_01_1
+AFTE0002,Picaña,carne_principal,Carnes|Picaña,parrilla|corte-principal|picanha,existente_fase_01_1
+AFTE0091,Asado tira ancha (6 costillas),carne_principal,Carnes|Asado,parrilla|corte-principal|asado,existente_fase_01_1
+AFTE0092,Asado en tiras (6 costillas),carne_principal,Carnes|Asado,parrilla|corte-principal|asado,existente_fase_01_1
+AFTE0091(C),Asado tira ancha (6 costillas)(C),carne_principal,Carnes|Asado,parrilla|corte-principal|asado,existente_fase_01_1
+AFTE0092(C),Asado en tiras (6 costillas)(C),carne_principal,Carnes|Asado,parrilla|corte-principal|asado,existente_fase_01_1
+AFTE0999,Entraña estancia CP,carne_principal,Carnes|Entraña|Asado,parrilla|corte-principal|entrania,existente_fase_01_1
+AFTE0052,Tapa de Asado,carne_principal,Carnes|Asado,parrilla|corte-principal|asado,agregar_tag_Asado
+AFTE0085,Asado Banderita(6 costillas),carne_principal,Carnes|Asado,parrilla|corte-principal|asado,agregar_tag_Asado
+AFTE0067,Media Luna De Vacio,carne_principal,Carnes|Vacio,parrilla|corte-principal|vacio,agregar_tag_Vacio
+AFTE0068,Tapa De Vacio,carne_principal,Carnes|Vacio,parrilla|corte-principal|vacio,agregar_tag_Vacio
+AFCE0108,Chorizo x 4un Magret EV x 400gr,achuras,Carnes|Chorizo,achura,existente_fase_01_1
+AFCE0111,Morcilla bombom magret EV x 400 gr,achuras,Carnes|Morcilla,achura,existente_fase_01_1
+AFTE0007,Molleja,achuras,Carnes|Molleja,achura,existente_fase_01_1
+AFTE0020,Chinchulin,achuras,Carnes|Chinchulín,achura,existente_fase_01_1
+AFLA0074,Provoleta Parrillera Formagge x 450gr,provoletas,Provoleta,,existente_fase_01_1
+AFLA0078,Provolone Patagonico Formagge x 220gr,provoletas,Provolone,,existente_fase_01_1
+AFVA0031,Carbon x 4 Kg,carbon,Carbón,complemento-asado,existente_fase_01_1
+VACO0181,carbón mezcla pura 4kg,carbon,Carbón,complemento-asado,existente_fase_01_1
+VACO0183,leña quebracho puro 6kg,carbon,Leña,complemento-asado,existente_fase_01_1

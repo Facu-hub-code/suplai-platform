@@ -1,0 +1,6 @@
+{
+  "schema": "al_fuego",
+  "profile": "client",
+  "sequential_default": true,
+  "description": "Casos B2C Occasion Planner — escenario asado"
+}
