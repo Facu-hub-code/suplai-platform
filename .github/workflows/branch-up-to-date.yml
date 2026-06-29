@@ -1,0 +1,28 @@
+name: Branch freshness
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+jobs:
+  branch-up-to-date:
+    name: Branch up to date with base
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify PR branch includes latest base
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          git fetch origin "$BASE_REF"
+          BEHIND=$(git rev-list --count "HEAD..origin/${BASE_REF}")
+          if [ "$BEHIND" -gt 0 ]; then
+            echo "::error::La rama del PR está ${BEHIND} commit(s) atrás de origin/${BASE_REF}."
+            echo "Actualizá con: git fetch origin && git merge origin/${BASE_REF}"
+            echo "O usá el botón Update branch en GitHub si está habilitado."
+            exit 1
+          fi
+          echo "OK: la rama incluye los últimos commits de origin/${BASE_REF}."

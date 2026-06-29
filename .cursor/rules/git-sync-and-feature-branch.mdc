@@ -39,6 +39,39 @@ Antes del primer cambio de código:
 
 **Prohibido** commitear en `main` / `master` salvo que el usuario lo pida explícitamente.
 
+## 2.1 Rama feature al día con la troncal (obligatorio antes del PR)
+
+Antes de **push final**, **crear PR** o **pedir merge**, la rama feature **debe incluir** los últimos commits de `origin/main` o `origin/master` (según troncal del repo).
+
+```bash
+cd <ruta-del-repo>
+git fetch origin
+git merge origin/<troncal>    # preferido: merge (agent usa master en agent/)
+# git rebase origin/<troncal>   # solo si el usuario lo pide explícitamente
+git push
+```
+
+Verificar que no quedás *behind*:
+
+```bash
+git fetch origin
+git rev-list --left-right --count origin/<troncal>...HEAD
+# primer número = commits que te faltan de la troncal; **debe ser 0** antes del PR
+```
+
+En PRs abiertos, antes de informar “listo para merge”:
+
+```bash
+gh pr view --json mergeable,mergeStateStatus
+```
+
+- `mergeStateStatus: BEHIND` → actualizar la rama con la troncal antes de seguir.
+- `mergeable: CONFLICTING` → resolver conflictos; no afirmar que el PR está mergeable.
+
+Si GitHub muestra **Update branch**, puede usarse; si falla, hacer merge/rebase local y push.
+
+Referencia infra: `docs/dev/github-branch-protection.md`.
+
 ## 3. Resumen del orden
 
 ```
@@ -52,9 +85,10 @@ Aplica a **todos** los repos del ecosistema: `platform/`, `agent/`, `backend/`, 
 Cuando el agente termina cambios de código (o el usuario pide subirlos):
 
 1. **Commitear** en la rama de feature (nunca en troncal).
-2. **Push** de la rama al remoto (`git push -u origin HEAD`).
-3. **Crear PR** hacia la troncal (`main` / `master`) con `gh pr create`.
-4. **Entregar la URL del PR** al usuario.
+2. **Actualizar la rama con la troncal** (sección 2.1) — no abrir PR estando *behind*.
+3. **Push** de la rama al remoto (`git push -u origin HEAD`).
+4. **Crear PR** hacia la troncal (`main` / `master`) con `gh pr create`.
+5. **Entregar la URL del PR** al usuario e indicar si el PR está al día con la base (`gh pr view --json mergeStateStatus`).
 
 **Prohibido** mergear a la troncal sin aprobación explícita del usuario desde la web de GitHub. El agente **no** debe:
 - Hacer `gh pr merge` ni mergear desde la CLI.
