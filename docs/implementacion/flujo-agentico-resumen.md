@@ -23,7 +23,7 @@ Poblar un tenant **recién registrado** (schema vacío) a partir del Excel de pr
 ```text
 Excel → Catálogo (F1) → Tags (F1.1) → Mejora Descripciones (F1.2) → Prompt Agente (F1.3) → Promos (F2) + Cross/Up (F3)
      → Red comercial (F4) → Flags clientes (F5)
-     → Pedidos (F6) → Conversaciones (F7) → Insights (F8)
+     → Pedidos (F6) → Field App Setup (F6.1) → Conversaciones (F7) → Insights (F8)
      → Pruebas E2E (F9) → [opcional] Purga mock (F10)
 ```
 
@@ -129,6 +129,36 @@ Tabla: `{tenant}.promociones_semanales`.
 - Histórico: ~3 pedidos/cliente, estados cerrados, mar–may 2026.
 - Vivos: 6–7 pedidos `abierto`/`pendiente` con fecha actual.
 - Ítems en `items_pedido`; precio según `lista_precios_id` del cliente.
+
+## Fase 6.1 — Field App Setup
+
+Habilita Suplai Field (gamificación del vendedor) con datos suficientes para que el ML
+y el job diario de tareas funcionen desde el primer día.
+
+**Pasos (en orden)**:
+
+| Paso | Script | Resultado |
+|------|--------|-----------|
+| A | `preparar_pedidos_field.py` + `cargar_pedidos_field.py` | Pedidos Jun 2025–May 2026 (backbone + reciente) → ML tiene ≥3 compras por SKU ancla en 90 días |
+| B | `habilitar_field.py` | `public.distribuidoras.metadata → {"field_app_enabled": true}` |
+| C | `retrain_ml.py` | `POST {SALES_ENGINE_URL}/v1/tenants/{schema}/models/retrain` (silencioso si caído) |
+| D | `setup_templates.py` | 3 templates activos: REACTIVAR_CLIENTE, CROSS_SELL_COMBO, REPOSICION_HABITO |
+| E | `setup_objetivos.py` | 2 objetivos: SKU top rotación + grupo marca líder |
+| F | `setup_torneo.py` | 1 torneo ACTIVO para el mes corriente |
+| G | `seed_tareas_historicas.py` | Tareas completadas/parciales últimos 30 días laborables + ledger de puntos |
+| H | `trigger_tareas.py --dias 6` | Tareas de hoy + próximos 5 días via backend ML real |
+
+**Volúmenes**:
+- Pedidos backbone: ~7 × N clientes (+ 3 recientes para activos)
+- 20% clientes inactivos (>60 días sin compras) → disparan REACTIVAR_CLIENTE
+- Tareas históricas seed: ~30 días × vendedores × 2-4 clientes × templates
+- Distribución: 60% COMPLETADA / 25% PARCIAL / 15% PENDIENTE
+
+**Scripts**: `platform/scripts/fase-06-1-field/`
+**Skill**: `.cursor/skills/suplai-implementation/phase-06.1-field-setup/`
+
+**Errores ML**: si el sales-engine está caído en Paso C, continuar; avisar al implementador.
+CROSS_SELL_COMBO y REPOSICION_HABITO no se generarán hasta re-entrenar.
 
 ## Fase 7 — Conversaciones
 

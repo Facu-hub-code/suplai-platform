@@ -78,6 +78,44 @@ async def aplicar_prompt(esquema: str):
         )
         print("✅ Base de datos actualizada con éxito.")
 
+        # Secuencias de seguimiento por defecto (desactivadas — el cliente las activa cuando quiera)
+        tenant_id = await conn.fetchval(
+            "SELECT id FROM public.distribuidoras WHERE schema_name = $1", esquema
+        )
+        if tenant_id:
+            await conn.executemany(
+                """
+                INSERT INTO public.followup_sequences
+                  (name, description, enabled, trigger_after_seconds, conditions, actions,
+                   max_executions_per_conversation, tenant_id)
+                VALUES ($1, $2, $3, $4, $5::jsonb, $6::jsonb, $7, $8)
+                ON CONFLICT DO NOTHING
+                """,
+                [
+                    (
+                        "followup_sin_respuesta_10min",
+                        "El cliente no respondio al mensaje del agente en 10 minutos. Se envia un mensaje cordial para retomar el contacto.",
+                        False,
+                        600,
+                        '{"all":[{"type":"minutes_idle_gte","value":10}]}',
+                        '[{"type":"send_followup_message","message":"Hola! Solo queria asegurarme de que todo este bien. Podemos ayudarte con algo?"}]',
+                        1,
+                        tenant_id,
+                    ),
+                    (
+                        "followup_carrito_abandonado_30min",
+                        "El cliente tiene un carrito abierto por mas de 30 minutos sin confirmar. El agente lo contacta para ayudarlo a cerrar el pedido.",
+                        False,
+                        1800,
+                        '{"all":[{"type":"has_open_order"},{"type":"minutes_idle_gte","value":30}]}',
+                        '[{"type":"send_followup_message","message":"Hola de nuevo! Veo que tenes un pedido en proceso. Te gustaria que lo revisemos juntos? Puedo modificar, agregar o ajustar lo que necesites para confirmarlo."}]',
+                        1,
+                        tenant_id,
+                    ),
+                ],
+            )
+            print("✅ Secuencias de seguimiento creadas (desactivadas por defecto).")
+
         # Verificación post-carga
         row = await conn.fetchrow(
             """

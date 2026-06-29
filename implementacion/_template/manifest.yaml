@@ -76,6 +76,16 @@ fases:
     output_csv_extra: outputs/phase-06-items-pedido.csv
     filas_csv: 0
     cargado_at: null
+  "06.1":
+    nombre: field_setup
+    estado: pendiente
+    output_csv: outputs/phase-06-1-pedidos-field.csv
+    output_csv_extra: outputs/phase-06-1-items-pedido-field.csv
+    output_json: outputs/phase-06-1-objetivos.csv
+    filas_csv: 0
+    cargado_at: null
+    ml_retrained: false          # true si retrain_ml.py completó con rows_used > 0
+    ml_warning: null             # Mensaje si el servicio ML estaba caído
   "07":
     nombre: conversaciones
     estado: pendiente
