@@ -122,6 +122,9 @@ async def seed(schema: str, dias: int) -> None:
                             **criterio,
                             "evaluacion_cerrada": estado in ("COMPLETADA", "PARCIAL"),
                             "skus_cumplidos": [],
+                            # puntos_obtenidos en criterio_json es lo que lee el BFF
+                            # (no lo lee del field_point_ledger)
+                            "puntos_obtenidos": earned_pts if earned_pts > 0 else None,
                         }
 
                         completada_at = None
