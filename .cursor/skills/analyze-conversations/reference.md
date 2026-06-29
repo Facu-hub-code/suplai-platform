@@ -1,6 +1,6 @@
 # Referencia SQL — cohorte y señales
 
-Proyecto Supabase: `nxmeezcvjltlqfybbczt`. Ejecutar vía MCP `execute_sql`. Reemplazar placeholders:
+Proyecto Supabase: **`cvlbietibaaehgeimxgw`** (Suplai-east). Ejecutar vía MCP `execute_sql`. Reemplazar placeholders:
 
 - `<schema>` — schema del tenant
 - `<tenant_id>` — UUID de `public.distribuidoras`
