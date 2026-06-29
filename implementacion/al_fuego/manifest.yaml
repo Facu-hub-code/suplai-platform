@@ -86,10 +86,18 @@ fases:
     output_csv: outputs/phase-08-notificaciones.csv
     filas_csv: 0
     cargado_at: null
+  "04.op":
+    nombre: occasion_planner_b2c
+    estado: cargado
+    output_csv: outputs/phase-04-occasion-planner-tags.csv
+    scripts: scripts/al_fuego-occasion-planner/
+    casos_reales: casos-reales/
+    cargado_at: "2026-06-29T12:00:00-03:00"
   "09":
     nombre: e2e_testing
     estado: pendiente
     output_markdown: outputs/reporte_e2e_*.md
+    notas: "Incluir --suite real con casos-reales/ tras deploy agente occasion planner"
     cargado_at: null
   "10":
     nombre: purga_mock

@@ -1,0 +1,11 @@
+{
+  "name": "Asado simple 4 adultos",
+  "sequential_order": 2,
+  "message_file": "mensaje.txt",
+  "client_identifier": "suplai-platform-test",
+  "expected_tools": ["plan_occasion_bundle"],
+  "expected_tools_any": [],
+  "expected_skus": [],
+  "expected_behavior": "Invocar plan_occasion_bundle(scenario_id=asado, adults=4). Propuesta con al menos carne principal y total coherente (~2 kg carne principal).",
+  "tags": ["b2c", "asado", "occasion-planner"]
+}

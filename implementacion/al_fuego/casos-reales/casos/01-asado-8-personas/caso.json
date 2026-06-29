@@ -1,0 +1,11 @@
+{
+  "name": "Asado para 8 personas (6 adultos + 2 chicos)",
+  "sequential_order": 1,
+  "message_file": "mensaje.txt",
+  "client_identifier": "suplai-platform-test",
+  "expected_tools": ["plan_occasion_bundle"],
+  "expected_tools_any": [],
+  "expected_skus": [],
+  "expected_behavior": "Interpretar 6 adultos y 2 chicos, invocar plan_occasion_bundle con scenario_id=asado y parámetros correctos. Presentar bundle con cortes sugeridos (vacio, asado, entraña o picaña), achuras si aplica, y disclaimer de peso variable. No calcular kg manualmente en prosa.",
+  "tags": ["b2c", "asado", "occasion-planner"]
+}
