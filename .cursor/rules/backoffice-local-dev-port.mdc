@@ -14,12 +14,20 @@ La API key de Google Maps tiene **restricción por referrer/origen HTTP** config
 
 ## Reglas
 
+- **`MUST`** levantar **backend y backoffice juntos** al probar el backoffice en localhost. El backoffice proxyea la API vía `BACKEND_URL`; sin backend en `8000` no hay login ni datos.
 - **`MUST`** levantar el backoffice en el **puerto 3000** al probar en localhost:
   ```bash
+  # Terminal 1 — backend
+  cd backend   # backend-supabase/
+  source venv/bin/activate
+  uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+  # Terminal 2 — backoffice
   cd backoffice   # product-management-app/
   BACKEND_URL=http://localhost:8000 npm run dev
   # o explícito: npm run dev -- -p 3000
   ```
+- Cuando el usuario pida levantar el backoffice local, **arrancar ambos servicios** (backend primero, luego backoffice) sin que tenga que recordarlo.
 - **`MUST NOT`** documentar ni sugerir otro puerto para el backoffice local (p. ej. 3001) salvo que el usuario haya actualizado la whitelist en Google Cloud Console.
 - Si el mapa comercial falla con error de API key / referrer bloqueado, **primero** verificar que la URL sea `http://localhost:3000`, no otro puerto.
 

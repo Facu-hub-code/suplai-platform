@@ -102,7 +102,7 @@ flowchart LR
 ### Credenciales en n8n
 
 1. **Google Sheets** — OAuth con acceso al sheet (compartir el archivo con la cuenta del OAuth).
-2. **Supabase** — URL + **service role** del proyecto `nxmeezcvjltlqfybbczt`, schema `del_corro` en el nodo.
+2. **Supabase** — URL + **service role** del proyecto **`cvlbietibaaehgeimxgw`** (Suplai-east), schema `del_corro` en el nodo.
 3. **WhatsApp Business Cloud** — mismas credenciales que usa `del_corro` (token + phone number ID del tenant).
 
 No guardar tokens en el JSON del workflow; asignarlos en la UI de n8n.
