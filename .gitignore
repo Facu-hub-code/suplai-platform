@@ -18,6 +18,9 @@ credentials.json
 
 scratch/
 
+# Git worktrees locales (una feature / agente por directorio)
+.worktrees/
+
 scripts/__pycache__/
 scripts/*/__pycache__/
 

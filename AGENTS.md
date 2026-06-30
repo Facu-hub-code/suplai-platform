@@ -20,15 +20,21 @@ Cada carpeta anterior (y `platform/`) es un **repositorio git independiente**; c
 
 ## Git antes de modificar código
 
+El equipo trabaja **varias features en paralelo** con agentes activos. **No cambiar de rama** (`git checkout` / `git switch`) en el checkout principal de un repo si puede afectar otro chat — usar **git worktree**, Cloud Agent o clon aparte.
+
 Antes del **primer cambio de código** en un repo:
 
-1. En la raíz de ese repo: `git fetch` y luego `git pull`.
-2. Trabajar siempre en una **rama aparte** de la troncal (`main` / `master`); no editar ni commitear en troncal salvo pedido explícito.
-3. Si estás en troncal: `git checkout -b <tipo>/<descripcion>` (ej. `feat/...`, `fix/...`).
+1. **`git fetch origin`** en el directorio donde vas a editar (worktree aislado, no necesariamente el hub).
+2. **`git pull`** solo si el working tree está limpio y la rama tiene upstream.
+3. **Aislar la tarea**: worktree + rama feature desde `origin/main` (o `origin/master` en `agent/`). Anunciar repo, path y rama antes de editar.
+4. **Nunca** implementar en troncal (`main` / `master`) salvo pedido explícito.
+5. Antes del PR: merge de troncal en el worktree de la feature, push, `gh pr create`; el **humano mergea** en GitHub.
 
-Si `git pull` falla, detenerse y resolver con el usuario antes de editar.
+Features cross-repo: documentar tabla repo → rama → PR; mergear backend/API antes que consumers.
 
-Regla completa (Cursor): `.cursor/rules/git-sync-and-feature-branch.mdc`
+Guía humana: `docs/dev/git-workflow.md`  
+Regla completa (Cursor): `.cursor/rules/git-sync-and-feature-branch.mdc`  
+Skill worktrees: `.agents/skills/using-git-worktrees/SKILL.md`
 
 ## Multi-tenant
 

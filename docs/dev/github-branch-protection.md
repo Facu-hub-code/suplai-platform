@@ -64,3 +64,13 @@ gh pr view --json mergeable,mergeStateStatus,statusCheckRollup
 ## Template workflow
 
 Ver `.github/workflows/branch-up-to-date.yml` en este repo. Funciona con cualquier rama base (`main`, `master`, `staging`) porque usa `github.base_ref`.
+
+## Trabajo paralelo (equipo + agentes)
+
+Varias features abiertas a la vez implica **una rama por directorio**, no un `checkout` compartido:
+
+- Crear worktrees en `.worktrees/<rama>/` (cada repo debe tener `.worktrees/` en `.gitignore`).
+- Operaciones de PR (`merge origin/main`, `push`, `gh pr create`) en el **worktree de esa rama**, no en el hub.
+- No usar `git checkout` en el checkout principal mientras haya agentes u otra feature en curso.
+
+Flujo completo: `docs/dev/git-workflow.md`.

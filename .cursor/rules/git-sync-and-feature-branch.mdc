@@ -1,52 +1,112 @@
 ---
-description: Antes de editar código — git fetch/pull y trabajar siempre en rama aparte de la troncal
+description: Git/GitHub — sync, aislamiento por worktree, rama feature, PR y merge humano (equipo paralelo + agentes)
 alwaysApply: true
 ---
 
-# Git — sincronizar y rama de trabajo
+# Git — sincronizar, aislar y entregar por PR
 
 Antes de **modificar, crear o borrar archivos de código** en cualquier carpeta con repositorio git (`platform/`, `agent/`, `backend/`, `backoffice/`, `tienda/`, `field-app/`, `sniffer/`, `sales-engine/`), el agente **debe** completar este flujo en **ese** repo (cada carpeta tiene su propio `.git`).
 
-## 1. Sincronizar con remoto (obligatorio)
+Referencia humana: `docs/dev/git-workflow.md`. Infra GitHub: `docs/dev/github-branch-protection.md`. Skill worktrees: `.agents/skills/using-git-worktrees/SKILL.md`.
 
-En el directorio raíz del repo que vas a tocar:
+## 0. Principio — un chat, una rama, un directorio
+
+El equipo trabaja **varias features en paralelo** con **agentes activos** en el mismo meta-workspace. Por eso:
+
+- **MUST NOT** usar `git checkout`, `git switch` ni `git pull` en el **checkout principal** del repo si puede afectar otro chat, agente o feature en curso — salvo que el usuario lo pida explícitamente.
+- **MUST** aislar cada tarea en su propio directorio: **git worktree**, **Cloud Agent** de Cursor, clon aparte, o `move_agent_to_root` / `move_agent_to_cloned_root`.
+- **MUST** anunciar al inicio de la implementación (antes del primer edit): **repo**, **path absoluto del worktree**, **rama objetivo**.
+
+Prioridad para elegir rama:
+
+1. Rama explícita del usuario o del spec/PR existente.
+2. Crear worktree + rama nueva desde `origin/<troncal>`.
+3. Rama actual del directorio **solo si** coincide con la tarea — nunca asumir que “la rama del checkout principal” es la correcta.
+
+Convención de nombres: `<tipo>/<slug-corto>` — ej. `feat/fl-field-v2`, `fix/fl-pedidos-duplicados`. Opcional prefijo de owner (`fl/`, `toto/`) para evitar colisiones entre dos devs.
+
+## 1. Sincronizar con remoto
+
+En el directorio **donde vas a editar** (worktree o checkout designado):
 
 ```bash
-cd <ruta-del-repo>
-git fetch
-git pull
+cd <ruta-del-worktree-o-repo>
+git fetch origin
 ```
 
-- Ejecutar **fetch** y **pull** por separado, en ese orden.
-- Si `git pull` falla (conflictos, cambios locales sin commitear, sin upstream), **detenerse**, informar al usuario y **no** editar código hasta resolverlo.
-- Si solo vas a leer/explorar sin cambios, no hace falta pull; aplica al **primer** cambio de código en esa sesión/repo.
+**`git pull`** — condicional:
 
-## 2. Rama aparte de la troncal (obligatorio)
+- **MUST** hacer `pull` si el working tree está limpio (`git status` sin cambios sin commit) y la rama tiene upstream.
+- **MUST NOT** hacer `pull` si hay cambios locales sin commit — informar al usuario; usar `fetch` + merge/rebase solo en el worktree de esa feature cuando corresponda.
+- Si `pull` falla (conflictos, sin upstream), **detenerse**, informar y **no** editar hasta resolverlo.
 
-**Nunca** implementar cambios estando en la rama troncal (`main`, `master` o la rama por defecto del remoto).
+Si solo vas a leer/explorar sin cambios, basta con `fetch`; no hace falta `pull`.
 
-Antes del primer cambio de código:
+## 2. Rama feature (nunca en troncal)
 
-1. Identificar la troncal: `git symbolic-ref refs/remotes/origin/HEAD` o `git remote show origin` (suele ser `main` o `master`).
-2. Si estás en la troncal, crear y cambiar a una rama de trabajo:
-   ```bash
-   git checkout <troncal>
-   git pull
-   git checkout -b <tipo>/<descripcion-corta>
-   ```
-   Ejemplos: `feat/login-tienda-otp`, `fix/pedidos-duplicados`, `chore/actualizar-deps`.
-3. Si ya estás en una rama que **no** es la troncal, verificar que esté actualizada (`git pull` en esa rama) y seguir ahí.
+**Nunca** implementar cambios en la rama troncal (`main`, `master` o la rama por defecto del remoto).
 
-**Prohibido** commitear en `main` / `master` salvo que el usuario lo pida explícitamente.
-
-## 2.1 Rama feature al día con la troncal (obligatorio antes del PR)
-
-Antes de **push final**, **crear PR** o **pedir merge**, la rama feature **debe incluir** los últimos commits de `origin/main` o `origin/master` (según troncal del repo).
+Identificar troncal:
 
 ```bash
-cd <ruta-del-repo>
+git symbolic-ref refs/remotes/origin/HEAD
+# o: git remote show origin
+```
+
+| Repo carpeta | Troncal habitual |
+|--------------|------------------|
+| `agent/` | `master` |
+| Resto (`platform/`, `backend/`, `backoffice/`, `tienda/`, `field-app/`, `sniffer/`, `sales-engine/`) | `main` |
+
+### Crear aislamiento (preferido)
+
+**MUST NOT** hacer `checkout -b` en el checkout principal si hay riesgo de interferir con otro agente.
+
+En su lugar, crear worktree (ver skill `using-git-worktrees`):
+
+```bash
+# Verificar que .worktrees/ está en .gitignore del repo
+git check-ignore -q .worktrees || { echo "Agregar .worktrees/ a .gitignore primero"; exit 1; }
+
 git fetch origin
-git merge origin/<troncal>    # preferido: merge (agent usa master en agent/)
+git worktree add .worktrees/<rama> -b <tipo>/<slug> origin/<troncal>
+cd .worktrees/<rama>
+```
+
+Alternativas válidas: Cloud Agent (rama propia), clon hermano, `best-of-n-runner`.
+
+### Si el usuario autoriza checkout en el directorio actual
+
+Solo entonces:
+
+```bash
+git fetch origin
+git checkout -b <tipo>/<slug> origin/<troncal>
+```
+
+**Prohibido** commitear en `main` / `master` salvo pedido explícito del usuario.
+
+## 2.1 Features cross-repo
+
+Si la feature toca más de un repo, **MUST** documentar al inicio (mensaje al usuario o spec):
+
+| Repo | Rama | PR |
+|------|------|-----|
+| `backend/` | `feat/...` | #… |
+| `backoffice/` | `feat/...` | #… |
+
+Orden de merge habitual: **backend/migraciones → API consumers** (backoffice, field-app, tienda, agent).
+
+## 2.2 Rama feature al día con la troncal (obligatorio antes del PR)
+
+Antes de **push final**, **crear PR** o **pedir merge**, la rama feature **debe incluir** los últimos commits de `origin/<troncal>`.
+
+Ejecutar en el **worktree de esa rama**, no en el checkout principal:
+
+```bash
+cd <worktree-de-la-feature>
+git fetch origin
+git merge origin/<troncal>    # preferido; agent/ usa origin/master
 # git rebase origin/<troncal>   # solo si el usuario lo pide explícitamente
 git push
 ```
@@ -56,55 +116,61 @@ Verificar que no quedás *behind*:
 ```bash
 git fetch origin
 git rev-list --left-right --count origin/<troncal>...HEAD
-# primer número = commits que te faltan de la troncal; **debe ser 0** antes del PR
+# primer número = commits que faltan de la troncal; **debe ser 0** antes del PR
 ```
 
 En PRs abiertos, antes de informar “listo para merge”:
 
 ```bash
-gh pr view --json mergeable,mergeStateStatus
+gh pr view --json mergeable,mergeStateStatus,statusCheckRollup
 ```
 
 - `mergeStateStatus: BEHIND` → actualizar la rama con la troncal antes de seguir.
 - `mergeable: CONFLICTING` → resolver conflictos; no afirmar que el PR está mergeable.
+- Status checks en rojo → no afirmar “listo para merge” sin resolver o avisar al usuario.
 
-Si GitHub muestra **Update branch**, puede usarse; si falla, hacer merge/rebase local y push.
-
-Referencia infra: `docs/dev/github-branch-protection.md`.
+Si GitHub muestra **Update branch**, puede usarse; si falla, merge local en el worktree y push.
 
 ## 3. Resumen del orden
 
 ```
-cd <repo> → git fetch → git pull → (si troncal) checkout -b <rama> → editar código
+fetch → (worktree + rama feature) → editar → commit (si el usuario lo pide)
+→ merge origin/<troncal> → push → PR → usuario mergea en GitHub
 ```
+
+**No** incluir `checkout` en el checkout principal compartido salvo autorización explícita.
 
 ## 4. Pull request obligatorio (todos los repos)
 
-Aplica a **todos** los repos del ecosistema: `platform/`, `agent/`, `backend/`, `backoffice/`, `tienda/`, `field-app/`, `sniffer/`, `sales-engine/`.
+Aplica a **todos** los repos del ecosistema.
 
-Cuando el agente termina cambios de código (o el usuario pide subirlos):
+Cuando el agente termina cambios (o el usuario pide subirlos):
 
-1. **Commitear** en la rama de feature (nunca en troncal).
-2. **Actualizar la rama con la troncal** (sección 2.1) — no abrir PR estando *behind*.
-3. **Push** de la rama al remoto (`git push -u origin HEAD`).
-4. **Crear PR** hacia la troncal (`main` / `master`) con `gh pr create`.
-5. **Entregar la URL del PR** al usuario e indicar si el PR está al día con la base (`gh pr view --json mergeStateStatus`).
+1. **Commitear** en la rama de feature del worktree (nunca en troncal). Commits solo cuando el usuario lo pide (user rule).
+2. **Actualizar la rama con la troncal** (§2.2) — no abrir PR estando *behind*.
+3. **Push** (`git push -u origin HEAD`) desde el worktree de esa rama.
+4. **Crear PR** hacia la troncal con `gh pr create`.
+5. **Entregar URL del PR** e indicar `mergeStateStatus` y checks.
 
-**Prohibido** mergear a la troncal sin aprobación explícita del usuario desde la web de GitHub. El agente **no** debe:
-- Hacer `gh pr merge` ni mergear desde la CLI.
-- Hacer push directo a `main` / `master` (salvo pedido explícito del usuario).
+**Prohibido** para el agente:
 
-Si ya existe un PR abierto para la rama, **actualizarlo** (push a la misma rama) en lugar de crear uno duplicado.
+- `gh pr merge` o merge desde CLI.
+- Push directo a `main` / `master` (salvo pedido explícito).
+- `git checkout` / `git switch` en checkout principal compartido (salvo pedido explícito).
 
-Flujo completo:
+Si ya existe un PR para la rama, **actualizarlo** (push a la misma rama) en lugar de duplicar.
+
+Flujo:
 
 ```
-rama feature → commit → push → PR → usuario aprueba y mergea en GitHub
+worktree + rama feature → commit → merge troncal → push → PR → usuario aprueba y mergea
 ```
+
+Tras merge: `git worktree remove <path>` cuando el worktree ya no se necesite.
 
 ## 5. Excepciones
 
-- El usuario pide explícitamente trabajar en la troncal o sin pull.
-- El directorio no es un repositorio git (solo documentación suelta sin `.git`): no aplicar fetch/pull; avisar si se esperaba un repo.
-- Operaciones **solo** de git pedidas por el usuario (status, diff, commit, PR) siguen las reglas de commit/PR del usuario; aun así, antes de **nuevos** cambios de código, repetir sync + rama si hace falta.
-- El usuario pide explícitamente mergear o pushear a troncal sin PR.
+- Usuario pide explícitamente trabajar en troncal, sin pull, o **cambiar de rama en el checkout principal**.
+- Directorio sin `.git`: no aplicar fetch/pull; avisar si se esperaba un repo.
+- Operaciones **solo** de git pedidas por el usuario (status, diff, commit, PR): respetar user rules; antes de **nuevos** edits, repetir §0–§2.
+- Usuario pide merge o push a troncal sin PR.
