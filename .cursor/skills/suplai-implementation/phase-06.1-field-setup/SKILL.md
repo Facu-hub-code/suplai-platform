@@ -68,7 +68,7 @@ python scripts/fase-06-1-field/setup_templates.py --esquema <schema>
 Activa: `REACTIVAR_CLIENTE`, `CROSS_SELL_COMBO`, `REPOSICION_HABITO`.
 Desactiva: `MEJORAR_MIX_RENTABLE`, `CROSS_SELL_RENTABLE` (sin tipo_venta en productos).
 
-### Paso E — Crear objetivos comerciales
+### Paso E — Crear objetivos comerciales y garantizar cobertura semanal
 
 ```bash
 python scripts/fase-06-1-field/setup_objetivos.py --esquema <schema>
@@ -76,6 +76,12 @@ python scripts/fase-06-1-field/setup_objetivos.py --esquema <schema>
 
 Objetivo 1: SKU top por rotacion_index, meta 100 u, 30 días.
 Objetivo 2: Grupo marca líder, meta 500 u, hoy-15 → hoy+45 días.
+
+Además verifica que cada día de la semana tenga al menos un vendedor con
+`dia_visita` activo. Para cualquier día sin cobertura, crea una zona mock
+(clonando geometría de una zona existente) y la vincula al vendedor con
+menos zonas asignadas. Esto garantiza que `trigger_tareas.py` genere
+tareas en cualquier día que se corra la demo con el cliente.
 
 ### Paso F — Crear torneo mensual
 
