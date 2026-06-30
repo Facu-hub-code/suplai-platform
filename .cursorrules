@@ -1,7 +1,7 @@
 # 📌 IMPORTANT: Additional Workspace Rules
 The `.cursor/rules/` directory contains crucial, specific rules for different parts of this multi-repo workspace. 
 Before making any changes, you **MUST** locate, read, and strictly follow the rules defined in `.cursor/rules/`:
-- **`git-sync-and-feature-branch.mdc`**: Git workflow, rama feature al día con main/master, branching strategy.
+- **`git-sync-and-feature-branch.mdc`**: Git/GitHub — worktrees, rama feature, PR, merge humano; no `checkout` en hub con agentes activos. Guía: `docs/dev/git-workflow.md`.
 - **`platform-overview.mdc`**: Ecosystem structure and repo responsibilities.
 - **`supabase-mcp-connections-and-pooling.mdc`**: Detailed rules on Supabase connection pooling.
 - **`supabase-mcp-database.mdc`**: Guidelines for Supabase database operations.
