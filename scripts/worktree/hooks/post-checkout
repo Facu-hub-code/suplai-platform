@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# suplai-worktree-setup — post-checkout hook (instalado por install-hooks.sh)
+# Ejecuta setup de entorno solo en linked worktrees, no en el hub.
+set -euo pipefail
+
+# post-checkout args: ref prev-ref branch-flag
+[[ "${3:-0}" == "1" ]] || exit 0
+
+GIT_DIR="$(git rev-parse --git-dir 2>/dev/null | xargs -I{} sh -c 'cd "{}" 2>/dev/null && pwd -P')"
+GIT_COMMON="$(git rev-parse --git-common-dir 2>/dev/null | xargs -I{} sh -c 'cd "{}" 2>/dev/null && pwd -P')"
+[[ -n "$GIT_DIR" && -n "$GIT_COMMON" && "$GIT_DIR" != "$GIT_COMMON" ]] || exit 0
+
+SUPLAI_PLATFORM="@SUPLAI_PLATFORM_ROOT@"
+SETUP="${SUPLAI_PLATFORM}/scripts/worktree/setup-worktree.sh"
+
+[[ -x "$SETUP" ]] || exit 0
+
+bash "$SETUP" --if-needed "$(pwd)" >/tmp/suplai-worktree-setup.log 2>&1 || {
+  printf '[suplai-worktree-setup] falló — ver /tmp/suplai-worktree-setup.log\n' >&2
+}
+
+exit 0

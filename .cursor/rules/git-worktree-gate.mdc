@@ -1,0 +1,73 @@
+---
+description: Gate humano antes de crear worktrees y limpieza opcional tras PR
+alwaysApply: true
+---
+
+# Git — gate de worktrees (crear y limpiar)
+
+Complementa `.cursor/rules/git-sync-and-feature-branch.mdc` y `docs/dev/git-workflow.md`.
+
+Los worktrees **no son obligatorios para toda tarea**. Evitar acumular directorios paralelos sin decisión explícita.
+
+## 1. Antes de crear un worktree — preguntar SIEMPRE
+
+**MUST NOT** ejecutar `git worktree add` (ni Cloud Agent / clon nuevo solo para aislar) hasta que el usuario confirme el camino.
+
+Usar **`AskQuestion`** (o pregunta explícita en chat si no hay tool) con el contexto de la tarea. Opciones mínimas:
+
+| Opción | Cuándo | Acción del agente |
+|--------|--------|-------------------|
+| **Hotfix / cambio puntual** (Recommended si es 1–3 archivos, urgente) | Parche chico, una sola repo, sin otro agente en el hub | **No** crear worktree salvo que el hub esté ocupado por otro chat. Rama `fix/<slug>` en hub **solo con OK explícito**, o reutilizar worktree/rama existente del fix. |
+| **Revisión / lectura** | Explorar, auditar, responder preguntas | **No** crear worktree. Leer en hub o en worktree ya abierto; sin edits salvo pedido. |
+| **Feature nueva (paralelo)** | Feature multi-commit, otro agente activo en el hub, o varias features a la vez | **Sí** — crear **un** worktree + rama desde `origin/<troncal>`. Anunciar repo, path y rama antes del primer edit. |
+| **Reutilizar rama/worktree existente** (Recommended si ya hay uno para la misma feature) | Misma feature/epic que un worktree o PR abierto | **No** crear otro worktree. Continuar en el path/rama existente. |
+
+Antes de preguntar, el agente **SHOULD** verificar:
+
+```bash
+git -C <repo> worktree list
+git -C <repo> branch -vv | head -20   # ramas feature locales / PR abiertos
+```
+
+Si ya existe worktree o rama para la misma feature → proponer **reutilizar** como primera opción.
+
+### Excepciones (no preguntar de nuevo)
+
+- El usuario pidió explícitamente en el mismo turno: *"creá un worktree"*, *"aislá en worktree"*, o indicó path/rama concreto.
+- El agente **ya está** en un linked worktree (`GIT_DIR != GIT_COMMON_DIR`) para esa tarea — no crear uno anidado.
+
+## 2. Después de crear un PR — preguntar limpieza
+
+Tras **`gh pr create`** exitoso (o al entregar URL de PR existente recién pusheado), **MUST** preguntar al usuario:
+
+> ¿Querés que elimine el worktree de esta feature ahora?
+
+Opciones:
+
+| Respuesta | Acción |
+|-----------|--------|
+| **Sí, ahora** | `git worktree remove <path>` ( `--force` solo si dirty y el usuario lo confirma). Opcional: `git branch -d <rama>` si no seguirá editando. |
+| **No, sigo codeando** | Dejar worktree; recordar path para commits futuros al mismo PR. |
+| **Después del merge** | No borrar; al informar merge en GitHub, volver a ofrecer limpieza. |
+
+**MUST NOT** borrar worktrees ni ramas sin confirmación explícita del usuario (salvo que respondió "Sí, ahora" o "Después del merge" y ya mergeó).
+
+Al limpiar, **MUST NOT** tocar el checkout principal (hub) ni troncal.
+
+## 3. Anti-patrones
+
+| Evitar | Por qué |
+|--------|---------|
+| Worktree nuevo para la misma feature/epic | Duplica diffs, bases distintas, PRs que chocan |
+| Worktree para hotfix de 5 líneas | Fricción innecesaria |
+| Crear worktree sin preguntar | El usuario pierde control del disco y del flujo |
+| Borrar worktree post-PR sin preguntar | Puede cortar sesión de follow-up commits |
+
+## 4. Referencia rápida
+
+```
+¿Necesito worktree? → AskQuestion → (solo si feature paralela o hub ocupado)
+→ trabajar → PR → AskQuestion limpieza → (opcional) worktree remove
+```
+
+Skill de auditoría: `.cursor/skills/revisar-git-worktree/SKILL.md`

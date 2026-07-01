@@ -1,0 +1,99 @@
+{
+  "$schema": "./manifest.schema.json",
+  "version": 1,
+  "ports": {
+    "backend": 8000,
+    "agent": 8002,
+    "backoffice": 3000,
+    "field-app": 3001,
+    "tienda": 3002,
+    "sales-engine": 8001,
+    "sniffer": 8010
+  },
+  "repos": {
+    "platform": {
+      "dir": ".",
+      "default_branch": "main",
+      "stack": "platform",
+      "env_files": [".env"],
+      "env_template": ".env.example"
+    },
+    "backend": {
+      "dir": "../backend-supabase",
+      "default_branch": "main",
+      "stack": "python",
+      "dev_port": 8000,
+      "dev_command": "source venv/bin/activate && uvicorn main:app --reload --host 0.0.0.0 --port 8000",
+      "env_files": [".env"],
+      "env_template": "env.example",
+      "venv_dir": "venv",
+      "requirements": "requirements.txt"
+    },
+    "agent": {
+      "dir": "../agente-conversacional-multi_tenant",
+      "default_branch": "master",
+      "stack": "python",
+      "dev_port": 8002,
+      "dev_command": "source venv/bin/activate && uvicorn app.main:app --reload --host 0.0.0.0 --port 8002",
+      "env_files": [".env"],
+      "env_template": ".env.example",
+      "venv_dir": "venv",
+      "requirements": "requirements.txt"
+    },
+    "backoffice": {
+      "dir": "../product-management-app",
+      "default_branch": "main",
+      "stack": "next",
+      "dev_port": 3000,
+      "dev_command": "npm run dev",
+      "env_files": [".env.local"],
+      "env_template": "env.example",
+      "env_defaults": {
+        "NEXT_PUBLIC_BACKEND_URL_DEV": "http://127.0.0.1:8000"
+      }
+    },
+    "field-app": {
+      "dir": "../field-app",
+      "default_branch": "main",
+      "stack": "next",
+      "dev_port": 3001,
+      "dev_command": "npm run dev -- -p 3001",
+      "env_files": [".env.local"],
+      "env_template": "env.example",
+      "env_defaults": {
+        "NEXT_PUBLIC_BACKEND_URL_DEV": "http://127.0.0.1:8000"
+      }
+    },
+    "tienda": {
+      "dir": "../wholesale-catalog-app",
+      "default_branch": "main",
+      "stack": "next",
+      "dev_port": 3002,
+      "dev_command": "npm run dev -- -p 3002",
+      "env_files": [".env.local"],
+      "env_template": ".env.example"
+    },
+    "sales-engine": {
+      "dir": "../sales-engine",
+      "default_branch": "main",
+      "stack": "python",
+      "dev_port": 8001,
+      "dev_command": "source venv/bin/activate && uvicorn main:app --reload --host 0.0.0.0 --port 8001",
+      "env_files": [".env"],
+      "env_template": ".env.example",
+      "venv_dir": "venv",
+      "requirements": "requirements.txt"
+    },
+    "sniffer": {
+      "dir": "../sniffer-vendedores",
+      "default_branch": "main",
+      "stack": "python",
+      "dev_port": 8010,
+      "dev_command": "source venv/bin/activate && uvicorn app.main:app --reload --host 0.0.0.0 --port 8010",
+      "env_files": [".env"],
+      "env_template": ".env.example",
+      "venv_dir": "venv",
+      "requirements": "requirements.txt"
+    }
+  }
+}
