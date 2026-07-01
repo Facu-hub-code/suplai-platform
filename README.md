@@ -47,7 +47,7 @@ Credenciales: `.env` en cada repo de aplicación. Para n8n MCP (opcional), copia
 
 ## Supabase MCP
 
-El proyecto de BD principal es **`nxmeezcvjltlqfybbczt`**. Configurado en `.cursor/mcp.json` con:
+El proyecto de BD principal es **`cvlbietibaaehgeimxgw`** (Suplai-east). Configurado en `.cursor/mcp.json` con:
 
 - `project_ref` acotado al proyecto de Suplai
 - `read_only=true` por defecto (consultas seguras)

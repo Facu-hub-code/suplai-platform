@@ -11,17 +11,19 @@ Referencia humana: `docs/dev/git-workflow.md`. Infra GitHub: `docs/dev/github-br
 
 ## 0. Principio — un chat, una rama, un directorio
 
-El equipo trabaja **varias features en paralelo** con **agentes activos** en el mismo meta-workspace. Por eso:
+**Flujo por defecto:** hub del repo + **rama feature** (`feat/…` / `fix/…`). Los **worktrees son excepción** — solo hotfix con pedido explícito del usuario (ver `.cursor/rules/git-worktree-gate.mdc`).
 
-- **MUST NOT** usar `git checkout`, `git switch` ni `git pull` en el **checkout principal** del repo si puede afectar otro chat, agente o feature en curso — salvo que el usuario lo pida explícitamente.
-- **MUST** aislar cada tarea en su propio directorio cuando corresponda: **git worktree**, **Cloud Agent** de Cursor, clon aparte, o `move_agent_to_root` / `move_agent_to_cloned_root`. **Antes de crear un worktree nuevo**, seguir `.cursor/rules/git-worktree-gate.mdc` (preguntar si vale la pena: hotfix, revisión, feature paralela, o reutilizar existente).
-- **MUST** anunciar al inicio de la implementación (antes del primer edit): **repo**, **path absoluto del worktree**, **rama objetivo**.
+- **MUST** anunciar al inicio de la implementación (antes del primer edit): **repo**, **path absoluto** (hub o worktree si aplica), **rama objetivo**.
+- **MUST NOT** implementar en troncal (`main` / `master`).
+- **SHOULD** `git fetch origin` y merge de `origin/<troncal>` en la rama feature antes de editar o antes del PR.
+- **MUST NOT** crear worktree salvo pedido explícito del usuario (hotfix aislado). Para features normales: `git checkout -b <tipo>/<slug> origin/<troncal>` en el hub, o checkout de rama existente.
 
 Prioridad para elegir rama:
 
 1. Rama explícita del usuario o del spec/PR existente.
-2. Crear worktree + rama nueva desde `origin/<troncal>`.
-3. Rama actual del directorio **solo si** coincide con la tarea — nunca asumir que “la rama del checkout principal” es la correcta.
+2. Rama feature ya abierta en el hub para esa epic.
+3. Rama nueva en el hub desde `origin/<troncal>`.
+4. Worktree / Cloud Agent / clon aparte — **solo** si el usuario lo pidió.
 
 Convención de nombres: `<tipo>/<slug-corto>` — ej. `feat/fl-field-v2`, `fix/fl-pedidos-duplicados`. Opcional prefijo de owner (`fl/`, `toto/`) para evitar colisiones entre dos devs.
 
@@ -58,31 +60,26 @@ git symbolic-ref refs/remotes/origin/HEAD
 | `agent/` | `master` |
 | Resto (`platform/`, `backend/`, `backoffice/`, `tienda/`, `field-app/`, `sniffer/`, `sales-engine/`) | `main` |
 
-### Crear aislamiento (preferido)
-
-**MUST NOT** hacer `checkout -b` en el checkout principal si hay riesgo de interferir con otro agente.
-
-En su lugar, crear worktree (ver skill `using-git-worktrees` y gate `.cursor/rules/git-worktree-gate.mdc` — **preguntar primero**):
+### Crear rama feature (preferido — hub)
 
 ```bash
-# Verificar que .worktrees/ está en .gitignore del repo
+git fetch origin
+git checkout -b <tipo>/<slug> origin/<troncal>   # o: git checkout <rama-existente>
+git merge origin/<troncal>   # si la rama ya existía y estaba atrás
+```
+
+### Worktree (excepción — solo si el usuario lo pide)
+
+Ver gate `.cursor/rules/git-worktree-gate.mdc` y skill `using-git-worktrees`:
+
+```bash
 git check-ignore -q .worktrees || { echo "Agregar .worktrees/ a .gitignore primero"; exit 1; }
-
 git fetch origin
-git worktree add .worktrees/<rama> -b <tipo>/<slug> origin/<troncal>
-cd .worktrees/<rama>
+git worktree add .worktrees/<slug> -b <tipo>/<slug> origin/<troncal>
+cd .worktrees/<slug>
 ```
 
-Alternativas válidas: Cloud Agent (rama propia), clon hermano, `best-of-n-runner`.
-
-### Si el usuario autoriza checkout en el directorio actual
-
-Solo entonces:
-
-```bash
-git fetch origin
-git checkout -b <tipo>/<slug> origin/<troncal>
-```
+Alternativas válidas cuando el usuario pide aislamiento: Cloud Agent (rama propia), clon hermano, `best-of-n-runner`.
 
 **Prohibido** commitear en `main` / `master` salvo pedido explícito del usuario.
 
@@ -101,10 +98,10 @@ Orden de merge habitual: **backend/migraciones → API consumers** (backoffice, 
 
 Antes de **push final**, **crear PR** o **pedir merge**, la rama feature **debe incluir** los últimos commits de `origin/<troncal>`.
 
-Ejecutar en el **worktree de esa rama**, no en el checkout principal:
+Ejecutar en el **directorio donde está la rama feature** (hub o worktree):
 
 ```bash
-cd <worktree-de-la-feature>
+cd <path-de-la-rama-feature>
 git fetch origin
 git merge origin/<troncal>    # preferido; agent/ usa origin/master
 # git rebase origin/<troncal>   # solo si el usuario lo pide explícitamente
@@ -134,11 +131,9 @@ Si GitHub muestra **Update branch**, puede usarse; si falla, merge local en el w
 ## 3. Resumen del orden
 
 ```
-fetch → (worktree + rama feature) → editar → commit (si el usuario lo pide)
+fetch → rama feature en hub → editar → commit (si el usuario lo pide)
 → merge origin/<troncal> → push → PR → usuario mergea en GitHub
 ```
-
-**No** incluir `checkout` en el checkout principal compartido salvo autorización explícita.
 
 ## 4. Pull request obligatorio (todos los repos)
 
@@ -146,9 +141,9 @@ Aplica a **todos** los repos del ecosistema.
 
 Cuando el agente termina cambios (o el usuario pide subirlos):
 
-1. **Commitear** en la rama de feature del worktree (nunca en troncal). Commits solo cuando el usuario lo pide (user rule).
+1. **Commitear** en la rama feature (nunca en troncal). Commits solo cuando el usuario lo pide (user rule).
 2. **Actualizar la rama con la troncal** (§2.2) — no abrir PR estando *behind*.
-3. **Push** (`git push -u origin HEAD`) desde el worktree de esa rama.
+3. **Push** (`git push -u origin HEAD`) desde el path de esa rama.
 4. **Crear PR** hacia la troncal con `gh pr create`.
 5. **Entregar URL del PR** e indicar `mergeStateStatus` y checks.
 
@@ -156,17 +151,17 @@ Cuando el agente termina cambios (o el usuario pide subirlos):
 
 - `gh pr merge` o merge desde CLI.
 - Push directo a `main` / `master` (salvo pedido explícito).
-- `git checkout` / `git switch` en checkout principal compartido (salvo pedido explícito).
+- `git checkout` / `git switch` a **troncal** en medio de una feature sin avisar al usuario.
 
 Si ya existe un PR para la rama, **actualizarlo** (push a la misma rama) en lugar de duplicar.
 
 Flujo:
 
 ```
-worktree + rama feature → commit → merge troncal → push → PR → usuario aprueba y mergea
+rama feature en hub → commit → merge troncal → push → PR → usuario aprueba y mergea
 ```
 
-Tras merge: `git worktree remove <path>` cuando el worktree ya no se necesite — **solo tras confirmación del usuario** (ver `.cursor/rules/git-worktree-gate.mdc`; preguntar al crear el PR o al mergear).
+Si se usó worktree: `git worktree remove <path>` solo tras confirmación del usuario (`.cursor/rules/git-worktree-gate.mdc`).
 
 ## 5. Excepciones
 

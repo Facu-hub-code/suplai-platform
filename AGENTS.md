@@ -20,21 +20,21 @@ Cada carpeta anterior (y `platform/`) es un **repositorio git independiente**; c
 
 ## Git antes de modificar código
 
-El equipo trabaja **varias features en paralelo** con agentes activos. **No cambiar de rama** (`git checkout` / `git switch`) en el checkout principal de un repo si puede afectar otro chat — usar **git worktree**, Cloud Agent o clon aparte.
+**Flujo por defecto:** rama feature en el **hub** del repo (`backend/`, `backoffice/`, `agent/`, etc.). Los **worktrees solo** cuando el usuario pide hotfix aislado o explícitamente "creá worktree".
 
 Antes del **primer cambio de código** en un repo:
 
-1. **`git fetch origin`** en el directorio donde vas a editar (worktree aislado, no necesariamente el hub).
-2. **`git pull`** solo si el working tree está limpio y la rama tiene upstream.
-3. **Aislar la tarea**: worktree + rama feature desde `origin/main` (o `origin/master` en `agent/`). Anunciar repo, path y rama antes de editar.
+1. **`git fetch origin`** en el directorio donde vas a editar (hub en rama feature, salvo worktree pedido).
+2. **`git pull`** / merge de troncal si la rama feature está atrás.
+3. **Rama feature** desde `origin/main` (o `origin/master` en `agent/`): `git checkout -b feat/<slug>` o checkout de rama existente. Anunciar repo, path y rama antes de editar.
 4. **Nunca** implementar en troncal (`main` / `master`) salvo pedido explícito.
-5. Antes del PR: merge de troncal en el worktree de la feature, push, `gh pr create`; el **humano mergea** en GitHub.
+5. Antes del PR: merge de troncal, push, `gh pr create`; el **humano mergea** en GitHub.
 
 Features cross-repo: documentar tabla repo → rama → PR; mergear backend/API antes que consumers.
 
 Guía humana: `docs/dev/git-workflow.md`  
 Regla completa (Cursor): `.cursor/rules/git-sync-and-feature-branch.mdc`  
-Gate worktrees (preguntar antes/después): `.cursor/rules/git-worktree-gate.mdc`  
+Gate worktrees (solo hotfix explícito): `.cursor/rules/git-worktree-gate.mdc`  
 Skill worktrees: `.agents/skills/using-git-worktrees/SKILL.md`
 
 ## Multi-tenant
@@ -60,7 +60,7 @@ Skill worktrees: `.agents/skills/using-git-worktrees/SKILL.md`
 
 Antes de afirmar columnas, FKs o escribir SQL de esquema del stack principal:
 
-1. Usar MCP `supabase` con `project_ref=nxmeezcvjltlqfybbczt`.
+1. Usar MCP `supabase` con `project_ref=cvlbietibaaehgeimxgw`.
 2. `list_tables` con `verbose: true` en `public`, `core` y el tenant relevante.
 3. `execute_sql` solo lectura salvo cambios explícitos pedidos por el usuario.
 

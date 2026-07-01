@@ -51,7 +51,7 @@ x-schema-name: {schema}
 
 Respuesta: secciones `prompt_mode`, `base_editable`, `tenant_editable`, `full_prompt`.
 
-**Alternativa MCP Supabase** (`project_ref=nxmeezcvjltlqfybbczt`):
+**Alternativa MCP Supabase** (`project_ref=cvlbietibaaehgeimxgw`):
 
 ```sql
 SELECT schema_name, identidad, contexto, system_prompt,

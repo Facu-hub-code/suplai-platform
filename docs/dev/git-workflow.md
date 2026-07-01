@@ -3,15 +3,15 @@
 Guía para **dos devs**, **varias features en paralelo** y **agentes de IA** en el meta-workspace `suplai-platform/`.
 
 Regla Cursor (agentes): `.cursor/rules/git-sync-and-feature-branch.mdc`  
-Gate worktrees (preguntar antes/después): `.cursor/rules/git-worktree-gate.mdc`  
+Worktrees (solo hotfix explícito): `.cursor/rules/git-worktree-gate.mdc`  
 Protección GitHub: `docs/dev/github-branch-protection.md`
 
 ## Modelo mental
 
 ```
-Checkout principal (hub)     →  no cambiar de rama si hay agentes activos
-.worktrees/<rama>/           →  una feature / un chat / un agente
-Cloud Agent / clon aparte    →  misma regla: directorio aislado + rama propia
+Checkout principal (hub)     →  rama feature por defecto (feat/…, fix/…)
+.worktrees/<rama>/           →  solo si pedís hotfix aislado o "creá worktree"
+Cloud Agent / clon aparte    →  misma regla: rama propia; worktree no automático
 ```
 
 **Un chat = un repo path = una rama.**
@@ -20,42 +20,35 @@ Cloud Agent / clon aparte    →  misma regla: directorio aislado + rama propia
 
 ### 1. Arrancar una feature
 
-**Antes de crear un worktree**, el agente debe preguntar si conviene (hotfix puntual, solo lectura, feature paralela, o reutilizar uno existente). Regla: `.cursor/rules/git-worktree-gate.mdc`.
-
 ```bash
 cd backend/   # o el repo que corresponda
 git fetch origin
-
-# Verificar ignore (una vez por repo)
-grep -q '^\.worktrees/' .gitignore || echo '.worktrees/' >> .gitignore
-
-git worktree add .worktrees/feat/mi-feature -b feat/mi-feature origin/main
-cd .worktrees/feat/mi-feature
-```
-
-**Setup de entorno local** (deps, `.env`, puertos): ver [`worktree-local-dev.md`](./worktree-local-dev.md). Atajo:
-
-```bash
-# desde platform/
-bash scripts/worktree/add-worktree.sh backend feat/mi-feature
-# o, si el worktree ya existe:
-bash scripts/worktree/setup-worktree.sh path/al/worktree
+git checkout -b feat/mi-feature origin/main   # o checkout rama existente
+git merge origin/main   # si la rama ya existía
 ```
 
 En `agent/` usar `origin/master` como base.
 
-Abrir Cursor / chat apuntando al path del worktree (o Cloud Agent con rama nueva).
+**Worktree** — solo si lo pedís explícitamente (hotfix urgente con hub ocupado). Regla: `.cursor/rules/git-worktree-gate.mdc`.
+
+```bash
+git worktree add .worktrees/fix/mi-hotfix -b fix/mi-hotfix origin/main
+cd .worktrees/fix/mi-hotfix
+bash scripts/worktree/setup-worktree.sh   # desde platform/, si aplica
+```
+
+Abrir Cursor apuntando al path donde trabajás (hub o worktree).
 
 ### 2. Trabajar
 
 - Commits cuando tenga sentido (WIP ok; squash al merge si preferís historial limpio).
-- **No** `git checkout` en el directorio hub si otro agente usa ese repo.
+- **No** implementar en `main` / `master`.
 - Features cross-repo: anotar tabla repo → rama → PR en el spec o descripción del PR.
 
 ### 3. Antes del PR
 
 ```bash
-cd .worktrees/feat/mi-feature
+cd backend/   # hub en la rama feature, o path del worktree si usaste uno
 git fetch origin
 git merge origin/main    # o origin/master en agent/
 git push -u origin HEAD
@@ -72,11 +65,17 @@ gh pr view --json mergeable,mergeStateStatus
 ### 4. Merge y limpieza
 
 - Merge **solo desde GitHub** (el otro dev revisa o aprueba).
-- Tras merge:
+- Tras merge en hub:
 
 ```bash
-git worktree remove .worktrees/feat/mi-feature
+git checkout main && git pull origin main
 git branch -d feat/mi-feature   # si ya está mergeada
+```
+
+Si usaste worktree:
+
+```bash
+git worktree remove .worktrees/fix/mi-hotfix   # solo con OK explícito
 git fetch origin && git prune
 ```
 
@@ -87,7 +86,7 @@ git fetch origin && git prune
 | Nombre de rama | `feat/`, `fix/`, `chore/` + slug; opcional prefijo owner (`fl/`, `toto/`) |
 | Troncal | `main` (casi todos); **`master` en `agent/`** |
 | PR | Siempre hacia troncal; no push directo a main/master |
-| Paralelismo | Worktree o Cloud Agent — nunca mezclar features en un working tree |
+| Paralelismo | Rama feature en hub; worktree solo bajo pedido |
 | Cross-repo | Merge backend/API antes que front/consumers |
 
 ## `.gitignore` por repo
@@ -98,7 +97,7 @@ Cada repo del ecosistema **debe** incluir:
 .worktrees/
 ```
 
-Así los worktrees locales no se commitean por error. En `suplai-platform` ya está configurado.
+Así los worktrees locales no se commitean por error.
 
 ## Checklist pre-merge (repos privados sin branch protection)
 
@@ -127,9 +126,8 @@ git fetch origin && git rev-list --count HEAD..origin/main
 
 | Evitar | Por qué |
 |--------|---------|
-| Varios agentes en el mismo path sin worktree | Commits en rama equivocada, conflictos, pulls que pisan WIP |
-| Worktree nuevo sin preguntar / para la misma feature | Duplicación, diffs divergentes, PRs conflictivos |
-| `checkout -b` en hub con agentes corriendo | Cambia la rama bajo otro chat |
+| Worktree automático en cada feature | Stack en path equivocado; fricción innecesaria |
+| Varios agentes editando la misma rama sin coordinar | Commits mezclados, conflictos |
 | PR largo sin actualizar con main | Conflictos grandes al merge |
 | Mergear backend y front en desorden | Front desplegado contra API vieja |
 | Push a main “rápido” | Sin review; irreversible en producción |

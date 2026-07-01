@@ -11,7 +11,7 @@ Esta carpeta es tu **escritorio de trabajo** para cargar un distribuidor nuevo e
    Al terminar la sesión, **volvé a poner** `read_only=true` por seguridad.
 
    ```json
-   "url": "https://mcp.supabase.com/mcp?project_ref=nxmeezcvjltlqfybbczt"
+   "url": "https://mcp.supabase.com/mcp?project_ref=cvlbietibaaehgeimxgw"
    ```
 
 5. Decile al agente: **"Implementar {nombre del schema}"** (ej. `colormix`).
