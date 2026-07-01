@@ -34,6 +34,7 @@ Features cross-repo: documentar tabla repo → rama → PR; mergear backend/API 
 
 Guía humana: `docs/dev/git-workflow.md`  
 Regla completa (Cursor): `.cursor/rules/git-sync-and-feature-branch.mdc`  
+Gate worktrees (preguntar antes/después): `.cursor/rules/git-worktree-gate.mdc`  
 Skill worktrees: `.agents/skills/using-git-worktrees/SKILL.md`
 
 ## Multi-tenant

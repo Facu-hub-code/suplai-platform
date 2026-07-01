@@ -7,14 +7,14 @@ alwaysApply: true
 
 Antes de **modificar, crear o borrar archivos de código** en cualquier carpeta con repositorio git (`platform/`, `agent/`, `backend/`, `backoffice/`, `tienda/`, `field-app/`, `sniffer/`, `sales-engine/`), el agente **debe** completar este flujo en **ese** repo (cada carpeta tiene su propio `.git`).
 
-Referencia humana: `docs/dev/git-workflow.md`. Infra GitHub: `docs/dev/github-branch-protection.md`. Skill worktrees: `.agents/skills/using-git-worktrees/SKILL.md`.
+Referencia humana: `docs/dev/git-workflow.md`. Infra GitHub: `docs/dev/github-branch-protection.md`. Skill worktrees: `.agents/skills/using-git-worktrees/SKILL.md`. **Gate crear/limpiar worktrees:** `.cursor/rules/git-worktree-gate.mdc` (preguntar al usuario antes de `git worktree add` y después del PR).
 
 ## 0. Principio — un chat, una rama, un directorio
 
 El equipo trabaja **varias features en paralelo** con **agentes activos** en el mismo meta-workspace. Por eso:
 
 - **MUST NOT** usar `git checkout`, `git switch` ni `git pull` en el **checkout principal** del repo si puede afectar otro chat, agente o feature en curso — salvo que el usuario lo pida explícitamente.
-- **MUST** aislar cada tarea en su propio directorio: **git worktree**, **Cloud Agent** de Cursor, clon aparte, o `move_agent_to_root` / `move_agent_to_cloned_root`.
+- **MUST** aislar cada tarea en su propio directorio cuando corresponda: **git worktree**, **Cloud Agent** de Cursor, clon aparte, o `move_agent_to_root` / `move_agent_to_cloned_root`. **Antes de crear un worktree nuevo**, seguir `.cursor/rules/git-worktree-gate.mdc` (preguntar si vale la pena: hotfix, revisión, feature paralela, o reutilizar existente).
 - **MUST** anunciar al inicio de la implementación (antes del primer edit): **repo**, **path absoluto del worktree**, **rama objetivo**.
 
 Prioridad para elegir rama:
@@ -62,7 +62,7 @@ git symbolic-ref refs/remotes/origin/HEAD
 
 **MUST NOT** hacer `checkout -b` en el checkout principal si hay riesgo de interferir con otro agente.
 
-En su lugar, crear worktree (ver skill `using-git-worktrees`):
+En su lugar, crear worktree (ver skill `using-git-worktrees` y gate `.cursor/rules/git-worktree-gate.mdc` — **preguntar primero**):
 
 ```bash
 # Verificar que .worktrees/ está en .gitignore del repo
@@ -166,7 +166,7 @@ Flujo:
 worktree + rama feature → commit → merge troncal → push → PR → usuario aprueba y mergea
 ```
 
-Tras merge: `git worktree remove <path>` cuando el worktree ya no se necesite.
+Tras merge: `git worktree remove <path>` cuando el worktree ya no se necesite — **solo tras confirmación del usuario** (ver `.cursor/rules/git-worktree-gate.mdc`; preguntar al crear el PR o al mergear).
 
 ## 5. Excepciones
 

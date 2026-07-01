@@ -3,6 +3,7 @@
 Guía para **dos devs**, **varias features en paralelo** y **agentes de IA** en el meta-workspace `suplai-platform/`.
 
 Regla Cursor (agentes): `.cursor/rules/git-sync-and-feature-branch.mdc`  
+Gate worktrees (preguntar antes/después): `.cursor/rules/git-worktree-gate.mdc`  
 Protección GitHub: `docs/dev/github-branch-protection.md`
 
 ## Modelo mental
@@ -19,6 +20,8 @@ Cloud Agent / clon aparte    →  misma regla: directorio aislado + rama propia
 
 ### 1. Arrancar una feature
 
+**Antes de crear un worktree**, el agente debe preguntar si conviene (hotfix puntual, solo lectura, feature paralela, o reutilizar uno existente). Regla: `.cursor/rules/git-worktree-gate.mdc`.
+
 ```bash
 cd backend/   # o el repo que corresponda
 git fetch origin
@@ -28,6 +31,15 @@ grep -q '^\.worktrees/' .gitignore || echo '.worktrees/' >> .gitignore
 
 git worktree add .worktrees/feat/mi-feature -b feat/mi-feature origin/main
 cd .worktrees/feat/mi-feature
+```
+
+**Setup de entorno local** (deps, `.env`, puertos): ver [`worktree-local-dev.md`](./worktree-local-dev.md). Atajo:
+
+```bash
+# desde platform/
+bash scripts/worktree/add-worktree.sh backend feat/mi-feature
+# o, si el worktree ya existe:
+bash scripts/worktree/setup-worktree.sh path/al/worktree
 ```
 
 En `agent/` usar `origin/master` como base.
@@ -116,6 +128,7 @@ git fetch origin && git rev-list --count HEAD..origin/main
 | Evitar | Por qué |
 |--------|---------|
 | Varios agentes en el mismo path sin worktree | Commits en rama equivocada, conflictos, pulls que pisan WIP |
+| Worktree nuevo sin preguntar / para la misma feature | Duplicación, diffs divergentes, PRs conflictivos |
 | `checkout -b` en hub con agentes corriendo | Cambia la rama bajo otro chat |
 | PR largo sin actualizar con main | Conflictos grandes al merge |
 | Mergear backend y front en desorden | Front desplegado contra API vieja |
