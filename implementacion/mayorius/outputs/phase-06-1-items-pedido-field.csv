@@ -1,0 +1,1309 @@
+pedido_ref,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,cliente_phone
+PF-000001,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-06-05),true,5493587905250
+PF-000001,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-06-05),true,5493587905250
+PF-000001,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-06-05),true,5493587905250
+PF-000001,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,2,20235.23,1,Pedido histórico field mock (2025-06-05),true,5493587905250
+PF-000002,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-06-18),true,5493587905250
+PF-000002,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-06-18),true,5493587905250
+PF-000003,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-07-17),true,5493587905250
+PF-000003,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-07-17),true,5493587905250
+PF-000003,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,1,8247.90,1,Pedido histórico field mock (2025-07-17),true,5493587905250
+PF-000004,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-08-03),true,5493587905250
+PF-000004,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-08-03),true,5493587905250
+PF-000004,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,2,1900.00,1,Pedido histórico field mock (2025-08-03),true,5493587905250
+PF-000005,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-08-29),true,5493587905250
+PF-000005,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-08-29),true,5493587905250
+PF-000006,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-09-14),true,5493587905250
+PF-000006,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-09-14),true,5493587905250
+PF-000007,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-10-08),true,5493587905250
+PF-000007,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-10-08),true,5493587905250
+PF-000007,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido histórico field mock (2025-10-08),true,5493587905250
+PF-000008,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-06-01),true,5493582641213
+PF-000008,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-06-01),true,5493582641213
+PF-000008,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-06-01),true,5493582641213
+PF-000008,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,1,8247.90,1,Pedido histórico field mock (2025-06-01),true,5493582641213
+PF-000009,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-06-27),true,5493582641213
+PF-000009,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-06-27),true,5493582641213
+PF-000009,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,2,20235.23,1,Pedido histórico field mock (2025-06-27),true,5493582641213
+PF-000010,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-07-17),true,5493582641213
+PF-000010,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-07-17),true,5493582641213
+PF-000010,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,2,3632.42,1,Pedido histórico field mock (2025-07-17),true,5493582641213
+PF-000011,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-08-06),true,5493582641213
+PF-000011,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-08-06),true,5493582641213
+PF-000011,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-08-06),true,5493582641213
+PF-000012,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-08-23),true,5493582641213
+PF-000012,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-08-23),true,5493582641213
+PF-000013,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-09-18),true,5493582641213
+PF-000013,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-09-18),true,5493582641213
+PF-000013,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-09-18),true,5493582641213
+PF-000013,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,1,15500.00,1,Pedido histórico field mock (2025-09-18),true,5493582641213
+PF-000014,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-10-09),true,5493582641213
+PF-000014,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-10-09),true,5493582641213
+PF-000014,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,2,15500.00,1,Pedido histórico field mock (2025-10-09),true,5493582641213
+PF-000015,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-06-01),true,5492991227644
+PF-000015,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-06-01),true,5492991227644
+PF-000015,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,2,5812.54,1,Pedido histórico field mock (2025-06-01),true,5492991227644
+PF-000016,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-06-24),true,5492991227644
+PF-000016,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-06-24),true,5492991227644
+PF-000016,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-06-24),true,5492991227644
+PF-000017,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-07-13),true,5492991227644
+PF-000017,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-07-13),true,5492991227644
+PF-000018,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-08-07),true,5492991227644
+PF-000018,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-08-07),true,5492991227644
+PF-000019,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-08-25),true,5492991227644
+PF-000019,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-08-25),true,5492991227644
+PF-000020,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-09-19),true,5492991227644
+PF-000020,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-09-19),true,5492991227644
+PF-000020,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido histórico field mock (2025-09-19),true,5492991227644
+PF-000020,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,2,6918.21,1,Pedido histórico field mock (2025-09-19),true,5492991227644
+PF-000021,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-10-02),true,5492991227644
+PF-000021,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-10-02),true,5492991227644
+PF-000022,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-06-03),true,5493418277249
+PF-000022,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-06-03),true,5493418277249
+PF-000022,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,2,3632.42,1,Pedido histórico field mock (2025-06-03),true,5493418277249
+PF-000022,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,3,4505.14,1,Pedido histórico field mock (2025-06-03),true,5493418277249
+PF-000023,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-06-23),true,5493418277249
+PF-000023,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-06-23),true,5493418277249
+PF-000023,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,4,8247.90,1,Pedido histórico field mock (2025-06-23),true,5493418277249
+PF-000024,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-07-09),true,5493418277249
+PF-000024,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-07-09),true,5493418277249
+PF-000024,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,4,20235.23,1,Pedido histórico field mock (2025-07-09),true,5493418277249
+PF-000024,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-07-09),true,5493418277249
+PF-000025,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-08-01),true,5493418277249
+PF-000025,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-08-01),true,5493418277249
+PF-000025,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,4,5812.54,1,Pedido histórico field mock (2025-08-01),true,5493418277249
+PF-000025,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,3,3632.42,1,Pedido histórico field mock (2025-08-01),true,5493418277249
+PF-000026,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-08-26),true,5493418277249
+PF-000026,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-08-26),true,5493418277249
+PF-000026,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,1,20235.23,1,Pedido histórico field mock (2025-08-26),true,5493418277249
+PF-000026,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,4,6918.21,1,Pedido histórico field mock (2025-08-26),true,5493418277249
+PF-000027,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-09-13),true,5493418277249
+PF-000027,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-09-13),true,5493418277249
+PF-000028,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-10-08),true,5493418277249
+PF-000028,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-10-08),true,5493418277249
+PF-000028,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,2,3632.42,1,Pedido histórico field mock (2025-10-08),true,5493418277249
+PF-000028,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,3,4505.14,1,Pedido histórico field mock (2025-10-08),true,5493418277249
+PF-000029,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-06-05),true,5493587747641
+PF-000029,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-06-05),true,5493587747641
+PF-000029,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,1,4505.14,1,Pedido histórico field mock (2025-06-05),true,5493587747641
+PF-000030,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-06-27),true,5493587747641
+PF-000030,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-06-27),true,5493587747641
+PF-000031,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-07-11),true,5493587747641
+PF-000031,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-07-11),true,5493587747641
+PF-000031,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,3,8247.90,1,Pedido histórico field mock (2025-07-11),true,5493587747641
+PF-000032,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-08-01),true,5493587747641
+PF-000032,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-08-01),true,5493587747641
+PF-000032,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-08-01),true,5493587747641
+PF-000033,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-08-29),true,5493587747641
+PF-000033,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-08-29),true,5493587747641
+PF-000033,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,3,8247.90,1,Pedido histórico field mock (2025-08-29),true,5493587747641
+PF-000033,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-08-29),true,5493587747641
+PF-000034,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-09-10),true,5493587747641
+PF-000034,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-09-10),true,5493587747641
+PF-000034,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,4,8247.90,1,Pedido histórico field mock (2025-09-10),true,5493587747641
+PF-000034,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,2,3632.42,1,Pedido histórico field mock (2025-09-10),true,5493587747641
+PF-000035,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-10-10),true,5493587747641
+PF-000035,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-10-10),true,5493587747641
+PF-000036,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-06-01),true,5492614053074
+PF-000036,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-06-01),true,5492614053074
+PF-000037,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-06-20),true,5492614053074
+PF-000037,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-06-20),true,5492614053074
+PF-000037,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,4,8247.90,1,Pedido histórico field mock (2025-06-20),true,5492614053074
+PF-000038,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-07-09),true,5492614053074
+PF-000038,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-07-09),true,5492614053074
+PF-000038,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-07-09),true,5492614053074
+PF-000038,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-07-09),true,5492614053074
+PF-000039,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-08-07),true,5492614053074
+PF-000039,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-08-07),true,5492614053074
+PF-000039,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,1,6918.21,1,Pedido histórico field mock (2025-08-07),true,5492614053074
+PF-000039,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-08-07),true,5492614053074
+PF-000040,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-08-29),true,5492614053074
+PF-000040,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-08-29),true,5492614053074
+PF-000041,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-09-14),true,5492614053074
+PF-000041,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-09-14),true,5492614053074
+PF-000041,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,4,8247.90,1,Pedido histórico field mock (2025-09-14),true,5492614053074
+PF-000042,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-10-02),true,5492614053074
+PF-000042,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-10-02),true,5492614053074
+PF-000042,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,2,8247.90,1,Pedido histórico field mock (2025-10-02),true,5492614053074
+PF-000042,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-10-02),true,5492614053074
+PF-000043,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-06-02),true,5493514079279
+PF-000043,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-06-02),true,5493514079279
+PF-000043,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,2,1900.00,1,Pedido histórico field mock (2025-06-02),true,5493514079279
+PF-000044,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-06-24),true,5493514079279
+PF-000044,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-06-24),true,5493514079279
+PF-000044,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,2,20235.23,1,Pedido histórico field mock (2025-06-24),true,5493514079279
+PF-000044,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,2,5812.54,1,Pedido histórico field mock (2025-06-24),true,5493514079279
+PF-000045,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-07-10),true,5493514079279
+PF-000045,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-07-10),true,5493514079279
+PF-000046,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-08-03),true,5493514079279
+PF-000046,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-08-03),true,5493514079279
+PF-000046,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-08-03),true,5493514079279
+PF-000046,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,2,1900.00,1,Pedido histórico field mock (2025-08-03),true,5493514079279
+PF-000047,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-08-20),true,5493514079279
+PF-000047,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-08-20),true,5493514079279
+PF-000047,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-08-20),true,5493514079279
+PF-000047,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,4,3632.42,1,Pedido histórico field mock (2025-08-20),true,5493514079279
+PF-000048,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-09-13),true,5493514079279
+PF-000048,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-09-13),true,5493514079279
+PF-000049,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-10-06),true,5493514079279
+PF-000049,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-10-06),true,5493514079279
+PF-000049,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,1,5812.54,1,Pedido histórico field mock (2025-10-06),true,5493514079279
+PF-000049,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-10-06),true,5493514079279
+PF-000050,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-06-02),true,5493876914178
+PF-000050,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-06-02),true,5493876914178
+PF-000050,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-06-02),true,5493876914178
+PF-000051,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-06-27),true,5493876914178
+PF-000051,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-06-27),true,5493876914178
+PF-000051,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-06-27),true,5493876914178
+PF-000052,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-07-10),true,5493876914178
+PF-000052,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-07-10),true,5493876914178
+PF-000053,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-08-01),true,5493876914178
+PF-000053,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-08-01),true,5493876914178
+PF-000053,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,3,4505.14,1,Pedido histórico field mock (2025-08-01),true,5493876914178
+PF-000054,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-08-23),true,5493876914178
+PF-000054,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-08-23),true,5493876914178
+PF-000054,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido histórico field mock (2025-08-23),true,5493876914178
+PF-000054,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,2,6918.21,1,Pedido histórico field mock (2025-08-23),true,5493876914178
+PF-000055,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-09-09),true,5493876914178
+PF-000055,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-09-09),true,5493876914178
+PF-000055,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,2,15500.00,1,Pedido histórico field mock (2025-09-09),true,5493876914178
+PF-000056,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-09-30),true,5493876914178
+PF-000056,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-09-30),true,5493876914178
+PF-000056,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,4,15500.00,1,Pedido histórico field mock (2025-09-30),true,5493876914178
+PF-000056,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,1,3632.42,1,Pedido histórico field mock (2025-09-30),true,5493876914178
+PF-000057,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-06-01),true,5492617175545
+PF-000057,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-06-01),true,5492617175545
+PF-000057,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,1,8247.90,1,Pedido histórico field mock (2025-06-01),true,5492617175545
+PF-000058,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-06-19),true,5492617175545
+PF-000058,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-06-19),true,5492617175545
+PF-000058,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido histórico field mock (2025-06-19),true,5492617175545
+PF-000059,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-07-09),true,5492617175545
+PF-000059,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-07-09),true,5492617175545
+PF-000059,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",4,16500.00,1,Pedido histórico field mock (2025-07-09),true,5492617175545
+PF-000060,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-08-02),true,5492617175545
+PF-000060,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-08-02),true,5492617175545
+PF-000061,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-08-25),true,5492617175545
+PF-000061,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-08-25),true,5492617175545
+PF-000061,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-08-25),true,5492617175545
+PF-000062,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-09-19),true,5492617175545
+PF-000062,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-09-19),true,5492617175545
+PF-000062,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-09-19),true,5492617175545
+PF-000062,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-09-19),true,5492617175545
+PF-000063,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-10-09),true,5492617175545
+PF-000063,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-10-09),true,5492617175545
+PF-000063,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,2,8247.90,1,Pedido histórico field mock (2025-10-09),true,5492617175545
+PF-000064,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-06-01),true,5493818437953
+PF-000064,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-06-01),true,5493818437953
+PF-000064,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-06-01),true,5493818437953
+PF-000064,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido histórico field mock (2025-06-01),true,5493818437953
+PF-000065,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-06-24),true,5493818437953
+PF-000065,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-06-24),true,5493818437953
+PF-000066,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-07-10),true,5493818437953
+PF-000066,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-07-10),true,5493818437953
+PF-000066,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,1,8247.90,1,Pedido histórico field mock (2025-07-10),true,5493818437953
+PF-000066,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-07-10),true,5493818437953
+PF-000067,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-08-04),true,5493818437953
+PF-000067,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-08-04),true,5493818437953
+PF-000068,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-08-21),true,5493818437953
+PF-000068,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-08-21),true,5493818437953
+PF-000068,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",4,16500.00,1,Pedido histórico field mock (2025-08-21),true,5493818437953
+PF-000069,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-09-09),true,5493818437953
+PF-000069,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-09-09),true,5493818437953
+PF-000069,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,2,15500.00,1,Pedido histórico field mock (2025-09-09),true,5493818437953
+PF-000069,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,2,5812.54,1,Pedido histórico field mock (2025-09-09),true,5493818437953
+PF-000070,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-10-01),true,5493818437953
+PF-000070,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-10-01),true,5493818437953
+PF-000071,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-06-01),true,5493582132179
+PF-000071,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-06-01),true,5493582132179
+PF-000071,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,4,3632.42,1,Pedido histórico field mock (2025-06-01),true,5493582132179
+PF-000071,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,2,1900.00,1,Pedido histórico field mock (2025-06-01),true,5493582132179
+PF-000072,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-07-10),true,5493582132179
+PF-000072,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-07-10),true,5493582132179
+PF-000072,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,1,20235.23,1,Pedido histórico field mock (2025-07-10),true,5493582132179
+PF-000072,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,4,8247.90,1,Pedido histórico field mock (2025-07-10),true,5493582132179
+PF-000073,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-08-20),true,5493582132179
+PF-000073,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-08-20),true,5493582132179
+PF-000073,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido histórico field mock (2025-08-20),true,5493582132179
+PF-000073,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,2,3632.42,1,Pedido histórico field mock (2025-08-20),true,5493582132179
+PF-000074,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-09-25),true,5493582132179
+PF-000074,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-09-25),true,5493582132179
+PF-000074,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-09-25),true,5493582132179
+PF-000075,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-11-05),true,5493582132179
+PF-000075,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-11-05),true,5493582132179
+PF-000075,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,2,3632.42,1,Pedido histórico field mock (2025-11-05),true,5493582132179
+PF-000075,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,3,15500.00,1,Pedido histórico field mock (2025-11-05),true,5493582132179
+PF-000076,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-12-10),true,5493582132179
+PF-000076,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-12-10),true,5493582132179
+PF-000076,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-12-10),true,5493582132179
+PF-000077,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2026-01-14),true,5493582132179
+PF-000077,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2026-01-14),true,5493582132179
+PF-000077,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,2,1900.00,1,Pedido histórico field mock (2026-01-14),true,5493582132179
+PF-000078,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido reciente field mock (2026-04-14),true,5493582132179
+PF-000078,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-04-14),true,5493582132179
+PF-000079,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-04-21),true,5493582132179
+PF-000079,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-04-21),true,5493582132179
+PF-000080,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido reciente field mock (2026-04-23),true,5493582132179
+PF-000080,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-04-23),true,5493582132179
+PF-000081,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-06-04),true,5493872845902
+PF-000081,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-06-04),true,5493872845902
+PF-000081,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,1,4505.14,1,Pedido histórico field mock (2025-06-04),true,5493872845902
+PF-000082,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-07-07),true,5493872845902
+PF-000082,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-07-07),true,5493872845902
+PF-000082,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-07-07),true,5493872845902
+PF-000083,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-08-20),true,5493872845902
+PF-000083,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-08-20),true,5493872845902
+PF-000084,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-09-22),true,5493872845902
+PF-000084,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-09-22),true,5493872845902
+PF-000084,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-09-22),true,5493872845902
+PF-000085,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-10-26),true,5493872845902
+PF-000085,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-10-26),true,5493872845902
+PF-000085,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,1,3632.42,1,Pedido histórico field mock (2025-10-26),true,5493872845902
+PF-000086,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-12-06),true,5493872845902
+PF-000086,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-12-06),true,5493872845902
+PF-000086,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-12-06),true,5493872845902
+PF-000087,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2026-01-11),true,5493872845902
+PF-000087,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2026-01-11),true,5493872845902
+PF-000087,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,4,1900.00,1,Pedido histórico field mock (2026-01-11),true,5493872845902
+PF-000088,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-04-09),true,5493872845902
+PF-000088,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-04-09),true,5493872845902
+PF-000089,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido reciente field mock (2026-04-26),true,5493872845902
+PF-000089,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-04-26),true,5493872845902
+PF-000090,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-05-13),true,5493872845902
+PF-000090,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-05-13),true,5493872845902
+PF-000091,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-06-03),true,5492997670210
+PF-000091,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-06-03),true,5492997670210
+PF-000091,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,1,6918.21,1,Pedido histórico field mock (2025-06-03),true,5492997670210
+PF-000091,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-06-03),true,5492997670210
+PF-000092,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-07-12),true,5492997670210
+PF-000092,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-07-12),true,5492997670210
+PF-000093,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-08-18),true,5492997670210
+PF-000093,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-08-18),true,5492997670210
+PF-000093,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-08-18),true,5492997670210
+PF-000093,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,3,8247.90,1,Pedido histórico field mock (2025-08-18),true,5492997670210
+PF-000094,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-09-20),true,5492997670210
+PF-000094,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-09-20),true,5492997670210
+PF-000094,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",2,16500.00,1,Pedido histórico field mock (2025-09-20),true,5492997670210
+PF-000095,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-11-04),true,5492997670210
+PF-000095,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-11-04),true,5492997670210
+PF-000095,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,2,3632.42,1,Pedido histórico field mock (2025-11-04),true,5492997670210
+PF-000096,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-12-04),true,5492997670210
+PF-000096,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-12-04),true,5492997670210
+PF-000096,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,1,15500.00,1,Pedido histórico field mock (2025-12-04),true,5492997670210
+PF-000097,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2026-01-15),true,5492997670210
+PF-000097,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2026-01-15),true,5492997670210
+PF-000098,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-04-03),true,5492997670210
+PF-000098,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-04-03),true,5492997670210
+PF-000099,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-04-29),true,5492997670210
+PF-000099,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido reciente field mock (2026-04-29),true,5492997670210
+PF-000100,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-05-01),true,5492997670210
+PF-000100,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido reciente field mock (2026-05-01),true,5492997670210
+PF-000101,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-06-01),true,5493811657614
+PF-000101,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-06-01),true,5493811657614
+PF-000101,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,3,3632.42,1,Pedido histórico field mock (2025-06-01),true,5493811657614
+PF-000102,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-07-04),true,5493811657614
+PF-000102,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-07-04),true,5493811657614
+PF-000102,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,3,6918.21,1,Pedido histórico field mock (2025-07-04),true,5493811657614
+PF-000103,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-08-18),true,5493811657614
+PF-000103,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-08-18),true,5493811657614
+PF-000103,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,4,8247.90,1,Pedido histórico field mock (2025-08-18),true,5493811657614
+PF-000104,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-09-21),true,5493811657614
+PF-000104,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-09-21),true,5493811657614
+PF-000105,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-11-02),true,5493811657614
+PF-000105,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-11-02),true,5493811657614
+PF-000105,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,3,5812.54,1,Pedido histórico field mock (2025-11-02),true,5493811657614
+PF-000105,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,2,1900.00,1,Pedido histórico field mock (2025-11-02),true,5493811657614
+PF-000106,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-12-05),true,5493811657614
+PF-000106,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-12-05),true,5493811657614
+PF-000106,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,4,15500.00,1,Pedido histórico field mock (2025-12-05),true,5493811657614
+PF-000107,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2026-01-13),true,5493811657614
+PF-000107,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2026-01-13),true,5493811657614
+PF-000107,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2026-01-13),true,5493811657614
+PF-000108,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-04-01),true,5493811657614
+PF-000108,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-04-01),true,5493811657614
+PF-000109,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido reciente field mock (2026-04-13),true,5493811657614
+PF-000109,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-04-13),true,5493811657614
+PF-000110,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-05-02),true,5493811657614
+PF-000110,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-05-02),true,5493811657614
+PF-000111,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-06-01),true,5492994145193
+PF-000111,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-06-01),true,5492994145193
+PF-000111,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,3,4505.14,1,Pedido histórico field mock (2025-06-01),true,5492994145193
+PF-000111,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-06-01),true,5492994145193
+PF-000112,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-07-04),true,5492994145193
+PF-000112,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-07-04),true,5492994145193
+PF-000113,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-08-13),true,5492994145193
+PF-000113,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-08-13),true,5492994145193
+PF-000114,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-09-22),true,5492994145193
+PF-000114,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-09-22),true,5492994145193
+PF-000114,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,1,15500.00,1,Pedido histórico field mock (2025-09-22),true,5492994145193
+PF-000114,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",1,16500.00,1,Pedido histórico field mock (2025-09-22),true,5492994145193
+PF-000115,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-10-27),true,5492994145193
+PF-000115,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-10-27),true,5492994145193
+PF-000115,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido histórico field mock (2025-10-27),true,5492994145193
+PF-000116,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-12-06),true,5492994145193
+PF-000116,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-12-06),true,5492994145193
+PF-000116,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-12-06),true,5492994145193
+PF-000117,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2026-01-13),true,5492994145193
+PF-000117,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2026-01-13),true,5492994145193
+PF-000117,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,4,8247.90,1,Pedido histórico field mock (2026-01-13),true,5492994145193
+PF-000117,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,3,6918.21,1,Pedido histórico field mock (2026-01-13),true,5492994145193
+PF-000118,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-04-07),true,5492994145193
+PF-000118,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-04-07),true,5492994145193
+PF-000119,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-04-12),true,5492994145193
+PF-000119,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-04-12),true,5492994145193
+PF-000120,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido reciente field mock (2026-05-04),true,5492994145193
+PF-000120,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-05-04),true,5492994145193
+PF-000121,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-06-05),true,5493515971311
+PF-000121,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-06-05),true,5493515971311
+PF-000121,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-06-05),true,5493515971311
+PF-000122,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-07-13),true,5493515971311
+PF-000122,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-07-13),true,5493515971311
+PF-000122,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,4,3632.42,1,Pedido histórico field mock (2025-07-13),true,5493515971311
+PF-000122,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,1,8247.90,1,Pedido histórico field mock (2025-07-13),true,5493515971311
+PF-000123,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-08-11),true,5493515971311
+PF-000123,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-08-11),true,5493515971311
+PF-000124,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-09-20),true,5493515971311
+PF-000124,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-09-20),true,5493515971311
+PF-000124,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,1,4505.14,1,Pedido histórico field mock (2025-09-20),true,5493515971311
+PF-000125,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-11-02),true,5493515971311
+PF-000125,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-11-02),true,5493515971311
+PF-000126,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-12-13),true,5493515971311
+PF-000126,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-12-13),true,5493515971311
+PF-000127,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2026-01-12),true,5493515971311
+PF-000127,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2026-01-12),true,5493515971311
+PF-000127,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido histórico field mock (2026-01-12),true,5493515971311
+PF-000128,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-04-20),true,5493515971311
+PF-000128,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido reciente field mock (2026-04-20),true,5493515971311
+PF-000129,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-04-24),true,5493515971311
+PF-000129,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-04-24),true,5493515971311
+PF-000130,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-05-07),true,5493515971311
+PF-000130,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-05-07),true,5493515971311
+PF-000131,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-06-02),true,5492994228106
+PF-000131,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-06-02),true,5492994228106
+PF-000131,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-06-02),true,5492994228106
+PF-000132,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-07-08),true,5492994228106
+PF-000132,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-07-08),true,5492994228106
+PF-000132,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-07-08),true,5492994228106
+PF-000132,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,4,8247.90,1,Pedido histórico field mock (2025-07-08),true,5492994228106
+PF-000133,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-08-19),true,5492994228106
+PF-000133,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-08-19),true,5492994228106
+PF-000133,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido histórico field mock (2025-08-19),true,5492994228106
+PF-000133,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,2,5812.54,1,Pedido histórico field mock (2025-08-19),true,5492994228106
+PF-000134,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-09-18),true,5492994228106
+PF-000134,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-09-18),true,5492994228106
+PF-000135,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-11-03),true,5492994228106
+PF-000135,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-11-03),true,5492994228106
+PF-000135,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-11-03),true,5492994228106
+PF-000136,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-12-07),true,5492994228106
+PF-000136,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-12-07),true,5492994228106
+PF-000136,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-12-07),true,5492994228106
+PF-000136,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,4,20235.23,1,Pedido histórico field mock (2025-12-07),true,5492994228106
+PF-000137,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2026-01-15),true,5492994228106
+PF-000137,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2026-01-15),true,5492994228106
+PF-000138,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-04-23),true,5492994228106
+PF-000138,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-04-23),true,5492994228106
+PF-000139,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido reciente field mock (2026-05-13),true,5492994228106
+PF-000139,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-05-13),true,5492994228106
+PF-000140,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-05-18),true,5492994228106
+PF-000140,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido reciente field mock (2026-05-18),true,5492994228106
+PF-000141,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-06-01),true,5492998718887
+PF-000141,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-06-01),true,5492998718887
+PF-000141,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,3,5812.54,1,Pedido histórico field mock (2025-06-01),true,5492998718887
+PF-000141,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",4,16500.00,1,Pedido histórico field mock (2025-06-01),true,5492998718887
+PF-000142,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-07-14),true,5492998718887
+PF-000142,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-07-14),true,5492998718887
+PF-000142,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-07-14),true,5492998718887
+PF-000142,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-07-14),true,5492998718887
+PF-000143,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-08-20),true,5492998718887
+PF-000143,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-08-20),true,5492998718887
+PF-000144,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-09-18),true,5492998718887
+PF-000144,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-09-18),true,5492998718887
+PF-000144,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,2,8247.90,1,Pedido histórico field mock (2025-09-18),true,5492998718887
+PF-000144,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,3,4505.14,1,Pedido histórico field mock (2025-09-18),true,5492998718887
+PF-000145,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-10-31),true,5492998718887
+PF-000145,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-10-31),true,5492998718887
+PF-000145,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,3,5812.54,1,Pedido histórico field mock (2025-10-31),true,5492998718887
+PF-000146,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-12-07),true,5492998718887
+PF-000146,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-12-07),true,5492998718887
+PF-000146,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido histórico field mock (2025-12-07),true,5492998718887
+PF-000146,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-12-07),true,5492998718887
+PF-000147,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2026-01-12),true,5492998718887
+PF-000147,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2026-01-12),true,5492998718887
+PF-000147,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,3,15500.00,1,Pedido histórico field mock (2026-01-12),true,5492998718887
+PF-000147,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,1,20235.23,1,Pedido histórico field mock (2026-01-12),true,5492998718887
+PF-000148,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-04-13),true,5492998718887
+PF-000148,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-04-13),true,5492998718887
+PF-000149,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-04-30),true,5492998718887
+PF-000149,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-04-30),true,5492998718887
+PF-000150,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-05-12),true,5492998718887
+PF-000150,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-05-12),true,5492998718887
+PF-000151,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-06-06),true,5493814729528
+PF-000151,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-06-06),true,5493814729528
+PF-000151,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-06-06),true,5493814729528
+PF-000151,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-06-06),true,5493814729528
+PF-000152,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-07-14),true,5493814729528
+PF-000152,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-07-14),true,5493814729528
+PF-000152,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-07-14),true,5493814729528
+PF-000153,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-08-11),true,5493814729528
+PF-000153,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-08-11),true,5493814729528
+PF-000154,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-09-23),true,5493814729528
+PF-000154,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-09-23),true,5493814729528
+PF-000154,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-09-23),true,5493814729528
+PF-000155,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-10-26),true,5493814729528
+PF-000155,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-10-26),true,5493814729528
+PF-000155,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,3,8247.90,1,Pedido histórico field mock (2025-10-26),true,5493814729528
+PF-000156,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-12-06),true,5493814729528
+PF-000156,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-12-06),true,5493814729528
+PF-000156,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-12-06),true,5493814729528
+PF-000157,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2026-01-20),true,5493814729528
+PF-000157,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2026-01-20),true,5493814729528
+PF-000157,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,4,8247.90,1,Pedido histórico field mock (2026-01-20),true,5493814729528
+PF-000157,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,2,8247.90,1,Pedido histórico field mock (2026-01-20),true,5493814729528
+PF-000158,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-04-23),true,5493814729528
+PF-000158,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-04-23),true,5493814729528
+PF-000159,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido reciente field mock (2026-05-06),true,5493814729528
+PF-000159,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-05-06),true,5493814729528
+PF-000160,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-05-19),true,5493814729528
+PF-000160,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-05-19),true,5493814729528
+PF-000161,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-06-04),true,5493876922419
+PF-000161,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-06-04),true,5493876922419
+PF-000161,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-06-04),true,5493876922419
+PF-000162,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-07-14),true,5493876922419
+PF-000162,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-07-14),true,5493876922419
+PF-000163,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-08-20),true,5493876922419
+PF-000163,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-08-20),true,5493876922419
+PF-000164,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-09-18),true,5493876922419
+PF-000164,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-09-18),true,5493876922419
+PF-000164,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-09-18),true,5493876922419
+PF-000165,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-10-28),true,5493876922419
+PF-000165,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-10-28),true,5493876922419
+PF-000165,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",2,16500.00,1,Pedido histórico field mock (2025-10-28),true,5493876922419
+PF-000166,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-12-12),true,5493876922419
+PF-000166,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-12-12),true,5493876922419
+PF-000166,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,2,6918.21,1,Pedido histórico field mock (2025-12-12),true,5493876922419
+PF-000166,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-12-12),true,5493876922419
+PF-000167,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2026-01-11),true,5493876922419
+PF-000167,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2026-01-11),true,5493876922419
+PF-000168,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-04-04),true,5493876922419
+PF-000168,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-04-04),true,5493876922419
+PF-000169,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-04-05),true,5493876922419
+PF-000169,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido reciente field mock (2026-04-05),true,5493876922419
+PF-000170,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-05-10),true,5493876922419
+PF-000170,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-05-10),true,5493876922419
+PF-000171,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-06-05),true,5492618889598
+PF-000171,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-06-05),true,5492618889598
+PF-000171,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-06-05),true,5492618889598
+PF-000171,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,1,15500.00,1,Pedido histórico field mock (2025-06-05),true,5492618889598
+PF-000172,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-07-11),true,5492618889598
+PF-000172,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-07-11),true,5492618889598
+PF-000173,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-08-11),true,5492618889598
+PF-000173,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-08-11),true,5492618889598
+PF-000173,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido histórico field mock (2025-08-11),true,5492618889598
+PF-000174,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-09-20),true,5492618889598
+PF-000174,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-09-20),true,5492618889598
+PF-000175,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-11-05),true,5492618889598
+PF-000175,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-11-05),true,5492618889598
+PF-000175,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,3,6918.21,1,Pedido histórico field mock (2025-11-05),true,5492618889598
+PF-000176,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-12-07),true,5492618889598
+PF-000176,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-12-07),true,5492618889598
+PF-000177,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2026-01-11),true,5492618889598
+PF-000177,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2026-01-11),true,5492618889598
+PF-000177,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,4,1900.00,1,Pedido histórico field mock (2026-01-11),true,5492618889598
+PF-000177,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,1,4505.14,1,Pedido histórico field mock (2026-01-11),true,5492618889598
+PF-000178,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-04-11),true,5492618889598
+PF-000178,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido reciente field mock (2026-04-11),true,5492618889598
+PF-000179,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido reciente field mock (2026-04-20),true,5492618889598
+PF-000179,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-04-20),true,5492618889598
+PF-000180,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-04-30),true,5492618889598
+PF-000180,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-04-30),true,5492618889598
+PF-000181,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-06-05),true,5492615021286
+PF-000181,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-06-05),true,5492615021286
+PF-000181,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,4,15500.00,1,Pedido histórico field mock (2025-06-05),true,5492615021286
+PF-000182,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-07-05),true,5492615021286
+PF-000182,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-07-05),true,5492615021286
+PF-000182,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,1,8247.90,1,Pedido histórico field mock (2025-07-05),true,5492615021286
+PF-000183,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-08-14),true,5492615021286
+PF-000183,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-08-14),true,5492615021286
+PF-000183,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-08-14),true,5492615021286
+PF-000184,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-09-18),true,5492615021286
+PF-000184,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-09-18),true,5492615021286
+PF-000185,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-11-01),true,5492615021286
+PF-000185,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-11-01),true,5492615021286
+PF-000185,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,1,15500.00,1,Pedido histórico field mock (2025-11-01),true,5492615021286
+PF-000185,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-11-01),true,5492615021286
+PF-000186,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-12-12),true,5492615021286
+PF-000186,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-12-12),true,5492615021286
+PF-000186,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido histórico field mock (2025-12-12),true,5492615021286
+PF-000187,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2026-01-18),true,5492615021286
+PF-000187,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2026-01-18),true,5492615021286
+PF-000187,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,3,6918.21,1,Pedido histórico field mock (2026-01-18),true,5492615021286
+PF-000187,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2026-01-18),true,5492615021286
+PF-000188,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-04-15),true,5492615021286
+PF-000188,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-04-15),true,5492615021286
+PF-000189,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-05-01),true,5492615021286
+PF-000189,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-05-01),true,5492615021286
+PF-000190,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-05-18),true,5492615021286
+PF-000190,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-05-18),true,5492615021286
+PF-000191,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-06-01),true,5493813520000
+PF-000191,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-06-01),true,5493813520000
+PF-000192,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-07-10),true,5493813520000
+PF-000192,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-07-10),true,5493813520000
+PF-000193,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-08-16),true,5493813520000
+PF-000193,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-08-16),true,5493813520000
+PF-000193,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,2,15500.00,1,Pedido histórico field mock (2025-08-16),true,5493813520000
+PF-000193,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,4,20235.23,1,Pedido histórico field mock (2025-08-16),true,5493813520000
+PF-000194,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-09-23),true,5493813520000
+PF-000194,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-09-23),true,5493813520000
+PF-000194,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,1,20235.23,1,Pedido histórico field mock (2025-09-23),true,5493813520000
+PF-000194,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,4,8247.90,1,Pedido histórico field mock (2025-09-23),true,5493813520000
+PF-000195,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-10-30),true,5493813520000
+PF-000195,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-10-30),true,5493813520000
+PF-000195,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,4,8247.90,1,Pedido histórico field mock (2025-10-30),true,5493813520000
+PF-000195,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-10-30),true,5493813520000
+PF-000196,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-12-06),true,5493813520000
+PF-000196,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-12-06),true,5493813520000
+PF-000196,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-12-06),true,5493813520000
+PF-000196,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,4,20235.23,1,Pedido histórico field mock (2025-12-06),true,5493813520000
+PF-000197,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2026-01-10),true,5493813520000
+PF-000197,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2026-01-10),true,5493813520000
+PF-000197,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,2,1900.00,1,Pedido histórico field mock (2026-01-10),true,5493813520000
+PF-000198,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-04-19),true,5493813520000
+PF-000198,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-04-19),true,5493813520000
+PF-000199,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-04-20),true,5493813520000
+PF-000199,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido reciente field mock (2026-04-20),true,5493813520000
+PF-000200,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-04-26),true,5493813520000
+PF-000200,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-04-26),true,5493813520000
+PF-000201,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-06-03),true,5492997489876
+PF-000201,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-06-03),true,5492997489876
+PF-000201,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,3,4505.14,1,Pedido histórico field mock (2025-06-03),true,5492997489876
+PF-000202,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-07-09),true,5492997489876
+PF-000202,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-07-09),true,5492997489876
+PF-000202,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-07-09),true,5492997489876
+PF-000202,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,2,1900.00,1,Pedido histórico field mock (2025-07-09),true,5492997489876
+PF-000203,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-08-13),true,5492997489876
+PF-000203,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-08-13),true,5492997489876
+PF-000203,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",4,16500.00,1,Pedido histórico field mock (2025-08-13),true,5492997489876
+PF-000204,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-09-25),true,5492997489876
+PF-000204,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-09-25),true,5492997489876
+PF-000205,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-10-29),true,5492997489876
+PF-000205,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-10-29),true,5492997489876
+PF-000205,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-10-29),true,5492997489876
+PF-000206,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-12-05),true,5492997489876
+PF-000206,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-12-05),true,5492997489876
+PF-000206,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,1,3632.42,1,Pedido histórico field mock (2025-12-05),true,5492997489876
+PF-000206,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido histórico field mock (2025-12-05),true,5492997489876
+PF-000207,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2026-01-13),true,5492997489876
+PF-000207,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2026-01-13),true,5492997489876
+PF-000207,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2026-01-13),true,5492997489876
+PF-000207,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,1,4505.14,1,Pedido histórico field mock (2026-01-13),true,5492997489876
+PF-000208,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-04-10),true,5492997489876
+PF-000208,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-04-10),true,5492997489876
+PF-000209,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-04-19),true,5492997489876
+PF-000209,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-04-19),true,5492997489876
+PF-000210,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-05-03),true,5492997489876
+PF-000210,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-05-03),true,5492997489876
+PF-000211,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-06-05),true,5493519107005
+PF-000211,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-06-05),true,5493519107005
+PF-000211,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,2,1900.00,1,Pedido histórico field mock (2025-06-05),true,5493519107005
+PF-000211,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-06-05),true,5493519107005
+PF-000212,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-07-12),true,5493519107005
+PF-000212,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-07-12),true,5493519107005
+PF-000212,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,1,8247.90,1,Pedido histórico field mock (2025-07-12),true,5493519107005
+PF-000213,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-08-11),true,5493519107005
+PF-000213,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-08-11),true,5493519107005
+PF-000213,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-08-11),true,5493519107005
+PF-000214,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-09-21),true,5493519107005
+PF-000214,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-09-21),true,5493519107005
+PF-000215,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-11-01),true,5493519107005
+PF-000215,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-11-01),true,5493519107005
+PF-000215,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-11-01),true,5493519107005
+PF-000215,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,4,3632.42,1,Pedido histórico field mock (2025-11-01),true,5493519107005
+PF-000216,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-12-12),true,5493519107005
+PF-000216,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-12-12),true,5493519107005
+PF-000216,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,1,20235.23,1,Pedido histórico field mock (2025-12-12),true,5493519107005
+PF-000217,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2026-01-15),true,5493519107005
+PF-000217,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2026-01-15),true,5493519107005
+PF-000218,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-04-09),true,5493519107005
+PF-000218,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-04-09),true,5493519107005
+PF-000219,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido reciente field mock (2026-05-06),true,5493519107005
+PF-000219,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-05-06),true,5493519107005
+PF-000220,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-05-17),true,5493519107005
+PF-000220,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-05-17),true,5493519107005
+PF-000221,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-06-03),true,5493874104594
+PF-000221,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-06-03),true,5493874104594
+PF-000222,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-07-08),true,5493874104594
+PF-000222,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-07-08),true,5493874104594
+PF-000222,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-07-08),true,5493874104594
+PF-000222,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido histórico field mock (2025-07-08),true,5493874104594
+PF-000223,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-08-14),true,5493874104594
+PF-000223,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-08-14),true,5493874104594
+PF-000223,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-08-14),true,5493874104594
+PF-000224,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-09-24),true,5493874104594
+PF-000224,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-09-24),true,5493874104594
+PF-000224,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido histórico field mock (2025-09-24),true,5493874104594
+PF-000225,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-11-03),true,5493874104594
+PF-000225,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-11-03),true,5493874104594
+PF-000225,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,2,3632.42,1,Pedido histórico field mock (2025-11-03),true,5493874104594
+PF-000226,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-12-04),true,5493874104594
+PF-000226,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-12-04),true,5493874104594
+PF-000227,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2026-01-15),true,5493874104594
+PF-000227,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2026-01-15),true,5493874104594
+PF-000227,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2026-01-15),true,5493874104594
+PF-000228,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-04-22),true,5493874104594
+PF-000228,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-04-22),true,5493874104594
+PF-000229,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido reciente field mock (2026-04-28),true,5493874104594
+PF-000229,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-04-28),true,5493874104594
+PF-000230,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido reciente field mock (2026-05-04),true,5493874104594
+PF-000230,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido reciente field mock (2026-05-04),true,5493874104594
+PF-000231,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-06-01),true,5492617413812
+PF-000231,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-06-01),true,5492617413812
+PF-000231,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-06-01),true,5492617413812
+PF-000232,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-07-10),true,5492617413812
+PF-000232,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-07-10),true,5492617413812
+PF-000233,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-08-14),true,5492617413812
+PF-000233,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-08-14),true,5492617413812
+PF-000233,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-08-14),true,5492617413812
+PF-000233,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,2,8247.90,1,Pedido histórico field mock (2025-08-14),true,5492617413812
+PF-000234,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-09-19),true,5492617413812
+PF-000234,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-09-19),true,5492617413812
+PF-000235,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-10-26),true,5492617413812
+PF-000235,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-10-26),true,5492617413812
+PF-000236,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-12-04),true,5492617413812
+PF-000236,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-12-04),true,5492617413812
+PF-000236,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,4,6918.21,1,Pedido histórico field mock (2025-12-04),true,5492617413812
+PF-000237,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2026-01-20),true,5492617413812
+PF-000237,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2026-01-20),true,5492617413812
+PF-000237,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,3,15500.00,1,Pedido histórico field mock (2026-01-20),true,5492617413812
+PF-000237,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2026-01-20),true,5492617413812
+PF-000238,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-05-03),true,5492617413812
+PF-000238,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-05-03),true,5492617413812
+PF-000239,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido reciente field mock (2026-05-08),true,5492617413812
+PF-000239,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-05-08),true,5492617413812
+PF-000240,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-05-18),true,5492617413812
+PF-000240,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-05-18),true,5492617413812
+PF-000241,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-06-01),true,5492617236955
+PF-000241,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-06-01),true,5492617236955
+PF-000242,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-07-04),true,5492617236955
+PF-000242,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-07-04),true,5492617236955
+PF-000243,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-08-16),true,5492617236955
+PF-000243,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-08-16),true,5492617236955
+PF-000243,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,4,5812.54,1,Pedido histórico field mock (2025-08-16),true,5492617236955
+PF-000243,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido histórico field mock (2025-08-16),true,5492617236955
+PF-000244,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-09-25),true,5492617236955
+PF-000244,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-09-25),true,5492617236955
+PF-000244,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido histórico field mock (2025-09-25),true,5492617236955
+PF-000244,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,2,20235.23,1,Pedido histórico field mock (2025-09-25),true,5492617236955
+PF-000245,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-11-02),true,5492617236955
+PF-000245,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-11-02),true,5492617236955
+PF-000245,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,2,1900.00,1,Pedido histórico field mock (2025-11-02),true,5492617236955
+PF-000245,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,1,8247.90,1,Pedido histórico field mock (2025-11-02),true,5492617236955
+PF-000246,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-12-11),true,5492617236955
+PF-000246,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-12-11),true,5492617236955
+PF-000246,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-12-11),true,5492617236955
+PF-000247,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2026-01-16),true,5492617236955
+PF-000247,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2026-01-16),true,5492617236955
+PF-000248,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-04-10),true,5492617236955
+PF-000248,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-04-10),true,5492617236955
+PF-000249,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-05-09),true,5492617236955
+PF-000249,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-05-09),true,5492617236955
+PF-000250,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido reciente field mock (2026-05-19),true,5492617236955
+PF-000250,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-05-19),true,5492617236955
+PF-000251,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-06-02),true,5492612928724
+PF-000251,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-06-02),true,5492612928724
+PF-000251,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-06-02),true,5492612928724
+PF-000252,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-07-12),true,5492612928724
+PF-000252,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-07-12),true,5492612928724
+PF-000252,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-07-12),true,5492612928724
+PF-000252,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,1,15500.00,1,Pedido histórico field mock (2025-07-12),true,5492612928724
+PF-000253,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-08-14),true,5492612928724
+PF-000253,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-08-14),true,5492612928724
+PF-000253,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-08-14),true,5492612928724
+PF-000253,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido histórico field mock (2025-08-14),true,5492612928724
+PF-000254,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-09-25),true,5492612928724
+PF-000254,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-09-25),true,5492612928724
+PF-000255,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-11-01),true,5492612928724
+PF-000255,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-11-01),true,5492612928724
+PF-000255,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,1,8247.90,1,Pedido histórico field mock (2025-11-01),true,5492612928724
+PF-000256,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-12-11),true,5492612928724
+PF-000256,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-12-11),true,5492612928724
+PF-000256,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-12-11),true,5492612928724
+PF-000257,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2026-01-10),true,5492612928724
+PF-000257,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2026-01-10),true,5492612928724
+PF-000258,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-04-18),true,5492612928724
+PF-000258,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-04-18),true,5492612928724
+PF-000259,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-05-01),true,5492612928724
+PF-000259,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-05-01),true,5492612928724
+PF-000260,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-05-11),true,5492612928724
+PF-000260,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido reciente field mock (2026-05-11),true,5492612928724
+PF-000261,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-06-02),true,5492999435946
+PF-000261,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-06-02),true,5492999435946
+PF-000262,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-07-04),true,5492999435946
+PF-000262,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-07-04),true,5492999435946
+PF-000262,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,2,1900.00,1,Pedido histórico field mock (2025-07-04),true,5492999435946
+PF-000263,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-08-21),true,5492999435946
+PF-000263,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-08-21),true,5492999435946
+PF-000263,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido histórico field mock (2025-08-21),true,5492999435946
+PF-000263,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,1,5812.54,1,Pedido histórico field mock (2025-08-21),true,5492999435946
+PF-000264,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-09-26),true,5492999435946
+PF-000264,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-09-26),true,5492999435946
+PF-000264,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,1,8247.90,1,Pedido histórico field mock (2025-09-26),true,5492999435946
+PF-000265,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-10-31),true,5492999435946
+PF-000265,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-10-31),true,5492999435946
+PF-000265,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-10-31),true,5492999435946
+PF-000266,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-12-12),true,5492999435946
+PF-000266,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-12-12),true,5492999435946
+PF-000267,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2026-01-12),true,5492999435946
+PF-000267,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2026-01-12),true,5492999435946
+PF-000267,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,1,6918.21,1,Pedido histórico field mock (2026-01-12),true,5492999435946
+PF-000268,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-04-10),true,5492999435946
+PF-000268,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-04-10),true,5492999435946
+PF-000269,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido reciente field mock (2026-05-04),true,5492999435946
+PF-000269,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido reciente field mock (2026-05-04),true,5492999435946
+PF-000270,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-05-14),true,5492999435946
+PF-000270,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-05-14),true,5492999435946
+PF-000271,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-06-01),true,5493517632424
+PF-000271,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-06-01),true,5493517632424
+PF-000272,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-07-08),true,5493517632424
+PF-000272,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-07-08),true,5493517632424
+PF-000273,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-08-21),true,5493517632424
+PF-000273,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-08-21),true,5493517632424
+PF-000274,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-09-25),true,5493517632424
+PF-000274,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-09-25),true,5493517632424
+PF-000274,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,4,20235.23,1,Pedido histórico field mock (2025-09-25),true,5493517632424
+PF-000275,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-11-02),true,5493517632424
+PF-000275,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-11-02),true,5493517632424
+PF-000275,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-11-02),true,5493517632424
+PF-000276,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-12-07),true,5493517632424
+PF-000276,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-12-07),true,5493517632424
+PF-000276,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,1,15500.00,1,Pedido histórico field mock (2025-12-07),true,5493517632424
+PF-000276,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-12-07),true,5493517632424
+PF-000277,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2026-01-20),true,5493517632424
+PF-000277,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2026-01-20),true,5493517632424
+PF-000278,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-04-14),true,5493517632424
+PF-000278,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-04-14),true,5493517632424
+PF-000279,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido reciente field mock (2026-04-17),true,5493517632424
+PF-000279,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-04-17),true,5493517632424
+PF-000280,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-05-20),true,5493517632424
+PF-000280,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-05-20),true,5493517632424
+PF-000281,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-06-01),true,5493416524997
+PF-000281,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-06-01),true,5493416524997
+PF-000281,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-06-01),true,5493416524997
+PF-000282,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-07-06),true,5493416524997
+PF-000282,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-07-06),true,5493416524997
+PF-000282,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-07-06),true,5493416524997
+PF-000282,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-07-06),true,5493416524997
+PF-000283,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-08-19),true,5493416524997
+PF-000283,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-08-19),true,5493416524997
+PF-000283,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido histórico field mock (2025-08-19),true,5493416524997
+PF-000283,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-08-19),true,5493416524997
+PF-000284,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-09-26),true,5493416524997
+PF-000284,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-09-26),true,5493416524997
+PF-000284,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-09-26),true,5493416524997
+PF-000285,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-10-26),true,5493416524997
+PF-000285,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-10-26),true,5493416524997
+PF-000285,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-10-26),true,5493416524997
+PF-000286,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-12-09),true,5493416524997
+PF-000286,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-12-09),true,5493416524997
+PF-000286,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,2,15500.00,1,Pedido histórico field mock (2025-12-09),true,5493416524997
+PF-000286,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,4,5812.54,1,Pedido histórico field mock (2025-12-09),true,5493416524997
+PF-000287,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2026-01-14),true,5493416524997
+PF-000287,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2026-01-14),true,5493416524997
+PF-000287,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,1,5812.54,1,Pedido histórico field mock (2026-01-14),true,5493416524997
+PF-000287,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2026-01-14),true,5493416524997
+PF-000288,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-04-01),true,5493416524997
+PF-000288,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-04-01),true,5493416524997
+PF-000289,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-04-10),true,5493416524997
+PF-000289,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-04-10),true,5493416524997
+PF-000290,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-04-16),true,5493416524997
+PF-000290,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-04-16),true,5493416524997
+PF-000291,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-06-02),true,5493876499570
+PF-000291,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-06-02),true,5493876499570
+PF-000291,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",4,16500.00,1,Pedido histórico field mock (2025-06-02),true,5493876499570
+PF-000291,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,1,15500.00,1,Pedido histórico field mock (2025-06-02),true,5493876499570
+PF-000292,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-07-10),true,5493876499570
+PF-000292,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-07-10),true,5493876499570
+PF-000293,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-08-15),true,5493876499570
+PF-000293,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-08-15),true,5493876499570
+PF-000293,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,1,6918.21,1,Pedido histórico field mock (2025-08-15),true,5493876499570
+PF-000293,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-08-15),true,5493876499570
+PF-000294,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-09-26),true,5493876499570
+PF-000294,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-09-26),true,5493876499570
+PF-000294,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-09-26),true,5493876499570
+PF-000295,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-10-29),true,5493876499570
+PF-000295,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-10-29),true,5493876499570
+PF-000296,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-12-09),true,5493876499570
+PF-000296,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-12-09),true,5493876499570
+PF-000297,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2026-01-12),true,5493876499570
+PF-000297,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2026-01-12),true,5493876499570
+PF-000297,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,2,6918.21,1,Pedido histórico field mock (2026-01-12),true,5493876499570
+PF-000297,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",1,16500.00,1,Pedido histórico field mock (2026-01-12),true,5493876499570
+PF-000298,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-04-06),true,5493876499570
+PF-000298,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido reciente field mock (2026-04-06),true,5493876499570
+PF-000299,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido reciente field mock (2026-05-03),true,5493876499570
+PF-000299,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-05-03),true,5493876499570
+PF-000300,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-05-15),true,5493876499570
+PF-000300,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-05-15),true,5493876499570
+PF-000301,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-06-06),true,5492998066543
+PF-000301,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-06-06),true,5492998066543
+PF-000301,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-06-06),true,5492998066543
+PF-000301,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,2,8247.90,1,Pedido histórico field mock (2025-06-06),true,5492998066543
+PF-000302,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-07-04),true,5492998066543
+PF-000302,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-07-04),true,5492998066543
+PF-000303,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-08-16),true,5492998066543
+PF-000303,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-08-16),true,5492998066543
+PF-000304,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-09-24),true,5492998066543
+PF-000304,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-09-24),true,5492998066543
+PF-000304,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",4,16500.00,1,Pedido histórico field mock (2025-09-24),true,5492998066543
+PF-000305,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-11-02),true,5492998066543
+PF-000305,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-11-02),true,5492998066543
+PF-000305,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,3,5500.00,1,Pedido histórico field mock (2025-11-02),true,5492998066543
+PF-000306,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-12-03),true,5492998066543
+PF-000306,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-12-03),true,5492998066543
+PF-000307,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2026-01-20),true,5492998066543
+PF-000307,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2026-01-20),true,5492998066543
+PF-000308,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-04-01),true,5492998066543
+PF-000308,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-04-01),true,5492998066543
+PF-000309,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-04-09),true,5492998066543
+PF-000309,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido reciente field mock (2026-04-09),true,5492998066543
+PF-000310,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-05-11),true,5492998066543
+PF-000310,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-05-11),true,5492998066543
+PF-000311,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-06-02),true,5492995028869
+PF-000311,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-06-02),true,5492995028869
+PF-000312,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-07-09),true,5492995028869
+PF-000312,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-07-09),true,5492995028869
+PF-000313,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-08-18),true,5492995028869
+PF-000313,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-08-18),true,5492995028869
+PF-000314,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-09-23),true,5492995028869
+PF-000314,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-09-23),true,5492995028869
+PF-000314,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-09-23),true,5492995028869
+PF-000315,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-11-02),true,5492995028869
+PF-000315,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-11-02),true,5492995028869
+PF-000315,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-11-02),true,5492995028869
+PF-000315,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido histórico field mock (2025-11-02),true,5492995028869
+PF-000316,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-12-13),true,5492995028869
+PF-000316,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-12-13),true,5492995028869
+PF-000317,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2026-01-15),true,5492995028869
+PF-000317,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2026-01-15),true,5492995028869
+PF-000317,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,1,20235.23,1,Pedido histórico field mock (2026-01-15),true,5492995028869
+PF-000318,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-04-17),true,5492995028869
+PF-000318,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-04-17),true,5492995028869
+PF-000319,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-04-25),true,5492995028869
+PF-000319,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido reciente field mock (2026-04-25),true,5492995028869
+PF-000320,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-04-27),true,5492995028869
+PF-000320,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-04-27),true,5492995028869
+PF-000321,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-06-01),true,5493517304254
+PF-000321,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-06-01),true,5493517304254
+PF-000321,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,3,5812.54,1,Pedido histórico field mock (2025-06-01),true,5493517304254
+PF-000322,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-07-13),true,5493517304254
+PF-000322,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-07-13),true,5493517304254
+PF-000323,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-08-20),true,5493517304254
+PF-000323,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-08-20),true,5493517304254
+PF-000324,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-09-24),true,5493517304254
+PF-000324,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-09-24),true,5493517304254
+PF-000324,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,1,15500.00,1,Pedido histórico field mock (2025-09-24),true,5493517304254
+PF-000325,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-11-04),true,5493517304254
+PF-000325,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-11-04),true,5493517304254
+PF-000325,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-11-04),true,5493517304254
+PF-000325,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-11-04),true,5493517304254
+PF-000326,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-12-05),true,5493517304254
+PF-000326,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-12-05),true,5493517304254
+PF-000326,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,3,8247.90,1,Pedido histórico field mock (2025-12-05),true,5493517304254
+PF-000327,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2026-01-10),true,5493517304254
+PF-000327,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2026-01-10),true,5493517304254
+PF-000327,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,4,1900.00,1,Pedido histórico field mock (2026-01-10),true,5493517304254
+PF-000327,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2026-01-10),true,5493517304254
+PF-000328,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-04-11),true,5493517304254
+PF-000328,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-04-11),true,5493517304254
+PF-000329,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-04-18),true,5493517304254
+PF-000329,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-04-18),true,5493517304254
+PF-000330,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-05-04),true,5493517304254
+PF-000330,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-05-04),true,5493517304254
+PF-000331,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-06-06),true,5493416986538
+PF-000331,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-06-06),true,5493416986538
+PF-000331,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,1,3632.42,1,Pedido histórico field mock (2025-06-06),true,5493416986538
+PF-000331,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",2,16500.00,1,Pedido histórico field mock (2025-06-06),true,5493416986538
+PF-000332,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-07-11),true,5493416986538
+PF-000332,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-07-11),true,5493416986538
+PF-000332,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-07-11),true,5493416986538
+PF-000332,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,2,15500.00,1,Pedido histórico field mock (2025-07-11),true,5493416986538
+PF-000333,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-08-13),true,5493416986538
+PF-000333,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-08-13),true,5493416986538
+PF-000334,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-09-24),true,5493416986538
+PF-000334,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-09-24),true,5493416986538
+PF-000334,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,4,8247.90,1,Pedido histórico field mock (2025-09-24),true,5493416986538
+PF-000334,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-09-24),true,5493416986538
+PF-000335,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-10-29),true,5493416986538
+PF-000335,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-10-29),true,5493416986538
+PF-000335,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",1,16500.00,1,Pedido histórico field mock (2025-10-29),true,5493416986538
+PF-000336,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-12-13),true,5493416986538
+PF-000336,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-12-13),true,5493416986538
+PF-000336,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,1,15500.00,1,Pedido histórico field mock (2025-12-13),true,5493416986538
+PF-000337,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2026-01-17),true,5493416986538
+PF-000337,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2026-01-17),true,5493416986538
+PF-000337,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,1,8247.90,1,Pedido histórico field mock (2026-01-17),true,5493416986538
+PF-000337,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",4,16500.00,1,Pedido histórico field mock (2026-01-17),true,5493416986538
+PF-000338,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-04-19),true,5493416986538
+PF-000338,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-04-19),true,5493416986538
+PF-000339,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido reciente field mock (2026-04-26),true,5493416986538
+PF-000339,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-04-26),true,5493416986538
+PF-000340,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-05-12),true,5493416986538
+PF-000340,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-05-12),true,5493416986538
+PF-000341,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-06-06),true,5492619239862
+PF-000341,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-06-06),true,5492619239862
+PF-000342,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-07-14),true,5492619239862
+PF-000342,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-07-14),true,5492619239862
+PF-000342,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,3,8247.90,1,Pedido histórico field mock (2025-07-14),true,5492619239862
+PF-000343,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-08-11),true,5492619239862
+PF-000343,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-08-11),true,5492619239862
+PF-000343,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-08-11),true,5492619239862
+PF-000344,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-09-25),true,5492619239862
+PF-000344,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-09-25),true,5492619239862
+PF-000344,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-09-25),true,5492619239862
+PF-000344,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,2,6918.21,1,Pedido histórico field mock (2025-09-25),true,5492619239862
+PF-000345,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-10-28),true,5492619239862
+PF-000345,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-10-28),true,5492619239862
+PF-000345,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-10-28),true,5492619239862
+PF-000345,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,1,8247.90,1,Pedido histórico field mock (2025-10-28),true,5492619239862
+PF-000346,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-12-05),true,5492619239862
+PF-000346,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-12-05),true,5492619239862
+PF-000346,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,3,8247.90,1,Pedido histórico field mock (2025-12-05),true,5492619239862
+PF-000346,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-12-05),true,5492619239862
+PF-000347,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2026-01-19),true,5492619239862
+PF-000347,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2026-01-19),true,5492619239862
+PF-000348,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido reciente field mock (2026-04-01),true,5492619239862
+PF-000348,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-04-01),true,5492619239862
+PF-000349,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-05-03),true,5492619239862
+PF-000349,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-05-03),true,5492619239862
+PF-000350,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-05-14),true,5492619239862
+PF-000350,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-05-14),true,5492619239862
+PF-000351,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-06-01),true,5493513952681
+PF-000351,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-06-01),true,5493513952681
+PF-000351,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-06-01),true,5493513952681
+PF-000351,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,1,4505.14,1,Pedido histórico field mock (2025-06-01),true,5493513952681
+PF-000352,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-07-13),true,5493513952681
+PF-000352,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-07-13),true,5493513952681
+PF-000353,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-08-12),true,5493513952681
+PF-000353,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-08-12),true,5493513952681
+PF-000353,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-08-12),true,5493513952681
+PF-000353,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,2,6918.21,1,Pedido histórico field mock (2025-08-12),true,5493513952681
+PF-000354,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-09-21),true,5493513952681
+PF-000354,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-09-21),true,5493513952681
+PF-000355,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-10-31),true,5493513952681
+PF-000355,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-10-31),true,5493513952681
+PF-000355,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-10-31),true,5493513952681
+PF-000355,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,3,8247.90,1,Pedido histórico field mock (2025-10-31),true,5493513952681
+PF-000356,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-12-04),true,5493513952681
+PF-000356,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-12-04),true,5493513952681
+PF-000356,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,3,8247.90,1,Pedido histórico field mock (2025-12-04),true,5493513952681
+PF-000356,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-12-04),true,5493513952681
+PF-000357,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2026-01-11),true,5493513952681
+PF-000357,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2026-01-11),true,5493513952681
+PF-000357,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2026-01-11),true,5493513952681
+PF-000357,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,4,1900.00,1,Pedido histórico field mock (2026-01-11),true,5493513952681
+PF-000358,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-04-08),true,5493513952681
+PF-000358,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-04-08),true,5493513952681
+PF-000359,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido reciente field mock (2026-04-23),true,5493513952681
+PF-000359,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-04-23),true,5493513952681
+PF-000360,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-05-19),true,5493513952681
+PF-000360,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-05-19),true,5493513952681
+PF-000361,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-06-02),true,5493414799650
+PF-000361,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-06-02),true,5493414799650
+PF-000362,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-07-09),true,5493414799650
+PF-000362,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-07-09),true,5493414799650
+PF-000362,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-07-09),true,5493414799650
+PF-000362,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-07-09),true,5493414799650
+PF-000363,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-08-13),true,5493414799650
+PF-000363,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-08-13),true,5493414799650
+PF-000363,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-08-13),true,5493414799650
+PF-000363,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-08-13),true,5493414799650
+PF-000364,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-09-27),true,5493414799650
+PF-000364,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-09-27),true,5493414799650
+PF-000364,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido histórico field mock (2025-09-27),true,5493414799650
+PF-000364,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,4,4505.14,1,Pedido histórico field mock (2025-09-27),true,5493414799650
+PF-000365,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-10-29),true,5493414799650
+PF-000365,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-10-29),true,5493414799650
+PF-000366,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-12-07),true,5493414799650
+PF-000366,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-12-07),true,5493414799650
+PF-000367,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2026-01-12),true,5493414799650
+PF-000367,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2026-01-12),true,5493414799650
+PF-000367,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,4,5812.54,1,Pedido histórico field mock (2026-01-12),true,5493414799650
+PF-000368,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido reciente field mock (2026-05-01),true,5493414799650
+PF-000368,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-05-01),true,5493414799650
+PF-000369,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-05-04),true,5493414799650
+PF-000369,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-05-04),true,5493414799650
+PF-000370,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-05-15),true,5493414799650
+PF-000370,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-05-15),true,5493414799650
+PF-000371,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-06-01),true,5492992500733
+PF-000371,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-06-01),true,5492992500733
+PF-000372,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-07-07),true,5492992500733
+PF-000372,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-07-07),true,5492992500733
+PF-000372,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,3,1900.00,1,Pedido histórico field mock (2025-07-07),true,5492992500733
+PF-000372,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,2,1900.00,1,Pedido histórico field mock (2025-07-07),true,5492992500733
+PF-000373,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-08-19),true,5492992500733
+PF-000373,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-08-19),true,5492992500733
+PF-000373,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-08-19),true,5492992500733
+PF-000373,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",4,16500.00,1,Pedido histórico field mock (2025-08-19),true,5492992500733
+PF-000374,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-09-19),true,5492992500733
+PF-000374,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-09-19),true,5492992500733
+PF-000374,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,4,5812.54,1,Pedido histórico field mock (2025-09-19),true,5492992500733
+PF-000375,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-11-01),true,5492992500733
+PF-000375,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-11-01),true,5492992500733
+PF-000376,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-12-08),true,5492992500733
+PF-000376,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-12-08),true,5492992500733
+PF-000376,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-12-08),true,5492992500733
+PF-000376,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,3,4505.14,1,Pedido histórico field mock (2025-12-08),true,5492992500733
+PF-000377,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2026-01-13),true,5492992500733
+PF-000377,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2026-01-13),true,5492992500733
+PF-000377,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2026-01-13),true,5492992500733
+PF-000378,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-04-09),true,5492992500733
+PF-000378,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-04-09),true,5492992500733
+PF-000379,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-04-13),true,5492992500733
+PF-000379,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido reciente field mock (2026-04-13),true,5492992500733
+PF-000380,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido reciente field mock (2026-05-13),true,5492992500733
+PF-000380,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-05-13),true,5492992500733
+PF-000381,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-06-06),true,5492615139305
+PF-000381,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-06-06),true,5492615139305
+PF-000381,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido histórico field mock (2025-06-06),true,5492615139305
+PF-000381,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido histórico field mock (2025-06-06),true,5492615139305
+PF-000382,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-07-14),true,5492615139305
+PF-000382,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-07-14),true,5492615139305
+PF-000382,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,2,3632.42,1,Pedido histórico field mock (2025-07-14),true,5492615139305
+PF-000383,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-08-17),true,5492615139305
+PF-000383,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-08-17),true,5492615139305
+PF-000384,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-09-23),true,5492615139305
+PF-000384,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-09-23),true,5492615139305
+PF-000384,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",1,16500.00,1,Pedido histórico field mock (2025-09-23),true,5492615139305
+PF-000385,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-10-31),true,5492615139305
+PF-000385,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-10-31),true,5492615139305
+PF-000385,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,4,5812.54,1,Pedido histórico field mock (2025-10-31),true,5492615139305
+PF-000385,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",2,16500.00,1,Pedido histórico field mock (2025-10-31),true,5492615139305
+PF-000386,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-12-08),true,5492615139305
+PF-000386,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-12-08),true,5492615139305
+PF-000386,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-12-08),true,5492615139305
+PF-000387,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2026-01-12),true,5492615139305
+PF-000387,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2026-01-12),true,5492615139305
+PF-000387,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,2,5812.54,1,Pedido histórico field mock (2026-01-12),true,5492615139305
+PF-000388,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-04-01),true,5492615139305
+PF-000388,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-04-01),true,5492615139305
+PF-000389,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido reciente field mock (2026-04-13),true,5492615139305
+PF-000389,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-04-13),true,5492615139305
+PF-000390,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-04-27),true,5492615139305
+PF-000390,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-04-27),true,5492615139305
+PF-000391,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2025-06-01),true,5492618861463
+PF-000391,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-06-01),true,5492618861463
+PF-000392,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-07-06),true,5492618861463
+PF-000392,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-07-06),true,5492618861463
+PF-000393,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-08-17),true,5492618861463
+PF-000393,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-08-17),true,5492618861463
+PF-000393,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-08-17),true,5492618861463
+PF-000393,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,2,1900.00,1,Pedido histórico field mock (2025-08-17),true,5492618861463
+PF-000394,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-09-26),true,5492618861463
+PF-000394,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-09-26),true,5492618861463
+PF-000394,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,2,15500.00,1,Pedido histórico field mock (2025-09-26),true,5492618861463
+PF-000395,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-10-27),true,5492618861463
+PF-000395,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-10-27),true,5492618861463
+PF-000396,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-12-09),true,5492618861463
+PF-000396,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-12-09),true,5492618861463
+PF-000396,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,2,20235.23,1,Pedido histórico field mock (2025-12-09),true,5492618861463
+PF-000396,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido histórico field mock (2025-12-09),true,5492618861463
+PF-000397,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido histórico field mock (2026-01-15),true,5492618861463
+PF-000397,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2026-01-15),true,5492618861463
+PF-000398,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-04-07),true,5492618861463
+PF-000398,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-04-07),true,5492618861463
+PF-000399,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-04-13),true,5492618861463
+PF-000399,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido reciente field mock (2026-04-13),true,5492618861463
+PF-000400,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-04-17),true,5492618861463
+PF-000400,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-04-17),true,5492618861463
+PF-000401,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-06-04),true,5493812941974
+PF-000401,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-06-04),true,5493812941974
+PF-000401,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",2,16500.00,1,Pedido histórico field mock (2025-06-04),true,5493812941974
+PF-000401,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido histórico field mock (2025-06-04),true,5493812941974
+PF-000402,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-07-07),true,5493812941974
+PF-000402,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-07-07),true,5493812941974
+PF-000403,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2025-08-19),true,5493812941974
+PF-000403,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-08-19),true,5493812941974
+PF-000404,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-09-27),true,5493812941974
+PF-000404,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-09-27),true,5493812941974
+PF-000405,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-10-28),true,5493812941974
+PF-000405,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-10-28),true,5493812941974
+PF-000405,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-10-28),true,5493812941974
+PF-000405,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,1,6918.21,1,Pedido histórico field mock (2025-10-28),true,5493812941974
+PF-000406,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-12-04),true,5493812941974
+PF-000406,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-12-04),true,5493812941974
+PF-000406,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,4,8247.90,1,Pedido histórico field mock (2025-12-04),true,5493812941974
+PF-000407,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2026-01-11),true,5493812941974
+PF-000407,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2026-01-11),true,5493812941974
+PF-000407,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,3,8247.90,1,Pedido histórico field mock (2026-01-11),true,5493812941974
+PF-000408,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido reciente field mock (2026-04-27),true,5493812941974
+PF-000408,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-04-27),true,5493812941974
+PF-000409,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido reciente field mock (2026-05-06),true,5493812941974
+PF-000409,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-05-06),true,5493812941974
+PF-000410,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido reciente field mock (2026-05-15),true,5493812941974
+PF-000410,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-05-15),true,5493812941974
+PF-000411,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-06-06),true,5493817404433
+PF-000411,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-06-06),true,5493817404433
+PF-000411,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-06-06),true,5493817404433
+PF-000412,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-07-06),true,5493817404433
+PF-000412,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-07-06),true,5493817404433
+PF-000413,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-08-15),true,5493817404433
+PF-000413,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-08-15),true,5493817404433
+PF-000413,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,2,4505.14,1,Pedido histórico field mock (2025-08-15),true,5493817404433
+PF-000413,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,4,5812.54,1,Pedido histórico field mock (2025-08-15),true,5493817404433
+PF-000414,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-09-23),true,5493817404433
+PF-000414,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-09-23),true,5493817404433
+PF-000414,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,4,5812.54,1,Pedido histórico field mock (2025-09-23),true,5493817404433
+PF-000414,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,2,8247.90,1,Pedido histórico field mock (2025-09-23),true,5493817404433
+PF-000415,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-10-30),true,5493817404433
+PF-000415,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-10-30),true,5493817404433
+PF-000415,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,1,15500.00,1,Pedido histórico field mock (2025-10-30),true,5493817404433
+PF-000415,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-10-30),true,5493817404433
+PF-000416,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-12-13),true,5493817404433
+PF-000416,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-12-13),true,5493817404433
+PF-000416,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-12-13),true,5493817404433
+PF-000416,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,1,8247.90,1,Pedido histórico field mock (2025-12-13),true,5493817404433
+PF-000417,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2026-01-12),true,5493817404433
+PF-000417,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2026-01-12),true,5493817404433
+PF-000417,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,2,20235.23,1,Pedido histórico field mock (2026-01-12),true,5493817404433
+PF-000418,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-04-08),true,5493817404433
+PF-000418,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido reciente field mock (2026-04-08),true,5493817404433
+PF-000419,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-05-11),true,5493817404433
+PF-000419,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-05-11),true,5493817404433
+PF-000420,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido reciente field mock (2026-05-20),true,5493817404433
+PF-000420,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-05-20),true,5493817404433
+PF-000421,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-06-01),true,5493419686914
+PF-000421,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-06-01),true,5493419686914
+PF-000421,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-06-01),true,5493419686914
+PF-000421,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,1,6918.21,1,Pedido histórico field mock (2025-06-01),true,5493419686914
+PF-000422,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-07-09),true,5493419686914
+PF-000422,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-07-09),true,5493419686914
+PF-000423,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-08-11),true,5493419686914
+PF-000423,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-08-11),true,5493419686914
+PF-000423,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,3,5812.54,1,Pedido histórico field mock (2025-08-11),true,5493419686914
+PF-000423,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,4,6918.21,1,Pedido histórico field mock (2025-08-11),true,5493419686914
+PF-000424,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-09-18),true,5493419686914
+PF-000424,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-09-18),true,5493419686914
+PF-000424,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,4,15500.00,1,Pedido histórico field mock (2025-09-18),true,5493419686914
+PF-000425,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido histórico field mock (2025-11-01),true,5493419686914
+PF-000425,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2025-11-01),true,5493419686914
+PF-000425,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido histórico field mock (2025-11-01),true,5493419686914
+PF-000426,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-12-04),true,5493419686914
+PF-000426,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-12-04),true,5493419686914
+PF-000427,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2026-01-20),true,5493419686914
+PF-000427,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido histórico field mock (2026-01-20),true,5493419686914
+PF-000427,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,2,8247.90,1,Pedido histórico field mock (2026-01-20),true,5493419686914
+PF-000427,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2026-01-20),true,5493419686914
+PF-000428,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,2,4721.37,1,Pedido reciente field mock (2026-04-23),true,5493419686914
+PF-000428,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido reciente field mock (2026-04-23),true,5493419686914
+PF-000429,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido reciente field mock (2026-04-28),true,5493419686914
+PF-000429,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-04-28),true,5493419686914
+PF-000430,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido reciente field mock (2026-05-02),true,5493419686914
+PF-000430,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-05-02),true,5493419686914
+PF-000431,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-06-01),true,5493518648263
+PF-000431,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido histórico field mock (2025-06-01),true,5493518648263
+PF-000432,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-07-13),true,5493518648263
+PF-000432,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-07-13),true,5493518648263
+PF-000433,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-08-21),true,5493518648263
+PF-000433,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-08-21),true,5493518648263
+PF-000434,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-09-26),true,5493518648263
+PF-000434,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2025-09-26),true,5493518648263
+PF-000435,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-11-03),true,5493518648263
+PF-000435,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-11-03),true,5493518648263
+PF-000436,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-12-13),true,5493518648263
+PF-000436,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,4,4721.37,1,Pedido histórico field mock (2025-12-13),true,5493518648263
+PF-000436,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,3,3632.42,1,Pedido histórico field mock (2025-12-13),true,5493518648263
+PF-000436,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,2,20235.23,1,Pedido histórico field mock (2025-12-13),true,5493518648263
+PF-000437,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2026-01-13),true,5493518648263
+PF-000437,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido histórico field mock (2026-01-13),true,5493518648263
+PF-000438,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido reciente field mock (2026-04-11),true,5493518648263
+PF-000438,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-04-11),true,5493518648263
+PF-000439,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-04-18),true,5493518648263
+PF-000439,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-04-18),true,5493518648263
+PF-000440,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-04-22),true,5493518648263
+PF-000440,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-04-22),true,5493518648263
+PF-000441,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-06-06),true,5493516216782
+PF-000441,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-06-06),true,5493516216782
+PF-000441,RV-BOMBILLA-001,Bombilla Plana 19 Cm. Acero Inox.,2,15500.00,1,Pedido histórico field mock (2025-06-06),true,5493516216782
+PF-000442,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-07-08),true,5493516216782
+PF-000442,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-07-08),true,5493516216782
+PF-000442,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido histórico field mock (2025-07-08),true,5493516216782
+PF-000442,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,2,6918.21,1,Pedido histórico field mock (2025-07-08),true,5493516216782
+PF-000443,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-08-19),true,5493516216782
+PF-000443,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-08-19),true,5493516216782
+PF-000443,RV-TRADICIONAL-004,Yerba M. Tradicional Export X 1 Kg,1,6918.21,1,Pedido histórico field mock (2025-08-19),true,5493516216782
+PF-000443,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-08-19),true,5493516216782
+PF-000444,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido histórico field mock (2025-09-20),true,5493516216782
+PF-000444,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2025-09-20),true,5493516216782
+PF-000444,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,4,3632.42,1,Pedido histórico field mock (2025-09-20),true,5493516216782
+PF-000445,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,4,3065.10,1,Pedido histórico field mock (2025-11-05),true,5493516216782
+PF-000445,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,4,3778.43,1,Pedido histórico field mock (2025-11-05),true,5493516216782
+PF-000445,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,3,4505.14,1,Pedido histórico field mock (2025-11-05),true,5493516216782
+PF-000445,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-11-05),true,5493516216782
+PF-000446,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,2,3065.10,1,Pedido histórico field mock (2025-12-12),true,5493516216782
+PF-000446,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido histórico field mock (2025-12-12),true,5493516216782
+PF-000446,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,3,8247.90,1,Pedido histórico field mock (2025-12-12),true,5493516216782
+PF-000447,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido histórico field mock (2026-01-11),true,5493516216782
+PF-000447,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido histórico field mock (2026-01-11),true,5493516216782
+PF-000447,RV-PREMIUM-001,Yerba M. Premiun Export X 500 Gr.,3,4505.14,1,Pedido histórico field mock (2026-01-11),true,5493516216782
+PF-000447,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2026-01-11),true,5493516216782
+PF-000448,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-04-08),true,5493516216782
+PF-000448,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-04-08),true,5493516216782
+PF-000449,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,1,3778.43,1,Pedido reciente field mock (2026-04-12),true,5493516216782
+PF-000449,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-04-12),true,5493516216782
+PF-000450,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-05-17),true,5493516216782
+PF-000450,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-05-17),true,5493516216782
+PF-000451,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-06-02),true,5492612780568
+PF-000451,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-06-02),true,5492612780568
+PF-000452,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-07-13),true,5492612780568
+PF-000452,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-07-13),true,5492612780568
+PF-000452,RV-KIT-TERERE-001,KIT Terere -   LIMON c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-07-13),true,5492612780568
+PF-000453,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-08-19),true,5492612780568
+PF-000453,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-08-19),true,5492612780568
+PF-000453,RV-PREMIUM-007,Yerba M. Premiun Ed. Limitada X 1 Kg,2,8247.90,1,Pedido histórico field mock (2025-08-19),true,5492612780568
+PF-000454,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-09-28),true,5492612780568
+PF-000454,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,3,28959.06,1,Pedido histórico field mock (2025-09-28),true,5492612780568
+PF-000454,RV-TERERE-003,Terere - NARANJA c/ MENTA x250 Gr,4,1900.00,1,Pedido histórico field mock (2025-09-28),true,5492612780568
+PF-000455,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-11-04),true,5492612780568
+PF-000455,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-11-04),true,5492612780568
+PF-000455,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",3,16500.00,1,Pedido histórico field mock (2025-11-04),true,5492612780568
+PF-000455,RV-TERERE-001,Terere - LIMON c/ MENTA x250 Gr,1,1900.00,1,Pedido histórico field mock (2025-11-04),true,5492612780568
+PF-000456,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-12-05),true,5492612780568
+PF-000456,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-12-05),true,5492612780568
+PF-000456,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,3,3632.42,1,Pedido histórico field mock (2025-12-05),true,5492612780568
+PF-000456,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,1,20235.23,1,Pedido histórico field mock (2025-12-05),true,5492612780568
+PF-000457,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2026-01-14),true,5492612780568
+PF-000457,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2026-01-14),true,5492612780568
+PF-000458,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,3,4721.37,1,Pedido reciente field mock (2026-04-28),true,5492612780568
+PF-000458,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-04-28),true,5492612780568
+PF-000459,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido reciente field mock (2026-05-12),true,5492612780568
+PF-000459,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,1,3065.10,1,Pedido reciente field mock (2026-05-12),true,5492612780568
+PF-000460,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-05-17),true,5492612780568
+PF-000460,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido reciente field mock (2026-05-17),true,5492612780568
+PF-000461,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-06-02),true,5493582639964
+PF-000461,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,4,6096.76,1,Pedido histórico field mock (2025-06-02),true,5493582639964
+PF-000461,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-06-02),true,5493582639964
+PF-000461,RV-BOMBILLA-002,"Bombilla  Pico De Rey 17,5 Cm. Acero Inox.",1,16500.00,1,Pedido histórico field mock (2025-06-02),true,5493582639964
+PF-000462,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-07-08),true,5493582639964
+PF-000462,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,3,6096.76,1,Pedido histórico field mock (2025-07-08),true,5493582639964
+PF-000462,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,1,5500.00,1,Pedido histórico field mock (2025-07-08),true,5493582639964
+PF-000463,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-08-11),true,5493582639964
+PF-000463,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-08-11),true,5493582639964
+PF-000463,RV-KIT-TERERE-003,KIT Terere -   NARANJA c/ MENTA x250 Gr,4,5500.00,1,Pedido histórico field mock (2025-08-11),true,5493582639964
+PF-000464,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2025-09-18),true,5493582639964
+PF-000464,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-09-18),true,5493582639964
+PF-000464,RV-PREMIUM-004,Yerba M. Premiun Export X 1 Kg,4,8247.90,1,Pedido histórico field mock (2025-09-18),true,5493582639964
+PF-000464,RV-TRADICIONAL-001,Yerba M. Tradicional Export X 500 Gr.,3,3632.42,1,Pedido histórico field mock (2025-09-18),true,5493582639964
+PF-000465,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-10-28),true,5493582639964
+PF-000465,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,2,6096.76,1,Pedido histórico field mock (2025-10-28),true,5493582639964
+PF-000465,RV-KIT-TERERE-002,KIT Terere -   ANANA c/ MENTA x250 Gr,2,5500.00,1,Pedido histórico field mock (2025-10-28),true,5493582639964
+PF-000465,RV-TRADICIONAL-007,Yerba M. Tradicional Export X 3 Kg,3,20235.23,1,Pedido histórico field mock (2025-10-28),true,5493582639964
+PF-000466,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,4,28959.06,1,Pedido histórico field mock (2025-12-05),true,5493582639964
+PF-000466,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2025-12-05),true,5493582639964
+PF-000467,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,2,28959.06,1,Pedido histórico field mock (2026-01-20),true,5493582639964
+PF-000467,RV-CLASSICA-004,Yerba M. Clas. Export X 1 Kg,1,6096.76,1,Pedido histórico field mock (2026-01-20),true,5493582639964
+PF-000467,RV-TERERE-002,Terere - ANANA c/ MENTA  x250 Gr,1,1900.00,1,Pedido histórico field mock (2026-01-20),true,5493582639964
+PF-000467,RV-PADRON-004,Yerba M. Padron Arg. Export C/ Palo X 1 Kg,1,5812.54,1,Pedido histórico field mock (2026-01-20),true,5493582639964
+PF-000468,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido reciente field mock (2026-04-22),true,5493582639964
+PF-000468,RV-PADRON-001,Yerba M. Padron Arg. C/ Palo X 500 Gr.,3,3065.10,1,Pedido reciente field mock (2026-04-22),true,5493582639964
+PF-000469,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,3,3778.43,1,Pedido reciente field mock (2026-04-30),true,5493582639964
+PF-000469,RV-ORGANICA-001,Yerba M. Org.  Export X 500 Grs,1,4721.37,1,Pedido reciente field mock (2026-04-30),true,5493582639964
+PF-000470,RV-COMPUESTA-001,Yerba M. Comp. C/ Hierbas X 500 Gr.,2,3778.43,1,Pedido reciente field mock (2026-05-01),true,5493582639964
+PF-000470,RV-CLASSICA-007,Yerba M. Clas. Export X 5 Kg,1,28959.06,1,Pedido reciente field mock (2026-05-01),true,5493582639964

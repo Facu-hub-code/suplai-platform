@@ -1,0 +1,1323 @@
+pedido_ref,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,cliente_phone
+PF-000001,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,2,Pedido histórico field mock (2025-06-01),true,5493587905250
+PF-000001,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2025-06-01),true,5493587905250
+PF-000001,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",3,27063.50,2,Pedido histórico field mock (2025-06-01),true,5493587905250
+PF-000001,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",2,17070.57,2,Pedido histórico field mock (2025-06-01),true,5493587905250
+PF-000002,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,2,Pedido histórico field mock (2025-06-21),true,5493587905250
+PF-000002,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido histórico field mock (2025-06-21),true,5493587905250
+PF-000002,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-06-21),true,5493587905250
+PF-000003,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,2,Pedido histórico field mock (2025-07-09),true,5493587905250
+PF-000003,29016,"Coca–Cola Original 2,5L x6",3,22359.26,2,Pedido histórico field mock (2025-07-09),true,5493587905250
+PF-000003,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2025-07-09),true,5493587905250
+PF-000003,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,2,Pedido histórico field mock (2025-07-09),true,5493587905250
+PF-000004,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,2,Pedido histórico field mock (2025-07-30),true,5493587905250
+PF-000004,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2025-07-30),true,5493587905250
+PF-000004,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2025-07-30),true,5493587905250
+PF-000005,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,2,Pedido histórico field mock (2025-08-26),true,5493587905250
+PF-000005,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2025-08-26),true,5493587905250
+PF-000006,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,2,Pedido histórico field mock (2025-09-12),true,5493587905250
+PF-000006,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido histórico field mock (2025-09-12),true,5493587905250
+PF-000006,29003,Coca–Cola Original 500ml x12,1,13184.78,2,Pedido histórico field mock (2025-09-12),true,5493587905250
+PF-000006,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",3,20645.24,2,Pedido histórico field mock (2025-09-12),true,5493587905250
+PF-000007,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,2,Pedido histórico field mock (2025-10-05),true,5493587905250
+PF-000007,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido histórico field mock (2025-10-05),true,5493587905250
+PF-000007,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",2,17070.57,2,Pedido histórico field mock (2025-10-05),true,5493587905250
+PF-000008,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido histórico field mock (2025-06-02),true,5493582641213
+PF-000008,29016,"Coca–Cola Original 2,5L x6",2,22359.26,3,Pedido histórico field mock (2025-06-02),true,5493582641213
+PF-000009,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,3,Pedido histórico field mock (2025-06-18),true,5493582641213
+PF-000009,29016,"Coca–Cola Original 2,5L x6",4,22359.26,3,Pedido histórico field mock (2025-06-18),true,5493582641213
+PF-000010,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,3,Pedido histórico field mock (2025-07-17),true,5493582641213
+PF-000010,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido histórico field mock (2025-07-17),true,5493582641213
+PF-000010,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",3,47575.95,3,Pedido histórico field mock (2025-07-17),true,5493582641213
+PF-000010,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",2,17070.57,3,Pedido histórico field mock (2025-07-17),true,5493582641213
+PF-000011,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido histórico field mock (2025-08-03),true,5493582641213
+PF-000011,29016,"Coca–Cola Original 2,5L x6",2,22359.26,3,Pedido histórico field mock (2025-08-03),true,5493582641213
+PF-000011,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",4,35664.02,3,Pedido histórico field mock (2025-08-03),true,5493582641213
+PF-000011,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,3,Pedido histórico field mock (2025-08-03),true,5493582641213
+PF-000012,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,3,Pedido histórico field mock (2025-08-24),true,5493582641213
+PF-000012,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido histórico field mock (2025-08-24),true,5493582641213
+PF-000013,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,3,Pedido histórico field mock (2025-09-16),true,5493582641213
+PF-000013,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido histórico field mock (2025-09-16),true,5493582641213
+PF-000013,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",2,47575.95,3,Pedido histórico field mock (2025-09-16),true,5493582641213
+PF-000014,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,3,Pedido histórico field mock (2025-10-01),true,5493582641213
+PF-000014,29016,"Coca–Cola Original 2,5L x6",4,22359.26,3,Pedido histórico field mock (2025-10-01),true,5493582641213
+PF-000015,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-06-02),true,5492991227644
+PF-000015,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,4,Pedido histórico field mock (2025-06-02),true,5492991227644
+PF-000016,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-06-23),true,5492991227644
+PF-000016,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,4,Pedido histórico field mock (2025-06-23),true,5492991227644
+PF-000016,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,1,9622.58,4,Pedido histórico field mock (2025-06-23),true,5492991227644
+PF-000017,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-07-16),true,5492991227644
+PF-000017,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,4,Pedido histórico field mock (2025-07-16),true,5492991227644
+PF-000018,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-08-06),true,5492991227644
+PF-000018,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,4,Pedido histórico field mock (2025-08-06),true,5492991227644
+PF-000018,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,4,Pedido histórico field mock (2025-08-06),true,5492991227644
+PF-000018,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",2,20645.24,4,Pedido histórico field mock (2025-08-06),true,5492991227644
+PF-000019,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-08-19),true,5492991227644
+PF-000019,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,4,Pedido histórico field mock (2025-08-19),true,5492991227644
+PF-000019,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-08-19),true,5492991227644
+PF-000019,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,3,9622.58,4,Pedido histórico field mock (2025-08-19),true,5492991227644
+PF-000020,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,4,Pedido histórico field mock (2025-09-19),true,5492991227644
+PF-000020,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,4,Pedido histórico field mock (2025-09-19),true,5492991227644
+PF-000020,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",4,17070.57,4,Pedido histórico field mock (2025-09-19),true,5492991227644
+PF-000020,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,1,17140.21,4,Pedido histórico field mock (2025-09-19),true,5492991227644
+PF-000021,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-10-04),true,5492991227644
+PF-000021,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,4,Pedido histórico field mock (2025-10-04),true,5492991227644
+PF-000021,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",2,17070.57,4,Pedido histórico field mock (2025-10-04),true,5492991227644
+PF-000022,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,1,Pedido histórico field mock (2025-06-01),true,5493418277249
+PF-000022,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,1,Pedido histórico field mock (2025-06-01),true,5493418277249
+PF-000023,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,1,Pedido histórico field mock (2025-06-24),true,5493418277249
+PF-000023,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,1,Pedido histórico field mock (2025-06-24),true,5493418277249
+PF-000023,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,4,9622.58,1,Pedido histórico field mock (2025-06-24),true,5493418277249
+PF-000023,29010,"Coca–Cola Zero 1,5L x6",2,15034.50,1,Pedido histórico field mock (2025-06-24),true,5493418277249
+PF-000024,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,1,Pedido histórico field mock (2025-07-11),true,5493418277249
+PF-000024,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,1,Pedido histórico field mock (2025-07-11),true,5493418277249
+PF-000025,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,1,Pedido histórico field mock (2025-08-06),true,5493418277249
+PF-000025,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,1,Pedido histórico field mock (2025-08-06),true,5493418277249
+PF-000025,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",1,27063.50,1,Pedido histórico field mock (2025-08-06),true,5493418277249
+PF-000025,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,1,17140.21,1,Pedido histórico field mock (2025-08-06),true,5493418277249
+PF-000026,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,1,Pedido histórico field mock (2025-08-25),true,5493418277249
+PF-000026,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,1,Pedido histórico field mock (2025-08-25),true,5493418277249
+PF-000026,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,2,17140.21,1,Pedido histórico field mock (2025-08-25),true,5493418277249
+PF-000026,29019,Coca–Cola Zero 1L x9,4,17347.70,1,Pedido histórico field mock (2025-08-25),true,5493418277249
+PF-000027,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,1,Pedido histórico field mock (2025-09-17),true,5493418277249
+PF-000027,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,1,Pedido histórico field mock (2025-09-17),true,5493418277249
+PF-000027,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,1,Pedido histórico field mock (2025-09-17),true,5493418277249
+PF-000027,29003,Coca–Cola Original 500ml x12,3,13184.78,1,Pedido histórico field mock (2025-09-17),true,5493418277249
+PF-000028,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,1,Pedido histórico field mock (2025-09-30),true,5493418277249
+PF-000028,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido histórico field mock (2025-09-30),true,5493418277249
+PF-000028,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",3,47575.95,1,Pedido histórico field mock (2025-09-30),true,5493418277249
+PF-000028,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,3,17140.21,1,Pedido histórico field mock (2025-09-30),true,5493418277249
+PF-000029,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-06-01),true,5493587747641
+PF-000029,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-06-01),true,5493587747641
+PF-000030,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-06-19),true,5493587747641
+PF-000030,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-06-19),true,5493587747641
+PF-000031,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-07-08),true,5493587747641
+PF-000031,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-07-08),true,5493587747641
+PF-000031,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,2,Pedido histórico field mock (2025-07-08),true,5493587747641
+PF-000031,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,4,17140.21,2,Pedido histórico field mock (2025-07-08),true,5493587747641
+PF-000032,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-08-07),true,5493587747641
+PF-000032,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-08-07),true,5493587747641
+PF-000032,29003,Coca–Cola Original 500ml x12,2,13184.78,2,Pedido histórico field mock (2025-08-07),true,5493587747641
+PF-000033,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2025-08-28),true,5493587747641
+PF-000033,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-08-28),true,5493587747641
+PF-000033,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",2,17070.57,2,Pedido histórico field mock (2025-08-28),true,5493587747641
+PF-000033,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",2,27063.50,2,Pedido histórico field mock (2025-08-28),true,5493587747641
+PF-000034,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-09-15),true,5493587747641
+PF-000034,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2025-09-15),true,5493587747641
+PF-000035,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2025-10-04),true,5493587747641
+PF-000035,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2025-10-04),true,5493587747641
+PF-000036,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido histórico field mock (2025-06-05),true,5492614053074
+PF-000036,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,3,Pedido histórico field mock (2025-06-05),true,5492614053074
+PF-000036,29019,Coca–Cola Zero 1L x9,2,17347.70,3,Pedido histórico field mock (2025-06-05),true,5492614053074
+PF-000037,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2025-06-18),true,5492614053074
+PF-000037,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,3,Pedido histórico field mock (2025-06-18),true,5492614053074
+PF-000038,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido histórico field mock (2025-07-15),true,5492614053074
+PF-000038,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-07-15),true,5492614053074
+PF-000039,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2025-07-30),true,5492614053074
+PF-000039,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-07-30),true,5492614053074
+PF-000040,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido histórico field mock (2025-08-19),true,5492614053074
+PF-000040,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,3,Pedido histórico field mock (2025-08-19),true,5492614053074
+PF-000040,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",1,35664.02,3,Pedido histórico field mock (2025-08-19),true,5492614053074
+PF-000041,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,3,Pedido histórico field mock (2025-09-09),true,5492614053074
+PF-000041,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido histórico field mock (2025-09-09),true,5492614053074
+PF-000042,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido histórico field mock (2025-10-01),true,5492614053074
+PF-000042,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,3,Pedido histórico field mock (2025-10-01),true,5492614053074
+PF-000042,29017,Coca–Cola Light 500ml x6,2,6592.39,3,Pedido histórico field mock (2025-10-01),true,5492614053074
+PF-000042,29010,"Coca–Cola Zero 1,5L x6",2,15034.50,3,Pedido histórico field mock (2025-10-01),true,5492614053074
+PF-000043,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,4,Pedido histórico field mock (2025-06-06),true,5493514079279
+PF-000043,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido histórico field mock (2025-06-06),true,5493514079279
+PF-000043,29010,"Coca–Cola Zero 1,5L x6",4,15034.50,4,Pedido histórico field mock (2025-06-06),true,5493514079279
+PF-000043,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",4,17070.57,4,Pedido histórico field mock (2025-06-06),true,5493514079279
+PF-000044,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-06-22),true,5493514079279
+PF-000044,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,4,Pedido histórico field mock (2025-06-22),true,5493514079279
+PF-000045,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-07-18),true,5493514079279
+PF-000045,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido histórico field mock (2025-07-18),true,5493514079279
+PF-000046,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-07-31),true,5493514079279
+PF-000046,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido histórico field mock (2025-07-31),true,5493514079279
+PF-000046,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,3,17140.21,4,Pedido histórico field mock (2025-07-31),true,5493514079279
+PF-000047,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-08-28),true,5493514079279
+PF-000047,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido histórico field mock (2025-08-28),true,5493514079279
+PF-000047,29010,"Coca–Cola Zero 1,5L x6",3,15034.50,4,Pedido histórico field mock (2025-08-28),true,5493514079279
+PF-000048,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,4,Pedido histórico field mock (2025-09-12),true,5493514079279
+PF-000048,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,4,Pedido histórico field mock (2025-09-12),true,5493514079279
+PF-000048,29019,Coca–Cola Zero 1L x9,2,17347.70,4,Pedido histórico field mock (2025-09-12),true,5493514079279
+PF-000049,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-10-05),true,5493514079279
+PF-000049,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido histórico field mock (2025-10-05),true,5493514079279
+PF-000049,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-10-05),true,5493514079279
+PF-000049,29003,Coca–Cola Original 500ml x12,2,13184.78,4,Pedido histórico field mock (2025-10-05),true,5493514079279
+PF-000050,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,1,Pedido histórico field mock (2025-06-02),true,5493876914178
+PF-000050,29016,"Coca–Cola Original 2,5L x6",2,22359.26,1,Pedido histórico field mock (2025-06-02),true,5493876914178
+PF-000050,29003,Coca–Cola Original 500ml x12,3,13184.78,1,Pedido histórico field mock (2025-06-02),true,5493876914178
+PF-000051,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,1,Pedido histórico field mock (2025-06-27),true,5493876914178
+PF-000051,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido histórico field mock (2025-06-27),true,5493876914178
+PF-000052,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,1,Pedido histórico field mock (2025-07-08),true,5493876914178
+PF-000052,29016,"Coca–Cola Original 2,5L x6",2,22359.26,1,Pedido histórico field mock (2025-07-08),true,5493876914178
+PF-000053,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,1,Pedido histórico field mock (2025-08-01),true,5493876914178
+PF-000053,29016,"Coca–Cola Original 2,5L x6",2,22359.26,1,Pedido histórico field mock (2025-08-01),true,5493876914178
+PF-000054,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,1,Pedido histórico field mock (2025-08-23),true,5493876914178
+PF-000054,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido histórico field mock (2025-08-23),true,5493876914178
+PF-000054,29010,"Coca–Cola Zero 1,5L x6",1,15034.50,1,Pedido histórico field mock (2025-08-23),true,5493876914178
+PF-000054,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",1,17070.57,1,Pedido histórico field mock (2025-08-23),true,5493876914178
+PF-000055,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,1,Pedido histórico field mock (2025-09-15),true,5493876914178
+PF-000055,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido histórico field mock (2025-09-15),true,5493876914178
+PF-000055,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,1,Pedido histórico field mock (2025-09-15),true,5493876914178
+PF-000055,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,1,Pedido histórico field mock (2025-09-15),true,5493876914178
+PF-000056,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,1,Pedido histórico field mock (2025-09-30),true,5493876914178
+PF-000056,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido histórico field mock (2025-09-30),true,5493876914178
+PF-000057,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-06-02),true,5492617175545
+PF-000057,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,2,Pedido histórico field mock (2025-06-02),true,5492617175545
+PF-000057,29010,"Coca–Cola Zero 1,5L x6",3,15034.50,2,Pedido histórico field mock (2025-06-02),true,5492617175545
+PF-000058,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2025-06-25),true,5492617175545
+PF-000058,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2025-06-25),true,5492617175545
+PF-000059,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-07-15),true,5492617175545
+PF-000059,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,2,Pedido histórico field mock (2025-07-15),true,5492617175545
+PF-000059,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",3,27063.50,2,Pedido histórico field mock (2025-07-15),true,5492617175545
+PF-000060,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-08-08),true,5492617175545
+PF-000060,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-08-08),true,5492617175545
+PF-000060,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",2,17070.57,2,Pedido histórico field mock (2025-08-08),true,5492617175545
+PF-000060,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",1,35664.02,2,Pedido histórico field mock (2025-08-08),true,5492617175545
+PF-000061,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2025-08-23),true,5492617175545
+PF-000061,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2025-08-23),true,5492617175545
+PF-000062,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-09-12),true,5492617175545
+PF-000062,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2025-09-12),true,5492617175545
+PF-000062,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",2,35664.02,2,Pedido histórico field mock (2025-09-12),true,5492617175545
+PF-000062,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,4,17140.21,2,Pedido histórico field mock (2025-09-12),true,5492617175545
+PF-000063,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-10-08),true,5492617175545
+PF-000063,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-10-08),true,5492617175545
+PF-000063,29017,Coca–Cola Light 500ml x6,4,6592.39,2,Pedido histórico field mock (2025-10-08),true,5492617175545
+PF-000063,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-10-08),true,5492617175545
+PF-000064,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido histórico field mock (2025-06-01),true,5492618861463
+PF-000064,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-06-01),true,5492618861463
+PF-000064,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-06-01),true,5492618861463
+PF-000064,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,1,9622.58,4,Pedido histórico field mock (2025-06-01),true,5492618861463
+PF-000065,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,4,Pedido histórico field mock (2025-06-27),true,5492618861463
+PF-000065,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-06-27),true,5492618861463
+PF-000065,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,4,Pedido histórico field mock (2025-06-27),true,5492618861463
+PF-000066,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,4,Pedido histórico field mock (2025-07-11),true,5492618861463
+PF-000066,29016,"Coca–Cola Original 2,5L x6",4,22359.26,4,Pedido histórico field mock (2025-07-11),true,5492618861463
+PF-000066,29017,Coca–Cola Light 500ml x6,3,6592.39,4,Pedido histórico field mock (2025-07-11),true,5492618861463
+PF-000066,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",1,35664.02,4,Pedido histórico field mock (2025-07-11),true,5492618861463
+PF-000067,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,4,Pedido histórico field mock (2025-08-05),true,5492618861463
+PF-000067,29016,"Coca–Cola Original 2,5L x6",1,22359.26,4,Pedido histórico field mock (2025-08-05),true,5492618861463
+PF-000067,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,4,9622.58,4,Pedido histórico field mock (2025-08-05),true,5492618861463
+PF-000067,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",2,27063.50,4,Pedido histórico field mock (2025-08-05),true,5492618861463
+PF-000068,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,4,Pedido histórico field mock (2025-08-24),true,5492618861463
+PF-000068,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-08-24),true,5492618861463
+PF-000068,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-08-24),true,5492618861463
+PF-000068,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",2,35664.02,4,Pedido histórico field mock (2025-08-24),true,5492618861463
+PF-000069,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,4,Pedido histórico field mock (2025-09-16),true,5492618861463
+PF-000069,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-09-16),true,5492618861463
+PF-000069,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",1,17070.57,4,Pedido histórico field mock (2025-09-16),true,5492618861463
+PF-000069,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",4,35664.02,4,Pedido histórico field mock (2025-09-16),true,5492618861463
+PF-000070,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,4,Pedido histórico field mock (2025-10-04),true,5492618861463
+PF-000070,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2025-10-04),true,5492618861463
+PF-000070,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",1,20645.24,4,Pedido histórico field mock (2025-10-04),true,5492618861463
+PF-000071,29016,"Coca–Cola Original 2,5L x6",2,22359.26,1,Pedido histórico field mock (2025-06-01),true,5493812941974
+PF-000071,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,1,Pedido histórico field mock (2025-06-01),true,5493812941974
+PF-000071,29010,"Coca–Cola Zero 1,5L x6",4,15034.50,1,Pedido histórico field mock (2025-06-01),true,5493812941974
+PF-000072,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido histórico field mock (2025-07-10),true,5493812941974
+PF-000072,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,1,Pedido histórico field mock (2025-07-10),true,5493812941974
+PF-000073,29016,"Coca–Cola Original 2,5L x6",2,22359.26,1,Pedido histórico field mock (2025-08-15),true,5493812941974
+PF-000073,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,1,Pedido histórico field mock (2025-08-15),true,5493812941974
+PF-000073,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",2,27063.50,1,Pedido histórico field mock (2025-08-15),true,5493812941974
+PF-000074,29016,"Coca–Cola Original 2,5L x6",2,22359.26,1,Pedido histórico field mock (2025-09-23),true,5493812941974
+PF-000074,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,1,Pedido histórico field mock (2025-09-23),true,5493812941974
+PF-000075,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido histórico field mock (2025-10-31),true,5493812941974
+PF-000075,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,1,Pedido histórico field mock (2025-10-31),true,5493812941974
+PF-000075,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",3,20645.24,1,Pedido histórico field mock (2025-10-31),true,5493812941974
+PF-000076,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido histórico field mock (2025-12-13),true,5493812941974
+PF-000076,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,1,Pedido histórico field mock (2025-12-13),true,5493812941974
+PF-000076,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",4,20645.24,1,Pedido histórico field mock (2025-12-13),true,5493812941974
+PF-000076,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,1,17140.21,1,Pedido histórico field mock (2025-12-13),true,5493812941974
+PF-000077,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido histórico field mock (2026-01-12),true,5493812941974
+PF-000077,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,1,Pedido histórico field mock (2026-01-12),true,5493812941974
+PF-000077,29003,Coca–Cola Original 500ml x12,2,13184.78,1,Pedido histórico field mock (2026-01-12),true,5493812941974
+PF-000078,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido reciente field mock (2026-04-01),true,5493812941974
+PF-000078,29036,Coca-Cola Original 1L x9,3,17347.70,1,Pedido reciente field mock (2026-04-01),true,5493812941974
+PF-000079,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido reciente field mock (2026-04-23),true,5493812941974
+PF-000079,29016,"Coca–Cola Original 2,5L x6",2,22359.26,1,Pedido reciente field mock (2026-04-23),true,5493812941974
+PF-000080,29036,Coca-Cola Original 1L x9,3,17347.70,1,Pedido reciente field mock (2026-05-05),true,5493812941974
+PF-000080,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido reciente field mock (2026-05-05),true,5493812941974
+PF-000081,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2025-06-04),true,5493817404433
+PF-000081,29036,Coca-Cola Original 1L x9,2,17347.70,2,Pedido histórico field mock (2025-06-04),true,5493817404433
+PF-000081,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,2,Pedido histórico field mock (2025-06-04),true,5493817404433
+PF-000081,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-06-04),true,5493817404433
+PF-000082,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2025-07-07),true,5493817404433
+PF-000082,29036,Coca-Cola Original 1L x9,3,17347.70,2,Pedido histórico field mock (2025-07-07),true,5493817404433
+PF-000083,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-08-13),true,5493817404433
+PF-000083,29036,Coca-Cola Original 1L x9,2,17347.70,2,Pedido histórico field mock (2025-08-13),true,5493817404433
+PF-000083,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,2,17140.21,2,Pedido histórico field mock (2025-08-13),true,5493817404433
+PF-000083,29017,Coca–Cola Light 500ml x6,3,6592.39,2,Pedido histórico field mock (2025-08-13),true,5493817404433
+PF-000084,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-09-24),true,5493817404433
+PF-000084,29036,Coca-Cola Original 1L x9,4,17347.70,2,Pedido histórico field mock (2025-09-24),true,5493817404433
+PF-000085,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-10-29),true,5493817404433
+PF-000085,29036,Coca-Cola Original 1L x9,4,17347.70,2,Pedido histórico field mock (2025-10-29),true,5493817404433
+PF-000085,29003,Coca–Cola Original 500ml x12,4,13184.78,2,Pedido histórico field mock (2025-10-29),true,5493817404433
+PF-000086,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2025-12-05),true,5493817404433
+PF-000086,29036,Coca-Cola Original 1L x9,3,17347.70,2,Pedido histórico field mock (2025-12-05),true,5493817404433
+PF-000086,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,1,17140.21,2,Pedido histórico field mock (2025-12-05),true,5493817404433
+PF-000087,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2026-01-11),true,5493817404433
+PF-000087,29036,Coca-Cola Original 1L x9,1,17347.70,2,Pedido histórico field mock (2026-01-11),true,5493817404433
+PF-000088,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido reciente field mock (2026-04-17),true,5493817404433
+PF-000088,29016,"Coca–Cola Original 2,5L x6",3,22359.26,2,Pedido reciente field mock (2026-04-17),true,5493817404433
+PF-000089,29036,Coca-Cola Original 1L x9,2,17347.70,2,Pedido reciente field mock (2026-05-03),true,5493817404433
+PF-000089,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,2,Pedido reciente field mock (2026-05-03),true,5493817404433
+PF-000090,29036,Coca-Cola Original 1L x9,1,17347.70,2,Pedido reciente field mock (2026-05-07),true,5493817404433
+PF-000090,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,2,Pedido reciente field mock (2026-05-07),true,5493817404433
+PF-000091,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,3,Pedido histórico field mock (2025-06-01),true,5493419686914
+PF-000091,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,3,Pedido histórico field mock (2025-06-01),true,5493419686914
+PF-000091,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-06-01),true,5493419686914
+PF-000092,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido histórico field mock (2025-07-07),true,5493419686914
+PF-000092,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2025-07-07),true,5493419686914
+PF-000092,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,3,Pedido histórico field mock (2025-07-07),true,5493419686914
+PF-000092,29012,"Coca–Cola Original 2,25L x6",2,20432.47,3,Pedido histórico field mock (2025-07-07),true,5493419686914
+PF-000093,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido histórico field mock (2025-08-13),true,5493419686914
+PF-000093,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2025-08-13),true,5493419686914
+PF-000094,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido histórico field mock (2025-09-25),true,5493419686914
+PF-000094,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,3,Pedido histórico field mock (2025-09-25),true,5493419686914
+PF-000094,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",3,27063.50,3,Pedido histórico field mock (2025-09-25),true,5493419686914
+PF-000094,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,3,17140.21,3,Pedido histórico field mock (2025-09-25),true,5493419686914
+PF-000095,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido histórico field mock (2025-10-31),true,5493419686914
+PF-000095,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido histórico field mock (2025-10-31),true,5493419686914
+PF-000095,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,3,17140.21,3,Pedido histórico field mock (2025-10-31),true,5493419686914
+PF-000096,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido histórico field mock (2025-12-06),true,5493419686914
+PF-000096,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,3,Pedido histórico field mock (2025-12-06),true,5493419686914
+PF-000096,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",3,20645.24,3,Pedido histórico field mock (2025-12-06),true,5493419686914
+PF-000096,29010,"Coca–Cola Zero 1,5L x6",3,15034.50,3,Pedido histórico field mock (2025-12-06),true,5493419686914
+PF-000097,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido histórico field mock (2026-01-11),true,5493419686914
+PF-000097,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,3,Pedido histórico field mock (2026-01-11),true,5493419686914
+PF-000097,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido histórico field mock (2026-01-11),true,5493419686914
+PF-000097,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",2,47575.95,3,Pedido histórico field mock (2026-01-11),true,5493419686914
+PF-000098,29016,"Coca–Cola Original 2,5L x6",2,22359.26,3,Pedido reciente field mock (2026-04-13),true,5493419686914
+PF-000098,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido reciente field mock (2026-04-13),true,5493419686914
+PF-000099,29016,"Coca–Cola Original 2,5L x6",2,22359.26,3,Pedido reciente field mock (2026-04-15),true,5493419686914
+PF-000099,29036,Coca-Cola Original 1L x9,2,17347.70,3,Pedido reciente field mock (2026-04-15),true,5493419686914
+PF-000100,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido reciente field mock (2026-05-14),true,5493419686914
+PF-000100,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,3,Pedido reciente field mock (2026-05-14),true,5493419686914
+PF-000101,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,4,Pedido histórico field mock (2025-06-05),true,5493518648263
+PF-000101,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-06-05),true,5493518648263
+PF-000101,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",1,35664.02,4,Pedido histórico field mock (2025-06-05),true,5493518648263
+PF-000101,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,4,Pedido histórico field mock (2025-06-05),true,5493518648263
+PF-000102,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,4,Pedido histórico field mock (2025-07-04),true,5493518648263
+PF-000102,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-07-04),true,5493518648263
+PF-000103,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,4,Pedido histórico field mock (2025-08-11),true,5493518648263
+PF-000103,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2025-08-11),true,5493518648263
+PF-000104,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,4,Pedido histórico field mock (2025-09-25),true,5493518648263
+PF-000104,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-09-25),true,5493518648263
+PF-000105,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,4,Pedido histórico field mock (2025-10-28),true,5493518648263
+PF-000105,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-10-28),true,5493518648263
+PF-000106,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,4,Pedido histórico field mock (2025-12-08),true,5493518648263
+PF-000106,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-12-08),true,5493518648263
+PF-000106,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,4,Pedido histórico field mock (2025-12-08),true,5493518648263
+PF-000106,29003,Coca–Cola Original 500ml x12,2,13184.78,4,Pedido histórico field mock (2025-12-08),true,5493518648263
+PF-000107,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,4,Pedido histórico field mock (2026-01-17),true,5493518648263
+PF-000107,29016,"Coca–Cola Original 2,5L x6",4,22359.26,4,Pedido histórico field mock (2026-01-17),true,5493518648263
+PF-000108,29036,Coca-Cola Original 1L x9,2,17347.70,4,Pedido reciente field mock (2026-04-09),true,5493518648263
+PF-000108,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido reciente field mock (2026-04-09),true,5493518648263
+PF-000109,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido reciente field mock (2026-04-16),true,5493518648263
+PF-000109,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido reciente field mock (2026-04-16),true,5493518648263
+PF-000110,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,4,Pedido reciente field mock (2026-04-19),true,5493518648263
+PF-000110,29036,Coca-Cola Original 1L x9,1,17347.70,4,Pedido reciente field mock (2026-04-19),true,5493518648263
+PF-000111,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido histórico field mock (2025-06-01),true,5493516216782
+PF-000111,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,1,Pedido histórico field mock (2025-06-01),true,5493516216782
+PF-000111,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",4,35664.02,1,Pedido histórico field mock (2025-06-01),true,5493516216782
+PF-000111,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",1,20645.24,1,Pedido histórico field mock (2025-06-01),true,5493516216782
+PF-000112,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido histórico field mock (2025-07-11),true,5493516216782
+PF-000112,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,1,Pedido histórico field mock (2025-07-11),true,5493516216782
+PF-000112,29017,Coca–Cola Light 500ml x6,1,6592.39,1,Pedido histórico field mock (2025-07-11),true,5493516216782
+PF-000112,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",3,35664.02,1,Pedido histórico field mock (2025-07-11),true,5493516216782
+PF-000113,29036,Coca-Cola Original 1L x9,3,17347.70,1,Pedido histórico field mock (2025-08-19),true,5493516216782
+PF-000113,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,1,Pedido histórico field mock (2025-08-19),true,5493516216782
+PF-000113,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,2,17140.21,1,Pedido histórico field mock (2025-08-19),true,5493516216782
+PF-000113,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",1,27063.50,1,Pedido histórico field mock (2025-08-19),true,5493516216782
+PF-000114,29036,Coca-Cola Original 1L x9,1,17347.70,1,Pedido histórico field mock (2025-09-26),true,5493516216782
+PF-000114,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,1,Pedido histórico field mock (2025-09-26),true,5493516216782
+PF-000114,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",4,35664.02,1,Pedido histórico field mock (2025-09-26),true,5493516216782
+PF-000114,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,1,Pedido histórico field mock (2025-09-26),true,5493516216782
+PF-000115,29036,Coca-Cola Original 1L x9,1,17347.70,1,Pedido histórico field mock (2025-10-30),true,5493516216782
+PF-000115,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,1,Pedido histórico field mock (2025-10-30),true,5493516216782
+PF-000115,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",2,27063.50,1,Pedido histórico field mock (2025-10-30),true,5493516216782
+PF-000115,29019,Coca–Cola Zero 1L x9,4,17347.70,1,Pedido histórico field mock (2025-10-30),true,5493516216782
+PF-000116,29036,Coca-Cola Original 1L x9,3,17347.70,1,Pedido histórico field mock (2025-12-09),true,5493516216782
+PF-000116,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,1,Pedido histórico field mock (2025-12-09),true,5493516216782
+PF-000116,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido histórico field mock (2025-12-09),true,5493516216782
+PF-000116,29012,"Coca–Cola Original 2,25L x6",4,20432.47,1,Pedido histórico field mock (2025-12-09),true,5493516216782
+PF-000117,29036,Coca-Cola Original 1L x9,3,17347.70,1,Pedido histórico field mock (2026-01-13),true,5493516216782
+PF-000117,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,1,Pedido histórico field mock (2026-01-13),true,5493516216782
+PF-000117,29017,Coca–Cola Light 500ml x6,1,6592.39,1,Pedido histórico field mock (2026-01-13),true,5493516216782
+PF-000118,29016,"Coca–Cola Original 2,5L x6",2,22359.26,1,Pedido reciente field mock (2026-04-01),true,5493516216782
+PF-000118,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,1,Pedido reciente field mock (2026-04-01),true,5493516216782
+PF-000119,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido reciente field mock (2026-04-02),true,5493516216782
+PF-000119,29036,Coca-Cola Original 1L x9,3,17347.70,1,Pedido reciente field mock (2026-04-02),true,5493516216782
+PF-000120,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,1,Pedido reciente field mock (2026-05-09),true,5493516216782
+PF-000120,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido reciente field mock (2026-05-09),true,5493516216782
+PF-000121,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,2,Pedido histórico field mock (2025-06-01),true,5492612780568
+PF-000121,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,2,Pedido histórico field mock (2025-06-01),true,5492612780568
+PF-000121,29010,"Coca–Cola Zero 1,5L x6",1,15034.50,2,Pedido histórico field mock (2025-06-01),true,5492612780568
+PF-000122,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,2,Pedido histórico field mock (2025-07-10),true,5492612780568
+PF-000122,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-07-10),true,5492612780568
+PF-000122,29012,"Coca–Cola Original 2,25L x6",4,20432.47,2,Pedido histórico field mock (2025-07-10),true,5492612780568
+PF-000122,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-07-10),true,5492612780568
+PF-000123,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,2,Pedido histórico field mock (2025-08-14),true,5492612780568
+PF-000123,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2025-08-14),true,5492612780568
+PF-000123,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,2,9622.58,2,Pedido histórico field mock (2025-08-14),true,5492612780568
+PF-000124,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,2,Pedido histórico field mock (2025-09-28),true,5492612780568
+PF-000124,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-09-28),true,5492612780568
+PF-000125,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,2,Pedido histórico field mock (2025-10-31),true,5492612780568
+PF-000125,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-10-31),true,5492612780568
+PF-000125,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,1,17140.21,2,Pedido histórico field mock (2025-10-31),true,5492612780568
+PF-000125,29012,"Coca–Cola Original 2,25L x6",3,20432.47,2,Pedido histórico field mock (2025-10-31),true,5492612780568
+PF-000126,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,2,Pedido histórico field mock (2025-12-12),true,5492612780568
+PF-000126,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,2,Pedido histórico field mock (2025-12-12),true,5492612780568
+PF-000127,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,2,Pedido histórico field mock (2026-01-15),true,5492612780568
+PF-000127,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2026-01-15),true,5492612780568
+PF-000127,29012,"Coca–Cola Original 2,25L x6",3,20432.47,2,Pedido histórico field mock (2026-01-15),true,5492612780568
+PF-000127,29010,"Coca–Cola Zero 1,5L x6",1,15034.50,2,Pedido histórico field mock (2026-01-15),true,5492612780568
+PF-000128,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido reciente field mock (2026-05-01),true,5492612780568
+PF-000128,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,2,Pedido reciente field mock (2026-05-01),true,5492612780568
+PF-000129,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,2,Pedido reciente field mock (2026-05-04),true,5492612780568
+PF-000129,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,2,Pedido reciente field mock (2026-05-04),true,5492612780568
+PF-000130,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido reciente field mock (2026-05-15),true,5492612780568
+PF-000130,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,2,Pedido reciente field mock (2026-05-15),true,5492612780568
+PF-000131,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido histórico field mock (2025-06-01),true,5493582639964
+PF-000131,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido histórico field mock (2025-06-01),true,5493582639964
+PF-000132,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido histórico field mock (2025-07-09),true,5493582639964
+PF-000132,29036,Coca-Cola Original 1L x9,2,17347.70,3,Pedido histórico field mock (2025-07-09),true,5493582639964
+PF-000133,29016,"Coca–Cola Original 2,5L x6",2,22359.26,3,Pedido histórico field mock (2025-08-12),true,5493582639964
+PF-000133,29036,Coca-Cola Original 1L x9,2,17347.70,3,Pedido histórico field mock (2025-08-12),true,5493582639964
+PF-000133,29019,Coca–Cola Zero 1L x9,2,17347.70,3,Pedido histórico field mock (2025-08-12),true,5493582639964
+PF-000134,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido histórico field mock (2025-09-18),true,5493582639964
+PF-000134,29036,Coca-Cola Original 1L x9,2,17347.70,3,Pedido histórico field mock (2025-09-18),true,5493582639964
+PF-000134,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",1,27063.50,3,Pedido histórico field mock (2025-09-18),true,5493582639964
+PF-000134,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",2,47575.95,3,Pedido histórico field mock (2025-09-18),true,5493582639964
+PF-000135,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido histórico field mock (2025-11-03),true,5493582639964
+PF-000135,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido histórico field mock (2025-11-03),true,5493582639964
+PF-000135,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",4,17070.57,3,Pedido histórico field mock (2025-11-03),true,5493582639964
+PF-000135,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-11-03),true,5493582639964
+PF-000136,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido histórico field mock (2025-12-12),true,5493582639964
+PF-000136,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido histórico field mock (2025-12-12),true,5493582639964
+PF-000136,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",1,27063.50,3,Pedido histórico field mock (2025-12-12),true,5493582639964
+PF-000137,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido histórico field mock (2026-01-15),true,5493582639964
+PF-000137,29036,Coca-Cola Original 1L x9,4,17347.70,3,Pedido histórico field mock (2026-01-15),true,5493582639964
+PF-000138,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido reciente field mock (2026-04-08),true,5493582639964
+PF-000138,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido reciente field mock (2026-04-08),true,5493582639964
+PF-000139,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido reciente field mock (2026-04-09),true,5493582639964
+PF-000139,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido reciente field mock (2026-04-09),true,5493582639964
+PF-000140,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido reciente field mock (2026-04-29),true,5493582639964
+PF-000140,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,3,Pedido reciente field mock (2026-04-29),true,5493582639964
+PF-000141,29016,"Coca–Cola Original 2,5L x6",4,22359.26,3,Pedido histórico field mock (2025-06-04),true,5493818437953
+PF-000141,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2025-06-04),true,5493818437953
+PF-000141,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",4,20645.24,3,Pedido histórico field mock (2025-06-04),true,5493818437953
+PF-000142,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido histórico field mock (2025-07-09),true,5493818437953
+PF-000142,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2025-07-09),true,5493818437953
+PF-000143,29016,"Coca–Cola Original 2,5L x6",4,22359.26,3,Pedido histórico field mock (2025-08-14),true,5493818437953
+PF-000143,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2025-08-14),true,5493818437953
+PF-000143,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",2,20645.24,3,Pedido histórico field mock (2025-08-14),true,5493818437953
+PF-000144,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido histórico field mock (2025-09-19),true,5493818437953
+PF-000144,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2025-09-19),true,5493818437953
+PF-000145,29016,"Coca–Cola Original 2,5L x6",4,22359.26,3,Pedido histórico field mock (2025-11-03),true,5493818437953
+PF-000145,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,3,Pedido histórico field mock (2025-11-03),true,5493818437953
+PF-000146,29016,"Coca–Cola Original 2,5L x6",4,22359.26,3,Pedido histórico field mock (2025-12-07),true,5493818437953
+PF-000146,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido histórico field mock (2025-12-07),true,5493818437953
+PF-000147,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido histórico field mock (2026-01-17),true,5493818437953
+PF-000147,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2026-01-17),true,5493818437953
+PF-000147,29017,Coca–Cola Light 500ml x6,1,6592.39,3,Pedido histórico field mock (2026-01-17),true,5493818437953
+PF-000147,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,3,Pedido histórico field mock (2026-01-17),true,5493818437953
+PF-000148,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido reciente field mock (2026-04-24),true,5493818437953
+PF-000148,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,3,Pedido reciente field mock (2026-04-24),true,5493818437953
+PF-000149,29036,Coca-Cola Original 1L x9,2,17347.70,3,Pedido reciente field mock (2026-05-15),true,5493818437953
+PF-000149,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,3,Pedido reciente field mock (2026-05-15),true,5493818437953
+PF-000150,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido reciente field mock (2026-05-16),true,5493818437953
+PF-000150,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido reciente field mock (2026-05-16),true,5493818437953
+PF-000151,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,4,Pedido histórico field mock (2025-06-01),true,5493582132179
+PF-000151,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-06-01),true,5493582132179
+PF-000151,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",3,27063.50,4,Pedido histórico field mock (2025-06-01),true,5493582132179
+PF-000151,29003,Coca–Cola Original 500ml x12,1,13184.78,4,Pedido histórico field mock (2025-06-01),true,5493582132179
+PF-000152,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,4,Pedido histórico field mock (2025-07-12),true,5493582132179
+PF-000152,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-07-12),true,5493582132179
+PF-000152,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",2,47575.95,4,Pedido histórico field mock (2025-07-12),true,5493582132179
+PF-000153,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,4,Pedido histórico field mock (2025-08-15),true,5493582132179
+PF-000153,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-08-15),true,5493582132179
+PF-000154,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,4,Pedido histórico field mock (2025-09-18),true,5493582132179
+PF-000154,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-09-18),true,5493582132179
+PF-000154,29010,"Coca–Cola Zero 1,5L x6",2,15034.50,4,Pedido histórico field mock (2025-09-18),true,5493582132179
+PF-000154,29019,Coca–Cola Zero 1L x9,3,17347.70,4,Pedido histórico field mock (2025-09-18),true,5493582132179
+PF-000155,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,4,Pedido histórico field mock (2025-10-28),true,5493582132179
+PF-000155,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-10-28),true,5493582132179
+PF-000156,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,4,Pedido histórico field mock (2025-12-10),true,5493582132179
+PF-000156,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,4,Pedido histórico field mock (2025-12-10),true,5493582132179
+PF-000156,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,2,9622.58,4,Pedido histórico field mock (2025-12-10),true,5493582132179
+PF-000156,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-12-10),true,5493582132179
+PF-000157,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,4,Pedido histórico field mock (2026-01-13),true,5493582132179
+PF-000157,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,4,Pedido histórico field mock (2026-01-13),true,5493582132179
+PF-000157,29017,Coca–Cola Light 500ml x6,1,6592.39,4,Pedido histórico field mock (2026-01-13),true,5493582132179
+PF-000158,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido reciente field mock (2026-04-02),true,5493582132179
+PF-000158,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido reciente field mock (2026-04-02),true,5493582132179
+PF-000159,29036,Coca-Cola Original 1L x9,3,17347.70,4,Pedido reciente field mock (2026-04-05),true,5493582132179
+PF-000159,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,4,Pedido reciente field mock (2026-04-05),true,5493582132179
+PF-000160,29036,Coca-Cola Original 1L x9,1,17347.70,4,Pedido reciente field mock (2026-04-09),true,5493582132179
+PF-000160,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,4,Pedido reciente field mock (2026-04-09),true,5493582132179
+PF-000161,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido histórico field mock (2025-06-01),true,5493872845902
+PF-000161,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido histórico field mock (2025-06-01),true,5493872845902
+PF-000161,29003,Coca–Cola Original 500ml x12,1,13184.78,1,Pedido histórico field mock (2025-06-01),true,5493872845902
+PF-000161,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,2,17140.21,1,Pedido histórico field mock (2025-06-01),true,5493872845902
+PF-000162,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido histórico field mock (2025-07-14),true,5493872845902
+PF-000162,29016,"Coca–Cola Original 2,5L x6",2,22359.26,1,Pedido histórico field mock (2025-07-14),true,5493872845902
+PF-000163,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,1,Pedido histórico field mock (2025-08-12),true,5493872845902
+PF-000163,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido histórico field mock (2025-08-12),true,5493872845902
+PF-000163,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,1,Pedido histórico field mock (2025-08-12),true,5493872845902
+PF-000163,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",1,17070.57,1,Pedido histórico field mock (2025-08-12),true,5493872845902
+PF-000164,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,1,Pedido histórico field mock (2025-09-24),true,5493872845902
+PF-000164,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido histórico field mock (2025-09-24),true,5493872845902
+PF-000164,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,2,17140.21,1,Pedido histórico field mock (2025-09-24),true,5493872845902
+PF-000164,29019,Coca–Cola Zero 1L x9,2,17347.70,1,Pedido histórico field mock (2025-09-24),true,5493872845902
+PF-000165,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,1,Pedido histórico field mock (2025-11-05),true,5493872845902
+PF-000165,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido histórico field mock (2025-11-05),true,5493872845902
+PF-000165,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",1,20645.24,1,Pedido histórico field mock (2025-11-05),true,5493872845902
+PF-000165,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",3,47575.95,1,Pedido histórico field mock (2025-11-05),true,5493872845902
+PF-000166,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido histórico field mock (2025-12-06),true,5493872845902
+PF-000166,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido histórico field mock (2025-12-06),true,5493872845902
+PF-000166,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,1,Pedido histórico field mock (2025-12-06),true,5493872845902
+PF-000166,29019,Coca–Cola Zero 1L x9,2,17347.70,1,Pedido histórico field mock (2025-12-06),true,5493872845902
+PF-000167,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido histórico field mock (2026-01-20),true,5493872845902
+PF-000167,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido histórico field mock (2026-01-20),true,5493872845902
+PF-000168,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,1,Pedido reciente field mock (2026-04-04),true,5493872845902
+PF-000168,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,1,Pedido reciente field mock (2026-04-04),true,5493872845902
+PF-000169,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido reciente field mock (2026-04-22),true,5493872845902
+PF-000169,29036,Coca-Cola Original 1L x9,1,17347.70,1,Pedido reciente field mock (2026-04-22),true,5493872845902
+PF-000170,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido reciente field mock (2026-05-13),true,5493872845902
+PF-000170,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido reciente field mock (2026-05-13),true,5493872845902
+PF-000171,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-06-06),true,5492997670210
+PF-000171,29016,"Coca–Cola Original 2,5L x6",3,22359.26,2,Pedido histórico field mock (2025-06-06),true,5492997670210
+PF-000171,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",1,17070.57,2,Pedido histórico field mock (2025-06-06),true,5492997670210
+PF-000171,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,2,Pedido histórico field mock (2025-06-06),true,5492997670210
+PF-000172,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2025-07-12),true,5492997670210
+PF-000172,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2025-07-12),true,5492997670210
+PF-000172,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-07-12),true,5492997670210
+PF-000173,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2025-08-19),true,5492997670210
+PF-000173,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2025-08-19),true,5492997670210
+PF-000174,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-09-26),true,5492997670210
+PF-000174,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido histórico field mock (2025-09-26),true,5492997670210
+PF-000174,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,3,17140.21,2,Pedido histórico field mock (2025-09-26),true,5492997670210
+PF-000174,29012,"Coca–Cola Original 2,25L x6",1,20432.47,2,Pedido histórico field mock (2025-09-26),true,5492997670210
+PF-000175,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-11-05),true,5492997670210
+PF-000175,29016,"Coca–Cola Original 2,5L x6",3,22359.26,2,Pedido histórico field mock (2025-11-05),true,5492997670210
+PF-000176,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-12-09),true,5492997670210
+PF-000176,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido histórico field mock (2025-12-09),true,5492997670210
+PF-000176,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",2,17070.57,2,Pedido histórico field mock (2025-12-09),true,5492997670210
+PF-000176,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,2,Pedido histórico field mock (2025-12-09),true,5492997670210
+PF-000177,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2026-01-10),true,5492997670210
+PF-000177,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2026-01-10),true,5492997670210
+PF-000178,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,2,Pedido reciente field mock (2026-04-04),true,5492997670210
+PF-000178,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,2,Pedido reciente field mock (2026-04-04),true,5492997670210
+PF-000179,29036,Coca-Cola Original 1L x9,1,17347.70,2,Pedido reciente field mock (2026-04-26),true,5492997670210
+PF-000179,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido reciente field mock (2026-04-26),true,5492997670210
+PF-000180,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido reciente field mock (2026-05-05),true,5492997670210
+PF-000180,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,2,Pedido reciente field mock (2026-05-05),true,5492997670210
+PF-000181,29036,Coca-Cola Original 1L x9,3,17347.70,3,Pedido histórico field mock (2025-06-04),true,5493811657614
+PF-000181,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,3,Pedido histórico field mock (2025-06-04),true,5493811657614
+PF-000181,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,4,9622.58,3,Pedido histórico field mock (2025-06-04),true,5493811657614
+PF-000181,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,3,Pedido histórico field mock (2025-06-04),true,5493811657614
+PF-000182,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido histórico field mock (2025-07-14),true,5493811657614
+PF-000182,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-07-14),true,5493811657614
+PF-000182,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",4,27063.50,3,Pedido histórico field mock (2025-07-14),true,5493811657614
+PF-000183,29036,Coca-Cola Original 1L x9,3,17347.70,3,Pedido histórico field mock (2025-08-19),true,5493811657614
+PF-000183,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-08-19),true,5493811657614
+PF-000183,29003,Coca–Cola Original 500ml x12,4,13184.78,3,Pedido histórico field mock (2025-08-19),true,5493811657614
+PF-000183,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2025-08-19),true,5493811657614
+PF-000184,29036,Coca-Cola Original 1L x9,3,17347.70,3,Pedido histórico field mock (2025-09-26),true,5493811657614
+PF-000184,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-09-26),true,5493811657614
+PF-000184,29003,Coca–Cola Original 500ml x12,1,13184.78,3,Pedido histórico field mock (2025-09-26),true,5493811657614
+PF-000184,29017,Coca–Cola Light 500ml x6,4,6592.39,3,Pedido histórico field mock (2025-09-26),true,5493811657614
+PF-000185,29036,Coca-Cola Original 1L x9,2,17347.70,3,Pedido histórico field mock (2025-11-05),true,5493811657614
+PF-000185,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-11-05),true,5493811657614
+PF-000185,29010,"Coca–Cola Zero 1,5L x6",4,15034.50,3,Pedido histórico field mock (2025-11-05),true,5493811657614
+PF-000186,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido histórico field mock (2025-12-05),true,5493811657614
+PF-000186,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido histórico field mock (2025-12-05),true,5493811657614
+PF-000186,29012,"Coca–Cola Original 2,25L x6",1,20432.47,3,Pedido histórico field mock (2025-12-05),true,5493811657614
+PF-000187,29036,Coca-Cola Original 1L x9,4,17347.70,3,Pedido histórico field mock (2026-01-12),true,5493811657614
+PF-000187,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,3,Pedido histórico field mock (2026-01-12),true,5493811657614
+PF-000187,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,4,9622.58,3,Pedido histórico field mock (2026-01-12),true,5493811657614
+PF-000187,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,3,Pedido histórico field mock (2026-01-12),true,5493811657614
+PF-000188,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido reciente field mock (2026-04-14),true,5493811657614
+PF-000188,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,3,Pedido reciente field mock (2026-04-14),true,5493811657614
+PF-000189,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido reciente field mock (2026-04-25),true,5493811657614
+PF-000189,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,3,Pedido reciente field mock (2026-04-25),true,5493811657614
+PF-000190,29036,Coca-Cola Original 1L x9,2,17347.70,3,Pedido reciente field mock (2026-05-18),true,5493811657614
+PF-000190,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido reciente field mock (2026-05-18),true,5493811657614
+PF-000191,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,4,Pedido histórico field mock (2025-06-02),true,5492994145193
+PF-000191,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-06-02),true,5492994145193
+PF-000191,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,4,Pedido histórico field mock (2025-06-02),true,5492994145193
+PF-000192,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,4,Pedido histórico field mock (2025-07-10),true,5492994145193
+PF-000192,29016,"Coca–Cola Original 2,5L x6",1,22359.26,4,Pedido histórico field mock (2025-07-10),true,5492994145193
+PF-000193,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,4,Pedido histórico field mock (2025-08-16),true,5492994145193
+PF-000193,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-08-16),true,5492994145193
+PF-000194,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-09-27),true,5492994145193
+PF-000194,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-09-27),true,5492994145193
+PF-000194,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",3,35664.02,4,Pedido histórico field mock (2025-09-27),true,5492994145193
+PF-000195,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-11-02),true,5492994145193
+PF-000195,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2025-11-02),true,5492994145193
+PF-000195,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",2,35664.02,4,Pedido histórico field mock (2025-11-02),true,5492994145193
+PF-000196,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-12-07),true,5492994145193
+PF-000196,29016,"Coca–Cola Original 2,5L x6",4,22359.26,4,Pedido histórico field mock (2025-12-07),true,5492994145193
+PF-000197,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,4,Pedido histórico field mock (2026-01-17),true,5492994145193
+PF-000197,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2026-01-17),true,5492994145193
+PF-000197,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2026-01-17),true,5492994145193
+PF-000198,29016,"Coca–Cola Original 2,5L x6",1,22359.26,4,Pedido reciente field mock (2026-04-07),true,5492994145193
+PF-000198,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,4,Pedido reciente field mock (2026-04-07),true,5492994145193
+PF-000199,29036,Coca-Cola Original 1L x9,1,17347.70,4,Pedido reciente field mock (2026-04-09),true,5492994145193
+PF-000199,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,4,Pedido reciente field mock (2026-04-09),true,5492994145193
+PF-000200,29036,Coca-Cola Original 1L x9,3,17347.70,4,Pedido reciente field mock (2026-04-20),true,5492994145193
+PF-000200,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,4,Pedido reciente field mock (2026-04-20),true,5492994145193
+PF-000201,29036,Coca-Cola Original 1L x9,3,17347.70,1,Pedido histórico field mock (2025-06-01),true,5493515971311
+PF-000201,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido histórico field mock (2025-06-01),true,5493515971311
+PF-000201,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",1,20645.24,1,Pedido histórico field mock (2025-06-01),true,5493515971311
+PF-000202,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido histórico field mock (2025-07-11),true,5493515971311
+PF-000202,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido histórico field mock (2025-07-11),true,5493515971311
+PF-000203,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido histórico field mock (2025-08-14),true,5493515971311
+PF-000203,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido histórico field mock (2025-08-14),true,5493515971311
+PF-000203,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,3,9622.58,1,Pedido histórico field mock (2025-08-14),true,5493515971311
+PF-000203,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,1,Pedido histórico field mock (2025-08-14),true,5493515971311
+PF-000204,29036,Coca-Cola Original 1L x9,4,17347.70,1,Pedido histórico field mock (2025-09-28),true,5493515971311
+PF-000204,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido histórico field mock (2025-09-28),true,5493515971311
+PF-000204,29003,Coca–Cola Original 500ml x12,4,13184.78,1,Pedido histórico field mock (2025-09-28),true,5493515971311
+PF-000204,29019,Coca–Cola Zero 1L x9,3,17347.70,1,Pedido histórico field mock (2025-09-28),true,5493515971311
+PF-000205,29036,Coca-Cola Original 1L x9,1,17347.70,1,Pedido histórico field mock (2025-10-30),true,5493515971311
+PF-000205,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido histórico field mock (2025-10-30),true,5493515971311
+PF-000205,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,1,Pedido histórico field mock (2025-10-30),true,5493515971311
+PF-000206,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido histórico field mock (2025-12-03),true,5493515971311
+PF-000206,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido histórico field mock (2025-12-03),true,5493515971311
+PF-000206,29003,Coca–Cola Original 500ml x12,1,13184.78,1,Pedido histórico field mock (2025-12-03),true,5493515971311
+PF-000206,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,1,Pedido histórico field mock (2025-12-03),true,5493515971311
+PF-000207,29036,Coca-Cola Original 1L x9,4,17347.70,1,Pedido histórico field mock (2026-01-13),true,5493515971311
+PF-000207,29016,"Coca–Cola Original 2,5L x6",2,22359.26,1,Pedido histórico field mock (2026-01-13),true,5493515971311
+PF-000207,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",4,35664.02,1,Pedido histórico field mock (2026-01-13),true,5493515971311
+PF-000207,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",1,20645.24,1,Pedido histórico field mock (2026-01-13),true,5493515971311
+PF-000208,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido reciente field mock (2026-04-11),true,5493515971311
+PF-000208,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido reciente field mock (2026-04-11),true,5493515971311
+PF-000209,29016,"Coca–Cola Original 2,5L x6",2,22359.26,1,Pedido reciente field mock (2026-04-29),true,5493515971311
+PF-000209,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,1,Pedido reciente field mock (2026-04-29),true,5493515971311
+PF-000210,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido reciente field mock (2026-05-07),true,5493515971311
+PF-000210,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,1,Pedido reciente field mock (2026-05-07),true,5493515971311
+PF-000211,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,2,Pedido histórico field mock (2025-06-04),true,5492994228106
+PF-000211,29036,Coca-Cola Original 1L x9,3,17347.70,2,Pedido histórico field mock (2025-06-04),true,5492994228106
+PF-000212,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-07-08),true,5492994228106
+PF-000212,29036,Coca-Cola Original 1L x9,3,17347.70,2,Pedido histórico field mock (2025-07-08),true,5492994228106
+PF-000212,29012,"Coca–Cola Original 2,25L x6",4,20432.47,2,Pedido histórico field mock (2025-07-08),true,5492994228106
+PF-000212,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,2,17140.21,2,Pedido histórico field mock (2025-07-08),true,5492994228106
+PF-000213,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2025-08-15),true,5492994228106
+PF-000213,29036,Coca-Cola Original 1L x9,2,17347.70,2,Pedido histórico field mock (2025-08-15),true,5492994228106
+PF-000213,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",3,35664.02,2,Pedido histórico field mock (2025-08-15),true,5492994228106
+PF-000214,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,2,Pedido histórico field mock (2025-09-24),true,5492994228106
+PF-000214,29036,Coca-Cola Original 1L x9,4,17347.70,2,Pedido histórico field mock (2025-09-24),true,5492994228106
+PF-000215,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,2,Pedido histórico field mock (2025-10-29),true,5492994228106
+PF-000215,29036,Coca-Cola Original 1L x9,1,17347.70,2,Pedido histórico field mock (2025-10-29),true,5492994228106
+PF-000215,29017,Coca–Cola Light 500ml x6,2,6592.39,2,Pedido histórico field mock (2025-10-29),true,5492994228106
+PF-000216,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-12-08),true,5492994228106
+PF-000216,29036,Coca-Cola Original 1L x9,1,17347.70,2,Pedido histórico field mock (2025-12-08),true,5492994228106
+PF-000216,29010,"Coca–Cola Zero 1,5L x6",3,15034.50,2,Pedido histórico field mock (2025-12-08),true,5492994228106
+PF-000217,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2026-01-11),true,5492994228106
+PF-000217,29036,Coca-Cola Original 1L x9,4,17347.70,2,Pedido histórico field mock (2026-01-11),true,5492994228106
+PF-000218,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido reciente field mock (2026-04-25),true,5492994228106
+PF-000218,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido reciente field mock (2026-04-25),true,5492994228106
+PF-000219,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,2,Pedido reciente field mock (2026-05-08),true,5492994228106
+PF-000219,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido reciente field mock (2026-05-08),true,5492994228106
+PF-000220,29036,Coca-Cola Original 1L x9,2,17347.70,2,Pedido reciente field mock (2026-05-14),true,5492994228106
+PF-000220,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido reciente field mock (2026-05-14),true,5492994228106
+PF-000221,29016,"Coca–Cola Original 2,5L x6",4,22359.26,3,Pedido histórico field mock (2025-06-06),true,5492998718887
+PF-000221,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido histórico field mock (2025-06-06),true,5492998718887
+PF-000221,29003,Coca–Cola Original 500ml x12,1,13184.78,3,Pedido histórico field mock (2025-06-06),true,5492998718887
+PF-000222,29016,"Coca–Cola Original 2,5L x6",4,22359.26,3,Pedido histórico field mock (2025-07-10),true,5492998718887
+PF-000222,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido histórico field mock (2025-07-10),true,5492998718887
+PF-000223,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido histórico field mock (2025-08-20),true,5492998718887
+PF-000223,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido histórico field mock (2025-08-20),true,5492998718887
+PF-000223,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",2,20645.24,3,Pedido histórico field mock (2025-08-20),true,5492998718887
+PF-000224,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido histórico field mock (2025-09-20),true,5492998718887
+PF-000224,29036,Coca-Cola Original 1L x9,3,17347.70,3,Pedido histórico field mock (2025-09-20),true,5492998718887
+PF-000224,29003,Coca–Cola Original 500ml x12,1,13184.78,3,Pedido histórico field mock (2025-09-20),true,5492998718887
+PF-000224,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",2,47575.95,3,Pedido histórico field mock (2025-09-20),true,5492998718887
+PF-000225,29016,"Coca–Cola Original 2,5L x6",2,22359.26,3,Pedido histórico field mock (2025-10-26),true,5492998718887
+PF-000225,29036,Coca-Cola Original 1L x9,2,17347.70,3,Pedido histórico field mock (2025-10-26),true,5492998718887
+PF-000225,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,3,Pedido histórico field mock (2025-10-26),true,5492998718887
+PF-000225,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-10-26),true,5492998718887
+PF-000226,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido histórico field mock (2025-12-12),true,5492998718887
+PF-000226,29036,Coca-Cola Original 1L x9,2,17347.70,3,Pedido histórico field mock (2025-12-12),true,5492998718887
+PF-000226,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",3,27063.50,3,Pedido histórico field mock (2025-12-12),true,5492998718887
+PF-000226,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",3,17070.57,3,Pedido histórico field mock (2025-12-12),true,5492998718887
+PF-000227,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido histórico field mock (2026-01-11),true,5492998718887
+PF-000227,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido histórico field mock (2026-01-11),true,5492998718887
+PF-000228,29016,"Coca–Cola Original 2,5L x6",2,22359.26,3,Pedido reciente field mock (2026-04-12),true,5492998718887
+PF-000228,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido reciente field mock (2026-04-12),true,5492998718887
+PF-000229,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,3,Pedido reciente field mock (2026-04-19),true,5492998718887
+PF-000229,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido reciente field mock (2026-04-19),true,5492998718887
+PF-000230,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido reciente field mock (2026-05-06),true,5492998718887
+PF-000230,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido reciente field mock (2026-05-06),true,5492998718887
+PF-000231,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,4,Pedido histórico field mock (2025-06-01),true,5493814729528
+PF-000231,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2025-06-01),true,5493814729528
+PF-000231,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,4,Pedido histórico field mock (2025-06-01),true,5493814729528
+PF-000231,29003,Coca–Cola Original 500ml x12,2,13184.78,4,Pedido histórico field mock (2025-06-01),true,5493814729528
+PF-000232,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,4,Pedido histórico field mock (2025-07-09),true,5493814729528
+PF-000232,29016,"Coca–Cola Original 2,5L x6",4,22359.26,4,Pedido histórico field mock (2025-07-09),true,5493814729528
+PF-000233,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido histórico field mock (2025-08-21),true,5493814729528
+PF-000233,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2025-08-21),true,5493814729528
+PF-000233,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",3,47575.95,4,Pedido histórico field mock (2025-08-21),true,5493814729528
+PF-000234,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,4,Pedido histórico field mock (2025-09-19),true,5493814729528
+PF-000234,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2025-09-19),true,5493814729528
+PF-000234,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",1,20645.24,4,Pedido histórico field mock (2025-09-19),true,5493814729528
+PF-000235,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,4,Pedido histórico field mock (2025-10-30),true,5493814729528
+PF-000235,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2025-10-30),true,5493814729528
+PF-000236,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,4,Pedido histórico field mock (2025-12-05),true,5493814729528
+PF-000236,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-12-05),true,5493814729528
+PF-000236,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,4,Pedido histórico field mock (2025-12-05),true,5493814729528
+PF-000236,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",3,17070.57,4,Pedido histórico field mock (2025-12-05),true,5493814729528
+PF-000237,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,4,Pedido histórico field mock (2026-01-11),true,5493814729528
+PF-000237,29016,"Coca–Cola Original 2,5L x6",1,22359.26,4,Pedido histórico field mock (2026-01-11),true,5493814729528
+PF-000237,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,1,17140.21,4,Pedido histórico field mock (2026-01-11),true,5493814729528
+PF-000238,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,4,Pedido reciente field mock (2026-04-25),true,5493814729528
+PF-000238,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido reciente field mock (2026-04-25),true,5493814729528
+PF-000239,29036,Coca-Cola Original 1L x9,1,17347.70,4,Pedido reciente field mock (2026-04-28),true,5493814729528
+PF-000239,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido reciente field mock (2026-04-28),true,5493814729528
+PF-000240,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,4,Pedido reciente field mock (2026-05-20),true,5493814729528
+PF-000240,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido reciente field mock (2026-05-20),true,5493814729528
+PF-000241,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido histórico field mock (2025-06-01),true,5493876922419
+PF-000241,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,1,Pedido histórico field mock (2025-06-01),true,5493876922419
+PF-000241,29010,"Coca–Cola Zero 1,5L x6",1,15034.50,1,Pedido histórico field mock (2025-06-01),true,5493876922419
+PF-000242,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido histórico field mock (2025-07-12),true,5493876922419
+PF-000242,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,1,Pedido histórico field mock (2025-07-12),true,5493876922419
+PF-000242,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",2,20645.24,1,Pedido histórico field mock (2025-07-12),true,5493876922419
+PF-000242,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",4,27063.50,1,Pedido histórico field mock (2025-07-12),true,5493876922419
+PF-000243,29036,Coca-Cola Original 1L x9,4,17347.70,1,Pedido histórico field mock (2025-08-17),true,5493876922419
+PF-000243,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,1,Pedido histórico field mock (2025-08-17),true,5493876922419
+PF-000244,29036,Coca-Cola Original 1L x9,1,17347.70,1,Pedido histórico field mock (2025-09-21),true,5493876922419
+PF-000244,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,1,Pedido histórico field mock (2025-09-21),true,5493876922419
+PF-000245,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido histórico field mock (2025-10-28),true,5493876922419
+PF-000245,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,1,Pedido histórico field mock (2025-10-28),true,5493876922419
+PF-000246,29036,Coca-Cola Original 1L x9,1,17347.70,1,Pedido histórico field mock (2025-12-11),true,5493876922419
+PF-000246,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,1,Pedido histórico field mock (2025-12-11),true,5493876922419
+PF-000247,29036,Coca-Cola Original 1L x9,4,17347.70,1,Pedido histórico field mock (2026-01-10),true,5493876922419
+PF-000247,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,1,Pedido histórico field mock (2026-01-10),true,5493876922419
+PF-000247,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,4,9622.58,1,Pedido histórico field mock (2026-01-10),true,5493876922419
+PF-000248,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido reciente field mock (2026-04-18),true,5493876922419
+PF-000248,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido reciente field mock (2026-04-18),true,5493876922419
+PF-000249,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido reciente field mock (2026-04-24),true,5493876922419
+PF-000249,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido reciente field mock (2026-04-24),true,5493876922419
+PF-000250,29036,Coca-Cola Original 1L x9,1,17347.70,1,Pedido reciente field mock (2026-05-06),true,5493876922419
+PF-000250,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,1,Pedido reciente field mock (2026-05-06),true,5493876922419
+PF-000251,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido histórico field mock (2025-06-04),true,5492618889598
+PF-000251,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2025-06-04),true,5492618889598
+PF-000251,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",3,35664.02,2,Pedido histórico field mock (2025-06-04),true,5492618889598
+PF-000252,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido histórico field mock (2025-07-10),true,5492618889598
+PF-000252,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,2,Pedido histórico field mock (2025-07-10),true,5492618889598
+PF-000253,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2025-08-16),true,5492618889598
+PF-000253,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2025-08-16),true,5492618889598
+PF-000254,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2025-09-28),true,5492618889598
+PF-000254,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2025-09-28),true,5492618889598
+PF-000254,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",2,35664.02,2,Pedido histórico field mock (2025-09-28),true,5492618889598
+PF-000254,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",2,20645.24,2,Pedido histórico field mock (2025-09-28),true,5492618889598
+PF-000255,29016,"Coca–Cola Original 2,5L x6",3,22359.26,2,Pedido histórico field mock (2025-11-02),true,5492618889598
+PF-000255,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-11-02),true,5492618889598
+PF-000255,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,2,Pedido histórico field mock (2025-11-02),true,5492618889598
+PF-000255,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",2,27063.50,2,Pedido histórico field mock (2025-11-02),true,5492618889598
+PF-000256,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2025-12-13),true,5492618889598
+PF-000256,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,2,Pedido histórico field mock (2025-12-13),true,5492618889598
+PF-000256,29019,Coca–Cola Zero 1L x9,1,17347.70,2,Pedido histórico field mock (2025-12-13),true,5492618889598
+PF-000256,29003,Coca–Cola Original 500ml x12,4,13184.78,2,Pedido histórico field mock (2025-12-13),true,5492618889598
+PF-000257,29016,"Coca–Cola Original 2,5L x6",3,22359.26,2,Pedido histórico field mock (2026-01-11),true,5492618889598
+PF-000257,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2026-01-11),true,5492618889598
+PF-000257,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,2,17140.21,2,Pedido histórico field mock (2026-01-11),true,5492618889598
+PF-000258,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,2,Pedido reciente field mock (2026-04-07),true,5492618889598
+PF-000258,29036,Coca-Cola Original 1L x9,3,17347.70,2,Pedido reciente field mock (2026-04-07),true,5492618889598
+PF-000259,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido reciente field mock (2026-04-28),true,5492618889598
+PF-000259,29036,Coca-Cola Original 1L x9,3,17347.70,2,Pedido reciente field mock (2026-04-28),true,5492618889598
+PF-000260,29036,Coca-Cola Original 1L x9,1,17347.70,2,Pedido reciente field mock (2026-05-20),true,5492618889598
+PF-000260,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,2,Pedido reciente field mock (2026-05-20),true,5492618889598
+PF-000261,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido histórico field mock (2025-06-01),true,5492615021286
+PF-000261,29016,"Coca–Cola Original 2,5L x6",4,22359.26,3,Pedido histórico field mock (2025-06-01),true,5492615021286
+PF-000261,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,3,Pedido histórico field mock (2025-06-01),true,5492615021286
+PF-000262,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido histórico field mock (2025-07-07),true,5492615021286
+PF-000262,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido histórico field mock (2025-07-07),true,5492615021286
+PF-000263,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2025-08-13),true,5492615021286
+PF-000263,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido histórico field mock (2025-08-13),true,5492615021286
+PF-000263,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,3,Pedido histórico field mock (2025-08-13),true,5492615021286
+PF-000263,29010,"Coca–Cola Zero 1,5L x6",2,15034.50,3,Pedido histórico field mock (2025-08-13),true,5492615021286
+PF-000264,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido histórico field mock (2025-09-27),true,5492615021286
+PF-000264,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido histórico field mock (2025-09-27),true,5492615021286
+PF-000264,29010,"Coca–Cola Zero 1,5L x6",1,15034.50,3,Pedido histórico field mock (2025-09-27),true,5492615021286
+PF-000265,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,3,Pedido histórico field mock (2025-11-01),true,5492615021286
+PF-000265,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido histórico field mock (2025-11-01),true,5492615021286
+PF-000266,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2025-12-05),true,5492615021286
+PF-000266,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido histórico field mock (2025-12-05),true,5492615021286
+PF-000266,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",3,17070.57,3,Pedido histórico field mock (2025-12-05),true,5492615021286
+PF-000266,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,1,17140.21,3,Pedido histórico field mock (2025-12-05),true,5492615021286
+PF-000267,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2026-01-16),true,5492615021286
+PF-000267,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido histórico field mock (2026-01-16),true,5492615021286
+PF-000267,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,4,9622.58,3,Pedido histórico field mock (2026-01-16),true,5492615021286
+PF-000267,29019,Coca–Cola Zero 1L x9,2,17347.70,3,Pedido histórico field mock (2026-01-16),true,5492615021286
+PF-000268,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido reciente field mock (2026-04-10),true,5492615021286
+PF-000268,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido reciente field mock (2026-04-10),true,5492615021286
+PF-000269,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido reciente field mock (2026-05-02),true,5492615021286
+PF-000269,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,3,Pedido reciente field mock (2026-05-02),true,5492615021286
+PF-000270,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido reciente field mock (2026-05-20),true,5492615021286
+PF-000270,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido reciente field mock (2026-05-20),true,5492615021286
+PF-000271,29036,Coca-Cola Original 1L x9,3,17347.70,4,Pedido histórico field mock (2025-06-01),true,5493813520000
+PF-000271,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,4,Pedido histórico field mock (2025-06-01),true,5493813520000
+PF-000271,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,4,Pedido histórico field mock (2025-06-01),true,5493813520000
+PF-000272,29036,Coca-Cola Original 1L x9,3,17347.70,4,Pedido histórico field mock (2025-07-14),true,5493813520000
+PF-000272,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,4,Pedido histórico field mock (2025-07-14),true,5493813520000
+PF-000272,29019,Coca–Cola Zero 1L x9,4,17347.70,4,Pedido histórico field mock (2025-07-14),true,5493813520000
+PF-000272,29003,Coca–Cola Original 500ml x12,3,13184.78,4,Pedido histórico field mock (2025-07-14),true,5493813520000
+PF-000273,29036,Coca-Cola Original 1L x9,4,17347.70,4,Pedido histórico field mock (2025-08-14),true,5493813520000
+PF-000273,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,4,Pedido histórico field mock (2025-08-14),true,5493813520000
+PF-000274,29036,Coca-Cola Original 1L x9,2,17347.70,4,Pedido histórico field mock (2025-09-21),true,5493813520000
+PF-000274,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,4,Pedido histórico field mock (2025-09-21),true,5493813520000
+PF-000274,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",2,20645.24,4,Pedido histórico field mock (2025-09-21),true,5493813520000
+PF-000274,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",4,35664.02,4,Pedido histórico field mock (2025-09-21),true,5493813520000
+PF-000275,29036,Coca-Cola Original 1L x9,1,17347.70,4,Pedido histórico field mock (2025-11-01),true,5493813520000
+PF-000275,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,4,Pedido histórico field mock (2025-11-01),true,5493813520000
+PF-000276,29036,Coca-Cola Original 1L x9,3,17347.70,4,Pedido histórico field mock (2025-12-10),true,5493813520000
+PF-000276,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,4,Pedido histórico field mock (2025-12-10),true,5493813520000
+PF-000276,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,4,Pedido histórico field mock (2025-12-10),true,5493813520000
+PF-000276,29010,"Coca–Cola Zero 1,5L x6",4,15034.50,4,Pedido histórico field mock (2025-12-10),true,5493813520000
+PF-000277,29036,Coca-Cola Original 1L x9,3,17347.70,4,Pedido histórico field mock (2026-01-11),true,5493813520000
+PF-000277,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,4,Pedido histórico field mock (2026-01-11),true,5493813520000
+PF-000277,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",4,20645.24,4,Pedido histórico field mock (2026-01-11),true,5493813520000
+PF-000277,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,4,Pedido histórico field mock (2026-01-11),true,5493813520000
+PF-000278,29036,Coca-Cola Original 1L x9,2,17347.70,4,Pedido reciente field mock (2026-04-17),true,5493813520000
+PF-000278,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido reciente field mock (2026-04-17),true,5493813520000
+PF-000279,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,4,Pedido reciente field mock (2026-04-23),true,5493813520000
+PF-000279,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,4,Pedido reciente field mock (2026-04-23),true,5493813520000
+PF-000280,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido reciente field mock (2026-04-27),true,5493813520000
+PF-000280,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,4,Pedido reciente field mock (2026-04-27),true,5493813520000
+PF-000281,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido histórico field mock (2025-06-01),true,5492997489876
+PF-000281,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,1,Pedido histórico field mock (2025-06-01),true,5492997489876
+PF-000281,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",1,17070.57,1,Pedido histórico field mock (2025-06-01),true,5492997489876
+PF-000281,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",2,27063.50,1,Pedido histórico field mock (2025-06-01),true,5492997489876
+PF-000282,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido histórico field mock (2025-07-09),true,5492997489876
+PF-000282,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,1,Pedido histórico field mock (2025-07-09),true,5492997489876
+PF-000282,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,2,9622.58,1,Pedido histórico field mock (2025-07-09),true,5492997489876
+PF-000282,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",3,27063.50,1,Pedido histórico field mock (2025-07-09),true,5492997489876
+PF-000283,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido histórico field mock (2025-08-14),true,5492997489876
+PF-000283,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,1,Pedido histórico field mock (2025-08-14),true,5492997489876
+PF-000283,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",1,20645.24,1,Pedido histórico field mock (2025-08-14),true,5492997489876
+PF-000283,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,3,17140.21,1,Pedido histórico field mock (2025-08-14),true,5492997489876
+PF-000284,29016,"Coca–Cola Original 2,5L x6",2,22359.26,1,Pedido histórico field mock (2025-09-27),true,5492997489876
+PF-000284,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,1,Pedido histórico field mock (2025-09-27),true,5492997489876
+PF-000284,29012,"Coca–Cola Original 2,25L x6",1,20432.47,1,Pedido histórico field mock (2025-09-27),true,5492997489876
+PF-000285,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido histórico field mock (2025-11-01),true,5492997489876
+PF-000285,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,1,Pedido histórico field mock (2025-11-01),true,5492997489876
+PF-000285,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,1,Pedido histórico field mock (2025-11-01),true,5492997489876
+PF-000286,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido histórico field mock (2025-12-13),true,5492997489876
+PF-000286,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,1,Pedido histórico field mock (2025-12-13),true,5492997489876
+PF-000286,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,1,Pedido histórico field mock (2025-12-13),true,5492997489876
+PF-000286,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,1,Pedido histórico field mock (2025-12-13),true,5492997489876
+PF-000287,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido histórico field mock (2026-01-13),true,5492997489876
+PF-000287,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,1,Pedido histórico field mock (2026-01-13),true,5492997489876
+PF-000287,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",1,20645.24,1,Pedido histórico field mock (2026-01-13),true,5492997489876
+PF-000288,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido reciente field mock (2026-04-29),true,5492997489876
+PF-000288,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,1,Pedido reciente field mock (2026-04-29),true,5492997489876
+PF-000289,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido reciente field mock (2026-05-04),true,5492997489876
+PF-000289,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,1,Pedido reciente field mock (2026-05-04),true,5492997489876
+PF-000290,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,1,Pedido reciente field mock (2026-05-12),true,5492997489876
+PF-000290,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido reciente field mock (2026-05-12),true,5492997489876
+PF-000291,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-06-04),true,5493519107005
+PF-000291,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2025-06-04),true,5493519107005
+PF-000291,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",4,20645.24,2,Pedido histórico field mock (2025-06-04),true,5493519107005
+PF-000291,29017,Coca–Cola Light 500ml x6,3,6592.39,2,Pedido histórico field mock (2025-06-04),true,5493519107005
+PF-000292,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-07-10),true,5493519107005
+PF-000292,29016,"Coca–Cola Original 2,5L x6",3,22359.26,2,Pedido histórico field mock (2025-07-10),true,5493519107005
+PF-000293,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2025-08-12),true,5493519107005
+PF-000293,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido histórico field mock (2025-08-12),true,5493519107005
+PF-000294,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-09-25),true,5493519107005
+PF-000294,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2025-09-25),true,5493519107005
+PF-000295,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-10-26),true,5493519107005
+PF-000295,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido histórico field mock (2025-10-26),true,5493519107005
+PF-000295,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,3,17140.21,2,Pedido histórico field mock (2025-10-26),true,5493519107005
+PF-000296,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido histórico field mock (2025-12-07),true,5493519107005
+PF-000296,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido histórico field mock (2025-12-07),true,5493519107005
+PF-000296,29003,Coca–Cola Original 500ml x12,4,13184.78,2,Pedido histórico field mock (2025-12-07),true,5493519107005
+PF-000297,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2026-01-15),true,5493519107005
+PF-000297,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido histórico field mock (2026-01-15),true,5493519107005
+PF-000297,29012,"Coca–Cola Original 2,25L x6",4,20432.47,2,Pedido histórico field mock (2026-01-15),true,5493519107005
+PF-000298,29036,Coca-Cola Original 1L x9,2,17347.70,2,Pedido reciente field mock (2026-04-18),true,5493519107005
+PF-000298,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido reciente field mock (2026-04-18),true,5493519107005
+PF-000299,29036,Coca-Cola Original 1L x9,2,17347.70,2,Pedido reciente field mock (2026-04-19),true,5493519107005
+PF-000299,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,2,Pedido reciente field mock (2026-04-19),true,5493519107005
+PF-000300,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido reciente field mock (2026-05-02),true,5493519107005
+PF-000300,29036,Coca-Cola Original 1L x9,2,17347.70,2,Pedido reciente field mock (2026-05-02),true,5493519107005
+PF-000301,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido histórico field mock (2025-06-06),true,5493874104594
+PF-000301,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido histórico field mock (2025-06-06),true,5493874104594
+PF-000301,29012,"Coca–Cola Original 2,25L x6",4,20432.47,3,Pedido histórico field mock (2025-06-06),true,5493874104594
+PF-000301,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",4,35664.02,3,Pedido histórico field mock (2025-06-06),true,5493874104594
+PF-000302,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,3,Pedido histórico field mock (2025-07-06),true,5493874104594
+PF-000302,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,3,Pedido histórico field mock (2025-07-06),true,5493874104594
+PF-000302,29012,"Coca–Cola Original 2,25L x6",2,20432.47,3,Pedido histórico field mock (2025-07-06),true,5493874104594
+PF-000303,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido histórico field mock (2025-08-12),true,5493874104594
+PF-000303,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido histórico field mock (2025-08-12),true,5493874104594
+PF-000303,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,1,9622.58,3,Pedido histórico field mock (2025-08-12),true,5493874104594
+PF-000303,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",2,20645.24,3,Pedido histórico field mock (2025-08-12),true,5493874104594
+PF-000304,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido histórico field mock (2025-09-23),true,5493874104594
+PF-000304,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido histórico field mock (2025-09-23),true,5493874104594
+PF-000304,29019,Coca–Cola Zero 1L x9,1,17347.70,3,Pedido histórico field mock (2025-09-23),true,5493874104594
+PF-000304,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,3,Pedido histórico field mock (2025-09-23),true,5493874104594
+PF-000305,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido histórico field mock (2025-10-31),true,5493874104594
+PF-000305,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,3,Pedido histórico field mock (2025-10-31),true,5493874104594
+PF-000305,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,3,Pedido histórico field mock (2025-10-31),true,5493874104594
+PF-000306,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido histórico field mock (2025-12-09),true,5493874104594
+PF-000306,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,3,Pedido histórico field mock (2025-12-09),true,5493874104594
+PF-000307,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,3,Pedido histórico field mock (2026-01-18),true,5493874104594
+PF-000307,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,3,Pedido histórico field mock (2026-01-18),true,5493874104594
+PF-000307,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",3,47575.95,3,Pedido histórico field mock (2026-01-18),true,5493874104594
+PF-000307,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",1,27063.50,3,Pedido histórico field mock (2026-01-18),true,5493874104594
+PF-000308,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido reciente field mock (2026-04-03),true,5493874104594
+PF-000308,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido reciente field mock (2026-04-03),true,5493874104594
+PF-000309,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido reciente field mock (2026-04-18),true,5493874104594
+PF-000309,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido reciente field mock (2026-04-18),true,5493874104594
+PF-000310,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido reciente field mock (2026-05-16),true,5493874104594
+PF-000310,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido reciente field mock (2026-05-16),true,5493874104594
+PF-000311,29036,Coca-Cola Original 1L x9,2,17347.70,4,Pedido histórico field mock (2025-06-01),true,5492995028869
+PF-000311,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-06-01),true,5492995028869
+PF-000312,29036,Coca-Cola Original 1L x9,3,17347.70,4,Pedido histórico field mock (2025-07-04),true,5492995028869
+PF-000312,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,4,Pedido histórico field mock (2025-07-04),true,5492995028869
+PF-000312,29017,Coca–Cola Light 500ml x6,3,6592.39,4,Pedido histórico field mock (2025-07-04),true,5492995028869
+PF-000312,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido histórico field mock (2025-07-04),true,5492995028869
+PF-000313,29036,Coca-Cola Original 1L x9,4,17347.70,4,Pedido histórico field mock (2025-08-16),true,5492995028869
+PF-000313,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-08-16),true,5492995028869
+PF-000313,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,1,9622.58,4,Pedido histórico field mock (2025-08-16),true,5492995028869
+PF-000313,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-08-16),true,5492995028869
+PF-000314,29036,Coca-Cola Original 1L x9,2,17347.70,4,Pedido histórico field mock (2025-09-24),true,5492995028869
+PF-000314,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,4,Pedido histórico field mock (2025-09-24),true,5492995028869
+PF-000315,29036,Coca-Cola Original 1L x9,2,17347.70,4,Pedido histórico field mock (2025-10-27),true,5492995028869
+PF-000315,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,4,Pedido histórico field mock (2025-10-27),true,5492995028869
+PF-000315,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",2,17070.57,4,Pedido histórico field mock (2025-10-27),true,5492995028869
+PF-000315,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,2,17140.21,4,Pedido histórico field mock (2025-10-27),true,5492995028869
+PF-000316,29036,Coca-Cola Original 1L x9,2,17347.70,4,Pedido histórico field mock (2025-12-08),true,5492995028869
+PF-000316,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-12-08),true,5492995028869
+PF-000316,29003,Coca–Cola Original 500ml x12,3,13184.78,4,Pedido histórico field mock (2025-12-08),true,5492995028869
+PF-000317,29036,Coca-Cola Original 1L x9,4,17347.70,4,Pedido histórico field mock (2026-01-18),true,5492995028869
+PF-000317,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,4,Pedido histórico field mock (2026-01-18),true,5492995028869
+PF-000317,29019,Coca–Cola Zero 1L x9,4,17347.70,4,Pedido histórico field mock (2026-01-18),true,5492995028869
+PF-000317,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",2,47575.95,4,Pedido histórico field mock (2026-01-18),true,5492995028869
+PF-000318,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,4,Pedido reciente field mock (2026-04-18),true,5492995028869
+PF-000318,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,4,Pedido reciente field mock (2026-04-18),true,5492995028869
+PF-000319,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,4,Pedido reciente field mock (2026-04-21),true,5492995028869
+PF-000319,29036,Coca-Cola Original 1L x9,1,17347.70,4,Pedido reciente field mock (2026-04-21),true,5492995028869
+PF-000320,29016,"Coca–Cola Original 2,5L x6",1,22359.26,4,Pedido reciente field mock (2026-04-27),true,5492995028869
+PF-000320,29036,Coca-Cola Original 1L x9,2,17347.70,4,Pedido reciente field mock (2026-04-27),true,5492995028869
+PF-000321,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,1,Pedido histórico field mock (2025-06-02),true,5493517304254
+PF-000321,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,1,Pedido histórico field mock (2025-06-02),true,5493517304254
+PF-000321,29010,"Coca–Cola Zero 1,5L x6",4,15034.50,1,Pedido histórico field mock (2025-06-02),true,5493517304254
+PF-000322,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,1,Pedido histórico field mock (2025-07-14),true,5493517304254
+PF-000322,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido histórico field mock (2025-07-14),true,5493517304254
+PF-000323,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,1,Pedido histórico field mock (2025-08-16),true,5493517304254
+PF-000323,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,1,Pedido histórico field mock (2025-08-16),true,5493517304254
+PF-000323,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",4,27063.50,1,Pedido histórico field mock (2025-08-16),true,5493517304254
+PF-000324,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,1,Pedido histórico field mock (2025-09-24),true,5493517304254
+PF-000324,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido histórico field mock (2025-09-24),true,5493517304254
+PF-000324,29019,Coca–Cola Zero 1L x9,1,17347.70,1,Pedido histórico field mock (2025-09-24),true,5493517304254
+PF-000324,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,1,9622.58,1,Pedido histórico field mock (2025-09-24),true,5493517304254
+PF-000325,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,1,Pedido histórico field mock (2025-10-28),true,5493517304254
+PF-000325,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido histórico field mock (2025-10-28),true,5493517304254
+PF-000326,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,1,Pedido histórico field mock (2025-12-10),true,5493517304254
+PF-000326,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido histórico field mock (2025-12-10),true,5493517304254
+PF-000326,29003,Coca–Cola Original 500ml x12,2,13184.78,1,Pedido histórico field mock (2025-12-10),true,5493517304254
+PF-000326,29012,"Coca–Cola Original 2,25L x6",2,20432.47,1,Pedido histórico field mock (2025-12-10),true,5493517304254
+PF-000327,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,1,Pedido histórico field mock (2026-01-20),true,5493517304254
+PF-000327,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,1,Pedido histórico field mock (2026-01-20),true,5493517304254
+PF-000328,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido reciente field mock (2026-04-14),true,5493517304254
+PF-000328,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido reciente field mock (2026-04-14),true,5493517304254
+PF-000329,29036,Coca-Cola Original 1L x9,1,17347.70,1,Pedido reciente field mock (2026-04-23),true,5493517304254
+PF-000329,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,1,Pedido reciente field mock (2026-04-23),true,5493517304254
+PF-000330,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido reciente field mock (2026-05-17),true,5493517304254
+PF-000330,29036,Coca-Cola Original 1L x9,1,17347.70,1,Pedido reciente field mock (2026-05-17),true,5493517304254
+PF-000331,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2025-06-04),true,5493416986538
+PF-000331,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-06-04),true,5493416986538
+PF-000331,29003,Coca–Cola Original 500ml x12,2,13184.78,2,Pedido histórico field mock (2025-06-04),true,5493416986538
+PF-000332,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido histórico field mock (2025-07-14),true,5493416986538
+PF-000332,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-07-14),true,5493416986538
+PF-000333,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2025-08-16),true,5493416986538
+PF-000333,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-08-16),true,5493416986538
+PF-000333,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,3,17140.21,2,Pedido histórico field mock (2025-08-16),true,5493416986538
+PF-000333,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",2,27063.50,2,Pedido histórico field mock (2025-08-16),true,5493416986538
+PF-000334,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido histórico field mock (2025-09-24),true,5493416986538
+PF-000334,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-09-24),true,5493416986538
+PF-000334,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",3,20645.24,2,Pedido histórico field mock (2025-09-24),true,5493416986538
+PF-000334,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",2,35664.02,2,Pedido histórico field mock (2025-09-24),true,5493416986538
+PF-000335,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido histórico field mock (2025-10-26),true,5493416986538
+PF-000335,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-10-26),true,5493416986538
+PF-000335,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,3,9622.58,2,Pedido histórico field mock (2025-10-26),true,5493416986538
+PF-000335,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",3,47575.95,2,Pedido histórico field mock (2025-10-26),true,5493416986538
+PF-000336,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido histórico field mock (2025-12-03),true,5493416986538
+PF-000336,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-12-03),true,5493416986538
+PF-000336,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",2,20645.24,2,Pedido histórico field mock (2025-12-03),true,5493416986538
+PF-000337,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido histórico field mock (2026-01-14),true,5493416986538
+PF-000337,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2026-01-14),true,5493416986538
+PF-000338,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido reciente field mock (2026-04-02),true,5493416986538
+PF-000338,29036,Coca-Cola Original 1L x9,2,17347.70,2,Pedido reciente field mock (2026-04-02),true,5493416986538
+PF-000339,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido reciente field mock (2026-04-13),true,5493416986538
+PF-000339,29036,Coca-Cola Original 1L x9,2,17347.70,2,Pedido reciente field mock (2026-04-13),true,5493416986538
+PF-000340,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido reciente field mock (2026-04-30),true,5493416986538
+PF-000340,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,2,Pedido reciente field mock (2026-04-30),true,5493416986538
+PF-000341,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido histórico field mock (2025-06-01),true,5492619239862
+PF-000341,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,3,Pedido histórico field mock (2025-06-01),true,5492619239862
+PF-000342,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido histórico field mock (2025-07-13),true,5492619239862
+PF-000342,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido histórico field mock (2025-07-13),true,5492619239862
+PF-000342,29019,Coca–Cola Zero 1L x9,3,17347.70,3,Pedido histórico field mock (2025-07-13),true,5492619239862
+PF-000342,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",3,17070.57,3,Pedido histórico field mock (2025-07-13),true,5492619239862
+PF-000343,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido histórico field mock (2025-08-17),true,5492619239862
+PF-000343,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido histórico field mock (2025-08-17),true,5492619239862
+PF-000343,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,3,9622.58,3,Pedido histórico field mock (2025-08-17),true,5492619239862
+PF-000344,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido histórico field mock (2025-09-20),true,5492619239862
+PF-000344,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-09-20),true,5492619239862
+PF-000344,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,4,9622.58,3,Pedido histórico field mock (2025-09-20),true,5492619239862
+PF-000345,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,3,Pedido histórico field mock (2025-10-30),true,5492619239862
+PF-000345,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido histórico field mock (2025-10-30),true,5492619239862
+PF-000346,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,3,Pedido histórico field mock (2025-12-13),true,5492619239862
+PF-000346,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-12-13),true,5492619239862
+PF-000346,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",1,20645.24,3,Pedido histórico field mock (2025-12-13),true,5492619239862
+PF-000346,29019,Coca–Cola Zero 1L x9,1,17347.70,3,Pedido histórico field mock (2025-12-13),true,5492619239862
+PF-000347,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido histórico field mock (2026-01-18),true,5492619239862
+PF-000347,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,3,Pedido histórico field mock (2026-01-18),true,5492619239862
+PF-000347,29019,Coca–Cola Zero 1L x9,3,17347.70,3,Pedido histórico field mock (2026-01-18),true,5492619239862
+PF-000347,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,3,Pedido histórico field mock (2026-01-18),true,5492619239862
+PF-000348,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,3,Pedido reciente field mock (2026-04-27),true,5492619239862
+PF-000348,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido reciente field mock (2026-04-27),true,5492619239862
+PF-000349,29036,Coca-Cola Original 1L x9,2,17347.70,3,Pedido reciente field mock (2026-04-30),true,5492619239862
+PF-000349,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido reciente field mock (2026-04-30),true,5492619239862
+PF-000350,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido reciente field mock (2026-05-14),true,5492619239862
+PF-000350,29036,Coca-Cola Original 1L x9,2,17347.70,3,Pedido reciente field mock (2026-05-14),true,5492619239862
+PF-000351,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,4,Pedido histórico field mock (2025-06-02),true,5493513952681
+PF-000351,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,4,Pedido histórico field mock (2025-06-02),true,5493513952681
+PF-000351,29010,"Coca–Cola Zero 1,5L x6",2,15034.50,4,Pedido histórico field mock (2025-06-02),true,5493513952681
+PF-000351,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",2,27063.50,4,Pedido histórico field mock (2025-06-02),true,5493513952681
+PF-000352,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,4,Pedido histórico field mock (2025-07-08),true,5493513952681
+PF-000352,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-07-08),true,5493513952681
+PF-000353,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,4,Pedido histórico field mock (2025-08-16),true,5493513952681
+PF-000353,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-08-16),true,5493513952681
+PF-000353,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido histórico field mock (2025-08-16),true,5493513952681
+PF-000353,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",2,20645.24,4,Pedido histórico field mock (2025-08-16),true,5493513952681
+PF-000354,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,4,Pedido histórico field mock (2025-09-21),true,5493513952681
+PF-000354,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-09-21),true,5493513952681
+PF-000354,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",3,27063.50,4,Pedido histórico field mock (2025-09-21),true,5493513952681
+PF-000355,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,4,Pedido histórico field mock (2025-11-02),true,5493513952681
+PF-000355,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-11-02),true,5493513952681
+PF-000355,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,4,Pedido histórico field mock (2025-11-02),true,5493513952681
+PF-000355,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,2,9622.58,4,Pedido histórico field mock (2025-11-02),true,5493513952681
+PF-000356,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,4,Pedido histórico field mock (2025-12-10),true,5493513952681
+PF-000356,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-12-10),true,5493513952681
+PF-000356,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,4,9622.58,4,Pedido histórico field mock (2025-12-10),true,5493513952681
+PF-000356,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,4,Pedido histórico field mock (2025-12-10),true,5493513952681
+PF-000357,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,4,Pedido histórico field mock (2026-01-14),true,5493513952681
+PF-000357,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2026-01-14),true,5493513952681
+PF-000357,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,4,Pedido histórico field mock (2026-01-14),true,5493513952681
+PF-000357,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,1,9622.58,4,Pedido histórico field mock (2026-01-14),true,5493513952681
+PF-000358,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,4,Pedido reciente field mock (2026-04-05),true,5493513952681
+PF-000358,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,4,Pedido reciente field mock (2026-04-05),true,5493513952681
+PF-000359,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido reciente field mock (2026-04-16),true,5493513952681
+PF-000359,29036,Coca-Cola Original 1L x9,2,17347.70,4,Pedido reciente field mock (2026-04-16),true,5493513952681
+PF-000360,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,4,Pedido reciente field mock (2026-04-24),true,5493513952681
+PF-000360,29036,Coca-Cola Original 1L x9,3,17347.70,4,Pedido reciente field mock (2026-04-24),true,5493513952681
+PF-000361,29036,Coca-Cola Original 1L x9,1,17347.70,1,Pedido histórico field mock (2025-06-01),true,5493414799650
+PF-000361,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido histórico field mock (2025-06-01),true,5493414799650
+PF-000361,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",3,47575.95,1,Pedido histórico field mock (2025-06-01),true,5493414799650
+PF-000362,29036,Coca-Cola Original 1L x9,3,17347.70,1,Pedido histórico field mock (2025-07-08),true,5493414799650
+PF-000362,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido histórico field mock (2025-07-08),true,5493414799650
+PF-000362,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido histórico field mock (2025-07-08),true,5493414799650
+PF-000363,29036,Coca-Cola Original 1L x9,3,17347.70,1,Pedido histórico field mock (2025-08-15),true,5493414799650
+PF-000363,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido histórico field mock (2025-08-15),true,5493414799650
+PF-000364,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido histórico field mock (2025-09-24),true,5493414799650
+PF-000364,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,1,Pedido histórico field mock (2025-09-24),true,5493414799650
+PF-000364,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,4,9622.58,1,Pedido histórico field mock (2025-09-24),true,5493414799650
+PF-000364,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",2,35664.02,1,Pedido histórico field mock (2025-09-24),true,5493414799650
+PF-000365,29036,Coca-Cola Original 1L x9,4,17347.70,1,Pedido histórico field mock (2025-11-03),true,5493414799650
+PF-000365,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido histórico field mock (2025-11-03),true,5493414799650
+PF-000366,29036,Coca-Cola Original 1L x9,3,17347.70,1,Pedido histórico field mock (2025-12-07),true,5493414799650
+PF-000366,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,1,Pedido histórico field mock (2025-12-07),true,5493414799650
+PF-000367,29036,Coca-Cola Original 1L x9,1,17347.70,1,Pedido histórico field mock (2026-01-18),true,5493414799650
+PF-000367,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido histórico field mock (2026-01-18),true,5493414799650
+PF-000367,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,1,Pedido histórico field mock (2026-01-18),true,5493414799650
+PF-000368,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido reciente field mock (2026-04-03),true,5493414799650
+PF-000368,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido reciente field mock (2026-04-03),true,5493414799650
+PF-000369,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido reciente field mock (2026-04-04),true,5493414799650
+PF-000369,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido reciente field mock (2026-04-04),true,5493414799650
+PF-000370,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido reciente field mock (2026-05-18),true,5493414799650
+PF-000370,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,1,Pedido reciente field mock (2026-05-18),true,5493414799650
+PF-000371,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-06-01),true,5492992500733
+PF-000371,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-06-01),true,5492992500733
+PF-000371,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",2,20645.24,2,Pedido histórico field mock (2025-06-01),true,5492992500733
+PF-000371,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",1,35664.02,2,Pedido histórico field mock (2025-06-01),true,5492992500733
+PF-000372,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-07-09),true,5492992500733
+PF-000372,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-07-09),true,5492992500733
+PF-000372,29003,Coca–Cola Original 500ml x12,2,13184.78,2,Pedido histórico field mock (2025-07-09),true,5492992500733
+PF-000372,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",2,17070.57,2,Pedido histórico field mock (2025-07-09),true,5492992500733
+PF-000373,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-08-20),true,5492992500733
+PF-000373,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-08-20),true,5492992500733
+PF-000373,29012,"Coca–Cola Original 2,25L x6",1,20432.47,2,Pedido histórico field mock (2025-08-20),true,5492992500733
+PF-000373,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,2,Pedido histórico field mock (2025-08-20),true,5492992500733
+PF-000374,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-09-27),true,5492992500733
+PF-000374,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,2,Pedido histórico field mock (2025-09-27),true,5492992500733
+PF-000374,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",1,35664.02,2,Pedido histórico field mock (2025-09-27),true,5492992500733
+PF-000375,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-11-04),true,5492992500733
+PF-000375,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,2,Pedido histórico field mock (2025-11-04),true,5492992500733
+PF-000376,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-12-06),true,5492992500733
+PF-000376,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,2,Pedido histórico field mock (2025-12-06),true,5492992500733
+PF-000376,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",1,27063.50,2,Pedido histórico field mock (2025-12-06),true,5492992500733
+PF-000376,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-12-06),true,5492992500733
+PF-000377,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2026-01-17),true,5492992500733
+PF-000377,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,2,Pedido histórico field mock (2026-01-17),true,5492992500733
+PF-000377,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",3,35664.02,2,Pedido histórico field mock (2026-01-17),true,5492992500733
+PF-000378,29036,Coca-Cola Original 1L x9,3,17347.70,2,Pedido reciente field mock (2026-04-09),true,5492992500733
+PF-000378,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,2,Pedido reciente field mock (2026-04-09),true,5492992500733
+PF-000379,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido reciente field mock (2026-04-12),true,5492992500733
+PF-000379,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,2,Pedido reciente field mock (2026-04-12),true,5492992500733
+PF-000380,29016,"Coca–Cola Original 2,5L x6",3,22359.26,2,Pedido reciente field mock (2026-05-05),true,5492992500733
+PF-000380,29036,Coca-Cola Original 1L x9,1,17347.70,2,Pedido reciente field mock (2026-05-05),true,5492992500733
+PF-000381,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,3,Pedido histórico field mock (2025-06-03),true,5492615139305
+PF-000381,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido histórico field mock (2025-06-03),true,5492615139305
+PF-000381,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",3,17070.57,3,Pedido histórico field mock (2025-06-03),true,5492615139305
+PF-000381,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",1,27063.50,3,Pedido histórico field mock (2025-06-03),true,5492615139305
+PF-000382,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,3,Pedido histórico field mock (2025-07-09),true,5492615139305
+PF-000382,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido histórico field mock (2025-07-09),true,5492615139305
+PF-000382,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",1,20645.24,3,Pedido histórico field mock (2025-07-09),true,5492615139305
+PF-000383,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido histórico field mock (2025-08-16),true,5492615139305
+PF-000383,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido histórico field mock (2025-08-16),true,5492615139305
+PF-000383,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-08-16),true,5492615139305
+PF-000384,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,3,Pedido histórico field mock (2025-09-18),true,5492615139305
+PF-000384,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,3,Pedido histórico field mock (2025-09-18),true,5492615139305
+PF-000385,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-11-03),true,5492615139305
+PF-000385,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,3,Pedido histórico field mock (2025-11-03),true,5492615139305
+PF-000385,29003,Coca–Cola Original 500ml x12,1,13184.78,3,Pedido histórico field mock (2025-11-03),true,5492615139305
+PF-000386,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-12-09),true,5492615139305
+PF-000386,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,3,Pedido histórico field mock (2025-12-09),true,5492615139305
+PF-000386,29112,"Cepita Durazno Hot Fill 1,5L x4 + Coca-Cola Original 1,5L x6",1,20645.24,3,Pedido histórico field mock (2025-12-09),true,5492615139305
+PF-000387,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido histórico field mock (2026-01-20),true,5492615139305
+PF-000387,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido histórico field mock (2026-01-20),true,5492615139305
+PF-000388,29036,Coca-Cola Original 1L x9,2,17347.70,3,Pedido reciente field mock (2026-04-12),true,5492615139305
+PF-000388,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,3,Pedido reciente field mock (2026-04-12),true,5492615139305
+PF-000389,29016,"Coca–Cola Original 2,5L x6",1,22359.26,3,Pedido reciente field mock (2026-04-16),true,5492615139305
+PF-000389,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido reciente field mock (2026-04-16),true,5492615139305
+PF-000390,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido reciente field mock (2026-04-17),true,5492615139305
+PF-000390,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido reciente field mock (2026-04-17),true,5492615139305
+PF-000391,29016,"Coca–Cola Original 2,5L x6",1,22359.26,4,Pedido histórico field mock (2025-06-01),true,5492617413812
+PF-000391,29036,Coca-Cola Original 1L x9,1,17347.70,4,Pedido histórico field mock (2025-06-01),true,5492617413812
+PF-000391,29012,"Coca–Cola Original 2,25L x6",1,20432.47,4,Pedido histórico field mock (2025-06-01),true,5492617413812
+PF-000391,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,4,Pedido histórico field mock (2025-06-01),true,5492617413812
+PF-000392,29016,"Coca–Cola Original 2,5L x6",1,22359.26,4,Pedido histórico field mock (2025-07-06),true,5492617413812
+PF-000392,29036,Coca-Cola Original 1L x9,1,17347.70,4,Pedido histórico field mock (2025-07-06),true,5492617413812
+PF-000393,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2025-08-15),true,5492617413812
+PF-000393,29036,Coca-Cola Original 1L x9,3,17347.70,4,Pedido histórico field mock (2025-08-15),true,5492617413812
+PF-000393,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,4,Pedido histórico field mock (2025-08-15),true,5492617413812
+PF-000394,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2025-09-26),true,5492617413812
+PF-000394,29036,Coca-Cola Original 1L x9,4,17347.70,4,Pedido histórico field mock (2025-09-26),true,5492617413812
+PF-000394,29019,Coca–Cola Zero 1L x9,1,17347.70,4,Pedido histórico field mock (2025-09-26),true,5492617413812
+PF-000394,29010,"Coca–Cola Zero 1,5L x6",4,15034.50,4,Pedido histórico field mock (2025-09-26),true,5492617413812
+PF-000395,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2025-10-27),true,5492617413812
+PF-000395,29036,Coca-Cola Original 1L x9,1,17347.70,4,Pedido histórico field mock (2025-10-27),true,5492617413812
+PF-000395,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,1,9622.58,4,Pedido histórico field mock (2025-10-27),true,5492617413812
+PF-000396,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-12-10),true,5492617413812
+PF-000396,29036,Coca-Cola Original 1L x9,2,17347.70,4,Pedido histórico field mock (2025-12-10),true,5492617413812
+PF-000396,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,3,9622.58,4,Pedido histórico field mock (2025-12-10),true,5492617413812
+PF-000397,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2026-01-13),true,5492617413812
+PF-000397,29036,Coca-Cola Original 1L x9,4,17347.70,4,Pedido histórico field mock (2026-01-13),true,5492617413812
+PF-000397,29012,"Coca–Cola Original 2,25L x6",2,20432.47,4,Pedido histórico field mock (2026-01-13),true,5492617413812
+PF-000397,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,2,9622.58,4,Pedido histórico field mock (2026-01-13),true,5492617413812
+PF-000398,29036,Coca-Cola Original 1L x9,1,17347.70,4,Pedido reciente field mock (2026-04-10),true,5492617413812
+PF-000398,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido reciente field mock (2026-04-10),true,5492617413812
+PF-000399,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,4,Pedido reciente field mock (2026-04-20),true,5492617413812
+PF-000399,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,4,Pedido reciente field mock (2026-04-20),true,5492617413812
+PF-000400,29036,Coca-Cola Original 1L x9,3,17347.70,4,Pedido reciente field mock (2026-05-04),true,5492617413812
+PF-000400,29016,"Coca–Cola Original 2,5L x6",1,22359.26,4,Pedido reciente field mock (2026-05-04),true,5492617413812
+PF-000401,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,1,Pedido histórico field mock (2025-06-02),true,5492617236955
+PF-000401,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,1,Pedido histórico field mock (2025-06-02),true,5492617236955
+PF-000401,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,1,Pedido histórico field mock (2025-06-02),true,5492617236955
+PF-000402,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,1,Pedido histórico field mock (2025-07-04),true,5492617236955
+PF-000402,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido histórico field mock (2025-07-04),true,5492617236955
+PF-000402,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",3,27063.50,1,Pedido histórico field mock (2025-07-04),true,5492617236955
+PF-000402,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,1,9622.58,1,Pedido histórico field mock (2025-07-04),true,5492617236955
+PF-000403,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,1,Pedido histórico field mock (2025-08-18),true,5492617236955
+PF-000403,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,1,Pedido histórico field mock (2025-08-18),true,5492617236955
+PF-000403,29019,Coca–Cola Zero 1L x9,4,17347.70,1,Pedido histórico field mock (2025-08-18),true,5492617236955
+PF-000403,29017,Coca–Cola Light 500ml x6,3,6592.39,1,Pedido histórico field mock (2025-08-18),true,5492617236955
+PF-000404,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,1,Pedido histórico field mock (2025-09-21),true,5492617236955
+PF-000404,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido histórico field mock (2025-09-21),true,5492617236955
+PF-000405,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,1,Pedido histórico field mock (2025-10-27),true,5492617236955
+PF-000405,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido histórico field mock (2025-10-27),true,5492617236955
+PF-000405,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,1,Pedido histórico field mock (2025-10-27),true,5492617236955
+PF-000406,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,1,Pedido histórico field mock (2025-12-06),true,5492617236955
+PF-000406,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,1,Pedido histórico field mock (2025-12-06),true,5492617236955
+PF-000406,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,2,9622.58,1,Pedido histórico field mock (2025-12-06),true,5492617236955
+PF-000406,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,1,Pedido histórico field mock (2025-12-06),true,5492617236955
+PF-000407,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,1,Pedido histórico field mock (2026-01-16),true,5492617236955
+PF-000407,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,1,Pedido histórico field mock (2026-01-16),true,5492617236955
+PF-000408,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido reciente field mock (2026-04-02),true,5492617236955
+PF-000408,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido reciente field mock (2026-04-02),true,5492617236955
+PF-000409,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,1,Pedido reciente field mock (2026-04-21),true,5492617236955
+PF-000409,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido reciente field mock (2026-04-21),true,5492617236955
+PF-000410,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,1,Pedido reciente field mock (2026-05-17),true,5492617236955
+PF-000410,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,1,Pedido reciente field mock (2026-05-17),true,5492617236955
+PF-000411,29016,"Coca–Cola Original 2,5L x6",3,22359.26,2,Pedido histórico field mock (2025-06-01),true,5492612928724
+PF-000411,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-06-01),true,5492612928724
+PF-000411,29019,Coca–Cola Zero 1L x9,2,17347.70,2,Pedido histórico field mock (2025-06-01),true,5492612928724
+PF-000411,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,2,Pedido histórico field mock (2025-06-01),true,5492612928724
+PF-000412,29016,"Coca–Cola Original 2,5L x6",3,22359.26,2,Pedido histórico field mock (2025-07-10),true,5492612928724
+PF-000412,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-07-10),true,5492612928724
+PF-000412,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",1,35664.02,2,Pedido histórico field mock (2025-07-10),true,5492612928724
+PF-000412,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",2,47575.95,2,Pedido histórico field mock (2025-07-10),true,5492612928724
+PF-000413,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido histórico field mock (2025-08-13),true,5492612928724
+PF-000413,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-08-13),true,5492612928724
+PF-000414,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido histórico field mock (2025-09-25),true,5492612928724
+PF-000414,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-09-25),true,5492612928724
+PF-000415,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido histórico field mock (2025-10-27),true,5492612928724
+PF-000415,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2025-10-27),true,5492612928724
+PF-000415,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",2,27063.50,2,Pedido histórico field mock (2025-10-27),true,5492612928724
+PF-000415,29019,Coca–Cola Zero 1L x9,3,17347.70,2,Pedido histórico field mock (2025-10-27),true,5492612928724
+PF-000416,29016,"Coca–Cola Original 2,5L x6",4,22359.26,2,Pedido histórico field mock (2025-12-07),true,5492612928724
+PF-000416,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2025-12-07),true,5492612928724
+PF-000416,29012,"Coca–Cola Original 2,25L x6",2,20432.47,2,Pedido histórico field mock (2025-12-07),true,5492612928724
+PF-000416,29017,Coca–Cola Light 500ml x6,2,6592.39,2,Pedido histórico field mock (2025-12-07),true,5492612928724
+PF-000417,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido histórico field mock (2026-01-11),true,5492612928724
+PF-000417,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2026-01-11),true,5492612928724
+PF-000417,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,2,Pedido histórico field mock (2026-01-11),true,5492612928724
+PF-000418,29036,Coca-Cola Original 1L x9,3,17347.70,2,Pedido reciente field mock (2026-04-22),true,5492612928724
+PF-000418,29016,"Coca–Cola Original 2,5L x6",1,22359.26,2,Pedido reciente field mock (2026-04-22),true,5492612928724
+PF-000419,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido reciente field mock (2026-05-11),true,5492612928724
+PF-000419,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido reciente field mock (2026-05-11),true,5492612928724
+PF-000420,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido reciente field mock (2026-05-17),true,5492612928724
+PF-000420,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,2,Pedido reciente field mock (2026-05-17),true,5492612928724
+PF-000421,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido histórico field mock (2025-06-05),true,5492999435946
+PF-000421,29016,"Coca–Cola Original 2,5L x6",4,22359.26,3,Pedido histórico field mock (2025-06-05),true,5492999435946
+PF-000421,29003,Coca–Cola Original 500ml x12,2,13184.78,3,Pedido histórico field mock (2025-06-05),true,5492999435946
+PF-000422,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido histórico field mock (2025-07-08),true,5492999435946
+PF-000422,29016,"Coca–Cola Original 2,5L x6",4,22359.26,3,Pedido histórico field mock (2025-07-08),true,5492999435946
+PF-000422,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-07-08),true,5492999435946
+PF-000422,29017,Coca–Cola Light 500ml x6,1,6592.39,3,Pedido histórico field mock (2025-07-08),true,5492999435946
+PF-000423,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,3,Pedido histórico field mock (2025-08-19),true,5492999435946
+PF-000423,29016,"Coca–Cola Original 2,5L x6",2,22359.26,3,Pedido histórico field mock (2025-08-19),true,5492999435946
+PF-000423,29003,Coca–Cola Original 500ml x12,1,13184.78,3,Pedido histórico field mock (2025-08-19),true,5492999435946
+PF-000424,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido histórico field mock (2025-09-24),true,5492999435946
+PF-000424,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido histórico field mock (2025-09-24),true,5492999435946
+PF-000424,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,4,9622.58,3,Pedido histórico field mock (2025-09-24),true,5492999435946
+PF-000425,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido histórico field mock (2025-10-30),true,5492999435946
+PF-000425,29016,"Coca–Cola Original 2,5L x6",4,22359.26,3,Pedido histórico field mock (2025-10-30),true,5492999435946
+PF-000425,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",4,27063.50,3,Pedido histórico field mock (2025-10-30),true,5492999435946
+PF-000426,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,3,Pedido histórico field mock (2025-12-09),true,5492999435946
+PF-000426,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido histórico field mock (2025-12-09),true,5492999435946
+PF-000427,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido histórico field mock (2026-01-11),true,5492999435946
+PF-000427,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido histórico field mock (2026-01-11),true,5492999435946
+PF-000428,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,3,Pedido reciente field mock (2026-04-27),true,5492999435946
+PF-000428,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido reciente field mock (2026-04-27),true,5492999435946
+PF-000429,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido reciente field mock (2026-05-08),true,5492999435946
+PF-000429,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido reciente field mock (2026-05-08),true,5492999435946
+PF-000430,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,3,Pedido reciente field mock (2026-05-15),true,5492999435946
+PF-000430,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido reciente field mock (2026-05-15),true,5492999435946
+PF-000431,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,4,Pedido histórico field mock (2025-06-04),true,5493517632424
+PF-000431,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-06-04),true,5493517632424
+PF-000431,29164,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,4,Pedido histórico field mock (2025-06-04),true,5493517632424
+PF-000432,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,4,Pedido histórico field mock (2025-07-06),true,5493517632424
+PF-000432,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2025-07-06),true,5493517632424
+PF-000432,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,3,9622.58,4,Pedido histórico field mock (2025-07-06),true,5493517632424
+PF-000432,29017,Coca–Cola Light 500ml x6,4,6592.39,4,Pedido histórico field mock (2025-07-06),true,5493517632424
+PF-000433,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,4,Pedido histórico field mock (2025-08-16),true,5493517632424
+PF-000433,29016,"Coca–Cola Original 2,5L x6",4,22359.26,4,Pedido histórico field mock (2025-08-16),true,5493517632424
+PF-000434,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,4,Pedido histórico field mock (2025-09-22),true,5493517632424
+PF-000434,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2025-09-22),true,5493517632424
+PF-000435,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,4,Pedido histórico field mock (2025-10-30),true,5493517632424
+PF-000435,29016,"Coca–Cola Original 2,5L x6",4,22359.26,4,Pedido histórico field mock (2025-10-30),true,5493517632424
+PF-000435,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,4,Pedido histórico field mock (2025-10-30),true,5493517632424
+PF-000436,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,4,Pedido histórico field mock (2025-12-03),true,5493517632424
+PF-000436,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido histórico field mock (2025-12-03),true,5493517632424
+PF-000436,29003,Coca–Cola Original 500ml x12,1,13184.78,4,Pedido histórico field mock (2025-12-03),true,5493517632424
+PF-000436,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,1,9622.58,4,Pedido histórico field mock (2025-12-03),true,5493517632424
+PF-000437,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,4,Pedido histórico field mock (2026-01-14),true,5493517632424
+PF-000437,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido histórico field mock (2026-01-14),true,5493517632424
+PF-000437,29007,"Coca–Cola 1,5L x6 + Sprite 1,5L x6 + Fanta 1,5L x6",2,35664.02,4,Pedido histórico field mock (2026-01-14),true,5493517632424
+PF-000437,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,1,17140.21,4,Pedido histórico field mock (2026-01-14),true,5493517632424
+PF-000438,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,4,Pedido reciente field mock (2026-04-06),true,5493517632424
+PF-000438,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,4,Pedido reciente field mock (2026-04-06),true,5493517632424
+PF-000439,29016,"Coca–Cola Original 2,5L x6",2,22359.26,4,Pedido reciente field mock (2026-04-25),true,5493517632424
+PF-000439,29036,Coca-Cola Original 1L x9,2,17347.70,4,Pedido reciente field mock (2026-04-25),true,5493517632424
+PF-000440,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,4,Pedido reciente field mock (2026-05-05),true,5493517632424
+PF-000440,29016,"Coca–Cola Original 2,5L x6",3,22359.26,4,Pedido reciente field mock (2026-05-05),true,5493517632424
+PF-000441,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido histórico field mock (2025-06-01),true,5493416524997
+PF-000441,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,1,Pedido histórico field mock (2025-06-01),true,5493416524997
+PF-000442,29016,"Coca–Cola Original 2,5L x6",3,22359.26,1,Pedido histórico field mock (2025-07-07),true,5493416524997
+PF-000442,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,1,Pedido histórico field mock (2025-07-07),true,5493416524997
+PF-000442,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,1,17140.21,1,Pedido histórico field mock (2025-07-07),true,5493416524997
+PF-000442,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,1,Pedido histórico field mock (2025-07-07),true,5493416524997
+PF-000443,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido histórico field mock (2025-08-15),true,5493416524997
+PF-000443,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,1,Pedido histórico field mock (2025-08-15),true,5493416524997
+PF-000444,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido histórico field mock (2025-09-19),true,5493416524997
+PF-000444,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,1,Pedido histórico field mock (2025-09-19),true,5493416524997
+PF-000444,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,1,Pedido histórico field mock (2025-09-19),true,5493416524997
+PF-000444,29029,Coca–Cola Zero 500ml x12 + Fanta Zero 500mlx6,3,17140.21,1,Pedido histórico field mock (2025-09-19),true,5493416524997
+PF-000445,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido histórico field mock (2025-10-30),true,5493416524997
+PF-000445,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,1,Pedido histórico field mock (2025-10-30),true,5493416524997
+PF-000446,29016,"Coca–Cola Original 2,5L x6",1,22359.26,1,Pedido histórico field mock (2025-12-07),true,5493416524997
+PF-000446,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,1,Pedido histórico field mock (2025-12-07),true,5493416524997
+PF-000446,29012,"Coca–Cola Original 2,25L x6",3,20432.47,1,Pedido histórico field mock (2025-12-07),true,5493416524997
+PF-000446,29197,"Bonaqua 1,5L Sin Gas x6 + Lata de Cocina Coca–Cola x2",4,17070.57,1,Pedido histórico field mock (2025-12-07),true,5493416524997
+PF-000447,29016,"Coca–Cola Original 2,5L x6",4,22359.26,1,Pedido histórico field mock (2026-01-11),true,5493416524997
+PF-000447,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,1,Pedido histórico field mock (2026-01-11),true,5493416524997
+PF-000447,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",4,27063.50,1,Pedido histórico field mock (2026-01-11),true,5493416524997
+PF-000447,29019,Coca–Cola Zero 1L x9,3,17347.70,1,Pedido histórico field mock (2026-01-11),true,5493416524997
+PF-000448,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,1,Pedido reciente field mock (2026-04-28),true,5493416524997
+PF-000448,29036,Coca-Cola Original 1L x9,1,17347.70,1,Pedido reciente field mock (2026-04-28),true,5493416524997
+PF-000449,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,1,Pedido reciente field mock (2026-05-09),true,5493416524997
+PF-000449,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,1,Pedido reciente field mock (2026-05-09),true,5493416524997
+PF-000450,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,1,Pedido reciente field mock (2026-05-10),true,5493416524997
+PF-000450,29036,Coca-Cola Original 1L x9,2,17347.70,1,Pedido reciente field mock (2026-05-10),true,5493416524997
+PF-000451,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-06-01),true,5493876499570
+PF-000451,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,2,Pedido histórico field mock (2025-06-01),true,5493876499570
+PF-000451,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",4,36778.60,2,Pedido histórico field mock (2025-06-01),true,5493876499570
+PF-000451,29002,Coca-Cola Original Lata 354ml x6 + Coca-Cola Zero Lata 354ml x6,4,9622.58,2,Pedido histórico field mock (2025-06-01),true,5493876499570
+PF-000452,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-07-13),true,5493876499570
+PF-000452,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,2,Pedido histórico field mock (2025-07-13),true,5493876499570
+PF-000452,29012,"Coca–Cola Original 2,25L x6",4,20432.47,2,Pedido histórico field mock (2025-07-13),true,5493876499570
+PF-000452,29017,Coca–Cola Light 500ml x6,1,6592.39,2,Pedido histórico field mock (2025-07-13),true,5493876499570
+PF-000453,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2025-08-12),true,5493876499570
+PF-000453,29008,Coca–Cola Original Lata 220ml x6,4,4607.73,2,Pedido histórico field mock (2025-08-12),true,5493876499570
+PF-000453,29010,"Coca–Cola Zero 1,5L x6",2,15034.50,2,Pedido histórico field mock (2025-08-12),true,5493876499570
+PF-000453,29012,"Coca–Cola Original 2,25L x6",3,20432.47,2,Pedido histórico field mock (2025-08-12),true,5493876499570
+PF-000454,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido histórico field mock (2025-09-28),true,5493876499570
+PF-000454,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,2,Pedido histórico field mock (2025-09-28),true,5493876499570
+PF-000455,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido histórico field mock (2025-10-31),true,5493876499570
+PF-000455,29008,Coca–Cola Original Lata 220ml x6,2,4607.73,2,Pedido histórico field mock (2025-10-31),true,5493876499570
+PF-000455,29010,"Coca–Cola Zero 1,5L x6",3,15034.50,2,Pedido histórico field mock (2025-10-31),true,5493876499570
+PF-000456,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,2,Pedido histórico field mock (2025-12-03),true,5493876499570
+PF-000456,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,2,Pedido histórico field mock (2025-12-03),true,5493876499570
+PF-000457,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,2,Pedido histórico field mock (2026-01-13),true,5493876499570
+PF-000457,29008,Coca–Cola Original Lata 220ml x6,3,4607.73,2,Pedido histórico field mock (2026-01-13),true,5493876499570
+PF-000457,29161,"Coca–Cola Original 1,5L x6 + Fanta 1,5L x6",4,27063.50,2,Pedido histórico field mock (2026-01-13),true,5493876499570
+PF-000457,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",2,47575.95,2,Pedido histórico field mock (2026-01-13),true,5493876499570
+PF-000458,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido reciente field mock (2026-04-23),true,5493876499570
+PF-000458,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido reciente field mock (2026-04-23),true,5493876499570
+PF-000459,29008,Coca–Cola Original Lata 220ml x6,1,4607.73,2,Pedido reciente field mock (2026-04-28),true,5493876499570
+PF-000459,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,2,Pedido reciente field mock (2026-04-28),true,5493876499570
+PF-000460,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,2,Pedido reciente field mock (2026-05-01),true,5493876499570
+PF-000460,29016,"Coca–Cola Original 2,5L x6",2,22359.26,2,Pedido reciente field mock (2026-05-01),true,5493876499570
+PF-000461,29036,Coca-Cola Original 1L x9,2,17347.70,3,Pedido histórico field mock (2025-06-04),true,5492998066543
+PF-000461,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,4,22853.62,3,Pedido histórico field mock (2025-06-04),true,5492998066543
+PF-000461,29003,Coca–Cola Original 500ml x12,1,13184.78,3,Pedido histórico field mock (2025-06-04),true,5492998066543
+PF-000461,29165,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",1,47575.95,3,Pedido histórico field mock (2025-06-04),true,5492998066543
+PF-000462,29036,Coca-Cola Original 1L x9,4,17347.70,3,Pedido histórico field mock (2025-07-12),true,5492998066543
+PF-000462,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido histórico field mock (2025-07-12),true,5492998066543
+PF-000462,29172,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",2,36778.60,3,Pedido histórico field mock (2025-07-12),true,5492998066543
+PF-000462,29020,"Coca–Cola Zero 1,5L x6 + Sprite Zero 1,5L x6 + Fanta Zero 1,5L x6 + Schweppes Zero 1,5L x6",4,47575.95,3,Pedido histórico field mock (2025-07-12),true,5492998066543
+PF-000463,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido histórico field mock (2025-08-15),true,5492998066543
+PF-000463,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido histórico field mock (2025-08-15),true,5492998066543
+PF-000463,29017,Coca–Cola Light 500ml x6,1,6592.39,3,Pedido histórico field mock (2025-08-15),true,5492998066543
+PF-000464,29036,Coca-Cola Original 1L x9,3,17347.70,3,Pedido histórico field mock (2025-09-21),true,5492998066543
+PF-000464,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2025-09-21),true,5492998066543
+PF-000465,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido histórico field mock (2025-11-04),true,5492998066543
+PF-000465,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,2,22853.62,3,Pedido histórico field mock (2025-11-04),true,5492998066543
+PF-000466,29036,Coca-Cola Original 1L x9,4,17347.70,3,Pedido histórico field mock (2025-12-08),true,5492998066543
+PF-000466,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido histórico field mock (2025-12-08),true,5492998066543
+PF-000467,29036,Coca-Cola Original 1L x9,4,17347.70,3,Pedido histórico field mock (2026-01-19),true,5492998066543
+PF-000467,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,3,22853.62,3,Pedido histórico field mock (2026-01-19),true,5492998066543
+PF-000467,29012,"Coca–Cola Original 2,25L x6",1,20432.47,3,Pedido histórico field mock (2026-01-19),true,5492998066543
+PF-000467,29003,Coca–Cola Original 500ml x12,3,13184.78,3,Pedido histórico field mock (2026-01-19),true,5492998066543
+PF-000468,29036,Coca-Cola Original 1L x9,1,17347.70,3,Pedido reciente field mock (2026-04-06),true,5492998066543
+PF-000468,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido reciente field mock (2026-04-06),true,5492998066543
+PF-000469,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",1,36778.60,3,Pedido reciente field mock (2026-04-11),true,5492998066543
+PF-000469,29016,"Coca–Cola Original 2,5L x6",3,22359.26,3,Pedido reciente field mock (2026-04-11),true,5492998066543
+PF-000470,29037,"Coca–Cola Original 2,25L x6 + Fanta 2,25L x6",3,36778.60,3,Pedido reciente field mock (2026-04-29),true,5492998066543
+PF-000470,29018,Coca–Cola Original 500ml x12 + Fanta 500ml x12,1,22853.62,3,Pedido reciente field mock (2026-04-29),true,5492998066543
