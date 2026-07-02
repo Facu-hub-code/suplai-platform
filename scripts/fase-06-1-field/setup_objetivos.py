@@ -133,7 +133,7 @@ async def ensure_full_week_coverage(conn, schema: str) -> dict[str, str]:
             INSERT INTO "{schema}".geo_zones
               (name, zone_type, color, dia_visita, codigo_ruta,
                vendedor_principal_id, geometry, active, is_mock)
-            VALUES ($1, $2, $3, $4::dia_de_visita_enum, $5, $6, $7, true, true)
+            VALUES ($1, $2, $3, $4::core.dia_de_visita_enum, $5, $6, $7, true, true)
             RETURNING id
             """,
             f"ZONA DEMO — {dia.capitalize()}",

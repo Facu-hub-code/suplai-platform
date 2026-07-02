@@ -171,6 +171,8 @@ async def generate(schema: str) -> None:
         products = await get_top_products(conn, schema, limit=30)
         if not products:
             raise SystemExit(f"[FAIL] No hay productos en {schema}.")
+            
+        all_prices = await load_all_prices(conn, schema)
 
         top_anchor   = _pick_top_n(products, 5)   # Top 5 → productos "habituales"
         rest_catalog = products[5:20]              # Los siguientes → productos ocasionales
