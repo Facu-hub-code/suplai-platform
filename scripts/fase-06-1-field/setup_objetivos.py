@@ -8,6 +8,10 @@ Crea 2 objetivos comerciales en field_objetivos:
      Meta: 500 unidades. Período: hoy-15 días → hoy+45 días
      (para que ya muestre progreso con los pedidos recién cargados).
 
+Además, garantiza que cada día de la semana tenga al menos un vendedor con
+zona activa (dia_visita), de modo que trigger_tareas.py siempre genere tareas
+sin importar el día en que se corra la demo.
+
 Uso:
     python scripts/fase-06-1-field/setup_objetivos.py --esquema <schema>
     python scripts/fase-06-1-field/setup_objetivos.py --esquema <schema> --limpiar
@@ -17,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import itertools
 import json
 import sys
 from datetime import date, timedelta
@@ -58,6 +63,101 @@ async def table_exists(conn, schema: str, table: str) -> bool:
         schema, table,
     )
     return row is not None
+
+
+async def ensure_full_week_coverage(conn, schema: str) -> dict[str, str]:
+    """
+    Garantiza que cada día de la semana tenga al menos un vendedor con zona activa.
+
+    Para cada día sin cobertura, clona la geometría de una zona mock existente,
+    crea una nueva geo_zone con ese dia_visita y la vincula al vendedor mock con
+    menos zonas asignadas. Esto asegura que trigger_tareas.py siempre encuentre
+    al menos un vendedor activo sin importar qué día se corra la demo.
+
+    Retorna {dia: nombre_vendedor} para los días que se crearon.
+    """
+    all_days = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
+
+    covered_rows = await conn.fetch(
+        f"""
+        SELECT DISTINCT gz.dia_visita::text AS dia
+        FROM "{schema}".vendedor_geo_zones vgz
+        JOIN "{schema}".geo_zones gz ON gz.id = vgz.geo_zone_id
+        WHERE vgz.activo = true AND gz.dia_visita IS NOT NULL AND gz.active = true
+        """
+    )
+    covered = {r["dia"] for r in covered_rows}
+    missing = [d for d in all_days if d not in covered]
+
+    if not missing:
+        return {}
+
+    # Pick sellers ordered by zone count ascending so we spread the load evenly.
+    sellers = await conn.fetch(
+        f"""
+        SELECT v.id, v.nombre, COUNT(vgz.geo_zone_id) AS zone_count
+        FROM "{schema}".vendedores v
+        LEFT JOIN "{schema}".vendedor_geo_zones vgz
+               ON vgz.vendedor_id = v.id AND vgz.activo = true
+        WHERE v.activo = true AND v.is_mock = true
+        GROUP BY v.id, v.nombre
+        ORDER BY zone_count ASC, v.id ASC
+        """
+    )
+    if not sellers:
+        print("[WARN] No hay vendedores mock activos para crear cobertura semanal.")
+        return {}
+
+    # Source zone to clone geometry + style from.
+    source = await conn.fetchrow(
+        f"""
+        SELECT zone_type, color, geometry, codigo_ruta
+        FROM "{schema}".geo_zones
+        WHERE is_mock = true AND active = true AND dia_visita IS NOT NULL
+        LIMIT 1
+        """
+    )
+    if not source:
+        print("[WARN] No hay zonas mock de referencia para clonar geometría.")
+        return {}
+
+    added: dict[str, str] = {}
+    seller_cycle = itertools.cycle([dict(s) for s in sellers])
+
+    for dia in missing:
+        seller = next(seller_cycle)
+        vid    = int(seller["id"])
+
+        new_zone_id = await conn.fetchval(
+            f"""
+            INSERT INTO "{schema}".geo_zones
+              (name, zone_type, color, dia_visita, codigo_ruta,
+               vendedor_principal_id, geometry, active, is_mock)
+            VALUES ($1, $2, $3, $4::core.dia_de_visita_enum, $5, $6, $7, true, true)
+            RETURNING id
+            """,
+            f"ZONA DEMO — {dia.capitalize()}",
+            source["zone_type"],
+            source["color"],
+            dia,
+            f"DEMO-{dia[:3].upper()}",
+            vid,
+            source["geometry"],
+        )
+
+        await conn.execute(
+            f"""
+            INSERT INTO "{schema}".vendedor_geo_zones
+              (vendedor_id, geo_zone_id, activo, is_mock)
+            VALUES ($1, $2, true, true)
+            ON CONFLICT DO NOTHING
+            """,
+            vid, new_zone_id,
+        )
+
+        added[dia] = seller["nombre"]
+
+    return added
 
 
 async def setup(schema: str, limpiar: bool) -> None:
@@ -146,6 +246,9 @@ async def setup(schema: str, limpiar: bool) -> None:
             sku_rows,
         )
 
+        # --- Cobertura semanal: al menos un vendedor por cada día ---
+        week_added = await ensure_full_week_coverage(conn, schema)
+
         # Verificación
         count = await conn.fetchval(f'SELECT COUNT(*) FROM "{schema}".field_objetivos WHERE activo=true')
 
@@ -174,6 +277,17 @@ async def setup(schema: str, limpiar: bool) -> None:
         csv_path = paths["outputs"] / "phase-06-1-objetivos.csv"
         write_csv_rows(csv_path, rows_csv, list(rows_csv[0].keys()))
 
+        all_days   = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
+        covered_now = await conn.fetch(
+            f"""
+            SELECT DISTINCT gz.dia_visita::text AS dia
+            FROM "{schema}".vendedor_geo_zones vgz
+            JOIN "{schema}".geo_zones gz ON gz.id = vgz.geo_zone_id
+            WHERE vgz.activo = true AND gz.dia_visita IS NOT NULL AND gz.active = true
+            """
+        )
+        covered_set = {r["dia"] for r in covered_now}
+
         print(f"\n{'='*60}")
         print("SETUP FIELD OBJETIVOS")
         print(f"{'='*60}")
@@ -182,6 +296,14 @@ async def setup(schema: str, limpiar: bool) -> None:
         print(f"  SKUs grupo:  {', '.join(brand_names[:3])}{'...' if len(brand_names) > 3 else ''}")
         print(f"  Activos en BD: {count}")
         print(f"  CSV: {csv_path}")
+        print(f"\n  Cobertura semanal (dia_visita → vendedor):")
+        for dia in all_days:
+            if dia in week_added:
+                print(f"    {dia:<12} ✓ creado  → {week_added[dia]}")
+            elif dia in covered_set:
+                print(f"    {dia:<12} ✓ existía")
+            else:
+                print(f"    {dia:<12} ✗ sin cobertura")
         print(f"{'='*60}")
 
     finally:

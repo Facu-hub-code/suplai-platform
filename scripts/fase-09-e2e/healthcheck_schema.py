@@ -97,24 +97,53 @@ async def check_schema(schema: str, fix_tools: bool = False, fix_rag: bool = Fal
             print(f"    [WARN] Hay {len(missing_desc_rows)} productos activos con stock que carecen de descripción comercial.")
             print("           Se sugiere correr la skill 'enhance-descriptions' para enriquecerlos.")
 
-        # 4. Verificar etiquetas de productos (tags)
+        # 4. Verificar categorías de productos (SPEC-060: product_categories es la fuente primaria)
+        # Para nuevos tenants: product_categories. Para tenants legacy con tags: también se informa product_tags.
+        total_active_with_stock = active_stock_count or 1
+
+        # 4a. Categorías externas (product_categories) — usadas por el agente y la tienda
+        product_categories_exists = await conn.fetchval(
+            "SELECT 1 FROM information_schema.tables "
+            "WHERE table_schema=$1 AND table_name='product_categories' LIMIT 1",
+            schema,
+        )
+        if not product_categories_exists:
+            print(f"    [WARN] Tabla 'product_categories' no encontrada en schema '{schema}'.")
+            print("           Aplicar migración SQL 065_product_categories_table.sql antes de continuar.")
+        else:
+            missing_cat_rows = await conn.fetch(
+                f"""
+                SELECT p.product_code, p.nombre
+                FROM "{schema}".productos p
+                LEFT JOIN "{schema}".product_categories pc ON pc.product_code = p.product_code
+                WHERE p.en_catalogo = true AND p.stock > 0 AND pc.product_code IS NULL
+                """
+            )
+            missing_cat_count = len(missing_cat_rows)
+            pct_missing_cat = (missing_cat_count / total_active_with_stock) * 100.0
+            print(f"    Productos activos con stock sin categoría: {missing_cat_count} ({pct_missing_cat:.1f}%)")
+            if pct_missing_cat > 30.0:
+                print(f"    [FAIL] Más del 30% de los productos activos ({pct_missing_cat:.1f}%) no tienen categoría asignada.")
+                print("           Ejecutar: python scripts/fase-01-catalogo/aplicar_taxonomia.py --esquema {schema}")
+            elif missing_cat_count > 0:
+                print(f"    [WARN] Hay {missing_cat_count} productos ({pct_missing_cat:.1f}%) sin categoría. Dentro del límite aceptable (<=30%).")
+
+        # 4b. Tags internos (product_tags) — solo informativo; usado para field objetivos/promociones
         missing_tags_rows = await conn.fetch(
             f"""
-            SELECT p.product_code, p.nombre 
-            FROM {schema}.productos p
-            LEFT JOIN {schema}.product_tags pt ON p.product_code = pt.product_code
+            SELECT p.product_code, p.nombre
+            FROM "{schema}".productos p
+            LEFT JOIN "{schema}".product_tags pt ON p.product_code = pt.product_code
             WHERE p.en_catalogo = true AND p.stock > 0 AND pt.product_code IS NULL
             """
         )
         missing_tags_count = len(missing_tags_rows)
-        total_active_with_stock = active_stock_count or 1
-        pct_missing = (missing_tags_count / total_active_with_stock) * 100.0
-        print(f"    Productos activos con stock sin tags: {missing_tags_count} ({pct_missing:.1f}%)")
-        if pct_missing > 30.0:
-            print(f"    [FAIL] Más del 30% de los productos activos con stock ({pct_missing:.1f}%) carecen de tags asociados.")
-            print("           Se sugiere proponer y aplicar una taxonomía usando los endpoints del backend.")
-        elif missing_tags_count > 0:
-            print(f"    [WARN] Hay {missing_tags_count} productos ({pct_missing:.1f}%) sin tags. Se encuentra dentro del límite aceptable (<=30%).")
+        pct_missing_tags = (missing_tags_count / total_active_with_stock) * 100.0
+        print(f"    Productos activos con stock sin tag interno: {missing_tags_count} ({pct_missing_tags:.1f}%)")
+        if missing_tags_count == active_stock_count:
+            print(f"    [INFO] Tenant sin tags internos — normal para nuevos tenants (SPEC-060).")
+        elif pct_missing_tags > 30.0:
+            print(f"    [WARN] Más del 30% sin tags internos. Puede afectar field objetivos y promociones.")
 
         # 5. Verificar RAG de Productos (documents)
         print(f"[*] Verificando RAG de Productos (documents) en '{schema}'...")
@@ -149,35 +178,51 @@ async def check_schema(schema: str, fix_tools: bool = False, fix_rag: bool = Fal
                 print("           Se requiere re-vectorizar. Ejecute con --fix-rag para encolarla automáticamente.")
 
         # 6. Verificar RAG de Categorías (category_documents)
+        # SPEC-060: category_documents usa metadata->>'categoria_id' (desde tabla `categorias`).
+        # La tabla `tags` es solo interna (backoffice); el agente usa `categorias`.
         print(f"[*] Verificando RAG de Categorías (category_documents) en '{schema}'...")
-        missing_cat_docs = await conn.fetch(
-            f"""
-            SELECT t.id, t.name 
-            FROM {schema}.tags t
-            WHERE t.id NOT IN (
-                SELECT (metadata->>'tag_id')::integer 
-                FROM {schema}.category_documents 
-                WHERE metadata->>'tag_id' IS NOT NULL
-            )
-            """
+
+        # Primero verificar que la tabla categorias existe (requiere migración SQL 064/065).
+        categorias_exists = await conn.fetchval(
+            "SELECT 1 FROM information_schema.tables "
+            "WHERE table_schema=$1 AND table_name='categorias' LIMIT 1",
+            schema,
         )
-        print(f"    Categorías (tags) no vectorizadas en RAG: {len(missing_cat_docs)}")
-        if missing_cat_docs:
-            print(f"    [FAIL] Hay {len(missing_cat_docs)} categorías en tags que NO están en category_documents.")
-            if fix_rag:
-                print(f"           [FIX] Encolando re-vectorización de categorías...")
-                missing_ids = [int(r["id"]) for r in missing_cat_docs]
-                backend_url = os.getenv("BACKEND_URL", "https://web-production-f544f.up.railway.app").rstrip("/")
-                try:
-                    resp = requests.post(f"{backend_url}/{schema}/tags/vectorize", json={"tag_ids": missing_ids}, timeout=30)
-                    if resp.status_code == 200:
-                        print("           [FIX] Re-vectorización de categorías encolada exitosamente.")
-                    else:
-                        print(f"           [FIX] Error al llamar al backend (Código {resp.status_code}): {resp.text}")
-                except Exception as e:
-                    print(f"           [FIX] Error de conexión: {e}")
-            else:
-                print("           Se requiere re-vectorizar las categorías. Ejecute con --fix-rag para encolarla automáticamente.")
+        if not categorias_exists:
+            print(f"    [WARN] Tabla 'categorias' no encontrada en schema '{schema}'.")
+            print("           Aplicar migración SQL 064_categorias_table.sql antes de continuar.")
+        else:
+            missing_cat_docs = await conn.fetch(
+                f"""
+                SELECT c.id, c.name
+                FROM "{schema}".categorias c
+                WHERE c.id NOT IN (
+                    SELECT (metadata->>'categoria_id')::integer
+                    FROM "{schema}".category_documents
+                    WHERE metadata->>'categoria_id' IS NOT NULL
+                )
+                """
+            )
+            print(f"    Categorías no vectorizadas en RAG: {len(missing_cat_docs)}")
+            if missing_cat_docs:
+                print(f"    [FAIL] Hay {len(missing_cat_docs)} categorías que NO están en category_documents.")
+                if fix_rag:
+                    print(f"           [FIX] Llamando populate-from-tags para sincronizar categorias → RAG...")
+                    backend_url = os.getenv("BACKEND_URL", "https://web-production-f544f.up.railway.app").rstrip("/")
+                    try:
+                        resp = requests.post(
+                            f"{backend_url}/{schema}/categorias/populate-from-tags",
+                            timeout=60,
+                        )
+                        if resp.status_code == 200:
+                            print("           [FIX] populate-from-tags encolado exitosamente. RAG se rebuild en background.")
+                        else:
+                            print(f"           [FIX] Error al llamar al backend (Código {resp.status_code}): {resp.text}")
+                    except Exception as e:
+                        print(f"           [FIX] Error de conexión: {e}")
+                else:
+                    print("           Ejecute con --fix-rag para disparar populate-from-tags automáticamente.")
+                    print("           O en el backoffice: Gestión de Categorías → 'Poblar desde etiquetas'.")
 
         # 7. Verificar Clientes
         print(f"[*] Verificando clientes registrados en '{schema}'...")

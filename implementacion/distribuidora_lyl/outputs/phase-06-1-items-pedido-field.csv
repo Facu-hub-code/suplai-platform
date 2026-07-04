@@ -1,0 +1,1262 @@
+pedido_ref,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,cliente_phone
+PF-000001,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-06-01),true,5493587905250
+PF-000001,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1648.33,2,Pedido histórico field mock (2025-06-01),true,5493587905250
+PF-000002,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-06-21),true,5493587905250
+PF-000002,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1648.33,2,Pedido histórico field mock (2025-06-21),true,5493587905250
+PF-000003,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-07-14),true,5493587905250
+PF-000003,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2025-07-14),true,5493587905250
+PF-000003,LYL-0029,Speed ZERO Lata 473cc XL x unidad,3,2300.00,2,Pedido histórico field mock (2025-07-14),true,5493587905250
+PF-000004,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-08-07),true,5493587905250
+PF-000004,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1648.33,2,Pedido histórico field mock (2025-08-07),true,5493587905250
+PF-000004,LYL-0005,Gaseosa Secco 500cc x 12u,4,843.33,2,Pedido histórico field mock (2025-08-07),true,5493587905250
+PF-000004,LYL-0041,Fernet BRANCA x 1L x 1u,1,21735.00,2,Pedido histórico field mock (2025-08-07),true,5493587905250
+PF-000005,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-08-22),true,5493587905250
+PF-000005,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido histórico field mock (2025-08-22),true,5493587905250
+PF-000006,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-09-19),true,5493587905250
+PF-000006,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2025-09-19),true,5493587905250
+PF-000006,LYL-0005,Gaseosa Secco 500cc x 12u,4,843.33,2,Pedido histórico field mock (2025-09-19),true,5493587905250
+PF-000006,LYL-0028,Speed ZERO Pack 250cc x 24u,4,1423.12,2,Pedido histórico field mock (2025-09-19),true,5493587905250
+PF-000007,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido histórico field mock (2025-10-05),true,5493587905250
+PF-000007,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido histórico field mock (2025-10-05),true,5493587905250
+PF-000007,LYL-0028,Speed ZERO Pack 250cc x 24u,4,1423.12,2,Pedido histórico field mock (2025-10-05),true,5493587905250
+PF-000007,LYL-0007,Soda Secco 500cc x 6u,1,373.75,2,Pedido histórico field mock (2025-10-05),true,5493587905250
+PF-000008,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-06-01),true,5493582641213
+PF-000008,LYL-0135,Huevitos KINDER x 12u,2,2017.50,3,Pedido histórico field mock (2025-06-01),true,5493582641213
+PF-000009,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2025-06-17),true,5493582641213
+PF-000009,LYL-0135,Huevitos KINDER x 12u,4,2017.50,3,Pedido histórico field mock (2025-06-17),true,5493582641213
+PF-000009,LYL-0008,"Soda Secco 1,5L x 6u",2,705.00,3,Pedido histórico field mock (2025-06-17),true,5493582641213
+PF-000009,LYL-0010,Soda en Sifón Secco 2L x 6u,4,1095.00,3,Pedido histórico field mock (2025-06-17),true,5493582641213
+PF-000010,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2025-07-17),true,5493582641213
+PF-000010,LYL-0135,Huevitos KINDER x 12u,1,2017.50,3,Pedido histórico field mock (2025-07-17),true,5493582641213
+PF-000011,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2025-08-01),true,5493582641213
+PF-000011,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido histórico field mock (2025-08-01),true,5493582641213
+PF-000012,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-08-25),true,5493582641213
+PF-000012,LYL-0135,Huevitos KINDER x 12u,2,2017.50,3,Pedido histórico field mock (2025-08-25),true,5493582641213
+PF-000012,LYL-0009,"Soda Secco 2,25L x 6u",3,765.00,3,Pedido histórico field mock (2025-08-25),true,5493582641213
+PF-000013,LYL-0001,Gaseosa Secco 3L x 4u,4,1620.00,3,Pedido histórico field mock (2025-09-10),true,5493582641213
+PF-000013,LYL-0135,Huevitos KINDER x 12u,2,2017.50,3,Pedido histórico field mock (2025-09-10),true,5493582641213
+PF-000013,LYL-0029,Speed ZERO Lata 473cc XL x unidad,4,1800.00,3,Pedido histórico field mock (2025-09-10),true,5493582641213
+PF-000014,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-10-09),true,5493582641213
+PF-000014,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido histórico field mock (2025-10-09),true,5493582641213
+PF-000014,LYL-0008,"Soda Secco 1,5L x 6u",1,705.00,3,Pedido histórico field mock (2025-10-09),true,5493582641213
+PF-000014,LYL-0010,Soda en Sifón Secco 2L x 6u,3,1095.00,3,Pedido histórico field mock (2025-10-09),true,5493582641213
+PF-000015,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2025-06-01),true,5492991227644
+PF-000015,LYL-0136,Huevitos KINDER x 12u,2,2408.33,4,Pedido histórico field mock (2025-06-01),true,5492991227644
+PF-000016,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2025-06-24),true,5492991227644
+PF-000016,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido histórico field mock (2025-06-24),true,5492991227644
+PF-000017,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2025-07-13),true,5492991227644
+PF-000017,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido histórico field mock (2025-07-13),true,5492991227644
+PF-000018,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido histórico field mock (2025-08-06),true,5492991227644
+PF-000018,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2025-08-06),true,5492991227644
+PF-000018,LYL-0010,Soda en Sifón Secco 2L x 6u,2,1034.17,4,Pedido histórico field mock (2025-08-06),true,5492991227644
+PF-000019,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2025-08-28),true,5492991227644
+PF-000019,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2025-08-28),true,5492991227644
+PF-000019,LYL-0008,"Soda Secco 1,5L x 6u",1,665.83,4,Pedido histórico field mock (2025-08-28),true,5492991227644
+PF-000019,LYL-0029,Speed ZERO Lata 473cc XL x unidad,3,1700.00,4,Pedido histórico field mock (2025-08-28),true,5492991227644
+PF-000020,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1218.33,4,Pedido histórico field mock (2025-09-10),true,5492991227644
+PF-000020,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2025-09-10),true,5492991227644
+PF-000020,LYL-0007,Soda Secco 500cc x 6u,1,276.25,4,Pedido histórico field mock (2025-09-10),true,5492991227644
+PF-000021,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido histórico field mock (2025-10-05),true,5492991227644
+PF-000021,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido histórico field mock (2025-10-05),true,5492991227644
+PF-000022,LYL-0001,Gaseosa Secco 3L x 4u,1,1800.00,1,Pedido histórico field mock (2025-06-01),true,5493418277249
+PF-000022,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido histórico field mock (2025-06-01),true,5493418277249
+PF-000022,LYL-0008,"Soda Secco 1,5L x 6u",3,783.33,1,Pedido histórico field mock (2025-06-01),true,5493418277249
+PF-000022,LYL-0121,GEORGALOS Full Maní x 900g,3,2200.00,1,Pedido histórico field mock (2025-06-01),true,5493418277249
+PF-000023,LYL-0001,Gaseosa Secco 3L x 4u,2,1800.00,1,Pedido histórico field mock (2025-06-19),true,5493418277249
+PF-000023,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido histórico field mock (2025-06-19),true,5493418277249
+PF-000023,LYL-0027,Speed ZERO Lata 250cc x unidad,1,1350.00,1,Pedido histórico field mock (2025-06-19),true,5493418277249
+PF-000023,LYL-0025,Speed Lata 473cc XL x unidad,3,2150.00,1,Pedido histórico field mock (2025-06-19),true,5493418277249
+PF-000024,LYL-0001,Gaseosa Secco 3L x 4u,2,1800.00,1,Pedido histórico field mock (2025-07-15),true,5493418277249
+PF-000024,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido histórico field mock (2025-07-15),true,5493418277249
+PF-000025,LYL-0001,Gaseosa Secco 3L x 4u,2,1800.00,1,Pedido histórico field mock (2025-07-30),true,5493418277249
+PF-000025,LYL-0135,Huevitos KINDER x 12u,1,2241.67,1,Pedido histórico field mock (2025-07-30),true,5493418277249
+PF-000026,LYL-0001,Gaseosa Secco 3L x 4u,4,1800.00,1,Pedido histórico field mock (2025-08-21),true,5493418277249
+PF-000026,LYL-0135,Huevitos KINDER x 12u,4,2241.67,1,Pedido histórico field mock (2025-08-21),true,5493418277249
+PF-000026,LYL-0028,Speed ZERO Pack 250cc x 24u,4,1237.50,1,Pedido histórico field mock (2025-08-21),true,5493418277249
+PF-000027,LYL-0001,Gaseosa Secco 3L x 4u,3,1800.00,1,Pedido histórico field mock (2025-09-13),true,5493418277249
+PF-000027,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido histórico field mock (2025-09-13),true,5493418277249
+PF-000027,LYL-0121,GEORGALOS Full Maní x 900g,2,2200.00,1,Pedido histórico field mock (2025-09-13),true,5493418277249
+PF-000027,LYL-0041,Fernet BRANCA x 1L x 1u,4,18900.00,1,Pedido histórico field mock (2025-09-13),true,5493418277249
+PF-000028,LYL-0001,Gaseosa Secco 3L x 4u,4,1800.00,1,Pedido histórico field mock (2025-10-07),true,5493418277249
+PF-000028,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido histórico field mock (2025-10-07),true,5493418277249
+PF-000029,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido histórico field mock (2025-06-01),true,5493587747641
+PF-000029,LYL-0136,Huevitos KINDER x 12u,1,3258.33,2,Pedido histórico field mock (2025-06-01),true,5493587747641
+PF-000029,LYL-0029,Speed ZERO Lata 473cc XL x unidad,4,2300.00,2,Pedido histórico field mock (2025-06-01),true,5493587747641
+PF-000030,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido histórico field mock (2025-06-19),true,5493587747641
+PF-000030,LYL-0136,Huevitos KINDER x 12u,1,3258.33,2,Pedido histórico field mock (2025-06-19),true,5493587747641
+PF-000030,LYL-0007,Soda Secco 500cc x 6u,1,373.75,2,Pedido histórico field mock (2025-06-19),true,5493587747641
+PF-000030,LYL-0027,Speed ZERO Lata 250cc x unidad,2,1552.50,2,Pedido histórico field mock (2025-06-19),true,5493587747641
+PF-000031,LYL-0001,Gaseosa Secco 3L x 4u,1,2070.00,2,Pedido histórico field mock (2025-07-10),true,5493587747641
+PF-000031,LYL-0136,Huevitos KINDER x 12u,1,3258.33,2,Pedido histórico field mock (2025-07-10),true,5493587747641
+PF-000032,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido histórico field mock (2025-08-08),true,5493587747641
+PF-000032,LYL-0136,Huevitos KINDER x 12u,4,3258.33,2,Pedido histórico field mock (2025-08-08),true,5493587747641
+PF-000033,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido histórico field mock (2025-08-25),true,5493587747641
+PF-000033,LYL-0136,Huevitos KINDER x 12u,4,3258.33,2,Pedido histórico field mock (2025-08-25),true,5493587747641
+PF-000033,LYL-0007,Soda Secco 500cc x 6u,2,373.75,2,Pedido histórico field mock (2025-08-25),true,5493587747641
+PF-000034,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido histórico field mock (2025-09-11),true,5493587747641
+PF-000034,LYL-0136,Huevitos KINDER x 12u,2,3258.33,2,Pedido histórico field mock (2025-09-11),true,5493587747641
+PF-000035,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido histórico field mock (2025-09-30),true,5493587747641
+PF-000035,LYL-0136,Huevitos KINDER x 12u,2,3258.33,2,Pedido histórico field mock (2025-09-30),true,5493587747641
+PF-000035,LYL-0030,Speed ZERO Pack 473cc XL x 12u,1,2108.33,2,Pedido histórico field mock (2025-09-30),true,5493587747641
+PF-000036,LYL-0136,Huevitos KINDER x 12u,2,2550.00,3,Pedido histórico field mock (2025-06-05),true,5492614053074
+PF-000036,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2025-06-05),true,5492614053074
+PF-000037,LYL-0136,Huevitos KINDER x 12u,3,2550.00,3,Pedido histórico field mock (2025-06-24),true,5492614053074
+PF-000037,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2025-06-24),true,5492614053074
+PF-000038,LYL-0136,Huevitos KINDER x 12u,1,2550.00,3,Pedido histórico field mock (2025-07-15),true,5492614053074
+PF-000038,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2025-07-15),true,5492614053074
+PF-000038,LYL-0009,"Soda Secco 2,25L x 6u",3,765.00,3,Pedido histórico field mock (2025-07-15),true,5492614053074
+PF-000039,LYL-0136,Huevitos KINDER x 12u,4,2550.00,3,Pedido histórico field mock (2025-07-31),true,5492614053074
+PF-000039,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido histórico field mock (2025-07-31),true,5492614053074
+PF-000039,LYL-0007,Soda Secco 500cc x 6u,3,292.50,3,Pedido histórico field mock (2025-07-31),true,5492614053074
+PF-000040,LYL-0136,Huevitos KINDER x 12u,4,2550.00,3,Pedido histórico field mock (2025-08-24),true,5492614053074
+PF-000040,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2025-08-24),true,5492614053074
+PF-000040,LYL-0008,"Soda Secco 1,5L x 6u",4,705.00,3,Pedido histórico field mock (2025-08-24),true,5492614053074
+PF-000041,LYL-0136,Huevitos KINDER x 12u,1,2550.00,3,Pedido histórico field mock (2025-09-17),true,5492614053074
+PF-000041,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2025-09-17),true,5492614053074
+PF-000042,LYL-0136,Huevitos KINDER x 12u,1,2550.00,3,Pedido histórico field mock (2025-10-01),true,5492614053074
+PF-000042,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido histórico field mock (2025-10-01),true,5492614053074
+PF-000043,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido histórico field mock (2025-06-03),true,5493514079279
+PF-000043,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido histórico field mock (2025-06-03),true,5493514079279
+PF-000043,LYL-0025,Speed Lata 473cc XL x unidad,1,1827.50,4,Pedido histórico field mock (2025-06-03),true,5493514079279
+PF-000043,LYL-0024,Speed Pack 250cc                                                      x 24u,1,1114.21,4,Pedido histórico field mock (2025-06-03),true,5493514079279
+PF-000044,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1218.33,4,Pedido histórico field mock (2025-06-24),true,5493514079279
+PF-000044,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido histórico field mock (2025-06-24),true,5493514079279
+PF-000045,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido histórico field mock (2025-07-10),true,5493514079279
+PF-000045,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,920.83,4,Pedido histórico field mock (2025-07-10),true,5493514079279
+PF-000046,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido histórico field mock (2025-08-06),true,5493514079279
+PF-000046,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,920.83,4,Pedido histórico field mock (2025-08-06),true,5493514079279
+PF-000047,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1218.33,4,Pedido histórico field mock (2025-08-19),true,5493514079279
+PF-000047,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,920.83,4,Pedido histórico field mock (2025-08-19),true,5493514079279
+PF-000047,LYL-0008,"Soda Secco 1,5L x 6u",1,665.83,4,Pedido histórico field mock (2025-08-19),true,5493514079279
+PF-000047,LYL-0030,Speed ZERO Pack 473cc XL x 12u,2,1558.33,4,Pedido histórico field mock (2025-08-19),true,5493514079279
+PF-000048,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido histórico field mock (2025-09-19),true,5493514079279
+PF-000048,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido histórico field mock (2025-09-19),true,5493514079279
+PF-000048,LYL-0008,"Soda Secco 1,5L x 6u",4,665.83,4,Pedido histórico field mock (2025-09-19),true,5493514079279
+PF-000048,LYL-0121,GEORGALOS Full Maní x 900g,1,1870.00,4,Pedido histórico field mock (2025-09-19),true,5493514079279
+PF-000049,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2025-10-04),true,5493514079279
+PF-000049,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido histórico field mock (2025-10-04),true,5493514079279
+PF-000050,LYL-0136,Huevitos KINDER x 12u,3,2833.33,1,Pedido histórico field mock (2025-06-04),true,5493876914178
+PF-000050,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido histórico field mock (2025-06-04),true,5493876914178
+PF-000051,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido histórico field mock (2025-06-24),true,5493876914178
+PF-000051,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2025-06-24),true,5493876914178
+PF-000051,LYL-0005,Gaseosa Secco 500cc x 12u,3,733.33,1,Pedido histórico field mock (2025-06-24),true,5493876914178
+PF-000052,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2025-07-18),true,5493876914178
+PF-000052,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2025-07-18),true,5493876914178
+PF-000053,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2025-08-08),true,5493876914178
+PF-000053,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2025-08-08),true,5493876914178
+PF-000053,LYL-0025,Speed Lata 473cc XL x unidad,1,2150.00,1,Pedido histórico field mock (2025-08-08),true,5493876914178
+PF-000054,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2025-08-20),true,5493876914178
+PF-000054,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1433.33,1,Pedido histórico field mock (2025-08-20),true,5493876914178
+PF-000054,LYL-0023,Speed Lata 250cc x unidad,2,1430.00,1,Pedido histórico field mock (2025-08-20),true,5493876914178
+PF-000055,LYL-0136,Huevitos KINDER x 12u,3,2833.33,1,Pedido histórico field mock (2025-09-14),true,5493876914178
+PF-000055,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1433.33,1,Pedido histórico field mock (2025-09-14),true,5493876914178
+PF-000055,LYL-0007,Soda Secco 500cc x 6u,1,325.00,1,Pedido histórico field mock (2025-09-14),true,5493876914178
+PF-000056,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido histórico field mock (2025-10-02),true,5493876914178
+PF-000056,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1433.33,1,Pedido histórico field mock (2025-10-02),true,5493876914178
+PF-000057,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido histórico field mock (2025-06-01),true,5492617175545
+PF-000057,LYL-0135,Huevitos KINDER x 12u,3,2577.92,2,Pedido histórico field mock (2025-06-01),true,5492617175545
+PF-000057,LYL-0026,Speed Pack 473cc XL                                       x 12u,4,2266.46,2,Pedido histórico field mock (2025-06-01),true,5492617175545
+PF-000057,LYL-0009,"Soda Secco 2,25L x 6u",3,977.50,2,Pedido histórico field mock (2025-06-01),true,5492617175545
+PF-000058,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-06-25),true,5492617175545
+PF-000058,LYL-0135,Huevitos KINDER x 12u,4,2577.92,2,Pedido histórico field mock (2025-06-25),true,5492617175545
+PF-000058,LYL-0005,Gaseosa Secco 500cc x 12u,2,843.33,2,Pedido histórico field mock (2025-06-25),true,5492617175545
+PF-000058,LYL-0007,Soda Secco 500cc x 6u,1,373.75,2,Pedido histórico field mock (2025-06-25),true,5492617175545
+PF-000059,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido histórico field mock (2025-07-17),true,5492617175545
+PF-000059,LYL-0135,Huevitos KINDER x 12u,1,2577.92,2,Pedido histórico field mock (2025-07-17),true,5492617175545
+PF-000060,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-07-31),true,5492617175545
+PF-000060,LYL-0135,Huevitos KINDER x 12u,2,2577.92,2,Pedido histórico field mock (2025-07-31),true,5492617175545
+PF-000060,LYL-0121,GEORGALOS Full Maní x 900g,4,2530.00,2,Pedido histórico field mock (2025-07-31),true,5492617175545
+PF-000060,LYL-0025,Speed Lata 473cc XL x unidad,1,2472.50,2,Pedido histórico field mock (2025-07-31),true,5492617175545
+PF-000061,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-08-27),true,5492617175545
+PF-000061,LYL-0135,Huevitos KINDER x 12u,1,2577.92,2,Pedido histórico field mock (2025-08-27),true,5492617175545
+PF-000062,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido histórico field mock (2025-09-11),true,5492617175545
+PF-000062,LYL-0135,Huevitos KINDER x 12u,3,2577.92,2,Pedido histórico field mock (2025-09-11),true,5492617175545
+PF-000063,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-10-04),true,5492617175545
+PF-000063,LYL-0135,Huevitos KINDER x 12u,4,2577.92,2,Pedido histórico field mock (2025-10-04),true,5492617175545
+PF-000063,LYL-0029,Speed ZERO Lata 473cc XL x unidad,2,2300.00,2,Pedido histórico field mock (2025-10-04),true,5492617175545
+PF-000063,LYL-0121,GEORGALOS Full Maní x 900g,3,2530.00,2,Pedido histórico field mock (2025-10-04),true,5492617175545
+PF-000064,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido histórico field mock (2025-06-05),true,5492618861463
+PF-000064,LYL-0136,Huevitos KINDER x 12u,4,2408.33,4,Pedido histórico field mock (2025-06-05),true,5492618861463
+PF-000065,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido histórico field mock (2025-06-22),true,5492618861463
+PF-000065,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido histórico field mock (2025-06-22),true,5492618861463
+PF-000066,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2025-07-08),true,5492618861463
+PF-000066,LYL-0136,Huevitos KINDER x 12u,4,2408.33,4,Pedido histórico field mock (2025-07-08),true,5492618861463
+PF-000067,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2025-07-30),true,5492618861463
+PF-000067,LYL-0136,Huevitos KINDER x 12u,4,2408.33,4,Pedido histórico field mock (2025-07-30),true,5492618861463
+PF-000068,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido histórico field mock (2025-08-27),true,5492618861463
+PF-000068,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2025-08-27),true,5492618861463
+PF-000068,LYL-0028,Speed ZERO Pack 250cc x 24u,2,1051.88,4,Pedido histórico field mock (2025-08-27),true,5492618861463
+PF-000068,LYL-0025,Speed Lata 473cc XL x unidad,1,1827.50,4,Pedido histórico field mock (2025-08-27),true,5492618861463
+PF-000069,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1218.33,4,Pedido histórico field mock (2025-09-19),true,5492618861463
+PF-000069,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2025-09-19),true,5492618861463
+PF-000070,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1218.33,4,Pedido histórico field mock (2025-10-09),true,5492618861463
+PF-000070,LYL-0136,Huevitos KINDER x 12u,4,2408.33,4,Pedido histórico field mock (2025-10-09),true,5492618861463
+PF-000070,LYL-0029,Speed ZERO Lata 473cc XL x unidad,2,1700.00,4,Pedido histórico field mock (2025-10-09),true,5492618861463
+PF-000071,LYL-0135,Huevitos KINDER x 12u,3,2241.67,1,Pedido histórico field mock (2025-06-04),true,5493812941974
+PF-000071,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido histórico field mock (2025-06-04),true,5493812941974
+PF-000071,LYL-0005,Gaseosa Secco 500cc x 12u,3,733.33,1,Pedido histórico field mock (2025-06-04),true,5493812941974
+PF-000072,LYL-0135,Huevitos KINDER x 12u,1,2241.67,1,Pedido histórico field mock (2025-07-06),true,5493812941974
+PF-000072,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1083.33,1,Pedido histórico field mock (2025-07-06),true,5493812941974
+PF-000073,LYL-0135,Huevitos KINDER x 12u,3,2241.67,1,Pedido histórico field mock (2025-08-21),true,5493812941974
+PF-000073,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido histórico field mock (2025-08-21),true,5493812941974
+PF-000073,LYL-0025,Speed Lata 473cc XL x unidad,4,2150.00,1,Pedido histórico field mock (2025-08-21),true,5493812941974
+PF-000073,LYL-0010,Soda en Sifón Secco 2L x 6u,3,1216.67,1,Pedido histórico field mock (2025-08-21),true,5493812941974
+PF-000074,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido histórico field mock (2025-09-22),true,5493812941974
+PF-000074,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido histórico field mock (2025-09-22),true,5493812941974
+PF-000075,LYL-0135,Huevitos KINDER x 12u,3,2241.67,1,Pedido histórico field mock (2025-10-31),true,5493812941974
+PF-000075,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1083.33,1,Pedido histórico field mock (2025-10-31),true,5493812941974
+PF-000076,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido histórico field mock (2025-12-10),true,5493812941974
+PF-000076,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido histórico field mock (2025-12-10),true,5493812941974
+PF-000076,LYL-0029,Speed ZERO Lata 473cc XL x unidad,3,2000.00,1,Pedido histórico field mock (2025-12-10),true,5493812941974
+PF-000076,LYL-0026,Speed Pack 473cc XL                                       x 12u,4,1970.83,1,Pedido histórico field mock (2025-12-10),true,5493812941974
+PF-000077,LYL-0135,Huevitos KINDER x 12u,1,2241.67,1,Pedido histórico field mock (2026-01-10),true,5493812941974
+PF-000077,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1083.33,1,Pedido histórico field mock (2026-01-10),true,5493812941974
+PF-000077,LYL-0027,Speed ZERO Lata 250cc x unidad,1,1350.00,1,Pedido histórico field mock (2026-01-10),true,5493812941974
+PF-000077,LYL-0010,Soda en Sifón Secco 2L x 6u,2,1216.67,1,Pedido histórico field mock (2026-01-10),true,5493812941974
+PF-000078,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido reciente field mock (2026-04-11),true,5493812941974
+PF-000078,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido reciente field mock (2026-04-11),true,5493812941974
+PF-000079,LYL-0136,Huevitos KINDER x 12u,3,2833.33,1,Pedido reciente field mock (2026-04-18),true,5493812941974
+PF-000079,LYL-0001,Gaseosa Secco 3L x 4u,3,1800.00,1,Pedido reciente field mock (2026-04-18),true,5493812941974
+PF-000080,LYL-0001,Gaseosa Secco 3L x 4u,3,1800.00,1,Pedido reciente field mock (2026-05-06),true,5493812941974
+PF-000080,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido reciente field mock (2026-05-06),true,5493812941974
+PF-000081,LYL-0001,Gaseosa Secco 3L x 4u,1,2070.00,2,Pedido histórico field mock (2025-06-04),true,5493817404433
+PF-000081,LYL-0136,Huevitos KINDER x 12u,3,3258.33,2,Pedido histórico field mock (2025-06-04),true,5493817404433
+PF-000081,LYL-0008,"Soda Secco 1,5L x 6u",2,900.83,2,Pedido histórico field mock (2025-06-04),true,5493817404433
+PF-000081,LYL-0010,Soda en Sifón Secco 2L x 6u,2,1399.17,2,Pedido histórico field mock (2025-06-04),true,5493817404433
+PF-000082,LYL-0001,Gaseosa Secco 3L x 4u,4,2070.00,2,Pedido histórico field mock (2025-07-09),true,5493817404433
+PF-000082,LYL-0136,Huevitos KINDER x 12u,4,3258.33,2,Pedido histórico field mock (2025-07-09),true,5493817404433
+PF-000083,LYL-0001,Gaseosa Secco 3L x 4u,4,2070.00,2,Pedido histórico field mock (2025-08-12),true,5493817404433
+PF-000083,LYL-0136,Huevitos KINDER x 12u,1,3258.33,2,Pedido histórico field mock (2025-08-12),true,5493817404433
+PF-000083,LYL-0008,"Soda Secco 1,5L x 6u",1,900.83,2,Pedido histórico field mock (2025-08-12),true,5493817404433
+PF-000083,LYL-0023,Speed Lata 250cc x unidad,2,1644.50,2,Pedido histórico field mock (2025-08-12),true,5493817404433
+PF-000084,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido histórico field mock (2025-09-21),true,5493817404433
+PF-000084,LYL-0136,Huevitos KINDER x 12u,1,3258.33,2,Pedido histórico field mock (2025-09-21),true,5493817404433
+PF-000085,LYL-0001,Gaseosa Secco 3L x 4u,1,2070.00,2,Pedido histórico field mock (2025-11-05),true,5493817404433
+PF-000085,LYL-0136,Huevitos KINDER x 12u,3,3258.33,2,Pedido histórico field mock (2025-11-05),true,5493817404433
+PF-000086,LYL-0001,Gaseosa Secco 3L x 4u,1,2070.00,2,Pedido histórico field mock (2025-12-03),true,5493817404433
+PF-000086,LYL-0136,Huevitos KINDER x 12u,3,3258.33,2,Pedido histórico field mock (2025-12-03),true,5493817404433
+PF-000087,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido histórico field mock (2026-01-16),true,5493817404433
+PF-000087,LYL-0136,Huevitos KINDER x 12u,3,3258.33,2,Pedido histórico field mock (2026-01-16),true,5493817404433
+PF-000087,LYL-0005,Gaseosa Secco 500cc x 12u,2,843.33,2,Pedido histórico field mock (2026-01-16),true,5493817404433
+PF-000087,LYL-0030,Speed ZERO Pack 473cc XL x 12u,3,2108.33,2,Pedido histórico field mock (2026-01-16),true,5493817404433
+PF-000088,LYL-0136,Huevitos KINDER x 12u,2,3258.33,2,Pedido reciente field mock (2026-04-18),true,5493817404433
+PF-000088,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido reciente field mock (2026-04-18),true,5493817404433
+PF-000089,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido reciente field mock (2026-05-05),true,5493817404433
+PF-000089,LYL-0136,Huevitos KINDER x 12u,2,3258.33,2,Pedido reciente field mock (2026-05-05),true,5493817404433
+PF-000090,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido reciente field mock (2026-05-16),true,5493817404433
+PF-000090,LYL-0135,Huevitos KINDER x 12u,3,2577.92,2,Pedido reciente field mock (2026-05-16),true,5493817404433
+PF-000091,LYL-0136,Huevitos KINDER x 12u,2,2550.00,3,Pedido histórico field mock (2025-06-01),true,5493419686914
+PF-000091,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2025-06-01),true,5493419686914
+PF-000091,LYL-0027,Speed ZERO Lata 250cc x unidad,4,1215.00,3,Pedido histórico field mock (2025-06-01),true,5493419686914
+PF-000092,LYL-0136,Huevitos KINDER x 12u,3,2550.00,3,Pedido histórico field mock (2025-07-14),true,5493419686914
+PF-000092,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2025-07-14),true,5493419686914
+PF-000093,LYL-0136,Huevitos KINDER x 12u,4,2550.00,3,Pedido histórico field mock (2025-08-19),true,5493419686914
+PF-000093,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-08-19),true,5493419686914
+PF-000093,LYL-0024,Speed Pack 250cc                                                      x 24u,4,1179.75,3,Pedido histórico field mock (2025-08-19),true,5493419686914
+PF-000093,LYL-0010,Soda en Sifón Secco 2L x 6u,1,1095.00,3,Pedido histórico field mock (2025-08-19),true,5493419686914
+PF-000094,LYL-0136,Huevitos KINDER x 12u,2,2550.00,3,Pedido histórico field mock (2025-09-27),true,5493419686914
+PF-000094,LYL-0001,Gaseosa Secco 3L x 4u,4,1620.00,3,Pedido histórico field mock (2025-09-27),true,5493419686914
+PF-000095,LYL-0136,Huevitos KINDER x 12u,2,2550.00,3,Pedido histórico field mock (2025-10-31),true,5493419686914
+PF-000095,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido histórico field mock (2025-10-31),true,5493419686914
+PF-000096,LYL-0136,Huevitos KINDER x 12u,2,2550.00,3,Pedido histórico field mock (2025-12-10),true,5493419686914
+PF-000096,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-12-10),true,5493419686914
+PF-000097,LYL-0136,Huevitos KINDER x 12u,2,2550.00,3,Pedido histórico field mock (2026-01-10),true,5493419686914
+PF-000097,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2026-01-10),true,5493419686914
+PF-000097,LYL-0008,"Soda Secco 1,5L x 6u",2,705.00,3,Pedido histórico field mock (2026-01-10),true,5493419686914
+PF-000097,LYL-0030,Speed ZERO Pack 473cc XL x 12u,4,1650.00,3,Pedido histórico field mock (2026-01-10),true,5493419686914
+PF-000098,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido reciente field mock (2026-04-17),true,5493419686914
+PF-000098,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido reciente field mock (2026-04-17),true,5493419686914
+PF-000099,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido reciente field mock (2026-05-02),true,5493419686914
+PF-000099,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido reciente field mock (2026-05-02),true,5493419686914
+PF-000100,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido reciente field mock (2026-05-19),true,5493419686914
+PF-000100,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,975.00,3,Pedido reciente field mock (2026-05-19),true,5493419686914
+PF-000101,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido histórico field mock (2025-06-03),true,5493518648263
+PF-000101,LYL-0001,Gaseosa Secco 3L x 4u,4,1530.00,4,Pedido histórico field mock (2025-06-03),true,5493518648263
+PF-000102,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,920.83,4,Pedido histórico field mock (2025-07-12),true,5493518648263
+PF-000102,LYL-0001,Gaseosa Secco 3L x 4u,4,1530.00,4,Pedido histórico field mock (2025-07-12),true,5493518648263
+PF-000102,LYL-0121,GEORGALOS Full Maní x 900g,2,1870.00,4,Pedido histórico field mock (2025-07-12),true,5493518648263
+PF-000103,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido histórico field mock (2025-08-18),true,5493518648263
+PF-000103,LYL-0001,Gaseosa Secco 3L x 4u,4,1530.00,4,Pedido histórico field mock (2025-08-18),true,5493518648263
+PF-000103,LYL-0024,Speed Pack 250cc                                                      x 24u,2,1114.21,4,Pedido histórico field mock (2025-08-18),true,5493518648263
+PF-000103,LYL-0008,"Soda Secco 1,5L x 6u",1,665.83,4,Pedido histórico field mock (2025-08-18),true,5493518648263
+PF-000104,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido histórico field mock (2025-09-27),true,5493518648263
+PF-000104,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido histórico field mock (2025-09-27),true,5493518648263
+PF-000105,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido histórico field mock (2025-11-04),true,5493518648263
+PF-000105,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido histórico field mock (2025-11-04),true,5493518648263
+PF-000106,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido histórico field mock (2025-12-05),true,5493518648263
+PF-000106,LYL-0001,Gaseosa Secco 3L x 4u,3,1530.00,4,Pedido histórico field mock (2025-12-05),true,5493518648263
+PF-000106,LYL-0023,Speed Lata 250cc x unidad,3,1215.50,4,Pedido histórico field mock (2025-12-05),true,5493518648263
+PF-000106,LYL-0030,Speed ZERO Pack 473cc XL x 12u,1,1558.33,4,Pedido histórico field mock (2025-12-05),true,5493518648263
+PF-000107,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,920.83,4,Pedido histórico field mock (2026-01-16),true,5493518648263
+PF-000107,LYL-0001,Gaseosa Secco 3L x 4u,3,1530.00,4,Pedido histórico field mock (2026-01-16),true,5493518648263
+PF-000108,LYL-0136,Huevitos KINDER x 12u,2,2408.33,4,Pedido reciente field mock (2026-04-16),true,5493518648263
+PF-000108,LYL-0135,Huevitos KINDER x 12u,1,1905.42,4,Pedido reciente field mock (2026-04-16),true,5493518648263
+PF-000109,LYL-0136,Huevitos KINDER x 12u,2,2408.33,4,Pedido reciente field mock (2026-04-18),true,5493518648263
+PF-000109,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,920.83,4,Pedido reciente field mock (2026-04-18),true,5493518648263
+PF-000110,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido reciente field mock (2026-04-27),true,5493518648263
+PF-000110,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,920.83,4,Pedido reciente field mock (2026-04-27),true,5493518648263
+PF-000111,LYL-0136,Huevitos KINDER x 12u,3,2833.33,1,Pedido histórico field mock (2025-06-03),true,5493516216782
+PF-000111,LYL-0001,Gaseosa Secco 3L x 4u,1,1800.00,1,Pedido histórico field mock (2025-06-03),true,5493516216782
+PF-000111,LYL-0007,Soda Secco 500cc x 6u,2,325.00,1,Pedido histórico field mock (2025-06-03),true,5493516216782
+PF-000111,LYL-0025,Speed Lata 473cc XL x unidad,4,2150.00,1,Pedido histórico field mock (2025-06-03),true,5493516216782
+PF-000112,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido histórico field mock (2025-07-11),true,5493516216782
+PF-000112,LYL-0001,Gaseosa Secco 3L x 4u,1,1800.00,1,Pedido histórico field mock (2025-07-11),true,5493516216782
+PF-000113,LYL-0136,Huevitos KINDER x 12u,4,2833.33,1,Pedido histórico field mock (2025-08-19),true,5493516216782
+PF-000113,LYL-0001,Gaseosa Secco 3L x 4u,3,1800.00,1,Pedido histórico field mock (2025-08-19),true,5493516216782
+PF-000114,LYL-0136,Huevitos KINDER x 12u,4,2833.33,1,Pedido histórico field mock (2025-09-28),true,5493516216782
+PF-000114,LYL-0001,Gaseosa Secco 3L x 4u,1,1800.00,1,Pedido histórico field mock (2025-09-28),true,5493516216782
+PF-000114,LYL-0008,"Soda Secco 1,5L x 6u",3,783.33,1,Pedido histórico field mock (2025-09-28),true,5493516216782
+PF-000115,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido histórico field mock (2025-11-02),true,5493516216782
+PF-000115,LYL-0001,Gaseosa Secco 3L x 4u,3,1800.00,1,Pedido histórico field mock (2025-11-02),true,5493516216782
+PF-000115,LYL-0030,Speed ZERO Pack 473cc XL x 12u,4,1833.33,1,Pedido histórico field mock (2025-11-02),true,5493516216782
+PF-000116,LYL-0136,Huevitos KINDER x 12u,4,2833.33,1,Pedido histórico field mock (2025-12-10),true,5493516216782
+PF-000116,LYL-0001,Gaseosa Secco 3L x 4u,4,1800.00,1,Pedido histórico field mock (2025-12-10),true,5493516216782
+PF-000117,LYL-0136,Huevitos KINDER x 12u,4,2833.33,1,Pedido histórico field mock (2026-01-14),true,5493516216782
+PF-000117,LYL-0001,Gaseosa Secco 3L x 4u,2,1800.00,1,Pedido histórico field mock (2026-01-14),true,5493516216782
+PF-000118,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido reciente field mock (2026-04-11),true,5493516216782
+PF-000118,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido reciente field mock (2026-04-11),true,5493516216782
+PF-000119,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido reciente field mock (2026-04-17),true,5493516216782
+PF-000119,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido reciente field mock (2026-04-17),true,5493516216782
+PF-000120,LYL-0001,Gaseosa Secco 3L x 4u,3,1800.00,1,Pedido reciente field mock (2026-04-30),true,5493516216782
+PF-000120,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido reciente field mock (2026-04-30),true,5493516216782
+PF-000121,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido histórico field mock (2025-06-03),true,5492612780568
+PF-000121,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-06-03),true,5492612780568
+PF-000122,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido histórico field mock (2025-07-04),true,5492612780568
+PF-000122,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-07-04),true,5492612780568
+PF-000123,LYL-0001,Gaseosa Secco 3L x 4u,1,2070.00,2,Pedido histórico field mock (2025-08-13),true,5492612780568
+PF-000123,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1245.83,2,Pedido histórico field mock (2025-08-13),true,5492612780568
+PF-000123,LYL-0009,"Soda Secco 2,25L x 6u",2,977.50,2,Pedido histórico field mock (2025-08-13),true,5492612780568
+PF-000124,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido histórico field mock (2025-09-21),true,5492612780568
+PF-000124,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1245.83,2,Pedido histórico field mock (2025-09-21),true,5492612780568
+PF-000124,LYL-0007,Soda Secco 500cc x 6u,3,373.75,2,Pedido histórico field mock (2025-09-21),true,5492612780568
+PF-000125,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido histórico field mock (2025-10-26),true,5492612780568
+PF-000125,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido histórico field mock (2025-10-26),true,5492612780568
+PF-000126,LYL-0001,Gaseosa Secco 3L x 4u,4,2070.00,2,Pedido histórico field mock (2025-12-09),true,5492612780568
+PF-000126,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-12-09),true,5492612780568
+PF-000127,LYL-0001,Gaseosa Secco 3L x 4u,4,2070.00,2,Pedido histórico field mock (2026-01-16),true,5492612780568
+PF-000127,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2026-01-16),true,5492612780568
+PF-000127,LYL-0029,Speed ZERO Lata 473cc XL x unidad,1,2300.00,2,Pedido histórico field mock (2026-01-16),true,5492612780568
+PF-000127,LYL-0041,Fernet BRANCA x 1L x 1u,2,21735.00,2,Pedido histórico field mock (2026-01-16),true,5492612780568
+PF-000128,LYL-0135,Huevitos KINDER x 12u,3,2577.92,2,Pedido reciente field mock (2026-04-13),true,5492612780568
+PF-000128,LYL-0136,Huevitos KINDER x 12u,2,3258.33,2,Pedido reciente field mock (2026-04-13),true,5492612780568
+PF-000129,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido reciente field mock (2026-04-22),true,5492612780568
+PF-000129,LYL-0136,Huevitos KINDER x 12u,3,3258.33,2,Pedido reciente field mock (2026-04-22),true,5492612780568
+PF-000130,LYL-0135,Huevitos KINDER x 12u,1,2577.92,2,Pedido reciente field mock (2026-05-17),true,5492612780568
+PF-000130,LYL-0136,Huevitos KINDER x 12u,1,3258.33,2,Pedido reciente field mock (2026-05-17),true,5492612780568
+PF-000131,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido histórico field mock (2025-06-03),true,5493582639964
+PF-000131,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2025-06-03),true,5493582639964
+PF-000131,LYL-0009,"Soda Secco 2,25L x 6u",4,765.00,3,Pedido histórico field mock (2025-06-03),true,5493582639964
+PF-000131,LYL-0041,Fernet BRANCA x 1L x 1u,4,17010.00,3,Pedido histórico field mock (2025-06-03),true,5493582639964
+PF-000132,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-07-09),true,5493582639964
+PF-000132,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2025-07-09),true,5493582639964
+PF-000132,LYL-0029,Speed ZERO Lata 473cc XL x unidad,1,1800.00,3,Pedido histórico field mock (2025-07-09),true,5493582639964
+PF-000132,LYL-0026,Speed Pack 473cc XL                                       x 12u,1,1773.75,3,Pedido histórico field mock (2025-07-09),true,5493582639964
+PF-000133,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido histórico field mock (2025-08-21),true,5493582639964
+PF-000133,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2025-08-21),true,5493582639964
+PF-000133,LYL-0010,Soda en Sifón Secco 2L x 6u,4,1095.00,3,Pedido histórico field mock (2025-08-21),true,5493582639964
+PF-000134,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido histórico field mock (2025-09-18),true,5493582639964
+PF-000134,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-09-18),true,5493582639964
+PF-000134,LYL-0025,Speed Lata 473cc XL x unidad,3,1935.00,3,Pedido histórico field mock (2025-09-18),true,5493582639964
+PF-000134,LYL-0024,Speed Pack 250cc                                                      x 24u,2,1179.75,3,Pedido histórico field mock (2025-09-18),true,5493582639964
+PF-000135,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido histórico field mock (2025-11-02),true,5493582639964
+PF-000135,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido histórico field mock (2025-11-02),true,5493582639964
+PF-000135,LYL-0009,"Soda Secco 2,25L x 6u",2,765.00,3,Pedido histórico field mock (2025-11-02),true,5493582639964
+PF-000135,LYL-0023,Speed Lata 250cc x unidad,3,1287.00,3,Pedido histórico field mock (2025-11-02),true,5493582639964
+PF-000136,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-12-03),true,5493582639964
+PF-000136,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2025-12-03),true,5493582639964
+PF-000137,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido histórico field mock (2026-01-15),true,5493582639964
+PF-000137,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2026-01-15),true,5493582639964
+PF-000138,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido reciente field mock (2026-04-10),true,5493582639964
+PF-000138,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido reciente field mock (2026-04-10),true,5493582639964
+PF-000139,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,975.00,3,Pedido reciente field mock (2026-05-10),true,5493582639964
+PF-000139,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido reciente field mock (2026-05-10),true,5493582639964
+PF-000140,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,975.00,3,Pedido reciente field mock (2026-05-14),true,5493582639964
+PF-000140,LYL-0135,Huevitos KINDER x 12u,1,2017.50,3,Pedido reciente field mock (2026-05-14),true,5493582639964
+PF-000141,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-06-01),true,5493818437953
+PF-000141,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-06-01),true,5493818437953
+PF-000141,LYL-0026,Speed Pack 473cc XL                                       x 12u,4,1773.75,3,Pedido histórico field mock (2025-06-01),true,5493818437953
+PF-000141,LYL-0005,Gaseosa Secco 500cc x 12u,2,660.00,3,Pedido histórico field mock (2025-06-01),true,5493818437953
+PF-000142,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2025-07-09),true,5493818437953
+PF-000142,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido histórico field mock (2025-07-09),true,5493818437953
+PF-000142,LYL-0024,Speed Pack 250cc                                                      x 24u,1,1179.75,3,Pedido histórico field mock (2025-07-09),true,5493818437953
+PF-000142,LYL-0009,"Soda Secco 2,25L x 6u",3,765.00,3,Pedido histórico field mock (2025-07-09),true,5493818437953
+PF-000143,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2025-08-16),true,5493818437953
+PF-000143,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido histórico field mock (2025-08-16),true,5493818437953
+PF-000143,LYL-0010,Soda en Sifón Secco 2L x 6u,4,1095.00,3,Pedido histórico field mock (2025-08-16),true,5493818437953
+PF-000143,LYL-0008,"Soda Secco 1,5L x 6u",4,705.00,3,Pedido histórico field mock (2025-08-16),true,5493818437953
+PF-000144,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-09-24),true,5493818437953
+PF-000144,LYL-0001,Gaseosa Secco 3L x 4u,4,1620.00,3,Pedido histórico field mock (2025-09-24),true,5493818437953
+PF-000144,LYL-0009,"Soda Secco 2,25L x 6u",1,765.00,3,Pedido histórico field mock (2025-09-24),true,5493818437953
+PF-000145,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-11-02),true,5493818437953
+PF-000145,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido histórico field mock (2025-11-02),true,5493818437953
+PF-000145,LYL-0005,Gaseosa Secco 500cc x 12u,3,660.00,3,Pedido histórico field mock (2025-11-02),true,5493818437953
+PF-000146,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido histórico field mock (2025-12-10),true,5493818437953
+PF-000146,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-12-10),true,5493818437953
+PF-000146,LYL-0029,Speed ZERO Lata 473cc XL x unidad,4,1800.00,3,Pedido histórico field mock (2025-12-10),true,5493818437953
+PF-000146,LYL-0041,Fernet BRANCA x 1L x 1u,2,17010.00,3,Pedido histórico field mock (2025-12-10),true,5493818437953
+PF-000147,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2026-01-16),true,5493818437953
+PF-000147,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido histórico field mock (2026-01-16),true,5493818437953
+PF-000147,LYL-0025,Speed Lata 473cc XL x unidad,4,1935.00,3,Pedido histórico field mock (2026-01-16),true,5493818437953
+PF-000147,LYL-0121,GEORGALOS Full Maní x 900g,2,1980.00,3,Pedido histórico field mock (2026-01-16),true,5493818437953
+PF-000148,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,975.00,3,Pedido reciente field mock (2026-04-02),true,5493818437953
+PF-000148,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido reciente field mock (2026-04-02),true,5493818437953
+PF-000149,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido reciente field mock (2026-04-17),true,5493818437953
+PF-000149,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido reciente field mock (2026-04-17),true,5493818437953
+PF-000150,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido reciente field mock (2026-05-17),true,5493818437953
+PF-000150,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido reciente field mock (2026-05-17),true,5493818437953
+PF-000151,LYL-0135,Huevitos KINDER x 12u,1,1905.42,4,Pedido histórico field mock (2025-06-02),true,5493582132179
+PF-000151,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2025-06-02),true,5493582132179
+PF-000151,LYL-0041,Fernet BRANCA x 1L x 1u,3,16065.00,4,Pedido histórico field mock (2025-06-02),true,5493582132179
+PF-000152,LYL-0135,Huevitos KINDER x 12u,1,1905.42,4,Pedido histórico field mock (2025-07-04),true,5493582132179
+PF-000152,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2025-07-04),true,5493582132179
+PF-000152,LYL-0029,Speed ZERO Lata 473cc XL x unidad,4,1700.00,4,Pedido histórico field mock (2025-07-04),true,5493582132179
+PF-000153,LYL-0135,Huevitos KINDER x 12u,4,1905.42,4,Pedido histórico field mock (2025-08-13),true,5493582132179
+PF-000153,LYL-0136,Huevitos KINDER x 12u,4,2408.33,4,Pedido histórico field mock (2025-08-13),true,5493582132179
+PF-000153,LYL-0008,"Soda Secco 1,5L x 6u",1,665.83,4,Pedido histórico field mock (2025-08-13),true,5493582132179
+PF-000154,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido histórico field mock (2025-09-20),true,5493582132179
+PF-000154,LYL-0136,Huevitos KINDER x 12u,4,2408.33,4,Pedido histórico field mock (2025-09-20),true,5493582132179
+PF-000154,LYL-0041,Fernet BRANCA x 1L x 1u,1,16065.00,4,Pedido histórico field mock (2025-09-20),true,5493582132179
+PF-000155,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido histórico field mock (2025-10-29),true,5493582132179
+PF-000155,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido histórico field mock (2025-10-29),true,5493582132179
+PF-000155,LYL-0029,Speed ZERO Lata 473cc XL x unidad,4,1700.00,4,Pedido histórico field mock (2025-10-29),true,5493582132179
+PF-000156,LYL-0135,Huevitos KINDER x 12u,3,1905.42,4,Pedido histórico field mock (2025-12-04),true,5493582132179
+PF-000156,LYL-0136,Huevitos KINDER x 12u,4,2408.33,4,Pedido histórico field mock (2025-12-04),true,5493582132179
+PF-000156,LYL-0028,Speed ZERO Pack 250cc x 24u,2,1051.88,4,Pedido histórico field mock (2025-12-04),true,5493582132179
+PF-000156,LYL-0007,Soda Secco 500cc x 6u,1,276.25,4,Pedido histórico field mock (2025-12-04),true,5493582132179
+PF-000157,LYL-0135,Huevitos KINDER x 12u,4,1905.42,4,Pedido histórico field mock (2026-01-16),true,5493582132179
+PF-000157,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido histórico field mock (2026-01-16),true,5493582132179
+PF-000157,LYL-0029,Speed ZERO Lata 473cc XL x unidad,3,1700.00,4,Pedido histórico field mock (2026-01-16),true,5493582132179
+PF-000158,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido reciente field mock (2026-04-22),true,5493582132179
+PF-000158,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido reciente field mock (2026-04-22),true,5493582132179
+PF-000159,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido reciente field mock (2026-04-25),true,5493582132179
+PF-000159,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido reciente field mock (2026-04-25),true,5493582132179
+PF-000160,LYL-0001,Gaseosa Secco 3L x 4u,2,1530.00,4,Pedido reciente field mock (2026-04-27),true,5493582132179
+PF-000160,LYL-0135,Huevitos KINDER x 12u,1,1905.42,4,Pedido reciente field mock (2026-04-27),true,5493582132179
+PF-000161,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido histórico field mock (2025-06-01),true,5493872845902
+PF-000161,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido histórico field mock (2025-06-01),true,5493872845902
+PF-000161,LYL-0009,"Soda Secco 2,25L x 6u",3,850.00,1,Pedido histórico field mock (2025-06-01),true,5493872845902
+PF-000161,LYL-0029,Speed ZERO Lata 473cc XL x unidad,2,2000.00,1,Pedido histórico field mock (2025-06-01),true,5493872845902
+PF-000162,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1433.33,1,Pedido histórico field mock (2025-07-07),true,5493872845902
+PF-000162,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido histórico field mock (2025-07-07),true,5493872845902
+PF-000163,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2025-08-14),true,5493872845902
+PF-000163,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1083.33,1,Pedido histórico field mock (2025-08-14),true,5493872845902
+PF-000163,LYL-0005,Gaseosa Secco 500cc x 12u,2,733.33,1,Pedido histórico field mock (2025-08-14),true,5493872845902
+PF-000163,LYL-0024,Speed Pack 250cc                                                      x 24u,1,1310.83,1,Pedido histórico field mock (2025-08-14),true,5493872845902
+PF-000164,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido histórico field mock (2025-09-26),true,5493872845902
+PF-000164,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1083.33,1,Pedido histórico field mock (2025-09-26),true,5493872845902
+PF-000165,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1433.33,1,Pedido histórico field mock (2025-10-30),true,5493872845902
+PF-000165,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1083.33,1,Pedido histórico field mock (2025-10-30),true,5493872845902
+PF-000165,LYL-0024,Speed Pack 250cc                                                      x 24u,2,1310.83,1,Pedido histórico field mock (2025-10-30),true,5493872845902
+PF-000166,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2025-12-07),true,5493872845902
+PF-000166,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1083.33,1,Pedido histórico field mock (2025-12-07),true,5493872845902
+PF-000167,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2026-01-18),true,5493872845902
+PF-000167,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido histórico field mock (2026-01-18),true,5493872845902
+PF-000167,LYL-0030,Speed ZERO Pack 473cc XL x 12u,2,1833.33,1,Pedido histórico field mock (2026-01-18),true,5493872845902
+PF-000168,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido reciente field mock (2026-04-03),true,5493872845902
+PF-000168,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido reciente field mock (2026-04-03),true,5493872845902
+PF-000169,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1083.33,1,Pedido reciente field mock (2026-05-04),true,5493872845902
+PF-000169,LYL-0001,Gaseosa Secco 3L x 4u,2,1800.00,1,Pedido reciente field mock (2026-05-04),true,5493872845902
+PF-000170,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido reciente field mock (2026-05-14),true,5493872845902
+PF-000170,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido reciente field mock (2026-05-14),true,5493872845902
+PF-000171,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-06-01),true,5492997670210
+PF-000171,LYL-0135,Huevitos KINDER x 12u,4,2577.92,2,Pedido histórico field mock (2025-06-01),true,5492997670210
+PF-000171,LYL-0030,Speed ZERO Pack 473cc XL x 12u,4,2108.33,2,Pedido histórico field mock (2025-06-01),true,5492997670210
+PF-000172,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-07-10),true,5492997670210
+PF-000172,LYL-0135,Huevitos KINDER x 12u,4,2577.92,2,Pedido histórico field mock (2025-07-10),true,5492997670210
+PF-000172,LYL-0027,Speed ZERO Lata 250cc x unidad,4,1552.50,2,Pedido histórico field mock (2025-07-10),true,5492997670210
+PF-000173,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-08-18),true,5492997670210
+PF-000173,LYL-0135,Huevitos KINDER x 12u,3,2577.92,2,Pedido histórico field mock (2025-08-18),true,5492997670210
+PF-000174,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-09-19),true,5492997670210
+PF-000174,LYL-0135,Huevitos KINDER x 12u,3,2577.92,2,Pedido histórico field mock (2025-09-19),true,5492997670210
+PF-000174,LYL-0030,Speed ZERO Pack 473cc XL x 12u,1,2108.33,2,Pedido histórico field mock (2025-09-19),true,5492997670210
+PF-000175,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1245.83,2,Pedido histórico field mock (2025-11-02),true,5492997670210
+PF-000175,LYL-0135,Huevitos KINDER x 12u,2,2577.92,2,Pedido histórico field mock (2025-11-02),true,5492997670210
+PF-000175,LYL-0023,Speed Lata 250cc x unidad,1,1644.50,2,Pedido histórico field mock (2025-11-02),true,5492997670210
+PF-000176,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-12-05),true,5492997670210
+PF-000176,LYL-0135,Huevitos KINDER x 12u,3,2577.92,2,Pedido histórico field mock (2025-12-05),true,5492997670210
+PF-000177,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1245.83,2,Pedido histórico field mock (2026-01-12),true,5492997670210
+PF-000177,LYL-0135,Huevitos KINDER x 12u,4,2577.92,2,Pedido histórico field mock (2026-01-12),true,5492997670210
+PF-000177,LYL-0005,Gaseosa Secco 500cc x 12u,4,843.33,2,Pedido histórico field mock (2026-01-12),true,5492997670210
+PF-000177,LYL-0028,Speed ZERO Pack 250cc x 24u,1,1423.12,2,Pedido histórico field mock (2026-01-12),true,5492997670210
+PF-000178,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1648.33,2,Pedido reciente field mock (2026-04-24),true,5492997670210
+PF-000178,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido reciente field mock (2026-04-24),true,5492997670210
+PF-000179,LYL-0135,Huevitos KINDER x 12u,1,2577.92,2,Pedido reciente field mock (2026-04-30),true,5492997670210
+PF-000179,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido reciente field mock (2026-04-30),true,5492997670210
+PF-000180,LYL-0135,Huevitos KINDER x 12u,1,2577.92,2,Pedido reciente field mock (2026-05-07),true,5492997670210
+PF-000180,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido reciente field mock (2026-05-07),true,5492997670210
+PF-000181,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-06-01),true,5493811657614
+PF-000181,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido histórico field mock (2025-06-01),true,5493811657614
+PF-000181,LYL-0010,Soda en Sifón Secco 2L x 6u,4,1095.00,3,Pedido histórico field mock (2025-06-01),true,5493811657614
+PF-000182,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-07-08),true,5493811657614
+PF-000182,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido histórico field mock (2025-07-08),true,5493811657614
+PF-000183,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2025-08-18),true,5493811657614
+PF-000183,LYL-0135,Huevitos KINDER x 12u,4,2017.50,3,Pedido histórico field mock (2025-08-18),true,5493811657614
+PF-000183,LYL-0025,Speed Lata 473cc XL x unidad,2,1935.00,3,Pedido histórico field mock (2025-08-18),true,5493811657614
+PF-000183,LYL-0028,Speed ZERO Pack 250cc x 24u,1,1113.75,3,Pedido histórico field mock (2025-08-18),true,5493811657614
+PF-000184,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-09-27),true,5493811657614
+PF-000184,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido histórico field mock (2025-09-27),true,5493811657614
+PF-000185,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2025-11-04),true,5493811657614
+PF-000185,LYL-0135,Huevitos KINDER x 12u,4,2017.50,3,Pedido histórico field mock (2025-11-04),true,5493811657614
+PF-000185,LYL-0028,Speed ZERO Pack 250cc x 24u,3,1113.75,3,Pedido histórico field mock (2025-11-04),true,5493811657614
+PF-000185,LYL-0026,Speed Pack 473cc XL                                       x 12u,3,1773.75,3,Pedido histórico field mock (2025-11-04),true,5493811657614
+PF-000186,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido histórico field mock (2025-12-12),true,5493811657614
+PF-000186,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido histórico field mock (2025-12-12),true,5493811657614
+PF-000187,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido histórico field mock (2026-01-12),true,5493811657614
+PF-000187,LYL-0135,Huevitos KINDER x 12u,1,2017.50,3,Pedido histórico field mock (2026-01-12),true,5493811657614
+PF-000187,LYL-0030,Speed ZERO Pack 473cc XL x 12u,2,1650.00,3,Pedido histórico field mock (2026-01-12),true,5493811657614
+PF-000187,LYL-0023,Speed Lata 250cc x unidad,1,1287.00,3,Pedido histórico field mock (2026-01-12),true,5493811657614
+PF-000188,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido reciente field mock (2026-04-10),true,5493811657614
+PF-000188,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido reciente field mock (2026-04-10),true,5493811657614
+PF-000189,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido reciente field mock (2026-04-15),true,5493811657614
+PF-000189,LYL-0136,Huevitos KINDER x 12u,3,2550.00,3,Pedido reciente field mock (2026-04-15),true,5493811657614
+PF-000190,LYL-0136,Huevitos KINDER x 12u,1,2550.00,3,Pedido reciente field mock (2026-04-19),true,5493811657614
+PF-000190,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido reciente field mock (2026-04-19),true,5493811657614
+PF-000191,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido histórico field mock (2025-06-04),true,5492994145193
+PF-000191,LYL-0135,Huevitos KINDER x 12u,1,1905.42,4,Pedido histórico field mock (2025-06-04),true,5492994145193
+PF-000191,LYL-0024,Speed Pack 250cc                                                      x 24u,2,1114.21,4,Pedido histórico field mock (2025-06-04),true,5492994145193
+PF-000192,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,920.83,4,Pedido histórico field mock (2025-07-07),true,5492994145193
+PF-000192,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido histórico field mock (2025-07-07),true,5492994145193
+PF-000193,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,920.83,4,Pedido histórico field mock (2025-08-13),true,5492994145193
+PF-000193,LYL-0135,Huevitos KINDER x 12u,4,1905.42,4,Pedido histórico field mock (2025-08-13),true,5492994145193
+PF-000193,LYL-0027,Speed ZERO Lata 250cc x unidad,4,1147.50,4,Pedido histórico field mock (2025-08-13),true,5492994145193
+PF-000193,LYL-0026,Speed Pack 473cc XL                                       x 12u,3,1675.21,4,Pedido histórico field mock (2025-08-13),true,5492994145193
+PF-000194,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,920.83,4,Pedido histórico field mock (2025-09-26),true,5492994145193
+PF-000194,LYL-0135,Huevitos KINDER x 12u,3,1905.42,4,Pedido histórico field mock (2025-09-26),true,5492994145193
+PF-000194,LYL-0027,Speed ZERO Lata 250cc x unidad,1,1147.50,4,Pedido histórico field mock (2025-09-26),true,5492994145193
+PF-000194,LYL-0026,Speed Pack 473cc XL                                       x 12u,2,1675.21,4,Pedido histórico field mock (2025-09-26),true,5492994145193
+PF-000195,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,920.83,4,Pedido histórico field mock (2025-11-03),true,5492994145193
+PF-000195,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido histórico field mock (2025-11-03),true,5492994145193
+PF-000196,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,920.83,4,Pedido histórico field mock (2025-12-11),true,5492994145193
+PF-000196,LYL-0135,Huevitos KINDER x 12u,4,1905.42,4,Pedido histórico field mock (2025-12-11),true,5492994145193
+PF-000196,LYL-0005,Gaseosa Secco 500cc x 12u,4,623.33,4,Pedido histórico field mock (2025-12-11),true,5492994145193
+PF-000197,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,920.83,4,Pedido histórico field mock (2026-01-16),true,5492994145193
+PF-000197,LYL-0135,Huevitos KINDER x 12u,1,1905.42,4,Pedido histórico field mock (2026-01-16),true,5492994145193
+PF-000197,LYL-0023,Speed Lata 250cc x unidad,3,1215.50,4,Pedido histórico field mock (2026-01-16),true,5492994145193
+PF-000198,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido reciente field mock (2026-04-08),true,5492994145193
+PF-000198,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,920.83,4,Pedido reciente field mock (2026-04-08),true,5492994145193
+PF-000199,LYL-0135,Huevitos KINDER x 12u,1,1905.42,4,Pedido reciente field mock (2026-04-20),true,5492994145193
+PF-000199,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido reciente field mock (2026-04-20),true,5492994145193
+PF-000200,LYL-0136,Huevitos KINDER x 12u,2,2408.33,4,Pedido reciente field mock (2026-05-18),true,5492994145193
+PF-000200,LYL-0135,Huevitos KINDER x 12u,3,1905.42,4,Pedido reciente field mock (2026-05-18),true,5492994145193
+PF-000201,LYL-0001,Gaseosa Secco 3L x 4u,2,1800.00,1,Pedido histórico field mock (2025-06-01),true,5493515971311
+PF-000201,LYL-0136,Huevitos KINDER x 12u,3,2833.33,1,Pedido histórico field mock (2025-06-01),true,5493515971311
+PF-000201,LYL-0028,Speed ZERO Pack 250cc x 24u,1,1237.50,1,Pedido histórico field mock (2025-06-01),true,5493515971311
+PF-000202,LYL-0001,Gaseosa Secco 3L x 4u,3,1800.00,1,Pedido histórico field mock (2025-07-12),true,5493515971311
+PF-000202,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2025-07-12),true,5493515971311
+PF-000202,LYL-0024,Speed Pack 250cc                                                      x 24u,2,1310.83,1,Pedido histórico field mock (2025-07-12),true,5493515971311
+PF-000203,LYL-0001,Gaseosa Secco 3L x 4u,4,1800.00,1,Pedido histórico field mock (2025-08-12),true,5493515971311
+PF-000203,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido histórico field mock (2025-08-12),true,5493515971311
+PF-000203,LYL-0010,Soda en Sifón Secco 2L x 6u,3,1216.67,1,Pedido histórico field mock (2025-08-12),true,5493515971311
+PF-000204,LYL-0001,Gaseosa Secco 3L x 4u,4,1800.00,1,Pedido histórico field mock (2025-09-28),true,5493515971311
+PF-000204,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2025-09-28),true,5493515971311
+PF-000204,LYL-0026,Speed Pack 473cc XL                                       x 12u,4,1970.83,1,Pedido histórico field mock (2025-09-28),true,5493515971311
+PF-000204,LYL-0025,Speed Lata 473cc XL x unidad,3,2150.00,1,Pedido histórico field mock (2025-09-28),true,5493515971311
+PF-000205,LYL-0001,Gaseosa Secco 3L x 4u,4,1800.00,1,Pedido histórico field mock (2025-10-30),true,5493515971311
+PF-000205,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2025-10-30),true,5493515971311
+PF-000205,LYL-0026,Speed Pack 473cc XL                                       x 12u,1,1970.83,1,Pedido histórico field mock (2025-10-30),true,5493515971311
+PF-000205,LYL-0007,Soda Secco 500cc x 6u,1,325.00,1,Pedido histórico field mock (2025-10-30),true,5493515971311
+PF-000206,LYL-0001,Gaseosa Secco 3L x 4u,2,1800.00,1,Pedido histórico field mock (2025-12-07),true,5493515971311
+PF-000206,LYL-0136,Huevitos KINDER x 12u,3,2833.33,1,Pedido histórico field mock (2025-12-07),true,5493515971311
+PF-000207,LYL-0001,Gaseosa Secco 3L x 4u,1,1800.00,1,Pedido histórico field mock (2026-01-15),true,5493515971311
+PF-000207,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2026-01-15),true,5493515971311
+PF-000208,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido reciente field mock (2026-04-07),true,5493515971311
+PF-000208,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido reciente field mock (2026-04-07),true,5493515971311
+PF-000209,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido reciente field mock (2026-04-17),true,5493515971311
+PF-000209,LYL-0001,Gaseosa Secco 3L x 4u,1,1800.00,1,Pedido reciente field mock (2026-04-17),true,5493515971311
+PF-000210,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido reciente field mock (2026-04-29),true,5493515971311
+PF-000210,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido reciente field mock (2026-04-29),true,5493515971311
+PF-000211,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-06-06),true,5492994228106
+PF-000211,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido histórico field mock (2025-06-06),true,5492994228106
+PF-000211,LYL-0010,Soda en Sifón Secco 2L x 6u,3,1399.17,2,Pedido histórico field mock (2025-06-06),true,5492994228106
+PF-000211,LYL-0009,"Soda Secco 2,25L x 6u",3,977.50,2,Pedido histórico field mock (2025-06-06),true,5492994228106
+PF-000212,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido histórico field mock (2025-07-08),true,5492994228106
+PF-000212,LYL-0001,Gaseosa Secco 3L x 4u,4,2070.00,2,Pedido histórico field mock (2025-07-08),true,5492994228106
+PF-000213,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-08-13),true,5492994228106
+PF-000213,LYL-0001,Gaseosa Secco 3L x 4u,4,2070.00,2,Pedido histórico field mock (2025-08-13),true,5492994228106
+PF-000213,LYL-0008,"Soda Secco 1,5L x 6u",1,900.83,2,Pedido histórico field mock (2025-08-13),true,5492994228106
+PF-000213,LYL-0025,Speed Lata 473cc XL x unidad,4,2472.50,2,Pedido histórico field mock (2025-08-13),true,5492994228106
+PF-000214,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-09-21),true,5492994228106
+PF-000214,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido histórico field mock (2025-09-21),true,5492994228106
+PF-000214,LYL-0026,Speed Pack 473cc XL                                       x 12u,2,2266.46,2,Pedido histórico field mock (2025-09-21),true,5492994228106
+PF-000215,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido histórico field mock (2025-11-04),true,5492994228106
+PF-000215,LYL-0001,Gaseosa Secco 3L x 4u,4,2070.00,2,Pedido histórico field mock (2025-11-04),true,5492994228106
+PF-000215,LYL-0025,Speed Lata 473cc XL x unidad,2,2472.50,2,Pedido histórico field mock (2025-11-04),true,5492994228106
+PF-000216,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-12-04),true,5492994228106
+PF-000216,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido histórico field mock (2025-12-04),true,5492994228106
+PF-000216,LYL-0121,GEORGALOS Full Maní x 900g,3,2530.00,2,Pedido histórico field mock (2025-12-04),true,5492994228106
+PF-000217,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2026-01-18),true,5492994228106
+PF-000217,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido histórico field mock (2026-01-18),true,5492994228106
+PF-000217,LYL-0023,Speed Lata 250cc x unidad,3,1644.50,2,Pedido histórico field mock (2026-01-18),true,5492994228106
+PF-000217,LYL-0026,Speed Pack 473cc XL                                       x 12u,4,2266.46,2,Pedido histórico field mock (2026-01-18),true,5492994228106
+PF-000218,LYL-0001,Gaseosa Secco 3L x 4u,1,2070.00,2,Pedido reciente field mock (2026-04-06),true,5492994228106
+PF-000218,LYL-0136,Huevitos KINDER x 12u,3,3258.33,2,Pedido reciente field mock (2026-04-06),true,5492994228106
+PF-000219,LYL-0136,Huevitos KINDER x 12u,2,3258.33,2,Pedido reciente field mock (2026-04-10),true,5492994228106
+PF-000219,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido reciente field mock (2026-04-10),true,5492994228106
+PF-000220,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido reciente field mock (2026-05-03),true,5492994228106
+PF-000220,LYL-0136,Huevitos KINDER x 12u,3,3258.33,2,Pedido reciente field mock (2026-05-03),true,5492994228106
+PF-000221,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2025-06-01),true,5492998718887
+PF-000221,LYL-0135,Huevitos KINDER x 12u,2,2017.50,3,Pedido histórico field mock (2025-06-01),true,5492998718887
+PF-000221,LYL-0026,Speed Pack 473cc XL                                       x 12u,3,1773.75,3,Pedido histórico field mock (2025-06-01),true,5492998718887
+PF-000222,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido histórico field mock (2025-07-11),true,5492998718887
+PF-000222,LYL-0135,Huevitos KINDER x 12u,4,2017.50,3,Pedido histórico field mock (2025-07-11),true,5492998718887
+PF-000223,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-08-19),true,5492998718887
+PF-000223,LYL-0135,Huevitos KINDER x 12u,1,2017.50,3,Pedido histórico field mock (2025-08-19),true,5492998718887
+PF-000223,LYL-0028,Speed ZERO Pack 250cc x 24u,4,1113.75,3,Pedido histórico field mock (2025-08-19),true,5492998718887
+PF-000224,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-09-19),true,5492998718887
+PF-000224,LYL-0135,Huevitos KINDER x 12u,2,2017.50,3,Pedido histórico field mock (2025-09-19),true,5492998718887
+PF-000225,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-11-03),true,5492998718887
+PF-000225,LYL-0135,Huevitos KINDER x 12u,1,2017.50,3,Pedido histórico field mock (2025-11-03),true,5492998718887
+PF-000225,LYL-0024,Speed Pack 250cc                                                      x 24u,1,1179.75,3,Pedido histórico field mock (2025-11-03),true,5492998718887
+PF-000225,LYL-0028,Speed ZERO Pack 250cc x 24u,3,1113.75,3,Pedido histórico field mock (2025-11-03),true,5492998718887
+PF-000226,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-12-06),true,5492998718887
+PF-000226,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido histórico field mock (2025-12-06),true,5492998718887
+PF-000226,LYL-0027,Speed ZERO Lata 250cc x unidad,1,1215.00,3,Pedido histórico field mock (2025-12-06),true,5492998718887
+PF-000227,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido histórico field mock (2026-01-17),true,5492998718887
+PF-000227,LYL-0135,Huevitos KINDER x 12u,4,2017.50,3,Pedido histórico field mock (2026-01-17),true,5492998718887
+PF-000227,LYL-0025,Speed Lata 473cc XL x unidad,4,1935.00,3,Pedido histórico field mock (2026-01-17),true,5492998718887
+PF-000227,LYL-0023,Speed Lata 250cc x unidad,2,1287.00,3,Pedido histórico field mock (2026-01-17),true,5492998718887
+PF-000228,LYL-0135,Huevitos KINDER x 12u,1,2017.50,3,Pedido reciente field mock (2026-04-05),true,5492998718887
+PF-000228,LYL-0136,Huevitos KINDER x 12u,2,2550.00,3,Pedido reciente field mock (2026-04-05),true,5492998718887
+PF-000229,LYL-0135,Huevitos KINDER x 12u,1,2017.50,3,Pedido reciente field mock (2026-04-20),true,5492998718887
+PF-000229,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido reciente field mock (2026-04-20),true,5492998718887
+PF-000230,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,975.00,3,Pedido reciente field mock (2026-05-08),true,5492998718887
+PF-000230,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido reciente field mock (2026-05-08),true,5492998718887
+PF-000231,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido histórico field mock (2025-06-01),true,5493814729528
+PF-000231,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido histórico field mock (2025-06-01),true,5493814729528
+PF-000232,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido histórico field mock (2025-07-12),true,5493814729528
+PF-000232,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido histórico field mock (2025-07-12),true,5493814729528
+PF-000232,LYL-0041,Fernet BRANCA x 1L x 1u,1,16065.00,4,Pedido histórico field mock (2025-07-12),true,5493814729528
+PF-000232,LYL-0024,Speed Pack 250cc                                                      x 24u,1,1114.21,4,Pedido histórico field mock (2025-07-12),true,5493814729528
+PF-000233,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido histórico field mock (2025-08-11),true,5493814729528
+PF-000233,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2025-08-11),true,5493814729528
+PF-000234,LYL-0001,Gaseosa Secco 3L x 4u,3,1530.00,4,Pedido histórico field mock (2025-09-23),true,5493814729528
+PF-000234,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2025-09-23),true,5493814729528
+PF-000234,LYL-0007,Soda Secco 500cc x 6u,2,276.25,4,Pedido histórico field mock (2025-09-23),true,5493814729528
+PF-000235,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido histórico field mock (2025-10-31),true,5493814729528
+PF-000235,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido histórico field mock (2025-10-31),true,5493814729528
+PF-000236,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido histórico field mock (2025-12-10),true,5493814729528
+PF-000236,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2025-12-10),true,5493814729528
+PF-000236,LYL-0029,Speed ZERO Lata 473cc XL x unidad,4,1700.00,4,Pedido histórico field mock (2025-12-10),true,5493814729528
+PF-000236,LYL-0121,GEORGALOS Full Maní x 900g,1,1870.00,4,Pedido histórico field mock (2025-12-10),true,5493814729528
+PF-000237,LYL-0001,Gaseosa Secco 3L x 4u,3,1530.00,4,Pedido histórico field mock (2026-01-20),true,5493814729528
+PF-000237,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2026-01-20),true,5493814729528
+PF-000238,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido reciente field mock (2026-04-04),true,5493814729528
+PF-000238,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido reciente field mock (2026-04-04),true,5493814729528
+PF-000239,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido reciente field mock (2026-04-12),true,5493814729528
+PF-000239,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido reciente field mock (2026-04-12),true,5493814729528
+PF-000240,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido reciente field mock (2026-04-25),true,5493814729528
+PF-000240,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido reciente field mock (2026-04-25),true,5493814729528
+PF-000241,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1433.33,1,Pedido histórico field mock (2025-06-04),true,5493876922419
+PF-000241,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1083.33,1,Pedido histórico field mock (2025-06-04),true,5493876922419
+PF-000242,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2025-07-13),true,5493876922419
+PF-000242,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1083.33,1,Pedido histórico field mock (2025-07-13),true,5493876922419
+PF-000242,LYL-0121,GEORGALOS Full Maní x 900g,3,2200.00,1,Pedido histórico field mock (2025-07-13),true,5493876922419
+PF-000242,LYL-0009,"Soda Secco 2,25L x 6u",3,850.00,1,Pedido histórico field mock (2025-07-13),true,5493876922419
+PF-000243,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido histórico field mock (2025-08-17),true,5493876922419
+PF-000243,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido histórico field mock (2025-08-17),true,5493876922419
+PF-000243,LYL-0023,Speed Lata 250cc x unidad,1,1430.00,1,Pedido histórico field mock (2025-08-17),true,5493876922419
+PF-000243,LYL-0121,GEORGALOS Full Maní x 900g,2,2200.00,1,Pedido histórico field mock (2025-08-17),true,5493876922419
+PF-000244,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido histórico field mock (2025-09-27),true,5493876922419
+PF-000244,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1083.33,1,Pedido histórico field mock (2025-09-27),true,5493876922419
+PF-000244,LYL-0026,Speed Pack 473cc XL                                       x 12u,3,1970.83,1,Pedido histórico field mock (2025-09-27),true,5493876922419
+PF-000245,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2025-11-02),true,5493876922419
+PF-000245,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1083.33,1,Pedido histórico field mock (2025-11-02),true,5493876922419
+PF-000245,LYL-0121,GEORGALOS Full Maní x 900g,2,2200.00,1,Pedido histórico field mock (2025-11-02),true,5493876922419
+PF-000246,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2025-12-04),true,5493876922419
+PF-000246,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido histórico field mock (2025-12-04),true,5493876922419
+PF-000246,LYL-0027,Speed ZERO Lata 250cc x unidad,3,1350.00,1,Pedido histórico field mock (2025-12-04),true,5493876922419
+PF-000247,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido histórico field mock (2026-01-16),true,5493876922419
+PF-000247,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido histórico field mock (2026-01-16),true,5493876922419
+PF-000247,LYL-0007,Soda Secco 500cc x 6u,4,325.00,1,Pedido histórico field mock (2026-01-16),true,5493876922419
+PF-000247,LYL-0121,GEORGALOS Full Maní x 900g,1,2200.00,1,Pedido histórico field mock (2026-01-16),true,5493876922419
+PF-000248,LYL-0001,Gaseosa Secco 3L x 4u,2,1800.00,1,Pedido reciente field mock (2026-04-27),true,5493876922419
+PF-000248,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido reciente field mock (2026-04-27),true,5493876922419
+PF-000249,LYL-0001,Gaseosa Secco 3L x 4u,3,1800.00,1,Pedido reciente field mock (2026-05-11),true,5493876922419
+PF-000249,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido reciente field mock (2026-05-11),true,5493876922419
+PF-000250,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido reciente field mock (2026-05-18),true,5493876922419
+PF-000250,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido reciente field mock (2026-05-18),true,5493876922419
+PF-000251,LYL-0136,Huevitos KINDER x 12u,2,3258.33,2,Pedido histórico field mock (2025-06-01),true,5492618889598
+PF-000251,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1648.33,2,Pedido histórico field mock (2025-06-01),true,5492618889598
+PF-000252,LYL-0136,Huevitos KINDER x 12u,1,3258.33,2,Pedido histórico field mock (2025-07-05),true,5492618889598
+PF-000252,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2025-07-05),true,5492618889598
+PF-000252,LYL-0025,Speed Lata 473cc XL x unidad,3,2472.50,2,Pedido histórico field mock (2025-07-05),true,5492618889598
+PF-000253,LYL-0136,Huevitos KINDER x 12u,1,3258.33,2,Pedido histórico field mock (2025-08-11),true,5492618889598
+PF-000253,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1648.33,2,Pedido histórico field mock (2025-08-11),true,5492618889598
+PF-000253,LYL-0023,Speed Lata 250cc x unidad,4,1644.50,2,Pedido histórico field mock (2025-08-11),true,5492618889598
+PF-000253,LYL-0027,Speed ZERO Lata 250cc x unidad,4,1552.50,2,Pedido histórico field mock (2025-08-11),true,5492618889598
+PF-000254,LYL-0136,Huevitos KINDER x 12u,4,3258.33,2,Pedido histórico field mock (2025-09-28),true,5492618889598
+PF-000254,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1648.33,2,Pedido histórico field mock (2025-09-28),true,5492618889598
+PF-000255,LYL-0136,Huevitos KINDER x 12u,2,3258.33,2,Pedido histórico field mock (2025-11-02),true,5492618889598
+PF-000255,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1648.33,2,Pedido histórico field mock (2025-11-02),true,5492618889598
+PF-000255,LYL-0009,"Soda Secco 2,25L x 6u",1,977.50,2,Pedido histórico field mock (2025-11-02),true,5492618889598
+PF-000256,LYL-0136,Huevitos KINDER x 12u,3,3258.33,2,Pedido histórico field mock (2025-12-07),true,5492618889598
+PF-000256,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2025-12-07),true,5492618889598
+PF-000256,LYL-0007,Soda Secco 500cc x 6u,3,373.75,2,Pedido histórico field mock (2025-12-07),true,5492618889598
+PF-000256,LYL-0028,Speed ZERO Pack 250cc x 24u,1,1423.12,2,Pedido histórico field mock (2025-12-07),true,5492618889598
+PF-000257,LYL-0136,Huevitos KINDER x 12u,3,3258.33,2,Pedido histórico field mock (2026-01-14),true,5492618889598
+PF-000257,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1648.33,2,Pedido histórico field mock (2026-01-14),true,5492618889598
+PF-000258,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1648.33,2,Pedido reciente field mock (2026-04-11),true,5492618889598
+PF-000258,LYL-0135,Huevitos KINDER x 12u,3,2577.92,2,Pedido reciente field mock (2026-04-11),true,5492618889598
+PF-000259,LYL-0136,Huevitos KINDER x 12u,2,3258.33,2,Pedido reciente field mock (2026-04-17),true,5492618889598
+PF-000259,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido reciente field mock (2026-04-17),true,5492618889598
+PF-000260,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido reciente field mock (2026-04-20),true,5492618889598
+PF-000260,LYL-0001,Gaseosa Secco 3L x 4u,1,2070.00,2,Pedido reciente field mock (2026-04-20),true,5492618889598
+PF-000261,LYL-0136,Huevitos KINDER x 12u,3,2550.00,3,Pedido histórico field mock (2025-06-05),true,5492615021286
+PF-000261,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2025-06-05),true,5492615021286
+PF-000261,LYL-0041,Fernet BRANCA x 1L x 1u,2,17010.00,3,Pedido histórico field mock (2025-06-05),true,5492615021286
+PF-000262,LYL-0136,Huevitos KINDER x 12u,3,2550.00,3,Pedido histórico field mock (2025-07-10),true,5492615021286
+PF-000262,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2025-07-10),true,5492615021286
+PF-000262,LYL-0027,Speed ZERO Lata 250cc x unidad,1,1215.00,3,Pedido histórico field mock (2025-07-10),true,5492615021286
+PF-000262,LYL-0121,GEORGALOS Full Maní x 900g,1,1980.00,3,Pedido histórico field mock (2025-07-10),true,5492615021286
+PF-000263,LYL-0136,Huevitos KINDER x 12u,3,2550.00,3,Pedido histórico field mock (2025-08-20),true,5492615021286
+PF-000263,LYL-0001,Gaseosa Secco 3L x 4u,4,1620.00,3,Pedido histórico field mock (2025-08-20),true,5492615021286
+PF-000264,LYL-0136,Huevitos KINDER x 12u,1,2550.00,3,Pedido histórico field mock (2025-09-26),true,5492615021286
+PF-000264,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-09-26),true,5492615021286
+PF-000264,LYL-0023,Speed Lata 250cc x unidad,4,1287.00,3,Pedido histórico field mock (2025-09-26),true,5492615021286
+PF-000264,LYL-0024,Speed Pack 250cc                                                      x 24u,1,1179.75,3,Pedido histórico field mock (2025-09-26),true,5492615021286
+PF-000265,LYL-0136,Huevitos KINDER x 12u,3,2550.00,3,Pedido histórico field mock (2025-10-27),true,5492615021286
+PF-000265,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido histórico field mock (2025-10-27),true,5492615021286
+PF-000265,LYL-0010,Soda en Sifón Secco 2L x 6u,2,1095.00,3,Pedido histórico field mock (2025-10-27),true,5492615021286
+PF-000265,LYL-0005,Gaseosa Secco 500cc x 12u,3,660.00,3,Pedido histórico field mock (2025-10-27),true,5492615021286
+PF-000266,LYL-0136,Huevitos KINDER x 12u,1,2550.00,3,Pedido histórico field mock (2025-12-04),true,5492615021286
+PF-000266,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-12-04),true,5492615021286
+PF-000267,LYL-0136,Huevitos KINDER x 12u,1,2550.00,3,Pedido histórico field mock (2026-01-14),true,5492615021286
+PF-000267,LYL-0001,Gaseosa Secco 3L x 4u,4,1620.00,3,Pedido histórico field mock (2026-01-14),true,5492615021286
+PF-000267,LYL-0041,Fernet BRANCA x 1L x 1u,4,17010.00,3,Pedido histórico field mock (2026-01-14),true,5492615021286
+PF-000267,LYL-0007,Soda Secco 500cc x 6u,1,292.50,3,Pedido histórico field mock (2026-01-14),true,5492615021286
+PF-000268,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido reciente field mock (2026-04-19),true,5492615021286
+PF-000268,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido reciente field mock (2026-04-19),true,5492615021286
+PF-000269,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido reciente field mock (2026-05-02),true,5492615021286
+PF-000269,LYL-0136,Huevitos KINDER x 12u,3,2550.00,3,Pedido reciente field mock (2026-05-02),true,5492615021286
+PF-000270,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido reciente field mock (2026-05-13),true,5492615021286
+PF-000270,LYL-0136,Huevitos KINDER x 12u,2,2550.00,3,Pedido reciente field mock (2026-05-13),true,5492615021286
+PF-000271,LYL-0136,Huevitos KINDER x 12u,2,2408.33,4,Pedido histórico field mock (2025-06-02),true,5493813520000
+PF-000271,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido histórico field mock (2025-06-02),true,5493813520000
+PF-000272,LYL-0136,Huevitos KINDER x 12u,2,2408.33,4,Pedido histórico field mock (2025-07-05),true,5493813520000
+PF-000272,LYL-0001,Gaseosa Secco 3L x 4u,4,1530.00,4,Pedido histórico field mock (2025-07-05),true,5493813520000
+PF-000272,LYL-0024,Speed Pack 250cc                                                      x 24u,1,1114.21,4,Pedido histórico field mock (2025-07-05),true,5493813520000
+PF-000273,LYL-0136,Huevitos KINDER x 12u,4,2408.33,4,Pedido histórico field mock (2025-08-17),true,5493813520000
+PF-000273,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido histórico field mock (2025-08-17),true,5493813520000
+PF-000273,LYL-0024,Speed Pack 250cc                                                      x 24u,1,1114.21,4,Pedido histórico field mock (2025-08-17),true,5493813520000
+PF-000273,LYL-0005,Gaseosa Secco 500cc x 12u,4,623.33,4,Pedido histórico field mock (2025-08-17),true,5493813520000
+PF-000274,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2025-09-28),true,5493813520000
+PF-000274,LYL-0001,Gaseosa Secco 3L x 4u,4,1530.00,4,Pedido histórico field mock (2025-09-28),true,5493813520000
+PF-000275,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido histórico field mock (2025-10-29),true,5493813520000
+PF-000275,LYL-0001,Gaseosa Secco 3L x 4u,2,1530.00,4,Pedido histórico field mock (2025-10-29),true,5493813520000
+PF-000275,LYL-0025,Speed Lata 473cc XL x unidad,3,1827.50,4,Pedido histórico field mock (2025-10-29),true,5493813520000
+PF-000276,LYL-0136,Huevitos KINDER x 12u,2,2408.33,4,Pedido histórico field mock (2025-12-04),true,5493813520000
+PF-000276,LYL-0001,Gaseosa Secco 3L x 4u,2,1530.00,4,Pedido histórico field mock (2025-12-04),true,5493813520000
+PF-000276,LYL-0041,Fernet BRANCA x 1L x 1u,3,16065.00,4,Pedido histórico field mock (2025-12-04),true,5493813520000
+PF-000277,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2026-01-15),true,5493813520000
+PF-000277,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido histórico field mock (2026-01-15),true,5493813520000
+PF-000277,LYL-0030,Speed ZERO Pack 473cc XL x 12u,3,1558.33,4,Pedido histórico field mock (2026-01-15),true,5493813520000
+PF-000278,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,920.83,4,Pedido reciente field mock (2026-04-01),true,5493813520000
+PF-000278,LYL-0001,Gaseosa Secco 3L x 4u,2,1530.00,4,Pedido reciente field mock (2026-04-01),true,5493813520000
+PF-000279,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido reciente field mock (2026-04-13),true,5493813520000
+PF-000279,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido reciente field mock (2026-04-13),true,5493813520000
+PF-000280,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,920.83,4,Pedido reciente field mock (2026-05-15),true,5493813520000
+PF-000280,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido reciente field mock (2026-05-15),true,5493813520000
+PF-000281,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido histórico field mock (2025-06-04),true,5492997489876
+PF-000281,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2025-06-04),true,5492997489876
+PF-000281,LYL-0041,Fernet BRANCA x 1L x 1u,4,18900.00,1,Pedido histórico field mock (2025-06-04),true,5492997489876
+PF-000282,LYL-0136,Huevitos KINDER x 12u,4,2833.33,1,Pedido histórico field mock (2025-07-13),true,5492997489876
+PF-000282,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2025-07-13),true,5492997489876
+PF-000283,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido histórico field mock (2025-08-19),true,5492997489876
+PF-000283,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1433.33,1,Pedido histórico field mock (2025-08-19),true,5492997489876
+PF-000284,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2025-09-19),true,5492997489876
+PF-000284,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2025-09-19),true,5492997489876
+PF-000284,LYL-0009,"Soda Secco 2,25L x 6u",2,850.00,1,Pedido histórico field mock (2025-09-19),true,5492997489876
+PF-000284,LYL-0026,Speed Pack 473cc XL                                       x 12u,3,1970.83,1,Pedido histórico field mock (2025-09-19),true,5492997489876
+PF-000285,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2025-10-30),true,5492997489876
+PF-000285,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1433.33,1,Pedido histórico field mock (2025-10-30),true,5492997489876
+PF-000285,LYL-0010,Soda en Sifón Secco 2L x 6u,3,1216.67,1,Pedido histórico field mock (2025-10-30),true,5492997489876
+PF-000286,LYL-0136,Huevitos KINDER x 12u,3,2833.33,1,Pedido histórico field mock (2025-12-07),true,5492997489876
+PF-000286,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1433.33,1,Pedido histórico field mock (2025-12-07),true,5492997489876
+PF-000286,LYL-0026,Speed Pack 473cc XL                                       x 12u,2,1970.83,1,Pedido histórico field mock (2025-12-07),true,5492997489876
+PF-000287,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido histórico field mock (2026-01-20),true,5492997489876
+PF-000287,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido histórico field mock (2026-01-20),true,5492997489876
+PF-000287,LYL-0008,"Soda Secco 1,5L x 6u",3,783.33,1,Pedido histórico field mock (2026-01-20),true,5492997489876
+PF-000288,LYL-0001,Gaseosa Secco 3L x 4u,1,1800.00,1,Pedido reciente field mock (2026-04-14),true,5492997489876
+PF-000288,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido reciente field mock (2026-04-14),true,5492997489876
+PF-000289,LYL-0001,Gaseosa Secco 3L x 4u,2,1800.00,1,Pedido reciente field mock (2026-04-21),true,5492997489876
+PF-000289,LYL-0136,Huevitos KINDER x 12u,3,2833.33,1,Pedido reciente field mock (2026-04-21),true,5492997489876
+PF-000290,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1083.33,1,Pedido reciente field mock (2026-04-24),true,5492997489876
+PF-000290,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido reciente field mock (2026-04-24),true,5492997489876
+PF-000291,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-06-01),true,5493519107005
+PF-000291,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1648.33,2,Pedido histórico field mock (2025-06-01),true,5493519107005
+PF-000292,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido histórico field mock (2025-07-08),true,5493519107005
+PF-000292,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2025-07-08),true,5493519107005
+PF-000292,LYL-0010,Soda en Sifón Secco 2L x 6u,3,1399.17,2,Pedido histórico field mock (2025-07-08),true,5493519107005
+PF-000293,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1245.83,2,Pedido histórico field mock (2025-08-17),true,5493519107005
+PF-000293,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2025-08-17),true,5493519107005
+PF-000293,LYL-0121,GEORGALOS Full Maní x 900g,4,2530.00,2,Pedido histórico field mock (2025-08-17),true,5493519107005
+PF-000293,LYL-0030,Speed ZERO Pack 473cc XL x 12u,2,2108.33,2,Pedido histórico field mock (2025-08-17),true,5493519107005
+PF-000294,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-09-28),true,5493519107005
+PF-000294,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2025-09-28),true,5493519107005
+PF-000294,LYL-0024,Speed Pack 250cc                                                      x 24u,1,1507.46,2,Pedido histórico field mock (2025-09-28),true,5493519107005
+PF-000295,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido histórico field mock (2025-10-29),true,5493519107005
+PF-000295,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2025-10-29),true,5493519107005
+PF-000296,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-12-10),true,5493519107005
+PF-000296,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1648.33,2,Pedido histórico field mock (2025-12-10),true,5493519107005
+PF-000296,LYL-0029,Speed ZERO Lata 473cc XL x unidad,3,2300.00,2,Pedido histórico field mock (2025-12-10),true,5493519107005
+PF-000297,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido histórico field mock (2026-01-20),true,5493519107005
+PF-000297,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1648.33,2,Pedido histórico field mock (2026-01-20),true,5493519107005
+PF-000297,LYL-0030,Speed ZERO Pack 473cc XL x 12u,4,2108.33,2,Pedido histórico field mock (2026-01-20),true,5493519107005
+PF-000298,LYL-0135,Huevitos KINDER x 12u,2,2577.92,2,Pedido reciente field mock (2026-05-08),true,5493519107005
+PF-000298,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido reciente field mock (2026-05-08),true,5493519107005
+PF-000299,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido reciente field mock (2026-05-10),true,5493519107005
+PF-000299,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1648.33,2,Pedido reciente field mock (2026-05-10),true,5493519107005
+PF-000300,LYL-0136,Huevitos KINDER x 12u,1,3258.33,2,Pedido reciente field mock (2026-05-14),true,5493519107005
+PF-000300,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido reciente field mock (2026-05-14),true,5493519107005
+PF-000301,LYL-0135,Huevitos KINDER x 12u,4,2017.50,3,Pedido histórico field mock (2025-06-03),true,5493874104594
+PF-000301,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-06-03),true,5493874104594
+PF-000301,LYL-0010,Soda en Sifón Secco 2L x 6u,4,1095.00,3,Pedido histórico field mock (2025-06-03),true,5493874104594
+PF-000302,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido histórico field mock (2025-07-06),true,5493874104594
+PF-000302,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-07-06),true,5493874104594
+PF-000302,LYL-0026,Speed Pack 473cc XL                                       x 12u,3,1773.75,3,Pedido histórico field mock (2025-07-06),true,5493874104594
+PF-000303,LYL-0135,Huevitos KINDER x 12u,2,2017.50,3,Pedido histórico field mock (2025-08-17),true,5493874104594
+PF-000303,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-08-17),true,5493874104594
+PF-000304,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido histórico field mock (2025-09-19),true,5493874104594
+PF-000304,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2025-09-19),true,5493874104594
+PF-000304,LYL-0010,Soda en Sifón Secco 2L x 6u,4,1095.00,3,Pedido histórico field mock (2025-09-19),true,5493874104594
+PF-000304,LYL-0009,"Soda Secco 2,25L x 6u",3,765.00,3,Pedido histórico field mock (2025-09-19),true,5493874104594
+PF-000305,LYL-0135,Huevitos KINDER x 12u,2,2017.50,3,Pedido histórico field mock (2025-10-26),true,5493874104594
+PF-000305,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido histórico field mock (2025-10-26),true,5493874104594
+PF-000306,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido histórico field mock (2025-12-06),true,5493874104594
+PF-000306,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido histórico field mock (2025-12-06),true,5493874104594
+PF-000306,LYL-0030,Speed ZERO Pack 473cc XL x 12u,1,1650.00,3,Pedido histórico field mock (2025-12-06),true,5493874104594
+PF-000306,LYL-0007,Soda Secco 500cc x 6u,4,292.50,3,Pedido histórico field mock (2025-12-06),true,5493874104594
+PF-000307,LYL-0135,Huevitos KINDER x 12u,2,2017.50,3,Pedido histórico field mock (2026-01-18),true,5493874104594
+PF-000307,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido histórico field mock (2026-01-18),true,5493874104594
+PF-000307,LYL-0030,Speed ZERO Pack 473cc XL x 12u,4,1650.00,3,Pedido histórico field mock (2026-01-18),true,5493874104594
+PF-000307,LYL-0008,"Soda Secco 1,5L x 6u",3,705.00,3,Pedido histórico field mock (2026-01-18),true,5493874104594
+PF-000308,LYL-0135,Huevitos KINDER x 12u,1,2017.50,3,Pedido reciente field mock (2026-04-25),true,5493874104594
+PF-000308,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido reciente field mock (2026-04-25),true,5493874104594
+PF-000309,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido reciente field mock (2026-05-14),true,5493874104594
+PF-000309,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido reciente field mock (2026-05-14),true,5493874104594
+PF-000310,LYL-0136,Huevitos KINDER x 12u,2,2550.00,3,Pedido reciente field mock (2026-05-20),true,5493874104594
+PF-000310,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido reciente field mock (2026-05-20),true,5493874104594
+PF-000311,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2025-06-01),true,5492995028869
+PF-000311,LYL-0135,Huevitos KINDER x 12u,4,1905.42,4,Pedido histórico field mock (2025-06-01),true,5492995028869
+PF-000311,LYL-0041,Fernet BRANCA x 1L x 1u,3,16065.00,4,Pedido histórico field mock (2025-06-01),true,5492995028869
+PF-000312,LYL-0136,Huevitos KINDER x 12u,4,2408.33,4,Pedido histórico field mock (2025-07-05),true,5492995028869
+PF-000312,LYL-0135,Huevitos KINDER x 12u,4,1905.42,4,Pedido histórico field mock (2025-07-05),true,5492995028869
+PF-000312,LYL-0041,Fernet BRANCA x 1L x 1u,1,16065.00,4,Pedido histórico field mock (2025-07-05),true,5492995028869
+PF-000313,LYL-0136,Huevitos KINDER x 12u,2,2408.33,4,Pedido histórico field mock (2025-08-20),true,5492995028869
+PF-000313,LYL-0135,Huevitos KINDER x 12u,4,1905.42,4,Pedido histórico field mock (2025-08-20),true,5492995028869
+PF-000313,LYL-0026,Speed Pack 473cc XL                                       x 12u,2,1675.21,4,Pedido histórico field mock (2025-08-20),true,5492995028869
+PF-000314,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2025-09-27),true,5492995028869
+PF-000314,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido histórico field mock (2025-09-27),true,5492995028869
+PF-000315,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido histórico field mock (2025-10-29),true,5492995028869
+PF-000315,LYL-0135,Huevitos KINDER x 12u,1,1905.42,4,Pedido histórico field mock (2025-10-29),true,5492995028869
+PF-000316,LYL-0136,Huevitos KINDER x 12u,2,2408.33,4,Pedido histórico field mock (2025-12-03),true,5492995028869
+PF-000316,LYL-0135,Huevitos KINDER x 12u,4,1905.42,4,Pedido histórico field mock (2025-12-03),true,5492995028869
+PF-000316,LYL-0005,Gaseosa Secco 500cc x 12u,1,623.33,4,Pedido histórico field mock (2025-12-03),true,5492995028869
+PF-000316,LYL-0009,"Soda Secco 2,25L x 6u",1,722.50,4,Pedido histórico field mock (2025-12-03),true,5492995028869
+PF-000317,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido histórico field mock (2026-01-17),true,5492995028869
+PF-000317,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido histórico field mock (2026-01-17),true,5492995028869
+PF-000318,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido reciente field mock (2026-04-15),true,5492995028869
+PF-000318,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido reciente field mock (2026-04-15),true,5492995028869
+PF-000319,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,920.83,4,Pedido reciente field mock (2026-05-02),true,5492995028869
+PF-000319,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido reciente field mock (2026-05-02),true,5492995028869
+PF-000320,LYL-0001,Gaseosa Secco 3L x 4u,2,1530.00,4,Pedido reciente field mock (2026-05-17),true,5492995028869
+PF-000320,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,920.83,4,Pedido reciente field mock (2026-05-17),true,5492995028869
+PF-000321,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1083.33,1,Pedido histórico field mock (2025-06-05),true,5493517304254
+PF-000321,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2025-06-05),true,5493517304254
+PF-000322,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido histórico field mock (2025-07-09),true,5493517304254
+PF-000322,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido histórico field mock (2025-07-09),true,5493517304254
+PF-000323,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido histórico field mock (2025-08-19),true,5493517304254
+PF-000323,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido histórico field mock (2025-08-19),true,5493517304254
+PF-000323,LYL-0026,Speed Pack 473cc XL                                       x 12u,4,1970.83,1,Pedido histórico field mock (2025-08-19),true,5493517304254
+PF-000323,LYL-0010,Soda en Sifón Secco 2L x 6u,4,1216.67,1,Pedido histórico field mock (2025-08-19),true,5493517304254
+PF-000324,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1083.33,1,Pedido histórico field mock (2025-09-28),true,5493517304254
+PF-000324,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2025-09-28),true,5493517304254
+PF-000325,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido histórico field mock (2025-11-05),true,5493517304254
+PF-000325,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2025-11-05),true,5493517304254
+PF-000325,LYL-0027,Speed ZERO Lata 250cc x unidad,1,1350.00,1,Pedido histórico field mock (2025-11-05),true,5493517304254
+PF-000326,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido histórico field mock (2025-12-10),true,5493517304254
+PF-000326,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2025-12-10),true,5493517304254
+PF-000327,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1083.33,1,Pedido histórico field mock (2026-01-10),true,5493517304254
+PF-000327,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2026-01-10),true,5493517304254
+PF-000327,LYL-0007,Soda Secco 500cc x 6u,4,325.00,1,Pedido histórico field mock (2026-01-10),true,5493517304254
+PF-000327,LYL-0026,Speed Pack 473cc XL                                       x 12u,4,1970.83,1,Pedido histórico field mock (2026-01-10),true,5493517304254
+PF-000328,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido reciente field mock (2026-04-04),true,5493517304254
+PF-000328,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido reciente field mock (2026-04-04),true,5493517304254
+PF-000329,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido reciente field mock (2026-04-27),true,5493517304254
+PF-000329,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido reciente field mock (2026-04-27),true,5493517304254
+PF-000330,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido reciente field mock (2026-05-13),true,5493517304254
+PF-000330,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido reciente field mock (2026-05-13),true,5493517304254
+PF-000331,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido histórico field mock (2025-06-01),true,5493416986538
+PF-000331,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1245.83,2,Pedido histórico field mock (2025-06-01),true,5493416986538
+PF-000331,LYL-0007,Soda Secco 500cc x 6u,2,373.75,2,Pedido histórico field mock (2025-06-01),true,5493416986538
+PF-000332,LYL-0001,Gaseosa Secco 3L x 4u,4,2070.00,2,Pedido histórico field mock (2025-07-07),true,5493416986538
+PF-000332,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-07-07),true,5493416986538
+PF-000332,LYL-0029,Speed ZERO Lata 473cc XL x unidad,1,2300.00,2,Pedido histórico field mock (2025-07-07),true,5493416986538
+PF-000333,LYL-0001,Gaseosa Secco 3L x 4u,4,2070.00,2,Pedido histórico field mock (2025-08-15),true,5493416986538
+PF-000333,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-08-15),true,5493416986538
+PF-000333,LYL-0023,Speed Lata 250cc x unidad,4,1644.50,2,Pedido histórico field mock (2025-08-15),true,5493416986538
+PF-000334,LYL-0001,Gaseosa Secco 3L x 4u,1,2070.00,2,Pedido histórico field mock (2025-09-27),true,5493416986538
+PF-000334,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido histórico field mock (2025-09-27),true,5493416986538
+PF-000334,LYL-0025,Speed Lata 473cc XL x unidad,2,2472.50,2,Pedido histórico field mock (2025-09-27),true,5493416986538
+PF-000334,LYL-0007,Soda Secco 500cc x 6u,1,373.75,2,Pedido histórico field mock (2025-09-27),true,5493416986538
+PF-000335,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido histórico field mock (2025-10-28),true,5493416986538
+PF-000335,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-10-28),true,5493416986538
+PF-000335,LYL-0025,Speed Lata 473cc XL x unidad,3,2472.50,2,Pedido histórico field mock (2025-10-28),true,5493416986538
+PF-000335,LYL-0041,Fernet BRANCA x 1L x 1u,3,21735.00,2,Pedido histórico field mock (2025-10-28),true,5493416986538
+PF-000336,LYL-0001,Gaseosa Secco 3L x 4u,1,2070.00,2,Pedido histórico field mock (2025-12-11),true,5493416986538
+PF-000336,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-12-11),true,5493416986538
+PF-000336,LYL-0024,Speed Pack 250cc                                                      x 24u,1,1507.46,2,Pedido histórico field mock (2025-12-11),true,5493416986538
+PF-000337,LYL-0001,Gaseosa Secco 3L x 4u,4,2070.00,2,Pedido histórico field mock (2026-01-13),true,5493416986538
+PF-000337,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2026-01-13),true,5493416986538
+PF-000337,LYL-0008,"Soda Secco 1,5L x 6u",2,900.83,2,Pedido histórico field mock (2026-01-13),true,5493416986538
+PF-000337,LYL-0029,Speed ZERO Lata 473cc XL x unidad,4,2300.00,2,Pedido histórico field mock (2026-01-13),true,5493416986538
+PF-000338,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido reciente field mock (2026-04-08),true,5493416986538
+PF-000338,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido reciente field mock (2026-04-08),true,5493416986538
+PF-000339,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido reciente field mock (2026-04-16),true,5493416986538
+PF-000339,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido reciente field mock (2026-04-16),true,5493416986538
+PF-000340,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido reciente field mock (2026-04-20),true,5493416986538
+PF-000340,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido reciente field mock (2026-04-20),true,5493416986538
+PF-000341,LYL-0135,Huevitos KINDER x 12u,2,2017.50,3,Pedido histórico field mock (2025-06-04),true,5492619239862
+PF-000341,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,975.00,3,Pedido histórico field mock (2025-06-04),true,5492619239862
+PF-000341,LYL-0025,Speed Lata 473cc XL x unidad,2,1935.00,3,Pedido histórico field mock (2025-06-04),true,5492619239862
+PF-000341,LYL-0041,Fernet BRANCA x 1L x 1u,1,17010.00,3,Pedido histórico field mock (2025-06-04),true,5492619239862
+PF-000342,LYL-0135,Huevitos KINDER x 12u,1,2017.50,3,Pedido histórico field mock (2025-07-10),true,5492619239862
+PF-000342,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,975.00,3,Pedido histórico field mock (2025-07-10),true,5492619239862
+PF-000342,LYL-0024,Speed Pack 250cc                                                      x 24u,1,1179.75,3,Pedido histórico field mock (2025-07-10),true,5492619239862
+PF-000342,LYL-0025,Speed Lata 473cc XL x unidad,2,1935.00,3,Pedido histórico field mock (2025-07-10),true,5492619239862
+PF-000343,LYL-0135,Huevitos KINDER x 12u,1,2017.50,3,Pedido histórico field mock (2025-08-13),true,5492619239862
+PF-000343,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido histórico field mock (2025-08-13),true,5492619239862
+PF-000343,LYL-0030,Speed ZERO Pack 473cc XL x 12u,4,1650.00,3,Pedido histórico field mock (2025-08-13),true,5492619239862
+PF-000344,LYL-0135,Huevitos KINDER x 12u,2,2017.50,3,Pedido histórico field mock (2025-09-25),true,5492619239862
+PF-000344,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido histórico field mock (2025-09-25),true,5492619239862
+PF-000345,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido histórico field mock (2025-11-03),true,5492619239862
+PF-000345,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,975.00,3,Pedido histórico field mock (2025-11-03),true,5492619239862
+PF-000345,LYL-0121,GEORGALOS Full Maní x 900g,3,1980.00,3,Pedido histórico field mock (2025-11-03),true,5492619239862
+PF-000345,LYL-0008,"Soda Secco 1,5L x 6u",3,705.00,3,Pedido histórico field mock (2025-11-03),true,5492619239862
+PF-000346,LYL-0135,Huevitos KINDER x 12u,2,2017.50,3,Pedido histórico field mock (2025-12-07),true,5492619239862
+PF-000346,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,975.00,3,Pedido histórico field mock (2025-12-07),true,5492619239862
+PF-000347,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido histórico field mock (2026-01-12),true,5492619239862
+PF-000347,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,975.00,3,Pedido histórico field mock (2026-01-12),true,5492619239862
+PF-000347,LYL-0121,GEORGALOS Full Maní x 900g,4,1980.00,3,Pedido histórico field mock (2026-01-12),true,5492619239862
+PF-000347,LYL-0041,Fernet BRANCA x 1L x 1u,4,17010.00,3,Pedido histórico field mock (2026-01-12),true,5492619239862
+PF-000348,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido reciente field mock (2026-04-07),true,5492619239862
+PF-000348,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido reciente field mock (2026-04-07),true,5492619239862
+PF-000349,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido reciente field mock (2026-04-17),true,5492619239862
+PF-000349,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido reciente field mock (2026-04-17),true,5492619239862
+PF-000350,LYL-0136,Huevitos KINDER x 12u,3,2550.00,3,Pedido reciente field mock (2026-05-18),true,5492619239862
+PF-000350,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido reciente field mock (2026-05-18),true,5492619239862
+PF-000351,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido histórico field mock (2025-06-01),true,5493513952681
+PF-000351,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,920.83,4,Pedido histórico field mock (2025-06-01),true,5493513952681
+PF-000351,LYL-0121,GEORGALOS Full Maní x 900g,1,1870.00,4,Pedido histórico field mock (2025-06-01),true,5493513952681
+PF-000351,LYL-0009,"Soda Secco 2,25L x 6u",2,722.50,4,Pedido histórico field mock (2025-06-01),true,5493513952681
+PF-000352,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido histórico field mock (2025-07-11),true,5493513952681
+PF-000352,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido histórico field mock (2025-07-11),true,5493513952681
+PF-000352,LYL-0041,Fernet BRANCA x 1L x 1u,4,16065.00,4,Pedido histórico field mock (2025-07-11),true,5493513952681
+PF-000352,LYL-0010,Soda en Sifón Secco 2L x 6u,3,1034.17,4,Pedido histórico field mock (2025-07-11),true,5493513952681
+PF-000353,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido histórico field mock (2025-08-18),true,5493513952681
+PF-000353,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,920.83,4,Pedido histórico field mock (2025-08-18),true,5493513952681
+PF-000354,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1218.33,4,Pedido histórico field mock (2025-09-26),true,5493513952681
+PF-000354,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido histórico field mock (2025-09-26),true,5493513952681
+PF-000355,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1218.33,4,Pedido histórico field mock (2025-10-30),true,5493513952681
+PF-000355,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido histórico field mock (2025-10-30),true,5493513952681
+PF-000356,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2025-12-08),true,5493513952681
+PF-000356,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,920.83,4,Pedido histórico field mock (2025-12-08),true,5493513952681
+PF-000356,LYL-0121,GEORGALOS Full Maní x 900g,4,1870.00,4,Pedido histórico field mock (2025-12-08),true,5493513952681
+PF-000357,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido histórico field mock (2026-01-17),true,5493513952681
+PF-000357,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,920.83,4,Pedido histórico field mock (2026-01-17),true,5493513952681
+PF-000358,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1218.33,4,Pedido reciente field mock (2026-05-08),true,5493513952681
+PF-000358,LYL-0135,Huevitos KINDER x 12u,1,1905.42,4,Pedido reciente field mock (2026-05-08),true,5493513952681
+PF-000359,LYL-0135,Huevitos KINDER x 12u,1,1905.42,4,Pedido reciente field mock (2026-05-10),true,5493513952681
+PF-000359,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,920.83,4,Pedido reciente field mock (2026-05-10),true,5493513952681
+PF-000360,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,920.83,4,Pedido reciente field mock (2026-05-15),true,5493513952681
+PF-000360,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido reciente field mock (2026-05-15),true,5493513952681
+PF-000361,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2025-06-04),true,5493414799650
+PF-000361,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido histórico field mock (2025-06-04),true,5493414799650
+PF-000361,LYL-0007,Soda Secco 500cc x 6u,2,325.00,1,Pedido histórico field mock (2025-06-04),true,5493414799650
+PF-000361,LYL-0027,Speed ZERO Lata 250cc x unidad,2,1350.00,1,Pedido histórico field mock (2025-06-04),true,5493414799650
+PF-000362,LYL-0136,Huevitos KINDER x 12u,4,2833.33,1,Pedido histórico field mock (2025-07-09),true,5493414799650
+PF-000362,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1083.33,1,Pedido histórico field mock (2025-07-09),true,5493414799650
+PF-000362,LYL-0024,Speed Pack 250cc                                                      x 24u,3,1310.83,1,Pedido histórico field mock (2025-07-09),true,5493414799650
+PF-000363,LYL-0136,Huevitos KINDER x 12u,3,2833.33,1,Pedido histórico field mock (2025-08-16),true,5493414799650
+PF-000363,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido histórico field mock (2025-08-16),true,5493414799650
+PF-000363,LYL-0008,"Soda Secco 1,5L x 6u",3,783.33,1,Pedido histórico field mock (2025-08-16),true,5493414799650
+PF-000364,LYL-0136,Huevitos KINDER x 12u,3,2833.33,1,Pedido histórico field mock (2025-09-24),true,5493414799650
+PF-000364,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido histórico field mock (2025-09-24),true,5493414799650
+PF-000364,LYL-0009,"Soda Secco 2,25L x 6u",1,850.00,1,Pedido histórico field mock (2025-09-24),true,5493414799650
+PF-000365,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2025-10-27),true,5493414799650
+PF-000365,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido histórico field mock (2025-10-27),true,5493414799650
+PF-000365,LYL-0028,Speed ZERO Pack 250cc x 24u,4,1237.50,1,Pedido histórico field mock (2025-10-27),true,5493414799650
+PF-000366,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido histórico field mock (2025-12-13),true,5493414799650
+PF-000366,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1083.33,1,Pedido histórico field mock (2025-12-13),true,5493414799650
+PF-000367,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido histórico field mock (2026-01-12),true,5493414799650
+PF-000367,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido histórico field mock (2026-01-12),true,5493414799650
+PF-000368,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido reciente field mock (2026-04-02),true,5493414799650
+PF-000368,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1083.33,1,Pedido reciente field mock (2026-04-02),true,5493414799650
+PF-000369,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido reciente field mock (2026-04-04),true,5493414799650
+PF-000369,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido reciente field mock (2026-04-04),true,5493414799650
+PF-000370,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido reciente field mock (2026-04-20),true,5493414799650
+PF-000370,LYL-0135,Huevitos KINDER x 12u,3,2241.67,1,Pedido reciente field mock (2026-04-20),true,5493414799650
+PF-000371,LYL-0136,Huevitos KINDER x 12u,3,3258.33,2,Pedido histórico field mock (2025-06-01),true,5492992500733
+PF-000371,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido histórico field mock (2025-06-01),true,5492992500733
+PF-000371,LYL-0010,Soda en Sifón Secco 2L x 6u,4,1399.17,2,Pedido histórico field mock (2025-06-01),true,5492992500733
+PF-000371,LYL-0026,Speed Pack 473cc XL                                       x 12u,4,2266.46,2,Pedido histórico field mock (2025-06-01),true,5492992500733
+PF-000372,LYL-0136,Huevitos KINDER x 12u,4,3258.33,2,Pedido histórico field mock (2025-07-04),true,5492992500733
+PF-000372,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2025-07-04),true,5492992500733
+PF-000372,LYL-0027,Speed ZERO Lata 250cc x unidad,3,1552.50,2,Pedido histórico field mock (2025-07-04),true,5492992500733
+PF-000373,LYL-0136,Huevitos KINDER x 12u,2,3258.33,2,Pedido histórico field mock (2025-08-20),true,5492992500733
+PF-000373,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1648.33,2,Pedido histórico field mock (2025-08-20),true,5492992500733
+PF-000374,LYL-0136,Huevitos KINDER x 12u,4,3258.33,2,Pedido histórico field mock (2025-09-25),true,5492992500733
+PF-000374,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2025-09-25),true,5492992500733
+PF-000375,LYL-0136,Huevitos KINDER x 12u,3,3258.33,2,Pedido histórico field mock (2025-11-01),true,5492992500733
+PF-000375,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido histórico field mock (2025-11-01),true,5492992500733
+PF-000376,LYL-0136,Huevitos KINDER x 12u,1,3258.33,2,Pedido histórico field mock (2025-12-12),true,5492992500733
+PF-000376,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido histórico field mock (2025-12-12),true,5492992500733
+PF-000377,LYL-0136,Huevitos KINDER x 12u,1,3258.33,2,Pedido histórico field mock (2026-01-13),true,5492992500733
+PF-000377,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1648.33,2,Pedido histórico field mock (2026-01-13),true,5492992500733
+PF-000378,LYL-0135,Huevitos KINDER x 12u,2,2577.92,2,Pedido reciente field mock (2026-04-16),true,5492992500733
+PF-000378,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido reciente field mock (2026-04-16),true,5492992500733
+PF-000379,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido reciente field mock (2026-05-07),true,5492992500733
+PF-000379,LYL-0001,Gaseosa Secco 3L x 4u,1,2070.00,2,Pedido reciente field mock (2026-05-07),true,5492992500733
+PF-000380,LYL-0135,Huevitos KINDER x 12u,3,2577.92,2,Pedido reciente field mock (2026-05-12),true,5492992500733
+PF-000380,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido reciente field mock (2026-05-12),true,5492992500733
+PF-000381,LYL-0136,Huevitos KINDER x 12u,4,2550.00,3,Pedido histórico field mock (2025-06-04),true,5492615139305
+PF-000381,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido histórico field mock (2025-06-04),true,5492615139305
+PF-000381,LYL-0025,Speed Lata 473cc XL x unidad,4,1935.00,3,Pedido histórico field mock (2025-06-04),true,5492615139305
+PF-000382,LYL-0136,Huevitos KINDER x 12u,2,2550.00,3,Pedido histórico field mock (2025-07-14),true,5492615139305
+PF-000382,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido histórico field mock (2025-07-14),true,5492615139305
+PF-000382,LYL-0028,Speed ZERO Pack 250cc x 24u,3,1113.75,3,Pedido histórico field mock (2025-07-14),true,5492615139305
+PF-000383,LYL-0136,Huevitos KINDER x 12u,1,2550.00,3,Pedido histórico field mock (2025-08-19),true,5492615139305
+PF-000383,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,975.00,3,Pedido histórico field mock (2025-08-19),true,5492615139305
+PF-000384,LYL-0136,Huevitos KINDER x 12u,4,2550.00,3,Pedido histórico field mock (2025-09-24),true,5492615139305
+PF-000384,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido histórico field mock (2025-09-24),true,5492615139305
+PF-000384,LYL-0025,Speed Lata 473cc XL x unidad,4,1935.00,3,Pedido histórico field mock (2025-09-24),true,5492615139305
+PF-000385,LYL-0136,Huevitos KINDER x 12u,2,2550.00,3,Pedido histórico field mock (2025-11-02),true,5492615139305
+PF-000385,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,975.00,3,Pedido histórico field mock (2025-11-02),true,5492615139305
+PF-000386,LYL-0136,Huevitos KINDER x 12u,4,2550.00,3,Pedido histórico field mock (2025-12-03),true,5492615139305
+PF-000386,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,975.00,3,Pedido histórico field mock (2025-12-03),true,5492615139305
+PF-000386,LYL-0023,Speed Lata 250cc x unidad,4,1287.00,3,Pedido histórico field mock (2025-12-03),true,5492615139305
+PF-000387,LYL-0136,Huevitos KINDER x 12u,1,2550.00,3,Pedido histórico field mock (2026-01-17),true,5492615139305
+PF-000387,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,975.00,3,Pedido histórico field mock (2026-01-17),true,5492615139305
+PF-000388,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,975.00,3,Pedido reciente field mock (2026-04-22),true,5492615139305
+PF-000388,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido reciente field mock (2026-04-22),true,5492615139305
+PF-000389,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,975.00,3,Pedido reciente field mock (2026-04-24),true,5492615139305
+PF-000389,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido reciente field mock (2026-04-24),true,5492615139305
+PF-000390,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido reciente field mock (2026-04-27),true,5492615139305
+PF-000390,LYL-0136,Huevitos KINDER x 12u,2,2550.00,3,Pedido reciente field mock (2026-04-27),true,5492615139305
+PF-000391,LYL-0136,Huevitos KINDER x 12u,4,2408.33,4,Pedido histórico field mock (2025-06-05),true,5492617413812
+PF-000391,LYL-0135,Huevitos KINDER x 12u,4,1905.42,4,Pedido histórico field mock (2025-06-05),true,5492617413812
+PF-000392,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2025-07-12),true,5492617413812
+PF-000392,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido histórico field mock (2025-07-12),true,5492617413812
+PF-000392,LYL-0009,"Soda Secco 2,25L x 6u",4,722.50,4,Pedido histórico field mock (2025-07-12),true,5492617413812
+PF-000392,LYL-0026,Speed Pack 473cc XL                                       x 12u,4,1675.21,4,Pedido histórico field mock (2025-07-12),true,5492617413812
+PF-000393,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2025-08-19),true,5492617413812
+PF-000393,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido histórico field mock (2025-08-19),true,5492617413812
+PF-000394,LYL-0136,Huevitos KINDER x 12u,4,2408.33,4,Pedido histórico field mock (2025-09-25),true,5492617413812
+PF-000394,LYL-0135,Huevitos KINDER x 12u,3,1905.42,4,Pedido histórico field mock (2025-09-25),true,5492617413812
+PF-000395,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2025-10-31),true,5492617413812
+PF-000395,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido histórico field mock (2025-10-31),true,5492617413812
+PF-000395,LYL-0030,Speed ZERO Pack 473cc XL x 12u,2,1558.33,4,Pedido histórico field mock (2025-10-31),true,5492617413812
+PF-000395,LYL-0026,Speed Pack 473cc XL                                       x 12u,2,1675.21,4,Pedido histórico field mock (2025-10-31),true,5492617413812
+PF-000396,LYL-0136,Huevitos KINDER x 12u,4,2408.33,4,Pedido histórico field mock (2025-12-03),true,5492617413812
+PF-000396,LYL-0135,Huevitos KINDER x 12u,3,1905.42,4,Pedido histórico field mock (2025-12-03),true,5492617413812
+PF-000396,LYL-0121,GEORGALOS Full Maní x 900g,3,1870.00,4,Pedido histórico field mock (2025-12-03),true,5492617413812
+PF-000397,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido histórico field mock (2026-01-19),true,5492617413812
+PF-000397,LYL-0135,Huevitos KINDER x 12u,1,1905.42,4,Pedido histórico field mock (2026-01-19),true,5492617413812
+PF-000398,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,920.83,4,Pedido reciente field mock (2026-04-09),true,5492617413812
+PF-000398,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido reciente field mock (2026-04-09),true,5492617413812
+PF-000399,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,920.83,4,Pedido reciente field mock (2026-04-15),true,5492617413812
+PF-000399,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido reciente field mock (2026-04-15),true,5492617413812
+PF-000400,LYL-0136,Huevitos KINDER x 12u,1,2408.33,4,Pedido reciente field mock (2026-05-02),true,5492617413812
+PF-000400,LYL-0135,Huevitos KINDER x 12u,3,1905.42,4,Pedido reciente field mock (2026-05-02),true,5492617413812
+PF-000401,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2025-06-04),true,5492617236955
+PF-000401,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido histórico field mock (2025-06-04),true,5492617236955
+PF-000401,LYL-0026,Speed Pack 473cc XL                                       x 12u,3,1970.83,1,Pedido histórico field mock (2025-06-04),true,5492617236955
+PF-000402,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2025-07-09),true,5492617236955
+PF-000402,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido histórico field mock (2025-07-09),true,5492617236955
+PF-000402,LYL-0009,"Soda Secco 2,25L x 6u",3,850.00,1,Pedido histórico field mock (2025-07-09),true,5492617236955
+PF-000402,LYL-0008,"Soda Secco 1,5L x 6u",4,783.33,1,Pedido histórico field mock (2025-07-09),true,5492617236955
+PF-000403,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2025-08-16),true,5492617236955
+PF-000403,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1083.33,1,Pedido histórico field mock (2025-08-16),true,5492617236955
+PF-000403,LYL-0024,Speed Pack 250cc                                                      x 24u,2,1310.83,1,Pedido histórico field mock (2025-08-16),true,5492617236955
+PF-000403,LYL-0029,Speed ZERO Lata 473cc XL x unidad,1,2000.00,1,Pedido histórico field mock (2025-08-16),true,5492617236955
+PF-000404,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2025-09-25),true,5492617236955
+PF-000404,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1083.33,1,Pedido histórico field mock (2025-09-25),true,5492617236955
+PF-000405,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2025-10-29),true,5492617236955
+PF-000405,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido histórico field mock (2025-10-29),true,5492617236955
+PF-000405,LYL-0007,Soda Secco 500cc x 6u,1,325.00,1,Pedido histórico field mock (2025-10-29),true,5492617236955
+PF-000405,LYL-0008,"Soda Secco 1,5L x 6u",4,783.33,1,Pedido histórico field mock (2025-10-29),true,5492617236955
+PF-000406,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2025-12-09),true,5492617236955
+PF-000406,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido histórico field mock (2025-12-09),true,5492617236955
+PF-000406,LYL-0026,Speed Pack 473cc XL                                       x 12u,2,1970.83,1,Pedido histórico field mock (2025-12-09),true,5492617236955
+PF-000407,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2026-01-18),true,5492617236955
+PF-000407,LYL-0004,"Gaseosa Secco 1,5L x 6u",4,1083.33,1,Pedido histórico field mock (2026-01-18),true,5492617236955
+PF-000407,LYL-0023,Speed Lata 250cc x unidad,4,1430.00,1,Pedido histórico field mock (2026-01-18),true,5492617236955
+PF-000408,LYL-0001,Gaseosa Secco 3L x 4u,2,1800.00,1,Pedido reciente field mock (2026-04-09),true,5492617236955
+PF-000408,LYL-0135,Huevitos KINDER x 12u,2,2241.67,1,Pedido reciente field mock (2026-04-09),true,5492617236955
+PF-000409,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1083.33,1,Pedido reciente field mock (2026-04-11),true,5492617236955
+PF-000409,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido reciente field mock (2026-04-11),true,5492617236955
+PF-000410,LYL-0001,Gaseosa Secco 3L x 4u,3,1800.00,1,Pedido reciente field mock (2026-05-13),true,5492617236955
+PF-000410,LYL-0135,Huevitos KINDER x 12u,3,2241.67,1,Pedido reciente field mock (2026-05-13),true,5492617236955
+PF-000411,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2025-06-04),true,5492612928724
+PF-000411,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido histórico field mock (2025-06-04),true,5492612928724
+PF-000412,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido histórico field mock (2025-07-11),true,5492612928724
+PF-000412,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido histórico field mock (2025-07-11),true,5492612928724
+PF-000413,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1648.33,2,Pedido histórico field mock (2025-08-19),true,5492612928724
+PF-000413,LYL-0001,Gaseosa Secco 3L x 4u,4,2070.00,2,Pedido histórico field mock (2025-08-19),true,5492612928724
+PF-000413,LYL-0025,Speed Lata 473cc XL x unidad,1,2472.50,2,Pedido histórico field mock (2025-08-19),true,5492612928724
+PF-000414,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1648.33,2,Pedido histórico field mock (2025-09-25),true,5492612928724
+PF-000414,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido histórico field mock (2025-09-25),true,5492612928724
+PF-000414,LYL-0023,Speed Lata 250cc x unidad,3,1644.50,2,Pedido histórico field mock (2025-09-25),true,5492612928724
+PF-000414,LYL-0029,Speed ZERO Lata 473cc XL x unidad,1,2300.00,2,Pedido histórico field mock (2025-09-25),true,5492612928724
+PF-000415,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido histórico field mock (2025-10-30),true,5492612928724
+PF-000415,LYL-0001,Gaseosa Secco 3L x 4u,4,2070.00,2,Pedido histórico field mock (2025-10-30),true,5492612928724
+PF-000415,LYL-0024,Speed Pack 250cc                                                      x 24u,2,1507.46,2,Pedido histórico field mock (2025-10-30),true,5492612928724
+PF-000416,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido histórico field mock (2025-12-04),true,5492612928724
+PF-000416,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido histórico field mock (2025-12-04),true,5492612928724
+PF-000416,LYL-0009,"Soda Secco 2,25L x 6u",4,977.50,2,Pedido histórico field mock (2025-12-04),true,5492612928724
+PF-000416,LYL-0008,"Soda Secco 1,5L x 6u",4,900.83,2,Pedido histórico field mock (2025-12-04),true,5492612928724
+PF-000417,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido histórico field mock (2026-01-14),true,5492612928724
+PF-000417,LYL-0001,Gaseosa Secco 3L x 4u,1,2070.00,2,Pedido histórico field mock (2026-01-14),true,5492612928724
+PF-000418,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido reciente field mock (2026-04-13),true,5492612928724
+PF-000418,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido reciente field mock (2026-04-13),true,5492612928724
+PF-000419,LYL-0136,Huevitos KINDER x 12u,2,3258.33,2,Pedido reciente field mock (2026-04-28),true,5492612928724
+PF-000419,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1648.33,2,Pedido reciente field mock (2026-04-28),true,5492612928724
+PF-000420,LYL-0001,Gaseosa Secco 3L x 4u,2,2070.00,2,Pedido reciente field mock (2026-05-06),true,5492612928724
+PF-000420,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido reciente field mock (2026-05-06),true,5492612928724
+PF-000421,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-06-01),true,5492999435946
+PF-000421,LYL-0001,Gaseosa Secco 3L x 4u,4,1620.00,3,Pedido histórico field mock (2025-06-01),true,5492999435946
+PF-000421,LYL-0027,Speed ZERO Lata 250cc x unidad,1,1215.00,3,Pedido histórico field mock (2025-06-01),true,5492999435946
+PF-000421,LYL-0024,Speed Pack 250cc                                                      x 24u,3,1179.75,3,Pedido histórico field mock (2025-06-01),true,5492999435946
+PF-000422,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2025-07-09),true,5492999435946
+PF-000422,LYL-0001,Gaseosa Secco 3L x 4u,4,1620.00,3,Pedido histórico field mock (2025-07-09),true,5492999435946
+PF-000422,LYL-0005,Gaseosa Secco 500cc x 12u,4,660.00,3,Pedido histórico field mock (2025-07-09),true,5492999435946
+PF-000423,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido histórico field mock (2025-08-18),true,5492999435946
+PF-000423,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2025-08-18),true,5492999435946
+PF-000423,LYL-0023,Speed Lata 250cc x unidad,1,1287.00,3,Pedido histórico field mock (2025-08-18),true,5492999435946
+PF-000423,LYL-0028,Speed ZERO Pack 250cc x 24u,1,1113.75,3,Pedido histórico field mock (2025-08-18),true,5492999435946
+PF-000424,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido histórico field mock (2025-09-27),true,5492999435946
+PF-000424,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido histórico field mock (2025-09-27),true,5492999435946
+PF-000425,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido histórico field mock (2025-10-30),true,5492999435946
+PF-000425,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-10-30),true,5492999435946
+PF-000426,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido histórico field mock (2025-12-11),true,5492999435946
+PF-000426,LYL-0001,Gaseosa Secco 3L x 4u,1,1620.00,3,Pedido histórico field mock (2025-12-11),true,5492999435946
+PF-000427,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido histórico field mock (2026-01-19),true,5492999435946
+PF-000427,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido histórico field mock (2026-01-19),true,5492999435946
+PF-000427,LYL-0023,Speed Lata 250cc x unidad,2,1287.00,3,Pedido histórico field mock (2026-01-19),true,5492999435946
+PF-000428,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,975.00,3,Pedido reciente field mock (2026-04-08),true,5492999435946
+PF-000428,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido reciente field mock (2026-04-08),true,5492999435946
+PF-000429,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido reciente field mock (2026-04-22),true,5492999435946
+PF-000429,LYL-0135,Huevitos KINDER x 12u,1,2017.50,3,Pedido reciente field mock (2026-04-22),true,5492999435946
+PF-000430,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido reciente field mock (2026-04-30),true,5492999435946
+PF-000430,LYL-0136,Huevitos KINDER x 12u,3,2550.00,3,Pedido reciente field mock (2026-04-30),true,5492999435946
+PF-000431,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido histórico field mock (2025-06-01),true,5493517632424
+PF-000431,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1218.33,4,Pedido histórico field mock (2025-06-01),true,5493517632424
+PF-000432,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido histórico field mock (2025-07-10),true,5493517632424
+PF-000432,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido histórico field mock (2025-07-10),true,5493517632424
+PF-000433,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido histórico field mock (2025-08-18),true,5493517632424
+PF-000433,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1218.33,4,Pedido histórico field mock (2025-08-18),true,5493517632424
+PF-000433,LYL-0026,Speed Pack 473cc XL                                       x 12u,2,1675.21,4,Pedido histórico field mock (2025-08-18),true,5493517632424
+PF-000433,LYL-0007,Soda Secco 500cc x 6u,3,276.25,4,Pedido histórico field mock (2025-08-18),true,5493517632424
+PF-000434,LYL-0135,Huevitos KINDER x 12u,2,1905.42,4,Pedido histórico field mock (2025-09-28),true,5493517632424
+PF-000434,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido histórico field mock (2025-09-28),true,5493517632424
+PF-000434,LYL-0121,GEORGALOS Full Maní x 900g,1,1870.00,4,Pedido histórico field mock (2025-09-28),true,5493517632424
+PF-000434,LYL-0027,Speed ZERO Lata 250cc x unidad,1,1147.50,4,Pedido histórico field mock (2025-09-28),true,5493517632424
+PF-000435,LYL-0135,Huevitos KINDER x 12u,4,1905.42,4,Pedido histórico field mock (2025-10-28),true,5493517632424
+PF-000435,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1218.33,4,Pedido histórico field mock (2025-10-28),true,5493517632424
+PF-000435,LYL-0007,Soda Secco 500cc x 6u,3,276.25,4,Pedido histórico field mock (2025-10-28),true,5493517632424
+PF-000436,LYL-0135,Huevitos KINDER x 12u,3,1905.42,4,Pedido histórico field mock (2025-12-11),true,5493517632424
+PF-000436,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2025-12-11),true,5493517632424
+PF-000437,LYL-0135,Huevitos KINDER x 12u,4,1905.42,4,Pedido histórico field mock (2026-01-12),true,5493517632424
+PF-000437,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1218.33,4,Pedido histórico field mock (2026-01-12),true,5493517632424
+PF-000437,LYL-0023,Speed Lata 250cc x unidad,3,1215.50,4,Pedido histórico field mock (2026-01-12),true,5493517632424
+PF-000438,LYL-0135,Huevitos KINDER x 12u,3,1905.42,4,Pedido reciente field mock (2026-05-02),true,5493517632424
+PF-000438,LYL-0001,Gaseosa Secco 3L x 4u,1,1530.00,4,Pedido reciente field mock (2026-05-02),true,5493517632424
+PF-000439,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,920.83,4,Pedido reciente field mock (2026-05-11),true,5493517632424
+PF-000439,LYL-0136,Huevitos KINDER x 12u,3,2408.33,4,Pedido reciente field mock (2026-05-11),true,5493517632424
+PF-000440,LYL-0135,Huevitos KINDER x 12u,1,1905.42,4,Pedido reciente field mock (2026-05-19),true,5493517632424
+PF-000440,LYL-0136,Huevitos KINDER x 12u,2,2408.33,4,Pedido reciente field mock (2026-05-19),true,5493517632424
+PF-000441,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2025-06-04),true,5493416524997
+PF-000441,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2025-06-04),true,5493416524997
+PF-000441,LYL-0023,Speed Lata 250cc x unidad,3,1430.00,1,Pedido histórico field mock (2025-06-04),true,5493416524997
+PF-000442,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1433.33,1,Pedido histórico field mock (2025-07-14),true,5493416524997
+PF-000442,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2025-07-14),true,5493416524997
+PF-000442,LYL-0027,Speed ZERO Lata 250cc x unidad,1,1350.00,1,Pedido histórico field mock (2025-07-14),true,5493416524997
+PF-000443,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2025-08-11),true,5493416524997
+PF-000443,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido histórico field mock (2025-08-11),true,5493416524997
+PF-000443,LYL-0023,Speed Lata 250cc x unidad,3,1430.00,1,Pedido histórico field mock (2025-08-11),true,5493416524997
+PF-000443,LYL-0030,Speed ZERO Pack 473cc XL x 12u,4,1833.33,1,Pedido histórico field mock (2025-08-11),true,5493416524997
+PF-000444,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido histórico field mock (2025-09-19),true,5493416524997
+PF-000444,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido histórico field mock (2025-09-19),true,5493416524997
+PF-000444,LYL-0041,Fernet BRANCA x 1L x 1u,2,18900.00,1,Pedido histórico field mock (2025-09-19),true,5493416524997
+PF-000444,LYL-0010,Soda en Sifón Secco 2L x 6u,2,1216.67,1,Pedido histórico field mock (2025-09-19),true,5493416524997
+PF-000445,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido histórico field mock (2025-10-29),true,5493416524997
+PF-000445,LYL-0136,Huevitos KINDER x 12u,2,2833.33,1,Pedido histórico field mock (2025-10-29),true,5493416524997
+PF-000445,LYL-0028,Speed ZERO Pack 250cc x 24u,3,1237.50,1,Pedido histórico field mock (2025-10-29),true,5493416524997
+PF-000445,LYL-0008,"Soda Secco 1,5L x 6u",3,783.33,1,Pedido histórico field mock (2025-10-29),true,5493416524997
+PF-000446,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1433.33,1,Pedido histórico field mock (2025-12-07),true,5493416524997
+PF-000446,LYL-0136,Huevitos KINDER x 12u,4,2833.33,1,Pedido histórico field mock (2025-12-07),true,5493416524997
+PF-000446,LYL-0005,Gaseosa Secco 500cc x 12u,2,733.33,1,Pedido histórico field mock (2025-12-07),true,5493416524997
+PF-000446,LYL-0121,GEORGALOS Full Maní x 900g,1,2200.00,1,Pedido histórico field mock (2025-12-07),true,5493416524997
+PF-000447,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido histórico field mock (2026-01-17),true,5493416524997
+PF-000447,LYL-0136,Huevitos KINDER x 12u,1,2833.33,1,Pedido histórico field mock (2026-01-17),true,5493416524997
+PF-000447,LYL-0005,Gaseosa Secco 500cc x 12u,1,733.33,1,Pedido histórico field mock (2026-01-17),true,5493416524997
+PF-000448,LYL-0135,Huevitos KINDER x 12u,1,2241.67,1,Pedido reciente field mock (2026-04-21),true,5493416524997
+PF-000448,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1083.33,1,Pedido reciente field mock (2026-04-21),true,5493416524997
+PF-000449,LYL-0135,Huevitos KINDER x 12u,1,2241.67,1,Pedido reciente field mock (2026-04-23),true,5493416524997
+PF-000449,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1433.33,1,Pedido reciente field mock (2026-04-23),true,5493416524997
+PF-000450,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1083.33,1,Pedido reciente field mock (2026-05-20),true,5493416524997
+PF-000450,LYL-0001,Gaseosa Secco 3L x 4u,3,1800.00,1,Pedido reciente field mock (2026-05-20),true,5493416524997
+PF-000451,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-06-03),true,5493876499570
+PF-000451,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido histórico field mock (2025-06-03),true,5493876499570
+PF-000451,LYL-0027,Speed ZERO Lata 250cc x unidad,3,1552.50,2,Pedido histórico field mock (2025-06-03),true,5493876499570
+PF-000451,LYL-0029,Speed ZERO Lata 473cc XL x unidad,2,2300.00,2,Pedido histórico field mock (2025-06-03),true,5493876499570
+PF-000452,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,1245.83,2,Pedido histórico field mock (2025-07-07),true,5493876499570
+PF-000452,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1648.33,2,Pedido histórico field mock (2025-07-07),true,5493876499570
+PF-000452,LYL-0024,Speed Pack 250cc                                                      x 24u,1,1507.46,2,Pedido histórico field mock (2025-07-07),true,5493876499570
+PF-000452,LYL-0005,Gaseosa Secco 500cc x 12u,4,843.33,2,Pedido histórico field mock (2025-07-07),true,5493876499570
+PF-000453,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-08-12),true,5493876499570
+PF-000453,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2025-08-12),true,5493876499570
+PF-000454,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-09-27),true,5493876499570
+PF-000454,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2025-09-27),true,5493876499570
+PF-000454,LYL-0027,Speed ZERO Lata 250cc x unidad,4,1552.50,2,Pedido histórico field mock (2025-09-27),true,5493876499570
+PF-000455,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-11-03),true,5493876499570
+PF-000455,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1648.33,2,Pedido histórico field mock (2025-11-03),true,5493876499570
+PF-000455,LYL-0009,"Soda Secco 2,25L x 6u",2,977.50,2,Pedido histórico field mock (2025-11-03),true,5493876499570
+PF-000455,LYL-0029,Speed ZERO Lata 473cc XL x unidad,4,2300.00,2,Pedido histórico field mock (2025-11-03),true,5493876499570
+PF-000456,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2025-12-12),true,5493876499570
+PF-000456,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1648.33,2,Pedido histórico field mock (2025-12-12),true,5493876499570
+PF-000456,LYL-0023,Speed Lata 250cc x unidad,1,1644.50,2,Pedido histórico field mock (2025-12-12),true,5493876499570
+PF-000457,LYL-0004,"Gaseosa Secco 1,5L x 6u",2,1245.83,2,Pedido histórico field mock (2026-01-19),true,5493876499570
+PF-000457,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1648.33,2,Pedido histórico field mock (2026-01-19),true,5493876499570
+PF-000457,LYL-0026,Speed Pack 473cc XL                                       x 12u,1,2266.46,2,Pedido histórico field mock (2026-01-19),true,5493876499570
+PF-000458,LYL-0136,Huevitos KINDER x 12u,2,3258.33,2,Pedido reciente field mock (2026-04-11),true,5493876499570
+PF-000458,LYL-0004,"Gaseosa Secco 1,5L x 6u",3,1245.83,2,Pedido reciente field mock (2026-04-11),true,5493876499570
+PF-000459,LYL-0135,Huevitos KINDER x 12u,1,2577.92,2,Pedido reciente field mock (2026-04-29),true,5493876499570
+PF-000459,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1648.33,2,Pedido reciente field mock (2026-04-29),true,5493876499570
+PF-000460,LYL-0135,Huevitos KINDER x 12u,3,2577.92,2,Pedido reciente field mock (2026-05-17),true,5493876499570
+PF-000460,LYL-0001,Gaseosa Secco 3L x 4u,3,2070.00,2,Pedido reciente field mock (2026-05-17),true,5493876499570
+PF-000461,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-06-05),true,5492998066543
+PF-000461,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido histórico field mock (2025-06-05),true,5492998066543
+PF-000461,LYL-0024,Speed Pack 250cc                                                      x 24u,2,1179.75,3,Pedido histórico field mock (2025-06-05),true,5492998066543
+PF-000462,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido histórico field mock (2025-07-12),true,5492998066543
+PF-000462,LYL-0003,"Gaseosa Secco 2,25L x 6u",1,1290.00,3,Pedido histórico field mock (2025-07-12),true,5492998066543
+PF-000462,LYL-0023,Speed Lata 250cc x unidad,2,1287.00,3,Pedido histórico field mock (2025-07-12),true,5492998066543
+PF-000462,LYL-0041,Fernet BRANCA x 1L x 1u,4,17010.00,3,Pedido histórico field mock (2025-07-12),true,5492998066543
+PF-000463,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-08-21),true,5492998066543
+PF-000463,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido histórico field mock (2025-08-21),true,5492998066543
+PF-000464,LYL-0001,Gaseosa Secco 3L x 4u,2,1620.00,3,Pedido histórico field mock (2025-09-22),true,5492998066543
+PF-000464,LYL-0003,"Gaseosa Secco 2,25L x 6u",4,1290.00,3,Pedido histórico field mock (2025-09-22),true,5492998066543
+PF-000464,LYL-0010,Soda en Sifón Secco 2L x 6u,4,1095.00,3,Pedido histórico field mock (2025-09-22),true,5492998066543
+PF-000465,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-10-27),true,5492998066543
+PF-000465,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido histórico field mock (2025-10-27),true,5492998066543
+PF-000465,LYL-0009,"Soda Secco 2,25L x 6u",2,765.00,3,Pedido histórico field mock (2025-10-27),true,5492998066543
+PF-000466,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2025-12-12),true,5492998066543
+PF-000466,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido histórico field mock (2025-12-12),true,5492998066543
+PF-000467,LYL-0001,Gaseosa Secco 3L x 4u,3,1620.00,3,Pedido histórico field mock (2026-01-16),true,5492998066543
+PF-000467,LYL-0003,"Gaseosa Secco 2,25L x 6u",3,1290.00,3,Pedido histórico field mock (2026-01-16),true,5492998066543
+PF-000468,LYL-0135,Huevitos KINDER x 12u,3,2017.50,3,Pedido reciente field mock (2026-04-03),true,5492998066543
+PF-000468,LYL-0004,"Gaseosa Secco 1,5L x 6u",1,975.00,3,Pedido reciente field mock (2026-04-03),true,5492998066543
+PF-000469,LYL-0136,Huevitos KINDER x 12u,3,2550.00,3,Pedido reciente field mock (2026-05-13),true,5492998066543
+PF-000469,LYL-0003,"Gaseosa Secco 2,25L x 6u",2,1290.00,3,Pedido reciente field mock (2026-05-13),true,5492998066543
+PF-000470,LYL-0136,Huevitos KINDER x 12u,2,2550.00,3,Pedido reciente field mock (2026-05-20),true,5492998066543
+PF-000470,LYL-0135,Huevitos KINDER x 12u,2,2017.50,3,Pedido reciente field mock (2026-05-20),true,5492998066543

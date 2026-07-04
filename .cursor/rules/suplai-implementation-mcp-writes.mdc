@@ -8,7 +8,7 @@ alwaysApply: false
 
 ## Conexión
 
-- Proyecto: `cvlbietibaaehgeimxgw`
+- Proyecto: **`cvlbietibaaehgeimxgw`** (Suplai-east)
 - Servidor MCP: `supabase` en `.cursor/mcp.json`
 - Para **cargar datos**, el implementador debe quitar `read_only=true` de la URL MCP durante la sesión y volver a activarlo al terminar (ver `implementacion/README.md`).
 

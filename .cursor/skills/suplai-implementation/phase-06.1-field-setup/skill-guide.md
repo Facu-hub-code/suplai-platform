@@ -7,6 +7,8 @@ Completa la base de datos de Suplai Field con datos suficientes para que:
 2. El job diario de tareas genere tareas REPOSICION_HABITO y REACTIVAR_CLIENTE
    con sugerencias reales (no vacías).
 3. El dashboard del vendedor muestre historial de puntaje de los últimos 30 días.
+4. La demo siempre muestre al menos un vendedor con tareas activas **sin importar
+   el día de la semana en que se corra** (cobertura semanal completa garantizada).
 
 ## Pre-condiciones obligatorias
 
@@ -60,7 +62,9 @@ python scripts/fase-06-1-field/retrain_ml.py --esquema demo
 # Paso D — Templates de tareas
 python scripts/fase-06-1-field/setup_templates.py --esquema demo
 
-# Paso E — Objetivos comerciales
+# Paso E — Objetivos comerciales + cobertura semanal garantizada
+# Crea 2 objetivos y se asegura de que cada día de la semana tenga
+# al menos un vendedor con zona activa (clave para demo cualquier día).
 python scripts/fase-06-1-field/setup_objetivos.py --esquema demo
 
 # Paso F — Torneo mensual
@@ -83,6 +87,8 @@ python scripts/fase-06-1-field/trigger_tareas.py --esquema demo --dias 6
 | `rows_used=0` tras retrain | Pedidos fuera del rango de entrenamiento | Verificar DEFAULT_TRAIN_SINCE_DAYS en sales-engine config |
 | `FIELD_NOT_MIGRATED` en trigger | Tablas field_* no presentes | Aplicar migraciones SQL |
 | ML service down (Paso C) | Sales-engine caído en Railway | Continuar, avisar al implementador; re-intentar luego |
+| `[WARN] No hay zonas mock de referencia` (Paso E) | Fase 4 no cargó zonas mock | Verificar `geo_zones WHERE is_mock=true` > 0 |
+| Día en blanco en cobertura semanal (Paso E) | Vendedores o zonas no tienen `is_mock=true` | Marcar vendedores/zonas de Fase 4 como `is_mock=true` |
 
 ## ¿Qué pasa si el ML está caído?
 
@@ -116,7 +122,7 @@ DELETE FROM {schema}.field_tasks WHERE fecha < CURRENT_DATE - 90;
 - [ ] `habilitar_field.py`: `field_app_enabled=true` verificado
 - [ ] `retrain_ml.py`: `rows_used > 0` O aviso de servicio caído documentado
 - [ ] `setup_templates.py`: 3 templates activos
-- [ ] `setup_objetivos.py`: 2 objetivos activos
+- [ ] `setup_objetivos.py`: 2 objetivos activos + cobertura semanal completa (7/7 días en el log)
 - [ ] `setup_torneo.py`: 1 torneo ACTIVO
 - [ ] `seed_tareas_historicas.py`: tareas > 0 en BD
 - [ ] `trigger_tareas.py`: tareas de hoy generadas OK
