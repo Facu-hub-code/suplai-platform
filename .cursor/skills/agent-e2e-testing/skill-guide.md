@@ -11,7 +11,7 @@ Antes de ejecutar la skill, asegúrate de cumplir con los siguientes prerrequisi
 ### 1. Variables de Entorno (`.env`)
 Debes tener un archivo `.env` configurado en la raíz del proyecto (`suplai-platform/`) con las siguientes credenciales:
 ```env
-SUPABASE_DB_URL=postgresql://<usuario>:<password>@db.cvlbietibaaehgeimxgw.supabase.co:6543/postgres
+SUPABASE_DB_URL=postgresql://postgres.cvlbietibaaehgeimxgw:<password>@aws-1-us-east-1.pooler.supabase.com:6543/postgres?sslmode=require
 OPENAI_API_KEY=tu-api-key-de-openai
 OPENAI_MODEL=gpt-4o-mini
 # Solo para --suite real|hybrid con perfil vendedor (teléfono en {schema}.vendedores):

@@ -3,7 +3,7 @@ distribuidora_existe,Registro en public.distribuidoras,ok,"ID: f0260627-65e0-4a3
 schema_existe,Tablas en demo_coca_cola,ok,Encontradas 33 tablas
 productos_vacio,COUNT productos = 0,ok,COUNT = 0 productos
 clients_vacio,COUNT clients = 0,ok,COUNT = 0 clientes
-mcp_conectado,MCP supabase responde,ok,asyncpg conectado a db.nxmeezcvjltlqfybbczt.supabase.co
+mcp_conectado,MCP supabase responde,ok,asyncpg conectado a pooler cvlbietibaaehgeimxgw
 carpeta_implementacion,manifest.yaml presente,ok,manifest.yaml presente
 is_mock_column,Columna is_mock en productos,ok,Columna is_mock existe en la tabla productos
 excel_presente,Archivo en inputs/,ok,CSV presente en inputs/Distribuidora de Coca Cola - Hoja 1.csv
