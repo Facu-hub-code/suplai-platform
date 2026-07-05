@@ -25,7 +25,9 @@ Para evitar fallas de Llave Foránea (FK), eliminar los registros simulados (`is
 
 1. **Líneas de Pedido y Chats**:
    `DELETE FROM {schema}.items_pedido WHERE is_mock = true;`
-   `DELETE FROM {schema}.n8n_chat_histories WHERE is_mock = true;`
+   Chats mock (spec 013 — fuente canónica core):
+   `DELETE FROM core.conversation_events WHERE tenant_id = '{tenant_id}' AND event_payload->>'is_mock' = 'true';`
+   (Legacy/fallback, si el tenant aún tiene datos ahí: `DELETE FROM {schema}.n8n_chat_histories WHERE is_mock = true;`)
 2. **Cabecera de Pedidos e ia_tickets**:
    `DELETE FROM {schema}.pedidos WHERE is_mock = true;`
    `DELETE FROM {schema}.ia_tickets WHERE is_mock = true;`

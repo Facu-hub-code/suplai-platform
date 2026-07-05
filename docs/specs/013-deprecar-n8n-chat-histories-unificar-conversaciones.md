@@ -1,243 +1,286 @@
 # SPEC 013: Deprecar `n8n_chat_histories` — fuente única en `core.conversation_events`
 
-**Estado:** Diseño  
-**Fecha:** 2026-06-24  
-**Motivación:** Duplicación de historial entre `{schema}.n8n_chat_histories` (legacy n8n / backoffice) y `core.conversation_events` (agente, lab, podcast, tienda). Hoy el backoffice mezcla ambas fuentes de forma ad hoc; el agente escribe en las dos; los reportes leen solo n8n.
+**Estado:** Listo para implementación (MVP same-day)  
+**Fecha:** 2026-06-24 · **Actualizado:** 2026-07-04 (plan simplificado)  
+**Epic cross-repo:** deprecación historial conversacional legacy  
+**Motivación:** El agente persiste en `core.conversation_events`, pero el backoffice lee `n8n_chat_histories` y parchea excepciones (podcast) con merge manual. Mantener ambas fuentes genera dual-write, sobre-ingeniería y conversaciones vacías en el panel tenant.
 
 ---
 
-## 1) Problema
+## 0) Resumen ejecutivo
 
-### 1.1 Estado actual (dual-write / dual-read)
+| Hoy | MVP (cerrable hoy) | Backlog (PRs posteriores) |
+|-----|-------------------|---------------------------|
+| Agente escribe core + n8n | Agente escribe **solo core** | — |
+| Backoffice lee n8n + merge podcast | Backend lee **core primero**, fallback n8n | Reportes, Grafana, métricas agente |
+| Fase 7–8 mock → n8n | Fase 7–8 mock → **core** (skills + scripts) | Backfill histórico n8n→core |
+| — | Eliminar merge `_fetch_podcast_briefing_events` | Archivar tabla n8n, triggers |
 
-| Capa | Escribe en | Lee desde |
-|------|------------|-----------|
-| Agente (`MemoryStore`, runtime) | `core.conversation_events` + best-effort `n8n_chat_histories` | `core.conversation_events` |
-| Backoffice Conversaciones | — | `{schema}.n8n_chat_histories` + merge manual de `core.conversation_events` (solo `podcast_briefing`) |
-| Backend agenda / WhatsApp manual | `n8n_chat_histories` + a veces `core.conversation_events` | — |
-| Admin Lab | — | `core.conversation_events` |
-| Reportes agenda / vendedores | — | `n8n_chat_histories` |
-| Followups agente | `n8n_chat_histories` | — |
-| Fases implementación 7–8 | inserts mock en `n8n_chat_histories` | — |
-
-### 1.2 Síntomas
-
-- Conversación **vacía en backoffice** aunque existan eventos en `core` (ej. podcast mock, tienda, agenda con evento core).
-- **Dos modelos de mensaje** incompatibles: `message jsonb {type, content}` vs `event_type + event_payload`.
-- **Dos tablas de conversación**: `{schema}.conversations` (listado backoffice) vs `core.conversations` (memoria agente).
-- Trazabilidad del lab y del panel tenant **divergen** (spec 036 vs spec 005 backoffice).
-
-### 1.3 Decisión de producto
-
-**Fuente canónica del hilo:** `core.conversation_events` (timeline ordenado por `created_at`, `id`), agrupado por `core.conversations` (`tenant_id`, `schema_name`, `session_id`).
-
-**Deprecar:** `{schema}.n8n_chat_histories` como store de mensajes (mantener tabla en solo-lectura durante migración; eliminar en fase final).
-
-**Unificar listado backoffice:** `{schema}.conversations` sigue siendo el índice comercial (cliente/vendedor, filtros territorio); el hilo se resuelve vía `core.conversations.session_id = phone_number`.
+**Fuente canónica:** `core.conversation_events` agrupado por `core.conversations`.  
+**Legacy sin backfill:** si core está vacío para una sesión, el endpoint devuelve n8n tal cual (historial viejo sigue visible).  
+**No deprecar:** n8n como orquestador Railway — solo la **tabla espejo**.
 
 ---
 
-## 2) Objetivo
+## 1) Problema (sin cambios)
 
-Un solo pipeline de persistencia y lectura de mensajes para agente, backoffice, reportes y features proactivas (podcast, agenda, tienda).
+Ver inventario §8. Anti-patrón principal: `GET /conversaciones/{phone}/mensajes` lee n8n, luego mergea podcast desde core en Python.
 
-### Métricas de éxito
+---
 
-- 0 escrituras nuevas en `n8n_chat_histories` post-cutover.
-- Backoffice Conversaciones renderiza 100% de mensajes desde `core.conversation_events`.
-- Paridad visual: mismos mensajes antes/después en tenant piloto (diff automatizado).
-- Latencia p95 `GET /conversaciones/{phone}/mensajes` ≤ baseline + 20%.
+## 2) Objetivo MVP
+
+En **un mismo día de trabajo** (1–3 PRs cross-repo):
+
+1. Backoffice muestra hilos **core** (mensajes nuevos + podcast/tienda/onboarding).
+2. Historial **solo n8n** sigue visible vía fallback automático.
+3. Agente deja de escribir en n8n.
+4. **Implementación agentica** (fases 7–8–10, analyze-conversations) escribe/lee **core**, no n8n.
+
+### Métricas de cierre del día
+
+- AC-M1..M5 en verde (§6).
+- CI backend + backoffice build verdes.
+- Skills actualizadas y coherentes con el código desplegado.
 
 ---
 
 ## 3) Alcance
 
-### En alcance
+### MVP — en alcance hoy
 
-- Contrato unificado de `event_type` / `event_payload` para UI.
-- Migración de datos históricos n8n → core (por tenant, idempotente).
-- Cambios en backend, agente, backoffice, scripts de implementación.
-- Actualización reportes que hoy leen n8n.
-- Feature flag `conversations_use_core_events_only` por tenant.
+| Repo | Entregable |
+|------|------------|
+| **backend** | `get_mensajes` core-first + normalizador + fallback n8n; quitar merge podcast; `ultimo_mensaje` core-first en listado (opcional mismo PR) |
+| **agente** | Quitar dual-write: `runtime.py`, `registration/runtime.py`, `followups.py` |
+| **backoffice** | Sin cambios si API devuelve mismo shape `{ id, type, content, created_at, podcast_briefing? }` |
+| **platform** | Skills fase 7, 8, 10, analyze-conversations; scripts fase 7–8 cargar en core |
 
-### Fuera de alcance
+### Backlog — fuera del MVP hoy
 
-- Deprecar n8n como **orquestador** (workflows Railway) — solo la **tabla** espejo.
-- Cambiar modelo de `core.agent_turns` / lab (ya usa core).
-- Sniffer / Kommo (Postgres aparte).
+- Backfill masivo n8n → core
+- Flag por tenant (`conversations_use_core_events_only`)
+- Reportes (`agenda_report`, `vendedores_report`), `metricas_service`, Grafana
+- `whatsapp_send` / `agenda_sender` escribiendo solo core
+- Archivar tabla n8n, quitar trigger migración 20
+- Hilos **mixtos** (historial n8n + mensajes nuevos core en un solo timeline ordenado)
 
 ---
 
-## 4) Modelo objetivo
+## 4) Diseño técnico MVP
 
-### 4.1 Identidad de conversación
+### 4.1 `GET /{schema}/conversaciones/{phone}/mensajes`
 
 ```
-core.conversations (tenant_id, schema_name, session_id)
-    └── core.conversation_events[]
-            event_type ∈ user_message | assistant_message | outbound_message | system | registration_state | ...
-            event_payload jsonb (contrato por kind)
+1. Resolver core.conversations por (tenant_id, schema_name, session_id=phone)
+2. Si existe → SELECT core.conversation_events ORDER BY created_at, id
+3. Si hay eventos → normalizar a respuesta legacy (§4.2) y RETURN
+4. Si 0 eventos → SELECT n8n_chat_histories (comportamiento actual) y RETURN
+5. Eliminar _fetch_podcast_briefing_events y merge Python
 ```
 
-`{schema}.conversations` **permanece** como vista comercial enriquecida (client_id, vendedor_id, phone_number, filtros geo). Debe mantener FK lógica o trigger hacia `core.conversations.id` (nuevo campo opcional `core_conversation_id bigint`).
+### 4.2 Normalizador core → JSON backoffice (compatible hoy)
 
-### 4.2 Mapeo legacy n8n → core
+El backoffice **no cambia** en MVP si el backend mapea:
 
-| n8n `message->>'type'` | `event_type` core | `event_payload` |
-|------------------------|-------------------|-----------------|
-| `human`, `user` | `user_message` | `{ "text": "<content>", "source": "whatsapp" }` |
-| `ia`, `ai` | `assistant_message` | `{ "text": "<content>" }` |
-| (plantilla agenda) | `assistant_message` | `{ "text": "...", "kind": "template", "template_name": "..." }` |
-| podcast (nuevo) | `assistant_message` | `{ "kind": "podcast_briefing", "audio": {...}, "transcription": "..." }` |
+| `event_type` core | `type` respuesta | `content` |
+|-------------------|------------------|-----------|
+| `user_message` | `human` | `payload.text` |
+| `assistant_message` | `ai` | `payload.text` o `payload.transcription` |
+| `outbound_message` | `ai` | `payload.text` |
+| `assistant_message` + `kind=podcast_briefing` | `ai` | `"Briefing del día"` + campo `podcast_briefing` anidado |
 
-Regla: **`kind` opcional** en payload para renderizado especializado en backoffice (podcast, pedido confirmado tienda, etc.).
+### 4.3 Listado `GET /conversaciones` (opcional MVP)
 
-### 4.3 API backoffice (target)
+Subquery `ultimo_mensaje`:
 
-`GET /{schema}/conversaciones/{phone}/mensajes`:
-
-1. Resolver `core.conversations.id` por `(tenant_id, schema_name, session_id=phone)`.
-2. `SELECT ... FROM core.conversation_events WHERE conversation_id = $1 ORDER BY created_at, id`.
-3. **Eliminar** query a `n8n_chat_histories`.
-4. Normalizar respuesta JSON estable para UI (ver §4.4).
-
-### 4.4 Contrato respuesta UI (propuesto)
-
-```json
-{
-  "id": 45117,
-  "event_type": "assistant_message",
-  "created_at": "2026-06-24T23:55:20Z",
-  "payload": {
-    "kind": "podcast_briefing",
-    "text": "Briefing diario (audio)",
-    "audio": { "supabase_path": "..." },
-    "transcription": "..."
-  },
-  "legacy_n8n": false
-}
+```
+COALESCE(
+  (SELECT payload->>'text' FROM core.conversation_events ... ORDER BY id DESC LIMIT 1),
+  (SELECT message->>'content' FROM n8n_chat_histories ... ORDER BY id DESC LIMIT 1)
+)
 ```
 
-El backoffice deja de parsear `message.type` / `message.content` y usa `event_type` + `payload`.
+Filtros `respondieron_hoy` / rango fechas: **siguen en n8n** en MVP (aceptable; follow-up backlog).
+
+### 4.4 Agente — stop-write
+
+Eliminar `append_n8n_history_message` y writes equivalentes en registration/followups. Lectura de memoria ya es core (`MemoryStore.load_recent_events`).
+
+### 4.5 Mock implementación → core
+
+Scripts y skills fase 7–8 insertan en:
+
+```
+core.conversations (get_or_create por session_id = client_phone)
+core.conversation_events (event_type + event_payload, payload.is_mock = true)
+```
+
+Fase 10 purga: `DELETE FROM core.conversation_events WHERE event_payload->>'is_mock' = 'true'` (y limpieza n8n mock legacy si quedó).
 
 ---
 
-## 5) Plan de migración (fases)
+## 5) Plan de implementación — same day
 
-### Fase 0 — Inventario (1 sprint)
+Orden de merge:
 
-- Script `backend/scripts/audit_n8n_vs_core.py`: por tenant, conteos, session_ids solo-en-n8n, solo-en-core, divergencia último mensaje.
-- Documentar consumidores (grep cross-repo) — baseline en este spec §8.
+```
+1. platform  — skills + spec (este doc) + scripts fase 7–8 (puede ir en paralelo)
+2. backend   — normalizador + core-first + fallback
+3. agente    — stop-write
+4. Verificación manual demo (AC-M1..M5)
+```
 
-### Fase 1 — Dual-read, single-write (agente + nuevos features)
+**Sin** flag por tenant: el fallback n8n es el rollback implícito.
 
-- Agente: **dejar de escribir** en `n8n_chat_histories` tras flag ON (mantener lectura fallback 30 días).
-- Podcast, tienda, agenda: **solo** `core.conversation_events`.
-- Backoffice: leer core primero; si flag OFF, merge n8n (comportamiento actual).
-
-### Fase 2 — Backfill histórico
-
-- Migración SQL/Python idempotente por tenant:
-  - Para cada fila `n8n_chat_histories` sin evento equivalente en core (hash `session_id + created_at + text`), insertar `conversation_events`.
-  - `request_id = 'backfill-n8n-{n8n_id}'` para idempotencia.
-- Validación: conteos ±0, muestreo 50 hilos manual.
-
-### Fase 3 — Single-read cutover
-
-- Backend `get_mensajes` solo core.
-- Reportes (`agenda_report`, `vendedores_report`) migrados a core.
-- Skills implementación fases 7–8 escriben en core (o adapter compartido).
-
-### Fase 4 — Deprecación tabla
-
-- Renombrar `{schema}.n8n_chat_histories` → `n8n_chat_histories_archived_{YYYYMMDD}` o RLS deny insert.
-- Eliminar código muerto agente/backend.
-- Actualizar `core/tenancy.py` provisioning (no crear n8n table en tenants nuevos).
+Estimación: 4–6 h dev + 30–45 min QA manual.
 
 ---
 
-## 6) Requisitos funcionales
+## 6) Criterios de aceptación MVP
 
-- `RF-1` Toda entrada/salida WhatsApp del agente persiste un evento core antes de responder OK al webhook.
-- `RF-2` Backoffice Conversaciones muestra user + assistant + outbound (podcast, plantillas) desde un solo endpoint.
-- `RF-3` Búsqueda en hilo (spec 005 backoffice) filtra sobre payload.text / transcription unificados.
-- `RF-4` `clear_seller_context` / delete contexto borra solo `core.conversation_events` (n8n archivado ignorado).
-- `RF-5` Followups evalúan condiciones (`last_assistant_message`, idle) leyendo core, no n8n.
-
----
-
-## 7) Requisitos no funcionales
-
-- `RNF-1` Backfill batch: ≤ 5k filas/min por tenant, sin agotar pool (reglas MCP 6543, pools mínimos).
-- `RNF-2` Índice existente en `core.conversation_events (conversation_id, created_at)` — verificar/crear si falta.
-- `RNF-3` Rollback: flag tenant revierte a dual-read sin perder datos core.
+| ID | Escenario | Resultado |
+|----|-----------|-----------|
+| **AC-M1** | Conversación vieja (solo n8n, 0 eventos core) | Hilo idéntico al actual |
+| **AC-M2** | Mensaje agente post-deploy | Visible en backoffice; 0 inserts n8n |
+| **AC-M3** | Sesión con podcast (solo core) | Bubble podcast sin merge ad hoc |
+| **AC-M4** | Correr fase 7 en tenant demo | Mensajes mock visibles en backoffice vía core |
+| **AC-M5** | CI | `pytest` conversaciones + `npm run build` verdes |
 
 ---
 
-## 8) Impacto por repo
+## 7) Skills y scripts — obligatorio en MVP
 
-| Repo | Cambios principales |
-|------|---------------------|
-| **backend-supabase** | `routers/conversaciones.py`, `whatsapp_send.py`, `agenda_sender.py`, reportes, migración backfill, flag en `distribuidoras.metadata` |
-| **agente-conversacional-multi_tenant** | `memory/store.py`, `runtime.py`, `followups.py`, `registration/runtime.py`, `seller.py` clear context |
-| **product-management-app** | `conversations-view.tsx` — parser unificado; tipos en `lib/conversations.ts` |
-| **platform** | skills fase 7–8, `analyze-conversations`, guías QA |
-| **tienda** | ya escribe core en confirmación (spec 028) — verificar paridad |
+Para que la **implementación agentica** no vuelva a escribir en n8n, actualizar en el **mismo entregable** (platform):
 
-### Specs hijas (a crear al implementar)
+### 7.1 Fase 7 — conversaciones
 
-| Repo | Archivo propuesto |
-|------|-------------------|
-| backend | `059-unify-conversation-events-api.md` |
-| agente | `034-stop-dual-write-n8n-histories.md` |
-| backoffice | `049-conversations-core-events-ui.md` |
+| Archivo | Cambio |
+|---------|--------|
+| `.cursor/skills/suplai-implementation/phase-07-conversaciones/SKILL.md` | Fuente mock: `core.conversation_events`; n8n solo legacy/read |
+| `.cursor/skills/suplai-implementation/phase-07-conversaciones/skill-guide.md` | Preflight: verificar `core.conversations` + eventos; quitar preflight n8n como destino |
+| `scripts/fase-07-conversaciones/cargar_conversaciones.py` | Insertar eventos core (`user_message`/`assistant_message`, `is_mock` en payload) en lugar de `n8n_chat_histories` |
+| `scripts/fase-07-conversaciones/preparar_conversaciones.py` | Sin cambio CSV; documentar que carga va a core |
+
+Validación skill: `SELECT COUNT(*) FROM core.conversation_events e JOIN core.conversations c ON ... WHERE c.schema_name = '{schema}' AND e.event_payload->>'is_mock' = 'true'`.
+
+### 7.2 Fase 8 — insights / tickets cruzados
+
+| Archivo | Cambio |
+|---------|--------|
+| `.cursor/skills/suplai-implementation/phase-08-insights/SKILL.md` | Inyección cruzada → `user_message` en core, no n8n |
+| `.cursor/skills/suplai-implementation/phase-08-insights/skill-guide.md` | Idem |
+| `scripts/fase-08-insights/cargar_insights.py` | Si inserta mensaje de queja en chat, usar core |
+
+### 7.3 Fase 10 — purga mock
+
+| Archivo | Cambio |
+|---------|--------|
+| `.cursor/skills/suplai-implementation/phase-10-purga-mock/SKILL.md` | Purga core mock events + n8n mock legacy |
+| `.cursor/skills/suplai-implementation/phase-10-purga-mock/skill-guide.md` | SQL delete core por `is_mock` |
+| Orden purga | `core.conversation_events` (mock) → `n8n_chat_histories` (mock legacy) → resto igual |
+
+### 7.4 analyze-conversations
+
+| Archivo | Cambio |
+|---------|--------|
+| `.cursor/skills/analyze-conversations/SKILL.md` | Fuente canónica: `core.conversation_events`; fallback n8n solo si core vacío |
+| `.cursor/skills/analyze-conversations/reference.md` | Reescribir queries ejemplo contra core |
+| `.cursor/skills/analyze-conversations/taxonomy.md` | Señales sobre `event_type` / `payload.text` |
+
+### 7.5 Referencias cruzadas
+
+| Archivo | Cambio |
+|---------|--------|
+| `.cursor/rules/suplai-implementation-mcp-writes.mdc` | Writes mock conversación → core, no n8n |
+| `.cursor/skills/n8n-railway-mcp/reference.md` | Aclarar: tabla n8n deprecada para chat; n8n workflows campaña excepción |
+
+### 7.6 Agente (skills cleanup — repo agent)
+
+| Archivo | Cambio |
+|---------|--------|
+| `agent/.cursor/skills/cleanup-test-user-data/SKILL.md` | Borrar eventos core de sesión; n8n opcional legacy |
+| `agent/docs/specs/019-persistencia-chat-recepcionista-tenant.md` | Marcar **deprecated** — superseded by spec 013 |
 
 ---
 
-## 9) Criterios de aceptación
+## 8) Prueba manual (checklist 30 min)
 
-### `AC-1` Paridad tenant piloto
+En `demo` o tenant piloto, con backend + backoffice local (puerto 3000):
 
-- **Given** tenant `demo` con flag ON y backfill completo.
-- **When** se abre Conversaciones para un cliente con historial pre-migración.
-- **Then** el hilo coincide en cantidad y orden con export pre-cutover (tolerancia timestamps ±1s).
-
-### `AC-2` Podcast sin n8n
-
-- **Given** job podcast `SENT` con evento core.
-- **When** se abre conversación seller.
-- **Then** bubble podcast visible **sin** filas en n8n para esa sesión.
-
-### `AC-3` Agente sin dual-write
-
-- **Given** flag ON en tenant.
-- **When** el vendedor envía un mensaje y recibe respuesta.
-- **Then** hay eventos `user_message` + `assistant_message` en core y **0 inserts** en n8n post-request.
+1. [ ] Abrir conversación con historial antiguo → hilo completo (AC-M1)
+2. [ ] Enviar WhatsApp al agente → burbuja en backoffice en <30s (AC-M2)
+3. [ ] Abrir sesión vendedor con podcast → audio/transcripción (AC-M3)
+4. [ ] `preparar_conversaciones` + `cargar_conversaciones` → mocks visibles (AC-M4)
+5. [ ] `phase-10` purga mock → hilos mock desaparecen de backoffice
 
 ---
 
-## 10) Riesgos
+## 9) Inventario consumidores
+
+### MVP toca
+
+- `backend/routers/conversaciones.py`
+- `agent/app/agent/runtime.py`, `registration/runtime.py`, `followups.py`
+- `platform/scripts/fase-07-*`, `fase-08-*`
+- Skills §7
+
+### Backlog (no bloquean MVP)
+
+- `backend/services/whatsapp_send.py`, `agenda_sender.py`, reportes, `metricas_service`, `whatsapp_cliente_estado_service`
+- `agent/memory/store.py` (`get_last_customer_interaction_at` → migrar a core)
+- Grafana, workflows n8n Del Corro
+
+---
+
+## 10) Specs hijas
+
+| Repo | Archivo | Alcance |
+|------|---------|---------|
+| backend | `063-conversaciones-core-first-fallback.md` | Normalizador + endpoint + tests |
+| agente | `035-stop-dual-write-n8n.md` | Runtime + registration + followups |
+| platform | *(este spec 013)* | Skills + scripts fase 7–8–10 |
+| backoffice | — | **Sin spec** en MVP (contrato API estable) |
+
+Specs hijas son opcionales si 013 basta para el agente implementador; crear solo si el PR crece mucho.
+
+---
+
+## 11) Riesgos MVP
 
 | Riesgo | Mitigación |
 |--------|------------|
-| Reportes rotos | Migrar queries en mismo PR que cutover; dashboard Grafana si aplica |
-| Payloads sin `text` | Normalizador en API: derivar display de `kind`-specific fields |
-| Tenants sin `core.conversations` | Backfill crea conversación core por cada `session_id` distinto en n8n |
-| Performance listado | Paginación cursor en `GET mensajes` (V2 si hilo > 500 eventos) |
+| Hilo mixto n8n+core invisible parcial | Aceptado hoy; backlog merge ordenado |
+| Fase 7 corrida con skill vieja | Skills en mismo PR que scripts |
+| `ultimo_mensaje` vacío en conv. solo-core | Subquery core-first §4.3 |
+| Payload sin `text` | Normalizador usa `transcription` o label por `kind` |
 
 ---
 
-## 11) Relación con otras specs
+## 12) Backlog post-MVP (spec futuro o § append)
+
+1. Backfill n8n → core (tenant a tenant)
+2. Reportes + Grafana + métricas agente
+3. Escrituras backend (whatsapp manual, agenda) → core
+4. Hilos mixtos: UNION ordenado n8n + core
+5. Archivar `n8n_chat_histories`; tenancy sin provisionar tabla
+6. Trigger migración 20 → sync desde core
+
+---
+
+## 13) Relación con otras specs
 
 | Spec | Relación |
 |------|----------|
-| [012 seguimiento proactivo](./012-seguimiento-proactivo-vendedor.md) | Podcast expuso el problema del merge ad hoc |
-| [036 lab backend](../../../backend-supabase/docs/specs/036-laboratorio-implementaciones-admin-endpoints.md) | Lab ya es core-first |
-| [005 busqueda conversaciones backoffice](../../../product-management-app/doc/specs/005-busqueda-clientes-vendedor-y-mensajes-conversaciones.md) | Búsqueda debe migrar a payload unificado |
-| [028 tienda pedido patch](../../../backend-supabase/docs/specs/028-tienda-pedido-patch-confirmar-politica-minimo.md) | Patrón `assistant_message` en core |
+| [036 lab backend](../../backend/docs/specs/036-laboratorio-implementaciones-admin-endpoints.md) | Modelo core de referencia |
+| [019 recepcionista agente](../../agent/docs/specs/019-persistencia-chat-recepcionista-tenant.md) | **Deprecated** |
+| [012 seguimiento proactivo](./012-seguimiento-proactivo-vendedor.md) | Podcast motivó el fix |
+| Auditoría BenFresh 2026-07-02 | Evidencia desvío |
 
 ---
 
 ## Changelog
 
-- 2026-06-24: Spec inicial — deprecación `n8n_chat_histories`, unificación en `core.conversation_events`.
+- 2026-06-24: Spec inicial (plan multi-fase).
+- 2026-07-04: Inventario y sobre-ingeniería documentados.
+- 2026-07-04b: **Plan simplificado same-day** — core-first + fallback n8n, stop-write agente, skills fase 7–8–10 + analyze-conversations en MVP; backlog explícito.

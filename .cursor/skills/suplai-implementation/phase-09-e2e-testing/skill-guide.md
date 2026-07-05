@@ -1,4 +1,4 @@
-﻿# Guía de Uso — Fase 9: Testing E2E y Healthcheck del Agente (suplai-implementation-phase-09)
+# Guía de Uso — Fase 9: Testing E2E y Healthcheck del Agente (suplai-implementation-phase-09)
 
 Esta guía sirve como fuente de verdad para entender, preparar, ejecutar y auditar el estado del agente conversacional de un tenant en Suplai como parte de la validación final del onboarding.
 

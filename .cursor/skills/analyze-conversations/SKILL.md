@@ -50,7 +50,7 @@ Auditoría **read-only** sobre conversaciones reales. Combina señales SQL (tool
 | últimos N días | `>= now() - interval 'N days'` |
 | entre X e Y | fechas explícitas inclusive |
 
-Aplicar el filtro temporal sobre `{schema}.n8n_chat_histories.created_at` (fuente canónica de actividad).
+Aplicar el filtro temporal sobre `core.conversation_events.created_at` (fuente canónica de actividad, spec 013). Fallback legacy: `{schema}.n8n_chat_histories.created_at` si el tenant no migró.
 
 ### Segmentos / tags soportados
 
@@ -117,8 +117,8 @@ Ejecutar en paralelo las consultas de [reference.md](reference.md):
 
 Por cada sesión priorizada:
 
-1. Cargar hilo desde `{schema}.n8n_chat_histories` (orden `id ASC`).
-2. Si existe, cruzar con `core.conversation_events` (`user_message`, `assistant_message`) y `core.agent_tool_runs` del mismo `request_id` / ventana temporal.
+1. Cargar hilo desde `core.conversation_events` (`user_message`/`assistant_message`, orden `created_at ASC`). Fallback legacy: `{schema}.n8n_chat_histories` (orden `id ASC`) si el tenant no migró.
+2. Cruzar con `core.agent_tool_runs` del mismo `request_id` / ventana temporal.
 3. Clasificar hallazgos según [taxonomy.md](taxonomy.md).
 4. Citar evidencia: cita literal del usuario, respuesta del agente, tool/error asociado, `session_id`, timestamp.
 

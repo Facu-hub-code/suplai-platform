@@ -56,94 +56,111 @@ async def main_async(esquema: str) -> None:
     if not rows:
         raise SystemExit("[FAIL] El CSV de mensajes esta vacio.")
 
-    conn = await asyncpg.connect(db_url)
+    # Pooler 6543: cache de sentencias desactivado (regla supabase-mcp-connections).
+    conn = await asyncpg.connect(db_url, statement_cache_size=0)
     try:
-        await conn.execute(f"SET search_path TO {esquema}, core, public, extensions")
         print(f"[*] Leyendo {len(rows)} mensajes del CSV...")
-        print("[*] Estructura real detectada: session_id, message(jsonb), created_at, is_mock")
+        print("[*] Destino canonico (spec 013): core.conversations + core.conversation_events")
 
-        await conn.execute("BEGIN")
-        try:
-            deleted = await conn.execute(f"DELETE FROM {table_name(esquema, 'n8n_chat_histories')} WHERE is_mock = true")
-            await conn.execute("COMMIT")
-            print(f"[*] Limpieza previa chat mock: {deleted}")
-        except Exception:
-            await conn.execute("ROLLBACK")
-            raise
+        tenant_id = await conn.fetchval(
+            "SELECT id FROM public.distribuidoras WHERE schema_name = $1 LIMIT 1",
+            esquema,
+        )
+        if tenant_id is None:
+            raise SystemExit(f"[FAIL] No se encontro distribuidora para schema '{esquema}'.")
+
+        # Limpieza previa de eventos mock (idempotente).
+        deleted = await conn.execute(
+            """
+            DELETE FROM core.conversation_events
+            WHERE tenant_id = $1
+              AND event_payload->>'is_mock' = 'true'
+            """,
+            tenant_id,
+        )
+        print(f"[*] Limpieza previa eventos mock (core): {deleted}")
+
+        conversation_cache: dict[str, int] = {}
+        last_event_per_session: dict[str, tuple] = {}
+
+        async def get_conversation_id(session: str) -> int:
+            cached = conversation_cache.get(session)
+            if cached is not None:
+                return cached
+            conv_id = await conn.fetchval(
+                """
+                INSERT INTO core.conversations (tenant_id, schema_name, session_id)
+                VALUES ($1, $2, $3)
+                ON CONFLICT (tenant_id, session_id)
+                DO UPDATE SET updated_at = now(), schema_name = EXCLUDED.schema_name
+                RETURNING id
+                """,
+                tenant_id,
+                esquema,
+                session,
+            )
+            conversation_cache[session] = int(conv_id)
+            return int(conv_id)
 
         inserted = 0
-        for row in rows:
+        for idx, row in enumerate(rows):
             session_id = row["session_id"] or row["client_phone"]
-            sender_type = row["sender_type"] or row["type"]
+            sender_type = (row["sender_type"] or row["type"] or "").lower()
             message = row["message"] or row["content"]
             created_at = parse_dt(row["created_at"])
             is_mock = parse_bool(row.get("is_mock", "true"))
 
+            event_type = "user_message" if sender_type in ("human", "user", "cliente") else "assistant_message"
+
             payload = {
-                "sender_type": sender_type,
-                "type": sender_type,
-                "message": message,
-                "content": message,
-                "created_at": format_dt(created_at),
+                "text": message,
                 "is_mock": is_mock,
-                "session_id": session_id,
+                "source": "mock_fase07",
+                "sender_type": sender_type,
                 "client_phone": row.get("client_phone", session_id),
             }
 
+            conversation_id = await get_conversation_id(session_id)
             await conn.execute(
-                f"""
-                INSERT INTO {table_name(esquema, 'n8n_chat_histories')}
-                (session_id, message, created_at, is_mock)
-                VALUES ($1, $2::jsonb, $3, $4)
+                """
+                INSERT INTO core.conversation_events
+                (tenant_id, conversation_id, request_id, event_type, event_payload, created_at)
+                VALUES ($1, $2, $3, $4, $5::jsonb, $6)
                 """,
-                session_id,
+                tenant_id,
+                conversation_id,
+                f"mock-fase07-{session_id}-{idx}",
+                event_type,
                 json.dumps(payload, ensure_ascii=False),
                 created_at,
-                is_mock,
             )
             inserted += 1
 
+            prev = last_event_per_session.get(session_id)
+            if prev is None or created_at >= prev[0]:
+                last_event_per_session[session_id] = (created_at, event_type)
+
         total_rows = await conn.fetchval(
-            f"SELECT COUNT(*) FROM {table_name(esquema, 'n8n_chat_histories')} WHERE is_mock = true"
-        )
-        sessions = await conn.fetchval(
-            f"SELECT COUNT(DISTINCT session_id) FROM {table_name(esquema, 'n8n_chat_histories')} WHERE is_mock = true"
-        )
-
-        rows_last = await conn.fetch(
-            f"""
-            SELECT t.session_id, t.message, t.created_at
-            FROM {table_name(esquema, 'n8n_chat_histories')} t
-            JOIN (
-                SELECT session_id, MAX(created_at) AS max_created_at
-                FROM {table_name(esquema, 'n8n_chat_histories')}
-                WHERE is_mock = true
-                GROUP BY session_id
-            ) m
-            ON m.session_id = t.session_id AND m.max_created_at = t.created_at
-            WHERE t.is_mock = true
-            ORDER BY t.session_id
             """
+            SELECT COUNT(*)
+            FROM core.conversation_events
+            WHERE tenant_id = $1 AND event_payload->>'is_mock' = 'true'
+            """,
+            tenant_id,
         )
-
-        human_last = []
-        for row in rows_last:
-            msg = row["message"]
-            if isinstance(msg, dict):
-                sender = str(msg.get("sender_type") or msg.get("type") or "").lower()
-                if sender == "human":
-                    human_last.append(row)
+        sessions = len(conversation_cache)
+        human_last = [s for s, (_, et) in last_event_per_session.items() if et == "user_message"]
 
         print("\n" + "=" * 72)
-        print("VERIFICACION FASE 7 - CONVERSACIONES")
+        print("VERIFICACION FASE 7 - CONVERSACIONES (core)")
         print("=" * 72)
-        print(f"  Mensajes insertados:  {inserted}")
-        print(f"  Mensajes mock totales:{total_rows}")
+        print(f"  Eventos insertados:   {inserted}")
+        print(f"  Eventos mock totales: {total_rows}")
         print(f"  Sesiones mock:        {sessions}")
         print(f"  Ultimo mensaje human: {len(human_last)}")
         print("=" * 72)
         if human_last:
-            print("[WARN] Hay conversaciones cuyo ultimo mensaje sigue siendo human. Revisar generacion.")
+            print("[WARN] Hay conversaciones cuyo ultimo evento sigue siendo user_message. Revisar generacion.")
 
     except Exception as exc:
         print(f"[FAIL] Error durante la carga de conversaciones: {exc}")

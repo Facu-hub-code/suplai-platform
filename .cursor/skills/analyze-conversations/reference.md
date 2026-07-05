@@ -14,21 +14,36 @@ Patrón usado en backend (`core/tenancy.py`, `conversaciones.py`):
 regexp_replace(COALESCE(phone, ''), '[\+\-\s\(\)]', '', 'g')
 ```
 
-`session_id` en `n8n_chat_histories` suele coincidir con `{schema}.conversations.phone_number`.
+`session_id` en `core.conversations` coincide con `{schema}.conversations.phone_number`.
+
+> [!IMPORTANT]
+> **Fuente canónica (spec 013): `core.conversation_events`** enlazada a `core.conversations`
+> (`schema_name = '<schema>'`, `tenant_id = '<tenant_id>'`). Mapeo:
+> - Texto del mensaje → `event_payload->>'text'` (fallback `->>'transcription'`).
+> - Humano → `event_type = 'user_message'`; agente → `event_type IN ('assistant_message','outbound_message')`.
+> - Timestamp → `ce.created_at`.
+>
+> Las queries que leen `{schema}.n8n_chat_histories` quedan como **fallback legacy**
+> (solo tenants que aún no migraron su historial). Preferir siempre las versiones core.
 
 ---
 
-## 1. Volumen de actividad
+## 1. Volumen de actividad (core)
 
 ```sql
 SELECT
-  COUNT(DISTINCT h.session_id) AS sesiones_activas,
-  COUNT(*) FILTER (WHERE h.message->>'type' IN ('human', 'user')) AS mensajes_humanos,
-  COUNT(*) FILTER (WHERE h.message->>'type' IN ('ia', 'ai')) AS respuestas_ia
-FROM "<schema>".n8n_chat_histories h
-WHERE h.created_at >= '<from>'::timestamptz
-  AND h.created_at < '<to>'::timestamptz;
+  COUNT(DISTINCT ce.conversation_id) AS sesiones_activas,
+  COUNT(*) FILTER (WHERE ce.event_type = 'user_message') AS mensajes_humanos,
+  COUNT(*) FILTER (WHERE ce.event_type IN ('assistant_message', 'outbound_message')) AS respuestas_ia
+FROM core.conversation_events ce
+JOIN core.conversations c ON c.id = ce.conversation_id
+WHERE c.schema_name = '<schema>'
+  AND ce.tenant_id = '<tenant_id>'
+  AND ce.created_at >= '<from>'::timestamptz
+  AND ce.created_at < '<to>'::timestamptz;
 ```
+
+> Fallback legacy (n8n): `COUNT(DISTINCT h.session_id)` con `h.message->>'type'` sobre `"<schema>".n8n_chat_histories`.
 
 ---
 
@@ -36,10 +51,13 @@ WHERE h.created_at >= '<from>'::timestamptz
 
 ```sql
 WITH active_sessions AS (
-  SELECT DISTINCT h.session_id
-  FROM "<schema>".n8n_chat_histories h
-  WHERE h.created_at >= '<from>'::timestamptz
-    AND h.created_at < '<to>'::timestamptz
+  SELECT DISTINCT c.session_id
+  FROM core.conversation_events ce
+  JOIN core.conversations c ON c.id = ce.conversation_id
+  WHERE c.schema_name = '<schema>'
+    AND ce.tenant_id = '<tenant_id>'
+    AND ce.created_at >= '<from>'::timestamptz
+    AND ce.created_at < '<to>'::timestamptz
 )
 SELECT
   c.id AS conversation_local_id,
@@ -87,20 +105,29 @@ ORDER BY id;
 
 ---
 
-## 3. Hilo de mensajes (una sesión)
+## 3. Hilo de mensajes (una sesión) — core
 
 ```sql
 SELECT
-  h.id,
-  h.created_at,
-  h.message->>'type' AS msg_type,
-  h.message->>'content' AS content
-FROM "<schema>".n8n_chat_histories h
-WHERE h.session_id = '<session_id>'
-  AND h.created_at >= '<from>'::timestamptz
-  AND h.created_at < '<to>'::timestamptz
-ORDER BY h.id ASC;
+  ce.id,
+  ce.created_at,
+  CASE
+    WHEN ce.event_type = 'user_message' THEN 'human'
+    ELSE 'ai'
+  END AS msg_type,
+  COALESCE(ce.event_payload->>'text', ce.event_payload->>'transcription') AS content
+FROM core.conversation_events ce
+JOIN core.conversations c ON c.id = ce.conversation_id
+WHERE c.schema_name = '<schema>'
+  AND ce.tenant_id = '<tenant_id>'
+  AND c.session_id = '<session_id>'
+  AND ce.event_type IN ('user_message', 'assistant_message', 'outbound_message')
+  AND ce.created_at >= '<from>'::timestamptz
+  AND ce.created_at < '<to>'::timestamptz
+ORDER BY ce.created_at ASC, ce.id ASC;
 ```
+
+> Fallback legacy (n8n): `SELECT h.id, h.created_at, h.message->>'type', h.message->>'content' FROM "<schema>".n8n_chat_histories h WHERE h.session_id = '<session_id>' ORDER BY h.id ASC;`
 
 ---
 
@@ -200,15 +227,18 @@ LIMIT 50;
 
 ```sql
 SELECT
-  h.session_id,
-  h.created_at,
-  LEFT(h.message->>'content', 200) AS excerpt
-FROM "<schema>".n8n_chat_histories h
-WHERE h.created_at >= '<from>'::timestamptz
-  AND h.created_at < '<to>'::timestamptz
-  AND h.message->>'type' IN ('human', 'user')
-  AND h.message->>'content' ~* '(no entend|incorrect|error|olvidate|no sirve|reclamo|equivoc|no es eso|ya te dije|no funciona|p[eé]simo|mal)'
-ORDER BY h.created_at DESC
+  c.session_id,
+  ce.created_at,
+  LEFT(ce.event_payload->>'text', 200) AS excerpt
+FROM core.conversation_events ce
+JOIN core.conversations c ON c.id = ce.conversation_id
+WHERE c.schema_name = '<schema>'
+  AND ce.tenant_id = '<tenant_id>'
+  AND ce.created_at >= '<from>'::timestamptz
+  AND ce.created_at < '<to>'::timestamptz
+  AND ce.event_type = 'user_message'
+  AND ce.event_payload->>'text' ~* '(no entend|incorrect|error|olvidate|no sirve|reclamo|equivoc|no es eso|ya te dije|no funciona|p[eé]simo|mal)'
+ORDER BY ce.created_at DESC
 LIMIT 100;
 ```
 
@@ -241,12 +271,16 @@ Combina señales para elegir qué leer en detalle:
 
 ```sql
 WITH cohort AS (
-  -- pegar query §2 sin ORDER BY
+  -- pegar query §2 sin ORDER BY (active_sessions vía core)
   SELECT c.phone_number AS session_id, c.client_id, c.vendedor_id
   FROM "<schema>".conversations c
   JOIN (
-    SELECT DISTINCT session_id FROM "<schema>".n8n_chat_histories
-    WHERE created_at >= '<from>'::timestamptz AND created_at < '<to>'::timestamptz
+    SELECT DISTINCT cc.session_id
+    FROM core.conversation_events ce
+    JOIN core.conversations cc ON cc.id = ce.conversation_id
+    WHERE cc.schema_name = '<schema>'
+      AND ce.tenant_id = '<tenant_id>'
+      AND ce.created_at >= '<from>'::timestamptz AND ce.created_at < '<to>'::timestamptz
   ) a ON a.session_id = c.phone_number
 ),
 tool_signals AS (
@@ -261,12 +295,15 @@ tool_signals AS (
   GROUP BY at.session_id
 ),
 frustration AS (
-  SELECT DISTINCT h.session_id
-  FROM "<schema>".n8n_chat_histories h
-  WHERE h.created_at >= '<from>'::timestamptz
-    AND h.created_at < '<to>'::timestamptz
-    AND h.message->>'type' IN ('human', 'user')
-    AND h.message->>'content' ~* '(no entend|incorrect|error|reclamo|equivoc|no es eso)'
+  SELECT DISTINCT c.session_id
+  FROM core.conversation_events ce
+  JOIN core.conversations c ON c.id = ce.conversation_id
+  WHERE c.schema_name = '<schema>'
+    AND ce.tenant_id = '<tenant_id>'
+    AND ce.created_at >= '<from>'::timestamptz
+    AND ce.created_at < '<to>'::timestamptz
+    AND ce.event_type = 'user_message'
+    AND ce.event_payload->>'text' ~* '(no entend|incorrect|error|reclamo|equivoc|no es eso)'
 )
 SELECT
   co.session_id,
@@ -306,10 +343,11 @@ WHERE sc.tenant_id = '<tenant_id>'::uuid
 
 | Schema | Tabla | Uso |
 |--------|-------|-----|
-| `{tenant}` | `n8n_chat_histories` | Hilo WhatsApp completo |
+| `core` | `conversation_events` (+ `conversations`) | **Hilo WhatsApp completo (canónico, spec 013)** |
+| `{tenant}` | `n8n_chat_histories` | Hilo legacy (fallback si el tenant no migró) |
 | `{tenant}` | `conversations` | client_id / vendedor_id por teléfono |
 | `{tenant}` | `clients`, `puntos_venta`, `geo_zones`, `vendedores` | Segmentación |
 | `{tenant}` | `ia_tickets` | Reclamos/tickets |
-| `core` | `conversations`, `conversation_events` | Memoria agente |
+| `core` | `conversations`, `conversation_events` | Memoria agente / hilo |
 | `core` | `agent_turns`, `agent_tool_runs`, `agent_rag_candidates` | Trazas tools/RAG |
 | `core` | `seller_context` | Estado vendedor |

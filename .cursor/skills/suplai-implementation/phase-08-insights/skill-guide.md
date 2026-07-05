@@ -12,7 +12,7 @@ Esta guía detalla los pasos para poblar las alertas de calidad, logística, adm
 
 1. **Fase 7 completada**: El historial de chat y sus archivos resultantes (`phase-07-conversaciones-resumen.csv` y `phase-07-mensajes.csv`) deben existir.
 2. **Estructura de ia_tickets**: Confirmar mediante introspección que la tabla `{schema}.ia_tickets` cuente con los campos reales del sistema: `id`, `created_at`, `description`, `client_id`, `status`, `closed_at` e `is_mock`.
-3. **Estructura de Chats**: Validar que `{schema}.n8n_chat_histories` esté disponible para la inyección del efecto cruzado.
+3. **Estructura de Chats (spec 013)**: El efecto cruzado se inyecta en `core.conversation_events` (`user_message` + `assistant_message`), enlazado a `core.conversations` por `session_id`. `{schema}.n8n_chat_histories` queda deprecada.
 
 ---
 
@@ -59,7 +59,7 @@ El cargador:
 - Realiza una limpieza previa de los registros mock existentes en `{schema}.ia_tickets`.
 - Mapea el identificador telefónico (`client_phone`) para resolver el ID interno de la tabla de clientes (`client_id`) requerido por la clave foránea.
 - Realiza el `INSERT` de la colección de tickets en `{schema}.ia_tickets`.
-- **Inyección Cruzada en Chat**: Para cada fila con un `mensaje_cruzado_incoming` válido, el script realiza un insert automático en `{schema}.n8n_chat_histories` estructurando el payload como un tipo `human` (utilizando el formato exacto `jsonb` de la tabla si corresponde) para reflejar la queja entrante en la cronología del chat.
+- **Inyección Cruzada en Chat (spec 013)**: Para cada fila con un `mensaje_cruzado_incoming` válido, el script inserta en `core.conversation_events` un `user_message` (queja entrante) y un `assistant_message` (respuesta del agente), ambos con `event_payload.origin = 'fase-08-insights'` e `is_mock = true`, para reflejar el caso en la cronología del chat que lee el backoffice.
 
 ---
 

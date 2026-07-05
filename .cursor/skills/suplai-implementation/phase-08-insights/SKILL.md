@@ -40,15 +40,15 @@ La fase debe ejecutarse secuencialmente mediante los siguientes comandos en la t
   - `status` <- 'open' o 'closed'.
   - `created_at` y `closed_at` <- Fechas e ISO timestamps generados.
   - `is_mock` <- true.
-- **Chat (`{schema}.n8n_chat_histories`)**: Si el ticket es abierto y pertenece a Calidad o Logística, el script de carga **DEBE** realizar un `INSERT` adicional en la tabla de chats inyectando el `mensaje_cruzado_incoming` como un mensaje de tipo `human` para garantizar la trazabilidad cruzada.
+- **Chat (`core.conversation_events` — spec 013)**: Si el ticket es abierto y pertenece a Calidad o Logística, el script de carga **DEBE** insertar en `core.conversation_events` (enlazado a `core.conversations` por `session_id`) el `mensaje_cruzado_incoming` como `user_message` y la respuesta del agente como `assistant_message`, ambos con `event_payload.origin = 'fase-08-insights'` e `is_mock = true`.
 
 > [!NOTE]
-> El script debe usar introspección previa para validar los tipos de datos exactos (ej: asegurar que el payload del mensaje se guarde correctamente si la columna exige un formato `jsonb`).
+> `{schema}.n8n_chat_histories` queda deprecada para carga (spec 013). El backoffice lee core.
 
 ## Verificación
 
 - El conteo total de filas en `{schema}.ia_tickets` que posean `is_mock = true` debe estar estrictamente entre 15 y 20.
-- Verificar que para cada ticket abierto de Calidad o Logística exista el correspondiente mensaje con `sender_type = 'human'` o `type = 'human'` en `n8n_chat_histories`.
+- Verificar que para cada ticket abierto de Calidad o Logística exista el correspondiente `user_message` con `event_payload->>'origin' = 'fase-08-insights'` en `core.conversation_events`.
 
 ## Cierre
 
