@@ -40,8 +40,8 @@ alwaysApply: false
 | 4 | `{schema}.vendedores`, `geo_zones`, `vendedor_geo_zones`, `clients`, `client_locations` |
 | 5 | `{schema}.clients` (update flags) |
 | 6 | `{schema}.pedidos`, `items_pedido` |
-| 7 | `{schema}.n8n_chat_histories` |
-| 8 | `{schema}.ia_tickets` (+ mensajes si aplica efecto cruzado) |
+| 7 | `core.conversations`, `core.conversation_events` (mock: `event_payload.is_mock = true`; spec 013). `{schema}.n8n_chat_histories` deprecada |
+| 8 | `{schema}.ia_tickets` (+ mensajes cruzados en `core.conversation_events`, `event_payload.origin = 'fase-08-insights'`) |
 
 ## Seguridad
 

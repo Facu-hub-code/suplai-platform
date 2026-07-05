@@ -2,7 +2,7 @@
 cargar_insights.py
 ==================
 Carga el CSV de Fase 8 en ia_tickets y replica los mensajes cruzados en
-n8n_chat_histories.
+core.conversation_events (spec 013).
 
 Uso:
     python scripts/fase-08-insights/cargar_insights.py --esquema <schema>
@@ -127,12 +127,18 @@ async def main_async(esquema: str) -> None:
     if not rows:
         raise SystemExit("[FAIL] El CSV de fase 8 esta vacio.")
 
-    conn = await asyncpg.connect(db_url)
+    # Pooler 6543: cache de sentencias desactivado (regla supabase-mcp-connections).
+    conn = await asyncpg.connect(db_url, statement_cache_size=0)
     try:
         await conn.execute(f"SET search_path TO {esquema}, core, public, extensions")
 
-        chat_cols = await get_columns(conn, esquema, "n8n_chat_histories")
-        chat_types = await get_column_types(conn, esquema, "n8n_chat_histories")
+        # spec 013: los mensajes cruzados van a core.conversation_events, no a n8n.
+        tenant_id = await conn.fetchval(
+            "SELECT id FROM public.distribuidoras WHERE schema_name = $1 LIMIT 1",
+            esquema,
+        )
+        if tenant_id is None:
+            raise SystemExit(f"[FAIL] No se encontro distribuidora para schema '{esquema}'.")
 
         ticket_table_candidates = {}
         for table in ("ia_tickets", "tickets"):
@@ -154,26 +160,12 @@ async def main_async(esquema: str) -> None:
                 f"[FAIL] La tabla {table_name(esquema, ticket_table)} no tiene las columnas minimas requeridas."
             )
 
-        chat_session_col = pick_column(chat_cols, ["session_id"])
-        chat_message_col = pick_column(chat_cols, ["message"])
-        chat_created_col = pick_column(chat_cols, ["created_at"])
-        chat_mock_col = pick_column(chat_cols, ["is_mock"])
-        if not all([chat_session_col, chat_message_col, chat_created_col, chat_mock_col]):
-            raise SystemExit(
-                f"[FAIL] La tabla {table_name(esquema, 'n8n_chat_histories')} no tiene las columnas requeridas."
-            )
-
         ticket_client_type = ticket_types.get(ticket_client_col)
-        chat_message_type = chat_types.get(chat_message_col)
-        if chat_message_type and "json" not in chat_message_type.lower():
-            raise SystemExit(
-                f"[FAIL] La columna {table_name(esquema, 'n8n_chat_histories')}.{chat_message_col} debe ser json/jsonb."
-            )
 
         print(f"[*] Leyendo {len(rows)} tickets del CSV...")
         print(f"[*] Tabla tickets detectada: {ticket_table}")
         print(f"[*] Estructura real tickets: {', '.join(ticket_cols)}")
-        print(f"[*] Estructura real chat:    {', '.join(chat_cols)}")
+        print("[*] Chat cruzado destino (spec 013): core.conversation_events")
 
         await conn.execute("BEGIN")
         try:
@@ -181,11 +173,12 @@ async def main_async(esquema: str) -> None:
                 f"DELETE FROM {table_name(esquema, ticket_table)} WHERE is_mock = true"
             )
             deleted_chats = await conn.execute(
-                f"""
-                DELETE FROM {table_name(esquema, 'n8n_chat_histories')}
-                WHERE is_mock = true
-                  AND (message->>'origin' = 'fase-08-insights' OR message->>'ticket_ref' IS NOT NULL)
                 """
+                DELETE FROM core.conversation_events
+                WHERE tenant_id = $1
+                  AND event_payload->>'origin' = 'fase-08-insights'
+                """,
+                tenant_id,
             )
             await conn.execute("COMMIT")
             print(f"[*] Limpieza previa fase 8: {deleted_tickets} / {deleted_chats}")
@@ -197,6 +190,53 @@ async def main_async(esquema: str) -> None:
         client_id_rows = await conn.fetch(f"SELECT id, phone_number FROM {table_name(esquema, 'clients')}")
         for row in client_id_rows:
             client_phone_to_id[row["phone_number"]] = row["id"]
+
+        conversation_cache: dict[str, int] = {}
+
+        async def get_conversation_id(session: str) -> int:
+            cached = conversation_cache.get(session)
+            if cached is not None:
+                return cached
+            conv_id = await conn.fetchval(
+                """
+                INSERT INTO core.conversations (tenant_id, schema_name, session_id)
+                VALUES ($1, $2, $3)
+                ON CONFLICT (tenant_id, session_id)
+                DO UPDATE SET updated_at = now(), schema_name = EXCLUDED.schema_name
+                RETURNING id
+                """,
+                tenant_id,
+                esquema,
+                session,
+            )
+            conversation_cache[session] = int(conv_id)
+            return int(conv_id)
+
+        async def insert_cross_event(*, session: str, role: str, txt: str, when, extra: dict) -> None:
+            event_type = "user_message" if role == "human" else "assistant_message"
+            payload = {
+                "text": txt,
+                "is_mock": True,
+                "origin": "fase-08-insights",
+                "sender_type": role,
+                "session_id": session,
+                "client_phone": session,
+                **extra,
+            }
+            conversation_id = await get_conversation_id(session)
+            await conn.execute(
+                """
+                INSERT INTO core.conversation_events
+                (tenant_id, conversation_id, request_id, event_type, event_payload, created_at)
+                VALUES ($1, $2, $3, $4, $5::jsonb, $6)
+                """,
+                tenant_id,
+                conversation_id,
+                f"mock-fase08-{session}-{role}-{extra.get('ticket_ref', '')}",
+                event_type,
+                json.dumps(payload, ensure_ascii=False),
+                when,
+            )
 
         inserted_tickets = 0
         inserted_chats = 0
@@ -232,34 +272,20 @@ async def main_async(esquema: str) -> None:
 
             incoming = row.get("mensaje_cruzado_incoming", "").strip()
             if incoming:
-                # 1. Mensaje entrante del Humano
-                payload = {
-                    "sender_type": "human",
-                    "type": "human",
-                    "message": incoming,
-                    "content": incoming,
-                    "created_at": format_dt(created_at + timedelta(minutes=15)),
-                    "is_mock": True,
-                    "session_id": client_phone,
-                    "client_phone": client_phone,
-                    "origin": "fase-08-insights",
-                    "ticket_ref": row.get("ticket_ref", ""),
-                    "categoria": row.get("categoria", ""),
-                    "status": status,
-                }
-                chat_values: dict[str, object] = {
-                    chat_session_col: client_phone,
-                    chat_message_col: json.dumps(payload, ensure_ascii=False),
-                    chat_created_col: created_at + timedelta(minutes=15),
-                    chat_mock_col: True,
-                }
-                chat_sql, chat_params = build_insert_sql(esquema, "n8n_chat_histories", chat_cols, chat_values)
-                await conn.fetchval(chat_sql, *chat_params)
-                inserted_chats += 1
-
-                # 2. Mensaje saliente de la IA (Respuesta del Agente)
                 categoria = row.get("categoria", "")
                 ticket_ref = row.get("ticket_ref", "")
+
+                # 1. Mensaje entrante del Humano (user_message en core)
+                await insert_cross_event(
+                    session=client_phone,
+                    role="human",
+                    txt=incoming,
+                    when=created_at + timedelta(minutes=15),
+                    extra={"ticket_ref": ticket_ref, "categoria": categoria, "status": status},
+                )
+                inserted_chats += 1
+
+                # 2. Mensaje saliente de la IA (assistant_message en core)
                 if categoria == "Calidad":
                     ai_reply = f"Hola, disculpas por el inconveniente. Registré tu reclamo por la calidad del producto con el ticket {ticket_ref}. Un asesor se contactará a la brevedad."
                 elif categoria == "Logistica":
@@ -267,28 +293,13 @@ async def main_async(esquema: str) -> None:
                 else:
                     ai_reply = f"Hola, recibí tu mensaje. Generé un ticket de soporte con la referencia {ticket_ref} para dar seguimiento a tu caso. Un asesor se comunicará pronto."
 
-                ai_payload = {
-                    "sender_type": "ai",
-                    "type": "ai",
-                    "message": ai_reply,
-                    "content": ai_reply,
-                    "created_at": format_dt(created_at + timedelta(minutes=16)),
-                    "is_mock": True,
-                    "session_id": client_phone,
-                    "client_phone": client_phone,
-                    "origin": "fase-08-insights",
-                    "ticket_ref": ticket_ref,
-                    "categoria": categoria,
-                    "status": status,
-                }
-                ai_chat_values: dict[str, object] = {
-                    chat_session_col: client_phone,
-                    chat_message_col: json.dumps(ai_payload, ensure_ascii=False),
-                    chat_created_col: created_at + timedelta(minutes=16),
-                    chat_mock_col: True,
-                }
-                ai_chat_sql, ai_chat_params = build_insert_sql(esquema, "n8n_chat_histories", chat_cols, ai_chat_values)
-                await conn.fetchval(ai_chat_sql, *ai_chat_params)
+                await insert_cross_event(
+                    session=client_phone,
+                    role="ai",
+                    txt=ai_reply,
+                    when=created_at + timedelta(minutes=16),
+                    extra={"ticket_ref": ticket_ref, "categoria": categoria, "status": status},
+                )
                 inserted_chats += 1
 
         total_tickets = await conn.fetchval(
@@ -298,11 +309,12 @@ async def main_async(esquema: str) -> None:
             f"SELECT COUNT(*) FROM {table_name(esquema, ticket_table)} WHERE is_mock = true AND lower({ticket_status_col}) = 'open'"
         )
         total_chats = await conn.fetchval(
-            f"""
-            SELECT COUNT(*) FROM {table_name(esquema, 'n8n_chat_histories')}
-            WHERE is_mock = true
-              AND message->>'origin' = 'fase-08-insights'
             """
+            SELECT COUNT(*) FROM core.conversation_events
+            WHERE tenant_id = $1
+              AND event_payload->>'origin' = 'fase-08-insights'
+            """,
+            tenant_id,
         )
 
         print("\n" + "=" * 72)

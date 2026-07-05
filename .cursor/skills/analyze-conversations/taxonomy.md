@@ -40,7 +40,7 @@ ya te dije, te lo repetí, no es eso, equivocado, enojado, reclamo,
 devolución, devolver, nunca llegó, no me llegó
 ```
 
-Buscar en mensajes `type` ∈ (`human`, `user`) de `n8n_chat_histories`.
+Buscar en `core.conversation_events` con `event_type = 'user_message'` (texto en `event_payload->>'text'`). Fallback legacy: mensajes `type` ∈ (`human`, `user`) de `n8n_chat_histories`.
 
 ## Prioridad
 

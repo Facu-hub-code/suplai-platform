@@ -1,4 +1,4 @@
-﻿# Guía de Uso — Testing E2E y Healthcheck del Agente (`agent_e2e_testing`)
+# Guía de Uso — Testing E2E y Healthcheck del Agente (`agent_e2e_testing`)
 
 Esta guía sirve como fuente de verdad para entender, preparar, ejecutar y auditar el estado del agente conversacional de un tenant en Suplai.
 

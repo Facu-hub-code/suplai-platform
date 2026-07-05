@@ -1,6 +1,6 @@
 ---
 name: suplai-implementation-phase-07
-description: Fase 7 conversaciones — historial mock en n8n_chat_histories y resumen CSV. Usar tras Fase 6 con scripts deterministas en `scripts/fase-07-conversaciones/`.
+description: Fase 7 conversaciones — historial mock en core.conversation_events y resumen CSV. Usar tras Fase 6 con scripts deterministas en `scripts/fase-07-conversaciones/`.
 ---
 
 # Fase 7 — Conversaciones
@@ -38,15 +38,17 @@ La fase debe ejecutarse con:
 1. `python scripts/fase-07-conversaciones/preparar_conversaciones.py --esquema <schema>`
 2. `python scripts/fase-07-conversaciones/cargar_conversaciones.py --esquema <schema>`
 
-Por cliente seleccionado, insertar 4–5 filas en `{schema}.n8n_chat_histories`:
+Por cliente seleccionado, insertar 4–5 eventos en `core.conversation_events` (fuente canónica — spec 013), enlazados a `core.conversations` por `session_id`:
 
 - Saludo agente
 - Empuje promo volumen o discusión sobre pedidos de la Fase 6 (simulando que el agente tomó el pedido de ese cliente).
 - Respuestas y consultas del cliente.
 - **Mensajes de Quejas**: Simular quejas y reclamos para un subgrupo de clientes (por ejemplo, demoras, errores de facturación, o productos faltantes) para dar soporte a la creación de tickets en la Fase 8.
-- **Restricción Obligatoria de Cierre**: Toda conversación **DEBE** terminar obligatoriamente con un mensaje de tipo `ai` (`sender_type` = 'ai'). Si el último mensaje natural es del cliente (`human`), se debe inyectar una respuesta de contingencia (ej. saludo formal, confirmación de pedido recibido o cierre de contacto).
+- **Restricción Obligatoria de Cierre**: Toda conversación **DEBE** terminar obligatoriamente con un `assistant_message`. Si el último mensaje natural es del cliente (`user_message`), se debe inyectar una respuesta de contingencia (ej. saludo formal, confirmación de pedido recibido o cierre de contacto).
 
-**MUST** verificar columnas reales (`session_id`, `message` como `jsonb`, `created_at`, `is_mock`) con introspección de esquema antes de escribir.
+Mapeo `sender_type` → `event_type`: `human`/`user` → `user_message`; `ai` → `assistant_message`. El texto va en `event_payload.text` con `event_payload.is_mock = true`.
+
+> `{schema}.n8n_chat_histories` queda **deprecada** para carga (spec 013). El backoffice lee core; solo se usa n8n como fallback de historial legacy.
 
 ## Sandbox
 
@@ -54,9 +56,9 @@ Indicar al implementador: probar agente en backoffice/lab con datos del tenant; 
 
 ## Verificación
 
-- COUNT filas chat > 0
+- COUNT eventos core mock > 0
 - 10–15 clientes con `live_feed=true` en CSV resumen
-- Ninguna conversación finaliza con `sender_type = 'human'` o `type = 'human'`.
+- Ninguna conversación finaliza con `user_message` (último evento debe ser `assistant_message`).
 
 ## Cierre
 

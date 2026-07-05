@@ -30,7 +30,7 @@ Si gate falla → explicar que ingeniería debe agregar columna `is_mock` y endp
 
 Hijos primero (evitar FK):
 
-1. items_pedido / messages / n8n_chat_histories
+1. items_pedido / messages / core.conversation_events (mock: `event_payload->>'is_mock'='true'`, scope `tenant_id`) — legacy fallback: n8n_chat_histories
 2. pedidos, ia_tickets
 3. clients, vendedor_geo_zones, geo_zones, vendedores
 4. promociones, precios_productos, productos_aliases, productos

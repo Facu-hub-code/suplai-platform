@@ -12,7 +12,7 @@ Esta guía detalla los pasos para poblar el historial de chat del agente en la b
 
 1. **Clientes cargados**: Las Fases 4 y 5 deben estar completas.
 2. **Pedidos cargados**: Deben existir `phase-06-pedidos.csv` y `phase-06-items-pedido.csv`.
-3. **Estructura de Chats**: Confirmar que `{schema}.n8n_chat_histories` tenga `session_id`, `message` (`jsonb`), `created_at` e `is_mock`.
+3. **Estructura de Chats (spec 013)**: El destino canónico es `core.conversations` + `core.conversation_events` (`tenant_id`, `conversation_id`, `event_type`, `event_payload` jsonb, `created_at`). `{schema}.n8n_chat_histories` queda deprecada para carga.
 
 ---
 
@@ -34,9 +34,9 @@ El preparador:
 - Reserva un subgrupo de 3 a 5 clientes con reclamos coherentes para que la Fase 8 pueda crear tickets correlacionados.
 
 ### 2. Regla de cierre seguro
-- El último mensaje de cada conversación **DEBE** ser de tipo `ai`.
-- Si el flujo natural termina en `human`, el script agrega una respuesta final de contingencia.
-- El cargador valida que no queden sesiones cuyo último mensaje sea `human`.
+- El último evento de cada conversación **DEBE** ser `assistant_message`.
+- Si el flujo natural termina en `user_message`, el script agrega una respuesta final de contingencia.
+- El cargador valida que no queden sesiones cuyo último evento sea `user_message`.
 
 ### 3. Salida Local
 Se generan dos archivos:
@@ -59,10 +59,11 @@ python scripts/fase-07-conversaciones/cargar_conversaciones.py --esquema <schema
 ```
 
 El cargador:
-- Limpia los chats mock previos.
-- Inserta el historial desde `phase-07-mensajes.csv`.
-- Guarda cada mensaje como `jsonb` en la columna `message` con `sender_type`, `type`, `content`, `created_at` y `session_id`.
-- Verifica conteos y que el último mensaje por sesión haya quedado en `ai`.
+- Resuelve `tenant_id` desde `public.distribuidoras` por `schema_name`.
+- Limpia eventos mock previos (`core.conversation_events` con `event_payload->>'is_mock' = 'true'`).
+- Crea/reutiliza `core.conversations` por `session_id` (ON CONFLICT tenant_id+session_id).
+- Inserta cada mensaje como evento (`user_message` / `assistant_message`) con `event_payload.text` y `event_payload.is_mock = true`.
+- Verifica conteos y que el último evento por sesión haya quedado en `assistant_message`.
 
 **Nota:** `session_id` suele coincidir con el número telefónico del cliente sin el símbolo `+`.
 
@@ -71,10 +72,14 @@ El cargador:
 ## 🔍 Verificación Post-Carga
 
 ```sql
-SELECT COUNT(*) FROM {schema}.n8n_chat_histories WHERE is_mock = true;
+SELECT COUNT(*)
+FROM core.conversation_events ev
+JOIN core.conversations c ON c.id = ev.conversation_id
+WHERE c.schema_name = '{schema}'
+  AND ev.event_payload->>'is_mock' = 'true';
 ```
 
-Adicionalmente, el script reporta si alguna conversación termina en `human`.
+Adicionalmente, el script reporta si alguna conversación termina en `user_message`.
 
 ---
 
