@@ -41,7 +41,7 @@ Queremos que el podcast tenga un **host con identidad propia**, voz **humana, ar
 | 4 | Proveedor recomendado | **ElevenLabs** (clonación + multilingüe natural). Fallback sin clonación: **Azure `es-AR-TomasNeural`**. |
 | 5 | Formato de salida | Se mantiene `.m4a` (y guion `.txt`). |
 | 6 | Humanización | Combinar **voz neuronal** + **guion humanizado** + **marcas de prosodia** (pausas/énfasis). |
-| 7 | Identidad sonora | Intro/outro con frase fija de Facundo (ver anexo); sin música obligatoria en V1. |
+| 7 | Identidad sonora | Intro/outro fijos que **presentan al spec** (no al host); voz de Facundo; sin música obligatoria en V1. |
 | 8 | Secretos | API key del proveedor vía **variable de entorno**, nunca hardcodeada ni commiteada. |
 
 ---
@@ -78,8 +78,9 @@ La voz natural no alcanza si el guion está escrito como documento técnico. El 
 - Frases **cortas**, una idea por frase; evitar subordinadas largas.
 - **Muletillas** moderadas y naturales (*bueno, mirá, ojo con esto, te tiro el dato*).
 - **Pausas** marcadas para respiración y énfasis (puntuación + SSML `<break>`).
-- Arranque y cierre con **identidad de Facundo** (ver anexo §2).
+- Arranque y cierre que **presentan al spec** (ver anexo §2); la voz es Facundo, no la presentación personal.
 - Cero lectura literal de tablas, SQL, paths o checkboxes (regla ya existente en la skill).
+- Priorizar **decisiones técnicas + por qué**, alcance, migración, orden de implementación, prueba CI/CD y prueba humana.
 
 > Ejemplo "antes robótico → después humano" en el anexo §4.
 
