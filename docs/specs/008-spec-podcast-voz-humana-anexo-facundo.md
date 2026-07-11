@@ -26,17 +26,22 @@
 | Frases cortas, una idea por vez | Párrafos largos con subordinadas |
 | Muletillas naturales y moderadas | Sobrecarga de *che / posta / viste* |
 | Explicar el *por qué*, no leer la tabla | Deletrear SQL, paths o checkboxes |
-| Cierre con gancho ("nos vemos en la próxima") | Terminar abrupto sin outro |
+| Presentar al **spec** en la intro | Presentarse a sí mismo ("Soy Facundo…") |
+| Cierre con gancho al número de spec | Outro personal tipo "Soy Facundo…" |
 
 ---
 
 ## 2) Intro y outro fijos
 
+El episodio **presenta al spec**, no al host. La voz es de Facundo; la identidad verbal del arranque es el documento.
+
 **Intro:**
-> "¡Buenas! Soy Facundo y esto es Suplai Spec Cast. Hoy te resumo, en pocos minutos, la spec {número}: {título}. Dale que arrancamos."
+> "¡Buenas! Esto es Suplai Spec Cast. Hoy te resumo la spec {número}: {título}. Dale que arrancamos."
 
 **Outro:**
-> "Y eso fue todo por hoy. Si querés, te leo otra spec cuando quieras. Soy Facundo, nos vemos en la próxima. ¡Chau!"
+> "Eso es todo por la spec {número}. Nos vemos en la próxima."
+
+**Prohibido en intro/outro:** "Soy Facundo…", "mi nombre es…", presentaciones personales del host.
 
 ---
 

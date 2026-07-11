@@ -8,7 +8,7 @@ description: >-
 
 # Spec Podcast — resumen en audio
 
-Genera un episodio corto (~2–4 min) a partir de un spec `.md`: guion hablado en español rioplatense + audio `.m4a`. El host es **Facundo** (voz masculina, joven, argentina).
+Genera un episodio (~4–6 min) a partir de un spec `.md`: guion hablado en español rioplatense + audio `.m4a`. La voz es de **Facundo** (masculina, joven, argentina), pero el episodio **presenta al spec**, no al host.
 
 **Backends de voz (cadena de fallback en `auto`):**
 
@@ -51,26 +51,30 @@ Si hay varios matches, listarlos y pedir confirmación. Para consultas **solo nu
 
 ## 2. Escribir el guion (`podcast.txt`)
 
-**El host es Facundo.** Hablá como él: rioplatense, cercano, una sola voz.
+**Voz = Facundo** (rioplatense, cercano). **Protagonista = el spec**, no la presentación personal del host.
 
 **Reglas del guion:**
 
 - **Voseo** rioplatense: *tenés, mirá, fijate, dale, acordate*. Nada de tuteo.
 - Frases **cortas**, una idea por vez. Muletillas naturales y moderadas (*mirá, ojo, te tiro el dato*).
-- **No leer** tablas, SQL, paths ni checkboxes literalmente — traducir a lenguaje hablado, con metáforas cotidianas, sin perder precisión.
+- **No leer** tablas, SQL, paths ni checkboxes literalmente — traducir a lenguaje hablado, con metáforas cotidianas, sin perder precisión técnica.
 - Marcar **pausas** con puntuación y guiones largos para que respire.
+- Ser **detallista** en decisiones de diseño técnico y el *por qué*; no quedarse en el "qué".
 - Estructura fija:
-  1. Intro de Facundo: "¡Buenas! Soy Facundo y esto es Suplai Spec Cast. Hoy te resumo, en pocos minutos, la spec {número}: {título}. Dale que arrancamos."
-  2. Contexto / problema
-  3. Decisiones clave (máx. 5)
-  4. Modelo técnico resumido (si aplica)
-  5. Consumidores / impacto downstream
-  6. Alcance / migración
-  7. Cierre: criterios de aceptación en una frase + outro de Facundo: "…Soy Facundo, nos vemos en la próxima. ¡Chau!"
-- Longitud objetivo: **400–600 palabras** (~2.5–4 min).
+  1. **Intro (presenta al spec, no al host):** "¡Buenas! Esto es Suplai Spec Cast. Hoy te resumo la spec {número}: {título}. Dale que arrancamos." — **MUST NOT** usar "Soy Facundo…" ni presentarse a sí mismo.
+  2. **Problema / contexto** — por qué existe esta spec.
+  3. **Alcance** — qué entra en v1 y qué queda afuera (explícito).
+  4. **Decisiones de diseño técnico** — cada decisión clave con el *por qué* se tomó (trade-offs, alternativas descartadas). Priorizar este bloque; no recortar por tiempo.
+  5. **Modelo / migración de BD** — si hay tablas nuevas, columnas, seed SQL o backfill: qué cambia y en qué orden se aplica.
+  6. **Orden de implementación** — repos/PRs, dependencias (ej. agente → backend → backoffice).
+  7. **Cómo se prueba en CI/CD** — tests unitarios, e2e, checks de PR, migraciones en pipeline. Si el spec no lo documenta, decirlo y marcar el hueco.
+  8. **Cómo se prueba humanamente antes del PR** — checklist manual local (puertos, tenants, pasos clickeables). Si el spec no lo documenta, decirlo y marcar el hueco.
+  9. **Cierre:** criterios de aceptación en una frase + outro: "Eso es todo por la spec {número}. Nos vemos en la próxima." — **MUST NOT** cerrar con "Soy Facundo…".
+- Longitud objetivo: **700–1000 palabras** (~4–6 min). Preferir detalle técnico a brevedad.
 - Solo texto plano, una línea por párrafo. Sin markdown, emojis ni URLs.
 
-> Character brief completo y ejemplos antes/después: [docs/specs/008-spec-podcast-voz-humana-anexo-facundo.md](../../../docs/specs/008-spec-podcast-voz-humana-anexo-facundo.md).
+> Character brief y ejemplos: [docs/specs/008-spec-podcast-voz-humana-anexo-facundo.md](../../../docs/specs/008-spec-podcast-voz-humana-anexo-facundo.md).
+> Secciones obligatorias al redactar specs: regla `.cursor/rules/spec-draft-required-sections.mdc`.
 
 Guardar en:
 
@@ -149,4 +153,4 @@ SPEC=$(.cursor/skills/spec-podcast/scripts/resolve-spec.sh "004")
 - El empaquetado a `.m4a` usa `afconvert` (macOS). El backend `macos` además requiere `say`.
 - Sin API key, la voz es **sintética** (no suena humana ni argentina nativa). Para voz neuronal real, setear `OPENAI_API_KEY` o `ELEVENLABS_API_KEY`.
 - Backends neuronales requieren **red** y consumen créditos del proveedor.
-- Specs muy largas (>300 líneas): priorizar decisiones y alcance; omitir detalle de implementación fino.
+- Specs muy largas (>300 líneas): priorizar decisiones técnicas + por qué, alcance, migración, orden de implementación y planes de prueba; omitir listings SQL/JSON literales.

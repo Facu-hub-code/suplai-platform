@@ -1,0 +1,52 @@
+---
+description: Secciones obligatorias al redactar o actualizar specs
+alwaysApply: true
+---
+
+# Spec draft — secciones obligatorias
+
+Cuando el agente **redacta, crea o actualiza** un spec (`.md` en `docs/specs/`, `doc/specs/`, o equivalente cross-repo), el documento **MUST** incluir, además de objetivo/alcance/criterios de aceptación:
+
+## 1. Decisiones de diseño técnico (con el *por qué*)
+
+Tabla o lista de decisiones clave. Cada fila **MUST** explicar **por qué** se eligió esa opción y, si aplica, qué alternativa se descartó.
+
+## 2. Alcance explícito
+
+- Incluido (v1 / esta entrega).
+- Fuera de alcance (con motivo breve si ayuda).
+
+## 3. Orden de implementación
+
+Si es cross-repo o multi-PR: orden de merge, dependencias (ej. migraciones → API → UI), ramas sugeridas.
+
+## 4. Migración de base de datos (si aplica)
+
+Si el cambio toca schema/datos:
+
+- Tablas/columnas nuevas o alteradas.
+- Seed / backfill.
+- Orden de aplicación y rollback o riesgo.
+- Si **no** hay migración: decirlo en una línea ("Sin migración de BD").
+
+## 5. Plan de prueba en CI/CD
+
+Cómo se valida en pipeline / PR antes de mergear, por ejemplo:
+
+- Tests unitarios o de integración a agregar/actualizar.
+- Checks existentes que deben quedar verdes.
+- Smoke de migración (si aplica).
+- Si aún no hay automatización: documentar el gap y el mínimo aceptable para el PR.
+
+## 6. Plan de prueba humana (antes del PR)
+
+Checklist manual que un humano puede seguir en local o staging **antes** de abrir/pedir merge del PR:
+
+- Servicios a levantar (puertos: backoffice `3000`, backend `8000`, etc.).
+- Tenant / datos de prueba.
+- Pasos clickeables o comandos.
+- Qué observar para dar OK.
+
+## Relación con el podcast
+
+La skill `spec-podcast` resume estas secciones en audio. Si faltan en el markdown, el guion del podcast **MUST** señalar el hueco y el agente **SHOULD** completarlas en el spec en el mismo turno cuando el usuario pide el podcast.
