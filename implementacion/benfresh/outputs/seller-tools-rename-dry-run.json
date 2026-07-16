@@ -1,0 +1,394 @@
+[
+  {
+    "tool_name": "check_order_sync_status",
+    "display_name": {
+      "from": null,
+      "to": "Estado de sync del pedido",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Si el pedido ya sincronizó con el ERP/Field.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "clear_seller_context",
+    "display_name": {
+      "from": null,
+      "to": "Limpiar contexto",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Borra cliente seleccionado e historial de sesión.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "confirm_order_for_client",
+    "display_name": {
+      "from": null,
+      "to": "Confirmar pedido del cliente",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Confirma el pedido del cliente vía Field/sistema.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "create_distributor_ticket",
+    "display_name": {
+      "from": null,
+      "to": "Crear ticket de soporte",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Abre un ticket humano en la distribuidora.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "edit_order_for_client",
+    "display_name": {
+      "from": null,
+      "to": "Editar pedido del cliente",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Agrega/edita líneas del pedido del cliente.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "get_field_app_link",
+    "display_name": {
+      "from": null,
+      "to": "Link de Suplai Field",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Envía el link de la app Field.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "get_open_order_status_for_client",
+    "display_name": {
+      "from": null,
+      "to": "Pedido abierto del cliente",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Resume el pedido abierto del cliente seleccionado.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "get_product_by_code",
+    "display_name": {
+      "from": null,
+      "to": "Producto por código",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Trae un producto exacto por SKU/código.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "get_seller_client_details",
+    "display_name": {
+      "from": null,
+      "to": "Ver detalle del cliente",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Muestra ficha del cliente y lo deja seleccionado.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "get_seller_client_summary",
+    "display_name": {
+      "from": null,
+      "to": "Resumen de cliente (Field)",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Resumen Field de un cliente.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "get_seller_daily_route",
+    "display_name": {
+      "from": null,
+      "to": "Ruta del día",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Ruta y visitas del día (Field).",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "get_seller_progress",
+    "display_name": {
+      "from": null,
+      "to": "Mi progreso",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Progreso/puntos Field.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "get_seller_selected_client",
+    "display_name": {
+      "from": null,
+      "to": "Cliente seleccionado",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Indica qué cliente está seleccionado ahora.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "get_seller_tasks",
+    "display_name": {
+      "from": null,
+      "to": "Mis tareas",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Tareas Field del vendedor.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "list_seller_clients",
+    "display_name": {
+      "from": null,
+      "to": "Listar mis clientes",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Lista la cartera de clientes del vendedor.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "load_seller_order_text",
+    "display_name": {
+      "from": null,
+      "to": "Cargar pedido por texto",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Interpreta un pedido en texto libre y lo carga al cliente.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "manage_contact_agenda",
+    "display_name": {
+      "from": null,
+      "to": "Preferencias de contacto",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Guarda preferencias de horario/contacto del chat.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "ping",
+    "display_name": {
+      "from": null,
+      "to": "Prueba de conexión",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Responde un eco para verificar que el agente está vivo.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "search_products",
+    "display_name": {
+      "from": null,
+      "to": "Buscar productos",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Busca productos del catálogo por texto (nombre, marca, etc.).",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "search_products_by_category",
+    "display_name": {
+      "from": null,
+      "to": "Buscar por categoría",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Lista productos filtrando por categoría.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "seller_catalog_query",
+    "display_name": {
+      "from": null,
+      "to": "Consulta de catálogo",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Consulta stock/precio/novedades sin armar pedido (opt-in).",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "seller_client_query",
+    "display_name": {
+      "from": null,
+      "to": "Consulta de cliente",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Consultas sobre un cliente de la cartera (opt-in).",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "seller_help",
+    "display_name": {
+      "from": null,
+      "to": "Ayuda del vendedor",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Manual corto de uso del agente vendedor.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "seller_my_metrics",
+    "display_name": {
+      "from": null,
+      "to": "Mis métricas",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Métricas del vendedor (opt-in).",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "seller_orders_query",
+    "display_name": {
+      "from": null,
+      "to": "Consulta de pedidos",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Consultas sobre pedidos del vendedor (opt-in).",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "seller_promo_pricing_query",
+    "display_name": {
+      "from": null,
+      "to": "Consulta de precios y promos",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Consulta promos y lista de precios del cliente (opt-in).",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "set_seller_selected_client",
+    "display_name": {
+      "from": null,
+      "to": "Elegir cliente",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Fija el cliente sobre el que se opera el pedido.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  },
+  {
+    "tool_name": "suggest_order_boost_for_client",
+    "display_name": {
+      "from": null,
+      "to": "Sugerir productos al pedido",
+      "changed": true
+    },
+    "short_description": {
+      "from": null,
+      "to": "Sugiere ítems para subir el monto del pedido.",
+      "changed": true
+    },
+    "in_editorial_table": false
+  }
+]
