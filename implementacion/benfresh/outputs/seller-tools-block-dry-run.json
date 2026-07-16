@@ -1,0 +1,254 @@
+[
+  {
+    "tool_name": "edit_order_for_client",
+    "calls_45d": 27,
+    "opt_in": false,
+    "keep_core": true,
+    "already_blocked": false,
+    "propose_set_false": false,
+    "reason": "núcleo en uso — no tocar"
+  },
+  {
+    "tool_name": "load_seller_order_text",
+    "calls_45d": 27,
+    "opt_in": false,
+    "keep_core": true,
+    "already_blocked": false,
+    "propose_set_false": false,
+    "reason": "núcleo en uso — no tocar"
+  },
+  {
+    "tool_name": "set_seller_selected_client",
+    "calls_45d": 19,
+    "opt_in": false,
+    "keep_core": true,
+    "already_blocked": false,
+    "propose_set_false": false,
+    "reason": "núcleo en uso — no tocar"
+  },
+  {
+    "tool_name": "confirm_order_for_client",
+    "calls_45d": 11,
+    "opt_in": false,
+    "keep_core": true,
+    "already_blocked": false,
+    "propose_set_false": false,
+    "reason": "núcleo en uso — no tocar"
+  },
+  {
+    "tool_name": "get_open_order_status_for_client",
+    "calls_45d": 9,
+    "opt_in": false,
+    "keep_core": true,
+    "already_blocked": false,
+    "propose_set_false": false,
+    "reason": "núcleo en uso — no tocar"
+  },
+  {
+    "tool_name": "get_seller_client_details",
+    "calls_45d": 4,
+    "opt_in": false,
+    "keep_core": true,
+    "already_blocked": false,
+    "propose_set_false": false,
+    "reason": "núcleo en uso — no tocar"
+  },
+  {
+    "tool_name": "search_products",
+    "calls_45d": 4,
+    "opt_in": false,
+    "keep_core": true,
+    "already_blocked": false,
+    "propose_set_false": false,
+    "reason": "núcleo en uso — no tocar"
+  },
+  {
+    "tool_name": "check_order_sync_status",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": false,
+    "propose_set_false": true,
+    "reason": "0 llamadas en 45d — proponer bloquear"
+  },
+  {
+    "tool_name": "clear_seller_context",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": true,
+    "propose_set_false": false,
+    "reason": "ya false en tools_habilitadas"
+  },
+  {
+    "tool_name": "create_distributor_ticket",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": true,
+    "propose_set_false": false,
+    "reason": "ya false en tools_habilitadas"
+  },
+  {
+    "tool_name": "get_field_app_link",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": true,
+    "propose_set_false": false,
+    "reason": "ya false en tools_habilitadas"
+  },
+  {
+    "tool_name": "get_product_by_code",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": false,
+    "propose_set_false": true,
+    "reason": "0 llamadas en 45d — proponer bloquear"
+  },
+  {
+    "tool_name": "get_seller_client_summary",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": true,
+    "propose_set_false": false,
+    "reason": "ya false en tools_habilitadas"
+  },
+  {
+    "tool_name": "get_seller_daily_route",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": true,
+    "propose_set_false": false,
+    "reason": "ya false en tools_habilitadas"
+  },
+  {
+    "tool_name": "get_seller_progress",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": true,
+    "propose_set_false": false,
+    "reason": "ya false en tools_habilitadas"
+  },
+  {
+    "tool_name": "get_seller_selected_client",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": false,
+    "propose_set_false": true,
+    "reason": "0 llamadas en 45d — proponer bloquear"
+  },
+  {
+    "tool_name": "get_seller_tasks",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": true,
+    "propose_set_false": false,
+    "reason": "ya false en tools_habilitadas"
+  },
+  {
+    "tool_name": "list_seller_clients",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": true,
+    "propose_set_false": false,
+    "reason": "ya false en tools_habilitadas"
+  },
+  {
+    "tool_name": "manage_contact_agenda",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": true,
+    "propose_set_false": false,
+    "reason": "ya false en tools_habilitadas"
+  },
+  {
+    "tool_name": "ping",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": true,
+    "propose_set_false": false,
+    "reason": "ya false en tools_habilitadas"
+  },
+  {
+    "tool_name": "search_products_by_category",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": true,
+    "propose_set_false": false,
+    "reason": "ya false en tools_habilitadas"
+  },
+  {
+    "tool_name": "seller_catalog_query",
+    "calls_45d": 0,
+    "opt_in": true,
+    "keep_core": false,
+    "already_blocked": false,
+    "propose_set_false": false,
+    "reason": "opt-in (ya off salvo true)"
+  },
+  {
+    "tool_name": "seller_client_query",
+    "calls_45d": 0,
+    "opt_in": true,
+    "keep_core": false,
+    "already_blocked": false,
+    "propose_set_false": false,
+    "reason": "opt-in (ya off salvo true)"
+  },
+  {
+    "tool_name": "seller_help",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": true,
+    "propose_set_false": false,
+    "reason": "ya false en tools_habilitadas"
+  },
+  {
+    "tool_name": "seller_my_metrics",
+    "calls_45d": 0,
+    "opt_in": true,
+    "keep_core": false,
+    "already_blocked": false,
+    "propose_set_false": false,
+    "reason": "opt-in (ya off salvo true)"
+  },
+  {
+    "tool_name": "seller_orders_query",
+    "calls_45d": 0,
+    "opt_in": true,
+    "keep_core": false,
+    "already_blocked": false,
+    "propose_set_false": false,
+    "reason": "opt-in (ya off salvo true)"
+  },
+  {
+    "tool_name": "seller_promo_pricing_query",
+    "calls_45d": 0,
+    "opt_in": true,
+    "keep_core": false,
+    "already_blocked": false,
+    "propose_set_false": false,
+    "reason": "opt-in (ya off salvo true)"
+  },
+  {
+    "tool_name": "suggest_order_boost_for_client",
+    "calls_45d": 0,
+    "opt_in": false,
+    "keep_core": false,
+    "already_blocked": true,
+    "propose_set_false": false,
+    "reason": "ya false en tools_habilitadas"
+  }
+]
