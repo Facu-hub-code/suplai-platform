@@ -1,0 +1,28 @@
+{
+  "periodo": "mar-jun",
+  "meses": [
+    "marzo",
+    "abril",
+    "mayo",
+    "junio"
+  ],
+  "formula": {
+    "rotacion_raw": "contador / sum(cant_vendida) por product_code",
+    "margen_pct": "(sum(ventas_neto) - sum(costo)) / sum(ventas_neto)",
+    "rotacion_index": "min-max normalizado de rotacion_raw → productos.rotacion_index",
+    "clase_A": "rotacion >= mediana AND margen <= mediana",
+    "clase_B": "rotacion < mediana AND margen > mediana; resto por desempate"
+  },
+  "medianas": {
+    "rotacion_raw": 0.2616345,
+    "margen_pct": 0.29945
+  },
+  "productos_con_ventas": 206,
+  "clase_A": 51,
+  "clase_B": 155,
+  "pct_A": 24.8,
+  "pct_B": 75.2,
+  "csv_preview": "/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/implementacion/el_gigante/outputs/ventas-mar-jun-rotacion-abc-preview.csv",
+  "modo": "apply",
+  "nota_rentabilidad": "Sin margen explícito en ERP; se usa (ventas neto - costo) / ventas neto como proxy."
+}

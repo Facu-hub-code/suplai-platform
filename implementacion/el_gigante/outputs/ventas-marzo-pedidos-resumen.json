@@ -1,0 +1,16 @@
+{
+  "mes": "marzo",
+  "excel": "/Users/facundolorenzo/Desktop/el_gigante/ventas x articulo x cliente/marzo 26 vta x art cliente - vendedor - ruta.xlsx",
+  "fecha_sintetica": "2026-03-15",
+  "filas_excel": 7817,
+  "pedidos_preview": 790,
+  "items_preview": 6507,
+  "skipped": {
+    "sin_venta": 9,
+    "producto": 9,
+    "cliente": 1165
+  },
+  "csv_pedidos": "/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/implementacion/el_gigante/outputs/ventas-marzo-pedidos-preview.csv",
+  "csv_items": "/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/implementacion/el_gigante/outputs/ventas-marzo-items-preview.csv",
+  "modo": "dry-run"
+}

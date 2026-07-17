@@ -1,0 +1,16 @@
+{
+  "periodo": "mar-jun",
+  "meses": [
+    "marzo",
+    "abril",
+    "mayo",
+    "junio"
+  ],
+  "filas_excel": 28519,
+  "productos_unicos_excel": 210,
+  "productos_en_catalogo": 188,
+  "productos_fuera_catalogo": 22,
+  "tags_unicos": 37,
+  "csv_preview": "/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/implementacion/el_gigante/outputs/ventas-mar-jun-etiquetas-preview.csv",
+  "modo": "apply"
+}

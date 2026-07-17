@@ -1,0 +1,28 @@
+{
+  "periodo": "mar-jun",
+  "meses": [
+    "marzo",
+    "abril",
+    "mayo",
+    "junio"
+  ],
+  "fechas_sinteticas": {
+    "marzo": "2026-03-15",
+    "abril": "2026-04-15",
+    "mayo": "2026-05-15",
+    "junio": "2026-06-15"
+  },
+  "filas_excel": 28519,
+  "pedidos_preview": 3577,
+  "items_preview": 27751,
+  "skipped": {
+    "sin_venta": 44,
+    "producto": 0,
+    "cliente": 14
+  },
+  "catalogo_productos": 226,
+  "clientes_conocidos": 1533,
+  "csv_pedidos": "/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/implementacion/el_gigante/outputs/ventas-mar-jun-pedidos-preview.csv",
+  "csv_items": "/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/implementacion/el_gigante/outputs/ventas-mar-jun-items-preview.csv",
+  "modo": "apply"
+}

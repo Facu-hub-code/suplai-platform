@@ -1,0 +1,19 @@
+{
+  "schema": "el_gigante",
+  "periodo": "mar-jun",
+  "meses": [
+    "marzo",
+    "abril",
+    "mayo",
+    "junio"
+  ],
+  "filas_excel": 28519,
+  "productos_faltantes": 0,
+  "clientes_faltantes": 246,
+  "omitidos_carga_producto": [
+    "10002"
+  ],
+  "csv_productos": "/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/implementacion/el_gigante/outputs/ventas-mar-jun-productos-faltantes-preview.csv",
+  "csv_clientes": "/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/implementacion/el_gigante/outputs/ventas-mar-jun-clientes-faltantes-preview.csv",
+  "modo": "apply"
+}

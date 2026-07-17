@@ -1,0 +1,11 @@
+{
+  "mes": "marzo",
+  "excel": "/Users/facundolorenzo/Desktop/el_gigante/ventas x articulo x cliente/marzo 26 vta x art cliente - vendedor - ruta.xlsx",
+  "filas_excel": 7817,
+  "productos_unicos_excel": 162,
+  "productos_en_catalogo": 156,
+  "productos_fuera_catalogo": 6,
+  "tags_unicos": 28,
+  "csv_preview": "/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/implementacion/el_gigante/outputs/ventas-marzo-etiquetas-preview.csv",
+  "modo": "dry-run"
+}

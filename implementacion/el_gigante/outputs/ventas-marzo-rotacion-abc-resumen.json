@@ -1,0 +1,23 @@
+{
+  "mes": "marzo",
+  "excel": "/Users/facundolorenzo/Desktop/el_gigante/ventas x articulo x cliente/marzo 26 vta x art cliente - vendedor - ruta.xlsx",
+  "formula": {
+    "rotacion_raw": "contador / sum(cant_vendida) por product_code",
+    "margen_pct": "(sum(ventas_neto) - sum(costo)) / sum(ventas_neto)",
+    "rotacion_index": "min-max normalizado de rotacion_raw → productos.rotacion_index",
+    "clase_A": "rotacion >= mediana AND margen <= mediana",
+    "clase_B": "rotacion < mediana AND margen > mediana; resto por desempate"
+  },
+  "medianas": {
+    "rotacion_raw": 0.28613200000000005,
+    "margen_pct": 0.3009
+  },
+  "productos_con_ventas": 158,
+  "clase_A": 39,
+  "clase_B": 119,
+  "pct_A": 24.7,
+  "pct_B": 75.3,
+  "csv_preview": "/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/implementacion/el_gigante/outputs/ventas-marzo-rotacion-abc-preview.csv",
+  "modo": "dry-run",
+  "nota_rentabilidad": "Sin margen explícito en ERP; se usa (ventas neto - costo) / ventas neto como proxy."
+}
