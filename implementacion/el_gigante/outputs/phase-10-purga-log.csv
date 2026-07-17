@@ -1,0 +1,36 @@
+tabla,filas_borradas,ok,notes
+field_task_events,336,true,full
+field_point_ledger,306,true,full
+field_podcast_jobs,92,true,full
+field_tasks,607,true,full
+field_objetivo_skus,14,true,full
+field_objetivos,6,true,full
+field_tournaments,3,true,full
+field_task_templates,5,true,full
+items_pedido,1678,true,full incl no-mock demo
+pedidos,634,true,full incl no-mock demo
+n8n_chat_histories,274,true,full
+core.conversation_events,34,true,tenant el_gigante
+core.conversations,7,true,tenant el_gigante
+conversations,52,true,full
+ia_tickets,25,true,full
+promociones_semanales,4,true,mock promos
+public.tenant_cross_sell_mappings,10,true,tenant
+public.tenant_up_sell_mappings,6,true,tenant
+vendedor_geo_zones,9,true,full
+vendedores_clientes,50,true,full
+client_locations,50,true,full
+clientes_aliases,0,true,full
+clientes_etiquetas,0,true,full
+clients,51,true,full incl E2E suplai-platform-test
+puntos_venta,50,true,full
+geo_zones,8,true,full
+vendedores,4,true,full incl Facundo
+productos,0,true,KEPT 206; is_mock set false
+precios_productos,0,true,KEPT 824; is_mock set false
+listas_precios,0,true,KEPT 4; is_mock set false
+productos_aliases,0,true,KEPT 1204
+tags,0,true,KEPT 149
+product_tags,0,true,KEPT 799
+categorias,0,true,KEPT 149
+product_categories,0,true,KEPT 799

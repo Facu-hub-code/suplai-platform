@@ -1,0 +1,3 @@
+codigo,cuit,razon_social,nombre,localidad,domicilio,phone_number,lat,lng,geocode_status,lista_precios_id,dia_de_visita,dia_de_entrega,dias_zona,vendedor_nombre,zona_nombre,source_file,is_mock
+420065,22536897,ROMERO WILMA,KIOSKO VENTANA,SAN ANDRES I,SCOCCINA 3645,,-26.1624262,-58.21188850000001,resolved,1,miércoles,jueves,"miércoles,viernes",Diego,San Andres,MIERCOLES Y VIERNES -SAN ANDRES 1.xlsx,false
+420076,40287135,CARDOZO LEAN,NEGOCIO PASILLO ESTANTES,SAN ANDRES I,KISNER 4295,3704906221,-26.1882217,-58.2133221,excel,1,miércoles,jueves,"miércoles,viernes",Diego,San Andres,MIERCOLES Y VIERNES -SAN ANDRES 1.xlsx,false

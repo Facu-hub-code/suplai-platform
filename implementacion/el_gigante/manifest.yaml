@@ -7,7 +7,7 @@ coordenadas_centro: [-26.1775, -58.1781]
 excel_input: "inputs/LISTADO DE ARTICULOS VIGENTES 09-06-2026  GIGANTE (2).xlsx"
 
 blocked:
-  is_mock_migration: true  # pasar a false cuando exista columna is_mock en BD
+  is_mock_migration: false  # is_mock presente; purga 2026-07-17 conservó catálogo
 
 fases:
   "00":
@@ -55,11 +55,12 @@ fases:
   "04":
     nombre: red_comercial
     estado: cargado
-    output_csv: outputs/phase-04-vendedores.csv
-    output_csv_extra: outputs/phase-04-zonas.csv
-    output_csv_extra_2: outputs/phase-04-clientes.csv
-    filas_csv: 50
-    cargado_at: "2026-06-17T15:13:00Z"
+    output_csv: outputs/phase-04-vendedores-real.csv
+    output_csv_extra: outputs/phase-04-zonas-real.csv
+    output_csv_extra_2: outputs/phase-04-clientes-diego-san-francisco.csv
+    filas_csv: 257
+    note: "2026-07-17 real: 5 vendedores + 26 zonas; Diego Ruta 1 completa ~257 clients (8 zonas) + hulls Google"
+    cargado_at: "2026-07-17T14:45:00Z"
   "05":
     nombre: clientes_flags
     estado: cargado
@@ -87,10 +88,18 @@ fases:
     cargado_at: "2026-06-17T15:13:00Z"
   "09":
     nombre: purga_mock
-    estado: bloqueado
-    output_csv: outputs/phase-09-purga-log.csv
-    filas_csv: 0
-    cargado_at: null
+    estado: cargado
+    output_csv: outputs/phase-10-purga-log.csv
+    filas_csv: 35
+    cargado_at: "2026-07-17T11:00:00Z"
+    notas: "Purga comercial+Field; catálogo (206 productos) conservado; is_mock=false en productos/precios/listas"
+  "10":
+    nombre: purga_mock
+    estado: cargado
+    output_csv: outputs/phase-10-purga-log.csv
+    filas_csv: 35
+    cargado_at: "2026-07-17T11:00:00Z"
+    notas: "Alias skill phase-10; mismo log que fase 09"
 
 marca_lider: "MANAOS"  # completar tras Fase 1 (ej. ALBA, SIKA)
 tenant_id: "965a6919-7967-4f3b-93bd-2b468b3ccb2e"    # UUID de public.distribuidoras — completar en Fase 0
