@@ -29,6 +29,10 @@ scripts/*/__pycache__/
 # Reportes E2E generados localmente (test_agent_e2e.py)
 implementacion/**/outputs/reporte_e2e_*.md
 
+# Excels de origen ya procesados (El Gigante) — quedan locales; en git van los CSV/outputs
+implementacion/el_gigante/inputs/**/*.xlsx
+implementacion/el_gigante/inputs/**/*.xls
+
 # Spec podcast — artefactos de audio/guion generados localmente (skill spec-podcast)
 .tmp-audio-demo/
 .cursor/skills/spec-podcast/output/**/*
