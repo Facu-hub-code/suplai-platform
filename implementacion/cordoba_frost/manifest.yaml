@@ -1,0 +1,116 @@
+# Copiar esta carpeta a implementacion/{schema_name}/ y completar.
+# Campos obligatorios marcados con ★
+
+schema_name: "cordoba_frost"              # ★ Nombre del schema en Supabase (ej: al_fuego)
+nombre_comercial: "Córdoba Frost"         # ★ Nombre visible del tenant (ej: Al Fuego)
+ciudad_base: "Córdoba, Argentina"              # ★ Ciudad de operaciones (ej: "Valle Escondido, Córdoba, Argentina")
+coordenadas_centro: [-31.417, -64.183]       # ★ [lat, lon] del centro geográfico (ej: [-31.3547, -64.2442]) — usado en Fase 4
+rubro: "Panadería congelada"                    # ★ Descripción libre del rubro (ej: "carnicería / parrilla") — usado en Fase 4
+excel_input: "inputs/PRODUCTOS-2026-07-20 - Productos _ General.csv"
+sitio_web: "https://www.cordobafrost.com/"                # URL del sitio web del cliente (ej: https://alfuego.com.ar/)
+notas: "Distribuidora de panadería congelada."                    # Descripción libre del negocio y sucursal
+
+blocked:
+  is_mock_migration: false  # pasar a false tras aplicar docs/implementacion/migrations/20260615_add_is_mock_columns_demo_and_tenants.sql
+
+
+fases:
+  "00":
+    nombre: preflight
+    estado: cargado  # pendiente | en_curso | csv_listo | cargado | bloqueado
+    output_csv: outputs/phase-00-preflight.csv
+    filas_csv: 8
+    cargado_at: "2026-07-21T09:22:00Z"
+  "01":
+    nombre: catalogo
+    estado: cargado
+    output_csv: outputs/phase-01-productos.csv
+    output_csv_extra: outputs/phase-01-lista-precios-*.csv
+    filas_csv: 3
+    cargado_at: "2026-07-21T09:22:00Z"
+  "01.1":
+    nombre: tags
+    estado: pendiente
+    output_json: outputs/phase-01-1-propuesta-tags.json
+    cargado_at: null
+  "01.2":
+    nombre: mejora_descripciones
+    estado: cargado
+    output_csv: outputs/vista_previa_enriquecimiento.csv
+  "01.3":
+    nombre: prompt_agente
+    estado: pendiente
+    output_json: outputs/phase-01-3-prompt-config.json
+    cargado_at: null
+  "02":
+    nombre: promociones
+    estado: pendiente
+    output_csv: outputs/phase-02-promociones.csv
+    filas_csv: 0
+    cargado_at: null
+  "03":
+    nombre: cross_upsell
+    estado: pendiente
+    output_csv: outputs/phase-03-cross-sell.csv
+    output_csv_extra: outputs/phase-03-up-sell.csv
+    filas_csv: 0
+    cargado_at: null
+  "04":
+    nombre: red_comercial
+    estado: pendiente
+    output_csv: outputs/phase-04-vendedores.csv
+    output_csv_extra: outputs/phase-04-zonas.csv
+    output_csv_extra_2: outputs/phase-04-clientes.csv
+    filas_csv: 0
+    cargado_at: null
+  "05":
+    nombre: clientes_flags
+    estado: pendiente
+    output_csv: outputs/phase-05-clientes-flags.csv
+    filas_csv: 0
+    cargado_at: null
+  "06":
+    nombre: pedidos
+    estado: pendiente
+    output_csv: outputs/phase-06-pedidos.csv
+    output_csv_extra: outputs/phase-06-items-pedido.csv
+    filas_csv: 0
+    cargado_at: null
+  "06.1":
+    nombre: field_setup
+    estado: pendiente
+    output_csv: outputs/phase-06-1-pedidos-field.csv
+    output_csv_extra: outputs/phase-06-1-items-pedido-field.csv
+    output_json: outputs/phase-06-1-objetivos.csv
+    filas_csv: 0
+    cargado_at: null
+    ml_retrained: false          # true si retrain_ml.py completó con rows_used > 0
+    ml_warning: null             # Mensaje si el servicio ML estaba caído
+  "07":
+    nombre: conversaciones
+    estado: pendiente
+    output_csv: outputs/phase-07-conversaciones-resumen.csv
+    filas_csv: 0
+    cargado_at: null
+  "08":
+    nombre: insights
+    estado: pendiente
+    output_csv: outputs/phase-08-notificaciones.csv
+    filas_csv: 0
+    cargado_at: null
+  "09":
+    nombre: e2e_testing
+    estado: pendiente
+    output_markdown: outputs/reporte_e2e_*.md
+    cargado_at: null
+  "10":
+    nombre: purga_mock
+    estado: bloqueado
+    output_csv: outputs/phase-10-purga-log.csv
+    filas_csv: 0
+    cargado_at: null
+
+marca_lider: "Córdoba Frost"  # ★ Completar tras Fase 1 — marca principal del tenant (ej: Formagge, ALBA, SIKA)
+                 #   Usada en Fase 2 (promo 1) y Fase 8 (insights de calidad)
+tenant_id: "be6e832f-bf4b-4ce2-b6e6-52e89824bc89"    # ★ UUID de public.distribuidoras.id — completar en Fase 0
+                 #   Usado en Fases 03, y siguientes para mapeos en tablas public.*
