@@ -1,0 +1,31 @@
+{
+  "schema_name": "del_corro",
+  "tags_created": [
+    {
+      "id": 213,
+      "name": "MAYORISTA"
+    },
+    {
+      "id": 214,
+      "name": "MINORISTA"
+    },
+    {
+      "id": 215,
+      "name": "TRANSFERENCIA"
+    },
+    {
+      "id": 216,
+      "name": "EFECTIVO"
+    }
+  ],
+  "receptionist_config_applied": true,
+  "fields": [
+    {"key": "razon_social", "label": "Nombre", "mandatory": true},
+    {"key": "cuit", "label": "CUIT o DNI", "mandatory": true}
+  ],
+  "ask_location": true,
+  "location_mandatory": true,
+  "qualification_questions": ["tipo_cliente", "forma_pago"],
+  "agent_pr": "https://github.com/Facu-hub-code/agente-conversacional-multi_tenant/pull/49",
+  "note": "Config en public.distribuidoras.receptionist_config (del_corro). Soporte CUIT/DNI en agent PR #49 (merged)."
+}
