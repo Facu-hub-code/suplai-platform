@@ -353,4 +353,5 @@ Este documento vive en `platform` (`feat/estrategias-ciclo-inteligente`).
 
 - **Fase 1 (schema + ledger + accept-budget):** plan `docs/superpowers/plans/2026-07-30-estrategias-ciclo-inteligente-fase1.md` ejecutado en backend `feat/estrategias-ciclo-schema` (2026-07-30). Migration `86_…`, ledger, `POST …/accept-budget` atómico. Ver handoff Fase 2+ en ese plan.
 - **Fase 2 (cycle 0 + dispatcher):** plan `docs/superpowers/plans/2026-07-30-estrategias-ciclo-inteligente-fase2.md` (2026-07-30). `open_cycle_0` al aceptar `recurrente_ciclo`; dispatches `reserved`/`deferred`; job `estrategias_dispatch` */15; `POST …/open-cycle-0`.
-- **Fases 3–5:** pendientes (planner rules_v1 + template ops, reports/PDF, UI).
+- **Fase 3 (planner + template ops):** plan `docs/superpowers/plans/2026-07-30-estrategias-ciclo-inteligente-fase3.md`. `rules_v1`, `close_cycle` → plan next, template ops promote draft→approved, cleanup >14d.
+- **Fases 4–5:** pendientes (reports/PDF, UI).
