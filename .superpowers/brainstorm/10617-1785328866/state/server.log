@@ -1,3 +1,0 @@
-{"type":"server-started","port":63331,"host":"127.0.0.1","url_host":"localhost","url":"http://localhost:63331/?key=57b448614f71c0d0ba381fe0c627f58076e65f3240006856abab7f455413bb07","screen_dir":"/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/.superpowers/brainstorm/10617-1785328866/content","state_dir":"/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/.superpowers/brainstorm/10617-1785328866/state","idle_timeout_ms":14400000}
-fs.watch error: EMFILE: too many open files, watch
-{"type":"server-stopped","reason":"owner process exited"}
