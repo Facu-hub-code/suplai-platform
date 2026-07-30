@@ -3,6 +3,14 @@
     "supabase": {
       "type": "http",
       "url": "https://mcp.supabase.com/mcp?project_ref=cvlbietibaaehgeimxgw&read_only=true"
+    },
+    "Meta Developer Tools": {
+      "type": "http",
+      "url": "https://mcp.facebook.com/devtools"
+    },
+    "meta-ads": {
+      "type": "http",
+      "url": "https://mcp.facebook.com/ads"
     }
   }
 }

@@ -33,4 +33,6 @@ implementacion/**/outputs/reporte_e2e_*.md
 .tmp-audio-demo/
 .cursor/skills/spec-podcast/output/**/*
 !.cursor/skills/spec-podcast/output/.gitignore
-!.cursor/skills/spec-podcast/output/.gitkeep
+!.cursor/skills/spec-podcast/output/.gitkeep.superpowers/brainstorm/.last-token
+.superpowers/brainstorm/**/server.pid
+.superpowers/brainstorm/**/server.log
