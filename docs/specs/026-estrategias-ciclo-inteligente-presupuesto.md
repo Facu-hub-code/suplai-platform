@@ -45,10 +45,12 @@ Evidencia: `sql/60_add_estrategias.sql`, `routers/estrategias.py`, `components/c
 | Granularidad v1 | Plantillas / cohorts por **estado comercial** | Escala con límites Meta y evita explosión de HSM | 1 plantilla × PdV (futuro vía mismo schema) |
 | Aprobación humana | Solo al **aceptar presupuesto**; bucle automático hasta $0 | El presupuesto es el kill switch operativo | Gate semanal de plantillas (fricción) |
 | Contabilidad de costo | Estimado `cost_per_send_usd × envíos` al reserve/commit | Predecible y operable sin billing Meta en tiempo real | Solo factura real Meta; híbrido reconcile (v1.1+) |
-| Meta PENDING/REJECTED | Pausar ese estado del ciclo; seguir con otros; alertar en reporte | No frena toda la estrategia ni gasta en fallback genérico silencioso | Esperar indefinido; fallback automático a seed |
+| Meta PENDING/REJECTED | Ciclo en `templates_pending`; poll **cada 6 h**; al APPROVED → dispatch; al REJECTED/timeout → pausar **ese** cohort, resto sigue; alertar en reporte | No frena toda la estrategia ni gasta en fallback genérico silencioso; evita carga innecesaria al server/Graph | Poll */15–30 (ruido); esperar indefinido; fallback automático a seed |
 | Cohorts vs `grupos` | Cohorts dinámicos por ciclo; **no** mutar el grupo seed | El grupo se reutiliza en otras features; re-segmentar ≠ editar CRM | Reescribir membresía del grupo cada viernes |
 | LLM reporte vs Planner | Componentes separados | Narrar ≠ decidir; evita que el reporte “tome” presupuesto | Un solo LLM que decide y reporta |
-| Cleanup Meta | Job diario + footprint en variant | Cumple límite de plantillas sin perder auditoría | Dejar plantillas eternas en WABA |
+| Copy de plantilla ciclo N+1 | **Opción A:** LLM genera body/components del HSM por cohort (máx N/ciclo); Template Ops crea en Meta y espera APPROVED | Diferenciación comercial “super inteligente” con señales | Solo enriquecer `template_spec` sin crear HSM nuevo (Opción B) |
+| Señales LLM | Estacionalidad (pedidos YoY/reciente), calendario Suplai (global+tenant, seed Nager `AR` configurable), clima (OpenWeather key global), nearby (Places key global) | Contexto real para el copy; keys centralizadas en backend | Señales solo UI / stubs eternos |
+| Cleanup Meta | Job diario: variants APPROVED sin uso >14d + sin dispatch reserved/pending → delete remoto + footprint + `deleted_remote` | Cumple límite WABA sin perder auditoría | Dejar plantillas eternas en WABA |
 | Envío | Reutilizar camino `agenda_sender` / envío plantilla vía `estrategia_dispatches` | No duplicar integración Meta | Sender nuevo paralelo |
 | Follow-up / promos | Sin cambio de modelo en v1 (siguen opcionales en wizard) | Fuera del critical path del ciclo | Rediseñar follow-up global (ver SPEC-047 backoffice) |
 
@@ -63,8 +65,10 @@ Evidencia: `sql/60_add_estrategias.sql`, `routers/estrategias.py`, `components/c
 - Tablas de ciclo, cohorts, template variants (+ footprint), dispatches, member_state, cycle reports, cycle plans.
 - Planner `rules_v1` (estados: seed, engaged_no_buy, cart_open, paused_no_reply, converted, reattempt).
 - Template Ops (create/poll Meta) + cleanup >14d.
+- **Fase 6 — Señales + Opción A:** resolver de señales → LLM genera body HSM por cohort → create Meta → wait APPROVED → dispatch; cleanup footprint.
+- Calendario eventos: `public` (feriados país, default `AR`) + `{schema}` (custom); UI botón Calendario junto a crear estrategia; import Nager.
 - Cycle close: metrics factuales + narrativa LLM + PDF descargable.
-- Wizard: paso/bloque de presupuesto; bifurcación puntual vs recurrente_ciclo.
+- Wizard: paso/bloque de presupuesto; bifurcación puntual vs recurrente_ciclo; paso Inteligencia + `intelligence_config`.
 - UI detalle: listado de reportes semanales + download PDF.
 - Jobs desacoplados (ver §5).
 
@@ -196,7 +200,7 @@ Al aceptar presupuesto en `recurrente_ciclo`: cohort `seed_initial` = miembros d
 |-----|------------|-----|
 | `cycle_close_and_report` | Vie | metrics + LLM report |
 | `cycle_plan_next` | post-report | Planner |
-| `template_ops_poll` | */15–30 | Meta create/poll |
+| `template_ops_poll` | cada 6 h | Meta create/poll |
 | `dispatch_reserved` | */15 | envíos reserved+approved |
 | `template_cleanup` | diario | delete remoto + footprint |
 | `budget_guard` | en reserve / open_cycle | no abrir si remaining ≤ 0 |
@@ -249,6 +253,9 @@ Plugins futuros: `llm_segment_v1`, `per_client_v1` — mismo shape; factory por 
 ## 7. UI
 
 - Wizard: bloque presupuesto + `cost_per_send`; mode puntual vs recurrente_ciclo en programación.  
+- Wizard (solo `recurrente_ciclo`): paso **Inteligencia** — animación del bucle semanal (revisar → enriquecer → reintentar), explicación de re-targeting y checks de señales LLM (`intelligence_config.signals`). Preferencias persistidas; el planner resuelve señales y el LLM genera body HSM (Opción A).  
+- Listado estrategias: botón **Calendario** (feriados Nager + eventos tenant; país default `AR` configurable).  
+
 - Medio de pago: referencia al ya configurado en portafolio/tenant (no cobro in-wizard en v1).  
 - Detalle estrategia: pestaña Ciclos/Reportes (lista, metrics, narrativa, PDF).  
 - PDF: lazy on download o async al close; regenerable desde `metrics` + `narrative`.
