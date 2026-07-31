@@ -80,29 +80,30 @@ async def main_async(esquema: str) -> None:
         )
         print(f"[*] Limpieza previa eventos mock (core): {deleted}")
 
-        conversation_cache: dict[str, int] = {}
-        last_event_per_session: dict[str, tuple] = {}
-
-        async def get_conversation_id(session: str) -> int:
-            cached = conversation_cache.get(session)
-            if cached is not None:
-                return cached
-            conv_id = await conn.fetchval(
+        # Pre-seed all sessions in bulk
+        all_sessions = list({(row["session_id"] or row["client_phone"]) for row in rows})
+        if all_sessions:
+            await conn.executemany(
                 """
                 INSERT INTO core.conversations (tenant_id, schema_name, session_id)
                 VALUES ($1, $2, $3)
                 ON CONFLICT (tenant_id, session_id)
                 DO UPDATE SET updated_at = now(), schema_name = EXCLUDED.schema_name
-                RETURNING id
                 """,
-                tenant_id,
-                esquema,
-                session,
+                [(tenant_id, esquema, s) for s in all_sessions],
             )
-            conversation_cache[session] = int(conv_id)
-            return int(conv_id)
+        
+        session_rows = await conn.fetch(
+            "SELECT session_id, id FROM core.conversations WHERE tenant_id = $1 AND schema_name = $2",
+            tenant_id,
+            esquema,
+        )
+        conversation_cache: dict[str, int] = {r["session_id"]: r["id"] for r in session_rows}
+        last_event_per_session: dict[str, tuple] = {}
 
+        event_params_list = []
         inserted = 0
+
         for idx, row in enumerate(rows):
             session_id = row["session_id"] or row["client_phone"]
             sender_type = (row["sender_type"] or row["type"] or "").lower()
@@ -120,25 +121,30 @@ async def main_async(esquema: str) -> None:
                 "client_phone": row.get("client_phone", session_id),
             }
 
-            conversation_id = await get_conversation_id(session_id)
-            await conn.execute(
-                """
-                INSERT INTO core.conversation_events
-                (tenant_id, conversation_id, request_id, event_type, event_payload, created_at)
-                VALUES ($1, $2, $3, $4, $5::jsonb, $6)
-                """,
+            conversation_id = conversation_cache[session_id]
+            event_params_list.append((
                 tenant_id,
                 conversation_id,
                 f"mock-fase07-{session_id}-{idx}",
                 event_type,
                 json.dumps(payload, ensure_ascii=False),
                 created_at,
-            )
+            ))
             inserted += 1
 
             prev = last_event_per_session.get(session_id)
             if prev is None or created_at >= prev[0]:
                 last_event_per_session[session_id] = (created_at, event_type)
+
+        if event_params_list:
+            await conn.executemany(
+                """
+                INSERT INTO core.conversation_events
+                (tenant_id, conversation_id, request_id, event_type, event_payload, created_at)
+                VALUES ($1, $2, $3, $4, $5::jsonb, $6)
+                """,
+                event_params_list,
+            )
 
         total_rows = await conn.fetchval(
             """

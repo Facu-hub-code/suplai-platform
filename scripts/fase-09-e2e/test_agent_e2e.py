@@ -951,7 +951,7 @@ async def get_agent_phone_number(conn: asyncpg.Connection, schema: str) -> str:
     )
     if not phone:
         raise ValueError(f"No hay un número de teléfono asignado al agente en '{schema}'")
-    return str(phone)
+    return str(int(float(phone)))
 
 async def fetch_tool_trace(conn: asyncpg.Connection, schema: str, session_id: str, test_start_time: datetime) -> List[Dict[str, Any]]:
     """
