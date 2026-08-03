@@ -33,6 +33,7 @@ Documento maestro que enlaza las specs anidadas. Implementación repartida en `b
 | `backend-supabase` | [042-suplai-copilot-contrato-ventas.md](../../backend-supabase/docs/specs/042-suplai-copilot-contrato-ventas.md) | Definiciones SQL de métricas de venta para tools y PDF |
 | `product-management-app` | [039-suplai-copilot-ui-artefactos.md](../../product-management-app/doc/specs/039-suplai-copilot-ui-artefactos.md) | Panel, bubble, canvas de artefactos, confirmación write |
 | `suplai-platform` | [014-suplai-copilot-supervisor-ritmo-ventas.md](./014-suplai-copilot-supervisor-ritmo-ventas.md) | **Epic Fase 2.5:** día de semana por vendedor, thought stream, follow-ups, evals CI |
+| `suplai-platform` | [027-copilot-hablar-con-datos.md](./027-copilot-hablar-con-datos.md) | **Rediseño v1:** acceso bajo Estrategias, ChatGPT UI, híbrido tools + NL→SQL, depreca artefactos ricos |
 | `backend-supabase` | [043-suplai-copilot-sales-by-day-of-week.md](../../backend-supabase/docs/specs/043-suplai-copilot-sales-by-day-of-week.md) | Tool `sales_by_day_of_week` |
 | `backend-supabase` | [044-suplai-copilot-thought-stream-followups.md](../../backend-supabase/docs/specs/044-suplai-copilot-thought-stream-followups.md) | SSE progreso + follow-ups sugeridos |
 | `backend-supabase` | [045-suplai-copilot-evals-ci.md](../../backend-supabase/docs/specs/045-suplai-copilot-evals-ci.md) | Eval harness pytest por tenant |
