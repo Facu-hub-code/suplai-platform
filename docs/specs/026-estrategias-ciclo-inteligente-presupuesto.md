@@ -23,17 +23,20 @@ Hoy una estrategia es un pegamento:
 
 Evidencia: `sql/60_add_estrategias.sql`, `routers/estrategias.py`, `components/create-strategy-modal.tsx`, `components/strategies-view.tsx`.
 
-## Criterios de aceptación (v1)
+## Criterios de aceptación (v1 + Fase 7 skeletons)
 
 - [ ] Al aceptar presupuesto en modo `recurrente_ciclo`, la estrategia corre sola hasta `budget_remaining ≤ 0` (o `activo=false`).
-- [ ] Ciclo 0 usa plantilla seed + audiencia seed; ciclos siguientes usan plan del Planner.
+- [ ] **Sin plantilla seed:** la salida es un **pool** de HSM temáticos materializados desde la biblioteca de ideas del tenant; ciclo 0 despacha con personalización 1:1 por variables.
 - [ ] PdV con ≥3 envíos de la estrategia sin respuesta queda en estado `paused_no_reply` y no recibe más dispatches de esa estrategia.
-- [ ] Por ciclo se crean como máximo N plantillas Meta nuevas (default 3–5, por estado); no 1 plantilla por cliente.
-- [ ] Plantillas Meta no usadas >14 días se borran en Meta; queda `footprint` en BD.
+- [ ] Personalización 1:1 = variables Meta (`{{1}}`…`{{4}}`) en el mismo HSM; no 1 plantilla Meta por cliente.
+- [ ] Rotación semanal de themes en cohort `reattempt` según `theme_stats` × fit de señales; `cart_open` / `engaged_no_buy` usan HSM fijos del sistema.
+- [ ] Plantillas Meta del pool no usadas >14 días se borran en Meta; queda `footprint` en BD.
 - [ ] Cada viernes (configurable) hay reporte con: enviados, monto gastado estimado, replies/interacciones, carritos abiertos, pedidos cerrados + narrativa LLM; descargable en PDF.
-- [ ] Si una variant queda `REJECTED` o timeout `PENDING`, se pausa ese estado/cohort del ciclo; el resto continúa; el reporte lo refleja.
+- [ ] Si un HSM del pool queda `REJECTED` o timeout `PENDING`, se pausa ese theme; el resto continúa; el reporte lo refleja.
+- [ ] Al APPROVED del pool listo para dispatch → notificación in-app backoffice (`template_approved_ready`).
+- [ ] Si el LLM detecta un ángulo no cubierto → solo `ia_tickets` tag `ESTRATEGIA_TEMPLATE_LEARNING` (no crea HSM).
 - [ ] Cambiar `planner_version` no requiere cambios en Dispatcher ni Ledger.
-- [ ] Programación puntual sigue siendo un shot con tope de gasto, sin bucle de recontacto inteligente.
+- [ ] Programación puntual usa 1 idea del pool (sin rotación).
 
 ---
 
@@ -42,14 +45,16 @@ Evidencia: `sql/60_add_estrategias.sql`, `routers/estrategias.py`, `components/c
 | Decisión | Elección | Por qué | Alternativa descartada |
 |----------|----------|---------|------------------------|
 | Arquitectura | Pipeline por artefactos de ciclo (Strategy → Cycle → Cohorts → Variants → Dispatches → Outcomes → Report) | Permite enchufar inteligencia solo en el Planner | Extender monolíticamente `estrategias` (acopla todo) o event-bus puro (complejidad prematura) |
-| Granularidad v1 | Plantillas / cohorts por **estado comercial** | Escala con límites Meta y evita explosión de HSM | 1 plantilla × PdV (futuro vía mismo schema) |
+| Granularidad | Pool HSM por **theme** + cohorts por **estado**; 1:1 vía variables | Escala con límites Meta; personaliza sin explotar WABA | 1 plantilla × PdV |
+| Plantilla seed | **Eliminada**; biblioteca tenant de ideas → salida materializada | Reutiliza copy; rota themes semana a semana | Un solo `meta_plantilla_id` seed |
+| Copy ciclo N+1 | Reusar HSM del pool + resolver variables; LLM solo sugiere “aprendido” (notif) | Evita crear HSM cada semana | Opción A bakear body nuevo por ciclo |
 | Aprobación humana | Solo al **aceptar presupuesto**; bucle automático hasta $0 | El presupuesto es el kill switch operativo | Gate semanal de plantillas (fricción) |
 | Contabilidad de costo | Estimado `cost_per_send_usd × envíos` al reserve/commit | Predecible y operable sin billing Meta en tiempo real | Solo factura real Meta; híbrido reconcile (v1.1+) |
 | Meta PENDING/REJECTED | Ciclo en `templates_pending`; poll **cada 6 h**; al APPROVED → dispatch; al REJECTED/timeout → pausar **ese** cohort, resto sigue; alertar en reporte | No frena toda la estrategia ni gasta en fallback genérico silencioso; evita carga innecesaria al server/Graph | Poll */15–30 (ruido); esperar indefinido; fallback automático a seed |
 | Cohorts vs `grupos` | Cohorts dinámicos por ciclo; **no** mutar el grupo seed | El grupo se reutiliza en otras features; re-segmentar ≠ editar CRM | Reescribir membresía del grupo cada viernes |
 | LLM reporte vs Planner | Componentes separados | Narrar ≠ decidir; evita que el reporte “tome” presupuesto | Un solo LLM que decide y reporta |
-| Copy de plantilla ciclo N+1 | **Opción A:** LLM genera body/components del HSM por cohort (máx N/ciclo); Template Ops crea en Meta y espera APPROVED | Diferenciación comercial “super inteligente” con señales | Solo enriquecer `template_spec` sin crear HSM nuevo (Opción B) |
-| Señales LLM | Estacionalidad (pedidos YoY/reciente), calendario Suplai (global+tenant, seed Nager `AR` configurable), clima (OpenWeather key global), nearby (Places key global) | Contexto real para el copy; keys centralizadas en backend | Señales solo UI / stubs eternos |
+| Señales | Estacionalidad, calendario, clima, nearby → **variable resolver** + rotación de theme | Contexto 1:1 sin nuevo HSM | Bakear productos en el body del HSM |
+| Notificaciones | `ia_tickets` (sección Notificaciones del BO) con tags tipados | Unifica con el resto de alertas operativas; sin inbox paralelo en Estrategias | Tabla `backoffice_notifications` / campanita dedicada |
 | Cleanup Meta | Job diario: variants APPROVED sin uso >14d + sin dispatch reserved/pending → delete remoto + footprint + `deleted_remote` | Cumple límite WABA sin perder auditoría | Dejar plantillas eternas en WABA |
 | Envío | Reutilizar camino `agenda_sender` / envío plantilla vía `estrategia_dispatches` | No duplicar integración Meta | Sender nuevo paralelo |
 | Follow-up / promos | Sin cambio de modelo en v1 (siguen opcionales en wizard) | Fuera del critical path del ciclo | Rediseñar follow-up global (ver SPEC-047 backoffice) |
@@ -58,57 +63,72 @@ Evidencia: `sql/60_add_estrategias.sql`, `routers/estrategias.py`, `components/c
 
 ## 2. Alcance explícito
 
-### Incluido (v1)
+### Incluido (v1 + Fase 7)
 
-- Ampliar contrato de `estrategias` (budget, mode, planner_version, cost_per_send).
+- Ampliar contrato de `estrategias` (budget, mode, planner_version, cost_per_send); `meta_plantilla_id` **nullable/legacy**.
 - Ledger de presupuesto (reserve / commit / release).
 - Tablas de ciclo, cohorts, template variants (+ footprint), dispatches, member_state, cycle reports, cycle plans.
-- Planner `rules_v1` (estados: seed, engaged_no_buy, cart_open, paused_no_reply, converted, reattempt).
-- Template Ops (create/poll Meta) + cleanup >14d.
-- **Fase 6 — Señales + Opción A:** resolver de señales → LLM genera body HSM por cohort → create Meta → wait APPROVED → dispatch; cleanup footprint.
-- Calendario eventos: `public` (feriados país, default `AR`) + `{schema}` (custom); UI botón Calendario junto a crear estrategia; import Nager.
-- Cycle close: metrics factuales + narrativa LLM + PDF descargable.
-- Wizard: paso/bloque de presupuesto; bifurcación puntual vs recurrente_ciclo; paso Inteligencia + `intelligence_config`.
-- UI detalle: listado de reportes semanales + download PDF.
+- **Biblioteca tenant** `estrategia_skeleton_ideas` + **salida** `estrategia_salida_templates` + `estrategia_theme_stats`.
+- Notificaciones de ciclo en **`ia_tickets`**: pool creado, pool APPROVED, tanda enviada, learning (sin HSM).
+- Planner con estados (`engaged_no_buy`, `cart_open`, `paused_no_reply`, `converted`, `reattempt`) y rotación de themes.
+- Variable resolver 1:1 (`{{1}}`…`{{4}}`) + Template Ops create/poll del pool + cleanup >14d.
+- Calendario eventos + señales (clima, nearby, estacionalidad) alimentan resolver/rotación.
+- Cycle close: metrics + narrativa LLM + PDF; actualiza `theme_stats`.
+- Wizard: paso **Salida** (reemplaza seed), presupuesto, Inteligencia, biblioteca de ideas.
 - Jobs desacoplados (ver §5).
 
-### Fuera de alcance (v1)
+### Fuera de alcance
 
 - Aprobación humana semanal de plantillas/tandas.
 - Cobro real / reconcile con factura Meta.
-- Hiper-personalización 1:1 en producción (`per_client_v1`).
+- Crear HSM automáticamente desde “aprendido” (solo notificar).
+- 1 plantilla Meta distinta por PdV.
 - Mutación automática del `grupo` seed.
-- Shadow mode LLM planner (candidata v1.1).
-- Resolver SPEC-047 (follow-up per-estrategia) — independiente, puede paralelizarse después.
-- Rediseño visual del PDF (layout mínimo aceptable).
+- Email / WhatsApp de notificación BO.
+- Resolver SPEC-047 (follow-up per-estrategia).
+- Redesign visual completo del PDF.
 
 ---
 
 ## 3. Arquitectura (bounded contexts)
 
 ```text
-Strategy (contrato)     política + budget + seed grupo/plantilla
+Skeleton ideas (tenant)  biblioteca de ideas temáticas (no HSM aún)
         │
-Budget Ledger           reserve / commit estimado; kill switch
+Strategy salida          pool HSM materializado (themes + fijos cart/engaged)
         │
-Cycle Runner            orquestador idempotente por (estrategia, week_start)
+Budget Ledger            reserve / commit estimado; kill switch
+        │
+Cycle Runner             orquestador idempotente por (estrategia, week_start)
         │
    ┌────┴────┐
-   │ Planner │  plug-in: rules_v1 → (futuro llm_segment / per_client)
+   │ Planner │  estados + rotación theme (theme_stats × señales)
    └────┬────┘
-        │ escribe plan
-Cohorts + Template specs
+        │ cohorts + theme assignment
+Variable Resolver        {{1}}…{{4}} por PdV
         │
-Template Ops            Meta create/poll; footprint; cleanup remoto
+Template Ops             Meta create/poll pool; footprint; cleanup; notif BO
         │
-Dispatcher              dispatches + agenda_sender path
+Dispatcher               envío con body_params + header/buttons
         │
-Outcomes / member_state hechos (envíos, replies, carritos, pedidos)
+Outcomes / member_state  envíos, replies, carritos, pedidos, theme_stats
         │
-Report Store            metrics jsonb + narrative LLM + PDF
+Report + BO inbox        metrics + narrativa + notificaciones in-app
 ```
 
-**Regla de oro:** el Planner solo produce cohorts + template_specs. Ledger no segmenta. Dispatcher no planea. Report LLM no decide el próximo ciclo.
+**Regla de oro:** el Planner elige cohort + theme. El Resolver arma variables. Ledger no segmenta. Dispatcher no planea. LLM de learning no crea HSM.
+
+### Contrato de variables (pool rotativo)
+
+| Slot | Contenido |
+|------|-----------|
+| `{{1}}` | Nombre PdV (`razon_social`) |
+| `{{2}}` | Contexto temático (escuela cerca, lluvia, feriado, …) |
+| `{{3}}` | Producto / lista corta A |
+| `{{4}}` | Producto B (opcional; vacío si no aplica) |
+
+Themes rotables: `weather`, `holiday`, `nearby_map`, `seller`, `purchase_habit`.  
+Fijos: `cart_open` (header imagen + CTA confirmar), `engaged_no_buy` (historial).
 
 ---
 
@@ -125,7 +145,8 @@ Report Store            metrics jsonb + narrative LLM + PDF
 | `planner_version` | text | default `rules_v1` |
 | `budget_accepted_at` | timestamptz | null hasta aceptar |
 
-Se mantienen: `grupo_id` (seed), `meta_plantilla_id` (seed), `agenda_id` (ciclo 0 / puntual), follow-up, promos.
+Se mantienen: `grupo_id` (audiencia seed), `agenda_id` (ciclo 0 / puntual), follow-up, promos.  
+`meta_plantilla_id` queda **nullable/legacy**; el envío usa `estrategia_salida_templates`.
 
 ### 4.2 Nuevas tablas (por schema tenant)
 
@@ -171,9 +192,19 @@ Se mantienen: `grupo_id` (seed), `meta_plantilla_id` (seed), `agenda_id` (ciclo 
 
 - `cycle_id`, `planner_version`, `input_hash`, `output jsonb`, `created_at`
 
-### 4.3 Cleanup Meta ↔ footprint
+### 4.3 Fase 7 — biblioteca, salida, stats, notificaciones
 
-1. Variant `approved`, `last_used_at < now()-14d`, sin dispatch pendiente.  
+**`estrategia_skeleton_ideas`** (tenant): `theme`, `title`, `body_text`, `variable_slots`, `header_type`, `header_image_url`, `buttons_spec`, `role` (`idea`|`system_fixed`), `activo`.
+
+**`estrategia_salida_templates`**: pool materializado por estrategia (`theme`, `role` rotatable|system_cart|system_engaged, `meta_plantilla_id`, `meta_status`, `template_name`, `variable_columns`, `footprint`).
+
+**`estrategia_theme_stats`**: `(estrategia_id, theme)` → sends, replies, conversions, `score`.
+
+**Notificaciones (`ia_tickets`)**: description tipada `[TAG] Estrategia #{id}…` — tags `ESTRATEGIA_POOL_CREATED`, `ESTRATEGIA_POOL_APPROVED`, `ESTRATEGIA_CYCLE_SENT` (+ `|cycle_id|`), `ESTRATEGIA_TEMPLATE_LEARNING`. `client_id` NULL. Idempotencia por ticket `open` con el mismo marker. (Migración `92` droppea `backoffice_notifications`.)
+
+### 4.4 Cleanup Meta ↔ footprint
+
+1. Salida/variant `approved`, sin uso >14d, sin dispatch pendiente.  
 2. Asegurar `footprint` completo.  
 3. DELETE en Meta; `meta_status=deleted_remote`.
 
@@ -192,7 +223,7 @@ Se mantienen: `grupo_id` (seed), `meta_plantilla_id` (seed), `agenda_id` (ciclo 
 
 ### Ciclo 0 (bootstrap)
 
-Al aceptar presupuesto en `recurrente_ciclo`: cohort `seed_initial` = miembros del grupo; plantilla seed ya APPROVED; reserve + dispatch según agenda del wizard. Luego entra el bucle semanal.
+Al aceptar presupuesto en `recurrente_ciclo`: cohort `seed_initial` = miembros del grupo; **pool de salida APPROVED** (o ciclo en `templates_pending` hasta approve); cada PdV recibe un theme (mejor fit de señales / round-robin); reserve + dispatch con variables 1:1. Luego entra el bucle semanal.
 
 ### Jobs
 
@@ -235,30 +266,31 @@ Fallo de LLM report **no** bloquea el plan del próximo ciclo (metrics sí oblig
 4. Si `personalization_level=client` ⇒ un client por cohort.  
 5. Prioridad respetada cuando el budget no cubre toda la cola.
 
-### `rules_v1` (comportamiento)
+### Planner themes (comportamiento)
 
 | Condición | reason_code / efecto |
 |-----------|----------------------|
 | ≥3 envíos estrategia sin reply | `paused_no_reply` (exclude) |
-| Reply / interacción sin pedido | `engaged_no_buy` + carrusel historial compra |
-| Carrito abierto sin confirm | `cart_open` + carrusel items + CTA confirmar |
+| Reply / interacción sin pedido | `engaged_no_buy` → HSM fijo historial + vars |
+| Carrito abierto sin confirm | `cart_open` → HSM fijo + imagen + CTA confirmar |
 | Convertido (pedido en ventana) | `converted` (exclude) |
-| Resto elegible | `reattempt` / reglas simples |
-| Ciclo 0 | `seed_initial` + plantilla seed |
+| Resto elegible | `reattempt` → rotar theme (`weather` / `holiday` / `nearby_map` / `seller` / `purchase_habit`) por score × señales |
+| Ciclo 0 | `seed_initial` + asignación theme del pool |
 
-Plugins futuros: `llm_segment_v1`, `per_client_v1` — mismo shape; factory por `planner_version`.
+Ángulo LLM no cubierto por el pool → notificación learning; **no** create Meta.
 
 ---
 
 ## 7. UI
 
-- Wizard: bloque presupuesto + `cost_per_send`; mode puntual vs recurrente_ciclo en programación.  
-- Wizard (solo `recurrente_ciclo`): paso **Inteligencia** — animación del bucle semanal (revisar → enriquecer → reintentar), explicación de re-targeting y checks de señales LLM (`intelligence_config.signals`). Preferencias persistidas; el planner resuelve señales y el LLM genera body HSM (Opción A).  
-- Listado estrategias: botón **Calendario** (feriados Nager + eventos tenant; país default `AR` configurable).  
-
-- Medio de pago: referencia al ya configurado en portafolio/tenant (no cobro in-wizard en v1).  
-- Detalle estrategia: pestaña Ciclos/Reportes (lista, metrics, narrativa, PDF).  
-- PDF: lazy on download o async al close; regenerable desde `metrics` + `narrative`.
+- Wizard: paso **Salida** (elige ideas de biblioteca, edita, materializa pool Meta) en lugar de plantilla seed.  
+- Wizard: bloque presupuesto + `cost_per_send`; mode puntual vs recurrente_ciclo.  
+- Wizard (`recurrente_ciclo`): paso **Inteligencia** — señales alimentan resolver/rotación (no bakear HSM).  
+- Listado: botones **Calendario**, **Biblioteca de ideas**.  
+- Alertas de ciclo: sección general **Notificaciones** (`ia_tickets` con badges de estrategia).  
+- Detalle: Ciclos/Reportes + badge si pool pending/ready.  
+- Medio de pago: referencia portafolio tenant.  
+- PDF: lazy on download.
 
 ---
 
@@ -363,3 +395,4 @@ Este documento vive en `platform` (`feat/estrategias-ciclo-inteligente`).
 - **Fase 3 (planner + template ops):** plan `docs/superpowers/plans/2026-07-30-estrategias-ciclo-inteligente-fase3.md`. `rules_v1`, `close_cycle` → plan next, template ops promote draft→approved, cleanup >14d.
 - **Fase 4 (cycle reports + PDF):** plan `docs/superpowers/plans/2026-07-30-estrategias-ciclo-inteligente-fase4.md` (2026-07-30). Metrics al close → `estrategia_cycle_reports`; narrativa LLM (fallback sin key); PDF lazy (`report.pdf`); `GET …/cycles`, `…/report`, `…/report.pdf`. Sin reporte general de plataforma.
 - **Fase 5 (UI backoffice):** plan `docs/superpowers/plans/2026-07-30-estrategias-ciclo-inteligente-fase5.md` (2026-07-30). Wizard presupuesto + mode; proxies accept-budget/cycles/report/PDF; panel Ciclos/Reportes en cards. Rama `feat/estrategias-ciclo-ui`.
+- **Fase 7 (skeletons + pool rotativo):** sin seed; biblioteca tenant; salida; variable resolver 1:1; rotación por theme; notificaciones en `ia_tickets` (create/approve/send/learning); learning-only sin HSM. Ramas `feat/estrategias-skeletons-pool` (platform / backend / backoffice).
