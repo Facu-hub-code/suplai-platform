@@ -34,7 +34,7 @@ Evidencia: `sql/60_add_estrategias.sql`, `routers/estrategias.py`, `components/c
 - [ ] Cada viernes (configurable) hay reporte con: enviados, monto gastado estimado, replies/interacciones, carritos abiertos, pedidos cerrados + narrativa LLM; descargable en PDF.
 - [ ] Si un HSM del pool queda `REJECTED` o timeout `PENDING`, se pausa ese theme; el resto continúa; el reporte lo refleja.
 - [ ] Al APPROVED del pool listo para dispatch → notificación in-app backoffice (`template_approved_ready`).
-- [ ] Si el LLM detecta un ángulo no cubierto → solo notificación `template_learning_opportunity` (no crea HSM).
+- [ ] Si el LLM detecta un ángulo no cubierto → solo `ia_tickets` tag `ESTRATEGIA_TEMPLATE_LEARNING` (no crea HSM).
 - [ ] Cambiar `planner_version` no requiere cambios en Dispatcher ni Ledger.
 - [ ] Programación puntual usa 1 idea del pool (sin rotación).
 
@@ -54,7 +54,7 @@ Evidencia: `sql/60_add_estrategias.sql`, `routers/estrategias.py`, `components/c
 | Cohorts vs `grupos` | Cohorts dinámicos por ciclo; **no** mutar el grupo seed | El grupo se reutiliza en otras features; re-segmentar ≠ editar CRM | Reescribir membresía del grupo cada viernes |
 | LLM reporte vs Planner | Componentes separados | Narrar ≠ decidir; evita que el reporte “tome” presupuesto | Un solo LLM que decide y reporta |
 | Señales | Estacionalidad, calendario, clima, nearby → **variable resolver** + rotación de theme | Contexto 1:1 sin nuevo HSM | Bakear productos en el body del HSM |
-| Notificaciones | Inbox backoffice (`backoffice_notifications`) | Operador ve APPROVED/ready y aprendizajes | Email / WhatsApp |
+| Notificaciones | `ia_tickets` (sección Notificaciones del BO) con tags tipados | Unifica con el resto de alertas operativas; sin inbox paralelo en Estrategias | Tabla `backoffice_notifications` / campanita dedicada |
 | Cleanup Meta | Job diario: variants APPROVED sin uso >14d + sin dispatch reserved/pending → delete remoto + footprint + `deleted_remote` | Cumple límite WABA sin perder auditoría | Dejar plantillas eternas en WABA |
 | Envío | Reutilizar camino `agenda_sender` / envío plantilla vía `estrategia_dispatches` | No duplicar integración Meta | Sender nuevo paralelo |
 | Follow-up / promos | Sin cambio de modelo en v1 (siguen opcionales en wizard) | Fuera del critical path del ciclo | Rediseñar follow-up global (ver SPEC-047 backoffice) |
@@ -68,12 +68,13 @@ Evidencia: `sql/60_add_estrategias.sql`, `routers/estrategias.py`, `components/c
 - Ampliar contrato de `estrategias` (budget, mode, planner_version, cost_per_send); `meta_plantilla_id` **nullable/legacy**.
 - Ledger de presupuesto (reserve / commit / release).
 - Tablas de ciclo, cohorts, template variants (+ footprint), dispatches, member_state, cycle reports, cycle plans.
-- **Biblioteca tenant** `estrategia_skeleton_ideas` + **salida** `estrategia_salida_templates` + `estrategia_theme_stats` + `backoffice_notifications`.
+- **Biblioteca tenant** `estrategia_skeleton_ideas` + **salida** `estrategia_salida_templates` + `estrategia_theme_stats`.
+- Notificaciones de ciclo en **`ia_tickets`**: pool creado, pool APPROVED, tanda enviada, learning (sin HSM).
 - Planner con estados (`engaged_no_buy`, `cart_open`, `paused_no_reply`, `converted`, `reattempt`) y rotación de themes.
 - Variable resolver 1:1 (`{{1}}`…`{{4}}`) + Template Ops create/poll del pool + cleanup >14d.
 - Calendario eventos + señales (clima, nearby, estacionalidad) alimentan resolver/rotación.
 - Cycle close: metrics + narrativa LLM + PDF; actualiza `theme_stats`.
-- Wizard: paso **Salida** (reemplaza seed), presupuesto, Inteligencia, biblioteca de ideas, campanita BO.
+- Wizard: paso **Salida** (reemplaza seed), presupuesto, Inteligencia, biblioteca de ideas.
 - Jobs desacoplados (ver §5).
 
 ### Fuera de alcance
@@ -199,7 +200,7 @@ Se mantienen: `grupo_id` (audiencia seed), `agenda_id` (ciclo 0 / puntual), foll
 
 **`estrategia_theme_stats`**: `(estrategia_id, theme)` → sends, replies, conversions, `score`.
 
-**`backoffice_notifications`**: `kind` (`template_approved_ready`|`template_learning_opportunity`), `estrategia_id`, title/body/payload, `read_at`.
+**Notificaciones (`ia_tickets`)**: description tipada `[TAG] Estrategia #{id}…` — tags `ESTRATEGIA_POOL_CREATED`, `ESTRATEGIA_POOL_APPROVED`, `ESTRATEGIA_CYCLE_SENT` (+ `|cycle_id|`), `ESTRATEGIA_TEMPLATE_LEARNING`. `client_id` NULL. Idempotencia por ticket `open` con el mismo marker. (Migración `92` droppea `backoffice_notifications`.)
 
 ### 4.4 Cleanup Meta ↔ footprint
 
@@ -285,7 +286,8 @@ Fallo de LLM report **no** bloquea el plan del próximo ciclo (metrics sí oblig
 - Wizard: paso **Salida** (elige ideas de biblioteca, edita, materializa pool Meta) en lugar de plantilla seed.  
 - Wizard: bloque presupuesto + `cost_per_send`; mode puntual vs recurrente_ciclo.  
 - Wizard (`recurrente_ciclo`): paso **Inteligencia** — señales alimentan resolver/rotación (no bakear HSM).  
-- Listado: botones **Calendario**, **Biblioteca de ideas**, campanita de notificaciones.  
+- Listado: botones **Calendario**, **Biblioteca de ideas**.  
+- Alertas de ciclo: sección general **Notificaciones** (`ia_tickets` con badges de estrategia).  
 - Detalle: Ciclos/Reportes + badge si pool pending/ready.  
 - Medio de pago: referencia portafolio tenant.  
 - PDF: lazy on download.
@@ -393,4 +395,4 @@ Este documento vive en `platform` (`feat/estrategias-ciclo-inteligente`).
 - **Fase 3 (planner + template ops):** plan `docs/superpowers/plans/2026-07-30-estrategias-ciclo-inteligente-fase3.md`. `rules_v1`, `close_cycle` → plan next, template ops promote draft→approved, cleanup >14d.
 - **Fase 4 (cycle reports + PDF):** plan `docs/superpowers/plans/2026-07-30-estrategias-ciclo-inteligente-fase4.md` (2026-07-30). Metrics al close → `estrategia_cycle_reports`; narrativa LLM (fallback sin key); PDF lazy (`report.pdf`); `GET …/cycles`, `…/report`, `…/report.pdf`. Sin reporte general de plataforma.
 - **Fase 5 (UI backoffice):** plan `docs/superpowers/plans/2026-07-30-estrategias-ciclo-inteligente-fase5.md` (2026-07-30). Wizard presupuesto + mode; proxies accept-budget/cycles/report/PDF; panel Ciclos/Reportes en cards. Rama `feat/estrategias-ciclo-ui`.
-- **Fase 7 (skeletons + pool rotativo):** sin seed; biblioteca tenant; salida; variable resolver 1:1; rotación por theme; notificaciones BO; learning-only. Ramas `feat/estrategias-skeletons-pool` (platform / backend / backoffice).
+- **Fase 7 (skeletons + pool rotativo):** sin seed; biblioteca tenant; salida; variable resolver 1:1; rotación por theme; notificaciones en `ia_tickets` (create/approve/send/learning); learning-only sin HSM. Ramas `feat/estrategias-skeletons-pool` (platform / backend / backoffice).
