@@ -63,6 +63,7 @@ Personalizar la comunicación PdV con **memoria de cliente** (cuándo contesta, 
 
 - Edición manual masiva de slots en calendario.
 - Auto-regenerar agendas al re-enriquecer memoria.
+- Calendario visual de envíos tipo Google Calendar → **SPEC-031**.
 
 ## 4) Orden de implementación
 
@@ -179,4 +180,4 @@ BACKEND_URL=http://localhost:8000 npm run dev
 - [x] Agendas 1:1 con `estrategia_id` materializadas desde memoria + defaults.
 - [x] Path dual en `agenda_sender`.
 - [x] Filtro UI agendas.
-- [x] Preview calendario en programación de estrategia.
+- [x] Preview lista de slots en programación de estrategia (calendario visual → SPEC-031).
