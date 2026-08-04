@@ -1,9 +1,9 @@
 # Spec 028 — Memoria de cliente (`metadata`) desde el mapa comercial
 
-**Estado:** Implemented (v1)  
+**Estado:** Implemented (v1) — **parcialmente supersedido por [SPEC-029](029-client-memory-wizard-agendas-1a1.md)** para wizard multi-paso (preferred_contact, purchase_frequency, top_products) y nearby con tipos configurables.  
 **Fecha:** 2026-08-03  
 **Tipo:** Cross-repo (backend + backoffice; consumo opcional en estrategias)  
-**Relaciona:** Mapa comercial / inteligencia territorial; señales `nearby_places` de estrategias (SPEC-026)
+**Relaciona:** Mapa comercial / inteligencia territorial; señales `nearby_places` de estrategias (SPEC-026); SPEC-029
 
 **Ramas:**
 
