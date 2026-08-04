@@ -85,7 +85,8 @@ async def buscar_candidatos(esquema: str, limite: int = 50):
         print(f"Error: Nombre de esquema inválido '{esquema}'. Debe ser alfanumérico.")
         return
 
-    conn = await asyncpg.connect(db_url)
+    # Puerto 6543 (Transaction Mode): desactivar cache de prepared statements
+    conn = await asyncpg.connect(db_url, statement_cache_size=0)
     
     # Obtenemos todos los productos activos y marcamos si ya tienen alias
     query = f"""

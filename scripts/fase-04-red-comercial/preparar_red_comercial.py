@@ -224,8 +224,9 @@ Requisitos OBLIGATORIOS:
    - NO incluyas coordenadas geográficas.
    - zone_type SOLO puede ser 'sales' o 'route'. NO usar otros valores.
    - dia_visita SOLO puede ser: lunes, martes, miercoles, jueves, viernes, sabado.
-   - Los nombres de zonas DEBEN usar barrios o localidades REALES de {ciudad_base}
-     (ej. Villa Allende, Mendiolaza, Malagueño, Valle Escondido, Argüello, La Calera).
+   - Los nombres de zonas DEBEN usar barrios o localidades REALES cercanas a {ciudad_base}
+     (NO inventes barrios de otra ciudad; si la base es Villa Carlos Paz usá Punilla:
+     Villa del Parque, Costa Azul, Sol y Río, San Antonio de Arredondo, etc.).
    - Cada zona en un barrio DISTINTO y pequeño (puntual), NO una zona que cubra toda la ciudad.
 3. Al menos 55 nombres comerciales acordes al rubro '{rubro}'.
    Para carnicería/parrilla: usar Parrilla, Asadería, Carnicería, Restaurante, Almacén + apodo local.

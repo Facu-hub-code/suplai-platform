@@ -1,0 +1,655 @@
+{
+  "schema": "beltran",
+  "products": [
+    {
+      "product_code": "BEL-ACE-001",
+      "nombre": "Aceite de Oliva x 2lt",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceite de Oliva",
+        "4": "Aceite de Oliva"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-002",
+      "nombre": "Aceite x 10lt",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceite",
+        "4": "Aceite"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-003",
+      "nombre": "Aceituna Negra Fileteada x 5kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceitunas",
+        "3": "Aceitunas Negras",
+        "4": "Aceituna Negra Fileteada"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-004",
+      "nombre": "Aceituna Negra N° 2 x 5kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceitunas",
+        "3": "Aceitunas Negras",
+        "4": "Aceituna Negra"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-005",
+      "nombre": "Aceituna Verde Fileteada x 5kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceitunas",
+        "3": "Aceitunas Verdes",
+        "4": "Aceituna Verde Fileteada"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-006",
+      "nombre": "Aceituna Verde N° 0 x 5kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceitunas",
+        "3": "Aceitunas Verdes",
+        "4": "Aceituna Verde"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-007",
+      "nombre": "Aceituna Verde N° 2 x 5kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceitunas",
+        "3": "Aceitunas Verdes",
+        "4": "Aceituna Verde"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-008",
+      "nombre": "Aceituna Verde N° 0 x 1kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceitunas",
+        "3": "Aceitunas Verdes",
+        "4": "Aceituna Verde"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-009",
+      "nombre": "Aceituna Verde N° 1 x 5kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceitunas",
+        "3": "Aceitunas Verdes",
+        "4": "Aceituna Verde"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-010",
+      "nombre": "Aceituna Verde N° 3 x 5kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceitunas",
+        "3": "Aceitunas Verdes",
+        "4": "Aceituna Verde"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-011",
+      "nombre": "Kétchup Dánica 3kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Kétchup",
+        "4": "Kétchup"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-012",
+      "nombre": "Kétchup Dánica Individual",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Kétchup",
+        "4": "Kétchup"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-013",
+      "nombre": "Mayodan x 3kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-014",
+      "nombre": "Mayonesa Dánica 3kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-015",
+      "nombre": "Mayonesa Dánica Individual",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-016",
+      "nombre": "Mostaza Dánica 3kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Mostazas",
+        "4": "Mostaza"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-017",
+      "nombre": "Mostaza Dánica Individual",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Mostazas",
+        "4": "Mostaza"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-018",
+      "nombre": "Salsa Golf Dánica 3kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas",
+        "4": "Salsa Golf"
+      }
+    },
+    {
+      "product_code": "BEL-ACE-019",
+      "nombre": "Vinagre x 5lt",
+      "tags": {
+        "1": "Almacén",
+        "2": "Vinagres",
+        "3": "Vinagre",
+        "4": "Vinagre"
+      }
+    },
+    {
+      "product_code": "BEL-ALM-001",
+      "nombre": "Arroz 2 Hermanos x 5kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Arroz",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "BEL-ALM-002",
+      "nombre": "Azúcar x 10kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Azúcares",
+        "3": "Azúcar",
+        "4": "Azúcar"
+      }
+    },
+    {
+      "product_code": "BEL-ALM-003",
+      "nombre": "Sal de Campo Don Burro",
+      "tags": {
+        "1": "Almacén",
+        "2": "Sal",
+        "3": "Sal",
+        "4": "Sal"
+      }
+    },
+    {
+      "product_code": "BEL-ALM-004",
+      "nombre": "Sal Fina Celusal 500gr",
+      "tags": {
+        "1": "Almacén",
+        "2": "Sal",
+        "3": "Sal",
+        "4": "Sal Fina"
+      }
+    },
+    {
+      "product_code": "BEL-BEB-001",
+      "nombre": "Jugo de Naranja 5lt",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo de Fruta",
+        "4": "Jugo de Naranja"
+      }
+    },
+    {
+      "product_code": "BEL-BEB-002",
+      "nombre": "Jugo Limón x 5lt",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugo de Fruta",
+        "4": "Jugo de Limón"
+      }
+    },
+    {
+      "product_code": "BEL-CON-001",
+      "nombre": "Ananá x 800gr",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Frutas",
+        "4": "Ananá"
+      }
+    },
+    {
+      "product_code": "BEL-CON-002",
+      "nombre": "Caja Puré Triturado 520gr x 16",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Puré",
+        "4": "Puré Triturado"
+      }
+    },
+    {
+      "product_code": "BEL-CON-003",
+      "nombre": "Champi x 800gr Caracas",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Champiñones",
+        "4": "Champiñón"
+      }
+    },
+    {
+      "product_code": "BEL-CON-004",
+      "nombre": "Choclo en Grano x 800gr",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Choclo",
+        "4": "Choclo en Grano"
+      }
+    },
+    {
+      "product_code": "BEL-CON-005",
+      "nombre": "Choclo Granos Amarillos x 3kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Choclo",
+        "4": "Choclo Granos Amarillos"
+      }
+    },
+    {
+      "product_code": "BEL-CON-006",
+      "nombre": "Cóctel de Frutas x 820gr",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Cócteles de Frutas",
+        "4": "Cóctel de Frutas"
+      }
+    },
+    {
+      "product_code": "BEL-CON-007",
+      "nombre": "Durazno 820gr",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Frutas",
+        "4": "Durazno"
+      }
+    },
+    {
+      "product_code": "BEL-CON-008",
+      "nombre": "Lomito de Atún",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Pescados",
+        "4": "Lomito de Atún"
+      }
+    },
+    {
+      "product_code": "BEL-CON-009",
+      "nombre": "Morrón Finca de Santiago",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Vegetales",
+        "4": "Morrón"
+      }
+    },
+    {
+      "product_code": "BEL-CON-010",
+      "nombre": "Pulpa de Frutilla Emalubi x 1kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Frutas",
+        "4": "Pulpa de Frutilla"
+      }
+    },
+    {
+      "product_code": "BEL-CON-011",
+      "nombre": "Tomate Triturado 4 x 2kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Tomates",
+        "4": "Tomate Triturado"
+      }
+    },
+    {
+      "product_code": "BEL-CON-012",
+      "nombre": "Tomate Triturado Lata 8kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Tomates",
+        "4": "Tomate Triturado"
+      }
+    },
+    {
+      "product_code": "BEL-DUL-001",
+      "nombre": "Pionono",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Postres",
+        "4": "Pionono"
+      }
+    },
+    {
+      "product_code": "BEL-FIA-001",
+      "nombre": "Bondiola Natural Pig",
+      "tags": {
+        "1": "Almacén",
+        "2": "Fiambres",
+        "3": "Bondiola",
+        "4": "Bondiola Natural"
+      }
+    },
+    {
+      "product_code": "BEL-FIA-002",
+      "nombre": "Jamón Cocido El Colonial",
+      "tags": {
+        "1": "Almacén",
+        "2": "Fiambres",
+        "3": "Jamón",
+        "4": "Jamón Cocido"
+      }
+    },
+    {
+      "product_code": "BEL-FIA-003",
+      "nombre": "Jamón Cocido La Tirolesa",
+      "tags": {
+        "1": "Almacén",
+        "2": "Fiambres",
+        "3": "Jamón",
+        "4": "Jamón Cocido"
+      }
+    },
+    {
+      "product_code": "BEL-FIA-004",
+      "nombre": "Jamón Cocido Tacural",
+      "tags": {
+        "1": "Almacén",
+        "2": "Fiambres",
+        "3": "Jamón",
+        "4": "Jamón Cocido"
+      }
+    },
+    {
+      "product_code": "BEL-FIA-005",
+      "nombre": "Jamón Crudo Tacural",
+      "tags": {
+        "1": "Almacén",
+        "2": "Fiambres",
+        "3": "Jamón",
+        "4": "Jamón Crudo"
+      }
+    },
+    {
+      "product_code": "BEL-FIA-006",
+      "nombre": "Jamonada La Tirolesa",
+      "tags": {
+        "1": "Almacén",
+        "2": "Fiambres",
+        "3": "Jamón",
+        "4": "Jamonada"
+      }
+    },
+    {
+      "product_code": "BEL-FIA-007",
+      "nombre": "Salame Milán La Tirolesa",
+      "tags": {
+        "1": "Almacén",
+        "2": "Fiambres",
+        "3": "Salame",
+        "4": "Salame Milán"
+      }
+    },
+    {
+      "product_code": "BEL-FIA-008",
+      "nombre": "Salame Milán Natural Pig",
+      "tags": {
+        "1": "Almacén",
+        "2": "Fiambres",
+        "3": "Salame",
+        "4": "Salame Milán"
+      }
+    },
+    {
+      "product_code": "BEL-FIA-009",
+      "nombre": "Salame Natural Pig x Unidad",
+      "tags": {
+        "1": "Almacén",
+        "2": "Fiambres",
+        "3": "Salame",
+        "4": "Salame"
+      }
+    },
+    {
+      "product_code": "BEL-LAC-001",
+      "nombre": "Crema Doble Crema La Paulina x 5kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Crema",
+        "4": "Crema Doble Crema"
+      }
+    },
+    {
+      "product_code": "BEL-LAC-002",
+      "nombre": "Crema La Paulina x 5kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Crema",
+        "4": "Crema"
+      }
+    },
+    {
+      "product_code": "BEL-LAC-003",
+      "nombre": "Leche Cotapa Entera x 12lt",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Leche",
+        "4": "Leche Entera"
+      }
+    },
+    {
+      "product_code": "BEL-LAC-004",
+      "nombre": "Manteca x 2.5kg Pilón",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Manteca",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-001",
+      "nombre": "Azul Sancarlina",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Azul",
+        "4": "Queso Azul"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-002",
+      "nombre": "Cheddar Barra Spalen",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Cheddar",
+        "4": "Queso Cheddar"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-003",
+      "nombre": "Cheddar en Fetas",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Cheddar",
+        "4": "Queso Cheddar"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-004",
+      "nombre": "Cheddar Pouch La Paulina",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Cheddar",
+        "4": "Queso Cheddar"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-005",
+      "nombre": "Cheddar Pouch Spalen",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Cheddar",
+        "4": "Queso Cheddar"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-006",
+      "nombre": "Cremoso La Paulina",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Cremoso",
+        "4": "Queso Cremoso"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-007",
+      "nombre": "Gruyere Oro",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Gruyere",
+        "4": "Queso Gruyere"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-008",
+      "nombre": "Muzzarella Unión",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Muzzarella",
+        "4": "Queso Muzzarella"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-009",
+      "nombre": "Pategrás Unión",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Pategrás",
+        "4": "Queso Pategrás"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-010",
+      "nombre": "Queso Crema La Paulina",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Crema",
+        "4": "Queso Crema"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-011",
+      "nombre": "Romano Unión",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Romano",
+        "4": "Queso Romano"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-012",
+      "nombre": "Sardo Oro",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Sardo",
+        "4": "Queso Sardo"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-013",
+      "nombre": "Tybo Senda La Paulina",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Tybo",
+        "4": "Queso Tybo"
+      }
+    },
+    {
+      "product_code": "BEL-QUE-014",
+      "nombre": "Tybo Unión",
+      "tags": {
+        "1": "Almacén",
+        "2": "Quesos",
+        "3": "Queso Tybo",
+        "4": "Queso Tybo"
+      }
+    }
+  ]
+}

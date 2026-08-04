@@ -1,0 +1,398 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587905250,25001,BEL-ALM-001,Arroz 2 Hermanos x 5kg,2,8775.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00001,5493587905250,25001,BEL-QUE-011,Romano Unión,1,9840.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00001,5493587905250,25001,BEL-CON-009,Morrón Finca de Santiago,1,4086.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00002,5493587905250,25001,BEL-ACE-015,Mayonesa Dánica Individual,5,8313.60,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00002,5493587905250,25001,BEL-CON-006,Cóctel de Frutas x 820gr,3,3960.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00002,5493587905250,25001,BEL-FIA-006,Jamonada La Tirolesa,5,4560.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00002,5493587905250,25001,BEL-QUE-012,Sardo Oro,3,15000.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00003,5493587905250,25001,BEL-FIA-004,Jamón Cocido Tacural,4,11176.80,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00003,5493587905250,25001,BEL-FIA-003,Jamón Cocido La Tirolesa,2,7398.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00003,5493587905250,25001,BEL-FIA-009,Salame Natural Pig x Unidad,2,3900.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00004,5493582641213,25002,BEL-ACE-003,Aceituna Negra Fileteada x 5kg,5,24000.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00004,5493582641213,25002,BEL-FIA-003,Jamón Cocido La Tirolesa,4,7398.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00005,5493582641213,25002,BEL-FIA-002,Jamón Cocido El Colonial,1,9024.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00006,5493582641213,25002,BEL-ACE-006,Aceituna Verde N° 0 x 5kg,5,24000.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00006,5493582641213,25002,BEL-QUE-009,Pategrás Unión,2,10200.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00006,5493582641213,25002,BEL-QUE-005,Cheddar Pouch Spalen,4,16111.20,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00006,5493582641213,25002,BEL-QUE-006,Cremoso La Paulina,4,8364.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00007,5492991227644,25003,BEL-CON-005,Choclo Granos Amarillos x 3kg,3,13920.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00008,5492991227644,25003,BEL-QUE-007,Gruyere Oro,1,29604.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00009,5492991227644,25003,BEL-LAC-002,Crema La Paulina x 5kg,3,43284.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00009,5492991227644,25003,BEL-CON-008,Lomito de Atún,5,3450.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00009,5492991227644,25003,BEL-ALM-001,Arroz 2 Hermanos x 5kg,4,8775.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00009,5492991227644,25003,BEL-DUL-001,Pionono,1,2160.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00010,5493418277249,25004,BEL-CON-002,Caja Puré Triturado 520gr x 16,5,9072.00,1,Pedido: 5 unidad (normalizado: 80 unidad; equiv: 5 unidad),true,false,false
+P-00010,5493418277249,25004,BEL-QUE-005,Cheddar Pouch Spalen,1,16111.20,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00010,5493418277249,25004,BEL-ACE-019,Vinagre x 5lt,2,7620.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00011,5493418277249,25004,BEL-LAC-001,Crema Doble Crema La Paulina x 5kg,3,49321.20,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00012,5493418277249,25004,BEL-FIA-003,Jamón Cocido La Tirolesa,1,7398.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00012,5493418277249,25004,BEL-LAC-002,Crema La Paulina x 5kg,3,43284.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00012,5493418277249,25004,BEL-CON-010,Pulpa de Frutilla Emalubi x 1kg,2,4320.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00013,5493587747641,25005,BEL-CON-011,Tomate Triturado 4 x 2kg,4,7176.00,2,Pedido: 4 unidad (normalizado: 16 unidad; equiv: 4 unidad),true,false,false
+P-00013,5493587747641,25005,BEL-ACE-007,Aceituna Verde N° 2 x 5kg,3,19800.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00013,5493587747641,25005,BEL-FIA-005,Jamón Crudo Tacural,1,20640.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00014,5493587747641,25005,BEL-QUE-007,Gruyere Oro,5,29604.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00014,5493587747641,25005,BEL-ACE-005,Aceituna Verde Fileteada x 5kg,1,22200.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00015,5493587747641,25005,BEL-BEB-001,Jugo de Naranja 5lt,2,22950.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00015,5493587747641,25005,BEL-ALM-002,Azúcar x 10kg,2,16807.50,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00015,5493587747641,25005,BEL-QUE-011,Romano Unión,2,9840.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00016,5492614053074,25006,BEL-ALM-002,Azúcar x 10kg,2,16807.50,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00016,5492614053074,25006,BEL-ACE-006,Aceituna Verde N° 0 x 5kg,5,24000.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00016,5492614053074,25006,BEL-BEB-001,Jugo de Naranja 5lt,5,22950.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00016,5492614053074,25006,BEL-CON-004,Choclo en Grano x 800gr,3,3720.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00017,5492614053074,25006,BEL-CON-012,Tomate Triturado Lata 8kg,5,7440.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00017,5492614053074,25006,BEL-QUE-002,Cheddar Barra Spalen,5,8550.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00018,5492614053074,25006,BEL-BEB-001,Jugo de Naranja 5lt,4,22950.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00018,5492614053074,25006,BEL-LAC-003,Leche Cotapa Entera x 12lt,5,20160.00,3,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00018,5492614053074,25006,BEL-FIA-008,Salame Milán Natural Pig,3,8244.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00018,5492614053074,25006,BEL-CON-009,Morrón Finca de Santiago,3,4086.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00019,5493514079279,25007,BEL-QUE-002,Cheddar Barra Spalen,1,8550.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00019,5493514079279,25007,BEL-ACE-012,Kétchup Dánica Individual,2,8692.80,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00020,5493514079279,25007,BEL-ACE-012,Kétchup Dánica Individual,2,8692.80,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00020,5493514079279,25007,BEL-QUE-001,Azul Sancarlina,2,13884.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00021,5493514079279,25007,BEL-QUE-004,Cheddar Pouch La Paulina,3,28440.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00021,5493514079279,25007,BEL-ACE-002,Aceite x 10lt,3,26400.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00022,5493876914178,25008,BEL-CON-002,Caja Puré Triturado 520gr x 16,2,9072.00,1,Pedido: 2 unidad (normalizado: 32 unidad; equiv: 2 unidad),true,false,false
+P-00022,5493876914178,25008,BEL-CON-004,Choclo en Grano x 800gr,3,3720.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00022,5493876914178,25008,BEL-ACE-004,Aceituna Negra N° 2 x 5kg,5,23400.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00023,5493876914178,25008,BEL-QUE-007,Gruyere Oro,1,29604.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00024,5493876914178,25008,BEL-ACE-010,Aceituna Verde N° 3 x 5kg,1,13800.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00024,5493876914178,25008,BEL-ACE-015,Mayonesa Dánica Individual,4,8313.60,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00024,5493876914178,25008,BEL-ACE-013,Mayodan x 3kg,2,5846.40,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00025,5492617175545,25009,BEL-ACE-003,Aceituna Negra Fileteada x 5kg,3,24000.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00025,5492617175545,25009,BEL-FIA-009,Salame Natural Pig x Unidad,2,3900.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00026,5492617175545,25009,BEL-QUE-001,Azul Sancarlina,5,13884.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00026,5492617175545,25009,BEL-ALM-004,Sal Fina Celusal 500gr,3,1200.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00026,5492617175545,25009,BEL-QUE-002,Cheddar Barra Spalen,2,8550.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00026,5492617175545,25009,BEL-BEB-001,Jugo de Naranja 5lt,3,22950.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00027,5492617175545,25009,BEL-QUE-008,Muzzarella Unión,2,8760.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00027,5492617175545,25009,BEL-CON-008,Lomito de Atún,3,3450.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00028,5493818437953,25010,BEL-FIA-005,Jamón Crudo Tacural,4,20640.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00028,5493818437953,25010,BEL-QUE-005,Cheddar Pouch Spalen,1,16111.20,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00029,5493818437953,25010,BEL-QUE-005,Cheddar Pouch Spalen,5,16111.20,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00029,5493818437953,25010,BEL-ACE-014,Mayonesa Dánica 3kg,1,8847.60,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00029,5493818437953,25010,BEL-FIA-009,Salame Natural Pig x Unidad,4,3900.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00030,5493818437953,25010,BEL-BEB-002,Jugo Limón x 5lt,3,8400.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00030,5493818437953,25010,BEL-QUE-014,Tybo Unión,2,9000.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00030,5493818437953,25010,BEL-ACE-003,Aceituna Negra Fileteada x 5kg,5,24000.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00030,5493818437953,25010,BEL-ACE-001,Aceite de Oliva x 2lt,5,17547.60,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00031,5493582132179,25011,BEL-QUE-010,Queso Crema La Paulina,1,30266.40,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00032,5493582132179,25011,BEL-ACE-015,Mayonesa Dánica Individual,5,8313.60,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00032,5493582132179,25011,BEL-ACE-006,Aceituna Verde N° 0 x 5kg,4,24000.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00032,5493582132179,25011,BEL-ACE-012,Kétchup Dánica Individual,1,8692.80,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00033,5493582132179,25011,BEL-QUE-005,Cheddar Pouch Spalen,2,16111.20,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00033,5493582132179,25011,BEL-LAC-001,Crema Doble Crema La Paulina x 5kg,5,49321.20,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00033,5493582132179,25011,BEL-CON-012,Tomate Triturado Lata 8kg,2,7440.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00033,5493582132179,25011,BEL-LAC-004,Manteca x 2.5kg Pilón,2,28552.50,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00034,5493872845902,25012,BEL-FIA-008,Salame Milán Natural Pig,5,8244.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00034,5493872845902,25012,BEL-FIA-009,Salame Natural Pig x Unidad,3,3900.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00035,5493872845902,25012,BEL-FIA-008,Salame Milán Natural Pig,2,8244.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00035,5493872845902,25012,BEL-ACE-005,Aceituna Verde Fileteada x 5kg,1,22200.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00035,5493872845902,25012,BEL-QUE-012,Sardo Oro,4,15000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00035,5493872845902,25012,BEL-CON-012,Tomate Triturado Lata 8kg,4,7440.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00036,5493872845902,25012,BEL-ACE-012,Kétchup Dánica Individual,2,8692.80,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00037,5492997670210,25013,BEL-LAC-002,Crema La Paulina x 5kg,1,43284.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00037,5492997670210,25013,BEL-FIA-004,Jamón Cocido Tacural,1,11176.80,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00037,5492997670210,25013,BEL-ALM-001,Arroz 2 Hermanos x 5kg,4,8775.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00038,5492997670210,25013,BEL-ACE-019,Vinagre x 5lt,4,7620.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00038,5492997670210,25013,BEL-ACE-011,Kétchup Dánica 3kg,4,8935.20,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00038,5492997670210,25013,BEL-CON-003,Champi x 800gr Caracas,3,5880.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00038,5492997670210,25013,BEL-DUL-001,Pionono,2,2160.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00039,5492997670210,25013,BEL-CON-009,Morrón Finca de Santiago,1,4086.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00039,5492997670210,25013,BEL-LAC-001,Crema Doble Crema La Paulina x 5kg,3,49321.20,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00040,5493811657614,25014,BEL-DUL-001,Pionono,2,2160.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00040,5493811657614,25014,BEL-ACE-018,Salsa Golf Dánica 3kg,5,13054.50,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00041,5493811657614,25014,BEL-QUE-004,Cheddar Pouch La Paulina,3,28440.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00041,5493811657614,25014,BEL-QUE-006,Cremoso La Paulina,5,8364.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00041,5493811657614,25014,BEL-QUE-010,Queso Crema La Paulina,3,30266.40,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00042,5493811657614,25014,BEL-QUE-003,Cheddar en Fetas,1,33075.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00042,5493811657614,25014,BEL-BEB-001,Jugo de Naranja 5lt,5,22950.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00042,5493811657614,25014,BEL-CON-002,Caja Puré Triturado 520gr x 16,2,9072.00,3,Pedido: 2 unidad (normalizado: 32 unidad; equiv: 2 unidad),true,false,false
+P-00042,5493811657614,25014,BEL-ACE-001,Aceite de Oliva x 2lt,4,17547.60,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00043,5492994145193,25015,BEL-ACE-014,Mayonesa Dánica 3kg,2,8847.60,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00043,5492994145193,25015,BEL-FIA-005,Jamón Crudo Tacural,5,20640.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00043,5492994145193,25015,BEL-FIA-001,Bondiola Natural Pig,5,20027.90,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00044,5492994145193,25015,BEL-ACE-001,Aceite de Oliva x 2lt,5,17547.60,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00045,5492994145193,25015,BEL-ACE-004,Aceituna Negra N° 2 x 5kg,2,23400.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00045,5492994145193,25015,BEL-ACE-010,Aceituna Verde N° 3 x 5kg,1,13800.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00045,5492994145193,25015,BEL-QUE-012,Sardo Oro,1,15000.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00045,5492994145193,25015,BEL-FIA-003,Jamón Cocido La Tirolesa,4,7398.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00046,5493515971311,25016,BEL-CON-005,Choclo Granos Amarillos x 3kg,5,13920.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00046,5493515971311,25016,BEL-CON-006,Cóctel de Frutas x 820gr,3,3960.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00047,5493515971311,25016,BEL-ACE-015,Mayonesa Dánica Individual,5,8313.60,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00048,5493515971311,25016,BEL-QUE-014,Tybo Unión,1,9000.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00048,5493515971311,25016,BEL-FIA-006,Jamonada La Tirolesa,2,4560.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00049,5492994228106,25017,BEL-ACE-017,Mostaza Dánica Individual,4,7422.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00049,5492994228106,25017,BEL-FIA-009,Salame Natural Pig x Unidad,4,3900.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00049,5492994228106,25017,BEL-CON-003,Champi x 800gr Caracas,4,5880.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00049,5492994228106,25017,BEL-FIA-004,Jamón Cocido Tacural,4,11176.80,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00050,5492994228106,25017,BEL-CON-003,Champi x 800gr Caracas,4,5880.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00050,5492994228106,25017,BEL-ACE-009,Aceituna Verde N° 1 x 5kg,5,19800.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00051,5492994228106,25017,BEL-CON-001,Ananá x 800gr,1,5832.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00051,5492994228106,25017,BEL-CON-010,Pulpa de Frutilla Emalubi x 1kg,4,4320.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00051,5492994228106,25017,BEL-CON-008,Lomito de Atún,4,3450.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00052,5492998718887,25018,BEL-QUE-006,Cremoso La Paulina,5,8364.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00052,5492998718887,25018,BEL-ACE-012,Kétchup Dánica Individual,4,8692.80,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00052,5492998718887,25018,BEL-FIA-005,Jamón Crudo Tacural,5,20640.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00052,5492998718887,25018,BEL-QUE-013,Tybo Senda La Paulina,2,11581.20,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00053,5492998718887,25018,BEL-CON-005,Choclo Granos Amarillos x 3kg,4,13920.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00053,5492998718887,25018,BEL-FIA-002,Jamón Cocido El Colonial,5,9024.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00053,5492998718887,25018,BEL-QUE-003,Cheddar en Fetas,2,33075.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00054,5492998718887,25018,BEL-ACE-007,Aceituna Verde N° 2 x 5kg,5,19800.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00055,5492995028869,25019,BEL-CON-008,Lomito de Atún,1,3450.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00055,5492995028869,25019,BEL-ACE-017,Mostaza Dánica Individual,3,7422.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00056,5492995028869,25019,BEL-ALM-003,Sal de Campo Don Burro,4,1500.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00056,5492995028869,25019,BEL-ACE-012,Kétchup Dánica Individual,1,8692.80,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00056,5492995028869,25019,BEL-FIA-003,Jamón Cocido La Tirolesa,4,7398.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00056,5492995028869,25019,BEL-QUE-013,Tybo Senda La Paulina,5,11581.20,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00057,5492995028869,25019,BEL-ACE-016,Mostaza Dánica 3kg,3,6430.80,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00057,5492995028869,25019,BEL-ACE-013,Mayodan x 3kg,5,5846.40,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00058,5493517304254,25020,BEL-CON-009,Morrón Finca de Santiago,2,4086.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00059,5493517304254,25020,BEL-ACE-013,Mayodan x 3kg,3,5846.40,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00059,5493517304254,25020,BEL-QUE-013,Tybo Senda La Paulina,4,11581.20,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00060,5493517304254,25020,BEL-FIA-003,Jamón Cocido La Tirolesa,3,7398.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00060,5493517304254,25020,BEL-CON-008,Lomito de Atún,5,3450.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00061,5493416986538,25021,BEL-CON-002,Caja Puré Triturado 520gr x 16,5,9072.00,2,Pedido: 5 unidad (normalizado: 80 unidad; equiv: 5 unidad),true,false,false
+P-00061,5493416986538,25021,BEL-LAC-002,Crema La Paulina x 5kg,1,43284.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00062,5493416986538,25021,BEL-CON-003,Champi x 800gr Caracas,3,5880.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00062,5493416986538,25021,BEL-ACE-014,Mayonesa Dánica 3kg,1,8847.60,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00063,5493416986538,25021,BEL-CON-006,Cóctel de Frutas x 820gr,3,3960.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00063,5493416986538,25021,BEL-CON-008,Lomito de Atún,2,3450.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00063,5493416986538,25021,BEL-QUE-012,Sardo Oro,3,15000.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00064,5492619239862,25022,BEL-ALM-003,Sal de Campo Don Burro,2,1500.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00064,5492619239862,25022,BEL-FIA-002,Jamón Cocido El Colonial,3,9024.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00064,5492619239862,25022,BEL-ACE-001,Aceite de Oliva x 2lt,3,17547.60,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00065,5492619239862,25022,BEL-QUE-001,Azul Sancarlina,3,13884.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00065,5492619239862,25022,BEL-QUE-004,Cheddar Pouch La Paulina,2,28440.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00065,5492619239862,25022,BEL-ACE-003,Aceituna Negra Fileteada x 5kg,1,24000.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00066,5492619239862,25022,BEL-FIA-004,Jamón Cocido Tacural,1,11176.80,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00066,5492619239862,25022,BEL-ACE-005,Aceituna Verde Fileteada x 5kg,3,22200.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00066,5492619239862,25022,BEL-ACE-008,Aceituna Verde N° 0 x 1kg,5,7800.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00067,5493513952681,25023,BEL-FIA-002,Jamón Cocido El Colonial,3,9024.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00067,5493513952681,25023,BEL-QUE-002,Cheddar Barra Spalen,4,8550.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00067,5493513952681,25023,BEL-BEB-001,Jugo de Naranja 5lt,4,22950.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00067,5493513952681,25023,BEL-FIA-009,Salame Natural Pig x Unidad,2,3900.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00068,5493513952681,25023,BEL-ALM-002,Azúcar x 10kg,3,16807.50,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00068,5493513952681,25023,BEL-CON-004,Choclo en Grano x 800gr,1,3720.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00068,5493513952681,25023,BEL-BEB-002,Jugo Limón x 5lt,3,8400.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00069,5493513952681,25023,BEL-ACE-012,Kétchup Dánica Individual,5,8692.80,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00069,5493513952681,25023,BEL-QUE-009,Pategrás Unión,4,10200.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00070,5493414799650,25024,BEL-CON-007,Durazno 820gr,5,2160.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00070,5493414799650,25024,BEL-QUE-007,Gruyere Oro,5,29604.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00070,5493414799650,25024,BEL-ACE-014,Mayonesa Dánica 3kg,3,8847.60,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00070,5493414799650,25024,BEL-QUE-012,Sardo Oro,2,15000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00071,5493414799650,25024,BEL-QUE-003,Cheddar en Fetas,2,33075.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00071,5493414799650,25024,BEL-FIA-005,Jamón Crudo Tacural,4,20640.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00071,5493414799650,25024,BEL-ACE-007,Aceituna Verde N° 2 x 5kg,2,19800.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00071,5493414799650,25024,BEL-LAC-004,Manteca x 2.5kg Pilón,4,28552.50,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00072,5493414799650,25024,BEL-LAC-002,Crema La Paulina x 5kg,5,43284.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00072,5493414799650,25024,BEL-FIA-006,Jamonada La Tirolesa,4,4560.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00072,5493414799650,25024,BEL-ACE-013,Mayodan x 3kg,4,5846.40,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00072,5493414799650,25024,BEL-FIA-005,Jamón Crudo Tacural,4,20640.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00073,5492992500733,25025,BEL-ACE-002,Aceite x 10lt,4,26400.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00074,5492992500733,25025,BEL-QUE-011,Romano Unión,4,9840.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00074,5492992500733,25025,BEL-CON-003,Champi x 800gr Caracas,4,5880.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00074,5492992500733,25025,BEL-ACE-002,Aceite x 10lt,5,26400.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00074,5492992500733,25025,BEL-CON-005,Choclo Granos Amarillos x 3kg,4,13920.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00075,5492992500733,25025,BEL-QUE-013,Tybo Senda La Paulina,1,11581.20,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00076,5492615139305,25026,BEL-CON-001,Ananá x 800gr,4,5832.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00076,5492615139305,25026,BEL-ALM-004,Sal Fina Celusal 500gr,2,1200.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00077,5492615139305,25026,BEL-ALM-003,Sal de Campo Don Burro,5,1500.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00078,5492615139305,25026,BEL-QUE-002,Cheddar Barra Spalen,5,8550.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00078,5492615139305,25026,BEL-ACE-019,Vinagre x 5lt,2,7620.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00079,5492618861463,25027,BEL-QUE-003,Cheddar en Fetas,3,33075.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00079,5492618861463,25027,BEL-CON-004,Choclo en Grano x 800gr,2,3720.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00080,5492618861463,25027,BEL-QUE-012,Sardo Oro,5,15000.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00080,5492618861463,25027,BEL-FIA-006,Jamonada La Tirolesa,3,4560.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00080,5492618861463,25027,BEL-DUL-001,Pionono,4,2160.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00081,5492618861463,25027,BEL-ALM-004,Sal Fina Celusal 500gr,1,1200.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00081,5492618861463,25027,BEL-QUE-004,Cheddar Pouch La Paulina,4,28440.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00081,5492618861463,25027,BEL-FIA-002,Jamón Cocido El Colonial,2,9024.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00081,5492618861463,25027,BEL-ACE-019,Vinagre x 5lt,2,7620.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00082,5493812941974,25028,BEL-ACE-004,Aceituna Negra N° 2 x 5kg,2,23400.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00082,5493812941974,25028,BEL-FIA-007,Salame Milán La Tirolesa,2,10584.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00083,5493812941974,25028,BEL-ACE-014,Mayonesa Dánica 3kg,3,8847.60,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00083,5493812941974,25028,BEL-FIA-003,Jamón Cocido La Tirolesa,4,7398.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00083,5493812941974,25028,BEL-CON-012,Tomate Triturado Lata 8kg,1,7440.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00083,5493812941974,25028,BEL-LAC-003,Leche Cotapa Entera x 12lt,5,20160.00,1,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00084,5493812941974,25028,BEL-CON-005,Choclo Granos Amarillos x 3kg,1,13920.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00084,5493812941974,25028,BEL-BEB-001,Jugo de Naranja 5lt,3,22950.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00084,5493812941974,25028,BEL-CON-003,Champi x 800gr Caracas,4,5880.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00085,5493817404433,25029,BEL-FIA-009,Salame Natural Pig x Unidad,4,3900.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00085,5493817404433,25029,BEL-QUE-013,Tybo Senda La Paulina,4,11581.20,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00086,5493817404433,25029,BEL-BEB-002,Jugo Limón x 5lt,2,8400.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00087,5493817404433,25029,BEL-ACE-007,Aceituna Verde N° 2 x 5kg,1,19800.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00088,5493419686914,25030,BEL-ACE-012,Kétchup Dánica Individual,3,8692.80,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00088,5493419686914,25030,BEL-FIA-009,Salame Natural Pig x Unidad,5,3900.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00088,5493419686914,25030,BEL-ACE-013,Mayodan x 3kg,3,5846.40,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00089,5493419686914,25030,BEL-ACE-018,Salsa Golf Dánica 3kg,4,13054.50,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00089,5493419686914,25030,BEL-QUE-006,Cremoso La Paulina,2,8364.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00090,5493419686914,25030,BEL-QUE-011,Romano Unión,2,9840.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00090,5493419686914,25030,BEL-QUE-010,Queso Crema La Paulina,5,30266.40,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00090,5493419686914,25030,BEL-QUE-009,Pategrás Unión,4,10200.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00091,5493518648263,25031,BEL-QUE-006,Cremoso La Paulina,4,8364.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00091,5493518648263,25031,BEL-QUE-011,Romano Unión,1,9840.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00092,5493518648263,25031,BEL-QUE-013,Tybo Senda La Paulina,5,11581.20,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00092,5493518648263,25031,BEL-QUE-001,Azul Sancarlina,4,13884.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00092,5493518648263,25031,BEL-ACE-008,Aceituna Verde N° 0 x 1kg,4,7800.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00093,5493518648263,25031,BEL-QUE-013,Tybo Senda La Paulina,3,11581.20,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00093,5493518648263,25031,BEL-ACE-001,Aceite de Oliva x 2lt,2,17547.60,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00093,5493518648263,25031,BEL-ACE-009,Aceituna Verde N° 1 x 5kg,3,19800.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00094,5493516216782,25032,BEL-ACE-010,Aceituna Verde N° 3 x 5kg,3,13800.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00094,5493516216782,25032,BEL-FIA-006,Jamonada La Tirolesa,3,4560.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00095,5493516216782,25032,BEL-CON-010,Pulpa de Frutilla Emalubi x 1kg,4,4320.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00095,5493516216782,25032,BEL-ACE-016,Mostaza Dánica 3kg,5,6430.80,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00096,5493516216782,25032,BEL-QUE-005,Cheddar Pouch Spalen,3,16111.20,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00097,5492612780568,25033,BEL-ACE-011,Kétchup Dánica 3kg,3,8935.20,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00097,5492612780568,25033,BEL-QUE-001,Azul Sancarlina,5,13884.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00097,5492612780568,25033,BEL-QUE-009,Pategrás Unión,5,10200.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00097,5492612780568,25033,BEL-FIA-007,Salame Milán La Tirolesa,2,10584.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00098,5492612780568,25033,BEL-QUE-008,Muzzarella Unión,3,8760.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00098,5492612780568,25033,BEL-QUE-005,Cheddar Pouch Spalen,4,16111.20,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00098,5492612780568,25033,BEL-QUE-002,Cheddar Barra Spalen,5,8550.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00098,5492612780568,25033,BEL-BEB-001,Jugo de Naranja 5lt,1,22950.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00099,5492612780568,25033,BEL-FIA-003,Jamón Cocido La Tirolesa,1,7398.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00100,5493582639964,25034,BEL-BEB-002,Jugo Limón x 5lt,4,8400.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00100,5493582639964,25034,BEL-QUE-008,Muzzarella Unión,3,8760.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00100,5493582639964,25034,BEL-QUE-011,Romano Unión,5,9840.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00101,5493582639964,25034,BEL-ACE-007,Aceituna Verde N° 2 x 5kg,3,19800.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00101,5493582639964,25034,BEL-CON-012,Tomate Triturado Lata 8kg,3,7440.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00101,5493582639964,25034,BEL-CON-011,Tomate Triturado 4 x 2kg,5,7176.00,3,Pedido: 5 unidad (normalizado: 20 unidad; equiv: 5 unidad),true,false,false
+P-00101,5493582639964,25034,BEL-QUE-006,Cremoso La Paulina,3,8364.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00102,5493582639964,25034,BEL-CON-005,Choclo Granos Amarillos x 3kg,4,13920.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00103,5493814729528,25035,BEL-ACE-012,Kétchup Dánica Individual,3,8692.80,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00104,5493814729528,25035,BEL-CON-004,Choclo en Grano x 800gr,5,3720.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00104,5493814729528,25035,BEL-QUE-003,Cheddar en Fetas,4,33075.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00105,5493814729528,25035,BEL-FIA-007,Salame Milán La Tirolesa,2,10584.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00105,5493814729528,25035,BEL-ACE-005,Aceituna Verde Fileteada x 5kg,1,22200.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493814729528,25035,BEL-ACE-007,Aceituna Verde N° 2 x 5kg,4,19800.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00105,5493814729528,25035,BEL-BEB-002,Jugo Limón x 5lt,1,8400.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00106,5493876922419,25036,BEL-FIA-005,Jamón Crudo Tacural,4,20640.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00106,5493876922419,25036,BEL-QUE-001,Azul Sancarlina,4,13884.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00106,5493876922419,25036,BEL-CON-004,Choclo en Grano x 800gr,3,3720.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00106,5493876922419,25036,BEL-ALM-002,Azúcar x 10kg,5,16807.50,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00107,5493876922419,25036,BEL-ACE-013,Mayodan x 3kg,4,5846.40,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00108,5493876922419,25036,BEL-CON-001,Ananá x 800gr,3,5832.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00108,5493876922419,25036,BEL-ACE-013,Mayodan x 3kg,1,5846.40,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00108,5493876922419,25036,BEL-CON-003,Champi x 800gr Caracas,4,5880.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00109,5492618889598,25037,BEL-CON-001,Ananá x 800gr,4,5832.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00109,5492618889598,25037,BEL-ACE-005,Aceituna Verde Fileteada x 5kg,2,22200.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00110,5492618889598,25037,BEL-ACE-019,Vinagre x 5lt,2,7620.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00111,5492618889598,25037,BEL-CON-001,Ananá x 800gr,5,5832.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00111,5492618889598,25037,BEL-FIA-002,Jamón Cocido El Colonial,1,9024.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00111,5492618889598,25037,BEL-CON-009,Morrón Finca de Santiago,4,4086.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00112,5492615021286,25038,BEL-ALM-003,Sal de Campo Don Burro,5,1500.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00112,5492615021286,25038,BEL-LAC-003,Leche Cotapa Entera x 12lt,1,20160.00,3,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00112,5492615021286,25038,BEL-LAC-001,Crema Doble Crema La Paulina x 5kg,3,49321.20,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00113,5492615021286,25038,BEL-ACE-017,Mostaza Dánica Individual,4,7422.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00113,5492615021286,25038,BEL-FIA-001,Bondiola Natural Pig,1,20027.90,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00113,5492615021286,25038,BEL-CON-001,Ananá x 800gr,4,5832.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00113,5492615021286,25038,BEL-LAC-002,Crema La Paulina x 5kg,3,43284.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00114,5492615021286,25038,BEL-FIA-005,Jamón Crudo Tacural,4,20640.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00114,5492615021286,25038,BEL-CON-011,Tomate Triturado 4 x 2kg,2,7176.00,3,Pedido: 2 unidad (normalizado: 8 unidad; equiv: 2 unidad),true,false,false
+P-00114,5492615021286,25038,BEL-CON-001,Ananá x 800gr,2,5832.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00115,5493813520000,25039,BEL-ACE-018,Salsa Golf Dánica 3kg,3,13054.50,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00115,5493813520000,25039,BEL-CON-006,Cóctel de Frutas x 820gr,1,3960.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00115,5493813520000,25039,BEL-ACE-007,Aceituna Verde N° 2 x 5kg,5,19800.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00116,5493813520000,25039,BEL-ACE-002,Aceite x 10lt,3,26400.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00116,5493813520000,25039,BEL-BEB-001,Jugo de Naranja 5lt,2,22950.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00116,5493813520000,25039,BEL-LAC-003,Leche Cotapa Entera x 12lt,4,20160.00,4,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00116,5493813520000,25039,BEL-BEB-002,Jugo Limón x 5lt,5,8400.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00117,5493813520000,25039,BEL-ACE-004,Aceituna Negra N° 2 x 5kg,5,23400.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00117,5493813520000,25039,BEL-FIA-005,Jamón Crudo Tacural,1,20640.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00117,5493813520000,25039,BEL-ALM-002,Azúcar x 10kg,5,16807.50,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00118,5492997489876,25040,BEL-CON-006,Cóctel de Frutas x 820gr,1,3960.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00118,5492997489876,25040,BEL-LAC-004,Manteca x 2.5kg Pilón,3,28552.50,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00119,5492997489876,25040,BEL-ALM-003,Sal de Campo Don Burro,2,1500.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00119,5492997489876,25040,BEL-CON-001,Ananá x 800gr,3,5832.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00119,5492997489876,25040,BEL-ACE-003,Aceituna Negra Fileteada x 5kg,1,24000.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00119,5492997489876,25040,BEL-QUE-014,Tybo Unión,5,9000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00120,5492997489876,25040,BEL-ALM-001,Arroz 2 Hermanos x 5kg,5,8775.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00121,5492612928724,0,BEL-QUE-010,Queso Crema La Paulina,1,30266.40,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00121,5492612928724,0,BEL-ALM-001,Arroz 2 Hermanos x 5kg,1,8775.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00121,5492612928724,0,BEL-ACE-007,Aceituna Verde N° 2 x 5kg,5,19800.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00121,5492612928724,0,BEL-DUL-001,Pionono,2,2160.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00122,5492612928724,0,BEL-QUE-014,Tybo Unión,5,9000.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00122,5492612928724,0,BEL-ACE-002,Aceite x 10lt,2,26400.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00123,5492612928724,0,BEL-ALM-002,Azúcar x 10kg,4,16807.50,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00124,5492617236955,0,BEL-ACE-001,Aceite de Oliva x 2lt,3,17547.60,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00125,5492617236955,0,BEL-CON-008,Lomito de Atún,4,3450.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00125,5492617236955,0,BEL-ACE-019,Vinagre x 5lt,5,7620.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00126,5492617236955,0,BEL-FIA-004,Jamón Cocido Tacural,2,11176.80,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00127,5492617413812,0,BEL-ACE-005,Aceituna Verde Fileteada x 5kg,1,22200.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00127,5492617413812,0,BEL-FIA-002,Jamón Cocido El Colonial,3,9024.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00128,5492617413812,0,BEL-FIA-006,Jamonada La Tirolesa,3,4560.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00128,5492617413812,0,BEL-CON-009,Morrón Finca de Santiago,2,4086.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00128,5492617413812,0,BEL-FIA-007,Salame Milán La Tirolesa,3,10584.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00128,5492617413812,0,BEL-CON-008,Lomito de Atún,3,3450.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00129,5492617413812,0,BEL-ACE-006,Aceituna Verde N° 0 x 5kg,2,24000.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00129,5492617413812,0,BEL-ACE-017,Mostaza Dánica Individual,2,7422.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00130,5492998066543,0,BEL-FIA-003,Jamón Cocido La Tirolesa,5,7398.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00130,5492998066543,0,BEL-FIA-009,Salame Natural Pig x Unidad,5,3900.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00130,5492998066543,0,BEL-QUE-005,Cheddar Pouch Spalen,1,16111.20,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00130,5492998066543,0,BEL-CON-001,Ananá x 800gr,1,5832.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00131,5492998066543,0,BEL-ACE-002,Aceite x 10lt,2,26400.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00132,5492998066543,0,BEL-FIA-001,Bondiola Natural Pig,4,20027.90,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00133,5492999435946,0,BEL-FIA-002,Jamón Cocido El Colonial,4,9024.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00133,5492999435946,0,BEL-QUE-014,Tybo Unión,2,9000.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00134,5492999435946,0,BEL-CON-002,Caja Puré Triturado 520gr x 16,2,9072.00,3,Pedido: 2 unidad (normalizado: 32 unidad; equiv: 2 unidad),true,false,false
+P-00134,5492999435946,0,BEL-ACE-018,Salsa Golf Dánica 3kg,2,13054.50,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00134,5492999435946,0,BEL-QUE-007,Gruyere Oro,2,29604.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00134,5492999435946,0,BEL-ACE-002,Aceite x 10lt,1,26400.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00135,5492999435946,0,BEL-CON-008,Lomito de Atún,3,3450.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00135,5492999435946,0,BEL-QUE-001,Azul Sancarlina,5,13884.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00136,5493416524997,0,BEL-ACE-001,Aceite de Oliva x 2lt,5,17547.60,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00136,5493416524997,0,BEL-QUE-001,Azul Sancarlina,1,13884.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00136,5493416524997,0,BEL-CON-004,Choclo en Grano x 800gr,5,3720.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00136,5493416524997,0,BEL-LAC-001,Crema Doble Crema La Paulina x 5kg,5,49321.20,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00137,5493416524997,0,BEL-ACE-011,Kétchup Dánica 3kg,2,8935.20,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00137,5493416524997,0,BEL-ACE-012,Kétchup Dánica Individual,3,8692.80,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00137,5493416524997,0,BEL-QUE-008,Muzzarella Unión,3,8760.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00138,5493416524997,0,BEL-ACE-019,Vinagre x 5lt,5,7620.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00138,5493416524997,0,BEL-ACE-007,Aceituna Verde N° 2 x 5kg,4,19800.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00139,5493517632424,0,BEL-QUE-006,Cremoso La Paulina,4,8364.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00139,5493517632424,0,BEL-LAC-003,Leche Cotapa Entera x 12lt,3,20160.00,4,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00139,5493517632424,0,BEL-QUE-004,Cheddar Pouch La Paulina,5,28440.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00140,5493517632424,0,BEL-QUE-014,Tybo Unión,5,9000.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00141,5493517632424,0,BEL-ACE-003,Aceituna Negra Fileteada x 5kg,1,24000.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00142,5493519107005,0,BEL-ACE-011,Kétchup Dánica 3kg,1,8935.20,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00142,5493519107005,0,BEL-LAC-004,Manteca x 2.5kg Pilón,4,28552.50,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00142,5493519107005,0,BEL-ACE-001,Aceite de Oliva x 2lt,4,17547.60,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00142,5493519107005,0,BEL-BEB-002,Jugo Limón x 5lt,4,8400.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00143,5493519107005,0,BEL-CON-001,Ananá x 800gr,1,5832.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00144,5493519107005,0,BEL-QUE-005,Cheddar Pouch Spalen,4,16111.20,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00144,5493519107005,0,BEL-FIA-002,Jamón Cocido El Colonial,1,9024.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00144,5493519107005,0,BEL-FIA-006,Jamonada La Tirolesa,3,4560.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00144,5493519107005,0,BEL-FIA-009,Salame Natural Pig x Unidad,5,3900.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00145,5493874104594,0,BEL-LAC-003,Leche Cotapa Entera x 12lt,2,20160.00,3,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00145,5493874104594,0,BEL-QUE-011,Romano Unión,1,9840.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00145,5493874104594,0,BEL-QUE-012,Sardo Oro,3,15000.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00146,5493874104594,0,BEL-LAC-003,Leche Cotapa Entera x 12lt,2,20160.00,3,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00147,5493874104594,0,BEL-QUE-003,Cheddar en Fetas,3,33075.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00147,5493874104594,0,BEL-CON-004,Choclo en Grano x 800gr,2,3720.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00148,5493876499570,0,BEL-QUE-014,Tybo Unión,3,9000.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00148,5493876499570,0,BEL-CON-004,Choclo en Grano x 800gr,2,3720.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00149,5493876499570,0,BEL-ACE-008,Aceituna Verde N° 0 x 1kg,3,7800.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00150,5493876499570,0,BEL-BEB-001,Jugo de Naranja 5lt,1,22950.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00150,5493876499570,0,BEL-FIA-008,Salame Milán Natural Pig,4,8244.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00151,5493418277249,25004,BEL-ACE-018,Salsa Golf Dánica 3kg,1,11096.33,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad) - promo fase 2,true,true,true
+P-00151,5493418277249,25004,BEL-LAC-001,Crema Doble Crema La Paulina x 5kg,1,49321.20,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00151,5493418277249,25004,BEL-QUE-011,Romano Unión,3,9840.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00152,5493587905250,25001,BEL-DUL-001,Pionono,4,2160.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00152,5493587905250,25001,BEL-BEB-001,Jugo de Naranja 5lt,5,22950.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00152,5493587905250,25001,BEL-FIA-002,Jamón Cocido El Colonial,2,9024.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00153,5493582641213,25002,BEL-ALM-004,Sal Fina Celusal 500gr,2,1200.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00154,5492991227644,25003,BEL-FIA-006,Jamonada La Tirolesa,5,4560.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00154,5492991227644,25003,BEL-CON-008,Lomito de Atún,2,3450.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00154,5492991227644,25003,BEL-BEB-001,Jugo de Naranja 5lt,1,22950.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00154,5492991227644,25003,BEL-QUE-004,Cheddar Pouch La Paulina,5,28440.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00155,5493587747641,25005,BEL-FIA-006,Jamonada La Tirolesa,4,4560.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00155,5493587747641,25005,BEL-QUE-013,Tybo Senda La Paulina,3,11581.20,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00155,5493587747641,25005,BEL-ACE-012,Kétchup Dánica Individual,3,8692.80,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00156,5492614053074,25006,BEL-ACE-003,Aceituna Negra Fileteada x 5kg,2,24000.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00156,5492614053074,25006,BEL-ACE-006,Aceituna Verde N° 0 x 5kg,4,24000.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00157,5493514079279,25007,BEL-QUE-005,Cheddar Pouch Spalen,3,16111.20,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00157,5493514079279,25007,BEL-ACE-016,Mostaza Dánica 3kg,4,6430.80,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00157,5493514079279,25007,BEL-ACE-001,Aceite de Oliva x 2lt,3,17547.60,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00157,5493514079279,25007,BEL-QUE-010,Queso Crema La Paulina,3,30266.40,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false

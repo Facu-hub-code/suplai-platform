@@ -1158,7 +1158,8 @@ async def run_e2e_suite(
     products_only: bool = False,
 ):
     db_url = os.getenv("SUPABASE_DB_URL")
-    conn = await asyncpg.connect(db_url)
+    # Puerto 6543 (Transaction Mode): desactivar cache de prepared statements
+    conn = await asyncpg.connect(db_url, statement_cache_size=0)
     
     try:
         # 1. Asegurar cliente de prueba, configuraciones y limpiar estado inicial

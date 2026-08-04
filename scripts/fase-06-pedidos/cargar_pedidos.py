@@ -131,7 +131,8 @@ async def main_async(esquema: str) -> None:
     if not items:
         raise SystemExit("[FAIL] El CSV de items esta vacio.")
 
-    conn = await asyncpg.connect(db_url)
+    # Puerto 6543 (Transaction Mode): desactivar cache de prepared statements
+    conn = await asyncpg.connect(db_url, statement_cache_size=0)
     try:
         await conn.execute(f"SET search_path TO {esquema}, core, public, extensions")
 

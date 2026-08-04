@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: ed764603-2504-462e-98b6-ab41a14b23e9 | nombre: Beltran | activa: true
+schema_existe,Tablas en beltran,ok,65 tablas base (productos clients listas_precios etc.)
+productos_vacio,COUNT productos = 0,ok,0 productos encontrados
+clients_vacio,COUNT clients = 0,ok,0 clientes encontrados
+mcp_conectado,MCP supabase responde,ok,conectado project cvlbietibaaehgeimxgw
+carpeta_implementacion,manifest.yaml presente,ok,implementacion/beltran/manifest.yaml
+is_mock_column,Columna is_mock en productos,ok,is_mock existe en beltran.productos
+excel_presente,Archivo en inputs/,ok,inputs/lista-productos.xlsx

@@ -63,7 +63,8 @@ async def cargar_red_comercial(esquema: str):
             print("Asegúrate de haber ejecutado preparar_red_comercial.py primero.")
             sys.exit(1)
 
-    conn = await asyncpg.connect(db_url)
+    # Puerto 6543 (Transaction Mode): desactivar cache de prepared statements
+    conn = await asyncpg.connect(db_url, statement_cache_size=0)
     try:
         # Configurar search_path para que los tipos enum del schema del tenant
         # sean visibles sin calificar (ej: dia_de_visita_enum)

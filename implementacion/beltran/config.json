@@ -1,0 +1,148 @@
+{
+  "dominios": "mercadolibre.com.ar,carrefour.com.ar,diaonline.com.ar,jumbo.com.ar",
+  "sufijo_fallback": "queso fiambre lacteo alimento argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA BELTRAN (LÁCTEOS, FIAMBRES Y ALMACÉN — Villa Carlos Paz):\n1. Empezar con el sustantivo de categoría (Queso, Jamón, Aceituna, Mayonesa, Conserva, etc.).\n2. Incluir marca cuando exista (La Paulina, Dánica, Unión, Tacural, Natural Pig, Spalen, Cotapa).\n3. Indicar presentación/formato (barra, fetas, pouch, kg, lt, individual, caja x N) sin marketing.\n4. Prohibido: delicioso, ideal, perfecto, descubre, disfruta, rotación, márgenes, kiosco.\n5. Alias: incluir marca corta, tipo de producto y variantes locales (ej. 'muzzarella union', 'tybo la paulina', 'ketchup danica').",
+  "red_comercial": {
+    "coordenadas_centro": [-31.4241, -64.4978],
+    "vendedores": [
+      {
+        "nombre": "Lucía Ferreyra",
+        "telefono": "5493541882701",
+        "email": "lucia.ferreyra@suplaisales.mock",
+        "zona": "NORTE",
+        "codigo_ruta": "R01"
+      },
+      {
+        "nombre": "Martín Godoy",
+        "telefono": "5493541882702",
+        "email": "martin.godoy@suplaisales.mock",
+        "zona": "SUR",
+        "codigo_ruta": "R02"
+      },
+      {
+        "nombre": "Paula Sosa",
+        "telefono": "5493541882703",
+        "email": "paula.sosa@suplaisales.mock",
+        "zona": "ESTE",
+        "codigo_ruta": "R03"
+      }
+    ],
+    "zonas": [
+      {
+        "nombre": "ZONA NOROESTE - Villa del Parque",
+        "dia_visita": "lunes",
+        "color": "#E74C3C",
+        "codigo_ruta": "R01-A",
+        "zone_type": "sales",
+        "description": "Villa del Parque y accesos por Av. San Martín, Villa Carlos Paz.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA NORTE - Costa Azul",
+        "dia_visita": "martes",
+        "color": "#3498DB",
+        "codigo_ruta": "R01-B",
+        "zone_type": "sales",
+        "description": "Costa Azul y costanera norte del lago San Roque.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA NORESTE - Sol y Río",
+        "dia_visita": "miercoles",
+        "color": "#2ECC71",
+        "codigo_ruta": "R02-A",
+        "zone_type": "route",
+        "description": "Sol y Río y barrio Residencial Las Acacias.",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA SUROESTE - San Antonio de Arredondo",
+        "dia_visita": "jueves",
+        "color": "#F39C12",
+        "codigo_ruta": "R02-B",
+        "zone_type": "sales",
+        "description": "San Antonio de Arredondo y acceso por Ruta Provincial 14.",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA SUR - Villa Parque Síquiman",
+        "dia_visita": "viernes",
+        "color": "#9B59B6",
+        "codigo_ruta": "R03-A",
+        "zone_type": "route",
+        "description": "Villa Parque Síquiman y zona sur del embalse.",
+        "vendedor_idx": 2
+      },
+      {
+        "nombre": "ZONA SURESTE - Estancia Vieja",
+        "dia_visita": "sabado",
+        "color": "#1ABC9C",
+        "codigo_ruta": "R03-B",
+        "zone_type": "sales",
+        "description": "Estancia Vieja y acceso a Bialet Massé.",
+        "vendedor_idx": 2
+      }
+    ],
+    "nombres_comerciales": [
+      "Almacén Don Roque",
+      "Despensa La Costanera",
+      "Fiambrería El Pinar",
+      "Minimarket Punilla",
+      "Autoservicio Sol y Lago",
+      "Proveeduría Villa del Parque",
+      "Almacén Los Olivos",
+      "Rotisería Costa Azul",
+      "Despensa San Martín",
+      "Fiambrería Belén",
+      "Minimarket Las Acacias",
+      "Almacén El Embalse",
+      "Autoservicio Arredondo",
+      "Proveeduría Síquiman",
+      "Despensa Estancia Vieja",
+      "Fiambrería La Paulina Express",
+      "Almacén Doña Rosa",
+      "Minimarket Valle Norte",
+      "Rotisería El Puente",
+      "Autoservicio Lago San Roque",
+      "Despensa Centro VCP",
+      "Fiambrería El Quesero",
+      "Almacén Tres Esquinas",
+      "Proveeduría Mayu Sumaj",
+      "Minimarket Cuesta Blanca",
+      "Autoservicio Bialet",
+      "Despensa Villa Parque",
+      "Fiambrería Natural Pig",
+      "Almacén La Esquina",
+      "Rotisería Punilla Sur",
+      "Minimarket El Faro",
+      "Proveeduría Sol y Río",
+      "Autoservicio Las Casuarinas",
+      "Despensa Río San Antonio",
+      "Fiambrería Dánica Point",
+      "Almacén El Progreso",
+      "Minimarket Villa del Lago Sur",
+      "Proveeduría Centro Comercial",
+      "Autoservicio Avenida España",
+      "Despensa Barrio Norte",
+      "Fiambrería La Tirolesa",
+      "Almacén Los Nogales",
+      "Rotisería Villa Carlos Paz",
+      "Minimarket El Lago",
+      "Proveeduría Ruta 38",
+      "Autoservicio Colinas",
+      "Despensa Parque Nacional",
+      "Fiambrería Unión Quesos",
+      "Almacén Doña Marta",
+      "Minimarket San Antonio",
+      "Proveeduría Costa Sur",
+      "Autoservicio El Mirador",
+      "Despensa La Estación",
+      "Fiambrería Spalen",
+      "Almacén Los Pinos",
+      "Rotisería El Trébol",
+      "Minimarket Villa del Lago",
+      "Proveeduría Autódromo"
+    ]
+  }
+}
