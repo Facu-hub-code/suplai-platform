@@ -38,7 +38,8 @@ def _get_sales_engine_config() -> tuple[str, str]:
     url = os.getenv("SALES_ENGINE_URL", "").rstrip("/")
     key = os.getenv("SALES_ENGINE_API_KEY", "")
     if not url:
-        raise SystemExit("[FAIL] SALES_ENGINE_URL no configurada en .env")
+        print("[WARN] SALES_ENGINE_URL no configurada en .env. Omitiendo re-entrenamiento del modelo ML.")
+        return "", ""
     return url, key
 
 
@@ -50,6 +51,8 @@ def _headers(key: str) -> dict[str, str]:
 
 def retrain(schema: str) -> None:
     base_url, api_key = _get_sales_engine_config()
+    if not base_url:
+        return
     headers = _headers(api_key)
     ml_warnings: list[str] = []
 

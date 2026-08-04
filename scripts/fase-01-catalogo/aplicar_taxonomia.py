@@ -35,8 +35,8 @@ def main():
     print(f"Límite de productos: {limite}")
     print("=" * 60)
 
-    # 1. Propose taxonomy via backend (categorias endpoint — SPEC-060)
-    propose_url = f"{backend_url}/{esquema}/categorias/propose-taxonomy"
+    # 1. Propose taxonomy via backend (tags endpoint)
+    propose_url = f"{backend_url}/{esquema}/tags/propose-taxonomy"
     print(f"[*] Solicitando propuesta de categorías en: {propose_url} (esperando respuesta de IA)...")
 
     payload = {"limit": limite}
@@ -44,7 +44,7 @@ def main():
     try:
         resp = requests.post(propose_url, json=payload, timeout=300)
         if resp.status_code != 200:
-            print(f"[FAIL] Error en categorias/propose-taxonomy (Código {resp.status_code}): {resp.text}")
+            print(f"[FAIL] Error en tags/propose-taxonomy (Código {resp.status_code}): {resp.text}")
             sys.exit(1)
 
         data = resp.json()
@@ -55,7 +55,7 @@ def main():
         # Guardar JSON a la carpeta de outputs local
         output_dir = f"implementacion/{esquema}/outputs"
         os.makedirs(output_dir, exist_ok=True)
-        output_path = f"{output_dir}/phase-01-1-propuesta-categorias.json"
+        output_path = f"{output_dir}/phase-01-1-propuesta-tags.json"
 
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
@@ -73,13 +73,13 @@ def main():
                 print("[*] Aplicación cancelada por el usuario. El archivo JSON fue guardado de todas formas.")
                 sys.exit(0)
 
-        # 2. Apply proposed taxonomy via backend (categorias endpoint — SPEC-060)
-        apply_url = f"{backend_url}/{esquema}/categorias/apply-proposed-taxonomy"
+        # 2. Apply proposed taxonomy via backend (tags endpoint)
+        apply_url = f"{backend_url}/{esquema}/tags/apply-proposed-taxonomy"
         print(f"[*] Aplicando categorías en la base de datos vía: {apply_url}...")
 
         apply_resp = requests.post(apply_url, json={"products": products_list}, timeout=300)
         if apply_resp.status_code != 200:
-            print(f"[FAIL] Error en categorias/apply-proposed-taxonomy (Código {apply_resp.status_code}): {apply_resp.text}")
+            print(f"[FAIL] Error en tags/apply-proposed-taxonomy (Código {apply_resp.status_code}): {apply_resp.text}")
             sys.exit(1)
 
         print("[+] ¡Categorías aplicadas exitosamente!")

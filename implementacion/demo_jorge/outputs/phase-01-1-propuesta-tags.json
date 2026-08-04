@@ -1,0 +1,5765 @@
+{
+  "schema": "demo_jorge",
+  "products": [
+    {
+      "product_code": "1002",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Cereales de Chocolate",
+        "4": "Cereal de Chocolate"
+      }
+    },
+    {
+      "product_code": "10057",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites Sin Azúcar",
+        "4": "Confite Sin Azúcar"
+      }
+    },
+    {
+      "product_code": "1009",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10128",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Menta",
+        "4": "Confite de Menta"
+      }
+    },
+    {
+      "product_code": "10129",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Cereza",
+        "4": "Confite de Cereza"
+      }
+    },
+    {
+      "product_code": "10130",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Menta",
+        "4": "Confite de Menta"
+      }
+    },
+    {
+      "product_code": "10131",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Miel",
+        "4": "Confite de Miel"
+      }
+    },
+    {
+      "product_code": "10132",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Menta",
+        "4": "Confite de Menta"
+      }
+    },
+    {
+      "product_code": "10173",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Saladas",
+        "4": "Galleta Salada"
+      }
+    },
+    {
+      "product_code": "10174",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Saladas",
+        "4": "Galleta Salada"
+      }
+    },
+    {
+      "product_code": "10204",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Saladas",
+        "4": "Galleta Salada"
+      }
+    },
+    {
+      "product_code": "10301",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Tomate",
+        "4": "Ketchup"
+      }
+    },
+    {
+      "product_code": "10302",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Tomate",
+        "4": "Ketchup Picante"
+      }
+    },
+    {
+      "product_code": "10336",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10337",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10338",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10340",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10341",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10342",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10343",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10344",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10345",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10346",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10347",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10348",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10350",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10352",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10353",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10374",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "1042",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Caramelo",
+        "4": "Caramelo"
+      }
+    },
+    {
+      "product_code": "10425",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Fruta",
+        "4": "Confite de Fruta"
+      }
+    },
+    {
+      "product_code": "10582",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Galleta Dulce"
+      }
+    },
+    {
+      "product_code": "10594",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Conservas de Tomate",
+        "4": "Tomate Cubeteado"
+      }
+    },
+    {
+      "product_code": "10600",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Bebidas de Fruta",
+        "4": "Bebida de Fruta"
+      }
+    },
+    {
+      "product_code": "10603",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Bebidas de Fruta",
+        "4": "Bebida de Naranja"
+      }
+    },
+    {
+      "product_code": "10604",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Bebidas de Fruta",
+        "4": "Bebida de Manzana"
+      }
+    },
+    {
+      "product_code": "10606",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Bebidas de Fruta",
+        "4": "Bebida de Fruta"
+      }
+    },
+    {
+      "product_code": "10609",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Bebidas de Fruta",
+        "4": "Bebida de Naranja"
+      }
+    },
+    {
+      "product_code": "10610",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Bebidas de Fruta",
+        "4": "Bebida de Manzana"
+      }
+    },
+    {
+      "product_code": "10620",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos",
+        "3": "Frutos Secos con Chocolate",
+        "4": "Maní con Chocolate"
+      }
+    },
+    {
+      "product_code": "10631",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos",
+        "3": "Frutos Secos",
+        "4": "Garrapiñada de Almendra"
+      }
+    },
+    {
+      "product_code": "10673",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Fruta",
+        "4": "Caramelo Masticable"
+      }
+    },
+    {
+      "product_code": "10693",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Fruta",
+        "4": "Bombón de Fruta"
+      }
+    },
+    {
+      "product_code": "10747",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Fruta",
+        "4": "Bombón de Fruta"
+      }
+    },
+    {
+      "product_code": "10763",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10770",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "10792",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Chocolate",
+        "4": "Salsa de Chocolate"
+      }
+    },
+    {
+      "product_code": "10798",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Menta",
+        "4": "Confite de Menta"
+      }
+    },
+    {
+      "product_code": "10885",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Caramelo",
+        "4": "Caramelo"
+      }
+    },
+    {
+      "product_code": "10918",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Fruta",
+        "4": "Confite de Fruta"
+      }
+    },
+    {
+      "product_code": "11013",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Fruta",
+        "4": "Oblea"
+      }
+    },
+    {
+      "product_code": "11028",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "1104",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Caramelo",
+        "4": "Caramelo"
+      }
+    },
+    {
+      "product_code": "11074",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Galleta Dulce"
+      }
+    },
+    {
+      "product_code": "11090",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Fruta",
+        "4": "Confite de Fruta"
+      }
+    },
+    {
+      "product_code": "11240",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Crema",
+        "4": "Helado de Crema"
+      }
+    },
+    {
+      "product_code": "11257",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Crema",
+        "4": "Helado de Crema"
+      }
+    },
+    {
+      "product_code": "11265",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Palito",
+        "4": "Helado de Palito"
+      }
+    },
+    {
+      "product_code": "11283",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Crema",
+        "4": "Helado de Crema"
+      }
+    },
+    {
+      "product_code": "11316",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Palito",
+        "4": "Helado de Palito"
+      }
+    },
+    {
+      "product_code": "11318",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Crema",
+        "4": "Helado de Crema"
+      }
+    },
+    {
+      "product_code": "11328",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Crema",
+        "4": "Helado de Crema"
+      }
+    },
+    {
+      "product_code": "11330",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Palito",
+        "4": "Helado de Palito"
+      }
+    },
+    {
+      "product_code": "11331",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Palito",
+        "4": "Helado de Palito"
+      }
+    },
+    {
+      "product_code": "11346",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Palito",
+        "4": "Helado de Palito"
+      }
+    },
+    {
+      "product_code": "11554",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Menta",
+        "4": "Confite de Menta"
+      }
+    },
+    {
+      "product_code": "11573",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "11584",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "11586",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "11587",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "11599",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Fruta",
+        "4": "Confite de Fruta"
+      }
+    },
+    {
+      "product_code": "11601",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "11612",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Turrón"
+      }
+    },
+    {
+      "product_code": "11646",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "11658",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "11661",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Alfajor"
+      }
+    },
+    {
+      "product_code": "11695",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Galleta Dulce"
+      }
+    },
+    {
+      "product_code": "11777",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Chocolate",
+        "4": "Confite de Chocolate"
+      }
+    },
+    {
+      "product_code": "11803",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Fruta",
+        "4": "Chupetín"
+      }
+    },
+    {
+      "product_code": "11807",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Fruta",
+        "4": "Fibra"
+      }
+    },
+    {
+      "product_code": "11808",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Suplementos Nutricionales",
+        "4": "Suplemento Vitalidad"
+      }
+    },
+    {
+      "product_code": "11809",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chupetines",
+        "4": "Chupetín Sabor Arándano"
+      }
+    },
+    {
+      "product_code": "11810",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chupetines",
+        "4": "Chupetín Surtido"
+      }
+    },
+    {
+      "product_code": "11811",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chupetines",
+        "4": "Chupetín Sabor Tutti Frutti"
+      }
+    },
+    {
+      "product_code": "11814",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Crema",
+        "4": "Helado Gelato"
+      }
+    },
+    {
+      "product_code": "11823",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Bolas de Chocolate"
+      }
+    },
+    {
+      "product_code": "11827",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Menta Chocolate"
+      }
+    },
+    {
+      "product_code": "11828",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Relleno Miel"
+      }
+    },
+    {
+      "product_code": "11829",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Miel y Menta"
+      }
+    },
+    {
+      "product_code": "11834",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Menta Cristal"
+      }
+    },
+    {
+      "product_code": "11835",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Menta Fresh Cristal"
+      }
+    },
+    {
+      "product_code": "11857",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Toffee Leche"
+      }
+    },
+    {
+      "product_code": "11858",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Toffee Café"
+      }
+    },
+    {
+      "product_code": "11860",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Surtido Cristal"
+      }
+    },
+    {
+      "product_code": "11878",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Toffee Chocolate"
+      }
+    },
+    {
+      "product_code": "11880",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Menthol Vitamina Limón"
+      }
+    },
+    {
+      "product_code": "11883",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Toffee Chocolate Blanco"
+      }
+    },
+    {
+      "product_code": "11884",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Toffee Águila"
+      }
+    },
+    {
+      "product_code": "11885",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Toffee Bonobon"
+      }
+    },
+    {
+      "product_code": "11886",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Toffee Chocolate Menta"
+      }
+    },
+    {
+      "product_code": "11887",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Caramelos",
+        "4": "Caramelo Toffee Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "11905",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Chocolate Bonobon Blanco"
+      }
+    },
+    {
+      "product_code": "11906",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Chocolate Bonobon Blanco"
+      }
+    },
+    {
+      "product_code": "11912",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Chocolate Bonobon Surtido"
+      }
+    },
+    {
+      "product_code": "11913",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Chocolate Bonobon Leche"
+      }
+    },
+    {
+      "product_code": "11915",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Chocolate Bonobon Leche"
+      }
+    },
+    {
+      "product_code": "11921",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Chocolate Bonobon Águila"
+      }
+    },
+    {
+      "product_code": "11956",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Chocolate Águila Chocolitos Blanco"
+      }
+    },
+    {
+      "product_code": "12039",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Chocolate Celofan 50% Cacao"
+      }
+    },
+    {
+      "product_code": "12100",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chicles",
+        "4": "Chicle Topline Seven Ultra Green Mint"
+      }
+    },
+    {
+      "product_code": "12101",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chicles",
+        "4": "Chicle Topline Seven Ultra Red Berry"
+      }
+    },
+    {
+      "product_code": "12102",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chicles",
+        "4": "Chicle Topline Seven Ultra Clean Mint"
+      }
+    },
+    {
+      "product_code": "12130",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Mermeladas",
+        "4": "Mermelada Sin Azúcar Durazno"
+      }
+    },
+    {
+      "product_code": "12131",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Mermeladas",
+        "4": "Mermelada Sin Azúcar Frutilla"
+      }
+    },
+    {
+      "product_code": "12145",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Rocklets Maní con Chocolate"
+      }
+    },
+    {
+      "product_code": "12186",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Crema",
+        "4": "Helado Postre Tofi"
+      }
+    },
+    {
+      "product_code": "12187",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Crema",
+        "4": "Helado Postre Águila"
+      }
+    },
+    {
+      "product_code": "12190",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Crema",
+        "4": "Helado Postre Bonobon"
+      }
+    },
+    {
+      "product_code": "12228",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Postres",
+        "4": "Brownie Águila"
+      }
+    },
+    {
+      "product_code": "12230",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Postres",
+        "4": "Torta Águila"
+      }
+    },
+    {
+      "product_code": "12265",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Rocklets 3 Deseos"
+      }
+    },
+    {
+      "product_code": "12279",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chicles",
+        "4": "Masticables Crazy"
+      }
+    },
+    {
+      "product_code": "12334",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chicles",
+        "4": "Chicle Topline Seven Menthol"
+      }
+    },
+    {
+      "product_code": "12347",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas para Asado",
+        "4": "Salsa Barbacoa LC"
+      }
+    },
+    {
+      "product_code": "12385",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chupetines",
+        "4": "Chupetín Extreme Duo"
+      }
+    },
+    {
+      "product_code": "12392",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Golosinas",
+        "4": "Mogul Frutillas Ácidas"
+      }
+    },
+    {
+      "product_code": "12393",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Golosinas",
+        "4": "Mogul Ositos"
+      }
+    },
+    {
+      "product_code": "12394",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Golosinas",
+        "4": "Cofler Yogurt Frutilla"
+      }
+    },
+    {
+      "product_code": "12397",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Golosinas",
+        "4": "Cofler Rellena Yogurt Frutilla"
+      }
+    },
+    {
+      "product_code": "12404",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Graffiti Blanco"
+      }
+    },
+    {
+      "product_code": "12450",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Tostadas",
+        "4": "Criollitas Tostadas Clásica"
+      }
+    },
+    {
+      "product_code": "12451",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Tostadas",
+        "4": "Criollitas Tostadas Salvado"
+      }
+    },
+    {
+      "product_code": "12453",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Tostadas",
+        "4": "Criollitas Tostadas Dulces"
+      }
+    },
+    {
+      "product_code": "12454",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Tostadas",
+        "4": "Criollitas Tostadas Light"
+      }
+    },
+    {
+      "product_code": "12489",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Snack Saladix Cross Pizza"
+      }
+    },
+    {
+      "product_code": "12490",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Snack Saladix Cross Pizza"
+      }
+    },
+    {
+      "product_code": "12491",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Snack Saladix Cross Pizza"
+      }
+    },
+    {
+      "product_code": "12497",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Snack Saladix Original"
+      }
+    },
+    {
+      "product_code": "12502",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Snack Saladix Barbacoa"
+      }
+    },
+    {
+      "product_code": "12506",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Snack Saladix Cheddar"
+      }
+    },
+    {
+      "product_code": "12544",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Condimento Tomillo"
+      }
+    },
+    {
+      "product_code": "12553",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Graffiti"
+      }
+    },
+    {
+      "product_code": "12559",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Suplementos Nutricionales",
+        "4": "Suplemento Defensas"
+      }
+    },
+    {
+      "product_code": "12560",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Suplementos Nutricionales",
+        "4": "Suplemento Defensas"
+      }
+    },
+    {
+      "product_code": "12567",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Suplementos Nutricionales",
+        "4": "Suplemento Vitalidad Doy Pack"
+      }
+    },
+    {
+      "product_code": "12568",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Suplementos Nutricionales",
+        "4": "Suplemento Calcio Doy Pack"
+      }
+    },
+    {
+      "product_code": "12569",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Suplementos Nutricionales",
+        "4": "Suplemento Fibra Doy Pack"
+      }
+    },
+    {
+      "product_code": "12576",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces y Golosinas",
+        "3": "Chocolates",
+        "4": "Chocolate Celofan Leche y Maní"
+      }
+    },
+    {
+      "product_code": "12604",
+      "tags": {
+        "1": "Almacén",
+        "2": "Alimentos",
+        "3": "Pizzas",
+        "4": "Pizza Sin TACC"
+      }
+    },
+    {
+      "product_code": "12605",
+      "tags": {
+        "1": "Almacén",
+        "2": "Alimentos",
+        "3": "Ñoquis",
+        "4": "Ñoquis Papa Sin TACC"
+      }
+    },
+    {
+      "product_code": "12607",
+      "tags": {
+        "1": "Almacén",
+        "2": "Alimentos",
+        "3": "Bizcochuelos",
+        "4": "Bizcochuelo Sin TACC Vainilla"
+      }
+    },
+    {
+      "product_code": "12608",
+      "tags": {
+        "1": "Almacén",
+        "2": "Alimentos",
+        "3": "Bizcochuelos",
+        "4": "Bizcochuelo Sin TACC Chocolate"
+      }
+    },
+    {
+      "product_code": "12625",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Cereales de Desayuno",
+        "4": "Cereal Mix Yogurt Frutilla Light"
+      }
+    },
+    {
+      "product_code": "12626",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Cereales de Desayuno",
+        "4": "Cereal Mix Yogurt Frutilla"
+      }
+    },
+    {
+      "product_code": "12631",
+      "tags": {
+        "1": "Almacén",
+        "2": "Alimentos",
+        "3": "Polenta",
+        "4": "Polenta Prestopronta Espinaca y Crema"
+      }
+    },
+    {
+      "product_code": "12632",
+      "tags": {
+        "1": "Almacén",
+        "2": "Alimentos",
+        "3": "Polenta",
+        "4": "Polenta Prestopronta Panceta y Queso"
+      }
+    },
+    {
+      "product_code": "12693",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Mermeladas",
+        "4": "Mermelada Sin Azúcar Naranja"
+      }
+    },
+    {
+      "product_code": "12696",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Frutas en Conserva",
+        "4": "Membrillo LC Estuche"
+      }
+    },
+    {
+      "product_code": "12697",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Frutas en Conserva",
+        "4": "Batata Vainilla LC Estuche"
+      }
+    },
+    {
+      "product_code": "12698",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Frutas en Conserva",
+        "4": "Membrillo LC Lata"
+      }
+    },
+    {
+      "product_code": "12699",
+      "tags": {
+        "1": "Almacén",
+        "2": "Verduras en Conserva",
+        "3": "Verduras en Lata",
+        "4": "Batata"
+      }
+    },
+    {
+      "product_code": "12700",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutas en Conserva",
+        "3": "Frutas en Lata",
+        "4": "Membrillo"
+      }
+    },
+    {
+      "product_code": "12701",
+      "tags": {
+        "1": "Almacén",
+        "2": "Verduras en Conserva",
+        "3": "Verduras en Lata",
+        "4": "Batata"
+      }
+    },
+    {
+      "product_code": "12710",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Fruta",
+        "4": "Helado de Sandía"
+      }
+    },
+    {
+      "product_code": "12717",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Budines",
+        "4": "Budín Sin Fruta"
+      }
+    },
+    {
+      "product_code": "12718",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Budines",
+        "4": "Budín con Fruta"
+      }
+    },
+    {
+      "product_code": "12719",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Budines",
+        "4": "Budín Marmolado"
+      }
+    },
+    {
+      "product_code": "12720",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Budines",
+        "4": "Budín Sin Fruta"
+      }
+    },
+    {
+      "product_code": "12722",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Budines",
+        "4": "Budín con Fruta"
+      }
+    },
+    {
+      "product_code": "12725",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Dulce",
+        "4": "Pan Dulce"
+      }
+    },
+    {
+      "product_code": "12726",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Dulce",
+        "4": "Pan Dulce"
+      }
+    },
+    {
+      "product_code": "12727",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Dulce",
+        "4": "Pan Dulce con Fruta"
+      }
+    },
+    {
+      "product_code": "12731",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Dulce",
+        "4": "Pan Dulce con Fruta"
+      }
+    },
+    {
+      "product_code": "12753",
+      "tags": {
+        "1": "Almacén",
+        "2": "Azúcar y Edulcorantes",
+        "3": "Azúcar",
+        "4": "Azúcar"
+      }
+    },
+    {
+      "product_code": "12757",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Palito",
+        "4": "Helado de Palito Bombón"
+      }
+    },
+    {
+      "product_code": "12794",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Galletas"
+      }
+    },
+    {
+      "product_code": "12852",
+      "tags": {
+        "1": "Almacén",
+        "2": "Caramelos",
+        "3": "Caramelos Mini",
+        "4": "Caramelo Mini Cherry"
+      }
+    },
+    {
+      "product_code": "12869",
+      "tags": {
+        "1": "Almacén",
+        "2": "Barritas de Proteína",
+        "3": "Barritas de Proteína",
+        "4": "Barra de Proteína"
+      }
+    },
+    {
+      "product_code": "12897",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Galletas de Leche"
+      }
+    },
+    {
+      "product_code": "12898",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Galletas de Chocolina"
+      }
+    },
+    {
+      "product_code": "12899",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Galletas de Almendras"
+      }
+    },
+    {
+      "product_code": "12901",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Taza",
+        "4": "Chocolate en Taza Familiar"
+      }
+    },
+    {
+      "product_code": "12902",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Taza",
+        "4": "Chocolate 60% Cacao"
+      }
+    },
+    {
+      "product_code": "12903",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Taza",
+        "4": "Chocolate 70% Cacao"
+      }
+    },
+    {
+      "product_code": "12904",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos",
+        "3": "Maní Bañado",
+        "4": "Maní Bañado"
+      }
+    },
+    {
+      "product_code": "12907",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Barra",
+        "4": "Barra Rocklets"
+      }
+    },
+    {
+      "product_code": "12921",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate Relleno",
+        "4": "Aireado Relleno Bonobon"
+      }
+    },
+    {
+      "product_code": "12927",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tomate",
+        "3": "Tomate en Puré",
+        "4": "Puré de Tomate"
+      }
+    },
+    {
+      "product_code": "12961",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks de Papa",
+        "4": "Snack de Papa Crema Cebolla"
+      }
+    },
+    {
+      "product_code": "12963",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks de Papa",
+        "4": "Snack de Papa Original"
+      }
+    },
+    {
+      "product_code": "12964",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks de Papa",
+        "4": "Snack de Papa Original"
+      }
+    },
+    {
+      "product_code": "12976",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Alfajores",
+        "4": "Alfajor Mini"
+      }
+    },
+    {
+      "product_code": "12988",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tomate",
+        "3": "Tomate en Extracto",
+        "4": "Extracto de Tomate"
+      }
+    },
+    {
+      "product_code": "12989",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Frutilla"
+      }
+    },
+    {
+      "product_code": "12990",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Durazno"
+      }
+    },
+    {
+      "product_code": "12991",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Frutos Rojos"
+      }
+    },
+    {
+      "product_code": "12994",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pescados y Mariscos",
+        "3": "Atún en Conserva",
+        "4": "Atún Desmenuzado en Aceite"
+      }
+    },
+    {
+      "product_code": "12996",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pescados y Mariscos",
+        "3": "Atún en Conserva",
+        "4": "Ensalada de Atún"
+      }
+    },
+    {
+      "product_code": "13000",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Tomate",
+        "4": "Salsa Rosa"
+      }
+    },
+    {
+      "product_code": "13001",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Tomate",
+        "4": "Salsa Bolognesa"
+      }
+    },
+    {
+      "product_code": "13017",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Block",
+        "4": "Chocolate Block"
+      }
+    },
+    {
+      "product_code": "13020",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados Variados",
+        "4": "Helado Tres Cremas"
+      }
+    },
+    {
+      "product_code": "13023",
+      "tags": {
+        "1": "Almacén",
+        "2": "Golosinas",
+        "3": "Golosinas de Goma",
+        "4": "Mogul Oso"
+      }
+    },
+    {
+      "product_code": "13024",
+      "tags": {
+        "1": "Almacén",
+        "2": "Golosinas",
+        "3": "Golosinas de Goma",
+        "4": "Mogul Sandía"
+      }
+    },
+    {
+      "product_code": "13038",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo en Polvo Multifruta"
+      }
+    },
+    {
+      "product_code": "13056",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Bombones",
+        "4": "Bombón Block"
+      }
+    },
+    {
+      "product_code": "13068",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Barra",
+        "4": "Chocolatín de Leche"
+      }
+    },
+    {
+      "product_code": "13069",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Barra",
+        "4": "Chocolatín Blanco"
+      }
+    },
+    {
+      "product_code": "13072",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados Variados",
+        "4": "Helado Crema Americana"
+      }
+    },
+    {
+      "product_code": "13073",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados Variados",
+        "4": "Helado Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "13109",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tomate",
+        "3": "Tomate en Puré",
+        "4": "Puré de Tomate"
+      }
+    },
+    {
+      "product_code": "13110",
+      "tags": {
+        "1": "Almacén",
+        "2": "Caramelos",
+        "3": "Caramelos Surtidos",
+        "4": "Caramelo Surtido"
+      }
+    },
+    {
+      "product_code": "13111",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres",
+        "4": "Postre Choco Trifle"
+      }
+    },
+    {
+      "product_code": "13113",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres",
+        "4": "Postre Mousse"
+      }
+    },
+    {
+      "product_code": "13121",
+      "tags": {
+        "1": "Almacén",
+        "2": "Golosinas",
+        "3": "Golosinas de Goma",
+        "4": "Mogul Moras"
+      }
+    },
+    {
+      "product_code": "13133",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tomate",
+        "3": "Tomate en Conserva",
+        "4": "Tomate Entero"
+      }
+    },
+    {
+      "product_code": "13135",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pescados y Mariscos",
+        "3": "Atún en Conserva",
+        "4": "Atún en Aceite"
+      }
+    },
+    {
+      "product_code": "13136",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pescados y Mariscos",
+        "3": "Atún en Conserva",
+        "4": "Atún Natural"
+      }
+    },
+    {
+      "product_code": "13137",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate Surtido",
+        "4": "Surtido Chocolate"
+      }
+    },
+    {
+      "product_code": "13138",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate Surtido",
+        "4": "Surtido Selección"
+      }
+    },
+    {
+      "product_code": "13140",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Durazno"
+      }
+    },
+    {
+      "product_code": "13141",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Frutilla"
+      }
+    },
+    {
+      "product_code": "13142",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Ciruela"
+      }
+    },
+    {
+      "product_code": "13143",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Naranja"
+      }
+    },
+    {
+      "product_code": "13144",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Damasco"
+      }
+    },
+    {
+      "product_code": "13146",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Arándano"
+      }
+    },
+    {
+      "product_code": "13150",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Jalea Membrillo"
+      }
+    },
+    {
+      "product_code": "13151",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Durazno"
+      }
+    },
+    {
+      "product_code": "13152",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Damasco"
+      }
+    },
+    {
+      "product_code": "13153",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Frutilla"
+      }
+    },
+    {
+      "product_code": "13154",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Ciruela"
+      }
+    },
+    {
+      "product_code": "13155",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Naranja"
+      }
+    },
+    {
+      "product_code": "13156",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Arándano"
+      }
+    },
+    {
+      "product_code": "13159",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Frambuesa"
+      }
+    },
+    {
+      "product_code": "13174",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Bizcochuelos",
+        "4": "Bizcochuelo de Vainilla"
+      }
+    },
+    {
+      "product_code": "13175",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Bizcochuelos",
+        "4": "Bizcochuelo Marmolado"
+      }
+    },
+    {
+      "product_code": "13176",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Bizcochuelos",
+        "4": "Bizcochuelo de Chocolate"
+      }
+    },
+    {
+      "product_code": "13177",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo en Polvo Naranja"
+      }
+    },
+    {
+      "product_code": "13178",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo en Polvo Limonada"
+      }
+    },
+    {
+      "product_code": "13179",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo en Polvo Mango Naranja"
+      }
+    },
+    {
+      "product_code": "13180",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos en Polvo",
+        "3": "Jugos Saborizados",
+        "4": "Jugo Saborizado Naranja"
+      }
+    },
+    {
+      "product_code": "13181",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos en Polvo",
+        "3": "Jugos Saborizados",
+        "4": "Jugo Saborizado Manzana"
+      }
+    },
+    {
+      "product_code": "13182",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos en Polvo",
+        "3": "Jugos Saborizados",
+        "4": "Jugo Saborizado Naranja Durazno"
+      }
+    },
+    {
+      "product_code": "13183",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos en Polvo",
+        "3": "Jugos Saborizados",
+        "4": "Jugo Saborizado Ananá"
+      }
+    },
+    {
+      "product_code": "13184",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos en Polvo",
+        "3": "Jugos Saborizados",
+        "4": "Jugo Saborizado Frutilla Limón"
+      }
+    },
+    {
+      "product_code": "13185",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos en Polvo",
+        "3": "Jugos Saborizados",
+        "4": "Jugo Saborizado Pomelo Rosado"
+      }
+    },
+    {
+      "product_code": "13186",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos en Polvo",
+        "3": "Jugos Saborizados",
+        "4": "Jugo Saborizado Pomelo Amarillo"
+      }
+    },
+    {
+      "product_code": "13187",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cacao",
+        "3": "Cacao en Polvo",
+        "4": "Cacao en Polvo"
+      }
+    },
+    {
+      "product_code": "13188",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cacao",
+        "3": "Cacao en Polvo",
+        "4": "Cacao en Polvo"
+      }
+    },
+    {
+      "product_code": "13189",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres en Vasito",
+        "4": "Postre Vainilla"
+      }
+    },
+    {
+      "product_code": "13190",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres en Vasito",
+        "4": "Postre Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "13191",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres en Vasito",
+        "4": "Postre Chocolate"
+      }
+    },
+    {
+      "product_code": "13192",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres en Vasito",
+        "4": "Postre Vainilla"
+      }
+    },
+    {
+      "product_code": "13193",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres en Vasito",
+        "4": "Postre Limón Crema"
+      }
+    },
+    {
+      "product_code": "13194",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres en Vasito",
+        "4": "Postre Chocolate"
+      }
+    },
+    {
+      "product_code": "13215",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Rellenas",
+        "4": "Bocadito Relleno"
+      }
+    },
+    {
+      "product_code": "13216",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Frutales",
+        "4": "Mermelada Durazno"
+      }
+    },
+    {
+      "product_code": "13217",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Frutales",
+        "4": "Mermelada Damasco"
+      }
+    },
+    {
+      "product_code": "13218",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Frutales",
+        "4": "Mermelada Frutilla"
+      }
+    },
+    {
+      "product_code": "13219",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Frutales",
+        "4": "Mermelada Naranja"
+      }
+    },
+    {
+      "product_code": "13220",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Frutales",
+        "4": "Mermelada Ciruela"
+      }
+    },
+    {
+      "product_code": "13222",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Dietéticas",
+        "4": "Mermelada Diet Durazno"
+      }
+    },
+    {
+      "product_code": "13223",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Dietéticas",
+        "4": "Mermelada Diet Damasco"
+      }
+    },
+    {
+      "product_code": "13224",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Dietéticas",
+        "4": "Mermelada Diet Ciruela"
+      }
+    },
+    {
+      "product_code": "13225",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Dietéticas",
+        "4": "Mermelada Diet Frutilla"
+      }
+    },
+    {
+      "product_code": "13226",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Dietéticas",
+        "4": "Mermelada Diet Naranja"
+      }
+    },
+    {
+      "product_code": "13228",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bizcochuelos",
+        "3": "Bizcochuelos Saborizados",
+        "4": "Bizcochuelo Chocolate"
+      }
+    },
+    {
+      "product_code": "13229",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bizcochuelos",
+        "3": "Bizcochuelos Saborizados",
+        "4": "Bizcochuelo Vainilla"
+      }
+    },
+    {
+      "product_code": "13230",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bizcochuelos",
+        "3": "Bizcochuelos Saborizados",
+        "4": "Bizcochuelo Marmolado"
+      }
+    },
+    {
+      "product_code": "13238",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Arvejas Secas"
+      }
+    },
+    {
+      "product_code": "13239",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Arvejas Secas"
+      }
+    },
+    {
+      "product_code": "13241",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Enteras",
+        "4": "Choclo Entero"
+      }
+    },
+    {
+      "product_code": "13242",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Enteras",
+        "4": "Choclo Entero"
+      }
+    },
+    {
+      "product_code": "13245",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Lentejas"
+      }
+    },
+    {
+      "product_code": "13247",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Garbanzos"
+      }
+    },
+    {
+      "product_code": "13248",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Porotos Alubia"
+      }
+    },
+    {
+      "product_code": "13249",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Secas",
+        "4": "Porotos Alubia"
+      }
+    },
+    {
+      "product_code": "13252",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Mixtas",
+        "4": "Jardinera"
+      }
+    },
+    {
+      "product_code": "13253",
+      "tags": {
+        "1": "Almacén",
+        "2": "Legumbres",
+        "3": "Legumbres Mixtas",
+        "4": "Jardinera"
+      }
+    },
+    {
+      "product_code": "13258",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Dulces",
+        "4": "Rocklets"
+      }
+    },
+    {
+      "product_code": "13295",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Saladas",
+        "4": "Hogareñas con Salvado"
+      }
+    },
+    {
+      "product_code": "13296",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Saladas",
+        "4": "Hogareñas con Salvado"
+      }
+    },
+    {
+      "product_code": "13310",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Tabletas",
+        "4": "Tableta Chocolate Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "13311",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Tabletas",
+        "4": "Block Chocolate Miti Miti"
+      }
+    },
+    {
+      "product_code": "13313",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Tomate",
+        "4": "Salsa Pomarola"
+      }
+    },
+    {
+      "product_code": "13314",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Tomate",
+        "4": "Salsa Pomarola"
+      }
+    },
+    {
+      "product_code": "13315",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Tomate",
+        "4": "Salsa Pizza"
+      }
+    },
+    {
+      "product_code": "13316",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Tomate",
+        "4": "Salsa Pizza"
+      }
+    },
+    {
+      "product_code": "13317",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Tomate",
+        "4": "Salsa Filetto"
+      }
+    },
+    {
+      "product_code": "13318",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Tomate",
+        "4": "Salsa Filetto"
+      }
+    },
+    {
+      "product_code": "13323",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Rellenas",
+        "4": "Mana Rellena Chocolate Vainilla"
+      }
+    },
+    {
+      "product_code": "13324",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Rellenas",
+        "4": "Mana Rellena Vainilla Chocolate"
+      }
+    },
+    {
+      "product_code": "13325",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Rellenas",
+        "4": "Mana Rellena Limón"
+      }
+    },
+    {
+      "product_code": "13326",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Rellenas",
+        "4": "Mana Rellena Vainilla Frutilla"
+      }
+    },
+    {
+      "product_code": "13331",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Tabletas",
+        "4": "Baño Repostero Leche"
+      }
+    },
+    {
+      "product_code": "13332",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Tabletas",
+        "4": "Baño Repostero Semi Amargo"
+      }
+    },
+    {
+      "product_code": "13333",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Tabletas",
+        "4": "Baño Repostero Blanco"
+      }
+    },
+    {
+      "product_code": "13334",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate Untar",
+        "4": "Relleno Untable"
+      }
+    },
+    {
+      "product_code": "13335",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Tabletas",
+        "4": "Huevo Rocklet"
+      }
+    },
+    {
+      "product_code": "13337",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Dulces",
+        "4": "Barra Chocolinas"
+      }
+    },
+    {
+      "product_code": "13338",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Dulces",
+        "4": "Barra Coco"
+      }
+    },
+    {
+      "product_code": "13340",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Dulces",
+        "4": "Oblea"
+      }
+    },
+    {
+      "product_code": "13342",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Dulces",
+        "4": "Oblea"
+      }
+    },
+    {
+      "product_code": "13343",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Dulces",
+        "4": "Barra Sacity Chocolate"
+      }
+    },
+    {
+      "product_code": "13344",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Dulces",
+        "4": "Barra Sacity Limón"
+      }
+    },
+    {
+      "product_code": "13345",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Tabletas",
+        "4": "Tableta Milk"
+      }
+    },
+    {
+      "product_code": "13346",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Tabletas",
+        "4": "Tableta Milk por 4"
+      }
+    },
+    {
+      "product_code": "13347",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Dulces",
+        "4": "Sonrisas"
+      }
+    },
+    {
+      "product_code": "13348",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Dulces",
+        "4": "Sonrisas"
+      }
+    },
+    {
+      "product_code": "13357",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Dulces",
+        "4": "Alfajor Minitorna Blanco"
+      }
+    },
+    {
+      "product_code": "13358",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Dulces",
+        "4": "Alfajor Minitorna Clásico"
+      }
+    },
+    {
+      "product_code": "13359",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Dulces",
+        "4": "Alfajor Minitorna Brownie"
+      }
+    },
+    {
+      "product_code": "13360",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Dulces",
+        "4": "Alfajor Minitorna Coco"
+      }
+    },
+    {
+      "product_code": "13364",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Cereales Mezclados",
+        "4": "Cereal Mix Frutilla Chocolate"
+      }
+    },
+    {
+      "product_code": "13384",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Snacks Salados",
+        "4": "Snack Chips Fuego"
+      }
+    },
+    {
+      "product_code": "13392",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Galletitas Tostadas",
+        "4": "Criollitas Tostadas"
+      }
+    },
+    {
+      "product_code": "13395",
+      "tags": {
+        "1": "Almacén",
+        "2": "Harinas",
+        "3": "Harinas Preparadas",
+        "4": "Arepa Prestopronta"
+      }
+    },
+    {
+      "product_code": "13409",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites Surtidos",
+        "4": "Butter Toffees Avellana"
+      }
+    },
+    {
+      "product_code": "13420",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites Surtidos",
+        "4": "Butter Toffees Surtido"
+      }
+    },
+    {
+      "product_code": "13430",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Tabletas",
+        "4": "Huevo Milk FP"
+      }
+    },
+    {
+      "product_code": "13432",
+      "tags": {
+        "1": "Almacén",
+        "2": "Untables",
+        "3": "Rellenos Untables",
+        "4": "Relleno Untable"
+      }
+    },
+    {
+      "product_code": "13433",
+      "tags": {
+        "1": "Almacén",
+        "2": "Untables",
+        "3": "Rellenos Untables",
+        "4": "Relleno Untable"
+      }
+    },
+    {
+      "product_code": "13434",
+      "tags": {
+        "1": "Almacén",
+        "2": "Untables",
+        "3": "Rellenos Untables",
+        "4": "Relleno Untable"
+      }
+    },
+    {
+      "product_code": "13435",
+      "tags": {
+        "1": "Almacén",
+        "2": "Coberturas",
+        "3": "Baños Reposteros",
+        "4": "Baño Repostero"
+      }
+    },
+    {
+      "product_code": "13436",
+      "tags": {
+        "1": "Almacén",
+        "2": "Coberturas",
+        "3": "Baños Reposteros",
+        "4": "Baño Repostero"
+      }
+    },
+    {
+      "product_code": "13444",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas Italianas",
+        "4": "Salsa Italiana"
+      }
+    },
+    {
+      "product_code": "13449",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas Portuguesas",
+        "4": "Salsa Portuguesa"
+      }
+    },
+    {
+      "product_code": "13450",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas Italianas",
+        "4": "Salsa Italiana"
+      }
+    },
+    {
+      "product_code": "13451",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas para Pastas",
+        "4": "Salsa Tuco"
+      }
+    },
+    {
+      "product_code": "13453",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Romero"
+      }
+    },
+    {
+      "product_code": "13466",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolates",
+        "3": "Chocolates Blancos",
+        "4": "Chocolate Blanco"
+      }
+    },
+    {
+      "product_code": "13467",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolates",
+        "3": "Chocolates Semiamargos",
+        "4": "Chocolate Semiamargo"
+      }
+    },
+    {
+      "product_code": "13469",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Secas",
+        "4": "Pasta Spaghetti"
+      }
+    },
+    {
+      "product_code": "13470",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Secas",
+        "4": "Pasta Tallarín"
+      }
+    },
+    {
+      "product_code": "13472",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Secas",
+        "4": "Pasta Tirabuzón"
+      }
+    },
+    {
+      "product_code": "13473",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Secas",
+        "4": "Pasta Codito"
+      }
+    },
+    {
+      "product_code": "13475",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Secas",
+        "4": "Pasta Penne"
+      }
+    },
+    {
+      "product_code": "13524",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Palito",
+        "4": "Helado Palito"
+      }
+    },
+    {
+      "product_code": "13525",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados Cremosos",
+        "4": "Helado Cremoso"
+      }
+    },
+    {
+      "product_code": "13526",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Porciones",
+        "4": "Helado en Porciones"
+      }
+    },
+    {
+      "product_code": "13528",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Porciones",
+        "4": "Helado en Porciones"
+      }
+    },
+    {
+      "product_code": "13530",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Block",
+        "4": "Helado Block"
+      }
+    },
+    {
+      "product_code": "13534",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Block",
+        "4": "Helado Block"
+      }
+    },
+    {
+      "product_code": "13538",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Porciones",
+        "4": "Helado Torta"
+      }
+    },
+    {
+      "product_code": "13543",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "13545",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "13546",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "13574",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas de Cereal",
+        "4": "Galleta de Cereal"
+      }
+    },
+    {
+      "product_code": "13575",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas de Cereal",
+        "4": "Galleta de Cereal"
+      }
+    },
+    {
+      "product_code": "13576",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas de Cereal",
+        "4": "Galleta de Cereal"
+      }
+    },
+    {
+      "product_code": "13583",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres en Porciones",
+        "4": "Postre"
+      }
+    },
+    {
+      "product_code": "13589",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Rellenas",
+        "4": "Galleta Rellena"
+      }
+    },
+    {
+      "product_code": "13594",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Cereales de Desayuno",
+        "4": "Cereal"
+      }
+    },
+    {
+      "product_code": "13606",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas de Cereal",
+        "4": "Galleta de Cereal"
+      }
+    },
+    {
+      "product_code": "13607",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas de Cereal",
+        "4": "Galleta de Cereal"
+      }
+    },
+    {
+      "product_code": "13608",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas de Cereal",
+        "4": "Galleta de Cereal"
+      }
+    },
+    {
+      "product_code": "13609",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas de Cereal",
+        "4": "Galleta de Cereal"
+      }
+    },
+    {
+      "product_code": "13610",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas de Cereal",
+        "4": "Galleta de Cereal"
+      }
+    },
+    {
+      "product_code": "13624",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas de Cereal",
+        "4": "Galleta de Cereal"
+      }
+    },
+    {
+      "product_code": "13625",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas de Cereal",
+        "4": "Galleta de Cereal"
+      }
+    },
+    {
+      "product_code": "13635",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres en Porciones",
+        "4": "Postre"
+      }
+    },
+    {
+      "product_code": "13640",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolates",
+        "3": "Chocolates Variados",
+        "4": "Bocadito"
+      }
+    },
+    {
+      "product_code": "13642",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Variadas",
+        "4": "Galleta"
+      }
+    },
+    {
+      "product_code": "13644",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolates",
+        "3": "Chocolates Variados",
+        "4": "Garrapiñada"
+      }
+    },
+    {
+      "product_code": "13648",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bocaditos",
+        "3": "Bocaditos Variados",
+        "4": "Bocadito"
+      }
+    },
+    {
+      "product_code": "13650",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bocaditos",
+        "3": "Bocaditos Variados",
+        "4": "Bocadito"
+      }
+    },
+    {
+      "product_code": "13655",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Oregano"
+      }
+    },
+    {
+      "product_code": "13656",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Pimentón"
+      }
+    },
+    {
+      "product_code": "13657",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Pimienta Negra Grano"
+      }
+    },
+    {
+      "product_code": "13658",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Pimienta Negra Molida"
+      }
+    },
+    {
+      "product_code": "13659",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Nuez Moscada Molida"
+      }
+    },
+    {
+      "product_code": "13660",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Provenzal"
+      }
+    },
+    {
+      "product_code": "13661",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Oregano"
+      }
+    },
+    {
+      "product_code": "13662",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Comino Molido"
+      }
+    },
+    {
+      "product_code": "13663",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento para Carnes"
+      }
+    },
+    {
+      "product_code": "13664",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento para Arroz"
+      }
+    },
+    {
+      "product_code": "13666",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Pimienta Blanca Molida"
+      }
+    },
+    {
+      "product_code": "13667",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Chimichurri"
+      }
+    },
+    {
+      "product_code": "13668",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Ajo Triturado"
+      }
+    },
+    {
+      "product_code": "13669",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Pimentón"
+      }
+    },
+    {
+      "product_code": "13670",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Ají Triturado"
+      }
+    },
+    {
+      "product_code": "13673",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Provenzal"
+      }
+    },
+    {
+      "product_code": "13675",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Hierbas y Especias",
+        "4": "Condimento Pizza"
+      }
+    },
+    {
+      "product_code": "13686",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres en Porciones",
+        "4": "Postre"
+      }
+    },
+    {
+      "product_code": "13709",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolates",
+        "3": "Chocolates Variados",
+        "4": "Chocolate"
+      }
+    },
+    {
+      "product_code": "13710",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Variadas",
+        "4": "Galleta"
+      }
+    },
+    {
+      "product_code": "13711",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chicles",
+        "3": "Chicles Sin Azúcar",
+        "4": "Chicle"
+      }
+    },
+    {
+      "product_code": "13712",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chicles",
+        "3": "Chicles Sin Azúcar",
+        "4": "Chicle"
+      }
+    },
+    {
+      "product_code": "13748",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Variadas",
+        "4": "Galleta"
+      }
+    },
+    {
+      "product_code": "13751",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Variadas",
+        "4": "Galleta"
+      }
+    },
+    {
+      "product_code": "13776",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas de Arroz",
+        "4": "Galleta de Arroz"
+      }
+    },
+    {
+      "product_code": "13781",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas Lácteas",
+        "4": "Bebida Láctea"
+      }
+    },
+    {
+      "product_code": "13782",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas Lácteas",
+        "4": "Bebida Láctea"
+      }
+    },
+    {
+      "product_code": "13783",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas Lácteas",
+        "4": "Bebida Láctea"
+      }
+    },
+    {
+      "product_code": "13784",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas Lácteas",
+        "4": "Bebida Láctea"
+      }
+    },
+    {
+      "product_code": "13787",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "13791",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas Lácteas",
+        "4": "Bebida Láctea"
+      }
+    },
+    {
+      "product_code": "13796",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Sin TACC",
+        "4": "Galleta Sin TACC"
+      }
+    },
+    {
+      "product_code": "13797",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chicles",
+        "3": "Chicles Sin Azúcar",
+        "4": "Chicle"
+      }
+    },
+    {
+      "product_code": "13799",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Proteínas",
+        "4": "Proteína"
+      }
+    },
+    {
+      "product_code": "13800",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Proteínas en Polvo",
+        "4": "Proteína de Suero"
+      }
+    },
+    {
+      "product_code": "13802",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Batidos",
+        "4": "Batido en Polvo"
+      }
+    },
+    {
+      "product_code": "13803",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Batidos",
+        "4": "Batido en Polvo"
+      }
+    },
+    {
+      "product_code": "13804",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Creatinas",
+        "4": "Creatina"
+      }
+    },
+    {
+      "product_code": "13830",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "13854",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta de Chocolate"
+      }
+    },
+    {
+      "product_code": "13857",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Pescados",
+        "4": "Caballa en Aceite"
+      }
+    },
+    {
+      "product_code": "13858",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Pescados",
+        "4": "Caballa Natural"
+      }
+    },
+    {
+      "product_code": "13864",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barras de Proteína",
+        "4": "Barra de Proteína"
+      }
+    },
+    {
+      "product_code": "13865",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Barras de Proteína",
+        "4": "Barra de Proteína"
+      }
+    },
+    {
+      "product_code": "13872",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Harinas",
+        "4": "Polenta"
+      }
+    },
+    {
+      "product_code": "13873",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Harinas",
+        "4": "Polenta"
+      }
+    },
+    {
+      "product_code": "13886",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Tomates",
+        "4": "Tomate Pelado"
+      }
+    },
+    {
+      "product_code": "13901",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta Salada"
+      }
+    },
+    {
+      "product_code": "13902",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Dulces",
+        "4": "Toffees"
+      }
+    },
+    {
+      "product_code": "13909",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta Dulce"
+      }
+    },
+    {
+      "product_code": "13946",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "13947",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "13949",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "13956",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta Bañada"
+      }
+    },
+    {
+      "product_code": "13959",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "13960",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "13965",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta Dulce"
+      }
+    },
+    {
+      "product_code": "13966",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "13977",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta Salada"
+      }
+    },
+    {
+      "product_code": "13978",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chocolate",
+        "4": "Chocolate Blanco"
+      }
+    },
+    {
+      "product_code": "13979",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chocolate",
+        "4": "Chocolate con Leche"
+      }
+    },
+    {
+      "product_code": "13980",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Frutos Secos",
+        "4": "Almendra"
+      }
+    },
+    {
+      "product_code": "13981",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Frutos Secos",
+        "4": "Maní con Chocolate"
+      }
+    },
+    {
+      "product_code": "13987",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Dulces",
+        "4": "Medallón"
+      }
+    },
+    {
+      "product_code": "13998",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Energéticas",
+        "4": "Bebida Energética"
+      }
+    },
+    {
+      "product_code": "14008",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14043",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta de Frutilla"
+      }
+    },
+    {
+      "product_code": "14044",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta de Frutilla"
+      }
+    },
+    {
+      "product_code": "14047",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta de Frutilla"
+      }
+    },
+    {
+      "product_code": "14048",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta de Ananá"
+      }
+    },
+    {
+      "product_code": "14049",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta de Tutti Frutti"
+      }
+    },
+    {
+      "product_code": "14081",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14082",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Dulces",
+        "4": "Caramelo"
+      }
+    },
+    {
+      "product_code": "14091",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Snacks",
+        "4": "Cereal"
+      }
+    },
+    {
+      "product_code": "14092",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Snacks",
+        "4": "Cereal"
+      }
+    },
+    {
+      "product_code": "14093",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Snacks",
+        "4": "Galleta de Cereal"
+      }
+    },
+    {
+      "product_code": "14094",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Snacks",
+        "4": "Galleta de Cereal"
+      }
+    },
+    {
+      "product_code": "14125",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Dulces",
+        "4": "Snack Salado"
+      }
+    },
+    {
+      "product_code": "14127",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Dulces",
+        "4": "Snack Salado"
+      }
+    },
+    {
+      "product_code": "14128",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Dulces",
+        "4": "Snack Salado"
+      }
+    },
+    {
+      "product_code": "14155",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chicles",
+        "4": "Chicle"
+      }
+    },
+    {
+      "product_code": "14156",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chicles",
+        "4": "Chicle"
+      }
+    },
+    {
+      "product_code": "14164",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta de Frutilla"
+      }
+    },
+    {
+      "product_code": "14166",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta de Tutti Frutti"
+      }
+    },
+    {
+      "product_code": "14167",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Galleta de Tutti Frutti"
+      }
+    },
+    {
+      "product_code": "14170",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Frutos Secos",
+        "4": "Pasas"
+      }
+    },
+    {
+      "product_code": "14171",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Frutos Secos",
+        "4": "Almendra"
+      }
+    },
+    {
+      "product_code": "14172",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Frutos Secos",
+        "4": "Almendra"
+      }
+    },
+    {
+      "product_code": "14173",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Frutos Secos",
+        "4": "Maní"
+      }
+    },
+    {
+      "product_code": "14175",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chocolate",
+        "4": "Chocolate"
+      }
+    },
+    {
+      "product_code": "14177",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chocolate",
+        "4": "Chocolate"
+      }
+    },
+    {
+      "product_code": "14184",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Dulces",
+        "4": "Jelly Beans"
+      }
+    },
+    {
+      "product_code": "14185",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Dulces",
+        "4": "Jelly Beans"
+      }
+    },
+    {
+      "product_code": "14192",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14196",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Jugos",
+        "4": "Bebida de Naranja"
+      }
+    },
+    {
+      "product_code": "14198",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Jugos",
+        "4": "Bebida de Manzana"
+      }
+    },
+    {
+      "product_code": "14201",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Jugos",
+        "4": "Bebida Multifruta"
+      }
+    },
+    {
+      "product_code": "14202",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Mermeladas",
+        "4": "Mermelada"
+      }
+    },
+    {
+      "product_code": "14204",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Proteínas en Polvo",
+        "4": "Proteína Vegetal"
+      }
+    },
+    {
+      "product_code": "14206",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14208",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14210",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14211",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14212",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14213",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14216",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14218",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14219",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14223",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Dulces",
+        "4": "Dulce"
+      }
+    },
+    {
+      "product_code": "14231",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14233",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Pastas",
+        "4": "Pasta"
+      }
+    },
+    {
+      "product_code": "14236",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Pastas",
+        "4": "Pasta"
+      }
+    },
+    {
+      "product_code": "14238",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Frutos Secos",
+        "4": "Almendra"
+      }
+    },
+    {
+      "product_code": "14240",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Helados",
+        "4": "Helado"
+      }
+    },
+    {
+      "product_code": "14241",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Cereales Dulces",
+        "4": "Cereal Choco Crisp"
+      }
+    },
+    {
+      "product_code": "14242",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos",
+        "3": "Frutos Secos Cubiertos",
+        "4": "Pasas de Uva con Chocolate"
+      }
+    },
+    {
+      "product_code": "14245",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres en Bloque",
+        "4": "Postre Chocomani"
+      }
+    },
+    {
+      "product_code": "14248",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Cereales Dulces",
+        "4": "Cereales Tortuga Chocolate"
+      }
+    },
+    {
+      "product_code": "14250",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Cereales Dulces",
+        "4": "Cereales Estrellas Frutal"
+      }
+    },
+    {
+      "product_code": "14252",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Cereales Dulces",
+        "4": "Cereales Cocodrilo Popcorn"
+      }
+    },
+    {
+      "product_code": "14260",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Palito",
+        "4": "Helado Palito Bombón"
+      }
+    },
+    {
+      "product_code": "14261",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Porciones",
+        "4": "Helado Chocotorta"
+      }
+    },
+    {
+      "product_code": "14262",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Porciones",
+        "4": "Helado Bonobón Corazón"
+      }
+    },
+    {
+      "product_code": "14263",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Porciones",
+        "4": "Helado Cofler Block"
+      }
+    },
+    {
+      "product_code": "14266",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Palito",
+        "4": "Helado Palito Limón Frutilla"
+      }
+    },
+    {
+      "product_code": "14267",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Palito",
+        "4": "Helado Palito Chocolinas"
+      }
+    },
+    {
+      "product_code": "14298",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Chocolinas Blanco"
+      }
+    },
+    {
+      "product_code": "14299",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Chocolinas Negro"
+      }
+    },
+    {
+      "product_code": "14322",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Chocolinas"
+      }
+    },
+    {
+      "product_code": "14323",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Chocolinas"
+      }
+    },
+    {
+      "product_code": "14324",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Chocolinas"
+      }
+    },
+    {
+      "product_code": "14325",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Coquititas"
+      }
+    },
+    {
+      "product_code": "14326",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Coquititas"
+      }
+    },
+    {
+      "product_code": "14336",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Variadas",
+        "4": "Surtido Diversión"
+      }
+    },
+    {
+      "product_code": "14347",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate Amargo",
+        "4": "Chocolate 80% Cacao"
+      }
+    },
+    {
+      "product_code": "14348",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate Amargo",
+        "4": "Chocolate 60% Cacao Naranja"
+      }
+    },
+    {
+      "product_code": "14349",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Bocadito Avellana"
+      }
+    },
+    {
+      "product_code": "14350",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Amor"
+      }
+    },
+    {
+      "product_code": "14351",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Rumba"
+      }
+    },
+    {
+      "product_code": "14352",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Rumba"
+      }
+    },
+    {
+      "product_code": "14353",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Amor"
+      }
+    },
+    {
+      "product_code": "14354",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Mellizas"
+      }
+    },
+    {
+      "product_code": "14360",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Serranitas"
+      }
+    },
+    {
+      "product_code": "14361",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Serranitas"
+      }
+    },
+    {
+      "product_code": "14365",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Alfajor Cofler Block"
+      }
+    },
+    {
+      "product_code": "14369",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Bañadas",
+        "4": "Galletas Cofler Bañadas"
+      }
+    },
+    {
+      "product_code": "14373",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Bañadas",
+        "4": "Galletas Cofler Bañadas Bonbon"
+      }
+    },
+    {
+      "product_code": "14375",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Bañadas",
+        "4": "Galletas Cofler Bañadas Chocolate"
+      }
+    },
+    {
+      "product_code": "14377",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Rellenas",
+        "4": "Galletas Cofler Rellenas Creamy"
+      }
+    },
+    {
+      "product_code": "14378",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Rellenas",
+        "4": "Galletas Cofler Rellenas Chocolate"
+      }
+    },
+    {
+      "product_code": "14380",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Rellenas",
+        "4": "Galletas Cofler Rellenas Bonobón"
+      }
+    },
+    {
+      "product_code": "14392",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Variadas",
+        "4": "Traviata con Rex"
+      }
+    },
+    {
+      "product_code": "14393",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Variadas",
+        "4": "Traviata con Rex"
+      }
+    },
+    {
+      "product_code": "14394",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Variadas",
+        "4": "Traviata con Kesitas"
+      }
+    },
+    {
+      "product_code": "14400",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Cofler Avellana"
+      }
+    },
+    {
+      "product_code": "14402",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate Amargo",
+        "4": "Chocolate 60% Cacao Almendra"
+      }
+    },
+    {
+      "product_code": "14403",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Variadas",
+        "4": "Kesitas"
+      }
+    },
+    {
+      "product_code": "14407",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Variadas",
+        "4": "Traviata Sandwich"
+      }
+    },
+    {
+      "product_code": "14408",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Variadas",
+        "4": "Traviata Sandwich"
+      }
+    },
+    {
+      "product_code": "14410",
+      "tags": {
+        "1": "Almacén",
+        "2": "Rellenos",
+        "3": "Rellenos para Tartas",
+        "4": "Relleno Tarta Choclo"
+      }
+    },
+    {
+      "product_code": "14411",
+      "tags": {
+        "1": "Almacén",
+        "2": "Rellenos",
+        "3": "Rellenos para Tartas",
+        "4": "Relleno Tarta Verdura"
+      }
+    },
+    {
+      "product_code": "14412",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Conservas de Pescado",
+        "4": "Atún"
+      }
+    },
+    {
+      "product_code": "14418",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Aceite",
+        "4": "Salsa Oliva Premium"
+      }
+    },
+    {
+      "product_code": "14419",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Tomate",
+        "4": "Salsa Napolitana Premium"
+      }
+    },
+    {
+      "product_code": "14420",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Hierbas",
+        "4": "Salsa Albahaca Premium"
+      }
+    },
+    {
+      "product_code": "14429",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo Polvo Naranja"
+      }
+    },
+    {
+      "product_code": "14430",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo Polvo Manzana"
+      }
+    },
+    {
+      "product_code": "14431",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo Polvo Multifruta"
+      }
+    },
+    {
+      "product_code": "14432",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo Polvo Naranja Durazno"
+      }
+    },
+    {
+      "product_code": "14433",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo Polvo Limonada"
+      }
+    },
+    {
+      "product_code": "14434",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo Polvo Ananá"
+      }
+    },
+    {
+      "product_code": "14435",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo Polvo Naranja Banana"
+      }
+    },
+    {
+      "product_code": "14436",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo Polvo Naranja Dulce"
+      }
+    },
+    {
+      "product_code": "14437",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo Polvo Naranja Mango"
+      }
+    },
+    {
+      "product_code": "14439",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo Polvo Durazno"
+      }
+    },
+    {
+      "product_code": "14440",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo Polvo 3 Frutas"
+      }
+    },
+    {
+      "product_code": "14441",
+      "tags": {
+        "1": "Almacén",
+        "2": "Bebidas",
+        "3": "Bebidas en Polvo",
+        "4": "Jugo Polvo Pomelo Rosado"
+      }
+    },
+    {
+      "product_code": "14450",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Barra Cofler Block Mani"
+      }
+    },
+    {
+      "product_code": "14460",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Conservas de Pescado",
+        "4": "Atún Ahumado"
+      }
+    },
+    {
+      "product_code": "14462",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Pastas Secas",
+        "4": "Pasta Dedalitos"
+      }
+    },
+    {
+      "product_code": "14464",
+      "tags": {
+        "1": "Almacén",
+        "2": "Ensaladas",
+        "3": "Ensaladas de Atún",
+        "4": "Ensalada Atún Verde"
+      }
+    },
+    {
+      "product_code": "14465",
+      "tags": {
+        "1": "Almacén",
+        "2": "Ensaladas",
+        "3": "Ensaladas de Atún",
+        "4": "Ensalada Atún Roja"
+      }
+    },
+    {
+      "product_code": "14466",
+      "tags": {
+        "1": "Almacén",
+        "2": "Ensaladas",
+        "3": "Ensaladas de Atún",
+        "4": "Ensalada Atún Verde LC"
+      }
+    },
+    {
+      "product_code": "14471",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Oblea Arcor Milk"
+      }
+    },
+    {
+      "product_code": "14473",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Cofler Cups Mani"
+      }
+    },
+    {
+      "product_code": "14502",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Galleta Cereal Mix Avena Chocolate"
+      }
+    },
+    {
+      "product_code": "14504",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites Variados",
+        "4": "Rocklets Surtido"
+      }
+    },
+    {
+      "product_code": "14508",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites de Mani",
+        "4": "Rocklets Mani"
+      }
+    },
+    {
+      "product_code": "14509",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Galletas Dulces",
+        "4": "Cofler Block Max Mani"
+      }
+    },
+    {
+      "product_code": "14537",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Pastas Secas",
+        "4": "Pasta Tallarín"
+      }
+    },
+    {
+      "product_code": "14538",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Pastas Secas",
+        "4": "Pasta Spaghetti"
+      }
+    },
+    {
+      "product_code": "14550",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres en Porciones",
+        "4": "Flan Godet Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "14551",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres en Porciones",
+        "4": "Flan Godet Vainilla"
+      }
+    },
+    {
+      "product_code": "14552",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres en Porciones",
+        "4": "Gelatina Godet Frutilla"
+      }
+    },
+    {
+      "product_code": "14553",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas en Polvo",
+        "4": "Gelatina de Cereza"
+      }
+    },
+    {
+      "product_code": "14554",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas en Polvo",
+        "4": "Gelatina de Frambuesa"
+      }
+    },
+    {
+      "product_code": "14555",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas en Polvo",
+        "4": "Gelatina de Durazno"
+      }
+    },
+    {
+      "product_code": "14558",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas en Polvo",
+        "4": "Gelatina de Frutilla"
+      }
+    },
+    {
+      "product_code": "14559",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas en Polvo",
+        "4": "Gelatina de Cereza"
+      }
+    },
+    {
+      "product_code": "14560",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas en Polvo",
+        "4": "Gelatina de Manzana"
+      }
+    },
+    {
+      "product_code": "14562",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas en Polvo",
+        "4": "Gelatina Light de Frutilla"
+      }
+    },
+    {
+      "product_code": "14563",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas en Polvo",
+        "4": "Gelatina Light de Cereza"
+      }
+    },
+    {
+      "product_code": "14564",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas en Polvo",
+        "4": "Gelatina Light de Durazno"
+      }
+    },
+    {
+      "product_code": "14565",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas en Polvo",
+        "4": "Gelatina Light de Frambuesa"
+      }
+    },
+    {
+      "product_code": "14608",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites Rellenos",
+        "4": "Confite Relleno de Avellanas"
+      }
+    },
+    {
+      "product_code": "14609",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites",
+        "4": "Confite de Leche"
+      }
+    },
+    {
+      "product_code": "14610",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Tabletas",
+        "4": "Tableta de Chocolate"
+      }
+    },
+    {
+      "product_code": "14611",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Tomates",
+        "4": "Tomate Pelado"
+      }
+    },
+    {
+      "product_code": "14668",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Cereales Mixtos",
+        "4": "Cereal Mixto de Frutos Secos"
+      }
+    },
+    {
+      "product_code": "14669",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Cereales Mixtos",
+        "4": "Cereal Mixto de Chocolate"
+      }
+    },
+    {
+      "product_code": "14670",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites",
+        "4": "Confite de Coco"
+      }
+    },
+    {
+      "product_code": "14675",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Cups",
+        "4": "Cup de Chocolate"
+      }
+    },
+    {
+      "product_code": "14676",
+      "tags": {
+        "1": "Almacén",
+        "2": "Chocolate",
+        "3": "Chocolate en Taza",
+        "4": "Chocolate en Taza"
+      }
+    },
+    {
+      "product_code": "14692",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Confites",
+        "4": "Confite de Navidad"
+      }
+    },
+    {
+      "product_code": "14694",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Galletas",
+        "4": "Galleta Cubana"
+      }
+    },
+    {
+      "product_code": "14719",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos",
+        "4": "Caramelo Butter Toffees"
+      }
+    },
+    {
+      "product_code": "14720",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos",
+        "4": "Caramelo Butter Toffees"
+      }
+    },
+    {
+      "product_code": "14724",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Tomates",
+        "4": "Tomate Pelado"
+      }
+    },
+    {
+      "product_code": "14727",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chicles",
+        "4": "Chicle Turbo Mint"
+      }
+    },
+    {
+      "product_code": "14728",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chicles",
+        "4": "Chicle de Berries"
+      }
+    },
+    {
+      "product_code": "14738",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres Listos",
+        "4": "Postre Chocotorta"
+      }
+    },
+    {
+      "product_code": "14740",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Tubitos",
+        "4": "Tubito Tutti Frutti"
+      }
+    },
+    {
+      "product_code": "14744",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Galletas",
+        "4": "Galleta Porteñitas"
+      }
+    },
+    {
+      "product_code": "14745",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Suplementos en Polvo",
+        "4": "Creatina Sin Sabor"
+      }
+    },
+    {
+      "product_code": "14748",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Tubitos",
+        "4": "Tubito de Frutilla"
+      }
+    },
+    {
+      "product_code": "14750",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Tubitos",
+        "4": "Tubito Tutti Frutti"
+      }
+    },
+    {
+      "product_code": "14751",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Galletas",
+        "4": "Mini Tubito de Sandía"
+      }
+    },
+    {
+      "product_code": "14754",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Dulce",
+        "4": "Pan Dulce con Frutos Secos"
+      }
+    },
+    {
+      "product_code": "14768",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Turrones",
+        "4": "Turrón de Almendra con Cranberries"
+      }
+    },
+    {
+      "product_code": "14769",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Turrones",
+        "4": "Turrón de Almendra con Cacao"
+      }
+    },
+    {
+      "product_code": "14770",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Turrones",
+        "4": "Turrón de Almendra Alicante"
+      }
+    },
+    {
+      "product_code": "14771",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Galletas",
+        "4": "Oblea de Nut"
+      }
+    },
+    {
+      "product_code": "14772",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Galletas",
+        "4": "Surtido de Galletas"
+      }
+    },
+    {
+      "product_code": "14777",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Picante"
+      }
+    },
+    {
+      "product_code": "14782",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Fruta",
+        "4": "Helado de Frambuesa con Chocolate"
+      }
+    },
+    {
+      "product_code": "14783",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Dulce de Leche",
+        "4": "Helado de Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "14784",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Cono",
+        "4": "Helado en Cono con Rocklets"
+      }
+    },
+    {
+      "product_code": "14790",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados Bombón",
+        "4": "Helado Bombón Escocés"
+      }
+    },
+    {
+      "product_code": "14791",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Cono",
+        "4": "Helado en Cono de Frutilla"
+      }
+    },
+    {
+      "product_code": "14799",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Gomitas",
+        "4": "Gomita Oso"
+      }
+    },
+    {
+      "product_code": "14800",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Gomitas",
+        "4": "Gomita Sandía"
+      }
+    },
+    {
+      "product_code": "14820",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Huevos de Chocolate",
+        "4": "Huevo de Chocolate Rocklets"
+      }
+    },
+    {
+      "product_code": "14830",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chicles",
+        "4": "Chicle Frutilla"
+      }
+    },
+    {
+      "product_code": "14872",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Helados",
+        "4": "Helado Bombón de Fruta"
+      }
+    },
+    {
+      "product_code": "14873",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Gomitas",
+        "4": "Gomita Gusanito"
+      }
+    },
+    {
+      "product_code": "14883",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados en Barras",
+        "4": "Helado Barrita Americana"
+      }
+    },
+    {
+      "product_code": "14884",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor Triple"
+      }
+    },
+    {
+      "product_code": "14885",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Galletas",
+        "4": "Galleta Chocolina Blanco"
+      }
+    },
+    {
+      "product_code": "14886",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Galletas",
+        "4": "Galleta Chocolina Negro"
+      }
+    },
+    {
+      "product_code": "14887",
+      "tags": {
+        "1": "Almacén",
+        "2": "Helados",
+        "3": "Helados de Fruta",
+        "4": "Helado de Frambuesa Amargo"
+      }
+    },
+    {
+      "product_code": "14888",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Gomitas",
+        "4": "Gomita Frut Extreme"
+      }
+    },
+    {
+      "product_code": "14891",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Atún",
+        "4": "Atún Desmenuzado Natural"
+      }
+    },
+    {
+      "product_code": "14900",
+      "tags": {
+        "1": "Almacén",
+        "2": "Suplementos",
+        "3": "Suplementos en Polvo",
+        "4": "Batido de Colágeno"
+      }
+    },
+    {
+      "product_code": "14904",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Caramelos",
+        "4": "Caramelo Fizz Picante"
+      }
+    },
+    {
+      "product_code": "14905",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Mermeladas",
+        "4": "Mermelada de Pera Kiwi"
+      }
+    },
+    {
+      "product_code": "14979",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Mermeladas",
+        "4": "Mermelada de Durazno Mango"
+      }
+    },
+    {
+      "product_code": "14980",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Mermeladas",
+        "4": "Mermelada de Frambuesa y Frutilla"
+      }
+    },
+    {
+      "product_code": "14983",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Atún",
+        "4": "Atún Desmenuzado en Aceite"
+      }
+    },
+    {
+      "product_code": "14993",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chupetines",
+        "4": "Chupetín Surtido"
+      }
+    },
+    {
+      "product_code": "14996",
+      "tags": {
+        "1": "Almacén",
+        "2": "Fideos",
+        "3": "Fideos Instantáneos",
+        "4": "Ramen de Pollo"
+      }
+    },
+    {
+      "product_code": "14997",
+      "tags": {
+        "1": "Almacén",
+        "2": "Fideos",
+        "3": "Fideos Instantáneos",
+        "4": "Ramen de Carne"
+      }
+    },
+    {
+      "product_code": "14999",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Gomitas",
+        "4": "Gomita Cola"
+      }
+    },
+    {
+      "product_code": "15001",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor Choco Creamy"
+      }
+    },
+    {
+      "product_code": "15004",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Galletas",
+        "4": "Galleta Turrocklets"
+      }
+    },
+    {
+      "product_code": "15006",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chicles",
+        "4": "Chicle Turbo Pink"
+      }
+    },
+    {
+      "product_code": "15007",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Alfajores",
+        "4": "Alfajor Chocotorta"
+      }
+    },
+    {
+      "product_code": "15017",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Gomitas",
+        "4": "Gomita Arañitas Rellenas"
+      }
+    },
+    {
+      "product_code": "15019",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Gomitas",
+        "4": "Gomita Osito Picante"
+      }
+    },
+    {
+      "product_code": "15021",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chocolate",
+        "4": "Chocolate Extra Fino 70% Cacao"
+      }
+    },
+    {
+      "product_code": "15022",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chocolate",
+        "4": "Chocolate 60% Cacao con Naranja"
+      }
+    },
+    {
+      "product_code": "15023",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Untables",
+        "4": "Relleno Untable de Marroc"
+      }
+    },
+    {
+      "product_code": "15024",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Chocolate",
+        "4": "Chocolate 60% Cacao Naranja"
+      }
+    },
+    {
+      "product_code": "15027",
+      "tags": {
+        "1": "Almacén",
+        "2": "Confites",
+        "3": "Galletas",
+        "4": "Galleta Traviata con Kesita"
+      }
+    },
+    {
+      "product_code": "15034",
+      "tags": {
+        "1": "Almacén",
+        "2": "Fideos",
+        "3": "Fideos Instantáneos",
+        "4": "Ramen de Pollo Picante"
+      }
+    }
+  ]
+}

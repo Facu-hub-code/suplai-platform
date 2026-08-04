@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Dulces y Salados,25001,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493582641213,La Golosina Feliz,25002,validado,2026-07-16T14:20:02.660413+00:00,,false
+5492991227644,Alimentos del Barrio,25003,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493418277249,Sabor a Casa,25004,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493587747641,Dulce Tentación,25005,validado,2026-07-16T14:20:02.660413+00:00,,false
+5492614053074,El Rincón de la Golosina,25006,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493514079279,Golosinas y Snacks,25007,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493876914178,Almacén La Amistad,25008,validado,2026-07-16T14:20:02.660413+00:00,,false
+5492617175545,La Esquina Dulce,25009,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493818437953,Surtido Argentino,25010,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493582132179,El Paraíso de las Golosinas,25011,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493872845902,Dulces y Más,25012,validado,2026-07-16T14:20:02.660413+00:00,,false
+5492997670210,La Dulcería de Córdoba,25013,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493811657614,Alimentos y Golosinas,25014,validado,2026-07-16T14:20:02.660413+00:00,,false
+5492994145193,El Mercado de la Golosina,25015,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493515971311,Tentaciones del Sabor,25016,validado,2026-07-16T14:20:02.660413+00:00,,false
+5492994228106,La Tienda de los Dulces,25017,validado,2026-07-16T14:20:02.660413+00:00,,false
+5492998718887,Dulces y Delicias,25018,validado,2026-07-16T14:20:02.660413+00:00,,false
+5492995028869,El Surtido Cordobés,25019,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493517304254,La Casa de la Golosina,25020,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493416986538,Dulce y Salado,25021,validado,2026-07-16T14:20:02.660413+00:00,,false
+5492619239862,Alimentos y Snacks,25022,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493513952681,La Golosina de Oro,25023,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493414799650,El Almacén de la Dulzura,25024,validado,2026-07-16T14:20:02.660413+00:00,,false
+5492992500733,Dulces de la Abuela,25025,validado,2026-07-16T14:20:02.660413+00:00,,false
+5492615139305,La Tienda del Sabor,25026,validado,2026-07-16T14:20:02.660413+00:00,,false
+5492618861463,Sabor y Dulzura,25027,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493812941974,El Rincón del Alimento,25028,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493817404433,Dulces y Tentaciones,25029,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493419686914,Alimentos de Calidad,25030,validado,2026-07-16T14:20:02.660413+00:00,,false
+5493518648263,La Golosina Artesanal,25031,existente,,,false
+5493516216782,El Sabor Cordobés,25032,existente,,,false
+5492612780568,Dulces y Sabores,25033,existente,,,false
+5493582639964,La Casa de los Snacks,25034,existente,,,false
+5493814729528,El Mercado de Alimentos,25035,existente,,,false
+5493876922419,Dulce y Saludable,25036,existente,,,false
+5492618889598,La Tienda de la Golosina,25037,existente,,,false
+5492615021286,Dulces y Comidas,25038,existente,,,false
+5493813520000,El Almacén de Golosinas,25039,existente,,,false
+5492997489876,Surtido de Dulces,25040,existente,,,false
+5493519107005,La Golosina del Barrio,0,no_validado,,PROSPECTO,true
+5493874104594,Dulces y Más,0,existente,,PROSPECTO,true
+5492617413812,El Rincón de los Snacks,0,no_validado,,PROSPECTO,true
+5492617236955,La Dulcería Cordobesa,0,existente,,PROSPECTO,true
+5492612928724,Alimentos y Golosinas,0,no_validado,,PROSPECTO,true
+5492999435946,Dulces y Snacks,0,validado,2026-07-16T14:20:02.660413+00:00,PROSPECTO,true
+5493517632424,La Casa de los Sabores,0,no_existente,,PROSPECTO,true
+5493416524997,Dulces y Delicias,0,no_validado,,PROSPECTO,true
+5493876499570,El Surtido de Córdoba,0,existente,,PROSPECTO,true
+5492998066543,La Tienda de la Dulzura,0,no_validado,,PROSPECTO,true

@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5492612780568,5492612780568,ai,ai,"Hola Dulces y Sabores, paso a revisar tu pedido P-00099 de GELATINA MOGUL FRUTILLA 6X8X25G.","Hola Dulces y Sabores, paso a revisar tu pedido P-00099 de GELATINA MOGUL FRUTILLA 6X8X25G.",2026-07-15 09:40:33,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 09:42:02,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 2661.15.,Te confirmo que el pedido P-00099 fue registrado correctamente por 2661.15.,2026-07-15 09:42:58,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 09:44:07,true
+5492612928724,5492612928724,ai,ai,"Hola Alimentos y Golosinas, paso a revisar tu pedido P-00123 de BONOBON SUPERBOLLS 30X80G.","Hola Alimentos y Golosinas, paso a revisar tu pedido P-00123 de BONOBON SUPERBOLLS 30X80G.",2026-07-16 11:40:33,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-16 11:41:18,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 20017.20.,Te confirmo que el pedido P-00123 fue registrado correctamente por 20017.20.,2026-07-16 11:41:51,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-07-16 11:43:24,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-16 11:44:20,true
+5492614053074,5492614053074,ai,ai,"Hola El Rincón de la Golosina, vi que tenes un pedido abierto por CRIOLLITAS TOSTADAS SALVADO 18X195G y queria ayudarte a cerrarlo.","Hola El Rincón de la Golosina, vi que tenes un pedido abierto por CRIOLLITAS TOSTADAS SALVADO 18X195G y queria ayudarte a cerrarlo.",2026-07-16 08:40:33,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-07-16 08:42:11,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 107792.28. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 107792.28. Si queres te lo dejo cerrado hoy.,2026-07-16 08:42:47,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-07-16 08:44:05,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-07-16 08:45:22,true
+5492615021286,5492615021286,ai,ai,"Hola Dulces y Comidas, paso a revisar tu pedido P-00112 de SERRANITAS 14X3X105G.","Hola Dulces y Comidas, paso a revisar tu pedido P-00112 de SERRANITAS 14X3X105G.",2026-07-14 09:40:33,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 09:42:22,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 17671.00.,Te confirmo que el pedido P-00112 fue registrado correctamente por 17671.00.,2026-07-14 09:43:10,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 09:43:53,true
+5492615139305,5492615139305,ai,ai,"Hola La Tienda del Sabor, paso a revisar tu pedido P-00076 de GALLETA CEREAL MIX FRUTILLA 36X150G.","Hola La Tienda del Sabor, paso a revisar tu pedido P-00076 de GALLETA CEREAL MIX FRUTILLA 36X150G.",2026-07-14 11:40:33,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 11:41:40,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 49717.94.,Te confirmo que el pedido P-00076 fue registrado correctamente por 49717.94.,2026-07-14 11:42:57,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 11:43:40,true
+5492617175545,5492617175545,ai,ai,"Hola La Esquina Dulce, paso a revisar tu pedido P-00027 de MOGUL TUBITOS FRUTILLA 30X70G.","Hola La Esquina Dulce, paso a revisar tu pedido P-00027 de MOGUL TUBITOS FRUTILLA 30X70G.",2026-07-15 08:40:33,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 08:42:02,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 164120.37.,Te confirmo que el pedido P-00027 fue registrado correctamente por 164120.37.,2026-07-15 08:42:51,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 08:44:10,true
+5492617236955,5492617236955,ai,ai,"Hola La Dulcería Cordobesa, paso a revisar tu pedido P-00126 de HELADO TRES CREMAS DULCE DE LECHE CHOCOLATE VAINILLA 8UX1KG.","Hola La Dulcería Cordobesa, paso a revisar tu pedido P-00126 de HELADO TRES CREMAS DULCE DE LECHE CHOCOLATE VAINILLA 8UX1KG.",2026-07-16 10:40:33,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-16 10:41:24,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 42630.47.,Te confirmo que el pedido P-00126 fue registrado correctamente por 42630.47.,2026-07-16 10:42:11,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-07-16 10:43:00,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-16 10:43:50,true
+5492617413812,5492617413812,ai,ai,"Hola El Rincón de los Snacks, paso a revisar tu pedido P-00129 de MOGUL JELLY BEANS 6X500G.","Hola El Rincón de los Snacks, paso a revisar tu pedido P-00129 de MOGUL JELLY BEANS 6X500G.",2026-07-16 09:40:33,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-16 09:42:23,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 7276.93.,Te confirmo que el pedido P-00129 fue registrado correctamente por 7276.93.,2026-07-16 09:43:40,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-07-16 09:44:35,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-16 09:45:47,true
+5492618861463,5492618861463,ai,ai,"Hola Sabor y Dulzura, paso a revisar tu pedido P-00079 de MOGUL DIENTES 12X10X50G.","Hola Sabor y Dulzura, paso a revisar tu pedido P-00079 de MOGUL DIENTES 12X10X50G.",2026-07-15 10:40:33,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 10:41:59,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 133195.61.,Te confirmo que el pedido P-00079 fue registrado correctamente por 133195.61.,2026-07-15 10:42:32,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 10:44:02,true
+5492618889598,5492618889598,ai,ai,"Hola La Tienda de la Golosina, paso a revisar tu pedido P-00110 de HELADO BARRITA AGUILA AMERICANA 8X6X34G.","Hola La Tienda de la Golosina, paso a revisar tu pedido P-00110 de HELADO BARRITA AGUILA AMERICANA 8X6X34G.",2026-07-15 10:40:33,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 10:42:08,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 81727.36.,Te confirmo que el pedido P-00110 fue registrado correctamente por 81727.36.,2026-07-15 10:43:05,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 10:44:07,true
+5492619239862,5492619239862,ai,ai,"Hola Alimentos y Snacks, paso a revisar tu pedido P-00066 de MOGUL TUBITOS FRUTILLA 30X70G.","Hola Alimentos y Snacks, paso a revisar tu pedido P-00066 de MOGUL TUBITOS FRUTILLA 30X70G.",2026-07-14 10:40:33,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 10:42:17,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 3016.04.,Te confirmo que el pedido P-00066 fue registrado correctamente por 3016.04.,2026-07-14 10:43:45,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 10:44:24,true
+5492991227644,5492991227644,ai,ai,"Hola Alimentos del Barrio, vi que tenes un pedido abierto por HELADO TRES CREMAS FRUTILLA AMERICANA Y DULCE DE LECHE 8Ux1KG y queria ayudarte a cerrarlo.","Hola Alimentos del Barrio, vi que tenes un pedido abierto por HELADO TRES CREMAS FRUTILLA AMERICANA Y DULCE DE LECHE 8Ux1KG y queria ayudarte a cerrarlo.",2026-07-16 11:40:33,true
+5492991227644,5492991227644,human,human,"Hola, queria hacer un reclamo por error de facturacion.","Hola, queria hacer un reclamo por error de facturacion.",2026-07-16 11:41:31,true
+5492991227644,5492991227644,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-07-16 11:42:47,true
+5492991227644,5492991227644,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-07-16 11:44:32,true
+5492991227644,5492991227644,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-07-16 11:45:02,true
+5492992500733,5492992500733,ai,ai,"Hola Dulces de la Abuela, paso a revisar tu pedido P-00073 de AIREADO COFLER LECHE 8x10x55G.","Hola Dulces de la Abuela, paso a revisar tu pedido P-00073 de AIREADO COFLER LECHE 8x10x55G.",2026-07-15 07:40:33,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 07:42:16,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 43252.32.,Te confirmo que el pedido P-00073 fue registrado correctamente por 43252.32.,2026-07-15 07:42:54,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 07:43:41,true
+5492994145193,5492994145193,ai,ai,"Hola El Mercado de la Golosina, paso a revisar tu pedido P-00045 de CEREAL MIX PASION CHOCOLATE 6x20x26G.","Hola El Mercado de la Golosina, paso a revisar tu pedido P-00045 de CEREAL MIX PASION CHOCOLATE 6x20x26G.",2026-07-15 07:40:33,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 07:41:34,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 21034.43.,Te confirmo que el pedido P-00045 fue registrado correctamente por 21034.43.,2026-07-15 07:42:41,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 07:44:06,true
+5492994228106,5492994228106,ai,ai,"Hola La Tienda de los Dulces, paso a revisar tu pedido P-00051 de JUGO POLVO BC LIMONADA 16x18x7G.","Hola La Tienda de los Dulces, paso a revisar tu pedido P-00051 de JUGO POLVO BC LIMONADA 16x18x7G.",2026-07-15 10:40:33,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 10:41:52,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 17390.64.,Te confirmo que el pedido P-00051 fue registrado correctamente por 17390.64.,2026-07-15 10:42:26,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 10:43:07,true
+5492995028869,5492995028869,ai,ai,"Hola El Surtido Cordobés, paso a revisar tu pedido P-00057 de SNACK PAPAS FRITAS CREMA Y CEBOLLA 30X72G.","Hola El Surtido Cordobés, paso a revisar tu pedido P-00057 de SNACK PAPAS FRITAS CREMA Y CEBOLLA 30X72G.",2026-07-15 08:40:33,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 08:41:58,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 21687.19.,Te confirmo que el pedido P-00057 fue registrado correctamente por 21687.19.,2026-07-15 08:42:28,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 08:43:42,true
+5492997489876,5492997489876,ai,ai,"Hola Surtido de Dulces, paso a revisar tu pedido P-00118 de HELADO BOMBON ESCOCES 12X6X90G.","Hola Surtido de Dulces, paso a revisar tu pedido P-00118 de HELADO BOMBON ESCOCES 12X6X90G.",2026-07-14 07:40:33,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 07:42:14,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 26136.02.,Te confirmo que el pedido P-00118 fue registrado correctamente por 26136.02.,2026-07-14 07:43:06,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 07:43:56,true
+5492997670210,5492997670210,ai,ai,"Hola La Dulcería de Córdoba, paso a revisar tu pedido P-00037 de MENTHO PLUS STRONG 12X12X29.4G.","Hola La Dulcería de Córdoba, paso a revisar tu pedido P-00037 de MENTHO PLUS STRONG 12X12X29.4G.",2026-07-15 09:40:33,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 09:41:40,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 33541.75.,Te confirmo que el pedido P-00037 fue registrado correctamente por 33541.75.,2026-07-15 09:42:27,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 09:43:28,true
+5492998066543,5492998066543,ai,ai,"Hola La Tienda de la Dulzura, paso a revisar tu pedido P-00132 de MOGUL EXTREME TUBITOS TUTTI FRUTTI 12X16X15G.","Hola La Tienda de la Dulzura, paso a revisar tu pedido P-00132 de MOGUL EXTREME TUBITOS TUTTI FRUTTI 12X16X15G.",2026-07-16 08:40:33,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-16 08:42:11,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 43691.30.,Te confirmo que el pedido P-00132 fue registrado correctamente por 43691.30.,2026-07-16 08:42:50,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-07-16 08:44:25,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-16 08:45:35,true
+5492998718887,5492998718887,ai,ai,"Hola Dulces y Delicias, paso a revisar tu pedido P-00054 de TOFI BONBON LECHE 12X32X15G.","Hola Dulces y Delicias, paso a revisar tu pedido P-00054 de TOFI BONBON LECHE 12X32X15G.",2026-07-14 09:40:33,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 09:42:30,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 53261.30.,Te confirmo que el pedido P-00054 fue registrado correctamente por 53261.30.,2026-07-14 09:43:16,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 09:44:22,true
+5492999435946,5492999435946,ai,ai,"Hola Dulces y Snacks, paso a revisar tu pedido P-00135 de JUGO POLVO ARCOR NARANJA DURAZNO 12X18X15G.","Hola Dulces y Snacks, paso a revisar tu pedido P-00135 de JUGO POLVO ARCOR NARANJA DURAZNO 12X18X15G.",2026-07-16 07:40:33,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-16 07:42:16,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 40928.59.,Te confirmo que el pedido P-00135 fue registrado correctamente por 40928.59.,2026-07-16 07:43:04,true
+5492999435946,5492999435946,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-07-16 07:44:50,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-16 07:45:22,true
+5493414799650,5493414799650,ai,ai,"Hola El Almacén de la Dulzura, paso a revisar tu pedido P-00071 de MOGUL BOMBON DE FRUTA 24X80G.","Hola El Almacén de la Dulzura, paso a revisar tu pedido P-00071 de MOGUL BOMBON DE FRUTA 24X80G.",2026-07-14 08:40:33,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 08:41:31,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 14125.33.,Te confirmo que el pedido P-00071 fue registrado correctamente por 14125.33.,2026-07-14 08:42:11,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 08:43:04,true
+5493416524997,5493416524997,ai,ai,"Hola Dulces y Delicias, paso a revisar tu pedido P-00138 de BUTTER TOFFEES CHOCOLATE 6X822G.","Hola Dulces y Delicias, paso a revisar tu pedido P-00138 de BUTTER TOFFEES CHOCOLATE 6X822G.",2026-07-14 11:40:33,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 11:41:24,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 38509.02.,Te confirmo que el pedido P-00138 fue registrado correctamente por 38509.02.,2026-07-14 11:42:23,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 11:43:30,true
+5493416986538,5493416986538,ai,ai,"Hola Dulce y Salado, paso a revisar tu pedido P-00063 de BEBIDA ARCOR NARANJA 12X1L.","Hola Dulce y Salado, paso a revisar tu pedido P-00063 de BEBIDA ARCOR NARANJA 12X1L.",2026-07-15 11:40:33,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 11:42:02,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 56812.08.,Te confirmo que el pedido P-00063 fue registrado correctamente por 56812.08.,2026-07-15 11:43:04,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 11:44:07,true
+5493418277249,5493418277249,ai,ai,"Hola Sabor a Casa, vi que tenes un pedido abierto por CARAMELO GAJITOS 12x485G y queria ayudarte a cerrarlo.","Hola Sabor a Casa, vi que tenes un pedido abierto por CARAMELO GAJITOS 12x485G y queria ayudarte a cerrarlo.",2026-07-16 10:40:33,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-07-16 10:42:11,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-07-16 10:42:53,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-07-16 10:43:54,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-07-16 10:44:43,true
+5493419686914,5493419686914,ai,ai,"Hola Alimentos de Calidad, paso a revisar tu pedido P-00090 de HELADO COFLER ALMENDRAS 16X80CC.","Hola Alimentos de Calidad, paso a revisar tu pedido P-00090 de HELADO COFLER ALMENDRAS 16X80CC.",2026-07-14 07:40:33,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 07:41:29,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 172781.42.,Te confirmo que el pedido P-00090 fue registrado correctamente por 172781.42.,2026-07-14 07:42:53,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 07:44:16,true
+5493513952681,5493513952681,ai,ai,"Hola La Golosina de Oro, paso a revisar tu pedido P-00068 de HELADO CONO BONOBON 14X135 CC.","Hola La Golosina de Oro, paso a revisar tu pedido P-00068 de HELADO CONO BONOBON 14X135 CC.",2026-07-15 09:40:33,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 09:41:43,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 236177.95.,Te confirmo que el pedido P-00068 fue registrado correctamente por 236177.95.,2026-07-15 09:42:54,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 09:43:52,true
+5493514079279,5493514079279,ai,ai,"Hola Golosinas y Snacks, vi que tenes un pedido abierto por CARAMELO RELLENOS FRUTALES 48X80G y queria ayudarte a cerrarlo.","Hola Golosinas y Snacks, vi que tenes un pedido abierto por CARAMELO RELLENOS FRUTALES 48X80G y queria ayudarte a cerrarlo.",2026-07-16 07:40:33,true
+5493514079279,5493514079279,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-07-16 07:42:21,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 1181.69. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 1181.69. Si queres te lo dejo cerrado hoy.,2026-07-16 07:43:36,true
+5493514079279,5493514079279,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-07-16 07:44:38,true
+5493514079279,5493514079279,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-07-16 07:45:42,true
+5493515971311,5493515971311,ai,ai,"Hola Tentaciones del Sabor, paso a revisar tu pedido P-00048 de COFLER ROCKLETS LECHE 12x10x55G.","Hola Tentaciones del Sabor, paso a revisar tu pedido P-00048 de COFLER ROCKLETS LECHE 12x10x55G.",2026-07-14 11:40:33,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 11:41:41,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 26519.72.,Te confirmo que el pedido P-00048 fue registrado correctamente por 26519.72.,2026-07-14 11:42:59,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 11:43:37,true
+5493516216782,5493516216782,ai,ai,"Hola El Sabor Cordobés, paso a revisar tu pedido P-00096 de MANI CON CHOCOLATE ARCOR 40X80G.","Hola El Sabor Cordobés, paso a revisar tu pedido P-00096 de MANI CON CHOCOLATE ARCOR 40X80G.",2026-07-14 10:40:33,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 10:41:19,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 52745.09.,Te confirmo que el pedido P-00096 fue registrado correctamente por 52745.09.,2026-07-14 10:42:38,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 10:43:46,true
+5493517304254,5493517304254,ai,ai,"Hola La Casa de la Golosina, paso a revisar tu pedido P-00060 de CUBANITOS BONOBON 30X78G.","Hola La Casa de la Golosina, paso a revisar tu pedido P-00060 de CUBANITOS BONOBON 30X78G.",2026-07-14 07:40:33,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 07:42:22,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 21322.20.,Te confirmo que el pedido P-00060 fue registrado correctamente por 21322.20.,2026-07-14 07:43:14,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 07:44:28,true
+5493517632424,5493517632424,ai,ai,"Hola La Casa de los Sabores, paso a revisar tu pedido P-00141 de PASTA PENNE LC 15x500G.","Hola La Casa de los Sabores, paso a revisar tu pedido P-00141 de PASTA PENNE LC 15x500G.",2026-07-15 10:40:33,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 10:41:49,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 11599.18.,Te confirmo que el pedido P-00141 fue registrado correctamente por 11599.18.,2026-07-15 10:42:56,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 10:44:23,true
+5493518648263,5493518648263,ai,ai,"Hola La Golosina Artesanal, paso a revisar tu pedido P-00093 de HELADO SLICE FRUTILLA 22X70CC.","Hola La Golosina Artesanal, paso a revisar tu pedido P-00093 de HELADO SLICE FRUTILLA 22X70CC.",2026-07-15 11:40:33,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 11:42:26,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 164203.87.,Te confirmo que el pedido P-00093 fue registrado correctamente por 164203.87.,2026-07-15 11:43:39,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 11:45:04,true
+5493519107005,5493519107005,ai,ai,"Hola La Golosina del Barrio, paso a revisar tu pedido P-00144 de MINI ROCKLETS NAVIDAD 30X120G.","Hola La Golosina del Barrio, paso a revisar tu pedido P-00144 de MINI ROCKLETS NAVIDAD 30X120G.",2026-07-14 09:40:33,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 09:42:07,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 14799.02.,Te confirmo que el pedido P-00144 fue registrado correctamente por 14799.02.,2026-07-14 09:42:50,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 09:44:19,true
+5493582132179,5493582132179,ai,ai,"Hola El Paraíso de las Golosinas, paso a revisar tu pedido P-00032 de CEREAL MIX PASION CHOCOLATE 6x20x26G.","Hola El Paraíso de las Golosinas, paso a revisar tu pedido P-00032 de CEREAL MIX PASION CHOCOLATE 6x20x26G.",2026-07-15 11:40:33,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 11:42:06,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 13491.32.,Te confirmo que el pedido P-00032 fue registrado correctamente por 13491.32.,2026-07-15 11:43:30,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 11:44:17,true
+5493582639964,5493582639964,ai,ai,"Hola La Casa de los Snacks, paso a revisar tu pedido P-00102 de TOPLINE FRUTA 30X20X6.7G.","Hola La Casa de los Snacks, paso a revisar tu pedido P-00102 de TOPLINE FRUTA 30X20X6.7G.",2026-07-14 08:40:33,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 08:41:21,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 6923.22.,Te confirmo que el pedido P-00102 fue registrado correctamente por 6923.22.,2026-07-14 08:42:12,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 08:42:52,true
+5493582641213,5493582641213,ai,ai,"Hola La Golosina Feliz, vi que tenes un pedido abierto por MOGUL GOMAS COLA 12X12X30G y queria ayudarte a cerrarlo.","Hola La Golosina Feliz, vi que tenes un pedido abierto por MOGUL GOMAS COLA 12X12X30G y queria ayudarte a cerrarlo.",2026-07-16 00:40:33,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-07-16 00:41:57,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-07-16 00:43:01,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-07-16 00:43:56,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-07-16 00:44:53,true
+5493587747641,5493587747641,ai,ai,"Hola Dulce Tentación, vi que tenes un pedido abierto por CHOCOLINAS TUPPER 6X3X170G y queria ayudarte a cerrarlo.","Hola Dulce Tentación, vi que tenes un pedido abierto por CHOCOLINAS TUPPER 6X3X170G y queria ayudarte a cerrarlo.",2026-07-16 09:40:33,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-07-16 09:42:17,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 119912.75. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 119912.75. Si queres te lo dejo cerrado hoy.,2026-07-16 09:43:19,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-07-16 09:44:55,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-07-16 09:45:45,true
+5493587905250,5493587905250,ai,ai,"Hola Dulces y Salados, vi que tenes un pedido abierto por RELLENO UNTABLE COFLER MARROC 24X290GR y queria ayudarte a cerrarlo.","Hola Dulces y Salados, vi que tenes un pedido abierto por RELLENO UNTABLE COFLER MARROC 24X290GR y queria ayudarte a cerrarlo.",2026-07-16 01:40:33,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-07-16 01:41:31,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,2026-07-16 01:42:58,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-07-16 01:44:41,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-07-16 01:45:13,true
+5493811657614,5493811657614,ai,ai,"Hola Alimentos y Golosinas, paso a revisar tu pedido P-00040 de BATATA CON CHOCOLATE LATA X5KG.","Hola Alimentos y Golosinas, paso a revisar tu pedido P-00040 de BATATA CON CHOCOLATE LATA X5KG.",2026-07-14 08:40:33,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 08:41:56,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 28226.26.,Te confirmo que el pedido P-00040 fue registrado correctamente por 28226.26.,2026-07-14 08:42:52,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 08:43:49,true
+5493812941974,5493812941974,ai,ai,"Hola El Rincón del Alimento, paso a revisar tu pedido P-00084 de MENTHO PLUS SANDIA 12X12X29,4GR.","Hola El Rincón del Alimento, paso a revisar tu pedido P-00084 de MENTHO PLUS SANDIA 12X12X29,4GR.",2026-07-14 09:40:33,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 09:42:28,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 58946.19.,Te confirmo que el pedido P-00084 fue registrado correctamente por 58946.19.,2026-07-14 09:43:38,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 09:44:11,true
+5493813520000,5493813520000,ai,ai,"Hola El Almacén de Golosinas, paso a revisar tu pedido P-00115 de HELADO GELATO COFLER DULCE 6X450CC.","Hola El Almacén de Golosinas, paso a revisar tu pedido P-00115 de HELADO GELATO COFLER DULCE 6X450CC.",2026-07-15 08:40:33,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 08:41:24,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 11429.75.,Te confirmo que el pedido P-00115 fue registrado correctamente por 11429.75.,2026-07-15 08:42:30,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 08:43:56,true
+5493814729528,5493814729528,ai,ai,"Hola El Mercado de Alimentos, paso a revisar tu pedido P-00105 de ENSALADA ATUN ROJA 24X285G.","Hola El Mercado de Alimentos, paso a revisar tu pedido P-00105 de ENSALADA ATUN ROJA 24X285G.",2026-07-15 07:40:33,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 07:42:07,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 58622.19.,Te confirmo que el pedido P-00105 fue registrado correctamente por 58622.19.,2026-07-15 07:43:17,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 07:44:39,true
+5493817404433,5493817404433,ai,ai,"Hola Dulces y Tentaciones, paso a revisar tu pedido P-00087 de COFLER LECHE 2X18X140G.","Hola Dulces y Tentaciones, paso a revisar tu pedido P-00087 de COFLER LECHE 2X18X140G.",2026-07-15 08:40:33,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 08:42:09,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 200201.81.,Te confirmo que el pedido P-00087 fue registrado correctamente por 200201.81.,2026-07-15 08:43:35,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 08:44:38,true
+5493818437953,5493818437953,ai,ai,"Hola Surtido Argentino, paso a revisar tu pedido P-00029 de HUEVO ARCOR MILK NENE 12X180GR.","Hola Surtido Argentino, paso a revisar tu pedido P-00029 de HUEVO ARCOR MILK NENE 12X180GR.",2026-07-14 07:40:33,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 07:42:11,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 65324.69.,Te confirmo que el pedido P-00029 fue registrado correctamente por 65324.69.,2026-07-14 07:43:02,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 07:43:57,true
+5493872845902,5493872845902,ai,ai,"Hola Dulces y Más, paso a revisar tu pedido P-00034 de TURRON ALMENDRA CRANBERRIES ARCOR 35X100G.","Hola Dulces y Más, paso a revisar tu pedido P-00034 de TURRON ALMENDRA CRANBERRIES ARCOR 35X100G.",2026-07-14 10:40:33,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 10:41:35,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 20595.71.,Te confirmo que el pedido P-00034 fue registrado correctamente por 20595.71.,2026-07-14 10:42:58,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 10:43:37,true
+5493874104594,5493874104594,ai,ai,"Hola Dulces y Más, paso a revisar tu pedido P-00146 de TABLETA ARCOR MILK POR 4 4X20X48G.","Hola Dulces y Más, paso a revisar tu pedido P-00146 de TABLETA ARCOR MILK POR 4 4X20X48G.",2026-07-15 08:40:33,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-15 08:41:42,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 299967.23.,Te confirmo que el pedido P-00146 fue registrado correctamente por 299967.23.,2026-07-15 08:43:00,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-15 08:43:31,true
+5493876499570,5493876499570,ai,ai,"Hola El Surtido de Córdoba, paso a revisar tu pedido P-00149 de OBLEA COFLER BLOCK XL 8X16X45G.","Hola El Surtido de Córdoba, paso a revisar tu pedido P-00149 de OBLEA COFLER BLOCK XL 8X16X45G.",2026-07-14 07:40:33,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 07:41:21,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 56687.56.,Te confirmo que el pedido P-00149 fue registrado correctamente por 56687.56.,2026-07-14 07:41:59,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 07:42:55,true
+5493876914178,5493876914178,ai,ai,"Hola Almacén La Amistad, paso a revisar tu pedido P-00024 de CRUNCHY MIX AGUILA 30X120G.","Hola Almacén La Amistad, paso a revisar tu pedido P-00024 de CRUNCHY MIX AGUILA 30X120G.",2026-07-14 09:40:33,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 09:42:06,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 29259.87.,Te confirmo que el pedido P-00024 fue registrado correctamente por 29259.87.,2026-07-14 09:43:15,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 09:44:20,true
+5493876922419,5493876922419,ai,ai,"Hola Dulce y Saludable, paso a revisar tu pedido P-00107 de SNACK PAPAS FRITAS ORIGINAL 30X80G.","Hola Dulce y Saludable, paso a revisar tu pedido P-00107 de SNACK PAPAS FRITAS ORIGINAL 30X80G.",2026-07-14 11:40:33,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-14 11:41:37,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 5626.68.,Te confirmo que el pedido P-00107 fue registrado correctamente por 5626.68.,2026-07-14 11:42:15,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-14 11:43:06,true

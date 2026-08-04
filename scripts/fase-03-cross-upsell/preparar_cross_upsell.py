@@ -18,7 +18,7 @@ OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 if sys.platform.startswith('win'):
     sys.stdout.reconfigure(encoding='utf-8')
 
-def generar_mapeos_con_ia(productos) -> dict:
+def generar_mapeos_con_ia(productos, marca_lider: str) -> dict:
     """
     Llama a OpenAI para realizar un emparejamiento semántico inteligente y realista de cross-sell y up-sell.
     """
@@ -54,7 +54,7 @@ def generar_mapeos_con_ia(productos) -> dict:
         "- Cross-sell (Venta Cruzada): Productos de categorías complementarias que suelen consumirse juntos (ej: carne con carbón/leña, pizza con cerveza, carnes con vino tinto, mariscos con vino blanco, provoleta con chimichurri, etc.). Generar exactamente entre 10 y 14 pares únicos.\n"
         "- Up-sell (Venta Incremental): Reemplazo de un producto por una alternativa superior, de mayor volumen/tamaño o línea premium del mismo tipo (ej: aceite de oliva 250ml a 500ml, vino de mesa a reserva/blend premium, corte de carne común a corte Angus premium, gaseosa chica a gaseosa de 1.5L). Generar exactamente entre 6 y 10 pares únicos.\n\n"
         "Requisitos:\n"
-        "1. Asegúrate de incluir al menos una relación de cross-sell que involucre un queso de la marca líder 'Formagge'.\n"
+        f"1. Asegúrate de incluir al menos una relación de cross-sell que involucre a la marca líder '{marca_lider}'.\n"
         "2. Evita emparejar productos idénticos entre sí.\n"
         "3. La justificación (reason) debe ser corta, persuasiva y en español.\n\n"
         "Deberás responder con un objeto JSON que contenga las llaves:\n"
@@ -184,8 +184,12 @@ def main():
         print("[FAIL] Catálogo vacío.")
         sys.exit(1)
 
+    # Ordenar productos por rotación para mandar solo los 100 mejores a la IA
+    productos_ordenados = sorted(productos, key=lambda x: float(x.get("rotacion_index", 0.1)), reverse=True)
+    productos_para_ia = productos_ordenados[:100]
+
     # 3. Generar mapeos
-    mapeos = generar_mapeos_con_ia(productos)
+    mapeos = generar_mapeos_con_ia(productos_para_ia, marca_lider)
     if not mapeos or "cross_sell" not in mapeos or "up_sell" not in mapeos:
         mapeos = generar_mapeos_heuristicos(productos, marca_lider)
             

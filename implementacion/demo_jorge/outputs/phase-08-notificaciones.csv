@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2135,Calidad,open,Reclamo por RELLENO UNTABLE COFLER MARROC 24X290GR con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego RELLENO UNTABLE COFLER MARROC 24X290GR en mal estado y quiero hacer el reclamo.",2026-07-16 11:15:00,,true
+TKT-2136,Calidad,open,Reclamo por MOGUL GOMAS COLA 12X12X30G con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego MOGUL GOMAS COLA 12X12X30G en mal estado y quiero hacer el reclamo.",2026-07-15 08:15:00,,true
+TKT-2137,Calidad,open,Reclamo por HELADO TRES CREMAS FRUTILLA AMERICANA Y DULCE DE LECHE 8Ux1KG con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego HELADO TRES CREMAS FRUTILLA AMERICANA Y DULCE DE LECHE 8Ux1KG en mal estado y quiero hacer el reclamo.",2026-07-14 05:15:00,,true
+TKT-2138,Logistica,open,Demora en la entrega del pedido P-00154 de CARAMELO GAJITOS 12x485G.,5493418277249,"Buen dia, sigo esperando el pedido P-00154 de CARAMELO GAJITOS 12x485G y no llego.",2026-07-16 02:15:00,,true
+TKT-2139,Logistica,open,Demora en la entrega del pedido P-00123 de BONOBON SUPERBOLLS 30X80G.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de BONOBON SUPERBOLLS 30X80G y no llego.",2026-07-15 11:15:00,,true
+TKT-2140,Logistica,open,Demora en la entrega del pedido P-00126 de HELADO TRES CREMAS DULCE DE LECHE CHOCOLATE VAINILLA 8UX1KG.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de HELADO TRES CREMAS DULCE DE LECHE CHOCOLATE VAINILLA 8UX1KG y no llego.",2026-07-14 08:15:00,,true
+TKT-2141,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Dulces y Salados.,5493587905250,,2026-07-16 05:15:00,,true
+TKT-2142,Administracion,open,Solicita corregir datos administrativos de La Golosina Feliz en el sistema.,5493582641213,,2026-07-15 02:15:00,,true
+TKT-2143,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Alimentos del Barrio.,5492991227644,,2026-07-14 11:15:00,,true
+TKT-2144,Administracion,open,Solicita corregir datos administrativos de Sabor a Casa en el sistema.,5493418277249,,2026-07-16 08:15:00,,true
+TKT-2145,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Alimentos y Golosinas.,5492612928724,,2026-07-15 05:15:00,,true
+TKT-2146,Administracion,closed,Solicita corregir datos administrativos de La Dulcería Cordobesa en el sistema.,5492617236955,,2026-06-30 05:15:00,2026-06-30 20:15:00,true
+TKT-2147,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de El Rincón de los Snacks.,5492617413812,,2026-06-29 11:15:00,2026-06-30 03:15:00,true
+TKT-2148,Logistica,closed,Demora en la entrega del pedido P-00132 de MOGUL EXTREME TUBITOS TUTTI FRUTTI 12X16X15G.,5492998066543,,2026-06-28 09:15:00,2026-06-29 02:15:00,true
+TKT-2149,Calidad,closed,Reclamo por JUGO POLVO ARCOR NARANJA DURAZNO 12X18X15G con entrega en mal estado o faltante parcial.,5492999435946,,2026-06-27 07:15:00,2026-06-28 01:15:00,true
+TKT-2150,Administracion,closed,Solicita corregir datos administrativos de Dulce Tentación en el sistema.,5493587747641,,2026-06-26 05:15:00,2026-06-27 00:15:00,true
+TKT-2151,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de El Rincón de la Golosina.,5492614053074,,2026-07-11 11:15:00,2026-07-12 07:15:00,true
+TKT-2152,Logistica,closed,Demora en la entrega del pedido P-00157 de CARAMELO RELLENOS FRUTALES 48X80G.,5493514079279,,2026-07-10 09:15:00,2026-07-11 06:15:00,true

@@ -24,7 +24,10 @@ def main():
     backend_url = args.backend_url or os.getenv("BACKEND_URL", "https://web-production-f544f.up.railway.app")
     backend_url = backend_url.rstrip("/")
 
-    json_path = f"implementacion/{esquema}/outputs/phase-01-1-propuesta-categorias.json"
+    json_path = f"implementacion/{esquema}/outputs/phase-01-1-propuesta-tags.json"
+    if not os.path.exists(json_path):
+        json_path = f"implementacion/{esquema}/outputs/phase-01-1-propuesta-categorias.json"
+
     print("=" * 60)
     print(f"APLICANDO PROPUESTA DE CATEGORÍAS GUARDADA PARA: {esquema}")
     print(f"Archivo JSON: {json_path}")
@@ -42,15 +45,15 @@ def main():
     products_list = data.get("products", [])
     print(f"[+] Total de productos cargados: {len(products_list)}")
 
-    # SPEC-060: endpoint de categorías (no tags)
-    apply_url = f"{backend_url}/{esquema}/categorias/apply-proposed-taxonomy"
+    # tags endpoint
+    apply_url = f"{backend_url}/{esquema}/tags/apply-proposed-taxonomy"
     print(f"[*] Enviando propuesta al backend para impactar Supabase: {apply_url}...")
 
     try:
         resp = requests.post(apply_url, json={"products": products_list}, timeout=300)
         print("Response status code:", resp.status_code)
         if resp.status_code != 200:
-            print(f"[FAIL] Error en categorias/apply-proposed-taxonomy (Código {resp.status_code}): {resp.text}")
+            print(f"[FAIL] Error en tags/apply-proposed-taxonomy (Código {resp.status_code}): {resp.text}")
             sys.exit(1)
 
         print("[+] ¡Categorías aplicadas exitosamente en la base de datos de Supabase!")

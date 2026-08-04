@@ -1,0 +1,7 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: 3fce3cb5-2ac6-4e39-a3d2-dd56fef92945
+schema_existe,Tablas en demo_jorge,ok,schema verificado
+productos_vacio,COUNT productos = 0,ok,0 productos encontrados
+clients_vacio,COUNT clients = 0,ok,0 clientes encontrados
+mcp_conectado,MCP supabase responde,ok,conectado
+carpeta_implementacion,manifest.yaml presente,ok,verificado

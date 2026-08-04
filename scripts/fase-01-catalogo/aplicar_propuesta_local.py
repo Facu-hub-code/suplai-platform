@@ -3,6 +3,7 @@ import sys
 import json
 import asyncio
 import asyncpg
+import argparse
 from dotenv import load_dotenv
 
 # Load env
@@ -13,13 +14,12 @@ load_dotenv(dotenv_path)
 if sys.platform.startswith('win'):
     sys.stdout.reconfigure(encoding='utf-8')
 
-async def main():
+async def main(schema: str):
     db_url = os.getenv("SUPABASE_DB_URL")
     if not db_url:
         print("[FAIL] SUPABASE_DB_URL not found in .env")
         sys.exit(1)
         
-    schema = "distribuidora_lyl"
     proposal_path = rf"c:\Users\marti\suplai-platform\implementacion\{schema}\outputs\phase-01-1-propuesta-tags.json"
     
     if not os.path.exists(proposal_path):
@@ -142,4 +142,7 @@ async def main():
     print("==============================================")
 
 if __name__ == '__main__':
-    asyncio.run(main())
+    parser = argparse.ArgumentParser(description="Aplica propuesta de tags localmente.")
+    parser.add_argument("--esquema", default="distribuidora_lyl", help="Esquema a impactar.")
+    args = parser.parse_args()
+    asyncio.run(main(args.esquema))

@@ -13,6 +13,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from e2e_journeys import (
     flatten_journey_steps,
     load_journey_manifest,
