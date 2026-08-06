@@ -1,12 +1,13 @@
-# Spec: Preparación tienda Benfresh (PDV Christian, imágenes, link post-pedido, origen)
+# Spec: Preparación tienda Benfresh (prod-ready)
 
 **Fecha:** 2026-08-06  
 **Tenant:** `benfresh`  
-**Estado:** diseño aprobado (pendiente plan de implementación)
+**Estado:** diseño aprobado  
+**Rama platform:** `feat/benfresh-tienda-prep`
 
 ## Objetivo
 
-Dejar la tienda web de Benfresh usable para prueba real de Christian como PDV: cliente con WhatsApp + lista Default, imágenes en los productos más pedidos (hotlink desde benfreshfood.com), segundo mensaje con link de tienda tras crear/editar pedido (flag spec 026), y marcar/mostrar `origen=tienda` en pedidos nacidos del login-tienda.
+Dejar la **tienda web de Benfresh lista para producción**: catálogo con imágenes útiles, link de tienda post-pedido, origen `tienda` visible en Pedidos, PDV de prueba (Christian vía BENFRESH MARKET), y **base de clientes con teléfonos USA en formato correcto** marcados como WhatsApp `existente` (aún no validados por respuesta).
 
 ## Contexto (estado actual)
 
@@ -19,113 +20,117 @@ Dejar la tienda web de Benfresh usable para prueba real de Christian como PDV: c
 | Imágenes | `0/202` productos con `image_url` |
 | Flag catalog store | `metadata.catalog_store` ausente |
 | `pedidos.origen` | Columna existe (default `suplai`); login-tienda no la setea; grilla Pedidos no la muestra |
+| WhatsApp estados | 523 `no_validado`, 1 `existente` |
+| Phones USA OK | **~278** con patrón `1` + 10 dígitos NANP (`^1[2-9]\d{9}$`), todos `no_validado` |
+| Placeholders | ~207 con prefijo `99…` |
+| Otros inválidos | ~39 (largo/prefijo raro, `54…`, etc.) |
+| Verificación Meta | **No hay** lookup proactivo; solo inferencia al enviar o historial inbound |
 
 ## Decisiones de diseño técnico
 
 | Decisión | Elección | Por qué | Alternativa descartada |
 |----------|----------|---------|------------------------|
-| Perfil de prueba | Christian prueba tienda como PDV y sigue siendo vendedor | No cortar operación seller; la tienda autentica por `clients.phone_number`, independiente del actor WhatsApp | Pasar a solo-cliente / desactivar vendedor |
-| Cliente PDV | Reusar `#11 BENFRESH MARKET LLC` + phone `17864035046` + lista `#24` | Ya tiene lista Default USD; nombre de marca claro | Crear cliente nuevo; reusar Dixie (precios Dixie) |
-| Teléfono Dixie | Quitar `17864035046` de `#13` (placeholder) | `login-tienda` hace match exacto; un solo dueño del número | Dejar conflicto de teléfono |
-| Tool link | No tocar `get_catalog_link` | Ya está disponible por opt-out | Forzar key `true` en `tools_habilitadas` (redundante) |
-| Link post-pedido | Solo activar `metadata.catalog_store.append_link_after_order_tools=true` | Feature spec 026 ya en agente; cero código nuevo | Reimplementar mensaje / cambiar copy v1 |
-| Imágenes | Script top 100 + match por nombre + **hotlink** al sitio | Rápido para mejorar UX de tienda; el sitio ya sirve assets públicos | Subir a Supabase Storage (más estable, más trabajo) |
-| Ranking | `items_pedido` por `SUM(cantidad_solicitada)` | Fuente confiable; `pedidos.items` JSON a menudo vacío/wrapper | Parsear JSON de `pedidos.items` |
-| Origen tienda | Setear `origen='tienda'` al **crear** carrito en login-tienda | Usuario eligió ver origen desde el primer carrito abierto | Solo al confirmar |
-| UI origen | Badge en `pedidos-table` (+ filtro opcional) | La sección Pedidos es donde operan; ERP raw ya tiene origen distinto | Solo ERP / solo API |
+| Objetivo | Tienda **prod-ready**, no solo demo Christian | El PDV de prueba es un caso; la red comercial necesita phones/estados coherentes | Solo setup de un teléfono de prueba |
+| Formato phone | **USA E.164 digits:** `1` + área `[2-9]` + 9 dígitos (11 total) | Tenant Miami; casi nadie usa `54` | Criterio Argentina `54` |
+| Mark `existente` | **A priori por formato** (bulk SQL/script) | Aún no hay envíos; no hay API Meta de “¿existe WA?” sin enviar | Verificar vía Meta contacts; solo CSV sin update |
+| No tocar | Placeholders `99…`, inválidos, ya `validado` | Evitar falsos positivos y no degradar validados | Marcar todo el padrón |
+| Timestamps | Setear `whatsapp_existencia_verificada_at = now()` al pasar a `existente` | Alineado a `set_estado_manual` / `marcar_por_envio` | Solo cambiar el enum |
+| Christian PDV | Reusar `#11` + phone `17864035046` + lista `#24`; liberar `#13` | Match exacto login-tienda; Christian sigue seller | Desactivar vendedor |
+| Tool link | No tocar `get_catalog_link` | Ya disponible | Forzar key en `tools_habilitadas` |
+| Link post-pedido | Flag `catalog_store.append_link_after_order_tools=true` | Spec 026 ya implementado | Reescribir copy v1 |
+| Imágenes | Top 100 + match nombre + **hotlink** benfreshfood.com | Mejora visual rápida | Supabase Storage |
+| Origen tienda | `origen='tienda'` al **crear** carrito en login-tienda | Ver canal desde el carrito abierto | Solo al confirmar |
+| UI origen | Badge (+ filtro) en `pedidos-table` | Operación diaria en Pedidos | Solo ERP raw |
+| Paso a `validado` | **Manual** tras el primer envío real (operador) | Aún no hay campañas/envíos; el humano valida con evidencia de envío/respuesta | Hook automático en inbound |
 
 ## Alcance
 
 ### Incluido (v1)
 
-1. **Ops datos Benfresh:** phone en `#11`, liberar `#13`, flag `catalog_store` en `distribuidoras.metadata`.
-2. **Script** `scripts/benfresh/scrape_benfresh_images.py`: scrape benfreshfood.com, match top 100, dry-run CSV + `--apply` hotlink a `productos.image_url`.
-3. **Backend:** `INSERT` de pedido abierto en `ensure_open_pedido_for_client` con `origen='tienda'`; exponer `p.origen` en `GET .../pedidos/v2`.
-4. **Backoffice:** badge de origen en sección Pedidos; filtro origen (todos / tienda / suplai).
+1. **Higiene teléfonos Benfresh**
+   - Script/SQL dry-run: listar candidatos USA OK vs inválidos/fake.
+   - `--apply`: `whatsapp_estado = 'existente'` + `whatsapp_existencia_verificada_at = now()` para phones que matchean `^1[2-9]\d{9}$` y estado actual ∈ (`no_validado`, `NULL`) — **no** pisar `validado` / `no_existente` salvo regla explícita.
+   - No inventar ni reescribir `phone_number` en este paso (salvo el caso Christian `#11`/`#13` abajo).
+2. **Ops PDV Christian:** phone en `#11`, liberar `#13`, flag `catalog_store` en metadata.
+3. **Script imágenes** `scripts/benfresh/scrape_benfresh_images.py` (dry-run CSV + `--apply` hotlink).
+4. **Backend:** INSERT carrito con `origen='tienda'`; `p.origen` en pedidos v2.
+5. **Backoffice:** badge origen (+ filtro) en Pedidos.
 
 ### Fuera de alcance
 
+- Lookup proactivo Meta “contacts” (no disponible / no implementado).
+- Envío masivo de plantillas para inferir existencia.
 - Subir imágenes a Storage.
-- Normalizar teléfonos en `login-tienda` (sigue match exacto).
-- Cambiar copy de las variantes del segundo mensaje (spec 026).
-- Tocar cliente `#50 BENFRESH,LLC`.
-- Cambiar resolución seller/client en WhatsApp para Christian.
-- Backfill de `origen` en pedidos históricos abiertos creados por tienda.
+- Normalizar todos los phones (agregar `1` faltante, limpiar `54`, etc.) — solo reporte en dry-run; corrección masiva de dígitos es follow-up.
+- Cambiar copy del segundo mensaje (spec 026).
+- Tocar cliente `#50`.
+- Cambiar resolución seller/client WhatsApp de Christian.
+- Backfill `origen` en pedidos históricos.
+- Auto-marcar `validado` al recibir inbound (queda validación manual post-primer envío).
 
 ## Orden de implementación
 
 | Orden | Repo | Rama sugerida | Dependencia |
 |-------|------|---------------|-------------|
-| 1 | `suplai-platform` | `feat/benfresh-tienda-prep` | Spec + script imágenes (dry-run) |
-| 2 | Ops BD (MCP / SQL) | — (tras review) | Cliente `#11`/`#13` + flag metadata |
-| 3 | `backend-supabase` | `feat/benfresh-tienda-origen` | Merge antes que backoffice si el filtro usa query param |
-| 4 | `product-management-app` | `feat/benfresh-tienda-origen-ui` | Consume `origen` de pedidos v2 |
-| 5 | Apply imágenes | `--apply` del script | Tras dry-run revisado |
+| 1 | `suplai-platform` | `feat/benfresh-tienda-prep` | Spec + script imágenes + script higiene WA |
+| 2 | Ops BD | dry-run → apply higiene + cliente `#11`/`#13` + flag | Tras review CSV |
+| 3 | `backend-supabase` | `feat/benfresh-tienda-origen` | Antes que UI filtro |
+| 4 | `product-management-app` | `feat/benfresh-tienda-origen-ui` | Consume `origen` v2 |
+| 5 | Apply imágenes | `--apply` | Tras dry-run revisado |
 
-Orden de merge habitual: **backend → backoffice**; ops + script pueden ir en paralelo.
+Merge: **backend → backoffice**; ops/scripts en paralelo.
 
 ## Migración de base de datos
 
-**Sin migración de BD.**
+**Sin migración de BD (DDL).**
 
-- Columna `pedidos.origen` ya existe (migración histórica `45_add_erp_orders_raw_mirror.sql`).
-- Cambios de datos: UPDATE de `clients` (#11, #13) y merge JSON en `distribuidoras.metadata` para `benfresh`.
-- `productos.image_url`: UPDATEs puntuales vía script (no DDL).
+- Datos: UPDATE `clients.whatsapp_*` (bulk formato USA); UPDATE phones `#11`/`#13`; merge `distribuidoras.metadata`; UPDATEs `productos.image_url`; INSERT futuros con `origen='tienda'`.
 
 **Rollback / riesgo**
 
-- Cliente: revertir phones de `#11`/`#13`.
-- Flag: quitar `catalog_store` o setear `false`.
-- Imágenes: `image_url = NULL` en filas tocadas (guardar CSV del apply).
-- Origen: carritos nuevos quedan `tienda`; no afecta históricos `suplai`.
+- WA: guardar CSV pre-apply (`id`, `phone`, `estado_prev`); revertir a `no_validado` si hace falta.
+- Marcar `existente` por formato **no garantiza** que el número tenga WhatsApp; el primer envío real puede pasar a `no_existente` vía `marcar_por_envio`.
+- Cliente / flag / imágenes / origen: igual que antes.
 
 ## Plan de prueba en CI/CD
 
 | Repo | Qué validar |
 |------|-------------|
-| backend | Test unitario/service: `ensure_open_pedido_for_client` inserta con `origen='tienda'` (mock DB o assert SQL params). Checks existentes verdes. |
-| backoffice | Lint/typecheck; si hay test de tabla de pedidos, cubrir render de badge `tienda`. |
-| platform | Script: dry-run sin red flaky en CI (opcional); al menos el script debe parsear args y fallar claro sin `DATABASE_URL`. |
-| Gap | No hay E2E tienda+backoffice en pipeline; el OK de merge de UI/API se apoya en checklist humana abajo. |
+| platform | Scripts: dry-run sin apply; args; fallo claro sin DB URL; regex USA unit-testable |
+| backend | Test insert carrito `origen='tienda'`; checks verdes |
+| backoffice | Lint; badge origen si hay test |
+| Gap | E2E tienda+WA no en pipeline → checklist humana |
 
 ## Plan de prueba humana (antes del PR / apply prod)
 
-**Servicios**
-
-- Backend: `8000`
-- Backoffice: `3000` (`BACKEND_URL=http://localhost:8000`)
-- Tienda: puerto distinto de 3000 (ej. `3002`)
-
-**Tenant / datos**
-
-- Schema `benfresh`
-- Cliente `#11` con `wp=17864035046`, lista Default USD
-- Christian sigue pudiendo usar WhatsApp como vendedor
+**Servicios:** backend `8000`, backoffice `3000`, tienda ≠ 3000.
 
 **Checklist**
 
-1. [ ] Abrir `https://tienda.suplaisales.com/benfresh?wp=17864035046` (o local) → login OK como BENFRESH MARKET LLC, precios Default.
-2. [ ] Dixie ya no autentica con ese `wp`.
-3. [ ] Tras login, pedido abierto nuevo tiene `origen='tienda'` en BD.
-4. [ ] En backoffice → Pedidos: badge **Tienda** visible; filtro origen funciona.
-5. [ ] Pedido creado por agente sigue badge **Suplai** / `origen=suplai`.
-6. [ ] Con flag activo: PDV (sesión cliente, no seller) tras `create_order`/`edit_order` recibe segundo mensaje con URL de tienda.
-7. [ ] Script dry-run: CSV con matches; revisar calidad; `--apply` deja imágenes en top productos; tienda muestra fotos.
+1. [ ] Dry-run higiene: ~278 candidatos USA; fakes `99` e inválidos listados aparte.
+2. [ ] Apply higiene: esos quedan `existente` + timestamp; `validado` previos intactos (si hubiera).
+3. [ ] `#11` con `wp=17864035046` + lista Default; Dixie sin ese phone; login tienda OK.
+4. [ ] Carrito nuevo `origen='tienda'`; badge/filtro en Pedidos; agente sigue `suplai`.
+5. [ ] Flag catalog store: PDV cliente recibe segundo mensaje con URL post create/edit.
+6. [ ] Imágenes: dry-run → apply → tienda muestra fotos en top productos.
 
 ## Criterios de aceptación
 
-- **AC-1:** `#11` tiene `phone_number=17864035046` y lista `#24`; `#13` no tiene ese phone.
-- **AC-2:** `metadata.catalog_store.append_link_after_order_tools === true` en Benfresh.
-- **AC-3:** `get_catalog_link` sigue disponible (sin regresión).
-- **AC-4:** Dry-run del script produce CSV; `--apply` solo actualiza filas sin `image_url` (o según flag documentado) con URLs absolutas a benfreshfood.com.
-- **AC-5:** Nuevo carrito vía login-tienda persiste `origen='tienda'`.
-- **AC-6:** Pedidos v2 + UI muestran origen; filtro opcional usable.
+- **AC-1:** `#11` phone `17864035046` + lista `#24`; `#13` sin ese phone.
+- **AC-2:** Flag `catalog_store.append_link_after_order_tools === true`.
+- **AC-3:** `get_catalog_link` sin regresión.
+- **AC-4:** Script imágenes dry-run + apply (hotlinks absolutos).
+- **AC-5:** Nuevo carrito login-tienda → `origen='tienda'`.
+- **AC-6:** Pedidos v2 + UI muestran/filtran origen.
+- **AC-7:** Clientes con phone USA `^1[2-9]\d{9}$` y estado `no_validado` pasan a `existente` con `whatsapp_existencia_verificada_at` seteado; placeholders/inválidos no se marcan `existente` solo por este job.
 
 ## Archivos clave (referencia)
 
 - `backend/services/tienda_login.py` — INSERT pedido abierto
+- `backend/services/whatsapp_cliente_estado_service.py` — estados WA
 - `backend/routers/pedidos.py` — SELECT v2
 - `backoffice/components/pedidos-table.tsx` — badge/filtro
 - `agent/app/agent/tools/catalog_store_promotion.py` — ya implementado
 - `scripts/benfresh/scrape_benfresh_images.py` — a crear
+- `scripts/benfresh/backfill_whatsapp_existente_usa.py` (o SQL) — a crear
 - Sitio: `https://www.benfreshfood.com` (`assets/images/product/*`)
