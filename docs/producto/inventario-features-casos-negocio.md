@@ -536,6 +536,7 @@ Suplai. No es cliente de la plataforma: la implementa, opera y diagnostica. Auth
 Pipeline de puesta en producción de cada distribuidora nueva.
 
 - **Pipeline Kanban de implementaciones (5 hitos)** — desde implementación agéntica hasta "En producción"; SLA y leaderboard. Sistema: backoffice / backend. Evidencia: `components/admin/projects-section.tsx`, `projects-kanban-board.tsx`, `implementation-pipeline-leaderboard.tsx`, `routers/admin_projects.py`, `sql/47_implementation_projects.sql`, spec 011.
+- **Customer Success (post-producción)** — salud (`estado_salud`), pago manual (`estado_pago`) e historial de eventos (touchpoint / ajuste / incidencia / nota) para clientes en `in_production`. Sistema: backoffice / backend. Evidencia: `components/admin/customer-success-section.tsx`, `routers/admin_customer_success.py`, `sql/99_customer_success.sql`, spec 033.
 - **Checklist de User Stories por hito** — backlog trazable con PM cliente + responsable técnico; preview de progreso `{cerradas}/{total}`. Sistema: backoffice / backend. Evidencia: `components/admin/project-detail.tsx`, `sql/57_implementation_user_stories.sql`.
 - **Festejo "En producción"** — confetti + sonido al avanzar el hito final. Sistema: backoffice. Evidencia: `components/admin/production-celebration-overlay.tsx`.
 - **Proyectos consultora/desarrollo (Kanban interno)** — board custom backlog → done, asignación de owner. Sistema: backoffice / backend. Evidencia: `components/admin/custom-projects-section.tsx`, `routers/admin_custom_projects.py`.
