@@ -134,7 +134,7 @@ async def cargar_red_comercial(esquema: str):
                     INSERT INTO {esquema}.geo_zones
                         (name, zone_type, description, color, dia_visita, codigo_ruta,
                          vendedor_principal_id, geometry, active, is_mock)
-                    VALUES ($1, $2, $3, $4, $5::dia_de_visita_enum, $6, $7,
+                    VALUES ($1, $2, $3, $4, $5::core.dia_de_visita_enum, $6, $7,
                             extensions.ST_GeomFromEWKT($8), true, true)
                     RETURNING id
                 """,
@@ -182,7 +182,7 @@ async def cargar_red_comercial(esquema: str):
                         (razon_social, codigo, lista_precios_id, dia_de_visita,
                          dia_de_entrega, direccion, vendedor, vendedor_id,
                          geo_zone_id, activo_ai, is_mock)
-                    VALUES ($1, $2, $3, $4::dia_de_visita_enum, $5::dia_de_entrega_enum,
+                    VALUES ($1, $2, $3, $4::core.dia_de_visita_enum, $5::core.dia_de_entrega_enum,
                             $6, $7, $8, $9, true, true)
                     RETURNING id
                 """,
@@ -203,8 +203,8 @@ async def cargar_red_comercial(esquema: str):
                         (phone_number, nombre, razon_social, lista_precios_id,
                          codigo, dia_de_visita, dia_de_entrega, direccion,
                          vendedor, pdv_id, activo_ai, is_mock)
-                    VALUES ($1, $2, $3, $4, $5, $6::dia_de_visita_enum,
-                            $7::dia_de_entrega_enum, $8, $9, $10, true, true)
+                    VALUES ($1, $2, $3, $4, $5, $6::core.dia_de_visita_enum,
+                            $7::core.dia_de_entrega_enum, $8, $9, $10, true, true)
                     RETURNING id
                 """,
                     row["phone_number"],

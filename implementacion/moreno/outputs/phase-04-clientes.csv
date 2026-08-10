@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Almacén Don Julio,Almacén Don Julio,5493587905250,2,1,lunes,martes,"Zona ZONA NORTE - Villa Adela - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,0,-31.379987,-58.041199,true
+2,Despensa La Costanera,Despensa La Costanera,5493582641213,3,2,lunes,martes,"Zona ZONA NORTE - Villa Adela - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,0,-31.380026,-58.035302,true
+3,Fiambrería El Paraná,Fiambrería El Paraná,5492991227644,4,3,lunes,martes,"Zona ZONA NORTE - Villa Adela - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,0,-31.379833,-58.041414,true
+4,Minimarket Concordia Sur,Minimarket Concordia Sur,5493418277249,1,4,lunes,martes,"Zona ZONA NORTE - Villa Adela - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,0,-31.382591,-58.037787,true
+5,Autoservicio Salto Grande,Autoservicio Salto Grande,5493587747641,2,5,lunes,martes,"Zona ZONA NORTE - Villa Adela - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,0,-31.382827,-58.0384,true
+6,Proveeduría Villa Adela,Proveeduría Villa Adela,5492614053074,3,6,lunes,martes,"Zona ZONA NORTE - Villa Adela - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,0,-31.383589,-58.032239,true
+7,Almacén Los Naranjos,Almacén Los Naranjos,5493514079279,4,7,lunes,martes,"Zona ZONA NORTE - Villa Adela - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,0,-31.382969,-58.032978,true
+8,Rotisería Uruguay,Rotisería Uruguay,5493876914178,1,8,lunes,martes,"Zona ZONA NORTE - Villa Adela - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,0,-31.384334,-58.039714,true
+9,Despensa San Martín,Despensa San Martín,5492617175545,2,9,lunes,martes,"Zona ZONA NORTE - Villa Adela - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,0,-31.379241,-58.033995,true
+10,Fiambrería Cremigal Express,Fiambrería Cremigal Express,5493818437953,3,10,martes,miercoles,"Zona ZONA NORESTE - Salto Grande - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,1,-31.383756,-58.01953,true
+11,Minimarket Laguna del Junco,Minimarket Laguna del Junco,5493582132179,4,11,martes,miercoles,"Zona ZONA NORESTE - Salto Grande - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,1,-31.378018,-58.014919,true
+12,Almacén El Puente,Almacén El Puente,5493872845902,1,12,martes,miercoles,"Zona ZONA NORESTE - Salto Grande - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,1,-31.384218,-58.012007,true
+13,Autoservicio Belgrano,Autoservicio Belgrano,5492997670210,2,13,martes,miercoles,"Zona ZONA NORESTE - Salto Grande - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,1,-31.380495,-58.020681,true
+14,Proveeduría Zorraquín,Proveeduría Zorraquín,5493811657614,3,14,martes,miercoles,"Zona ZONA NORESTE - Salto Grande - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,1,-31.383787,-58.017255,true
+15,Despensa Centro Este,Despensa Centro Este,5492994145193,4,15,martes,miercoles,"Zona ZONA NORESTE - Salto Grande - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,1,-31.385261,-58.012552,true
+16,Fiambrería Paladini Point,Fiambrería Paladini Point,5493515971311,1,16,martes,miercoles,"Zona ZONA NORESTE - Salto Grande - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,1,-31.380159,-58.021123,true
+17,Almacén Doña Rosa,Almacén Doña Rosa,5492994228106,2,17,martes,miercoles,"Zona ZONA NORESTE - Salto Grande - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,1,-31.38323,-58.018672,true
+18,Minimarket Río Uruguay,Minimarket Río Uruguay,5492998718887,3,18,martes,miercoles,"Zona ZONA NORESTE - Salto Grande - Concordia, Entre Ríos, Argentina",Luciano Pereyra,0,1,-31.381178,-58.014181,true
+19,Rotisería Concordia,Rotisería Concordia,5492995028869,4,19,miercoles,jueves,"Zona ZONA CENTRO - Microcentro - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,2,-31.378549,-58.001068,true
+20,Autoservicio Av. San Martín,Autoservicio Av. San Martín,5493517304254,1,20,miercoles,jueves,"Zona ZONA CENTRO - Microcentro - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,2,-31.378258,-57.995826,true
+21,Despensa Barrio Norte,Despensa Barrio Norte,5493416986538,2,21,miercoles,jueves,"Zona ZONA CENTRO - Microcentro - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,2,-31.385862,-57.998323,true
+22,Fiambrería Fox Express,Fiambrería Fox Express,5492619239862,3,22,miercoles,jueves,"Zona ZONA CENTRO - Microcentro - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,2,-31.384692,-57.997292,true
+23,Almacén Tres Esquinas,Almacén Tres Esquinas,5493513952681,4,23,miercoles,jueves,"Zona ZONA CENTRO - Microcentro - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,2,-31.379661,-57.999958,true
+24,Proveeduría El Faro,Proveeduría El Faro,5493414799650,1,24,miercoles,jueves,"Zona ZONA CENTRO - Microcentro - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,2,-31.383996,-57.998101,true
+25,Minimarket Villa Nueva,Minimarket Villa Nueva,5492992500733,2,25,miercoles,jueves,"Zona ZONA CENTRO - Microcentro - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,2,-31.381272,-57.994386,true
+26,Autoservicio Costanera,Autoservicio Costanera,5492615139305,3,26,miercoles,jueves,"Zona ZONA CENTRO - Microcentro - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,2,-31.384458,-57.997137,true
+27,Despensa La Estación,Despensa La Estación,5492618861463,4,27,jueves,viernes,"Zona ZONA OESTE - Laguna del Junco - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,3,-31.404582,-58.034921,true
+28,Fiambrería La Paulina Sur,Fiambrería La Paulina Sur,5493812941974,1,28,jueves,viernes,"Zona ZONA OESTE - Laguna del Junco - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,3,-31.404193,-58.038077,true
+29,Almacén Los Álamos,Almacén Los Álamos,5493817404433,2,29,jueves,viernes,"Zona ZONA OESTE - Laguna del Junco - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,3,-31.399433,-58.037018,true
+30,Rotisería Entre Ríos,Rotisería Entre Ríos,5493419686914,3,30,jueves,viernes,"Zona ZONA OESTE - Laguna del Junco - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,3,-31.399416,-58.040755,true
+31,Minimarket Salto,Minimarket Salto,5493518648263,4,31,jueves,viernes,"Zona ZONA OESTE - Laguna del Junco - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,3,-31.40414,-58.033256,true
+32,Proveeduría Microcentro,Proveeduría Microcentro,5493516216782,1,32,jueves,viernes,"Zona ZONA OESTE - Laguna del Junco - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,3,-31.403831,-58.033508,true
+33,Autoservicio Junco,Autoservicio Junco,5492612780568,2,33,jueves,viernes,"Zona ZONA OESTE - Laguna del Junco - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,3,-31.406093,-58.038044,true
+34,Despensa Parque,Despensa Parque,5493582639964,3,34,jueves,viernes,"Zona ZONA OESTE - Laguna del Junco - Concordia, Entre Ríos, Argentina",Mariana Acosta,1,3,-31.399946,-58.037198,true
+35,Fiambrería Unión Quesos,Fiambrería Unión Quesos,5493814729528,4,35,viernes,sabado,"Zona ZONA SUR - Villa Zorraquín - Concordia, Entre Ríos, Argentina",Diego Benítez,2,4,-31.402586,-58.019509,true
+36,Almacén El Progreso,Almacén El Progreso,5493876922419,1,36,viernes,sabado,"Zona ZONA SUR - Villa Zorraquín - Concordia, Entre Ríos, Argentina",Diego Benítez,2,4,-31.406145,-58.01646,true
+37,Minimarket Las Palmas,Minimarket Las Palmas,5492618889598,2,37,viernes,sabado,"Zona ZONA SUR - Villa Zorraquín - Concordia, Entre Ríos, Argentina",Diego Benítez,2,4,-31.400484,-58.01758,true
+38,Proveeduría Ruta 14,Proveeduría Ruta 14,5492615021286,3,38,viernes,sabado,"Zona ZONA SUR - Villa Zorraquín - Concordia, Entre Ríos, Argentina",Diego Benítez,2,4,-31.401622,-58.021774,true
+39,Autoservicio Colinas,Autoservicio Colinas,5493813520000,4,39,viernes,sabado,"Zona ZONA SUR - Villa Zorraquín - Concordia, Entre Ríos, Argentina",Diego Benítez,2,4,-31.404622,-58.02062,true
+40,Despensa Barrio Sur,Despensa Barrio Sur,5492997489876,1,40,viernes,sabado,"Zona ZONA SUR - Villa Zorraquín - Concordia, Entre Ríos, Argentina",Diego Benítez,2,4,-31.399999,-58.020446,true
+41,Fiambrería Bierzo,Fiambrería Bierzo,5493519107005,2,41,viernes,sabado,"Zona ZONA SUR - Villa Zorraquín - Concordia, Entre Ríos, Argentina",Diego Benítez,2,4,-31.403575,-58.019598,true
+42,Almacén Doña Marta,Almacén Doña Marta,5493874104594,3,42,viernes,sabado,"Zona ZONA SUR - Villa Zorraquín - Concordia, Entre Ríos, Argentina",Diego Benítez,2,4,-31.39849,-58.016685,true
+43,Minimarket San Antonio,Minimarket San Antonio,5492617413812,4,43,sabado,lunes,"Zona ZONA SURESTE - Barrio Belgrano - Concordia, Entre Ríos, Argentina",Diego Benítez,2,5,-31.404237,-58.000234,true
+44,Proveeduría Costa Sur,Proveeduría Costa Sur,5492617236955,1,44,sabado,lunes,"Zona ZONA SURESTE - Barrio Belgrano - Concordia, Entre Ríos, Argentina",Diego Benítez,2,5,-31.404697,-57.993885,true
+45,Autoservicio El Mirador,Autoservicio El Mirador,5492612928724,2,45,sabado,lunes,"Zona ZONA SURESTE - Barrio Belgrano - Concordia, Entre Ríos, Argentina",Diego Benítez,2,5,-31.401409,-57.997743,true
+46,Despensa La Ribera,Despensa La Ribera,5492999435946,3,46,sabado,lunes,"Zona ZONA SURESTE - Barrio Belgrano - Concordia, Entre Ríos, Argentina",Diego Benítez,2,5,-31.406108,-57.996051,true
+47,Fiambrería Spalen,Fiambrería Spalen,5493517632424,4,47,sabado,lunes,"Zona ZONA SURESTE - Barrio Belgrano - Concordia, Entre Ríos, Argentina",Diego Benítez,2,5,-31.40316,-58.000707,true
+48,Almacén Los Pinos,Almacén Los Pinos,5493416524997,1,48,sabado,lunes,"Zona ZONA SURESTE - Barrio Belgrano - Concordia, Entre Ríos, Argentina",Diego Benítez,2,5,-31.398572,-57.997856,true
+49,Rotisería El Trébol,Rotisería El Trébol,5493876499570,2,49,sabado,lunes,"Zona ZONA SURESTE - Barrio Belgrano - Concordia, Entre Ríos, Argentina",Diego Benítez,2,5,-31.406602,-58.001217,true
+50,Minimarket Villa del Lago,Minimarket Villa del Lago,5492998066543,3,50,sabado,lunes,"Zona ZONA SURESTE - Barrio Belgrano - Concordia, Entre Ríos, Argentina",Diego Benítez,2,5,-31.405994,-57.996221,true

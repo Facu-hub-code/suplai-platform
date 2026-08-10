@@ -1,0 +1,4 @@
+nombre,telefono,email,zona,codigo_ruta,is_mock
+Luciano Pereyra,5493455550101,luciano.pereyra@suplaisales.mock,NORTE,R01,true
+Mariana Acosta,5493455550102,mariana.acosta@suplaisales.mock,CENTRO,R02,true
+Diego Benítez,5493455550103,diego.benitez@suplaisales.mock,SUR,R03,true

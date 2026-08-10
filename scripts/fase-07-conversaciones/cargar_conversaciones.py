@@ -146,6 +146,58 @@ async def main_async(esquema: str) -> None:
                 event_params_list,
             )
 
+        # Espejo inbox backoffice: {schema}.conversations (lista UI) ↔ core por session_id/phone
+        print(f"[*] Espejando sesiones en {esquema}.conversations (inbox backoffice)...")
+        client_rows = await conn.fetch(
+            f"""
+            SELECT id, phone_number
+            FROM {esquema}.clients
+            WHERE phone_number IS NOT NULL AND phone_number <> ''
+            """
+        )
+        client_by_phone = {r["phone_number"]: r["id"] for r in client_rows}
+
+        # Rango temporal por sesión desde el CSV ya parseado
+        session_bounds: dict[str, tuple] = {}
+        for row in rows:
+            session_id = row["session_id"] or row["client_phone"]
+            created_at = parse_dt(row["created_at"])
+            prev = session_bounds.get(session_id)
+            if prev is None:
+                session_bounds[session_id] = (created_at, created_at)
+            else:
+                session_bounds[session_id] = (min(prev[0], created_at), max(prev[1], created_at))
+
+        mirrored = 0
+        skipped_no_client = 0
+        for session_id, (started_at, updated_at) in session_bounds.items():
+            client_id = client_by_phone.get(session_id)
+            if client_id is None:
+                # Intento soft-normalizado (sin +)
+                norm = session_id.lstrip("+")
+                client_id = client_by_phone.get(norm)
+            if client_id is None:
+                skipped_no_client += 1
+                continue
+            await conn.execute(
+                f"""
+                INSERT INTO {esquema}.conversations (client_id, vendedor_id, phone_number, started_at, updated_at)
+                VALUES ($1, NULL, $2, $3, $4)
+                ON CONFLICT (phone_number) DO UPDATE SET
+                    client_id = EXCLUDED.client_id,
+                    vendedor_id = NULL,
+                    started_at = LEAST({esquema}.conversations.started_at, EXCLUDED.started_at),
+                    updated_at = GREATEST({esquema}.conversations.updated_at, EXCLUDED.updated_at)
+                """,
+                client_id,
+                session_id,
+                started_at,
+                updated_at,
+            )
+            mirrored += 1
+
+        inbox_count = await conn.fetchval(f"SELECT COUNT(*) FROM {esquema}.conversations")
+
         total_rows = await conn.fetchval(
             """
             SELECT COUNT(*)
@@ -158,15 +210,20 @@ async def main_async(esquema: str) -> None:
         human_last = [s for s, (_, et) in last_event_per_session.items() if et == "user_message"]
 
         print("\n" + "=" * 72)
-        print("VERIFICACION FASE 7 - CONVERSACIONES (core)")
+        print("VERIFICACION FASE 7 - CONVERSACIONES (core + inbox schema)")
         print("=" * 72)
         print(f"  Eventos insertados:   {inserted}")
         print(f"  Eventos mock totales: {total_rows}")
-        print(f"  Sesiones mock:        {sessions}")
+        print(f"  Sesiones core:        {sessions}")
+        print(f"  Inbox schema mirror:  {mirrored} (total filas {inbox_count})")
+        if skipped_no_client:
+            print(f"  [WARN] Sesiones sin client match: {skipped_no_client}")
         print(f"  Ultimo mensaje human: {len(human_last)}")
         print("=" * 72)
         if human_last:
             print("[WARN] Hay conversaciones cuyo ultimo evento sigue siendo user_message. Revisar generacion.")
+        if mirrored < max(1, sessions - 2):
+            print("[WARN] Inbox schema tiene menos filas que sesiones core — el backoffice puede verse vacío.")
 
     except Exception as exc:
         print(f"[FAIL] Error durante la carga de conversaciones: {exc}")

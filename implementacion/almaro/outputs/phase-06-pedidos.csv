@@ -1,0 +1,158 @@
+pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
+P-00001,25001,5493587905250,Dulces y Chocolates,2026-03-01 08:00:00,confirmado,13240.66,Pedido historico mock - Dulces y Chocolates,true,false,2
+P-00002,25001,5493587905250,Dulces y Chocolates,2026-03-18 09:19:07,entregado,155696.04,Pedido historico mock - Dulces y Chocolates,true,false,2
+P-00003,25001,5493587905250,Dulces y Chocolates,2026-04-04 10:38:14,facturado,21292.27,Pedido historico mock - Dulces y Chocolates,true,false,2
+P-00004,25002,5493582641213,Galletas del Río,2026-03-08 11:11:23,entregado,46472.72,Pedido historico mock - Galletas del Río,true,false,3
+P-00005,25002,5493582641213,Galletas del Río,2026-03-25 12:30:30,facturado,11351.80,Pedido historico mock - Galletas del Río,true,false,3
+P-00006,25002,5493582641213,Galletas del Río,2026-04-11 13:49:37,confirmado,62576.62,Pedido historico mock - Galletas del Río,true,false,3
+P-00007,25003,5492991227644,Alimentos La Esperanza,2026-03-15 14:22:46,facturado,45135.44,Pedido historico mock - Alimentos La Esperanza,true,false,4
+P-00008,25003,5492991227644,Alimentos La Esperanza,2026-04-01 15:41:53,confirmado,17471.44,Pedido historico mock - Alimentos La Esperanza,true,false,4
+P-00009,25003,5492991227644,Alimentos La Esperanza,2026-04-18 16:00:00,entregado,11867.18,Pedido historico mock - Alimentos La Esperanza,true,false,4
+P-00010,25004,5493418277249,Chocorío,2026-03-22 17:33:09,confirmado,64314.22,Pedido historico mock - Chocorío,true,false,1
+P-00011,25004,5493418277249,Chocorío,2026-04-08 08:52:16,entregado,9933.80,Pedido historico mock - Chocorío,true,false,1
+P-00012,25004,5493418277249,Chocorío,2026-04-25 09:11:23,facturado,8000.24,Pedido historico mock - Chocorío,true,false,1
+P-00013,25005,5493587747641,La Golosina,2026-03-29 10:44:32,entregado,38213.18,Pedido historico mock - La Golosina,true,false,2
+P-00014,25005,5493587747641,La Golosina,2026-04-15 11:03:39,facturado,6669.06,Pedido historico mock - La Golosina,true,false,2
+P-00015,25005,5493587747641,La Golosina,2026-05-02 12:22:46,confirmado,4562.96,Pedido historico mock - La Golosina,true,false,2
+P-00016,25006,5492614053074,Dulce Sorpresa,2026-04-05 13:55:55,facturado,8899.25,Pedido historico mock - Dulce Sorpresa,true,false,3
+P-00017,25006,5492614053074,Dulce Sorpresa,2026-04-22 14:14:02,confirmado,29497.74,Pedido historico mock - Dulce Sorpresa,true,false,3
+P-00018,25006,5492614053074,Dulce Sorpresa,2026-05-09 15:33:09,entregado,69030.18,Pedido historico mock - Dulce Sorpresa,true,false,3
+P-00019,25007,5493514079279,ChocoManía,2026-04-12 16:06:18,confirmado,15851.56,Pedido historico mock - ChocoManía,true,false,4
+P-00020,25007,5493514079279,ChocoManía,2026-04-29 17:25:25,entregado,102907.43,Pedido historico mock - ChocoManía,true,false,4
+P-00021,25007,5493514079279,ChocoManía,2026-05-16 08:44:32,facturado,137203.67,Pedido historico mock - ChocoManía,true,false,4
+P-00022,25008,5493876914178,Galletitas del Sol,2026-04-19 09:17:41,entregado,46574.52,Pedido historico mock - Galletitas del Sol,true,false,1
+P-00023,25008,5493876914178,Galletitas del Sol,2026-05-06 10:36:48,facturado,94049.34,Pedido historico mock - Galletitas del Sol,true,false,1
+P-00024,25008,5493876914178,Galletitas del Sol,2026-05-23 11:55:55,confirmado,192765.71,Pedido historico mock - Galletitas del Sol,true,false,1
+P-00025,25009,5492617175545,Almacén de Golosinas,2026-04-26 12:28:04,facturado,35726.24,Pedido historico mock - Almacén de Golosinas,true,false,2
+P-00026,25009,5492617175545,Almacén de Golosinas,2026-05-13 13:47:11,confirmado,521383.22,Pedido historico mock - Almacén de Golosinas,true,false,2
+P-00027,25009,5492617175545,Almacén de Golosinas,2026-05-30 14:06:18,entregado,50532.74,Pedido historico mock - Almacén de Golosinas,true,false,2
+P-00028,25010,5493818437953,Chocolates y Más,2026-05-03 15:39:27,confirmado,3503.43,Pedido historico mock - Chocolates y Más,true,false,3
+P-00029,25010,5493818437953,Chocolates y Más,2026-05-20 16:58:34,entregado,24374.30,Pedido historico mock - Chocolates y Más,true,false,3
+P-00030,25010,5493818437953,Chocolates y Más,2026-03-06 17:17:41,facturado,39024.59,Pedido historico mock - Chocolates y Más,true,false,3
+P-00031,25011,5493582132179,La Casa de las Galletas,2026-05-10 08:50:50,entregado,55201.72,Pedido historico mock - La Casa de las Galletas,true,false,4
+P-00032,25011,5493582132179,La Casa de las Galletas,2026-05-27 09:09:57,facturado,19042.72,Pedido historico mock - La Casa de las Galletas,true,false,4
+P-00033,25011,5493582132179,La Casa de las Galletas,2026-03-13 10:28:04,confirmado,21296.60,Pedido historico mock - La Casa de las Galletas,true,false,4
+P-00034,25012,5493872845902,Dulce y Salado,2026-05-17 11:01:13,facturado,69141.31,Pedido historico mock - Dulce y Salado,true,false,1
+P-00035,25012,5493872845902,Dulce y Salado,2026-03-03 12:20:20,confirmado,8474.08,Pedido historico mock - Dulce y Salado,true,false,1
+P-00036,25012,5493872845902,Dulce y Salado,2026-03-20 13:39:27,entregado,28214.11,Pedido historico mock - Dulce y Salado,true,false,1
+P-00037,25013,5492997670210,ChocoDelicia,2026-05-24 14:12:36,confirmado,9183.99,Pedido historico mock - ChocoDelicia,true,false,2
+P-00038,25013,5492997670210,ChocoDelicia,2026-03-10 15:31:43,entregado,28256.47,Pedido historico mock - ChocoDelicia,true,false,2
+P-00039,25013,5492997670210,ChocoDelicia,2026-03-27 16:50:50,facturado,11942.18,Pedido historico mock - ChocoDelicia,true,false,2
+P-00040,25014,5493811657614,Golosinas y Snacks,2026-05-31 17:23:59,entregado,5952.66,Pedido historico mock - Golosinas y Snacks,true,false,3
+P-00041,25014,5493811657614,Golosinas y Snacks,2026-03-17 08:42:06,facturado,33918.25,Pedido historico mock - Golosinas y Snacks,true,false,3
+P-00042,25014,5493811657614,Golosinas y Snacks,2026-04-03 09:01:13,confirmado,150399.69,Pedido historico mock - Golosinas y Snacks,true,false,3
+P-00043,25015,5492994145193,El Rincón Dulce,2026-03-07 10:34:22,facturado,41715.63,Pedido historico mock - El Rincón Dulce,true,false,4
+P-00044,25015,5492994145193,El Rincón Dulce,2026-03-24 11:53:29,confirmado,33742.81,Pedido historico mock - El Rincón Dulce,true,false,4
+P-00045,25015,5492994145193,El Rincón Dulce,2026-04-10 12:12:36,entregado,35406.95,Pedido historico mock - El Rincón Dulce,true,false,4
+P-00046,25016,5493515971311,Chocolatería El Paraíso,2026-03-14 13:45:45,confirmado,105370.74,Pedido historico mock - Chocolatería El Paraíso,true,false,1
+P-00047,25016,5493515971311,Chocolatería El Paraíso,2026-03-31 14:04:52,entregado,239826.46,Pedido historico mock - Chocolatería El Paraíso,true,false,1
+P-00048,25016,5493515971311,Chocolatería El Paraíso,2026-04-17 15:23:59,facturado,327171.42,Pedido historico mock - Chocolatería El Paraíso,true,false,1
+P-00049,25017,5492994228106,La Dulcería,2026-03-21 16:56:08,entregado,14788.80,Pedido historico mock - La Dulcería,true,false,2
+P-00050,25017,5492994228106,La Dulcería,2026-04-07 17:15:15,facturado,86356.86,Pedido historico mock - La Dulcería,true,false,2
+P-00051,25017,5492994228106,La Dulcería,2026-04-24 08:34:22,confirmado,28453.10,Pedido historico mock - La Dulcería,true,false,2
+P-00052,25018,5492998718887,Galletas y Chocolates,2026-03-28 09:07:31,facturado,20260.78,Pedido historico mock - Galletas y Chocolates,true,false,3
+P-00053,25018,5492998718887,Galletas y Chocolates,2026-04-14 10:26:38,confirmado,40924.76,Pedido historico mock - Galletas y Chocolates,true,false,3
+P-00054,25018,5492998718887,Galletas y Chocolates,2026-05-01 11:45:45,entregado,39326.02,Pedido historico mock - Galletas y Chocolates,true,false,3
+P-00055,25019,5492995028869,Dulces del Campo,2026-04-04 12:18:54,confirmado,6479.52,Pedido historico mock - Dulces del Campo,true,false,4
+P-00056,25019,5492995028869,Dulces del Campo,2026-04-21 13:37:01,entregado,157803.21,Pedido historico mock - Dulces del Campo,true,false,4
+P-00057,25019,5492995028869,Dulces del Campo,2026-05-08 14:56:08,facturado,133259.03,Pedido historico mock - Dulces del Campo,true,false,4
+P-00058,25020,5493517304254,ChocoFábrica,2026-04-11 15:29:17,entregado,137886.74,Pedido historico mock - ChocoFábrica,true,false,1
+P-00059,25020,5493517304254,ChocoFábrica,2026-04-28 16:48:24,facturado,5161.14,Pedido historico mock - ChocoFábrica,true,false,1
+P-00060,25020,5493517304254,ChocoFábrica,2026-05-15 17:07:31,confirmado,16672.65,Pedido historico mock - ChocoFábrica,true,false,1
+P-00061,25021,5493416986538,Alimentos y Golosinas,2026-04-18 08:40:40,facturado,18889.68,Pedido historico mock - Alimentos y Golosinas,true,false,2
+P-00062,25021,5493416986538,Alimentos y Golosinas,2026-05-05 09:59:47,confirmado,46229.46,Pedido historico mock - Alimentos y Golosinas,true,false,2
+P-00063,25021,5493416986538,Alimentos y Golosinas,2026-05-22 10:18:54,entregado,71804.92,Pedido historico mock - Alimentos y Golosinas,true,false,2
+P-00064,25022,5492619239862,La Tienda de la Golosina,2026-04-25 11:51:03,confirmado,80937.04,Pedido historico mock - La Tienda de la Golosina,true,false,3
+P-00065,25022,5492619239862,La Tienda de la Golosina,2026-05-12 12:10:10,entregado,58193.60,Pedido historico mock - La Tienda de la Golosina,true,false,3
+P-00066,25022,5492619239862,La Tienda de la Golosina,2026-05-29 13:29:17,facturado,3585.18,Pedido historico mock - La Tienda de la Golosina,true,false,3
+P-00067,25023,5493513952681,Dulces y Snacks,2026-05-02 14:02:26,entregado,96131.05,Pedido historico mock - Dulces y Snacks,true,false,4
+P-00068,25023,5493513952681,Dulces y Snacks,2026-05-19 15:21:33,facturado,41906.12,Pedido historico mock - Dulces y Snacks,true,false,4
+P-00069,25023,5493513952681,Dulces y Snacks,2026-03-05 16:40:40,confirmado,13124.28,Pedido historico mock - Dulces y Snacks,true,false,4
+P-00070,25024,5493414799650,Chocolates Artesanales,2026-05-09 17:13:49,facturado,25274.63,Pedido historico mock - Chocolates Artesanales,true,false,1
+P-00071,25024,5493414799650,Chocolates Artesanales,2026-05-26 08:32:56,confirmado,107707.15,Pedido historico mock - Chocolates Artesanales,true,false,1
+P-00072,25024,5493414799650,Chocolates Artesanales,2026-03-12 09:51:03,entregado,48309.57,Pedido historico mock - Chocolates Artesanales,true,false,1
+P-00073,25025,5492992500733,Galletas de la Abuela,2026-05-16 10:24:12,confirmado,21385.40,Pedido historico mock - Galletas de la Abuela,true,false,2
+P-00074,25025,5492992500733,Galletas de la Abuela,2026-03-02 11:43:19,entregado,4328.97,Pedido historico mock - Galletas de la Abuela,true,false,2
+P-00075,25025,5492992500733,Galletas de la Abuela,2026-03-19 12:02:26,facturado,38005.35,Pedido historico mock - Galletas de la Abuela,true,false,2
+P-00076,25026,5492615139305,Dulce Pasión,2026-05-23 13:35:35,entregado,85751.60,Pedido historico mock - Dulce Pasión,true,false,3
+P-00077,25026,5492615139305,Dulce Pasión,2026-03-09 14:54:42,facturado,22385.54,Pedido historico mock - Dulce Pasión,true,false,3
+P-00078,25026,5492615139305,Dulce Pasión,2026-03-26 15:13:49,confirmado,4400.00,Pedido historico mock - Dulce Pasión,true,false,3
+P-00079,25027,5492618861463,ChocoRincón,2026-05-30 16:46:58,facturado,2376.12,Pedido historico mock - ChocoRincón,true,false,4
+P-00080,25027,5492618861463,ChocoRincón,2026-03-16 17:05:05,confirmado,89652.90,Pedido historico mock - ChocoRincón,true,false,4
+P-00081,25027,5492618861463,ChocoRincón,2026-04-02 08:24:12,entregado,59454.38,Pedido historico mock - ChocoRincón,true,false,4
+P-00082,25028,5493812941974,Golosinas del Barrio,2026-03-06 09:57:21,confirmado,27818.18,Pedido historico mock - Golosinas del Barrio,true,false,1
+P-00083,25028,5493812941974,Golosinas del Barrio,2026-03-23 10:16:28,entregado,8603.70,Pedido historico mock - Golosinas del Barrio,true,false,1
+P-00084,25028,5493812941974,Golosinas del Barrio,2026-04-09 11:35:35,facturado,78676.56,Pedido historico mock - Golosinas del Barrio,true,false,1
+P-00085,25029,5493817404433,Almacén de Dulces,2026-03-13 12:08:44,entregado,50255.28,Pedido historico mock - Almacén de Dulces,true,false,2
+P-00086,25029,5493817404433,Almacén de Dulces,2026-03-30 13:27:51,facturado,6245.48,Pedido historico mock - Almacén de Dulces,true,false,2
+P-00087,25029,5493817404433,Almacén de Dulces,2026-04-16 14:46:58,confirmado,59151.23,Pedido historico mock - Almacén de Dulces,true,false,2
+P-00088,25030,5493419686914,Chocolates y Galletas,2026-03-20 15:19:07,facturado,9719.90,Pedido historico mock - Chocolates y Galletas,true,false,3
+P-00089,25030,5493419686914,Chocolates y Galletas,2026-04-06 16:38:14,confirmado,63790.51,Pedido historico mock - Chocolates y Galletas,true,false,3
+P-00090,25030,5493419686914,Chocolates y Galletas,2026-04-23 17:57:21,entregado,28833.64,Pedido historico mock - Chocolates y Galletas,true,false,3
+P-00091,25031,5493518648263,Dulce Vida,2026-03-27 08:30:30,confirmado,68802.04,Pedido historico mock - Dulce Vida,true,false,4
+P-00092,25031,5493518648263,Dulce Vida,2026-04-13 09:49:37,entregado,33100.38,Pedido historico mock - Dulce Vida,true,false,4
+P-00093,25031,5493518648263,Dulce Vida,2026-04-30 10:08:44,facturado,27772.17,Pedido historico mock - Dulce Vida,true,false,4
+P-00094,25032,5493516216782,ChocoMundo,2026-04-03 11:41:53,entregado,19311.10,Pedido historico mock - ChocoMundo,true,false,1
+P-00095,25032,5493516216782,ChocoMundo,2026-04-20 12:00:00,facturado,20964.64,Pedido historico mock - ChocoMundo,true,false,1
+P-00096,25032,5493516216782,ChocoMundo,2026-05-07 13:19:07,confirmado,3975.06,Pedido historico mock - ChocoMundo,true,false,1
+P-00097,25033,5492612780568,Galletas y Más,2026-04-10 14:52:16,facturado,26922.42,Pedido historico mock - Galletas y Más,true,false,2
+P-00098,25033,5492612780568,Galletas y Más,2026-04-27 15:11:23,confirmado,25490.29,Pedido historico mock - Galletas y Más,true,false,2
+P-00099,25033,5492612780568,Galletas y Más,2026-05-14 16:30:30,entregado,136481.93,Pedido historico mock - Galletas y Más,true,false,2
+P-00100,25034,5493582639964,Dulces y Delicias,2026-04-17 17:03:39,confirmado,14920.06,Pedido historico mock - Dulces y Delicias,true,false,3
+P-00101,25034,5493582639964,Dulces y Delicias,2026-05-04 08:22:46,entregado,29556.51,Pedido historico mock - Dulces y Delicias,true,false,3
+P-00102,25034,5493582639964,Dulces y Delicias,2026-05-21 09:41:53,facturado,101563.41,Pedido historico mock - Dulces y Delicias,true,false,3
+P-00103,25035,5493814729528,Chocolatería del Río,2026-04-24 10:14:02,entregado,92793.25,Pedido historico mock - Chocolatería del Río,true,false,4
+P-00104,25035,5493814729528,Chocolatería del Río,2026-05-11 11:33:09,facturado,9561.66,Pedido historico mock - Chocolatería del Río,true,false,4
+P-00105,25035,5493814729528,Chocolatería del Río,2026-05-28 12:52:16,confirmado,5587.30,Pedido historico mock - Chocolatería del Río,true,false,4
+P-00106,25036,5493876922419,La Tienda Dulce,2026-05-01 13:25:25,facturado,496341.23,Pedido historico mock - La Tienda Dulce,true,false,1
+P-00107,25036,5493876922419,La Tienda Dulce,2026-05-18 14:44:32,confirmado,58980.20,Pedido historico mock - La Tienda Dulce,true,false,1
+P-00108,25036,5493876922419,La Tienda Dulce,2026-03-04 15:03:39,entregado,41581.70,Pedido historico mock - La Tienda Dulce,true,false,1
+P-00109,25037,5492618889598,Golosinas y Más,2026-05-08 16:36:48,confirmado,11330.77,Pedido historico mock - Golosinas y Más,true,false,2
+P-00110,25037,5492618889598,Golosinas y Más,2026-05-25 17:55:55,entregado,22078.40,Pedido historico mock - Golosinas y Más,true,false,2
+P-00111,25037,5492618889598,Golosinas y Más,2026-03-11 08:14:02,facturado,19598.77,Pedido historico mock - Golosinas y Más,true,false,2
+P-00112,25038,5492615021286,Dulce Sazón,2026-05-15 09:47:11,entregado,6216.84,Pedido historico mock - Dulce Sazón,true,false,3
+P-00113,25038,5492615021286,Dulce Sazón,2026-03-01 10:06:18,facturado,92649.57,Pedido historico mock - Dulce Sazón,true,false,3
+P-00114,25038,5492615021286,Dulce Sazón,2026-03-18 11:25:25,confirmado,50326.90,Pedido historico mock - Dulce Sazón,true,false,3
+P-00115,25039,5493813520000,ChocoLoco,2026-05-22 12:58:34,facturado,45050.45,Pedido historico mock - ChocoLoco,true,false,4
+P-00116,25039,5493813520000,ChocoLoco,2026-03-08 13:17:41,confirmado,45154.00,Pedido historico mock - ChocoLoco,true,false,4
+P-00117,25039,5493813520000,ChocoLoco,2026-03-25 14:36:48,entregado,32932.85,Pedido historico mock - ChocoLoco,true,false,4
+P-00118,25040,5492997489876,Galletas y Snacks,2026-05-29 15:09:57,confirmado,19191.39,Pedido historico mock - Galletas y Snacks,true,false,1
+P-00119,25040,5492997489876,Galletas y Snacks,2026-03-15 16:28:04,entregado,5587.30,Pedido historico mock - Galletas y Snacks,true,false,1
+P-00120,25040,5492997489876,Galletas y Snacks,2026-04-01 17:47:11,facturado,17874.95,Pedido historico mock - Galletas y Snacks,true,false,1
+P-00121,0,5492612928724,ChocoDelicias,2026-03-05 08:20:20,entregado,15355.08,Pedido historico mock - ChocoDelicias,true,false,2
+P-00122,0,5492612928724,ChocoDelicias,2026-03-22 09:39:27,facturado,55623.27,Pedido historico mock - ChocoDelicias,true,false,2
+P-00123,0,5492612928724,ChocoDelicias,2026-04-08 10:58:34,confirmado,28098.79,Pedido historico mock - ChocoDelicias,true,false,2
+P-00124,0,5492617236955,Dulce Tentación,2026-03-12 11:31:43,facturado,137998.42,Pedido historico mock - Dulce Tentación,true,false,1
+P-00125,0,5492617236955,Dulce Tentación,2026-03-29 12:50:50,confirmado,3324.78,Pedido historico mock - Dulce Tentación,true,false,1
+P-00126,0,5492617236955,Dulce Tentación,2026-04-15 13:09:57,entregado,75877.53,Pedido historico mock - Dulce Tentación,true,false,1
+P-00127,0,5492617413812,La Casa de los Dulces,2026-03-19 14:42:06,confirmado,48801.06,Pedido historico mock - La Casa de los Dulces,true,false,4
+P-00128,0,5492617413812,La Casa de los Dulces,2026-04-05 15:01:13,entregado,12243.19,Pedido historico mock - La Casa de los Dulces,true,false,4
+P-00129,0,5492617413812,La Casa de los Dulces,2026-04-22 16:20:20,facturado,1843.31,Pedido historico mock - La Casa de los Dulces,true,false,4
+P-00130,0,5492998066543,Dulces y Más,2026-03-26 17:53:29,entregado,12666.86,Pedido historico mock - Dulces y Más,true,false,3
+P-00131,0,5492998066543,Dulces y Más,2026-04-12 08:12:36,facturado,5799.18,Pedido historico mock - Dulces y Más,true,false,3
+P-00132,0,5492998066543,Dulces y Más,2026-04-29 09:31:43,confirmado,22753.67,Pedido historico mock - Dulces y Más,true,false,3
+P-00133,0,5492999435946,Galletas del Bosque,2026-04-02 10:04:52,facturado,56157.84,Pedido historico mock - Galletas del Bosque,true,false,3
+P-00134,0,5492999435946,Galletas del Bosque,2026-04-19 11:23:59,confirmado,46313.71,Pedido historico mock - Galletas del Bosque,true,false,3
+P-00135,0,5492999435946,Galletas del Bosque,2026-05-06 12:42:06,entregado,46005.40,Pedido historico mock - Galletas del Bosque,true,false,3
+P-00136,0,5493416524997,Chocolatería La Estrella,2026-04-09 13:15:15,confirmado,69939.85,Pedido historico mock - Chocolatería La Estrella,true,false,1
+P-00137,0,5493416524997,Chocolatería La Estrella,2026-04-26 14:34:22,entregado,85261.28,Pedido historico mock - Chocolatería La Estrella,true,false,1
+P-00138,0,5493416524997,Chocolatería La Estrella,2026-05-13 15:53:29,facturado,185526.66,Pedido historico mock - Chocolatería La Estrella,true,false,1
+P-00139,0,5493517632424,Dulces y Alegrías,2026-04-16 16:26:38,entregado,102945.68,Pedido historico mock - Dulces y Alegrías,true,false,4
+P-00140,0,5493517632424,Dulces y Alegrías,2026-05-03 17:45:45,facturado,144849.58,Pedido historico mock - Dulces y Alegrías,true,false,4
+P-00141,0,5493517632424,Dulces y Alegrías,2026-05-20 08:04:52,confirmado,132143.67,Pedido historico mock - Dulces y Alegrías,true,false,4
+P-00142,0,5493519107005,Dulces y Sabores,2026-04-23 09:37:01,facturado,195042.28,Pedido historico mock - Dulces y Sabores,true,false,2
+P-00143,0,5493519107005,Dulces y Sabores,2026-05-10 10:56:08,confirmado,2425.92,Pedido historico mock - Dulces y Sabores,true,false,2
+P-00144,0,5493519107005,Dulces y Sabores,2026-05-27 11:15:15,entregado,33386.00,Pedido historico mock - Dulces y Sabores,true,false,2
+P-00145,0,5493874104594,Chocolates y Galletas,2026-04-30 12:48:24,confirmado,265356.04,Pedido historico mock - Chocolates y Galletas,true,false,3
+P-00146,0,5493874104594,Chocolates y Galletas,2026-05-17 13:07:31,entregado,346658.64,Pedido historico mock - Chocolates y Galletas,true,false,3
+P-00147,0,5493874104594,Chocolates y Galletas,2026-03-03 14:26:38,facturado,17709.97,Pedido historico mock - Chocolates y Galletas,true,false,3
+P-00148,0,5493876499570,La Golosina Feliz,2026-05-07 15:59:47,entregado,135003.88,Pedido historico mock - La Golosina Feliz,true,false,2
+P-00149,0,5493876499570,La Golosina Feliz,2026-05-24 16:18:54,facturado,39955.10,Pedido historico mock - La Golosina Feliz,true,false,2
+P-00150,0,5493876499570,La Golosina Feliz,2026-03-10 17:37:01,confirmado,4324.86,Pedido historico mock - La Golosina Feliz,true,false,2
+P-00151,25004,5493418277249,Chocorío,2026-08-09 11:15:00,abierto,25747.33,Pedido abierto mock - promo Fase 2 - Chocorío,true,true,1
+P-00152,25001,5493587905250,Dulces y Chocolates,2026-08-09 11:15:13,pendiente,57752.50,Pedido abierto mock - Dulces y Chocolates,true,true,2
+P-00153,25002,5493582641213,Galletas del Río,2026-08-09 11:15:26,abierto,47180.67,Pedido abierto mock - Galletas del Río,true,true,3
+P-00154,25003,5492991227644,Alimentos La Esperanza,2026-08-09 11:15:39,pendiente,92488.71,Pedido abierto mock - Alimentos La Esperanza,true,true,4
+P-00155,25005,5493587747641,La Golosina,2026-08-09 11:15:52,abierto,8799.99,Pedido abierto mock - La Golosina,true,true,2
+P-00156,25006,5492614053074,Dulce Sorpresa,2026-08-09 11:15:05,pendiente,30082.83,Pedido abierto mock - Dulce Sorpresa,true,true,3
+P-00157,25007,5493514079279,ChocoManía,2026-08-09 11:15:18,abierto,58332.89,Pedido abierto mock - ChocoManía,true,true,4

@@ -1,0 +1,143 @@
+{
+  "dominios": "mercadolibre.com.ar,carrefour.com.ar,diaonline.com.ar,jumbo.com.ar",
+  "sufijo_fallback": "lacteo fiambre alimento argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA MORENO (ALIMENTOS, LÁCTEOS Y FIAMBRES — Concordia, Entre Ríos):\n1. Empezar con el sustantivo de categoría (Queso, Yogur, Manteca, Jamón, Aceituna, Mermelada, Aderezo, Aceite, etc.).\n2. Incluir marca cuando exista (Cremigal, Vanoli, Gullo, Centurion, Cormillot, Emeth, Fox, Tonadita, Dulcor, Knorr, Leira, Paladini, etc.).\n3. Indicar presentación/formato (kg, g, cc, frasco, doy pack, PET, lata, horma) sin marketing.\n4. Prohibido: delicioso, ideal, perfecto, descubre, disfruta, rotación, márgenes, kiosco.\n5. Alias: incluir marca corta, tipo de producto y variantes locales (ej. 'dulce de leche cremigal', 'aceituna vanoli', 'mayonesa danica').",
+  "red_comercial": {
+    "coordenadas_centro": [
+      -31.3928,
+      -58.017
+    ],
+    "vendedores": [
+      {
+        "nombre": "Luciano Pereyra",
+        "telefono": "5493455550101",
+        "email": "luciano.pereyra@suplaisales.mock",
+        "zona": "NORTE",
+        "codigo_ruta": "R01"
+      },
+      {
+        "nombre": "Mariana Acosta",
+        "telefono": "5493455550102",
+        "email": "mariana.acosta@suplaisales.mock",
+        "zona": "CENTRO",
+        "codigo_ruta": "R02"
+      },
+      {
+        "nombre": "Diego Benítez",
+        "telefono": "5493455550103",
+        "email": "diego.benitez@suplaisales.mock",
+        "zona": "SUR",
+        "codigo_ruta": "R03"
+      }
+    ],
+    "zonas": [
+      {
+        "nombre": "ZONA NORTE - Villa Adela",
+        "dia_visita": "lunes",
+        "color": "#E74C3C",
+        "codigo_ruta": "R01-A",
+        "zone_type": "sales",
+        "description": "Villa Adela y accesos norte de Concordia.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA NORESTE - Salto Grande",
+        "dia_visita": "martes",
+        "color": "#3498DB",
+        "codigo_ruta": "R01-B",
+        "zone_type": "route",
+        "description": "Zona Salto Grande y costanera del río Uruguay.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA CENTRO - Microcentro",
+        "dia_visita": "miercoles",
+        "color": "#2ECC71",
+        "codigo_ruta": "R02-A",
+        "zone_type": "sales",
+        "description": "Centro comercial de Concordia (San Martín / Entre Ríos).",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA OESTE - Laguna del Junco",
+        "dia_visita": "jueves",
+        "color": "#F39C12",
+        "codigo_ruta": "R02-B",
+        "zone_type": "route",
+        "description": "Laguna del Junco y barrios oeste.",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA SUR - Villa Zorraquín",
+        "dia_visita": "viernes",
+        "color": "#9B59B6",
+        "codigo_ruta": "R03-A",
+        "zone_type": "sales",
+        "description": "Villa Zorraquín y acceso sur.",
+        "vendedor_idx": 2
+      },
+      {
+        "nombre": "ZONA SURESTE - Barrio Belgrano",
+        "dia_visita": "sabado",
+        "color": "#1ABC9C",
+        "codigo_ruta": "R03-B",
+        "zone_type": "route",
+        "description": "Barrio Belgrano y zona sureste.",
+        "vendedor_idx": 2
+      }
+    ],
+    "nombres_comerciales": [
+      "Almacén Don Julio",
+      "Despensa La Costanera",
+      "Fiambrería El Paraná",
+      "Minimarket Concordia Sur",
+      "Autoservicio Salto Grande",
+      "Proveeduría Villa Adela",
+      "Almacén Los Naranjos",
+      "Rotisería Uruguay",
+      "Despensa San Martín",
+      "Fiambrería Cremigal Express",
+      "Minimarket Laguna del Junco",
+      "Almacén El Puente",
+      "Autoservicio Belgrano",
+      "Proveeduría Zorraquín",
+      "Despensa Centro Este",
+      "Fiambrería Paladini Point",
+      "Almacén Doña Rosa",
+      "Minimarket Río Uruguay",
+      "Rotisería Concordia",
+      "Autoservicio Av. San Martín",
+      "Despensa Barrio Norte",
+      "Fiambrería Fox Express",
+      "Almacén Tres Esquinas",
+      "Proveeduría El Faro",
+      "Minimarket Villa Nueva",
+      "Autoservicio Costanera",
+      "Despensa La Estación",
+      "Fiambrería La Paulina Sur",
+      "Almacén Los Álamos",
+      "Rotisería Entre Ríos",
+      "Minimarket Salto",
+      "Proveeduría Microcentro",
+      "Autoservicio Junco",
+      "Despensa Parque",
+      "Fiambrería Unión Quesos",
+      "Almacén El Progreso",
+      "Minimarket Las Palmas",
+      "Proveeduría Ruta 14",
+      "Autoservicio Colinas",
+      "Despensa Barrio Sur",
+      "Fiambrería Bierzo",
+      "Almacén Doña Marta",
+      "Minimarket San Antonio",
+      "Proveeduría Costa Sur",
+      "Autoservicio El Mirador",
+      "Despensa La Ribera",
+      "Fiambrería Spalen",
+      "Almacén Los Pinos",
+      "Rotisería El Trébol",
+      "Minimarket Villa del Lago"
+    ]
+  }
+}

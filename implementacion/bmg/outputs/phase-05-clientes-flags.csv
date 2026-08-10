@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493435770487,Juguetería La Esquina 1,25001,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435246316,Blanquería La Costanera 2,25002,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435191161,Multirubro Aura 3,25003,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435343962,Proveeduría Este 4,25004,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435781453,Blanquería Alta 5,25005,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435391704,Accesorios El Centro 6,25006,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435543143,Variedades Del Parque 7,25007,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435452944,Juguetería San Martín 8,25008,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435460663,Multirubro Familiar 9,25009,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435662275,Juguetería Luna 10,25010,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435759176,Multirubro Sol 11,25011,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435148050,Librería Nuevo Día 12,25012,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435996865,Mercería La Costanera 13,25013,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435974628,Variedades Caputto 14,25014,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435379946,Blanquería Mayorista 15,25015,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435279451,Proveeduría Open 16,25016,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435383060,Librería Mini 17,25017,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435983794,Accesorios Point 18,25018,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435944151,Variedades Estrella 19,25019,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435694731,Blanquería Santa Fe 20,25020,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435774079,Revendedora Urquiza 21,25021,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435688637,Proveeduría Familiar 22,25022,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435711878,Emprendimiento Sol 23,25023,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435634277,Revendedora San Martín 24,25024,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435260265,Librería Caputto 25,25025,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435166613,Emprendimiento Luna 26,25026,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435363626,Proveeduría El Centro 27,25027,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435663054,Accesorios Del Parque 28,25028,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435407757,Emprendimiento Caputto 29,25029,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435854639,Boutique Dos 30,25030,validado,2026-08-09T13:52:31.031667+00:00,,false
+5493435211579,Todo Hogar Central 31,25031,existente,,,false
+5493435738551,Mercería Urquiza 32,25032,existente,,,false
+5493435916449,Proveeduría El Centro 33,25033,existente,,,false
+5493435217301,Variedades El Progreso 34,25034,existente,,,false
+5493435694916,Juguetería San Martín 35,25035,existente,,,false
+5493435897549,Proveeduría Point 36,25036,existente,,,false
+5493435676510,Kiosco Familiar 37,25037,existente,,,false
+5493435322086,Proveeduría Shop 38,25038,existente,,,false
+5493435426858,Emprendimiento Popular 39,25039,existente,,,false
+5493435642717,Revendedora Paraná Norte 40,25040,existente,,,false
+5493435122056,Multirubro Baja 41,0,no_validado,,PROSPECTO,true
+5493435174441,Blanquería Central 42,0,existente,,PROSPECTO,true
+5493435132938,Todo Hogar Entre Ríos 43,0,no_validado,,PROSPECTO,true
+5493435801474,Revendedora La Riviera 44,0,existente,,PROSPECTO,true
+5493435698782,Multirubro Max 45,0,no_validado,,PROSPECTO,true
+5493435526833,Mercería La Costanera 46,0,validado,2026-08-09T13:52:31.031667+00:00,PROSPECTO,true
+5493435544154,Emprendimiento Plus 47,0,no_existente,,PROSPECTO,true
+5493435785197,Librería La Costanera 48,0,no_validado,,PROSPECTO,true
+5493435939482,Todo Hogar La Costanera 49,0,existente,,PROSPECTO,true
+5493435570405,Kiosco Aura 50,0,no_validado,,PROSPECTO,true

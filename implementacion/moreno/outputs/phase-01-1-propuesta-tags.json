@@ -1,0 +1,6315 @@
+{
+  "schema": "moreno",
+  "products": [
+    {
+      "product_code": "1",
+      "nombre": "Pepinillos Agridulces 330 G GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Vegetales en Conserva",
+        "4": "Pepinillos Agridulces"
+      }
+    },
+    {
+      "product_code": "2",
+      "nombre": "Aceitunas Verdes PET T0 1500g GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Verdes"
+      }
+    },
+    {
+      "product_code": "3",
+      "nombre": "Aceitunas Negras PET T1 1500g GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Negras"
+      }
+    },
+    {
+      "product_code": "4",
+      "nombre": "Aceitunas Verdes Balde 8000g T0 GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Verdes"
+      }
+    },
+    {
+      "product_code": "5",
+      "nombre": "Aceituna Rellena T0 PET 1500g GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Rellena"
+      }
+    },
+    {
+      "product_code": "6",
+      "nombre": "Aceitunas Garrafa Desc. 7000g T1 GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Garrafa"
+      }
+    },
+    {
+      "product_code": "7",
+      "nombre": "Aceitunas Garrafa Rebanada 7000g GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Garrafa Rebanada"
+      }
+    },
+    {
+      "product_code": "8",
+      "nombre": "Aceitunas Garrafa T0 7000g GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas"
+      }
+    },
+    {
+      "product_code": "9",
+      "nombre": "Esencia de Vainilla EMETH 120cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Esencias y Extractos",
+        "3": "Esencias",
+        "4": "Esencia de Vainilla"
+      }
+    },
+    {
+      "product_code": "10",
+      "nombre": "Aceite de Oliva Extra Virgen 500cc GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceite de Oliva",
+        "4": "Aceite de Oliva Extra Virgen"
+      }
+    },
+    {
+      "product_code": "14",
+      "nombre": "Bizcochuelo Chocolate Emeth 450G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Bizcochuelos",
+        "4": "Bizcochuelo de Chocolate"
+      }
+    },
+    {
+      "product_code": "15",
+      "nombre": "Mayonesa Mayodan 2900 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "16",
+      "nombre": "Gelatina Anana VIT Emeth 70G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas de Frutas",
+        "4": "Gelatina de Ananá"
+      }
+    },
+    {
+      "product_code": "17",
+      "nombre": "Aceitunas Garrafa T2 7000g GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas"
+      }
+    },
+    {
+      "product_code": "18",
+      "nombre": "Bondiola Fox",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Bondiola",
+        "4": "Bondiola"
+      }
+    },
+    {
+      "product_code": "23",
+      "nombre": "Crema Chantilly Tonadita 250G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Crema",
+        "3": "Crema",
+        "4": "Crema Chantilly"
+      }
+    },
+    {
+      "product_code": "24",
+      "nombre": "Dulce de Leche CORPLAY REP 3 KG",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulce de Leche",
+        "4": "Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "25",
+      "nombre": "Morcillon FOX KG",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Fiambres",
+        "3": "Fiambre",
+        "4": "Morcillon"
+      }
+    },
+    {
+      "product_code": "26",
+      "nombre": "Tonadita Dip 180 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Dip",
+        "4": "Dip"
+      }
+    },
+    {
+      "product_code": "30",
+      "nombre": "Cremette Tonadita 290G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Crema",
+        "3": "Crema",
+        "4": "Cremette"
+      }
+    },
+    {
+      "product_code": "31",
+      "nombre": "Crema de Leche TONADITA 200cc",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Crema",
+        "3": "Crema",
+        "4": "Crema de Leche"
+      }
+    },
+    {
+      "product_code": "32",
+      "nombre": "Crema de Leche Cremigal Pouch 3,5 KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Crema",
+        "3": "Crema de Leche",
+        "4": "Crema de Leche"
+      }
+    },
+    {
+      "product_code": "33",
+      "nombre": "Crema de Leche Ramolac 200 G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Crema",
+        "3": "Crema de Leche",
+        "4": "Crema de Leche"
+      }
+    },
+    {
+      "product_code": "34",
+      "nombre": "Crema en Pouch Ramolac 3 KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Crema",
+        "3": "Crema",
+        "4": "Crema"
+      }
+    },
+    {
+      "product_code": "35",
+      "nombre": "Crema de Leche Ramolac 350 G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Crema",
+        "3": "Crema de Leche",
+        "4": "Crema de Leche"
+      }
+    },
+    {
+      "product_code": "37",
+      "nombre": "Crema de Leche Cremigal 190 G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Crema",
+        "3": "Crema de Leche",
+        "4": "Crema de Leche"
+      }
+    },
+    {
+      "product_code": "39",
+      "nombre": "Dulce de Batata 5 KG DULCOR",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulces de Fruta",
+        "4": "Dulce de Batata"
+      }
+    },
+    {
+      "product_code": "41",
+      "nombre": "Dulce de Batata c/Choc 5 KG DULCOR",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulces de Leche",
+        "4": "Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "43",
+      "nombre": "Dulce de Leche Cremigal Familiar 1 KG",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulce de Leche",
+        "4": "Dulce de Leche Cremigal Familiar"
+      }
+    },
+    {
+      "product_code": "44",
+      "nombre": "Dulce de Leche Cremigal Familiar 250 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulces de Leche",
+        "4": "Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "45",
+      "nombre": "Dulce de Leche Cremigal Familiar 5 KG",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulces de Leche",
+        "4": "Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "46",
+      "nombre": "Dulce de Leche Cremigal Familiar 400 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulces de Leche",
+        "4": "Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "48",
+      "nombre": "Aceitunas Rellenas Balde 8000g T0",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Rellenas"
+      }
+    },
+    {
+      "product_code": "50",
+      "nombre": "Dulce de Membrillo 5 KG DULCOR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Dulces de Fruta",
+        "4": "Dulce de Membrillo"
+      }
+    },
+    {
+      "product_code": "54",
+      "nombre": "Flan Vitaminizado EMETH 60g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Postres",
+        "4": "Flan Vitaminizado"
+      }
+    },
+    {
+      "product_code": "56",
+      "nombre": "Flan Cremigal",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Postres",
+        "4": "Flan"
+      }
+    },
+    {
+      "product_code": "62",
+      "nombre": "Jamon Cocido E. Negra FOX KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Jamon",
+        "4": "Jamon Cocido"
+      }
+    },
+    {
+      "product_code": "63",
+      "nombre": "Jamon Cocido FOX KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Jamon",
+        "4": "Jamon Cocido"
+      }
+    },
+    {
+      "product_code": "64",
+      "nombre": "Jamon Crudo FOX KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Jamon",
+        "4": "Jamon Crudo"
+      }
+    },
+    {
+      "product_code": "65",
+      "nombre": "Jamon Crudo BEIGE KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Jamon",
+        "4": "Jamon Crudo"
+      }
+    },
+    {
+      "product_code": "66",
+      "nombre": "Jamon Crudo Alba Horma",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Jamon",
+        "4": "Jamon Crudo"
+      }
+    },
+    {
+      "product_code": "67",
+      "nombre": "Jamon Crudo 1193 PREMIUM",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Jamon",
+        "4": "Jamon Crudo"
+      }
+    },
+    {
+      "product_code": "68",
+      "nombre": "Leche Sachet Cremigal Entera 1 Lts",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Leches",
+        "4": "Leche Entera"
+      }
+    },
+    {
+      "product_code": "69",
+      "nombre": "Queso Patagonia Clasico 180G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Clasico"
+      }
+    },
+    {
+      "product_code": "72",
+      "nombre": "Levadura Levex Seca 2x 10 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Levaduras",
+        "3": "Levaduras Secas",
+        "4": "Levadura Seca"
+      }
+    },
+    {
+      "product_code": "74",
+      "nombre": "Levadura Cubo Golondrina 50 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Levaduras",
+        "3": "Levaduras Secas",
+        "4": "Levadura Cubo"
+      }
+    },
+    {
+      "product_code": "75",
+      "nombre": "Lomo Ahumado FOX KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Lomo Ahumado"
+      }
+    },
+    {
+      "product_code": "76",
+      "nombre": "Longaniza Baston FOX KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Longaniza"
+      }
+    },
+    {
+      "product_code": "77",
+      "nombre": "Levadura Para Leva 500 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Levaduras",
+        "3": "Levaduras Secas",
+        "4": "Levadura para Leva"
+      }
+    },
+    {
+      "product_code": "78",
+      "nombre": "Grasa vacuna ESANI 500g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Grasas y Aceites",
+        "3": "Grasas",
+        "4": "Grasa Vacuna"
+      }
+    },
+    {
+      "product_code": "79",
+      "nombre": "Levadura Cubo CALSA 50g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Levaduras",
+        "3": "Levaduras Secas",
+        "4": "Levadura"
+      }
+    },
+    {
+      "product_code": "81",
+      "nombre": "Manteca Ramolac 100 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Grasas y Aceites",
+        "3": "Mantecas",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "83",
+      "nombre": "Manteca 100G CREMIGAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Grasas y Aceites",
+        "3": "Mantecas",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "84",
+      "nombre": "Manteca Cotampo 100g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Grasas y Aceites",
+        "3": "Mantecas",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "85",
+      "nombre": "Manteca Ramolac 200 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Grasas y Aceites",
+        "3": "Mantecas",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "86",
+      "nombre": "Margarina MYB La Cordobesa 1 Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Grasas y Aceites",
+        "3": "Margarinas",
+        "4": "Margarina"
+      }
+    },
+    {
+      "product_code": "88",
+      "nombre": "Margarina Soft Light 200 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Grasas y Aceites",
+        "3": "Margarinas",
+        "4": "Margarina"
+      }
+    },
+    {
+      "product_code": "89",
+      "nombre": "Danica Dorada Pote 200 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Lácteos",
+        "4": "Lácteo"
+      }
+    },
+    {
+      "product_code": "90",
+      "nombre": "Mermelada Vidrio DURAZNO Dulcor 454G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Mermeladas",
+        "4": "Mermelada"
+      }
+    },
+    {
+      "product_code": "96",
+      "nombre": "Arrollado de Pollo FOX",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frías",
+        "3": "Carnes Frías",
+        "4": "Arrollado de Pollo"
+      }
+    },
+    {
+      "product_code": "97",
+      "nombre": "Matambre de Carne FOX",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frías",
+        "3": "Carnes Frías",
+        "4": "Matambre de Carne"
+      }
+    },
+    {
+      "product_code": "98",
+      "nombre": "Mortadela Bocha FOX A/V",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frías",
+        "3": "Carnes Frías",
+        "4": "Mortadela"
+      }
+    },
+    {
+      "product_code": "99",
+      "nombre": "Mortadela Bolognia Fox",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frías",
+        "3": "Carnes Frías",
+        "4": "Mortadela"
+      }
+    },
+    {
+      "product_code": "100",
+      "nombre": "Ajies Guindilla 200 G GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Vegetales en Conserva",
+        "4": "Ajies Guindilla"
+      }
+    },
+    {
+      "product_code": "103",
+      "nombre": "PALETA AZUL GOGGI KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Paleta"
+      }
+    },
+    {
+      "product_code": "104",
+      "nombre": "Mortadela Paladini 2,5 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Mortadela"
+      }
+    },
+    {
+      "product_code": "105",
+      "nombre": "Mortadela Paladini 4,5 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Mortadela"
+      }
+    },
+    {
+      "product_code": "106",
+      "nombre": "Aceitunas Verdes Desc. PET T1 1500G Gullo",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Verdes"
+      }
+    },
+    {
+      "product_code": "108",
+      "nombre": "Aceituna Garrafa T1 7000g GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Garrafa"
+      }
+    },
+    {
+      "product_code": "109",
+      "nombre": "Mermelada Pote DURAZNO Dulcor 500G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Durazno"
+      }
+    },
+    {
+      "product_code": "110",
+      "nombre": "Aceite de Oliva Extra Virgen 250cc GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceite de Oliva",
+        "4": "Aceite de Oliva Extra Virgen"
+      }
+    },
+    {
+      "product_code": "111",
+      "nombre": "Paleta Barrilito FOX KG",
+      "tags": {
+        "1": "Carnes",
+        "2": "Embutidos",
+        "3": "Paletas",
+        "4": "Paleta Barrilito"
+      }
+    },
+    {
+      "product_code": "113",
+      "nombre": "Paleta Especial Fox Cuadrada",
+      "tags": {
+        "1": "Carnes",
+        "2": "Embutidos",
+        "3": "Paletas",
+        "4": "Paleta Especial"
+      }
+    },
+    {
+      "product_code": "114",
+      "nombre": "Paleta Sandwichera Fox",
+      "tags": {
+        "1": "Carnes",
+        "2": "Embutidos",
+        "3": "Paletas",
+        "4": "Paleta Sandwichera"
+      }
+    },
+    {
+      "product_code": "115",
+      "nombre": "Panceta Ahumada Fox",
+      "tags": {
+        "1": "Carnes",
+        "2": "Embutidos",
+        "3": "Pancetas",
+        "4": "Panceta Ahumada"
+      }
+    },
+    {
+      "product_code": "117",
+      "nombre": "Manteca Tonadita 100 G",
+      "tags": {
+        "1": "Grasas",
+        "2": "Mantecas",
+        "3": "Mantecas",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "118",
+      "nombre": "Manteca Tonadita 200 G",
+      "tags": {
+        "1": "Grasas",
+        "2": "Mantecas",
+        "3": "Mantecas",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "120",
+      "nombre": "Queso Mascarpone TONADITA 200g",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Frescos",
+        "4": "Queso Mascarpone"
+      }
+    },
+    {
+      "product_code": "121",
+      "nombre": "Manteca Tonadita 500G",
+      "tags": {
+        "1": "Grasas",
+        "2": "Mantecas",
+        "3": "Mantecas",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "123",
+      "nombre": "Pasta de Aceituna Verde 200g GULLO",
+      "tags": {
+        "1": "Conservas",
+        "2": "Pasta de Aceituna",
+        "3": "Pasta de Aceituna Verde",
+        "4": "Pasta de Aceituna Verde"
+      }
+    },
+    {
+      "product_code": "125",
+      "nombre": "Postre CREMIGAL Vainilla 125G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Postres",
+        "3": "Postres en Vasito",
+        "4": "Postre Vainilla"
+      }
+    },
+    {
+      "product_code": "126",
+      "nombre": "Postre VIT Vainilla Emeth 120g",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Postres",
+        "3": "Postres en Vasito",
+        "4": "Postre Vainilla"
+      }
+    },
+    {
+      "product_code": "127",
+      "nombre": "Duraznos en Almibar 800G",
+      "tags": {
+        "1": "Conservas",
+        "2": "Frutas en Almibar",
+        "3": "Frutas en Almibar",
+        "4": "Duraznos en Almibar"
+      }
+    },
+    {
+      "product_code": "128",
+      "nombre": "Porotos Condimentados 330G GULLO",
+      "tags": {
+        "1": "Conservas",
+        "2": "Legumbres",
+        "3": "Legumbres Condimentadas",
+        "4": "Porotos Condimentados"
+      }
+    },
+    {
+      "product_code": "132",
+      "nombre": "Mermelada Light DURAZNO CORMILLOT 390G",
+      "tags": {
+        "1": "Conservas",
+        "2": "Mermeladas",
+        "3": "Mermeladas Light",
+        "4": "Mermelada Light Durazno"
+      }
+    },
+    {
+      "product_code": "133",
+      "nombre": "Queso Azul La Quesera Horma",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Azules",
+        "4": "Queso Azul"
+      }
+    },
+    {
+      "product_code": "136",
+      "nombre": "Queso Barra Cremigal x KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Frescos",
+        "4": "Queso Barra"
+      }
+    },
+    {
+      "product_code": "143",
+      "nombre": "Queso Cremoso Arroyo Cabral x KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Cremoso"
+      }
+    },
+    {
+      "product_code": "144",
+      "nombre": "Queso Cremoso Cremigal x KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Cremoso"
+      }
+    },
+    {
+      "product_code": "147",
+      "nombre": "Queso Cremoso La Varense kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Cremoso"
+      }
+    },
+    {
+      "product_code": "148",
+      "nombre": "Queso PROCESADO VICENTIA KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos Procesados",
+        "4": "Queso Procesado"
+      }
+    },
+    {
+      "product_code": "150",
+      "nombre": "Queso Fynbo Real Arroyo Cabral",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Fynbo"
+      }
+    },
+    {
+      "product_code": "151",
+      "nombre": "Queso Fontina Varense x Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Fontina"
+      }
+    },
+    {
+      "product_code": "152",
+      "nombre": "Queso Pategras Cremigal x Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Pategras"
+      }
+    },
+    {
+      "product_code": "154",
+      "nombre": "Queso Holanda La Varense x KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Holanda"
+      }
+    },
+    {
+      "product_code": "156",
+      "nombre": "Queso Mozzarella Cremigal Barra x KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Mozzarella Barra"
+      }
+    },
+    {
+      "product_code": "157",
+      "nombre": "Queso Gouda Cremigal Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Gouda"
+      }
+    },
+    {
+      "product_code": "158",
+      "nombre": "Queso Reggianito La Quesera",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Reggianito"
+      }
+    },
+    {
+      "product_code": "160",
+      "nombre": "Mini Fynbo x KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Mini Fynbo"
+      }
+    },
+    {
+      "product_code": "161",
+      "nombre": "Queso Provoleta La Quesera x Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Provoleta"
+      }
+    },
+    {
+      "product_code": "162",
+      "nombre": "Queso Sardo KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Sardo"
+      }
+    },
+    {
+      "product_code": "165",
+      "nombre": "Ralladito Quesera 40 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Ralladito Quesera"
+      }
+    },
+    {
+      "product_code": "166",
+      "nombre": "Queso Criollo Cremigal KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Criollo"
+      }
+    },
+    {
+      "product_code": "167",
+      "nombre": "Leberwust FOX",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Leberwurst"
+      }
+    },
+    {
+      "product_code": "168",
+      "nombre": "Salame Baston Fox Picado Fino",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Salame Bastón Picado Fino"
+      }
+    },
+    {
+      "product_code": "169",
+      "nombre": "Salame Milan Fox",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Salame Milan"
+      }
+    },
+    {
+      "product_code": "170",
+      "nombre": "Salamin Fox Tira Picado Fino",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Salamin Tira Picado Fino"
+      }
+    },
+    {
+      "product_code": "171",
+      "nombre": "Salame Milan 201",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Salame Milan"
+      }
+    },
+    {
+      "product_code": "173",
+      "nombre": "Salchicha Fela x 6u 190 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salchichas",
+        "4": "Salchicha Fela"
+      }
+    },
+    {
+      "product_code": "174",
+      "nombre": "Salchicha Paladini x 6u 220 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salchichas",
+        "4": "Salchicha Paladini"
+      }
+    },
+    {
+      "product_code": "175",
+      "nombre": "Salchichas Carcaraña x 6u 190 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salchichas",
+        "4": "Salchichas Carcaraña"
+      }
+    },
+    {
+      "product_code": "178",
+      "nombre": "Salchichon C/Jamon Fox",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salchichones",
+        "4": "Salchichón con Jamón"
+      }
+    },
+    {
+      "product_code": "179",
+      "nombre": "Queso Rallado TREMBLAY 40g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Rallado"
+      }
+    },
+    {
+      "product_code": "181",
+      "nombre": "Salchichon Primavera Fox",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salchichones",
+        "4": "Salchichón Primavera"
+      }
+    },
+    {
+      "product_code": "185",
+      "nombre": "Tapa Empanada La Mocita Freir Hojaldre 330 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Masas",
+        "4": "Tapa Empanada"
+      }
+    },
+    {
+      "product_code": "187",
+      "nombre": "Tapa Pascualina La Mocita Hojaldre",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Masas",
+        "4": "Tapa Pascualina"
+      }
+    },
+    {
+      "product_code": "188",
+      "nombre": "Tapa Rotisera La Mocita 600 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Masas",
+        "4": "Tapa Rotisera"
+      }
+    },
+    {
+      "product_code": "191",
+      "nombre": "Gelatina Cremigal Frutilla 110g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas de Frutas",
+        "4": "Gelatina Cremigal de Frutilla"
+      }
+    },
+    {
+      "product_code": "192",
+      "nombre": "Yogur c/aritos Vainilla Cremigal 150G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur con Aritos de Vainilla"
+      }
+    },
+    {
+      "product_code": "193",
+      "nombre": "Yogur c/cereal Vainilla Cremigal 153G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur con Cereal de Vainilla"
+      }
+    },
+    {
+      "product_code": "194",
+      "nombre": "OFERTA CAJA MANTECA TONx20u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Mantecas",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "195",
+      "nombre": "Yogur Bebible Cremigal Vainilla 900g",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Yogures",
+        "3": "Yogur Bebible",
+        "4": "Yogur Bebible Sabor Vainilla"
+      }
+    },
+    {
+      "product_code": "196",
+      "nombre": "Yogur c/Frutilla Cremigal 150 G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Yogures",
+        "3": "Yogur en Porción",
+        "4": "Yogur Sabor Frutilla"
+      }
+    },
+    {
+      "product_code": "197",
+      "nombre": "Yogur Colchon de Frutillas RAMOLAC 160g",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Yogures",
+        "3": "Yogur en Porción",
+        "4": "Yogur Sabor Frutilla"
+      }
+    },
+    {
+      "product_code": "198",
+      "nombre": "Yogur Vasito Cremigal Vainilla 120G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Yogures",
+        "3": "Yogur en Vasito",
+        "4": "Yogur Sabor Vainilla"
+      }
+    },
+    {
+      "product_code": "199",
+      "nombre": "Yogur Natural Cremigal 170g",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Yogures",
+        "3": "Yogur Natural",
+        "4": "Yogur Natural"
+      }
+    },
+    {
+      "product_code": "201",
+      "nombre": "Queso Untable Cremigal Azul 190g",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso Untable",
+        "4": "Queso Untable Sabor Azul"
+      }
+    },
+    {
+      "product_code": "202",
+      "nombre": "Queso Untable Tonadita Clasico 180G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso Untable",
+        "4": "Queso Untable Sabor Clásico"
+      }
+    },
+    {
+      "product_code": "204",
+      "nombre": "Queso Por Salut Cremigal KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Queso Por Salut"
+      }
+    },
+    {
+      "product_code": "205",
+      "nombre": "Queso Por Salut Cremigal Sin Sal KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Queso Por Salut Sin Sal"
+      }
+    },
+    {
+      "product_code": "206",
+      "nombre": "Queso Por Salut Cremigal Light KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Queso Por Salut Light"
+      }
+    },
+    {
+      "product_code": "207",
+      "nombre": "Edulcorante Liquido Emeth 250cc",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Edulcorantes",
+        "3": "Edulcorante",
+        "4": "Edulcorante Líquido"
+      }
+    },
+    {
+      "product_code": "208",
+      "nombre": "Grasa Marcrem 1 KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Grasas",
+        "3": "Grasa",
+        "4": "Grasa"
+      }
+    },
+    {
+      "product_code": "209",
+      "nombre": "Grasa Marcrem 500 G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Grasas",
+        "3": "Grasa",
+        "4": "Grasa"
+      }
+    },
+    {
+      "product_code": "210",
+      "nombre": "Aderezo Salsa Golf 220G DANICA",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Aderezos",
+        "3": "Aderezo",
+        "4": "Aderezo Salsa Golf"
+      }
+    },
+    {
+      "product_code": "213",
+      "nombre": "Aderezo Mostaza Danica 60 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Aderezos",
+        "3": "Aderezo",
+        "4": "Aderezo Mostaza"
+      }
+    },
+    {
+      "product_code": "214",
+      "nombre": "Mayonesa Fiesta 100 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Aderezos",
+        "3": "Aderezo",
+        "4": "Aderezo Mayonesa"
+      }
+    },
+    {
+      "product_code": "215",
+      "nombre": "Aderezo Ketchup 50g DANICA",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Aderezos",
+        "3": "Aderezo",
+        "4": "Aderezo Ketchup"
+      }
+    },
+    {
+      "product_code": "218",
+      "nombre": "Aceitunas Rebanadas Pote 3000g GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Rebanadas"
+      }
+    },
+    {
+      "product_code": "219",
+      "nombre": "Chipa Sin TACC 250 G Emeth",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Chipa",
+        "4": "Chipa Sin TACC"
+      }
+    },
+    {
+      "product_code": "220",
+      "nombre": "Manteca Tonadita 2,5 KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Mantecas",
+        "3": "Manteca",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "228",
+      "nombre": "Aceto Balsamico 250cc GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Aceto",
+        "4": "Aceto Balsámico"
+      }
+    },
+    {
+      "product_code": "240",
+      "nombre": "Provoleta x2 Arroyo Cabral KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Provoleta"
+      }
+    },
+    {
+      "product_code": "241",
+      "nombre": "Paleta DON OTTO Horma",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Fiambres",
+        "3": "Fiambre",
+        "4": "Paleta"
+      }
+    },
+    {
+      "product_code": "243",
+      "nombre": "Fiambre Cocido Pata de Cerdo RECREO Horma",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Fiambres",
+        "3": "Fiambre",
+        "4": "Fiambre Cocido Pata de Cerdo"
+      }
+    },
+    {
+      "product_code": "245",
+      "nombre": "Mortadela Bolognia A/V RECREO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Fiambres",
+        "3": "Fiambre",
+        "4": "Mortadela"
+      }
+    },
+    {
+      "product_code": "246",
+      "nombre": "Salchicha DON OTTO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Fiambres",
+        "3": "Fiambre",
+        "4": "Salchicha"
+      }
+    },
+    {
+      "product_code": "247",
+      "nombre": "Salame Milan RECREO Horma",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Fiambres",
+        "3": "Fiambre",
+        "4": "Salame"
+      }
+    },
+    {
+      "product_code": "253",
+      "nombre": "Tonadita CHEDDAR 8 Fetas",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Queso Cheddar"
+      }
+    },
+    {
+      "product_code": "255",
+      "nombre": "Salsa Cheddar Tonadita Americano 3 Kg",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Salsas",
+        "3": "Salsa",
+        "4": "Salsa Cheddar"
+      }
+    },
+    {
+      "product_code": "260",
+      "nombre": "Jamon Natural con Cuero FOX KG",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Fiambres",
+        "3": "Fiambre",
+        "4": "Jamon Natural"
+      }
+    },
+    {
+      "product_code": "263",
+      "nombre": "Queso Holanda Arroyo Cabral HORMA",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Queso Holanda"
+      }
+    },
+    {
+      "product_code": "264",
+      "nombre": "Queso Romanito Arroyo Cabral HORMA",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Queso Romanito"
+      }
+    },
+    {
+      "product_code": "268",
+      "nombre": "Margadan Pan 200 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Pan",
+        "4": "Pan"
+      }
+    },
+    {
+      "product_code": "270",
+      "nombre": "Queso Patagonia Clasico 290G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Queso Patagonia"
+      }
+    },
+    {
+      "product_code": "271",
+      "nombre": "Aceite Girasol 900 LEIRA",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Aceites",
+        "3": "Aceite",
+        "4": "Aceite de Girasol"
+      }
+    },
+    {
+      "product_code": "272",
+      "nombre": "Pure de Papas KNORR 125G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Preparados",
+        "3": "Puré",
+        "4": "Puré de Papas"
+      }
+    },
+    {
+      "product_code": "273",
+      "nombre": "Mermelada EMETH Pote DURAZNO 500G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Mermeladas",
+        "3": "Mermelada",
+        "4": "Mermelada Sabor Durazno"
+      }
+    },
+    {
+      "product_code": "275",
+      "nombre": "Jamon Cocido 201 KG",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Fiambres",
+        "3": "Fiambre",
+        "4": "Jamon Cocido"
+      }
+    },
+    {
+      "product_code": "278",
+      "nombre": "Pan Integral CORMILLOT 360 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pan",
+        "3": "Pan",
+        "4": "Pan Integral"
+      }
+    },
+    {
+      "product_code": "280",
+      "nombre": "Pan de Campo Veneziana 400 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pan",
+        "3": "Pan",
+        "4": "Pan de Campo"
+      }
+    },
+    {
+      "product_code": "282",
+      "nombre": "Pan Trisalvado Light CORMILLOT 360g",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pan",
+        "3": "Pan",
+        "4": "Pan Trisalvado Light"
+      }
+    },
+    {
+      "product_code": "283",
+      "nombre": "Pan P/Hamburguesa Venez 4u 210 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pan",
+        "3": "Pan",
+        "4": "Pan para Hamburguesa"
+      }
+    },
+    {
+      "product_code": "284",
+      "nombre": "Pan P/ Panchos Venez. 210 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pan",
+        "3": "Pan",
+        "4": "Pan para Panchos"
+      }
+    },
+    {
+      "product_code": "286",
+      "nombre": "Pan Multicereal CORMILLOT 410 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pan",
+        "3": "Pan",
+        "4": "Pan Multicereal"
+      }
+    },
+    {
+      "product_code": "287",
+      "nombre": "Tostex Cintitas Queso 125g",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Tostadas",
+        "4": "Tostadas Cintitas Sabor Queso"
+      }
+    },
+    {
+      "product_code": "288",
+      "nombre": "Pan Lacteado Fliar Veneziana 600 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pan",
+        "3": "Pan",
+        "4": "Pan Lacteado"
+      }
+    },
+    {
+      "product_code": "290",
+      "nombre": "Pan Dulce Practipan 400 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pan",
+        "3": "Pan",
+        "4": "Pan Dulce"
+      }
+    },
+    {
+      "product_code": "291",
+      "nombre": "Pan Lacteado Veneziana 400 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Pan",
+        "3": "Pan",
+        "4": "Pan Lacteado"
+      }
+    },
+    {
+      "product_code": "294",
+      "nombre": "Pre Pizza T/ A la Piedra Veneziana",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Preparados",
+        "3": "Pizza",
+        "4": "Pre Pizza"
+      }
+    },
+    {
+      "product_code": "295",
+      "nombre": "Tortilla Veneziana 165 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Tortilla",
+        "4": "Tortilla"
+      }
+    },
+    {
+      "product_code": "296",
+      "nombre": "Grisines Blanco Veneziana 180 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Grisines",
+        "4": "Grisines Blanco"
+      }
+    },
+    {
+      "product_code": "301",
+      "nombre": "Dulce de Leche Cremigal Familiar 10 KG",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulce de Leche",
+        "4": "Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "302",
+      "nombre": "Torta Veneziana Naranja 400G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Torta",
+        "4": "Torta Veneziana"
+      }
+    },
+    {
+      "product_code": "304",
+      "nombre": "Pionono Dulce Veneziana 180 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Pionono",
+        "4": "Pionono Dulce"
+      }
+    },
+    {
+      "product_code": "305",
+      "nombre": "Queso Gruyerito La Quesera Kg",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Queso Gruyerito"
+      }
+    },
+    {
+      "product_code": "309",
+      "nombre": "Tostadas SALADAS Veneziana 200G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Tostadas",
+        "4": "Tostadas Saladas"
+      }
+    },
+    {
+      "product_code": "310",
+      "nombre": "Queso Reggianito Cremigal x Kg",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Queso Reggianito"
+      }
+    },
+    {
+      "product_code": "311",
+      "nombre": "Dulce de Leche Cremigal Familiar 3 KG",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulce de Leche",
+        "4": "Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "312",
+      "nombre": "Queso de Cerdo Fox x Kgs",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Queso de Cerdo"
+      }
+    },
+    {
+      "product_code": "313",
+      "nombre": "Queso Barra Taurito x KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso",
+        "4": "Queso Barra"
+      }
+    },
+    {
+      "product_code": "314",
+      "nombre": "Mortadela Mini 300 G PALADINI",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Fiambres",
+        "3": "Fiambre",
+        "4": "Mortadela Mini"
+      }
+    },
+    {
+      "product_code": "316",
+      "nombre": "Queso Gruyere Quesera Kg",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Duros",
+        "4": "Queso Gruyere"
+      }
+    },
+    {
+      "product_code": "318",
+      "nombre": "Queso Mozzarella Cremigal Tubo x KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Frescos",
+        "4": "Queso Mozzarella"
+      }
+    },
+    {
+      "product_code": "319",
+      "nombre": "Queso Parmesano La Quesera Kg",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Duros",
+        "4": "Queso Parmesano"
+      }
+    },
+    {
+      "product_code": "320",
+      "nombre": "Queso Sardo Los Tauritos KG MARRON",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Duros",
+        "4": "Queso Sardo"
+      }
+    },
+    {
+      "product_code": "323",
+      "nombre": "Queso Cremoso Tauritos x KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Cremosos",
+        "4": "Queso Cremoso"
+      }
+    },
+    {
+      "product_code": "324",
+      "nombre": "Queso Holanda Los Pinos Kg",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Duros",
+        "4": "Queso Holanda"
+      }
+    },
+    {
+      "product_code": "331",
+      "nombre": "Dulce Membrillo DULCOR 500 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulces de Fruta",
+        "4": "Dulce Membrillo"
+      }
+    },
+    {
+      "product_code": "332",
+      "nombre": "Dulce Batata DULCOR 500 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulces de Fruta",
+        "4": "Dulce Batata"
+      }
+    },
+    {
+      "product_code": "333",
+      "nombre": "Dulce Batata Chocolate DULCOR 500 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulces de Fruta",
+        "4": "Dulce Batata Chocolate"
+      }
+    },
+    {
+      "product_code": "337",
+      "nombre": "Dulce de Membrillo EMETH 500g",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulces de Fruta",
+        "4": "Dulce de Membrillo"
+      }
+    },
+    {
+      "product_code": "338",
+      "nombre": "Dulce de Batata EMETH 500g",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulces de Fruta",
+        "4": "Dulce de Batata"
+      }
+    },
+    {
+      "product_code": "339",
+      "nombre": "Dulce de Batata c/Choc EMETH 500g",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulces de Fruta",
+        "4": "Dulce de Batata Chocolate"
+      }
+    },
+    {
+      "product_code": "340",
+      "nombre": "Leche en Polvo Cremigal 400 G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Leche",
+        "3": "Leche en Polvo",
+        "4": "Leche en Polvo"
+      }
+    },
+    {
+      "product_code": "343",
+      "nombre": "Ricota Magra Los Pinos",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Frescos",
+        "4": "Ricota"
+      }
+    },
+    {
+      "product_code": "345",
+      "nombre": "Queso Cheddar Barra La Quesera x KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Duros",
+        "4": "Queso Cheddar"
+      }
+    },
+    {
+      "product_code": "350",
+      "nombre": "Jugo de Limon Emeth 500cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugos Cítricos",
+        "4": "Jugo de Limón"
+      }
+    },
+    {
+      "product_code": "352",
+      "nombre": "Queso Provoleta La Varense KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Frescos",
+        "4": "Queso Provoleta"
+      }
+    },
+    {
+      "product_code": "353",
+      "nombre": "Aji Dulce en Vinagre Gullo 330 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Aji Dulce en Vinagre"
+      }
+    },
+    {
+      "product_code": "354",
+      "nombre": "Aderezo SAVORA Sachet 60G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Aderezo"
+      }
+    },
+    {
+      "product_code": "355",
+      "nombre": "Aderezo HELLMANN'S BARBACOA 250G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Aderezo"
+      }
+    },
+    {
+      "product_code": "356",
+      "nombre": "Aderezo HELLMANN'S Mayonesa 118cc",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Aderezo"
+      }
+    },
+    {
+      "product_code": "357",
+      "nombre": "Aderezo HELLMANN'S Salsa Golf 125cc",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Aderezo"
+      }
+    },
+    {
+      "product_code": "358",
+      "nombre": "Aderezo HELLMANN'S Ketchup 60G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Aderezo"
+      }
+    },
+    {
+      "product_code": "366",
+      "nombre": "KNORR Caldo CARNE 24x2U",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Caldo",
+        "3": "Caldo en Cubos",
+        "4": "Caldo de Carne"
+      }
+    },
+    {
+      "product_code": "368",
+      "nombre": "KNORR Sopa Crema Vegetales",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas Cremas",
+        "4": "Sopa Crema Vegetales"
+      }
+    },
+    {
+      "product_code": "369",
+      "nombre": "KNORR Sopa Crema Arvejas",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas Cremas",
+        "4": "Sopa Crema Arvejas"
+      }
+    },
+    {
+      "product_code": "370",
+      "nombre": "KNORR Sopa Crema Zapallo",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas Cremas",
+        "4": "Sopa Crema Zapallo"
+      }
+    },
+    {
+      "product_code": "371",
+      "nombre": "KNORR Sopa Veg Caracol",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas",
+        "4": "Sopa Veg"
+      }
+    },
+    {
+      "product_code": "372",
+      "nombre": "KNORR Sopa Fideo Letras",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas",
+        "4": "Sopa Fideo Letras"
+      }
+    },
+    {
+      "product_code": "373",
+      "nombre": "KNORR Sopa Cabello de Angel",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas",
+        "4": "Sopa Cabello de Angel"
+      }
+    },
+    {
+      "product_code": "374",
+      "nombre": "KNORR Sopa Dedalito",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas",
+        "4": "Sopa Dedalito"
+      }
+    },
+    {
+      "product_code": "375",
+      "nombre": "KNORR Sopa Caracolitos Tricolor",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas",
+        "4": "Sopa Caracolitos"
+      }
+    },
+    {
+      "product_code": "376",
+      "nombre": "KNORR Sopa Municion",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas",
+        "4": "Sopa Municion"
+      }
+    },
+    {
+      "product_code": "377",
+      "nombre": "KNORR Sopa Crema Cebolla con pimienta",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas Cremas",
+        "4": "Sopa Crema Cebolla"
+      }
+    },
+    {
+      "product_code": "378",
+      "nombre": "KNORR Sopa Crema Vegetales BALANCE",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas Cremas",
+        "4": "Sopa Crema Vegetales"
+      }
+    },
+    {
+      "product_code": "379",
+      "nombre": "KNORR Sopa Crema Choclo",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas Cremas",
+        "4": "Sopa Crema Choclo"
+      }
+    },
+    {
+      "product_code": "380",
+      "nombre": "Maizena 220g",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Harinas",
+        "3": "Harinas",
+        "4": "Maizena"
+      }
+    },
+    {
+      "product_code": "381",
+      "nombre": "Knorr Sabor Carne CEB/AJO 21g + Bolsa",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Sazonadores",
+        "4": "Sabor Carne"
+      }
+    },
+    {
+      "product_code": "430",
+      "nombre": "Aceituna Rellena c/azul 200G GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Rellena"
+      }
+    },
+    {
+      "product_code": "431",
+      "nombre": "Aceituna Rellena c/Palmitos 200G Gullo",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Rellena"
+      }
+    },
+    {
+      "product_code": "432",
+      "nombre": "Aceituna Rellena c/parmesano 200G Gullo",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Rellena"
+      }
+    },
+    {
+      "product_code": "433",
+      "nombre": "Aceituna Rellena c/Almendra 200G Gullo",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Rellena"
+      }
+    },
+    {
+      "product_code": "434",
+      "nombre": "Especias Aji Molido Ahumado 200G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Especias",
+        "3": "Especias",
+        "4": "Especias Aji Molido"
+      }
+    },
+    {
+      "product_code": "435",
+      "nombre": "Especias Baharat 200G (9 Especies)",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Especias",
+        "3": "Especias",
+        "4": "Especias Baharat"
+      }
+    },
+    {
+      "product_code": "436",
+      "nombre": "Especias Curry Power 200G (11 Especies)",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Especias",
+        "3": "Especias",
+        "4": "Especias Curry Power"
+      }
+    },
+    {
+      "product_code": "437",
+      "nombre": "Especias Garam Masala 200G (10 Especias)",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Especias",
+        "3": "Especias",
+        "4": "Especias Garam Masala"
+      }
+    },
+    {
+      "product_code": "438",
+      "nombre": "Especias Pimenton Ahumado 200G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Especias",
+        "3": "Especias",
+        "4": "Especias Pimenton Ahumado"
+      }
+    },
+    {
+      "product_code": "439",
+      "nombre": "Especias Tandoori Mix 200G (8 Especies)",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Especias",
+        "3": "Especias",
+        "4": "Especias Tandoori Mix"
+      }
+    },
+    {
+      "product_code": "440",
+      "nombre": "Pasta de Ajo 200G Gullo",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Pasta de Ajo"
+      }
+    },
+    {
+      "product_code": "441",
+      "nombre": "Aceitunas Premium T00 800G GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Premium"
+      }
+    },
+    {
+      "product_code": "442",
+      "nombre": "Aceitunas Negras PREMIUM T00 800G GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Negras"
+      }
+    },
+    {
+      "product_code": "443",
+      "nombre": "Aceitunas Rellenas PREMIUM 800G GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Rellenas"
+      }
+    },
+    {
+      "product_code": "444",
+      "nombre": "Pepinos Estilo Aleman 800G GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Vegetales",
+        "4": "Pepinos"
+      }
+    },
+    {
+      "product_code": "445",
+      "nombre": "Berenjenas Condimentadas en Aceite 800G GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Vegetales",
+        "4": "Berenjenas Condimentadas"
+      }
+    },
+    {
+      "product_code": "446",
+      "nombre": "Ajies Dulces en Vinagre 800G GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Vegetales",
+        "4": "Ajies Dulces"
+      }
+    },
+    {
+      "product_code": "447",
+      "nombre": "Cerezas al marrasquino 270G GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Frutas",
+        "4": "Cerezas"
+      }
+    },
+    {
+      "product_code": "448",
+      "nombre": "Higos en almibar 330G GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Frutas",
+        "4": "Higos en Almibar"
+      }
+    },
+    {
+      "product_code": "449",
+      "nombre": "Zapallos en almibar 330G GULLO",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Vegetales",
+        "4": "Zapallos en Almibar"
+      }
+    },
+    {
+      "product_code": "450",
+      "nombre": "Cerezas en almibar DULCOR frasco 200 gr.",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Conservas",
+        "3": "Frutas",
+        "4": "Cerezas en Almibar"
+      }
+    },
+    {
+      "product_code": "460",
+      "nombre": "Paleta Sandwichera BIERZO (Blanca)",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Embutidos",
+        "3": "Embutidos",
+        "4": "Paleta Sandwichera"
+      }
+    },
+    {
+      "product_code": "465",
+      "nombre": "Pastron Bierzo KG",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Embutidos",
+        "3": "Embutidos",
+        "4": "Pastron"
+      }
+    },
+    {
+      "product_code": "467",
+      "nombre": "Mortadela Bocha BIERZO KG",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Embutidos",
+        "3": "Embutidos",
+        "4": "Mortadela"
+      }
+    },
+    {
+      "product_code": "468",
+      "nombre": "Arrollado de Pollo BIERZO KG",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Embutidos",
+        "3": "Embutidos",
+        "4": "Arrollado de Pollo"
+      }
+    },
+    {
+      "product_code": "469",
+      "nombre": "Matambre Carne BIERZO KG",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Carnes",
+        "3": "Carnes",
+        "4": "Matambre"
+      }
+    },
+    {
+      "product_code": "483",
+      "nombre": "Queso Saborizado Albahaca LW",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Saborizados",
+        "4": "Queso Saborizado Albahaca"
+      }
+    },
+    {
+      "product_code": "484",
+      "nombre": "Jade al Pesto CUÑA",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Saborizados",
+        "4": "Queso al Pesto"
+      }
+    },
+    {
+      "product_code": "485",
+      "nombre": "Queso Cremoso LW x KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Cremosos",
+        "4": "Queso Cremoso"
+      }
+    },
+    {
+      "product_code": "486",
+      "nombre": "Provoleta x2 AV LW",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Provoleta"
+      }
+    },
+    {
+      "product_code": "488",
+      "nombre": "Yogur POTE LW Vainilla 215G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Sabor Vainilla"
+      }
+    },
+    {
+      "product_code": "489",
+      "nombre": "Filet de Anchoas Molanes 70 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Pescados y Mariscos",
+        "4": "Filete de Anchoas"
+      }
+    },
+    {
+      "product_code": "494",
+      "nombre": "Alcaparras Molanes 65 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Vegetales",
+        "4": "Alcaparras"
+      }
+    },
+    {
+      "product_code": "500",
+      "nombre": "Mani c/Cobertura Tio Cucho sab. Jamon 1 kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Frutos Secos",
+        "4": "Maní con Cobertura"
+      }
+    },
+    {
+      "product_code": "520",
+      "nombre": "Picadillo Paladini 90g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Picadillos",
+        "4": "Picadillo"
+      }
+    },
+    {
+      "product_code": "541",
+      "nombre": "Trumpeter Malbec 750cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Vinos Tintos",
+        "4": "Malbec"
+      }
+    },
+    {
+      "product_code": "649",
+      "nombre": "Aceituna Negra Cond VANOLI frasco 330 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Negra"
+      }
+    },
+    {
+      "product_code": "650",
+      "nombre": "Aceituna Negra VANOLI 150 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Negra"
+      }
+    },
+    {
+      "product_code": "652",
+      "nombre": "Aceituna Verde LA SIERRITA Frasco 330g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Verde"
+      }
+    },
+    {
+      "product_code": "653",
+      "nombre": "Aceituna Verde VANOLI 150g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Verde"
+      }
+    },
+    {
+      "product_code": "655",
+      "nombre": "Aceituna Verde L.SELECTA Frasco 300g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Verde"
+      }
+    },
+    {
+      "product_code": "656",
+      "nombre": "Aceituna Verde Desc. VANOLI 150g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Verde"
+      }
+    },
+    {
+      "product_code": "657",
+      "nombre": "Aceituna Rodajas C/Morron 100 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Rodajas"
+      }
+    },
+    {
+      "product_code": "658",
+      "nombre": "Aceituna Verde Rellena VANOLI 150g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Verde Rellena"
+      }
+    },
+    {
+      "product_code": "659",
+      "nombre": "Pickle Mixto VANOLI Doy Pack 150/300 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Vegetales",
+        "4": "Pickle Mixto"
+      }
+    },
+    {
+      "product_code": "660",
+      "nombre": "Pepinillos VANOLI Doy Pack 150/300 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Vegetales",
+        "4": "Pepinillos"
+      }
+    },
+    {
+      "product_code": "661",
+      "nombre": "Aceituna Verde Condim. VANOLI Frasco 330g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Verde Condimentada"
+      }
+    },
+    {
+      "product_code": "663",
+      "nombre": "Ajies Desp. VANOLI Frasco 330g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Ajies"
+      }
+    },
+    {
+      "product_code": "666",
+      "nombre": "Salsa de Ajo VANOLI 190cc PET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa de Ajo"
+      }
+    },
+    {
+      "product_code": "667",
+      "nombre": "Salsa de Hongos VANOLI 190cc PET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa de Hongos"
+      }
+    },
+    {
+      "product_code": "668",
+      "nombre": "Chimichurri Picante VANOLI 190cc PET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Chimichurri Picante"
+      }
+    },
+    {
+      "product_code": "669",
+      "nombre": "Chimichurri VANOLI 190cc PET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Chimichurri"
+      }
+    },
+    {
+      "product_code": "670",
+      "nombre": "Salsa Criolla VANOLI 190cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Criolla"
+      }
+    },
+    {
+      "product_code": "671",
+      "nombre": "Salsa Filetto Vanoli Frasco 340g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Filetto"
+      }
+    },
+    {
+      "product_code": "672",
+      "nombre": "Salsa Pomarola VANOLI Frasco 340g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Pomarola"
+      }
+    },
+    {
+      "product_code": "673",
+      "nombre": "Salsa p/pizza VANOLI Frasco 340 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa para Pizza"
+      }
+    },
+    {
+      "product_code": "674",
+      "nombre": "Salsa Portuguesa VANOLI Frasco 340g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Portuguesa"
+      }
+    },
+    {
+      "product_code": "675",
+      "nombre": "Salsa Aji Picante VANOLI 190cc BOTELLA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Aji Picante"
+      }
+    },
+    {
+      "product_code": "676",
+      "nombre": "Salsa Ranch Vanoli PET 350gt",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Ranch"
+      }
+    },
+    {
+      "product_code": "677",
+      "nombre": "Chimichurri Ahumado VANOLI 190cc PET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Chimichurri Ahumado"
+      }
+    },
+    {
+      "product_code": "678",
+      "nombre": "Salsa Inglesa VANOLI 180cc BOTELLA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Inglesa"
+      }
+    },
+    {
+      "product_code": "679",
+      "nombre": "Salsa Filetto LIght CORMILLOT 340g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Filetto Light"
+      }
+    },
+    {
+      "product_code": "680",
+      "nombre": "Salsa Pomarola Light CORMILLOT 340g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Pomarola Light"
+      }
+    },
+    {
+      "product_code": "681",
+      "nombre": "Salsa Pizza Light CORMILLOT Frasco 340g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Pizza Light"
+      }
+    },
+    {
+      "product_code": "682",
+      "nombre": "Salsa Provenzal VANOLI 190cc PET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Provenzal"
+      }
+    },
+    {
+      "product_code": "684",
+      "nombre": "Salsa Soja VANOLI 190cc PET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Soja"
+      }
+    },
+    {
+      "product_code": "685",
+      "nombre": "Aceto Balsamico CORMILLOT 250cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Vinagres",
+        "4": "Aceto Balsámico"
+      }
+    },
+    {
+      "product_code": "686",
+      "nombre": "Salsa Napolitana VANOLI Frasco 340 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Napolitana"
+      }
+    },
+    {
+      "product_code": "693",
+      "nombre": "Jugo de Limon CORMILLOT 500cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugos Cítricos",
+        "4": "Jugo de Limón"
+      }
+    },
+    {
+      "product_code": "694",
+      "nombre": "Jugo de Limon CORMILLOT 250cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugos Cítricos",
+        "4": "Jugo de Limón"
+      }
+    },
+    {
+      "product_code": "699",
+      "nombre": "Cebollitas en Vinagre VANOLI Frasco 330 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Vegetales",
+        "4": "Cebollitas en Vinagre"
+      }
+    },
+    {
+      "product_code": "701",
+      "nombre": "Salsa Barbacoa VANOLI 390cc PET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Salsa Barbacoa"
+      }
+    },
+    {
+      "product_code": "705",
+      "nombre": "Aceite de Oliva Extra Virgen CORMILLOT 500cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceites de Oliva",
+        "4": "Aceite de Oliva Extra Virgen"
+      }
+    },
+    {
+      "product_code": "720",
+      "nombre": "Mortadela \"808\" Cilindro KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Mortadela"
+      }
+    },
+    {
+      "product_code": "721",
+      "nombre": "Fiambre P. de Cerdo \"131\" KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Fiambre de Cerdo"
+      }
+    },
+    {
+      "product_code": "724",
+      "nombre": "Sachichon Primavera PIAMONTESA KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Sachichón"
+      }
+    },
+    {
+      "product_code": "725",
+      "nombre": "Bondiola A/V PIAMONTESA Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Bondiola"
+      }
+    },
+    {
+      "product_code": "726",
+      "nombre": "Panceta Ahumada PIAMONTESA Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Panceta Ahumada"
+      }
+    },
+    {
+      "product_code": "727",
+      "nombre": "Salchichas PANCHIN 190g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Salchichas"
+      }
+    },
+    {
+      "product_code": "728",
+      "nombre": "Salame Milan PIAMONTESA Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Salame Milan"
+      }
+    },
+    {
+      "product_code": "730",
+      "nombre": "Salamin A/V P. Fino PIAMONTESA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Salamin"
+      }
+    },
+    {
+      "product_code": "731",
+      "nombre": "Paleta Especial Piamontesa KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Paleta Especial"
+      }
+    },
+    {
+      "product_code": "760",
+      "nombre": "Mortadela c/Pistacho C. Austral KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Mortadela con Pistacho"
+      }
+    },
+    {
+      "product_code": "762",
+      "nombre": "Salame Milan C. AUSTRAL Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Salame Milan"
+      }
+    },
+    {
+      "product_code": "764",
+      "nombre": "Chorizo Seco de Cerdo C. AUSTRAL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Chorizo Seco"
+      }
+    },
+    {
+      "product_code": "770",
+      "nombre": "Yerba Mate Rojo Tradicional 500g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Tradicional"
+      }
+    },
+    {
+      "product_code": "771",
+      "nombre": "Yerba Mate Rojo Especial 500g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Especial"
+      }
+    },
+    {
+      "product_code": "772",
+      "nombre": "Yerba Mate 10 Rosa 500g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Rosa"
+      }
+    },
+    {
+      "product_code": "773",
+      "nombre": "Yerba Mate 10 Uruguaya 500g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Uruguaya"
+      }
+    },
+    {
+      "product_code": "774",
+      "nombre": "Yerba Mate Kurupi Menta & Boldo 500g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate Menta y Boldo"
+      }
+    },
+    {
+      "product_code": "775",
+      "nombre": "Kit Mate Pampa YM 10",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerba Mate",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "776",
+      "nombre": "Yerba Mate Canarias 500g",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerba Mate",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "777",
+      "nombre": "Yerba Mate 10 ARG 500g",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Yerba Mate",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "840",
+      "nombre": "Raviol Villa D'agri 500G pollo y Verdura",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Frescas",
+        "4": "Ravioles"
+      }
+    },
+    {
+      "product_code": "841",
+      "nombre": "Raviol Villa D'agri 1KG pollo y Verdura",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Frescas",
+        "4": "Ravioles"
+      }
+    },
+    {
+      "product_code": "843",
+      "nombre": "Ravioles Pollo/Espinaca 1 KG BOLSA V. DAGRI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Frescas",
+        "4": "Ravioles"
+      }
+    },
+    {
+      "product_code": "844",
+      "nombre": "Capellettis Villa D'agri 500G pollo y verdura",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Frescas",
+        "4": "Capellettis"
+      }
+    },
+    {
+      "product_code": "845",
+      "nombre": "Capelletti Villa D'agri 1KG pollo y verdura",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Frescas",
+        "4": "Capellettis"
+      }
+    },
+    {
+      "product_code": "846",
+      "nombre": "Sorrentinos Villa D'agri 500G mozzarella y jamon",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Frescas",
+        "4": "Sorrentinos"
+      }
+    },
+    {
+      "product_code": "848",
+      "nombre": "Fideos Tallarines Villa D'agri 500G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Secas",
+        "4": "Fideos Tallarines"
+      }
+    },
+    {
+      "product_code": "849",
+      "nombre": "Ñoqui Villa D'agri 500G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Secas",
+        "4": "Ñoquis"
+      }
+    },
+    {
+      "product_code": "850",
+      "nombre": "Tapa Empanada Villa D'agri Freir 300G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Frescas",
+        "4": "Tapa Empanada"
+      }
+    },
+    {
+      "product_code": "852",
+      "nombre": "Tapa Pascualina Villa D'agri 400G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Frescas",
+        "4": "Tapa Pascualina"
+      }
+    },
+    {
+      "product_code": "880",
+      "nombre": "Queso Cremoso Tremblay Horma",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Cremoso"
+      }
+    },
+    {
+      "product_code": "881",
+      "nombre": "Queso Mozzarella TREMBLAY Barra",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Mozzarella"
+      }
+    },
+    {
+      "product_code": "882",
+      "nombre": "Queso Fynbo TREMBLAY Horma",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso"
+      }
+    },
+    {
+      "product_code": "883",
+      "nombre": "Queso Gouda TREMBLAY Horma",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Gouda"
+      }
+    },
+    {
+      "product_code": "884",
+      "nombre": "Queso Mozzarella TREMBLAY Tubo",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Mozzarella"
+      }
+    },
+    {
+      "product_code": "885",
+      "nombre": "Queso Cuartirolo TREMBLAY Horma",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Cuartirolo"
+      }
+    },
+    {
+      "product_code": "886",
+      "nombre": "Queso Barra Dambo TREMBLAY",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Barra"
+      }
+    },
+    {
+      "product_code": "887",
+      "nombre": "Queso Pategras TREMBLAY",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Pategras"
+      }
+    },
+    {
+      "product_code": "888",
+      "nombre": "Queso Criollo TREMBLAY",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Criollo"
+      }
+    },
+    {
+      "product_code": "900",
+      "nombre": "Bizcochitos La Berlinesa 220 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas y Snacks",
+        "3": "Galletas",
+        "4": "Bizcochitos"
+      }
+    },
+    {
+      "product_code": "901",
+      "nombre": "Semoladas La Berlinesa",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas y Snacks",
+        "3": "Galletas",
+        "4": "Semoladas"
+      }
+    },
+    {
+      "product_code": "910",
+      "nombre": "Adobo para pizzas 20g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Adobo"
+      }
+    },
+    {
+      "product_code": "911",
+      "nombre": "Aji Molido 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Aji Molido"
+      }
+    },
+    {
+      "product_code": "912",
+      "nombre": "Canela Molida 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Canela Molida"
+      }
+    },
+    {
+      "product_code": "913",
+      "nombre": "Comino Molido 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Comino Molido"
+      }
+    },
+    {
+      "product_code": "914",
+      "nombre": "Nuez Moscada Grano CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Nuez Moscada Grano"
+      }
+    },
+    {
+      "product_code": "915",
+      "nombre": "Nuez Moscada Molida 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Nuez Moscada Molida"
+      }
+    },
+    {
+      "product_code": "916",
+      "nombre": "Oregano 25G CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Oregano"
+      }
+    },
+    {
+      "product_code": "917",
+      "nombre": "Pimenton 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Pimenton"
+      }
+    },
+    {
+      "product_code": "918",
+      "nombre": "Pimienta Blanca Molida 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Pimienta Blanca Molida"
+      }
+    },
+    {
+      "product_code": "919",
+      "nombre": "Pimienta Negra Molida 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Pimienta Negra Molida"
+      }
+    },
+    {
+      "product_code": "920",
+      "nombre": "Romero 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Romero"
+      }
+    },
+    {
+      "product_code": "921",
+      "nombre": "Tomillo 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Tomillo"
+      }
+    },
+    {
+      "product_code": "922",
+      "nombre": "Ajo granulado 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Ajo Granulado"
+      }
+    },
+    {
+      "product_code": "923",
+      "nombre": "Albahaca 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Albahaca"
+      }
+    },
+    {
+      "product_code": "924",
+      "nombre": "Provenzal 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Provenzal"
+      }
+    },
+    {
+      "product_code": "925",
+      "nombre": "Pesto 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Pesto"
+      }
+    },
+    {
+      "product_code": "926",
+      "nombre": "Azucar Impalpable 200g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Azúcares",
+        "4": "Azucar Impalpable"
+      }
+    },
+    {
+      "product_code": "927",
+      "nombre": "Azucar Negra 200G CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Azúcares",
+        "4": "Azucar Negra"
+      }
+    },
+    {
+      "product_code": "928",
+      "nombre": "Bicarbonato 50g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Otros",
+        "4": "Bicarbonato"
+      }
+    },
+    {
+      "product_code": "929",
+      "nombre": "Polvo para Hornear 50g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Otros",
+        "4": "Polvo para Hornear"
+      }
+    },
+    {
+      "product_code": "930",
+      "nombre": "Coco Rallado 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Otros",
+        "4": "Coco Rallado"
+      }
+    },
+    {
+      "product_code": "931",
+      "nombre": "Pasas de uva 50g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutas Secas",
+        "3": "Frutas Secas",
+        "4": "Pasas de Uva"
+      }
+    },
+    {
+      "product_code": "932",
+      "nombre": "Caldo de carne x12u CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Caldo y Sopas",
+        "3": "Caldo",
+        "4": "Caldo de Carne"
+      }
+    },
+    {
+      "product_code": "933",
+      "nombre": "Sopa de choclos CENTURION Caja 5x13g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Caldo y Sopas",
+        "3": "Sopas",
+        "4": "Sopa de Choclos"
+      }
+    },
+    {
+      "product_code": "936",
+      "nombre": "Ajo en Polvo 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Ajo en Polvo"
+      }
+    },
+    {
+      "product_code": "937",
+      "nombre": "Clavo de olor en grano 10g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Clavo de Olor"
+      }
+    },
+    {
+      "product_code": "938",
+      "nombre": "Chimichurri deshid. 25g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Chimichurri"
+      }
+    },
+    {
+      "product_code": "939",
+      "nombre": "Fecula de Maiz 200g. CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Otros",
+        "4": "Fecula de Maiz"
+      }
+    },
+    {
+      "product_code": "941",
+      "nombre": "Anis en grano 25g Centurion",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Anis en Grano"
+      }
+    },
+    {
+      "product_code": "942",
+      "nombre": "Laurel 10g Centurion",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Laurel"
+      }
+    },
+    {
+      "product_code": "943",
+      "nombre": "Condimento P/Arroz 25g Centurion",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Otros",
+        "4": "Condimento para Arroz"
+      }
+    },
+    {
+      "product_code": "1003",
+      "nombre": "Aceitunas Negras PET T00 1500g GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Negras"
+      }
+    },
+    {
+      "product_code": "1005",
+      "nombre": "Aceituna Rellena T00 PET 1500g GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Rellena"
+      }
+    },
+    {
+      "product_code": "1013",
+      "nombre": "Aceitunas descarozadas MOLANES 100G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Descarozadas"
+      }
+    },
+    {
+      "product_code": "1014",
+      "nombre": "Bizcochuelo Coco Emeth 450G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Bizcochos",
+        "4": "Bizcochuelo de Coco"
+      }
+    },
+    {
+      "product_code": "1016",
+      "nombre": "Gelatina Cereza VIT Emeth 70G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas Saborizadas",
+        "4": "Gelatina de Cereza"
+      }
+    },
+    {
+      "product_code": "1024",
+      "nombre": "Dulce de Leche CORPLAY REP 5 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Dulce de Leche",
+        "4": "Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "1030",
+      "nombre": "Cremette Tonadita Light 290G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Light"
+      }
+    },
+    {
+      "product_code": "1031",
+      "nombre": "Crema de Leche TONADITA 350cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Crema",
+        "4": "Crema de Leche"
+      }
+    },
+    {
+      "product_code": "1036",
+      "nombre": "Crema BALDE RAMOLAC 5 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Crema",
+        "4": "Crema BALDE"
+      }
+    },
+    {
+      "product_code": "1037",
+      "nombre": "Crema DOBLE Cremigal 190 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Crema",
+        "4": "Crema Doble"
+      }
+    },
+    {
+      "product_code": "1038",
+      "nombre": "Dulce de Batata 5 KG EMETH",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Dulce de Batata",
+        "4": "Dulce de Batata"
+      }
+    },
+    {
+      "product_code": "1042",
+      "nombre": "Dulce Batata c/Chocolate 5 KG EMETH",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Dulce de Batata",
+        "4": "Dulce de Batata con Chocolate"
+      }
+    },
+    {
+      "product_code": "1043",
+      "nombre": "Dulce de Leche Cremigal Repostero 1 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Dulce de Leche",
+        "4": "Dulce de Leche Repostero"
+      }
+    },
+    {
+      "product_code": "1045",
+      "nombre": "Dulce de Leche Cremigal Repostero 5 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Dulce de Leche",
+        "4": "Dulce de Leche Repostero"
+      }
+    },
+    {
+      "product_code": "1046",
+      "nombre": "Dulce de Leche Cremigal Repostero 400 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Dulce de Leche",
+        "4": "Dulce de Leche Repostero"
+      }
+    },
+    {
+      "product_code": "1047",
+      "nombre": "Dulce de Membrillo 5 KG EMETH",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Dulce de Membrillo",
+        "4": "Dulce de Membrillo"
+      }
+    },
+    {
+      "product_code": "1068",
+      "nombre": "Leche Sachet Cremigal Descremada 1 Lts",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Leche",
+        "3": "Leche Líquida",
+        "4": "Leche Descremada"
+      }
+    },
+    {
+      "product_code": "1069",
+      "nombre": "Queso Patagonia Light 180G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso Tipo Untar",
+        "4": "Queso Patagonia Light"
+      }
+    },
+    {
+      "product_code": "1072",
+      "nombre": "Levadura Cubo LEVEX 50G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Levaduras",
+        "3": "Levadura en Cubo",
+        "4": "Levadura Cubo"
+      }
+    },
+    {
+      "product_code": "1075",
+      "nombre": "Lomo a las Finas Hierbas FOX",
+      "tags": {
+        "1": "Carnes",
+        "2": "Carnes Frescas",
+        "3": "Lomos",
+        "4": "Lomo a las Finas Hierbas"
+      }
+    },
+    {
+      "product_code": "1078",
+      "nombre": "Grasa vacuna ESANI 1 Kg",
+      "tags": {
+        "1": "Carnes",
+        "2": "Grasas",
+        "3": "Grasas Animales",
+        "4": "Grasa Vacuna"
+      }
+    },
+    {
+      "product_code": "1083",
+      "nombre": "Manteca 200G CREMIGAL",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Mantecas",
+        "3": "Manteca",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "1084",
+      "nombre": "Manteca Cotampo 200g",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Mantecas",
+        "3": "Manteca",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "1090",
+      "nombre": "Mermelada Vidrio DAMASCO Dulcor 454G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Damasco"
+      }
+    },
+    {
+      "product_code": "1114",
+      "nombre": "Bizcochuelo Dulce de Leche Emeth 450G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Bizcochuelos",
+        "4": "Bizcochuelo de Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "1116",
+      "nombre": "Gelatina Frutilla VIT Emeth 70G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatina",
+        "4": "Gelatina de Frutilla"
+      }
+    },
+    {
+      "product_code": "1124",
+      "nombre": "Dulce de Leche CORPLAY REP 10 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Dulces de Leche",
+        "4": "Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "1130",
+      "nombre": "Cremette Tonadita 3 KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Crema",
+        "3": "Crema a Granel",
+        "4": "Crema"
+      }
+    },
+    {
+      "product_code": "1131",
+      "nombre": "Crema BALDE TONADITA 4 LTS",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Crema",
+        "3": "Crema a Granel",
+        "4": "Crema en Pouch"
+      }
+    },
+    {
+      "product_code": "1136",
+      "nombre": "Crema en Pouch Ramolac 10 KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Crema",
+        "3": "Crema a Granel",
+        "4": "Crema en Pouch"
+      }
+    },
+    {
+      "product_code": "1138",
+      "nombre": "Dulce Batata 5 KG LATA EMETH",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Dulces de Fruta",
+        "4": "Dulce de Batata"
+      }
+    },
+    {
+      "product_code": "1142",
+      "nombre": "Dulce Bat C/CHOC 5 KG LATA EMETH",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Dulces de Fruta",
+        "4": "Dulce de Membrillo"
+      }
+    },
+    {
+      "product_code": "1147",
+      "nombre": "Dulce Membrillo 5 KG LATA EMETH",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Dulces",
+        "3": "Dulce de Membrillo",
+        "4": "Dulce Membrillo Lata Emeth"
+      }
+    },
+    {
+      "product_code": "1168",
+      "nombre": "Leche Chocolatada CREMIGAL 1 Lts",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Leches",
+        "3": "Leches Chocolatadas",
+        "4": "Leche Chocolatada"
+      }
+    },
+    {
+      "product_code": "1172",
+      "nombre": "Levadura 500G LCBSA",
+      "tags": {
+        "1": "Ingredientes",
+        "2": "Levaduras",
+        "3": "Levaduras Secas",
+        "4": "Levadura"
+      }
+    },
+    {
+      "product_code": "1178",
+      "nombre": "Grasa de Cerdo ESANI 500g",
+      "tags": {
+        "1": "Carnes",
+        "2": "Grasas",
+        "3": "Grasas Animales",
+        "4": "Grasa de Cerdo"
+      }
+    },
+    {
+      "product_code": "1183",
+      "nombre": "Manteca 2,5KG CREMIGAL",
+      "tags": {
+        "1": "Grasas",
+        "2": "Mantecas",
+        "3": "Mantecas",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "1184",
+      "nombre": "Manteca Cotampo 2,5 Kg",
+      "tags": {
+        "1": "Grasas",
+        "2": "Mantecas",
+        "3": "Mantecas",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "1190",
+      "nombre": "Mermelada Vidrio CIRUELA Dulcor 454G",
+      "tags": {
+        "1": "Conservas",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada Ciruela"
+      }
+    },
+    {
+      "product_code": "1214",
+      "nombre": "Bizcochuelo Limon Emeth 450G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Bizcochuelos",
+        "4": "Bizcochuelo Limón"
+      }
+    },
+    {
+      "product_code": "1216",
+      "nombre": "Gelatina Frambuesa VIT Emeth 70G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas de Sabor",
+        "4": "Gelatina Frambuesa"
+      }
+    },
+    {
+      "product_code": "1230",
+      "nombre": "Cremette Tonadita 480G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Pastas Secas",
+        "4": "Cremette"
+      }
+    },
+    {
+      "product_code": "1290",
+      "nombre": "Mermelada Vidrio HIGO Dulcor 454G",
+      "tags": {
+        "1": "Conservas",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada Higo"
+      }
+    },
+    {
+      "product_code": "1314",
+      "nombre": "Bizcochuelo Naranja Emeth 450 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Bizcochuelos",
+        "4": "Bizcochuelo Naranja"
+      }
+    },
+    {
+      "product_code": "1316",
+      "nombre": "Gelatina Naranja VIT Emeth 70G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas de Sabor",
+        "4": "Gelatina Naranja"
+      }
+    },
+    {
+      "product_code": "1390",
+      "nombre": "Mermelada Vidrio FRUTILLA Dulcor 454G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Frutas",
+        "4": "Mermelada de Frutilla"
+      }
+    },
+    {
+      "product_code": "1414",
+      "nombre": "Bizcochuelo Vainilla Emeth 450 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Bizcochuelos",
+        "4": "Bizcochuelo de Vainilla"
+      }
+    },
+    {
+      "product_code": "1416",
+      "nombre": "Gelatina Durazno VIT Emeth 70G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas de Frutas",
+        "4": "Gelatina de Durazno"
+      }
+    },
+    {
+      "product_code": "1490",
+      "nombre": "Mermelada Vidrio Membrillo DULCOR 454G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Frutas",
+        "4": "Mermelada de Membrillo"
+      }
+    },
+    {
+      "product_code": "1514",
+      "nombre": "Bizcochuelo Vainilla Chip Emeth 450G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Bizcochuelos",
+        "4": "Bizcochuelo de Vainilla Chip"
+      }
+    },
+    {
+      "product_code": "1522",
+      "nombre": "Queso Crema Clasico La Quesera 290g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos Untables",
+        "4": "Queso Crema Clasico"
+      }
+    },
+    {
+      "product_code": "1590",
+      "nombre": "Mermelada Vidrio Naranja DULCOR 454G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Frutas",
+        "4": "Mermelada de Naranja"
+      }
+    },
+    {
+      "product_code": "1614",
+      "nombre": "Brownie EMETH 425g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Postres",
+        "4": "Brownie"
+      }
+    },
+    {
+      "product_code": "1622",
+      "nombre": "Queso Crema Light La Quesera 290g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos Untables",
+        "4": "Queso Crema Light"
+      }
+    },
+    {
+      "product_code": "1690",
+      "nombre": "Mermelada S/AZUCAR Durazno CORMILLOT 390G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Sin Azúcar",
+        "4": "Mermelada Sin Azúcar de Durazno"
+      }
+    },
+    {
+      "product_code": "1790",
+      "nombre": "Mermelada S/AZUCAR Frambuesa CORMILLOT 390G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Sin Azúcar",
+        "4": "Mermelada Sin Azúcar de Frambuesa"
+      }
+    },
+    {
+      "product_code": "1890",
+      "nombre": "Mermelada S/AZUCAR Membrillo CORMILLOT 390G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Sin Azúcar",
+        "4": "Mermelada Sin Azúcar de Membrillo"
+      }
+    },
+    {
+      "product_code": "1990",
+      "nombre": "Mermelada S/AZUCAR Frutilla CORMILLOT 390G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Mermeladas",
+        "3": "Mermelada Sin Azúcar",
+        "4": "Mermelada Sabor Frutilla"
+      }
+    },
+    {
+      "product_code": "2084",
+      "nombre": "Caja Manteca Cotampo 100gx20u",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Mantecas",
+        "3": "Manteca en Caja",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "2090",
+      "nombre": "Mermelada S/AZUCAR Higo CORMILLOT 390G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Mermeladas",
+        "3": "Mermelada Sin Azúcar",
+        "4": "Mermelada Sabor Higo"
+      }
+    },
+    {
+      "product_code": "2190",
+      "nombre": "Mermelada Vidrio Zapallo Dulcor 454G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Mermeladas",
+        "3": "Mermelada en Vidrio",
+        "4": "Mermelada Sabor Zapallo"
+      }
+    },
+    {
+      "product_code": "10102",
+      "nombre": "Ajo Picado Gourmet 200G GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Ajo",
+        "4": "Ajo Picado"
+      }
+    },
+    {
+      "product_code": "10109",
+      "nombre": "Mermelada Pote NARANJA Dulcor 500G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Frutas",
+        "4": "Mermelada de Naranja"
+      }
+    },
+    {
+      "product_code": "10113",
+      "nombre": "Paleta Especial Fox Oval",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Fiambres",
+        "4": "Paleta"
+      }
+    },
+    {
+      "product_code": "10125",
+      "nombre": "Postre CREMIGAL Dulce de Leche 125G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres Lácteos",
+        "4": "Postre Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "10126",
+      "nombre": "Postre VIT DDL Emeth 120g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Postres",
+        "3": "Postres Lácteos",
+        "4": "Postre Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "10132",
+      "nombre": "Mermelada Light DAMASCO CORMILLOT 390G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Frutas",
+        "4": "Mermelada Light de Damasco"
+      }
+    },
+    {
+      "product_code": "10168",
+      "nombre": "Salame Baston Fox  Picado Grueso",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Salame Picado Grueso"
+      }
+    },
+    {
+      "product_code": "10169",
+      "nombre": "Salame Milan Fox Crespon",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Salame Milan"
+      }
+    },
+    {
+      "product_code": "10170",
+      "nombre": "Salamin Fox Tira Picado Grueso",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Salamin Picado Grueso"
+      }
+    },
+    {
+      "product_code": "10175",
+      "nombre": "Caja Salchicha Carcaraña 35x6u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salchichas",
+        "4": "Salchicha"
+      }
+    },
+    {
+      "product_code": "10185",
+      "nombre": "Tapa Empanada La Mocita Horno Hojaldre 330 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Masa",
+        "4": "Tapa Empanada"
+      }
+    },
+    {
+      "product_code": "10191",
+      "nombre": "Gelatina Cremigal Manzana 110g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Gelatinas",
+        "3": "Gelatinas Saborizadas",
+        "4": "Gelatina de Manzana"
+      }
+    },
+    {
+      "product_code": "10193",
+      "nombre": "Yogur c/cereal Frutilla Cremigal 153G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur con Cereal de Frutilla"
+      }
+    },
+    {
+      "product_code": "10195",
+      "nombre": "Yogur Bebible Cremigal Frutilla 900g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Bebible de Frutilla"
+      }
+    },
+    {
+      "product_code": "10197",
+      "nombre": "Yogur Colchon de Durazno RAMOLAC 160g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Colchón de Durazno"
+      }
+    },
+    {
+      "product_code": "10198",
+      "nombre": "Yogur Vasito Cremigal Frutilla 120G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Vasito de Frutilla"
+      }
+    },
+    {
+      "product_code": "10199",
+      "nombre": "Yogur Natural S/Azucar Cremigal 170g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Natural Sin Azúcar"
+      }
+    },
+    {
+      "product_code": "10201",
+      "nombre": "Queso Untable Cremigal Cheddar 190G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Untable Cheddar"
+      }
+    },
+    {
+      "product_code": "10202",
+      "nombre": "Queso Untable Tonadita Jamon 180G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Untable Jamón"
+      }
+    },
+    {
+      "product_code": "10213",
+      "nombre": "Aderezo Mostaza Danica 220 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Aderezos",
+        "4": "Aderezo de Mostaza"
+      }
+    },
+    {
+      "product_code": "10214",
+      "nombre": "Mayonesa Fiesta 250 cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Salsas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "10215",
+      "nombre": "Aderezo Ketchup Danica 220g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Aderezos",
+        "4": "Aderezo de Ketchup"
+      }
+    },
+    {
+      "product_code": "10218",
+      "nombre": "Aceitunas Rebanadas PET1500g GULLO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceitunas Rebanadas"
+      }
+    },
+    {
+      "product_code": "10220",
+      "nombre": "Manteca Tonadita 5 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Grasas",
+        "3": "Mantecas",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "10246",
+      "nombre": "Caja Salchicha DON OTTO x20u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Embutidos",
+        "3": "Salchichas",
+        "4": "Salchicha"
+      }
+    },
+    {
+      "product_code": "10270",
+      "nombre": "Queso Patagonia Light 290G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Patagonia Light"
+      }
+    },
+    {
+      "product_code": "10271",
+      "nombre": "Aceite Girasol 4,5 Lts LEIRA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aceites",
+        "3": "Aceite de Girasol",
+        "4": "Aceite de Girasol"
+      }
+    },
+    {
+      "product_code": "10273",
+      "nombre": "Mermelada EMETH Pote CIRUELA 500G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Frutas",
+        "4": "Mermelada de Ciruela"
+      }
+    },
+    {
+      "product_code": "10278",
+      "nombre": "Pan Integral CORMILLOT 630 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan",
+        "4": "Pan Integral"
+      }
+    },
+    {
+      "product_code": "10282",
+      "nombre": "Pan Trisalvado Light CORMILLOT 600g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan",
+        "4": "Pan Trisalvado Light"
+      }
+    },
+    {
+      "product_code": "10287",
+      "nombre": "Tostex Cintitas Cheddar 125g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Tostex Cintitas de Cheddar"
+      }
+    },
+    {
+      "product_code": "10290",
+      "nombre": "Pan Dulce c/chip Chocolate Veneziana 400G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Pan Dulce",
+        "4": "Pan Dulce con Chips de Chocolate"
+      }
+    },
+    {
+      "product_code": "10295",
+      "nombre": "Tortilla Integral CORMILLOT 275 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Tortillas",
+        "4": "Tortilla Integral"
+      }
+    },
+    {
+      "product_code": "10296",
+      "nombre": "Grisin Multicereal CORMILLOT 180G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Grisin Multicereal"
+      }
+    },
+    {
+      "product_code": "10301",
+      "nombre": "Dulce de Leche Cremigal Repostero 10 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Dulce de Leche",
+        "4": "Dulce de Leche Repostero"
+      }
+    },
+    {
+      "product_code": "10302",
+      "nombre": "Torta Veneziana c/Chips 400G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Tortas",
+        "4": "Torta Veneziana"
+      }
+    },
+    {
+      "product_code": "10304",
+      "nombre": "Pionono Salado Veneziana 180 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Masa",
+        "4": "Pionono Salado"
+      }
+    },
+    {
+      "product_code": "10309",
+      "nombre": "Tostadas Dulces VENEZIANA 200G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Tostadas Dulces"
+      }
+    },
+    {
+      "product_code": "10311",
+      "nombre": "Dulce de Leche Cremigal Repostero 3 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Dulce de Leche",
+        "4": "Dulce de Leche Repostero"
+      }
+    },
+    {
+      "product_code": "10320",
+      "nombre": "Queso Sardo Los Tauritos KG NEGRO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Sardo"
+      }
+    },
+    {
+      "product_code": "10325",
+      "nombre": "Muffin Vainilla EMETH 250g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Muffins",
+        "4": "Muffin de Vainilla"
+      }
+    },
+    {
+      "product_code": "10340",
+      "nombre": "Leche en Polvo Cremigal 800 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Leches",
+        "4": "Leche en Polvo"
+      }
+    },
+    {
+      "product_code": "10348",
+      "nombre": "Queso Cheddar Untable La Quesera 3 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Cheddar Untable"
+      }
+    },
+    {
+      "product_code": "10354",
+      "nombre": "Aderezo SAVORA Doy Pack 250 cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Aderezos",
+        "4": "Aderezo de SAVORA"
+      }
+    },
+    {
+      "product_code": "10355",
+      "nombre": "Aderezo HELLMANN'S BARBACOA 500G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Aderezos",
+        "4": "Aderezo de HELLMANN'S Barbacoa"
+      }
+    },
+    {
+      "product_code": "10356",
+      "nombre": "Aderezo HELLMANN'S Mayonesa 237G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Aderezos",
+        "4": "Aderezo de HELLMANN'S Mayonesa"
+      }
+    },
+    {
+      "product_code": "10357",
+      "nombre": "Aderezo HELLMANN'S Salsa Golf 250cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Aderezos",
+        "4": "Aderezo de HELLMANN'S Salsa Golf"
+      }
+    },
+    {
+      "product_code": "10358",
+      "nombre": "Aderezo HELLMANN'S Ketchup 250cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Aderezos",
+        "4": "Aderezo de HELLMANN'S Ketchup"
+      }
+    },
+    {
+      "product_code": "10359",
+      "nombre": "Aderezo HELLMANN'S May AJO 250G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Aderezos",
+        "4": "Aderezo de HELLMANN'S May Ajo"
+      }
+    },
+    {
+      "product_code": "10360",
+      "nombre": "Aderezo HELLMANN'S May Ahumada 250G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Aderezos",
+        "4": "Aderezo de HELLMANN'S May Ahumada"
+      }
+    },
+    {
+      "product_code": "10361",
+      "nombre": "Aderezo HELLMANN'S May Picante 250G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Aderezos",
+        "4": "Aderezo de HELLMANN'S May Picante"
+      }
+    },
+    {
+      "product_code": "10366",
+      "nombre": "KNORR Caldo Gallina 24x2U",
+      "tags": {
+        "1": "Almacén",
+        "2": "Caldo",
+        "3": "Caldo en Cubos",
+        "4": "Caldo de Gallina"
+      }
+    },
+    {
+      "product_code": "10380",
+      "nombre": "Maizena 500g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Harinas",
+        "3": "Almidones",
+        "4": "Maizena"
+      }
+    },
+    {
+      "product_code": "10381",
+      "nombre": "Knorr Sabor Pollo LIM/OREG 21g + Bolsa",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sazonadores",
+        "4": "Sabor Pollo"
+      }
+    },
+    {
+      "product_code": "10433",
+      "nombre": "Aceituna Rellena c/Anchoas 200G Gullo",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Rellena con Anchoas"
+      }
+    },
+    {
+      "product_code": "10483",
+      "nombre": "Queso Saborizado Oregano LW",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Saborizado"
+      }
+    },
+    {
+      "product_code": "10484",
+      "nombre": "Jade al Pesto HORMA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas Gourmet",
+        "4": "Jade al Pesto"
+      }
+    },
+    {
+      "product_code": "10488",
+      "nombre": "Yogur POTE LW Frutilla 215G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Pote de Frutilla"
+      }
+    },
+    {
+      "product_code": "10500",
+      "nombre": "Mani c/Cobertura Tio Cucho sab. Panceta 1 kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Frutos Secos",
+        "3": "Frutos Secos con Cobertura",
+        "4": "Maní con Cobertura"
+      }
+    },
+    {
+      "product_code": "10520",
+      "nombre": "Pate Paladini 90g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Patés",
+        "3": "Patés de Carne",
+        "4": "Paté"
+      }
+    },
+    {
+      "product_code": "10650",
+      "nombre": "Aceituna Negra VANOLI Doy Pack 180/300 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Negra"
+      }
+    },
+    {
+      "product_code": "10653",
+      "nombre": "Aceituna Verde VANOLI Doy Pack 180/300 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Verde"
+      }
+    },
+    {
+      "product_code": "10656",
+      "nombre": "Aceituna Verde Desc. VANOLI Doy Pack 160/330 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Verde Descubierta"
+      }
+    },
+    {
+      "product_code": "10657",
+      "nombre": "Aceituna Rodajas VANOLI Doy Pack 150/300 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Rodajas"
+      }
+    },
+    {
+      "product_code": "10658",
+      "nombre": "Aceituna Verde Rellena VANOLI Doy Pack 200/300 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Verde Rellena"
+      }
+    },
+    {
+      "product_code": "10659",
+      "nombre": "Pickle Mixto VANOLI Frasco 330g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Pickles",
+        "4": "Pickle Mixto"
+      }
+    },
+    {
+      "product_code": "10660",
+      "nombre": "Pepinillos VANOLI Frasco 330 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Pickles",
+        "4": "Pepinillos"
+      }
+    },
+    {
+      "product_code": "10668",
+      "nombre": "Chimichurri Picante VANOLI PET 350cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Chimichurri",
+        "4": "Chimichurri Picante"
+      }
+    },
+    {
+      "product_code": "10669",
+      "nombre": "Chimichurri Clasico VANOLI PET 350cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Chimichurri",
+        "4": "Chimichurri Clásico"
+      }
+    },
+    {
+      "product_code": "10675",
+      "nombre": "Salsa Aji Suave VANOLI 190cc PET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas Picantes",
+        "4": "Salsa Aji Suave"
+      }
+    },
+    {
+      "product_code": "10676",
+      "nombre": "Salsa Caesar Vanoli PET 350 gr",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas Especiales",
+        "4": "Salsa Caesar"
+      }
+    },
+    {
+      "product_code": "10677",
+      "nombre": "Chimichurri Ahumado VANOLI Pet 350cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Chimichurri",
+        "4": "Chimichurri Ahumado"
+      }
+    },
+    {
+      "product_code": "10684",
+      "nombre": "Salsa Soja Light CORMILLOT 190cc PET",
+      "tags": {
+        "1": "Almacén",
+        "2": "Salsas",
+        "3": "Salsas de Soja",
+        "4": "Salsa Soja Light"
+      }
+    },
+    {
+      "product_code": "10685",
+      "nombre": "Aceto Balsamico CORMILLOT PET 500cc",
+      "tags": {
+        "1": "Almacén",
+        "2": "Vinagres",
+        "3": "Vinagre Balsámico",
+        "4": "Aceto Balsámico"
+      }
+    },
+    {
+      "product_code": "10727",
+      "nombre": "Caja Salchichas PANCHIN x32u",
+      "tags": {
+        "1": "Carnes",
+        "2": "Salchichas",
+        "3": "Salchichas",
+        "4": "Salchichas"
+      }
+    },
+    {
+      "product_code": "10728",
+      "nombre": "Salame Milan Crespon PIAMONTESA Kg",
+      "tags": {
+        "1": "Carnes",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Salame Milan"
+      }
+    },
+    {
+      "product_code": "10730",
+      "nombre": "Salamin A/V P. Grueso PIAMONTESA",
+      "tags": {
+        "1": "Carnes",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Salamin"
+      }
+    },
+    {
+      "product_code": "10774",
+      "nombre": "Yerba Mate Kurupi Menta & Limon 500g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate con Sabor"
+      }
+    },
+    {
+      "product_code": "10840",
+      "nombre": "Raviol Villa D'agri 500G 4 Quesos",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Ravioles",
+        "4": "Raviol"
+      }
+    },
+    {
+      "product_code": "10843",
+      "nombre": "Ravioles Cuatro Quesos 1 KG BOLSA V.DAGRI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Ravioles",
+        "4": "Ravioles Cuatro Quesos"
+      }
+    },
+    {
+      "product_code": "10850",
+      "nombre": "Tapa Empanada Villa D'agri Horno 300G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Masa",
+        "4": "Tapa Empanada"
+      }
+    },
+    {
+      "product_code": "10910",
+      "nombre": "Adobo para pizzas 500g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Adobos",
+        "4": "Adobo para Pizzas"
+      }
+    },
+    {
+      "product_code": "10916",
+      "nombre": "Oregano 500G CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Orégano"
+      }
+    },
+    {
+      "product_code": "10917",
+      "nombre": "Pimenton 500g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Pimentón"
+      }
+    },
+    {
+      "product_code": "10924",
+      "nombre": "Provenzal 500g CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Provenzal"
+      }
+    },
+    {
+      "product_code": "10932",
+      "nombre": "Caldo de Gallina x12u CENTURION",
+      "tags": {
+        "1": "Almacén",
+        "2": "Caldo",
+        "3": "Caldo de Pollo",
+        "4": "Caldo de Gallina"
+      }
+    },
+    {
+      "product_code": "10933",
+      "nombre": "Sopa de vegetales CENTURION Caja 5x13g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Caldo",
+        "3": "Sopas",
+        "4": "Sopa de Vegetales"
+      }
+    },
+    {
+      "product_code": "10943",
+      "nombre": "Condimento P/Aves 25g Centurion",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Especias",
+        "4": "Condimento para Aves"
+      }
+    },
+    {
+      "product_code": "11109",
+      "nombre": "Mermelada Pote HIGO Dulcor 500G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Higo"
+      }
+    },
+    {
+      "product_code": "11125",
+      "nombre": "Postre CREMIGAL Chocolate 125G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Postres",
+        "3": "Postres Lácteos",
+        "4": "Postre de Chocolate"
+      }
+    },
+    {
+      "product_code": "11126",
+      "nombre": "Postre VIT Chocolate Emeth 120g",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Postres",
+        "3": "Postres Lácteos",
+        "4": "Postre de Chocolate"
+      }
+    },
+    {
+      "product_code": "11132",
+      "nombre": "Mermelada Light CIRUELA CORMILLOT 390G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada Light de Ciruela"
+      }
+    },
+    {
+      "product_code": "11195",
+      "nombre": "Yogur Bebible Cremigal Durazno 900g",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Yogures",
+        "3": "Yogur Bebible",
+        "4": "Yogur Bebible de Durazno"
+      }
+    },
+    {
+      "product_code": "11201",
+      "nombre": "Queso Untable Cremigal Clasico 190G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso Tipo Untar",
+        "4": "Queso Untable Clásico"
+      }
+    },
+    {
+      "product_code": "11202",
+      "nombre": "Queso Untable Tonadita Gruyere 180G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso Tipo Untar",
+        "4": "Queso Untable Gruyere"
+      }
+    },
+    {
+      "product_code": "11213",
+      "nombre": "Aderezo Mostaza 3000 G. DANICA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aderezos",
+        "3": "Aderezos a Granel",
+        "4": "Aderezo Mostaza"
+      }
+    },
+    {
+      "product_code": "11215",
+      "nombre": "Aderezo Ketchup DANICA 2,9 Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aderezos",
+        "3": "Aderezos a Granel",
+        "4": "Aderezo Ketchup"
+      }
+    },
+    {
+      "product_code": "11255",
+      "nombre": "Tonadita CHEDDAR AMERICANO 140 Fetas",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso Tipo Untar",
+        "4": "Queso Tonadita Cheddar"
+      }
+    },
+    {
+      "product_code": "11270",
+      "nombre": "Patagonia Tonadita 3 KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso Tipo Untar",
+        "4": "Queso Tonadita"
+      }
+    },
+    {
+      "product_code": "11273",
+      "nombre": "Mermelada EMETH Pote DAMASCO 500G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada de Damasco"
+      }
+    },
+    {
+      "product_code": "11287",
+      "nombre": "Tostex Cintitas Jamon 125g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Tostex Cintitas"
+      }
+    },
+    {
+      "product_code": "11290",
+      "nombre": "Pan Dulce Especial VENEZIANA 600G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Dulce",
+        "4": "Pan Dulce Especial"
+      }
+    },
+    {
+      "product_code": "11295",
+      "nombre": "Tortilla Espinaca CORMILLOT 165 G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Masas",
+        "3": "Tortillas",
+        "4": "Tortilla de Espinaca"
+      }
+    },
+    {
+      "product_code": "11296",
+      "nombre": "Grisin Trisalvado Light CORMILLOT 180G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Grisines",
+        "4": "Grisin Trisalvado Light"
+      }
+    },
+    {
+      "product_code": "11302",
+      "nombre": "Torta Veneziana Dulce de Leche 400G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Tortas",
+        "4": "Torta Veneziana"
+      }
+    },
+    {
+      "product_code": "11309",
+      "nombre": "Tostadas SIN SAL CORMILLOT 200G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletas",
+        "3": "Tostadas",
+        "4": "Tostadas Sin Sal"
+      }
+    },
+    {
+      "product_code": "11340",
+      "nombre": "Leche en Polvo 25 Kgs Cremigal",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Leche",
+        "3": "Leche en Polvo",
+        "4": "Leche en Polvo"
+      }
+    },
+    {
+      "product_code": "11349",
+      "nombre": "Queso Blanco La Quesera x 3KG",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Queso Blanco",
+        "4": "Queso Blanco"
+      }
+    },
+    {
+      "product_code": "11355",
+      "nombre": "Aderezo HELLMANN'S BARBACOA 3 KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aderezos",
+        "3": "Aderezos a Granel",
+        "4": "Aderezo Barbacoa"
+      }
+    },
+    {
+      "product_code": "11356",
+      "nombre": "Aderezo HELLMANN'S Mayonesa 475G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Aderezos",
+        "3": "Aderezos a Granel",
+        "4": "Aderezo Mayonesa"
+      }
+    },
+    {
+      "product_code": "11366",
+      "nombre": "KNORR Caldo Verdura 24x2U",
+      "tags": {
+        "1": "Almacén",
+        "2": "Caldo",
+        "3": "Caldo de Verdura",
+        "4": "Caldo Verdura"
+      }
+    },
+    {
+      "product_code": "11367",
+      "nombre": "KNORR Caldo Verdura 10x6u",
+      "tags": {
+        "1": "Almacén",
+        "2": "Caldo",
+        "3": "Caldo de Verdura",
+        "4": "Caldo Verdura"
+      }
+    },
+    {
+      "product_code": "11381",
+      "nombre": "Knorr Sabor Pollo CRIOLLO 21g + Bolsa",
+      "tags": {
+        "1": "Almacén",
+        "2": "Caldo",
+        "3": "Caldo de Pollo",
+        "4": "Knorr Sabor Pollo"
+      }
+    },
+    {
+      "product_code": "11433",
+      "nombre": "Aceituna Rellena c/Jamon Crudo 200G Gullo",
+      "tags": {
+        "1": "Almacén",
+        "2": "Conservas",
+        "3": "Aceitunas",
+        "4": "Aceituna Rellena"
+      }
+    },
+    {
+      "product_code": "11483",
+      "nombre": "Queso Saborizado Pimienta LW",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Saborizados",
+        "4": "Queso Saborizado Pimienta"
+      }
+    },
+    {
+      "product_code": "11488",
+      "nombre": "Yogur POTE LW Durazno 215G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Yogures",
+        "3": "Yogures en Pote",
+        "4": "Yogur POTE Durazno"
+      }
+    },
+    {
+      "product_code": "11500",
+      "nombre": "Mani c/Cobertura Tio Cucho sab. Queso 1 kg",
+      "tags": {
+        "1": "Snacks",
+        "2": "Frutos Secos",
+        "3": "Frutos Secos Cubiertos",
+        "4": "Mani c/Cobertura Queso"
+      }
+    },
+    {
+      "product_code": "11650",
+      "nombre": "Aceituna Negra VANOLI Frasco 330 G",
+      "tags": {
+        "1": "Conservas",
+        "2": "Aceitunas",
+        "3": "Aceitunas Negras",
+        "4": "Aceituna Negra"
+      }
+    },
+    {
+      "product_code": "11653",
+      "nombre": "Aceituna Verde VANOLI Frasco 330g",
+      "tags": {
+        "1": "Conservas",
+        "2": "Aceitunas",
+        "3": "Aceitunas Verdes",
+        "4": "Aceituna Verde"
+      }
+    },
+    {
+      "product_code": "11656",
+      "nombre": "Aceituna Verde Desc. VANOLI Frasco 330g",
+      "tags": {
+        "1": "Conservas",
+        "2": "Aceitunas",
+        "3": "Aceitunas Verdes",
+        "4": "Aceituna Verde Desc."
+      }
+    },
+    {
+      "product_code": "11657",
+      "nombre": "Aceituna Verde Rodaja VANOLI Frasco 300g",
+      "tags": {
+        "1": "Conservas",
+        "2": "Aceitunas",
+        "3": "Aceitunas Verdes",
+        "4": "Aceituna Verde Rodaja"
+      }
+    },
+    {
+      "product_code": "11658",
+      "nombre": "Aceituna Verde Rellena VANOLI Frasco 300g",
+      "tags": {
+        "1": "Conservas",
+        "2": "Aceitunas",
+        "3": "Aceitunas Verdes",
+        "4": "Aceituna Verde Rellena"
+      }
+    },
+    {
+      "product_code": "11675",
+      "nombre": "Salsa Aji PICANTE VANOLI 350cc PET",
+      "tags": {
+        "1": "Salsas",
+        "2": "Salsas Picantes",
+        "3": "Salsas Aji",
+        "4": "Salsa Aji Picante"
+      }
+    },
+    {
+      "product_code": "11676",
+      "nombre": "Salsa Cheddar Vanoli PET 350gt",
+      "tags": {
+        "1": "Salsas",
+        "2": "Salsas para Snacks",
+        "3": "Salsas Cheddar",
+        "4": "Salsa Cheddar"
+      }
+    },
+    {
+      "product_code": "11684",
+      "nombre": "Salsa Soja VANOLI 350cc PET",
+      "tags": {
+        "1": "Salsas",
+        "2": "Salsas de Soja",
+        "3": "Salsas Soja",
+        "4": "Salsa Soja"
+      }
+    },
+    {
+      "product_code": "11774",
+      "nombre": "Yerba Mate Kurupi Mega Menta 500g",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Infusiones",
+        "3": "Yerbas",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "11840",
+      "nombre": "Raviol Villa D'agri 500G pollo y jamon",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Ravioles",
+        "4": "Raviol Pollo y Jamón"
+      }
+    },
+    {
+      "product_code": "11843",
+      "nombre": "Ravioles Ricota/Espinaca1 KG BOLSA V. DAGRI",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Ravioles",
+        "4": "Ravioles Ricota/Espinaca"
+      }
+    },
+    {
+      "product_code": "11932",
+      "nombre": "Caldo de Verduras x12u CENTURION",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Caldo",
+        "3": "Caldo de Verduras",
+        "4": "Caldo de Verduras"
+      }
+    },
+    {
+      "product_code": "11933",
+      "nombre": "Sopa de arvejas CENTURION Caja 5x13g",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas Instantáneas",
+        "4": "Sopa de Arvejas"
+      }
+    },
+    {
+      "product_code": "11943",
+      "nombre": "Condimento P/Empanadas 25g Centurion",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Condimentos para Empanadas",
+        "4": "Condimento P/Empanadas"
+      }
+    },
+    {
+      "product_code": "12109",
+      "nombre": "Mermelada Pote DAMASCO Dulcor 500G",
+      "tags": {
+        "1": "Conservas",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada Damasco"
+      }
+    },
+    {
+      "product_code": "12132",
+      "nombre": "Mermelada Light HIGO CORMILLOT 390G",
+      "tags": {
+        "1": "Conservas",
+        "2": "Mermeladas",
+        "3": "Mermeladas Light",
+        "4": "Mermelada Light Higo"
+      }
+    },
+    {
+      "product_code": "12168",
+      "nombre": "Salame Pepperoni FOX",
+      "tags": {
+        "1": "Carnes",
+        "2": "Embutidos",
+        "3": "Salames",
+        "4": "Salame Pepperoni"
+      }
+    },
+    {
+      "product_code": "12195",
+      "nombre": "Yogur Bebible Cremigal Frutos Tropicales 900g",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Yogures",
+        "3": "Yogures Bebibles",
+        "4": "Yogur Bebible Frutos Tropicales"
+      }
+    },
+    {
+      "product_code": "12201",
+      "nombre": "Queso Untable Cremigal Jamon 190G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Untables",
+        "4": "Queso Untable Jamón"
+      }
+    },
+    {
+      "product_code": "12202",
+      "nombre": "Queso Untable Tonadita Azul 180G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Untables",
+        "4": "Queso Untable Azul"
+      }
+    },
+    {
+      "product_code": "12212",
+      "nombre": "Mayonesa DANICA 2900 G",
+      "tags": {
+        "1": "Salsas",
+        "2": "Salsas Mayonesa",
+        "3": "Mayonesas",
+        "4": "Mayonesa"
+      }
+    },
+    {
+      "product_code": "12287",
+      "nombre": "Tostex Cintitas Ketchup 125g",
+      "tags": {
+        "1": "Snacks",
+        "2": "Galletas",
+        "3": "Galletas con Sabor",
+        "4": "Tostex Cintitas Ketchup"
+      }
+    },
+    {
+      "product_code": "12290",
+      "nombre": "Pan Dulce Dulcor Lata 850g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Pan Dulce",
+        "4": "Pan Dulce"
+      }
+    },
+    {
+      "product_code": "12295",
+      "nombre": "Tortilla Picante CORMILLOT 165 G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Tortillas",
+        "3": "Tortillas Picantes",
+        "4": "Tortilla Picante"
+      }
+    },
+    {
+      "product_code": "12296",
+      "nombre": "Zigrinato Blanco Veneziana 180G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Zigrinatos",
+        "3": "Zigrinatos Blancos",
+        "4": "Zigrinato Blanco"
+      }
+    },
+    {
+      "product_code": "12309",
+      "nombre": "Tostadas C/Salvado CORMILLOT 200G",
+      "tags": {
+        "1": "Snacks",
+        "2": "Tostadas",
+        "3": "Tostadas con Salvado",
+        "4": "Tostadas C/Salvado"
+      }
+    },
+    {
+      "product_code": "12354",
+      "nombre": "Aderezo SAVORA Sachet 3 KG",
+      "tags": {
+        "1": "Salsas",
+        "2": "Aderezos",
+        "3": "Aderezos en Sachet",
+        "4": "Aderezo SAVORA"
+      }
+    },
+    {
+      "product_code": "12356",
+      "nombre": "Aderezo HELLMANN'S Mayonesa 950G",
+      "tags": {
+        "1": "Salsas",
+        "2": "Aderezos",
+        "3": "Aderezos Mayonesa",
+        "4": "Aderezo HELLMANN'S Mayonesa"
+      }
+    },
+    {
+      "product_code": "12358",
+      "nombre": "Aderezo HELLMANN'S Ketchup 3KG",
+      "tags": {
+        "1": "Salsas",
+        "2": "Aderezos",
+        "3": "Aderezos Ketchup",
+        "4": "Aderezo HELLMANN'S Ketchup"
+      }
+    },
+    {
+      "product_code": "12381",
+      "nombre": "Knorr Sabor Carne ROM/TOM 21g + Bolsa",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Condimentos para Guiso",
+        "4": "Knorr Sabor Carne"
+      }
+    },
+    {
+      "product_code": "12483",
+      "nombre": "Queso Saborizado Provenzal LW",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Saborizados",
+        "4": "Queso Saborizado Provenzal"
+      }
+    },
+    {
+      "product_code": "12500",
+      "nombre": "Mani c/Cobertura Tio Cucho sab. Pizza 1 kg",
+      "tags": {
+        "1": "Snacks",
+        "2": "Frutos Secos",
+        "3": "Frutos Secos Cubiertos",
+        "4": "Mani c/Cobertura Pizza"
+      }
+    },
+    {
+      "product_code": "12675",
+      "nombre": "Salsa Aji VANOLI PET 1KG",
+      "tags": {
+        "1": "Salsas",
+        "2": "Salsas Aji",
+        "3": "Salsas Aji",
+        "4": "Salsa Aji"
+      }
+    },
+    {
+      "product_code": "12684",
+      "nombre": "Salsa Soja VANOLI 1000cc PET",
+      "tags": {
+        "1": "Salsas",
+        "2": "Salsas de Soja",
+        "3": "Salsas Soja",
+        "4": "Salsa Soja"
+      }
+    },
+    {
+      "product_code": "12760",
+      "nombre": "Mortadela Mini 300g C. AUSTRAL",
+      "tags": {
+        "1": "Carnes",
+        "2": "Embutidos",
+        "3": "Mortadelas",
+        "4": "Mortadela Mini"
+      }
+    },
+    {
+      "product_code": "12840",
+      "nombre": "Raviol Villa D'agri 500G Ricota",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Ravioles",
+        "4": "Raviol Ricota"
+      }
+    },
+    {
+      "product_code": "12933",
+      "nombre": "Sopa de esparragos CENTURION Caja 5x13g",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Sopas",
+        "3": "Sopas Instantáneas",
+        "4": "Sopa de Espárragos"
+      }
+    },
+    {
+      "product_code": "12943",
+      "nombre": "Condimento P/Guiso 25g Centurion",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Condimentos para Guiso",
+        "4": "Condimento P/Guiso"
+      }
+    },
+    {
+      "product_code": "13109",
+      "nombre": "Mermelada Pote PERA Dulcor 500G",
+      "tags": {
+        "1": "Conservas",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Fruta",
+        "4": "Mermelada Pera"
+      }
+    },
+    {
+      "product_code": "13132",
+      "nombre": "Mermelada Light ARANDANO CORMILLOT 390G",
+      "tags": {
+        "1": "Conservas",
+        "2": "Mermeladas",
+        "3": "Mermeladas Light",
+        "4": "Mermelada Light Arándano"
+      }
+    },
+    {
+      "product_code": "13195",
+      "nombre": "Yogur Bebible Cremigal Frutilla Light 900g",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Yogures",
+        "3": "Yogures Bebibles",
+        "4": "Yogur Bebible Frutilla Light"
+      }
+    },
+    {
+      "product_code": "13201",
+      "nombre": "Queso Untable Cremigal Por Salut 190G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Quesos",
+        "3": "Quesos Untables",
+        "4": "Queso Untable Por Salut"
+      }
+    },
+    {
+      "product_code": "13287",
+      "nombre": "Tostex Cintitas Barbacoa 125g",
+      "tags": {
+        "1": "Snacks",
+        "2": "Galletas",
+        "3": "Galletas con Sabor",
+        "4": "Tostex Cintitas Barbacoa"
+      }
+    },
+    {
+      "product_code": "13296",
+      "nombre": "Ziginato C/Salvado Veneziana 180G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Zigrinatos",
+        "3": "Zigrinatos con Salvado",
+        "4": "Ziginato C/Salvado"
+      }
+    },
+    {
+      "product_code": "13302",
+      "nombre": "Torta Veneziana Limon 400G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Repostería",
+        "3": "Tortas",
+        "4": "Torta Veneziana Limón"
+      }
+    },
+    {
+      "product_code": "13309",
+      "nombre": "Tostada Multicereal CORMILLOT 200G",
+      "tags": {
+        "1": "Snacks",
+        "2": "Tostadas",
+        "3": "Tostadas Multicereal",
+        "4": "Tostada Multicereal"
+      }
+    },
+    {
+      "product_code": "13356",
+      "nombre": "Aderezo HELLMANN'S Mayonesa 2755cc",
+      "tags": {
+        "1": "Salsas",
+        "2": "Aderezos",
+        "3": "Aderezos Mayonesa",
+        "4": "Aderezo HELLMANN'S Mayonesa"
+      }
+    },
+    {
+      "product_code": "13381",
+      "nombre": "Knorr Sabor Carne HIE/ESP 21g + Bolsa",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Condimentos",
+        "3": "Condimentos para Guiso",
+        "4": "Knorr Sabor Carne"
+      }
+    },
+    {
+      "product_code": "13488",
+      "nombre": "Yogur POTE LW Frutilla Light 215G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Yogures",
+        "3": "Yogures en Pote",
+        "4": "Yogur POTE Frutilla Light"
+      }
+    },
+    {
+      "product_code": "13500",
+      "nombre": "Mani c/Cobertura Tio Cucho sab. Salame 1 kg",
+      "tags": {
+        "1": "Snacks",
+        "2": "Frutos Secos",
+        "3": "Frutos Secos Cubiertos",
+        "4": "Mani c/Cobertura Salame"
+      }
+    },
+    {
+      "product_code": "13675",
+      "nombre": "Salsa Aji Picante VANOLI 190cc PET",
+      "tags": {
+        "1": "Salsas",
+        "2": "Salsas Aji",
+        "3": "Salsas Aji",
+        "4": "Salsa Aji Picante"
+      }
+    },
+    {
+      "product_code": "13840",
+      "nombre": "Raviol Villa D'agri 500G Ricota y Espinaca",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas",
+        "3": "Ravioles",
+        "4": "Raviol Ricota y Espinaca"
+      }
+    },
+    {
+      "product_code": "13943",
+      "nombre": "Condimento P/Pescados 25g Centurion",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Condimentos para Pescados",
+        "4": "Condimento para Pescados"
+      }
+    },
+    {
+      "product_code": "14109",
+      "nombre": "Mermelada Pote CIRUELA Dulcor 500G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Frutas",
+        "4": "Mermelada de Ciruela"
+      }
+    },
+    {
+      "product_code": "14132",
+      "nombre": "Mermelada Light FRUTILLA CORMILLOT 390G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Light",
+        "4": "Mermelada Light de Frutilla"
+      }
+    },
+    {
+      "product_code": "14195",
+      "nombre": "Yogur Bebible Cremigal Vainilla Light 900g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Bebible de Vainilla Light"
+      }
+    },
+    {
+      "product_code": "14202",
+      "nombre": "Queso Untable Tonadita Salame 180G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos Untables",
+        "4": "Queso Untable"
+      }
+    },
+    {
+      "product_code": "14270",
+      "nombre": "Patagonia 20G x90 Un. TONADITA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Patagonico"
+      }
+    },
+    {
+      "product_code": "14287",
+      "nombre": "Tostex Cintitas Cebolla 125g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Tostex Cintitas de Cebolla"
+      }
+    },
+    {
+      "product_code": "14488",
+      "nombre": "Yogur POTE LW Vainilla Light 215G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Pote de Vainilla Light"
+      }
+    },
+    {
+      "product_code": "14500",
+      "nombre": "Mani s/Sal Tio Cucho 1Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Frutos Secos",
+        "4": "Maní sin Sal"
+      }
+    },
+    {
+      "product_code": "15109",
+      "nombre": "Mermelada Pote FRUTILLA Dulcor 500G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Frutas",
+        "4": "Mermelada de Frutilla"
+      }
+    },
+    {
+      "product_code": "15132",
+      "nombre": "Mermelada Light FRAMBUESA CORMILLOT 390G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Light",
+        "4": "Mermelada Light de Frambuesa"
+      }
+    },
+    {
+      "product_code": "15195",
+      "nombre": "Yogur Bebible Cremigal Banana 900g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Bebible de Banana"
+      }
+    },
+    {
+      "product_code": "15202",
+      "nombre": "Queso Untable Tonadita 4 Quesos 180G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos Untables",
+        "4": "Queso Untable 4 Quesos"
+      }
+    },
+    {
+      "product_code": "15270",
+      "nombre": "Queso Patagonia Salmon 290G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Patagonia Salmon"
+      }
+    },
+    {
+      "product_code": "15287",
+      "nombre": "Tostex Cintitas Picantes 125g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Tostex Cintitas Picantes"
+      }
+    },
+    {
+      "product_code": "15381",
+      "nombre": "Knorr Sabor Barbacoa 21g + Bolsa",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sazonadores",
+        "4": "Sabor Barbacoa"
+      }
+    },
+    {
+      "product_code": "15500",
+      "nombre": "Mani Salado Tio Cucho 1Kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Frutos Secos",
+        "4": "Maní Salado"
+      }
+    },
+    {
+      "product_code": "16109",
+      "nombre": "Mermelada Pote Zapallo DULCOR 500G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas de Frutas",
+        "4": "Mermelada de Zapallo"
+      }
+    },
+    {
+      "product_code": "16132",
+      "nombre": "Mermelada Light Batata CORMILLOT 390G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Light",
+        "4": "Mermelada Light de Batata"
+      }
+    },
+    {
+      "product_code": "16270",
+      "nombre": "Queso Patagonia Ciboulette 290G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Quesos",
+        "4": "Queso Patagonia Ciboulette"
+      }
+    },
+    {
+      "product_code": "16287",
+      "nombre": "Tostex Cintitas Pizza 125g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Tostex Cintitas Pizza"
+      }
+    },
+    {
+      "product_code": "16381",
+      "nombre": "Knorr Sabor Pollo Oriental 21g + Bolsa",
+      "tags": {
+        "1": "Almacén",
+        "2": "Condimentos",
+        "3": "Sazonadores",
+        "4": "Sabor Pollo Oriental"
+      }
+    },
+    {
+      "product_code": "16488",
+      "nombre": "Yogur POTE LW Durazno Light 215G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Lácteos",
+        "3": "Yogures",
+        "4": "Yogur Pote de Durazno Light"
+      }
+    },
+    {
+      "product_code": "17132",
+      "nombre": "Mermelada Light Membrillo CORMILLOT 390G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Light",
+        "4": "Mermelada Light de Naranja"
+      }
+    },
+    {
+      "product_code": "17287",
+      "nombre": "Tostex Cintitas Clasicas 125g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Tostex Cintitas Clásicas"
+      }
+    },
+    {
+      "product_code": "18132",
+      "nombre": "Mermelada Light Naranja CORMILLOT 390G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Light",
+        "4": "Mermelada Light de Naranja"
+      }
+    },
+    {
+      "product_code": "18287",
+      "nombre": "Tostex Cintitas Salame 125g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Tostex Cintitas Salame"
+      }
+    },
+    {
+      "product_code": "19132",
+      "nombre": "Mermelada S/AZUCAR Frutos Rojos CORMILLOT 390G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Mermeladas",
+        "3": "Mermeladas Sin Azúcar",
+        "4": "Mermelada Sin Azúcar de Frutos Rojos"
+      }
+    },
+    {
+      "product_code": "19287",
+      "nombre": "Tostex Cintitas Anchas Oliva 125g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletas",
+        "4": "Tostex Cintitas Anchas de Oliva"
+      }
+    },
+    {
+      "product_code": "20117",
+      "nombre": "Manteca Tonadita 100 x 10 G",
+      "tags": {
+        "1": "Lácteos",
+        "2": "Mantecas",
+        "3": "Manteca",
+        "4": "Manteca"
+      }
+    },
+    {
+      "product_code": "20132",
+      "nombre": "Mermelada. Durazno PORCION DULCOR 140x22 Gr",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Mermeladas",
+        "3": "Mermelada en Porción",
+        "4": "Mermelada Sabor Durazno"
+      }
+    },
+    {
+      "product_code": "20287",
+      "nombre": "Tostex Cintitas Provoleta 125g",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Tostadas",
+        "4": "Tostadas Cintitas Sabor Provoleta"
+      }
+    },
+    {
+      "product_code": "20360",
+      "nombre": "Aderezo HELLMANN'S May Asado 250G",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Aderezos",
+        "3": "Aderezo",
+        "4": "Aderezo Mayonesa Sabor Asado"
+      }
+    },
+    {
+      "product_code": "20777",
+      "nombre": "Yerba Mate 10 LATA ARG 500g",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Bebidas",
+        "3": "Yerba Mate",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "21287",
+      "nombre": "Tostex Cintitas Anchas Tomate y Oregano 125g",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Tostadas",
+        "4": "Tostadas Cintitas Sabor Tomate y Orégano"
+      }
+    },
+    {
+      "product_code": "22287",
+      "nombre": "Tostex Cintitas Mostaza y Miel125g",
+      "tags": {
+        "1": "Alimentos",
+        "2": "Snacks",
+        "3": "Tostadas",
+        "4": "Tostadas Cintitas Sabor Mostaza y Miel"
+      }
+    }
+  ]
+}

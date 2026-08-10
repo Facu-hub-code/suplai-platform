@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: e67ea0ca-ce05-4608-884d-227440e3f5db | nombre: CURLO
+schema_existe,Tablas en curlo,ok,schema curlo verificado (list_tables + pg_namespace)
+productos_vacio,COUNT productos = 0,ok,0 productos
+clients_vacio,COUNT clients = 0,ok,0 clientes
+mcp_conectado,MCP supabase responde,ok,conectado proyecto cvlbietibaaehgeimxgw
+carpeta_implementacion,manifest.yaml presente,ok,implementacion/curlo/manifest.yaml
+is_mock_column,Columna is_mock en productos,ok,is_mock presente (default false)
+excel_presente,Archivo en inputs/,ok,inputs/aab2edb57_curlo_products.csv (1282 productos)

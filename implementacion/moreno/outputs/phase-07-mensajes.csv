@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5492612780568,5492612780568,ai,ai,"Hola Autoservicio Junco, paso a revisar tu pedido P-00099 de Yerba Mate 10 LATA ARG 500g.","Hola Autoservicio Junco, paso a revisar tu pedido P-00099 de Yerba Mate 10 LATA ARG 500g.",2026-08-09 10:38:59,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 10:40:28,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 46354.20.,Te confirmo que el pedido P-00099 fue registrado correctamente por 46354.20.,2026-08-09 10:41:24,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 10:42:33,true
+5492612928724,5492612928724,ai,ai,"Hola Autoservicio El Mirador, paso a revisar tu pedido P-00123 de Dulce Membrillo DULCOR 500 G.","Hola Autoservicio El Mirador, paso a revisar tu pedido P-00123 de Dulce Membrillo DULCOR 500 G.",2026-08-10 12:38:59,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-10 12:39:44,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 34395.09.,Te confirmo que el pedido P-00123 fue registrado correctamente por 34395.09.,2026-08-10 12:40:17,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-10 12:41:50,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-10 12:42:46,true
+5492614053074,5492614053074,ai,ai,"Hola Proveeduría Villa Adela, vi que tenes un pedido abierto por Bizcochitos La Berlinesa 220 G y queria ayudarte a cerrarlo.","Hola Proveeduría Villa Adela, vi que tenes un pedido abierto por Bizcochitos La Berlinesa 220 G y queria ayudarte a cerrarlo.",2026-08-10 09:38:59,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-10 09:40:37,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 23462.31. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 23462.31. Si queres te lo dejo cerrado hoy.,2026-08-10 09:41:13,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-10 09:42:31,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-10 09:43:48,true
+5492615021286,5492615021286,ai,ai,"Hola Proveeduría Ruta 14, paso a revisar tu pedido P-00112 de Pan Lacteado Veneziana 400 G.","Hola Proveeduría Ruta 14, paso a revisar tu pedido P-00112 de Pan Lacteado Veneziana 400 G.",2026-08-08 10:38:59,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 10:40:48,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 24358.68.,Te confirmo que el pedido P-00112 fue registrado correctamente por 24358.68.,2026-08-08 10:41:36,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:42:19,true
+5492615139305,5492615139305,ai,ai,"Hola Autoservicio Costanera, paso a revisar tu pedido P-00076 de Crema BALDE RAMOLAC 5 KG.","Hola Autoservicio Costanera, paso a revisar tu pedido P-00076 de Crema BALDE RAMOLAC 5 KG.",2026-08-08 12:38:59,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 12:40:06,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 154960.07.,Te confirmo que el pedido P-00076 fue registrado correctamente por 154960.07.,2026-08-08 12:41:23,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 12:42:06,true
+5492617175545,5492617175545,ai,ai,"Hola Despensa San Martín, paso a revisar tu pedido P-00027 de Comino Molido 25g CENTURION.","Hola Despensa San Martín, paso a revisar tu pedido P-00027 de Comino Molido 25g CENTURION.",2026-08-09 09:38:59,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 09:40:28,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 20282.40.,Te confirmo que el pedido P-00027 fue registrado correctamente por 20282.40.,2026-08-09 09:41:17,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 09:42:36,true
+5492617236955,5492617236955,ai,ai,"Hola Proveeduría Costa Sur, paso a revisar tu pedido P-00126 de Aceituna Rellena c/Jamon Crudo 200G Gullo.","Hola Proveeduría Costa Sur, paso a revisar tu pedido P-00126 de Aceituna Rellena c/Jamon Crudo 200G Gullo.",2026-08-10 11:38:59,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-10 11:39:50,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 22401.12.,Te confirmo que el pedido P-00126 fue registrado correctamente por 22401.12.,2026-08-10 11:40:37,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-10 11:41:26,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-10 11:42:16,true
+5492617413812,5492617413812,ai,ai,"Hola Minimarket San Antonio, paso a revisar tu pedido P-00129 de Bizcochuelo Coco Emeth 450G.","Hola Minimarket San Antonio, paso a revisar tu pedido P-00129 de Bizcochuelo Coco Emeth 450G.",2026-08-10 10:38:59,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-10 10:40:49,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 51702.97.,Te confirmo que el pedido P-00129 fue registrado correctamente por 51702.97.,2026-08-10 10:42:06,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-10 10:43:01,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-10 10:44:13,true
+5492618861463,5492618861463,ai,ai,"Hola Despensa La Estación, paso a revisar tu pedido P-00079 de Dulce de Batata c/Choc 5 KG DULCOR.","Hola Despensa La Estación, paso a revisar tu pedido P-00079 de Dulce de Batata c/Choc 5 KG DULCOR.",2026-08-09 11:38:59,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 11:40:25,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 53603.20.,Te confirmo que el pedido P-00079 fue registrado correctamente por 53603.20.,2026-08-09 11:40:58,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 11:42:28,true
+5492618889598,5492618889598,ai,ai,"Hola Minimarket Las Palmas, paso a revisar tu pedido P-00110 de Aceituna Rodajas C/Morron 100 G.","Hola Minimarket Las Palmas, paso a revisar tu pedido P-00110 de Aceituna Rodajas C/Morron 100 G.",2026-08-09 11:38:59,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 11:40:34,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 89174.69.,Te confirmo que el pedido P-00110 fue registrado correctamente por 89174.69.,2026-08-09 11:41:31,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 11:42:33,true
+5492619239862,5492619239862,ai,ai,"Hola Fiambrería Fox Express, paso a revisar tu pedido P-00066 de Queso Untable Cremigal Azul 190g.","Hola Fiambrería Fox Express, paso a revisar tu pedido P-00066 de Queso Untable Cremigal Azul 190g.",2026-08-08 11:38:59,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 11:40:43,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 5279.01.,Te confirmo que el pedido P-00066 fue registrado correctamente por 5279.01.,2026-08-08 11:42:11,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 11:42:50,true
+5492991227644,5492991227644,ai,ai,"Hola Fiambrería El Paraná, vi que tenes un pedido abierto por Mani c/Cobertura Tio Cucho sab. Queso 1 kg y queria ayudarte a cerrarlo.","Hola Fiambrería El Paraná, vi que tenes un pedido abierto por Mani c/Cobertura Tio Cucho sab. Queso 1 kg y queria ayudarte a cerrarlo.",2026-08-10 12:38:59,true
+5492991227644,5492991227644,human,human,"Hola, queria hacer un reclamo por error de facturacion.","Hola, queria hacer un reclamo por error de facturacion.",2026-08-10 12:39:57,true
+5492991227644,5492991227644,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-08-10 12:41:13,true
+5492991227644,5492991227644,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-10 12:42:58,true
+5492991227644,5492991227644,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-10 12:43:28,true
+5492992500733,5492992500733,ai,ai,"Hola Minimarket Villa Nueva, paso a revisar tu pedido P-00073 de Tostadas SIN SAL CORMILLOT 200G.","Hola Minimarket Villa Nueva, paso a revisar tu pedido P-00073 de Tostadas SIN SAL CORMILLOT 200G.",2026-08-09 08:38:59,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 08:40:42,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 6277.12.,Te confirmo que el pedido P-00073 fue registrado correctamente por 6277.12.,2026-08-09 08:41:20,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 08:42:07,true
+5492994145193,5492994145193,ai,ai,"Hola Despensa Centro Este, paso a revisar tu pedido P-00045 de KNORR Sopa Caracolitos Tricolor.","Hola Despensa Centro Este, paso a revisar tu pedido P-00045 de KNORR Sopa Caracolitos Tricolor.",2026-08-09 08:38:59,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 08:40:00,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 4021.06.,Te confirmo que el pedido P-00045 fue registrado correctamente por 4021.06.,2026-08-09 08:41:07,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 08:42:32,true
+5492994228106,5492994228106,ai,ai,"Hola Almacén Doña Rosa, paso a revisar tu pedido P-00051 de Aceituna Negra VANOLI 150 G.","Hola Almacén Doña Rosa, paso a revisar tu pedido P-00051 de Aceituna Negra VANOLI 150 G.",2026-08-09 11:38:59,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 11:40:18,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 7802.08.,Te confirmo que el pedido P-00051 fue registrado correctamente por 7802.08.,2026-08-09 11:40:52,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 11:41:33,true
+5492995028869,5492995028869,ai,ai,"Hola Rotisería Concordia, paso a revisar tu pedido P-00057 de Paleta Especial Piamontesa KG.","Hola Rotisería Concordia, paso a revisar tu pedido P-00057 de Paleta Especial Piamontesa KG.",2026-08-09 09:38:59,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 09:40:24,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 39496.08.,Te confirmo que el pedido P-00057 fue registrado correctamente por 39496.08.,2026-08-09 09:40:54,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 09:42:08,true
+5492997489876,5492997489876,ai,ai,"Hola Despensa Barrio Sur, paso a revisar tu pedido P-00118 de Condimento P/Empanadas 25g Centurion.","Hola Despensa Barrio Sur, paso a revisar tu pedido P-00118 de Condimento P/Empanadas 25g Centurion.",2026-08-08 08:38:59,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 08:40:40,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 69299.46.,Te confirmo que el pedido P-00118 fue registrado correctamente por 69299.46.,2026-08-08 08:41:32,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:42:22,true
+5492997670210,5492997670210,ai,ai,"Hola Autoservicio Belgrano, paso a revisar tu pedido P-00037 de Mermelada Light Membrillo CORMILLOT 390G.","Hola Autoservicio Belgrano, paso a revisar tu pedido P-00037 de Mermelada Light Membrillo CORMILLOT 390G.",2026-08-09 10:38:59,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 10:40:06,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 102528.16.,Te confirmo que el pedido P-00037 fue registrado correctamente por 102528.16.,2026-08-09 10:40:53,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 10:41:54,true
+5492998066543,5492998066543,ai,ai,"Hola Minimarket Villa del Lago, paso a revisar tu pedido P-00132 de Queso Parmesano La Quesera Kg.","Hola Minimarket Villa del Lago, paso a revisar tu pedido P-00132 de Queso Parmesano La Quesera Kg.",2026-08-10 09:38:59,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-10 09:40:37,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 126581.10.,Te confirmo que el pedido P-00132 fue registrado correctamente por 126581.10.,2026-08-10 09:41:16,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-10 09:42:51,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-10 09:44:01,true
+5492998718887,5492998718887,ai,ai,"Hola Minimarket Río Uruguay, paso a revisar tu pedido P-00054 de Comino Molido 25g CENTURION.","Hola Minimarket Río Uruguay, paso a revisar tu pedido P-00054 de Comino Molido 25g CENTURION.",2026-08-08 10:38:59,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 10:40:56,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 4631.56.,Te confirmo que el pedido P-00054 fue registrado correctamente por 4631.56.,2026-08-08 10:41:42,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:42:48,true
+5492999435946,5492999435946,ai,ai,"Hola Despensa La Ribera, paso a revisar tu pedido P-00135 de Queso Holanda Arroyo Cabral HORMA.","Hola Despensa La Ribera, paso a revisar tu pedido P-00135 de Queso Holanda Arroyo Cabral HORMA.",2026-08-10 08:38:59,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-10 08:40:42,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 194029.38.,Te confirmo que el pedido P-00135 fue registrado correctamente por 194029.38.,2026-08-10 08:41:30,true
+5492999435946,5492999435946,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-10 08:43:16,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-10 08:43:48,true
+5493414799650,5493414799650,ai,ai,"Hola Proveeduría El Faro, paso a revisar tu pedido P-00071 de Mayonesa Fiesta 100 G.","Hola Proveeduría El Faro, paso a revisar tu pedido P-00071 de Mayonesa Fiesta 100 G.",2026-08-08 09:38:59,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 09:39:57,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 178647.90.,Te confirmo que el pedido P-00071 fue registrado correctamente por 178647.90.,2026-08-08 09:40:37,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 09:41:30,true
+5493416524997,5493416524997,ai,ai,"Hola Almacén Los Pinos, paso a revisar tu pedido P-00138 de Crema BALDE TONADITA 4 LTS.","Hola Almacén Los Pinos, paso a revisar tu pedido P-00138 de Crema BALDE TONADITA 4 LTS.",2026-08-08 12:38:59,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 12:39:50,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 137491.47.,Te confirmo que el pedido P-00138 fue registrado correctamente por 137491.47.,2026-08-08 12:40:49,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 12:41:56,true
+5493416986538,5493416986538,ai,ai,"Hola Despensa Barrio Norte, paso a revisar tu pedido P-00063 de Mermelada Pote NARANJA Dulcor 500G.","Hola Despensa Barrio Norte, paso a revisar tu pedido P-00063 de Mermelada Pote NARANJA Dulcor 500G.",2026-08-09 12:38:59,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 12:40:28,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 5679.44.,Te confirmo que el pedido P-00063 fue registrado correctamente por 5679.44.,2026-08-09 12:41:30,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 12:42:33,true
+5493418277249,5493418277249,ai,ai,"Hola Minimarket Concordia Sur, vi que tenes un pedido abierto por Azucar Impalpable 200g CENTURION y queria ayudarte a cerrarlo.","Hola Minimarket Concordia Sur, vi que tenes un pedido abierto por Azucar Impalpable 200g CENTURION y queria ayudarte a cerrarlo.",2026-08-10 11:38:59,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-08-10 11:40:37,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-10 11:41:19,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-10 11:42:20,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-10 11:43:09,true
+5493419686914,5493419686914,ai,ai,"Hola Rotisería Entre Ríos, paso a revisar tu pedido P-00090 de Queso Pategras TREMBLAY.","Hola Rotisería Entre Ríos, paso a revisar tu pedido P-00090 de Queso Pategras TREMBLAY.",2026-08-08 08:38:59,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 08:39:55,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 112482.02.,Te confirmo que el pedido P-00090 fue registrado correctamente por 112482.02.,2026-08-08 08:41:19,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:42:42,true
+5493513952681,5493513952681,ai,ai,"Hola Almacén Tres Esquinas, paso a revisar tu pedido P-00068 de Salsa Pomarola VANOLI Frasco 340g.","Hola Almacén Tres Esquinas, paso a revisar tu pedido P-00068 de Salsa Pomarola VANOLI Frasco 340g.",2026-08-09 10:38:59,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 10:40:09,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 142288.69.,Te confirmo que el pedido P-00068 fue registrado correctamente por 142288.69.,2026-08-09 10:41:20,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 10:42:18,true
+5493514079279,5493514079279,ai,ai,"Hola Almacén Los Naranjos, vi que tenes un pedido abierto por Salsa Soja Light CORMILLOT 190cc PET y queria ayudarte a cerrarlo.","Hola Almacén Los Naranjos, vi que tenes un pedido abierto por Salsa Soja Light CORMILLOT 190cc PET y queria ayudarte a cerrarlo.",2026-08-10 08:38:59,true
+5493514079279,5493514079279,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-10 08:40:47,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 183620.82. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 183620.82. Si queres te lo dejo cerrado hoy.,2026-08-10 08:42:02,true
+5493514079279,5493514079279,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-10 08:43:04,true
+5493514079279,5493514079279,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-10 08:44:08,true
+5493515971311,5493515971311,ai,ai,"Hola Fiambrería Paladini Point, paso a revisar tu pedido P-00048 de Yerba Mate Kurupi Menta & Boldo 500g.","Hola Fiambrería Paladini Point, paso a revisar tu pedido P-00048 de Yerba Mate Kurupi Menta & Boldo 500g.",2026-08-08 12:38:59,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 12:40:07,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 32985.13.,Te confirmo que el pedido P-00048 fue registrado correctamente por 32985.13.,2026-08-08 12:41:25,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 12:42:03,true
+5493516216782,5493516216782,ai,ai,"Hola Proveeduría Microcentro, paso a revisar tu pedido P-00096 de Tostex Cintitas Provoleta 125g.","Hola Proveeduría Microcentro, paso a revisar tu pedido P-00096 de Tostex Cintitas Provoleta 125g.",2026-08-08 11:38:59,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 11:39:45,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 13545.53.,Te confirmo que el pedido P-00096 fue registrado correctamente por 13545.53.,2026-08-08 11:41:04,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 11:42:12,true
+5493517304254,5493517304254,ai,ai,"Hola Autoservicio Av. San Martín, paso a revisar tu pedido P-00060 de Queso Por Salut Cremigal Light KG.","Hola Autoservicio Av. San Martín, paso a revisar tu pedido P-00060 de Queso Por Salut Cremigal Light KG.",2026-08-08 08:38:59,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 08:40:48,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 18900.00.,Te confirmo que el pedido P-00060 fue registrado correctamente por 18900.00.,2026-08-08 08:41:40,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:42:54,true
+5493517632424,5493517632424,ai,ai,"Hola Fiambrería Spalen, paso a revisar tu pedido P-00141 de Salsa Criolla VANOLI 190cc.","Hola Fiambrería Spalen, paso a revisar tu pedido P-00141 de Salsa Criolla VANOLI 190cc.",2026-08-09 11:38:59,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 11:40:15,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 32292.73.,Te confirmo que el pedido P-00141 fue registrado correctamente por 32292.73.,2026-08-09 11:41:22,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 11:42:49,true
+5493518648263,5493518648263,ai,ai,"Hola Minimarket Salto, paso a revisar tu pedido P-00093 de Tostadas C/Salvado CORMILLOT 200G.","Hola Minimarket Salto, paso a revisar tu pedido P-00093 de Tostadas C/Salvado CORMILLOT 200G.",2026-08-09 12:38:59,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 12:40:52,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 5513.08.,Te confirmo que el pedido P-00093 fue registrado correctamente por 5513.08.,2026-08-09 12:42:05,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 12:43:30,true
+5493519107005,5493519107005,ai,ai,"Hola Fiambrería Bierzo, paso a revisar tu pedido P-00144 de Aderezo HELLMANN'S Mayonesa 237G.","Hola Fiambrería Bierzo, paso a revisar tu pedido P-00144 de Aderezo HELLMANN'S Mayonesa 237G.",2026-08-08 10:38:59,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 10:40:33,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 2884.18.,Te confirmo que el pedido P-00144 fue registrado correctamente por 2884.18.,2026-08-08 10:41:16,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:42:45,true
+5493582132179,5493582132179,ai,ai,"Hola Minimarket Laguna del Junco, paso a revisar tu pedido P-00032 de Mermelada S/AZUCAR Membrillo CORMILLOT 390G.","Hola Minimarket Laguna del Junco, paso a revisar tu pedido P-00032 de Mermelada S/AZUCAR Membrillo CORMILLOT 390G.",2026-08-09 12:38:59,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 12:40:32,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 37261.36.,Te confirmo que el pedido P-00032 fue registrado correctamente por 37261.36.,2026-08-09 12:41:56,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 12:42:43,true
+5493582639964,5493582639964,ai,ai,"Hola Despensa Parque, paso a revisar tu pedido P-00102 de Salsa Cheddar Vanoli PET 350gt.","Hola Despensa Parque, paso a revisar tu pedido P-00102 de Salsa Cheddar Vanoli PET 350gt.",2026-08-08 09:38:59,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 09:39:47,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 18156.86.,Te confirmo que el pedido P-00102 fue registrado correctamente por 18156.86.,2026-08-08 09:40:38,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 09:41:18,true
+5493582641213,5493582641213,ai,ai,"Hola Despensa La Costanera, vi que tenes un pedido abierto por Queso Romanito Arroyo Cabral HORMA y queria ayudarte a cerrarlo.","Hola Despensa La Costanera, vi que tenes un pedido abierto por Queso Romanito Arroyo Cabral HORMA y queria ayudarte a cerrarlo.",2026-08-10 01:38:59,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-08-10 01:40:23,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-10 01:41:27,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-10 01:42:22,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-10 01:43:19,true
+5493587747641,5493587747641,ai,ai,"Hola Autoservicio Salto Grande, vi que tenes un pedido abierto por Crema DOBLE Cremigal 190 G y queria ayudarte a cerrarlo.","Hola Autoservicio Salto Grande, vi que tenes un pedido abierto por Crema DOBLE Cremigal 190 G y queria ayudarte a cerrarlo.",2026-08-10 10:38:59,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-10 10:40:43,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 104764.62. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 104764.62. Si queres te lo dejo cerrado hoy.,2026-08-10 10:41:45,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-10 10:43:21,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-10 10:44:11,true
+5493587905250,5493587905250,ai,ai,"Hola Almacén Don Julio, vi que tenes un pedido abierto por Dulce de Leche Cremigal Familiar 250 G y queria ayudarte a cerrarlo.","Hola Almacén Don Julio, vi que tenes un pedido abierto por Dulce de Leche Cremigal Familiar 250 G y queria ayudarte a cerrarlo.",2026-08-10 02:38:59,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-10 02:39:57,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,2026-08-10 02:41:24,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-10 02:43:07,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-10 02:43:39,true
+5493811657614,5493811657614,ai,ai,"Hola Proveeduría Zorraquín, paso a revisar tu pedido P-00040 de Queso Untable Tonadita Clasico 180G.","Hola Proveeduría Zorraquín, paso a revisar tu pedido P-00040 de Queso Untable Tonadita Clasico 180G.",2026-08-08 09:38:59,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 09:40:22,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 12231.52.,Te confirmo que el pedido P-00040 fue registrado correctamente por 12231.52.,2026-08-08 09:41:18,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 09:42:15,true
+5493812941974,5493812941974,ai,ai,"Hola Fiambrería La Paulina Sur, paso a revisar tu pedido P-00084 de Queso Blanco La Quesera x 3KG.","Hola Fiambrería La Paulina Sur, paso a revisar tu pedido P-00084 de Queso Blanco La Quesera x 3KG.",2026-08-08 10:38:59,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 10:40:54,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 100579.45.,Te confirmo que el pedido P-00084 fue registrado correctamente por 100579.45.,2026-08-08 10:42:04,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:42:37,true
+5493813520000,5493813520000,ai,ai,"Hola Autoservicio Colinas, paso a revisar tu pedido P-00115 de Fecula de Maiz 200g. CENTURION.","Hola Autoservicio Colinas, paso a revisar tu pedido P-00115 de Fecula de Maiz 200g. CENTURION.",2026-08-09 09:38:59,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 09:39:50,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 152806.16.,Te confirmo que el pedido P-00115 fue registrado correctamente por 152806.16.,2026-08-09 09:40:56,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 09:42:22,true
+5493814729528,5493814729528,ai,ai,"Hola Fiambrería Unión Quesos, paso a revisar tu pedido P-00105 de Aderezo HELLMANN'S Ketchup 3KG.","Hola Fiambrería Unión Quesos, paso a revisar tu pedido P-00105 de Aderezo HELLMANN'S Ketchup 3KG.",2026-08-09 08:38:59,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 08:40:33,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 76200.10.,Te confirmo que el pedido P-00105 fue registrado correctamente por 76200.10.,2026-08-09 08:41:43,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 08:43:05,true
+5493817404433,5493817404433,ai,ai,"Hola Almacén Los Álamos, paso a revisar tu pedido P-00087 de Queso Cremoso La Varense kg.","Hola Almacén Los Álamos, paso a revisar tu pedido P-00087 de Queso Cremoso La Varense kg.",2026-08-09 09:38:59,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 09:40:35,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 36474.02.,Te confirmo que el pedido P-00087 fue registrado correctamente por 36474.02.,2026-08-09 09:42:01,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 09:43:04,true
+5493818437953,5493818437953,ai,ai,"Hola Fiambrería Cremigal Express, paso a revisar tu pedido P-00029 de Tostex Cintitas Provoleta 125g.","Hola Fiambrería Cremigal Express, paso a revisar tu pedido P-00029 de Tostex Cintitas Provoleta 125g.",2026-08-08 08:38:59,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 08:40:37,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 233722.38.,Te confirmo que el pedido P-00029 fue registrado correctamente por 233722.38.,2026-08-08 08:41:28,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:42:23,true
+5493872845902,5493872845902,ai,ai,"Hola Almacén El Puente, paso a revisar tu pedido P-00034 de Salsa Aji Picante VANOLI 190cc PET.","Hola Almacén El Puente, paso a revisar tu pedido P-00034 de Salsa Aji Picante VANOLI 190cc PET.",2026-08-08 11:38:59,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 11:40:01,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 8158.80.,Te confirmo que el pedido P-00034 fue registrado correctamente por 8158.80.,2026-08-08 11:41:24,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 11:42:03,true
+5493874104594,5493874104594,ai,ai,"Hola Almacén Doña Marta, paso a revisar tu pedido P-00146 de Queso Saborizado Oregano LW.","Hola Almacén Doña Marta, paso a revisar tu pedido P-00146 de Queso Saborizado Oregano LW.",2026-08-09 09:38:59,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 09:40:08,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 22283.64.,Te confirmo que el pedido P-00146 fue registrado correctamente por 22283.64.,2026-08-09 09:41:26,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 09:41:57,true
+5493876499570,5493876499570,ai,ai,"Hola Rotisería El Trébol, paso a revisar tu pedido P-00149 de Salamin Fox Tira Picado Grueso.","Hola Rotisería El Trébol, paso a revisar tu pedido P-00149 de Salamin Fox Tira Picado Grueso.",2026-08-08 08:38:59,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 08:39:47,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 57628.56.,Te confirmo que el pedido P-00149 fue registrado correctamente por 57628.56.,2026-08-08 08:40:25,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:41:21,true
+5493876914178,5493876914178,ai,ai,"Hola Rotisería Uruguay, paso a revisar tu pedido P-00024 de Paleta Especial Fox Cuadrada.","Hola Rotisería Uruguay, paso a revisar tu pedido P-00024 de Paleta Especial Fox Cuadrada.",2026-08-08 10:38:59,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 10:40:32,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 43404.22.,Te confirmo que el pedido P-00024 fue registrado correctamente por 43404.22.,2026-08-08 10:41:41,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:42:46,true
+5493876922419,5493876922419,ai,ai,"Hola Almacén El Progreso, paso a revisar tu pedido P-00107 de Pasas de uva 50g CENTURION.","Hola Almacén El Progreso, paso a revisar tu pedido P-00107 de Pasas de uva 50g CENTURION.",2026-08-08 12:38:59,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 12:40:03,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 18027.01.,Te confirmo que el pedido P-00107 fue registrado correctamente por 18027.01.,2026-08-08 12:40:41,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 12:41:32,true

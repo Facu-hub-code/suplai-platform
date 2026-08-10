@@ -1,0 +1,5 @@
+fuente_schema=gonzales
+lista_precios_id=74
+lista_nombre=ERP_01
+productos_exportados=943
+nota=Clon Arcor para tenant almaro (mock)

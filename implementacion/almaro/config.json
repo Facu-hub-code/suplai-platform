@@ -1,0 +1,6 @@
+{
+  "dominios": "arcor.com,mercadolibre.com.ar,carrefour.com.ar,disco.com.ar",
+  "sufijo_fallback": "golosina chocolate galleta alimento argentina arcor",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS ALMARO / ARCOR:\n1. Priorizar categoría del producto (chocolate, caramelo, galleta, snack, alfajor, etc.) al inicio de la descripción.\n2. Incluir marca/línea cuando sea clara (ej. Cofler, Bon o Bon, Rocklets, Tortuguita).\n3. No inventar sabores ni formatos que no estén en el nombre.\n4. Alias: incluir marca, línea y sinónimos de categoría en minúsculas."
+}

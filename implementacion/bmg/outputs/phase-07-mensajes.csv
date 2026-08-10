@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5493435122056,5493435122056,ai,ai,"Hola Multirubro Baja 41, paso a revisar tu pedido P-00123 de SET NIVEL - TIRA LINEA CON TIZA.","Hola Multirubro Baja 41, paso a revisar tu pedido P-00123 de SET NIVEL - TIRA LINEA CON TIZA.",2026-08-09 10:57:15,true
+5493435122056,5493435122056,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 10:58:36,true
+5493435122056,5493435122056,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 16100.00.,Te confirmo que el pedido P-00123 fue registrado correctamente por 16100.00.,2026-08-09 10:59:26,true
+5493435122056,5493435122056,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-09 11:01:17,true
+5493435122056,5493435122056,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 11:02:05,true
+5493435132938,5493435132938,ai,ai,"Hola Todo Hogar Entre Ríos 43, paso a revisar tu pedido P-00126 de PARAGUAS MINI PLEGABLE UV.","Hola Todo Hogar Entre Ríos 43, paso a revisar tu pedido P-00126 de PARAGUAS MINI PLEGABLE UV.",2026-08-09 09:57:15,true
+5493435132938,5493435132938,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 09:59:02,true
+5493435132938,5493435132938,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 63750.00.,Te confirmo que el pedido P-00126 fue registrado correctamente por 63750.00.,2026-08-09 09:59:51,true
+5493435132938,5493435132938,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-09 10:01:01,true
+5493435132938,5493435132938,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 10:01:46,true
+5493435148050,5493435148050,ai,ai,"Hola Librería Nuevo Día 12, paso a revisar tu pedido P-00034 de TOALLON PLAYEROS.","Hola Librería Nuevo Día 12, paso a revisar tu pedido P-00034 de TOALLON PLAYEROS.",2026-08-07 09:57:15,true
+5493435148050,5493435148050,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 09:58:06,true
+5493435148050,5493435148050,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 101500.00.,Te confirmo que el pedido P-00034 fue registrado correctamente por 101500.00.,2026-08-07 09:59:05,true
+5493435148050,5493435148050,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 09:59:55,true
+5493435166613,5493435166613,ai,ai,"Hola Emprendimiento Luna 26, paso a revisar tu pedido P-00076 de CUCHILLO TRAMONTINA X 6.","Hola Emprendimiento Luna 26, paso a revisar tu pedido P-00076 de CUCHILLO TRAMONTINA X 6.",2026-08-07 10:57:15,true
+5493435166613,5493435166613,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 10:58:57,true
+5493435166613,5493435166613,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 52200.00.,Te confirmo que el pedido P-00076 fue registrado correctamente por 52200.00.,2026-08-07 11:00:26,true
+5493435166613,5493435166613,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 11:01:56,true
+5493435174441,5493435174441,ai,ai,"Hola Blanquería Central 42, paso a revisar tu pedido P-00129 de BOTELLA HIELERA.","Hola Blanquería Central 42, paso a revisar tu pedido P-00129 de BOTELLA HIELERA.",2026-08-09 08:57:15,true
+5493435174441,5493435174441,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 08:59:09,true
+5493435174441,5493435174441,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 89100.00.,Te confirmo que el pedido P-00129 fue registrado correctamente por 89100.00.,2026-08-09 08:59:48,true
+5493435174441,5493435174441,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-09 09:00:40,true
+5493435174441,5493435174441,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 09:01:11,true
+5493435191161,5493435191161,ai,ai,"Hola Multirubro Aura 3, vi que tenes un pedido abierto por CARTUCHERA TUBO CAMUFLADO y queria ayudarte a cerrarlo.","Hola Multirubro Aura 3, vi que tenes un pedido abierto por CARTUCHERA TUBO CAMUFLADO y queria ayudarte a cerrarlo.",2026-08-09 10:57:15,true
+5493435191161,5493435191161,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-09 10:58:29,true
+5493435191161,5493435191161,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-09 10:59:05,true
+5493435191161,5493435191161,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-09 11:00:49,true
+5493435191161,5493435191161,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-09 11:01:31,true
+5493435211579,5493435211579,ai,ai,"Hola Todo Hogar Central 31, paso a revisar tu pedido P-00093 de CINTA AISLADORA X 10 UNIDADES.","Hola Todo Hogar Central 31, paso a revisar tu pedido P-00093 de CINTA AISLADORA X 10 UNIDADES.",2026-08-08 10:57:15,true
+5493435211579,5493435211579,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 10:58:10,true
+5493435211579,5493435211579,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 15300.00.,Te confirmo que el pedido P-00093 fue registrado correctamente por 15300.00.,2026-08-08 10:58:50,true
+5493435211579,5493435211579,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:59:22,true
+5493435217301,5493435217301,ai,ai,"Hola Variedades El Progreso 34, paso a revisar tu pedido P-00102 de PARAGUA CHICO PARA BOLSO.","Hola Variedades El Progreso 34, paso a revisar tu pedido P-00102 de PARAGUA CHICO PARA BOLSO.",2026-08-07 07:57:15,true
+5493435217301,5493435217301,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 07:58:33,true
+5493435217301,5493435217301,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 75600.00.,Te confirmo que el pedido P-00102 fue registrado correctamente por 75600.00.,2026-08-07 07:59:08,true
+5493435217301,5493435217301,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 08:00:27,true
+5493435246316,5493435246316,ai,ai,"Hola Blanquería La Costanera 2, vi que tenes un pedido abierto por PELUCHE LABUBU GIGANTE y queria ayudarte a cerrarlo.","Hola Blanquería La Costanera 2, vi que tenes un pedido abierto por PELUCHE LABUBU GIGANTE y queria ayudarte a cerrarlo.",2026-08-08 23:57:15,true
+5493435246316,5493435246316,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-08 23:58:56,true
+5493435246316,5493435246316,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-08-08 23:59:44,true
+5493435246316,5493435246316,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-09 00:01:42,true
+5493435246316,5493435246316,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-09 00:02:15,true
+5493435260265,5493435260265,ai,ai,"Hola Librería Caputto 25, paso a revisar tu pedido P-00073 de PROTECTOR DE BAÑO 50 MICRONES.","Hola Librería Caputto 25, paso a revisar tu pedido P-00073 de PROTECTOR DE BAÑO 50 MICRONES.",2026-08-08 06:57:15,true
+5493435260265,5493435260265,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 06:59:04,true
+5493435260265,5493435260265,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 73600.00.,Te confirmo que el pedido P-00073 fue registrado correctamente por 73600.00.,2026-08-08 07:00:22,true
+5493435260265,5493435260265,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 07:01:14,true
+5493435279451,5493435279451,ai,ai,"Hola Proveeduría Open 16, paso a revisar tu pedido P-00048 de MOCHILA PREMIUM JANSPORT.","Hola Proveeduría Open 16, paso a revisar tu pedido P-00048 de MOCHILA PREMIUM JANSPORT.",2026-08-07 10:57:15,true
+5493435279451,5493435279451,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 10:58:11,true
+5493435279451,5493435279451,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 98000.00.,Te confirmo que el pedido P-00048 fue registrado correctamente por 98000.00.,2026-08-07 10:59:30,true
+5493435279451,5493435279451,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 11:00:35,true
+5493435322086,5493435322086,ai,ai,"Hola Proveeduría Shop 38, paso a revisar tu pedido P-00112 de MINI PROCESADORA RECARGABLE.","Hola Proveeduría Shop 38, paso a revisar tu pedido P-00112 de MINI PROCESADORA RECARGABLE.",2026-08-07 08:57:15,true
+5493435322086,5493435322086,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 08:58:44,true
+5493435322086,5493435322086,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 146700.00.,Te confirmo que el pedido P-00112 fue registrado correctamente por 146700.00.,2026-08-07 08:59:26,true
+5493435322086,5493435322086,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 09:00:01,true
+5493435343962,5493435343962,ai,ai,"Hola Proveeduría Este 4, vi que tenes un pedido abierto por LLAVERO DE CAPIBARA y queria ayudarte a cerrarlo.","Hola Proveeduría Este 4, vi que tenes un pedido abierto por LLAVERO DE CAPIBARA y queria ayudarte a cerrarlo.",2026-08-09 09:57:15,true
+5493435343962,5493435343962,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-09 09:58:45,true
+5493435343962,5493435343962,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-09 10:00:05,true
+5493435343962,5493435343962,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-09 10:01:42,true
+5493435343962,5493435343962,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-09 10:02:58,true
+5493435363626,5493435363626,ai,ai,"Hola Proveeduría El Centro 27, paso a revisar tu pedido P-00079 de SLIME MEDIANO.","Hola Proveeduría El Centro 27, paso a revisar tu pedido P-00079 de SLIME MEDIANO.",2026-08-08 09:57:15,true
+5493435363626,5493435363626,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 09:59:12,true
+5493435363626,5493435363626,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 27200.00.,Te confirmo que el pedido P-00079 fue registrado correctamente por 27200.00.,2026-08-08 10:00:33,true
+5493435363626,5493435363626,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:01:30,true
+5493435379946,5493435379946,ai,ai,"Hola Blanquería Mayorista 15, paso a revisar tu pedido P-00045 de LINTERNA CON PICANA EN CAJA.","Hola Blanquería Mayorista 15, paso a revisar tu pedido P-00045 de LINTERNA CON PICANA EN CAJA.",2026-08-08 06:57:15,true
+5493435379946,5493435379946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 06:58:03,true
+5493435379946,5493435379946,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 76500.00.,Te confirmo que el pedido P-00045 fue registrado correctamente por 76500.00.,2026-08-08 06:59:24,true
+5493435379946,5493435379946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 07:00:20,true
+5493435383060,5493435383060,ai,ai,"Hola Librería Mini 17, paso a revisar tu pedido P-00051 de PARAGUAS MINI PLEGABLE UV.","Hola Librería Mini 17, paso a revisar tu pedido P-00051 de PARAGUAS MINI PLEGABLE UV.",2026-08-08 09:57:15,true
+5493435383060,5493435383060,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 09:58:56,true
+5493435383060,5493435383060,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 100050.00.,Te confirmo que el pedido P-00051 fue registrado correctamente por 100050.00.,2026-08-08 10:00:25,true
+5493435383060,5493435383060,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:01:49,true
+5493435391704,5493435391704,ai,ai,"Hola Accesorios El Centro 6, vi que tenes un pedido abierto por SET ARTE X150 y queria ayudarte a cerrarlo.","Hola Accesorios El Centro 6, vi que tenes un pedido abierto por SET ARTE X150 y queria ayudarte a cerrarlo.",2026-08-09 07:57:15,true
+5493435391704,5493435391704,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-09 07:58:22,true
+5493435391704,5493435391704,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 48600.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 48600.00. Si queres te lo dejo cerrado hoy.,2026-08-09 07:59:17,true
+5493435391704,5493435391704,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-09 08:00:28,true
+5493435391704,5493435391704,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-09 08:01:58,true
+5493435407757,5493435407757,ai,ai,"Hola Emprendimiento Caputto 29, paso a revisar tu pedido P-00087 de SET ARTE X 42.","Hola Emprendimiento Caputto 29, paso a revisar tu pedido P-00087 de SET ARTE X 42.",2026-08-08 07:57:15,true
+5493435407757,5493435407757,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 07:58:48,true
+5493435407757,5493435407757,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 75325.00.,Te confirmo que el pedido P-00087 fue registrado correctamente por 75325.00.,2026-08-08 08:00:08,true
+5493435407757,5493435407757,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:00:52,true
+5493435426858,5493435426858,ai,ai,"Hola Emprendimiento Popular 39, paso a revisar tu pedido P-00115 de DESTORNILLADOR X 6 MANGO PLASTICO.","Hola Emprendimiento Popular 39, paso a revisar tu pedido P-00115 de DESTORNILLADOR X 6 MANGO PLASTICO.",2026-08-08 07:57:15,true
+5493435426858,5493435426858,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 07:58:35,true
+5493435426858,5493435426858,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 55675.00.,Te confirmo que el pedido P-00115 fue registrado correctamente por 55675.00.,2026-08-08 07:59:29,true
+5493435426858,5493435426858,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:00:54,true
+5493435452944,5493435452944,ai,ai,"Hola Juguetería San Martín 8, paso a revisar tu pedido P-00024 de DISPENSER MINI PATO Y CAPIBARA.","Hola Juguetería San Martín 8, paso a revisar tu pedido P-00024 de DISPENSER MINI PATO Y CAPIBARA.",2026-08-07 08:57:15,true
+5493435452944,5493435452944,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 08:59:12,true
+5493435452944,5493435452944,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 20000.00.,Te confirmo que el pedido P-00024 fue registrado correctamente por 20000.00.,2026-08-07 09:00:24,true
+5493435452944,5493435452944,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 09:01:51,true
+5493435460663,5493435460663,ai,ai,"Hola Multirubro Familiar 9, paso a revisar tu pedido P-00027 de TIJERA PREMIUM 8"".","Hola Multirubro Familiar 9, paso a revisar tu pedido P-00027 de TIJERA PREMIUM 8"".",2026-08-08 07:57:15,true
+5493435460663,5493435460663,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 07:58:45,true
+5493435460663,5493435460663,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 14375.00.,Te confirmo que el pedido P-00027 fue registrado correctamente por 14375.00.,2026-08-08 07:59:52,true
+5493435460663,5493435460663,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:00:40,true
+5493435526833,5493435526833,ai,ai,"Hola Mercería La Costanera 46, paso a revisar tu pedido P-00132 de JUEGO DE SÁBANAS 2 1/2 PLAZAS.","Hola Mercería La Costanera 46, paso a revisar tu pedido P-00132 de JUEGO DE SÁBANAS 2 1/2 PLAZAS.",2026-08-09 07:57:15,true
+5493435526833,5493435526833,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 07:58:10,true
+5493435526833,5493435526833,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 147600.00.,Te confirmo que el pedido P-00132 fue registrado correctamente por 147600.00.,2026-08-09 07:58:46,true
+5493435526833,5493435526833,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-09 08:00:09,true
+5493435526833,5493435526833,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 08:00:59,true
+5493435543143,5493435543143,ai,ai,"Hola Variedades Del Parque 7, vi que tenes un pedido abierto por REPASADOR ECO y queria ayudarte a cerrarlo.","Hola Variedades Del Parque 7, vi que tenes un pedido abierto por REPASADOR ECO y queria ayudarte a cerrarlo.",2026-08-09 06:57:15,true
+5493435543143,5493435543143,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-09 06:58:28,true
+5493435543143,5493435543143,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 3825.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 3825.00. Si queres te lo dejo cerrado hoy.,2026-08-09 06:59:31,true
+5493435543143,5493435543143,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-09 07:01:20,true
+5493435543143,5493435543143,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-09 07:02:09,true
+5493435544154,5493435544154,ai,ai,"Hola Emprendimiento Plus 47, paso a revisar tu pedido P-00135 de CINTA METRICA 3M.","Hola Emprendimiento Plus 47, paso a revisar tu pedido P-00135 de CINTA METRICA 3M.",2026-08-09 06:57:15,true
+5493435544154,5493435544154,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 06:58:40,true
+5493435544154,5493435544154,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 59075.00.,Te confirmo que el pedido P-00135 fue registrado correctamente por 59075.00.,2026-08-09 07:00:08,true
+5493435544154,5493435544154,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-09 07:01:19,true
+5493435544154,5493435544154,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 07:02:28,true
+5493435570405,5493435570405,ai,ai,"Hola Kiosco Aura 50, paso a revisar tu pedido P-00138 de MONEDERO CAPIBARA.","Hola Kiosco Aura 50, paso a revisar tu pedido P-00138 de MONEDERO CAPIBARA.",2026-08-07 10:57:15,true
+5493435570405,5493435570405,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 10:59:14,true
+5493435570405,5493435570405,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 9000.00.,Te confirmo que el pedido P-00138 fue registrado correctamente por 9000.00.,2026-08-07 11:00:01,true
+5493435570405,5493435570405,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 11:01:26,true
+5493435634277,5493435634277,ai,ai,"Hola Revendedora San Martín 24, paso a revisar tu pedido P-00071 de TOALLA DE MANO - ART 995.","Hola Revendedora San Martín 24, paso a revisar tu pedido P-00071 de TOALLA DE MANO - ART 995.",2026-08-07 07:57:15,true
+5493435634277,5493435634277,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 07:58:57,true
+5493435634277,5493435634277,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 10500.00.,Te confirmo que el pedido P-00071 fue registrado correctamente por 10500.00.,2026-08-07 07:59:32,true
+5493435634277,5493435634277,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 08:00:48,true
+5493435642717,5493435642717,ai,ai,"Hola Revendedora Paraná Norte 40, paso a revisar tu pedido P-00118 de SET ARTE X 24.","Hola Revendedora Paraná Norte 40, paso a revisar tu pedido P-00118 de SET ARTE X 24.",2026-08-07 06:57:15,true
+5493435642717,5493435642717,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 06:58:42,true
+5493435642717,5493435642717,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 56000.00.,Te confirmo que el pedido P-00118 fue registrado correctamente por 56000.00.,2026-08-07 06:59:45,true
+5493435642717,5493435642717,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 07:01:06,true
+5493435662275,5493435662275,ai,ai,"Hola Juguetería Luna 10, paso a revisar tu pedido P-00029 de PARAGUAS LARGO NEGRO Y PLATEADO.","Hola Juguetería Luna 10, paso a revisar tu pedido P-00029 de PARAGUAS LARGO NEGRO Y PLATEADO.",2026-08-07 06:57:15,true
+5493435662275,5493435662275,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 06:58:00,true
+5493435662275,5493435662275,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 73800.00.,Te confirmo que el pedido P-00029 fue registrado correctamente por 73800.00.,2026-08-07 06:59:30,true
+5493435662275,5493435662275,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 07:00:38,true
+5493435663054,5493435663054,ai,ai,"Hola Accesorios Del Parque 28, paso a revisar tu pedido P-00084 de DILATADOR NASAL CON IMAN Y PACHES IMANTADOS.","Hola Accesorios Del Parque 28, paso a revisar tu pedido P-00084 de DILATADOR NASAL CON IMAN Y PACHES IMANTADOS.",2026-08-07 08:57:15,true
+5493435663054,5493435663054,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 08:58:46,true
+5493435663054,5493435663054,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 25500.00.,Te confirmo que el pedido P-00084 fue registrado correctamente por 25500.00.,2026-08-07 09:00:06,true
+5493435663054,5493435663054,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 09:00:52,true
+5493435676510,5493435676510,ai,ai,"Hola Kiosco Familiar 37, paso a revisar tu pedido P-00110 de BATIDOR DE LECHE C/ACCESORIO.","Hola Kiosco Familiar 37, paso a revisar tu pedido P-00110 de BATIDOR DE LECHE C/ACCESORIO.",2026-08-08 09:57:15,true
+5493435676510,5493435676510,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 09:58:02,true
+5493435676510,5493435676510,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 73025.00.,Te confirmo que el pedido P-00110 fue registrado correctamente por 73025.00.,2026-08-08 09:59:24,true
+5493435676510,5493435676510,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:00:33,true
+5493435688637,5493435688637,ai,ai,"Hola Proveeduría Familiar 22, paso a revisar tu pedido P-00066 de TOALLA DE MANO - ART 995.","Hola Proveeduría Familiar 22, paso a revisar tu pedido P-00066 de TOALLA DE MANO - ART 995.",2026-08-07 09:57:15,true
+5493435688637,5493435688637,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 09:58:57,true
+5493435688637,5493435688637,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 58050.00.,Te confirmo que el pedido P-00066 fue registrado correctamente por 58050.00.,2026-08-07 09:59:39,true
+5493435688637,5493435688637,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 10:00:24,true
+5493435694731,5493435694731,ai,ai,"Hola Blanquería Santa Fe 20, paso a revisar tu pedido P-00060 de SET ARTE X150.","Hola Blanquería Santa Fe 20, paso a revisar tu pedido P-00060 de SET ARTE X150.",2026-08-07 06:57:15,true
+5493435694731,5493435694731,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 06:58:59,true
+5493435694731,5493435694731,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 153000.00.,Te confirmo que el pedido P-00060 fue registrado correctamente por 153000.00.,2026-08-07 06:59:40,true
+5493435694731,5493435694731,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 07:00:26,true
+5493435694916,5493435694916,ai,ai,"Hola Juguetería San Martín 35, paso a revisar tu pedido P-00105 de ALFOMBRA BAÑO RECTANGULAR.","Hola Juguetería San Martín 35, paso a revisar tu pedido P-00105 de ALFOMBRA BAÑO RECTANGULAR.",2026-08-08 06:57:15,true
+5493435694916,5493435694916,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 06:58:00,true
+5493435694916,5493435694916,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 28050.00.,Te confirmo que el pedido P-00105 fue registrado correctamente por 28050.00.,2026-08-08 06:59:10,true
+5493435694916,5493435694916,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 06:59:52,true
+5493435698782,5493435698782,ai,ai,"Hola Multirubro Max 45, paso a revisar tu pedido P-00141 de LLAVERO DE CAPIBARA.","Hola Multirubro Max 45, paso a revisar tu pedido P-00141 de LLAVERO DE CAPIBARA.",2026-08-08 09:57:15,true
+5493435698782,5493435698782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 09:58:30,true
+5493435698782,5493435698782,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 62100.00.,Te confirmo que el pedido P-00141 fue registrado correctamente por 62100.00.,2026-08-08 09:59:12,true
+5493435698782,5493435698782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:00:30,true
+5493435711878,5493435711878,ai,ai,"Hola Emprendimiento Sol 23, paso a revisar tu pedido P-00068 de MOCHILA 3 EN 1.","Hola Emprendimiento Sol 23, paso a revisar tu pedido P-00068 de MOCHILA 3 EN 1.",2026-08-08 08:57:15,true
+5493435711878,5493435711878,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 08:58:27,true
+5493435711878,5493435711878,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 336600.00.,Te confirmo que el pedido P-00068 fue registrado correctamente por 336600.00.,2026-08-08 08:59:13,true
+5493435711878,5493435711878,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 09:00:28,true
+5493435738551,5493435738551,ai,ai,"Hola Mercería Urquiza 32, paso a revisar tu pedido P-00096 de MONOPATIN DE CAPIBARA CON LUCES Y MUSICA.","Hola Mercería Urquiza 32, paso a revisar tu pedido P-00096 de MONOPATIN DE CAPIBARA CON LUCES Y MUSICA.",2026-08-07 09:57:15,true
+5493435738551,5493435738551,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 09:59:14,true
+5493435738551,5493435738551,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 300000.00.,Te confirmo que el pedido P-00096 fue registrado correctamente por 300000.00.,2026-08-07 10:00:41,true
+5493435738551,5493435738551,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 10:02:03,true
+5493435759176,5493435759176,ai,ai,"Hola Multirubro Sol 11, paso a revisar tu pedido P-00032 de CANDADO CHICO 25MM.","Hola Multirubro Sol 11, paso a revisar tu pedido P-00032 de CANDADO CHICO 25MM.",2026-08-08 10:57:15,true
+5493435759176,5493435759176,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 10:58:29,true
+5493435759176,5493435759176,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 122400.00.,Te confirmo que el pedido P-00032 fue registrado correctamente por 122400.00.,2026-08-08 10:59:54,true
+5493435759176,5493435759176,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 11:00:30,true
+5493435770487,5493435770487,ai,ai,"Hola Juguetería La Esquina 1, vi que tenes un pedido abierto por DOSIFICADOR SPRAY ACEITE/VINAGRE y queria ayudarte a cerrarlo.","Hola Juguetería La Esquina 1, vi que tenes un pedido abierto por DOSIFICADOR SPRAY ACEITE/VINAGRE y queria ayudarte a cerrarlo.",2026-08-09 00:57:15,true
+5493435770487,5493435770487,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-09 00:58:58,true
+5493435770487,5493435770487,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-09 01:00:04,true
+5493435770487,5493435770487,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-09 01:01:32,true
+5493435770487,5493435770487,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-09 01:02:52,true
+5493435774079,5493435774079,ai,ai,"Hola Revendedora Urquiza 21, paso a revisar tu pedido P-00063 de KIT PLANCHA + SECADOR PROFESIONAL.","Hola Revendedora Urquiza 21, paso a revisar tu pedido P-00063 de KIT PLANCHA + SECADOR PROFESIONAL.",2026-08-08 10:57:15,true
+5493435774079,5493435774079,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 10:58:11,true
+5493435774079,5493435774079,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 164450.00.,Te confirmo que el pedido P-00063 fue registrado correctamente por 164450.00.,2026-08-08 10:58:48,true
+5493435774079,5493435774079,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:59:33,true
+5493435781453,5493435781453,ai,ai,"Hola Blanquería Alta 5, vi que tenes un pedido abierto por SET X6 BOMBILLA ACERO INOX y queria ayudarte a cerrarlo.","Hola Blanquería Alta 5, vi que tenes un pedido abierto por SET X6 BOMBILLA ACERO INOX y queria ayudarte a cerrarlo.",2026-08-09 08:57:15,true
+5493435781453,5493435781453,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-09 08:59:13,true
+5493435781453,5493435781453,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 27600.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 27600.00. Si queres te lo dejo cerrado hoy.,2026-08-09 09:00:39,true
+5493435781453,5493435781453,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-09 09:02:25,true
+5493435781453,5493435781453,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-09 09:03:55,true
+5493435785197,5493435785197,ai,ai,"Hola Librería La Costanera 48, paso a revisar tu pedido P-00144 de VELADOR KITTY CELESTE / ROSA.","Hola Librería La Costanera 48, paso a revisar tu pedido P-00144 de VELADOR KITTY CELESTE / ROSA.",2026-08-07 08:57:15,true
+5493435785197,5493435785197,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 08:58:00,true
+5493435785197,5493435785197,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 49500.00.,Te confirmo que el pedido P-00144 fue registrado correctamente por 49500.00.,2026-08-07 08:59:28,true
+5493435785197,5493435785197,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 09:00:07,true
+5493435801474,5493435801474,ai,ai,"Hola Revendedora La Riviera 44, paso a revisar tu pedido P-00146 de DISPENSER MINI PATO Y CAPIBARA.","Hola Revendedora La Riviera 44, paso a revisar tu pedido P-00146 de DISPENSER MINI PATO Y CAPIBARA.",2026-08-08 07:57:15,true
+5493435801474,5493435801474,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 07:58:55,true
+5493435801474,5493435801474,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 47500.00.,Te confirmo que el pedido P-00146 fue registrado correctamente por 47500.00.,2026-08-08 07:59:26,true
+5493435801474,5493435801474,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:00:42,true
+5493435854639,5493435854639,ai,ai,"Hola Boutique Dos 30, paso a revisar tu pedido P-00090 de SLIME MEDIANO.","Hola Boutique Dos 30, paso a revisar tu pedido P-00090 de SLIME MEDIANO.",2026-08-07 06:57:15,true
+5493435854639,5493435854639,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 06:58:16,true
+5493435854639,5493435854639,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 75600.00.,Te confirmo que el pedido P-00090 fue registrado correctamente por 75600.00.,2026-08-07 06:59:04,true
+5493435854639,5493435854639,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 06:59:36,true
+5493435897549,5493435897549,ai,ai,"Hola Proveeduría Point 36, paso a revisar tu pedido P-00107 de FRAZADA 1 1/2 PLAZAS ""TERRENAL"".","Hola Proveeduría Point 36, paso a revisar tu pedido P-00107 de FRAZADA 1 1/2 PLAZAS ""TERRENAL"".",2026-08-07 10:57:15,true
+5493435897549,5493435897549,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 10:58:17,true
+5493435897549,5493435897549,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 89000.00.,Te confirmo que el pedido P-00107 fue registrado correctamente por 89000.00.,2026-08-07 10:59:26,true
+5493435897549,5493435897549,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 11:00:32,true
+5493435916449,5493435916449,ai,ai,"Hola Proveeduría El Centro 33, paso a revisar tu pedido P-00099 de LAPIZ CARPINERO.","Hola Proveeduría El Centro 33, paso a revisar tu pedido P-00099 de LAPIZ CARPINERO.",2026-08-08 08:57:15,true
+5493435916449,5493435916449,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 08:58:40,true
+5493435916449,5493435916449,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 85675.00.,Te confirmo que el pedido P-00099 fue registrado correctamente por 85675.00.,2026-08-08 08:59:32,true
+5493435916449,5493435916449,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 09:00:11,true
+5493435939482,5493435939482,ai,ai,"Hola Todo Hogar La Costanera 49, paso a revisar tu pedido P-00149 de LINTERNA CON PICANA EN CAJA.","Hola Todo Hogar La Costanera 49, paso a revisar tu pedido P-00149 de LINTERNA CON PICANA EN CAJA.",2026-08-07 06:57:15,true
+5493435939482,5493435939482,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 06:58:37,true
+5493435939482,5493435939482,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 190900.00.,Te confirmo que el pedido P-00149 fue registrado correctamente por 190900.00.,2026-08-07 06:59:34,true
+5493435939482,5493435939482,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 07:00:55,true
+5493435944151,5493435944151,ai,ai,"Hola Variedades Estrella 19, paso a revisar tu pedido P-00057 de DESTORNILLADOR X 6 MANGO PLASTICO.","Hola Variedades Estrella 19, paso a revisar tu pedido P-00057 de DESTORNILLADOR X 6 MANGO PLASTICO.",2026-08-08 07:57:15,true
+5493435944151,5493435944151,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 07:58:38,true
+5493435944151,5493435944151,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 4250.00.,Te confirmo que el pedido P-00057 fue registrado correctamente por 4250.00.,2026-08-08 07:59:17,true
+5493435944151,5493435944151,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:00:45,true
+5493435974628,5493435974628,ai,ai,"Hola Variedades Caputto 14, paso a revisar tu pedido P-00040 de PELUCHE CAPIBARA CON LUZ Y SONIDO.","Hola Variedades Caputto 14, paso a revisar tu pedido P-00040 de PELUCHE CAPIBARA CON LUZ Y SONIDO.",2026-08-07 07:57:15,true
+5493435974628,5493435974628,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 07:58:02,true
+5493435974628,5493435974628,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 47250.00.,Te confirmo que el pedido P-00040 fue registrado correctamente por 47250.00.,2026-08-07 07:59:31,true
+5493435974628,5493435974628,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 08:00:40,true
+5493435983794,5493435983794,ai,ai,"Hola Accesorios Point 18, paso a revisar tu pedido P-00054 de TOALLON SECADO RAPIDO CON FUNDA - (1.75X1.0CM).","Hola Accesorios Point 18, paso a revisar tu pedido P-00054 de TOALLON SECADO RAPIDO CON FUNDA - (1.75X1.0CM).",2026-08-07 08:57:15,true
+5493435983794,5493435983794,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-07 08:58:31,true
+5493435983794,5493435983794,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 49950.00.,Te confirmo que el pedido P-00054 fue registrado correctamente por 49950.00.,2026-08-07 08:59:08,true
+5493435983794,5493435983794,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-07 09:00:26,true
+5493435996865,5493435996865,ai,ai,"Hola Mercería La Costanera 13, paso a revisar tu pedido P-00037 de CAPELINA CON OREJITAS NENA.","Hola Mercería La Costanera 13, paso a revisar tu pedido P-00037 de CAPELINA CON OREJITAS NENA.",2026-08-08 08:57:15,true
+5493435996865,5493435996865,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 08:58:43,true
+5493435996865,5493435996865,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 218500.00.,Te confirmo que el pedido P-00037 fue registrado correctamente por 218500.00.,2026-08-08 08:59:37,true
+5493435996865,5493435996865,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 09:00:22,true

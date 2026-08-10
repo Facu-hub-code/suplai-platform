@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5492612780568,5492612780568,ai,ai,"Hola Heladería Artesanal, paso a revisar tu pedido P-00099 de VARY BLACK CRACK X 900 GRS.","Hola Heladería Artesanal, paso a revisar tu pedido P-00099 de VARY BLACK CRACK X 900 GRS.",2026-08-09 10:00:00,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 10:01:29,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 50534.16.,Te confirmo que el pedido P-00099 fue registrado correctamente por 50534.16.,2026-08-09 10:02:25,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 10:03:34,true
+5492612928724,5492612928724,ai,ai,"Hola Panadería-Confitería Paso Córdoba, paso a revisar tu pedido P-00123 de GRANA MIX CORAZON BLANCO-ROJO X 1 KG.","Hola Panadería-Confitería Paso Córdoba, paso a revisar tu pedido P-00123 de GRANA MIX CORAZON BLANCO-ROJO X 1 KG.",2026-08-10 12:00:00,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-10 12:00:45,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 7353.03.,Te confirmo que el pedido P-00123 fue registrado correctamente por 7353.03.,2026-08-10 12:01:18,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-10 12:02:51,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-10 12:03:47,true
+5492614053074,5492614053074,ai,ai,"Hola Café Helados Norte, vi que tenes un pedido abierto por PIROTINES Nº 8 METALIZADO NAVIDEÑO X 200 UNI y queria ayudarte a cerrarlo.","Hola Café Helados Norte, vi que tenes un pedido abierto por PIROTINES Nº 8 METALIZADO NAVIDEÑO X 200 UNI y queria ayudarte a cerrarlo.",2026-08-10 09:00:00,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-10 09:01:38,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 26386.07. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 26386.07. Si queres te lo dejo cerrado hoy.,2026-08-10 09:02:14,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-10 09:03:32,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-10 09:04:49,true
+5492615021286,5492615021286,ai,ai,"Hola Café Helados Real, paso a revisar tu pedido P-00112 de SALSA JAMER P/ HELADOS X 500 GRS CEREZA.","Hola Café Helados Real, paso a revisar tu pedido P-00112 de SALSA JAMER P/ HELADOS X 500 GRS CEREZA.",2026-08-08 10:00:00,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 10:01:49,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 32355.77.,Te confirmo que el pedido P-00112 fue registrado correctamente por 32355.77.,2026-08-08 10:02:37,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:03:20,true
+5492615139305,5492615139305,ai,ai,"Hola Confitería Roma, paso a revisar tu pedido P-00076 de COLORANTE PASTA VIOLETA N X 15 GR.","Hola Confitería Roma, paso a revisar tu pedido P-00076 de COLORANTE PASTA VIOLETA N X 15 GR.",2026-08-08 12:00:00,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 12:01:07,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 49471.62.,Te confirmo que el pedido P-00076 fue registrado correctamente por 49471.62.,2026-08-08 12:02:24,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 12:03:07,true
+5492617175545,5492617175545,ai,ai,"Hola Heladería Cipolletti, paso a revisar tu pedido P-00027 de PASTA SAMBAYON X 4.5 KG.","Hola Heladería Cipolletti, paso a revisar tu pedido P-00027 de PASTA SAMBAYON X 4.5 KG.",2026-08-09 09:00:00,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 09:01:29,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 339571.45.,Te confirmo que el pedido P-00027 fue registrado correctamente por 339571.45.,2026-08-09 09:02:18,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 09:03:37,true
+5492617236955,5492617236955,ai,ai,"Hola Repostería La Quinta, paso a revisar tu pedido P-00126 de VELA FINITAS DE 17 CM X 24 UNI TORNEADAS MULTICOLOR.","Hola Repostería La Quinta, paso a revisar tu pedido P-00126 de VELA FINITAS DE 17 CM X 24 UNI TORNEADAS MULTICOLOR.",2026-08-10 11:00:00,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-10 11:00:51,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 81756.03.,Te confirmo que el pedido P-00126 fue registrado correctamente por 81756.03.,2026-08-10 11:01:38,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-10 11:02:27,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-10 11:03:17,true
+5492617413812,5492617413812,ai,ai,"Hola Pastelería El Sauce, paso a revisar tu pedido P-00129 de COB S/AMARGA 70% 5711 BOTON X 3 KG.","Hola Pastelería El Sauce, paso a revisar tu pedido P-00129 de COB S/AMARGA 70% 5711 BOTON X 3 KG.",2026-08-10 10:00:00,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-10 10:01:50,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 1032852.64.,Te confirmo que el pedido P-00129 fue registrado correctamente por 1032852.64.,2026-08-10 10:03:07,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-10 10:04:02,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-10 10:05:14,true
+5492618861463,5492618861463,ai,ai,"Hola Pastelería Sorrento, paso a revisar tu pedido P-00079 de DULCE DE LECHE REPOSTERO LA AGUSTINA PREMIUM X 10 KG (BALDE PLAST).","Hola Pastelería Sorrento, paso a revisar tu pedido P-00079 de DULCE DE LECHE REPOSTERO LA AGUSTINA PREMIUM X 10 KG (BALDE PLAST).",2026-08-09 11:00:00,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 11:01:26,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 165047.67.,Te confirmo que el pedido P-00079 fue registrado correctamente por 165047.67.,2026-08-09 11:01:59,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 11:03:29,true
+5492618889598,5492618889598,ai,ai,"Hola Panadería-Confitería Imperial, paso a revisar tu pedido P-00110 de BANDEJA PIONERA 20X34 CM X 10 UNIDADES.","Hola Panadería-Confitería Imperial, paso a revisar tu pedido P-00110 de BANDEJA PIONERA 20X34 CM X 10 UNIDADES.",2026-08-09 11:00:00,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 11:01:35,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 12677.72.,Te confirmo que el pedido P-00110 fue registrado correctamente por 12677.72.,2026-08-09 11:02:32,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 11:03:34,true
+5492619239862,5492619239862,ai,ai,"Hola Café Helados Dulce Tentación, paso a revisar tu pedido P-00066 de SERVILLETAS ZIG ZAG P/HELADERIA X 10.000 UDS SER BOL.","Hola Café Helados Dulce Tentación, paso a revisar tu pedido P-00066 de SERVILLETAS ZIG ZAG P/HELADERIA X 10.000 UDS SER BOL.",2026-08-08 11:00:00,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 11:01:44,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 230035.80.,Te confirmo que el pedido P-00066 fue registrado correctamente por 230035.80.,2026-08-08 11:03:12,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 11:03:51,true
+5492991227644,5492991227644,ai,ai,"Hola Pastelería Don Julio, vi que tenes un pedido abierto por PASTA MASCARPONE X 5 KG y queria ayudarte a cerrarlo.","Hola Pastelería Don Julio, vi que tenes un pedido abierto por PASTA MASCARPONE X 5 KG y queria ayudarte a cerrarlo.",2026-08-10 12:00:00,true
+5492991227644,5492991227644,human,human,"Hola, queria hacer un reclamo por error de facturacion.","Hola, queria hacer un reclamo por error de facturacion.",2026-08-10 12:00:58,true
+5492991227644,5492991227644,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-08-10 12:02:14,true
+5492991227644,5492991227644,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-10 12:03:59,true
+5492991227644,5492991227644,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-10 12:04:29,true
+5492992500733,5492992500733,ai,ai,"Hola Heladería Venezia, paso a revisar tu pedido P-00073 de COLORANTE P.COBALTO COMESTIBLE X 4 GR.","Hola Heladería Venezia, paso a revisar tu pedido P-00073 de COLORANTE P.COBALTO COMESTIBLE X 4 GR.",2026-08-09 08:00:00,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 08:01:43,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 415289.89.,Te confirmo que el pedido P-00073 fue registrado correctamente por 415289.89.,2026-08-09 08:02:21,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 08:03:08,true
+5492994145193,5492994145193,ai,ai,"Hola Bombonería La Alborada, paso a revisar tu pedido P-00045 de POLVO FLAN VAINILLA INDUS. ( 7810- 2 ) X 6 KG.","Hola Bombonería La Alborada, paso a revisar tu pedido P-00045 de POLVO FLAN VAINILLA INDUS. ( 7810- 2 ) X 6 KG.",2026-08-09 08:00:00,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 08:01:01,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 1794605.30.,Te confirmo que el pedido P-00045 fue registrado correctamente por 1794605.30.,2026-08-09 08:02:08,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 08:03:33,true
+5492994228106,5492994228106,ai,ai,"Hola Heladería Frutillar, paso a revisar tu pedido P-00051 de POLVO PARA HELADOS SOFT JAMER X 9 KG YOGURT FRUTILLA.","Hola Heladería Frutillar, paso a revisar tu pedido P-00051 de POLVO PARA HELADOS SOFT JAMER X 9 KG YOGURT FRUTILLA.",2026-08-09 11:00:00,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 11:01:19,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 381246.28.,Te confirmo que el pedido P-00051 fue registrado correctamente por 381246.28.,2026-08-09 11:01:53,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 11:02:34,true
+5492995028869,5492995028869,ai,ai,"Hola Pastelería Calafate, paso a revisar tu pedido P-00057 de GRANA STICK MIX AMARILLO-AZUL X 900 GR.","Hola Pastelería Calafate, paso a revisar tu pedido P-00057 de GRANA STICK MIX AMARILLO-AZUL X 900 GR.",2026-08-09 09:00:00,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 09:01:25,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 2430746.25.,Te confirmo que el pedido P-00057 fue registrado correctamente por 2430746.25.,2026-08-09 09:01:55,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 09:03:09,true
+5492997489876,5492997489876,ai,ai,"Hola Casa de Torta Premier Norte, paso a revisar tu pedido P-00118 de GRANA STICK MIX AMARILLO-AZUL X 900 GR.","Hola Casa de Torta Premier Norte, paso a revisar tu pedido P-00118 de GRANA STICK MIX AMARILLO-AZUL X 900 GR.",2026-08-08 08:00:00,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 08:01:41,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 552974.22.,Te confirmo que el pedido P-00118 fue registrado correctamente por 552974.22.,2026-08-08 08:02:33,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:03:23,true
+5492997670210,5492997670210,ai,ai,"Hola Panadería-Confitería Mitre, paso a revisar tu pedido P-00037 de GRANA ESTRELLA MULTICOLOR X 1 KG.","Hola Panadería-Confitería Mitre, paso a revisar tu pedido P-00037 de GRANA ESTRELLA MULTICOLOR X 1 KG.",2026-08-09 10:00:00,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 10:01:07,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 19939.44.,Te confirmo que el pedido P-00037 fue registrado correctamente por 19939.44.,2026-08-09 10:01:54,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 10:02:55,true
+5492998066543,5492998066543,ai,ai,"Hola Confitería Industrial, paso a revisar tu pedido P-00132 de VARY CRISTAL MINT X 900 GRS.","Hola Confitería Industrial, paso a revisar tu pedido P-00132 de VARY CRISTAL MINT X 900 GRS.",2026-08-10 09:00:00,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-10 09:01:38,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 6952.67.,Te confirmo que el pedido P-00132 fue registrado correctamente por 6952.67.,2026-08-10 09:02:17,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-10 09:03:52,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-10 09:05:02,true
+5492998718887,5492998718887,ai,ai,"Hola Confitería Amancay, paso a revisar tu pedido P-00054 de POTE POLIPAPEL 390 CC 1/4 KG X 4 TIRAS 116 U BLANCO.","Hola Confitería Amancay, paso a revisar tu pedido P-00054 de POTE POLIPAPEL 390 CC 1/4 KG X 4 TIRAS 116 U BLANCO.",2026-08-08 10:00:00,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 10:01:57,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 123968.87.,Te confirmo que el pedido P-00054 fue registrado correctamente por 123968.87.,2026-08-08 10:02:43,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:03:49,true
+5492999435946,5492999435946,ai,ai,"Hola Café Helados Puente, paso a revisar tu pedido P-00135 de VELA FINITAS DE 17 CM X 24 UNI TORNEADAS ROSA.","Hola Café Helados Puente, paso a revisar tu pedido P-00135 de VELA FINITAS DE 17 CM X 24 UNI TORNEADAS ROSA.",2026-08-10 08:00:00,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-10 08:01:43,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 395329.14.,Te confirmo que el pedido P-00135 fue registrado correctamente por 395329.14.,2026-08-10 08:02:31,true
+5492999435946,5492999435946,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-10 08:04:17,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-10 08:04:49,true
+5493414799650,5493414799650,ai,ai,"Hola Casa de Torta Italia, paso a revisar tu pedido P-00071 de PASTA BALLINA DE GOMA X 500 GR.","Hola Casa de Torta Italia, paso a revisar tu pedido P-00071 de PASTA BALLINA DE GOMA X 500 GR.",2026-08-08 09:00:00,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 09:00:58,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 67174.35.,Te confirmo que el pedido P-00071 fue registrado correctamente por 67174.35.,2026-08-08 09:01:38,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 09:02:31,true
+5493416524997,5493416524997,ai,ai,"Hola Casa de Torta Municipal, paso a revisar tu pedido P-00138 de MICKY PASTA UNTABLE TIRAMISU X 450 GRS.","Hola Casa de Torta Municipal, paso a revisar tu pedido P-00138 de MICKY PASTA UNTABLE TIRAMISU X 450 GRS.",2026-08-08 12:00:00,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 12:00:51,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 16173.60.,Te confirmo que el pedido P-00138 fue registrado correctamente por 16173.60.,2026-08-08 12:01:50,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 12:02:57,true
+5493416986538,5493416986538,ai,ai,"Hola Panadería-Confitería Artística, paso a revisar tu pedido P-00063 de EXTRACTO DE MALTA, FLEIBOR X 60 GRS.","Hola Panadería-Confitería Artística, paso a revisar tu pedido P-00063 de EXTRACTO DE MALTA, FLEIBOR X 60 GRS.",2026-08-09 12:00:00,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 12:01:29,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 38165.11.,Te confirmo que el pedido P-00063 fue registrado correctamente por 38165.11.,2026-08-09 12:02:31,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 12:03:34,true
+5493418277249,5493418277249,ai,ai,"Hola Repostería Los Pinos, vi que tenes un pedido abierto por MINI MERENGUITOS BLANCO X 12 PAQ y queria ayudarte a cerrarlo.","Hola Repostería Los Pinos, vi que tenes un pedido abierto por MINI MERENGUITOS BLANCO X 12 PAQ y queria ayudarte a cerrarlo.",2026-08-10 11:00:00,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-08-10 11:01:38,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-10 11:02:20,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-10 11:03:21,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-10 11:04:10,true
+5493419686914,5493419686914,ai,ai,"Hola Café Helados Centro, paso a revisar tu pedido P-00090 de CUCHARITA COMESTIBLE SIN TACC X 250 U.","Hola Café Helados Centro, paso a revisar tu pedido P-00090 de CUCHARITA COMESTIBLE SIN TACC X 250 U.",2026-08-08 08:00:00,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 08:00:56,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 54488.32.,Te confirmo que el pedido P-00090 fue registrado correctamente por 54488.32.,2026-08-08 08:02:20,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:03:43,true
+5493513952681,5493513952681,ai,ai,"Hola Bombonería Capri, paso a revisar tu pedido P-00068 de VELA FINITAS DE 17 CM X 24 UNI TORNEADAS NENA.","Hola Bombonería Capri, paso a revisar tu pedido P-00068 de VELA FINITAS DE 17 CM X 24 UNI TORNEADAS NENA.",2026-08-09 10:00:00,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 10:01:10,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 7275.25.,Te confirmo que el pedido P-00068 fue registrado correctamente por 7275.25.,2026-08-09 10:02:21,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 10:03:19,true
+5493514079279,5493514079279,ai,ai,"Hola Bombonería San Martín, vi que tenes un pedido abierto por POLVO PARA HELADOS SOFT JAMER X 9 KG CHOCOLATE y queria ayudarte a cerrarlo.","Hola Bombonería San Martín, vi que tenes un pedido abierto por POLVO PARA HELADOS SOFT JAMER X 9 KG CHOCOLATE y queria ayudarte a cerrarlo.",2026-08-10 08:00:00,true
+5493514079279,5493514079279,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-10 08:01:48,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 331040.42. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 331040.42. Si queres te lo dejo cerrado hoy.,2026-08-10 08:03:03,true
+5493514079279,5493514079279,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-10 08:04:05,true
+5493514079279,5493514079279,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-10 08:05:09,true
+5493515971311,5493515971311,ai,ai,"Hola Casa de Torta Río Negro, paso a revisar tu pedido P-00048 de VARY CRISTAL MINT X 4,5 KILOS.","Hola Casa de Torta Río Negro, paso a revisar tu pedido P-00048 de VARY CRISTAL MINT X 4,5 KILOS.",2026-08-08 12:00:00,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 12:01:08,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 198750.59.,Te confirmo que el pedido P-00048 fue registrado correctamente por 198750.59.,2026-08-08 12:02:26,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 12:03:04,true
+5493516216782,5493516216782,ai,ai,"Hola Casa de Torta Gourmet, paso a revisar tu pedido P-00096 de GRANULADO CHUNKS S/AMARGO X 1 KG.","Hola Casa de Torta Gourmet, paso a revisar tu pedido P-00096 de GRANULADO CHUNKS S/AMARGO X 1 KG.",2026-08-08 11:00:00,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 11:00:46,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 94570.76.,Te confirmo que el pedido P-00096 fue registrado correctamente por 94570.76.,2026-08-08 11:02:05,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 11:03:13,true
+5493517304254,5493517304254,ai,ai,"Hola Repostería Neuquén Sur, paso a revisar tu pedido P-00060 de GRANA COLOR NEGRA X 1 KG.","Hola Repostería Neuquén Sur, paso a revisar tu pedido P-00060 de GRANA COLOR NEGRA X 1 KG.",2026-08-08 08:00:00,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 08:01:49,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 24232.44.,Te confirmo que el pedido P-00060 fue registrado correctamente por 24232.44.,2026-08-08 08:02:41,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:03:55,true
+5493517632424,5493517632424,ai,ai,"Hola Bombonería Terminal, paso a revisar tu pedido P-00141 de VELA GIBRE CELESTE Nº 0.","Hola Bombonería Terminal, paso a revisar tu pedido P-00141 de VELA GIBRE CELESTE Nº 0.",2026-08-09 11:00:00,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 11:01:16,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 3372.24.,Te confirmo que el pedido P-00141 fue registrado correctamente por 3372.24.,2026-08-09 11:02:23,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 11:03:50,true
+5493518648263,5493518648263,ai,ai,"Hola Bombonería Express, paso a revisar tu pedido P-00093 de VARY LIMONITA X 900 GRS.","Hola Bombonería Express, paso a revisar tu pedido P-00093 de VARY LIMONITA X 900 GRS.",2026-08-09 12:00:00,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 12:01:53,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 158233.78.,Te confirmo que el pedido P-00093 fue registrado correctamente por 158233.78.,2026-08-09 12:03:06,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 12:04:31,true
+5493519107005,5493519107005,ai,ai,"Hola Heladería Los Álamos, paso a revisar tu pedido P-00144 de FECULA ALZOL X 1 KG.","Hola Heladería Los Álamos, paso a revisar tu pedido P-00144 de FECULA ALZOL X 1 KG.",2026-08-08 10:00:00,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 10:01:34,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 375094.92.,Te confirmo que el pedido P-00144 fue registrado correctamente por 375094.92.,2026-08-08 10:02:17,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:03:46,true
+5493582132179,5493582132179,ai,ai,"Hola Pastelería Don Bosco, paso a revisar tu pedido P-00032 de CONO 0 X 1700 UNIDADES APROX.","Hola Pastelería Don Bosco, paso a revisar tu pedido P-00032 de CONO 0 X 1700 UNIDADES APROX.",2026-08-09 12:00:00,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 12:01:33,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 107373.07.,Te confirmo que el pedido P-00032 fue registrado correctamente por 107373.07.,2026-08-09 12:02:57,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 12:03:44,true
+5493582639964,5493582639964,ai,ai,"Hola Confitería Familiar, paso a revisar tu pedido P-00102 de PASTA BALLINA CHOCOLATE X 3 KG.","Hola Confitería Familiar, paso a revisar tu pedido P-00102 de PASTA BALLINA CHOCOLATE X 3 KG.",2026-08-08 09:00:00,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 09:00:48,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 87574.06.,Te confirmo que el pedido P-00102 fue registrado correctamente por 87574.06.,2026-08-08 09:01:39,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 09:02:19,true
+5493582641213,5493582641213,ai,ai,"Hola Confitería La Patagonia, vi que tenes un pedido abierto por GELATINA SABOR NARANJA X 1KG y queria ayudarte a cerrarlo.","Hola Confitería La Patagonia, vi que tenes un pedido abierto por GELATINA SABOR NARANJA X 1KG y queria ayudarte a cerrarlo.",2026-08-10 01:00:00,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-08-10 01:01:24,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-10 01:02:28,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-10 01:03:23,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-10 01:04:20,true
+5493587747641,5493587747641,ai,ai,"Hola Panadería-Confitería El Manzano, vi que tenes un pedido abierto por VELA SET FELIZ CUMPLE X 11 PIEZAS y queria ayudarte a cerrarlo.","Hola Panadería-Confitería El Manzano, vi que tenes un pedido abierto por VELA SET FELIZ CUMPLE X 11 PIEZAS y queria ayudarte a cerrarlo.",2026-08-10 10:00:00,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-10 10:01:44,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 532911.02. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 532911.02. Si queres te lo dejo cerrado hoy.,2026-08-10 10:02:46,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-10 10:04:22,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-10 10:05:12,true
+5493587905250,5493587905250,ai,ai,"Hola Heladería Del Valle, vi que tenes un pedido abierto por FLEIGEL NARANJA X 15 GR y queria ayudarte a cerrarlo.","Hola Heladería Del Valle, vi que tenes un pedido abierto por FLEIGEL NARANJA X 15 GR y queria ayudarte a cerrarlo.",2026-08-10 02:00:00,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-10 02:00:58,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,2026-08-10 02:02:25,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-10 02:04:08,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-10 02:04:40,true
+5493811657614,5493811657614,ai,ai,"Hola Café Helados Yrigoyen, paso a revisar tu pedido P-00040 de SALSA JAMER P/ HELADOS X 900 GRS DULCE DE LECHE.","Hola Café Helados Yrigoyen, paso a revisar tu pedido P-00040 de SALSA JAMER P/ HELADOS X 900 GRS DULCE DE LECHE.",2026-08-08 09:00:00,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 09:01:23,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 15657.84.,Te confirmo que el pedido P-00040 fue registrado correctamente por 15657.84.,2026-08-08 09:02:19,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 09:03:16,true
+5493812941974,5493812941974,ai,ai,"Hola Repostería Palermo, paso a revisar tu pedido P-00084 de GRANA MIX CORAZON NEGRO-ROJO X 1 KG.","Hola Repostería Palermo, paso a revisar tu pedido P-00084 de GRANA MIX CORAZON NEGRO-ROJO X 1 KG.",2026-08-08 10:00:00,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 10:01:55,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 331818.03.,Te confirmo que el pedido P-00084 fue registrado correctamente por 331818.03.,2026-08-08 10:03:05,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:03:38,true
+5493813520000,5493813520000,ai,ai,"Hola Bombonería Premier Sur, paso a revisar tu pedido P-00115 de MINI GOTA BLANCA X 3 KG.","Hola Bombonería Premier Sur, paso a revisar tu pedido P-00115 de MINI GOTA BLANCA X 3 KG.",2026-08-09 09:00:00,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 09:00:51,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 68063.20.,Te confirmo que el pedido P-00115 fue registrado correctamente por 68063.20.,2026-08-09 09:01:57,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 09:03:23,true
+5493814729528,5493814729528,ai,ai,"Hola Pastelería Premier, paso a revisar tu pedido P-00105 de REDONDELA BOMBON BANANITA X 3 KG A GRANEL.","Hola Pastelería Premier, paso a revisar tu pedido P-00105 de REDONDELA BOMBON BANANITA X 3 KG A GRANEL.",2026-08-09 08:00:00,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 08:01:34,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 1532768.62.,Te confirmo que el pedido P-00105 fue registrado correctamente por 1532768.62.,2026-08-09 08:02:44,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 08:04:06,true
+5493817404433,5493817404433,ai,ai,"Hola Panadería-Confitería Belgrano, paso a revisar tu pedido P-00087 de MICKY PASTA UNTABLE MANI X 450 GRS.","Hola Panadería-Confitería Belgrano, paso a revisar tu pedido P-00087 de MICKY PASTA UNTABLE MANI X 450 GRS.",2026-08-09 09:00:00,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 09:01:36,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 20747.28.,Te confirmo que el pedido P-00087 fue registrado correctamente por 20747.28.,2026-08-09 09:03:02,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 09:04:05,true
+5493818437953,5493818437953,ai,ai,"Hola Confitería Las Bardas, paso a revisar tu pedido P-00029 de COLORANTE PASTA VERDE Y X 15 GR.","Hola Confitería Las Bardas, paso a revisar tu pedido P-00029 de COLORANTE PASTA VERDE Y X 15 GR.",2026-08-08 08:00:00,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 08:01:38,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 2216.60.,Te confirmo que el pedido P-00029 fue registrado correctamente por 2216.60.,2026-08-08 08:02:29,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:03:24,true
+5493872845902,5493872845902,ai,ai,"Hola Repostería Anahí, paso a revisar tu pedido P-00034 de COLORANTE PASTA VIOLETA L X 15 GR.","Hola Repostería Anahí, paso a revisar tu pedido P-00034 de COLORANTE PASTA VIOLETA L X 15 GR.",2026-08-08 11:00:00,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 11:01:02,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 334363.29.,Te confirmo que el pedido P-00034 fue registrado correctamente por 334363.29.,2026-08-08 11:02:25,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 11:03:04,true
+5493874104594,5493874104594,ai,ai,"Hola Confitería Las Acacias, paso a revisar tu pedido P-00146 de TIRAMISU GB020 X 6 KG.","Hola Confitería Las Acacias, paso a revisar tu pedido P-00146 de TIRAMISU GB020 X 6 KG.",2026-08-09 09:00:00,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-09 09:01:09,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 509842.68.,Te confirmo que el pedido P-00146 fue registrado correctamente por 509842.68.,2026-08-09 09:02:27,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-09 09:02:58,true
+5493876499570,5493876499570,ai,ai,"Hola Heladería Universitaria, paso a revisar tu pedido P-00149 de GRANA MIX CORAZON AMARILLO-AZUL X 1 KG.","Hola Heladería Universitaria, paso a revisar tu pedido P-00149 de GRANA MIX CORAZON AMARILLO-AZUL X 1 KG.",2026-08-08 08:00:00,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 08:00:48,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 1009684.20.,Te confirmo que el pedido P-00149 fue registrado correctamente por 1009684.20.,2026-08-08 08:01:26,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 08:02:22,true
+5493876914178,5493876914178,ai,ai,"Hola Casa de Torta La Esquina, paso a revisar tu pedido P-00024 de CHOCOLATE MOUSSE P/HELADOS X 5 KG.","Hola Casa de Torta La Esquina, paso a revisar tu pedido P-00024 de CHOCOLATE MOUSSE P/HELADOS X 5 KG.",2026-08-08 10:00:00,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 10:01:33,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 1273722.84.,Te confirmo que el pedido P-00024 fue registrado correctamente por 1273722.84.,2026-08-08 10:02:42,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 10:03:47,true
+5493876922419,5493876922419,ai,ai,"Hola Repostería Selecta, paso a revisar tu pedido P-00107 de BRILLANTINA COMESTIBLE, PLATEADO PACK X 4.","Hola Repostería Selecta, paso a revisar tu pedido P-00107 de BRILLANTINA COMESTIBLE, PLATEADO PACK X 4.",2026-08-08 12:00:00,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-08 12:01:04,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 284372.22.,Te confirmo que el pedido P-00107 fue registrado correctamente por 284372.22.,2026-08-08 12:01:42,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-08 12:02:33,true

@@ -1,0 +1,25 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5492618861463,ChocoRincón,25027,validado,2026-08-09T13:52:06.931369+00:00,,false
+5493812941974,Golosinas del Barrio,25028,validado,2026-08-09T13:52:06.931369+00:00,,false
+5493817404433,Almacén de Dulces,25029,validado,2026-08-09T13:52:06.931369+00:00,,false
+5493419686914,Chocolates y Galletas,25030,validado,2026-08-09T13:52:06.931369+00:00,,false
+5493518648263,Dulce Vida,25031,existente,,,false
+5493516216782,ChocoMundo,25032,existente,,,false
+5492612780568,Galletas y Más,25033,existente,,,false
+5493582639964,Dulces y Delicias,25034,existente,,,false
+5493814729528,Chocolatería del Río,25035,existente,,,false
+5493876922419,La Tienda Dulce,25036,existente,,,false
+5492618889598,Golosinas y Más,25037,existente,,,false
+5492615021286,Dulce Sazón,25038,existente,,,false
+5493813520000,ChocoLoco,25039,existente,,,false
+5492997489876,Galletas y Snacks,25040,existente,,,false
+5493519107005,Dulces y Sabores,0,no_validado,,PROSPECTO,true
+5493874104594,Chocolates y Galletas,0,existente,,PROSPECTO,true
+5492617413812,La Casa de los Dulces,0,no_validado,,PROSPECTO,true
+5492617236955,Dulce Tentación,0,existente,,PROSPECTO,true
+5492612928724,ChocoDelicias,0,no_validado,,PROSPECTO,true
+5492999435946,Galletas del Bosque,0,validado,2026-08-09T13:52:06.931369+00:00,PROSPECTO,true
+5493517632424,Dulces y Alegrías,0,no_existente,,PROSPECTO,true
+5493416524997,Chocolatería La Estrella,0,no_validado,,PROSPECTO,true
+5493876499570,La Golosina Feliz,0,existente,,PROSPECTO,true
+5492998066543,Dulces y Más,0,no_validado,,PROSPECTO,true

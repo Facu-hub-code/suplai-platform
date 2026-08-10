@@ -22,7 +22,7 @@ description: Fase 4 red comercial — 3 vendedores, 6 zonas, 50 clientes mock ge
 ## Output
 
 1. `phase-04-vendedores.csv`
-2. `phase-04-zonas.csv` — `geometry_geojson` simplificado (polígono pequeño alrededor de centro ciudad)
+2. `phase-04-zonas.csv` — `geometry_wkt` MultiPolygon irregular (no bbox) por zona
 3. `phase-04-clientes.csv` — `lat`, `lng` dispersos en radio 2–10 km
 
 ## Generación
@@ -30,6 +30,7 @@ description: Fase 4 red comercial — 3 vendedores, 6 zonas, 50 clientes mock ge
 - Vendedores: nombres locales, teléfono país correcto (549 AR), email `*@suplaisales.mock`, `is_mock=true`
 - Zonas: nombres con barrios/rutas reales de `ciudad_base`; `dia_visita` lunes–sábado rotado; color hex brillante.
   - **Criterio de Tamaño y Topología**: Las 6 zonas deben ser **chicas** e independientes (polígonos de barrios puntuales, no uno gigante que cubra toda la ciudad). Evitar cruces de líneas o vértices inválidos.
+  - **Forma del polígono (OBLIGATORIO)**: **Prohibido** usar bounding boxes / cuadrados / rectángulos axis-aligned. Cada zona **MUST** ser un polígono irregular (5–8 vértices) — convex hull de clientes de la zona, silueta de barrio, o pétalos irregulares alrededor del centro. El mapa comercial no debe verse como una grilla de cajas.
   - **Tipado Geométrico**: Representación espacial estrictamente formateada como `MultiPolygon` con SRID 4326: `SRID=4326;MULTIPOLYGON(((lon lat, lon lat, ...)))` para evitar fallas PostGIS.
   - **Enumerador `zone_type`**: Usar valores enums permitidos por el esquema (ej. `'sales'` o `'route'`). NO usar términos no soportados como `'territory'`.
 - Clientes: ferreterías/pinturerías/corralones si rubro pintura; `lista_precios_id` 1–4 distribuido; teléfonos únicos.
