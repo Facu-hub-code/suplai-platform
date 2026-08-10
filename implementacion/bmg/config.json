@@ -1,0 +1,13 @@
+{
+  "dominios": "pency.app,mercadolibre.com.ar",
+  "sufijo_fallback": "mayorista indumentaria bazar juguetes argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS BMG MAYORISTA (Paraná, Entre Ríos): indumentaria, medias, accesorios, bazar, juguetería, blanquería, escolar, ferretería, belleza. Empezar con sustantivo de categoría. Sin marketing. Incluir presentación/pack si aparece en el nombre. Alias locales cortos para WhatsApp.",
+  "red_comercial": {
+    "coordenadas_centro": [
+      -31.733,
+      -60.5299
+    ],
+    "nota": "Paraná barrios reales; clientes rubro bazar/juguetería/mercería"
+  }
+}

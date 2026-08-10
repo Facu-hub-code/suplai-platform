@@ -1,0 +1,25 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+27,ChocoRincón,ChocoRincón,5492618861463,4,27,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Antonio - Corrientes, Corrientes, Argentina",María González,0,0,-27.480482,-58.849121,true
+28,Golosinas del Barrio,Golosinas del Barrio,5493812941974,1,28,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Antonio - Corrientes, Corrientes, Argentina",María González,0,0,-27.480093,-58.852277,true
+29,Almacén de Dulces,Almacén de Dulces,5493817404433,2,29,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Antonio - Corrientes, Corrientes, Argentina",María González,0,0,-27.475333,-58.851218,true
+30,Chocolates y Galletas,Chocolates y Galletas,5493419686914,3,30,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Antonio - Corrientes, Corrientes, Argentina",María González,0,0,-27.475316,-58.854955,true
+31,Dulce Vida,Dulce Vida,5493518648263,4,31,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Antonio - Corrientes, Corrientes, Argentina",María González,0,0,-27.48004,-58.847456,true
+32,ChocoMundo,ChocoMundo,5493516216782,1,32,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Antonio - Corrientes, Corrientes, Argentina",María González,0,0,-27.479731,-58.847708,true
+33,Galletas y Más,Galletas y Más,5492612780568,2,33,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Antonio - Corrientes, Corrientes, Argentina",María González,0,0,-27.481993,-58.852244,true
+34,Dulces y Delicias,Dulces y Delicias,5493582639964,3,34,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Antonio - Corrientes, Corrientes, Argentina",María González,0,0,-27.475846,-58.851398,true
+35,Chocolatería del Río,Chocolatería del Río,5493814729528,4,35,viernes,sabado,"Zona ZONA SUR - Barrio La Chola - Corrientes, Corrientes, Argentina",Carlos López,1,1,-27.478486,-58.833709,true
+36,La Tienda Dulce,La Tienda Dulce,5493876922419,1,36,viernes,sabado,"Zona ZONA SUR - Barrio La Chola - Corrientes, Corrientes, Argentina",Carlos López,1,1,-27.482045,-58.83066,true
+37,Golosinas y Más,Golosinas y Más,5492618889598,2,37,viernes,sabado,"Zona ZONA SUR - Barrio La Chola - Corrientes, Corrientes, Argentina",Carlos López,1,1,-27.476384,-58.83178,true
+38,Dulce Sazón,Dulce Sazón,5492615021286,3,38,viernes,sabado,"Zona ZONA SUR - Barrio La Chola - Corrientes, Corrientes, Argentina",Carlos López,1,1,-27.477522,-58.835974,true
+39,ChocoLoco,ChocoLoco,5493813520000,4,39,viernes,sabado,"Zona ZONA SUR - Barrio La Chola - Corrientes, Corrientes, Argentina",Carlos López,1,1,-27.480522,-58.83482,true
+40,Galletas y Snacks,Galletas y Snacks,5492997489876,1,40,viernes,sabado,"Zona ZONA SUR - Barrio La Chola - Corrientes, Corrientes, Argentina",Carlos López,1,1,-27.475899,-58.834646,true
+41,Dulces y Sabores,Dulces y Sabores,5493519107005,2,41,viernes,sabado,"Zona ZONA SUR - Barrio La Chola - Corrientes, Corrientes, Argentina",Carlos López,1,1,-27.479475,-58.833798,true
+42,Chocolates y Galletas,Chocolates y Galletas,5493874104594,3,42,viernes,sabado,"Zona ZONA SUR - Barrio La Chola - Corrientes, Corrientes, Argentina",Carlos López,1,1,-27.47439,-58.830885,true
+43,La Casa de los Dulces,La Casa de los Dulces,5492617413812,4,43,sabado,lunes,"Zona ZONA SURESTE - Barrio El Trébol - Corrientes, Corrientes, Argentina",Carlos López,1,2,-27.480137,-58.814434,true
+44,Dulce Tentación,Dulce Tentación,5492617236955,1,44,sabado,lunes,"Zona ZONA SURESTE - Barrio El Trébol - Corrientes, Corrientes, Argentina",Carlos López,1,2,-27.480597,-58.808085,true
+45,ChocoDelicias,ChocoDelicias,5492612928724,2,45,sabado,lunes,"Zona ZONA SURESTE - Barrio El Trébol - Corrientes, Corrientes, Argentina",Carlos López,1,2,-27.477309,-58.811943,true
+46,Galletas del Bosque,Galletas del Bosque,5492999435946,3,46,sabado,lunes,"Zona ZONA SURESTE - Barrio El Trébol - Corrientes, Corrientes, Argentina",Carlos López,1,2,-27.482008,-58.810251,true
+47,Dulces y Alegrías,Dulces y Alegrías,5493517632424,4,47,sabado,lunes,"Zona ZONA SURESTE - Barrio El Trébol - Corrientes, Corrientes, Argentina",Carlos López,1,2,-27.47906,-58.814907,true
+48,Chocolatería La Estrella,Chocolatería La Estrella,5493416524997,1,48,sabado,lunes,"Zona ZONA SURESTE - Barrio El Trébol - Corrientes, Corrientes, Argentina",Carlos López,1,2,-27.474472,-58.812056,true
+49,La Golosina Feliz,La Golosina Feliz,5493876499570,2,49,sabado,lunes,"Zona ZONA SURESTE - Barrio El Trébol - Corrientes, Corrientes, Argentina",Carlos López,1,2,-27.482502,-58.815417,true
+50,Dulces y Más,Dulces y Más,5492998066543,3,50,sabado,lunes,"Zona ZONA SURESTE - Barrio El Trébol - Corrientes, Corrientes, Argentina",Carlos López,1,2,-27.481894,-58.810421,true

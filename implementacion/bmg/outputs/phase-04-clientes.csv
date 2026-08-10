@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Indumentaria Paraná,Indumentaria Paraná,5493587905250,2,1,lunes,martes,"Zona ZONA NOROESTE - Barrio San Agustín - Paraná, Entre Ríos, Argentina",Juan Pérez,0,0,-31.720187,-60.554099,true
+2,Ropa y Accesorios,Ropa y Accesorios,5493582641213,3,2,lunes,martes,"Zona ZONA NOROESTE - Barrio San Agustín - Paraná, Entre Ríos, Argentina",Juan Pérez,0,0,-31.720226,-60.548202,true
+3,Medias y Más,Medias y Más,5492991227644,4,3,lunes,martes,"Zona ZONA NOROESTE - Barrio San Agustín - Paraná, Entre Ríos, Argentina",Juan Pérez,0,0,-31.720033,-60.554314,true
+4,Bazares del Norte,Bazares del Norte,5493418277249,1,4,lunes,martes,"Zona ZONA NOROESTE - Barrio San Agustín - Paraná, Entre Ríos, Argentina",Juan Pérez,0,0,-31.722791,-60.550687,true
+5,Juguetería Fantasía,Juguetería Fantasía,5493587747641,2,5,lunes,martes,"Zona ZONA NOROESTE - Barrio San Agustín - Paraná, Entre Ríos, Argentina",Juan Pérez,0,0,-31.723027,-60.5513,true
+6,Librería El Saber,Librería El Saber,5492614053074,3,6,lunes,martes,"Zona ZONA NOROESTE - Barrio San Agustín - Paraná, Entre Ríos, Argentina",Juan Pérez,0,0,-31.723789,-60.545139,true
+7,Artículos para Todos,Artículos para Todos,5493514079279,4,7,lunes,martes,"Zona ZONA NOROESTE - Barrio San Agustín - Paraná, Entre Ríos, Argentina",Juan Pérez,0,0,-31.723169,-60.545878,true
+8,Moda y Estilo,Moda y Estilo,5493876914178,1,8,lunes,martes,"Zona ZONA NOROESTE - Barrio San Agustín - Paraná, Entre Ríos, Argentina",Juan Pérez,0,0,-31.724534,-60.552614,true
+9,Accesorios Únicos,Accesorios Únicos,5492617175545,2,9,lunes,martes,"Zona ZONA NOROESTE - Barrio San Agustín - Paraná, Entre Ríos, Argentina",Juan Pérez,0,0,-31.719441,-60.546895,true
+10,Todo en Ropa,Todo en Ropa,5493818437953,3,10,martes,miercoles,"Zona ZONA NORTE - Barrio La Floresta - Paraná, Entre Ríos, Argentina",María González,1,1,-31.723956,-60.53243,true
+11,El Rincón del Juguete,El Rincón del Juguete,5493582132179,4,11,martes,miercoles,"Zona ZONA NORTE - Barrio La Floresta - Paraná, Entre Ríos, Argentina",María González,1,1,-31.718218,-60.527819,true
+12,Librería Creativa,Librería Creativa,5493872845902,1,12,martes,miercoles,"Zona ZONA NORTE - Barrio La Floresta - Paraná, Entre Ríos, Argentina",María González,1,1,-31.724418,-60.524907,true
+13,Bazares de la Ciudad,Bazares de la Ciudad,5492997670210,2,13,martes,miercoles,"Zona ZONA NORTE - Barrio La Floresta - Paraná, Entre Ríos, Argentina",María González,1,1,-31.720695,-60.533581,true
+14,Indumentaria y Más,Indumentaria y Más,5493811657614,3,14,martes,miercoles,"Zona ZONA NORTE - Barrio La Floresta - Paraná, Entre Ríos, Argentina",María González,1,1,-31.723987,-60.530155,true
+15,Ropa Interior Confort,Ropa Interior Confort,5492994145193,4,15,martes,miercoles,"Zona ZONA NORTE - Barrio La Floresta - Paraná, Entre Ríos, Argentina",María González,1,1,-31.725461,-60.525452,true
+16,Medias Coloridas,Medias Coloridas,5493515971311,1,16,martes,miercoles,"Zona ZONA NORTE - Barrio La Floresta - Paraná, Entre Ríos, Argentina",María González,1,1,-31.720359,-60.534023,true
+17,Accesorios de Moda,Accesorios de Moda,5492994228106,2,17,martes,miercoles,"Zona ZONA NORTE - Barrio La Floresta - Paraná, Entre Ríos, Argentina",María González,1,1,-31.72343,-60.531572,true
+18,Juguetes y Sueños,Juguetes y Sueños,5492998718887,3,18,martes,miercoles,"Zona ZONA NORTE - Barrio La Floresta - Paraná, Entre Ríos, Argentina",María González,1,1,-31.721378,-60.527081,true
+19,Librería Infantil,Librería Infantil,5492995028869,4,19,miercoles,jueves,"Zona ZONA NORESTE - Barrio San Martín - Paraná, Entre Ríos, Argentina",María González,1,2,-31.718749,-60.513968,true
+20,Artículos de Regalo,Artículos de Regalo,5493517304254,1,20,miercoles,jueves,"Zona ZONA NORESTE - Barrio San Martín - Paraná, Entre Ríos, Argentina",María González,1,2,-31.718458,-60.508726,true
+21,Indumentaria Mayorista,Indumentaria Mayorista,5493416986538,2,21,miercoles,jueves,"Zona ZONA NORESTE - Barrio San Martín - Paraná, Entre Ríos, Argentina",María González,1,2,-31.726062,-60.511223,true
+22,Ropa Casual,Ropa Casual,5492619239862,3,22,miercoles,jueves,"Zona ZONA NORESTE - Barrio San Martín - Paraná, Entre Ríos, Argentina",María González,1,2,-31.724892,-60.510192,true
+23,Accesorios para el Hogar,Accesorios para el Hogar,5493513952681,4,23,miercoles,jueves,"Zona ZONA NORESTE - Barrio San Martín - Paraná, Entre Ríos, Argentina",María González,1,2,-31.719861,-60.512858,true
+24,Medias de Calidad,Medias de Calidad,5493414799650,1,24,miercoles,jueves,"Zona ZONA NORESTE - Barrio San Martín - Paraná, Entre Ríos, Argentina",María González,1,2,-31.724196,-60.511001,true
+25,Juguetes para Todos,Juguetes para Todos,5492992500733,2,25,miercoles,jueves,"Zona ZONA NORESTE - Barrio San Martín - Paraná, Entre Ríos, Argentina",María González,1,2,-31.721472,-60.507286,true
+26,Librería y Papelería,Librería y Papelería,5492615139305,3,26,miercoles,jueves,"Zona ZONA NORESTE - Barrio San Martín - Paraná, Entre Ríos, Argentina",María González,1,2,-31.724658,-60.510037,true
+27,Bazares y Más,Bazares y Más,5492618861463,4,27,jueves,viernes,"Zona ZONA SUROESTE - Barrio El Parque - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,3,-31.744782,-60.547821,true
+28,Todo para Revender,Todo para Revender,5493812941974,1,28,jueves,viernes,"Zona ZONA SUROESTE - Barrio El Parque - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,3,-31.744393,-60.550977,true
+29,Ropa de Trabajo,Ropa de Trabajo,5493817404433,2,29,jueves,viernes,"Zona ZONA SUROESTE - Barrio El Parque - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,3,-31.739633,-60.549918,true
+30,Accesorios de Oficina,Accesorios de Oficina,5493419686914,3,30,jueves,viernes,"Zona ZONA SUROESTE - Barrio El Parque - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,3,-31.739616,-60.553655,true
+31,Medias Deportivas,Medias Deportivas,5493518648263,4,31,jueves,viernes,"Zona ZONA SUROESTE - Barrio El Parque - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,3,-31.74434,-60.546156,true
+32,Juguetes Educativos,Juguetes Educativos,5493516216782,1,32,jueves,viernes,"Zona ZONA SUROESTE - Barrio El Parque - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,3,-31.744031,-60.546408,true
+33,Librería y Arte,Librería y Arte,5492612780568,2,33,jueves,viernes,"Zona ZONA SUROESTE - Barrio El Parque - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,3,-31.746293,-60.550944,true
+34,Indumentaria Femenina,Indumentaria Femenina,5493582639964,3,34,jueves,viernes,"Zona ZONA SUROESTE - Barrio El Parque - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,3,-31.740146,-60.550098,true
+35,Ropa de Niños,Ropa de Niños,5493814729528,4,35,viernes,sabado,"Zona ZONA SUR - Barrio Villa Urquiza - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,4,-31.742786,-60.532409,true
+36,Accesorios para Mascotas,Accesorios para Mascotas,5493876922419,1,36,viernes,sabado,"Zona ZONA SUR - Barrio Villa Urquiza - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,4,-31.746345,-60.52936,true
+37,Medias de Algodón,Medias de Algodón,5492618889598,2,37,viernes,sabado,"Zona ZONA SUR - Barrio Villa Urquiza - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,4,-31.740684,-60.53048,true
+38,Juguetes de Madera,Juguetes de Madera,5492615021286,3,38,viernes,sabado,"Zona ZONA SUR - Barrio Villa Urquiza - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,4,-31.741822,-60.534674,true
+39,Librería y Papelería Creativa,Librería y Papelería Creativa,5493813520000,4,39,viernes,sabado,"Zona ZONA SUR - Barrio Villa Urquiza - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,4,-31.744822,-60.53352,true
+40,Bazares y Regalos,Bazares y Regalos,5492997489876,1,40,viernes,sabado,"Zona ZONA SUR - Barrio Villa Urquiza - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,4,-31.740199,-60.533346,true
+41,Todo en Juguetes,Todo en Juguetes,5493519107005,2,41,viernes,sabado,"Zona ZONA SUR - Barrio Villa Urquiza - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,4,-31.743775,-60.532498,true
+42,Ropa de Temporada,Ropa de Temporada,5493874104594,3,42,viernes,sabado,"Zona ZONA SUR - Barrio Villa Urquiza - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,4,-31.73869,-60.529585,true
+43,Accesorios de Viaje,Accesorios de Viaje,5492617413812,4,43,sabado,lunes,"Zona ZONA SURESTE - Barrio San José - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,5,-31.744437,-60.513134,true
+44,Medias para el Frío,Medias para el Frío,5492617236955,1,44,sabado,lunes,"Zona ZONA SURESTE - Barrio San José - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,5,-31.744897,-60.506785,true
+45,Juguetes de Plástico,Juguetes de Plástico,5492612928724,2,45,sabado,lunes,"Zona ZONA SURESTE - Barrio San José - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,5,-31.741609,-60.510643,true
+46,Librería y Material Escolar,Librería y Material Escolar,5492999435946,3,46,sabado,lunes,"Zona ZONA SURESTE - Barrio San José - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,5,-31.746308,-60.508951,true
+47,Indumentaria Masculina,Indumentaria Masculina,5493517632424,4,47,sabado,lunes,"Zona ZONA SURESTE - Barrio San José - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,5,-31.74336,-60.513607,true
+48,Ropa de Baño,Ropa de Baño,5493416524997,1,48,sabado,lunes,"Zona ZONA SURESTE - Barrio San José - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,5,-31.738772,-60.510756,true
+49,Accesorios para el Hogar,Accesorios para el Hogar,5493876499570,2,49,sabado,lunes,"Zona ZONA SURESTE - Barrio San José - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,5,-31.746802,-60.514117,true
+50,Medias de Compresión,Medias de Compresión,5492998066543,3,50,sabado,lunes,"Zona ZONA SURESTE - Barrio San José - Paraná, Entre Ríos, Argentina",Carlos Fernández,2,5,-31.746194,-60.509121,true

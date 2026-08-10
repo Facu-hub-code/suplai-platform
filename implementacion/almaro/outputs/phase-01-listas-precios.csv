@@ -1,0 +1,5 @@
+lista_precios_id,nombre,multiplicador_sobre_lista_1,product_code,precio_unidad,is_mock
+1,Lista Base (Público),1.0,1002,921.6931,true
+2,Lista Minorista Sugerido,1.15,1002,1059.947,true
+3,Lista Mayorista Especial,0.9,1002,829.5238,true
+4,Lista Gran Distribuidor,0.85,1002,783.4391,true

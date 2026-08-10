@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Almacén Don Julio,25001,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493582641213,Despensa La Costanera,25002,validado,2026-08-10T15:20:53.229991+00:00,,false
+5492991227644,Fiambrería El Paraná,25003,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493418277249,Minimarket Concordia Sur,25004,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493587747641,Autoservicio Salto Grande,25005,validado,2026-08-10T15:20:53.229991+00:00,,false
+5492614053074,Proveeduría Villa Adela,25006,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493514079279,Almacén Los Naranjos,25007,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493876914178,Rotisería Uruguay,25008,validado,2026-08-10T15:20:53.229991+00:00,,false
+5492617175545,Despensa San Martín,25009,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493818437953,Fiambrería Cremigal Express,25010,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493582132179,Minimarket Laguna del Junco,25011,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493872845902,Almacén El Puente,25012,validado,2026-08-10T15:20:53.229991+00:00,,false
+5492997670210,Autoservicio Belgrano,25013,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493811657614,Proveeduría Zorraquín,25014,validado,2026-08-10T15:20:53.229991+00:00,,false
+5492994145193,Despensa Centro Este,25015,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493515971311,Fiambrería Paladini Point,25016,validado,2026-08-10T15:20:53.229991+00:00,,false
+5492994228106,Almacén Doña Rosa,25017,validado,2026-08-10T15:20:53.229991+00:00,,false
+5492998718887,Minimarket Río Uruguay,25018,validado,2026-08-10T15:20:53.229991+00:00,,false
+5492995028869,Rotisería Concordia,25019,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493517304254,Autoservicio Av. San Martín,25020,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493416986538,Despensa Barrio Norte,25021,validado,2026-08-10T15:20:53.229991+00:00,,false
+5492619239862,Fiambrería Fox Express,25022,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493513952681,Almacén Tres Esquinas,25023,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493414799650,Proveeduría El Faro,25024,validado,2026-08-10T15:20:53.229991+00:00,,false
+5492992500733,Minimarket Villa Nueva,25025,validado,2026-08-10T15:20:53.229991+00:00,,false
+5492615139305,Autoservicio Costanera,25026,validado,2026-08-10T15:20:53.229991+00:00,,false
+5492618861463,Despensa La Estación,25027,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493812941974,Fiambrería La Paulina Sur,25028,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493817404433,Almacén Los Álamos,25029,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493419686914,Rotisería Entre Ríos,25030,validado,2026-08-10T15:20:53.229991+00:00,,false
+5493518648263,Minimarket Salto,25031,existente,,,false
+5493516216782,Proveeduría Microcentro,25032,existente,,,false
+5492612780568,Autoservicio Junco,25033,existente,,,false
+5493582639964,Despensa Parque,25034,existente,,,false
+5493814729528,Fiambrería Unión Quesos,25035,existente,,,false
+5493876922419,Almacén El Progreso,25036,existente,,,false
+5492618889598,Minimarket Las Palmas,25037,existente,,,false
+5492615021286,Proveeduría Ruta 14,25038,existente,,,false
+5493813520000,Autoservicio Colinas,25039,existente,,,false
+5492997489876,Despensa Barrio Sur,25040,existente,,,false
+5493519107005,Fiambrería Bierzo,0,no_validado,,PROSPECTO,true
+5493874104594,Almacén Doña Marta,0,existente,,PROSPECTO,true
+5492617413812,Minimarket San Antonio,0,no_validado,,PROSPECTO,true
+5492617236955,Proveeduría Costa Sur,0,existente,,PROSPECTO,true
+5492612928724,Autoservicio El Mirador,0,no_validado,,PROSPECTO,true
+5492999435946,Despensa La Ribera,0,validado,2026-08-10T15:20:53.229991+00:00,PROSPECTO,true
+5493517632424,Fiambrería Spalen,0,no_existente,,PROSPECTO,true
+5493416524997,Almacén Los Pinos,0,no_validado,,PROSPECTO,true
+5493876499570,Rotisería El Trébol,0,existente,,PROSPECTO,true
+5492998066543,Minimarket Villa del Lago,0,no_validado,,PROSPECTO,true

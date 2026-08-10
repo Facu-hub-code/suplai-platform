@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Heladería Del Valle,Heladería Del Valle,5493587905250,2,1,lunes,martes,"ZONA NORTE - Don Bosco - Cipolletti, Río Negro, Argentina",Martín Herrera,0,0,-38.918527,-68.014789,true
+2,Confitería La Patagonia,Confitería La Patagonia,5493582641213,3,2,lunes,martes,"ZONA NORTE - Don Bosco - Cipolletti, Río Negro, Argentina",Martín Herrera,0,0,-38.918566,-68.008892,true
+3,Pastelería Don Julio,Pastelería Don Julio,5492991227644,4,3,lunes,martes,"ZONA NORTE - Don Bosco - Cipolletti, Río Negro, Argentina",Martín Herrera,0,0,-38.918373,-68.015004,true
+4,Repostería Los Pinos,Repostería Los Pinos,5493418277249,1,4,lunes,martes,"ZONA NORTE - Don Bosco - Cipolletti, Río Negro, Argentina",Martín Herrera,0,0,-38.921131,-68.011377,true
+5,Panadería-Confitería El Manzano,Panadería-Confitería El Manzano,5493587747641,2,5,lunes,martes,"ZONA NORTE - Don Bosco - Cipolletti, Río Negro, Argentina",Martín Herrera,0,0,-38.921367,-68.01199,true
+6,Café Helados Norte,Café Helados Norte,5492614053074,3,6,lunes,martes,"ZONA NORTE - Don Bosco - Cipolletti, Río Negro, Argentina",Martín Herrera,0,0,-38.922129,-68.005829,true
+7,Bombonería San Martín,Bombonería San Martín,5493514079279,4,7,lunes,martes,"ZONA NORTE - Don Bosco - Cipolletti, Río Negro, Argentina",Martín Herrera,0,0,-38.921509,-68.006568,true
+8,Casa de Torta La Esquina,Casa de Torta La Esquina,5493876914178,1,8,lunes,martes,"ZONA NORTE - Don Bosco - Cipolletti, Río Negro, Argentina",Martín Herrera,0,0,-38.922874,-68.013304,true
+9,Heladería Cipolletti,Heladería Cipolletti,5492617175545,2,9,lunes,martes,"ZONA NORTE - Don Bosco - Cipolletti, Río Negro, Argentina",Martín Herrera,0,0,-38.917781,-68.007585,true
+10,Confitería Las Bardas,Confitería Las Bardas,5493818437953,3,10,martes,miercoles,"ZONA NOROESTE - Anahí - Cipolletti, Río Negro, Argentina",Martín Herrera,0,1,-38.922296,-67.99312,true
+11,Pastelería Don Bosco,Pastelería Don Bosco,5493582132179,4,11,martes,miercoles,"ZONA NOROESTE - Anahí - Cipolletti, Río Negro, Argentina",Martín Herrera,0,1,-38.916558,-67.988509,true
+12,Repostería Anahí,Repostería Anahí,5493872845902,1,12,martes,miercoles,"ZONA NOROESTE - Anahí - Cipolletti, Río Negro, Argentina",Martín Herrera,0,1,-38.922758,-67.985597,true
+13,Panadería-Confitería Mitre,Panadería-Confitería Mitre,5492997670210,2,13,martes,miercoles,"ZONA NOROESTE - Anahí - Cipolletti, Río Negro, Argentina",Martín Herrera,0,1,-38.919035,-67.994271,true
+14,Café Helados Yrigoyen,Café Helados Yrigoyen,5493811657614,3,14,martes,miercoles,"ZONA NOROESTE - Anahí - Cipolletti, Río Negro, Argentina",Martín Herrera,0,1,-38.922327,-67.990845,true
+15,Bombonería La Alborada,Bombonería La Alborada,5492994145193,4,15,martes,miercoles,"ZONA NOROESTE - Anahí - Cipolletti, Río Negro, Argentina",Martín Herrera,0,1,-38.923801,-67.986142,true
+16,Casa de Torta Río Negro,Casa de Torta Río Negro,5493515971311,1,16,martes,miercoles,"ZONA NOROESTE - Anahí - Cipolletti, Río Negro, Argentina",Martín Herrera,0,1,-38.918699,-67.994713,true
+17,Heladería Frutillar,Heladería Frutillar,5492994228106,2,17,martes,miercoles,"ZONA NOROESTE - Anahí - Cipolletti, Río Negro, Argentina",Martín Herrera,0,1,-38.92177,-67.992262,true
+18,Confitería Amancay,Confitería Amancay,5492998718887,3,18,martes,miercoles,"ZONA NOROESTE - Anahí - Cipolletti, Río Negro, Argentina",Martín Herrera,0,1,-38.919718,-67.987771,true
+19,Pastelería Calafate,Pastelería Calafate,5492995028869,4,19,miercoles,jueves,"ZONA SUR - Las Bardas - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,2,-38.917089,-67.974658,true
+20,Repostería Neuquén Sur,Repostería Neuquén Sur,5493517304254,1,20,miercoles,jueves,"ZONA SUR - Las Bardas - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,2,-38.916798,-67.969416,true
+21,Panadería-Confitería Artística,Panadería-Confitería Artística,5493416986538,2,21,miercoles,jueves,"ZONA SUR - Las Bardas - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,2,-38.924402,-67.971913,true
+22,Café Helados Dulce Tentación,Café Helados Dulce Tentación,5492619239862,3,22,miercoles,jueves,"ZONA SUR - Las Bardas - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,2,-38.923232,-67.970882,true
+23,Bombonería Capri,Bombonería Capri,5493513952681,4,23,miercoles,jueves,"ZONA SUR - Las Bardas - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,2,-38.918201,-67.973548,true
+24,Casa de Torta Italia,Casa de Torta Italia,5493414799650,1,24,miercoles,jueves,"ZONA SUR - Las Bardas - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,2,-38.922536,-67.971691,true
+25,Heladería Venezia,Heladería Venezia,5492992500733,2,25,miercoles,jueves,"ZONA SUR - Las Bardas - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,2,-38.919812,-67.967976,true
+26,Confitería Roma,Confitería Roma,5492615139305,3,26,miercoles,jueves,"ZONA SUR - Las Bardas - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,2,-38.922998,-67.970727,true
+27,Pastelería Sorrento,Pastelería Sorrento,5492618861463,4,27,jueves,viernes,"ZONA SUROESTE - San Martín - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,3,-38.943122,-68.008511,true
+28,Repostería Palermo,Repostería Palermo,5493812941974,1,28,jueves,viernes,"ZONA SUROESTE - San Martín - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,3,-38.942733,-68.011667,true
+29,Panadería-Confitería Belgrano,Panadería-Confitería Belgrano,5493817404433,2,29,jueves,viernes,"ZONA SUROESTE - San Martín - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,3,-38.937973,-68.010608,true
+30,Café Helados Centro,Café Helados Centro,5493419686914,3,30,jueves,viernes,"ZONA SUROESTE - San Martín - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,3,-38.937956,-68.014345,true
+31,Bombonería Express,Bombonería Express,5493518648263,4,31,jueves,viernes,"ZONA SUROESTE - San Martín - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,3,-38.94268,-68.006846,true
+32,Casa de Torta Gourmet,Casa de Torta Gourmet,5493516216782,1,32,jueves,viernes,"ZONA SUROESTE - San Martín - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,3,-38.942371,-68.007098,true
+33,Heladería Artesanal,Heladería Artesanal,5492612780568,2,33,jueves,viernes,"ZONA SUROESTE - San Martín - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,3,-38.944633,-68.011634,true
+34,Confitería Familiar,Confitería Familiar,5493582639964,3,34,jueves,viernes,"ZONA SUROESTE - San Martín - Cipolletti, Río Negro, Argentina",Valeria Díaz,1,3,-38.938486,-68.010788,true
+35,Pastelería Premier,Pastelería Premier,5493814729528,4,35,viernes,sabado,"ZONA CENTRO - Mitre - Cipolletti, Río Negro, Argentina",Pablo Romero,2,4,-38.941126,-67.993099,true
+36,Repostería Selecta,Repostería Selecta,5493876922419,1,36,viernes,sabado,"ZONA CENTRO - Mitre - Cipolletti, Río Negro, Argentina",Pablo Romero,2,4,-38.944685,-67.99005,true
+37,Panadería-Confitería Imperial,Panadería-Confitería Imperial,5492618889598,2,37,viernes,sabado,"ZONA CENTRO - Mitre - Cipolletti, Río Negro, Argentina",Pablo Romero,2,4,-38.939024,-67.99117,true
+38,Café Helados Real,Café Helados Real,5492615021286,3,38,viernes,sabado,"ZONA CENTRO - Mitre - Cipolletti, Río Negro, Argentina",Pablo Romero,2,4,-38.940162,-67.995364,true
+39,Bombonería Premier Sur,Bombonería Premier Sur,5493813520000,4,39,viernes,sabado,"ZONA CENTRO - Mitre - Cipolletti, Río Negro, Argentina",Pablo Romero,2,4,-38.943162,-67.99421,true
+40,Casa de Torta Premier Norte,Casa de Torta Premier Norte,5492997489876,1,40,viernes,sabado,"ZONA CENTRO - Mitre - Cipolletti, Río Negro, Argentina",Pablo Romero,2,4,-38.938539,-67.994036,true
+41,Heladería Los Álamos,Heladería Los Álamos,5493519107005,2,41,viernes,sabado,"ZONA CENTRO - Mitre - Cipolletti, Río Negro, Argentina",Pablo Romero,2,4,-38.942115,-67.993188,true
+42,Confitería Las Acacias,Confitería Las Acacias,5493874104594,3,42,viernes,sabado,"ZONA CENTRO - Mitre - Cipolletti, Río Negro, Argentina",Pablo Romero,2,4,-38.93703,-67.990275,true
+43,Pastelería El Sauce,Pastelería El Sauce,5492617413812,4,43,sabado,lunes,"ZONA ESTE - La Alborada - Cipolletti, Río Negro, Argentina",Pablo Romero,2,5,-38.942777,-67.973824,true
+44,Repostería La Quinta,Repostería La Quinta,5492617236955,1,44,sabado,lunes,"ZONA ESTE - La Alborada - Cipolletti, Río Negro, Argentina",Pablo Romero,2,5,-38.943237,-67.967475,true
+45,Panadería-Confitería Paso Córdoba,Panadería-Confitería Paso Córdoba,5492612928724,2,45,sabado,lunes,"ZONA ESTE - La Alborada - Cipolletti, Río Negro, Argentina",Pablo Romero,2,5,-38.939949,-67.971333,true
+46,Café Helados Puente,Café Helados Puente,5492999435946,3,46,sabado,lunes,"ZONA ESTE - La Alborada - Cipolletti, Río Negro, Argentina",Pablo Romero,2,5,-38.944648,-67.969641,true
+47,Bombonería Terminal,Bombonería Terminal,5493517632424,4,47,sabado,lunes,"ZONA ESTE - La Alborada - Cipolletti, Río Negro, Argentina",Pablo Romero,2,5,-38.9417,-67.974297,true
+48,Casa de Torta Municipal,Casa de Torta Municipal,5493416524997,1,48,sabado,lunes,"ZONA ESTE - La Alborada - Cipolletti, Río Negro, Argentina",Pablo Romero,2,5,-38.937112,-67.971446,true
+49,Heladería Universitaria,Heladería Universitaria,5493876499570,2,49,sabado,lunes,"ZONA ESTE - La Alborada - Cipolletti, Río Negro, Argentina",Pablo Romero,2,5,-38.945142,-67.974807,true
+50,Confitería Industrial,Confitería Industrial,5492998066543,3,50,sabado,lunes,"ZONA ESTE - La Alborada - Cipolletti, Río Negro, Argentina",Pablo Romero,2,5,-38.944534,-67.969811,true

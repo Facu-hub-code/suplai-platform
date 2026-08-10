@@ -1,0 +1,2 @@
+web: https://curlomayorista.com.ar/
+Es una distribuidora de CIPOLETTI, Rio Negro y sus clientes son reposterias y heladerias. El caso de uso inicial es la de comunicarse por el Agente de Whatsapp de manera proactiva con sus clientes y también en una segunda etapa prospectar (tienen un ERP que usan varias distribuidoras en el SUR) No tiene preventista, si las personas que hacen el reparto a veces cumplen la función de preventistas cuando hace falta.
