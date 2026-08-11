@@ -1,0 +1,21 @@
+{
+  "schema": "benfresh",
+  "applied_at": "2026-08-10",
+  "action": "full_rebuild_store_taxonomy",
+  "categories": [
+    {"name": "Frozen Fruits", "sort_order": 10, "n": 45},
+    {"name": "Frozen Vegetables", "sort_order": 20, "n": 73},
+    {"name": "Blends & Mixes", "sort_order": 30, "n": 17},
+    {"name": "Sorbets & Desserts", "sort_order": 40, "n": 14},
+    {"name": "Acai & Smoothie Bases", "sort_order": 50, "n": 4},
+    {"name": "Dry Goods", "sort_order": 60, "n": 3},
+    {"name": "Beverages", "sort_order": 70, "n": 2},
+    {"name": "Specialty", "sort_order": 80, "n": 1, "examples": ["Guacamole Western 12 lb"]}
+  ],
+  "notes": [
+    "Eliminadas ~156 categorías viejas (SKU-level + vacías + Produce + Packaging)",
+    "Bags/Boxes/Packaging sacados de en_catalogo (fuera de tienda)",
+    "1 categoría por producto en catálogo",
+    "category_documents limpiados (RAG categorías conviene rebuild desde backoffice/backend)"
+  ]
+}
