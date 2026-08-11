@@ -1,0 +1,184 @@
+[
+  {
+    "outcome": "partial",
+    "dry_run": false,
+    "examined": 1217,
+    "ready_to_project": 1123,
+    "projected": 1123,
+    "already_projected": 0,
+    "skipped": 15,
+    "failed": 79,
+    "purged_from_mirror": 0,
+    "failed_raw_ids": [],
+    "issues": [
+      {
+        "code": "cancelled_status",
+        "category": "skipped",
+        "count": 1,
+        "sample_order_refs": [
+          "2026/03775"
+        ],
+        "sample_skus": []
+      },
+      {
+        "code": "invalid_quantity",
+        "category": "failure",
+        "count": 31,
+        "sample_order_refs": [
+          "2026/03084",
+          "2026/03085",
+          "2026/03157",
+          "2026/03169",
+          "2026/03214"
+        ],
+        "sample_skus": []
+      },
+      {
+        "code": "missing_customer",
+        "category": "failure",
+        "count": 2,
+        "sample_order_refs": [
+          "2026/04182",
+          "2026/04323"
+        ],
+        "sample_skus": []
+      },
+      {
+        "code": "missing_product",
+        "category": "failure",
+        "count": 19,
+        "sample_order_refs": [
+          "2026/03198",
+          "2026/03212",
+          "2026/03302",
+          "2026/03398",
+          "2026/03482"
+        ],
+        "sample_skus": [
+          "89010007",
+          "89090214",
+          "89090215",
+          "Delivery_007"
+        ]
+      },
+      {
+        "code": "missing_sku",
+        "category": "failure",
+        "count": 36,
+        "sample_order_refs": [
+          "2026/03108",
+          "2026/03178",
+          "2026/03212",
+          "2026/03235",
+          "2026/03247"
+        ],
+        "sample_skus": []
+      },
+      {
+        "code": "pending_status",
+        "category": "skipped",
+        "count": 14,
+        "sample_order_refs": [
+          "2026/03147",
+          "2026/03356",
+          "2026/03478",
+          "2026/03492",
+          "2026/03519"
+        ],
+        "sample_skus": []
+      }
+    ],
+    "message": "1123 pedidos proyectados; 0 ya vinculados; 15 omitidos y 79 con inconsistencias."
+  },
+  {
+    "outcome": "failed",
+    "dry_run": false,
+    "examined": 94,
+    "ready_to_project": 0,
+    "projected": 0,
+    "already_projected": 0,
+    "skipped": 15,
+    "failed": 79,
+    "purged_from_mirror": 0,
+    "failed_raw_ids": [],
+    "issues": [
+      {
+        "code": "cancelled_status",
+        "category": "skipped",
+        "count": 1,
+        "sample_order_refs": [
+          "2026/03775"
+        ],
+        "sample_skus": []
+      },
+      {
+        "code": "invalid_quantity",
+        "category": "failure",
+        "count": 31,
+        "sample_order_refs": [
+          "2026/03084",
+          "2026/03085",
+          "2026/03157",
+          "2026/03169",
+          "2026/03214"
+        ],
+        "sample_skus": []
+      },
+      {
+        "code": "missing_customer",
+        "category": "failure",
+        "count": 2,
+        "sample_order_refs": [
+          "2026/04182",
+          "2026/04323"
+        ],
+        "sample_skus": []
+      },
+      {
+        "code": "missing_product",
+        "category": "failure",
+        "count": 19,
+        "sample_order_refs": [
+          "2026/03198",
+          "2026/03212",
+          "2026/03302",
+          "2026/03398",
+          "2026/03482"
+        ],
+        "sample_skus": [
+          "89010007",
+          "89090214",
+          "89090215",
+          "Delivery_007"
+        ]
+      },
+      {
+        "code": "missing_sku",
+        "category": "failure",
+        "count": 36,
+        "sample_order_refs": [
+          "2026/03108",
+          "2026/03178",
+          "2026/03212",
+          "2026/03235",
+          "2026/03247"
+        ],
+        "sample_skus": []
+      },
+      {
+        "code": "pending_status",
+        "category": "skipped",
+        "count": 14,
+        "sample_order_refs": [
+          "2026/03147",
+          "2026/03356",
+          "2026/03478",
+          "2026/03492",
+          "2026/03519"
+        ],
+        "sample_skus": []
+      }
+    ],
+    "message": "0 pedidos proyectados; 0 ya vinculados; 15 omitidos y 79 con inconsistencias."
+  }
+]
