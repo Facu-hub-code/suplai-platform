@@ -1,0 +1,173 @@
+[
+  {
+    "outcome": "partial",
+    "dry_run": true,
+    "examined": 1217,
+    "ready_to_project": 1123,
+    "projected": 0,
+    "already_projected": 0,
+    "skipped": 15,
+    "failed": 79,
+    "purged_from_mirror": 0,
+    "failed_raw_ids": [
+      16,
+      51,
+      54,
+      64,
+      66,
+      69,
+      70,
+      79,
+      92,
+      138,
+      146,
+      180,
+      201,
+      202,
+      206,
+      237,
+      247,
+      266,
+      284,
+      285,
+      292,
+      303,
+      326,
+      328,
+      341,
+      362,
+      372,
+      384,
+      431,
+      455,
+      456,
+      481,
+      486,
+      504,
+      509,
+      512,
+      514,
+      541,
+      924,
+      926,
+      946,
+      990,
+      1475,
+      1490,
+      1538,
+      1581,
+      1583,
+      1584,
+      1607,
+      2124,
+      2185,
+      2252,
+      2262,
+      2308,
+      2313,
+      2333,
+      2382,
+      2428,
+      2431,
+      2468,
+      2470,
+      2484,
+      2504,
+      2540,
+      2544,
+      2562,
+      2582,
+      2589,
+      2598,
+      2601,
+      2642,
+      2651,
+      2658,
+      2673,
+      2695,
+      2704,
+      2706,
+      2714,
+      2735
+    ],
+    "issues": [
+      {
+        "code": "cancelled_status",
+        "category": "skipped",
+        "count": 1,
+        "sample_order_refs": [
+          "2026/03775"
+        ],
+        "sample_skus": []
+      },
+      {
+        "code": "invalid_quantity",
+        "category": "failure",
+        "count": 31,
+        "sample_order_refs": [
+          "2026/03084",
+          "2026/03085",
+          "2026/03157",
+          "2026/03169",
+          "2026/03214"
+        ],
+        "sample_skus": []
+      },
+      {
+        "code": "missing_customer",
+        "category": "failure",
+        "count": 2,
+        "sample_order_refs": [
+          "2026/04182",
+          "2026/04323"
+        ],
+        "sample_skus": []
+      },
+      {
+        "code": "missing_product",
+        "category": "failure",
+        "count": 19,
+        "sample_order_refs": [
+          "2026/03198",
+          "2026/03212",
+          "2026/03302",
+          "2026/03398",
+          "2026/03482"
+        ],
+        "sample_skus": [
+          "89010007",
+          "89090214",
+          "89090215",
+          "Delivery_007"
+        ]
+      },
+      {
+        "code": "missing_sku",
+        "category": "failure",
+        "count": 36,
+        "sample_order_refs": [
+          "2026/03108",
+          "2026/03178",
+          "2026/03212",
+          "2026/03235",
+          "2026/03247"
+        ],
+        "sample_skus": []
+      },
+      {
+        "code": "pending_status",
+        "category": "skipped",
+        "count": 14,
+        "sample_order_refs": [
+          "2026/03147",
+          "2026/03356",
+          "2026/03478",
+          "2026/03492",
+          "2026/03519"
+        ],
+        "sample_skus": []
+      }
+    ],
+    "message": "1123 pedidos listos para proyectar; 0 ya vinculados; 15 omitidos y 79 con inconsistencias."
+  }
+]
