@@ -285,8 +285,10 @@ Fallo de LLM report **no** bloquea el plan del próximo ciclo (metrics sí oblig
 
 - Wizard: paso **Salida** (elige ideas de biblioteca, edita, materializa pool Meta) en lugar de plantilla seed.  
 - Wizard: bloque presupuesto + `cost_per_send`; mode puntual vs recurrente_ciclo.  
-- Wizard (`recurrente_ciclo`): paso **Inteligencia** — señales alimentan resolver/rotación (no bakear HSM).  
-- Listado: botones **Calendario**, **Biblioteca de ideas**.  
+- Wizard (`recurrente_ciclo`): paso **Inteligencia** — explica el loop de retargeting; **no** configura señales aparte. La inteligencia = ideas/gates del paso Salida (`intelligence_config.signals` se deriva del pool al guardar).
+- Wizard: **sin paso Promos** (vínculo opcional retirado del flujo; API/tabla legacy pueden quedar sin uso).
+- Listado: botones **Calendario**, **Biblioteca de ideas**.
+- Calendario de envíos: panel **Plantillas materializadas** (pool HSM) + HSM por PdV según theme probable.  
 - Alertas de ciclo: sección general **Notificaciones** (`ia_tickets` con badges de estrategia).  
 - Detalle: Ciclos/Reportes + badge si pool pending/ready.  
 - Medio de pago: referencia portafolio tenant.  
@@ -396,3 +398,4 @@ Este documento vive en `platform` (`feat/estrategias-ciclo-inteligente`).
 - **Fase 4 (cycle reports + PDF):** plan `docs/superpowers/plans/2026-07-30-estrategias-ciclo-inteligente-fase4.md` (2026-07-30). Metrics al close → `estrategia_cycle_reports`; narrativa LLM (fallback sin key); PDF lazy (`report.pdf`); `GET …/cycles`, `…/report`, `…/report.pdf`. Sin reporte general de plataforma.
 - **Fase 5 (UI backoffice):** plan `docs/superpowers/plans/2026-07-30-estrategias-ciclo-inteligente-fase5.md` (2026-07-30). Wizard presupuesto + mode; proxies accept-budget/cycles/report/PDF; panel Ciclos/Reportes en cards. Rama `feat/estrategias-ciclo-ui`.
 - **Fase 7 (skeletons + pool rotativo):** sin seed; biblioteca tenant; salida; variable resolver 1:1; rotación por theme; notificaciones en `ia_tickets` (create/approve/send/learning); learning-only sin HSM. Ramas `feat/estrategias-skeletons-pool` (platform / backend / backoffice).
+- **Gates por theme + biblioteca dos niveles:** los boosts hardcodeados de `pick_theme_for_client` se reemplazan por `gate_config` configurable por idea (clima por mm de lluvia, nearby 300 m + distancia, feriado override 100 %, stock-out ML) con revalidación pre-envío, y la biblioteca se separa en general Suplai (`public`) + tenant con fork. Ver [SPEC-034](034-biblioteca-ideas-gates-dos-niveles.md).
