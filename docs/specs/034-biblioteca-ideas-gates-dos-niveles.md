@@ -39,6 +39,8 @@ Darle al motor de estrategias una **capa de control configurable** sobre cuándo
 | Distancia nearby | Persistir `distance_m` por place en `clients.metadata.nearby` (Google lo devuelve; hoy se descarta) | Sin distancia no se puede aplicar el boost por cercanía. |
 | Stock-out (ERP + ML) | Nuevo gate sobre `purchase_habit`: `use_ml_stock_out` llama a sales-engine `predict-replenishment`; si hay stock-out previsto en ≤ `stockout_window_days`, boost fuerte y el contexto pasa a ser "te estás por quedar sin {producto}" | Reutiliza el modelo existente de sales-engine (ya corre retrain diario 04:00). Descartado: theme nuevo `stock_out` (requiere HSM nuevo en Meta; con el gate alcanza para v1 y el copy sale del slot `{{2}}`). |
 | Agenda 1:1 (Motor B) | `agenda_sender` deja de hardcodear `purchase_habit`: carga `intelligence_config` + gates de la estrategia y llama a `pick_theme_for_client` + `resolve_body_params` con el theme ganador | Hoy el Motor B ignora todo el sistema de themes (bug funcional detectado en esta investigación). |
+| Una sola capa de inteligencia | Wizard sin toggles de señales: la biblioteca/gates es la única config; al guardar se **deriva** `intelligence_config.signals` desde los themes del pool (para learning notify). Paso Inteligencia = explicación del loop. | Duplicaba la misma decisión en wizard vs salida; `pick_theme` ya ignora los flags. |
+| Sin promos en wizard | Se retira el paso Promos del flujo de estrategia (no se linkean desde create/edit). Tabla/API `estrategia_promociones` quedan sin uso activo. | No alimentaban mensaje ni atribución del ciclo; solo cobertura. |
 | Gobierno de la biblioteca general | v1: seed por migración + solo lectura desde el BO tenant; CRUD para Suplai en el panel admin queda para v2 | Desbloquea el valor sin construir permisos de administración global ahora. |
 
 ### Shape de `gate_config` por theme (v1)
@@ -169,12 +171,16 @@ Tenant sugerido: `demo` (tiene estrategias y clientes geolocalizados).
 
 1. Abrir Estrategias → **Biblioteca de ideas**: ver tabs "Generales (Suplai)" y "Mis ideas".
 2. Copiar la general de clima → editar umbral a 2 mm y el copy → guardar. Verificar en BD `source_suplai_idea_id` y `gate_config`.
-3. Crear estrategia con pool que incluya clima + feriado + mapa; abrir el calendario y verificar el **theme probable** por cliente con motivo del gate.
+3. Crear estrategia con pool que incluya clima + feriado + mapa; abrir el calendario y verificar:
+   - panel **Plantillas materializadas** (nombre Meta + theme + status);
+   - por PdV, el **HSM del theme probable** (no solo plantilla legacy de agenda).
 4. Forzar señales: insertar un feriado mañana en `distribuidora_calendar_events` → el preview debe pasar ese cliente a `holiday` (override 100 %).
 5. Simular envío (dispatch dry-run o agenda de prueba a número propio): verificar que sin lluvia prevista **no** sale el theme clima, y que el mensaje del theme ganador usa el contexto correcto (no "con este clima").
 6. Con ERP conectado (o mock de sales-engine local en `8001`): activar `use_ml_stock_out` y verificar boost + contexto "te estás por quedar sin…".
 7. Verificar skip: estrategia solo con theme clima `require: true` y sin lluvia → el envío se salta y el ledger hace release.
+8. Wizard: confirmar que **no** hay paso Promos ni toggles de señales; el paso Inteligencia solo explica el loop.
 
 ## 8) Historial
 
 - 2026-08-11 — Draft inicial (gates por theme, plan + revalidar, biblioteca dos niveles con fork).
+- 2026-08-11 — Simplificación wizard: una capa de inteligencia (biblioteca), sin promos; calendario muestra pool HSM materializado.

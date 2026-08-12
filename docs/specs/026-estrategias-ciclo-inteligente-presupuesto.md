@@ -285,8 +285,10 @@ Fallo de LLM report **no** bloquea el plan del próximo ciclo (metrics sí oblig
 
 - Wizard: paso **Salida** (elige ideas de biblioteca, edita, materializa pool Meta) en lugar de plantilla seed.  
 - Wizard: bloque presupuesto + `cost_per_send`; mode puntual vs recurrente_ciclo.  
-- Wizard (`recurrente_ciclo`): paso **Inteligencia** — señales alimentan resolver/rotación (no bakear HSM).  
-- Listado: botones **Calendario**, **Biblioteca de ideas**.  
+- Wizard (`recurrente_ciclo`): paso **Inteligencia** — explica el loop de retargeting; **no** configura señales aparte. La inteligencia = ideas/gates del paso Salida (`intelligence_config.signals` se deriva del pool al guardar).
+- Wizard: **sin paso Promos** (vínculo opcional retirado del flujo; API/tabla legacy pueden quedar sin uso).
+- Listado: botones **Calendario**, **Biblioteca de ideas**.
+- Calendario de envíos: panel **Plantillas materializadas** (pool HSM) + HSM por PdV según theme probable.  
 - Alertas de ciclo: sección general **Notificaciones** (`ia_tickets` con badges de estrategia).  
 - Detalle: Ciclos/Reportes + badge si pool pending/ready.  
 - Medio de pago: referencia portafolio tenant.  
