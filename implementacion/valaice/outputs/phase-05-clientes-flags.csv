@@ -1,0 +1,51 @@
+cliente_id,codigo_erp,nombre,phone_number,es_cliente_erp,whatsapp_validado,whatsapp_estado
+1,1001,Panadería El Sol,5493547490001,True,True,CONFIRMED
+2,1002,Café Central Alta Gracia,5493547490002,True,True,CONFIRMED
+3,1003,Confitería La Estación,5493547490003,True,True,CONFIRMED
+4,1004,Minimarket El Buen Gusto,5493547490004,True,True,CONFIRMED
+5,1005,Servicentro YPF La Gruta,5493547490005,True,True,CONFIRMED
+6,1006,Panadería Dulce Hogar,5493547490006,True,True,CONFIRMED
+7,1007,Buffet Club Deportivo,5493547490007,True,True,CONFIRMED
+8,1008,Parador Los Aromos,5493547490008,True,True,CONFIRMED
+9,1009,Bakery & Coffee Sierras,5493547490009,True,True,CONFIRMED
+10,1010,Panadería La Espiga,5493547490010,True,True,CONFIRMED
+11,1011,Cafetería Italia,5493547490011,True,True,CONFIRMED
+12,1012,Bar & Resto Plaza,5493547490012,True,True,CONFIRMED
+13,1013,Estación Shell Paravachasca,5493547490013,True,True,CONFIRMED
+14,1014,Supermercado Becerra,5493547490014,True,True,CONFIRMED
+15,1015,Despensa Don José,5493547490015,True,True,CONFIRMED
+16,1016,Panadería Santa María,5493547490016,True,True,CONFIRMED
+17,1017,Delicias de la Villa,5493547490017,True,True,CONFIRMED
+18,1018,Café de la Plaza,5493547490018,True,True,CONFIRMED
+19,1019,Panadería El Rosario,5493547490019,True,True,CONFIRMED
+20,1020,Punto Dulce Alta Gracia,5493547490020,True,True,CONFIRMED
+21,1021,Estación Axion Ruta 5,5493547490021,True,True,CONFIRMED
+22,1022,Panadería San Cayetano,5493547490022,True,True,CONFIRMED
+23,1023,Cafetería El Molino,5493547490023,True,True,CONFIRMED
+24,1024,Despensa La Esquina,5493547490024,True,True,CONFIRMED
+25,1025,Panadería Hojaldres & Co,5493547490025,True,True,CONFIRMED
+26,1026,Café Bar El Tajamar,5493547490026,True,True,CONFIRMED
+27,1027,Panificados La Serranita,5493547490027,True,True,CONFIRMED
+28,1028,Minimarket Los Olivos,5493547490028,True,True,CONFIRMED
+29,1029,Buffet Estación Shell,5493547490029,True,True,CONFIRMED
+30,1030,Panadería La Nueva Espiga,5493547490030,True,True,CONFIRMED
+31,1031,Croissant & Co,5493547490031,True,False,UNCHECKED
+32,1032,Café Gourmet Sierras,5493547490032,True,False,UNCHECKED
+33,1033,Panadería Tradición Serrana,5493547490033,True,False,UNCHECKED
+34,1034,Supermercado San Martín,5493547490034,True,False,UNCHECKED
+35,1035,Bar de la Estación,5493547490035,True,False,UNCHECKED
+36,1036,Parador VGB,5493547490036,True,False,UNCHECKED
+37,1037,Panadería El Artesano,5493547490037,True,False,UNCHECKED
+38,1038,Despensa El Cruce,5493547490038,True,False,UNCHECKED
+39,1039,Café Avenida,5493547490039,True,False,UNCHECKED
+40,1040,Panadería Los Criollos,5493547490040,True,False,UNCHECKED
+41,0,Panadería San Antonio,5493547490041,False,False,UNCHECKED
+42,0,Café Los Álamos,5493547490042,False,False,UNCHECKED
+43,0,Minimarket Belgrano,5493547490043,False,False,UNCHECKED
+44,0,Parador El Candil,5493547490044,False,False,UNCHECKED
+45,0,Panadería La Cabaña,5493547490045,False,False,UNCHECKED
+46,0,Cafetería La Catedral,5493547490046,False,False,UNCHECKED
+47,0,Despensa El Carmen,5493547490047,False,False,UNCHECKED
+48,0,Buffet YPF Sierras,5493547490048,False,False,UNCHECKED
+49,0,Panadería El Trigo de Oro,5493547490049,False,False,UNCHECKED
+50,0,Café Colonial,5493547490050,False,False,UNCHECKED

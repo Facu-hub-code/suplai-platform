@@ -140,8 +140,15 @@ async def main():
     
     for p in db_products:
         img_url = p["image_url"] or ""
-        # Si es placeholder, está vacía, o se forzó, la procesamos
-        if args.forzar or not img_url or placeholder_url in img_url or "placeholder" in img_url:
+        # Si es placeholder, está vacía, o se forzó, la procesamos.
+        # Any images.unsplash.com URL is treated as a catalog placeholder
+        # (tenants use different Unsplash photo ids).
+        is_placeholder = (
+            placeholder_url in img_url
+            or "placeholder" in img_url
+            or "images.unsplash.com" in img_url
+        )
+        if args.forzar or not img_url or is_placeholder:
             products_to_process.append(p)
             
     print(f"[*] {len(products_to_process)} productos necesitan actualización de imagen (tienen placeholder o están vacíos).")

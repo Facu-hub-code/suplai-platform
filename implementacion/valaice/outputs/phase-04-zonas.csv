@@ -1,0 +1,7 @@
+id,name,zone_type,vendedor_principal_id,is_mock
+101,Alta Gracia Centro,sales,1,True
+102,Alta Gracia Norte / Pellegrini,sales,1,True
+103,Alta Gracia Sur / Liniers,sales,2,True
+104,Anisacate / La Bolsa,sales,2,True
+105,Villa General Belgrano,sales,2,True
+106,Córdoba Capital Sur,sales,3,True

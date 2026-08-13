@@ -1,0 +1,18 @@
+tabla,filas_borradas,ok,notas
+items_pedido,546,true,"todo excepto pedidos 862/861/860 + residuales is_mock"
+n8n_chat_histories,218,true,is_mock=true
+core.conversation_events,0,true,sin eventos mock para tenant
+pedidos,176,true,"quedan solo últimos 3 por fecha: 862,861,860"
+ia_tickets,74,true,"quedan solo últimos 5 por created_at: 103-99"
+client_locations,52,true,ubicaciones de clients is_mock
+vendedor_geo_zones,6,true,is_mock=true
+clients,51,true,is_mock=true; quedan 7 reales
+puntos_venta,51,true,is_mock=true; quedan 3 reales
+geo_zones,6,true,is_mock=true; queda 1 real
+vendedores,3,true,is_mock=true; queda 1 real
+promociones_semanales,4,true,is_mock=true
+tenant_cross_sell_mappings,11,true,tenant al_fuego is_mock
+tenant_up_sell_mappings,7,true,tenant al_fuego is_mock
+productos,0,true,sin mock; catálogo real intacto (308)
+precios_productos,0,true,sin mock; intacto (1228)
+listas_precios,0,true,sin mock; intacto (4)

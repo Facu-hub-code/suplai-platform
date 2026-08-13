@@ -1,0 +1,17 @@
+id,client_id,description,status,closed_at,is_mock
+1,1,Cliente solicitó recomendación de horneado para croissants congelados.,ABIERTO,,True
+2,2,Alerta de calidad: Medialunas llegaron con leve pérdida de frío en furgón.,ABIERTO,,True
+3,3,Consulta comercial: Cliente solicitó bonificación por volumen en Pan Mignon.,ABIERTO,,True
+4,4,Alerta de logística: Retraso de 30 min en reparto zona Alta Gracia Norte.,ABIERTO,,True
+5,5,Consulta administrativa: Cliente solicita factura A electrónica con IVA desglosado.,ABIERTO,,True
+6,6,Alerta de rotación: Bar de la Plaza no realiza pedido de criollos hace 25 días.,ABIERTO,,True
+7,7,Oportunidad de prospección: Nuevo comercio gastronómico interesado en catálogo precocido.,ABIERTO,,True
+8,8,Alerta de reposición inteligente: Panadería El Sol agotará stock de baguettes el viernes.,ABIERTO,,True
+9,9,Reclamo menor: Embalaje de chipá roto durante descarga.,ABIERTO,,True
+10,10,Consulta técnica: Tiempo exacto de fermentación previa a horneado de facturas.,ABIERTO,,True
+11,11,Solicitud de visita comercial: Vendedor Carlos Gómez agendó muestra gratis.,CERRADO,2026-08-13 09:55:13,True
+12,12,Alerta de pago: Transferencia bancaria registrada pendiente de confirmación.,CERRADO,2026-08-13 09:55:13,True
+13,13,Alerta de reposición: Sugerencia automática de combo Medialuna + Factura Mixta.,CERRADO,2026-08-13 09:55:13,True
+14,14,Consulta de horario: Confirmación de entrega antes de las 8:00 AM para cafeterías.,CERRADO,2026-08-13 09:55:13,True
+15,15,Alerta de satisfacción: Cliente felicitó por calidad constante de la masa hojaldrada.,CERRADO,2026-08-13 09:55:13,True
+16,16,Alerta de stock: Alta demanda de Pan Trebolín crudo en zona Sur.,CERRADO,2026-08-13 09:55:13,True
