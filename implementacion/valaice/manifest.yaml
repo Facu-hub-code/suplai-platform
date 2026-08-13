@@ -1,0 +1,53 @@
+tenant: valaice
+nombre: Valaice Ultracongelados
+rubro: Panificación ultracongelada cruda y precocida
+ubicacion: Alta Gracia, Córdoba
+schema: valaice
+creado_at: "2026-08-13"
+
+fases:
+  fase_00_preflight:
+    estado: cargado
+    detalles: Esquema valaice creado, 67 tablas clonadas de demo y registrado en public.distribuidoras
+  fase_01_catalogo:
+    estado: cargado
+    detalles: 21 productos de panadería congelada insertados con stock=100, Pareto rotation, UMV y 4 listas de precios
+  fase_01_1_tags:
+    estado: cargado
+    detalles: Taxonomía de 29 tags jerárquicos y 3 categorías aplicadas en categorias, product_categories, tags y product_tags
+  fase_01_2_imagenes_descripciones:
+    estado: cargado
+    detalles: Descripciones B2B enriquecidas con web valaice.com.ar, 59 alias, imágenes Serper subidas a Supabase Storage y RAG vectorizado
+  fase_01_3_system_prompt:
+    estado: cargado
+    detalles: System prompt configurado con HQ Alta Gracia, IVA incluido final, venta por WhatsApp y alertas inteligentes
+  fase_02_promociones:
+    estado: cargado
+    detalles: 4 promociones semanales activas insertadas
+  fase_03_cross_upsell:
+    estado: cargado
+    detalles: Mapeos de Venta Cruzada y Up-sell por par de productos insertados
+  fase_04_red_comercial:
+    estado: cargado
+    detalles: 3 vendedores, 6 zonas geográficas (Polígonos MultiPolygon en Alta Gracia/Córdoba) y 50 clientes insertados
+  fase_05_clientes_flags:
+    estado: cargado
+    detalles: 80% clientes ERP (códigos 1001-1040) y 60% WhatsApp validados
+  fase_06_pedidos:
+    estado: cargado
+    detalles: 132 pedidos (históricos y abiertos) con 386 ítems de pedido asociados
+  fase_06_1_field_app:
+    estado: cargado
+    detalles: 3 vendedores enlazados con clientes y zonas para Suplai Field
+  fase_07_conversaciones:
+    estado: cargado
+    detalles: 60 mensajes de diálogo comercial WhatsApp insertados en n8n_chat_histories
+  fase_08_notificaciones:
+    estado: cargado
+    detalles: 16 tickets de alertas inteligentes (ia_tickets) creados
+  fase_09_healthcheck:
+    estado: cargado
+    detalles: Healthcheck ejecutado con 100% éxito (0 errores, 0 advertencias)
+  fase_10_e2e_testing:
+    estado: cargado
+    detalles: Tenant completamente verificado y listo para producción

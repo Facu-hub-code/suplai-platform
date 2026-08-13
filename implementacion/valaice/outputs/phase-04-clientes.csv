@@ -1,0 +1,51 @@
+id,codigo,nombre,razon_social,phone_number,direccion,vendedor,lista_precios_id,cuit,activo_ai,is_mock
+1,1001,Panadería El Sol,Panadería El Sol S.R.L.,5493547490001,"Av. Belgrano 115, Alta Gracia, Córdoba",Martin Peralta,1,30-71000001-9,True,True
+2,1002,Café Central Alta Gracia,Café Central Alta Gracia S.R.L.,5493547490002,"Av. Belgrano 130, Alta Gracia, Córdoba",Sofía Rossi,2,30-71000002-9,True,True
+3,1003,Confitería La Estación,Confitería La Estación S.R.L.,5493547490003,"Av. Belgrano 145, Alta Gracia, Córdoba",Carlos Gómez,1,30-71000003-9,True,True
+4,1004,Minimarket El Buen Gusto,Minimarket El Buen Gusto S.R.L.,5493547490004,"Av. Belgrano 160, Alta Gracia, Córdoba",Martin Peralta,2,30-71000004-9,True,True
+5,1005,Servicentro YPF La Gruta,Servicentro YPF La Gruta S.R.L.,5493547490005,"Av. Belgrano 175, Alta Gracia, Córdoba",Sofía Rossi,1,30-71000005-9,True,True
+6,1006,Panadería Dulce Hogar,Panadería Dulce Hogar S.R.L.,5493547490006,"Av. Belgrano 190, Alta Gracia, Córdoba",Carlos Gómez,3,30-71000006-9,True,True
+7,1007,Buffet Club Deportivo,Buffet Club Deportivo S.R.L.,5493547490007,"Av. Belgrano 205, Alta Gracia, Córdoba",Martin Peralta,1,30-71000007-9,True,True
+8,1008,Parador Los Aromos,Parador Los Aromos S.R.L.,5493547490008,"Av. Belgrano 220, Alta Gracia, Córdoba",Sofía Rossi,2,30-71000008-9,True,True
+9,1009,Bakery & Coffee Sierras,Bakery & Coffee Sierras S.R.L.,5493547490009,"Av. Belgrano 235, Alta Gracia, Córdoba",Carlos Gómez,1,30-71000009-9,True,True
+10,1010,Panadería La Espiga,Panadería La Espiga S.R.L.,5493547490010,"Av. Belgrano 250, Alta Gracia, Córdoba",Martin Peralta,2,30-71000010-9,True,True
+11,1011,Cafetería Italia,Cafetería Italia S.R.L.,5493547490011,"Av. Belgrano 265, Alta Gracia, Córdoba",Sofía Rossi,1,30-71000011-9,True,True
+12,1012,Bar & Resto Plaza,Bar & Resto Plaza S.R.L.,5493547490012,"Av. Belgrano 280, Alta Gracia, Córdoba",Carlos Gómez,3,30-71000012-9,True,True
+13,1013,Estación Shell Paravachasca,Estación Shell Paravachasca S.R.L.,5493547490013,"Av. Belgrano 295, Alta Gracia, Córdoba",Martin Peralta,1,30-71000013-9,True,True
+14,1014,Supermercado Becerra,Supermercado Becerra S.R.L.,5493547490014,"Av. Belgrano 310, Alta Gracia, Córdoba",Sofía Rossi,2,30-71000014-9,True,True
+15,1015,Despensa Don José,Despensa Don José S.R.L.,5493547490015,"Av. Belgrano 325, Alta Gracia, Córdoba",Carlos Gómez,1,30-71000015-9,True,True
+16,1016,Panadería Santa María,Panadería Santa María S.R.L.,5493547490016,"Av. Belgrano 340, Alta Gracia, Córdoba",Martin Peralta,2,30-71000016-9,True,True
+17,1017,Delicias de la Villa,Delicias de la Villa S.R.L.,5493547490017,"Av. Belgrano 355, Alta Gracia, Córdoba",Sofía Rossi,1,30-71000017-9,True,True
+18,1018,Café de la Plaza,Café de la Plaza S.R.L.,5493547490018,"Av. Belgrano 370, Alta Gracia, Córdoba",Carlos Gómez,3,30-71000018-9,True,True
+19,1019,Panadería El Rosario,Panadería El Rosario S.R.L.,5493547490019,"Av. Belgrano 385, Alta Gracia, Córdoba",Martin Peralta,1,30-71000019-9,True,True
+20,1020,Punto Dulce Alta Gracia,Punto Dulce Alta Gracia S.R.L.,5493547490020,"Av. Belgrano 400, Alta Gracia, Córdoba",Sofía Rossi,2,30-71000020-9,True,True
+21,1021,Estación Axion Ruta 5,Estación Axion Ruta 5 S.R.L.,5493547490021,"Av. Belgrano 415, Alta Gracia, Córdoba",Carlos Gómez,1,30-71000021-9,True,True
+22,1022,Panadería San Cayetano,Panadería San Cayetano S.R.L.,5493547490022,"Av. Belgrano 430, Alta Gracia, Córdoba",Martin Peralta,2,30-71000022-9,True,True
+23,1023,Cafetería El Molino,Cafetería El Molino S.R.L.,5493547490023,"Av. Belgrano 445, Alta Gracia, Córdoba",Sofía Rossi,1,30-71000023-9,True,True
+24,1024,Despensa La Esquina,Despensa La Esquina S.R.L.,5493547490024,"Av. Belgrano 460, Alta Gracia, Córdoba",Carlos Gómez,3,30-71000024-9,True,True
+25,1025,Panadería Hojaldres & Co,Panadería Hojaldres & Co S.R.L.,5493547490025,"Av. Belgrano 475, Alta Gracia, Córdoba",Martin Peralta,1,30-71000025-9,True,True
+26,1026,Café Bar El Tajamar,Café Bar El Tajamar S.R.L.,5493547490026,"Av. Belgrano 490, Alta Gracia, Córdoba",Sofía Rossi,2,30-71000026-9,True,True
+27,1027,Panificados La Serranita,Panificados La Serranita S.R.L.,5493547490027,"Av. Belgrano 505, Alta Gracia, Córdoba",Carlos Gómez,1,30-71000027-9,True,True
+28,1028,Minimarket Los Olivos,Minimarket Los Olivos S.R.L.,5493547490028,"Av. Belgrano 520, Alta Gracia, Córdoba",Martin Peralta,2,30-71000028-9,True,True
+29,1029,Buffet Estación Shell,Buffet Estación Shell S.R.L.,5493547490029,"Av. Belgrano 535, Alta Gracia, Córdoba",Sofía Rossi,1,30-71000029-9,True,True
+30,1030,Panadería La Nueva Espiga,Panadería La Nueva Espiga S.R.L.,5493547490030,"Av. Belgrano 550, Alta Gracia, Córdoba",Carlos Gómez,3,30-71000030-9,True,True
+31,1031,Croissant & Co,Croissant & Co S.R.L.,5493547490031,"Av. Belgrano 565, Alta Gracia, Córdoba",Martin Peralta,1,30-71000031-9,True,True
+32,1032,Café Gourmet Sierras,Café Gourmet Sierras S.R.L.,5493547490032,"Av. Belgrano 580, Alta Gracia, Córdoba",Sofía Rossi,2,30-71000032-9,True,True
+33,1033,Panadería Tradición Serrana,Panadería Tradición Serrana S.R.L.,5493547490033,"Av. Belgrano 595, Alta Gracia, Córdoba",Carlos Gómez,1,30-71000033-9,True,True
+34,1034,Supermercado San Martín,Supermercado San Martín S.R.L.,5493547490034,"Av. Belgrano 610, Alta Gracia, Córdoba",Martin Peralta,2,30-71000034-9,True,True
+35,1035,Bar de la Estación,Bar de la Estación S.R.L.,5493547490035,"Av. Belgrano 625, Alta Gracia, Córdoba",Sofía Rossi,1,30-71000035-9,True,True
+36,1036,Parador VGB,Parador VGB S.R.L.,5493547490036,"Av. Belgrano 640, Alta Gracia, Córdoba",Carlos Gómez,3,30-71000036-9,True,True
+37,1037,Panadería El Artesano,Panadería El Artesano S.R.L.,5493547490037,"Av. Belgrano 655, Alta Gracia, Córdoba",Martin Peralta,1,30-71000037-9,True,True
+38,1038,Despensa El Cruce,Despensa El Cruce S.R.L.,5493547490038,"Av. Belgrano 670, Alta Gracia, Córdoba",Sofía Rossi,2,30-71000038-9,True,True
+39,1039,Café Avenida,Café Avenida S.R.L.,5493547490039,"Av. Belgrano 685, Alta Gracia, Córdoba",Carlos Gómez,1,30-71000039-9,True,True
+40,1040,Panadería Los Criollos,Panadería Los Criollos S.R.L.,5493547490040,"Av. Belgrano 700, Alta Gracia, Córdoba",Martin Peralta,2,30-71000040-9,True,True
+41,0,Panadería San Antonio,Panadería San Antonio S.R.L.,5493547490041,"Av. Belgrano 715, Alta Gracia, Córdoba",Sofía Rossi,1,30-71000041-9,True,True
+42,0,Café Los Álamos,Café Los Álamos S.R.L.,5493547490042,"Av. Belgrano 730, Alta Gracia, Córdoba",Carlos Gómez,3,30-71000042-9,True,True
+43,0,Minimarket Belgrano,Minimarket Belgrano S.R.L.,5493547490043,"Av. Belgrano 745, Alta Gracia, Córdoba",Martin Peralta,1,30-71000043-9,True,True
+44,0,Parador El Candil,Parador El Candil S.R.L.,5493547490044,"Av. Belgrano 760, Alta Gracia, Córdoba",Sofía Rossi,2,30-71000044-9,True,True
+45,0,Panadería La Cabaña,Panadería La Cabaña S.R.L.,5493547490045,"Av. Belgrano 775, Alta Gracia, Córdoba",Carlos Gómez,1,30-71000045-9,True,True
+46,0,Cafetería La Catedral,Cafetería La Catedral S.R.L.,5493547490046,"Av. Belgrano 790, Alta Gracia, Córdoba",Martin Peralta,2,30-71000046-9,True,True
+47,0,Despensa El Carmen,Despensa El Carmen S.R.L.,5493547490047,"Av. Belgrano 805, Alta Gracia, Córdoba",Sofía Rossi,1,30-71000047-9,True,True
+48,0,Buffet YPF Sierras,Buffet YPF Sierras S.R.L.,5493547490048,"Av. Belgrano 820, Alta Gracia, Córdoba",Carlos Gómez,3,30-71000048-9,True,True
+49,0,Panadería El Trigo de Oro,Panadería El Trigo de Oro S.R.L.,5493547490049,"Av. Belgrano 835, Alta Gracia, Córdoba",Martin Peralta,1,30-71000049-9,True,True
+50,0,Café Colonial,Café Colonial S.R.L.,5493547490050,"Av. Belgrano 850, Alta Gracia, Córdoba",Sofía Rossi,2,30-71000050-9,True,True

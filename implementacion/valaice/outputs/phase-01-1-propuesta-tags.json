@@ -1,0 +1,215 @@
+{
+  "schema": "valaice",
+  "products": [
+    {
+      "product_code": "415",
+      "nombre": "PAN MIGNON PRECOCIDO X 18un.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Precocido",
+        "4": "Pan Mignon"
+      }
+    },
+    {
+      "product_code": "421",
+      "nombre": "MEDIALUNA CON MANTECA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Facturas",
+        "4": "Medialuna con Manteca"
+      }
+    },
+    {
+      "product_code": "422",
+      "nombre": "MEDIALUNA C/ MANTECA SALADA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Facturas",
+        "4": "Medialuna con Manteca Salada"
+      }
+    },
+    {
+      "product_code": "422-MIX",
+      "nombre": "FACTURA MIXTA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Facturas",
+        "4": "Factura Mixta"
+      }
+    },
+    {
+      "product_code": "423",
+      "nombre": "CRIOLLO DE HOJALDRE x 11kg*",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Hojaldres",
+        "4": "Criollo de Hojaldre"
+      }
+    },
+    {
+      "product_code": "424",
+      "nombre": "CRIOLLO COMÚN HEXAGONAL x 11kg*",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Hojaldres",
+        "4": "Criollo Común Hexagonal"
+      }
+    },
+    {
+      "product_code": "425",
+      "nombre": "TORTILLA TUCUMANA x 7.8kg*",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Tortillas",
+        "4": "Tortilla Tucumana"
+      }
+    },
+    {
+      "product_code": "426",
+      "nombre": "FACTURA RECTANGULAR CRUDA CONGELADA",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Facturas",
+        "4": "Factura Rectangular Cruda Congelada"
+      }
+    },
+    {
+      "product_code": "427",
+      "nombre": "CHIPÁ x 5kg*",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Chipás",
+        "4": "Chipá"
+      }
+    },
+    {
+      "product_code": "428",
+      "nombre": "PAN BAGUETTE PRECOCIDO x 30un.",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Precocido",
+        "4": "Pan Baguette"
+      }
+    },
+    {
+      "product_code": "429",
+      "nombre": "CROISSANT",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Facturas",
+        "4": "Croissant"
+      }
+    },
+    {
+      "product_code": "430",
+      "nombre": "CHIPACA DE GRASA x 5kg*",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Chipás",
+        "4": "Chipaca de Grasa"
+      }
+    },
+    {
+      "product_code": "433",
+      "nombre": "PAN TREBOLIN SALVADO PRECOCIDO x3kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Precocido",
+        "4": "Pan Trebolín Salvado"
+      }
+    },
+    {
+      "product_code": "435",
+      "nombre": "PAN MIGNON CRUDO CONGELADO x 14kg*",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Congelado",
+        "4": "Pan Mignon Crudo Congelado"
+      }
+    },
+    {
+      "product_code": "436",
+      "nombre": "PAN TREBOLIN PRECOCIDO x3kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Precocido",
+        "4": "Pan Trebolín"
+      }
+    },
+    {
+      "product_code": "440",
+      "nombre": "PAN BAGUETTE CRUDO CONGELADO x 7kg*",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Congelado",
+        "4": "Pan Baguette Crudo Congelado"
+      }
+    },
+    {
+      "product_code": "441",
+      "nombre": "PAN TREBOLÍN CRUDO CONGELADO x 7kg*",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Congelado",
+        "4": "Pan Trebolín Crudo Congelado"
+      }
+    },
+    {
+      "product_code": "442",
+      "nombre": "BAGUETTE SALVADO CRUDO CONGELADO x 7kg*",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Congelado",
+        "4": "Baguette Salvado Crudo Congelado"
+      }
+    },
+    {
+      "product_code": "443",
+      "nombre": "TREBOLÍN SALVADO CRUDO CONGELADO x 7kg*",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan Congelado",
+        "4": "Trebolín Salvado Crudo Congelado"
+      }
+    },
+    {
+      "product_code": "448",
+      "nombre": "HOJALDRITOS ESPECIALES x 5kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Hojaldres",
+        "4": "Hojalditos Especiales"
+      }
+    },
+    {
+      "product_code": "449",
+      "nombre": "CRIOLLO COMÚN CON CHICHARRÓN x 11kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Hojaldres",
+        "4": "Criollo Común con Chicharrón"
+      }
+    }
+  ]
+}

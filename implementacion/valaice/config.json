@@ -1,0 +1,10 @@
+{
+  "search_domains": ["valaice.com.ar"],
+  "fallback_query": "panaderia congelada valaice cordoba",
+  "modo": "catalogo_b2b",
+  "reglas_adicionales": [
+    "Resaltar formato ultracongelado, unidades por bulto y peso por unidad.",
+    "Destacar que los precios son finales con IVA incluido.",
+    "Mencionar recomendaciones B2B para panaderías, cafeterías, estaciones de servicio y comercios."
+  ]
+}

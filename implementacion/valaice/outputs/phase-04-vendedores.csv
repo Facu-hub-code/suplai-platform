@@ -1,0 +1,4 @@
+id,nombre,telefono,email,zona,is_mock
+1,Carlos Gómez,5493547111001,cgomez@valaice.com.ar,Alta Gracia Centro & Norte,True
+2,Martin Peralta,5493547111002,mperalta@valaice.com.ar,Alta Gracia Sur & Paravachasca,True
+3,Sofía Rossi,5493547111003,srossi@valaice.com.ar,Córdoba Capital Sur,True
