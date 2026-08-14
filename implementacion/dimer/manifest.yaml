@@ -13,6 +13,18 @@ notas: "Distribuidora mayorista de alimentos congelados en la Quinta Región de 
 blocked:
   is_mock_migration: false  # Ya verificado que existe la estructura
 
+recuperacion_mccain:
+  estado: cargado
+  output_clientes: outputs/recuperacion-mccain-clientes.csv
+  output_aliases: outputs/recuperacion-mccain-aliases.csv
+  output_pesos: outputs/recuperacion-mccain-pesos.csv
+  clientes: 30
+  aliases: 24
+  productos_con_peso: 14
+  agenda_fecha: "2026-08-17"
+  agenda_hora_operacional: "11:00"
+  cargado_at: "2026-08-14T17:37:10Z"
+
 fases:
   "00":
     nombre: preflight
