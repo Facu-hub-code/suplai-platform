@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Heladería Del Valle,25001,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493582641213,Confitería La Patagonia,25002,validado,2026-08-09T13:16:09.817262+00:00,,false
+5492991227644,Pastelería Don Julio,25003,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493418277249,Repostería Los Pinos,25004,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493587747641,Panadería-Confitería El Manzano,25005,validado,2026-08-09T13:16:09.817262+00:00,,false
+5492614053074,Café Helados Norte,25006,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493514079279,Bombonería San Martín,25007,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493876914178,Casa de Torta La Esquina,25008,validado,2026-08-09T13:16:09.817262+00:00,,false
+5492617175545,Heladería Cipolletti,25009,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493818437953,Confitería Las Bardas,25010,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493582132179,Pastelería Don Bosco,25011,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493872845902,Repostería Anahí,25012,validado,2026-08-09T13:16:09.817262+00:00,,false
+5492997670210,Panadería-Confitería Mitre,25013,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493811657614,Café Helados Yrigoyen,25014,validado,2026-08-09T13:16:09.817262+00:00,,false
+5492994145193,Bombonería La Alborada,25015,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493515971311,Casa de Torta Río Negro,25016,validado,2026-08-09T13:16:09.817262+00:00,,false
+5492994228106,Heladería Frutillar,25017,validado,2026-08-09T13:16:09.817262+00:00,,false
+5492998718887,Confitería Amancay,25018,validado,2026-08-09T13:16:09.817262+00:00,,false
+5492995028869,Pastelería Calafate,25019,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493517304254,Repostería Neuquén Sur,25020,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493416986538,Panadería-Confitería Artística,25021,validado,2026-08-09T13:16:09.817262+00:00,,false
+5492619239862,Café Helados Dulce Tentación,25022,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493513952681,Bombonería Capri,25023,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493414799650,Casa de Torta Italia,25024,validado,2026-08-09T13:16:09.817262+00:00,,false
+5492992500733,Heladería Venezia,25025,validado,2026-08-09T13:16:09.817262+00:00,,false
+5492615139305,Confitería Roma,25026,validado,2026-08-09T13:16:09.817262+00:00,,false
+5492618861463,Pastelería Sorrento,25027,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493812941974,Repostería Palermo,25028,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493817404433,Panadería-Confitería Belgrano,25029,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493419686914,Café Helados Centro,25030,validado,2026-08-09T13:16:09.817262+00:00,,false
+5493518648263,Bombonería Express,25031,existente,,,false
+5493516216782,Casa de Torta Gourmet,25032,existente,,,false
+5492612780568,Heladería Artesanal,25033,existente,,,false
+5493582639964,Confitería Familiar,25034,existente,,,false
+5493814729528,Pastelería Premier,25035,existente,,,false
+5493876922419,Repostería Selecta,25036,existente,,,false
+5492618889598,Panadería-Confitería Imperial,25037,existente,,,false
+5492615021286,Café Helados Real,25038,existente,,,false
+5493813520000,Bombonería Premier Sur,25039,existente,,,false
+5492997489876,Casa de Torta Premier Norte,25040,existente,,,false
+5493519107005,Heladería Los Álamos,0,no_validado,,PROSPECTO,true
+5493874104594,Confitería Las Acacias,0,existente,,PROSPECTO,true
+5492617413812,Pastelería El Sauce,0,no_validado,,PROSPECTO,true
+5492617236955,Repostería La Quinta,0,existente,,PROSPECTO,true
+5492612928724,Panadería-Confitería Paso Córdoba,0,no_validado,,PROSPECTO,true
+5492999435946,Café Helados Puente,0,validado,2026-08-09T13:16:09.817262+00:00,PROSPECTO,true
+5493517632424,Bombonería Terminal,0,no_existente,,PROSPECTO,true
+5493416524997,Casa de Torta Municipal,0,no_validado,,PROSPECTO,true
+5493876499570,Heladería Universitaria,0,existente,,PROSPECTO,true
+5492998066543,Confitería Industrial,0,no_validado,,PROSPECTO,true

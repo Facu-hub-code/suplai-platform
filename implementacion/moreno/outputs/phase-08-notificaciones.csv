@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2091,Calidad,open,Reclamo por Dulce de Leche Cremigal Familiar 250 G con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego Dulce de Leche Cremigal Familiar 250 G en mal estado y quiero hacer el reclamo.",2026-08-10 11:15:00,,true
+TKT-2092,Calidad,open,Reclamo por Queso Romanito Arroyo Cabral HORMA con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego Queso Romanito Arroyo Cabral HORMA en mal estado y quiero hacer el reclamo.",2026-08-09 08:15:00,,true
+TKT-2093,Calidad,open,Reclamo por Mani c/Cobertura Tio Cucho sab. Queso 1 kg con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego Mani c/Cobertura Tio Cucho sab. Queso 1 kg en mal estado y quiero hacer el reclamo.",2026-08-08 05:15:00,,true
+TKT-2094,Logistica,open,Demora en la entrega del pedido P-00154 de Azucar Impalpable 200g CENTURION.,5493418277249,"Buen dia, sigo esperando el pedido P-00154 de Azucar Impalpable 200g CENTURION y no llego.",2026-08-10 02:15:00,,true
+TKT-2095,Logistica,open,Demora en la entrega del pedido P-00123 de Dulce Membrillo DULCOR 500 G.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de Dulce Membrillo DULCOR 500 G y no llego.",2026-08-09 11:15:00,,true
+TKT-2096,Logistica,open,Demora en la entrega del pedido P-00126 de Aceituna Rellena c/Jamon Crudo 200G Gullo.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de Aceituna Rellena c/Jamon Crudo 200G Gullo y no llego.",2026-08-08 08:15:00,,true
+TKT-2097,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Almacén Don Julio.,5493587905250,,2026-08-10 05:15:00,,true
+TKT-2098,Administracion,open,Solicita corregir datos administrativos de Despensa La Costanera en el sistema.,5493582641213,,2026-08-09 02:15:00,,true
+TKT-2099,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Fiambrería El Paraná.,5492991227644,,2026-08-08 11:15:00,,true
+TKT-2100,Administracion,open,Solicita corregir datos administrativos de Minimarket Concordia Sur en el sistema.,5493418277249,,2026-08-10 08:15:00,,true
+TKT-2101,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Autoservicio El Mirador.,5492612928724,,2026-08-09 05:15:00,,true
+TKT-2102,Administracion,closed,Solicita corregir datos administrativos de Proveeduría Costa Sur en el sistema.,5492617236955,,2026-07-25 05:15:00,2026-07-25 20:15:00,true
+TKT-2103,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Minimarket San Antonio.,5492617413812,,2026-07-24 11:15:00,2026-07-25 03:15:00,true
+TKT-2104,Logistica,closed,Demora en la entrega del pedido P-00132 de Queso Parmesano La Quesera Kg.,5492998066543,,2026-07-23 09:15:00,2026-07-24 02:15:00,true
+TKT-2105,Calidad,closed,Reclamo por Queso Holanda Arroyo Cabral HORMA con entrega en mal estado o faltante parcial.,5492999435946,,2026-07-22 07:15:00,2026-07-23 01:15:00,true
+TKT-2106,Administracion,closed,Solicita corregir datos administrativos de Autoservicio Salto Grande en el sistema.,5493587747641,,2026-07-21 05:15:00,2026-07-22 00:15:00,true
+TKT-2107,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Proveeduría Villa Adela.,5492614053074,,2026-08-05 11:15:00,2026-08-06 07:15:00,true
+TKT-2108,Logistica,closed,Demora en la entrega del pedido P-00157 de Salsa Soja Light CORMILLOT 190cc PET.,5493514079279,,2026-08-04 09:15:00,2026-08-05 06:15:00,true

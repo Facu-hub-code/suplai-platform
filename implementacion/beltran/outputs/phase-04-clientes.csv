@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Almacén Don Roque,Almacén Don Roque,5493587905250,2,1,lunes,martes,"Zona ZONA NOROESTE - Villa del Parque - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,0,-31.411287,-64.521999,true
+2,Despensa La Costanera,Despensa La Costanera,5493582641213,3,2,lunes,martes,"Zona ZONA NOROESTE - Villa del Parque - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,0,-31.411326,-64.516102,true
+3,Fiambrería El Pinar,Fiambrería El Pinar,5492991227644,4,3,lunes,martes,"Zona ZONA NOROESTE - Villa del Parque - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,0,-31.411133,-64.522214,true
+4,Minimarket Punilla,Minimarket Punilla,5493418277249,1,4,lunes,martes,"Zona ZONA NOROESTE - Villa del Parque - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,0,-31.413891,-64.518587,true
+5,Autoservicio Sol y Lago,Autoservicio Sol y Lago,5493587747641,2,5,lunes,martes,"Zona ZONA NOROESTE - Villa del Parque - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,0,-31.414127,-64.5192,true
+6,Proveeduría Villa del Parque,Proveeduría Villa del Parque,5492614053074,3,6,lunes,martes,"Zona ZONA NOROESTE - Villa del Parque - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,0,-31.414889,-64.513039,true
+7,Almacén Los Olivos,Almacén Los Olivos,5493514079279,4,7,lunes,martes,"Zona ZONA NOROESTE - Villa del Parque - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,0,-31.414269,-64.513778,true
+8,Rotisería Costa Azul,Rotisería Costa Azul,5493876914178,1,8,lunes,martes,"Zona ZONA NOROESTE - Villa del Parque - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,0,-31.415634,-64.520514,true
+9,Despensa San Martín,Despensa San Martín,5492617175545,2,9,lunes,martes,"Zona ZONA NOROESTE - Villa del Parque - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,0,-31.410541,-64.514795,true
+10,Fiambrería Belén,Fiambrería Belén,5493818437953,3,10,martes,miercoles,"Zona ZONA NORTE - Costa Azul - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,1,-31.415056,-64.50033,true
+11,Minimarket Las Acacias,Minimarket Las Acacias,5493582132179,4,11,martes,miercoles,"Zona ZONA NORTE - Costa Azul - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,1,-31.409318,-64.495719,true
+12,Almacén El Embalse,Almacén El Embalse,5493872845902,1,12,martes,miercoles,"Zona ZONA NORTE - Costa Azul - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,1,-31.415518,-64.492807,true
+13,Autoservicio Arredondo,Autoservicio Arredondo,5492997670210,2,13,martes,miercoles,"Zona ZONA NORTE - Costa Azul - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,1,-31.411795,-64.501481,true
+14,Proveeduría Síquiman,Proveeduría Síquiman,5493811657614,3,14,martes,miercoles,"Zona ZONA NORTE - Costa Azul - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,1,-31.415087,-64.498055,true
+15,Despensa Estancia Vieja,Despensa Estancia Vieja,5492994145193,4,15,martes,miercoles,"Zona ZONA NORTE - Costa Azul - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,1,-31.416561,-64.493352,true
+16,Fiambrería La Paulina Express,Fiambrería La Paulina Express,5493515971311,1,16,martes,miercoles,"Zona ZONA NORTE - Costa Azul - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,1,-31.411459,-64.501923,true
+17,Almacén Doña Rosa,Almacén Doña Rosa,5492994228106,2,17,martes,miercoles,"Zona ZONA NORTE - Costa Azul - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,1,-31.41453,-64.499472,true
+18,Minimarket Valle Norte,Minimarket Valle Norte,5492998718887,3,18,martes,miercoles,"Zona ZONA NORTE - Costa Azul - Villa Carlos Paz, Córdoba, Argentina",Lucía Ferreyra,0,1,-31.412478,-64.494981,true
+19,Rotisería El Puente,Rotisería El Puente,5492995028869,4,19,miercoles,jueves,"Zona ZONA NORESTE - Sol y Río - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,2,-31.409849,-64.481868,true
+20,Autoservicio Lago San Roque,Autoservicio Lago San Roque,5493517304254,1,20,miercoles,jueves,"Zona ZONA NORESTE - Sol y Río - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,2,-31.409558,-64.476626,true
+21,Despensa Centro VCP,Despensa Centro VCP,5493416986538,2,21,miercoles,jueves,"Zona ZONA NORESTE - Sol y Río - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,2,-31.417162,-64.479123,true
+22,Fiambrería El Quesero,Fiambrería El Quesero,5492619239862,3,22,miercoles,jueves,"Zona ZONA NORESTE - Sol y Río - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,2,-31.415992,-64.478092,true
+23,Almacén Tres Esquinas,Almacén Tres Esquinas,5493513952681,4,23,miercoles,jueves,"Zona ZONA NORESTE - Sol y Río - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,2,-31.410961,-64.480758,true
+24,Proveeduría Mayu Sumaj,Proveeduría Mayu Sumaj,5493414799650,1,24,miercoles,jueves,"Zona ZONA NORESTE - Sol y Río - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,2,-31.415296,-64.478901,true
+25,Minimarket Cuesta Blanca,Minimarket Cuesta Blanca,5492992500733,2,25,miercoles,jueves,"Zona ZONA NORESTE - Sol y Río - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,2,-31.412572,-64.475186,true
+26,Autoservicio Bialet,Autoservicio Bialet,5492615139305,3,26,miercoles,jueves,"Zona ZONA NORESTE - Sol y Río - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,2,-31.415758,-64.477937,true
+27,Despensa Villa Parque,Despensa Villa Parque,5492618861463,4,27,jueves,viernes,"Zona ZONA SUROESTE - San Antonio de Arredondo - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,3,-31.435882,-64.515721,true
+28,Fiambrería Natural Pig,Fiambrería Natural Pig,5493812941974,1,28,jueves,viernes,"Zona ZONA SUROESTE - San Antonio de Arredondo - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,3,-31.435493,-64.518877,true
+29,Almacén La Esquina,Almacén La Esquina,5493817404433,2,29,jueves,viernes,"Zona ZONA SUROESTE - San Antonio de Arredondo - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,3,-31.430733,-64.517818,true
+30,Rotisería Punilla Sur,Rotisería Punilla Sur,5493419686914,3,30,jueves,viernes,"Zona ZONA SUROESTE - San Antonio de Arredondo - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,3,-31.430716,-64.521555,true
+31,Minimarket El Faro,Minimarket El Faro,5493518648263,4,31,jueves,viernes,"Zona ZONA SUROESTE - San Antonio de Arredondo - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,3,-31.43544,-64.514056,true
+32,Proveeduría Sol y Río,Proveeduría Sol y Río,5493516216782,1,32,jueves,viernes,"Zona ZONA SUROESTE - San Antonio de Arredondo - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,3,-31.435131,-64.514308,true
+33,Autoservicio Las Casuarinas,Autoservicio Las Casuarinas,5492612780568,2,33,jueves,viernes,"Zona ZONA SUROESTE - San Antonio de Arredondo - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,3,-31.437393,-64.518844,true
+34,Despensa Río San Antonio,Despensa Río San Antonio,5493582639964,3,34,jueves,viernes,"Zona ZONA SUROESTE - San Antonio de Arredondo - Villa Carlos Paz, Córdoba, Argentina",Martín Godoy,1,3,-31.431246,-64.517998,true
+35,Fiambrería Dánica Point,Fiambrería Dánica Point,5493814729528,4,35,viernes,sabado,"Zona ZONA SUR - Villa Parque Síquiman - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,4,-31.433886,-64.500309,true
+36,Almacén El Progreso,Almacén El Progreso,5493876922419,1,36,viernes,sabado,"Zona ZONA SUR - Villa Parque Síquiman - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,4,-31.437445,-64.49726,true
+37,Minimarket Villa del Lago Sur,Minimarket Villa del Lago Sur,5492618889598,2,37,viernes,sabado,"Zona ZONA SUR - Villa Parque Síquiman - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,4,-31.431784,-64.49838,true
+38,Proveeduría Centro Comercial,Proveeduría Centro Comercial,5492615021286,3,38,viernes,sabado,"Zona ZONA SUR - Villa Parque Síquiman - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,4,-31.432922,-64.502574,true
+39,Autoservicio Avenida España,Autoservicio Avenida España,5493813520000,4,39,viernes,sabado,"Zona ZONA SUR - Villa Parque Síquiman - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,4,-31.435922,-64.50142,true
+40,Despensa Barrio Norte,Despensa Barrio Norte,5492997489876,1,40,viernes,sabado,"Zona ZONA SUR - Villa Parque Síquiman - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,4,-31.431299,-64.501246,true
+41,Fiambrería La Tirolesa,Fiambrería La Tirolesa,5493519107005,2,41,viernes,sabado,"Zona ZONA SUR - Villa Parque Síquiman - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,4,-31.434875,-64.500398,true
+42,Almacén Los Nogales,Almacén Los Nogales,5493874104594,3,42,viernes,sabado,"Zona ZONA SUR - Villa Parque Síquiman - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,4,-31.42979,-64.497485,true
+43,Rotisería Villa Carlos Paz,Rotisería Villa Carlos Paz,5492617413812,4,43,sabado,lunes,"Zona ZONA SURESTE - Estancia Vieja - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,5,-31.435537,-64.481034,true
+44,Minimarket El Lago,Minimarket El Lago,5492617236955,1,44,sabado,lunes,"Zona ZONA SURESTE - Estancia Vieja - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,5,-31.435997,-64.474685,true
+45,Proveeduría Ruta 38,Proveeduría Ruta 38,5492612928724,2,45,sabado,lunes,"Zona ZONA SURESTE - Estancia Vieja - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,5,-31.432709,-64.478543,true
+46,Autoservicio Colinas,Autoservicio Colinas,5492999435946,3,46,sabado,lunes,"Zona ZONA SURESTE - Estancia Vieja - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,5,-31.437408,-64.476851,true
+47,Despensa Parque Nacional,Despensa Parque Nacional,5493517632424,4,47,sabado,lunes,"Zona ZONA SURESTE - Estancia Vieja - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,5,-31.43446,-64.481507,true
+48,Fiambrería Unión Quesos,Fiambrería Unión Quesos,5493416524997,1,48,sabado,lunes,"Zona ZONA SURESTE - Estancia Vieja - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,5,-31.429872,-64.478656,true
+49,Almacén Doña Marta,Almacén Doña Marta,5493876499570,2,49,sabado,lunes,"Zona ZONA SURESTE - Estancia Vieja - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,5,-31.437902,-64.482017,true
+50,Minimarket San Antonio,Minimarket San Antonio,5492998066543,3,50,sabado,lunes,"Zona ZONA SURESTE - Estancia Vieja - Villa Carlos Paz, Córdoba, Argentina",Paula Sosa,2,5,-31.437294,-64.477021,true

@@ -1,0 +1,6 @@
+base_product_code,related_product_code,priority,active,is_mock
+421,429,1,True,True
+421,422-MIX,2,True,True
+426,423,1,True,True
+440,435,1,True,True
+428,415,1,True,True

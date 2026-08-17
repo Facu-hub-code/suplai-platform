@@ -380,7 +380,8 @@ async def aplicar_actualizaciones_db(esquema: str, csv_entrada: str):
         return
 
     try:
-        conn = await asyncpg.connect(db_url)
+        # Puerto 6543 (Transaction Mode): desactivar cache de prepared statements
+        conn = await asyncpg.connect(db_url, statement_cache_size=0)
     except Exception as e:
         print(f"Error al conectar a Supabase: {e}")
         return

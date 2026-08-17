@@ -1,0 +1,158 @@
+pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
+P-00001,25001,5493587905250,Almacén Don Roque,2026-03-01 08:00:00,confirmado,31476.00,Pedido historico mock - Almacén Don Roque,true,false,2
+P-00002,25001,5493587905250,Almacén Don Roque,2026-03-18 09:19:07,entregado,121248.00,Pedido historico mock - Almacén Don Roque,true,false,2
+P-00003,25001,5493587905250,Almacén Don Roque,2026-04-04 10:38:14,facturado,67303.20,Pedido historico mock - Almacén Don Roque,true,false,2
+P-00004,25002,5493582641213,Despensa La Costanera,2026-03-08 11:11:23,entregado,149592.00,Pedido historico mock - Despensa La Costanera,true,false,3
+P-00005,25002,5493582641213,Despensa La Costanera,2026-03-25 12:30:30,facturado,9024.00,Pedido historico mock - Despensa La Costanera,true,false,3
+P-00006,25002,5493582641213,Despensa La Costanera,2026-04-11 13:49:37,confirmado,238300.80,Pedido historico mock - Despensa La Costanera,true,false,3
+P-00007,25003,5492991227644,Fiambrería El Pinar,2026-03-15 14:22:46,facturado,41760.00,Pedido historico mock - Fiambrería El Pinar,true,false,4
+P-00008,25003,5492991227644,Fiambrería El Pinar,2026-04-01 15:41:53,confirmado,29604.00,Pedido historico mock - Fiambrería El Pinar,true,false,4
+P-00009,25003,5492991227644,Fiambrería El Pinar,2026-04-18 16:00:00,entregado,184362.00,Pedido historico mock - Fiambrería El Pinar,true,false,4
+P-00010,25004,5493418277249,Minimarket Punilla,2026-03-22 17:33:09,confirmado,76711.20,Pedido historico mock - Minimarket Punilla,true,false,1
+P-00011,25004,5493418277249,Minimarket Punilla,2026-04-08 08:52:16,entregado,147963.60,Pedido historico mock - Minimarket Punilla,true,false,1
+P-00012,25004,5493418277249,Minimarket Punilla,2026-04-25 09:11:23,facturado,145890.00,Pedido historico mock - Minimarket Punilla,true,false,1
+P-00013,25005,5493587747641,Autoservicio Sol y Lago,2026-03-29 10:44:32,entregado,108744.00,Pedido historico mock - Autoservicio Sol y Lago,true,false,2
+P-00014,25005,5493587747641,Autoservicio Sol y Lago,2026-04-15 11:03:39,facturado,170220.00,Pedido historico mock - Autoservicio Sol y Lago,true,false,2
+P-00015,25005,5493587747641,Autoservicio Sol y Lago,2026-05-02 12:22:46,confirmado,99195.00,Pedido historico mock - Autoservicio Sol y Lago,true,false,2
+P-00016,25006,5492614053074,Proveeduría Villa del Parque,2026-04-05 13:55:55,facturado,279525.00,Pedido historico mock - Proveeduría Villa del Parque,true,false,3
+P-00017,25006,5492614053074,Proveeduría Villa del Parque,2026-04-22 14:14:02,confirmado,79950.00,Pedido historico mock - Proveeduría Villa del Parque,true,false,3
+P-00018,25006,5492614053074,Proveeduría Villa del Parque,2026-05-09 15:33:09,entregado,229590.00,Pedido historico mock - Proveeduría Villa del Parque,true,false,3
+P-00019,25007,5493514079279,Almacén Los Olivos,2026-04-12 16:06:18,confirmado,25935.60,Pedido historico mock - Almacén Los Olivos,true,false,4
+P-00020,25007,5493514079279,Almacén Los Olivos,2026-04-29 17:25:25,entregado,45153.60,Pedido historico mock - Almacén Los Olivos,true,false,4
+P-00021,25007,5493514079279,Almacén Los Olivos,2026-05-16 08:44:32,facturado,164520.00,Pedido historico mock - Almacén Los Olivos,true,false,4
+P-00022,25008,5493876914178,Rotisería Costa Azul,2026-04-19 09:17:41,entregado,146304.00,Pedido historico mock - Rotisería Costa Azul,true,false,1
+P-00023,25008,5493876914178,Rotisería Costa Azul,2026-05-06 10:36:48,facturado,29604.00,Pedido historico mock - Rotisería Costa Azul,true,false,1
+P-00024,25008,5493876914178,Rotisería Costa Azul,2026-05-23 11:55:55,confirmado,58747.20,Pedido historico mock - Rotisería Costa Azul,true,false,1
+P-00025,25009,5492617175545,Despensa San Martín,2026-04-26 12:28:04,facturado,79800.00,Pedido historico mock - Despensa San Martín,true,false,2
+P-00026,25009,5492617175545,Despensa San Martín,2026-05-13 13:47:11,confirmado,158970.00,Pedido historico mock - Despensa San Martín,true,false,2
+P-00027,25009,5492617175545,Despensa San Martín,2026-05-30 14:06:18,entregado,27870.00,Pedido historico mock - Despensa San Martín,true,false,2
+P-00028,25010,5493818437953,Fiambrería Belén,2026-05-03 15:39:27,confirmado,98671.20,Pedido historico mock - Fiambrería Belén,true,false,3
+P-00029,25010,5493818437953,Fiambrería Belén,2026-05-20 16:58:34,entregado,105003.60,Pedido historico mock - Fiambrería Belén,true,false,3
+P-00030,25010,5493818437953,Fiambrería Belén,2026-03-06 17:17:41,facturado,250938.00,Pedido historico mock - Fiambrería Belén,true,false,3
+P-00031,25011,5493582132179,Minimarket Las Acacias,2026-05-10 08:50:50,entregado,30266.40,Pedido historico mock - Minimarket Las Acacias,true,false,4
+P-00032,25011,5493582132179,Minimarket Las Acacias,2026-05-27 09:09:57,facturado,146260.80,Pedido historico mock - Minimarket Las Acacias,true,false,4
+P-00033,25011,5493582132179,Minimarket Las Acacias,2026-03-13 10:28:04,confirmado,350813.40,Pedido historico mock - Minimarket Las Acacias,true,false,4
+P-00034,25012,5493872845902,Almacén El Embalse,2026-05-17 11:01:13,facturado,52920.00,Pedido historico mock - Almacén El Embalse,true,false,1
+P-00035,25012,5493872845902,Almacén El Embalse,2026-03-03 12:20:20,confirmado,128448.00,Pedido historico mock - Almacén El Embalse,true,false,1
+P-00036,25012,5493872845902,Almacén El Embalse,2026-03-20 13:39:27,entregado,17385.60,Pedido historico mock - Almacén El Embalse,true,false,1
+P-00037,25013,5492997670210,Autoservicio Arredondo,2026-05-24 14:12:36,confirmado,89560.80,Pedido historico mock - Autoservicio Arredondo,true,false,2
+P-00038,25013,5492997670210,Autoservicio Arredondo,2026-03-10 15:31:43,entregado,88180.80,Pedido historico mock - Autoservicio Arredondo,true,false,2
+P-00039,25013,5492997670210,Autoservicio Arredondo,2026-03-27 16:50:50,facturado,152049.60,Pedido historico mock - Autoservicio Arredondo,true,false,2
+P-00040,25014,5493811657614,Proveeduría Síquiman,2026-05-31 17:23:59,entregado,69592.50,Pedido historico mock - Proveeduría Síquiman,true,false,3
+P-00041,25014,5493811657614,Proveeduría Síquiman,2026-03-17 08:42:06,facturado,217939.20,Pedido historico mock - Proveeduría Síquiman,true,false,3
+P-00042,25014,5493811657614,Proveeduría Síquiman,2026-04-03 09:01:13,confirmado,236159.40,Pedido historico mock - Proveeduría Síquiman,true,false,3
+P-00043,25015,5492994145193,Despensa Estancia Vieja,2026-03-07 10:34:22,facturado,221034.70,Pedido historico mock - Despensa Estancia Vieja,true,false,4
+P-00044,25015,5492994145193,Despensa Estancia Vieja,2026-03-24 11:53:29,confirmado,87738.00,Pedido historico mock - Despensa Estancia Vieja,true,false,4
+P-00045,25015,5492994145193,Despensa Estancia Vieja,2026-04-10 12:12:36,entregado,105192.00,Pedido historico mock - Despensa Estancia Vieja,true,false,4
+P-00046,25016,5493515971311,Fiambrería La Paulina Express,2026-03-14 13:45:45,confirmado,81480.00,Pedido historico mock - Fiambrería La Paulina Express,true,false,1
+P-00047,25016,5493515971311,Fiambrería La Paulina Express,2026-03-31 14:04:52,entregado,41568.00,Pedido historico mock - Fiambrería La Paulina Express,true,false,1
+P-00048,25016,5493515971311,Fiambrería La Paulina Express,2026-04-17 15:23:59,facturado,18120.00,Pedido historico mock - Fiambrería La Paulina Express,true,false,1
+P-00049,25017,5492994228106,Almacén Doña Rosa,2026-03-21 16:56:08,entregado,113515.20,Pedido historico mock - Almacén Doña Rosa,true,false,2
+P-00050,25017,5492994228106,Almacén Doña Rosa,2026-04-07 17:15:15,facturado,122520.00,Pedido historico mock - Almacén Doña Rosa,true,false,2
+P-00051,25017,5492994228106,Almacén Doña Rosa,2026-04-24 08:34:22,confirmado,36912.00,Pedido historico mock - Almacén Doña Rosa,true,false,2
+P-00052,25018,5492998718887,Minimarket Valle Norte,2026-03-28 09:07:31,facturado,202953.60,Pedido historico mock - Minimarket Valle Norte,true,false,3
+P-00053,25018,5492998718887,Minimarket Valle Norte,2026-04-14 10:26:38,confirmado,166950.00,Pedido historico mock - Minimarket Valle Norte,true,false,3
+P-00054,25018,5492998718887,Minimarket Valle Norte,2026-05-01 11:45:45,entregado,99000.00,Pedido historico mock - Minimarket Valle Norte,true,false,3
+P-00055,25019,5492995028869,Rotisería El Puente,2026-04-04 12:18:54,confirmado,25716.00,Pedido historico mock - Rotisería El Puente,true,false,4
+P-00056,25019,5492995028869,Rotisería El Puente,2026-04-21 13:37:01,entregado,102190.80,Pedido historico mock - Rotisería El Puente,true,false,4
+P-00057,25019,5492995028869,Rotisería El Puente,2026-05-08 14:56:08,facturado,48524.40,Pedido historico mock - Rotisería El Puente,true,false,4
+P-00058,25020,5493517304254,Autoservicio Lago San Roque,2026-04-11 15:29:17,entregado,8172.00,Pedido historico mock - Autoservicio Lago San Roque,true,false,1
+P-00059,25020,5493517304254,Autoservicio Lago San Roque,2026-04-28 16:48:24,facturado,63864.00,Pedido historico mock - Autoservicio Lago San Roque,true,false,1
+P-00060,25020,5493517304254,Autoservicio Lago San Roque,2026-05-15 17:07:31,confirmado,39444.00,Pedido historico mock - Autoservicio Lago San Roque,true,false,1
+P-00061,25021,5493416986538,Despensa Centro VCP,2026-04-18 08:40:40,facturado,88644.00,Pedido historico mock - Despensa Centro VCP,true,false,2
+P-00062,25021,5493416986538,Despensa Centro VCP,2026-05-05 09:59:47,confirmado,26487.60,Pedido historico mock - Despensa Centro VCP,true,false,2
+P-00063,25021,5493416986538,Despensa Centro VCP,2026-05-22 10:18:54,entregado,63780.00,Pedido historico mock - Despensa Centro VCP,true,false,2
+P-00064,25022,5492619239862,Fiambrería El Quesero,2026-04-25 11:51:03,confirmado,82714.80,Pedido historico mock - Fiambrería El Quesero,true,false,3
+P-00065,25022,5492619239862,Fiambrería El Quesero,2026-05-12 12:10:10,entregado,122532.00,Pedido historico mock - Fiambrería El Quesero,true,false,3
+P-00066,25022,5492619239862,Fiambrería El Quesero,2026-05-29 13:29:17,facturado,116776.80,Pedido historico mock - Fiambrería El Quesero,true,false,3
+P-00067,25023,5493513952681,Almacén Tres Esquinas,2026-05-02 14:02:26,entregado,160872.00,Pedido historico mock - Almacén Tres Esquinas,true,false,4
+P-00068,25023,5493513952681,Almacén Tres Esquinas,2026-05-19 15:21:33,facturado,79342.50,Pedido historico mock - Almacén Tres Esquinas,true,false,4
+P-00069,25023,5493513952681,Almacén Tres Esquinas,2026-03-05 16:40:40,confirmado,84264.00,Pedido historico mock - Almacén Tres Esquinas,true,false,4
+P-00070,25024,5493414799650,Proveeduría Mayu Sumaj,2026-05-09 17:13:49,facturado,215362.80,Pedido historico mock - Proveeduría Mayu Sumaj,true,false,1
+P-00071,25024,5493414799650,Proveeduría Mayu Sumaj,2026-05-26 08:32:56,confirmado,302520.00,Pedido historico mock - Proveeduría Mayu Sumaj,true,false,1
+P-00072,25024,5493414799650,Proveeduría Mayu Sumaj,2026-03-12 09:51:03,entregado,340605.60,Pedido historico mock - Proveeduría Mayu Sumaj,true,false,1
+P-00073,25025,5492992500733,Minimarket Cuesta Blanca,2026-05-16 10:24:12,confirmado,105600.00,Pedido historico mock - Minimarket Cuesta Blanca,true,false,2
+P-00074,25025,5492992500733,Minimarket Cuesta Blanca,2026-03-02 11:43:19,entregado,250560.00,Pedido historico mock - Minimarket Cuesta Blanca,true,false,2
+P-00075,25025,5492992500733,Minimarket Cuesta Blanca,2026-03-19 12:02:26,facturado,11581.20,Pedido historico mock - Minimarket Cuesta Blanca,true,false,2
+P-00076,25026,5492615139305,Autoservicio Bialet,2026-05-23 13:35:35,entregado,25728.00,Pedido historico mock - Autoservicio Bialet,true,false,3
+P-00077,25026,5492615139305,Autoservicio Bialet,2026-03-09 14:54:42,facturado,7500.00,Pedido historico mock - Autoservicio Bialet,true,false,3
+P-00078,25026,5492615139305,Autoservicio Bialet,2026-03-26 15:13:49,confirmado,57990.00,Pedido historico mock - Autoservicio Bialet,true,false,3
+P-00079,25027,5492618861463,Despensa Villa Parque,2026-05-30 16:46:58,facturado,106665.00,Pedido historico mock - Despensa Villa Parque,true,false,4
+P-00080,25027,5492618861463,Despensa Villa Parque,2026-03-16 17:05:05,confirmado,97320.00,Pedido historico mock - Despensa Villa Parque,true,false,4
+P-00081,25027,5492618861463,Despensa Villa Parque,2026-04-02 08:24:12,entregado,148248.00,Pedido historico mock - Despensa Villa Parque,true,false,4
+P-00082,25028,5493812941974,Fiambrería Natural Pig,2026-03-06 09:57:21,confirmado,67968.00,Pedido historico mock - Fiambrería Natural Pig,true,false,1
+P-00083,25028,5493812941974,Fiambrería Natural Pig,2026-03-23 10:16:28,entregado,164374.80,Pedido historico mock - Fiambrería Natural Pig,true,false,1
+P-00084,25028,5493812941974,Fiambrería Natural Pig,2026-04-09 11:35:35,facturado,106290.00,Pedido historico mock - Fiambrería Natural Pig,true,false,1
+P-00085,25029,5493817404433,Almacén La Esquina,2026-03-13 12:08:44,entregado,61924.80,Pedido historico mock - Almacén La Esquina,true,false,2
+P-00086,25029,5493817404433,Almacén La Esquina,2026-03-30 13:27:51,facturado,16800.00,Pedido historico mock - Almacén La Esquina,true,false,2
+P-00087,25029,5493817404433,Almacén La Esquina,2026-04-16 14:46:58,confirmado,19800.00,Pedido historico mock - Almacén La Esquina,true,false,2
+P-00088,25030,5493419686914,Rotisería Punilla Sur,2026-03-20 15:19:07,facturado,63117.60,Pedido historico mock - Rotisería Punilla Sur,true,false,3
+P-00089,25030,5493419686914,Rotisería Punilla Sur,2026-04-06 16:38:14,confirmado,68946.00,Pedido historico mock - Rotisería Punilla Sur,true,false,3
+P-00090,25030,5493419686914,Rotisería Punilla Sur,2026-04-23 17:57:21,entregado,211812.00,Pedido historico mock - Rotisería Punilla Sur,true,false,3
+P-00091,25031,5493518648263,Minimarket El Faro,2026-03-27 08:30:30,confirmado,43296.00,Pedido historico mock - Minimarket El Faro,true,false,4
+P-00092,25031,5493518648263,Minimarket El Faro,2026-04-13 09:49:37,entregado,144642.00,Pedido historico mock - Minimarket El Faro,true,false,4
+P-00093,25031,5493518648263,Minimarket El Faro,2026-04-30 10:08:44,facturado,129238.80,Pedido historico mock - Minimarket El Faro,true,false,4
+P-00094,25032,5493516216782,Proveeduría Sol y Río,2026-04-03 11:41:53,entregado,55080.00,Pedido historico mock - Proveeduría Sol y Río,true,false,1
+P-00095,25032,5493516216782,Proveeduría Sol y Río,2026-04-20 12:00:00,facturado,49434.00,Pedido historico mock - Proveeduría Sol y Río,true,false,1
+P-00096,25032,5493516216782,Proveeduría Sol y Río,2026-05-07 13:19:07,confirmado,48333.60,Pedido historico mock - Proveeduría Sol y Río,true,false,1
+P-00097,25033,5492612780568,Autoservicio Las Casuarinas,2026-04-10 14:52:16,facturado,168393.60,Pedido historico mock - Autoservicio Las Casuarinas,true,false,2
+P-00098,25033,5492612780568,Autoservicio Las Casuarinas,2026-04-27 15:11:23,confirmado,156424.80,Pedido historico mock - Autoservicio Las Casuarinas,true,false,2
+P-00099,25033,5492612780568,Autoservicio Las Casuarinas,2026-05-14 16:30:30,entregado,7398.00,Pedido historico mock - Autoservicio Las Casuarinas,true,false,2
+P-00100,25034,5493582639964,Despensa Río San Antonio,2026-04-17 17:03:39,confirmado,109080.00,Pedido historico mock - Despensa Río San Antonio,true,false,3
+P-00101,25034,5493582639964,Despensa Río San Antonio,2026-05-04 08:22:46,entregado,142692.00,Pedido historico mock - Despensa Río San Antonio,true,false,3
+P-00102,25034,5493582639964,Despensa Río San Antonio,2026-05-21 09:41:53,facturado,55680.00,Pedido historico mock - Despensa Río San Antonio,true,false,3
+P-00103,25035,5493814729528,Fiambrería Dánica Point,2026-04-24 10:14:02,entregado,26078.40,Pedido historico mock - Fiambrería Dánica Point,true,false,4
+P-00104,25035,5493814729528,Fiambrería Dánica Point,2026-05-11 11:33:09,facturado,150900.00,Pedido historico mock - Fiambrería Dánica Point,true,false,4
+P-00105,25035,5493814729528,Fiambrería Dánica Point,2026-05-28 12:52:16,confirmado,130968.00,Pedido historico mock - Fiambrería Dánica Point,true,false,4
+P-00106,25036,5493876922419,Almacén El Progreso,2026-05-01 13:25:25,facturado,233293.50,Pedido historico mock - Almacén El Progreso,true,false,1
+P-00107,25036,5493876922419,Almacén El Progreso,2026-05-18 14:44:32,confirmado,23385.60,Pedido historico mock - Almacén El Progreso,true,false,1
+P-00108,25036,5493876922419,Almacén El Progreso,2026-03-04 15:03:39,entregado,46862.40,Pedido historico mock - Almacén El Progreso,true,false,1
+P-00109,25037,5492618889598,Minimarket Villa del Lago Sur,2026-05-08 16:36:48,confirmado,67728.00,Pedido historico mock - Minimarket Villa del Lago Sur,true,false,2
+P-00110,25037,5492618889598,Minimarket Villa del Lago Sur,2026-05-25 17:55:55,entregado,15240.00,Pedido historico mock - Minimarket Villa del Lago Sur,true,false,2
+P-00111,25037,5492618889598,Minimarket Villa del Lago Sur,2026-03-11 08:14:02,facturado,54528.00,Pedido historico mock - Minimarket Villa del Lago Sur,true,false,2
+P-00112,25038,5492615021286,Proveeduría Centro Comercial,2026-05-15 09:47:11,entregado,175623.60,Pedido historico mock - Proveeduría Centro Comercial,true,false,3
+P-00113,25038,5492615021286,Proveeduría Centro Comercial,2026-03-01 10:06:18,facturado,202895.90,Pedido historico mock - Proveeduría Centro Comercial,true,false,3
+P-00114,25038,5492615021286,Proveeduría Centro Comercial,2026-03-18 11:25:25,confirmado,108576.00,Pedido historico mock - Proveeduría Centro Comercial,true,false,3
+P-00115,25039,5493813520000,Autoservicio Avenida España,2026-05-22 12:58:34,facturado,142123.50,Pedido historico mock - Autoservicio Avenida España,true,false,4
+P-00116,25039,5493813520000,Autoservicio Avenida España,2026-03-08 13:17:41,confirmado,247740.00,Pedido historico mock - Autoservicio Avenida España,true,false,4
+P-00117,25039,5493813520000,Autoservicio Avenida España,2026-03-25 14:36:48,entregado,221677.50,Pedido historico mock - Autoservicio Avenida España,true,false,4
+P-00118,25040,5492997489876,Despensa Barrio Norte,2026-05-29 15:09:57,confirmado,89617.50,Pedido historico mock - Despensa Barrio Norte,true,false,1
+P-00119,25040,5492997489876,Despensa Barrio Norte,2026-03-15 16:28:04,entregado,89496.00,Pedido historico mock - Despensa Barrio Norte,true,false,1
+P-00120,25040,5492997489876,Despensa Barrio Norte,2026-04-01 17:47:11,facturado,43875.00,Pedido historico mock - Despensa Barrio Norte,true,false,1
+P-00121,0,5492612928724,Proveeduría Ruta 38,2026-03-05 08:20:20,entregado,142361.40,Pedido historico mock - Proveeduría Ruta 38,true,false,2
+P-00122,0,5492612928724,Proveeduría Ruta 38,2026-03-22 09:39:27,facturado,97800.00,Pedido historico mock - Proveeduría Ruta 38,true,false,2
+P-00123,0,5492612928724,Proveeduría Ruta 38,2026-04-08 10:58:34,confirmado,67230.00,Pedido historico mock - Proveeduría Ruta 38,true,false,2
+P-00124,0,5492617236955,Minimarket El Lago,2026-03-12 11:31:43,facturado,52642.80,Pedido historico mock - Minimarket El Lago,true,false,1
+P-00125,0,5492617236955,Minimarket El Lago,2026-03-29 12:50:50,confirmado,51900.00,Pedido historico mock - Minimarket El Lago,true,false,1
+P-00126,0,5492617236955,Minimarket El Lago,2026-04-15 13:09:57,entregado,22353.60,Pedido historico mock - Minimarket El Lago,true,false,1
+P-00127,0,5492617413812,Rotisería Villa Carlos Paz,2026-03-19 14:42:06,confirmado,49272.00,Pedido historico mock - Rotisería Villa Carlos Paz,true,false,4
+P-00128,0,5492617413812,Rotisería Villa Carlos Paz,2026-04-05 15:01:13,entregado,63954.00,Pedido historico mock - Rotisería Villa Carlos Paz,true,false,4
+P-00129,0,5492617413812,Rotisería Villa Carlos Paz,2026-04-22 16:20:20,facturado,62844.00,Pedido historico mock - Rotisería Villa Carlos Paz,true,false,4
+P-00130,0,5492998066543,Minimarket San Antonio,2026-03-26 17:53:29,entregado,78433.20,Pedido historico mock - Minimarket San Antonio,true,false,3
+P-00131,0,5492998066543,Minimarket San Antonio,2026-04-12 08:12:36,facturado,52800.00,Pedido historico mock - Minimarket San Antonio,true,false,3
+P-00132,0,5492998066543,Minimarket San Antonio,2026-04-29 09:31:43,confirmado,80111.60,Pedido historico mock - Minimarket San Antonio,true,false,3
+P-00133,0,5492999435946,Autoservicio Colinas,2026-04-02 10:04:52,facturado,54096.00,Pedido historico mock - Autoservicio Colinas,true,false,3
+P-00134,0,5492999435946,Autoservicio Colinas,2026-04-19 11:23:59,confirmado,129861.00,Pedido historico mock - Autoservicio Colinas,true,false,3
+P-00135,0,5492999435946,Autoservicio Colinas,2026-05-06 12:42:06,entregado,79770.00,Pedido historico mock - Autoservicio Colinas,true,false,3
+P-00136,0,5493416524997,Fiambrería Unión Quesos,2026-04-09 13:15:15,confirmado,366828.00,Pedido historico mock - Fiambrería Unión Quesos,true,false,1
+P-00137,0,5493416524997,Fiambrería Unión Quesos,2026-04-26 14:34:22,entregado,70228.80,Pedido historico mock - Fiambrería Unión Quesos,true,false,1
+P-00138,0,5493416524997,Fiambrería Unión Quesos,2026-05-13 15:53:29,facturado,117300.00,Pedido historico mock - Fiambrería Unión Quesos,true,false,1
+P-00139,0,5493517632424,Despensa Parque Nacional,2026-04-16 16:26:38,entregado,236136.00,Pedido historico mock - Despensa Parque Nacional,true,false,4
+P-00140,0,5493517632424,Despensa Parque Nacional,2026-05-03 17:45:45,facturado,45000.00,Pedido historico mock - Despensa Parque Nacional,true,false,4
+P-00141,0,5493517632424,Despensa Parque Nacional,2026-05-20 08:04:52,confirmado,24000.00,Pedido historico mock - Despensa Parque Nacional,true,false,4
+P-00142,0,5493519107005,Fiambrería La Tirolesa,2026-04-23 09:37:01,facturado,226935.60,Pedido historico mock - Fiambrería La Tirolesa,true,false,2
+P-00143,0,5493519107005,Fiambrería La Tirolesa,2026-05-10 10:56:08,confirmado,5832.00,Pedido historico mock - Fiambrería La Tirolesa,true,false,2
+P-00144,0,5493519107005,Fiambrería La Tirolesa,2026-05-27 11:15:15,entregado,106648.80,Pedido historico mock - Fiambrería La Tirolesa,true,false,2
+P-00145,0,5493874104594,Almacén Los Nogales,2026-04-30 12:48:24,confirmado,95160.00,Pedido historico mock - Almacén Los Nogales,true,false,3
+P-00146,0,5493874104594,Almacén Los Nogales,2026-05-17 13:07:31,entregado,40320.00,Pedido historico mock - Almacén Los Nogales,true,false,3
+P-00147,0,5493874104594,Almacén Los Nogales,2026-03-03 14:26:38,facturado,106665.00,Pedido historico mock - Almacén Los Nogales,true,false,3
+P-00148,0,5493876499570,Almacén Doña Marta,2026-05-07 15:59:47,entregado,34440.00,Pedido historico mock - Almacén Doña Marta,true,false,2
+P-00149,0,5493876499570,Almacén Doña Marta,2026-05-24 16:18:54,facturado,23400.00,Pedido historico mock - Almacén Doña Marta,true,false,2
+P-00150,0,5493876499570,Almacén Doña Marta,2026-03-10 17:37:01,confirmado,55926.00,Pedido historico mock - Almacén Doña Marta,true,false,2
+P-00151,25004,5493418277249,Minimarket Punilla,2026-08-03 11:15:00,abierto,89937.53,Pedido abierto mock - promo Fase 2 - Minimarket Punilla,true,true,1
+P-00152,25001,5493587905250,Almacén Don Roque,2026-08-03 11:15:13,pendiente,141438.00,Pedido abierto mock - Almacén Don Roque,true,true,2
+P-00153,25002,5493582641213,Despensa La Costanera,2026-08-03 11:15:26,abierto,2400.00,Pedido abierto mock - Despensa La Costanera,true,true,3
+P-00154,25003,5492991227644,Fiambrería El Pinar,2026-08-03 11:15:39,pendiente,194850.00,Pedido abierto mock - Fiambrería El Pinar,true,true,4
+P-00155,25005,5493587747641,Autoservicio Sol y Lago,2026-08-03 11:15:52,abierto,79062.00,Pedido abierto mock - Autoservicio Sol y Lago,true,true,2
+P-00156,25006,5492614053074,Proveeduría Villa del Parque,2026-08-03 11:15:05,pendiente,144000.00,Pedido abierto mock - Proveeduría Villa del Parque,true,true,3
+P-00157,25007,5493514079279,Almacén Los Olivos,2026-08-03 11:15:18,abierto,217498.80,Pedido abierto mock - Almacén Los Olivos,true,true,4

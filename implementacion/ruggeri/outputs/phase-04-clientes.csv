@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Congelados del Sur,Congelados del Sur,5493587905250,2,1,lunes,martes,"Zona ZONA NOROESTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.403877,-64.207619,true
+2,La Harina Mágica,La Harina Mágica,5493582641213,3,2,lunes,martes,"Zona ZONA NOROESTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.403916,-64.201722,true
+3,Parrilla El Buen Sabor,Parrilla El Buen Sabor,5492991227644,4,3,lunes,martes,"Zona ZONA NOROESTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.403723,-64.207834,true
+4,Carnicería El Amigo,Carnicería El Amigo,5493418277249,1,4,lunes,martes,"Zona ZONA NOROESTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.406481,-64.204207,true
+5,Almacén La Abundancia,Almacén La Abundancia,5493587747641,2,5,lunes,martes,"Zona ZONA NOROESTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.406717,-64.20482,true
+6,Pinturería Color y Vida,Pinturería Color y Vida,5492614053074,3,6,lunes,martes,"Zona ZONA NOROESTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.407479,-64.198659,true
+7,Ferretería El Progreso,Ferretería El Progreso,5493514079279,4,7,lunes,martes,"Zona ZONA NOROESTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.406859,-64.199398,true
+8,Corralón La Esperanza,Corralón La Esperanza,5493876914178,1,8,lunes,martes,"Zona ZONA NOROESTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.408224,-64.206134,true
+9,Asadería La Tradición,Asadería La Tradición,5492617175545,2,9,lunes,martes,"Zona ZONA NOROESTE - Villa Allende - Córdoba, Argentina",Juan Pérez,0,0,-31.403131,-64.200415,true
+10,Restaurante Sabor Argentino,Restaurante Sabor Argentino,5493818437953,3,10,martes,miercoles,"Zona ZONA NORTE - Argüello - Córdoba, Argentina",María González,1,1,-31.407646,-64.18595,true
+11,Congelados La Estrella,Congelados La Estrella,5493582132179,4,11,martes,miercoles,"Zona ZONA NORTE - Argüello - Córdoba, Argentina",María González,1,1,-31.401908,-64.181339,true
+12,Harinas y Más,Harinas y Más,5493872845902,1,12,martes,miercoles,"Zona ZONA NORTE - Argüello - Córdoba, Argentina",María González,1,1,-31.408108,-64.178427,true
+13,Almacén El Rincón,Almacén El Rincón,5492997670210,2,13,martes,miercoles,"Zona ZONA NORTE - Argüello - Córdoba, Argentina",María González,1,1,-31.404385,-64.187101,true
+14,Pinturería La Paleta,Pinturería La Paleta,5493811657614,3,14,martes,miercoles,"Zona ZONA NORTE - Argüello - Córdoba, Argentina",María González,1,1,-31.407677,-64.183675,true
+15,Carnicería La Familia,Carnicería La Familia,5492994145193,4,15,martes,miercoles,"Zona ZONA NORTE - Argüello - Córdoba, Argentina",María González,1,1,-31.409151,-64.178972,true
+16,Parrilla El Asador,Parrilla El Asador,5493515971311,1,16,martes,miercoles,"Zona ZONA NORTE - Argüello - Córdoba, Argentina",María González,1,1,-31.404049,-64.187543,true
+17,Ferretería Todo en Uno,Ferretería Todo en Uno,5492994228106,2,17,martes,miercoles,"Zona ZONA NORTE - Argüello - Córdoba, Argentina",María González,1,1,-31.40712,-64.185092,true
+18,Corralón La Solución,Corralón La Solución,5492998718887,3,18,martes,miercoles,"Zona ZONA NORTE - Argüello - Córdoba, Argentina",María González,1,1,-31.405068,-64.180601,true
+19,Restaurante La Parrilla,Restaurante La Parrilla,5492995028869,4,19,miercoles,jueves,"Zona ZONA NORESTE - Malagueño - Córdoba, Argentina",María González,1,2,-31.402439,-64.167488,true
+20,Congelados y Sabores,Congelados y Sabores,5493517304254,1,20,miercoles,jueves,"Zona ZONA NORESTE - Malagueño - Córdoba, Argentina",María González,1,2,-31.402148,-64.162246,true
+21,La Casa de la Harina,La Casa de la Harina,5493416986538,2,21,miercoles,jueves,"Zona ZONA NORESTE - Malagueño - Córdoba, Argentina",María González,1,2,-31.409752,-64.164743,true
+22,Almacén El Sabor,Almacén El Sabor,5492619239862,3,22,miercoles,jueves,"Zona ZONA NORESTE - Malagueño - Córdoba, Argentina",María González,1,2,-31.408582,-64.163712,true
+23,Pinturería El Colorido,Pinturería El Colorido,5493513952681,4,23,miercoles,jueves,"Zona ZONA NORESTE - Malagueño - Córdoba, Argentina",María González,1,2,-31.403551,-64.166378,true
+24,Carnicería El Buen Corte,Carnicería El Buen Corte,5493414799650,1,24,miercoles,jueves,"Zona ZONA NORESTE - Malagueño - Córdoba, Argentina",María González,1,2,-31.407886,-64.164521,true
+25,Asadería La Amistad,Asadería La Amistad,5492992500733,2,25,miercoles,jueves,"Zona ZONA NORESTE - Malagueño - Córdoba, Argentina",María González,1,2,-31.405162,-64.160806,true
+26,Restaurante El Fogón,Restaurante El Fogón,5492615139305,3,26,miercoles,jueves,"Zona ZONA NORESTE - Malagueño - Córdoba, Argentina",María González,1,2,-31.408348,-64.163557,true
+27,Congelados del Norte,Congelados del Norte,5492618861463,4,27,jueves,viernes,"Zona ZONA SUROESTE - La Calera - Córdoba, Argentina",Carlos López,2,3,-31.428472,-64.201341,true
+28,Harinas del Valle,Harinas del Valle,5493812941974,1,28,jueves,viernes,"Zona ZONA SUROESTE - La Calera - Córdoba, Argentina",Carlos López,2,3,-31.428083,-64.204497,true
+29,Almacén La Esquina,Almacén La Esquina,5493817404433,2,29,jueves,viernes,"Zona ZONA SUROESTE - La Calera - Córdoba, Argentina",Carlos López,2,3,-31.423323,-64.203438,true
+30,Pinturería Color y Estilo,Pinturería Color y Estilo,5493419686914,3,30,jueves,viernes,"Zona ZONA SUROESTE - La Calera - Córdoba, Argentina",Carlos López,2,3,-31.423306,-64.207175,true
+31,Ferretería El Taller,Ferretería El Taller,5493518648263,4,31,jueves,viernes,"Zona ZONA SUROESTE - La Calera - Córdoba, Argentina",Carlos López,2,3,-31.42803,-64.199676,true
+32,Corralón El Camino,Corralón El Camino,5493516216782,1,32,jueves,viernes,"Zona ZONA SUROESTE - La Calera - Córdoba, Argentina",Carlos López,2,3,-31.427721,-64.199928,true
+33,Parrilla El Rincón,Parrilla El Rincón,5492612780568,2,33,jueves,viernes,"Zona ZONA SUROESTE - La Calera - Córdoba, Argentina",Carlos López,2,3,-31.429983,-64.204464,true
+34,Carnicería El Sabor,Carnicería El Sabor,5493582639964,3,34,jueves,viernes,"Zona ZONA SUROESTE - La Calera - Córdoba, Argentina",Carlos López,2,3,-31.423836,-64.203618,true
+35,Restaurante La Cocina,Restaurante La Cocina,5493814729528,4,35,viernes,sabado,"Zona ZONA SUR - Mendiolaza - Córdoba, Argentina",Carlos López,2,4,-31.426476,-64.185929,true
+36,Congelados La Casa,Congelados La Casa,5493876922419,1,36,viernes,sabado,"Zona ZONA SUR - Mendiolaza - Córdoba, Argentina",Carlos López,2,4,-31.430035,-64.18288,true
+37,Harinas y Sazón,Harinas y Sazón,5492618889598,2,37,viernes,sabado,"Zona ZONA SUR - Mendiolaza - Córdoba, Argentina",Carlos López,2,4,-31.424374,-64.184,true
+38,Almacén El Mercado,Almacén El Mercado,5492615021286,3,38,viernes,sabado,"Zona ZONA SUR - Mendiolaza - Córdoba, Argentina",Carlos López,2,4,-31.425512,-64.188194,true
+39,Pinturería El Artista,Pinturería El Artista,5493813520000,4,39,viernes,sabado,"Zona ZONA SUR - Mendiolaza - Córdoba, Argentina",Carlos López,2,4,-31.428512,-64.18704,true
+40,Ferretería La Herramienta,Ferretería La Herramienta,5492997489876,1,40,viernes,sabado,"Zona ZONA SUR - Mendiolaza - Córdoba, Argentina",Carlos López,2,4,-31.423889,-64.186866,true
+41,Corralón La Tierra,Corralón La Tierra,5493519107005,2,41,viernes,sabado,"Zona ZONA SUR - Mendiolaza - Córdoba, Argentina",Carlos López,2,4,-31.427465,-64.186018,true
+42,Asadería El Sabor,Asadería El Sabor,5493874104594,3,42,viernes,sabado,"Zona ZONA SUR - Mendiolaza - Córdoba, Argentina",Carlos López,2,4,-31.42238,-64.183105,true
+43,Carnicería El Asador,Carnicería El Asador,5492617413812,4,43,sabado,lunes,"Zona ZONA SURESTE - Valle Escondido - Córdoba, Argentina",Carlos López,2,5,-31.428127,-64.166654,true
+44,Restaurante El Buen Gusto,Restaurante El Buen Gusto,5492617236955,1,44,sabado,lunes,"Zona ZONA SURESTE - Valle Escondido - Córdoba, Argentina",Carlos López,2,5,-31.428587,-64.160305,true
+45,Congelados y Más,Congelados y Más,5492612928724,2,45,sabado,lunes,"Zona ZONA SURESTE - Valle Escondido - Córdoba, Argentina",Carlos López,2,5,-31.425299,-64.164163,true
+46,La Harina del Pueblo,La Harina del Pueblo,5492999435946,3,46,sabado,lunes,"Zona ZONA SURESTE - Valle Escondido - Córdoba, Argentina",Carlos López,2,5,-31.429998,-64.162471,true
+47,Almacén La Selección,Almacén La Selección,5493517632424,4,47,sabado,lunes,"Zona ZONA SURESTE - Valle Escondido - Córdoba, Argentina",Carlos López,2,5,-31.42705,-64.167127,true
+48,Pinturería El Maestro,Pinturería El Maestro,5493416524997,1,48,sabado,lunes,"Zona ZONA SURESTE - Valle Escondido - Córdoba, Argentina",Carlos López,2,5,-31.422462,-64.164276,true
+49,Ferretería El Constructor,Ferretería El Constructor,5493876499570,2,49,sabado,lunes,"Zona ZONA SURESTE - Valle Escondido - Córdoba, Argentina",Carlos López,2,5,-31.430492,-64.167637,true
+50,Corralón La Base,Corralón La Base,5492998066543,3,50,sabado,lunes,"Zona ZONA SURESTE - Valle Escondido - Córdoba, Argentina",Carlos López,2,5,-31.429884,-64.162641,true

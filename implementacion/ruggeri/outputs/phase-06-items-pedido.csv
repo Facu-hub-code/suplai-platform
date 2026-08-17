@@ -1,0 +1,388 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587905250,25001,RUG-HAR-005,HARINA MORIXES 3/0 10XKG,5,6950.00,2,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00001,5493587905250,25001,RUG-PAN-003,PAN RALLADO/REBOZADOR 8X1KG,3,10000.00,2,Pedido: 3 unidad (normalizado: 24 unidad; equiv: 3 unidad),true,false,false
+P-00001,5493587905250,25001,RUG-HAR-001,DISTINGUIDA 3/0 X 25 KG,2,15200.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00002,5493587905250,25001,RUG-HAR-001,DISTINGUIDA 3/0 X 25 KG,5,15200.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00003,5493587905250,25001,RUG-AZU-003,AZUCAR FRONTERITA 10 X 1 KG,3,12500.00,2,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00003,5493587905250,25001,RUG-AZU-004,AZUCAR X 50 KG,2,0.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00004,5493582641213,25002,RUG-GRA-001,GRASA X 25 KG,3,47347.80,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00005,5493582641213,25002,RUG-HAR-012,MORIXES AREPA 20 X 1 KG,1,50600.00,3,Pedido: 1 unidad (normalizado: 20 unidad; equiv: 1 unidad),true,false,false
+P-00005,5493582641213,25002,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,1,17480.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00006,5493582641213,25002,RUG-HAR-007,HARINA PARA PIZZA MORIXES 10X1KG,5,12190.00,3,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00006,5493582641213,25002,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,2,59800.00,3,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00006,5493582641213,25002,RUG-AZU-002,AZUCAR BELLA VISTA 10X1KG,1,12880.00,3,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00006,5493582641213,25002,RUG-HAR-005,HARINA MORIXES 3/0 10XKG,4,7992.50,3,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00007,5492991227644,25003,RUG-SAL-001,SAL ENTREFINA X 25KG RINSAL,3,7560.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00007,5492991227644,25003,LW-809-625,"Lamb Weston Corte Tradicional 9 mm 6 bls x 2,5 kg",4,58500.00,4,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00007,5492991227644,25003,RUG-AZU-002,AZUCAR BELLA VISTA 10X1KG,5,10080.00,4,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00007,5492991227644,25003,BTL-100-083,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,0 Kg",4,36000.00,4,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00008,5492991227644,25003,RUG-HAR-003,GRACIELA. REAL 4/0 X 25 KG,3,15750.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00009,5492991227644,25003,RUG-PAN-001,PAN RALLADO/REBOZADOR 5 KG,5,6660.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00010,5493418277249,25004,RUG-SAL-001,SAL ENTREFINA X 25KG RINSAL,3,8400.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00011,5493418277249,25004,RUG-GRA-001,GRASA X 25 KG,5,41172.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00011,5493418277249,25004,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",4,60000.00,1,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00012,5493418277249,25004,RUG-PAN-003,PAN RALLADO/REBOZADOR 8X1KG,3,10000.00,1,Pedido: 3 unidad (normalizado: 24 unidad; equiv: 3 unidad),true,false,false
+P-00012,5493418277249,25004,RUG-HAR-007,HARINA PARA PIZZA MORIXES 10X1KG,4,10600.00,1,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00013,5493587747641,25005,LW-807-822,"Lamb Weston Corte Fino 7 mm 8 bls x 2,25 kg",4,79000.00,2,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00013,5493587747641,25005,RUG-HAR-007,HARINA PARA PIZZA MORIXES 10X1KG,1,10600.00,2,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00013,5493587747641,25005,RUG-AZU-004,AZUCAR X 50 KG,4,0.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00014,5493587747641,25005,RUG-SAL-001,SAL ENTREFINA X 25KG RINSAL,4,8400.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00014,5493587747641,25005,RUG-HAR-012,MORIXES AREPA 20 X 1 KG,2,44000.00,2,Pedido: 2 unidad (normalizado: 40 unidad; equiv: 2 unidad),true,false,false
+P-00014,5493587747641,25005,RUG-HAR-006,HARINA MORIXES 4/0 10XKG,1,9600.00,2,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00014,5493587747641,25005,RUG-HAR-009,GRACIELA. REAL 3/0 10 X 1 KG,5,7100.00,2,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00015,5493587747641,25005,BTL-100-082,"BUTLER CORTE FINO X 7 MM 8 un x 2,25 Kg",1,63500.00,2,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00015,5493587747641,25005,RUG-PAN-003,PAN RALLADO/REBOZADOR 8X1KG,4,10000.00,2,Pedido: 4 unidad (normalizado: 32 unidad; equiv: 4 unidad),true,false,false
+P-00015,5493587747641,25005,LW-503,LAMB WESTON Dippers (canoas) 5 x 2 Kg,1,45000.00,2,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00016,5492614053074,25006,RUG-HAR-008,HARINA MORIXES LEUDANTE 10 X 1 KG,2,14375.00,3,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00017,5492614053074,25006,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,1,69000.00,3,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00017,5492614053074,25006,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",5,69000.00,3,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00018,5492614053074,25006,RUG-HAR-004,SALVADO X 25 KG,4,16675.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00018,5492614053074,25006,RUG-SAL-001,SAL ENTREFINA X 25KG RINSAL,2,9660.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00018,5492614053074,25006,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,5,12880.00,3,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00018,5492614053074,25006,RUG-AZU-002,AZUCAR BELLA VISTA 10X1KG,2,12880.00,3,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00019,5493514079279,25007,RUG-PAN-003,PAN RALLADO/REBOZADOR 8X1KG,4,9000.00,4,Pedido: 4 unidad (normalizado: 32 unidad; equiv: 4 unidad),true,false,false
+P-00019,5493514079279,25007,RUG-HAR-001,DISTINGUIDA 3/0 X 25 KG,1,13680.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00019,5493514079279,25007,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,1,10080.00,4,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00019,5493514079279,25007,LW-503,LAMB WESTON Dippers (canoas) 5 x 2 Kg,5,46800.00,4,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00020,5493514079279,25007,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,2,46800.00,4,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00021,5493514079279,25007,RUG-SAL-002,SAL FINA X 25KG RINSAL,3,9000.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00021,5493514079279,25007,LW-503,LAMB WESTON Dippers (canoas) 5 x 2 Kg,3,46800.00,4,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00021,5493514079279,25007,LW-505-10K,LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg,5,42750.00,4,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00021,5493514079279,25007,RUG-HAR-009,GRACIELA. REAL 3/0 10 X 1 KG,1,6390.00,4,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00022,5493876914178,25008,RUG-HAR-005,HARINA MORIXES 3/0 10XKG,1,6950.00,1,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00023,5493876914178,25008,BTL-100-082,"BUTLER CORTE FINO X 7 MM 8 un x 2,25 Kg",1,68000.00,1,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00023,5493876914178,25008,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,4,52000.00,1,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00024,5493876914178,25008,RUG-HAR-007,HARINA PARA PIZZA MORIXES 10X1KG,3,10600.00,1,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00024,5493876914178,25008,RUG-HAR-011,GRACIELA. REAL LEUDANTE 10 X 1 KG,5,11000.00,1,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00025,5492617175545,25009,RUG-HAR-005,HARINA MORIXES 3/0 10XKG,2,6950.00,2,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00025,5492617175545,25009,RUG-HAR-008,HARINA MORIXES LEUDANTE 10 X 1 KG,3,12500.00,2,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00025,5492617175545,25009,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,2,11200.00,2,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00025,5492617175545,25009,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,1,59000.00,2,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00026,5492617175545,25009,LW-505-15K,LAMB WESTON Stealth Frites 9 15KG,4,67500.00,2,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00026,5492617175545,25009,RUG-HAR-011,GRACIELA. REAL LEUDANTE 10 X 1 KG,5,11000.00,2,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00026,5492617175545,25009,RUG-HAR-010,GRACIELA. REAL 4/0 10 X 1 KG,2,9700.00,2,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00027,5492617175545,25009,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,2,10000.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00027,5492617175545,25009,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,1,59000.00,2,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00028,5493818437953,25010,RUG-HAR-009,GRACIELA. REAL 3/0 10 X 1 KG,1,8165.00,3,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00029,5493818437953,25010,RUG-HAR-001,DISTINGUIDA 3/0 X 25 KG,4,17480.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00029,5493818437953,25010,RUG-AZU-003,AZUCAR FRONTERITA 10 X 1 KG,2,14375.00,3,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00030,5493818437953,25010,LW-505-15K,LAMB WESTON Stealth Frites 9 15KG,4,81650.00,3,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00030,5493818437953,25010,RUG-HAR-008,HARINA MORIXES LEUDANTE 10 X 1 KG,4,14375.00,3,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00031,5493582132179,25011,RUG-PAN-001,PAN RALLADO/REBOZADOR 5 KG,1,6660.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00031,5493582132179,25011,LW-505-15K,LAMB WESTON Stealth Frites 9 15KG,1,63900.00,4,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00031,5493582132179,25011,LW-809-625,"Lamb Weston Corte Tradicional 9 mm 6 bls x 2,5 kg",4,58500.00,4,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00031,5493582132179,25011,BTL-100-084,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg",1,48600.00,4,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00032,5493582132179,25011,BTL-100-084,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg",3,48600.00,4,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00032,5493582132179,25011,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,3,46800.00,4,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00032,5493582132179,25011,RUG-HAR-005,HARINA MORIXES 3/0 10XKG,3,6255.00,4,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00032,5493582132179,25011,RUG-HAR-004,SALVADO X 25 KG,4,13050.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00033,5493582132179,25011,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,1,13680.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00033,5493582132179,25011,LW-505-15K,LAMB WESTON Stealth Frites 9 15KG,3,63900.00,4,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00033,5493582132179,25011,RUG-SAL-002,SAL FINA X 25KG RINSAL,4,9000.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00034,5493872845902,25012,RUG-GRA-002,OLEOMARGARINA 1 X 20 KG,3,81328.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00034,5493872845902,25012,LW-818-525,"Lamb Weston Corte Steakhouse 12 MM 5 x 2,5 kg",4,54000.00,1,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00035,5493872845902,25012,BTL-100-082,"BUTLER CORTE FINO X 7 MM 8 un x 2,25 Kg",1,68000.00,1,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00035,5493872845902,25012,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",5,60000.00,1,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00036,5493872845902,25012,LW-503,LAMB WESTON Dippers (canoas) 5 x 2 Kg,4,52000.00,1,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00036,5493872845902,25012,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,1,15200.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00037,5492997670210,25013,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,5,11200.00,2,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00038,5492997670210,25013,RUG-GRA-002,OLEOMARGARINA 1 X 20 KG,1,81328.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00038,5492997670210,25013,RUG-AZU-004,AZUCAR X 50 KG,3,0.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00038,5492997670210,25013,RUG-AZU-003,AZUCAR FRONTERITA 10 X 1 KG,2,12500.00,2,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00039,5492997670210,25013,RUG-GRA-001,GRASA X 25 KG,2,41172.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00039,5492997670210,25013,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,1,10000.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00040,5493811657614,25014,RUG-HAR-010,GRACIELA. REAL 4/0 10 X 1 KG,3,11155.00,3,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00040,5493811657614,25014,BTL-100-083,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,0 Kg",5,46000.00,3,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00041,5493811657614,25014,LW-807-822,"Lamb Weston Corte Fino 7 mm 8 bls x 2,25 kg",2,98900.00,3,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00042,5493811657614,25014,LW-818-525,"Lamb Weston Corte Steakhouse 12 MM 5 x 2,5 kg",2,62100.00,3,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00043,5492994145193,25015,RUG-PAN-003,PAN RALLADO/REBOZADOR 8X1KG,1,9000.00,4,Pedido: 1 unidad (normalizado: 8 unidad; equiv: 1 unidad),true,false,false
+P-00043,5492994145193,25015,LW-505-15K,LAMB WESTON Stealth Frites 9 15KG,3,63900.00,4,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00043,5492994145193,25015,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,4,10080.00,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00044,5492994145193,25015,LW-505-15K,LAMB WESTON Stealth Frites 9 15KG,4,63900.00,4,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00044,5492994145193,25015,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,4,54000.00,4,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00044,5492994145193,25015,RUG-PAN-001,PAN RALLADO/REBOZADOR 5 KG,2,6660.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00045,5492994145193,25015,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,1,13680.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00045,5492994145193,25015,RUG-AZU-002,AZUCAR BELLA VISTA 10X1KG,4,10080.00,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00046,5493515971311,25016,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",2,60000.00,1,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00046,5493515971311,25016,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,2,10000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00047,5493515971311,25016,RUG-HAR-007,HARINA PARA PIZZA MORIXES 10X1KG,5,10600.00,1,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00048,5493515971311,25016,RUG-AZU-003,AZUCAR FRONTERITA 10 X 1 KG,1,12500.00,1,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00048,5493515971311,25016,RUG-GRA-001,GRASA X 25 KG,2,41172.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00048,5493515971311,25016,RUG-HAR-003,GRACIELA. REAL 4/0 X 25 KG,1,17500.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00048,5493515971311,25016,RUG-AZU-002,AZUCAR BELLA VISTA 10X1KG,5,11200.00,1,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00049,5492994228106,25017,RUG-HAR-006,HARINA MORIXES 4/0 10XKG,4,9600.00,2,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00049,5492994228106,25017,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,2,10000.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00049,5492994228106,25017,RUG-SAL-002,SAL FINA X 25KG RINSAL,3,10000.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00049,5492994228106,25017,LW-807-822,"Lamb Weston Corte Fino 7 mm 8 bls x 2,25 kg",4,79000.00,2,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00050,5492994228106,25017,LW-818-525,"Lamb Weston Corte Steakhouse 12 MM 5 x 2,5 kg",5,50000.00,2,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00050,5492994228106,25017,RUG-AZU-004,AZUCAR X 50 KG,5,0.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00051,5492994228106,25017,RUG-HAR-012,MORIXES AREPA 20 X 1 KG,3,44000.00,2,Pedido: 3 unidad (normalizado: 60 unidad; equiv: 3 unidad),true,false,false
+P-00051,5492994228106,25017,RUG-HAR-006,HARINA MORIXES 4/0 10XKG,5,9600.00,2,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00052,5492998718887,25018,RUG-HAR-003,GRACIELA. REAL 4/0 X 25 KG,5,20125.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00052,5492998718887,25018,LW-807-822,"Lamb Weston Corte Fino 7 mm 8 bls x 2,25 kg",4,98900.00,3,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00052,5492998718887,25018,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,4,59800.00,3,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00052,5492998718887,25018,BTL-100-082,"BUTLER CORTE FINO X 7 MM 8 un x 2,25 Kg",2,78200.00,3,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00053,5492998718887,25018,LW-503,LAMB WESTON Dippers (canoas) 5 x 2 Kg,4,59800.00,3,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00053,5492998718887,25018,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,5,69000.00,3,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00053,5492998718887,25018,RUG-GRA-002,OLEOMARGARINA 1 X 20 KG,3,93527.20,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00053,5492998718887,25018,RUG-HAR-004,SALVADO X 25 KG,1,16675.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00054,5492998718887,25018,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",1,69000.00,3,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00055,5492995028869,25019,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,1,9000.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00055,5492995028869,25019,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,1,54000.00,4,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00055,5492995028869,25019,RUG-HAR-011,GRACIELA. REAL LEUDANTE 10 X 1 KG,4,9900.00,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00055,5492995028869,25019,RUG-HAR-006,HARINA MORIXES 4/0 10XKG,3,8640.00,4,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00056,5492995028869,25019,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,3,13680.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00057,5492995028869,25019,LW-807-822,"Lamb Weston Corte Fino 7 mm 8 bls x 2,25 kg",4,77400.00,4,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00057,5492995028869,25019,BTL-100-084,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg",5,48600.00,4,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00057,5492995028869,25019,RUG-AZU-004,AZUCAR X 50 KG,3,0.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00058,5493517304254,25020,LW-807-822,"Lamb Weston Corte Fino 7 mm 8 bls x 2,25 kg",5,86000.00,1,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00058,5493517304254,25020,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,3,10000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00059,5493517304254,25020,LW-503,LAMB WESTON Dippers (canoas) 5 x 2 Kg,3,52000.00,1,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00059,5493517304254,25020,RUG-HAR-012,MORIXES AREPA 20 X 1 KG,5,44000.00,1,Pedido: 5 unidad (normalizado: 100 unidad; equiv: 5 unidad),true,false,false
+P-00060,5493517304254,25020,RUG-HAR-010,GRACIELA. REAL 4/0 10 X 1 KG,1,9700.00,1,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00060,5493517304254,25020,RUG-HAR-007,HARINA PARA PIZZA MORIXES 10X1KG,2,10600.00,1,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00060,5493517304254,25020,LW-503,LAMB WESTON Dippers (canoas) 5 x 2 Kg,2,52000.00,1,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00061,5493416986538,25021,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,4,59000.00,2,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00061,5493416986538,25021,RUG-HAR-004,SALVADO X 25 KG,2,14500.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00062,5493416986538,25021,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,4,59000.00,2,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00062,5493416986538,25021,RUG-PAN-001,PAN RALLADO/REBOZADOR 5 KG,5,7400.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00062,5493416986538,25021,BTL-100-084,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg",3,49000.00,2,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00063,5493416986538,25021,RUG-AZU-004,AZUCAR X 50 KG,5,0.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00063,5493416986538,25021,RUG-HAR-009,GRACIELA. REAL 3/0 10 X 1 KG,1,7100.00,2,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00064,5492619239862,25022,RUG-HAR-003,GRACIELA. REAL 4/0 X 25 KG,4,20125.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00064,5492619239862,25022,RUG-HAR-004,SALVADO X 25 KG,3,16675.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00064,5492619239862,25022,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,5,59800.00,3,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00064,5492619239862,25022,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,2,11500.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00065,5492619239862,25022,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,1,69000.00,3,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00065,5492619239862,25022,RUG-HAR-001,DISTINGUIDA 3/0 X 25 KG,3,17480.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00065,5492619239862,25022,RUG-SAL-001,SAL ENTREFINA X 25KG RINSAL,1,9660.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00066,5492619239862,25022,RUG-HAR-004,SALVADO X 25 KG,3,16675.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00066,5492619239862,25022,RUG-AZU-004,AZUCAR X 50 KG,5,0.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00066,5492619239862,25022,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,2,17480.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00067,5493513952681,25023,RUG-HAR-006,HARINA MORIXES 4/0 10XKG,4,8640.00,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00067,5493513952681,25023,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",5,54000.00,4,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00068,5493513952681,25023,RUG-HAR-001,DISTINGUIDA 3/0 X 25 KG,1,13680.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00068,5493513952681,25023,RUG-HAR-012,MORIXES AREPA 20 X 1 KG,4,39600.00,4,Pedido: 4 unidad (normalizado: 80 unidad; equiv: 4 unidad),true,false,false
+P-00068,5493513952681,25023,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,4,46800.00,4,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00068,5493513952681,25023,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,2,10080.00,4,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00069,5493513952681,25023,RUG-SAL-002,SAL FINA X 25KG RINSAL,2,9000.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00070,5493414799650,25024,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",3,60000.00,1,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00070,5493414799650,25024,LW-505-15K,LAMB WESTON Stealth Frites 9 15KG,2,71000.00,1,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00070,5493414799650,25024,RUG-HAR-009,GRACIELA. REAL 3/0 10 X 1 KG,1,7100.00,1,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00071,5493414799650,25024,RUG-GRA-001,GRASA X 25 KG,2,41172.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00071,5493414799650,25024,BTL-100-083,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,0 Kg",4,40000.00,1,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00072,5493414799650,25024,RUG-HAR-007,HARINA PARA PIZZA MORIXES 10X1KG,2,10600.00,1,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00073,5492992500733,25025,LW-505-10K,LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg,5,45000.00,2,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00073,5492992500733,25025,RUG-AZU-003,AZUCAR FRONTERITA 10 X 1 KG,5,12500.00,2,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00073,5492992500733,25025,BTL-100-082,"BUTLER CORTE FINO X 7 MM 8 un x 2,25 Kg",3,63500.00,2,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00073,5492992500733,25025,RUG-PAN-003,PAN RALLADO/REBOZADOR 8X1KG,2,10000.00,2,Pedido: 2 unidad (normalizado: 16 unidad; equiv: 2 unidad),true,false,false
+P-00074,5492992500733,25025,RUG-GRA-002,OLEOMARGARINA 1 X 20 KG,4,81328.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00074,5492992500733,25025,BTL-100-082,"BUTLER CORTE FINO X 7 MM 8 un x 2,25 Kg",5,63500.00,2,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00074,5492992500733,25025,LW-807-822,"Lamb Weston Corte Fino 7 mm 8 bls x 2,25 kg",5,79000.00,2,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00074,5492992500733,25025,RUG-HAR-012,MORIXES AREPA 20 X 1 KG,5,44000.00,2,Pedido: 5 unidad (normalizado: 100 unidad; equiv: 5 unidad),true,false,false
+P-00075,5492992500733,25025,LW-818-525,"Lamb Weston Corte Steakhouse 12 MM 5 x 2,5 kg",5,50000.00,2,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00075,5492992500733,25025,RUG-AZU-004,AZUCAR X 50 KG,1,0.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00075,5492992500733,25025,RUG-GRA-002,OLEOMARGARINA 1 X 20 KG,4,81328.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00075,5492992500733,25025,RUG-HAR-006,HARINA MORIXES 4/0 10XKG,1,9600.00,2,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00076,5492615139305,25026,LW-505-15K,LAMB WESTON Stealth Frites 9 15KG,5,81650.00,3,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00076,5492615139305,25026,RUG-PAN-001,PAN RALLADO/REBOZADOR 5 KG,3,8510.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00076,5492615139305,25026,RUG-GRA-002,OLEOMARGARINA 1 X 20 KG,3,93527.20,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00076,5492615139305,25026,RUG-HAR-012,MORIXES AREPA 20 X 1 KG,5,50600.00,3,Pedido: 5 unidad (normalizado: 100 unidad; equiv: 5 unidad),true,false,false
+P-00077,5492615139305,25026,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,5,12880.00,3,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00078,5492615139305,25026,RUG-HAR-004,SALVADO X 25 KG,4,16675.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00078,5492615139305,25026,LW-809-625,"Lamb Weston Corte Tradicional 9 mm 6 bls x 2,5 kg",1,74750.00,3,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00079,5492618861463,25027,BTL-100-084,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg",3,48600.00,4,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00079,5492618861463,25027,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,5,10080.00,4,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00080,5492618861463,25027,RUG-AZU-002,AZUCAR BELLA VISTA 10X1KG,5,10080.00,4,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00080,5492618861463,25027,RUG-HAR-005,HARINA MORIXES 3/0 10XKG,2,6255.00,4,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00080,5492618861463,25027,RUG-HAR-012,MORIXES AREPA 20 X 1 KG,5,39600.00,4,Pedido: 5 unidad (normalizado: 100 unidad; equiv: 5 unidad),true,false,false
+P-00080,5492618861463,25027,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,5,46800.00,4,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00081,5492618861463,25027,LW-809-625,"Lamb Weston Corte Tradicional 9 mm 6 bls x 2,5 kg",1,58500.00,4,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00081,5492618861463,25027,RUG-AZU-002,AZUCAR BELLA VISTA 10X1KG,4,10080.00,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00082,5493812941974,25028,BTL-100-082,"BUTLER CORTE FINO X 7 MM 8 un x 2,25 Kg",2,68000.00,1,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00082,5493812941974,25028,RUG-HAR-005,HARINA MORIXES 3/0 10XKG,3,6950.00,1,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00082,5493812941974,25028,LW-809-625,"Lamb Weston Corte Tradicional 9 mm 6 bls x 2,5 kg",5,65000.00,1,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00083,5493812941974,25028,RUG-AZU-002,AZUCAR BELLA VISTA 10X1KG,2,11200.00,1,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00083,5493812941974,25028,RUG-SAL-001,SAL ENTREFINA X 25KG RINSAL,5,8400.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00084,5493812941974,25028,RUG-HAR-007,HARINA PARA PIZZA MORIXES 10X1KG,5,10600.00,1,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00085,5493817404433,25029,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,2,11200.00,2,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00086,5493817404433,25029,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",2,55000.00,2,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00087,5493817404433,25029,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",2,55000.00,2,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00087,5493817404433,25029,BTL-100-082,"BUTLER CORTE FINO X 7 MM 8 un x 2,25 Kg",2,63500.00,2,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00087,5493817404433,25029,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,5,59000.00,2,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00088,5493419686914,25030,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,1,11500.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00088,5493419686914,25030,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,2,59800.00,3,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00089,5493419686914,25030,LW-505-10K,LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg,2,54625.00,3,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00090,5493419686914,25030,RUG-HAR-006,HARINA MORIXES 4/0 10XKG,4,11040.00,3,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00090,5493419686914,25030,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,3,11500.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00091,5493518648263,25031,BTL-100-083,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,0 Kg",2,36000.00,4,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00091,5493518648263,25031,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,3,13680.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00092,5493518648263,25031,RUG-SAL-001,SAL ENTREFINA X 25KG RINSAL,1,7560.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00092,5493518648263,25031,LW-505-15K,LAMB WESTON Stealth Frites 9 15KG,2,63900.00,4,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00092,5493518648263,25031,RUG-PAN-003,PAN RALLADO/REBOZADOR 8X1KG,2,9000.00,4,Pedido: 2 unidad (normalizado: 16 unidad; equiv: 2 unidad),true,false,false
+P-00093,5493518648263,25031,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,4,54000.00,4,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00094,5493516216782,25032,RUG-GRA-002,OLEOMARGARINA 1 X 20 KG,1,81328.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00094,5493516216782,25032,RUG-HAR-007,HARINA PARA PIZZA MORIXES 10X1KG,3,10600.00,1,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00094,5493516216782,25032,BTL-100-083,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,0 Kg",1,40000.00,1,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00095,5493516216782,25032,RUG-SAL-002,SAL FINA X 25KG RINSAL,3,10000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00095,5493516216782,25032,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,5,15200.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00096,5493516216782,25032,LW-505-10K,LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg,5,47500.00,1,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00096,5493516216782,25032,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,3,52000.00,1,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00097,5492612780568,25033,RUG-SAL-002,SAL FINA X 25KG RINSAL,5,10000.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00097,5492612780568,25033,RUG-HAR-004,SALVADO X 25 KG,5,14500.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00097,5492612780568,25033,RUG-SAL-001,SAL ENTREFINA X 25KG RINSAL,2,8400.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00098,5492612780568,25033,LW-503,LAMB WESTON Dippers (canoas) 5 x 2 Kg,5,45000.00,2,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00098,5492612780568,25033,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,3,44500.00,2,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00099,5492612780568,25033,RUG-GRA-001,GRASA X 25 KG,2,41172.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00099,5492612780568,25033,LW-809-625,"Lamb Weston Corte Tradicional 9 mm 6 bls x 2,5 kg",2,59000.00,2,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00099,5492612780568,25033,RUG-AZU-003,AZUCAR FRONTERITA 10 X 1 KG,3,12500.00,2,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00099,5492612780568,25033,RUG-GRA-002,OLEOMARGARINA 1 X 20 KG,4,81328.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00100,5493582639964,25034,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,4,12880.00,3,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00100,5493582639964,25034,BTL-100-084,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg",4,62100.00,3,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00101,5493582639964,25034,LW-807-822,"Lamb Weston Corte Fino 7 mm 8 bls x 2,25 kg",3,98900.00,3,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00102,5493582639964,25034,RUG-HAR-004,SALVADO X 25 KG,1,16675.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00102,5493582639964,25034,RUG-HAR-010,GRACIELA. REAL 4/0 10 X 1 KG,5,11155.00,3,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00102,5493582639964,25034,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,2,11500.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00103,5493814729528,25035,RUG-HAR-010,GRACIELA. REAL 4/0 10 X 1 KG,4,8730.00,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00103,5493814729528,25035,RUG-HAR-005,HARINA MORIXES 3/0 10XKG,1,6255.00,4,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00103,5493814729528,25035,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,5,46800.00,4,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00104,5493814729528,25035,RUG-HAR-009,GRACIELA. REAL 3/0 10 X 1 KG,5,6390.00,4,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00104,5493814729528,25035,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",1,54000.00,4,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00105,5493814729528,25035,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,1,13680.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493814729528,25035,BTL-100-084,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg",2,48600.00,4,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00105,5493814729528,25035,RUG-GRA-001,GRASA X 25 KG,3,37054.80,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00106,5493876922419,25036,RUG-AZU-002,AZUCAR BELLA VISTA 10X1KG,3,11200.00,1,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00106,5493876922419,25036,BTL-100-082,"BUTLER CORTE FINO X 7 MM 8 un x 2,25 Kg",2,68000.00,1,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00106,5493876922419,25036,RUG-HAR-010,GRACIELA. REAL 4/0 10 X 1 KG,5,9700.00,1,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00107,5493876922419,25036,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,3,11200.00,1,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00107,5493876922419,25036,LW-809-625,"Lamb Weston Corte Tradicional 9 mm 6 bls x 2,5 kg",4,65000.00,1,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00108,5493876922419,25036,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,1,15200.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00108,5493876922419,25036,LW-505-10K,LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg,2,47500.00,1,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00108,5493876922419,25036,RUG-HAR-001,DISTINGUIDA 3/0 X 25 KG,1,15200.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00109,5492618889598,25037,LW-807-822,"Lamb Weston Corte Fino 7 mm 8 bls x 2,25 kg",1,79000.00,2,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00110,5492618889598,25037,RUG-SAL-001,SAL ENTREFINA X 25KG RINSAL,4,8400.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00111,5492618889598,25037,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,1,59000.00,2,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00112,5492615021286,25038,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,1,11500.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00112,5492615021286,25038,RUG-SAL-001,SAL ENTREFINA X 25KG RINSAL,3,9660.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00112,5492615021286,25038,RUG-HAR-001,DISTINGUIDA 3/0 X 25 KG,2,17480.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00113,5492615021286,25038,BTL-100-082,"BUTLER CORTE FINO X 7 MM 8 un x 2,25 Kg",5,78200.00,3,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00113,5492615021286,25038,RUG-HAR-011,GRACIELA. REAL LEUDANTE 10 X 1 KG,2,12650.00,3,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00113,5492615021286,25038,RUG-AZU-003,AZUCAR FRONTERITA 10 X 1 KG,5,14375.00,3,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00114,5492615021286,25038,BTL-100-084,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg",3,62100.00,3,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00114,5492615021286,25038,RUG-HAR-004,SALVADO X 25 KG,1,16675.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00114,5492615021286,25038,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,1,17480.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00115,5493813520000,25039,RUG-PAN-001,PAN RALLADO/REBOZADOR 5 KG,3,6660.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00115,5493813520000,25039,RUG-HAR-003,GRACIELA. REAL 4/0 X 25 KG,5,15750.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00116,5493813520000,25039,RUG-PAN-001,PAN RALLADO/REBOZADOR 5 KG,4,6660.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00116,5493813520000,25039,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",2,54000.00,4,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00117,5493813520000,25039,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,1,10080.00,4,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00117,5493813520000,25039,BTL-100-083,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,0 Kg",5,36000.00,4,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00118,5492997489876,25040,LW-505-10K,LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg,5,47500.00,1,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00118,5492997489876,25040,BTL-100-084,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg",1,54000.00,1,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00118,5492997489876,25040,RUG-AZU-002,AZUCAR BELLA VISTA 10X1KG,4,11200.00,1,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00118,5492997489876,25040,RUG-HAR-007,HARINA PARA PIZZA MORIXES 10X1KG,4,10600.00,1,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00119,5492997489876,25040,RUG-AZU-004,AZUCAR X 50 KG,4,0.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00119,5492997489876,25040,RUG-SAL-001,SAL ENTREFINA X 25KG RINSAL,1,8400.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00119,5492997489876,25040,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,3,60000.00,1,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00120,5492997489876,25040,BTL-100-082,"BUTLER CORTE FINO X 7 MM 8 un x 2,25 Kg",3,68000.00,1,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00121,5492612928724,0,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,3,11200.00,2,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00121,5492612928724,0,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,3,10000.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5492612928724,0,RUG-HAR-008,HARINA MORIXES LEUDANTE 10 X 1 KG,1,12500.00,2,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00122,5492612928724,0,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,1,15200.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00122,5492612928724,0,BTL-100-082,"BUTLER CORTE FINO X 7 MM 8 un x 2,25 Kg",4,63500.00,2,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00122,5492612928724,0,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,1,10000.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00123,5492612928724,0,RUG-PAN-003,PAN RALLADO/REBOZADOR 8X1KG,1,10000.00,2,Pedido: 1 unidad (normalizado: 8 unidad; equiv: 1 unidad),true,false,false
+P-00123,5492612928724,0,RUG-HAR-011,GRACIELA. REAL LEUDANTE 10 X 1 KG,3,11000.00,2,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00123,5492612928724,0,RUG-HAR-005,HARINA MORIXES 3/0 10XKG,1,6950.00,2,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00124,5492617236955,0,RUG-HAR-011,GRACIELA. REAL LEUDANTE 10 X 1 KG,3,11000.00,1,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00124,5492617236955,0,RUG-HAR-003,GRACIELA. REAL 4/0 X 25 KG,5,17500.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00124,5492617236955,0,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,1,10000.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00124,5492617236955,0,LW-503,LAMB WESTON Dippers (canoas) 5 x 2 Kg,5,52000.00,1,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00125,5492617236955,0,LW-505-15K,LAMB WESTON Stealth Frites 9 15KG,5,71000.00,1,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00125,5492617236955,0,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,3,15200.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00125,5492617236955,0,RUG-SAL-001,SAL ENTREFINA X 25KG RINSAL,1,8400.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00125,5492617236955,0,RUG-AZU-003,AZUCAR FRONTERITA 10 X 1 KG,5,12500.00,1,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00126,5492617236955,0,RUG-HAR-011,GRACIELA. REAL LEUDANTE 10 X 1 KG,3,11000.00,1,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00126,5492617236955,0,RUG-HAR-009,GRACIELA. REAL 3/0 10 X 1 KG,1,7100.00,1,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00127,5492617413812,0,RUG-PAN-001,PAN RALLADO/REBOZADOR 5 KG,5,6660.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00128,5492617413812,0,RUG-AZU-004,AZUCAR X 50 KG,4,0.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00128,5492617413812,0,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,3,46800.00,4,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00129,5492617413812,0,RUG-HAR-010,GRACIELA. REAL 4/0 10 X 1 KG,2,8730.00,4,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00129,5492617413812,0,RUG-GRA-001,GRASA X 25 KG,4,37054.80,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00129,5492617413812,0,RUG-PAN-001,PAN RALLADO/REBOZADOR 5 KG,3,6660.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00130,5492998066543,0,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,2,69000.00,3,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00130,5492998066543,0,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,4,11500.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00131,5492998066543,0,BTL-100-083,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,0 Kg",1,46000.00,3,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00131,5492998066543,0,RUG-HAR-008,HARINA MORIXES LEUDANTE 10 X 1 KG,1,14375.00,3,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00132,5492998066543,0,BTL-100-084,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg",3,62100.00,3,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00132,5492998066543,0,RUG-SAL-002,SAL FINA X 25KG RINSAL,5,11500.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00132,5492998066543,0,RUG-HAR-006,HARINA MORIXES 4/0 10XKG,4,11040.00,3,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00133,5492999435946,0,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,2,11500.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00134,5492999435946,0,RUG-HAR-003,GRACIELA. REAL 4/0 X 25 KG,1,20125.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00134,5492999435946,0,RUG-HAR-012,MORIXES AREPA 20 X 1 KG,1,50600.00,3,Pedido: 1 unidad (normalizado: 20 unidad; equiv: 1 unidad),true,false,false
+P-00134,5492999435946,0,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,2,17480.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00134,5492999435946,0,LW-818-525,"Lamb Weston Corte Steakhouse 12 MM 5 x 2,5 kg",3,62100.00,3,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00135,5492999435946,0,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",2,69000.00,3,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00136,5493416524997,0,RUG-AZU-002,AZUCAR BELLA VISTA 10X1KG,2,11200.00,1,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00136,5493416524997,0,LW-505-15K,LAMB WESTON Stealth Frites 9 15KG,4,71000.00,1,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00136,5493416524997,0,RUG-HAR-011,GRACIELA. REAL LEUDANTE 10 X 1 KG,4,11000.00,1,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00136,5493416524997,0,RUG-HAR-010,GRACIELA. REAL 4/0 10 X 1 KG,5,9700.00,1,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00137,5493416524997,0,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,1,11200.00,1,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00137,5493416524997,0,RUG-HAR-001,DISTINGUIDA 3/0 X 25 KG,4,15200.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00137,5493416524997,0,RUG-HAR-008,HARINA MORIXES LEUDANTE 10 X 1 KG,5,12500.00,1,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00137,5493416524997,0,RUG-GRA-001,GRASA X 25 KG,4,41172.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00138,5493416524997,0,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,3,10000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00138,5493416524997,0,RUG-HAR-003,GRACIELA. REAL 4/0 X 25 KG,1,17500.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00138,5493416524997,0,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,3,52000.00,1,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00138,5493416524997,0,RUG-HAR-009,GRACIELA. REAL 3/0 10 X 1 KG,1,7100.00,1,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00139,5493517632424,0,RUG-HAR-007,HARINA PARA PIZZA MORIXES 10X1KG,3,9540.00,4,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00140,5493517632424,0,RUG-HAR-009,GRACIELA. REAL 3/0 10 X 1 KG,5,6390.00,4,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00140,5493517632424,0,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,3,13680.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00140,5493517632424,0,RUG-HAR-005,HARINA MORIXES 3/0 10XKG,5,6255.00,4,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00141,5493517632424,0,RUG-GRA-002,OLEOMARGARINA 1 X 20 KG,5,73195.20,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00141,5493517632424,0,RUG-SAL-002,SAL FINA X 25KG RINSAL,3,9000.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00141,5493517632424,0,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,3,13680.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00142,5493519107005,0,RUG-HAR-007,HARINA PARA PIZZA MORIXES 10X1KG,1,10600.00,2,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00142,5493519107005,0,BTL-100-083,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,0 Kg",1,38000.00,2,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00142,5493519107005,0,BTL-100-084,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg",2,49000.00,2,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00143,5493519107005,0,RUG-SAL-002,SAL FINA X 25KG RINSAL,3,10000.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00143,5493519107005,0,RUG-HAR-003,GRACIELA. REAL 4/0 X 25 KG,2,17500.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00144,5493519107005,0,LW-818-525,"Lamb Weston Corte Steakhouse 12 MM 5 x 2,5 kg",4,50000.00,2,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00145,5493874104594,0,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",2,69000.00,3,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00146,5493874104594,0,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,2,11500.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00146,5493874104594,0,LW-807-822,"Lamb Weston Corte Fino 7 mm 8 bls x 2,25 kg",4,98900.00,3,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00146,5493874104594,0,RUG-HAR-004,SALVADO X 25 KG,5,16675.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00146,5493874104594,0,RUG-AZU-002,AZUCAR BELLA VISTA 10X1KG,5,12880.00,3,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00147,5493874104594,0,RUG-GRA-001,GRASA X 25 KG,5,47347.80,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00148,5493876499570,0,RUG-HAR-003,GRACIELA. REAL 4/0 X 25 KG,1,17500.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00148,5493876499570,0,RUG-AZU-003,AZUCAR FRONTERITA 10 X 1 KG,5,12500.00,2,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00148,5493876499570,0,RUG-HAR-009,GRACIELA. REAL 3/0 10 X 1 KG,3,7100.00,2,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00148,5493876499570,0,LW-809-625,"Lamb Weston Corte Tradicional 9 mm 6 bls x 2,5 kg",1,59000.00,2,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00149,5493876499570,0,RUG-SAL-002,SAL FINA X 25KG RINSAL,5,10000.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00149,5493876499570,0,RUG-PAN-002,PAN RALLADO/REBOZADOR 25KG,3,10000.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00149,5493876499570,0,RUG-HAR-006,HARINA MORIXES 4/0 10XKG,2,9600.00,2,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00149,5493876499570,0,LW-818-525,"Lamb Weston Corte Steakhouse 12 MM 5 x 2,5 kg",4,50000.00,2,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00150,5493876499570,0,RUG-AZU-001,AZUCAR DUL C 10 X 1 KG,3,11200.00,2,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00150,5493876499570,0,RUG-GRA-002,OLEOMARGARINA 1 X 20 KG,1,81328.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00150,5493876499570,0,LW-809-625,"Lamb Weston Corte Tradicional 9 mm 6 bls x 2,5 kg",3,59000.00,2,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00151,5493418277249,25004,RUG-HAR-005,HARINA MORIXES 3/0 10XKG,1,5907.50,1,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad) - promo fase 2,true,true,true
+P-00151,5493418277249,25004,RUG-HAR-008,HARINA MORIXES LEUDANTE 10 X 1 KG,3,12500.00,1,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,true,false
+P-00152,5493587905250,25001,LW-807-525,"Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg",1,55000.00,2,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,true,false
+P-00152,5493587905250,25001,RUG-HAR-009,GRACIELA. REAL 3/0 10 X 1 KG,3,7100.00,2,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,true,false
+P-00152,5493587905250,25001,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,2,44500.00,2,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,true,false
+P-00152,5493587905250,25001,LW-807-822,"Lamb Weston Corte Fino 7 mm 8 bls x 2,25 kg",3,79000.00,2,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,true,false
+P-00153,5493582641213,25002,LW-507,LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg,3,59800.00,3,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,true,false
+P-00153,5493582641213,25002,RUG-HAR-011,GRACIELA. REAL LEUDANTE 10 X 1 KG,5,12650.00,3,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,true,false
+P-00153,5493582641213,25002,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,4,69000.00,3,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,true,false
+P-00154,5492991227644,25003,LW-505-10K,LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg,1,42750.00,4,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,true,false
+P-00154,5492991227644,25003,RUG-GRA-001,GRASA X 25 KG,3,37054.80,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00154,5492991227644,25003,LW-509,LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg,2,54000.00,4,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,true,false
+P-00155,5493587747641,25005,RUG-HAR-008,HARINA MORIXES LEUDANTE 10 X 1 KG,1,12500.00,2,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,true,false
+P-00155,5493587747641,25005,RUG-HAR-002,GRACIELA. REAL 3/0 X 25 KG,3,15200.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00155,5493587747641,25005,BTL-100-083,"BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,0 Kg",3,38000.00,2,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,true,false
+P-00156,5492614053074,25006,RUG-HAR-011,GRACIELA. REAL LEUDANTE 10 X 1 KG,2,12650.00,3,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,true,false
+P-00156,5492614053074,25006,LW-809-625,"Lamb Weston Corte Tradicional 9 mm 6 bls x 2,5 kg",5,74750.00,3,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,true,false
+P-00156,5492614053074,25006,RUG-HAR-010,GRACIELA. REAL 4/0 10 X 1 KG,2,11155.00,3,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,true,false
+P-00157,5493514079279,25007,RUG-AZU-002,AZUCAR BELLA VISTA 10X1KG,4,10080.00,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,true,false
+P-00157,5493514079279,25007,RUG-HAR-009,GRACIELA. REAL 3/0 10 X 1 KG,1,6390.00,4,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,true,false
+P-00157,5493514079279,25007,LW-818-525,"Lamb Weston Corte Steakhouse 12 MM 5 x 2,5 kg",4,48600.00,4,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,true,false

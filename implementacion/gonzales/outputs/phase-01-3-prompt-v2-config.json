@@ -1,0 +1,13 @@
+{
+  "schema_name": "gonzales",
+  "nombre": "Gonzalez Garcia",
+  "migration": "system_prompt_v2",
+  "applied_at": "2026-08-13",
+  "metadata_flag": {
+    "use_new_system_prompt": true
+  },
+  "agent_base_prompt_client": null,
+  "agent_base_prompt_seller": null,
+  "note": "Base tipada = defaults del código. Tenant editable = system_prompt (ver phase-01-3-system-prompt-v2.md). identidad/contexto quedan como archivo legacy y ya no se ensamblan con el flag on. Chocolate negro default se mantiene en SKU 6072 (CELOFAN LECHE) según prompt previo.",
+  "system_prompt_file": "phase-01-3-system-prompt-v2.md"
+}

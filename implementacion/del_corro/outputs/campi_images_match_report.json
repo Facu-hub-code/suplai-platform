@@ -1,0 +1,154 @@
+{
+  "scraped": 871,
+  "db_total": 1290,
+  "db_missing": 405,
+  "to_update": 211,
+  "only_missing": true,
+  "apply": true,
+  "sample_updates": [
+    {
+      "product_code": "002761036",
+      "new_image_url": "https://images.centralo.com.ar/images/products/9df1bab7a1c64f85a51a5e1305c1e613e4408263}.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "0064327960",
+      "new_image_url": "https://images.centralo.com.ar/images/products/c0443399fb0644a0efd3a0111bc43ad812a29592.PNG",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1001551",
+      "new_image_url": "https://images.centralo.com.ar/images/products/5ba6d1ff54c357461ab9ccbe113ba69441f8a071.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1010101010",
+      "new_image_url": "https://images.centralo.com.ar/providers/597/products/709605.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1013651",
+      "new_image_url": "https://images.centralo.com.ar/images/products/bc6a78a090e3d8174e3c0b25d19f99ee36813cf0}.PNG",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1014397",
+      "new_image_url": "https://images.centralo.com.ar/images/products/c2602246f6304d4df43bc33ccb0d2a55c7e59f69.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1014404",
+      "new_image_url": "https://images.centralo.com.ar/images/products/9736e5434df47ceab5b4394d2adb4ffd9f917520.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1014454",
+      "new_image_url": "https://images.centralo.com.ar/images/products/c7c5780ed53d4c097e641a093f9e5bf53e608b60.PNG",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1014742",
+      "new_image_url": "https://images.centralo.com.ar/images/products/022db3ac367c0a04d24b217d37832db8cafc8f18}.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1014892",
+      "new_image_url": "https://images.centralo.com.ar/providers/597/products/696725.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1014893",
+      "new_image_url": "https://images.centralo.com.ar/providers/597/products/696726.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1015247",
+      "new_image_url": "https://images.centralo.com.ar/providers/597/products/693559.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1015293",
+      "new_image_url": "https://images.centralo.com.ar/providers/597/products/696732.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1015416",
+      "new_image_url": "https://images.centralo.com.ar/providers/597/products/742867.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1015451",
+      "new_image_url": "https://images.centralo.com.ar/providers/597/products/742868.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1015554",
+      "new_image_url": "https://images.centralo.com.ar/providers/597/products/721725.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1015555",
+      "new_image_url": "https://images.centralo.com.ar/providers/597/products/721728.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1015557",
+      "new_image_url": "https://images.centralo.com.ar/providers/597/products/721727.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1015558",
+      "new_image_url": "https://images.centralo.com.ar/providers/597/products/721726.png",
+      "old_image_url": null
+    },
+    {
+      "product_code": "1015569",
+      "new_image_url": "https://images.centralo.com.ar/providers/597/products/721724.png",
+      "old_image_url": null
+    }
+  ],
+  "missing_not_on_campi_site_sample": [
+    "002734334",
+    "002734342",
+    "002761034",
+    "002761576",
+    "002761577",
+    "00612",
+    "0069996573",
+    "0081",
+    "01940",
+    "01941",
+    "02060",
+    "02082",
+    "02117",
+    "02118",
+    "050103051",
+    "050141051",
+    "053051051",
+    "053051052",
+    "053051053",
+    "053051056",
+    "053051057",
+    "053501054",
+    "055041062",
+    "055041063",
+    "055041064",
+    "055045062",
+    "055045063",
+    "055045064",
+    "057073051",
+    "057073052",
+    "057073053",
+    "057073055",
+    "059061051",
+    "060074051",
+    "060074052",
+    "061902053",
+    "10",
+    "101010",
+    "101011",
+    "1010510"
+  ],
+  "missing_not_on_campi_site_count": 194,
+  "campi_codes_not_in_db_count": 0
+}

@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Congelados del Sur,25001,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493582641213,La Harina Mágica,25002,validado,2026-07-31T15:08:43.640081+00:00,,false
+5492991227644,Parrilla El Buen Sabor,25003,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493418277249,Carnicería El Amigo,25004,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493587747641,Almacén La Abundancia,25005,validado,2026-07-31T15:08:43.640081+00:00,,false
+5492614053074,Pinturería Color y Vida,25006,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493514079279,Ferretería El Progreso,25007,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493876914178,Corralón La Esperanza,25008,validado,2026-07-31T15:08:43.640081+00:00,,false
+5492617175545,Asadería La Tradición,25009,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493818437953,Restaurante Sabor Argentino,25010,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493582132179,Congelados La Estrella,25011,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493872845902,Harinas y Más,25012,validado,2026-07-31T15:08:43.640081+00:00,,false
+5492997670210,Almacén El Rincón,25013,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493811657614,Pinturería La Paleta,25014,validado,2026-07-31T15:08:43.640081+00:00,,false
+5492994145193,Carnicería La Familia,25015,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493515971311,Parrilla El Asador,25016,validado,2026-07-31T15:08:43.640081+00:00,,false
+5492994228106,Ferretería Todo en Uno,25017,validado,2026-07-31T15:08:43.640081+00:00,,false
+5492998718887,Corralón La Solución,25018,validado,2026-07-31T15:08:43.640081+00:00,,false
+5492995028869,Restaurante La Parrilla,25019,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493517304254,Congelados y Sabores,25020,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493416986538,La Casa de la Harina,25021,validado,2026-07-31T15:08:43.640081+00:00,,false
+5492619239862,Almacén El Sabor,25022,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493513952681,Pinturería El Colorido,25023,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493414799650,Carnicería El Buen Corte,25024,validado,2026-07-31T15:08:43.640081+00:00,,false
+5492992500733,Asadería La Amistad,25025,validado,2026-07-31T15:08:43.640081+00:00,,false
+5492615139305,Restaurante El Fogón,25026,validado,2026-07-31T15:08:43.640081+00:00,,false
+5492618861463,Congelados del Norte,25027,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493812941974,Harinas del Valle,25028,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493817404433,Almacén La Esquina,25029,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493419686914,Pinturería Color y Estilo,25030,validado,2026-07-31T15:08:43.640081+00:00,,false
+5493518648263,Ferretería El Taller,25031,existente,,,false
+5493516216782,Corralón El Camino,25032,existente,,,false
+5492612780568,Parrilla El Rincón,25033,existente,,,false
+5493582639964,Carnicería El Sabor,25034,existente,,,false
+5493814729528,Restaurante La Cocina,25035,existente,,,false
+5493876922419,Congelados La Casa,25036,existente,,,false
+5492618889598,Harinas y Sazón,25037,existente,,,false
+5492615021286,Almacén El Mercado,25038,existente,,,false
+5493813520000,Pinturería El Artista,25039,existente,,,false
+5492997489876,Ferretería La Herramienta,25040,existente,,,false
+5493519107005,Corralón La Tierra,0,no_validado,,PROSPECTO,true
+5493874104594,Asadería El Sabor,0,existente,,PROSPECTO,true
+5492617413812,Carnicería El Asador,0,no_validado,,PROSPECTO,true
+5492617236955,Restaurante El Buen Gusto,0,existente,,PROSPECTO,true
+5492612928724,Congelados y Más,0,no_validado,,PROSPECTO,true
+5492999435946,La Harina del Pueblo,0,validado,2026-07-31T15:08:43.640081+00:00,PROSPECTO,true
+5493517632424,Almacén La Selección,0,no_existente,,PROSPECTO,true
+5493416524997,Pinturería El Maestro,0,no_validado,,PROSPECTO,true
+5493876499570,Ferretería El Constructor,0,existente,,PROSPECTO,true
+5492998066543,Corralón La Base,0,no_validado,,PROSPECTO,true

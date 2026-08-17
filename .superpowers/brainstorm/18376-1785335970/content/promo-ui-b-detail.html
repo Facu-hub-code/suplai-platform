@@ -1,0 +1,114 @@
+<h2>Layout B confirmado — detalle UX</h2>
+<p class="subtitle">Así quedaría la sección de miembros + máximos. ¿Te cierra para seguir al agente?</p>
+
+<div class="options">
+  <div class="option" data-choice="ok" onclick="toggleSelect(this)">
+    <div class="letter">✓</div>
+    <div class="content">
+      <h3>Sí, seguimos</h3>
+      <p>Este diseño de UI está bien; pasamos a tools/contexto del agente.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="tweak" onclick="toggleSelect(this)">
+    <div class="letter">✎</div>
+    <div class="content">
+      <h3>Quiero ajustar algo</h3>
+      <p>Decime en el chat qué cambiar (paste, tabla, helper, techo combinado…).</p>
+    </div>
+  </div>
+</div>
+
+<div class="mockup" style="margin-top: 1.25rem;">
+  <div class="mockup-header">Modal · Nueva promoción · Grupo · dos paneles</div>
+  <div class="mockup-body" style="font-family: ui-sans-serif, system-ui; font-size: 12px; color: #1a1a1a; background: #f7f7f7;">
+    <div style="padding: 10px 14px; border-bottom: 1px solid #e0e0e0; background: #fff; display: flex; gap: 12px; align-items: center;">
+      <strong>Alcance: Grupo</strong>
+      <span style="color:#888;">·</span>
+      <span>Nombre grupo: <input class="mock-input" style="width:140px;padding:4px;" value="Gaseosas 2L promo"></span>
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1.35fr; min-height: 320px;">
+      <!-- LEFT -->
+      <div style="padding: 12px; border-right: 1px solid #e0e0e0; background: #fff; display: flex; flex-direction: column; gap: 10px;">
+        <div style="font-size: 10px; letter-spacing: .04em; text-transform: uppercase; color: #666;">Panel izquierdo · Miembros</div>
+        <div style="display: flex; gap: 6px; font-size: 11px;">
+          <span style="background:#222;color:#fff;border-radius:999px;padding:2px 8px;">Manual + paste</span>
+          <span style="background:#eee;border-radius:999px;padding:2px 8px;color:#888;">Etiqueta</span>
+          <span style="background:#eee;border-radius:999px;padding:2px 8px;color:#888;">Categoría</span>
+        </div>
+        <div>
+          <div style="font-size: 10px; color: #666; margin-bottom: 4px;">Pegar códigos del Excel (saltos de línea / comas / tabs)</div>
+          <div style="border: 1px dashed #999; border-radius: 8px; padding: 10px; min-height: 72px; background: #fafafa; color: #555; white-space: pre-line; line-height: 1.35;">101
+102
+103
+…
+72 códigos</div>
+        </div>
+        <div style="display: flex; gap: 8px;">
+          <button class="mock-button" style="font-size:11px;">Reconocer SKUs</button>
+          <input class="mock-input" style="flex:1;padding:6px;font-size:11px;" placeholder="O buscar uno a uno…">
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+          <span style="background:#e8e8e8;border-radius:999px;padding:2px 8px;">101 ×</span>
+          <span style="background:#e8e8e8;border-radius:999px;padding:2px 8px;">102 ×</span>
+          <span style="background:#e8e8e8;border-radius:999px;padding:2px 8px;">103 ×</span>
+          <span style="background:#ddd;border-radius:999px;padding:2px 8px;">+69</span>
+        </div>
+        <div style="font-size: 11px; color: #a50; background: #fff7e6; border: 1px solid #f0d78c; border-radius: 6px; padding: 6px 8px;">
+          2 no encontrados: <code>9991</code>, <code>9992</code> — no se agregan
+        </div>
+        <div style="font-size: 11px; color: #666;">72 reconocidos · mínimo 2 para guardar</div>
+      </div>
+      <!-- RIGHT -->
+      <div style="padding: 12px; display: flex; flex-direction: column; gap: 10px;">
+        <div style="font-size: 10px; letter-spacing: .04em; text-transform: uppercase; color: #666;">Panel derecho · Límites</div>
+        <div style="background:#fff; border: 1px solid #ddd; border-radius: 8px; padding: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+          <span style="font-weight: 600;">Máx para todos</span>
+          <input class="mock-input" style="width:44px;padding:4px;" value="2">
+          <select style="padding:4px;font-size:11px;"><option selected>bultos</option><option>displays</option><option>unidades (UMV)</option></select>
+          <button class="mock-button" style="font-size:11px;">Aplicar a todos</button>
+          <span style="font-size:10px;color:#888;">usa unidades_por_bulto / display de cada SKU</span>
+        </div>
+        <div style="background:#fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; flex: 1;">
+          <div style="display:grid; grid-template-columns: .7fr 1.4fr .8fr .7fr .5fr; gap:4px; padding:8px; background:#f0f0f0; font-size:10px; font-weight:700;">
+            <span>SKU</span><span>Nombre</span><span>Conversión</span><span>Máx UMV</span><span></span>
+          </div>
+          <div style="display:grid; grid-template-columns: .7fr 1.4fr .8fr .7fr .5fr; gap:4px; padding:8px; border-top:1px solid #eee; align-items:center;">
+            <span>101</span><span>Gaseosa cola 2L</span><span>6 u / bulto</span>
+            <input class="mock-input" style="width:48px;padding:3px;" value="12">
+            <span style="color:#c00;cursor:pointer;">✕</span>
+          </div>
+          <div style="display:grid; grid-template-columns: .7fr 1.4fr .8fr .7fr .5fr; gap:4px; padding:8px; border-top:1px solid #eee; align-items:center;">
+            <span>102</span><span>Agua 500ml</span><span>12 u / bulto</span>
+            <input class="mock-input" style="width:48px;padding:3px;" value="24">
+            <span style="color:#c00;cursor:pointer;">✕</span>
+          </div>
+          <div style="display:grid; grid-template-columns: .7fr 1.4fr .8fr .7fr .5fr; gap:4px; padding:8px; border-top:1px solid #eee; align-items:center;">
+            <span>103</span><span>Display snacks</span><span>1 display=8</span>
+            <input class="mock-input" style="width:48px;padding:3px;" value="16">
+            <span style="color:#c00;cursor:pointer;">✕</span>
+          </div>
+          <div style="padding:8px; border-top:1px solid #eee; color:#888; font-size:10px;">… scroll hasta 72 filas · override manual por celda</div>
+        </div>
+        <div style="background:#fff; border: 1px solid #ddd; border-radius: 8px; padding: 10px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+          <span style="font-weight:600;">Techo combinado del grupo</span>
+          <input class="mock-input" style="width:64px;padding:4px;" placeholder="opcional">
+          <span style="font-size:11px;color:#666;">UMV totales con precio promo en el pedido</span>
+        </div>
+        <div style="background:#fff; border: 1px solid #ddd; border-radius: 8px; padding: 10px; display: flex; gap: 10px; align-items: center;">
+          <span style="font-weight:600;">Mínimo combinado</span>
+          <input class="mock-input" style="width:64px;padding:4px;" value="1">
+          <span style="font-size:11px;color:#666;">ya existe (min_qty_umv)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top: 1rem;">
+  <p class="label">Reglas de paste</p>
+  <ul>
+    <li>Split por salto de línea, coma, punto y coma o tab; trim; dedupe.</li>
+    <li>Lookup batch al catálogo; no encontrados se listan y no entran.</li>
+    <li>Single-SKU: solo campo <code>max_qty_umv</code> (sin tabla de miembros).</li>
+  </ul>
+</div>

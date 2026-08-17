@@ -1,0 +1,25 @@
+product_code,alias_raw,alias_norm,weight,action
+110A74011,kilo de 7,kilode7,1.25,upsert
+110A74011,papa 7,papa7,1.25,upsert
+110A74011,papas 7mm,papas7mm,1.25,upsert
+110A74011,tipo mcdonalds,tipomcdonalds,1.25,upsert
+110A74011,corte fast food,cortefastfood,1.10,upsert
+110A11121,corte fino 7,cortefino7,1.25,upsert
+110A11121,papa fina 7mm,papafina7mm,1.25,upsert
+110A11121,mccain fina,mccainfina,1.10,upsert
+110111091,kilo de 10,kilode10,1.25,upsert
+110111091,papa 10,papa10,1.25,upsert
+110111091,papas 10mm,papas10mm,1.25,upsert
+110111091,tradicional 10mm,tradicional10mm,1.25,upsert
+110113101,kilo de 12,kilode12,1.25,upsert
+110113101,papa 12,papa12,1.25,upsert
+110113101,papas 12mm,papas12mm,1.25,upsert
+110113101,corte casero 12,cortecasero12,1.10,upsert
+1000007407,papa crocante 10,papacrocante10,1.10,upsert
+1000007407,papas que duran crocantes,papasquedurancrocantes,1.10,upsert
+1000006570,papas mccain onduladas,papasmccainonduladas,1.25,upsert
+1000006570,corte ondulado,corteondulado,1.10,upsert
+110A10641,papa decorativa,papadecorativa,1.10,upsert
+110A18951,papas sonrisa,papassonrisa,1.25,upsert
+110A18951,papas carita,papascarita,1.25,upsert
+110A18951,croquetas smiles,croquetassmiles,1.10,upsert

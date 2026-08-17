@@ -1,0 +1,65 @@
+codigo_producto,nombre,descripcion_original,descripcion_mejorada,alias_propuestos,accion
+BEL-QUE-001,Azul Sancarlina,"Queso azul Sancarlina, pasta azul, marca Sancarlina.","Queso azul Sancarlina, pasta azul, marca Sancarlina.",Azul Sancarlina|Sancarlina|queso,ACTUALIZAR
+BEL-QUE-002,Cheddar Barra Spalen,"Queso cheddar en barra, marca Spalen.","Queso cheddar en barra, marca Spalen.",Cheddar Barra Spalen|Spalen|Cheddar Spalen|queso,ACTUALIZAR
+BEL-QUE-003,Cheddar en Fetas,"Queso cheddar en fetas, presentación lista para uso.","Queso cheddar en fetas, presentación lista para uso.",Cheddar en Fetas|queso,ACTUALIZAR
+BEL-QUE-004,Cheddar Pouch La Paulina,"Queso cheddar en pouch, marca La Paulina.","Queso cheddar en pouch, marca La Paulina.",Cheddar Pouch La Paulina|La Paulina|Cheddar La Paulina|queso,ACTUALIZAR
+BEL-QUE-005,Cheddar Pouch Spalen,"Queso cheddar en pouch, marca Spalen.","Queso cheddar en pouch, marca Spalen.",Cheddar Pouch Spalen|Spalen|Cheddar Spalen|queso,ACTUALIZAR
+BEL-QUE-006,Cremoso La Paulina,"Queso cremoso, marca La Paulina.","Queso cremoso, marca La Paulina.",Cremoso La Paulina|La Paulina|queso,ACTUALIZAR
+BEL-QUE-007,Gruyere Oro,"Queso gruyere semiduro, marca Oro.","Queso gruyere marca Oro, presentado en formato de kg.",queso gruyere|gruyere oro,ACTUALIZAR
+BEL-QUE-008,Muzzarella Unión,"Queso muzzarella, marca Unión.","Queso muzzarella, marca Unión.",Muzzarella Unión|Unión|queso,ACTUALIZAR
+BEL-QUE-011,Romano Unión,"Queso romano de pasta dura, marca Unión.","Queso romano de pasta dura, marca Unión.",Romano Unión|Unión|queso,ACTUALIZAR
+BEL-QUE-012,Sardo Oro,"Queso sardo de pasta dura, marca Oro.","Queso sardo de pasta dura, marca Oro.",Sardo Oro|Oro|queso,ACTUALIZAR
+BEL-QUE-013,Tybo Senda La Paulina,"Queso tybo Senda, marca La Paulina.","Queso tybo Senda, marca La Paulina.",Tybo Senda La Paulina|La Paulina|Tybo La Paulina|queso,ACTUALIZAR
+BEL-QUE-014,Tybo Unión,"Queso tybo, marca Unión.","Queso tybo, marca Unión.",Tybo Unión|Unión|queso,ACTUALIZAR
+BEL-FIA-001,Bondiola Natural Pig,"Bondiola curada, marca Natural Pig.","Bondiola curada, marca Natural Pig.",Bondiola Natural Pig|Natural Pig|bondiola,ACTUALIZAR
+BEL-FIA-003,Jamón Cocido La Tirolesa,"Jamón cocido, marca La Tirolesa.","Jamón cocido, marca La Tirolesa.",Jamón Cocido La Tirolesa|La Tirolesa|Jamón La Tirolesa|jamón,ACTUALIZAR
+BEL-FIA-004,Jamón Cocido Tacural,"Jamón cocido, marca Tacural.","Jamón cocido, marca Tacural.",Jamón Cocido Tacural|Tacural|Jamón Tacural|jamón,ACTUALIZAR
+BEL-FIA-005,Jamón Crudo Tacural,"Jamón crudo, marca Tacural.","Jamón crudo, marca Tacural.",Jamón Crudo Tacural|Tacural|Jamón Tacural|jamón,ACTUALIZAR
+BEL-FIA-006,Jamonada La Tirolesa,"Jamonada cocida, marca La Tirolesa.","Jamonada cocida, marca La Tirolesa.",Jamonada La Tirolesa|La Tirolesa|jamon,ACTUALIZAR
+BEL-ACE-011,Kétchup Dánica 3kg,"Kétchup, marca Dánica, x 3kg.","Ketchup Dánica en bolsa de 3 kg, sin TACC.",ketchup danica|ketchup|salsa de tomate,ACTUALIZAR
+BEL-ACE-012,Kétchup Dánica Individual,"Kétchup, marca Dánica, presentación individual.","Kétchup, marca Dánica, presentación individual.",Kétchup Dánica Individual|Dánica|Kétchup Dánica|kétchup,ACTUALIZAR
+BEL-ACE-013,Mayodan x 3kg,"Mayonesa Mayodan, x 3kg.","Mayonesa, marca Mayodan, presentación de 3 kg en sachet.",mayonesa|mayonese|mayon|salsa blanca,ACTUALIZAR
+BEL-CON-001,Ananá x 800gr,"Conserva de ananá, lata x 800gr.","Conserva de ananá, lata x 800gr.",Ananá x 800gr|ananá,ACTUALIZAR
+BEL-CON-002,Caja Puré Triturado 520gr x 16,"Puré de tomate triturado 520gr, caja x 16.","Puré de tomate triturado 520gr, caja x 16.",Caja Puré Triturado 520gr x 16|tomate,ACTUALIZAR
+BEL-CON-003,Champi x 800gr Caracas,"Champiñones en conserva, marca Caracas, x 800gr.","Champiñones enteros en lata de 800 gramos, marca Caracas.",champi|champi en lata|champi enteros,ACTUALIZAR
+BEL-CON-008,Lomito de Atún,Lomito de atún en conserva.,Lomito de atún en conserva.,Lomito de Atún|atún,ACTUALIZAR
+BEL-CON-009,Morrón Finca de Santiago,"Morrón en conserva, marca Finca de Santiago.","Morrón en conserva, marca Finca de Santiago.",Morrón Finca de Santiago|Finca de Santiago,ACTUALIZAR
+BEL-CON-010,Pulpa de Frutilla Emalubi x 1kg,"Pulpa de frutilla, marca Emalubi, x 1kg.","Pulpa de frutilla, marca Emalubi, presentación de 1 kg.",pulpa de frutilla|frutilla emalubi,ACTUALIZAR
+BEL-ALM-002,Azúcar x 10kg,"Azúcar, presentación x 10kg.","Azúcar, presentación x 10kg.",Azúcar x 10kg|azúcar,ACTUALIZAR
+BEL-DUL-001,Pionono,Masa de pionono para repostería.,Masa de pionono para repostería.,Pionono,ACTUALIZAR
+BEL-QUE-009,Pategrás Unión,"Queso pategrás, marca Unión.","Queso pategrás, marca Unión.",Pategrás Unión|Unión|queso,ACTUALIZAR
+BEL-QUE-010,Queso Crema La Paulina,"Queso crema untable, marca La Paulina.","Queso crema untable, marca La Paulina.",Queso Crema La Paulina|La Paulina|Queso La Paulina|queso,ACTUALIZAR
+BEL-FIA-002,Jamón Cocido El Colonial,"Jamón cocido, marca El Colonial.","Jamón cocido, marca El Colonial.",Jamón Cocido El Colonial|El Colonial|Jamón El Colonial|jamón,ACTUALIZAR
+BEL-FIA-007,Salame Milán La Tirolesa,"Salame tipo Milán, marca La Tirolesa.","Salame tipo Milán, marca La Tirolesa.",Salame Milán La Tirolesa|La Tirolesa|Salame La Tirolesa|salame,ACTUALIZAR
+BEL-FIA-008,Salame Milán Natural Pig,"Salame tipo Milán, marca Natural Pig.","Salame tipo Milán, marca Natural Pig.",Salame Milán Natural Pig|Natural Pig|Salame Natural Pig|salame,ACTUALIZAR
+BEL-FIA-009,Salame Natural Pig x Unidad,"Salame, marca Natural Pig, venta por unidad.","Salame, marca Natural Pig, venta por unidad.",Salame Natural Pig x Unidad|Natural Pig|Salame Natural Pig|salame,ACTUALIZAR
+BEL-LAC-001,Crema Doble Crema La Paulina x 5kg,"Crema doble, marca La Paulina, x 5kg.","Crema doble crema, marca La Paulina, presentación de 5 kg.",crema la paulina|crema doble la paulina|crema 5kg,ACTUALIZAR
+BEL-LAC-002,Crema La Paulina x 5kg,"Crema de leche, marca La Paulina, x 5kg.","Crema de leche marca La Paulina, presentación de 5 kg.",crema la paulina|crema de leche la paulina|crema la paulina 5kg,ACTUALIZAR
+BEL-LAC-003,Leche Cotapa Entera x 12lt,"Leche entera, marca Cotapa, pack x 12lt.","Leche entera larga vida, marca Cotapa, presentación de 12 litros.",leche entera cotapa|leche larga vida cotapa,ACTUALIZAR
+BEL-LAC-004,Manteca x 2.5kg Pilón,"Manteca, marca Pilón, x 2.5kg.","Manteca Pilón sin sal, presentación de 2.5 kg para gastronomía.",manteca pilon|manteca sin sal|manteca 2.5kg,ACTUALIZAR
+BEL-ACE-001,Aceite de Oliva x 2lt,"Aceite de oliva, presentación x 2lt.","Aceite de oliva, presentación x 2lt.",Aceite de Oliva x 2lt|aceite,ACTUALIZAR
+BEL-ACE-002,Aceite x 10lt,"Aceite comestible, presentación x 10lt.","Aceite comestible, presentación x 10lt.",Aceite x 10lt|aceite,ACTUALIZAR
+BEL-ACE-003,Aceituna Negra Fileteada x 5kg,"Aceituna negra fileteada, x 5kg.","Aceituna negra fileteada, x 5kg.",Aceituna Negra Fileteada x 5kg|aceituna,ACTUALIZAR
+BEL-ACE-004,Aceituna Negra N° 2 x 5kg,"Aceituna negra calibre N° 2, x 5kg.","Aceituna negra calibre N° 2, x 5kg.",Aceituna Negra N° 2 x 5kg|aceituna,ACTUALIZAR
+BEL-ACE-005,Aceituna Verde Fileteada x 5kg,"Aceituna verde fileteada, x 5kg.","Aceituna verde fileteada, x 5kg.",Aceituna Verde Fileteada x 5kg|aceituna,ACTUALIZAR
+BEL-ACE-006,Aceituna Verde N° 0 x 5kg,"Aceituna verde calibre N° 0, x 5kg.","Aceituna verde N° 0 en salmuera, presentación de 5 kg.",aceituna verde|aceitunas|olivas,ACTUALIZAR
+BEL-ACE-007,Aceituna Verde N° 2 x 5kg,"Aceituna verde calibre N° 2, x 5kg.",Aceituna verde N° 2 en presentación de 5 kg.,aceitunas verdes|aceitunas|olivas verdes,ACTUALIZAR
+BEL-ACE-008,Aceituna Verde N° 0 x 1kg,"Aceituna verde calibre N° 0, x 1kg.","Aceituna verde calibre N° 0, x 1kg.",Aceituna Verde N° 0 x 1kg|aceituna,ACTUALIZAR
+BEL-ACE-009,Aceituna Verde N° 1 x 5kg,"Aceituna verde calibre N° 1, x 5kg.","Aceituna verde calibre N° 1, x 5kg.",aceitunas|olivas|aceitunas verdes,ACTUALIZAR
+BEL-ACE-010,Aceituna Verde N° 3 x 5kg,"Aceituna verde calibre N° 3, x 5kg.","Aceituna verde calibre N° 3, x 5kg.",aceitunas|olivas|aceituna verde,ACTUALIZAR
+BEL-ACE-014,Mayonesa Dánica 3kg,"Mayonesa, marca Dánica, x 3kg.","Mayonesa marca Dánica, presentación de 3 kg en bolsa.",mayonesa danica|mayo danica,ACTUALIZAR
+BEL-ACE-015,Mayonesa Dánica Individual,"Mayonesa, marca Dánica, presentación individual.","Mayonesa en sobres individuales de 8 gramos, marca Dánica.",mayonesa|salsa|mayonesa individual,ACTUALIZAR
+BEL-ACE-016,Mostaza Dánica 3kg,"Mostaza, marca Dánica, x 3kg.","Mostaza en bolsa de 3 kg, marca Dánica.",mostaza danica|mostaza|mostaza en bolsa,ACTUALIZAR
+BEL-ACE-017,Mostaza Dánica Individual,"Mostaza, marca Dánica, presentación individual.","Mostaza, marca Dánica, presentación individual.",Mostaza Dánica Individual|Dánica|Mostaza Dánica|mostaza,ACTUALIZAR
+BEL-ACE-018,Salsa Golf Dánica 3kg,"Salsa golf, marca Dánica, x 3kg.","Salsa Golf, marca Dánica, presentación de 3 kg en bolsa.",salsa golf|salsa danica,ACTUALIZAR
+BEL-ACE-019,Vinagre x 5lt,"Vinagre, presentación x 5lt.","Vinagre, presentación x 5lt.",Vinagre x 5lt|vinagre,ACTUALIZAR
+BEL-CON-004,Choclo en Grano x 800gr,"Choclo en grano en conserva, x 800gr.","Choclo en grano en conserva, x 800gr.",Choclo en Grano x 800gr|choclo,ACTUALIZAR
+BEL-CON-005,Choclo Granos Amarillos x 3kg,"Choclo granos amarillos en conserva, x 3kg.","Choclo granos amarillos en conserva, x 3kg.",Choclo Granos Amarillos x 3kg|choclo,ACTUALIZAR
+BEL-CON-006,Cóctel de Frutas x 820gr,"Cóctel de frutas en almíbar, x 820gr.","Cóctel de frutas en almíbar, x 820gr.",Cóctel de Frutas x 820gr,ACTUALIZAR
+BEL-CON-007,Durazno 820gr,"Duraznos en almíbar, lata 820gr.","Duraznos en almíbar, lata 820gr.",Durazno 820gr,ACTUALIZAR
+BEL-CON-011,Tomate Triturado 4 x 2kg,"Tomate triturado, pack 4 x 2kg.","Tomate triturado, pack 4 x 2kg.",Tomate Triturado 4 x 2kg|tomate,ACTUALIZAR
+BEL-CON-012,Tomate Triturado Lata 8kg,"Tomate triturado, lata x 8kg.","Tomate triturado, lata x 8kg.",Tomate Triturado Lata 8kg|tomate,ACTUALIZAR
+BEL-ALM-003,Sal de Campo Don Burro,"Sal de campo, marca Don Burro.","Sal de campo, marca Don Burro.",Sal de Campo Don Burro|Don Burro|Sal Don Burro,ACTUALIZAR
+BEL-ALM-004,Sal Fina Celusal 500gr,"Sal fina, marca Celusal, envase 500gr.","Sal fina, marca Celusal, presentación en paquete de 500 gramos.",sal|sal fina|sal celusal,ACTUALIZAR
+BEL-BEB-001,Jugo de Naranja 5lt,"Jugo de naranja, bidón x 5lt.","Jugo de naranja, bidón x 5lt.",Jugo de Naranja 5lt|jugo,ACTUALIZAR
+BEL-BEB-002,Jugo Limón x 5lt,"Jugo de limón, bidón x 5lt.","Jugo de limón, bidón x 5lt.",Jugo Limón x 5lt|jugo,ACTUALIZAR

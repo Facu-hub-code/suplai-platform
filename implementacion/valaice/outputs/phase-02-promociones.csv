@@ -1,0 +1,5 @@
+id,product_code,product_name,descripcion,discount_kind,descuento_percent,descuento_nominal,precio_promocional,lista_precios_id,min_qty_umv,is_mock
+1,421,MEDIALUNA CON MANTECA,15% OFF en bulto de Medialunas con Manteca,percent,15.0,,,1,1,True
+2,422-MIX,FACTURA MIXTA,$5.000 OFF por bulto de Facturas Mixtas,nominal,,5000.0,,1,1,True
+3,423,CRIOLLO DE HOJALDRE x 11kg*,Precio especial mayorista en Criollo Hojaldre,fixed_price,,,48000.0,3,1,True
+4,427,CHIPÁ x 5kg*,Super Oferta Chipá 5kg,fixed_price,,,119000.0,1,1,True

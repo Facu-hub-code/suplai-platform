@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2392,Calidad,open,Reclamo por TABLETA COFLER EXTRA COOKIE&CREAM 4X10X165GR con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego TABLETA COFLER EXTRA COOKIE&CREAM 4X10X165GR en mal estado y quiero hacer el reclamo.",2026-08-09 11:15:00,,true
+TKT-2393,Calidad,open,Reclamo por PASTA TALLARIN ARCOR 20X500G con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego PASTA TALLARIN ARCOR 20X500G en mal estado y quiero hacer el reclamo.",2026-08-08 08:15:00,,true
+TKT-2394,Calidad,open,Reclamo por ALFAJOR TOFI TRIPLE BLANCO 21X73 G con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego ALFAJOR TOFI TRIPLE BLANCO 21X73 G en mal estado y quiero hacer el reclamo.",2026-08-07 05:15:00,,true
+TKT-2395,Logistica,open,Demora en la entrega del pedido P-00151 de MENTHO PLUS CHERRY 12X12X29.4G.,5493418277249,"Buen dia, sigo esperando el pedido P-00151 de MENTHO PLUS CHERRY 12X12X29.4G y no llego.",2026-08-09 02:15:00,,true
+TKT-2396,Logistica,open,Demora en la entrega del pedido P-00123 de JUGO POLVO BC NARANJA DULCE 16x18x7G.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de JUGO POLVO BC NARANJA DULCE 16x18x7G y no llego.",2026-08-08 11:15:00,,true
+TKT-2397,Logistica,open,Demora en la entrega del pedido P-00126 de HELADO GELATO XL DUO COFLER CHOCOLAE DULCE DE LECHE 6X500G.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de HELADO GELATO XL DUO COFLER CHOCOLAE DULCE DE LECHE 6X500G y no llego.",2026-08-07 08:15:00,,true
+TKT-2398,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Dulces y Chocolates.,5493587905250,,2026-08-09 05:15:00,,true
+TKT-2399,Administracion,open,Solicita corregir datos administrativos de Galletas del Río en el sistema.,5493582641213,,2026-08-08 02:15:00,,true
+TKT-2400,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Alimentos La Esperanza.,5492991227644,,2026-08-07 11:15:00,,true
+TKT-2401,Administracion,open,Solicita corregir datos administrativos de Chocorío en el sistema.,5493418277249,,2026-08-09 08:15:00,,true
+TKT-2402,Comercial,open,Pide hablar con el encargado comercial por la cuenta de ChocoDelicias.,5492612928724,,2026-08-08 05:15:00,,true
+TKT-2403,Administracion,closed,Solicita corregir datos administrativos de Dulce Tentación en el sistema.,5492617236955,,2026-07-24 05:15:00,2026-07-24 20:15:00,true
+TKT-2404,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de La Casa de los Dulces.,5492617413812,,2026-07-23 11:15:00,2026-07-24 03:15:00,true
+TKT-2405,Logistica,closed,Demora en la entrega del pedido P-00132 de PASTA DEDALITOS ARCOR 12x500G.,5492998066543,,2026-07-22 09:15:00,2026-07-23 02:15:00,true
+TKT-2406,Calidad,closed,Reclamo por BIZCOCHUELO GODET CHOCOLATE 12X480G con entrega en mal estado o faltante parcial.,5492999435946,,2026-07-21 07:15:00,2026-07-22 01:15:00,true
+TKT-2407,Administracion,closed,Solicita corregir datos administrativos de La Golosina en el sistema.,5493587747641,,2026-07-20 05:15:00,2026-07-21 00:15:00,true
+TKT-2408,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Dulce Sorpresa.,5492614053074,,2026-08-04 11:15:00,2026-08-05 07:15:00,true
+TKT-2409,Logistica,closed,Demora en la entrega del pedido P-00157 de RAPTOR BARRA PROTEIN MANI 6X16X45G.,5493514079279,,2026-08-03 09:15:00,2026-08-04 06:15:00,true

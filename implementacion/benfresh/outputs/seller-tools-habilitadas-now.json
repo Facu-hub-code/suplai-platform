@@ -1,0 +1,21 @@
+{
+  "ping": false,
+  "seller_help": false,
+  "resolve_client": false,
+  "list_promotions": false,
+  "get_order_status": false,
+  "get_seller_tasks": false,
+  "get_field_app_link": false,
+  "list_recent_orders": false,
+  "get_seller_progress": false,
+  "list_seller_clients": false,
+  "clear_seller_context": false,
+  "manage_contact_agenda": false,
+  "get_seller_daily_route": false,
+  "resolve_free_text_order": false,
+  "register_client_location": false,
+  "create_distributor_ticket": false,
+  "get_seller_client_summary": false,
+  "search_products_by_category": false,
+  "suggest_order_boost_for_client": false
+}

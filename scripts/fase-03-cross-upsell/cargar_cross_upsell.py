@@ -61,7 +61,8 @@ async def cargar_cross_upsell(esquema: str):
         for row in reader:
             up_rows.append(row)
 
-    conn = await asyncpg.connect(db_url)
+    # Puerto 6543 (Transaction Mode): desactivar cache de prepared statements
+    conn = await asyncpg.connect(db_url, statement_cache_size=0)
     try:
         # 2. Limpiar mapeos anteriores para este tenant_id
         print(f"[*] Limpiando mapeos anteriores para tenant_id: {tenant_id}...")

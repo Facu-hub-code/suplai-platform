@@ -1,0 +1,1301 @@
+pedido_ref,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,cliente_phone
+PF-000001,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2025-06-01),true,5493587905250
+PF-000001,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-06-01),true,5493587905250
+PF-000001,656,Aceituna Verde Desc. VANOLI 150g,2,1454.70,2,Pedido histórico field mock (2025-06-01),true,5493587905250
+PF-000002,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-06-19),true,5493587905250
+PF-000002,12684,Salsa Soja VANOLI 1000cc PET,4,3695.93,2,Pedido histórico field mock (2025-06-19),true,5493587905250
+PF-000003,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-07-09),true,5493587905250
+PF-000003,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-07-09),true,5493587905250
+PF-000004,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-08-01),true,5493587905250
+PF-000004,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-08-01),true,5493587905250
+PF-000004,286,Pan Multicereal CORMILLOT 410 G,1,2766.55,2,Pedido histórico field mock (2025-08-01),true,5493587905250
+PF-000005,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2025-08-29),true,5493587905250
+PF-000005,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-08-29),true,5493587905250
+PF-000005,15195,Yogur Bebible Cremigal Banana 900g,4,1667.50,2,Pedido histórico field mock (2025-08-29),true,5493587905250
+PF-000005,925,Pesto 25g CENTURION,2,658.05,2,Pedido histórico field mock (2025-08-29),true,5493587905250
+PF-000006,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-09-09),true,5493587905250
+PF-000006,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido histórico field mock (2025-09-09),true,5493587905250
+PF-000006,15195,Yogur Bebible Cremigal Banana 900g,4,1667.50,2,Pedido histórico field mock (2025-09-09),true,5493587905250
+PF-000006,10659,Pickle Mixto VANOLI Frasco 330g,1,3059.84,2,Pedido histórico field mock (2025-09-09),true,5493587905250
+PF-000007,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-09-30),true,5493587905250
+PF-000007,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-09-30),true,5493587905250
+PF-000007,310,Queso Reggianito Cremigal x Kg,3,16321.52,2,Pedido histórico field mock (2025-09-30),true,5493587905250
+PF-000007,286,Pan Multicereal CORMILLOT 410 G,1,2766.55,2,Pedido histórico field mock (2025-09-30),true,5493587905250
+PF-000008,1,Pepinillos Agridulces 330 G GULLO,3,4227.55,3,Pedido histórico field mock (2025-06-01),true,5493582641213
+PF-000008,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido histórico field mock (2025-06-01),true,5493582641213
+PF-000008,914,Nuez Moscada Grano CENTURION,4,1113.27,3,Pedido histórico field mock (2025-06-01),true,5493582641213
+PF-000009,1,Pepinillos Agridulces 330 G GULLO,2,4227.55,3,Pedido histórico field mock (2025-06-20),true,5493582641213
+PF-000009,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1672.59,3,Pedido histórico field mock (2025-06-20),true,5493582641213
+PF-000009,10273,Mermelada EMETH Pote CIRUELA 500G,2,921.20,3,Pedido histórico field mock (2025-06-20),true,5493582641213
+PF-000009,15195,Yogur Bebible Cremigal Banana 900g,4,1305.00,3,Pedido histórico field mock (2025-06-20),true,5493582641213
+PF-000010,1,Pepinillos Agridulces 330 G GULLO,3,4227.55,3,Pedido histórico field mock (2025-07-12),true,5493582641213
+PF-000010,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido histórico field mock (2025-07-12),true,5493582641213
+PF-000011,1,Pepinillos Agridulces 330 G GULLO,1,4227.55,3,Pedido histórico field mock (2025-08-02),true,5493582641213
+PF-000011,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1672.59,3,Pedido histórico field mock (2025-08-02),true,5493582641213
+PF-000012,1,Pepinillos Agridulces 330 G GULLO,4,4227.55,3,Pedido histórico field mock (2025-08-21),true,5493582641213
+PF-000012,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido histórico field mock (2025-08-21),true,5493582641213
+PF-000012,15195,Yogur Bebible Cremigal Banana 900g,3,1305.00,3,Pedido histórico field mock (2025-08-21),true,5493582641213
+PF-000013,1,Pepinillos Agridulces 330 G GULLO,4,4227.55,3,Pedido histórico field mock (2025-09-10),true,5493582641213
+PF-000013,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2025-09-10),true,5493582641213
+PF-000014,1,Pepinillos Agridulces 330 G GULLO,3,4227.55,3,Pedido histórico field mock (2025-09-30),true,5493582641213
+PF-000014,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido histórico field mock (2025-09-30),true,5493582641213
+PF-000015,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2025-06-01),true,5492991227644
+PF-000015,11309,Tostadas SIN SAL CORMILLOT 200G,2,1333.89,4,Pedido histórico field mock (2025-06-01),true,5492991227644
+PF-000015,286,Pan Multicereal CORMILLOT 410 G,1,2044.84,4,Pedido histórico field mock (2025-06-01),true,5492991227644
+PF-000016,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2025-06-19),true,5492991227644
+PF-000016,11309,Tostadas SIN SAL CORMILLOT 200G,4,1333.89,4,Pedido histórico field mock (2025-06-19),true,5492991227644
+PF-000016,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,4,3765.59,4,Pedido histórico field mock (2025-06-19),true,5492991227644
+PF-000017,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-07-08),true,5492991227644
+PF-000017,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido histórico field mock (2025-07-08),true,5492991227644
+PF-000017,10113,Paleta Especial Fox Oval,3,7990.00,4,Pedido histórico field mock (2025-07-08),true,5492991227644
+PF-000017,10169,Salame Milan Fox Crespon,1,14960.00,4,Pedido histórico field mock (2025-07-08),true,5492991227644
+PF-000018,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2025-08-02),true,5492991227644
+PF-000018,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido histórico field mock (2025-08-02),true,5492991227644
+PF-000018,10659,Pickle Mixto VANOLI Frasco 330g,3,2261.62,4,Pedido histórico field mock (2025-08-02),true,5492991227644
+PF-000018,10169,Salame Milan Fox Crespon,4,14960.00,4,Pedido histórico field mock (2025-08-02),true,5492991227644
+PF-000019,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-08-19),true,5492991227644
+PF-000019,11309,Tostadas SIN SAL CORMILLOT 200G,2,1333.89,4,Pedido histórico field mock (2025-08-19),true,5492991227644
+PF-000019,44,Dulce de Leche Cremigal Familiar 250 G,1,1114.29,4,Pedido histórico field mock (2025-08-19),true,5492991227644
+PF-000020,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-09-13),true,5492991227644
+PF-000020,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido histórico field mock (2025-09-13),true,5492991227644
+PF-000020,310,Queso Reggianito Cremigal x Kg,4,12063.74,4,Pedido histórico field mock (2025-09-13),true,5492991227644
+PF-000021,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2025-10-01),true,5492991227644
+PF-000021,11309,Tostadas SIN SAL CORMILLOT 200G,4,1333.89,4,Pedido histórico field mock (2025-10-01),true,5492991227644
+PF-000021,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,1,3765.59,4,Pedido histórico field mock (2025-10-01),true,5492991227644
+PF-000021,914,Nuez Moscada Grano CENTURION,2,1051.42,4,Pedido histórico field mock (2025-10-01),true,5492991227644
+PF-000022,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2025-06-01),true,5493418277249
+PF-000022,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-06-01),true,5493418277249
+PF-000022,310,Queso Reggianito Cremigal x Kg,4,14192.63,1,Pedido histórico field mock (2025-06-01),true,5493418277249
+PF-000023,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido histórico field mock (2025-06-27),true,5493418277249
+PF-000023,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-06-27),true,5493418277249
+PF-000024,10218,Aceitunas Rebanadas PET1500g GULLO,2,10703.70,1,Pedido histórico field mock (2025-07-13),true,5493418277249
+PF-000024,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-07-13),true,5493418277249
+PF-000024,310,Queso Reggianito Cremigal x Kg,2,14192.63,1,Pedido histórico field mock (2025-07-13),true,5493418277249
+PF-000025,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido histórico field mock (2025-07-29),true,5493418277249
+PF-000025,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-07-29),true,5493418277249
+PF-000026,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido histórico field mock (2025-08-26),true,5493418277249
+PF-000026,12684,Salsa Soja VANOLI 1000cc PET,4,3213.85,1,Pedido histórico field mock (2025-08-26),true,5493418277249
+PF-000026,656,Aceituna Verde Desc. VANOLI 150g,3,1264.96,1,Pedido histórico field mock (2025-08-26),true,5493418277249
+PF-000027,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2025-09-10),true,5493418277249
+PF-000027,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido histórico field mock (2025-09-10),true,5493418277249
+PF-000027,15195,Yogur Bebible Cremigal Banana 900g,1,1450.00,1,Pedido histórico field mock (2025-09-10),true,5493418277249
+PF-000027,286,Pan Multicereal CORMILLOT 410 G,2,2405.70,1,Pedido histórico field mock (2025-09-10),true,5493418277249
+PF-000028,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2025-09-30),true,5493418277249
+PF-000028,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-09-30),true,5493418277249
+PF-000028,10273,Mermelada EMETH Pote CIRUELA 500G,1,1023.56,1,Pedido histórico field mock (2025-09-30),true,5493418277249
+PF-000028,44,Dulce de Leche Cremigal Familiar 250 G,2,1310.93,1,Pedido histórico field mock (2025-09-30),true,5493418277249
+PF-000029,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,2137.19,2,Pedido histórico field mock (2025-06-02),true,5493587747641
+PF-000029,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2025-06-02),true,5493587747641
+PF-000029,10113,Paleta Especial Fox Oval,3,10810.00,2,Pedido histórico field mock (2025-06-02),true,5493587747641
+PF-000030,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,2137.19,2,Pedido histórico field mock (2025-06-24),true,5493587747641
+PF-000030,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-06-24),true,5493587747641
+PF-000030,15195,Yogur Bebible Cremigal Banana 900g,1,1667.50,2,Pedido histórico field mock (2025-06-24),true,5493587747641
+PF-000031,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,2137.19,2,Pedido histórico field mock (2025-07-12),true,5493587747641
+PF-000031,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2025-07-12),true,5493587747641
+PF-000031,44,Dulce de Leche Cremigal Familiar 250 G,1,1507.57,2,Pedido histórico field mock (2025-07-12),true,5493587747641
+PF-000031,10113,Paleta Especial Fox Oval,1,10810.00,2,Pedido histórico field mock (2025-07-12),true,5493587747641
+PF-000032,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,2137.19,2,Pedido histórico field mock (2025-07-30),true,5493587747641
+PF-000032,1,Pepinillos Agridulces 330 G GULLO,1,5401.87,2,Pedido histórico field mock (2025-07-30),true,5493587747641
+PF-000032,699,Cebollitas en Vinagre VANOLI Frasco 330 G,4,3472.92,2,Pedido histórico field mock (2025-07-30),true,5493587747641
+PF-000033,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,2137.19,2,Pedido histórico field mock (2025-08-22),true,5493587747641
+PF-000033,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-08-22),true,5493587747641
+PF-000034,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,2137.19,2,Pedido histórico field mock (2025-09-16),true,5493587747641
+PF-000034,1,Pepinillos Agridulces 330 G GULLO,1,5401.87,2,Pedido histórico field mock (2025-09-16),true,5493587747641
+PF-000034,925,Pesto 25g CENTURION,3,658.05,2,Pedido histórico field mock (2025-09-16),true,5493587747641
+PF-000034,15195,Yogur Bebible Cremigal Banana 900g,3,1667.50,2,Pedido histórico field mock (2025-09-16),true,5493587747641
+PF-000035,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,2137.19,2,Pedido histórico field mock (2025-10-04),true,5493587747641
+PF-000035,1,Pepinillos Agridulces 330 G GULLO,1,5401.87,2,Pedido histórico field mock (2025-10-04),true,5493587747641
+PF-000035,44,Dulce de Leche Cremigal Familiar 250 G,3,1507.57,2,Pedido histórico field mock (2025-10-04),true,5493587747641
+PF-000036,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido histórico field mock (2025-06-03),true,5492614053074
+PF-000036,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido histórico field mock (2025-06-03),true,5492614053074
+PF-000036,925,Pesto 25g CENTURION,3,515.00,3,Pedido histórico field mock (2025-06-03),true,5492614053074
+PF-000037,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido histórico field mock (2025-06-20),true,5492614053074
+PF-000037,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido histórico field mock (2025-06-20),true,5492614053074
+PF-000037,15195,Yogur Bebible Cremigal Banana 900g,1,1305.00,3,Pedido histórico field mock (2025-06-20),true,5492614053074
+PF-000038,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido histórico field mock (2025-07-10),true,5492614053074
+PF-000038,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido histórico field mock (2025-07-10),true,5492614053074
+PF-000038,699,Cebollitas en Vinagre VANOLI Frasco 330 G,3,2717.94,3,Pedido histórico field mock (2025-07-10),true,5492614053074
+PF-000039,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido histórico field mock (2025-08-07),true,5492614053074
+PF-000039,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2025-08-07),true,5492614053074
+PF-000039,10113,Paleta Especial Fox Oval,1,8460.00,3,Pedido histórico field mock (2025-08-07),true,5492614053074
+PF-000039,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,3,3987.10,3,Pedido histórico field mock (2025-08-07),true,5492614053074
+PF-000040,10218,Aceitunas Rebanadas PET1500g GULLO,2,9633.33,3,Pedido histórico field mock (2025-08-22),true,5492614053074
+PF-000040,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido histórico field mock (2025-08-22),true,5492614053074
+PF-000041,10218,Aceitunas Rebanadas PET1500g GULLO,4,9633.33,3,Pedido histórico field mock (2025-09-19),true,5492614053074
+PF-000041,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2025-09-19),true,5492614053074
+PF-000041,925,Pesto 25g CENTURION,2,515.00,3,Pedido histórico field mock (2025-09-19),true,5492614053074
+PF-000041,914,Nuez Moscada Grano CENTURION,3,1113.27,3,Pedido histórico field mock (2025-09-19),true,5492614053074
+PF-000042,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido histórico field mock (2025-10-07),true,5492614053074
+PF-000042,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1672.59,3,Pedido histórico field mock (2025-10-07),true,5492614053074
+PF-000042,310,Queso Reggianito Cremigal x Kg,3,12773.37,3,Pedido histórico field mock (2025-10-07),true,5492614053074
+PF-000042,10659,Pickle Mixto VANOLI Frasco 330g,3,2394.66,3,Pedido histórico field mock (2025-10-07),true,5492614053074
+PF-000043,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1579.67,4,Pedido histórico field mock (2025-06-04),true,5493514079279
+PF-000043,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2025-06-04),true,5493514079279
+PF-000043,10659,Pickle Mixto VANOLI Frasco 330g,3,2261.62,4,Pedido histórico field mock (2025-06-04),true,5493514079279
+PF-000044,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1579.67,4,Pedido histórico field mock (2025-06-20),true,5493514079279
+PF-000044,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-06-20),true,5493514079279
+PF-000044,44,Dulce de Leche Cremigal Familiar 250 G,4,1114.29,4,Pedido histórico field mock (2025-06-20),true,5493514079279
+PF-000045,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido histórico field mock (2025-07-12),true,5493514079279
+PF-000045,10218,Aceitunas Rebanadas PET1500g GULLO,1,9098.15,4,Pedido histórico field mock (2025-07-12),true,5493514079279
+PF-000045,44,Dulce de Leche Cremigal Familiar 250 G,1,1114.29,4,Pedido histórico field mock (2025-07-12),true,5493514079279
+PF-000045,10199,Yogur Natural S/Azucar Cremigal 170g,1,515.70,4,Pedido histórico field mock (2025-07-12),true,5493514079279
+PF-000046,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1579.67,4,Pedido histórico field mock (2025-08-08),true,5493514079279
+PF-000046,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2025-08-08),true,5493514079279
+PF-000047,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido histórico field mock (2025-08-26),true,5493514079279
+PF-000047,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2025-08-26),true,5493514079279
+PF-000047,10659,Pickle Mixto VANOLI Frasco 330g,3,2261.62,4,Pedido histórico field mock (2025-08-26),true,5493514079279
+PF-000048,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1579.67,4,Pedido histórico field mock (2025-09-11),true,5493514079279
+PF-000048,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-09-11),true,5493514079279
+PF-000048,914,Nuez Moscada Grano CENTURION,3,1051.42,4,Pedido histórico field mock (2025-09-11),true,5493514079279
+PF-000049,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2025-10-08),true,5493514079279
+PF-000049,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-10-08),true,5493514079279
+PF-000050,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido histórico field mock (2025-06-03),true,5493876914178
+PF-000050,10218,Aceitunas Rebanadas PET1500g GULLO,2,10703.70,1,Pedido histórico field mock (2025-06-03),true,5493876914178
+PF-000050,914,Nuez Moscada Grano CENTURION,4,1236.97,1,Pedido histórico field mock (2025-06-03),true,5493876914178
+PF-000051,12684,Salsa Soja VANOLI 1000cc PET,4,3213.85,1,Pedido histórico field mock (2025-06-21),true,5493876914178
+PF-000051,10218,Aceitunas Rebanadas PET1500g GULLO,2,10703.70,1,Pedido histórico field mock (2025-06-21),true,5493876914178
+PF-000051,925,Pesto 25g CENTURION,3,572.22,1,Pedido histórico field mock (2025-06-21),true,5493876914178
+PF-000051,10199,Yogur Natural S/Azucar Cremigal 170g,3,606.71,1,Pedido histórico field mock (2025-06-21),true,5493876914178
+PF-000052,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido histórico field mock (2025-07-09),true,5493876914178
+PF-000052,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2025-07-09),true,5493876914178
+PF-000052,310,Queso Reggianito Cremigal x Kg,2,14192.63,1,Pedido histórico field mock (2025-07-09),true,5493876914178
+PF-000053,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido histórico field mock (2025-07-31),true,5493876914178
+PF-000053,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido histórico field mock (2025-07-31),true,5493876914178
+PF-000054,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido histórico field mock (2025-08-22),true,5493876914178
+PF-000054,10218,Aceitunas Rebanadas PET1500g GULLO,4,10703.70,1,Pedido histórico field mock (2025-08-22),true,5493876914178
+PF-000054,656,Aceituna Verde Desc. VANOLI 150g,2,1264.96,1,Pedido histórico field mock (2025-08-22),true,5493876914178
+PF-000054,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,3,4430.11,1,Pedido histórico field mock (2025-08-22),true,5493876914178
+PF-000055,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-09-12),true,5493876914178
+PF-000055,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2025-09-12),true,5493876914178
+PF-000056,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-10-10),true,5493876914178
+PF-000056,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2025-10-10),true,5493876914178
+PF-000057,11309,Tostadas SIN SAL CORMILLOT 200G,4,1804.67,2,Pedido histórico field mock (2025-06-04),true,5492617175545
+PF-000057,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2025-06-04),true,5492617175545
+PF-000057,228,Aceto Balsamico 250cc GULLO,1,4535.37,2,Pedido histórico field mock (2025-06-04),true,5492617175545
+PF-000057,10169,Salame Milan Fox Crespon,3,20240.00,2,Pedido histórico field mock (2025-06-04),true,5492617175545
+PF-000058,11309,Tostadas SIN SAL CORMILLOT 200G,3,1804.67,2,Pedido histórico field mock (2025-06-18),true,5492617175545
+PF-000058,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2025-06-18),true,5492617175545
+PF-000059,11309,Tostadas SIN SAL CORMILLOT 200G,3,1804.67,2,Pedido histórico field mock (2025-07-18),true,5492617175545
+PF-000059,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-07-18),true,5492617175545
+PF-000059,10273,Mermelada EMETH Pote CIRUELA 500G,4,1177.09,2,Pedido histórico field mock (2025-07-18),true,5492617175545
+PF-000060,11309,Tostadas SIN SAL CORMILLOT 200G,4,1804.67,2,Pedido histórico field mock (2025-07-30),true,5492617175545
+PF-000060,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2025-07-30),true,5492617175545
+PF-000060,10169,Salame Milan Fox Crespon,1,20240.00,2,Pedido histórico field mock (2025-07-30),true,5492617175545
+PF-000060,10273,Mermelada EMETH Pote CIRUELA 500G,2,1177.09,2,Pedido histórico field mock (2025-07-30),true,5492617175545
+PF-000061,11309,Tostadas SIN SAL CORMILLOT 200G,3,1804.67,2,Pedido histórico field mock (2025-08-25),true,5492617175545
+PF-000061,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2025-08-25),true,5492617175545
+PF-000062,11309,Tostadas SIN SAL CORMILLOT 200G,3,1804.67,2,Pedido histórico field mock (2025-09-11),true,5492617175545
+PF-000062,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2025-09-11),true,5492617175545
+PF-000062,286,Pan Multicereal CORMILLOT 410 G,4,2766.55,2,Pedido histórico field mock (2025-09-11),true,5492617175545
+PF-000063,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido histórico field mock (2025-10-01),true,5492617175545
+PF-000063,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2025-10-01),true,5492617175545
+PF-000063,15195,Yogur Bebible Cremigal Banana 900g,3,1667.50,2,Pedido histórico field mock (2025-10-01),true,5492617175545
+PF-000064,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-06-04),true,5493818437953
+PF-000064,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1672.59,3,Pedido histórico field mock (2025-06-04),true,5493818437953
+PF-000064,10659,Pickle Mixto VANOLI Frasco 330g,2,2394.66,3,Pedido histórico field mock (2025-06-04),true,5493818437953
+PF-000065,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido histórico field mock (2025-06-27),true,5493818437953
+PF-000065,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1672.59,3,Pedido histórico field mock (2025-06-27),true,5493818437953
+PF-000065,10113,Paleta Especial Fox Oval,3,8460.00,3,Pedido histórico field mock (2025-06-27),true,5493818437953
+PF-000065,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,4,3987.10,3,Pedido histórico field mock (2025-06-27),true,5493818437953
+PF-000066,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido histórico field mock (2025-07-11),true,5493818437953
+PF-000066,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2025-07-11),true,5493818437953
+PF-000066,310,Queso Reggianito Cremigal x Kg,1,12773.37,3,Pedido histórico field mock (2025-07-11),true,5493818437953
+PF-000067,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido histórico field mock (2025-08-04),true,5493818437953
+PF-000067,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido histórico field mock (2025-08-04),true,5493818437953
+PF-000067,286,Pan Multicereal CORMILLOT 410 G,4,2165.13,3,Pedido histórico field mock (2025-08-04),true,5493818437953
+PF-000068,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-08-29),true,5493818437953
+PF-000068,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2025-08-29),true,5493818437953
+PF-000068,914,Nuez Moscada Grano CENTURION,1,1113.27,3,Pedido histórico field mock (2025-08-29),true,5493818437953
+PF-000069,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-09-19),true,5493818437953
+PF-000069,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido histórico field mock (2025-09-19),true,5493818437953
+PF-000069,10113,Paleta Especial Fox Oval,3,8460.00,3,Pedido histórico field mock (2025-09-19),true,5493818437953
+PF-000069,10659,Pickle Mixto VANOLI Frasco 330g,2,2394.66,3,Pedido histórico field mock (2025-09-19),true,5493818437953
+PF-000070,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2025-10-01),true,5493818437953
+PF-000070,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido histórico field mock (2025-10-01),true,5493818437953
+PF-000070,44,Dulce de Leche Cremigal Familiar 250 G,4,1179.84,3,Pedido histórico field mock (2025-10-01),true,5493818437953
+PF-000070,15195,Yogur Bebible Cremigal Banana 900g,3,1305.00,3,Pedido histórico field mock (2025-10-01),true,5493818437953
+PF-000071,11309,Tostadas SIN SAL CORMILLOT 200G,1,1333.89,4,Pedido histórico field mock (2025-06-06),true,5493582132179
+PF-000071,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1579.67,4,Pedido histórico field mock (2025-06-06),true,5493582132179
+PF-000071,656,Aceituna Verde Desc. VANOLI 150g,3,1075.22,4,Pedido histórico field mock (2025-06-06),true,5493582132179
+PF-000072,11309,Tostadas SIN SAL CORMILLOT 200G,2,1333.89,4,Pedido histórico field mock (2025-07-14),true,5493582132179
+PF-000072,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido histórico field mock (2025-07-14),true,5493582132179
+PF-000072,15195,Yogur Bebible Cremigal Banana 900g,4,1232.50,4,Pedido histórico field mock (2025-07-14),true,5493582132179
+PF-000073,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido histórico field mock (2025-08-17),true,5493582132179
+PF-000073,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1579.67,4,Pedido histórico field mock (2025-08-17),true,5493582132179
+PF-000073,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,2,3765.59,4,Pedido histórico field mock (2025-08-17),true,5493582132179
+PF-000073,699,Cebollitas en Vinagre VANOLI Frasco 330 G,2,2566.94,4,Pedido histórico field mock (2025-08-17),true,5493582132179
+PF-000074,11309,Tostadas SIN SAL CORMILLOT 200G,1,1333.89,4,Pedido histórico field mock (2025-09-23),true,5493582132179
+PF-000074,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido histórico field mock (2025-09-23),true,5493582132179
+PF-000075,11309,Tostadas SIN SAL CORMILLOT 200G,1,1333.89,4,Pedido histórico field mock (2025-11-03),true,5493582132179
+PF-000075,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2025-11-03),true,5493582132179
+PF-000075,656,Aceituna Verde Desc. VANOLI 150g,2,1075.22,4,Pedido histórico field mock (2025-11-03),true,5493582132179
+PF-000076,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido histórico field mock (2025-12-12),true,5493582132179
+PF-000076,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido histórico field mock (2025-12-12),true,5493582132179
+PF-000077,11309,Tostadas SIN SAL CORMILLOT 200G,2,1333.89,4,Pedido histórico field mock (2026-01-18),true,5493582132179
+PF-000077,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2026-01-18),true,5493582132179
+PF-000077,699,Cebollitas en Vinagre VANOLI Frasco 330 G,3,2566.94,4,Pedido histórico field mock (2026-01-18),true,5493582132179
+PF-000077,15195,Yogur Bebible Cremigal Banana 900g,3,1232.50,4,Pedido histórico field mock (2026-01-18),true,5493582132179
+PF-000078,12684,Salsa Soja VANOLI 1000cc PET,1,2731.77,4,Pedido reciente field mock (2026-04-29),true,5493582132179
+PF-000078,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido reciente field mock (2026-04-29),true,5493582132179
+PF-000079,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido reciente field mock (2026-05-04),true,5493582132179
+PF-000079,12684,Salsa Soja VANOLI 1000cc PET,3,2731.77,4,Pedido reciente field mock (2026-05-04),true,5493582132179
+PF-000080,1,Pepinillos Agridulces 330 G GULLO,1,3992.69,4,Pedido reciente field mock (2026-05-16),true,5493582132179
+PF-000080,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido reciente field mock (2026-05-16),true,5493582132179
+PF-000081,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-06-03),true,5493872845902
+PF-000081,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1858.43,1,Pedido histórico field mock (2025-06-03),true,5493872845902
+PF-000081,914,Nuez Moscada Grano CENTURION,1,1236.97,1,Pedido histórico field mock (2025-06-03),true,5493872845902
+PF-000081,286,Pan Multicereal CORMILLOT 410 G,1,2405.70,1,Pedido histórico field mock (2025-06-03),true,5493872845902
+PF-000082,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-07-12),true,5493872845902
+PF-000082,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1858.43,1,Pedido histórico field mock (2025-07-12),true,5493872845902
+PF-000083,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido histórico field mock (2025-08-20),true,5493872845902
+PF-000083,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1858.43,1,Pedido histórico field mock (2025-08-20),true,5493872845902
+PF-000084,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-09-23),true,5493872845902
+PF-000084,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1858.43,1,Pedido histórico field mock (2025-09-23),true,5493872845902
+PF-000084,10113,Paleta Especial Fox Oval,3,9400.00,1,Pedido histórico field mock (2025-09-23),true,5493872845902
+PF-000085,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-10-28),true,5493872845902
+PF-000085,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1858.43,1,Pedido histórico field mock (2025-10-28),true,5493872845902
+PF-000086,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-12-11),true,5493872845902
+PF-000086,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1858.43,1,Pedido histórico field mock (2025-12-11),true,5493872845902
+PF-000086,10659,Pickle Mixto VANOLI Frasco 330g,1,2660.73,1,Pedido histórico field mock (2025-12-11),true,5493872845902
+PF-000086,228,Aceto Balsamico 250cc GULLO,2,3943.80,1,Pedido histórico field mock (2025-12-11),true,5493872845902
+PF-000087,12684,Salsa Soja VANOLI 1000cc PET,4,3213.85,1,Pedido histórico field mock (2026-01-14),true,5493872845902
+PF-000087,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1858.43,1,Pedido histórico field mock (2026-01-14),true,5493872845902
+PF-000087,10199,Yogur Natural S/Azucar Cremigal 170g,1,606.71,1,Pedido histórico field mock (2026-01-14),true,5493872845902
+PF-000088,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido reciente field mock (2026-04-02),true,5493872845902
+PF-000088,1,Pepinillos Agridulces 330 G GULLO,3,4697.28,1,Pedido reciente field mock (2026-04-02),true,5493872845902
+PF-000089,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1858.43,1,Pedido reciente field mock (2026-04-25),true,5493872845902
+PF-000089,11309,Tostadas SIN SAL CORMILLOT 200G,1,1569.28,1,Pedido reciente field mock (2026-04-25),true,5493872845902
+PF-000090,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1858.43,1,Pedido reciente field mock (2026-05-10),true,5493872845902
+PF-000090,11309,Tostadas SIN SAL CORMILLOT 200G,1,1569.28,1,Pedido reciente field mock (2026-05-10),true,5493872845902
+PF-000091,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido histórico field mock (2025-06-05),true,5492997670210
+PF-000091,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,2137.19,2,Pedido histórico field mock (2025-06-05),true,5492997670210
+PF-000091,44,Dulce de Leche Cremigal Familiar 250 G,4,1507.57,2,Pedido histórico field mock (2025-06-05),true,5492997670210
+PF-000092,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido histórico field mock (2025-07-08),true,5492997670210
+PF-000092,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,2137.19,2,Pedido histórico field mock (2025-07-08),true,5492997670210
+PF-000092,310,Queso Reggianito Cremigal x Kg,1,16321.52,2,Pedido histórico field mock (2025-07-08),true,5492997670210
+PF-000093,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-08-18),true,5492997670210
+PF-000093,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,2137.19,2,Pedido histórico field mock (2025-08-18),true,5492997670210
+PF-000094,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-09-25),true,5492997670210
+PF-000094,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,2137.19,2,Pedido histórico field mock (2025-09-25),true,5492997670210
+PF-000095,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-10-28),true,5492997670210
+PF-000095,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,2137.19,2,Pedido histórico field mock (2025-10-28),true,5492997670210
+PF-000095,10169,Salame Milan Fox Crespon,2,20240.00,2,Pedido histórico field mock (2025-10-28),true,5492997670210
+PF-000095,15195,Yogur Bebible Cremigal Banana 900g,2,1667.50,2,Pedido histórico field mock (2025-10-28),true,5492997670210
+PF-000096,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-12-10),true,5492997670210
+PF-000096,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,2137.19,2,Pedido histórico field mock (2025-12-10),true,5492997670210
+PF-000096,10199,Yogur Natural S/Azucar Cremigal 170g,1,697.72,2,Pedido histórico field mock (2025-12-10),true,5492997670210
+PF-000097,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido histórico field mock (2026-01-16),true,5492997670210
+PF-000097,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,2137.19,2,Pedido histórico field mock (2026-01-16),true,5492997670210
+PF-000097,10113,Paleta Especial Fox Oval,1,10810.00,2,Pedido histórico field mock (2026-01-16),true,5492997670210
+PF-000098,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,2137.19,2,Pedido reciente field mock (2026-04-10),true,5492997670210
+PF-000098,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido reciente field mock (2026-04-10),true,5492997670210
+PF-000099,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido reciente field mock (2026-04-29),true,5492997670210
+PF-000099,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido reciente field mock (2026-04-29),true,5492997670210
+PF-000100,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido reciente field mock (2026-05-15),true,5492997670210
+PF-000100,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido reciente field mock (2026-05-15),true,5492997670210
+PF-000101,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido histórico field mock (2025-06-01),true,5493811657614
+PF-000101,11309,Tostadas SIN SAL CORMILLOT 200G,2,1412.35,3,Pedido histórico field mock (2025-06-01),true,5493811657614
+PF-000102,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido histórico field mock (2025-07-04),true,5493811657614
+PF-000102,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido histórico field mock (2025-07-04),true,5493811657614
+PF-000102,228,Aceto Balsamico 250cc GULLO,3,3549.42,3,Pedido histórico field mock (2025-07-04),true,5493811657614
+PF-000103,10218,Aceitunas Rebanadas PET1500g GULLO,2,9633.33,3,Pedido histórico field mock (2025-08-13),true,5493811657614
+PF-000103,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido histórico field mock (2025-08-13),true,5493811657614
+PF-000104,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido histórico field mock (2025-09-21),true,5493811657614
+PF-000104,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido histórico field mock (2025-09-21),true,5493811657614
+PF-000104,15195,Yogur Bebible Cremigal Banana 900g,3,1305.00,3,Pedido histórico field mock (2025-09-21),true,5493811657614
+PF-000104,228,Aceto Balsamico 250cc GULLO,2,3549.42,3,Pedido histórico field mock (2025-09-21),true,5493811657614
+PF-000105,10218,Aceitunas Rebanadas PET1500g GULLO,2,9633.33,3,Pedido histórico field mock (2025-11-01),true,5493811657614
+PF-000105,11309,Tostadas SIN SAL CORMILLOT 200G,4,1412.35,3,Pedido histórico field mock (2025-11-01),true,5493811657614
+PF-000106,10218,Aceitunas Rebanadas PET1500g GULLO,4,9633.33,3,Pedido histórico field mock (2025-12-10),true,5493811657614
+PF-000106,11309,Tostadas SIN SAL CORMILLOT 200G,4,1412.35,3,Pedido histórico field mock (2025-12-10),true,5493811657614
+PF-000106,10113,Paleta Especial Fox Oval,4,8460.00,3,Pedido histórico field mock (2025-12-10),true,5493811657614
+PF-000107,10218,Aceitunas Rebanadas PET1500g GULLO,2,9633.33,3,Pedido histórico field mock (2026-01-12),true,5493811657614
+PF-000107,11309,Tostadas SIN SAL CORMILLOT 200G,4,1412.35,3,Pedido histórico field mock (2026-01-12),true,5493811657614
+PF-000107,914,Nuez Moscada Grano CENTURION,3,1113.27,3,Pedido histórico field mock (2026-01-12),true,5493811657614
+PF-000107,10659,Pickle Mixto VANOLI Frasco 330g,4,2394.66,3,Pedido histórico field mock (2026-01-12),true,5493811657614
+PF-000108,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido reciente field mock (2026-04-01),true,5493811657614
+PF-000108,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido reciente field mock (2026-04-01),true,5493811657614
+PF-000109,1,Pepinillos Agridulces 330 G GULLO,1,4227.55,3,Pedido reciente field mock (2026-04-03),true,5493811657614
+PF-000109,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido reciente field mock (2026-04-03),true,5493811657614
+PF-000110,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido reciente field mock (2026-04-26),true,5493811657614
+PF-000110,1,Pepinillos Agridulces 330 G GULLO,3,4227.55,3,Pedido reciente field mock (2026-04-26),true,5493811657614
+PF-000111,11309,Tostadas SIN SAL CORMILLOT 200G,4,1333.89,4,Pedido histórico field mock (2025-06-01),true,5492994145193
+PF-000111,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2025-06-01),true,5492994145193
+PF-000111,925,Pesto 25g CENTURION,1,486.39,4,Pedido histórico field mock (2025-06-01),true,5492994145193
+PF-000111,656,Aceituna Verde Desc. VANOLI 150g,3,1075.22,4,Pedido histórico field mock (2025-06-01),true,5492994145193
+PF-000112,11309,Tostadas SIN SAL CORMILLOT 200G,2,1333.89,4,Pedido histórico field mock (2025-07-11),true,5492994145193
+PF-000112,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2025-07-11),true,5492994145193
+PF-000112,914,Nuez Moscada Grano CENTURION,1,1051.42,4,Pedido histórico field mock (2025-07-11),true,5492994145193
+PF-000112,699,Cebollitas en Vinagre VANOLI Frasco 330 G,4,2566.94,4,Pedido histórico field mock (2025-07-11),true,5492994145193
+PF-000113,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido histórico field mock (2025-08-19),true,5492994145193
+PF-000113,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido histórico field mock (2025-08-19),true,5492994145193
+PF-000114,11309,Tostadas SIN SAL CORMILLOT 200G,1,1333.89,4,Pedido histórico field mock (2025-09-21),true,5492994145193
+PF-000114,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1579.67,4,Pedido histórico field mock (2025-09-21),true,5492994145193
+PF-000114,10169,Salame Milan Fox Crespon,1,14960.00,4,Pedido histórico field mock (2025-09-21),true,5492994145193
+PF-000114,10659,Pickle Mixto VANOLI Frasco 330g,2,2261.62,4,Pedido histórico field mock (2025-09-21),true,5492994145193
+PF-000115,11309,Tostadas SIN SAL CORMILLOT 200G,4,1333.89,4,Pedido histórico field mock (2025-10-28),true,5492994145193
+PF-000115,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1579.67,4,Pedido histórico field mock (2025-10-28),true,5492994145193
+PF-000115,286,Pan Multicereal CORMILLOT 410 G,4,2044.84,4,Pedido histórico field mock (2025-10-28),true,5492994145193
+PF-000116,11309,Tostadas SIN SAL CORMILLOT 200G,4,1333.89,4,Pedido histórico field mock (2025-12-04),true,5492994145193
+PF-000116,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2025-12-04),true,5492994145193
+PF-000116,15195,Yogur Bebible Cremigal Banana 900g,1,1232.50,4,Pedido histórico field mock (2025-12-04),true,5492994145193
+PF-000117,11309,Tostadas SIN SAL CORMILLOT 200G,4,1333.89,4,Pedido histórico field mock (2026-01-10),true,5492994145193
+PF-000117,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1579.67,4,Pedido histórico field mock (2026-01-10),true,5492994145193
+PF-000117,656,Aceituna Verde Desc. VANOLI 150g,2,1075.22,4,Pedido histórico field mock (2026-01-10),true,5492994145193
+PF-000118,11309,Tostadas SIN SAL CORMILLOT 200G,1,1333.89,4,Pedido reciente field mock (2026-04-03),true,5492994145193
+PF-000118,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1579.67,4,Pedido reciente field mock (2026-04-03),true,5492994145193
+PF-000119,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido reciente field mock (2026-04-19),true,5492994145193
+PF-000119,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido reciente field mock (2026-04-19),true,5492994145193
+PF-000120,1,Pepinillos Agridulces 330 G GULLO,1,3992.69,4,Pedido reciente field mock (2026-04-26),true,5492994145193
+PF-000120,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido reciente field mock (2026-04-26),true,5492994145193
+PF-000121,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-06-01),true,5493515971311
+PF-000121,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido histórico field mock (2025-06-01),true,5493515971311
+PF-000121,10169,Salame Milan Fox Crespon,4,17600.00,1,Pedido histórico field mock (2025-06-01),true,5493515971311
+PF-000121,10199,Yogur Natural S/Azucar Cremigal 170g,2,606.71,1,Pedido histórico field mock (2025-06-01),true,5493515971311
+PF-000122,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-07-12),true,5493515971311
+PF-000122,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido histórico field mock (2025-07-12),true,5493515971311
+PF-000122,656,Aceituna Verde Desc. VANOLI 150g,2,1264.96,1,Pedido histórico field mock (2025-07-12),true,5493515971311
+PF-000122,10169,Salame Milan Fox Crespon,2,17600.00,1,Pedido histórico field mock (2025-07-12),true,5493515971311
+PF-000123,12684,Salsa Soja VANOLI 1000cc PET,4,3213.85,1,Pedido histórico field mock (2025-08-20),true,5493515971311
+PF-000123,10218,Aceitunas Rebanadas PET1500g GULLO,4,10703.70,1,Pedido histórico field mock (2025-08-20),true,5493515971311
+PF-000123,656,Aceituna Verde Desc. VANOLI 150g,4,1264.96,1,Pedido histórico field mock (2025-08-20),true,5493515971311
+PF-000124,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido histórico field mock (2025-09-24),true,5493515971311
+PF-000124,10218,Aceitunas Rebanadas PET1500g GULLO,2,10703.70,1,Pedido histórico field mock (2025-09-24),true,5493515971311
+PF-000125,12684,Salsa Soja VANOLI 1000cc PET,4,3213.85,1,Pedido histórico field mock (2025-10-31),true,5493515971311
+PF-000125,10218,Aceitunas Rebanadas PET1500g GULLO,4,10703.70,1,Pedido histórico field mock (2025-10-31),true,5493515971311
+PF-000126,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-12-10),true,5493515971311
+PF-000126,10218,Aceitunas Rebanadas PET1500g GULLO,4,10703.70,1,Pedido histórico field mock (2025-12-10),true,5493515971311
+PF-000126,10199,Yogur Natural S/Azucar Cremigal 170g,4,606.71,1,Pedido histórico field mock (2025-12-10),true,5493515971311
+PF-000126,10659,Pickle Mixto VANOLI Frasco 330g,3,2660.73,1,Pedido histórico field mock (2025-12-10),true,5493515971311
+PF-000127,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2026-01-16),true,5493515971311
+PF-000127,10218,Aceitunas Rebanadas PET1500g GULLO,4,10703.70,1,Pedido histórico field mock (2026-01-16),true,5493515971311
+PF-000127,310,Queso Reggianito Cremigal x Kg,4,14192.63,1,Pedido histórico field mock (2026-01-16),true,5493515971311
+PF-000127,15195,Yogur Bebible Cremigal Banana 900g,3,1450.00,1,Pedido histórico field mock (2026-01-16),true,5493515971311
+PF-000128,10218,Aceitunas Rebanadas PET1500g GULLO,2,10703.70,1,Pedido reciente field mock (2026-04-04),true,5493515971311
+PF-000128,11309,Tostadas SIN SAL CORMILLOT 200G,1,1569.28,1,Pedido reciente field mock (2026-04-04),true,5493515971311
+PF-000129,11309,Tostadas SIN SAL CORMILLOT 200G,3,1569.28,1,Pedido reciente field mock (2026-05-05),true,5493515971311
+PF-000129,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido reciente field mock (2026-05-05),true,5493515971311
+PF-000130,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido reciente field mock (2026-05-06),true,5493515971311
+PF-000130,10218,Aceitunas Rebanadas PET1500g GULLO,2,10703.70,1,Pedido reciente field mock (2026-05-06),true,5493515971311
+PF-000131,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,2137.19,2,Pedido histórico field mock (2025-06-01),true,5492994228106
+PF-000131,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-06-01),true,5492994228106
+PF-000132,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,2137.19,2,Pedido histórico field mock (2025-07-12),true,5492994228106
+PF-000132,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-07-12),true,5492994228106
+PF-000132,10113,Paleta Especial Fox Oval,1,10810.00,2,Pedido histórico field mock (2025-07-12),true,5492994228106
+PF-000133,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,2137.19,2,Pedido histórico field mock (2025-08-16),true,5492994228106
+PF-000133,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido histórico field mock (2025-08-16),true,5492994228106
+PF-000133,914,Nuez Moscada Grano CENTURION,1,1422.52,2,Pedido histórico field mock (2025-08-16),true,5492994228106
+PF-000133,10169,Salame Milan Fox Crespon,4,20240.00,2,Pedido histórico field mock (2025-08-16),true,5492994228106
+PF-000134,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,2137.19,2,Pedido histórico field mock (2025-09-26),true,5492994228106
+PF-000134,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-09-26),true,5492994228106
+PF-000134,228,Aceto Balsamico 250cc GULLO,4,4535.37,2,Pedido histórico field mock (2025-09-26),true,5492994228106
+PF-000134,44,Dulce de Leche Cremigal Familiar 250 G,2,1507.57,2,Pedido histórico field mock (2025-09-26),true,5492994228106
+PF-000135,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,2137.19,2,Pedido histórico field mock (2025-11-03),true,5492994228106
+PF-000135,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-11-03),true,5492994228106
+PF-000135,656,Aceituna Verde Desc. VANOLI 150g,3,1454.70,2,Pedido histórico field mock (2025-11-03),true,5492994228106
+PF-000136,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,2137.19,2,Pedido histórico field mock (2025-12-04),true,5492994228106
+PF-000136,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-12-04),true,5492994228106
+PF-000136,44,Dulce de Leche Cremigal Familiar 250 G,1,1507.57,2,Pedido histórico field mock (2025-12-04),true,5492994228106
+PF-000137,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,2137.19,2,Pedido histórico field mock (2026-01-14),true,5492994228106
+PF-000137,12684,Salsa Soja VANOLI 1000cc PET,4,3695.93,2,Pedido histórico field mock (2026-01-14),true,5492994228106
+PF-000137,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,4,5094.63,2,Pedido histórico field mock (2026-01-14),true,5492994228106
+PF-000138,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,2137.19,2,Pedido reciente field mock (2026-04-09),true,5492994228106
+PF-000138,10218,Aceitunas Rebanadas PET1500g GULLO,3,12309.25,2,Pedido reciente field mock (2026-04-09),true,5492994228106
+PF-000139,11309,Tostadas SIN SAL CORMILLOT 200G,3,1804.67,2,Pedido reciente field mock (2026-04-27),true,5492994228106
+PF-000139,1,Pepinillos Agridulces 330 G GULLO,1,5401.87,2,Pedido reciente field mock (2026-04-27),true,5492994228106
+PF-000140,10218,Aceitunas Rebanadas PET1500g GULLO,1,12309.25,2,Pedido reciente field mock (2026-04-30),true,5492994228106
+PF-000140,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido reciente field mock (2026-04-30),true,5492994228106
+PF-000141,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido histórico field mock (2025-06-01),true,5492998718887
+PF-000141,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2025-06-01),true,5492998718887
+PF-000141,10113,Paleta Especial Fox Oval,4,8460.00,3,Pedido histórico field mock (2025-06-01),true,5492998718887
+PF-000141,310,Queso Reggianito Cremigal x Kg,2,12773.37,3,Pedido histórico field mock (2025-06-01),true,5492998718887
+PF-000142,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido histórico field mock (2025-07-14),true,5492998718887
+PF-000142,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-07-14),true,5492998718887
+PF-000143,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2025-08-12),true,5492998718887
+PF-000143,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido histórico field mock (2025-08-12),true,5492998718887
+PF-000144,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido histórico field mock (2025-09-19),true,5492998718887
+PF-000144,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido histórico field mock (2025-09-19),true,5492998718887
+PF-000145,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido histórico field mock (2025-11-03),true,5492998718887
+PF-000145,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido histórico field mock (2025-11-03),true,5492998718887
+PF-000145,10273,Mermelada EMETH Pote CIRUELA 500G,2,921.20,3,Pedido histórico field mock (2025-11-03),true,5492998718887
+PF-000146,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2025-12-06),true,5492998718887
+PF-000146,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-12-06),true,5492998718887
+PF-000146,10199,Yogur Natural S/Azucar Cremigal 170g,2,546.04,3,Pedido histórico field mock (2025-12-06),true,5492998718887
+PF-000146,656,Aceituna Verde Desc. VANOLI 150g,4,1138.46,3,Pedido histórico field mock (2025-12-06),true,5492998718887
+PF-000147,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2026-01-10),true,5492998718887
+PF-000147,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido histórico field mock (2026-01-10),true,5492998718887
+PF-000147,44,Dulce de Leche Cremigal Familiar 250 G,2,1179.84,3,Pedido histórico field mock (2026-01-10),true,5492998718887
+PF-000147,228,Aceto Balsamico 250cc GULLO,4,3549.42,3,Pedido histórico field mock (2026-01-10),true,5492998718887
+PF-000148,1,Pepinillos Agridulces 330 G GULLO,1,4227.55,3,Pedido reciente field mock (2026-04-17),true,5492998718887
+PF-000148,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido reciente field mock (2026-04-17),true,5492998718887
+PF-000149,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido reciente field mock (2026-04-28),true,5492998718887
+PF-000149,11309,Tostadas SIN SAL CORMILLOT 200G,2,1412.35,3,Pedido reciente field mock (2026-04-28),true,5492998718887
+PF-000150,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido reciente field mock (2026-04-30),true,5492998718887
+PF-000150,11309,Tostadas SIN SAL CORMILLOT 200G,3,1412.35,3,Pedido reciente field mock (2026-04-30),true,5492998718887
+PF-000151,11309,Tostadas SIN SAL CORMILLOT 200G,4,1333.89,4,Pedido histórico field mock (2025-06-04),true,5492995028869
+PF-000151,12684,Salsa Soja VANOLI 1000cc PET,3,2731.77,4,Pedido histórico field mock (2025-06-04),true,5492995028869
+PF-000151,699,Cebollitas en Vinagre VANOLI Frasco 330 G,1,2566.94,4,Pedido histórico field mock (2025-06-04),true,5492995028869
+PF-000151,10659,Pickle Mixto VANOLI Frasco 330g,2,2261.62,4,Pedido histórico field mock (2025-06-04),true,5492995028869
+PF-000152,11309,Tostadas SIN SAL CORMILLOT 200G,2,1333.89,4,Pedido histórico field mock (2025-07-10),true,5492995028869
+PF-000152,12684,Salsa Soja VANOLI 1000cc PET,3,2731.77,4,Pedido histórico field mock (2025-07-10),true,5492995028869
+PF-000152,286,Pan Multicereal CORMILLOT 410 G,2,2044.84,4,Pedido histórico field mock (2025-07-10),true,5492995028869
+PF-000152,925,Pesto 25g CENTURION,4,486.39,4,Pedido histórico field mock (2025-07-10),true,5492995028869
+PF-000153,11309,Tostadas SIN SAL CORMILLOT 200G,1,1333.89,4,Pedido histórico field mock (2025-08-11),true,5492995028869
+PF-000153,12684,Salsa Soja VANOLI 1000cc PET,3,2731.77,4,Pedido histórico field mock (2025-08-11),true,5492995028869
+PF-000154,11309,Tostadas SIN SAL CORMILLOT 200G,1,1333.89,4,Pedido histórico field mock (2025-09-25),true,5492995028869
+PF-000154,12684,Salsa Soja VANOLI 1000cc PET,4,2731.77,4,Pedido histórico field mock (2025-09-25),true,5492995028869
+PF-000154,10659,Pickle Mixto VANOLI Frasco 330g,1,2261.62,4,Pedido histórico field mock (2025-09-25),true,5492995028869
+PF-000155,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido histórico field mock (2025-11-02),true,5492995028869
+PF-000155,12684,Salsa Soja VANOLI 1000cc PET,1,2731.77,4,Pedido histórico field mock (2025-11-02),true,5492995028869
+PF-000156,11309,Tostadas SIN SAL CORMILLOT 200G,2,1333.89,4,Pedido histórico field mock (2025-12-12),true,5492995028869
+PF-000156,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido histórico field mock (2025-12-12),true,5492995028869
+PF-000157,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido histórico field mock (2026-01-18),true,5492995028869
+PF-000157,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido histórico field mock (2026-01-18),true,5492995028869
+PF-000157,914,Nuez Moscada Grano CENTURION,2,1051.42,4,Pedido histórico field mock (2026-01-18),true,5492995028869
+PF-000157,10169,Salame Milan Fox Crespon,2,14960.00,4,Pedido histórico field mock (2026-01-18),true,5492995028869
+PF-000158,12684,Salsa Soja VANOLI 1000cc PET,3,2731.77,4,Pedido reciente field mock (2026-04-28),true,5492995028869
+PF-000158,1,Pepinillos Agridulces 330 G GULLO,3,3992.69,4,Pedido reciente field mock (2026-04-28),true,5492995028869
+PF-000159,11309,Tostadas SIN SAL CORMILLOT 200G,1,1333.89,4,Pedido reciente field mock (2026-04-29),true,5492995028869
+PF-000159,12684,Salsa Soja VANOLI 1000cc PET,1,2731.77,4,Pedido reciente field mock (2026-04-29),true,5492995028869
+PF-000160,12684,Salsa Soja VANOLI 1000cc PET,3,2731.77,4,Pedido reciente field mock (2026-05-06),true,5492995028869
+PF-000160,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1579.67,4,Pedido reciente field mock (2026-05-06),true,5492995028869
+PF-000161,11309,Tostadas SIN SAL CORMILLOT 200G,3,1569.28,1,Pedido histórico field mock (2025-06-01),true,5493517304254
+PF-000161,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1858.43,1,Pedido histórico field mock (2025-06-01),true,5493517304254
+PF-000161,656,Aceituna Verde Desc. VANOLI 150g,2,1264.96,1,Pedido histórico field mock (2025-06-01),true,5493517304254
+PF-000161,310,Queso Reggianito Cremigal x Kg,3,14192.63,1,Pedido histórico field mock (2025-06-01),true,5493517304254
+PF-000162,11309,Tostadas SIN SAL CORMILLOT 200G,3,1569.28,1,Pedido histórico field mock (2025-07-09),true,5493517304254
+PF-000162,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1858.43,1,Pedido histórico field mock (2025-07-09),true,5493517304254
+PF-000162,310,Queso Reggianito Cremigal x Kg,2,14192.63,1,Pedido histórico field mock (2025-07-09),true,5493517304254
+PF-000163,11309,Tostadas SIN SAL CORMILLOT 200G,4,1569.28,1,Pedido histórico field mock (2025-08-20),true,5493517304254
+PF-000163,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1858.43,1,Pedido histórico field mock (2025-08-20),true,5493517304254
+PF-000163,925,Pesto 25g CENTURION,1,572.22,1,Pedido histórico field mock (2025-08-20),true,5493517304254
+PF-000164,11309,Tostadas SIN SAL CORMILLOT 200G,2,1569.28,1,Pedido histórico field mock (2025-09-26),true,5493517304254
+PF-000164,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1858.43,1,Pedido histórico field mock (2025-09-26),true,5493517304254
+PF-000164,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,2,4430.11,1,Pedido histórico field mock (2025-09-26),true,5493517304254
+PF-000165,11309,Tostadas SIN SAL CORMILLOT 200G,4,1569.28,1,Pedido histórico field mock (2025-11-04),true,5493517304254
+PF-000165,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1858.43,1,Pedido histórico field mock (2025-11-04),true,5493517304254
+PF-000165,44,Dulce de Leche Cremigal Familiar 250 G,1,1310.93,1,Pedido histórico field mock (2025-11-04),true,5493517304254
+PF-000166,11309,Tostadas SIN SAL CORMILLOT 200G,2,1569.28,1,Pedido histórico field mock (2025-12-13),true,5493517304254
+PF-000166,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1858.43,1,Pedido histórico field mock (2025-12-13),true,5493517304254
+PF-000166,10659,Pickle Mixto VANOLI Frasco 330g,1,2660.73,1,Pedido histórico field mock (2025-12-13),true,5493517304254
+PF-000167,11309,Tostadas SIN SAL CORMILLOT 200G,4,1569.28,1,Pedido histórico field mock (2026-01-20),true,5493517304254
+PF-000167,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1858.43,1,Pedido histórico field mock (2026-01-20),true,5493517304254
+PF-000167,310,Queso Reggianito Cremigal x Kg,4,14192.63,1,Pedido histórico field mock (2026-01-20),true,5493517304254
+PF-000168,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido reciente field mock (2026-04-26),true,5493517304254
+PF-000168,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido reciente field mock (2026-04-26),true,5493517304254
+PF-000169,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1858.43,1,Pedido reciente field mock (2026-05-04),true,5493517304254
+PF-000169,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido reciente field mock (2026-05-04),true,5493517304254
+PF-000170,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1858.43,1,Pedido reciente field mock (2026-05-18),true,5493517304254
+PF-000170,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido reciente field mock (2026-05-18),true,5493517304254
+PF-000171,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido histórico field mock (2025-06-04),true,5493416986538
+PF-000171,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-06-04),true,5493416986538
+PF-000171,10659,Pickle Mixto VANOLI Frasco 330g,4,3059.84,2,Pedido histórico field mock (2025-06-04),true,5493416986538
+PF-000171,286,Pan Multicereal CORMILLOT 410 G,4,2766.55,2,Pedido histórico field mock (2025-06-04),true,5493416986538
+PF-000172,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido histórico field mock (2025-07-14),true,5493416986538
+PF-000172,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-07-14),true,5493416986538
+PF-000172,44,Dulce de Leche Cremigal Familiar 250 G,4,1507.57,2,Pedido histórico field mock (2025-07-14),true,5493416986538
+PF-000173,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido histórico field mock (2025-08-17),true,5493416986538
+PF-000173,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-08-17),true,5493416986538
+PF-000173,914,Nuez Moscada Grano CENTURION,3,1422.52,2,Pedido histórico field mock (2025-08-17),true,5493416986538
+PF-000173,286,Pan Multicereal CORMILLOT 410 G,1,2766.55,2,Pedido histórico field mock (2025-08-17),true,5493416986538
+PF-000174,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido histórico field mock (2025-09-28),true,5493416986538
+PF-000174,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-09-28),true,5493416986538
+PF-000174,699,Cebollitas en Vinagre VANOLI Frasco 330 G,1,3472.92,2,Pedido histórico field mock (2025-09-28),true,5493416986538
+PF-000174,310,Queso Reggianito Cremigal x Kg,1,16321.52,2,Pedido histórico field mock (2025-09-28),true,5493416986538
+PF-000175,11309,Tostadas SIN SAL CORMILLOT 200G,3,1804.67,2,Pedido histórico field mock (2025-11-04),true,5493416986538
+PF-000175,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-11-04),true,5493416986538
+PF-000176,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido histórico field mock (2025-12-11),true,5493416986538
+PF-000176,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-12-11),true,5493416986538
+PF-000176,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,1,5094.63,2,Pedido histórico field mock (2025-12-11),true,5493416986538
+PF-000176,15195,Yogur Bebible Cremigal Banana 900g,3,1667.50,2,Pedido histórico field mock (2025-12-11),true,5493416986538
+PF-000177,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido histórico field mock (2026-01-20),true,5493416986538
+PF-000177,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2026-01-20),true,5493416986538
+PF-000178,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,2137.19,2,Pedido reciente field mock (2026-04-10),true,5493416986538
+PF-000178,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido reciente field mock (2026-04-10),true,5493416986538
+PF-000179,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,2137.19,2,Pedido reciente field mock (2026-04-13),true,5493416986538
+PF-000179,1,Pepinillos Agridulces 330 G GULLO,1,5401.87,2,Pedido reciente field mock (2026-04-13),true,5493416986538
+PF-000180,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,2137.19,2,Pedido reciente field mock (2026-04-14),true,5493416986538
+PF-000180,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido reciente field mock (2026-04-14),true,5493416986538
+PF-000181,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2025-06-03),true,5492619239862
+PF-000181,11309,Tostadas SIN SAL CORMILLOT 200G,2,1412.35,3,Pedido histórico field mock (2025-06-03),true,5492619239862
+PF-000181,44,Dulce de Leche Cremigal Familiar 250 G,2,1179.84,3,Pedido histórico field mock (2025-06-03),true,5492619239862
+PF-000182,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-07-08),true,5492619239862
+PF-000182,11309,Tostadas SIN SAL CORMILLOT 200G,4,1412.35,3,Pedido histórico field mock (2025-07-08),true,5492619239862
+PF-000183,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido histórico field mock (2025-08-19),true,5492619239862
+PF-000183,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido histórico field mock (2025-08-19),true,5492619239862
+PF-000183,925,Pesto 25g CENTURION,1,515.00,3,Pedido histórico field mock (2025-08-19),true,5492619239862
+PF-000184,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2025-09-18),true,5492619239862
+PF-000184,11309,Tostadas SIN SAL CORMILLOT 200G,4,1412.35,3,Pedido histórico field mock (2025-09-18),true,5492619239862
+PF-000184,15195,Yogur Bebible Cremigal Banana 900g,1,1305.00,3,Pedido histórico field mock (2025-09-18),true,5492619239862
+PF-000184,10273,Mermelada EMETH Pote CIRUELA 500G,2,921.20,3,Pedido histórico field mock (2025-09-18),true,5492619239862
+PF-000185,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2025-10-30),true,5492619239862
+PF-000185,11309,Tostadas SIN SAL CORMILLOT 200G,2,1412.35,3,Pedido histórico field mock (2025-10-30),true,5492619239862
+PF-000186,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido histórico field mock (2025-12-03),true,5492619239862
+PF-000186,11309,Tostadas SIN SAL CORMILLOT 200G,3,1412.35,3,Pedido histórico field mock (2025-12-03),true,5492619239862
+PF-000187,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2026-01-19),true,5492619239862
+PF-000187,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido histórico field mock (2026-01-19),true,5492619239862
+PF-000188,1,Pepinillos Agridulces 330 G GULLO,3,4227.55,3,Pedido reciente field mock (2026-04-03),true,5492619239862
+PF-000188,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido reciente field mock (2026-04-03),true,5492619239862
+PF-000189,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido reciente field mock (2026-04-17),true,5492619239862
+PF-000189,11309,Tostadas SIN SAL CORMILLOT 200G,3,1412.35,3,Pedido reciente field mock (2026-04-17),true,5492619239862
+PF-000190,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido reciente field mock (2026-05-11),true,5492619239862
+PF-000190,11309,Tostadas SIN SAL CORMILLOT 200G,2,1412.35,3,Pedido reciente field mock (2026-05-11),true,5492619239862
+PF-000191,11309,Tostadas SIN SAL CORMILLOT 200G,4,1333.89,4,Pedido histórico field mock (2025-06-03),true,5493513952681
+PF-000191,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2025-06-03),true,5493513952681
+PF-000191,286,Pan Multicereal CORMILLOT 410 G,4,2044.84,4,Pedido histórico field mock (2025-06-03),true,5493513952681
+PF-000192,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido histórico field mock (2025-07-07),true,5493513952681
+PF-000192,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1579.67,4,Pedido histórico field mock (2025-07-07),true,5493513952681
+PF-000192,10273,Mermelada EMETH Pote CIRUELA 500G,1,870.03,4,Pedido histórico field mock (2025-07-07),true,5493513952681
+PF-000192,44,Dulce de Leche Cremigal Familiar 250 G,1,1114.29,4,Pedido histórico field mock (2025-07-07),true,5493513952681
+PF-000193,11309,Tostadas SIN SAL CORMILLOT 200G,4,1333.89,4,Pedido histórico field mock (2025-08-19),true,5493513952681
+PF-000193,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1579.67,4,Pedido histórico field mock (2025-08-19),true,5493513952681
+PF-000193,699,Cebollitas en Vinagre VANOLI Frasco 330 G,3,2566.94,4,Pedido histórico field mock (2025-08-19),true,5493513952681
+PF-000193,10169,Salame Milan Fox Crespon,3,14960.00,4,Pedido histórico field mock (2025-08-19),true,5493513952681
+PF-000194,11309,Tostadas SIN SAL CORMILLOT 200G,2,1333.89,4,Pedido histórico field mock (2025-09-28),true,5493513952681
+PF-000194,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2025-09-28),true,5493513952681
+PF-000194,914,Nuez Moscada Grano CENTURION,4,1051.42,4,Pedido histórico field mock (2025-09-28),true,5493513952681
+PF-000195,11309,Tostadas SIN SAL CORMILLOT 200G,1,1333.89,4,Pedido histórico field mock (2025-10-30),true,5493513952681
+PF-000195,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1579.67,4,Pedido histórico field mock (2025-10-30),true,5493513952681
+PF-000196,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido histórico field mock (2025-12-13),true,5493513952681
+PF-000196,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1579.67,4,Pedido histórico field mock (2025-12-13),true,5493513952681
+PF-000196,10169,Salame Milan Fox Crespon,1,14960.00,4,Pedido histórico field mock (2025-12-13),true,5493513952681
+PF-000197,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido histórico field mock (2026-01-13),true,5493513952681
+PF-000197,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido histórico field mock (2026-01-13),true,5493513952681
+PF-000197,15195,Yogur Bebible Cremigal Banana 900g,1,1232.50,4,Pedido histórico field mock (2026-01-13),true,5493513952681
+PF-000198,10218,Aceitunas Rebanadas PET1500g GULLO,3,9098.15,4,Pedido reciente field mock (2026-04-16),true,5493513952681
+PF-000198,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido reciente field mock (2026-04-16),true,5493513952681
+PF-000199,12684,Salsa Soja VANOLI 1000cc PET,1,2731.77,4,Pedido reciente field mock (2026-04-21),true,5493513952681
+PF-000199,10218,Aceitunas Rebanadas PET1500g GULLO,3,9098.15,4,Pedido reciente field mock (2026-04-21),true,5493513952681
+PF-000200,1,Pepinillos Agridulces 330 G GULLO,2,3992.69,4,Pedido reciente field mock (2026-05-06),true,5493513952681
+PF-000200,11309,Tostadas SIN SAL CORMILLOT 200G,2,1333.89,4,Pedido reciente field mock (2026-05-06),true,5493513952681
+PF-000201,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido histórico field mock (2025-06-06),true,5493414799650
+PF-000201,1,Pepinillos Agridulces 330 G GULLO,1,4697.28,1,Pedido histórico field mock (2025-06-06),true,5493414799650
+PF-000202,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2025-07-07),true,5493414799650
+PF-000202,1,Pepinillos Agridulces 330 G GULLO,4,4697.28,1,Pedido histórico field mock (2025-07-07),true,5493414799650
+PF-000203,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2025-08-14),true,5493414799650
+PF-000203,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido histórico field mock (2025-08-14),true,5493414799650
+PF-000203,10169,Salame Milan Fox Crespon,3,17600.00,1,Pedido histórico field mock (2025-08-14),true,5493414799650
+PF-000203,656,Aceituna Verde Desc. VANOLI 150g,3,1264.96,1,Pedido histórico field mock (2025-08-14),true,5493414799650
+PF-000204,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido histórico field mock (2025-09-26),true,5493414799650
+PF-000204,1,Pepinillos Agridulces 330 G GULLO,4,4697.28,1,Pedido histórico field mock (2025-09-26),true,5493414799650
+PF-000205,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido histórico field mock (2025-11-03),true,5493414799650
+PF-000205,1,Pepinillos Agridulces 330 G GULLO,3,4697.28,1,Pedido histórico field mock (2025-11-03),true,5493414799650
+PF-000206,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2025-12-05),true,5493414799650
+PF-000206,1,Pepinillos Agridulces 330 G GULLO,1,4697.28,1,Pedido histórico field mock (2025-12-05),true,5493414799650
+PF-000206,10199,Yogur Natural S/Azucar Cremigal 170g,2,606.71,1,Pedido histórico field mock (2025-12-05),true,5493414799650
+PF-000207,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2026-01-17),true,5493414799650
+PF-000207,1,Pepinillos Agridulces 330 G GULLO,1,4697.28,1,Pedido histórico field mock (2026-01-17),true,5493414799650
+PF-000207,286,Pan Multicereal CORMILLOT 410 G,3,2405.70,1,Pedido histórico field mock (2026-01-17),true,5493414799650
+PF-000208,1,Pepinillos Agridulces 330 G GULLO,1,4697.28,1,Pedido reciente field mock (2026-04-03),true,5493414799650
+PF-000208,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1858.43,1,Pedido reciente field mock (2026-04-03),true,5493414799650
+PF-000209,11309,Tostadas SIN SAL CORMILLOT 200G,3,1569.28,1,Pedido reciente field mock (2026-04-29),true,5493414799650
+PF-000209,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido reciente field mock (2026-04-29),true,5493414799650
+PF-000210,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido reciente field mock (2026-05-17),true,5493414799650
+PF-000210,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido reciente field mock (2026-05-17),true,5493414799650
+PF-000211,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido histórico field mock (2025-06-05),true,5492992500733
+PF-000211,1,Pepinillos Agridulces 330 G GULLO,1,5401.87,2,Pedido histórico field mock (2025-06-05),true,5492992500733
+PF-000211,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,2,5094.63,2,Pedido histórico field mock (2025-06-05),true,5492992500733
+PF-000212,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-07-09),true,5492992500733
+PF-000212,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-07-09),true,5492992500733
+PF-000213,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-08-15),true,5492992500733
+PF-000213,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-08-15),true,5492992500733
+PF-000213,286,Pan Multicereal CORMILLOT 410 G,1,2766.55,2,Pedido histórico field mock (2025-08-15),true,5492992500733
+PF-000213,10659,Pickle Mixto VANOLI Frasco 330g,3,3059.84,2,Pedido histórico field mock (2025-08-15),true,5492992500733
+PF-000214,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido histórico field mock (2025-09-25),true,5492992500733
+PF-000214,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-09-25),true,5492992500733
+PF-000214,310,Queso Reggianito Cremigal x Kg,4,16321.52,2,Pedido histórico field mock (2025-09-25),true,5492992500733
+PF-000214,10659,Pickle Mixto VANOLI Frasco 330g,4,3059.84,2,Pedido histórico field mock (2025-09-25),true,5492992500733
+PF-000215,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-10-28),true,5492992500733
+PF-000215,1,Pepinillos Agridulces 330 G GULLO,1,5401.87,2,Pedido histórico field mock (2025-10-28),true,5492992500733
+PF-000216,12684,Salsa Soja VANOLI 1000cc PET,4,3695.93,2,Pedido histórico field mock (2025-12-06),true,5492992500733
+PF-000216,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2025-12-06),true,5492992500733
+PF-000217,12684,Salsa Soja VANOLI 1000cc PET,4,3695.93,2,Pedido histórico field mock (2026-01-16),true,5492992500733
+PF-000217,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2026-01-16),true,5492992500733
+PF-000218,10218,Aceitunas Rebanadas PET1500g GULLO,3,12309.25,2,Pedido reciente field mock (2026-04-08),true,5492992500733
+PF-000218,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,2137.19,2,Pedido reciente field mock (2026-04-08),true,5492992500733
+PF-000219,10218,Aceitunas Rebanadas PET1500g GULLO,2,12309.25,2,Pedido reciente field mock (2026-04-17),true,5492992500733
+PF-000219,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,2137.19,2,Pedido reciente field mock (2026-04-17),true,5492992500733
+PF-000220,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido reciente field mock (2026-05-20),true,5492992500733
+PF-000220,11309,Tostadas SIN SAL CORMILLOT 200G,3,1804.67,2,Pedido reciente field mock (2026-05-20),true,5492992500733
+PF-000221,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido histórico field mock (2025-06-01),true,5492615139305
+PF-000221,10218,Aceitunas Rebanadas PET1500g GULLO,2,9633.33,3,Pedido histórico field mock (2025-06-01),true,5492615139305
+PF-000222,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido histórico field mock (2025-07-13),true,5492615139305
+PF-000222,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido histórico field mock (2025-07-13),true,5492615139305
+PF-000222,925,Pesto 25g CENTURION,2,515.00,3,Pedido histórico field mock (2025-07-13),true,5492615139305
+PF-000222,914,Nuez Moscada Grano CENTURION,2,1113.27,3,Pedido histórico field mock (2025-07-13),true,5492615139305
+PF-000223,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido histórico field mock (2025-08-16),true,5492615139305
+PF-000223,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido histórico field mock (2025-08-16),true,5492615139305
+PF-000223,10659,Pickle Mixto VANOLI Frasco 330g,4,2394.66,3,Pedido histórico field mock (2025-08-16),true,5492615139305
+PF-000224,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2025-09-18),true,5492615139305
+PF-000224,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido histórico field mock (2025-09-18),true,5492615139305
+PF-000224,10169,Salame Milan Fox Crespon,3,15840.00,3,Pedido histórico field mock (2025-09-18),true,5492615139305
+PF-000224,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,1,3987.10,3,Pedido histórico field mock (2025-09-18),true,5492615139305
+PF-000225,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido histórico field mock (2025-10-27),true,5492615139305
+PF-000225,10218,Aceitunas Rebanadas PET1500g GULLO,2,9633.33,3,Pedido histórico field mock (2025-10-27),true,5492615139305
+PF-000225,656,Aceituna Verde Desc. VANOLI 150g,3,1138.46,3,Pedido histórico field mock (2025-10-27),true,5492615139305
+PF-000226,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1672.59,3,Pedido histórico field mock (2025-12-05),true,5492615139305
+PF-000226,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido histórico field mock (2025-12-05),true,5492615139305
+PF-000227,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2026-01-19),true,5492615139305
+PF-000227,10218,Aceitunas Rebanadas PET1500g GULLO,4,9633.33,3,Pedido histórico field mock (2026-01-19),true,5492615139305
+PF-000227,44,Dulce de Leche Cremigal Familiar 250 G,4,1179.84,3,Pedido histórico field mock (2026-01-19),true,5492615139305
+PF-000227,914,Nuez Moscada Grano CENTURION,4,1113.27,3,Pedido histórico field mock (2026-01-19),true,5492615139305
+PF-000228,1,Pepinillos Agridulces 330 G GULLO,2,4227.55,3,Pedido reciente field mock (2026-04-21),true,5492615139305
+PF-000228,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido reciente field mock (2026-04-21),true,5492615139305
+PF-000229,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido reciente field mock (2026-04-29),true,5492615139305
+PF-000229,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido reciente field mock (2026-04-29),true,5492615139305
+PF-000230,1,Pepinillos Agridulces 330 G GULLO,3,4227.55,3,Pedido reciente field mock (2026-05-14),true,5492615139305
+PF-000230,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido reciente field mock (2026-05-14),true,5492615139305
+PF-000231,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido histórico field mock (2025-06-01),true,5492618861463
+PF-000231,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2025-06-01),true,5492618861463
+PF-000232,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido histórico field mock (2025-07-11),true,5492618861463
+PF-000232,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-07-11),true,5492618861463
+PF-000232,10113,Paleta Especial Fox Oval,4,7990.00,4,Pedido histórico field mock (2025-07-11),true,5492618861463
+PF-000232,699,Cebollitas en Vinagre VANOLI Frasco 330 G,1,2566.94,4,Pedido histórico field mock (2025-07-11),true,5492618861463
+PF-000233,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2025-08-14),true,5492618861463
+PF-000233,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-08-14),true,5492618861463
+PF-000234,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1579.67,4,Pedido histórico field mock (2025-09-20),true,5492618861463
+PF-000234,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-09-20),true,5492618861463
+PF-000235,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1579.67,4,Pedido histórico field mock (2025-11-05),true,5492618861463
+PF-000235,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2025-11-05),true,5492618861463
+PF-000235,925,Pesto 25g CENTURION,3,486.39,4,Pedido histórico field mock (2025-11-05),true,5492618861463
+PF-000235,44,Dulce de Leche Cremigal Familiar 250 G,1,1114.29,4,Pedido histórico field mock (2025-11-05),true,5492618861463
+PF-000236,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1579.67,4,Pedido histórico field mock (2025-12-11),true,5492618861463
+PF-000236,10218,Aceitunas Rebanadas PET1500g GULLO,3,9098.15,4,Pedido histórico field mock (2025-12-11),true,5492618861463
+PF-000236,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,3,3765.59,4,Pedido histórico field mock (2025-12-11),true,5492618861463
+PF-000237,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1579.67,4,Pedido histórico field mock (2026-01-19),true,5492618861463
+PF-000237,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2026-01-19),true,5492618861463
+PF-000238,1,Pepinillos Agridulces 330 G GULLO,1,3992.69,4,Pedido reciente field mock (2026-04-02),true,5492618861463
+PF-000238,10218,Aceitunas Rebanadas PET1500g GULLO,3,9098.15,4,Pedido reciente field mock (2026-04-02),true,5492618861463
+PF-000239,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido reciente field mock (2026-04-23),true,5492618861463
+PF-000239,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido reciente field mock (2026-04-23),true,5492618861463
+PF-000240,12684,Salsa Soja VANOLI 1000cc PET,1,2731.77,4,Pedido reciente field mock (2026-04-27),true,5492618861463
+PF-000240,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido reciente field mock (2026-04-27),true,5492618861463
+PF-000241,11309,Tostadas SIN SAL CORMILLOT 200G,1,1569.28,1,Pedido histórico field mock (2025-06-01),true,5493812941974
+PF-000241,1,Pepinillos Agridulces 330 G GULLO,1,4697.28,1,Pedido histórico field mock (2025-06-01),true,5493812941974
+PF-000241,10199,Yogur Natural S/Azucar Cremigal 170g,4,606.71,1,Pedido histórico field mock (2025-06-01),true,5493812941974
+PF-000241,310,Queso Reggianito Cremigal x Kg,3,14192.63,1,Pedido histórico field mock (2025-06-01),true,5493812941974
+PF-000242,11309,Tostadas SIN SAL CORMILLOT 200G,3,1569.28,1,Pedido histórico field mock (2025-07-06),true,5493812941974
+PF-000242,1,Pepinillos Agridulces 330 G GULLO,4,4697.28,1,Pedido histórico field mock (2025-07-06),true,5493812941974
+PF-000242,10273,Mermelada EMETH Pote CIRUELA 500G,4,1023.56,1,Pedido histórico field mock (2025-07-06),true,5493812941974
+PF-000242,699,Cebollitas en Vinagre VANOLI Frasco 330 G,4,3019.93,1,Pedido histórico field mock (2025-07-06),true,5493812941974
+PF-000243,11309,Tostadas SIN SAL CORMILLOT 200G,4,1569.28,1,Pedido histórico field mock (2025-08-13),true,5493812941974
+PF-000243,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido histórico field mock (2025-08-13),true,5493812941974
+PF-000243,10169,Salame Milan Fox Crespon,4,17600.00,1,Pedido histórico field mock (2025-08-13),true,5493812941974
+PF-000244,11309,Tostadas SIN SAL CORMILLOT 200G,4,1569.28,1,Pedido histórico field mock (2025-09-22),true,5493812941974
+PF-000244,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido histórico field mock (2025-09-22),true,5493812941974
+PF-000245,11309,Tostadas SIN SAL CORMILLOT 200G,3,1569.28,1,Pedido histórico field mock (2025-10-30),true,5493812941974
+PF-000245,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido histórico field mock (2025-10-30),true,5493812941974
+PF-000245,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,4,4430.11,1,Pedido histórico field mock (2025-10-30),true,5493812941974
+PF-000245,925,Pesto 25g CENTURION,4,572.22,1,Pedido histórico field mock (2025-10-30),true,5493812941974
+PF-000246,11309,Tostadas SIN SAL CORMILLOT 200G,3,1569.28,1,Pedido histórico field mock (2025-12-05),true,5493812941974
+PF-000246,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido histórico field mock (2025-12-05),true,5493812941974
+PF-000247,11309,Tostadas SIN SAL CORMILLOT 200G,1,1569.28,1,Pedido histórico field mock (2026-01-17),true,5493812941974
+PF-000247,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido histórico field mock (2026-01-17),true,5493812941974
+PF-000247,10273,Mermelada EMETH Pote CIRUELA 500G,2,1023.56,1,Pedido histórico field mock (2026-01-17),true,5493812941974
+PF-000248,11309,Tostadas SIN SAL CORMILLOT 200G,2,1569.28,1,Pedido reciente field mock (2026-04-03),true,5493812941974
+PF-000248,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido reciente field mock (2026-04-03),true,5493812941974
+PF-000249,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1858.43,1,Pedido reciente field mock (2026-04-09),true,5493812941974
+PF-000249,1,Pepinillos Agridulces 330 G GULLO,1,4697.28,1,Pedido reciente field mock (2026-04-09),true,5493812941974
+PF-000250,1,Pepinillos Agridulces 330 G GULLO,1,4697.28,1,Pedido reciente field mock (2026-05-03),true,5493812941974
+PF-000250,11309,Tostadas SIN SAL CORMILLOT 200G,1,1569.28,1,Pedido reciente field mock (2026-05-03),true,5493812941974
+PF-000251,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2025-06-01),true,5493817404433
+PF-000251,10218,Aceitunas Rebanadas PET1500g GULLO,4,12309.25,2,Pedido histórico field mock (2025-06-01),true,5493817404433
+PF-000251,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,4,5094.63,2,Pedido histórico field mock (2025-06-01),true,5493817404433
+PF-000252,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2025-07-08),true,5493817404433
+PF-000252,10218,Aceitunas Rebanadas PET1500g GULLO,1,12309.25,2,Pedido histórico field mock (2025-07-08),true,5493817404433
+PF-000252,310,Queso Reggianito Cremigal x Kg,1,16321.52,2,Pedido histórico field mock (2025-07-08),true,5493817404433
+PF-000253,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-08-17),true,5493817404433
+PF-000253,10218,Aceitunas Rebanadas PET1500g GULLO,3,12309.25,2,Pedido histórico field mock (2025-08-17),true,5493817404433
+PF-000253,228,Aceto Balsamico 250cc GULLO,2,4535.37,2,Pedido histórico field mock (2025-08-17),true,5493817404433
+PF-000253,44,Dulce de Leche Cremigal Familiar 250 G,4,1507.57,2,Pedido histórico field mock (2025-08-17),true,5493817404433
+PF-000254,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2025-09-22),true,5493817404433
+PF-000254,10218,Aceitunas Rebanadas PET1500g GULLO,3,12309.25,2,Pedido histórico field mock (2025-09-22),true,5493817404433
+PF-000254,10659,Pickle Mixto VANOLI Frasco 330g,3,3059.84,2,Pedido histórico field mock (2025-09-22),true,5493817404433
+PF-000255,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2025-11-04),true,5493817404433
+PF-000255,10218,Aceitunas Rebanadas PET1500g GULLO,4,12309.25,2,Pedido histórico field mock (2025-11-04),true,5493817404433
+PF-000255,15195,Yogur Bebible Cremigal Banana 900g,4,1667.50,2,Pedido histórico field mock (2025-11-04),true,5493817404433
+PF-000255,310,Queso Reggianito Cremigal x Kg,2,16321.52,2,Pedido histórico field mock (2025-11-04),true,5493817404433
+PF-000256,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2025-12-05),true,5493817404433
+PF-000256,10218,Aceitunas Rebanadas PET1500g GULLO,2,12309.25,2,Pedido histórico field mock (2025-12-05),true,5493817404433
+PF-000257,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2026-01-10),true,5493817404433
+PF-000257,10218,Aceitunas Rebanadas PET1500g GULLO,2,12309.25,2,Pedido histórico field mock (2026-01-10),true,5493817404433
+PF-000258,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,2137.19,2,Pedido reciente field mock (2026-04-29),true,5493817404433
+PF-000258,10218,Aceitunas Rebanadas PET1500g GULLO,1,12309.25,2,Pedido reciente field mock (2026-04-29),true,5493817404433
+PF-000259,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,2137.19,2,Pedido reciente field mock (2026-04-30),true,5493817404433
+PF-000259,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido reciente field mock (2026-04-30),true,5493817404433
+PF-000260,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido reciente field mock (2026-05-03),true,5493817404433
+PF-000260,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido reciente field mock (2026-05-03),true,5493817404433
+PF-000261,11309,Tostadas SIN SAL CORMILLOT 200G,3,1412.35,3,Pedido histórico field mock (2025-06-02),true,5493419686914
+PF-000261,1,Pepinillos Agridulces 330 G GULLO,3,4227.55,3,Pedido histórico field mock (2025-06-02),true,5493419686914
+PF-000261,44,Dulce de Leche Cremigal Familiar 250 G,2,1179.84,3,Pedido histórico field mock (2025-06-02),true,5493419686914
+PF-000262,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido histórico field mock (2025-07-05),true,5493419686914
+PF-000262,1,Pepinillos Agridulces 330 G GULLO,1,4227.55,3,Pedido histórico field mock (2025-07-05),true,5493419686914
+PF-000262,10169,Salame Milan Fox Crespon,3,15840.00,3,Pedido histórico field mock (2025-07-05),true,5493419686914
+PF-000262,925,Pesto 25g CENTURION,2,515.00,3,Pedido histórico field mock (2025-07-05),true,5493419686914
+PF-000263,11309,Tostadas SIN SAL CORMILLOT 200G,3,1412.35,3,Pedido histórico field mock (2025-08-20),true,5493419686914
+PF-000263,1,Pepinillos Agridulces 330 G GULLO,2,4227.55,3,Pedido histórico field mock (2025-08-20),true,5493419686914
+PF-000263,10273,Mermelada EMETH Pote CIRUELA 500G,3,921.20,3,Pedido histórico field mock (2025-08-20),true,5493419686914
+PF-000264,11309,Tostadas SIN SAL CORMILLOT 200G,2,1412.35,3,Pedido histórico field mock (2025-09-28),true,5493419686914
+PF-000264,1,Pepinillos Agridulces 330 G GULLO,4,4227.55,3,Pedido histórico field mock (2025-09-28),true,5493419686914
+PF-000264,44,Dulce de Leche Cremigal Familiar 250 G,3,1179.84,3,Pedido histórico field mock (2025-09-28),true,5493419686914
+PF-000264,925,Pesto 25g CENTURION,4,515.00,3,Pedido histórico field mock (2025-09-28),true,5493419686914
+PF-000265,11309,Tostadas SIN SAL CORMILLOT 200G,2,1412.35,3,Pedido histórico field mock (2025-11-02),true,5493419686914
+PF-000265,1,Pepinillos Agridulces 330 G GULLO,1,4227.55,3,Pedido histórico field mock (2025-11-02),true,5493419686914
+PF-000265,699,Cebollitas en Vinagre VANOLI Frasco 330 G,1,2717.94,3,Pedido histórico field mock (2025-11-02),true,5493419686914
+PF-000266,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido histórico field mock (2025-12-09),true,5493419686914
+PF-000266,1,Pepinillos Agridulces 330 G GULLO,4,4227.55,3,Pedido histórico field mock (2025-12-09),true,5493419686914
+PF-000266,10273,Mermelada EMETH Pote CIRUELA 500G,3,921.20,3,Pedido histórico field mock (2025-12-09),true,5493419686914
+PF-000266,228,Aceto Balsamico 250cc GULLO,2,3549.42,3,Pedido histórico field mock (2025-12-09),true,5493419686914
+PF-000267,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido histórico field mock (2026-01-18),true,5493419686914
+PF-000267,1,Pepinillos Agridulces 330 G GULLO,1,4227.55,3,Pedido histórico field mock (2026-01-18),true,5493419686914
+PF-000268,11309,Tostadas SIN SAL CORMILLOT 200G,2,1412.35,3,Pedido reciente field mock (2026-04-03),true,5493419686914
+PF-000268,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido reciente field mock (2026-04-03),true,5493419686914
+PF-000269,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido reciente field mock (2026-04-05),true,5493419686914
+PF-000269,1,Pepinillos Agridulces 330 G GULLO,2,4227.55,3,Pedido reciente field mock (2026-04-05),true,5493419686914
+PF-000270,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido reciente field mock (2026-05-04),true,5493419686914
+PF-000270,10218,Aceitunas Rebanadas PET1500g GULLO,2,9633.33,3,Pedido reciente field mock (2026-05-04),true,5493419686914
+PF-000271,10218,Aceitunas Rebanadas PET1500g GULLO,3,9098.15,4,Pedido histórico field mock (2025-06-03),true,5493518648263
+PF-000271,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido histórico field mock (2025-06-03),true,5493518648263
+PF-000271,10273,Mermelada EMETH Pote CIRUELA 500G,2,870.03,4,Pedido histórico field mock (2025-06-03),true,5493518648263
+PF-000272,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2025-07-06),true,5493518648263
+PF-000272,12684,Salsa Soja VANOLI 1000cc PET,3,2731.77,4,Pedido histórico field mock (2025-07-06),true,5493518648263
+PF-000272,10273,Mermelada EMETH Pote CIRUELA 500G,3,870.03,4,Pedido histórico field mock (2025-07-06),true,5493518648263
+PF-000272,286,Pan Multicereal CORMILLOT 410 G,2,2044.84,4,Pedido histórico field mock (2025-07-06),true,5493518648263
+PF-000273,10218,Aceitunas Rebanadas PET1500g GULLO,1,9098.15,4,Pedido histórico field mock (2025-08-21),true,5493518648263
+PF-000273,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido histórico field mock (2025-08-21),true,5493518648263
+PF-000274,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-09-26),true,5493518648263
+PF-000274,12684,Salsa Soja VANOLI 1000cc PET,4,2731.77,4,Pedido histórico field mock (2025-09-26),true,5493518648263
+PF-000274,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,2,3765.59,4,Pedido histórico field mock (2025-09-26),true,5493518648263
+PF-000274,10659,Pickle Mixto VANOLI Frasco 330g,2,2261.62,4,Pedido histórico field mock (2025-09-26),true,5493518648263
+PF-000275,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2025-10-27),true,5493518648263
+PF-000275,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido histórico field mock (2025-10-27),true,5493518648263
+PF-000275,10659,Pickle Mixto VANOLI Frasco 330g,1,2261.62,4,Pedido histórico field mock (2025-10-27),true,5493518648263
+PF-000276,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-12-06),true,5493518648263
+PF-000276,12684,Salsa Soja VANOLI 1000cc PET,1,2731.77,4,Pedido histórico field mock (2025-12-06),true,5493518648263
+PF-000277,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2026-01-20),true,5493518648263
+PF-000277,12684,Salsa Soja VANOLI 1000cc PET,4,2731.77,4,Pedido histórico field mock (2026-01-20),true,5493518648263
+PF-000277,10169,Salame Milan Fox Crespon,3,14960.00,4,Pedido histórico field mock (2026-01-20),true,5493518648263
+PF-000277,228,Aceto Balsamico 250cc GULLO,4,3352.23,4,Pedido histórico field mock (2026-01-20),true,5493518648263
+PF-000278,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido reciente field mock (2026-04-05),true,5493518648263
+PF-000278,10218,Aceitunas Rebanadas PET1500g GULLO,3,9098.15,4,Pedido reciente field mock (2026-04-05),true,5493518648263
+PF-000279,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido reciente field mock (2026-04-20),true,5493518648263
+PF-000279,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido reciente field mock (2026-04-20),true,5493518648263
+PF-000280,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido reciente field mock (2026-05-02),true,5493518648263
+PF-000280,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido reciente field mock (2026-05-02),true,5493518648263
+PF-000281,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1858.43,1,Pedido histórico field mock (2025-06-01),true,5493516216782
+PF-000281,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido histórico field mock (2025-06-01),true,5493516216782
+PF-000281,10169,Salame Milan Fox Crespon,4,17600.00,1,Pedido histórico field mock (2025-06-01),true,5493516216782
+PF-000282,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1858.43,1,Pedido histórico field mock (2025-07-12),true,5493516216782
+PF-000282,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-07-12),true,5493516216782
+PF-000282,310,Queso Reggianito Cremigal x Kg,3,14192.63,1,Pedido histórico field mock (2025-07-12),true,5493516216782
+PF-000282,914,Nuez Moscada Grano CENTURION,1,1236.97,1,Pedido histórico field mock (2025-07-12),true,5493516216782
+PF-000283,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1858.43,1,Pedido histórico field mock (2025-08-20),true,5493516216782
+PF-000283,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido histórico field mock (2025-08-20),true,5493516216782
+PF-000283,286,Pan Multicereal CORMILLOT 410 G,2,2405.70,1,Pedido histórico field mock (2025-08-20),true,5493516216782
+PF-000284,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1858.43,1,Pedido histórico field mock (2025-09-23),true,5493516216782
+PF-000284,12684,Salsa Soja VANOLI 1000cc PET,4,3213.85,1,Pedido histórico field mock (2025-09-23),true,5493516216782
+PF-000284,15195,Yogur Bebible Cremigal Banana 900g,1,1450.00,1,Pedido histórico field mock (2025-09-23),true,5493516216782
+PF-000285,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1858.43,1,Pedido histórico field mock (2025-10-30),true,5493516216782
+PF-000285,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-10-30),true,5493516216782
+PF-000286,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1858.43,1,Pedido histórico field mock (2025-12-08),true,5493516216782
+PF-000286,12684,Salsa Soja VANOLI 1000cc PET,4,3213.85,1,Pedido histórico field mock (2025-12-08),true,5493516216782
+PF-000287,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1858.43,1,Pedido histórico field mock (2026-01-10),true,5493516216782
+PF-000287,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2026-01-10),true,5493516216782
+PF-000287,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,3,4430.11,1,Pedido histórico field mock (2026-01-10),true,5493516216782
+PF-000287,10199,Yogur Natural S/Azucar Cremigal 170g,3,606.71,1,Pedido histórico field mock (2026-01-10),true,5493516216782
+PF-000288,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido reciente field mock (2026-04-10),true,5493516216782
+PF-000288,1,Pepinillos Agridulces 330 G GULLO,3,4697.28,1,Pedido reciente field mock (2026-04-10),true,5493516216782
+PF-000289,11309,Tostadas SIN SAL CORMILLOT 200G,3,1569.28,1,Pedido reciente field mock (2026-05-13),true,5493516216782
+PF-000289,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1858.43,1,Pedido reciente field mock (2026-05-13),true,5493516216782
+PF-000290,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido reciente field mock (2026-05-15),true,5493516216782
+PF-000290,1,Pepinillos Agridulces 330 G GULLO,3,4697.28,1,Pedido reciente field mock (2026-05-15),true,5493516216782
+PF-000291,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-06-01),true,5492612780568
+PF-000291,11309,Tostadas SIN SAL CORMILLOT 200G,4,1804.67,2,Pedido histórico field mock (2025-06-01),true,5492612780568
+PF-000291,310,Queso Reggianito Cremigal x Kg,1,16321.52,2,Pedido histórico field mock (2025-06-01),true,5492612780568
+PF-000291,15195,Yogur Bebible Cremigal Banana 900g,4,1667.50,2,Pedido histórico field mock (2025-06-01),true,5492612780568
+PF-000292,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido histórico field mock (2025-07-13),true,5492612780568
+PF-000292,11309,Tostadas SIN SAL CORMILLOT 200G,3,1804.67,2,Pedido histórico field mock (2025-07-13),true,5492612780568
+PF-000292,228,Aceto Balsamico 250cc GULLO,1,4535.37,2,Pedido histórico field mock (2025-07-13),true,5492612780568
+PF-000292,925,Pesto 25g CENTURION,2,658.05,2,Pedido histórico field mock (2025-07-13),true,5492612780568
+PF-000293,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-08-11),true,5492612780568
+PF-000293,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido histórico field mock (2025-08-11),true,5492612780568
+PF-000293,10199,Yogur Natural S/Azucar Cremigal 170g,4,697.72,2,Pedido histórico field mock (2025-08-11),true,5492612780568
+PF-000294,12684,Salsa Soja VANOLI 1000cc PET,4,3695.93,2,Pedido histórico field mock (2025-09-22),true,5492612780568
+PF-000294,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido histórico field mock (2025-09-22),true,5492612780568
+PF-000294,10659,Pickle Mixto VANOLI Frasco 330g,1,3059.84,2,Pedido histórico field mock (2025-09-22),true,5492612780568
+PF-000295,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-11-03),true,5492612780568
+PF-000295,11309,Tostadas SIN SAL CORMILLOT 200G,3,1804.67,2,Pedido histórico field mock (2025-11-03),true,5492612780568
+PF-000295,925,Pesto 25g CENTURION,4,658.05,2,Pedido histórico field mock (2025-11-03),true,5492612780568
+PF-000296,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-12-07),true,5492612780568
+PF-000296,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido histórico field mock (2025-12-07),true,5492612780568
+PF-000296,286,Pan Multicereal CORMILLOT 410 G,2,2766.55,2,Pedido histórico field mock (2025-12-07),true,5492612780568
+PF-000296,228,Aceto Balsamico 250cc GULLO,2,4535.37,2,Pedido histórico field mock (2025-12-07),true,5492612780568
+PF-000297,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido histórico field mock (2026-01-14),true,5492612780568
+PF-000297,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido histórico field mock (2026-01-14),true,5492612780568
+PF-000298,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,2137.19,2,Pedido reciente field mock (2026-04-06),true,5492612780568
+PF-000298,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido reciente field mock (2026-04-06),true,5492612780568
+PF-000299,10218,Aceitunas Rebanadas PET1500g GULLO,1,12309.25,2,Pedido reciente field mock (2026-04-10),true,5492612780568
+PF-000299,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido reciente field mock (2026-04-10),true,5492612780568
+PF-000300,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,2137.19,2,Pedido reciente field mock (2026-05-15),true,5492612780568
+PF-000300,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido reciente field mock (2026-05-15),true,5492612780568
+PF-000301,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2025-06-01),true,5493582639964
+PF-000301,11309,Tostadas SIN SAL CORMILLOT 200G,3,1412.35,3,Pedido histórico field mock (2025-06-01),true,5493582639964
+PF-000301,10169,Salame Milan Fox Crespon,2,15840.00,3,Pedido histórico field mock (2025-06-01),true,5493582639964
+PF-000302,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido histórico field mock (2025-07-05),true,5493582639964
+PF-000302,11309,Tostadas SIN SAL CORMILLOT 200G,4,1412.35,3,Pedido histórico field mock (2025-07-05),true,5493582639964
+PF-000302,10273,Mermelada EMETH Pote CIRUELA 500G,3,921.20,3,Pedido histórico field mock (2025-07-05),true,5493582639964
+PF-000303,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-08-20),true,5493582639964
+PF-000303,11309,Tostadas SIN SAL CORMILLOT 200G,4,1412.35,3,Pedido histórico field mock (2025-08-20),true,5493582639964
+PF-000303,10169,Salame Milan Fox Crespon,3,15840.00,3,Pedido histórico field mock (2025-08-20),true,5493582639964
+PF-000303,44,Dulce de Leche Cremigal Familiar 250 G,2,1179.84,3,Pedido histórico field mock (2025-08-20),true,5493582639964
+PF-000304,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido histórico field mock (2025-09-24),true,5493582639964
+PF-000304,11309,Tostadas SIN SAL CORMILLOT 200G,4,1412.35,3,Pedido histórico field mock (2025-09-24),true,5493582639964
+PF-000305,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-11-03),true,5493582639964
+PF-000305,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido histórico field mock (2025-11-03),true,5493582639964
+PF-000305,228,Aceto Balsamico 250cc GULLO,3,3549.42,3,Pedido histórico field mock (2025-11-03),true,5493582639964
+PF-000305,10273,Mermelada EMETH Pote CIRUELA 500G,4,921.20,3,Pedido histórico field mock (2025-11-03),true,5493582639964
+PF-000306,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido histórico field mock (2025-12-04),true,5493582639964
+PF-000306,11309,Tostadas SIN SAL CORMILLOT 200G,4,1412.35,3,Pedido histórico field mock (2025-12-04),true,5493582639964
+PF-000306,656,Aceituna Verde Desc. VANOLI 150g,1,1138.46,3,Pedido histórico field mock (2025-12-04),true,5493582639964
+PF-000306,15195,Yogur Bebible Cremigal Banana 900g,2,1305.00,3,Pedido histórico field mock (2025-12-04),true,5493582639964
+PF-000307,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2026-01-12),true,5493582639964
+PF-000307,11309,Tostadas SIN SAL CORMILLOT 200G,2,1412.35,3,Pedido histórico field mock (2026-01-12),true,5493582639964
+PF-000308,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido reciente field mock (2026-04-04),true,5493582639964
+PF-000308,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido reciente field mock (2026-04-04),true,5493582639964
+PF-000309,10218,Aceitunas Rebanadas PET1500g GULLO,2,9633.33,3,Pedido reciente field mock (2026-04-23),true,5493582639964
+PF-000309,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido reciente field mock (2026-04-23),true,5493582639964
+PF-000310,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido reciente field mock (2026-05-06),true,5493582639964
+PF-000310,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido reciente field mock (2026-05-06),true,5493582639964
+PF-000311,12684,Salsa Soja VANOLI 1000cc PET,3,2731.77,4,Pedido histórico field mock (2025-06-02),true,5493814729528
+PF-000311,1,Pepinillos Agridulces 330 G GULLO,4,3992.69,4,Pedido histórico field mock (2025-06-02),true,5493814729528
+PF-000311,310,Queso Reggianito Cremigal x Kg,2,12063.74,4,Pedido histórico field mock (2025-06-02),true,5493814729528
+PF-000311,286,Pan Multicereal CORMILLOT 410 G,1,2044.84,4,Pedido histórico field mock (2025-06-02),true,5493814729528
+PF-000312,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido histórico field mock (2025-07-05),true,5493814729528
+PF-000312,1,Pepinillos Agridulces 330 G GULLO,1,3992.69,4,Pedido histórico field mock (2025-07-05),true,5493814729528
+PF-000312,10113,Paleta Especial Fox Oval,2,7990.00,4,Pedido histórico field mock (2025-07-05),true,5493814729528
+PF-000313,12684,Salsa Soja VANOLI 1000cc PET,1,2731.77,4,Pedido histórico field mock (2025-08-11),true,5493814729528
+PF-000313,1,Pepinillos Agridulces 330 G GULLO,3,3992.69,4,Pedido histórico field mock (2025-08-11),true,5493814729528
+PF-000313,228,Aceto Balsamico 250cc GULLO,4,3352.23,4,Pedido histórico field mock (2025-08-11),true,5493814729528
+PF-000313,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,2,3765.59,4,Pedido histórico field mock (2025-08-11),true,5493814729528
+PF-000314,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido histórico field mock (2025-09-21),true,5493814729528
+PF-000314,1,Pepinillos Agridulces 330 G GULLO,3,3992.69,4,Pedido histórico field mock (2025-09-21),true,5493814729528
+PF-000314,15195,Yogur Bebible Cremigal Banana 900g,4,1232.50,4,Pedido histórico field mock (2025-09-21),true,5493814729528
+PF-000315,12684,Salsa Soja VANOLI 1000cc PET,1,2731.77,4,Pedido histórico field mock (2025-11-04),true,5493814729528
+PF-000315,1,Pepinillos Agridulces 330 G GULLO,4,3992.69,4,Pedido histórico field mock (2025-11-04),true,5493814729528
+PF-000316,12684,Salsa Soja VANOLI 1000cc PET,4,2731.77,4,Pedido histórico field mock (2025-12-08),true,5493814729528
+PF-000316,1,Pepinillos Agridulces 330 G GULLO,3,3992.69,4,Pedido histórico field mock (2025-12-08),true,5493814729528
+PF-000317,12684,Salsa Soja VANOLI 1000cc PET,1,2731.77,4,Pedido histórico field mock (2026-01-12),true,5493814729528
+PF-000317,1,Pepinillos Agridulces 330 G GULLO,2,3992.69,4,Pedido histórico field mock (2026-01-12),true,5493814729528
+PF-000318,1,Pepinillos Agridulces 330 G GULLO,3,3992.69,4,Pedido reciente field mock (2026-05-04),true,5493814729528
+PF-000318,11309,Tostadas SIN SAL CORMILLOT 200G,2,1333.89,4,Pedido reciente field mock (2026-05-04),true,5493814729528
+PF-000319,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido reciente field mock (2026-05-11),true,5493814729528
+PF-000319,11309,Tostadas SIN SAL CORMILLOT 200G,1,1333.89,4,Pedido reciente field mock (2026-05-11),true,5493814729528
+PF-000320,1,Pepinillos Agridulces 330 G GULLO,2,3992.69,4,Pedido reciente field mock (2026-05-19),true,5493814729528
+PF-000320,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido reciente field mock (2026-05-19),true,5493814729528
+PF-000321,11309,Tostadas SIN SAL CORMILLOT 200G,2,1569.28,1,Pedido histórico field mock (2025-06-05),true,5493876922419
+PF-000321,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-06-05),true,5493876922419
+PF-000321,310,Queso Reggianito Cremigal x Kg,1,14192.63,1,Pedido histórico field mock (2025-06-05),true,5493876922419
+PF-000322,11309,Tostadas SIN SAL CORMILLOT 200G,2,1569.28,1,Pedido histórico field mock (2025-07-13),true,5493876922419
+PF-000322,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido histórico field mock (2025-07-13),true,5493876922419
+PF-000322,10659,Pickle Mixto VANOLI Frasco 330g,2,2660.73,1,Pedido histórico field mock (2025-07-13),true,5493876922419
+PF-000323,11309,Tostadas SIN SAL CORMILLOT 200G,1,1569.28,1,Pedido histórico field mock (2025-08-15),true,5493876922419
+PF-000323,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-08-15),true,5493876922419
+PF-000323,699,Cebollitas en Vinagre VANOLI Frasco 330 G,1,3019.93,1,Pedido histórico field mock (2025-08-15),true,5493876922419
+PF-000324,11309,Tostadas SIN SAL CORMILLOT 200G,3,1569.28,1,Pedido histórico field mock (2025-09-19),true,5493876922419
+PF-000324,12684,Salsa Soja VANOLI 1000cc PET,4,3213.85,1,Pedido histórico field mock (2025-09-19),true,5493876922419
+PF-000324,15195,Yogur Bebible Cremigal Banana 900g,4,1450.00,1,Pedido histórico field mock (2025-09-19),true,5493876922419
+PF-000325,11309,Tostadas SIN SAL CORMILLOT 200G,3,1569.28,1,Pedido histórico field mock (2025-11-05),true,5493876922419
+PF-000325,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-11-05),true,5493876922419
+PF-000325,10273,Mermelada EMETH Pote CIRUELA 500G,1,1023.56,1,Pedido histórico field mock (2025-11-05),true,5493876922419
+PF-000326,11309,Tostadas SIN SAL CORMILLOT 200G,2,1569.28,1,Pedido histórico field mock (2025-12-05),true,5493876922419
+PF-000326,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-12-05),true,5493876922419
+PF-000326,10659,Pickle Mixto VANOLI Frasco 330g,3,2660.73,1,Pedido histórico field mock (2025-12-05),true,5493876922419
+PF-000327,11309,Tostadas SIN SAL CORMILLOT 200G,3,1569.28,1,Pedido histórico field mock (2026-01-17),true,5493876922419
+PF-000327,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido histórico field mock (2026-01-17),true,5493876922419
+PF-000328,11309,Tostadas SIN SAL CORMILLOT 200G,3,1569.28,1,Pedido reciente field mock (2026-04-20),true,5493876922419
+PF-000328,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido reciente field mock (2026-04-20),true,5493876922419
+PF-000329,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido reciente field mock (2026-04-27),true,5493876922419
+PF-000329,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1858.43,1,Pedido reciente field mock (2026-04-27),true,5493876922419
+PF-000330,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido reciente field mock (2026-05-13),true,5493876922419
+PF-000330,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido reciente field mock (2026-05-13),true,5493876922419
+PF-000331,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-06-06),true,5492618889598
+PF-000331,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido histórico field mock (2025-06-06),true,5492618889598
+PF-000331,699,Cebollitas en Vinagre VANOLI Frasco 330 G,3,3472.92,2,Pedido histórico field mock (2025-06-06),true,5492618889598
+PF-000332,1,Pepinillos Agridulces 330 G GULLO,1,5401.87,2,Pedido histórico field mock (2025-07-08),true,5492618889598
+PF-000332,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido histórico field mock (2025-07-08),true,5492618889598
+PF-000332,10199,Yogur Natural S/Azucar Cremigal 170g,2,697.72,2,Pedido histórico field mock (2025-07-08),true,5492618889598
+PF-000332,699,Cebollitas en Vinagre VANOLI Frasco 330 G,1,3472.92,2,Pedido histórico field mock (2025-07-08),true,5492618889598
+PF-000333,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2025-08-12),true,5492618889598
+PF-000333,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido histórico field mock (2025-08-12),true,5492618889598
+PF-000334,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2025-09-28),true,5492618889598
+PF-000334,11309,Tostadas SIN SAL CORMILLOT 200G,4,1804.67,2,Pedido histórico field mock (2025-09-28),true,5492618889598
+PF-000334,10169,Salame Milan Fox Crespon,1,20240.00,2,Pedido histórico field mock (2025-09-28),true,5492618889598
+PF-000335,1,Pepinillos Agridulces 330 G GULLO,1,5401.87,2,Pedido histórico field mock (2025-10-26),true,5492618889598
+PF-000335,11309,Tostadas SIN SAL CORMILLOT 200G,4,1804.67,2,Pedido histórico field mock (2025-10-26),true,5492618889598
+PF-000335,925,Pesto 25g CENTURION,4,658.05,2,Pedido histórico field mock (2025-10-26),true,5492618889598
+PF-000335,10659,Pickle Mixto VANOLI Frasco 330g,4,3059.84,2,Pedido histórico field mock (2025-10-26),true,5492618889598
+PF-000336,1,Pepinillos Agridulces 330 G GULLO,1,5401.87,2,Pedido histórico field mock (2025-12-04),true,5492618889598
+PF-000336,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido histórico field mock (2025-12-04),true,5492618889598
+PF-000336,286,Pan Multicereal CORMILLOT 410 G,4,2766.55,2,Pedido histórico field mock (2025-12-04),true,5492618889598
+PF-000337,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2026-01-20),true,5492618889598
+PF-000337,11309,Tostadas SIN SAL CORMILLOT 200G,4,1804.67,2,Pedido histórico field mock (2026-01-20),true,5492618889598
+PF-000337,228,Aceto Balsamico 250cc GULLO,2,4535.37,2,Pedido histórico field mock (2026-01-20),true,5492618889598
+PF-000337,286,Pan Multicereal CORMILLOT 410 G,4,2766.55,2,Pedido histórico field mock (2026-01-20),true,5492618889598
+PF-000338,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,2137.19,2,Pedido reciente field mock (2026-04-05),true,5492618889598
+PF-000338,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido reciente field mock (2026-04-05),true,5492618889598
+PF-000339,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,2137.19,2,Pedido reciente field mock (2026-04-10),true,5492618889598
+PF-000339,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido reciente field mock (2026-04-10),true,5492618889598
+PF-000340,10218,Aceitunas Rebanadas PET1500g GULLO,3,12309.25,2,Pedido reciente field mock (2026-04-17),true,5492618889598
+PF-000340,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido reciente field mock (2026-04-17),true,5492618889598
+PF-000341,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2025-06-01),true,5492615021286
+PF-000341,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1672.59,3,Pedido histórico field mock (2025-06-01),true,5492615021286
+PF-000342,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2025-07-14),true,5492615021286
+PF-000342,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido histórico field mock (2025-07-14),true,5492615021286
+PF-000342,228,Aceto Balsamico 250cc GULLO,4,3549.42,3,Pedido histórico field mock (2025-07-14),true,5492615021286
+PF-000342,310,Queso Reggianito Cremigal x Kg,1,12773.37,3,Pedido histórico field mock (2025-07-14),true,5492615021286
+PF-000343,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-08-15),true,5492615021286
+PF-000343,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2025-08-15),true,5492615021286
+PF-000343,699,Cebollitas en Vinagre VANOLI Frasco 330 G,1,2717.94,3,Pedido histórico field mock (2025-08-15),true,5492615021286
+PF-000344,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido histórico field mock (2025-09-28),true,5492615021286
+PF-000344,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1672.59,3,Pedido histórico field mock (2025-09-28),true,5492615021286
+PF-000345,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido histórico field mock (2025-11-04),true,5492615021286
+PF-000345,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido histórico field mock (2025-11-04),true,5492615021286
+PF-000345,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,2,3987.10,3,Pedido histórico field mock (2025-11-04),true,5492615021286
+PF-000345,44,Dulce de Leche Cremigal Familiar 250 G,1,1179.84,3,Pedido histórico field mock (2025-11-04),true,5492615021286
+PF-000346,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido histórico field mock (2025-12-05),true,5492615021286
+PF-000346,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido histórico field mock (2025-12-05),true,5492615021286
+PF-000347,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2026-01-14),true,5492615021286
+PF-000347,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2026-01-14),true,5492615021286
+PF-000347,10199,Yogur Natural S/Azucar Cremigal 170g,1,546.04,3,Pedido histórico field mock (2026-01-14),true,5492615021286
+PF-000347,15195,Yogur Bebible Cremigal Banana 900g,1,1305.00,3,Pedido histórico field mock (2026-01-14),true,5492615021286
+PF-000348,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido reciente field mock (2026-04-11),true,5492615021286
+PF-000348,1,Pepinillos Agridulces 330 G GULLO,1,4227.55,3,Pedido reciente field mock (2026-04-11),true,5492615021286
+PF-000349,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido reciente field mock (2026-04-19),true,5492615021286
+PF-000349,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido reciente field mock (2026-04-19),true,5492615021286
+PF-000350,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido reciente field mock (2026-04-28),true,5492615021286
+PF-000350,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido reciente field mock (2026-04-28),true,5492615021286
+PF-000351,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido histórico field mock (2025-06-02),true,5493813520000
+PF-000351,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2025-06-02),true,5493813520000
+PF-000351,310,Queso Reggianito Cremigal x Kg,1,12063.74,4,Pedido histórico field mock (2025-06-02),true,5493813520000
+PF-000352,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1579.67,4,Pedido histórico field mock (2025-07-14),true,5493813520000
+PF-000352,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-07-14),true,5493813520000
+PF-000353,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2025-08-14),true,5493813520000
+PF-000353,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-08-14),true,5493813520000
+PF-000353,10659,Pickle Mixto VANOLI Frasco 330g,4,2261.62,4,Pedido histórico field mock (2025-08-14),true,5493813520000
+PF-000354,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2025-09-21),true,5493813520000
+PF-000354,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido histórico field mock (2025-09-21),true,5493813520000
+PF-000355,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido histórico field mock (2025-10-27),true,5493813520000
+PF-000355,10218,Aceitunas Rebanadas PET1500g GULLO,4,9098.15,4,Pedido histórico field mock (2025-10-27),true,5493813520000
+PF-000355,228,Aceto Balsamico 250cc GULLO,4,3352.23,4,Pedido histórico field mock (2025-10-27),true,5493813520000
+PF-000355,44,Dulce de Leche Cremigal Familiar 250 G,4,1114.29,4,Pedido histórico field mock (2025-10-27),true,5493813520000
+PF-000356,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido histórico field mock (2025-12-10),true,5493813520000
+PF-000356,10218,Aceitunas Rebanadas PET1500g GULLO,3,9098.15,4,Pedido histórico field mock (2025-12-10),true,5493813520000
+PF-000356,10273,Mermelada EMETH Pote CIRUELA 500G,2,870.03,4,Pedido histórico field mock (2025-12-10),true,5493813520000
+PF-000356,10199,Yogur Natural S/Azucar Cremigal 170g,1,515.70,4,Pedido histórico field mock (2025-12-10),true,5493813520000
+PF-000357,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2026-01-20),true,5493813520000
+PF-000357,10218,Aceitunas Rebanadas PET1500g GULLO,1,9098.15,4,Pedido histórico field mock (2026-01-20),true,5493813520000
+PF-000357,925,Pesto 25g CENTURION,2,486.39,4,Pedido histórico field mock (2026-01-20),true,5493813520000
+PF-000358,10218,Aceitunas Rebanadas PET1500g GULLO,1,9098.15,4,Pedido reciente field mock (2026-04-07),true,5493813520000
+PF-000358,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido reciente field mock (2026-04-07),true,5493813520000
+PF-000359,1,Pepinillos Agridulces 330 G GULLO,1,3992.69,4,Pedido reciente field mock (2026-04-08),true,5493813520000
+PF-000359,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido reciente field mock (2026-04-08),true,5493813520000
+PF-000360,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido reciente field mock (2026-05-14),true,5493813520000
+PF-000360,11309,Tostadas SIN SAL CORMILLOT 200G,1,1333.89,4,Pedido reciente field mock (2026-05-14),true,5493813520000
+PF-000361,10218,Aceitunas Rebanadas PET1500g GULLO,2,10703.70,1,Pedido histórico field mock (2025-06-01),true,5492997489876
+PF-000361,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-06-01),true,5492997489876
+PF-000361,10169,Salame Milan Fox Crespon,2,17600.00,1,Pedido histórico field mock (2025-06-01),true,5492997489876
+PF-000362,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2025-07-14),true,5492997489876
+PF-000362,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-07-14),true,5492997489876
+PF-000362,44,Dulce de Leche Cremigal Familiar 250 G,2,1310.93,1,Pedido histórico field mock (2025-07-14),true,5492997489876
+PF-000362,656,Aceituna Verde Desc. VANOLI 150g,1,1264.96,1,Pedido histórico field mock (2025-07-14),true,5492997489876
+PF-000363,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2025-08-15),true,5492997489876
+PF-000363,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-08-15),true,5492997489876
+PF-000364,10218,Aceitunas Rebanadas PET1500g GULLO,2,10703.70,1,Pedido histórico field mock (2025-09-18),true,5492997489876
+PF-000364,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido histórico field mock (2025-09-18),true,5492997489876
+PF-000364,10273,Mermelada EMETH Pote CIRUELA 500G,2,1023.56,1,Pedido histórico field mock (2025-09-18),true,5492997489876
+PF-000364,10659,Pickle Mixto VANOLI Frasco 330g,2,2660.73,1,Pedido histórico field mock (2025-09-18),true,5492997489876
+PF-000365,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2025-10-28),true,5492997489876
+PF-000365,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-10-28),true,5492997489876
+PF-000365,228,Aceto Balsamico 250cc GULLO,3,3943.80,1,Pedido histórico field mock (2025-10-28),true,5492997489876
+PF-000366,10218,Aceitunas Rebanadas PET1500g GULLO,4,10703.70,1,Pedido histórico field mock (2025-12-05),true,5492997489876
+PF-000366,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-12-05),true,5492997489876
+PF-000366,10273,Mermelada EMETH Pote CIRUELA 500G,1,1023.56,1,Pedido histórico field mock (2025-12-05),true,5492997489876
+PF-000367,10218,Aceitunas Rebanadas PET1500g GULLO,2,10703.70,1,Pedido histórico field mock (2026-01-13),true,5492997489876
+PF-000367,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido histórico field mock (2026-01-13),true,5492997489876
+PF-000368,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido reciente field mock (2026-04-11),true,5492997489876
+PF-000368,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido reciente field mock (2026-04-11),true,5492997489876
+PF-000369,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido reciente field mock (2026-05-06),true,5492997489876
+PF-000369,11309,Tostadas SIN SAL CORMILLOT 200G,2,1569.28,1,Pedido reciente field mock (2026-05-06),true,5492997489876
+PF-000370,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1858.43,1,Pedido reciente field mock (2026-05-09),true,5492997489876
+PF-000370,1,Pepinillos Agridulces 330 G GULLO,3,4697.28,1,Pedido reciente field mock (2026-05-09),true,5492997489876
+PF-000371,11309,Tostadas SIN SAL CORMILLOT 200G,3,1804.67,2,Pedido histórico field mock (2025-06-05),true,5493519107005
+PF-000371,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2025-06-05),true,5493519107005
+PF-000372,11309,Tostadas SIN SAL CORMILLOT 200G,3,1804.67,2,Pedido histórico field mock (2025-07-05),true,5493519107005
+PF-000372,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-07-05),true,5493519107005
+PF-000372,228,Aceto Balsamico 250cc GULLO,1,4535.37,2,Pedido histórico field mock (2025-07-05),true,5493519107005
+PF-000373,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido histórico field mock (2025-08-21),true,5493519107005
+PF-000373,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2025-08-21),true,5493519107005
+PF-000373,10199,Yogur Natural S/Azucar Cremigal 170g,3,697.72,2,Pedido histórico field mock (2025-08-21),true,5493519107005
+PF-000373,310,Queso Reggianito Cremigal x Kg,1,16321.52,2,Pedido histórico field mock (2025-08-21),true,5493519107005
+PF-000374,11309,Tostadas SIN SAL CORMILLOT 200G,4,1804.67,2,Pedido histórico field mock (2025-09-22),true,5493519107005
+PF-000374,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-09-22),true,5493519107005
+PF-000374,656,Aceituna Verde Desc. VANOLI 150g,1,1454.70,2,Pedido histórico field mock (2025-09-22),true,5493519107005
+PF-000375,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido histórico field mock (2025-10-29),true,5493519107005
+PF-000375,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2025-10-29),true,5493519107005
+PF-000375,10273,Mermelada EMETH Pote CIRUELA 500G,4,1177.09,2,Pedido histórico field mock (2025-10-29),true,5493519107005
+PF-000376,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido histórico field mock (2025-12-10),true,5493519107005
+PF-000376,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-12-10),true,5493519107005
+PF-000376,10273,Mermelada EMETH Pote CIRUELA 500G,4,1177.09,2,Pedido histórico field mock (2025-12-10),true,5493519107005
+PF-000377,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido histórico field mock (2026-01-18),true,5493519107005
+PF-000377,1,Pepinillos Agridulces 330 G GULLO,1,5401.87,2,Pedido histórico field mock (2026-01-18),true,5493519107005
+PF-000377,15195,Yogur Bebible Cremigal Banana 900g,2,1667.50,2,Pedido histórico field mock (2026-01-18),true,5493519107005
+PF-000378,1,Pepinillos Agridulces 330 G GULLO,1,5401.87,2,Pedido reciente field mock (2026-04-18),true,5493519107005
+PF-000378,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido reciente field mock (2026-04-18),true,5493519107005
+PF-000379,10218,Aceitunas Rebanadas PET1500g GULLO,3,12309.25,2,Pedido reciente field mock (2026-05-05),true,5493519107005
+PF-000379,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido reciente field mock (2026-05-05),true,5493519107005
+PF-000380,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido reciente field mock (2026-05-14),true,5493519107005
+PF-000380,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido reciente field mock (2026-05-14),true,5493519107005
+PF-000381,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido histórico field mock (2025-06-01),true,5493874104594
+PF-000381,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido histórico field mock (2025-06-01),true,5493874104594
+PF-000382,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2025-07-12),true,5493874104594
+PF-000382,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2025-07-12),true,5493874104594
+PF-000383,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-08-11),true,5493874104594
+PF-000383,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido histórico field mock (2025-08-11),true,5493874104594
+PF-000383,914,Nuez Moscada Grano CENTURION,2,1113.27,3,Pedido histórico field mock (2025-08-11),true,5493874104594
+PF-000384,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-09-25),true,5493874104594
+PF-000384,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1672.59,3,Pedido histórico field mock (2025-09-25),true,5493874104594
+PF-000384,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,4,3987.10,3,Pedido histórico field mock (2025-09-25),true,5493874104594
+PF-000384,10659,Pickle Mixto VANOLI Frasco 330g,1,2394.66,3,Pedido histórico field mock (2025-09-25),true,5493874104594
+PF-000385,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido histórico field mock (2025-11-04),true,5493874104594
+PF-000385,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido histórico field mock (2025-11-04),true,5493874104594
+PF-000386,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-12-08),true,5493874104594
+PF-000386,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1672.59,3,Pedido histórico field mock (2025-12-08),true,5493874104594
+PF-000387,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2026-01-14),true,5493874104594
+PF-000387,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido histórico field mock (2026-01-14),true,5493874104594
+PF-000387,15195,Yogur Bebible Cremigal Banana 900g,1,1305.00,3,Pedido histórico field mock (2026-01-14),true,5493874104594
+PF-000387,310,Queso Reggianito Cremigal x Kg,4,12773.37,3,Pedido histórico field mock (2026-01-14),true,5493874104594
+PF-000388,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido reciente field mock (2026-04-02),true,5493874104594
+PF-000388,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido reciente field mock (2026-04-02),true,5493874104594
+PF-000389,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido reciente field mock (2026-04-10),true,5493874104594
+PF-000389,11309,Tostadas SIN SAL CORMILLOT 200G,3,1412.35,3,Pedido reciente field mock (2026-04-10),true,5493874104594
+PF-000390,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido reciente field mock (2026-05-10),true,5493874104594
+PF-000390,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido reciente field mock (2026-05-10),true,5493874104594
+PF-000391,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido histórico field mock (2025-06-04),true,5492617413812
+PF-000391,1,Pepinillos Agridulces 330 G GULLO,2,3992.69,4,Pedido histórico field mock (2025-06-04),true,5492617413812
+PF-000391,10169,Salame Milan Fox Crespon,1,14960.00,4,Pedido histórico field mock (2025-06-04),true,5492617413812
+PF-000391,10659,Pickle Mixto VANOLI Frasco 330g,3,2261.62,4,Pedido histórico field mock (2025-06-04),true,5492617413812
+PF-000392,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido histórico field mock (2025-07-09),true,5492617413812
+PF-000392,1,Pepinillos Agridulces 330 G GULLO,4,3992.69,4,Pedido histórico field mock (2025-07-09),true,5492617413812
+PF-000392,44,Dulce de Leche Cremigal Familiar 250 G,4,1114.29,4,Pedido histórico field mock (2025-07-09),true,5492617413812
+PF-000392,15195,Yogur Bebible Cremigal Banana 900g,1,1232.50,4,Pedido histórico field mock (2025-07-09),true,5492617413812
+PF-000393,12684,Salsa Soja VANOLI 1000cc PET,3,2731.77,4,Pedido histórico field mock (2025-08-14),true,5492617413812
+PF-000393,1,Pepinillos Agridulces 330 G GULLO,2,3992.69,4,Pedido histórico field mock (2025-08-14),true,5492617413812
+PF-000393,925,Pesto 25g CENTURION,1,486.39,4,Pedido histórico field mock (2025-08-14),true,5492617413812
+PF-000394,12684,Salsa Soja VANOLI 1000cc PET,3,2731.77,4,Pedido histórico field mock (2025-09-26),true,5492617413812
+PF-000394,1,Pepinillos Agridulces 330 G GULLO,3,3992.69,4,Pedido histórico field mock (2025-09-26),true,5492617413812
+PF-000394,699,Cebollitas en Vinagre VANOLI Frasco 330 G,1,2566.94,4,Pedido histórico field mock (2025-09-26),true,5492617413812
+PF-000395,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido histórico field mock (2025-11-05),true,5492617413812
+PF-000395,1,Pepinillos Agridulces 330 G GULLO,1,3992.69,4,Pedido histórico field mock (2025-11-05),true,5492617413812
+PF-000395,656,Aceituna Verde Desc. VANOLI 150g,1,1075.22,4,Pedido histórico field mock (2025-11-05),true,5492617413812
+PF-000396,12684,Salsa Soja VANOLI 1000cc PET,1,2731.77,4,Pedido histórico field mock (2025-12-11),true,5492617413812
+PF-000396,1,Pepinillos Agridulces 330 G GULLO,2,3992.69,4,Pedido histórico field mock (2025-12-11),true,5492617413812
+PF-000396,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,4,3765.59,4,Pedido histórico field mock (2025-12-11),true,5492617413812
+PF-000397,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido histórico field mock (2026-01-17),true,5492617413812
+PF-000397,1,Pepinillos Agridulces 330 G GULLO,2,3992.69,4,Pedido histórico field mock (2026-01-17),true,5492617413812
+PF-000397,699,Cebollitas en Vinagre VANOLI Frasco 330 G,4,2566.94,4,Pedido histórico field mock (2026-01-17),true,5492617413812
+PF-000397,10169,Salame Milan Fox Crespon,3,14960.00,4,Pedido histórico field mock (2026-01-17),true,5492617413812
+PF-000398,12684,Salsa Soja VANOLI 1000cc PET,1,2731.77,4,Pedido reciente field mock (2026-05-03),true,5492617413812
+PF-000398,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido reciente field mock (2026-05-03),true,5492617413812
+PF-000399,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido reciente field mock (2026-05-05),true,5492617413812
+PF-000399,12684,Salsa Soja VANOLI 1000cc PET,3,2731.77,4,Pedido reciente field mock (2026-05-05),true,5492617413812
+PF-000400,10218,Aceitunas Rebanadas PET1500g GULLO,2,9098.15,4,Pedido reciente field mock (2026-05-16),true,5492617413812
+PF-000400,1,Pepinillos Agridulces 330 G GULLO,3,3992.69,4,Pedido reciente field mock (2026-05-16),true,5492617413812
+PF-000401,10218,Aceitunas Rebanadas PET1500g GULLO,4,10703.70,1,Pedido histórico field mock (2025-06-03),true,5492617236955
+PF-000401,11309,Tostadas SIN SAL CORMILLOT 200G,4,1569.28,1,Pedido histórico field mock (2025-06-03),true,5492617236955
+PF-000401,310,Queso Reggianito Cremigal x Kg,2,14192.63,1,Pedido histórico field mock (2025-06-03),true,5492617236955
+PF-000401,656,Aceituna Verde Desc. VANOLI 150g,4,1264.96,1,Pedido histórico field mock (2025-06-03),true,5492617236955
+PF-000402,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido histórico field mock (2025-07-14),true,5492617236955
+PF-000402,11309,Tostadas SIN SAL CORMILLOT 200G,2,1569.28,1,Pedido histórico field mock (2025-07-14),true,5492617236955
+PF-000402,10659,Pickle Mixto VANOLI Frasco 330g,3,2660.73,1,Pedido histórico field mock (2025-07-14),true,5492617236955
+PF-000402,925,Pesto 25g CENTURION,3,572.22,1,Pedido histórico field mock (2025-07-14),true,5492617236955
+PF-000403,10218,Aceitunas Rebanadas PET1500g GULLO,3,10703.70,1,Pedido histórico field mock (2025-08-12),true,5492617236955
+PF-000403,11309,Tostadas SIN SAL CORMILLOT 200G,4,1569.28,1,Pedido histórico field mock (2025-08-12),true,5492617236955
+PF-000403,10169,Salame Milan Fox Crespon,2,17600.00,1,Pedido histórico field mock (2025-08-12),true,5492617236955
+PF-000403,914,Nuez Moscada Grano CENTURION,4,1236.97,1,Pedido histórico field mock (2025-08-12),true,5492617236955
+PF-000404,10218,Aceitunas Rebanadas PET1500g GULLO,2,10703.70,1,Pedido histórico field mock (2025-09-21),true,5492617236955
+PF-000404,11309,Tostadas SIN SAL CORMILLOT 200G,4,1569.28,1,Pedido histórico field mock (2025-09-21),true,5492617236955
+PF-000405,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido histórico field mock (2025-10-30),true,5492617236955
+PF-000405,11309,Tostadas SIN SAL CORMILLOT 200G,1,1569.28,1,Pedido histórico field mock (2025-10-30),true,5492617236955
+PF-000405,10659,Pickle Mixto VANOLI Frasco 330g,2,2660.73,1,Pedido histórico field mock (2025-10-30),true,5492617236955
+PF-000406,10218,Aceitunas Rebanadas PET1500g GULLO,2,10703.70,1,Pedido histórico field mock (2025-12-08),true,5492617236955
+PF-000406,11309,Tostadas SIN SAL CORMILLOT 200G,2,1569.28,1,Pedido histórico field mock (2025-12-08),true,5492617236955
+PF-000407,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido histórico field mock (2026-01-10),true,5492617236955
+PF-000407,11309,Tostadas SIN SAL CORMILLOT 200G,1,1569.28,1,Pedido histórico field mock (2026-01-10),true,5492617236955
+PF-000407,10113,Paleta Especial Fox Oval,2,9400.00,1,Pedido histórico field mock (2026-01-10),true,5492617236955
+PF-000408,11309,Tostadas SIN SAL CORMILLOT 200G,3,1569.28,1,Pedido reciente field mock (2026-04-16),true,5492617236955
+PF-000408,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1858.43,1,Pedido reciente field mock (2026-04-16),true,5492617236955
+PF-000409,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1858.43,1,Pedido reciente field mock (2026-04-18),true,5492617236955
+PF-000409,1,Pepinillos Agridulces 330 G GULLO,3,4697.28,1,Pedido reciente field mock (2026-04-18),true,5492617236955
+PF-000410,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido reciente field mock (2026-05-08),true,5492617236955
+PF-000410,1,Pepinillos Agridulces 330 G GULLO,1,4697.28,1,Pedido reciente field mock (2026-05-08),true,5492617236955
+PF-000411,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-06-01),true,5492612928724
+PF-000411,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-06-01),true,5492612928724
+PF-000412,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-07-12),true,5492612928724
+PF-000412,1,Pepinillos Agridulces 330 G GULLO,1,5401.87,2,Pedido histórico field mock (2025-07-12),true,5492612928724
+PF-000412,656,Aceituna Verde Desc. VANOLI 150g,1,1454.70,2,Pedido histórico field mock (2025-07-12),true,5492612928724
+PF-000413,12684,Salsa Soja VANOLI 1000cc PET,4,3695.93,2,Pedido histórico field mock (2025-08-18),true,5492612928724
+PF-000413,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2025-08-18),true,5492612928724
+PF-000413,699,Cebollitas en Vinagre VANOLI Frasco 330 G,2,3472.92,2,Pedido histórico field mock (2025-08-18),true,5492612928724
+PF-000414,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-09-22),true,5492612928724
+PF-000414,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2025-09-22),true,5492612928724
+PF-000415,12684,Salsa Soja VANOLI 1000cc PET,4,3695.93,2,Pedido histórico field mock (2025-11-04),true,5492612928724
+PF-000415,1,Pepinillos Agridulces 330 G GULLO,2,5401.87,2,Pedido histórico field mock (2025-11-04),true,5492612928724
+PF-000415,699,Cebollitas en Vinagre VANOLI Frasco 330 G,4,3472.92,2,Pedido histórico field mock (2025-11-04),true,5492612928724
+PF-000415,44,Dulce de Leche Cremigal Familiar 250 G,2,1507.57,2,Pedido histórico field mock (2025-11-04),true,5492612928724
+PF-000416,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-12-04),true,5492612928724
+PF-000416,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido histórico field mock (2025-12-04),true,5492612928724
+PF-000416,44,Dulce de Leche Cremigal Familiar 250 G,2,1507.57,2,Pedido histórico field mock (2025-12-04),true,5492612928724
+PF-000416,925,Pesto 25g CENTURION,4,658.05,2,Pedido histórico field mock (2025-12-04),true,5492612928724
+PF-000417,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2026-01-14),true,5492612928724
+PF-000417,1,Pepinillos Agridulces 330 G GULLO,4,5401.87,2,Pedido histórico field mock (2026-01-14),true,5492612928724
+PF-000417,925,Pesto 25g CENTURION,3,658.05,2,Pedido histórico field mock (2026-01-14),true,5492612928724
+PF-000418,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido reciente field mock (2026-04-03),true,5492612928724
+PF-000418,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido reciente field mock (2026-04-03),true,5492612928724
+PF-000419,10218,Aceitunas Rebanadas PET1500g GULLO,1,12309.25,2,Pedido reciente field mock (2026-04-27),true,5492612928724
+PF-000419,1,Pepinillos Agridulces 330 G GULLO,3,5401.87,2,Pedido reciente field mock (2026-04-27),true,5492612928724
+PF-000420,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido reciente field mock (2026-04-30),true,5492612928724
+PF-000420,10218,Aceitunas Rebanadas PET1500g GULLO,3,12309.25,2,Pedido reciente field mock (2026-04-30),true,5492612928724
+PF-000421,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-06-01),true,5492999435946
+PF-000421,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido histórico field mock (2025-06-01),true,5492999435946
+PF-000421,10199,Yogur Natural S/Azucar Cremigal 170g,4,546.04,3,Pedido histórico field mock (2025-06-01),true,5492999435946
+PF-000421,10169,Salame Milan Fox Crespon,3,15840.00,3,Pedido histórico field mock (2025-06-01),true,5492999435946
+PF-000422,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2025-07-12),true,5492999435946
+PF-000422,10218,Aceitunas Rebanadas PET1500g GULLO,2,9633.33,3,Pedido histórico field mock (2025-07-12),true,5492999435946
+PF-000423,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-08-11),true,5492999435946
+PF-000423,10218,Aceitunas Rebanadas PET1500g GULLO,4,9633.33,3,Pedido histórico field mock (2025-08-11),true,5492999435946
+PF-000423,10169,Salame Milan Fox Crespon,2,15840.00,3,Pedido histórico field mock (2025-08-11),true,5492999435946
+PF-000424,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido histórico field mock (2025-09-22),true,5492999435946
+PF-000424,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido histórico field mock (2025-09-22),true,5492999435946
+PF-000424,286,Pan Multicereal CORMILLOT 410 G,1,2165.13,3,Pedido histórico field mock (2025-09-22),true,5492999435946
+PF-000425,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido histórico field mock (2025-11-04),true,5492999435946
+PF-000425,10218,Aceitunas Rebanadas PET1500g GULLO,4,9633.33,3,Pedido histórico field mock (2025-11-04),true,5492999435946
+PF-000425,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,4,3987.10,3,Pedido histórico field mock (2025-11-04),true,5492999435946
+PF-000425,10659,Pickle Mixto VANOLI Frasco 330g,1,2394.66,3,Pedido histórico field mock (2025-11-04),true,5492999435946
+PF-000426,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido histórico field mock (2025-12-08),true,5492999435946
+PF-000426,10218,Aceitunas Rebanadas PET1500g GULLO,4,9633.33,3,Pedido histórico field mock (2025-12-08),true,5492999435946
+PF-000426,228,Aceto Balsamico 250cc GULLO,2,3549.42,3,Pedido histórico field mock (2025-12-08),true,5492999435946
+PF-000426,286,Pan Multicereal CORMILLOT 410 G,1,2165.13,3,Pedido histórico field mock (2025-12-08),true,5492999435946
+PF-000427,12684,Salsa Soja VANOLI 1000cc PET,2,2892.47,3,Pedido histórico field mock (2026-01-17),true,5492999435946
+PF-000427,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido histórico field mock (2026-01-17),true,5492999435946
+PF-000428,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido reciente field mock (2026-04-13),true,5492999435946
+PF-000428,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido reciente field mock (2026-04-13),true,5492999435946
+PF-000429,11309,Tostadas SIN SAL CORMILLOT 200G,3,1412.35,3,Pedido reciente field mock (2026-05-01),true,5492999435946
+PF-000429,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1672.59,3,Pedido reciente field mock (2026-05-01),true,5492999435946
+PF-000430,11309,Tostadas SIN SAL CORMILLOT 200G,3,1412.35,3,Pedido reciente field mock (2026-05-17),true,5492999435946
+PF-000430,10218,Aceitunas Rebanadas PET1500g GULLO,1,9633.33,3,Pedido reciente field mock (2026-05-17),true,5492999435946
+PF-000431,12684,Salsa Soja VANOLI 1000cc PET,4,2731.77,4,Pedido histórico field mock (2025-06-06),true,5493517632424
+PF-000431,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido histórico field mock (2025-06-06),true,5493517632424
+PF-000431,656,Aceituna Verde Desc. VANOLI 150g,3,1075.22,4,Pedido histórico field mock (2025-06-06),true,5493517632424
+PF-000431,925,Pesto 25g CENTURION,4,486.39,4,Pedido histórico field mock (2025-06-06),true,5493517632424
+PF-000432,12684,Salsa Soja VANOLI 1000cc PET,4,2731.77,4,Pedido histórico field mock (2025-07-10),true,5493517632424
+PF-000432,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2025-07-10),true,5493517632424
+PF-000432,925,Pesto 25g CENTURION,3,486.39,4,Pedido histórico field mock (2025-07-10),true,5493517632424
+PF-000433,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido histórico field mock (2025-08-13),true,5493517632424
+PF-000433,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2025-08-13),true,5493517632424
+PF-000433,310,Queso Reggianito Cremigal x Kg,3,12063.74,4,Pedido histórico field mock (2025-08-13),true,5493517632424
+PF-000433,44,Dulce de Leche Cremigal Familiar 250 G,1,1114.29,4,Pedido histórico field mock (2025-08-13),true,5493517632424
+PF-000434,12684,Salsa Soja VANOLI 1000cc PET,1,2731.77,4,Pedido histórico field mock (2025-09-28),true,5493517632424
+PF-000434,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1579.67,4,Pedido histórico field mock (2025-09-28),true,5493517632424
+PF-000435,12684,Salsa Soja VANOLI 1000cc PET,3,2731.77,4,Pedido histórico field mock (2025-11-01),true,5493517632424
+PF-000435,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1579.67,4,Pedido histórico field mock (2025-11-01),true,5493517632424
+PF-000436,12684,Salsa Soja VANOLI 1000cc PET,2,2731.77,4,Pedido histórico field mock (2025-12-13),true,5493517632424
+PF-000436,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1579.67,4,Pedido histórico field mock (2025-12-13),true,5493517632424
+PF-000437,12684,Salsa Soja VANOLI 1000cc PET,3,2731.77,4,Pedido histórico field mock (2026-01-14),true,5493517632424
+PF-000437,1514,Bizcochuelo Vainilla Chip Emeth 450G,4,1579.67,4,Pedido histórico field mock (2026-01-14),true,5493517632424
+PF-000437,10659,Pickle Mixto VANOLI Frasco 330g,2,2261.62,4,Pedido histórico field mock (2026-01-14),true,5493517632424
+PF-000437,228,Aceto Balsamico 250cc GULLO,2,3352.23,4,Pedido histórico field mock (2026-01-14),true,5493517632424
+PF-000438,12684,Salsa Soja VANOLI 1000cc PET,1,2731.77,4,Pedido reciente field mock (2026-04-10),true,5493517632424
+PF-000438,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,1579.67,4,Pedido reciente field mock (2026-04-10),true,5493517632424
+PF-000439,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1579.67,4,Pedido reciente field mock (2026-04-20),true,5493517632424
+PF-000439,11309,Tostadas SIN SAL CORMILLOT 200G,3,1333.89,4,Pedido reciente field mock (2026-04-20),true,5493517632424
+PF-000440,10218,Aceitunas Rebanadas PET1500g GULLO,3,9098.15,4,Pedido reciente field mock (2026-05-12),true,5493517632424
+PF-000440,1,Pepinillos Agridulces 330 G GULLO,2,3992.69,4,Pedido reciente field mock (2026-05-12),true,5493517632424
+PF-000441,1,Pepinillos Agridulces 330 G GULLO,3,4697.28,1,Pedido histórico field mock (2025-06-04),true,5493416524997
+PF-000441,12684,Salsa Soja VANOLI 1000cc PET,3,3213.85,1,Pedido histórico field mock (2025-06-04),true,5493416524997
+PF-000441,10199,Yogur Natural S/Azucar Cremigal 170g,1,606.71,1,Pedido histórico field mock (2025-06-04),true,5493416524997
+PF-000442,1,Pepinillos Agridulces 330 G GULLO,3,4697.28,1,Pedido histórico field mock (2025-07-11),true,5493416524997
+PF-000442,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-07-11),true,5493416524997
+PF-000442,310,Queso Reggianito Cremigal x Kg,2,14192.63,1,Pedido histórico field mock (2025-07-11),true,5493416524997
+PF-000443,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido histórico field mock (2025-08-17),true,5493416524997
+PF-000443,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-08-17),true,5493416524997
+PF-000443,310,Queso Reggianito Cremigal x Kg,4,14192.63,1,Pedido histórico field mock (2025-08-17),true,5493416524997
+PF-000443,699,Cebollitas en Vinagre VANOLI Frasco 330 G,1,3019.93,1,Pedido histórico field mock (2025-08-17),true,5493416524997
+PF-000444,1,Pepinillos Agridulces 330 G GULLO,1,4697.28,1,Pedido histórico field mock (2025-09-28),true,5493416524997
+PF-000444,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-09-28),true,5493416524997
+PF-000444,699,Cebollitas en Vinagre VANOLI Frasco 330 G,2,3019.93,1,Pedido histórico field mock (2025-09-28),true,5493416524997
+PF-000445,1,Pepinillos Agridulces 330 G GULLO,4,4697.28,1,Pedido histórico field mock (2025-11-03),true,5493416524997
+PF-000445,12684,Salsa Soja VANOLI 1000cc PET,4,3213.85,1,Pedido histórico field mock (2025-11-03),true,5493416524997
+PF-000446,1,Pepinillos Agridulces 330 G GULLO,1,4697.28,1,Pedido histórico field mock (2025-12-12),true,5493416524997
+PF-000446,12684,Salsa Soja VANOLI 1000cc PET,1,3213.85,1,Pedido histórico field mock (2025-12-12),true,5493416524997
+PF-000446,656,Aceituna Verde Desc. VANOLI 150g,1,1264.96,1,Pedido histórico field mock (2025-12-12),true,5493416524997
+PF-000447,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido histórico field mock (2026-01-10),true,5493416524997
+PF-000447,12684,Salsa Soja VANOLI 1000cc PET,4,3213.85,1,Pedido histórico field mock (2026-01-10),true,5493416524997
+PF-000448,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1858.43,1,Pedido reciente field mock (2026-04-05),true,5493416524997
+PF-000448,10218,Aceitunas Rebanadas PET1500g GULLO,1,10703.70,1,Pedido reciente field mock (2026-04-05),true,5493416524997
+PF-000449,1,Pepinillos Agridulces 330 G GULLO,2,4697.28,1,Pedido reciente field mock (2026-04-18),true,5493416524997
+PF-000449,12684,Salsa Soja VANOLI 1000cc PET,2,3213.85,1,Pedido reciente field mock (2026-04-18),true,5493416524997
+PF-000450,1,Pepinillos Agridulces 330 G GULLO,3,4697.28,1,Pedido reciente field mock (2026-05-07),true,5493416524997
+PF-000450,11309,Tostadas SIN SAL CORMILLOT 200G,2,1569.28,1,Pedido reciente field mock (2026-05-07),true,5493416524997
+PF-000451,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido histórico field mock (2025-06-06),true,5493876499570
+PF-000451,12684,Salsa Soja VANOLI 1000cc PET,2,3695.93,2,Pedido histórico field mock (2025-06-06),true,5493876499570
+PF-000451,1790,Mermelada S/AZUCAR Frambuesa CORMILLOT 390G,4,5094.63,2,Pedido histórico field mock (2025-06-06),true,5493876499570
+PF-000452,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido histórico field mock (2025-07-04),true,5493876499570
+PF-000452,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-07-04),true,5493876499570
+PF-000453,11309,Tostadas SIN SAL CORMILLOT 200G,3,1804.67,2,Pedido histórico field mock (2025-08-14),true,5493876499570
+PF-000453,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-08-14),true,5493876499570
+PF-000454,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido histórico field mock (2025-09-25),true,5493876499570
+PF-000454,12684,Salsa Soja VANOLI 1000cc PET,3,3695.93,2,Pedido histórico field mock (2025-09-25),true,5493876499570
+PF-000455,11309,Tostadas SIN SAL CORMILLOT 200G,4,1804.67,2,Pedido histórico field mock (2025-11-05),true,5493876499570
+PF-000455,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2025-11-05),true,5493876499570
+PF-000456,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido histórico field mock (2025-12-09),true,5493876499570
+PF-000456,12684,Salsa Soja VANOLI 1000cc PET,4,3695.93,2,Pedido histórico field mock (2025-12-09),true,5493876499570
+PF-000456,228,Aceto Balsamico 250cc GULLO,4,4535.37,2,Pedido histórico field mock (2025-12-09),true,5493876499570
+PF-000457,11309,Tostadas SIN SAL CORMILLOT 200G,3,1804.67,2,Pedido histórico field mock (2026-01-11),true,5493876499570
+PF-000457,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido histórico field mock (2026-01-11),true,5493876499570
+PF-000457,914,Nuez Moscada Grano CENTURION,4,1422.52,2,Pedido histórico field mock (2026-01-11),true,5493876499570
+PF-000457,44,Dulce de Leche Cremigal Familiar 250 G,3,1507.57,2,Pedido histórico field mock (2026-01-11),true,5493876499570
+PF-000458,11309,Tostadas SIN SAL CORMILLOT 200G,1,1804.67,2,Pedido reciente field mock (2026-04-20),true,5493876499570
+PF-000458,12684,Salsa Soja VANOLI 1000cc PET,1,3695.93,2,Pedido reciente field mock (2026-04-20),true,5493876499570
+PF-000459,1514,Bizcochuelo Vainilla Chip Emeth 450G,1,2137.19,2,Pedido reciente field mock (2026-04-22),true,5493876499570
+PF-000459,10218,Aceitunas Rebanadas PET1500g GULLO,1,12309.25,2,Pedido reciente field mock (2026-04-22),true,5493876499570
+PF-000460,10218,Aceitunas Rebanadas PET1500g GULLO,1,12309.25,2,Pedido reciente field mock (2026-05-04),true,5493876499570
+PF-000460,11309,Tostadas SIN SAL CORMILLOT 200G,2,1804.67,2,Pedido reciente field mock (2026-05-04),true,5493876499570
+PF-000461,11309,Tostadas SIN SAL CORMILLOT 200G,4,1412.35,3,Pedido histórico field mock (2025-06-01),true,5492998066543
+PF-000461,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-06-01),true,5492998066543
+PF-000461,286,Pan Multicereal CORMILLOT 410 G,3,2165.13,3,Pedido histórico field mock (2025-06-01),true,5492998066543
+PF-000462,11309,Tostadas SIN SAL CORMILLOT 200G,2,1412.35,3,Pedido histórico field mock (2025-07-12),true,5492998066543
+PF-000462,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2025-07-12),true,5492998066543
+PF-000462,10273,Mermelada EMETH Pote CIRUELA 500G,1,921.20,3,Pedido histórico field mock (2025-07-12),true,5492998066543
+PF-000462,310,Queso Reggianito Cremigal x Kg,4,12773.37,3,Pedido histórico field mock (2025-07-12),true,5492998066543
+PF-000463,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido histórico field mock (2025-08-17),true,5492998066543
+PF-000463,12684,Salsa Soja VANOLI 1000cc PET,1,2892.47,3,Pedido histórico field mock (2025-08-17),true,5492998066543
+PF-000463,10659,Pickle Mixto VANOLI Frasco 330g,2,2394.66,3,Pedido histórico field mock (2025-08-17),true,5492998066543
+PF-000464,11309,Tostadas SIN SAL CORMILLOT 200G,3,1412.35,3,Pedido histórico field mock (2025-09-21),true,5492998066543
+PF-000464,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2025-09-21),true,5492998066543
+PF-000464,699,Cebollitas en Vinagre VANOLI Frasco 330 G,1,2717.94,3,Pedido histórico field mock (2025-09-21),true,5492998066543
+PF-000465,11309,Tostadas SIN SAL CORMILLOT 200G,3,1412.35,3,Pedido histórico field mock (2025-10-27),true,5492998066543
+PF-000465,12684,Salsa Soja VANOLI 1000cc PET,4,2892.47,3,Pedido histórico field mock (2025-10-27),true,5492998066543
+PF-000465,10273,Mermelada EMETH Pote CIRUELA 500G,4,921.20,3,Pedido histórico field mock (2025-10-27),true,5492998066543
+PF-000465,44,Dulce de Leche Cremigal Familiar 250 G,4,1179.84,3,Pedido histórico field mock (2025-10-27),true,5492998066543
+PF-000466,11309,Tostadas SIN SAL CORMILLOT 200G,4,1412.35,3,Pedido histórico field mock (2025-12-03),true,5492998066543
+PF-000466,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido histórico field mock (2025-12-03),true,5492998066543
+PF-000466,44,Dulce de Leche Cremigal Familiar 250 G,1,1179.84,3,Pedido histórico field mock (2025-12-03),true,5492998066543
+PF-000466,310,Queso Reggianito Cremigal x Kg,1,12773.37,3,Pedido histórico field mock (2025-12-03),true,5492998066543
+PF-000467,11309,Tostadas SIN SAL CORMILLOT 200G,1,1412.35,3,Pedido histórico field mock (2026-01-11),true,5492998066543
+PF-000467,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido histórico field mock (2026-01-11),true,5492998066543
+PF-000468,1514,Bizcochuelo Vainilla Chip Emeth 450G,3,1672.59,3,Pedido reciente field mock (2026-04-23),true,5492998066543
+PF-000468,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido reciente field mock (2026-04-23),true,5492998066543
+PF-000469,1514,Bizcochuelo Vainilla Chip Emeth 450G,2,1672.59,3,Pedido reciente field mock (2026-04-24),true,5492998066543
+PF-000469,10218,Aceitunas Rebanadas PET1500g GULLO,2,9633.33,3,Pedido reciente field mock (2026-04-24),true,5492998066543
+PF-000470,12684,Salsa Soja VANOLI 1000cc PET,3,2892.47,3,Pedido reciente field mock (2026-05-09),true,5492998066543
+PF-000470,10218,Aceitunas Rebanadas PET1500g GULLO,3,9633.33,3,Pedido reciente field mock (2026-05-09),true,5492998066543

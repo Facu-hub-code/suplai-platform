@@ -96,15 +96,113 @@ def build_multipolygon_wkt(coords: list) -> str:
     return f"SRID=4326;MULTIPOLYGON((({coords_str})))"
 
 
-def cuadrado_polygon(lon_center: float, lat_center: float, delta: float = 0.004) -> list:
-    """Genera 5 vértices de un cuadrado cerrado alrededor de (lon_center, lat_center)."""
-    return [
-        (lon_center - delta, lat_center - delta),
-        (lon_center + delta, lat_center - delta),
-        (lon_center + delta, lat_center + delta),
-        (lon_center - delta, lat_center + delta),
-        (lon_center - delta, lat_center - delta),  # cerrar polígono
-    ]
+def _cerrar_anillo(coords: list) -> list:
+    """Asegura anillo cerrado (primer punto = último)."""
+    if not coords:
+        return coords
+    if coords[0] != coords[-1]:
+        return list(coords) + [coords[0]]
+    return list(coords)
+
+
+def _es_rectangulo_axis_aligned(coords: list, tol: float = 1e-9) -> bool:
+    """True si el anillo es un bbox axis-aligned (4+cierre) — forma a evitar en el mapa."""
+    ring = coords[:-1] if coords and coords[0] == coords[-1] else coords
+    if len(ring) != 4:
+        return False
+    lons = {round(p[0], 9) for p in ring}
+    lats = {round(p[1], 9) for p in ring}
+    return len(lons) == 2 and len(lats) == 2
+
+
+def convex_hull(points: list) -> list:
+    """
+    Convex hull 2D (Andrew monotone chain). points: [(lon, lat), ...].
+    Retorna anillo cerrado en sentido antihorario.
+    """
+    pts = sorted({(float(x), float(y)) for x, y in points})
+    if len(pts) <= 1:
+        return _cerrar_anillo(pts)
+    if len(pts) == 2:
+        return _cerrar_anillo(pts)
+
+    def cross(o, a, b):
+        return (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0])
+
+    lower: list = []
+    for p in pts:
+        while len(lower) >= 2 and cross(lower[-2], lower[-1], p) <= 0:
+            lower.pop()
+        lower.append(p)
+    upper: list = []
+    for p in reversed(pts):
+        while len(upper) >= 2 and cross(upper[-2], upper[-1], p) <= 0:
+            upper.pop()
+        upper.append(p)
+    hull = lower[:-1] + upper[:-1]
+    return _cerrar_anillo(hull)
+
+
+def expandir_desde_centroide(coords: list, padding: float) -> list:
+    """Empuja cada vértice radialmente desde el centroide (padding en grados)."""
+    ring = coords[:-1] if coords and coords[0] == coords[-1] else list(coords)
+    if not ring:
+        return coords
+    cx = sum(p[0] for p in ring) / len(ring)
+    cy = sum(p[1] for p in ring) / len(ring)
+    out = []
+    for lon, lat in ring:
+        dx, dy = lon - cx, lat - cy
+        dist = (dx * dx + dy * dy) ** 0.5
+        if dist < 1e-12:
+            out.append((lon + padding, lat))
+        else:
+            scale = (dist + padding) / dist
+            out.append((cx + dx * scale, cy + dy * scale))
+    return _cerrar_anillo(out)
+
+
+def poligono_irregular_alrededor(
+    lon_center: float,
+    lat_center: float,
+    radio: float = 0.004,
+    n_vertices: int = 7,
+    seed: int = 0,
+) -> list:
+    """
+    Polígono irregular (no rectangular) alrededor de un centro.
+    Radios/ángulos jittered — apto para fallback sin clientes.
+    """
+    import math
+
+    rng = random.Random(seed + 4242)
+    n = max(5, int(n_vertices))
+    coords = []
+    for i in range(n):
+        # Ángulo base uniforme + jitter; radio variable (0.65–1.15)×radio
+        ang = (2 * math.pi * i / n) + rng.uniform(-0.18, 0.18)
+        r = radio * rng.uniform(0.65, 1.15)
+        coords.append((lon_center + r * math.cos(ang), lat_center + r * math.sin(ang)))
+    return _cerrar_anillo(coords)
+
+
+def poligono_desde_puntos_clientes(points: list, padding: float = 0.0009, seed: int = 0) -> list:
+    """
+    Construye un anillo irregular a partir de clientes de la zona.
+    Siempre usa pétalos irregulares (no bbox / no hull de 4 lados) para que el mapa
+    comercial no se vea como una grilla de cajas.
+    """
+    if not points:
+        return []
+    uniq = [(float(lon), float(lat)) for lon, lat in points]
+    cx = sum(p[0] for p in uniq) / len(uniq)
+    cy = sum(p[1] for p in uniq) / len(uniq)
+    # Radio = distancia máxima al centroide + padding (cubre a todos los clientes)
+    max_r = 0.0
+    for lon, lat in uniq:
+        max_r = max(max_r, ((lon - cx) ** 2 + (lat - cy) ** 2) ** 0.5)
+    radio = max(max_r + padding, 0.0035)
+    return poligono_irregular_alrededor(cx, cy, radio=radio, n_vertices=7, seed=seed)
 
 def obtener_coordenadas_ciudad(ciudad: str) -> tuple:
     """Obtiene el centroide geométrico de una ciudad consultando Nominatim (OpenStreetMap)."""
@@ -221,11 +319,14 @@ Requisitos OBLIGATORIOS:
    Teléfono: El número debe comenzar con {prefijo_pais} seguido de los dígitos locales correspondientes, respetando la longitud de un número celular de {ciudad_base}. NO incluyas signos `+` ni guiones.
 2. Exactamente 6 zonas en estas direcciones específicas: Noroeste, Norte, Noreste, Suroeste, Sur, Sureste.
    - El atributo "nombre" debe tener el formato "ZONA <DIRECCION> - Nombre Barrio Real".
-   - NO incluyas coordenadas geográficas.
+   - NO uses un bounding box / rectángulo axis-aligned: cada zona DEBE ser un polígono
+     irregular (5–8 vértices, forma de barrio). Incluí opcionalmente "coords" como lista
+     de [lon, lat] cerrada (≥5 vértices distintos + cierre) si conocés la silueta del barrio.
    - zone_type SOLO puede ser 'sales' o 'route'. NO usar otros valores.
    - dia_visita SOLO puede ser: lunes, martes, miercoles, jueves, viernes, sabado.
-   - Los nombres de zonas DEBEN usar barrios o localidades REALES de {ciudad_base}
-     (ej. Villa Allende, Mendiolaza, Malagueño, Valle Escondido, Argüello, La Calera).
+   - Los nombres de zonas DEBEN usar barrios o localidades REALES cercanas a {ciudad_base}
+     (NO inventes barrios de otra ciudad; si la base es Villa Carlos Paz usá Punilla:
+     Villa del Parque, Costa Azul, Sol y Río, San Antonio de Arredondo, etc.).
    - Cada zona en un barrio DISTINTO y pequeño (puntual), NO una zona que cubra toda la ciudad.
 3. Al menos 55 nombres comerciales acordes al rubro '{rubro}'.
    Para carnicería/parrilla: usar Parrilla, Asadería, Carnicería, Restaurante, Almacén + apodo local.
@@ -570,33 +671,34 @@ def main():
         ])
         writer.writeheader()
         for zona_idx, z in enumerate(zonas_data[:6]):
-            # Construir geometría a partir del bounding box de sus clientes si hay coordenadas disponibles
+            # Geometría: polígono IRREGULAR (no bbox). Prioridad:
+            # 1) pétalos/hull irregular desde clientes de la zona (siempre ≥6 vértices)
+            # 2) coords del LLM solo si tienen ≥6 vértices y no son rectángulo axis-aligned
+            # 3) fallback irregular alrededor del centro de grilla
+            geom = None
             if coords_por_zona[zona_idx]:
-                lons = [pt[0] for pt in coords_por_zona[zona_idx]]
-                lats = [pt[1] for pt in coords_por_zona[zona_idx]]
-                min_lon, max_lon = min(lons), max(lons)
-                min_lat, max_lat = min(lats), max(lats)
-                
-                # Agregar margen (padding) de 0.0008 (~90 metros) para contener a los clientes
-                padding = 0.0008
-                poly = [
-                    (min_lon - padding, min_lat - padding),
-                    (max_lon + padding, min_lat - padding),
-                    (max_lon + padding, max_lat + padding),
-                    (min_lon - padding, max_lat + padding),
-                    (min_lon - padding, min_lat - padding),
-                ]
+                poly = poligono_desde_puntos_clientes(
+                    coords_por_zona[zona_idx],
+                    padding=0.0009,
+                    seed=zona_idx * 17,
+                )
                 geom = build_multipolygon_wkt(poly)
-            elif "coords" in z:
-                coords = z["coords"]
-                if coords[0] != coords[-1]:
-                    coords = coords + [coords[0]]
-                geom = build_multipolygon_wkt(coords)
-            elif "lon_center" in z and "lat_center" in z:
-                poly = cuadrado_polygon(float(z["lon_center"]), float(z["lat_center"]), delta=0.004)
-                geom = build_multipolygon_wkt(poly)
-            else:
-                poly = cuadrado_polygon(lon_centro, lat_centro, delta=0.004)
+
+            if geom is None:
+                ai_coords = z.get("coords")
+                if isinstance(ai_coords, list) and len(ai_coords) >= 6:
+                    try:
+                        parsed = [(float(p[0]), float(p[1])) for p in ai_coords]
+                        parsed = _cerrar_anillo(parsed)
+                        if len(parsed) >= 7 and not _es_rectangulo_axis_aligned(parsed):
+                            geom = build_multipolygon_wkt(parsed)
+                    except (TypeError, ValueError, IndexError):
+                        geom = None
+
+            if geom is None:
+                lon_c = float(z.get("lon_center", lon_centro))
+                lat_c = float(z.get("lat_center", lat_centro))
+                poly = poligono_irregular_alrededor(lon_c, lat_c, radio=0.004, n_vertices=7, seed=zona_idx * 17)
                 geom = build_multipolygon_wkt(poly)
 
             # Forzar zone_type válido según SKILL.md

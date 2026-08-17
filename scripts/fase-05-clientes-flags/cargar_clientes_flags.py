@@ -57,7 +57,8 @@ async def cargar_flags(esquema: str):
 
     print(f"[*] Procesando {len(filas)} clientes del CSV...")
 
-    conn = await asyncpg.connect(db_url)
+    # Puerto 6543 (Transaction Mode): desactivar cache de prepared statements
+    conn = await asyncpg.connect(db_url, statement_cache_size=0)
     try:
         # search_path para resolver los enums del tenant
         await conn.execute(f"SET search_path TO {esquema}, core, public, extensions")

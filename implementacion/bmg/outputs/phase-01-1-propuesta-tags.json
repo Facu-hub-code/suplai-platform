@@ -1,0 +1,1687 @@
+{
+  "schema": "bmg",
+  "products": [
+    {
+      "product_code": "6806a2260ba1a600048ea430",
+      "nombre": "COMBO 60 SOQUETES ANIMADOS",
+      "tags": {
+        "1": "Indumentaria",
+        "2": "Combos y Packs",
+        "3": "Medias y Soquetes",
+        "4": "Combo 60 Soquetes Animados"
+      }
+    },
+    {
+      "product_code": "6808cb6a55e3d00004c5a7df",
+      "nombre": "MOCHILA 3 EN 1",
+      "tags": {
+        "1": "Accesorios",
+        "2": "Marroquinería",
+        "3": "Bolsos y Mochilas",
+        "4": "Mochila 3 En 1"
+      }
+    },
+    {
+      "product_code": "6808cd6961f3ad00041a0974",
+      "nombre": "LLAVERO DE CAPIBARA",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Llaveros",
+        "4": "Llavero De Capibara"
+      }
+    },
+    {
+      "product_code": "6808ce8806ca020004cf0e95",
+      "nombre": "LLAVEROS ANIMADOS",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Llaveros",
+        "4": "Llaveros Animados"
+      }
+    },
+    {
+      "product_code": "6808cf50f7c7090004d3a961",
+      "nombre": "NAIPES \"UNO\"",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Juegos de Cartas",
+        "4": "Naipes \"Uno\""
+      }
+    },
+    {
+      "product_code": "6808cf9ab81c5f00044d5eb3",
+      "nombre": "TERMO ACERO INOXIDABLE",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Termos y Botellas",
+        "4": "Termo Acero Inoxidable"
+      }
+    },
+    {
+      "product_code": "6808d0563197610004e9245b",
+      "nombre": "BOTELLA SPORT 750ML",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Termos y Botellas",
+        "4": "Botella Sport 750Ml"
+      }
+    },
+    {
+      "product_code": "6808d144625daf00047e1cc5",
+      "nombre": "REPASADOR ECONOMICOS",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Repasador Economicos"
+      }
+    },
+    {
+      "product_code": "6808d212625daf00047e1cc8",
+      "nombre": "REPASADOR ART 973",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Repasador Art 973"
+      }
+    },
+    {
+      "product_code": "6808d41bf0bafe000465a255",
+      "nombre": "JUEGO DE SÁBANAS 2 1/2 PLAZAS",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Juegos",
+        "4": "Juego De Sábanas 2 1/2 Plazas"
+      }
+    },
+    {
+      "product_code": "6808d4c13b260c0004dd1a2d",
+      "nombre": "JUEGO DE SÁBANAS 1 1/2 PLAZAS",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Juegos",
+        "4": "Juego De Sábanas 1 1/2 Plazas"
+      }
+    },
+    {
+      "product_code": "6808d63ff3178f000406fa66",
+      "nombre": "MANTEL ECO CUERO 1.40X2.00 M",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Mantel Eco Cuero 1.40X2.00 M"
+      }
+    },
+    {
+      "product_code": "6808d6acf3178f000406fa67",
+      "nombre": "JUEGO TOALLA Y TOALLON “WOSSEN”",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Juego Toalla Y Toallon “Wossen”"
+      }
+    },
+    {
+      "product_code": "6808d9502f28fc00048686ee",
+      "nombre": "TOALLÓN PONCHO INFANTIL",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Blanqueria",
+        "4": "Toallón Poncho Infantil"
+      }
+    },
+    {
+      "product_code": "6808d99fcf60490004aecbe3",
+      "nombre": "CORTINA DE BAÑO DE PVC",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Cortina De Baño De Pvc"
+      }
+    },
+    {
+      "product_code": "68092a4a7b096f00046bfec4",
+      "nombre": "GORRAS DE MARCAS",
+      "tags": {
+        "1": "Indumentaria",
+        "2": "Gorras y Sombreros",
+        "3": "Gorras",
+        "4": "Gorras De Marcas"
+      }
+    },
+    {
+      "product_code": "68092bb47b096f00046bfec9",
+      "nombre": "CAPELINA CON OREJITAS NENA",
+      "tags": {
+        "1": "Indumentaria",
+        "2": "Gorras y Sombreros",
+        "3": "Gorras",
+        "4": "Capelina Con Orejitas Nena"
+      }
+    },
+    {
+      "product_code": "680936d8cc71820004c437f6",
+      "nombre": "GORRA LISA POLIESTER",
+      "tags": {
+        "1": "Indumentaria",
+        "2": "Gorras y Sombreros",
+        "3": "Gorras",
+        "4": "Gorra Lisa Poliester"
+      }
+    },
+    {
+      "product_code": "680938dfa4b14c00041e3754",
+      "nombre": "GORRA INFANTIL",
+      "tags": {
+        "1": "Indumentaria",
+        "2": "Gorras y Sombreros",
+        "3": "Gorras",
+        "4": "Gorra Infantil"
+      }
+    },
+    {
+      "product_code": "68306c4f4da4c2000449f14a",
+      "nombre": "COMBO 48 TENIS ANIMADAS/MARCAS",
+      "tags": {
+        "1": "Indumentaria",
+        "2": "Combos y Packs",
+        "3": "Medias y Soquetes",
+        "4": "Combo 48 Tenis Animadas/Marcas"
+      }
+    },
+    {
+      "product_code": "685ae40aa9b8640004a8e575",
+      "nombre": "PERFUME ÁRABE \"CLUB DE NUIT\" 105ML",
+      "tags": {
+        "1": "Belleza y Cuidado Personal",
+        "2": "Fragancias",
+        "3": "Perfumes",
+        "4": "Perfume Árabe \"Club De Nuit\" 105Ml"
+      }
+    },
+    {
+      "product_code": "685ae4744e0f7a00049e1f4b",
+      "nombre": "PERFUME ÁRABE \"AMBER OUD\"  105ML",
+      "tags": {
+        "1": "Belleza y Cuidado Personal",
+        "2": "Fragancias",
+        "3": "Perfumes",
+        "4": "Perfume Árabe \"Amber Oud\" 105Ml"
+      }
+    },
+    {
+      "product_code": "685c6a2766443e00047238b7",
+      "nombre": "MANTA FLANEL LISA 2 PLAZAS",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Manta Flanel Lisa 2 Plazas"
+      }
+    },
+    {
+      "product_code": "6877e397ec07430004761282",
+      "nombre": "FRAZADA PARA BEBÉ X 2 UNIDADES",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Frazada Para Bebé X 2 Unidades"
+      }
+    },
+    {
+      "product_code": "6877f20a45cea10004ebc396",
+      "nombre": "FRAZADA 2 1/2 PLAZAS \"TERRENAL\"",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Frazada 2 1/2 Plazas \"Terrenal\""
+      }
+    },
+    {
+      "product_code": "6877f25f7118860004171422",
+      "nombre": "FRAZADA 1 1/2 PLAZAS \"TERRENAL\"",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Frazada 1 1/2 Plazas \"Terrenal\""
+      }
+    },
+    {
+      "product_code": "687829b1fa95a9000460d440",
+      "nombre": "SONNY ANGEL LABUBU Y FRUTA DECORATIVO OFERTON",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Sonny Angel Labubu Y Fruta Decorativo Of"
+      }
+    },
+    {
+      "product_code": "68782bc0fa95a9000460d444",
+      "nombre": "LLAVERO LABUBU CON ROPA",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Llaveros",
+        "4": "Llavero Labubu Con Ropa"
+      }
+    },
+    {
+      "product_code": "68782da9575f4d0004f4c0de",
+      "nombre": "PELUCHE CAPIBARA CON LUZ Y SONIDO",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Peluche Capibara Con Luz Y Sonido"
+      }
+    },
+    {
+      "product_code": "687fd63de04629000442baa5",
+      "nombre": "MONEDERO CAPIBARA",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Bolsos y Mochilas",
+        "4": "Monedero Capibara"
+      }
+    },
+    {
+      "product_code": "687fdb2caafbe40004ebc612",
+      "nombre": "DISPENSER MINI PATO Y CAPIBARA",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Dispenser Mini Pato Y Capibara"
+      }
+    },
+    {
+      "product_code": "687ffe74d760110004860432",
+      "nombre": "MONOPATIN DE CAPIBARA CON LUCES Y MUSICA",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Monopatin De Capibara Con Luces Y Musica"
+      }
+    },
+    {
+      "product_code": "688002d4f0c4760004bc0aa7",
+      "nombre": "SET X3 MUÑECOS CHIFLES",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Set X3 Muñecos Chifles"
+      }
+    },
+    {
+      "product_code": "6880082c41e2e8000499747d",
+      "nombre": "CABEZA MUSICAL LABUBU OFERTA",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Cabeza Musical Labubu Oferta"
+      }
+    },
+    {
+      "product_code": "688008740416e700046fdf41",
+      "nombre": "LABUBU CANDY SORPRESA OFERTA",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Labubu Candy Sorpresa Oferta"
+      }
+    },
+    {
+      "product_code": "688008bb0416e700046fdf42",
+      "nombre": "LABUBU CON ROPA EN CAJA TRANSPARENTE",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Labubu Con Ropa En Caja Transparente"
+      }
+    },
+    {
+      "product_code": "688010cbd68cda0004271963",
+      "nombre": "PILOTO DE LLUVIA INFANTIL",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Accesorios Varios",
+        "4": "Piloto De Lluvia Infantil"
+      }
+    },
+    {
+      "product_code": "6880123c9e463c00046ed0c0",
+      "nombre": "PELUCHE LABUBU GIGANTE",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Peluche Labubu Gigante"
+      }
+    },
+    {
+      "product_code": "688408fe53a62100046f6aab",
+      "nombre": "SLIME CHICO",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Slime Chico"
+      }
+    },
+    {
+      "product_code": "68840a8553a62100046f6aac",
+      "nombre": "SLIME MEDIANO",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Medias y Soquetes",
+        "4": "Slime Mediano"
+      }
+    },
+    {
+      "product_code": "68840b6753a62100046f6aae",
+      "nombre": "SLIME GRANDE MUÑECOS",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Slime Grande Muñecos"
+      }
+    },
+    {
+      "product_code": "68840d0fd4311300046763f5",
+      "nombre": "SQUISHY OREO/PULPO",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Squishy Oreo/Pulpo"
+      }
+    },
+    {
+      "product_code": "68840dc5d4311300046763f8",
+      "nombre": "SQUISHY ARDILLA/DINO REX/FRUTILLA/BANANA",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Squishy Ardilla/Dino Rex/Frutilla/Banana"
+      }
+    },
+    {
+      "product_code": "6884de9743d0280004d459cd",
+      "nombre": "SQUISHY CALVERA/PATITO/MURCIELAGO/PELOTA PASTEL",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Squishy Calvera/Patito/Murcielago/Pelota"
+      }
+    },
+    {
+      "product_code": "688a9c621006a700042d19b5",
+      "nombre": "VELADOR  CAPIBARA (25057)",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Velador Capibara (25057)"
+      }
+    },
+    {
+      "product_code": "688a9ddc03116800046fec8a",
+      "nombre": "VELADOR CAPIBARA (25137)",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Velador Capibara (25137)"
+      }
+    },
+    {
+      "product_code": "688a9f2f29a1bd0004dc362e",
+      "nombre": "VELADOR CAPIBARA C/ SACA PUNTAS (25138 - 25140)",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Velador Capibara C/ Saca Puntas (25138 -"
+      }
+    },
+    {
+      "product_code": "688aa01f29a1bd0004dc3632",
+      "nombre": "VELADOR CAPIBARA (25139)",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Velador Capibara (25139)"
+      }
+    },
+    {
+      "product_code": "688aa141fc6b660004b37d74",
+      "nombre": "VELADOR CAPIBARA (74)",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Velador Capibara (74)"
+      }
+    },
+    {
+      "product_code": "688aa253fc6b660004b37d78",
+      "nombre": "VELADOR KITTY CELESTE / ROSA",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Velador Kitty Celeste / Rosa"
+      }
+    },
+    {
+      "product_code": "688aa36929a1bd0004dc3645",
+      "nombre": "VELADOR LABUBU (342/343)",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Velador Labubu (342/343)"
+      }
+    },
+    {
+      "product_code": "689503dea287b0000470ad49",
+      "nombre": "ARCO Y FLECHA CON SOPAPA",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Arco Y Flecha Con Sopapa"
+      }
+    },
+    {
+      "product_code": "6895046acdf946000440b36e",
+      "nombre": "PONY PARA PEINAR \"TINY\"",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Pony Para Peinar \"Tiny\""
+      }
+    },
+    {
+      "product_code": "689507a7cdf946000440b373",
+      "nombre": "AUTO A FRICCION MEGA F1",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Auto A Friccion Mega F1"
+      }
+    },
+    {
+      "product_code": "6895081bcdf946000440b374",
+      "nombre": "AUTO TRANSFORMERS",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes Temáticos",
+        "4": "Auto Transformers"
+      }
+    },
+    {
+      "product_code": "68c965555abc0f0004b75c90",
+      "nombre": "TOALLA DE MANO - ART 997",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Toalla De Mano - Art 997"
+      }
+    },
+    {
+      "product_code": "68c966c0bef61e0004bae856",
+      "nombre": "TOALLA DE MANO - ART 995",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Toalla De Mano - Art 995"
+      }
+    },
+    {
+      "product_code": "68c979871038dd0004dd2553",
+      "nombre": "TOALLON SECADO RAPIDO CON FUNDA - (1.75X1.0CM)",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Toallon Secado Rapido Con Funda - (1.75X"
+      }
+    },
+    {
+      "product_code": "68c979bc1038dd0004dd2555",
+      "nombre": "TOALLON SECADO RAPIDO CON FUNDA - (1.30X80cm)",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Toallon Secado Rapido Con Funda - (1.30X"
+      }
+    },
+    {
+      "product_code": "68c97a0c1038dd0004dd2558",
+      "nombre": "TOALLA DE SECADO RAPIDO \"TERRENAL\" - (50X35CM)",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Toalla De Secado Rapido \"Terrenal\" - (50"
+      }
+    },
+    {
+      "product_code": "68c981ed57ed4f00043b65f8",
+      "nombre": "CORTINA DE AMBIENTE 1.20X2.00 M.",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Cortina De Ambiente 1.20X2.00 M."
+      }
+    },
+    {
+      "product_code": "6927043d3f47ac0004fabc7e",
+      "nombre": "BOX 5 PARES DE MEDIAS 3/4 PARA ADULTO.",
+      "tags": {
+        "1": "Indumentaria",
+        "2": "Combos y Packs",
+        "3": "Medias y Soquetes",
+        "4": "Box 5 Pares De Medias 3/4 Para Adulto."
+      }
+    },
+    {
+      "product_code": "693989ce7ebf570004b72cd6",
+      "nombre": "REPASADOR ECO",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Repasador Eco"
+      }
+    },
+    {
+      "product_code": "69a838e7c02d0b0004a00953",
+      "nombre": "FAJA REDUCTORA CON BOLSILLO PARA CELULAR",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Accesorios Varios",
+        "4": "Faja Reductora Con Bolsillo Para Celular"
+      }
+    },
+    {
+      "product_code": "69a8391a3191d7000414d6ea",
+      "nombre": "PARAGUA CHICO PARA BOLSO",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Bolsos y Mochilas",
+        "4": "Paragua Chico Para Bolso"
+      }
+    },
+    {
+      "product_code": "69a839fcfcfe180004c820b4",
+      "nombre": "BALANZA COMERCIAL 40KG",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar Varios",
+        "4": "Balanza Comercial 40Kg"
+      }
+    },
+    {
+      "product_code": "69a83a8efcfe180004c820b5",
+      "nombre": "CORREA  PARA MASCOTAS",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Accesorios Varios",
+        "4": "Correa Para Mascotas"
+      }
+    },
+    {
+      "product_code": "69a83a9dfcfe180004c820b6",
+      "nombre": "BALANZA COMERCIAL 40KM CON VISOR",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar Varios",
+        "4": "Balanza Comercial 40Km Con Visor"
+      }
+    },
+    {
+      "product_code": "69a83b623191d7000414d6ef",
+      "nombre": "TAPON DE TERMO",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Termos y Botellas",
+        "4": "Tapon De Termo"
+      }
+    },
+    {
+      "product_code": "69a83c8ac02d0b0004a00957",
+      "nombre": "ENCENDEDOR CON LINTERNA",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Bazar Varios",
+        "4": "Encendedor Con Linterna"
+      }
+    },
+    {
+      "product_code": "69a84132fcfe180004c820c0",
+      "nombre": "NAIPE “UNO” LABUBU",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Juegos de Cartas",
+        "4": "Naipe “Uno” Labubu"
+      }
+    },
+    {
+      "product_code": "69a84168fcfe180004c820c3",
+      "nombre": "TUPPER APILABLE PLASTICO X 3",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar Varios",
+        "4": "Tupper Apilable Plastico X 3"
+      }
+    },
+    {
+      "product_code": "69a841b43191d7000414d6f2",
+      "nombre": "SET NIVEL - TIRA LINEA CON TIZA",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Herramientas",
+        "4": "Set Nivel - Tira Linea Con Tiza"
+      }
+    },
+    {
+      "product_code": "69a842023191d7000414d6f3",
+      "nombre": "PARAGUAS TRANSPARENTE",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Bazar Varios",
+        "4": "Paraguas Transparente"
+      }
+    },
+    {
+      "product_code": "69a8426b5205850004bb242c",
+      "nombre": "MINI PROCESADORA RECARGABLE",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar Varios",
+        "4": "Mini Procesadora Recargable"
+      }
+    },
+    {
+      "product_code": "69a96cb677797c0004d93aa5",
+      "nombre": "CANDADO CHICO 25MM",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Herramientas",
+        "4": "Candado Chico 25Mm"
+      }
+    },
+    {
+      "product_code": "69a96ce877797c0004d93aa6",
+      "nombre": "CANDADO PARA MOTO",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Herramientas",
+        "4": "Candado Para Moto"
+      }
+    },
+    {
+      "product_code": "69a96d1377797c0004d93aa7",
+      "nombre": "BALANZA 10 KG",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar Varios",
+        "4": "Balanza 10 Kg"
+      }
+    },
+    {
+      "product_code": "69a96d8577797c0004d93aa8",
+      "nombre": "TAPON DE TERMO",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Termos y Botellas",
+        "4": "Tapon De Termo"
+      }
+    },
+    {
+      "product_code": "69a96da42f908500047c9960",
+      "nombre": "MOCHILA CALIDAD PREMIUM MARCAS",
+      "tags": {
+        "1": "Accesorios",
+        "2": "Marroquinería",
+        "3": "Bolsos y Mochilas",
+        "4": "Mochila Calidad Premium Marcas"
+      }
+    },
+    {
+      "product_code": "69a96dec2f908500047c9961",
+      "nombre": "CINTA METRICA 7.5M",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Herramientas",
+        "4": "Cinta Metrica 7.5M"
+      }
+    },
+    {
+      "product_code": "69a96e54d9d285000471b37b",
+      "nombre": "PLANCHA DE PELO PROFESIONAL 45WTS",
+      "tags": {
+        "1": "Belleza y Cuidado Personal",
+        "2": "Cuidado Personal",
+        "3": "Belleza",
+        "4": "Plancha De Pelo Profesional 45Wts"
+      }
+    },
+    {
+      "product_code": "69a96f0ad9d285000471b37c",
+      "nombre": "SET ARTE 208 PZAS.",
+      "tags": {
+        "1": "Escolar y Librería",
+        "2": "Útiles Escolares",
+        "3": "Escolar",
+        "4": "Set Arte 208 Pzas."
+      }
+    },
+    {
+      "product_code": "69a96f88d9d285000471b37e",
+      "nombre": "DILATADOR NASAL CON IMAN Y PACHES IMANTADOS",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Juegos de Cartas",
+        "4": "Dilatador Nasal Con Iman Y Paches Imanta"
+      }
+    },
+    {
+      "product_code": "69a97045d9d285000471b383",
+      "nombre": "HUEVERAS",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar",
+        "4": "Hueveras"
+      }
+    },
+    {
+      "product_code": "69a970bb93e33d0004fa7759",
+      "nombre": "KI DE TERERE",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar",
+        "4": "Ki De Terere"
+      }
+    },
+    {
+      "product_code": "69a9710393e33d0004fa775a",
+      "nombre": "BALANZA DE VIAJE 50KG DIGITAL",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Bazar Varios",
+        "4": "Balanza De Viaje 50Kg Digital"
+      }
+    },
+    {
+      "product_code": "69a9712293e33d0004fa775c",
+      "nombre": "DESMENUZADOR / TRITURADOS DE CARNES",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Juegos de Cartas",
+        "4": "Desmenuzador / Triturados De Carnes"
+      }
+    },
+    {
+      "product_code": "69a9713f93e33d0004fa775d",
+      "nombre": "DESTORNILLADOR X 6 MANGO PLASTICO",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Herramientas",
+        "4": "Destornillador X 6 Mango Plastico"
+      }
+    },
+    {
+      "product_code": "69a971602f908500047c9962",
+      "nombre": "SECADOR DE PELO 2000 W.",
+      "tags": {
+        "1": "Belleza y Cuidado Personal",
+        "2": "Cuidado Personal",
+        "3": "Belleza",
+        "4": "Secador De Pelo 2000 W."
+      }
+    },
+    {
+      "product_code": "69a972412f908500047c9963",
+      "nombre": "LINTERNA MINERA",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Ferreteria",
+        "4": "Linterna Minera"
+      }
+    },
+    {
+      "product_code": "69a972732f908500047c9964",
+      "nombre": "MINI PLANCHA DE PELO",
+      "tags": {
+        "1": "Belleza y Cuidado Personal",
+        "2": "Cuidado Personal",
+        "3": "Belleza",
+        "4": "Mini Plancha De Pelo"
+      }
+    },
+    {
+      "product_code": "69a972c993e33d0004fa775e",
+      "nombre": "KIT PLANCHA + SECADOR PROFESIONAL",
+      "tags": {
+        "1": "Belleza y Cuidado Personal",
+        "2": "Cuidado Personal",
+        "3": "Belleza",
+        "4": "Kit Plancha + Secador Profesional"
+      }
+    },
+    {
+      "product_code": "69a9735e2f908500047c9965",
+      "nombre": "DEPILADOR CRISTAL",
+      "tags": {
+        "1": "Belleza y Cuidado Personal",
+        "2": "Cuidado Personal",
+        "3": "Belleza",
+        "4": "Depilador Cristal"
+      }
+    },
+    {
+      "product_code": "69a98c604313b50004f14a32",
+      "nombre": "LAPIZ CARPINERO",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Útiles",
+        "4": "Lapiz Carpinero"
+      }
+    },
+    {
+      "product_code": "69a98da4720cdc00042d4ae1",
+      "nombre": "SET X5 BOWL DE HIERRO ENLOZADO",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar",
+        "4": "Set X5 Bowl De Hierro Enlozado"
+      }
+    },
+    {
+      "product_code": "69a98e02720cdc00042d4ae2",
+      "nombre": "PARLANTE BLUETOOTH MAGNETICO COC LUZ",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Novedades",
+        "4": "Parlante Bluetooth Magnetico Coc Luz"
+      }
+    },
+    {
+      "product_code": "69a98e304313b50004f14a38",
+      "nombre": "LINTERNA CON PICANA EN CAJA",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Novedades",
+        "4": "Linterna Con Picana En Caja"
+      }
+    },
+    {
+      "product_code": "69a98e5a4313b50004f14a39",
+      "nombre": "PILA AA X 4 UNIDADES",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Ferreteria",
+        "4": "Pila Aa X 4 Unidades"
+      }
+    },
+    {
+      "product_code": "69a98e7c720cdc00042d4ae3",
+      "nombre": "PILA AAA X 4 UNIDADES",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Ferreteria",
+        "4": "Pila Aaa X 4 Unidades"
+      }
+    },
+    {
+      "product_code": "69a98eaa3b491a00046a30ac",
+      "nombre": "CINTA METRICA 5 M",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Herramientas",
+        "4": "Cinta Metrica 5 M"
+      }
+    },
+    {
+      "product_code": "69a98ec34313b50004f14a3b",
+      "nombre": "CINTA METRICA 3M",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Herramientas",
+        "4": "Cinta Metrica 3M"
+      }
+    },
+    {
+      "product_code": "69a98efd4313b50004f14a3c",
+      "nombre": "DESTORNILLADOR GOLPE X 6",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Herramientas",
+        "4": "Destornillador Golpe X 6"
+      }
+    },
+    {
+      "product_code": "69a99097720cdc00042d4aea",
+      "nombre": "VASO SHAKER 650ML",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Termos y Botellas",
+        "4": "Vaso Shaker 650Ml"
+      }
+    },
+    {
+      "product_code": "69a990ba720cdc00042d4aec",
+      "nombre": "AURICULAR",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Novedades",
+        "4": "Auricular"
+      }
+    },
+    {
+      "product_code": "69a990e3720cdc00042d4aed",
+      "nombre": "CUCHILLO / TENEDOR MANGO MADERA X 6",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar",
+        "4": "Cuchillo / Tenedor Mango Madera X 6"
+      }
+    },
+    {
+      "product_code": "69a99142720cdc00042d4af0",
+      "nombre": "BOLSA X50 BOLITAS",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Novedades",
+        "4": "Bolsa X50 Bolitas"
+      }
+    },
+    {
+      "product_code": "69a9917b4313b50004f14a42",
+      "nombre": "TIJERA PREMIUM 8\"",
+      "tags": {
+        "1": "Escolar y Librería",
+        "2": "Útiles Escolares",
+        "3": "Escolar",
+        "4": "Tijera Premium 8\""
+      }
+    },
+    {
+      "product_code": "69a991c74313b50004f14a44",
+      "nombre": "SET GEOMETRIA FLEXIBLES",
+      "tags": {
+        "1": "Escolar y Librería",
+        "2": "Útiles Escolares",
+        "3": "Escolar",
+        "4": "Set Geometria Flexibles"
+      }
+    },
+    {
+      "product_code": "69a9921d3b491a00046a30ae",
+      "nombre": "BIROME GEL X 6",
+      "tags": {
+        "1": "Escolar y Librería",
+        "2": "Útiles Escolares",
+        "3": "Útiles",
+        "4": "Birome Gel X 6"
+      }
+    },
+    {
+      "product_code": "69a992cd720cdc00042d4af3",
+      "nombre": "SET HILO BLANCO Y NEGRO",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Novedades",
+        "4": "Set Hilo Blanco Y Negro"
+      }
+    },
+    {
+      "product_code": "69a99334720cdc00042d4af7",
+      "nombre": "SET ARTE X 24",
+      "tags": {
+        "1": "Escolar y Librería",
+        "2": "Útiles Escolares",
+        "3": "Escolar",
+        "4": "Set Arte X 24"
+      }
+    },
+    {
+      "product_code": "69a993633b491a00046a30b3",
+      "nombre": "SET ARTE X 42",
+      "tags": {
+        "1": "Escolar y Librería",
+        "2": "Útiles Escolares",
+        "3": "Escolar",
+        "4": "Set Arte X 42"
+      }
+    },
+    {
+      "product_code": "69a993c03b491a00046a30b6",
+      "nombre": "SET ARTE X67",
+      "tags": {
+        "1": "Escolar y Librería",
+        "2": "Útiles Escolares",
+        "3": "Escolar",
+        "4": "Set Arte X67"
+      }
+    },
+    {
+      "product_code": "69a99407720cdc00042d4af9",
+      "nombre": "SET ARTE X150",
+      "tags": {
+        "1": "Escolar y Librería",
+        "2": "Útiles Escolares",
+        "3": "Escolar",
+        "4": "Set Arte X150"
+      }
+    },
+    {
+      "product_code": "69a994f14313b50004f14a4a",
+      "nombre": "NAIPE PICTIONARY",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Juegos de Cartas",
+        "4": "Naipe Pictionary"
+      }
+    },
+    {
+      "product_code": "69a9953d4313b50004f14a4d",
+      "nombre": "LAPIZ ESTUCHE TUBO X 36",
+      "tags": {
+        "1": "Escolar y Librería",
+        "2": "Útiles Escolares",
+        "3": "Útiles",
+        "4": "Lapiz Estuche Tubo X 36"
+      }
+    },
+    {
+      "product_code": "69a995864313b50004f14a4f",
+      "nombre": "CARTUCHERA TUBO CAMUFLADO",
+      "tags": {
+        "1": "Escolar y Librería",
+        "2": "Útiles Escolares",
+        "3": "Bolsos y Mochilas",
+        "4": "Cartuchera Tubo Camuflado"
+      }
+    },
+    {
+      "product_code": "69a9959e4313b50004f14a50",
+      "nombre": "CARTUCHERA TUBO BRILLOS",
+      "tags": {
+        "1": "Escolar y Librería",
+        "2": "Útiles Escolares",
+        "3": "Bolsos y Mochilas",
+        "4": "Cartuchera Tubo Brillos"
+      }
+    },
+    {
+      "product_code": "69a995d34313b50004f14a51",
+      "nombre": "SET ESCOLAR SURTIDO EN BLISTER",
+      "tags": {
+        "1": "Escolar y Librería",
+        "2": "Útiles Escolares",
+        "3": "Escolar",
+        "4": "Set Escolar Surtido En Blister"
+      }
+    },
+    {
+      "product_code": "69a995f54313b50004f14a52",
+      "nombre": "CEPILLO + PEINE",
+      "tags": {
+        "1": "Belleza y Cuidado Personal",
+        "2": "Cuidado Personal",
+        "3": "Cuidado Corporal",
+        "4": "Cepillo + Peine"
+      }
+    },
+    {
+      "product_code": "69a996224313b50004f14a53",
+      "nombre": "CHISPERO RECARGABLE",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar",
+        "4": "Chispero Recargable"
+      }
+    },
+    {
+      "product_code": "69a996914313b50004f14a54",
+      "nombre": "LINTERNA PARA BICI 4 MODOS",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Juegos de Cartas",
+        "4": "Linterna Para Bici 4 Modos"
+      }
+    },
+    {
+      "product_code": "69a996d64313b50004f14a55",
+      "nombre": "BATIDOR DE LECHE C/ACCESORIO",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar",
+        "4": "Batidor De Leche C/Accesorio"
+      }
+    },
+    {
+      "product_code": "69a99746720cdc00042d4b00",
+      "nombre": "MORRAL CRUZADA",
+      "tags": {
+        "1": "Accesorios",
+        "2": "Marroquinería",
+        "3": "Marroquineria",
+        "4": "Morral Cruzada"
+      }
+    },
+    {
+      "product_code": "69a999ae4313b50004f14a58",
+      "nombre": "TENEDOR TRAMONTINA X 6",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar",
+        "4": "Tenedor Tramontina X 6"
+      }
+    },
+    {
+      "product_code": "69a999c74313b50004f14a59",
+      "nombre": "CUCHILLO TRAMONTINA X 6",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar",
+        "4": "Cuchillo Tramontina X 6"
+      }
+    },
+    {
+      "product_code": "69a99a0f720cdc00042d4b03",
+      "nombre": "SET X6 BOMBILLA ACERO INOX",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar",
+        "4": "Set X6 Bombilla Acero Inox"
+      }
+    },
+    {
+      "product_code": "69a99a454313b50004f14a5a",
+      "nombre": "DESTORNILLADOR 16 EN 1",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Herramientas",
+        "4": "Destornillador 16 En 1"
+      }
+    },
+    {
+      "product_code": "69a99dce399e5300043f52cc",
+      "nombre": "LICUADORA PORTATIL AUTOLIMPIANTE",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar",
+        "4": "Licuadora Portatil Autolimpiante"
+      }
+    },
+    {
+      "product_code": "69a99e12399e5300043f52ce",
+      "nombre": "CORADORA DE PAPA BASTON",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar",
+        "4": "Coradora De Papa Baston"
+      }
+    },
+    {
+      "product_code": "69a99e5432ead5000496a25c",
+      "nombre": "LIMPIA VIDRIO MAGNETICO CON RESPUESTO",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Novedades",
+        "4": "Limpia Vidrio Magnetico Con Respuesto"
+      }
+    },
+    {
+      "product_code": "69a99e9832ead5000496a25d",
+      "nombre": "LUZ PARA BICI CON BOCINA RECARGABLE",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Novedades",
+        "4": "Luz Para Bici Con Bocina Recargable"
+      }
+    },
+    {
+      "product_code": "69a9a16d32ead5000496a25f",
+      "nombre": "PARAGUA CHICO TRANSPARENTE",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Bazar Varios",
+        "4": "Paragua Chico Transparente"
+      }
+    },
+    {
+      "product_code": "69a9a2508fafdb0004704153",
+      "nombre": "DOSIFICADOR SPRAY ACEITE/VINAGRE",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Juegos de Cartas",
+        "4": "Dosificador Spray Aceite/Vinagre"
+      }
+    },
+    {
+      "product_code": "69a9a2f032ead5000496a261",
+      "nombre": "LIMPIA PALABRISAS",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Novedades",
+        "4": "Limpia Palabrisas"
+      }
+    },
+    {
+      "product_code": "69a9a31132ead5000496a262",
+      "nombre": "CAMISETA ARGENTINA LINEA ECONOMICA",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Novedades",
+        "4": "Camiseta Argentina Linea Economica"
+      }
+    },
+    {
+      "product_code": "69a9a35532ead5000496a264",
+      "nombre": "MOCHILA PREMIUM JANSPORT",
+      "tags": {
+        "1": "Accesorios",
+        "2": "Marroquinería",
+        "3": "Bolsos y Mochilas",
+        "4": "Mochila Premium Jansport"
+      }
+    },
+    {
+      "product_code": "69a9a3ac35c1350004237c7e",
+      "nombre": "LENTES DE SOL",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Novedades",
+        "4": "Lentes De Sol"
+      }
+    },
+    {
+      "product_code": "69a9a3c635c1350004237c7f",
+      "nombre": "LENTE DE SOL",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Novedades",
+        "4": "Lente De Sol"
+      }
+    },
+    {
+      "product_code": "69b00ee934b6e90004284250",
+      "nombre": "ALFOMBRA MEMORY",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Alfombra Memory"
+      }
+    },
+    {
+      "product_code": "69b00f3514fe85000435916e",
+      "nombre": "ALFOMBRA PARA BAÑO OVALADA",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Alfombra Para Baño Ovalada"
+      }
+    },
+    {
+      "product_code": "69b00f789202430004c3fb28",
+      "nombre": "ALFOMBRA BAÑO RECTANGULAR",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Alfombra Baño Rectangular"
+      }
+    },
+    {
+      "product_code": "69b00fb09202430004c3fb2a",
+      "nombre": "JUEGO DE TOALLA Y TOALLON CON GUARDA",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Juego De Toalla Y Toallon Con Guarda"
+      }
+    },
+    {
+      "product_code": "69b011a734b6e90004284251",
+      "nombre": "CINTA AISLADORA X 10 UNIDADES",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Herramientas",
+        "4": "Cinta Aisladora X 10 Unidades"
+      }
+    },
+    {
+      "product_code": "69b011e134b6e90004284252",
+      "nombre": "CINTA EMBALAR 50MTS X 5 UNIDADES",
+      "tags": {
+        "1": "Ferretería",
+        "2": "Herramientas y Ferretería",
+        "3": "Herramientas",
+        "4": "Cinta Embalar 50Mts X 5 Unidades"
+      }
+    },
+    {
+      "product_code": "69b012629202430004c3fb2d",
+      "nombre": "BOLSO DEPORTIVO T60",
+      "tags": {
+        "1": "Accesorios",
+        "2": "Marroquinería",
+        "3": "Bolsos y Mochilas",
+        "4": "Bolso Deportivo T60"
+      }
+    },
+    {
+      "product_code": "69b012c99202430004c3fb30",
+      "nombre": "COVERTOR DE CAMA 1 1/2 PLAZAS",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Blanqueria",
+        "4": "Covertor De Cama 1 1/2 Plazas"
+      }
+    },
+    {
+      "product_code": "69b012e19202430004c3fb31",
+      "nombre": "COVERTOR DE CAMA 2 1/2 PLAZAS",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Blanqueria",
+        "4": "Covertor De Cama 2 1/2 Plazas"
+      }
+    },
+    {
+      "product_code": "69b0136d14fe85000435916f",
+      "nombre": "CORTINA COCINA MICROFIBRA 1.1M",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Cortina Cocina Microfibra 1.1M"
+      }
+    },
+    {
+      "product_code": "69b013a714fe850004359170",
+      "nombre": "CORTINA BAÑO DE TEFLON CON GANCHOS",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Cortina Baño De Teflon Con Ganchos"
+      }
+    },
+    {
+      "product_code": "69b0140114fe850004359172",
+      "nombre": "CORTINA COCINA CON FALDON 1.1M",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Cortina Cocina Con Faldon 1.1M"
+      }
+    },
+    {
+      "product_code": "69b0144f14fe850004359174",
+      "nombre": "SABANA AJUSTABLE 2 1/2",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Sabana Ajustable 2 1/2"
+      }
+    },
+    {
+      "product_code": "69b0146999a2470004cdd437",
+      "nombre": "SABANA AJUSTABLE 1 1/2",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Sabana Ajustable 1 1/2"
+      }
+    },
+    {
+      "product_code": "69b014a014fe850004359176",
+      "nombre": "PELOTA Nº2 BOCA",
+      "tags": {
+        "1": "Juguetes",
+        "2": "Juguetes y Entretenimiento",
+        "3": "Juguetes",
+        "4": "Pelota Nº2 Boca"
+      }
+    },
+    {
+      "product_code": "69b014e434b6e90004284255",
+      "nombre": "PROTECTOR DE BAÑO 50 MICRONES",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Blanqueria",
+        "4": "Protector De Baño 50 Micrones"
+      }
+    },
+    {
+      "product_code": "69b0150814fe850004359177",
+      "nombre": "PROTECTOR DE BAÑO 75 MICRONES",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Blanqueria",
+        "4": "Protector De Baño 75 Micrones"
+      }
+    },
+    {
+      "product_code": "69b0153334b6e90004284256",
+      "nombre": "TOALLON PLAYEROS",
+      "tags": {
+        "1": "Blanquería y Textil",
+        "2": "Textil Hogar",
+        "3": "Textiles",
+        "4": "Toallon Playeros"
+      }
+    },
+    {
+      "product_code": "69b0155734b6e90004284257",
+      "nombre": "LENTE DE LECTURA",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Novedades",
+        "4": "Lente De Lectura"
+      }
+    },
+    {
+      "product_code": "69b1b5104d443c0004cee344",
+      "nombre": "NAIPE “DOS”",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Juegos de Cartas",
+        "4": "Naipe “Dos”"
+      }
+    },
+    {
+      "product_code": "69b1b59e565b98000427704e",
+      "nombre": "NAIPE “UNO” BRAIN ROT",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Juegos de Cartas",
+        "4": "Naipe “Uno” Brain Rot"
+      }
+    },
+    {
+      "product_code": "69d842b5ab286c0004515f50",
+      "nombre": "PARAGUAS LARGO NEGRO Y PLATEADO",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Bazar Varios",
+        "4": "Paraguas Largo Negro Y Plateado"
+      }
+    },
+    {
+      "product_code": "69d843e135b7750004411b35",
+      "nombre": "PARAGUAS MINI PLEGABLE UV",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Bazar Varios",
+        "4": "Paraguas Mini Plegable Uv"
+      }
+    },
+    {
+      "product_code": "69d8441c35b7750004411b36",
+      "nombre": "CORTADOR/RAYADOR MULTIUSO",
+      "tags": {
+        "1": "Bazar y Hogar",
+        "2": "Hogar y Cocina",
+        "3": "Bazar",
+        "4": "Cortador/Rayador Multiuso"
+      }
+    },
+    {
+      "product_code": "69d84541ab286c0004515f53",
+      "nombre": "BOTELLA HIELERA",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Termos y Botellas",
+        "4": "Botella Hielera"
+      }
+    },
+    {
+      "product_code": "69d84684ab286c0004515f54",
+      "nombre": "ESTUCHE DE MARCADORES X60 UNIDADES",
+      "tags": {
+        "1": "Escolar y Librería",
+        "2": "Útiles Escolares",
+        "3": "Útiles",
+        "4": "Estuche De Marcadores X60 Unidades"
+      }
+    },
+    {
+      "product_code": "69d84770ab286c0004515f56",
+      "nombre": "CALCULADORA CON PANEL SOLAR",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Útiles",
+        "4": "Calculadora Con Panel Solar"
+      }
+    },
+    {
+      "product_code": "6a4cfbb7255a760004109edb",
+      "nombre": "NAIPE ESPAÑOL",
+      "tags": {
+        "1": "Novedades",
+        "2": "Accesorios Varios",
+        "3": "Juegos de Cartas",
+        "4": "Naipe Español"
+      }
+    }
+  ],
+  "source": "hybrid_pency_rules",
+  "notes": "Propuesta armada desde categorías Pency + reglas de rubro BMG. El endpoint propose-taxonomy truncó el catálogo (limit 180 → 8 items)."
+}

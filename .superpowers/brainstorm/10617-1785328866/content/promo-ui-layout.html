@@ -1,0 +1,107 @@
+<h2>UI de grupo: ¿qué layout preferís?</h2>
+<p class="subtitle">Paste de SKUs + tabla de máximos. Hacé click en la opción que más se acerque.</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Todo en un flujo vertical</h3>
+      <p>Textarea de paste → resolver → tabla debajo → barra “aplicar N bultos a todos” arriba de la tabla.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Dos paneles</h3>
+      <p>Izquierda: paste + chips. Derecha: tabla de máximos + helper de conversión. Más espacio para 72 SKUs.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Stepper (2–3 pasos)</h3>
+      <p>Paso 1: pegar/buscar SKUs. Paso 2: configurar mínimos/máximos (combinado + por SKU).</p>
+    </div>
+  </div>
+</div>
+
+<div class="split" style="margin-top: 1.5rem;">
+  <div class="mockup">
+    <div class="mockup-header">Preview A — vertical</div>
+    <div class="mockup-body" style="font-size: 12px; font-family: ui-sans-serif, system-ui; color: #1a1a1a; background: #fafafa;">
+      <div style="padding: 12px; border-bottom: 1px solid #e5e5e5; font-weight: 600;">Nueva promoción · Grupo</div>
+      <div style="padding: 12px; display: flex; flex-direction: column; gap: 10px;">
+        <div>
+          <div style="font-size: 10px; text-transform: uppercase; color: #666; margin-bottom: 4px;">Pegar códigos (Excel)</div>
+          <div style="border: 1px dashed #999; border-radius: 6px; padding: 8px; background: #fff; min-height: 48px; color: #888;">101<br>102<br>103…</div>
+          <button class="mock-button" style="margin-top: 6px; font-size: 11px;">Reconocer SKUs</button>
+        </div>
+        <div style="display: flex; gap: 8px; align-items: center; background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 8px; flex-wrap: wrap;">
+          <span style="font-size: 11px;">Máx para todos:</span>
+          <input class="mock-input" style="width: 40px; padding: 4px;" value="2">
+          <select style="font-size: 11px; padding: 4px;"><option>bultos</option><option>displays</option><option>unidades</option></select>
+          <button class="mock-button" style="font-size: 11px;">Aplicar</button>
+        </div>
+        <div style="background: #fff; border: 1px solid #ddd; border-radius: 6px; overflow: hidden;">
+          <div style="display: grid; grid-template-columns: 1fr 1.4fr 0.7fr 0.7fr; gap: 4px; padding: 6px 8px; background: #f0f0f0; font-size: 10px; font-weight: 600;">
+            <span>SKU</span><span>Nombre</span><span>Conv.</span><span>Máx UMV</span>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1.4fr 0.7fr 0.7fr; gap: 4px; padding: 6px 8px; border-top: 1px solid #eee;">
+            <span>101</span><span>Gaseosa 2L</span><span>6/bulto</span><span><strong>12</strong></span>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1.4fr 0.7fr 0.7fr; gap: 4px; padding: 6px 8px; border-top: 1px solid #eee;">
+            <span>102</span><span>Agua 500</span><span>12/bulto</span><span><strong>24</strong></span>
+          </div>
+          <div style="padding: 6px 8px; border-top: 1px solid #eee; color: #888; font-size: 10px;">+70 SKUs…</div>
+        </div>
+        <div style="font-size: 11px;">Techo combinado (opcional): <input class="mock-input" style="width: 56px; padding: 4px;" placeholder="UMV"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mockup">
+    <div class="mockup-header">Preview B — dos paneles</div>
+    <div class="mockup-body" style="font-size: 11px; font-family: ui-sans-serif, system-ui; color: #1a1a1a; background: #fafafa;">
+      <div style="padding: 10px; border-bottom: 1px solid #e5e5e5; font-weight: 600;">Nueva promoción · Grupo</div>
+      <div style="display: grid; grid-template-columns: 1fr 1.2fr; min-height: 200px;">
+        <div style="padding: 10px; border-right: 1px solid #e5e5e5; display: flex; flex-direction: column; gap: 8px;">
+          <div style="font-size: 10px; text-transform: uppercase; color: #666;">Pegar / buscar</div>
+          <div style="border: 1px dashed #999; border-radius: 6px; padding: 8px; background: #fff; min-height: 64px; color: #888;">códigos…</div>
+          <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+            <span style="background: #e8e8e8; border-radius: 999px; padding: 2px 8px;">101 ×</span>
+            <span style="background: #e8e8e8; border-radius: 999px; padding: 2px 8px;">102 ×</span>
+            <span style="background: #ddd; border-radius: 999px; padding: 2px 8px;">+70</span>
+          </div>
+          <div style="font-size: 10px; color: #a60;">2 no encontrados</div>
+        </div>
+        <div style="padding: 10px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;">
+            <span>Máx:</span>
+            <input class="mock-input" style="width: 36px; padding: 3px;" value="2">
+            <span>bultos</span>
+            <button class="mock-button" style="font-size: 10px;">Aplicar a todos</button>
+          </div>
+          <div style="background: #fff; border: 1px solid #ddd; border-radius: 6px; flex: 1;">
+            <div style="padding: 6px; background: #f0f0f0; font-weight: 600; font-size: 10px;">SKU · Conv · Máx</div>
+            <div style="padding: 6px; border-top: 1px solid #eee;">101 · 6/b · <strong>12</strong></div>
+            <div style="padding: 6px; border-top: 1px solid #eee;">102 · 12/b · <strong>24</strong></div>
+          </div>
+          <div>Techo grupo: <input class="mock-input" style="width: 48px; padding: 3px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mockup" style="margin-top: 1rem;">
+  <div class="mockup-header">Preview C — stepper</div>
+  <div class="mockup-body" style="font-size: 12px; font-family: ui-sans-serif, system-ui; color: #1a1a1a; background: #fafafa; padding: 14px;">
+    <div style="display: flex; gap: 16px; margin-bottom: 12px; font-size: 11px;">
+      <span style="font-weight: 700; border-bottom: 2px solid #222; padding-bottom: 4px;">1 · Miembros</span>
+      <span style="color: #999;">2 · Límites UMV</span>
+      <span style="color: #999;">3 · Descuento / vigencia</span>
+    </div>
+    <div style="border: 1px dashed #999; border-radius: 6px; padding: 12px; background: #fff; color: #888;">Pegá 72 códigos del Excel…</div>
+    <div style="margin-top: 10px; text-align: right;"><button class="mock-button">Siguiente →</button></div>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+1,44,¡Oferta Semanal! Dulce de Leche Cremigal 250g,15% OFF en Dulce de Leche Cremigal 250g. Promo semanal activa.,percent_off,15,1,1,2026-08-03,2026-09-09,true,true
+2,656,Imperdible: Aceituna Verde Desc. VANOLI 150g,Llevate este producto con $1000 de descuento. ¡No te lo pierdas!,total_off,1000,2,1,2026-08-03,2026-09-09,true,true
+3,10218,Promo Especial: Aceitunas Rebanadas GULLO 1500g,"Llevando 3 o más, precio especial $9419.26 c/u. Aceitunas rebanadas GULLO.",fixed_price,9419.26,1,3,2026-08-03,2026-09-09,true,true
+4,228,Descuento del 20% en Aceto Balsámico 250cc GULLO,Realza tus platos con este aceto. Aprovechá la promo ahora.,percent_off,20,3,1,2026-08-03,2026-09-09,true,true

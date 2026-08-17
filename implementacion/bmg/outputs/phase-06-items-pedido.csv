@@ -1,0 +1,425 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493435770487,25001,69b0150814fe850004359177,PROTECTOR DE BAÑO 75 MICRONES,5,5175.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00001,5493435770487,25001,69a9712293e33d0004fa775c,DESMENUZADOR / TRITURADOS DE CARNES,1,4025.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00001,5493435770487,25001,69d84541ab286c0004515f53,BOTELLA HIELERA,4,17250.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00001,5493435770487,25001,6895046acdf946000440b36e,"PONY PARA PEINAR ""TINY""",3,17250.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00002,5493435770487,25001,69a991c74313b50004f14a44,SET GEOMETRIA FLEXIBLES,4,2300.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00002,5493435770487,25001,69b011e134b6e90004284252,CINTA EMBALAR 50MTS X 5 UNIDADES,5,6900.00,2,Pedido: 5 unidad (normalizado: 25 unidad; equiv: 5 unidad),true,false,false
+P-00002,5493435770487,25001,69a9953d4313b50004f14a4d,LAPIZ ESTUCHE TUBO X 36,3,8625.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00003,5493435770487,25001,69a995864313b50004f14a4f,CARTUCHERA TUBO CAMUFLADO,3,2300.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00004,5493435246316,25002,69b00f3514fe85000435916e,ALFOMBRA PARA BAÑO OVALADA,5,3600.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00004,5493435246316,25002,69a995d34313b50004f14a51,SET ESCOLAR SURTIDO EN BLISTER,5,2250.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00004,5493435246316,25002,68092bb47b096f00046bfec9,CAPELINA CON OREJITAS NENA,5,13500.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00004,5493435246316,25002,69b012e19202430004c3fb31,COVERTOR DE CAMA 2 1/2 PLAZAS,3,18450.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00005,5493435246316,25002,6808d99fcf60490004aecbe3,CORTINA DE BAÑO DE PVC,3,5400.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00005,5493435246316,25002,69a972c993e33d0004fa775e,KIT PLANCHA + SECADOR PROFESIONAL,1,36000.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00006,5493435246316,25002,685c6a2766443e00047238b7,MANTA FLANEL LISA 2 PLAZAS,4,22500.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00006,5493435246316,25002,6877f20a45cea10004ebc396,"FRAZADA 2 1/2 PLAZAS ""TERRENAL""",5,22500.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00006,5493435246316,25002,68092bb47b096f00046bfec9,CAPELINA CON OREJITAS NENA,3,13500.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00007,5493435191161,25003,69a9735e2f908500047c9965,DEPILADOR CRISTAL,3,2550.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00007,5493435191161,25003,69b014a014fe850004359176,PELOTA Nº2 BOCA,1,5100.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00007,5493435191161,25003,69a96ce877797c0004d93aa6,CANDADO PARA MOTO,5,7650.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00007,5493435191161,25003,68782bc0fa95a9000460d444,LLAVERO LABUBU CON ROPA,4,21250.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00008,5493435191161,25003,6808ce8806ca020004cf0e95,LLAVEROS ANIMADOS,5,2975.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00008,5493435191161,25003,69a9a31132ead5000496a262,CAMISETA ARGENTINA LINEA ECONOMICA,4,11475.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00009,5493435191161,25003,685c6a2766443e00047238b7,MANTA FLANEL LISA 2 PLAZAS,5,21250.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00009,5493435191161,25003,693989ce7ebf570004b72cd6,REPASADOR ECO,5,1275.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00009,5493435191161,25003,689507a7cdf946000440b373,AUTO A FRICCION MEGA F1,2,7225.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00009,5493435191161,25003,69a97045d9d285000471b383,HUEVERAS,3,5100.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00010,5493435343962,25004,688aa253fc6b660004b37d78,VELADOR KITTY CELESTE / ROSA,5,14000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00011,5493435343962,25004,6808cb6a55e3d00004c5a7df,MOCHILA 3 EN 1,2,50000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00012,5493435343962,25004,69a996d64313b50004f14a55,BATIDOR DE LECHE C/ACCESORIO,3,11500.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00013,5493435781453,25005,6808d0563197610004e9245b,BOTELLA SPORT 750ML,2,21850.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00014,5493435781453,25005,69a996914313b50004f14a54,LINTERNA PARA BICI 4 MODOS,5,10350.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00014,5493435781453,25005,689507a7cdf946000440b373,AUTO A FRICCION MEGA F1,3,9775.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00014,5493435781453,25005,68092a4a7b096f00046bfec4,GORRAS DE MARCAS,3,17250.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00015,5493435781453,25005,69d84541ab286c0004515f53,BOTELLA HIELERA,1,17250.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00015,5493435781453,25005,6895081bcdf946000440b374,AUTO TRANSFORMERS,5,6900.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00015,5493435781453,25005,6808d0563197610004e9245b,BOTELLA SPORT 750ML,5,21850.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00016,5493435391704,25006,69a84168fcfe180004c820c3,TUPPER APILABLE PLASTICO X 3,5,7200.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00016,5493435391704,25006,69d842b5ab286c0004515f50,PARAGUAS LARGO NEGRO Y PLATEADO,2,9000.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00016,5493435391704,25006,69a9959e4313b50004f14a50,CARTUCHERA TUBO BRILLOS,1,3600.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00016,5493435391704,25006,69b0136d14fe85000435916f,CORTINA COCINA MICROFIBRA 1.1M,5,5850.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00017,5493435391704,25006,69b00f3514fe85000435916e,ALFOMBRA PARA BAÑO OVALADA,1,3600.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00017,5493435391704,25006,69a9921d3b491a00046a30ae,BIROME GEL X 6,1,2700.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00017,5493435391704,25006,69a96f88d9d285000471b37e,DILATADOR NASAL CON IMAN Y PACHES IMANTADOS,4,7650.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00018,5493435391704,25006,68782da9575f4d0004f4c0de,PELUCHE CAPIBARA CON LUZ Y SONIDO,1,22500.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00018,5493435391704,25006,69a96ce877797c0004d93aa6,CANDADO PARA MOTO,5,8100.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00018,5493435391704,25006,69a99a454313b50004f14a5a,DESTORNILLADOR 16 EN 1,5,3600.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00018,5493435391704,25006,69a9710393e33d0004fa775a,BALANZA DE VIAJE 50KG DIGITAL,5,15750.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00019,5493435543143,25007,69a99dce399e5300043f52cc,LICUADORA PORTATIL AUTOLIMPIANTE,2,16575.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00019,5493435543143,25007,69a996224313b50004f14a53,CHISPERO RECARGABLE,2,6800.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00019,5493435543143,25007,688a9ddc03116800046fec8a,VELADOR CAPIBARA (25137),2,11900.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00019,5493435543143,25007,69a99e5432ead5000496a25c,LIMPIA VIDRIO MAGNETICO CON RESPUESTO,2,10200.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00020,5493435543143,25007,68c979871038dd0004dd2553,TOALLON SECADO RAPIDO CON FUNDA - (1.75X1.0CM),1,15725.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00020,5493435543143,25007,68840dc5d4311300046763f8,SQUISHY ARDILLA/DINO REX/FRUTILLA/BANANA,3,2550.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00020,5493435543143,25007,69a98e304313b50004f14a38,LINTERNA CON PICANA EN CAJA,3,17000.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00020,5493435543143,25007,69a9a3ac35c1350004237c7e,LENTES DE SOL,4,2550.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00021,5493435543143,25007,69b0150814fe850004359177,PROTECTOR DE BAÑO 75 MICRONES,2,3825.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00021,5493435543143,25007,69a996914313b50004f14a54,LINTERNA PARA BICI 4 MODOS,1,7650.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00021,5493435543143,25007,68c97a0c1038dd0004dd2558,"TOALLA DE SECADO RAPIDO ""TERRENAL"" - (50X35CM)",5,2550.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00021,5493435543143,25007,69a83a9dfcfe180004c820b6,BALANZA COMERCIAL 40KM CON VISOR,3,93500.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00022,5493435452944,25008,69a9a2f032ead5000496a261,LIMPIA PALABRISAS,2,6500.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00023,5493435452944,25008,688002d4f0c4760004bc0aa7,SET X3 MUÑECOS CHIFLES,3,12000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00023,5493435452944,25008,69a999c74313b50004f14a59,CUCHILLO TRAMONTINA X 6,4,7000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00023,5493435452944,25008,69a96dec2f908500047c9961,CINTA METRICA 7.5M,3,8000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00023,5493435452944,25008,680936d8cc71820004c437f6,GORRA LISA POLIESTER,2,5000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00024,5493435452944,25008,687fdb2caafbe40004ebc612,DISPENSER MINI PATO Y CAPIBARA,4,5000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00025,5493435460663,25009,6a4cfbb7255a760004109edb,NAIPE ESPAÑOL,4,2300.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00025,5493435460663,25009,69a98c604313b50004f14a32,LAPIZ CARPINERO,1,4025.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00026,5493435460663,25009,69a99097720cdc00042d4aea,VASO SHAKER 650ML,5,9775.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00026,5493435460663,25009,68840b6753a62100046f6aae,SLIME GRANDE MUÑECOS,5,5750.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00026,5493435460663,25009,69a96da42f908500047c9960,MOCHILA CALIDAD PREMIUM MARCAS,1,43700.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00026,5493435460663,25009,688010cbd68cda0004271963,PILOTO DE LLUVIA INFANTIL,2,17250.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00027,5493435460663,25009,69a9917b4313b50004f14a42,"TIJERA PREMIUM 8""",5,2875.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00028,5493435662275,25010,69a9710393e33d0004fa775a,BALANZA DE VIAJE 50KG DIGITAL,1,15750.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00028,5493435662275,25010,69a9713f93e33d0004fa775d,DESTORNILLADOR X 6 MANGO PLASTICO,2,4500.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00028,5493435662275,25010,69b1b5104d443c0004cee344,NAIPE “DOS”,2,1800.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00029,5493435662275,25010,69d842b5ab286c0004515f50,PARAGUAS LARGO NEGRO Y PLATEADO,1,9000.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00029,5493435662275,25010,688008bb0416e700046fdf42,LABUBU CON ROPA EN CAJA TRANSPARENTE,1,21600.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00029,5493435662275,25010,69b00fb09202430004c3fb2a,JUEGO DE TOALLA Y TOALLON CON GUARDA,4,10800.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00030,5493435662275,25010,69a841b43191d7000414d6f2,SET NIVEL - TIRA LINEA CON TIZA,1,4500.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00030,5493435662275,25010,688010cbd68cda0004271963,PILOTO DE LLUVIA INFANTIL,1,13500.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00031,5493435759176,25011,69b1b5104d443c0004cee344,NAIPE “DOS”,1,1700.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00031,5493435759176,25011,69a98e7c720cdc00042d4ae3,PILA AAA X 4 UNIDADES,3,850.00,4,Pedido: 3 unidad (normalizado: 12 unidad; equiv: 3 unidad),true,false,false
+P-00031,5493435759176,25011,69a972c993e33d0004fa775e,KIT PLANCHA + SECADOR PROFESIONAL,2,34000.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00031,5493435759176,25011,69a9921d3b491a00046a30ae,BIROME GEL X 6,5,2550.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00032,5493435759176,25011,69a96cb677797c0004d93aa5,CANDADO CHICO 25MM,3,1275.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00032,5493435759176,25011,69b011a734b6e90004284251,CINTA AISLADORA X 10 UNIDADES,1,3825.00,4,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00032,5493435759176,25011,688010cbd68cda0004271963,PILOTO DE LLUVIA INFANTIL,5,12750.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00032,5493435759176,25011,69a98efd4313b50004f14a3c,DESTORNILLADOR GOLPE X 6,5,10200.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00033,5493435759176,25011,69a970bb93e33d0004fa7759,KI DE TERERE,4,12750.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00033,5493435759176,25011,688008bb0416e700046fdf42,LABUBU CON ROPA EN CAJA TRANSPARENTE,2,20400.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00033,5493435759176,25011,69a995f54313b50004f14a52,CEPILLO + PEINE,1,2125.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00033,5493435759176,25011,68306c4f4da4c2000449f14a,COMBO 48 TENIS ANIMADAS/MARCAS,5,69700.00,4,Pedido: 5 unidad (normalizado: 240 unidad; equiv: 5 unidad),true,false,false
+P-00034,5493435148050,25012,69b0153334b6e90004284256,TOALLON PLAYEROS,1,7500.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00034,5493435148050,25012,688a9f2f29a1bd0004dc362e,VELADOR CAPIBARA C/ SACA PUNTAS (25138 - 25140),4,10000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00034,5493435148050,25012,69a96e54d9d285000471b37b,PLANCHA DE PELO PROFESIONAL 45WTS,2,15000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00034,5493435148050,25012,69a96dec2f908500047c9961,CINTA METRICA 7.5M,3,8000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00035,5493435148050,25012,688aa253fc6b660004b37d78,VELADOR KITTY CELESTE / ROSA,4,14000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00035,5493435148050,25012,69a9735e2f908500047c9965,DEPILADOR CRISTAL,5,3000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00036,5493435148050,25012,69a9713f93e33d0004fa775d,DESTORNILLADOR X 6 MANGO PLASTICO,2,5000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00036,5493435148050,25012,69b00fb09202430004c3fb2a,JUEGO DE TOALLA Y TOALLON CON GUARDA,4,12000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00036,5493435148050,25012,6808d4c13b260c0004dd1a2d,JUEGO DE SÁBANAS 1 1/2 PLAZAS,1,10500.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00036,5493435148050,25012,6877e397ec07430004761282,FRAZADA PARA BEBÉ X 2 UNIDADES,4,20000.00,1,Pedido: 4 unidad (normalizado: 8 unidad; equiv: 4 unidad),true,false,false
+P-00037,5493435996865,25013,68092bb47b096f00046bfec9,CAPELINA CON OREJITAS NENA,2,17250.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00037,5493435996865,25013,68782da9575f4d0004f4c0de,PELUCHE CAPIBARA CON LUZ Y SONIDO,4,28750.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00037,5493435996865,25013,69a98efd4313b50004f14a3c,DESTORNILLADOR GOLPE X 6,5,13800.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00038,5493435996865,25013,69a9a2508fafdb0004704153,DOSIFICADOR SPRAY ACEITE/VINAGRE,4,5750.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00038,5493435996865,25013,69a96f88d9d285000471b37e,DILATADOR NASAL CON IMAN Y PACHES IMANTADOS,2,9775.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00038,5493435996865,25013,68840a8553a62100046f6aac,SLIME MEDIANO,3,4600.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00038,5493435996865,25013,69a97045d9d285000471b383,HUEVERAS,2,6900.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00039,5493435996865,25013,69a98da4720cdc00042d4ae1,SET X5 BOWL DE HIERRO ENLOZADO,3,23000.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00039,5493435996865,25013,69a99e5432ead5000496a25c,LIMPIA VIDRIO MAGNETICO CON RESPUESTO,2,13800.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00039,5493435996865,25013,69b0153334b6e90004284256,TOALLON PLAYEROS,2,8625.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00040,5493435974628,25014,68782da9575f4d0004f4c0de,PELUCHE CAPIBARA CON LUZ Y SONIDO,2,22500.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00040,5493435974628,25014,69b0155734b6e90004284257,LENTE DE LECTURA,1,2250.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00041,5493435974628,25014,69a98da4720cdc00042d4ae1,SET X5 BOWL DE HIERRO ENLOZADO,3,18000.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00041,5493435974628,25014,69a992cd720cdc00042d4af3,SET HILO BLANCO Y NEGRO,1,2700.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00041,5493435974628,25014,69a9a16d32ead5000496a25f,PARAGUA CHICO TRANSPARENTE,4,7200.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00042,5493435974628,25014,6808cf50f7c7090004d3a961,"NAIPES ""UNO""",1,1800.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00042,5493435974628,25014,69a972412f908500047c9963,LINTERNA MINERA,5,5400.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00042,5493435974628,25014,69a98e02720cdc00042d4ae2,PARLANTE BLUETOOTH MAGNETICO COC LUZ,5,10800.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00043,5493435379946,25015,6808cd6961f3ad00041a0974,LLAVERO DE CAPIBARA,3,2975.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00043,5493435379946,25015,69a99a0f720cdc00042d4b03,SET X6 BOMBILLA ACERO INOX,3,10200.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00043,5493435379946,25015,69a9959e4313b50004f14a50,CARTUCHERA TUBO BRILLOS,4,3400.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00044,5493435379946,25015,69b012c99202430004c3fb30,COVERTOR DE CAMA 1 1/2 PLAZAS,3,13600.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00044,5493435379946,25015,69a9710393e33d0004fa775a,BALANZA DE VIAJE 50KG DIGITAL,4,14875.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00045,5493435379946,25015,69a98e304313b50004f14a38,LINTERNA CON PICANA EN CAJA,1,17000.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00045,5493435379946,25015,6808d4c13b260c0004dd1a2d,JUEGO DE SÁBANAS 1 1/2 PLAZAS,5,8925.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00045,5493435379946,25015,69a995f54313b50004f14a52,CEPILLO + PEINE,1,2125.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00045,5493435379946,25015,68092a4a7b096f00046bfec4,GORRAS DE MARCAS,1,12750.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00046,5493435279451,25016,688010cbd68cda0004271963,PILOTO DE LLUVIA INFANTIL,2,15000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00046,5493435279451,25016,69a99a0f720cdc00042d4b03,SET X6 BOMBILLA ACERO INOX,3,12000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00046,5493435279451,25016,6806a2260ba1a600048ea430,COMBO 60 SOQUETES ANIMADOS,2,60000.00,1,Pedido: 2 unidad (normalizado: 120 unidad; equiv: 2 unidad),true,false,false
+P-00046,5493435279451,25016,69b0150814fe850004359177,PROTECTOR DE BAÑO 75 MICRONES,3,4500.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00047,5493435279451,25016,69a98eaa3b491a00046a30ac,CINTA METRICA 5 M,3,5000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00047,5493435279451,25016,69a993c03b491a00046a30b6,SET ARTE X67,2,12000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00048,5493435279451,25016,69a9a35532ead5000496a264,MOCHILA PREMIUM JANSPORT,2,34000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00048,5493435279451,25016,69a96e54d9d285000471b37b,PLANCHA DE PELO PROFESIONAL 45WTS,2,15000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00049,5493435383060,25017,69b012e19202430004c3fb31,COVERTOR DE CAMA 2 1/2 PLAZAS,5,23575.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00049,5493435383060,25017,69a972412f908500047c9963,LINTERNA MINERA,4,6900.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00049,5493435383060,25017,69a993633b491a00046a30b3,SET ARTE X 42,1,7475.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00049,5493435383060,25017,689507a7cdf946000440b373,AUTO A FRICCION MEGA F1,3,9775.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00050,5493435383060,25017,69a994f14313b50004f14a4a,NAIPE PICTIONARY,3,2300.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00050,5493435383060,25017,69a83b623191d7000414d6ef,TAPON DE TERMO,1,2300.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00050,5493435383060,25017,69a990e3720cdc00042d4aed,CUCHILLO / TENEDOR MANGO MADERA X 6,3,8050.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00050,5493435383060,25017,69a996914313b50004f14a54,LINTERNA PARA BICI 4 MODOS,2,10350.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00051,5493435383060,25017,69d843e135b7750004411b35,PARAGUAS MINI PLEGABLE UV,3,9200.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00051,5493435383060,25017,6884de9743d0280004d459cd,SQUISHY CALVERA/PATITO/MURCIELAGO/PELOTA PASTEL,5,3450.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00051,5493435383060,25017,6895081bcdf946000440b374,AUTO TRANSFORMERS,2,6900.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00051,5493435383060,25017,69d84770ab286c0004515f56,CALCULADORA CON PANEL SOLAR,4,10350.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00052,5493435983794,25018,69a9a16d32ead5000496a25f,PARAGUA CHICO TRANSPARENTE,4,7200.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00053,5493435983794,25018,69a99a454313b50004f14a5a,DESTORNILLADOR 16 EN 1,2,3600.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00053,5493435983794,25018,69b014e434b6e90004284255,PROTECTOR DE BAÑO 50 MICRONES,2,3150.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00053,5493435983794,25018,69a98e7c720cdc00042d4ae3,PILA AAA X 4 UNIDADES,2,900.00,3,Pedido: 2 unidad (normalizado: 8 unidad; equiv: 2 unidad),true,false,false
+P-00053,5493435983794,25018,6884de9743d0280004d459cd,SQUISHY CALVERA/PATITO/MURCIELAGO/PELOTA PASTEL,2,2700.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00054,5493435983794,25018,68c979871038dd0004dd2553,TOALLON SECADO RAPIDO CON FUNDA - (1.75X1.0CM),3,16650.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00055,5493435944151,25019,69a9a31132ead5000496a262,CAMISETA ARGENTINA LINEA ECONOMICA,5,11475.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00055,5493435944151,25019,6880082c41e2e8000499747d,CABEZA MUSICAL LABUBU OFERTA,5,8500.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00056,5493435944151,25019,69a84168fcfe180004c820c3,TUPPER APILABLE PLASTICO X 3,2,6800.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00056,5493435944151,25019,6808d99fcf60490004aecbe3,CORTINA DE BAÑO DE PVC,5,5100.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00056,5493435944151,25019,6808d41bf0bafe000465a255,JUEGO DE SÁBANAS 2 1/2 PLAZAS,4,11050.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00057,5493435944151,25019,69a9713f93e33d0004fa775d,DESTORNILLADOR X 6 MANGO PLASTICO,1,4250.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00058,5493435694731,25020,69a9921d3b491a00046a30ae,BIROME GEL X 6,4,3000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00059,5493435694731,25020,6895081bcdf946000440b374,AUTO TRANSFORMERS,5,6000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00059,5493435694731,25020,69a9a2f032ead5000496a261,LIMPIA PALABRISAS,3,6500.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00059,5493435694731,25020,69a98ec34313b50004f14a3b,CINTA METRICA 3M,4,4000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00059,5493435694731,25020,69a990e3720cdc00042d4aed,CUCHILLO / TENEDOR MANGO MADERA X 6,3,7000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00060,5493435694731,25020,69a99407720cdc00042d4af9,SET ARTE X150,2,18000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00060,5493435694731,25020,69a9a35532ead5000496a264,MOCHILA PREMIUM JANSPORT,3,34000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00060,5493435694731,25020,69a9713f93e33d0004fa775d,DESTORNILLADOR X 6 MANGO PLASTICO,3,5000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00061,5493435774079,25021,687ffe74d760110004860432,MONOPATIN DE CAPIBARA CON LUCES Y MUSICA,5,69000.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00061,5493435774079,25021,6808ce8806ca020004cf0e95,LLAVEROS ANIMADOS,4,4025.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00062,5493435774079,25021,680936d8cc71820004c437f6,GORRA LISA POLIESTER,4,5750.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00062,5493435774079,25021,69b011a734b6e90004284251,CINTA AISLADORA X 10 UNIDADES,3,5175.00,2,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00062,5493435774079,25021,69a98e5a4313b50004f14a39,PILA AA X 4 UNIDADES,2,1150.00,2,Pedido: 2 unidad (normalizado: 8 unidad; equiv: 2 unidad),true,false,false
+P-00062,5493435774079,25021,69a99e12399e5300043f52ce,CORADORA DE PAPA BASTON,5,4025.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00063,5493435774079,25021,69a972c993e33d0004fa775e,KIT PLANCHA + SECADOR PROFESIONAL,1,46000.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00063,5493435774079,25021,6927043d3f47ac0004fabc7e,BOX 5 PARES DE MEDIAS 3/4 PARA ADULTO.,5,13800.00,2,Pedido: 5 unidad (normalizado: 25 unidad; equiv: 5 unidad),true,false,false
+P-00063,5493435774079,25021,6880123c9e463c00046ed0c0,PELUCHE LABUBU GIGANTE,1,41400.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00063,5493435774079,25021,69b00ee934b6e90004284250,ALFOMBRA MEMORY,1,8050.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00064,5493435688637,25022,688408fe53a62100046f6aab,SLIME CHICO,3,1350.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00065,5493435688637,25022,69d842b5ab286c0004515f50,PARAGUAS LARGO NEGRO Y PLATEADO,4,9000.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00066,5493435688637,25022,68c966c0bef61e0004bae856,TOALLA DE MANO - ART 995,5,2250.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00066,5493435688637,25022,6895081bcdf946000440b374,AUTO TRANSFORMERS,2,5400.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00066,5493435688637,25022,687fd63de04629000442baa5,MONEDERO CAPIBARA,4,9000.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00067,5493435711878,25023,69a96cb677797c0004d93aa5,CANDADO CHICO 25MM,3,1275.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00067,5493435711878,25023,688a9c621006a700042d19b5,VELADOR  CAPIBARA (25057),1,14875.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00068,5493435711878,25023,6808cb6a55e3d00004c5a7df,MOCHILA 3 EN 1,5,42500.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00068,5493435711878,25023,69a990ba720cdc00042d4aec,AURICULAR,5,7650.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00068,5493435711878,25023,69a8426b5205850004bb242c,MINI PROCESADORA RECARGABLE,5,9350.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00068,5493435711878,25023,68c979bc1038dd0004dd2555,TOALLON SECADO RAPIDO CON FUNDA - (1.30X80cm),4,9775.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00069,5493435711878,25023,69a96f0ad9d285000471b37c,SET ARTE 208 PZAS.,3,29750.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00069,5493435711878,25023,689507a7cdf946000440b373,AUTO A FRICCION MEGA F1,3,7225.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00070,5493435634277,25024,69a8426b5205850004bb242c,MINI PROCESADORA RECARGABLE,4,11000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00070,5493435634277,25024,69a98ec34313b50004f14a3b,CINTA METRICA 3M,3,4000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00070,5493435634277,25024,69a9a2508fafdb0004704153,DOSIFICADOR SPRAY ACEITE/VINAGRE,3,5000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00071,5493435634277,25024,68c966c0bef61e0004bae856,TOALLA DE MANO - ART 995,3,2500.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00071,5493435634277,25024,68c97a0c1038dd0004dd2558,"TOALLA DE SECADO RAPIDO ""TERRENAL"" - (50X35CM)",1,3000.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00072,5493435634277,25024,6808d6acf3178f000406fa67,JUEGO TOALLA Y TOALLON “WOSSEN”,4,15000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00072,5493435634277,25024,69a96e54d9d285000471b37b,PLANCHA DE PELO PROFESIONAL 45WTS,4,15000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00072,5493435634277,25024,69a992cd720cdc00042d4af3,SET HILO BLANCO Y NEGRO,2,3000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00073,5493435260265,25025,69b014e434b6e90004284255,PROTECTOR DE BAÑO 50 MICRONES,2,4025.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00073,5493435260265,25025,688aa141fc6b660004b37d74,VELADOR CAPIBARA (74),2,18400.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00073,5493435260265,25025,688aa01f29a1bd0004dc3632,VELADOR CAPIBARA (25139),1,17250.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00073,5493435260265,25025,69a98eaa3b491a00046a30ac,CINTA METRICA 5 M,2,5750.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00074,5493435260265,25025,688aa141fc6b660004b37d74,VELADOR CAPIBARA (74),1,18400.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00074,5493435260265,25025,69a995f54313b50004f14a52,CEPILLO + PEINE,4,2875.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00074,5493435260265,25025,69a99e9832ead5000496a25d,LUZ PARA BICI CON BOCINA RECARGABLE,4,13800.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00074,5493435260265,25025,69a99142720cdc00042d4af0,BOLSA X50 BOLITAS,3,2185.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00075,5493435260265,25025,69a96d8577797c0004d93aa8,TAPON DE TERMO,3,2300.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00075,5493435260265,25025,68c979bc1038dd0004dd2555,TOALLON SECADO RAPIDO CON FUNDA - (1.30X80cm),2,13225.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00075,5493435260265,25025,688008bb0416e700046fdf42,LABUBU CON ROPA EN CAJA TRANSPARENTE,1,27600.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00075,5493435260265,25025,69a9710393e33d0004fa775a,BALANZA DE VIAJE 50KG DIGITAL,4,20125.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00076,5493435166613,25026,69a999c74313b50004f14a59,CUCHILLO TRAMONTINA X 6,3,6300.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00076,5493435166613,25026,6877f25f7118860004171422,"FRAZADA 1 1/2 PLAZAS ""TERRENAL""",2,16650.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00077,5493435166613,25026,6808d0563197610004e9245b,BOTELLA SPORT 750ML,3,17100.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00077,5493435166613,25026,69b0146999a2470004cdd437,SABANA AJUSTABLE 1 1/2,5,4950.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00077,5493435166613,25026,69a9a31132ead5000496a262,CAMISETA ARGENTINA LINEA ECONOMICA,4,12150.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00078,5493435166613,25026,69a994f14313b50004f14a4a,NAIPE PICTIONARY,2,1800.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00078,5493435166613,25026,6884de9743d0280004d459cd,SQUISHY CALVERA/PATITO/MURCIELAGO/PELOTA PASTEL,2,2700.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00078,5493435166613,25026,69a99334720cdc00042d4af7,SET ARTE X 24,3,3150.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00078,5493435166613,25026,688002d4f0c4760004bc0aa7,SET X3 MUÑECOS CHIFLES,5,10800.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00079,5493435363626,25027,68840a8553a62100046f6aac,SLIME MEDIANO,3,3400.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00079,5493435363626,25027,69a99a454313b50004f14a5a,DESTORNILLADOR 16 EN 1,5,3400.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00080,5493435363626,25027,69a99407720cdc00042d4af9,SET ARTE X150,3,15300.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00080,5493435363626,25027,69a98ec34313b50004f14a3b,CINTA METRICA 3M,2,3400.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00081,5493435363626,25027,69a996914313b50004f14a54,LINTERNA PARA BICI 4 MODOS,4,7650.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00082,5493435663054,25028,68c981ed57ed4f00043b65f8,CORTINA DE AMBIENTE 1.20X2.00 M.,2,10000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00082,5493435663054,25028,688a9c621006a700042d19b5,VELADOR  CAPIBARA (25057),5,17500.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00083,5493435663054,25028,69a83b623191d7000414d6ef,TAPON DE TERMO,4,2000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00083,5493435663054,25028,688408fe53a62100046f6aab,SLIME CHICO,5,1500.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00083,5493435663054,25028,69b0150814fe850004359177,PROTECTOR DE BAÑO 75 MICRONES,3,4500.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00083,5493435663054,25028,6808d144625daf00047e1cc5,REPASADOR ECONOMICOS,1,1500.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00084,5493435663054,25028,69a96f88d9d285000471b37e,DILATADOR NASAL CON IMAN Y PACHES IMANTADOS,3,8500.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00085,5493435407757,25029,69b012c99202430004c3fb30,COVERTOR DE CAMA 1 1/2 PLAZAS,5,18400.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00085,5493435407757,25029,68c966c0bef61e0004bae856,TOALLA DE MANO - ART 995,1,2875.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00085,5493435407757,25029,69a96d8577797c0004d93aa8,TAPON DE TERMO,1,2300.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00085,5493435407757,25029,6808d63ff3178f000406fa66,MANTEL ECO CUERO 1.40X2.00 M,5,12075.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00086,5493435407757,25029,6808cf50f7c7090004d3a961,"NAIPES ""UNO""",2,2300.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00086,5493435407757,25029,69a99e5432ead5000496a25c,LIMPIA VIDRIO MAGNETICO CON RESPUESTO,3,13800.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00086,5493435407757,25029,68c965555abc0f0004b75c90,TOALLA DE MANO - ART 997,5,3450.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00086,5493435407757,25029,69a98eaa3b491a00046a30ac,CINTA METRICA 5 M,1,5750.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00087,5493435407757,25029,69a993633b491a00046a30b3,SET ARTE X 42,2,7475.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00087,5493435407757,25029,6808cf9ab81c5f00044d5eb3,TERMO ACERO INOXIDABLE,3,20125.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00088,5493435854639,25030,69b0150814fe850004359177,PROTECTOR DE BAÑO 75 MICRONES,3,4050.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00088,5493435854639,25030,69a838e7c02d0b0004a00953,FAJA REDUCTORA CON BOLSILLO PARA CELULAR,2,6750.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00088,5493435854639,25030,688a9c621006a700042d19b5,VELADOR  CAPIBARA (25057),3,15750.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00089,5493435854639,25030,6808cb6a55e3d00004c5a7df,MOCHILA 3 EN 1,2,45000.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00090,5493435854639,25030,68840a8553a62100046f6aac,SLIME MEDIANO,1,3600.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00090,5493435854639,25030,688010cbd68cda0004271963,PILOTO DE LLUVIA INFANTIL,2,13500.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00090,5493435854639,25030,688a9f2f29a1bd0004dc362e,VELADOR CAPIBARA C/ SACA PUNTAS (25138 - 25140),5,9000.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00091,5493435211579,25031,6808cd6961f3ad00041a0974,LLAVERO DE CAPIBARA,5,2975.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00091,5493435211579,25031,68c966c0bef61e0004bae856,TOALLA DE MANO - ART 995,4,2125.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00091,5493435211579,25031,69a9713f93e33d0004fa775d,DESTORNILLADOR X 6 MANGO PLASTICO,5,4250.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00092,5493435211579,25031,69a995864313b50004f14a4f,CARTUCHERA TUBO CAMUFLADO,4,1700.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00092,5493435211579,25031,68840b6753a62100046f6aae,SLIME GRANDE MUÑECOS,1,4250.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00092,5493435211579,25031,6895081bcdf946000440b374,AUTO TRANSFORMERS,4,5100.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00092,5493435211579,25031,69b0153334b6e90004284256,TOALLON PLAYEROS,5,6375.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00093,5493435211579,25031,69b011a734b6e90004284251,CINTA AISLADORA X 10 UNIDADES,4,3825.00,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00094,5493435738551,25032,68c97a0c1038dd0004dd2558,"TOALLA DE SECADO RAPIDO ""TERRENAL"" - (50X35CM)",5,3000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00094,5493435738551,25032,69a84168fcfe180004c820c3,TUPPER APILABLE PLASTICO X 3,5,8000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00094,5493435738551,25032,69a992cd720cdc00042d4af3,SET HILO BLANCO Y NEGRO,5,3000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00094,5493435738551,25032,69a96f0ad9d285000471b37c,SET ARTE 208 PZAS.,3,35000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00095,5493435738551,25032,69a995d34313b50004f14a51,SET ESCOLAR SURTIDO EN BLISTER,1,2500.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00095,5493435738551,25032,69a999ae4313b50004f14a58,TENEDOR TRAMONTINA X 6,3,7000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00095,5493435738551,25032,687ffe74d760110004860432,MONOPATIN DE CAPIBARA CON LUCES Y MUSICA,3,60000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00095,5493435738551,25032,69a8426b5205850004bb242c,MINI PROCESADORA RECARGABLE,2,11000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00096,5493435738551,25032,687ffe74d760110004860432,MONOPATIN DE CAPIBARA CON LUCES Y MUSICA,5,60000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00097,5493435916449,25033,6808d4c13b260c0004dd1a2d,JUEGO DE SÁBANAS 1 1/2 PLAZAS,5,12075.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00097,5493435916449,25033,69b014a014fe850004359176,PELOTA Nº2 BOCA,4,6900.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00098,5493435916449,25033,6808cb6a55e3d00004c5a7df,MOCHILA 3 EN 1,5,57500.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00098,5493435916449,25033,69a83a8efcfe180004c820b5,CORREA  PARA MASCOTAS,1,11500.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00098,5493435916449,25033,69b1b59e565b98000427704e,NAIPE “UNO” BRAIN ROT,4,2300.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00098,5493435916449,25033,6895081bcdf946000440b374,AUTO TRANSFORMERS,3,6900.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00099,5493435916449,25033,69a98c604313b50004f14a32,LAPIZ CARPINERO,2,4025.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00099,5493435916449,25033,69a9a31132ead5000496a262,CAMISETA ARGENTINA LINEA ECONOMICA,5,15525.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00100,5493435217301,25034,68840d0fd4311300046763f5,SQUISHY OREO/PULPO,5,3600.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00100,5493435217301,25034,68306c4f4da4c2000449f14a,COMBO 48 TENIS ANIMADAS/MARCAS,2,73800.00,3,Pedido: 2 unidad (normalizado: 96 unidad; equiv: 2 unidad),true,false,false
+P-00100,5493435217301,25034,688010cbd68cda0004271963,PILOTO DE LLUVIA INFANTIL,5,13500.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00100,5493435217301,25034,69a995f54313b50004f14a52,CEPILLO + PEINE,3,2250.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00101,5493435217301,25034,69a96da42f908500047c9960,MOCHILA CALIDAD PREMIUM MARCAS,5,34200.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00101,5493435217301,25034,69a993633b491a00046a30b3,SET ARTE X 42,5,5850.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00101,5493435217301,25034,688a9c621006a700042d19b5,VELADOR  CAPIBARA (25057),4,15750.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00101,5493435217301,25034,69a972412f908500047c9963,LINTERNA MINERA,3,5400.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00102,5493435217301,25034,69a8391a3191d7000414d6ea,PARAGUA CHICO PARA BOLSO,4,6300.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00102,5493435217301,25034,69a990ba720cdc00042d4aec,AURICULAR,4,8100.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00102,5493435217301,25034,69b0140114fe850004359172,CORTINA COCINA CON FALDON 1.1M,1,6750.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00102,5493435217301,25034,69a9917b4313b50004f14a42,"TIJERA PREMIUM 8""",5,2250.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00103,5493435694916,25035,688008740416e700046fdf41,LABUBU CANDY SORPRESA OFERTA,5,7650.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00103,5493435694916,25035,68c966c0bef61e0004bae856,TOALLA DE MANO - ART 995,2,2125.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00103,5493435694916,25035,6880082c41e2e8000499747d,CABEZA MUSICAL LABUBU OFERTA,3,8500.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00104,5493435694916,25035,69a991c74313b50004f14a44,SET GEOMETRIA FLEXIBLES,1,1700.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00104,5493435694916,25035,68840dc5d4311300046763f8,SQUISHY ARDILLA/DINO REX/FRUTILLA/BANANA,2,2550.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00104,5493435694916,25035,69a84132fcfe180004c820c0,NAIPE “UNO” LABUBU,5,1700.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00105,5493435694916,25035,69b00f789202430004c3fb28,ALFOMBRA BAÑO RECTANGULAR,3,5950.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00105,5493435694916,25035,69a994f14313b50004f14a4a,NAIPE PICTIONARY,1,1700.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493435694916,25035,69a995d34313b50004f14a51,SET ESCOLAR SURTIDO EN BLISTER,4,2125.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00106,5493435897549,25036,69a9959e4313b50004f14a50,CARTUCHERA TUBO BRILLOS,4,4000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00107,5493435897549,25036,6877f25f7118860004171422,"FRAZADA 1 1/2 PLAZAS ""TERRENAL""",4,18500.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00107,5493435897549,25036,69a9953d4313b50004f14a4d,LAPIZ ESTUCHE TUBO X 36,2,7500.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00108,5493435897549,25036,68c966c0bef61e0004bae856,TOALLA DE MANO - ART 995,2,2500.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00108,5493435897549,25036,69a83c8ac02d0b0004a00957,ENCENDEDOR CON LINTERNA,5,4500.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00108,5493435897549,25036,68c965555abc0f0004b75c90,TOALLA DE MANO - ART 997,2,3000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00108,5493435897549,25036,69a9712293e33d0004fa775c,DESMENUZADOR / TRITURADOS DE CARNES,5,3500.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00109,5493435676510,25037,69a97045d9d285000471b383,HUEVERAS,3,6900.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00109,5493435676510,25037,69a996d64313b50004f14a55,BATIDOR DE LECHE C/ACCESORIO,1,13225.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00109,5493435676510,25037,69d842b5ab286c0004515f50,PARAGUAS LARGO NEGRO Y PLATEADO,1,11500.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00110,5493435676510,25037,69a996d64313b50004f14a55,BATIDOR DE LECHE C/ACCESORIO,4,13225.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00110,5493435676510,25037,69a9710393e33d0004fa775a,BALANZA DE VIAJE 50KG DIGITAL,1,20125.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00111,5493435676510,25037,69a995864313b50004f14a4f,CARTUCHERA TUBO CAMUFLADO,4,2300.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00112,5493435322086,25038,69a8426b5205850004bb242c,MINI PROCESADORA RECARGABLE,3,9900.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00112,5493435322086,25038,680936d8cc71820004c437f6,GORRA LISA POLIESTER,5,4500.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00112,5493435322086,25038,6895046acdf946000440b36e,"PONY PARA PEINAR ""TINY""",3,13500.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00112,5493435322086,25038,69a99e9832ead5000496a25d,LUZ PARA BICI CON BOCINA RECARGABLE,5,10800.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00113,5493435322086,25038,69a9710393e33d0004fa775a,BALANZA DE VIAJE 50KG DIGITAL,1,15750.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00113,5493435322086,25038,69a99e5432ead5000496a25c,LIMPIA VIDRIO MAGNETICO CON RESPUESTO,5,10800.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00114,5493435322086,25038,69a996914313b50004f14a54,LINTERNA PARA BICI 4 MODOS,2,8100.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00115,5493435426858,25039,69a9713f93e33d0004fa775d,DESTORNILLADOR X 6 MANGO PLASTICO,3,4250.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00115,5493435426858,25039,69a8391a3191d7000414d6ea,PARAGUA CHICO PARA BOLSO,1,5950.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00115,5493435426858,25039,69a96d1377797c0004d93aa7,BALANZA 10 KG,2,7650.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00115,5493435426858,25039,689507a7cdf946000440b373,AUTO A FRICCION MEGA F1,3,7225.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00116,5493435426858,25039,69a842023191d7000414d6f3,PARAGUAS TRANSPARENTE,2,8925.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00116,5493435426858,25039,69a96f88d9d285000471b37e,DILATADOR NASAL CON IMAN Y PACHES IMANTADOS,5,7225.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00116,5493435426858,25039,69b011a734b6e90004284251,CINTA AISLADORA X 10 UNIDADES,5,3825.00,4,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00117,5493435426858,25039,69a98e02720cdc00042d4ae2,PARLANTE BLUETOOTH MAGNETICO COC LUZ,5,10200.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00117,5493435426858,25039,68092a4a7b096f00046bfec4,GORRAS DE MARCAS,3,12750.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00117,5493435426858,25039,69a99142720cdc00042d4af0,BOLSA X50 BOLITAS,1,1615.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00117,5493435426858,25039,6808cd6961f3ad00041a0974,LLAVERO DE CAPIBARA,1,2975.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00118,5493435642717,25040,69a99334720cdc00042d4af7,SET ARTE X 24,2,3500.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00118,5493435642717,25040,69a83c8ac02d0b0004a00957,ENCENDEDOR CON LINTERNA,4,4500.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00118,5493435642717,25040,6808d212625daf00047e1cc8,REPASADOR ART 973,4,2500.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00118,5493435642717,25040,69b00ee934b6e90004284250,ALFOMBRA MEMORY,3,7000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00119,5493435642717,25040,69a96e54d9d285000471b37b,PLANCHA DE PELO PROFESIONAL 45WTS,4,15000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00119,5493435642717,25040,69d84770ab286c0004515f56,CALCULADORA CON PANEL SOLAR,2,9000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00119,5493435642717,25040,685ae40aa9b8640004a8e575,"PERFUME ÁRABE ""CLUB DE NUIT"" 105ML",4,22300.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00120,5493435642717,25040,68782bc0fa95a9000460d444,LLAVERO LABUBU CON ROPA,2,25000.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00120,5493435642717,25040,69d842b5ab286c0004515f50,PARAGUAS LARGO NEGRO Y PLATEADO,1,10000.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00120,5493435642717,25040,69b0136d14fe85000435916f,CORTINA COCINA MICROFIBRA 1.1M,4,6500.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00120,5493435642717,25040,69a995f54313b50004f14a52,CEPILLO + PEINE,2,2500.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00121,5493435122056,0,69a838e7c02d0b0004a00953,FAJA REDUCTORA CON BOLSILLO PARA CELULAR,5,8625.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00121,5493435122056,0,69b0144f14fe850004359174,SABANA AJUSTABLE 2 1/2,4,8050.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00122,5493435122056,0,69a96dec2f908500047c9961,CINTA METRICA 7.5M,3,9200.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00122,5493435122056,0,6877e397ec07430004761282,FRAZADA PARA BEBÉ X 2 UNIDADES,3,23000.00,2,Pedido: 3 unidad (normalizado: 6 unidad; equiv: 3 unidad),true,false,false
+P-00123,5493435122056,0,69a841b43191d7000414d6f2,SET NIVEL - TIRA LINEA CON TIZA,2,5750.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00123,5493435122056,0,69b00f3514fe85000435916e,ALFOMBRA PARA BAÑO OVALADA,1,4600.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00124,5493435132938,0,69a96cb677797c0004d93aa5,CANDADO CHICO 25MM,4,1275.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00124,5493435132938,0,687fd63de04629000442baa5,MONEDERO CAPIBARA,4,8500.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00125,5493435132938,0,69d84770ab286c0004515f56,CALCULADORA CON PANEL SOLAR,2,7650.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00125,5493435132938,0,69a99a454313b50004f14a5a,DESTORNILLADOR 16 EN 1,5,3400.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00126,5493435132938,0,69d843e135b7750004411b35,PARAGUAS MINI PLEGABLE UV,4,6800.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00126,5493435132938,0,69a9a31132ead5000496a262,CAMISETA ARGENTINA LINEA ECONOMICA,2,11475.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00126,5493435132938,0,69a84168fcfe180004c820c3,TUPPER APILABLE PLASTICO X 3,2,6800.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00127,5493435174441,0,68c981ed57ed4f00043b65f8,CORTINA DE AMBIENTE 1.20X2.00 M.,3,9000.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00127,5493435174441,0,69d84541ab286c0004515f53,BOTELLA HIELERA,1,13500.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00128,5493435174441,0,68c979bc1038dd0004dd2555,TOALLON SECADO RAPIDO CON FUNDA - (1.30X80cm),4,10350.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00128,5493435174441,0,69d84541ab286c0004515f53,BOTELLA HIELERA,1,13500.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00128,5493435174441,0,680936d8cc71820004c437f6,GORRA LISA POLIESTER,3,4500.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00129,5493435174441,0,69d84541ab286c0004515f53,BOTELLA HIELERA,5,13500.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00129,5493435174441,0,69a993c03b491a00046a30b6,SET ARTE X67,2,10800.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00130,5493435526833,0,6808cf50f7c7090004d3a961,"NAIPES ""UNO""",5,1800.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00130,5493435526833,0,6808d41bf0bafe000465a255,JUEGO DE SÁBANAS 2 1/2 PLAZAS,1,11700.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00130,5493435526833,0,69b011e134b6e90004284252,CINTA EMBALAR 50MTS X 5 UNIDADES,3,5400.00,3,Pedido: 3 unidad (normalizado: 15 unidad; equiv: 3 unidad),true,false,false
+P-00130,5493435526833,0,68840d0fd4311300046763f5,SQUISHY OREO/PULPO,1,3600.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00131,5493435526833,0,69a838e7c02d0b0004a00953,FAJA REDUCTORA CON BOLSILLO PARA CELULAR,4,6750.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00131,5493435526833,0,69a83c8ac02d0b0004a00957,ENCENDEDOR CON LINTERNA,2,4050.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00131,5493435526833,0,69b012629202430004c3fb2d,BOLSO DEPORTIVO T60,2,40500.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00131,5493435526833,0,689503dea287b0000470ad49,ARCO Y FLECHA CON SOPAPA,3,10800.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00132,5493435526833,0,6808d41bf0bafe000465a255,JUEGO DE SÁBANAS 2 1/2 PLAZAS,3,11700.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00132,5493435526833,0,685c6a2766443e00047238b7,MANTA FLANEL LISA 2 PLAZAS,5,22500.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00133,5493435544154,0,69a9a35532ead5000496a264,MOCHILA PREMIUM JANSPORT,1,28900.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00134,5493435544154,0,69a84132fcfe180004c820c0,NAIPE “UNO” LABUBU,1,1700.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00134,5493435544154,0,69a98e7c720cdc00042d4ae3,PILA AAA X 4 UNIDADES,3,850.00,4,Pedido: 3 unidad (normalizado: 12 unidad; equiv: 3 unidad),true,false,false
+P-00134,5493435544154,0,69b012e19202430004c3fb31,COVERTOR DE CAMA 2 1/2 PLAZAS,1,17425.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00135,5493435544154,0,69a98ec34313b50004f14a3b,CINTA METRICA 3M,2,3400.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00135,5493435544154,0,69b0155734b6e90004284257,LENTE DE LECTURA,4,2125.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00135,5493435544154,0,69b0150814fe850004359177,PROTECTOR DE BAÑO 75 MICRONES,2,3825.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00135,5493435544154,0,69a96f88d9d285000471b37e,DILATADOR NASAL CON IMAN Y PACHES IMANTADOS,5,7225.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00136,5493435570405,0,6808cf50f7c7090004d3a961,"NAIPES ""UNO""",5,1800.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00136,5493435570405,0,688aa253fc6b660004b37d78,VELADOR KITTY CELESTE / ROSA,3,12600.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00136,5493435570405,0,6880123c9e463c00046ed0c0,PELUCHE LABUBU GIGANTE,2,32400.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00137,5493435570405,0,69a99e5432ead5000496a25c,LIMPIA VIDRIO MAGNETICO CON RESPUESTO,4,10800.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00138,5493435570405,0,687fd63de04629000442baa5,MONEDERO CAPIBARA,1,9000.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00139,5493435698782,0,69a8391a3191d7000414d6ea,PARAGUA CHICO PARA BOLSO,4,8050.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00139,5493435698782,0,69a993633b491a00046a30b3,SET ARTE X 42,1,7475.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00139,5493435698782,0,69b012e19202430004c3fb31,COVERTOR DE CAMA 2 1/2 PLAZAS,5,23575.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00139,5493435698782,0,69a98e02720cdc00042d4ae2,PARLANTE BLUETOOTH MAGNETICO COC LUZ,2,13800.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00140,5493435698782,0,693989ce7ebf570004b72cd6,REPASADOR ECO,4,1725.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00140,5493435698782,0,689507a7cdf946000440b373,AUTO A FRICCION MEGA F1,2,9775.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00140,5493435698782,0,6880123c9e463c00046ed0c0,PELUCHE LABUBU GIGANTE,5,41400.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00140,5493435698782,0,69a838e7c02d0b0004a00953,FAJA REDUCTORA CON BOLSILLO PARA CELULAR,3,8625.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00141,5493435698782,0,6808cd6961f3ad00041a0974,LLAVERO DE CAPIBARA,4,4025.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00141,5493435698782,0,689503dea287b0000470ad49,ARCO Y FLECHA CON SOPAPA,1,13800.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00141,5493435698782,0,69a999c74313b50004f14a59,CUCHILLO TRAMONTINA X 6,4,8050.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00142,5493435785197,0,69a9712293e33d0004fa775c,DESMENUZADOR / TRITURADOS DE CARNES,4,3500.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00142,5493435785197,0,688008bb0416e700046fdf42,LABUBU CON ROPA EN CAJA TRANSPARENTE,4,24000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00142,5493435785197,0,69a96da42f908500047c9960,MOCHILA CALIDAD PREMIUM MARCAS,4,38000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00143,5493435785197,0,69b012629202430004c3fb2d,BOLSO DEPORTIVO T60,5,45000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00143,5493435785197,0,68092bb47b096f00046bfec9,CAPELINA CON OREJITAS NENA,5,15000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00143,5493435785197,0,69a996224313b50004f14a53,CHISPERO RECARGABLE,3,8000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00144,5493435785197,0,688aa253fc6b660004b37d78,VELADOR KITTY CELESTE / ROSA,3,14000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00144,5493435785197,0,69a995d34313b50004f14a51,SET ESCOLAR SURTIDO EN BLISTER,3,2500.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00145,5493435801474,0,69a98c604313b50004f14a32,LAPIZ CARPINERO,3,3500.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00145,5493435801474,0,69a98e7c720cdc00042d4ae3,PILA AAA X 4 UNIDADES,5,1000.00,1,Pedido: 5 unidad (normalizado: 20 unidad; equiv: 5 unidad),true,false,false
+P-00146,5493435801474,0,687fdb2caafbe40004ebc612,DISPENSER MINI PATO Y CAPIBARA,4,5000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00146,5493435801474,0,69b0146999a2470004cdd437,SABANA AJUSTABLE 1 1/2,5,5500.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00147,5493435801474,0,685ae4744e0f7a00049e1f4b,"PERFUME ÁRABE ""AMBER OUD""  105ML",2,30800.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00148,5493435939482,0,69b00fb09202430004c3fb2a,JUEGO DE TOALLA Y TOALLON CON GUARDA,4,13800.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00148,5493435939482,0,69a9921d3b491a00046a30ae,BIROME GEL X 6,3,3450.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00149,5493435939482,0,69a98e304313b50004f14a38,LINTERNA CON PICANA EN CAJA,5,23000.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00149,5493435939482,0,69b012c99202430004c3fb30,COVERTOR DE CAMA 1 1/2 PLAZAS,3,18400.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00149,5493435939482,0,69b011a734b6e90004284251,CINTA AISLADORA X 10 UNIDADES,4,5175.00,2,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00150,5493435939482,0,6a4cfbb7255a760004109edb,NAIPE ESPAÑOL,4,2300.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00151,5493435343962,25004,6808cd6961f3ad00041a0974,LLAVERO DE CAPIBARA,1,2975.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad) - promo fase 2,true,true,true
+P-00151,5493435343962,25004,69a9710393e33d0004fa775a,BALANZA DE VIAJE 50KG DIGITAL,4,17500.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00151,5493435343962,25004,69a83a9dfcfe180004c820b6,BALANZA COMERCIAL 40KM CON VISOR,4,110000.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00151,5493435343962,25004,688aa253fc6b660004b37d78,VELADOR KITTY CELESTE / ROSA,5,14000.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00152,5493435770487,25001,69a9a2508fafdb0004704153,DOSIFICADOR SPRAY ACEITE/VINAGRE,2,5750.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00152,5493435770487,25001,6808d6acf3178f000406fa67,JUEGO TOALLA Y TOALLON “WOSSEN”,5,17250.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00152,5493435770487,25001,69d843e135b7750004411b35,PARAGUAS MINI PLEGABLE UV,1,9200.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00153,5493435246316,25002,6880123c9e463c00046ed0c0,PELUCHE LABUBU GIGANTE,1,32400.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00154,5493435191161,25003,69a995864313b50004f14a4f,CARTUCHERA TUBO CAMUFLADO,5,1700.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00155,5493435781453,25005,69a99a0f720cdc00042d4b03,SET X6 BOMBILLA ACERO INOX,2,13800.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00156,5493435391704,25006,69a99407720cdc00042d4af9,SET ARTE X150,3,16200.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00157,5493435543143,25007,693989ce7ebf570004b72cd6,REPASADOR ECO,3,1275.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false

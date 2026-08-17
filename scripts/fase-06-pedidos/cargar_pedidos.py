@@ -131,7 +131,8 @@ async def main_async(esquema: str) -> None:
     if not items:
         raise SystemExit("[FAIL] El CSV de items esta vacio.")
 
-    conn = await asyncpg.connect(db_url)
+    # Puerto 6543 (Transaction Mode): desactivar cache de prepared statements
+    conn = await asyncpg.connect(db_url, statement_cache_size=0)
     try:
         await conn.execute(f"SET search_path TO {esquema}, core, public, extensions")
 
@@ -298,7 +299,13 @@ async def main_async(esquema: str) -> None:
             order_ref_to_db_id[pedido_ref] = pedido_db_id
             order_totals[pedido_ref] = Decimal("0")
 
+        order_dates = {o["pedido_ref"]: parse_dt(o["fecha"]) for o in orders}
+
+        # Batch insert items using executemany for high performance
+        item_sql_template = None
+        item_params_list = []
         inserted_items = 0
+
         for row in items:
             pedido_ref = row["pedido_ref"]
             pedido_id = order_ref_to_db_id.get(pedido_ref)
@@ -315,7 +322,7 @@ async def main_async(esquema: str) -> None:
             lista_precios_id = parse_int(row.get("lista_precios_id"), 0)
             notas = row.get("notas", "")
             is_mock = parse_bool(row.get("is_mock", "true"))
-            fecha = parse_dt(next((o["fecha"] for o in orders if o["pedido_ref"] == pedido_ref), row.get("fecha", "2026-06-16 00:00:00")))
+            fecha = order_dates.get(pedido_ref, parse_dt(row.get("fecha", "2026-06-16 00:00:00")))
             item_client_value = resolve_client_identifier(item_client_type, client_id, cliente_phone) if item_client_col else None
 
             values: dict[str, object] = {
@@ -335,19 +342,25 @@ async def main_async(esquema: str) -> None:
             if item_updated_at_col:
                 values[item_updated_at_col] = fecha
 
-            sql, params = build_insert_sql(esquema, "items_pedido", items_cols, values)
-            await conn.fetchval(sql, *params)
+            if item_sql_template is None:
+                item_sql_template, params = build_insert_sql(esquema, "items_pedido", items_cols, values)
+                # Remove RETURNING id for executemany
+                if " RETURNING id" in item_sql_template:
+                    item_sql_template = item_sql_template.replace(" RETURNING id", "")
+
+            _, params = build_insert_sql(esquema, "items_pedido", items_cols, values)
+            item_params_list.append(params)
             inserted_items += 1
             order_totals[pedido_ref] += money(precio_unitario * cantidad)
 
-        # Recalcular y actualizar totales para asegurar consistencia.
-        for pedido_ref, pedido_id in order_ref_to_db_id.items():
-            total = money(order_totals[pedido_ref])
-            await conn.execute(
-                f"UPDATE {table_name(esquema, 'pedidos')} SET {total_col} = $1 WHERE id = $2",
-                total,
-                pedido_id,
-            )
+        if item_sql_template and item_params_list:
+            await conn.executemany(item_sql_template, item_params_list)
+
+        # Batch update totals for order consistency
+        update_totals_sql = f"UPDATE {table_name(esquema, 'pedidos')} SET {total_col} = $1 WHERE id = $2"
+        update_totals_params = [(money(order_totals[pref]), pid) for pref, pid in order_ref_to_db_id.items()]
+        if update_totals_params:
+            await conn.executemany(update_totals_sql, update_totals_params)
 
         open_condition = f"{abierto_col} = true" if abierto_col else f"{estado_col} IN ('abierto', 'pendiente')"
         pedidos_open_count = await conn.fetchval(

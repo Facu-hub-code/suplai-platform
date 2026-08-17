@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5492612780568,5492612780568,ai,ai,"Hola Parrilla El Rincón, paso a revisar tu pedido P-00099 de GRASA X 25 KG.","Hola Parrilla El Rincón, paso a revisar tu pedido P-00099 de GRASA X 25 KG.",2026-07-30 10:14:14,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 10:15:43,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 563156.00.,Te confirmo que el pedido P-00099 fue registrado correctamente por 563156.00.,2026-07-30 10:16:39,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 10:17:48,true
+5492612928724,5492612928724,ai,ai,"Hola Congelados y Más, paso a revisar tu pedido P-00123 de PAN RALLADO/REBOZADOR 8X1KG.","Hola Congelados y Más, paso a revisar tu pedido P-00123 de PAN RALLADO/REBOZADOR 8X1KG.",2026-07-31 12:14:14,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-31 12:14:59,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 49950.00.,Te confirmo que el pedido P-00123 fue registrado correctamente por 49950.00.,2026-07-31 12:15:32,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-07-31 12:17:05,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-31 12:18:01,true
+5492614053074,5492614053074,ai,ai,"Hola Pinturería Color y Vida, vi que tenes un pedido abierto por GRACIELA. REAL LEUDANTE 10 X 1 KG y queria ayudarte a cerrarlo.","Hola Pinturería Color y Vida, vi que tenes un pedido abierto por GRACIELA. REAL LEUDANTE 10 X 1 KG y queria ayudarte a cerrarlo.",2026-07-31 09:14:14,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-07-31 09:15:52,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 421360.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 421360.00. Si queres te lo dejo cerrado hoy.,2026-07-31 09:16:28,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-07-31 09:17:46,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-07-31 09:19:03,true
+5492615021286,5492615021286,ai,ai,"Hola Almacén El Mercado, paso a revisar tu pedido P-00112 de PAN RALLADO/REBOZADOR 25KG.","Hola Almacén El Mercado, paso a revisar tu pedido P-00112 de PAN RALLADO/REBOZADOR 25KG.",2026-07-29 10:14:14,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 10:16:03,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 75440.00.,Te confirmo que el pedido P-00112 fue registrado correctamente por 75440.00.,2026-07-29 10:16:51,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 10:17:34,true
+5492615139305,5492615139305,ai,ai,"Hola Restaurante El Fogón, paso a revisar tu pedido P-00076 de LAMB WESTON Stealth Frites 9 15KG.","Hola Restaurante El Fogón, paso a revisar tu pedido P-00076 de LAMB WESTON Stealth Frites 9 15KG.",2026-07-29 12:14:14,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 12:15:21,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 967361.60.,Te confirmo que el pedido P-00076 fue registrado correctamente por 967361.60.,2026-07-29 12:16:38,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 12:17:21,true
+5492617175545,5492617175545,ai,ai,"Hola Asadería La Tradición, paso a revisar tu pedido P-00027 de PAN RALLADO/REBOZADOR 25KG.","Hola Asadería La Tradición, paso a revisar tu pedido P-00027 de PAN RALLADO/REBOZADOR 25KG.",2026-07-30 09:14:14,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 09:15:43,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 79000.00.,Te confirmo que el pedido P-00027 fue registrado correctamente por 79000.00.,2026-07-30 09:16:32,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 09:17:51,true
+5492617236955,5492617236955,ai,ai,"Hola Restaurante El Buen Gusto, paso a revisar tu pedido P-00126 de GRACIELA. REAL LEUDANTE 10 X 1 KG.","Hola Restaurante El Buen Gusto, paso a revisar tu pedido P-00126 de GRACIELA. REAL LEUDANTE 10 X 1 KG.",2026-07-31 11:14:14,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-31 11:15:05,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 40100.00.,Te confirmo que el pedido P-00126 fue registrado correctamente por 40100.00.,2026-07-31 11:15:52,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-07-31 11:16:41,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-31 11:17:31,true
+5492617413812,5492617413812,ai,ai,"Hola Carnicería El Asador, paso a revisar tu pedido P-00129 de GRACIELA. REAL 4/0 10 X 1 KG.","Hola Carnicería El Asador, paso a revisar tu pedido P-00129 de GRACIELA. REAL 4/0 10 X 1 KG.",2026-07-31 10:14:14,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-31 10:16:04,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 185659.20.,Te confirmo que el pedido P-00129 fue registrado correctamente por 185659.20.,2026-07-31 10:17:21,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-07-31 10:18:16,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-31 10:19:28,true
+5492618861463,5492618861463,ai,ai,"Hola Congelados del Norte, paso a revisar tu pedido P-00079 de BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg.","Hola Congelados del Norte, paso a revisar tu pedido P-00079 de BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg.",2026-07-30 11:14:14,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 11:15:40,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 196200.00.,Te confirmo que el pedido P-00079 fue registrado correctamente por 196200.00.,2026-07-30 11:16:13,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 11:17:43,true
+5492618889598,5492618889598,ai,ai,"Hola Harinas y Sazón, paso a revisar tu pedido P-00110 de SAL ENTREFINA X 25KG RINSAL.","Hola Harinas y Sazón, paso a revisar tu pedido P-00110 de SAL ENTREFINA X 25KG RINSAL.",2026-07-30 11:14:14,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 11:15:49,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 33600.00.,Te confirmo que el pedido P-00110 fue registrado correctamente por 33600.00.,2026-07-30 11:16:46,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 11:17:48,true
+5492619239862,5492619239862,ai,ai,"Hola Almacén El Sabor, paso a revisar tu pedido P-00066 de SALVADO X 25 KG.","Hola Almacén El Sabor, paso a revisar tu pedido P-00066 de SALVADO X 25 KG.",2026-07-29 11:14:14,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 11:15:58,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 84985.00.,Te confirmo que el pedido P-00066 fue registrado correctamente por 84985.00.,2026-07-29 11:17:26,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 11:18:05,true
+5492991227644,5492991227644,ai,ai,"Hola Parrilla El Buen Sabor, vi que tenes un pedido abierto por LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg y queria ayudarte a cerrarlo.","Hola Parrilla El Buen Sabor, vi que tenes un pedido abierto por LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg y queria ayudarte a cerrarlo.",2026-07-31 12:14:14,true
+5492991227644,5492991227644,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-07-31 12:15:54,true
+5492991227644,5492991227644,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-07-31 12:17:13,true
+5492991227644,5492991227644,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-07-31 12:18:38,true
+5492991227644,5492991227644,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-07-31 12:19:43,true
+5492992500733,5492992500733,ai,ai,"Hola Asadería La Amistad, paso a revisar tu pedido P-00073 de LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg.","Hola Asadería La Amistad, paso a revisar tu pedido P-00073 de LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg.",2026-07-30 08:14:14,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 08:15:57,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 498000.00.,Te confirmo que el pedido P-00073 fue registrado correctamente por 498000.00.,2026-07-30 08:16:35,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 08:17:22,true
+5492994145193,5492994145193,ai,ai,"Hola Carnicería La Familia, paso a revisar tu pedido P-00045 de GRACIELA. REAL 3/0 X 25 KG.","Hola Carnicería La Familia, paso a revisar tu pedido P-00045 de GRACIELA. REAL 3/0 X 25 KG.",2026-07-30 08:14:14,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 08:15:15,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 54000.00.,Te confirmo que el pedido P-00045 fue registrado correctamente por 54000.00.,2026-07-30 08:16:22,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 08:17:47,true
+5492994228106,5492994228106,ai,ai,"Hola Ferretería Todo en Uno, paso a revisar tu pedido P-00051 de MORIXES AREPA 20 X 1 KG.","Hola Ferretería Todo en Uno, paso a revisar tu pedido P-00051 de MORIXES AREPA 20 X 1 KG.",2026-07-30 11:14:14,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 11:15:33,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 180000.00.,Te confirmo que el pedido P-00051 fue registrado correctamente por 180000.00.,2026-07-30 11:16:07,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 11:16:48,true
+5492995028869,5492995028869,ai,ai,"Hola Restaurante La Parrilla, paso a revisar tu pedido P-00057 de Lamb Weston Corte Fino 7 mm 8 bls x 2,25 kg.","Hola Restaurante La Parrilla, paso a revisar tu pedido P-00057 de Lamb Weston Corte Fino 7 mm 8 bls x 2,25 kg.",2026-07-30 09:14:14,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 09:15:39,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 552600.00.,Te confirmo que el pedido P-00057 fue registrado correctamente por 552600.00.,2026-07-30 09:16:09,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 09:17:23,true
+5492997489876,5492997489876,ai,ai,"Hola Ferretería La Herramienta, paso a revisar tu pedido P-00118 de LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg.","Hola Ferretería La Herramienta, paso a revisar tu pedido P-00118 de LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg.",2026-07-29 08:14:14,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 08:15:55,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 378700.00.,Te confirmo que el pedido P-00118 fue registrado correctamente por 378700.00.,2026-07-29 08:16:47,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 08:17:37,true
+5492997670210,5492997670210,ai,ai,"Hola Almacén El Rincón, paso a revisar tu pedido P-00037 de AZUCAR DUL C 10 X 1 KG.","Hola Almacén El Rincón, paso a revisar tu pedido P-00037 de AZUCAR DUL C 10 X 1 KG.",2026-07-30 10:14:14,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 10:15:21,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 56000.00.,Te confirmo que el pedido P-00037 fue registrado correctamente por 56000.00.,2026-07-30 10:16:08,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 10:17:09,true
+5492998066543,5492998066543,ai,ai,"Hola Corralón La Base, paso a revisar tu pedido P-00132 de BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg.","Hola Corralón La Base, paso a revisar tu pedido P-00132 de BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg.",2026-07-31 09:14:14,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-31 09:15:52,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 287960.00.,Te confirmo que el pedido P-00132 fue registrado correctamente por 287960.00.,2026-07-31 09:16:31,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-07-31 09:18:06,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-31 09:19:16,true
+5492998718887,5492998718887,ai,ai,"Hola Corralón La Solución, paso a revisar tu pedido P-00054 de Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg.","Hola Corralón La Solución, paso a revisar tu pedido P-00054 de Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg.",2026-07-29 10:14:14,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 10:16:11,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 69000.00.,Te confirmo que el pedido P-00054 fue registrado correctamente por 69000.00.,2026-07-29 10:16:57,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 10:18:03,true
+5492999435946,5492999435946,ai,ai,"Hola La Harina del Pueblo, paso a revisar tu pedido P-00135 de Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg.","Hola La Harina del Pueblo, paso a revisar tu pedido P-00135 de Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg.",2026-07-31 08:14:14,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-31 08:15:57,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 138000.00.,Te confirmo que el pedido P-00135 fue registrado correctamente por 138000.00.,2026-07-31 08:16:45,true
+5492999435946,5492999435946,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-07-31 08:18:31,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-31 08:19:03,true
+5493414799650,5493414799650,ai,ai,"Hola Carnicería El Buen Corte, paso a revisar tu pedido P-00071 de GRASA X 25 KG.","Hola Carnicería El Buen Corte, paso a revisar tu pedido P-00071 de GRASA X 25 KG.",2026-07-29 09:14:14,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 09:15:12,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 242344.00.,Te confirmo que el pedido P-00071 fue registrado correctamente por 242344.00.,2026-07-29 09:15:52,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 09:16:45,true
+5493416524997,5493416524997,ai,ai,"Hola Pinturería El Maestro, paso a revisar tu pedido P-00138 de PAN RALLADO/REBOZADOR 25KG.","Hola Pinturería El Maestro, paso a revisar tu pedido P-00138 de PAN RALLADO/REBOZADOR 25KG.",2026-07-29 12:14:14,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 12:15:05,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 210600.00.,Te confirmo que el pedido P-00138 fue registrado correctamente por 210600.00.,2026-07-29 12:16:04,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 12:17:11,true
+5493416986538,5493416986538,ai,ai,"Hola La Casa de la Harina, paso a revisar tu pedido P-00063 de AZUCAR X 50 KG.","Hola La Casa de la Harina, paso a revisar tu pedido P-00063 de AZUCAR X 50 KG.",2026-07-30 12:14:14,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 12:15:43,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 7100.00.,Te confirmo que el pedido P-00063 fue registrado correctamente por 7100.00.,2026-07-30 12:16:45,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 12:17:48,true
+5493418277249,5493418277249,ai,ai,"Hola Carnicería El Amigo, vi que tenes un pedido abierto por HARINA MORIXES 3/0 10XKG y queria ayudarte a cerrarlo.","Hola Carnicería El Amigo, vi que tenes un pedido abierto por HARINA MORIXES 3/0 10XKG y queria ayudarte a cerrarlo.",2026-07-31 11:14:14,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-07-31 11:16:11,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,2026-07-31 11:17:25,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-07-31 11:19:06,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-07-31 11:20:16,true
+5493419686914,5493419686914,ai,ai,"Hola Pinturería Color y Estilo, paso a revisar tu pedido P-00090 de HARINA MORIXES 4/0 10XKG.","Hola Pinturería Color y Estilo, paso a revisar tu pedido P-00090 de HARINA MORIXES 4/0 10XKG.",2026-07-29 08:14:14,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 08:15:10,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 78660.00.,Te confirmo que el pedido P-00090 fue registrado correctamente por 78660.00.,2026-07-29 08:16:34,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 08:17:57,true
+5493513952681,5493513952681,ai,ai,"Hola Pinturería El Colorido, paso a revisar tu pedido P-00068 de DISTINGUIDA 3/0 X 25 KG.","Hola Pinturería El Colorido, paso a revisar tu pedido P-00068 de DISTINGUIDA 3/0 X 25 KG.",2026-07-30 10:14:14,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 10:15:24,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 379440.00.,Te confirmo que el pedido P-00068 fue registrado correctamente por 379440.00.,2026-07-30 10:16:35,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 10:17:33,true
+5493514079279,5493514079279,ai,ai,"Hola Ferretería El Progreso, vi que tenes un pedido abierto por AZUCAR BELLA VISTA 10X1KG y queria ayudarte a cerrarlo.","Hola Ferretería El Progreso, vi que tenes un pedido abierto por AZUCAR BELLA VISTA 10X1KG y queria ayudarte a cerrarlo.",2026-07-31 08:14:14,true
+5493514079279,5493514079279,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-07-31 08:16:02,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 241110.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 241110.00. Si queres te lo dejo cerrado hoy.,2026-07-31 08:17:17,true
+5493514079279,5493514079279,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-07-31 08:18:19,true
+5493514079279,5493514079279,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-07-31 08:19:23,true
+5493515971311,5493515971311,ai,ai,"Hola Parrilla El Asador, paso a revisar tu pedido P-00048 de AZUCAR FRONTERITA 10 X 1 KG.","Hola Parrilla El Asador, paso a revisar tu pedido P-00048 de AZUCAR FRONTERITA 10 X 1 KG.",2026-07-29 12:14:14,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 12:15:22,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 168344.00.,Te confirmo que el pedido P-00048 fue registrado correctamente por 168344.00.,2026-07-29 12:16:40,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 12:17:18,true
+5493516216782,5493516216782,ai,ai,"Hola Corralón El Camino, paso a revisar tu pedido P-00096 de LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg.","Hola Corralón El Camino, paso a revisar tu pedido P-00096 de LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg.",2026-07-29 11:14:14,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 11:15:00,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 393500.00.,Te confirmo que el pedido P-00096 fue registrado correctamente por 393500.00.,2026-07-29 11:16:19,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 11:17:27,true
+5493517304254,5493517304254,ai,ai,"Hola Congelados y Sabores, paso a revisar tu pedido P-00060 de GRACIELA. REAL 4/0 10 X 1 KG.","Hola Congelados y Sabores, paso a revisar tu pedido P-00060 de GRACIELA. REAL 4/0 10 X 1 KG.",2026-07-29 08:14:14,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 08:16:03,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 134900.00.,Te confirmo que el pedido P-00060 fue registrado correctamente por 134900.00.,2026-07-29 08:16:55,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 08:18:09,true
+5493517632424,5493517632424,ai,ai,"Hola Almacén La Selección, paso a revisar tu pedido P-00141 de OLEOMARGARINA 1 X 20 KG.","Hola Almacén La Selección, paso a revisar tu pedido P-00141 de OLEOMARGARINA 1 X 20 KG.",2026-07-30 11:14:14,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 11:15:30,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 434016.00.,Te confirmo que el pedido P-00141 fue registrado correctamente por 434016.00.,2026-07-30 11:16:37,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 11:18:04,true
+5493518648263,5493518648263,ai,ai,"Hola Ferretería El Taller, paso a revisar tu pedido P-00093 de LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg.","Hola Ferretería El Taller, paso a revisar tu pedido P-00093 de LAMB WESTON Crisscut (papa Rejilla) 5 x 2 kg.",2026-07-30 12:14:14,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 12:16:07,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 216000.00.,Te confirmo que el pedido P-00093 fue registrado correctamente por 216000.00.,2026-07-30 12:17:20,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 12:18:45,true
+5493519107005,5493519107005,ai,ai,"Hola Corralón La Tierra, paso a revisar tu pedido P-00144 de Lamb Weston Corte Steakhouse 12 MM 5 x 2,5 kg.","Hola Corralón La Tierra, paso a revisar tu pedido P-00144 de Lamb Weston Corte Steakhouse 12 MM 5 x 2,5 kg.",2026-07-29 10:14:14,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 10:15:48,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 200000.00.,Te confirmo que el pedido P-00144 fue registrado correctamente por 200000.00.,2026-07-29 10:16:31,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 10:18:00,true
+5493582132179,5493582132179,ai,ai,"Hola Congelados La Estrella, paso a revisar tu pedido P-00032 de BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg.","Hola Congelados La Estrella, paso a revisar tu pedido P-00032 de BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg.",2026-07-30 12:14:14,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 12:15:47,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 357165.00.,Te confirmo que el pedido P-00032 fue registrado correctamente por 357165.00.,2026-07-30 12:17:11,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 12:17:58,true
+5493582639964,5493582639964,ai,ai,"Hola Carnicería El Sabor, paso a revisar tu pedido P-00102 de SALVADO X 25 KG.","Hola Carnicería El Sabor, paso a revisar tu pedido P-00102 de SALVADO X 25 KG.",2026-07-29 09:14:14,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 09:15:02,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 95450.00.,Te confirmo que el pedido P-00102 fue registrado correctamente por 95450.00.,2026-07-29 09:15:53,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 09:16:33,true
+5493582641213,5493582641213,ai,ai,"Hola La Harina Mágica, vi que tenes un pedido abierto por LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg y queria ayudarte a cerrarlo.","Hola La Harina Mágica, vi que tenes un pedido abierto por LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg y queria ayudarte a cerrarlo.",2026-07-31 01:14:14,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-07-31 01:15:44,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-07-31 01:16:33,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-07-31 01:17:36,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-07-31 01:18:36,true
+5493587747641,5493587747641,ai,ai,"Hola Almacén La Abundancia, vi que tenes un pedido abierto por HARINA MORIXES LEUDANTE 10 X 1 KG y queria ayudarte a cerrarlo.","Hola Almacén La Abundancia, vi que tenes un pedido abierto por HARINA MORIXES LEUDANTE 10 X 1 KG y queria ayudarte a cerrarlo.",2026-07-31 10:14:14,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-07-31 10:15:58,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 172100.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 172100.00. Si queres te lo dejo cerrado hoy.,2026-07-31 10:17:00,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-07-31 10:18:36,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-07-31 10:19:26,true
+5493587905250,5493587905250,ai,ai,"Hola Congelados del Sur, vi que tenes un pedido abierto por Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg y queria ayudarte a cerrarlo.","Hola Congelados del Sur, vi que tenes un pedido abierto por Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg y queria ayudarte a cerrarlo.",2026-07-31 02:14:14,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-07-31 02:15:16,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-07-31 02:16:35,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-07-31 02:18:31,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-07-31 02:19:39,true
+5493811657614,5493811657614,ai,ai,"Hola Pinturería La Paleta, paso a revisar tu pedido P-00040 de GRACIELA. REAL 4/0 10 X 1 KG.","Hola Pinturería La Paleta, paso a revisar tu pedido P-00040 de GRACIELA. REAL 4/0 10 X 1 KG.",2026-07-29 09:14:14,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 09:15:37,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 263465.00.,Te confirmo que el pedido P-00040 fue registrado correctamente por 263465.00.,2026-07-29 09:16:33,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 09:17:30,true
+5493812941974,5493812941974,ai,ai,"Hola Harinas del Valle, paso a revisar tu pedido P-00084 de HARINA PARA PIZZA MORIXES 10X1KG.","Hola Harinas del Valle, paso a revisar tu pedido P-00084 de HARINA PARA PIZZA MORIXES 10X1KG.",2026-07-29 10:14:14,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 10:16:09,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 53000.00.,Te confirmo que el pedido P-00084 fue registrado correctamente por 53000.00.,2026-07-29 10:17:19,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 10:17:52,true
+5493813520000,5493813520000,ai,ai,"Hola Pinturería El Artista, paso a revisar tu pedido P-00115 de PAN RALLADO/REBOZADOR 5 KG.","Hola Pinturería El Artista, paso a revisar tu pedido P-00115 de PAN RALLADO/REBOZADOR 5 KG.",2026-07-30 09:14:14,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 09:15:05,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 98730.00.,Te confirmo que el pedido P-00115 fue registrado correctamente por 98730.00.,2026-07-30 09:16:11,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 09:17:37,true
+5493814729528,5493814729528,ai,ai,"Hola Restaurante La Cocina, paso a revisar tu pedido P-00105 de GRACIELA. REAL 3/0 X 25 KG.","Hola Restaurante La Cocina, paso a revisar tu pedido P-00105 de GRACIELA. REAL 3/0 X 25 KG.",2026-07-30 08:14:14,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 08:15:48,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 222044.40.,Te confirmo que el pedido P-00105 fue registrado correctamente por 222044.40.,2026-07-30 08:16:58,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 08:18:20,true
+5493817404433,5493817404433,ai,ai,"Hola Almacén La Esquina, paso a revisar tu pedido P-00087 de Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg.","Hola Almacén La Esquina, paso a revisar tu pedido P-00087 de Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg.",2026-07-30 09:14:14,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 09:15:50,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 532000.00.,Te confirmo que el pedido P-00087 fue registrado correctamente por 532000.00.,2026-07-30 09:17:16,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 09:18:19,true
+5493818437953,5493818437953,ai,ai,"Hola Restaurante Sabor Argentino, paso a revisar tu pedido P-00029 de DISTINGUIDA 3/0 X 25 KG.","Hola Restaurante Sabor Argentino, paso a revisar tu pedido P-00029 de DISTINGUIDA 3/0 X 25 KG.",2026-07-29 08:14:14,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 08:15:52,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 98670.00.,Te confirmo que el pedido P-00029 fue registrado correctamente por 98670.00.,2026-07-29 08:16:43,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 08:17:38,true
+5493872845902,5493872845902,ai,ai,"Hola Harinas y Más, paso a revisar tu pedido P-00034 de OLEOMARGARINA 1 X 20 KG.","Hola Harinas y Más, paso a revisar tu pedido P-00034 de OLEOMARGARINA 1 X 20 KG.",2026-07-29 11:14:14,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 11:15:16,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 459984.00.,Te confirmo que el pedido P-00034 fue registrado correctamente por 459984.00.,2026-07-29 11:16:39,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 11:17:18,true
+5493874104594,5493874104594,ai,ai,"Hola Asadería El Sabor, paso a revisar tu pedido P-00146 de PAN RALLADO/REBOZADOR 25KG.","Hola Asadería El Sabor, paso a revisar tu pedido P-00146 de PAN RALLADO/REBOZADOR 25KG.",2026-07-30 09:14:14,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-30 09:15:23,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 566375.00.,Te confirmo que el pedido P-00146 fue registrado correctamente por 566375.00.,2026-07-30 09:16:41,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-30 09:17:12,true
+5493876499570,5493876499570,ai,ai,"Hola Ferretería El Constructor, paso a revisar tu pedido P-00149 de SAL FINA X 25KG RINSAL.","Hola Ferretería El Constructor, paso a revisar tu pedido P-00149 de SAL FINA X 25KG RINSAL.",2026-07-29 08:14:14,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 08:15:02,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 299200.00.,Te confirmo que el pedido P-00149 fue registrado correctamente por 299200.00.,2026-07-29 08:15:40,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 08:16:36,true
+5493876914178,5493876914178,ai,ai,"Hola Corralón La Esperanza, paso a revisar tu pedido P-00024 de HARINA PARA PIZZA MORIXES 10X1KG.","Hola Corralón La Esperanza, paso a revisar tu pedido P-00024 de HARINA PARA PIZZA MORIXES 10X1KG.",2026-07-29 10:14:14,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 10:15:47,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 86800.00.,Te confirmo que el pedido P-00024 fue registrado correctamente por 86800.00.,2026-07-29 10:16:56,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 10:18:01,true
+5493876922419,5493876922419,ai,ai,"Hola Congelados La Casa, paso a revisar tu pedido P-00107 de AZUCAR DUL C 10 X 1 KG.","Hola Congelados La Casa, paso a revisar tu pedido P-00107 de AZUCAR DUL C 10 X 1 KG.",2026-07-29 12:14:14,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-07-29 12:15:18,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 293600.00.,Te confirmo que el pedido P-00107 fue registrado correctamente por 293600.00.,2026-07-29 12:15:56,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-07-29 12:16:47,true

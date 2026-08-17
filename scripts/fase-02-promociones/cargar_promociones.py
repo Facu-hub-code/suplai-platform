@@ -41,7 +41,8 @@ async def cargar_promociones(esquema: str):
         print("[FAIL] El archivo CSV de promociones está vacío.")
         sys.exit(1)
 
-    conn = await asyncpg.connect(db_url)
+    # Puerto 6543 (Transaction Mode): desactivar cache de prepared statements
+    conn = await asyncpg.connect(db_url, statement_cache_size=0)
     try:
         print(f"[*] Limpiando promociones anteriores en {esquema}.promociones_semanales...")
         await conn.execute(f"DELETE FROM {esquema}.promociones_semanales")

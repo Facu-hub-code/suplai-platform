@@ -101,10 +101,11 @@ fases:
     cargado_at: null
   "10":
     nombre: purga_mock
-    estado: bloqueado
+    estado: cargado
     output_csv: outputs/phase-10-purga-log.csv
-    filas_csv: 0
-    cargado_at: null
+    filas_csv: 16
+    cargado_at: "2026-08-06T13:00:00-03:00"
+    notas: "PURGE MOCK + keep last 3 pedidos + last 5 ia_tickets; catálogo real intacto"
 
 marca_lider: "Formagge"
 tenant_id: e8261700-ca7c-4091-b5b3-7aa9e9d31e08

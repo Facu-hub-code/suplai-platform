@@ -1,0 +1,13 @@
+implementacion/moreno/outputs/sql_batches/p00.sql
+implementacion/moreno/outputs/sql_batches/p01.sql
+implementacion/moreno/outputs/sql_batches/p02.sql
+implementacion/moreno/outputs/sql_batches/p03.sql
+implementacion/moreno/outputs/sql_batches/p04.sql
+implementacion/moreno/outputs/sql_batches/p05.sql
+implementacion/moreno/outputs/sql_batches/p06.sql
+implementacion/moreno/outputs/sql_batches/p07.sql
+implementacion/moreno/outputs/sql_batches/p08.sql
+implementacion/moreno/outputs/sql_batches/p09.sql
+implementacion/moreno/outputs/sql_batches/p10.sql
+implementacion/moreno/outputs/sql_batches/p11.sql
+implementacion/moreno/outputs/sql_batches/p12.sql

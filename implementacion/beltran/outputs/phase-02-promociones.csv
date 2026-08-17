@@ -1,0 +1,5 @@
+promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+1,BEL-ACE-018,¡Oferta Semanal! Salsa Golf Dánica 3kg,Aprovechá un 15% de descuento. Ideal para acompañar tus comidas.,percent_off,15,1,1,2026-07-27,2026-09-02,true,true
+2,BEL-QUE-013,Imperdible: Tybo Senda La Paulina,Descuento de $1000 en tu compra. ¡No te lo pierdas!,total_off,1000,2,1,2026-07-27,2026-09-02,true,true
+3,BEL-QUE-004,Cheddar Pouch La Paulina a Precio Especial,Llevate 3 y pagá solo $25027.2. Perfecto para tus recetas.,fixed_price,25027.2,1,3,2026-07-27,2026-09-02,true,true
+4,BEL-ACE-016,¡Promo! Mostaza Dánica 3kg,20% de descuento en este clásico. Esencial en tu mesa.,percent_off,20,3,1,2026-07-27,2026-09-02,true,true

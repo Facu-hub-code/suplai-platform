@@ -13,11 +13,20 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+<<<<<<< HEAD
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 sys.path.insert(0, str(Path(__file__).parent.parent))
+=======
+# Ensure parent scripts directory is in sys.path for module imports (e2e_journeys, e2e_real_cases)
+_scripts_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if _scripts_dir not in sys.path:
+    sys.path.insert(0, _scripts_dir)
+>>>>>>> 3aded0fa4d0498187daec7ba145ca8ca8b34466b
 
 from e2e_journeys import (
+
+
     flatten_journey_steps,
     load_journey_manifest,
     load_journeys,
@@ -432,18 +441,20 @@ def call_openai_chat(system_prompt: str, user_prompt: str, json_mode: bool = Fal
         payload["response_format"] = {"type": "json_object"}
         
     try:
-        resp = requests.post(url, headers=headers, json=payload, timeout=60)
+        resp = requests.post(url, headers=headers, json=payload, timeout=120)
         resp.raise_for_status()
         return resp.json()["choices"][0]["message"]["content"]
     except Exception as e:
         print(f"[FAIL] Error llamando a OpenAI: {e}")
         raise e
 
-def repair_test_suite(test_cases: list, products: list) -> list:
+
+def repair_test_suite(test_cases: list, products: list, seller: bool = False) -> list:
     """
     Completa expected_skus cuando el LLM genera menos de los requeridos o vacíos,
     y asegura que cumplan las restricciones del validador determinista.
     """
+
     import re
 
     by_code = {p["product_code"]: p for p in products}
@@ -482,62 +493,100 @@ def repair_test_suite(test_cases: list, products: list) -> list:
         elif case_id in (2, 4):
             required_len = 2
             
-        if required_len == 0:
-            continue
+        if required_len > 0:
+            skus = list(case.get("expected_skus") or [])
+            # Filtrar SKUs que no estén en by_code
+            skus = [sku for sku in skus if sku in by_code]
             
-        skus = list(case.get("expected_skus") or [])
-        # Filtrar SKUs que no estén en by_code
-        skus = [sku for sku in skus if sku in by_code]
-        
-        # Para tipologías que validan estrictamente mención en mensaje,
-        # limpiamos las que no cumplan para re-buscarlas correctamente.
-        if case_id in (1, 2, 3, 6, 7):
-            mentioned = []
-            for sku in skus:
-                prod = by_code.get(sku)
-                if prod:
-                    msg_lower = case.get("message", "").lower()
+            # Para tipologías que validan estrictamente mención en mensaje,
+            # limpiamos las que no cumplan para re-buscarlas correctamente.
+            if case_id in (1, 2, 3, 6, 7):
+                mentioned = []
+                for sku in skus:
+                    prod = by_code.get(sku)
+                    if prod:
+                        msg_lower = case.get("message", "").lower()
+                        sku_lower = sku.lower()
+                        prod_name_lower = prod.get("nombre", "").lower()
+                        clean_name = re.sub(r'[^\w\s]', ' ', prod_name_lower)
+                        words = [w.strip() for w in clean_name.split() if len(w.strip()) > 2 and w.strip() not in stop_words]
+                        has_code = sku_lower in msg_lower
+                        has_name_word = any(w in msg_lower for w in words) if words else False
+                        if has_code or has_name_word:
+                            mentioned.append(sku)
+                skus = mentioned
+
+            # Intentar buscar en el mensaje menciones a otros productos válidos
+            if len(skus) < required_len:
+                msg_lower = case.get("message", "").lower()
+                for p in products:
+                    sku = p["product_code"]
+                    if sku in skus:
+                        continue
                     sku_lower = sku.lower()
-                    prod_name_lower = prod.get("nombre", "").lower()
+                    prod_name_lower = p.get("nombre", "").lower()
                     clean_name = re.sub(r'[^\w\s]', ' ', prod_name_lower)
                     words = [w.strip() for w in clean_name.split() if len(w.strip()) > 2 and w.strip() not in stop_words]
                     has_code = sku_lower in msg_lower
                     has_name_word = any(w in msg_lower for w in words) if words else False
                     if has_code or has_name_word:
-                        mentioned.append(sku)
-            skus = mentioned
+                        skus.append(sku)
+                        if len(skus) >= required_len:
+                            break
 
-        # Intentar buscar en el mensaje menciones a otros productos válidos
-        if len(skus) < required_len:
-            msg_lower = case.get("message", "").lower()
-            for p in products:
-                sku = p["product_code"]
-                if sku in skus:
-                    continue
-                sku_lower = sku.lower()
-                prod_name_lower = p.get("nombre", "").lower()
-                clean_name = re.sub(r'[^\w\s]', ' ', prod_name_lower)
-                words = [w.strip() for w in clean_name.split() if len(w.strip()) > 2 and w.strip() not in stop_words]
-                has_code = sku_lower in msg_lower
-                has_name_word = any(w in msg_lower for w in words) if words else False
-                if has_code or has_name_word:
-                    skus.append(sku)
-                    if len(skus) >= required_len:
-                        break
+            # Fallback si aún faltan SKUs
+            while len(skus) < required_len:
+                extra = _pick_related(products, skus)
+                if not extra or extra in skus:
+                    break
+                skus.append(extra)
+                
+            case["expected_skus"] = skus
+        else:
+            case["expected_skus"] = []
 
-        # Fallback si aún faltan SKUs
-        while len(skus) < required_len:
-            extra = _pick_related(products, skus)
-            if not extra or extra in skus:
-                break
-            skus.append(extra)
-            
-        case["expected_skus"] = skus
         
+        # Repair expected_tools for seller profile mapping if needed
+        expected_tools = case.get("expected_tools", [])
+        if isinstance(expected_tools, list):
+            repaired_tools = []
+            for t in expected_tools:
+                if seller:
+                    if t == "create_order" or t == "edit_order":
+                        repaired_tools.append("load_seller_order_text")
+                    elif t == "suggest_order_boost":
+                        repaired_tools.append("suggest_order_boost_for_client")
+                    elif t == "confirm_order":
+                        repaired_tools.append("confirm_order_for_client")
+                    elif t == "get_open_order_status":
+                        repaired_tools.append("get_open_order_status_for_client")
+                    else:
+                        repaired_tools.append(t)
+                else:
+                    repaired_tools.append(t)
+            
+            # Ensure required tools per typology
+            if case_id == 2:
+                order_tools = ["load_seller_order_text", "edit_order_for_client"] if seller else ["create_order", "edit_order"]
+                if not any(t in repaired_tools for t in order_tools):
+                    repaired_tools.append(order_tools[0])
+            elif case_id == 8:
+                boost_tool = "suggest_order_boost_for_client" if seller else "suggest_order_boost"
+                if boost_tool not in repaired_tools:
+                    repaired_tools.append(boost_tool)
+            elif case_id == 9:
+                confirm_tool = "confirm_order_for_client" if seller else "confirm_order"
+                if confirm_tool not in repaired_tools:
+                    repaired_tools.append(confirm_tool)
+                    
+            case["expected_tools"] = list(dict.fromkeys(repaired_tools))
+
     return test_cases
 
 
+
 def validate_test_suite(test_cases: list, valid_skus: set, valid_tools: set, products: list, seller: bool) -> list[str]:
+
     """
     Valida de forma determinista que los casos de prueba generados por el LLM
     tengan la estructura correcta y utilicen únicamente SKUs y tools existentes.
@@ -794,8 +843,9 @@ Generá el suite de 10 pruebas en formato JSON. Sé extremadamente específico c
         try:
             content = call_openai_chat(system_prompt, user_prompt, json_mode=True)
             suite = json.loads(content)
-            test_cases = repair_test_suite(suite.get("test_cases", []), products)
+            test_cases = repair_test_suite(suite.get("test_cases", []), products, seller)
             errors = validate_test_suite(test_cases, valid_skus, valid_tools, products, seller)
+
             if not errors:
                 print(f"[*] Suite de pruebas generado y validado con éxito (intento {attempt}).")
                 return test_cases
@@ -955,7 +1005,7 @@ async def get_agent_phone_number(conn: asyncpg.Connection, schema: str) -> str:
     )
     if not phone:
         raise ValueError(f"No hay un número de teléfono asignado al agente en '{schema}'")
-    return str(phone)
+    return str(int(float(phone)))
 
 async def fetch_tool_trace(conn: asyncpg.Connection, schema: str, session_id: str, test_start_time: datetime) -> List[Dict[str, Any]]:
     """
@@ -1162,7 +1212,8 @@ async def run_e2e_suite(
     products_only: bool = False,
 ):
     db_url = os.getenv("SUPABASE_DB_URL")
-    conn = await asyncpg.connect(db_url)
+    # Puerto 6543 (Transaction Mode): desactivar cache de prepared statements
+    conn = await asyncpg.connect(db_url, statement_cache_size=0)
     
     try:
         # 1. Asegurar cliente de prueba, configuraciones y limpiar estado inicial

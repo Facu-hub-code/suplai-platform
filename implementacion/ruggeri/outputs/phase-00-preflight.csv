@@ -1,0 +1,7 @@
+check_id,descripcion,resultado,evidencia
+01,Tenant en public.distribuidoras,PASS,"id: bcbba6a6-3e14-46d2-b8c8-ccf328604e92, schema: ruggeri"
+02,Esquema ruggeri creado en PostgreSQL,PASS,Schema ruggeri creado
+03,Tabla productos existe en schema ruggeri,PASS,ruggeri.productos lista
+04,Tabla clients existe en schema ruggeri,PASS,ruggeri.clients lista
+05,Tabla pedidos existe en schema ruggeri,PASS,ruggeri.pedidos lista
+06,Carpeta implementacion/ruggeri creada,PASS,manifest.yaml e inputs presentes

@@ -17,8 +17,7 @@ if sys.platform.startswith('win'):
     sys.stdout.reconfigure(encoding='utf-8')
 
 # Cargar variables de entorno
-dotenv_path = r"c:\Users\marti\suplai-platform\.env"
-load_dotenv(dotenv_path)
+load_dotenv()
 
 async def main():
     parser = argparse.ArgumentParser(description="Enriquecer imágenes de productos usando Serper Google Images.")
@@ -35,10 +34,64 @@ async def main():
     supabase_url = os.getenv("SUPABASE_URL")
     supabase_key = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
     serper_key = os.getenv("SERPER_API_KEY")
-    
-    if not db_url or not supabase_url or not supabase_key or not serper_key:
-        print("[FAIL] Faltan variables de entorno requeridas (SUPABASE_DB_URL, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, SERPER_API_KEY).")
+    serpapi_key = os.getenv("SERPAPI_API_KEY")
+    search_provider = os.getenv("SEARCH_PROVIDER", "").strip().lower()
+
+    if not db_url or not supabase_url or not supabase_key:
+        print("[FAIL] Faltan variables de entorno requeridas (SUPABASE_DB_URL, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY).")
         sys.exit(1)
+    if not serper_key and not serpapi_key:
+        print("[FAIL] Se requiere al menos una API key de imágenes: SERPER_API_KEY o SERPAPI_API_KEY.")
+        sys.exit(1)
+
+    # Elegir proveedor: preferencia por variable SEARCH_PROVIDER, luego por disponibilidad de key
+    if search_provider == "serpapi" and serpapi_key:
+        active_provider = "serpapi"
+    elif search_provider == "serper" and serper_key:
+        active_provider = "serper"
+    elif serper_key:
+        active_provider = "serper"
+    else:
+        active_provider = "serpapi"
+    print(f"[*] Proveedor de búsqueda de imágenes: {active_provider}")
+
+    def search_images(query: str) -> list:
+        """Busca imágenes con el proveedor activo. Devuelve lista de {imageUrl}."""
+        if active_provider == "serper":
+            url = "https://google.serper.dev/images"
+            headers = {"X-API-KEY": serper_key, "Content-Type": "application/json"}
+            payload = {"q": query, "gl": "ar", "hl": "es", "num": 5}
+            try:
+                r = requests.post(url, headers=headers, json=payload, timeout=10, verify=False)
+                if r.status_code == 200:
+                    return r.json().get("images", [])
+                else:
+                    print(f"  -> [FAIL] Serper error HTTP {r.status_code}: {r.text}")
+                    return []
+            except Exception as e:
+                print(f"  -> [FAIL] Serper excepción: {e}")
+                return []
+        else:  # serpapi
+            params = {
+                "engine": "google_images",
+                "q": query,
+                "api_key": serpapi_key,
+                "gl": "ar",
+                "hl": "es",
+                "num": 5,
+            }
+            try:
+                r = requests.get("https://serpapi.com/search", params=params, timeout=15, verify=False)
+                if r.status_code == 200:
+                    raw = r.json().get("images_results", [])
+                    # Normalizar al mismo formato que Serper: [{imageUrl: ...}]
+                    return [{"imageUrl": item.get("original")} for item in raw if item.get("original")]
+                else:
+                    print(f"  -> [FAIL] SerpAPI error HTTP {r.status_code}: {r.text}")
+                    return []
+            except Exception as e:
+                print(f"  -> [FAIL] SerpAPI excepción: {e}")
+                return []
         
     bucket_name = args.bucket or f"products-{schema}"
     
@@ -87,8 +140,15 @@ async def main():
     
     for p in db_products:
         img_url = p["image_url"] or ""
-        # Si es placeholder, está vacía, o se forzó, la procesamos
-        if args.forzar or not img_url or placeholder_url in img_url or "placeholder" in img_url:
+        # Si es placeholder, está vacía, o se forzó, la procesamos.
+        # Any images.unsplash.com URL is treated as a catalog placeholder
+        # (tenants use different Unsplash photo ids).
+        is_placeholder = (
+            placeholder_url in img_url
+            or "placeholder" in img_url
+            or "images.unsplash.com" in img_url
+        )
+        if args.forzar or not img_url or is_placeholder:
             products_to_process.append(p)
             
     print(f"[*] {len(products_to_process)} productos necesitan actualización de imagen (tienen placeholder o están vacíos).")
@@ -102,17 +162,11 @@ async def main():
         await conn.close()
         sys.exit(0)
         
-    # 4. Procesar y buscar imágenes en Serper
+    # 4. Procesar y buscar imágenes
     product_image_mappings = {}  # product_code -> public_url
     product_codes_to_vectorize = []
-    
-    serper_url = "https://google.serper.dev/images"
-    headers_serper = {
-        "X-API-KEY": serper_key,
-        "Content-Type": "application/json"
-    }
-    
-    print("\n[*] Iniciando enriquecimiento con Serper y descarga de imágenes...")
+
+    print(f"\n[*] Iniciando búsqueda y descarga de imágenes ({active_provider})...")
     
     for i, p in enumerate(products_to_process, 1):
         code = p["product_code"]
@@ -123,29 +177,16 @@ async def main():
         # Búsqueda optimizada. Si el nombre tiene aclaraciones como "(C)" las removemos para la búsqueda
         search_query = name.replace("(C)", "").strip()
         
-        # Payload para Serper
-        payload = {
-            "q": search_query,
-            "gl": "ar", # Búsqueda en Argentina
-            "hl": "es", # Idioma Español
-            "num": 5    # Traer 5 resultados
-        }
-        
         success = False
         img_url_public = None
-        
+
+        images = search_images(search_query)
+        if not images:
+            print(f"  -> [WARN] No se encontraron imágenes para: {search_query}")
+
         try:
-            # verify=False para mitigar error de certificados locales
-            r_serper = requests.post(serper_url, headers=headers_serper, json=payload, timeout=10, verify=False)
-            if r_serper.status_code == 200:
-                res_data = r_serper.json()
-                images = res_data.get("images", [])
-                
-                if not images:
-                    print(f"  -> [WARN] No se encontraron imágenes en Google para: {search_query}")
-                
-                # Intentar descargar los resultados uno a uno hasta que uno funcione
-                for idx, img_info in enumerate(images):
+            # Intentar descargar los resultados uno a uno hasta que uno funcione
+            for idx, img_info in enumerate(images):
                     src_url = img_info.get("imageUrl")
                     if not src_url or src_url.startswith("data:"):
                         continue
@@ -197,11 +238,9 @@ async def main():
                             print(f"  -> [WARN] Error de descarga de imagen (HTTP {r_img.status_code})")
                     except Exception as e:
                         print(f"  -> [WARN] Excepción al descargar/subir opción {idx+1}: {e}")
-            else:
-                print(f"  -> [FAIL] Error en Serper API (HTTP {r_serper.status_code}): {r_serper.text}")
-                
+
         except Exception as e:
-            print(f"  -> [FAIL] Error al consultar Serper API: {e}")
+            print(f"  -> [FAIL] Error inesperado al procesar imágenes: {e}")
             
         if success and img_url_public:
             product_image_mappings[code] = img_url_public
@@ -237,7 +276,7 @@ async def main():
     await conn.close()
     
     # 6. Sincronizar archivo CSV local si existe
-    csv_path = rf"c:\Users\marti\suplai-platform\implementacion\{schema}\outputs\phase-01-productos.csv"
+    csv_path = f"implementacion/{schema}/outputs/phase-01-productos.csv"
     if os.path.exists(csv_path) and product_image_mappings:
         print(f"\n[*] Sincronizando archivo CSV local en {csv_path}...")
         rows_to_write = []

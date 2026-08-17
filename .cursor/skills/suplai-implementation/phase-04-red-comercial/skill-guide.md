@@ -29,6 +29,10 @@ Crear 6 zonas independientes y pequeñas (polígonos de barrios o avenidas puntu
 - Nombres basados en barrios reales de la `ciudad_base` (ej: "ZONA SUR - Godoy Cruz", "CENTRO - Quinta Sección").
 - `dia_visita`: distribuido equitativamente de lunes a sábado.
 - Colores HEX de contraste alto para el visualizador del mapa.
+- **Forma del polígono (OBLIGATORIO)**:
+  - **Prohibido** generar zonas como bounding box / cuadrado / rectángulo axis-aligned (min/max lon-lat). Eso se ve como “cajas” en el mapa comercial.
+  - Cada zona **MUST** ser un **polígono irregular** con **5–8 vértices** (p. ej. convex hull de los clientes de la zona + padding radial, o pétalos irregulares alrededor del centro del barrio).
+  - El script `preparar_red_comercial.py` implementa hull/pétalos; no reinventar un cuadrado en SQL a mano.
 - **Formato Geométrico**: La representación espacial de cada zona en la base de datos debe ser formateada estrictamente bajo el estándar PostGIS como **`MultiPolygon`** y con referencia espacial **`SRID=4326`**:
   `SRID=4326;MULTIPOLYGON(((lon lat, lon lat, ...)))`
   *Advertencia: No insertar un Polygon simple, ya que fallará el renderizado o la validación geométrica del mapa en el Backoffice.*

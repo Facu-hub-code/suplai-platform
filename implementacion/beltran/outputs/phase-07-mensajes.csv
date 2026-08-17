@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5492612780568,5492612780568,ai,ai,"Hola Autoservicio Las Casuarinas, paso a revisar tu pedido P-00099 de Jamón Cocido La Tirolesa.","Hola Autoservicio Las Casuarinas, paso a revisar tu pedido P-00099 de Jamón Cocido La Tirolesa.",2026-08-02 15:40:27,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 15:41:56,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 7398.00.,Te confirmo que el pedido P-00099 fue registrado correctamente por 7398.00.,2026-08-02 15:42:52,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 15:44:01,true
+5492612928724,5492612928724,ai,ai,"Hola Proveeduría Ruta 38, paso a revisar tu pedido P-00123 de Azúcar x 10kg.","Hola Proveeduría Ruta 38, paso a revisar tu pedido P-00123 de Azúcar x 10kg.",2026-08-03 17:40:27,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-03 17:41:12,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 67230.00.,Te confirmo que el pedido P-00123 fue registrado correctamente por 67230.00.,2026-08-03 17:41:45,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-03 17:43:18,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-03 17:44:14,true
+5492614053074,5492614053074,ai,ai,"Hola Proveeduría Villa del Parque, vi que tenes un pedido abierto por Aceituna Negra Fileteada x 5kg y queria ayudarte a cerrarlo.","Hola Proveeduría Villa del Parque, vi que tenes un pedido abierto por Aceituna Negra Fileteada x 5kg y queria ayudarte a cerrarlo.",2026-08-03 14:40:27,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-03 14:42:05,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 144000.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 144000.00. Si queres te lo dejo cerrado hoy.,2026-08-03 14:42:41,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-03 14:43:59,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-03 14:45:16,true
+5492615021286,5492615021286,ai,ai,"Hola Proveeduría Centro Comercial, paso a revisar tu pedido P-00112 de Sal de Campo Don Burro.","Hola Proveeduría Centro Comercial, paso a revisar tu pedido P-00112 de Sal de Campo Don Burro.",2026-08-01 15:40:27,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 15:42:16,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 175623.60.,Te confirmo que el pedido P-00112 fue registrado correctamente por 175623.60.,2026-08-01 15:43:04,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 15:43:47,true
+5492615139305,5492615139305,ai,ai,"Hola Autoservicio Bialet, paso a revisar tu pedido P-00076 de Ananá x 800gr.","Hola Autoservicio Bialet, paso a revisar tu pedido P-00076 de Ananá x 800gr.",2026-08-01 17:40:27,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 17:41:34,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 25728.00.,Te confirmo que el pedido P-00076 fue registrado correctamente por 25728.00.,2026-08-01 17:42:51,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 17:43:34,true
+5492617175545,5492617175545,ai,ai,"Hola Despensa San Martín, paso a revisar tu pedido P-00027 de Muzzarella Unión.","Hola Despensa San Martín, paso a revisar tu pedido P-00027 de Muzzarella Unión.",2026-08-02 14:40:27,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 14:41:56,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 27870.00.,Te confirmo que el pedido P-00027 fue registrado correctamente por 27870.00.,2026-08-02 14:42:45,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 14:44:04,true
+5492617236955,5492617236955,ai,ai,"Hola Minimarket El Lago, paso a revisar tu pedido P-00126 de Jamón Cocido Tacural.","Hola Minimarket El Lago, paso a revisar tu pedido P-00126 de Jamón Cocido Tacural.",2026-08-03 16:40:27,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-03 16:41:18,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 22353.60.,Te confirmo que el pedido P-00126 fue registrado correctamente por 22353.60.,2026-08-03 16:42:05,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-03 16:42:54,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-03 16:43:44,true
+5492617413812,5492617413812,ai,ai,"Hola Rotisería Villa Carlos Paz, paso a revisar tu pedido P-00129 de Aceituna Verde N° 0 x 5kg.","Hola Rotisería Villa Carlos Paz, paso a revisar tu pedido P-00129 de Aceituna Verde N° 0 x 5kg.",2026-08-03 15:40:27,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-03 15:42:17,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 62844.00.,Te confirmo que el pedido P-00129 fue registrado correctamente por 62844.00.,2026-08-03 15:43:34,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-03 15:44:29,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-03 15:45:41,true
+5492618861463,5492618861463,ai,ai,"Hola Despensa Villa Parque, paso a revisar tu pedido P-00079 de Cheddar en Fetas.","Hola Despensa Villa Parque, paso a revisar tu pedido P-00079 de Cheddar en Fetas.",2026-08-02 16:40:27,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 16:41:53,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 106665.00.,Te confirmo que el pedido P-00079 fue registrado correctamente por 106665.00.,2026-08-02 16:42:26,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 16:43:56,true
+5492618889598,5492618889598,ai,ai,"Hola Minimarket Villa del Lago Sur, paso a revisar tu pedido P-00110 de Vinagre x 5lt.","Hola Minimarket Villa del Lago Sur, paso a revisar tu pedido P-00110 de Vinagre x 5lt.",2026-08-02 16:40:27,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 16:42:02,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 15240.00.,Te confirmo que el pedido P-00110 fue registrado correctamente por 15240.00.,2026-08-02 16:42:59,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 16:44:01,true
+5492619239862,5492619239862,ai,ai,"Hola Fiambrería El Quesero, paso a revisar tu pedido P-00066 de Jamón Cocido Tacural.","Hola Fiambrería El Quesero, paso a revisar tu pedido P-00066 de Jamón Cocido Tacural.",2026-08-01 16:40:27,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 16:42:11,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 116776.80.,Te confirmo que el pedido P-00066 fue registrado correctamente por 116776.80.,2026-08-01 16:43:39,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 16:44:18,true
+5492991227644,5492991227644,ai,ai,"Hola Fiambrería El Pinar, vi que tenes un pedido abierto por Jamonada La Tirolesa y queria ayudarte a cerrarlo.","Hola Fiambrería El Pinar, vi que tenes un pedido abierto por Jamonada La Tirolesa y queria ayudarte a cerrarlo.",2026-08-03 17:40:27,true
+5492991227644,5492991227644,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-03 17:42:07,true
+5492991227644,5492991227644,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-08-03 17:43:26,true
+5492991227644,5492991227644,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-03 17:44:51,true
+5492991227644,5492991227644,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-03 17:45:56,true
+5492992500733,5492992500733,ai,ai,"Hola Minimarket Cuesta Blanca, paso a revisar tu pedido P-00073 de Aceite x 10lt.","Hola Minimarket Cuesta Blanca, paso a revisar tu pedido P-00073 de Aceite x 10lt.",2026-08-02 13:40:27,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 13:42:10,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 105600.00.,Te confirmo que el pedido P-00073 fue registrado correctamente por 105600.00.,2026-08-02 13:42:48,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 13:43:35,true
+5492994145193,5492994145193,ai,ai,"Hola Despensa Estancia Vieja, paso a revisar tu pedido P-00045 de Aceituna Negra N° 2 x 5kg.","Hola Despensa Estancia Vieja, paso a revisar tu pedido P-00045 de Aceituna Negra N° 2 x 5kg.",2026-08-02 13:40:27,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 13:41:28,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 105192.00.,Te confirmo que el pedido P-00045 fue registrado correctamente por 105192.00.,2026-08-02 13:42:35,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 13:44:00,true
+5492994228106,5492994228106,ai,ai,"Hola Almacén Doña Rosa, paso a revisar tu pedido P-00051 de Ananá x 800gr.","Hola Almacén Doña Rosa, paso a revisar tu pedido P-00051 de Ananá x 800gr.",2026-08-02 16:40:27,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 16:41:46,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 36912.00.,Te confirmo que el pedido P-00051 fue registrado correctamente por 36912.00.,2026-08-02 16:42:20,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 16:43:01,true
+5492995028869,5492995028869,ai,ai,"Hola Rotisería El Puente, paso a revisar tu pedido P-00057 de Mostaza Dánica 3kg.","Hola Rotisería El Puente, paso a revisar tu pedido P-00057 de Mostaza Dánica 3kg.",2026-08-02 14:40:27,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 14:41:52,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 48524.40.,Te confirmo que el pedido P-00057 fue registrado correctamente por 48524.40.,2026-08-02 14:42:22,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 14:43:36,true
+5492997489876,5492997489876,ai,ai,"Hola Despensa Barrio Norte, paso a revisar tu pedido P-00118 de Cóctel de Frutas x 820gr.","Hola Despensa Barrio Norte, paso a revisar tu pedido P-00118 de Cóctel de Frutas x 820gr.",2026-08-01 13:40:27,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 13:42:08,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 89617.50.,Te confirmo que el pedido P-00118 fue registrado correctamente por 89617.50.,2026-08-01 13:43:00,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 13:43:50,true
+5492997670210,5492997670210,ai,ai,"Hola Autoservicio Arredondo, paso a revisar tu pedido P-00037 de Crema La Paulina x 5kg.","Hola Autoservicio Arredondo, paso a revisar tu pedido P-00037 de Crema La Paulina x 5kg.",2026-08-02 15:40:27,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 15:41:34,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 89560.80.,Te confirmo que el pedido P-00037 fue registrado correctamente por 89560.80.,2026-08-02 15:42:21,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 15:43:22,true
+5492998066543,5492998066543,ai,ai,"Hola Minimarket San Antonio, paso a revisar tu pedido P-00132 de Bondiola Natural Pig.","Hola Minimarket San Antonio, paso a revisar tu pedido P-00132 de Bondiola Natural Pig.",2026-08-03 14:40:27,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-03 14:42:05,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 80111.60.,Te confirmo que el pedido P-00132 fue registrado correctamente por 80111.60.,2026-08-03 14:42:44,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-03 14:44:19,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-03 14:45:29,true
+5492998718887,5492998718887,ai,ai,"Hola Minimarket Valle Norte, paso a revisar tu pedido P-00054 de Aceituna Verde N° 2 x 5kg.","Hola Minimarket Valle Norte, paso a revisar tu pedido P-00054 de Aceituna Verde N° 2 x 5kg.",2026-08-01 15:40:27,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 15:42:24,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 99000.00.,Te confirmo que el pedido P-00054 fue registrado correctamente por 99000.00.,2026-08-01 15:43:10,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 15:44:16,true
+5492999435946,5492999435946,ai,ai,"Hola Autoservicio Colinas, paso a revisar tu pedido P-00135 de Lomito de Atún.","Hola Autoservicio Colinas, paso a revisar tu pedido P-00135 de Lomito de Atún.",2026-08-03 13:40:27,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-03 13:42:10,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 79770.00.,Te confirmo que el pedido P-00135 fue registrado correctamente por 79770.00.,2026-08-03 13:42:58,true
+5492999435946,5492999435946,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-03 13:44:44,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-03 13:45:16,true
+5493414799650,5493414799650,ai,ai,"Hola Proveeduría Mayu Sumaj, paso a revisar tu pedido P-00071 de Cheddar en Fetas.","Hola Proveeduría Mayu Sumaj, paso a revisar tu pedido P-00071 de Cheddar en Fetas.",2026-08-01 14:40:27,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 14:41:25,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 302520.00.,Te confirmo que el pedido P-00071 fue registrado correctamente por 302520.00.,2026-08-01 14:42:05,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 14:42:58,true
+5493416524997,5493416524997,ai,ai,"Hola Fiambrería Unión Quesos, paso a revisar tu pedido P-00138 de Vinagre x 5lt.","Hola Fiambrería Unión Quesos, paso a revisar tu pedido P-00138 de Vinagre x 5lt.",2026-08-01 17:40:27,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 17:41:18,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 117300.00.,Te confirmo que el pedido P-00138 fue registrado correctamente por 117300.00.,2026-08-01 17:42:17,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 17:43:24,true
+5493416986538,5493416986538,ai,ai,"Hola Despensa Centro VCP, paso a revisar tu pedido P-00063 de Cóctel de Frutas x 820gr.","Hola Despensa Centro VCP, paso a revisar tu pedido P-00063 de Cóctel de Frutas x 820gr.",2026-08-02 17:40:27,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 17:41:56,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 63780.00.,Te confirmo que el pedido P-00063 fue registrado correctamente por 63780.00.,2026-08-02 17:42:58,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 17:44:01,true
+5493418277249,5493418277249,ai,ai,"Hola Minimarket Punilla, vi que tenes un pedido abierto por Salsa Golf Dánica 3kg y queria ayudarte a cerrarlo.","Hola Minimarket Punilla, vi que tenes un pedido abierto por Salsa Golf Dánica 3kg y queria ayudarte a cerrarlo.",2026-08-03 16:40:27,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-08-03 16:42:24,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,2026-08-03 16:43:38,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-03 16:45:19,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-03 16:46:29,true
+5493419686914,5493419686914,ai,ai,"Hola Rotisería Punilla Sur, paso a revisar tu pedido P-00090 de Romano Unión.","Hola Rotisería Punilla Sur, paso a revisar tu pedido P-00090 de Romano Unión.",2026-08-01 13:40:27,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 13:41:23,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 211812.00.,Te confirmo que el pedido P-00090 fue registrado correctamente por 211812.00.,2026-08-01 13:42:47,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 13:44:10,true
+5493513952681,5493513952681,ai,ai,"Hola Almacén Tres Esquinas, paso a revisar tu pedido P-00068 de Azúcar x 10kg.","Hola Almacén Tres Esquinas, paso a revisar tu pedido P-00068 de Azúcar x 10kg.",2026-08-02 15:40:27,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 15:41:37,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 79342.50.,Te confirmo que el pedido P-00068 fue registrado correctamente por 79342.50.,2026-08-02 15:42:48,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 15:43:46,true
+5493514079279,5493514079279,ai,ai,"Hola Almacén Los Olivos, vi que tenes un pedido abierto por Cheddar Pouch Spalen y queria ayudarte a cerrarlo.","Hola Almacén Los Olivos, vi que tenes un pedido abierto por Cheddar Pouch Spalen y queria ayudarte a cerrarlo.",2026-08-03 13:40:27,true
+5493514079279,5493514079279,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-03 13:42:15,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 217498.80. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 217498.80. Si queres te lo dejo cerrado hoy.,2026-08-03 13:43:30,true
+5493514079279,5493514079279,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-03 13:44:32,true
+5493514079279,5493514079279,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-03 13:45:36,true
+5493515971311,5493515971311,ai,ai,"Hola Fiambrería La Paulina Express, paso a revisar tu pedido P-00048 de Tybo Unión.","Hola Fiambrería La Paulina Express, paso a revisar tu pedido P-00048 de Tybo Unión.",2026-08-01 17:40:27,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 17:41:35,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 18120.00.,Te confirmo que el pedido P-00048 fue registrado correctamente por 18120.00.,2026-08-01 17:42:53,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 17:43:31,true
+5493516216782,5493516216782,ai,ai,"Hola Proveeduría Sol y Río, paso a revisar tu pedido P-00096 de Cheddar Pouch Spalen.","Hola Proveeduría Sol y Río, paso a revisar tu pedido P-00096 de Cheddar Pouch Spalen.",2026-08-01 16:40:27,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 16:41:13,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 48333.60.,Te confirmo que el pedido P-00096 fue registrado correctamente por 48333.60.,2026-08-01 16:42:32,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 16:43:40,true
+5493517304254,5493517304254,ai,ai,"Hola Autoservicio Lago San Roque, paso a revisar tu pedido P-00060 de Jamón Cocido La Tirolesa.","Hola Autoservicio Lago San Roque, paso a revisar tu pedido P-00060 de Jamón Cocido La Tirolesa.",2026-08-01 13:40:27,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 13:42:16,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 39444.00.,Te confirmo que el pedido P-00060 fue registrado correctamente por 39444.00.,2026-08-01 13:43:08,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 13:44:22,true
+5493517632424,5493517632424,ai,ai,"Hola Despensa Parque Nacional, paso a revisar tu pedido P-00141 de Aceituna Negra Fileteada x 5kg.","Hola Despensa Parque Nacional, paso a revisar tu pedido P-00141 de Aceituna Negra Fileteada x 5kg.",2026-08-02 16:40:27,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 16:41:43,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 24000.00.,Te confirmo que el pedido P-00141 fue registrado correctamente por 24000.00.,2026-08-02 16:42:50,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 16:44:17,true
+5493518648263,5493518648263,ai,ai,"Hola Minimarket El Faro, paso a revisar tu pedido P-00093 de Tybo Senda La Paulina.","Hola Minimarket El Faro, paso a revisar tu pedido P-00093 de Tybo Senda La Paulina.",2026-08-02 17:40:27,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 17:42:20,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 129238.80.,Te confirmo que el pedido P-00093 fue registrado correctamente por 129238.80.,2026-08-02 17:43:33,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 17:44:58,true
+5493519107005,5493519107005,ai,ai,"Hola Fiambrería La Tirolesa, paso a revisar tu pedido P-00144 de Cheddar Pouch Spalen.","Hola Fiambrería La Tirolesa, paso a revisar tu pedido P-00144 de Cheddar Pouch Spalen.",2026-08-01 15:40:27,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 15:42:01,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 106648.80.,Te confirmo que el pedido P-00144 fue registrado correctamente por 106648.80.,2026-08-01 15:42:44,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 15:44:13,true
+5493582132179,5493582132179,ai,ai,"Hola Minimarket Las Acacias, paso a revisar tu pedido P-00032 de Mayonesa Dánica Individual.","Hola Minimarket Las Acacias, paso a revisar tu pedido P-00032 de Mayonesa Dánica Individual.",2026-08-02 17:40:27,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 17:42:00,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 146260.80.,Te confirmo que el pedido P-00032 fue registrado correctamente por 146260.80.,2026-08-02 17:43:24,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 17:44:11,true
+5493582639964,5493582639964,ai,ai,"Hola Despensa Río San Antonio, paso a revisar tu pedido P-00102 de Choclo Granos Amarillos x 3kg.","Hola Despensa Río San Antonio, paso a revisar tu pedido P-00102 de Choclo Granos Amarillos x 3kg.",2026-08-01 14:40:27,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 14:41:15,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 55680.00.,Te confirmo que el pedido P-00102 fue registrado correctamente por 55680.00.,2026-08-01 14:42:06,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 14:42:46,true
+5493582641213,5493582641213,ai,ai,"Hola Despensa La Costanera, vi que tenes un pedido abierto por Sal Fina Celusal 500gr y queria ayudarte a cerrarlo.","Hola Despensa La Costanera, vi que tenes un pedido abierto por Sal Fina Celusal 500gr y queria ayudarte a cerrarlo.",2026-08-03 06:40:27,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-08-03 06:41:57,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-03 06:42:46,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-03 06:43:49,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-03 06:44:49,true
+5493587747641,5493587747641,ai,ai,"Hola Autoservicio Sol y Lago, vi que tenes un pedido abierto por Jamonada La Tirolesa y queria ayudarte a cerrarlo.","Hola Autoservicio Sol y Lago, vi que tenes un pedido abierto por Jamonada La Tirolesa y queria ayudarte a cerrarlo.",2026-08-03 15:40:27,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-03 15:42:11,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 79062.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 79062.00. Si queres te lo dejo cerrado hoy.,2026-08-03 15:43:13,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-03 15:44:49,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-03 15:45:39,true
+5493587905250,5493587905250,ai,ai,"Hola Almacén Don Roque, vi que tenes un pedido abierto por Pionono y queria ayudarte a cerrarlo.","Hola Almacén Don Roque, vi que tenes un pedido abierto por Pionono y queria ayudarte a cerrarlo.",2026-08-03 07:40:27,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-03 07:41:29,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-03 07:42:48,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-03 07:44:44,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-03 07:45:52,true
+5493811657614,5493811657614,ai,ai,"Hola Proveeduría Síquiman, paso a revisar tu pedido P-00040 de Pionono.","Hola Proveeduría Síquiman, paso a revisar tu pedido P-00040 de Pionono.",2026-08-01 14:40:27,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 14:41:50,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 69592.50.,Te confirmo que el pedido P-00040 fue registrado correctamente por 69592.50.,2026-08-01 14:42:46,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 14:43:43,true
+5493812941974,5493812941974,ai,ai,"Hola Fiambrería Natural Pig, paso a revisar tu pedido P-00084 de Choclo Granos Amarillos x 3kg.","Hola Fiambrería Natural Pig, paso a revisar tu pedido P-00084 de Choclo Granos Amarillos x 3kg.",2026-08-01 15:40:27,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 15:42:22,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 106290.00.,Te confirmo que el pedido P-00084 fue registrado correctamente por 106290.00.,2026-08-01 15:43:32,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 15:44:05,true
+5493813520000,5493813520000,ai,ai,"Hola Autoservicio Avenida España, paso a revisar tu pedido P-00115 de Salsa Golf Dánica 3kg.","Hola Autoservicio Avenida España, paso a revisar tu pedido P-00115 de Salsa Golf Dánica 3kg.",2026-08-02 14:40:27,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 14:41:18,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 142123.50.,Te confirmo que el pedido P-00115 fue registrado correctamente por 142123.50.,2026-08-02 14:42:24,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 14:43:50,true
+5493814729528,5493814729528,ai,ai,"Hola Fiambrería Dánica Point, paso a revisar tu pedido P-00105 de Salame Milán La Tirolesa.","Hola Fiambrería Dánica Point, paso a revisar tu pedido P-00105 de Salame Milán La Tirolesa.",2026-08-02 13:40:27,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 13:42:01,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 130968.00.,Te confirmo que el pedido P-00105 fue registrado correctamente por 130968.00.,2026-08-02 13:43:11,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 13:44:33,true
+5493817404433,5493817404433,ai,ai,"Hola Almacén La Esquina, paso a revisar tu pedido P-00087 de Aceituna Verde N° 2 x 5kg.","Hola Almacén La Esquina, paso a revisar tu pedido P-00087 de Aceituna Verde N° 2 x 5kg.",2026-08-02 14:40:27,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 14:42:03,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 19800.00.,Te confirmo que el pedido P-00087 fue registrado correctamente por 19800.00.,2026-08-02 14:43:29,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 14:44:32,true
+5493818437953,5493818437953,ai,ai,"Hola Fiambrería Belén, paso a revisar tu pedido P-00029 de Cheddar Pouch Spalen.","Hola Fiambrería Belén, paso a revisar tu pedido P-00029 de Cheddar Pouch Spalen.",2026-08-01 13:40:27,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 13:42:05,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 105003.60.,Te confirmo que el pedido P-00029 fue registrado correctamente por 105003.60.,2026-08-01 13:42:56,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 13:43:51,true
+5493872845902,5493872845902,ai,ai,"Hola Almacén El Embalse, paso a revisar tu pedido P-00034 de Salame Milán Natural Pig.","Hola Almacén El Embalse, paso a revisar tu pedido P-00034 de Salame Milán Natural Pig.",2026-08-01 16:40:27,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 16:41:29,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 52920.00.,Te confirmo que el pedido P-00034 fue registrado correctamente por 52920.00.,2026-08-01 16:42:52,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 16:43:31,true
+5493874104594,5493874104594,ai,ai,"Hola Almacén Los Nogales, paso a revisar tu pedido P-00146 de Leche Cotapa Entera x 12lt.","Hola Almacén Los Nogales, paso a revisar tu pedido P-00146 de Leche Cotapa Entera x 12lt.",2026-08-02 14:40:27,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-02 14:41:36,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 40320.00.,Te confirmo que el pedido P-00146 fue registrado correctamente por 40320.00.,2026-08-02 14:42:54,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-02 14:43:25,true
+5493876499570,5493876499570,ai,ai,"Hola Almacén Doña Marta, paso a revisar tu pedido P-00149 de Aceituna Verde N° 0 x 1kg.","Hola Almacén Doña Marta, paso a revisar tu pedido P-00149 de Aceituna Verde N° 0 x 1kg.",2026-08-01 13:40:27,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 13:41:15,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 23400.00.,Te confirmo que el pedido P-00149 fue registrado correctamente por 23400.00.,2026-08-01 13:41:53,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 13:42:49,true
+5493876914178,5493876914178,ai,ai,"Hola Rotisería Costa Azul, paso a revisar tu pedido P-00024 de Aceituna Verde N° 3 x 5kg.","Hola Rotisería Costa Azul, paso a revisar tu pedido P-00024 de Aceituna Verde N° 3 x 5kg.",2026-08-01 15:40:27,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 15:42:00,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 58747.20.,Te confirmo que el pedido P-00024 fue registrado correctamente por 58747.20.,2026-08-01 15:43:09,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 15:44:14,true
+5493876922419,5493876922419,ai,ai,"Hola Almacén El Progreso, paso a revisar tu pedido P-00107 de Mayodan x 3kg.","Hola Almacén El Progreso, paso a revisar tu pedido P-00107 de Mayodan x 3kg.",2026-08-01 17:40:27,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-01 17:41:31,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 23385.60.,Te confirmo que el pedido P-00107 fue registrado correctamente por 23385.60.,2026-08-01 17:42:09,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-01 17:43:00,true

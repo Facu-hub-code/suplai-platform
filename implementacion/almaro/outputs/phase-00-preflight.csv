@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: 98f02431-a66f-40bf-9551-9bf66faf204d
+schema_existe,Tablas en almaro,ok,67 tablas
+productos_vacio,COUNT productos = 0,ok,0 productos
+clients_vacio,COUNT clients = 0,ok,0 clientes
+mcp_conectado,MCP supabase responde,ok,conectado
+carpeta_implementacion,manifest.yaml presente,ok,implementacion/almaro/
+is_mock_column,Columna is_mock en productos y clients,ok,productos=true; clients=true
+excel_presente,Archivo en inputs/,pendiente,inputs/ vacío (solo .gitkeep)

@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2262,Calidad,open,Reclamo por Pionono con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego Pionono en mal estado y quiero hacer el reclamo.",2026-08-03 11:15:00,,true
+TKT-2263,Calidad,open,Reclamo por Sal Fina Celusal 500gr con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego Sal Fina Celusal 500gr en mal estado y quiero hacer el reclamo.",2026-08-02 08:15:00,,true
+TKT-2264,Calidad,open,Reclamo por Jamonada La Tirolesa con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego Jamonada La Tirolesa en mal estado y quiero hacer el reclamo.",2026-08-01 05:15:00,,true
+TKT-2265,Logistica,open,Demora en la entrega del pedido P-00151 de Salsa Golf Dánica 3kg.,5493418277249,"Buen dia, sigo esperando el pedido P-00151 de Salsa Golf Dánica 3kg y no llego.",2026-08-03 02:15:00,,true
+TKT-2266,Logistica,open,Demora en la entrega del pedido P-00123 de Azúcar x 10kg.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de Azúcar x 10kg y no llego.",2026-08-02 11:15:00,,true
+TKT-2267,Logistica,open,Demora en la entrega del pedido P-00126 de Jamón Cocido Tacural.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de Jamón Cocido Tacural y no llego.",2026-08-01 08:15:00,,true
+TKT-2268,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Almacén Don Roque.,5493587905250,,2026-08-03 05:15:00,,true
+TKT-2269,Administracion,open,Solicita corregir datos administrativos de Despensa La Costanera en el sistema.,5493582641213,,2026-08-02 02:15:00,,true
+TKT-2270,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Fiambrería El Pinar.,5492991227644,,2026-08-01 11:15:00,,true
+TKT-2271,Administracion,open,Solicita corregir datos administrativos de Minimarket Punilla en el sistema.,5493418277249,,2026-08-03 08:15:00,,true
+TKT-2272,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Proveeduría Ruta 38.,5492612928724,,2026-08-02 05:15:00,,true
+TKT-2273,Administracion,closed,Solicita corregir datos administrativos de Minimarket El Lago en el sistema.,5492617236955,,2026-07-18 05:15:00,2026-07-18 20:15:00,true
+TKT-2274,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Rotisería Villa Carlos Paz.,5492617413812,,2026-07-17 11:15:00,2026-07-18 03:15:00,true
+TKT-2275,Logistica,closed,Demora en la entrega del pedido P-00132 de Bondiola Natural Pig.,5492998066543,,2026-07-16 09:15:00,2026-07-17 02:15:00,true
+TKT-2276,Calidad,closed,Reclamo por Lomito de Atún con entrega en mal estado o faltante parcial.,5492999435946,,2026-07-15 07:15:00,2026-07-16 01:15:00,true
+TKT-2277,Administracion,closed,Solicita corregir datos administrativos de Autoservicio Sol y Lago en el sistema.,5493587747641,,2026-07-14 05:15:00,2026-07-15 00:15:00,true
+TKT-2278,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Proveeduría Villa del Parque.,5492614053074,,2026-07-29 11:15:00,2026-07-30 07:15:00,true
+TKT-2279,Logistica,closed,Demora en la entrega del pedido P-00157 de Cheddar Pouch Spalen.,5493514079279,,2026-07-28 09:15:00,2026-07-29 06:15:00,true

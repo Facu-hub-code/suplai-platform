@@ -1,0 +1,13 @@
+base_product_code,related_product_code,reason,is_mock
+RUG-HAR-007,LW-807-525,Disfruta de una deliciosa pizza con harina para pizza y papas fritas como acompañamiento.,true
+RUG-HAR-001,RUG-SAL-001,"La harina Distinguida es ideal para preparar panes, y la sal entre fina realza su sabor.",true
+RUG-HAR-002,RUG-PAN-002,Usa la harina Graciela para hacer empanadas y acompáñalas con pan rallado para un rebozado perfecto.,true
+RUG-HAR-003,LW-818-525,Prepara un plato gourmet con la harina Graciela y acompáñalo con papas fritas Steakhouse.,true
+RUG-HAR-008,RUG-SAL-002,"La harina leudante es perfecta para panes, y la sal fina es el complemento ideal para realzar su sabor.",true
+RUG-HAR-009,LW-507,Prepara un delicioso plato con la harina Graciela y acompáñalo con papas rústicas.,true
+RUG-HAR-010,LW-503,"La harina Graciela es perfecta para hacer frituras, y las canoas de papa son el acompañamiento ideal.",true
+RUG-HAR-011,LW-505-10K,"La harina leudante es ideal para repostería, y las papas fritas son un excelente complemento.",true
+RUG-PAN-001,LW-809-625,"El pan rallado es perfecto para empanizar, y las papas fritas tradicionales son un gran acompañamiento.",true
+RUG-GRA-001,RUG-HAR-004,La grasa es ideal para cocinar y la harina de salvado complementa perfectamente tus recetas.,true
+RUG-AZU-001,RUG-HAR-012,"El azúcar es esencial para postres, y la harina para arepas es perfecta para acompañar.",true
+RUG-HAR-005,BTL-100-084,"La harina Morixes es ideal para rebozar, y las papas fritas Butler son el acompañamiento perfecto.",true

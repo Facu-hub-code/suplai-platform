@@ -50,7 +50,8 @@ async def check_schema(schema: str, fix_tools: bool = False, fix_rag: bool = Fal
     print(f"EJECUTANDO HEALTHCHECK PARA EL ESQUEMA: {schema}")
     print("=" * 60)
 
-    conn = await asyncpg.connect(db_url)
+    # Puerto 6543 (Transaction Mode): desactivar cache de prepared statements
+    conn = await asyncpg.connect(db_url, statement_cache_size=0)
     try:
         # 1. Verificar public.distribuidoras
         print("[*] Verificando tabla public.distribuidoras...")

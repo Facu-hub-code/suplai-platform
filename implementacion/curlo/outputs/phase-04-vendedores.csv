@@ -1,0 +1,4 @@
+nombre,telefono,email,zona,codigo_ruta,is_mock
+Martín Herrera,5493519620594,martin.herrera@suplaisales.mock,NORTE,R01,true
+Valeria Díaz,5493874588077,valeria.diaz@suplaisales.mock,SUR,R02,true
+Pablo Romero,5493418906003,pablo.romero@suplaisales.mock,CENTRO-ESTE,R03,true

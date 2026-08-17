@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2389,Calidad,open,"Reclamo por Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg con entrega en mal estado o faltante parcial.",5493587905250,"Hola, me llego Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg en mal estado y quiero hacer el reclamo.",2026-07-31 11:15:00,,true
+TKT-2390,Calidad,open,Reclamo por LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego LAMB WESTON Rusticas (gajos Sab. Ondulados) 5 x 2 Kg en mal estado y quiero hacer el reclamo.",2026-07-30 08:15:00,,true
+TKT-2391,Calidad,open,Reclamo por LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego LAMB WESTON Stealth Frites 9 mm 5 x 2 Kg en mal estado y quiero hacer el reclamo.",2026-07-29 05:15:00,,true
+TKT-2392,Logistica,open,Demora en la entrega del pedido P-00151 de HARINA MORIXES 3/0 10XKG.,5493418277249,"Buen dia, sigo esperando el pedido P-00151 de HARINA MORIXES 3/0 10XKG y no llego.",2026-07-31 02:15:00,,true
+TKT-2393,Logistica,open,Demora en la entrega del pedido P-00123 de PAN RALLADO/REBOZADOR 8X1KG.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de PAN RALLADO/REBOZADOR 8X1KG y no llego.",2026-07-30 11:15:00,,true
+TKT-2394,Logistica,open,Demora en la entrega del pedido P-00126 de GRACIELA. REAL LEUDANTE 10 X 1 KG.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de GRACIELA. REAL LEUDANTE 10 X 1 KG y no llego.",2026-07-29 08:15:00,,true
+TKT-2395,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Congelados del Sur.,5493587905250,,2026-07-31 05:15:00,,true
+TKT-2396,Administracion,open,Solicita corregir datos administrativos de La Harina Mágica en el sistema.,5493582641213,,2026-07-30 02:15:00,,true
+TKT-2397,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Parrilla El Buen Sabor.,5492991227644,,2026-07-29 11:15:00,,true
+TKT-2398,Administracion,open,Solicita corregir datos administrativos de Carnicería El Amigo en el sistema.,5493418277249,,2026-07-31 08:15:00,,true
+TKT-2399,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Congelados y Más.,5492612928724,,2026-07-30 05:15:00,,true
+TKT-2400,Administracion,closed,Solicita corregir datos administrativos de Restaurante El Buen Gusto en el sistema.,5492617236955,,2026-07-15 05:15:00,2026-07-15 20:15:00,true
+TKT-2401,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Carnicería El Asador.,5492617413812,,2026-07-14 11:15:00,2026-07-15 03:15:00,true
+TKT-2402,Logistica,closed,"Demora en la entrega del pedido P-00132 de BUTLER CORTE TRADICIONAL 9 MM 6 un x 2,5 Kg.",5492998066543,,2026-07-13 09:15:00,2026-07-14 02:15:00,true
+TKT-2403,Calidad,closed,"Reclamo por Lamb Weston Corte Fino 7 mm 5 bls x 2,5 kg con entrega en mal estado o faltante parcial.",5492999435946,,2026-07-12 07:15:00,2026-07-13 01:15:00,true
+TKT-2404,Administracion,closed,Solicita corregir datos administrativos de Almacén La Abundancia en el sistema.,5493587747641,,2026-07-11 05:15:00,2026-07-12 00:15:00,true
+TKT-2405,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Pinturería Color y Vida.,5492614053074,,2026-07-26 11:15:00,2026-07-27 07:15:00,true
+TKT-2406,Logistica,closed,Demora en la entrega del pedido P-00157 de AZUCAR BELLA VISTA 10X1KG.,5493514079279,,2026-07-25 09:15:00,2026-07-26 06:15:00,true

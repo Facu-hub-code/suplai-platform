@@ -1,4 +1,4 @@
-﻿# Flujo agéntico de implementación — Suplai Sales
+# Flujo agéntico de implementación — Suplai Sales
 
 Resumen operativo del documento *Flujo Agéntico de Implementación*. Fuente de verdad para las skills en `.cursor/skills/suplai-implementation/`.
 
@@ -201,3 +201,54 @@ Migración: [`docs/implementacion/migrations/20260615_add_is_mock_columns_demo_a
 ## Salidas por fase
 
 Cada fase documenta **solo su CSV de salida** en `implementacion/{schema}/outputs/`. Ver plantillas en `implementacion/_template/outputs/`.
+
+## Lecciones aprendidas y restricciones de esquema (Gotchas)
+
+> [!IMPORTANT]
+> **Directiva de auto-mejora para agentes:** Cuando un agente encuentre una restricción de BD, discrepancia de esquema DDL o fallo de script en una implementación, debe actualizar inmediatamente esta sección y la skill correspondiente para evitar repetir el mismo error en futuras implementaciones.
+
+1. **Clonación de Tablas y Objetos DDL (`LIKE demo.table`):**
+   - `CREATE TABLE {schema}.t (LIKE demo.t)` sin `INCLUDING ALL` omite claves primarias, índices únicos y genéricos. Tampoco copia funciones PL/pgSQL ni triggers (`tr_sync_conversation_on_message`, `on_pedido_confirmado_update_memory`, etc.).
+   - Usar siempre `python scripts/sync_tenant_schema_objects.py --source gonzales --target {schema}` para aprovisionar o reparar esquemas. Esto garantiza:
+     - `LIKE ... INCLUDING ALL` en tablas.
+     - Clonación de todas las funciones PL/pgSQL (`set_updated_at`, `sync_conversation_on_message`, `on_pedido_confirmado_update_memory`, `calcular_precio_por_bulto`, `match_documents`).
+     - Recreación automática de todos los triggers y sus bindings.
+     - Sincronización de todas las PKs e índices únicos/secundarios.
+
+2. **Nombres exactos de columnas en tablas:**
+   - `precios_productos`: La columna de precio es `precio_unidad` (no `precio`).
+   - `productos_aliases`: Las columnas son `alias_raw` y `alias_norm` (no `alias` ni `alias_normalizado`).
+
+3. **Check Constraints de PostgreSQL:**
+   - `productos_umv_tipo_chk`: `umv_tipo` debe ser `'unidad'` o `'display'`.
+   - `chk_productos_peso_referencia_kg`: Exige `(peso_referencia_kg IS NULL OR peso_referencia_kg > 0)`. Pasar `NULL` (en Python `None`) para productos sin peso; nunca usar `0`.
+   - `tags.id`: La columna `id` en `tags` es `IDENTITY`. No alterar la secuencia con `nextval`, dejar que PostgreSQL la autogenere.
+
+4. **Endpoints de Taxonomía:**
+   - Usar `POST /{schema}/tags/propose-taxonomy` y `POST /{schema}/tags/apply-proposed-taxonomy` en el backend.
+
+5. **Constraint de Promociones (`promociones_semanales_fields_chk`):**
+   - Para `discount_kind = 'percent'`, `descuento_percent` no debe ser NULL; `precio_promocional` y `descuento_nominal` DEBEN SER NULL.
+   - Para `discount_kind = 'nominal'`, `descuento_nominal` no debe ser NULL; `precio_promocional` y `descuento_percent` DEBEN SER NULL.
+   - Para `discount_kind = 'fixed_price'`, `precio_promocional` no debe ser NULL; `descuento_percent` y `descuento_nominal` DEBEN SER NULL.
+
+6. **Constraint de Zonas Geográficas (`geo_zones`):**
+   - La columna `geometry` en `geo_zones` es NOT NULL y requiere un objeto `MultiPolygon`. Usar `ST_Multi(ST_SetSRID(ST_GeomFromGeoJSON($geojson), 4326))`.
+   - La columna `zone_type` debe ser uno de: `'sales'`, `'delivery'`, `'route'`, `'opportunity'`, `'custom'`.
+
+7. **Requisitos de Métricas y Mapa Comercial del Backoffice (OBLIGATORIOS):**
+   - **Estado de Pedidos Históricos (`pedidos.estado`)**: Los pedidos históricos CERRADOS o COMPLETADOS DEBEN guardarse con `estado = 'confirmado'` (nunca `'entregado'`). Las consultas de métricas comerciales (`comercial_metrics.py`), reportes de vendedores (`vendedores_report.py`) y asignaciones de vendedor filtran estrictamente `WHERE estado IN ('confirmado', 'descargado')`. Guardar un pedido como `'entregado'` excluye el 100% de las ventas en el panel comercial.
+   - **Mapa Comercial & Geolocalización (`client_locations` y `puntos_venta`)**:
+     - `geo_zones`: Cada una de las 6 zonas debe tener polígonos `MultiPolygon` delimitados y distintos (nunca usar un polígono de prueba duplicado para todas las zonas).
+     - `puntos_venta`: Crear una fila por cada cliente en `puntos_venta` asignando `geo_zone_id` y `vendedor_id`.
+     - `clients.pdv_id`: Establecer `clients.pdv_id = puntos_venta.id`.
+     - `client_locations`: Insertar un punto PostGIS para cada cliente con `location = ST_SetSRID(ST_MakePoint(longitude, latitude), 4326)` contenido dentro de su `geo_zone` (`ST_Within(location, geometry)`).
+   - **Métricas Conversacionales del Funnel (`GET /{schema}/metricas/agente`)**:
+     - Atribución de 48h: Requiere poblar `envios_plantillas` con dispatches para cada cliente (`session_id = client.phone_number`) en las fechas de los pedidos (~2 hs antes de `pedidos.fecha`).
+     - Respuestas de clientes: Poblar `n8n_chat_histories` con mensajes del usuario (`type = 'user'`) dentro de las 48 hs posteriores al dispatch.
+   - **Memoria de Producto del Cliente (`client_product_memory`)**: Debe repopularse automáticamente vía el trigger `trg_pedido_confirmado_update_memory` o ejecutando el script de backfill tras sembrar pedidos históricos.
+
+
+
+
+

@@ -38,7 +38,7 @@ La fase debe ejecutarse con:
 1. `python scripts/fase-07-conversaciones/preparar_conversaciones.py --esquema <schema>`
 2. `python scripts/fase-07-conversaciones/cargar_conversaciones.py --esquema <schema>`
 
-Por cliente seleccionado, insertar 4–5 eventos en `core.conversation_events` (fuente canónica — spec 013), enlazados a `core.conversations` por `session_id`:
+Por cliente seleccionado, insertar 4–5 eventos en `core.conversation_events` (fuente canónica de mensajes — spec 013), enlazados a `core.conversations` por `session_id`:
 
 - Saludo agente
 - Empuje promo volumen o discusión sobre pedidos de la Fase 6 (simulando que el agente tomó el pedido de ese cliente).
@@ -48,7 +48,9 @@ Por cliente seleccionado, insertar 4–5 eventos en `core.conversation_events` (
 
 Mapeo `sender_type` → `event_type`: `human`/`user` → `user_message`; `ai` → `assistant_message`. El texto va en `event_payload.text` con `event_payload.is_mock = true`.
 
-> `{schema}.n8n_chat_histories` queda **deprecada** para carga (spec 013). El backoffice lee core; solo se usa n8n como fallback de historial legacy.
+> **Inbox del backoffice (OBLIGATORIO)**: el listado de Conversaciones lee **`{schema}.conversations`** (no solo `core`). El cargador **MUST** espejar cada sesión mock en `{schema}.conversations` (`phone_number`, `client_id`, `updated_at` / `started_at`) además de `core.conversations` + eventos. Sin esa fila el backoffice muestra 0–1 chats aunque `core` tenga 50.
+
+> `{schema}.n8n_chat_histories` queda **deprecada** para carga (spec 013). Solo se usa n8n como fallback de historial legacy.
 
 ## Sandbox
 
@@ -57,6 +59,7 @@ Indicar al implementador: probar agente en backoffice/lab con datos del tenant; 
 ## Verificación
 
 - COUNT eventos core mock > 0
+- COUNT `{schema}.conversations` ≈ cantidad de sesiones mock del resumen (inbox visible)
 - 10–15 clientes con `live_feed=true` en CSV resumen
 - Ninguna conversación finaliza con `user_message` (último evento debe ser `assistant_message`).
 

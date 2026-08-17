@@ -1,0 +1,409 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587905250,25001,2,Aceitunas Verdes PET T0 1500g GULLO,1,9235.80,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00001,5493587905250,25001,291,Pan Lacteado Veneziana 400 G,5,1771.68,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00002,5493587905250,25001,157,Queso Gouda Cremigal Kg,5,11970.26,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00002,5493587905250,25001,11270,Patagonia Tonadita 3 KG,5,20931.66,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00002,5493587905250,25001,185,Tapa Empanada La Mocita Freir Hojaldre 330 G,5,1573.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00003,5493587905250,25001,284,Pan P/ Panchos Venez. 210 G,5,1213.59,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00003,5493587905250,25001,846,Sorrentinos Villa D'agri 500G mozzarella y jamon,5,3128.65,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00003,5493587905250,25001,12168,Salame Pepperoni FOX,3,19400.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00004,5493582641213,25002,213,Aderezo Mostaza Danica 60 G,3,466.23,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00004,5493582641213,25002,12356,Aderezo HELLMANN'S Mayonesa 950G,3,5193.43,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00004,5493582641213,25002,11933,Sopa de arvejas CENTURION Caja 5x13g,1,1713.18,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00004,5493582641213,25002,770,Yerba Mate Rojo Tradicional 500g,3,1576.47,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00005,5493582641213,25002,16,Gelatina Anana VIT Emeth 70G,5,895.79,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00005,5493582641213,25002,11270,Patagonia Tonadita 3 KG,4,20931.66,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00005,5493582641213,25002,684,Salsa Soja VANOLI 190cc PET,1,1553.78,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00006,5493582641213,25002,11302,Torta Veneziana Dulce de Leche 400G,3,2741.27,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00006,5493582641213,25002,210,Aderezo Salsa Golf 220G DANICA,1,1456.02,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00007,5492991227644,25003,197,Yogur Colchon de Frutillas RAMOLAC 160g,4,953.67,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00007,5492991227644,25003,10348,Queso Cheddar Untable La Quesera 3 KG,5,27941.74,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00007,5492991227644,25003,30,Cremette Tonadita 290G,5,2214.40,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00008,5492991227644,25003,773,Yerba Mate 10 Uruguaya 500g,3,4678.13,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00008,5492991227644,25003,485,Queso Cremoso LW x KG,1,8600.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00008,5492991227644,25003,98,Mortadela Bocha FOX A/V,5,10900.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00008,5492991227644,25003,294,Pre Pizza T/ A la Piedra Veneziana,1,1840.66,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00009,5492991227644,25003,179,Queso Rallado TREMBLAY 40g,4,1017.13,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00009,5492991227644,25003,14,Bizcochuelo Chocolate Emeth 450G,1,2084.02,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00010,5493418277249,25004,381,Knorr Sabor Carne CEB/AJO 21g + Bolsa,3,2530.14,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00011,5493418277249,25004,484,Jade al Pesto CUÑA,2,22283.64,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00011,5493418277249,25004,939,Fecula de Maiz 200g. CENTURION,2,1172.80,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00011,5493418277249,25004,144,Queso Cremoso Cremigal x KG,1,8800.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00012,5493418277249,25004,43,Dulce de Leche Cremigal Familiar 1 KG,1,5007.62,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00012,5493418277249,25004,693,Jugo de Limon CORMILLOT 500cc,2,2228.35,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00013,5493587747641,25005,151,Queso Fontina Varense x Kg,2,18460.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00014,5493587747641,25005,10650,Aceituna Negra VANOLI Doy Pack 180/300 G,5,2098.20,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00014,5493587747641,25005,520,Picadillo Paladini 90g,2,1174.82,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00015,5493587747641,25005,446,Ajies Dulces en Vinagre 800G GULLO,4,6347.88,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00015,5493587747641,25005,50,Dulce de Membrillo 5 KG DULCOR,1,17994.74,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00016,5492614053074,25006,15287,Tostex Cintitas Picantes 125g,3,1201.89,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00016,5492614053074,25006,295,Tortilla Veneziana 165 G,4,1085.67,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00016,5492614053074,25006,939,Fecula de Maiz 200g. CENTURION,2,1172.80,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00016,5492614053074,25006,175,Salchichas Carcaraña x 6u 190 G,1,1150.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00017,5492614053074,25006,911,Aji Molido 25g CENTURION,1,391.64,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00017,5492614053074,25006,25,Morcillon FOX KG,5,7300.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00017,5492614053074,25006,368,KNORR Sopa Crema Vegetales,2,2010.53,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00017,5492614053074,25006,770,Yerba Mate Rojo Tradicional 500g,1,1576.47,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00018,5492614053074,25006,680,Salsa Pomarola Light CORMILLOT 340g,4,1495.50,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00018,5492614053074,25006,442,Aceitunas Negras PREMIUM T00 800G GULLO,2,9210.60,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00018,5492614053074,25006,437,Especias Garam Masala 200G (10 Especias),4,6097.14,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00019,5493514079279,25007,158,Queso Reggianito La Quesera,2,21770.44,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00019,5493514079279,25007,679,Salsa Filetto LIght CORMILLOT 340g,4,1495.50,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00019,5493514079279,25007,674,Salsa Portuguesa VANOLI Frasco 340g,3,1495.50,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00019,5493514079279,25007,13109,Mermelada Pote PERA Dulcor 500G,4,1419.86,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00020,5493514079279,25007,1690,Mermelada S/AZUCAR Durazno CORMILLOT 390G,1,2687.38,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00021,5493514079279,25007,246,Salchicha DON OTTO,2,1100.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00021,5493514079279,25007,1414,Bizcochuelo Vainilla Emeth 450 G,4,1613.57,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00021,5493514079279,25007,89,Danica Dorada Pote 200 G,5,3071.41,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00022,5493876914178,25008,1075,Lomo a las Finas Hierbas FOX,4,21100.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00023,5493876914178,25008,10356,Aderezo HELLMANN'S Mayonesa 237G,1,1442.09,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00023,5493876914178,25008,72,Levadura Levex Seca 2x 10 G,1,1031.38,1,Pedido: 1 unidad (normalizado: 2 unidad; equiv: 1 unidad),true,false,false
+P-00023,5493876914178,25008,678,Salsa Inglesa VANOLI 180cc BOTELLA,4,2549.32,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00023,5493876914178,25008,430,Aceituna Rellena c/azul 200G GULLO,1,6393.24,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00024,5493876914178,25008,113,Paleta Especial Fox Cuadrada,4,9400.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00024,5493876914178,25008,520,Picadillo Paladini 90g,1,1174.82,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00024,5493876914178,25008,11126,Postre VIT Chocolate Emeth 120g,5,925.88,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00025,5492617175545,25009,126,Postre VIT Vainilla Emeth 120g,5,687.80,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00025,5492617175545,25009,370,KNORR Sopa Crema Zapallo,2,2010.53,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00025,5492617175545,25009,941,Anis en grano 25g Centurion,2,660.42,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00026,5492617175545,25009,1078,Grasa vacuna ESANI 1 Kg,3,5048.69,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00026,5492617175545,25009,667,Salsa de Hongos VANOLI 190cc PET,2,1937.72,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00026,5492617175545,25009,353,Aji Dulce en Vinagre Gullo 330 G,2,3827.88,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00026,5492617175545,25009,247,Salame Milan RECREO Horma,3,15491.89,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00027,5492617175545,25009,913,Comino Molido 25g CENTURION,3,381.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00027,5492617175545,25009,353,Aji Dulce en Vinagre Gullo 330 G,5,3827.88,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00028,5493818437953,25010,11355,Aderezo HELLMANN'S BARBACOA 3 KG,3,17907.31,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00028,5493818437953,25010,323,Queso Cremoso Tauritos x KG,4,8200.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00029,5493818437953,25010,20287,Tostex Cintitas Provoleta 125g,4,1201.89,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00029,5493818437953,25010,13356,Aderezo HELLMANN'S Mayonesa 2755cc,5,17368.22,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00029,5493818437953,25010,10311,Dulce de Leche Cremigal Repostero 3 KG,3,13917.72,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00029,5493818437953,25010,240,Provoleta x2 Arroyo Cabral KG,4,25080.14,3,Pedido: 4 unidad (normalizado: 8 unidad; equiv: 4 unidad),true,false,false
+P-00030,5493818437953,25010,154,Queso Holanda La Varense x KG,4,17160.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00030,5493818437953,25010,901,Semoladas La Berlinesa,3,2262.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00031,5493582132179,25011,677,Chimichurri Ahumado VANOLI 190cc PET,3,1444.15,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00031,5493582132179,25011,922,Ajo granulado 25g CENTURION,2,492.88,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00031,5493582132179,25011,14109,Mermelada Pote CIRUELA Dulcor 500G,2,1419.86,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00032,5493582132179,25011,1890,Mermelada S/AZUCAR Membrillo CORMILLOT 390G,4,2815.34,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00032,5493582132179,25011,886,Queso Barra Dambo TREMBLAY,1,10400.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00032,5493582132179,25011,111,Paleta Barrilito FOX KG,2,7800.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00033,5493582132179,25011,431,Aceituna Rellena c/Palmitos 200G Gullo,5,6476.40,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00033,5493582132179,25011,1178,Grasa de Cerdo ESANI 500g,4,2672.84,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00033,5493582132179,25011,174,Salchicha Paladini x 6u 220 G,5,2717.92,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00033,5493582132179,25011,309,Tostadas SALADAS Veneziana 200G,3,1569.28,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00034,5493872845902,25012,13675,Salsa Aji Picante VANOLI 190cc PET,4,2039.70,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00035,5493872845902,25012,12358,Aderezo HELLMANN'S Ketchup 3KG,3,16843.55,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00036,5493872845902,25012,15109,Mermelada Pote FRUTILLA Dulcor 500G,1,1765.21,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00037,5492997670210,25013,17132,Mermelada Light Membrillo CORMILLOT 390G,2,2242.81,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00037,5492997670210,25013,151,Queso Fontina Varense x Kg,5,18460.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00037,5492997670210,25013,272,Pure de Papas KNORR 125G,3,1914.18,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00038,5492997670210,25013,13840,Raviol Villa D'agri 500G Ricota y Espinaca,4,2502.91,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00038,5492997670210,25013,354,Aderezo SAVORA Sachet 60G,1,713.55,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00039,5492997670210,25013,271,Aceite Girasol 900 LEIRA,3,2280.60,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00039,5492997670210,25013,10214,Mayonesa Fiesta 250 cc,4,982.36,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00040,5493811657614,25014,202,Queso Untable Tonadita Clasico 180G,2,1704.07,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00040,5493811657614,25014,447,Cerezas al marrasquino 270G GULLO,1,7018.20,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00040,5493811657614,25014,10677,Chimichurri Ahumado VANOLI Pet 350cc,1,1805.18,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00041,5493811657614,25014,1414,Bizcochuelo Vainilla Emeth 450 G,3,1613.57,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00041,5493811657614,25014,725,Bondiola A/V PIAMONTESA Kg,3,26020.67,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00041,5493811657614,25014,10653,Aceituna Verde VANOLI Doy Pack 180/300 G,1,1621.34,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00042,5493811657614,25014,14500,Mani s/Sal Tio Cucho 1Kg,1,4320.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00042,5493811657614,25014,430,Aceituna Rellena c/azul 200G GULLO,4,6393.24,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00042,5493811657614,25014,10246,Caja Salchicha DON OTTO x20u,2,20000.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00042,5493811657614,25014,108,Aceituna Garrafa T1 7000g GULLO,5,27500.76,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00043,5492994145193,25015,72,Levadura Levex Seca 2x 10 G,4,1031.38,4,Pedido: 4 unidad (normalizado: 8 unidad; equiv: 4 unidad),true,false,false
+P-00043,5492994145193,25015,152,Queso Pategras Cremigal x Kg,5,12000.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00044,5492994145193,25015,1390,Mermelada Vidrio FRUTILLA Dulcor 454G,1,2605.30,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00044,5492994145193,25015,705,Aceite de Oliva Extra Virgen CORMILLOT 500cc,2,14549.75,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00044,5492994145193,25015,62,Jamon Cocido E. Negra FOX KG,5,14400.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00045,5492994145193,25015,375,KNORR Sopa Caracolitos Tricolor,2,2010.53,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00046,5493515971311,25016,11933,Sopa de arvejas CENTURION Caja 5x13g,4,1713.18,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00046,5493515971311,25016,173,Salchicha Fela x 6u 190 G,2,1547.26,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00046,5493515971311,25016,125,Postre CREMIGAL Vainilla 125G,1,613.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00047,5493515971311,25016,901,Semoladas La Berlinesa,5,2262.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00048,5493515971311,25016,774,Yerba Mate Kurupi Menta & Boldo 500g,3,5095.82,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00048,5493515971311,25016,15287,Tostex Cintitas Picantes 125g,3,1201.89,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00048,5493515971311,25016,185,Tapa Empanada La Mocita Freir Hojaldre 330 G,4,1573.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00048,5493515971311,25016,111,Paleta Barrilito FOX KG,1,7800.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00049,5492994228106,25017,243,Fiambre Cocido Pata de Cerdo RECREO Horma,2,7100.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00049,5492994228106,25017,373,KNORR Sopa Cabello de Angel,4,2010.53,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00049,5492994228106,25017,658,Aceituna Verde Rellena VANOLI 150g,2,1138.07,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00049,5492994228106,25017,191,Gelatina Cremigal Frutilla 110g,4,405.35,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00050,5492994228106,25017,340,Leche en Polvo Cremigal 400 G,4,4083.26,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00050,5492994228106,25017,166,Queso Criollo Cremigal KG,1,12469.05,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00050,5492994228106,25017,918,Pimienta Blanca Molida 25g CENTURION,2,1453.26,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00051,5492994228106,25017,650,Aceituna Negra VANOLI 150 G,5,1102.64,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00051,5492994228106,25017,925,Pesto 25g CENTURION,4,572.22,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00052,5492998718887,25018,218,Aceitunas Rebanadas Pote 3000g GULLO,3,17493.84,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00053,5492998718887,25018,188,Tapa Rotisera La Mocita 600 G,3,2446.94,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00053,5492998718887,25018,10199,Yogur Natural S/Azucar Cremigal 170g,2,606.71,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00053,5492998718887,25018,10170,Salamin Fox Tira Picado Grueso,4,15300.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00053,5492998718887,25018,332,Dulce Batata DULCOR 500 G,3,1790.89,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00054,5492998718887,25018,913,Comino Molido 25g CENTURION,4,381.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00054,5492998718887,25018,10684,Salsa Soja Light CORMILLOT 190cc PET,2,1553.78,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00055,5492995028869,25019,1042,Dulce Batata c/Chocolate 5 KG EMETH,5,11342.55,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00055,5492995028869,25019,10295,Tortilla Integral CORMILLOT 275 G,1,1085.67,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00056,5492995028869,25019,10201,Queso Untable Cremigal Cheddar 190G,1,1759.67,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00056,5492995028869,25019,240,Provoleta x2 Arroyo Cabral KG,1,25080.14,4,Pedido: 1 unidad (normalizado: 2 unidad; equiv: 1 unidad),true,false,false
+P-00056,5492995028869,25019,705,Aceite de Oliva Extra Virgen CORMILLOT 500cc,1,14549.75,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00057,5492995028869,25019,731,Paleta Especial Piamontesa KG,4,9874.02,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00058,5493517304254,25020,776,Yerba Mate Canarias 500g,1,4956.59,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00058,5493517304254,25020,158,Queso Reggianito La Quesera,5,21770.44,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00059,5493517304254,25020,10309,Tostadas Dulces VENEZIANA 200G,4,1569.28,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00060,5493517304254,25020,206,Queso Por Salut Cremigal Light KG,2,9450.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00061,5493416986538,25021,730,Salamin A/V P. Fino PIAMONTESA,2,3809.02,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00062,5493416986538,25021,10170,Salamin Fox Tira Picado Grueso,1,15300.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00062,5493416986538,25021,255,Salsa Cheddar Tonadita Americano 3 Kg,2,22764.27,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00062,5493416986538,25021,10193,Yogur c/cereal Frutilla Cremigal 153G,2,968.82,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00063,5493416986538,25021,10109,Mermelada Pote NARANJA Dulcor 500G,4,1419.86,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00064,5492619239862,25022,920,Romero 25g CENTURION,5,753.04,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00064,5492619239862,25022,372,KNORR Sopa Fideo Letras,3,2010.53,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00065,5492619239862,25022,436,Especias Curry Power 200G (11 Especies),5,5071.50,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00065,5492619239862,25022,316,Queso Gruyere Quesera Kg,4,25241.49,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00065,5492619239862,25022,840,Raviol Villa D'agri 500G pollo y Verdura,4,2502.91,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00065,5492619239862,25022,841,Raviol Villa D'agri 1KG pollo y Verdura,1,4630.28,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00066,5492619239862,25022,201,Queso Untable Cremigal Azul 190g,3,1759.67,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00067,5493513952681,25023,15500,Mani Salado Tio Cucho 1Kg,2,4320.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00067,5493513952681,25023,11126,Postre VIT Chocolate Emeth 120g,3,925.88,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00067,5493513952681,25023,132,Mermelada Light DURAZNO CORMILLOT 390G,3,2242.81,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00067,5493513952681,25023,1172,Levadura 500G LCBSA,3,3975.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00068,5493513952681,25023,672,Salsa Pomarola VANOLI Frasco 340g,5,1495.50,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00068,5493513952681,25023,725,Bondiola A/V PIAMONTESA Kg,5,26020.67,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00068,5493513952681,25023,10309,Tostadas Dulces VENEZIANA 200G,3,1569.28,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00069,5493513952681,25023,1024,Dulce de Leche CORPLAY REP 5 KG,4,19572.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00069,5493513952681,25023,938,Chimichurri deshid. 25g CENTURION,3,336.06,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00069,5493513952681,25023,46,Dulce de Leche Cremigal Familiar 400 G,1,2013.59,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00070,5493414799650,25024,90,Mermelada Vidrio DURAZNO Dulcor 454G,4,2036.93,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00070,5493414799650,25024,701,Salsa Barbacoa VANOLI 390cc PET,1,2549.62,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00070,5493414799650,25024,11132,Mermelada Light CIRUELA CORMILLOT 390G,4,2242.81,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00071,5493414799650,25024,214,Mayonesa Fiesta 100 G,5,542.50,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00071,5493414799650,25024,1147,Dulce Membrillo 5 KG LATA EMETH,4,16183.85,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00071,5493414799650,25024,65,Jamon Crudo BEIGE KG,4,27800.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00072,5493414799650,25024,43,Dulce de Leche Cremigal Familiar 1 KG,2,5007.62,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00073,5492992500733,25025,11309,Tostadas SIN SAL CORMILLOT 200G,4,1569.28,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00074,5492992500733,25025,12483,Queso Saborizado Provenzal LW,4,22283.64,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00074,5492992500733,25025,15287,Tostex Cintitas Picantes 125g,1,1201.89,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00075,5492992500733,25025,16270,Queso Patagonia Ciboulette 290G,2,2362.91,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00075,5492992500733,25025,10677,Chimichurri Ahumado VANOLI Pet 350cc,5,1805.18,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00075,5492992500733,25025,357,Aderezo HELLMANN'S Salsa Golf 125cc,1,1641.19,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00076,5492615139305,25026,1036,Crema BALDE RAMOLAC 5 KG,3,50109.93,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00076,5492615139305,25026,841,Raviol Villa D'agri 1KG pollo y Verdura,1,4630.28,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00077,5492615139305,25026,10932,Caldo de Gallina x12u CENTURION,3,1511.95,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00078,5492615139305,25026,66,Jamon Crudo Alba Horma,4,19572.57,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00078,5492615139305,25026,436,Especias Curry Power 200G (11 Especies),2,5071.50,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00078,5492615139305,25026,669,Chimichurri VANOLI 190cc PET,3,1444.15,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00079,5492618861463,25027,41,Dulce de Batata c/Choc 5 KG DULCOR,2,13031.32,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00079,5492618861463,25027,5,Aceituna Rellena T0 PET 1500g GULLO,2,13770.28,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00080,5492618861463,25027,667,Salsa de Hongos VANOLI 190cc PET,1,1937.72,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00080,5492618861463,25027,914,Nuez Moscada Grano CENTURION,4,1236.97,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00080,5492618861463,25027,11433,Aceituna Rellena c/Jamon Crudo 200G Gullo,3,6536.88,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00080,5492618861463,25027,380,Maizena 220g,1,1988.17,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00081,5492618861463,25027,920,Romero 25g CENTURION,2,753.04,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00082,5493812941974,25028,12933,Sopa de esparragos CENTURION Caja 5x13g,5,1713.18,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00082,5493812941974,25028,286,Pan Multicereal CORMILLOT 410 G,1,2405.70,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00082,5493812941974,25028,13381,Knorr Sabor Carne HIE/ESP 21g + Bolsa,5,2530.14,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00082,5493812941974,25028,353,Aji Dulce en Vinagre Gullo 330 G,4,3827.88,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00083,5493812941974,25028,11500,Mani c/Cobertura Tio Cucho sab. Queso 1 kg,1,4560.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00083,5493812941974,25028,372,KNORR Sopa Fideo Letras,5,2010.53,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00083,5493812941974,25028,85,Manteca Ramolac 200 G,2,3742.95,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00084,5493812941974,25028,11349,Queso Blanco La Quesera x 3KG,4,24642.23,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00084,5493812941974,25028,375,KNORR Sopa Caracolitos Tricolor,1,2010.53,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00085,5493817404433,25029,301,Dulce de Leche Cremigal Familiar 10 KG,4,40444.15,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00085,5493817404433,25029,774,Yerba Mate Kurupi Menta & Boldo 500g,5,5095.82,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00085,5493817404433,25029,50,Dulce de Membrillo 5 KG DULCOR,2,17994.74,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00086,5493817404433,25029,653,Aceituna Verde VANOLI 150g,3,817.51,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00086,5493817404433,25029,125,Postre CREMIGAL Vainilla 125G,2,613.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00086,5493817404433,25029,1131,Crema BALDE TONADITA 4 LTS,2,31248.84,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00087,5493817404433,25029,147,Queso Cremoso La Varense kg,1,8880.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00087,5493817404433,25029,32,"Crema de Leche Cremigal Pouch 3,5 KG",1,25828.81,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00087,5493817404433,25029,11109,Mermelada Pote HIGO Dulcor 500G,1,1765.21,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00088,5493419686914,25030,11202,Queso Untable Tonadita Gruyere 180G,3,1704.07,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00088,5493419686914,25030,8,Aceitunas Garrafa T0 7000g GULLO,5,30668.40,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00089,5493419686914,25030,10840,Raviol Villa D'agri 500G 4 Quesos,3,2502.91,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00090,5493419686914,25030,887,Queso Pategras TREMBLAY,4,20393.04,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00090,5493419686914,25030,195,Yogur Bebible Cremigal Vainilla 900g,2,1450.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00090,5493419686914,25030,931,Pasas de uva 50g CENTURION,2,684.93,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00090,5493419686914,25030,147,Queso Cremoso La Varense kg,3,8880.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00091,5493518648263,25031,727,Salchichas PANCHIN 190g,2,1190.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00092,5493518648263,25031,127,Duraznos en Almibar 800G,3,5196.24,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00092,5493518648263,25031,1083,Manteca 200G CREMIGAL,1,3049.25,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00092,5493518648263,25031,215,Aderezo Ketchup 50g DANICA,1,579.84,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00093,5493518648263,25031,12309,Tostadas C/Salvado CORMILLOT 200G,1,1569.28,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00093,5493518648263,25031,228,Aceto Balsamico 250cc GULLO,1,3943.80,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00094,5493516216782,25032,11774,Yerba Mate Kurupi Mega Menta 500g,2,5095.82,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00094,5493516216782,25032,917,Pimenton 25g CENTURION,2,383.06,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00095,5493516216782,25032,10126,Postre VIT DDL Emeth 120g,3,800.23,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00095,5493516216782,25032,678,Salsa Inglesa VANOLI 180cc BOTELLA,2,2549.32,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00095,5493516216782,25032,56,Flan Cremigal,2,563.20,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00095,5493516216782,25032,1690,Mermelada S/AZUCAR Durazno CORMILLOT 390G,5,2687.38,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00096,5493516216782,25032,20287,Tostex Cintitas Provoleta 125g,2,1201.89,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00096,5493516216782,25032,693,Jugo de Limon CORMILLOT 500cc,5,2228.35,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00097,5492612780568,25033,10843,Ravioles Cuatro Quesos 1 KG BOLSA V.DAGRI,3,4065.02,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00098,5492612780568,25033,174,Salchicha Paladini x 6u 220 G,4,2717.92,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00098,5492612780568,25033,20777,Yerba Mate 10 LATA ARG 500g,3,9565.10,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00099,5492612780568,25033,20777,Yerba Mate 10 LATA ARG 500g,3,9565.10,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00099,5492612780568,25033,123,Pasta de Aceituna Verde 200g GULLO,5,3531.78,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00100,5493582639964,25034,15500,Mani Salado Tio Cucho 1Kg,4,4320.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00100,5493582639964,25034,151,Queso Fontina Varense x Kg,2,18460.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00100,5493582639964,25034,13287,Tostex Cintitas Barbacoa 125g,1,1201.89,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00100,5493582639964,25034,1414,Bizcochuelo Vainilla Emeth 450 G,5,1613.57,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00101,5493582639964,25034,1230,Cremette Tonadita 480G,4,3482.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00101,5493582639964,25034,660,Pepinillos VANOLI Doy Pack 150/300 G,3,2306.67,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00101,5493582639964,25034,12168,Salame Pepperoni FOX,4,19400.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00102,5493582639964,25034,11676,Salsa Cheddar Vanoli PET 350gt,2,3333.93,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00102,5493582639964,25034,541,Trumpeter Malbec 750cc,1,7824.60,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00102,5493582639964,25034,13195,Yogur Bebible Cremigal Frutilla Light 900g,1,1450.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00102,5493582639964,25034,1030,Cremette Tonadita Light 290G,1,2214.40,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00103,5493814729528,25035,11255,Tonadita CHEDDAR AMERICANO 140 Fetas,1,21807.97,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00103,5493814729528,25035,366,KNORR Caldo CARNE 24x2U,2,12185.38,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00103,5493814729528,25035,10381,Knorr Sabor Pollo LIM/OREG 21g + Bolsa,5,2530.14,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00104,5493814729528,25035,913,Comino Molido 25g CENTURION,5,381.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00104,5493814729528,25035,288,Pan Lacteado Fliar Veneziana 600 G,5,2605.06,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00104,5493814729528,25035,850,Tapa Empanada Villa D'agri Freir 300G,1,1376.61,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493814729528,25035,12358,Aderezo HELLMANN'S Ketchup 3KG,4,16843.55,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00105,5493814729528,25035,358,Aderezo HELLMANN'S Ketchup 60G,3,775.87,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00105,5493814729528,25035,11943,Condimento P/Empanadas 25g Centurion,4,606.74,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00105,5493814729528,25035,11295,Tortilla Espinaca CORMILLOT 165 G,3,1357.11,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00106,5493876922419,25036,10246,Caja Salchicha DON OTTO x20u,3,20000.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00106,5493876922419,25036,924,Provenzal 25g CENTURION,1,453.83,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00107,5493876922419,25036,931,Pasas de uva 50g CENTURION,1,684.93,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00107,5493876922419,25036,10910,Adobo para pizzas 500g CENTURION,2,5362.94,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00107,5493876922419,25036,1069,Queso Patagonia Light 180G,4,1654.05,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00108,5493876922419,25036,13309,Tostada Multicereal CORMILLOT 200G,2,1862.74,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00108,5493876922419,25036,10653,Aceituna Verde VANOLI Doy Pack 180/300 G,2,1621.34,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00108,5493876922419,25036,11774,Yerba Mate Kurupi Mega Menta 500g,4,5095.82,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00109,5492618889598,25037,11932,Caldo de Verduras x12u CENTURION,5,1511.95,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00110,5492618889598,25037,657,Aceituna Rodajas C/Morron 100 G,4,1180.49,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00110,5492618889598,25037,121,Manteca Tonadita 500G,1,7009.73,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00110,5492618889598,25037,84,Manteca Cotampo 100g,4,1160.75,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00110,5492618889598,25037,168,Salame Baston Fox Picado Fino,4,18200.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00111,5492618889598,25037,10843,Ravioles Cuatro Quesos 1 KG BOLSA V.DAGRI,2,4065.02,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00111,5492618889598,25037,486,Provoleta x2 AV LW,4,25401.36,2,Pedido: 4 unidad (normalizado: 8 unidad; equiv: 4 unidad),true,false,false
+P-00111,5492618889598,25037,120,Queso Mascarpone TONADITA 200g,5,2154.58,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00111,5492618889598,25037,26,Tonadita Dip 180 G,3,1836.05,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00112,5492615021286,25038,291,Pan Lacteado Veneziana 400 G,3,1771.68,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00112,5492615021286,25038,446,Ajies Dulces en Vinagre 800G GULLO,3,6347.88,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00113,5492615021286,25038,10102,Ajo Picado Gourmet 200G GULLO,3,5329.80,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00113,5492615021286,25038,450,Cerezas en almibar DULCOR frasco 200 gr.,4,5432.25,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00113,5492615021286,25038,885,Queso Cuartirolo TREMBLAY Horma,4,7900.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00113,5492615021286,25038,10843,Ravioles Cuatro Quesos 1 KG BOLSA V.DAGRI,4,4065.02,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00114,5492615021286,25038,171,Salame Milan 201,2,11700.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00114,5492615021286,25038,12309,Tostadas C/Salvado CORMILLOT 200G,2,1569.28,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00114,5492615021286,25038,845,Capelletti Villa D'agri 1KG pollo y verdura,3,4630.43,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00115,5493813520000,25039,939,Fecula de Maiz 200g. CENTURION,1,1172.80,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00115,5493813520000,25039,764,Chorizo Seco de Cerdo C. AUSTRAL,4,26931.20,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00115,5493813520000,25039,469,Matambre Carne BIERZO KG,2,21954.28,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00116,5493813520000,25039,63,Jamon Cocido FOX KG,1,10300.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00116,5493813520000,25039,670,Salsa Criolla VANOLI 190cc,2,1444.15,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00117,5493813520000,25039,13500,Mani c/Cobertura Tio Cucho sab. Salame 1 kg,3,4560.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00117,5493813520000,25039,10932,Caldo de Gallina x12u CENTURION,4,1511.95,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00117,5493813520000,25039,11355,Aderezo HELLMANN'S BARBACOA 3 KG,5,17907.31,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00118,5492997489876,25040,11943,Condimento P/Empanadas 25g Centurion,5,606.74,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00118,5492997489876,25040,1045,Dulce de Leche Cremigal Repostero 5 KG,2,22392.96,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00118,5492997489876,25040,10520,Pate Paladini 90g,2,1174.82,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00118,5492997489876,25040,20777,Yerba Mate 10 LATA ARG 500g,2,9565.10,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00119,5492997489876,25040,776,Yerba Mate Canarias 500g,1,4956.59,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00119,5492997489876,25040,64,Jamon Crudo FOX KG,5,41600.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00119,5492997489876,25040,280,Pan de Campo Veneziana 400 G,1,2080.21,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00119,5492997489876,25040,1290,Mermelada Vidrio HIGO Dulcor 454G,2,2605.30,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00120,5492997489876,25040,500,Mani c/Cobertura Tio Cucho sab. Jamon 1 kg,5,4560.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00121,5492612928724,0,198,Yogur Vasito Cremigal Vainilla 120G,3,486.47,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5492612928724,0,20777,Yerba Mate 10 LATA ARG 500g,3,9565.10,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5492612928724,0,15500,Mani Salado Tio Cucho 1Kg,4,4320.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00121,5492612928724,0,699,Cebollitas en Vinagre VANOLI Frasco 330 G,5,3019.93,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00122,5492612928724,0,13296,Ziginato C/Salvado Veneziana 180G,2,1126.50,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00122,5492612928724,0,11213,Aderezo Mostaza 3000 G. DANICA,3,8922.91,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00122,5492612928724,0,849,Ñoqui Villa D'agri 500G,4,2190.09,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00122,5492612928724,0,13302,Torta Veneziana Limon 400G,2,2677.38,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00123,5492612928724,0,331,Dulce Membrillo DULCOR 500 G,5,2403.41,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00123,5492612928724,0,15132,Mermelada Light FRAMBUESA CORMILLOT 390G,4,3562.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00123,5492612928724,0,10843,Ravioles Cuatro Quesos 1 KG BOLSA V.DAGRI,2,4065.02,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00124,5492617236955,0,10325,Muffin Vainilla EMETH 250g,1,1428.50,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00125,5492617236955,0,11500,Mani c/Cobertura Tio Cucho sab. Queso 1 kg,5,4560.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00125,5492617236955,0,10213,Aderezo Mostaza Danica 220 G,4,1002.44,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00125,5492617236955,0,10669,Chimichurri Clasico VANOLI PET 350cc,1,1805.18,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00125,5492617236955,0,81,Manteca Ramolac 100 G,4,1946.34,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00126,5492617236955,0,11433,Aceituna Rellena c/Jamon Crudo 200G Gullo,3,6536.88,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00126,5492617236955,0,165,Ralladito Quesera 40 G,4,697.62,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00127,5492617413812,0,10282,Pan Trisalvado Light CORMILLOT 600g,1,3029.46,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00128,5492617413812,0,441,Aceitunas Premium T00 800G GULLO,2,8811.18,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00128,5492617413812,0,679,Salsa Filetto LIght CORMILLOT 340g,2,1495.50,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00128,5492617413812,0,272,Pure de Papas KNORR 125G,3,1914.18,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00128,5492617413812,0,11366,KNORR Caldo Verdura 24x2U,4,12185.38,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00129,5492617413812,0,1014,Bizcochuelo Coco Emeth 450G,4,1638.33,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00129,5492617413812,0,15195,Yogur Bebible Cremigal Banana 900g,5,1450.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00129,5492617413812,0,10500,Mani c/Cobertura Tio Cucho sab. Panceta 1 kg,5,4560.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00129,5492617413812,0,699,Cebollitas en Vinagre VANOLI Frasco 330 G,5,3019.93,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00130,5492998066543,0,356,Aderezo HELLMANN'S Mayonesa 118cc,5,794.21,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00130,5492998066543,0,12500,Mani c/Cobertura Tio Cucho sab. Pizza 1 kg,2,4560.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00130,5492998066543,0,81,Manteca Ramolac 100 G,2,1946.34,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00130,5492998066543,0,449,Zapallos en almibar 330G GULLO,4,6383.16,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00131,5492998066543,0,656,Aceituna Verde Desc. VANOLI 150g,1,1264.96,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00131,5492998066543,0,209,Grasa Marcrem 500 G,3,3209.76,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00131,5492998066543,0,684,Salsa Soja VANOLI 190cc PET,2,1553.78,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00132,5492998066543,0,319,Queso Parmesano La Quesera Kg,5,25316.22,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00133,5492999435946,0,352,Queso Provoleta La Varense KG,5,21750.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00133,5492999435946,0,2190,Mermelada Vidrio Zapallo Dulcor 454G,5,2036.93,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00133,5492999435946,0,202,Queso Untable Tonadita Clasico 180G,5,1704.07,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00133,5492999435946,0,12309,Tostadas C/Salvado CORMILLOT 200G,5,1569.28,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00134,5492999435946,0,918,Pimienta Blanca Molida 25g CENTURION,4,1453.26,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00134,5492999435946,0,16132,Mermelada Light Batata CORMILLOT 390G,4,2242.81,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00135,5492999435946,0,263,Queso Holanda Arroyo Cabral HORMA,5,15463.11,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00135,5492999435946,0,11109,Mermelada Pote HIGO Dulcor 500G,3,1765.21,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00135,5492999435946,0,10483,Queso Saborizado Oregano LW,5,22283.64,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00136,5493416524997,0,23,Crema Chantilly Tonadita 250G,5,6292.29,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00136,5493416524997,0,901,Semoladas La Berlinesa,2,2262.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00136,5493416524997,0,10309,Tostadas Dulces VENEZIANA 200G,3,1569.28,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00136,5493416524997,0,282,Pan Trisalvado Light CORMILLOT 360g,2,1803.52,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00137,5493416524997,0,10676,Salsa Caesar Vanoli PET 350 gr,4,3200.57,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00137,5493416524997,0,144,Queso Cremoso Cremigal x KG,3,8800.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00138,5493416524997,0,1131,Crema BALDE TONADITA 4 LTS,4,31248.84,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00138,5493416524997,0,724,Sachichon Primavera PIAMONTESA KG,1,6540.04,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00138,5493416524997,0,16,Gelatina Anana VIT Emeth 70G,1,895.79,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00138,5493416524997,0,10381,Knorr Sabor Pollo LIM/OREG 21g + Bolsa,2,2530.14,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00139,5493517632424,0,10650,Aceituna Negra VANOLI Doy Pack 180/300 G,1,2098.20,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00139,5493517632424,0,12168,Salame Pepperoni FOX,3,19400.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00139,5493517632424,0,885,Queso Cuartirolo TREMBLAY Horma,3,7900.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00140,5493517632424,0,1178,Grasa de Cerdo ESANI 500g,4,2672.84,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00141,5493517632424,0,670,Salsa Criolla VANOLI 190cc,5,1444.15,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00141,5493517632424,0,440,Pasta de Ajo 200G Gullo,4,5564.16,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00141,5493517632424,0,2090,Mermelada S/AZUCAR Higo CORMILLOT 390G,1,2815.34,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00142,5493519107005,0,358,Aderezo HELLMANN'S Ketchup 60G,3,775.87,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00142,5493519107005,0,440,Pasta de Ajo 200G Gullo,1,5564.16,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00143,5493519107005,0,705,Aceite de Oliva Extra Virgen CORMILLOT 500cc,5,14549.75,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00143,5493519107005,0,721,"Fiambre P. de Cerdo ""131"" KG",2,6700.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00143,5493519107005,0,97,Matambre de Carne FOX,5,24600.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00144,5493519107005,0,10356,Aderezo HELLMANN'S Mayonesa 237G,2,1442.09,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00145,5493874104594,0,10320,Queso Sardo Los Tauritos KG NEGRO,2,13200.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00145,5493874104594,0,500,Mani c/Cobertura Tio Cucho sab. Jamon 1 kg,4,4560.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00146,5493874104594,0,10483,Queso Saborizado Oregano LW,1,22283.64,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00147,5493874104594,0,10850,Tapa Empanada Villa D'agri Horno 300G,5,1376.61,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00147,5493874104594,0,880,Queso Cremoso Tremblay Horma,5,8700.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00148,5493876499570,0,10658,Aceituna Verde Rellena VANOLI Doy Pack 200/300 G,5,2262.19,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00148,5493876499570,0,1037,Crema DOBLE Cremigal 190 G,5,1833.33,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00148,5493876499570,0,20117,Manteca Tonadita 100 x 10 G,3,13865.74,2,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00149,5493876499570,0,10170,Salamin Fox Tira Picado Grueso,3,15300.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00149,5493876499570,0,926,Azucar Impalpable 200g CENTURION,2,637.47,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00149,5493876499570,0,673,Salsa p/pizza VANOLI Frasco 340 G,2,1495.50,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00149,5493876499570,0,1990,Mermelada S/AZUCAR Frutilla CORMILLOT 390G,2,3731.31,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00150,5493876499570,0,197,Yogur Colchon de Frutillas RAMOLAC 160g,4,953.67,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00150,5493876499570,0,11932,Caldo de Verduras x12u CENTURION,3,1511.95,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00150,5493876499570,0,255,Salsa Cheddar Tonadita Americano 3 Kg,4,22764.27,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00151,5493587905250,25001,44,Dulce de Leche Cremigal Familiar 250 G,3,1281.43,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad) | promo Cremigal 15% OFF,true,true,true
+P-00151,5493587905250,25001,942,Laurel 10g Centurion,3,700.58,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00151,5493587905250,25001,10727,Caja Salchichas PANCHIN x32u,2,34600.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00152,5493582641213,25002,264,Queso Romanito Arroyo Cabral HORMA,1,19135.72,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00152,5493582641213,25002,658,Aceituna Verde Rellena VANOLI 150g,4,1138.07,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00153,5492991227644,25003,11500,Mani c/Cobertura Tio Cucho sab. Queso 1 kg,4,4560.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00153,5492991227644,25003,10109,Mermelada Pote NARANJA Dulcor 500G,1,1419.86,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00154,5493418277249,25004,926,Azucar Impalpable 200g CENTURION,4,637.47,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00154,5493418277249,25004,201,Queso Untable Cremigal Azul 190g,3,1759.67,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00154,5493418277249,25004,337,Dulce de Membrillo EMETH 500g,3,1463.82,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00154,5493418277249,25004,88,Margarina Soft Light 200 G,2,2953.28,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00155,5493587747641,25005,1037,Crema DOBLE Cremigal 190 G,4,1833.33,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00155,5493587747641,25005,888,Queso Criollo TREMBLAY,5,19486.26,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00156,5492614053074,25006,900,Bizcochitos La Berlinesa 220 G,1,2262.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00156,5492614053074,25006,10943,Condimento P/Aves 25g Centurion,3,631.95,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00156,5492614053074,25006,432,Aceituna Rellena c/parmesano 200G Gullo,3,6434.82,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00157,5493514079279,25007,10684,Salsa Soja Light CORMILLOT 190cc PET,5,1553.78,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00157,5493514079279,25007,64,Jamon Crudo FOX KG,4,41600.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00157,5493514079279,25007,10278,Pan Integral CORMILLOT 630 G,3,3150.64,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false

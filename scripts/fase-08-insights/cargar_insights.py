@@ -128,7 +128,16 @@ async def main_async(esquema: str) -> None:
         raise SystemExit("[FAIL] El CSV de fase 8 esta vacio.")
 
     # Pooler 6543: cache de sentencias desactivado (regla supabase-mcp-connections).
-    conn = await asyncpg.connect(db_url, statement_cache_size=0)
+    conn = None
+    for attempt in range(5):
+        try:
+            conn = await asyncpg.connect(db_url, statement_cache_size=0)
+            break
+        except Exception as exc:
+            if attempt == 4:
+                raise
+            await asyncio.sleep(2 * (attempt + 1))
+            
     try:
         await conn.execute(f"SET search_path TO {esquema}, core, public, extensions")
 
@@ -193,54 +202,32 @@ async def main_async(esquema: str) -> None:
 
         conversation_cache: dict[str, int] = {}
 
-        async def get_conversation_id(session: str) -> int:
-            cached = conversation_cache.get(session)
-            if cached is not None:
-                return cached
-            conv_id = await conn.fetchval(
+        # Pre-seed all sessions for chat history in bulk
+        chat_sessions = list({row.get("client_phone", "") for row in rows if row.get("client_phone")})
+        if chat_sessions:
+            await conn.executemany(
                 """
                 INSERT INTO core.conversations (tenant_id, schema_name, session_id)
                 VALUES ($1, $2, $3)
                 ON CONFLICT (tenant_id, session_id)
                 DO UPDATE SET updated_at = now(), schema_name = EXCLUDED.schema_name
-                RETURNING id
                 """,
-                tenant_id,
-                esquema,
-                session,
+                [(tenant_id, esquema, s) for s in chat_sessions],
             )
-            conversation_cache[session] = int(conv_id)
-            return int(conv_id)
 
-        async def insert_cross_event(*, session: str, role: str, txt: str, when, extra: dict) -> None:
-            event_type = "user_message" if role == "human" else "assistant_message"
-            payload = {
-                "text": txt,
-                "is_mock": True,
-                "origin": "fase-08-insights",
-                "sender_type": role,
-                "session_id": session,
-                "client_phone": session,
-                **extra,
-            }
-            conversation_id = await get_conversation_id(session)
-            await conn.execute(
-                """
-                INSERT INTO core.conversation_events
-                (tenant_id, conversation_id, request_id, event_type, event_payload, created_at)
-                VALUES ($1, $2, $3, $4, $5::jsonb, $6)
-                """,
-                tenant_id,
-                conversation_id,
-                f"mock-fase08-{session}-{role}-{extra.get('ticket_ref', '')}",
-                event_type,
-                json.dumps(payload, ensure_ascii=False),
-                when,
-            )
+        session_rows = await conn.fetch(
+            "SELECT session_id, id FROM core.conversations WHERE tenant_id = $1 AND schema_name = $2",
+            tenant_id,
+            esquema,
+        )
+        conversation_cache: dict[str, int] = {r["session_id"]: r["id"] for r in session_rows}
 
         inserted_tickets = 0
         inserted_chats = 0
-        cross_rows = [row for row in rows if row.get("mensaje_cruzado_incoming")]
+        
+        ticket_sql_template = None
+        ticket_params_list = []
+        chat_events_list = []
 
         for row in rows:
             client_phone = row.get("client_phone", "")
@@ -256,36 +243,49 @@ async def main_async(esquema: str) -> None:
             if status not in {"open", "closed"}:
                 raise SystemExit(f"[FAIL] status invalido en CSV de fase 8: {status!r}")
 
-            values: dict[str, object] = {
-                ticket_client_col: ticket_client_value,
-                ticket_desc_col: row.get("description", ""),
-                ticket_status_col: status,
-                ticket_created_col: created_at,
-                ticket_mock_col: parse_bool(row.get("is_mock", "true")),
-            }
-            if ticket_closed_col and closed_at:
-                values[ticket_closed_col] = closed_at
+            target_cols = [ticket_client_col, ticket_desc_col, ticket_status_col, ticket_created_col, ticket_mock_col]
+            if ticket_closed_col:
+                target_cols.append(ticket_closed_col)
 
-            sql, params = build_insert_sql(esquema, ticket_table, ticket_cols, values)
-            await conn.fetchval(sql, *params)
+            if ticket_sql_template is None:
+                placeholders = ", ".join(f"${idx+1}" for idx in range(len(target_cols)))
+                ticket_sql_template = f"INSERT INTO {table_name(esquema, ticket_table)} ({', '.join(target_cols)}) VALUES ({placeholders})"
+
+            params = [ticket_client_value, row.get("description", ""), status, created_at, parse_bool(row.get("is_mock", "true"))]
+            if ticket_closed_col:
+                params.append(closed_at)
+            ticket_params_list.append(params)
             inserted_tickets += 1
 
             incoming = row.get("mensaje_cruzado_incoming", "").strip()
-            if incoming:
+            if incoming and client_phone in conversation_cache:
                 categoria = row.get("categoria", "")
                 ticket_ref = row.get("ticket_ref", "")
+                conv_id = conversation_cache[client_phone]
 
-                # 1. Mensaje entrante del Humano (user_message en core)
-                await insert_cross_event(
-                    session=client_phone,
-                    role="human",
-                    txt=incoming,
-                    when=created_at + timedelta(minutes=15),
-                    extra={"ticket_ref": ticket_ref, "categoria": categoria, "status": status},
-                )
+                # 1. Incoming human message
+                human_payload = {
+                    "text": incoming,
+                    "is_mock": True,
+                    "origin": "fase-08-insights",
+                    "sender_type": "human",
+                    "session_id": client_phone,
+                    "client_phone": client_phone,
+                    "ticket_ref": ticket_ref,
+                    "categoria": categoria,
+                    "status": status,
+                }
+                chat_events_list.append((
+                    tenant_id,
+                    conv_id,
+                    f"mock-fase08-{client_phone}-human-{ticket_ref}",
+                    "user_message",
+                    json.dumps(human_payload, ensure_ascii=False),
+                    created_at + timedelta(minutes=15),
+                ))
                 inserted_chats += 1
 
-                # 2. Mensaje saliente de la IA (assistant_message en core)
+                # 2. Outgoing AI message
                 if categoria == "Calidad":
                     ai_reply = f"Hola, disculpas por el inconveniente. Registré tu reclamo por la calidad del producto con el ticket {ticket_ref}. Un asesor se contactará a la brevedad."
                 elif categoria == "Logistica":
@@ -293,14 +293,39 @@ async def main_async(esquema: str) -> None:
                 else:
                     ai_reply = f"Hola, recibí tu mensaje. Generé un ticket de soporte con la referencia {ticket_ref} para dar seguimiento a tu caso. Un asesor se comunicará pronto."
 
-                await insert_cross_event(
-                    session=client_phone,
-                    role="ai",
-                    txt=ai_reply,
-                    when=created_at + timedelta(minutes=16),
-                    extra={"ticket_ref": ticket_ref, "categoria": categoria, "status": status},
-                )
+                ai_payload = {
+                    "text": ai_reply,
+                    "is_mock": True,
+                    "origin": "fase-08-insights",
+                    "sender_type": "ai",
+                    "session_id": client_phone,
+                    "client_phone": client_phone,
+                    "ticket_ref": ticket_ref,
+                    "categoria": categoria,
+                    "status": status,
+                }
+                chat_events_list.append((
+                    tenant_id,
+                    conv_id,
+                    f"mock-fase08-{client_phone}-ai-{ticket_ref}",
+                    "assistant_message",
+                    json.dumps(ai_payload, ensure_ascii=False),
+                    created_at + timedelta(minutes=16),
+                ))
                 inserted_chats += 1
+
+        if ticket_sql_template and ticket_params_list:
+            await conn.executemany(ticket_sql_template, ticket_params_list)
+
+        if chat_events_list:
+            await conn.executemany(
+                """
+                INSERT INTO core.conversation_events
+                (tenant_id, conversation_id, request_id, event_type, event_payload, created_at)
+                VALUES ($1, $2, $3, $4, $5::jsonb, $6)
+                """,
+                chat_events_list,
+            )
 
         total_tickets = await conn.fetchval(
             f"SELECT COUNT(*) FROM {table_name(esquema, ticket_table)} WHERE is_mock = true"
@@ -326,6 +351,7 @@ async def main_async(esquema: str) -> None:
         print(f"  Chats cruzados:       {inserted_chats}")
         print(f"  Chats mock fase 8:    {total_chats}")
         print("=" * 72)
+        cross_rows = [row for row in rows if row.get("mensaje_cruzado_incoming")]
         if len(cross_rows) < 3:
             print("[WARN] Hay menos de 3 tickets abiertos con mensaje cruzado.")
 

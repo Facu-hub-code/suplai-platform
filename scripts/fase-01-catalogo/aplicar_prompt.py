@@ -49,7 +49,8 @@ async def aplicar_prompt(esquema: str):
     reglas_negocio = json.dumps(config["reglas_negocio"])
     agent_phone_number = str(config["agent_phone_number"])
 
-    conn = await asyncpg.connect(db_url)
+    # Puerto 6543 (Transaction Mode): desactivar cache de prepared statements
+    conn = await asyncpg.connect(db_url, statement_cache_size=0)
     try:
         print(f"[*] Actualizando public.distribuidoras para el esquema: {esquema}...")
         
