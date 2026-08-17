@@ -1,0 +1,4 @@
+lista_precios_id,nombre,descripcion,origen_excel,is_mock
+1,Mayorista,Lista mayorista / revendedores (precioventa2),precioventa2,true
+2,Intermedia,Lista intermedia (precioventa3),precioventa3,true
+3,Público,Lista público / mostrador (precioventa5),precioventa5,true

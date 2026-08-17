@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Limpieza Total,25001,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493582641213,Pro Limpio,25002,validado,2026-08-17T14:55:05.287509+00:00,,false
+5492991227644,Hogar Brillante,25003,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493418277249,Todo en Limpieza,25004,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493587747641,Soluciones de Mantenimiento,25005,validado,2026-08-17T14:55:05.287509+00:00,,false
+5492614053074,Insumos y Más,25006,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493514079279,Limpieza Express,25007,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493876914178,Mantenimiento Eficaz,25008,validado,2026-08-17T14:55:05.287509+00:00,,false
+5492617175545,Productos del Hogar,25009,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493818437953,Limpieza y Cuidado,25010,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493582132179,Fábrica de Jabones,25011,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493872845902,Limpieza Profunda,25012,validado,2026-08-17T14:55:05.287509+00:00,,false
+5492997670210,Todo para el Hogar,25013,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493811657614,Insumos de Calidad,25014,validado,2026-08-17T14:55:05.287509+00:00,,false
+5492994145193,Limpieza Profesional,25015,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493515971311,Hogar Limpio,25016,validado,2026-08-17T14:55:05.287509+00:00,,false
+5492994228106,Brillo Natural,25017,validado,2026-08-17T14:55:05.287509+00:00,,false
+5492998718887,Limpieza Segura,25018,validado,2026-08-17T14:55:05.287509+00:00,,false
+5492995028869,Limpieza y Mantenimiento,25019,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493517304254,Todo Limpio,25020,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493416986538,Limpieza Verde,25021,validado,2026-08-17T14:55:05.287509+00:00,,false
+5492619239862,Limpieza Fácil,25022,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493513952681,Soluciones de Limpieza,25023,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493414799650,Limpieza y Cuidado del Hogar,25024,validado,2026-08-17T14:55:05.287509+00:00,,false
+5492992500733,Limpieza Industrial,25025,validado,2026-08-17T14:55:05.287509+00:00,,false
+5492615139305,Limpieza y Desinfección,25026,validado,2026-08-17T14:55:05.287509+00:00,,false
+5492618861463,Insumos para la Limpieza,25027,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493812941974,Limpieza de Oficinas,25028,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493817404433,Limpieza de Espacios,25029,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493419686914,Productos de Mantenimiento,25030,validado,2026-08-17T14:55:05.287509+00:00,,false
+5493518648263,Limpieza de Pisos,25031,existente,,,false
+5493516216782,Limpieza de Ventanas,25032,existente,,,false
+5492612780568,Limpieza de Alfombras,25033,existente,,,false
+5493582639964,Limpieza de Baños,25034,existente,,,false
+5493814729528,Limpieza de Cocinas,25035,existente,,,false
+5493876922419,Limpieza de Muebles,25036,existente,,,false
+5492618889598,Limpieza de Superficies,25037,existente,,,false
+5492615021286,Limpieza de Equipos,25038,existente,,,false
+5493813520000,Limpieza de Maquinaria,25039,existente,,,false
+5492997489876,Limpieza de Vehículos,25040,existente,,,false
+5493519107005,Limpieza de Áreas Exteriores,0,no_validado,,PROSPECTO,true
+5493874104594,Limpieza de Áreas Comunes,0,existente,,PROSPECTO,true
+5492617413812,Limpieza de Espacios Públicos,0,no_validado,,PROSPECTO,true
+5492617236955,Limpieza de Espacios Privados,0,existente,,PROSPECTO,true
+5492612928724,Limpieza de Eventos,0,no_validado,,PROSPECTO,true
+5492999435946,Limpieza de Obras,0,validado,2026-08-17T14:55:05.287509+00:00,PROSPECTO,true
+5493517632424,Limpieza de Construcción,0,no_existente,,PROSPECTO,true
+5493416524997,Limpieza de Restaurantes,0,no_validado,,PROSPECTO,true
+5493876499570,Limpieza de Hoteles,0,existente,,PROSPECTO,true
+5492998066543,Limpieza de Hospitales,0,no_validado,,PROSPECTO,true

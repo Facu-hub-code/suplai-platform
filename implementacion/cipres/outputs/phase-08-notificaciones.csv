@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2156,Calidad,open,Reclamo por SAHUMERIOS TIBETANOS SLIM X 10V AROMANZA (4) con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego SAHUMERIOS TIBETANOS SLIM X 10V AROMANZA (4) en mal estado y quiero hacer el reclamo.",2026-08-17 11:15:00,,true
+TKT-2157,Calidad,open,Reclamo por DIFUSOR PARA AUTOS AROMANZA - COCONUT con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego DIFUSOR PARA AUTOS AROMANZA - COCONUT en mal estado y quiero hacer el reclamo.",2026-08-16 08:15:00,,true
+TKT-2158,Calidad,open,Reclamo por TAPER TARRO FLIP TOP 1.7 LTS CILINDRICO con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego TAPER TARRO FLIP TOP 1.7 LTS CILINDRICO en mal estado y quiero hacer el reclamo.",2026-08-15 05:15:00,,true
+TKT-2159,Logistica,open,Demora en la entrega del pedido P-00151 de AEROSOL SAPHIRUS.,5493418277249,"Buen dia, sigo esperando el pedido P-00151 de AEROSOL SAPHIRUS y no llego.",2026-08-17 02:15:00,,true
+TKT-2160,Logistica,open,Demora en la entrega del pedido P-00123 de LIMPIA METALES BRASSO.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de LIMPIA METALES BRASSO y no llego.",2026-08-16 11:15:00,,true
+TKT-2161,Logistica,open,Demora en la entrega del pedido P-00126 de DISPENSER TOALLA INTERC. DELUXE.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de DISPENSER TOALLA INTERC. DELUXE y no llego.",2026-08-15 08:15:00,,true
+TKT-2162,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Limpieza Total.,5493587905250,,2026-08-17 05:15:00,,true
+TKT-2163,Administracion,open,Solicita corregir datos administrativos de Pro Limpio en el sistema.,5493582641213,,2026-08-16 02:15:00,,true
+TKT-2164,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Hogar Brillante.,5492991227644,,2026-08-15 11:15:00,,true
+TKT-2165,Administracion,open,Solicita corregir datos administrativos de Todo en Limpieza en el sistema.,5493418277249,,2026-08-17 08:15:00,,true
+TKT-2166,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Limpieza de Eventos.,5492612928724,,2026-08-16 05:15:00,,true
+TKT-2167,Administracion,closed,Solicita corregir datos administrativos de Limpieza de Espacios Privados en el sistema.,5492617236955,,2026-08-01 05:15:00,2026-08-01 20:15:00,true
+TKT-2168,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Limpieza de Espacios Públicos.,5492617413812,,2026-07-31 11:15:00,2026-08-01 03:15:00,true
+TKT-2169,Logistica,closed,Demora en la entrega del pedido P-00132 de RATAK RATICIDA X 50GR.,5492998066543,,2026-07-30 09:15:00,2026-07-31 02:15:00,true
+TKT-2170,Calidad,closed,Reclamo por SAHUMERIOS HEXAGONAL - LAVANDA con entrega en mal estado o faltante parcial.,5492999435946,,2026-07-29 07:15:00,2026-07-30 01:15:00,true
+TKT-2171,Administracion,closed,Solicita corregir datos administrativos de Soluciones de Mantenimiento en el sistema.,5493587747641,,2026-07-28 05:15:00,2026-07-29 00:15:00,true
+TKT-2172,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Insumos y Más.,5492614053074,,2026-08-12 11:15:00,2026-08-13 07:15:00,true
+TKT-2173,Logistica,closed,Demora en la entrega del pedido P-00157 de ESENCIA PARA HORNITO SAPHIRUS - RUDA Y ROM.,5493514079279,,2026-08-11 09:15:00,2026-08-12 06:15:00,true

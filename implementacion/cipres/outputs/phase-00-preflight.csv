@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: f6c0131c-8546-487a-87c7-91372014bd2e | nombre: Cipres | activa: true | created_at: 2026-08-15
+schema_existe,Tablas en cipres,ok,schema cipres verificado (67 tablas incl. productos; clients; listas_precios; precios_productos; productos_aliases)
+productos_vacio,COUNT productos = 0,ok,0 productos
+clients_vacio,COUNT clients = 0,ok,0 clientes
+mcp_conectado,MCP supabase responde,ok,conectado proyecto cvlbietibaaehgeimxgw
+carpeta_implementacion,manifest.yaml presente,ok,implementacion/cipres/manifest.yaml
+is_mock_column,Columna is_mock en productos,ok,is_mock presente en cipres.productos y cipres.clients
+excel_presente,Archivo en inputs/,ok,inputs/cipres-listadodeprecios.xls (3372 filas; 3 listas precioventa2/3/5; sin SKU)
