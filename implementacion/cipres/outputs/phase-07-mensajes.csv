@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5492612780568,5492612780568,ai,ai,"Hola Limpieza de Alfombras, paso a revisar tu pedido P-00099 de CLIP VULCANO.","Hola Limpieza de Alfombras, paso a revisar tu pedido P-00099 de CLIP VULCANO.",2026-08-16 09:57:59,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 09:59:28,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 36483.00.,Te confirmo que el pedido P-00099 fue registrado correctamente por 36483.00.,2026-08-16 10:00:24,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 10:01:33,true
+5492612928724,5492612928724,ai,ai,"Hola Limpieza de Eventos, paso a revisar tu pedido P-00123 de LIMPIA METALES BRASSO.","Hola Limpieza de Eventos, paso a revisar tu pedido P-00123 de LIMPIA METALES BRASSO.",2026-08-17 11:57:59,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-17 11:58:44,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 26296.00.,Te confirmo que el pedido P-00123 fue registrado correctamente por 26296.00.,2026-08-17 11:59:17,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-17 12:00:50,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-17 12:01:46,true
+5492614053074,5492614053074,ai,ai,"Hola Insumos y Más, vi que tenes un pedido abierto por BALDE HERALDPLAST X 10 LTS TRASLUCIDO / GARDENLIFE y queria ayudarte a cerrarlo.","Hola Insumos y Más, vi que tenes un pedido abierto por BALDE HERALDPLAST X 10 LTS TRASLUCIDO / GARDENLIFE y queria ayudarte a cerrarlo.",2026-08-17 08:57:59,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-17 08:59:37,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 16300.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 16300.00. Si queres te lo dejo cerrado hoy.,2026-08-17 09:00:13,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-17 09:01:31,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-17 09:02:48,true
+5492615021286,5492615021286,ai,ai,"Hola Limpieza de Equipos, paso a revisar tu pedido P-00112 de DIFUSOR SAPHIRUS 120CC - NARANJA CH.","Hola Limpieza de Equipos, paso a revisar tu pedido P-00112 de DIFUSOR SAPHIRUS 120CC - NARANJA CH.",2026-08-15 09:57:59,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 09:59:48,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 26400.00.,Te confirmo que el pedido P-00112 fue registrado correctamente por 26400.00.,2026-08-15 10:00:36,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 10:01:19,true
+5492615139305,5492615139305,ai,ai,"Hola Limpieza y Desinfección, paso a revisar tu pedido P-00076 de DETERGENTE MAGISTRAL 300CC - LIMON.","Hola Limpieza y Desinfección, paso a revisar tu pedido P-00076 de DETERGENTE MAGISTRAL 300CC - LIMON.",2026-08-15 11:57:59,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 11:59:06,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 32800.00.,Te confirmo que el pedido P-00076 fue registrado correctamente por 32800.00.,2026-08-15 12:00:23,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 12:01:06,true
+5492617175545,5492617175545,ai,ai,"Hola Productos del Hogar, paso a revisar tu pedido P-00027 de ESPONJA ACERO INOXIDABLE 30 GR SAMANTHA.","Hola Productos del Hogar, paso a revisar tu pedido P-00027 de ESPONJA ACERO INOXIDABLE 30 GR SAMANTHA.",2026-08-16 08:57:59,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 08:59:28,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 348.00.,Te confirmo que el pedido P-00027 fue registrado correctamente por 348.00.,2026-08-16 09:00:17,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 09:01:36,true
+5492617236955,5492617236955,ai,ai,"Hola Limpieza de Espacios Privados, paso a revisar tu pedido P-00126 de DISPENSER TOALLA INTERC. DELUXE.","Hola Limpieza de Espacios Privados, paso a revisar tu pedido P-00126 de DISPENSER TOALLA INTERC. DELUXE.",2026-08-17 10:57:59,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-17 10:58:50,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 562090.00.,Te confirmo que el pedido P-00126 fue registrado correctamente por 562090.00.,2026-08-17 10:59:37,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-17 11:00:26,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-17 11:01:16,true
+5492617413812,5492617413812,ai,ai,"Hola Limpieza de Espacios Públicos, paso a revisar tu pedido P-00129 de SUAVIZANTE DOWNY BOTELLA 450/500CC - ADORAVEL.","Hola Limpieza de Espacios Públicos, paso a revisar tu pedido P-00129 de SUAVIZANTE DOWNY BOTELLA 450/500CC - ADORAVEL.",2026-08-17 09:57:59,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-17 09:59:49,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 46330.00.,Te confirmo que el pedido P-00129 fue registrado correctamente por 46330.00.,2026-08-17 10:01:06,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-17 10:02:01,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-17 10:03:13,true
+5492618861463,5492618861463,ai,ai,"Hola Insumos para la Limpieza, paso a revisar tu pedido P-00079 de HOME SPRAY 500CC - FLOR DE LO.","Hola Insumos para la Limpieza, paso a revisar tu pedido P-00079 de HOME SPRAY 500CC - FLOR DE LO.",2026-08-16 10:57:59,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 10:59:25,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 71860.00.,Te confirmo que el pedido P-00079 fue registrado correctamente por 71860.00.,2026-08-16 10:59:58,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 11:01:28,true
+5492618889598,5492618889598,ai,ai,"Hola Limpieza de Superficies, paso a revisar tu pedido P-00110 de NIVEA PROTECTOR SOLAR & BRONCEADOR FPS30 X 200.","Hola Limpieza de Superficies, paso a revisar tu pedido P-00110 de NIVEA PROTECTOR SOLAR & BRONCEADOR FPS30 X 200.",2026-08-16 10:57:59,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 10:59:34,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 153115.00.,Te confirmo que el pedido P-00110 fue registrado correctamente por 153115.00.,2026-08-16 11:00:31,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 11:01:33,true
+5492619239862,5492619239862,ai,ai,"Hola Limpieza Fácil, paso a revisar tu pedido P-00066 de BOMBA PISCINA VULCANO BAE 050 - 0.50 HP.","Hola Limpieza Fácil, paso a revisar tu pedido P-00066 de BOMBA PISCINA VULCANO BAE 050 - 0.50 HP.",2026-08-15 10:57:59,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 10:59:43,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 965486.00.,Te confirmo que el pedido P-00066 fue registrado correctamente por 965486.00.,2026-08-15 11:01:11,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 11:01:50,true
+5492991227644,5492991227644,ai,ai,"Hola Hogar Brillante, vi que tenes un pedido abierto por TAPER TARRO FLIP TOP 1.7 LTS CILINDRICO y queria ayudarte a cerrarlo.","Hola Hogar Brillante, vi que tenes un pedido abierto por TAPER TARRO FLIP TOP 1.7 LTS CILINDRICO y queria ayudarte a cerrarlo.",2026-08-17 11:57:59,true
+5492991227644,5492991227644,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-17 11:59:39,true
+5492991227644,5492991227644,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-08-17 12:00:58,true
+5492991227644,5492991227644,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-17 12:02:23,true
+5492991227644,5492991227644,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-17 12:03:28,true
+5492992500733,5492992500733,ai,ai,"Hola Limpieza Industrial, paso a revisar tu pedido P-00073 de PERNO CORTO X 2 VULCANO.","Hola Limpieza Industrial, paso a revisar tu pedido P-00073 de PERNO CORTO X 2 VULCANO.",2026-08-16 07:57:59,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 07:59:42,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 27688.00.,Te confirmo que el pedido P-00073 fue registrado correctamente por 27688.00.,2026-08-16 08:00:20,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 08:01:07,true
+5492994145193,5492994145193,ai,ai,"Hola Limpieza Profesional, paso a revisar tu pedido P-00045 de LAMPAZO PROF BARREDOR 45CM ACRIL.","Hola Limpieza Profesional, paso a revisar tu pedido P-00045 de LAMPAZO PROF BARREDOR 45CM ACRIL.",2026-08-16 07:57:59,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 07:59:00,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 93980.00.,Te confirmo que el pedido P-00045 fue registrado correctamente por 93980.00.,2026-08-16 08:00:07,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 08:01:32,true
+5492994228106,5492994228106,ai,ai,"Hola Brillo Natural, paso a revisar tu pedido P-00051 de REPASADOR MUNDIAL LINEA 10.","Hola Brillo Natural, paso a revisar tu pedido P-00051 de REPASADOR MUNDIAL LINEA 10.",2026-08-16 10:57:59,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 10:59:18,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 6920.00.,Te confirmo que el pedido P-00051 fue registrado correctamente por 6920.00.,2026-08-16 10:59:52,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 11:00:33,true
+5492995028869,5492995028869,ai,ai,"Hola Limpieza y Mantenimiento, paso a revisar tu pedido P-00057 de JABON LIQUIDO PARA DILUIR ALA X 500CC - MAXIMA BLANCURA.","Hola Limpieza y Mantenimiento, paso a revisar tu pedido P-00057 de JABON LIQUIDO PARA DILUIR ALA X 500CC - MAXIMA BLANCURA.",2026-08-16 08:57:59,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 08:59:24,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 272510.00.,Te confirmo que el pedido P-00057 fue registrado correctamente por 272510.00.,2026-08-16 08:59:54,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 09:01:08,true
+5492997489876,5492997489876,ai,ai,"Hola Limpieza de Vehículos, paso a revisar tu pedido P-00118 de SUAVIZANTE X 5LT AMAR/ROS/CELES.","Hola Limpieza de Vehículos, paso a revisar tu pedido P-00118 de SUAVIZANTE X 5LT AMAR/ROS/CELES.",2026-08-15 07:57:59,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 07:59:40,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 39500.00.,Te confirmo que el pedido P-00118 fue registrado correctamente por 39500.00.,2026-08-15 08:00:32,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 08:01:22,true
+5492997670210,5492997670210,ai,ai,"Hola Todo para el Hogar, paso a revisar tu pedido P-00037 de HIGIENICO ELEGANTE 30MT X 4.","Hola Todo para el Hogar, paso a revisar tu pedido P-00037 de HIGIENICO ELEGANTE 30MT X 4.",2026-08-16 09:57:59,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 09:59:06,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 1056.00.,Te confirmo que el pedido P-00037 fue registrado correctamente por 1056.00.,2026-08-16 09:59:53,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 10:00:54,true
+5492998066543,5492998066543,ai,ai,"Hola Limpieza de Hospitales, paso a revisar tu pedido P-00132 de RATAK RATICIDA X 50GR.","Hola Limpieza de Hospitales, paso a revisar tu pedido P-00132 de RATAK RATICIDA X 50GR.",2026-08-17 08:57:59,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-17 08:59:37,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 10420.00.,Te confirmo que el pedido P-00132 fue registrado correctamente por 10420.00.,2026-08-17 09:00:16,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-17 09:01:51,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-17 09:03:01,true
+5492998718887,5492998718887,ai,ai,"Hola Limpieza Segura, paso a revisar tu pedido P-00054 de ESENCIA PARA HORNITO SAPHIRUS - LIMON.","Hola Limpieza Segura, paso a revisar tu pedido P-00054 de ESENCIA PARA HORNITO SAPHIRUS - LIMON.",2026-08-15 09:57:59,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 09:59:56,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 13180.00.,Te confirmo que el pedido P-00054 fue registrado correctamente por 13180.00.,2026-08-15 10:00:42,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 10:01:48,true
+5492999435946,5492999435946,ai,ai,"Hola Limpieza de Obras, paso a revisar tu pedido P-00135 de SAHUMERIOS HEXAGONAL - LAVANDA.","Hola Limpieza de Obras, paso a revisar tu pedido P-00135 de SAHUMERIOS HEXAGONAL - LAVANDA.",2026-08-17 07:57:59,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-17 07:59:42,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 24630.00.,Te confirmo que el pedido P-00135 fue registrado correctamente por 24630.00.,2026-08-17 08:00:30,true
+5492999435946,5492999435946,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-17 08:02:16,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-17 08:02:48,true
+5493414799650,5493414799650,ai,ai,"Hola Limpieza y Cuidado del Hogar, paso a revisar tu pedido P-00071 de ORION SOLVER QUITAMANCHAS X 5LT.","Hola Limpieza y Cuidado del Hogar, paso a revisar tu pedido P-00071 de ORION SOLVER QUITAMANCHAS X 5LT.",2026-08-15 08:57:59,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 08:58:57,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 125012.00.,Te confirmo que el pedido P-00071 fue registrado correctamente por 125012.00.,2026-08-15 08:59:37,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 09:00:30,true
+5493416524997,5493416524997,ai,ai,"Hola Limpieza de Restaurantes, paso a revisar tu pedido P-00138 de BOLSAS 80X110 EXTRACONSORCIO X 10 UNID - 50 MIC.","Hola Limpieza de Restaurantes, paso a revisar tu pedido P-00138 de BOLSAS 80X110 EXTRACONSORCIO X 10 UNID - 50 MIC.",2026-08-15 11:57:59,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 11:58:50,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 23309.00.,Te confirmo que el pedido P-00138 fue registrado correctamente por 23309.00.,2026-08-15 11:59:49,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 12:00:56,true
+5493416986538,5493416986538,ai,ai,"Hola Limpieza Verde, paso a revisar tu pedido P-00063 de PERFUME TELAS CIPRES 500CC REPUESTO - PARFUM.","Hola Limpieza Verde, paso a revisar tu pedido P-00063 de PERFUME TELAS CIPRES 500CC REPUESTO - PARFUM.",2026-08-16 11:57:59,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 11:59:28,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 36430.00.,Te confirmo que el pedido P-00063 fue registrado correctamente por 36430.00.,2026-08-16 12:00:30,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 12:01:33,true
+5493418277249,5493418277249,ai,ai,"Hola Todo en Limpieza, vi que tenes un pedido abierto por AEROSOL SAPHIRUS y queria ayudarte a cerrarlo.","Hola Todo en Limpieza, vi que tenes un pedido abierto por AEROSOL SAPHIRUS y queria ayudarte a cerrarlo.",2026-08-17 10:57:59,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-08-17 10:59:56,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,2026-08-17 11:01:10,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-17 11:02:51,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-17 11:04:01,true
+5493419686914,5493419686914,ai,ai,"Hola Productos de Mantenimiento, paso a revisar tu pedido P-00090 de SAHUMERIOS HEXAGONAL - VAINILL.","Hola Productos de Mantenimiento, paso a revisar tu pedido P-00090 de SAHUMERIOS HEXAGONAL - VAINILL.",2026-08-15 07:57:59,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 07:58:55,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 2280.00.,Te confirmo que el pedido P-00090 fue registrado correctamente por 2280.00.,2026-08-15 08:00:19,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 08:01:42,true
+5493513952681,5493513952681,ai,ai,"Hola Soluciones de Limpieza, paso a revisar tu pedido P-00068 de TOA FEM ALWAYS XTRA PROT SUAVE X 8.","Hola Soluciones de Limpieza, paso a revisar tu pedido P-00068 de TOA FEM ALWAYS XTRA PROT SUAVE X 8.",2026-08-16 09:57:59,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 09:59:09,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 6419.12.,Te confirmo que el pedido P-00068 fue registrado correctamente por 6419.12.,2026-08-16 10:00:20,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 10:01:18,true
+5493514079279,5493514079279,ai,ai,"Hola Limpieza Express, vi que tenes un pedido abierto por ESENCIA PARA HORNITO SAPHIRUS - RUDA Y ROM y queria ayudarte a cerrarlo.","Hola Limpieza Express, vi que tenes un pedido abierto por ESENCIA PARA HORNITO SAPHIRUS - RUDA Y ROM y queria ayudarte a cerrarlo.",2026-08-17 07:57:59,true
+5493514079279,5493514079279,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-17 07:59:47,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 11874.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 11874.00. Si queres te lo dejo cerrado hoy.,2026-08-17 08:01:02,true
+5493514079279,5493514079279,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-17 08:02:04,true
+5493514079279,5493514079279,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-17 08:03:08,true
+5493515971311,5493515971311,ai,ai,"Hola Hogar Limpio, paso a revisar tu pedido P-00048 de HOME SPRAY 500CC - LINO Y PEO.","Hola Hogar Limpio, paso a revisar tu pedido P-00048 de HOME SPRAY 500CC - LINO Y PEO.",2026-08-15 11:57:59,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 11:59:07,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 66540.00.,Te confirmo que el pedido P-00048 fue registrado correctamente por 66540.00.,2026-08-15 12:00:25,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 12:01:03,true
+5493516216782,5493516216782,ai,ai,"Hola Limpieza de Ventanas, paso a revisar tu pedido P-00096 de PULVERIZADOR 1.5LT GIBER.","Hola Limpieza de Ventanas, paso a revisar tu pedido P-00096 de PULVERIZADOR 1.5LT GIBER.",2026-08-15 10:57:59,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 10:58:45,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 90000.00.,Te confirmo que el pedido P-00096 fue registrado correctamente por 90000.00.,2026-08-15 11:00:04,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 11:01:12,true
+5493517304254,5493517304254,ai,ai,"Hola Todo Limpio, paso a revisar tu pedido P-00060 de JABON LIQUIDO T/ARIEL ULTRA X 20LT.","Hola Todo Limpio, paso a revisar tu pedido P-00060 de JABON LIQUIDO T/ARIEL ULTRA X 20LT.",2026-08-15 07:57:59,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 07:59:48,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 12610.00.,Te confirmo que el pedido P-00060 fue registrado correctamente por 12610.00.,2026-08-15 08:00:40,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 08:01:54,true
+5493517632424,5493517632424,ai,ai,"Hola Limpieza de Construcción, paso a revisar tu pedido P-00141 de PERFUME TELAS AMBAR X 150CC - OLYMPIC.","Hola Limpieza de Construcción, paso a revisar tu pedido P-00141 de PERFUME TELAS AMBAR X 150CC - OLYMPIC.",2026-08-16 10:57:59,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 10:59:15,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 9883.00.,Te confirmo que el pedido P-00141 fue registrado correctamente por 9883.00.,2026-08-16 11:00:22,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 11:01:49,true
+5493518648263,5493518648263,ai,ai,"Hola Limpieza de Pisos, paso a revisar tu pedido P-00093 de CEPILLO DE DIENTES DISNEY X 3 - MANDALORIAN.","Hola Limpieza de Pisos, paso a revisar tu pedido P-00093 de CEPILLO DE DIENTES DISNEY X 3 - MANDALORIAN.",2026-08-16 11:57:59,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 11:59:52,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 43925.00.,Te confirmo que el pedido P-00093 fue registrado correctamente por 43925.00.,2026-08-16 12:01:05,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 12:02:30,true
+5493519107005,5493519107005,ai,ai,"Hola Limpieza de Áreas Exteriores, paso a revisar tu pedido P-00144 de TAPON BOTELLA SILICONA DE ANIMALES.","Hola Limpieza de Áreas Exteriores, paso a revisar tu pedido P-00144 de TAPON BOTELLA SILICONA DE ANIMALES.",2026-08-15 09:57:59,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 09:59:33,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 410.00.,Te confirmo que el pedido P-00144 fue registrado correctamente por 410.00.,2026-08-15 10:00:16,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 10:01:45,true
+5493582132179,5493582132179,ai,ai,"Hola Fábrica de Jabones, paso a revisar tu pedido P-00032 de BLEM MULTISUPERFICIE Y ELECTRONICO AEROSOL - CITRUS.","Hola Fábrica de Jabones, paso a revisar tu pedido P-00032 de BLEM MULTISUPERFICIE Y ELECTRONICO AEROSOL - CITRUS.",2026-08-16 11:57:59,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 11:59:32,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 31270.00.,Te confirmo que el pedido P-00032 fue registrado correctamente por 31270.00.,2026-08-16 12:00:56,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 12:01:43,true
+5493582639964,5493582639964,ai,ai,"Hola Limpieza de Baños, paso a revisar tu pedido P-00102 de SAHUMERIOS TIBETANOS X 8 - VIOLETAS.","Hola Limpieza de Baños, paso a revisar tu pedido P-00102 de SAHUMERIOS TIBETANOS X 8 - VIOLETAS.",2026-08-15 08:57:59,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 08:58:47,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 7260.00.,Te confirmo que el pedido P-00102 fue registrado correctamente por 7260.00.,2026-08-15 08:59:38,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 09:00:18,true
+5493582641213,5493582641213,ai,ai,"Hola Pro Limpio, vi que tenes un pedido abierto por DIFUSOR PARA AUTOS AROMANZA - COCONUT y queria ayudarte a cerrarlo.","Hola Pro Limpio, vi que tenes un pedido abierto por DIFUSOR PARA AUTOS AROMANZA - COCONUT y queria ayudarte a cerrarlo.",2026-08-17 00:57:59,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-08-17 00:59:29,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-17 01:00:18,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-17 01:01:21,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-17 01:02:21,true
+5493587747641,5493587747641,ai,ai,"Hola Soluciones de Mantenimiento, vi que tenes un pedido abierto por SUN SAL REGENERADORA X 1KG y queria ayudarte a cerrarlo.","Hola Soluciones de Mantenimiento, vi que tenes un pedido abierto por SUN SAL REGENERADORA X 1KG y queria ayudarte a cerrarlo.",2026-08-17 09:57:59,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-17 09:59:43,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 32828.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 32828.00. Si queres te lo dejo cerrado hoy.,2026-08-17 10:00:45,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-17 10:02:21,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-17 10:03:11,true
+5493587905250,5493587905250,ai,ai,"Hola Limpieza Total, vi que tenes un pedido abierto por SAHUMERIOS TIBETANOS SLIM X 10V AROMANZA (4) y queria ayudarte a cerrarlo.","Hola Limpieza Total, vi que tenes un pedido abierto por SAHUMERIOS TIBETANOS SLIM X 10V AROMANZA (4) y queria ayudarte a cerrarlo.",2026-08-17 01:57:59,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-17 01:59:01,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-17 02:00:20,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-17 02:02:16,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-17 02:03:24,true
+5493811657614,5493811657614,ai,ai,"Hola Insumos de Calidad, paso a revisar tu pedido P-00040 de AEROSOL SAPHIRUS - OLYMPIC.","Hola Insumos de Calidad, paso a revisar tu pedido P-00040 de AEROSOL SAPHIRUS - OLYMPIC.",2026-08-15 08:57:59,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 08:59:22,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 30575.00.,Te confirmo que el pedido P-00040 fue registrado correctamente por 30575.00.,2026-08-15 09:00:18,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 09:01:15,true
+5493812941974,5493812941974,ai,ai,"Hola Limpieza de Oficinas, paso a revisar tu pedido P-00084 de PAPEL ALUMINIO ALUMAX.","Hola Limpieza de Oficinas, paso a revisar tu pedido P-00084 de PAPEL ALUMINIO ALUMAX.",2026-08-15 09:57:59,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 09:59:54,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 9440.00.,Te confirmo que el pedido P-00084 fue registrado correctamente por 9440.00.,2026-08-15 10:01:04,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 10:01:37,true
+5493813520000,5493813520000,ai,ai,"Hola Limpieza de Maquinaria, paso a revisar tu pedido P-00115 de AEROSOL SAPHIRUS - PERAS Y DURAZNO.","Hola Limpieza de Maquinaria, paso a revisar tu pedido P-00115 de AEROSOL SAPHIRUS - PERAS Y DURAZNO.",2026-08-16 08:57:59,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 08:58:50,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 9040.00.,Te confirmo que el pedido P-00115 fue registrado correctamente por 9040.00.,2026-08-16 08:59:56,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 09:01:22,true
+5493814729528,5493814729528,ai,ai,"Hola Limpieza de Cocinas, paso a revisar tu pedido P-00105 de ESENCIA PARA HORNITO CIPRES 30ML - LIMON.","Hola Limpieza de Cocinas, paso a revisar tu pedido P-00105 de ESENCIA PARA HORNITO CIPRES 30ML - LIMON.",2026-08-16 07:57:59,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 07:59:33,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 14130.00.,Te confirmo que el pedido P-00105 fue registrado correctamente por 14130.00.,2026-08-16 08:00:43,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 08:02:05,true
+5493817404433,5493817404433,ai,ai,"Hola Limpieza de Espacios, paso a revisar tu pedido P-00087 de SHAMPOO SUAVE X 930CC - LACIO.","Hola Limpieza de Espacios, paso a revisar tu pedido P-00087 de SHAMPOO SUAVE X 930CC - LACIO.",2026-08-16 08:57:59,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 08:59:35,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 11280.00.,Te confirmo que el pedido P-00087 fue registrado correctamente por 11280.00.,2026-08-16 09:01:01,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 09:02:04,true
+5493818437953,5493818437953,ai,ai,"Hola Limpieza y Cuidado, paso a revisar tu pedido P-00029 de PANO LIMPIADOR LUPA.","Hola Limpieza y Cuidado, paso a revisar tu pedido P-00029 de PANO LIMPIADOR LUPA.",2026-08-15 07:57:59,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 07:59:37,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 44483.00.,Te confirmo que el pedido P-00029 fue registrado correctamente por 44483.00.,2026-08-15 08:00:28,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 08:01:23,true
+5493872845902,5493872845902,ai,ai,"Hola Limpieza Profunda, paso a revisar tu pedido P-00034 de NATACLOR CLORO GRANULADO X 1KG.","Hola Limpieza Profunda, paso a revisar tu pedido P-00034 de NATACLOR CLORO GRANULADO X 1KG.",2026-08-15 10:57:59,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 10:59:01,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 32870.00.,Te confirmo que el pedido P-00034 fue registrado correctamente por 32870.00.,2026-08-15 11:00:24,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 11:01:03,true
+5493874104594,5493874104594,ai,ai,"Hola Limpieza de Áreas Comunes, paso a revisar tu pedido P-00146 de ESPONJA LAFFITTE.","Hola Limpieza de Áreas Comunes, paso a revisar tu pedido P-00146 de ESPONJA LAFFITTE.",2026-08-16 08:57:59,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-16 08:59:08,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 20542.00.,Te confirmo que el pedido P-00146 fue registrado correctamente por 20542.00.,2026-08-16 09:00:26,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-16 09:00:57,true
+5493876499570,5493876499570,ai,ai,"Hola Limpieza de Hoteles, paso a revisar tu pedido P-00149 de BARREHOJAS PLASTICOS CRECCHIO.","Hola Limpieza de Hoteles, paso a revisar tu pedido P-00149 de BARREHOJAS PLASTICOS CRECCHIO.",2026-08-15 07:57:59,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 07:58:47,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 29331.00.,Te confirmo que el pedido P-00149 fue registrado correctamente por 29331.00.,2026-08-15 07:59:25,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 08:00:21,true
+5493876914178,5493876914178,ai,ai,"Hola Mantenimiento Eficaz, paso a revisar tu pedido P-00024 de AEROSOL SAPHIRUS - ORIENTE.","Hola Mantenimiento Eficaz, paso a revisar tu pedido P-00024 de AEROSOL SAPHIRUS - ORIENTE.",2026-08-15 09:57:59,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 09:59:32,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 26780.00.,Te confirmo que el pedido P-00024 fue registrado correctamente por 26780.00.,2026-08-15 10:00:41,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 10:01:46,true
+5493876922419,5493876922419,ai,ai,"Hola Limpieza de Muebles, paso a revisar tu pedido P-00107 de GLADE DES. AMB. 360CC - VALS DE FLORES.","Hola Limpieza de Muebles, paso a revisar tu pedido P-00107 de GLADE DES. AMB. 360CC - VALS DE FLORES.",2026-08-15 11:57:59,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-15 11:59:03,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 11490.00.,Te confirmo que el pedido P-00107 fue registrado correctamente por 11490.00.,2026-08-15 11:59:41,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-15 12:00:32,true

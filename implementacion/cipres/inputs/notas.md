@@ -1,0 +1,1 @@
+es una distribuidora de productos de limpieza, insumos y mantenimiento. Está en Villa Constitución Santa Fe, tienen local al publico y venden al publico final, y a locales minoristas. También tienen como 70 revendedores. El caso de uso sería prospección por whatsapp y atender consultas y pedidos por Whatsapp (no usarian por

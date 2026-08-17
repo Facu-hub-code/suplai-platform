@@ -1,0 +1,6 @@
+{
+  "dominios": "mercadolibre.com.ar,carrefour.com.ar,jumbo.com.ar,cotodigital3.com.ar,farmacity.com,easy.com.ar",
+  "sufijo_fallback": "limpieza higiene insumos aromatizante argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA CIPRÉS LIMPIEZA (Villa Constitución, Santa Fe):\n1. TIPO DE PRODUCTO OBLIGATORIO: La descripción debe indicar claramente qué es (detergente, lavandina, aromatizante, sahumerio, difusor, insecticida, jabón, shampoo, desodorante, accesorio de limpieza, etc.).\n2. MARCA Y FORMATO: Incluir marca cuando aparezca en el nombre (ej. Saphirus, Raid, Lysoform, Magistral) y presentación/volumen si está en el nombre (ej. 360 cc, 1 L, x12).\n3. SIN MARKETING: No usar frases como 'Descubre', 'Ideal para tu negocio', 'Te traemos' ni mencionar Villa Constitución o Ciprés Limpieza en la descripción.\n4. ALIAS ÚTILES PARA RAG: Incluir sinónimos coloquiales argentinos del rubro (ej. lavandina/cloro, aromatizante/perfume de ambiente, trapo/rejilla, lavarropas/detergente ropa).\n5. NO ALUCINAR: No inventar ingredientes, certificaciones ni usos no inferibles del nombre o contexto web."
+}

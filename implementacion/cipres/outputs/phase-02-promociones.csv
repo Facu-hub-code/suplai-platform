@@ -1,0 +1,5 @@
+promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+1,CIP-0025,¡Descuento Especial! AEROSOL SAPHIRUS,Aprovechá un 15% de descuento en tu aerosol Saphirus. Ideal para el hogar.,percent_off,15,1,1,2026-08-10,2026-09-16,true,true
+2,CIP-0001,Imperdible: 3 EN 1 CIPCLOR,Llevate 3 en 1 Cipclor con $1000 de descuento. Limpieza efectiva a un gran precio.,total_off,1000,2,1,2026-08-10,2026-09-16,true,true
+3,CIP-0002,Oferta por Tiempo Limitado: 3 EN 1 CIPCLOR X 5LT,Llevando 3 o más pagás $14256.88 c/u. Ideal para piletas y grandes volúmenes.,fixed_price,14256.88,1,3,2026-08-10,2026-09-16,true,true
+4,CIP-0003,¡Promoción! ACONDICIONADOR ALGABO X 300CC,Disfrutá un 20% de descuento en el acondicionador de aguacate. Cuidado y suavidad.,percent_off,20,3,1,2026-08-10,2026-09-16,true,true

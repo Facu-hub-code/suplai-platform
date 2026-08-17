@@ -1,0 +1,374 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587905250,25001,CIP-2473,NIVEA ROLLON MEN X 50ML - ACTIVE DRY,3,2080.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00001,5493587905250,25001,CIP-3258,TARJETA AROMATICA - CEREZA MAL,1,5120.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00001,5493587905250,25001,CIP-3338,VASO BEMIS DESCARTABLE BLANCO 300 CC,2,7067.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00002,5493587905250,25001,CIP-0608,LATITA AROMATIZANTES SAPHIRUS - ACQUA,5,4339.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00002,5493587905250,25001,CIP-1034,SHAMPOO PLUSBELLE ESENCIA DP 300CC - NUTRICION,5,1850.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00002,5493587905250,25001,CIP-0239,CLIP VULCANO,5,283.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00002,5493587905250,25001,CIP-1308,BOWL REDONDO BIPO 1.5 LTS - BORRAVINO,1,2640.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00003,5493587905250,25001,CIP-1213,BALDE CENTRIFUGO NOBRE,3,15240.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00004,5493582641213,25002,CIP-1472,CERAMICOL LUSTRAMUEBLES AERO 360 - ORIGINAL,2,5120.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00004,5493582641213,25002,CIP-2023,GOLIATH CEBO EN MICROPELLETS X 200GR,3,2077.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00005,5493582641213,25002,CIP-0605,KIT EMPRENDEDOR SAPHIRUS,1,137470.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00005,5493582641213,25002,CIP-0791,PERFUME TELAS URBAN FRESH - CITRICO,4,2250.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00005,5493582641213,25002,CIP-1205,ASPERSOR PLASTICO BASE NARANJA 3 BRAZOS,5,5570.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00005,5493582641213,25002,CIP-0204,CEPILLO DE DIENTES COLGATE SLIM SOFT CARBON X 2 - SUAVE,1,7210.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00006,5493582641213,25002,CIP-3364,VIM LAVANDINA GEL X 700ML - FLORAL,5,3120.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00006,5493582641213,25002,CIP-0070,AEROSOL SAPHIRUS - LIMON,1,4520.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00007,5492991227644,25003,CIP-0779,PERFUME TELAS SAPHIRUS DISNEY - SPIDER-MAN,3,3150.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00007,5492991227644,25003,CIP-0171,BARRA IONIZADOR VULCANO,1,44934.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00007,5492991227644,25003,CIP-2479,OB TAMPONES X 8 - MINI,3,3610.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00008,5492991227644,25003,CIP-0713,PERFUME TELAS SAPHIRUS - GREEN,5,3150.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00009,5492991227644,25003,CIP-2327,LIMPIA METALES BRASSO,3,4470.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00010,5493418277249,25004,CIP-2476,NUQUIFOL FLORACION X 250CC,3,4700.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00010,5493418277249,25004,CIP-2591,PASTA DENTAL KOLYNOS SUPER BLANCO 70GR,3,1890.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00011,5493418277249,25004,CIP-0725,PERFUME TELAS SAPHIRUS - LIMON DULC,3,3150.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00012,5493418277249,25004,CIP-1951,FLUIDO X 5LT,2,21920.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00012,5493418277249,25004,CIP-3128,SHINY LIMPIADOR LIQUIDO X 250CC - FRUTOS DEL SOL,3,1540.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00012,5493418277249,25004,CIP-2256,KIT HERBAL SAGRADA MADRE - PROTEC SAN,1,448.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00013,5493587747641,25005,CIP-3327,VANISH PRELAVADO OXI GEL POUCH 400CC,3,285.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00013,5493587747641,25005,CIP-1065,VENT STICK X 6GR URBAN FRESH - LIMON,1,1440.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00013,5493587747641,25005,CIP-2974,SAHUMERIOS HEXAGONAL - FRUTILLA,5,570.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00014,5493587747641,25005,CIP-2607,PATO BLOQ. MOCHI 40GR,1,2880.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00014,5493587747641,25005,CIP-0769,PERFUME TELAS SAPHIRUS DISNEY - AVENGERS,2,3150.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00015,5493587747641,25005,CIP-0699,PERFUME TELAS SAPHIRUS - DUE,1,3150.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00015,5493587747641,25005,CIP-2402,MANTEQUERA - MANTECA - OVAL,2,1830.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00015,5493587747641,25005,CIP-0755,PERFUME TELAS SAPHIRUS - SANDALO VIOLETA,3,3150.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00016,5492614053074,25006,CIP-0381,DIFUSOR SAPHIRUS DISNEY - TOY STORY WOODY Y BUZZ,2,4460.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00016,5492614053074,25006,CIP-2197,JABON LIQUIDO PARA DILUIR ZORRO X 500CC - FRAGANCIA DURADERA,2,7370.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00016,5492614053074,25006,CIP-1939,FINISH SAL X 1KG,4,7720.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00016,5492614053074,25006,CIP-1349,CANASTA INODORO VIM 4 EN 1 - CITRUS,4,2156.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00017,5492614053074,25006,CIP-1367,CANASTO / ORGANIZADOR RECTANGULAR RATAN 5.5 LTS - BLANCO,4,4840.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00018,5492614053074,25006,CIP-0228,CIF GEL CON LAVANDINA X 513 GR,3,3210.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00019,5493514079279,25007,CIP-3262,TARJETA AROMATICA - MAGNOL Y V,1,5120.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00019,5493514079279,25007,CIP-3257,TAPON BOTELLA SILICONA DE ANIMALES,2,205.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00019,5493514079279,25007,CIP-1890,ESPUMA DE AFEITAR GILLETTE SENSITIVE 175GR,2,6460.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00020,5493514079279,25007,CIP-3274,"TIJERA PODA GARDEX - PODAR 8""",4,9210.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00021,5493514079279,25007,CIP-0671,PASTA DENTAL COLGATE TOTAL SALUD VISIBLE X 90GR,1,2051.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00021,5493514079279,25007,CIP-0736,PERFUME TELAS SAPHIRUS - NEW YORK,2,3150.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00021,5493514079279,25007,CIP-1709,DESTAPACAÑERIAS MERCLIN GEL X 1LT,2,5710.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00022,5493876914178,25008,CIP-3256,TAPON BAÑADERA / BACHA SILICONA,1,70.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00023,5493876914178,25008,CIP-2667,PERFUME TELAS AMBAR X 150CC - PAULA,5,1690.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00023,5493876914178,25008,CIP-0933,SAHUMERIOS PALO SANTO BUENA ONDA AROMANZA - DIAMANTE NEGRO,2,1110.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00024,5493876914178,25008,CIP-0091,AEROSOL SAPHIRUS - ORIENTE,1,4520.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00024,5493876914178,25008,CIP-1308,BOWL REDONDO BIPO 1.5 LTS - BORRAVINO,1,2640.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00024,5493876914178,25008,CIP-2864,REPASADOR REDONDELES / ESCOCES/CORAZON,2,1070.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00024,5493876914178,25008,CIP-0389,DIFUSOR SAPHIRUS PREMIUM - FRUTOS PAT,2,8740.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00025,5492617175545,25009,CIP-2429,MICROFIBRAS VIDRIOS SAMANTHA,4,3707.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00025,5492617175545,25009,CIP-0905,SAHUMERIOS HIMALAYA SAPHIRUS X 6 - ROCIO,3,1849.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00025,5492617175545,25009,CIP-0855,SAHUMERIOS BANGLADESH X 10 - FRUTOS ROJOS,3,880.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00026,5492617175545,25009,CIP-3127,SHINY LIMPIADOR LIQUIDO X 250CC - FLORES DELICADAS,4,1540.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00026,5492617175545,25009,CIP-0411,ENJUAGUE BUCAL ALGABO X 500CC,5,4070.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00027,5492617175545,25009,CIP-1870,ESPONJA ACERO INOXIDABLE 30 GR SAMANTHA,4,87.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00028,5493818437953,25010,CIP-1553,CREMA CORPORAL NIVEA MILK NUTRITIVA 400ML - HIDRATACIO,1,8410.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00028,5493818437953,25010,CIP-3066,SERVILLETA ECOPEL 33X33 X 700,1,2449.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00029,5493818437953,25010,CIP-2543,PANO LIMPIADOR LUPA,5,5230.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00029,5493818437953,25010,CIP-2427,MICROFIBRAS MULTIUSO SAMANTHA,2,3350.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00029,5493818437953,25010,CIP-2507,ORGANIZADOR CUBIERTOS PLASTICO CLASICO - GRIS,5,591.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00029,5493818437953,25010,CIP-0618,LATITA AROMATIZANTES SAPHIRUS - UVA,2,4339.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00030,5493818437953,25010,CIP-1973,FUNGUICIDA NATACLOR X 1LT,5,23910.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00030,5493818437953,25010,CIP-2402,MANTEQUERA - MANTECA - OVAL,4,1830.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00030,5493818437953,25010,CIP-3191,SUAVIZANTE VIVERE X 3LT BOTELLA,5,11760.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00030,5493818437953,25010,CIP-1677,DESODORANTE EN AEROSOL KEVIN X 150ML - PLATINUM,2,4720.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00031,5493582132179,25011,CIP-1626,DESOD. ROLLON DOVE 50ML - MEN,2,3080.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00031,5493582132179,25011,CIP-2997,SAHUMERIOS PALO SANTO BUENA ONDA MINI - (4),1,870.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00031,5493582132179,25011,CIP-0323,DIFUSOR SAPHIRUS 120CC - MANGO,5,4460.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00031,5493582132179,25011,CIP-2938,SAHUMERIOS AMBAR - FRUTILLA,1,930.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00032,5493582132179,25011,CIP-1257,BLEM MULTISUPERFICIE Y ELECTRONICO AEROSOL - CITRUS,5,4370.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00032,5493582132179,25011,CIP-0023,ACOPLE VULCANO GIRATORIO LISO COMBINADO,2,1790.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00032,5493582132179,25011,CIP-2217,JABON TOCADOR C/GLICERINA REXONA 90GR - CITRUS,4,1460.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00033,5493582132179,25011,CIP-3201,SUAVIZANTE X 20LT AMAR,5,9000.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00033,5493582132179,25011,CIP-2125,HORNILLO BORDE RAYADO,1,5460.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00034,5493872845902,25012,CIP-2452,NATACLOR CLORO GRANULADO X 1KG,1,12050.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00034,5493872845902,25012,CIP-0755,PERFUME TELAS SAPHIRUS - SANDALO VIOLETA,5,3150.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00034,5493872845902,25012,CIP-0585,JABON LIQUIDO T/SKIP ULTRA X 1.5LT,3,1690.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00035,5493872845902,25012,CIP-0419,ESENCIA PARA HORNITO SAPHIRUS - BAMBOO,3,2580.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00035,5493872845902,25012,CIP-2798,PRECINTOS NYLON GARDEX 250 X 4.8,1,4539.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00035,5493872845902,25012,CIP-3229,TAPER BIPO 1.5 LTS,4,4980.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00036,5493872845902,25012,CIP-2970,SAHUMERIOS HEXAGONAL - ATRAE DINE,2,570.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00036,5493872845902,25012,CIP-0244,CONITOS CASCADA AROMANZA X 10 - VAINILLA,2,1740.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00036,5493872845902,25012,CIP-2804,PROTECTOR DIARIO X 20 LINA,4,1340.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00037,5492997670210,25013,CIP-2075,HIGIENICO ELEGANTE 30MT X 4,4,264.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00038,5492997670210,25013,CIP-1093,ACONDICIONADOR PANTENE X 400CC - EQUILIBRIO,5,7050.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00039,5492997670210,25013,CIP-0132,AROMATIZADOR SAPHIRUS DECO COLOR,4,11420.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00039,5492997670210,25013,CIP-2791,POST SOLAR CON ALOE COCOA X 250GR,2,8630.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00039,5492997670210,25013,CIP-2599,PASTA DENTAL SENSODYNE LIMPIEZA PROFUNDA X 90GR,3,4440.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00040,5493811657614,25014,CIP-0088,AEROSOL SAPHIRUS - OLYMPIC,2,4520.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00040,5493811657614,25014,CIP-2163,INSIDE OUT SENSATIONS,2,3140.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00040,5493811657614,25014,CIP-0562,GLADE TOQUE REPUESTO - LIMON,5,3051.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00041,5493811657614,25014,CIP-1170,ALFOMBRA TOALLA ALGODON 40X60,2,3910.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00041,5493811657614,25014,CIP-1678,DESODORANTE EN AEROSOL KEVIN X 150ML - RED,1,4720.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00041,5493811657614,25014,CIP-1595,DESINFECTANTE HOSPITALARIO X 5LT,4,4320.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00042,5493811657614,25014,CIP-0051,AEROSOL SAPHIRUS - ETIQUETA,2,4520.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00043,5492994145193,25015,CIP-3134,SHINY LIMPIADOR LIQUIDO X 250CC - TRIUNFO OCEANICO,2,1540.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00043,5492994145193,25015,CIP-2050,"GUANTES DESCARTABLE NITRILO CH,M,L - GRANDE",1,8000.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00044,5492994145193,25015,CIP-1182,AMON DESINCRUSTANTE ACIDO X 5LT,5,40930.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00044,5492994145193,25015,CIP-2290,LANA DE ACERO,4,1370.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00044,5492994145193,25015,CIP-2997,SAHUMERIOS PALO SANTO BUENA ONDA MINI - (4),3,870.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00044,5492994145193,25015,CIP-0429,ESENCIA PARA HORNITO SAPHIRUS - GREEN,1,2580.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00045,5492994145193,25015,CIP-2280,LAMPAZO PROF BARREDOR 45CM ACRIL,4,22655.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00045,5492994145193,25015,CIP-2929,SAHUMADORES DE CEMENTO COLOR/GRANDE,2,1680.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00046,5493515971311,25016,CIP-0412,ENJUAGUE BUCAL COLGATE KIDS MINIONS X 250CC,3,3450.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00046,5493515971311,25016,CIP-1358,CANASTO / ORGANIZADOR DE RATAN MEDIANO (4),2,6060.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00047,5493515971311,25016,CIP-0587,JABON LIQUIDO T/SKIP ULTRA X 5LT,4,3230.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00047,5493515971311,25016,CIP-0183,CANASTA LIQUIDA URBAN FRESH - FLORAL,3,2386.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00048,5493515971311,25016,CIP-2108,HOME SPRAY 500CC - LINO Y PEO,4,6290.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00048,5493515971311,25016,CIP-2054,GUANTES HOUSEHOLD GLOVES XL - GRANDE,5,1176.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00048,5493515971311,25016,CIP-0633,LYSOFORM AEROSOL 315CC - ORIGINAL,5,3128.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00048,5493515971311,25016,CIP-1009,SAPHIRUS SENSACIONES + HOLDER - BRISA MARINO,3,6620.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00049,5492994228106,25017,CIP-0274,DIFUSOR PARA AUTOS MARCIANITO AROMANZA - DULZURA V,3,4260.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00049,5492994228106,25017,CIP-2155,INSECTICIDA ESCUDO MATA CUCARACHAS,2,3260.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00049,5492994228106,25017,CIP-0918,SAHUMERIOS MOMENTOS X 5 AROMANZA - DULZURA,4,1640.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00050,5492994228106,25017,CIP-1082,ACONDICIONADOR DOVE DOY PACK X 180CC - RITUAL REP,1,2500.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00050,5492994228106,25017,CIP-2139,HUAGRO RAT BLOQUE X 1K,2,26850.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00051,5492994228106,25017,CIP-2862,REPASADOR MUNDIAL LINEA 10,2,1240.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00051,5492994228106,25017,CIP-0954,SAHUMERIOS TIBETANOS SLIM X 10V AROMANZA,3,1290.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00051,5492994228106,25017,CIP-2985,SAHUMERIOS HEXAGONAL - ROSE,1,570.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00052,5492998718887,25018,CIP-0396,DIFUSOR SAPHIRUS PREMIUM - SWEET BABY,5,8740.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00053,5492998718887,25018,CIP-0866,SAHUMERIOS BANGLADESH X 10 - PATCHOULI,2,880.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00053,5492998718887,25018,CIP-2443,MR MUSCULO VIDRIOS AEROSOL,2,3211.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00053,5492998718887,25018,CIP-0371,DIFUSOR SAPHIRUS DISNEY - MINNIE,3,4460.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00054,5492998718887,25018,CIP-0433,ESENCIA PARA HORNITO SAPHIRUS - LIMON,1,2580.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00054,5492998718887,25018,CIP-1203,ASPERSOR / REGADOR PARA JARDIN CON NIPLE GIBER,4,2650.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00055,5492995028869,25019,CIP-3037,SECADOR FIORENTINA AQUARAPID 40CM,2,3520.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00055,5492995028869,25019,CIP-1087,ACONDICIONADOR PANTENE X 200CC - BAMBU,3,3740.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00055,5492995028869,25019,CIP-3346,VELON AROMATICO ILUMINARTE +18HS - FRUTILLA,2,501.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00056,5492995028869,25019,CIP-3205,SUIZA DETERGENTE LAVAVAJILLAS X 300CC,5,1400.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00056,5492995028869,25019,CIP-0343,DIFUSOR SAPHIRUS 120CC - PETALOS DE,5,4460.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00056,5492995028869,25019,CIP-1421,CEPILLO DE DIENTES ORAL B KIDS,3,3010.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00056,5492995028869,25019,CIP-2424,MICROFIBRA PISOS MR TRAPO,4,3266.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00057,5492995028869,25019,CIP-2193,JABON LIQUIDO PARA DILUIR ALA X 500CC - MAXIMA BLANCURA,2,7980.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00057,5492995028869,25019,CIP-1181,AMON COMPLEX SW X 20LT,4,56520.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00057,5492995028869,25019,CIP-2500,ORGANIZADOR CON TAPA MADERA CHICO - BLANCO,4,6400.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00057,5492995028869,25019,CIP-2127,HORNILLO CILINDRICO 12.5CM,1,4870.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00058,5493517304254,25020,CIP-0901,SAHUMERIOS HIMALAYA SAPHIRUS X 6 - FRUTOS PATAGONICOS,3,1849.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00058,5493517304254,25020,CIP-2746,PIPETA POWER PERROS ENTRE 5 Y 10KG,4,515.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00058,5493517304254,25020,CIP-0924,SAHUMERIOS MOMENTOS X 5 AROMANZA - PAZ Y ARMONIA,4,1640.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00058,5493517304254,25020,CIP-1549,CREMA CORPORAL HINDS X 250ML,4,4180.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00059,5493517304254,25020,CIP-2075,HIGIENICO ELEGANTE 30MT X 4,3,264.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00060,5493517304254,25020,CIP-2202,JABON LIQUIDO T/ARIEL ULTRA X 20LT,1,12610.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00061,5493416986538,25021,CIP-1991,GATILLO ROCIADOR REF. X 1LT CIPRES,4,1550.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00061,5493416986538,25021,CIP-1199,ARIEL PLATINUM 3LT DP,3,9770.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00061,5493416986538,25021,CIP-0479,GLADE ACEITES NATURALES REP - LAVANDA,3,7747.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00062,5493416986538,25021,CIP-1698,DESODORANTE EN POLVO EFFICIENTE 100GR - FRESH,3,3200.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00062,5493416986538,25021,CIP-0599,JABON TOCADOR PLUSBELLE X 120GR - GLICERINA VEGETAL,4,1150.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00063,5493416986538,25021,CIP-2679,PERFUME TELAS CIPRES 500CC REPUESTO - PARFUM,2,3140.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00063,5493416986538,25021,CIP-0733,PERFUME TELAS SAPHIRUS - MARINO,3,3150.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00063,5493416986538,25021,CIP-0199,CEPILLO DE DIENTES COLGATE KIDS +6 X 2 - MINIONS,5,4140.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00064,5492619239862,25022,CIP-1038,SHAMPOO PLUSBELLE ESENCIA X 970CC - LARGO SALU,5,4290.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00064,5492619239862,25022,CIP-0384,DIFUSOR SAPHIRUS PREMIUM - CANELA CEY,1,8740.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00065,5492619239862,25022,CIP-0340,DIFUSOR SAPHIRUS 120CC - PAULA,4,4460.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00065,5492619239862,25022,CIP-1533,COMPOTERA 11 CM CAROL,3,1390.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00066,5492619239862,25022,CIP-0175,BOMBA PISCINA VULCANO BAE 050 - 0.50 HP,4,239714.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00066,5492619239862,25022,CIP-3002,SAHUMERIOS PALO SANTO BUENA ONDA MINI - REAL CHAMPA,4,870.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00066,5492619239862,25022,CIP-0714,PERFUME TELAS SAPHIRUS - GUARANA,1,3150.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00067,5493513952681,25023,CIP-1895,ESPUMA DE AFEITAR VERITAS,2,4620.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00067,5493513952681,25023,CIP-1680,DESODORANTE EN AEROSOL KEVIN X 250CC - ABSOLUTE,2,5470.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00068,5493513952681,25023,CIP-3281,TOA FEM ALWAYS XTRA PROT SUAVE X 8,4,1490.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00068,5493513952681,25023,CIP-3060,SELTON M.M.M. ROJO 360CC,4,114.78,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00069,5493513952681,25023,CIP-0151,AROMATIZANTE DE AMBIENTES SAPHIRUS MINI - ONE MILLIO,4,2460.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00070,5493414799650,25024,CIP-2968,SAHUMERIOS HEXAGONAL (4),4,570.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00070,5493414799650,25024,CIP-0722,PERFUME TELAS SAPHIRUS - LAVANDA,5,3150.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00071,5493414799650,25024,CIP-2526,ORION SOLVER QUITAMANCHAS X 5LT,4,27525.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00071,5493414799650,25024,CIP-2182,JABON LIQUIDO ALA MATIC X 800CC,3,2760.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00071,5493414799650,25024,CIP-0849,REJILLA SUPERIOR VULCANO,1,6632.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00072,5493414799650,25024,CIP-1131,AEROSOL AMBAR - MERY,5,3450.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00072,5493414799650,25024,CIP-3195,SUAVIZANTE VIVERE X 5LT,2,3120.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00072,5493414799650,25024,CIP-1704,DESODORANTE MAC GREGOR MASCULINI - PINO,2,2839.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00072,5493414799650,25024,CIP-2184,JABON LIQUIDO GRANBY X 800CC - LIMON,2,2220.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00073,5492992500733,25025,CIP-0798,PERNO CORTO X 2 VULCANO,2,480.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00073,5492992500733,25025,CIP-0057,AEROSOL SAPHIRUS - FRUTILLA,4,4520.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00073,5492992500733,25025,CIP-2032,GUANTES AFELPADOS PLUMITA - CHICO,1,1688.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00073,5492992500733,25025,CIP-0874,SAHUMERIOS CIUDADES AROMANZA - BUDAPEST,4,1740.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00074,5492992500733,25025,CIP-0405,DISCO DE ALGODON ALGABO 80U X 2,1,3430.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00074,5492992500733,25025,CIP-0275,DIFUSOR PARA AUTOS MARCIANITO AROMANZA - LA VIDA ES BELLA,2,4260.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00074,5492992500733,25025,CIP-2377,LIQUIDO PARA DIFUSORES X 250CC - LAVANDA,5,3380.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00074,5492992500733,25025,CIP-3029,SAHUMERIOS TIBETANOS X 8 - VAINILLA,2,2420.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00075,5492992500733,25025,CIP-2057,GUANTES MOTEADO COLOR ALGODON,2,1963.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00075,5492992500733,25025,CIP-0601,JABON TOCADOR PLUSBELLE X 120GR - LAVANDA,4,1150.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00075,5492992500733,25025,CIP-1560,CUCA KILL CEBO MATACUCARACHAS HUAGRO X 4,4,2740.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00076,5492615139305,25026,CIP-1718,DETERGENTE MAGISTRAL 300CC - LIMON,5,2090.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00076,5492615139305,25026,CIP-1430,CEPILLO LAVAOMNIBUS SALZANO,3,7450.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00077,5492615139305,25026,CIP-3255,TAPON BACHA DOSI CIEGO / REJILLA,3,2120.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00077,5492615139305,25026,CIP-0270,DIFUSOR PARA AUTOS AROMANZA - SWEET CANDY,2,3150.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00077,5492615139305,25026,CIP-1482,CESTO C/PEDAL 7 LTS P.HOUSE,3,10190.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00077,5492615139305,25026,CIP-1783,EMBUDO 15 AL 20,3,890.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00078,5492615139305,25026,CIP-2259,KIT RESPUESTO CLORO/PH (IM),1,2723.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00079,5492618861463,25027,CIP-2104,HOME SPRAY 500CC - FLOR DE LO,3,6290.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00079,5492618861463,25027,CIP-2922,SACAHOJAS BOLSA GRANDE 32MM,4,9715.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00079,5492618861463,25027,CIP-1576,DESCARTABLE BANDEJA RECTANGULAR 107 C/TAPA (10),3,4710.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00080,5492618861463,25027,CIP-3307,TRAMPA COYOTE,1,101.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00081,5492618861463,25027,CIP-0099,AEROSOL SAPHIRUS - PERAS Y DURAZNO,4,4520.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00081,5492618861463,25027,CIP-1227,BARREHOJAS CON CABO DE METAL,2,11860.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00082,5493812941974,25028,CIP-1417,CEPILLO DE DIENTES ORAL B COMPLETE,2,3850.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00082,5493812941974,25028,CIP-2933,SAHUMERIOS AMBAR - BENZOIN,2,930.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00082,5493812941974,25028,CIP-3206,SUIZA LAVANDINA EN GEL - CITRUS,1,1990.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00082,5493812941974,25028,CIP-3315,TRAPO DE PISO RAYADO LINEA 10,2,1480.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00083,5493812941974,25028,CIP-1402,CASCADA DE HUMO MADERA,2,2330.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00083,5493812941974,25028,CIP-0293,DIFUSOR SAPHIRUS 120CC - CITRUS,1,4460.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00083,5493812941974,25028,CIP-2336,LIMPIA TECHO MULTIUSO PUNKY,2,3110.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00084,5493812941974,25028,CIP-2562,PAPEL ALUMINIO ALUMAX,5,1380.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00084,5493812941974,25028,CIP-2957,SAHUMERIOS ELIXIR SLIM - ANGEL,2,1270.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00085,5493817404433,25029,CIP-1867,ESPONJA ACERO INOXIDABLE 13 GR DEA,5,290.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00085,5493817404433,25029,CIP-2881,REPUESTO DIFFUSER X 200CC,3,16420.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00086,5493817404433,25029,CIP-2259,KIT RESPUESTO CLORO/PH (IM),4,2723.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00087,5493817404433,25029,CIP-3121,SHAMPOO SUAVE X 930CC - LACIO,2,3340.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00087,5493817404433,25029,CIP-0599,JABON TOCADOR PLUSBELLE X 120GR - GLICERINA VEGETAL,4,1150.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00088,5493419686914,25030,CIP-3155,SODA CAUST X 500GR,3,1336.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00089,5493419686914,25030,CIP-2854,"REPARADOR DE MANGUERA DE 3/4""",3,1940.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00090,5493419686914,25030,CIP-2989,SAHUMERIOS HEXAGONAL - VAINILL,4,570.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00091,5493518648263,25031,CIP-2855,REPARADOR DE MUEBLES REX - CLARO,5,5720.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00092,5493518648263,25031,CIP-0960,SAHUMERIOS TIBETANOS SLIM X 10V AROMANZA (7),5,1290.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00092,5493518648263,25031,CIP-0487,GLADE AEROSOL AUTOMATICO REP. - VAINILLA,2,3949.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00092,5493518648263,25031,CIP-3170,SUAVIZANTE DOWNY BOTELLA 450/500CC - ADORAVEL,1,4940.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00093,5493518648263,25031,CIP-1414,CEPILLO DE DIENTES DISNEY X 3 - MANDALORIAN,5,3001.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00093,5493518648263,25031,CIP-0055,AEROSOL SAPHIRUS - FLOWERS,5,4520.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00093,5493518648263,25031,CIP-1027,SHAMPOO ALGABO X 300 DOY PACK - PEPINO Y T,4,1580.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00094,5493516216782,25032,CIP-1680,DESODORANTE EN AEROSOL KEVIN X 250CC - ABSOLUTE,1,5470.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00094,5493516216782,25032,CIP-2308,LAVANDINA EN GEL X 1LT,4,2160.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00094,5493516216782,25032,CIP-1454,CERA POLIETILENICA NATURAL X 5LT,5,5330.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00095,5493516216782,25032,CIP-2594,PASTA DENTAL ORAL B 3D WHITE 70GR,2,5120.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00095,5493516216782,25032,CIP-0457,ESFERAS MAGICAS AROMANZA - BIENESTAR,3,600.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00096,5493516216782,25032,CIP-2814,PULVERIZADOR 1.5LT GIBER,4,22500.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00097,5492612780568,25033,CIP-0053,AEROSOL SAPHIRUS - FAREH,2,4520.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00097,5492612780568,25033,CIP-0861,SAHUMERIOS BANGLADESH X 10 - MIL FLORES,3,880.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00097,5492612780568,25033,CIP-2886,REPUESTO DIFFUSER X 500CC (5),4,37510.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00097,5492612780568,25033,CIP-2852,RENOVADOR CREMOSO REVIGAL,2,6030.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00098,5492612780568,25033,CIP-3330,VANISH QUITAMANCHAS POLVO 450GR - PINK,4,289.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00099,5492612780568,25033,CIP-0239,CLIP VULCANO,1,283.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00099,5492612780568,25033,CIP-1996,GELTEK FOGGER INSECTICIDA AEROSOL,4,9050.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00100,5493582639964,25034,CIP-2950,SAHUMERIOS AMBAR - ROSA,5,930.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00100,5493582639964,25034,CIP-2024,GOLIATH CEBO EN MICROPELLETS X 500GR,1,4109.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00101,5493582639964,25034,CIP-0294,DIFUSOR SAPHIRUS 120CC - CLEAN COTTON,3,4460.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00101,5493582639964,25034,CIP-1334,"CABO HUECO CHAPA 1,2",4,1340.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00101,5493582639964,25034,CIP-1273,BOLSAS 45X60 RESIDUOS X 30U - 10 MIC - ROJA,1,1360.00,3,Pedido: 1 unidad (normalizado: 30 unidad; equiv: 1 unidad),true,false,false
+P-00102,5493582639964,25034,CIP-3030,SAHUMERIOS TIBETANOS X 8 - VIOLETAS,3,2420.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00103,5493814729528,25035,CIP-0796,PERFUME TELAS URBAN FRESH - MANGO MANDARINA,3,2250.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00103,5493814729528,25035,CIP-0814,POETT DES. AMB AEROSOL 360CC - ESPIRITU PLAY,3,3200.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00103,5493814729528,25035,CIP-2285,LAMPAZO PROF BASTIDOR 1MT,4,14276.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00104,5493814729528,25035,CIP-0708,PERFUME TELAS SAPHIRUS - FRESIAS Y BERGAMOTA,4,3150.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00104,5493814729528,25035,CIP-1182,AMON DESINCRUSTANTE ACIDO X 5LT,4,40930.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00105,5493814729528,25035,CIP-1865,ESENCIA PARA HORNITO CIPRES 30ML - LIMON,1,1530.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493814729528,25035,CIP-0764,PERFUME TELAS SAPHIRUS - VIOLETAS,4,3150.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00106,5493876922419,25036,CIP-3269,TENDER CON ALAS ALUMINIO,3,38760.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00106,5493876922419,25036,CIP-1154,ALFOMBRA BAÑOS ANTIDESLIZANTE ESPONJADA,4,5112.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00107,5493876922419,25036,CIP-0539,GLADE DES. AMB. 360CC - VALS DE FLORES,1,3420.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00107,5493876922419,25036,CIP-0117,AEROSOL URBAN FRESH - ANGELUS,3,2690.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00108,5493876922419,25036,CIP-2072,HIGIENICO CAMPANITA SOFT PLUS XL 80MT,1,582.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00108,5493876922419,25036,CIP-0674,PASTA DENTAL COLGATE ULTRA BLANCO X 90GR,2,2120.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00108,5493876922419,25036,CIP-3184,SUAVIZANTE DOWNY DP 400CC - BRISA DE VERANO,1,4150.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00108,5493876922419,25036,CIP-2205,"JABON PAN BLANCO ""ARGENTINO"" X 200GR",5,687.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00109,5492618889598,25037,CIP-1366,CANASTO / ORGANIZADOR GAVETERO CROM,5,3050.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00110,5492618889598,25037,CIP-2465,NIVEA PROTECTOR SOLAR & BRONCEADOR FPS30 X 200,5,14099.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00110,5492618889598,25037,CIP-3056,SELLADOR ACRILICO ACRILWAX X 5LT,4,16380.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00110,5492618889598,25037,CIP-0529,GLADE DES. AMB. 360CC - LIMON REFRESCANTE,5,3420.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00111,5492618889598,25037,CIP-2677,PERFUME TELAS CIPRES 500CC REPUESTO - MYSTIC,3,3140.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00111,5492618889598,25037,CIP-2553,PAÑO REJILLA DOBLE TRAMADO,5,640.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00112,5492615021286,25038,CIP-0332,DIFUSOR SAPHIRUS 120CC - NARANJA CH,2,4460.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00112,5492615021286,25038,CIP-1257,BLEM MULTISUPERFICIE Y ELECTRONICO AEROSOL - CITRUS,4,4370.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00113,5492615021286,25038,CIP-2603,PASTILLA PARA LAVARROPAS LAVAPROMAX,3,1210.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00113,5492615021286,25038,CIP-1027,SHAMPOO ALGABO X 300 DOY PACK - PEPINO Y T,2,1580.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00113,5492615021286,25038,CIP-1955,FRASCO DECO VIDRIO CHICO,5,4800.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00113,5492615021286,25038,CIP-0268,DIFUSOR PARA AUTOS AROMANZA - PUMITA,4,3150.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00114,5492615021286,25038,CIP-1599,DESOD. DOVE FEM AERO 89GR - ORIGINAL,2,4280.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00115,5493813520000,25039,CIP-0099,AEROSOL SAPHIRUS - PERAS Y DURAZNO,2,4520.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00116,5493813520000,25039,CIP-2006,GILLETTE MACH 3 REPUESTO REGULAR X 4,4,13210.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00116,5493813520000,25039,CIP-1042,SHAMPOO PLUSBELLE X 1LT - HIDRATACION,2,3100.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00116,5493813520000,25039,CIP-2510,ORGANIZADOR HELADERA TRANSPARENTE CHICO,4,3690.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00116,5493813520000,25039,CIP-2559,PAÑUELOS ELEGANTE INDIVIDUAL,2,270.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00117,5493813520000,25039,CIP-1895,ESPUMA DE AFEITAR VERITAS,2,4620.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00117,5493813520000,25039,CIP-2761,PLUMERO N°4L,3,19810.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00117,5493813520000,25039,CIP-3117,SHAMPOO SUAVE X 930CC - BOMBA FRUTAL,4,3340.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00118,5492997489876,25040,CIP-3204,SUAVIZANTE X 5LT AMAR/ROS/CELES,2,2330.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00118,5492997489876,25040,CIP-2836,RASTRILLO GARDEX,4,8710.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00119,5492997489876,25040,CIP-0810,POETT DES. AMB AEROSOL 360CC - ALEGRA TU DIA,4,3200.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00120,5492997489876,25040,CIP-2571,PARA USAR (5),3,1349.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5492612928724,0,CIP-2352,LIMPIADORES DE PISO X 5 LTS,2,170.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00121,5492612928724,0,CIP-0738,PERFUME TELAS SAPHIRUS - OLIMPIC,3,3150.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5492612928724,0,CIP-1870,ESPONJA ACERO INOXIDABLE 30 GR SAMANTHA,5,87.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00122,5492612928724,0,CIP-0179,BOYA GRANDE CIPCLOR,4,2030.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00122,5492612928724,0,CIP-1514,CINTA DE PAPEL 18MM X 40MT,2,1880.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00122,5492612928724,0,CIP-2436,MR MUSCULO BAÑO 450CC D.P,4,1548.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00123,5492612928724,0,CIP-2327,LIMPIA METALES BRASSO,2,4470.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00123,5492612928724,0,CIP-0610,LATITA AROMATIZANTES SAPHIRUS - CHICLE,4,4339.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00124,5492617236955,0,CIP-2617,PATO PASTILLA INODORO - LAVANDA,2,1480.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00124,5492617236955,0,CIP-1356,CANASTO / ORGANIZADOR DE RATAN MEDIANO (2),5,6060.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00125,5492617236955,0,CIP-2729,"PILAS PHILCO X 1 ""AA""",4,800.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00125,5492617236955,0,CIP-2092,HISOPOS ESTRELLA X 100 UNID,2,2490.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00126,5492617236955,0,CIP-1765,DISPENSER TOALLA INTERC. DELUXE,1,18630.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00126,5492617236955,0,CIP-1432,CEPILLO LIMPIADOR BASIC GLICK,4,1600.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00126,5492617236955,0,CIP-1523,CLORO IBC X 1140 KG,1,537060.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00127,5492617413812,0,CIP-3129,SHINY LIMPIADOR LIQUIDO X 250CC - FRUTOS ROJ,4,1540.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00128,5492617413812,0,CIP-2237,JABON TOCADOR REXONA 125 GR - COTTON FRESH,2,1210.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00128,5492617413812,0,CIP-1810,ESCOBA DE GUINEA MINI,1,1626.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00129,5492617413812,0,CIP-3170,SUAVIZANTE DOWNY BOTELLA 450/500CC - ADORAVEL,5,4940.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00129,5492617413812,0,CIP-2688,PERFUME TEXTIL X 500CC - MIMO,5,2542.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00129,5492617413812,0,CIP-0327,DIFUSOR SAPHIRUS 120CC - MELOCOTON,2,4460.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00130,5492998066543,0,CIP-0149,AROMATIZANTE DE AMBIENTES SAPHIRUS MINI - MAGNOLIA,2,2460.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00131,5492998066543,0,CIP-2451,NATACLOR CLORO GRANULADO MULTIFUNCION X 1KG,2,14430.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00131,5492998066543,0,CIP-0019,ACONDICIONADOR PLUSBELLE X 1LT - NUTRICION,4,3100.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00132,5492998066543,0,CIP-2837,RATAK RATICIDA X 50GR,5,630.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00132,5492998066543,0,CIP-3111,SHAMPOO PULGUICIDA MOLA X 200CC,1,3650.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00132,5492998066543,0,CIP-1143,AGUA OXIGENADA X 500 ML,2,1370.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00132,5492998066543,0,CIP-0853,SAHUMERIOS BANGLADESH X 10 - ENERGIA LI,1,880.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00133,5492999435946,0,CIP-0126,AEROSOL URBAN FRESH - WANNA,1,2690.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00134,5492999435946,0,CIP-1475,CESTO 3 Y 4LTS - HOME,3,4370.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00135,5492999435946,0,CIP-2977,SAHUMERIOS HEXAGONAL - LAVANDA,3,570.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00135,5492999435946,0,CIP-1809,ESCOBA DE GUINEA GALPONERA,4,5730.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00136,5493416524997,0,CIP-0105,AEROSOL SAPHIRUS - SANDIA PEP,4,4520.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00136,5493416524997,0,CIP-1807,ESCOBA ATHENA,3,3010.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00136,5493416524997,0,CIP-0152,AROMATIZANTE DE AMBIENTES SAPHIRUS MINI - PAPAYA,1,2460.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00137,5493416524997,0,CIP-1435,CEPILLO MANY MANO,5,1830.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00137,5493416524997,0,CIP-2707,PERFUMERIA FINA MILANO - SI,5,13101.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00137,5493416524997,0,CIP-0571,HISOPOS ALGABO BABY X 30,4,3010.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00137,5493416524997,0,CIP-1012,SAPHIRUS TOUCH FULL - AGUA MARINO,4,3900.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00138,5493416524997,0,CIP-1278,BOLSAS 80X110 EXTRACONSORCIO X 10 UNID - 50 MIC,2,4900.00,1,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00138,5493416524997,0,CIP-2056,GUANTES MOTEADO BLANCO ALGODON,1,1020.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00138,5493416524997,0,CIP-0172,BLOQUE PARA MOCHILAS X 1 URBAN FRESH,1,1409.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00138,5493416524997,0,CIP-1395,CARITAS AROMATICAS - NARANJA,4,2770.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00139,5493517632424,0,CIP-3316,TRAPOS MICROFIBRA MULTIUSO,4,14351.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00140,5493517632424,0,CIP-0717,PERFUME TELAS SAPHIRUS - INDIANA,5,3150.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00140,5493517632424,0,CIP-1527,CLOSE UP ACCION 70GR - EUCALIPTUS,1,1180.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00140,5493517632424,0,CIP-0441,ESENCIA PARA HORNITO SAPHIRUS - NAG CHAMPA,3,2580.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00141,5493517632424,0,CIP-2665,PERFUME TELAS AMBAR X 150CC - OLYMPIC,4,1690.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00141,5493517632424,0,CIP-1688,DESODORANTE EN AEROSOL PALOMA HERRERA,1,3123.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00142,5493519107005,0,CIP-2408,MATAMOSCAS CABO DE ALAMBRE,1,900.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00142,5493519107005,0,CIP-0629,LIMPIAFONDO TRIANGULAR VULCANO,2,15746.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00142,5493519107005,0,CIP-1563,CUÑETE PASTILLA DE CLORO 200GR,4,257401.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00142,5493519107005,0,CIP-2074,HIGIENICO CARTABELLA 30MT X 4 (12),1,1350.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00143,5493519107005,0,CIP-1442,CEPILLO PARA ROPA,2,2560.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00143,5493519107005,0,CIP-0281,DIFUSOR SAPHIRUS 120CC - ADVENTURE,5,4460.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00144,5493519107005,0,CIP-3257,TAPON BOTELLA SILICONA DE ANIMALES,2,205.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00145,5493874104594,0,CIP-0063,AEROSOL SAPHIRUS - JAZMIN,3,4520.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00145,5493874104594,0,CIP-3195,SUAVIZANTE VIVERE X 5LT,3,3120.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00145,5493874104594,0,CIP-1265,BLEM PISOS PORCELANATO 450CC,4,7180.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00145,5493874104594,0,CIP-0446,ESENCIA PARA HORNITO SAPHIRUS - PALO SANTO,2,2580.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00146,5493874104594,0,CIP-1879,ESPONJA LAFFITTE,2,3491.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00146,5493874104594,0,CIP-0105,AEROSOL SAPHIRUS - SANDIA PEP,3,4520.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00147,5493874104594,0,CIP-0333,DIFUSOR SAPHIRUS 120CC - NINA,1,4460.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00147,5493874104594,0,CIP-0630,LYSOFORM ADHESIVO X 3 - CITRICA,5,1969.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00148,5493876499570,0,CIP-1351,CANASTA INODORO VIM 6 EN 1 - CITRUS,5,3350.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00148,5493876499570,0,CIP-3110,SHAMPOO PARA MANOS X 5LT,5,4330.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00148,5493876499570,0,CIP-1919,FIBRA ESPONJA PRACTIC SAMANTHA,1,497.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00148,5493876499570,0,CIP-2485,ODORONO AEROSOL 150CC,1,3370.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00149,5493876499570,0,CIP-1233,BARREHOJAS PLASTICOS CRECCHIO,3,1537.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00149,5493876499570,0,CIP-0660,PASTA DENTAL COLGATE KIDS 50GR - FRUTILLA,3,2900.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00149,5493876499570,0,CIP-2178,"JABON LIQUIDO ""ARIEL"" X 20LT",2,8010.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00150,5493876499570,0,CIP-3314,TRAPO DE PISO GRIS SINA,3,790.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00150,5493876499570,0,CIP-1159,ALFOMBRA DESING PRINT,4,3870.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00151,5493418277249,25004,CIP-0025,AEROSOL SAPHIRUS,1,3842.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad) - promo fase 2,true,true,true
+P-00152,5493587905250,25001,CIP-0957,SAHUMERIOS TIBETANOS SLIM X 10V AROMANZA (4),4,1290.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00152,5493587905250,25001,CIP-2157,INSECTICIDA ESCUDO MATA MOSCAS Y MOSQUITOS,5,3060.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00152,5493587905250,25001,CIP-2814,PULVERIZADOR 1.5LT GIBER,3,22500.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00153,5493582641213,25002,CIP-0258,DIFUSOR PARA AUTOS AROMANZA - COCONUT,4,3150.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00153,5493582641213,25002,CIP-0330,DIFUSOR SAPHIRUS 120CC - MIEL Y LIM,5,4460.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00153,5493582641213,25002,CIP-0817,POETT DES. AMB AEROSOL 360CC - MUSICA EN PRIMAVERA,3,3200.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00154,5492991227644,25003,CIP-3246,TAPER TARRO FLIP TOP 1.7 LTS CILINDRICO,1,2449.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00154,5492991227644,25003,CIP-3318,TRIPLE 15 FERTILIZANTE X 500GR,2,2610.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00155,5493587747641,25005,CIP-3213,SUN SAL REGENERADORA X 1KG,3,7930.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00155,5493587747641,25005,CIP-2920,ROUTE 66 - UVA,2,2770.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00155,5493587747641,25005,CIP-1287,BOLSAS GAMIPLAST 60X90 X 10UN,4,750.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00155,5493587747641,25005,CIP-2563,PAPEL ALUMINIO X 4MT GLOW,2,249.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00156,5492614053074,25006,CIP-1215,BALDE HERALDPLAST X 10 LTS TRASLUCIDO / GARDENLIFE,5,3260.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00157,5493514079279,25007,CIP-0450,ESENCIA PARA HORNITO SAPHIRUS - RUDA Y ROM,4,2580.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00157,5493514079279,25007,CIP-2326,LIMPIA INODORO ESCOBILLA RECTA ECOOOOO,2,777.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
