@@ -1,0 +1,18 @@
+qa_bucket,pedido_id,veredicto,nota
+tienda,104,ok,Pidió catálogo y pegó el pedido de la tienda. Canal tienda correcto aunque origen=suplai.
+tienda,105,ok,Pidió catálogo; hay fricción de precio/SKU (cañuelas girasol) pero el pedido es del agente.
+tienda,106,ok,Empezó en chat (polvoritas/rasta) y después pegó pedido de catálogo. Mixto; flag URL correcto.
+tienda,107,ok,Pidió catálogo y también cargó productos en chat. Atribución OK.
+tienda,109,ok,Pidió catálogo de golosinas. Atribución OK.
+chat_match_alto,56,ok,Pegó el texto típico de la tienda ('quiero hacer el siguiente pedido') sin URL en el hilo. Match 1.0 por códigos en el paste. Pedido real.
+chat_match_alto,101,ok,Chat puro: anótame 1 caja de aceite cañuelas girasol 900. Productos coinciden.
+chat_match_alto,108,ok,Dictado de harina/aceite/pureza. Pedido cerrado del agente.
+chat_match_alto,113,ok,Baggio y polvoritas en chat. Hubo confusión ('nooo que es esto') pero cerró.
+chat_match_alto,114,ok,Segundo pedido a los 3 min en el mismo hilo. Repetidor intra-conversación.
+chat_match_bajo,17407,ok_con_matices,Dijo mayonesa / cantidades; match 0 porque el nombre de catálogo no trae esa palabra. Carrito abierto real.
+chat_match_bajo,17401,ok,Listó productos y canceló ('entonces nada gracias'). 0 ítems / abierto: no concretó.
+chat_match_bajo,17263,ok_con_matices,Eligió por índice ('quiero la 1') sobre una lista del agente. Match 0 esperado. Confirmado igual.
+chat_match_bajo,17210,ok_con_matices,Pidió aceite natura 900/1500; match 0 (nombre de línea distinto). Pedido confirmado real.
+chat_match_bajo,17167,ok,Pidió media tarde 315g; match 0 por alias. Descargado: mérito del agente igual.
+ajuste_ventana,0,aplicado,"Se excluyeron 16932 pedidos con fecha a medianoche (carga histórica). Tras eso 24h=48h=164 pedidos; 7d suma 1. No hace falta agrandar la ventana."
+metadata,0,no_escrito,clients.metadata.agent_journey queda para un OK explícito post-llamada.

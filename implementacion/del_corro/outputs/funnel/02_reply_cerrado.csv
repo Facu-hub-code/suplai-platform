@@ -1,0 +1,74 @@
+client_id,phone_number,razon_social,n_envios_con_respuesta,first_reply_at,last_reply_at,first_template,last_template,conversion_best,n_pedidos_atribuidos,n_cerrados,n_abiertos,tuvo_problema,n_tickets,n_frustracion,abandono_carrito
+33042,5493512059584,MERCADO CARLOS,1,2026-05-12T12:50:12.597974+00:00,2026-05-12T12:50:12.597974+00:00,plantilla_agua,plantilla_agua,cerrado,1,1,0,false,0,0,false
+46359,5493512073801,El almacen,1,2026-08-17T14:29:34.777259+00:00,2026-08-17T14:29:34.777259+00:00,template_feriado_generic,template_feriado_generic,cerrado,3,2,1,false,0,0,false
+44239,5493512079147,Cañete Walter,1,2026-06-16T17:11:28.928184+00:00,2026-06-16T17:11:28.928184+00:00,template_feriado_generic,template_feriado_generic,cerrado,1,1,0,false,0,0,false
+44455,5493512088457,María rivadero,1,2026-04-30T14:02:31.259514+00:00,2026-04-30T14:02:31.259514+00:00,template_feriado_generic,template_feriado_generic,cerrado,1,1,0,false,0,0,false
+43463,5493512091735,Ramiro hernan bustos,1,2026-05-25T12:53:49.092385+00:00,2026-05-25T12:53:49.092385+00:00,template_feriado_generic,template_feriado_generic,cerrado,1,1,0,false,0,0,false
+38921,5493512380972,MOROMIZATO SILVINA TERESA,1,2026-05-25T15:52:48.996063+00:00,2026-05-25T15:52:48.996063+00:00,template_feriado_generic,template_feriado_generic,cerrado,1,1,0,true,0,2,false
+37406,5493512396118,Holiday,1,2026-07-29T13:37:47.411362+00:00,2026-07-29T13:37:47.411362+00:00,vendedor_faltante,vendedor_faltante,cerrado,1,1,0,false,0,0,false
+34413,5493512415330,Marcos David Mampazo,1,2026-04-22T12:08:48.394417+00:00,2026-04-22T12:08:48.394417+00:00,plantilla_abril2,plantilla_abril2,cerrado,1,1,0,true,0,2,false
+31600,5493512418415,Maira Arce,1,2026-01-23T12:02:41.874926+00:00,2026-01-23T12:02:41.874926+00:00,template_4,template_4,cerrado,2,2,0,false,0,0,false
+41140,5493512499341,EDUARDO MAMONDI,2,2026-05-25T12:22:00.365974+00:00,2026-07-13T16:33:24.436289+00:00,template_feriado_generic,plantilla_opciones,cerrado,1,1,0,false,0,0,false
+35077,5493512510744,Lorena Cipoletti ,1,2026-02-02T15:08:00.055685+00:00,2026-02-02T15:08:00.055685+00:00,template_5,template_5,cerrado,1,1,0,true,0,1,false
+44593,5493512880538,Mansilla edith,4,2026-04-24T12:40:27.078805+00:00,2026-08-07T14:05:18.909379+00:00,plantilla_abril2,vendedor_faltante,cerrado,2,2,0,false,0,0,false
+37114,5493512949704,EVA MAMANI,2,2026-04-28T17:14:58.202613+00:00,2026-05-19T17:10:56.024350+00:00,plantilla_abril2,plantilla_agua,cerrado,2,2,0,false,0,0,false
+31258,5493513039919, Nelson julio lamas,2,2026-02-19T16:45:46.761066+00:00,2026-05-07T14:48:59.398398+00:00,template_5,plantilla_abril2,cerrado,2,2,0,true,0,7,false
+33271,5493513222135,Yanina ñañez,4,2026-06-11T11:59:26.339364+00:00,2026-08-13T13:35:08.309169+00:00,template_mayo_1,promo_especial_merienda,cerrado,2,1,1,true,0,1,false
+37997,5493513412000,WALKER RIVERO MILENA LIZ,1,2026-07-02T19:34:23.374464+00:00,2026-07-02T19:34:23.374464+00:00,plantilla_bonafide,plantilla_bonafide,cerrado,1,1,0,false,0,0,false
+34565,5493513413069,LEDESMA VANESA,1,2026-04-20T13:11:11.907823+00:00,2026-04-20T13:11:11.907823+00:00,template_abril,template_abril,cerrado,1,1,0,false,0,0,false
+33081,5493513414177,Eugenia coria,2,2026-06-29T17:42:32.118922+00:00,2026-07-20T11:25:09.703142+00:00,plantilla_bonafide,plantilla_opciones,cerrado,1,1,0,false,0,0,false
+46432,5493513417210,Muños rolando javier,2,2026-07-29T15:41:12.990615+00:00,2026-08-05T15:26:07.739874+00:00,vendedor_faltante,vendedor_faltante,cerrado,2,1,1,false,0,0,false
+36830,5493513442658,VARELA MARINA CRISTINA,1,2026-06-16T17:22:11.372294+00:00,2026-06-16T17:22:11.372294+00:00,template_feriado_generic,template_feriado_generic,cerrado,1,1,0,false,0,0,false
+34510,5493513466278,Aguirre Agustina,2,2026-02-19T21:28:59.189019+00:00,2026-07-30T16:27:33.809330+00:00,template_5,vendedor_faltante,cerrado,1,1,0,false,0,0,false
+36504,5493513498549,OCHOA PABLO,2,2026-08-01T14:20:51.665614+00:00,2026-08-15T14:19:26.790444+00:00,vendedor_faltante,promo_especial_merienda,cerrado,3,2,1,false,0,0,false
+39806,5493513546951,Nicolas Ferrer ,3,2026-07-09T12:52:19.195615+00:00,2026-07-23T14:30:52.186409+00:00,template_feriado_generic,plantilla_opciones2,cerrado,2,2,0,false,0,0,false
+32951,5493513550826,Llannes Alicia,3,2026-02-12T03:02:02.993458+00:00,2026-04-29T17:22:32.113633+00:00,template_5,plantilla_abril2,cerrado,1,1,0,false,0,0,false
+35685,5493513595934,Natalia pucheta,1,2026-04-14T13:01:54.475514+00:00,2026-04-14T13:01:54.475514+00:00,template_abril,template_abril,cerrado,1,1,0,false,0,0,false
+41623,5493513748072,TDC S.A.S.,2,2026-04-16T16:20:47.625698+00:00,2026-07-30T13:30:43.309415+00:00,template_abril,plantilla_opciones2,cerrado,1,1,0,false,0,0,false
+34613,5493513859387,GRIBAUDO SILVANA,2,2026-06-16T15:11:05.612176+00:00,2026-08-18T15:32:28.550279+00:00,template_feriado_generic,feriado_nueva,cerrado,1,1,0,false,0,0,false
+31575,5493513895130,ADELA RITA VEGA,2,2026-05-06T14:35:52.488532+00:00,2026-06-02T13:20:42.813495+00:00,plantilla_abril2,zona5_wa_productos_sugeridos_y_mensaje_personalizado_1,cerrado,1,1,0,false,0,0,false
+32962,5493515102565,Erica Zavala,2,2026-01-21T12:47:17.457982+00:00,2026-05-06T11:43:36.966558+00:00,template_4,plantilla_abril2,cerrado,1,1,0,false,0,0,false
+34497,5493515196288,Silvia Veyra,1,2026-02-19T16:48:49.567225+00:00,2026-02-19T16:48:49.567225+00:00,template_5,template_5,cerrado,1,1,0,true,0,2,false
+41872,5493515283472,Rivarola Candela,1,2026-07-31T14:47:37.643426+00:00,2026-07-31T14:47:37.643426+00:00,plantilla_opciones,plantilla_opciones,cerrado,1,1,0,false,0,0,false
+45146,5493515303593,Pedeberdot Christian Andrés ,4,2026-05-25T12:29:34.490241+00:00,2026-08-17T14:04:27.301936+00:00,template_feriado_generic,template_feriado_generic,cerrado,1,1,0,false,0,0,false
+36031,5493515475588,Lorena,1,2026-07-09T17:56:28.845333+00:00,2026-07-09T17:56:28.845333+00:00,template_feriado_generic,template_feriado_generic,cerrado,1,1,0,false,0,0,false
+31249,5493515609775,Gómez Veronica,2,2026-07-28T17:42:15.231502+00:00,2026-08-04T14:28:06.016779+00:00,vendedor_faltante,vendedor_faltante,cerrado,2,1,1,false,0,0,false
+45986,5493515727647,Leo Faro,2,2026-06-11T14:54:36.231662+00:00,2026-06-25T15:31:04.439444+00:00,template_mayo_1,template_mayo_1,cerrado,2,2,0,false,0,0,false
+31481,5493515729333,Romero Lorena Soledad,1,2026-06-22T16:42:33.571659+00:00,2026-06-22T16:42:33.571659+00:00,template_feriado_generic,template_feriado_generic,cerrado,1,1,0,false,0,0,false
+34570,5493515917156,PEREA RAUL,2,2026-04-20T14:03:10.891818+00:00,2026-04-27T13:41:03.376543+00:00,template_abril,plantilla_abril2,cerrado,1,1,0,false,0,0,false
+33253,5493515942752,Catalina castillo,3,2026-06-25T16:00:52.616082+00:00,2026-07-23T14:17:57.030081+00:00,template_mayo_1,plantilla_opciones2,cerrado,1,1,0,false,0,0,false
+33212,5493516008333,SANCHEZ NOEMI,5,2026-01-23T13:09:36.308432+00:00,2026-06-04T11:59:51.938438+00:00,template_4,zona5_wa_productos_sugeridos_y_mensaje_personalizado_1,cerrado,2,2,0,true,0,1,false
+31756,5493516087658,VILLALBA FANNY,2,2026-01-24T14:27:40.795516+00:00,2026-02-13T14:11:36.256017+00:00,template_4,template_5,cerrado,1,1,0,false,0,0,false
+44823,5493516103005,Nicolás Fogliati ,2,2026-06-15T11:28:15.163747+00:00,2026-08-17T17:22:03.547615+00:00,template_feriado_generic,template_feriado_generic,cerrado,7,7,0,true,0,2,false
+43044,5493516190667,Balverdi Sebastián ,3,2026-06-02T11:06:38.416457+00:00,2026-07-01T13:03:54.104512+00:00,template_mayo_1,plantilla_bonafide,cerrado,3,3,0,false,0,0,false
+34514,5493516258183,PAOLA ESTEFANIA NAVARRO,2,2026-07-30T19:09:12.595652+00:00,2026-08-06T16:00:15.643883+00:00,vendedor_faltante,vendedor_faltante,cerrado,1,1,0,false,0,0,false
+41694,5493516349148,Maria ledesma,2,2026-04-16T13:27:26.580843+00:00,2026-04-23T12:59:56.317029+00:00,template_abril,plantilla_abril2,cerrado,2,2,0,false,0,0,false
+36265,5493516453947,Despensa marcela,1,2026-04-30T13:19:59.195865+00:00,2026-04-30T13:19:59.195865+00:00,template_feriado_generic,template_feriado_generic,cerrado,1,1,0,false,0,0,false
+38357,5493516460694,Roger Ramírez,3,2026-07-30T13:32:33.242952+00:00,2026-08-13T13:31:18.348157+00:00,plantilla_opciones2,promo_especial_merienda,cerrado,1,1,0,false,0,0,false
+32089,5493516525798,Salas Gabeiel,2,2026-06-25T19:44:46.628141+00:00,2026-07-23T13:48:55.284098+00:00,template_mayo_1,plantilla_opciones2,cerrado,2,2,0,false,0,0,false
+43150,5493516531804,Verdulería Yoli,4,2026-07-24T14:50:27.117963+00:00,2026-08-14T14:21:01.540601+00:00,vendedor_faltante,promo_especial_merienda,cerrado,1,1,0,true,0,1,false
+36387,5493516566150,Maria Alejandra Moyano,1,2026-02-21T12:08:13.267532+00:00,2026-02-21T12:08:13.267532+00:00,template_5,template_5,cerrado,1,1,0,false,0,0,false
+33181,5493516872868,Kiosco de chapa hospital infantil,2,2026-06-05T13:38:20.268620+00:00,2026-07-17T14:16:33.898595+00:00,template_mayo_1,plantilla_opciones2,cerrado,1,1,0,false,0,0,false
+33218,5493516877797,Jazmin Heredia,2,2026-02-13T11:04:08.690943+00:00,2026-08-07T14:04:55.014296+00:00,template_5,plantilla_opciones2,cerrado,1,1,0,false,0,0,false
+31927,5493516982390,MEDINA CECILIA DEL MILAGRO,1,2026-02-17T14:53:51.171238+00:00,2026-02-17T14:53:51.171238+00:00,template_feriado_martes,template_feriado_martes,cerrado,1,1,0,false,0,0,false
+42083,5493517143336,Jesica Rodríguez,3,2026-05-25T12:19:44.486816+00:00,2026-08-18T15:37:15.249408+00:00,template_feriado_generic,feriado_nueva,cerrado,1,1,0,true,0,2,false
+35203,5493517473264,Gergue,2,2026-07-02T14:14:25.013854+00:00,2026-08-13T14:15:40.128317+00:00,plantilla_bonafide,promo_especial_merienda,cerrado,2,1,1,false,0,0,false
+36511,5493517530211,Regueiro fabiana,4,2026-06-22T16:27:07.264921+00:00,2026-08-15T14:02:49.014750+00:00,template_feriado_generic,promo_especial_merienda,cerrado,2,2,0,false,0,0,false
+40923,5493517606505,René Nicolás aguero,1,2026-08-06T16:22:56.074673+00:00,2026-08-06T16:22:56.074673+00:00,plantilla_opciones2,plantilla_opciones2,cerrado,2,1,1,false,0,0,false
+45937,5493517652258,CLAUDIO FABIAN BENEGAS,1,2026-07-29T23:03:48.666384+00:00,2026-07-29T23:03:48.666384+00:00,vendedor_faltante,vendedor_faltante,cerrado,1,1,0,false,0,0,false
+44060,5493517868839,Osmarve santana,2,2026-07-09T17:17:23.445125+00:00,2026-07-16T19:55:02.355680+00:00,template_feriado_generic,plantilla_opciones2,cerrado,1,1,0,false,0,0,false
+36547,5493518014625,ALBA ELENA GRIFFO,6,2026-05-02T12:19:05.525157+00:00,2026-07-11T12:42:08.704064+00:00,plantilla_abril2,plantilla_opciones,cerrado,2,2,0,false,0,0,false
+33009,5493518105148,Franco aguero ,7,2026-01-21T12:48:46.417868+00:00,2026-05-27T11:05:40.094460+00:00,template_4,plantilla_agua,cerrado,1,1,0,false,0,0,false
+36012,5493518685910,mercedes Albarracín,1,2026-02-19T16:33:40.468297+00:00,2026-02-19T16:33:40.468297+00:00,template_5,template_5,cerrado,1,1,0,false,0,0,false
+36165,5493518721309,Ezequiel cristian alejando lujan ,1,2026-07-09T11:07:18.343877+00:00,2026-07-09T11:07:18.343877+00:00,template_feriado_generic,template_feriado_generic,cerrado,2,2,0,false,0,0,false
+34611,5493518762880,Melina Venencia,2,2026-05-25T12:25:24.078438+00:00,2026-06-15T11:47:48.191929+00:00,template_feriado_generic,template_feriado_generic,cerrado,1,1,0,false,0,0,false
+46054,5493525417507,JORGE OSCAR CEJAS,1,2026-08-17T20:13:32.719914+00:00,2026-08-17T20:13:32.719914+00:00,template_feriado_generic,template_feriado_generic,cerrado,2,1,1,false,0,0,false
+36325,5493525479047,Jeronimo alfredo Naninni,1,2026-02-21T14:13:59.538440+00:00,2026-02-21T14:13:59.538440+00:00,template_5,template_5,cerrado,1,1,0,true,0,2,false
+40871,5493525516420,Alicia Peralta,2,2026-06-16T17:27:01.866596+00:00,2026-08-18T16:50:58.145802+00:00,template_feriado_generic,feriado_nueva,cerrado,3,2,1,false,0,0,false
+45372,5493525624433,FRIOS SL S.A.S,1,2026-07-31T14:30:39.945340+00:00,2026-07-31T14:30:39.945340+00:00,plantilla_opciones,plantilla_opciones,cerrado,1,1,0,false,0,0,false
+45992,5493534173047,Bravo Dalma,1,2026-08-17T22:26:10.898301+00:00,2026-08-17T22:26:10.898301+00:00,template_feriado_generic,template_feriado_generic,cerrado,2,1,1,false,0,0,false
+36256,5493541382214,JUAN CRUZ LEDESMA,1,2026-08-04T13:31:54.195506+00:00,2026-08-04T13:31:54.195506+00:00,opciones_dia_del_amigo,opciones_dia_del_amigo,cerrado,1,1,0,false,0,0,false
+45825,5493541530300,Cerrone Alejandro,2,2026-07-08T15:37:30.755742+00:00,2026-07-21T12:25:14.334329+00:00,plantilla_bonafide,plantilla_opciones,cerrado,1,1,0,false,0,0,false
+31889,5493543620320,Ramón Carnero,1,2026-04-11T12:18:07.325149+00:00,2026-04-11T12:18:07.325149+00:00,template_abril,template_abril,cerrado,2,2,0,false,0,0,false
+62079,5493571419486,Kiosco,1,2026-04-20T13:04:30.079240+00:00,2026-04-20T13:04:30.079240+00:00,template_abril,template_abril,cerrado,2,2,0,true,0,2,false
+36128,5493878550379,JOAQUIN GASPARINI,1,2026-07-09T11:22:07.332084+00:00,2026-07-09T11:22:07.332084+00:00,template_feriado_generic,template_feriado_generic,cerrado,1,1,0,false,0,0,false

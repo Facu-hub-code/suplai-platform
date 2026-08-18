@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Campi — funnel del agente</title>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #5c5c5c;
+      --line: #d9d9d9;
+      --paper: #fff;
+      --warn-bg: #f7f1e4;
+      --warn-ink: #6a4b12;
+      --info-bg: #eef3f8;
+      --info-ink: #1f3a56;
+      --ok: #1f6b3a;
+      --warn: #9a6700;
+    }
+    * { box-sizing: border-box; }
+    @page { size: A4; margin: 14mm 14mm 16mm; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 11.5px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    h1 { font-size: 22px; font-weight: 650; margin: 0 0 4px; letter-spacing: -0.02em; }
+    h2 { font-size: 14px; font-weight: 650; margin: 18px 0 8px; }
+    p { margin: 0 0 8px; }
+    .sub { color: var(--muted); font-size: 11px; }
+    .kicker { color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }
+    .callout {
+      border: 1px solid var(--line);
+      padding: 10px 12px;
+      margin: 12px 0;
+    }
+    .callout.warn { background: var(--warn-bg); color: var(--warn-ink); }
+    .callout.info { background: var(--info-bg); color: var(--info-ink); }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin: 14px 0;
+    }
+    .stat {
+      border: 1px solid var(--line);
+      padding: 10px 12px;
+    }
+    .stat b { display: block; font-size: 20px; font-weight: 650; letter-spacing: -0.03em; }
+    .stat span { color: var(--muted); font-size: 10.5px; }
+    .stat.ok b { color: var(--ok); }
+    .stat.warn b { color: var(--warn); }
+    .grid2 {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 12px;
+    }
+    .card {
+      border: 1px solid var(--line);
+      padding: 12px;
+    }
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 12px;
+      font-weight: 650;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 11px; }
+    th, td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--line); }
+    th { font-weight: 600; color: var(--muted); font-size: 10px; }
+    td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+    .bar-row { display: flex; align-items: center; gap: 8px; margin: 5px 0; }
+    .bar-lab { width: 148px; flex: none; color: var(--muted); }
+    .bar-track { flex: 1; height: 10px; background: #efefef; }
+    .bar-fill { height: 10px; background: #3d5a80; }
+    .bar-n { width: 36px; text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+    .split { display: flex; gap: 16px; align-items: center; margin-top: 8px; }
+    .donut-legend span { display: inline-block; width: 8px; height: 8px; margin-right: 6px; }
+    footer { margin-top: 16px; color: var(--muted); font-size: 9.5px; }
+    .avoid { break-inside: avoid; page-break-inside: avoid; }
+  </style>
+</head>
+<body>
+  <p class="kicker">Suplai · tenant del_corro · dic 2025 – ago 2026</p>
+  <h1>Campi — funnel del agente</h1>
+  <p class="sub">Fuente: pedidos + conversaciones (n8n y core) · atribución 48 h tras mensaje humano · fecha con hora real (no medianoche de carga CSV).</p>
+
+  <div class="callout warn">
+    <strong>Cómo leer este reporte.</strong>
+    El campo <code>origen=suplai</code> no separa mérito: 17.080 pedidos históricos quedaron con ese default.
+    Un pedido cuenta para el agente solo si hay mensaje humano en ventana y la fecha tiene hora.
+    No se usa “delivered” de Meta: la cohorte de plantillas son quienes <em>respondieron</em>.
+  </div>
+
+  <div class="stats">
+    <div class="stat"><b>6.337</b><span>Clientes en base</span></div>
+    <div class="stat"><b>544</b><span>Respondieron tras plantilla</span></div>
+    <div class="stat ok"><b>138</b><span>Pedidos cerrados del agente</span></div>
+    <div class="stat"><b>23</b><span>Clientes que repitieron</span></div>
+  </div>
+
+  <h2>De la plantilla al pedido</h2>
+  <p class="sub">Cantidad de teléfonos, no de envíos. 4.484 sesiones recibieron HSM (eso no es KPI). El dashboard n8n-only marca 388 sesiones; 544 incluye mensajes de core en la misma session_id. Abierto / cerrado / repetidores = cruce respuesta HSM × pedido atribuido (mejor estado: cerrado sobre abierto).</p>
+  <div class="avoid">
+    <div class="bar-row"><div class="bar-lab">Respondieron HSM</div><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><div class="bar-n">544</div></div>
+    <div class="bar-row"><div class="bar-lab">Pedido abierto</div><div class="bar-track"><div class="bar-fill" style="width:2.8%"></div></div><div class="bar-n">15</div></div>
+    <div class="bar-row"><div class="bar-lab">Pedido cerrado</div><div class="bar-track"><div class="bar-fill" style="width:13.4%"></div></div><div class="bar-n">73</div></div>
+    <div class="bar-row"><div class="bar-lab">Repitieron 2+</div><div class="bar-track"><div class="bar-fill" style="width:4.2%"></div></div><div class="bar-n">23</div></div>
+  </div>
+  <p class="sub">Conversión a cerrado sobre quienes contestaron: 13,4% (73 / 544). Los 456 sin pedido contestaron; no hay pedido del agente en ventana.</p>
+
+  <div class="grid2 avoid">
+    <div class="card">
+      <h3>Pedidos con mérito del agente</h3>
+      <p>164 pedidos con hora real y chat en 48 h (125 clientes). 24 h y 48 h dan el mismo recuento; a 7 días suma 1. La venta del agente es contemporánea al hilo.</p>
+      <div class="stats" style="grid-template-columns: repeat(3, 1fr); margin: 8px 0;">
+        <div class="stat ok"><b>138</b><span>Cerrados</span></div>
+        <div class="stat warn"><b>26</b><span>Abiertos</span></div>
+        <div class="stat"><b>125</b><span>Clientes</span></div>
+      </div>
+      <div class="split">
+        <div>
+          <p style="margin:0 0 4px"><span style="display:inline-block;width:8px;height:8px;background:#3d5a80;margin-right:6px"></span>Catálogo / tienda · 94</p>
+          <p style="margin:0"><span style="display:inline-block;width:8px;height:8px;background:#98c1d9;margin-right:6px"></span>Chat · 70</p>
+        </div>
+      </div>
+      <p class="sub" style="margin-top:8px">Canal = origen=tienda o URL tienda.suplaisales.com en el hilo. 24 nacieron en login tienda; el resto pidió catálogo en WhatsApp.</p>
+    </div>
+    <div>
+      <div class="card avoid" style="margin-bottom:12px">
+        <h3>Higiene de los 17.109 pedidos</h3>
+        <table>
+          <thead><tr><th>Motivo</th><th class="num">Pedidos</th></tr></thead>
+          <tbody>
+            <tr><td>Carga histórica (medianoche)</td><td class="num">16.932</td></tr>
+            <tr><td>Atribuidos al agente</td><td class="num">164</td></tr>
+            <tr><td>Fuera de ventana 48 h</td><td class="num">7</td></tr>
+            <tr><td>Sin conversación (tel. corto)</td><td class="num">6</td></tr>
+          </tbody>
+        </table>
+        <p class="sub" style="margin-top:8px">origen tienda = 29 (24 atribuidos). origen erp = 0.</p>
+      </div>
+      <div class="card avoid">
+        <h3>Match chat vs productos</h3>
+        <p>En 69 pedidos chat con líneas, el cliente nombró en promedio el 72% de los SKUs. 53 superan 50%; 11 quedan en 0 (eligió de una lista, alias, o canceló).</p>
+        <p class="sub">Sample de 15 hilos: catálogo y chat alto coinciden. Match 0 no niega el pedido: niega que el nombre esté en el mensaje.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>Quiénes respondieron una plantilla y qué pasó</h2>
+  <div class="stats" style="grid-template-columns: repeat(3, 1fr)">
+    <div class="stat ok"><b>73</b><span>Cerraron pedido</span></div>
+    <div class="stat warn"><b>15</b><span>Quedaron abiertos</span></div>
+    <div class="stat"><b>456</b><span>Sin pedido atribuido</span></div>
+  </div>
+
+  <div class="card avoid">
+    <h3>Repitieron con el agente · 23 clientes con 2 o más pedidos cerrados atribuidos</h3>
+    <table>
+      <thead>
+        <tr><th>Cliente</th><th class="num">Cerrados</th><th>Canal</th><th class="num">Total (crudo BD)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Nicolás Fogliati</td><td class="num">7</td><td>chat + tienda</td><td class="num">revisar total BD</td></tr>
+        <tr><td>Balverdi Sebastián</td><td class="num">3</td><td>chat</td><td class="num">428.648</td></tr>
+        <tr><td>Nelson Julio Lamas</td><td class="num">2</td><td>tienda</td><td class="num">75.160</td></tr>
+        <tr><td>Alba Elena Griffo</td><td class="num">2</td><td>chat + tienda</td><td class="num">109.920</td></tr>
+        <tr><td>Alicia Peralta</td><td class="num">2</td><td>chat + tienda</td><td class="num">157.183</td></tr>
+        <tr><td>Eva Mamani</td><td class="num">2</td><td>tienda</td><td class="num">249.758</td></tr>
+        <tr><td>Ezequiel C. A. Lujan</td><td class="num">2</td><td>tienda</td><td class="num">254.174</td></tr>
+        <tr><td>Veroneo Marina</td><td class="num">2</td><td>chat + tienda</td><td class="num">259.200</td></tr>
+        <tr><td>OSVALDO H. DE GENNARO</td><td class="num">2</td><td>chat</td><td class="num">215.150</td></tr>
+        <tr><td>Regueiro Fabiana</td><td class="num">2</td><td>tienda</td><td class="num">254.630</td></tr>
+      </tbody>
+    </table>
+    <p class="sub" style="margin-top:8px">Totales de pedidos.total. Fogliati y “El almacen” (≈20 M, no listado acá) son outliers de carga: no usar esos montos en la llamada sin cruzar ítems.</p>
+  </div>
+
+  <div class="callout info">
+    No se escribió <code>clients.metadata.agent_journey</code>. Si estos cortes cierran en la llamada, el siguiente paso es persistir por cliente (pedidos atribuidos, repetidor, HSM-reply, mejor conversión) sin pisar nearby / preferred_contact / top_products.
+  </div>
+
+  <footer>
+    Generado 18 ago 2026 · CSVs en implementacion/del_corro/outputs/funnel/ · script funnel_campi.py · sin teléfonos en este PDF
+  </footer>
+</body>
+</html>

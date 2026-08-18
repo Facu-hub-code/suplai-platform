@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-08-18T19:29:31.284167+00:00",
+  "schema": "del_corro",
+  "n_clients": 6337,
+  "n_envios": 23102,
+  "n_envios_sessions": 4484,
+  "n_pedidos_total": 17109,
+  "n_pedidos_atribuidos_48h": 164,
+  "n_cerrados": 138,
+  "n_abiertos": 26,
+  "n_clientes_atribuidos": 125,
+  "n_canal_chat": 70,
+  "n_canal_tienda": 94,
+  "n_repetidores": 23,
+  "n_hsm_respondieron": 544,
+  "n_hsm_sessions_n8n_48h": 388,
+  "n_hsm_cerrado": 73,
+  "n_hsm_abierto": 15,
+  "n_hsm_sin_pedido": 456,
+  "n_hsm_problemas": 471,
+  "sensibilidad": [
+    {
+      "ventana": "24h",
+      "n_pedidos": 164,
+      "n_cerrados": 138,
+      "n_abiertos": 26,
+      "n_clientes": 125,
+      "n_tienda_origen": 24
+    },
+    {
+      "ventana": "48h",
+      "n_pedidos": 164,
+      "n_cerrados": 138,
+      "n_abiertos": 26,
+      "n_clientes": 125,
+      "n_tienda_origen": 24
+    },
+    {
+      "ventana": "7d",
+      "n_pedidos": 165,
+      "n_cerrados": 138,
+      "n_abiertos": 27,
+      "n_clientes": 126,
+      "n_tienda_origen": 25
+    }
+  ],
+  "nota_metadata": "clients.metadata.agent_journey no se escribe en esta entrega"
+}

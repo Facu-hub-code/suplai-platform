@@ -1,0 +1,16 @@
+client_id,phone_number,razon_social,n_envios_con_respuesta,first_reply_at,last_reply_at,first_template,last_template,conversion_best,n_pedidos_atribuidos,n_cerrados,n_abiertos,tuvo_problema,n_tickets,n_frustracion,abandono_carrito
+33047,5493512261966,Carlos Fabian Martínez ,2,2026-05-25T13:55:26.465150+00:00,2026-08-18T15:35:04.818939+00:00,template_feriado_generic,feriado_nueva,abierto,1,0,1,true,0,0,true
+39442,5493513105764,Mustienes Claudio Alberto,1,2026-08-12T13:02:50.456748+00:00,2026-08-12T13:02:50.456748+00:00,vendedor_faltante,vendedor_faltante,abierto,1,0,1,true,0,0,true
+42759,5493513274717,Jorge Juan ,2,2026-06-16T15:41:23.501845+00:00,2026-08-18T15:35:30.634765+00:00,template_feriado_generic,feriado_nueva,abierto,1,0,1,true,0,0,true
+42605,5493513321930,Olmos Lilian Emilse,1,2026-07-31T15:06:58.959541+00:00,2026-07-31T15:06:58.959541+00:00,plantilla_opciones,plantilla_opciones,abierto,1,0,1,true,0,0,true
+46064,5493515513466,WALTER DAVID MARTINEZ,1,2026-08-17T14:11:23.555912+00:00,2026-08-17T14:11:23.555912+00:00,template_feriado_generic,template_feriado_generic,abierto,1,0,1,true,0,0,true
+34576,5493515582009,LAGRAS LAURA,1,2026-08-18T15:39:45.894738+00:00,2026-08-18T15:39:45.894738+00:00,feriado_nueva,feriado_nueva,abierto,1,0,1,true,0,0,true
+36389,5493515949092,Rita Lucero ARON ,3,2026-02-21T11:39:31.282459+00:00,2026-08-08T14:43:07.681082+00:00,template_5,vendedor_faltante,abierto,1,0,1,true,0,0,true
+37190,5493516069371,Maxi kiosco Sheik,1,2026-08-04T13:38:01.567184+00:00,2026-08-04T13:38:01.567184+00:00,vendedor_faltante,vendedor_faltante,abierto,1,0,1,true,0,0,true
+46070,5493516712151,ANA MARIA BECERRA,1,2026-08-17T14:02:57.856482+00:00,2026-08-17T14:02:57.856482+00:00,template_feriado_generic,template_feriado_generic,abierto,1,0,1,true,0,0,true
+46473,5493516994401,Trucco Daniel,1,2026-08-17T14:20:07.469271+00:00,2026-08-17T14:20:07.469271+00:00,template_feriado_generic,template_feriado_generic,abierto,1,0,1,true,0,0,true
+42339,5493517554433,Nazareno rodriguez,2,2026-05-04T18:49:55.195109+00:00,2026-08-18T15:36:21.760046+00:00,plantilla_abril2,feriado_nueva,abierto,1,0,1,true,0,0,true
+45693,5493541333529,YESICA MARIANA RIVAROLA,3,2026-07-29T16:25:06.576482+00:00,2026-08-12T13:49:47.624909+00:00,vendedor_faltante,vendedor_faltante,abierto,1,0,1,true,0,0,true
+43146,5493541625618,Carballo santos,1,2026-08-12T13:45:37.971444+00:00,2026-08-12T13:45:37.971444+00:00,vendedor_faltante,vendedor_faltante,abierto,1,0,1,true,0,0,true
+46236,5493543585366,Candelaria Valentina,1,2026-08-17T14:23:40.953409+00:00,2026-08-17T14:23:40.953409+00:00,template_feriado_generic,template_feriado_generic,abierto,1,0,1,true,0,0,true
+46355,5493543637862,Marilina Pierotto,1,2026-08-17T15:55:57.115698+00:00,2026-08-17T15:55:57.115698+00:00,template_feriado_generic,template_feriado_generic,abierto,1,0,1,true,0,0,true
