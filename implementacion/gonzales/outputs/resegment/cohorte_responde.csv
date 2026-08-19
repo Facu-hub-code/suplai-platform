@@ -1,0 +1,8 @@
+client_id,nombre,nombre_de_pila,phone_number,vendedor_actual,dias_visita_antes,n_envios,en_responde_promo,nota
+166,VILLARREAL LILIANA BEATRIZ,VILLARREAL,5493512081658,,MIERCOLES,8,true,
+139,MICI SRL,MICI,5493513882214,Agustin,,7,true,dos PDV MICI
+138,MICI SRL,MICI,5493515731010,,,7,true,dos PDV MICI
+271,DAVILA SANTIAGO,SANTIAGO,5493515413384,,JUEVES,7,true,
+264,PEREZ VIVIANA LAURA,,5493516538316,,,8,true,
+131,MENALDI MARIA BELEN,MENALDI,5493516859324,V09,MIERCOLES,8,true,
+123,Agustin Prueba Dev,Agustin,5493454485669,,,5,false,tester — excluido de envios

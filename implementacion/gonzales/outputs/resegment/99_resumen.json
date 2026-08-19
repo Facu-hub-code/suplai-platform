@@ -1,0 +1,28 @@
+{
+  "schema": "gonzales",
+  "tenant_id": "48132ae5-2383-4f3b-86f5-050b2d62a09b",
+  "fecha": "2026-08-19",
+  "etiquetas": {
+    "VALIDAR CONTACTO": 16,
+    "RESPONDE PROMO": 17,
+    "PROBLEMA CANAL": 18
+  },
+  "grupos": {
+    "VALIDAR CONTACTO": 15,
+    "RESPONDE PROMO": 16
+  },
+  "cohortes": {
+    "validar_contacto": 25,
+    "responde_promo": [131, 166, 271],
+    "problema_canal": [138, 139, 264],
+    "tester_excluido": [123]
+  },
+  "agendas": {
+    "tere_puntual": 39,
+    "promo_puntuales": [40, 41, 42, 43, 44, 45, 46, 47],
+    "visita_carousel_recurrentes": [17, 22, 26, 27, 37, 38],
+    "desactivadas": [18, 19, 21, 23, 28, 29, 31, 32, 33, 34, 35, 36]
+  },
+  "vendedor_fallback": "el equipo de Gonzalez Garcia",
+  "auditoria": "implementacion/gonzales/outputs/auditoria_conversaciones_20260819.md"
+}
