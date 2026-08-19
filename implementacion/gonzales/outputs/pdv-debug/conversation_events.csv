@@ -1,0 +1,11 @@
+created_at,session_id,event_type,request_id,detalle
+2026-08-11T14:52:53Z,5493513995562,catalog_search_snapshot,batch-1786459970444,"query=celofán mixto; sku=6072"
+2026-08-11T14:52:53Z,5493513995562,catalog_search_snapshot,batch-1786459970444,"query=block 110 grs; sku=5312 (38g)"
+2026-08-11T14:52:53Z,5493513995562,catalog_search_snapshot,batch-1786459970444,"query=block 38 grs negro; sku=5312"
+2026-08-11T15:09:49Z,5493513995562,followup_action,followup:2127046,send_followup_message
+2026-08-11T15:30:09Z,5493513995562,followup_action,followup:2127432,send_followup_message
+2026-08-18T12:03:27Z,5493513929320,catalog_search_snapshot,38702f44-4a12-4b0e-af67-4ed9f55e6b65,"query=dulce de membrillo lata; 5058,12700,12698,6817,12696"
+2026-08-18T12:19:59Z,5493513929320,followup_action,followup:2271584,send_followup_message
+2026-08-18T12:22:20Z,5493513929320,order_notification_sent,batch-1787055737599,"order_id=262; vendedor=Ceci; channel=legacy_text_after_meta_failure"
+2026-08-18T12:22:27Z,5493513929320,catalog_search_snapshot,batch-1787055745558,"query=membrillo lata 5 kg"
+2026-08-18T14:08:07Z,5493513929320,followup_action,followup:2273841,send_followup_message post-cancel

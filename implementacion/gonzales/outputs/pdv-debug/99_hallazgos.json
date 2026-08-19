@@ -1,0 +1,71 @@
+{
+  "observabilidad": {
+    "agent_tool_runs": 0,
+    "agent_turns_gonzales": 236,
+    "nota": "No hay filas en core.agent_tool_runs para estas session_id. Railway get_logs del deploy actual no retiene el 18 ago. Evidencia: core.conversation_events + items_pedido.notas + pedidos.estado.",
+    "eventos_clave": [
+      {
+        "session_id": "5493513929320",
+        "event_type": "catalog_search_snapshot",
+        "at": "2026-08-18T12:03:27Z",
+        "query": "dulce de membrillo lata",
+        "top": ["5058 CAJON", "12700 LC LATA", "12698 LC 700G", "6817 ARCOR LATA", "12696 ESTUCHE"]
+      },
+      {
+        "session_id": "5493513929320",
+        "event_type": "order_notification_sent",
+        "at": "2026-08-18T12:22:20Z",
+        "order_id": 262,
+        "channel": "legacy_text_after_meta_failure",
+        "vendedor_id": 2,
+        "vendedor_nombre": "Ceci",
+        "telefono": "5493518670496"
+      },
+      {
+        "session_id": "5493513929320",
+        "event_type": "catalog_search_snapshot",
+        "at": "2026-08-18T12:22:27Z",
+        "query": "membrillo lata 5 kg"
+      }
+    ]
+  },
+  "juarez": {
+    "client_id": 243,
+    "phone": "5493513995562",
+    "hecho_hsm": "Plantilla mje1_regalo_masticable800g el 11, 14 y 18 ago (dos envíos por día). El copy sigue ofreciendo 'primera compra' + masticables 800g.",
+    "hecho_pedido": "Pedido 256 confirmado 11 ago 14:52 UTC. Block 38g 20 un + Celofán 30 un. Total $71.471,60. La clienta dijo 'cierre' y después 'todo ok'.",
+    "hecho_alcance_18ago": "Tras el HSM de las 12:00 UTC: 'no es la primera la primera no llego'. El agente no abrió ticket ni consultó el pedido 256; respondió genérico pidiendo un pedido nuevo.",
+    "hipotesis": "La clienta reclama dos cosas a la vez: (1) el HSM habla de primera compra y ella ya compró; (2) el pedido 256 no le llegó. No hay evidencia logística en el hilo (sin tracking). No se puede afirmar desde el chat si 256 se despachó."
+  },
+  "melgarejo": {
+    "client_id": 237,
+    "phone": "5493513929320",
+    "sku_6817": {
+      "nombre": "MEMBRILLO ARCOR LATA X5KG",
+      "unidades_por_bulto": 2,
+      "umv": "UNIDAD",
+      "tipo_venta": null
+    },
+    "hechos": [
+      "12:03 UTC pidió 'dulce de membrillo de lata... el que viene por dos la cajita por dos'.",
+      "Agente listó opciones y dijo 'Ambos vienen en bultos de 2 unidades'.",
+      "12:04 eligió Arcor 5 kg. create_order dejó pedido 262 con 4 UNIDAD = 2 caja normalizado a bulto (nota ítem).",
+      "12:21 aclaró 'un pack de dos latas'. edit_order insertó OTRA línea 6817 de 4 UNIDAD (nota Edición agregado). Total 8 unidades / $213.456.",
+      "12:22:17 escribió 'Todo nal' (todo mal). 12:22:20 se disparó order_notification_sent del pedido 262 a Ceci. 262 quedó confirmado.",
+      "12:22:25 'Mal Mal' → el agente abrió pedido 263 con MEMBRILLO LC LATA X5KG x2.",
+      "12:22:52 'Cancele este pedido' vació el 263 (sin líneas, total 0). 12:22:59 'Ya no lo quiero' → el agente dijo que el pedido fue cancelado (el 263). El 262 sigue confirmado.",
+      "14:08 followup_action volvió a pedir confirmación del membrillo Arcor sobre un pedido ya confirmado."
+    ],
+    "causa_raiz": [
+      "Packing: interpretó 'pack de 2 latas' como 2 bultos (unidades_por_bulto=2 → 4 UMV), no como 1 bulto = 2 latas.",
+      "edit_order agrega línea en vez de reemplazar cantidad del SKU ya cargado.",
+      "Confirmación: 'Todo nal' se tomó como ok (mismo patrón que 'todo ok'/'cierre' en Juárez) y confirmó 262. El cancel posterior actuó sobre el pedido abierto 263."
+    ],
+    "accion_sugerida": [
+      "Si el cliente dice pack/cajita de 2 y UMV=unidad con bulto=2, default 1 bulto (2 unidades) y confirmar en lenguaje de latas.",
+      "edit_order: mismo SKU → reemplazar cantidad, no insertar línea duplicada.",
+      "No confirmar ante 'mal'/'todo mal'. Cancel debe apuntar al pedido que el cliente ve, no al último abierto vacío.",
+      "Apagar followup de confirmación si el pedido ya está confirmado o el cliente canceló."
+    ]
+  }
+}

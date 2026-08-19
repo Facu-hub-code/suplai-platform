@@ -1,0 +1,5 @@
+pedido_id,product_code,nombre,cantidad_solicitada,precio_unitario,notas
+256,5312,COFLER BLOCK 8x20x38G,20,1829.71,Pedido: 1 caja (normalizado: display; equiv: 20 UNIDAD)
+256,6072,CELOFAN LECHE 12x30X25G,30,1162.58,Pedido: 1 caja (normalizado: display; equiv: 30 UNIDAD)
+262,6817,MEMBRILLO ARCOR LATA  X5KG,4,26682.05,Pedido: 2 caja (normalizado: bulto; equiv: 4 UNIDAD)
+262,6817,MEMBRILLO ARCOR LATA  X5KG,4,26682.05,Edición (agregado): 2 caja (normalizado: bulto; equiv: 4 UNIDAD)

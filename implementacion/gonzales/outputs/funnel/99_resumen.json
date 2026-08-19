@@ -1,0 +1,37 @@
+{
+  "tenant": "gonzales",
+  "tenant_id": "48132ae5-2383-4f3b-86f5-050b2d62a09b",
+  "ventana": "historico_envios",
+  "atribucion": "inbound humano, -2h/+48h, sin medianoche, origen!=erp",
+  "base": {
+    "n_clients": 124,
+    "n_agendas_activas": 17,
+    "n_envios": 385,
+    "n_envios_sessions": 48,
+    "n_pedidos": 57
+  },
+  "agendas": {
+    "agendas_activas": 17,
+    "de_grupo": 8,
+    "uno_a_uno": 9,
+    "recurrentes": 14,
+    "puntuales_vencidas": 3,
+    "plantillas_distintas": [
+      "estr_1_holiday_a9cb92",
+      "mje1_regalo_masticable800g"
+    ],
+    "media_kind_counts": {
+      "texto": 17
+    }
+  },
+  "funnel": {
+    "telefonos_contactados": 48,
+    "nunca_contesto": 32,
+    "interactuo_sin_compra": 8,
+    "compro_al_menos_una": 8,
+    "pedidos_atribuidos": 42,
+    "pedidos_cerrados": 35,
+    "pedidos_abiertos": 4
+  },
+  "nota_metadata": "clients.metadata no se escribe en esta entrega"
+}

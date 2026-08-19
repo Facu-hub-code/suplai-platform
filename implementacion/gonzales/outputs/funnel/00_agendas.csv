@@ -1,0 +1,18 @@
+agenda_id,tipo,dia_semana,hora_envio,fecha_programada,puntual_vencida,alcance,grupo_id,grupo_nombre,client_id,client_nombre,estrategia_id,origen,template_name,category,db_tiene_imagen,db_carousel_cards,meta_status,meta_kind,media_kind
+17,recurrente,{miércoles},09:30:00,,false,grupo,10,VISITA MIÉRCOLES,,,,,mje1_regalo_masticable800g,UTILITY,false,0,APPROVED,texto,texto
+18,puntual,,08:45:00,2026-06-25,true,grupo,11,VISITA MARTES,,,,,mje1_regalo_masticable800g,UTILITY,false,0,APPROVED,texto,texto
+19,puntual,,08:45:00,2026-06-25,true,grupo,8,VISITA LUNES,,,,,mje1_regalo_masticable800g,UTILITY,false,0,APPROVED,texto,texto
+21,puntual,,09:00:00,2026-06-25,true,grupo,13,VISITA VIERNES,,,,,mje1_regalo_masticable800g,UTILITY,false,0,APPROVED,texto,texto
+22,recurrente,"{martes,viernes}",09:00:00,,false,grupo,11,VISITA MARTES,,,,,mje1_regalo_masticable800g,UTILITY,false,0,APPROVED,texto,texto
+23,recurrente,"{martes,viernes}",09:00:00,,false,grupo,11,VISITA MARTES,,,,,mje1_regalo_masticable800g,UTILITY,false,0,APPROVED,texto,texto
+26,recurrente,{jueves},10:00:00,,false,grupo,14,VISITA JUEVES,,,,,mje1_regalo_masticable800g,UTILITY,false,0,APPROVED,texto,texto
+27,recurrente,{lunes},09:00:00,,false,grupo,14,VISITA JUEVES,,,,,mje1_regalo_masticable800g,UTILITY,false,0,APPROVED,texto,texto
+28,recurrente,{lunes},09:00:00,,false,uno_a_uno,,,177,LOSCO ALEJANDRO EZEQUIEL,1,estrategia,estr_1_holiday_a9cb92,MARKETING,false,0,APPROVED,texto,texto
+29,recurrente,{lunes},09:00:00,,false,uno_a_uno,,,178,ARGUELLO VANESA LORENA,1,estrategia,estr_1_holiday_a9cb92,MARKETING,false,0,APPROVED,texto,texto
+30,recurrente,{lunes},09:00:00,,false,uno_a_uno,,,179,ELBAUM SILVANA VANINA,1,estrategia,estr_1_holiday_a9cb92,MARKETING,false,0,APPROVED,texto,texto
+31,recurrente,{lunes},09:00:00,,false,uno_a_uno,,,261,ROLDAN DELGADO ROSALIA MARCION,1,estrategia,estr_1_holiday_a9cb92,MARKETING,false,0,APPROVED,texto,texto
+32,recurrente,{lunes},09:00:00,,false,uno_a_uno,,,263,ACEVEDO EMILIO FRANCO,1,estrategia,estr_1_holiday_a9cb92,MARKETING,false,0,APPROVED,texto,texto
+33,recurrente,{lunes},09:00:00,,false,uno_a_uno,,,264,PEREZ VIVIANA LAURA,1,estrategia,estr_1_holiday_a9cb92,MARKETING,false,0,APPROVED,texto,texto
+34,recurrente,{lunes},09:00:00,,false,uno_a_uno,,,270,CALASSAN LUJAN ANDREA DEL CARMEN,1,estrategia,estr_1_holiday_a9cb92,MARKETING,false,0,APPROVED,texto,texto
+35,recurrente,{lunes},09:00:00,,false,uno_a_uno,,,271,DAVILA SANTIAGO,1,estrategia,estr_1_holiday_a9cb92,MARKETING,false,0,APPROVED,texto,texto
+36,recurrente,{lunes},09:00:00,,false,uno_a_uno,,,272,AGUILAR ROMINA MARIEL,1,estrategia,estr_1_holiday_a9cb92,MARKETING,false,0,APPROVED,texto,texto

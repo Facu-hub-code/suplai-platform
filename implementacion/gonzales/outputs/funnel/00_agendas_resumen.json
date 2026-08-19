@@ -1,0 +1,14 @@
+{
+  "agendas_activas": 17,
+  "de_grupo": 8,
+  "uno_a_uno": 9,
+  "recurrentes": 14,
+  "puntuales_vencidas": 3,
+  "plantillas_distintas": [
+    "estr_1_holiday_a9cb92",
+    "mje1_regalo_masticable800g"
+  ],
+  "media_kind_counts": {
+    "texto": 17
+  }
+}
