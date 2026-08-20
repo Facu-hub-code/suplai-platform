@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Carnicería Don Julio Altamira,Carnicería Don Julio Altamira,5493587905250,2,1,lunes,martes,"Zona ZONA NOROESTE - San Vicente - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,0,-31.412687,-64.156299,true
+2,Frigorífico San Vicente SRL,Frigorífico San Vicente SRL,5493582641213,3,2,lunes,martes,"Zona ZONA NOROESTE - San Vicente - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,0,-31.412726,-64.150402,true
+3,Embutidos El Criollo,Embutidos El Criollo,5492991227644,4,3,lunes,martes,"Zona ZONA NOROESTE - San Vicente - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,0,-31.412533,-64.156514,true
+4,Chacinados La Estancia,Chacinados La Estancia,5493418277249,1,4,lunes,martes,"Zona ZONA NOROESTE - San Vicente - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,0,-31.415291,-64.152887,true
+5,Sala de Desposte Yofre,Sala de Desposte Yofre,5493587747641,2,5,lunes,martes,"Zona ZONA NOROESTE - San Vicente - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,0,-31.415527,-64.1535,true
+6,Fiambres Don Pedro,Fiambres Don Pedro,5492614053074,3,6,lunes,martes,"Zona ZONA NOROESTE - San Vicente - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,0,-31.416289,-64.147339,true
+7,Carnicería El Gaucho,Carnicería El Gaucho,5493514079279,4,7,lunes,martes,"Zona ZONA NOROESTE - San Vicente - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,0,-31.415669,-64.148078,true
+8,Elaboradora Los Andes,Elaboradora Los Andes,5493876914178,1,8,lunes,martes,"Zona ZONA NOROESTE - San Vicente - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,0,-31.417034,-64.154814,true
+9,Frigorífico Empalme,Frigorífico Empalme,5492617175545,2,9,lunes,martes,"Zona ZONA NOROESTE - San Vicente - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,0,-31.411941,-64.149095,true
+10,Carnicería La Esquina Jardín,Carnicería La Esquina Jardín,5493818437953,3,10,martes,miercoles,"Zona ZONA NORTE - Yofre Norte - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,1,-31.416456,-64.13463,true
+11,Embutidos Don Mario,Embutidos Don Mario,5493582132179,4,11,martes,miercoles,"Zona ZONA NORTE - Yofre Norte - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,1,-31.410718,-64.130019,true
+12,Chacinados El Quebracho,Chacinados El Quebracho,5493872845902,1,12,martes,miercoles,"Zona ZONA NORTE - Yofre Norte - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,1,-31.416918,-64.127107,true
+13,Carnicería Pueyrredón,Carnicería Pueyrredón,5492997670210,2,13,martes,miercoles,"Zona ZONA NORTE - Yofre Norte - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,1,-31.413195,-64.135781,true
+14,Frigorífico Río Carcarañá,Frigorífico Río Carcarañá,5493811657614,3,14,martes,miercoles,"Zona ZONA NORTE - Yofre Norte - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,1,-31.416487,-64.132355,true
+15,Carnicería El Familiar,Carnicería El Familiar,5492994145193,4,15,martes,miercoles,"Zona ZONA NORTE - Yofre Norte - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,1,-31.417961,-64.127652,true
+16,Fábrica de Chorizos El Fogón,Fábrica de Chorizos El Fogón,5493515971311,1,16,martes,miercoles,"Zona ZONA NORTE - Yofre Norte - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,1,-31.412859,-64.136223,true
+17,Carnicería Don Santos,Carnicería Don Santos,5492994228106,2,17,martes,miercoles,"Zona ZONA NORTE - Yofre Norte - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,1,-31.41593,-64.133772,true
+18,Embutidos La Criolla,Embutidos La Criolla,5492998718887,3,18,martes,miercoles,"Zona ZONA NORTE - Yofre Norte - Córdoba Capital, Córdoba, Argentina",Lucas Pereyra,0,1,-31.413878,-64.129281,true
+19,Frigorífico Crisol,Frigorífico Crisol,5492995028869,4,19,miercoles,jueves,"Zona ZONA NORESTE - Altamira - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,2,-31.411249,-64.116168,true
+20,Carnicería San Carlos,Carnicería San Carlos,5493517304254,1,20,miercoles,jueves,"Zona ZONA NORESTE - Altamira - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,2,-31.410958,-64.110926,true
+21,Chacinados El Molino,Chacinados El Molino,5493416986538,2,21,miercoles,jueves,"Zona ZONA NORESTE - Altamira - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,2,-31.418562,-64.113423,true
+22,Carnicería Las Brasas,Carnicería Las Brasas,5492619239862,3,22,miercoles,jueves,"Zona ZONA NORESTE - Altamira - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,2,-31.417392,-64.112392,true
+23,Sala de Elaborados El Patio,Sala de Elaborados El Patio,5493513952681,4,23,miercoles,jueves,"Zona ZONA NORESTE - Altamira - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,2,-31.412361,-64.115058,true
+24,Fiambres La Tradición,Fiambres La Tradición,5493414799650,1,24,miercoles,jueves,"Zona ZONA NORESTE - Altamira - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,2,-31.416696,-64.113201,true
+25,Carnicería El Rincón,Carnicería El Rincón,5492992500733,2,25,miercoles,jueves,"Zona ZONA NORESTE - Altamira - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,2,-31.413972,-64.109486,true
+26,Embutidos Don Carlos,Embutidos Don Carlos,5492615139305,3,26,miercoles,jueves,"Zona ZONA NORESTE - Altamira - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,2,-31.417158,-64.112237,true
+27,Frigorífico Observatorio,Frigorífico Observatorio,5492618861463,4,27,jueves,viernes,"Zona ZONA SUROESTE - Pueyrredón - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,3,-31.437282,-64.150021,true
+28,Carnicería El Pionero,Carnicería El Pionero,5493812941974,1,28,jueves,viernes,"Zona ZONA SUROESTE - Pueyrredón - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,3,-31.436893,-64.153177,true
+29,Chacinados El Rancho,Chacinados El Rancho,5493817404433,2,29,jueves,viernes,"Zona ZONA SUROESTE - Pueyrredón - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,3,-31.432133,-64.152118,true
+30,Carnicería La Cañada,Carnicería La Cañada,5493419686914,3,30,jueves,viernes,"Zona ZONA SUROESTE - Pueyrredón - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,3,-31.432116,-64.155855,true
+31,Elaboradora Don Rafael,Elaboradora Don Rafael,5493518648263,4,31,jueves,viernes,"Zona ZONA SUROESTE - Pueyrredón - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,3,-31.43684,-64.148356,true
+32,Carnicería El Cruce,Carnicería El Cruce,5493516216782,1,32,jueves,viernes,"Zona ZONA SUROESTE - Pueyrredón - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,3,-31.436531,-64.148608,true
+33,Fiambres El Nativo,Fiambres El Nativo,5492612780568,2,33,jueves,viernes,"Zona ZONA SUROESTE - Pueyrredón - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,3,-31.438793,-64.153144,true
+34,Carnicería Las Sierras,Carnicería Las Sierras,5493582639964,3,34,jueves,viernes,"Zona ZONA SUROESTE - Pueyrredón - Córdoba Capital, Córdoba, Argentina",Mariana Toledo,1,3,-31.432646,-64.152298,true
+35,Embutidos El Algarrobo,Embutidos El Algarrobo,5493814729528,4,35,viernes,sabado,"Zona ZONA SUR - Jardín - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.435286,-64.134609,true
+36,Frigorífico Villa El Libertador,Frigorífico Villa El Libertador,5493876922419,1,36,viernes,sabado,"Zona ZONA SUR - Jardín - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.438845,-64.13156,true
+37,Carnicería El Encuentro,Carnicería El Encuentro,5492618889598,2,37,viernes,sabado,"Zona ZONA SUR - Jardín - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.433184,-64.13268,true
+38,Chacinados La Chacra,Chacinados La Chacra,5492615021286,3,38,viernes,sabado,"Zona ZONA SUR - Jardín - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.434322,-64.136874,true
+39,Carnicería Don Juan,Carnicería Don Juan,5493813520000,4,39,viernes,sabado,"Zona ZONA SUR - Jardín - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.437322,-64.13572,true
+40,Sala de Desposte El Corral,Sala de Desposte El Corral,5492997489876,1,40,viernes,sabado,"Zona ZONA SUR - Jardín - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.432699,-64.135546,true
+41,Embutidos La Unión,Embutidos La Unión,5493519107005,2,41,viernes,sabado,"Zona ZONA SUR - Jardín - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.436275,-64.134698,true
+42,Carnicería El Sauce,Carnicería El Sauce,5493874104594,3,42,viernes,sabado,"Zona ZONA SUR - Jardín - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.43119,-64.131785,true
+43,Fiambres Don Roberto,Fiambres Don Roberto,5492617413812,4,43,sabado,lunes,"Zona ZONA SURESTE - Empalme - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.436937,-64.115334,true
+44,Carnicería La Cumbre,Carnicería La Cumbre,5492617236955,1,44,sabado,lunes,"Zona ZONA SURESTE - Empalme - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.437397,-64.108985,true
+45,Elaboradora El Portal,Elaboradora El Portal,5492612928724,2,45,sabado,lunes,"Zona ZONA SURESTE - Empalme - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.434109,-64.112843,true
+46,Carnicería Las Flores,Carnicería Las Flores,5492999435946,3,46,sabado,lunes,"Zona ZONA SURESTE - Empalme - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.438808,-64.111151,true
+47,Chacinados El Nogal,Chacinados El Nogal,5493517632424,4,47,sabado,lunes,"Zona ZONA SURESTE - Empalme - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.43586,-64.115807,true
+48,Carnicería El Paraíso,Carnicería El Paraíso,5493416524997,1,48,sabado,lunes,"Zona ZONA SURESTE - Empalme - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.431272,-64.112956,true
+49,Frigorífico General Paz,Frigorífico General Paz,5493876499570,2,49,sabado,lunes,"Zona ZONA SURESTE - Empalme - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.439302,-64.116317,true
+50,Embutidos La Arboleda,Embutidos La Arboleda,5492998066543,3,50,sabado,lunes,"Zona ZONA SURESTE - Empalme - Córdoba Capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.438694,-64.111321,true

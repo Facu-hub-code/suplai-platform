@@ -1,0 +1,149 @@
+{
+  "dominios": "especiasbenavidez.com,clientes.especiasbenavidez.com,mercadolibre.com.ar",
+  "sufijo_fallback": "especias carniceria frigorifico argentina",
+  "modo_contexto": "ampliado",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA ESPECIAS BENAVIDEZ (Córdoba, insumos de carnicería y frigorífico):\n1. CATÁLOGO MIXTO: Distinguí el rubro. Insumos (especias, integrales, aditivos, tripas, legumbres) vs operativo (cuchillos, indumentaria, máquinas, discos, gusanos, acoples, bandejas).\n2. TIPO DE PRODUCTO OBLIGATORIO: Decí qué es (ají molido, integral de milanesas, tripa MAD cerdo, cuchillo carnicero, disco para moledora, chaquetilla de frigorífico). No dejes solo el código o la marca.\n3. MARCA Y PRESENTACIÓN: Incluí marca si está en el nombre (Eskilstuna, CISA, Interprise, Farmesa, Especias Benavidez) y formato/medida (1 kg, 80 m, Nº 22, 7 pulgadas). No atribuyas marca Especias Benavidez a cuchillos, máquinas o ropa que tienen marca propia.\n4. USO B2B: Una frase de uso para carnicería/frigorífico/fábrica de chacinados si es inferible (embutidos, milanesas, picado, faena). No inventes certificaciones, orígenes ni compatibilidades de máquina no dichas en el nombre.\n5. ALIAS ÚTILES: Sinónimos del rubro (ají/pimienta cayena, integral/preparado, tripa/envoltura, moledora/picadora, chaquetilla/chaqueta). Incluí el código SKU como alias. Sin marketing ('Descubre', 'Ideal para tu negocio').\n6. NO ALUCINAR: Códigos tipo REP/CYG/CUC/BAN son piezas o herramientas, no alimentos.",
+  "red_comercial": {
+    "coordenadas_centro": [
+      -31.4254955,
+      -64.1321032
+    ],
+    "vendedores": [
+      {
+        "nombre": "Lucas Pereyra",
+        "telefono": "5493518472101",
+        "email": "lucas.pereyra@suplaisales.mock",
+        "zona": "NORTE",
+        "codigo_ruta": "R01"
+      },
+      {
+        "nombre": "Mariana Toledo",
+        "telefono": "5493518472102",
+        "email": "mariana.toledo@suplaisales.mock",
+        "zona": "SUR",
+        "codigo_ruta": "R02"
+      },
+      {
+        "nombre": "Diego Ferreyra",
+        "telefono": "5493518472103",
+        "email": "diego.ferreyra@suplaisales.mock",
+        "zona": "ESTE",
+        "codigo_ruta": "R03"
+      }
+    ],
+    "zonas": [
+      {
+        "nombre": "ZONA NOROESTE - San Vicente",
+        "dia_visita": "lunes",
+        "color": "#E74C3C",
+        "codigo_ruta": "R01-A",
+        "zone_type": "sales",
+        "description": "San Vicente y accesos al Mercado de Córdoba.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA NORTE - Yofre Norte",
+        "dia_visita": "martes",
+        "color": "#E67E22",
+        "codigo_ruta": "R01-B",
+        "zone_type": "route",
+        "description": "Yofre Norte hacia Av. Sabattini.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA NORESTE - Altamira",
+        "dia_visita": "miercoles",
+        "color": "#27AE60",
+        "codigo_ruta": "R02-A",
+        "zone_type": "sales",
+        "description": "Altamira, alrededor de la sucursal Río Carcarañá.",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA SUROESTE - Pueyrredón",
+        "dia_visita": "jueves",
+        "color": "#2980B9",
+        "codigo_ruta": "R02-B",
+        "zone_type": "route",
+        "description": "Pueyrredón y Observatorio.",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA SUR - Jardín",
+        "dia_visita": "viernes",
+        "color": "#8E44AD",
+        "codigo_ruta": "R03-A",
+        "zone_type": "sales",
+        "description": "Barrio Jardín y Parque Sarmiento este.",
+        "vendedor_idx": 2
+      },
+      {
+        "nombre": "ZONA SURESTE - Empalme",
+        "dia_visita": "sabado",
+        "color": "#F39C12",
+        "codigo_ruta": "R03-B",
+        "zone_type": "route",
+        "description": "Empalme y Crisol, acceso SE.",
+        "vendedor_idx": 2
+      }
+    ],
+    "nombres_comerciales": [
+      "Carnicería Don Julio Altamira",
+      "Frigorífico San Vicente SRL",
+      "Embutidos El Criollo",
+      "Chacinados La Estancia",
+      "Sala de Desposte Yofre",
+      "Fiambres Don Pedro",
+      "Carnicería El Gaucho",
+      "Elaboradora Los Andes",
+      "Frigorífico Empalme",
+      "Carnicería La Esquina Jardín",
+      "Embutidos Don Mario",
+      "Chacinados El Quebracho",
+      "Carnicería Pueyrredón",
+      "Frigorífico Río Carcarañá",
+      "Carnicería El Familiar",
+      "Fábrica de Chorizos El Fogón",
+      "Carnicería Don Santos",
+      "Embutidos La Criolla",
+      "Frigorífico Crisol",
+      "Carnicería San Carlos",
+      "Chacinados El Molino",
+      "Carnicería Las Brasas",
+      "Sala de Elaborados El Patio",
+      "Fiambres La Tradición",
+      "Carnicería El Rincón",
+      "Embutidos Don Carlos",
+      "Frigorífico Observatorio",
+      "Carnicería El Pionero",
+      "Chacinados El Rancho",
+      "Carnicería La Cañada",
+      "Elaboradora Don Rafael",
+      "Carnicería El Cruce",
+      "Fiambres El Nativo",
+      "Carnicería Las Sierras",
+      "Embutidos El Algarrobo",
+      "Frigorífico Villa El Libertador",
+      "Carnicería El Encuentro",
+      "Chacinados La Chacra",
+      "Carnicería Don Juan",
+      "Sala de Desposte El Corral",
+      "Embutidos La Unión",
+      "Carnicería El Sauce",
+      "Fiambres Don Roberto",
+      "Carnicería La Cumbre",
+      "Elaboradora El Portal",
+      "Carnicería Las Flores",
+      "Chacinados El Nogal",
+      "Carnicería El Paraíso",
+      "Frigorífico General Paz",
+      "Embutidos La Arboleda",
+      "Carnicería El Cortijo",
+      "Sala de Elaborados El Recreo",
+      "Carnicería Don Marcos",
+      "Chacinados Sabattini",
+      "Carnicería Mercado Norte",
+      "Fiambres Altamira Sur"
+    ]
+  }
+}

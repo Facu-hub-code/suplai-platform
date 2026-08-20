@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5492612780568,5492612780568,ai,ai,"Hola Fiambres El Nativo, paso a revisar tu pedido P-00099 de DISCO 22 * 6 ELECTRICA DEVI.","Hola Fiambres El Nativo, paso a revisar tu pedido P-00099 de DISCO 22 * 6 ELECTRICA DEVI.",2026-08-19 15:42:01,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 15:43:30,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 45760.00.,Te confirmo que el pedido P-00099 fue registrado correctamente por 45760.00.,2026-08-19 15:44:26,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 15:45:35,true
+5492612928724,5492612928724,ai,ai,"Hola Elaboradora El Portal, paso a revisar tu pedido P-00123 de NUEZ MOSCADA MOLIDA PREMIUM - 1 KG.","Hola Elaboradora El Portal, paso a revisar tu pedido P-00123 de NUEZ MOSCADA MOLIDA PREMIUM - 1 KG.",2026-08-20 17:42:01,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 17:42:46,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 395760.00.,Te confirmo que el pedido P-00123 fue registrado correctamente por 395760.00.,2026-08-20 17:43:19,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-20 17:44:52,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 17:45:48,true
+5492614053074,5492614053074,ai,ai,"Hola Fiambres Don Pedro, vi que tenes un pedido abierto por HUEVO EN POLVO SUPER RENDIDOR - X 10 KG y queria ayudarte a cerrarlo.","Hola Fiambres Don Pedro, vi que tenes un pedido abierto por HUEVO EN POLVO SUPER RENDIDOR - X 10 KG y queria ayudarte a cerrarlo.",2026-08-20 14:42:01,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-20 14:43:39,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 288140.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 288140.00. Si queres te lo dejo cerrado hoy.,2026-08-20 14:44:15,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-20 14:45:33,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-20 14:46:50,true
+5492615021286,5492615021286,ai,ai,"Hola Chacinados La Chacra, paso a revisar tu pedido P-00112 de COCO EN CUBO.","Hola Chacinados La Chacra, paso a revisar tu pedido P-00112 de COCO EN CUBO.",2026-08-18 15:42:01,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 15:43:50,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 350720.00.,Te confirmo que el pedido P-00112 fue registrado correctamente por 350720.00.,2026-08-18 15:44:38,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 15:45:21,true
+5492615139305,5492615139305,ai,ai,"Hola Embutidos Don Carlos, paso a revisar tu pedido P-00076 de TIERNIZADOR TIERNATODO 180MM N 1.","Hola Embutidos Don Carlos, paso a revisar tu pedido P-00076 de TIERNIZADOR TIERNATODO 180MM N 1.",2026-08-18 17:42:01,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 17:43:08,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 1262960.00.,Te confirmo que el pedido P-00076 fue registrado correctamente por 1262960.00.,2026-08-18 17:44:25,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 17:45:08,true
+5492617175545,5492617175545,ai,ai,"Hola Frigorífico Empalme, paso a revisar tu pedido P-00027 de MOLEDORA DE GRANO.","Hola Frigorífico Empalme, paso a revisar tu pedido P-00027 de MOLEDORA DE GRANO.",2026-08-19 14:42:01,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 14:43:30,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 681370.00.,Te confirmo que el pedido P-00027 fue registrado correctamente por 681370.00.,2026-08-19 14:44:19,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 14:45:38,true
+5492617236955,5492617236955,ai,ai,"Hola Carnicería La Cumbre, paso a revisar tu pedido P-00126 de INTEGRAL DE MILANESAS - P/ 125 KG- 5 KG.","Hola Carnicería La Cumbre, paso a revisar tu pedido P-00126 de INTEGRAL DE MILANESAS - P/ 125 KG- 5 KG.",2026-08-20 16:42:01,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 16:42:52,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 174990.00.,Te confirmo que el pedido P-00126 fue registrado correctamente por 174990.00.,2026-08-20 16:43:39,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-20 16:44:28,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 16:45:18,true
+5492617413812,5492617413812,ai,ai,"Hola Fiambres Don Roberto, paso a revisar tu pedido P-00129 de MAD VACA 38/40 IMPORTADA POR 15 MTS P/18 KG.","Hola Fiambres Don Roberto, paso a revisar tu pedido P-00129 de MAD VACA 38/40 IMPORTADA POR 15 MTS P/18 KG.",2026-08-20 15:42:01,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 15:43:51,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 26840.00.,Te confirmo que el pedido P-00129 fue registrado correctamente por 26840.00.,2026-08-20 15:45:08,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-20 15:46:03,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 15:47:15,true
+5492618861463,5492618861463,ai,ai,"Hola Frigorífico Observatorio, paso a revisar tu pedido P-00079 de TUBO SICA MATAMOSCAS CHICO 30cm.","Hola Frigorífico Observatorio, paso a revisar tu pedido P-00079 de TUBO SICA MATAMOSCAS CHICO 30cm.",2026-08-19 16:42:01,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 16:43:27,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 47920.00.,Te confirmo que el pedido P-00079 fue registrado correctamente por 47920.00.,2026-08-19 16:44:00,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 16:45:30,true
+5492618889598,5492618889598,ai,ai,"Hola Carnicería El Encuentro, paso a revisar tu pedido P-00110 de PIMIENTA NEGRA MOLIDA INTERMEDIA - 500 G.","Hola Carnicería El Encuentro, paso a revisar tu pedido P-00110 de PIMIENTA NEGRA MOLIDA INTERMEDIA - 500 G.",2026-08-19 16:42:01,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 16:43:36,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 61510.00.,Te confirmo que el pedido P-00110 fue registrado correctamente por 61510.00.,2026-08-19 16:44:33,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 16:45:35,true
+5492619239862,5492619239862,ai,ai,"Hola Carnicería Las Brasas, paso a revisar tu pedido P-00066 de PEREJIL EN HOJAS PREMIUM - 1 KG.","Hola Carnicería Las Brasas, paso a revisar tu pedido P-00066 de PEREJIL EN HOJAS PREMIUM - 1 KG.",2026-08-18 16:42:01,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 16:43:45,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 257270.00.,Te confirmo que el pedido P-00066 fue registrado correctamente por 257270.00.,2026-08-18 16:45:13,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 16:45:52,true
+5492991227644,5492991227644,ai,ai,"Hola Embutidos El Criollo, vi que tenes un pedido abierto por COCO EN CUBO y queria ayudarte a cerrarlo.","Hola Embutidos El Criollo, vi que tenes un pedido abierto por COCO EN CUBO y queria ayudarte a cerrarlo.",2026-08-20 17:42:01,true
+5492991227644,5492991227644,human,human,"Hola, queria hacer un reclamo por error de facturacion.","Hola, queria hacer un reclamo por error de facturacion.",2026-08-20 17:42:59,true
+5492991227644,5492991227644,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-08-20 17:44:15,true
+5492991227644,5492991227644,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-20 17:46:00,true
+5492991227644,5492991227644,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-20 17:46:30,true
+5492992500733,5492992500733,ai,ai,"Hola Carnicería El Rincón, paso a revisar tu pedido P-00073 de Conjunto de Vaina Devi + Cinto 4 cm.","Hola Carnicería El Rincón, paso a revisar tu pedido P-00073 de Conjunto de Vaina Devi + Cinto 4 cm.",2026-08-19 13:42:01,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 13:43:44,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 251820.00.,Te confirmo que el pedido P-00073 fue registrado correctamente por 251820.00.,2026-08-19 13:44:22,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 13:45:09,true
+5492994145193,5492994145193,ai,ai,"Hola Carnicería El Familiar, paso a revisar tu pedido P-00045 de ARBOLITO CUCHILLO CARNICERO 5"".","Hola Carnicería El Familiar, paso a revisar tu pedido P-00045 de ARBOLITO CUCHILLO CARNICERO 5"".",2026-08-19 13:42:01,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 13:43:02,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 64200.00.,Te confirmo que el pedido P-00045 fue registrado correctamente por 64200.00.,2026-08-19 13:44:09,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 13:45:34,true
+5492994228106,5492994228106,ai,ai,"Hola Carnicería Don Santos, paso a revisar tu pedido P-00051 de INTEGRAL DE HAMBURGUESAS - P/500 KG - 20 KG.","Hola Carnicería Don Santos, paso a revisar tu pedido P-00051 de INTEGRAL DE HAMBURGUESAS - P/500 KG - 20 KG.",2026-08-19 16:42:01,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 16:43:20,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 325160.00.,Te confirmo que el pedido P-00051 fue registrado correctamente por 325160.00.,2026-08-19 16:43:54,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 16:44:35,true
+5492995028869,5492995028869,ai,ai,"Hola Frigorífico Crisol, paso a revisar tu pedido P-00057 de GELATINA SIN SABOR - X 500 G.","Hola Frigorífico Crisol, paso a revisar tu pedido P-00057 de GELATINA SIN SABOR - X 500 G.",2026-08-19 14:42:01,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 14:43:26,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 520890.00.,Te confirmo que el pedido P-00057 fue registrado correctamente por 520890.00.,2026-08-19 14:43:56,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 14:45:10,true
+5492997489876,5492997489876,ai,ai,"Hola Sala de Desposte El Corral, paso a revisar tu pedido P-00118 de PROVENZAL PREMIUM - 1 KG.","Hola Sala de Desposte El Corral, paso a revisar tu pedido P-00118 de PROVENZAL PREMIUM - 1 KG.",2026-08-18 13:42:01,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 13:43:42,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 95260.00.,Te confirmo que el pedido P-00118 fue registrado correctamente por 95260.00.,2026-08-18 13:44:34,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 13:45:24,true
+5492997670210,5492997670210,ai,ai,"Hola Carnicería Pueyrredón, paso a revisar tu pedido P-00037 de BATTER PARA HAMBURGUESAS SIN CONDIMENTO CON ANTIOXIDANTES- 5 KG.","Hola Carnicería Pueyrredón, paso a revisar tu pedido P-00037 de BATTER PARA HAMBURGUESAS SIN CONDIMENTO CON ANTIOXIDANTES- 5 KG.",2026-08-19 15:42:01,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 15:43:08,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 185160.00.,Te confirmo que el pedido P-00037 fue registrado correctamente por 185160.00.,2026-08-19 15:43:55,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 15:44:56,true
+5492998066543,5492998066543,ai,ai,"Hola Embutidos La Arboleda, paso a revisar tu pedido P-00132 de CARGADOR BALANZA SYSTEL ORIGINAL.","Hola Embutidos La Arboleda, paso a revisar tu pedido P-00132 de CARGADOR BALANZA SYSTEL ORIGINAL.",2026-08-20 14:42:01,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 14:43:39,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 91480.00.,Te confirmo que el pedido P-00132 fue registrado correctamente por 91480.00.,2026-08-20 14:44:18,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-20 14:45:53,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 14:47:03,true
+5492998718887,5492998718887,ai,ai,"Hola Embutidos La Criolla, paso a revisar tu pedido P-00054 de Pata de Goma 5/16.","Hola Embutidos La Criolla, paso a revisar tu pedido P-00054 de Pata de Goma 5/16.",2026-08-18 15:42:01,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 15:43:58,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 154780.00.,Te confirmo que el pedido P-00054 fue registrado correctamente por 154780.00.,2026-08-18 15:44:44,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 15:45:50,true
+5492999435946,5492999435946,ai,ai,"Hola Carnicería Las Flores, paso a revisar tu pedido P-00135 de BOBINA DE HILO DE ALGODÓN BLANCO CHORIZO ESPECIAL 180 GMS.","Hola Carnicería Las Flores, paso a revisar tu pedido P-00135 de BOBINA DE HILO DE ALGODÓN BLANCO CHORIZO ESPECIAL 180 GMS.",2026-08-20 13:42:01,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 13:43:44,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 11420.00.,Te confirmo que el pedido P-00135 fue registrado correctamente por 11420.00.,2026-08-20 13:44:32,true
+5492999435946,5492999435946,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-20 13:46:18,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 13:46:50,true
+5493414799650,5493414799650,ai,ai,"Hola Fiambres La Tradición, paso a revisar tu pedido P-00071 de DISCO 130 * 10 ELECTRICA DEVI.","Hola Fiambres La Tradición, paso a revisar tu pedido P-00071 de DISCO 130 * 10 ELECTRICA DEVI.",2026-08-18 14:42:01,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 14:42:59,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 186450.00.,Te confirmo que el pedido P-00071 fue registrado correctamente por 186450.00.,2026-08-18 14:43:39,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 14:44:32,true
+5493416524997,5493416524997,ai,ai,"Hola Carnicería El Paraíso, paso a revisar tu pedido P-00138 de CIRUELAS C / CAROZO.","Hola Carnicería El Paraíso, paso a revisar tu pedido P-00138 de CIRUELAS C / CAROZO.",2026-08-18 17:42:01,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 17:42:52,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 21040.00.,Te confirmo que el pedido P-00138 fue registrado correctamente por 21040.00.,2026-08-18 17:43:51,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 17:44:58,true
+5493416986538,5493416986538,ai,ai,"Hola Chacinados El Molino, paso a revisar tu pedido P-00063 de RALLADORA DE QUESO MANUAL ESMALTADA CON 1 CILINDRO ACERO INOX.","Hola Chacinados El Molino, paso a revisar tu pedido P-00063 de RALLADORA DE QUESO MANUAL ESMALTADA CON 1 CILINDRO ACERO INOX.",2026-08-19 17:42:01,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 17:43:30,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 874200.00.,Te confirmo que el pedido P-00063 fue registrado correctamente por 874200.00.,2026-08-19 17:44:32,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 17:45:35,true
+5493418277249,5493418277249,ai,ai,"Hola Chacinados La Estancia, vi que tenes un pedido abierto por Cola *15 pagani y queria ayudarte a cerrarlo.","Hola Chacinados La Estancia, vi que tenes un pedido abierto por Cola *15 pagani y queria ayudarte a cerrarlo.",2026-08-20 16:42:01,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-08-20 16:43:39,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-20 16:44:21,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-20 16:45:22,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-20 16:46:11,true
+5493419686914,5493419686914,ai,ai,"Hola Carnicería La Cañada, paso a revisar tu pedido P-00090 de FRACCIONADO - OREGANO X 25GR - X UNIDAD.","Hola Carnicería La Cañada, paso a revisar tu pedido P-00090 de FRACCIONADO - OREGANO X 25GR - X UNIDAD.",2026-08-18 13:42:01,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 13:42:57,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 2750.00.,Te confirmo que el pedido P-00090 fue registrado correctamente por 2750.00.,2026-08-18 13:44:21,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 13:45:44,true
+5493513952681,5493513952681,ai,ai,"Hola Sala de Elaborados El Patio, paso a revisar tu pedido P-00068 de ARVEJA ENTERA.","Hola Sala de Elaborados El Patio, paso a revisar tu pedido P-00068 de ARVEJA ENTERA.",2026-08-19 15:42:01,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 15:43:11,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 12560.00.,Te confirmo que el pedido P-00068 fue registrado correctamente por 12560.00.,2026-08-19 15:44:22,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 15:45:20,true
+5493514079279,5493514079279,ai,ai,"Hola Carnicería El Gaucho, vi que tenes un pedido abierto por PIMIENTA BLANCA EN GRANO - 500 G y queria ayudarte a cerrarlo.","Hola Carnicería El Gaucho, vi que tenes un pedido abierto por PIMIENTA BLANCA EN GRANO - 500 G y queria ayudarte a cerrarlo.",2026-08-20 13:42:01,true
+5493514079279,5493514079279,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-20 13:43:49,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 83100.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 83100.00. Si queres te lo dejo cerrado hoy.,2026-08-20 13:45:04,true
+5493514079279,5493514079279,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-20 13:46:06,true
+5493514079279,5493514079279,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-20 13:47:10,true
+5493515971311,5493515971311,ai,ai,"Hola Fábrica de Chorizos El Fogón, paso a revisar tu pedido P-00048 de ANTIOXIDANTE SÚPER SALOX FS BERNESA 1 KG.","Hola Fábrica de Chorizos El Fogón, paso a revisar tu pedido P-00048 de ANTIOXIDANTE SÚPER SALOX FS BERNESA 1 KG.",2026-08-18 17:42:01,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 17:43:09,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 303360.00.,Te confirmo que el pedido P-00048 fue registrado correctamente por 303360.00.,2026-08-18 17:44:27,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 17:45:05,true
+5493516216782,5493516216782,ai,ai,"Hola Carnicería El Cruce, paso a revisar tu pedido P-00096 de BELFOS - 5 KG.","Hola Carnicería El Cruce, paso a revisar tu pedido P-00096 de BELFOS - 5 KG.",2026-08-18 16:42:01,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 16:42:47,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 222510.00.,Te confirmo que el pedido P-00096 fue registrado correctamente por 222510.00.,2026-08-18 16:44:06,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 16:45:14,true
+5493517304254,5493517304254,ai,ai,"Hola Carnicería San Carlos, paso a revisar tu pedido P-00060 de MIX FRUTOS SECOS OFERTA.","Hola Carnicería San Carlos, paso a revisar tu pedido P-00060 de MIX FRUTOS SECOS OFERTA.",2026-08-18 13:42:01,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 13:43:50,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 52720.00.,Te confirmo que el pedido P-00060 fue registrado correctamente por 52720.00.,2026-08-18 13:44:42,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 13:45:56,true
+5493517632424,5493517632424,ai,ai,"Hola Chacinados El Nogal, paso a revisar tu pedido P-00141 de DISCO 130 * 18 AUTOAFILABLE DEVI.","Hola Chacinados El Nogal, paso a revisar tu pedido P-00141 de DISCO 130 * 18 AUTOAFILABLE DEVI.",2026-08-19 16:42:01,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 16:43:17,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 764450.00.,Te confirmo que el pedido P-00141 fue registrado correctamente por 764450.00.,2026-08-19 16:44:24,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 16:45:51,true
+5493518648263,5493518648263,ai,ai,"Hola Elaboradora Don Rafael, paso a revisar tu pedido P-00093 de CHAIRA LISA 30 CM MANGO/AMAR/NEGRO STARRET (STARR-8010-30).","Hola Elaboradora Don Rafael, paso a revisar tu pedido P-00093 de CHAIRA LISA 30 CM MANGO/AMAR/NEGRO STARRET (STARR-8010-30).",2026-08-19 17:42:01,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 17:43:54,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 296400.00.,Te confirmo que el pedido P-00093 fue registrado correctamente por 296400.00.,2026-08-19 17:45:07,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 17:46:32,true
+5493519107005,5493519107005,ai,ai,"Hola Embutidos La Unión, paso a revisar tu pedido P-00144 de CABEZAL FREIRE 32 ORIGINAL DEVI.","Hola Embutidos La Unión, paso a revisar tu pedido P-00144 de CABEZAL FREIRE 32 ORIGINAL DEVI.",2026-08-18 15:42:01,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 15:43:35,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 955880.00.,Te confirmo que el pedido P-00144 fue registrado correctamente por 955880.00.,2026-08-18 15:44:18,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 15:45:47,true
+5493582132179,5493582132179,ai,ai,"Hola Embutidos Don Mario, paso a revisar tu pedido P-00032 de ARROZ CARNAROLI.","Hola Embutidos Don Mario, paso a revisar tu pedido P-00032 de ARROZ CARNAROLI.",2026-08-19 17:42:01,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 17:43:34,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 577040.00.,Te confirmo que el pedido P-00032 fue registrado correctamente por 577040.00.,2026-08-19 17:44:58,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 17:45:45,true
+5493582639964,5493582639964,ai,ai,"Hola Carnicería Las Sierras, paso a revisar tu pedido P-00102 de MAD VACA POR 15 MTS 46/48 SALAMIN IMPORTADA P/28 KG.","Hola Carnicería Las Sierras, paso a revisar tu pedido P-00102 de MAD VACA POR 15 MTS 46/48 SALAMIN IMPORTADA P/28 KG.",2026-08-18 14:42:01,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 14:42:49,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 443870.00.,Te confirmo que el pedido P-00102 fue registrado correctamente por 443870.00.,2026-08-18 14:43:40,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 14:44:20,true
+5493582641213,5493582641213,ai,ai,"Hola Frigorífico San Vicente SRL, vi que tenes un pedido abierto por PANTALON TIPO CARGO GABARDINA GRUESO BLANCOS y queria ayudarte a cerrarlo.","Hola Frigorífico San Vicente SRL, vi que tenes un pedido abierto por PANTALON TIPO CARGO GABARDINA GRUESO BLANCOS y queria ayudarte a cerrarlo.",2026-08-20 06:42:01,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-08-20 06:43:25,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-20 06:44:29,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-20 06:45:24,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-20 06:46:21,true
+5493587747641,5493587747641,ai,ai,"Hola Sala de Desposte Yofre, vi que tenes un pedido abierto por CUCHILLO PARA FILETEAR CARNIC 20 CM. MANGO BLANCO (CAR-00-3030-20) y queria ayudarte a cerrarlo.","Hola Sala de Desposte Yofre, vi que tenes un pedido abierto por CUCHILLO PARA FILETEAR CARNIC 20 CM. MANGO BLANCO (CAR-00-3030-20) y queria ayudarte a cerrarlo.",2026-08-20 15:42:01,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-20 15:43:45,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00155 sigue en curso por un total de 49900.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00155 sigue en curso por un total de 49900.00. Si queres te lo dejo cerrado hoy.,2026-08-20 15:44:47,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-20 15:46:23,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-20 15:47:13,true
+5493587905250,5493587905250,ai,ai,"Hola Carnicería Don Julio Altamira, vi que tenes un pedido abierto por AJI CAYENA MOLIDA AMARILLO - 1 KG y queria ayudarte a cerrarlo.","Hola Carnicería Don Julio Altamira, vi que tenes un pedido abierto por AJI CAYENA MOLIDA AMARILLO - 1 KG y queria ayudarte a cerrarlo.",2026-08-20 07:42:01,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-20 07:42:59,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,2026-08-20 07:44:26,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-20 07:46:09,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-20 07:46:41,true
+5493811657614,5493811657614,ai,ai,"Hola Frigorífico Río Carcarañá, paso a revisar tu pedido P-00040 de INTEGRAL QUESO DE CERDO - P/ 500 KG - 20 KG.","Hola Frigorífico Río Carcarañá, paso a revisar tu pedido P-00040 de INTEGRAL QUESO DE CERDO - P/ 500 KG - 20 KG.",2026-08-18 14:42:01,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 14:43:24,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 3876050.00.,Te confirmo que el pedido P-00040 fue registrado correctamente por 3876050.00.,2026-08-18 14:44:20,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 14:45:17,true
+5493812941974,5493812941974,ai,ai,"Hola Carnicería El Pionero, paso a revisar tu pedido P-00084 de AZUCAR IMPALPABLE - X 1 KG.","Hola Carnicería El Pionero, paso a revisar tu pedido P-00084 de AZUCAR IMPALPABLE - X 1 KG.",2026-08-18 15:42:01,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 15:43:56,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 52990.00.,Te confirmo que el pedido P-00084 fue registrado correctamente por 52990.00.,2026-08-18 15:45:06,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 15:45:39,true
+5493813520000,5493813520000,ai,ai,"Hola Carnicería Don Juan, paso a revisar tu pedido P-00115 de POROTO ADSUKI.","Hola Carnicería Don Juan, paso a revisar tu pedido P-00115 de POROTO ADSUKI.",2026-08-19 14:42:01,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 14:42:52,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 118100.00.,Te confirmo que el pedido P-00115 fue registrado correctamente por 118100.00.,2026-08-19 14:43:58,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 14:45:24,true
+5493814729528,5493814729528,ai,ai,"Hola Embutidos El Algarrobo, paso a revisar tu pedido P-00105 de CAMPERA TERMICA IMPERMEABLE POLAR CON NAUTICA ROJO TRACKER.","Hola Embutidos El Algarrobo, paso a revisar tu pedido P-00105 de CAMPERA TERMICA IMPERMEABLE POLAR CON NAUTICA ROJO TRACKER.",2026-08-19 13:42:01,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 13:43:35,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 528800.00.,Te confirmo que el pedido P-00105 fue registrado correctamente por 528800.00.,2026-08-19 13:44:45,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 13:46:07,true
+5493817404433,5493817404433,ai,ai,"Hola Chacinados El Rancho, paso a revisar tu pedido P-00087 de GANCHO DE MANO CAÑO CROMADO.","Hola Chacinados El Rancho, paso a revisar tu pedido P-00087 de GANCHO DE MANO CAÑO CROMADO.",2026-08-19 14:42:01,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 14:43:37,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 56040.00.,Te confirmo que el pedido P-00087 fue registrado correctamente por 56040.00.,2026-08-19 14:45:03,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 14:46:06,true
+5493818437953,5493818437953,ai,ai,"Hola Carnicería La Esquina Jardín, paso a revisar tu pedido P-00029 de CONDIMENTO PARA ARROZ ECONOMICO.","Hola Carnicería La Esquina Jardín, paso a revisar tu pedido P-00029 de CONDIMENTO PARA ARROZ ECONOMICO.",2026-08-18 13:42:01,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 13:43:39,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 434480.00.,Te confirmo que el pedido P-00029 fue registrado correctamente por 434480.00.,2026-08-18 13:44:30,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 13:45:25,true
+5493872845902,5493872845902,ai,ai,"Hola Chacinados El Quebracho, paso a revisar tu pedido P-00034 de JUEGO DISCO Y CUCHILLA Nº 42 Ø 18 INOX INTERPRISE.","Hola Chacinados El Quebracho, paso a revisar tu pedido P-00034 de JUEGO DISCO Y CUCHILLA Nº 42 Ø 18 INOX INTERPRISE.",2026-08-18 16:42:01,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 16:43:03,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 1567490.00.,Te confirmo que el pedido P-00034 fue registrado correctamente por 1567490.00.,2026-08-18 16:44:26,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 16:45:05,true
+5493874104594,5493874104594,ai,ai,"Hola Carnicería El Sauce, paso a revisar tu pedido P-00146 de MAD DE LECHON (SALCHICHA) X 45 MTS P/18 KG.","Hola Carnicería El Sauce, paso a revisar tu pedido P-00146 de MAD DE LECHON (SALCHICHA) X 45 MTS P/18 KG.",2026-08-19 14:42:01,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 14:43:10,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 242580.00.,Te confirmo que el pedido P-00146 fue registrado correctamente por 242580.00.,2026-08-19 14:44:28,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 14:44:59,true
+5493876499570,5493876499570,ai,ai,"Hola Frigorífico General Paz, paso a revisar tu pedido P-00149 de SANGRE EN POLVO SANGSHOR - X 1KG.","Hola Frigorífico General Paz, paso a revisar tu pedido P-00149 de SANGRE EN POLVO SANGSHOR - X 1KG.",2026-08-18 13:42:01,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 13:42:49,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 125570.00.,Te confirmo que el pedido P-00149 fue registrado correctamente por 125570.00.,2026-08-18 13:43:27,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 13:44:23,true
+5493876914178,5493876914178,ai,ai,"Hola Elaboradora Los Andes, paso a revisar tu pedido P-00024 de BOLSA QUESO X METRO CON LOGO.","Hola Elaboradora Los Andes, paso a revisar tu pedido P-00024 de BOLSA QUESO X METRO CON LOGO.",2026-08-18 15:42:01,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 15:43:34,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 473430.00.,Te confirmo que el pedido P-00024 fue registrado correctamente por 473430.00.,2026-08-18 15:44:43,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 15:45:48,true
+5493876922419,5493876922419,ai,ai,"Hola Frigorífico Villa El Libertador, paso a revisar tu pedido P-00107 de FLOR DE HIBISCUS/ JAMAICA-1KG.","Hola Frigorífico Villa El Libertador, paso a revisar tu pedido P-00107 de FLOR DE HIBISCUS/ JAMAICA-1KG.",2026-08-18 17:42:01,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-18 17:43:05,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 111200.00.,Te confirmo que el pedido P-00107 fue registrado correctamente por 111200.00.,2026-08-18 17:43:43,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-18 17:44:34,true

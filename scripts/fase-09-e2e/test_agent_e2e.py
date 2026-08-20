@@ -13,16 +13,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-<<<<<<< HEAD
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent))
-sys.path.insert(0, str(Path(__file__).parent.parent))
-=======
-# Ensure parent scripts directory is in sys.path for module imports (e2e_journeys, e2e_real_cases)
+
 _scripts_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if _scripts_dir not in sys.path:
     sys.path.insert(0, _scripts_dir)
->>>>>>> 3aded0fa4d0498187daec7ba145ca8ca8b34466b
 
 from e2e_journeys import (
 

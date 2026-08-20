@@ -5,10 +5,10 @@ schema_name: "cordoba_frost"              # ★ Nombre del schema en Supabase (e
 nombre_comercial: "Córdoba Frost"         # ★ Nombre visible del tenant (ej: Al Fuego)
 ciudad_base: "Córdoba, Argentina"              # ★ Ciudad de operaciones (ej: "Valle Escondido, Córdoba, Argentina")
 coordenadas_centro: [-31.417, -64.183]       # ★ [lat, lon] del centro geográfico (ej: [-31.3547, -64.2442]) — usado en Fase 4
-rubro: "Panadería congelada"                    # ★ Descripción libre del rubro (ej: "carnicería / parrilla") — usado en Fase 4
+rubro: "Panadería congelada y helados"                    # ★ Descripción libre del rubro (ej: "carnicería / parrilla") — usado en Fase 4
 excel_input: "inputs/PRODUCTOS-2026-07-20 - Productos _ General.csv"
 sitio_web: "https://www.cordobafrost.com/"                # URL del sitio web del cliente (ej: https://alfuego.com.ar/)
-notas: "Distribuidora de panadería congelada."                    # Descripción libre del negocio y sucursal
+notas: "Distribuidora de panadería congelada. Delta 2026-08-20: se cargaron 3 combos de helados de campaña agosto 2026 (COM-HEL-INICIAL/MEDIO/PREMIUM) y se actualizó el system prompt para vender helados además de panadería. CSV: outputs/phase-01-combos-helados-agosto-2026.csv"
 
 blocked:
   is_mock_migration: false  # pasar a false tras aplicar docs/implementacion/migrations/20260615_add_is_mock_columns_demo_and_tenants.sql
@@ -25,9 +25,9 @@ fases:
     nombre: catalogo
     estado: cargado
     output_csv: outputs/phase-01-productos.csv
-    output_csv_extra: outputs/phase-01-lista-precios-*.csv
-    filas_csv: 3
-    cargado_at: "2026-07-21T09:22:00Z"
+    output_csv_extra: outputs/phase-01-combos-helados-agosto-2026.csv
+    filas_csv: 6
+    cargado_at: "2026-08-20T15:47:00Z"
   "01.1":
     nombre: tags
     estado: pendiente
@@ -39,9 +39,9 @@ fases:
     output_csv: outputs/vista_previa_enriquecimiento.csv
   "01.3":
     nombre: prompt_agente
-    estado: pendiente
+    estado: cargado
     output_json: outputs/phase-01-3-prompt-config.json
-    cargado_at: null
+    cargado_at: "2026-08-20T15:50:00Z"
   "02":
     nombre: promociones
     estado: pendiente

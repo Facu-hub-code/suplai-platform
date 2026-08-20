@@ -1,0 +1,415 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587905250,25001,ESP-088,PIMIENTA NEGRA MOLIDA PREMIUM - 1 KG,1,20150.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00001,5493587905250,25001,ANT-139,FARMIN F-6 FARMESA X 10 KG,5,147230.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00002,5493587905250,25001,LEG-021,BOLITA DE CHOCOLATE,5,11840.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00003,5493587905250,25001,ROP-063,REMERAS LISAS NEGRAS ALGODON DOBLE COSTURA CUELLO BASE,2,13500.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00003,5493587905250,25001,REP-005,AFILADOR DE CUCHILLOS CON PIEDRA (ROJO) ACENTADOR DE FILO 2 EN 1,1,1260.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00003,5493587905250,25001,REP-002,ACOPLE FH DIAMETRO 30,3,24920.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00004,5493582641213,25002,ANT-066,SAL DE CURA JAMON Y BONDIOLA BELMACO,5,3540.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00004,5493582641213,25002,ESP-066,PIMIENTA BOUQUET 4 PIMIENTAS - 1 KG,2,30270.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00004,5493582641213,25002,RIA-019,CARRAGENINA GPI 200- 1 KG,1,36880.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00004,5493582641213,25002,FCC-029,FRACCIONADO - PIMIENTA NEGRA MOLIDA X 25GR - X UNIDAD,5,610.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00005,5493582641213,25002,REP-413,HAMBURGUESERA DE 10 CM POLLO DEVI,5,27770.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00005,5493582641213,25002,REP-335,Engranaje de Fundicion Pagani,5,49980.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00006,5493582641213,25002,TRI-010,MAD CERDO IMPORTADA ESPAÑOLA POR 80 MTS P/60 KG,2,24560.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00007,5492991227644,25003,ANT-134,TRIPOLIFOSFATO DE SODIO - X 1KG,2,17430.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00007,5492991227644,25003,ESP-029,CONDIMENTO PARA ARROZ PREMIUM- 1 KG,2,12280.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00007,5492991227644,25003,REP-483,Embudo 22 Picadora Salchicha,3,13620.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00007,5492991227644,25003,LEG-083,ARROZ INFLADO,3,17230.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00008,5492991227644,25003,ADI-044,HARINA DE SOJA - 5 KG,2,12640.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00009,5492991227644,25003,REP-399,BOLSA VACIO CRISTAL 30X40X63M,4,520.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00009,5492991227644,25003,LEG-067,POROTO PALLARES,4,11270.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00009,5492991227644,25003,CUC-107,GANCHOS CARNICERO CROMADOS 10X10 X DOCENA (TMI38),2,93970.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00010,5493418277249,25004,ROP-045,DELANTAL PVC FRIGORIFICO 70X110 SOLO BLANCO ECONOMICO ALASKA,2,10550.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00010,5493418277249,25004,REP-021,BOTIQUIN DE MADERA CON 30 ELEMENTOS,5,32500.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00010,5493418277249,25004,REP-430,Embudo Embutidora Chorizo Inox AH,3,34850.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00011,5493418277249,25004,ANT-082,ULTRA BLANCO PREMIUM - X 1KG,1,10830.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00011,5493418277249,25004,REP-244,SIERRA CIRCULAR 3/4 280 MTS,2,21100.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00011,5493418277249,25004,CUC-045,CUCHILLO PARA COCINA CARNIC 25 CM. MANGO BLANCO (CAR-00-4050-25),5,32710.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00011,5493418277249,25004,RIA-027,DEXTROSA X 1 KG,4,7130.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00012,5493418277249,25004,IN10-003,INTEGRAL CHORIZO CRIOLLO - - P/ 250 KG - 10 KG,4,50030.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00012,5493418277249,25004,IN1-008,INTEGRAL DE HAMBURGUESAS - P/25 KG- 1 KG,1,5640.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00012,5493418277249,25004,RIA-026,DATILES DE EGIPTO,1,9260.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00013,5493587747641,25005,ADI-046,HUEVO EN POLVO - X 10 KG,4,175650.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00014,5493587747641,25005,ESP4-020,NUEZ MOSCADA ENTERA - 250 G,4,10350.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00014,5493587747641,25005,REP-255,SIERRA CIRCULAR AMARILLA O NARANJA 5/8 290 MTS,3,18840.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00014,5493587747641,25005,RIA-090,DEXTROSA X 25 KG,4,94910.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00015,5493587747641,25005,FRU-015,NUEZ CON CASCARA,5,11360.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00015,5493587747641,25005,ESP2-033,CURRY PICANTE - 500 G,2,5780.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00015,5493587747641,25005,REP-147,PIEDRAS DE AFILAR CORTADORAS DE FIAMBRES (JUEGO),3,15480.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00015,5493587747641,25005,BAN-042,BANDEJA CAJON TEFLONADO 149 L 110X53X42 (01-9523),1,263060.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00016,5492614053074,25006,CYG-261,JUEGO DISCO Y CUCHILLA Nº 32 Ø 14 INOX INTERPRISE,1,61470.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00016,5492614053074,25006,REP-267,SIERRA CIRCULAR AMARILLA O NARANJA 5/8 303 MTS,4,18840.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00016,5492614053074,25006,BAN-027,BANDEJA 005 RECTANGULAR TEFLON REFORZADA 38X28X8,4,10300.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00016,5492614053074,25006,REP-340,ENGRANAJE TEFLONADO PICADORA EJE 14 18 DIENTES,3,9810.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00017,5492614053074,25006,ANT-149,SABOR PARA JAMON FARMESA (R104) X 1 KG,4,19430.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00017,5492614053074,25006,REP-303,ACOPLE TRINIDAD DEVI,2,24920.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00017,5492614053074,25006,RIA-090,DEXTROSA X 25 KG,2,94910.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00018,5492614053074,25006,ANT-027,BICARBONATO DE SODIO - X 1 KG,5,3170.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00018,5492614053074,25006,IN10-020,INTEGRAL DE HAMBURGUESAS CON PANCETA AHUMADA - P/250 KG- 10 KG,5,55050.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00018,5492614053074,25006,FCC-041,FRACCIONADO - PACK INICIO + EXHIBIDORA,2,74740.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00018,5492614053074,25006,HIL-007,BOBINA DE HILO DE SEDA CHICO 180 GMS BLANCO,3,5900.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00019,5493514079279,25007,SEM-003,AMAPOLA SEMILLA,5,41880.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00019,5493514079279,25007,CYG-242,DiscoÂ N*32Â 14 Â mm.Â Â NARANJA,4,98110.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00019,5493514079279,25007,REP-496,Embudo 32 Picadora Chorizo,5,13620.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00020,5493514079279,25007,RIA-024,CRISPINES DE ARROZ,3,8340.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00020,5493514079279,25007,REP-374,SIERRA CIRCULAR CARNIC 305 5/8,1,17390.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00020,5493514079279,25007,SEM-026,ZAPALLO SEMILLA,3,23210.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00020,5493514079279,25007,ADI-085,SUSTI LISTO (BATTER PARA MILANESAS) - X 5 KG,3,46290.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00021,5493514079279,25007,REP-090,HAMBURGUESERA A CREMALLERA 10 CM MARCA NATIVA,3,147150.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00021,5493514079279,25007,ESP-037,ESPECIAS SURTIDAS HOJA PREMIUM - 1 KG,3,6430.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00022,5493876914178,25008,REP-258,SIERRA CIRCULAR AMARILLA O NARANJA 5/8 305 MTS,4,18840.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00022,5493876914178,25008,CYG-263,JUEGO DISCO Y CUCHILLA Nº 32 Ø 18 INOX INTERPRISE,5,61470.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00022,5493876914178,25008,REP-223,Tuerca Picadora FL 32 (2 o 3 orejas CON ROSCA),5,90390.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00023,5493876914178,25008,REP-314,BUJE DE BRONCE PARA CAJA PEALA DEVI,1,45740.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00023,5493876914178,25008,LEG-016,ARVEJA ENTERA,1,2520.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00023,5493876914178,25008,ANT-138,FARMIN F-6 FARMESA X 5 KG,2,82260.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00024,5493876914178,25008,TRI-061,BOLSA QUESO X METRO CON LOGO,4,710.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00024,5493876914178,25008,REP-481,Pata de Goma 3/8,5,2870.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00024,5493876914178,25008,CYG-266,"JUEGO DISCO Y CUCHILLA Nº 42 Ø 4,5 INOX INTERPRISE",3,152080.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00025,5492617175545,25009,CYG-307,DISCO 130 * 14 ELECTRICA DEVI,4,30880.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00025,5492617175545,25009,REP-259,SIERRA CIRCULAR AMARILLA O NARANJA 5/8 310 MTS,2,18840.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00025,5492617175545,25009,REP-359,Gusano FL,3,149080.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00026,5492617175545,25009,ESP2-076,SALVIA - 500 G,2,19540.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00027,5492617175545,25009,REP-132,MOLEDORA DE GRANO,3,189930.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00027,5492617175545,25009,RIA-065,SALSA BLANCA,2,4990.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00027,5492617175545,25009,LEG-072,SEMOLIN,2,4090.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00027,5492617175545,25009,IN5-013,INTEGRAL DE SALCHICHA P / 125 KG- 5 KG,3,31140.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00028,5493818437953,25010,ESP-091,CONDIMENTO P/ CARNES - 1 KG,4,6430.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00028,5493818437953,25010,REP-325,Cola *14 Peala,5,18520.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00028,5493818437953,25010,LEG-064,POROTO COLORADO,1,4820.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00028,5493818437953,25010,CUC-139,"ESKILSTUNA CUCHILLO COCINA 364 MI 250 10"" MADERA INOX",2,59910.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00029,5493818437953,25010,ESP-079,CONDIMENTO PARA ARROZ ECONOMICO,4,5610.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00029,5493818437953,25010,REP-447,Intermedio con Buje FH Helicoidal,5,55540.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00029,5493818437953,25010,LEG-039,HARINA DE ALGARROBA TOSTADA,3,15890.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00029,5493818437953,25010,ESP2-010,ANIS ESTRELLADO - 500 G,3,28890.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00030,5493818437953,25010,REP-322,Cola *14 Fh 22,3,18520.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00030,5493818437953,25010,FRA-016,FRUTILLA ENTERA,3,39250.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00030,5493818437953,25010,TRI-066,TRIPA KFLEX MORTADELA CAL 50 X METRO ROJA,2,880.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00031,5493582132179,25011,IN5-004,INTEGRAL CHORIZO DE CERDO - P/ 125 KG C/ PIMIENTA BLANCA- 5 KG,1,44470.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00031,5493582132179,25011,CYG-070,CUCHILLA 22 INOX AUTOAFILABLE INTERPRISE DEVI,4,17610.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00032,5493582132179,25011,LEG-011,ARROZ CARNAROLI,4,11860.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00032,5493582132179,25011,BAN-030,BANDEJA PLASTICA C 38X38X15 CUADRADA,4,13410.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00032,5493582132179,25011,REP-171,RALLADORA DE QUESO MANUAL ESMALTADA CON 1 CILINDRO ACERO INOX,4,118990.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00033,5493582132179,25011,REP-348,GUSANO 8 BLAYBAR DEVI,2,56630.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00033,5493582132179,25011,CYG-355,DiscoÂ N*42 12Â mm.Â Â NARANJA,4,94910.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00034,5493872845902,25012,CYG-274,JUEGO DISCO Y CUCHILLA Nº 42 Ø 18 INOX INTERPRISE,4,137220.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00034,5493872845902,25012,REP-145,Pata de Goma 1/4,5,2870.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00034,5493872845902,25012,CYG-230,CuchillaÂ N*Â 22Â NARANJA AUTOAFILABLE,5,20510.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00034,5493872845902,25012,REP-462,Volante de sierra Bianchi inferior,3,300570.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00035,5493872845902,25012,CUC-003,CHAIRA CARNIC 20 CM. LISA (CAR-8200-20-L),2,30260.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00035,5493872845902,25012,ESP-054,PAPRIKA - 1 KG,5,8180.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00036,5493872845902,25012,ESP2-070,PIMIENTA ROSA - 500 G,4,31610.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00037,5492997670210,25013,ADI-110,BATTER PARA HAMBURGUESAS SIN CONDIMENTO CON ANTIOXIDANTES- 5 KG,3,22870.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00037,5492997670210,25013,ADI-146,SABOR DE MORTADELA A-10 FARMESA -5KG,1,116550.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00038,5492997670210,25013,ANT-068,SAL NITRO - X 500 G,1,7660.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00039,5492997670210,25013,BAN-053,BANDEJA CANASTO TEFLONADO 60X40X10 NUEVO (01-9432),3,24440.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00039,5492997670210,25013,CYG-255,JUEGO DISCO Y CUCHILLA Nº 22 Ø 12 INOX INTERPRISE,5,40320.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00039,5492997670210,25013,LEG-033,GARBANZOS,3,2430.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00040,5493811657614,25014,IN20-013,INTEGRAL QUESO DE CERDO - P/ 500 KG - 20 KG,5,106370.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00040,5493811657614,25014,ROP-043,DELANTAL IMPERMEABLE PVC S/ REFUERZO FINO 70X90 NUEVO BLANCO O ROJO,4,11900.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00040,5493811657614,25014,MAQ-098,EMBUTIDORA MANUAL VERTICAL ESPECIAS BENAVIDEZ 15 L,5,655480.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00040,5493811657614,25014,ESP-032,COREANDRO MOLIDO - 1 KG,5,3840.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00041,5493811657614,25014,REP-343,Embudo Embudutidora Meifa Aluminio salchicha,3,23960.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00041,5493811657614,25014,ESP-014,AZAFRAN PAELLERO - 1 KG,3,6290.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00041,5493811657614,25014,ANT-066,SAL DE CURA JAMON Y BONDIOLA BELMACO,3,3540.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00042,5493811657614,25014,FRA-005,BANANA CHIPS,1,19710.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00042,5493811657614,25014,ANT-149,SABOR PARA JAMON FARMESA (R104) X 1 KG,2,19430.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00042,5493811657614,25014,ANT-087,VINAGRE DE MANZANA - X 5 LITROS,3,16990.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00042,5493811657614,25014,ANT-049,RED DE BONDIOLA - X 4MTS,1,5340.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00043,5492994145193,25015,CYG-163,"DISCO 22 * 3,5 AUTOAFILABLE DEVI",2,36890.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00043,5492994145193,25015,ANT-045,JET COLOR FARMESA ANTIOXIDANTE - X 1 KG,5,19040.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00043,5492994145193,25015,ESP-012,AZAFRAN EN CAPSULAS MARCA RUEDO 2 GR,3,4720.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00044,5492994145193,25015,REP-189,TABLA DE PICAR PLASTICA 36 CM X 26 CM X 1 CM,3,12300.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00044,5492994145193,25015,REP-376,SIERRA CIRCULAR CARNIC 285 5/8,4,17390.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00044,5492994145193,25015,CUC-005,CHAIRA CARNIC 25 CM. RAYADA (CAR-8100-25-R),3,30690.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00044,5492994145193,25015,CYG-097,DISCO 8 * 6 MANUAL DEVI,2,9500.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00045,5492994145193,25015,CUC-144,"ARBOLITO CUCHILLO CARNICERO 5""",2,31370.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00045,5492994145193,25015,FCC-024,FRACCIONADO - AJO DESHIDRATADO X 25GR - X UNIDAD,2,730.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00046,5493515971311,25016,FRU-009,HARINA DE ALMENDRA IMPORTADA,4,53280.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00046,5493515971311,25016,ANT-085,VASELINA LIQUIDA - X 1/2 L P/ MAQUINAS,1,11110.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00047,5493515971311,25016,LEG-035,GRANOLA SIN CONSER,3,13180.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00047,5493515971311,25016,REP-499,CINTA 5 ESLABONES EMPANADORA DE MILANESAS GRANDE 1.40 M,1,201470.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00047,5493515971311,25016,ESP-027,CONDIMENTO P/ AVES PREMIUM- 1 KG,3,4740.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00048,5493515971311,25016,ANT-020,ANTIOXIDANTE SÚPER SALOX FS BERNESA 1 KG,4,7230.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00048,5493515971311,25016,CYG-268,JUEGO DISCO Y CUCHILLA Nº 42 Ø 8 INOX INTERPRISE,2,137220.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00049,5492994228106,25017,IN20-003,INTEGRAL CHORIZO CRIOLLO - P/ 500 KG - 20 KG,4,86710.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00050,5492994228106,25017,ROP-073,BUZO BLANCO DEPORTIVO CON MEDIO CIERRE,5,31860.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00050,5492994228106,25017,REP-247,SIERRA CIRCULAR 3/4 300 MTS,2,21100.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00051,5492994228106,25017,IN20-007,INTEGRAL DE HAMBURGUESAS - P/500 KG - 20 KG,4,81290.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00052,5492998718887,25018,CYG-109,"DISCO 22 * 3,5 ELECTRICA DEVI",5,17160.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00052,5492998718887,25018,REP-453,Intermedio con Buje Trinidad,3,55540.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00053,5492998718887,25018,FCC-022,FRACCIONADO - OREGANO X 25GR - X UNIDAD,3,550.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00053,5492998718887,25018,REP-401,BOLSA VACIO CRISTAL 10X40X63M,1,530.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00053,5492998718887,25018,REP-224,Tuerca Picadora FL 32 ( 2 o 3 orejas sin rosca),1,90390.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00054,5492998718887,25018,REP-478,Pata de Goma 5/16,3,2870.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00054,5492998718887,25018,ESP4-031,PIMIENTA BOUQUET 4 PIMIENTAS - 250 G,1,9760.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00054,5492998718887,25018,ESP5-008,PIMENTON PREMIUM EXTRA - 5 KG,2,52570.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00054,5492998718887,25018,ROP-069,"BUZO BLANCO CON FRIZA ALGODÓN DOBLE COSTURA S,M,L,XL,XXL",1,31270.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00055,5492995028869,25019,LEG-018,AVENA TRADICIONAL,3,3160.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00055,5492995028869,25019,ESP-041,JENGIBRE MOLIDO PREMIUM- 1 KG,2,26250.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00055,5492995028869,25019,CYG-363,JUEGO DISCO Y CUCHILLA Nº 32 Ø 9 INOX NARANJA,3,55470.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00055,5492995028869,25019,ESP5-015,PAPAS EN ESCAMAS X 5 KG,1,96480.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00056,5492995028869,25019,ANT-052,RED DE BONDIOLA - X 50 MTS DE COLOR,3,33760.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00056,5492995028869,25019,SEM-023,SESAMO BLANCO,2,13390.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00056,5492995028869,25019,ROP-056,PANTALON NAUTICO BLANCO/ ROJO ACCROCEL TALLE 56 HASTA 78,4,32280.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00056,5492995028869,25019,RIA-047,MIEL LOS DOS SANGANOS X 1 KG,5,12220.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00057,5492995028869,25019,ANT-034,GELATINA SIN SABOR - X 500 G,3,16530.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00057,5492995028869,25019,REP-294,ARANDELA CUADRADA 32 TEFLON (ADELANTE),5,710.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00057,5492995028869,25019,TRI-006,CONOS DE SALCHICHA CALIBRE 23 COLFAN X CAJA DE 50 UNIDADES,1,467750.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00058,5493517304254,25020,FRU-003,ALMENDRAS CONFITADAS,3,29800.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00058,5493517304254,25020,ESP2-067,PIMIENTA JAMAICA EN GRANO O MOLIDA - 500 G,2,40950.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00058,5493517304254,25020,ESP-024,COMINO MOLIDO - 1 KG,2,6890.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00059,5493517304254,25020,RIA-091,MIEL ABEJAS CONTENTAS X 1 KG,2,7080.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00059,5493517304254,25020,CYG-279,JUEGO DISCO Y CUCHILLA Nº 32 Ø 10 INOX INTERPRISE,5,61470.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00060,5493517304254,25020,FRU-021,MIX FRUTOS SECOS OFERTA,4,13180.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00061,5493416986538,25021,REP-068,Engranaje salida de motor 17 dientes recto 16,3,8500.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00061,5493416986538,25021,CYG-253,JUEGO DISCO Y CUCHILLA Nº 22 Ø 8 INOX INTERPRISE,2,40320.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00061,5493416986538,25021,RIA-072,STEVIA EN POLVO,3,35020.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00061,5493416986538,25021,CYG-261,JUEGO DISCO Y CUCHILLA Nº 32 Ø 14 INOX INTERPRISE,2,61470.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00062,5493416986538,25021,ESP4-018,LAUREL EN HOJAS PREMIUM - 250 G,5,4790.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00062,5493416986538,25021,CYG-124,DISCO 42 * 8 ELECTRICA DEVI,4,29730.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00063,5493416986538,25021,REP-171,RALLADORA DE QUESO MANUAL ESMALTADA CON 1 CILINDRO ACERO INOX,4,118990.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00063,5493416986538,25021,ROP-061,REMERA MANGA LARGA ALGODON PEINADO BLANCAS/ROJAS,4,18800.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00063,5493416986538,25021,CUC-149,"ARBOLITO CUCHILLO CARNICERO 10""",5,54810.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00063,5493416986538,25021,REP-070,Espirales Pagani Grande,1,48990.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00064,5492619239862,25022,CYG-306,DISCO 130 * 12 ELECTRICA DEVI,5,30880.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00064,5492619239862,25022,CYG-271,JUEGO DISCO Y CUCHILLA Nº 42 Ø 12 INOX INTERPRISE,1,137220.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00064,5492619239862,25022,ESP-080,TOMILLO PREMIUM,4,17830.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00065,5492619239862,25022,CYG-343,DISCO 32 * 14 MANUAL DEVI,5,13160.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00066,5492619239862,25022,ESP-056,PEREJIL EN HOJAS PREMIUM - 1 KG,1,14920.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00066,5492619239862,25022,FRA-012,DAMASCOS TURCOS,2,10740.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00066,5492619239862,25022,ANT-063,SAL DE CURA BERNESAL - X 10KG,3,30010.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00066,5492619239862,25022,CUC-045,CUCHILLO PARA COCINA CARNIC 25 CM. MANGO BLANCO (CAR-00-4050-25),4,32710.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00067,5493513952681,25023,REP-377,SIERRA CIRCULAR CARNIC 280 5/8,2,17390.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00067,5493513952681,25023,REP-168,Punta 42 FH/freire/ Cisa,2,38120.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00067,5493513952681,25023,CYG-261,JUEGO DISCO Y CUCHILLA Nº 32 Ø 14 INOX INTERPRISE,2,61470.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00068,5493513952681,25023,LEG-016,ARVEJA ENTERA,1,2520.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00068,5493513952681,25023,RIA-011,AZUCAR NEGRA - X 1 KG,4,2510.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00069,5493513952681,25023,FRU-001,ALMENDRAS,2,30500.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00070,5493414799650,25024,ANT-065,SAL DE CURA BERNESAL - X 5KG,5,16510.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00070,5493414799650,25024,CYG-107,DISCO 32 * 6 MANUAL DEVI,3,13160.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00071,5493414799650,25024,CYG-305,DISCO 130 * 10 ELECTRICA DEVI,3,30880.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00071,5493414799650,25024,ROP-078,CHALECO DEPORTIVO BLANCO CON FRIZZA,3,31270.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00072,5493414799650,25024,LEG-061,POLENTA BLANCA,2,940.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00072,5493414799650,25024,ADI-014,BERNECOL - X 10 KG,4,95660.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00073,5492992500733,25025,CUC-153,Conjunto de Vaina Devi + Cinto 4 cm,4,23530.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00073,5492992500733,25025,ADI-157,SOJA POR 20 KG CRISTAL ENTREFINA MX,3,46770.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00073,5492992500733,25025,REP-378,SIERRA CIRCULAR CARNIC 250 5/8,1,17390.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00074,5492992500733,25025,ESP2-032,CURRY AMARILLO - 500 G,2,3640.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00074,5492992500733,25025,ESP4-017,JENGIBRE RAIZ/ESCAMAS - 250 G,4,9760.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00074,5492992500733,25025,CYG-003,CUCHILLA 32 COMUN ELECTRICA DEVI,3,12580.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00075,5492992500733,25025,IN10-012,INTEGRAL DE SALCHICHA P / 250 KG - 10 KG,4,58360.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00075,5492992500733,25025,CYG-168,DISCO 22 * OVALADOS AUTOAFILABLE DEVI,2,36890.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00075,5492992500733,25025,ESP5-001,AJI MOLIDO MORTERO - 5 KG,2,47790.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00076,5492615139305,25026,REP-216,TIERNIZADOR TIERNATODO 180MM N 1,5,249340.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00076,5492615139305,25026,ESP2-049,NUEZ PURA MOLIDA - 500 G,1,16260.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00077,5492615139305,25026,REP-513,SMASH PARA HAMBURGUESAS 125 MM TIERNATODO,2,33700.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00077,5492615139305,25026,SEM-025,SESAMO NEGRO,1,13390.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00077,5492615139305,25026,ADI-016,BERNECOL - X 5 KG,3,52630.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00077,5492615139305,25026,LEG-043,HARINA DE GARBANZO,4,5180.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00078,5492615139305,25026,CUC-004,CHAIRA CARNIC 20 CM. RAYADA (CAR-8100-20-R),3,30260.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00078,5492615139305,25026,BAN-054,BANDEJA CANASTO TEFLONADO 60X40X15 NUEVO (01-9431),3,26960.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00079,5492618861463,25027,REP-221,TUBO SICA MATAMOSCAS CHICO 30cm,4,11980.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00080,5492618861463,25027,REP-479,Guia Inferior FH Redonda con rebaje bajo,1,2070.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00080,5492618861463,25027,ESP4-036,PIMIENTA NEGRA MOLIDA PURA - - 250 G,4,9810.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00080,5492618861463,25027,ADI-053,JAMON COCIDO CASERO BELMACO LIQUIDO X 1 LITRO,2,30760.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00080,5492618861463,25027,ADI-030,FIBROSA CAL 80 - X METRO,2,3090.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00081,5492618861463,25027,RIA-060,PURE DE PAPAS EN ESCAMAS - X 500 GMS,4,10940.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00081,5492618861463,25027,ADI-096,PP200/600-1KG,4,8660.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00082,5493812941974,25028,TRI-066,TRIPA KFLEX MORTADELA CAL 50 X METRO ROJA,1,880.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00082,5493812941974,25028,IN1-027,INTEGRAL DE HAMBURGUESAS CON PANCETA AHUMADA - P/25 KG- 1 KG,1,6590.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00082,5493812941974,25028,ADI-032,GLUTAMATO MONOSODICO - X 1 KG,5,8170.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00083,5493812941974,25028,ESP-016,CANELA MOLIDA - 1 KG,5,8550.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00083,5493812941974,25028,RIA-059,POLVO DE HORNEAR - X 500,4,4620.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00083,5493812941974,25028,LEG-007,ARITO CON MIEL,3,8910.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00083,5493812941974,25028,CYG-311,DISCO 22 * 14 AUTOAFILABLE DEVI,5,30760.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00084,5493812941974,25028,RIA-009,AZUCAR IMPALPABLE - X 1 KG,1,4250.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00084,5493812941974,25028,CYG-110,"DISCO 22 * 4,5/5 ELECTRICA DEVI",3,16010.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00084,5493812941974,25028,REP-294,ARANDELA CUADRADA 32 TEFLON (ADELANTE),1,710.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00085,5493817404433,25029,CUC-075,GANCHO ROLDANA 95 MM (TMI62),1,53330.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00086,5493817404433,25029,RIA-015,CAFE VERDE GRANO,2,50740.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00087,5493817404433,25029,CUC-064,GANCHO DE MANO CAÑO CROMADO,3,18680.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00088,5493419686914,25030,ADI-005,BATTER PARA MILANESAS SIN CONDIMENTO - 10KG,3,35150.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00088,5493419686914,25030,BAN-068,BANDEJA MOLEDORA RECTANGULAR INOXIDABLE C /PROTECTOR 95,3,84250.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00088,5493419686914,25030,REP-455,PUNTA DE GUSANO 22 5/8,1,10890.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00088,5493419686914,25030,ESP2-025,CONDIMENTO P/ AVES PREMIUM - 500 G,5,2620.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00089,5493419686914,25030,ROP-031,COFIAS HOMBRERAS TELA ROJAS O BLANCAS (MEDIA RES),1,5070.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00089,5493419686914,25030,FRU-001,ALMENDRAS,3,30500.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00089,5493419686914,25030,REP-502,MOLDE ALBONDIGAS/ BASTONES FORMADORA HAMBURGUESAS 35 KG,3,163350.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00090,5493419686914,25030,FCC-022,FRACCIONADO - OREGANO X 25GR - X UNIDAD,5,550.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00091,5493518648263,25031,REP-095,HAMBURGUESERA TIERNATODO 12 CM,4,58880.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00091,5493518648263,25031,REP-273,Embudo Embutidora Salchicha Inox FREIRE,2,34850.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00091,5493518648263,25031,REP-037,CHAPERON DE SERRUCHO,3,14190.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00091,5493518648263,25031,ESP2-029,COREANDRO EN GRANO - 500 G,5,2020.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00092,5493518648263,25031,REP-183,SIERRA CIRCULAR AMARILLA O NARANJA 5/8 180 MTS,4,18840.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00093,5493518648263,25031,CUC-011,CHAIRA LISA 30 CM MANGO/AMAR/NEGRO STARRET (STARR-8010-30),2,36450.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00093,5493518648263,25031,CYG-304,DISCO 42 * 16 ELECTRICA DEVI,2,29730.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00093,5493518648263,25031,TRI-020,MAD DE CERDO RECORTE IMPORTADA POR 80 MTS OFERTA P/50 KG,3,17100.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00093,5493518648263,25031,REP-415,HAMBURGUESERA 16 CM PARRILERA,3,37580.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00094,5493516216782,25032,CUC-018,CUCHILLA CARNICERA CARNIC 27.5 CM. MANGO BLANCO (CAR-00-1090-27),5,39030.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00094,5493516216782,25032,REP-356,Gusano Bianchi cola estriada,3,16120.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00094,5493516216782,25032,TRI-008,CONOS DE SALCHICHA CALIBRE 21 COLFAN X UNIDAD,4,9780.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00094,5493516216782,25032,BAN-040,BANDEJA TEFLONADA RECTANGULAR P/ 44 L 65X42X20 (04-9126),5,43850.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00095,5493516216782,25032,REP-408,HAMBURGUESERA CUADRADA 12 CM DEVI,3,28320.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00096,5493516216782,25032,ADI-011,BELFOS - 5 KG,1,74910.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00096,5493516216782,25032,ADI-094,SOJA POR 15 KG CRISTAL ENTREFINA MX,4,36170.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00096,5493516216782,25032,FCC-024,FRACCIONADO - AJO DESHIDRATADO X 25GR - X UNIDAD,4,730.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00097,5492612780568,25033,RIA-067,SALSA DE SOJA 5 LITROS,2,45910.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00097,5492612780568,25033,IN20-011,INTEGRAL DE SALAME - P/400 KG - 20 KG,2,117680.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00097,5492612780568,25033,ANT-053,RED DE BONDIOLA - X 8 METROS,3,8930.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00098,5492612780568,25033,ADI-024,EMBUTIN - X 5 KG,4,12040.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00098,5492612780568,25033,ESP-080,TOMILLO PREMIUM,1,17830.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00098,5492612780568,25033,ESP4-035,PIMIENTA NEGRA MOLIDA INTERMEDIA - 250 G,1,5340.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00099,5492612780568,25033,CYG-111,DISCO 22 * 6 ELECTRICA DEVI,4,11440.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00100,5493582639964,25034,REP-472,CAJA DE SIERRA CIRCULAR HAKANSAW X 2 UNIDADES 325,5,59080.00,3,Pedido: 5 unidad (normalizado: 10 unidad; equiv: 5 unidad),true,false,false
+P-00101,5493582639964,25034,ANT-095,VINAGRE DE VINO - X 5 LITROS,1,10710.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00101,5493582639964,25034,ANT-010,ANTIOXIDANTE FOS COLOR BELMACO - 5 KG,1,115520.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00101,5493582639964,25034,CUC-103,PIEDRA DE AFILAR ECONOMICA OXIDO DE ALUMINIO NUEVA 20 CM,3,6080.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00101,5493582639964,25034,CYG-118,DISCO 32 * 18 ELECTRICA DEVI,4,13960.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00102,5493582639964,25034,TRI-030,MAD VACA POR 15 MTS 46/48 SALAMIN IMPORTADA P/28 KG,5,7200.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00102,5493582639964,25034,ESP-066,PIMIENTA BOUQUET 4 PIMIENTAS - 1 KG,5,30270.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00102,5493582639964,25034,REP-020,BATERIA SYSTEL,4,28680.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00102,5493582639964,25034,CYG-127,DISCO 42 * OVALADOS ELECTRICA DEVI,4,35450.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00103,5493814729528,25035,LEG-023,CACAO DULCE,3,24290.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00103,5493814729528,25035,REP-344-2,Espirales Freire A,5,28320.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00103,5493814729528,25035,ROP-020,CASCO DE SEGURIDAD REFORZADO BLANCO,4,6890.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00104,5493814729528,25035,IN1-015,INTEGRAL SABOR MORCILLA FARMESA - P/ 25 KG- 1 KG,1,26760.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493814729528,25035,ROP-015,CAMPERA TERMICA IMPERMEABLE POLAR CON NAUTICA ROJO TRACKER,2,58760.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00105,5493814729528,25035,REP-228,Tuerca Embutidora MS Plastica,4,22660.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00105,5493814729528,25035,CUC-082,GANCHOS CARNICERO CROMADOS 08X08 STOCK X DOCENA (TMI35),4,54480.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00105,5493814729528,25035,ESP-050,NUEZ MOSCADA PARTIDA - 1 KG,4,25680.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00106,5493876922419,25036,HIL-003,BOBINA DE HILO DE ALGODÓN BLANCO CHORIZO ESPECIAL 180 GMS,5,5710.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00106,5493876922419,25036,REP-468,ROLLO DE CORTINA PVC TRANSPARENTE 10 CM X 1 MM X 50 METROS,3,91370.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00106,5493876922419,25036,RIA-054,PASTA DE MANI KING X 485 GR,2,5010.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00106,5493876922419,25036,REP-296,SIERRA CIRCULAR AMARILLA O NARANJA 5/8 180 MTS,3,18840.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00107,5493876922419,25036,LEG-082,FLOR DE HIBISCUS/ JAMAICA-1KG,3,34090.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00107,5493876922419,25036,ANT-053,RED DE BONDIOLA - X 8 METROS,1,8930.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00108,5493876922419,25036,IN5-015,INTEGRAL DE MILANESAS - C/ MOSTAZA- P/ 125 KG- 5 KG,1,40370.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00108,5493876922419,25036,CYG-095,"DISCO 8 * 3,5 /OVALADOS MANUAL DEVI",3,10520.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00108,5493876922419,25036,CYG-307,DISCO 130 * 14 ELECTRICA DEVI,4,30880.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00108,5493876922419,25036,MAQ-010,CLIPEADORA MANUAL ESPECIAS BENAVIDEZ,3,377940.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00109,5492618889598,25037,RIA-068,SALSA DE SOJA X 500 ML,2,6740.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00109,5492618889598,25037,CYG-174,DISCO 32 * OVALADOS AUTOAFILABLE DEVI,1,51000.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00110,5492618889598,25037,ESP2-068,PIMIENTA NEGRA MOLIDA INTERMEDIA - 500 G,2,9370.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00110,5492618889598,25037,CYG-306,DISCO 130 * 12 ELECTRICA DEVI,1,30880.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00110,5492618889598,25037,FCC-011,FRACCIONADO - PIMIENTA BLANCA EN GRANO X 25GR - PACK X10,1,11890.00,2,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00111,5492618889598,25037,BAN-068,BANDEJA MOLEDORA RECTANGULAR INOXIDABLE C /PROTECTOR 95,3,84250.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00111,5492618889598,25037,CYG-324,DISCO 130 * 10 AUTOAFILABLE DEVI,4,118840.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00111,5492618889598,25037,ADI-030,FIBROSA CAL 80 - X METRO,3,3090.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00111,5492618889598,25037,ESP-055,PEREJIL EN HOJAS ECONOMICO - 1 KG,3,5640.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00112,5492615021286,25038,FRA-009,COCO EN CUBO,3,38840.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00112,5492615021286,25038,CUC-150,"ARBOLITO CUCHILLO CARNICERO 11""",4,58550.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00113,5492615021286,25038,CYG-185,DISCO 130 * 8 AUTOAFILABLE DEVI,2,112710.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00113,5492615021286,25038,REP-005,AFILADOR DE CUCHILLOS CON PIEDRA (ROJO) ACENTADOR DE FILO 2 EN 1,2,1260.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00113,5492615021286,25038,ESP-067,PIMIENTA CAYENA AMARILLA - 1 KG,3,13030.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00113,5492615021286,25038,LEG-006,AMARANTO SEMILLA,2,11880.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00114,5492615021286,25038,REP-509,Corona Bianchi,2,131100.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00114,5492615021286,25038,IN20-003,INTEGRAL CHORIZO CRIOLLO - P/ 500 KG - 20 KG,4,86710.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00114,5492615021286,25038,CYG-319,DISCO 42 * 10 AUTOAFILABLE DEVI,4,118840.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00115,5493813520000,25039,LEG-062,POROTO ADSUKI,3,3160.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00115,5493813520000,25039,ADI-007,BATTER PARA MILANESAS SIN CONDIMENTO - 5 KG,5,19390.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00115,5493813520000,25039,ANT-053,RED DE BONDIOLA - X 8 METROS,1,8930.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00115,5493813520000,25039,REP-181,SET COLADORES DE ACERO INOX 3 MEDIDAS,1,2740.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00116,5493813520000,25039,REP-106,IMAN PARA CUCHILLOS 38 CM,1,11950.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00116,5493813520000,25039,REP-117,LLAVE DE ENCENDIDO MOLEDORA MONOFASICA,2,13490.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00116,5493813520000,25039,REP-480,Embudo 32 Picadora Morcilla,1,13620.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00117,5493813520000,25039,ANT-045,JET COLOR FARMESA ANTIOXIDANTE - X 1 KG,4,19040.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00118,5492997489876,25040,ESP-075,PROVENZAL PREMIUM - 1 KG,1,10990.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00118,5492997489876,25040,REP-019,BALDE PLASTICO 10 LITROS C/ TAPA PARA MADEJAS OVINAS/ PORCINAS,3,10500.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00118,5492997489876,25040,REP-410,HAMBURGUESERA DE 12 CM CARNE DEVI,1,31910.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00118,5492997489876,25040,FRU-016,NUEZ PECAN,1,20860.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00119,5492997489876,25040,ADI-147,SABOR DE MORTADELA A-10 FARMESA -10KG,2,202840.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00119,5492997489876,25040,ADI-022,EMBUTIN - X 10 KG,3,21870.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00119,5492997489876,25040,ESP2-064,PIMIENTA BOUQUET 4 PIMIENTAS - 500 G,2,17340.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00119,5492997489876,25040,LEG-022,CACAO AMARGO,3,49910.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00120,5492997489876,25040,CUC-087,GANCHOS DE MANO CARNIC MANGO PLÁSTICO - ANCHO APLANADO (CAR-GRE),5,19120.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00120,5492997489876,25040,REP-343,Embudo Embudutidora Meifa Aluminio salchicha,4,23960.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00120,5492997489876,25040,HIL-019,BOBINA DE HILO N 4 VERDE POR 100 GMS,4,1550.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00120,5492997489876,25040,CYG-303,DISCO 42 * 14 ELECTRICA DEVI,1,29730.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00121,5492612928724,0,REP-515,Engranaje de Fundicion Bianchi Estriado (Engranaje Corona Bianchi),3,131100.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5492612928724,0,BAN-028,BANDEJA PLASTICA A 30X30X12 CUADRADA,3,8460.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5492612928724,0,BAN-017,BANDEJA CUNITA TEFLONADA 7L 30X50X5 (01-9503),2,20130.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00121,5492612928724,0,ESP10-02,CLAVO DE OLOR ENTERO ECONOMICO - 100 G,2,4640.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00122,5492612928724,0,ROP-080,PANTALON TIPO CARGO ACROCEL ROJOS,3,39050.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00122,5492612928724,0,ESP-014,AZAFRAN PAELLERO - 1 KG,1,6290.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00122,5492612928724,0,REP-510,Correa Pagani J 356 Master,1,150640.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00123,5492612928724,0,ESP-049,NUEZ MOSCADA MOLIDA PREMIUM - 1 KG,4,20900.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00123,5492612928724,0,REP-309,BUJE BRONCE PARA INTERMEDIO FREIRE DEVI,4,21240.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00123,5492612928724,0,REP-196,"TABLA DE PLASTICA CON TEFLON OFERTA 35X50 CM AMARILLA, ROJA, AZUL, MARRON,VERDE",5,27610.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00123,5492612928724,0,ESP-080,TOMILLO PREMIUM,5,17830.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00124,5492617236955,0,ESP-016,CANELA MOLIDA - 1 KG,5,8550.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00125,5492617236955,0,REP-027,CABO DE CUCHILLOS,3,1910.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00125,5492617236955,0,CYG-188,DISCO 130 * OVALADOS AUTOAFILABLE DEVI,2,153670.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00126,5492617236955,0,IN5-009,INTEGRAL DE MILANESAS - P/ 125 KG- 5 KG,4,38580.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00126,5492617236955,0,REP-190,TABLA DE PICAR PLASTICA 30 CM X 40 CM X 1 CM,1,20670.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00127,5492617413812,0,CYG-117,DISCO 32 * 6 ELECTRICA DEVI,1,13960.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00127,5492617413812,0,ADI-108,FECULA DE MANDIOCA - X 1 KG,1,3820.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00128,5492617413812,0,REP-041,Cola Estriada 42 Marani,3,38120.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00128,5492617413812,0,ANT-070,SAL NITRO - X 100 G,2,1940.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00128,5492617413812,0,REP-397,BOLSA VACIO CRISTAL 20X25X63M,4,510.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00128,5492617413812,0,RIA-064,SALERO MADERA 21 CM,5,9050.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00129,5492617413812,0,TRI-027,MAD VACA 38/40 IMPORTADA POR 15 MTS P/18 KG,4,6710.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00130,5492998066543,0,ANT-049,RED DE BONDIOLA - X 4MTS,4,5340.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00130,5492998066543,0,ESP2-019,CLAVO DE OLOR ENTERO ECONOMICO - 500 G,2,16830.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00131,5492998066543,0,ANT-125,"CULTIVO EMPLUME STARTER PARA EMBUTIDOS SECOS CGM 3SC (PEDIOCOCCUS ACIDILACTICI, MICROCOCCUS VARIANS, ,STAPHYLOCOCCUS CARNOSUS, FOSFATO MONOPOTASICO,FOSFATO MONOSODICO, GLUCOSA)",1,13810.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00131,5492998066543,0,ROP-085,CAMPERA TRUCKER TERMICA NEGRA /BLANCA/ ROJA INFLADA,1,54370.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00132,5492998066543,0,REP-523,CARGADOR BALANZA SYSTEL ORIGINAL,4,22870.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00133,5492999435946,0,REP-036,CASCO DE SEGURIDAD REFORZADO BLANCO,1,9570.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00134,5492999435946,0,FRA-006,CASCARA GLASEADA,4,2560.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00134,5492999435946,0,CUC-019,CUCHILLA CARNICERA CARNIC 30 CM. MANGO BLANCO (CAR-00-1090-30),5,41900.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00134,5492999435946,0,FCC-008,FRACCIONADO - NUEZ MOSCADA MOLIDA X 25GR - PACK X10,2,11890.00,3,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00134,5492999435946,0,LEG-044,HARINA DE MAIZ,5,3140.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00135,5492999435946,0,HIL-003,BOBINA DE HILO DE ALGODÓN BLANCO CHORIZO ESPECIAL 180 GMS,2,5710.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00136,5493416524997,0,REP-258,SIERRA CIRCULAR AMARILLA O NARANJA 5/8 305 MTS,3,18840.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00136,5493416524997,0,CUC-152,Conjunto de Vaina Devi y Cinto 4 cm y GARFIO Devi,5,17430.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00136,5493416524997,0,ESP5-002,AJO DESHIDRATADO EN POLVO 5 KG,5,22070.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00136,5493416524997,0,REP-224,Tuerca Picadora FL 32 ( 2 o 3 orejas sin rosca),1,90390.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00137,5493416524997,0,REP-033,"CARTELES PVC ABIERTO CERRADO, HORARIOS DE ATENCION",5,2300.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00138,5493416524997,0,FRA-007,CIRUELAS C / CAROZO,2,10520.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00139,5493517632424,0,RIA-063,SALERO 13 CM,1,6330.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00139,5493517632424,0,ANT-059,SABOR HUMO EN POLVO NUEVO - X 500 G,2,3970.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00139,5493517632424,0,ESP4-020,NUEZ MOSCADA ENTERA - 250 G,1,10350.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00139,5493517632424,0,ANT-018,ANTIOXIDANTE ROJO FARMESA - X 500 G,3,18240.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00140,5493517632424,0,ESP-033,CURCUMA PURA - 1 KG,4,10790.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00140,5493517632424,0,CYG-091,"DISCO 5 * 3,5/ OVALADOS MANUAL DEVI",2,8010.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00141,5493517632424,0,CYG-328,DISCO 130 * 18 AUTOAFILABLE DEVI,5,122920.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00141,5493517632424,0,REP-195,TABLA DE PLASTICA CON TEFLON OFERTA 35 CM X 50 X 1 CM BLANCA,5,27610.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00141,5493517632424,0,HIL-007,BOBINA DE HILO DE SEDA CHICO 180 GMS BLANCO,2,5900.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00142,5493519107005,0,LEG-043,HARINA DE GARBANZO,3,5180.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00142,5493519107005,0,CYG-094,DISCO 5 * 12 MANUAL DEVI,2,8010.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00143,5493519107005,0,CYG-124,DISCO 42 * 8 ELECTRICA DEVI,1,29730.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00143,5493519107005,0,REP-473,CAJA DE SIERRA CIRCULAR HAKANSAW X 2 UNIDADES 320,2,59080.00,2,Pedido: 2 unidad (normalizado: 4 unidad; equiv: 2 unidad),true,false,false
+P-00143,5493519107005,0,REP-400,BOLSA VACIO CRISTAL 20X30X63M,1,660.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00144,5493519107005,0,REP-278,CABEZAL FREIRE 32 ORIGINAL DEVI,2,335530.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00144,5493519107005,0,REP-227,Volante de Picadora FH/FL/CISA/FREIRE/ MARANI 32 con Timon s/ Rosca,3,74170.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00144,5493519107005,0,ROP-009,BUZO BLANCO CON FRIZA ALGODÓN DOBLE COSTURA XXXL EN ADELATE,1,40610.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00144,5493519107005,0,ANT-069,SAL NITRO - X 250 G,5,4340.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00145,5493874104594,0,ADI-068,ESTABILIZANTE RENDI PLUS FARMESA - X 5 KG,5,75320.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00146,5493874104594,0,TRI-022,MAD DE LECHON (SALCHICHA) X 45 MTS P/18 KG,5,30060.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00146,5493874104594,0,CYG-167,DISCO 22 * 20/22 AUTOAFILABLE DEVI,3,30760.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00147,5493874104594,0,ESP2-024,COMINO MOLIDO - 500 G,3,3830.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00148,5493876499570,0,ANT-042,HOJA DE CELOFAN CHICO 45X50- X 100U,3,19320.00,2,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00148,5493876499570,0,REP-356,Gusano Bianchi cola estriada,3,16120.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00148,5493876499570,0,ROP-071,BUZO NEGRO CON FRIZA ALGODÓN DOBLE COSTURA XXXL EN ADELATE,3,40610.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00148,5493876499570,0,REP-030,"CARTELES DE PRECIOS DE DISTINTOS CORTES DE CARNES VACA, CERDO Y POLLO",1,480.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00149,5493876499570,0,ANT-122,SANGRE EN POLVO SANGSHOR - X 1KG,1,7410.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00149,5493876499570,0,REP-028,CAJA DE SIERRA CIRCULAR HAKANSAW X 2 UNIDADES 285,2,59080.00,2,Pedido: 2 unidad (normalizado: 4 unidad; equiv: 2 unidad),true,false,false
+P-00150,5493876499570,0,REP-359,Gusano FL,2,149080.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00150,5493876499570,0,CYG-003,CUCHILLA 32 COMUN ELECTRICA DEVI,5,12580.00,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00150,5493876499570,0,FRA-021,MANGO CUBOS,1,9040.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00150,5493876499570,0,CUC-077,GANCHOS CARNICERO CROMADOS 05X06 STOCK X DOCENA (TMI30),3,30690.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00151,5493587905250,25001,ESP-001,AJI CAYENA MOLIDA AMARILLO - 1 KG,1,10290.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad) - promo fase 2,true,true,true
+P-00152,5493582641213,25002,ROP-058,PANTALON TIPO CARGO GABARDINA GRUESO BLANCOS,1,39050.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00152,5493582641213,25002,RIA-003,ACEITE DE COCO P/ COCINA X 1 LITRO,3,27130.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00153,5492991227644,25003,FRA-009,COCO EN CUBO,3,38840.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00153,5492991227644,25003,ADI-001,ACILYG INT SALAME - 5 KG,2,194260.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00153,5492991227644,25003,IN20-018,INTEGRAL DE HAMBURGUESAS CIN FINAS HIERBAS P /500 KG - 20 KG,5,95360.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00154,5493418277249,25004,REP-390,Cola *15 pagani,1,18520.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00154,5493418277249,25004,LEG-052,MAIZ PELADO BLANCO,3,3050.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00154,5493418277249,25004,REP-431,Embudo Embutidora Chorizo Inox FL,5,34850.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00155,5493587747641,25005,CUC-055,CUCHILLO PARA FILETEAR CARNIC 20 CM. MANGO BLANCO (CAR-00-3030-20),2,24950.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00156,5492614053074,25006,ADI-090,HUEVO EN POLVO SUPER RENDIDOR - X 10 KG,2,131770.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00156,5492614053074,25006,REP-189,TABLA DE PICAR PLASTICA 36 CM X 26 CM X 1 CM,2,12300.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00157,5493514079279,25007,ESP2-059,PIMIENTA BLANCA EN GRANO - 500 G,3,24180.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00157,5493514079279,25007,ANT-005,ANTIOXIDANTE BELCOLOR FRESCO BELMACO - 500 G,1,10560.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false

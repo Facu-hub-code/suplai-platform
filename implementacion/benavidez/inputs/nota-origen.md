@@ -1,0 +1,1 @@
+Especias Benavidez, es una fábrica / distribuidora de productos de ciudad de Córdoba de productos de Especias y productos para carnicerias y frigorificos entre otros. Tiene como sistema de gestión Odoo :)

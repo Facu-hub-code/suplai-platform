@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+mcp_conectado,MCP supabase responde,ok,conectado proyecto cvlbietibaaehgeimxgw
+carpeta_implementacion,manifest.yaml presente,ok,implementacion/benavidez/manifest.yaml
+excel_presente,Archivo en inputs/,ok,inputs/Especias_Benavidez_Precios.xlsx (2054 filas; 25 categorias; origen clientes.especiasbenavidez.com/precios 2026-08-19)
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: 26db05ce-f004-4ba5-8a4b-b480c1a1f1f7 | nombre: Especias Benavidez | activa: true | created_at: 2026-08-20
+schema_existe,Tablas en benavidez,ok,schema benavidez verificado (70 tablas clonadas desde gonzales; productos; clients; listas_precios; precios_productos; productos_aliases)
+productos_vacio,COUNT productos = 0,ok,0 productos
+clients_vacio,COUNT clients = 0,ok,0 clientes
+is_mock_column,Columna is_mock en productos,ok,is_mock presente en benavidez.productos y benavidez.clients

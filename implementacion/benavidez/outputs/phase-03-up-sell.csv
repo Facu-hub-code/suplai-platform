@@ -1,0 +1,9 @@
+base_product_code,related_product_code,reason,is_mock
+ESP-002,ESP-003,"Pasá del ají económico al mortero: mismo kilo, mejor molienda para elaborados.",true
+ESP-003,ESP5-001,"Si ya usás mortero, el saco de 5 kg baja el costo por kilo.",true
+ESP-004,ESP5-002,El ajo en polvo rinde más en formato 5 kg para planta.,true
+ESP-058,ESP-059,Subí de pimentón económico a Premium Extra: color y aroma más limpios.,true
+IN1-029,IN1-004,Del chorizo económico al de cerdo con pimienta blanca: más perfil de producto.,true
+IN1-003,IN5-003,"Mismo criollo, bolsa de 5 kg para tandas de 125 kg de masa.",true
+MAQ-097,MAQ-098,La embutidora Especias Benavidez 15 L da más autonomía que la de 10 L.,true
+REP-038,REP-541,"Si clippeás seguido, el pack x4000 rinde más que el x1000.",true

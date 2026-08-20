@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2077,Calidad,open,Reclamo por AJI CAYENA MOLIDA AMARILLO - 1 KG con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego AJI CAYENA MOLIDA AMARILLO - 1 KG en mal estado y quiero hacer el reclamo.",2026-08-20 11:15:00,,true
+TKT-2078,Calidad,open,Reclamo por PANTALON TIPO CARGO GABARDINA GRUESO BLANCOS con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego PANTALON TIPO CARGO GABARDINA GRUESO BLANCOS en mal estado y quiero hacer el reclamo.",2026-08-19 08:15:00,,true
+TKT-2079,Calidad,open,Reclamo por COCO EN CUBO con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego COCO EN CUBO en mal estado y quiero hacer el reclamo.",2026-08-18 05:15:00,,true
+TKT-2080,Logistica,open,Demora en la entrega del pedido P-00154 de Cola *15 pagani.,5493418277249,"Buen dia, sigo esperando el pedido P-00154 de Cola *15 pagani y no llego.",2026-08-20 02:15:00,,true
+TKT-2081,Logistica,open,Demora en la entrega del pedido P-00123 de NUEZ MOSCADA MOLIDA PREMIUM - 1 KG.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de NUEZ MOSCADA MOLIDA PREMIUM - 1 KG y no llego.",2026-08-19 11:15:00,,true
+TKT-2082,Logistica,open,Demora en la entrega del pedido P-00126 de INTEGRAL DE MILANESAS - P/ 125 KG- 5 KG.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de INTEGRAL DE MILANESAS - P/ 125 KG- 5 KG y no llego.",2026-08-18 08:15:00,,true
+TKT-2083,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Carnicería Don Julio Altamira.,5493587905250,,2026-08-20 05:15:00,,true
+TKT-2084,Administracion,open,Solicita corregir datos administrativos de Frigorífico San Vicente SRL en el sistema.,5493582641213,,2026-08-19 02:15:00,,true
+TKT-2085,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Embutidos El Criollo.,5492991227644,,2026-08-18 11:15:00,,true
+TKT-2086,Administracion,open,Solicita corregir datos administrativos de Chacinados La Estancia en el sistema.,5493418277249,,2026-08-20 08:15:00,,true
+TKT-2087,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Elaboradora El Portal.,5492612928724,,2026-08-19 05:15:00,,true
+TKT-2088,Administracion,closed,Solicita corregir datos administrativos de Carnicería La Cumbre en el sistema.,5492617236955,,2026-08-04 05:15:00,2026-08-04 20:15:00,true
+TKT-2089,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Fiambres Don Roberto.,5492617413812,,2026-08-03 11:15:00,2026-08-04 03:15:00,true
+TKT-2090,Logistica,closed,Demora en la entrega del pedido P-00132 de CARGADOR BALANZA SYSTEL ORIGINAL.,5492998066543,,2026-08-02 09:15:00,2026-08-03 02:15:00,true
+TKT-2091,Calidad,closed,Reclamo por BOBINA DE HILO DE ALGODÓN BLANCO CHORIZO ESPECIAL 180 GMS con entrega en mal estado o faltante parcial.,5492999435946,,2026-08-01 07:15:00,2026-08-02 01:15:00,true
+TKT-2092,Administracion,closed,Solicita corregir datos administrativos de Sala de Desposte Yofre en el sistema.,5493587747641,,2026-07-31 05:15:00,2026-08-01 00:15:00,true
+TKT-2093,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Fiambres Don Pedro.,5492614053074,,2026-08-15 11:15:00,2026-08-16 07:15:00,true
+TKT-2094,Logistica,closed,Demora en la entrega del pedido P-00157 de PIMIENTA BLANCA EN GRANO - 500 G.,5493514079279,,2026-08-14 09:15:00,2026-08-15 06:15:00,true

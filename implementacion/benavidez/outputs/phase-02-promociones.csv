@@ -1,0 +1,5 @@
+promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+1,MAQ-010,"15% OFF en Clipeadora Manual Especias Benavidez","Oferta semanal de la casa: 15% en la clipeadora para cierre de tripas. Lista base.",percent_off,15,1,1,2026-08-13,2026-09-19,true,true
+2,ESP-001,"$1.000 OFF en Ají Cayena Molida Amarillo 1 kg","Picante de elaborados. $1.000 de descuento en lista minorista.",total_off,1000,2,1,2026-08-13,2026-09-19,true,true
+3,ESP-002,"Precio especial: Ají Molido Económico desde 3 kg","Llevando 3 o más, $4.655,20 el kilo en lista base.",fixed_price,4655.20,1,3,2026-08-13,2026-09-19,true,true
+4,ESP-003,"20% OFF mayorista en Ají Molido Mortero 1 kg","Molienda tipo mortero para chacinados. 20% en lista mayorista especial.",percent_off,20,3,1,2026-08-13,2026-09-19,true,true
