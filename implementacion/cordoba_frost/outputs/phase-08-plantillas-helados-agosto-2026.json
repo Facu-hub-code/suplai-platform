@@ -1,0 +1,42 @@
+[
+  {
+    "name": "cf_helados_xsell_inicial",
+    "http": 200,
+    "meta": {
+      "id": "1271176151695007",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "media_url": "https://cvlbietibaaehgeimxgw.supabase.co/storage/v1/object/public/meta_templates_media/cordoba_frost/cordoba_frost_1787263190_inicial.png"
+  },
+  {
+    "name": "cf_helados_retarget_inicial",
+    "http": 200,
+    "meta": {
+      "id": "4546079319036827",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "media_url": "https://cvlbietibaaehgeimxgw.supabase.co/storage/v1/object/public/meta_templates_media/cordoba_frost/cordoba_frost_1787263190_inicial.png"
+  },
+  {
+    "name": "cf_helados_retarget_medio",
+    "http": 200,
+    "meta": {
+      "id": "1614799680355634",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "media_url": "https://cvlbietibaaehgeimxgw.supabase.co/storage/v1/object/public/meta_templates_media/cordoba_frost/cordoba_frost_1787263190_medio.png"
+  },
+  {
+    "name": "cf_helados_retarget_premium",
+    "http": 200,
+    "meta": {
+      "id": "2141497650138336",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "media_url": "https://cvlbietibaaehgeimxgw.supabase.co/storage/v1/object/public/meta_templates_media/cordoba_frost/cordoba_frost_1787263190_premium.png"
+  }
+]
