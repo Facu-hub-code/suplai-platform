@@ -1,0 +1,2 @@
+Vende productos descartables, su caso de uso principal va a ser la prospección a través del agente y de la publicidad geolocalizada
+Facu, necesito que armes esta demo agentica se llama Distribuidora Rawson, es de Tucuman,  https://distribuidorarawson.com.ar/

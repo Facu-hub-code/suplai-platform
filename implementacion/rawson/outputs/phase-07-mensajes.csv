@@ -1,0 +1,211 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5492612780568,5492612780568,ai,ai,"Hola Descarte Rápido, paso a revisar tu pedido P-00066 de ROLLO DE ALUMINIO POR 1KG.","Hola Descarte Rápido, paso a revisar tu pedido P-00066 de ROLLO DE ALUMINIO POR 1KG.",2026-08-20 10:28:32,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 10:30:19,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 81013.52.,Te confirmo que el pedido P-00066 fue registrado correctamente por 81013.52.,2026-08-20 10:31:41,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 10:32:41,true
+5492612928724,5492612928724,ai,ai,"Hola Aluminio para Catering, paso a revisar tu pedido P-00082 de VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U..","Hola Aluminio para Catering, paso a revisar tu pedido P-00082 de VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U..",2026-08-21 12:28:32,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-21 12:29:28,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00082 fue registrado correctamente por 166226.63.,Te confirmo que el pedido P-00082 fue registrado correctamente por 166226.63.,2026-08-21 12:30:09,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-21 12:31:11,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-21 12:31:55,true
+5492614053074,5492614053074,ai,ai,"Hola Bolsas y Más, vi que tenes un pedido abierto por PAPEL DIARIO EN BOBINAS 40CM X 6KGR. y queria ayudarte a cerrarlo.","Hola Bolsas y Más, vi que tenes un pedido abierto por PAPEL DIARIO EN BOBINAS 40CM X 6KGR. y queria ayudarte a cerrarlo.",2026-08-21 09:28:32,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-21 09:30:25,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00106 sigue en curso por un total de 136216.88. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00106 sigue en curso por un total de 136216.88. Si queres te lo dejo cerrado hoy.,2026-08-21 09:31:17,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-21 09:32:36,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-21 09:33:56,true
+5492615021286,5492615021286,ai,ai,"Hola Aluminio y Cartón, paso a revisar tu pedido P-00075 de VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U..","Hola Aluminio y Cartón, paso a revisar tu pedido P-00075 de VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U..",2026-08-19 10:28:32,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 10:29:26,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00075 fue registrado correctamente por 56780.12.,Te confirmo que el pedido P-00075 fue registrado correctamente por 56780.12.,2026-08-19 10:30:45,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 10:31:20,true
+5492615139305,5492615139305,ai,ai,"Hola Telgopor Tucumán, paso a revisar tu pedido P-00051 de GUANTES DE LATEX.","Hola Telgopor Tucumán, paso a revisar tu pedido P-00051 de GUANTES DE LATEX.",2026-08-19 12:28:32,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 12:29:28,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 113028.46.,Te confirmo que el pedido P-00051 fue registrado correctamente por 113028.46.,2026-08-19 12:30:01,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 12:30:55,true
+5492617175545,5492617175545,ai,ai,"Hola Carnicería El Buen Corte, paso a revisar tu pedido P-00018 de BANDEJA PLASTICA PET SUPERBAND 102 POR 100U..","Hola Carnicería El Buen Corte, paso a revisar tu pedido P-00018 de BANDEJA PLASTICA PET SUPERBAND 102 POR 100U..",2026-08-20 09:28:32,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 09:29:59,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00018 fue registrado correctamente por 69862.17.,Te confirmo que el pedido P-00018 fue registrado correctamente por 69862.17.,2026-08-20 09:30:51,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 09:32:01,true
+5492617236955,5492617236955,ai,ai,"Hola Bolsas de Tela, paso a revisar tu pedido P-00084 de FILM DE PVC DPM 18 PULG 450MM X 500 M X U.","Hola Bolsas de Tela, paso a revisar tu pedido P-00084 de FILM DE PVC DPM 18 PULG 450MM X 500 M X U.",2026-08-21 11:28:32,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-21 11:30:19,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 150748.00.,Te confirmo que el pedido P-00084 fue registrado correctamente por 150748.00.,2026-08-21 11:31:40,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-21 11:32:58,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-21 11:34:10,true
+5492617413812,5492617413812,ai,ai,"Hola Vasos Biodegradables, paso a revisar tu pedido P-00086 de BLONDA CALADA BLANCA 25CM POR 100U..","Hola Vasos Biodegradables, paso a revisar tu pedido P-00086 de BLONDA CALADA BLANCA 25CM POR 100U..",2026-08-21 10:28:32,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-21 10:29:53,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00086 fue registrado correctamente por 56606.05.,Te confirmo que el pedido P-00086 fue registrado correctamente por 56606.05.,2026-08-21 10:30:40,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-21 10:32:24,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-21 10:33:02,true
+5492618861463,5492618861463,ai,ai,"Hola Envases de Plástico, paso a revisar tu pedido P-00053 de BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID.","Hola Envases de Plástico, paso a revisar tu pedido P-00053 de BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID.",2026-08-20 11:28:32,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 11:29:29,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00053 fue registrado correctamente por 10954.35.,Te confirmo que el pedido P-00053 fue registrado correctamente por 10954.35.,2026-08-20 11:30:45,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 11:31:58,true
+5492618889598,5492618889598,ai,ai,"Hola Bolsas de Papel, paso a revisar tu pedido P-00074 de ROLLO DE ALUMINIO POR 1KG.","Hola Bolsas de Papel, paso a revisar tu pedido P-00074 de ROLLO DE ALUMINIO POR 1KG.",2026-08-20 11:28:32,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 11:29:49,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00074 fue registrado correctamente por 81916.69.,Te confirmo que el pedido P-00074 fue registrado correctamente por 81916.69.,2026-08-20 11:31:01,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 11:32:03,true
+5492619239862,5492619239862,ai,ai,"Hola Bandejas de Cartón, paso a revisar tu pedido P-00044 de PAPEL DIARIO EN BOBINAS 40CM X 6KGR..","Hola Bandejas de Cartón, paso a revisar tu pedido P-00044 de PAPEL DIARIO EN BOBINAS 40CM X 6KGR..",2026-08-19 11:28:32,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 11:29:40,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00044 fue registrado correctamente por 46394.50.,Te confirmo que el pedido P-00044 fue registrado correctamente por 46394.50.,2026-08-19 11:30:34,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 11:31:07,true
+5492991227644,5492991227644,ai,ai,"Hola Bandejas y Vasos, vi que tenes un pedido abierto por GUANTES DE LATEX y queria ayudarte a cerrarlo.","Hola Bandejas y Vasos, vi que tenes un pedido abierto por GUANTES DE LATEX y queria ayudarte a cerrarlo.",2026-08-21 12:28:32,true
+5492991227644,5492991227644,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-21 12:29:59,true
+5492991227644,5492991227644,ai,ai,Te confirmo que el pedido P-00104 sigue en curso por un total de 27067.80. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00104 sigue en curso por un total de 27067.80. Si queres te lo dejo cerrado hoy.,2026-08-21 12:31:20,true
+5492991227644,5492991227644,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-21 12:33:15,true
+5492991227644,5492991227644,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-21 12:34:30,true
+5492992500733,5492992500733,ai,ai,"Hola Aluminio Premium, paso a revisar tu pedido P-00049 de BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID.","Hola Aluminio Premium, paso a revisar tu pedido P-00049 de BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID.",2026-08-20 08:28:32,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 08:29:30,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00049 fue registrado correctamente por 62075.84.,Te confirmo que el pedido P-00049 fue registrado correctamente por 62075.84.,2026-08-20 08:30:50,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 08:31:55,true
+5492994145193,5492994145193,ai,ai,"Hola Vasos y Bandejas, paso a revisar tu pedido P-00030 de BANDEJA PLASTICA PET SUPERBAND 102 POR 100U..","Hola Vasos y Bandejas, paso a revisar tu pedido P-00030 de BANDEJA PLASTICA PET SUPERBAND 102 POR 100U..",2026-08-20 08:28:32,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 08:29:54,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00030 fue registrado correctamente por 25011.66.,Te confirmo que el pedido P-00030 fue registrado correctamente por 25011.66.,2026-08-20 08:31:05,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 08:32:25,true
+5492994228106,5492994228106,ai,ai,"Hola Bolsas Tucumanas, paso a revisar tu pedido P-00034 de BANDEJA PLASTICA PET SUPERBAND 102 POR 100U..","Hola Bolsas Tucumanas, paso a revisar tu pedido P-00034 de BANDEJA PLASTICA PET SUPERBAND 102 POR 100U..",2026-08-20 11:28:32,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 11:29:29,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 108827.80.,Te confirmo que el pedido P-00034 fue registrado correctamente por 108827.80.,2026-08-20 11:30:46,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 11:31:44,true
+5492995028869,5492995028869,ai,ai,"Hola Telgopor y Más, paso a revisar tu pedido P-00038 de SORBETE C/FDAS X 1000 U.","Hola Telgopor y Más, paso a revisar tu pedido P-00038 de SORBETE C/FDAS X 1000 U.",2026-08-20 09:28:32,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 09:29:27,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00038 fue registrado correctamente por 77625.95.,Te confirmo que el pedido P-00038 fue registrado correctamente por 77625.95.,2026-08-20 09:30:05,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 09:30:43,true
+5492997489876,5492997489876,ai,ai,"Hola Descarte Eficiente, paso a revisar tu pedido P-00079 de VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U..","Hola Descarte Eficiente, paso a revisar tu pedido P-00079 de VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U..",2026-08-19 08:28:32,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 08:29:41,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 31544.52.,Te confirmo que el pedido P-00079 fue registrado correctamente por 31544.52.,2026-08-19 08:30:46,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 08:31:29,true
+5492997670210,5492997670210,ai,ai,"Hola Ferretería La Solución, paso a revisar tu pedido P-00025 de CAJA MEDIA PIZZA GRIS X 100 UNID.","Hola Ferretería La Solución, paso a revisar tu pedido P-00025 de CAJA MEDIA PIZZA GRIS X 100 UNID.",2026-08-20 10:28:32,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 10:30:21,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00025 fue registrado correctamente por 107872.16.,Te confirmo que el pedido P-00025 fue registrado correctamente por 107872.16.,2026-08-20 10:31:37,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 10:32:53,true
+5492998066543,5492998066543,ai,ai,"Hola Vasos de Cartón, paso a revisar tu pedido P-00088 de HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD.","Hola Vasos de Cartón, paso a revisar tu pedido P-00088 de HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD.",2026-08-21 09:28:32,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-21 09:29:58,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00088 fue registrado correctamente por 15783.10.,Te confirmo que el pedido P-00088 fue registrado correctamente por 15783.10.,2026-08-21 09:30:35,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-21 09:31:34,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-21 09:32:35,true
+5492998718887,5492998718887,ai,ai,"Hola Aluminio y Plásticos, paso a revisar tu pedido P-00036 de POTE CON BISAGRA 270CC POR 10U..","Hola Aluminio y Plásticos, paso a revisar tu pedido P-00036 de POTE CON BISAGRA 270CC POR 10U..",2026-08-19 10:28:32,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 10:29:24,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00036 fue registrado correctamente por 23551.42.,Te confirmo que el pedido P-00036 fue registrado correctamente por 23551.42.,2026-08-19 10:30:09,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 10:31:08,true
+5492999435946,5492999435946,ai,ai,"Hola Telgopor para Delivery, paso a revisar tu pedido P-00090 de PAPEL DIARIO EN BOBINAS 40CM X 6KGR..","Hola Telgopor para Delivery, paso a revisar tu pedido P-00090 de PAPEL DIARIO EN BOBINAS 40CM X 6KGR..",2026-08-20 08:28:32,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 08:30:24,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 72840.86.,Te confirmo que el pedido P-00090 fue registrado correctamente por 72840.86.,2026-08-20 08:31:20,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 08:32:23,true
+5493414799650,5493414799650,ai,ai,"Hola Bolsas Ecológicas, paso a revisar tu pedido P-00048 de GUANTES DE NITRILO.","Hola Bolsas Ecológicas, paso a revisar tu pedido P-00048 de GUANTES DE NITRILO.",2026-08-19 09:28:32,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 09:29:31,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 39466.15.,Te confirmo que el pedido P-00048 fue registrado correctamente por 39466.15.,2026-08-19 09:30:44,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 09:32:09,true
+5493416524997,5493416524997,ai,ai,"Hola Pack Familiar, paso a revisar tu pedido P-00092 de BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U.","Hola Pack Familiar, paso a revisar tu pedido P-00092 de BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U.",2026-08-19 12:28:32,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 12:30:06,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00092 fue registrado correctamente por 48270.17.,Te confirmo que el pedido P-00092 fue registrado correctamente por 48270.17.,2026-08-19 12:31:09,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 12:31:40,true
+5493416986538,5493416986538,ai,ai,"Hola Pack & Go, paso a revisar tu pedido P-00042 de BANDEJA 101PP BISAGRA INPACK POR 10 U..","Hola Pack & Go, paso a revisar tu pedido P-00042 de BANDEJA 101PP BISAGRA INPACK POR 10 U..",2026-08-20 12:28:32,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 12:29:58,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00042 fue registrado correctamente por 183675.61.,Te confirmo que el pedido P-00042 fue registrado correctamente por 183675.61.,2026-08-20 12:30:42,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 12:31:59,true
+5493418277249,5493418277249,ai,ai,"Hola Tucumán Packaging, vi que tenes un pedido abierto por ALUMINIO EN ROLLO DPM HOGAR X 10 U y queria ayudarte a cerrarlo.","Hola Tucumán Packaging, vi que tenes un pedido abierto por ALUMINIO EN ROLLO DPM HOGAR X 10 U y queria ayudarte a cerrarlo.",2026-08-21 11:28:32,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-21 11:29:18,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,2026-08-21 11:29:58,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-21 11:31:25,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-21 11:32:31,true
+5493419686914,5493419686914,ai,ai,"Hola Bolsas de Polietileno, paso a revisar tu pedido P-00060 de FILM DE PVC DPM 18 PULG 450MM X 500 M X U.","Hola Bolsas de Polietileno, paso a revisar tu pedido P-00060 de FILM DE PVC DPM 18 PULG 450MM X 500 M X U.",2026-08-19 08:28:32,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 08:30:24,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 69249.73.,Te confirmo que el pedido P-00060 fue registrado correctamente por 69249.73.,2026-08-19 08:31:33,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 08:32:22,true
+5493513952681,5493513952681,ai,ai,"Hola Vasos Desechables, paso a revisar tu pedido P-00046 de BANDEJA PLASTICA PET SUPERBAND 102 POR 100U..","Hola Vasos Desechables, paso a revisar tu pedido P-00046 de BANDEJA PLASTICA PET SUPERBAND 102 POR 100U..",2026-08-20 10:28:32,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 10:29:43,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00046 fue registrado correctamente por 46034.75.,Te confirmo que el pedido P-00046 fue registrado correctamente por 46034.75.,2026-08-20 10:30:31,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 10:31:25,true
+5493514079279,5493514079279,ai,ai,"Hola Parrilla El Sabor, paso a revisar tu pedido P-00014 de BANDEJA 101PP BISAGRA INPACK POR 10 U..","Hola Parrilla El Sabor, paso a revisar tu pedido P-00014 de BANDEJA 101PP BISAGRA INPACK POR 10 U..",2026-08-20 11:28:32,true
+5493514079279,5493514079279,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 11:30:19,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00014 fue registrado correctamente por 67049.80.,Te confirmo que el pedido P-00014 fue registrado correctamente por 67049.80.,2026-08-20 11:31:05,true
+5493514079279,5493514079279,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 11:31:49,true
+5493515971311,5493515971311,ai,ai,"Hola Envases del Norte, paso a revisar tu pedido P-00032 de CAJA DE CARTULINA BLANCA CON VISOR 20X30X6 POR 5U..","Hola Envases del Norte, paso a revisar tu pedido P-00032 de CAJA DE CARTULINA BLANCA CON VISOR 20X30X6 POR 5U..",2026-08-19 12:28:32,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 12:29:45,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 269109.72.,Te confirmo que el pedido P-00032 fue registrado correctamente por 269109.72.,2026-08-19 12:30:44,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 12:32:06,true
+5493516216782,5493516216782,ai,ai,"Hola Telgopor para Comida, paso a revisar tu pedido P-00064 de BANDEJA PLASTICA PET SUPERBAND 102 POR 100U..","Hola Telgopor para Comida, paso a revisar tu pedido P-00064 de BANDEJA PLASTICA PET SUPERBAND 102 POR 100U..",2026-08-19 11:28:32,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 11:29:32,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00064 fue registrado correctamente por 47741.34.,Te confirmo que el pedido P-00064 fue registrado correctamente por 47741.34.,2026-08-19 11:30:47,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 11:31:18,true
+5493517304254,5493517304254,ai,ai,"Hola Descarte Fácil, paso a revisar tu pedido P-00040 de BANDEJA 101PP BISAGRA INPACK POR 10 U..","Hola Descarte Fácil, paso a revisar tu pedido P-00040 de BANDEJA 101PP BISAGRA INPACK POR 10 U..",2026-08-19 08:28:32,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 08:29:37,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 51041.53.,Te confirmo que el pedido P-00040 fue registrado correctamente por 51041.53.,2026-08-19 08:31:05,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 08:31:43,true
+5493517632424,5493517632424,ai,ai,"Hola Descarte Sostenible, paso a revisar tu pedido P-00094 de ALUMINIO EN ROLLO DPM HOGAR X 10 U.","Hola Descarte Sostenible, paso a revisar tu pedido P-00094 de ALUMINIO EN ROLLO DPM HOGAR X 10 U.",2026-08-20 11:28:32,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 11:30:13,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00094 fue registrado correctamente por 104668.39.,Te confirmo que el pedido P-00094 fue registrado correctamente por 104668.39.,2026-08-20 11:30:49,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 11:31:24,true
+5493518648263,5493518648263,ai,ai,"Hola Aluminio para Parrilla, paso a revisar tu pedido P-00062 de FILM DE PVC DPM 18 PULG 450MM X 500 M X U.","Hola Aluminio para Parrilla, paso a revisar tu pedido P-00062 de FILM DE PVC DPM 18 PULG 450MM X 500 M X U.",2026-08-20 12:28:32,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 12:30:07,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00062 fue registrado correctamente por 41526.65.,Te confirmo que el pedido P-00062 fue registrado correctamente por 41526.65.,2026-08-20 12:30:43,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 12:31:51,true
+5493519107005,5493519107005,ai,ai,"Hola Pack Rápido, paso a revisar tu pedido P-00096 de BANDEJA DE ALUMINIO F100 X 100U..","Hola Pack Rápido, paso a revisar tu pedido P-00096 de BANDEJA DE ALUMINIO F100 X 100U..",2026-08-19 10:28:32,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 10:30:26,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 154498.15.,Te confirmo que el pedido P-00096 fue registrado correctamente por 154498.15.,2026-08-19 10:30:59,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 10:31:38,true
+5493582132179,5493582132179,ai,ai,"Hola Almacén del Barrio, paso a revisar tu pedido P-00022 de POTE CON BISAGRA 270CC POR 10U..","Hola Almacén del Barrio, paso a revisar tu pedido P-00022 de POTE CON BISAGRA 270CC POR 10U..",2026-08-20 12:28:32,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 12:30:15,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00022 fue registrado correctamente por 12932.64.,Te confirmo que el pedido P-00022 fue registrado correctamente por 12932.64.,2026-08-20 12:31:17,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 12:32:46,true
+5493582639964,5493582639964,ai,ai,"Hola Pack Gourmet, paso a revisar tu pedido P-00068 de BANDEJA PLASTICA PET SUPERBAND 102 POR 100U..","Hola Pack Gourmet, paso a revisar tu pedido P-00068 de BANDEJA PLASTICA PET SUPERBAND 102 POR 100U..",2026-08-19 09:28:32,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 09:29:26,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 38596.29.,Te confirmo que el pedido P-00068 fue registrado correctamente por 38596.29.,2026-08-19 09:30:08,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 09:31:03,true
+5493582641213,5493582641213,ai,ai,"Hola Envases Tucumán, vi que tenes un pedido abierto por BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID y queria ayudarte a cerrarlo.","Hola Envases Tucumán, vi que tenes un pedido abierto por BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID y queria ayudarte a cerrarlo.",2026-08-21 01:28:32,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-21 01:30:23,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-21 01:31:25,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-21 01:32:59,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-21 01:33:29,true
+5493587747641,5493587747641,ai,ai,"Hola Aluminio y Telgopor, vi que tenes un pedido abierto por CAJA MEDIA PIZZA GRIS X 100 UNID y queria ayudarte a cerrarlo.","Hola Aluminio y Telgopor, vi que tenes un pedido abierto por CAJA MEDIA PIZZA GRIS X 100 UNID y queria ayudarte a cerrarlo.",2026-08-21 10:28:32,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-21 10:29:47,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00105 sigue en curso por un total de 27100.90. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00105 sigue en curso por un total de 27100.90. Si queres te lo dejo cerrado hoy.,2026-08-21 10:30:41,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-21 10:31:36,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-21 10:32:12,true
+5493587905250,5493587905250,ai,ai,"Hola Descarpack, vi que tenes un pedido abierto por PAPEL DIARIO EN BOBINAS 40CM X 6KGR. y queria ayudarte a cerrarlo.","Hola Descarpack, vi que tenes un pedido abierto por PAPEL DIARIO EN BOBINAS 40CM X 6KGR. y queria ayudarte a cerrarlo.",2026-08-21 02:28:32,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-08-21 02:30:03,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-21 02:31:30,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-21 02:32:57,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-21 02:33:35,true
+5493811657614,5493811657614,ai,ai,"Hola Corralón El Progreso, paso a revisar tu pedido P-00027 de GUANTES DE NITRILO.","Hola Corralón El Progreso, paso a revisar tu pedido P-00027 de GUANTES DE NITRILO.",2026-08-19 09:28:32,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 09:30:13,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 84193.65.,Te confirmo que el pedido P-00027 fue registrado correctamente por 84193.65.,2026-08-19 09:30:52,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 09:31:40,true
+5493812941974,5493812941974,ai,ai,"Hola Bandejas para Delivery, paso a revisar tu pedido P-00056 de ALUMINIO EN ROLLO DPM HOGAR X 10 U.","Hola Bandejas para Delivery, paso a revisar tu pedido P-00056 de ALUMINIO EN ROLLO DPM HOGAR X 10 U.",2026-08-19 10:28:32,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 10:30:31,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00056 fue registrado correctamente por 12208.00.,Te confirmo que el pedido P-00056 fue registrado correctamente por 12208.00.,2026-08-19 10:31:54,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 10:33:09,true
+5493813520000,5493813520000,ai,ai,"Hola Telgopor para Eventos, paso a revisar tu pedido P-00077 de ALUMINIO EN ROLLO DPM HOGAR X 10 U.","Hola Telgopor para Eventos, paso a revisar tu pedido P-00077 de ALUMINIO EN ROLLO DPM HOGAR X 10 U.",2026-08-20 09:28:32,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 09:29:47,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00077 fue registrado correctamente por 51884.00.,Te confirmo que el pedido P-00077 fue registrado correctamente por 51884.00.,2026-08-20 09:31:00,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 09:31:44,true
+5493814729528,5493814729528,ai,ai,"Hola Bandejas para Catering, paso a revisar tu pedido P-00070 de ALUMINIO EN ROLLO DPM HOGAR X 10 U.","Hola Bandejas para Catering, paso a revisar tu pedido P-00070 de ALUMINIO EN ROLLO DPM HOGAR X 10 U.",2026-08-20 08:28:32,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 08:29:20,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00070 fue registrado correctamente por 46801.56.,Te confirmo que el pedido P-00070 fue registrado correctamente por 46801.56.,2026-08-20 08:30:44,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 08:31:20,true
+5493817404433,5493817404433,ai,ai,"Hola Vasos de Papel, paso a revisar tu pedido P-00058 de VASO BLANCO 180 CC X 100 UNID..","Hola Vasos de Papel, paso a revisar tu pedido P-00058 de VASO BLANCO 180 CC X 100 UNID..",2026-08-20 09:28:32,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 09:29:44,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00058 fue registrado correctamente por 116764.70.,Te confirmo que el pedido P-00058 fue registrado correctamente por 116764.70.,2026-08-20 09:30:16,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 09:31:37,true
+5493818437953,5493818437953,ai,ai,"Hola Restaurante La Estancia, paso a revisar tu pedido P-00020 de MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U..","Hola Restaurante La Estancia, paso a revisar tu pedido P-00020 de MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U..",2026-08-19 08:28:32,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 08:29:21,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00020 fue registrado correctamente por 10085.79.,Te confirmo que el pedido P-00020 fue registrado correctamente por 10085.79.,2026-08-19 08:30:33,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 08:31:21,true
+5493872845902,5493872845902,ai,ai,"Hola Pinturería El Colorido, paso a revisar tu pedido P-00023 de GUANTES DE LATEX.","Hola Pinturería El Colorido, paso a revisar tu pedido P-00023 de GUANTES DE LATEX.",2026-08-19 11:28:32,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 11:29:27,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00023 fue registrado correctamente por 71856.46.,Te confirmo que el pedido P-00023 fue registrado correctamente por 71856.46.,2026-08-19 11:30:24,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 11:31:03,true
+5493874104594,5493874104594,ai,ai,"Hola Bandejas de Aluminio, paso a revisar tu pedido P-00098 de POTE CON BISAGRA 270CC POR 10U..","Hola Bandejas de Aluminio, paso a revisar tu pedido P-00098 de POTE CON BISAGRA 270CC POR 10U..",2026-08-20 09:28:32,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-20 09:30:18,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00098 fue registrado correctamente por 14325.18.,Te confirmo que el pedido P-00098 fue registrado correctamente por 14325.18.,2026-08-20 09:31:28,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-20 09:32:31,true
+5493876499570,5493876499570,ai,ai,"Hola Bandejas de Cartón Reciclado, paso a revisar tu pedido P-00100 de BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U.","Hola Bandejas de Cartón Reciclado, paso a revisar tu pedido P-00100 de BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U.",2026-08-19 08:28:32,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 08:29:54,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00100 fue registrado correctamente por 38372.60.,Te confirmo que el pedido P-00100 fue registrado correctamente por 38372.60.,2026-08-19 08:31:01,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 08:32:08,true
+5493876914178,5493876914178,ai,ai,"Hola Asadería La Tradición, paso a revisar tu pedido P-00016 de ROLLO DE ALUMINIO POR 1KG.","Hola Asadería La Tradición, paso a revisar tu pedido P-00016 de ROLLO DE ALUMINIO POR 1KG.",2026-08-19 10:28:32,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 10:29:56,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00016 fue registrado correctamente por 89529.37.,Te confirmo que el pedido P-00016 fue registrado correctamente por 89529.37.,2026-08-19 10:30:41,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 10:31:52,true
+5493876922419,5493876922419,ai,ai,"Hola Vasos de Plástico, paso a revisar tu pedido P-00072 de GUANTES DE LATEX.","Hola Vasos de Plástico, paso a revisar tu pedido P-00072 de GUANTES DE LATEX.",2026-08-19 12:28:32,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-19 12:29:19,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00072 fue registrado correctamente por 256082.58.,Te confirmo que el pedido P-00072 fue registrado correctamente por 256082.58.,2026-08-19 12:30:14,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-19 12:30:44,true

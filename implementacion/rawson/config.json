@@ -1,0 +1,13 @@
+{
+  "modo": "demo",
+  "fase_06": {
+    "historicos_por_cliente": 2,
+    "abiertos": 4,
+    "historicos_inicio": "2026-03-01",
+    "historicos_fin": "2026-05-31"
+  },
+  "fase_07": {
+    "clientes_live_feed": 8,
+    "clientes_quejas": 3
+  }
+}

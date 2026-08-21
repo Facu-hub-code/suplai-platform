@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2158,Calidad,open,Reclamo por PAPEL DIARIO EN BOBINAS 40CM X 6KGR. con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego PAPEL DIARIO EN BOBINAS 40CM X 6KGR. en mal estado y quiero hacer el reclamo.",2026-08-21 11:15:00,,true
+TKT-2159,Calidad,open,Reclamo por BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID en mal estado y quiero hacer el reclamo.",2026-08-20 08:15:00,,true
+TKT-2160,Calidad,open,Reclamo por ALUMINIO EN ROLLO DPM HOGAR X 10 U con entrega en mal estado o faltante parcial.,5493418277249,"Hola, me llego ALUMINIO EN ROLLO DPM HOGAR X 10 U en mal estado y quiero hacer el reclamo.",2026-08-19 05:15:00,,true
+TKT-2161,Logistica,open,Demora en la entrega del pedido P-00082 de VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U..,5492612928724,"Buen dia, sigo esperando el pedido P-00082 de VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U. y no llego.",2026-08-21 02:15:00,,true
+TKT-2162,Logistica,open,Demora en la entrega del pedido P-00084 de FILM DE PVC DPM 18 PULG 450MM X 500 M X U.,5492617236955,"Buen dia, sigo esperando el pedido P-00084 de FILM DE PVC DPM 18 PULG 450MM X 500 M X U y no llego.",2026-08-20 11:15:00,,true
+TKT-2163,Logistica,open,Demora en la entrega del pedido P-00086 de BLONDA CALADA BLANCA 25CM POR 100U..,5492617413812,"Buen dia, sigo esperando el pedido P-00086 de BLONDA CALADA BLANCA 25CM POR 100U. y no llego.",2026-08-19 08:15:00,,true
+TKT-2164,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Descarpack.,5493587905250,,2026-08-21 05:15:00,,true
+TKT-2165,Administracion,open,Solicita corregir datos administrativos de Envases Tucumán en el sistema.,5493582641213,,2026-08-20 02:15:00,,true
+TKT-2166,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Tucumán Packaging.,5493418277249,,2026-08-19 11:15:00,,true
+TKT-2167,Administracion,open,Solicita corregir datos administrativos de Aluminio para Catering en el sistema.,5492612928724,,2026-08-21 08:15:00,,true
+TKT-2168,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Bolsas de Tela.,5492617236955,,2026-08-20 05:15:00,,true
+TKT-2169,Administracion,closed,Solicita corregir datos administrativos de Vasos Biodegradables en el sistema.,5492617413812,,2026-08-05 05:15:00,2026-08-05 20:15:00,true
+TKT-2170,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Vasos de Cartón.,5492998066543,,2026-08-04 11:15:00,2026-08-05 03:15:00,true
+TKT-2171,Logistica,closed,Demora en la entrega del pedido P-00104 de GUANTES DE LATEX.,5492991227644,,2026-08-03 09:15:00,2026-08-04 02:15:00,true
+TKT-2172,Calidad,closed,Reclamo por CAJA MEDIA PIZZA GRIS X 100 UNID con entrega en mal estado o faltante parcial.,5493587747641,,2026-08-02 07:15:00,2026-08-03 01:15:00,true
+TKT-2173,Administracion,closed,Solicita corregir datos administrativos de Bolsas y Más en el sistema.,5492614053074,,2026-08-01 05:15:00,2026-08-02 00:15:00,true
+TKT-2174,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Telgopor para Delivery.,5492999435946,,2026-08-16 11:15:00,2026-08-17 07:15:00,true
+TKT-2175,Logistica,closed,Demora en la entrega del pedido P-00092 de BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U.,5493416524997,,2026-08-15 09:15:00,2026-08-16 06:15:00,true

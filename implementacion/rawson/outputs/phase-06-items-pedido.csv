@@ -1,0 +1,276 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587905250,25001,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,3,2568.62,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00002,5493587905250,25001,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,3,22660.75,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00002,5493587905250,25001,558,POTE CON BISAGRA 270CC POR 10U.,2,1805.66,2,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00002,5493587905250,25001,353,BANDEJA EXP 180 EXTRUCSYSTEM X 100 U,2,7107.45,2,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00003,5493582641213,25002,531,OBLEA BLANCA TELGOPOR Nº19 POR 100U.,1,7206.97,3,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00004,5493582641213,25002,509,CAJA DE CARTULINA BLANCA CON VISOR 20X30X6 POR 5U.,4,2888.00,3,Pedido: 4 unidad (normalizado: 20 unidad; equiv: 4 unidad),true,false,false
+P-00004,5493582641213,25002,420,MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U.,1,3361.93,3,Pedido: 1 unidad (normalizado: 50 unidad; equiv: 1 unidad),true,false,false
+P-00004,5493582641213,25002,353,BANDEJA EXP 180 EXTRUCSYSTEM X 100 U,2,5562.35,3,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00004,5493582641213,25002,457,BANDEJA 101PP BISAGRA INPACK POR 10 U.,5,2090.15,3,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00005,5492991227644,25003,344,ROLLO DE ALUMINIO POR 1KG,5,9599.30,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00006,5492991227644,25003,178,VASO BLANCO 180 CC X 100 UNID.,2,4244.90,4,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00007,5493418277249,25004,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,1,6673.50,1,Pedido: 1 unidad (normalizado: 60 unidad; equiv: 1 unidad),true,false,false
+P-00008,5493418277249,25004,120,ALUMINIO EN ROLLO DPM HOGAR X 10 U,5,12208.00,1,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00008,5493418277249,25004,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,1,5197.77,1,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00008,5493418277249,25004,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,4,6673.50,1,Pedido: 4 unidad (normalizado: 240 unidad; equiv: 4 unidad),true,false,false
+P-00008,5493418277249,25004,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,4,19705.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00009,5493587747641,25005,262,GUANTES DE NITRILO,3,7722.51,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00009,5493587747641,25005,339,BANDEJA DE ALUMINIO F100 X 100U.,3,23876.46,2,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00010,5493587747641,25005,257,GUANTES DE LATEX,5,7324.22,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00010,5493587747641,25005,531,OBLEA BLANCA TELGOPOR Nº19 POR 100U.,4,9208.90,2,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00010,5493587747641,25005,347,PINCHOS DE BAMBÙ P/CATER. 9 CMX100 U,2,2330.18,2,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00011,5492614053074,25006,331,SORBETE C/FDAS X 1000 U,2,5451.24,3,Pedido: 2 unidad (normalizado: 2000 unidad; equiv: 2 unidad),true,false,false
+P-00011,5492614053074,25006,339,BANDEJA DE ALUMINIO F100 X 100U.,5,18685.93,3,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00011,5492614053074,25006,344,ROLLO DE ALUMINIO POR 1KG,2,10163.97,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00012,5492614053074,25006,488,BLONDA CALADA BLANCA 25CM POR 100U.,1,4963.86,3,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00012,5492614053074,25006,339,BANDEJA DE ALUMINIO F100 X 100U.,5,18685.93,3,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00012,5492614053074,25006,589,VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U.,4,14195.03,3,Pedido: 4 unidad (normalizado: 200 unidad; equiv: 4 unidad),true,false,false
+P-00012,5492614053074,25006,202,CAJA MEDIA PIZZA GRIS X 100 UNID,1,8915.40,3,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00013,5493514079279,25007,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,4,16749.25,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00014,5493514079279,25007,457,BANDEJA 101PP BISAGRA INPACK POR 10 U.,5,1974.03,4,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00014,5493514079279,25007,178,VASO BLANCO 180 CC X 100 UNID.,5,4244.90,4,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00014,5493514079279,25007,545,PLATO DE ALUMINIO Nº21 POR 50U.,5,7191.03,4,Pedido: 5 unidad (normalizado: 250 unidad; equiv: 5 unidad),true,false,false
+P-00015,5493876914178,25008,488,BLONDA CALADA BLANCA 25CM POR 100U.,2,5515.40,1,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00015,5493876914178,25008,178,VASO BLANCO 180 CC X 100 UNID.,5,4994.00,1,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00015,5493876914178,25008,545,PLATO DE ALUMINIO Nº21 POR 50U.,2,8460.04,1,Pedido: 2 unidad (normalizado: 100 unidad; equiv: 2 unidad),true,false,false
+P-00015,5493876914178,25008,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,2,19705.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00016,5493876914178,25008,344,ROLLO DE ALUMINIO POR 1KG,1,11293.30,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00016,5493876914178,25008,262,GUANTES DE NITRILO,5,6715.23,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00016,5493876914178,25008,420,MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U.,4,3735.48,1,Pedido: 4 unidad (normalizado: 200 unidad; equiv: 4 unidad),true,false,false
+P-00016,5493876914178,25008,202,CAJA MEDIA PIZZA GRIS X 100 UNID,3,9906.00,1,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00017,5492617175545,25009,241,BANDEJA CARTON GRIS RECT. Nº 4 X 100 UNI,1,4317.10,2,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00017,5492617175545,25009,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,3,7674.52,2,Pedido: 3 unidad (normalizado: 180 unidad; equiv: 3 unidad),true,false,false
+P-00018,5492617175545,25009,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,4,5977.44,2,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00018,5492617175545,25009,344,ROLLO DE ALUMINIO POR 1KG,3,12987.29,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00018,5492617175545,25009,347,PINCHOS DE BAMBÙ P/CATER. 9 CMX100 U,3,2330.18,2,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00019,5493818437953,25010,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,5,4677.99,3,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00019,5493818437953,25010,202,CAJA MEDIA PIZZA GRIS X 100 UNID,5,8915.40,3,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00019,5493818437953,25010,558,POTE CON BISAGRA 270CC POR 10U.,3,1413.13,3,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00019,5493818437953,25010,509,CAJA DE CARTULINA BLANCA CON VISOR 20X30X6 POR 5U.,1,2888.00,3,Pedido: 1 unidad (normalizado: 5 unidad; equiv: 1 unidad),true,false,false
+P-00020,5493818437953,25010,420,MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U.,3,3361.93,3,Pedido: 3 unidad (normalizado: 150 unidad; equiv: 3 unidad),true,false,false
+P-00021,5493582132179,25011,241,BANDEJA CARTON GRIS RECT. Nº 4 X 100 UNI,5,3190.90,4,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00021,5493582132179,25011,488,BLONDA CALADA BLANCA 25CM POR 100U.,2,4688.09,4,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00022,5493582132179,25011,558,POTE CON BISAGRA 270CC POR 10U.,4,1334.62,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00022,5493582132179,25011,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,4,1898.54,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00023,5493872845902,25012,257,GUANTES DE LATEX,1,6368.89,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00023,5493872845902,25012,331,SORBETE C/FDAS X 1000 U,3,6056.93,1,Pedido: 3 unidad (normalizado: 3000 unidad; equiv: 3 unidad),true,false,false
+P-00023,5493872845902,25012,589,VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U.,3,15772.26,1,Pedido: 3 unidad (normalizado: 150 unidad; equiv: 3 unidad),true,false,false
+P-00024,5493872845902,25012,339,BANDEJA DE ALUMINIO F100 X 100U.,2,20762.14,1,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00024,5493872845902,25012,257,GUANTES DE LATEX,1,6368.89,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00024,5493872845902,25012,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,2,19705.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00024,5493872845902,25012,589,VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U.,4,15772.26,1,Pedido: 4 unidad (normalizado: 200 unidad; equiv: 4 unidad),true,false,false
+P-00025,5492997670210,25013,202,CAJA MEDIA PIZZA GRIS X 100 UNID,1,11391.90,2,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00025,5492997670210,25013,257,GUANTES DE LATEX,5,7324.22,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00025,5492997670210,25013,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,3,7674.52,2,Pedido: 3 unidad (normalizado: 180 unidad; equiv: 3 unidad),true,false,false
+P-00025,5492997670210,25013,531,OBLEA BLANCA TELGOPOR Nº19 POR 100U.,4,9208.90,2,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00026,5492997670210,25013,420,MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U.,3,4295.80,2,Pedido: 3 unidad (normalizado: 150 unidad; equiv: 3 unidad),true,false,false
+P-00026,5492997670210,25013,339,BANDEJA DE ALUMINIO F100 X 100U.,4,23876.46,2,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00026,5492997670210,25013,257,GUANTES DE LATEX,1,7324.22,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00026,5492997670210,25013,347,PINCHOS DE BAMBÙ P/CATER. 9 CMX100 U,1,2330.18,2,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00027,5493811657614,25014,262,GUANTES DE NITRILO,5,6043.71,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00027,5493811657614,25014,339,BANDEJA DE ALUMINIO F100 X 100U.,2,18685.93,3,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00027,5493811657614,25014,545,PLATO DE ALUMINIO Nº21 POR 50U.,1,7614.04,3,Pedido: 1 unidad (normalizado: 50 unidad; equiv: 1 unidad),true,false,false
+P-00027,5493811657614,25014,178,VASO BLANCO 180 CC X 100 UNID.,2,4494.60,3,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00028,5493811657614,25014,202,CAJA MEDIA PIZZA GRIS X 100 UNID,2,8915.40,3,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00028,5493811657614,25014,257,GUANTES DE LATEX,2,5732.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00029,5492994145193,25015,457,BANDEJA 101PP BISAGRA INPACK POR 10 U.,4,1974.03,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00029,5492994145193,25015,353,BANDEJA EXP 180 EXTRUCSYSTEM X 100 U,5,5253.33,4,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00029,5492994145193,25015,241,BANDEJA CARTON GRIS RECT. Nº 4 X 100 UNI,2,3190.90,4,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00030,5492994145193,25015,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,1,4418.10,4,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00030,5492994145193,25015,331,SORBETE C/FDAS X 1000 U,4,5148.39,4,Pedido: 4 unidad (normalizado: 4000 unidad; equiv: 4 unidad),true,false,false
+P-00031,5493515971311,25016,123,BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID,3,2945.00,1,Pedido: 3 unidad (normalizado: 150 unidad; equiv: 3 unidad),true,false,false
+P-00031,5493515971311,25016,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,5,2233.58,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00031,5493515971311,25016,178,VASO BLANCO 180 CC X 100 UNID.,3,4994.00,1,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00032,5493515971311,25016,509,CAJA DE CARTULINA BLANCA CON VISOR 20X30X6 POR 5U.,2,3208.89,1,Pedido: 2 unidad (normalizado: 10 unidad; equiv: 2 unidad),true,false,false
+P-00032,5493515971311,25016,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,5,2233.58,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00032,5493515971311,25016,589,VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U.,4,15772.26,1,Pedido: 4 unidad (normalizado: 200 unidad; equiv: 4 unidad),true,false,false
+P-00032,5493515971311,25016,150,FILM DE PVC DPM 18 PULG 450MM X 500 M X U,5,37687.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00033,5492994228106,25017,457,BANDEJA 101PP BISAGRA INPACK POR 10 U.,4,2670.75,2,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00034,5492994228106,25017,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,5,5977.44,2,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00034,5492994228106,25017,202,CAJA MEDIA PIZZA GRIS X 100 UNID,2,11391.90,2,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00034,5492994228106,25017,120,ALUMINIO EN ROLLO DPM HOGAR X 10 U,4,14039.20,2,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00035,5492998718887,25018,202,CAJA MEDIA PIZZA GRIS X 100 UNID,2,8915.40,3,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00036,5492998718887,25018,558,POTE CON BISAGRA 270CC POR 10U.,1,1413.13,3,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00036,5492998718887,25018,353,BANDEJA EXP 180 EXTRUCSYSTEM X 100 U,3,5562.35,3,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00036,5492998718887,25018,331,SORBETE C/FDAS X 1000 U,1,5451.24,3,Pedido: 1 unidad (normalizado: 1000 unidad; equiv: 1 unidad),true,false,false
+P-00037,5492995028869,25019,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,5,1898.54,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00038,5492995028869,25019,331,SORBETE C/FDAS X 1000 U,5,5148.39,4,Pedido: 5 unidad (normalizado: 5000 unidad; equiv: 5 unidad),true,false,false
+P-00038,5492995028869,25019,120,ALUMINIO EN ROLLO DPM HOGAR X 10 U,5,10376.80,4,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00039,5493517304254,25020,241,BANDEJA CARTON GRIS RECT. Nº 4 X 100 UNI,1,3754.00,1,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00039,5493517304254,25020,420,MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U.,2,3735.48,1,Pedido: 2 unidad (normalizado: 100 unidad; equiv: 2 unidad),true,false,false
+P-00039,5493517304254,25020,353,BANDEJA EXP 180 EXTRUCSYSTEM X 100 U,1,6180.39,1,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00040,5493517304254,25020,457,BANDEJA 101PP BISAGRA INPACK POR 10 U.,5,2322.39,1,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00040,5493517304254,25020,420,MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U.,4,3735.48,1,Pedido: 4 unidad (normalizado: 200 unidad; equiv: 4 unidad),true,false,false
+P-00040,5493517304254,25020,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,2,2233.58,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00040,5493517304254,25020,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,3,6673.50,1,Pedido: 3 unidad (normalizado: 180 unidad; equiv: 3 unidad),true,false,false
+P-00041,5493416986538,25021,150,FILM DE PVC DPM 18 PULG 450MM X 500 M X U,3,43340.05,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00042,5493416986538,25021,457,BANDEJA 101PP BISAGRA INPACK POR 10 U.,4,2670.75,2,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00042,5493416986538,25021,257,GUANTES DE LATEX,2,7324.22,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00042,5493416986538,25021,344,ROLLO DE ALUMINIO POR 1KG,3,12987.29,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00042,5493416986538,25021,339,BANDEJA DE ALUMINIO F100 X 100U.,5,23876.46,2,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00043,5492619239862,25022,420,MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U.,2,3361.93,3,Pedido: 2 unidad (normalizado: 100 unidad; equiv: 2 unidad),true,false,false
+P-00043,5492619239862,25022,558,POTE CON BISAGRA 270CC POR 10U.,3,1413.13,3,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00043,5492619239862,25022,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,1,6006.15,3,Pedido: 1 unidad (normalizado: 60 unidad; equiv: 1 unidad),true,false,false
+P-00044,5492619239862,25022,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,1,17734.50,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00044,5492619239862,25022,257,GUANTES DE LATEX,5,5732.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00045,5493513952681,25023,420,MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U.,5,3175.16,4,Pedido: 5 unidad (normalizado: 250 unidad; equiv: 5 unidad),true,false,false
+P-00046,5493513952681,25023,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,4,4418.10,4,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00046,5493513952681,25023,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,5,5672.47,4,Pedido: 5 unidad (normalizado: 300 unidad; equiv: 5 unidad),true,false,false
+P-00047,5493414799650,25024,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,4,5197.77,1,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00047,5493414799650,25024,257,GUANTES DE LATEX,2,6368.89,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00047,5493414799650,25024,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,2,6673.50,1,Pedido: 2 unidad (normalizado: 120 unidad; equiv: 2 unidad),true,false,false
+P-00047,5493414799650,25024,262,GUANTES DE NITRILO,1,6715.23,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00048,5493414799650,25024,262,GUANTES DE NITRILO,5,6715.23,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00048,5493414799650,25024,123,BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID,2,2945.00,1,Pedido: 2 unidad (normalizado: 100 unidad; equiv: 2 unidad),true,false,false
+P-00049,5492992500733,25025,123,BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID,1,3386.75,2,Pedido: 1 unidad (normalizado: 50 unidad; equiv: 1 unidad),true,false,false
+P-00049,5492992500733,25025,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,2,7674.52,2,Pedido: 2 unidad (normalizado: 120 unidad; equiv: 2 unidad),true,false,false
+P-00049,5492992500733,25025,150,FILM DE PVC DPM 18 PULG 450MM X 500 M X U,1,43340.05,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00050,5492992500733,25025,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,3,7674.52,2,Pedido: 3 unidad (normalizado: 180 unidad; equiv: 3 unidad),true,false,false
+P-00051,5492615139305,25026,257,GUANTES DE LATEX,3,5732.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00051,5492615139305,25026,545,PLATO DE ALUMINIO Nº21 POR 50U.,5,7614.04,3,Pedido: 5 unidad (normalizado: 250 unidad; equiv: 5 unidad),true,false,false
+P-00051,5492615139305,25026,120,ALUMINIO EN ROLLO DPM HOGAR X 10 U,5,10987.20,3,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00051,5492615139305,25026,558,POTE CON BISAGRA 270CC POR 10U.,2,1413.13,3,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00052,5492615139305,25026,531,OBLEA BLANCA TELGOPOR Nº19 POR 100U.,3,7206.97,3,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00052,5492615139305,25026,241,BANDEJA CARTON GRIS RECT. Nº 4 X 100 UNI,4,3378.60,3,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00052,5492615139305,25026,202,CAJA MEDIA PIZZA GRIS X 100 UNID,5,8915.40,3,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00053,5492618861463,25027,123,BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID,3,2503.25,4,Pedido: 3 unidad (normalizado: 150 unidad; equiv: 3 unidad),true,false,false
+P-00053,5492618861463,25027,347,PINCHOS DE BAMBÙ P/CATER. 9 CMX100 U,2,1722.30,4,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00054,5492618861463,25027,257,GUANTES DE LATEX,2,5413.56,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00054,5492618861463,25027,120,ALUMINIO EN ROLLO DPM HOGAR X 10 U,2,10376.80,4,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00054,5492618861463,25027,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,2,16749.25,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00054,5492618861463,25027,331,SORBETE C/FDAS X 1000 U,5,5148.39,4,Pedido: 5 unidad (normalizado: 5000 unidad; equiv: 5 unidad),true,false,false
+P-00055,5493812941974,25028,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,3,2233.58,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00055,5493812941974,25028,558,POTE CON BISAGRA 270CC POR 10U.,4,1570.14,1,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00055,5493812941974,25028,178,VASO BLANCO 180 CC X 100 UNID.,4,4994.00,1,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00056,5493812941974,25028,120,ALUMINIO EN ROLLO DPM HOGAR X 10 U,1,12208.00,1,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00057,5493817404433,25029,178,VASO BLANCO 180 CC X 100 UNID.,5,5743.10,2,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00057,5493817404433,25029,347,PINCHOS DE BAMBÙ P/CATER. 9 CMX100 U,2,2330.18,2,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00058,5493817404433,25029,178,VASO BLANCO 180 CC X 100 UNID.,5,5743.10,2,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00058,5493817404433,25029,202,CAJA MEDIA PIZZA GRIS X 100 UNID,2,11391.90,2,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00058,5493817404433,25029,531,OBLEA BLANCA TELGOPOR Nº19 POR 100U.,4,9208.90,2,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00058,5493817404433,25029,353,BANDEJA EXP 180 EXTRUCSYSTEM X 100 U,4,7107.45,2,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00059,5493419686914,25030,120,ALUMINIO EN ROLLO DPM HOGAR X 10 U,1,10987.20,3,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00059,5493419686914,25030,531,OBLEA BLANCA TELGOPOR Nº19 POR 100U.,1,7206.97,3,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00059,5493419686914,25030,344,ROLLO DE ALUMINIO POR 1KG,1,10163.97,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00060,5493419686914,25030,150,FILM DE PVC DPM 18 PULG 450MM X 500 M X U,2,33918.30,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00060,5493419686914,25030,558,POTE CON BISAGRA 270CC POR 10U.,1,1413.13,3,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00061,5493518648263,25031,257,GUANTES DE LATEX,2,5413.56,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00062,5493518648263,25031,150,FILM DE PVC DPM 18 PULG 450MM X 500 M X U,1,32033.95,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00062,5493518648263,25031,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,5,1898.54,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00063,5493516216782,25032,331,SORBETE C/FDAS X 1000 U,3,6056.93,1,Pedido: 3 unidad (normalizado: 3000 unidad; equiv: 3 unidad),true,false,false
+P-00063,5493516216782,25032,457,BANDEJA 101PP BISAGRA INPACK POR 10 U.,5,2322.39,1,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00063,5493516216782,25032,178,VASO BLANCO 180 CC X 100 UNID.,2,4994.00,1,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00063,5493516216782,25032,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,2,5197.77,1,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00064,5493516216782,25032,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,4,5197.77,1,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00064,5493516216782,25032,558,POTE CON BISAGRA 270CC POR 10U.,1,1570.14,1,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00064,5493516216782,25032,545,PLATO DE ALUMINIO Nº21 POR 50U.,3,8460.04,1,Pedido: 3 unidad (normalizado: 150 unidad; equiv: 3 unidad),true,false,false
+P-00065,5492612780568,25033,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,3,5977.44,2,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00065,5492612780568,25033,531,OBLEA BLANCA TELGOPOR Nº19 POR 100U.,5,9208.90,2,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00065,5492612780568,25033,331,SORBETE C/FDAS X 1000 U,4,6965.47,2,Pedido: 4 unidad (normalizado: 4000 unidad; equiv: 4 unidad),true,false,false
+P-00065,5492612780568,25033,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,4,2568.62,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00066,5492612780568,25033,344,ROLLO DE ALUMINIO POR 1KG,1,12987.29,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00066,5492612780568,25033,202,CAJA MEDIA PIZZA GRIS X 100 UNID,3,11391.90,2,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00066,5492612780568,25033,262,GUANTES DE NITRILO,3,7722.51,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00066,5492612780568,25033,457,BANDEJA 101PP BISAGRA INPACK POR 10 U.,4,2670.75,2,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00067,5493582639964,25034,257,GUANTES DE LATEX,1,5732.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00068,5493582639964,25034,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,1,4677.99,3,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00068,5493582639964,25034,150,FILM DE PVC DPM 18 PULG 450MM X 500 M X U,1,33918.30,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00069,5493814729528,25035,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,4,16749.25,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00069,5493814729528,25035,241,BANDEJA CARTON GRIS RECT. Nº 4 X 100 UNI,2,3190.90,4,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00069,5493814729528,25035,262,GUANTES DE NITRILO,1,5707.95,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00070,5493814729528,25035,120,ALUMINIO EN ROLLO DPM HOGAR X 10 U,1,10376.80,4,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00070,5493814729528,25035,488,BLONDA CALADA BLANCA 25CM POR 100U.,4,4688.09,4,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00070,5493814729528,25035,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,4,4418.10,4,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00071,5493876922419,25036,589,VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U.,2,15772.26,1,Pedido: 2 unidad (normalizado: 100 unidad; equiv: 2 unidad),true,false,false
+P-00071,5493876922419,25036,531,OBLEA BLANCA TELGOPOR Nº19 POR 100U.,1,8007.74,1,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00071,5493876922419,25036,123,BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID,3,2945.00,1,Pedido: 3 unidad (normalizado: 150 unidad; equiv: 3 unidad),true,false,false
+P-00071,5493876922419,25036,339,BANDEJA DE ALUMINIO F100 X 100U.,1,20762.14,1,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00072,5493876922419,25036,257,GUANTES DE LATEX,1,6368.89,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00072,5493876922419,25036,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,4,19705.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00072,5493876922419,25036,150,FILM DE PVC DPM 18 PULG 450MM X 500 M X U,4,37687.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00072,5493876922419,25036,262,GUANTES DE NITRILO,3,6715.23,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00073,5492618889598,25037,558,POTE CON BISAGRA 270CC POR 10U.,2,1805.66,2,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00073,5492618889598,25037,344,ROLLO DE ALUMINIO POR 1KG,3,12987.29,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00073,5492618889598,25037,488,BLONDA CALADA BLANCA 25CM POR 100U.,2,6342.71,2,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00074,5492618889598,25037,344,ROLLO DE ALUMINIO POR 1KG,2,12987.29,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00074,5492618889598,25037,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,3,5977.44,2,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00074,5492618889598,25037,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,1,22660.75,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00074,5492618889598,25037,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,2,7674.52,2,Pedido: 2 unidad (normalizado: 120 unidad; equiv: 2 unidad),true,false,false
+P-00075,5492615021286,25038,589,VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U.,4,14195.03,3,Pedido: 4 unidad (normalizado: 200 unidad; equiv: 4 unidad),true,false,false
+P-00076,5492615021286,25038,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,3,2010.22,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00076,5492615021286,25038,347,PINCHOS DE BAMBÙ P/CATER. 9 CMX100 U,3,1823.62,3,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00076,5492615021286,25038,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,4,17734.50,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00077,5493813520000,25039,120,ALUMINIO EN ROLLO DPM HOGAR X 10 U,5,10376.80,4,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00078,5493813520000,25039,344,ROLLO DE ALUMINIO POR 1KG,4,9599.30,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00079,5492997489876,25040,589,VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U.,2,15772.26,1,Pedido: 2 unidad (normalizado: 100 unidad; equiv: 2 unidad),true,false,false
+P-00080,5492997489876,25040,331,SORBETE C/FDAS X 1000 U,2,6056.93,1,Pedido: 2 unidad (normalizado: 2000 unidad; equiv: 2 unidad),true,false,false
+P-00080,5492997489876,25040,509,CAJA DE CARTULINA BLANCA CON VISOR 20X30X6 POR 5U.,2,3208.89,1,Pedido: 2 unidad (normalizado: 10 unidad; equiv: 2 unidad),true,false,false
+P-00080,5492997489876,25040,120,ALUMINIO EN ROLLO DPM HOGAR X 10 U,1,12208.00,1,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00080,5492997489876,25040,241,BANDEJA CARTON GRIS RECT. Nº 4 X 100 UNI,5,3754.00,1,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00081,5492612928724,0,150,FILM DE PVC DPM 18 PULG 450MM X 500 M X U,3,43340.05,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00082,5492612928724,0,589,VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U.,2,18138.10,2,Pedido: 2 unidad (normalizado: 100 unidad; equiv: 2 unidad),true,false,false
+P-00082,5492612928724,0,202,CAJA MEDIA PIZZA GRIS X 100 UNID,2,11391.90,2,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00082,5492612928724,0,353,BANDEJA EXP 180 EXTRUCSYSTEM X 100 U,5,7107.45,2,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00082,5492612928724,0,339,BANDEJA DE ALUMINIO F100 X 100U.,3,23876.46,2,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00083,5492617236955,0,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,3,6673.50,1,Pedido: 3 unidad (normalizado: 180 unidad; equiv: 3 unidad),true,false,false
+P-00083,5492617236955,0,509,CAJA DE CARTULINA BLANCA CON VISOR 20X30X6 POR 5U.,4,3208.89,1,Pedido: 4 unidad (normalizado: 20 unidad; equiv: 4 unidad),true,false,false
+P-00083,5492617236955,0,558,POTE CON BISAGRA 270CC POR 10U.,5,1570.14,1,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00083,5492617236955,0,339,BANDEJA DE ALUMINIO F100 X 100U.,3,20762.14,1,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00084,5492617236955,0,150,FILM DE PVC DPM 18 PULG 450MM X 500 M X U,4,37687.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00085,5492617413812,0,178,VASO BLANCO 180 CC X 100 UNID.,5,4244.90,4,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00085,5492617413812,0,509,CAJA DE CARTULINA BLANCA CON VISOR 20X30X6 POR 5U.,5,2727.56,4,Pedido: 5 unidad (normalizado: 25 unidad; equiv: 5 unidad),true,false,false
+P-00086,5492617413812,0,488,BLONDA CALADA BLANCA 25CM POR 100U.,4,4688.09,4,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00086,5492617413812,0,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,1,1898.54,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00086,5492617413812,0,545,PLATO DE ALUMINIO Nº21 POR 50U.,5,7191.03,4,Pedido: 5 unidad (normalizado: 250 unidad; equiv: 5 unidad),true,false,false
+P-00087,5492998066543,0,257,GUANTES DE LATEX,2,5732.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00087,5492998066543,0,339,BANDEJA DE ALUMINIO F100 X 100U.,3,18685.93,3,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00087,5492998066543,0,120,ALUMINIO EN ROLLO DPM HOGAR X 10 U,5,10987.20,3,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00088,5492998066543,0,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,5,2010.22,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00088,5492998066543,0,257,GUANTES DE LATEX,1,5732.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00089,5492999435946,0,347,PINCHOS DE BAMBÙ P/CATER. 9 CMX100 U,3,1823.62,3,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00089,5492999435946,0,488,BLONDA CALADA BLANCA 25CM POR 100U.,5,4963.86,3,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00089,5492999435946,0,331,SORBETE C/FDAS X 1000 U,4,5451.24,3,Pedido: 4 unidad (normalizado: 4000 unidad; equiv: 4 unidad),true,false,false
+P-00089,5492999435946,0,257,GUANTES DE LATEX,3,5732.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00090,5492999435946,0,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,2,17734.50,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00090,5492999435946,0,339,BANDEJA DE ALUMINIO F100 X 100U.,2,18685.93,3,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00091,5493416524997,0,241,BANDEJA CARTON GRIS RECT. Nº 4 X 100 UNI,1,3754.00,1,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00091,5493416524997,0,202,CAJA MEDIA PIZZA GRIS X 100 UNID,5,9906.00,1,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00091,5493416524997,0,420,MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U.,5,3735.48,1,Pedido: 5 unidad (normalizado: 250 unidad; equiv: 5 unidad),true,false,false
+P-00092,5493416524997,0,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,2,6673.50,1,Pedido: 2 unidad (normalizado: 120 unidad; equiv: 2 unidad),true,false,false
+P-00092,5493416524997,0,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,4,2233.58,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00092,5493416524997,0,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,5,5197.77,1,Pedido: 5 unidad (normalizado: 500 unidad; equiv: 5 unidad),true,false,false
+P-00093,5493517632424,0,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,2,16749.25,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00093,5493517632424,0,150,FILM DE PVC DPM 18 PULG 450MM X 500 M X U,2,32033.95,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00093,5493517632424,0,589,VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U.,1,13406.42,4,Pedido: 1 unidad (normalizado: 50 unidad; equiv: 1 unidad),true,false,false
+P-00094,5493517632424,0,120,ALUMINIO EN ROLLO DPM HOGAR X 10 U,4,10376.80,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00094,5493517632424,0,339,BANDEJA DE ALUMINIO F100 X 100U.,1,17647.82,4,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00094,5493517632424,0,545,PLATO DE ALUMINIO Nº21 POR 50U.,4,7191.03,4,Pedido: 4 unidad (normalizado: 200 unidad; equiv: 4 unidad),true,false,false
+P-00094,5493517632424,0,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,1,16749.25,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00095,5493519107005,0,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,1,5977.44,2,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00095,5493519107005,0,509,CAJA DE CARTULINA BLANCA CON VISOR 20X30X6 POR 5U.,1,3690.22,2,Pedido: 1 unidad (normalizado: 5 unidad; equiv: 1 unidad),true,false,false
+P-00095,5493519107005,0,262,GUANTES DE NITRILO,2,7722.51,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00095,5493519107005,0,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,1,2568.62,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00096,5493519107005,0,339,BANDEJA DE ALUMINIO F100 X 100U.,3,23876.46,2,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00096,5493519107005,0,173,BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.,3,5977.44,2,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,false,false
+P-00096,5493519107005,0,344,ROLLO DE ALUMINIO POR 1KG,5,12987.29,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00097,5493874104594,0,344,ROLLO DE ALUMINIO POR 1KG,2,10163.97,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00098,5493874104594,0,558,POTE CON BISAGRA 270CC POR 10U.,3,1413.13,3,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00098,5493874104594,0,420,MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U.,3,3361.93,3,Pedido: 3 unidad (normalizado: 150 unidad; equiv: 3 unidad),true,false,false
+P-00099,5493876499570,0,558,POTE CON BISAGRA 270CC POR 10U.,4,1805.66,2,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00099,5493876499570,0,411,HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD,2,2568.62,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00099,5493876499570,0,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,4,7674.52,2,Pedido: 4 unidad (normalizado: 240 unidad; equiv: 4 unidad),true,false,false
+P-00100,5493876499570,0,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,5,7674.52,2,Pedido: 5 unidad (normalizado: 300 unidad; equiv: 5 unidad),true,false,false
+P-00101,5493418277249,25004,120,ALUMINIO EN ROLLO DPM HOGAR X 10 U,1,10376.80,1,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad) - promo fase 2,true,true,true
+P-00101,5493418277249,25004,488,BLONDA CALADA BLANCA 25CM POR 100U.,3,5515.40,1,Pedido: 3 unidad (normalizado: 300 unidad; equiv: 3 unidad),true,true,false
+P-00101,5493418277249,25004,252,BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U,4,6673.50,1,Pedido: 4 unidad (normalizado: 240 unidad; equiv: 4 unidad),true,true,false
+P-00101,5493418277249,25004,241,BANDEJA CARTON GRIS RECT. Nº 4 X 100 UNI,2,3754.00,1,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,true,false
+P-00102,5493587905250,25001,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,4,22660.75,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00103,5493582641213,25002,123,BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID,4,2650.50,3,Pedido: 4 unidad (normalizado: 200 unidad; equiv: 4 unidad),true,true,false
+P-00104,5492991227644,25003,257,GUANTES DE LATEX,5,5413.56,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00105,5493587747641,25005,202,CAJA MEDIA PIZZA GRIS X 100 UNID,2,11391.90,2,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,true,false
+P-00105,5493587747641,25005,241,BANDEJA CARTON GRIS RECT. Nº 4 X 100 UNI,1,4317.10,2,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,true,false
+P-00106,5492614053074,25006,211,PAPEL DIARIO EN BOBINAS 40CM X 6KGR.,5,17734.50,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00106,5492614053074,25006,178,VASO BLANCO 180 CC X 100 UNID.,4,4494.60,3,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,true,false
+P-00106,5492614053074,25006,545,PLATO DE ALUMINIO Nº21 POR 50U.,3,7614.04,3,Pedido: 3 unidad (normalizado: 150 unidad; equiv: 3 unidad),true,true,false
+P-00106,5492614053074,25006,420,MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U.,2,3361.93,3,Pedido: 2 unidad (normalizado: 100 unidad; equiv: 2 unidad),true,true,false
