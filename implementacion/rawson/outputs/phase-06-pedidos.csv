@@ -1,0 +1,107 @@
+pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
+P-00001,25001,5493587905250,Descarpack,2026-03-01 08:00:00,confirmado,7705.86,Pedido historico mock - Descarpack,true,false,2
+P-00002,25001,5493587905250,Descarpack,2026-03-18 09:19:07,confirmado,85808.47,Pedido historico mock - Descarpack,true,false,2
+P-00003,25002,5493582641213,Envases Tucumán,2026-03-08 11:11:23,confirmado,7206.97,Pedido historico mock - Envases Tucumán,true,false,3
+P-00004,25002,5493582641213,Envases Tucumán,2026-03-25 12:30:30,confirmado,36489.38,Pedido historico mock - Envases Tucumán,true,false,3
+P-00005,25003,5492991227644,Bandejas y Vasos,2026-03-15 14:22:46,confirmado,47996.50,Pedido historico mock - Bandejas y Vasos,true,false,4
+P-00006,25003,5492991227644,Bandejas y Vasos,2026-04-01 15:41:53,confirmado,8489.80,Pedido historico mock - Bandejas y Vasos,true,false,4
+P-00007,25004,5493418277249,Tucumán Packaging,2026-03-22 17:33:09,confirmado,6673.50,Pedido historico mock - Tucumán Packaging,true,false,1
+P-00008,25004,5493418277249,Tucumán Packaging,2026-04-08 08:52:16,confirmado,171751.77,Pedido historico mock - Tucumán Packaging,true,false,1
+P-00009,25005,5493587747641,Aluminio y Telgopor,2026-03-29 10:44:32,confirmado,94796.91,Pedido historico mock - Aluminio y Telgopor,true,false,2
+P-00010,25005,5493587747641,Aluminio y Telgopor,2026-04-15 11:03:39,confirmado,78117.06,Pedido historico mock - Aluminio y Telgopor,true,false,2
+P-00011,25006,5492614053074,Bolsas y Más,2026-04-05 13:55:55,confirmado,124660.07,Pedido historico mock - Bolsas y Más,true,false,3
+P-00012,25006,5492614053074,Bolsas y Más,2026-04-22 14:14:02,confirmado,164089.03,Pedido historico mock - Bolsas y Más,true,false,3
+P-00013,25007,5493514079279,Parrilla El Sabor,2026-04-12 16:06:18,confirmado,66997.00,Pedido historico mock - Parrilla El Sabor,true,false,4
+P-00014,25007,5493514079279,Parrilla El Sabor,2026-04-29 17:25:25,confirmado,67049.80,Pedido historico mock - Parrilla El Sabor,true,false,4
+P-00015,25008,5493876914178,Asadería La Tradición,2026-04-19 09:17:41,confirmado,92330.88,Pedido historico mock - Asadería La Tradición,true,false,1
+P-00016,25008,5493876914178,Asadería La Tradición,2026-05-06 10:36:48,confirmado,89529.37,Pedido historico mock - Asadería La Tradición,true,false,1
+P-00017,25009,5492617175545,Carnicería El Buen Corte,2026-04-26 12:28:04,confirmado,27340.66,Pedido historico mock - Carnicería El Buen Corte,true,false,2
+P-00018,25009,5492617175545,Carnicería El Buen Corte,2026-05-13 13:47:11,confirmado,69862.17,Pedido historico mock - Carnicería El Buen Corte,true,false,2
+P-00019,25010,5493818437953,Restaurante La Estancia,2026-05-03 15:39:27,confirmado,75094.34,Pedido historico mock - Restaurante La Estancia,true,false,3
+P-00020,25010,5493818437953,Restaurante La Estancia,2026-05-20 16:58:34,confirmado,10085.79,Pedido historico mock - Restaurante La Estancia,true,false,3
+P-00021,25011,5493582132179,Almacén del Barrio,2026-05-10 08:50:50,confirmado,25330.68,Pedido historico mock - Almacén del Barrio,true,false,4
+P-00022,25011,5493582132179,Almacén del Barrio,2026-05-27 09:09:57,confirmado,12932.64,Pedido historico mock - Almacén del Barrio,true,false,4
+P-00023,25012,5493872845902,Pinturería El Colorido,2026-05-17 11:01:13,confirmado,71856.46,Pedido historico mock - Pinturería El Colorido,true,false,1
+P-00024,25012,5493872845902,Pinturería El Colorido,2026-03-03 12:20:20,confirmado,150392.21,Pedido historico mock - Pinturería El Colorido,true,false,1
+P-00025,25013,5492997670210,Ferretería La Solución,2026-05-24 14:12:36,confirmado,107872.16,Pedido historico mock - Ferretería La Solución,true,false,2
+P-00026,25013,5492997670210,Ferretería La Solución,2026-03-10 15:31:43,confirmado,118047.64,Pedido historico mock - Ferretería La Solución,true,false,2
+P-00027,25014,5493811657614,Corralón El Progreso,2026-05-31 17:23:59,confirmado,84193.65,Pedido historico mock - Corralón El Progreso,true,false,3
+P-00028,25014,5493811657614,Corralón El Progreso,2026-03-17 08:42:06,confirmado,29294.80,Pedido historico mock - Corralón El Progreso,true,false,3
+P-00029,25015,5492994145193,Vasos y Bandejas,2026-03-07 10:34:22,confirmado,40544.57,Pedido historico mock - Vasos y Bandejas,true,false,4
+P-00030,25015,5492994145193,Vasos y Bandejas,2026-03-24 11:53:29,confirmado,25011.66,Pedido historico mock - Vasos y Bandejas,true,false,4
+P-00031,25016,5493515971311,Envases del Norte,2026-03-14 13:45:45,confirmado,34984.90,Pedido historico mock - Envases del Norte,true,false,1
+P-00032,25016,5493515971311,Envases del Norte,2026-03-31 14:04:52,confirmado,269109.72,Pedido historico mock - Envases del Norte,true,false,1
+P-00033,25017,5492994228106,Bolsas Tucumanas,2026-03-21 16:56:08,confirmado,10683.00,Pedido historico mock - Bolsas Tucumanas,true,false,2
+P-00034,25017,5492994228106,Bolsas Tucumanas,2026-04-07 17:15:15,confirmado,108827.80,Pedido historico mock - Bolsas Tucumanas,true,false,2
+P-00035,25018,5492998718887,Aluminio y Plásticos,2026-03-28 09:07:31,confirmado,17830.80,Pedido historico mock - Aluminio y Plásticos,true,false,3
+P-00036,25018,5492998718887,Aluminio y Plásticos,2026-04-14 10:26:38,confirmado,23551.42,Pedido historico mock - Aluminio y Plásticos,true,false,3
+P-00037,25019,5492995028869,Telgopor y Más,2026-04-04 12:18:54,confirmado,9492.70,Pedido historico mock - Telgopor y Más,true,false,4
+P-00038,25019,5492995028869,Telgopor y Más,2026-04-21 13:37:01,confirmado,77625.95,Pedido historico mock - Telgopor y Más,true,false,4
+P-00039,25020,5493517304254,Descarte Fácil,2026-04-11 15:29:17,confirmado,17405.35,Pedido historico mock - Descarte Fácil,true,false,1
+P-00040,25020,5493517304254,Descarte Fácil,2026-04-28 16:48:24,confirmado,51041.53,Pedido historico mock - Descarte Fácil,true,false,1
+P-00041,25021,5493416986538,Pack & Go,2026-04-18 08:40:40,confirmado,130020.15,Pedido historico mock - Pack & Go,true,false,2
+P-00042,25021,5493416986538,Pack & Go,2026-05-05 09:59:47,confirmado,183675.61,Pedido historico mock - Pack & Go,true,false,2
+P-00043,25022,5492619239862,Bandejas de Cartón,2026-04-25 11:51:03,confirmado,16969.40,Pedido historico mock - Bandejas de Cartón,true,false,3
+P-00044,25022,5492619239862,Bandejas de Cartón,2026-05-12 12:10:10,confirmado,46394.50,Pedido historico mock - Bandejas de Cartón,true,false,3
+P-00045,25023,5493513952681,Vasos Desechables,2026-05-02 14:02:26,confirmado,15875.80,Pedido historico mock - Vasos Desechables,true,false,4
+P-00046,25023,5493513952681,Vasos Desechables,2026-05-19 15:21:33,confirmado,46034.75,Pedido historico mock - Vasos Desechables,true,false,4
+P-00047,25024,5493414799650,Bolsas Ecológicas,2026-05-09 17:13:49,confirmado,53591.09,Pedido historico mock - Bolsas Ecológicas,true,false,1
+P-00048,25024,5493414799650,Bolsas Ecológicas,2026-05-26 08:32:56,confirmado,39466.15,Pedido historico mock - Bolsas Ecológicas,true,false,1
+P-00049,25025,5492992500733,Aluminio Premium,2026-05-16 10:24:12,confirmado,62075.84,Pedido historico mock - Aluminio Premium,true,false,2
+P-00050,25025,5492992500733,Aluminio Premium,2026-03-02 11:43:19,confirmado,23023.56,Pedido historico mock - Aluminio Premium,true,false,2
+P-00051,25026,5492615139305,Telgopor Tucumán,2026-05-23 13:35:35,confirmado,113028.46,Pedido historico mock - Telgopor Tucumán,true,false,3
+P-00052,25026,5492615139305,Telgopor Tucumán,2026-03-09 14:54:42,confirmado,79712.31,Pedido historico mock - Telgopor Tucumán,true,false,3
+P-00053,25027,5492618861463,Envases de Plástico,2026-05-30 16:46:58,confirmado,10954.35,Pedido historico mock - Envases de Plástico,true,false,4
+P-00054,25027,5492618861463,Envases de Plástico,2026-03-16 17:05:05,confirmado,90821.17,Pedido historico mock - Envases de Plástico,true,false,4
+P-00055,25028,5493812941974,Bandejas para Delivery,2026-03-06 09:57:21,confirmado,32957.30,Pedido historico mock - Bandejas para Delivery,true,false,1
+P-00056,25028,5493812941974,Bandejas para Delivery,2026-03-23 10:16:28,confirmado,12208.00,Pedido historico mock - Bandejas para Delivery,true,false,1
+P-00057,25029,5493817404433,Vasos de Papel,2026-03-13 12:08:44,confirmado,33375.86,Pedido historico mock - Vasos de Papel,true,false,2
+P-00058,25029,5493817404433,Vasos de Papel,2026-03-30 13:27:51,confirmado,116764.70,Pedido historico mock - Vasos de Papel,true,false,2
+P-00059,25030,5493419686914,Bolsas de Polietileno,2026-03-20 15:19:07,confirmado,28358.14,Pedido historico mock - Bolsas de Polietileno,true,false,3
+P-00060,25030,5493419686914,Bolsas de Polietileno,2026-04-06 16:38:14,confirmado,69249.73,Pedido historico mock - Bolsas de Polietileno,true,false,3
+P-00061,25031,5493518648263,Aluminio para Parrilla,2026-03-27 08:30:30,confirmado,10827.12,Pedido historico mock - Aluminio para Parrilla,true,false,4
+P-00062,25031,5493518648263,Aluminio para Parrilla,2026-04-13 09:49:37,confirmado,41526.65,Pedido historico mock - Aluminio para Parrilla,true,false,4
+P-00063,25032,5493516216782,Telgopor para Comida,2026-04-03 11:41:53,confirmado,50166.28,Pedido historico mock - Telgopor para Comida,true,false,1
+P-00064,25032,5493516216782,Telgopor para Comida,2026-04-20 12:00:00,confirmado,47741.34,Pedido historico mock - Telgopor para Comida,true,false,1
+P-00065,25033,5492612780568,Descarte Rápido,2026-04-10 14:52:16,confirmado,102113.18,Pedido historico mock - Descarte Rápido,true,false,2
+P-00066,25033,5492612780568,Descarte Rápido,2026-04-27 15:11:23,confirmado,81013.52,Pedido historico mock - Descarte Rápido,true,false,2
+P-00067,25034,5493582639964,Pack Gourmet,2026-04-17 17:03:39,confirmado,5732.00,Pedido historico mock - Pack Gourmet,true,false,3
+P-00068,25034,5493582639964,Pack Gourmet,2026-05-04 08:22:46,confirmado,38596.29,Pedido historico mock - Pack Gourmet,true,false,3
+P-00069,25035,5493814729528,Bandejas para Catering,2026-04-24 10:14:02,confirmado,79086.75,Pedido historico mock - Bandejas para Catering,true,false,4
+P-00070,25035,5493814729528,Bandejas para Catering,2026-05-11 11:33:09,confirmado,46801.56,Pedido historico mock - Bandejas para Catering,true,false,4
+P-00071,25036,5493876922419,Vasos de Plástico,2026-05-01 13:25:25,confirmado,69149.40,Pedido historico mock - Vasos de Plástico,true,false,1
+P-00072,25036,5493876922419,Vasos de Plástico,2026-05-18 14:44:32,confirmado,256082.58,Pedido historico mock - Vasos de Plástico,true,false,1
+P-00073,25037,5492618889598,Bolsas de Papel,2026-05-08 16:36:48,confirmado,55258.61,Pedido historico mock - Bolsas de Papel,true,false,2
+P-00074,25037,5492618889598,Bolsas de Papel,2026-05-25 17:55:55,confirmado,81916.69,Pedido historico mock - Bolsas de Papel,true,false,2
+P-00075,25038,5492615021286,Aluminio y Cartón,2026-05-15 09:47:11,confirmado,56780.12,Pedido historico mock - Aluminio y Cartón,true,false,3
+P-00076,25038,5492615021286,Aluminio y Cartón,2026-03-01 10:06:18,confirmado,82439.52,Pedido historico mock - Aluminio y Cartón,true,false,3
+P-00077,25039,5493813520000,Telgopor para Eventos,2026-05-22 12:58:34,confirmado,51884.00,Pedido historico mock - Telgopor para Eventos,true,false,4
+P-00078,25039,5493813520000,Telgopor para Eventos,2026-03-08 13:17:41,confirmado,38397.20,Pedido historico mock - Telgopor para Eventos,true,false,4
+P-00079,25040,5492997489876,Descarte Eficiente,2026-05-29 15:09:57,confirmado,31544.52,Pedido historico mock - Descarte Eficiente,true,false,1
+P-00080,25040,5492997489876,Descarte Eficiente,2026-03-15 16:28:04,confirmado,49509.64,Pedido historico mock - Descarte Eficiente,true,false,1
+P-00081,0,5492612928724,Aluminio para Catering,2026-03-05 08:20:20,confirmado,130020.15,Pedido historico mock - Aluminio para Catering,true,false,2
+P-00082,0,5492612928724,Aluminio para Catering,2026-03-22 09:39:27,confirmado,166226.63,Pedido historico mock - Aluminio para Catering,true,false,2
+P-00083,0,5492617236955,Bolsas de Tela,2026-03-12 11:31:43,confirmado,102993.18,Pedido historico mock - Bolsas de Tela,true,false,1
+P-00084,0,5492617236955,Bolsas de Tela,2026-03-29 12:50:50,confirmado,150748.00,Pedido historico mock - Bolsas de Tela,true,false,1
+P-00085,0,5492617413812,Vasos Biodegradables,2026-03-19 14:42:06,confirmado,34862.30,Pedido historico mock - Vasos Biodegradables,true,false,4
+P-00086,0,5492617413812,Vasos Biodegradables,2026-04-05 15:01:13,confirmado,56606.05,Pedido historico mock - Vasos Biodegradables,true,false,4
+P-00087,0,5492998066543,Vasos de Cartón,2026-03-26 17:53:29,confirmado,122457.79,Pedido historico mock - Vasos de Cartón,true,false,3
+P-00088,0,5492998066543,Vasos de Cartón,2026-04-12 08:12:36,confirmado,15783.10,Pedido historico mock - Vasos de Cartón,true,false,3
+P-00089,0,5492999435946,Telgopor para Delivery,2026-04-02 10:04:52,confirmado,69291.12,Pedido historico mock - Telgopor para Delivery,true,false,3
+P-00090,0,5492999435946,Telgopor para Delivery,2026-04-19 11:23:59,confirmado,72840.86,Pedido historico mock - Telgopor para Delivery,true,false,3
+P-00091,0,5493416524997,Pack Familiar,2026-04-09 13:15:15,confirmado,71961.40,Pedido historico mock - Pack Familiar,true,false,1
+P-00092,0,5493416524997,Pack Familiar,2026-04-26 14:34:22,confirmado,48270.17,Pedido historico mock - Pack Familiar,true,false,1
+P-00093,0,5493517632424,Descarte Sostenible,2026-04-16 16:26:38,confirmado,110972.82,Pedido historico mock - Descarte Sostenible,true,false,4
+P-00094,0,5493517632424,Descarte Sostenible,2026-05-03 17:45:45,confirmado,104668.39,Pedido historico mock - Descarte Sostenible,true,false,4
+P-00095,0,5493519107005,Pack Rápido,2026-04-23 09:37:01,confirmado,27681.30,Pedido historico mock - Pack Rápido,true,false,2
+P-00096,0,5493519107005,Pack Rápido,2026-05-10 10:56:08,confirmado,154498.15,Pedido historico mock - Pack Rápido,true,false,2
+P-00097,0,5493874104594,Bandejas de Aluminio,2026-04-30 12:48:24,confirmado,20327.94,Pedido historico mock - Bandejas de Aluminio,true,false,3
+P-00098,0,5493874104594,Bandejas de Aluminio,2026-05-17 13:07:31,confirmado,14325.18,Pedido historico mock - Bandejas de Aluminio,true,false,3
+P-00099,0,5493876499570,Bandejas de Cartón Reciclado,2026-05-07 15:59:47,confirmado,43057.96,Pedido historico mock - Bandejas de Cartón Reciclado,true,false,2
+P-00100,0,5493876499570,Bandejas de Cartón Reciclado,2026-05-24 16:18:54,confirmado,38372.60,Pedido historico mock - Bandejas de Cartón Reciclado,true,false,2
+P-00101,25004,5493418277249,Tucumán Packaging,2026-08-21 11:15:00,abierto,61125.00,Pedido abierto mock - promo Fase 2 - Tucumán Packaging,true,true,1
+P-00102,25001,5493587905250,Descarpack,2026-08-21 11:15:13,pendiente,90643.00,Pedido abierto mock - Descarpack,true,true,2
+P-00103,25002,5493582641213,Envases Tucumán,2026-08-21 11:15:26,abierto,10602.00,Pedido abierto mock - Envases Tucumán,true,true,3
+P-00104,25003,5492991227644,Bandejas y Vasos,2026-08-21 11:15:39,pendiente,27067.80,Pedido abierto mock - Bandejas y Vasos,true,true,4
+P-00105,25005,5493587747641,Aluminio y Telgopor,2026-08-21 11:15:52,abierto,27100.90,Pedido abierto mock - Aluminio y Telgopor,true,true,2
+P-00106,25006,5492614053074,Bolsas y Más,2026-08-21 11:15:05,pendiente,136216.88,Pedido abierto mock - Bolsas y Más,true,true,3

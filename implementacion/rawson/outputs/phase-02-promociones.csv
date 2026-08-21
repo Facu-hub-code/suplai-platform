@@ -1,0 +1,5 @@
+promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+1,120,¡Oferta Semanal! Aluminio en Rollo DPM Hogar x 10 U,Aprovechá un 15% de descuento en tu compra de aluminio en rollo. Ideal para el hogar.,percent_off,15,1,1,2026-08-14,2026-09-20,true,true
+2,344,Imperdible: Rollo de Aluminio por 1kg,Llevate un descuento de $1000 en tu compra. Calidad garantizada para tus necesidades.,total_off,1000,2,1,2026-08-14,2026-09-20,true,true
+3,339,Promoción Especial: Bandeja de Aluminio F100 x 100 U.,Comprá 3 bandejas a precio fijo de $18270.68 y ahorrá en grande.,fixed_price,18270.68,1,3,2026-08-14,2026-09-20,true,true
+4,545,Descuento del 20%: Plato de Aluminio N°21 x 50 U.,Llevate este producto a un precio especial. Perfectos para eventos y comidas.,percent_off,20,3,1,2026-08-14,2026-09-20,true,true

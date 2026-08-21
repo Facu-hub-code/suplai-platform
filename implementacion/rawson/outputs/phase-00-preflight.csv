@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: cba04456-bd69-434c-b257-9e8fcf12b144
+schema_existe,Tablas en rawson,ok,70 tablas clonadas desde gonzales
+productos_vacio,COUNT productos = 0,ok,0 productos (pre-carga demo)
+clients_vacio,COUNT clients = 0,ok,0 clientes
+mcp_conectado,MCP supabase responde,ok,conectado (escritura via asyncpg pooler 6543; MCP read_only)
+carpeta_implementacion,manifest.yaml presente,ok,implementacion/rawson/manifest.yaml
+is_mock_column,Columna is_mock en productos,ok,presente
+excel_presente,Archivo en inputs/,ok,inputs/rawson_productos.csv + catalogo-completo.csv

@@ -1,0 +1,255 @@
+{
+  "schema": "rawson",
+  "products": [
+    {
+      "product_code": "120",
+      "nombre": "ALUMINIO EN ROLLO DPM HOGAR X 10 U",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Aluminio",
+        "4": "Aluminio en Rollo"
+      }
+    },
+    {
+      "product_code": "123",
+      "nombre": "BOLSA FONDO CUADRADO FM4  (25x16x8) X 50 UNID",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Bolsas",
+        "4": "Bolsa Fondo Cuadrado"
+      }
+    },
+    {
+      "product_code": "150",
+      "nombre": "FILM DE PVC DPM 18 PULG 450MM X 500 M X U",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Film",
+        "4": "Film de PVC"
+      }
+    },
+    {
+      "product_code": "173",
+      "nombre": "BANDEJA PLASTICA PET SUPERBAND 102 POR 100U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Bandejas",
+        "4": "Bandeja Plástica"
+      }
+    },
+    {
+      "product_code": "178",
+      "nombre": "VASO BLANCO 180 CC X 100 UNID.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Vasos",
+        "4": "Vaso Blanco"
+      }
+    },
+    {
+      "product_code": "202",
+      "nombre": "CAJA MEDIA PIZZA GRIS X 100 UNID",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Cajas",
+        "4": "Caja Media Pizza"
+      }
+    },
+    {
+      "product_code": "211",
+      "nombre": "PAPEL DIARIO EN BOBINAS 40CM X 6KGR.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Papeles",
+        "3": "Papel Diario",
+        "4": "Papel Diario en Bobinas"
+      }
+    },
+    {
+      "product_code": "241",
+      "nombre": "BANDEJA CARTON GRIS RECT. Nº 4 X 100 UNI",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Bandejas",
+        "4": "Bandeja Cartón"
+      }
+    },
+    {
+      "product_code": "252",
+      "nombre": "BOLSA CAMISETA 30X40 PETIT REFORZADA NEGRA 10 PAQ X 60 UN C/U",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Bolsas",
+        "4": "Bolsa Camiseta"
+      }
+    },
+    {
+      "product_code": "257",
+      "nombre": "GUANTES DE LATEX",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Protección",
+        "3": "Guantes",
+        "4": "Guantes de Látex"
+      }
+    },
+    {
+      "product_code": "262",
+      "nombre": "GUANTES DE NITRILO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Protección",
+        "3": "Guantes",
+        "4": "Guantes de Nitrilo"
+      }
+    },
+    {
+      "product_code": "331",
+      "nombre": "SORBETE C/FDAS X 1000 U",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Sorbetes",
+        "4": "Sorbetes"
+      }
+    },
+    {
+      "product_code": "339",
+      "nombre": "BANDEJA DE ALUMINIO F100 X 100U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Bandejas",
+        "4": "Bandeja de Aluminio"
+      }
+    },
+    {
+      "product_code": "344",
+      "nombre": "ROLLO DE ALUMINIO POR 1KG",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Aluminio",
+        "4": "Rollo de Aluminio"
+      }
+    },
+    {
+      "product_code": "347",
+      "nombre": "PINCHOS DE BAMBÙ P/CATER. 9 CMX100 U",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Pinchos",
+        "4": "Pinchos de Bambú"
+      }
+    },
+    {
+      "product_code": "353",
+      "nombre": "BANDEJA EXP 180 EXTRUCSYSTEM X 100 U",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Bandejas",
+        "4": "Bandeja Exp"
+      }
+    },
+    {
+      "product_code": "411",
+      "nombre": "HILO DE ALGODON BLANCO BOBINA 250G X UNIDAD",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Hilos",
+        "3": "Hilo de Algodón",
+        "4": "Hilo de Algodón Blanco"
+      }
+    },
+    {
+      "product_code": "420",
+      "nombre": "MOLDE FREIDORA DE AIRE CUADRADO 16X16CM X 50U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Moldes",
+        "4": "Molde Freidora de Aire"
+      }
+    },
+    {
+      "product_code": "457",
+      "nombre": "BANDEJA 101PP BISAGRA INPACK POR 10 U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Bandejas",
+        "4": "Bandeja PP"
+      }
+    },
+    {
+      "product_code": "488",
+      "nombre": "BLONDA CALADA BLANCA 25CM POR 100U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Papeles",
+        "3": "Blondas",
+        "4": "Blonda Calada"
+      }
+    },
+    {
+      "product_code": "509",
+      "nombre": "CAJA DE CARTULINA BLANCA CON VISOR 20X30X6 POR 5U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cajas",
+        "3": "Cajas de Cartulina",
+        "4": "Caja de Cartulina"
+      }
+    },
+    {
+      "product_code": "531",
+      "nombre": "OBLEA BLANCA TELGOPOR Nº19 POR 100U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Obleas",
+        "4": "Oblea Blanca"
+      }
+    },
+    {
+      "product_code": "545",
+      "nombre": "PLATO DE ALUMINIO Nº21 POR 50U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Platos",
+        "4": "Plato de Aluminio"
+      }
+    },
+    {
+      "product_code": "558",
+      "nombre": "POTE CON BISAGRA 270CC POR 10U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Envases",
+        "4": "Pote con Bisagra"
+      }
+    },
+    {
+      "product_code": "589",
+      "nombre": "VASO 12OZ RIPPLE NEGRO CON TAPA POR 50U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases y Utensilios",
+        "3": "Vasos",
+        "4": "Vaso Ripple"
+      }
+    }
+  ]
+}
