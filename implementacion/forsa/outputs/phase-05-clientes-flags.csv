@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Almacén La Esquina,25001,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493582641213,Kiosco El Rincón,25002,validado,2026-08-24T20:36:03.472878+00:00,,false
+5492991227644,Distribuidora La Familia,25003,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493418277249,Panadería El Buen Pan,25004,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493587747641,Golosinas y Snacks El Sabor,25005,validado,2026-08-24T20:36:03.472878+00:00,,false
+5492614053074,Cigarrillos y Más,25006,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493514079279,Limpieza Total,25007,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493876914178,Almacén del Barrio,25008,validado,2026-08-24T20:36:03.472878+00:00,,false
+5492617175545,Kiosco La Amistad,25009,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493818437953,Bebidas y Alimentos,25010,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493582132179,Distribuidora El Sol,25011,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493872845902,Panadería La Tradición,25012,validado,2026-08-24T20:36:03.472878+00:00,,false
+5492997670210,Kiosco La Estrella,25013,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493811657614,Almacén El Progreso,25014,validado,2026-08-24T20:36:03.472878+00:00,,false
+5492994145193,Golosinas El Paraíso,25015,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493515971311,Snacks y Bebidas,25016,validado,2026-08-24T20:36:03.472878+00:00,,false
+5492994228106,Cigarrillos La Paz,25017,validado,2026-08-24T20:36:03.472878+00:00,,false
+5492998718887,Limpieza y Hogar,25018,validado,2026-08-24T20:36:03.472878+00:00,,false
+5492995028869,Almacén La Nueva,25019,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493517304254,Kiosco El Abasto,25020,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493416986538,Distribuidora La Unión,25021,validado,2026-08-24T20:36:03.472878+00:00,,false
+5492619239862,Panadería El Pan Caliente,25022,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493513952681,Golosinas y Snacks del Centro,25023,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493414799650,Cigarrillos y Más,25024,validado,2026-08-24T20:36:03.472878+00:00,,false
+5492992500733,Limpieza y Aseo,25025,validado,2026-08-24T20:36:03.472878+00:00,,false
+5492615139305,Almacén El Buen Gusto,25026,validado,2026-08-24T20:36:03.472878+00:00,,false
+5492618861463,Kiosco La Alegría,25027,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493812941974,Bebidas y Snacks,25028,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493817404433,Distribuidora La Esperanza,25029,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493419686914,Panadería La Abundancia,25030,validado,2026-08-24T20:36:03.472878+00:00,,false
+5493518648263,Kiosco El Saborcito,25031,existente,,,false
+5493516216782,Almacén La Preferida,25032,existente,,,false
+5492612780568,Golosinas y Más,25033,existente,,,false
+5493582639964,Snacks del Barrio,25034,existente,,,false
+5493814729528,Cigarrillos La Libertad,25035,existente,,,false
+5493876922419,Limpieza y Cuidado,25036,existente,,,false
+5492618889598,Almacén La Amistad,25037,existente,,,false
+5492615021286,Kiosco El Cielo,25038,existente,,,false
+5493813520000,Distribuidora El Éxito,25039,existente,,,false
+5492997489876,Panadería La Delicia,25040,existente,,,false
+5493519107005,Golosinas y Snacks La Riqueza,0,no_validado,,PROSPECTO,true
+5493874104594,Cigarrillos y Bebidas,0,existente,,PROSPECTO,true
+5492617413812,Limpieza y Más,0,no_validado,,PROSPECTO,true
+5492617236955,Almacén El Refugio,0,existente,,PROSPECTO,true
+5492612928724,Kiosco La Sorpresa,0,no_validado,,PROSPECTO,true
+5492999435946,Distribuidora La Brisa,0,validado,2026-08-24T20:36:03.472878+00:00,PROSPECTO,true
+5493517632424,Panadería El Aroma,0,no_existente,,PROSPECTO,true
+5493416524997,Golosinas y Snacks La Alegría,0,no_validado,,PROSPECTO,true
+5493876499570,Cigarrillos y Aseo,0,existente,,PROSPECTO,true
+5492998066543,Limpieza y Comodidad,0,no_validado,,PROSPECTO,true

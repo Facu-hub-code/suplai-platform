@@ -1,0 +1,26 @@
+lista_precios_id,nombre,multiplicador_sobre_lista_1,product_code,precio_unidad,is_mock
+1,Lista Base (Público),1.00,F001,800.00,true
+1,Lista Base (Público),1.00,F003,1020.00,true
+1,Lista Base (Público),1.00,F008,1273.00,true
+1,Lista Base (Público),1.00,F015,1034.00,true
+1,Lista Base (Público),1.00,F027,1885.00,true
+1,Lista Base (Público),1.00,F041,660.00,true
+1,Lista Base (Público),1.00,F048,1850.00,true
+1,Lista Base (Público),1.00,F067,550.00,true
+1,Lista Base (Público),1.00,F116,850.00,true
+1,Lista Base (Público),1.00,F121,740.00,true
+1,Lista Base (Público),1.00,F201,4050.00,true
+1,Lista Base (Público),1.00,F227,2165.00,true
+1,Lista Base (Público),1.00,F055,3250.00,true
+1,Lista Base (Público),1.00,F060,1360.00,true
+1,Lista Base (Público),1.00,F281,13990.00,true
+1,Lista Base (Público),1.00,F034,7960.00,true
+1,Lista Base (Público),1.00,F355,6340.00,true
+1,Lista Base (Público),1.00,F361,3790.00,true
+1,Lista Base (Público),1.00,F401,2180.00,true
+1,Lista Base (Público),1.00,F140,2100.00,true
+1,Lista Base (Público),1.00,F138,1020.00,true
+1,Lista Base (Público),1.00,F144,1930.00,true
+1,Lista Base (Público),1.00,F171,2790.00,true
+1,Lista Base (Público),1.00,F410,1400.00,true
+1,Lista Base (Público),1.00,F037,1440.00,true

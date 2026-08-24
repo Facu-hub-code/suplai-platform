@@ -1,0 +1,255 @@
+{
+  "schema": "forsa",
+  "products": [
+    {
+      "product_code": "F001",
+      "nombre": "LAVANDINA COMUN X 1 LT X 1 SEDILE",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Líquidos Desinfectantes",
+        "4": "Lavandina Común"
+      }
+    },
+    {
+      "product_code": "F003",
+      "nombre": "LAVANDINA CONCENTRADA X 1L X 1 ESENCIAL",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Líquidos Desinfectantes",
+        "4": "Lavandina Concentrada"
+      }
+    },
+    {
+      "product_code": "F008",
+      "nombre": "ALOE VERA LAVAVAJILLAS 1 X 750CC ESENCIAL",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Lavavajillas",
+        "3": "Líquidos Lavavajillas",
+        "4": "Jabón Lavavajillas"
+      }
+    },
+    {
+      "product_code": "F015",
+      "nombre": "LIQ DESINF 1 X900CC ESENCIAL PINO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Líquidos Desinfectantes",
+        "4": "Líquido Desinfectante"
+      }
+    },
+    {
+      "product_code": "F027",
+      "nombre": "LIQ P LAVAR ROPA 1 X800 CLOW",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Líquidos para Lavar Ropa",
+        "4": "Detergente Líquido para Ropa"
+      }
+    },
+    {
+      "product_code": "F034",
+      "nombre": "ALFAJOR GENIO TRIPLE NEGRO X 24U",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletitas",
+        "4": "Alfajor"
+      }
+    },
+    {
+      "product_code": "F037",
+      "nombre": "TRAPO PISO BLANCO X1X60X50CM",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Accesorios de Limpieza",
+        "3": "Trapos",
+        "4": "Trapo de Piso"
+      }
+    },
+    {
+      "product_code": "F041",
+      "nombre": "PAPEL HIG. X 1 X 50MTS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Papelería",
+        "3": "Papel Higiénico",
+        "4": "Papel Higiénico"
+      }
+    },
+    {
+      "product_code": "F048",
+      "nombre": "ROLLO COCINA X3X50P",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Papelería",
+        "3": "Papel de Cocina",
+        "4": "Rollo de Cocina"
+      }
+    },
+    {
+      "product_code": "F055",
+      "nombre": "TAKIS FUEGO 1 P 140 G FLOW BAR EXP",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Snack de Maíz"
+      }
+    },
+    {
+      "product_code": "F060",
+      "nombre": "TAKIS ORIGINAL 1P 49 FLOW BAR EXP",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chips",
+        "4": "Snack de Maíz"
+      }
+    },
+    {
+      "product_code": "F067",
+      "nombre": "ARROZ MITAI CALIDAD 0000",
+      "tags": {
+        "1": "Almacén",
+        "2": "Cereales",
+        "3": "Arroz",
+        "4": "Arroz"
+      }
+    },
+    {
+      "product_code": "F116",
+      "nombre": "FIDEO SPAGHETTI MAROLIO 1U X 500GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Secas",
+        "4": "Fideos Spaghetti"
+      }
+    },
+    {
+      "product_code": "F121",
+      "nombre": "FIDEO TIRABUZON SANTA ISABEL 1U X 500GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Pastas y Legumbres",
+        "3": "Pastas Secas",
+        "4": "Fideos Tirabuzón"
+      }
+    },
+    {
+      "product_code": "F138",
+      "nombre": "VAINILLAS 1U X 148G VALENTE",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletitas",
+        "4": "Galletita Dulce"
+      }
+    },
+    {
+      "product_code": "F140",
+      "nombre": "RAPIDITAS CLASIC 1U X 240GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Galletitas",
+        "4": "Galletita Salada"
+      }
+    },
+    {
+      "product_code": "F144",
+      "nombre": "PAN BLANCO 1U X 315GR BOH",
+      "tags": {
+        "1": "Almacén",
+        "2": "Panadería",
+        "3": "Pan",
+        "4": "Pan Blanco"
+      }
+    },
+    {
+      "product_code": "F171",
+      "nombre": "JUGO DE NARANJA PURA FRUTTA 1U X 1LT",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Jugos Naturales",
+        "4": "Jugo de Naranja"
+      }
+    },
+    {
+      "product_code": "F201",
+      "nombre": "YERBA PLAYADITO 1U X 1KG",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Yerba",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "F227",
+      "nombre": "YERBA PLAYADITO 1U X 500GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Infusiones",
+        "3": "Yerba",
+        "4": "Yerba Mate"
+      }
+    },
+    {
+      "product_code": "F281",
+      "nombre": "BELDENT FRUTILLA X 20UN",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chicles",
+        "4": "Chicle"
+      }
+    },
+    {
+      "product_code": "F355",
+      "nombre": "MARLBORO BOX 20",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tabacos",
+        "3": "Cigarrillos",
+        "4": "Cigarrillo"
+      }
+    },
+    {
+      "product_code": "F361",
+      "nombre": "MARLBORO PURPLE 12",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tabacos",
+        "3": "Cigarrillos",
+        "4": "Cigarrillo"
+      }
+    },
+    {
+      "product_code": "F401",
+      "nombre": "LUCKY RED 20",
+      "tags": {
+        "1": "Almacén",
+        "2": "Tabacos",
+        "3": "Cigarrillos",
+        "4": "Cigarrillo"
+      }
+    },
+    {
+      "product_code": "F410",
+      "nombre": "AGUA VIDA BAGGGIO MANZANA 1U X 1.5LT",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Aguas Saborizadas",
+        "4": "Agua Saborizada"
+      }
+    }
+  ]
+}

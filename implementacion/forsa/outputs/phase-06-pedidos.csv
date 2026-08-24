@@ -1,0 +1,107 @@
+pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
+P-00001,25001,5493587905250,Almacén La Esquina,2026-03-01 08:00:00,confirmado,1610.00,Pedido historico mock - Almacén La Esquina,true,false,2
+P-00002,25001,5493587905250,Almacén La Esquina,2026-03-18 09:19:07,entregado,60615.35,Pedido historico mock - Almacén La Esquina,true,false,2
+P-00003,25002,5493582641213,Kiosco El Rincón,2026-03-08 11:11:23,entregado,20520.00,Pedido historico mock - Kiosco El Rincón,true,false,3
+P-00004,25002,5493582641213,Kiosco El Rincón,2026-03-25 12:30:30,facturado,5022.00,Pedido historico mock - Kiosco El Rincón,true,false,3
+P-00005,25003,5492991227644,Distribuidora La Familia,2026-03-15 14:22:46,facturado,30863.50,Pedido historico mock - Distribuidora La Familia,true,false,4
+P-00006,25003,5492991227644,Distribuidora La Familia,2026-04-01 15:41:53,confirmado,9803.90,Pedido historico mock - Distribuidora La Familia,true,false,4
+P-00007,25004,5493418277249,Panadería El Buen Pan,2026-03-22 17:33:09,confirmado,16776.00,Pedido historico mock - Panadería El Buen Pan,true,false,1
+P-00008,25004,5493418277249,Panadería El Buen Pan,2026-04-08 08:52:16,entregado,81480.00,Pedido historico mock - Panadería El Buen Pan,true,false,1
+P-00009,25005,5493587747641,Golosinas y Snacks El Sabor,2026-03-29 10:44:32,entregado,1656.00,Pedido historico mock - Golosinas y Snacks El Sabor,true,false,2
+P-00010,25005,5493587747641,Golosinas y Snacks El Sabor,2026-04-15 11:03:39,facturado,4416.00,Pedido historico mock - Golosinas y Snacks El Sabor,true,false,2
+P-00011,25006,5492614053074,Cigarrillos y Más,2026-04-05 13:55:55,facturado,2880.00,Pedido historico mock - Cigarrillos y Más,true,false,3
+P-00012,25006,5492614053074,Cigarrillos y Más,2026-04-22 14:14:02,confirmado,14175.00,Pedido historico mock - Cigarrillos y Más,true,false,3
+P-00013,25007,5493514079279,Limpieza Total,2026-04-12 16:06:18,confirmado,64030.50,Pedido historico mock - Limpieza Total,true,false,4
+P-00014,25007,5493514079279,Limpieza Total,2026-04-29 17:25:25,entregado,26921.20,Pedido historico mock - Limpieza Total,true,false,4
+P-00015,25008,5493876914178,Almacén del Barrio,2026-04-19 09:17:41,entregado,16025.00,Pedido historico mock - Almacén del Barrio,true,false,1
+P-00016,25008,5493876914178,Almacén del Barrio,2026-05-06 10:36:48,facturado,62430.00,Pedido historico mock - Almacén del Barrio,true,false,1
+P-00017,25009,5492617175545,Kiosco La Amistad,2026-04-26 12:28:04,facturado,12121.00,Pedido historico mock - Kiosco La Amistad,true,false,2
+P-00018,25009,5492617175545,Kiosco La Amistad,2026-05-13 13:47:11,confirmado,7291.00,Pedido historico mock - Kiosco La Amistad,true,false,2
+P-00019,25010,5493818437953,Bebidas y Alimentos,2026-05-03 15:39:27,confirmado,11844.00,Pedido historico mock - Bebidas y Alimentos,true,false,3
+P-00020,25010,5493818437953,Bebidas y Alimentos,2026-05-20 16:58:34,entregado,25560.00,Pedido historico mock - Bebidas y Alimentos,true,false,3
+P-00021,25011,5493582132179,Distribuidora El Sol,2026-05-10 08:50:50,entregado,2371.50,Pedido historico mock - Distribuidora El Sol,true,false,4
+P-00022,25011,5493582132179,Distribuidora El Sol,2026-05-27 09:09:57,facturado,12886.00,Pedido historico mock - Distribuidora El Sol,true,false,4
+P-00023,25012,5493872845902,Panadería La Tradición,2026-05-17 11:01:13,facturado,23655.00,Pedido historico mock - Panadería La Tradición,true,false,1
+P-00024,25012,5493872845902,Panadería La Tradición,2026-03-03 12:20:20,confirmado,16350.00,Pedido historico mock - Panadería La Tradición,true,false,1
+P-00025,25013,5492997670210,Kiosco La Estrella,2026-05-24 14:12:36,confirmado,20090.50,Pedido historico mock - Kiosco La Estrella,true,false,2
+P-00026,25013,5492997670210,Kiosco La Estrella,2026-03-10 15:31:43,entregado,34804.75,Pedido historico mock - Kiosco La Estrella,true,false,2
+P-00027,25014,5493811657614,Almacén El Progreso,2026-05-31 17:23:59,entregado,23321.70,Pedido historico mock - Almacén El Progreso,true,false,3
+P-00028,25014,5493811657614,Almacén El Progreso,2026-03-17 08:42:06,facturado,2791.80,Pedido historico mock - Almacén El Progreso,true,false,3
+P-00029,25015,5492994145193,Golosinas El Paraíso,2026-03-07 10:34:22,facturado,21250.00,Pedido historico mock - Golosinas El Paraíso,true,false,4
+P-00030,25015,5492994145193,Golosinas El Paraíso,2026-03-24 11:53:29,confirmado,10327.50,Pedido historico mock - Golosinas El Paraíso,true,false,4
+P-00031,25016,5493515971311,Snacks y Bebidas,2026-03-14 13:45:45,confirmado,9115.00,Pedido historico mock - Snacks y Bebidas,true,false,1
+P-00032,25016,5493515971311,Snacks y Bebidas,2026-03-31 14:04:52,entregado,31000.00,Pedido historico mock - Snacks y Bebidas,true,false,1
+P-00033,25017,5492994228106,Cigarrillos La Paz,2026-03-21 16:56:08,entregado,26218.85,Pedido historico mock - Cigarrillos La Paz,true,false,2
+P-00034,25017,5492994228106,Cigarrillos La Paz,2026-04-07 17:15:15,facturado,8987.25,Pedido historico mock - Cigarrillos La Paz,true,false,2
+P-00035,25018,5492998718887,Limpieza y Hogar,2026-03-28 09:07:31,facturado,8218.80,Pedido historico mock - Limpieza y Hogar,true,false,3
+P-00036,25018,5492998718887,Limpieza y Hogar,2026-04-14 10:26:38,confirmado,14764.50,Pedido historico mock - Limpieza y Hogar,true,false,3
+P-00037,25019,5492995028869,Almacén La Nueva,2026-04-04 12:18:54,confirmado,3043.00,Pedido historico mock - Almacén La Nueva,true,false,4
+P-00038,25019,5492995028869,Almacén La Nueva,2026-04-21 13:37:01,entregado,9860.00,Pedido historico mock - Almacén La Nueva,true,false,4
+P-00039,25020,5493517304254,Kiosco El Abasto,2026-04-11 15:29:17,entregado,6910.00,Pedido historico mock - Kiosco El Abasto,true,false,1
+P-00040,25020,5493517304254,Kiosco El Abasto,2026-04-28 16:48:24,facturado,22830.00,Pedido historico mock - Kiosco El Abasto,true,false,1
+P-00041,25021,5493416986538,Distribuidora La Unión,2026-04-18 08:40:40,facturado,40710.00,Pedido historico mock - Distribuidora La Unión,true,false,2
+P-00042,25021,5493416986538,Distribuidora La Unión,2026-05-05 09:59:47,confirmado,28750.00,Pedido historico mock - Distribuidora La Unión,true,false,2
+P-00043,25022,5492619239862,Panadería El Pan Caliente,2026-04-25 11:51:03,confirmado,1948.50,Pedido historico mock - Panadería El Pan Caliente,true,false,3
+P-00044,25022,5492619239862,Panadería El Pan Caliente,2026-05-12 12:10:10,entregado,8245.80,Pedido historico mock - Panadería El Pan Caliente,true,false,3
+P-00045,25023,5493513952681,Golosinas y Snacks del Centro,2026-05-02 14:02:26,entregado,2167.50,Pedido historico mock - Golosinas y Snacks del Centro,true,false,4
+P-00046,25023,5493513952681,Golosinas y Snacks del Centro,2026-05-19 15:21:33,facturado,10616.50,Pedido historico mock - Golosinas y Snacks del Centro,true,false,4
+P-00047,25024,5493414799650,Cigarrillos y Más,2026-05-09 17:13:49,facturado,2720.00,Pedido historico mock - Cigarrillos y Más,true,false,1
+P-00048,25024,5493414799650,Cigarrillos y Más,2026-05-26 08:32:56,confirmado,21400.00,Pedido historico mock - Cigarrillos y Más,true,false,1
+P-00049,25025,5492992500733,Limpieza y Aseo,2026-05-16 10:24:12,confirmado,16623.25,Pedido historico mock - Limpieza y Aseo,true,false,2
+P-00050,25025,5492992500733,Limpieza y Aseo,2026-03-02 11:43:19,entregado,29796.50,Pedido historico mock - Limpieza y Aseo,true,false,2
+P-00051,25026,5492615139305,Almacén El Buen Gusto,2026-05-23 13:35:35,entregado,5886.00,Pedido historico mock - Almacén El Buen Gusto,true,false,3
+P-00052,25026,5492615139305,Almacén El Buen Gusto,2026-03-09 14:54:42,facturado,86076.00,Pedido historico mock - Almacén El Buen Gusto,true,false,3
+P-00053,25027,5492618861463,Kiosco La Alegría,2026-05-30 16:46:58,facturado,13251.50,Pedido historico mock - Kiosco La Alegría,true,false,4
+P-00054,25027,5492618861463,Kiosco La Alegría,2026-03-16 17:05:05,confirmado,18232.50,Pedido historico mock - Kiosco La Alegría,true,false,4
+P-00055,25028,5493812941974,Bebidas y Snacks,2026-03-06 09:57:21,confirmado,1034.00,Pedido historico mock - Bebidas y Snacks,true,false,1
+P-00056,25028,5493812941974,Bebidas y Snacks,2026-03-23 10:16:28,entregado,4080.00,Pedido historico mock - Bebidas y Snacks,true,false,1
+P-00057,25029,5493817404433,Distribuidora La Esperanza,2026-03-13 12:08:44,entregado,22574.50,Pedido historico mock - Distribuidora La Esperanza,true,false,2
+P-00058,25029,5493817404433,Distribuidora La Esperanza,2026-03-30 13:27:51,facturado,11776.00,Pedido historico mock - Distribuidora La Esperanza,true,false,2
+P-00059,25030,5493419686914,Panadería La Abundancia,2026-03-20 15:19:07,facturado,35234.10,Pedido historico mock - Panadería La Abundancia,true,false,3
+P-00060,25030,5493419686914,Panadería La Abundancia,2026-04-06 16:38:14,confirmado,1980.00,Pedido historico mock - Panadería La Abundancia,true,false,3
+P-00061,25031,5493518648263,Kiosco El Saborcito,2026-03-27 08:30:30,confirmado,25784.75,Pedido historico mock - Kiosco El Saborcito,true,false,4
+P-00062,25031,5493518648263,Kiosco El Saborcito,2026-04-13 09:49:37,entregado,1640.50,Pedido historico mock - Kiosco El Saborcito,true,false,4
+P-00063,25032,5493516216782,Almacén La Preferida,2026-04-03 11:41:53,entregado,10142.00,Pedido historico mock - Almacén La Preferida,true,false,1
+P-00064,25032,5493516216782,Almacén La Preferida,2026-04-20 12:00:00,facturado,4431.00,Pedido historico mock - Almacén La Preferida,true,false,1
+P-00065,25033,5492612780568,Golosinas y Más,2026-04-10 14:52:16,facturado,12397.00,Pedido historico mock - Golosinas y Más,true,false,2
+P-00066,25033,5492612780568,Golosinas y Más,2026-04-27 15:11:23,confirmado,4657.50,Pedido historico mock - Golosinas y Más,true,false,2
+P-00067,25034,5493582639964,Snacks del Barrio,2026-04-17 17:03:39,confirmado,38129.40,Pedido historico mock - Snacks del Barrio,true,false,3
+P-00068,25034,5493582639964,Snacks del Barrio,2026-05-04 08:22:46,entregado,3645.00,Pedido historico mock - Snacks del Barrio,true,false,3
+P-00069,25035,5493814729528,Cigarrillos La Libertad,2026-04-24 10:14:02,entregado,3515.60,Pedido historico mock - Cigarrillos La Libertad,true,false,4
+P-00070,25035,5493814729528,Cigarrillos La Libertad,2026-05-11 11:33:09,facturado,27084.40,Pedido historico mock - Cigarrillos La Libertad,true,false,4
+P-00071,25036,5493876922419,Limpieza y Cuidado,2026-05-01 13:25:25,facturado,18580.00,Pedido historico mock - Limpieza y Cuidado,true,false,1
+P-00072,25036,5493876922419,Limpieza y Cuidado,2026-05-18 14:44:32,confirmado,21945.00,Pedido historico mock - Limpieza y Cuidado,true,false,1
+P-00073,25037,5492618889598,Almacén La Amistad,2026-05-08 16:36:48,confirmado,5014.00,Pedido historico mock - Almacén La Amistad,true,false,2
+P-00074,25037,5492618889598,Almacén La Amistad,2026-05-25 17:55:55,entregado,18239.00,Pedido historico mock - Almacén La Amistad,true,false,2
+P-00075,25038,5492615021286,Kiosco El Cielo,2026-05-15 09:47:11,entregado,4896.00,Pedido historico mock - Kiosco El Cielo,true,false,3
+P-00076,25038,5492615021286,Kiosco El Cielo,2026-03-01 10:06:18,facturado,13563.00,Pedido historico mock - Kiosco El Cielo,true,false,3
+P-00077,25039,5493813520000,Distribuidora El Éxito,2026-05-22 12:58:34,facturado,13608.50,Pedido historico mock - Distribuidora El Éxito,true,false,4
+P-00078,25039,5493813520000,Distribuidora El Éxito,2026-03-08 13:17:41,confirmado,11424.00,Pedido historico mock - Distribuidora El Éxito,true,false,4
+P-00079,25040,5492997489876,Panadería La Delicia,2026-05-29 15:09:57,confirmado,26930.00,Pedido historico mock - Panadería La Delicia,true,false,1
+P-00080,25040,5492997489876,Panadería La Delicia,2026-03-15 16:28:04,entregado,3050.00,Pedido historico mock - Panadería La Delicia,true,false,1
+P-00081,0,5492612928724,Kiosco La Sorpresa,2026-03-05 08:20:20,entregado,20159.50,Pedido historico mock - Kiosco La Sorpresa,true,false,2
+P-00082,0,5492612928724,Kiosco La Sorpresa,2026-03-22 09:39:27,facturado,61369.75,Pedido historico mock - Kiosco La Sorpresa,true,false,2
+P-00083,0,5492617236955,Almacén El Refugio,2026-03-12 11:31:43,facturado,18210.00,Pedido historico mock - Almacén El Refugio,true,false,1
+P-00084,0,5492617236955,Almacén El Refugio,2026-03-29 12:50:50,confirmado,4730.00,Pedido historico mock - Almacén El Refugio,true,false,1
+P-00085,0,5492617413812,Limpieza y Más,2026-03-19 14:42:06,confirmado,21577.25,Pedido historico mock - Limpieza y Más,true,false,4
+P-00086,0,5492617413812,Limpieza y Más,2026-04-05 15:01:13,entregado,36562.75,Pedido historico mock - Limpieza y Más,true,false,4
+P-00087,0,5492998066543,Limpieza y Comodidad,2026-03-26 17:53:29,entregado,9180.00,Pedido historico mock - Limpieza y Comodidad,true,false,3
+P-00088,0,5492998066543,Limpieza y Comodidad,2026-04-12 08:12:36,facturado,10795.50,Pedido historico mock - Limpieza y Comodidad,true,false,3
+P-00089,0,5492999435946,Distribuidora La Brisa,2026-04-02 10:04:52,facturado,5898.60,Pedido historico mock - Distribuidora La Brisa,true,false,3
+P-00090,0,5492999435946,Distribuidora La Brisa,2026-04-19 11:23:59,confirmado,25182.00,Pedido historico mock - Distribuidora La Brisa,true,false,3
+P-00091,0,5493416524997,Golosinas y Snacks La Alegría,2026-04-09 13:15:15,confirmado,12370.00,Pedido historico mock - Golosinas y Snacks La Alegría,true,false,1
+P-00092,0,5493416524997,Golosinas y Snacks La Alegría,2026-04-26 14:34:22,entregado,24945.00,Pedido historico mock - Golosinas y Snacks La Alegría,true,false,1
+P-00093,0,5493517632424,Panadería El Aroma,2026-04-16 16:26:38,entregado,21743.00,Pedido historico mock - Panadería El Aroma,true,false,4
+P-00094,0,5493517632424,Panadería El Aroma,2026-05-03 17:45:45,facturado,1082.05,Pedido historico mock - Panadería El Aroma,true,false,4
+P-00095,0,5493519107005,Golosinas y Snacks La Riqueza,2026-04-23 09:37:01,facturado,17963.00,Pedido historico mock - Golosinas y Snacks La Riqueza,true,false,2
+P-00096,0,5493519107005,Golosinas y Snacks La Riqueza,2026-05-10 10:56:08,confirmado,15323.75,Pedido historico mock - Golosinas y Snacks La Riqueza,true,false,2
+P-00097,0,5493874104594,Cigarrillos y Bebidas,2026-04-30 12:48:24,confirmado,9810.00,Pedido historico mock - Cigarrillos y Bebidas,true,false,3
+P-00098,0,5493874104594,Cigarrillos y Bebidas,2026-05-17 13:07:31,entregado,18504.00,Pedido historico mock - Cigarrillos y Bebidas,true,false,3
+P-00099,0,5493876499570,Cigarrillos y Aseo,2026-05-07 15:59:47,entregado,5855.80,Pedido historico mock - Cigarrillos y Aseo,true,false,2
+P-00100,0,5493876499570,Cigarrillos y Aseo,2026-05-24 16:18:54,facturado,34574.75,Pedido historico mock - Cigarrillos y Aseo,true,false,2
+P-00101,25004,5493418277249,Panadería El Buen Pan,2026-08-24 11:15:00,abierto,10440.00,Pedido abierto mock - promo Fase 2 - Panadería El Buen Pan,true,true,1
+P-00102,25001,5493587905250,Almacén La Esquina,2026-08-24 11:15:13,pendiente,13397.50,Pedido abierto mock - Almacén La Esquina,true,true,2
+P-00103,25002,5493582641213,Kiosco El Rincón,2026-08-24 11:15:26,abierto,11619.00,Pedido abierto mock - Kiosco El Rincón,true,true,3
+P-00104,25003,5492991227644,Distribuidora La Familia,2026-08-24 11:15:39,pendiente,11448.65,Pedido abierto mock - Distribuidora La Familia,true,true,4
+P-00105,25005,5493587747641,Golosinas y Snacks El Sabor,2026-08-24 11:15:52,abierto,3737.50,Pedido abierto mock - Golosinas y Snacks El Sabor,true,true,2
+P-00106,25006,5492614053074,Cigarrillos y Más,2026-08-24 11:15:05,pendiente,4653.00,Pedido abierto mock - Cigarrillos y Más,true,true,3

@@ -1,0 +1,5 @@
+promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+1,F001,¡Oferta Semanal! Lavandina Común 1L,Aprovechá un 15% de descuento en nuestra lavandina para mantener todo impecable.,percent_off,15,1,1,2026-08-17,2026-09-23,true,true
+2,F003,Imperdible: Lavandina Concentrada 1L,Llevate nuestra lavandina concentrada con un descuento de $1000. ¡No te lo pierdas!,total_off,1000,2,1,2026-08-17,2026-09-23,true,true
+3,F008,Promo Especial: Lavavajillas Aloe Vera 750cc,Comprá 3 y pagá solo $1120.24 cada uno. Ideal para tu cocina.,fixed_price,1120.24,1,3,2026-08-17,2026-09-23,true,true
+4,F015,Descuento del 20%: Líquido Desinfectante Pino 900cc,Limpiá y desinfectá tu hogar con un 20% de descuento. ¡Stock limitado!,percent_off,20,3,1,2026-08-17,2026-09-23,true,true

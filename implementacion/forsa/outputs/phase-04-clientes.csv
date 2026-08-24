@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Almacén La Esquina,Almacén La Esquina,5493587905250,2,1,lunes,martes,"Zona ZONA NOROESTE - Barrio Alta Córdoba - Córdoba Capital, Córdoba, Argentina",Juan Pérez,0,0,-31.345877,-64.270159,true
+2,Kiosco El Rincón,Kiosco El Rincón,5493582641213,3,2,lunes,martes,"Zona ZONA NOROESTE - Barrio Alta Córdoba - Córdoba Capital, Córdoba, Argentina",Juan Pérez,0,0,-31.345916,-64.264262,true
+3,Distribuidora La Familia,Distribuidora La Familia,5492991227644,4,3,lunes,martes,"Zona ZONA NOROESTE - Barrio Alta Córdoba - Córdoba Capital, Córdoba, Argentina",Juan Pérez,0,0,-31.345723,-64.270374,true
+4,Panadería El Buen Pan,Panadería El Buen Pan,5493418277249,1,4,lunes,martes,"Zona ZONA NOROESTE - Barrio Alta Córdoba - Córdoba Capital, Córdoba, Argentina",Juan Pérez,0,0,-31.348481,-64.266747,true
+5,Golosinas y Snacks El Sabor,Golosinas y Snacks El Sabor,5493587747641,2,5,lunes,martes,"Zona ZONA NOROESTE - Barrio Alta Córdoba - Córdoba Capital, Córdoba, Argentina",Juan Pérez,0,0,-31.348717,-64.26736,true
+6,Cigarrillos y Más,Cigarrillos y Más,5492614053074,3,6,lunes,martes,"Zona ZONA NOROESTE - Barrio Alta Córdoba - Córdoba Capital, Córdoba, Argentina",Juan Pérez,0,0,-31.349479,-64.261199,true
+7,Limpieza Total,Limpieza Total,5493514079279,4,7,lunes,martes,"Zona ZONA NOROESTE - Barrio Alta Córdoba - Córdoba Capital, Córdoba, Argentina",Juan Pérez,0,0,-31.348859,-64.261938,true
+8,Almacén del Barrio,Almacén del Barrio,5493876914178,1,8,lunes,martes,"Zona ZONA NOROESTE - Barrio Alta Córdoba - Córdoba Capital, Córdoba, Argentina",Juan Pérez,0,0,-31.350224,-64.268674,true
+9,Kiosco La Amistad,Kiosco La Amistad,5492617175545,2,9,lunes,martes,"Zona ZONA NOROESTE - Barrio Alta Córdoba - Córdoba Capital, Córdoba, Argentina",Juan Pérez,0,0,-31.345131,-64.262955,true
+10,Bebidas y Alimentos,Bebidas y Alimentos,5493818437953,3,10,martes,miercoles,"Zona ZONA NORTE - Barrio General Paz - Córdoba Capital, Córdoba, Argentina",María González,1,1,-31.349646,-64.24849,true
+11,Distribuidora El Sol,Distribuidora El Sol,5493582132179,4,11,martes,miercoles,"Zona ZONA NORTE - Barrio General Paz - Córdoba Capital, Córdoba, Argentina",María González,1,1,-31.343908,-64.243879,true
+12,Panadería La Tradición,Panadería La Tradición,5493872845902,1,12,martes,miercoles,"Zona ZONA NORTE - Barrio General Paz - Córdoba Capital, Córdoba, Argentina",María González,1,1,-31.350108,-64.240967,true
+13,Kiosco La Estrella,Kiosco La Estrella,5492997670210,2,13,martes,miercoles,"Zona ZONA NORTE - Barrio General Paz - Córdoba Capital, Córdoba, Argentina",María González,1,1,-31.346385,-64.249641,true
+14,Almacén El Progreso,Almacén El Progreso,5493811657614,3,14,martes,miercoles,"Zona ZONA NORTE - Barrio General Paz - Córdoba Capital, Córdoba, Argentina",María González,1,1,-31.349677,-64.246215,true
+15,Golosinas El Paraíso,Golosinas El Paraíso,5492994145193,4,15,martes,miercoles,"Zona ZONA NORTE - Barrio General Paz - Córdoba Capital, Córdoba, Argentina",María González,1,1,-31.351151,-64.241512,true
+16,Snacks y Bebidas,Snacks y Bebidas,5493515971311,1,16,martes,miercoles,"Zona ZONA NORTE - Barrio General Paz - Córdoba Capital, Córdoba, Argentina",María González,1,1,-31.346049,-64.250083,true
+17,Cigarrillos La Paz,Cigarrillos La Paz,5492994228106,2,17,martes,miercoles,"Zona ZONA NORTE - Barrio General Paz - Córdoba Capital, Córdoba, Argentina",María González,1,1,-31.34912,-64.247632,true
+18,Limpieza y Hogar,Limpieza y Hogar,5492998718887,3,18,martes,miercoles,"Zona ZONA NORTE - Barrio General Paz - Córdoba Capital, Córdoba, Argentina",María González,1,1,-31.347068,-64.243141,true
+19,Almacén La Nueva,Almacén La Nueva,5492995028869,4,19,miercoles,jueves,"Zona ZONA NORESTE - Barrio Villa El Libertador - Córdoba Capital, Córdoba, Argentina",María González,1,2,-31.344439,-64.230028,true
+20,Kiosco El Abasto,Kiosco El Abasto,5493517304254,1,20,miercoles,jueves,"Zona ZONA NORESTE - Barrio Villa El Libertador - Córdoba Capital, Córdoba, Argentina",María González,1,2,-31.344148,-64.224786,true
+21,Distribuidora La Unión,Distribuidora La Unión,5493416986538,2,21,miercoles,jueves,"Zona ZONA NORESTE - Barrio Villa El Libertador - Córdoba Capital, Córdoba, Argentina",María González,1,2,-31.351752,-64.227283,true
+22,Panadería El Pan Caliente,Panadería El Pan Caliente,5492619239862,3,22,miercoles,jueves,"Zona ZONA NORESTE - Barrio Villa El Libertador - Córdoba Capital, Córdoba, Argentina",María González,1,2,-31.350582,-64.226252,true
+23,Golosinas y Snacks del Centro,Golosinas y Snacks del Centro,5493513952681,4,23,miercoles,jueves,"Zona ZONA NORESTE - Barrio Villa El Libertador - Córdoba Capital, Córdoba, Argentina",María González,1,2,-31.345551,-64.228918,true
+24,Cigarrillos y Más,Cigarrillos y Más,5493414799650,1,24,miercoles,jueves,"Zona ZONA NORESTE - Barrio Villa El Libertador - Córdoba Capital, Córdoba, Argentina",María González,1,2,-31.349886,-64.227061,true
+25,Limpieza y Aseo,Limpieza y Aseo,5492992500733,2,25,miercoles,jueves,"Zona ZONA NORESTE - Barrio Villa El Libertador - Córdoba Capital, Córdoba, Argentina",María González,1,2,-31.347162,-64.223346,true
+26,Almacén El Buen Gusto,Almacén El Buen Gusto,5492615139305,3,26,miercoles,jueves,"Zona ZONA NORESTE - Barrio Villa El Libertador - Córdoba Capital, Córdoba, Argentina",María González,1,2,-31.350348,-64.226097,true
+27,Kiosco La Alegría,Kiosco La Alegría,5492618861463,4,27,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Vicente - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,3,-31.370472,-64.263881,true
+28,Bebidas y Snacks,Bebidas y Snacks,5493812941974,1,28,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Vicente - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,3,-31.370083,-64.267037,true
+29,Distribuidora La Esperanza,Distribuidora La Esperanza,5493817404433,2,29,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Vicente - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,3,-31.365323,-64.265978,true
+30,Panadería La Abundancia,Panadería La Abundancia,5493419686914,3,30,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Vicente - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,3,-31.365306,-64.269715,true
+31,Kiosco El Saborcito,Kiosco El Saborcito,5493518648263,4,31,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Vicente - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,3,-31.37003,-64.262216,true
+32,Almacén La Preferida,Almacén La Preferida,5493516216782,1,32,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Vicente - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,3,-31.369721,-64.262468,true
+33,Golosinas y Más,Golosinas y Más,5492612780568,2,33,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Vicente - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,3,-31.371983,-64.267004,true
+34,Snacks del Barrio,Snacks del Barrio,5493582639964,3,34,jueves,viernes,"Zona ZONA SUROESTE - Barrio San Vicente - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,3,-31.365836,-64.266158,true
+35,Cigarrillos La Libertad,Cigarrillos La Libertad,5493814729528,4,35,viernes,sabado,"Zona ZONA SUR - Barrio Nueva Córdoba - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.368476,-64.248469,true
+36,Limpieza y Cuidado,Limpieza y Cuidado,5493876922419,1,36,viernes,sabado,"Zona ZONA SUR - Barrio Nueva Córdoba - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.372035,-64.24542,true
+37,Almacén La Amistad,Almacén La Amistad,5492618889598,2,37,viernes,sabado,"Zona ZONA SUR - Barrio Nueva Córdoba - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.366374,-64.24654,true
+38,Kiosco El Cielo,Kiosco El Cielo,5492615021286,3,38,viernes,sabado,"Zona ZONA SUR - Barrio Nueva Córdoba - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.367512,-64.250734,true
+39,Distribuidora El Éxito,Distribuidora El Éxito,5493813520000,4,39,viernes,sabado,"Zona ZONA SUR - Barrio Nueva Córdoba - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.370512,-64.24958,true
+40,Panadería La Delicia,Panadería La Delicia,5492997489876,1,40,viernes,sabado,"Zona ZONA SUR - Barrio Nueva Córdoba - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.365889,-64.249406,true
+41,Golosinas y Snacks La Riqueza,Golosinas y Snacks La Riqueza,5493519107005,2,41,viernes,sabado,"Zona ZONA SUR - Barrio Nueva Córdoba - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.369465,-64.248558,true
+42,Cigarrillos y Bebidas,Cigarrillos y Bebidas,5493874104594,3,42,viernes,sabado,"Zona ZONA SUR - Barrio Nueva Córdoba - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,4,-31.36438,-64.245645,true
+43,Limpieza y Más,Limpieza y Más,5492617413812,4,43,sabado,lunes,"Zona ZONA SURESTE - Barrio Cofico - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.370127,-64.229194,true
+44,Almacén El Refugio,Almacén El Refugio,5492617236955,1,44,sabado,lunes,"Zona ZONA SURESTE - Barrio Cofico - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.370587,-64.222845,true
+45,Kiosco La Sorpresa,Kiosco La Sorpresa,5492612928724,2,45,sabado,lunes,"Zona ZONA SURESTE - Barrio Cofico - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.367299,-64.226703,true
+46,Distribuidora La Brisa,Distribuidora La Brisa,5492999435946,3,46,sabado,lunes,"Zona ZONA SURESTE - Barrio Cofico - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.371998,-64.225011,true
+47,Panadería El Aroma,Panadería El Aroma,5493517632424,4,47,sabado,lunes,"Zona ZONA SURESTE - Barrio Cofico - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.36905,-64.229667,true
+48,Golosinas y Snacks La Alegría,Golosinas y Snacks La Alegría,5493416524997,1,48,sabado,lunes,"Zona ZONA SURESTE - Barrio Cofico - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.364462,-64.226816,true
+49,Cigarrillos y Aseo,Cigarrillos y Aseo,5493876499570,2,49,sabado,lunes,"Zona ZONA SURESTE - Barrio Cofico - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.372492,-64.230177,true
+50,Limpieza y Comodidad,Limpieza y Comodidad,5492998066543,3,50,sabado,lunes,"Zona ZONA SURESTE - Barrio Cofico - Córdoba Capital, Córdoba, Argentina",Carlos Rodríguez,2,5,-31.371884,-64.225181,true

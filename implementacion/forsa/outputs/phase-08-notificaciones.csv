@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2215,Calidad,open,Reclamo por ROLLO COCINA X3X50P con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego ROLLO COCINA X3X50P en mal estado y quiero hacer el reclamo.",2026-08-24 11:15:00,,true
+TKT-2216,Calidad,open,Reclamo por YERBA PLAYADITO 1U X 500GR con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego YERBA PLAYADITO 1U X 500GR en mal estado y quiero hacer el reclamo.",2026-08-23 08:15:00,,true
+TKT-2217,Calidad,open,Reclamo por LAVANDINA COMUN X 1 LT X 1 SEDILE con entrega en mal estado o faltante parcial.,5493418277249,"Hola, me llego LAVANDINA COMUN X 1 LT X 1 SEDILE en mal estado y quiero hacer el reclamo.",2026-08-22 05:15:00,,true
+TKT-2218,Logistica,open,Demora en la entrega del pedido P-00082 de MARLBORO BOX 20.,5492612928724,"Buen dia, sigo esperando el pedido P-00082 de MARLBORO BOX 20 y no llego.",2026-08-24 02:15:00,,true
+TKT-2219,Logistica,open,Demora en la entrega del pedido P-00084 de FIDEO TIRABUZON SANTA ISABEL 1U X 500GR.,5492617236955,"Buen dia, sigo esperando el pedido P-00084 de FIDEO TIRABUZON SANTA ISABEL 1U X 500GR y no llego.",2026-08-23 11:15:00,,true
+TKT-2220,Logistica,open,Demora en la entrega del pedido P-00086 de MARLBORO PURPLE 12.,5492617413812,"Buen dia, sigo esperando el pedido P-00086 de MARLBORO PURPLE 12 y no llego.",2026-08-22 08:15:00,,true
+TKT-2221,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Almacén La Esquina.,5493587905250,,2026-08-24 05:15:00,,true
+TKT-2222,Administracion,open,Solicita corregir datos administrativos de Kiosco El Rincón en el sistema.,5493582641213,,2026-08-23 02:15:00,,true
+TKT-2223,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Panadería El Buen Pan.,5493418277249,,2026-08-22 11:15:00,,true
+TKT-2224,Administracion,open,Solicita corregir datos administrativos de Kiosco La Sorpresa en el sistema.,5492612928724,,2026-08-24 08:15:00,,true
+TKT-2225,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Almacén El Refugio.,5492617236955,,2026-08-23 05:15:00,,true
+TKT-2226,Administracion,closed,Solicita corregir datos administrativos de Limpieza y Más en el sistema.,5492617413812,,2026-08-08 05:15:00,2026-08-08 20:15:00,true
+TKT-2227,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Limpieza y Comodidad.,5492998066543,,2026-08-07 11:15:00,2026-08-08 03:15:00,true
+TKT-2228,Logistica,closed,Demora en la entrega del pedido P-00104 de ALOE VERA LAVAVAJILLAS 1 X 750CC ESENCIAL.,5492991227644,,2026-08-06 09:15:00,2026-08-07 02:15:00,true
+TKT-2229,Calidad,closed,Reclamo por TAKIS FUEGO 1 P 140 G FLOW BAR EXP con entrega en mal estado o faltante parcial.,5493587747641,,2026-08-05 07:15:00,2026-08-06 01:15:00,true
+TKT-2230,Administracion,closed,Solicita corregir datos administrativos de Cigarrillos y Más en el sistema.,5492614053074,,2026-08-04 05:15:00,2026-08-05 00:15:00,true
+TKT-2231,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Distribuidora La Brisa.,5492999435946,,2026-08-19 11:15:00,2026-08-20 07:15:00,true
+TKT-2232,Logistica,closed,Demora en la entrega del pedido P-00092 de LUCKY RED 20.,5493416524997,,2026-08-18 09:15:00,2026-08-19 06:15:00,true

@@ -1,0 +1,211 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5492612780568,5492612780568,ai,ai,"Hola Golosinas y Más, paso a revisar tu pedido P-00066 de YERBA PLAYADITO 1U X 1KG.","Hola Golosinas y Más, paso a revisar tu pedido P-00066 de YERBA PLAYADITO 1U X 1KG.",2026-08-23 15:37:21,true
+5492612780568,5492612780568,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 15:39:08,true
+5492612780568,5492612780568,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 4657.50.,Te confirmo que el pedido P-00066 fue registrado correctamente por 4657.50.,2026-08-23 15:40:30,true
+5492612780568,5492612780568,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 15:41:30,true
+5492612928724,5492612928724,ai,ai,"Hola Kiosco La Sorpresa, paso a revisar tu pedido P-00082 de MARLBORO BOX 20.","Hola Kiosco La Sorpresa, paso a revisar tu pedido P-00082 de MARLBORO BOX 20.",2026-08-24 17:37:21,true
+5492612928724,5492612928724,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-24 17:38:17,true
+5492612928724,5492612928724,ai,ai,Te confirmo que el pedido P-00082 fue registrado correctamente por 61369.75.,Te confirmo que el pedido P-00082 fue registrado correctamente por 61369.75.,2026-08-24 17:38:58,true
+5492612928724,5492612928724,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-24 17:40:00,true
+5492612928724,5492612928724,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-24 17:40:44,true
+5492614053074,5492614053074,ai,ai,"Hola Cigarrillos y Más, vi que tenes un pedido abierto por LIQ DESINF 1 X900CC ESENCIAL PINO y queria ayudarte a cerrarlo.","Hola Cigarrillos y Más, vi que tenes un pedido abierto por LIQ DESINF 1 X900CC ESENCIAL PINO y queria ayudarte a cerrarlo.",2026-08-24 14:37:21,true
+5492614053074,5492614053074,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-24 14:39:14,true
+5492614053074,5492614053074,ai,ai,Te confirmo que el pedido P-00106 sigue en curso por un total de 4653.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00106 sigue en curso por un total de 4653.00. Si queres te lo dejo cerrado hoy.,2026-08-24 14:40:06,true
+5492614053074,5492614053074,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-24 14:41:25,true
+5492614053074,5492614053074,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-24 14:42:45,true
+5492615021286,5492615021286,ai,ai,"Hola Kiosco El Cielo, paso a revisar tu pedido P-00075 de PAPEL HIG. X 1 X 50MTS.","Hola Kiosco El Cielo, paso a revisar tu pedido P-00075 de PAPEL HIG. X 1 X 50MTS.",2026-08-22 15:37:21,true
+5492615021286,5492615021286,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 15:38:15,true
+5492615021286,5492615021286,ai,ai,Te confirmo que el pedido P-00075 fue registrado correctamente por 4896.00.,Te confirmo que el pedido P-00075 fue registrado correctamente por 4896.00.,2026-08-22 15:39:34,true
+5492615021286,5492615021286,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 15:40:09,true
+5492615139305,5492615139305,ai,ai,"Hola Almacén El Buen Gusto, paso a revisar tu pedido P-00051 de LUCKY RED 20.","Hola Almacén El Buen Gusto, paso a revisar tu pedido P-00051 de LUCKY RED 20.",2026-08-22 17:37:21,true
+5492615139305,5492615139305,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 17:38:17,true
+5492615139305,5492615139305,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 5886.00.,Te confirmo que el pedido P-00051 fue registrado correctamente por 5886.00.,2026-08-22 17:38:50,true
+5492615139305,5492615139305,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 17:39:44,true
+5492617175545,5492617175545,ai,ai,"Hola Kiosco La Amistad, paso a revisar tu pedido P-00018 de MARLBORO BOX 20.","Hola Kiosco La Amistad, paso a revisar tu pedido P-00018 de MARLBORO BOX 20.",2026-08-23 14:37:21,true
+5492617175545,5492617175545,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 14:38:48,true
+5492617175545,5492617175545,ai,ai,Te confirmo que el pedido P-00018 fue registrado correctamente por 7291.00.,Te confirmo que el pedido P-00018 fue registrado correctamente por 7291.00.,2026-08-23 14:39:40,true
+5492617175545,5492617175545,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 14:40:50,true
+5492617236955,5492617236955,ai,ai,"Hola Almacén El Refugio, paso a revisar tu pedido P-00084 de FIDEO TIRABUZON SANTA ISABEL 1U X 500GR.","Hola Almacén El Refugio, paso a revisar tu pedido P-00084 de FIDEO TIRABUZON SANTA ISABEL 1U X 500GR.",2026-08-24 16:37:21,true
+5492617236955,5492617236955,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-24 16:39:08,true
+5492617236955,5492617236955,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 4730.00.,Te confirmo que el pedido P-00084 fue registrado correctamente por 4730.00.,2026-08-24 16:40:29,true
+5492617236955,5492617236955,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-24 16:41:47,true
+5492617236955,5492617236955,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-24 16:42:59,true
+5492617413812,5492617413812,ai,ai,"Hola Limpieza y Más, paso a revisar tu pedido P-00086 de MARLBORO PURPLE 12.","Hola Limpieza y Más, paso a revisar tu pedido P-00086 de MARLBORO PURPLE 12.",2026-08-24 15:37:21,true
+5492617413812,5492617413812,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-24 15:38:42,true
+5492617413812,5492617413812,ai,ai,Te confirmo que el pedido P-00086 fue registrado correctamente por 36562.75.,Te confirmo que el pedido P-00086 fue registrado correctamente por 36562.75.,2026-08-24 15:39:29,true
+5492617413812,5492617413812,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-24 15:41:13,true
+5492617413812,5492617413812,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-24 15:41:51,true
+5492618861463,5492618861463,ai,ai,"Hola Kiosco La Alegría, paso a revisar tu pedido P-00053 de ROLLO COCINA X3X50P.","Hola Kiosco La Alegría, paso a revisar tu pedido P-00053 de ROLLO COCINA X3X50P.",2026-08-23 16:37:21,true
+5492618861463,5492618861463,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 16:38:18,true
+5492618861463,5492618861463,ai,ai,Te confirmo que el pedido P-00053 fue registrado correctamente por 13251.50.,Te confirmo que el pedido P-00053 fue registrado correctamente por 13251.50.,2026-08-23 16:39:34,true
+5492618861463,5492618861463,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 16:40:47,true
+5492618889598,5492618889598,ai,ai,"Hola Almacén La Amistad, paso a revisar tu pedido P-00074 de ALFAJOR GENIO TRIPLE NEGRO X 24U.","Hola Almacén La Amistad, paso a revisar tu pedido P-00074 de ALFAJOR GENIO TRIPLE NEGRO X 24U.",2026-08-23 16:37:21,true
+5492618889598,5492618889598,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 16:38:38,true
+5492618889598,5492618889598,ai,ai,Te confirmo que el pedido P-00074 fue registrado correctamente por 18239.00.,Te confirmo que el pedido P-00074 fue registrado correctamente por 18239.00.,2026-08-23 16:39:50,true
+5492618889598,5492618889598,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 16:40:52,true
+5492619239862,5492619239862,ai,ai,"Hola Panadería El Pan Caliente, paso a revisar tu pedido P-00044 de ROLLO COCINA X3X50P.","Hola Panadería El Pan Caliente, paso a revisar tu pedido P-00044 de ROLLO COCINA X3X50P.",2026-08-22 16:37:21,true
+5492619239862,5492619239862,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 16:38:29,true
+5492619239862,5492619239862,ai,ai,Te confirmo que el pedido P-00044 fue registrado correctamente por 8245.80.,Te confirmo que el pedido P-00044 fue registrado correctamente por 8245.80.,2026-08-22 16:39:23,true
+5492619239862,5492619239862,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 16:39:56,true
+5492991227644,5492991227644,ai,ai,"Hola Distribuidora La Familia, vi que tenes un pedido abierto por ALOE VERA LAVAVAJILLAS 1 X 750CC ESENCIAL y queria ayudarte a cerrarlo.","Hola Distribuidora La Familia, vi que tenes un pedido abierto por ALOE VERA LAVAVAJILLAS 1 X 750CC ESENCIAL y queria ayudarte a cerrarlo.",2026-08-24 17:37:21,true
+5492991227644,5492991227644,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-24 17:38:48,true
+5492991227644,5492991227644,ai,ai,Te confirmo que el pedido P-00104 sigue en curso por un total de 11448.65. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00104 sigue en curso por un total de 11448.65. Si queres te lo dejo cerrado hoy.,2026-08-24 17:40:09,true
+5492991227644,5492991227644,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-24 17:42:04,true
+5492991227644,5492991227644,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-24 17:43:19,true
+5492992500733,5492992500733,ai,ai,"Hola Limpieza y Aseo, paso a revisar tu pedido P-00049 de ARROZ MITAI CALIDAD 0000.","Hola Limpieza y Aseo, paso a revisar tu pedido P-00049 de ARROZ MITAI CALIDAD 0000.",2026-08-23 13:37:21,true
+5492992500733,5492992500733,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 13:38:19,true
+5492992500733,5492992500733,ai,ai,Te confirmo que el pedido P-00049 fue registrado correctamente por 16623.25.,Te confirmo que el pedido P-00049 fue registrado correctamente por 16623.25.,2026-08-23 13:39:39,true
+5492992500733,5492992500733,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 13:40:44,true
+5492994145193,5492994145193,ai,ai,"Hola Golosinas El Paraíso, paso a revisar tu pedido P-00030 de YERBA PLAYADITO 1U X 1KG.","Hola Golosinas El Paraíso, paso a revisar tu pedido P-00030 de YERBA PLAYADITO 1U X 1KG.",2026-08-23 13:37:21,true
+5492994145193,5492994145193,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 13:38:43,true
+5492994145193,5492994145193,ai,ai,Te confirmo que el pedido P-00030 fue registrado correctamente por 10327.50.,Te confirmo que el pedido P-00030 fue registrado correctamente por 10327.50.,2026-08-23 13:39:54,true
+5492994145193,5492994145193,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 13:41:14,true
+5492994228106,5492994228106,ai,ai,"Hola Cigarrillos La Paz, paso a revisar tu pedido P-00034 de PAPEL HIG. X 1 X 50MTS.","Hola Cigarrillos La Paz, paso a revisar tu pedido P-00034 de PAPEL HIG. X 1 X 50MTS.",2026-08-23 16:37:21,true
+5492994228106,5492994228106,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 16:38:18,true
+5492994228106,5492994228106,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 8987.25.,Te confirmo que el pedido P-00034 fue registrado correctamente por 8987.25.,2026-08-23 16:39:35,true
+5492994228106,5492994228106,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 16:40:33,true
+5492995028869,5492995028869,ai,ai,"Hola Almacén La Nueva, paso a revisar tu pedido P-00038 de ARROZ MITAI CALIDAD 0000.","Hola Almacén La Nueva, paso a revisar tu pedido P-00038 de ARROZ MITAI CALIDAD 0000.",2026-08-23 14:37:21,true
+5492995028869,5492995028869,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 14:38:16,true
+5492995028869,5492995028869,ai,ai,Te confirmo que el pedido P-00038 fue registrado correctamente por 9860.00.,Te confirmo que el pedido P-00038 fue registrado correctamente por 9860.00.,2026-08-23 14:38:54,true
+5492995028869,5492995028869,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 14:39:32,true
+5492997489876,5492997489876,ai,ai,"Hola Panadería La Delicia, paso a revisar tu pedido P-00079 de LIQ P LAVAR ROPA 1 X800 CLOW.","Hola Panadería La Delicia, paso a revisar tu pedido P-00079 de LIQ P LAVAR ROPA 1 X800 CLOW.",2026-08-22 13:37:21,true
+5492997489876,5492997489876,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 13:38:30,true
+5492997489876,5492997489876,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 26930.00.,Te confirmo que el pedido P-00079 fue registrado correctamente por 26930.00.,2026-08-22 13:39:35,true
+5492997489876,5492997489876,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 13:40:18,true
+5492997670210,5492997670210,ai,ai,"Hola Kiosco La Estrella, paso a revisar tu pedido P-00025 de TAKIS FUEGO 1 P 140 G FLOW BAR EXP.","Hola Kiosco La Estrella, paso a revisar tu pedido P-00025 de TAKIS FUEGO 1 P 140 G FLOW BAR EXP.",2026-08-23 15:37:21,true
+5492997670210,5492997670210,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 15:39:10,true
+5492997670210,5492997670210,ai,ai,Te confirmo que el pedido P-00025 fue registrado correctamente por 20090.50.,Te confirmo que el pedido P-00025 fue registrado correctamente por 20090.50.,2026-08-23 15:40:26,true
+5492997670210,5492997670210,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 15:41:42,true
+5492998066543,5492998066543,ai,ai,"Hola Limpieza y Comodidad, paso a revisar tu pedido P-00088 de YERBA PLAYADITO 1U X 500GR.","Hola Limpieza y Comodidad, paso a revisar tu pedido P-00088 de YERBA PLAYADITO 1U X 500GR.",2026-08-24 14:37:21,true
+5492998066543,5492998066543,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-24 14:38:47,true
+5492998066543,5492998066543,ai,ai,Te confirmo que el pedido P-00088 fue registrado correctamente por 10795.50.,Te confirmo que el pedido P-00088 fue registrado correctamente por 10795.50.,2026-08-24 14:39:24,true
+5492998066543,5492998066543,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-24 14:40:23,true
+5492998066543,5492998066543,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-24 14:41:24,true
+5492998718887,5492998718887,ai,ai,"Hola Limpieza y Hogar, paso a revisar tu pedido P-00036 de FIDEO TIRABUZON SANTA ISABEL 1U X 500GR.","Hola Limpieza y Hogar, paso a revisar tu pedido P-00036 de FIDEO TIRABUZON SANTA ISABEL 1U X 500GR.",2026-08-22 15:37:21,true
+5492998718887,5492998718887,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 15:38:13,true
+5492998718887,5492998718887,ai,ai,Te confirmo que el pedido P-00036 fue registrado correctamente por 14764.50.,Te confirmo que el pedido P-00036 fue registrado correctamente por 14764.50.,2026-08-22 15:38:58,true
+5492998718887,5492998718887,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 15:39:57,true
+5492999435946,5492999435946,ai,ai,"Hola Distribuidora La Brisa, paso a revisar tu pedido P-00090 de BELDENT FRUTILLA X 20UN.","Hola Distribuidora La Brisa, paso a revisar tu pedido P-00090 de BELDENT FRUTILLA X 20UN.",2026-08-23 13:37:21,true
+5492999435946,5492999435946,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 13:39:13,true
+5492999435946,5492999435946,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 25182.00.,Te confirmo que el pedido P-00090 fue registrado correctamente por 25182.00.,2026-08-23 13:40:09,true
+5492999435946,5492999435946,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 13:41:12,true
+5493414799650,5493414799650,ai,ai,"Hola Cigarrillos y Más, paso a revisar tu pedido P-00048 de YERBA PLAYADITO 1U X 1KG.","Hola Cigarrillos y Más, paso a revisar tu pedido P-00048 de YERBA PLAYADITO 1U X 1KG.",2026-08-22 14:37:21,true
+5493414799650,5493414799650,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 14:38:20,true
+5493414799650,5493414799650,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 21400.00.,Te confirmo que el pedido P-00048 fue registrado correctamente por 21400.00.,2026-08-22 14:39:33,true
+5493414799650,5493414799650,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 14:40:58,true
+5493416524997,5493416524997,ai,ai,"Hola Golosinas y Snacks La Alegría, paso a revisar tu pedido P-00092 de LUCKY RED 20.","Hola Golosinas y Snacks La Alegría, paso a revisar tu pedido P-00092 de LUCKY RED 20.",2026-08-22 17:37:21,true
+5493416524997,5493416524997,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 17:38:55,true
+5493416524997,5493416524997,ai,ai,Te confirmo que el pedido P-00092 fue registrado correctamente por 24945.00.,Te confirmo que el pedido P-00092 fue registrado correctamente por 24945.00.,2026-08-22 17:39:58,true
+5493416524997,5493416524997,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 17:40:29,true
+5493416986538,5493416986538,ai,ai,"Hola Distribuidora La Unión, paso a revisar tu pedido P-00042 de RAPIDITAS CLASIC 1U X 240GR.","Hola Distribuidora La Unión, paso a revisar tu pedido P-00042 de RAPIDITAS CLASIC 1U X 240GR.",2026-08-23 17:37:21,true
+5493416986538,5493416986538,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 17:38:47,true
+5493416986538,5493416986538,ai,ai,Te confirmo que el pedido P-00042 fue registrado correctamente por 28750.00.,Te confirmo que el pedido P-00042 fue registrado correctamente por 28750.00.,2026-08-23 17:39:31,true
+5493416986538,5493416986538,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 17:40:48,true
+5493418277249,5493418277249,ai,ai,"Hola Panadería El Buen Pan, vi que tenes un pedido abierto por LAVANDINA COMUN X 1 LT X 1 SEDILE y queria ayudarte a cerrarlo.","Hola Panadería El Buen Pan, vi que tenes un pedido abierto por LAVANDINA COMUN X 1 LT X 1 SEDILE y queria ayudarte a cerrarlo.",2026-08-24 16:37:21,true
+5493418277249,5493418277249,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-24 16:38:07,true
+5493418277249,5493418277249,ai,ai,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,2026-08-24 16:38:47,true
+5493418277249,5493418277249,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-24 16:40:14,true
+5493418277249,5493418277249,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-24 16:41:20,true
+5493419686914,5493419686914,ai,ai,"Hola Panadería La Abundancia, paso a revisar tu pedido P-00060 de ARROZ MITAI CALIDAD 0000.","Hola Panadería La Abundancia, paso a revisar tu pedido P-00060 de ARROZ MITAI CALIDAD 0000.",2026-08-22 13:37:21,true
+5493419686914,5493419686914,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 13:39:13,true
+5493419686914,5493419686914,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 1980.00.,Te confirmo que el pedido P-00060 fue registrado correctamente por 1980.00.,2026-08-22 13:40:22,true
+5493419686914,5493419686914,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 13:41:11,true
+5493513952681,5493513952681,ai,ai,"Hola Golosinas y Snacks del Centro, paso a revisar tu pedido P-00046 de FIDEO SPAGHETTI MAROLIO 1U X 500GR.","Hola Golosinas y Snacks del Centro, paso a revisar tu pedido P-00046 de FIDEO SPAGHETTI MAROLIO 1U X 500GR.",2026-08-23 15:37:21,true
+5493513952681,5493513952681,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 15:38:32,true
+5493513952681,5493513952681,ai,ai,Te confirmo que el pedido P-00046 fue registrado correctamente por 10616.50.,Te confirmo que el pedido P-00046 fue registrado correctamente por 10616.50.,2026-08-23 15:39:20,true
+5493513952681,5493513952681,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 15:40:14,true
+5493514079279,5493514079279,ai,ai,"Hola Limpieza Total, paso a revisar tu pedido P-00014 de LIQ DESINF 1 X900CC ESENCIAL PINO.","Hola Limpieza Total, paso a revisar tu pedido P-00014 de LIQ DESINF 1 X900CC ESENCIAL PINO.",2026-08-23 16:37:21,true
+5493514079279,5493514079279,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 16:39:08,true
+5493514079279,5493514079279,ai,ai,Te confirmo que el pedido P-00014 fue registrado correctamente por 26921.20.,Te confirmo que el pedido P-00014 fue registrado correctamente por 26921.20.,2026-08-23 16:39:54,true
+5493514079279,5493514079279,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 16:40:38,true
+5493515971311,5493515971311,ai,ai,"Hola Snacks y Bebidas, paso a revisar tu pedido P-00032 de MARLBORO BOX 20.","Hola Snacks y Bebidas, paso a revisar tu pedido P-00032 de MARLBORO BOX 20.",2026-08-22 17:37:21,true
+5493515971311,5493515971311,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 17:38:34,true
+5493515971311,5493515971311,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 31000.00.,Te confirmo que el pedido P-00032 fue registrado correctamente por 31000.00.,2026-08-22 17:39:33,true
+5493515971311,5493515971311,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 17:40:55,true
+5493516216782,5493516216782,ai,ai,"Hola Almacén La Preferida, paso a revisar tu pedido P-00064 de LIQ P LAVAR ROPA 1 X800 CLOW.","Hola Almacén La Preferida, paso a revisar tu pedido P-00064 de LIQ P LAVAR ROPA 1 X800 CLOW.",2026-08-22 16:37:21,true
+5493516216782,5493516216782,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 16:38:21,true
+5493516216782,5493516216782,ai,ai,Te confirmo que el pedido P-00064 fue registrado correctamente por 4431.00.,Te confirmo que el pedido P-00064 fue registrado correctamente por 4431.00.,2026-08-22 16:39:36,true
+5493516216782,5493516216782,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 16:40:07,true
+5493517304254,5493517304254,ai,ai,"Hola Kiosco El Abasto, paso a revisar tu pedido P-00040 de JUGO DE NARANJA PURA FRUTTA 1U X 1LT.","Hola Kiosco El Abasto, paso a revisar tu pedido P-00040 de JUGO DE NARANJA PURA FRUTTA 1U X 1LT.",2026-08-22 13:37:21,true
+5493517304254,5493517304254,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 13:38:26,true
+5493517304254,5493517304254,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 22830.00.,Te confirmo que el pedido P-00040 fue registrado correctamente por 22830.00.,2026-08-22 13:39:54,true
+5493517304254,5493517304254,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 13:40:32,true
+5493517632424,5493517632424,ai,ai,"Hola Panadería El Aroma, paso a revisar tu pedido P-00094 de ALOE VERA LAVAVAJILLAS 1 X 750CC ESENCIAL.","Hola Panadería El Aroma, paso a revisar tu pedido P-00094 de ALOE VERA LAVAVAJILLAS 1 X 750CC ESENCIAL.",2026-08-23 16:37:21,true
+5493517632424,5493517632424,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 16:39:02,true
+5493517632424,5493517632424,ai,ai,Te confirmo que el pedido P-00094 fue registrado correctamente por 1082.05.,Te confirmo que el pedido P-00094 fue registrado correctamente por 1082.05.,2026-08-23 16:39:38,true
+5493517632424,5493517632424,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 16:40:13,true
+5493518648263,5493518648263,ai,ai,"Hola Kiosco El Saborcito, paso a revisar tu pedido P-00062 de PAN BLANCO 1U X 315GR BOH.","Hola Kiosco El Saborcito, paso a revisar tu pedido P-00062 de PAN BLANCO 1U X 315GR BOH.",2026-08-23 17:37:21,true
+5493518648263,5493518648263,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 17:38:56,true
+5493518648263,5493518648263,ai,ai,Te confirmo que el pedido P-00062 fue registrado correctamente por 1640.50.,Te confirmo que el pedido P-00062 fue registrado correctamente por 1640.50.,2026-08-23 17:39:32,true
+5493518648263,5493518648263,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 17:40:40,true
+5493519107005,5493519107005,ai,ai,"Hola Golosinas y Snacks La Riqueza, paso a revisar tu pedido P-00096 de LIQ P LAVAR ROPA 1 X800 CLOW.","Hola Golosinas y Snacks La Riqueza, paso a revisar tu pedido P-00096 de LIQ P LAVAR ROPA 1 X800 CLOW.",2026-08-22 15:37:21,true
+5493519107005,5493519107005,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 15:39:15,true
+5493519107005,5493519107005,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 15323.75.,Te confirmo que el pedido P-00096 fue registrado correctamente por 15323.75.,2026-08-22 15:39:48,true
+5493519107005,5493519107005,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 15:40:27,true
+5493582132179,5493582132179,ai,ai,"Hola Distribuidora El Sol, paso a revisar tu pedido P-00022 de MARLBORO PURPLE 12.","Hola Distribuidora El Sol, paso a revisar tu pedido P-00022 de MARLBORO PURPLE 12.",2026-08-23 17:37:21,true
+5493582132179,5493582132179,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 17:39:04,true
+5493582132179,5493582132179,ai,ai,Te confirmo que el pedido P-00022 fue registrado correctamente por 12886.00.,Te confirmo que el pedido P-00022 fue registrado correctamente por 12886.00.,2026-08-23 17:40:06,true
+5493582132179,5493582132179,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 17:41:35,true
+5493582639964,5493582639964,ai,ai,"Hola Snacks del Barrio, paso a revisar tu pedido P-00068 de YERBA PLAYADITO 1U X 1KG.","Hola Snacks del Barrio, paso a revisar tu pedido P-00068 de YERBA PLAYADITO 1U X 1KG.",2026-08-22 14:37:21,true
+5493582639964,5493582639964,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 14:38:15,true
+5493582639964,5493582639964,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 3645.00.,Te confirmo que el pedido P-00068 fue registrado correctamente por 3645.00.,2026-08-22 14:38:57,true
+5493582639964,5493582639964,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 14:39:52,true
+5493582641213,5493582641213,ai,ai,"Hola Kiosco El Rincón, vi que tenes un pedido abierto por YERBA PLAYADITO 1U X 500GR y queria ayudarte a cerrarlo.","Hola Kiosco El Rincón, vi que tenes un pedido abierto por YERBA PLAYADITO 1U X 500GR y queria ayudarte a cerrarlo.",2026-08-24 06:37:21,true
+5493582641213,5493582641213,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-24 06:39:12,true
+5493582641213,5493582641213,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-24 06:40:14,true
+5493582641213,5493582641213,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-24 06:41:48,true
+5493582641213,5493582641213,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-24 06:42:18,true
+5493587747641,5493587747641,ai,ai,"Hola Golosinas y Snacks El Sabor, vi que tenes un pedido abierto por TAKIS FUEGO 1 P 140 G FLOW BAR EXP y queria ayudarte a cerrarlo.","Hola Golosinas y Snacks El Sabor, vi que tenes un pedido abierto por TAKIS FUEGO 1 P 140 G FLOW BAR EXP y queria ayudarte a cerrarlo.",2026-08-24 15:37:21,true
+5493587747641,5493587747641,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-24 15:38:36,true
+5493587747641,5493587747641,ai,ai,Te confirmo que el pedido P-00105 sigue en curso por un total de 3737.50. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00105 sigue en curso por un total de 3737.50. Si queres te lo dejo cerrado hoy.,2026-08-24 15:39:30,true
+5493587747641,5493587747641,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-24 15:40:25,true
+5493587747641,5493587747641,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-24 15:41:01,true
+5493587905250,5493587905250,ai,ai,"Hola Almacén La Esquina, vi que tenes un pedido abierto por ROLLO COCINA X3X50P y queria ayudarte a cerrarlo.","Hola Almacén La Esquina, vi que tenes un pedido abierto por ROLLO COCINA X3X50P y queria ayudarte a cerrarlo.",2026-08-24 07:37:21,true
+5493587905250,5493587905250,human,human,"Hola, queria hacer un reclamo por producto roto o derramado.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-08-24 07:38:52,true
+5493587905250,5493587905250,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-24 07:40:19,true
+5493587905250,5493587905250,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-24 07:41:46,true
+5493587905250,5493587905250,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-24 07:42:24,true
+5493811657614,5493811657614,ai,ai,"Hola Almacén El Progreso, paso a revisar tu pedido P-00027 de ALOE VERA LAVAVAJILLAS 1 X 750CC ESENCIAL.","Hola Almacén El Progreso, paso a revisar tu pedido P-00027 de ALOE VERA LAVAVAJILLAS 1 X 750CC ESENCIAL.",2026-08-22 14:37:21,true
+5493811657614,5493811657614,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 14:39:02,true
+5493811657614,5493811657614,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 23321.70.,Te confirmo que el pedido P-00027 fue registrado correctamente por 23321.70.,2026-08-22 14:39:41,true
+5493811657614,5493811657614,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 14:40:29,true
+5493812941974,5493812941974,ai,ai,"Hola Bebidas y Snacks, paso a revisar tu pedido P-00056 de TAKIS ORIGINAL 1P 49 FLOW BAR EXP.","Hola Bebidas y Snacks, paso a revisar tu pedido P-00056 de TAKIS ORIGINAL 1P 49 FLOW BAR EXP.",2026-08-22 15:37:21,true
+5493812941974,5493812941974,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 15:39:20,true
+5493812941974,5493812941974,ai,ai,Te confirmo que el pedido P-00056 fue registrado correctamente por 4080.00.,Te confirmo que el pedido P-00056 fue registrado correctamente por 4080.00.,2026-08-22 15:40:43,true
+5493812941974,5493812941974,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 15:41:58,true
+5493813520000,5493813520000,ai,ai,"Hola Distribuidora El Éxito, paso a revisar tu pedido P-00077 de LAVANDINA COMUN X 1 LT X 1 SEDILE.","Hola Distribuidora El Éxito, paso a revisar tu pedido P-00077 de LAVANDINA COMUN X 1 LT X 1 SEDILE.",2026-08-23 14:37:21,true
+5493813520000,5493813520000,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 14:38:36,true
+5493813520000,5493813520000,ai,ai,Te confirmo que el pedido P-00077 fue registrado correctamente por 13608.50.,Te confirmo que el pedido P-00077 fue registrado correctamente por 13608.50.,2026-08-23 14:39:49,true
+5493813520000,5493813520000,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 14:40:33,true
+5493814729528,5493814729528,ai,ai,"Hola Cigarrillos La Libertad, paso a revisar tu pedido P-00070 de ALFAJOR GENIO TRIPLE NEGRO X 24U.","Hola Cigarrillos La Libertad, paso a revisar tu pedido P-00070 de ALFAJOR GENIO TRIPLE NEGRO X 24U.",2026-08-23 13:37:21,true
+5493814729528,5493814729528,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 13:38:09,true
+5493814729528,5493814729528,ai,ai,Te confirmo que el pedido P-00070 fue registrado correctamente por 27084.40.,Te confirmo que el pedido P-00070 fue registrado correctamente por 27084.40.,2026-08-23 13:39:33,true
+5493814729528,5493814729528,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 13:40:09,true
+5493817404433,5493817404433,ai,ai,"Hola Distribuidora La Esperanza, paso a revisar tu pedido P-00058 de LAVANDINA CONCENTRADA X 1L X 1 ESENCIAL.","Hola Distribuidora La Esperanza, paso a revisar tu pedido P-00058 de LAVANDINA CONCENTRADA X 1L X 1 ESENCIAL.",2026-08-23 14:37:21,true
+5493817404433,5493817404433,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 14:38:33,true
+5493817404433,5493817404433,ai,ai,Te confirmo que el pedido P-00058 fue registrado correctamente por 11776.00.,Te confirmo que el pedido P-00058 fue registrado correctamente por 11776.00.,2026-08-23 14:39:05,true
+5493817404433,5493817404433,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 14:40:26,true
+5493818437953,5493818437953,ai,ai,"Hola Bebidas y Alimentos, paso a revisar tu pedido P-00020 de TAKIS FUEGO 1 P 140 G FLOW BAR EXP.","Hola Bebidas y Alimentos, paso a revisar tu pedido P-00020 de TAKIS FUEGO 1 P 140 G FLOW BAR EXP.",2026-08-22 13:37:21,true
+5493818437953,5493818437953,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 13:38:10,true
+5493818437953,5493818437953,ai,ai,Te confirmo que el pedido P-00020 fue registrado correctamente por 25560.00.,Te confirmo que el pedido P-00020 fue registrado correctamente por 25560.00.,2026-08-22 13:39:22,true
+5493818437953,5493818437953,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 13:40:10,true
+5493872845902,5493872845902,ai,ai,"Hola Panadería La Tradición, paso a revisar tu pedido P-00023 de PAN BLANCO 1U X 315GR BOH.","Hola Panadería La Tradición, paso a revisar tu pedido P-00023 de PAN BLANCO 1U X 315GR BOH.",2026-08-22 16:37:21,true
+5493872845902,5493872845902,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 16:38:16,true
+5493872845902,5493872845902,ai,ai,Te confirmo que el pedido P-00023 fue registrado correctamente por 23655.00.,Te confirmo que el pedido P-00023 fue registrado correctamente por 23655.00.,2026-08-22 16:39:13,true
+5493872845902,5493872845902,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 16:39:52,true
+5493874104594,5493874104594,ai,ai,"Hola Cigarrillos y Bebidas, paso a revisar tu pedido P-00098 de TAKIS ORIGINAL 1P 49 FLOW BAR EXP.","Hola Cigarrillos y Bebidas, paso a revisar tu pedido P-00098 de TAKIS ORIGINAL 1P 49 FLOW BAR EXP.",2026-08-23 14:37:21,true
+5493874104594,5493874104594,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-23 14:39:07,true
+5493874104594,5493874104594,ai,ai,Te confirmo que el pedido P-00098 fue registrado correctamente por 18504.00.,Te confirmo que el pedido P-00098 fue registrado correctamente por 18504.00.,2026-08-23 14:40:17,true
+5493874104594,5493874104594,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-23 14:41:20,true
+5493876499570,5493876499570,ai,ai,"Hola Cigarrillos y Aseo, paso a revisar tu pedido P-00100 de MARLBORO PURPLE 12.","Hola Cigarrillos y Aseo, paso a revisar tu pedido P-00100 de MARLBORO PURPLE 12.",2026-08-22 13:37:21,true
+5493876499570,5493876499570,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 13:38:43,true
+5493876499570,5493876499570,ai,ai,Te confirmo que el pedido P-00100 fue registrado correctamente por 34574.75.,Te confirmo que el pedido P-00100 fue registrado correctamente por 34574.75.,2026-08-22 13:39:50,true
+5493876499570,5493876499570,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 13:40:57,true
+5493876914178,5493876914178,ai,ai,"Hola Almacén del Barrio, paso a revisar tu pedido P-00016 de TRAPO PISO BLANCO X1X60X50CM.","Hola Almacén del Barrio, paso a revisar tu pedido P-00016 de TRAPO PISO BLANCO X1X60X50CM.",2026-08-22 15:37:21,true
+5493876914178,5493876914178,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 15:38:45,true
+5493876914178,5493876914178,ai,ai,Te confirmo que el pedido P-00016 fue registrado correctamente por 62430.00.,Te confirmo que el pedido P-00016 fue registrado correctamente por 62430.00.,2026-08-22 15:39:30,true
+5493876914178,5493876914178,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 15:40:41,true
+5493876922419,5493876922419,ai,ai,"Hola Limpieza y Cuidado, paso a revisar tu pedido P-00072 de YERBA PLAYADITO 1U X 500GR.","Hola Limpieza y Cuidado, paso a revisar tu pedido P-00072 de YERBA PLAYADITO 1U X 500GR.",2026-08-22 17:37:21,true
+5493876922419,5493876922419,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-22 17:38:08,true
+5493876922419,5493876922419,ai,ai,Te confirmo que el pedido P-00072 fue registrado correctamente por 21945.00.,Te confirmo que el pedido P-00072 fue registrado correctamente por 21945.00.,2026-08-22 17:39:03,true
+5493876922419,5493876922419,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-22 17:39:33,true
