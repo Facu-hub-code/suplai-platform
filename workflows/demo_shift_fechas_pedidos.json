@@ -1,0 +1,66 @@
+{
+  "name": "Demo — shift fechas pedidos (Supabase)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 1 * * *"
+            }
+          ]
+        }
+      },
+      "id": "demo-shift-schedule",
+      "name": "01:00 ART diario",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {},
+      "id": "demo-shift-manual",
+      "name": "Ejecutar manualmente",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 200]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT demo.shift_sales_demo_dates() AS result;",
+        "options": {}
+      },
+      "id": "demo-shift-postgres",
+      "name": "Supabase — shift fechas demo",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [280, 100],
+      "credentials": {
+        "postgres": {
+          "id": "ZMxTKu6BCAdKqOaZ",
+          "name": "Postgres account"
+        }
+      },
+      "notes": "Credential: host pooler.supabase.com, port 6543, database postgres, SSL. Transaction mode. Solo schema demo."
+    }
+  ],
+  "connections": {
+    "01:00 ART diario": {
+      "main": [[{ "node": "Supabase — shift fechas demo", "type": "main", "index": 0 }]]
+    },
+    "Ejecutar manualmente": {
+      "main": [[{ "node": "Supabase — shift fechas demo", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "America/Argentina/Buenos_Aires"
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "pinData": {}
+}

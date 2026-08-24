@@ -1,11 +1,81 @@
-tenant_id: "demo"
-nombre: "Demo"
-ciudad_base: "Rosario, Santa Fe, Argentina"
-rubro: "distribuidora de alimentos"
-coordenadas_centro: [-32.9468, -60.6393]
+# Tenant Demo — videollamadas de ventas (SPEC-035)
+schema_name: "demo"
+nombre_comercial: "Demo"
+tenant_id: "8f8fcf47-c191-4cc7-a7d2-5703d474bb8a"
+ciudad_base: "Ciudad Autónoma de Buenos Aires, Argentina"
+coordenadas_centro: [-34.5885, -58.4545]  # Central Chacarita / Paternal
+rubro: "distribuidora de alimentos y golosinas"
+marca_lider: "COFLER"
+excel_input: ""
+sitio_web: ""
+notas: >
+  Tenant de demos comerciales. Catálogo curado a 250 SKUs, 70 clientes en 5 barrios
+  de CABA, 3 vendedores ficticios. Fechas vivas vía n8n (demo.shift_sales_demo_dates).
+
+blocked:
+  is_mock_migration: false
+
+barrios:
+  - Palermo
+  - Belgrano
+  - Colegiales
+  - Villa Crespo
+  - Caballito
+
+vendedores_objetivo:
+  - { id: 10, nombre: "Lucía Martínez", barrios: [Palermo] }
+  - { id: 11, nombre: "Martín Álvarez", barrios: [Belgrano, Colegiales] }
+  - { id: 12, nombre: "Sofía Romero", barrios: [Villa Crespo, Caballito] }
+
 fases:
-  "00": { estado: "completado" }
-  "01": { estado: "completado" }
-  "02": { estado: "completado" }
-  "03": { estado: "completado" }
-  "04": { estado: "pendiente" }
+  "00":
+    nombre: preflight
+    estado: cargado
+  "01":
+    nombre: catalogo
+    estado: cargado
+    filas_csv: 250
+  "01.1":
+    nombre: tags
+    estado: cargado
+  "01.2":
+    nombre: mejora_descripciones
+    estado: cargado
+  "01.3":
+    nombre: prompt_agente
+    estado: cargado
+  "02":
+    nombre: promociones
+    estado: cargado
+    filas_csv: 6
+  "03":
+    nombre: cross_upsell
+    estado: cargado
+  "04":
+    nombre: red_comercial
+    estado: cargado
+    filas_csv: 70
+  "05":
+    nombre: clientes_flags
+    estado: cargado
+    filas_csv: 70
+  "06":
+    nombre: pedidos
+    estado: cargado
+  "06.1":
+    nombre: field_setup
+    estado: cargado
+    ml_retrained: true
+  "07":
+    nombre: conversaciones
+    estado: cargado
+  "08":
+    nombre: insights
+    estado: cargado
+    filas_csv: 18
+  "09":
+    nombre: e2e_testing
+    estado: pendiente
+  "10":
+    nombre: purga_mock
+    estado: bloqueado

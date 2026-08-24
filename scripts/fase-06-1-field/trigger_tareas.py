@@ -90,12 +90,13 @@ def call_ml_combo(schema: str, cliente_id: int, product_codes: list[str], http: 
     try:
         resp = http.post(
             f"{_ml_base()}/v1/tenants/{schema}/predict-combo",
-            json={"cliente_id": cliente_id, "current_items": product_codes},
+            json={"cliente_id": str(cliente_id)},
             timeout=8.0,
         )
         if resp.status_code == 200:
             data = resp.json()
-            return [r["product_code"] for r in data.get("recommendations", [])[:3]]
+            combo = data.get("combo") or data.get("recommendations") or []
+            return [str(c) if not isinstance(c, dict) else str(c.get("product_code") or "") for c in combo][:3]
     except Exception:
         pass
     return []
@@ -104,17 +105,18 @@ def call_ml_combo(schema: str, cliente_id: int, product_codes: list[str], http: 
 def call_ml_replenishment(schema: str, cliente_id: int, http: httpx.Client) -> list[dict]:
     """Llama /predict-replenishment. Devuelve lista de {product_code, days_until_due}. [] si error."""
     try:
-        resp = http.get(
+        resp = http.post(
             f"{_ml_base()}/v1/tenants/{schema}/predict-replenishment",
-            params={"cliente_id": cliente_id},
+            json={"cliente_id": str(cliente_id)},
             timeout=8.0,
         )
         if resp.status_code == 200:
             data = resp.json()
-            due = [
-                r for r in data.get("predictions", [])
-                if r.get("days_until_due", 999) <= 3
-            ]
+            due = []
+            for r in data.get("predictions") or []:
+                days = r.get("days_remaining", r.get("days_until_due", 999))
+                if days <= 3:
+                    due.append({"product_code": r.get("product_code"), "days_until_due": days})
             return due[:3]
     except Exception:
         pass
