@@ -11,6 +11,7 @@ from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parents[2]
 WF_PATH = ROOT / "workflows" / "demo_shift_fechas_pedidos.json"
+WF_ID = "zBDJRgEDeuJuKe62"
 GEV_ENV = Path("/Users/facundolorenzo/Documents/SuplaiSales/source/test-api-gev/.env")
 
 
@@ -30,13 +31,21 @@ def main() -> None:
     }
     headers = {"X-N8N-API-KEY": key, "Content-Type": "application/json"}
     with httpx.Client(timeout=30.0) as http:
-        listed = http.get(f"{base}/api/v1/workflows", params={"limit": 250}, headers=headers)
-        listed.raise_for_status()
         existing = None
-        for item in (listed.json().get("data") or listed.json() if isinstance(listed.json(), list) else []):
-            if isinstance(item, dict) and item.get("name") == payload["name"]:
-                existing = item
-                break
+        by_id = http.get(f"{base}/api/v1/workflows/{WF_ID}", headers=headers)
+        if by_id.status_code == 200:
+            existing = by_id.json()
+        else:
+            listed = http.get(f"{base}/api/v1/workflows", params={"limit": 250}, headers=headers)
+            listed.raise_for_status()
+            listed_data = listed.json()
+            rows = listed_data.get("data") if isinstance(listed_data, dict) else listed_data
+            for item in rows or []:
+                if not isinstance(item, dict):
+                    continue
+                if item.get("id") == WF_ID or item.get("name") == payload["name"]:
+                    existing = item
+                    break
         if existing:
             r = http.put(f"{base}/api/v1/workflows/{existing['id']}", headers=headers, json=payload)
             print("update", r.status_code, r.text[:400])
@@ -46,8 +55,12 @@ def main() -> None:
         if r.status_code >= 400:
             sys.exit(1)
         data = r.json()
-        print("workflow_id", data.get("id"))
-        print("[INFO] Activar en n8n y pegar credential Postgres pooler 6543 (placeholder CONFIGURE_IN_N8N).")
+        wf_id = data.get("id") or (existing or {}).get("id")
+        print("workflow_id", wf_id)
+        if wf_id:
+            act = http.post(f"{base}/api/v1/workflows/{wf_id}/activate", headers=headers)
+            print("activate", act.status_code, act.text[:200])
+        print("[INFO] Credential Postgres pooler 6543 debe seguir pegada en ambos nodos.")
 
 
 if __name__ == "__main__":

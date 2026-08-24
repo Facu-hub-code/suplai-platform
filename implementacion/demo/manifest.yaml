@@ -9,8 +9,10 @@ marca_lider: "COFLER"
 excel_input: ""
 sitio_web: ""
 notas: >
-  Tenant de demos comerciales. Catálogo curado a 250 SKUs, 70 clientes en 5 barrios
-  de CABA, 3 vendedores ficticios. Fechas vivas vía n8n (demo.shift_sales_demo_dates).
+  Tenant de demos comerciales. Catálogo físico de 250 SKUs (el resto se borra, no se oculta),
+  70 clientes en 5 barrios de CABA, 3 vendedores (10/11/12). Prompt v2 (COFLER, CABA).
+  Pedidos diarios vía n8n (demo.generate_daily_demo_orders + shift de promos/chats).
+  Tickets/reclamos estáticos.
 
 blocked:
   is_mock_migration: false

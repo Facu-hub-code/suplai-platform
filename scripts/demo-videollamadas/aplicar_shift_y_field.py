@@ -30,8 +30,12 @@ async def prepare() -> None:
     try:
         sql = Path(__file__).with_name("shift_fechas.sql").read_text(encoding="utf-8")
         await conn.execute(sql)
+        result = await conn.fetchval("SELECT demo.generate_daily_demo_orders()")
+        print("[OK] generate:", result)
         result = await conn.fetchval("SELECT demo.shift_sales_demo_dates()")
         print("[OK] shift:", result)
+        result = await conn.fetchval("SELECT demo.sanitize_field_task_skus()")
+        print("[OK] sanitize skus:", result)
         deleted = await conn.fetchval(
             """
             WITH keep AS (

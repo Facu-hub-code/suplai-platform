@@ -216,6 +216,8 @@ async def curar(schema: str, skip_field: bool) -> None:
             """,
             sku_codes,
         )
+        # El recorte físico (DELETE de SKUs fuera de catálogo) lo hace
+        # higiene_tenant_demo.py para no reintroducir filas ocultas en el backoffice.
 
         tag_row = await conn.fetchrow("SELECT id FROM demo.tags ORDER BY id LIMIT 1")
         if tag_row:
@@ -279,6 +281,8 @@ async def curar(schema: str, skip_field: bool) -> None:
         # ------------------------------------------------------------------
         # 2. Red comercial
         # ------------------------------------------------------------------
+        n_loc_exist = await conn.fetchval("SELECT COUNT(DISTINCT client_id) FROM demo.client_locations")
+        skip_map = n_loc_exist >= 70
         print("[*] Actualizando vendedores y zonas CABA...")
         for vid, nombre, tel, email, zona in VENDEDORES:
             await conn.execute(
@@ -289,49 +293,49 @@ async def curar(schema: str, skip_field: bool) -> None:
                 """,
                 vid, nombre, tel, email, zona,
             )
-        await conn.execute(
-            "UPDATE demo.vendedores SET activo=false, updated_at=now() WHERE id = ANY($1::int[])",
-            list(INACTIVE_SELLER_IDS),
-        )
+        # Vendedores 1/2/3 se borran en higiene_tenant_demo.py (no solo activo=false).
 
-        for z in ZONAS:
-            dias = [z["dia"], *z["dias_extra"]]
+        if skip_map:
+            print("[SKIP] Polígonos y pines ya curados — no se reescriben zonas.")
+        else:
+            for z in ZONAS:
+                dias = [z["dia"], *z["dias_extra"]]
+                await conn.execute(
+                    """
+                    UPDATE demo.geo_zones SET
+                      name=$2,
+                      zone_type='sales',
+                      color=$3,
+                      dia_visita=$4::core.dia_de_visita_enum,
+                      dias_visita=$5::core.dia_de_visita_enum[],
+                      vendedor_principal_id=$6,
+                      geometry=ST_Multi(ST_GeomFromText($7, 4326)),
+                      active=true,
+                      is_mock=true,
+                      description=$8,
+                      updated_at=now()
+                    WHERE id=$1
+                    """,
+                    z["id"], z["name"], z["color"], z["dia"], dias, z["vendedor_id"],
+                    _wkt(z["ring"]), f"Barrio {z['name']} — CABA",
+                )
+
             await conn.execute(
-                """
-                UPDATE demo.geo_zones SET
-                  name=$2,
-                  zone_type='sales',
-                  color=$3,
-                  dia_visita=$4::core.dia_de_visita_enum,
-                  dias_visita=$5::core.dia_de_visita_enum[],
-                  vendedor_principal_id=$6,
-                  geometry=ST_Multi(ST_GeomFromText($7, 4326)),
-                  active=true,
-                  is_mock=true,
-                  description=$8,
-                  updated_at=now()
-                WHERE id=$1
-                """,
-                z["id"], z["name"], z["color"], z["dia"], dias, z["vendedor_id"],
-                _wkt(z["ring"]), f"Barrio {z['name']} — CABA",
+                "UPDATE demo.geo_zones SET active=false, updated_at=now() WHERE id = ANY($1::int[])",
+                list(INACTIVE_ZONE_IDS),
             )
 
-        await conn.execute(
-            "UPDATE demo.geo_zones SET active=false, updated_at=now() WHERE id = ANY($1::int[])",
-            list(INACTIVE_ZONE_IDS),
-        )
-
-        await conn.execute("UPDATE demo.vendedor_geo_zones SET activo=false")
-        for z in ZONAS:
-            await conn.execute(
-                """
-                INSERT INTO demo.vendedor_geo_zones (vendedor_id, geo_zone_id, activo, is_mock)
-                VALUES ($1, $2, true, true)
-                ON CONFLICT (vendedor_id, geo_zone_id) DO UPDATE
-                  SET activo=true, is_mock=true, updated_at=now()
-                """,
-                z["vendedor_id"], z["id"],
-            )
+            await conn.execute("UPDATE demo.vendedor_geo_zones SET activo=false")
+            for z in ZONAS:
+                await conn.execute(
+                    """
+                    INSERT INTO demo.vendedor_geo_zones (vendedor_id, geo_zone_id, activo, is_mock)
+                    VALUES ($1, $2, true, true)
+                    ON CONFLICT (vendedor_id, geo_zone_id) DO UPDATE
+                      SET activo=true, is_mock=true, updated_at=now()
+                    """,
+                    z["vendedor_id"], z["id"],
+                )
 
         assignments: list[tuple[int, dict]] = []
         per_zone = 14
@@ -339,156 +343,144 @@ async def curar(schema: str, skip_field: bool) -> None:
             z = ZONAS[i // per_zone]
             assignments.append((int(client["id"]), z))
 
-        print("[*] Reubicando 70 clientes...")
-        await conn.execute("UPDATE demo.clients SET is_primary=false WHERE pdv_id IS NOT NULL")
-        await conn.execute(
-            """
-            DELETE FROM demo.client_locations
-            WHERE client_id <> ALL($1::int[])
-            """,
-            client_ids,
-        )
-        await conn.execute(
-            "UPDATE demo.vendedores_clientes SET activo=false WHERE cliente_id <> ALL($1::int[])",
-            client_ids,
-        )
-        await conn.execute(
-            "DELETE FROM demo.vendedores_clientes WHERE cliente_id = ANY($1::int[])",
-            client_ids,
-        )
+        if skip_map:
+            print("[SKIP] Mapa ya curado (70 pines). No se reubican clientes.")
+            client_rows_csv = []
+        else:
+            print("[*] Reubicando 70 clientes...")
+            await conn.execute("UPDATE demo.clients SET is_primary=false WHERE pdv_id IS NOT NULL")
+        if not skip_map:
+            await conn.execute(
+                """
+                DELETE FROM demo.client_locations
+                WHERE client_id <> ALL($1::int[])
+                """,
+                client_ids,
+            )
+            await conn.execute(
+                "UPDATE demo.vendedores_clientes SET activo=false WHERE cliente_id <> ALL($1::int[])",
+                client_ids,
+            )
+            await conn.execute(
+                "DELETE FROM demo.vendedores_clientes WHERE cliente_id = ANY($1::int[])",
+                client_ids,
+            )
 
-        client_rows_csv = []
-        seen_pdv: set[int] = set()
-        for cid, z in assignments:
-            lat, lng = _point_in(rng, z["ring"])
-            calle = rng.choice(CALLES[z["name"]])
-            altura = rng.randint(800, 4800)
-            direccion = f"{calle} {altura}, {z['name']}, CABA"
-            lista_id = 1 + (cid % 4)
-            src = next(c for c in keep_clients if int(c["id"]) == cid)
-            nombre = src["nombre"] or src["razon_social"] or f"Kiosco {z['name']} {cid}"
-            razon = src["razon_social"] or nombre
-            phone = src["phone_number"] or f"54911{4000000 + cid}"
-            email = src["email"] or f"cliente{cid}@suplaisales.mock"
-            cuit = src["cuit"] or f"30-{20000000 + cid}-9"
+            client_rows_csv = []
+            seen_pdv: set[int] = set()
+            for cid, z in assignments:
+                lat, lng = _point_in(rng, z["ring"])
+                calle = rng.choice(CALLES[z["name"]])
+                altura = rng.randint(800, 4800)
+                direccion = f"{calle} {altura}, {z['name']}, CABA"
+                lista_id = 1 + (cid % 4)
+                src = next(c for c in keep_clients if int(c["id"]) == cid)
+                nombre = src["nombre"] or src["razon_social"] or f"Kiosco {z['name']} {cid}"
+                razon = src["razon_social"] or nombre
+                phone = src["phone_number"] or f"54911{4000000 + cid}"
+                email = src["email"] or f"cliente{cid}@suplaisales.mock"
+                cuit = src["cuit"] or f"30-{20000000 + cid}-9"
 
-            pdv_id = src["pdv_id"]
-            vendedor_nombre = next(v[1] for v in VENDEDORES if v[0] == z["vendedor_id"])
-            reuse_pdv = bool(pdv_id) and int(pdv_id) not in seen_pdv
-            if reuse_pdv:
+                pdv_id = src["pdv_id"]
+                vendedor_nombre = next(v[1] for v in VENDEDORES if v[0] == z["vendedor_id"])
+                reuse_pdv = bool(pdv_id) and int(pdv_id) not in seen_pdv
+                if reuse_pdv:
+                    await conn.execute(
+                        """
+                        UPDATE demo.puntos_venta SET
+                          razon_social=$2, direccion=$3, email=$4, vendedor=$5,
+                          geo_zone_id=$6, vendedor_id=$7, lista_precios_id=$8,
+                          dia_de_visita=$9::core.dia_de_visita_enum,
+                          activo_ai=true, is_mock=true, updated_at=now()
+                        WHERE id=$1
+                        """,
+                        int(pdv_id), razon, direccion, email, vendedor_nombre,
+                        z["id"], z["vendedor_id"], lista_id, z["dia"],
+                    )
+                    seen_pdv.add(int(pdv_id))
+                else:
+                    pdv_id = await conn.fetchval(
+                        """
+                        INSERT INTO demo.puntos_venta
+                          (razon_social, codigo, lista_precios_id, dia_de_visita, direccion,
+                           email, vendedor, activo_ai, geo_zone_id, vendedor_id, is_mock)
+                        VALUES ($1, $2, $3, $4::core.dia_de_visita_enum, $5, $6, $7, true, $8, $9, true)
+                        RETURNING id
+                        """,
+                        razon, 90000 + cid, lista_id, z["dia"], direccion, email,
+                        vendedor_nombre,
+                        z["id"], z["vendedor_id"],
+                    )
+                    seen_pdv.add(int(pdv_id))
+
+                is_prospect = assignments.index((cid, z)) >= 56
                 await conn.execute(
                     """
-                    UPDATE demo.puntos_venta SET
-                      razon_social=$2, direccion=$3, email=$4, vendedor=$5,
-                      geo_zone_id=$6, vendedor_id=$7, lista_precios_id=$8,
-                      dia_de_visita=$9::core.dia_de_visita_enum,
-                      activo_ai=true, is_mock=true, updated_at=now()
+                    UPDATE demo.clients SET
+                      nombre=$2, razon_social=$3, phone_number=$4, email=$5, cuit=$6,
+                      direccion=$7, lista_precios_id=$8, pdv_id=$9, is_primary=true,
+                      activo_ai = NOT $10,
+                      etiqueta = CASE WHEN $10 THEN 'PROSPECTO' ELSE NULL END,
+                      whatsapp_estado = CASE WHEN $10 THEN 'no_validado' ELSE 'validado' END::whatsapp_estado_cliente_enum,
+                      whatsapp_validado_at = CASE WHEN $10 THEN NULL ELSE now() END,
+                      vendedor=$11, dia_de_visita=$12::core.dia_de_visita_enum,
+                      is_mock=true, updated_at=now()
                     WHERE id=$1
                     """,
-                    int(pdv_id), razon, direccion, email, vendedor_nombre,
-                    z["id"], z["vendedor_id"], lista_id, z["dia"],
+                    cid, nombre, razon, phone, email, cuit, direccion, lista_id, int(pdv_id),
+                    is_prospect,
+                    next(v[1] for v in VENDEDORES if v[0] == z["vendedor_id"]),
+                    z["dia"],
                 )
-                seen_pdv.add(int(pdv_id))
-            else:
-                pdv_id = await conn.fetchval(
-                    """
-                    INSERT INTO demo.puntos_venta
-                      (razon_social, codigo, lista_precios_id, dia_de_visita, direccion,
-                       email, vendedor, activo_ai, geo_zone_id, vendedor_id, is_mock)
-                    VALUES ($1, $2, $3, $4::core.dia_de_visita_enum, $5, $6, $7, true, $8, $9, true)
-                    RETURNING id
-                    """,
-                    razon, 90000 + cid, lista_id, z["dia"], direccion, email,
-                    vendedor_nombre,
-                    z["id"], z["vendedor_id"],
-                )
-                seen_pdv.add(int(pdv_id))
-
-            is_prospect = assignments.index((cid, z)) >= 56
-            await conn.execute(
-                """
-                UPDATE demo.clients SET
-                  nombre=$2, razon_social=$3, phone_number=$4, email=$5, cuit=$6,
-                  direccion=$7, lista_precios_id=$8, pdv_id=$9, is_primary=true,
-                  activo_ai = NOT $10,
-                  etiqueta = CASE WHEN $10 THEN 'PROSPECTO' ELSE NULL END,
-                  whatsapp_estado = CASE WHEN $10 THEN 'no_validado' ELSE 'validado' END::whatsapp_estado_cliente_enum,
-                  whatsapp_validado_at = CASE WHEN $10 THEN NULL ELSE now() END,
-                  vendedor=$11, dia_de_visita=$12::core.dia_de_visita_enum,
-                  is_mock=true, updated_at=now()
-                WHERE id=$1
-                """,
-                cid, nombre, razon, phone, email, cuit, direccion, lista_id, int(pdv_id),
-                is_prospect,
-                next(v[1] for v in VENDEDORES if v[0] == z["vendedor_id"]),
-                z["dia"],
-            )
-            await conn.execute(
-                """
-                INSERT INTO demo.vendedores_clientes (vendedor_id, cliente_id, activo)
-                VALUES ($1, $2, true)
-                """,
-                z["vendedor_id"], cid,
-            )
-            existing_loc = await conn.fetchval(
-                "SELECT id FROM demo.client_locations WHERE client_id=$1 LIMIT 1", cid
-            )
-            loc_sql_common = """
-                client_id=$1, source='backoffice', latitude=$2, longitude=$3,
-                location=ST_SetSRID(ST_MakePoint($3, $2), 4326),
-                address_text=$4, name=$5, is_primary=true, geocode_status='resolved',
-                updated_at=now()
-            """
-            if existing_loc:
-                await conn.execute(
-                    f"UPDATE demo.client_locations SET {loc_sql_common} WHERE id=$6",
-                    cid, lat, lng, direccion, razon, int(existing_loc),
-                )
-            else:
                 await conn.execute(
                     """
-                    INSERT INTO demo.client_locations
-                      (client_id, source, latitude, longitude, location, address_text,
-                       name, is_primary, geocode_status)
-                    VALUES ($1, 'backoffice', $2, $3,
-                            ST_SetSRID(ST_MakePoint($3, $2), 4326), $4, $5, true, 'resolved')
+                    INSERT INTO demo.vendedores_clientes (vendedor_id, cliente_id, activo)
+                    VALUES ($1, $2, true)
                     """,
-                    cid, lat, lng, direccion, razon,
+                    z["vendedor_id"], cid,
                 )
-            client_rows_csv.append({
-                "cliente_id": cid,
-                "nombre": nombre,
-                "barrio": z["name"],
-                "vendedor_id": z["vendedor_id"],
-                "lat": round(lat, 6),
-                "lng": round(lng, 6),
-                "prospecto": is_prospect,
-            })
+                existing_loc = await conn.fetchval(
+                    "SELECT id FROM demo.client_locations WHERE client_id=$1 LIMIT 1", cid
+                )
+                loc_sql_common = """
+                    client_id=$1, source='backoffice', latitude=$2, longitude=$3,
+                    location=ST_SetSRID(ST_MakePoint($3, $2), 4326),
+                    address_text=$4, name=$5, is_primary=true, geocode_status='resolved',
+                    updated_at=now()
+                """
+                if existing_loc:
+                    await conn.execute(
+                        f"UPDATE demo.client_locations SET {loc_sql_common} WHERE id=$6",
+                        cid, lat, lng, direccion, razon, int(existing_loc),
+                    )
+                else:
+                    await conn.execute(
+                        """
+                        INSERT INTO demo.client_locations
+                          (client_id, source, latitude, longitude, location, address_text,
+                           name, is_primary, geocode_status)
+                        VALUES ($1, 'backoffice', $2, $3,
+                                ST_SetSRID(ST_MakePoint($3, $2), 4326), $4, $5, true, 'resolved')
+                        """,
+                        cid, lat, lng, direccion, razon,
+                    )
+                client_rows_csv.append({
+                    "cliente_id": cid,
+                    "nombre": nombre,
+                    "barrio": z["name"],
+                    "vendedor_id": z["vendedor_id"],
+                    "lat": round(lat, 6),
+                    "lng": round(lng, 6),
+                    "prospecto": is_prospect,
+                })
 
-        # Hide leftover clients from AI / map
-        await conn.execute(
-            """
-            UPDATE demo.clients
-            SET activo_ai=false, updated_at=now()
-            WHERE id <> ALL($1::int[])
-            """,
-            client_ids,
-        )
-        await conn.execute(
-            """
-            UPDATE demo.puntos_venta SET activo_ai=false, updated_at=now()
-            WHERE id NOT IN (
-              SELECT pdv_id FROM demo.clients WHERE id = ANY($1::int[]) AND pdv_id IS NOT NULL
+            # Clientes extra: DELETE físico en higiene_tenant_demo.py (no ocultar).
+
+            _write_csv(
+                OUTPUTS / "phase-04-clientes.csv",
+                client_rows_csv,
+                ["cliente_id", "nombre", "barrio", "vendedor_id", "lat", "lng", "prospecto"],
             )
-            """,
-            client_ids,
-        )
-
-        _write_csv(
-            OUTPUTS / "phase-04-clientes.csv",
-            client_rows_csv,
-            ["cliente_id", "nombre", "barrio", "vendedor_id", "lat", "lng", "prospecto"],
-        )
 
         # HQ
         print("[*] Seteando HQ Chacarita en reglas_negocio...")
@@ -539,66 +531,8 @@ async def curar(schema: str, skip_field: bool) -> None:
         # ------------------------------------------------------------------
         # 4. Conversaciones + tickets
         # ------------------------------------------------------------------
-        print("[*] Refrescando conversaciones e insights...")
-        phones = [r["phone_number"] for r in keep_clients if r["phone_number"]][:15]
-        now = datetime.now(timezone.utc)
-        for i, phone in enumerate(phones):
-            offset_h = i * 2
-            ts = now - timedelta(hours=offset_h % 48)
-            await conn.execute(
-                """
-                UPDATE core.conversations
-                SET updated_at=$2, created_at=LEAST(created_at, $2)
-                WHERE schema_name='demo' AND session_id LIKE '%' || $1 || '%'
-                """,
-                phone, ts,
-            )
-            await conn.execute(
-                """
-                UPDATE demo.conversations
-                SET updated_at=$2, started_at=LEAST(COALESCE(started_at, $2), $2)
-                WHERE phone_number=$1
-                """,
-                phone, ts,
-            )
-
-        await conn.execute(
-            """
-            UPDATE core.conversation_events e
-            SET created_at = now() - ((e.id % 72) || ' hours')::interval
-            FROM core.conversations c
-            WHERE e.conversation_id = c.id AND c.schema_name = 'demo'
-            """
-        )
-
-        keep_tickets = await conn.fetch(
-            "SELECT id FROM demo.ia_tickets ORDER BY created_at DESC NULLS LAST LIMIT 18"
-        )
-        keep_tids = [int(r["id"]) for r in keep_tickets]
-        if keep_tids:
-            await conn.execute(
-                """
-                UPDATE demo.ia_tickets
-                SET status='closed', closed_at=now(), is_mock=true
-                WHERE id <> ALL($1::bigint[])
-                """,
-                keep_tids,
-            )
-            for i, tid in enumerate(keep_tids):
-                status = "open" if i < 10 else "closed"
-                cid = client_ids[i % len(client_ids)]
-                await conn.execute(
-                    """
-                    UPDATE demo.ia_tickets SET
-                      status=$2,
-                      closed_at = CASE WHEN $2='closed' THEN now() ELSE NULL END,
-                      created_at = now() - make_interval(hours => $3::int),
-                      client_id=$4::text,
-                      is_mock=true
-                    WHERE id=$1
-                    """,
-                    tid, status, i * 6, str(cid),
-                )
+        print("[SKIP] Conversaciones e insights existentes no se reescriben.")
+        print("[*] Recortes DELETE + reclamos + prompt v2: higiene_tenant_demo.py")
 
         # ------------------------------------------------------------------
         # 5. Función de shift
@@ -622,6 +556,16 @@ async def curar(schema: str, skip_field: bool) -> None:
 
     finally:
         await conn.close()
+
+    higiene = Path(__file__).with_name("higiene_tenant_demo.py")
+    print(f"\n>>> {sys.executable} {higiene} --esquema {schema}")
+    rc_h = subprocess.run(
+        [sys.executable, str(higiene), "--esquema", schema],
+        cwd=str(ROOT),
+        env={**os.environ, "SUPABASE_DB_URL": _db_url()},
+    )
+    if rc_h.returncode != 0:
+        print(f"[WARN] higiene_tenant_demo falló ({rc_h.returncode})")
 
     if skip_field:
         print("[SKIP] Field setup omitido (--skip-field)")

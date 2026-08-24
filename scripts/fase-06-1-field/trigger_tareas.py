@@ -134,6 +134,10 @@ async def generate_tasks_for_date(schema: str, target_date: date) -> dict:
         dias_by_vid       = await load_vendedor_dia_visita_zones(conn, schema)
         last_orders       = await get_last_order_dates(conn, schema)
         recent_counts     = await get_recent_purchase_counts(conn, schema)
+        catalog_rows = await conn.fetch(
+            f'SELECT product_code FROM "{schema}".productos WHERE en_catalogo = true'
+        )
+        catalog = {str(r["product_code"]) for r in catalog_rows}
 
         torneo_id     = torneo["id"] if torneo else None
         weekday_es    = DIAS_ES[target_date.weekday()]
@@ -173,7 +177,7 @@ async def generate_tasks_for_date(schema: str, target_date: date) -> dict:
 
                     # --- CROSS_SELL_COMBO (solo clientes con compras recientes) ---
                     if recent_cnt > 0 and "CROSS_SELL_COMBO" in tpl_by_tipo:
-                        combos = call_ml_combo(schema, cid, [], http)
+                        combos = [c for c in call_ml_combo(schema, cid, [], http) if c in catalog]
                         if combos:
                             tpl = tpl_by_tipo["CROSS_SELL_COMBO"]
                             tasks_to_insert.append((
@@ -190,9 +194,9 @@ async def generate_tasks_for_date(schema: str, target_date: date) -> dict:
                     # --- REPOSICION_HABITO (requiere ≥3 pedidos en 90 días) ---
                     if recent_cnt > 3 and "REPOSICION_HABITO" in tpl_by_tipo:
                         due_items = call_ml_replenishment(schema, cid, http)
-                        if due_items:
+                        skus = [r["product_code"] for r in due_items if r.get("product_code") in catalog]
+                        if skus:
                             tpl = tpl_by_tipo["REPOSICION_HABITO"]
-                            skus = [r["product_code"] for r in due_items]
                             tasks_to_insert.append((
                                 int(tpl["id"]), vid, cid, "REPOSICION_HABITO",
                                 f"Reponer para {name}: {', '.join(skus[:2])}",
