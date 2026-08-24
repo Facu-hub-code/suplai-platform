@@ -90,12 +90,13 @@ def call_ml_combo(schema: str, cliente_id: int, product_codes: list[str], http: 
     try:
         resp = http.post(
             f"{_ml_base()}/v1/tenants/{schema}/predict-combo",
-            json={"cliente_id": cliente_id, "current_items": product_codes},
+            json={"cliente_id": str(cliente_id)},
             timeout=8.0,
         )
         if resp.status_code == 200:
             data = resp.json()
-            return [r["product_code"] for r in data.get("recommendations", [])[:3]]
+            combo = data.get("combo") or data.get("recommendations") or []
+            return [str(c) if not isinstance(c, dict) else str(c.get("product_code") or "") for c in combo][:3]
     except Exception:
         pass
     return []
@@ -104,17 +105,18 @@ def call_ml_combo(schema: str, cliente_id: int, product_codes: list[str], http: 
 def call_ml_replenishment(schema: str, cliente_id: int, http: httpx.Client) -> list[dict]:
     """Llama /predict-replenishment. Devuelve lista de {product_code, days_until_due}. [] si error."""
     try:
-        resp = http.get(
+        resp = http.post(
             f"{_ml_base()}/v1/tenants/{schema}/predict-replenishment",
-            params={"cliente_id": cliente_id},
+            json={"cliente_id": str(cliente_id)},
             timeout=8.0,
         )
         if resp.status_code == 200:
             data = resp.json()
-            due = [
-                r for r in data.get("predictions", [])
-                if r.get("days_until_due", 999) <= 3
-            ]
+            due = []
+            for r in data.get("predictions") or []:
+                days = r.get("days_remaining", r.get("days_until_due", 999))
+                if days <= 3:
+                    due.append({"product_code": r.get("product_code"), "days_until_due": days})
             return due[:3]
     except Exception:
         pass
@@ -132,6 +134,10 @@ async def generate_tasks_for_date(schema: str, target_date: date) -> dict:
         dias_by_vid       = await load_vendedor_dia_visita_zones(conn, schema)
         last_orders       = await get_last_order_dates(conn, schema)
         recent_counts     = await get_recent_purchase_counts(conn, schema)
+        catalog_rows = await conn.fetch(
+            f'SELECT product_code FROM "{schema}".productos WHERE en_catalogo = true'
+        )
+        catalog = {str(r["product_code"]) for r in catalog_rows}
 
         torneo_id     = torneo["id"] if torneo else None
         weekday_es    = DIAS_ES[target_date.weekday()]
@@ -171,7 +177,7 @@ async def generate_tasks_for_date(schema: str, target_date: date) -> dict:
 
                     # --- CROSS_SELL_COMBO (solo clientes con compras recientes) ---
                     if recent_cnt > 0 and "CROSS_SELL_COMBO" in tpl_by_tipo:
-                        combos = call_ml_combo(schema, cid, [], http)
+                        combos = [c for c in call_ml_combo(schema, cid, [], http) if c in catalog]
                         if combos:
                             tpl = tpl_by_tipo["CROSS_SELL_COMBO"]
                             tasks_to_insert.append((
@@ -188,9 +194,9 @@ async def generate_tasks_for_date(schema: str, target_date: date) -> dict:
                     # --- REPOSICION_HABITO (requiere ≥3 pedidos en 90 días) ---
                     if recent_cnt > 3 and "REPOSICION_HABITO" in tpl_by_tipo:
                         due_items = call_ml_replenishment(schema, cid, http)
-                        if due_items:
+                        skus = [r["product_code"] for r in due_items if r.get("product_code") in catalog]
+                        if skus:
                             tpl = tpl_by_tipo["REPOSICION_HABITO"]
-                            skus = [r["product_code"] for r in due_items]
                             tasks_to_insert.append((
                                 int(tpl["id"]), vid, cid, "REPOSICION_HABITO",
                                 f"Reponer para {name}: {', '.join(skus[:2])}",

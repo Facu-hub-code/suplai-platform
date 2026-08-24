@@ -1,0 +1,127 @@
+{
+  "name": "Demo — pedidos diarios + shift fechas",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 1 * * *"
+            }
+          ]
+        }
+      },
+      "id": "demo-shift-schedule",
+      "name": "01:00 ART diario",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {},
+      "id": "demo-shift-manual",
+      "name": "Ejecutar manualmente",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 220]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT demo.generate_daily_demo_orders() AS result;",
+        "options": {}
+      },
+      "id": "demo-generate-orders",
+      "name": "Generar pedidos del día",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [280, 110],
+      "credentials": {
+        "postgres": {
+          "id": "ZMxTKu6BCAdKqOaZ",
+          "name": "Postgres account"
+        }
+      },
+      "notes": "Determinístico: día de visita de la zona + md5. Sin IA. Idempotente."
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT demo.shift_sales_demo_dates() AS result;",
+        "options": {}
+      },
+      "id": "demo-shift-postgres",
+      "name": "Shift promos / Field / chats",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [540, 110],
+      "credentials": {
+        "postgres": {
+          "id": "ZMxTKu6BCAdKqOaZ",
+          "name": "Postgres account"
+        }
+      },
+      "notes": "No desplaza pedidos. Credential: pooler 6543, schema demo."
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 3 * * *"
+            }
+          ]
+        }
+      },
+      "id": "demo-sanitize-schedule",
+      "name": "03:00 ART post-Field",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 420]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT demo.sanitize_field_task_skus() AS result;",
+        "options": {}
+      },
+      "id": "demo-sanitize-skus",
+      "name": "Sanitizar SKUs de tareas",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [280, 420],
+      "credentials": {
+        "postgres": {
+          "id": "ZMxTKu6BCAdKqOaZ",
+          "name": "Postgres account"
+        }
+      },
+      "notes": "Después del cron Field 02:30. Reemplaza combo_skus huérfanos por catálogo 250."
+    }
+  ],
+  "connections": {
+    "01:00 ART diario": {
+      "main": [[{ "node": "Generar pedidos del día", "type": "main", "index": 0 }]]
+    },
+    "Ejecutar manualmente": {
+      "main": [[{ "node": "Generar pedidos del día", "type": "main", "index": 0 }]]
+    },
+    "Generar pedidos del día": {
+      "main": [[{ "node": "Shift promos / Field / chats", "type": "main", "index": 0 }]]
+    },
+    "03:00 ART post-Field": {
+      "main": [[{ "node": "Sanitizar SKUs de tareas", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "America/Argentina/Buenos_Aires"
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "pinData": {}
+}

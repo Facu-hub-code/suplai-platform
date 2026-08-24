@@ -1,0 +1,15 @@
+{
+  "schema_name": "demo",
+  "nombre": "Demo",
+  "migration": "system_prompt_v2",
+  "applied_at": "2026-08-24",
+  "metadata_flag": {
+    "use_new_system_prompt": true
+  },
+  "agent_base_prompt_client": null,
+  "agent_base_prompt_seller": null,
+  "note": "Base tipada = defaults del código. Tenant editable = system_prompt (phase-01-3-system-prompt-v2.md). identidad/contexto quedan como stub legacy y ya no se ensamblan con el flag on. Se quitó Arcor / Córdoba / marca blanca; marca líder COFLER, plaza CABA.",
+  "system_prompt_file": "phase-01-3-system-prompt-v2.md",
+  "identidad_legacy_stub": "Ver system_prompt v2 (Tato, Demo golosinas CABA, marca líder COFLER).",
+  "contexto_legacy_stub": "Legacy desactivado. metadata.use_new_system_prompt=true."
+}

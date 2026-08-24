@@ -1,0 +1,71 @@
+cliente_id,nombre,barrio,vendedor_id,lat,lng,prospecto
+36814,Almacén La Familia,Palermo,10,-34.582601,-58.425699,False
+36855,Almacén La Nueva Era,Palermo,10,-34.58183,-58.41763,False
+36800,Parrilla La Estancia,Palermo,10,-34.580096,-58.434574,False
+36813,Parrilla El Rincón del Asador,Palermo,10,-34.586206,-58.420775,False
+36838,Almacén La Casa de la Abundancia,Palermo,10,-34.580053,-58.414344,False
+36842,Almacén La Esencia,Palermo,10,-34.57903,-58.412451,False
+36850,Asadería La Huerta,Palermo,10,-34.580326,-58.414848,False
+36832,Carnicería El Sabor de la Tierra,Palermo,10,-34.57712,-58.423414,False
+36841,Parrilla El Asador del Pueblo,Palermo,10,-34.588609,-58.42021,False
+36799,Carnicería El Buen Sabor,Palermo,10,-34.584693,-58.416934,False
+36806,Almacén del Pueblo,Palermo,10,-34.586401,-58.408189,False
+36811,Restaurante El Sabor del Campo,Palermo,10,-34.577309,-58.423355,False
+36816,Asadería La Huella,Palermo,10,-34.586572,-58.420689,False
+36817,Restaurante El Buen Comer,Palermo,10,-34.580974,-58.431464,False
+36827,Restaurante La Casa de la Carne,Belgrano,11,-34.550319,-58.442702,False
+36835,Restaurante El Sabor de la Tradición,Belgrano,11,-34.549885,-58.442319,False
+9,Punto Norte,Belgrano,11,-34.549294,-58.441797,False
+36798,Almacén La Abundancia,Belgrano,11,-34.562246,-58.441588,False
+36803,Almacén El Rincón,Belgrano,11,-34.557018,-58.441201,False
+36804,Carnicería El Corte Perfecto,Belgrano,11,-34.55574,-58.458211,False
+36807,Restaurante La Parrilla de Oro,Belgrano,11,-34.551397,-58.443655,False
+36822,Almacén La Tradición,Belgrano,11,-34.560625,-58.443444,False
+36823,Restaurante El Sabor del Sur,Belgrano,11,-34.556007,-58.454679,False
+36837,Asadería La Huerta,Belgrano,11,-34.551461,-58.456367,False
+36840,Carnicería El Gran Corte,Belgrano,11,-34.554239,-58.451847,False
+36845,Asadería La Tradición,Belgrano,11,-34.556015,-58.454574,False
+36849,Carnicería El Corte Maestro,Belgrano,11,-34.555896,-58.456147,False
+36801,Asadería El Asador,Belgrano,11,-34.550063,-58.442476,False
+36802,Restaurante Sabor Argentino,Colegiales,11,-34.575264,-58.454513,False
+36805,Parrilla La Tradición,Colegiales,11,-34.575635,-58.443548,False
+36808,Carnicería La Calidad,Colegiales,11,-34.5774,-58.446267,False
+36810,Almacén La Esquina,Colegiales,11,-34.573745,-58.450213,False
+36821,Asadería El Sabor del Norte,Colegiales,11,-34.575309,-58.453248,False
+36824,Carnicería El Corte Ideal,Colegiales,11,-34.580039,-58.444091,False
+36825,Parrilla El Asador Criollo,Colegiales,11,-34.575842,-58.437002,False
+36829,Asadería El Asador de Oro,Colegiales,11,-34.575393,-58.450851,False
+36830,Almacén La Gran Familia,Colegiales,11,-34.575786,-58.438765,False
+36834,Almacén La Nueva Era,Colegiales,11,-34.575695,-58.441672,False
+36843,Restaurante El Sabor del Norte,Colegiales,11,-34.575184,-58.456783,False
+36846,Almacén El Buen Sabor,Colegiales,11,-34.579768,-58.451912,False
+36848,Restaurante El Sabor de la Tradición,Colegiales,11,-34.570784,-58.454226,False
+16,Kiosko Facu,Colegiales,11,-34.575285,-58.453914,False
+36812,Carnicería El Gran Asado,Villa Crespo,12,-34.599282,-58.433038,False
+36820,Parrilla La Casa del Asador,Villa Crespo,12,-34.603356,-58.451092,False
+36828,Carnicería El Sabor del Pueblo,Villa Crespo,12,-34.600208,-58.442756,False
+36839,Restaurante El Sabor del Asador,Villa Crespo,12,-34.598803,-58.438408,False
+36851,Almacén La Casa de la Abundancia,Villa Crespo,12,-34.603476,-58.451269,False
+36852,Restaurante El Sabor del Asador,Villa Crespo,12,-34.605319,-58.440273,False
+10,Punto Oeste,Villa Crespo,12,-34.596054,-58.441093,False
+11,Punto Sur,Villa Crespo,12,-34.60018,-58.446396,False
+12,Punto Este,Villa Crespo,12,-34.601268,-58.448004,False
+36826,Almacén La Estrella,Villa Crespo,12,-34.602668,-58.450074,False
+36831,Restaurante El Rincón del Sabor,Villa Crespo,12,-34.598949,-58.43677,False
+8,Jorge Burkle,Villa Crespo,12,-34.601387,-58.448181,False
+36809,Asadería El Fogón,Villa Crespo,12,-34.595534,-58.446466,False
+36818,Almacén La Nueva,Villa Crespo,12,-34.593439,-58.438141,False
+36833,Parrilla La Casa del Asado,Caballito,12,-34.617006,-58.452277,True
+36836,Carnicería El Corte Maestro,Caballito,12,-34.611772,-58.448479,True
+36847,Restaurante La Casa del Sabor,Caballito,12,-34.614362,-58.438827,True
+36854,Parrilla La Casa del Asado,Caballito,12,-34.620228,-58.445414,True
+36815,Carnicería El Sabor de Casa,Caballito,12,-34.621404,-58.440492,True
+36819,Carnicería El Rey del Asado,Caballito,12,-34.621057,-58.440714,True
+36844,Carnicería El Corte del Chef,Caballito,12,-34.622138,-58.440023,True
+36853,Carnicería El Sabor de la Tierra,Caballito,12,-34.61764,-58.446143,True
+36697,Despena MVA,Caballito,12,-34.624606,-58.438446,True
+22,Carlos Dottori,Caballito,12,-34.614945,-58.439442,True
+15,Pela,Caballito,12,-34.621011,-58.440743,True
+36856,Agustin,Caballito,12,-34.614063,-58.446341,True
+37006,Emilio Ballistreri,Caballito,12,-34.612913,-58.447414,True
+36860,Kiosco Matutino San Telmo,Caballito,12,-34.611171,-58.449041,True
