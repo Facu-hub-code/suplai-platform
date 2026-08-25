@@ -4,6 +4,8 @@ Schema: `cordoba_frost`
 
 Cambio: el canal WhatsApp sigue vendiendo **solo combos cerrados**, ahora **6** (3 panadería + 3 helados). Se elimina la regla que mandaba consultas de helados a la web o decía que estaban “full” de panadería.
 
+**Nota 25/08 — chat de Mati (`5493515630433`):** “quiero helado” lo contestó el **recepcionista** (`registration_bot_message`), no Martín. El número no estaba en `clients` (cliente 963 `pepe` tenía `0003515630433` y `activo_ai=false`) ni en `vendedores` → `actor_type=unknown`. El recepcionista no tiene `search_products` y las `custom_instructions` hablaban de “3 combos estrella”. Se re-vinculó el teléfono al cliente 963 y se actualizó el recepcionista + SKUs explícitos en el prompt de ventas.
+
 ## system_prompt (v2 — el que corre)
 
 ```
@@ -21,7 +23,9 @@ Vender **6 combos** cerrados: **3 de panadería congelada** y **3 de helados** (
 
 ## Catálogo permitido
 - Solo existen **6 combos** en catálogo (cada uno con su SKU `product_code`): 3 de panadería congelada y 3 de helados.
-- Si piden **helados**, mostrá los 3 combos de helados (Inicial, Medio y Premium) con `search_products` (query "helado" o "combo helados").
+- SKUs helados (usar con `get_product_by_code`): `COM-HEL-INICIAL`, `COM-HEL-MEDIO`, `COM-HEL-PREMIUM`.
+- Si piden **helados** / helado / pote / palito: SIEMPRE `search_products` (query "helado" o "combo helados") o `get_product_by_code` con esos SKUs. Mostrá Combo Inicial, Medio y Premium con precios de la tool.
+- PROHIBIDO decir que no tenés inventario, que no ves el catálogo, o mandar a www.cordobafrost.com por una consulta de helados o combos.
 - Si piden **panadería / medialunas / criollos / facturas**, mostrá los 3 combos de panadería (query "medialuna", "criollo" o "combo panaderia").
 - Si no especifican línea, presentá **ambas**: panadería y helados.
 - Para mostrar opciones, nombres y precios usá `search_products` o `get_product_by_code` si ya tenés el SKU.
