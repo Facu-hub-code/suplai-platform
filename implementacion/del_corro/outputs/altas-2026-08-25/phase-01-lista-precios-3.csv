@@ -1,0 +1,10 @@
+lista_precios_id,nombre,product_code,precio_unidad,is_mock
+3,Lista 3,5060,5000.00,false
+3,Lista 3,5061,5000.00,false
+3,Lista 3,101001,2698.24,false
+3,Lista 3,1015062,5700.00,false
+3,Lista 3,1090073,988.62,false
+3,Lista 3,1090076,22307.4874,false
+3,Lista 3,10100167,2776.0425,false
+3,Lista 3,10500072,1628.31,false
+3,Lista 3,10500081,787.72,false
