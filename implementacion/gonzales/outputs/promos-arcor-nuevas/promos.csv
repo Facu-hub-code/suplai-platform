@@ -1,0 +1,8 @@
+tere_id,group_label,promo_scope,discount_percent,min_qty_umv,cta_button,image_file,action,mix
+TERE04,COMBO TRIPLES MIXTO,sku_group,15,12,Quiero Mixto,tere04-triples-mixto.jpeg,insert,"3x13358 Clasico + 3x13359 Brownie + 3x14884 Bon o Bon + 3x6596 Cofler Block"
+TERE06,COMBO GALLETAS RELLENAS,sku_group,15,12,Quiero Rellenas,tere06-galletas-rellenas.jpeg,insert,"3x13348 Sonrisa + 3x13965 Merengadas + 2x14351 Rumba + 2x14353 Amor + 2x14354 Mellizas"
+TERE08,SURTIDO DIVERSION,single_sku,15,10,Quiero Diversión,tere08-surtido-diversion.jpeg,reactivate_dates,10x14336
+TERE09,COMBO TRIPLES BAGLEY,sku_group,15,12,Quiero Triples Bagley,tere09-triples-bagley.jpeg,insert,"6x15007 Chocotorta + 3x3750 BYN Negro + 3x9919 BYN Blanco"
+TERE10,COMBO REX KESITAS,sku_group,15,12,Quiero Rex,tere10-rex-kesitas.jpeg,insert,"6x10173 Kesitas + 6x10174 Rex"
+TERE11,COFLER BLOCK 38G,single_sku,10,10,Quiero Cofler,tere11-cofler-block.jpeg,reactivate_dates,10x5312
+TERE14,COMBO MENTHOPLUS,sku_group,15,3,Quiero Menthoplus,tere14-menthoplus.jpeg,insert,"1x10129 Cherry + 1x10130 Strong + 1x10132 Menta"

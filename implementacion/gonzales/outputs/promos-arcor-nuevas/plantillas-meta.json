@@ -1,0 +1,105 @@
+[
+  {
+    "name": "gg_promo_triples_mixto_v1",
+    "kind": "image",
+    "http": 200,
+    "meta": {
+      "id": "1070143008755502",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "media_url": "https://cvlbietibaaehgeimxgw.supabase.co/storage/v1/object/public/meta_templates_media/gonzales/gonzales_1787769795_mixto.jpeg",
+    "db_id": "a3da5bac-6603-4919-9a12-1f2f95ede0e4",
+    "cta": "Quiero Mixto"
+  },
+  {
+    "name": "gg_promo_galletas_rellenas_v1",
+    "kind": "image",
+    "http": 200,
+    "meta": {
+      "id": "2208886716511340",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "media_url": "https://cvlbietibaaehgeimxgw.supabase.co/storage/v1/object/public/meta_templates_media/gonzales/gonzales_1787769795_rellenas.jpeg",
+    "db_id": "662de326-0beb-4a34-9d00-a80844ae2562",
+    "cta": "Quiero Rellenas"
+  },
+  {
+    "name": "gg_promo_surtido_diversion_v1",
+    "kind": "image",
+    "http": 200,
+    "meta": {
+      "id": "1423881319603823",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "media_url": "https://cvlbietibaaehgeimxgw.supabase.co/storage/v1/object/public/meta_templates_media/gonzales/gonzales_1787769795_diversion.jpeg",
+    "db_id": "c37de9a9-021a-4e57-b40b-d7de5e10c60c",
+    "cta": "Quiero Diversión"
+  },
+  {
+    "name": "gg_promo_triples_bagley_v1",
+    "kind": "image",
+    "http": 200,
+    "meta": {
+      "id": "1098769039335425",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "media_url": "https://cvlbietibaaehgeimxgw.supabase.co/storage/v1/object/public/meta_templates_media/gonzales/gonzales_1787769795_bagley.jpeg",
+    "db_id": "7727234e-b85e-4791-8072-80a128452111",
+    "cta": "Quiero Triples Bagley"
+  },
+  {
+    "name": "gg_promo_rex_kesitas_v1",
+    "kind": "image",
+    "http": 200,
+    "meta": {
+      "id": "2055753785312252",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "media_url": "https://cvlbietibaaehgeimxgw.supabase.co/storage/v1/object/public/meta_templates_media/gonzales/gonzales_1787769795_rex.jpeg",
+    "db_id": "5d85fb45-1859-4d54-9e0b-5965ecbd2f10",
+    "cta": "Quiero Rex"
+  },
+  {
+    "name": "gg_promo_cofler_block_v1",
+    "kind": "image",
+    "http": 200,
+    "meta": {
+      "id": "27882915424743760",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "media_url": "https://cvlbietibaaehgeimxgw.supabase.co/storage/v1/object/public/meta_templates_media/gonzales/gonzales_1787769795_cofler.jpeg",
+    "db_id": "29284302-344f-43bf-b5cf-689872e47b74",
+    "cta": "Quiero Cofler"
+  },
+  {
+    "name": "gg_promo_menthoplus_v1",
+    "kind": "image",
+    "http": 200,
+    "meta": {
+      "id": "1619835023131058",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "media_url": "https://cvlbietibaaehgeimxgw.supabase.co/storage/v1/object/public/meta_templates_media/gonzales/gonzales_1787769795_menthoplus.jpeg",
+    "db_id": "5e3d63d5-8c92-4dab-8e91-2cbf814a4153",
+    "cta": "Quiero Menthoplus"
+  },
+  {
+    "name": "gg_carousel_promos_arcor_v2",
+    "kind": "carousel",
+    "http": 200,
+    "meta": {
+      "id": "1617973689956669",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "media_url": "https://cvlbietibaaehgeimxgw.supabase.co/storage/v1/object/public/meta_templates_media/gonzales/gonzales_1787769795_mixto.jpeg",
+    "db_id": "98194d70-157a-453a-8b26-bbf84e90837f"
+  }
+]
