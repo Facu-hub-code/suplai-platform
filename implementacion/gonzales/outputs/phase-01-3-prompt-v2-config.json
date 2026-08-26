@@ -2,7 +2,8 @@
   "schema_name": "gonzales",
   "nombre": "Gonzalez Garcia",
   "migration": "system_prompt_v2",
-  "applied_at": "2026-08-13",
+  "applied_at": "2026-08-26",
+  "applied_note": "v2 + sección Botones del carrusel de promos (packs + min_qty) para que Quiero Seven/Formis/etc. carguen el mix real.",
   "metadata_flag": {
     "use_new_system_prompt": true
   },
