@@ -21,7 +21,7 @@ modo: demo
 demo:
   productos_cargados: 25
   catalogo_completo_csv: inputs/catalogo-completo.csv
-  omitido: ["01.2", "06.1", "09"]
+  omitido: ["01.2", "09"]
 
 blocked:
   is_mock_migration: false
@@ -45,8 +45,10 @@ fases:
   "01.1":
     nombre: tags
     estado: cargado
-    output_json: outputs/phase-01-1-propuesta-tags.json
-    cargado_at: "2026-08-24T20:23:00Z"
+    output_json: outputs/phase-01-1-propuesta-categorias.json
+    output_json_extra: outputs/phase-01-1-propuesta-tags.json
+    cargado_at: "2026-08-28T11:07:00Z"
+    notas: "Copia tags→categorias (51 nodos, 98 product_categories) + RAG 51 embeddings. Raíces Almacén/Bebidas/Limpieza. El JSON de tags quedó de la carga inicial."
   "01.2":
     nombre: mejora_descripciones
     estado: omitido
@@ -96,18 +98,18 @@ fases:
     output_csv_extra: outputs/phase-06-items-pedido.csv
     filas_csv: 106
     cargado_at: "2026-08-24T20:29:00Z"
-    notas: "100 históricos confirmado + 6 abiertos/pendiente. 271 items. Estados entregado/facturado normalizados a confirmado para métricas."
+    notas: "100 históricos confirmado + 6 abiertos/pendiente. 271 items. Fechas confirmados desplazadas a 2026-05-29…2026-08-28 (32 en last 30d) para que el dashboard no quede vacío."
   "06.1":
     nombre: field_setup
-    estado: omitido
+    estado: cargado
     output_csv: outputs/phase-06-1-pedidos-field.csv
     output_csv_extra: outputs/phase-06-1-items-pedido-field.csv
     output_json: outputs/phase-06-1-objetivos.csv
     filas_csv: 0
-    cargado_at: null
+    cargado_at: "2026-08-27T20:54:00Z"
     ml_retrained: false
-    ml_warning: null
-    notas: "Omitido en modo demo — no se prueba Field."
+    ml_warning: "Sin retrain ni pedidos densos (demo liviana). CROSS_SELL/REPOSICION limitados; hay REACTIVAR_CLIENTE."
+    notas: "Field enabled. 3 templates, 2 objetivos SEDILE, torneo Ago 2026, 252 hist + 107 pendientes (hoy+5d). Zona domingo para Juan Pérez."
   "07":
     nombre: conversaciones
     estado: cargado

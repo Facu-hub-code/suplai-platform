@@ -1,0 +1,338 @@
+{
+  "schema": "forsa",
+  "source": "copied_from_tags_then_rag_rebuild",
+  "built_at": "2026-08-28T11:10:41.386214+00:00",
+  "categorias_total": 51,
+  "product_categories": 98,
+  "category_documents_embedded": 51,
+  "roots": [
+    "Almacén",
+    "Bebidas",
+    "Limpieza"
+  ],
+  "taxonomy": [
+    {
+      "id": "13",
+      "name": "Almacén",
+      "nivel": 1,
+      "children": [
+        {
+          "id": "26",
+          "name": "Cereales",
+          "nivel": 2,
+          "children": []
+        },
+        {
+          "id": "41",
+          "name": "Infusiones",
+          "nivel": 2,
+          "children": [
+            {
+              "id": "42",
+              "name": "Yerba",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "43",
+                  "name": "Yerba Mate",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "34",
+          "name": "Panadería",
+          "nivel": 2,
+          "children": [
+            {
+              "id": "35",
+              "name": "Pan",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "36",
+                  "name": "Pan Blanco",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "28",
+          "name": "Pastas y Legumbres",
+          "nivel": 2,
+          "children": [
+            {
+              "id": "29",
+              "name": "Pastas Secas",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "30",
+                  "name": "Fideos Spaghetti",
+                  "nivel": 4,
+                  "children": []
+                },
+                {
+                  "id": "31",
+                  "name": "Fideos Tirabuzón",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "name": "Snacks",
+          "nivel": 2,
+          "children": [
+            {
+              "id": "44",
+              "name": "Chicles",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "45",
+                  "name": "Chicle",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "24",
+              "name": "Chips",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "25",
+                  "name": "Snack de Maíz",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "15",
+              "name": "Galletitas",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "16",
+                  "name": "Alfajor",
+                  "nivel": 4,
+                  "children": []
+                },
+                {
+                  "id": "32",
+                  "name": "Galletita Dulce",
+                  "nivel": 4,
+                  "children": []
+                },
+                {
+                  "id": "33",
+                  "name": "Galletita Salada",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "46",
+          "name": "Tabacos",
+          "nivel": 2,
+          "children": [
+            {
+              "id": "47",
+              "name": "Cigarrillos",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "48",
+                  "name": "Cigarrillo",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Bebidas",
+      "nivel": 1,
+      "children": [
+        {
+          "id": "49",
+          "name": "Aguas",
+          "nivel": 2,
+          "children": [
+            {
+              "id": "50",
+              "name": "Aguas Saborizadas",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "51",
+                  "name": "Agua Saborizada",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "38",
+          "name": "Jugos",
+          "nivel": 2,
+          "children": [
+            {
+              "id": "39",
+              "name": "Jugos Naturales",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "40",
+                  "name": "Jugo de Naranja",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Limpieza",
+      "nivel": 1,
+      "children": [
+        {
+          "id": "17",
+          "name": "Accesorios de Limpieza",
+          "nivel": 2,
+          "children": [
+            {
+              "id": "18",
+              "name": "Trapos",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "19",
+                  "name": "Trapo de Piso",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Desinfectantes",
+          "nivel": 2,
+          "children": [
+            {
+              "id": "3",
+              "name": "Líquidos Desinfectantes",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "4",
+                  "name": "Lavandina Común",
+                  "nivel": 4,
+                  "children": []
+                },
+                {
+                  "id": "5",
+                  "name": "Lavandina Concentrada",
+                  "nivel": 4,
+                  "children": []
+                },
+                {
+                  "id": "9",
+                  "name": "Líquido Desinfectante",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "name": "Detergentes",
+          "nivel": 2,
+          "children": [
+            {
+              "id": "11",
+              "name": "Líquidos para Lavar Ropa",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "12",
+                  "name": "Detergente Líquido para Ropa",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Lavavajillas",
+          "nivel": 2,
+          "children": [
+            {
+              "id": "7",
+              "name": "Líquidos Lavavajillas",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "8",
+                  "name": "Jabón Lavavajillas",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "20",
+          "name": "Papelería",
+          "nivel": 2,
+          "children": [
+            {
+              "id": "22",
+              "name": "Papel de Cocina",
+              "nivel": 3,
+              "children": [
+                {
+                  "id": "23",
+                  "name": "Rollo de Cocina",
+                  "nivel": 4,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
