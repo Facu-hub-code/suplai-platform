@@ -18,6 +18,11 @@ credentials.json
 
 scratch/
 
+# Dependencias npm accidentales en la raíz del hub (pdfjs, etc.)
+node_modules/
+/package.json
+/package-lock.json
+
 # Git worktrees locales (una feature / agente por directorio)
 .worktrees/
 .worktree-dev.env
