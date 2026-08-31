@@ -12,10 +12,11 @@ Esta fase actúa como un puente hacia la skill principal de reescritura y optimi
 ## Pasos de Ejecución
 
 1. **Auto-detección y Selección de Candidatos**:
-   - Preguntar activamente al implementador cuántos productos desea mejorar.
+   - **Modo demo** (`manifest.modo = demo`): enriquecer **todos** los productos cargados en Fase 1 (80–100). No preguntar un cupo menor ni omitir esta fase. `--limite` = `COUNT(*)` de `{schema}.productos` (o las filas de `phase-01-productos.csv`).
+   - **Implementación completa**: preguntar cuántos productos desea mejorar.
    - Brindar la estimación de tiempo correspondiente en base a **~3 segundos por producto** (ej. 100 productos toman aproximadamente **5 minutos**).
    - Ofrecer la creación de un archivo de configuración en `implementacion/{schema}/config.json` para definir reglas de rubro personalizadas (y proponer una configuración sugerida de forma automática si se tiene contexto del rubro de la distribuidora).
-   - Correr la recopilación de candidatos con el límite elegido (por defecto 100):
+   - Correr la recopilación de candidatos con el límite elegido (demo: todos; default implementación: 100):
      ```bash
      python scripts/fase-01-catalogo/buscar_candidatos.py --esquema {schema} --limite {limite}
      ```

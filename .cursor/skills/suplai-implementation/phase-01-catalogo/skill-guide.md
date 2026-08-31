@@ -36,6 +36,7 @@ Antes de ejecutar la Fase 1, asegúrate de contar con los siguientes elementos:
 ### 1. Lectura y Consolidación del Excel
 - Leer el archivo Excel provisto.
 - En caso de hojas múltiples (por ejemplo, en el caso de distribuidores como Colormix), consolidar todas las filas en una única estructura de datos unificada, mapeando la hoja origen al campo `fuente_hoja`.
+- Si `manifest.modo = demo` y hay más de 100 SKUs con Precio Final > 0: **no cargar todos**. Guardar el universo en `inputs/catalogo-completo.csv` y recortar **80–100** SKUs descriptivos del negocio (marca líder / exclusivos, una muestra de cada línea, formatos que se piden por WhatsApp, marcas de zona y competencia). Completar cupos sin saturar una sola familia. Nutrir descripciones y aliases de **todo** el recorte; la Fase 1.2 los vuelve a enriquecer a todos.
 
 ### 2. Procesamiento e Inferencias Comerciales
 Por cada producto (fila), aplicar las siguientes reglas para completar los campos enriquecidos:

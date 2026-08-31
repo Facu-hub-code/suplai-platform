@@ -12,6 +12,7 @@ Esta guía detalla las tareas para auditar, verificar y registrar que un tenant 
 
 1. **schema_name**: El implementador debe haber provisto el nombre del esquema (ej. `colormix`).
 2. **manifest.yaml**: Confirmar que se copió la estructura de la carpeta `implementacion/_template/` a `implementacion/{schema}/`.
+3. **Owner demo** (si se crea el tenant): email `admin@{schema}.com`, contraseña **`Suplai2026`** (fija; no inventar otra).
 
 ---
 

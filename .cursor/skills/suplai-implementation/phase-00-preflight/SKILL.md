@@ -46,6 +46,11 @@ check_id,descripcion,resultado,evidencia
 
 - Si `productos` o `clients` > 0 sin acuerdo explícito → **STOP**, `resultado=fallo`, no avanzar a Fase 1.
 
+## Owner backoffice (si se provisiona el tenant)
+
+- Email: `admin@{schema}.com`
+- Contraseña: **`Suplai2026`** (fija para todas las demos; no inventar otra).
+
 ## Cierre
 
 - Actualizar `manifest.yaml` fase `00` → `csv_listo` o `cargado` (preflight no inserta datos).

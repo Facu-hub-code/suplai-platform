@@ -85,7 +85,7 @@ async def cargar_flags(esquema: str):
                 UPDATE {esquema}.clients
                 SET
                     codigo             = $1,
-                    whatsapp_estado    = $2::whatsapp_estado_cliente_enum,
+                    whatsapp_estado    = $2::core.whatsapp_estado_cliente_enum,
                     whatsapp_validado_at = $3,
                     etiqueta           = $4,
                     updated_at         = now()

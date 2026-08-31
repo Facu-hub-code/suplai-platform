@@ -302,9 +302,13 @@ def main() -> None:
     if not clients:
         raise SystemExit("[FAIL] No se encontraron clientes en phase-04 / phase-05.")
 
-    products = [p for p in load_catalog_products(schema) if p["is_mock"]]
+    products_all = load_catalog_products(schema)
+    products = [p for p in products_all if p["is_mock"]]
     if not products:
-        raise SystemExit("[FAIL] No se encontraron productos mock en phase-01-productos.csv.")
+        print("[WARN] No hay productos is_mock=true; se usa el catálogo completo (típico de tenant con lista real).")
+        products = products_all
+    if not products:
+        raise SystemExit("[FAIL] No se encontraron productos en phase-01-productos.csv.")
 
     prices = load_prices(schema)
     promos = load_promotions(schema)

@@ -24,6 +24,18 @@ Aplica cuando trabajás en `implementacion/**` o el usuario pide implementar/onb
 - **MUST NOT** borrar datos si `COUNT(*) > 0` en productos/clientes y el implementador no confirmó que es entorno de prueba/mock.
 - **MUST NOT** pedir al implementador que escriba SQL; vos proponés pasos en lenguaje simple.
 
+## Credenciales demo
+
+- **MUST** usar email `admin@{schema_name}.com` y contraseña **`Suplai2026`** al crear el owner de una demo.
+- **MUST NOT** inventar otra password (`ForsaDemo2026!`, `{Tenant}Demo2026!`, etc.) salvo pedido explícito.
+
+## Catálogo en demo agéntica
+
+- **MUST** recortar a **80–100 SKUs** descriptivos del negocio cuando el origen tiene más de 100 ítems con precio (salvo que el implementador pida el catálogo completo).
+- **MUST** guardar el universo en `inputs/catalogo-completo.csv` y cargar solo el recorte.
+- **MUST NOT** omitir Fase 1.2 en modo demo: se nutren esos 80–100 (descripciones, aliases, UMV local).
+- **MUST NOT** armar demos de 20–25 SKUs salvo pedido explícito.
+
 ## Vocabulario con el implementador
 
 Usar: "confirmar", "revisar CSV", "siguiente fase", "schema", "cantidad de productos cargados".

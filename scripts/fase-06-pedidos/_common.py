@@ -242,7 +242,10 @@ def load_prices(schema: str) -> dict[str, dict[int, Decimal]]:
             continue
         price = money(row.get("precio_unidad", row.get("precio", 0)))
         bucket = prices.setdefault(code, {})
-        bucket[raw_lista_id] = price
+        bucket[str(raw_lista_id)] = price
+        lista_id = parse_int(raw_lista_id, 0)
+        if lista_id:
+            bucket[lista_id] = price
 
         numeric_key = parse_int(raw_lista_id, 0)
         if numeric_key:

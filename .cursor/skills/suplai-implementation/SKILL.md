@@ -14,6 +14,38 @@ Guía al **implementador no técnico** fase por fase. No mezclar fases en un sol
 3. Leer `implementacion/{schema_name}/manifest.yaml`.
 4. Aplicar reglas: `suplai-implementation-guardrails`, `suplai-implementation-mcp-writes`.
 
+## Credenciales demo (obligatorio)
+
+Al crear el owner del backoffice para una demo o implementación agéntica:
+
+- **Email:** `admin@{schema_name}.com` (ej. `admin@dinamic.com`)
+- **Contraseña:** `Suplai2026` — **siempre**. No inventar `*Demo2026!` ni otra clave por tenant.
+
+Guardar `admin_email` en `manifest.yaml`. No inventar otra password salvo pedido explícito del implementador. Alineado con spec 036 (onboarding guiado).
+
+## Modo demo agéntica (recorte de catálogo)
+
+Si el implementador pide **demo agéntica** o `manifest.modo = demo`:
+
+1. **No cargar el catálogo completo** cuando hay más de ~150 SKUs con precio. El Excel/PDF original y un `inputs/catalogo-completo.csv` quedan para la implementación real.
+2. **Seleccionar 80–100 productos** que sean descriptivos del negocio (ver Fase 1). Si el origen ya tiene ≤100 SKUs con precio, cargar todos.
+3. **Nutrir esos 80–100**: descripciones 10–25 palabras, aliases con UMV local (`caja`/`bulto` si el PdV lo dice así), categorías 4 niveles, 4 listas de precios, `is_mock=true`.
+4. **Fase 1.2 no se omite**: enriquecer los 80–100 cargados (todos), no un subconjunto chico ni 25 SKUs.
+5. Anotar en `manifest.demo.productos_cargados` el conteo real. Omitir solo Fase 9 (E2E) si la demo es liviana; no omitir 1.2.
+
+Criterio de selección (en orden):
+
+| Prioridad | Qué incluir | Cupo orientativo |
+|-----------|-------------|------------------|
+| 1 | Marca líder / exclusiva del tenant | 20–35% del recorte |
+| 2 | Líneas comerciales que el cliente nombra en la reunión | ≥3 SKUs por línea relevante |
+| 3 | Variantes de formato que se piden por WhatsApp (caja 500 / 1,5 / 2,25) | las de la marca líder |
+| 4 | Marcas locales o de zona | 4–10 |
+| 5 | Competencia que el PdV nombra | 6–12 |
+| 6 | Completar hasta 80–100 con mix del resto (sin 40 whiskies iguales) | el saldo |
+
+Solo SKUs con **Precio Final > 0**. Documentar el recorte en `outputs/phase-01-productos.csv` y pedir **"confirmar carga"** antes de insertar.
+
 ## Orden de fases
 
 | # | Skill | Carpeta |
