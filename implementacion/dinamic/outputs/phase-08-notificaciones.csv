@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2091,Calidad,open,Reclamo por DESENGRASANTE MOTORES FORCE X PREMIUM — 1 L con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego DESENGRASANTE MOTORES FORCE X PREMIUM — 1 L en mal estado y quiero hacer el reclamo.",2026-08-31 11:15:00,,true
+TKT-2092,Calidad,open,Reclamo por SHAMPOO T/SEDAL NACARADO (PH NEUTRO) — 5 L con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego SHAMPOO T/SEDAL NACARADO (PH NEUTRO) — 5 L en mal estado y quiero hacer el reclamo.",2026-08-30 08:15:00,,true
+TKT-2093,Calidad,open,Reclamo por DESMANCHADOR DE ROPA PRELAVADO CONCENTRADO — 5 L con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego DESMANCHADOR DE ROPA PRELAVADO CONCENTRADO — 5 L en mal estado y quiero hacer el reclamo.",2026-08-29 05:15:00,,true
+TKT-2094,Logistica,open,Demora en la entrega del pedido P-00082 de LAVANDINA AL 55% — 5 L.,5492612928724,"Buen dia, sigo esperando el pedido P-00082 de LAVANDINA AL 55% — 5 L y no llego.",2026-08-31 02:15:00,,true
+TKT-2095,Logistica,open,Demora en la entrega del pedido P-00084 de CLORO AL 104% — 5 L.,5492617236955,"Buen dia, sigo esperando el pedido P-00084 de CLORO AL 104% — 5 L y no llego.",2026-08-30 11:15:00,,true
+TKT-2096,Logistica,open,Demora en la entrega del pedido P-00086 de SHAMPOO PARA PERROS (PH NEUTRO) — 5 L.,5492617413812,"Buen dia, sigo esperando el pedido P-00086 de SHAMPOO PARA PERROS (PH NEUTRO) — 5 L y no llego.",2026-08-29 08:15:00,,true
+TKT-2097,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Casa de Limpieza 25 de Mayo.,5493587905250,,2026-08-31 05:15:00,,true
+TKT-2098,Administracion,open,Solicita corregir datos administrativos de Droguería Casilda Centro en el sistema.,5493582641213,,2026-08-30 02:15:00,,true
+TKT-2099,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Ferretería Don Santos.,5492991227644,,2026-08-29 11:15:00,,true
+TKT-2100,Administracion,open,Solicita corregir datos administrativos de Revendedor Los Pinos en el sistema.,5492612928724,,2026-08-31 08:15:00,,true
+TKT-2101,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Lavadero El Pueblo.,5492617236955,,2026-08-30 05:15:00,,true
+TKT-2102,Administracion,closed,Solicita corregir datos administrativos de Ferretería La Unión en el sistema.,5492617413812,,2026-08-15 05:15:00,2026-08-15 20:15:00,true
+TKT-2103,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Piletero El Manantial.,5492998066543,,2026-08-14 11:15:00,2026-08-15 03:15:00,true
+TKT-2104,Logistica,closed,Demora en la entrega del pedido P-00104 de SUAVIZANTE AMARILLO — 20 L.,5493418277249,,2026-08-13 09:15:00,2026-08-14 02:15:00,true
+TKT-2105,Calidad,closed,Reclamo por JABON DE MANOS ANTIBACTERIAL ESPADOL TRANSP. AMARILLO — 5 L con entrega en mal estado o faltante parcial.,5493587747641,,2026-08-12 07:15:00,2026-08-13 01:15:00,true
+TKT-2106,Administracion,closed,Solicita corregir datos administrativos de Almacén San Martín en el sistema.,5492614053074,,2026-08-11 05:15:00,2026-08-12 00:15:00,true
+TKT-2107,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Almacén Don Roberto.,5492999435946,,2026-08-26 11:15:00,2026-08-27 07:15:00,true
+TKT-2108,Logistica,closed,Demora en la entrega del pedido P-00092 de PERF.BASE ALCOHOL COLONIA BEBE — 5 L.,5493416524997,,2026-08-25 09:15:00,2026-08-26 06:15:00,true

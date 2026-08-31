@@ -1,0 +1,503 @@
+C X1LT
+C X5LT
+C GNEL DILUCIÓN
+FRAC.X1LT.
+FRAC. X 5 LTS.
+FRAC. X20 LTS.
+5213
+LISTO
+10.400,00
+$            
+2145
+1145
+145 LISTO
+6.875,00
+$                  
+5.810,00
+$               
+4.845,00
+$             
+2040
+1040
+40
+1+2
+6.475,00
+$                  
+4.500,00
+$               
+4.300,00
+$             
+2041
+1041
+41
+1+2
+6.475,00
+$                  
+4.500,00
+$               
+4.300,00
+$             
+2042
+1042
+42
+1+4
+9.780,00
+$                  
+8.695,00
+$               
+7.920,00
+$             
+2045
+Listo
+7.000,00
+$                  
+2046
+Listo
+7.000,00
+$                  
+2047
+Listo
+7.000,00
+$                  
+2048
+1048
+48
+1+2
+3.750,00
+$                  
+3.100,00
+$               
+2.710,00
+$             
+C X1LT
+C X5LT
+1/4 DILUCIÓN
+1/4
+FRAC. 1LT
+FRAC. 5LT.
+2065
+1065
+65 1 LT + 50
+3.990,00
+$                  
+14.180,00
+$            
+13.000,00
+$           
+2066
+1066
+66 1 LT + 50
+3.990,00
+$                  
+14.180,00
+$            
+13.000,00
+$           
+C X1LT
+C X5LT
+1/4 DILUCIÓN
+1/4P/15lts
+FRAC. 1LT
+FRAC.  5LT.
+2061
+1061
+61 1 LT + 60
+3.750,00
+$                  
+13.000,00
+$            
+11.950,00
+$           
+2167
+1167
+167 1 LT + 60
+3.750,00
+$                  
+13.000,00
+$            
+11.950,00
+$           
+2058
+1058
+58 1 LT + 60
+3.750,00
+$                  
+13.000,00
+$            
+11.950,00
+$           
+2071
+1071
+71 1 LT + 60
+3.750,00
+$                  
+13.000,00
+$            
+11.950,00
+$           
+2184
+1184
+184 1 LT + 60
+3.750,00
+$                  
+13.000,00
+$            
+11.950,00
+$           
+2170
+1170
+170 1 LT + 60
+3.750,00
+$                  
+13.000,00
+$            
+11.950,00
+$           
+2059
+1059
+59 1 LT + 60
+3.750,00
+$                  
+13.000,00
+$            
+11.950,00
+$           
+C X1LT
+C X5LT
+1/4 DILUCIÓN
+1/4P/15lts
+FRAC. 1LT
+FRAC.  5LT.
+2052
+1052
+52 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2054
+1054
+54 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2055
+1055
+63 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2064
+1064
+64 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2049
+1049
+49 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2067
+1067
+67 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2069
+1069
+69 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2165
+1165
+165 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2160
+1160
+160 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2166
+1166
+166 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2158
+1158
+158 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2057
+1057
+57 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2144
+1144
+144 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+C X1LT
+C X5LT
+1/4 DILUCIÓN
+1/4P/15lts
+FRAC. 1LT
+FRAC.  5LT.
+2050
+1050
+50 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2051
+1051
+51 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2053
+1053
+53 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2055
+1055
+55 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2056
+1056
+56 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2072
+1072
+72 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2109
+1109
+109 1 LT + 60
+3.595,00
+$                  
+11.950,00
+$            
+10.900,00
+$           
+2070
+1070
+70 1 LT + 20
+16.700,00
+$            
+14.400,00
+$           
+C X1LT
+C X5LT
+C GNEL DILUCIÓN
+FRAC. 1LT
+FRAC.  5LT.
+FRAC. 20LT
+2181
+1181
+181 LISTO
+$ 6.250
+5.205,00
+$               
+4.585,00
+$             
+2082
+1082
+82 LISTO
+8.230,00
+$                  
+6.050,00
+$               
+5.520,00
+$             
+2083
+1083
+83 LISTO
+7.570,00
+$                  
+6.250,00
+$               
+5.680,00
+$             
+2124
+1124
+124 LISTO
+FLIT  CASA Y JARDIN
+2.915,00
+$                  
+2.630,00
+$               
+2.370,00
+$             
+2084
+1084
+84
+1+9
+LIMPIAVIDRIOS AZUL    T/PROFESIONAL NUEVA FORMULA
+5.730,00
+$                  
+4.840,00
+$               
+4.450,00
+$             
+2085
+1085
+85 LISTO
+MOJALAMPAZOS PERFUMADO AZUL -GUINDA      (BASE SOLVENTE)
+6.500,00
+$                  
+6.000,00
+$               
+5.725,00
+$             
+1139
+139 LISTO
+QUITASARRO  PREMIUN 
+-
+$                           
+1.460,00
+$               
+1.150,00
+$             
+1087
+87 LISTO
+DESTAPACAÑERIAS
+-
+$                           
+1.875,00
+$               
+1.565,00
+$             
+2146
+1146
+146 LISTO
+ACEITE P/ANTORCHAS CON CITRONELLA 
+6.770,00
+$                  
+6.240,00
+$               
+5.680,00
+$             
+CERA  ACRILICA NATURAL  AUTOBRILLO
+DESINF.BACTERICIDA LISOFORM
+CERA  MADERA NATURAL CREMOSA
+CERA  MADERA ROBLE CLARO  CREMOSA
+CERA  MADERA ROBLE OSCURO CREMOSA
+LIMPIADOR CONCENTRADO LECHOSO/TRANSPARENTE BEBE
+LIMPIADOR CONCENTRADO  LAVANDA GLADE                  TRANSP.        (violeta)    
+CERA  ACRILICA ROJA   AUTOBRILLO
+LIMPIADOR CONCENTRADO  SANDALO                               TRANSP.        ( azul )            
+LIMPIADOR CONCENTRADO LECHOSO/TRANSPARENTE ARPEGE       
+HECHO EN EL BALDE CELESTE
+LIMPIADOR CONCENTRADO TRANSPARENTE FLORAL       
+LIMPIADOR CONCENTRADO LECHOSO CITRONELLA
+LIMPIADOR CONCENTRADO TRANSPARENTE BRISA POLAR       
+LIMPIADOR CONCENTRADO LECHOSO/TRANSPARENTE CHERRY      
+LINEA CLASICA
+LIMPIADOR CONCENTRADO LECHOSO/TRANSPARENTE PINO       
+LIMPIADOR CONCENTRADO LECHOSO/TRANSPARENTE LAVANDA
+LIMPIADOR CONCENTRADO LECHOSO/TRANSPARENTE LIMON
+CIPERMETRINA P/ DILUIR ( K-OTRINA ) EMULSIONADA DILUSION  1/20 LTS.
+LIMPIADOR CONCENTRADO LECHOSO/TRANSPARENTE CHICLE
+LIMPIADOR CONCENTRADO TRANSPARENTE COLONIA BLUE   
+LIMPIADOR CONCENTRADO  CITRAL                                    TRANSP.       (verde)
+LINEA TRADICIONAL
+LUSTRAMUEBLES SILICONADOS T/BLEM  X  LITRO LISTO
+LIMPIADOR ABRILLANTADOR DE PISOS FLOTANTES  x 5 lts.   Listo
+DIVISION CERAS
+CERA  ACRILICA NEGRA AUTOBRILLO
+BACTERICIDAS       CONCENTRADOS
+FLUIDO EXTRA         
+INSECTICIDA PERFUMADO T/ FLIT                             (BASE SOLVENTE )
+LIMPIADOR CONCENTRADO TRANSPARENTE VAINILLA - COCO       
+DESMANCHADOR LIMPIA ALFOMBRA  APC 
+LIMPIADOR CONCENTRADO TRANSPARENTE PINOLUZ   
+DIVISION VARIOS
+LIMPIADOR CONCENTRADO  FRESCURAL                            LECHOSO   (amarillo)
+LIMPIADOR CONCENTRADO LECHOSO PROCENEX
+LIMPIADOR CONCENTRADO TRANSPARENTE BAMBU    
+DESINF.BACTERICIDA ESPADOL
+LIMPIADORES PARA PISOS
+LINEA INNOVADORA
+LIMPIADOR CONCENTRADO NARANJA CARAMELO            TRANSP.       (naranaja)   
+LIMPIADOR CONCENTRADO MORA                                       TRANSP.       (lila)   
+LIMPIADOR CONCENTRADO FLOR DE LIZ                            LECHOSO        (violeta)
+LIMPIADOR CONCENTRADO LECHOSO/TRANSPARENTE CONIGLIO       
+LIMPIADOR CONCENTRADO LECHOSO/TRANSPARENTE MARINA 
+LIMPIADOR CONCENTRADO TRANSPARENTE PAPAYA
+LIMPIADOR CONCENTRADO TRANSPARENTE UVA       
+LIMPIADOR CONCENTRADO TRANSPARENTE CHIPRE       

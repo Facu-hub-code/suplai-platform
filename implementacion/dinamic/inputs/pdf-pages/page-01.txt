@@ -1,0 +1,567 @@
+C X1LT
+C X5LT
+C GNEL DILUCIÓN
+FRAC. 1LT
+FRAC. 5LT
+FRAC. 20LT
+2002
+1002
+2 LISTO
+$ 2.700
+1.900,00
+$               
+1.657,00
+$             
+2003
+1003
+3 LISTO
+$ 7.083
+5.980,00
+$               
+5.210,00
+$             
+2004
+1004
+4
+1 +4
+$ 4.200
+3.360,00
+$               
+3.070,00
+$             
+2005
+1005
+5 LISTO
+$ 3.750
+2.960,00
+$               
+2.605,00
+$             
+2006
+1006
+6 LISTO
+$ 3.750
+2.960,00
+$               
+2.605,00
+$             
+2007
+1007
+7
+1+1
+$ 2.830
+1.790,00
+$               
+1.590,00
+$             
+2300
+1300
+300 LISTO
+$ 5.955
+5.100,00
+$               
+4.495,00
+$             
+2162
+1162
+162 LISTO
+$ 5.220
+4.920,00
+$               
+4.300,00
+$             
+2164
+1164
+164 LISTO
+$ 7.240
+5.670,00
+$               
+4.940,00
+$             
+2181
+1181
+181 LISTO
+$ 6.250
+5.200,00
+$               
+4.590,00
+$             
+2133
+1133
+133 LISTO
+$ 4.220
+3.180,00
+$               
+2.960,00
+$             
+C X1LT
+C X5LT
+C GNEL DILUCIÓN
+FRAC. 5LT
+FRAC. 20LT
+FRAC. 200LT
+1008
+8 LISTO
+1.200,00
+$                  
+900,00
+$                  
+800,00
+$                 
+1009
+9 LISTO
+1.200,00
+$                  
+900,00
+$                  
+800,00
+$                 
+1011
+11 LISTO
+1.200,00
+$                  
+900,00
+$                  
+800,00
+$                 
+1010
+10 LISTO
+1.350,00
+$                  
+1.000,00
+$               
+900,00
+$                 
+1012
+12 LISTO
+1.350,00
+$                  
+1.000,00
+$               
+900,00
+$                 
+1117
+117 LISTO
+1.350,00
+$                  
+1.000,00
+$               
+900,00
+$                 
+1013
+13 LISTO
+1.350,00
+$                  
+1.000,00
+$               
+900,00
+$                 
+C X1LT
+C X5LT
+C GNEL
+1199
+199 LISTO
+1.600,00
+$                  
+1.200,00
+$               
+1.050,00
+$             
+1120
+120 LISTO
+1.600,00
+$                  
+1.200,00
+$               
+1.050,00
+$             
+1147
+147 LISTO
+2.000,00
+$                  
+1.725,00
+$               
+1.550,00
+$             
+C X1LT
+C X5LT
+C GNEL
+FRAC. 5LT
+FRAC. 20LT
+FRAC. 200LT
+1018
+18 LISTO
+SUAVIZANTE CELESTE                        
+980,00
+$                     
+800,00
+$                  
+720,00
+$                 
+1019
+19 LISTO
+SUAVIZANTE AMARILLO                    
+980,00
+$                     
+800,00
+$                  
+720,00
+$                 
+1021
+21 LISTO
+SUAVIZANTE BLANCO                      
+980,00
+$                     
+800,00
+$                  
+720,00
+$                 
+1022
+22 LISTO
+SUAVIZANTE ROSA                     
+980,00
+$                     
+800,00
+$                  
+720,00
+$                 
+1168
+168 LISTO
+SUAVIZANTE AZUL                            
+980,00
+$                     
+800,00
+$                  
+720,00
+$                 
+1196
+196 LISTO
+SUAVIZANTE  LILA C/ MICROCAPSULAS  (FROTAR ROPA)                    
+1.350,00
+$                  
+1.050,00
+$               
+950,00
+$                 
+1198
+198 LISTO
+SUAVIZANTE   TRIPLE EXTRA PERFUME 
+1.350,00
+$                  
+1.050,00
+$               
+950,00
+$                 
+C X1LT
+C X5LT
+C GNEL
+FRAC. 1LT
+FRAC. 5LT
+FRAC. 20LT
+2016
+1016
+16 LISTO
+LAVANDINA ROPA BLANCA
+1.250,00
+$                  
+925,00
+$                  
+730,00
+$                 
+2017
+1017
+17 LISTO
+LAVANDINA ROPA COLOR
+1.300,00
+$                  
+935,00
+$                  
+750,00
+$                 
+2023
+1023
+23 LISTO
+1.500,00
+$                  
+1.410,00
+$               
+1.215,00
+$             
+2024
+1024
+24 LISTO
+1.500,00
+$                  
+1.410,00
+$               
+1.215,00
+$             
+2014
+1014
+14
+1+1
+APRESTO PLANCHADO  1+1
+2.500,00
+$                  
+1.355,00
+$               
+1.250,00
+$             
+2015
+1015
+15
+1+4
+6.100,00
+$                  
+4.660,00
+$               
+4.250,00
+$             
+2171
+1171
+171 LISTO
+2.200,00
+$                  
+2.050,00
+$               
+1.790,00
+$             
+C X1LT
+C X5LT
+C GNEL DILUCIÓN
+FRAC. 1LT
+FRAC. 5LT
+FRAC. 20LT
+1025
+25 LISTO
+1.100,00
+$               
+815,00
+$                 
+1026
+26 LISTO
+870,00
+$                  
+704,00
+$                 
+2027
+1027
+27 LISTO
+1.970,00
+$                  
+1.550,00
+$               
+1.200,00
+$             
+2028
+1028
+28 LISTO
+1.770,00
+$                  
+1.290,00
+$               
+1.095,00
+$             
+2029
+1029
+29
+1+2
+2.425,00
+$                  
+2.000,00
+$               
+1.810,00
+$             
+2032
+1032
+32
+1+2
+2.425,00
+$                  
+2.000,00
+$               
+1.810,00
+$             
+2031
+1031
+31 LISTO
+4.000,00
+$                  
+3.200,00
+$               
+2.500,00
+$             
+2154
+1154
+154
+1+1
+7.320,00
+$                  
+5.620,00
+$               
+4.940,00
+$             
+2151
+1151
+151 LISTO
+4.280,00
+$                  
+3.440,00
+$               
+3.125,00
+$             
+2030
+1030
+30 LISTO
+2.505,00
+$                  
+1.775,00
+$               
+1.570,00
+$             
+2161
+1161
+161
+1+1
+4.280,00
+$                  
+3.440,00
+$               
+3.125,00
+$             
+2186
+1186
+186 LISTO
+C X1LT
+C X5LT
+C GNEL DILUCIÓN
+FRAC. 5LT
+FRAC. 20LT
+FRAC. 200LT
+1138
+138 LISTO
+2.200,00
+$                  
+1.885,00
+$               
+1.710,00
+$             
+1033
+33 LISTO
+1.890,00
+$                  
+1.695,00
+$               
+1.545,00
+$             
+1235
+235 LISTO
+1.580,00
+$                  
+1.220,00
+$               
+1.110,00
+$             
+1034
+34 LISTO
+1.580,00
+$                  
+1.220,00
+$               
+1.110,00
+$             
+1035
+35 LISTO
+1.580,00
+$                  
+1.220,00
+$               
+1.110,00
+$             
+1036
+36 LISTO
+1.580,00
+$                  
+1.220,00
+$               
+1.110,00
+$             
+1037
+37 LISTO
+1.580,00
+$                  
+1.220,00
+$               
+1.110,00
+$             
+1137
+137 LISTO
+1.580,00
+$                  
+1.220,00
+$               
+1.110,00
+$             
+1038
+38
+1+2
+3.720,00
+$                  
+3.320,00
+$               
+2.980,00
+$             
+DESMANCHADOR LIMPIA ALFOMBRA APC  
+MES               AGOSTO               2026
+DESMANCHADOR DE ROPA PRELAVADO CONCENTRADO           
+DESMANCHADOR DE TELAS OXI -POWER LISTO         
+DESENG. GASTROMICO C/ BASE DE TERPERNO  (GRASA ANIMAL/VEGETAL)
+DIVISION DESENGRASANTES
+DESENG .BLANCO CREMOSO (CIF)
+DESENG. MOTORES- GEL 1+2
+DIVISION DETERGENTES
+DIVISIÓN COSMETICA AUTOMOTORES
+SHAMPOO P/ AUTOMOTOR C/ ABRILLANTADOR
+REVIVIDOR SILICONADO INTERIOR  NUEVO OFERTA
+ESPUMA ACTIVA P/ CARROSERIA CONCENTRADA      (VER VIDEO DEMOSTRACION)
+JABON LÍQUIDO  BLANCO B/E (CON BLANQUEADOR)
+RENOVADOR CAUCHO EXTRA  (ROSA)
+RENOVADOR  CAUCHO NEGRO 
+QUITABICHOS/ LAVA LONAS 
+PERFUMES P/TAPIZADOS AUTOS
+DIVISION TEXTILES JABONES
+JABON LÍQUIDO VERDE B/E
+DESENGRASANTE MOTORES FORCE X PREMIUM
+LIMPIADOR ABRILLANTADOR DE METALES (INOXIDABLE Y ALUMINIO)
+JABON MANOS DESENGRASANTE P/ TALLERES !!SUPER EFECTIVO!!
+JABON LIQUIDO CELESTE CON BICARBONATO
+JABON LÍQ.VERDE C/QUITAMANCHA
+JABON LIQUIDO C/SUAVI. LILA B/E
+JABON LÍQ. FUTURE ROSA B/E
+JABON LÍQ.AZUL B/E
+JABON LIQ.  CELESTIAL PLUS  C/MICROCAPSULAS B/E (FROTAR ROPA)
+JABON LIQ.  PREMIUN  PROFESIONAL . 10 %  MATERIA ACTIVA
+DIVISION TEXTILES SUAVIZANTES
+DIVISION TEXTILES JABONES PREMIUM
+JABON LIQUIDO  TRIPLE EXTRA PERFUME 
+SHAMPOO  ROPA FINA AMARILLO
+SHAMPOO ROPA FINA  BCO B/ESP.
+DIVISION TEXTILES VARIOS
+CLORO AL 104%                       (PREGUNTAR POR PRECIO A GRANEL 1.000 LT.)
+DES.DESCARBONIZANTE SÓDICO (P/BANDEJA/FRITERAS) SUPER EFECTIVO
+DES. INDUSTRIAL  CREMOSO/GEL
+LAVANDINA GEL PREMIUM VERDE CON EUCALIPTUS
+LAVANDINA AL 55%
+DESENGRASANTE AMONIACAL MULTIUSO  NARANJA     1+2
+HARPIC RENOVADOR DE SARRO/LIMPIA INODOROS  EN GEL
+LAVANDINA EN GEL 
+DET. LAVAVAJILLAS AROMA LIMON                    NUEVA FORMULA
+DESENGRASANTE AMONIACAL MULTIUSO  VERDE     1+2
+DET. LAVAVAJILLA NARANJA
+DET. ULTRA PREMIUM AL 30% LISTO
+DET.  LAVAVAJILLA FLUOR
+DET.  LAVAVAJILLA AMARILLO
+DET.  LAVAVAJILLA VERDE
+DET.  LAVAVAJILLA CREMOSO
+DETERGENTE CONCENTRADO 1+2  
+DET GASTRONOMICO ESPECIALIZADO      NUEVA FORMULA X3 CONCENTRADO

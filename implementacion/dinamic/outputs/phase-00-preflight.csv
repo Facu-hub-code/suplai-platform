@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: 0558b101-da9d-4dec-b756-26dde6601032
+schema_existe,Tablas en dinamic,ok,71 tablas clonadas desde gonzales
+productos_vacio,COUNT productos = 0,ok,0 productos encontrados
+clients_vacio,COUNT clients = 0,ok,0 clientes encontrados
+mcp_conectado,MCP supabase responde,ok,conectado
+carpeta_implementacion,manifest.yaml presente,ok,implementacion/dinamic/manifest.yaml
+is_mock_column,Columna is_mock en productos,ok,true
+excel_presente,Archivo en inputs/,ok,LISTA DE PRECIOS BLANCA AGOSTO 2026.pdf (PDF 4 paginas; no Excel)

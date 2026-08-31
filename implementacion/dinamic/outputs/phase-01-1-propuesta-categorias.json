@@ -1,0 +1,955 @@
+{
+  "schema": "dinamic",
+  "products": [
+    {
+      "product_code": "1002",
+      "nombre": "SHAMPOO P/ AUTOMOTOR C/ ABRILLANTADOR — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cuidado del Automotor",
+        "3": "Shampoo para Automóviles",
+        "4": "Shampoo para Automóviles con Abrillantador"
+      }
+    },
+    {
+      "product_code": "1004",
+      "nombre": "ESPUMA ACTIVA P/ CARROSERIA CONCENTRADA — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cuidado del Automotor",
+        "3": "Espuma para Carrocería",
+        "4": "Espuma Activa para Carrocería Concentrada"
+      }
+    },
+    {
+      "product_code": "1008",
+      "nombre": "JABON LÍQUIDO VERDE B/E — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón Líquido",
+        "4": "Jabón Líquido Verde"
+      }
+    },
+    {
+      "product_code": "1009",
+      "nombre": "JABON LÍQ. FUTURE ROSA B/E — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón Líquido",
+        "4": "Jabón Líquido Rosa"
+      }
+    },
+    {
+      "product_code": "1010",
+      "nombre": "JABON LÍQ.VERDE C/QUITAMANCHA — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón Líquido",
+        "4": "Jabón Líquido Verde con Quitamanchas"
+      }
+    },
+    {
+      "product_code": "1011",
+      "nombre": "JABON LÍQ.AZUL B/E — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón Líquido",
+        "4": "Jabón Líquido Azul"
+      }
+    },
+    {
+      "product_code": "1012",
+      "nombre": "JABON LIQUIDO C/SUAVI. LILA B/E — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón Líquido",
+        "4": "Jabón Líquido Lila con Suavizante"
+      }
+    },
+    {
+      "product_code": "1013",
+      "nombre": "JABON LÍQUIDO BLANCO B/E (CON BLANQUEADOR) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón Líquido",
+        "4": "Jabón Líquido Blanco con Blanqueador"
+      }
+    },
+    {
+      "product_code": "1014",
+      "nombre": "APRESTO PLANCHADO 1+1 — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Aprestos",
+        "3": "Apresto",
+        "4": "Apresto Planchado"
+      }
+    },
+    {
+      "product_code": "1015",
+      "nombre": "DESMANCHADOR DE ROPA PRELAVADO CONCENTRADO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desmanchadores",
+        "3": "Desmanchador de Ropa",
+        "4": "Desmanchador de Ropa Prelavado Concentrado"
+      }
+    },
+    {
+      "product_code": "1016",
+      "nombre": "LAVANDINA ROPA BLANCA — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Lavandina",
+        "4": "Lavandina Ropa Blanca"
+      }
+    },
+    {
+      "product_code": "1018",
+      "nombre": "SUAVIZANTE CELESTE — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Suavizantes",
+        "3": "Suavizante",
+        "4": "Suavizante Celeste"
+      }
+    },
+    {
+      "product_code": "1019",
+      "nombre": "SUAVIZANTE AMARILLO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Suavizantes",
+        "3": "Suavizante",
+        "4": "Suavizante Amarillo"
+      }
+    },
+    {
+      "product_code": "1021",
+      "nombre": "SUAVIZANTE BLANCO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Suavizantes",
+        "3": "Suavizante",
+        "4": "Suavizante Blanco"
+      }
+    },
+    {
+      "product_code": "1022",
+      "nombre": "SUAVIZANTE ROSA — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Suavizantes",
+        "3": "Suavizante",
+        "4": "Suavizante Rosa"
+      }
+    },
+    {
+      "product_code": "1023",
+      "nombre": "SHAMPOO ROPA FINA AMARILLO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cuidado de Ropa",
+        "3": "Shampoo para Ropa",
+        "4": "Shampoo Ropa Fina Amarillo"
+      }
+    },
+    {
+      "product_code": "1027",
+      "nombre": "LAVANDINA GEL PREMIUM VERDE CON EUCALIPTUS — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Lavandinas",
+        "3": "Lavandina en Gel",
+        "4": "Lavandina Gel Premium Verde con Eucaliptus"
+      }
+    },
+    {
+      "product_code": "1028",
+      "nombre": "LAVANDINA EN GEL — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Lavandinas",
+        "3": "Lavandina en Gel",
+        "4": "Lavandina en Gel"
+      }
+    },
+    {
+      "product_code": "1030",
+      "nombre": "DESENG .BLANCO CREMOSO (CIF) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desengrasantes",
+        "4": "Desengrasante Blanco Cremoso"
+      }
+    },
+    {
+      "product_code": "1031",
+      "nombre": "DES.DESCARBONIZANTE SÓDICO (P/BANDEJA/FRITERAS) SUPER EFECTIVO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desengrasantes",
+        "4": "Desengrasante Descarbonizante Sódico"
+      }
+    },
+    {
+      "product_code": "1034",
+      "nombre": "DET. LAVAVAJILLA FLUOR — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergente Lavavajillas",
+        "4": "Detergente Lavavajilla Fluor"
+      }
+    },
+    {
+      "product_code": "1035",
+      "nombre": "DET. LAVAVAJILLA AMARILLO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergente Lavavajillas",
+        "4": "Detergente Lavavajilla Amarillo"
+      }
+    },
+    {
+      "product_code": "1037",
+      "nombre": "DET. LAVAVAJILLA CREMOSO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergente Lavavajillas",
+        "4": "Detergente Lavavajilla Cremoso"
+      }
+    },
+    {
+      "product_code": "1040",
+      "nombre": "CERA ACRILICA NEGRA AUTOBRILLO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ceras",
+        "3": "Cera Acrílica",
+        "4": "Cera Acrílica Negra Autobrilho"
+      }
+    },
+    {
+      "product_code": "1042",
+      "nombre": "CERA ACRILICA NATURAL AUTOBRILLO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ceras",
+        "3": "Cera Acrílica",
+        "4": "Cera Acrílica Natural Autobrilho"
+      }
+    },
+    {
+      "product_code": "1052",
+      "nombre": "LIMPIADOR CONCENTRADO LECHOSO/TRANSPARENTE ARPEGE — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiador Concentrado",
+        "4": "Limpiador Concentrado Lechoso/Transparente"
+      }
+    },
+    {
+      "product_code": "1058",
+      "nombre": "LIMPIADOR CONCENTRADO FLOR DE LIZ LECHOSO (VIOLETA) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiador Concentrado",
+        "4": "Limpiador Concentrado Flor de Liz Lechoso"
+      }
+    },
+    {
+      "product_code": "1059",
+      "nombre": "LIMPIADOR CONCENTRADO FRESCURAL LECHOSO (AMARILLO) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiador Concentrado",
+        "4": "Limpiador Concentrado Frescural Lechoso"
+      }
+    },
+    {
+      "product_code": "1070",
+      "nombre": "CIPERMETRINA P/ DILUIR ( K-OTRINA ) EMULSIONADA DILUSION 1/20 LTS — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Insecticidas",
+        "3": "Insecticida",
+        "4": "Cipermetrina para Diluir"
+      }
+    },
+    {
+      "product_code": "1071",
+      "nombre": "LIMPIADOR CONCENTRADO LAVANDA GLADE TRANSP. (VIOLETA) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiador Concentrado",
+        "4": "Limpiador Concentrado Lavanda Glade Transparente"
+      }
+    },
+    {
+      "product_code": "1076",
+      "nombre": "PASTILLA DE CLORO TRIPLE ACCION 200 GR . — 1 KG",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Cloro",
+        "4": "Pastilla de Cloro Triple Acción"
+      }
+    },
+    {
+      "product_code": "1077",
+      "nombre": "CLORO POLVO POTE ( DISOLUCION RAPIDA) — 1 KG",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Cloro",
+        "4": "Cloro Polvo Pote"
+      }
+    },
+    {
+      "product_code": "1078",
+      "nombre": "MICROBIOCIDA ( CLORO POLVO 3 EN 1 ) POTE — 1 KG",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Cloro",
+        "4": "Microbiocida Cloro Polvo 3 en 1"
+      }
+    },
+    {
+      "product_code": "1082",
+      "nombre": "FLUIDO EXTRA — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasante",
+        "4": "Fluido Extra"
+      }
+    },
+    {
+      "product_code": "1083",
+      "nombre": "INSECTICIDA PERFUMADO T/ FLIT (BASE SOLVENTE ) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Insecticidas",
+        "3": "Insecticida",
+        "4": "Insecticida Perfumado"
+      }
+    },
+    {
+      "product_code": "1086",
+      "nombre": "PERF.BASE ALCOHOL COLONIA BEBE — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Perfumes",
+        "3": "Perfume",
+        "4": "Perfume Base Alcohol Colonia Bebé"
+      }
+    },
+    {
+      "product_code": "1094",
+      "nombre": "PERF.BASE ALCOCHOL TKT — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Perfumes",
+        "3": "Perfume",
+        "4": "Perfume Base Alcohol TKT"
+      }
+    },
+    {
+      "product_code": "1101",
+      "nombre": "PERF.BASE ALCOHOL COLONIA — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Perfumes",
+        "3": "Perfume",
+        "4": "Perfume Base Alcohol Colonia"
+      }
+    },
+    {
+      "product_code": "1112",
+      "nombre": "JABON EN POLVO BAJA ESPUMA X 10 KG — 10 KG",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón en Polvo",
+        "4": "Jabón en Polvo Baja Espuma"
+      }
+    },
+    {
+      "product_code": "1113",
+      "nombre": "ALCOHOL ETILICO SUELTO 96º — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Alcoholes",
+        "3": "Alcohol",
+        "4": "Alcohol Etílico Suelto"
+      }
+    },
+    {
+      "product_code": "1116",
+      "nombre": "ALCOHOL EN GEL .(FORMULA SECADO RAPIDO) NO PEGAJOSO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Alcoholes",
+        "3": "Alcohol",
+        "4": "Alcohol en Gel"
+      }
+    },
+    {
+      "product_code": "1117",
+      "nombre": "JABON LIQUIDO CELESTE CON BICARBONATO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón Líquido",
+        "4": "Jabón Líquido Celeste con Bicarbonato"
+      }
+    },
+    {
+      "product_code": "1118",
+      "nombre": "SHAMPOO T/SEDAL NACARADO (PH NEUTRO) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cuidado del Cabello",
+        "3": "Shampoo",
+        "4": "Shampoo para Cabello Sedal Nacarado"
+      }
+    },
+    {
+      "product_code": "1119",
+      "nombre": "ENJUAGUE CAPILAR T /SEDAL (PH NEUTRO) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cuidado del Cabello",
+        "3": "Acondicionador",
+        "4": "Enjuague Capilar Sedal"
+      }
+    },
+    {
+      "product_code": "1120",
+      "nombre": "JABON LIQ. CELESTIAL PLUS C/MICROCAPSULAS B/E (FROTAR ROPA) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón Líquido",
+        "4": "Jabón Líquido Celestial Plus"
+      }
+    },
+    {
+      "product_code": "1124",
+      "nombre": "FLIT CASA Y JARDIN — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Insecticidas",
+        "3": "Insecticida",
+        "4": "Insecticida Flit Casa y Jardín"
+      }
+    },
+    {
+      "product_code": "1125",
+      "nombre": "JABON DE MANOS CREMOSO COCO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón de Manos",
+        "4": "Jabón de Manos Cremoso Coco"
+      }
+    },
+    {
+      "product_code": "1130",
+      "nombre": "JABON DE MANOS BEBE/NEW WHITE TRANSP. AZUL — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón de Manos",
+        "4": "Jabón de Manos Bebé"
+      }
+    },
+    {
+      "product_code": "1132",
+      "nombre": "JABON DE MANOS ANTIBACTERIAL ESPADOL TRANSP. AMARILLO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón de Manos",
+        "4": "Jabón de Manos Antibacterial"
+      }
+    },
+    {
+      "product_code": "1133",
+      "nombre": "PERFUMES P/TAPIZADOS AUTOS — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Perfumes",
+        "3": "Perfume",
+        "4": "Perfume para Tapizados Autos"
+      }
+    },
+    {
+      "product_code": "1134",
+      "nombre": "JABON DE MANOS CREMOSO DOVE — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón de Manos",
+        "4": "Jabón de Manos Cremoso Dove"
+      }
+    },
+    {
+      "product_code": "1137",
+      "nombre": "DET. LAVAVAJILLA NARANJA — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergente Lavavajillas",
+        "4": "Detergente Lavavajilla Naranja"
+      }
+    },
+    {
+      "product_code": "1138",
+      "nombre": "DET GASTRONOMICO ESPECIALIZADO X3 CONCENTRADO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergente",
+        "4": "Detergente Gastronómico Especializado"
+      }
+    },
+    {
+      "product_code": "1140",
+      "nombre": "ALCOHOL DE QUEMAR — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Alcoholes",
+        "3": "Alcohol",
+        "4": "Alcohol de Quemar"
+      }
+    },
+    {
+      "product_code": "1146",
+      "nombre": "ACEITE P/ANTORCHAS CON CITRONELLA — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Aceites",
+        "3": "Aceite",
+        "4": "Aceite para Antorchas con Citronella"
+      }
+    },
+    {
+      "product_code": "1147",
+      "nombre": "JABON LIQ. PREMIUN PROFESIONAL . 10 % MATERIA ACTIVA — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón Líquido",
+        "4": "Jabón Líquido Premium Profesional"
+      }
+    },
+    {
+      "product_code": "1151",
+      "nombre": "DES. INDUSTRIAL CREMOSO/GEL — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasante",
+        "4": "Desengrasante Industrial Cremoso/Gel"
+      }
+    },
+    {
+      "product_code": "1154",
+      "nombre": "DESENG. GASTROMICO C/ BASE DE TERPERNO (GRASA ANIMAL/VEGETAL) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasante",
+        "4": "Desengrasante Gastronómico con Base de Terperno"
+      }
+    },
+    {
+      "product_code": "1160",
+      "nombre": "LIMPIADOR CONCENTRADO LECHOSO PROCENEX — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiador Concentrado",
+        "4": "Limpiador Concentrado Lechoso Procénex"
+      }
+    },
+    {
+      "product_code": "1161",
+      "nombre": "DESENG. MOTORES- GEL 1+2 — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasante",
+        "4": "Desengrasante Motores Gel"
+      }
+    },
+    {
+      "product_code": "1162",
+      "nombre": "LIMPIADOR ABRILLANTADOR DE METALES (INOXIDABLE Y ALUMINIO) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiador Abrillantador",
+        "4": "Limpiador Abrillantador de Metales"
+      }
+    },
+    {
+      "product_code": "1164",
+      "nombre": "JABON MANOS DESENGRASANTE P/ TALLERES — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón de Manos",
+        "4": "Jabón Manos Desengrasante"
+      }
+    },
+    {
+      "product_code": "1168",
+      "nombre": "SUAVIZANTE AZUL — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Suavizantes",
+        "3": "Suavizante",
+        "4": "Suavizante Azul"
+      }
+    },
+    {
+      "product_code": "1170",
+      "nombre": "LIMPIADOR CONCENTRADO CITRAL TRANSP. (VERDE) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiador Concentrado",
+        "4": "Limpiador Concentrado Citral"
+      }
+    },
+    {
+      "product_code": "1171",
+      "nombre": "DESMANCHADOR DE TELAS OXI -POWER LISTO — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desmanchadores",
+        "3": "Desmanchador",
+        "4": "Desmanchador de Telas Oxi-Power"
+      }
+    },
+    {
+      "product_code": "1172",
+      "nombre": "PERF.BASE ALCOHOL A + — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Perfumes",
+        "3": "Perfume",
+        "4": "Perfume Base Alcohol A+"
+      }
+    },
+    {
+      "product_code": "1174",
+      "nombre": "SHAMPOO PARA PERROS (PH NEUTRO) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cuidado de Mascotas",
+        "3": "Shampoo",
+        "4": "Shampoo para Perros"
+      }
+    },
+    {
+      "product_code": "1177",
+      "nombre": "CLORO POLVO POTE ( DISOLUCION RAPIDA) — 5 KG",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Cloro",
+        "4": "Cloro Polvo Pote"
+      }
+    },
+    {
+      "product_code": "1178",
+      "nombre": "MICROBIOCIDA ( CLORO POLVO 3 EN 1 ) POTE — 5 KG",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Cloro",
+        "4": "Microbiocida Cloro Polvo 3 en 1"
+      }
+    },
+    {
+      "product_code": "1181",
+      "nombre": "DESMANCHADOR LIMPIA ALFOMBRA APC — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desmanchadores",
+        "3": "Desmanchador",
+        "4": "Desmanchador Limpia Alfombra APC"
+      }
+    },
+    {
+      "product_code": "1196",
+      "nombre": "SUAVIZANTE LILA C/ MICROCAPSULAS (FROTAR ROPA) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Suavizantes",
+        "3": "Suavizante",
+        "4": "Suavizante Lila con Microcapsulas"
+      }
+    },
+    {
+      "product_code": "12",
+      "nombre": "JABON LIQUIDO C/SUAVI. LILA B/E — 20 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabón Líquido",
+        "4": "Jabón Líquido Lila con Suavizante"
+      }
+    },
+    {
+      "product_code": "1235",
+      "nombre": "DET. LAVAVAJILLAS AROMA LIMON — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergente Lavavajillas",
+        "4": "Detergente Lavavajillas Aroma Limón"
+      }
+    },
+    {
+      "product_code": "1300",
+      "nombre": "DESENGRASANTE MOTORES FORCE X PREMIUM — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasante",
+        "4": "Desengrasante Motores Force X Premium"
+      }
+    },
+    {
+      "product_code": "138",
+      "nombre": "DET GASTRONOMICO ESPECIALIZADO X3 CONCENTRADO — 20 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergente",
+        "4": "Detergente Gastronómico Especializado"
+      }
+    },
+    {
+      "product_code": "150",
+      "nombre": "DIFUSOR CON VARILLAS VAINILLA - VAINILLA/COCO - VAINILLA-LIMON - FRUTOS ROJOS - UVA - CHICLES - CITRICOS - LIMON - LAVANDA-LAVANDA/LIMON - BAMBU - VAINILLA/NARANJA - CONIGLIO — UNIDAD",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Perfumes",
+        "3": "Perfume",
+        "4": "Difusor con Varillas"
+      }
+    },
+    {
+      "product_code": "152",
+      "nombre": "PERFUMANTE VEHICULO VAINILLA-LIMON-LAVANDA-CONIGLIO-VIVEX-UVA — UNIDAD",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Perfumes",
+        "3": "Perfume",
+        "4": "Perfumante Vehículo"
+      }
+    },
+    {
+      "product_code": "153",
+      "nombre": "ESENCIA HORNILLO LAVANDA-LIMON-VAINILLA-FRUTILLA-DURAZNO-CANELA-MARINO — UNIDAD",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Esencias",
+        "3": "Esencia",
+        "4": "Esencia para Hornillo"
+      }
+    },
+    {
+      "product_code": "19",
+      "nombre": "SUAVIZANTE AMARILLO — 20 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Suavizantes",
+        "3": "Suavizante",
+        "4": "Suavizante Amarillo"
+      }
+    },
+    {
+      "product_code": "2014",
+      "nombre": "APRESTO PLANCHADO 1+1 — 1 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Aprestos",
+        "3": "Apresto",
+        "4": "Apresto Planchado"
+      }
+    },
+    {
+      "product_code": "2015",
+      "nombre": "DESMANCHADOR DE ROPA PRELAVADO CONCENTRADO — 1 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desmanchadores",
+        "3": "Desmanchadores de Ropa",
+        "4": "Desmanchador de Ropa Prelavado Concentrado"
+      }
+    },
+    {
+      "product_code": "2040",
+      "nombre": "CERA ACRILICA NEGRA AUTOBRILLO — 1 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ceras",
+        "3": "Ceras Acrílicas",
+        "4": "Cera Acrílica Negra Autobrilho"
+      }
+    },
+    {
+      "product_code": "2041",
+      "nombre": "CERA ACRILICA ROJA AUTOBRILLO — 1 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ceras",
+        "3": "Ceras Acrílicas",
+        "4": "Cera Acrílica Roja Autobrilho"
+      }
+    },
+    {
+      "product_code": "2042",
+      "nombre": "CERA ACRILICA NATURAL AUTOBRILLO — 1 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ceras",
+        "3": "Ceras Acrílicas",
+        "4": "Cera Acrílica Natural Autobrilho"
+      }
+    },
+    {
+      "product_code": "2058",
+      "nombre": "LIMPIADOR CONCENTRADO FLOR DE LIZ LECHOSO (VIOLETA) — 1 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiadores Concentrados",
+        "4": "Limpiador Concentrado Flor de Liz Lechoso"
+      }
+    },
+    {
+      "product_code": "2070",
+      "nombre": "CIPERMETRINA P/ DILUIR ( K-OTRINA ) EMULSIONADA DILUSION 1/20 LTS — 1 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Insecticidas",
+        "3": "Insecticidas Emulsionados",
+        "4": "Cipermetrina P/ Diluir"
+      }
+    },
+    {
+      "product_code": "2170",
+      "nombre": "LIMPIADOR CONCENTRADO CITRAL TRANSP. (VERDE) — 1 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiadores Concentrados",
+        "4": "Limpiador Concentrado Citral Transparente"
+      }
+    },
+    {
+      "product_code": "2181",
+      "nombre": "DESMANCHADOR LIMPIA ALFOMBRA APC — 1 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desmanchadores",
+        "3": "Desmanchadores de Alfombra",
+        "4": "Desmanchador Limpia Alfombra APC"
+      }
+    },
+    {
+      "product_code": "2300",
+      "nombre": "DESENGRASANTE MOTORES FORCE X PREMIUM — 1 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasantes para Motores",
+        "4": "Desengrasante Motores Force X Premium"
+      }
+    },
+    {
+      "product_code": "25",
+      "nombre": "CLORO AL 104% — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes a Base de Cloro",
+        "4": "Cloro al 104%"
+      }
+    },
+    {
+      "product_code": "26",
+      "nombre": "LAVANDINA AL 55% — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes a Base de Lavandina",
+        "4": "Lavandina al 55%"
+      }
+    },
+    {
+      "product_code": "3075",
+      "nombre": "ALGUICIDA CONCENTRADO 1+3 BIDON — 5 LT",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Algicidas",
+        "3": "Algicidas Concentrados",
+        "4": "Algicida Concentrado 1+3"
+      }
+    },
+    {
+      "product_code": "450",
+      "nombre": "BIDON POL. X 5 LTS — UNIDAD",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases",
+        "3": "Bidones",
+        "4": "Bidón Polietileno"
+      }
+    },
+    {
+      "product_code": "451",
+      "nombre": "BIDON PLASTICO X 20LT — UNIDAD",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases",
+        "3": "Bidones",
+        "4": "Bidón Plástico"
+      }
+    },
+    {
+      "product_code": "87",
+      "nombre": "DESTAPACAÑERIAS — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Destapacañerías",
+        "3": "Destapacañerías Líquidos",
+        "4": "Destapacañerías"
+      }
+    }
+  ]
+}

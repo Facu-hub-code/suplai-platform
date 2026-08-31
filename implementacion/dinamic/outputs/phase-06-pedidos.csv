@@ -1,0 +1,107 @@
+pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
+P-00001,25001,5493587905250,Casa de Limpieza 25 de Mayo,2026-05-30 08:00:00,confirmado,51301.50,Pedido historico mock - Casa de Limpieza 25 de Mayo,true,false,2
+P-00002,25001,5493587905250,Casa de Limpieza 25 de Mayo,2026-06-16 09:19:07,entregado,6210.00,Pedido historico mock - Casa de Limpieza 25 de Mayo,true,false,2
+P-00003,25002,5493582641213,Droguería Casilda Centro,2026-06-06 11:11:23,entregado,2646.00,Pedido historico mock - Droguería Casilda Centro,true,false,3
+P-00004,25002,5493582641213,Droguería Casilda Centro,2026-06-23 12:30:30,facturado,4185.00,Pedido historico mock - Droguería Casilda Centro,true,false,3
+P-00005,25003,5492991227644,Ferretería Don Santos,2026-06-13 14:22:46,facturado,10472.00,Pedido historico mock - Ferretería Don Santos,true,false,4
+P-00006,25003,5492991227644,Ferretería Don Santos,2026-06-30 15:41:53,confirmado,168236.25,Pedido historico mock - Ferretería Don Santos,true,false,4
+P-00007,25004,5493418277249,Lavadero Ruta 33,2026-06-20 17:33:09,confirmado,14700.00,Pedido historico mock - Lavadero Ruta 33,true,false,1
+P-00008,25004,5493418277249,Lavadero Ruta 33,2026-07-07 08:52:16,entregado,44135.00,Pedido historico mock - Lavadero Ruta 33,true,false,1
+P-00009,25005,5493587747641,Revendedor El Palmar,2026-06-27 10:44:32,entregado,38525.00,Pedido historico mock - Revendedor El Palmar,true,false,2
+P-00010,25005,5493587747641,Revendedor El Palmar,2026-07-14 11:03:39,facturado,38410.00,Pedido historico mock - Revendedor El Palmar,true,false,2
+P-00011,25006,5492614053074,Almacén San Martín,2026-07-04 13:55:55,facturado,36324.00,Pedido historico mock - Almacén San Martín,true,false,3
+P-00012,25006,5492614053074,Almacén San Martín,2026-07-21 14:14:02,confirmado,31005.00,Pedido historico mock - Almacén San Martín,true,false,3
+P-00013,25007,5493514079279,Mayorista Dinamic Sur,2026-07-11 16:06:18,confirmado,96628.00,Pedido historico mock - Mayorista Dinamic Sur,true,false,4
+P-00014,25007,5493514079279,Mayorista Dinamic Sur,2026-07-28 17:25:25,entregado,13038.15,Pedido historico mock - Mayorista Dinamic Sur,true,false,4
+P-00015,25008,5493876914178,Perfumería Plaza,2026-07-18 09:17:41,entregado,22065.00,Pedido historico mock - Perfumería Plaza,true,false,1
+P-00016,25008,5493876914178,Perfumería Plaza,2026-08-04 10:36:48,facturado,20200.00,Pedido historico mock - Perfumería Plaza,true,false,1
+P-00017,25009,5492617175545,Taller Giordano,2026-07-25 12:28:04,facturado,62123.00,Pedido historico mock - Taller Giordano,true,false,2
+P-00018,25009,5492617175545,Taller Giordano,2026-08-11 13:47:11,confirmado,2041.25,Pedido historico mock - Taller Giordano,true,false,2
+P-00019,25010,5493818437953,Piletero Los Molinos,2026-08-01 15:39:27,confirmado,19944.00,Pedido historico mock - Piletero Los Molinos,true,false,3
+P-00020,25010,5493818437953,Piletero Los Molinos,2026-08-18 16:58:34,entregado,70254.00,Pedido historico mock - Piletero Los Molinos,true,false,3
+P-00021,25011,5493582132179,Casa de Limpieza Sarmiento,2026-08-08 08:50:50,entregado,38003.50,Pedido historico mock - Casa de Limpieza Sarmiento,true,false,4
+P-00022,25011,5493582132179,Casa de Limpieza Sarmiento,2026-08-25 09:09:57,facturado,27565.50,Pedido historico mock - Casa de Limpieza Sarmiento,true,false,4
+P-00023,25012,5493872845902,Droguería Barrio Belgrano,2026-08-15 11:01:13,facturado,38770.00,Pedido historico mock - Droguería Barrio Belgrano,true,false,1
+P-00024,25012,5493872845902,Droguería Barrio Belgrano,2026-06-01 12:20:20,confirmado,57420.00,Pedido historico mock - Droguería Barrio Belgrano,true,false,1
+P-00025,25013,5492997670210,Ferretería El Tornillo,2026-08-22 14:12:36,confirmado,99406.00,Pedido historico mock - Ferretería El Tornillo,true,false,2
+P-00026,25013,5492997670210,Ferretería El Tornillo,2026-06-08 15:31:43,entregado,33120.00,Pedido historico mock - Ferretería El Tornillo,true,false,2
+P-00027,25014,5493811657614,Lavadero Mitre,2026-08-29 17:23:59,entregado,1800.00,Pedido historico mock - Lavadero Mitre,true,false,3
+P-00028,25014,5493811657614,Lavadero Mitre,2026-06-15 08:42:06,facturado,34119.00,Pedido historico mock - Lavadero Mitre,true,false,3
+P-00029,25015,5492994145193,Revendedor Independencia,2026-06-05 10:34:22,facturado,33201.00,Pedido historico mock - Revendedor Independencia,true,false,4
+P-00030,25015,5492994145193,Revendedor Independencia,2026-06-22 11:53:29,confirmado,194654.25,Pedido historico mock - Revendedor Independencia,true,false,4
+P-00031,25016,5493515971311,Almacén Don Pedro,2026-06-12 13:45:45,confirmado,22450.00,Pedido historico mock - Almacén Don Pedro,true,false,1
+P-00032,25016,5493515971311,Almacén Don Pedro,2026-06-29 14:04:52,entregado,34600.00,Pedido historico mock - Almacén Don Pedro,true,false,1
+P-00033,25017,5492994228106,Mayorista Chabás,2026-06-19 16:56:08,entregado,28117.50,Pedido historico mock - Mayorista Chabás,true,false,2
+P-00034,25017,5492994228106,Mayorista Chabás,2026-07-06 17:15:15,facturado,73128.50,Pedido historico mock - Mayorista Chabás,true,false,2
+P-00035,25018,5492998718887,Perfumería La Esquina,2026-06-26 09:07:31,facturado,21780.00,Pedido historico mock - Perfumería La Esquina,true,false,3
+P-00036,25018,5492998718887,Perfumería La Esquina,2026-07-13 10:26:38,confirmado,20016.00,Pedido historico mock - Perfumería La Esquina,true,false,3
+P-00037,25019,5492995028869,Taller RN 33,2026-07-03 12:18:54,confirmado,30175.00,Pedido historico mock - Taller RN 33,true,false,4
+P-00038,25019,5492995028869,Taller RN 33,2026-07-20 13:37:01,entregado,68429.25,Pedido historico mock - Taller RN 33,true,false,4
+P-00039,25020,5493517304254,Piletero Casilda,2026-07-10 15:29:17,entregado,9780.00,Pedido historico mock - Piletero Casilda,true,false,1
+P-00040,25020,5493517304254,Piletero Casilda,2026-07-27 16:48:24,facturado,9500.00,Pedido historico mock - Piletero Casilda,true,false,1
+P-00041,25021,5493416986538,Casa de Limpieza El Gaucho,2026-07-17 08:40:40,facturado,11385.00,Pedido historico mock - Casa de Limpieza El Gaucho,true,false,2
+P-00042,25021,5493416986538,Casa de Limpieza El Gaucho,2026-08-03 09:59:47,confirmado,51376.25,Pedido historico mock - Casa de Limpieza El Gaucho,true,false,2
+P-00043,25022,5492619239862,Droguería La Tradición,2026-07-24 11:51:03,confirmado,56511.00,Pedido historico mock - Droguería La Tradición,true,false,3
+P-00044,25022,5492619239862,Droguería La Tradición,2026-08-10 12:10:10,entregado,15313.50,Pedido historico mock - Droguería La Tradición,true,false,3
+P-00045,25023,5493513952681,Ferretería Los Andes,2026-07-31 14:02:26,entregado,7922.00,Pedido historico mock - Ferretería Los Andes,true,false,4
+P-00046,25023,5493513952681,Ferretería Los Andes,2026-08-17 15:21:33,facturado,41097.50,Pedido historico mock - Ferretería Los Andes,true,false,4
+P-00047,25024,5493414799650,Lavadero El Cruce,2026-08-07 17:13:49,facturado,31005.00,Pedido historico mock - Lavadero El Cruce,true,false,1
+P-00048,25024,5493414799650,Lavadero El Cruce,2026-08-24 08:32:56,confirmado,21240.00,Pedido historico mock - Lavadero El Cruce,true,false,1
+P-00049,25025,5492992500733,Revendedor Villa Casilda,2026-08-14 10:24:12,confirmado,57155.00,Pedido historico mock - Revendedor Villa Casilda,true,false,2
+P-00050,25025,5492992500733,Revendedor Villa Casilda,2026-05-31 11:43:19,entregado,40802.00,Pedido historico mock - Revendedor Villa Casilda,true,false,2
+P-00051,25026,5492615139305,Almacén El Familiar,2026-08-21 13:35:35,entregado,10755.00,Pedido historico mock - Almacén El Familiar,true,false,3
+P-00052,25026,5492615139305,Almacén El Familiar,2026-06-07 14:54:42,facturado,18738.00,Pedido historico mock - Almacén El Familiar,true,false,3
+P-00053,25027,5492618861463,Mayorista El Pionero,2026-08-28 16:46:58,facturado,11050.00,Pedido historico mock - Mayorista El Pionero,true,false,4
+P-00054,25027,5492618861463,Mayorista El Pionero,2026-06-14 17:05:05,confirmado,2833.05,Pedido historico mock - Mayorista El Pionero,true,false,4
+P-00055,25028,5493812941974,Perfumería Doña Rosa,2026-06-04 09:57:21,confirmado,36535.00,Pedido historico mock - Perfumería Doña Rosa,true,false,1
+P-00056,25028,5493812941974,Perfumería Doña Rosa,2026-06-21 10:16:28,entregado,13555.00,Pedido historico mock - Perfumería Doña Rosa,true,false,1
+P-00057,25029,5493817404433,Taller El Portal,2026-06-11 12:08:44,entregado,8165.00,Pedido historico mock - Taller El Portal,true,false,2
+P-00058,25029,5493817404433,Taller El Portal,2026-06-28 13:27:51,facturado,59800.00,Pedido historico mock - Taller El Portal,true,false,2
+P-00059,25030,5493419686914,Piletero El Nogal,2026-06-18 15:19:07,facturado,21015.00,Pedido historico mock - Piletero El Nogal,true,false,3
+P-00060,25030,5493419686914,Piletero El Nogal,2026-07-05 16:38:14,confirmado,2646.00,Pedido historico mock - Piletero El Nogal,true,false,3
+P-00061,25031,5493518648263,Casa de Limpieza La Criolla,2026-06-25 08:30:30,confirmado,72165.00,Pedido historico mock - Casa de Limpieza La Criolla,true,false,4
+P-00062,25031,5493518648263,Casa de Limpieza La Criolla,2026-07-12 09:49:37,entregado,8767.75,Pedido historico mock - Casa de Limpieza La Criolla,true,false,4
+P-00063,25032,5493516216782,Droguería El Quebracho,2026-07-02 11:41:53,entregado,18880.00,Pedido historico mock - Droguería El Quebracho,true,false,1
+P-00064,25032,5493516216782,Droguería El Quebracho,2026-07-19 12:00:00,facturado,100710.00,Pedido historico mock - Droguería El Quebracho,true,false,1
+P-00065,25033,5492612780568,Ferretería Don Mario,2026-07-09 14:52:16,facturado,31510.00,Pedido historico mock - Ferretería Don Mario,true,false,2
+P-00066,25033,5492612780568,Ferretería Don Mario,2026-07-26 15:11:23,confirmado,45735.50,Pedido historico mock - Ferretería Don Mario,true,false,2
+P-00067,25034,5493582639964,Lavadero Las Flores,2026-07-16 17:03:39,confirmado,30510.00,Pedido historico mock - Lavadero Las Flores,true,false,3
+P-00068,25034,5493582639964,Lavadero Las Flores,2026-08-02 08:22:46,entregado,8046.00,Pedido historico mock - Lavadero Las Flores,true,false,3
+P-00069,25035,5493814729528,Revendedor El Sauce,2026-07-23 10:14:02,entregado,3060.00,Pedido historico mock - Revendedor El Sauce,true,false,4
+P-00070,25035,5493814729528,Revendedor El Sauce,2026-08-09 11:33:09,facturado,56763.00,Pedido historico mock - Revendedor El Sauce,true,false,4
+P-00071,25036,5493876922419,Almacén Don Carlos,2026-07-30 13:25:25,facturado,2940.00,Pedido historico mock - Almacén Don Carlos,true,false,1
+P-00072,25036,5493876922419,Almacén Don Carlos,2026-08-16 14:44:32,confirmado,28340.00,Pedido historico mock - Almacén Don Carlos,true,false,1
+P-00073,25037,5492618889598,Mayorista La Cañada,2026-08-06 16:36:48,confirmado,1127.00,Pedido historico mock - Mayorista La Cañada,true,false,2
+P-00074,25037,5492618889598,Mayorista La Cañada,2026-08-23 17:55:55,entregado,34845.00,Pedido historico mock - Mayorista La Cañada,true,false,2
+P-00075,25038,5492615021286,Perfumería El Recreo,2026-08-13 09:47:11,entregado,4225.50,Pedido historico mock - Perfumería El Recreo,true,false,3
+P-00076,25038,5492615021286,Perfumería El Recreo,2026-05-30 10:06:18,facturado,9742.50,Pedido historico mock - Perfumería El Recreo,true,false,3
+P-00077,25039,5493813520000,Taller El Molino,2026-08-20 12:58:34,facturado,29444.00,Pedido historico mock - Taller El Molino,true,false,4
+P-00078,25039,5493813520000,Taller El Molino,2026-06-06 13:17:41,confirmado,24939.00,Pedido historico mock - Taller El Molino,true,false,4
+P-00079,25040,5492997489876,Piletero La Arboleda,2026-08-27 15:09:57,confirmado,31510.00,Pedido historico mock - Piletero La Arboleda,true,false,1
+P-00080,25040,5492997489876,Piletero La Arboleda,2026-06-13 16:28:04,entregado,3920.00,Pedido historico mock - Piletero La Arboleda,true,false,1
+P-00081,0,5492612928724,Revendedor Los Pinos,2026-06-03 08:20:20,entregado,10764.00,Pedido historico mock - Revendedor Los Pinos,true,false,2
+P-00082,0,5492612928724,Revendedor Los Pinos,2026-06-20 09:39:27,facturado,12778.80,Pedido historico mock - Revendedor Los Pinos,true,false,2
+P-00083,0,5492617236955,Lavadero El Pueblo,2026-06-10 11:31:43,facturado,32200.00,Pedido historico mock - Lavadero El Pueblo,true,false,1
+P-00084,0,5492617236955,Lavadero El Pueblo,2026-06-27 12:50:50,confirmado,11130.00,Pedido historico mock - Lavadero El Pueblo,true,false,1
+P-00085,0,5492617413812,Ferretería La Unión,2026-06-17 14:42:06,confirmado,6080.90,Pedido historico mock - Ferretería La Unión,true,false,4
+P-00086,0,5492617413812,Ferretería La Unión,2026-07-04 15:01:13,entregado,52321.75,Pedido historico mock - Ferretería La Unión,true,false,4
+P-00087,0,5492998066543,Piletero El Manantial,2026-06-24 17:53:29,entregado,45791.10,Pedido historico mock - Piletero El Manantial,true,false,3
+P-00088,0,5492998066543,Piletero El Manantial,2026-07-11 08:12:36,facturado,75150.00,Pedido historico mock - Piletero El Manantial,true,false,3
+P-00089,0,5492999435946,Almacén Don Roberto,2026-07-01 10:04:52,facturado,3645.00,Pedido historico mock - Almacén Don Roberto,true,false,3
+P-00090,0,5492999435946,Almacén Don Roberto,2026-07-18 11:23:59,confirmado,5760.00,Pedido historico mock - Almacén Don Roberto,true,false,3
+P-00091,0,5493416524997,Perfumería Central,2026-07-08 13:15:15,confirmado,63600.00,Pedido historico mock - Perfumería Central,true,false,1
+P-00092,0,5493416524997,Perfumería Central,2026-07-25 14:34:22,entregado,8820.00,Pedido historico mock - Perfumería Central,true,false,1
+P-00093,0,5493517632424,Mayorista El Nativo,2026-07-15 16:26:38,entregado,1508.75,Pedido historico mock - Mayorista El Nativo,true,false,4
+P-00094,0,5493517632424,Mayorista El Nativo,2026-08-01 17:45:45,facturado,174658.00,Pedido historico mock - Mayorista El Nativo,true,false,4
+P-00095,0,5493519107005,Casa de Limpieza El Encuentro,2026-07-22 09:37:01,facturado,49105.00,Pedido historico mock - Casa de Limpieza El Encuentro,true,false,2
+P-00096,0,5493519107005,Casa de Limpieza El Encuentro,2026-08-08 10:56:08,confirmado,14789.00,Pedido historico mock - Casa de Limpieza El Encuentro,true,false,2
+P-00097,0,5493874104594,Droguería San José,2026-07-29 12:48:24,confirmado,5400.00,Pedido historico mock - Droguería San José,true,false,3
+P-00098,0,5493874104594,Droguería San José,2026-08-15 13:07:31,entregado,87187.50,Pedido historico mock - Droguería San José,true,false,3
+P-00099,0,5493876499570,Taller La Estación,2026-08-05 15:59:47,entregado,64497.75,Pedido historico mock - Taller La Estación,true,false,2
+P-00100,0,5493876499570,Taller La Estación,2026-08-22 16:18:54,facturado,14375.00,Pedido historico mock - Taller La Estación,true,false,2
+P-00101,25001,5493587905250,Casa de Limpieza 25 de Mayo,2026-08-31 11:15:00,abierto,27393.00,Pedido abierto mock - Casa de Limpieza 25 de Mayo,true,true,2
+P-00102,25002,5493582641213,Droguería Casilda Centro,2026-08-31 11:15:13,pendiente,87660.00,Pedido abierto mock - Droguería Casilda Centro,true,true,3
+P-00103,25003,5492991227644,Ferretería Don Santos,2026-08-31 11:15:26,abierto,41905.00,Pedido abierto mock - Ferretería Don Santos,true,true,4
+P-00104,25004,5493418277249,Lavadero Ruta 33,2026-08-31 11:15:39,pendiente,46675.00,Pedido abierto mock - Lavadero Ruta 33,true,true,1
+P-00105,25005,5493587747641,Revendedor El Palmar,2026-08-31 11:15:52,abierto,2415.00,Pedido abierto mock - Revendedor El Palmar,true,true,2
+P-00106,25006,5492614053074,Almacén San Martín,2026-08-31 11:15:05,pendiente,6948.00,Pedido abierto mock - Almacén San Martín,true,true,3

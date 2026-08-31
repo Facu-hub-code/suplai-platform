@@ -1,0 +1,4 @@
+nombre,telefono,email,zona,codigo_ruta,is_mock
+Luciano Pérez,5493464518101,luciano.perez@suplaisales.mock,CENTRO,R01,true
+Martín Giordano,5493464518102,martin.giordano@suplaisales.mock,NORTE,R02,true
+Paula Bertone,5493464518103,paula.bertone@suplaisales.mock,SUR,R03,true

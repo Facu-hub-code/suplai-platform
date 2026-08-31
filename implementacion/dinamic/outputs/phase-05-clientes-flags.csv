@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Casa de Limpieza 25 de Mayo,25001,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493582641213,Droguería Casilda Centro,25002,validado,2026-08-31T17:36:28.178449+00:00,,false
+5492991227644,Ferretería Don Santos,25003,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493418277249,Lavadero Ruta 33,25004,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493587747641,Revendedor El Palmar,25005,validado,2026-08-31T17:36:28.178449+00:00,,false
+5492614053074,Almacén San Martín,25006,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493514079279,Mayorista Dinamic Sur,25007,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493876914178,Perfumería Plaza,25008,validado,2026-08-31T17:36:28.178449+00:00,,false
+5492617175545,Taller Giordano,25009,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493818437953,Piletero Los Molinos,25010,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493582132179,Casa de Limpieza Sarmiento,25011,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493872845902,Droguería Barrio Belgrano,25012,validado,2026-08-31T17:36:28.178449+00:00,,false
+5492997670210,Ferretería El Tornillo,25013,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493811657614,Lavadero Mitre,25014,validado,2026-08-31T17:36:28.178449+00:00,,false
+5492994145193,Revendedor Independencia,25015,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493515971311,Almacén Don Pedro,25016,validado,2026-08-31T17:36:28.178449+00:00,,false
+5492994228106,Mayorista Chabás,25017,validado,2026-08-31T17:36:28.178449+00:00,,false
+5492998718887,Perfumería La Esquina,25018,validado,2026-08-31T17:36:28.178449+00:00,,false
+5492995028869,Taller RN 33,25019,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493517304254,Piletero Casilda,25020,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493416986538,Casa de Limpieza El Gaucho,25021,validado,2026-08-31T17:36:28.178449+00:00,,false
+5492619239862,Droguería La Tradición,25022,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493513952681,Ferretería Los Andes,25023,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493414799650,Lavadero El Cruce,25024,validado,2026-08-31T17:36:28.178449+00:00,,false
+5492992500733,Revendedor Villa Casilda,25025,validado,2026-08-31T17:36:28.178449+00:00,,false
+5492615139305,Almacén El Familiar,25026,validado,2026-08-31T17:36:28.178449+00:00,,false
+5492618861463,Mayorista El Pionero,25027,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493812941974,Perfumería Doña Rosa,25028,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493817404433,Taller El Portal,25029,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493419686914,Piletero El Nogal,25030,validado,2026-08-31T17:36:28.178449+00:00,,false
+5493518648263,Casa de Limpieza La Criolla,25031,existente,,,false
+5493516216782,Droguería El Quebracho,25032,existente,,,false
+5492612780568,Ferretería Don Mario,25033,existente,,,false
+5493582639964,Lavadero Las Flores,25034,existente,,,false
+5493814729528,Revendedor El Sauce,25035,existente,,,false
+5493876922419,Almacén Don Carlos,25036,existente,,,false
+5492618889598,Mayorista La Cañada,25037,existente,,,false
+5492615021286,Perfumería El Recreo,25038,existente,,,false
+5493813520000,Taller El Molino,25039,existente,,,false
+5492997489876,Piletero La Arboleda,25040,existente,,,false
+5493519107005,Casa de Limpieza El Encuentro,0,no_validado,,PROSPECTO,true
+5493874104594,Droguería San José,0,existente,,PROSPECTO,true
+5492617413812,Ferretería La Unión,0,no_validado,,PROSPECTO,true
+5492617236955,Lavadero El Pueblo,0,existente,,PROSPECTO,true
+5492612928724,Revendedor Los Pinos,0,no_validado,,PROSPECTO,true
+5492999435946,Almacén Don Roberto,0,validado,2026-08-31T17:36:28.178449+00:00,PROSPECTO,true
+5493517632424,Mayorista El Nativo,0,no_existente,,PROSPECTO,true
+5493416524997,Perfumería Central,0,no_validado,,PROSPECTO,true
+5493876499570,Taller La Estación,0,existente,,PROSPECTO,true
+5492998066543,Piletero El Manantial,0,no_validado,,PROSPECTO,true

@@ -1,0 +1,156 @@
+{
+  "modo": "demo",
+  "dominios": "dinamicquim.com,mercadolibre.com.ar,jumbo.com.ar",
+  "sufijo_fallback": "limpieza detergente jabon mayorista argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS DINAMIC INDUSTRIAL (Casilda, Santa Fe — fábrica y distribución de limpieza):\n1. TIPO OBLIGATORIO: jabón líquido, suavizante, detergente/lavavajillas, lavandina/cloro, desengrasante, limpiapisos, shampoo auto, alguicida, envase/bidón, perfume/difusor.\n2. MARCA: Dinamic / Dinamiclor si es línea propia. Si el nombre dice T/ o TIPO (Cif, Sedal, Dove, Ariel, Espadol) es EQUIVALENTE, no es esa marca. No inventes otras marcas.\n3. PRESENTACIÓN: incluí 1 L / 5 L / 20 L / unidad. El PdV pide bidón (5 L default), litro o bidón 20.\n4. DILUCIÓN: si el nombre tiene 1+N, L.P.U. o concentrado, decilo. No inventes pH, ANMAT ni % de activo salvo que esté en el nombre (ej. cloro 104%, lavandina 55%).\n5. ALIAS: código, bidón, litro, caja, sinónimos (lavandina/cloro, det/detergente/lavavajillas) y el 'tipo X' si figura.\n6. NO ALUCINAR: no inventes fragancias, biodegradabilidad ni usos que no estén en el nombre.",
+  "fase_06": {
+    "historicos_por_cliente": 2,
+    "abiertos": 4,
+    "historicos_inicio": "2026-05-30",
+    "historicos_fin": "2026-08-29"
+  },
+  "fase_07": {
+    "clientes_live_feed": 8,
+    "clientes_quejas": 3
+  },
+  "red_comercial": {
+    "coordenadas_centro": [-33.0444, -61.1681],
+    "vendedores": [
+      {
+        "nombre": "Luciano Pérez",
+        "telefono": "5493464518101",
+        "email": "luciano.perez@suplaisales.mock",
+        "zona": "CENTRO",
+        "codigo_ruta": "R01"
+      },
+      {
+        "nombre": "Martín Giordano",
+        "telefono": "5493464518102",
+        "email": "martin.giordano@suplaisales.mock",
+        "zona": "NORTE",
+        "codigo_ruta": "R02"
+      },
+      {
+        "nombre": "Paula Bertone",
+        "telefono": "5493464518103",
+        "email": "paula.bertone@suplaisales.mock",
+        "zona": "SUR",
+        "codigo_ruta": "R03"
+      }
+    ],
+    "zonas": [
+      {
+        "nombre": "ZONA CENTRO - Plaza 25 de Mayo",
+        "dia_visita": "lunes",
+        "color": "#E74C3C",
+        "codigo_ruta": "R01-A",
+        "zone_type": "sales",
+        "description": "Centro de Casilda, Plaza 25 de Mayo y Av. 9 de Julio.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA OESTE - Ruta 33 Rosario",
+        "dia_visita": "martes",
+        "color": "#3498DB",
+        "codigo_ruta": "R01-B",
+        "zone_type": "route",
+        "description": "Acceso RN 33 hacia Rosario, talleres y depósitos.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA NORTE - Barrio Sarmiento",
+        "dia_visita": "miercoles",
+        "color": "#2ECC71",
+        "codigo_ruta": "R02-A",
+        "zone_type": "sales",
+        "description": "Barrio Sarmiento y entorno de la estación.",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA NORESTE - Barrio San Martín",
+        "dia_visita": "jueves",
+        "color": "#F39C12",
+        "codigo_ruta": "R02-B",
+        "zone_type": "route",
+        "description": "Barrio San Martín y acceso a Chabás.",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA SUR - Barrio Belgrano",
+        "dia_visita": "viernes",
+        "color": "#9B59B6",
+        "codigo_ruta": "R03-A",
+        "zone_type": "sales",
+        "description": "Barrio Belgrano y zona residencial sur de Casilda.",
+        "vendedor_idx": 2
+      },
+      {
+        "nombre": "ZONA SURESTE - Barrio Mitre",
+        "dia_visita": "sabado",
+        "color": "#1ABC9C",
+        "codigo_ruta": "R03-B",
+        "zone_type": "route",
+        "description": "Barrio Mitre e Independencia, acceso a Los Molinos.",
+        "vendedor_idx": 2
+      }
+    ],
+    "nombres_comerciales": [
+      "Casa de Limpieza 25 de Mayo",
+      "Droguería Casilda Centro",
+      "Ferretería Don Santos",
+      "Lavadero Ruta 33",
+      "Revendedor El Palmar",
+      "Almacén San Martín",
+      "Mayorista Dinamic Sur",
+      "Perfumería Plaza",
+      "Taller Giordano",
+      "Piletero Los Molinos",
+      "Casa de Limpieza Sarmiento",
+      "Droguería Barrio Belgrano",
+      "Ferretería El Tornillo",
+      "Lavadero Mitre",
+      "Revendedor Independencia",
+      "Almacén Don Pedro",
+      "Mayorista Chabás",
+      "Perfumería La Esquina",
+      "Taller RN 33",
+      "Piletero Casilda",
+      "Casa de Limpieza El Gaucho",
+      "Droguería La Tradición",
+      "Ferretería Los Andes",
+      "Lavadero El Cruce",
+      "Revendedor Villa Casilda",
+      "Almacén El Familiar",
+      "Mayorista El Pionero",
+      "Perfumería Doña Rosa",
+      "Taller El Portal",
+      "Piletero El Nogal",
+      "Casa de Limpieza La Criolla",
+      "Droguería El Quebracho",
+      "Ferretería Don Mario",
+      "Lavadero Las Flores",
+      "Revendedor El Sauce",
+      "Almacén Don Carlos",
+      "Mayorista La Cañada",
+      "Perfumería El Recreo",
+      "Taller El Molino",
+      "Piletero La Arboleda",
+      "Casa de Limpieza El Encuentro",
+      "Droguería San José",
+      "Ferretería La Unión",
+      "Lavadero El Pueblo",
+      "Revendedor Los Pinos",
+      "Almacén Don Roberto",
+      "Mayorista El Nativo",
+      "Perfumería Central",
+      "Taller La Estación",
+      "Piletero El Manantial",
+      "Casa de Limpieza 9 de Julio",
+      "Droguería Hipólito Yrigoyen",
+      "Ferretería El Rincón",
+      "Lavadero Barrio Mitre",
+      "Revendedor Ruta 33"
+    ]
+  }
+}

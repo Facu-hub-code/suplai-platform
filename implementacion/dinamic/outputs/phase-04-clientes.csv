@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Casa de Limpieza 25 de Mayo,Casa de Limpieza 25 de Mayo,5493587905250,2,1,lunes,martes,"Zona ZONA CENTRO - Plaza 25 de Mayo - Casilda, Santa Fe, Argentina",Luciano Pérez,0,0,-33.031587,-61.192299,true
+2,Droguería Casilda Centro,Droguería Casilda Centro,5493582641213,3,2,lunes,martes,"Zona ZONA CENTRO - Plaza 25 de Mayo - Casilda, Santa Fe, Argentina",Luciano Pérez,0,0,-33.031626,-61.186402,true
+3,Ferretería Don Santos,Ferretería Don Santos,5492991227644,4,3,lunes,martes,"Zona ZONA CENTRO - Plaza 25 de Mayo - Casilda, Santa Fe, Argentina",Luciano Pérez,0,0,-33.031433,-61.192514,true
+4,Lavadero Ruta 33,Lavadero Ruta 33,5493418277249,1,4,lunes,martes,"Zona ZONA CENTRO - Plaza 25 de Mayo - Casilda, Santa Fe, Argentina",Luciano Pérez,0,0,-33.034191,-61.188887,true
+5,Revendedor El Palmar,Revendedor El Palmar,5493587747641,2,5,lunes,martes,"Zona ZONA CENTRO - Plaza 25 de Mayo - Casilda, Santa Fe, Argentina",Luciano Pérez,0,0,-33.034427,-61.1895,true
+6,Almacén San Martín,Almacén San Martín,5492614053074,3,6,lunes,martes,"Zona ZONA CENTRO - Plaza 25 de Mayo - Casilda, Santa Fe, Argentina",Luciano Pérez,0,0,-33.035189,-61.183339,true
+7,Mayorista Dinamic Sur,Mayorista Dinamic Sur,5493514079279,4,7,lunes,martes,"Zona ZONA CENTRO - Plaza 25 de Mayo - Casilda, Santa Fe, Argentina",Luciano Pérez,0,0,-33.034569,-61.184078,true
+8,Perfumería Plaza,Perfumería Plaza,5493876914178,1,8,lunes,martes,"Zona ZONA CENTRO - Plaza 25 de Mayo - Casilda, Santa Fe, Argentina",Luciano Pérez,0,0,-33.035934,-61.190814,true
+9,Taller Giordano,Taller Giordano,5492617175545,2,9,lunes,martes,"Zona ZONA CENTRO - Plaza 25 de Mayo - Casilda, Santa Fe, Argentina",Luciano Pérez,0,0,-33.030841,-61.185095,true
+10,Piletero Los Molinos,Piletero Los Molinos,5493818437953,3,10,martes,miercoles,"Zona ZONA OESTE - Ruta 33 Rosario - Casilda, Santa Fe, Argentina",Luciano Pérez,0,1,-33.035356,-61.17063,true
+11,Casa de Limpieza Sarmiento,Casa de Limpieza Sarmiento,5493582132179,4,11,martes,miercoles,"Zona ZONA OESTE - Ruta 33 Rosario - Casilda, Santa Fe, Argentina",Luciano Pérez,0,1,-33.029618,-61.166019,true
+12,Droguería Barrio Belgrano,Droguería Barrio Belgrano,5493872845902,1,12,martes,miercoles,"Zona ZONA OESTE - Ruta 33 Rosario - Casilda, Santa Fe, Argentina",Luciano Pérez,0,1,-33.035818,-61.163107,true
+13,Ferretería El Tornillo,Ferretería El Tornillo,5492997670210,2,13,martes,miercoles,"Zona ZONA OESTE - Ruta 33 Rosario - Casilda, Santa Fe, Argentina",Luciano Pérez,0,1,-33.032095,-61.171781,true
+14,Lavadero Mitre,Lavadero Mitre,5493811657614,3,14,martes,miercoles,"Zona ZONA OESTE - Ruta 33 Rosario - Casilda, Santa Fe, Argentina",Luciano Pérez,0,1,-33.035387,-61.168355,true
+15,Revendedor Independencia,Revendedor Independencia,5492994145193,4,15,martes,miercoles,"Zona ZONA OESTE - Ruta 33 Rosario - Casilda, Santa Fe, Argentina",Luciano Pérez,0,1,-33.036861,-61.163652,true
+16,Almacén Don Pedro,Almacén Don Pedro,5493515971311,1,16,martes,miercoles,"Zona ZONA OESTE - Ruta 33 Rosario - Casilda, Santa Fe, Argentina",Luciano Pérez,0,1,-33.031759,-61.172223,true
+17,Mayorista Chabás,Mayorista Chabás,5492994228106,2,17,martes,miercoles,"Zona ZONA OESTE - Ruta 33 Rosario - Casilda, Santa Fe, Argentina",Luciano Pérez,0,1,-33.03483,-61.169772,true
+18,Perfumería La Esquina,Perfumería La Esquina,5492998718887,3,18,martes,miercoles,"Zona ZONA OESTE - Ruta 33 Rosario - Casilda, Santa Fe, Argentina",Luciano Pérez,0,1,-33.032778,-61.165281,true
+19,Taller RN 33,Taller RN 33,5492995028869,4,19,miercoles,jueves,"Zona ZONA NORTE - Barrio Sarmiento - Casilda, Santa Fe, Argentina",Martín Giordano,1,2,-33.030149,-61.152168,true
+20,Piletero Casilda,Piletero Casilda,5493517304254,1,20,miercoles,jueves,"Zona ZONA NORTE - Barrio Sarmiento - Casilda, Santa Fe, Argentina",Martín Giordano,1,2,-33.029858,-61.146926,true
+21,Casa de Limpieza El Gaucho,Casa de Limpieza El Gaucho,5493416986538,2,21,miercoles,jueves,"Zona ZONA NORTE - Barrio Sarmiento - Casilda, Santa Fe, Argentina",Martín Giordano,1,2,-33.037462,-61.149423,true
+22,Droguería La Tradición,Droguería La Tradición,5492619239862,3,22,miercoles,jueves,"Zona ZONA NORTE - Barrio Sarmiento - Casilda, Santa Fe, Argentina",Martín Giordano,1,2,-33.036292,-61.148392,true
+23,Ferretería Los Andes,Ferretería Los Andes,5493513952681,4,23,miercoles,jueves,"Zona ZONA NORTE - Barrio Sarmiento - Casilda, Santa Fe, Argentina",Martín Giordano,1,2,-33.031261,-61.151058,true
+24,Lavadero El Cruce,Lavadero El Cruce,5493414799650,1,24,miercoles,jueves,"Zona ZONA NORTE - Barrio Sarmiento - Casilda, Santa Fe, Argentina",Martín Giordano,1,2,-33.035596,-61.149201,true
+25,Revendedor Villa Casilda,Revendedor Villa Casilda,5492992500733,2,25,miercoles,jueves,"Zona ZONA NORTE - Barrio Sarmiento - Casilda, Santa Fe, Argentina",Martín Giordano,1,2,-33.032872,-61.145486,true
+26,Almacén El Familiar,Almacén El Familiar,5492615139305,3,26,miercoles,jueves,"Zona ZONA NORTE - Barrio Sarmiento - Casilda, Santa Fe, Argentina",Martín Giordano,1,2,-33.036058,-61.148237,true
+27,Mayorista El Pionero,Mayorista El Pionero,5492618861463,4,27,jueves,viernes,"Zona ZONA NORESTE - Barrio San Martín - Casilda, Santa Fe, Argentina",Martín Giordano,1,3,-33.056182,-61.186021,true
+28,Perfumería Doña Rosa,Perfumería Doña Rosa,5493812941974,1,28,jueves,viernes,"Zona ZONA NORESTE - Barrio San Martín - Casilda, Santa Fe, Argentina",Martín Giordano,1,3,-33.055793,-61.189177,true
+29,Taller El Portal,Taller El Portal,5493817404433,2,29,jueves,viernes,"Zona ZONA NORESTE - Barrio San Martín - Casilda, Santa Fe, Argentina",Martín Giordano,1,3,-33.051033,-61.188118,true
+30,Piletero El Nogal,Piletero El Nogal,5493419686914,3,30,jueves,viernes,"Zona ZONA NORESTE - Barrio San Martín - Casilda, Santa Fe, Argentina",Martín Giordano,1,3,-33.051016,-61.191855,true
+31,Casa de Limpieza La Criolla,Casa de Limpieza La Criolla,5493518648263,4,31,jueves,viernes,"Zona ZONA NORESTE - Barrio San Martín - Casilda, Santa Fe, Argentina",Martín Giordano,1,3,-33.05574,-61.184356,true
+32,Droguería El Quebracho,Droguería El Quebracho,5493516216782,1,32,jueves,viernes,"Zona ZONA NORESTE - Barrio San Martín - Casilda, Santa Fe, Argentina",Martín Giordano,1,3,-33.055431,-61.184608,true
+33,Ferretería Don Mario,Ferretería Don Mario,5492612780568,2,33,jueves,viernes,"Zona ZONA NORESTE - Barrio San Martín - Casilda, Santa Fe, Argentina",Martín Giordano,1,3,-33.057693,-61.189144,true
+34,Lavadero Las Flores,Lavadero Las Flores,5493582639964,3,34,jueves,viernes,"Zona ZONA NORESTE - Barrio San Martín - Casilda, Santa Fe, Argentina",Martín Giordano,1,3,-33.051546,-61.188298,true
+35,Revendedor El Sauce,Revendedor El Sauce,5493814729528,4,35,viernes,sabado,"Zona ZONA SUR - Barrio Belgrano - Casilda, Santa Fe, Argentina",Paula Bertone,2,4,-33.054186,-61.170609,true
+36,Almacén Don Carlos,Almacén Don Carlos,5493876922419,1,36,viernes,sabado,"Zona ZONA SUR - Barrio Belgrano - Casilda, Santa Fe, Argentina",Paula Bertone,2,4,-33.057745,-61.16756,true
+37,Mayorista La Cañada,Mayorista La Cañada,5492618889598,2,37,viernes,sabado,"Zona ZONA SUR - Barrio Belgrano - Casilda, Santa Fe, Argentina",Paula Bertone,2,4,-33.052084,-61.16868,true
+38,Perfumería El Recreo,Perfumería El Recreo,5492615021286,3,38,viernes,sabado,"Zona ZONA SUR - Barrio Belgrano - Casilda, Santa Fe, Argentina",Paula Bertone,2,4,-33.053222,-61.172874,true
+39,Taller El Molino,Taller El Molino,5493813520000,4,39,viernes,sabado,"Zona ZONA SUR - Barrio Belgrano - Casilda, Santa Fe, Argentina",Paula Bertone,2,4,-33.056222,-61.17172,true
+40,Piletero La Arboleda,Piletero La Arboleda,5492997489876,1,40,viernes,sabado,"Zona ZONA SUR - Barrio Belgrano - Casilda, Santa Fe, Argentina",Paula Bertone,2,4,-33.051599,-61.171546,true
+41,Casa de Limpieza El Encuentro,Casa de Limpieza El Encuentro,5493519107005,2,41,viernes,sabado,"Zona ZONA SUR - Barrio Belgrano - Casilda, Santa Fe, Argentina",Paula Bertone,2,4,-33.055175,-61.170698,true
+42,Droguería San José,Droguería San José,5493874104594,3,42,viernes,sabado,"Zona ZONA SUR - Barrio Belgrano - Casilda, Santa Fe, Argentina",Paula Bertone,2,4,-33.05009,-61.167785,true
+43,Ferretería La Unión,Ferretería La Unión,5492617413812,4,43,sabado,lunes,"Zona ZONA SURESTE - Barrio Mitre - Casilda, Santa Fe, Argentina",Paula Bertone,2,5,-33.055837,-61.151334,true
+44,Lavadero El Pueblo,Lavadero El Pueblo,5492617236955,1,44,sabado,lunes,"Zona ZONA SURESTE - Barrio Mitre - Casilda, Santa Fe, Argentina",Paula Bertone,2,5,-33.056297,-61.144985,true
+45,Revendedor Los Pinos,Revendedor Los Pinos,5492612928724,2,45,sabado,lunes,"Zona ZONA SURESTE - Barrio Mitre - Casilda, Santa Fe, Argentina",Paula Bertone,2,5,-33.053009,-61.148843,true
+46,Almacén Don Roberto,Almacén Don Roberto,5492999435946,3,46,sabado,lunes,"Zona ZONA SURESTE - Barrio Mitre - Casilda, Santa Fe, Argentina",Paula Bertone,2,5,-33.057708,-61.147151,true
+47,Mayorista El Nativo,Mayorista El Nativo,5493517632424,4,47,sabado,lunes,"Zona ZONA SURESTE - Barrio Mitre - Casilda, Santa Fe, Argentina",Paula Bertone,2,5,-33.05476,-61.151807,true
+48,Perfumería Central,Perfumería Central,5493416524997,1,48,sabado,lunes,"Zona ZONA SURESTE - Barrio Mitre - Casilda, Santa Fe, Argentina",Paula Bertone,2,5,-33.050172,-61.148956,true
+49,Taller La Estación,Taller La Estación,5493876499570,2,49,sabado,lunes,"Zona ZONA SURESTE - Barrio Mitre - Casilda, Santa Fe, Argentina",Paula Bertone,2,5,-33.058202,-61.152317,true
+50,Piletero El Manantial,Piletero El Manantial,5492998066543,3,50,sabado,lunes,"Zona ZONA SURESTE - Barrio Mitre - Casilda, Santa Fe, Argentina",Paula Bertone,2,5,-33.057594,-61.147321,true
