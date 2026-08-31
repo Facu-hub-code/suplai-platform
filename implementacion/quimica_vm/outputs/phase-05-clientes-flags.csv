@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Revendedor El Palmar,25001,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493582641213,Droguería Banda Norte,25002,validado,2026-08-31T16:05:19.338489+00:00,,false
+5492991227644,Distribuidora Soap Clean Centro,25003,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493418277249,Ferretería Don Santos,25004,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493587747641,Casa de Limpieza Sabattini,25005,validado,2026-08-31T16:05:19.338489+00:00,,false
+5492614053074,Mayorista Villa Nueva,25006,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493514079279,Perfumería Las Playas,25007,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493876914178,Corralón Almirante Brown,25008,validado,2026-08-31T16:05:19.338489+00:00,,false
+5492617175545,Minimercado El Ctalamochita,25009,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493818437953,Almacén Santa Rosa,25010,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493582132179,Revendedor Parque de Mayo,25011,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493872845902,Droguería Yrigoyen,25012,validado,2026-08-31T16:05:19.338489+00:00,,false
+5492997670210,Distribuidora Río Cuarto Sur,25013,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493811657614,Ferretería La Estación,25014,validado,2026-08-31T16:05:19.338489+00:00,,false
+5492994145193,Casa de Limpieza Perón,25015,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493515971311,Mayorista El Cruce,25016,validado,2026-08-31T16:05:19.338489+00:00,,false
+5492994228106,Perfumería Centro VM,25017,validado,2026-08-31T16:05:19.338489+00:00,,false
+5492998718887,Corralón Los Olivos,25018,validado,2026-08-31T16:05:19.338489+00:00,,false
+5492995028869,Minimercado Villa del Parque,25019,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493517304254,Almacén Don Pedro,25020,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493416986538,Revendedor Banda Sur,25021,validado,2026-08-31T16:05:19.338489+00:00,,false
+5492619239862,Droguería Sarmiento,25022,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493513952681,Distribuidora Mariano Moreno,25023,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493414799650,Ferretería El Tornillo,25024,validado,2026-08-31T16:05:19.338489+00:00,,false
+5492992500733,Casa de Limpieza Doña Rosa,25025,validado,2026-08-31T16:05:19.338489+00:00,,false
+5492615139305,Mayorista Ruta 9,25026,validado,2026-08-31T16:05:19.338489+00:00,,false
+5492618861463,Perfumería Tránsito Cáceres,25027,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493812941974,Corralón Constructora VM,25028,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493817404433,Minimercado Las Flores,25029,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493419686914,Almacén El Familiar,25030,validado,2026-08-31T16:05:19.338489+00:00,,false
+5493518648263,Revendedor San Justo,25031,existente,,,false
+5493516216782,Droguería Italia,25032,existente,,,false
+5492612780568,Distribuidora El Quebracho,25033,existente,,,false
+5493582639964,Ferretería Los Andes,25034,existente,,,false
+5493814729528,Casa de Limpieza El Gaucho,25035,existente,,,false
+5493876922419,Mayorista Bell Ville,25036,existente,,,false
+5492618889598,Perfumería La Esquina,25037,existente,,,false
+5492615021286,Corralón San Martín,25038,existente,,,false
+5493813520000,Minimercado El Progreso,25039,existente,,,false
+5492997489876,Almacén Don Mario,25040,existente,,,false
+5493519107005,Revendedor Tío Pujio,0,no_validado,,PROSPECTO,true
+5493874104594,Droguería La Tradición,0,existente,,PROSPECTO,true
+5492617413812,Distribuidora El Pionero,0,no_validado,,PROSPECTO,true
+5492617236955,Ferretería El Portal,0,existente,,PROSPECTO,true
+5492612928724,Casa de Limpieza La Criolla,0,no_validado,,PROSPECTO,true
+5492999435946,Mayorista James Craik,0,validado,2026-08-31T16:05:19.338489+00:00,PROSPECTO,true
+5493517632424,Perfumería El Recreo,0,no_existente,,PROSPECTO,true
+5493416524997,Corralón El Molino,0,no_validado,,PROSPECTO,true
+5493876499570,Minimercado El Pueblo,0,existente,,PROSPECTO,true
+5492998066543,Almacén Don Carlos,0,no_validado,,PROSPECTO,true

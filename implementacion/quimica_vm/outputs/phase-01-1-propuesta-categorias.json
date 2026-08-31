@@ -1,0 +1,815 @@
+{
+  "schema": "quimica_vm",
+  "products": [
+    {
+      "product_code": "10001",
+      "nombre": "BIDON DE 5L NUEVO BLANCO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases",
+        "3": "Bidones",
+        "4": "Bidón"
+      }
+    },
+    {
+      "product_code": "10002",
+      "nombre": "BIDON DE 10L NUEVO BLANCO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Envases",
+        "3": "Bidones",
+        "4": "Bidón"
+      }
+    },
+    {
+      "product_code": "1001",
+      "nombre": "JABON LIQUIDO B/E (TIPO ARIEL 8% mat. Activa ) \"SOAP CLEAN\" L.P.U. — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabones Líquidos",
+        "4": "Jabón Líquido"
+      }
+    },
+    {
+      "product_code": "1003",
+      "nombre": "JABON LIQUIDO CON SUAVIZANTE B/E (TIPO ALA) \"SOAP CLEAN\" L.P.U. — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabones Líquidos",
+        "4": "Jabón Líquido"
+      }
+    },
+    {
+      "product_code": "1005",
+      "nombre": "JABON EXTRA (C/ SUAV. Y DESMANCHANTE) \"SOAP CLEAN\" L.P.U. — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabones Líquidos",
+        "4": "Jabón Líquido"
+      }
+    },
+    {
+      "product_code": "1007",
+      "nombre": "JABON LIQUIDO C/BICARBONATO \"SOAP CLEAN\" L.P.U. — 5 L (bidón incluido)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabones Líquidos",
+        "4": "Jabón Líquido"
+      }
+    },
+    {
+      "product_code": "1008",
+      "nombre": "JABON LIQUIDO B/E ECO. (5% Materia activa) L.P.U. (ECO VERDE O SKIP AZUL) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabones Líquidos",
+        "4": "Jabón Líquido"
+      }
+    },
+    {
+      "product_code": "1009",
+      "nombre": "SUAVIZANTE PARA ROPA \"SOAP CLEAN\"  *CELESTE  *BLANCO *AMARILLO *ROSA *VIOLETA — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Suavizantes",
+        "3": "Suavizantes Líquidos",
+        "4": "Suavizante"
+      }
+    },
+    {
+      "product_code": "1010",
+      "nombre": "SUAVIZANTE PARA ROPA \"SOAP CLEAN\"  DOBLE FRAGANCIA *VIOLETA — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Suavizantes",
+        "3": "Suavizantes Líquidos",
+        "4": "Suavizante"
+      }
+    },
+    {
+      "product_code": "1012",
+      "nombre": "CAMELLITO B/E L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabones Líquidos",
+        "4": "Jabón Líquido"
+      }
+    },
+    {
+      "product_code": "1013",
+      "nombre": "LAVANDINA ROPA BLANCA L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Lavandina"
+      }
+    },
+    {
+      "product_code": "1014",
+      "nombre": "LAVANDINA ROPA COLOR POR LITRO (1L + 9LT DE AGUA)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Lavandina"
+      }
+    },
+    {
+      "product_code": "1016",
+      "nombre": "PERFUME ROPA AL AGUA CONCENTRADO — *Precio por 1 Litro para hacer 10LT (+9lt de agua)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Perfumes",
+        "3": "Perfumes para Ropa",
+        "4": "Perfume"
+      }
+    },
+    {
+      "product_code": "1017",
+      "nombre": "PERFUME ROPA AL ALCOHOL L.P.U. — 1 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Perfumes",
+        "3": "Perfumes para Ropa",
+        "4": "Perfume"
+      }
+    },
+    {
+      "product_code": "1019",
+      "nombre": "QUITAMANCHA CREMOSO Y PERFUMADO L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Quitamanchas",
+        "3": "Quitamanchas Cremosos",
+        "4": "Quitamanchas"
+      }
+    },
+    {
+      "product_code": "1021",
+      "nombre": "QUITAMANCHA OXI. L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Quitamanchas",
+        "3": "Quitamanchas Líquidos",
+        "4": "Quitamanchas"
+      }
+    },
+    {
+      "product_code": "2001",
+      "nombre": "BRILLO AL BALDE L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ceras",
+        "3": "Ceras Líquidas",
+        "4": "Cera"
+      }
+    },
+    {
+      "product_code": "2005",
+      "nombre": "CERA AUTOBRILLO INCOLORA L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ceras",
+        "3": "Ceras Líquidas",
+        "4": "Cera"
+      }
+    },
+    {
+      "product_code": "2008",
+      "nombre": "CERA TIPO \"8 M\" INCOLORA L.P.U. (PROFESIONAL)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ceras",
+        "3": "Ceras Líquidas",
+        "4": "Cera"
+      }
+    },
+    {
+      "product_code": "2011",
+      "nombre": "CERA TIPO BLEM INCOLORA L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ceras",
+        "3": "Ceras Líquidas",
+        "4": "Cera"
+      }
+    },
+    {
+      "product_code": "2014",
+      "nombre": "CERA PARA PISOS DE MADERA CREMOSO L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ceras",
+        "3": "Ceras Líquidas",
+        "4": "Cera"
+      }
+    },
+    {
+      "product_code": "2016",
+      "nombre": "CURADOR DE PISO INCOLORO L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ceras",
+        "3": "Ceras Líquidas",
+        "4": "Cera"
+      }
+    },
+    {
+      "product_code": "2019",
+      "nombre": "LIQUIDO DE LAMPAZO SILICONADO Y PERFUMADO L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasantes Líquidos",
+        "4": "Desengrasante"
+      }
+    },
+    {
+      "product_code": "2022",
+      "nombre": "REMOVEDOR DE CERAS L.P.U",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Removedores",
+        "3": "Removedores de Ceras",
+        "4": "Removedor"
+      }
+    },
+    {
+      "product_code": "3006",
+      "nombre": "DESODORANTE CITRONELLA AMARILLA 1+80 LT DE AGUA — 1 L (rinde 80 L)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desodorantes",
+        "3": "Desodorantes Líquidos",
+        "4": "Desodorante"
+      }
+    },
+    {
+      "product_code": "3011",
+      "nombre": "DESODORANTE CONIGLIO 1+80 LT DE AGUA — 1 L (rinde 80 L)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desodorantes",
+        "3": "Desodorantes Líquidos",
+        "4": "Desodorante"
+      }
+    },
+    {
+      "product_code": "3014",
+      "nombre": "DESODORANTE FLORAL 1+80 LT DE AGUA — 1 L (rinde 80 L)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desodorantes",
+        "3": "Desodorantes Líquidos",
+        "4": "Desodorante"
+      }
+    },
+    {
+      "product_code": "3017",
+      "nombre": "DESODORANTE LAVANDA 1+80 LT DE AGUA — 1 L (rinde 80 L)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desodorantes",
+        "3": "Desodorantes Líquidos",
+        "4": "Desodorante"
+      }
+    },
+    {
+      "product_code": "3019",
+      "nombre": "DESODORANTE LIMON 1+80 LT DE AGUA — 1 L (rinde 80 L)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desodorantes",
+        "3": "Desodorantes Líquidos",
+        "4": "Desodorante"
+      }
+    },
+    {
+      "product_code": "3020",
+      "nombre": "DESODORANTE LYSOFORM 1+80 LT DE AGUA",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desodorantes",
+        "3": "Desodorantes Líquidos",
+        "4": "Desodorante"
+      }
+    },
+    {
+      "product_code": "3025",
+      "nombre": "DESODORANTE PINO 1+80 LT DE AGUA — 1 L (rinde 80 L)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desodorantes",
+        "3": "Desodorantes Líquidos",
+        "4": "Desodorante"
+      }
+    },
+    {
+      "product_code": "3026",
+      "nombre": "DESODORANTE POETT 1+80 LT DE AGUA — 1 L (rinde 80 L)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desodorantes",
+        "3": "Desodorantes Líquidos",
+        "4": "Desodorante"
+      }
+    },
+    {
+      "product_code": "4001",
+      "nombre": "DETERGENTE 30% QUIMICA VM (1LT + 2LT DE AGUA) — 20 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergentes Líquidos",
+        "4": "Detergente"
+      }
+    },
+    {
+      "product_code": "4002",
+      "nombre": "DETERGENTE CRISTAL VERDE L.P.U. — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergentes Líquidos",
+        "4": "Detergente"
+      }
+    },
+    {
+      "product_code": "4003",
+      "nombre": "DETERGENTE CRISTAL LIMON L.P.U. — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergentes Líquidos",
+        "4": "Detergente"
+      }
+    },
+    {
+      "product_code": "4005",
+      "nombre": "DETERGENTE NACARADO L.P.U. (PARA PIEL SENSIBLE) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergentes Líquidos",
+        "4": "Detergente"
+      }
+    },
+    {
+      "product_code": "4006",
+      "nombre": "DETERGENTE TIPO MAGISTRAL L.P.U. — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergentes Líquidos",
+        "4": "Detergente"
+      }
+    },
+    {
+      "product_code": "4007",
+      "nombre": "DETERGENTE BIOACTIVE L.P.U. — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Detergentes",
+        "3": "Detergentes Líquidos",
+        "4": "Detergente"
+      }
+    },
+    {
+      "product_code": "5001",
+      "nombre": "ADITIVO PERFUMANTE P/ LAVANDINA POR LITRO L.P.U. (1 PARA 20 Lt DE LAVANDINA) — 1 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Aditivos",
+        "3": "Aditivos para Lavandina",
+        "4": "Aditivo"
+      }
+    },
+    {
+      "product_code": "5002",
+      "nombre": "CLORO PURO 100% — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Cloro"
+      }
+    },
+    {
+      "product_code": "5003",
+      "nombre": "LAVANDINA 50% L.P.U. (TIPO AYUDIN) — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Lavandina"
+      }
+    },
+    {
+      "product_code": "5004",
+      "nombre": "CREOLINA TIPO FLUIDO CONCENTRADA X 1LT (PARA HACER 10LT) (ENVASADO X1LT)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Creolina"
+      }
+    },
+    {
+      "product_code": "5006",
+      "nombre": "DERRIBANTE MARRON/TRANSPARENTE CONC. X 1 (PARA HACER 140LT)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes Líquidos",
+        "4": "Derribante"
+      }
+    },
+    {
+      "product_code": "5009",
+      "nombre": "INSECTICIDA TIPO FLIT L.P.U",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Insecticidas",
+        "3": "Insecticidas Líquidos",
+        "4": "Insecticida"
+      }
+    },
+    {
+      "product_code": "5010",
+      "nombre": "REPELENTE PERROS Y GATOS L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Insecticidas",
+        "3": "Insecticidas Líquidos",
+        "4": "Repelente"
+      }
+    },
+    {
+      "product_code": "5011",
+      "nombre": "REPELENTE DE INSECTOS CITRONELLA X 1LT (BOTELLA)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Insecticidas",
+        "3": "Insecticidas Líquidos",
+        "4": "Repelente"
+      }
+    },
+    {
+      "product_code": "6002",
+      "nombre": "DESENGRASANTE LIMON L.P.U. — 5 L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasantes Líquidos",
+        "4": "Desengrasante"
+      }
+    },
+    {
+      "product_code": "6003",
+      "nombre": "DESENGRASANTE NARANJA T/MR MÚSCULO L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasantes Líquidos",
+        "4": "Desengrasante"
+      }
+    },
+    {
+      "product_code": "6005",
+      "nombre": "DESENGRASANTE ROJO L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasantes Líquidos",
+        "4": "Desengrasante"
+      }
+    },
+    {
+      "product_code": "6006",
+      "nombre": "DESTAPA CAÑERIAS L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasantes Líquidos",
+        "4": "Destapa Cañerías"
+      }
+    },
+    {
+      "product_code": "6007",
+      "nombre": "LAVANDINA EN GEL L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desinfectantes",
+        "3": "Desinfectantes en Gel",
+        "4": "Lavandina"
+      }
+    },
+    {
+      "product_code": "6008",
+      "nombre": "LIMPIA ALFOMBRAS Y TAPIZADOS L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiadores de Alfombras",
+        "4": "Limpiador"
+      }
+    },
+    {
+      "product_code": "6009",
+      "nombre": "LIMPIA HORNOS L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiadores de Hornos",
+        "4": "Limpiador"
+      }
+    },
+    {
+      "product_code": "6010",
+      "nombre": "LIMPIA INODOROS L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiadores de Inodoros",
+        "4": "Limpiador"
+      }
+    },
+    {
+      "product_code": "6011",
+      "nombre": "LIMPIAVIDRIO CONC. (1LT PARA HACER 10LT)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiadores de Vidrios",
+        "4": "Limpiador"
+      }
+    },
+    {
+      "product_code": "6013",
+      "nombre": "LUSTRAMUEBLES CREMOSO L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiadores de Muebles",
+        "4": "Limpiador"
+      }
+    },
+    {
+      "product_code": "6015",
+      "nombre": "QUITASARRO LIQUIDO L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasantes Líquidos",
+        "4": "Quitasarro"
+      }
+    },
+    {
+      "product_code": "7001",
+      "nombre": "CARCLEAN MAX DESENGRASANTE LAVACARROCERIA SIN FROTAR 1+9 1LT",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasantes para Autos",
+        "4": "Desengrasante"
+      }
+    },
+    {
+      "product_code": "7007",
+      "nombre": "DESENGRASANTE DE MOTOR L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasantes para Autos",
+        "4": "Desengrasante"
+      }
+    },
+    {
+      "product_code": "7008",
+      "nombre": "DESENGRASANTE LAVA CARROCERIA L.P.U. (LAVA FACIL)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Desengrasantes",
+        "3": "Desengrasantes para Autos",
+        "4": "Desengrasante"
+      }
+    },
+    {
+      "product_code": "7010",
+      "nombre": "LIQUIDO LIMPIA PARABRISAS L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiadores de Parabrisas",
+        "4": "Limpiador"
+      }
+    },
+    {
+      "product_code": "7012",
+      "nombre": "PERFUME AUTO X1LT L.P.U. (ENVASADO X1LT)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Perfumes",
+        "3": "Perfumes para Autos",
+        "4": "Perfume"
+      }
+    },
+    {
+      "product_code": "7014",
+      "nombre": "RENOVADOR DE CAUCHO PLUS NEGRO L.P.U. NUEVA FÓRMULA + BRILLO + COLOR",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cuidado de Autos",
+        "3": "Cuidado de Caucho",
+        "4": "Renovador"
+      }
+    },
+    {
+      "product_code": "7015",
+      "nombre": "SHAMPOO PARA AUTO SILICONADO L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cuidado de Autos",
+        "3": "Shampoos",
+        "4": "Shampoo"
+      }
+    },
+    {
+      "product_code": "8001",
+      "nombre": "ALGUICIDA (1LT EN 100.000 LT DE AGUA) L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Alguicidas",
+        "3": "Alguicidas Líquidos",
+        "4": "Alguicida"
+      }
+    },
+    {
+      "product_code": "8002",
+      "nombre": "ALGUICIDA PARA HONGO NEGRO (1LT EN 100.000 LT DE AGUA) L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Alguicidas",
+        "3": "Alguicidas Líquidos",
+        "4": "Alguicida"
+      }
+    },
+    {
+      "product_code": "8003",
+      "nombre": "CLARIFICANTE Y PRECIPITANTE (1LT EN 100.000 LT DE AGUA) L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cloradores",
+        "3": "Cloradores Líquidos",
+        "4": "Clorador"
+      }
+    },
+    {
+      "product_code": "8004",
+      "nombre": "CLORO GRANULADO (DILUCIÓN RÁPIDA) — 1 kg",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cloradores",
+        "3": "Cloradores en Polvo",
+        "4": "Cloro"
+      }
+    },
+    {
+      "product_code": "8005",
+      "nombre": "PASTILLA DE CLORO TRIPLE ACCION 50 gr X1KG",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cloradores",
+        "3": "Cloradores en Pastilla",
+        "4": "Pastilla de Cloro"
+      }
+    },
+    {
+      "product_code": "8008",
+      "nombre": "POOL CLEAN ALGUICIDA X1LT (1 EN 100.000 LT DE AGUA)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Alguicidas",
+        "3": "Alguicidas Líquidos",
+        "4": "Alguicida"
+      }
+    },
+    {
+      "product_code": "8010",
+      "nombre": "POOL CLEAN REGULADOR PH X1LT (1 EN 10.000LT DE AGUA PARA BAJAR 1 PUNTO)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Reguladores",
+        "3": "Reguladores de pH",
+        "4": "Regulador"
+      }
+    },
+    {
+      "product_code": "9003",
+      "nombre": "ÁCIDO CÍTRICO \"SOAP CLEAN\" EN POLVO — 1 kg",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ácidos",
+        "3": "Ácidos en Polvo",
+        "4": "Ácido Cítrico"
+      }
+    },
+    {
+      "product_code": "9005",
+      "nombre": "ALCOHOL EN GEL L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Alcoholes",
+        "3": "Alcoholes en Gel",
+        "4": "Alcohol"
+      }
+    },
+    {
+      "product_code": "9006",
+      "nombre": "ALCOHOL INDUSTRIAL AL 96% L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Alcoholes",
+        "3": "Alcoholes Industriales",
+        "4": "Alcohol Industrial"
+      }
+    },
+    {
+      "product_code": "9008",
+      "nombre": "BICARBONATO DE SODIO \"SOAP CLEAN\" EN POLVO — 1 kg",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ácidos",
+        "3": "Ácidos en Polvo",
+        "4": "Bicarbonato de Sodio"
+      }
+    },
+    {
+      "product_code": "9018",
+      "nombre": "JABON TOCADOR LIQUIDO TIPO DOVE L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Jabones",
+        "3": "Jabones Líquidos",
+        "4": "Jabón Tenedor"
+      }
+    },
+    {
+      "product_code": "9026",
+      "nombre": "PERCARBONATO DE SODIO \"SOAP CLEAN\" — 1 kg",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Ácidos",
+        "3": "Ácidos en Polvo",
+        "4": "Percarbonato de Sodio"
+      }
+    },
+    {
+      "product_code": "9028",
+      "nombre": "PERFUME AMBIENTAL ENVASADO (ENVASADO X1LT) L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Perfumes",
+        "3": "Perfumes Ambientales",
+        "4": "Perfume"
+      }
+    },
+    {
+      "product_code": "9029",
+      "nombre": "SHAMPOO PARA CABELLOS L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cuidado Personal",
+        "3": "Shampoos",
+        "4": "Shampoo"
+      }
+    },
+    {
+      "product_code": "9030",
+      "nombre": "SHAMPOO PARA PERROS L.P.U. (ANTI PULGAS)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Cuidado de Mascotas",
+        "3": "Shampoos",
+        "4": "Shampoo"
+      }
+    },
+    {
+      "product_code": "9031",
+      "nombre": "VINAGRE DE LIMPIEZA AL 5% L.P.U.",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Limpiadores",
+        "3": "Limpiadores Multiuso",
+        "4": "Vinagre de Limpieza"
+      }
+    }
+  ]
+}

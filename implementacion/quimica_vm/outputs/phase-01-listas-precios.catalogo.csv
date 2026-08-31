@@ -1,0 +1,5 @@
+id,nombre,descripcion,multiplicador,is_mock
+1,Lista 1,Lista revendedor septiembre 2026 (sin IVA),1.00,false
+2,Lista 2,Lista Minorista Sugerido,1.15,true
+3,Lista 3,Lista Mayorista Especial,0.90,true
+4,Lista 4,Lista Gran Distribuidor,0.85,true

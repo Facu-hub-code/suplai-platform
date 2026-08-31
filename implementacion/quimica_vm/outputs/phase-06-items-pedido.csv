@@ -1,0 +1,385 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587905250,25001,8002,ALGUICIDA PARA HONGO NEGRO (1LT EN 100.000 LT DE AGUA) L.P.U.,2,9257.90,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00001,5493587905250,25001,2008,"CERA TIPO ""8 M"" INCOLORA L.P.U. (PROFESIONAL)",4,2673.40,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00001,5493587905250,25001,3025,DESODORANTE PINO 1+80 LT DE AGUA — 1 L (rinde 80 L),3,11664.45,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00001,5493587905250,25001,9008,"BICARBONATO DE SODIO ""SOAP CLEAN"" EN POLVO — 1 kg",1,4763.59,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00002,5493587905250,25001,5001,ADITIVO PERFUMANTE P/ LAVANDINA POR LITRO L.P.U. (1 PARA 20 Lt DE LAVANDINA) — 1 L,3,4148.05,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00002,5493587905250,25001,3020,DESODORANTE LYSOFORM 1+80 LT DE AGUA,2,13566.26,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00003,5493587905250,25001,3011,DESODORANTE CONIGLIO 1+80 LT DE AGUA — 1 L (rinde 80 L),3,11664.45,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00003,5493587905250,25001,3020,DESODORANTE LYSOFORM 1+80 LT DE AGUA,3,13566.26,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00003,5493587905250,25001,9005,ALCOHOL EN GEL L.P.U.,4,2774.84,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00003,5493587905250,25001,1007,"JABON LIQUIDO C/BICARBONATO ""SOAP CLEAN"" L.P.U. — 5 L (bidón incluido)",3,1530.65,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00004,5493582641213,25002,6007,LAVANDINA EN GEL L.P.U.,5,853.34,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00004,5493582641213,25002,9028,PERFUME AMBIENTAL ENVASADO (ENVASADO X1LT) L.P.U.,5,5211.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00004,5493582641213,25002,7001,CARCLEAN MAX DESENGRASANTE LAVACARROCERIA SIN FROTAR 1+9 1LT,1,4742.01,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00004,5493582641213,25002,5001,ADITIVO PERFUMANTE P/ LAVANDINA POR LITRO L.P.U. (1 PARA 20 Lt DE LAVANDINA) — 1 L,3,3246.30,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00005,5493582641213,25002,1001,"JABON LIQUIDO B/E (TIPO ARIEL 8% mat. Activa ) ""SOAP CLEAN"" L.P.U. — 5 L",3,711.21,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00005,5493582641213,25002,7001,CARCLEAN MAX DESENGRASANTE LAVACARROCERIA SIN FROTAR 1+9 1LT,4,4742.01,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00005,5493582641213,25002,10001,BIDON DE 5L NUEVO BLANCO,3,792.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00006,5493582641213,25002,2005,CERA AUTOBRILLO INCOLORA L.P.U.,2,532.98,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00006,5493582641213,25002,4005,DETERGENTE NACARADO L.P.U. (PARA PIEL SENSIBLE) — 5 L,1,926.86,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00006,5493582641213,25002,10001,BIDON DE 5L NUEVO BLANCO,4,792.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00006,5493582641213,25002,9030,SHAMPOO PARA PERROS L.P.U. (ANTI PULGAS),4,986.58,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00007,5492991227644,25003,10001,BIDON DE 5L NUEVO BLANCO,4,748.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00007,5492991227644,25003,8008,POOL CLEAN ALGUICIDA X1LT (1 EN 100.000 LT DE AGUA),2,3716.37,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00007,5492991227644,25003,6003,DESENGRASANTE NARANJA T/MR MÚSCULO L.P.U.,2,1001.38,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00008,5492991227644,25003,10002,BIDON DE 10L NUEVO BLANCO,3,1292.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00008,5492991227644,25003,2014,CERA PARA PISOS DE MADERA CREMOSO L.P.U.,4,3551.26,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00009,5492991227644,25003,1007,"JABON LIQUIDO C/BICARBONATO ""SOAP CLEAN"" L.P.U. — 5 L (bidón incluido)",1,1131.35,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00009,5492991227644,25003,2019,LIQUIDO DE LAMPAZO SILICONADO Y PERFUMADO L.P.U.,2,4493.95,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00009,5492991227644,25003,7015,SHAMPOO PARA AUTO SILICONADO L.P.U.,3,582.80,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00010,5493418277249,25004,7008,DESENGRASANTE LAVA CARROCERIA L.P.U. (LAVA FACIL),4,841.05,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00011,5493418277249,25004,2022,REMOVEDOR DE CERAS L.P.U,2,3944.85,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00011,5493418277249,25004,6007,LAVANDINA EN GEL L.P.U.,5,948.15,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00012,5493418277249,25004,4007,DETERGENTE BIOACTIVE L.P.U. — 5 L,5,1180.62,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00013,5493587747641,25005,7015,SHAMPOO PARA AUTO SILICONADO L.P.U.,1,788.50,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00013,5493587747641,25005,3020,DESODORANTE LYSOFORM 1+80 LT DE AGUA,1,13566.26,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00014,5493587747641,25005,8003,CLARIFICANTE Y PRECIPITANTE (1LT EN 100.000 LT DE AGUA) L.P.U.,4,958.75,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00014,5493587747641,25005,10002,BIDON DE 10L NUEVO BLANCO,4,1748.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00014,5493587747641,25005,3026,DESODORANTE POETT 1+80 LT DE AGUA — 1 L (rinde 80 L),2,11664.45,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00015,5493587747641,25005,8005,PASTILLA DE CLORO TRIPLE ACCION 50 gr X1KG,3,11982.02,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00016,5492614053074,25006,9006,ALCOHOL INDUSTRIAL AL 96% L.P.U.,4,3390.66,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00017,5492614053074,25006,6009,LIMPIA HORNOS L.P.U.,1,756.94,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00017,5492614053074,25006,1013,LAVANDINA ROPA BLANCA L.P.U.,4,647.33,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00017,5492614053074,25006,4003,DETERGENTE CRISTAL LIMON L.P.U. — 5 L,4,960.88,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00018,5492614053074,25006,1001,"JABON LIQUIDO B/E (TIPO ARIEL 8% mat. Activa ) ""SOAP CLEAN"" L.P.U. — 5 L",3,711.21,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00018,5492614053074,25006,7001,CARCLEAN MAX DESENGRASANTE LAVACARROCERIA SIN FROTAR 1+9 1LT,4,4742.01,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00019,5493514079279,25007,9030,SHAMPOO PARA PERROS L.P.U. (ANTI PULGAS),4,931.77,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00019,5493514079279,25007,8001,ALGUICIDA (1LT EN 100.000 LT DE AGUA) L.P.U.,2,1642.20,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00019,5493514079279,25007,6007,LAVANDINA EN GEL L.P.U.,1,805.93,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00020,5493514079279,25007,4003,DETERGENTE CRISTAL LIMON L.P.U. — 5 L,1,907.49,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00020,5493514079279,25007,6010,LIMPIA INODOROS L.P.U.,5,714.89,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00021,5493514079279,25007,9005,ALCOHOL EN GEL L.P.U.,2,2050.97,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00021,5493514079279,25007,4003,DETERGENTE CRISTAL LIMON L.P.U. — 5 L,1,907.49,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00021,5493514079279,25007,8005,PASTILLA DE CLORO TRIPLE ACCION 50 gr X1KG,3,8856.28,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00021,5493514079279,25007,6003,DESENGRASANTE NARANJA T/MR MÚSCULO L.P.U.,4,1001.38,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00022,5493876914178,25008,9028,PERFUME AMBIENTAL ENVASADO (ENVASADO X1LT) L.P.U.,1,5790.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00023,5493876914178,25008,6003,DESENGRASANTE NARANJA T/MR MÚSCULO L.P.U.,2,1178.10,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00024,5493876914178,25008,2011,CERA TIPO BLEM INCOLORA L.P.U.,5,1971.90,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00024,5493876914178,25008,3017,DESODORANTE LAVANDA 1+80 LT DE AGUA — 1 L (rinde 80 L),5,10143.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00024,5493876914178,25008,4001,DETERGENTE 30% QUIMICA VM (1LT + 2LT DE AGUA) — 20 L,1,2211.30,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00025,5492617175545,25009,8008,POOL CLEAN ALGUICIDA X1LT (1 EN 100.000 LT DE AGUA),5,5028.03,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00025,5492617175545,25009,2022,REMOVEDOR DE CERAS L.P.U,3,4536.58,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00025,5492617175545,25009,4001,DETERGENTE 30% QUIMICA VM (1LT + 2LT DE AGUA) — 20 L,1,2542.99,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00025,5492617175545,25009,4007,DETERGENTE BIOACTIVE L.P.U. — 5 L,2,1357.71,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00026,5492617175545,25009,5002,CLORO PURO 100% — 5 L,1,1139.64,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00026,5492617175545,25009,7008,DESENGRASANTE LAVA CARROCERIA L.P.U. (LAVA FACIL),1,967.21,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00026,5492617175545,25009,5001,ADITIVO PERFUMANTE P/ LAVANDINA POR LITRO L.P.U. (1 PARA 20 Lt DE LAVANDINA) — 1 L,3,4148.05,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00026,5492617175545,25009,5004,CREOLINA TIPO FLUIDO CONCENTRADA X 1LT (PARA HACER 10LT) (ENVASADO X1LT),1,8450.20,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00027,5492617175545,25009,2001,BRILLO AL BALDE L.P.U.,3,740.20,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00028,5493818437953,25010,1010,"SUAVIZANTE PARA ROPA ""SOAP CLEAN""  DOBLE FRAGANCIA *VIOLETA — 5 L",4,923.64,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00028,5493818437953,25010,4003,DETERGENTE CRISTAL LIMON L.P.U. — 5 L,1,960.88,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00028,5493818437953,25010,1008,JABON LIQUIDO B/E ECO. (5% Materia activa) L.P.U. (ECO VERDE O SKIP AZUL) — 5 L,2,541.67,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00028,5493818437953,25010,9006,ALCOHOL INDUSTRIAL AL 96% L.P.U.,4,3390.66,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00029,5493818437953,25010,5003,LAVANDINA 50% L.P.U. (TIPO AYUDIN) — 5 L,3,495.37,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00029,5493818437953,25010,6010,LIMPIA INODOROS L.P.U.,5,756.94,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00030,5493818437953,25010,3011,DESODORANTE CONIGLIO 1+80 LT DE AGUA — 1 L (rinde 80 L),5,9128.70,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00030,5493818437953,25010,1009,"SUAVIZANTE PARA ROPA ""SOAP CLEAN""  *CELESTE  *BLANCO *AMARILLO *ROSA *VIOLETA — 5 L",2,796.82,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00030,5493818437953,25010,7007,DESENGRASANTE DE MOTOR L.P.U.,1,770.18,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00030,5493818437953,25010,4007,DETERGENTE BIOACTIVE L.P.U. — 5 L,4,1062.56,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00031,5493582132179,25011,2014,CERA PARA PISOS DE MADERA CREMOSO L.P.U.,4,3551.26,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00031,5493582132179,25011,8004,CLORO GRANULADO (DILUCIÓN RÁPIDA) — 1 kg,2,6301.05,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00031,5493582132179,25011,6002,DESENGRASANTE LIMON L.P.U. — 5 L,1,540.50,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00031,5493582132179,25011,5001,ADITIVO PERFUMANTE P/ LAVANDINA POR LITRO L.P.U. (1 PARA 20 Lt DE LAVANDINA) — 1 L,2,3065.95,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00032,5493582132179,25011,6008,LIMPIA ALFOMBRAS Y TAPIZADOS L.P.U.,1,714.89,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00033,5493582132179,25011,3020,DESODORANTE LYSOFORM 1+80 LT DE AGUA,3,10027.24,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00034,5493872845902,25012,1009,"SUAVIZANTE PARA ROPA ""SOAP CLEAN""  *CELESTE  *BLANCO *AMARILLO *ROSA *VIOLETA — 5 L",1,885.36,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00034,5493872845902,25012,5002,CLORO PURO 100% — 5 L,1,990.99,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00034,5493872845902,25012,4007,DETERGENTE BIOACTIVE L.P.U. — 5 L,5,1180.62,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00034,5493872845902,25012,4005,DETERGENTE NACARADO L.P.U. (PARA PIEL SENSIBLE) — 5 L,1,1029.84,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00035,5493872845902,25012,1016,PERFUME ROPA AL AGUA CONCENTRADO — *Precio por 1 Litro para hacer 10LT (+9lt de agua),5,6968.85,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00036,5493872845902,25012,1014,LAVANDINA ROPA COLOR POR LITRO (1L + 9LT DE AGUA),2,4861.50,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00037,5492997670210,25013,3020,DESODORANTE LYSOFORM 1+80 LT DE AGUA,1,13566.26,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00038,5492997670210,25013,9029,SHAMPOO PARA CABELLOS L.P.U.,3,1380.17,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00038,5492997670210,25013,8002,ALGUICIDA PARA HONGO NEGRO (1LT EN 100.000 LT DE AGUA) L.P.U.,2,9257.90,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00038,5492997670210,25013,2016,CURADOR DE PISO INCOLORO L.P.U.,1,5532.77,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00039,5492997670210,25013,5009,INSECTICIDA TIPO FLIT L.P.U,4,7304.80,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00039,5492997670210,25013,3020,DESODORANTE LYSOFORM 1+80 LT DE AGUA,4,13566.26,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00039,5492997670210,25013,1017,PERFUME ROPA AL ALCOHOL L.P.U. — 1 L,2,6551.89,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00039,5492997670210,25013,1012,CAMELLITO B/E L.P.U.,4,945.47,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00040,5493811657614,25014,3017,DESODORANTE LAVANDA 1+80 LT DE AGUA — 1 L (rinde 80 L),3,9128.70,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00040,5493811657614,25014,7012,PERFUME AUTO X1LT L.P.U. (ENVASADO X1LT),3,5518.80,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00040,5493811657614,25014,5010,REPELENTE PERROS Y GATOS L.P.U.,1,675.68,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00040,5493811657614,25014,2001,BRILLO AL BALDE L.P.U.,3,579.28,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00041,5493811657614,25014,9008,"BICARBONATO DE SODIO ""SOAP CLEAN"" EN POLVO — 1 kg",3,3728.03,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00041,5493811657614,25014,1017,PERFUME ROPA AL ALCOHOL L.P.U. — 1 L,2,5127.57,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00041,5493811657614,25014,10002,BIDON DE 10L NUEVO BLANCO,3,1368.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00042,5493811657614,25014,3019,DESODORANTE LIMON 1+80 LT DE AGUA — 1 L (rinde 80 L),4,9128.70,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00042,5493811657614,25014,6003,DESENGRASANTE NARANJA T/MR MÚSCULO L.P.U.,4,1060.29,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00042,5493811657614,25014,3011,DESODORANTE CONIGLIO 1+80 LT DE AGUA — 1 L (rinde 80 L),2,9128.70,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00043,5492994145193,25015,8004,CLORO GRANULADO (DILUCIÓN RÁPIDA) — 1 kg,3,6301.05,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00044,5492994145193,25015,3011,DESODORANTE CONIGLIO 1+80 LT DE AGUA — 1 L (rinde 80 L),3,8621.55,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00045,5492994145193,25015,6010,LIMPIA INODOROS L.P.U.,2,714.89,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00045,5492994145193,25015,4003,DETERGENTE CRISTAL LIMON L.P.U. — 5 L,2,907.49,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00045,5492994145193,25015,4001,DETERGENTE 30% QUIMICA VM (1LT + 2LT DE AGUA) — 20 L,5,1879.61,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00045,5492994145193,25015,1001,"JABON LIQUIDO B/E (TIPO ARIEL 8% mat. Activa ) ""SOAP CLEAN"" L.P.U. — 5 L",2,671.70,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00046,5493515971311,25016,6008,LIMPIA ALFOMBRAS Y TAPIZADOS L.P.U.,3,841.05,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00046,5493515971311,25016,2016,CURADOR DE PISO INCOLORO L.P.U.,4,4811.10,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00046,5493515971311,25016,3017,DESODORANTE LAVANDA 1+80 LT DE AGUA — 1 L (rinde 80 L),3,10143.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00046,5493515971311,25016,4005,DETERGENTE NACARADO L.P.U. (PARA PIEL SENSIBLE) — 5 L,3,1029.84,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00047,5493515971311,25016,6005,DESENGRASANTE ROJO L.P.U.,1,479.85,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00047,5493515971311,25016,2011,CERA TIPO BLEM INCOLORA L.P.U.,3,1971.90,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00047,5493515971311,25016,1016,PERFUME ROPA AL AGUA CONCENTRADO — *Precio por 1 Litro para hacer 10LT (+9lt de agua),5,6968.85,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00047,5493515971311,25016,9031,VINAGRE DE LIMPIEZA AL 5% L.P.U.,5,374.85,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00048,5493515971311,25016,1012,CAMELLITO B/E L.P.U.,4,822.15,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00049,5492994228106,25017,3025,DESODORANTE PINO 1+80 LT DE AGUA — 1 L (rinde 80 L),4,11664.45,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00049,5492994228106,25017,1021,QUITAMANCHA OXI. L.P.U.,4,551.83,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00049,5492994228106,25017,6005,DESENGRASANTE ROJO L.P.U.,3,551.83,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00049,5492994228106,25017,6011,LIMPIAVIDRIO CONC. (1LT PARA HACER 10LT),5,5311.79,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00050,5492994228106,25017,8004,CLORO GRANULADO (DILUCIÓN RÁPIDA) — 1 kg,5,8524.95,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00050,5492994228106,25017,6002,DESENGRASANTE LIMON L.P.U. — 5 L,2,731.26,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00050,5492994228106,25017,6007,LAVANDINA EN GEL L.P.U.,3,1090.37,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00051,5492994228106,25017,8005,PASTILLA DE CLORO TRIPLE ACCION 50 gr X1KG,2,11982.02,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00051,5492994228106,25017,5004,CREOLINA TIPO FLUIDO CONCENTRADA X 1LT (PARA HACER 10LT) (ENVASADO X1LT),4,8450.20,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00051,5492994228106,25017,6008,LIMPIA ALFOMBRAS Y TAPIZADOS L.P.U.,4,967.21,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00051,5492994228106,25017,3011,DESODORANTE CONIGLIO 1+80 LT DE AGUA — 1 L (rinde 80 L),5,11664.45,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00052,5492998718887,25018,7014,RENOVADOR DE CAUCHO PLUS NEGRO L.P.U. NUEVA FÓRMULA + BRILLO + COLOR,5,2024.19,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00052,5492998718887,25018,1009,"SUAVIZANTE PARA ROPA ""SOAP CLEAN""  *CELESTE  *BLANCO *AMARILLO *ROSA *VIOLETA — 5 L",4,796.82,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00052,5492998718887,25018,1014,LAVANDINA ROPA COLOR POR LITRO (1L + 9LT DE AGUA),1,4375.35,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00052,5492998718887,25018,4005,DETERGENTE NACARADO L.P.U. (PARA PIEL SENSIBLE) — 5 L,2,926.86,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00053,5492998718887,25018,6009,LIMPIA HORNOS L.P.U.,5,756.94,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00053,5492998718887,25018,1021,QUITAMANCHA OXI. L.P.U.,5,431.87,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00053,5492998718887,25018,5003,LAVANDINA 50% L.P.U. (TIPO AYUDIN) — 5 L,2,495.37,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00053,5492998718887,25018,9018,JABON TOCADOR LIQUIDO TIPO DOVE L.P.U.,1,771.12,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00054,5492998718887,25018,1008,JABON LIQUIDO B/E ECO. (5% Materia activa) L.P.U. (ECO VERDE O SKIP AZUL) — 5 L,2,541.67,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00054,5492998718887,25018,6003,DESENGRASANTE NARANJA T/MR MÚSCULO L.P.U.,5,1060.29,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00055,5492995028869,25019,5001,ADITIVO PERFUMANTE P/ LAVANDINA POR LITRO L.P.U. (1 PARA 20 Lt DE LAVANDINA) — 1 L,1,3065.95,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00055,5492995028869,25019,4007,DETERGENTE BIOACTIVE L.P.U. — 5 L,1,1003.53,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00055,5492995028869,25019,6003,DESENGRASANTE NARANJA T/MR MÚSCULO L.P.U.,4,1001.38,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00056,5492995028869,25019,6010,LIMPIA INODOROS L.P.U.,1,714.89,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00056,5492995028869,25019,5011,REPELENTE DE INSECTOS CITRONELLA X 1LT (BOTELLA),2,4251.87,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00056,5492995028869,25019,2011,CERA TIPO BLEM INCOLORA L.P.U.,4,1676.12,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00056,5492995028869,25019,6007,LAVANDINA EN GEL L.P.U.,1,805.93,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00057,5492995028869,25019,4003,DETERGENTE CRISTAL LIMON L.P.U. — 5 L,2,907.49,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00057,5492995028869,25019,1012,CAMELLITO B/E L.P.U.,3,698.83,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00058,5493517304254,25020,1007,"JABON LIQUIDO C/BICARBONATO ""SOAP CLEAN"" L.P.U. — 5 L (bidón incluido)",2,1331.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00058,5493517304254,25020,3026,DESODORANTE POETT 1+80 LT DE AGUA — 1 L (rinde 80 L),2,10143.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00059,5493517304254,25020,1008,JABON LIQUIDO B/E ECO. (5% Materia activa) L.P.U. (ECO VERDE O SKIP AZUL) — 5 L,3,601.86,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00060,5493517304254,25020,1008,JABON LIQUIDO B/E ECO. (5% Materia activa) L.P.U. (ECO VERDE O SKIP AZUL) — 5 L,4,601.86,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00060,5493517304254,25020,6008,LIMPIA ALFOMBRAS Y TAPIZADOS L.P.U.,4,841.05,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00060,5493517304254,25020,4006,DETERGENTE TIPO MAGISTRAL L.P.U. — 5 L,3,1427.37,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00061,5493416986538,25021,5001,ADITIVO PERFUMANTE P/ LAVANDINA POR LITRO L.P.U. (1 PARA 20 Lt DE LAVANDINA) — 1 L,5,4148.05,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00061,5493416986538,25021,10001,BIDON DE 5L NUEVO BLANCO,3,1012.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00062,5493416986538,25021,1019,QUITAMANCHA CREMOSO Y PERFUMADO L.P.U.,3,1378.96,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00062,5493416986538,25021,8005,PASTILLA DE CLORO TRIPLE ACCION 50 gr X1KG,4,11982.02,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00063,5493416986538,25021,7015,SHAMPOO PARA AUTO SILICONADO L.P.U.,5,788.50,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00063,5493416986538,25021,7008,DESENGRASANTE LAVA CARROCERIA L.P.U. (LAVA FACIL),1,967.21,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00063,5493416986538,25021,6007,LAVANDINA EN GEL L.P.U.,2,1090.37,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00064,5492619239862,25022,1013,LAVANDINA ROPA BLANCA L.P.U.,4,647.33,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00064,5492619239862,25022,6005,DESENGRASANTE ROJO L.P.U.,5,431.87,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00064,5492619239862,25022,1009,"SUAVIZANTE PARA ROPA ""SOAP CLEAN""  *CELESTE  *BLANCO *AMARILLO *ROSA *VIOLETA — 5 L",4,796.82,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00065,5492619239862,25022,1013,LAVANDINA ROPA BLANCA L.P.U.,5,647.33,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00065,5492619239862,25022,7008,DESENGRASANTE LAVA CARROCERIA L.P.U. (LAVA FACIL),2,756.94,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00065,5492619239862,25022,8001,ALGUICIDA (1LT EN 100.000 LT DE AGUA) L.P.U.,1,1738.80,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00065,5492619239862,25022,1001,"JABON LIQUIDO B/E (TIPO ARIEL 8% mat. Activa ) ""SOAP CLEAN"" L.P.U. — 5 L",4,711.21,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00066,5492619239862,25022,8003,CLARIFICANTE Y PRECIPITANTE (1LT EN 100.000 LT DE AGUA) L.P.U.,3,750.33,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00066,5492619239862,25022,5002,CLORO PURO 100% — 5 L,2,891.89,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00066,5492619239862,25022,3025,DESODORANTE PINO 1+80 LT DE AGUA — 1 L (rinde 80 L),2,9128.70,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00067,5493513952681,25023,2019,LIQUIDO DE LAMPAZO SILICONADO Y PERFUMADO L.P.U.,4,4493.95,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00067,5493513952681,25023,6002,DESENGRASANTE LIMON L.P.U. — 5 L,3,540.50,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00067,5493513952681,25023,7010,LIQUIDO LIMPIA PARABRISAS L.P.U.,1,418.58,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00068,5493513952681,25023,8010,POOL CLEAN REGULADOR PH X1LT (1 EN 10.000LT DE AGUA PARA BAJAR 1 PUNTO),4,3146.95,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00068,5493513952681,25023,4006,DETERGENTE TIPO MAGISTRAL L.P.U. — 5 L,4,1213.26,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00068,5493513952681,25023,6013,LUSTRAMUEBLES CREMOSO L.P.U.,4,3551.26,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00069,5493513952681,25023,6011,LIMPIAVIDRIO CONC. (1LT PARA HACER 10LT),2,3926.11,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00070,5493414799650,25024,4007,DETERGENTE BIOACTIVE L.P.U. — 5 L,1,1180.62,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00070,5493414799650,25024,5002,CLORO PURO 100% — 5 L,2,990.99,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00070,5493414799650,25024,9018,JABON TOCADOR LIQUIDO TIPO DOVE L.P.U.,3,856.80,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00070,5493414799650,25024,9003,"ÁCIDO CÍTRICO ""SOAP CLEAN"" EN POLVO — 1 kg",2,6646.50,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00071,5493414799650,25024,7015,SHAMPOO PARA AUTO SILICONADO L.P.U.,3,685.65,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00071,5493414799650,25024,9005,ALCOHOL EN GEL L.P.U.,4,2412.90,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00071,5493414799650,25024,3026,DESODORANTE POETT 1+80 LT DE AGUA — 1 L (rinde 80 L),1,10143.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00071,5493414799650,25024,8010,POOL CLEAN REGULADOR PH X1LT (1 EN 10.000LT DE AGUA PARA BAJAR 1 PUNTO),4,3702.30,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00072,5493414799650,25024,6015,QUITASARRO LIQUIDO L.P.U.,3,562.80,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00072,5493414799650,25024,6005,DESENGRASANTE ROJO L.P.U.,3,479.85,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00072,5493414799650,25024,2019,LIQUIDO DE LAMPAZO SILICONADO Y PERFUMADO L.P.U.,4,5287.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00072,5493414799650,25024,3006,DESODORANTE CITRONELLA AMARILLA 1+80 LT DE AGUA — 1 L (rinde 80 L),1,10143.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00073,5492992500733,25025,3011,DESODORANTE CONIGLIO 1+80 LT DE AGUA — 1 L (rinde 80 L),4,11664.45,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00073,5492992500733,25025,6013,LUSTRAMUEBLES CREMOSO L.P.U.,1,4804.64,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00073,5492992500733,25025,5010,REPELENTE PERROS Y GATOS L.P.U.,2,863.36,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00074,5492992500733,25025,8005,PASTILLA DE CLORO TRIPLE ACCION 50 gr X1KG,4,11982.02,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00074,5492992500733,25025,9018,JABON TOCADOR LIQUIDO TIPO DOVE L.P.U.,2,985.32,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00074,5492992500733,25025,6009,LIMPIA HORNOS L.P.U.,3,967.21,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00075,5492992500733,25025,4002,DETERGENTE CRISTAL VERDE L.P.U. — 5 L,2,1160.89,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00075,5492992500733,25025,2011,CERA TIPO BLEM INCOLORA L.P.U.,4,2267.68,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00076,5492615139305,25026,5010,REPELENTE PERROS Y GATOS L.P.U.,2,675.68,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00076,5492615139305,25026,4007,DETERGENTE BIOACTIVE L.P.U. — 5 L,5,1062.56,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00077,5492615139305,25026,2016,CURADOR DE PISO INCOLORO L.P.U.,1,4329.99,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00077,5492615139305,25026,9018,JABON TOCADOR LIQUIDO TIPO DOVE L.P.U.,2,771.12,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00078,5492615139305,25026,5002,CLORO PURO 100% — 5 L,3,891.89,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00078,5492615139305,25026,9028,PERFUME AMBIENTAL ENVASADO (ENVASADO X1LT) L.P.U.,4,5211.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00079,5492618861463,25027,9018,JABON TOCADOR LIQUIDO TIPO DOVE L.P.U.,5,728.28,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00079,5492618861463,25027,4002,DETERGENTE CRISTAL VERDE L.P.U. — 5 L,1,858.05,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00080,5492618861463,25027,7008,DESENGRASANTE LAVA CARROCERIA L.P.U. (LAVA FACIL),2,714.89,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00081,5492618861463,25027,9003,"ÁCIDO CÍTRICO ""SOAP CLEAN"" EN POLVO — 1 kg",3,5649.52,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00082,5493812941974,25028,6015,QUITASARRO LIQUIDO L.P.U.,1,562.80,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00082,5493812941974,25028,2001,BRILLO AL BALDE L.P.U.,5,643.65,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00082,5493812941974,25028,6013,LUSTRAMUEBLES CREMOSO L.P.U.,3,4177.95,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00082,5493812941974,25028,7001,CARCLEAN MAX DESENGRASANTE LAVACARROCERIA SIN FROTAR 1+9 1LT,4,5268.90,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00083,5493812941974,25028,2008,"CERA TIPO ""8 M"" INCOLORA L.P.U. (PROFESIONAL)",3,2324.70,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00083,5493812941974,25028,8004,CLORO GRANULADO (DILUCIÓN RÁPIDA) — 1 kg,1,7413.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00083,5493812941974,25028,7015,SHAMPOO PARA AUTO SILICONADO L.P.U.,5,685.65,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00084,5493812941974,25028,1008,JABON LIQUIDO B/E ECO. (5% Materia activa) L.P.U. (ECO VERDE O SKIP AZUL) — 5 L,2,601.86,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00084,5493812941974,25028,9031,VINAGRE DE LIMPIEZA AL 5% L.P.U.,1,374.85,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00085,5493817404433,25029,1008,JABON LIQUIDO B/E ECO. (5% Materia activa) L.P.U. (ECO VERDE O SKIP AZUL) — 5 L,2,692.14,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00085,5493817404433,25029,8010,POOL CLEAN REGULADOR PH X1LT (1 EN 10.000LT DE AGUA PARA BAJAR 1 PUNTO),5,4257.64,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00085,5493817404433,25029,1016,PERFUME ROPA AL AGUA CONCENTRADO — *Precio por 1 Litro para hacer 10LT (+9lt de agua),3,8014.18,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00086,5493817404433,25029,4002,DETERGENTE CRISTAL VERDE L.P.U. — 5 L,5,1160.89,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00087,5493817404433,25029,9029,SHAMPOO PARA CABELLOS L.P.U.,3,1380.17,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00087,5493817404433,25029,1009,"SUAVIZANTE PARA ROPA ""SOAP CLEAN""  *CELESTE  *BLANCO *AMARILLO *ROSA *VIOLETA — 5 L",2,1018.16,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00087,5493817404433,25029,4005,DETERGENTE NACARADO L.P.U. (PARA PIEL SENSIBLE) — 5 L,2,1184.32,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00087,5493817404433,25029,6002,DESENGRASANTE LIMON L.P.U. — 5 L,3,731.26,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00088,5493419686914,25030,6003,DESENGRASANTE NARANJA T/MR MÚSCULO L.P.U.,4,1060.29,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00088,5493419686914,25030,6009,LIMPIA HORNOS L.P.U.,4,756.94,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00089,5493419686914,25030,1017,PERFUME ROPA AL ALCOHOL L.P.U. — 1 L,3,5127.57,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00090,5493419686914,25030,1003,"JABON LIQUIDO CON SUAVIZANTE B/E (TIPO ALA) ""SOAP CLEAN"" L.P.U. — 5 L",4,741.96,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00090,5493419686914,25030,7010,LIQUIDO LIMPIA PARABRISAS L.P.U.,4,443.20,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00090,5493419686914,25030,1016,PERFUME ROPA AL AGUA CONCENTRADO — *Precio por 1 Litro para hacer 10LT (+9lt de agua),2,6271.97,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00090,5493419686914,25030,3014,DESODORANTE FLORAL 1+80 LT DE AGUA — 1 L (rinde 80 L),5,9128.70,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00091,5493518648263,25031,5001,ADITIVO PERFUMANTE P/ LAVANDINA POR LITRO L.P.U. (1 PARA 20 Lt DE LAVANDINA) — 1 L,1,3065.95,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00091,5493518648263,25031,6005,DESENGRASANTE ROJO L.P.U.,5,407.87,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00092,5493518648263,25031,5009,INSECTICIDA TIPO FLIT L.P.U,3,5399.20,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00092,5493518648263,25031,1012,CAMELLITO B/E L.P.U.,1,698.83,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00093,5493518648263,25031,5011,REPELENTE DE INSECTOS CITRONELLA X 1LT (BOTELLA),3,4251.87,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00093,5493518648263,25031,6009,LIMPIA HORNOS L.P.U.,4,714.89,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00094,5493516216782,25032,4007,DETERGENTE BIOACTIVE L.P.U. — 5 L,5,1180.62,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00094,5493516216782,25032,10001,BIDON DE 5L NUEVO BLANCO,4,880.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00095,5493516216782,25032,3006,DESODORANTE CITRONELLA AMARILLA 1+80 LT DE AGUA — 1 L (rinde 80 L),1,10143.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00096,5493516216782,25032,8003,CLARIFICANTE Y PRECIPITANTE (1LT EN 100.000 LT DE AGUA) L.P.U.,4,833.70,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00096,5493516216782,25032,9026,"PERCARBONATO DE SODIO ""SOAP CLEAN"" — 1 kg",4,9780.75,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00097,5492612780568,25033,1009,"SUAVIZANTE PARA ROPA ""SOAP CLEAN""  *CELESTE  *BLANCO *AMARILLO *ROSA *VIOLETA — 5 L",2,1018.16,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00098,5492612780568,25033,9029,SHAMPOO PARA CABELLOS L.P.U.,5,1380.17,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00098,5492612780568,25033,4001,DETERGENTE 30% QUIMICA VM (1LT + 2LT DE AGUA) — 20 L,2,2542.99,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00099,5492612780568,25033,3025,DESODORANTE PINO 1+80 LT DE AGUA — 1 L (rinde 80 L),5,11664.45,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00099,5492612780568,25033,3017,DESODORANTE LAVANDA 1+80 LT DE AGUA — 1 L (rinde 80 L),1,11664.45,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00100,5493582639964,25034,7010,LIQUIDO LIMPIA PARABRISAS L.P.U.,5,443.20,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00100,5493582639964,25034,2016,CURADOR DE PISO INCOLORO L.P.U.,4,4329.99,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00101,5493582639964,25034,9005,ALCOHOL EN GEL L.P.U.,4,2171.61,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00101,5493582639964,25034,4005,DETERGENTE NACARADO L.P.U. (PARA PIEL SENSIBLE) — 5 L,3,926.86,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00102,5493582639964,25034,4003,DETERGENTE CRISTAL LIMON L.P.U. — 5 L,4,960.88,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00102,5493582639964,25034,1016,PERFUME ROPA AL AGUA CONCENTRADO — *Precio por 1 Litro para hacer 10LT (+9lt de agua),3,6271.97,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00103,5493814729528,25035,7015,SHAMPOO PARA AUTO SILICONADO L.P.U.,3,582.80,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00104,5493814729528,25035,8002,ALGUICIDA PARA HONGO NEGRO (1LT EN 100.000 LT DE AGUA) L.P.U.,3,6842.80,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00104,5493814729528,25035,1003,"JABON LIQUIDO CON SUAVIZANTE B/E (TIPO ALA) ""SOAP CLEAN"" L.P.U. — 5 L",1,700.74,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493814729528,25035,3011,DESODORANTE CONIGLIO 1+80 LT DE AGUA — 1 L (rinde 80 L),1,8621.55,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493814729528,25035,5006,DERRIBANTE MARRON/TRANSPARENTE CONC. X 1 (PARA HACER 140LT),5,22139.35,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00105,5493814729528,25035,2022,REMOVEDOR DE CERAS L.P.U,4,3353.12,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00106,5493876922419,25036,1012,CAMELLITO B/E L.P.U.,3,822.15,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00106,5493876922419,25036,1021,QUITAMANCHA OXI. L.P.U.,1,479.85,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00107,5493876922419,25036,9003,"ÁCIDO CÍTRICO ""SOAP CLEAN"" EN POLVO — 1 kg",4,6646.50,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00108,5493876922419,25036,4001,DETERGENTE 30% QUIMICA VM (1LT + 2LT DE AGUA) — 20 L,5,2211.30,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00109,5492618889598,25037,6010,LIMPIA INODOROS L.P.U.,2,967.21,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00109,5492618889598,25037,2014,CERA PARA PISOS DE MADERA CREMOSO L.P.U.,2,4804.64,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00109,5492618889598,25037,3011,DESODORANTE CONIGLIO 1+80 LT DE AGUA — 1 L (rinde 80 L),3,11664.45,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00110,5492618889598,25037,5010,REPELENTE PERROS Y GATOS L.P.U.,1,863.36,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00111,5492618889598,25037,1007,"JABON LIQUIDO C/BICARBONATO ""SOAP CLEAN"" L.P.U. — 5 L (bidón incluido)",3,1530.65,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00112,5492615021286,25038,6008,LIMPIA ALFOMBRAS Y TAPIZADOS L.P.U.,4,756.94,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00112,5492615021286,25038,6007,LAVANDINA EN GEL L.P.U.,3,853.34,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00112,5492615021286,25038,1017,PERFUME ROPA AL ALCOHOL L.P.U. — 1 L,4,5127.57,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00113,5492615021286,25038,8002,ALGUICIDA PARA HONGO NEGRO (1LT EN 100.000 LT DE AGUA) L.P.U.,5,7245.32,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00114,5492615021286,25038,8005,PASTILLA DE CLORO TRIPLE ACCION 50 gr X1KG,2,9377.24,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00114,5492615021286,25038,5001,ADITIVO PERFUMANTE P/ LAVANDINA POR LITRO L.P.U. (1 PARA 20 Lt DE LAVANDINA) — 1 L,2,3246.30,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00114,5492615021286,25038,3026,DESODORANTE POETT 1+80 LT DE AGUA — 1 L (rinde 80 L),4,9128.70,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00114,5492615021286,25038,9005,ALCOHOL EN GEL L.P.U.,4,2171.61,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00115,5493813520000,25039,8010,POOL CLEAN REGULADOR PH X1LT (1 EN 10.000LT DE AGUA PARA BAJAR 1 PUNTO),2,3146.95,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00116,5493813520000,25039,5009,INSECTICIDA TIPO FLIT L.P.U,3,5399.20,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00116,5493813520000,25039,9018,JABON TOCADOR LIQUIDO TIPO DOVE L.P.U.,3,728.28,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00117,5493813520000,25039,3026,DESODORANTE POETT 1+80 LT DE AGUA — 1 L (rinde 80 L),2,8621.55,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00117,5493813520000,25039,3014,DESODORANTE FLORAL 1+80 LT DE AGUA — 1 L (rinde 80 L),5,8621.55,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00117,5493813520000,25039,9003,"ÁCIDO CÍTRICO ""SOAP CLEAN"" EN POLVO — 1 kg",1,5649.52,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00117,5493813520000,25039,9006,ALCOHOL INDUSTRIAL AL 96% L.P.U.,4,3202.29,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00118,5492997489876,25040,5002,CLORO PURO 100% — 5 L,4,990.99,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00119,5492997489876,25040,6015,QUITASARRO LIQUIDO L.P.U.,2,562.80,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00120,5492997489876,25040,1014,LAVANDINA ROPA COLOR POR LITRO (1L + 9LT DE AGUA),1,4861.50,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00121,5492612928724,0,1005,"JABON EXTRA (C/ SUAV. Y DESMANCHANTE) ""SOAP CLEAN"" L.P.U. — 5 L",3,1207.98,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5492612928724,0,1003,"JABON LIQUIDO CON SUAVIZANTE B/E (TIPO ALA) ""SOAP CLEAN"" L.P.U. — 5 L",3,948.06,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5492612928724,0,6015,QUITASARRO LIQUIDO L.P.U.,5,647.22,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00121,5492612928724,0,2019,LIQUIDO DE LAMPAZO SILICONADO Y PERFUMADO L.P.U.,1,6080.05,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00122,5492612928724,0,8002,ALGUICIDA PARA HONGO NEGRO (1LT EN 100.000 LT DE AGUA) L.P.U.,1,9257.90,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00123,5492612928724,0,5006,DERRIBANTE MARRON/TRANSPARENTE CONC. X 1 (PARA HACER 140LT),3,29953.24,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00124,5492617236955,0,1007,"JABON LIQUIDO C/BICARBONATO ""SOAP CLEAN"" L.P.U. — 5 L (bidón incluido)",1,1331.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00124,5492617236955,0,1014,LAVANDINA ROPA COLOR POR LITRO (1L + 9LT DE AGUA),2,4861.50,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00124,5492617236955,0,6003,DESENGRASANTE NARANJA T/MR MÚSCULO L.P.U.,1,1178.10,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00125,5492617236955,0,3020,DESODORANTE LYSOFORM 1+80 LT DE AGUA,1,11796.75,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00125,5492617236955,0,1013,LAVANDINA ROPA BLANCA L.P.U.,1,719.25,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00126,5492617236955,0,5003,LAVANDINA 50% L.P.U. (TIPO AYUDIN) — 5 L,5,550.41,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00126,5492617236955,0,9030,SHAMPOO PARA PERROS L.P.U. (ANTI PULGAS),2,1096.20,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00127,5492617413812,0,3011,DESODORANTE CONIGLIO 1+80 LT DE AGUA — 1 L (rinde 80 L),1,8621.55,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00127,5492617413812,0,8004,CLORO GRANULADO (DILUCIÓN RÁPIDA) — 1 kg,1,6301.05,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00127,5492617413812,0,6009,LIMPIA HORNOS L.P.U.,4,714.89,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00128,5492617413812,0,7012,PERFUME AUTO X1LT L.P.U. (ENVASADO X1LT),3,5212.20,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00128,5492617413812,0,10002,BIDON DE 10L NUEVO BLANCO,3,1292.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00129,5492617413812,0,1007,"JABON LIQUIDO C/BICARBONATO ""SOAP CLEAN"" L.P.U. — 5 L (bidón incluido)",1,1131.35,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00129,5492617413812,0,4006,DETERGENTE TIPO MAGISTRAL L.P.U. — 5 L,3,1213.26,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00129,5492617413812,0,1012,CAMELLITO B/E L.P.U.,2,698.83,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00129,5492617413812,0,1010,"SUAVIZANTE PARA ROPA ""SOAP CLEAN""  DOBLE FRAGANCIA *VIOLETA — 5 L",1,872.33,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00130,5492998066543,0,6010,LIMPIA INODOROS L.P.U.,3,756.94,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00130,5492998066543,0,8002,ALGUICIDA PARA HONGO NEGRO (1LT EN 100.000 LT DE AGUA) L.P.U.,5,7245.32,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00130,5492998066543,0,8003,CLARIFICANTE Y PRECIPITANTE (1LT EN 100.000 LT DE AGUA) L.P.U.,4,750.33,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00131,5492998066543,0,6010,LIMPIA INODOROS L.P.U.,2,756.94,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00131,5492998066543,0,3019,DESODORANTE LIMON 1+80 LT DE AGUA — 1 L (rinde 80 L),2,9128.70,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00131,5492998066543,0,1017,PERFUME ROPA AL ALCOHOL L.P.U. — 1 L,2,5127.57,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00132,5492998066543,0,1005,"JABON EXTRA (C/ SUAV. Y DESMANCHANTE) ""SOAP CLEAN"" L.P.U. — 5 L",2,945.38,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00132,5492998066543,0,2014,CERA PARA PISOS DE MADERA CREMOSO L.P.U.,3,3760.15,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00133,5492999435946,0,7007,DESENGRASANTE DE MOTOR L.P.U.,1,770.18,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00133,5492999435946,0,5004,CREOLINA TIPO FLUIDO CONCENTRADA X 1LT (PARA HACER 10LT) (ENVASADO X1LT),1,6613.20,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00133,5492999435946,0,7015,SHAMPOO PARA AUTO SILICONADO L.P.U.,4,617.09,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00134,5492999435946,0,3014,DESODORANTE FLORAL 1+80 LT DE AGUA — 1 L (rinde 80 L),5,9128.70,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00134,5492999435946,0,1010,"SUAVIZANTE PARA ROPA ""SOAP CLEAN""  DOBLE FRAGANCIA *VIOLETA — 5 L",5,923.64,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00134,5492999435946,0,4007,DETERGENTE BIOACTIVE L.P.U. — 5 L,2,1062.56,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00134,5492999435946,0,7014,RENOVADOR DE CAUCHO PLUS NEGRO L.P.U. NUEVA FÓRMULA + BRILLO + COLOR,4,2024.19,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00135,5492999435946,0,5001,ADITIVO PERFUMANTE P/ LAVANDINA POR LITRO L.P.U. (1 PARA 20 Lt DE LAVANDINA) — 1 L,2,3246.30,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00136,5493416524997,0,3014,DESODORANTE FLORAL 1+80 LT DE AGUA — 1 L (rinde 80 L),4,10143.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00137,5493416524997,0,4003,DETERGENTE CRISTAL LIMON L.P.U. — 5 L,4,1067.64,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00137,5493416524997,0,3017,DESODORANTE LAVANDA 1+80 LT DE AGUA — 1 L (rinde 80 L),5,10143.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00137,5493416524997,0,6005,DESENGRASANTE ROJO L.P.U.,2,479.85,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00138,5493416524997,0,10001,BIDON DE 5L NUEVO BLANCO,5,880.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00139,5493517632424,0,1014,LAVANDINA ROPA COLOR POR LITRO (1L + 9LT DE AGUA),3,4132.27,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00139,5493517632424,0,6006,DESTAPA CAÑERIAS L.P.U.,2,1275.38,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00139,5493517632424,0,1010,"SUAVIZANTE PARA ROPA ""SOAP CLEAN""  DOBLE FRAGANCIA *VIOLETA — 5 L",1,872.33,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00140,5493517632424,0,4001,DETERGENTE 30% QUIMICA VM (1LT + 2LT DE AGUA) — 20 L,1,1879.61,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00140,5493517632424,0,2011,CERA TIPO BLEM INCOLORA L.P.U.,4,1676.12,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00140,5493517632424,0,1009,"SUAVIZANTE PARA ROPA ""SOAP CLEAN""  *CELESTE  *BLANCO *AMARILLO *ROSA *VIOLETA — 5 L",5,752.56,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00141,5493517632424,0,1012,CAMELLITO B/E L.P.U.,1,698.83,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00141,5493517632424,0,1005,"JABON EXTRA (C/ SUAV. Y DESMANCHANTE) ""SOAP CLEAN"" L.P.U. — 5 L",5,892.86,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00142,5493519107005,0,1021,QUITAMANCHA OXI. L.P.U.,2,551.83,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00143,5493519107005,0,7007,DESENGRASANTE DE MOTOR L.P.U.,5,984.11,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00144,5493519107005,0,7007,DESENGRASANTE DE MOTOR L.P.U.,2,984.11,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00144,5493519107005,0,7015,SHAMPOO PARA AUTO SILICONADO L.P.U.,1,788.50,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00144,5493519107005,0,1008,JABON LIQUIDO B/E ECO. (5% Materia activa) L.P.U. (ECO VERDE O SKIP AZUL) — 5 L,5,692.14,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00144,5493519107005,0,1013,LAVANDINA ROPA BLANCA L.P.U.,4,827.14,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00145,5493874104594,0,7008,DESENGRASANTE LAVA CARROCERIA L.P.U. (LAVA FACIL),5,756.94,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00145,5493874104594,0,5010,REPELENTE PERROS Y GATOS L.P.U.,3,675.68,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00145,5493874104594,0,1005,"JABON EXTRA (C/ SUAV. Y DESMANCHANTE) ""SOAP CLEAN"" L.P.U. — 5 L",1,945.38,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00145,5493874104594,0,9031,VINAGRE DE LIMPIEZA AL 5% L.P.U.,5,337.37,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00146,5493874104594,0,5004,CREOLINA TIPO FLUIDO CONCENTRADA X 1LT (PARA HACER 10LT) (ENVASADO X1LT),4,6613.20,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00147,5493874104594,0,2001,BRILLO AL BALDE L.P.U.,3,579.28,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00147,5493874104594,0,5009,INSECTICIDA TIPO FLIT L.P.U,5,5716.80,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00147,5493874104594,0,7008,DESENGRASANTE LAVA CARROCERIA L.P.U. (LAVA FACIL),4,756.94,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00147,5493874104594,0,4005,DETERGENTE NACARADO L.P.U. (PARA PIEL SENSIBLE) — 5 L,4,926.86,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00148,5493876499570,0,9005,ALCOHOL EN GEL L.P.U.,5,2774.84,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00148,5493876499570,0,3014,DESODORANTE FLORAL 1+80 LT DE AGUA — 1 L (rinde 80 L),1,11664.45,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00149,5493876499570,0,3017,DESODORANTE LAVANDA 1+80 LT DE AGUA — 1 L (rinde 80 L),4,11664.45,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00149,5493876499570,0,1010,"SUAVIZANTE PARA ROPA ""SOAP CLEAN""  DOBLE FRAGANCIA *VIOLETA — 5 L",3,1180.21,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00150,5493876499570,0,2011,CERA TIPO BLEM INCOLORA L.P.U.,4,2267.68,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00151,5493418277249,25004,1001,"JABON LIQUIDO B/E (TIPO ARIEL 8% mat. Activa ) ""SOAP CLEAN"" L.P.U. — 5 L",1,671.70,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad) - promo fase 2,true,true,true
+P-00151,5493418277249,25004,6008,LIMPIA ALFOMBRAS Y TAPIZADOS L.P.U.,3,841.05,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00151,5493418277249,25004,5002,CLORO PURO 100% — 5 L,1,990.99,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00151,5493418277249,25004,5004,CREOLINA TIPO FLUIDO CONCENTRADA X 1LT (PARA HACER 10LT) (ENVASADO X1LT),5,7348.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00152,5493587905250,25001,2022,REMOVEDOR DE CERAS L.P.U,5,4536.58,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00152,5493587905250,25001,6015,QUITASARRO LIQUIDO L.P.U.,1,647.22,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00152,5493587905250,25001,6005,DESENGRASANTE ROJO L.P.U.,1,551.83,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00152,5493587905250,25001,3025,DESODORANTE PINO 1+80 LT DE AGUA — 1 L (rinde 80 L),5,11664.45,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00153,5493582641213,25002,9030,SHAMPOO PARA PERROS L.P.U. (ANTI PULGAS),3,986.58,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00153,5493582641213,25002,8003,CLARIFICANTE Y PRECIPITANTE (1LT EN 100.000 LT DE AGUA) L.P.U.,5,750.33,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00153,5493582641213,25002,9003,"ÁCIDO CÍTRICO ""SOAP CLEAN"" EN POLVO — 1 kg",4,5981.85,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00153,5493582641213,25002,8002,ALGUICIDA PARA HONGO NEGRO (1LT EN 100.000 LT DE AGUA) L.P.U.,3,7245.32,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00154,5492991227644,25003,8005,PASTILLA DE CLORO TRIPLE ACCION 50 gr X1KG,3,8856.28,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00154,5492991227644,25003,6008,LIMPIA ALFOMBRAS Y TAPIZADOS L.P.U.,1,714.89,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00155,5493587747641,25005,5002,CLORO PURO 100% — 5 L,2,1139.64,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00156,5492614053074,25006,4001,DETERGENTE 30% QUIMICA VM (1LT + 2LT DE AGUA) — 20 L,2,1990.17,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00156,5492614053074,25006,1010,"SUAVIZANTE PARA ROPA ""SOAP CLEAN""  DOBLE FRAGANCIA *VIOLETA — 5 L",1,923.64,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00156,5492614053074,25006,9029,SHAMPOO PARA CABELLOS L.P.U.,3,1080.14,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00157,5493514079279,25007,1013,LAVANDINA ROPA BLANCA L.P.U.,3,611.36,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00157,5493514079279,25007,8008,POOL CLEAN ALGUICIDA X1LT (1 EN 100.000 LT DE AGUA),4,3716.37,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00157,5493514079279,25007,10001,BIDON DE 5L NUEVO BLANCO,3,748.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false

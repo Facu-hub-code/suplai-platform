@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2062,Calidad,open,Reclamo por REMOVEDOR DE CERAS L.P.U con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego REMOVEDOR DE CERAS L.P.U en mal estado y quiero hacer el reclamo.",2026-08-31 11:15:00,,true
+TKT-2063,Calidad,open,Reclamo por SHAMPOO PARA PERROS L.P.U. (ANTI PULGAS) con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego SHAMPOO PARA PERROS L.P.U. (ANTI PULGAS) en mal estado y quiero hacer el reclamo.",2026-08-30 08:15:00,,true
+TKT-2064,Calidad,open,Reclamo por PASTILLA DE CLORO TRIPLE ACCION 50 gr X1KG con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego PASTILLA DE CLORO TRIPLE ACCION 50 gr X1KG en mal estado y quiero hacer el reclamo.",2026-08-29 05:15:00,,true
+TKT-2065,Logistica,open,"Demora en la entrega del pedido P-00151 de JABON LIQUIDO B/E (TIPO ARIEL 8% mat. Activa ) ""SOAP CLEAN"" L.P.U. — 5 L.",5493418277249,"Buen dia, sigo esperando el pedido P-00151 de JABON LIQUIDO B/E (TIPO ARIEL 8% mat. Activa ) ""SOAP CLEAN"" L.P.U. — 5 L y no llego.",2026-08-31 02:15:00,,true
+TKT-2066,Logistica,open,Demora en la entrega del pedido P-00123 de DERRIBANTE MARRON/TRANSPARENTE CONC. X 1 (PARA HACER 140LT).,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de DERRIBANTE MARRON/TRANSPARENTE CONC. X 1 (PARA HACER 140LT) y no llego.",2026-08-30 11:15:00,,true
+TKT-2067,Logistica,open,Demora en la entrega del pedido P-00126 de LAVANDINA 50% L.P.U. (TIPO AYUDIN) — 5 L.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de LAVANDINA 50% L.P.U. (TIPO AYUDIN) — 5 L y no llego.",2026-08-29 08:15:00,,true
+TKT-2068,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Revendedor El Palmar.,5493587905250,,2026-08-31 05:15:00,,true
+TKT-2069,Administracion,open,Solicita corregir datos administrativos de Droguería Banda Norte en el sistema.,5493582641213,,2026-08-30 02:15:00,,true
+TKT-2070,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Distribuidora Soap Clean Centro.,5492991227644,,2026-08-29 11:15:00,,true
+TKT-2071,Administracion,open,Solicita corregir datos administrativos de Ferretería Don Santos en el sistema.,5493418277249,,2026-08-31 08:15:00,,true
+TKT-2072,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Casa de Limpieza La Criolla.,5492612928724,,2026-08-30 05:15:00,,true
+TKT-2073,Administracion,closed,Solicita corregir datos administrativos de Ferretería El Portal en el sistema.,5492617236955,,2026-08-15 05:15:00,2026-08-15 20:15:00,true
+TKT-2074,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Distribuidora El Pionero.,5492617413812,,2026-08-14 11:15:00,2026-08-15 03:15:00,true
+TKT-2075,Logistica,closed,"Demora en la entrega del pedido P-00132 de JABON EXTRA (C/ SUAV. Y DESMANCHANTE) ""SOAP CLEAN"" L.P.U. — 5 L.",5492998066543,,2026-08-13 09:15:00,2026-08-14 02:15:00,true
+TKT-2076,Calidad,closed,Reclamo por ADITIVO PERFUMANTE P/ LAVANDINA POR LITRO L.P.U. (1 PARA 20 Lt DE LAVANDINA) — 1 L con entrega en mal estado o faltante parcial.,5492999435946,,2026-08-12 07:15:00,2026-08-13 01:15:00,true
+TKT-2077,Administracion,closed,Solicita corregir datos administrativos de Casa de Limpieza Sabattini en el sistema.,5493587747641,,2026-08-11 05:15:00,2026-08-12 00:15:00,true
+TKT-2078,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Mayorista Villa Nueva.,5492614053074,,2026-08-26 11:15:00,2026-08-27 07:15:00,true
+TKT-2079,Logistica,closed,Demora en la entrega del pedido P-00157 de LAVANDINA ROPA BLANCA L.P.U..,5493514079279,,2026-08-25 09:15:00,2026-08-26 06:15:00,true

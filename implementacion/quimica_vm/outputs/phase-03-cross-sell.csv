@@ -1,0 +1,11 @@
+base_product_code,related_product_code,reason,is_mock
+1001,1009,Combina el jabón líquido con un suavizante para una ropa más suave y fragante.,true
+1003,1010,Acompaña el jabón con un suavizante de doble fragancia para una experiencia de lavado superior.,true
+1007,1013,El bicarbonato en el jabón se complementa perfectamente con la lavandina para una limpieza profunda.,true
+1009,1001,Un buen suavizante siempre va bien con un jabón líquido de calidad.,true
+1010,1005,Combina el suavizante de doble fragancia con un jabón extra para un lavado excepcional.,true
+4001,4002,El detergente a granel se complementa bien con un detergente listo para usar.,true
+6002,6005,Un desengrasante de limón va perfecto con otro desengrasante para mayor efectividad.,true
+7001,7008,El desengrasante lava carrocería se complementa con otro para una limpieza más completa.,true
+8001,8002,Los alguicidas para pileta son ideales para mantener el agua limpia y saludable.,true
+9003,9008,El ácido cítrico en polvo se complementa bien con bicarbonato para limpieza efectiva.,true

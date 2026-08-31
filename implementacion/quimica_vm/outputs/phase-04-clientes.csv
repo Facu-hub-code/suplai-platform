@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Revendedor El Palmar,Revendedor El Palmar,5493587905250,2,1,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Villa María, Córdoba, Argentina",Lucía Peralta,0,0,-32.394687,-63.264399,true
+2,Droguería Banda Norte,Droguería Banda Norte,5493582641213,3,2,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Villa María, Córdoba, Argentina",Lucía Peralta,0,0,-32.394726,-63.258502,true
+3,Distribuidora Soap Clean Centro,Distribuidora Soap Clean Centro,5492991227644,4,3,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Villa María, Córdoba, Argentina",Lucía Peralta,0,0,-32.394533,-63.264614,true
+4,Ferretería Don Santos,Ferretería Don Santos,5493418277249,1,4,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Villa María, Córdoba, Argentina",Lucía Peralta,0,0,-32.397291,-63.260987,true
+5,Casa de Limpieza Sabattini,Casa de Limpieza Sabattini,5493587747641,2,5,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Villa María, Córdoba, Argentina",Lucía Peralta,0,0,-32.397527,-63.2616,true
+6,Mayorista Villa Nueva,Mayorista Villa Nueva,5492614053074,3,6,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Villa María, Córdoba, Argentina",Lucía Peralta,0,0,-32.398289,-63.255439,true
+7,Perfumería Las Playas,Perfumería Las Playas,5493514079279,4,7,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Villa María, Córdoba, Argentina",Lucía Peralta,0,0,-32.397669,-63.256178,true
+8,Corralón Almirante Brown,Corralón Almirante Brown,5493876914178,1,8,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Villa María, Córdoba, Argentina",Lucía Peralta,0,0,-32.399034,-63.262914,true
+9,Minimercado El Ctalamochita,Minimercado El Ctalamochita,5492617175545,2,9,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Villa María, Córdoba, Argentina",Lucía Peralta,0,0,-32.393941,-63.257195,true
+10,Almacén Santa Rosa,Almacén Santa Rosa,5493818437953,3,10,martes,miercoles,"Zona ZONA NORTE - Palmar - Villa María, Córdoba, Argentina",Lucía Peralta,0,1,-32.398456,-63.24273,true
+11,Revendedor Parque de Mayo,Revendedor Parque de Mayo,5493582132179,4,11,martes,miercoles,"Zona ZONA NORTE - Palmar - Villa María, Córdoba, Argentina",Lucía Peralta,0,1,-32.392718,-63.238119,true
+12,Droguería Yrigoyen,Droguería Yrigoyen,5493872845902,1,12,martes,miercoles,"Zona ZONA NORTE - Palmar - Villa María, Córdoba, Argentina",Lucía Peralta,0,1,-32.398918,-63.235207,true
+13,Distribuidora Río Cuarto Sur,Distribuidora Río Cuarto Sur,5492997670210,2,13,martes,miercoles,"Zona ZONA NORTE - Palmar - Villa María, Córdoba, Argentina",Lucía Peralta,0,1,-32.395195,-63.243881,true
+14,Ferretería La Estación,Ferretería La Estación,5493811657614,3,14,martes,miercoles,"Zona ZONA NORTE - Palmar - Villa María, Córdoba, Argentina",Lucía Peralta,0,1,-32.398487,-63.240455,true
+15,Casa de Limpieza Perón,Casa de Limpieza Perón,5492994145193,4,15,martes,miercoles,"Zona ZONA NORTE - Palmar - Villa María, Córdoba, Argentina",Lucía Peralta,0,1,-32.399961,-63.235752,true
+16,Mayorista El Cruce,Mayorista El Cruce,5493515971311,1,16,martes,miercoles,"Zona ZONA NORTE - Palmar - Villa María, Córdoba, Argentina",Lucía Peralta,0,1,-32.394859,-63.244323,true
+17,Perfumería Centro VM,Perfumería Centro VM,5492994228106,2,17,martes,miercoles,"Zona ZONA NORTE - Palmar - Villa María, Córdoba, Argentina",Lucía Peralta,0,1,-32.39793,-63.241872,true
+18,Corralón Los Olivos,Corralón Los Olivos,5492998718887,3,18,martes,miercoles,"Zona ZONA NORTE - Palmar - Villa María, Córdoba, Argentina",Lucía Peralta,0,1,-32.395878,-63.237381,true
+19,Minimercado Villa del Parque,Minimercado Villa del Parque,5492995028869,4,19,miercoles,jueves,"Zona ZONA NORESTE - Almirante Brown - Villa María, Córdoba, Argentina",Diego Funes,1,2,-32.393249,-63.224268,true
+20,Almacén Don Pedro,Almacén Don Pedro,5493517304254,1,20,miercoles,jueves,"Zona ZONA NORESTE - Almirante Brown - Villa María, Córdoba, Argentina",Diego Funes,1,2,-32.392958,-63.219026,true
+21,Revendedor Banda Sur,Revendedor Banda Sur,5493416986538,2,21,miercoles,jueves,"Zona ZONA NORESTE - Almirante Brown - Villa María, Córdoba, Argentina",Diego Funes,1,2,-32.400562,-63.221523,true
+22,Droguería Sarmiento,Droguería Sarmiento,5492619239862,3,22,miercoles,jueves,"Zona ZONA NORESTE - Almirante Brown - Villa María, Córdoba, Argentina",Diego Funes,1,2,-32.399392,-63.220492,true
+23,Distribuidora Mariano Moreno,Distribuidora Mariano Moreno,5493513952681,4,23,miercoles,jueves,"Zona ZONA NORESTE - Almirante Brown - Villa María, Córdoba, Argentina",Diego Funes,1,2,-32.394361,-63.223158,true
+24,Ferretería El Tornillo,Ferretería El Tornillo,5493414799650,1,24,miercoles,jueves,"Zona ZONA NORESTE - Almirante Brown - Villa María, Córdoba, Argentina",Diego Funes,1,2,-32.398696,-63.221301,true
+25,Casa de Limpieza Doña Rosa,Casa de Limpieza Doña Rosa,5492992500733,2,25,miercoles,jueves,"Zona ZONA NORESTE - Almirante Brown - Villa María, Córdoba, Argentina",Diego Funes,1,2,-32.395972,-63.217586,true
+26,Mayorista Ruta 9,Mayorista Ruta 9,5492615139305,3,26,miercoles,jueves,"Zona ZONA NORESTE - Almirante Brown - Villa María, Córdoba, Argentina",Diego Funes,1,2,-32.399158,-63.220337,true
+27,Perfumería Tránsito Cáceres,Perfumería Tránsito Cáceres,5492618861463,4,27,jueves,viernes,"Zona ZONA SUROESTE - Las Playas - Villa María, Córdoba, Argentina",Diego Funes,1,3,-32.419282,-63.258121,true
+28,Corralón Constructora VM,Corralón Constructora VM,5493812941974,1,28,jueves,viernes,"Zona ZONA SUROESTE - Las Playas - Villa María, Córdoba, Argentina",Diego Funes,1,3,-32.418893,-63.261277,true
+29,Minimercado Las Flores,Minimercado Las Flores,5493817404433,2,29,jueves,viernes,"Zona ZONA SUROESTE - Las Playas - Villa María, Córdoba, Argentina",Diego Funes,1,3,-32.414133,-63.260218,true
+30,Almacén El Familiar,Almacén El Familiar,5493419686914,3,30,jueves,viernes,"Zona ZONA SUROESTE - Las Playas - Villa María, Córdoba, Argentina",Diego Funes,1,3,-32.414116,-63.263955,true
+31,Revendedor San Justo,Revendedor San Justo,5493518648263,4,31,jueves,viernes,"Zona ZONA SUROESTE - Las Playas - Villa María, Córdoba, Argentina",Diego Funes,1,3,-32.41884,-63.256456,true
+32,Droguería Italia,Droguería Italia,5493516216782,1,32,jueves,viernes,"Zona ZONA SUROESTE - Las Playas - Villa María, Córdoba, Argentina",Diego Funes,1,3,-32.418531,-63.256708,true
+33,Distribuidora El Quebracho,Distribuidora El Quebracho,5492612780568,2,33,jueves,viernes,"Zona ZONA SUROESTE - Las Playas - Villa María, Córdoba, Argentina",Diego Funes,1,3,-32.420793,-63.261244,true
+34,Ferretería Los Andes,Ferretería Los Andes,5493582639964,3,34,jueves,viernes,"Zona ZONA SUROESTE - Las Playas - Villa María, Córdoba, Argentina",Diego Funes,1,3,-32.414646,-63.260398,true
+35,Casa de Limpieza El Gaucho,Casa de Limpieza El Gaucho,5493814729528,4,35,viernes,sabado,"Zona ZONA SUR - Villa Nueva - Villa María, Córdoba, Argentina",Carla Molina,2,4,-32.417286,-63.242709,true
+36,Mayorista Bell Ville,Mayorista Bell Ville,5493876922419,1,36,viernes,sabado,"Zona ZONA SUR - Villa Nueva - Villa María, Córdoba, Argentina",Carla Molina,2,4,-32.420845,-63.23966,true
+37,Perfumería La Esquina,Perfumería La Esquina,5492618889598,2,37,viernes,sabado,"Zona ZONA SUR - Villa Nueva - Villa María, Córdoba, Argentina",Carla Molina,2,4,-32.415184,-63.24078,true
+38,Corralón San Martín,Corralón San Martín,5492615021286,3,38,viernes,sabado,"Zona ZONA SUR - Villa Nueva - Villa María, Córdoba, Argentina",Carla Molina,2,4,-32.416322,-63.244974,true
+39,Minimercado El Progreso,Minimercado El Progreso,5493813520000,4,39,viernes,sabado,"Zona ZONA SUR - Villa Nueva - Villa María, Córdoba, Argentina",Carla Molina,2,4,-32.419322,-63.24382,true
+40,Almacén Don Mario,Almacén Don Mario,5492997489876,1,40,viernes,sabado,"Zona ZONA SUR - Villa Nueva - Villa María, Córdoba, Argentina",Carla Molina,2,4,-32.414699,-63.243646,true
+41,Revendedor Tío Pujio,Revendedor Tío Pujio,5493519107005,2,41,viernes,sabado,"Zona ZONA SUR - Villa Nueva - Villa María, Córdoba, Argentina",Carla Molina,2,4,-32.418275,-63.242798,true
+42,Droguería La Tradición,Droguería La Tradición,5493874104594,3,42,viernes,sabado,"Zona ZONA SUR - Villa Nueva - Villa María, Córdoba, Argentina",Carla Molina,2,4,-32.41319,-63.239885,true
+43,Distribuidora El Pionero,Distribuidora El Pionero,5492617413812,4,43,sabado,lunes,"Zona ZONA SURESTE - Santa Rosa - Villa María, Córdoba, Argentina",Carla Molina,2,5,-32.418937,-63.223434,true
+44,Ferretería El Portal,Ferretería El Portal,5492617236955,1,44,sabado,lunes,"Zona ZONA SURESTE - Santa Rosa - Villa María, Córdoba, Argentina",Carla Molina,2,5,-32.419397,-63.217085,true
+45,Casa de Limpieza La Criolla,Casa de Limpieza La Criolla,5492612928724,2,45,sabado,lunes,"Zona ZONA SURESTE - Santa Rosa - Villa María, Córdoba, Argentina",Carla Molina,2,5,-32.416109,-63.220943,true
+46,Mayorista James Craik,Mayorista James Craik,5492999435946,3,46,sabado,lunes,"Zona ZONA SURESTE - Santa Rosa - Villa María, Córdoba, Argentina",Carla Molina,2,5,-32.420808,-63.219251,true
+47,Perfumería El Recreo,Perfumería El Recreo,5493517632424,4,47,sabado,lunes,"Zona ZONA SURESTE - Santa Rosa - Villa María, Córdoba, Argentina",Carla Molina,2,5,-32.41786,-63.223907,true
+48,Corralón El Molino,Corralón El Molino,5493416524997,1,48,sabado,lunes,"Zona ZONA SURESTE - Santa Rosa - Villa María, Córdoba, Argentina",Carla Molina,2,5,-32.413272,-63.221056,true
+49,Minimercado El Pueblo,Minimercado El Pueblo,5493876499570,2,49,sabado,lunes,"Zona ZONA SURESTE - Santa Rosa - Villa María, Córdoba, Argentina",Carla Molina,2,5,-32.421302,-63.224417,true
+50,Almacén Don Carlos,Almacén Don Carlos,5492998066543,3,50,sabado,lunes,"Zona ZONA SURESTE - Santa Rosa - Villa María, Córdoba, Argentina",Carla Molina,2,5,-32.420694,-63.219421,true

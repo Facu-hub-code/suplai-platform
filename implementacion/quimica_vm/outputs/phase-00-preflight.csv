@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: 49364cfe-d93f-43fc-8d3a-2c842181ad3a
+schema_existe,Tablas en quimica_vm,ok,71 tablas clonadas desde gonzales
+productos_vacio,COUNT productos = 0,ok,0 productos
+clients_vacio,COUNT clients = 0,ok,0 clientes
+mcp_conectado,MCP supabase responde,ok,conectado
+carpeta_implementacion,manifest.yaml presente,ok,implementacion/quimica_vm/manifest.yaml
+is_mock_column,Columna is_mock en productos,ok,presente
+excel_presente,Archivo en inputs/,ok,inputs/liquidos.xlsx

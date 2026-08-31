@@ -1,0 +1,4 @@
+nombre,telefono,email,zona,codigo_ruta,is_mock
+Lucía Peralta,5493535128101,lucia.peralta@suplaisales.mock,NORTE,R01,true
+Diego Funes,5493535128102,diego.funes@suplaisales.mock,SUR,R02,true
+Carla Molina,5493535128103,carla.molina@suplaisales.mock,ESTE,R03,true

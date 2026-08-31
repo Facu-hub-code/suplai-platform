@@ -1,0 +1,29 @@
+tabla,filas_borradas,ok,notas
+field_task_events,258,true,hijos de tareas seed fase 6.1 (sin columna is_mock)
+field_point_ledger,218,true,hijos de vendedores mock / torneo seed
+field_tasks,358,true,tareas seed ligadas a vendedores/clientes mock
+field_objetivo_skus,6,true,seed fase 6.1
+field_objetivos,2,true,seed fase 6.1 (sin is_mock)
+field_tournaments,1,true,torneo Agosto 2026 seed (sin is_mock)
+client_locations,50,true,ubicaciones de clients is_mock
+vendedores_clientes,50,true,asignaciones de red mock
+conversations,50,true,inbox tenant de clients is_mock; queda 1 (cliente de prueba)
+items_pedido,1691,true,is_mock=true
+core.conversation_events,224,true,tenant_id quimica_vm y is_mock o origin fase-08
+n8n_chat_histories,0,true,sin filas
+pedidos,627,true,is_mock=true
+ia_tickets,18,true,is_mock=true
+vendedor_geo_zones,7,true,is_mock=true
+puntos_venta,50,true,is_mock=true
+clients,50,true,is_mock=true; queda 1 real (suplai-platform-test / 5491133333333)
+geo_zones,7,true,is_mock=true
+vendedores,3,true,is_mock=true
+promociones_semanales,4,true,is_mock=true
+precios_productos,243,true,is_mock=true (listas 2-4); quedan 81 de Lista 1
+listas_precios,3,true,is_mock=true; queda Lista 1 real
+productos_aliases,0,true,sin productos mock; aliases del catalogo real intactos (656)
+productos,0,true,sin mock; catalogo real intacto (81 SKUs)
+tenant_cross_sell_mappings,10,true,tenant quimica_vm is_mock
+tenant_up_sell_mappings,6,true,tenant quimica_vm is_mock
+core.conversations,51,true,huerfanas tras borrar eventos mock; queda 1 sesion real de registro
+field_task_templates,0,true,se conservan 3 templates de Field App (config)

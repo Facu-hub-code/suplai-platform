@@ -1,0 +1,149 @@
+{
+  "dominios": "mercadolibre.com.ar,easy.com.ar,sodimac.com.ar",
+  "sufijo_fallback": "liquido limpieza quimica mayorista argentina",
+  "modo_contexto": "ampliado",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA QUÍMICA VM (Villa María, líquidos de limpieza mayoristas):\n1. TIPO OBLIGATORIO: Decí qué es (jabón líquido, suavizante, detergente, desengrasante, lavandina, cera, alguicida, cloro granulado, bidón).\n2. MARCA: Soap Clean / Química VM / Pool Clean / CarClean si figura. No inventes otras marcas.\n3. USO Y DILUCIÓN: Si el nombre dice L.P.U. aclará listo para usar. Si dice 1+N o 1LT + N LT, explicá la dilución. Precio de lista es por litro salvo que el nombre indique envase cerrado (botella, pote, pastilla).\n4. PRESENTACIÓN: Incluí litros/kg/gramos del SKU. No prometas fragancias que no estén en el nombre.\n5. ALIAS: Incluí el código, sinónimos (lavandina/cloro, desengrasante/desincrustante, LPU/listo para usar) y el equivalente de marca si el nombre dice TIPO ARIEL/ALA/CIF.\n6. NO ALUCINAR: No inventes registros ANMAT, pH, biodegradabilidad ni porcentajes de materia activa que no estén en el nombre.",
+  "red_comercial": {
+    "coordenadas_centro": [-32.4075, -63.2402],
+    "vendedores": [
+      {
+        "nombre": "Lucía Peralta",
+        "telefono": "5493535128101",
+        "email": "lucia.peralta@suplaisales.mock",
+        "zona": "NORTE",
+        "codigo_ruta": "R01"
+      },
+      {
+        "nombre": "Diego Funes",
+        "telefono": "5493535128102",
+        "email": "diego.funes@suplaisales.mock",
+        "zona": "SUR",
+        "codigo_ruta": "R02"
+      },
+      {
+        "nombre": "Carla Molina",
+        "telefono": "5493535128103",
+        "email": "carla.molina@suplaisales.mock",
+        "zona": "ESTE",
+        "codigo_ruta": "R03"
+      }
+    ],
+    "zonas": [
+      {
+        "nombre": "ZONA NOROESTE - Banda Norte",
+        "dia_visita": "lunes",
+        "color": "#E74C3C",
+        "codigo_ruta": "R01-A",
+        "zone_type": "sales",
+        "description": "Banda Norte y accesos por Av. Sabattini, Villa María.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA NORTE - Palmar",
+        "dia_visita": "martes",
+        "color": "#3498DB",
+        "codigo_ruta": "R01-B",
+        "zone_type": "sales",
+        "description": "Barrio Palmar y entorno de Av. Presidente Perón.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA NORESTE - Almirante Brown",
+        "dia_visita": "miercoles",
+        "color": "#2ECC71",
+        "codigo_ruta": "R02-A",
+        "zone_type": "route",
+        "description": "Almirante Brown y Parque de Mayo.",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA SUROESTE - Las Playas",
+        "dia_visita": "jueves",
+        "color": "#F39C12",
+        "codigo_ruta": "R02-B",
+        "zone_type": "sales",
+        "description": "Las Playas y costanera del río Ctalamochita.",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA SUR - Villa Nueva",
+        "dia_visita": "viernes",
+        "color": "#9B59B6",
+        "codigo_ruta": "R03-A",
+        "zone_type": "route",
+        "description": "Villa Nueva, ciudad gemela al sur del río.",
+        "vendedor_idx": 2
+      },
+      {
+        "nombre": "ZONA SURESTE - Santa Rosa",
+        "dia_visita": "sabado",
+        "color": "#1ABC9C",
+        "codigo_ruta": "R03-B",
+        "zone_type": "sales",
+        "description": "Santa Rosa e Hipólito Yrigoyen, acceso este.",
+        "vendedor_idx": 2
+      }
+    ],
+    "nombres_comerciales": [
+      "Revendedor El Palmar",
+      "Droguería Banda Norte",
+      "Distribuidora Soap Clean Centro",
+      "Ferretería Don Santos",
+      "Casa de Limpieza Sabattini",
+      "Mayorista Villa Nueva",
+      "Perfumería Las Playas",
+      "Corralón Almirante Brown",
+      "Minimercado El Ctalamochita",
+      "Almacén Santa Rosa",
+      "Revendedor Parque de Mayo",
+      "Droguería Yrigoyen",
+      "Distribuidora Río Cuarto Sur",
+      "Ferretería La Estación",
+      "Casa de Limpieza Perón",
+      "Mayorista El Cruce",
+      "Perfumería Centro VM",
+      "Corralón Los Olivos",
+      "Minimercado Villa del Parque",
+      "Almacén Don Pedro",
+      "Revendedor Banda Sur",
+      "Droguería Sarmiento",
+      "Distribuidora Mariano Moreno",
+      "Ferretería El Tornillo",
+      "Casa de Limpieza Doña Rosa",
+      "Mayorista Ruta 9",
+      "Perfumería Tránsito Cáceres",
+      "Corralón Constructora VM",
+      "Minimercado Las Flores",
+      "Almacén El Familiar",
+      "Revendedor San Justo",
+      "Droguería Italia",
+      "Distribuidora El Quebracho",
+      "Ferretería Los Andes",
+      "Casa de Limpieza El Gaucho",
+      "Mayorista Bell Ville",
+      "Perfumería La Esquina",
+      "Corralón San Martín",
+      "Minimercado El Progreso",
+      "Almacén Don Mario",
+      "Revendedor Tío Pujio",
+      "Droguería La Tradición",
+      "Distribuidora El Pionero",
+      "Ferretería El Portal",
+      "Casa de Limpieza La Criolla",
+      "Mayorista James Craik",
+      "Perfumería El Recreo",
+      "Corralón El Molino",
+      "Minimercado El Pueblo",
+      "Almacén Don Carlos",
+      "Revendedor Arroyo Cabral",
+      "Droguería La Cañada",
+      "Distribuidora El Encuentro",
+      "Ferretería La Unión",
+      "Casa de Limpieza El Sauce",
+      "Mayorista Las Varillas",
+      "Perfumería El Nogal",
+      "Corralón Don Roberto",
+      "Minimercado La Arboleda"
+    ]
+  }
+}

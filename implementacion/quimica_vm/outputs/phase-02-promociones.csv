@@ -1,0 +1,5 @@
+promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+1,1001,¡Oferta Semanal! Jabón Líquido SOAP CLEAN 5L,Aprovechá un 15% de descuento en nuestro jabón líquido con 8% de materia activa.,percent_off,15,1,1,2026-08-22,2026-09-28,true,true
+2,1003,Imperdible: Jabón Líquido con Suavizante SOAP CLEAN 5L,Llevate este jabón con $1000 de descuento. Ideal para tu colada.,total_off,1000,2,1,2026-08-22,2026-09-28,true,true
+3,1007,Promoción Especial: Jabón Líquido C/Bicarbonato 5L,"Llevando 3 bidones o más, precio fijo $1171.28 el litro (bidón incluido).",fixed_price,1171.28,1,3,2026-08-22,2026-09-28,true,true
+4,1008,Descuento del 20%: Jabón Líquido Eco SOAP CLEAN 5L,Limpieza efectiva con un 5% de materia activa. Cuidá el planeta.,percent_off,20,3,1,2026-08-22,2026-09-28,true,true
