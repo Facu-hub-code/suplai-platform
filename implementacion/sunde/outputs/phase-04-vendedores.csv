@@ -1,0 +1,4 @@
+nombre,telefono,email,zona,codigo_ruta,is_mock
+Mariano Roldán,5493587128411,mariano.roldan@suplaisales.mock,NORTE,R01,true
+Héctor Sosa,5493587128412,hector.sosa@suplaisales.mock,SUR,R02,true
+Paula Benítez,5493587128413,paula.benitez@suplaisales.mock,ESTE,R03,true

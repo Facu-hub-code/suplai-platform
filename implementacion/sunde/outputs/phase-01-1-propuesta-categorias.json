@@ -1,0 +1,935 @@
+{
+  "schema": "sunde",
+  "products": [
+    {
+      "product_code": "051-14",
+      "nombre": "Esencia para hornillo LAVANDA",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Esencias",
+        "3": "Esencias para hornillo",
+        "4": "Esencia"
+      }
+    },
+    {
+      "product_code": "051-39",
+      "nombre": "Esencia para hornillo PALO SANTO",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Esencias",
+        "3": "Esencias para hornillo",
+        "4": "Esencia"
+      }
+    },
+    {
+      "product_code": "072-10",
+      "nombre": "Veloncito aromático 5x3.5 LAVANDA",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Velas",
+        "3": "Veloncitos",
+        "4": "Veloncito aromático"
+      }
+    },
+    {
+      "product_code": "072-25",
+      "nombre": "Veloncito aromático 5x3.5 PALO SANTO",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Velas",
+        "3": "Veloncitos",
+        "4": "Veloncito aromático"
+      }
+    },
+    {
+      "product_code": "100P-5",
+      "nombre": "Sahumerio tibetano x8 SUPER PALO SANTO",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Sahumerios",
+        "3": "Sahumerios nacionales",
+        "4": "Sahumerio tibetano"
+      }
+    },
+    {
+      "product_code": "1407",
+      "nombre": "ESCOBA 7 HILOS IMPERIAL",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Escobas",
+        "4": "Escoba de hilos"
+      }
+    },
+    {
+      "product_code": "1414",
+      "nombre": "ESCOBA 6 HILOS ESPECIAL",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Escobas",
+        "4": "Escoba de hilos"
+      }
+    },
+    {
+      "product_code": "1415",
+      "nombre": "ESCOBA 5 HILOS COMUN",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Escobas",
+        "4": "Escoba de hilos"
+      }
+    },
+    {
+      "product_code": "1416",
+      "nombre": "ESCOBA 5 HILOS MEZCLA",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Escobas",
+        "4": "Escoba de hilos"
+      }
+    },
+    {
+      "product_code": "1421",
+      "nombre": "ESCOBITA INFANTIL",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Escobas",
+        "4": "Escoba"
+      }
+    },
+    {
+      "product_code": "150-02",
+      "nombre": "Sahumerio empaste simple x15 BENJUI",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Sahumerios",
+        "3": "Sahumerios nacionales",
+        "4": "Sahumerio x15"
+      }
+    },
+    {
+      "product_code": "1521",
+      "nombre": "LAMPAZO BARRENDERO 0.40MT CHICO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Lampazos",
+        "3": "Lampazos barrendero",
+        "4": "Lampazo barrendero"
+      }
+    },
+    {
+      "product_code": "1522",
+      "nombre": "LAMPAZO BARRENDERO 0.60MT MEDIANO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Lampazos",
+        "3": "Lampazos barrendero",
+        "4": "Lampazo barrendero"
+      }
+    },
+    {
+      "product_code": "1523",
+      "nombre": "LAMPAZO BARRENDERO 0.80MT GRANDE",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Lampazos",
+        "3": "Lampazos barrendero",
+        "4": "Lampazo barrendero"
+      }
+    },
+    {
+      "product_code": "160-02",
+      "nombre": "Sahumerio empaste simple x100 BENJUI",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Sahumerios",
+        "3": "Sahumerios nacionales",
+        "4": "Sahumerio x100"
+      }
+    },
+    {
+      "product_code": "160-03",
+      "nombre": "Sahumerio empaste simple x100 CANELA",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Sahumerios",
+        "3": "Sahumerios nacionales",
+        "4": "Sahumerio x100"
+      }
+    },
+    {
+      "product_code": "160-10",
+      "nombre": "Sahumerio empaste simple x100 INCIENSO",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Sahumerios",
+        "3": "Sahumerios nacionales",
+        "4": "Sahumerio x100"
+      }
+    },
+    {
+      "product_code": "160-12",
+      "nombre": "Sahumerio empaste simple x100 LAVANDA",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Sahumerios",
+        "3": "Sahumerios nacionales",
+        "4": "Sahumerio x100"
+      }
+    },
+    {
+      "product_code": "160-33",
+      "nombre": "Sahumerio empaste simple x100 PALO SANTO",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Sahumerios",
+        "3": "Sahumerios nacionales",
+        "4": "Sahumerio x100"
+      }
+    },
+    {
+      "product_code": "1600",
+      "nombre": "CABO MADERA C/ROSCA",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Cabos",
+        "4": "Cabo de madera"
+      }
+    },
+    {
+      "product_code": "1604",
+      "nombre": "CABO MADERA C/ROSCA 1.50MTS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Cabos",
+        "4": "Cabo de madera"
+      }
+    },
+    {
+      "product_code": "1607",
+      "nombre": "CABO MADERA C/ROSCA 1.20MTS PINO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Cabos",
+        "4": "Cabo de madera"
+      }
+    },
+    {
+      "product_code": "1608",
+      "nombre": "CABO MADERA C/ROSCA P/BARRENDERO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Cabos",
+        "4": "Cabo de madera"
+      }
+    },
+    {
+      "product_code": "1700",
+      "nombre": "PALA RESIDUOS METAL C/CABO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Baldes y palas",
+        "3": "Palas de residuos",
+        "4": "Pala de residuos"
+      }
+    },
+    {
+      "product_code": "1802",
+      "nombre": "BARREHOJA METALICO REGULABLE",
+      "tags": {
+        "1": "Jardinería",
+        "2": "Herramientas",
+        "3": "Barrehojas",
+        "4": "Barrehoja"
+      }
+    },
+    {
+      "product_code": "1810",
+      "nombre": "BARREHOJA PLASTICO COMUN",
+      "tags": {
+        "1": "Jardinería",
+        "2": "Herramientas",
+        "3": "Barrehojas",
+        "4": "Barrehoja"
+      }
+    },
+    {
+      "product_code": "1828",
+      "nombre": "ESCOBILLON CERDA LISO C/CABO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Escobillones",
+        "4": "Escobillón de cerda"
+      }
+    },
+    {
+      "product_code": "1830",
+      "nombre": "ESCOBILLON CERDA BIGOTE C/CABO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Escobillones",
+        "4": "Escobillón de cerda"
+      }
+    },
+    {
+      "product_code": "1950",
+      "nombre": "CABO MADERA P/SOPAPA",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Cabos",
+        "4": "Cabo de madera"
+      }
+    },
+    {
+      "product_code": "2572",
+      "nombre": "SECADOR PLASTICO DOBLE GOMA 40CM",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Secadores y sopapas",
+        "3": "Secadores",
+        "4": "Secador de goma"
+      }
+    },
+    {
+      "product_code": "2600",
+      "nombre": "SOPAPA GOMA 4\"",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Secadores y sopapas",
+        "3": "Sopapas",
+        "4": "Sopapa de goma"
+      }
+    },
+    {
+      "product_code": "2601",
+      "nombre": "SOPAPA GOMA 4\" C/CABO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Secadores y sopapas",
+        "3": "Sopapas",
+        "4": "Sopapa de goma"
+      }
+    },
+    {
+      "product_code": "3408",
+      "nombre": "DETERGENTE ALBO 750CC",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos",
+        "3": "Detergentes",
+        "4": "Detergente Albo"
+      }
+    },
+    {
+      "product_code": "3410",
+      "nombre": "DETERGENTE ALBO 5LT",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos",
+        "3": "Detergentes",
+        "4": "Detergente Albo"
+      }
+    },
+    {
+      "product_code": "4200",
+      "nombre": "LAVANDINA ALBO 1LTS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos",
+        "3": "Lavandinas",
+        "4": "Lavandina Albo"
+      }
+    },
+    {
+      "product_code": "4204",
+      "nombre": "LAVANDINA ALBO 5LTS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos",
+        "3": "Lavandinas",
+        "4": "Lavandina Albo"
+      }
+    },
+    {
+      "product_code": "432B-02",
+      "nombre": "Sahumerio triple empaste x50 BENJUI",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Sahumerios",
+        "3": "Sahumerios nacionales",
+        "4": "Sahumerio"
+      }
+    },
+    {
+      "product_code": "432D-10",
+      "nombre": "Sahumerio triple empaste x10 LAVANDA",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Sahumerios",
+        "3": "Sahumerios nacionales",
+        "4": "Sahumerio"
+      }
+    },
+    {
+      "product_code": "7000",
+      "nombre": "PALA RESIDUOS CLIP COMUN",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Baldes y palas",
+        "3": "Palas de residuos",
+        "4": "Pala de residuos"
+      }
+    },
+    {
+      "product_code": "7004",
+      "nombre": "PALA RESIDUOS C/CABO ECONOMICA",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Baldes y palas",
+        "3": "Palas de residuos",
+        "4": "Pala de residuos"
+      }
+    },
+    {
+      "product_code": "7416",
+      "nombre": "PAÑO ABSORBENTE REJILLA SUND -OFERTA",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Paños y trapos",
+        "3": "Paños absorbentes",
+        "4": "Paño absorbente"
+      }
+    },
+    {
+      "product_code": "8026",
+      "nombre": "TRAPO PISO BLANCO DURAMAS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Paños y trapos",
+        "3": "Trapos de piso",
+        "4": "Trapo de piso"
+      }
+    },
+    {
+      "product_code": "8030",
+      "nombre": "TRAPO PISO MT CONSORCIO BLANCO 60*70",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Paños y trapos",
+        "3": "Trapos de piso",
+        "4": "Trapo de piso"
+      }
+    },
+    {
+      "product_code": "A2470",
+      "nombre": "ABRELATA MANIJA LOEKEMEYER",
+      "tags": {
+        "1": "Bazar",
+        "2": "Utensilios",
+        "3": "Abrelatas",
+        "4": "Abrelata"
+      }
+    },
+    {
+      "product_code": "A2472",
+      "nombre": "ABRELATA MARIPOSA LOEKEMEYER",
+      "tags": {
+        "1": "Bazar",
+        "2": "Utensilios",
+        "3": "Abrelatas",
+        "4": "Abrelata"
+      }
+    },
+    {
+      "product_code": "AER-559L",
+      "nombre": "Aromatizante aerosol Fraganss 360ml LAVANDA",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Aerosoles",
+        "3": "Aromatizantes en aerosol",
+        "4": "Aerosol ambiental"
+      }
+    },
+    {
+      "product_code": "ALB-1001",
+      "nombre": "JABON LIQ B/E SUND VERDE T/ARIEL 20 LTS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos",
+        "3": "Jabones líquidos",
+        "4": "Jabón líquido"
+      }
+    },
+    {
+      "product_code": "B2412",
+      "nombre": "BALDE 12LTS M/PLASTICO FLORIDA 30X29CM",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Baldes y palas",
+        "3": "Baldes",
+        "4": "Balde"
+      }
+    },
+    {
+      "product_code": "B2490",
+      "nombre": "MACETA COLOR N° 10",
+      "tags": {
+        "1": "Jardinería",
+        "2": "Macetas",
+        "3": "Macetas de piso",
+        "4": "Maceta color"
+      }
+    },
+    {
+      "product_code": "B2507",
+      "nombre": "JARDINERA N° 35",
+      "tags": {
+        "1": "Jardinería",
+        "2": "Macetas",
+        "3": "Jardineras",
+        "4": "Jardinera"
+      }
+    },
+    {
+      "product_code": "B2510",
+      "nombre": "JARDINERA N° 45",
+      "tags": {
+        "1": "Jardinería",
+        "2": "Macetas",
+        "3": "Jardineras",
+        "4": "Jardinera"
+      }
+    },
+    {
+      "product_code": "B2515",
+      "nombre": "JARDINERA N° 65",
+      "tags": {
+        "1": "Jardinería",
+        "2": "Macetas",
+        "3": "Jardineras",
+        "4": "Jardinera"
+      }
+    },
+    {
+      "product_code": "B2530",
+      "nombre": "ORGANIZADOR C/TAPA 18LTS",
+      "tags": {
+        "1": "Bazar",
+        "2": "Organización",
+        "3": "Organizadores",
+        "4": "Organizador con tapa"
+      }
+    },
+    {
+      "product_code": "B2531",
+      "nombre": "ORGANIZADOR C/TAPA 30LTS",
+      "tags": {
+        "1": "Bazar",
+        "2": "Organización",
+        "3": "Organizadores",
+        "4": "Organizador con tapa"
+      }
+    },
+    {
+      "product_code": "B2533",
+      "nombre": "ORGANIZADOR C/TAPA 10LTS",
+      "tags": {
+        "1": "Bazar",
+        "2": "Organización",
+        "3": "Organizadores",
+        "4": "Organizador con tapa"
+      }
+    },
+    {
+      "product_code": "B3140",
+      "nombre": "OLLA ALUMINIO N° 20",
+      "tags": {
+        "1": "Bazar",
+        "2": "Cocina",
+        "3": "Ollas de aluminio",
+        "4": "Olla"
+      }
+    },
+    {
+      "product_code": "B3146",
+      "nombre": "OLLA ALUMINIO N° 26",
+      "tags": {
+        "1": "Bazar",
+        "2": "Cocina",
+        "3": "Ollas de aluminio",
+        "4": "Olla"
+      }
+    },
+    {
+      "product_code": "B3150",
+      "nombre": "OLLA ALUMINIO N° 30",
+      "tags": {
+        "1": "Bazar",
+        "2": "Cocina",
+        "3": "Ollas de aluminio",
+        "4": "Olla"
+      }
+    },
+    {
+      "product_code": "B3248",
+      "nombre": "OLLA ALUMINIO GASTRONOMICA N° 40 - 50 LTS",
+      "tags": {
+        "1": "Bazar",
+        "2": "Cocina",
+        "3": "Ollas gastronómicas",
+        "4": "Olla"
+      }
+    },
+    {
+      "product_code": "B3250",
+      "nombre": "OLLA ALUMINIO GASTRONOMICA N° 50 - 100 LTS",
+      "tags": {
+        "1": "Bazar",
+        "2": "Cocina",
+        "3": "Ollas gastronómicas",
+        "4": "Olla n° 50"
+      }
+    },
+    {
+      "product_code": "B5122",
+      "nombre": "ASADERA ENLOZ SALPICADA N°2 21X30CM",
+      "tags": {
+        "1": "Bazar",
+        "2": "Cocina",
+        "3": "Asaderas",
+        "4": "Asadera"
+      }
+    },
+    {
+      "product_code": "FL-900",
+      "nombre": "MACETA COLOR N° 20",
+      "tags": {
+        "1": "Jardinería",
+        "2": "Macetas",
+        "3": "Macetas de piso",
+        "4": "Maceta color"
+      }
+    },
+    {
+      "product_code": "FL-904",
+      "nombre": "MACETA COLOR N° 35",
+      "tags": {
+        "1": "Jardinería",
+        "2": "Macetas",
+        "3": "Macetas de piso",
+        "4": "Maceta color"
+      }
+    },
+    {
+      "product_code": "FL-911",
+      "nombre": "MACETA BOWL COLGANTE C/GANCHO Nº19",
+      "tags": {
+        "1": "Jardinería",
+        "2": "Macetas",
+        "3": "Macetas colgantes",
+        "4": "Maceta bowl"
+      }
+    },
+    {
+      "product_code": "FS-2020",
+      "nombre": "ESCOBA AMERICA FS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Escobas",
+        "4": "Escoba"
+      }
+    },
+    {
+      "product_code": "FS-2021",
+      "nombre": "ESCOBA EUROPA FS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Escobas",
+        "4": "Escoba"
+      }
+    },
+    {
+      "product_code": "FS-2035",
+      "nombre": "ESCOBILLON BARREGRUESO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Escobillones",
+        "4": "Escobillón"
+      }
+    },
+    {
+      "product_code": "FS-2040",
+      "nombre": "SECADOR DOPPIO BLANCO 41CM",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Secadores y sopapas",
+        "3": "Secadores",
+        "4": "Secador de goma"
+      }
+    },
+    {
+      "product_code": "FS-701",
+      "nombre": "ESCOBILLON CERDA LISO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Escobillones",
+        "4": "Escobillón de cerda"
+      }
+    },
+    {
+      "product_code": "FS-702",
+      "nombre": "ESCOBILLON CERDA BIGOTE",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Escobillones",
+        "4": "Escobillón de cerda"
+      }
+    },
+    {
+      "product_code": "IDI25",
+      "nombre": "DESENGRASANTE MULTIUSO 5LTS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos",
+        "3": "Desengrasantes",
+        "4": "Desengrasante"
+      }
+    },
+    {
+      "product_code": "IJL07",
+      "nombre": "JABON LIQ B/E PQR AZUL T/SKIP 5LTS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos",
+        "3": "Jabones líquidos",
+        "4": "Jabón líquido"
+      }
+    },
+    {
+      "product_code": "LNN-183",
+      "nombre": "BALDE 10LTS M/PLASTICO ECONOMICO 24X28CM",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Baldes y palas",
+        "3": "Baldes",
+        "4": "Balde"
+      }
+    },
+    {
+      "product_code": "LNN-2460",
+      "nombre": "BALDE C/ESC Y MOPA OVAL 16LTS COLORES 25X39CM",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Baldes y palas",
+        "3": "Baldes",
+        "4": "Balde con mopa"
+      }
+    },
+    {
+      "product_code": "LNN-248",
+      "nombre": "BALDE C/ESCURRIDOR REDONDO 13LTS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Baldes y palas",
+        "3": "Baldes",
+        "4": "Balde con mopa"
+      }
+    },
+    {
+      "product_code": "MEL-04",
+      "nombre": "ALCOHOL GEL FRAU 500ML",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos",
+        "3": "Alcohol en gel",
+        "4": "Alcohol gel Frau"
+      }
+    },
+    {
+      "product_code": "MK-40N",
+      "nombre": "SECADOR GOMA NEGRO 40CM MAKE REFORZADO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Secadores y sopapas",
+        "3": "Secadores",
+        "4": "Secador de goma"
+      }
+    },
+    {
+      "product_code": "MK-6127",
+      "nombre": "ESCOBILLON 6 HILERAS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Escobas y cabos",
+        "3": "Escobillones",
+        "4": "Escobillón"
+      }
+    },
+    {
+      "product_code": "MK-6130",
+      "nombre": "ABRELATA MARIPOSA MAKE",
+      "tags": {
+        "1": "Bazar",
+        "2": "Utensilios",
+        "3": "Abrelatas",
+        "4": "Abrelata"
+      }
+    },
+    {
+      "product_code": "MK-6252",
+      "nombre": "TRAPO PISO MAKE BLANCO 48X60",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Paños y trapos",
+        "3": "Trapos de piso",
+        "4": "Trapo de piso"
+      }
+    },
+    {
+      "product_code": "MK-6585",
+      "nombre": "ABRELATA MANIJA MAKE",
+      "tags": {
+        "1": "Bazar",
+        "2": "Utensilios",
+        "3": "Abrelatas",
+        "4": "Abrelata"
+      }
+    },
+    {
+      "product_code": "MK-6934",
+      "nombre": "BALDE 10LTS M/PLASTICO BLACK MAKE",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Baldes y palas",
+        "3": "Baldes",
+        "4": "Balde"
+      }
+    },
+    {
+      "product_code": "MK-70014",
+      "nombre": "PRACTI DUO",
+      "tags": {
+        "1": "Aromatización",
+        "2": "Accesorios",
+        "3": "Difusores",
+        "4": "Practi duo"
+      }
+    },
+    {
+      "product_code": "PTB-0327806002",
+      "nombre": "ASADERA TEFLON VERMONT 28CM",
+      "tags": {
+        "1": "Bazar",
+        "2": "Cocina",
+        "3": "Asaderas",
+        "4": "Asadera"
+      }
+    },
+    {
+      "product_code": "PTB-0327899038",
+      "nombre": "ASADERA TEFLON VERMONT SET X 3",
+      "tags": {
+        "1": "Bazar",
+        "2": "Cocina",
+        "3": "Asaderas",
+        "4": "Set de asaderas"
+      }
+    },
+    {
+      "product_code": "PTB-20144622",
+      "nombre": "SARTEN TEFLON RECTA C/TAPA PARIS Nº22",
+      "tags": {
+        "1": "Bazar",
+        "2": "Cocina",
+        "3": "Sartenes",
+        "4": "Sartén teflón"
+      }
+    },
+    {
+      "product_code": "PTB-20510726",
+      "nombre": "SARTEN TEFLON C/TAPA VIDRIO PARIS ROJO Nº26",
+      "tags": {
+        "1": "Bazar",
+        "2": "Cocina",
+        "3": "Sartenes",
+        "4": "Sartén teflón"
+      }
+    },
+    {
+      "product_code": "SND-2521",
+      "nombre": "LAMPAZO BARRENDERO PREMIUM 0.40MT CHICO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Lampazos",
+        "3": "Lampazos barrendero",
+        "4": "Lampazo premium SUNDE"
+      }
+    },
+    {
+      "product_code": "SND-2522",
+      "nombre": "LAMPAZO BARRENDERO PREMIUM 0.60MT MEDIANO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Lampazos",
+        "3": "Lampazos barrendero",
+        "4": "Lampazo premium SUNDE"
+      }
+    },
+    {
+      "product_code": "SND-2523",
+      "nombre": "LAMPAZO BARRENDERO PREMIUM 0.80MT GRANDE",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Lampazos",
+        "3": "Lampazos barrendero",
+        "4": "Lampazo premium SUNDE"
+      }
+    },
+    {
+      "product_code": "SND-2524",
+      "nombre": "LAMPAZO BARRENDERO PREMIUM 1.00MT",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Lampazos",
+        "3": "Lampazos barrendero",
+        "4": "Lampazo premium SUNDE"
+      }
+    },
+    {
+      "product_code": "SND-568",
+      "nombre": "REJILLA LAVA-VAJILLA SUN-D 38X48CM",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Paños y trapos",
+        "3": "Rejillas",
+        "4": "Rejilla SUN-D"
+      }
+    },
+    {
+      "product_code": "SND-569",
+      "nombre": "REJILLA AMERICANA SUN-D 35X43CM",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Paños y trapos",
+        "3": "Rejillas",
+        "4": "Rejilla SUN-D"
+      }
+    }
+  ]
+}

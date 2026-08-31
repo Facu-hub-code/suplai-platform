@@ -1,0 +1,5 @@
+promo_id,product_code,titulo,descripcion,discount_kind,discount_value,lista_precios_id,min_qty_umv,fecha_inicio,fecha_fin,activa,is_mock
+1,SND-2523,¡Oferta Semanal! Lampazo premium SUNDE 0.80 m,15% OFF en el lampazo barrendero premium grande. Marca propia SUNDE.,percent_off,15,1,1,2026-08-24,2026-09-30,true,true
+2,LNN-2460,Imperdible: balde oval 16 L con mopa (colores),$1000 de descuento. Pedí lila amarillo o el mix que uses en el local.,total_off,1000,2,1,2026-08-24,2026-09-30,true,true
+3,FS-701,Promo especial: escobillón de cerda liso,"Llevando 3 o más: precio fijo $5927.15 c/u. La cerda no va a la vereda.",fixed_price,5927.15,1,3,2026-08-24,2026-09-30,true,true
+4,B3250,20% OFF mayorista: la olla del 50,Olla aluminio gastronómica N°50. 20% en lista mayorista.,percent_off,20,3,1,2026-08-24,2026-09-30,true,true

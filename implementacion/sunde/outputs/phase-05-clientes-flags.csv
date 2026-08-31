@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587120001,Ferretería Banda Norte,25001,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120002,Casa de Limpieza Don Héctor,25002,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120003,Súper Chang Las Higueras,25003,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120004,Minimercado El Cruce,25004,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120005,Distribuidora Sur Córdoba,25005,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120006,Ferretería Alberdi,25006,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120007,Autoservicio SUNDE Centro,25007,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120008,Casa de Artículos El Lampazo,25008,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120009,Súper Chino Av. Italia,25009,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120010,Revendedor Holmberg,25010,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120011,Ferretería Barrio Industrial,25011,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120012,Minimercado Banda Sur,25012,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120013,Casa de Limpieza La Escoba,25013,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120014,Distribuidora San Luis Ruta,25014,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120015,Súper Chang Barrio Jardín,25015,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120016,Ferretería Don Santos,25016,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120017,Almacén El Familiar,25017,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120018,Casa de Limpieza Doña Rosa,25018,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120019,Revendedor Las Higueras,25019,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120020,Minimercado Sabattini,25020,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120021,Ferretería El Tornillo,25021,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120022,Súper Chino Fénix,25022,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120023,Distribuidora La Pampa Interior,25023,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120024,Casa de Limpieza El Gaucho,25024,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120025,Autoservicio Vecinal Sur,25025,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120026,Ferretería Ruta 8,25026,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120027,Minimercado San Martín,25027,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120028,Revendedor Neuquén Ruta 3,25028,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120029,Casa de Artículos El Balde,25029,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120030,Súper Chang Alberdi,25030,validado,2026-08-31T17:27:19.957921+00:00,,false
+5493587120031,Ferretería Los Andes,25031,existente,,,false
+5493587120032,Almacén Don Pedro,25032,existente,,,false
+5493587120033,Distribuidora Caleta,25033,existente,,,false
+5493587120034,Casa de Limpieza La Cerda,25034,existente,,,false
+5493587120035,Minimercado Barrio Jardín,25035,existente,,,false
+5493587120036,Ferretería El Portal,25036,existente,,,false
+5493587120037,Súper Chino Banda Norte,25037,existente,,,false
+5493587120038,Revendedor Sampacho,25038,existente,,,false
+5493587120039,Casa de Limpieza El Quebracho,25039,existente,,,false
+5493587120040,Autoservicio Italia,25040,existente,,,false
+5493587120041,Ferretería La Unión,0,no_validado,,PROSPECTO,true
+5493587120042,Minimercado El Progreso,0,existente,,PROSPECTO,true
+5493587120043,Distribuidora El Encuentro,0,no_validado,,PROSPECTO,true
+5493587120044,Casa de Artículos El Cabo,0,existente,,PROSPECTO,true
+5493587120045,Súper Chang Industrial,0,no_validado,,PROSPECTO,true
+5493587120046,Ferretería Don Mario,0,validado,2026-08-31T17:27:19.957921+00:00,PROSPECTO,true
+5493587120047,Almacén La Esquina,0,no_existente,,PROSPECTO,true
+5493587120048,Revendedor Adelia María,0,no_validado,,PROSPECTO,true
+5493587120049,Casa de Limpieza El Sauce,0,existente,,PROSPECTO,true
+5493587120050,Minimercado Las Flores,0,no_validado,,PROSPECTO,true

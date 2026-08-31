@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: 126560db-75ee-403b-ac8b-46981ef68fba
+schema_existe,Tablas en sunde,ok,71 tablas BASE TABLE (clone gonzales)
+productos_vacio,COUNT productos = 0,ok,0 productos encontrados
+clients_vacio,COUNT clients = 0,ok,0 clientes encontrados
+mcp_conectado,MCP supabase responde,ok,conectado
+carpeta_implementacion,manifest.yaml presente,ok,implementacion/sunde/
+is_mock_column,Columna is_mock en productos,ok,true
+excel_presente,Archivo en inputs/,ok,inputs/lista-precios-21-08-26.xls (5 hojas L/S/A/J/B)

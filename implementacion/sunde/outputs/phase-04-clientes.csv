@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Ferretería Banda Norte,Ferretería Banda Norte,5493587120001,2,1,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,0,-33.117287,-64.374099,true
+2,Casa de Limpieza Don Héctor,Casa de Limpieza Don Héctor,5493587120002,3,2,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,0,-33.117326,-64.368202,true
+3,Súper Chang Las Higueras,Súper Chang Las Higueras,5493587120003,4,3,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,0,-33.117133,-64.374314,true
+4,Minimercado El Cruce,Minimercado El Cruce,5493587120004,1,4,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,0,-33.119891,-64.370687,true
+5,Distribuidora Sur Córdoba,Distribuidora Sur Córdoba,5493587120005,2,5,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,0,-33.120127,-64.3713,true
+6,Ferretería Alberdi,Ferretería Alberdi,5493587120006,3,6,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,0,-33.120889,-64.365139,true
+7,Autoservicio SUNDE Centro,Autoservicio SUNDE Centro,5493587120007,4,7,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,0,-33.120269,-64.365878,true
+8,Casa de Artículos El Lampazo,Casa de Artículos El Lampazo,5493587120008,1,8,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,0,-33.121634,-64.372614,true
+9,Súper Chino Av. Italia,Súper Chino Av. Italia,5493587120009,2,9,lunes,martes,"Zona ZONA NOROESTE - Banda Norte - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,0,-33.116541,-64.366895,true
+10,Revendedor Holmberg,Revendedor Holmberg,5493587120010,3,10,martes,miercoles,"Zona ZONA NORTE - Las Higueras - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,1,-33.121056,-64.35243,true
+11,Ferretería Barrio Industrial,Ferretería Barrio Industrial,5493587120011,4,11,martes,miercoles,"Zona ZONA NORTE - Las Higueras - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,1,-33.115318,-64.347819,true
+12,Minimercado Banda Sur,Minimercado Banda Sur,5493587120012,1,12,martes,miercoles,"Zona ZONA NORTE - Las Higueras - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,1,-33.121518,-64.344907,true
+13,Casa de Limpieza La Escoba,Casa de Limpieza La Escoba,5493587120013,2,13,martes,miercoles,"Zona ZONA NORTE - Las Higueras - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,1,-33.117795,-64.353581,true
+14,Distribuidora San Luis Ruta,Distribuidora San Luis Ruta,5493587120014,3,14,martes,miercoles,"Zona ZONA NORTE - Las Higueras - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,1,-33.121087,-64.350155,true
+15,Súper Chang Barrio Jardín,Súper Chang Barrio Jardín,5493587120015,4,15,martes,miercoles,"Zona ZONA NORTE - Las Higueras - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,1,-33.122561,-64.345452,true
+16,Ferretería Don Santos,Ferretería Don Santos,5493587120016,1,16,martes,miercoles,"Zona ZONA NORTE - Las Higueras - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,1,-33.117459,-64.354023,true
+17,Almacén El Familiar,Almacén El Familiar,5493587120017,2,17,martes,miercoles,"Zona ZONA NORTE - Las Higueras - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,1,-33.12053,-64.351572,true
+18,Casa de Limpieza Doña Rosa,Casa de Limpieza Doña Rosa,5493587120018,3,18,martes,miercoles,"Zona ZONA NORTE - Las Higueras - Río Cuarto, Córdoba, Argentina",Mariano Roldán,0,1,-33.118478,-64.347081,true
+19,Revendedor Las Higueras,Revendedor Las Higueras,5493587120019,4,19,miercoles,jueves,"Zona ZONA NORESTE - Barrio Alberdi - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,2,-33.115849,-64.333968,true
+20,Minimercado Sabattini,Minimercado Sabattini,5493587120020,1,20,miercoles,jueves,"Zona ZONA NORESTE - Barrio Alberdi - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,2,-33.115558,-64.328726,true
+21,Ferretería El Tornillo,Ferretería El Tornillo,5493587120021,2,21,miercoles,jueves,"Zona ZONA NORESTE - Barrio Alberdi - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,2,-33.123162,-64.331223,true
+22,Súper Chino Fénix,Súper Chino Fénix,5493587120022,3,22,miercoles,jueves,"Zona ZONA NORESTE - Barrio Alberdi - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,2,-33.121992,-64.330192,true
+23,Distribuidora La Pampa Interior,Distribuidora La Pampa Interior,5493587120023,4,23,miercoles,jueves,"Zona ZONA NORESTE - Barrio Alberdi - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,2,-33.116961,-64.332858,true
+24,Casa de Limpieza El Gaucho,Casa de Limpieza El Gaucho,5493587120024,1,24,miercoles,jueves,"Zona ZONA NORESTE - Barrio Alberdi - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,2,-33.121296,-64.331001,true
+25,Autoservicio Vecinal Sur,Autoservicio Vecinal Sur,5493587120025,2,25,miercoles,jueves,"Zona ZONA NORESTE - Barrio Alberdi - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,2,-33.118572,-64.327286,true
+26,Ferretería Ruta 8,Ferretería Ruta 8,5493587120026,3,26,miercoles,jueves,"Zona ZONA NORESTE - Barrio Alberdi - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,2,-33.121758,-64.330037,true
+27,Minimercado San Martín,Minimercado San Martín,5493587120027,4,27,jueves,viernes,"Zona ZONA SUROESTE - Barrio Industrial - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,3,-33.141882,-64.367821,true
+28,Revendedor Neuquén Ruta 3,Revendedor Neuquén Ruta 3,5493587120028,1,28,jueves,viernes,"Zona ZONA SUROESTE - Barrio Industrial - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,3,-33.141493,-64.370977,true
+29,Casa de Artículos El Balde,Casa de Artículos El Balde,5493587120029,2,29,jueves,viernes,"Zona ZONA SUROESTE - Barrio Industrial - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,3,-33.136733,-64.369918,true
+30,Súper Chang Alberdi,Súper Chang Alberdi,5493587120030,3,30,jueves,viernes,"Zona ZONA SUROESTE - Barrio Industrial - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,3,-33.136716,-64.373655,true
+31,Ferretería Los Andes,Ferretería Los Andes,5493587120031,4,31,jueves,viernes,"Zona ZONA SUROESTE - Barrio Industrial - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,3,-33.14144,-64.366156,true
+32,Almacén Don Pedro,Almacén Don Pedro,5493587120032,1,32,jueves,viernes,"Zona ZONA SUROESTE - Barrio Industrial - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,3,-33.141131,-64.366408,true
+33,Distribuidora Caleta,Distribuidora Caleta,5493587120033,2,33,jueves,viernes,"Zona ZONA SUROESTE - Barrio Industrial - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,3,-33.143393,-64.370944,true
+34,Casa de Limpieza La Cerda,Casa de Limpieza La Cerda,5493587120034,3,34,jueves,viernes,"Zona ZONA SUROESTE - Barrio Industrial - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,3,-33.137246,-64.370098,true
+35,Minimercado Barrio Jardín,Minimercado Barrio Jardín,5493587120035,4,35,viernes,sabado,"Zona ZONA SUR - Banda Sur - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,4,-33.139886,-64.352409,true
+36,Ferretería El Portal,Ferretería El Portal,5493587120036,1,36,viernes,sabado,"Zona ZONA SUR - Banda Sur - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,4,-33.143445,-64.34936,true
+37,Súper Chino Banda Norte,Súper Chino Banda Norte,5493587120037,2,37,viernes,sabado,"Zona ZONA SUR - Banda Sur - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,4,-33.137784,-64.35048,true
+38,Revendedor Sampacho,Revendedor Sampacho,5493587120038,3,38,viernes,sabado,"Zona ZONA SUR - Banda Sur - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,4,-33.138922,-64.354674,true
+39,Casa de Limpieza El Quebracho,Casa de Limpieza El Quebracho,5493587120039,4,39,viernes,sabado,"Zona ZONA SUR - Banda Sur - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,4,-33.141922,-64.35352,true
+40,Autoservicio Italia,Autoservicio Italia,5493587120040,1,40,viernes,sabado,"Zona ZONA SUR - Banda Sur - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,4,-33.137299,-64.353346,true
+41,Ferretería La Unión,Ferretería La Unión,5493587120041,2,41,viernes,sabado,"Zona ZONA SUR - Banda Sur - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,4,-33.140875,-64.352498,true
+42,Minimercado El Progreso,Minimercado El Progreso,5493587120042,3,42,viernes,sabado,"Zona ZONA SUR - Banda Sur - Río Cuarto, Córdoba, Argentina",Héctor Sosa,1,4,-33.13579,-64.349585,true
+43,Distribuidora El Encuentro,Distribuidora El Encuentro,5493587120043,4,43,sabado,lunes,"Zona ZONA SURESTE - Barrio Jardín - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,5,-33.141537,-64.333134,true
+44,Casa de Artículos El Cabo,Casa de Artículos El Cabo,5493587120044,1,44,sabado,lunes,"Zona ZONA SURESTE - Barrio Jardín - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,5,-33.141997,-64.326785,true
+45,Súper Chang Industrial,Súper Chang Industrial,5493587120045,2,45,sabado,lunes,"Zona ZONA SURESTE - Barrio Jardín - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,5,-33.138709,-64.330643,true
+46,Ferretería Don Mario,Ferretería Don Mario,5493587120046,3,46,sabado,lunes,"Zona ZONA SURESTE - Barrio Jardín - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,5,-33.143408,-64.328951,true
+47,Almacén La Esquina,Almacén La Esquina,5493587120047,4,47,sabado,lunes,"Zona ZONA SURESTE - Barrio Jardín - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,5,-33.14046,-64.333607,true
+48,Revendedor Adelia María,Revendedor Adelia María,5493587120048,1,48,sabado,lunes,"Zona ZONA SURESTE - Barrio Jardín - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,5,-33.135872,-64.330756,true
+49,Casa de Limpieza El Sauce,Casa de Limpieza El Sauce,5493587120049,2,49,sabado,lunes,"Zona ZONA SURESTE - Barrio Jardín - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,5,-33.143902,-64.334117,true
+50,Minimercado Las Flores,Minimercado Las Flores,5493587120050,3,50,sabado,lunes,"Zona ZONA SURESTE - Barrio Jardín - Río Cuarto, Córdoba, Argentina",Paula Benítez,2,5,-33.143294,-64.329121,true

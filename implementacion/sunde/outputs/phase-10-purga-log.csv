@@ -1,0 +1,37 @@
+tabla,filas_borradas,ok,notas
+field_task_events,273,true,sin is_mock; seed fase 6.1
+field_point_ledger,231,true,sin is_mock; seed fase 6.1
+field_tasks,311,true,sin is_mock; seed/trigger fase 6.1
+field_objetivo_skus,6,true,sin is_mock; objetivos mock
+field_objetivos,2,true,sin is_mock; objetivos mock
+field_tournaments,1,true,sin is_mock; torneo mock agosto
+field_task_templates,3,true,sin is_mock; templates mock
+core.conversation_events,224,true,event_payload.is_mock=true
+n8n_chat_histories,0,true,legacy is_mock
+conversations,51,true,inbox espejo; sin is_mock
+items_pedido,1636,true,is_mock=true
+pedidos,627,true,is_mock=true
+ia_tickets,18,true,is_mock=true
+client_locations,50,true,ubicaciones de clients mock + e2e
+vendedores_clientes,50,true,sin is_mock; FK a clients mock
+vendedor_geo_zones,7,true,is_mock=true
+clients,50,true,is_mock=true
+clients_e2e,1,true,cliente E2E suplai-platform-test sin is_mock
+puntos_venta,50,true,is_mock=true
+geo_zones,7,true,is_mock=true
+vendedores,3,true,is_mock=true
+promociones_semanales,4,true,is_mock=true
+precios_productos,372,true,is_mock=true
+product_categories,372,true,sin is_mock; SKUs mock
+product_tags,372,true,sin is_mock; SKUs mock
+productos_aliases,558,true,aliases de productos mock
+documents,93,true,RAG productos mock
+productos,93,true,is_mock=true
+category_documents,87,true,RAG categorías mock; sin is_mock
+categorias,87,true,taxonomía mock fase 1.1; sin is_mock
+tags,87,true,tags mock fase 1.1; sin is_mock
+listas_precios,4,true,is_mock=true
+public.tenant_cross_sell_mappings,14,true,is_mock=true
+public.tenant_up_sell_mappings,10,true,is_mock=true
+core.conversations,52,true,sesiones del tenant mock + E2E; sin is_mock en la tabla
+_verificacion,0,true,productos=0 clients=0 pedidos=0

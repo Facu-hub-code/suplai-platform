@@ -1,0 +1,158 @@
+pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
+P-00001,25001,5493587120001,Ferretería Banda Norte,2026-05-30 08:00:00,confirmado,31097.10,Pedido historico mock - Ferretería Banda Norte,true,false,2
+P-00002,25001,5493587120001,Ferretería Banda Norte,2026-06-16 09:19:07,entregado,385585.88,Pedido historico mock - Ferretería Banda Norte,true,false,2
+P-00003,25001,5493587120001,Ferretería Banda Norte,2026-07-03 10:38:14,facturado,2418.42,Pedido historico mock - Ferretería Banda Norte,true,false,2
+P-00004,25002,5493587120002,Casa de Limpieza Don Héctor,2026-06-06 11:11:23,entregado,17663.86,Pedido historico mock - Casa de Limpieza Don Héctor,true,false,3
+P-00005,25002,5493587120002,Casa de Limpieza Don Héctor,2026-06-23 12:30:30,facturado,80010.03,Pedido historico mock - Casa de Limpieza Don Héctor,true,false,3
+P-00006,25002,5493587120002,Casa de Limpieza Don Héctor,2026-07-10 13:49:37,confirmado,131212.07,Pedido historico mock - Casa de Limpieza Don Héctor,true,false,3
+P-00007,25003,5493587120003,Súper Chang Las Higueras,2026-06-13 14:22:46,facturado,57216.36,Pedido historico mock - Súper Chang Las Higueras,true,false,4
+P-00008,25003,5493587120003,Súper Chang Las Higueras,2026-06-30 15:41:53,confirmado,5204.13,Pedido historico mock - Súper Chang Las Higueras,true,false,4
+P-00009,25003,5493587120003,Súper Chang Las Higueras,2026-07-17 16:00:00,entregado,50228.98,Pedido historico mock - Súper Chang Las Higueras,true,false,4
+P-00010,25004,5493587120004,Minimercado El Cruce,2026-06-20 17:33:09,confirmado,40272.40,Pedido historico mock - Minimercado El Cruce,true,false,1
+P-00011,25004,5493587120004,Minimercado El Cruce,2026-07-07 08:52:16,entregado,34623.11,Pedido historico mock - Minimercado El Cruce,true,false,1
+P-00012,25004,5493587120004,Minimercado El Cruce,2026-07-24 09:11:23,facturado,8343.36,Pedido historico mock - Minimercado El Cruce,true,false,1
+P-00013,25005,5493587120005,Distribuidora Sur Córdoba,2026-06-27 10:44:32,entregado,48147.22,Pedido historico mock - Distribuidora Sur Córdoba,true,false,2
+P-00014,25005,5493587120005,Distribuidora Sur Córdoba,2026-07-14 11:03:39,facturado,252397.09,Pedido historico mock - Distribuidora Sur Córdoba,true,false,2
+P-00015,25005,5493587120005,Distribuidora Sur Córdoba,2026-07-31 12:22:46,confirmado,83766.69,Pedido historico mock - Distribuidora Sur Córdoba,true,false,2
+P-00016,25006,5493587120006,Ferretería Alberdi,2026-07-04 13:55:55,facturado,30672.42,Pedido historico mock - Ferretería Alberdi,true,false,3
+P-00017,25006,5493587120006,Ferretería Alberdi,2026-07-21 14:14:02,confirmado,115719.20,Pedido historico mock - Ferretería Alberdi,true,false,3
+P-00018,25006,5493587120006,Ferretería Alberdi,2026-08-07 15:33:09,entregado,32845.40,Pedido historico mock - Ferretería Alberdi,true,false,3
+P-00019,25007,5493587120007,Autoservicio SUNDE Centro,2026-07-11 16:06:18,confirmado,88386.23,Pedido historico mock - Autoservicio SUNDE Centro,true,false,4
+P-00020,25007,5493587120007,Autoservicio SUNDE Centro,2026-07-28 17:25:25,entregado,18387.84,Pedido historico mock - Autoservicio SUNDE Centro,true,false,4
+P-00021,25007,5493587120007,Autoservicio SUNDE Centro,2026-08-14 08:44:32,facturado,79160.38,Pedido historico mock - Autoservicio SUNDE Centro,true,false,4
+P-00022,25008,5493587120008,Casa de Artículos El Lampazo,2026-07-18 09:17:41,entregado,1998.75,Pedido historico mock - Casa de Artículos El Lampazo,true,false,1
+P-00023,25008,5493587120008,Casa de Artículos El Lampazo,2026-08-04 10:36:48,facturado,103681.48,Pedido historico mock - Casa de Artículos El Lampazo,true,false,1
+P-00024,25008,5493587120008,Casa de Artículos El Lampazo,2026-08-21 11:55:55,confirmado,98200.08,Pedido historico mock - Casa de Artículos El Lampazo,true,false,1
+P-00025,25009,5493587120009,Súper Chino Av. Italia,2026-07-25 12:28:04,facturado,41096.14,Pedido historico mock - Súper Chino Av. Italia,true,false,2
+P-00026,25009,5493587120009,Súper Chino Av. Italia,2026-08-11 13:47:11,confirmado,48132.25,Pedido historico mock - Súper Chino Av. Italia,true,false,2
+P-00027,25009,5493587120009,Súper Chino Av. Italia,2026-08-28 14:06:18,entregado,59302.27,Pedido historico mock - Súper Chino Av. Italia,true,false,2
+P-00028,25010,5493587120010,Revendedor Holmberg,2026-08-01 15:39:27,confirmado,4606.76,Pedido historico mock - Revendedor Holmberg,true,false,3
+P-00029,25010,5493587120010,Revendedor Holmberg,2026-08-18 16:58:34,entregado,52471.80,Pedido historico mock - Revendedor Holmberg,true,false,3
+P-00030,25010,5493587120010,Revendedor Holmberg,2026-06-04 17:17:41,facturado,40613.71,Pedido historico mock - Revendedor Holmberg,true,false,3
+P-00031,25011,5493587120011,Ferretería Barrio Industrial,2026-08-08 08:50:50,entregado,9562.77,Pedido historico mock - Ferretería Barrio Industrial,true,false,4
+P-00032,25011,5493587120011,Ferretería Barrio Industrial,2026-08-25 09:09:57,facturado,50435.70,Pedido historico mock - Ferretería Barrio Industrial,true,false,4
+P-00033,25011,5493587120011,Ferretería Barrio Industrial,2026-06-11 10:28:04,confirmado,50539.47,Pedido historico mock - Ferretería Barrio Industrial,true,false,4
+P-00034,25012,5493587120012,Minimercado Banda Sur,2026-08-15 11:01:13,facturado,63865.70,Pedido historico mock - Minimercado Banda Sur,true,false,1
+P-00035,25012,5493587120012,Minimercado Banda Sur,2026-06-01 12:20:20,confirmado,102477.24,Pedido historico mock - Minimercado Banda Sur,true,false,1
+P-00036,25012,5493587120012,Minimercado Banda Sur,2026-06-18 13:39:27,entregado,142669.75,Pedido historico mock - Minimercado Banda Sur,true,false,1
+P-00037,25013,5493587120013,Casa de Limpieza La Escoba,2026-08-22 14:12:36,confirmado,76993.50,Pedido historico mock - Casa de Limpieza La Escoba,true,false,2
+P-00038,25013,5493587120013,Casa de Limpieza La Escoba,2026-06-08 15:31:43,entregado,244220.80,Pedido historico mock - Casa de Limpieza La Escoba,true,false,2
+P-00039,25013,5493587120013,Casa de Limpieza La Escoba,2026-06-25 16:50:50,facturado,72800.15,Pedido historico mock - Casa de Limpieza La Escoba,true,false,2
+P-00040,25014,5493587120014,Distribuidora San Luis Ruta,2026-08-29 17:23:59,entregado,70000.16,Pedido historico mock - Distribuidora San Luis Ruta,true,false,3
+P-00041,25014,5493587120014,Distribuidora San Luis Ruta,2026-06-15 08:42:06,facturado,6109.26,Pedido historico mock - Distribuidora San Luis Ruta,true,false,3
+P-00042,25014,5493587120014,Distribuidora San Luis Ruta,2026-07-02 09:01:13,confirmado,26626.77,Pedido historico mock - Distribuidora San Luis Ruta,true,false,3
+P-00043,25015,5493587120015,Súper Chang Barrio Jardín,2026-06-05 10:34:22,facturado,11450.18,Pedido historico mock - Súper Chang Barrio Jardín,true,false,4
+P-00044,25015,5493587120015,Súper Chang Barrio Jardín,2026-06-22 11:53:29,confirmado,109346.35,Pedido historico mock - Súper Chang Barrio Jardín,true,false,4
+P-00045,25015,5493587120015,Súper Chang Barrio Jardín,2026-07-09 12:12:36,entregado,4596.96,Pedido historico mock - Súper Chang Barrio Jardín,true,false,4
+P-00046,25016,5493587120016,Ferretería Don Santos,2026-06-12 13:45:45,confirmado,5408.19,Pedido historico mock - Ferretería Don Santos,true,false,1
+P-00047,25016,5493587120016,Ferretería Don Santos,2026-06-29 14:04:52,entregado,144038.07,Pedido historico mock - Ferretería Don Santos,true,false,1
+P-00048,25016,5493587120016,Ferretería Don Santos,2026-07-16 15:23:59,facturado,56623.15,Pedido historico mock - Ferretería Don Santos,true,false,1
+P-00049,25017,5493587120017,Almacén El Familiar,2026-06-19 16:56:08,entregado,1862.42,Pedido historico mock - Almacén El Familiar,true,false,2
+P-00050,25017,5493587120017,Almacén El Familiar,2026-07-06 17:15:15,facturado,19415.54,Pedido historico mock - Almacén El Familiar,true,false,2
+P-00051,25017,5493587120017,Almacén El Familiar,2026-07-23 08:34:22,confirmado,28191.97,Pedido historico mock - Almacén El Familiar,true,false,2
+P-00052,25018,5493587120018,Casa de Limpieza Doña Rosa,2026-06-26 09:07:31,facturado,105964.50,Pedido historico mock - Casa de Limpieza Doña Rosa,true,false,3
+P-00053,25018,5493587120018,Casa de Limpieza Doña Rosa,2026-07-13 10:26:38,confirmado,738389.37,Pedido historico mock - Casa de Limpieza Doña Rosa,true,false,3
+P-00054,25018,5493587120018,Casa de Limpieza Doña Rosa,2026-07-30 11:45:45,entregado,326626.45,Pedido historico mock - Casa de Limpieza Doña Rosa,true,false,3
+P-00055,25019,5493587120019,Revendedor Las Higueras,2026-07-03 12:18:54,confirmado,5275.45,Pedido historico mock - Revendedor Las Higueras,true,false,4
+P-00056,25019,5493587120019,Revendedor Las Higueras,2026-07-20 13:37:01,entregado,21304.98,Pedido historico mock - Revendedor Las Higueras,true,false,4
+P-00057,25019,5493587120019,Revendedor Las Higueras,2026-08-06 14:56:08,facturado,74527.54,Pedido historico mock - Revendedor Las Higueras,true,false,4
+P-00058,25020,5493587120020,Minimercado Sabattini,2026-07-10 15:29:17,entregado,44764.97,Pedido historico mock - Minimercado Sabattini,true,false,1
+P-00059,25020,5493587120020,Minimercado Sabattini,2026-07-27 16:48:24,facturado,51940.21,Pedido historico mock - Minimercado Sabattini,true,false,1
+P-00060,25020,5493587120020,Minimercado Sabattini,2026-08-13 17:07:31,confirmado,40625.03,Pedido historico mock - Minimercado Sabattini,true,false,1
+P-00061,25021,5493587120021,Ferretería El Tornillo,2026-07-17 08:40:40,facturado,26128.36,Pedido historico mock - Ferretería El Tornillo,true,false,2
+P-00062,25021,5493587120021,Ferretería El Tornillo,2026-08-03 09:59:47,confirmado,82128.36,Pedido historico mock - Ferretería El Tornillo,true,false,2
+P-00063,25021,5493587120021,Ferretería El Tornillo,2026-08-20 10:18:54,entregado,15186.30,Pedido historico mock - Ferretería El Tornillo,true,false,2
+P-00064,25022,5493587120022,Súper Chino Fénix,2026-07-24 11:51:03,confirmado,97449.34,Pedido historico mock - Súper Chino Fénix,true,false,3
+P-00065,25022,5493587120022,Súper Chino Fénix,2026-08-10 12:10:10,entregado,15489.12,Pedido historico mock - Súper Chino Fénix,true,false,3
+P-00066,25022,5493587120022,Súper Chino Fénix,2026-08-27 13:29:17,facturado,18101.47,Pedido historico mock - Súper Chino Fénix,true,false,3
+P-00067,25023,5493587120023,Distribuidora La Pampa Interior,2026-07-31 14:02:26,entregado,9455.87,Pedido historico mock - Distribuidora La Pampa Interior,true,false,4
+P-00068,25023,5493587120023,Distribuidora La Pampa Interior,2026-08-17 15:21:33,facturado,114664.85,Pedido historico mock - Distribuidora La Pampa Interior,true,false,4
+P-00069,25023,5493587120023,Distribuidora La Pampa Interior,2026-06-03 16:40:40,confirmado,52367.01,Pedido historico mock - Distribuidora La Pampa Interior,true,false,4
+P-00070,25024,5493587120024,Casa de Limpieza El Gaucho,2026-08-07 17:13:49,facturado,7970.06,Pedido historico mock - Casa de Limpieza El Gaucho,true,false,1
+P-00071,25024,5493587120024,Casa de Limpieza El Gaucho,2026-08-24 08:32:56,confirmado,37206.69,Pedido historico mock - Casa de Limpieza El Gaucho,true,false,1
+P-00072,25024,5493587120024,Casa de Limpieza El Gaucho,2026-06-10 09:51:03,entregado,47468.88,Pedido historico mock - Casa de Limpieza El Gaucho,true,false,1
+P-00073,25025,5493587120025,Autoservicio Vecinal Sur,2026-08-14 10:24:12,confirmado,28578.49,Pedido historico mock - Autoservicio Vecinal Sur,true,false,2
+P-00074,25025,5493587120025,Autoservicio Vecinal Sur,2026-05-31 11:43:19,entregado,32025.89,Pedido historico mock - Autoservicio Vecinal Sur,true,false,2
+P-00075,25025,5493587120025,Autoservicio Vecinal Sur,2026-06-17 12:02:26,facturado,237728.35,Pedido historico mock - Autoservicio Vecinal Sur,true,false,2
+P-00076,25026,5493587120026,Ferretería Ruta 8,2026-08-21 13:35:35,entregado,12150.00,Pedido historico mock - Ferretería Ruta 8,true,false,3
+P-00077,25026,5493587120026,Ferretería Ruta 8,2026-06-07 14:54:42,facturado,10532.09,Pedido historico mock - Ferretería Ruta 8,true,false,3
+P-00078,25026,5493587120026,Ferretería Ruta 8,2026-06-24 15:13:49,confirmado,53692.99,Pedido historico mock - Ferretería Ruta 8,true,false,3
+P-00079,25027,5493587120027,Minimercado San Martín,2026-08-28 16:46:58,facturado,71447.28,Pedido historico mock - Minimercado San Martín,true,false,4
+P-00080,25027,5493587120027,Minimercado San Martín,2026-06-14 17:05:05,confirmado,129419.87,Pedido historico mock - Minimercado San Martín,true,false,4
+P-00081,25027,5493587120027,Minimercado San Martín,2026-07-01 08:24:12,entregado,85159.35,Pedido historico mock - Minimercado San Martín,true,false,4
+P-00082,25028,5493587120028,Revendedor Neuquén Ruta 3,2026-06-04 09:57:21,confirmado,79519.00,Pedido historico mock - Revendedor Neuquén Ruta 3,true,false,1
+P-00083,25028,5493587120028,Revendedor Neuquén Ruta 3,2026-06-21 10:16:28,entregado,34879.03,Pedido historico mock - Revendedor Neuquén Ruta 3,true,false,1
+P-00084,25028,5493587120028,Revendedor Neuquén Ruta 3,2026-07-08 11:35:35,facturado,26214.15,Pedido historico mock - Revendedor Neuquén Ruta 3,true,false,1
+P-00085,25029,5493587120029,Casa de Artículos El Balde,2026-06-11 12:08:44,entregado,140887.76,Pedido historico mock - Casa de Artículos El Balde,true,false,2
+P-00086,25029,5493587120029,Casa de Artículos El Balde,2026-06-28 13:27:51,facturado,73813.19,Pedido historico mock - Casa de Artículos El Balde,true,false,2
+P-00087,25029,5493587120029,Casa de Artículos El Balde,2026-07-15 14:46:58,confirmado,107741.11,Pedido historico mock - Casa de Artículos El Balde,true,false,2
+P-00088,25030,5493587120030,Súper Chang Alberdi,2026-06-18 15:19:07,facturado,74837.35,Pedido historico mock - Súper Chang Alberdi,true,false,3
+P-00089,25030,5493587120030,Súper Chang Alberdi,2026-07-05 16:38:14,confirmado,11004.05,Pedido historico mock - Súper Chang Alberdi,true,false,3
+P-00090,25030,5493587120030,Súper Chang Alberdi,2026-07-22 17:57:21,entregado,23064.58,Pedido historico mock - Súper Chang Alberdi,true,false,3
+P-00091,25031,5493587120031,Ferretería Los Andes,2026-06-25 08:30:30,confirmado,45723.53,Pedido historico mock - Ferretería Los Andes,true,false,4
+P-00092,25031,5493587120031,Ferretería Los Andes,2026-07-12 09:49:37,entregado,580664.36,Pedido historico mock - Ferretería Los Andes,true,false,4
+P-00093,25031,5493587120031,Ferretería Los Andes,2026-07-29 10:08:44,facturado,529286.49,Pedido historico mock - Ferretería Los Andes,true,false,4
+P-00094,25032,5493587120032,Almacén Don Pedro,2026-07-02 11:41:53,entregado,86526.02,Pedido historico mock - Almacén Don Pedro,true,false,1
+P-00095,25032,5493587120032,Almacén Don Pedro,2026-07-19 12:00:00,facturado,71517.65,Pedido historico mock - Almacén Don Pedro,true,false,1
+P-00096,25032,5493587120032,Almacén Don Pedro,2026-08-05 13:19:07,confirmado,5215.20,Pedido historico mock - Almacén Don Pedro,true,false,1
+P-00097,25033,5493587120033,Distribuidora Caleta,2026-07-09 14:52:16,facturado,469395.92,Pedido historico mock - Distribuidora Caleta,true,false,2
+P-00098,25033,5493587120033,Distribuidora Caleta,2026-07-26 15:11:23,confirmado,6013.35,Pedido historico mock - Distribuidora Caleta,true,false,2
+P-00099,25033,5493587120033,Distribuidora Caleta,2026-08-12 16:30:30,entregado,7143.24,Pedido historico mock - Distribuidora Caleta,true,false,2
+P-00100,25034,5493587120034,Casa de Limpieza La Cerda,2026-07-16 17:03:39,confirmado,4500.01,Pedido historico mock - Casa de Limpieza La Cerda,true,false,3
+P-00101,25034,5493587120034,Casa de Limpieza La Cerda,2026-08-02 08:22:46,entregado,8914.93,Pedido historico mock - Casa de Limpieza La Cerda,true,false,3
+P-00102,25034,5493587120034,Casa de Limpieza La Cerda,2026-08-19 09:41:53,facturado,47995.61,Pedido historico mock - Casa de Limpieza La Cerda,true,false,3
+P-00103,25035,5493587120035,Minimercado Barrio Jardín,2026-07-23 10:14:02,entregado,32409.28,Pedido historico mock - Minimercado Barrio Jardín,true,false,4
+P-00104,25035,5493587120035,Minimercado Barrio Jardín,2026-08-09 11:33:09,facturado,314428.73,Pedido historico mock - Minimercado Barrio Jardín,true,false,4
+P-00105,25035,5493587120035,Minimercado Barrio Jardín,2026-08-26 12:52:16,confirmado,38624.56,Pedido historico mock - Minimercado Barrio Jardín,true,false,4
+P-00106,25036,5493587120036,Ferretería El Portal,2026-07-30 13:25:25,facturado,270610.48,Pedido historico mock - Ferretería El Portal,true,false,1
+P-00107,25036,5493587120036,Ferretería El Portal,2026-08-16 14:44:32,confirmado,130840.14,Pedido historico mock - Ferretería El Portal,true,false,1
+P-00108,25036,5493587120036,Ferretería El Portal,2026-06-02 15:03:39,entregado,289229.08,Pedido historico mock - Ferretería El Portal,true,false,1
+P-00109,25037,5493587120037,Súper Chino Banda Norte,2026-08-06 16:36:48,confirmado,9995.80,Pedido historico mock - Súper Chino Banda Norte,true,false,2
+P-00110,25037,5493587120037,Súper Chino Banda Norte,2026-08-23 17:55:55,entregado,7336.52,Pedido historico mock - Súper Chino Banda Norte,true,false,2
+P-00111,25037,5493587120037,Súper Chino Banda Norte,2026-06-09 08:14:02,facturado,140072.06,Pedido historico mock - Súper Chino Banda Norte,true,false,2
+P-00112,25038,5493587120038,Revendedor Sampacho,2026-08-13 09:47:11,entregado,60193.64,Pedido historico mock - Revendedor Sampacho,true,false,3
+P-00113,25038,5493587120038,Revendedor Sampacho,2026-05-30 10:06:18,facturado,975314.87,Pedido historico mock - Revendedor Sampacho,true,false,3
+P-00114,25038,5493587120038,Revendedor Sampacho,2026-06-16 11:25:25,confirmado,21489.94,Pedido historico mock - Revendedor Sampacho,true,false,3
+P-00115,25039,5493587120039,Casa de Limpieza El Quebracho,2026-08-20 12:58:34,facturado,13334.88,Pedido historico mock - Casa de Limpieza El Quebracho,true,false,4
+P-00116,25039,5493587120039,Casa de Limpieza El Quebracho,2026-06-06 13:17:41,confirmado,4529.44,Pedido historico mock - Casa de Limpieza El Quebracho,true,false,4
+P-00117,25039,5493587120039,Casa de Limpieza El Quebracho,2026-06-23 14:36:48,entregado,357361.77,Pedido historico mock - Casa de Limpieza El Quebracho,true,false,4
+P-00118,25040,5493587120040,Autoservicio Italia,2026-08-27 15:09:57,confirmado,45165.24,Pedido historico mock - Autoservicio Italia,true,false,1
+P-00119,25040,5493587120040,Autoservicio Italia,2026-06-13 16:28:04,entregado,410131.90,Pedido historico mock - Autoservicio Italia,true,false,1
+P-00120,25040,5493587120040,Autoservicio Italia,2026-06-30 17:47:11,facturado,166012.41,Pedido historico mock - Autoservicio Italia,true,false,1
+P-00121,0,5493587120041,Ferretería La Unión,2026-06-03 08:20:20,entregado,23169.51,Pedido historico mock - Ferretería La Unión,true,false,2
+P-00122,0,5493587120041,Ferretería La Unión,2026-06-20 09:39:27,facturado,108878.56,Pedido historico mock - Ferretería La Unión,true,false,2
+P-00123,0,5493587120041,Ferretería La Unión,2026-07-07 10:58:34,confirmado,9594.86,Pedido historico mock - Ferretería La Unión,true,false,2
+P-00124,0,5493587120042,Minimercado El Progreso,2026-06-10 11:31:43,facturado,3596.91,Pedido historico mock - Minimercado El Progreso,true,false,3
+P-00125,0,5493587120042,Minimercado El Progreso,2026-06-27 12:50:50,confirmado,52246.85,Pedido historico mock - Minimercado El Progreso,true,false,3
+P-00126,0,5493587120042,Minimercado El Progreso,2026-07-14 13:09:57,entregado,11402.10,Pedido historico mock - Minimercado El Progreso,true,false,3
+P-00127,0,5493587120043,Distribuidora El Encuentro,2026-06-17 14:42:06,confirmado,12395.01,Pedido historico mock - Distribuidora El Encuentro,true,false,4
+P-00128,0,5493587120043,Distribuidora El Encuentro,2026-07-04 15:01:13,entregado,11378.50,Pedido historico mock - Distribuidora El Encuentro,true,false,4
+P-00129,0,5493587120043,Distribuidora El Encuentro,2026-07-21 16:20:20,facturado,181717.05,Pedido historico mock - Distribuidora El Encuentro,true,false,4
+P-00130,0,5493587120044,Casa de Artículos El Cabo,2026-06-24 17:53:29,entregado,126772.10,Pedido historico mock - Casa de Artículos El Cabo,true,false,1
+P-00131,0,5493587120044,Casa de Artículos El Cabo,2026-07-11 08:12:36,facturado,66794.91,Pedido historico mock - Casa de Artículos El Cabo,true,false,1
+P-00132,0,5493587120044,Casa de Artículos El Cabo,2026-07-28 09:31:43,confirmado,111169.31,Pedido historico mock - Casa de Artículos El Cabo,true,false,1
+P-00133,0,5493587120045,Súper Chang Industrial,2026-07-01 10:04:52,facturado,136542.71,Pedido historico mock - Súper Chang Industrial,true,false,2
+P-00134,0,5493587120045,Súper Chang Industrial,2026-07-18 11:23:59,confirmado,53699.44,Pedido historico mock - Súper Chang Industrial,true,false,2
+P-00135,0,5493587120045,Súper Chang Industrial,2026-08-04 12:42:06,entregado,6594.26,Pedido historico mock - Súper Chang Industrial,true,false,2
+P-00136,0,5493587120046,Ferretería Don Mario,2026-07-08 13:15:15,confirmado,24336.85,Pedido historico mock - Ferretería Don Mario,true,false,3
+P-00137,0,5493587120046,Ferretería Don Mario,2026-07-25 14:34:22,entregado,35783.56,Pedido historico mock - Ferretería Don Mario,true,false,3
+P-00138,0,5493587120046,Ferretería Don Mario,2026-08-11 15:53:29,facturado,100322.10,Pedido historico mock - Ferretería Don Mario,true,false,3
+P-00139,0,5493587120047,Almacén La Esquina,2026-07-15 16:26:38,entregado,4291.41,Pedido historico mock - Almacén La Esquina,true,false,4
+P-00140,0,5493587120047,Almacén La Esquina,2026-08-01 17:45:45,facturado,36798.28,Pedido historico mock - Almacén La Esquina,true,false,4
+P-00141,0,5493587120047,Almacén La Esquina,2026-08-18 08:04:52,confirmado,213978.36,Pedido historico mock - Almacén La Esquina,true,false,4
+P-00142,0,5493587120048,Revendedor Adelia María,2026-07-22 09:37:01,facturado,38069.79,Pedido historico mock - Revendedor Adelia María,true,false,1
+P-00143,0,5493587120048,Revendedor Adelia María,2026-08-08 10:56:08,confirmado,40090.25,Pedido historico mock - Revendedor Adelia María,true,false,1
+P-00144,0,5493587120048,Revendedor Adelia María,2026-08-25 11:15:15,entregado,20136.20,Pedido historico mock - Revendedor Adelia María,true,false,1
+P-00145,0,5493587120049,Casa de Limpieza El Sauce,2026-07-29 12:48:24,confirmado,35173.70,Pedido historico mock - Casa de Limpieza El Sauce,true,false,2
+P-00146,0,5493587120049,Casa de Limpieza El Sauce,2026-08-15 13:07:31,entregado,100832.53,Pedido historico mock - Casa de Limpieza El Sauce,true,false,2
+P-00147,0,5493587120049,Casa de Limpieza El Sauce,2026-06-01 14:26:38,facturado,36954.98,Pedido historico mock - Casa de Limpieza El Sauce,true,false,2
+P-00148,0,5493587120050,Minimercado Las Flores,2026-08-05 15:59:47,entregado,103736.95,Pedido historico mock - Minimercado Las Flores,true,false,3
+P-00149,0,5493587120050,Minimercado Las Flores,2026-08-22 16:18:54,facturado,94433.32,Pedido historico mock - Minimercado Las Flores,true,false,3
+P-00150,0,5493587120050,Minimercado Las Flores,2026-06-08 17:37:01,confirmado,17932.65,Pedido historico mock - Minimercado Las Flores,true,false,3
+P-00151,25001,5493587120001,Ferretería Banda Norte,2026-08-31 11:15:00,abierto,41189.64,Pedido abierto mock - Ferretería Banda Norte,true,true,2
+P-00152,25002,5493587120002,Casa de Limpieza Don Héctor,2026-08-31 11:15:13,pendiente,27675.00,Pedido abierto mock - Casa de Limpieza Don Héctor,true,true,3
+P-00153,25003,5493587120003,Súper Chang Las Higueras,2026-08-31 11:15:26,abierto,5204.13,Pedido abierto mock - Súper Chang Las Higueras,true,true,4
+P-00154,25004,5493587120004,Minimercado El Cruce,2026-08-31 11:15:39,pendiente,287247.51,Pedido abierto mock - promo Fase 2 lampazo premium SUNDE - Minimercado El Cruce,true,true,1
+P-00155,25005,5493587120005,Distribuidora Sur Córdoba,2026-08-31 11:15:52,abierto,79620.48,Pedido abierto mock - Distribuidora Sur Córdoba,true,true,2
+P-00156,25006,5493587120006,Ferretería Alberdi,2026-08-31 11:15:05,pendiente,26457.43,Pedido abierto mock - Ferretería Alberdi,true,true,3
+P-00157,25007,5493587120007,Autoservicio SUNDE Centro,2026-08-31 11:15:18,abierto,14183.72,Pedido abierto mock - Autoservicio SUNDE Centro,true,true,4

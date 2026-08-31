@@ -1,0 +1,372 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587120001,25001,160-02,Sahumerio empaste simple x100 BENJUI,5,6219.42,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00002,5493587120001,25001,PTB-20510726,SARTEN TEFLON C/TAPA VIDRIO PARIS ROJO Nº26,4,82014.66,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00002,5493587120001,25001,1522,LAMPAZO BARRENDERO 0.60MT MEDIANO,3,11578.31,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00002,5493587120001,25001,SND-2521,LAMPAZO BARRENDERO PREMIUM 0.40MT CHICO,1,22792.31,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00003,5493587120001,25001,150-02,Sahumerio empaste simple x15 BENJUI,2,1209.21,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00004,5493587120002,25002,B5122,ASADERA ENLOZ SALPICADA N°2 21X30CM,3,4706.42,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00004,5493587120002,25002,SND-569,REJILLA AMERICANA SUN-D 35X43CM,5,708.92,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00005,5493587120002,25002,A2470,ABRELATA MANIJA LOEKEMEYER,5,10224.14,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00005,5493587120002,25002,8030,TRAPO PISO MT CONSORCIO BLANCO 60*70,2,3324.04,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00005,5493587120002,25002,3410,DETERGENTE ALBO 5LT,3,7413.75,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00006,5493587120002,25002,PTB-20144622,SARTEN TEFLON RECTA C/TAPA PARIS Nº22,4,31391.13,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00006,5493587120002,25002,FL-904,MACETA COLOR N° 35,1,5647.55,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00007,5493587120003,25003,1522,LAMPAZO BARRENDERO 0.60MT MEDIANO,4,8557.89,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00007,5493587120003,25003,160-12,Sahumerio empaste simple x100 LAVANDA,5,4596.96,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00008,5493587120003,25003,FS-2035,ESCOBILLON BARREGRUESO,1,5204.13,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00009,5493587120003,25003,1950,CABO MADERA P/SOPAPA,1,479.19,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00009,5493587120003,25003,B2533,ORGANIZADOR C/TAPA 10LTS,5,6163.59,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00009,5493587120003,25003,160-10,Sahumerio empaste simple x100 INCIENSO,1,4596.96,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00009,5493587120003,25003,MK-6130,ABRELATA MARIPOSA MAKE,2,7167.44,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00010,5493587120004,25004,1522,LAMPAZO BARRENDERO 0.60MT MEDIANO,4,10068.10,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00011,5493587120004,25004,1802,BARREHOJA METALICO REGULABLE,2,13981.08,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00011,5493587120004,25004,051-14,Esencia para hornillo LAVANDA,5,1332.19,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00012,5493587120004,25004,FS-2040,SECADOR DOPPIO BLANCO 41CM,2,4171.68,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00013,5493587120005,25005,FL-904,MACETA COLOR N° 35,5,7216.31,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00013,5493587120005,25005,B2510,JARDINERA N° 45,3,4021.89,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00014,5493587120005,25005,3410,DETERGENTE ALBO 5LT,4,9473.12,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00014,5493587120005,25005,B3146,OLLA ALUMINIO N° 26,2,43499.53,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00014,5493587120005,25005,A2472,ABRELATA MARIPOSA LOEKEMEYER,5,7715.92,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00014,5493587120005,25005,LNN-2460,BALDE C/ESC Y MOPA OVAL 16LTS COLORES 25X39CM,5,17785.19,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00015,5493587120005,25005,2601,"SOPAPA GOMA 4"" C/CABO",3,2477.73,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00015,5493587120005,25005,FS-701,ESCOBILLON CERDA LISO,2,7745.71,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00015,5493587120005,25005,MK-6130,ABRELATA MARIPOSA MAKE,1,9697.12,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00015,5493587120005,25005,MK-6585,ABRELATA MANIJA MAKE,4,12786.24,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00016,5493587120006,25006,A2470,ABRELATA MANIJA LOEKEMEYER,3,10224.14,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00017,5493587120006,25006,1414,ESCOBA 6 HILOS ESPECIAL,5,9225.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00017,5493587120006,25006,LNN-2460,BALDE C/ESC Y MOPA OVAL 16LTS COLORES 25X39CM,5,13918.84,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00018,5493587120006,25006,7000,PALA RESIDUOS CLIP COMUN,4,797.60,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00018,5493587120006,25006,3410,DETERGENTE ALBO 5LT,4,7413.75,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00019,5493587120007,25007,1802,BARREHOJA METALICO REGULABLE,3,11883.92,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00019,5493587120007,25007,SND-2521,LAMPAZO BARRENDERO PREMIUM 0.40MT CHICO,3,16846.49,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00019,5493587120007,25007,B2490,MACETA COLOR N° 10,4,548.75,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00020,5493587120007,25007,160-02,Sahumerio empaste simple x100 BENJUI,4,4596.96,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00021,5493587120007,25007,B2530,ORGANIZADOR C/TAPA 18LTS,5,10555.54,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00021,5493587120007,25007,1604,CABO MADERA C/ROSCA 1.50MTS,2,1698.94,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00021,5493587120007,25007,160-02,Sahumerio empaste simple x100 BENJUI,5,4596.96,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00022,5493587120008,25008,1604,CABO MADERA C/ROSCA 1.50MTS,1,1998.75,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00023,5493587120008,25008,432B-02,Sahumerio triple empaste x50 BENJUI,3,4124.50,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00023,5493587120008,25008,1802,BARREHOJA METALICO REGULABLE,1,13981.08,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00023,5493587120008,25008,LNN-2460,BALDE C/ESC Y MOPA OVAL 16LTS COLORES 25X39CM,5,15465.38,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00024,5493587120008,25008,FS-2040,SECADOR DOPPIO BLANCO 41CM,4,4171.68,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00024,5493587120008,25008,SND-568,REJILLA LAVA-VAJILLA SUN-D 38X48CM,1,1206.67,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00024,5493587120008,25008,B2531,ORGANIZADOR C/TAPA 30LTS,4,19879.75,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00024,5493587120008,25008,SND-569,REJILLA AMERICANA SUN-D 35X43CM,1,787.69,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00025,5493587120009,25009,MK-70014,PRACTI DUO,1,25604.72,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00025,5493587120009,25009,FS-701,ESCOBILLON CERDA LISO,2,7745.71,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00026,5493587120009,25009,1416,ESCOBA 5 HILOS MEZCLA,5,9626.45,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00027,5493587120009,25009,SND-2522,LAMPAZO BARRENDERO PREMIUM 0.60MT MEDIANO,2,26644.46,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00027,5493587120009,25009,072-10,Veloncito aromático 5x3.5 LAVANDA,3,2004.45,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00028,5493587120010,25010,SND-569,REJILLA AMERICANA SUN-D 35X43CM,1,708.92,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00028,5493587120010,25010,1608,CABO MADERA C/ROSCA P/BARRENDERO,1,2698.87,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00028,5493587120010,25010,051-14,Esencia para hornillo LAVANDA,1,1198.97,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00029,5493587120010,25010,MEL-04,ALCOHOL GEL FRAU 500ML,1,2214.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00029,5493587120010,25010,FL-911,MACETA BOWL COLGANTE C/GANCHO Nº19,5,1564.56,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00029,5493587120010,25010,1407,ESCOBA 7 HILOS IMPERIAL,4,10608.75,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00030,5493587120010,25010,1950,CABO MADERA P/SOPAPA,2,507.38,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00030,5493587120010,25010,1608,CABO MADERA C/ROSCA P/BARRENDERO,5,2698.87,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00030,5493587120010,25010,B2533,ORGANIZADOR C/TAPA 10LTS,4,6526.15,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00031,5493587120011,25011,MK-6934,BALDE 10LTS M/PLASTICO BLACK MAKE,3,3187.59,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00032,5493587120011,25011,1523,LAMPAZO BARRENDERO 0.80MT GRANDE,5,10087.14,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00033,5493587120011,25011,SND-2521,LAMPAZO BARRENDERO PREMIUM 0.40MT CHICO,3,16846.49,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00034,5493587120012,25012,SND-2523,LAMPAZO BARRENDERO PREMIUM 0.80MT GRANDE,2,25987.85,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00034,5493587120012,25012,AER-559L,Aromatizante aerosol Fraganss 360ml LAVANDA,4,2972.50,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00035,5493587120012,25012,IJL07,JABON LIQ B/E PQR AZUL T/SKIP 5LTS,4,15078.96,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00035,5493587120012,25012,MK-6130,ABRELATA MARIPOSA MAKE,5,8432.28,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00036,5493587120012,25012,SND-2524,LAMPAZO BARRENDERO PREMIUM 1.00MT,5,28533.95,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00037,5493587120013,25013,160-03,Sahumerio empaste simple x100 CANELA,2,6219.42,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00037,5493587120013,25013,1522,LAMPAZO BARRENDERO 0.60MT MEDIANO,3,11578.31,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00037,5493587120013,25013,B2515,JARDINERA N° 65,2,12850.22,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00037,5493587120013,25013,FS-2020,ESCOBA AMERICA FS,1,4119.29,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00038,5493587120013,25013,1604,CABO MADERA C/ROSCA 1.50MTS,3,2298.56,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00038,5493587120013,25013,B3150,OLLA ALUMINIO N° 30,2,58890.50,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00038,5493587120013,25013,SND-2523,LAMPAZO BARRENDERO PREMIUM 0.80MT GRANDE,4,29886.03,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00039,5493587120013,25013,2600,"SOPAPA GOMA 4""",3,1834.13,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00039,5493587120013,25013,1802,BARREHOJA METALICO REGULABLE,3,16078.24,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00039,5493587120013,25013,1828,ESCOBILLON CERDA LISO C/CABO,2,9531.52,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00040,5493587120014,25014,FS-2020,ESCOBA AMERICA FS,5,3223.79,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00040,5493587120014,25014,1604,CABO MADERA C/ROSCA 1.50MTS,2,1798.88,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00040,5493587120014,25014,B2515,JARDINERA N° 65,5,10056.69,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00041,5493587120014,25014,SND-569,REJILLA AMERICANA SUN-D 35X43CM,1,708.92,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00041,5493587120014,25014,1950,CABO MADERA P/SOPAPA,3,507.38,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00041,5493587120014,25014,2601,"SOPAPA GOMA 4"" C/CABO",2,1939.10,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00042,5493587120014,25014,2601,"SOPAPA GOMA 4"" C/CABO",4,1939.10,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00042,5493587120014,25014,051-39,Esencia para hornillo PALO SANTO,1,1198.97,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00042,5493587120014,25014,1421,ESCOBITA INFANTIL,2,4612.50,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00042,5493587120014,25014,2572,SECADOR PLASTICO DOBLE GOMA 40CM,4,2111.60,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00043,5493587120015,25015,FS-701,ESCOBILLON CERDA LISO,2,5725.09,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00044,5493587120015,25015,3410,DETERGENTE ALBO 5LT,1,7001.88,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00044,5493587120015,25015,4200,LAVANDINA ALBO 1LTS,1,903.12,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00044,5493587120015,25015,B2510,JARDINERA N° 45,1,2972.70,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00044,5493587120015,25015,SND-2522,LAMPAZO BARRENDERO PREMIUM 0.60MT MEDIANO,5,19693.73,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00045,5493587120015,25015,160-12,Sahumerio empaste simple x100 LAVANDA,1,4596.96,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00046,5493587120016,25016,160-33,Sahumerio empaste simple x100 PALO SANTO,1,5408.19,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00047,5493587120016,25016,B3146,OLLA ALUMINIO N° 26,3,37825.68,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00047,5493587120016,25016,1828,ESCOBILLON CERDA LISO C/CABO,1,8288.28,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00047,5493587120016,25016,160-02,Sahumerio empaste simple x100 BENJUI,1,5408.19,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00047,5493587120016,25016,MK-6130,ABRELATA MARIPOSA MAKE,2,8432.28,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00048,5493587120016,25016,1828,ESCOBILLON CERDA LISO C/CABO,4,8288.28,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00048,5493587120016,25016,7000,PALA RESIDUOS CLIP COMUN,4,886.22,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00048,5493587120016,25016,FS-2021,ESCOBA EUROPA FS,5,3985.03,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00049,5493587120017,25017,7004,PALA RESIDUOS C/CABO ECONOMICA,1,1862.42,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00050,5493587120017,25017,LNN-248,BALDE C/ESCURRIDOR REDONDO 13LTS,1,7915.52,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00050,5493587120017,25017,MK-6127,ESCOBILLON 6 HILERAS,2,5750.01,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00051,5493587120017,25017,B2412,BALDE 12LTS M/PLASTICO FLORIDA 30X29CM,1,5837.17,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00051,5493587120017,25017,1830,ESCOBILLON CERDA BIGOTE C/CABO,2,11177.40,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00052,5493587120018,25018,1828,ESCOBILLON CERDA LISO C/CABO,5,7459.45,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00052,5493587120018,25018,B3146,OLLA ALUMINIO N° 26,2,34043.11,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00052,5493587120018,25018,B2490,MACETA COLOR N° 10,1,581.03,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00053,5493587120018,25018,B3250,OLLA ALUMINIO GASTRONOMICA N° 50 - 100 LTS,3,243549.43,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00053,5493587120018,25018,LNN-183,BALDE 10LTS M/PLASTICO ECONOMICO 24X28CM,3,2580.36,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00054,5493587120018,25018,B3140,OLLA ALUMINIO N° 20,5,21222.02,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00054,5493587120018,25018,SND-2522,LAMPAZO BARRENDERO PREMIUM 0.60MT MEDIANO,5,20852.19,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00054,5493587120018,25018,B3150,OLLA ALUMINIO N° 30,1,46088.22,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00054,5493587120018,25018,SND-2523,LAMPAZO BARRENDERO PREMIUM 0.80MT GRANDE,3,23389.06,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00055,5493587120019,25019,432D-10,Sahumerio triple empaste x10 LAVANDA,5,1055.09,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00056,5493587120019,25019,1521,LAMPAZO BARRENDERO 0.40MT CHICO,3,7101.66,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00057,5493587120019,25019,B2533,ORGANIZADOR C/TAPA 10LTS,4,6163.59,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00057,5493587120019,25019,ALB-1001,JABON LIQ B/E SUND VERDE T/ARIEL 20 LTS,3,15546.50,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00057,5493587120019,25019,150-02,Sahumerio empaste simple x15 BENJUI,3,893.77,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00057,5493587120019,25019,7416,PAÑO ABSORBENTE REJILLA SUND -OFERTA,1,552.37,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00058,5493587120020,25020,MK-70014,PRACTI DUO,1,22264.97,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00058,5493587120020,25020,4204,LAVANDINA ALBO 5LTS,5,4500.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00059,5493587120020,25020,3408,DETERGENTE ALBO 750CC,3,1114.27,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00059,5493587120020,25020,1830,ESCOBILLON CERDA BIGOTE C/CABO,5,9719.48,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00060,5493587120020,25020,1421,ESCOBITA INFANTIL,5,5125.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00060,5493587120020,25020,MK-6127,ESCOBILLON 6 HILERAS,3,5000.01,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00061,5493587120021,25021,A2470,ABRELATA MANIJA LOEKEMEYER,2,13064.18,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00062,5493587120021,25021,ALB-1001,JABON LIQ B/E SUND VERDE T/ARIEL 20 LTS,3,21033.50,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00062,5493587120021,25021,8030,TRAPO PISO MT CONSORCIO BLANCO 60*70,4,4247.39,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00062,5493587120021,25021,7000,PALA RESIDUOS CLIP COMUN,2,1019.15,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00063,5493587120021,25021,072-25,Veloncito aromático 5x3.5 PALO SANTO,2,2004.45,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00063,5493587120021,25021,1830,ESCOBILLON CERDA BIGOTE C/CABO,1,11177.40,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00064,5493587120022,25022,SND-2524,LAMPAZO BARRENDERO PREMIUM 1.00MT,2,25680.56,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00064,5493587120022,25022,B3150,OLLA ALUMINIO N° 30,1,46088.22,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00065,5493587120022,25022,FS-2035,ESCOBILLON BARREGRUESO,2,5510.26,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00065,5493587120022,25022,432D-10,Sahumerio triple empaste x10 LAVANDA,4,1117.15,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00066,5493587120022,25022,072-10,Veloncito aromático 5x3.5 LAVANDA,1,1568.70,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00066,5493587120022,25022,MK-6585,ABRELATA MANIJA MAKE,1,10006.62,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00066,5493587120022,25022,B2533,ORGANIZADOR C/TAPA 10LTS,1,6526.15,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00067,5493587120023,25023,FS-2021,ESCOBA EUROPA FS,2,3387.28,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00067,5493587120023,25023,150-02,Sahumerio empaste simple x15 BENJUI,3,893.77,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00068,5493587120023,25023,B2530,ORGANIZADOR C/TAPA 18LTS,5,10555.54,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00068,5493587120023,25023,072-10,Veloncito aromático 5x3.5 LAVANDA,4,1481.55,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00068,5493587120023,25023,FS-2035,ESCOBILLON BARREGRUESO,3,5204.13,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00068,5493587120023,25023,1523,LAMPAZO BARRENDERO 0.80MT GRANDE,4,10087.14,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00069,5493587120023,25023,SND-2524,LAMPAZO BARRENDERO PREMIUM 1.00MT,1,24253.86,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00069,5493587120023,25023,160-12,Sahumerio empaste simple x100 LAVANDA,5,4596.96,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00069,5493587120023,25023,SND-568,REJILLA LAVA-VAJILLA SUN-D 38X48CM,5,1025.67,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00070,5493587120024,25024,FS-2021,ESCOBA EUROPA FS,2,3985.03,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00071,5493587120024,25024,1608,CABO MADERA C/ROSCA P/BARRENDERO,2,2998.74,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00071,5493587120024,25024,1600,CABO MADERA C/ROSCA,2,1552.88,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00071,5493587120024,25024,4200,LAVANDINA ALBO 1LTS,1,1062.50,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00071,5493587120024,25024,160-33,Sahumerio empaste simple x100 PALO SANTO,5,5408.19,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00072,5493587120024,25024,1523,LAMPAZO BARRENDERO 0.80MT GRANDE,4,11867.22,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00073,5493587120025,25025,FS-2021,ESCOBA EUROPA FS,4,4582.78,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00073,5493587120025,25025,051-39,Esencia para hornillo PALO SANTO,4,1532.02,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00073,5493587120025,25025,FS-2020,ESCOBA AMERICA FS,1,4119.29,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00074,5493587120025,25025,LNN-183,BALDE 10LTS M/PLASTICO ECONOMICO 24X28CM,2,3297.13,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00074,5493587120025,25025,FS-701,ESCOBILLON CERDA LISO,2,7745.71,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00074,5493587120025,25025,1607,CABO MADERA C/ROSCA 1.20MTS PINO,3,1785.81,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00074,5493587120025,25025,FS-2021,ESCOBA EUROPA FS,1,4582.78,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00075,5493587120025,25025,1416,ESCOBA 5 HILOS MEZCLA,5,9626.45,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00075,5493587120025,25025,B3140,OLLA ALUMINIO N° 20,5,27117.02,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00075,5493587120025,25025,FS-2021,ESCOBA EUROPA FS,5,4582.78,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00075,5493587120025,25025,160-12,Sahumerio empaste simple x100 LAVANDA,5,6219.42,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00076,5493587120026,25026,4204,LAVANDINA ALBO 5LTS,3,4050.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00077,5493587120026,25026,1950,CABO MADERA P/SOPAPA,4,507.38,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00077,5493587120026,25026,1607,CABO MADERA C/ROSCA 1.20MTS PINO,5,1397.59,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00077,5493587120026,25026,MK-6252,TRAPO PISO MAKE BLANCO 48X60,1,1514.62,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00078,5493587120026,25026,LNN-248,BALDE C/ESCURRIDOR REDONDO 13LTS,5,6194.75,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00078,5493587120026,25026,FL-911,MACETA BOWL COLGANTE C/GANCHO Nº19,4,1564.56,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00078,5493587120026,25026,ALB-1001,JABON LIQ B/E SUND VERDE T/ARIEL 20 LTS,1,16461.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00079,5493587120027,25027,1523,LAMPAZO BARRENDERO 0.80MT GRANDE,5,10087.14,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00079,5493587120027,25027,MK-6585,ABRELATA MANIJA MAKE,2,9450.70,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00079,5493587120027,25027,432D-10,Sahumerio triple empaste x10 LAVANDA,2,1055.09,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00080,5493587120027,25027,B2531,ORGANIZADOR C/TAPA 30LTS,5,16897.79,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00080,5493587120027,25027,1604,CABO MADERA C/ROSCA 1.50MTS,4,1698.94,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00080,5493587120027,25027,1828,ESCOBILLON CERDA LISO C/CABO,3,7045.04,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00080,5493587120027,25027,MK-6127,ESCOBILLON 6 HILERAS,4,4250.01,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00081,5493587120027,25027,1523,LAMPAZO BARRENDERO 0.80MT GRANDE,5,10087.14,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00081,5493587120027,25027,2600,"SOPAPA GOMA 4""",1,1355.66,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00081,5493587120027,25027,LNN-183,BALDE 10LTS M/PLASTICO ECONOMICO 24X28CM,2,2437.01,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00081,5493587120027,25027,B2515,JARDINERA N° 65,3,9497.99,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00082,5493587120028,25028,B2531,ORGANIZADOR C/TAPA 30LTS,4,19879.75,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00083,5493587120028,25028,PTB-20144622,SARTEN TEFLON RECTA C/TAPA PARIS Nº22,1,34879.03,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00084,5493587120028,25028,FS-2035,ESCOBILLON BARREGRUESO,1,6122.51,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00084,5493587120028,25028,072-25,Veloncito aromático 5x3.5 PALO SANTO,1,1743.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00084,5493587120028,25028,1604,CABO MADERA C/ROSCA 1.50MTS,5,1998.75,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00084,5493587120028,25028,1521,LAMPAZO BARRENDERO 0.40MT CHICO,1,8354.89,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00085,5493587120029,25029,1523,LAMPAZO BARRENDERO 0.80MT GRANDE,4,13647.30,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00085,5493587120029,25029,B2515,JARDINERA N° 65,5,12850.22,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00085,5493587120029,25029,FS-2040,SECADOR DOPPIO BLANCO 41CM,1,4797.43,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00085,5493587120029,25029,MK-6127,ESCOBILLON 6 HILERAS,3,5750.01,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00086,5493587120029,25029,1830,ESCOBILLON CERDA BIGOTE C/CABO,5,11177.40,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00086,5493587120029,25029,2600,"SOPAPA GOMA 4""",5,1834.13,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00086,5493587120029,25029,1810,BARREHOJA PLASTICO COMUN,3,1390.92,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00086,5493587120029,25029,FS-2021,ESCOBA EUROPA FS,1,4582.78,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00087,5493587120029,25029,B2510,JARDINERA N° 45,1,4021.89,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00087,5493587120029,25029,B2530,ORGANIZADOR C/TAPA 18LTS,5,14281.02,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00087,5493587120029,25029,IDI25,DESENGRASANTE MULTIUSO 5LTS,2,11391.30,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00087,5493587120029,25029,1828,ESCOBILLON CERDA LISO C/CABO,1,9531.52,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00088,5493587120030,25030,LNN-183,BALDE 10LTS M/PLASTICO ECONOMICO 24X28CM,5,2580.36,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00088,5493587120030,25030,FS-2021,ESCOBA EUROPA FS,2,3586.53,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00088,5493587120030,25030,B2515,JARDINERA N° 65,1,10056.69,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00088,5493587120030,25030,B2530,ORGANIZADOR C/TAPA 18LTS,4,11176.45,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00089,5493587120030,25030,SND-569,REJILLA AMERICANA SUN-D 35X43CM,5,708.92,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00089,5493587120030,25030,1828,ESCOBILLON CERDA LISO C/CABO,1,7459.45,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00090,5493587120030,25030,FS-702,ESCOBILLON CERDA BIGOTE,3,7349.94,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00090,5493587120030,25030,1950,CABO MADERA P/SOPAPA,2,507.38,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00091,5493587120031,25031,MEL-04,ALCOHOL GEL FRAU 500ML,5,2091.00,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00091,5493587120031,25031,B2515,JARDINERA N° 65,3,9497.99,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00091,5493587120031,25031,FS-2021,ESCOBA EUROPA FS,2,3387.28,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00092,5493587120031,25031,B3248,OLLA ALUMINIO GASTRONOMICA N° 40 - 50 LTS,4,145166.09,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00093,5493587120031,25031,PTB-0327899038,ASADERA TEFLON VERMONT SET X 3,5,69722.42,4,Pedido: 5 unidad (normalizado: 15 unidad; equiv: 5 unidad),true,false,false
+P-00093,5493587120031,25031,B3248,OLLA ALUMINIO GASTRONOMICA N° 40 - 50 LTS,1,145166.09,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00093,5493587120031,25031,1521,LAMPAZO BARRENDERO 0.40MT CHICO,5,7101.66,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00094,5493587120032,25032,B2515,JARDINERA N° 65,3,11174.10,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00094,5493587120032,25032,FS-2035,ESCOBILLON BARREGRUESO,2,6122.51,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00094,5493587120032,25032,432B-02,Sahumerio triple empaste x50 BENJUI,5,4124.50,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00094,5493587120032,25032,1522,LAMPAZO BARRENDERO 0.60MT MEDIANO,2,10068.10,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00095,5493587120032,25032,1828,ESCOBILLON CERDA LISO C/CABO,4,8288.28,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00095,5493587120032,25032,FS-2021,ESCOBA EUROPA FS,1,3985.03,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00095,5493587120032,25032,MK-40N,SECADOR GOMA NEGRO 40CM MAKE REFORZADO,4,3432.58,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00095,5493587120032,25032,LNN-248,BALDE C/ESCURRIDOR REDONDO 13LTS,3,6883.06,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00096,5493587120032,25032,FL-911,MACETA BOWL COLGANTE C/GANCHO Nº19,3,1738.40,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00097,5493587120033,25033,B3248,OLLA ALUMINIO GASTRONOMICA N° 40 - 50 LTS,1,196401.19,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00097,5493587120033,25033,FS-2021,ESCOBA EUROPA FS,2,4582.78,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00097,5493587120033,25033,PTB-20510726,SARTEN TEFLON C/TAPA VIDRIO PARIS ROJO Nº26,3,82014.66,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00097,5493587120033,25033,LNN-2460,BALDE C/ESC Y MOPA OVAL 16LTS COLORES 25X39CM,1,17785.19,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00098,5493587120033,25033,072-25,Veloncito aromático 5x3.5 PALO SANTO,3,2004.45,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00099,5493587120033,25033,1607,CABO MADERA C/ROSCA 1.20MTS PINO,4,1785.81,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00100,5493587120034,25034,MK-6127,ESCOBILLON 6 HILERAS,1,4500.01,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00101,5493587120034,25034,IDI25,DESENGRASANTE MULTIUSO 5LTS,1,8914.93,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00102,5493587120034,25034,MEL-04,ALCOHOL GEL FRAU 500ML,2,2214.00,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00102,5493587120034,25034,7004,PALA RESIDUOS C/CABO ECONOMICA,5,1457.55,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00102,5493587120034,25034,1421,ESCOBITA INFANTIL,4,4612.50,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00102,5493587120034,25034,IDI25,DESENGRASANTE MULTIUSO 5LTS,2,8914.93,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00103,5493587120035,25035,100P-5,Sahumerio tibetano x8 SUPER PALO SANTO,2,3168.32,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00103,5493587120035,25035,1600,CABO MADERA C/ROSCA,3,1319.95,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00103,5493587120035,25035,FS-2040,SECADOR DOPPIO BLANCO 41CM,3,3545.93,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00103,5493587120035,25035,4204,LAVANDINA ALBO 5LTS,3,3825.00,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00104,5493587120035,25035,B3150,OLLA ALUMINIO N° 30,5,43527.76,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00104,5493587120035,25035,SND-2521,LAMPAZO BARRENDERO PREMIUM 0.40MT CHICO,5,16846.49,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00104,5493587120035,25035,8030,TRAPO PISO MT CONSORCIO BLANCO 60*70,4,3139.37,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00105,5493587120035,25035,A2470,ABRELATA MANIJA LOEKEMEYER,4,9656.14,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00106,5493587120036,25036,B3250,OLLA ALUMINIO GASTRONOMICA N° 50 - 100 LTS,1,270610.48,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00107,5493587120036,25036,B3146,OLLA ALUMINIO N° 26,3,37825.68,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00107,5493587120036,25036,MK-6127,ESCOBILLON 6 HILERAS,3,5000.01,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00107,5493587120036,25036,SND-569,REJILLA AMERICANA SUN-D 35X43CM,3,787.69,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00108,5493587120036,25036,MK-6127,ESCOBILLON 6 HILERAS,1,5000.01,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00108,5493587120036,25036,8030,TRAPO PISO MT CONSORCIO BLANCO 60*70,1,3693.38,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00108,5493587120036,25036,FS-2035,ESCOBILLON BARREGRUESO,4,6122.51,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00108,5493587120036,25036,B3150,OLLA ALUMINIO N° 30,5,51209.13,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00109,5493587120037,25037,FL-911,MACETA BOWL COLGANTE C/GANCHO Nº19,5,1999.16,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00110,5493587120037,25037,2600,"SOPAPA GOMA 4""",4,1834.13,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00111,5493587120037,25037,PTB-0327806002,ASADERA TEFLON VERMONT 28CM,3,28193.70,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00111,5493587120037,25037,160-12,Sahumerio empaste simple x100 LAVANDA,5,6219.42,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00111,5493587120037,25037,A2472,ABRELATA MARIPOSA LOEKEMEYER,1,7715.92,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00111,5493587120037,25037,B2533,ORGANIZADOR C/TAPA 10LTS,2,8338.97,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00112,5493587120038,25038,100P-5,Sahumerio tibetano x8 SUPER PALO SANTO,3,3354.69,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00112,5493587120038,25038,SND-2523,LAMPAZO BARRENDERO PREMIUM 0.80MT GRANDE,2,23389.06,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00112,5493587120038,25038,432D-10,Sahumerio triple empaste x10 LAVANDA,3,1117.15,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00113,5493587120038,25038,432D-10,Sahumerio triple empaste x10 LAVANDA,1,1117.15,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00113,5493587120038,25038,B3250,OLLA ALUMINIO GASTRONOMICA N° 50 - 100 LTS,4,243549.43,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00114,5493587120038,25038,A2472,ABRELATA MARIPOSA LOEKEMEYER,2,6038.55,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00114,5493587120038,25038,B5122,ASADERA ENLOZ SALPICADA N°2 21X30CM,2,4706.42,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00115,5493587120039,25039,B5122,ASADERA ENLOZ SALPICADA N°2 21X30CM,3,4444.96,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00116,5493587120039,25039,051-39,Esencia para hornillo PALO SANTO,4,1132.36,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00117,5493587120039,25039,SND-2524,LAMPAZO BARRENDERO PREMIUM 1.00MT,1,24253.86,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00117,5493587120039,25039,2572,SECADOR PLASTICO DOBLE GOMA 40CM,5,1994.29,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00117,5493587120039,25039,PTB-20510726,SARTEN TEFLON C/TAPA VIDRIO PARIS ROJO Nº26,5,60619.54,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00117,5493587120039,25039,1407,ESCOBA 7 HILOS IMPERIAL,2,10019.38,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00118,5493587120040,25040,432D-10,Sahumerio triple empaste x10 LAVANDA,3,1241.28,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00118,5493587120040,25040,1828,ESCOBILLON CERDA LISO C/CABO,5,8288.28,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00119,5493587120040,25040,PTB-0327899038,ASADERA TEFLON VERMONT SET X 3,5,82026.38,1,Pedido: 5 unidad (normalizado: 15 unidad; equiv: 5 unidad),true,false,false
+P-00120,5493587120040,25040,1950,CABO MADERA P/SOPAPA,1,563.75,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00120,5493587120040,25040,SND-2521,LAMPAZO BARRENDERO PREMIUM 0.40MT CHICO,5,19819.40,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00120,5493587120040,25040,1414,ESCOBA 6 HILOS ESPECIAL,3,10250.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00120,5493587120040,25040,1523,LAMPAZO BARRENDERO 0.80MT GRANDE,3,11867.22,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5493587120041,0,B2412,BALDE 12LTS M/PLASTICO FLORIDA 30X29CM,3,5837.17,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5493587120041,0,MEL-04,ALCOHOL GEL FRAU 500ML,2,2829.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00122,5493587120041,0,MK-6252,TRAPO PISO MAKE BLANCO 48X60,2,1935.35,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00122,5493587120041,0,PTB-0327806002,ASADERA TEFLON VERMONT 28CM,1,28193.70,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00122,5493587120041,0,MK-70014,PRACTI DUO,3,25604.72,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00123,5493587120041,0,FS-2040,SECADOR DOPPIO BLANCO 41CM,2,4797.43,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00124,5493587120042,0,051-39,Esencia para hornillo PALO SANTO,3,1198.97,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00125,5493587120042,0,MK-6130,ABRELATA MARIPOSA MAKE,2,7589.05,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00125,5493587120042,0,3410,DETERGENTE ALBO 5LT,5,7413.75,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00126,5493587120042,0,1414,ESCOBA 6 HILOS ESPECIAL,1,9225.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00126,5493587120042,0,1810,BARREHOJA PLASTICO COMUN,2,1088.55,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00127,5493587120043,0,1600,CABO MADERA C/ROSCA,4,1319.95,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00127,5493587120043,0,1416,ESCOBA 5 HILOS MEZCLA,1,7115.21,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00128,5493587120043,0,B2507,JARDINERA N° 35,5,2275.70,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00129,5493587120043,0,B3150,OLLA ALUMINIO N° 30,4,43527.76,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00129,5493587120043,0,7004,PALA RESIDUOS C/CABO ECONOMICA,2,1376.58,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00129,5493587120043,0,7416,PAÑO ABSORBENTE REJILLA SUND -OFERTA,5,552.37,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00129,5493587120043,0,MEL-04,ALCOHOL GEL FRAU 500ML,1,2091.00,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00130,5493587120044,0,MEL-04,ALCOHOL GEL FRAU 500ML,4,2460.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00130,5493587120044,0,SND-2523,LAMPAZO BARRENDERO PREMIUM 0.80MT GRANDE,4,25987.85,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00130,5493587120044,0,8026,TRAPO PISO BLANCO DURAMAS,5,1948.34,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00130,5493587120044,0,7004,PALA RESIDUOS C/CABO ECONOMICA,2,1619.50,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00131,5493587120044,0,MK-70014,PRACTI DUO,3,22264.97,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00132,5493587120044,0,B2530,ORGANIZADOR C/TAPA 18LTS,4,12418.28,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00132,5493587120044,0,1414,ESCOBA 6 HILOS ESPECIAL,5,10250.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00132,5493587120044,0,160-10,Sahumerio empaste simple x100 INCIENSO,1,5408.19,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00132,5493587120044,0,1810,BARREHOJA PLASTICO COMUN,4,1209.50,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00133,5493587120045,0,IDI25,DESENGRASANTE MULTIUSO 5LTS,4,11391.30,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00133,5493587120045,0,B3140,OLLA ALUMINIO N° 20,3,27117.02,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00133,5493587120045,0,1416,ESCOBA 5 HILOS MEZCLA,1,9626.45,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00134,5493587120045,0,1604,CABO MADERA C/ROSCA 1.50MTS,1,2298.56,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00134,5493587120045,0,B2515,JARDINERA N° 65,4,12850.22,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00135,5493587120045,0,LNN-183,BALDE 10LTS M/PLASTICO ECONOMICO 24X28CM,2,3297.13,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00136,5493587120046,0,160-33,Sahumerio empaste simple x100 PALO SANTO,5,4867.37,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00137,5493587120046,0,B2531,ORGANIZADOR C/TAPA 30LTS,2,17891.78,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00138,5493587120046,0,150-02,Sahumerio empaste simple x15 BENJUI,3,946.34,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00138,5493587120046,0,SND-2523,LAMPAZO BARRENDERO PREMIUM 0.80MT GRANDE,3,23389.06,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00138,5493587120046,0,1950,CABO MADERA P/SOPAPA,5,507.38,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00138,5493587120046,0,LNN-248,BALDE C/ESCURRIDOR REDONDO 13LTS,4,6194.75,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00139,5493587120047,0,MK-6252,TRAPO PISO MAKE BLANCO 48X60,3,1430.47,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00140,5493587120047,0,160-03,Sahumerio empaste simple x100 CANELA,2,4596.96,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00140,5493587120047,0,4204,LAVANDINA ALBO 5LTS,2,3825.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00140,5493587120047,0,1950,CABO MADERA P/SOPAPA,2,479.19,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00140,5493587120047,0,B2515,JARDINERA N° 65,2,9497.99,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00141,5493587120047,0,051-39,Esencia para hornillo PALO SANTO,1,1132.36,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00141,5493587120047,0,B2507,JARDINERA N° 35,2,2275.70,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00141,5493587120047,0,PTB-20510726,SARTEN TEFLON C/TAPA VIDRIO PARIS ROJO Nº26,2,60619.54,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00141,5493587120047,0,B3150,OLLA ALUMINIO N° 30,2,43527.76,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00142,5493587120048,0,1523,LAMPAZO BARRENDERO 0.80MT GRANDE,2,11867.22,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00142,5493587120048,0,LNN-183,BALDE 10LTS M/PLASTICO ECONOMICO 24X28CM,5,2867.07,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00143,5493587120048,0,072-10,Veloncito aromático 5x3.5 LAVANDA,5,1743.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00143,5493587120048,0,FL-904,MACETA COLOR N° 35,5,6275.05,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00144,5493587120048,0,1522,LAMPAZO BARRENDERO 0.60MT MEDIANO,2,10068.10,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00145,5493587120049,0,7000,PALA RESIDUOS CLIP COMUN,4,1019.15,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00145,5493587120049,0,160-03,Sahumerio empaste simple x100 CANELA,5,6219.42,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00146,5493587120049,0,FS-2035,ESCOBILLON BARREGRUESO,5,7040.89,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00146,5493587120049,0,SND-2524,LAMPAZO BARRENDERO PREMIUM 1.00MT,2,32814.04,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00147,5493587120049,0,1522,LAMPAZO BARRENDERO 0.60MT MEDIANO,1,11578.31,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00147,5493587120049,0,MK-6934,BALDE 10LTS M/PLASTICO BLACK MAKE,3,4312.61,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00147,5493587120049,0,160-33,Sahumerio empaste simple x100 PALO SANTO,2,6219.42,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00148,5493587120050,0,MK-70014,PRACTI DUO,5,20038.47,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00148,5493587120050,0,SND-569,REJILLA AMERICANA SUN-D 35X43CM,5,708.92,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00149,5493587120050,0,1522,LAMPAZO BARRENDERO 0.60MT MEDIANO,5,9061.29,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00149,5493587120050,0,B2533,ORGANIZADOR C/TAPA 10LTS,3,6526.15,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00149,5493587120050,0,B2530,ORGANIZADOR C/TAPA 18LTS,2,11176.45,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00149,5493587120050,0,1604,CABO MADERA C/ROSCA 1.50MTS,4,1798.88,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00150,5493587120050,0,FS-2021,ESCOBA EUROPA FS,5,3586.53,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00151,5493587120001,25001,A2472,ABRELATA MARIPOSA LOEKEMEYER,4,7715.92,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00151,5493587120001,25001,072-25,Veloncito aromático 5x3.5 PALO SANTO,3,2004.45,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00151,5493587120001,25001,MK-6934,BALDE 10LTS M/PLASTICO BLACK MAKE,1,4312.61,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00152,5493587120002,25002,1414,ESCOBA 6 HILOS ESPECIAL,3,9225.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00153,5493587120003,25003,FS-2035,ESCOBILLON BARREGRUESO,1,5204.13,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00154,5493587120004,25004,B3150,OLLA ALUMINIO N° 30,4,51209.13,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00154,5493587120004,25004,SND-2523,LAMPAZO BARRENDERO PREMIUM 0.80MT GRANDE,1,22089.67,1,Pedido: 1 unidad (normalizado: unidad; equiv: 1 unidad) - promo fase 2 lampazo premium SUNDE,true,true,true
+P-00154,5493587120004,25004,1416,ESCOBA 5 HILOS MEZCLA,4,8370.83,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00154,5493587120004,25004,A2472,ABRELATA MARIPOSA LOEKEMEYER,4,6709.50,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00155,5493587120005,25005,B2515,JARDINERA N° 65,1,12850.22,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00155,5493587120005,25005,1802,BARREHOJA METALICO REGULABLE,1,16078.24,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00155,5493587120005,25005,1414,ESCOBA 6 HILOS ESPECIAL,2,11787.50,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00155,5493587120005,25005,B3140,OLLA ALUMINIO N° 20,1,27117.02,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00156,5493587120006,25006,160-10,Sahumerio empaste simple x100 INCIENSO,4,4867.37,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00156,5493587120006,25006,1607,CABO MADERA C/ROSCA 1.20MTS PINO,5,1397.59,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00157,5493587120007,25007,FS-2040,SECADOR DOPPIO BLANCO 41CM,4,3545.93,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false

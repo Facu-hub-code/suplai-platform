@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2218,Calidad,open,"Reclamo por la olla del 50 (B3250, 100 litros) abollada / mal estado al recibir.",5493587120004,"Hola, la olla del 50 me llegó abollada. Es la grande, la de 100 litros. Quiero hacer el reclamo.",2026-08-31 11:15:00,,true
+TKT-2219,Calidad,open,Reclamo por escobillón de cerda (FS-701) con cerda suelta y faltante parcial.,5493587120016,"Hola, el escobillón de cerda me llegó con la cerda suelta y falta uno. Quiero hacer el reclamo.",2026-08-30 08:15:00,,true
+TKT-2220,Calidad,open,Reclamo por lampazo premium SUNDE 0.80 (SND-2523) manchado / en mal estado.,5493587120008,"Hola, me llegó el lampazo premium SUNDE del 80, el SND, manchado y quiero hacer el reclamo.",2026-08-29 05:15:00,,true
+TKT-2221,Logistica,open,Demora en la entrega del pedido P-00009 de ESCOBILLON BARREGRUESO.,5493587120003,"Buen dia, sigo esperando el pedido del escobillón barregrueso y no llegó el camión.",2026-08-31 02:15:00,,true
+TKT-2222,Logistica,open,Demora en la entrega del pedido de tres baldes lilas y uno amarillo (LNN-2460 oval 16L).,5493587120017,"Buen dia, pedí tres baldes lilas y uno amarillo, el oval de 16, y todavía no llegó.",2026-08-30 11:15:00,,true
+TKT-2223,Logistica,open,Demora en la entrega del pedido P-00057 de ORGANIZADOR C/TAPA 10LTS.,5493587120019,"Buen dia, sigo esperando los organizadores del pedido y no llegó el camión.",2026-08-29 08:15:00,,true
+TKT-2224,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Ferretería Banda Norte.,5493587120001,,2026-08-31 05:15:00,,true
+TKT-2225,Administracion,open,Solicita corregir datos administrativos de Casa de Limpieza Don Héctor en el sistema.,5493587120002,,2026-08-30 02:15:00,,true
+TKT-2226,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Súper Chang Las Higueras.,5493587120003,,2026-08-29 11:15:00,,true
+TKT-2227,Administracion,open,Solicita corregir datos administrativos de Distribuidora Sur Córdoba en el sistema.,5493587120005,,2026-08-31 08:15:00,,true
+TKT-2228,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Revendedor Las Higueras.,5493587120019,,2026-08-30 05:15:00,,true
+TKT-2229,Administracion,closed,Solicita corregir datos administrativos de Ferretería La Unión en el sistema.,5493587120041,,2026-08-15 05:15:00,2026-08-15 20:15:00,true
+TKT-2230,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Minimercado El Progreso.,5493587120042,,2026-08-14 11:15:00,2026-08-15 03:15:00,true
+TKT-2231,Logistica,closed,Demora en la entrega del pedido P-00129 de olla de aluminio N° 30 (cerrado: llegó al día siguiente).,5493587120043,,2026-08-13 09:15:00,2026-08-14 02:15:00,true
+TKT-2232,Calidad,closed,Reclamo por organizadores con tapa 18L rotos al recibir (cerrado: se reponía).,5493587120044,,2026-08-12 07:15:00,2026-08-13 01:15:00,true
+TKT-2233,Administracion,closed,Solicita corregir datos administrativos de Súper Chang Industrial en el sistema.,5493587120045,,2026-08-11 05:15:00,2026-08-12 00:15:00,true
+TKT-2234,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Minimercado El Cruce.,5493587120004,,2026-08-26 11:15:00,2026-08-27 07:15:00,true
+TKT-2235,Logistica,closed,Demora en la entrega del pedido P-00156 de sahumerio empaste simple x100 incienso (cerrado).,5493587120006,,2026-08-25 09:15:00,2026-08-26 06:15:00,true

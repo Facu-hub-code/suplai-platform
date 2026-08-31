@@ -1,0 +1,167 @@
+{
+  "modo": "demo",
+  "dominios": "mercadolibre.com.ar,easy.com.ar,sodimac.com.ar,coto.com.ar",
+  "sufijo_fallback": "articulos limpieza bazar mayorista argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS ADICIONALES PARA SUNDE (Río Cuarto, artículos de limpieza, bazar, jardín y sahumerios):\n1. TIPO OBLIGATORIO: Decí qué es (escoba, escobillón, cabo, lampazo, balde, olla, sahumerio, maceta, trapo, pala, secador).\n2. MARCA: SUNDE / SUN-D / SND para lampazos premium y rejillas propias. Make, Loekemeyer, Tramontina, Albo, Frau, Fraganss, Florencia solo si figuran en el nombre. No inventes otras marcas.\n3. JERGA DEL RUBRO: Incluí aliases que un PdV diría por WhatsApp: 'olla del 50', 'olla 50', 'escobillón de cerda', 'balde lila', 'balde amarillo', 'tres baldes', 'lampazo premium'.\n4. CERDA: Si el nombre dice CERDA, aclará que es de cerda. No inventes el uso (vereda vs interior) si no está en el nombre.\n5. LÍQUIDOS: SUNDE no los fabrica; son de terceros (Albo, Frau, PQR). No digas fabricación SUNDE en jabón, detergente o lavandina.\n6. NO ALUCINAR: No inventes litros, hilos, medidas ni materiales que no estén en el nombre. No destaqués La Gotita.\n7. ALIAS: Código + nombre corto + marca + sinónimos locales (escoba/escobita, lampazo/mopa, trapo de piso/rejilla).",
+  "fase_06": {
+    "historicos_por_cliente": 3,
+    "abiertos": 7,
+    "historicos_inicio": "2026-05-30",
+    "historicos_fin": "2026-08-29"
+  },
+  "fase_07": {
+    "clientes_live_feed": 12,
+    "clientes_quejas": 5
+  },
+  "fase_08": {
+    "total_tickets": 18,
+    "open_ratio": 0.6,
+    "open_quality": 3,
+    "open_logistics": 3,
+    "fecha_base": "2026-08-31",
+    "hora_base": 11,
+    "minuto_base": 15
+  },
+  "red_comercial": {
+    "coordenadas_centro": [-33.1301, -64.3499],
+    "vendedores": [
+      {
+        "nombre": "Mariano Roldán",
+        "telefono": "5493587128411",
+        "email": "mariano.roldan@suplaisales.mock",
+        "zona": "NORTE",
+        "codigo_ruta": "R01"
+      },
+      {
+        "nombre": "Héctor Sosa",
+        "telefono": "5493587128412",
+        "email": "hector.sosa@suplaisales.mock",
+        "zona": "SUR",
+        "codigo_ruta": "R02"
+      },
+      {
+        "nombre": "Paula Benítez",
+        "telefono": "5493587128413",
+        "email": "paula.benitez@suplaisales.mock",
+        "zona": "ESTE",
+        "codigo_ruta": "R03"
+      }
+    ],
+    "zonas": [
+      {
+        "nombre": "ZONA NOROESTE - Banda Norte",
+        "dia_visita": "lunes",
+        "color": "#E74C3C",
+        "codigo_ruta": "R01-A",
+        "zone_type": "sales",
+        "description": "Banda Norte y accesos por Ruta 8, Río Cuarto.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA NORTE - Las Higueras",
+        "dia_visita": "martes",
+        "color": "#3498DB",
+        "codigo_ruta": "R01-B",
+        "zone_type": "route",
+        "description": "Las Higueras, localidad contigua al norte.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA NORESTE - Barrio Alberdi",
+        "dia_visita": "miercoles",
+        "color": "#2ECC71",
+        "codigo_ruta": "R02-A",
+        "zone_type": "sales",
+        "description": "Barrio Alberdi y entorno de Av. Italia.",
+        "vendedor_idx": 2
+      },
+      {
+        "nombre": "ZONA SUROESTE - Barrio Industrial",
+        "dia_visita": "jueves",
+        "color": "#F39C12",
+        "codigo_ruta": "R02-B",
+        "zone_type": "route",
+        "description": "Barrio Industrial y accesos al parque industrial.",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA SUR - Banda Sur",
+        "dia_visita": "viernes",
+        "color": "#9B59B6",
+        "codigo_ruta": "R03-A",
+        "zone_type": "sales",
+        "description": "Banda Sur y vecinales al sur del río Cuarto.",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA SURESTE - Barrio Jardín",
+        "dia_visita": "sabado",
+        "color": "#1ABC9C",
+        "codigo_ruta": "R03-B",
+        "zone_type": "route",
+        "description": "Barrio Jardín y Residencial América.",
+        "vendedor_idx": 2
+      }
+    ],
+    "nombres_comerciales": [
+      "Ferretería Banda Norte",
+      "Casa de Limpieza Don Héctor",
+      "Súper Chang Las Higueras",
+      "Minimercado El Cruce",
+      "Distribuidora Sur Córdoba",
+      "Ferretería Alberdi",
+      "Autoservicio SUNDE Centro",
+      "Casa de Artículos El Lampazo",
+      "Súper Chino Av. Italia",
+      "Revendedor Holmberg",
+      "Ferretería Barrio Industrial",
+      "Minimercado Banda Sur",
+      "Casa de Limpieza La Escoba",
+      "Distribuidora San Luis Ruta",
+      "Súper Chang Barrio Jardín",
+      "Ferretería Don Santos",
+      "Almacén El Familiar",
+      "Casa de Limpieza Doña Rosa",
+      "Revendedor Las Higueras",
+      "Minimercado Sabattini",
+      "Ferretería El Tornillo",
+      "Súper Chino Fénix",
+      "Distribuidora La Pampa Interior",
+      "Casa de Limpieza El Gaucho",
+      "Autoservicio Vecinal Sur",
+      "Ferretería Ruta 8",
+      "Minimercado San Martín",
+      "Revendedor Neuquén Ruta 3",
+      "Casa de Artículos El Balde",
+      "Súper Chang Alberdi",
+      "Ferretería Los Andes",
+      "Almacén Don Pedro",
+      "Distribuidora Caleta",
+      "Casa de Limpieza La Cerda",
+      "Minimercado Barrio Jardín",
+      "Ferretería El Portal",
+      "Súper Chino Banda Norte",
+      "Revendedor Sampacho",
+      "Casa de Limpieza El Quebracho",
+      "Autoservicio Italia",
+      "Ferretería La Unión",
+      "Minimercado El Progreso",
+      "Distribuidora El Encuentro",
+      "Casa de Artículos El Cabo",
+      "Súper Chang Industrial",
+      "Ferretería Don Mario",
+      "Almacén La Esquina",
+      "Revendedor Adelia María",
+      "Casa de Limpieza El Sauce",
+      "Minimercado Las Flores",
+      "Ferretería El Molino",
+      "Súper Chino Residencial",
+      "Distribuidora El Pionero",
+      "Casa de Limpieza La Criolla",
+      "Autoservicio Banda Norte",
+      "Ferretería Don Roberto",
+      "Minimercado La Arboleda"
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5493587120001,5493587120001,ai,ai,"Hola Ferretería Banda Norte, vi que tenes un pedido abierto por ABRELATA MARIPOSA LOEKEMEYER y queria ayudarte a cerrarlo.","Hola Ferretería Banda Norte, vi que tenes un pedido abierto por ABRELATA MARIPOSA LOEKEMEYER y queria ayudarte a cerrarlo.",2026-08-31 04:39:02,true
+5493587120001,5493587120001,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-08-31 04:39:48,true
+5493587120001,5493587120001,ai,ai,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,2026-08-31 04:41:06,true
+5493587120001,5493587120001,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-31 04:42:56,true
+5493587120001,5493587120001,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-31 04:43:29,true
+5493587120002,5493587120002,ai,ai,"Hola Casa de Limpieza Don Héctor, vi que tenes un pedido abierto por ESCOBA 6 HILOS ESPECIAL y queria ayudarte a cerrarlo.","Hola Casa de Limpieza Don Héctor, vi que tenes un pedido abierto por ESCOBA 6 HILOS ESPECIAL y queria ayudarte a cerrarlo.",2026-08-31 03:39:02,true
+5493587120002,5493587120002,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-08-31 03:40:41,true
+5493587120002,5493587120002,ai,ai,Gracias por avisarnos. Ya tomo el caso por producto roto o derramado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por producto roto o derramado y lo escalo para revision.,2026-08-31 03:42:02,true
+5493587120002,5493587120002,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-31 03:42:49,true
+5493587120002,5493587120002,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-31 03:43:39,true
+5493587120003,5493587120003,ai,ai,"Hola Súper Chang Las Higueras, vi que tenes un pedido abierto por ESCOBILLON BARREGRUESO y queria ayudarte a cerrarlo.","Hola Súper Chang Las Higueras, vi que tenes un pedido abierto por ESCOBILLON BARREGRUESO y queria ayudarte a cerrarlo.",2026-08-31 14:39:02,true
+5493587120003,5493587120003,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-31 14:39:53,true
+5493587120003,5493587120003,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-31 14:40:28,true
+5493587120003,5493587120003,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-31 14:41:55,true
+5493587120003,5493587120003,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-31 14:42:28,true
+5493587120004,5493587120004,ai,ai,"Hola Minimercado El Cruce, vi que tenes un pedido abierto por OLLA ALUMINIO N° 30 y queria ayudarte a cerrarlo.","Hola Minimercado El Cruce, vi que tenes un pedido abierto por OLLA ALUMINIO N° 30 y queria ayudarte a cerrarlo.",2026-08-31 13:39:02,true
+5493587120004,5493587120004,human,human,"Buen día, la olla del 50 me la pasás? Es la grande, la de 100 litros.","Hola, queria hacer un reclamo por producto roto o derramado.",2026-08-31 13:40:37,true
+5493587120004,5493587120004,ai,ai,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por error de facturacion y lo escalo para revision.,2026-08-31 13:42:07,true
+5493587120004,5493587120004,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-31 13:44:07,true
+5493587120004,5493587120004,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-31 13:45:14,true
+5493587120005,5493587120005,ai,ai,"Hola Distribuidora Sur Córdoba, vi que tenes un pedido abierto por JARDINERA N° 65 y queria ayudarte a cerrarlo.","Hola Distribuidora Sur Córdoba, vi que tenes un pedido abierto por JARDINERA N° 65 y queria ayudarte a cerrarlo.",2026-08-31 12:39:02,true
+5493587120005,5493587120005,human,human,"Hola, queria hacer un reclamo por precio distinto al acordado.","Hola, queria hacer un reclamo por precio distinto al acordado.",2026-08-31 12:40:33,true
+5493587120005,5493587120005,ai,ai,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,2026-08-31 12:41:08,true
+5493587120005,5493587120005,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-31 12:42:40,true
+5493587120005,5493587120005,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-31 12:43:48,true
+5493587120006,5493587120006,ai,ai,"Hola Ferretería Alberdi, vi que tenes un pedido abierto por Sahumerio empaste simple x100 INCIENSO y queria ayudarte a cerrarlo.","Hola Ferretería Alberdi, vi que tenes un pedido abierto por Sahumerio empaste simple x100 INCIENSO y queria ayudarte a cerrarlo.",2026-08-31 11:39:02,true
+5493587120006,5493587120006,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-31 11:40:59,true
+5493587120006,5493587120006,ai,ai,Te confirmo que el pedido P-00156 sigue en curso por un total de 26457.43. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00156 sigue en curso por un total de 26457.43. Si queres te lo dejo cerrado hoy.,2026-08-31 11:42:15,true
+5493587120006,5493587120006,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-31 11:44:10,true
+5493587120006,5493587120006,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-31 11:45:36,true
+5493587120007,5493587120007,ai,ai,"Hola Autoservicio SUNDE Centro, vi que tenes un pedido abierto por SECADOR DOPPIO BLANCO 41CM y queria ayudarte a cerrarlo.","Hola Autoservicio SUNDE Centro, vi que tenes un pedido abierto por SECADOR DOPPIO BLANCO 41CM y queria ayudarte a cerrarlo.",2026-08-31 10:39:02,true
+5493587120007,5493587120007,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-31 10:39:58,true
+5493587120007,5493587120007,ai,ai,Te confirmo que el pedido P-00157 sigue en curso por un total de 14183.72. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00157 sigue en curso por un total de 14183.72. Si queres te lo dejo cerrado hoy.,2026-08-31 10:41:17,true
+5493587120007,5493587120007,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-31 10:42:43,true
+5493587120007,5493587120007,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-31 10:44:09,true
+5493587120008,5493587120008,ai,ai,"Hola Casa de Artículos El Lampazo, paso a revisar tu pedido P-00024 de SECADOR DOPPIO BLANCO 41CM.","Hola Casa de Artículos El Lampazo, paso a revisar tu pedido P-00024 de SECADOR DOPPIO BLANCO 41CM.",2026-08-29 12:39:02,true
+5493587120008,5493587120008,human,human,Tenés el lampazo premium SUNDE del 80? El SND.,"Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 12:40:13,true
+5493587120008,5493587120008,ai,ai,Te confirmo que el pedido P-00024 fue registrado correctamente por 98200.08.,Te confirmo que el pedido P-00024 fue registrado correctamente por 98200.08.,2026-08-29 12:41:27,true
+5493587120008,5493587120008,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 12:42:55,true
+5493587120009,5493587120009,ai,ai,"Hola Súper Chino Av. Italia, paso a revisar tu pedido P-00027 de LAMPAZO BARRENDERO PREMIUM 0.60MT MEDIANO.","Hola Súper Chino Av. Italia, paso a revisar tu pedido P-00027 de LAMPAZO BARRENDERO PREMIUM 0.60MT MEDIANO.",2026-08-30 11:39:02,true
+5493587120009,5493587120009,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 11:40:17,true
+5493587120009,5493587120009,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 59302.27.,Te confirmo que el pedido P-00027 fue registrado correctamente por 59302.27.,2026-08-30 11:41:42,true
+5493587120009,5493587120009,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 11:42:39,true
+5493587120010,5493587120010,ai,ai,"Hola Revendedor Holmberg, paso a revisar tu pedido P-00029 de ALCOHOL GEL FRAU 500ML.","Hola Revendedor Holmberg, paso a revisar tu pedido P-00029 de ALCOHOL GEL FRAU 500ML.",2026-08-29 10:39:02,true
+5493587120010,5493587120010,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 10:40:25,true
+5493587120010,5493587120010,ai,ai,Te confirmo que el pedido P-00029 fue registrado correctamente por 52471.80.,Te confirmo que el pedido P-00029 fue registrado correctamente por 52471.80.,2026-08-29 10:41:36,true
+5493587120010,5493587120010,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 10:43:02,true
+5493587120011,5493587120011,ai,ai,"Hola Ferretería Barrio Industrial, paso a revisar tu pedido P-00032 de LAMPAZO BARRENDERO 0.80MT GRANDE.","Hola Ferretería Barrio Industrial, paso a revisar tu pedido P-00032 de LAMPAZO BARRENDERO 0.80MT GRANDE.",2026-08-30 14:39:02,true
+5493587120011,5493587120011,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 14:40:30,true
+5493587120011,5493587120011,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 50435.70.,Te confirmo que el pedido P-00032 fue registrado correctamente por 50435.70.,2026-08-30 14:41:54,true
+5493587120011,5493587120011,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 14:42:34,true
+5493587120012,5493587120012,ai,ai,"Hola Minimercado Banda Sur, paso a revisar tu pedido P-00034 de LAMPAZO BARRENDERO PREMIUM 0.80MT GRANDE.","Hola Minimercado Banda Sur, paso a revisar tu pedido P-00034 de LAMPAZO BARRENDERO PREMIUM 0.80MT GRANDE.",2026-08-29 13:39:02,true
+5493587120012,5493587120012,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 13:40:40,true
+5493587120012,5493587120012,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 63865.70.,Te confirmo que el pedido P-00034 fue registrado correctamente por 63865.70.,2026-08-29 13:41:54,true
+5493587120012,5493587120012,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 13:43:11,true
+5493587120013,5493587120013,ai,ai,"Hola Casa de Limpieza La Escoba, paso a revisar tu pedido P-00037 de Sahumerio empaste simple x100 CANELA.","Hola Casa de Limpieza La Escoba, paso a revisar tu pedido P-00037 de Sahumerio empaste simple x100 CANELA.",2026-08-30 12:39:02,true
+5493587120013,5493587120013,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 12:40:47,true
+5493587120013,5493587120013,ai,ai,Te confirmo que el pedido P-00037 fue registrado correctamente por 76993.50.,Te confirmo que el pedido P-00037 fue registrado correctamente por 76993.50.,2026-08-30 12:41:58,true
+5493587120013,5493587120013,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 12:42:45,true
+5493587120014,5493587120014,ai,ai,"Hola Distribuidora San Luis Ruta, paso a revisar tu pedido P-00040 de ESCOBA AMERICA FS.","Hola Distribuidora San Luis Ruta, paso a revisar tu pedido P-00040 de ESCOBA AMERICA FS.",2026-08-29 11:39:02,true
+5493587120014,5493587120014,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 11:40:00,true
+5493587120014,5493587120014,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 70000.16.,Te confirmo que el pedido P-00040 fue registrado correctamente por 70000.16.,2026-08-29 11:40:40,true
+5493587120014,5493587120014,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 11:41:45,true
+5493587120015,5493587120015,ai,ai,"Hola Súper Chang Barrio Jardín, paso a revisar tu pedido P-00045 de Sahumerio empaste simple x100 LAVANDA.","Hola Súper Chang Barrio Jardín, paso a revisar tu pedido P-00045 de Sahumerio empaste simple x100 LAVANDA.",2026-08-30 10:39:02,true
+5493587120015,5493587120015,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 10:40:33,true
+5493587120015,5493587120015,ai,ai,Te confirmo que el pedido P-00045 fue registrado correctamente por 4596.96.,Te confirmo que el pedido P-00045 fue registrado correctamente por 4596.96.,2026-08-30 10:41:37,true
+5493587120015,5493587120015,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 10:42:48,true
+5493587120016,5493587120016,ai,ai,"Hola Ferretería Don Santos, paso a revisar tu pedido P-00048 de ESCOBILLON CERDA LISO C/CABO.","Hola Ferretería Don Santos, paso a revisar tu pedido P-00048 de ESCOBILLON CERDA LISO C/CABO.",2026-08-29 14:39:02,true
+5493587120016,5493587120016,human,human,"Necesito escobillón de cerda, pero es para interior no para la vereda.","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 14:40:10,true
+5493587120016,5493587120016,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 56623.15.,Te confirmo que el pedido P-00048 fue registrado correctamente por 56623.15.,2026-08-29 14:40:49,true
+5493587120016,5493587120016,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 14:42:15,true
+5493587120017,5493587120017,ai,ai,"Hola Almacén El Familiar, paso a revisar tu pedido P-00051 de BALDE 12LTS M/PLASTICO FLORIDA 30X29CM.","Hola Almacén El Familiar, paso a revisar tu pedido P-00051 de BALDE 12LTS M/PLASTICO FLORIDA 30X29CM.",2026-08-30 13:39:02,true
+5493587120017,5493587120017,human,human,"Mandame tres baldes lilas y uno amarillo, el oval de 16.","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 13:40:41,true
+5493587120017,5493587120017,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 28191.97.,Te confirmo que el pedido P-00051 fue registrado correctamente por 28191.97.,2026-08-30 13:41:57,true
+5493587120017,5493587120017,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 13:43:04,true
+5493587120018,5493587120018,ai,ai,"Hola Casa de Limpieza Doña Rosa, paso a revisar tu pedido P-00054 de OLLA ALUMINIO N° 20.","Hola Casa de Limpieza Doña Rosa, paso a revisar tu pedido P-00054 de OLLA ALUMINIO N° 20.",2026-08-29 12:39:02,true
+5493587120018,5493587120018,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 12:40:17,true
+5493587120018,5493587120018,ai,ai,Te confirmo que el pedido P-00054 fue registrado correctamente por 326626.45.,Te confirmo que el pedido P-00054 fue registrado correctamente por 326626.45.,2026-08-29 12:41:17,true
+5493587120018,5493587120018,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 12:42:38,true
+5493587120019,5493587120019,ai,ai,"Hola Revendedor Las Higueras, paso a revisar tu pedido P-00057 de ORGANIZADOR C/TAPA 10LTS.","Hola Revendedor Las Higueras, paso a revisar tu pedido P-00057 de ORGANIZADOR C/TAPA 10LTS.",2026-08-30 11:39:02,true
+5493587120019,5493587120019,human,human,"Hola, quería hacer un reclamo: los organizadores llegaron rotos.","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 11:40:23,true
+5493587120019,5493587120019,ai,ai,Te confirmo que el pedido P-00057 fue registrado correctamente por 74527.54.,Te confirmo que el pedido P-00057 fue registrado correctamente por 74527.54.,2026-08-30 11:40:54,true
+5493587120019,5493587120019,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 11:41:36,true
+5493587120020,5493587120020,ai,ai,"Hola Minimercado Sabattini, paso a revisar tu pedido P-00060 de ESCOBITA INFANTIL.","Hola Minimercado Sabattini, paso a revisar tu pedido P-00060 de ESCOBITA INFANTIL.",2026-08-29 10:39:02,true
+5493587120020,5493587120020,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 10:40:07,true
+5493587120020,5493587120020,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 40625.03.,Te confirmo que el pedido P-00060 fue registrado correctamente por 40625.03.,2026-08-29 10:41:06,true
+5493587120020,5493587120020,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 10:42:34,true
+5493587120021,5493587120021,ai,ai,"Hola Ferretería El Tornillo, paso a revisar tu pedido P-00063 de Veloncito aromático 5x3.5 PALO SANTO.","Hola Ferretería El Tornillo, paso a revisar tu pedido P-00063 de Veloncito aromático 5x3.5 PALO SANTO.",2026-08-30 14:39:02,true
+5493587120021,5493587120021,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 14:39:47,true
+5493587120021,5493587120021,ai,ai,Te confirmo que el pedido P-00063 fue registrado correctamente por 15186.30.,Te confirmo que el pedido P-00063 fue registrado correctamente por 15186.30.,2026-08-30 14:40:43,true
+5493587120021,5493587120021,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 14:41:24,true
+5493587120022,5493587120022,ai,ai,"Hola Súper Chino Fénix, paso a revisar tu pedido P-00066 de Veloncito aromático 5x3.5 LAVANDA.","Hola Súper Chino Fénix, paso a revisar tu pedido P-00066 de Veloncito aromático 5x3.5 LAVANDA.",2026-08-29 13:39:02,true
+5493587120022,5493587120022,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 13:39:52,true
+5493587120022,5493587120022,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 18101.47.,Te confirmo que el pedido P-00066 fue registrado correctamente por 18101.47.,2026-08-29 13:41:09,true
+5493587120022,5493587120022,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 13:41:41,true
+5493587120023,5493587120023,ai,ai,"Hola Distribuidora La Pampa Interior, paso a revisar tu pedido P-00068 de ORGANIZADOR C/TAPA 18LTS.","Hola Distribuidora La Pampa Interior, paso a revisar tu pedido P-00068 de ORGANIZADOR C/TAPA 18LTS.",2026-08-30 12:39:02,true
+5493587120023,5493587120023,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 12:40:12,true
+5493587120023,5493587120023,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 114664.85.,Te confirmo que el pedido P-00068 fue registrado correctamente por 114664.85.,2026-08-30 12:41:11,true
+5493587120023,5493587120023,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 12:42:28,true
+5493587120024,5493587120024,ai,ai,"Hola Casa de Limpieza El Gaucho, paso a revisar tu pedido P-00071 de CABO MADERA C/ROSCA P/BARRENDERO.","Hola Casa de Limpieza El Gaucho, paso a revisar tu pedido P-00071 de CABO MADERA C/ROSCA P/BARRENDERO.",2026-08-29 11:39:02,true
+5493587120024,5493587120024,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 11:39:58,true
+5493587120024,5493587120024,ai,ai,Te confirmo que el pedido P-00071 fue registrado correctamente por 37206.69.,Te confirmo que el pedido P-00071 fue registrado correctamente por 37206.69.,2026-08-29 11:40:29,true
+5493587120024,5493587120024,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 11:41:00,true
+5493587120025,5493587120025,ai,ai,"Hola Autoservicio Vecinal Sur, paso a revisar tu pedido P-00073 de ESCOBA EUROPA FS.","Hola Autoservicio Vecinal Sur, paso a revisar tu pedido P-00073 de ESCOBA EUROPA FS.",2026-08-30 10:39:02,true
+5493587120025,5493587120025,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 10:40:56,true
+5493587120025,5493587120025,ai,ai,Te confirmo que el pedido P-00073 fue registrado correctamente por 28578.49.,Te confirmo que el pedido P-00073 fue registrado correctamente por 28578.49.,2026-08-30 10:42:00,true
+5493587120025,5493587120025,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 10:42:59,true
+5493587120026,5493587120026,ai,ai,"Hola Ferretería Ruta 8, paso a revisar tu pedido P-00076 de LAVANDINA ALBO 5LTS.","Hola Ferretería Ruta 8, paso a revisar tu pedido P-00076 de LAVANDINA ALBO 5LTS.",2026-08-29 14:39:02,true
+5493587120026,5493587120026,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 14:39:52,true
+5493587120026,5493587120026,ai,ai,Te confirmo que el pedido P-00076 fue registrado correctamente por 12150.00.,Te confirmo que el pedido P-00076 fue registrado correctamente por 12150.00.,2026-08-29 14:40:31,true
+5493587120026,5493587120026,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 14:41:02,true
+5493587120027,5493587120027,ai,ai,"Hola Minimercado San Martín, paso a revisar tu pedido P-00079 de LAMPAZO BARRENDERO 0.80MT GRANDE.","Hola Minimercado San Martín, paso a revisar tu pedido P-00079 de LAMPAZO BARRENDERO 0.80MT GRANDE.",2026-08-30 13:39:02,true
+5493587120027,5493587120027,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 13:40:11,true
+5493587120027,5493587120027,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 71447.28.,Te confirmo que el pedido P-00079 fue registrado correctamente por 71447.28.,2026-08-30 13:41:34,true
+5493587120027,5493587120027,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 13:42:18,true
+5493587120028,5493587120028,ai,ai,"Hola Revendedor Neuquén Ruta 3, paso a revisar tu pedido P-00084 de ESCOBILLON BARREGRUESO.","Hola Revendedor Neuquén Ruta 3, paso a revisar tu pedido P-00084 de ESCOBILLON BARREGRUESO.",2026-08-29 12:39:02,true
+5493587120028,5493587120028,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 12:40:44,true
+5493587120028,5493587120028,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 26214.15.,Te confirmo que el pedido P-00084 fue registrado correctamente por 26214.15.,2026-08-29 12:41:20,true
+5493587120028,5493587120028,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 12:41:52,true
+5493587120029,5493587120029,ai,ai,"Hola Casa de Artículos El Balde, paso a revisar tu pedido P-00087 de JARDINERA N° 45.","Hola Casa de Artículos El Balde, paso a revisar tu pedido P-00087 de JARDINERA N° 45.",2026-08-30 11:39:02,true
+5493587120029,5493587120029,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 11:40:20,true
+5493587120029,5493587120029,ai,ai,Te confirmo que el pedido P-00087 fue registrado correctamente por 107741.11.,Te confirmo que el pedido P-00087 fue registrado correctamente por 107741.11.,2026-08-30 11:41:21,true
+5493587120029,5493587120029,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 11:42:17,true
+5493587120030,5493587120030,ai,ai,"Hola Súper Chang Alberdi, paso a revisar tu pedido P-00090 de ESCOBILLON CERDA BIGOTE.","Hola Súper Chang Alberdi, paso a revisar tu pedido P-00090 de ESCOBILLON CERDA BIGOTE.",2026-08-29 10:39:02,true
+5493587120030,5493587120030,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 10:40:00,true
+5493587120030,5493587120030,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 23064.58.,Te confirmo que el pedido P-00090 fue registrado correctamente por 23064.58.,2026-08-29 10:40:58,true
+5493587120030,5493587120030,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 10:41:28,true
+5493587120031,5493587120031,ai,ai,"Hola Ferretería Los Andes, paso a revisar tu pedido P-00093 de ASADERA TEFLON VERMONT SET X 3.","Hola Ferretería Los Andes, paso a revisar tu pedido P-00093 de ASADERA TEFLON VERMONT SET X 3.",2026-08-30 14:39:02,true
+5493587120031,5493587120031,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 14:39:47,true
+5493587120031,5493587120031,ai,ai,Te confirmo que el pedido P-00093 fue registrado correctamente por 529286.49.,Te confirmo que el pedido P-00093 fue registrado correctamente por 529286.49.,2026-08-30 14:40:36,true
+5493587120031,5493587120031,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 14:41:45,true
+5493587120032,5493587120032,ai,ai,"Hola Almacén Don Pedro, paso a revisar tu pedido P-00096 de MACETA BOWL COLGANTE C/GANCHO Nº19.","Hola Almacén Don Pedro, paso a revisar tu pedido P-00096 de MACETA BOWL COLGANTE C/GANCHO Nº19.",2026-08-29 13:39:02,true
+5493587120032,5493587120032,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 13:40:45,true
+5493587120032,5493587120032,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 5215.20.,Te confirmo que el pedido P-00096 fue registrado correctamente por 5215.20.,2026-08-29 13:41:32,true
+5493587120032,5493587120032,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 13:42:42,true
+5493587120033,5493587120033,ai,ai,"Hola Distribuidora Caleta, paso a revisar tu pedido P-00099 de CABO MADERA C/ROSCA 1.20MTS PINO.","Hola Distribuidora Caleta, paso a revisar tu pedido P-00099 de CABO MADERA C/ROSCA 1.20MTS PINO.",2026-08-30 12:39:02,true
+5493587120033,5493587120033,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 12:40:16,true
+5493587120033,5493587120033,ai,ai,Te confirmo que el pedido P-00099 fue registrado correctamente por 7143.24.,Te confirmo que el pedido P-00099 fue registrado correctamente por 7143.24.,2026-08-30 12:41:12,true
+5493587120033,5493587120033,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 12:42:17,true
+5493587120034,5493587120034,ai,ai,"Hola Casa de Limpieza La Cerda, paso a revisar tu pedido P-00102 de ALCOHOL GEL FRAU 500ML.","Hola Casa de Limpieza La Cerda, paso a revisar tu pedido P-00102 de ALCOHOL GEL FRAU 500ML.",2026-08-29 11:39:02,true
+5493587120034,5493587120034,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 11:40:45,true
+5493587120034,5493587120034,ai,ai,Te confirmo que el pedido P-00102 fue registrado correctamente por 47995.61.,Te confirmo que el pedido P-00102 fue registrado correctamente por 47995.61.,2026-08-29 11:42:05,true
+5493587120034,5493587120034,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 11:43:23,true
+5493587120035,5493587120035,ai,ai,"Hola Minimercado Barrio Jardín, paso a revisar tu pedido P-00105 de ABRELATA MANIJA LOEKEMEYER.","Hola Minimercado Barrio Jardín, paso a revisar tu pedido P-00105 de ABRELATA MANIJA LOEKEMEYER.",2026-08-30 10:39:02,true
+5493587120035,5493587120035,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 10:40:18,true
+5493587120035,5493587120035,ai,ai,Te confirmo que el pedido P-00105 fue registrado correctamente por 38624.56.,Te confirmo que el pedido P-00105 fue registrado correctamente por 38624.56.,2026-08-30 10:41:30,true
+5493587120035,5493587120035,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 10:42:18,true
+5493587120036,5493587120036,ai,ai,"Hola Ferretería El Portal, paso a revisar tu pedido P-00107 de OLLA ALUMINIO N° 26.","Hola Ferretería El Portal, paso a revisar tu pedido P-00107 de OLLA ALUMINIO N° 26.",2026-08-29 14:39:02,true
+5493587120036,5493587120036,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 14:40:42,true
+5493587120036,5493587120036,ai,ai,Te confirmo que el pedido P-00107 fue registrado correctamente por 130840.14.,Te confirmo que el pedido P-00107 fue registrado correctamente por 130840.14.,2026-08-29 14:41:15,true
+5493587120036,5493587120036,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 14:42:34,true
+5493587120037,5493587120037,ai,ai,"Hola Súper Chino Banda Norte, paso a revisar tu pedido P-00110 de SOPAPA GOMA 4"".","Hola Súper Chino Banda Norte, paso a revisar tu pedido P-00110 de SOPAPA GOMA 4"".",2026-08-30 13:39:02,true
+5493587120037,5493587120037,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 13:40:14,true
+5493587120037,5493587120037,ai,ai,Te confirmo que el pedido P-00110 fue registrado correctamente por 7336.52.,Te confirmo que el pedido P-00110 fue registrado correctamente por 7336.52.,2026-08-30 13:41:11,true
+5493587120037,5493587120037,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 13:41:55,true
+5493587120038,5493587120038,ai,ai,"Hola Revendedor Sampacho, paso a revisar tu pedido P-00112 de Sahumerio tibetano x8 SUPER PALO SANTO.","Hola Revendedor Sampacho, paso a revisar tu pedido P-00112 de Sahumerio tibetano x8 SUPER PALO SANTO.",2026-08-29 12:39:02,true
+5493587120038,5493587120038,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 12:40:49,true
+5493587120038,5493587120038,ai,ai,Te confirmo que el pedido P-00112 fue registrado correctamente por 60193.64.,Te confirmo que el pedido P-00112 fue registrado correctamente por 60193.64.,2026-08-29 12:42:05,true
+5493587120038,5493587120038,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 12:43:04,true
+5493587120039,5493587120039,ai,ai,"Hola Casa de Limpieza El Quebracho, paso a revisar tu pedido P-00115 de ASADERA ENLOZ SALPICADA N°2 21X30CM.","Hola Casa de Limpieza El Quebracho, paso a revisar tu pedido P-00115 de ASADERA ENLOZ SALPICADA N°2 21X30CM.",2026-08-30 11:39:02,true
+5493587120039,5493587120039,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 11:40:41,true
+5493587120039,5493587120039,ai,ai,Te confirmo que el pedido P-00115 fue registrado correctamente por 13334.88.,Te confirmo que el pedido P-00115 fue registrado correctamente por 13334.88.,2026-08-30 11:41:57,true
+5493587120039,5493587120039,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 11:42:47,true
+5493587120040,5493587120040,ai,ai,"Hola Autoservicio Italia, paso a revisar tu pedido P-00118 de Sahumerio triple empaste x10 LAVANDA.","Hola Autoservicio Italia, paso a revisar tu pedido P-00118 de Sahumerio triple empaste x10 LAVANDA.",2026-08-29 10:39:02,true
+5493587120040,5493587120040,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 10:41:02,true
+5493587120040,5493587120040,ai,ai,Te confirmo que el pedido P-00118 fue registrado correctamente por 45165.24.,Te confirmo que el pedido P-00118 fue registrado correctamente por 45165.24.,2026-08-29 10:41:50,true
+5493587120040,5493587120040,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 10:43:13,true
+5493587120041,5493587120041,ai,ai,"Hola Ferretería La Unión, paso a revisar tu pedido P-00123 de SECADOR DOPPIO BLANCO 41CM.","Hola Ferretería La Unión, paso a revisar tu pedido P-00123 de SECADOR DOPPIO BLANCO 41CM.",2026-08-31 14:39:02,true
+5493587120041,5493587120041,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 14:39:54,true
+5493587120041,5493587120041,ai,ai,Te confirmo que el pedido P-00123 fue registrado correctamente por 9594.86.,Te confirmo que el pedido P-00123 fue registrado correctamente por 9594.86.,2026-08-31 14:41:22,true
+5493587120041,5493587120041,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-31 14:42:07,true
+5493587120041,5493587120041,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 14:43:23,true
+5493587120042,5493587120042,ai,ai,"Hola Minimercado El Progreso, paso a revisar tu pedido P-00126 de ESCOBA 6 HILOS ESPECIAL.","Hola Minimercado El Progreso, paso a revisar tu pedido P-00126 de ESCOBA 6 HILOS ESPECIAL.",2026-08-31 13:39:02,true
+5493587120042,5493587120042,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 13:40:00,true
+5493587120042,5493587120042,ai,ai,Te confirmo que el pedido P-00126 fue registrado correctamente por 11402.10.,Te confirmo que el pedido P-00126 fue registrado correctamente por 11402.10.,2026-08-31 13:41:20,true
+5493587120042,5493587120042,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-31 13:42:26,true
+5493587120042,5493587120042,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 13:43:23,true
+5493587120043,5493587120043,ai,ai,"Hola Distribuidora El Encuentro, paso a revisar tu pedido P-00129 de OLLA ALUMINIO N° 30.","Hola Distribuidora El Encuentro, paso a revisar tu pedido P-00129 de OLLA ALUMINIO N° 30.",2026-08-31 12:39:02,true
+5493587120043,5493587120043,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 12:40:13,true
+5493587120043,5493587120043,ai,ai,Te confirmo que el pedido P-00129 fue registrado correctamente por 181717.05.,Te confirmo que el pedido P-00129 fue registrado correctamente por 181717.05.,2026-08-31 12:40:48,true
+5493587120043,5493587120043,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-31 12:42:28,true
+5493587120043,5493587120043,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 12:43:21,true
+5493587120044,5493587120044,ai,ai,"Hola Casa de Artículos El Cabo, paso a revisar tu pedido P-00132 de ORGANIZADOR C/TAPA 18LTS.","Hola Casa de Artículos El Cabo, paso a revisar tu pedido P-00132 de ORGANIZADOR C/TAPA 18LTS.",2026-08-31 11:39:02,true
+5493587120044,5493587120044,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 11:40:27,true
+5493587120044,5493587120044,ai,ai,Te confirmo que el pedido P-00132 fue registrado correctamente por 111169.31.,Te confirmo que el pedido P-00132 fue registrado correctamente por 111169.31.,2026-08-31 11:41:16,true
+5493587120044,5493587120044,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-31 11:42:05,true
+5493587120044,5493587120044,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 11:43:12,true
+5493587120045,5493587120045,ai,ai,"Hola Súper Chang Industrial, paso a revisar tu pedido P-00135 de BALDE 10LTS M/PLASTICO ECONOMICO 24X28CM.","Hola Súper Chang Industrial, paso a revisar tu pedido P-00135 de BALDE 10LTS M/PLASTICO ECONOMICO 24X28CM.",2026-08-31 10:39:02,true
+5493587120045,5493587120045,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 10:40:19,true
+5493587120045,5493587120045,ai,ai,Te confirmo que el pedido P-00135 fue registrado correctamente por 6594.26.,Te confirmo que el pedido P-00135 fue registrado correctamente por 6594.26.,2026-08-31 10:41:16,true
+5493587120045,5493587120045,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-31 10:42:07,true
+5493587120045,5493587120045,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 10:43:35,true
+5493587120046,5493587120046,ai,ai,"Hola Ferretería Don Mario, paso a revisar tu pedido P-00138 de Sahumerio empaste simple x15 BENJUI.","Hola Ferretería Don Mario, paso a revisar tu pedido P-00138 de Sahumerio empaste simple x15 BENJUI.",2026-08-29 14:39:02,true
+5493587120046,5493587120046,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 14:40:13,true
+5493587120046,5493587120046,ai,ai,Te confirmo que el pedido P-00138 fue registrado correctamente por 100322.10.,Te confirmo que el pedido P-00138 fue registrado correctamente por 100322.10.,2026-08-29 14:41:34,true
+5493587120046,5493587120046,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 14:43:01,true
+5493587120047,5493587120047,ai,ai,"Hola Almacén La Esquina, paso a revisar tu pedido P-00141 de Esencia para hornillo PALO SANTO.","Hola Almacén La Esquina, paso a revisar tu pedido P-00141 de Esencia para hornillo PALO SANTO.",2026-08-30 13:39:02,true
+5493587120047,5493587120047,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 13:40:28,true
+5493587120047,5493587120047,ai,ai,Te confirmo que el pedido P-00141 fue registrado correctamente por 213978.36.,Te confirmo que el pedido P-00141 fue registrado correctamente por 213978.36.,2026-08-30 13:41:19,true
+5493587120047,5493587120047,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 13:42:27,true
+5493587120048,5493587120048,ai,ai,"Hola Revendedor Adelia María, paso a revisar tu pedido P-00144 de LAMPAZO BARRENDERO 0.60MT MEDIANO.","Hola Revendedor Adelia María, paso a revisar tu pedido P-00144 de LAMPAZO BARRENDERO 0.60MT MEDIANO.",2026-08-29 12:39:02,true
+5493587120048,5493587120048,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 12:40:58,true
+5493587120048,5493587120048,ai,ai,Te confirmo que el pedido P-00144 fue registrado correctamente por 20136.20.,Te confirmo que el pedido P-00144 fue registrado correctamente por 20136.20.,2026-08-29 12:41:47,true
+5493587120048,5493587120048,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 12:42:52,true
+5493587120049,5493587120049,ai,ai,"Hola Casa de Limpieza El Sauce, paso a revisar tu pedido P-00146 de ESCOBILLON BARREGRUESO.","Hola Casa de Limpieza El Sauce, paso a revisar tu pedido P-00146 de ESCOBILLON BARREGRUESO.",2026-08-30 11:39:02,true
+5493587120049,5493587120049,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 11:40:55,true
+5493587120049,5493587120049,ai,ai,Te confirmo que el pedido P-00146 fue registrado correctamente por 100832.53.,Te confirmo que el pedido P-00146 fue registrado correctamente por 100832.53.,2026-08-30 11:42:20,true
+5493587120049,5493587120049,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 11:43:31,true
+5493587120050,5493587120050,ai,ai,"Hola Minimercado Las Flores, paso a revisar tu pedido P-00149 de LAMPAZO BARRENDERO 0.60MT MEDIANO.","Hola Minimercado Las Flores, paso a revisar tu pedido P-00149 de LAMPAZO BARRENDERO 0.60MT MEDIANO.",2026-08-29 10:39:02,true
+5493587120050,5493587120050,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 10:40:07,true
+5493587120050,5493587120050,ai,ai,Te confirmo que el pedido P-00149 fue registrado correctamente por 94433.32.,Te confirmo que el pedido P-00149 fue registrado correctamente por 94433.32.,2026-08-29 10:40:48,true
+5493587120050,5493587120050,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 10:41:57,true
