@@ -1,0 +1,4 @@
+nombre,telefono,email,zona,codigo_ruta,is_mock
+Facundo Peralta,5493516012847,facundo.peralta@suplaisales.mock,NORTE,R01,true
+Luciana Toledo,5493516183920,luciana.toledo@suplaisales.mock,SUR,R02,true
+Matías Soria,5493516274108,matias.soria@suplaisales.mock,OESTE,R03,true

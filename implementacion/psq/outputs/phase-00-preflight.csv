@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: ac45b064-0420-48ed-8b15-9b15b11fda75
+schema_existe,Tablas en psq,ok,71 tablas (clone gonzales)
+productos_vacio,COUNT productos = 0,ok,0 productos encontrados
+clients_vacio,COUNT clients = 0,ok,0 clientes encontrados
+mcp_conectado,MCP supabase responde,ok,conectado
+carpeta_implementacion,manifest.yaml presente,ok,implementacion/psq/manifest.yaml
+is_mock_column,Columna is_mock en productos,ok,true
+excel_presente,Archivo en inputs/,ok,inputs/LISTA-B.pdf (18 páginas)

@@ -1,0 +1,389 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587905250,25001,PSQ-0204,CAJA PIZZA GRANDE ECO VERDE X 100U (1),2,26888.29,2,Pedido: 2 caja (normalizado: 200 caja; equiv: 2 caja),true,false,false
+P-00001,5493587905250,25001,PSQ-0435,JABON PARA MANOS X1L,2,1359.09,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00001,5493587905250,25001,PSQ-0215,CAMISETA 45 X 60 MUNDI MAX X PAQ (20),2,4063.74,2,Pedido: 2 paquete (normalizado: 40 paquete; equiv: 2 paquete),true,false,false
+P-00002,5493587905250,25001,PSQ-0016,ANTI-HONGOS GATILLO 500ML PSQ,1,2014.78,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00002,5493587905250,25001,PSQ-0580,QUITAMANCHAS X 1LT,2,1724.53,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00003,5493587905250,25001,PSQ-0551,PLATO 22CM BLANCO X 50 U (20),3,2473.93,2,Pedido: 3 caja (normalizado: 60 caja; equiv: 3 caja),true,false,false
+P-00003,5493587905250,25001,PSQ-0014,ALGUICIDA 1:60000 X1L,3,2787.08,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00003,5493587905250,25001,PSQ-0405,FRIOCLEAN 500ML,1,743.22,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00004,5493582641213,25002,PSQ-0141,BOLSA PPP 20 X 30 X 100 U(10),2,1444.52,3,Pedido: 2 paquete (normalizado: 20 paquete; equiv: 2 paquete),true,false,false
+P-00004,5493582641213,25002,PSQ-0180,BOLSAS RESIDUOS 45X60 X 50 UNI,5,1059.92,3,Pedido: 5 paquete (normalizado: 250 paquete; equiv: 5 paquete),true,false,false
+P-00004,5493582641213,25002,PSQ-0017,ANTI-HONGOS X 5LTS PSQUIMICA,1,11036.86,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00005,5493582641213,25002,PSQ-0012,ALCOHOL EN GEL 1LT,1,1919.46,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00006,5493582641213,25002,PSQ-0666,SET PERFUMINA 100 LTS,2,13549.21,3,Pedido: 2 set (normalizado: 2 set; equiv: 2 set),true,false,false
+P-00006,5493582641213,25002,PSQ-0073,BANDEJA DE CARTON N4,3,2382.67,3,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00006,5493582641213,25002,PSQ-0618,ROLLO COCINA FELPITA X 200PAÑOS,5,1714.83,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00006,5493582641213,25002,PSQ-0218,CAMISETA 50 X 70 MUNDI MAX X PAQ (20),1,5128.67,3,Pedido: 1 paquete (normalizado: 20 paquete; equiv: 1 paquete),true,false,false
+P-00007,5492991227644,25003,PSQ-0191,CABO 1.20MTS,5,1109.25,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00007,5492991227644,25003,PSQ-0016,ANTI-HONGOS GATILLO 500ML PSQ,2,1489.18,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00008,5492991227644,25003,PSQ-0017,ANTI-HONGOS X 5LTS PSQUIMICA,4,10423.70,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00008,5492991227644,25003,PSQ-0271,CLORO P/PILETAS X10L,1,4416.69,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00008,5492991227644,25003,PSQ-0735,VASO 110CC PLASTICO TRASLUCIDO X 100 (42),3,7032.23,4,Pedido: 3 caja (normalizado: 126 caja; equiv: 3 caja),true,false,false
+P-00009,5492991227644,25003,PSQ-0310,DESTAPA CAÑERIAS X LT PSQUIMICA,3,1656.23,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00010,5493418277249,25004,PSQ-0291,CUCHILLO BLANCO X 100 (1),5,1560.33,1,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00011,5493418277249,25004,PSQ-0684,SORBETE SUR ENSOBRADO X 1000 EN CAJA,3,9220.89,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00011,5493418277249,25004,PSQ-0520,PAPEL HIG ELEG/FELPITA 4x30 MTS,1,1493.93,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00011,5493418277249,25004,PSQ-0619,ROLLO DE ALUMINIO X 1KG DPM/INCA (12),5,8033.18,1,Pedido: 5 paquete (normalizado: 60 paquete; equiv: 5 paquete),true,false,false
+P-00012,5493418277249,25004,PSQ-0645,SERVILLETA 18X18 X 1000,4,6895.44,1,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00012,5493418277249,25004,PSQ-0721,TRAPO DE PISO BLANCO LA NACIONAL,4,1263.64,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00012,5493418277249,25004,PSQ-0732,VALERINA / PAÑO AMARILLO,2,489.21,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00013,5493587747641,25005,PSQ-0435,JABON PARA MANOS X1L,4,1359.09,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00013,5493587747641,25005,PSQ-0006,AGITADOR DE CAFE MADERA IBERIA 11CM X 1500 U,5,10761.57,2,Pedido: 5 paquete (normalizado: 7500 paquete; equiv: 5 paquete),true,false,false
+P-00013,5493587747641,25005,PSQ-0663,SET LAVANDINA 100LTS,1,27968.00,2,Pedido: 1 set (normalizado: 1 set; equiv: 1 set),true,false,false
+P-00014,5493587747641,25005,PSQ-0712,TENEDOR BLANCO X 100 (1),2,3193.52,2,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00014,5493587747641,25005,PSQ-0569,POTE LISO 250CC 088 X 50U (900),1,2906.21,2,Pedido: 1 paquete (normalizado: 900 paquete; equiv: 1 paquete),true,false,false
+P-00014,5493587747641,25005,PSQ-0648,SERVILLETA SM 33X33 BLANCA,4,8682.03,2,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00014,5493587747641,25005,PSQ-0542,PERFUMINA X 1L,3,891.87,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00015,5493587747641,25005,PSQ-0538,PATO BLOQUE ADH X 3 UNID,1,3216.48,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00016,5492614053074,25006,PSQ-0342,ESCOBA DE PAJA,5,7830.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00016,5492614053074,25006,PSQ-0742,VASO POLIPAPEL 12 ONZAS X 50U (1000),5,4258.44,3,Pedido: 5 caja (normalizado: 5000 caja; equiv: 5 caja),true,false,false
+P-00016,5492614053074,25006,PSQ-0592,REJILLA TRICOLOR CHICA N36,3,693.23,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00016,5492614053074,25006,PSQ-0721,TRAPO DE PISO BLANCO LA NACIONAL,3,1137.28,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00017,5492614053074,25006,PSQ-0759,VIRULANA,4,574.54,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00017,5492614053074,25006,PSQ-0017,ANTI-HONGOS X 5LTS PSQUIMICA,2,11036.86,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00018,5492614053074,25006,PSQ-0462,LIMPIAVIDRIOS GATILLO 475ML PSQ,1,1504.52,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00018,5492614053074,25006,PSQ-0271,CLORO P/PILETAS X10L,5,4676.49,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00018,5492614053074,25006,PSQ-0536,PASTILLAS DE CLORO MULTIACCION X1KG,3,4226.96,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00018,5492614053074,25006,PSQ-0198,CAJA EMPANADA X 100U,4,7026.93,3,Pedido: 4 caja (normalizado: 400 caja; equiv: 4 caja),true,false,false
+P-00019,5493514079279,25007,PSQ-0651,SET FAB DESENGRASANTE X 100LTS,5,32595.04,4,Pedido: 5 set (normalizado: 5 set; equiv: 5 set),true,false,false
+P-00019,5493514079279,25007,PSQ-0205,CAJA PIZZA GRIS CORRUGADA X 50U,2,19092.83,4,Pedido: 2 caja (normalizado: 100 caja; equiv: 2 caja),true,false,false
+P-00019,5493514079279,25007,PSQ-0141,BOLSA PPP 20 X 30 X 100 U(10),1,1364.27,4,Pedido: 1 paquete (normalizado: 10 paquete; equiv: 1 paquete),true,false,false
+P-00019,5493514079279,25007,PSQ-0012,ALCOHOL EN GEL 1LT,1,1812.82,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00020,5493514079279,25007,PSQ-0619,ROLLO DE ALUMINIO X 1KG DPM/INCA (12),1,6828.20,4,Pedido: 1 paquete (normalizado: 12 paquete; equiv: 1 paquete),true,false,false
+P-00020,5493514079279,25007,PSQ-0717,TOALLA INTERCALADA EXTRA BLANCO X 2000UNI,2,7894.11,4,Pedido: 2 paquete (normalizado: 4000 paquete; equiv: 2 paquete),true,false,false
+P-00020,5493514079279,25007,PSQ-0215,CAMISETA 45 X 60 MUNDI MAX X PAQ (20),3,3003.64,4,Pedido: 3 paquete (normalizado: 60 paquete; equiv: 3 paquete),true,false,false
+P-00020,5493514079279,25007,PSQ-0550,PLATO 17CM BLANCO X 50 U (20),4,1462.84,4,Pedido: 4 caja (normalizado: 80 caja; equiv: 4 caja),true,false,false
+P-00021,5493514079279,25007,PSQ-0574,QUITA SARRO X1L,4,824.01,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00021,5493514079279,25007,PSQ-0457,LIMPIA TAPIZADOS 500ML PSQ,1,585.17,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00021,5493514079279,25007,PSQ-0645,SERVILLETA 18X18 X 1000,4,5861.12,4,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00021,5493514079279,25007,PSQ-0727,TRAPO DE PISO MR TRAPO BLANCO,5,765.99,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00022,5493876914178,25008,PSQ-0051,AYUDIN CANASTAS P/INOD,2,2216.94,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00022,5493876914178,25008,PSQ-0583,RAID CASA Y JARDIN,3,4997.11,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00022,5493876914178,25008,PSQ-0058,BANDEJA 101 PP X 100 (12),5,5972.23,1,Pedido: 5 caja (normalizado: 60 caja; equiv: 5 caja),true,false,false
+P-00022,5493876914178,25008,PSQ-0536,PASTILLAS DE CLORO MULTIACCION X1KG,2,4696.62,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00023,5493876914178,25008,PSQ-0218,CAMISETA 50 X 70 MUNDI MAX X PAQ (20),3,5698.52,1,Pedido: 3 paquete (normalizado: 60 paquete; equiv: 3 paquete),true,false,false
+P-00023,5493876914178,25008,PSQ-0582,QUITASARRO GATILLO 500ML PSQ,2,2134.71,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00023,5493876914178,25008,PSQ-0763,ZORRO POLVO MATIC 400GRS,3,1120.45,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00023,5493876914178,25008,PSQ-0052,BALDE 10LTS,5,2025.21,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00024,5493876914178,25008,PSQ-0687,SUAVIZANTE PARA ROPA X1L,2,1154.13,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00025,5492617175545,25009,PSQ-0330,ELIMINADOR DE OLORES PSQ X U. (500ML),1,978.47,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00026,5492617175545,25009,PSQ-0199,CAJA HAMBURGUEZA MICROCORRUGADA X100U,2,25506.67,2,Pedido: 2 caja (normalizado: 200 caja; equiv: 2 caja),true,false,false
+P-00026,5492617175545,25009,PSQ-0016,ANTI-HONGOS GATILLO 500ML PSQ,2,2014.78,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00026,5492617175545,25009,PSQ-0405,FRIOCLEAN 500ML,1,743.22,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00027,5492617175545,25009,PSQ-0737,VASO 330 CC PLASTICO TRASLUCIDO X 50 (49),4,3852.26,2,Pedido: 4 caja (normalizado: 196 caja; equiv: 4 caja),true,false,false
+P-00027,5492617175545,25009,PSQ-0091,BLOQUE HARPIC X 1UNI,5,4331.37,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00028,5493818437953,25010,PSQ-0212,CAMISETA 40 X 50 ECO MUNDI POLIM. X PAQ (20),3,1777.68,3,Pedido: 3 paquete (normalizado: 60 paquete; equiv: 3 paquete),true,false,false
+P-00029,5493818437953,25010,PSQ-0437,JABON PLUS X1L (ARIEL/SKIP),3,1028.83,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00030,5493818437953,25010,PSQ-0215,CAMISETA 45 X 60 MUNDI MAX X PAQ (20),2,3180.32,3,Pedido: 2 paquete (normalizado: 40 paquete; equiv: 2 paquete),true,false,false
+P-00030,5493818437953,25010,PSQ-0653,SET FAB DETERGENTE USO DIRECTO X 100LTS,1,58530.87,3,Pedido: 1 set (normalizado: 1 set; equiv: 1 set),true,false,false
+P-00031,5493582132179,25011,PSQ-0141,BOLSA PPP 20 X 30 X 100 U(10),3,1364.27,4,Pedido: 3 paquete (normalizado: 30 paquete; equiv: 3 paquete),true,false,false
+P-00031,5493582132179,25011,PSQ-0201,CAJA LOMO GRANDE CARTON X 100 (1),3,6345.79,4,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00031,5493582132179,25011,PSQ-0121,BOLSA PANADERIA KRAFT N 5 - X 100U.(20),4,1847.05,4,Pedido: 4 paquete (normalizado: 80 paquete; equiv: 4 paquete),true,false,false
+P-00032,5493582132179,25011,PSQ-0524,PAPEL HIG JUMBO C/CH 8X300MTS ECO,1,5602.27,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00032,5493582132179,25011,PSQ-0551,PLATO 22CM BLANCO X 50 U (20),3,1828.55,4,Pedido: 3 caja (normalizado: 60 caja; equiv: 3 caja),true,false,false
+P-00033,5493582132179,25011,PSQ-0737,VASO 330 CC PLASTICO TRASLUCIDO X 50 (49),2,2847.32,4,Pedido: 2 caja (normalizado: 98 caja; equiv: 2 caja),true,false,false
+P-00033,5493582132179,25011,PSQ-0653,SET FAB DETERGENTE USO DIRECTO X 100LTS,3,55279.15,4,Pedido: 3 set (normalizado: 3 set; equiv: 3 set),true,false,false
+P-00034,5493872845902,25012,PSQ-0580,QUITAMANCHAS X 1LT,4,1499.59,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00034,5493872845902,25012,PSQ-0091,BLOQUE HARPIC X 1UNI,4,3766.41,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00035,5493872845902,25012,PSQ-0462,LIMPIAVIDRIOS GATILLO 475ML PSQ,4,1671.69,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00035,5493872845902,25012,PSQ-0198,CAJA EMPANADA X 100U,5,7807.70,1,Pedido: 5 caja (normalizado: 500 caja; equiv: 5 caja),true,false,false
+P-00036,5493872845902,25012,PSQ-0759,VIRULANA,4,638.38,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00036,5493872845902,25012,PSQ-0457,LIMPIA TAPIZADOS 500ML PSQ,3,688.43,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00037,5492997670210,25013,PSQ-0684,SORBETE SUR ENSOBRADO X 1000 EN CAJA,3,10604.02,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00037,5492997670210,25013,PSQ-0436,JABON PARA MANOS X5L,2,4117.20,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00037,5492997670210,25013,PSQ-0727,TRAPO DE PISO MR TRAPO BLANCO,5,1036.33,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00038,5492997670210,25013,PSQ-0686,SUAVIZANTE P/ROPA X5L,1,4825.05,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00038,5492997670210,25013,PSQ-0551,PLATO 22CM BLANCO X 50 U (20),2,2473.93,2,Pedido: 2 caja (normalizado: 40 caja; equiv: 2 caja),true,false,false
+P-00038,5492997670210,25013,PSQ-0650,SET COMBO 4X50 LT (JAB-SUA-DES-PERF),4,50181.81,2,Pedido: 4 set (normalizado: 4 set; equiv: 4 set),true,false,false
+P-00039,5492997670210,25013,PSQ-0013,ALCOHOL EN GEL X5L,3,18004.58,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00039,5492997670210,25013,PSQ-0051,AYUDIN CANASTAS P/INOD,4,2549.48,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00039,5492997670210,25013,PSQ-0660,SET FAB SUAVIZANTE X 100LTS CONFORT/ VIVERE,4,49397.73,2,Pedido: 4 set (normalizado: 4 set; equiv: 4 set),true,false,false
+P-00040,5493811657614,25014,PSQ-0580,QUITAMANCHAS X 1LT,5,1349.63,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00040,5493811657614,25014,PSQ-0218,CAMISETA 50 X 70 MUNDI MAX X PAQ (20),3,5128.67,3,Pedido: 3 paquete (normalizado: 60 paquete; equiv: 3 paquete),true,false,false
+P-00041,5493811657614,25014,PSQ-0054,BALDE C/ ESCURRIDOR HACENDOZA 9L,5,3915.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00042,5493811657614,25014,PSQ-0618,ROLLO COCINA FELPITA X 200PAÑOS,2,1714.83,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00043,5492994145193,25015,PSQ-0457,LIMPIA TAPIZADOS 500ML PSQ,2,585.17,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00043,5492994145193,25015,PSQ-0405,FRIOCLEAN 500ML,1,549.34,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00043,5492994145193,25015,PSQ-0205,CAJA PIZZA GRIS CORRUGADA X 50U,2,19092.83,4,Pedido: 2 caja (normalizado: 100 caja; equiv: 2 caja),true,false,false
+P-00044,5492994145193,25015,PSQ-0550,PLATO 17CM BLANCO X 50 U (20),1,1462.84,4,Pedido: 1 caja (normalizado: 20 caja; equiv: 1 caja),true,false,false
+P-00044,5492994145193,25015,PSQ-0582,QUITASARRO GATILLO 500ML PSQ,1,1814.50,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00044,5492994145193,25015,PSQ-0576,QUITAMANCHAS 500ML PSQ,2,1159.09,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00045,5492994145193,25015,PSQ-0561,PORTA VASOS CAFE X 50 UNI,1,3774.52,4,Pedido: 1 caja (normalizado: 50 caja; equiv: 1 caja),true,false,false
+P-00045,5492994145193,25015,PSQ-0201,CAJA LOMO GRANDE CARTON X 100 (1),3,6345.79,4,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00045,5492994145193,25015,PSQ-0318,DETERGENTE USO DIRECTO X5L,3,4578.56,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00045,5492994145193,25015,PSQ-0645,SERVILLETA 18X18 X 1000,2,5861.12,4,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00046,5493515971311,25016,PSQ-0487,MULTIUSO AZULEJOS X 500ML PSQUIMICA,4,1221.82,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00047,5493515971311,25016,PSQ-0454,LAVANDINA X5L,4,2564.54,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00047,5493515971311,25016,PSQ-0198,CAJA EMPANADA X 100U,5,7807.70,1,Pedido: 5 caja (normalizado: 500 caja; equiv: 5 caja),true,false,false
+P-00048,5493515971311,25016,PSQ-0583,RAID CASA Y JARDIN,1,4997.11,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00048,5493515971311,25016,PSQ-0574,QUITA SARRO X1L,3,969.42,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00048,5493515971311,25016,PSQ-0199,CAJA HAMBURGUEZA MICROCORRUGADA X100U,1,22179.71,1,Pedido: 1 caja (normalizado: 100 caja; equiv: 1 caja),true,false,false
+P-00049,5492994228106,25017,PSQ-0112,BOLSA KRAFT DELIVERY N°6 20 X 11 X 30 X 50 U (5),2,6643.14,2,Pedido: 2 paquete (normalizado: 10 paquete; equiv: 2 paquete),true,false,false
+P-00050,5492994228106,25017,PSQ-0686,SUAVIZANTE P/ROPA X5L,2,4825.05,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00050,5492994228106,25017,PSQ-0435,JABON PARA MANOS X1L,3,1359.09,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00051,5492994228106,25017,PSQ-0281,CUCHARA SOPERA X 100(1),3,4421.37,2,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00052,5492998718887,25018,PSQ-0582,QUITASARRO GATILLO 500ML PSQ,1,1921.24,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00052,5492998718887,25018,PSQ-0174,BOLSAS CONSORCIO 60X90 X 10 UNI,5,729.67,3,Pedido: 5 paquete (normalizado: 50 paquete; equiv: 5 paquete),true,false,false
+P-00052,5492998718887,25018,PSQ-0348,ESCOBILLON ANDEN PLAST 60CM C/CABO,1,6578.93,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00052,5492998718887,25018,PSQ-0297,DESENGRASANTE P-25 X 1L,4,1305.23,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00053,5492998718887,25018,PSQ-0717,TOALLA INTERCALADA EXTRA BLANCO X 2000UNI,1,8358.47,3,Pedido: 1 paquete (normalizado: 2000 paquete; equiv: 1 paquete),true,false,false
+P-00053,5492998718887,25018,PSQ-0453,LAVANDINA X1L,3,837.58,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00053,5492998718887,25018,PSQ-0204,CAJA PIZZA GRANDE ECO VERDE X 100U (1),3,21043.01,3,Pedido: 3 caja (normalizado: 300 caja; equiv: 3 caja),true,false,false
+P-00053,5492998718887,25018,PSQ-0013,ALCOHOL EN GEL X5L,1,14090.54,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00054,5492998718887,25018,PSQ-0437,JABON PLUS X1L (ARIEL/SKIP),4,1028.83,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00055,5492995028869,25019,PSQ-0009,ALA EN POLVO 800GRS,2,3082.27,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00055,5492995028869,25019,PSQ-0012,ALCOHOL EN GEL 1LT,1,1812.82,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00055,5492995028869,25019,PSQ-0058,BANDEJA 101 PP X 100 (12),4,5076.40,4,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00056,5492995028869,25019,PSQ-0524,PAPEL HIG JUMBO C/CH 8X300MTS ECO,1,5602.27,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00056,5492995028869,25019,PSQ-0569,POTE LISO 250CC 088 X 50U (900),4,2148.07,4,Pedido: 4 paquete (normalizado: 3600 paquete; equiv: 4 paquete),true,false,false
+P-00056,5492995028869,25019,PSQ-0121,BOLSA PANADERIA KRAFT N 5 - X 100U.(20),4,1847.05,4,Pedido: 4 paquete (normalizado: 80 paquete; equiv: 4 paquete),true,false,false
+P-00057,5492995028869,25019,PSQ-0649,SERVILLETAS 30X30 X 1000UNI,5,6097.52,4,Pedido: 5 caja (normalizado: 5000 caja; equiv: 5 caja),true,false,false
+P-00057,5492995028869,25019,PSQ-0650,SET COMBO 4X50 LT (JAB-SUA-DES-PERF),5,37090.91,4,Pedido: 5 set (normalizado: 5 set; equiv: 5 set),true,false,false
+P-00058,5493517304254,25020,PSQ-0684,SORBETE SUR ENSOBRADO X 1000 EN CAJA,3,9220.89,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00058,5493517304254,25020,PSQ-0016,ANTI-HONGOS GATILLO 500ML PSQ,3,1751.98,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00058,5493517304254,25020,PSQ-0271,CLORO P/PILETAS X10L,3,5196.10,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00058,5493517304254,25020,PSQ-0763,ZORRO POLVO MATIC 400GRS,3,1120.45,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00059,5493517304254,25020,PSQ-0520,PAPEL HIG ELEG/FELPITA 4x30 MTS,4,1493.93,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00059,5493517304254,25020,PSQ-0660,SET FAB SUAVIZANTE X 100LTS CONFORT/ VIVERE,1,42954.55,1,Pedido: 1 set (normalizado: 1 set; equiv: 1 set),true,false,false
+P-00059,5493517304254,25020,PSQ-0054,BALDE C/ ESCURRIDOR HACENDOZA 9L,5,4350.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00059,5493517304254,25020,PSQ-0051,AYUDIN CANASTAS P/INOD,3,2216.94,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00060,5493517304254,25020,PSQ-0054,BALDE C/ ESCURRIDOR HACENDOZA 9L,2,4350.00,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00060,5493517304254,25020,PSQ-0582,QUITASARRO GATILLO 500ML PSQ,3,2134.71,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00060,5493517304254,25020,PSQ-0616,ROLLO COCINA ELEG 3X50PAÑOS,4,1316.53,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00061,5493416986538,25021,PSQ-0576,QUITAMANCHAS 500ML PSQ,2,1568.19,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00061,5493416986538,25021,PSQ-0582,QUITASARRO GATILLO 500ML PSQ,1,2454.92,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00061,5493416986538,25021,PSQ-0485,MOPA MR TRAPO,4,2519.17,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00061,5493416986538,25021,PSQ-0052,BALDE 10LTS,4,2328.99,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00062,5493416986538,25021,PSQ-0310,DESTAPA CAÑERIAS X LT PSQUIMICA,3,2240.79,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00062,5493416986538,25021,PSQ-0174,BOLSAS CONSORCIO 60X90 X 10 UNI,4,932.35,2,Pedido: 4 paquete (normalizado: 40 paquete; equiv: 4 paquete),true,false,false
+P-00062,5493416986538,25021,PSQ-0721,TRAPO DE PISO BLANCO LA NACIONAL,1,1453.19,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00062,5493416986538,25021,PSQ-0757,VIANDERA 105 OVAL C/TAPA BISAGRA (200),2,503.90,2,Pedido: 2 paquete (normalizado: 400 paquete; equiv: 2 paquete),true,false,false
+P-00063,5493416986538,25021,PSQ-0524,PAPEL HIG JUMBO C/CH 8X300MTS ECO,2,7579.55,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00063,5493416986538,25021,PSQ-0453,LAVANDINA X1L,2,1070.24,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00063,5493416986538,25021,PSQ-0191,CABO 1.20MTS,4,1500.75,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00063,5493416986538,25021,PSQ-0738,VASO 500ML TRASL X 50UNI,2,4697.85,2,Pedido: 2 caja (normalizado: 100 caja; equiv: 2 caja),true,false,false
+P-00064,5492619239862,25022,PSQ-0201,CAJA LOMO GRANDE CARTON X 100 (1),4,6719.08,3,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00064,5492619239862,25022,PSQ-0204,CAJA PIZZA GRANDE ECO VERDE X 100U (1),1,21043.01,3,Pedido: 1 caja (normalizado: 100 caja; equiv: 1 caja),true,false,false
+P-00064,5492619239862,25022,PSQ-0759,VIRULANA,3,574.54,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00065,5492619239862,25022,PSQ-0329,ELIMINADOR DE OLORES PSQ X U. (1LT),2,1020.87,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00065,5492619239862,25022,PSQ-0717,TOALLA INTERCALADA EXTRA BLANCO X 2000UNI,3,8358.47,3,Pedido: 3 paquete (normalizado: 6000 paquete; equiv: 3 paquete),true,false,false
+P-00066,5492619239862,25022,PSQ-0721,TRAPO DE PISO BLANCO LA NACIONAL,3,1137.28,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00066,5492619239862,25022,PSQ-0738,VASO 500ML TRASL X 50UNI,4,3676.58,3,Pedido: 4 caja (normalizado: 200 caja; equiv: 4 caja),true,false,false
+P-00066,5492619239862,25022,PSQ-0051,AYUDIN CANASTAS P/INOD,1,1995.25,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00067,5493513952681,25023,PSQ-0009,ALA EN POLVO 800GRS,3,3082.27,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00067,5493513952681,25023,PSQ-0091,BLOQUE HARPIC X 1UNI,5,3201.45,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00067,5493513952681,25023,PSQ-0536,PASTILLAS DE CLORO MULTIACCION X1KG,2,3992.13,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00068,5493513952681,25023,PSQ-0551,PLATO 22CM BLANCO X 50 U (20),1,1828.55,4,Pedido: 1 caja (normalizado: 20 caja; equiv: 1 caja),true,false,false
+P-00069,5493513952681,25023,PSQ-0543,PERFUMINA X 5L,4,1898.36,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00070,5493414799650,25024,PSQ-0271,CLORO P/PILETAS X10L,5,5196.10,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00070,5493414799650,25024,PSQ-0736,VASO 220 CC PLASTICO TRASLUCIDO X 50 (62),2,2480.85,1,Pedido: 2 caja (normalizado: 124 caja; equiv: 2 caja),true,false,false
+P-00070,5493414799650,25024,PSQ-0457,LIMPIA TAPIZADOS 500ML PSQ,2,688.43,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00070,5493414799650,25024,PSQ-0310,DESTAPA CAÑERIAS X LT PSQUIMICA,5,1948.51,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00071,5493414799650,25024,PSQ-0550,PLATO 17CM BLANCO X 50 U (20),4,1720.99,1,Pedido: 4 caja (normalizado: 80 caja; equiv: 4 caja),true,false,false
+P-00072,5493414799650,25024,PSQ-0014,ALGUICIDA 1:60000 X1L,3,2423.55,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00072,5493414799650,25024,PSQ-0174,BOLSAS CONSORCIO 60X90 X 10 UNI,4,810.74,1,Pedido: 4 paquete (normalizado: 40 paquete; equiv: 4 paquete),true,false,false
+P-00072,5493414799650,25024,PSQ-0436,JABON PARA MANOS X5L,2,3580.17,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00072,5493414799650,25024,PSQ-0121,BOLSA PANADERIA KRAFT N 5 - X 100U.(20),4,2173.00,1,Pedido: 4 paquete (normalizado: 80 paquete; equiv: 4 paquete),true,false,false
+P-00073,5492992500733,25025,PSQ-0281,CUCHARA SOPERA X 100(1),5,4421.37,2,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00073,5492992500733,25025,PSQ-0687,SUAVIZANTE PARA ROPA X1L,5,1327.25,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00073,5492992500733,25025,PSQ-0574,QUITA SARRO X1L,2,1114.83,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00074,5492992500733,25025,PSQ-0735,VASO 110CC PLASTICO TRASLUCIDO X 100 (42),3,9514.19,2,Pedido: 3 caja (normalizado: 126 caja; equiv: 3 caja),true,false,false
+P-00074,5492992500733,25025,PSQ-0538,PATO BLOQUE ADH X 3 UNID,2,3216.48,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00074,5492992500733,25025,PSQ-0006,AGITADOR DE CAFE MADERA IBERIA 11CM X 1500 U,5,10761.57,2,Pedido: 5 paquete (normalizado: 7500 paquete; equiv: 5 paquete),true,false,false
+P-00075,5492992500733,25025,PSQ-0684,SORBETE SUR ENSOBRADO X 1000 EN CAJA,1,10604.02,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00076,5492615139305,25026,PSQ-0583,RAID CASA Y JARDIN,3,4497.40,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00077,5492615139305,25026,PSQ-0619,ROLLO DE ALUMINIO X 1KG DPM/INCA (12),5,7229.86,3,Pedido: 5 paquete (normalizado: 60 paquete; equiv: 5 paquete),true,false,false
+P-00077,5492615139305,25026,PSQ-0013,ALCOHOL EN GEL X5L,4,14090.54,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00078,5492615139305,25026,PSQ-0121,BOLSA PANADERIA KRAFT N 5 - X 100U.(20),3,1955.70,3,Pedido: 3 paquete (normalizado: 60 paquete; equiv: 3 paquete),true,false,false
+P-00078,5492615139305,25026,PSQ-0536,PASTILLAS DE CLORO MULTIACCION X1KG,1,4226.96,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00078,5492615139305,25026,PSQ-0439,JABON PLUS SKIP/ARIEL X5L,3,3730.90,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00078,5492615139305,25026,PSQ-0453,LAVANDINA X1L,4,837.58,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00079,5492618861463,25027,PSQ-0727,TRAPO DE PISO MR TRAPO BLANCO,2,765.99,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00079,5492618861463,25027,PSQ-0580,QUITAMANCHAS X 1LT,4,1274.65,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00080,5492618861463,25027,PSQ-0310,DESTAPA CAÑERIAS X LT PSQUIMICA,3,1656.23,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00080,5492618861463,25027,PSQ-0112,BOLSA KRAFT DELIVERY N°6 20 X 11 X 30 X 50 U (5),4,4910.14,4,Pedido: 4 paquete (normalizado: 20 paquete; equiv: 4 paquete),true,false,false
+P-00081,5492618861463,25027,PSQ-0318,DETERGENTE USO DIRECTO X5L,2,4578.56,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00081,5492618861463,25027,PSQ-0215,CAMISETA 45 X 60 MUNDI MAX X PAQ (20),3,3003.64,4,Pedido: 3 paquete (normalizado: 60 paquete; equiv: 3 paquete),true,false,false
+P-00082,5493812941974,25028,PSQ-0141,BOLSA PPP 20 X 30 X 100 U(10),3,1605.02,1,Pedido: 3 paquete (normalizado: 30 paquete; equiv: 3 paquete),true,false,false
+P-00082,5493812941974,25028,PSQ-0660,SET FAB SUAVIZANTE X 100LTS CONFORT/ VIVERE,4,42954.55,1,Pedido: 4 set (normalizado: 4 set; equiv: 4 set),true,false,false
+P-00082,5493812941974,25028,PSQ-0742,VASO POLIPAPEL 12 ONZAS X 50U (1000),3,4731.60,1,Pedido: 3 caja (normalizado: 3000 caja; equiv: 3 caja),true,false,false
+P-00082,5493812941974,25028,PSQ-0551,PLATO 22CM BLANCO X 50 U (20),3,2151.24,1,Pedido: 3 caja (normalizado: 60 caja; equiv: 3 caja),true,false,false
+P-00083,5493812941974,25028,PSQ-0616,ROLLO COCINA ELEG 3X50PAÑOS,5,1316.53,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00083,5493812941974,25028,PSQ-0215,CAMISETA 45 X 60 MUNDI MAX X PAQ (20),5,3533.69,1,Pedido: 5 paquete (normalizado: 100 paquete; equiv: 5 paquete),true,false,false
+P-00083,5493812941974,25028,PSQ-0453,LAVANDINA X1L,1,930.64,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00084,5493812941974,25028,PSQ-0058,BANDEJA 101 PP X 100 (12),1,5972.23,1,Pedido: 1 caja (normalizado: 12 caja; equiv: 1 caja),true,false,false
+P-00084,5493812941974,25028,PSQ-0215,CAMISETA 45 X 60 MUNDI MAX X PAQ (20),2,3533.69,1,Pedido: 2 paquete (normalizado: 40 paquete; equiv: 2 paquete),true,false,false
+P-00084,5493812941974,25028,PSQ-0051,AYUDIN CANASTAS P/INOD,1,2216.94,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00084,5493812941974,25028,PSQ-0436,JABON PARA MANOS X5L,3,3580.17,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00085,5493817404433,25029,PSQ-0542,PERFUMINA X 1L,2,891.87,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00085,5493817404433,25029,PSQ-0051,AYUDIN CANASTAS P/INOD,5,2549.48,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00086,5493817404433,25029,PSQ-0645,SERVILLETA 18X18 X 1000,5,7929.76,2,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,false,false
+P-00086,5493817404433,25029,PSQ-0580,QUITAMANCHAS X 1LT,5,1724.53,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00086,5493817404433,25029,PSQ-0618,ROLLO COCINA FELPITA X 200PAÑOS,3,2191.18,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00087,5493817404433,25029,PSQ-0436,JABON PARA MANOS X5L,4,4117.20,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00088,5493419686914,25030,PSQ-0330,ELIMINADOR DE OLORES PSQ X U. (500ML),3,765.76,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00088,5493419686914,25030,PSQ-0687,SUAVIZANTE PARA ROPA X1L,4,1038.72,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00088,5493419686914,25030,PSQ-0536,PASTILLAS DE CLORO MULTIACCION X1KG,5,4226.96,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00089,5493419686914,25030,PSQ-0686,SUAVIZANTE P/ROPA X5L,4,3776.13,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00090,5493419686914,25030,PSQ-0016,ANTI-HONGOS GATILLO 500ML PSQ,2,1576.78,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00090,5493419686914,25030,PSQ-0317,DETERGENTE USO DIRECTO X1L,3,1133.41,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00091,5493518648263,25031,PSQ-0735,VASO 110CC PLASTICO TRASLUCIDO X 100 (42),5,7032.23,4,Pedido: 5 caja (normalizado: 210 caja; equiv: 5 caja),true,false,false
+P-00091,5493518648263,25031,PSQ-0073,BANDEJA DE CARTON N4,1,2250.30,4,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00091,5493518648263,25031,PSQ-0536,PASTILLAS DE CLORO MULTIACCION X1KG,4,3992.13,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00092,5493518648263,25031,PSQ-0735,VASO 110CC PLASTICO TRASLUCIDO X 100 (42),3,7032.23,4,Pedido: 3 caja (normalizado: 126 caja; equiv: 3 caja),true,false,false
+P-00092,5493518648263,25031,PSQ-0435,JABON PARA MANOS X1L,4,1004.55,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00092,5493518648263,25031,PSQ-0291,CUCHILLO BLANCO X 100 (1),3,1326.28,4,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00093,5493518648263,25031,PSQ-0112,BOLSA KRAFT DELIVERY N°6 20 X 11 X 30 X 50 U (5),5,4910.14,4,Pedido: 5 paquete (normalizado: 25 paquete; equiv: 5 paquete),true,false,false
+P-00093,5493518648263,25031,PSQ-0191,CABO 1.20MTS,3,1109.25,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00094,5493516216782,25032,PSQ-0536,PASTILLAS DE CLORO MULTIACCION X1KG,2,4696.62,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00094,5493516216782,25032,PSQ-0524,PAPEL HIG JUMBO C/CH 8X300MTS ECO,2,6590.91,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00094,5493516216782,25032,PSQ-0666,SET PERFUMINA 100 LTS,5,15054.68,1,Pedido: 5 set (normalizado: 5 set; equiv: 5 set),true,false,false
+P-00095,5493516216782,25032,PSQ-0017,ANTI-HONGOS X 5LTS PSQUIMICA,3,12263.18,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00095,5493516216782,25032,PSQ-0663,SET LAVANDINA 100LTS,5,24320.00,1,Pedido: 5 set (normalizado: 5 set; equiv: 5 set),true,false,false
+P-00095,5493516216782,25032,PSQ-0520,PAPEL HIG ELEG/FELPITA 4x30 MTS,1,1493.93,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00095,5493516216782,25032,PSQ-0174,BOLSAS CONSORCIO 60X90 X 10 UNI,4,810.74,1,Pedido: 4 paquete (normalizado: 40 paquete; equiv: 4 paquete),true,false,false
+P-00096,5493516216782,25032,PSQ-0651,SET FAB DESENGRASANTE X 100LTS,1,38347.11,1,Pedido: 1 set (normalizado: 1 set; equiv: 1 set),true,false,false
+P-00096,5493516216782,25032,PSQ-0318,DETERGENTE USO DIRECTO X5L,2,5386.54,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00096,5493516216782,25032,PSQ-0738,VASO 500ML TRASL X 50UNI,5,4085.09,1,Pedido: 5 caja (normalizado: 250 caja; equiv: 5 caja),true,false,false
+P-00097,5492612780568,25033,PSQ-0721,TRAPO DE PISO BLANCO LA NACIONAL,1,1453.19,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00097,5492612780568,25033,PSQ-0141,BOLSA PPP 20 X 30 X 100 U(10),2,1845.77,2,Pedido: 2 paquete (normalizado: 20 paquete; equiv: 2 paquete),true,false,false
+P-00097,5492612780568,25033,PSQ-0175,BOLSAS CONSORCIO 60X90 X 50 UNI,5,4666.06,2,Pedido: 5 paquete (normalizado: 250 paquete; equiv: 5 paquete),true,false,false
+P-00098,5492612780568,25033,PSQ-0538,PATO BLOQUE ADH X 3 UNID,3,3216.48,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00098,5492612780568,25033,PSQ-0561,PORTA VASOS CAFE X 50 UNI,3,5106.70,2,Pedido: 3 caja (normalizado: 150 caja; equiv: 3 caja),true,false,false
+P-00098,5492612780568,25033,PSQ-0297,DESENGRASANTE P-25 X 1L,1,1667.79,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00099,5492612780568,25033,PSQ-0524,PAPEL HIG JUMBO C/CH 8X300MTS ECO,2,7579.55,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00100,5493582639964,25034,PSQ-0551,PLATO 22CM BLANCO X 50 U (20),2,1936.12,3,Pedido: 2 caja (normalizado: 40 caja; equiv: 2 caja),true,false,false
+P-00101,5493582639964,25034,PSQ-0648,SERVILLETA SM 33X33 BLANCA,3,6794.63,3,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00102,5493582639964,25034,PSQ-0721,TRAPO DE PISO BLANCO LA NACIONAL,1,1137.28,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00103,5493814729528,25035,PSQ-0180,BOLSAS RESIDUOS 45X60 X 50 UNI,5,1001.04,4,Pedido: 5 paquete (normalizado: 250 paquete; equiv: 5 paquete),true,false,false
+P-00103,5493814729528,25035,PSQ-0052,BALDE 10LTS,4,1721.43,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00103,5493814729528,25035,PSQ-0543,PERFUMINA X 5L,1,1898.36,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00104,5493814729528,25035,PSQ-0738,VASO 500ML TRASL X 50UNI,2,3472.33,4,Pedido: 2 caja (normalizado: 100 caja; equiv: 2 caja),true,false,false
+P-00104,5493814729528,25035,PSQ-0205,CAJA PIZZA GRIS CORRUGADA X 50U,2,19092.83,4,Pedido: 2 caja (normalizado: 100 caja; equiv: 2 caja),true,false,false
+P-00105,5493814729528,25035,PSQ-0550,PLATO 17CM BLANCO X 50 U (20),1,1462.84,4,Pedido: 1 caja (normalizado: 20 caja; equiv: 1 caja),true,false,false
+P-00105,5493814729528,25035,PSQ-0732,VALERINA / PAÑO AMARILLO,5,415.83,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00105,5493814729528,25035,PSQ-0687,SUAVIZANTE PARA ROPA X1L,1,981.01,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493814729528,25035,PSQ-0618,ROLLO COCINA FELPITA X 200PAÑOS,3,1619.56,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00106,5493876922419,25036,PSQ-0727,TRAPO DE PISO MR TRAPO BLANCO,2,901.16,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00106,5493876922419,25036,PSQ-0538,PATO BLOQUE ADH X 3 UNID,2,2796.94,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00107,5493876922419,25036,PSQ-0721,TRAPO DE PISO BLANCO LA NACIONAL,3,1263.64,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00108,5493876922419,25036,PSQ-0687,SUAVIZANTE PARA ROPA X1L,2,1154.13,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00109,5492618889598,25037,PSQ-0281,CUCHARA SOPERA X 100(1),4,4421.37,2,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00109,5492618889598,25037,PSQ-0201,CAJA LOMO GRANDE CARTON X 100 (1),1,8585.49,2,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00110,5492618889598,25037,PSQ-0650,SET COMBO 4X50 LT (JAB-SUA-DES-PERF),3,50181.81,2,Pedido: 3 set (normalizado: 3 set; equiv: 3 set),true,false,false
+P-00110,5492618889598,25037,PSQ-0191,CABO 1.20MTS,4,1500.75,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00110,5492618889598,25037,PSQ-0205,CAJA PIZZA GRIS CORRUGADA X 50U,5,25831.47,2,Pedido: 5 caja (normalizado: 250 caja; equiv: 5 caja),true,false,false
+P-00111,5492618889598,25037,PSQ-0318,DETERGENTE USO DIRECTO X5L,1,6194.52,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00111,5492618889598,25037,PSQ-0663,SET LAVANDINA 100LTS,1,27968.00,2,Pedido: 1 set (normalizado: 1 set; equiv: 1 set),true,false,false
+P-00112,5492615021286,25038,PSQ-0297,DESENGRASANTE P-25 X 1L,1,1305.23,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00112,5492615021286,25038,PSQ-0329,ELIMINADOR DE OLORES PSQ X U. (1LT),4,1020.87,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00112,5492615021286,25038,PSQ-0174,BOLSAS CONSORCIO 60X90 X 10 UNI,2,729.67,3,Pedido: 2 paquete (normalizado: 20 paquete; equiv: 2 paquete),true,false,false
+P-00113,5492615021286,25038,PSQ-0009,ALA EN POLVO 800GRS,5,3263.58,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00113,5492615021286,25038,PSQ-0016,ANTI-HONGOS GATILLO 500ML PSQ,1,1576.78,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00113,5492615021286,25038,PSQ-0218,CAMISETA 50 X 70 MUNDI MAX X PAQ (20),1,5128.67,3,Pedido: 1 paquete (normalizado: 20 paquete; equiv: 1 paquete),true,false,false
+P-00114,5492615021286,25038,PSQ-0721,TRAPO DE PISO BLANCO LA NACIONAL,3,1137.28,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00114,5492615021286,25038,PSQ-0012,ALCOHOL EN GEL 1LT,5,1919.46,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00114,5492615021286,25038,PSQ-0658,SET FAB JABON PLUS X 100LTS ARIEL/SKIP,2,50690.08,3,Pedido: 2 set (normalizado: 2 set; equiv: 2 set),true,false,false
+P-00115,5493813520000,25039,PSQ-0650,SET COMBO 4X50 LT (JAB-SUA-DES-PERF),1,37090.91,4,Pedido: 1 set (normalizado: 1 set; equiv: 1 set),true,false,false
+P-00116,5493813520000,25039,PSQ-0174,BOLSAS CONSORCIO 60X90 X 10 UNI,1,689.13,4,Pedido: 1 paquete (normalizado: 10 paquete; equiv: 1 paquete),true,false,false
+P-00116,5493813520000,25039,PSQ-0645,SERVILLETA 18X18 X 1000,1,5861.12,4,Pedido: 1 caja (normalizado: 1 caja; equiv: 1 caja),true,false,false
+P-00116,5493813520000,25039,PSQ-0580,QUITAMANCHAS X 1LT,1,1274.65,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00117,5493813520000,25039,PSQ-0561,PORTA VASOS CAFE X 50 UNI,2,3774.52,4,Pedido: 2 caja (normalizado: 100 caja; equiv: 2 caja),true,false,false
+P-00117,5493813520000,25039,PSQ-0569,POTE LISO 250CC 088 X 50U (900),2,2148.07,4,Pedido: 2 paquete (normalizado: 1800 paquete; equiv: 2 paquete),true,false,false
+P-00117,5493813520000,25039,PSQ-0436,JABON PARA MANOS X5L,3,3043.14,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00117,5493813520000,25039,PSQ-0618,ROLLO COCINA FELPITA X 200PAÑOS,4,1619.56,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00118,5492997489876,25040,PSQ-0199,CAJA HAMBURGUEZA MICROCORRUGADA X100U,4,22179.71,1,Pedido: 4 caja (normalizado: 400 caja; equiv: 4 caja),true,false,false
+P-00119,5492997489876,25040,PSQ-0174,BOLSAS CONSORCIO 60X90 X 10 UNI,1,810.74,1,Pedido: 1 paquete (normalizado: 10 paquete; equiv: 1 paquete),true,false,false
+P-00120,5492997489876,25040,PSQ-0645,SERVILLETA 18X18 X 1000,3,6895.44,1,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00120,5492997489876,25040,PSQ-0543,PERFUMINA X 5L,4,2233.37,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00121,5492612928724,0,PSQ-0721,TRAPO DE PISO BLANCO LA NACIONAL,3,1453.19,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5492612928724,0,PSQ-0550,PLATO 17CM BLANCO X 50 U (20),2,1979.14,2,Pedido: 2 caja (normalizado: 40 caja; equiv: 2 caja),true,false,false
+P-00121,5492612928724,0,PSQ-0619,ROLLO DE ALUMINIO X 1KG DPM/INCA (12),5,9238.16,2,Pedido: 5 paquete (normalizado: 60 paquete; equiv: 5 paquete),true,false,false
+P-00121,5492612928724,0,PSQ-0582,QUITASARRO GATILLO 500ML PSQ,2,2454.92,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00122,5492612928724,0,PSQ-0198,CAJA EMPANADA X 100U,3,8978.85,2,Pedido: 3 caja (normalizado: 300 caja; equiv: 3 caja),true,false,false
+P-00123,5492612928724,0,PSQ-0759,VIRULANA,4,734.14,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00124,5492617236955,0,PSQ-0054,BALDE C/ ESCURRIDOR HACENDOZA 9L,5,4350.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00124,5492617236955,0,PSQ-0619,ROLLO DE ALUMINIO X 1KG DPM/INCA (12),1,8033.18,1,Pedido: 1 paquete (normalizado: 12 paquete; equiv: 1 paquete),true,false,false
+P-00125,5492617236955,0,PSQ-0717,TOALLA INTERCALADA EXTRA BLANCO X 2000UNI,3,9287.19,1,Pedido: 3 paquete (normalizado: 6000 paquete; equiv: 3 paquete),true,false,false
+P-00125,5492617236955,0,PSQ-0199,CAJA HAMBURGUEZA MICROCORRUGADA X100U,3,22179.71,1,Pedido: 3 caja (normalizado: 300 caja; equiv: 3 caja),true,false,false
+P-00125,5492617236955,0,PSQ-0054,BALDE C/ ESCURRIDOR HACENDOZA 9L,5,4350.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00125,5492617236955,0,PSQ-0538,PATO BLOQUE ADH X 3 UNID,4,2796.94,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00126,5492617236955,0,PSQ-0295,DESENGRASANTE 500ML PSQUIMICA,5,1965.87,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00126,5492617236955,0,PSQ-0348,ESCOBILLON ANDEN PLAST 60CM C/CABO,3,7309.92,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00126,5492617236955,0,PSQ-0663,SET LAVANDINA 100LTS,5,24320.00,1,Pedido: 5 set (normalizado: 5 set; equiv: 5 set),true,false,false
+P-00127,5492617413812,0,PSQ-0712,TENEDOR BLANCO X 100 (1),3,2360.42,4,Pedido: 3 caja (normalizado: 3 caja; equiv: 3 caja),true,false,false
+P-00127,5492617413812,0,PSQ-0550,PLATO 17CM BLANCO X 50 U (20),3,1462.84,4,Pedido: 3 caja (normalizado: 60 caja; equiv: 3 caja),true,false,false
+P-00127,5492617413812,0,PSQ-0687,SUAVIZANTE PARA ROPA X1L,1,981.01,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00128,5492617413812,0,PSQ-0616,ROLLO COCINA ELEG 3X50PAÑOS,5,1119.05,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00128,5492617413812,0,PSQ-0180,BOLSAS RESIDUOS 45X60 X 50 UNI,5,1001.04,4,Pedido: 5 paquete (normalizado: 250 paquete; equiv: 5 paquete),true,false,false
+P-00128,5492617413812,0,PSQ-0205,CAJA PIZZA GRIS CORRUGADA X 50U,5,19092.83,4,Pedido: 5 caja (normalizado: 250 caja; equiv: 5 caja),true,false,false
+P-00129,5492617413812,0,PSQ-0666,SET PERFUMINA 100 LTS,1,12796.48,4,Pedido: 1 set (normalizado: 1 set; equiv: 1 set),true,false,false
+P-00130,5492998066543,0,PSQ-0212,CAMISETA 40 X 50 ECO MUNDI POLIM. X PAQ (20),5,1777.68,3,Pedido: 5 paquete (normalizado: 100 paquete; equiv: 5 paquete),true,false,false
+P-00130,5492998066543,0,PSQ-0551,PLATO 22CM BLANCO X 50 U (20),1,1936.12,3,Pedido: 1 caja (normalizado: 20 caja; equiv: 1 caja),true,false,false
+P-00131,5492998066543,0,PSQ-0727,TRAPO DE PISO MR TRAPO BLANCO,4,811.04,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00131,5492998066543,0,PSQ-0180,BOLSAS RESIDUOS 45X60 X 50 UNI,2,1059.92,3,Pedido: 2 paquete (normalizado: 100 paquete; equiv: 2 paquete),true,false,false
+P-00131,5492998066543,0,PSQ-0485,MOPA MR TRAPO,5,1971.52,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00132,5492998066543,0,PSQ-0574,QUITA SARRO X1L,2,872.48,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00132,5492998066543,0,PSQ-0297,DESENGRASANTE P-25 X 1L,5,1305.23,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00132,5492998066543,0,PSQ-0174,BOLSAS CONSORCIO 60X90 X 10 UNI,1,729.67,3,Pedido: 1 paquete (normalizado: 10 paquete; equiv: 1 paquete),true,false,false
+P-00133,5492999435946,0,PSQ-0329,ELIMINADOR DE OLORES PSQ X U. (1LT),5,1020.87,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00134,5492999435946,0,PSQ-0735,VASO 110CC PLASTICO TRASLUCIDO X 100 (42),2,7445.89,3,Pedido: 2 caja (normalizado: 84 caja; equiv: 2 caja),true,false,false
+P-00134,5492999435946,0,PSQ-0013,ALCOHOL EN GEL X5L,4,14090.54,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00134,5492999435946,0,PSQ-0110,BOLSA KRAFT DELIVERY N°4 12.5 X 7 X 24 X 50 U (20),4,2893.99,3,Pedido: 4 paquete (normalizado: 80 paquete; equiv: 4 paquete),true,false,false
+P-00135,5492999435946,0,PSQ-0574,QUITA SARRO X1L,1,872.48,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00135,5492999435946,0,PSQ-0583,RAID CASA Y JARDIN,1,4497.40,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00135,5492999435946,0,PSQ-0330,ELIMINADOR DE OLORES PSQ X U. (500ML),4,765.76,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00136,5493416524997,0,PSQ-0121,BOLSA PANADERIA KRAFT N 5 - X 100U.(20),4,2173.00,1,Pedido: 4 paquete (normalizado: 80 paquete; equiv: 4 paquete),true,false,false
+P-00137,5493416524997,0,PSQ-0542,PERFUMINA X 1L,1,775.54,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00138,5493416524997,0,PSQ-0538,PATO BLOQUE ADH X 3 UNID,3,2796.94,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00138,5493416524997,0,PSQ-0175,BOLSAS CONSORCIO 60X90 X 50 UNI,2,4057.44,1,Pedido: 2 paquete (normalizado: 100 paquete; equiv: 2 paquete),true,false,false
+P-00138,5493416524997,0,PSQ-0110,BOLSA KRAFT DELIVERY N°4 12.5 X 7 X 24 X 50 U (20),1,3215.54,1,Pedido: 1 paquete (normalizado: 20 paquete; equiv: 1 paquete),true,false,false
+P-00138,5493416524997,0,PSQ-0462,LIMPIAVIDRIOS GATILLO 475ML PSQ,2,1671.69,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00139,5493517632424,0,PSQ-0561,PORTA VASOS CAFE X 50 UNI,2,3774.52,4,Pedido: 2 caja (normalizado: 100 caja; equiv: 2 caja),true,false,false
+P-00139,5493517632424,0,PSQ-0058,BANDEJA 101 PP X 100 (12),3,5076.40,4,Pedido: 3 caja (normalizado: 36 caja; equiv: 3 caja),true,false,false
+P-00139,5493517632424,0,PSQ-0520,PAPEL HIG ELEG/FELPITA 4x30 MTS,4,1269.84,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00140,5493517632424,0,PSQ-0717,TOALLA INTERCALADA EXTRA BLANCO X 2000UNI,3,7894.11,4,Pedido: 3 paquete (normalizado: 6000 paquete; equiv: 3 paquete),true,false,false
+P-00140,5493517632424,0,PSQ-0405,FRIOCLEAN 500ML,2,549.34,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00140,5493517632424,0,PSQ-0738,VASO 500ML TRASL X 50UNI,1,3472.33,4,Pedido: 1 caja (normalizado: 50 caja; equiv: 1 caja),true,false,false
+P-00140,5493517632424,0,PSQ-0592,REJILLA TRICOLOR CHICA N36,1,654.71,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00141,5493517632424,0,PSQ-0686,SUAVIZANTE P/ROPA X5L,5,3566.34,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00141,5493517632424,0,PSQ-0618,ROLLO COCINA FELPITA X 200PAÑOS,1,1619.56,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00141,5493517632424,0,PSQ-0616,ROLLO COCINA ELEG 3X50PAÑOS,3,1119.05,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00141,5493517632424,0,PSQ-0204,CAJA PIZZA GRANDE ECO VERDE X 100U (1),1,19873.95,4,Pedido: 1 caja (normalizado: 100 caja; equiv: 1 caja),true,false,false
+P-00142,5493519107005,0,PSQ-0205,CAJA PIZZA GRIS CORRUGADA X 50U,1,25831.47,2,Pedido: 1 caja (normalizado: 50 caja; equiv: 1 caja),true,false,false
+P-00142,5493519107005,0,PSQ-0012,ALCOHOL EN GEL 1LT,4,2452.64,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00142,5493519107005,0,PSQ-0457,LIMPIA TAPIZADOS 500ML PSQ,3,791.69,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00142,5493519107005,0,PSQ-0538,PATO BLOQUE ADH X 3 UNID,5,3216.48,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00143,5493519107005,0,PSQ-0071,BANDEJA DE CARTON N2,2,1738.26,2,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,false,false
+P-00144,5493519107005,0,PSQ-0618,ROLLO COCINA FELPITA X 200PAÑOS,2,2191.18,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00144,5493519107005,0,PSQ-0175,BOLSAS CONSORCIO 60X90 X 50 UNI,2,4666.06,2,Pedido: 2 paquete (normalizado: 100 paquete; equiv: 2 paquete),true,false,false
+P-00145,5493874104594,0,PSQ-0732,VALERINA / PAÑO AMARILLO,2,440.29,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00146,5493874104594,0,PSQ-0330,ELIMINADOR DE OLORES PSQ X U. (500ML),5,765.76,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00146,5493874104594,0,PSQ-0580,QUITAMANCHAS X 1LT,4,1349.63,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00146,5493874104594,0,PSQ-0660,SET FAB SUAVIZANTE X 100LTS CONFORT/ VIVERE,3,38659.10,3,Pedido: 3 set (normalizado: 3 set; equiv: 3 set),true,false,false
+P-00146,5493874104594,0,PSQ-0317,DETERGENTE USO DIRECTO X1L,5,1133.41,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00147,5493874104594,0,PSQ-0121,BOLSA PANADERIA KRAFT N 5 - X 100U.(20),5,1955.70,3,Pedido: 5 paquete (normalizado: 100 paquete; equiv: 5 paquete),true,false,false
+P-00148,5493876499570,0,PSQ-0759,VIRULANA,2,734.14,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00148,5493876499570,0,PSQ-0317,DETERGENTE USO DIRECTO X1L,4,1448.24,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00148,5493876499570,0,PSQ-0009,ALA EN POLVO 800GRS,5,4170.13,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00149,5493876499570,0,PSQ-0051,AYUDIN CANASTAS P/INOD,4,2549.48,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00149,5493876499570,0,PSQ-0201,CAJA LOMO GRANDE CARTON X 100 (1),4,8585.49,2,Pedido: 4 caja (normalizado: 4 caja; equiv: 4 caja),true,false,false
+P-00149,5493876499570,0,PSQ-0091,BLOQUE HARPIC X 1UNI,4,4331.37,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00150,5493876499570,0,PSQ-0542,PERFUMINA X 1L,5,891.87,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00151,5493418277249,25004,PSQ-0016,ANTI-HONGOS GATILLO 500ML PSQ,1,1489.18,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad) - promo fase 2,true,true,true
+P-00152,5493587905250,25001,PSQ-0736,VASO 220 CC PLASTICO TRASLUCIDO X 50 (62),5,2852.98,2,Pedido: 5 caja (normalizado: 310 caja; equiv: 5 caja),true,true,false
+P-00152,5493587905250,25001,PSQ-0618,ROLLO COCINA FELPITA X 200PAÑOS,2,2191.18,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00153,5493582641213,25002,PSQ-0712,TENEDOR BLANCO X 100 (1),2,2499.27,3,Pedido: 2 caja (normalizado: 2 caja; equiv: 2 caja),true,true,false
+P-00154,5492991227644,25003,PSQ-0291,CUCHILLO BLANCO X 100 (1),5,1326.28,4,Pedido: 5 caja (normalizado: 5 caja; equiv: 5 caja),true,true,false
+P-00154,5492991227644,25003,PSQ-0439,JABON PLUS SKIP/ARIEL X5L,3,3523.63,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00154,5492991227644,25003,PSQ-0487,MULTIUSO AZULEJOS X 500ML PSQUIMICA,3,1038.55,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00155,5493587747641,25005,PSQ-0487,MULTIUSO AZULEJOS X 500ML PSQUIMICA,5,1405.09,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00155,5493587747641,25005,PSQ-0112,BOLSA KRAFT DELIVERY N°6 20 X 11 X 30 X 50 U (5),2,6643.14,2,Pedido: 2 paquete (normalizado: 10 paquete; equiv: 2 paquete),true,true,false
+P-00155,5493587747641,25005,PSQ-0561,PORTA VASOS CAFE X 50 UNI,4,5106.70,2,Pedido: 4 caja (normalizado: 200 caja; equiv: 4 caja),true,true,false
+P-00156,5492614053074,25006,PSQ-0592,REJILLA TRICOLOR CHICA N36,4,693.23,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00156,5492614053074,25006,PSQ-0524,PAPEL HIG JUMBO C/CH 8X300MTS ECO,1,5931.82,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00156,5492614053074,25006,PSQ-0198,CAJA EMPANADA X 100U,1,7026.93,3,Pedido: 1 caja (normalizado: 100 caja; equiv: 1 caja),true,true,false
+P-00157,5493514079279,25007,PSQ-0732,VALERINA / PAÑO AMARILLO,3,415.83,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00157,5493514079279,25007,PSQ-0660,SET FAB SUAVIZANTE X 100LTS CONFORT/ VIVERE,4,36511.37,4,Pedido: 4 set (normalizado: 4 set; equiv: 4 set),true,true,false
+P-00157,5493514079279,25007,PSQ-0180,BOLSAS RESIDUOS 45X60 X 50 UNI,5,1001.04,4,Pedido: 5 paquete (normalizado: 250 paquete; equiv: 5 paquete),true,true,false

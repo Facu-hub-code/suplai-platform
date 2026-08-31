@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493587905250,Bar El Palacio,25001,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493582641213,Restó La Cañada,25002,validado,2026-08-31T19:01:18.699750+00:00,,false
+5492991227644,Pizzería Güemes,25003,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493418277249,Parrilla Don Toto,25004,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493587747641,Rotisería Nueva Córdoba,25005,validado,2026-08-31T19:01:18.699750+00:00,,false
+5492614053074,Hostel Casa Naranja,25006,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493514079279,Café de la Merced,25007,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493876914178,Burger 25 de Mayo,25008,validado,2026-08-31T19:01:18.699750+00:00,,false
+5492617175545,Droguería San Martín,25009,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493818437953,Limpieza El Bidón,25010,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493582132179,Hotel Windsor,25011,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493872845902,Heladería Grido Centro,25012,validado,2026-08-31T19:01:18.699750+00:00,,false
+5492997670210,Bar La Vieja Usina,25013,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493811657614,Restó Alcorta,25014,validado,2026-08-31T19:01:18.699750+00:00,,false
+5492994145193,Pizzería Il Tano,25015,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493515971311,Parrilla El Rodeo,25016,validado,2026-08-31T19:01:18.699750+00:00,,false
+5492994228106,Rotisería Doña Rosa,25017,validado,2026-08-31T19:01:18.699750+00:00,,false
+5492998718887,Hostel Palatino,25018,validado,2026-08-31T19:01:18.699750+00:00,,false
+5492995028869,Café Costanera,25019,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493517304254,Burger Chato,25020,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493416986538,Droguería Colón,25021,validado,2026-08-31T19:01:18.699750+00:00,,false
+5492619239862,Limpieza Clean Max Sur,25022,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493513952681,Hotel Amerian,25023,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493414799650,Heladería Freddo Nueva Córdoba,25024,validado,2026-08-31T19:01:18.699750+00:00,,false
+5492992500733,Bar El Papagayo,25025,validado,2026-08-31T19:01:18.699750+00:00,,false
+5492615139305,Restó El Papagayo 2,25026,validado,2026-08-31T19:01:18.699750+00:00,,false
+5492618861463,Pizzería Banchero,25027,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493812941974,Parrilla La Estancia,25028,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493817404433,Rotisería El Cruce,25029,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493419686914,Hostel Alvear,25030,validado,2026-08-31T19:01:18.699750+00:00,,false
+5493518648263,Café del Buen Pastor,25031,existente,,,false
+5493516216782,Burger Smash Cerro,25032,existente,,,false
+5492612780568,Droguería Alberdi,25033,existente,,,false
+5493582639964,Limpieza Don Químico,25034,existente,,,false
+5493814729528,Hotel Sheraton Córdoba,25035,existente,,,false
+5493876922419,Heladería Nonna,25036,existente,,,false
+5492618889598,Bar La Cuba,25037,existente,,,false
+5492615021286,Restó El Papagayo Patio,25038,existente,,,false
+5493813520000,Pizzería 4 Caminos,25039,existente,,,false
+5492997489876,Parrilla Los Troncos,25040,existente,,,false
+5493519107005,Rotisería Jardín,0,no_validado,,PROSPECTO,true
+5493874104594,Hostel Loft 25,0,existente,,PROSPECTO,true
+5492617413812,Café La Casona,0,no_validado,,PROSPECTO,true
+5492617236955,Burger Smash Güemes,0,existente,,PROSPECTO,true
+5492612928724,Droguería La Calera,0,no_validado,,PROSPECTO,true
+5492999435946,Limpieza Marca Blanca,0,validado,2026-08-31T19:01:18.699750+00:00,PROSPECTO,true
+5493517632424,Hotel Azur,0,no_existente,,PROSPECTO,true
+5493416524997,Heladería Grido Calera,0,no_validado,,PROSPECTO,true
+5493876499570,Bar El Papagayo Norte,0,existente,,PROSPECTO,true
+5492998066543,Restó Sarmiento,0,no_validado,,PROSPECTO,true

@@ -1,0 +1,158 @@
+pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
+P-00001,25001,5493587905250,Bar El Palacio,2026-03-01 08:00:00,confirmado,64622.24,Pedido historico mock - Bar El Palacio,true,false,2
+P-00002,25001,5493587905250,Bar El Palacio,2026-03-18 09:19:07,entregado,5463.84,Pedido historico mock - Bar El Palacio,true,false,2
+P-00003,25001,5493587905250,Bar El Palacio,2026-04-04 10:38:14,facturado,16526.25,Pedido historico mock - Bar El Palacio,true,false,2
+P-00004,25002,5493582641213,Restó La Cañada,2026-03-08 11:11:23,entregado,19225.50,Pedido historico mock - Restó La Cañada,true,false,3
+P-00005,25002,5493582641213,Restó La Cañada,2026-03-25 12:30:30,facturado,1919.46,Pedido historico mock - Restó La Cañada,true,false,3
+P-00006,25002,5493582641213,Restó La Cañada,2026-08-03 08:00:00,confirmado,47949.25,Pedido historico mock - Restó La Cañada,true,false,3
+P-00007,25003,5492991227644,Pizzería Güemes,2026-03-15 14:22:46,facturado,8524.61,Pedido historico mock - Pizzería Güemes,true,false,4
+P-00008,25003,5492991227644,Pizzería Güemes,2026-08-05 09:07:00,confirmado,67208.18,Pedido historico mock - Pizzería Güemes,true,false,4
+P-00009,25003,5492991227644,Pizzería Güemes,2026-04-18 16:00:00,entregado,4968.69,Pedido historico mock - Pizzería Güemes,true,false,4
+P-00010,25004,5493418277249,Parrilla Don Toto,2026-03-22 17:33:09,confirmado,7801.65,Pedido historico mock - Parrilla Don Toto,true,false,1
+P-00011,25004,5493418277249,Parrilla Don Toto,2026-04-08 08:52:16,entregado,69322.50,Pedido historico mock - Parrilla Don Toto,true,false,1
+P-00012,25004,5493418277249,Parrilla Don Toto,2026-04-25 09:11:23,facturado,33614.74,Pedido historico mock - Parrilla Don Toto,true,false,1
+P-00013,25005,5493587747641,Rotisería Nueva Córdoba,2026-03-29 10:44:32,entregado,87212.21,Pedido historico mock - Rotisería Nueva Córdoba,true,false,2
+P-00014,25005,5493587747641,Rotisería Nueva Córdoba,2026-04-15 11:03:39,facturado,46696.98,Pedido historico mock - Rotisería Nueva Córdoba,true,false,2
+P-00015,25005,5493587747641,Rotisería Nueva Córdoba,2026-08-07 10:14:00,confirmado,3216.48,Pedido historico mock - Rotisería Nueva Córdoba,true,false,2
+P-00016,25006,5492614053074,Hostel Casa Naranja,2026-04-05 13:55:55,facturado,65933.73,Pedido historico mock - Hostel Casa Naranja,true,false,3
+P-00017,25006,5492614053074,Hostel Casa Naranja,2026-08-10 11:21:00,confirmado,24371.88,Pedido historico mock - Hostel Casa Naranja,true,false,3
+P-00018,25006,5492614053074,Hostel Casa Naranja,2026-05-09 15:33:09,entregado,65675.57,Pedido historico mock - Hostel Casa Naranja,true,false,3
+P-00019,25007,5493514079279,Café de la Merced,2026-08-12 12:28:00,confirmado,204337.95,Pedido historico mock - Café de la Merced,true,false,4
+P-00020,25007,5493514079279,Café de la Merced,2026-04-29 17:25:25,entregado,37478.70,Pedido historico mock - Café de la Merced,true,false,4
+P-00021,25007,5493514079279,Café de la Merced,2026-05-16 08:44:32,facturado,31155.64,Pedido historico mock - Café de la Merced,true,false,4
+P-00022,25008,5493876914178,Burger 25 de Mayo,2026-04-19 09:17:41,entregado,58679.60,Pedido historico mock - Burger 25 de Mayo,true,false,1
+P-00023,25008,5493876914178,Burger 25 de Mayo,2026-05-06 10:36:48,facturado,34852.38,Pedido historico mock - Burger 25 de Mayo,true,false,1
+P-00024,25008,5493876914178,Burger 25 de Mayo,2026-08-14 13:35:00,confirmado,2308.26,Pedido historico mock - Burger 25 de Mayo,true,false,1
+P-00025,25009,5492617175545,Droguería San Martín,2026-04-26 12:28:04,facturado,978.47,Pedido historico mock - Droguería San Martín,true,false,2
+P-00026,25009,5492617175545,Droguería San Martín,2026-08-17 14:42:00,confirmado,55786.12,Pedido historico mock - Droguería San Martín,true,false,2
+P-00027,25009,5492617175545,Droguería San Martín,2026-05-30 14:06:18,entregado,37065.89,Pedido historico mock - Droguería San Martín,true,false,2
+P-00028,25010,5493818437953,Limpieza El Bidón,2026-08-19 15:49:00,confirmado,5333.04,Pedido historico mock - Limpieza El Bidón,true,false,3
+P-00029,25010,5493818437953,Limpieza El Bidón,2026-05-20 16:58:34,entregado,3086.49,Pedido historico mock - Limpieza El Bidón,true,false,3
+P-00030,25010,5493818437953,Limpieza El Bidón,2026-03-06 17:17:41,facturado,64891.51,Pedido historico mock - Limpieza El Bidón,true,false,3
+P-00031,25011,5493582132179,Hotel Windsor,2026-05-10 08:50:50,entregado,30518.38,Pedido historico mock - Hotel Windsor,true,false,4
+P-00032,25011,5493582132179,Hotel Windsor,2026-05-27 09:09:57,facturado,11087.92,Pedido historico mock - Hotel Windsor,true,false,4
+P-00033,25011,5493582132179,Hotel Windsor,2026-03-13 10:28:04,confirmado,171532.09,Pedido historico mock - Hotel Windsor,true,false,4
+P-00034,25012,5493872845902,Heladería Grido Centro,2026-05-17 11:01:13,facturado,21064.00,Pedido historico mock - Heladería Grido Centro,true,false,1
+P-00035,25012,5493872845902,Heladería Grido Centro,2026-03-03 12:20:20,confirmado,45725.26,Pedido historico mock - Heladería Grido Centro,true,false,1
+P-00036,25012,5493872845902,Heladería Grido Centro,2026-03-20 13:39:27,entregado,4618.81,Pedido historico mock - Heladería Grido Centro,true,false,1
+P-00037,25013,5492997670210,Bar La Vieja Usina,2026-08-21 16:56:00,confirmado,45228.11,Pedido historico mock - Bar La Vieja Usina,true,false,2
+P-00038,25013,5492997670210,Bar La Vieja Usina,2026-03-10 15:31:43,entregado,210500.15,Pedido historico mock - Bar La Vieja Usina,true,false,2
+P-00039,25013,5492997670210,Bar La Vieja Usina,2026-03-27 16:50:50,facturado,261802.58,Pedido historico mock - Bar La Vieja Usina,true,false,2
+P-00040,25014,5493811657614,Restó Alcorta,2026-05-31 17:23:59,entregado,22134.16,Pedido historico mock - Restó Alcorta,true,false,3
+P-00041,25014,5493811657614,Restó Alcorta,2026-03-17 08:42:06,facturado,19575.00,Pedido historico mock - Restó Alcorta,true,false,3
+P-00042,25014,5493811657614,Restó Alcorta,2026-08-24 17:03:00,confirmado,3429.66,Pedido historico mock - Restó Alcorta,true,false,3
+P-00043,25015,5492994145193,Pizzería Il Tano,2026-03-07 10:34:22,facturado,39905.34,Pedido historico mock - Pizzería Il Tano,true,false,4
+P-00044,25015,5492994145193,Pizzería Il Tano,2026-03-24 11:53:29,confirmado,5595.52,Pedido historico mock - Pizzería Il Tano,true,false,4
+P-00045,25015,5492994145193,Pizzería Il Tano,2026-04-10 12:12:36,entregado,48269.81,Pedido historico mock - Pizzería Il Tano,true,false,4
+P-00046,25016,5493515971311,Parrilla El Rodeo,2026-03-14 13:45:45,confirmado,4887.28,Pedido historico mock - Parrilla El Rodeo,true,false,1
+P-00047,25016,5493515971311,Parrilla El Rodeo,2026-03-31 14:04:52,entregado,49296.66,Pedido historico mock - Parrilla El Rodeo,true,false,1
+P-00048,25016,5493515971311,Parrilla El Rodeo,2026-04-17 15:23:59,facturado,30085.08,Pedido historico mock - Parrilla El Rodeo,true,false,1
+P-00049,25017,5492994228106,Rotisería Doña Rosa,2026-03-21 16:56:08,entregado,13286.28,Pedido historico mock - Rotisería Doña Rosa,true,false,2
+P-00050,25017,5492994228106,Rotisería Doña Rosa,2026-04-07 17:15:15,facturado,13727.37,Pedido historico mock - Rotisería Doña Rosa,true,false,2
+P-00051,25017,5492994228106,Rotisería Doña Rosa,2026-08-25 08:10:00,confirmado,13264.11,Pedido historico mock - Rotisería Doña Rosa,true,false,2
+P-00052,25018,5492998718887,Hostel Palatino,2026-03-28 09:07:31,facturado,17369.44,Pedido historico mock - Hostel Palatino,true,false,3
+P-00053,25018,5492998718887,Hostel Palatino,2026-08-26 09:17:00,confirmado,88090.78,Pedido historico mock - Hostel Palatino,true,false,3
+P-00054,25018,5492998718887,Hostel Palatino,2026-05-01 11:45:45,entregado,4115.32,Pedido historico mock - Hostel Palatino,true,false,3
+P-00055,25019,5492995028869,Café Costanera,2026-08-26 10:24:00,confirmado,28282.96,Pedido historico mock - Café Costanera,true,false,4
+P-00056,25019,5492995028869,Café Costanera,2026-04-21 13:37:01,entregado,21582.75,Pedido historico mock - Café Costanera,true,false,4
+P-00057,25019,5492995028869,Café Costanera,2026-05-08 14:56:08,facturado,215942.15,Pedido historico mock - Café Costanera,true,false,4
+P-00058,25020,5493517304254,Burger Chato,2026-04-11 15:29:17,entregado,51868.26,Pedido historico mock - Burger Chato,true,false,1
+P-00059,25020,5493517304254,Burger Chato,2026-04-28 16:48:24,facturado,77331.09,Pedido historico mock - Burger Chato,true,false,1
+P-00060,25020,5493517304254,Burger Chato,2026-08-27 11:31:00,confirmado,20370.25,Pedido historico mock - Burger Chato,true,false,1
+P-00061,25021,5493416986538,Droguería Colón,2026-04-18 08:40:40,facturado,24983.94,Pedido historico mock - Droguería Colón,true,false,2
+P-00062,25021,5493416986538,Droguería Colón,2026-08-27 12:38:00,confirmado,12912.76,Pedido historico mock - Droguería Colón,true,false,2
+P-00063,25021,5493416986538,Droguería Colón,2026-05-22 10:18:54,entregado,32698.28,Pedido historico mock - Droguería Colón,true,false,2
+P-00064,25022,5492619239862,Limpieza Clean Max Sur,2026-08-28 13:45:00,confirmado,49642.95,Pedido historico mock - Limpieza Clean Max Sur,true,false,3
+P-00065,25022,5492619239862,Limpieza Clean Max Sur,2026-05-12 12:10:10,entregado,27117.15,Pedido historico mock - Limpieza Clean Max Sur,true,false,3
+P-00066,25022,5492619239862,Limpieza Clean Max Sur,2026-05-29 13:29:17,facturado,20113.41,Pedido historico mock - Limpieza Clean Max Sur,true,false,3
+P-00067,25023,5493513952681,Hotel Amerian,2026-05-02 14:02:26,entregado,33238.32,Pedido historico mock - Hotel Amerian,true,false,4
+P-00068,25023,5493513952681,Hotel Amerian,2026-05-19 15:21:33,facturado,1828.55,Pedido historico mock - Hotel Amerian,true,false,4
+P-00069,25023,5493513952681,Hotel Amerian,2026-03-05 16:40:40,confirmado,7593.44,Pedido historico mock - Hotel Amerian,true,false,4
+P-00070,25024,5493414799650,Heladería Freddo Nueva Córdoba,2026-05-09 17:13:49,facturado,42061.61,Pedido historico mock - Heladería Freddo Nueva Córdoba,true,false,1
+P-00071,25024,5493414799650,Heladería Freddo Nueva Córdoba,2026-08-28 14:52:00,confirmado,6883.96,Pedido historico mock - Heladería Freddo Nueva Córdoba,true,false,1
+P-00072,25024,5493414799650,Heladería Freddo Nueva Córdoba,2026-03-12 09:51:03,entregado,26365.95,Pedido historico mock - Heladería Freddo Nueva Córdoba,true,false,1
+P-00073,25025,5492992500733,Bar El Papagayo,2026-08-29 15:59:00,confirmado,30972.76,Pedido historico mock - Bar El Papagayo,true,false,2
+P-00074,25025,5492992500733,Bar El Papagayo,2026-03-02 11:43:19,entregado,88783.38,Pedido historico mock - Bar El Papagayo,true,false,2
+P-00075,25025,5492992500733,Bar El Papagayo,2026-03-19 12:02:26,facturado,10604.02,Pedido historico mock - Bar El Papagayo,true,false,2
+P-00076,25026,5492615139305,Restó El Papagayo 2,2026-05-23 13:35:35,entregado,13492.20,Pedido historico mock - Restó El Papagayo 2,true,false,3
+P-00077,25026,5492615139305,Restó El Papagayo 2,2026-03-09 14:54:42,facturado,92511.46,Pedido historico mock - Restó El Papagayo 2,true,false,3
+P-00078,25026,5492615139305,Restó El Papagayo 2,2026-03-26 15:13:49,confirmado,24637.08,Pedido historico mock - Restó El Papagayo 2,true,false,3
+P-00079,25027,5492618861463,Pizzería Banchero,2026-05-30 16:46:58,facturado,6630.58,Pedido historico mock - Pizzería Banchero,true,false,4
+P-00080,25027,5492618861463,Pizzería Banchero,2026-03-16 17:05:05,confirmado,24609.25,Pedido historico mock - Pizzería Banchero,true,false,4
+P-00081,25027,5492618861463,Pizzería Banchero,2026-04-02 08:24:12,entregado,18168.04,Pedido historico mock - Pizzería Banchero,true,false,4
+P-00082,25028,5493812941974,Parrilla La Estancia,2026-03-06 09:57:21,confirmado,197281.78,Pedido historico mock - Parrilla La Estancia,true,false,1
+P-00083,25028,5493812941974,Parrilla La Estancia,2026-03-23 10:16:28,entregado,25181.74,Pedido historico mock - Parrilla La Estancia,true,false,1
+P-00084,25028,5493812941974,Parrilla La Estancia,2026-04-09 11:35:35,facturado,25997.06,Pedido historico mock - Parrilla La Estancia,true,false,1
+P-00085,25029,5493817404433,Rotisería El Cruce,2026-03-13 12:08:44,entregado,14531.14,Pedido historico mock - Rotisería El Cruce,true,false,2
+P-00086,25029,5493817404433,Rotisería El Cruce,2026-03-30 13:27:51,facturado,54844.99,Pedido historico mock - Rotisería El Cruce,true,false,2
+P-00087,25029,5493817404433,Rotisería El Cruce,2026-08-29 16:06:00,confirmado,16468.80,Pedido historico mock - Rotisería El Cruce,true,false,2
+P-00088,25030,5493419686914,Hostel Alvear,2026-03-20 15:19:07,facturado,27586.96,Pedido historico mock - Hostel Alvear,true,false,3
+P-00089,25030,5493419686914,Hostel Alvear,2026-08-30 17:13:00,confirmado,15104.52,Pedido historico mock - Hostel Alvear,true,false,3
+P-00090,25030,5493419686914,Hostel Alvear,2026-04-23 17:57:21,entregado,6553.79,Pedido historico mock - Hostel Alvear,true,false,3
+P-00091,25031,5493518648263,Café del Buen Pastor,2026-03-27 08:30:30,confirmado,53379.97,Pedido historico mock - Café del Buen Pastor,true,false,4
+P-00092,25031,5493518648263,Café del Buen Pastor,2026-04-13 09:49:37,entregado,29093.73,Pedido historico mock - Café del Buen Pastor,true,false,4
+P-00093,25031,5493518648263,Café del Buen Pastor,2026-04-30 10:08:44,facturado,27878.45,Pedido historico mock - Café del Buen Pastor,true,false,4
+P-00094,25032,5493516216782,Burger Smash Cerro,2026-04-03 11:41:53,entregado,97848.46,Pedido historico mock - Burger Smash Cerro,true,false,1
+P-00095,25032,5493516216782,Burger Smash Cerro,2026-04-20 12:00:00,facturado,163126.43,Pedido historico mock - Burger Smash Cerro,true,false,1
+P-00096,25032,5493516216782,Burger Smash Cerro,2026-08-30 08:20:00,confirmado,69545.64,Pedido historico mock - Burger Smash Cerro,true,false,1
+P-00097,25033,5492612780568,Droguería Alberdi,2026-04-10 14:52:16,facturado,28475.03,Pedido historico mock - Droguería Alberdi,true,false,2
+P-00098,25033,5492612780568,Droguería Alberdi,2026-08-31 09:27:00,confirmado,26637.33,Pedido historico mock - Droguería Alberdi,true,false,2
+P-00099,25033,5492612780568,Droguería Alberdi,2026-05-14 16:30:30,entregado,15159.10,Pedido historico mock - Droguería Alberdi,true,false,2
+P-00100,25034,5493582639964,Limpieza Don Químico,2026-08-31 10:34:00,confirmado,3872.24,Pedido historico mock - Limpieza Don Químico,true,false,3
+P-00101,25034,5493582639964,Limpieza Don Químico,2026-05-04 08:22:46,entregado,20383.89,Pedido historico mock - Limpieza Don Químico,true,false,3
+P-00102,25034,5493582639964,Limpieza Don Químico,2026-05-21 09:41:53,facturado,1137.28,Pedido historico mock - Limpieza Don Químico,true,false,3
+P-00103,25035,5493814729528,Hotel Sheraton Córdoba,2026-04-24 10:14:02,entregado,13789.28,Pedido historico mock - Hotel Sheraton Córdoba,true,false,4
+P-00104,25035,5493814729528,Hotel Sheraton Córdoba,2026-05-11 11:33:09,facturado,45130.32,Pedido historico mock - Hotel Sheraton Córdoba,true,false,4
+P-00105,25035,5493814729528,Hotel Sheraton Córdoba,2026-08-03 11:41:00,confirmado,9381.68,Pedido historico mock - Hotel Sheraton Córdoba,true,false,4
+P-00106,25036,5493876922419,Heladería Nonna,2026-05-01 13:25:25,facturado,7396.20,Pedido historico mock - Heladería Nonna,true,false,1
+P-00107,25036,5493876922419,Heladería Nonna,2026-08-05 12:48:00,confirmado,3790.92,Pedido historico mock - Heladería Nonna,true,false,1
+P-00108,25036,5493876922419,Heladería Nonna,2026-03-04 15:03:39,entregado,2308.26,Pedido historico mock - Heladería Nonna,true,false,1
+P-00109,25037,5492618889598,Bar La Cuba,2026-08-07 13:55:00,confirmado,26270.97,Pedido historico mock - Bar La Cuba,true,false,2
+P-00110,25037,5492618889598,Bar La Cuba,2026-05-25 17:55:55,entregado,285705.78,Pedido historico mock - Bar La Cuba,true,false,2
+P-00111,25037,5492618889598,Bar La Cuba,2026-03-11 08:14:02,facturado,34162.52,Pedido historico mock - Bar La Cuba,true,false,2
+P-00112,25038,5492615021286,Restó El Papagayo Patio,2026-05-15 09:47:11,entregado,6848.05,Pedido historico mock - Restó El Papagayo Patio,true,false,3
+P-00113,25038,5492615021286,Restó El Papagayo Patio,2026-03-01 10:06:18,facturado,23023.35,Pedido historico mock - Restó El Papagayo Patio,true,false,3
+P-00114,25038,5492615021286,Restó El Papagayo Patio,2026-03-18 11:25:25,confirmado,114389.30,Pedido historico mock - Restó El Papagayo Patio,true,false,3
+P-00115,25039,5493813520000,Pizzería 4 Caminos,2026-05-22 12:58:34,facturado,37090.91,Pedido historico mock - Pizzería 4 Caminos,true,false,4
+P-00116,25039,5493813520000,Pizzería 4 Caminos,2026-03-08 13:17:41,confirmado,7824.90,Pedido historico mock - Pizzería 4 Caminos,true,false,4
+P-00117,25039,5493813520000,Pizzería 4 Caminos,2026-03-25 14:36:48,entregado,27452.84,Pedido historico mock - Pizzería 4 Caminos,true,false,4
+P-00118,25040,5492997489876,Parrilla Los Troncos,2026-08-10 14:02:00,confirmado,88718.84,Pedido historico mock - Parrilla Los Troncos,true,false,1
+P-00119,25040,5492997489876,Parrilla Los Troncos,2026-03-15 16:28:04,entregado,810.74,Pedido historico mock - Parrilla Los Troncos,true,false,1
+P-00120,25040,5492997489876,Parrilla Los Troncos,2026-04-01 17:47:11,facturado,29619.80,Pedido historico mock - Parrilla Los Troncos,true,false,1
+P-00121,0,5492612928724,Droguería La Calera,2026-03-05 08:20:20,entregado,59418.49,Pedido historico mock - Droguería La Calera,true,false,2
+P-00122,0,5492612928724,Droguería La Calera,2026-03-22 09:39:27,facturado,26936.55,Pedido historico mock - Droguería La Calera,true,false,2
+P-00123,0,5492612928724,Droguería La Calera,2026-08-12 15:09:00,confirmado,2936.56,Pedido historico mock - Droguería La Calera,true,false,2
+P-00124,0,5492617236955,Burger Smash Güemes,2026-03-12 11:31:43,facturado,29783.18,Pedido historico mock - Burger Smash Güemes,true,false,1
+P-00125,0,5492617236955,Burger Smash Güemes,2026-03-29 12:50:50,confirmado,127338.46,Pedido historico mock - Burger Smash Güemes,true,false,1
+P-00126,0,5492617236955,Burger Smash Güemes,2026-04-15 13:09:57,entregado,153359.11,Pedido historico mock - Burger Smash Güemes,true,false,1
+P-00127,0,5492617413812,Café La Casona,2026-03-19 14:42:06,confirmado,12450.79,Pedido historico mock - Café La Casona,true,false,4
+P-00128,0,5492617413812,Café La Casona,2026-04-05 15:01:13,entregado,106064.60,Pedido historico mock - Café La Casona,true,false,4
+P-00129,0,5492617413812,Café La Casona,2026-04-22 16:20:20,facturado,12796.48,Pedido historico mock - Café La Casona,true,false,4
+P-00130,0,5492998066543,Restó Sarmiento,2026-03-26 17:53:29,entregado,10824.52,Pedido historico mock - Restó Sarmiento,true,false,3
+P-00131,0,5492998066543,Restó Sarmiento,2026-04-12 08:12:36,facturado,15221.60,Pedido historico mock - Restó Sarmiento,true,false,3
+P-00132,0,5492998066543,Restó Sarmiento,2026-08-14 16:16:00,confirmado,9000.78,Pedido historico mock - Restó Sarmiento,true,false,3
+P-00133,0,5492999435946,Limpieza Marca Blanca,2026-04-02 10:04:52,facturado,5104.35,Pedido historico mock - Limpieza Marca Blanca,true,false,3
+P-00134,0,5492999435946,Limpieza Marca Blanca,2026-08-17 17:23:00,confirmado,82829.90,Pedido historico mock - Limpieza Marca Blanca,true,false,3
+P-00135,0,5492999435946,Limpieza Marca Blanca,2026-05-06 12:42:06,entregado,8432.92,Pedido historico mock - Limpieza Marca Blanca,true,false,3
+P-00136,0,5493416524997,Heladería Grido Calera,2026-08-19 08:30:00,confirmado,8692.00,Pedido historico mock - Heladería Grido Calera,true,false,1
+P-00137,0,5493416524997,Heladería Grido Calera,2026-04-26 14:34:22,entregado,775.54,Pedido historico mock - Heladería Grido Calera,true,false,1
+P-00138,0,5493416524997,Heladería Grido Calera,2026-05-13 15:53:29,facturado,23064.62,Pedido historico mock - Heladería Grido Calera,true,false,1
+P-00139,0,5493517632424,Hotel Azur,2026-04-16 16:26:38,entregado,27857.60,Pedido historico mock - Hotel Azur,true,false,4
+P-00140,0,5493517632424,Hotel Azur,2026-05-03 17:45:45,facturado,28908.05,Pedido historico mock - Hotel Azur,true,false,4
+P-00141,0,5493517632424,Hotel Azur,2026-08-21 09:37:00,confirmado,42682.36,Pedido historico mock - Hotel Azur,true,false,4
+P-00142,0,5493519107005,Rotisería Jardín,2026-04-23 09:37:01,facturado,54099.50,Pedido historico mock - Rotisería Jardín,true,false,2
+P-00143,0,5493519107005,Rotisería Jardín,2026-08-24 10:44:00,confirmado,3476.52,Pedido historico mock - Rotisería Jardín,true,false,2
+P-00144,0,5493519107005,Rotisería Jardín,2026-05-27 11:15:15,entregado,13714.48,Pedido historico mock - Rotisería Jardín,true,false,2
+P-00145,0,5493874104594,Hostel Loft 25,2026-08-25 11:51:00,confirmado,880.58,Pedido historico mock - Hostel Loft 25,true,false,3
+P-00146,0,5493874104594,Hostel Loft 25,2026-05-17 13:07:31,entregado,130871.67,Pedido historico mock - Hostel Loft 25,true,false,3
+P-00147,0,5493874104594,Hostel Loft 25,2026-03-03 14:26:38,facturado,9778.50,Pedido historico mock - Hostel Loft 25,true,false,3
+P-00148,0,5493876499570,Bar El Papagayo Norte,2026-05-07 15:59:47,entregado,28111.89,Pedido historico mock - Bar El Papagayo Norte,true,false,2
+P-00149,0,5493876499570,Bar El Papagayo Norte,2026-05-24 16:18:54,facturado,61865.36,Pedido historico mock - Bar El Papagayo Norte,true,false,2
+P-00150,0,5493876499570,Bar El Papagayo Norte,2026-03-10 17:37:01,confirmado,4459.35,Pedido historico mock - Bar El Papagayo Norte,true,false,2
+P-00151,25004,5493418277249,Parrilla Don Toto,2026-08-31 11:15:00,abierto,1489.18,Pedido abierto mock - promo Fase 2 - Parrilla Don Toto,true,true,1
+P-00152,25001,5493587905250,Bar El Palacio,2026-08-31 11:15:13,pendiente,18647.26,Pedido abierto mock - Bar El Palacio,true,true,2
+P-00153,25002,5493582641213,Restó La Cañada,2026-08-31 11:15:26,abierto,4998.54,Pedido abierto mock - Restó La Cañada,true,true,3
+P-00154,25003,5492991227644,Pizzería Güemes,2026-08-31 11:15:39,pendiente,20317.94,Pedido abierto mock - Pizzería Güemes,true,true,4
+P-00155,25005,5493587747641,Rotisería Nueva Córdoba,2026-08-31 11:15:52,abierto,40738.53,Pedido abierto mock - Rotisería Nueva Córdoba,true,true,2
+P-00156,25006,5492614053074,Hostel Casa Naranja,2026-08-31 11:15:05,pendiente,15731.67,Pedido abierto mock - Hostel Casa Naranja,true,true,3
+P-00157,25007,5493514079279,Café de la Merced,2026-08-31 11:15:18,abierto,152298.17,Pedido abierto mock - Café de la Merced,true,true,4

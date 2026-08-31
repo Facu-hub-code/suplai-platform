@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2264,Calidad,open,Reclamo por VASO 220 CC PLASTICO TRASLUCIDO X 50 (62) con entrega en mal estado o faltante parcial.,5493587905250,"Hola, me llego VASO 220 CC PLASTICO TRASLUCIDO X 50 (62) en mal estado y quiero hacer el reclamo.",2026-08-31 11:15:00,,true
+TKT-2265,Calidad,open,Reclamo por TENEDOR BLANCO X 100 (1) con entrega en mal estado o faltante parcial.,5493582641213,"Hola, me llego TENEDOR BLANCO X 100 (1) en mal estado y quiero hacer el reclamo.",2026-08-30 08:15:00,,true
+TKT-2266,Calidad,open,Reclamo por CUCHILLO BLANCO X 100 (1) con entrega en mal estado o faltante parcial.,5492991227644,"Hola, me llego CUCHILLO BLANCO X 100 (1) en mal estado y quiero hacer el reclamo.",2026-08-29 05:15:00,,true
+TKT-2267,Logistica,open,Demora en la entrega del pedido P-00151 de ANTI-HONGOS GATILLO 500ML PSQ.,5493418277249,"Buen dia, sigo esperando el pedido P-00151 de ANTI-HONGOS GATILLO 500ML PSQ y no llego.",2026-08-31 02:15:00,,true
+TKT-2268,Logistica,open,Demora en la entrega del pedido P-00123 de VIRULANA.,5492612928724,"Buen dia, sigo esperando el pedido P-00123 de VIRULANA y no llego.",2026-08-30 11:15:00,,true
+TKT-2269,Logistica,open,Demora en la entrega del pedido P-00126 de DESENGRASANTE 500ML PSQUIMICA.,5492617236955,"Buen dia, sigo esperando el pedido P-00126 de DESENGRASANTE 500ML PSQUIMICA y no llego.",2026-08-29 08:15:00,,true
+TKT-2270,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Bar El Palacio.,5493587905250,,2026-08-31 05:15:00,,true
+TKT-2271,Administracion,open,Solicita corregir datos administrativos de Restó La Cañada en el sistema.,5493582641213,,2026-08-30 02:15:00,,true
+TKT-2272,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Pizzería Güemes.,5492991227644,,2026-08-29 11:15:00,,true
+TKT-2273,Administracion,open,Solicita corregir datos administrativos de Parrilla Don Toto en el sistema.,5493418277249,,2026-08-31 08:15:00,,true
+TKT-2274,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Droguería La Calera.,5492612928724,,2026-08-30 05:15:00,,true
+TKT-2275,Administracion,closed,Solicita corregir datos administrativos de Burger Smash Güemes en el sistema.,5492617236955,,2026-08-15 05:15:00,2026-08-15 20:15:00,true
+TKT-2276,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Café La Casona.,5492617413812,,2026-08-14 11:15:00,2026-08-15 03:15:00,true
+TKT-2277,Logistica,closed,Demora en la entrega del pedido P-00132 de QUITA SARRO X1L.,5492998066543,,2026-08-13 09:15:00,2026-08-14 02:15:00,true
+TKT-2278,Calidad,closed,Reclamo por QUITA SARRO X1L con entrega en mal estado o faltante parcial.,5492999435946,,2026-08-12 07:15:00,2026-08-13 01:15:00,true
+TKT-2279,Administracion,closed,Solicita corregir datos administrativos de Rotisería Nueva Córdoba en el sistema.,5493587747641,,2026-08-11 05:15:00,2026-08-12 00:15:00,true
+TKT-2280,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Hostel Casa Naranja.,5492614053074,,2026-08-26 11:15:00,2026-08-27 07:15:00,true
+TKT-2281,Logistica,closed,Demora en la entrega del pedido P-00157 de VALERINA / PAÑO AMARILLO.,5493514079279,,2026-08-25 09:15:00,2026-08-26 06:15:00,true

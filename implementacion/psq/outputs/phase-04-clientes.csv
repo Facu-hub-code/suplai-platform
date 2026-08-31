@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Bar El Palacio,Bar El Palacio,5493587905250,2,1,lunes,martes,"Zona ZONA NOROESTE - Alto Alberdi - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,0,-31.407287,-64.212999,true
+2,Restó La Cañada,Restó La Cañada,5493582641213,3,2,lunes,martes,"Zona ZONA NOROESTE - Alto Alberdi - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,0,-31.407326,-64.207102,true
+3,Pizzería Güemes,Pizzería Güemes,5492991227644,4,3,lunes,martes,"Zona ZONA NOROESTE - Alto Alberdi - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,0,-31.407133,-64.213214,true
+4,Parrilla Don Toto,Parrilla Don Toto,5493418277249,1,4,lunes,martes,"Zona ZONA NOROESTE - Alto Alberdi - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,0,-31.409891,-64.209587,true
+5,Rotisería Nueva Córdoba,Rotisería Nueva Córdoba,5493587747641,2,5,lunes,martes,"Zona ZONA NOROESTE - Alto Alberdi - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,0,-31.410127,-64.2102,true
+6,Hostel Casa Naranja,Hostel Casa Naranja,5492614053074,3,6,lunes,martes,"Zona ZONA NOROESTE - Alto Alberdi - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,0,-31.410889,-64.204039,true
+7,Café de la Merced,Café de la Merced,5493514079279,4,7,lunes,martes,"Zona ZONA NOROESTE - Alto Alberdi - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,0,-31.410269,-64.204778,true
+8,Burger 25 de Mayo,Burger 25 de Mayo,5493876914178,1,8,lunes,martes,"Zona ZONA NOROESTE - Alto Alberdi - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,0,-31.411634,-64.211514,true
+9,Droguería San Martín,Droguería San Martín,5492617175545,2,9,lunes,martes,"Zona ZONA NOROESTE - Alto Alberdi - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,0,-31.406541,-64.205795,true
+10,Limpieza El Bidón,Limpieza El Bidón,5493818437953,3,10,martes,miercoles,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,1,-31.411056,-64.19133,true
+11,Hotel Windsor,Hotel Windsor,5493582132179,4,11,martes,miercoles,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,1,-31.405318,-64.186719,true
+12,Heladería Grido Centro,Heladería Grido Centro,5493872845902,1,12,martes,miercoles,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,1,-31.411518,-64.183807,true
+13,Bar La Vieja Usina,Bar La Vieja Usina,5492997670210,2,13,martes,miercoles,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,1,-31.407795,-64.192481,true
+14,Restó Alcorta,Restó Alcorta,5493811657614,3,14,martes,miercoles,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,1,-31.411087,-64.189055,true
+15,Pizzería Il Tano,Pizzería Il Tano,5492994145193,4,15,martes,miercoles,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,1,-31.412561,-64.184352,true
+16,Parrilla El Rodeo,Parrilla El Rodeo,5493515971311,1,16,martes,miercoles,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,1,-31.407459,-64.192923,true
+17,Rotisería Doña Rosa,Rotisería Doña Rosa,5492994228106,2,17,martes,miercoles,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,1,-31.41053,-64.190472,true
+18,Hostel Palatino,Hostel Palatino,5492998718887,3,18,martes,miercoles,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",Facundo Peralta,0,1,-31.408478,-64.185981,true
+19,Café Costanera,Café Costanera,5492995028869,4,19,miercoles,jueves,"Zona ZONA NORESTE - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,2,-31.405849,-64.172868,true
+20,Burger Chato,Burger Chato,5493517304254,1,20,miercoles,jueves,"Zona ZONA NORESTE - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,2,-31.405558,-64.167626,true
+21,Droguería Colón,Droguería Colón,5493416986538,2,21,miercoles,jueves,"Zona ZONA NORESTE - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,2,-31.413162,-64.170123,true
+22,Limpieza Clean Max Sur,Limpieza Clean Max Sur,5492619239862,3,22,miercoles,jueves,"Zona ZONA NORESTE - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,2,-31.411992,-64.169092,true
+23,Hotel Amerian,Hotel Amerian,5493513952681,4,23,miercoles,jueves,"Zona ZONA NORESTE - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,2,-31.406961,-64.171758,true
+24,Heladería Freddo Nueva Córdoba,Heladería Freddo Nueva Córdoba,5493414799650,1,24,miercoles,jueves,"Zona ZONA NORESTE - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,2,-31.411296,-64.169901,true
+25,Bar El Papagayo,Bar El Papagayo,5492992500733,2,25,miercoles,jueves,"Zona ZONA NORESTE - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,2,-31.408572,-64.166186,true
+26,Restó El Papagayo 2,Restó El Papagayo 2,5492615139305,3,26,miercoles,jueves,"Zona ZONA NORESTE - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,2,-31.411758,-64.168937,true
+27,Pizzería Banchero,Pizzería Banchero,5492618861463,4,27,jueves,viernes,"Zona ZONA SUROESTE - Güemes - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,3,-31.431882,-64.206721,true
+28,Parrilla La Estancia,Parrilla La Estancia,5493812941974,1,28,jueves,viernes,"Zona ZONA SUROESTE - Güemes - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,3,-31.431493,-64.209877,true
+29,Rotisería El Cruce,Rotisería El Cruce,5493817404433,2,29,jueves,viernes,"Zona ZONA SUROESTE - Güemes - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,3,-31.426733,-64.208818,true
+30,Hostel Alvear,Hostel Alvear,5493419686914,3,30,jueves,viernes,"Zona ZONA SUROESTE - Güemes - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,3,-31.426716,-64.212555,true
+31,Café del Buen Pastor,Café del Buen Pastor,5493518648263,4,31,jueves,viernes,"Zona ZONA SUROESTE - Güemes - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,3,-31.43144,-64.205056,true
+32,Burger Smash Cerro,Burger Smash Cerro,5493516216782,1,32,jueves,viernes,"Zona ZONA SUROESTE - Güemes - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,3,-31.431131,-64.205308,true
+33,Droguería Alberdi,Droguería Alberdi,5492612780568,2,33,jueves,viernes,"Zona ZONA SUROESTE - Güemes - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,3,-31.433393,-64.209844,true
+34,Limpieza Don Químico,Limpieza Don Químico,5493582639964,3,34,jueves,viernes,"Zona ZONA SUROESTE - Güemes - Córdoba capital, Córdoba, Argentina",Luciana Toledo,1,3,-31.427246,-64.208998,true
+35,Hotel Sheraton Córdoba,Hotel Sheraton Córdoba,5493814729528,4,35,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Matías Soria,2,4,-31.429886,-64.191309,true
+36,Heladería Nonna,Heladería Nonna,5493876922419,1,36,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Matías Soria,2,4,-31.433445,-64.18826,true
+37,Bar La Cuba,Bar La Cuba,5492618889598,2,37,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Matías Soria,2,4,-31.427784,-64.18938,true
+38,Restó El Papagayo Patio,Restó El Papagayo Patio,5492615021286,3,38,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Matías Soria,2,4,-31.428922,-64.193574,true
+39,Pizzería 4 Caminos,Pizzería 4 Caminos,5493813520000,4,39,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Matías Soria,2,4,-31.431922,-64.19242,true
+40,Parrilla Los Troncos,Parrilla Los Troncos,5492997489876,1,40,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Matías Soria,2,4,-31.427299,-64.192246,true
+41,Rotisería Jardín,Rotisería Jardín,5493519107005,2,41,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Matías Soria,2,4,-31.430875,-64.191398,true
+42,Hostel Loft 25,Hostel Loft 25,5493874104594,3,42,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Matías Soria,2,4,-31.42579,-64.188485,true
+43,Café La Casona,Café La Casona,5492617413812,4,43,sabado,lunes,"Zona ZONA SURESTE - La Calera - Córdoba capital, Córdoba, Argentina",Matías Soria,2,5,-31.431537,-64.172034,true
+44,Burger Smash Güemes,Burger Smash Güemes,5492617236955,1,44,sabado,lunes,"Zona ZONA SURESTE - La Calera - Córdoba capital, Córdoba, Argentina",Matías Soria,2,5,-31.431997,-64.165685,true
+45,Droguería La Calera,Droguería La Calera,5492612928724,2,45,sabado,lunes,"Zona ZONA SURESTE - La Calera - Córdoba capital, Córdoba, Argentina",Matías Soria,2,5,-31.428709,-64.169543,true
+46,Limpieza Marca Blanca,Limpieza Marca Blanca,5492999435946,3,46,sabado,lunes,"Zona ZONA SURESTE - La Calera - Córdoba capital, Córdoba, Argentina",Matías Soria,2,5,-31.433408,-64.167851,true
+47,Hotel Azur,Hotel Azur,5493517632424,4,47,sabado,lunes,"Zona ZONA SURESTE - La Calera - Córdoba capital, Córdoba, Argentina",Matías Soria,2,5,-31.43046,-64.172507,true
+48,Heladería Grido Calera,Heladería Grido Calera,5493416524997,1,48,sabado,lunes,"Zona ZONA SURESTE - La Calera - Córdoba capital, Córdoba, Argentina",Matías Soria,2,5,-31.425872,-64.169656,true
+49,Bar El Papagayo Norte,Bar El Papagayo Norte,5493876499570,2,49,sabado,lunes,"Zona ZONA SURESTE - La Calera - Córdoba capital, Córdoba, Argentina",Matías Soria,2,5,-31.433902,-64.173017,true
+50,Restó Sarmiento,Restó Sarmiento,5492998066543,3,50,sabado,lunes,"Zona ZONA SURESTE - La Calera - Córdoba capital, Córdoba, Argentina",Matías Soria,2,5,-31.433294,-64.168021,true

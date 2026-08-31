@@ -1,0 +1,55 @@
+{
+  "modo": "demo",
+  "dominios": "psqargentina.com,mercadolibre.com.ar,jumbo.com.ar,carrefour.com.ar",
+  "sufijo_fallback": "limpieza descartable gastronomia argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS PSQ (Córdoba capital — limpieza y descartables):\n1. TIPO: químico de limpieza, descartable gastronómico, bolsa, papel, utensilio de limpieza o set de fabricación (marca blanca).\n2. MARCA: PSQ / PSQuimica es la propia. Clean Max es el e-commerce. No inventes marcas. Terceros: Ala, Ayudin, Raid, Harpic, Felpita, Elegante, Mr Trapo.\n3. UMV: el PdV gastronómico pide CAJA o PAQUETE (vasos x50, servilletas x1000, bandejas x100). Líquidos se piden por litro o bidón (1 L / 5 L).\n4. MARCA BLANCA: los SET FAB son kits para fabricar/etiquetar (100 L). No son un producto de góndola.\n5. ALIAS: incluir caja, paquete, bulto, gatillo, bidón, PSQ, código.\n6. NO ALUCINAR: no inventes dilución, registro ANMAT ni rendimiento que no esté en el nombre.",
+  "fase_06": {
+    "historicos_por_cliente": 3,
+    "abiertos": 7,
+    "historicos_inicio": "2026-03-01",
+    "historicos_fin": "2026-05-31"
+  },
+  "fase_07": {
+    "clientes_live_feed": 12,
+    "clientes_quejas": 4
+  },
+  "fase_08": {
+    "total_tickets": 18,
+    "open_ratio": 0.6,
+    "open_quality": 3,
+    "open_logistics": 3
+  },
+  "red_comercial": {
+    "coordenadas_centro": [-31.4201, -64.1888],
+    "vendedores": [
+      {"nombre": "Facundo Peralta", "telefono": "5493516012847", "email": "facundo.peralta@suplaisales.mock", "zona": "NORTE", "codigo_ruta": "R01"},
+      {"nombre": "Luciana Toledo", "telefono": "5493516183920", "email": "luciana.toledo@suplaisales.mock", "zona": "SUR", "codigo_ruta": "R02"},
+      {"nombre": "Matías Soria", "telefono": "5493516274108", "email": "matias.soria@suplaisales.mock", "zona": "OESTE", "codigo_ruta": "R03"}
+    ],
+    "zonas": [
+      {"nombre": "ZONA NOROESTE - Alto Alberdi", "dia_visita": "lunes", "color": "#E74C3C", "codigo_ruta": "R01-A", "zone_type": "sales", "description": "Alto Alberdi y avenidas Colón / Duarte Quirós.", "vendedor_idx": 0},
+      {"nombre": "ZONA NORTE - Cerro de las Rosas", "dia_visita": "martes", "color": "#E67E22", "codigo_ruta": "R01-B", "zone_type": "route", "description": "Cerro de las Rosas y Villa Belgrano.", "vendedor_idx": 0},
+      {"nombre": "ZONA NORESTE - Nueva Córdoba", "dia_visita": "miercoles", "color": "#27AE60", "codigo_ruta": "R02-A", "zone_type": "sales", "description": "Nueva Córdoba: bares, restós y delivery.", "vendedor_idx": 1},
+      {"nombre": "ZONA SUROESTE - Güemes", "dia_visita": "jueves", "color": "#2980B9", "codigo_ruta": "R02-B", "zone_type": "route", "description": "Güemes y Barrio Jardín.", "vendedor_idx": 1},
+      {"nombre": "ZONA SUR - Barrio Jardín", "dia_visita": "viernes", "color": "#8E44AD", "codigo_ruta": "R03-A", "zone_type": "sales", "description": "Barrio Jardín y zona sur.", "vendedor_idx": 2},
+      {"nombre": "ZONA SURESTE - La Calera", "dia_visita": "sabado", "color": "#F39C12", "codigo_ruta": "R03-B", "zone_type": "route", "description": "La Calera: ruta y centros comerciales.", "vendedor_idx": 2}
+    ],
+    "nombres_comerciales": [
+      "Bar El Palacio", "Restó La Cañada", "Pizzería Güemes", "Parrilla Don Toto",
+      "Rotisería Nueva Córdoba", "Hostel Casa Naranja", "Café de la Merced", "Burger 25 de Mayo",
+      "Droguería San Martín", "Limpieza El Bidón", "Hotel Windsor", "Heladería Grido Centro",
+      "Bar La Vieja Usina", "Restó Alcorta", "Pizzería Il Tano", "Parrilla El Rodeo",
+      "Rotisería Doña Rosa", "Hostel Palatino", "Café Costanera", "Burger Chato",
+      "Droguería Colón", "Limpieza Clean Max Sur", "Hotel Amerian", "Heladería Freddo Nueva Córdoba",
+      "Bar El Papagayo", "Restó El Papagayo 2", "Pizzería Banchero", "Parrilla La Estancia",
+      "Rotisería El Cruce", "Hostel Alvear", "Café del Buen Pastor", "Burger Smash Cerro",
+      "Droguería Alberdi", "Limpieza Don Químico", "Hotel Sheraton Córdoba", "Heladería Nonna",
+      "Bar La Cuba", "Restó El Papagayo Patio", "Pizzería 4 Caminos", "Parrilla Los Troncos",
+      "Rotisería Jardín", "Hostel Loft 25", "Café La Casona", "Burger Smash Güemes",
+      "Droguería La Calera", "Limpieza Marca Blanca", "Hotel Azur", "Heladería Grido Calera",
+      "Bar El Papagayo Norte", "Restó Sarmiento", "Pizzería El Palacio", "Parrilla El Fogón",
+      "Rotisería Villa Belgrano", "Hostel Casa Grande", "Café de la Plaza", "Burger 9 de Julio"
+    ]
+  }
+}

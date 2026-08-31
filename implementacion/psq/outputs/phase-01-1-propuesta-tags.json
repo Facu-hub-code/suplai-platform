@@ -1,0 +1,1006 @@
+{
+  "schema": "psq",
+  "products": [
+    {
+      "product_code": "PSQ-0006",
+      "nombre": "AGITADOR DE CAFE MADERA IBERIA 11CM X 1500 U",
+      "tags": {
+        "1": "Descartables",
+        "2": "Cubiertos",
+        "3": "Café",
+        "4": "Agitador de café"
+      }
+    },
+    {
+      "product_code": "PSQ-0009",
+      "nombre": "ALA EN POLVO 800GRS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Marcas de góndola",
+        "3": "Terceros",
+        "4": "Jabón en polvo"
+      }
+    },
+    {
+      "product_code": "PSQ-0012",
+      "nombre": "ALCOHOL EN GEL 1LT",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Alcohol en gel"
+      }
+    },
+    {
+      "product_code": "PSQ-0013",
+      "nombre": "ALCOHOL EN GEL X5L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Alcohol en gel"
+      }
+    },
+    {
+      "product_code": "PSQ-0014",
+      "nombre": "ALGUICIDA 1:60000 X1L",
+      "tags": {
+        "1": "Pileta",
+        "2": "Tratamiento de agua",
+        "3": "Químicos",
+        "4": "Alguicida"
+      }
+    },
+    {
+      "product_code": "PSQ-0016",
+      "nombre": "ANTI-HONGOS GATILLO 500ML PSQ",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Gatillo listo",
+        "4": "Antihongos"
+      }
+    },
+    {
+      "product_code": "PSQ-0017",
+      "nombre": "ANTI-HONGOS X 5LTS PSQUIMICA",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Antihongos"
+      }
+    },
+    {
+      "product_code": "PSQ-0051",
+      "nombre": "AYUDIN CANASTAS P/INOD",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Marcas de góndola",
+        "3": "Terceros",
+        "4": "Canasta inodoro"
+      }
+    },
+    {
+      "product_code": "PSQ-0052",
+      "nombre": "BALDE 10LTS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Herramientas de piso",
+        "3": "Baldes",
+        "4": "Balde"
+      }
+    },
+    {
+      "product_code": "PSQ-0054",
+      "nombre": "BALDE C/ ESCURRIDOR HACENDOZA 9L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Herramientas de piso",
+        "3": "Baldes",
+        "4": "Balde"
+      }
+    },
+    {
+      "product_code": "PSQ-0058",
+      "nombre": "BANDEJA 101 PP X 100 (12)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Envases",
+        "3": "Bandejas",
+        "4": "Bandeja plástica"
+      }
+    },
+    {
+      "product_code": "PSQ-0071",
+      "nombre": "BANDEJA DE CARTON N2",
+      "tags": {
+        "1": "Descartables",
+        "2": "Envases",
+        "3": "Bandejas",
+        "4": "Bandeja de cartón"
+      }
+    },
+    {
+      "product_code": "PSQ-0073",
+      "nombre": "BANDEJA DE CARTON N4",
+      "tags": {
+        "1": "Descartables",
+        "2": "Envases",
+        "3": "Bandejas",
+        "4": "Bandeja de cartón"
+      }
+    },
+    {
+      "product_code": "PSQ-0091",
+      "nombre": "BLOQUE HARPIC X 1UNI",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Marcas de góndola",
+        "3": "Terceros",
+        "4": "Canasta inodoro"
+      }
+    },
+    {
+      "product_code": "PSQ-0110",
+      "nombre": "BOLSA KRAFT DELIVERY N°4 12.5 X 7 X 24 X 50 U (20)",
+      "tags": {
+        "1": "Bolsas",
+        "2": "Kraft",
+        "3": "Delivery",
+        "4": "Bolsa kraft delivery"
+      }
+    },
+    {
+      "product_code": "PSQ-0112",
+      "nombre": "BOLSA KRAFT DELIVERY N°6 20 X 11 X 30 X 50 U (5)",
+      "tags": {
+        "1": "Bolsas",
+        "2": "Kraft",
+        "3": "Delivery",
+        "4": "Bolsa kraft delivery"
+      }
+    },
+    {
+      "product_code": "PSQ-0121",
+      "nombre": "BOLSA PANADERIA KRAFT N 5 - X 100U.(20)",
+      "tags": {
+        "1": "Bolsas",
+        "2": "Kraft",
+        "3": "Delivery",
+        "4": "Bolsa panadería"
+      }
+    },
+    {
+      "product_code": "PSQ-0141",
+      "nombre": "BOLSA PPP 20 X 30 X 100 U(10)",
+      "tags": {
+        "1": "Bolsas",
+        "2": "PPP",
+        "3": "Paquete",
+        "4": "Bolsa PPP"
+      }
+    },
+    {
+      "product_code": "PSQ-0174",
+      "nombre": "BOLSAS CONSORCIO 60X90 X 10 UNI",
+      "tags": {
+        "1": "Bolsas",
+        "2": "Residuos",
+        "3": "Consorcio",
+        "4": "Bolsa de consorcio"
+      }
+    },
+    {
+      "product_code": "PSQ-0175",
+      "nombre": "BOLSAS CONSORCIO 60X90 X 50 UNI",
+      "tags": {
+        "1": "Bolsas",
+        "2": "Residuos",
+        "3": "Consorcio",
+        "4": "Bolsa de consorcio"
+      }
+    },
+    {
+      "product_code": "PSQ-0180",
+      "nombre": "BOLSAS RESIDUOS 45X60 X 50 UNI",
+      "tags": {
+        "1": "Bolsas",
+        "2": "Residuos",
+        "3": "Consorcio",
+        "4": "Bolsa de consorcio"
+      }
+    },
+    {
+      "product_code": "PSQ-0191",
+      "nombre": "CABO 1.20MTS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Herramientas de piso",
+        "3": "Repuestos",
+        "4": "Cabo"
+      }
+    },
+    {
+      "product_code": "PSQ-0198",
+      "nombre": "CAJA EMPANADA X 100U",
+      "tags": {
+        "1": "Descartables",
+        "2": "Cajas delivery",
+        "3": "Cartón",
+        "4": "Caja de empanadas"
+      }
+    },
+    {
+      "product_code": "PSQ-0199",
+      "nombre": "CAJA HAMBURGUEZA MICROCORRUGADA X100U",
+      "tags": {
+        "1": "Descartables",
+        "2": "Cajas delivery",
+        "3": "Cartón",
+        "4": "Caja de hamburguesa"
+      }
+    },
+    {
+      "product_code": "PSQ-0201",
+      "nombre": "CAJA LOMO GRANDE CARTON X 100 (1)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Cajas delivery",
+        "3": "Cartón",
+        "4": "Caja de lomo"
+      }
+    },
+    {
+      "product_code": "PSQ-0204",
+      "nombre": "CAJA PIZZA GRANDE ECO VERDE X 100U (1)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Cajas delivery",
+        "3": "Cartón",
+        "4": "Caja de pizza"
+      }
+    },
+    {
+      "product_code": "PSQ-0205",
+      "nombre": "CAJA PIZZA GRIS CORRUGADA X 50U",
+      "tags": {
+        "1": "Descartables",
+        "2": "Cajas delivery",
+        "3": "Cartón",
+        "4": "Caja de pizza"
+      }
+    },
+    {
+      "product_code": "PSQ-0212",
+      "nombre": "CAMISETA 40 X 50 ECO MUNDI POLIM. X PAQ (20)",
+      "tags": {
+        "1": "Bolsas",
+        "2": "Camisetas",
+        "3": "Paquete",
+        "4": "Bolsa camiseta"
+      }
+    },
+    {
+      "product_code": "PSQ-0215",
+      "nombre": "CAMISETA 45 X 60 MUNDI MAX X PAQ (20)",
+      "tags": {
+        "1": "Bolsas",
+        "2": "Camisetas",
+        "3": "Paquete",
+        "4": "Bolsa camiseta"
+      }
+    },
+    {
+      "product_code": "PSQ-0218",
+      "nombre": "CAMISETA 50 X 70 MUNDI MAX X PAQ (20)",
+      "tags": {
+        "1": "Bolsas",
+        "2": "Camisetas",
+        "3": "Paquete",
+        "4": "Bolsa camiseta"
+      }
+    },
+    {
+      "product_code": "PSQ-0271",
+      "nombre": "CLORO P/PILETAS X10L",
+      "tags": {
+        "1": "Pileta",
+        "2": "Tratamiento de agua",
+        "3": "Químicos",
+        "4": "Cloro para pileta"
+      }
+    },
+    {
+      "product_code": "PSQ-0281",
+      "nombre": "CUCHARA SOPERA X 100(1)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Cubiertos",
+        "3": "Plásticos",
+        "4": "Cuchara plástica"
+      }
+    },
+    {
+      "product_code": "PSQ-0291",
+      "nombre": "CUCHILLO BLANCO X 100 (1)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Cubiertos",
+        "3": "Plásticos",
+        "4": "Cuchillo plástico"
+      }
+    },
+    {
+      "product_code": "PSQ-0295",
+      "nombre": "DESENGRASANTE 500ML PSQUIMICA",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Gatillo listo",
+        "4": "Desengrasante"
+      }
+    },
+    {
+      "product_code": "PSQ-0297",
+      "nombre": "DESENGRASANTE P-25 X 1L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Desengrasante"
+      }
+    },
+    {
+      "product_code": "PSQ-0310",
+      "nombre": "DESTAPA CAÑERIAS X LT PSQUIMICA",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Gatillo listo",
+        "4": "Destapa cañerías"
+      }
+    },
+    {
+      "product_code": "PSQ-0317",
+      "nombre": "DETERGENTE USO DIRECTO X1L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Detergente"
+      }
+    },
+    {
+      "product_code": "PSQ-0318",
+      "nombre": "DETERGENTE USO DIRECTO X5L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Detergente"
+      }
+    },
+    {
+      "product_code": "PSQ-0329",
+      "nombre": "ELIMINADOR DE OLORES PSQ X U. (1LT)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Gatillo listo",
+        "4": "Eliminador de olores"
+      }
+    },
+    {
+      "product_code": "PSQ-0330",
+      "nombre": "ELIMINADOR DE OLORES PSQ X U. (500ML)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Gatillo listo",
+        "4": "Eliminador de olores"
+      }
+    },
+    {
+      "product_code": "PSQ-0342",
+      "nombre": "ESCOBA DE PAJA",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Herramientas de piso",
+        "3": "Escobas",
+        "4": "Escoba"
+      }
+    },
+    {
+      "product_code": "PSQ-0348",
+      "nombre": "ESCOBILLON ANDEN PLAST 60CM C/CABO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Herramientas de piso",
+        "3": "Escobas",
+        "4": "Escobillón"
+      }
+    },
+    {
+      "product_code": "PSQ-0405",
+      "nombre": "FRIOCLEAN 500ML",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Gatillo listo",
+        "4": "Limpiador"
+      }
+    },
+    {
+      "product_code": "PSQ-0435",
+      "nombre": "JABON PARA MANOS X1L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Jabón de manos"
+      }
+    },
+    {
+      "product_code": "PSQ-0436",
+      "nombre": "JABON PARA MANOS X5L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Jabón de manos"
+      }
+    },
+    {
+      "product_code": "PSQ-0437",
+      "nombre": "JABON PLUS X1L (ARIEL/SKIP)",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Jabón líquido"
+      }
+    },
+    {
+      "product_code": "PSQ-0439",
+      "nombre": "JABON PLUS SKIP/ARIEL X5L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Jabón líquido"
+      }
+    },
+    {
+      "product_code": "PSQ-0453",
+      "nombre": "LAVANDINA X1L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Lavandina"
+      }
+    },
+    {
+      "product_code": "PSQ-0454",
+      "nombre": "LAVANDINA X5L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Lavandina"
+      }
+    },
+    {
+      "product_code": "PSQ-0457",
+      "nombre": "LIMPIA TAPIZADOS 500ML PSQ",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Gatillo listo",
+        "4": "Limpia tapizados"
+      }
+    },
+    {
+      "product_code": "PSQ-0462",
+      "nombre": "LIMPIAVIDRIOS GATILLO 475ML PSQ",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Gatillo listo",
+        "4": "Limpiavidrios"
+      }
+    },
+    {
+      "product_code": "PSQ-0485",
+      "nombre": "MOPA MR TRAPO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Herramientas de piso",
+        "3": "Trapos",
+        "4": "Trapo de piso"
+      }
+    },
+    {
+      "product_code": "PSQ-0487",
+      "nombre": "MULTIUSO AZULEJOS X 500ML PSQUIMICA",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Gatillo listo",
+        "4": "Multiuso"
+      }
+    },
+    {
+      "product_code": "PSQ-0520",
+      "nombre": "PAPEL HIG ELEG/FELPITA 4x30 MTS",
+      "tags": {
+        "1": "Papel",
+        "2": "Higiénico",
+        "3": "Rollo institucional",
+        "4": "Papel higiénico"
+      }
+    },
+    {
+      "product_code": "PSQ-0524",
+      "nombre": "PAPEL HIG JUMBO C/CH 8X300MTS ECO",
+      "tags": {
+        "1": "Papel",
+        "2": "Higiénico",
+        "3": "Rollo institucional",
+        "4": "Papel higiénico"
+      }
+    },
+    {
+      "product_code": "PSQ-0536",
+      "nombre": "PASTILLAS DE CLORO MULTIACCION X1KG",
+      "tags": {
+        "1": "Pileta",
+        "2": "Tratamiento de agua",
+        "3": "Químicos",
+        "4": "Pastillas de cloro"
+      }
+    },
+    {
+      "product_code": "PSQ-0538",
+      "nombre": "PATO BLOQUE ADH X 3 UNID",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Marcas de góndola",
+        "3": "Terceros",
+        "4": "Canasta inodoro"
+      }
+    },
+    {
+      "product_code": "PSQ-0542",
+      "nombre": "PERFUMINA X 1L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Perfumina"
+      }
+    },
+    {
+      "product_code": "PSQ-0543",
+      "nombre": "PERFUMINA X 5L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Perfumina"
+      }
+    },
+    {
+      "product_code": "PSQ-0550",
+      "nombre": "PLATO 17CM BLANCO X 50 U (20)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Platos",
+        "3": "Plásticos",
+        "4": "Plato plástico"
+      }
+    },
+    {
+      "product_code": "PSQ-0551",
+      "nombre": "PLATO 22CM BLANCO X 50 U (20)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Platos",
+        "3": "Plásticos",
+        "4": "Plato plástico"
+      }
+    },
+    {
+      "product_code": "PSQ-0561",
+      "nombre": "PORTA VASOS CAFE X 50 UNI",
+      "tags": {
+        "1": "Descartables",
+        "2": "Accesorios",
+        "3": "Café",
+        "4": "Porta vasos"
+      }
+    },
+    {
+      "product_code": "PSQ-0569",
+      "nombre": "POTE LISO 250CC 088 X 50U (900)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Envases",
+        "3": "Potes",
+        "4": "Pote plástico"
+      }
+    },
+    {
+      "product_code": "PSQ-0574",
+      "nombre": "QUITA SARRO X1L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Quitasarro"
+      }
+    },
+    {
+      "product_code": "PSQ-0576",
+      "nombre": "QUITAMANCHAS 500ML PSQ",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Gatillo listo",
+        "4": "Quitamanchas"
+      }
+    },
+    {
+      "product_code": "PSQ-0580",
+      "nombre": "QUITAMANCHAS X 1LT",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Quitamanchas"
+      }
+    },
+    {
+      "product_code": "PSQ-0582",
+      "nombre": "QUITASARRO GATILLO 500ML PSQ",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Gatillo listo",
+        "4": "Quitasarro"
+      }
+    },
+    {
+      "product_code": "PSQ-0583",
+      "nombre": "RAID CASA Y JARDIN",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Marcas de góndola",
+        "3": "Terceros",
+        "4": "Insecticida"
+      }
+    },
+    {
+      "product_code": "PSQ-0592",
+      "nombre": "REJILLA TRICOLOR CHICA N36",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Herramientas de piso",
+        "3": "Rejillas",
+        "4": "Rejilla"
+      }
+    },
+    {
+      "product_code": "PSQ-0616",
+      "nombre": "ROLLO COCINA ELEG 3X50PAÑOS",
+      "tags": {
+        "1": "Papel",
+        "2": "Cocina",
+        "3": "Rollo de cocina",
+        "4": "Rollo de cocina"
+      }
+    },
+    {
+      "product_code": "PSQ-0618",
+      "nombre": "ROLLO COCINA FELPITA X 200PAÑOS",
+      "tags": {
+        "1": "Papel",
+        "2": "Cocina",
+        "3": "Rollo de cocina",
+        "4": "Rollo de cocina"
+      }
+    },
+    {
+      "product_code": "PSQ-0619",
+      "nombre": "ROLLO DE ALUMINIO X 1KG DPM/INCA (12)",
+      "tags": {
+        "1": "Papel",
+        "2": "Cocina",
+        "3": "Aluminio",
+        "4": "Rollo de aluminio"
+      }
+    },
+    {
+      "product_code": "PSQ-0633",
+      "nombre": "SECADOR HACENDOZA DOBLE GOMA 40CM",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Herramientas de piso",
+        "3": "Secadores",
+        "4": "Secador de piso"
+      }
+    },
+    {
+      "product_code": "PSQ-0645",
+      "nombre": "SERVILLETA 18X18 X 1000",
+      "tags": {
+        "1": "Descartables",
+        "2": "Servilletas",
+        "3": "Papel",
+        "4": "Servilleta"
+      }
+    },
+    {
+      "product_code": "PSQ-0648",
+      "nombre": "SERVILLETA SM 33X33 BLANCA",
+      "tags": {
+        "1": "Descartables",
+        "2": "Servilletas",
+        "3": "Papel",
+        "4": "Servilleta"
+      }
+    },
+    {
+      "product_code": "PSQ-0649",
+      "nombre": "SERVILLETAS 30X30 X 1000UNI",
+      "tags": {
+        "1": "Descartables",
+        "2": "Servilletas",
+        "3": "Papel",
+        "4": "Servilleta"
+      }
+    },
+    {
+      "product_code": "PSQ-0650",
+      "nombre": "SET COMBO 4X50 LT (JAB-SUA-DES-PERF)",
+      "tags": {
+        "1": "Marca blanca",
+        "2": "Set de fabricación",
+        "3": "Kit 100 litros",
+        "4": "Combo de fabricación"
+      }
+    },
+    {
+      "product_code": "PSQ-0651",
+      "nombre": "SET FAB DESENGRASANTE X 100LTS",
+      "tags": {
+        "1": "Marca blanca",
+        "2": "Set de fabricación",
+        "3": "Kit 100 litros",
+        "4": "Desengrasante"
+      }
+    },
+    {
+      "product_code": "PSQ-0653",
+      "nombre": "SET FAB DETERGENTE USO DIRECTO X 100LTS",
+      "tags": {
+        "1": "Marca blanca",
+        "2": "Set de fabricación",
+        "3": "Kit 100 litros",
+        "4": "Detergente"
+      }
+    },
+    {
+      "product_code": "PSQ-0658",
+      "nombre": "SET FAB JABON PLUS X 100LTS ARIEL/SKIP",
+      "tags": {
+        "1": "Marca blanca",
+        "2": "Set de fabricación",
+        "3": "Kit 100 litros",
+        "4": "Jabón líquido"
+      }
+    },
+    {
+      "product_code": "PSQ-0660",
+      "nombre": "SET FAB SUAVIZANTE X 100LTS CONFORT/ VIVERE",
+      "tags": {
+        "1": "Marca blanca",
+        "2": "Set de fabricación",
+        "3": "Kit 100 litros",
+        "4": "Suavizante"
+      }
+    },
+    {
+      "product_code": "PSQ-0663",
+      "nombre": "SET LAVANDINA 100LTS",
+      "tags": {
+        "1": "Marca blanca",
+        "2": "Set de fabricación",
+        "3": "Kit 100 litros",
+        "4": "Lavandina"
+      }
+    },
+    {
+      "product_code": "PSQ-0666",
+      "nombre": "SET PERFUMINA 100 LTS",
+      "tags": {
+        "1": "Marca blanca",
+        "2": "Set de fabricación",
+        "3": "Kit 100 litros",
+        "4": "Perfumina"
+      }
+    },
+    {
+      "product_code": "PSQ-0684",
+      "nombre": "SORBETE SUR ENSOBRADO X 1000 EN CAJA",
+      "tags": {
+        "1": "Descartables",
+        "2": "Accesorios",
+        "3": "Sorbetes",
+        "4": "Sorbete"
+      }
+    },
+    {
+      "product_code": "PSQ-0686",
+      "nombre": "SUAVIZANTE P/ROPA X5L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Suavizante"
+      }
+    },
+    {
+      "product_code": "PSQ-0687",
+      "nombre": "SUAVIZANTE PARA ROPA X1L",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Líquidos PSQ",
+        "3": "Bidón",
+        "4": "Suavizante"
+      }
+    },
+    {
+      "product_code": "PSQ-0712",
+      "nombre": "TENEDOR BLANCO X 100 (1)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Cubiertos",
+        "3": "Plásticos",
+        "4": "Tenedor plástico"
+      }
+    },
+    {
+      "product_code": "PSQ-0717",
+      "nombre": "TOALLA INTERCALADA EXTRA BLANCO X 2000UNI",
+      "tags": {
+        "1": "Papel",
+        "2": "Cocina",
+        "3": "Toalla intercalada",
+        "4": "Toalla intercalada"
+      }
+    },
+    {
+      "product_code": "PSQ-0721",
+      "nombre": "TRAPO DE PISO BLANCO LA NACIONAL",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Herramientas de piso",
+        "3": "Trapos",
+        "4": "Trapo de piso"
+      }
+    },
+    {
+      "product_code": "PSQ-0727",
+      "nombre": "TRAPO DE PISO MR TRAPO BLANCO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Herramientas de piso",
+        "3": "Trapos",
+        "4": "Trapo de piso"
+      }
+    },
+    {
+      "product_code": "PSQ-0732",
+      "nombre": "VALERINA / PAÑO AMARILLO",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Herramientas de piso",
+        "3": "Paños",
+        "4": "Paño"
+      }
+    },
+    {
+      "product_code": "PSQ-0735",
+      "nombre": "VASO 110CC PLASTICO TRASLUCIDO X 100 (42)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Vasos",
+        "3": "Vasos",
+        "4": "Vaso plástico"
+      }
+    },
+    {
+      "product_code": "PSQ-0736",
+      "nombre": "VASO 220 CC PLASTICO TRASLUCIDO X 50 (62)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Vasos",
+        "3": "Vasos",
+        "4": "Vaso plástico"
+      }
+    },
+    {
+      "product_code": "PSQ-0737",
+      "nombre": "VASO 330 CC PLASTICO TRASLUCIDO X 50 (49)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Vasos",
+        "3": "Vasos",
+        "4": "Vaso plástico"
+      }
+    },
+    {
+      "product_code": "PSQ-0738",
+      "nombre": "VASO 500ML TRASL X 50UNI",
+      "tags": {
+        "1": "Descartables",
+        "2": "Vasos",
+        "3": "Vasos",
+        "4": "Vaso plástico"
+      }
+    },
+    {
+      "product_code": "PSQ-0742",
+      "nombre": "VASO POLIPAPEL 12 ONZAS X 50U (1000)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Vasos",
+        "3": "Vasos",
+        "4": "Vaso polipapel"
+      }
+    },
+    {
+      "product_code": "PSQ-0751",
+      "nombre": "VASO TERMICO 240CC X 25U. - WC - (40)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Vasos",
+        "3": "Vasos",
+        "4": "Vaso térmico"
+      }
+    },
+    {
+      "product_code": "PSQ-0757",
+      "nombre": "VIANDERA 105 OVAL C/TAPA BISAGRA (200)",
+      "tags": {
+        "1": "Descartables",
+        "2": "Envases",
+        "3": "Vianderas",
+        "4": "Viandera"
+      }
+    },
+    {
+      "product_code": "PSQ-0759",
+      "nombre": "VIRULANA",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Marcas de góndola",
+        "3": "Terceros",
+        "4": "Virulana"
+      }
+    },
+    {
+      "product_code": "PSQ-0763",
+      "nombre": "ZORRO POLVO MATIC 400GRS",
+      "tags": {
+        "1": "Limpieza",
+        "2": "Marcas de góndola",
+        "3": "Terceros",
+        "4": "Jabón en polvo"
+      }
+    }
+  ],
+  "source": "reglas-psq + lote-ia-20"
+}

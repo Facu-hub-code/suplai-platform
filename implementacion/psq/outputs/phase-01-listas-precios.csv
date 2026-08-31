@@ -1,0 +1,401 @@
+lista_precios_id,nombre,multiplicador_sobre_lista_1,product_code,precio_unidad,is_mock
+1,Lista B Gastronómicos,1.00,PSQ-0006,9357.89,true
+1,Lista B Gastronómicos,1.00,PSQ-0009,3626.20,true
+1,Lista B Gastronómicos,1.00,PSQ-0012,2132.73,true
+1,Lista B Gastronómicos,1.00,PSQ-0013,15656.16,true
+1,Lista B Gastronómicos,1.00,PSQ-0014,2423.55,true
+1,Lista B Gastronómicos,1.00,PSQ-0016,1751.98,true
+1,Lista B Gastronómicos,1.00,PSQ-0017,12263.18,true
+1,Lista B Gastronómicos,1.00,PSQ-0051,2216.94,true
+1,Lista B Gastronómicos,1.00,PSQ-0052,2025.21,true
+1,Lista B Gastronómicos,1.00,PSQ-0054,4350.00,true
+1,Lista B Gastronómicos,1.00,PSQ-0058,5972.23,true
+1,Lista B Gastronómicos,1.00,PSQ-0071,1511.53,true
+1,Lista B Gastronómicos,1.00,PSQ-0073,2647.41,true
+1,Lista B Gastronómicos,1.00,PSQ-0091,3766.41,true
+1,Lista B Gastronómicos,1.00,PSQ-0110,3215.54,true
+1,Lista B Gastronómicos,1.00,PSQ-0112,5776.64,true
+1,Lista B Gastronómicos,1.00,PSQ-0121,2173.00,true
+1,Lista B Gastronómicos,1.00,PSQ-0141,1605.02,true
+1,Lista B Gastronómicos,1.00,PSQ-0174,810.74,true
+1,Lista B Gastronómicos,1.00,PSQ-0175,4057.44,true
+1,Lista B Gastronómicos,1.00,PSQ-0180,1177.69,true
+1,Lista B Gastronómicos,1.00,PSQ-0191,1305.00,true
+1,Lista B Gastronómicos,1.00,PSQ-0198,7807.70,true
+1,Lista B Gastronómicos,1.00,PSQ-0199,22179.71,true
+1,Lista B Gastronómicos,1.00,PSQ-0201,7465.64,true
+1,Lista B Gastronómicos,1.00,PSQ-0204,23381.12,true
+1,Lista B Gastronómicos,1.00,PSQ-0205,22462.15,true
+1,Lista B Gastronómicos,1.00,PSQ-0212,1975.20,true
+1,Lista B Gastronómicos,1.00,PSQ-0215,3533.69,true
+1,Lista B Gastronómicos,1.00,PSQ-0218,5698.52,true
+1,Lista B Gastronómicos,1.00,PSQ-0271,5196.10,true
+1,Lista B Gastronómicos,1.00,PSQ-0281,3844.67,true
+1,Lista B Gastronómicos,1.00,PSQ-0291,1560.33,true
+1,Lista B Gastronómicos,1.00,PSQ-0295,1965.87,true
+1,Lista B Gastronómicos,1.00,PSQ-0297,1450.25,true
+1,Lista B Gastronómicos,1.00,PSQ-0310,1948.51,true
+1,Lista B Gastronómicos,1.00,PSQ-0317,1259.34,true
+1,Lista B Gastronómicos,1.00,PSQ-0318,5386.54,true
+1,Lista B Gastronómicos,1.00,PSQ-0329,1134.30,true
+1,Lista B Gastronómicos,1.00,PSQ-0330,850.84,true
+1,Lista B Gastronómicos,1.00,PSQ-0342,8700.00,true
+1,Lista B Gastronómicos,1.00,PSQ-0348,7309.92,true
+1,Lista B Gastronómicos,1.00,PSQ-0405,646.28,true
+1,Lista B Gastronómicos,1.00,PSQ-0435,1181.82,true
+1,Lista B Gastronómicos,1.00,PSQ-0436,3580.17,true
+1,Lista B Gastronómicos,1.00,PSQ-0437,1143.14,true
+1,Lista B Gastronómicos,1.00,PSQ-0439,4145.45,true
+1,Lista B Gastronómicos,1.00,PSQ-0453,930.64,true
+1,Lista B Gastronómicos,1.00,PSQ-0454,2564.54,true
+1,Lista B Gastronómicos,1.00,PSQ-0457,688.43,true
+1,Lista B Gastronómicos,1.00,PSQ-0462,1671.69,true
+1,Lista B Gastronómicos,1.00,PSQ-0485,2190.58,true
+1,Lista B Gastronómicos,1.00,PSQ-0487,1221.82,true
+1,Lista B Gastronómicos,1.00,PSQ-0520,1493.93,true
+1,Lista B Gastronómicos,1.00,PSQ-0524,6590.91,true
+1,Lista B Gastronómicos,1.00,PSQ-0536,4696.62,true
+1,Lista B Gastronómicos,1.00,PSQ-0538,2796.94,true
+1,Lista B Gastronómicos,1.00,PSQ-0542,775.54,true
+1,Lista B Gastronómicos,1.00,PSQ-0543,2233.37,true
+1,Lista B Gastronómicos,1.00,PSQ-0550,1720.99,true
+1,Lista B Gastronómicos,1.00,PSQ-0551,2151.24,true
+1,Lista B Gastronómicos,1.00,PSQ-0561,4440.61,true
+1,Lista B Gastronómicos,1.00,PSQ-0569,2527.14,true
+1,Lista B Gastronómicos,1.00,PSQ-0574,969.42,true
+1,Lista B Gastronómicos,1.00,PSQ-0576,1363.64,true
+1,Lista B Gastronómicos,1.00,PSQ-0580,1499.59,true
+1,Lista B Gastronómicos,1.00,PSQ-0582,2134.71,true
+1,Lista B Gastronómicos,1.00,PSQ-0583,4997.11,true
+1,Lista B Gastronómicos,1.00,PSQ-0592,770.25,true
+1,Lista B Gastronómicos,1.00,PSQ-0616,1316.53,true
+1,Lista B Gastronómicos,1.00,PSQ-0618,1905.37,true
+1,Lista B Gastronómicos,1.00,PSQ-0619,8033.18,true
+1,Lista B Gastronómicos,1.00,PSQ-0633,2276.86,true
+1,Lista B Gastronómicos,1.00,PSQ-0645,6895.44,true
+1,Lista B Gastronómicos,1.00,PSQ-0648,7549.59,true
+1,Lista B Gastronómicos,1.00,PSQ-0649,7173.55,true
+1,Lista B Gastronómicos,1.00,PSQ-0650,43636.36,true
+1,Lista B Gastronómicos,1.00,PSQ-0651,38347.11,true
+1,Lista B Gastronómicos,1.00,PSQ-0653,65034.30,true
+1,Lista B Gastronómicos,1.00,PSQ-0658,56322.31,true
+1,Lista B Gastronómicos,1.00,PSQ-0660,42954.55,true
+1,Lista B Gastronómicos,1.00,PSQ-0663,24320.00,true
+1,Lista B Gastronómicos,1.00,PSQ-0666,15054.68,true
+1,Lista B Gastronómicos,1.00,PSQ-0684,9220.89,true
+1,Lista B Gastronómicos,1.00,PSQ-0686,4195.70,true
+1,Lista B Gastronómicos,1.00,PSQ-0687,1154.13,true
+1,Lista B Gastronómicos,1.00,PSQ-0712,2776.97,true
+1,Lista B Gastronómicos,1.00,PSQ-0717,9287.19,true
+1,Lista B Gastronómicos,1.00,PSQ-0721,1263.64,true
+1,Lista B Gastronómicos,1.00,PSQ-0727,901.16,true
+1,Lista B Gastronómicos,1.00,PSQ-0732,489.21,true
+1,Lista B Gastronómicos,1.00,PSQ-0735,8273.21,true
+1,Lista B Gastronómicos,1.00,PSQ-0736,2480.85,true
+1,Lista B Gastronómicos,1.00,PSQ-0737,3349.79,true
+1,Lista B Gastronómicos,1.00,PSQ-0738,4085.09,true
+1,Lista B Gastronómicos,1.00,PSQ-0742,4731.60,true
+1,Lista B Gastronómicos,1.00,PSQ-0751,1796.31,true
+1,Lista B Gastronómicos,1.00,PSQ-0757,438.17,true
+1,Lista B Gastronómicos,1.00,PSQ-0759,638.38,true
+1,Lista B Gastronómicos,1.00,PSQ-0763,1120.45,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0006,10761.57,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0009,4170.13,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0012,2452.64,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0013,18004.58,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0014,2787.08,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0016,2014.78,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0017,14102.66,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0051,2549.48,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0052,2328.99,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0054,5002.50,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0058,6868.06,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0071,1738.26,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0073,3044.52,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0091,4331.37,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0110,3697.87,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0112,6643.14,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0121,2498.95,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0141,1845.77,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0174,932.35,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0175,4666.06,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0180,1354.34,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0191,1500.75,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0198,8978.85,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0199,25506.67,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0201,8585.49,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0204,26888.29,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0205,25831.47,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0212,2271.48,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0215,4063.74,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0218,6553.30,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0271,5975.52,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0281,4421.37,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0291,1794.38,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0295,2260.75,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0297,1667.79,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0310,2240.79,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0317,1448.24,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0318,6194.52,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0329,1304.44,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0330,978.47,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0342,10005.00,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0348,8406.41,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0405,743.22,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0435,1359.09,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0436,4117.20,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0437,1314.61,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0439,4767.27,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0453,1070.24,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0454,2949.22,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0457,791.69,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0462,1922.44,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0485,2519.17,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0487,1405.09,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0520,1718.02,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0524,7579.55,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0536,5401.11,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0538,3216.48,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0542,891.87,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0543,2568.38,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0550,1979.14,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0551,2473.93,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0561,5106.70,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0569,2906.21,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0574,1114.83,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0576,1568.19,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0580,1724.53,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0582,2454.92,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0583,5746.68,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0592,885.79,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0616,1514.01,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0618,2191.18,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0619,9238.16,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0633,2618.39,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0645,7929.76,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0648,8682.03,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0649,8249.58,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0650,50181.81,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0651,44099.18,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0653,74789.44,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0658,64770.66,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0660,49397.73,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0663,27968.00,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0666,17312.88,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0684,10604.02,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0686,4825.05,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0687,1327.25,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0712,3193.52,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0717,10680.27,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0721,1453.19,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0727,1036.33,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0732,562.59,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0735,9514.19,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0736,2852.98,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0737,3852.26,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0738,4697.85,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0742,5441.34,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0751,2065.76,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0757,503.90,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0759,734.14,true
+2,Lista Clean Max (e-commerce),1.15,PSQ-0763,1288.52,true
+3,Lista Mayorista,0.90,PSQ-0006,8422.10,true
+3,Lista Mayorista,0.90,PSQ-0009,3263.58,true
+3,Lista Mayorista,0.90,PSQ-0012,1919.46,true
+3,Lista Mayorista,0.90,PSQ-0013,14090.54,true
+3,Lista Mayorista,0.90,PSQ-0014,2181.20,true
+3,Lista Mayorista,0.90,PSQ-0016,1576.78,true
+3,Lista Mayorista,0.90,PSQ-0017,11036.86,true
+3,Lista Mayorista,0.90,PSQ-0051,1995.25,true
+3,Lista Mayorista,0.90,PSQ-0052,1822.69,true
+3,Lista Mayorista,0.90,PSQ-0054,3915.00,true
+3,Lista Mayorista,0.90,PSQ-0058,5375.01,true
+3,Lista Mayorista,0.90,PSQ-0071,1360.38,true
+3,Lista Mayorista,0.90,PSQ-0073,2382.67,true
+3,Lista Mayorista,0.90,PSQ-0091,3389.77,true
+3,Lista Mayorista,0.90,PSQ-0110,2893.99,true
+3,Lista Mayorista,0.90,PSQ-0112,5198.98,true
+3,Lista Mayorista,0.90,PSQ-0121,1955.70,true
+3,Lista Mayorista,0.90,PSQ-0141,1444.52,true
+3,Lista Mayorista,0.90,PSQ-0174,729.67,true
+3,Lista Mayorista,0.90,PSQ-0175,3651.70,true
+3,Lista Mayorista,0.90,PSQ-0180,1059.92,true
+3,Lista Mayorista,0.90,PSQ-0191,1174.50,true
+3,Lista Mayorista,0.90,PSQ-0198,7026.93,true
+3,Lista Mayorista,0.90,PSQ-0199,19961.74,true
+3,Lista Mayorista,0.90,PSQ-0201,6719.08,true
+3,Lista Mayorista,0.90,PSQ-0204,21043.01,true
+3,Lista Mayorista,0.90,PSQ-0205,20215.94,true
+3,Lista Mayorista,0.90,PSQ-0212,1777.68,true
+3,Lista Mayorista,0.90,PSQ-0215,3180.32,true
+3,Lista Mayorista,0.90,PSQ-0218,5128.67,true
+3,Lista Mayorista,0.90,PSQ-0271,4676.49,true
+3,Lista Mayorista,0.90,PSQ-0281,3460.20,true
+3,Lista Mayorista,0.90,PSQ-0291,1404.30,true
+3,Lista Mayorista,0.90,PSQ-0295,1769.28,true
+3,Lista Mayorista,0.90,PSQ-0297,1305.23,true
+3,Lista Mayorista,0.90,PSQ-0310,1753.66,true
+3,Lista Mayorista,0.90,PSQ-0317,1133.41,true
+3,Lista Mayorista,0.90,PSQ-0318,4847.89,true
+3,Lista Mayorista,0.90,PSQ-0329,1020.87,true
+3,Lista Mayorista,0.90,PSQ-0330,765.76,true
+3,Lista Mayorista,0.90,PSQ-0342,7830.00,true
+3,Lista Mayorista,0.90,PSQ-0348,6578.93,true
+3,Lista Mayorista,0.90,PSQ-0405,581.65,true
+3,Lista Mayorista,0.90,PSQ-0435,1063.64,true
+3,Lista Mayorista,0.90,PSQ-0436,3222.15,true
+3,Lista Mayorista,0.90,PSQ-0437,1028.83,true
+3,Lista Mayorista,0.90,PSQ-0439,3730.90,true
+3,Lista Mayorista,0.90,PSQ-0453,837.58,true
+3,Lista Mayorista,0.90,PSQ-0454,2308.09,true
+3,Lista Mayorista,0.90,PSQ-0457,619.59,true
+3,Lista Mayorista,0.90,PSQ-0462,1504.52,true
+3,Lista Mayorista,0.90,PSQ-0485,1971.52,true
+3,Lista Mayorista,0.90,PSQ-0487,1099.64,true
+3,Lista Mayorista,0.90,PSQ-0520,1344.54,true
+3,Lista Mayorista,0.90,PSQ-0524,5931.82,true
+3,Lista Mayorista,0.90,PSQ-0536,4226.96,true
+3,Lista Mayorista,0.90,PSQ-0538,2517.25,true
+3,Lista Mayorista,0.90,PSQ-0542,697.99,true
+3,Lista Mayorista,0.90,PSQ-0543,2010.03,true
+3,Lista Mayorista,0.90,PSQ-0550,1548.89,true
+3,Lista Mayorista,0.90,PSQ-0551,1936.12,true
+3,Lista Mayorista,0.90,PSQ-0561,3996.55,true
+3,Lista Mayorista,0.90,PSQ-0569,2274.43,true
+3,Lista Mayorista,0.90,PSQ-0574,872.48,true
+3,Lista Mayorista,0.90,PSQ-0576,1227.28,true
+3,Lista Mayorista,0.90,PSQ-0580,1349.63,true
+3,Lista Mayorista,0.90,PSQ-0582,1921.24,true
+3,Lista Mayorista,0.90,PSQ-0583,4497.40,true
+3,Lista Mayorista,0.90,PSQ-0592,693.23,true
+3,Lista Mayorista,0.90,PSQ-0616,1184.88,true
+3,Lista Mayorista,0.90,PSQ-0618,1714.83,true
+3,Lista Mayorista,0.90,PSQ-0619,7229.86,true
+3,Lista Mayorista,0.90,PSQ-0633,2049.17,true
+3,Lista Mayorista,0.90,PSQ-0645,6205.90,true
+3,Lista Mayorista,0.90,PSQ-0648,6794.63,true
+3,Lista Mayorista,0.90,PSQ-0649,6456.20,true
+3,Lista Mayorista,0.90,PSQ-0650,39272.72,true
+3,Lista Mayorista,0.90,PSQ-0651,34512.40,true
+3,Lista Mayorista,0.90,PSQ-0653,58530.87,true
+3,Lista Mayorista,0.90,PSQ-0658,50690.08,true
+3,Lista Mayorista,0.90,PSQ-0660,38659.10,true
+3,Lista Mayorista,0.90,PSQ-0663,21888.00,true
+3,Lista Mayorista,0.90,PSQ-0666,13549.21,true
+3,Lista Mayorista,0.90,PSQ-0684,8298.80,true
+3,Lista Mayorista,0.90,PSQ-0686,3776.13,true
+3,Lista Mayorista,0.90,PSQ-0687,1038.72,true
+3,Lista Mayorista,0.90,PSQ-0712,2499.27,true
+3,Lista Mayorista,0.90,PSQ-0717,8358.47,true
+3,Lista Mayorista,0.90,PSQ-0721,1137.28,true
+3,Lista Mayorista,0.90,PSQ-0727,811.04,true
+3,Lista Mayorista,0.90,PSQ-0732,440.29,true
+3,Lista Mayorista,0.90,PSQ-0735,7445.89,true
+3,Lista Mayorista,0.90,PSQ-0736,2232.76,true
+3,Lista Mayorista,0.90,PSQ-0737,3014.81,true
+3,Lista Mayorista,0.90,PSQ-0738,3676.58,true
+3,Lista Mayorista,0.90,PSQ-0742,4258.44,true
+3,Lista Mayorista,0.90,PSQ-0751,1616.68,true
+3,Lista Mayorista,0.90,PSQ-0757,394.35,true
+3,Lista Mayorista,0.90,PSQ-0759,574.54,true
+3,Lista Mayorista,0.90,PSQ-0763,1008.41,true
+4,Lista Cliente especial,0.85,PSQ-0006,7954.21,true
+4,Lista Cliente especial,0.85,PSQ-0009,3082.27,true
+4,Lista Cliente especial,0.85,PSQ-0012,1812.82,true
+4,Lista Cliente especial,0.85,PSQ-0013,13307.74,true
+4,Lista Cliente especial,0.85,PSQ-0014,2060.02,true
+4,Lista Cliente especial,0.85,PSQ-0016,1489.18,true
+4,Lista Cliente especial,0.85,PSQ-0017,10423.70,true
+4,Lista Cliente especial,0.85,PSQ-0051,1884.40,true
+4,Lista Cliente especial,0.85,PSQ-0052,1721.43,true
+4,Lista Cliente especial,0.85,PSQ-0054,3697.50,true
+4,Lista Cliente especial,0.85,PSQ-0058,5076.40,true
+4,Lista Cliente especial,0.85,PSQ-0071,1284.80,true
+4,Lista Cliente especial,0.85,PSQ-0073,2250.30,true
+4,Lista Cliente especial,0.85,PSQ-0091,3201.45,true
+4,Lista Cliente especial,0.85,PSQ-0110,2733.21,true
+4,Lista Cliente especial,0.85,PSQ-0112,4910.14,true
+4,Lista Cliente especial,0.85,PSQ-0121,1847.05,true
+4,Lista Cliente especial,0.85,PSQ-0141,1364.27,true
+4,Lista Cliente especial,0.85,PSQ-0174,689.13,true
+4,Lista Cliente especial,0.85,PSQ-0175,3448.82,true
+4,Lista Cliente especial,0.85,PSQ-0180,1001.04,true
+4,Lista Cliente especial,0.85,PSQ-0191,1109.25,true
+4,Lista Cliente especial,0.85,PSQ-0198,6636.55,true
+4,Lista Cliente especial,0.85,PSQ-0199,18852.75,true
+4,Lista Cliente especial,0.85,PSQ-0201,6345.79,true
+4,Lista Cliente especial,0.85,PSQ-0204,19873.95,true
+4,Lista Cliente especial,0.85,PSQ-0205,19092.83,true
+4,Lista Cliente especial,0.85,PSQ-0212,1678.92,true
+4,Lista Cliente especial,0.85,PSQ-0215,3003.64,true
+4,Lista Cliente especial,0.85,PSQ-0218,4843.74,true
+4,Lista Cliente especial,0.85,PSQ-0271,4416.69,true
+4,Lista Cliente especial,0.85,PSQ-0281,3267.97,true
+4,Lista Cliente especial,0.85,PSQ-0291,1326.28,true
+4,Lista Cliente especial,0.85,PSQ-0295,1670.99,true
+4,Lista Cliente especial,0.85,PSQ-0297,1232.71,true
+4,Lista Cliente especial,0.85,PSQ-0310,1656.23,true
+4,Lista Cliente especial,0.85,PSQ-0317,1070.44,true
+4,Lista Cliente especial,0.85,PSQ-0318,4578.56,true
+4,Lista Cliente especial,0.85,PSQ-0329,964.15,true
+4,Lista Cliente especial,0.85,PSQ-0330,723.21,true
+4,Lista Cliente especial,0.85,PSQ-0342,7395.00,true
+4,Lista Cliente especial,0.85,PSQ-0348,6213.43,true
+4,Lista Cliente especial,0.85,PSQ-0405,549.34,true
+4,Lista Cliente especial,0.85,PSQ-0435,1004.55,true
+4,Lista Cliente especial,0.85,PSQ-0436,3043.14,true
+4,Lista Cliente especial,0.85,PSQ-0437,971.67,true
+4,Lista Cliente especial,0.85,PSQ-0439,3523.63,true
+4,Lista Cliente especial,0.85,PSQ-0453,791.04,true
+4,Lista Cliente especial,0.85,PSQ-0454,2179.86,true
+4,Lista Cliente especial,0.85,PSQ-0457,585.17,true
+4,Lista Cliente especial,0.85,PSQ-0462,1420.94,true
+4,Lista Cliente especial,0.85,PSQ-0485,1861.99,true
+4,Lista Cliente especial,0.85,PSQ-0487,1038.55,true
+4,Lista Cliente especial,0.85,PSQ-0520,1269.84,true
+4,Lista Cliente especial,0.85,PSQ-0524,5602.27,true
+4,Lista Cliente especial,0.85,PSQ-0536,3992.13,true
+4,Lista Cliente especial,0.85,PSQ-0538,2377.40,true
+4,Lista Cliente especial,0.85,PSQ-0542,659.21,true
+4,Lista Cliente especial,0.85,PSQ-0543,1898.36,true
+4,Lista Cliente especial,0.85,PSQ-0550,1462.84,true
+4,Lista Cliente especial,0.85,PSQ-0551,1828.55,true
+4,Lista Cliente especial,0.85,PSQ-0561,3774.52,true
+4,Lista Cliente especial,0.85,PSQ-0569,2148.07,true
+4,Lista Cliente especial,0.85,PSQ-0574,824.01,true
+4,Lista Cliente especial,0.85,PSQ-0576,1159.09,true
+4,Lista Cliente especial,0.85,PSQ-0580,1274.65,true
+4,Lista Cliente especial,0.85,PSQ-0582,1814.50,true
+4,Lista Cliente especial,0.85,PSQ-0583,4247.54,true
+4,Lista Cliente especial,0.85,PSQ-0592,654.71,true
+4,Lista Cliente especial,0.85,PSQ-0616,1119.05,true
+4,Lista Cliente especial,0.85,PSQ-0618,1619.56,true
+4,Lista Cliente especial,0.85,PSQ-0619,6828.20,true
+4,Lista Cliente especial,0.85,PSQ-0633,1935.33,true
+4,Lista Cliente especial,0.85,PSQ-0645,5861.12,true
+4,Lista Cliente especial,0.85,PSQ-0648,6417.15,true
+4,Lista Cliente especial,0.85,PSQ-0649,6097.52,true
+4,Lista Cliente especial,0.85,PSQ-0650,37090.91,true
+4,Lista Cliente especial,0.85,PSQ-0651,32595.04,true
+4,Lista Cliente especial,0.85,PSQ-0653,55279.15,true
+4,Lista Cliente especial,0.85,PSQ-0658,47873.96,true
+4,Lista Cliente especial,0.85,PSQ-0660,36511.37,true
+4,Lista Cliente especial,0.85,PSQ-0663,20672.00,true
+4,Lista Cliente especial,0.85,PSQ-0666,12796.48,true
+4,Lista Cliente especial,0.85,PSQ-0684,7837.76,true
+4,Lista Cliente especial,0.85,PSQ-0686,3566.34,true
+4,Lista Cliente especial,0.85,PSQ-0687,981.01,true
+4,Lista Cliente especial,0.85,PSQ-0712,2360.42,true
+4,Lista Cliente especial,0.85,PSQ-0717,7894.11,true
+4,Lista Cliente especial,0.85,PSQ-0721,1074.09,true
+4,Lista Cliente especial,0.85,PSQ-0727,765.99,true
+4,Lista Cliente especial,0.85,PSQ-0732,415.83,true
+4,Lista Cliente especial,0.85,PSQ-0735,7032.23,true
+4,Lista Cliente especial,0.85,PSQ-0736,2108.72,true
+4,Lista Cliente especial,0.85,PSQ-0737,2847.32,true
+4,Lista Cliente especial,0.85,PSQ-0738,3472.33,true
+4,Lista Cliente especial,0.85,PSQ-0742,4021.86,true
+4,Lista Cliente especial,0.85,PSQ-0751,1526.86,true
+4,Lista Cliente especial,0.85,PSQ-0757,372.44,true
+4,Lista Cliente especial,0.85,PSQ-0759,542.62,true
+4,Lista Cliente especial,0.85,PSQ-0763,952.38,true
