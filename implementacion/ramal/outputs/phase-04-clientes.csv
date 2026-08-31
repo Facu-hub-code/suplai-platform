@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Despensa Don Ramón,Despensa Don Ramón,549388742104,2,1,lunes,martes,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,0,-24.229676,-64.870296,true
+2,Kiosco El Andino,Kiosco El Andino,549388742105,3,2,lunes,martes,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,0,-24.229715,-64.864399,true
+3,Almacén La Quebrada,Almacén La Quebrada,549388742106,4,3,lunes,martes,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,0,-24.229522,-64.870511,true
+4,Maxikiosco San Pedro,Maxikiosco San Pedro,549388742107,1,4,lunes,martes,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,0,-24.232280,-64.866884,true
+5,Vinoteca Puna,Vinoteca Puna,549388742108,2,5,lunes,martes,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,0,-24.232516,-64.867497,true
+6,Bar El Palomar,Bar El Palomar,549388742109,3,6,lunes,martes,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,0,-24.233278,-64.861336,true
+7,Rotisería Doña Rosa,Rotisería Doña Rosa,549388742110,4,7,lunes,martes,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,0,-24.232658,-64.862075,true
+8,Autoservicio 9 de Julio,Autoservicio 9 de Julio,549388742111,1,8,lunes,martes,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,0,-24.234023,-64.868811,true
+9,Kiosco Marinaro Centro,Kiosco Marinaro Centro,549388742112,2,9,lunes,martes,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,0,-24.228930,-64.863092,true
+10,Despensa El Ramal,Despensa El Ramal,549388742113,3,10,martes,miercoles,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,1,-24.247022,-64.880761,true
+11,Almacén Libertador,Almacén Libertador,549388742114,4,11,martes,miercoles,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,1,-24.241284,-64.876150,true
+12,Kiosco Ledesma,Kiosco Ledesma,549388742115,1,12,martes,miercoles,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,1,-24.247484,-64.873238,true
+13,Maxikiosco Calilegua,Maxikiosco Calilegua,549388742116,2,13,martes,miercoles,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,1,-24.243761,-64.881912,true
+14,Despensa Yuto,Despensa Yuto,549388742117,3,14,martes,miercoles,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,1,-24.247053,-64.878486,true
+15,Almacén Caimancito,Almacén Caimancito,549388742118,4,15,martes,miercoles,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,1,-24.248527,-64.873783,true
+16,Kiosco El Ingenio,Kiosco El Ingenio,549388742119,1,16,martes,miercoles,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,1,-24.243425,-64.882354,true
+17,Vinoteca LGSM,Vinoteca LGSM,549388742120,2,17,martes,miercoles,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,1,-24.246496,-64.879903,true
+18,Bar La Estación,Bar La Estación,549388742121,3,18,martes,miercoles,"Zona ZONA SAN PEDRO - San Pedro, Jujuy, Argentina",Facundo Cruz,0,1,-24.244444,-64.875412,true
+19,Rotisería El Norte,Rotisería El Norte,549388742122,4,19,miercoles,jueves,"Zona ZONA LGSM - Libertador General San Martín, Jujuy, Argentina",Nadia Tolaba,1,2,-23.809555,-64.796807,true
+20,Autoservicio Perico,Autoservicio Perico,549388742123,1,20,miercoles,jueves,"Zona ZONA LGSM - Libertador General San Martín, Jujuy, Argentina",Nadia Tolaba,1,2,-23.809264,-64.791565,true
+21,Despensa El Cruce,Despensa El Cruce,549388742124,2,21,miercoles,jueves,"Zona ZONA LGSM - Libertador General San Martín, Jujuy, Argentina",Nadia Tolaba,1,2,-23.816868,-64.794062,true
+22,Kiosco Ruta 66,Kiosco Ruta 66,549388742125,3,22,miercoles,jueves,"Zona ZONA LGSM - Libertador General San Martín, Jujuy, Argentina",Nadia Tolaba,1,2,-23.815698,-64.793031,true
+23,Almacén La Esperanza,Almacén La Esperanza,549388742126,4,23,miercoles,jueves,"Zona ZONA LGSM - Libertador General San Martín, Jujuy, Argentina",Nadia Tolaba,1,2,-23.810667,-64.795697,true
+24,Maxikiosco El Carmen,Maxikiosco El Carmen,549388742127,1,24,miercoles,jueves,"Zona ZONA LGSM - Libertador General San Martín, Jujuy, Argentina",Nadia Tolaba,1,2,-23.815002,-64.793840,true
+25,Vinoteca Cafayate Norte,Vinoteca Cafayate Norte,549388742128,2,25,miercoles,jueves,"Zona ZONA LGSM - Libertador General San Martín, Jujuy, Argentina",Nadia Tolaba,1,2,-23.812278,-64.790125,true
+26,Bar El Palito,Bar El Palito,549388742129,3,26,miercoles,jueves,"Zona ZONA LGSM - Libertador General San Martín, Jujuy, Argentina",Nadia Tolaba,1,2,-23.815465,-64.792876,true
+27,Rotisería Doña Marta,Rotisería Doña Marta,549388742130,4,27,sabado,lunes,"Zona ZONA LGSM - Yuto, Jujuy, Argentina",Nadia Tolaba,1,3,-23.645478,-64.470224,true
+28,Kiosco Los Siete Hermanos,Kiosco Los Siete Hermanos,549388742131,1,28,sabado,lunes,"Zona ZONA LGSM - Yuto, Jujuy, Argentina",Nadia Tolaba,1,3,-23.645089,-64.473380,true
+29,Despensa San Cayetano,Despensa San Cayetano,549388742132,2,29,sabado,lunes,"Zona ZONA LGSM - Yuto, Jujuy, Argentina",Nadia Tolaba,1,3,-23.640329,-64.472321,true
+30,Almacén El Familiar,Almacén El Familiar,549388742133,3,30,sabado,lunes,"Zona ZONA LGSM - Yuto, Jujuy, Argentina",Nadia Tolaba,1,3,-23.640312,-64.476058,true
+31,Maxikiosco Plaza,Maxikiosco Plaza,549388742134,4,31,sabado,lunes,"Zona ZONA LGSM - Yuto, Jujuy, Argentina",Nadia Tolaba,1,3,-23.645036,-64.468559,true
+32,Kiosco Heladera Llena,Kiosco Heladera Llena,549388742135,1,32,sabado,lunes,"Zona ZONA LGSM - Yuto, Jujuy, Argentina",Nadia Tolaba,1,3,-23.644727,-64.468811,true
+33,Despensa La Esquina,Despensa La Esquina,549388742136,2,33,sabado,lunes,"Zona ZONA LGSM - Yuto, Jujuy, Argentina",Nadia Tolaba,1,3,-23.646989,-64.473347,true
+34,Almacén Don Pedro,Almacén Don Pedro,549388742137,3,34,sabado,lunes,"Zona ZONA LGSM - Yuto, Jujuy, Argentina",Nadia Tolaba,1,3,-23.640842,-64.472501,true
+35,Vinoteca Sierra de los Padres,Vinoteca Sierra de los Padres,549388742138,4,35,jueves,viernes,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,4,-24.376796,-65.114825,true
+36,Bar El Quincho,Bar El Quincho,549388742139,1,36,jueves,viernes,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,4,-24.380355,-65.111776,true
+37,Rotisería El Gaucho,Rotisería El Gaucho,549388742140,2,37,jueves,viernes,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,4,-24.374694,-65.112896,true
+38,Autoservicio Ruta 34,Autoservicio Ruta 34,549388742141,3,38,jueves,viernes,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,4,-24.375832,-65.117090,true
+39,Kiosco 24 Horas San Pedro,Kiosco 24 Horas San Pedro,549388742142,4,39,jueves,viernes,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,4,-24.378832,-65.115936,true
+40,Despensa El Progreso,Despensa El Progreso,549388742143,1,40,jueves,viernes,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,4,-24.374209,-65.115762,true
+41,Almacén Doña Elena,Almacén Doña Elena,549388742144,2,41,jueves,viernes,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,4,-24.377785,-65.114914,true
+42,Maxikiosco El Super Chico,Maxikiosco El Super Chico,549388742145,3,42,jueves,viernes,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,4,-24.372700,-65.112001,true
+43,Kiosco Coca y Hielo,Kiosco Coca y Hielo,549388742146,4,43,viernes,sabado,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,5,-24.389890,-65.100245,true
+44,Despensa El Palito 2,Despensa El Palito 2,549388742147,1,44,viernes,sabado,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,5,-24.390350,-65.093896,true
+45,Almacén Barrio Sur,Almacén Barrio Sur,549388742148,2,45,viernes,sabado,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,5,-24.387062,-65.097754,true
+46,Vinoteca Luna Negra,Vinoteca Luna Negra,549388742149,3,46,viernes,sabado,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,5,-24.391761,-65.096062,true
+47,Bar La Esquina Fría,Bar La Esquina Fría,549388742150,4,47,viernes,sabado,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,5,-24.388813,-65.100718,true
+48,Rotisería El Fogón,Rotisería El Fogón,549388742151,1,48,viernes,sabado,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,5,-24.384225,-65.097867,true
+49,Autoservicio Monterrico,Autoservicio Monterrico,549388742152,2,49,viernes,sabado,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,5,-24.392255,-65.101228,true
+50,Kiosco El Paso,Kiosco El Paso,549388742153,3,50,viernes,sabado,"Zona ZONA PERICO - Perico, Jujuy, Argentina",Marcelo Mamani,2,5,-24.391647,-65.096232,true

@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2256,Calidad,open,Reclamo por MARINARO UVA 12X500 con entrega en mal estado o faltante parcial.,549388742104,"Hola, me llego MARINARO UVA 12X500 en mal estado y quiero hacer el reclamo.",2026-08-31 11:15:00,,true
+TKT-2257,Calidad,open,Reclamo por MARINARO COLA 4X3 PREMIUM con entrega en mal estado o faltante parcial.,549388742105,"Hola, me llego MARINARO COLA 4X3 PREMIUM en mal estado y quiero hacer el reclamo.",2026-08-30 08:15:00,,true
+TKT-2258,Calidad,open,Reclamo por MARINARO UVA 12X500 con entrega en mal estado o faltante parcial.,549388742106,"Hola, me llego MARINARO UVA 12X500 en mal estado y quiero hacer el reclamo.",2026-08-29 05:15:00,,true
+TKT-2259,Logistica,open,Demora en la entrega del pedido P-00101 de AGUA MARINARO 12X500.,549388742107,"Buen dia, sigo esperando el pedido P-00101 de AGUA MARINARO 12X500 y no llego.",2026-08-31 02:15:00,,true
+TKT-2260,Logistica,open,Demora en la entrega del pedido P-00082 de QUILMES 24X473 LATA.,549388742144,"Buen dia, sigo esperando el pedido P-00082 de QUILMES 24X473 LATA y no llego.",2026-08-30 11:15:00,,true
+TKT-2261,Logistica,open,Demora en la entrega del pedido P-00084 de MARINARO POMELO 4X3 PREMIUM.,549388742145,"Buen dia, sigo esperando el pedido P-00084 de MARINARO POMELO 4X3 PREMIUM y no llego.",2026-08-29 08:15:00,,true
+TKT-2262,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Despensa Don Ramón.,549388742104,,2026-08-31 05:15:00,,true
+TKT-2263,Administracion,open,Solicita corregir datos administrativos de Kiosco El Andino en el sistema.,549388742105,,2026-08-30 02:15:00,,true
+TKT-2264,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Almacén La Quebrada.,549388742106,,2026-08-29 11:15:00,,true
+TKT-2265,Administracion,open,Solicita corregir datos administrativos de Maxikiosco San Pedro en el sistema.,549388742107,,2026-08-31 08:15:00,,true
+TKT-2266,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Almacén Doña Elena.,549388742144,,2026-08-30 05:15:00,,true
+TKT-2267,Administracion,closed,Solicita corregir datos administrativos de Maxikiosco El Super Chico en el sistema.,549388742145,,2026-08-15 05:15:00,2026-08-15 20:15:00,true
+TKT-2268,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Kiosco Coca y Hielo.,549388742146,,2026-08-14 11:15:00,2026-08-15 03:15:00,true
+TKT-2269,Logistica,closed,Demora en la entrega del pedido P-00088 de HEINEKEN CERO 24X473 LATA.,549388742147,,2026-08-13 09:15:00,2026-08-14 02:15:00,true
+TKT-2270,Calidad,closed,Reclamo por PUNA HELIOS MALBEC 6X750 con entrega en mal estado o faltante parcial.,549388742148,,2026-08-12 07:15:00,2026-08-13 01:15:00,true
+TKT-2271,Administracion,closed,Solicita corregir datos administrativos de Vinoteca Puna en el sistema.,549388742108,,2026-08-11 05:15:00,2026-08-12 00:15:00,true
+TKT-2272,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Bar El Palomar.,549388742109,,2026-08-26 11:15:00,2026-08-27 07:15:00,true
+TKT-2273,Logistica,closed,Demora en la entrega del pedido P-00107 de YERBA VERDEFLOR 12X500 BOLDO.,549388742110,,2026-08-25 09:15:00,2026-08-26 06:15:00,true

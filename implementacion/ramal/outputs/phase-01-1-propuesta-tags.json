@@ -1,0 +1,997 @@
+{
+  "schema": "ramal",
+  "products": [
+    {
+      "product_code": "144",
+      "nombre": "PUNA HELIOS BLEND 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Puna",
+        "4": "Vino malbec"
+      }
+    },
+    {
+      "product_code": "2014",
+      "nombre": "AGUA MARINARO 12X500",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Marinaro",
+        "4": "Agua mineral"
+      }
+    },
+    {
+      "product_code": "2015",
+      "nombre": "AGUA MARINARO 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Marinaro",
+        "4": "Agua mineral"
+      }
+    },
+    {
+      "product_code": "2016",
+      "nombre": "AGUA MARINARO 6X2,25",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Marinaro",
+        "4": "Agua mineral"
+      }
+    },
+    {
+      "product_code": "2021",
+      "nombre": "AGUA DE MESA FRESH 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Fresh",
+        "4": "Agua de mesa"
+      }
+    },
+    {
+      "product_code": "2513",
+      "nombre": "BAGGIO FRESH LIMONE 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Baggio",
+        "4": "Jugo limón"
+      }
+    },
+    {
+      "product_code": "2515",
+      "nombre": "BAGGIO FRESH CERO NARANJA 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Baggio",
+        "4": "Jugo naranja"
+      }
+    },
+    {
+      "product_code": "2516",
+      "nombre": "BAGGIO FRESH CERO POMELO 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Baggio",
+        "4": "Jugo pomelo"
+      }
+    },
+    {
+      "product_code": "2517",
+      "nombre": "BAGGIO FRESH CERO MANZANA 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Jugos",
+        "3": "Baggio",
+        "4": "Jugo manzana"
+      }
+    },
+    {
+      "product_code": "2518",
+      "nombre": "SIERRA DE LOS PADRES 6X1,5 MANZANA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Sierra de los Padres",
+        "4": "Agua saborizada"
+      }
+    },
+    {
+      "product_code": "2519",
+      "nombre": "SIERRA DE LOS PADRES 6X1,5 NARANJA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Sierra de los Padres",
+        "4": "Agua saborizada"
+      }
+    },
+    {
+      "product_code": "2520",
+      "nombre": "SIERRA DE LOS PADRES 6X1,5 POMELO",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Sierra de los Padres",
+        "4": "Agua saborizada"
+      }
+    },
+    {
+      "product_code": "2521",
+      "nombre": "SIERRA DE LOS PADRES 6X1,5 POMELO ROSADO",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Sierra de los Padres",
+        "4": "Agua saborizada"
+      }
+    },
+    {
+      "product_code": "3000",
+      "nombre": "COCA COLA 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Coca-Cola",
+        "4": "Gaseosa cola"
+      }
+    },
+    {
+      "product_code": "3003",
+      "nombre": "COCA COLA 12X375",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Coca-Cola",
+        "4": "Gaseosa cola"
+      }
+    },
+    {
+      "product_code": "3005",
+      "nombre": "COCA COLA 12X600",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Coca-Cola",
+        "4": "Gaseosa cola"
+      }
+    },
+    {
+      "product_code": "3008",
+      "nombre": "FANTA 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Fanta",
+        "4": "Gaseosa naranja"
+      }
+    },
+    {
+      "product_code": "3012",
+      "nombre": "MARINARO COLA 12X500",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa cola"
+      }
+    },
+    {
+      "product_code": "3013",
+      "nombre": "MARINARO COLA 6 X 2,25",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa cola"
+      }
+    },
+    {
+      "product_code": "3014",
+      "nombre": "MARINARO COLA 4X3 PREMIUM",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa cola"
+      }
+    },
+    {
+      "product_code": "3015",
+      "nombre": "MARINARO GRANADINA 6X2,25",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa granadina"
+      }
+    },
+    {
+      "product_code": "3016",
+      "nombre": "MARINARO GRANADINA 12 X 500",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa granadina"
+      }
+    },
+    {
+      "product_code": "3017",
+      "nombre": "MARINARO GRANADINA 4X3",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa granadina"
+      }
+    },
+    {
+      "product_code": "3018",
+      "nombre": "MARINARO LIMA LIMON 6 X 2,25",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa lima limón"
+      }
+    },
+    {
+      "product_code": "3019",
+      "nombre": "MARINARO LIMA LIMON 12 X 500",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa lima limón"
+      }
+    },
+    {
+      "product_code": "3020",
+      "nombre": "MARINARO LIMONADA 6 X 2,25",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa limonada"
+      }
+    },
+    {
+      "product_code": "3021",
+      "nombre": "MARINARO LIMONADA 12 X 500",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa limonada"
+      }
+    },
+    {
+      "product_code": "3022",
+      "nombre": "MARINARO LIMONADA 4X3 PREMIUM",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa limonada"
+      }
+    },
+    {
+      "product_code": "3023",
+      "nombre": "MARINARO MANZANA  6 X 2,25",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa manzana"
+      }
+    },
+    {
+      "product_code": "3024",
+      "nombre": "MARINARO MANZANA 12 X 500",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa manzana"
+      }
+    },
+    {
+      "product_code": "3025",
+      "nombre": "MARINARO MANZANA 4X3 PREMIUM",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa manzana"
+      }
+    },
+    {
+      "product_code": "3026",
+      "nombre": "MARINARO NARANJA 6 X 2,25",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa naranja"
+      }
+    },
+    {
+      "product_code": "3027",
+      "nombre": "MARINARO NARANJA 12 X 500",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa naranja"
+      }
+    },
+    {
+      "product_code": "3028",
+      "nombre": "MARINARO NARANJA 4X3 PREMIUM",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa naranja"
+      }
+    },
+    {
+      "product_code": "3029",
+      "nombre": "MARINARO GRANADINA 8X500 VIDRIO",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa granadina"
+      }
+    },
+    {
+      "product_code": "3030",
+      "nombre": "MARINARO POMELO 6 X 2,25",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa pomelo"
+      }
+    },
+    {
+      "product_code": "3031",
+      "nombre": "MARINARO POMELO 12 X 500",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa pomelo"
+      }
+    },
+    {
+      "product_code": "3032",
+      "nombre": "MARINARO POMELO 4X3 PREMIUM",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa pomelo"
+      }
+    },
+    {
+      "product_code": "3033",
+      "nombre": "MARINARO LIMONADA 8X500 VIDRIO",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa limonada"
+      }
+    },
+    {
+      "product_code": "3041",
+      "nombre": "SPRITE 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Sprite",
+        "4": "Gaseosa limón"
+      }
+    },
+    {
+      "product_code": "3046",
+      "nombre": "COCA COLA 6X1,5 S/AZUCAR",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Coca-Cola",
+        "4": "Gaseosa cola"
+      }
+    },
+    {
+      "product_code": "3047",
+      "nombre": "MARINARO GRANADINA 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa granadina"
+      }
+    },
+    {
+      "product_code": "3049",
+      "nombre": "MARINARO COLA 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa cola"
+      }
+    },
+    {
+      "product_code": "3051",
+      "nombre": "MARINARO MANZANA 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa manzana"
+      }
+    },
+    {
+      "product_code": "3052",
+      "nombre": "MARINARO LIMONADA 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa limonada"
+      }
+    },
+    {
+      "product_code": "3053",
+      "nombre": "MARINARO UVA 12X500",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa uva"
+      }
+    },
+    {
+      "product_code": "3054",
+      "nombre": "MARINARO ICE LIMA LIMON 4X3",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa ice lima limón"
+      }
+    },
+    {
+      "product_code": "3055",
+      "nombre": "MARINARO UVA 4X3 PREMIUM",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa uva"
+      }
+    },
+    {
+      "product_code": "3057",
+      "nombre": "AGUA TONICA SALVADOR 12X500",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Agua Tónica Salvador",
+        "4": "Agua tónica"
+      }
+    },
+    {
+      "product_code": "3069",
+      "nombre": "AGUA TONICA SALVADOR 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Agua Tónica Salvador",
+        "4": "Agua tónica"
+      }
+    },
+    {
+      "product_code": "3070",
+      "nombre": "MARINARO ICE COLA 4X3",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa ice cola"
+      }
+    },
+    {
+      "product_code": "3071",
+      "nombre": "MARINARO ICE LIMONADA 4X3",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa ice limonada"
+      }
+    },
+    {
+      "product_code": "3072",
+      "nombre": "MARINARO ICE MANZANA 4X3",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa ice manzana"
+      }
+    },
+    {
+      "product_code": "3073",
+      "nombre": "MARINARO ICE NARANJA 4X3",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa ice naranja"
+      }
+    },
+    {
+      "product_code": "3074",
+      "nombre": "MARINARO ICE POMELO ROSADO 4X3",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa ice pomelo rosado"
+      }
+    },
+    {
+      "product_code": "3075",
+      "nombre": "MARINARO ICE GRANADINA 4X3",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa ice granadina"
+      }
+    },
+    {
+      "product_code": "3076",
+      "nombre": "MARINARO NARANJA 6X1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Marinaro",
+        "4": "Gaseosa naranja"
+      }
+    },
+    {
+      "product_code": "4501",
+      "nombre": "SODA MARINARO 6 X 2,25",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Marinaro",
+        "4": "Soda"
+      }
+    },
+    {
+      "product_code": "4502",
+      "nombre": "SODA MARINARO 12 X 500",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Marinaro",
+        "4": "Soda"
+      }
+    },
+    {
+      "product_code": "4503",
+      "nombre": "SODA MARINARO 6 X 1,5",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Marinaro",
+        "4": "Soda"
+      }
+    },
+    {
+      "product_code": "4504",
+      "nombre": "SODA MARINARO SIFON 4 X 2",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Marinaro",
+        "4": "Soda sifón"
+      }
+    },
+    {
+      "product_code": "4506",
+      "nombre": "SODA BAGGIO FRESH 6X2,25",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aguas",
+        "3": "Baggio",
+        "4": "Soda"
+      }
+    },
+    {
+      "product_code": "5001",
+      "nombre": "BRAHMA 24X473 LATA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Cervezas",
+        "3": "Brahma",
+        "4": "Cerveza rubia lata"
+      }
+    },
+    {
+      "product_code": "5011",
+      "nombre": "QUILMES STOUT 24X473 LATA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Cervezas",
+        "3": "Quilmes",
+        "4": "Cerveza stout lata"
+      }
+    },
+    {
+      "product_code": "5014",
+      "nombre": "HEINEKEN 24X473 LATA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Cervezas",
+        "3": "Heineken",
+        "4": "Cerveza rubia lata"
+      }
+    },
+    {
+      "product_code": "5015",
+      "nombre": "HEINEKEN CERO 24X473 LATA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Cervezas",
+        "3": "Heineken",
+        "4": "Cerveza sin alcohol"
+      }
+    },
+    {
+      "product_code": "5021",
+      "nombre": "QUILMES CERO 24X473 LATA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Cervezas",
+        "3": "Quilmes",
+        "4": "Cerveza sin alcohol"
+      }
+    },
+    {
+      "product_code": "5022",
+      "nombre": "QUILMES 24X473 LATA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Cervezas",
+        "3": "Quilmes",
+        "4": "Cerveza rubia lata"
+      }
+    },
+    {
+      "product_code": "5072",
+      "nombre": "IMPERIAL EXTRA LAGER 24X473",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Cervezas",
+        "3": "Imperial",
+        "4": "Cerveza rubia lata"
+      }
+    },
+    {
+      "product_code": "5114",
+      "nombre": "IMPERIAL GOLDEN 24X473 CERO",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Cervezas",
+        "3": "Imperial",
+        "4": "Cerveza sin alcohol"
+      }
+    },
+    {
+      "product_code": "571",
+      "nombre": "PUNA RESERVA MALBEC 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Puna",
+        "4": "Vino malbec"
+      }
+    },
+    {
+      "product_code": "577",
+      "nombre": "HELIOS PUNA CABERNET 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Puna",
+        "4": "Vino cabernet"
+      }
+    },
+    {
+      "product_code": "64",
+      "nombre": "CAFAYATE CABERNET 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Cafayate",
+        "4": "Vino cabernet"
+      }
+    },
+    {
+      "product_code": "69",
+      "nombre": "CAFAYATE MALBEC 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Cafayate",
+        "4": "Vino malbec"
+      }
+    },
+    {
+      "product_code": "711",
+      "nombre": "SANTA JULIA TARDIO TORRONTES 12X500",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Santa Julia",
+        "4": "Vino torrontés"
+      }
+    },
+    {
+      "product_code": "7205",
+      "nombre": "TERMA CITRUS 12X1,35",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Amargos",
+        "3": "Terma",
+        "4": "Amargo citrus"
+      }
+    },
+    {
+      "product_code": "7206",
+      "nombre": "TERMA CUYANO 12X1,35",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Amargos",
+        "3": "Terma",
+        "4": "Amargo cuyano"
+      }
+    },
+    {
+      "product_code": "7222",
+      "nombre": "TERMA CUYANO 12X1,35 CERO",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Amargos",
+        "3": "Terma",
+        "4": "Amargo cuyano"
+      }
+    },
+    {
+      "product_code": "7248",
+      "nombre": "TERMA CITRUS S/AZUCAR 12X1,35",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Amargos",
+        "3": "Terma",
+        "4": "Amargo citrus"
+      }
+    },
+    {
+      "product_code": "7301",
+      "nombre": "MANI SALADO SEMIX 30X120GR",
+      "tags": {
+        "1": "Snacks",
+        "2": "Papas y snacks",
+        "3": "Semix",
+        "4": "Maní salado"
+      }
+    },
+    {
+      "product_code": "7312",
+      "nombre": "MANI SALADO SEMIX 30X120GR JAMON SERRANO",
+      "tags": {
+        "1": "Snacks",
+        "2": "Papas y snacks",
+        "3": "Semix",
+        "4": "Maní salado"
+      }
+    },
+    {
+      "product_code": "7331",
+      "nombre": "PAPA QUENTO BBQ 18X82",
+      "tags": {
+        "1": "Snacks",
+        "2": "Papas y snacks",
+        "3": "Quento",
+        "4": "Papas BBQ"
+      }
+    },
+    {
+      "product_code": "74",
+      "nombre": "CAFAYATE RESERVE CABERNET 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Cafayate",
+        "4": "Vino cabernet"
+      }
+    },
+    {
+      "product_code": "75",
+      "nombre": "CAFAYATE RESERVE MALBEC 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Cafayate",
+        "4": "Vino malbec"
+      }
+    },
+    {
+      "product_code": "76",
+      "nombre": "CAFAYATE RESERVE TORRONTES 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Cafayate",
+        "4": "Vino torrontés"
+      }
+    },
+    {
+      "product_code": "7638",
+      "nombre": "VODKA SMIRNOFF GREEN APPLE 24X473 LATA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Blancas",
+        "3": "Smirnoff",
+        "4": "Vodka sabor manzana verde"
+      }
+    },
+    {
+      "product_code": "7652",
+      "nombre": "VODKA SMIRNOFF RED BERRIE 24X473 LATA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Blancas",
+        "3": "Smirnoff",
+        "4": "Vodka sabor frutos rojos"
+      }
+    },
+    {
+      "product_code": "776",
+      "nombre": "PUNA MALBEC RESERVA 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Puna",
+        "4": "Vino malbec reserva"
+      }
+    },
+    {
+      "product_code": "777",
+      "nombre": "PUNA MALBEC 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Puna",
+        "4": "Vino malbec"
+      }
+    },
+    {
+      "product_code": "78",
+      "nombre": "CAFAYATE SYRAH 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Cafayate",
+        "4": "Vino syrah"
+      }
+    },
+    {
+      "product_code": "782",
+      "nombre": "PUNA HELIOS MALBEC 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Puna",
+        "4": "Vino malbec helios"
+      }
+    },
+    {
+      "product_code": "79",
+      "nombre": "CAFAYATE TORRONTES 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Vinos",
+        "3": "Cafayate",
+        "4": "Vino torrontés"
+      }
+    },
+    {
+      "product_code": "8019",
+      "nombre": "SIDRA LUNA NEGRA EXTRA DULCE 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Espumantes",
+        "3": "Luna Negra",
+        "4": "Sidra extra dulce"
+      }
+    },
+    {
+      "product_code": "8020",
+      "nombre": "SIDRA LUNA NEGRA 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Espumantes",
+        "3": "Luna Negra",
+        "4": "Sidra"
+      }
+    },
+    {
+      "product_code": "9207",
+      "nombre": "WHISKY BLENDER´S PRIDE 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Blancas",
+        "3": "Blender's Pride",
+        "4": "Whisky"
+      }
+    },
+    {
+      "product_code": "9234",
+      "nombre": "WHISKY J WALKER DOUBLE BLACK 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Blancas",
+        "3": "J Walker",
+        "4": "Whisky Double Black"
+      }
+    },
+    {
+      "product_code": "9272",
+      "nombre": "WHISKY J WLAKER BLUE LABEL EST 6X750",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Blancas",
+        "3": "J Walker",
+        "4": "Whisky Blue Label"
+      }
+    },
+    {
+      "product_code": "9473",
+      "nombre": "YERBA VERDEFLOR 12X500 BOLDO",
+      "tags": {
+        "1": "Almacén",
+        "2": "Yerba",
+        "3": "Verdeflor",
+        "4": "Yerba mate"
+      }
+    },
+    {
+      "product_code": "9475",
+      "nombre": "YERBA VERDEFLOR 12X500 CEDRON",
+      "tags": {
+        "1": "Almacén",
+        "2": "Yerba",
+        "3": "Verdeflor",
+        "4": "Yerba mate"
+      }
+    }
+  ],
+  "source": "tags/propose-taxonomy",
+  "notes": "Propuesta IA + corrección local: soda Marinaro, Baggio jugos, Terma amargos, 5 SKUs faltantes."
+}

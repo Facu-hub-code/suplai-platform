@@ -1,0 +1,158 @@
+{
+  "modo": "demo",
+  "dominios": "marinaro.com.ar,mercadolibre.com.ar,carrefour.com.ar,cotodigital.com.ar",
+  "sufijo_fallback": "bebida gaseosa vino cerveza argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS RAMAL (San Pedro, Jujuy — bebidas):\n1. TIPO OBLIGATORIO: agua, gaseosa, soda, vino, cerveza, jugo, amargo, whisky, gin o snack.\n2. MARCA: Marinaro (exclusiva), Sierra de los Padres, Puna, Coca-Cola, Quilmes, etc. No inventes marcas.\n3. UMV: el PdV pide CAJA (ellos internamente dicen bulto). La unidad mínima es la caja del pack (12x500, 6x2,25, 24x473).\n4. SABOR Y FORMATO: incluir sabor (cola, granadina, torrontés) y el pack (caja xN de Y ml/L).\n5. ALIAS: incluir caja, bulto, sabor, marca y código Chess.\n6. NO ALUCINAR: no inventes graduación alcohólica, origen de uva ni premios que no estén en el nombre.",
+  "fase_06": {
+    "historicos_por_cliente": 2,
+    "abiertos": 7,
+    "historicos_inicio": "2026-05-30",
+    "historicos_fin": "2026-08-29"
+  },
+  "fase_07": {
+    "clientes_live_feed": 12,
+    "clientes_quejas": 4
+  },
+  "red_comercial": {
+    "coordenadas_centro": [-24.2314, -64.8661],
+    "vendedores": [
+      {
+        "nombre": "Facundo Cruz",
+        "telefono": "5493887402101",
+        "email": "facundo.cruz@suplaisales.mock",
+        "zona": "SAN PEDRO",
+        "codigo_ruta": "R01"
+      },
+      {
+        "nombre": "Nadia Tolaba",
+        "telefono": "5493887402102",
+        "email": "nadia.tolaba@suplaisales.mock",
+        "zona": "LGSM",
+        "codigo_ruta": "R02"
+      },
+      {
+        "nombre": "Marcelo Mamani",
+        "telefono": "5493887402103",
+        "email": "marcelo.mamani@suplaisales.mock",
+        "zona": "PERICO",
+        "codigo_ruta": "R03"
+      }
+    ],
+    "zonas": [
+      {
+        "nombre": "ZONA SAN PEDRO - Centro",
+        "dia_visita": "lunes",
+        "color": "#E74C3C",
+        "codigo_ruta": "R01-A",
+        "zone_type": "sales",
+        "description": "Centro de San Pedro de Jujuy, casa central El Ramal. Av. 9 de Julio y plaza.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA SAN PEDRO - 9 de Julio / Ruta 34",
+        "dia_visita": "martes",
+        "color": "#3498DB",
+        "codigo_ruta": "R01-B",
+        "zone_type": "route",
+        "description": "Barrio 9 de Julio y acceso Ruta 34, San Pedro.",
+        "vendedor_idx": 0
+      },
+      {
+        "nombre": "ZONA LGSM - Centro Libertador",
+        "dia_visita": "miercoles",
+        "color": "#2ECC71",
+        "codigo_ruta": "R02-A",
+        "zone_type": "sales",
+        "description": "Centro de Libertador General San Martín (Ledesma). Sucursal LGSM.",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA LGSM - Yuto / Caimancito",
+        "dia_visita": "sabado",
+        "color": "#F39C12",
+        "codigo_ruta": "R02-B",
+        "zone_type": "route",
+        "description": "Visita semanal a Yuto (1 h) y Caimancito (40 min) desde Libertador.",
+        "vendedor_idx": 1
+      },
+      {
+        "nombre": "ZONA PERICO - Centro",
+        "dia_visita": "jueves",
+        "color": "#9B59B6",
+        "codigo_ruta": "R03-A",
+        "zone_type": "sales",
+        "description": "Centro de Perico, expansión reciente de El Ramal.",
+        "vendedor_idx": 2
+      },
+      {
+        "nombre": "ZONA PERICO - Ruta 66 / El Cruce",
+        "dia_visita": "viernes",
+        "color": "#1ABC9C",
+        "codigo_ruta": "R03-B",
+        "zone_type": "route",
+        "description": "Acceso Ruta 66 y El Cruce, Perico.",
+        "vendedor_idx": 2
+      }
+    ],
+    "nombres_comerciales": [
+      "Despensa Don Ramón",
+      "Kiosco El Andino",
+      "Almacén La Quebrada",
+      "Maxikiosco San Pedro",
+      "Vinoteca Puna",
+      "Bar El Palomar",
+      "Rotisería Doña Rosa",
+      "Autoservicio 9 de Julio",
+      "Kiosco Marinaro Centro",
+      "Despensa El Ramal",
+      "Almacén Libertador",
+      "Kiosco Ledesma",
+      "Maxikiosco Calilegua",
+      "Despensa Yuto",
+      "Almacén Caimancito",
+      "Kiosco El Ingenio",
+      "Vinoteca LGSM",
+      "Bar La Estación",
+      "Rotisería El Norte",
+      "Autoservicio Perico",
+      "Despensa El Cruce",
+      "Kiosco Ruta 66",
+      "Almacén La Esperanza",
+      "Maxikiosco El Carmen",
+      "Vinoteca Cafayate Norte",
+      "Bar El Palito",
+      "Rotisería Doña Marta",
+      "Kiosco Los Siete Hermanos",
+      "Despensa San Cayetano",
+      "Almacén El Familiar",
+      "Maxikiosco Plaza",
+      "Kiosco Heladera Llena",
+      "Despensa La Esquina",
+      "Almacén Don Pedro",
+      "Vinoteca Sierra de los Padres",
+      "Bar El Quincho",
+      "Rotisería El Gaucho",
+      "Autoservicio Ruta 34",
+      "Kiosco 24 Horas San Pedro",
+      "Despensa El Progreso",
+      "Almacén Doña Silvia",
+      "Maxikiosco El Super Chico",
+      "Kiosco Coca y Hielo",
+      "Despensa El Palito 2",
+      "Almacén Barrio Sur",
+      "Vinoteca Luna Negra",
+      "Bar La Esquina Fría",
+      "Rotisería El Fogón",
+      "Autoservicio Monterrico",
+      "Kiosco El Paso",
+      "Despensa La Unión",
+      "Almacén Don Carlos",
+      "Maxikiosco El Recreo",
+      "Kiosco Los Andes",
+      "Despensa El Sauce",
+      "Almacén La Tradición",
+      "Vinoteca El Esteco"
+    ]
+  }
+}

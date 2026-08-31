@@ -1,0 +1,272 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,549388742104,25001,3074,MARINARO ICE POMELO ROSADO 4X3,4,6325.00,2,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00001,549388742104,25001,3013,"MARINARO COLA 6 X 2,25",3,7935.00,2,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00002,549388742104,25001,3051,"MARINARO MANZANA 6X1,5",2,7705.00,2,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00002,549388742104,25001,3072,MARINARO ICE MANZANA 4X3,5,6325.00,2,Pedido: 5 caja (normalizado: 20 caja; equiv: 5 caja),true,false,false
+P-00002,549388742104,25001,9272,WHISKY J WLAKER BLUE LABEL EST 6X750,4,3967500.00,2,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00002,549388742104,25001,3016,MARINARO GRANADINA 12 X 500,5,10580.00,2,Pedido: 5 caja (normalizado: 60 caja; equiv: 5 caja),true,false,false
+P-00003,549388742105,25002,3049,"MARINARO COLA 6X1,5",1,6030.00,3,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00004,549388742105,25002,9473,YERBA VERDEFLOR 12X500 BOLDO,4,17280.00,3,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00005,549388742106,25003,577,HELIOS PUNA CABERNET 6X750,2,36975.00,4,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00005,549388742106,25003,2016,"AGUA MARINARO 6X2,25",5,5185.00,4,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00005,549388742106,25003,76,CAFAYATE RESERVE TORRONTES 6X750,5,39355.00,4,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00006,549388742106,25003,777,PUNA MALBEC 6X750,3,48280.00,4,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00006,549388742106,25003,7301,MANI SALADO SEMIX 30X120GR,2,26775.00,4,Pedido: 2 caja (normalizado: 60 caja; equiv: 2 caja),true,false,false
+P-00006,549388742106,25003,79,CAFAYATE TORRONTES 6X750,3,24437.50,4,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00007,549388742107,25004,3014,MARINARO COLA 4X3 PREMIUM,4,7300.00,1,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00007,549388742107,25004,7301,MANI SALADO SEMIX 30X120GR,4,31500.00,1,Pedido: 4 caja (normalizado: 120 caja; equiv: 4 caja),true,false,false
+P-00007,549388742107,25004,3074,MARINARO ICE POMELO ROSADO 4X3,5,5500.00,1,Pedido: 5 caja (normalizado: 20 caja; equiv: 5 caja),true,false,false
+P-00008,549388742107,25004,4503,"SODA MARINARO 6 X 1,5",4,5640.00,1,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00008,549388742107,25004,3075,MARINARO ICE GRANADINA 4X3,4,5500.00,1,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00008,549388742107,25004,2016,"AGUA MARINARO 6X2,25",5,6100.00,1,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00009,549388742108,25005,4506,"SODA BAGGIO FRESH 6X2,25",1,5198.00,2,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00009,549388742108,25005,5114,IMPERIAL GOLDEN 24X473 CERO,4,55200.00,2,Pedido: 4 caja (normalizado: 96 caja; equiv: 4 caja),true,false,false
+P-00009,549388742108,25005,3017,MARINARO GRANADINA 4X3,1,8395.00,2,Pedido: 1 caja (normalizado: 4 caja; equiv: 1 caja),true,false,false
+P-00009,549388742108,25005,3072,MARINARO ICE MANZANA 4X3,4,6325.00,2,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00010,549388742108,25005,3008,"FANTA 6X1,5",5,24150.00,2,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00010,549388742108,25005,5114,IMPERIAL GOLDEN 24X473 CERO,2,55200.00,2,Pedido: 2 caja (normalizado: 48 caja; equiv: 2 caja),true,false,false
+P-00011,549388742109,25006,3018,"MARINARO LIMA LIMON 6 X 2,25",3,6210.00,3,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00011,549388742109,25006,3029,MARINARO GRANADINA 8X500 VIDRIO,3,14940.00,3,Pedido: 3 caja (normalizado: 24 caja; equiv: 3 caja),true,false,false
+P-00011,549388742109,25006,571,PUNA RESERVA MALBEC 6X750,3,64530.00,3,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00011,549388742109,25006,3025,MARINARO MANZANA 4X3 PREMIUM,1,6570.00,3,Pedido: 1 caja (normalizado: 4 caja; equiv: 1 caja),true,false,false
+P-00012,549388742109,25006,3053,MARINARO UVA 12X500,4,8280.00,3,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00012,549388742109,25006,3019,MARINARO LIMA LIMON 12 X 500,4,8280.00,3,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00012,549388742109,25006,3051,"MARINARO MANZANA 6X1,5",1,6030.00,3,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00013,549388742110,25007,3072,MARINARO ICE MANZANA 4X3,2,4675.00,4,Pedido: 2 caja (normalizado: 8 caja; equiv: 2 caja),true,false,false
+P-00014,549388742110,25007,2016,"AGUA MARINARO 6X2,25",1,5185.00,4,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00014,549388742110,25007,3055,MARINARO UVA 4X3 PREMIUM,3,6205.00,4,Pedido: 3 caja (normalizado: 12 caja; equiv: 3 caja),true,false,false
+P-00014,549388742110,25007,5014,HEINEKEN 24X473 LATA,3,68340.00,4,Pedido: 3 caja (normalizado: 72 caja; equiv: 3 caja),true,false,false
+P-00014,549388742110,25007,3072,MARINARO ICE MANZANA 4X3,1,4675.00,4,Pedido: 1 caja (normalizado: 4 caja; equiv: 1 caja),true,false,false
+P-00015,549388742111,25008,711,SANTA JULIA TARDIO TORRONTES 12X500,4,115900.00,1,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00015,549388742111,25008,4503,"SODA MARINARO 6 X 1,5",2,5640.00,1,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00015,549388742111,25008,144,PUNA HELIOS BLEND 6X750,1,49500.00,1,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00015,549388742111,25008,8020,SIDRA LUNA NEGRA 6X750,5,26720.00,1,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00016,549388742111,25008,571,PUNA RESERVA MALBEC 6X750,4,71700.00,1,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00017,549388742112,25009,9207,WHISKY BLENDER´S PRIDE 6X750,5,60030.00,2,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00018,549388742112,25009,7206,"TERMA CUYANO 12X1,35",3,27600.00,2,Pedido: 3 caja (normalizado: 36 caja; equiv: 3 caja),true,false,false
+P-00018,549388742112,25009,4504,SODA MARINARO SIFON 4 X 2,5,5888.00,2,Pedido: 5 caja (normalizado: 20 caja; equiv: 5 caja),true,false,false
+P-00018,549388742112,25009,3003,COCA COLA 12X375,5,18515.00,2,Pedido: 5 caja (normalizado: 60 caja; equiv: 5 caja),true,false,false
+P-00019,549388742113,25010,3026,"MARINARO NARANJA 6 X 2,25",4,6210.00,3,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00019,549388742113,25010,7312,MANI SALADO SEMIX 30X120GR JAMON SERRANO,2,31050.00,3,Pedido: 2 caja (normalizado: 60 caja; equiv: 2 caja),true,false,false
+P-00020,549388742113,25010,3051,"MARINARO MANZANA 6X1,5",5,6030.00,3,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00020,549388742113,25010,3057,AGUA TONICA SALVADOR 12X500,3,8910.00,3,Pedido: 3 caja (normalizado: 36 caja; equiv: 3 caja),true,false,false
+P-00020,549388742113,25010,571,PUNA RESERVA MALBEC 6X750,2,64530.00,3,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00021,549388742114,25011,76,CAFAYATE RESERVE TORRONTES 6X750,3,39355.00,4,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00021,549388742114,25011,64,CAFAYATE CABERNET 6X750,1,24437.50,4,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00021,549388742114,25011,2521,"SIERRA DE LOS PADRES 6X1,5 POMELO ROSADO",5,6290.00,4,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00021,549388742114,25011,3015,"MARINARO GRANADINA 6X2,25",4,5865.00,4,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00022,549388742114,25011,7206,"TERMA CUYANO 12X1,35",2,20400.00,4,Pedido: 2 caja (normalizado: 24 caja; equiv: 2 caja),true,false,false
+P-00022,549388742114,25011,3020,"MARINARO LIMONADA 6 X 2,25",1,5865.00,4,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00023,549388742115,25012,79,CAFAYATE TORRONTES 6X750,2,28750.00,1,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00023,549388742115,25012,3014,MARINARO COLA 4X3 PREMIUM,4,7300.00,1,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00024,549388742115,25012,3023,"MARINARO MANZANA  6 X 2,25",5,6900.00,1,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00024,549388742115,25012,3027,MARINARO NARANJA 12 X 500,5,9200.00,1,Pedido: 5 caja (normalizado: 60 caja; equiv: 5 caja),true,false,false
+P-00024,549388742115,25012,7222,"TERMA CUYANO 12X1,35 CERO",1,24000.00,1,Pedido: 1 caja (normalizado: 12 caja; equiv: 1 caja),true,false,false
+P-00025,549388742116,25013,2513,"BAGGIO FRESH LIMONE 6X1,5",4,8510.00,2,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00026,549388742116,25013,2518,"SIERRA DE LOS PADRES 6X1,5 MANZANA",5,8510.00,2,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00026,549388742116,25013,8020,SIDRA LUNA NEGRA 6X750,3,30728.00,2,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00027,549388742117,25014,3012,MARINARO COLA 12X500,4,8280.00,3,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00027,549388742117,25014,3024,MARINARO MANZANA 12 X 500,3,8280.00,3,Pedido: 3 caja (normalizado: 36 caja; equiv: 3 caja),true,false,false
+P-00028,549388742117,25014,76,CAFAYATE RESERVE TORRONTES 6X750,1,41670.00,3,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00028,549388742117,25014,8020,SIDRA LUNA NEGRA 6X750,5,24048.00,3,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00028,549388742117,25014,782,PUNA HELIOS MALBEC 6X750,5,39150.00,3,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00028,549388742117,25014,3019,MARINARO LIMA LIMON 12 X 500,4,8280.00,3,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00029,549388742118,25015,2015,"AGUA MARINARO 6X1,5",5,4794.00,4,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00029,549388742118,25015,2519,"SIERRA DE LOS PADRES 6X1,5 NARANJA",3,6290.00,4,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00030,549388742118,25015,4504,SODA MARINARO SIFON 4 X 2,2,4352.00,4,Pedido: 2 caja (normalizado: 8 caja; equiv: 2 caja),true,false,false
+P-00030,549388742118,25015,2015,"AGUA MARINARO 6X1,5",4,4794.00,4,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00030,549388742118,25015,3032,MARINARO POMELO 4X3 PREMIUM,1,6205.00,4,Pedido: 1 caja (normalizado: 4 caja; equiv: 1 caja),true,false,false
+P-00030,549388742118,25015,3076,"MARINARO NARANJA 6X1,5",3,5695.00,4,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00031,549388742119,25016,79,CAFAYATE TORRONTES 6X750,1,28750.00,1,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00031,549388742119,25016,69,CAFAYATE MALBEC 6X750,2,28750.00,1,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00031,549388742119,25016,3052,"MARINARO LIMONADA 6X1,5",3,6700.00,1,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00031,549388742119,25016,3030,"MARINARO POMELO 6 X 2,25",2,6900.00,1,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00032,549388742119,25016,711,SANTA JULIA TARDIO TORRONTES 12X500,3,115900.00,1,Pedido: 3 caja (normalizado: 36 caja; equiv: 3 caja),true,false,false
+P-00033,549388742120,25017,5015,HEINEKEN CERO 24X473 LATA,5,69000.00,2,Pedido: 5 caja (normalizado: 120 caja; equiv: 5 caja),true,false,false
+P-00033,549388742120,25017,3057,AGUA TONICA SALVADOR 12X500,2,11385.00,2,Pedido: 2 caja (normalizado: 24 caja; equiv: 2 caja),true,false,false
+P-00034,549388742120,25017,76,CAFAYATE RESERVE TORRONTES 6X750,1,53245.00,2,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00034,549388742120,25017,3027,MARINARO NARANJA 12 X 500,4,10580.00,2,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00034,549388742120,25017,3046,"COCA COLA 6X1,5 S/AZUCAR",3,24150.00,2,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00034,549388742120,25017,3049,"MARINARO COLA 6X1,5",1,7705.00,2,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00035,549388742121,25018,2519,"SIERRA DE LOS PADRES 6X1,5 NARANJA",2,6660.00,3,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00035,549388742121,25018,9234,WHISKY J WALKER DOUBLE BLACK 6X750,5,376200.00,3,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00035,549388742121,25018,3012,MARINARO COLA 12X500,1,8280.00,3,Pedido: 1 caja (normalizado: 12 caja; equiv: 1 caja),true,false,false
+P-00035,549388742121,25018,5014,HEINEKEN 24X473 LATA,3,72360.00,3,Pedido: 3 caja (normalizado: 72 caja; equiv: 3 caja),true,false,false
+P-00036,549388742121,25018,2520,"SIERRA DE LOS PADRES 6X1,5 POMELO",3,6210.00,3,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00037,549388742122,25019,8020,SIDRA LUNA NEGRA 6X750,1,22712.00,4,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00037,549388742122,25019,2513,"BAGGIO FRESH LIMONE 6X1,5",1,6290.00,4,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00037,549388742122,25019,7652,VODKA SMIRNOFF RED BERRIE 24X473 LATA,5,56100.00,4,Pedido: 5 caja (normalizado: 120 caja; equiv: 5 caja),true,false,false
+P-00038,549388742122,25019,7312,MANI SALADO SEMIX 30X120GR JAMON SERRANO,1,29325.00,4,Pedido: 1 caja (normalizado: 30 caja; equiv: 1 caja),true,false,false
+P-00038,549388742122,25019,3016,MARINARO GRANADINA 12 X 500,4,7820.00,4,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00039,549388742123,25020,3014,MARINARO COLA 4X3 PREMIUM,1,7300.00,1,Pedido: 1 caja (normalizado: 4 caja; equiv: 1 caja),true,false,false
+P-00039,549388742123,25020,3021,MARINARO LIMONADA 12 X 500,4,9200.00,1,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00039,549388742123,25020,2520,"SIERRA DE LOS PADRES 6X1,5 POMELO",5,6900.00,1,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00039,549388742123,25020,3041,"SPRITE 6X1,5",4,21000.00,1,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00040,549388742123,25020,5072,IMPERIAL EXTRA LAGER 24X473,4,45600.00,1,Pedido: 4 caja (normalizado: 96 caja; equiv: 4 caja),true,false,false
+P-00040,549388742123,25020,3008,"FANTA 6X1,5",1,21000.00,1,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00041,549388742124,25021,74,CAFAYATE RESERVE CABERNET 6X750,5,53245.00,2,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00042,549388742124,25021,3033,MARINARO LIMONADA 8X500 VIDRIO,3,19090.00,2,Pedido: 3 caja (normalizado: 24 caja; equiv: 3 caja),true,false,false
+P-00042,549388742124,25021,4502,SODA MARINARO 12 X 500,1,9315.00,2,Pedido: 1 caja (normalizado: 12 caja; equiv: 1 caja),true,false,false
+P-00043,549388742125,25022,9475,YERBA VERDEFLOR 12X500 CEDRON,3,17280.00,3,Pedido: 3 caja (normalizado: 36 caja; equiv: 3 caja),true,false,false
+P-00044,549388742125,25022,2518,"SIERRA DE LOS PADRES 6X1,5 MANZANA",1,6660.00,3,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00044,549388742125,25022,4502,SODA MARINARO 12 X 500,1,7290.00,3,Pedido: 1 caja (normalizado: 12 caja; equiv: 1 caja),true,false,false
+P-00044,549388742125,25022,2014,AGUA MARINARO 12X500,4,7290.00,3,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00044,549388742125,25022,78,CAFAYATE SYRAH 6X750,3,25875.00,3,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00045,549388742126,25023,3052,"MARINARO LIMONADA 6X1,5",3,5695.00,4,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00045,549388742126,25023,2513,"BAGGIO FRESH LIMONE 6X1,5",4,6290.00,4,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00045,549388742126,25023,3016,MARINARO GRANADINA 12 X 500,4,7820.00,4,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00045,549388742126,25023,4506,"SODA BAGGIO FRESH 6X2,25",4,3842.00,4,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00046,549388742126,25023,69,CAFAYATE MALBEC 6X750,1,24437.50,4,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00046,549388742126,25023,3024,MARINARO MANZANA 12 X 500,4,7820.00,4,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00046,549388742126,25023,3022,MARINARO LIMONADA 4X3 PREMIUM,5,6205.00,4,Pedido: 5 caja (normalizado: 20 caja; equiv: 5 caja),true,false,false
+P-00046,549388742126,25023,3012,MARINARO COLA 12X500,2,7820.00,4,Pedido: 2 caja (normalizado: 24 caja; equiv: 2 caja),true,false,false
+P-00047,549388742127,25024,4503,"SODA MARINARO 6 X 1,5",5,5640.00,1,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00047,549388742127,25024,9272,WHISKY J WLAKER BLUE LABEL EST 6X750,5,3450000.00,1,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00047,549388742127,25024,7222,"TERMA CUYANO 12X1,35 CERO",5,24000.00,1,Pedido: 5 caja (normalizado: 60 caja; equiv: 5 caja),true,false,false
+P-00047,549388742127,25024,3057,AGUA TONICA SALVADOR 12X500,1,9900.00,1,Pedido: 1 caja (normalizado: 12 caja; equiv: 1 caja),true,false,false
+P-00048,549388742127,25024,2521,"SIERRA DE LOS PADRES 6X1,5 POMELO ROSADO",2,7400.00,1,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00048,549388742127,25024,74,CAFAYATE RESERVE CABERNET 6X750,1,46300.00,1,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00048,549388742127,25024,3031,MARINARO POMELO 12 X 500,2,9200.00,1,Pedido: 2 caja (normalizado: 24 caja; equiv: 2 caja),true,false,false
+P-00049,549388742128,25025,5014,HEINEKEN 24X473 LATA,2,92460.00,2,Pedido: 2 caja (normalizado: 48 caja; equiv: 2 caja),true,false,false
+P-00049,549388742128,25025,9475,YERBA VERDEFLOR 12X500 CEDRON,1,22080.00,2,Pedido: 1 caja (normalizado: 12 caja; equiv: 1 caja),true,false,false
+P-00049,549388742128,25025,4504,SODA MARINARO SIFON 4 X 2,4,5888.00,2,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00050,549388742128,25025,3018,"MARINARO LIMA LIMON 6 X 2,25",3,7935.00,2,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00050,549388742128,25025,9272,WHISKY J WLAKER BLUE LABEL EST 6X750,4,3967500.00,2,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00051,549388742129,25026,5014,HEINEKEN 24X473 LATA,5,72360.00,3,Pedido: 5 caja (normalizado: 120 caja; equiv: 5 caja),true,false,false
+P-00052,549388742129,25026,2518,"SIERRA DE LOS PADRES 6X1,5 MANZANA",5,6660.00,3,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00052,549388742129,25026,3012,MARINARO COLA 12X500,4,8280.00,3,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00053,549388742130,25027,3013,"MARINARO COLA 6 X 2,25",5,5865.00,4,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00054,549388742130,25027,75,CAFAYATE RESERVE MALBEC 6X750,4,39355.00,4,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00054,549388742130,25027,3025,MARINARO MANZANA 4X3 PREMIUM,4,6205.00,4,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00054,549388742130,25027,3003,COCA COLA 12X375,2,13685.00,4,Pedido: 2 caja (normalizado: 24 caja; equiv: 2 caja),true,false,false
+P-00055,549388742131,25028,3054,MARINARO ICE LIMA LIMON 4X3,4,5500.00,1,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00056,549388742131,25028,3041,"SPRITE 6X1,5",1,21000.00,1,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00056,549388742131,25028,2021,"AGUA DE MESA FRESH 6X1,5",1,3900.00,1,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00057,549388742132,25029,3049,"MARINARO COLA 6X1,5",4,7705.00,2,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00058,549388742132,25029,3014,MARINARO COLA 4X3 PREMIUM,2,8395.00,2,Pedido: 2 caja (normalizado: 8 caja; equiv: 2 caja),true,false,false
+P-00059,549388742133,25030,3029,MARINARO GRANADINA 8X500 VIDRIO,5,14940.00,3,Pedido: 5 caja (normalizado: 40 caja; equiv: 5 caja),true,false,false
+P-00059,549388742133,25030,3015,"MARINARO GRANADINA 6X2,25",2,6210.00,3,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00059,549388742133,25030,7652,VODKA SMIRNOFF RED BERRIE 24X473 LATA,4,59400.00,3,Pedido: 4 caja (normalizado: 96 caja; equiv: 4 caja),true,false,false
+P-00060,549388742133,25030,8020,SIDRA LUNA NEGRA 6X750,2,24048.00,3,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00060,549388742133,25030,2015,"AGUA MARINARO 6X1,5",4,5076.00,3,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00060,549388742133,25030,3020,"MARINARO LIMONADA 6 X 2,25",3,6210.00,3,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00060,549388742133,25030,2519,"SIERRA DE LOS PADRES 6X1,5 NARANJA",2,6660.00,3,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00061,549388742134,25031,7222,"TERMA CUYANO 12X1,35 CERO",1,20400.00,4,Pedido: 1 caja (normalizado: 12 caja; equiv: 1 caja),true,false,false
+P-00061,549388742134,25031,8019,SIDRA LUNA NEGRA EXTRA DULCE 6X750,2,22712.00,4,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00061,549388742134,25031,4504,SODA MARINARO SIFON 4 X 2,4,4352.00,4,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00061,549388742134,25031,3051,"MARINARO MANZANA 6X1,5",4,5695.00,4,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00062,549388742134,25031,2518,"SIERRA DE LOS PADRES 6X1,5 MANZANA",5,6290.00,4,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00062,549388742134,25031,3029,MARINARO GRANADINA 8X500 VIDRIO,4,14110.00,4,Pedido: 4 caja (normalizado: 32 caja; equiv: 4 caja),true,false,false
+P-00062,549388742134,25031,3032,MARINARO POMELO 4X3 PREMIUM,2,6205.00,4,Pedido: 2 caja (normalizado: 8 caja; equiv: 2 caja),true,false,false
+P-00063,549388742135,25032,3071,MARINARO ICE LIMONADA 4X3,1,5500.00,1,Pedido: 1 caja (normalizado: 4 caja; equiv: 1 caja),true,false,false
+P-00063,549388742135,25032,2520,"SIERRA DE LOS PADRES 6X1,5 POMELO",5,6900.00,1,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00063,549388742135,25032,75,CAFAYATE RESERVE MALBEC 6X750,4,46300.00,1,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00064,549388742135,25032,3071,MARINARO ICE LIMONADA 4X3,4,5500.00,1,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00064,549388742135,25032,3023,"MARINARO MANZANA  6 X 2,25",1,6900.00,1,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00064,549388742135,25032,2517,"BAGGIO FRESH CERO MANZANA 6X1,5",2,7400.00,1,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00065,549388742136,25033,3032,MARINARO POMELO 4X3 PREMIUM,3,8395.00,2,Pedido: 3 caja (normalizado: 12 caja; equiv: 3 caja),true,false,false
+P-00066,549388742136,25033,776,PUNA MALBEC RESERVA 6X750,3,82455.00,2,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00066,549388742136,25033,3052,"MARINARO LIMONADA 6X1,5",5,7705.00,2,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00066,549388742136,25033,5011,QUILMES STOUT 24X473 LATA,5,66700.00,2,Pedido: 5 caja (normalizado: 120 caja; equiv: 5 caja),true,false,false
+P-00067,549388742137,25034,5015,HEINEKEN CERO 24X473 LATA,4,54000.00,3,Pedido: 4 caja (normalizado: 96 caja; equiv: 4 caja),true,false,false
+P-00067,549388742137,25034,3003,COCA COLA 12X375,2,14490.00,3,Pedido: 2 caja (normalizado: 24 caja; equiv: 2 caja),true,false,false
+P-00068,549388742137,25034,2518,"SIERRA DE LOS PADRES 6X1,5 MANZANA",1,6660.00,3,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00068,549388742137,25034,3000,"COCA COLA 6X1,5",1,18900.00,3,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00068,549388742137,25034,3070,MARINARO ICE COLA 4X3,3,4950.00,3,Pedido: 3 caja (normalizado: 12 caja; equiv: 3 caja),true,false,false
+P-00069,549388742138,25035,64,CAFAYATE CABERNET 6X750,5,24437.50,4,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00069,549388742138,25035,9207,WHISKY BLENDER´S PRIDE 6X750,1,44370.00,4,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00069,549388742138,25035,5011,QUILMES STOUT 24X473 LATA,3,49300.00,4,Pedido: 3 caja (normalizado: 72 caja; equiv: 3 caja),true,false,false
+P-00069,549388742138,25035,2520,"SIERRA DE LOS PADRES 6X1,5 POMELO",2,5865.00,4,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00070,549388742138,25035,3028,MARINARO NARANJA 4X3 PREMIUM,4,6205.00,4,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00070,549388742138,25035,3075,MARINARO ICE GRANADINA 4X3,1,4675.00,4,Pedido: 1 caja (normalizado: 4 caja; equiv: 1 caja),true,false,false
+P-00070,549388742138,25035,3020,"MARINARO LIMONADA 6 X 2,25",4,5865.00,4,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00071,549388742139,25036,5015,HEINEKEN CERO 24X473 LATA,1,60000.00,1,Pedido: 1 caja (normalizado: 24 caja; equiv: 1 caja),true,false,false
+P-00072,549388742139,25036,7638,VODKA SMIRNOFF GREEN APPLE 24X473 LATA,3,64800.00,1,Pedido: 3 caja (normalizado: 72 caja; equiv: 3 caja),true,false,false
+P-00072,549388742139,25036,3027,MARINARO NARANJA 12 X 500,1,9200.00,1,Pedido: 1 caja (normalizado: 12 caja; equiv: 1 caja),true,false,false
+P-00073,549388742140,25037,2513,"BAGGIO FRESH LIMONE 6X1,5",3,8510.00,2,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00073,549388742140,25037,2520,"SIERRA DE LOS PADRES 6X1,5 POMELO",3,7935.00,2,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00073,549388742140,25037,5072,IMPERIAL EXTRA LAGER 24X473,5,52440.00,2,Pedido: 5 caja (normalizado: 120 caja; equiv: 5 caja),true,false,false
+P-00074,549388742140,25037,3075,MARINARO ICE GRANADINA 4X3,2,6325.00,2,Pedido: 2 caja (normalizado: 8 caja; equiv: 2 caja),true,false,false
+P-00074,549388742140,25037,9234,WHISKY J WALKER DOUBLE BLACK 6X750,1,480700.00,2,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00074,549388742140,25037,711,SANTA JULIA TARDIO TORRONTES 12X500,4,133285.00,2,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00075,549388742141,25038,3018,"MARINARO LIMA LIMON 6 X 2,25",3,6210.00,3,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00075,549388742141,25038,3005,COCA COLA 12X600,1,17370.00,3,Pedido: 1 caja (normalizado: 12 caja; equiv: 1 caja),true,false,false
+P-00075,549388742141,25038,76,CAFAYATE RESERVE TORRONTES 6X750,1,41670.00,3,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00076,549388742141,25038,3054,MARINARO ICE LIMA LIMON 4X3,1,4950.00,3,Pedido: 1 caja (normalizado: 4 caja; equiv: 1 caja),true,false,false
+P-00076,549388742141,25038,3055,MARINARO UVA 4X3 PREMIUM,1,6570.00,3,Pedido: 1 caja (normalizado: 4 caja; equiv: 1 caja),true,false,false
+P-00076,549388742141,25038,3016,MARINARO GRANADINA 12 X 500,4,8280.00,3,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00077,549388742142,25039,2519,"SIERRA DE LOS PADRES 6X1,5 NARANJA",4,6290.00,4,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00078,549388742142,25039,3070,MARINARO ICE COLA 4X3,3,4675.00,4,Pedido: 3 caja (normalizado: 12 caja; equiv: 3 caja),true,false,false
+P-00078,549388742142,25039,2015,"AGUA MARINARO 6X1,5",2,4794.00,4,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00078,549388742142,25039,3005,COCA COLA 12X600,5,16405.00,4,Pedido: 5 caja (normalizado: 60 caja; equiv: 5 caja),true,false,false
+P-00078,549388742142,25039,776,PUNA MALBEC RESERVA 6X750,2,60945.00,4,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00079,549388742143,25040,777,PUNA MALBEC 6X750,2,56800.00,1,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00080,549388742143,25040,7206,"TERMA CUYANO 12X1,35",2,24000.00,1,Pedido: 2 caja (normalizado: 24 caja; equiv: 2 caja),true,false,false
+P-00080,549388742143,25040,2515,"BAGGIO FRESH CERO NARANJA 6X1,5",1,7400.00,1,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00081,549388742144,0,75,CAFAYATE RESERVE MALBEC 6X750,4,53245.00,2,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00081,549388742144,0,78,CAFAYATE SYRAH 6X750,1,33062.50,2,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00081,549388742144,0,3014,MARINARO COLA 4X3 PREMIUM,3,8395.00,2,Pedido: 3 caja (normalizado: 12 caja; equiv: 3 caja),true,false,false
+P-00082,549388742144,0,5022,QUILMES 24X473 LATA,4,54740.00,2,Pedido: 4 caja (normalizado: 96 caja; equiv: 4 caja),true,false,false
+P-00082,549388742144,0,3005,COCA COLA 12X600,4,22195.00,2,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00083,549388742145,0,3024,MARINARO MANZANA 12 X 500,5,8280.00,3,Pedido: 5 caja (normalizado: 60 caja; equiv: 5 caja),true,false,false
+P-00083,549388742145,0,571,PUNA RESERVA MALBEC 6X750,2,64530.00,3,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00084,549388742145,0,3032,MARINARO POMELO 4X3 PREMIUM,5,6570.00,3,Pedido: 5 caja (normalizado: 20 caja; equiv: 5 caja),true,false,false
+P-00084,549388742145,0,5015,HEINEKEN CERO 24X473 LATA,3,54000.00,3,Pedido: 3 caja (normalizado: 72 caja; equiv: 3 caja),true,false,false
+P-00085,549388742146,0,3055,MARINARO UVA 4X3 PREMIUM,4,6205.00,4,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00085,549388742146,0,2521,"SIERRA DE LOS PADRES 6X1,5 POMELO ROSADO",4,6290.00,4,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00085,549388742146,0,9473,YERBA VERDEFLOR 12X500 BOLDO,5,16320.00,4,Pedido: 5 caja (normalizado: 60 caja; equiv: 5 caja),true,false,false
+P-00085,549388742146,0,4503,"SODA MARINARO 6 X 1,5",5,4794.00,4,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00086,549388742146,0,3055,MARINARO UVA 4X3 PREMIUM,1,6205.00,4,Pedido: 1 caja (normalizado: 4 caja; equiv: 1 caja),true,false,false
+P-00087,549388742147,0,577,HELIOS PUNA CABERNET 6X750,2,43500.00,1,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00087,549388742147,0,3013,"MARINARO COLA 6 X 2,25",4,6900.00,1,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00088,549388742147,0,5015,HEINEKEN CERO 24X473 LATA,3,60000.00,1,Pedido: 3 caja (normalizado: 72 caja; equiv: 3 caja),true,false,false
+P-00089,549388742148,0,3071,MARINARO ICE LIMONADA 4X3,4,6325.00,2,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00089,549388742148,0,777,PUNA MALBEC 6X750,4,65320.00,2,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,false,false
+P-00090,549388742148,0,782,PUNA HELIOS MALBEC 6X750,1,50025.00,2,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00090,549388742148,0,7222,"TERMA CUYANO 12X1,35 CERO",1,27600.00,2,Pedido: 1 caja (normalizado: 12 caja; equiv: 1 caja),true,false,false
+P-00090,549388742148,0,3069,"AGUA TONICA SALVADOR 6X1,5",1,8625.00,2,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00090,549388742148,0,7248,"TERMA CITRUS S/AZUCAR 12X1,35",4,27600.00,2,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,false,false
+P-00091,549388742149,0,5022,QUILMES 24X473 LATA,3,42840.00,3,Pedido: 3 caja (normalizado: 72 caja; equiv: 3 caja),true,false,false
+P-00091,549388742149,0,3032,MARINARO POMELO 4X3 PREMIUM,3,6570.00,3,Pedido: 3 caja (normalizado: 12 caja; equiv: 3 caja),true,false,false
+P-00091,549388742149,0,75,CAFAYATE RESERVE MALBEC 6X750,3,41670.00,3,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00092,549388742149,0,3057,AGUA TONICA SALVADOR 12X500,3,8910.00,3,Pedido: 3 caja (normalizado: 36 caja; equiv: 3 caja),true,false,false
+P-00092,549388742149,0,69,CAFAYATE MALBEC 6X750,3,25875.00,3,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00093,549388742150,0,9475,YERBA VERDEFLOR 12X500 CEDRON,2,16320.00,4,Pedido: 2 caja (normalizado: 24 caja; equiv: 2 caja),true,false,false
+P-00094,549388742150,0,5072,IMPERIAL EXTRA LAGER 24X473,5,38760.00,4,Pedido: 5 caja (normalizado: 120 caja; equiv: 5 caja),true,false,false
+P-00094,549388742150,0,3020,"MARINARO LIMONADA 6 X 2,25",5,5865.00,4,Pedido: 5 caja (normalizado: 30 caja; equiv: 5 caja),true,false,false
+P-00094,549388742150,0,3029,MARINARO GRANADINA 8X500 VIDRIO,4,14110.00,4,Pedido: 4 caja (normalizado: 32 caja; equiv: 4 caja),true,false,false
+P-00094,549388742150,0,3072,MARINARO ICE MANZANA 4X3,4,4675.00,4,Pedido: 4 caja (normalizado: 16 caja; equiv: 4 caja),true,false,false
+P-00095,549388742151,0,3005,COCA COLA 12X600,2,19300.00,1,Pedido: 2 caja (normalizado: 24 caja; equiv: 2 caja),true,false,false
+P-00095,549388742151,0,3025,MARINARO MANZANA 4X3 PREMIUM,3,7300.00,1,Pedido: 3 caja (normalizado: 12 caja; equiv: 3 caja),true,false,false
+P-00095,549388742151,0,782,PUNA HELIOS MALBEC 6X750,2,43500.00,1,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00095,549388742151,0,3008,"FANTA 6X1,5",3,21000.00,1,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00096,549388742151,0,3055,MARINARO UVA 4X3 PREMIUM,1,7300.00,1,Pedido: 1 caja (normalizado: 4 caja; equiv: 1 caja),true,false,false
+P-00096,549388742151,0,2515,"BAGGIO FRESH CERO NARANJA 6X1,5",2,7400.00,1,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00097,549388742152,0,3047,"MARINARO GRANADINA 6X1,5",1,7705.00,2,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00097,549388742152,0,78,CAFAYATE SYRAH 6X750,1,33062.50,2,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00097,549388742152,0,3022,MARINARO LIMONADA 4X3 PREMIUM,3,8395.00,2,Pedido: 3 caja (normalizado: 12 caja; equiv: 3 caja),true,false,false
+P-00097,549388742152,0,5011,QUILMES STOUT 24X473 LATA,1,66700.00,2,Pedido: 1 caja (normalizado: 24 caja; equiv: 1 caja),true,false,false
+P-00098,549388742152,0,75,CAFAYATE RESERVE MALBEC 6X750,3,53245.00,2,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00099,549388742153,0,3041,"SPRITE 6X1,5",3,18900.00,3,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,false,false
+P-00099,549388742153,0,79,CAFAYATE TORRONTES 6X750,1,25875.00,3,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00100,549388742153,0,3018,"MARINARO LIMA LIMON 6 X 2,25",1,6210.00,3,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,false,false
+P-00100,549388742153,0,78,CAFAYATE SYRAH 6X750,2,25875.00,3,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,false,false
+P-00101,549388742107,25004,2014,AGUA MARINARO 12X500,1,6885.00,1,Pedido: 1 caja (normalizado: 12 caja; equiv: 1 caja) - promo fase 2,true,true,true
+P-00102,549388742104,25001,3053,MARINARO UVA 12X500,5,10580.00,2,Pedido: 5 caja (normalizado: 60 caja; equiv: 5 caja),true,true,false
+P-00102,549388742104,25001,2521,"SIERRA DE LOS PADRES 6X1,5 POMELO ROSADO",3,8510.00,2,Pedido: 3 caja (normalizado: 18 caja; equiv: 3 caja),true,true,false
+P-00102,549388742104,25001,3005,COCA COLA 12X600,4,22195.00,2,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,true,false
+P-00102,549388742104,25001,3018,"MARINARO LIMA LIMON 6 X 2,25",1,7935.00,2,Pedido: 1 caja (normalizado: 6 caja; equiv: 1 caja),true,true,false
+P-00103,549388742105,25002,3014,MARINARO COLA 4X3 PREMIUM,5,6570.00,3,Pedido: 5 caja (normalizado: 20 caja; equiv: 5 caja),true,true,false
+P-00103,549388742105,25002,7331,PAPA QUENTO BBQ 18X82,2,29160.00,3,Pedido: 2 caja (normalizado: 36 caja; equiv: 2 caja),true,true,false
+P-00103,549388742105,25002,5021,QUILMES CERO 24X473 LATA,1,39600.00,3,Pedido: 1 caja (normalizado: 24 caja; equiv: 1 caja),true,true,false
+P-00104,549388742106,25003,3053,MARINARO UVA 12X500,3,7820.00,4,Pedido: 3 caja (normalizado: 36 caja; equiv: 3 caja),true,true,false
+P-00104,549388742106,25003,9207,WHISKY BLENDER´S PRIDE 6X750,4,44370.00,4,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,true,false
+P-00104,549388742106,25003,7248,"TERMA CITRUS S/AZUCAR 12X1,35",3,20400.00,4,Pedido: 3 caja (normalizado: 36 caja; equiv: 3 caja),true,true,false
+P-00104,549388742106,25003,3012,MARINARO COLA 12X500,3,7820.00,4,Pedido: 3 caja (normalizado: 36 caja; equiv: 3 caja),true,true,false
+P-00105,549388742108,25005,7206,"TERMA CUYANO 12X1,35",4,27600.00,2,Pedido: 4 caja (normalizado: 48 caja; equiv: 4 caja),true,true,false
+P-00105,549388742108,25005,3019,MARINARO LIMA LIMON 12 X 500,2,10580.00,2,Pedido: 2 caja (normalizado: 24 caja; equiv: 2 caja),true,true,false
+P-00106,549388742109,25006,7331,PAPA QUENTO BBQ 18X82,5,29160.00,3,Pedido: 5 caja (normalizado: 90 caja; equiv: 5 caja),true,true,false
+P-00106,549388742109,25006,3033,MARINARO LIMONADA 8X500 VIDRIO,4,14940.00,3,Pedido: 4 caja (normalizado: 32 caja; equiv: 4 caja),true,true,false
+P-00107,549388742110,25007,9473,YERBA VERDEFLOR 12X500 BOLDO,3,16320.00,4,Pedido: 3 caja (normalizado: 36 caja; equiv: 3 caja),true,true,false
+P-00107,549388742110,25007,3000,"COCA COLA 6X1,5",2,17850.00,4,Pedido: 2 caja (normalizado: 12 caja; equiv: 2 caja),true,true,false
+P-00107,549388742110,25007,2015,"AGUA MARINARO 6X1,5",4,4794.00,4,Pedido: 4 caja (normalizado: 24 caja; equiv: 4 caja),true,true,false

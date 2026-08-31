@@ -1,0 +1,10 @@
+base_product_code,related_product_code,reason,is_mock
+2014,2016,"Pasá de la caja 12x500 al 6x2,25 de Agua Marinaro: más litros por visita.",true
+3012,3013,"De Cola 12x500 a 6x2,25: el formato que pide la despensa.",true
+3013,3014,"De Cola 2,25 a Premium 4x3: más litros, mismo sabor Marinaro.",true
+3016,3015,"Granadina 12x500 a 6x2,25: formato más grande para reposición.",true
+3053,3055,Uva 12x500 a Uva Premium 4x3: el bidón de 3 L de la línea.,true
+69,75,"Cafayate Malbec a Reserva: mismo varietal, un escalón más.",true
+777,776,Puna Malbec a Reserva: upsell de vinoteca Jujuy.,true
+5022,5014,De Quilmes a Heineken: cerveza premium en la misma caja de latas.,true
+3003,3000,"Coca 12x375 a 6x1,5: de personal a familiar.",true

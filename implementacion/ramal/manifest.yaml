@@ -1,0 +1,147 @@
+# Distribuidora El Ramal — demo agéntica (recorte 99 SKUs descriptivos)
+# Schema confirmado: ramal
+# Repo: suplai-platform hub | rama: feat/quimica-vm-catalogo (sin abrir rama, pedido explícito)
+
+schema_name: "ramal"
+nombre_comercial: "Distribuidora El Ramal"
+ciudad_base: "San Pedro, Jujuy, Argentina"
+coordenadas_centro: [-24.2314, -64.8661]
+rubro: "distribución de bebidas y comestibles (Marinaro exclusivo, vinoteca, aguas, cervezas y blancas)"
+excel_input: "inputs/plantilla-precios-completa.xlsx"
+sitio_web: ""
+admin_email: "admin@ramal.com"
+admin_password: "Suplai2026"
+notas: |
+  Demo agéntica para Silvia Machaca (preventa San Pedro / Libertador / Perico).
+  27 años en Jujuy. Casa central San Pedro, sucursal LGSM, expansión a Perico.
+  Representantes exclusivos de Marinaro y de Sierra de los Padres en zona.
+  Chess/NextBin. 1.650 clientes, 7 preventistas.
+  Lista origen: plantilla Chess "Mostrador -LGSM" (1.788 arts, 1.166 con Precio Final > 0).
+  Demo: recorte 99 SKUs descriptivos (43 Marinaro + mix de líneas). Completo en inputs/catalogo-completo.csv.
+  UMV: caja (= bulto interno). El PdV pide "caja", no "bulto".
+  Origen: /Users/facundolorenzo/Desktop/RAMAL/
+modo: demo
+demo:
+  productos_cargados: 99
+  catalogo_completo_csv: inputs/catalogo-completo.csv
+  omitido: ["09"]
+
+blocked:
+  is_mock_migration: false
+  tenant_no_provisionado: false
+
+fases:
+  "00":
+    nombre: preflight
+    estado: cargado
+    output_csv: outputs/phase-00-preflight.csv
+    filas_csv: 8
+    cargado_at: "2026-08-29T12:37:00Z"
+    notas: "Tenant creado en esta sesión (clone gonzales, 71 tablas, vacío). Owner admin@ramal.com."
+  "01":
+    nombre: catalogo
+    estado: cargado
+    output_csv: outputs/phase-01-productos.csv
+    output_csv_extra: outputs/phase-01-lista-precios-*.csv
+    filas_csv: 99
+    cargado_at: "2026-08-29T12:48:00Z"
+    notas: "99 SKUs + 4 listas + 396 precios + 1188 aliases. umv_tipo=display, caja_semantica=bulto. Vectorize scheduled=99."
+  "01.1":
+    nombre: tags
+    estado: cargado
+    output_json: outputs/phase-01-1-propuesta-categorias.json
+    output_json_extra: outputs/phase-01-1-propuesta-tags.json
+    cargado_at: "2026-08-31T16:10:00Z"
+    notas: "99/99 SKUs. 82 nodos (raíces Bebidas/Snacks/Almacén). Correcciones: soda Marinaro, Baggio jugos, Terma amargos. populate 500 (bug categoria_ids) pero datos OK. RAG 82 embeddings."
+  "01.2":
+    nombre: mejora_descripciones
+    estado: cargado
+    output_csv: outputs/vista_previa_enriquecimiento.csv
+    filas_csv: 99
+    cargado_at: "2026-08-31T16:17:47Z"
+    notas: "99 descripciones + 512 aliases. Vectorize encolada. Correcciones: Uva Premium no vino; sodas sin sabor; Ice/Premium/vidrio; caja+bulto."
+  "01.3":
+    nombre: prompt_agente
+    estado: cargado
+    output_json: outputs/phase-01-3-prompt-config.json
+    cargado_at: "2026-08-31T17:00:00Z"
+    notas: "Rami, WA 5493887401901. UMV caja (no bulto). Followups default desactivados."
+  "02":
+    nombre: promociones
+    estado: cargado
+    output_csv: outputs/phase-02-promociones.csv
+    filas_csv: 4
+    cargado_at: "2026-08-31T17:12:00Z"
+    notas: "4 promos Marinaro: agua 15% L1, cola $1000 L2, granadina $8096 x3 L1, lima limón 20% L3."
+  "03":
+    nombre: cross_upsell
+    estado: cargado
+    output_csv: outputs/phase-03-cross-sell.csv
+    output_csv_extra: outputs/phase-03-up-sell.csv
+    filas_csv: 12
+    cargado_at: "2026-08-31T17:19:00Z"
+    notas: "12 cross + 9 up en public.tenant_*_mappings. Marinaro en ambos. Uva 12x500 → Premium 4x3."
+  "04":
+    nombre: red_comercial
+    estado: cargado
+    output_csv: outputs/phase-04-vendedores.csv
+    output_csv_extra: outputs/phase-04-zonas.csv
+    output_csv_extra_2: outputs/phase-04-clientes.csv
+    filas_csv: 50
+    cargado_at: "2026-08-31T17:28:00Z"
+    notas: "3 preventistas (Cruz/Tolaba/Mamani), 6 zonas San Pedro-LGSM-Perico-Yuto, 50 PdV + locations."
+  "05":
+    nombre: clientes_flags
+    estado: cargado
+    output_csv: outputs/phase-05-clientes-flags.csv
+    filas_csv: 50
+    cargado_at: "2026-08-31T17:31:00Z"
+    notas: "40 ERP (25001+) + 10 PROSPECTO. WA 31 validado. 50/50 actualizados."
+  "06":
+    nombre: pedidos
+    estado: cargado
+    output_csv: outputs/phase-06-pedidos.csv
+    output_csv_extra: outputs/phase-06-items-pedido.csv
+    filas_csv: 107
+    cargado_at: "2026-08-31T17:35:00Z"
+    notas: "107 pedidos (100 históricos + 7 abiertos), 271 ítems. Ancla Agua Marinaro promo 15%."
+  "06.1":
+    nombre: field_setup
+    estado: cargado
+    output_csv: outputs/phase-06-1-pedidos-field.csv
+    output_csv_extra: outputs/phase-06-1-items-pedido-field.csv
+    output_json: outputs/phase-06-1-objetivos.csv
+    filas_csv: 470
+    cargado_at: "2026-08-31T17:43:00Z"
+    ml_retrained: false
+    ml_warning: "Sales-engine en 127.0.0.1:8001 no estaba levantado. REACTIVAR_CLIENTE sí; combo/hábito de hoy sin sugerencias ML."
+    notas: "Field on. 470 pedidos ML, 2 objetivos (Agua Marinaro + grupo Marinaro), torneo agosto, 273 tareas (5 hoy). Cobertura semanal 7/7."
+  "07":
+    nombre: conversaciones
+    estado: cargado
+    output_csv: outputs/phase-07-conversaciones-resumen.csv
+    filas_csv: 50
+    cargado_at: "2026-08-31T19:11:00Z"
+    notas: "50 sesiones core + inbox, 212 eventos mock. 12 live_feed. 0 cierres en user_message."
+  "08":
+    nombre: insights
+    estado: cargado
+    output_csv: outputs/phase-08-notificaciones.csv
+    filas_csv: 18
+    cargado_at: "2026-08-31T19:21:00Z"
+    notas: "18 tickets mock (11 open). 12 eventos cruzados en core (Calidad/Logística Marinaro)."
+  "09":
+    nombre: e2e_testing
+    estado: omitido
+    output_markdown: outputs/reporte_e2e_*.md
+    cargado_at: null
+    notas: "Omitido en modo demo — smoke chat manual si hace falta."
+  "10":
+    nombre: purga_mock
+    estado: bloqueado
+    output_csv: outputs/phase-10-purga-log.csv
+    filas_csv: 0
+    cargado_at: null
+
+marca_lider: "MARINARO"
+tenant_id: "a4802f54-861f-4b2b-b399-a9befe76b746"

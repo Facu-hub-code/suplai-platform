@@ -1,0 +1,108 @@
+pedido_ref,cliente_codigo,cliente_phone,cliente_razon_social,fecha,estado,total,notas,is_mock,es_pedido_abierto,lista_precios_id
+P-00001,25001,549388742104,Despensa Don Ramón,2026-05-30 08:00:00,confirmado,49105.00,Pedido historico mock - Despensa Don Ramón,true,false,2
+P-00002,25001,549388742104,Despensa Don Ramón,2026-06-16 09:19:07,entregado,15969935.00,Pedido historico mock - Despensa Don Ramón,true,false,2
+P-00003,25002,549388742105,Kiosco El Andino,2026-06-06 11:11:23,entregado,6030.00,Pedido historico mock - Kiosco El Andino,true,false,3
+P-00004,25002,549388742105,Kiosco El Andino,2026-06-23 12:30:30,facturado,69120.00,Pedido historico mock - Kiosco El Andino,true,false,3
+P-00005,25003,549388742106,Almacén La Quebrada,2026-06-13 14:22:46,facturado,296650.00,Pedido historico mock - Almacén La Quebrada,true,false,4
+P-00006,25003,549388742106,Almacén La Quebrada,2026-06-30 15:41:53,confirmado,271702.50,Pedido historico mock - Almacén La Quebrada,true,false,4
+P-00007,25004,549388742107,Maxikiosco San Pedro,2026-06-20 17:33:09,confirmado,182700.00,Pedido historico mock - Maxikiosco San Pedro,true,false,1
+P-00008,25004,549388742107,Maxikiosco San Pedro,2026-07-07 08:52:16,entregado,75060.00,Pedido historico mock - Maxikiosco San Pedro,true,false,1
+P-00009,25005,549388742108,Vinoteca Puna,2026-06-27 10:44:32,entregado,259693.00,Pedido historico mock - Vinoteca Puna,true,false,2
+P-00010,25005,549388742108,Vinoteca Puna,2026-07-14 11:03:39,facturado,231150.00,Pedido historico mock - Vinoteca Puna,true,false,2
+P-00011,25006,549388742109,Bar El Palomar,2026-07-04 13:55:55,facturado,263610.00,Pedido historico mock - Bar El Palomar,true,false,3
+P-00012,25006,549388742109,Bar El Palomar,2026-07-21 14:14:02,confirmado,72270.00,Pedido historico mock - Bar El Palomar,true,false,3
+P-00013,25007,549388742110,Rotisería Doña Rosa,2026-07-11 16:06:18,confirmado,9350.00,Pedido historico mock - Rotisería Doña Rosa,true,false,4
+P-00014,25007,549388742110,Rotisería Doña Rosa,2026-07-28 17:25:25,entregado,233495.00,Pedido historico mock - Rotisería Doña Rosa,true,false,4
+P-00015,25008,549388742111,Autoservicio 9 de Julio,2026-07-18 09:17:41,entregado,657980.00,Pedido historico mock - Autoservicio 9 de Julio,true,false,1
+P-00016,25008,549388742111,Autoservicio 9 de Julio,2026-08-04 10:36:48,facturado,286800.00,Pedido historico mock - Autoservicio 9 de Julio,true,false,1
+P-00017,25009,549388742112,Kiosco Marinaro Centro,2026-07-25 12:28:04,facturado,300150.00,Pedido historico mock - Kiosco Marinaro Centro,true,false,2
+P-00018,25009,549388742112,Kiosco Marinaro Centro,2026-08-11 13:47:11,confirmado,204815.00,Pedido historico mock - Kiosco Marinaro Centro,true,false,2
+P-00019,25010,549388742113,Despensa El Ramal,2026-08-01 15:39:27,confirmado,86940.00,Pedido historico mock - Despensa El Ramal,true,false,3
+P-00020,25010,549388742113,Despensa El Ramal,2026-08-18 16:58:34,entregado,185940.00,Pedido historico mock - Despensa El Ramal,true,false,3
+P-00021,25011,549388742114,Almacén Libertador,2026-08-08 08:50:50,entregado,197412.50,Pedido historico mock - Almacén Libertador,true,false,4
+P-00022,25011,549388742114,Almacén Libertador,2026-08-25 09:09:57,facturado,46665.00,Pedido historico mock - Almacén Libertador,true,false,4
+P-00023,25012,549388742115,Kiosco Ledesma,2026-08-15 11:01:13,facturado,86700.00,Pedido historico mock - Kiosco Ledesma,true,false,1
+P-00024,25012,549388742115,Kiosco Ledesma,2026-06-01 12:20:20,confirmado,104500.00,Pedido historico mock - Kiosco Ledesma,true,false,1
+P-00025,25013,549388742116,Maxikiosco Calilegua,2026-08-22 14:12:36,confirmado,34040.00,Pedido historico mock - Maxikiosco Calilegua,true,false,2
+P-00026,25013,549388742116,Maxikiosco Calilegua,2026-06-08 15:31:43,entregado,134734.00,Pedido historico mock - Maxikiosco Calilegua,true,false,2
+P-00027,25014,549388742117,Despensa Yuto,2026-08-29 17:23:59,entregado,57960.00,Pedido historico mock - Despensa Yuto,true,false,3
+P-00028,25014,549388742117,Despensa Yuto,2026-06-15 08:42:06,facturado,390780.00,Pedido historico mock - Despensa Yuto,true,false,3
+P-00029,25015,549388742118,Almacén Caimancito,2026-06-05 10:34:22,facturado,42840.00,Pedido historico mock - Almacén Caimancito,true,false,4
+P-00030,25015,549388742118,Almacén Caimancito,2026-06-22 11:53:29,confirmado,51170.00,Pedido historico mock - Almacén Caimancito,true,false,4
+P-00031,25016,549388742119,Kiosco El Ingenio,2026-06-12 13:45:45,confirmado,120150.00,Pedido historico mock - Kiosco El Ingenio,true,false,1
+P-00032,25016,549388742119,Kiosco El Ingenio,2026-06-29 14:04:52,entregado,347700.00,Pedido historico mock - Kiosco El Ingenio,true,false,1
+P-00033,25017,549388742120,Vinoteca LGSM,2026-06-19 16:56:08,entregado,367770.00,Pedido historico mock - Vinoteca LGSM,true,false,2
+P-00034,25017,549388742120,Vinoteca LGSM,2026-07-06 17:15:15,facturado,175720.00,Pedido historico mock - Vinoteca LGSM,true,false,2
+P-00035,25018,549388742121,Bar La Estación,2026-06-26 09:07:31,facturado,2119680.00,Pedido historico mock - Bar La Estación,true,false,3
+P-00036,25018,549388742121,Bar La Estación,2026-07-13 10:26:38,confirmado,18630.00,Pedido historico mock - Bar La Estación,true,false,3
+P-00037,25019,549388742122,Rotisería El Norte,2026-07-03 12:18:54,confirmado,309502.00,Pedido historico mock - Rotisería El Norte,true,false,4
+P-00038,25019,549388742122,Rotisería El Norte,2026-07-20 13:37:01,entregado,60605.00,Pedido historico mock - Rotisería El Norte,true,false,4
+P-00039,25020,549388742123,Autoservicio Perico,2026-07-10 15:29:17,entregado,162600.00,Pedido historico mock - Autoservicio Perico,true,false,1
+P-00040,25020,549388742123,Autoservicio Perico,2026-07-27 16:48:24,facturado,203400.00,Pedido historico mock - Autoservicio Perico,true,false,1
+P-00041,25021,549388742124,Despensa El Cruce,2026-07-17 08:40:40,facturado,266225.00,Pedido historico mock - Despensa El Cruce,true,false,2
+P-00042,25021,549388742124,Despensa El Cruce,2026-08-03 09:59:47,confirmado,66585.00,Pedido historico mock - Despensa El Cruce,true,false,2
+P-00043,25022,549388742125,Kiosco Ruta 66,2026-07-24 11:51:03,confirmado,51840.00,Pedido historico mock - Kiosco Ruta 66,true,false,3
+P-00044,25022,549388742125,Kiosco Ruta 66,2026-08-10 12:10:10,entregado,120735.00,Pedido historico mock - Kiosco Ruta 66,true,false,3
+P-00045,25023,549388742126,Almacén La Esperanza,2026-07-31 14:02:26,entregado,88893.00,Pedido historico mock - Almacén La Esperanza,true,false,4
+P-00046,25023,549388742126,Almacén La Esperanza,2026-08-17 15:21:33,facturado,102382.50,Pedido historico mock - Almacén La Esperanza,true,false,4
+P-00047,25024,549388742127,Maxikiosco El Carmen,2026-08-07 17:13:49,facturado,17408100.00,Pedido historico mock - Maxikiosco El Carmen,true,false,1
+P-00048,25024,549388742127,Maxikiosco El Carmen,2026-08-24 08:32:56,confirmado,79500.00,Pedido historico mock - Maxikiosco El Carmen,true,false,1
+P-00049,25025,549388742128,Vinoteca Cafayate Norte,2026-08-14 10:24:12,confirmado,230552.00,Pedido historico mock - Vinoteca Cafayate Norte,true,false,2
+P-00050,25025,549388742128,Vinoteca Cafayate Norte,2026-05-31 11:43:19,entregado,15893805.00,Pedido historico mock - Vinoteca Cafayate Norte,true,false,2
+P-00051,25026,549388742129,Bar El Palito,2026-08-21 13:35:35,entregado,361800.00,Pedido historico mock - Bar El Palito,true,false,3
+P-00052,25026,549388742129,Bar El Palito,2026-06-07 14:54:42,facturado,66420.00,Pedido historico mock - Bar El Palito,true,false,3
+P-00053,25027,549388742130,Rotisería Doña Marta,2026-08-28 16:46:58,facturado,29325.00,Pedido historico mock - Rotisería Doña Marta,true,false,4
+P-00054,25027,549388742130,Rotisería Doña Marta,2026-06-14 17:05:05,confirmado,209610.00,Pedido historico mock - Rotisería Doña Marta,true,false,4
+P-00055,25028,549388742131,Kiosco Los Siete Hermanos,2026-06-04 09:57:21,confirmado,22000.00,Pedido historico mock - Kiosco Los Siete Hermanos,true,false,1
+P-00056,25028,549388742131,Kiosco Los Siete Hermanos,2026-06-21 10:16:28,entregado,24900.00,Pedido historico mock - Kiosco Los Siete Hermanos,true,false,1
+P-00057,25029,549388742132,Despensa San Cayetano,2026-06-11 12:08:44,entregado,30820.00,Pedido historico mock - Despensa San Cayetano,true,false,2
+P-00058,25029,549388742132,Despensa San Cayetano,2026-06-28 13:27:51,facturado,16790.00,Pedido historico mock - Despensa San Cayetano,true,false,2
+P-00059,25030,549388742133,Almacén El Familiar,2026-06-18 15:19:07,facturado,324720.00,Pedido historico mock - Almacén El Familiar,true,false,3
+P-00060,25030,549388742133,Almacén El Familiar,2026-07-05 16:38:14,confirmado,100350.00,Pedido historico mock - Almacén El Familiar,true,false,3
+P-00061,25031,549388742134,Maxikiosco Plaza,2026-06-25 08:30:30,confirmado,106012.00,Pedido historico mock - Maxikiosco Plaza,true,false,4
+P-00062,25031,549388742134,Maxikiosco Plaza,2026-07-12 09:49:37,entregado,100300.00,Pedido historico mock - Maxikiosco Plaza,true,false,4
+P-00063,25032,549388742135,Kiosco Heladera Llena,2026-07-02 11:41:53,entregado,225200.00,Pedido historico mock - Kiosco Heladera Llena,true,false,1
+P-00064,25032,549388742135,Kiosco Heladera Llena,2026-07-19 12:00:00,facturado,43700.00,Pedido historico mock - Kiosco Heladera Llena,true,false,1
+P-00065,25033,549388742136,Despensa La Esquina,2026-07-09 14:52:16,facturado,25185.00,Pedido historico mock - Despensa La Esquina,true,false,2
+P-00066,25033,549388742136,Despensa La Esquina,2026-07-26 15:11:23,confirmado,619390.00,Pedido historico mock - Despensa La Esquina,true,false,2
+P-00067,25034,549388742137,Almacén Don Pedro,2026-07-16 17:03:39,confirmado,244980.00,Pedido historico mock - Almacén Don Pedro,true,false,3
+P-00068,25034,549388742137,Almacén Don Pedro,2026-08-02 08:22:46,entregado,40410.00,Pedido historico mock - Almacén Don Pedro,true,false,3
+P-00069,25035,549388742138,Vinoteca Sierra de los Padres,2026-07-23 10:14:02,entregado,326187.50,Pedido historico mock - Vinoteca Sierra de los Padres,true,false,4
+P-00070,25035,549388742138,Vinoteca Sierra de los Padres,2026-08-09 11:33:09,facturado,52955.00,Pedido historico mock - Vinoteca Sierra de los Padres,true,false,4
+P-00071,25036,549388742139,Bar El Quincho,2026-07-30 13:25:25,facturado,60000.00,Pedido historico mock - Bar El Quincho,true,false,1
+P-00072,25036,549388742139,Bar El Quincho,2026-08-16 14:44:32,confirmado,203600.00,Pedido historico mock - Bar El Quincho,true,false,1
+P-00073,25037,549388742140,Rotisería El Gaucho,2026-08-06 16:36:48,confirmado,311535.00,Pedido historico mock - Rotisería El Gaucho,true,false,2
+P-00074,25037,549388742140,Rotisería El Gaucho,2026-08-23 17:55:55,entregado,1026490.00,Pedido historico mock - Rotisería El Gaucho,true,false,2
+P-00075,25038,549388742141,Autoservicio Ruta 34,2026-08-13 09:47:11,entregado,77670.00,Pedido historico mock - Autoservicio Ruta 34,true,false,3
+P-00076,25038,549388742141,Autoservicio Ruta 34,2026-05-30 10:06:18,facturado,44640.00,Pedido historico mock - Autoservicio Ruta 34,true,false,3
+P-00077,25039,549388742142,Kiosco 24 Horas San Pedro,2026-08-20 12:58:34,facturado,25160.00,Pedido historico mock - Kiosco 24 Horas San Pedro,true,false,4
+P-00078,25039,549388742142,Kiosco 24 Horas San Pedro,2026-06-06 13:17:41,confirmado,227528.00,Pedido historico mock - Kiosco 24 Horas San Pedro,true,false,4
+P-00079,25040,549388742143,Despensa El Progreso,2026-08-27 15:09:57,confirmado,113600.00,Pedido historico mock - Despensa El Progreso,true,false,1
+P-00080,25040,549388742143,Despensa El Progreso,2026-06-13 16:28:04,entregado,55400.00,Pedido historico mock - Despensa El Progreso,true,false,1
+P-00081,0,549388742144,Almacén Doña Elena,2026-06-03 08:20:20,entregado,271227.50,Pedido historico mock - Almacén Doña Elena,true,false,2
+P-00082,0,549388742144,Almacén Doña Elena,2026-06-20 09:39:27,facturado,307740.00,Pedido historico mock - Almacén Doña Elena,true,false,2
+P-00083,0,549388742145,Maxikiosco El Super Chico,2026-06-10 11:31:43,facturado,170460.00,Pedido historico mock - Maxikiosco El Super Chico,true,false,3
+P-00084,0,549388742145,Maxikiosco El Super Chico,2026-06-27 12:50:50,confirmado,194850.00,Pedido historico mock - Maxikiosco El Super Chico,true,false,3
+P-00085,0,549388742146,Kiosco Coca y Hielo,2026-06-17 14:42:06,confirmado,155550.00,Pedido historico mock - Kiosco Coca y Hielo,true,false,4
+P-00086,0,549388742146,Kiosco Coca y Hielo,2026-07-04 15:01:13,entregado,6205.00,Pedido historico mock - Kiosco Coca y Hielo,true,false,4
+P-00087,0,549388742147,Despensa El Palito 2,2026-06-24 17:53:29,entregado,114600.00,Pedido historico mock - Despensa El Palito 2,true,false,1
+P-00088,0,549388742147,Despensa El Palito 2,2026-07-11 08:12:36,facturado,180000.00,Pedido historico mock - Despensa El Palito 2,true,false,1
+P-00089,0,549388742148,Almacén Barrio Sur,2026-07-01 10:04:52,facturado,286580.00,Pedido historico mock - Almacén Barrio Sur,true,false,2
+P-00090,0,549388742148,Almacén Barrio Sur,2026-07-18 11:23:59,confirmado,196650.00,Pedido historico mock - Almacén Barrio Sur,true,false,2
+P-00091,0,549388742149,Vinoteca Luna Negra,2026-07-08 13:15:15,confirmado,273240.00,Pedido historico mock - Vinoteca Luna Negra,true,false,3
+P-00092,0,549388742149,Vinoteca Luna Negra,2026-07-25 14:34:22,entregado,104355.00,Pedido historico mock - Vinoteca Luna Negra,true,false,3
+P-00093,0,549388742150,Bar La Esquina Fría,2026-07-15 16:26:38,entregado,32640.00,Pedido historico mock - Bar La Esquina Fría,true,false,4
+P-00094,0,549388742150,Bar La Esquina Fría,2026-08-01 17:45:45,facturado,298265.00,Pedido historico mock - Bar La Esquina Fría,true,false,4
+P-00095,0,549388742151,Rotisería El Fogón,2026-07-22 09:37:01,facturado,210500.00,Pedido historico mock - Rotisería El Fogón,true,false,1
+P-00096,0,549388742151,Rotisería El Fogón,2026-08-08 10:56:08,confirmado,22100.00,Pedido historico mock - Rotisería El Fogón,true,false,1
+P-00097,0,549388742152,Autoservicio Monterrico,2026-07-29 12:48:24,confirmado,132652.50,Pedido historico mock - Autoservicio Monterrico,true,false,2
+P-00098,0,549388742152,Autoservicio Monterrico,2026-08-15 13:07:31,entregado,159735.00,Pedido historico mock - Autoservicio Monterrico,true,false,2
+P-00099,0,549388742153,Kiosco El Paso,2026-08-05 15:59:47,entregado,82575.00,Pedido historico mock - Kiosco El Paso,true,false,3
+P-00100,0,549388742153,Kiosco El Paso,2026-08-22 16:18:54,facturado,57960.00,Pedido historico mock - Kiosco El Paso,true,false,3
+P-00101,25004,549388742107,Maxikiosco San Pedro,2026-08-31 11:15:00,abierto,6885.00,Pedido abierto mock - promo Fase 2 - Maxikiosco San Pedro,true,true,1
+P-00102,25001,549388742104,Despensa Don Ramón,2026-08-31 11:15:13,pendiente,175145.00,Pedido abierto mock - Despensa Don Ramón,true,true,2
+P-00103,25002,549388742105,Kiosco El Andino,2026-08-31 11:15:26,abierto,130770.00,Pedido abierto mock - Kiosco El Andino,true,true,3
+P-00104,25003,549388742106,Almacén La Quebrada,2026-08-31 11:15:39,pendiente,285600.00,Pedido abierto mock - Almacén La Quebrada,true,true,4
+P-00105,25005,549388742108,Vinoteca Puna,2026-08-31 11:15:52,abierto,131560.00,Pedido abierto mock - Vinoteca Puna,true,true,2
+P-00106,25006,549388742109,Bar El Palomar,2026-08-31 11:15:05,pendiente,205560.00,Pedido abierto mock - Bar El Palomar,true,true,3
+P-00107,25007,549388742110,Rotisería Doña Rosa,2026-08-31 11:15:18,abierto,103836.00,Pedido abierto mock - Rotisería Doña Rosa,true,true,4

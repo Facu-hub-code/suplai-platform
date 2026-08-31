@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+549388742104,Despensa Don Ramón,25001,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742105,Kiosco El Andino,25002,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742106,Almacén La Quebrada,25003,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742107,Maxikiosco San Pedro,25004,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742108,Vinoteca Puna,25005,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742109,Bar El Palomar,25006,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742110,Rotisería Doña Rosa,25007,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742111,Autoservicio 9 de Julio,25008,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742112,Kiosco Marinaro Centro,25009,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742113,Despensa El Ramal,25010,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742114,Almacén Libertador,25011,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742115,Kiosco Ledesma,25012,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742116,Maxikiosco Calilegua,25013,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742117,Despensa Yuto,25014,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742118,Almacén Caimancito,25015,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742119,Kiosco El Ingenio,25016,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742120,Vinoteca LGSM,25017,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742121,Bar La Estación,25018,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742122,Rotisería El Norte,25019,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742123,Autoservicio Perico,25020,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742124,Despensa El Cruce,25021,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742125,Kiosco Ruta 66,25022,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742126,Almacén La Esperanza,25023,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742127,Maxikiosco El Carmen,25024,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742128,Vinoteca Cafayate Norte,25025,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742129,Bar El Palito,25026,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742130,Rotisería Doña Marta,25027,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742131,Kiosco Los Siete Hermanos,25028,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742132,Despensa San Cayetano,25029,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742133,Almacén El Familiar,25030,validado,2026-08-31T17:29:54.171380+00:00,,false
+549388742134,Maxikiosco Plaza,25031,existente,,,false
+549388742135,Kiosco Heladera Llena,25032,existente,,,false
+549388742136,Despensa La Esquina,25033,existente,,,false
+549388742137,Almacén Don Pedro,25034,existente,,,false
+549388742138,Vinoteca Sierra de los Padres,25035,existente,,,false
+549388742139,Bar El Quincho,25036,existente,,,false
+549388742140,Rotisería El Gaucho,25037,existente,,,false
+549388742141,Autoservicio Ruta 34,25038,existente,,,false
+549388742142,Kiosco 24 Horas San Pedro,25039,existente,,,false
+549388742143,Despensa El Progreso,25040,existente,,,false
+549388742144,Almacén Doña Elena,0,no_validado,,PROSPECTO,true
+549388742145,Maxikiosco El Super Chico,0,existente,,PROSPECTO,true
+549388742146,Kiosco Coca y Hielo,0,no_validado,,PROSPECTO,true
+549388742147,Despensa El Palito 2,0,existente,,PROSPECTO,true
+549388742148,Almacén Barrio Sur,0,no_validado,,PROSPECTO,true
+549388742149,Vinoteca Luna Negra,0,validado,2026-08-31T17:29:54.171380+00:00,PROSPECTO,true
+549388742150,Bar La Esquina Fría,0,no_existente,,PROSPECTO,true
+549388742151,Rotisería El Fogón,0,no_validado,,PROSPECTO,true
+549388742152,Autoservicio Monterrico,0,existente,,PROSPECTO,true
+549388742153,Kiosco El Paso,0,no_validado,,PROSPECTO,true

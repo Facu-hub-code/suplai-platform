@@ -1,0 +1,213 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+549388742104,549388742104,ai,ai,"Hola Despensa Don Ramón, vi que tenes un pedido abierto por MARINARO UVA 12X500 y queria ayudarte a cerrarlo.","Hola Despensa Don Ramón, vi que tenes un pedido abierto por MARINARO UVA 12X500 y queria ayudarte a cerrarlo.",2026-08-31 06:02:09,true
+549388742104,549388742104,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-31 06:03:29,true
+549388742104,549388742104,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-31 06:04:22,true
+549388742104,549388742104,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-31 06:05:47,true
+549388742104,549388742104,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-31 06:06:24,true
+549388742105,549388742105,ai,ai,"Hola Kiosco El Andino, vi que tenes un pedido abierto por MARINARO COLA 4X3 PREMIUM y queria ayudarte a cerrarlo.","Hola Kiosco El Andino, vi que tenes un pedido abierto por MARINARO COLA 4X3 PREMIUM y queria ayudarte a cerrarlo.",2026-08-31 05:02:09,true
+549388742105,549388742105,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-08-31 05:02:58,true
+549388742105,549388742105,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-31 05:03:30,true
+549388742105,549388742105,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-31 05:05:30,true
+549388742105,549388742105,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-31 05:06:51,true
+549388742106,549388742106,ai,ai,"Hola Almacén La Quebrada, vi que tenes un pedido abierto por MARINARO UVA 12X500 y queria ayudarte a cerrarlo.","Hola Almacén La Quebrada, vi que tenes un pedido abierto por MARINARO UVA 12X500 y queria ayudarte a cerrarlo.",2026-08-31 16:02:09,true
+549388742106,549388742106,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-31 16:03:12,true
+549388742106,549388742106,ai,ai,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por precio distinto al acordado y lo escalo para revision.,2026-08-31 16:04:21,true
+549388742106,549388742106,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-31 16:05:30,true
+549388742106,549388742106,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-31 16:06:33,true
+549388742107,549388742107,ai,ai,"Hola Maxikiosco San Pedro, vi que tenes un pedido abierto por AGUA MARINARO 12X500 y queria ayudarte a cerrarlo.","Hola Maxikiosco San Pedro, vi que tenes un pedido abierto por AGUA MARINARO 12X500 y queria ayudarte a cerrarlo.",2026-08-31 15:02:09,true
+549388742107,549388742107,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-31 15:03:45,true
+549388742107,549388742107,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-31 15:04:25,true
+549388742107,549388742107,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-31 15:05:27,true
+549388742107,549388742107,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-31 15:06:05,true
+549388742108,549388742108,ai,ai,"Hola Vinoteca Puna, vi que tenes un pedido abierto por TERMA CUYANO 12X1,35 y queria ayudarte a cerrarlo.","Hola Vinoteca Puna, vi que tenes un pedido abierto por TERMA CUYANO 12X1,35 y queria ayudarte a cerrarlo.",2026-08-31 14:02:09,true
+549388742108,549388742108,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-31 14:03:47,true
+549388742108,549388742108,ai,ai,Te confirmo que el pedido P-00105 sigue en curso por un total de 131560.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00105 sigue en curso por un total de 131560.00. Si queres te lo dejo cerrado hoy.,2026-08-31 14:05:09,true
+549388742108,549388742108,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-31 14:05:55,true
+549388742108,549388742108,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-31 14:07:19,true
+549388742109,549388742109,ai,ai,"Hola Bar El Palomar, vi que tenes un pedido abierto por PAPA QUENTO BBQ 18X82 y queria ayudarte a cerrarlo.","Hola Bar El Palomar, vi que tenes un pedido abierto por PAPA QUENTO BBQ 18X82 y queria ayudarte a cerrarlo.",2026-08-31 13:02:09,true
+549388742109,549388742109,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-31 13:03:01,true
+549388742109,549388742109,ai,ai,Te confirmo que el pedido P-00106 sigue en curso por un total de 205560.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00106 sigue en curso por un total de 205560.00. Si queres te lo dejo cerrado hoy.,2026-08-31 13:04:21,true
+549388742109,549388742109,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-31 13:06:16,true
+549388742109,549388742109,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-31 13:07:35,true
+549388742110,549388742110,ai,ai,"Hola Rotisería Doña Rosa, vi que tenes un pedido abierto por YERBA VERDEFLOR 12X500 BOLDO y queria ayudarte a cerrarlo.","Hola Rotisería Doña Rosa, vi que tenes un pedido abierto por YERBA VERDEFLOR 12X500 BOLDO y queria ayudarte a cerrarlo.",2026-08-31 12:02:09,true
+549388742110,549388742110,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-08-31 12:03:16,true
+549388742110,549388742110,ai,ai,Te confirmo que el pedido P-00107 sigue en curso por un total de 103836.00. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00107 sigue en curso por un total de 103836.00. Si queres te lo dejo cerrado hoy.,2026-08-31 12:04:37,true
+549388742110,549388742110,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-08-31 12:05:27,true
+549388742110,549388742110,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-08-31 12:06:54,true
+549388742111,549388742111,ai,ai,"Hola Autoservicio 9 de Julio, paso a revisar tu pedido P-00016 de PUNA RESERVA MALBEC 6X750.","Hola Autoservicio 9 de Julio, paso a revisar tu pedido P-00016 de PUNA RESERVA MALBEC 6X750.",2026-08-29 14:02:09,true
+549388742111,549388742111,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 14:04:09,true
+549388742111,549388742111,ai,ai,Te confirmo que el pedido P-00016 fue registrado correctamente por 286800.00.,Te confirmo que el pedido P-00016 fue registrado correctamente por 286800.00.,2026-08-29 14:04:53,true
+549388742111,549388742111,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 14:05:43,true
+549388742112,549388742112,ai,ai,"Hola Kiosco Marinaro Centro, paso a revisar tu pedido P-00018 de TERMA CUYANO 12X1,35.","Hola Kiosco Marinaro Centro, paso a revisar tu pedido P-00018 de TERMA CUYANO 12X1,35.",2026-08-30 13:02:09,true
+549388742112,549388742112,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 13:03:05,true
+549388742112,549388742112,ai,ai,Te confirmo que el pedido P-00018 fue registrado correctamente por 204815.00.,Te confirmo que el pedido P-00018 fue registrado correctamente por 204815.00.,2026-08-30 13:03:39,true
+549388742112,549388742112,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 13:04:28,true
+549388742113,549388742113,ai,ai,"Hola Despensa El Ramal, paso a revisar tu pedido P-00020 de MARINARO MANZANA 6X1,5.","Hola Despensa El Ramal, paso a revisar tu pedido P-00020 de MARINARO MANZANA 6X1,5.",2026-08-29 12:02:09,true
+549388742113,549388742113,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 12:03:10,true
+549388742113,549388742113,ai,ai,Te confirmo que el pedido P-00020 fue registrado correctamente por 185940.00.,Te confirmo que el pedido P-00020 fue registrado correctamente por 185940.00.,2026-08-29 12:04:05,true
+549388742113,549388742113,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 12:05:29,true
+549388742114,549388742114,ai,ai,"Hola Almacén Libertador, paso a revisar tu pedido P-00022 de TERMA CUYANO 12X1,35.","Hola Almacén Libertador, paso a revisar tu pedido P-00022 de TERMA CUYANO 12X1,35.",2026-08-30 16:02:09,true
+549388742114,549388742114,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 16:04:09,true
+549388742114,549388742114,ai,ai,Te confirmo que el pedido P-00022 fue registrado correctamente por 46665.00.,Te confirmo que el pedido P-00022 fue registrado correctamente por 46665.00.,2026-08-30 16:05:08,true
+549388742114,549388742114,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 16:06:27,true
+549388742115,549388742115,ai,ai,"Hola Kiosco Ledesma, paso a revisar tu pedido P-00023 de CAFAYATE TORRONTES 6X750.","Hola Kiosco Ledesma, paso a revisar tu pedido P-00023 de CAFAYATE TORRONTES 6X750.",2026-08-29 15:02:09,true
+549388742115,549388742115,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 15:03:05,true
+549388742115,549388742115,ai,ai,Te confirmo que el pedido P-00023 fue registrado correctamente por 86700.00.,Te confirmo que el pedido P-00023 fue registrado correctamente por 86700.00.,2026-08-29 15:03:51,true
+549388742115,549388742115,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 15:04:37,true
+549388742116,549388742116,ai,ai,"Hola Maxikiosco Calilegua, paso a revisar tu pedido P-00025 de BAGGIO FRESH LIMONE 6X1,5.","Hola Maxikiosco Calilegua, paso a revisar tu pedido P-00025 de BAGGIO FRESH LIMONE 6X1,5.",2026-08-30 14:02:09,true
+549388742116,549388742116,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 14:03:05,true
+549388742116,549388742116,ai,ai,Te confirmo que el pedido P-00025 fue registrado correctamente por 34040.00.,Te confirmo que el pedido P-00025 fue registrado correctamente por 34040.00.,2026-08-30 14:03:53,true
+549388742116,549388742116,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 14:04:45,true
+549388742117,549388742117,ai,ai,"Hola Despensa Yuto, paso a revisar tu pedido P-00027 de MARINARO COLA 12X500.","Hola Despensa Yuto, paso a revisar tu pedido P-00027 de MARINARO COLA 12X500.",2026-08-29 13:02:09,true
+549388742117,549388742117,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 13:03:50,true
+549388742117,549388742117,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 57960.00.,Te confirmo que el pedido P-00027 fue registrado correctamente por 57960.00.,2026-08-29 13:04:56,true
+549388742117,549388742117,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 13:05:41,true
+549388742118,549388742118,ai,ai,"Hola Almacén Caimancito, paso a revisar tu pedido P-00030 de SODA MARINARO SIFON 4 X 2.","Hola Almacén Caimancito, paso a revisar tu pedido P-00030 de SODA MARINARO SIFON 4 X 2.",2026-08-30 12:02:09,true
+549388742118,549388742118,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 12:03:11,true
+549388742118,549388742118,ai,ai,Te confirmo que el pedido P-00030 fue registrado correctamente por 51170.00.,Te confirmo que el pedido P-00030 fue registrado correctamente por 51170.00.,2026-08-30 12:03:42,true
+549388742118,549388742118,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 12:04:35,true
+549388742119,549388742119,ai,ai,"Hola Kiosco El Ingenio, paso a revisar tu pedido P-00032 de SANTA JULIA TARDIO TORRONTES 12X500.","Hola Kiosco El Ingenio, paso a revisar tu pedido P-00032 de SANTA JULIA TARDIO TORRONTES 12X500.",2026-08-29 16:02:09,true
+549388742119,549388742119,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 16:02:57,true
+549388742119,549388742119,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 347700.00.,Te confirmo que el pedido P-00032 fue registrado correctamente por 347700.00.,2026-08-29 16:03:45,true
+549388742119,549388742119,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 16:05:01,true
+549388742120,549388742120,ai,ai,"Hola Vinoteca LGSM, paso a revisar tu pedido P-00034 de CAFAYATE RESERVE TORRONTES 6X750.","Hola Vinoteca LGSM, paso a revisar tu pedido P-00034 de CAFAYATE RESERVE TORRONTES 6X750.",2026-08-30 15:02:09,true
+549388742120,549388742120,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 15:03:47,true
+549388742120,549388742120,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 175720.00.,Te confirmo que el pedido P-00034 fue registrado correctamente por 175720.00.,2026-08-30 15:05:06,true
+549388742120,549388742120,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 15:05:58,true
+549388742121,549388742121,ai,ai,"Hola Bar La Estación, paso a revisar tu pedido P-00036 de SIERRA DE LOS PADRES 6X1,5 POMELO.","Hola Bar La Estación, paso a revisar tu pedido P-00036 de SIERRA DE LOS PADRES 6X1,5 POMELO.",2026-08-29 14:02:09,true
+549388742121,549388742121,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 14:03:12,true
+549388742121,549388742121,ai,ai,Te confirmo que el pedido P-00036 fue registrado correctamente por 18630.00.,Te confirmo que el pedido P-00036 fue registrado correctamente por 18630.00.,2026-08-29 14:04:25,true
+549388742121,549388742121,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 14:05:22,true
+549388742122,549388742122,ai,ai,"Hola Rotisería El Norte, paso a revisar tu pedido P-00038 de MANI SALADO SEMIX 30X120GR JAMON SERRANO.","Hola Rotisería El Norte, paso a revisar tu pedido P-00038 de MANI SALADO SEMIX 30X120GR JAMON SERRANO.",2026-08-30 13:02:09,true
+549388742122,549388742122,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 13:03:49,true
+549388742122,549388742122,ai,ai,Te confirmo que el pedido P-00038 fue registrado correctamente por 60605.00.,Te confirmo que el pedido P-00038 fue registrado correctamente por 60605.00.,2026-08-30 13:05:03,true
+549388742122,549388742122,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 13:05:34,true
+549388742123,549388742123,ai,ai,"Hola Autoservicio Perico, paso a revisar tu pedido P-00040 de IMPERIAL EXTRA LAGER 24X473.","Hola Autoservicio Perico, paso a revisar tu pedido P-00040 de IMPERIAL EXTRA LAGER 24X473.",2026-08-29 12:02:09,true
+549388742123,549388742123,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 12:03:54,true
+549388742123,549388742123,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 203400.00.,Te confirmo que el pedido P-00040 fue registrado correctamente por 203400.00.,2026-08-29 12:04:56,true
+549388742123,549388742123,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 12:06:25,true
+549388742124,549388742124,ai,ai,"Hola Despensa El Cruce, paso a revisar tu pedido P-00042 de MARINARO LIMONADA 8X500 VIDRIO.","Hola Despensa El Cruce, paso a revisar tu pedido P-00042 de MARINARO LIMONADA 8X500 VIDRIO.",2026-08-30 16:02:09,true
+549388742124,549388742124,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 16:03:03,true
+549388742124,549388742124,ai,ai,Te confirmo que el pedido P-00042 fue registrado correctamente por 66585.00.,Te confirmo que el pedido P-00042 fue registrado correctamente por 66585.00.,2026-08-30 16:04:07,true
+549388742124,549388742124,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 16:05:31,true
+549388742125,549388742125,ai,ai,"Hola Kiosco Ruta 66, paso a revisar tu pedido P-00044 de SIERRA DE LOS PADRES 6X1,5 MANZANA.","Hola Kiosco Ruta 66, paso a revisar tu pedido P-00044 de SIERRA DE LOS PADRES 6X1,5 MANZANA.",2026-08-29 15:02:09,true
+549388742125,549388742125,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 15:04:09,true
+549388742125,549388742125,ai,ai,Te confirmo que el pedido P-00044 fue registrado correctamente por 120735.00.,Te confirmo que el pedido P-00044 fue registrado correctamente por 120735.00.,2026-08-29 15:04:46,true
+549388742125,549388742125,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 15:06:09,true
+549388742126,549388742126,ai,ai,"Hola Almacén La Esperanza, paso a revisar tu pedido P-00046 de CAFAYATE MALBEC 6X750.","Hola Almacén La Esperanza, paso a revisar tu pedido P-00046 de CAFAYATE MALBEC 6X750.",2026-08-30 14:02:09,true
+549388742126,549388742126,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 14:04:01,true
+549388742126,549388742126,ai,ai,Te confirmo que el pedido P-00046 fue registrado correctamente por 102382.50.,Te confirmo que el pedido P-00046 fue registrado correctamente por 102382.50.,2026-08-30 14:05:09,true
+549388742126,549388742126,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 14:05:49,true
+549388742127,549388742127,ai,ai,"Hola Maxikiosco El Carmen, paso a revisar tu pedido P-00048 de SIERRA DE LOS PADRES 6X1,5 POMELO ROSADO.","Hola Maxikiosco El Carmen, paso a revisar tu pedido P-00048 de SIERRA DE LOS PADRES 6X1,5 POMELO ROSADO.",2026-08-29 13:02:09,true
+549388742127,549388742127,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 13:03:48,true
+549388742127,549388742127,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 79500.00.,Te confirmo que el pedido P-00048 fue registrado correctamente por 79500.00.,2026-08-29 13:04:37,true
+549388742127,549388742127,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 13:05:51,true
+549388742128,549388742128,ai,ai,"Hola Vinoteca Cafayate Norte, paso a revisar tu pedido P-00049 de HEINEKEN 24X473 LATA.","Hola Vinoteca Cafayate Norte, paso a revisar tu pedido P-00049 de HEINEKEN 24X473 LATA.",2026-08-30 12:02:09,true
+549388742128,549388742128,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 12:03:50,true
+549388742128,549388742128,ai,ai,Te confirmo que el pedido P-00049 fue registrado correctamente por 230552.00.,Te confirmo que el pedido P-00049 fue registrado correctamente por 230552.00.,2026-08-30 12:05:19,true
+549388742128,549388742128,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 12:05:57,true
+549388742129,549388742129,ai,ai,"Hola Bar El Palito, paso a revisar tu pedido P-00051 de HEINEKEN 24X473 LATA.","Hola Bar El Palito, paso a revisar tu pedido P-00051 de HEINEKEN 24X473 LATA.",2026-08-29 16:02:09,true
+549388742129,549388742129,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 16:03:41,true
+549388742129,549388742129,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 361800.00.,Te confirmo que el pedido P-00051 fue registrado correctamente por 361800.00.,2026-08-29 16:04:26,true
+549388742129,549388742129,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 16:04:57,true
+549388742130,549388742130,ai,ai,"Hola Rotisería Doña Marta, paso a revisar tu pedido P-00053 de MARINARO COLA 6 X 2,25.","Hola Rotisería Doña Marta, paso a revisar tu pedido P-00053 de MARINARO COLA 6 X 2,25.",2026-08-30 15:02:09,true
+549388742130,549388742130,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 15:03:31,true
+549388742130,549388742130,ai,ai,Te confirmo que el pedido P-00053 fue registrado correctamente por 29325.00.,Te confirmo que el pedido P-00053 fue registrado correctamente por 29325.00.,2026-08-30 15:04:14,true
+549388742130,549388742130,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 15:05:42,true
+549388742131,549388742131,ai,ai,"Hola Kiosco Los Siete Hermanos, paso a revisar tu pedido P-00056 de SPRITE 6X1,5.","Hola Kiosco Los Siete Hermanos, paso a revisar tu pedido P-00056 de SPRITE 6X1,5.",2026-08-29 14:02:09,true
+549388742131,549388742131,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 14:03:46,true
+549388742131,549388742131,ai,ai,Te confirmo que el pedido P-00056 fue registrado correctamente por 24900.00.,Te confirmo que el pedido P-00056 fue registrado correctamente por 24900.00.,2026-08-29 14:04:24,true
+549388742131,549388742131,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 14:05:10,true
+549388742132,549388742132,ai,ai,"Hola Despensa San Cayetano, paso a revisar tu pedido P-00058 de MARINARO COLA 4X3 PREMIUM.","Hola Despensa San Cayetano, paso a revisar tu pedido P-00058 de MARINARO COLA 4X3 PREMIUM.",2026-08-30 13:02:09,true
+549388742132,549388742132,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 13:03:40,true
+549388742132,549388742132,ai,ai,Te confirmo que el pedido P-00058 fue registrado correctamente por 16790.00.,Te confirmo que el pedido P-00058 fue registrado correctamente por 16790.00.,2026-08-30 13:04:46,true
+549388742132,549388742132,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 13:05:22,true
+549388742133,549388742133,ai,ai,"Hola Almacén El Familiar, paso a revisar tu pedido P-00060 de SIDRA LUNA NEGRA 6X750.","Hola Almacén El Familiar, paso a revisar tu pedido P-00060 de SIDRA LUNA NEGRA 6X750.",2026-08-29 12:02:09,true
+549388742133,549388742133,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 12:03:41,true
+549388742133,549388742133,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 100350.00.,Te confirmo que el pedido P-00060 fue registrado correctamente por 100350.00.,2026-08-29 12:04:11,true
+549388742133,549388742133,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 12:05:22,true
+549388742134,549388742134,ai,ai,"Hola Maxikiosco Plaza, paso a revisar tu pedido P-00062 de SIERRA DE LOS PADRES 6X1,5 MANZANA.","Hola Maxikiosco Plaza, paso a revisar tu pedido P-00062 de SIERRA DE LOS PADRES 6X1,5 MANZANA.",2026-08-30 16:02:09,true
+549388742134,549388742134,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 16:03:50,true
+549388742134,549388742134,ai,ai,Te confirmo que el pedido P-00062 fue registrado correctamente por 100300.00.,Te confirmo que el pedido P-00062 fue registrado correctamente por 100300.00.,2026-08-30 16:04:54,true
+549388742134,549388742134,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 16:05:24,true
+549388742135,549388742135,ai,ai,"Hola Kiosco Heladera Llena, paso a revisar tu pedido P-00064 de MARINARO ICE LIMONADA 4X3.","Hola Kiosco Heladera Llena, paso a revisar tu pedido P-00064 de MARINARO ICE LIMONADA 4X3.",2026-08-29 15:02:09,true
+549388742135,549388742135,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 15:02:55,true
+549388742135,549388742135,ai,ai,Te confirmo que el pedido P-00064 fue registrado correctamente por 43700.00.,Te confirmo que el pedido P-00064 fue registrado correctamente por 43700.00.,2026-08-29 15:04:12,true
+549388742135,549388742135,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 15:05:05,true
+549388742136,549388742136,ai,ai,"Hola Despensa La Esquina, paso a revisar tu pedido P-00066 de PUNA MALBEC RESERVA 6X750.","Hola Despensa La Esquina, paso a revisar tu pedido P-00066 de PUNA MALBEC RESERVA 6X750.",2026-08-30 14:02:09,true
+549388742136,549388742136,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 14:03:56,true
+549388742136,549388742136,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 619390.00.,Te confirmo que el pedido P-00066 fue registrado correctamente por 619390.00.,2026-08-30 14:05:08,true
+549388742136,549388742136,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 14:06:25,true
+549388742137,549388742137,ai,ai,"Hola Almacén Don Pedro, paso a revisar tu pedido P-00068 de SIERRA DE LOS PADRES 6X1,5 MANZANA.","Hola Almacén Don Pedro, paso a revisar tu pedido P-00068 de SIERRA DE LOS PADRES 6X1,5 MANZANA.",2026-08-29 13:02:09,true
+549388742137,549388742137,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 13:03:58,true
+549388742137,549388742137,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 40410.00.,Te confirmo que el pedido P-00068 fue registrado correctamente por 40410.00.,2026-08-29 13:05:03,true
+549388742137,549388742137,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 13:06:23,true
+549388742138,549388742138,ai,ai,"Hola Vinoteca Sierra de los Padres, paso a revisar tu pedido P-00070 de MARINARO NARANJA 4X3 PREMIUM.","Hola Vinoteca Sierra de los Padres, paso a revisar tu pedido P-00070 de MARINARO NARANJA 4X3 PREMIUM.",2026-08-30 12:02:09,true
+549388742138,549388742138,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 12:03:53,true
+549388742138,549388742138,ai,ai,Te confirmo que el pedido P-00070 fue registrado correctamente por 52955.00.,Te confirmo que el pedido P-00070 fue registrado correctamente por 52955.00.,2026-08-30 12:04:24,true
+549388742138,549388742138,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 12:05:02,true
+549388742139,549388742139,ai,ai,"Hola Bar El Quincho, paso a revisar tu pedido P-00072 de VODKA SMIRNOFF GREEN APPLE 24X473 LATA.","Hola Bar El Quincho, paso a revisar tu pedido P-00072 de VODKA SMIRNOFF GREEN APPLE 24X473 LATA.",2026-08-29 16:02:09,true
+549388742139,549388742139,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 16:03:27,true
+549388742139,549388742139,ai,ai,Te confirmo que el pedido P-00072 fue registrado correctamente por 203600.00.,Te confirmo que el pedido P-00072 fue registrado correctamente por 203600.00.,2026-08-29 16:04:22,true
+549388742139,549388742139,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 16:05:34,true
+549388742140,549388742140,ai,ai,"Hola Rotisería El Gaucho, paso a revisar tu pedido P-00074 de MARINARO ICE GRANADINA 4X3.","Hola Rotisería El Gaucho, paso a revisar tu pedido P-00074 de MARINARO ICE GRANADINA 4X3.",2026-08-30 15:02:09,true
+549388742140,549388742140,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 15:03:28,true
+549388742140,549388742140,ai,ai,Te confirmo que el pedido P-00074 fue registrado correctamente por 1026490.00.,Te confirmo que el pedido P-00074 fue registrado correctamente por 1026490.00.,2026-08-30 15:04:00,true
+549388742140,549388742140,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 15:04:58,true
+549388742141,549388742141,ai,ai,"Hola Autoservicio Ruta 34, paso a revisar tu pedido P-00075 de MARINARO LIMA LIMON 6 X 2,25.","Hola Autoservicio Ruta 34, paso a revisar tu pedido P-00075 de MARINARO LIMA LIMON 6 X 2,25.",2026-08-29 14:02:09,true
+549388742141,549388742141,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 14:03:19,true
+549388742141,549388742141,ai,ai,Te confirmo que el pedido P-00075 fue registrado correctamente por 77670.00.,Te confirmo que el pedido P-00075 fue registrado correctamente por 77670.00.,2026-08-29 14:04:47,true
+549388742141,549388742141,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 14:05:48,true
+549388742142,549388742142,ai,ai,"Hola Kiosco 24 Horas San Pedro, paso a revisar tu pedido P-00077 de SIERRA DE LOS PADRES 6X1,5 NARANJA.","Hola Kiosco 24 Horas San Pedro, paso a revisar tu pedido P-00077 de SIERRA DE LOS PADRES 6X1,5 NARANJA.",2026-08-30 13:02:09,true
+549388742142,549388742142,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 13:04:08,true
+549388742142,549388742142,ai,ai,Te confirmo que el pedido P-00077 fue registrado correctamente por 25160.00.,Te confirmo que el pedido P-00077 fue registrado correctamente por 25160.00.,2026-08-30 13:04:47,true
+549388742142,549388742142,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 13:06:07,true
+549388742143,549388742143,ai,ai,"Hola Despensa El Progreso, paso a revisar tu pedido P-00079 de PUNA MALBEC 6X750.","Hola Despensa El Progreso, paso a revisar tu pedido P-00079 de PUNA MALBEC 6X750.",2026-08-29 12:02:09,true
+549388742143,549388742143,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 12:03:40,true
+549388742143,549388742143,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 113600.00.,Te confirmo que el pedido P-00079 fue registrado correctamente por 113600.00.,2026-08-29 12:05:06,true
+549388742143,549388742143,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 12:06:22,true
+549388742144,549388742144,ai,ai,"Hola Almacén Doña Elena, paso a revisar tu pedido P-00082 de QUILMES 24X473 LATA.","Hola Almacén Doña Elena, paso a revisar tu pedido P-00082 de QUILMES 24X473 LATA.",2026-08-31 16:02:09,true
+549388742144,549388742144,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 16:04:01,true
+549388742144,549388742144,ai,ai,Te confirmo que el pedido P-00082 fue registrado correctamente por 307740.00.,Te confirmo que el pedido P-00082 fue registrado correctamente por 307740.00.,2026-08-31 16:04:39,true
+549388742144,549388742144,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-31 16:05:48,true
+549388742144,549388742144,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 16:06:22,true
+549388742145,549388742145,ai,ai,"Hola Maxikiosco El Super Chico, paso a revisar tu pedido P-00084 de MARINARO POMELO 4X3 PREMIUM.","Hola Maxikiosco El Super Chico, paso a revisar tu pedido P-00084 de MARINARO POMELO 4X3 PREMIUM.",2026-08-31 15:02:09,true
+549388742145,549388742145,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 15:02:56,true
+549388742145,549388742145,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 194850.00.,Te confirmo que el pedido P-00084 fue registrado correctamente por 194850.00.,2026-08-31 15:03:49,true
+549388742145,549388742145,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-31 15:04:35,true
+549388742145,549388742145,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 15:05:10,true
+549388742146,549388742146,ai,ai,"Hola Kiosco Coca y Hielo, paso a revisar tu pedido P-00086 de MARINARO UVA 4X3 PREMIUM.","Hola Kiosco Coca y Hielo, paso a revisar tu pedido P-00086 de MARINARO UVA 4X3 PREMIUM.",2026-08-31 14:02:09,true
+549388742146,549388742146,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 14:03:29,true
+549388742146,549388742146,ai,ai,Te confirmo que el pedido P-00086 fue registrado correctamente por 6205.00.,Te confirmo que el pedido P-00086 fue registrado correctamente por 6205.00.,2026-08-31 14:04:53,true
+549388742146,549388742146,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-31 14:06:09,true
+549388742146,549388742146,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 14:07:12,true
+549388742147,549388742147,ai,ai,"Hola Despensa El Palito 2, paso a revisar tu pedido P-00088 de HEINEKEN CERO 24X473 LATA.","Hola Despensa El Palito 2, paso a revisar tu pedido P-00088 de HEINEKEN CERO 24X473 LATA.",2026-08-31 13:02:09,true
+549388742147,549388742147,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 13:03:56,true
+549388742147,549388742147,ai,ai,Te confirmo que el pedido P-00088 fue registrado correctamente por 180000.00.,Te confirmo que el pedido P-00088 fue registrado correctamente por 180000.00.,2026-08-31 13:05:19,true
+549388742147,549388742147,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-31 13:06:49,true
+549388742147,549388742147,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 13:07:22,true
+549388742148,549388742148,ai,ai,"Hola Almacén Barrio Sur, paso a revisar tu pedido P-00090 de PUNA HELIOS MALBEC 6X750.","Hola Almacén Barrio Sur, paso a revisar tu pedido P-00090 de PUNA HELIOS MALBEC 6X750.",2026-08-31 12:02:09,true
+549388742148,549388742148,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 12:03:48,true
+549388742148,549388742148,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 196650.00.,Te confirmo que el pedido P-00090 fue registrado correctamente por 196650.00.,2026-08-31 12:04:58,true
+549388742148,549388742148,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-08-31 12:05:59,true
+549388742148,549388742148,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 12:06:45,true
+549388742149,549388742149,ai,ai,"Hola Vinoteca Luna Negra, paso a revisar tu pedido P-00092 de AGUA TONICA SALVADOR 12X500.","Hola Vinoteca Luna Negra, paso a revisar tu pedido P-00092 de AGUA TONICA SALVADOR 12X500.",2026-08-29 16:02:09,true
+549388742149,549388742149,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 16:02:59,true
+549388742149,549388742149,ai,ai,Te confirmo que el pedido P-00092 fue registrado correctamente por 104355.00.,Te confirmo que el pedido P-00092 fue registrado correctamente por 104355.00.,2026-08-29 16:04:10,true
+549388742149,549388742149,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 16:05:31,true
+549388742150,549388742150,ai,ai,"Hola Bar La Esquina Fría, paso a revisar tu pedido P-00094 de IMPERIAL EXTRA LAGER 24X473.","Hola Bar La Esquina Fría, paso a revisar tu pedido P-00094 de IMPERIAL EXTRA LAGER 24X473.",2026-08-30 15:02:09,true
+549388742150,549388742150,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 15:03:46,true
+549388742150,549388742150,ai,ai,Te confirmo que el pedido P-00094 fue registrado correctamente por 298265.00.,Te confirmo que el pedido P-00094 fue registrado correctamente por 298265.00.,2026-08-30 15:04:44,true
+549388742150,549388742150,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 15:05:44,true
+549388742151,549388742151,ai,ai,"Hola Rotisería El Fogón, paso a revisar tu pedido P-00096 de MARINARO UVA 4X3 PREMIUM.","Hola Rotisería El Fogón, paso a revisar tu pedido P-00096 de MARINARO UVA 4X3 PREMIUM.",2026-08-29 14:02:09,true
+549388742151,549388742151,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 14:03:57,true
+549388742151,549388742151,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 22100.00.,Te confirmo que el pedido P-00096 fue registrado correctamente por 22100.00.,2026-08-29 14:05:13,true
+549388742151,549388742151,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 14:06:36,true
+549388742152,549388742152,ai,ai,"Hola Autoservicio Monterrico, paso a revisar tu pedido P-00098 de CAFAYATE RESERVE MALBEC 6X750.","Hola Autoservicio Monterrico, paso a revisar tu pedido P-00098 de CAFAYATE RESERVE MALBEC 6X750.",2026-08-30 13:02:09,true
+549388742152,549388742152,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 13:03:45,true
+549388742152,549388742152,ai,ai,Te confirmo que el pedido P-00098 fue registrado correctamente por 159735.00.,Te confirmo que el pedido P-00098 fue registrado correctamente por 159735.00.,2026-08-30 13:05:04,true
+549388742152,549388742152,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 13:06:31,true
+549388742153,549388742153,ai,ai,"Hola Kiosco El Paso, paso a revisar tu pedido P-00100 de MARINARO LIMA LIMON 6 X 2,25.","Hola Kiosco El Paso, paso a revisar tu pedido P-00100 de MARINARO LIMA LIMON 6 X 2,25.",2026-08-29 12:02:09,true
+549388742153,549388742153,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-29 12:03:39,true
+549388742153,549388742153,ai,ai,Te confirmo que el pedido P-00100 fue registrado correctamente por 57960.00.,Te confirmo que el pedido P-00100 fue registrado correctamente por 57960.00.,2026-08-29 12:04:13,true
+549388742153,549388742153,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-29 12:05:32,true
