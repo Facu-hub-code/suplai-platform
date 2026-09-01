@@ -1,0 +1,2855 @@
+{
+  "schema": "cordoba_frost",
+  "products": [
+    {
+      "product_code": "BAL-BAL-01216",
+      "nombre": "Balde Helado x10 Litros Artesanal Premium Limon al agua",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01217",
+      "nombre": "Balde Helado x10 Litros Manzana Verde al agua Artesanal",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01218",
+      "nombre": "Balde Helado x10 litros Artesanal Premium crema americana",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01220",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Chocolate",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01221",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Crema del Cielo",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01222",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Dulce de Leche",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01223",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Frutilla al Agua",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01225",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Vainilla",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01227",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Crema Cookies",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01228",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Dulce de leche Granizado",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01229",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Crema Flan",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01230",
+      "nombre": "Balde Helado x10 litros Artesanal Premium FRUTILLA CREMA",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01231",
+      "nombre": "Balde Helado x10 litros Artesanal Premium FRUTILLA NEVADA",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01232",
+      "nombre": "Balde Helado x10 litros Artesanal Premium GRANIZADO",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01233",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Menta Granizada",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01234",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Anana a la crema",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01235",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Banana Split",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01237",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Cereza Con trozos",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01238",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Chocolate Suizo",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01239",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Frutos del Bosque",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01240",
+      "nombre": "Balde Helado x10 litros Artesanal Premium KINDER",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01241",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Kinotos",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01242",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Mascarpone Con Frutos Rojos",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01243",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Tramontana",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01244",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Uvas al Rhum",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01245",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Bombon Rocher",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01246",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Almen. chocolate almendrado",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01247",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Chocotorta",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01248",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Crema Rusa",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01249",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Dulce de Leche Bombon",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01250",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Mantecol",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01251",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Brownie Super Orense",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01253",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Maracuya a la Crema",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01418",
+      "nombre": "Balde Helado x10 litros Artesanal Premium LIMON PRIMAVERA",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01429",
+      "nombre": "Balde Helado x10 litros Artesanal Premium DLB NUEZ",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01547",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Chantilly con duraznos",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01628",
+      "nombre": "Balde Helado x10 litros artesanal Premium Naranja",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01710",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Franui",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01748",
+      "nombre": "Envase Balde Helado Gatelin",
+      "tags": {
+        "1": "Insumos",
+        "2": "Equipamiento",
+        "3": "Envase",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01749",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Dulce de Leche Delicia",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "genérico"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01750",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Crema Imperial",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01775",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Coco con DDL",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01783",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Frambuesa al Agua",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-BAL-01785",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Alfajor Havana",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-GAT-01896",
+      "nombre": "Balde Helado x10 litros Artesanal Premium Pistacho",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-GAT-01910",
+      "nombre": "Balde helado x 10 litros CHOCOLATE DUBAI",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-LOM-01902",
+      "nombre": "BALDE 10L -FRIPPER COCO (ARTESANAL)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-LOM-01903",
+      "nombre": "BALDE 10L -FRIPPER DULCE DE LECHE (ARTESANAL)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-LOM-01904",
+      "nombre": "BALDE 10L -FRIPPER BANANITA DOLCE (ESPECIAL PREMIUM)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-LOM-01906",
+      "nombre": "10 BALDES FLIAR 5 cereza/gran/ddl y 5 choc/vain/frutilla",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-LOM-01909",
+      "nombre": "BALDE 10L -FRIPPER AMERICANA (ARTESANAL)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-LOM-01919",
+      "nombre": "BALDE 10L -FRIPPER MARACUYA (PREMIUM)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-LOM-01923",
+      "nombre": "BALDE 10L -FRIPPER AMERICANA A LA REINA (ESPECIAL PREMIUM)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-LOM-01924",
+      "nombre": "BALDE 10L -FRIPPER TIRAMISU (SEMBRADO PREMIUM)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "BAL-LOM-01952",
+      "nombre": "BALDE 10L -FRIPPER FRUTILLA A LA CREMA (SEMBRADO PREMIUM)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "COM-COR-01826",
+      "nombre": "Combo SuperMedialuna+Criollo",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de panadería",
+        "3": "Combo SuperMedialuna+Criollo",
+        "4": "Combo SuperMedialuna+Criollo"
+      }
+    },
+    {
+      "product_code": "COM-COR-01827",
+      "nombre": "Combo 2 SuperMedialuna",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de panadería",
+        "3": "Combo 2 SuperMedialuna",
+        "4": "Combo 2 SuperMedialuna"
+      }
+    },
+    {
+      "product_code": "COM-COR-01828",
+      "nombre": "Combo Mini Panaderia",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de panadería",
+        "3": "Combo Mini Panaderia",
+        "4": "Combo Mini Panaderia"
+      }
+    },
+    {
+      "product_code": "COM-HEL-INICIAL",
+      "nombre": "Combo Inicial (Helados)",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de helados",
+        "3": "Combo Inicial (Helados)",
+        "4": "Combo Inicial (Helados)"
+      }
+    },
+    {
+      "product_code": "COM-HEL-MEDIO",
+      "nombre": "Combo Medio (Helados)",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de helados",
+        "3": "Combo Medio (Helados)",
+        "4": "Combo Medio (Helados)"
+      }
+    },
+    {
+      "product_code": "COM-HEL-PREMIUM",
+      "nombre": "Combo Premium (Helados)",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de helados",
+        "3": "Combo Premium (Helados)",
+        "4": "Combo Premium (Helados)"
+      }
+    },
+    {
+      "product_code": "COM-LOM-01893",
+      "nombre": "Dia de la niñez",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de helados",
+        "3": "Dia de la niñez",
+        "4": "Dia de la niñez"
+      }
+    },
+    {
+      "product_code": "COM-LOM-20008",
+      "nombre": "Combo Inicial Palitos",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de helados",
+        "3": "Combo Inicial Palitos",
+        "4": "Combo Inicial Palitos"
+      }
+    },
+    {
+      "product_code": "COM-RIC-20012",
+      "nombre": "COMBO: 12 hamburguesas FLOW + 12 panes de hamburguesas",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de hamburguesas",
+        "3": "COMBO: 12 hamburguesas FLOW + 12 panes de hamburguesas",
+        "4": "COMBO: 12 hamburguesas FLOW + 12 panes de hamburguesas"
+      }
+    },
+    {
+      "product_code": "COM-RIC-20013",
+      "nombre": "Combo: 12 hamburguesas MAS GRANDES + 12 panes hamburguesas",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de hamburguesas",
+        "3": "Combo: 12 hamburguesas MAS GRANDES + 12 panes hamburguesas",
+        "4": "Combo: 12 hamburguesas MAS GRANDES + 12 panes hamburguesas"
+      }
+    },
+    {
+      "product_code": "FRU-DRL-01911",
+      "nombre": "Mango Congelado en cubos x 1kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Frutas",
+        "3": "Mango Congelado en cubos",
+        "4": "Mango Congelado en cubos"
+      }
+    },
+    {
+      "product_code": "FRU-DRL-01912",
+      "nombre": "Frutilla Congelada x 1kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Frutas",
+        "3": "Frutilla Congelada",
+        "4": "Frutilla Congelada"
+      }
+    },
+    {
+      "product_code": "FRU-DRL-01913",
+      "nombre": "Mix de Frutos Rojos Congelados x400g",
+      "tags": {
+        "1": "Congelados",
+        "2": "Frutas",
+        "3": "Mix de Frutos Rojos Congelados",
+        "4": "Mix de Frutos Rojos Congelados"
+      }
+    },
+    {
+      "product_code": "FRU-DRL-01918",
+      "nombre": "Mix de Frutos Rojos Congelados x 1kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Frutas",
+        "3": "Mix de Frutos Rojos Congelados",
+        "4": "Mix de Frutos Rojos Congelados"
+      }
+    },
+    {
+      "product_code": "FRU-DRL-01957",
+      "nombre": "Arandanos Congelados x 1kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Frutas",
+        "3": "Arandanos Congelados",
+        "4": "Arandanos Congelados"
+      }
+    },
+    {
+      "product_code": "GAS-BAL-01508",
+      "nombre": "BALDE 10L -FRIPPER AGUA ANANA (ARTESANAL)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "GAS-BAL-01509",
+      "nombre": "BALDE 10L -FRIPPER AGUA DURAZNO (ARTESANAL)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "GAS-BAL-01527",
+      "nombre": "BALDE 10L -FRIPPER SUPER LOMORITO (BASE ARTESANAL)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "GAS-BAL-01534",
+      "nombre": "BALDE 10L -FRIPPER CHOCOLATE BLANCO (ESPECIAL ARTESANAL)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "GAS-BAL-01538",
+      "nombre": "BALDE 10L -FRIPPER PISTACHO (BASE ARTESANAL)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "GAS-BAL-01540",
+      "nombre": "BALDE 10L -FRIPPER SELVA NEGRA (ESPECIAL ARTESANAL)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes 10 L",
+        "3": "Balde de helado",
+        "4": "Balde de helado"
+      }
+    },
+    {
+      "product_code": "GAT-BAL-01792",
+      "nombre": "Torta Gatelin",
+      "tags": {
+        "1": "Helados",
+        "2": "Tortas heladas",
+        "3": "Torta Gatelin",
+        "4": "Torta Gatelin"
+      }
+    },
+    {
+      "product_code": "HAM-TEX-01953",
+      "nombre": "Bife de Lomo XL de 130g x 50u",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Bife de Lomo XL",
+        "4": "Bife de Lomo XL"
+      }
+    },
+    {
+      "product_code": "IMP-FRO-01933",
+      "nombre": "Frambuesas bañadas en chocolate x110grs",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Frambuesas bañadas en chocolate",
+        "4": "Frambuesas bañadas en chocolate"
+      }
+    },
+    {
+      "product_code": "IMP-FRO-01938",
+      "nombre": "Arandanos bañados en chocolare blanco x110grs",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Arandanos bañados en chocolate blanco",
+        "4": "Arandanos bañados en chocolate blanco"
+      }
+    },
+    {
+      "product_code": "IMP-FRO-01939",
+      "nombre": "Frutillas en mitades bañadas en chocolate x110grs",
+      "tags": {
+        "1": "Congelados",
+        "2": "Frutas",
+        "3": "Frutillas",
+        "4": "Frutillas en mitades bañadas en chocolate"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-001768",
+      "nombre": "Palito Banana Split x20u.",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de crema",
+        "3": "Palito Banana Split",
+        "4": "Palito Banana Split"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01260",
+      "nombre": "Palito Fortachon x40 Unidades Frutilla + Limon",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de crema",
+        "3": "Palito Fortachon",
+        "4": "Palito Fortachon"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01261",
+      "nombre": "Palito Fortachon x40 Unidades Uva + Tutti",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de crema",
+        "3": "Palito Fortachon",
+        "4": "Palito Fortachon"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01268",
+      "nombre": "Palito crema Carita Tiki Frutilla crema x28 unidades",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de crema",
+        "3": "Palito crema Carita Tiki",
+        "4": "Palito crema Carita Tiki Frutilla crema"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01269",
+      "nombre": "Palito crema Carita Tiki Chocolate + Vainilla x28 unidades",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de crema",
+        "3": "Palito crema Carita Tiki",
+        "4": "Palito crema Carita Tiki Chocolate + Vainilla"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01273",
+      "nombre": "Palito Bombon x20 unidades Barra brava Lomoro",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de crema",
+        "3": "Palito Bombon",
+        "4": "Palito Bombon"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01276",
+      "nombre": "Palito Golden CROKY Bombon crocante x12 unidades",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de crema",
+        "3": "Palito Golden CROKY",
+        "4": "Palito Golden CROKY Bombon crocante"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01278",
+      "nombre": "Palito Golden MAX Bombon DL x12 unidades",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de crema",
+        "3": "Palito Golden MAX",
+        "4": "Palito Golden MAX Bombon DL"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01279",
+      "nombre": "Palito Golden BLANCO x12 unidades",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de crema",
+        "3": "Palito Golden BLANCO",
+        "4": "Palito Golden BLANCO"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01284",
+      "nombre": "Vaso telgopor 330 cc Variedad CHOCOLATE/FRUTILLA/VAINILLA",
+      "tags": {
+        "1": "Insumos",
+        "2": "Vasos",
+        "3": "Vaso telgopor",
+        "4": "Vaso telgopor 330 cc Variedad CHOCOLATE/FRUTILLA/VAINILLA"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01285",
+      "nombre": "Vaso telgopor 330 cc Variedad CEREZA/GRANIZADO/DL",
+      "tags": {
+        "1": "Insumos",
+        "2": "Vasos",
+        "3": "Vaso telgopor",
+        "4": "Vaso telgopor 330 cc Variedad CEREZA/GRANIZADO/DL"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01289",
+      "nombre": "Cono Bola x14u.",
+      "tags": {
+        "1": "Helados",
+        "2": "Conos",
+        "3": "Cono Bola",
+        "4": "Cono Bola"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01290",
+      "nombre": "Cono Flama x12u.",
+      "tags": {
+        "1": "Helados",
+        "2": "Conos",
+        "3": "Cono Flama",
+        "4": "Cono Flama"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01294",
+      "nombre": "Postre Suizo x8u.",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Postre Suizo",
+        "4": "Postre Suizo"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01295",
+      "nombre": "Postre Almendrado x8u.",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Postre Almendrado",
+        "4": "Postre Almendrado"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01298",
+      "nombre": "Postre Mixto x8u.",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Postre Mixto",
+        "4": "Postre Mixto"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01299",
+      "nombre": "Postre CAMELY FAMILIAR Frutilla Crema",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Postre CAMELY FAMILIAR",
+        "4": "Postre CAMELY FAMILIAR Frutilla Crema"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01300",
+      "nombre": "Postre CAMELY FAMILIAR Chocolate Dulce de leche",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Postre CAMELY FAMILIAR",
+        "4": "Postre CAMELY FAMILIAR Chocolate Dulce de leche"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01301",
+      "nombre": "Postre CAMELY FAMILIAR Chocolate Granizado",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Postre CAMELY FAMILIAR",
+        "4": "Postre CAMELY FAMILIAR Chocolate Granizado"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01303",
+      "nombre": "Postre Barra Crocante x10 Porciones",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Postre Barra Crocante",
+        "4": "Postre Barra Crocante"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01304",
+      "nombre": "Torta familiar lomoro x1kg SELVA NEGRA",
+      "tags": {
+        "1": "Helados",
+        "2": "Tortas heladas",
+        "3": "Torta familiar lomoro",
+        "4": "Torta familiar lomoro x1kg SELVA NEGRA"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01307",
+      "nombre": "Torta familiar lomoro x1kg TIRAMISU",
+      "tags": {
+        "1": "Helados",
+        "2": "Tortas heladas",
+        "3": "Torta familiar lomoro",
+        "4": "Torta familiar lomoro x1kg TIRAMISU"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01308",
+      "nombre": "Torta familiar lomoro x1kg GRANIZADO Y CHOCOLATE",
+      "tags": {
+        "1": "Helados",
+        "2": "Tortas heladas",
+        "3": "Torta familiar lomoro",
+        "4": "Torta familiar lomoro x1kg GRANIZADO Y CHOCOLATE"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01312",
+      "nombre": "Balde Helado x3lts Familiar Lomoro (Cereza/DL/Granizado)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes chicos",
+        "3": "Balde Helado",
+        "4": "Balde Helado x3lts Familiar Lomoro (Cereza/DL/Granizado)"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01313",
+      "nombre": "Balde Helado x3lts Familiar Lomoro (CH/VAI/FR)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes chicos",
+        "3": "Balde Helado",
+        "4": "Balde Helado x3lts Familiar Lomoro (CH/VAI/FR)"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01320",
+      "nombre": "Balde x 1lt irresistible Chocolate Belga",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes chicos",
+        "3": "Balde",
+        "4": "Balde x 1lt irresistible Chocolate Belga"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01350",
+      "nombre": "Juguitos minyo 1,2,3! GIGANTES x30u.",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Juguitos minyo",
+        "4": "Juguitos minyo 1,2,3! GIGANTES x30u."
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01408",
+      "nombre": "Palito agua x20 Unidades UVA",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de agua",
+        "3": "Palito agua",
+        "4": "Palito agua x20 Unidades UVA"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01411",
+      "nombre": "Balde Helado x3lts Familiar Lomoro (SPLIT/DL/AMERICANA)",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes chicos",
+        "3": "Balde Helado",
+        "4": "Balde Helado x3lts Familiar Lomoro (SPLIT/DL/AMERICANA)"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01604",
+      "nombre": "Palito agua x20 Unidades SURTIDO",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de agua",
+        "3": "Palito agua",
+        "4": "Palito agua x20 Unidades SURTIDO"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01607",
+      "nombre": "Palito agua x20 Unidades FRUTILLA",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de agua",
+        "3": "Palito agua",
+        "4": "Palito agua x20 Unidades FRUTILLA"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01608",
+      "nombre": "Palito agua x20 Unidades LIMON",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de agua",
+        "3": "Palito agua",
+        "4": "Palito agua x20 Unidades LIMON"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01640",
+      "nombre": "Vaso telgopor 330 cc Variedad FRUTILLA/LIMON/CHOCOLATE",
+      "tags": {
+        "1": "Insumos",
+        "2": "Vasos",
+        "3": "Vaso telgopor",
+        "4": "Vaso telgopor 330 cc Variedad FRUTILLA/LIMON/CHOCOLATE"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01641",
+      "nombre": "Vaso telgopor 330 cc Variedad AMERICANA/BANANA SPLIT/DDL",
+      "tags": {
+        "1": "Insumos",
+        "2": "Vasos",
+        "3": "Vaso telgopor",
+        "4": "Vaso telgopor 330 cc Variedad AMERICANA/BANANA SPLIT/DDL"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01660",
+      "nombre": "Balde Helado x3lts Limon ORENSE",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes chicos",
+        "3": "Balde Helado",
+        "4": "Balde Helado x3lts Limon ORENSE"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01680",
+      "nombre": "Palito agua x20 Unidades NARANJA",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de agua",
+        "3": "Palito agua",
+        "4": "Palito agua x20 Unidades NARANJA"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01691",
+      "nombre": "Palito agua x20 Unidades TUTTI FRUTI",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de agua",
+        "3": "Palito agua",
+        "4": "Palito agua x20 Unidades TUTTI FRUTI"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01712",
+      "nombre": "Balde Irresistible Banana Split x 750cc",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes chicos",
+        "3": "Balde",
+        "4": "Balde Irresistible Banana Split x 750cc"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01757",
+      "nombre": "Postre Limon Cocado x10u.",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Postre",
+        "4": "Postre Limon Cocado x10u."
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01758",
+      "nombre": "Alfajor Premium Negro x6u.",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Alfajor",
+        "4": "Alfajor Premium Negro"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01759",
+      "nombre": "Alfajor Premium Irlandes x6u.",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Alfajor",
+        "4": "Alfajor Premium Irlandes"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01765",
+      "nombre": "Alfajor Premium Blanco x6u.",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Alfajor",
+        "4": "Alfajor Premium Blanco"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01769",
+      "nombre": "Cono Menta x14u.",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de agua",
+        "3": "Palito de agua",
+        "4": "Cono Menta"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-01778",
+      "nombre": "Bombon Escoces x8u.",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Bombon",
+        "4": "Bombon Escoces"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-03502",
+      "nombre": "Alfajor Irlandés x 6 sin Tacc",
+      "tags": {
+        "1": "Sin TACC",
+        "2": "Comestibles",
+        "3": "Alfajor",
+        "4": "Alfajor Irlandés"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-03536",
+      "nombre": "Barrita Dubai",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Barrita",
+        "4": "Barrita Dubai"
+      }
+    },
+    {
+      "product_code": "IMP-IMP-03642",
+      "nombre": "Barrita Mundial 70g x8 unidades",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Barrita",
+        "4": "Barrita Mundial"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01832",
+      "nombre": "Bocaditos Helados Lomoro Dulce de leche x 120 gr 8 unidades",
+      "tags": {
+        "1": "Helados",
+        "2": "Bocaditos helados",
+        "3": "Bocadito helado",
+        "4": "Bocaditos Helados Lomoro Dulce de leche"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01834",
+      "nombre": "Bombon Crocante x8 unidades",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Bombon",
+        "4": "Bombon Crocante"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01835",
+      "nombre": "Bocaditos Helados Lomoro Americana de 120gr x 8un",
+      "tags": {
+        "1": "Helados",
+        "2": "Bocaditos helados",
+        "3": "Bocadito helado",
+        "4": "Bocaditos Helados Lomoro Americana"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01842",
+      "nombre": "Bocaditos Helados Lomoro menta x 120 gr x 8 unid",
+      "tags": {
+        "1": "Helados",
+        "2": "Bocaditos helados",
+        "3": "Bocadito helado",
+        "4": "Bocaditos Helados Lomoro menta"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01846",
+      "nombre": "Combo Infantil Tiki",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de helados",
+        "3": "Combo",
+        "4": "Combo Infantil Tiki"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01850",
+      "nombre": "Palito agua x20 Unidades ANANA",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de agua",
+        "3": "Palito de agua",
+        "4": "Palito agua"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01862",
+      "nombre": "Palito de crema CASSATA x20u",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de crema",
+        "3": "Palito de crema",
+        "4": "Palito de crema CASSATA"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01864",
+      "nombre": "Palito crema granizado x20 unidades",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de crema",
+        "3": "Palito de crema",
+        "4": "Palito crema granizado"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01867",
+      "nombre": "Palito KAMIKAZE 45gr x20u",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de crema",
+        "3": "Palito de crema",
+        "4": "Palito KAMIKAZE"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01887",
+      "nombre": "Bombon Escoces Blanco x8u.",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Bombon",
+        "4": "Bombon Escoces Blanco"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01888",
+      "nombre": "Alfajor premium HIT minitorta de 80g x8u",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Alfajor",
+        "4": "Alfajor premium HIT minitorta"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01890",
+      "nombre": "Balde Irresistible Cookies and Cream x 750 cc",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes chicos",
+        "3": "Balde de helado",
+        "4": "Balde Irresistible Cookies and Cream"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01907",
+      "nombre": "Bombon Escoces x16u",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Bombon",
+        "4": "Bombon Escoces"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01908",
+      "nombre": "Palito Fripper x20 unidades frutilla + americana",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de agua",
+        "3": "Palito de agua",
+        "4": "Palito Fripper"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01921",
+      "nombre": "Balde Irresistible Lemon champ x 750 cc",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes chicos",
+        "3": "Balde de helado",
+        "4": "Balde Irresistible Lemon champ"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01922",
+      "nombre": "Palito Fripper x20 unidades naranja + americana",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de agua",
+        "3": "Palito de agua",
+        "4": "Palito Fripper"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01925",
+      "nombre": "Palito crema Bananita Bana Bana x20u.",
+      "tags": {
+        "1": "Helados",
+        "2": "Palitos de crema",
+        "3": "Palito de crema",
+        "4": "Palito crema Bananita Bana Bana"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01926",
+      "nombre": "Postre Suizo x16u.",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Postre",
+        "4": "Postre Suizo"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01928",
+      "nombre": "Postre CAMELY FAMILIAR Lemon Pie",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Postre",
+        "4": "Postre CAMELY FAMILIAR Lemon Pie"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-01960",
+      "nombre": "Postre CAMELY FAMILIAR Cheesecake",
+      "tags": {
+        "1": "Helados",
+        "2": "Postres helados",
+        "3": "Postre",
+        "4": "Postre CAMELY FAMILIAR Cheesecake"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-20003",
+      "nombre": "Balde Irresistible Cereza x 750cc",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes chicos",
+        "3": "Balde de helado",
+        "4": "Balde Irresistible Cereza"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-20004",
+      "nombre": "Balde Irresistible Dulce de Leche x 750 cc",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes chicos",
+        "3": "Balde de helado",
+        "4": "Balde Irresistible Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-20005",
+      "nombre": "Balde Irresistible Frutilla x 750 cc",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes chicos",
+        "3": "Balde de helado",
+        "4": "Balde Irresistible Frutilla"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-20006",
+      "nombre": "Balde x 1kg bana bana Cereza/Granizado/DDL",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes chicos",
+        "3": "Balde de helado",
+        "4": "Balde bana bana Cereza/Granizado/DDL"
+      }
+    },
+    {
+      "product_code": "IMP-LOM-20007",
+      "nombre": "Balde x 1kg bana bana Choco/Limon/Frutilla",
+      "tags": {
+        "1": "Helados",
+        "2": "Baldes chicos",
+        "3": "Balde de helado",
+        "4": "Balde bana bana Choco/Limon/Frutilla"
+      }
+    },
+    {
+      "product_code": "INS-INS-01336",
+      "nombre": "Cucharitas clasicas bolsa x1Kg",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "Cucharitas",
+        "4": "Cucharitas clasicas"
+      }
+    },
+    {
+      "product_code": "INS-INS-01337",
+      "nombre": "Salsa Caramelo x900 GRS Jamer",
+      "tags": {
+        "1": "Insumos",
+        "2": "Salsas",
+        "3": "Salsa",
+        "4": "Salsa Caramelo"
+      }
+    },
+    {
+      "product_code": "INS-INS-01338",
+      "nombre": "Salsa Chocolate x900 GRS Jamer",
+      "tags": {
+        "1": "Insumos",
+        "2": "Salsas",
+        "3": "Salsa",
+        "4": "Salsa Chocolate"
+      }
+    },
+    {
+      "product_code": "INS-INS-01339",
+      "nombre": "Salsa Dulce de Leche x900 GRS Jamer",
+      "tags": {
+        "1": "Insumos",
+        "2": "Salsas",
+        "3": "Salsa",
+        "4": "Salsa Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "INS-INS-01340",
+      "nombre": "Salsa Frutilla x900 GRS Jamer",
+      "tags": {
+        "1": "Insumos",
+        "2": "Salsas",
+        "3": "Salsa",
+        "4": "Salsa Frutilla"
+      }
+    },
+    {
+      "product_code": "INS-INS-01341",
+      "nombre": "Salsa Frutos del Bosque x900 GRS Jamer",
+      "tags": {
+        "1": "Insumos",
+        "2": "Salsas",
+        "3": "Salsa",
+        "4": "Salsa Frutos del Bosque"
+      }
+    },
+    {
+      "product_code": "INS-INS-01347",
+      "nombre": "Envase Telgopor KG x20 unidades",
+      "tags": {
+        "1": "Insumos",
+        "2": "Equipamiento",
+        "3": "Envase",
+        "4": "Envase Telgopor"
+      }
+    },
+    {
+      "product_code": "INS-INS-01348",
+      "nombre": "Envase Telgopor 1/2 KG x20 unidades",
+      "tags": {
+        "1": "Insumos",
+        "2": "Equipamiento",
+        "3": "Envase Telgopor",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01349",
+      "nombre": "Envase Telgopor 1/4 KG x50 unidades",
+      "tags": {
+        "1": "Insumos",
+        "2": "Equipamiento",
+        "3": "Envase Telgopor",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01356",
+      "nombre": "Paleta de Aluminio xUnidad",
+      "tags": {
+        "1": "Insumos",
+        "2": "Equipamiento",
+        "3": "Paleta de Aluminio",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01358",
+      "nombre": "Capuchon Vaso Batido",
+      "tags": {
+        "1": "Insumos",
+        "2": "Equipamiento",
+        "3": "Capuchon Vaso Batido",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01382",
+      "nombre": "Cucharitas sueltas x200grs",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "Cucharitas sueltas",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01383",
+      "nombre": "Cuchara Bochera Inoxidable",
+      "tags": {
+        "1": "Insumos",
+        "2": "Equipamiento",
+        "3": "Cuchara Bochera Inoxidable",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01565",
+      "nombre": "Capelina Grande x80u.",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "Capelina Grande",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01568",
+      "nombre": "Pack servilletas individual",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "Pack servilletas",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01569",
+      "nombre": "Cucharitas Sundae x1000u.",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "Cucharitas Sundae",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01584",
+      "nombre": "COMBO Envase telgopor KG x 100 unidades",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de helados",
+        "3": "Combo Envase telgopor",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01585",
+      "nombre": "COMBO Envase telgopor 1/4 KG X 100 unidades",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de helados",
+        "3": "Combo Envase telgopor",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01586",
+      "nombre": "COMBO Envase telgopor 1/2 KG x 100 unidades",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de helados",
+        "3": "Combo Envase telgopor",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01596",
+      "nombre": "Mini cucurucho artesanal x340u.",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "Mini cucurucho artesanal",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01597",
+      "nombre": "Cucuruchon Artesanal x240u.",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "Cucuruchon Artesanal",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01598",
+      "nombre": "Cono 70 Pasta Simple x180u.",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "Cono Pasta Simple",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01599",
+      "nombre": "Cono Doble Pasta x90u.",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "Cono Doble Pasta",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01600",
+      "nombre": "PACK 30u. Cono Doble Pasta",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "PACK Cono Doble Pasta",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01601",
+      "nombre": "PACK 30u. Cono 70 Pasta Simple",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "PACK Cono Pasta Simple",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01602",
+      "nombre": "PACK X20 CUCURUCHOS GRANDES",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "PACK Cucuruchos Grandes",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01603",
+      "nombre": "PACK X20 MINI CUCURUCHONES",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "PACK Mini Cucuruchones",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01621",
+      "nombre": "Vaso pasta 90 Exagonal x 261u.",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "Vaso pasta Exagonal",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01622",
+      "nombre": "Vaso pasta 125 x 174 unid.",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "Vaso pasta",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01684",
+      "nombre": "Chips de Chocolate Negro x1Kg",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Chips de Chocolate Negro",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01690",
+      "nombre": "COMBO Vaso Batido",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de helados",
+        "3": "Combo Vaso Batido",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01733",
+      "nombre": "Cucharita Europea Multicolor x1Kg",
+      "tags": {
+        "1": "Insumos",
+        "2": "Descartables",
+        "3": "Cucharita Europea Multicolor",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01762",
+      "nombre": "MicroCereal con Cobertura de Chocolate y Dulce de Leche x1Kg",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "MicroCereal con Cobertura",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01763",
+      "nombre": "MicroGalletita con Cobertura de Chocolate y Dulce de Leche x1Kg",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "MicroGalletita con Cobertura",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01766",
+      "nombre": "Mani Crocante con Sabor Almendra 1Kg",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Mani Crocante con Sabor Almendra",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01786",
+      "nombre": "Envase Telgopor 1/4 KG x20 unidades",
+      "tags": {
+        "1": "Insumos",
+        "2": "Equipamiento",
+        "3": "Envase Telgopor",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01838",
+      "nombre": "Cartel",
+      "tags": {
+        "1": "Insumos",
+        "2": "Equipamiento",
+        "3": "Cartel",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01898",
+      "nombre": "Obleas para decorar x 500g",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Obleas para decorar",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01899",
+      "nombre": "Obleas GRANDES para decorar x 5u",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Obleas GRANDES para decorar",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01900",
+      "nombre": "Mini Rocklets x 200g",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Mini Rocklets",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "INS-INS-01901",
+      "nombre": "Mani Crocante x Kg",
+      "tags": {
+        "1": "Insumos",
+        "2": "Comestibles",
+        "3": "Mani Crocante",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "MED-ENV-655",
+      "nombre": "Don Umberto Medallon de Carne Vacuna 42x2 (50g)",
+      "tags": {
+        "1": "Congelados",
+        "2": "Medallones",
+        "3": "Medallon de Carne Vacuna",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "MED-MED-540",
+      "nombre": "Tradicional Medallon de Carne Vacuna 20x2 x110grs",
+      "tags": {
+        "1": "Congelados",
+        "2": "Medallones",
+        "3": "Medallon de Carne Vacuna",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "MED-MED-654",
+      "nombre": "Riccisimas 30X4 Medallon en cajita (120 un.)",
+      "tags": {
+        "1": "Congelados",
+        "2": "Medallones",
+        "3": "Medallon en cajita",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "MED-MED-655",
+      "nombre": "Riccisimas 42X2 Medallon en flow pack",
+      "tags": {
+        "1": "Congelados",
+        "2": "Medallones",
+        "3": "Medallon en flow pack",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "MED-MED-659",
+      "nombre": "Tradicional Medallon de Carne Vacuna 42x2 (55g)",
+      "tags": {
+        "1": "Congelados",
+        "2": "Medallones",
+        "3": "Medallon de Carne Vacuna",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "MED-RIC-20014",
+      "nombre": "Medallon Carne Riccisima 9x12 de 65g",
+      "tags": {
+        "1": "Congelados",
+        "2": "Medallones",
+        "3": "Medallon Carne Riccisima",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PAN-COR-01877",
+      "nombre": "Factura Persianita c/ Crema x120u 50gr",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Factura",
+        "4": "Factura Persianita"
+      }
+    },
+    {
+      "product_code": "PAN-COR-01878",
+      "nombre": "Pan de Molde Multiceral caja x 6 un x 540 gr",
+      "tags": {
+        "1": "Panificados",
+        "2": "Panadería",
+        "3": "Pan de Molde",
+        "4": "Pan de Molde Multiceral"
+      }
+    },
+    {
+      "product_code": "PAN-COR-01954",
+      "nombre": "Tortilla Tucumana x 60 gr caja x 160 unidades",
+      "tags": {
+        "1": "Panificados",
+        "2": "Otros",
+        "3": "Tortilla",
+        "4": "Tortilla Tucumana"
+      }
+    },
+    {
+      "product_code": "PAN-COR-01964",
+      "nombre": "Mini Criollo de Hojaldre x384u",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Mini Criollo",
+        "4": "Mini Criollo de Hojaldre"
+      }
+    },
+    {
+      "product_code": "PAN-COR-20001",
+      "nombre": "Pan Mignon Crudo Congelado caja x14kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Otros",
+        "3": "Pan Crudo",
+        "4": "Pan Mignon Crudo"
+      }
+    },
+    {
+      "product_code": "PAN-LCH-01962",
+      "nombre": "Churros Precocidos Rellenos Dulce de Leche Congelados x 5 doc",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Churros",
+        "4": "Churros Precocidos Rellenos Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01206",
+      "nombre": "Medialunas dulce hojaldre x147 unidades",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Medialunas",
+        "4": "Medialunas dulce hojaldre"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01207",
+      "nombre": "Facturas surtidas x147 unidades",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Facturas",
+        "4": "Facturas surtidas"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01209",
+      "nombre": "Medialunas saladas x147 unidades",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Medialunas",
+        "4": "Medialunas saladas"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01211",
+      "nombre": "Donas Rellenas Bañada con Chocolate x48u.",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Donas",
+        "4": "Donas Rellenas Bañada con Chocolate"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01213",
+      "nombre": "Criollo Riojano x175 unidades 50grs",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Criollo",
+        "4": "Criollo Riojano"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01594",
+      "nombre": "Vigilantes x 162u. unidades 40 grs.",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Vigilantes",
+        "4": "Vigilantes"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01714",
+      "nombre": "Donas Rellenas con Baño Repostería Rosa x48u.",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Donas",
+        "4": "Donas Rellenas con Baño Repostería Rosa"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01719",
+      "nombre": "Donas Rellenas con Dulce de Leche 48u.",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Donas",
+        "4": "Donas Rellenas con Dulce de Leche"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01720",
+      "nombre": "Donas Clasicas x48u",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Donas",
+        "4": "Donas Clasicas"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01722",
+      "nombre": "Criollo Hojaldre 50grs x 10.5 kg x caja",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Criollo",
+        "4": "Criollo Hojaldre"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01724",
+      "nombre": "Chipaca Congelada 50grs 7,5KG",
+      "tags": {
+        "1": "Congelados",
+        "2": "Otros",
+        "3": "Chipaca",
+        "4": "Chipaca Congelada"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01725",
+      "nombre": "Chipa Congelada 15grs caja x 5KG",
+      "tags": {
+        "1": "Congelados",
+        "2": "Otros",
+        "3": "Chipa",
+        "4": "Chipa Congelada"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01729",
+      "nombre": "Tortilla de Hojaldre 50grs 200u.",
+      "tags": {
+        "1": "Panificados",
+        "2": "Otros",
+        "3": "Tortilla",
+        "4": "Tortilla de Hojaldre"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01730",
+      "nombre": "Super Medialuna de Manteca 50grs 120u.",
+      "tags": {
+        "1": "Panificados",
+        "2": "Otros",
+        "3": "Medialuna",
+        "4": "Super Medialuna de Manteca"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01735",
+      "nombre": "Baguettin Blanco 115gr 40u.",
+      "tags": {
+        "1": "Panificados",
+        "2": "Panadería",
+        "3": "Baguettin",
+        "4": "Baguettin Blanco"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01736",
+      "nombre": "Baguettin Salvado 115gr 40u.",
+      "tags": {
+        "1": "Panificados",
+        "2": "Panadería",
+        "3": "Baguettin",
+        "4": "Baguettin Salvado"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01739",
+      "nombre": "Criollo Comun 50grs x210u.",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Criollo",
+        "4": "Criollo Comun"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01740",
+      "nombre": "Factura Persianita Congelada 60grs 120u.",
+      "tags": {
+        "1": "Congelados",
+        "2": "Bizcochería",
+        "3": "Factura",
+        "4": "Factura Persianita Congelada"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01741",
+      "nombre": "Factura Carasucia Congelada x192u",
+      "tags": {
+        "1": "Congelados",
+        "2": "Bizcochería",
+        "3": "Factura",
+        "4": "Factura Carasucia Congelada"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01744",
+      "nombre": "Super Criollo Hojaldre 65grs 120u.",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Criollo",
+        "4": "Super Criollo Hojaldre"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01793",
+      "nombre": "Pan Frances Crudo Congelado caja x14kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Otros",
+        "3": "Pan Crudo",
+        "4": "Pan Frances Crudo"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01810",
+      "nombre": "FACTURAS INDEPENDENCIA SIN CREMA",
+      "tags": {
+        "1": "Sin TACC",
+        "2": "Panificados sin TACC",
+        "3": "Factura",
+        "4": "Facturas Independencia"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01812",
+      "nombre": "Pan de Molde blanco caja x 6 unidades x 540 gr",
+      "tags": {
+        "1": "Panificados",
+        "2": "Panadería",
+        "3": "Pan de Molde",
+        "4": "Pan de Molde blanco"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01813",
+      "nombre": "Pan Molde Salvado caja x 6 unid x 540 gr",
+      "tags": {
+        "1": "Panificados",
+        "2": "Panadería",
+        "3": "Pan de Molde",
+        "4": "Pan Molde Salvado"
+      }
+    },
+    {
+      "product_code": "PAN-PAN-01819",
+      "nombre": "Chipa Congelada 15grs 1KG",
+      "tags": {
+        "1": "Congelados",
+        "2": "Otros",
+        "3": "Chipa",
+        "4": "Chipa Congelada"
+      }
+    },
+    {
+      "product_code": "PAN-PRI-01885",
+      "nombre": "Facturas Hojaldre pack Familiar x80u",
+      "tags": {
+        "1": "Combos",
+        "2": "Combos de panadería",
+        "3": "Facturas",
+        "4": "Facturas Hojaldre pack Familiar"
+      }
+    },
+    {
+      "product_code": "PAN-PRI-01914",
+      "nombre": "Sacramento de Membrillo x 48u",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Sacramento",
+        "4": "Sacramento de Membrillo"
+      }
+    },
+    {
+      "product_code": "PAN-PRI-01915",
+      "nombre": "Panal de Membrillo x60u",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Panal",
+        "4": "Panal de Membrillo"
+      }
+    },
+    {
+      "product_code": "PAN-PRI-01916",
+      "nombre": "Panal de Crema Pastelera x 60u",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Panal",
+        "4": "Panal de Crema Pastelera"
+      }
+    },
+    {
+      "product_code": "PAN-PRI-20009",
+      "nombre": "Gran Medialuna 65g x 90u",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Medialuna",
+        "4": "Gran Medialuna"
+      }
+    },
+    {
+      "product_code": "PAN-SOL-01808",
+      "nombre": "Churro Relleno Caja x120u. sol de galicia",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Churro",
+        "4": "Churro Relleno"
+      }
+    },
+    {
+      "product_code": "PAN-SOL-01876",
+      "nombre": "Croissant XXL x 36u de 100g",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Croissant",
+        "4": "Croissant XXL"
+      }
+    },
+    {
+      "product_code": "PAN-SOL-01959",
+      "nombre": "Mini Dona Rosa cong x 108u",
+      "tags": {
+        "1": "Congelados",
+        "2": "Otros",
+        "3": "Mini Dona",
+        "4": "Mini Dona Rosa cong"
+      }
+    },
+    {
+      "product_code": "PAN-SOL-01968",
+      "nombre": "Pan de Chocolate x 48u",
+      "tags": {
+        "1": "Panificados",
+        "2": "Bizcochería",
+        "3": "Pan",
+        "4": "Pan de Chocolate"
+      }
+    },
+    {
+      "product_code": "PAP-RAN-20010",
+      "nombre": "Papas baston caja x 15 kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Papas",
+        "3": "Bastón",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PAP-RAN-20011",
+      "nombre": "Papas baston caja x 2,5 kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Papas",
+        "3": "Bastón",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PAP-REB-01689",
+      "nombre": "Papas Baston Rancho Alto caja x 10kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Papas",
+        "3": "Bastón",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PAP-REB-01694",
+      "nombre": "Papas Baston Rancho Alto bolsa x 2.5kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Papas",
+        "3": "Bastón",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PIZ-QP-01935",
+      "nombre": "Pizza Muzzarella",
+      "tags": {
+        "1": "Congelados",
+        "2": "Pizzas",
+        "3": "Muzzarella",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PIZ-QP-01937",
+      "nombre": "Pizza Jamon",
+      "tags": {
+        "1": "Congelados",
+        "2": "Pizzas",
+        "3": "Jamon",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PIZ-QP-01941",
+      "nombre": "Pizza de Jamon y Queso x 5u",
+      "tags": {
+        "1": "Congelados",
+        "2": "Pizzas",
+        "3": "Jamon y Queso",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PIZ-QP-01942",
+      "nombre": "Pizza de Muzzarela x 5u",
+      "tags": {
+        "1": "Congelados",
+        "2": "Pizzas",
+        "3": "Muzzarella",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PRO-QUO-01972",
+      "nombre": "AFA Quomate Camionero",
+      "tags": {
+        "1": "Helados",
+        "2": "Productos AFA",
+        "3": "Quomate Camionero",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PRO-QUO-01973",
+      "nombre": "AFA Set Despolvillador + Matermico",
+      "tags": {
+        "1": "Helados",
+        "2": "Productos AFA",
+        "3": "Set Despolvillador + Matermico",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PRO-QUO-01974",
+      "nombre": "AFA Despolvillador con Caja",
+      "tags": {
+        "1": "Helados",
+        "2": "Productos AFA",
+        "3": "Despolvillador con Caja",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PRO-QUO-01975",
+      "nombre": "AFA Luz Mate",
+      "tags": {
+        "1": "Helados",
+        "2": "Productos AFA",
+        "3": "Luz Mate",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PRO-QUO-01976",
+      "nombre": "AFA Mateava con packaging y bombilla",
+      "tags": {
+        "1": "Helados",
+        "2": "Productos AFA",
+        "3": "Mateava con packaging y bombilla",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PRO-QUO-01978",
+      "nombre": "AFA Yerba Sport",
+      "tags": {
+        "1": "Helados",
+        "2": "Productos AFA",
+        "3": "Yerba Sport",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PRO-QUO-01979",
+      "nombre": "AFA Kit Premium Mate Imperial + Despolvillador",
+      "tags": {
+        "1": "Helados",
+        "2": "Productos AFA",
+        "3": "Kit Premium Mate Imperial + Despolvillador",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PRO-QUO-01980",
+      "nombre": "AFA Automate",
+      "tags": {
+        "1": "Helados",
+        "2": "Productos AFA",
+        "3": "Automate",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PRO-QUO-01981",
+      "nombre": "AFA Bombilla con dije",
+      "tags": {
+        "1": "Helados",
+        "2": "Productos AFA",
+        "3": "Bombilla con dije",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PRO-QUO-01987",
+      "nombre": "AFA Kit yerba + imperial",
+      "tags": {
+        "1": "Helados",
+        "2": "Productos AFA",
+        "3": "Kit yerba + imperial",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "PRO-QUO-01988",
+      "nombre": "AFA Mate Imperial",
+      "tags": {
+        "1": "Helados",
+        "2": "Productos AFA",
+        "3": "Mate Imperial",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "REB-DRL-01943",
+      "nombre": "Filet de Merluza Rom x 6kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Filet de Merluza",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "REB-DRL-01944",
+      "nombre": "Bocadito de Muzzarela x 5kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Bocadito de Muzzarela",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "REB-DRL-01945",
+      "nombre": "Medallon de Merluza Espinaca y Queso x 5kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Medallón de Merluza Espinaca y Queso",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "REB-DRL-01946",
+      "nombre": "Medallon de Merluza x5kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Medallón de Merluza",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "REB-DRL-01947",
+      "nombre": "Medallon de Pollo Jamon y Queso x 5 kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Medallón de Pollo Jamon y Queso",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "REB-DRL-01948",
+      "nombre": "Medallon de Pollo x 5kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Medallón de Pollo",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "REB-DRL-01949",
+      "nombre": "Patita de Pollo de Jamon y Queso x 5kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Patita de Pollo de Jamon y Queso",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "REB-DRL-01950",
+      "nombre": "Patita de Pollo x 5kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Patita de Pollo",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "REB-DRL-01951",
+      "nombre": "Milanesas de Pollo x 5kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Milanesas de Pollo",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "REB-REB-02006",
+      "nombre": "Aros de Cebolla bolsa x 10 kg",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Aros de Cebolla",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "REB-SJO-20015",
+      "nombre": "Caja de Milanesa San Jose x30 paquetes SURTIDAS de 6u c/u",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Milanesa San Jose",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "REB-SJO-20016",
+      "nombre": "Milanesa de Soja Surtida de 300g x 6u",
+      "tags": {
+        "1": "Congelados",
+        "2": "Rebozados",
+        "3": "Milanesa de Soja Surtida",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "SIN-CRE-01965",
+      "nombre": "Medialuna Cocida x 2u de 120g CAJA DE 30u Sin TACC",
+      "tags": {
+        "1": "Sin TACC",
+        "2": "Panificados sin TACC",
+        "3": "Medialuna Cocida",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "SIN-CRE-01966",
+      "nombre": "Pan Baguette x 2u CAJA x30u Sin TACC",
+      "tags": {
+        "1": "Sin TACC",
+        "2": "Panificados sin TACC",
+        "3": "Pan Baguette",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "SIN-CRE-01967",
+      "nombre": "Pan Baguette Jamon y Queso (sandwich) x15 Sin TACC",
+      "tags": {
+        "1": "Sin TACC",
+        "2": "Panificados sin TACC",
+        "3": "Pan Baguette Jamon y Queso",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "SIN-CRE-01969",
+      "nombre": "Caja Chipa de 25g x 25 bolsas de 10u c/u Sin TACC",
+      "tags": {
+        "1": "Sin TACC",
+        "2": "Panificados sin TACC",
+        "3": "Chipa",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "SIN-CRE-01971",
+      "nombre": "Chipa x 10u de 25g Sin TACC",
+      "tags": {
+        "1": "Sin TACC",
+        "2": "Panificados sin TACC",
+        "3": "Chipa",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "SIN-CRE-01984",
+      "nombre": "Criollo Cocido de 100g Sin TACC x 5 bolsas de 3u",
+      "tags": {
+        "1": "Sin TACC",
+        "2": "Panificados sin TACC",
+        "3": "Criollo Cocido",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "SIN-CRE-01985",
+      "nombre": "Medialunas Cocidas de 120g Sin TACC x 5 bolsas de 2u",
+      "tags": {
+        "1": "Sin TACC",
+        "2": "Panificados sin TACC",
+        "3": "Medialunas Cocidas",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "SIN-CRE-01999",
+      "nombre": "Medialuna Cruda de 60g x 12u",
+      "tags": {
+        "1": "Panificados",
+        "2": "Medialunas",
+        "3": "Cruda",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "SIN-CRE-02000",
+      "nombre": "Baguette de Jamon y Queso x unidad",
+      "tags": {
+        "1": "Panificados",
+        "2": "Baguettes",
+        "3": "Jamon y Queso",
+        "4": "Genérico"
+      }
+    },
+    {
+      "product_code": "SIN-CRE-02001",
+      "nombre": "Palmeritas precocidas x12u de 250g SIN TACC",
+      "tags": {
+        "1": "Sin TACC",
+        "2": "Panificados sin TACC",
+        "3": "Otros sin TACC",
+        "4": "Palmeritas"
+      }
+    },
+    {
+      "product_code": "SIN-CRE-02002",
+      "nombre": "Criollo crudo x 30u de 1kg SIN TACC",
+      "tags": {
+        "1": "Sin TACC",
+        "2": "Panificados sin TACC",
+        "3": "Otros sin TACC",
+        "4": "Criollo"
+      }
+    },
+    {
+      "product_code": "SIN-CRE-20002",
+      "nombre": "Pizza de Muzzarela 4p 400g SIN TACC",
+      "tags": {
+        "1": "Sin TACC",
+        "2": "Pizzas sin TACC",
+        "3": "Otros sin TACC",
+        "4": "Pizza de Muzzarela"
+      }
+    },
+    {
+      "product_code": "TOR-LOM-01860",
+      "nombre": "Torta familiar lomoro x1kg FRUTILLA",
+      "tags": {
+        "1": "Helados",
+        "2": "Tortas heladas",
+        "3": "Tortas familiares",
+        "4": "Torta familiar"
+      }
+    },
+    {
+      "product_code": "TOR-LOM-01874",
+      "nombre": "Torta helada TELGOPOR Premium Selva Negra",
+      "tags": {
+        "1": "Helados",
+        "2": "Tortas heladas",
+        "3": "Tortas Premium",
+        "4": "Torta helada"
+      }
+    }
+  ]
+}

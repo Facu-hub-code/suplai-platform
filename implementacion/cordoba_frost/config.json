@@ -1,0 +1,6 @@
+{
+  "dominios": "cordobafrost.com,mercadolibre.com.ar,lomoro.com.ar",
+  "sufijo_fallback": "panaderia congelada helado palito balde cordoba argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS CÓRDOBA FROST (panadería congelada, helados e insumos B2B Córdoba):\n1. TIPO OBLIGATORIO al inicio: medialuna, factura, criollo, chipá, baguettín, pan, palito de crema, palito de agua, helado en vaso, balde de helado, postre helado, torta helada, rebozado, medallón, papa congelada, pizza, hamburguesa, envase, cono, salsa, o combo.\n2. MARCA: Córdoba Pan, Lomoro, Gatelin, Cresfood, DRL, Quo, Riccisima, Sol de Galicia, Pripan, Q' Pizza, Frost Cargo, Rancho Alto, San José, Tex. No inventes marcas.\n3. FORMATO: incluí g/kg/cc/L y unidades por caja si están en el nombre (x40u, caja x10 L, 750 cc).\n4. ESTADO: si es congelado, decilo una vez. No inventes cadena de frío, ANMAT ni calorías.\n5. ALIAS: caja, bulto, pack, palito, vaso, pote, balde, medialuna, criollo, factura, chipá, y el código o nombre corto. El PdV pide por caja/bulto.\n6. COMBOS: describí que es un combo y el rubro (panadería/helados/hamburguesas), sin listar precios."
+}
