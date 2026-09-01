@@ -1,0 +1,211 @@
+client_phone,session_id,sender_type,type,message,content,created_at,is_mock
+5493517000001,5493517000001,ai,ai,"Hola Kiosco 24 Horas Nueva Córdoba, vi que tenes un pedido abierto por PILA AA X 4 DURACELL y queria ayudarte a cerrarlo.","Hola Kiosco 24 Horas Nueva Córdoba, vi que tenes un pedido abierto por PILA AA X 4 DURACELL y queria ayudarte a cerrarlo.",2026-09-01 00:49:22,true
+5493517000001,5493517000001,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-09-01 00:51:03,true
+5493517000001,5493517000001,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-09-01 00:51:58,true
+5493517000001,5493517000001,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-09-01 00:53:57,true
+5493517000001,5493517000001,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-09-01 00:54:50,true
+5493517000002,5493517000002,ai,ai,"Hola Maxikiosco Plaza España, vi que tenes un pedido abierto por TERMA LIMON PET 1.35L y queria ayudarte a cerrarlo.","Hola Maxikiosco Plaza España, vi que tenes un pedido abierto por TERMA LIMON PET 1.35L y queria ayudarte a cerrarlo.",2026-08-31 23:49:22,true
+5493517000002,5493517000002,human,human,"Hola, queria hacer un reclamo por demora en la entrega.","Hola, queria hacer un reclamo por demora en la entrega.",2026-08-31 23:50:28,true
+5493517000002,5493517000002,ai,ai,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por demora en la entrega y lo escalo para revision.,2026-08-31 23:51:25,true
+5493517000002,5493517000002,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-08-31 23:52:42,true
+5493517000002,5493517000002,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-08-31 23:54:02,true
+5493517000003,5493517000003,ai,ai,"Hola Autoservicio Chacabuco, vi que tenes un pedido abierto por FERNET 1882 473ml CON COLA y queria ayudarte a cerrarlo.","Hola Autoservicio Chacabuco, vi que tenes un pedido abierto por FERNET 1882 473ml CON COLA y queria ayudarte a cerrarlo.",2026-09-01 10:49:22,true
+5493517000003,5493517000003,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-09-01 10:50:12,true
+5493517000003,5493517000003,ai,ai,Te confirmo que el pedido P-00104 sigue en curso por un total de 12890.78. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00104 sigue en curso por un total de 12890.78. Si queres te lo dejo cerrado hoy.,2026-09-01 10:51:01,true
+5493517000003,5493517000003,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-09-01 10:52:26,true
+5493517000003,5493517000003,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-09-01 10:53:35,true
+5493517000004,5493517000004,ai,ai,"Hola Almacén Doña Rosa, vi que tenes un pedido abierto por PANTENE 200ml SH LISO INFINITO y queria ayudarte a cerrarlo.","Hola Almacén Doña Rosa, vi que tenes un pedido abierto por PANTENE 200ml SH LISO INFINITO y queria ayudarte a cerrarlo.",2026-09-01 09:49:22,true
+5493517000004,5493517000004,human,human,"Hola, queria hacer un reclamo por producto faltante.","Hola, queria hacer un reclamo por producto faltante.",2026-09-01 09:50:47,true
+5493517000004,5493517000004,ai,ai,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,Gracias por avisarnos. Ya tomo el caso por producto faltante y lo escalo para revision.,2026-09-01 09:52:05,true
+5493517000004,5493517000004,human,human,"Dale, quedo atento.","Dale, quedo atento.",2026-09-01 09:52:56,true
+5493517000004,5493517000004,ai,ai,Ya quedo registrado. Te aviso apenas tengamos respuesta.,Ya quedo registrado. Te aviso apenas tengamos respuesta.,2026-09-01 09:54:18,true
+5493517000005,5493517000005,ai,ai,"Hola Kiosco El Palacio, vi que tenes un pedido abierto por DR LEMON 473ml LIMÓN 4º y queria ayudarte a cerrarlo.","Hola Kiosco El Palacio, vi que tenes un pedido abierto por DR LEMON 473ml LIMÓN 4º y queria ayudarte a cerrarlo.",2026-09-01 08:49:22,true
+5493517000005,5493517000005,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-09-01 08:50:43,true
+5493517000005,5493517000005,ai,ai,Te confirmo que el pedido P-00105 sigue en curso por un total de 20598.31. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00105 sigue en curso por un total de 20598.31. Si queres te lo dejo cerrado hoy.,2026-09-01 08:52:13,true
+5493517000005,5493517000005,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-09-01 08:53:05,true
+5493517000005,5493517000005,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-09-01 08:53:59,true
+5493517000006,5493517000006,ai,ai,"Hola Despensa Bv. Chacabuco, vi que tenes un pedido abierto por LAVANDINA 1L MULTISUP LAVANDA AYUDIN y queria ayudarte a cerrarlo.","Hola Despensa Bv. Chacabuco, vi que tenes un pedido abierto por LAVANDINA 1L MULTISUP LAVANDA AYUDIN y queria ayudarte a cerrarlo.",2026-09-01 07:49:22,true
+5493517000006,5493517000006,human,human,"Buen dia, pasame detalle de ese pedido por favor.","Buen dia, pasame detalle de ese pedido por favor.",2026-09-01 07:50:45,true
+5493517000006,5493517000006,ai,ai,Te confirmo que el pedido P-00106 sigue en curso por un total de 48803.94. Si queres te lo dejo cerrado hoy.,Te confirmo que el pedido P-00106 sigue en curso por un total de 48803.94. Si queres te lo dejo cerrado hoy.,2026-09-01 07:51:27,true
+5493517000006,5493517000006,human,human,"Dale, mandamelo asi.","Dale, mandamelo asi.",2026-09-01 07:52:37,true
+5493517000006,5493517000006,ai,ai,"Genial, te lo dejo confirmado y en preparacion.","Genial, te lo dejo confirmado y en preparacion.",2026-09-01 07:53:11,true
+5493517000007,5493517000007,ai,ai,"Hola Maxikiosco Nueva Córdoba, paso a revisar tu pedido P-00014 de ARIEL Liquido DELICATES POUCH 800ML.","Hola Maxikiosco Nueva Córdoba, paso a revisar tu pedido P-00014 de ARIEL Liquido DELICATES POUCH 800ML.",2026-08-31 09:49:22,true
+5493517000007,5493517000007,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 09:50:59,true
+5493517000007,5493517000007,ai,ai,Te confirmo que el pedido P-00014 fue registrado correctamente por 24186.26.,Te confirmo que el pedido P-00014 fue registrado correctamente por 24186.26.,2026-08-31 09:51:37,true
+5493517000007,5493517000007,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 09:52:58,true
+5493517000008,5493517000008,ai,ai,"Hola Kiosco Los Andes, paso a revisar tu pedido P-00016 de PAMPERS BABYDRY MED x8.","Hola Kiosco Los Andes, paso a revisar tu pedido P-00016 de PAMPERS BABYDRY MED x8.",2026-08-30 08:49:22,true
+5493517000008,5493517000008,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 08:50:41,true
+5493517000008,5493517000008,ai,ai,Te confirmo que el pedido P-00016 fue registrado correctamente por 65227.32.,Te confirmo que el pedido P-00016 fue registrado correctamente por 65227.32.,2026-08-30 08:51:21,true
+5493517000008,5493517000008,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 08:52:06,true
+5493517000009,5493517000009,ai,ai,"Hola Autoservicio Plaza España, paso a revisar tu pedido P-00018 de LAVANDINA 1L MULTISUP LAVANDA AYUDIN.","Hola Autoservicio Plaza España, paso a revisar tu pedido P-00018 de LAVANDINA 1L MULTISUP LAVANDA AYUDIN.",2026-08-31 07:49:22,true
+5493517000009,5493517000009,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 07:50:11,true
+5493517000009,5493517000009,ai,ai,Te confirmo que el pedido P-00018 fue registrado correctamente por 14017.87.,Te confirmo que el pedido P-00018 fue registrado correctamente por 14017.87.,2026-08-31 07:51:32,true
+5493517000009,5493517000009,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 07:53:01,true
+5493517000010,5493517000010,ai,ai,"Hola Despensa Alberdi, paso a revisar tu pedido P-00020 de PRESTO 3 BLISTER X 2 UNID.","Hola Despensa Alberdi, paso a revisar tu pedido P-00020 de PRESTO 3 BLISTER X 2 UNID.",2026-08-30 06:49:22,true
+5493517000010,5493517000010,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 06:51:03,true
+5493517000010,5493517000010,ai,ai,Te confirmo que el pedido P-00020 fue registrado correctamente por 73060.40.,Te confirmo que el pedido P-00020 fue registrado correctamente por 73060.40.,2026-08-30 06:52:14,true
+5493517000010,5493517000010,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 06:53:23,true
+5493517000011,5493517000011,ai,ai,"Hola Maxikiosco Colón, paso a revisar tu pedido P-00022 de ZORRO JAB. EN PAN X2 Clásico 150gs.","Hola Maxikiosco Colón, paso a revisar tu pedido P-00022 de ZORRO JAB. EN PAN X2 Clásico 150gs.",2026-08-31 10:49:22,true
+5493517000011,5493517000011,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 10:50:26,true
+5493517000011,5493517000011,ai,ai,Te confirmo que el pedido P-00022 fue registrado correctamente por 10306.80.,Te confirmo que el pedido P-00022 fue registrado correctamente por 10306.80.,2026-08-31 10:51:23,true
+5493517000011,5493517000011,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 10:52:17,true
+5493517000012,5493517000012,ai,ai,"Hola Almacén Don Pedro, paso a revisar tu pedido P-00023 de TERMA CUYANO PET 1.35L.","Hola Almacén Don Pedro, paso a revisar tu pedido P-00023 de TERMA CUYANO PET 1.35L.",2026-08-30 09:49:22,true
+5493517000012,5493517000012,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 09:51:18,true
+5493517000012,5493517000012,ai,ai,Te confirmo que el pedido P-00023 fue registrado correctamente por 9263.30.,Te confirmo que el pedido P-00023 fue registrado correctamente por 9263.30.,2026-08-30 09:51:56,true
+5493517000012,5493517000012,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 09:53:07,true
+5493517000013,5493517000013,ai,ai,"Hola Kiosco Heladera Llena, paso a revisar tu pedido P-00025 de MARTINI 1L ROSSO.","Hola Kiosco Heladera Llena, paso a revisar tu pedido P-00025 de MARTINI 1L ROSSO.",2026-08-31 08:49:22,true
+5493517000013,5493517000013,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 08:51:07,true
+5493517000013,5493517000013,ai,ai,Te confirmo que el pedido P-00025 fue registrado correctamente por 15492.24.,Te confirmo que el pedido P-00025 fue registrado correctamente por 15492.24.,2026-08-31 08:51:40,true
+5493517000013,5493517000013,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 08:53:06,true
+5493517000014,5493517000014,ai,ai,"Hola Autoservicio Colón, paso a revisar tu pedido P-00027 de FELFORT MENTITAS 30 X 16 GRS.","Hola Autoservicio Colón, paso a revisar tu pedido P-00027 de FELFORT MENTITAS 30 X 16 GRS.",2026-08-30 07:49:22,true
+5493517000014,5493517000014,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 07:50:56,true
+5493517000014,5493517000014,ai,ai,Te confirmo que el pedido P-00027 fue registrado correctamente por 77507.71.,Te confirmo que el pedido P-00027 fue registrado correctamente por 77507.71.,2026-08-30 07:51:58,true
+5493517000014,5493517000014,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 07:52:57,true
+5493517000015,5493517000015,ai,ai,"Hola Despensa El Familiar, paso a revisar tu pedido P-00030 de POETT 900ml ESPIRITU MULTIESP Desinf..","Hola Despensa El Familiar, paso a revisar tu pedido P-00030 de POETT 900ml ESPIRITU MULTIESP Desinf..",2026-08-31 06:49:22,true
+5493517000015,5493517000015,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 06:51:01,true
+5493517000015,5493517000015,ai,ai,Te confirmo que el pedido P-00030 fue registrado correctamente por 1734.11.,Te confirmo que el pedido P-00030 fue registrado correctamente por 1734.11.,2026-08-31 06:51:52,true
+5493517000015,5493517000015,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 06:52:29,true
+5493517000016,5493517000016,ai,ai,"Hola Maxikiosco Alto Alberdi, paso a revisar tu pedido P-00032 de MAGISTRAL LIMON 500ML.","Hola Maxikiosco Alto Alberdi, paso a revisar tu pedido P-00032 de MAGISTRAL LIMON 500ML.",2026-08-30 10:49:22,true
+5493517000016,5493517000016,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 10:50:50,true
+5493517000016,5493517000016,ai,ai,Te confirmo que el pedido P-00032 fue registrado correctamente por 19978.70.,Te confirmo que el pedido P-00032 fue registrado correctamente por 19978.70.,2026-08-30 10:51:58,true
+5493517000016,5493517000016,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 10:52:55,true
+5493517000017,5493517000017,ai,ai,"Hola Kiosco La Estación Colón, paso a revisar tu pedido P-00034 de PRIME TEXTURADO.","Hola Kiosco La Estación Colón, paso a revisar tu pedido P-00034 de PRIME TEXTURADO.",2026-08-31 09:49:22,true
+5493517000017,5493517000017,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 09:50:57,true
+5493517000017,5493517000017,ai,ai,Te confirmo que el pedido P-00034 fue registrado correctamente por 34355.73.,Te confirmo que el pedido P-00034 fue registrado correctamente por 34355.73.,2026-08-31 09:51:32,true
+5493517000017,5493517000017,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 09:52:39,true
+5493517000018,5493517000018,ai,ai,"Hola Almacén Doña Marta, paso a revisar tu pedido P-00036 de BACARDI CARTA BLANCA 980ml PT 40°.","Hola Almacén Doña Marta, paso a revisar tu pedido P-00036 de BACARDI CARTA BLANCA 980ml PT 40°.",2026-08-30 08:49:22,true
+5493517000018,5493517000018,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 08:50:29,true
+5493517000018,5493517000018,ai,ai,Te confirmo que el pedido P-00036 fue registrado correctamente por 119231.34.,Te confirmo que el pedido P-00036 fue registrado correctamente por 119231.34.,2026-08-30 08:51:05,true
+5493517000018,5493517000018,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 08:52:33,true
+5493517000019,5493517000019,ai,ai,"Hola Despensa El Cerro, paso a revisar tu pedido P-00038 de TERMA LIMON PET 1.35L.","Hola Despensa El Cerro, paso a revisar tu pedido P-00038 de TERMA LIMON PET 1.35L.",2026-08-31 07:49:22,true
+5493517000019,5493517000019,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 07:51:13,true
+5493517000019,5493517000019,ai,ai,Te confirmo que el pedido P-00038 fue registrado correctamente por 1574.76.,Te confirmo que el pedido P-00038 fue registrado correctamente por 1574.76.,2026-08-31 07:52:14,true
+5493517000019,5493517000019,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 07:53:39,true
+5493517000020,5493517000020,ai,ai,"Hola Almacén Villa Belgrano, paso a revisar tu pedido P-00040 de AMERICANO GANCIA 450ml 14°.","Hola Almacén Villa Belgrano, paso a revisar tu pedido P-00040 de AMERICANO GANCIA 450ml 14°.",2026-08-30 06:49:22,true
+5493517000020,5493517000020,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 06:50:43,true
+5493517000020,5493517000020,ai,ai,Te confirmo que el pedido P-00040 fue registrado correctamente por 8356.88.,Te confirmo que el pedido P-00040 fue registrado correctamente por 8356.88.,2026-08-30 06:52:11,true
+5493517000020,5493517000020,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 06:53:01,true
+5493517000021,5493517000021,ai,ai,"Hola Maxikiosco Cerro, paso a revisar tu pedido P-00042 de MAGISTRAL GATILLO X 500ml LIMON ANTIGRASA.","Hola Maxikiosco Cerro, paso a revisar tu pedido P-00042 de MAGISTRAL GATILLO X 500ml LIMON ANTIGRASA.",2026-08-31 10:49:22,true
+5493517000021,5493517000021,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 10:50:51,true
+5493517000021,5493517000021,ai,ai,Te confirmo que el pedido P-00042 fue registrado correctamente por 19373.88.,Te confirmo que el pedido P-00042 fue registrado correctamente por 19373.88.,2026-08-31 10:51:34,true
+5493517000021,5493517000021,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 10:52:44,true
+5493517000022,5493517000022,ai,ai,"Hola Kiosco La Esquina, paso a revisar tu pedido P-00044 de HS 375ml SH ANTICOMEZON.","Hola Kiosco La Esquina, paso a revisar tu pedido P-00044 de HS 375ml SH ANTICOMEZON.",2026-08-30 09:49:22,true
+5493517000022,5493517000022,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 09:50:31,true
+5493517000022,5493517000022,ai,ai,Te confirmo que el pedido P-00044 fue registrado correctamente por 17182.20.,Te confirmo que el pedido P-00044 fue registrado correctamente por 17182.20.,2026-08-30 09:51:40,true
+5493517000022,5493517000022,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 09:52:47,true
+5493517000023,5493517000023,ai,ai,"Hola Almacén Don Carlos, paso a revisar tu pedido P-00046 de MAGISTRAL LIMON 300ML.","Hola Almacén Don Carlos, paso a revisar tu pedido P-00046 de MAGISTRAL LIMON 300ML.",2026-08-31 08:49:22,true
+5493517000023,5493517000023,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 08:50:52,true
+5493517000023,5493517000023,ai,ai,Te confirmo que el pedido P-00046 fue registrado correctamente por 12988.65.,Te confirmo que el pedido P-00046 fue registrado correctamente por 12988.65.,2026-08-31 08:52:22,true
+5493517000023,5493517000023,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 08:53:40,true
+5493517000024,5493517000024,ai,ai,"Hola Despensa San Martín, paso a revisar tu pedido P-00048 de PLB CN X1LTR Brillo Corazón.","Hola Despensa San Martín, paso a revisar tu pedido P-00048 de PLB CN X1LTR Brillo Corazón.",2026-08-30 07:49:22,true
+5493517000024,5493517000024,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 07:50:30,true
+5493517000024,5493517000024,ai,ai,Te confirmo que el pedido P-00048 fue registrado correctamente por 75512.80.,Te confirmo que el pedido P-00048 fue registrado correctamente por 75512.80.,2026-08-30 07:51:26,true
+5493517000024,5493517000024,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 07:52:56,true
+5493517000025,5493517000025,ai,ai,"Hola Autoservicio El Progreso, paso a revisar tu pedido P-00049 de ZORRO JAB. EN PAN X2 Clásico 150gs.","Hola Autoservicio El Progreso, paso a revisar tu pedido P-00049 de ZORRO JAB. EN PAN X2 Clásico 150gs.",2026-08-31 06:49:22,true
+5493517000025,5493517000025,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 06:50:21,true
+5493517000025,5493517000025,ai,ai,Te confirmo que el pedido P-00049 fue registrado correctamente por 39844.39.,Te confirmo que el pedido P-00049 fue registrado correctamente por 39844.39.,2026-08-31 06:51:41,true
+5493517000025,5493517000025,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 06:52:55,true
+5493517000026,5493517000026,ai,ai,"Hola Maxikiosco Villa Cabrera, paso a revisar tu pedido P-00051 de TERMA SERRANO PET 1.35L.","Hola Maxikiosco Villa Cabrera, paso a revisar tu pedido P-00051 de TERMA SERRANO PET 1.35L.",2026-08-30 10:49:22,true
+5493517000026,5493517000026,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 10:50:40,true
+5493517000026,5493517000026,ai,ai,Te confirmo que el pedido P-00051 fue registrado correctamente por 6669.56.,Te confirmo que el pedido P-00051 fue registrado correctamente por 6669.56.,2026-08-30 10:51:10,true
+5493517000026,5493517000026,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 10:51:56,true
+5493517000027,5493517000027,ai,ai,"Hola Maxikiosco Sobremonte, paso a revisar tu pedido P-00053 de ZORRO ULTRA DETERG. BOT300ml Limon Original Glicer.","Hola Maxikiosco Sobremonte, paso a revisar tu pedido P-00053 de ZORRO ULTRA DETERG. BOT300ml Limon Original Glicer.",2026-08-31 09:49:22,true
+5493517000027,5493517000027,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 09:50:24,true
+5493517000027,5493517000027,ai,ai,Te confirmo que el pedido P-00053 fue registrado correctamente por 5632.45.,Te confirmo que el pedido P-00053 fue registrado correctamente por 5632.45.,2026-08-31 09:51:27,true
+5493517000027,5493517000027,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 09:52:51,true
+5493517000028,5493517000028,ai,ai,"Hola Despensa Marqués, paso a revisar tu pedido P-00056 de PAMPERS BABYDRY GDE X8.","Hola Despensa Marqués, paso a revisar tu pedido P-00056 de PAMPERS BABYDRY GDE X8.",2026-08-30 08:49:22,true
+5493517000028,5493517000028,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 08:50:16,true
+5493517000028,5493517000028,ai,ai,Te confirmo que el pedido P-00056 fue registrado correctamente por 53177.41.,Te confirmo que el pedido P-00056 fue registrado correctamente por 53177.41.,2026-08-30 08:50:47,true
+5493517000028,5493517000028,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 08:51:28,true
+5493517000029,5493517000029,ai,ai,"Hola Kiosco El Recreo, paso a revisar tu pedido P-00058 de YM TARAGUI C/P 1/2 kg.","Hola Kiosco El Recreo, paso a revisar tu pedido P-00058 de YM TARAGUI C/P 1/2 kg.",2026-08-31 07:49:22,true
+5493517000029,5493517000029,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 07:50:58,true
+5493517000029,5493517000029,ai,ai,Te confirmo que el pedido P-00058 fue registrado correctamente por 34857.16.,Te confirmo que el pedido P-00058 fue registrado correctamente por 34857.16.,2026-08-31 07:51:31,true
+5493517000029,5493517000029,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 07:52:28,true
+5493517000030,5493517000030,ai,ai,"Hola Almacén El Gaucho, paso a revisar tu pedido P-00060 de LAVANDINA 1L MULTISUP LAVANDA AYUDIN.","Hola Almacén El Gaucho, paso a revisar tu pedido P-00060 de LAVANDINA 1L MULTISUP LAVANDA AYUDIN.",2026-08-30 06:49:22,true
+5493517000030,5493517000030,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 06:50:09,true
+5493517000030,5493517000030,ai,ai,Te confirmo que el pedido P-00060 fue registrado correctamente por 1658.00.,Te confirmo que el pedido P-00060 fue registrado correctamente por 1658.00.,2026-08-30 06:51:39,true
+5493517000030,5493517000030,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 06:52:54,true
+5493517000031,5493517000031,ai,ai,"Hola Maxikiosco General Paz, paso a revisar tu pedido P-00062 de PANTENE 300ml SH KERATINA.","Hola Maxikiosco General Paz, paso a revisar tu pedido P-00062 de PANTENE 300ml SH KERATINA.",2026-08-31 10:49:22,true
+5493517000031,5493517000031,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 10:50:28,true
+5493517000031,5493517000031,ai,ai,Te confirmo que el pedido P-00062 fue registrado correctamente por 25126.65.,Te confirmo que el pedido P-00062 fue registrado correctamente por 25126.65.,2026-08-31 10:51:37,true
+5493517000031,5493517000031,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 10:52:36,true
+5493517000032,5493517000032,ai,ai,"Hola Despensa La Unión, paso a revisar tu pedido P-00064 de PASTA ORAL-B 70g 123.","Hola Despensa La Unión, paso a revisar tu pedido P-00064 de PASTA ORAL-B 70g 123.",2026-08-30 09:49:22,true
+5493517000032,5493517000032,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 09:50:32,true
+5493517000032,5493517000032,ai,ai,Te confirmo que el pedido P-00064 fue registrado correctamente por 46531.08.,Te confirmo que el pedido P-00064 fue registrado correctamente por 46531.08.,2026-08-30 09:51:13,true
+5493517000032,5493517000032,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 09:52:09,true
+5493517000033,5493517000033,ai,ai,"Hola Kiosco 9 de Julio, paso a revisar tu pedido P-00066 de PRESTO 3 BLISTER X 2 UNID.","Hola Kiosco 9 de Julio, paso a revisar tu pedido P-00066 de PRESTO 3 BLISTER X 2 UNID.",2026-08-31 08:49:22,true
+5493517000033,5493517000033,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 08:50:36,true
+5493517000033,5493517000033,ai,ai,Te confirmo que el pedido P-00066 fue registrado correctamente por 13872.08.,Te confirmo que el pedido P-00066 fue registrado correctamente por 13872.08.,2026-08-31 08:51:43,true
+5493517000033,5493517000033,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 08:52:40,true
+5493517000034,5493517000034,ai,ai,"Hola Almacén Barrio Norte, paso a revisar tu pedido P-00068 de POETT 900ml ALEGRA TU DIA MULTIESP Desinf..","Hola Almacén Barrio Norte, paso a revisar tu pedido P-00068 de POETT 900ml ALEGRA TU DIA MULTIESP Desinf..",2026-08-30 07:49:22,true
+5493517000034,5493517000034,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 07:50:47,true
+5493517000034,5493517000034,ai,ai,Te confirmo que el pedido P-00068 fue registrado correctamente por 10585.76.,Te confirmo que el pedido P-00068 fue registrado correctamente por 10585.76.,2026-08-30 07:51:29,true
+5493517000034,5493517000034,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 07:52:47,true
+5493517000035,5493517000035,ai,ai,"Hola Autoservicio Jardín, paso a revisar tu pedido P-00070 de MAGISTRAL LIMON 500ML.","Hola Autoservicio Jardín, paso a revisar tu pedido P-00070 de MAGISTRAL LIMON 500ML.",2026-08-31 06:49:22,true
+5493517000035,5493517000035,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 06:50:37,true
+5493517000035,5493517000035,ai,ai,Te confirmo que el pedido P-00070 fue registrado correctamente por 52354.24.,Te confirmo que el pedido P-00070 fue registrado correctamente por 52354.24.,2026-08-31 06:51:43,true
+5493517000035,5493517000035,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 06:52:35,true
+5493517000036,5493517000036,ai,ai,"Hola Maxikiosco Güemes, paso a revisar tu pedido P-00072 de PASTA ORAL-B 150gr 123.","Hola Maxikiosco Güemes, paso a revisar tu pedido P-00072 de PASTA ORAL-B 150gr 123.",2026-08-30 10:49:22,true
+5493517000036,5493517000036,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 10:50:09,true
+5493517000036,5493517000036,ai,ai,Te confirmo que el pedido P-00072 fue registrado correctamente por 134962.75.,Te confirmo que el pedido P-00072 fue registrado correctamente por 134962.75.,2026-08-30 10:50:56,true
+5493517000036,5493517000036,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 10:52:25,true
+5493517000037,5493517000037,ai,ai,"Hola Almacén Barrio Sur, paso a revisar tu pedido P-00074 de PAMPERS BABYDRY MED x8.","Hola Almacén Barrio Sur, paso a revisar tu pedido P-00074 de PAMPERS BABYDRY MED x8.",2026-08-31 09:49:22,true
+5493517000037,5493517000037,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 09:51:07,true
+5493517000037,5493517000037,ai,ai,Te confirmo que el pedido P-00074 fue registrado correctamente por 39208.93.,Te confirmo que el pedido P-00074 fue registrado correctamente por 39208.93.,2026-08-31 09:51:53,true
+5493517000037,5493517000037,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 09:52:52,true
+5493517000038,5493517000038,ai,ai,"Hola Kiosco El Paso, paso a revisar tu pedido P-00075 de HS 180ml SH ANTICOMEZON.","Hola Kiosco El Paso, paso a revisar tu pedido P-00075 de HS 180ml SH ANTICOMEZON.",2026-08-30 08:49:22,true
+5493517000038,5493517000038,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 08:50:35,true
+5493517000038,5493517000038,ai,ai,Te confirmo que el pedido P-00075 fue registrado correctamente por 26891.21.,Te confirmo que el pedido P-00075 fue registrado correctamente por 26891.21.,2026-08-30 08:51:31,true
+5493517000038,5493517000038,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 08:52:56,true
+5493517000039,5493517000039,ai,ai,"Hola Despensa El Sauce, paso a revisar tu pedido P-00077 de TERMA SERRANO PET 1.35L.","Hola Despensa El Sauce, paso a revisar tu pedido P-00077 de TERMA SERRANO PET 1.35L.",2026-08-31 07:49:22,true
+5493517000039,5493517000039,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 07:50:30,true
+5493517000039,5493517000039,ai,ai,Te confirmo que el pedido P-00077 fue registrado correctamente por 3149.52.,Te confirmo que el pedido P-00077 fue registrado correctamente por 3149.52.,2026-08-31 07:51:05,true
+5493517000039,5493517000039,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 07:51:47,true
+5493517000040,5493517000040,ai,ai,"Hola Maxikiosco Güemes 2, paso a revisar tu pedido P-00079 de ZORRO JB LIQ DP Evol Quitamanchas 800ml.","Hola Maxikiosco Güemes 2, paso a revisar tu pedido P-00079 de ZORRO JB LIQ DP Evol Quitamanchas 800ml.",2026-08-30 06:49:22,true
+5493517000040,5493517000040,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 06:51:01,true
+5493517000040,5493517000040,ai,ai,Te confirmo que el pedido P-00079 fue registrado correctamente por 53921.78.,Te confirmo que el pedido P-00079 fue registrado correctamente por 53921.78.,2026-08-30 06:52:03,true
+5493517000040,5493517000040,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 06:52:39,true
+5493517000041,5493517000041,ai,ai,"Hola Almacén La Tradición, paso a revisar tu pedido P-00082 de CHOCMAN BAÑO SEMIAMARGO 35 GR.","Hola Almacén La Tradición, paso a revisar tu pedido P-00082 de CHOCMAN BAÑO SEMIAMARGO 35 GR.",2026-09-01 10:49:22,true
+5493517000041,5493517000041,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-09-01 10:50:08,true
+5493517000041,5493517000041,ai,ai,Te confirmo que el pedido P-00082 fue registrado correctamente por 15234.42.,Te confirmo que el pedido P-00082 fue registrado correctamente por 15234.42.,2026-09-01 10:50:41,true
+5493517000041,5493517000041,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-09-01 10:51:32,true
+5493517000041,5493517000041,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-09-01 10:52:59,true
+5493517000042,5493517000042,ai,ai,"Hola Kiosco Los Siete Hermanos, paso a revisar tu pedido P-00084 de PAMPERS BABYDRY PEQ X8.","Hola Kiosco Los Siete Hermanos, paso a revisar tu pedido P-00084 de PAMPERS BABYDRY PEQ X8.",2026-09-01 09:49:22,true
+5493517000042,5493517000042,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-09-01 09:51:04,true
+5493517000042,5493517000042,ai,ai,Te confirmo que el pedido P-00084 fue registrado correctamente por 3703.67.,Te confirmo que el pedido P-00084 fue registrado correctamente por 3703.67.,2026-09-01 09:52:24,true
+5493517000042,5493517000042,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-09-01 09:53:23,true
+5493517000042,5493517000042,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-09-01 09:53:59,true
+5493517000043,5493517000043,ai,ai,"Hola Kiosco Ruta 9, paso a revisar tu pedido P-00086 de Downy Bot Brisa Suave 350ml.","Hola Kiosco Ruta 9, paso a revisar tu pedido P-00086 de Downy Bot Brisa Suave 350ml.",2026-09-01 08:49:22,true
+5493517000043,5493517000043,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-09-01 08:50:58,true
+5493517000043,5493517000043,ai,ai,Te confirmo que el pedido P-00086 fue registrado correctamente por 11097.24.,Te confirmo que el pedido P-00086 fue registrado correctamente por 11097.24.,2026-09-01 08:52:02,true
+5493517000043,5493517000043,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-09-01 08:52:50,true
+5493517000043,5493517000043,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-09-01 08:53:40,true
+5493517000044,5493517000044,ai,ai,"Hola Autoservicio Ruta 9, paso a revisar tu pedido P-00088 de LAVANDINA 1L MULTISUP LAVANDA AYUDIN.","Hola Autoservicio Ruta 9, paso a revisar tu pedido P-00088 de LAVANDINA 1L MULTISUP LAVANDA AYUDIN.",2026-09-01 07:49:22,true
+5493517000044,5493517000044,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-09-01 07:50:36,true
+5493517000044,5493517000044,ai,ai,Te confirmo que el pedido P-00088 fue registrado correctamente por 43066.45.,Te confirmo que el pedido P-00088 fue registrado correctamente por 43066.45.,2026-09-01 07:51:35,true
+5493517000044,5493517000044,human,human,"Perfecto, gracias.","Perfecto, gracias.",2026-09-01 07:52:27,true
+5493517000044,5493517000044,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-09-01 07:53:04,true
+5493517000045,5493517000045,ai,ai,"Hola Almacén Jesús María, paso a revisar tu pedido P-00090 de FERNET 1882 473ml CON COLA.","Hola Almacén Jesús María, paso a revisar tu pedido P-00090 de FERNET 1882 473ml CON COLA.",2026-08-31 06:49:22,true
+5493517000045,5493517000045,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 06:50:08,true
+5493517000045,5493517000045,ai,ai,Te confirmo que el pedido P-00090 fue registrado correctamente por 86234.32.,Te confirmo que el pedido P-00090 fue registrado correctamente por 86234.32.,2026-08-31 06:50:59,true
+5493517000045,5493517000045,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 06:52:25,true
+5493517000046,5493517000046,ai,ai,"Hola Kiosco La Estación, paso a revisar tu pedido P-00092 de PILA AA X 2 DURACELL.","Hola Kiosco La Estación, paso a revisar tu pedido P-00092 de PILA AA X 2 DURACELL.",2026-08-30 10:49:22,true
+5493517000046,5493517000046,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 10:50:07,true
+5493517000046,5493517000046,ai,ai,Te confirmo que el pedido P-00092 fue registrado correctamente por 148797.07.,Te confirmo que el pedido P-00092 fue registrado correctamente por 148797.07.,2026-08-30 10:50:41,true
+5493517000046,5493517000046,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 10:51:35,true
+5493517000047,5493517000047,ai,ai,"Hola Despensa Don Roberto, paso a revisar tu pedido P-00094 de DR LEMON 1L VODKA 5º - Sin Tacc.","Hola Despensa Don Roberto, paso a revisar tu pedido P-00094 de DR LEMON 1L VODKA 5º - Sin Tacc.",2026-08-31 09:49:22,true
+5493517000047,5493517000047,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 09:51:14,true
+5493517000047,5493517000047,ai,ai,Te confirmo que el pedido P-00094 fue registrado correctamente por 18544.68.,Te confirmo que el pedido P-00094 fue registrado correctamente por 18544.68.,2026-08-31 09:52:20,true
+5493517000047,5493517000047,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 09:53:11,true
+5493517000048,5493517000048,ai,ai,"Hola Maxikiosco Alta Córdoba, paso a revisar tu pedido P-00096 de ACE BOTELLA X 800ML.","Hola Maxikiosco Alta Córdoba, paso a revisar tu pedido P-00096 de ACE BOTELLA X 800ML.",2026-08-30 08:49:22,true
+5493517000048,5493517000048,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 08:51:17,true
+5493517000048,5493517000048,ai,ai,Te confirmo que el pedido P-00096 fue registrado correctamente por 81305.00.,Te confirmo que el pedido P-00096 fue registrado correctamente por 81305.00.,2026-08-30 08:52:08,true
+5493517000048,5493517000048,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 08:52:50,true
+5493517000049,5493517000049,ai,ai,"Hola Almacén El Nativo, paso a revisar tu pedido P-00098 de FERNET 1882 750ml.","Hola Almacén El Nativo, paso a revisar tu pedido P-00098 de FERNET 1882 750ml.",2026-08-31 07:49:22,true
+5493517000049,5493517000049,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-31 07:50:17,true
+5493517000049,5493517000049,ai,ai,Te confirmo que el pedido P-00098 fue registrado correctamente por 26582.58.,Te confirmo que el pedido P-00098 fue registrado correctamente por 26582.58.,2026-08-31 07:51:28,true
+5493517000049,5493517000049,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-31 07:52:13,true
+5493517000050,5493517000050,ai,ai,"Hola Kiosco El Cruce, paso a revisar tu pedido P-00100 de Zorro BAÑO GAT LIMP. PROF. 500ml.","Hola Kiosco El Cruce, paso a revisar tu pedido P-00100 de Zorro BAÑO GAT LIMP. PROF. 500ml.",2026-08-30 06:49:22,true
+5493517000050,5493517000050,human,human,"Buen dia, eso fue lo que pedimos el otro dia?","Buen dia, eso fue lo que pedimos el otro dia?",2026-08-30 06:51:22,true
+5493517000050,5493517000050,ai,ai,Te confirmo que el pedido P-00100 fue registrado correctamente por 29544.61.,Te confirmo que el pedido P-00100 fue registrado correctamente por 29544.61.,2026-08-30 06:52:49,true
+5493517000050,5493517000050,ai,ai,Quedo atento por cualquier otra duda. Gracias.,Quedo atento por cualquier otra duda. Gracias.,2026-08-30 06:53:51,true

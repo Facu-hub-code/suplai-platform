@@ -1,0 +1,51 @@
+numero,razon_social,nombre_contacto,phone_number,lista_precios_id,codigo,dia_de_visita,dia_de_entrega,direccion,vendedor_nombre,vendedor_idx,zona_idx,lat,lng,is_mock
+1,Kiosco 24 Horas Nueva Córdoba,Kiosco 24 Horas Nueva Córdoba,5493517000001,2,1,lunes,martes,"Zona ZONA CENTRO - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,0,-31.407287,-64.212999,true
+2,Maxikiosco Plaza España,Maxikiosco Plaza España,5493517000002,3,2,lunes,martes,"Zona ZONA CENTRO - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,0,-31.407326,-64.207102,true
+3,Autoservicio Chacabuco,Autoservicio Chacabuco,5493517000003,4,3,lunes,martes,"Zona ZONA CENTRO - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,0,-31.407133,-64.213214,true
+4,Almacén Doña Rosa,Almacén Doña Rosa,5493517000004,1,4,lunes,martes,"Zona ZONA CENTRO - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,0,-31.409891,-64.209587,true
+5,Kiosco El Palacio,Kiosco El Palacio,5493517000005,2,5,lunes,martes,"Zona ZONA CENTRO - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,0,-31.410127,-64.2102,true
+6,Despensa Bv. Chacabuco,Despensa Bv. Chacabuco,5493517000006,3,6,lunes,martes,"Zona ZONA CENTRO - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,0,-31.410889,-64.204039,true
+7,Maxikiosco Nueva Córdoba,Maxikiosco Nueva Córdoba,5493517000007,4,7,lunes,martes,"Zona ZONA CENTRO - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,0,-31.410269,-64.204778,true
+8,Kiosco Los Andes,Kiosco Los Andes,5493517000008,1,8,lunes,martes,"Zona ZONA CENTRO - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,0,-31.411634,-64.211514,true
+9,Autoservicio Plaza España,Autoservicio Plaza España,5493517000009,2,9,lunes,martes,"Zona ZONA CENTRO - Nueva Córdoba - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,0,-31.406541,-64.205795,true
+10,Despensa Alberdi,Despensa Alberdi,5493517000010,3,10,martes,miercoles,"Zona ZONA CENTRO - Alberdi / Colón - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,1,-31.411056,-64.19133,true
+11,Maxikiosco Colón,Maxikiosco Colón,5493517000011,4,11,martes,miercoles,"Zona ZONA CENTRO - Alberdi / Colón - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,1,-31.405318,-64.186719,true
+12,Almacén Don Pedro,Almacén Don Pedro,5493517000012,1,12,martes,miercoles,"Zona ZONA CENTRO - Alberdi / Colón - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,1,-31.411518,-64.183807,true
+13,Kiosco Heladera Llena,Kiosco Heladera Llena,5493517000013,2,13,martes,miercoles,"Zona ZONA CENTRO - Alberdi / Colón - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,1,-31.407795,-64.192481,true
+14,Autoservicio Colón,Autoservicio Colón,5493517000014,3,14,martes,miercoles,"Zona ZONA CENTRO - Alberdi / Colón - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,1,-31.411087,-64.189055,true
+15,Despensa El Familiar,Despensa El Familiar,5493517000015,4,15,martes,miercoles,"Zona ZONA CENTRO - Alberdi / Colón - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,1,-31.412561,-64.184352,true
+16,Maxikiosco Alto Alberdi,Maxikiosco Alto Alberdi,5493517000016,1,16,martes,miercoles,"Zona ZONA CENTRO - Alberdi / Colón - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,1,-31.407459,-64.192923,true
+17,Kiosco La Estación Colón,Kiosco La Estación Colón,5493517000017,2,17,martes,miercoles,"Zona ZONA CENTRO - Alberdi / Colón - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,1,-31.41053,-64.190472,true
+18,Almacén Doña Marta,Almacén Doña Marta,5493517000018,3,18,martes,miercoles,"Zona ZONA CENTRO - Alberdi / Colón - Córdoba capital, Córdoba, Argentina",Juan Carlos Rodríguez,0,1,-31.408478,-64.185981,true
+19,Despensa El Cerro,Despensa El Cerro,5493517000019,4,19,miercoles,jueves,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,2,-31.405849,-64.172868,true
+20,Almacén Villa Belgrano,Almacén Villa Belgrano,5493517000020,1,20,miercoles,jueves,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,2,-31.405558,-64.167626,true
+21,Maxikiosco Cerro,Maxikiosco Cerro,5493517000021,2,21,miercoles,jueves,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,2,-31.413162,-64.170123,true
+22,Kiosco La Esquina,Kiosco La Esquina,5493517000022,3,22,miercoles,jueves,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,2,-31.411992,-64.169092,true
+23,Almacén Don Carlos,Almacén Don Carlos,5493517000023,4,23,miercoles,jueves,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,2,-31.406961,-64.171758,true
+24,Despensa San Martín,Despensa San Martín,5493517000024,1,24,miercoles,jueves,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,2,-31.411296,-64.169901,true
+25,Autoservicio El Progreso,Autoservicio El Progreso,5493517000025,2,25,miercoles,jueves,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,2,-31.408572,-64.166186,true
+26,Maxikiosco Villa Cabrera,Maxikiosco Villa Cabrera,5493517000026,3,26,miercoles,jueves,"Zona ZONA NORTE - Cerro de las Rosas - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,2,-31.411758,-64.168937,true
+27,Maxikiosco Sobremonte,Maxikiosco Sobremonte,5493517000027,4,27,jueves,viernes,"Zona ZONA NORTE - Marqués de Sobremonte - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,3,-31.431882,-64.206721,true
+28,Despensa Marqués,Despensa Marqués,5493517000028,1,28,jueves,viernes,"Zona ZONA NORTE - Marqués de Sobremonte - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,3,-31.431493,-64.209877,true
+29,Kiosco El Recreo,Kiosco El Recreo,5493517000029,2,29,jueves,viernes,"Zona ZONA NORTE - Marqués de Sobremonte - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,3,-31.426733,-64.208818,true
+30,Almacén El Gaucho,Almacén El Gaucho,5493517000030,3,30,jueves,viernes,"Zona ZONA NORTE - Marqués de Sobremonte - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,3,-31.426716,-64.212555,true
+31,Maxikiosco General Paz,Maxikiosco General Paz,5493517000031,4,31,jueves,viernes,"Zona ZONA NORTE - Marqués de Sobremonte - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,3,-31.43144,-64.205056,true
+32,Despensa La Unión,Despensa La Unión,5493517000032,1,32,jueves,viernes,"Zona ZONA NORTE - Marqués de Sobremonte - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,3,-31.431131,-64.205308,true
+33,Kiosco 9 de Julio,Kiosco 9 de Julio,5493517000033,2,33,jueves,viernes,"Zona ZONA NORTE - Marqués de Sobremonte - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,3,-31.433393,-64.209844,true
+34,Almacén Barrio Norte,Almacén Barrio Norte,5493517000034,3,34,jueves,viernes,"Zona ZONA NORTE - Marqués de Sobremonte - Córdoba capital, Córdoba, Argentina",María Paz Lucero,1,3,-31.427246,-64.208998,true
+35,Autoservicio Jardín,Autoservicio Jardín,5493517000035,4,35,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.429886,-64.191309,true
+36,Maxikiosco Güemes,Maxikiosco Güemes,5493517000036,1,36,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.433445,-64.18826,true
+37,Almacén Barrio Sur,Almacén Barrio Sur,5493517000037,2,37,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.427784,-64.18938,true
+38,Kiosco El Paso,Kiosco El Paso,5493517000038,3,38,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.428922,-64.193574,true
+39,Despensa El Sauce,Despensa El Sauce,5493517000039,4,39,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.431922,-64.19242,true
+40,Maxikiosco Güemes 2,Maxikiosco Güemes 2,5493517000040,1,40,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.427299,-64.192246,true
+41,Almacén La Tradición,Almacén La Tradición,5493517000041,2,41,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.430875,-64.191398,true
+42,Kiosco Los Siete Hermanos,Kiosco Los Siete Hermanos,5493517000042,3,42,viernes,sabado,"Zona ZONA SUR - Barrio Jardín - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,4,-31.42579,-64.188485,true
+43,Kiosco Ruta 9,Kiosco Ruta 9,5493517000043,4,43,sabado,lunes,"Zona ZONA SUR - Jesús María ruta - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.431537,-64.172034,true
+44,Autoservicio Ruta 9,Autoservicio Ruta 9,5493517000044,1,44,sabado,lunes,"Zona ZONA SUR - Jesús María ruta - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.431997,-64.165685,true
+45,Almacén Jesús María,Almacén Jesús María,5493517000045,2,45,sabado,lunes,"Zona ZONA SUR - Jesús María ruta - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.428709,-64.169543,true
+46,Kiosco La Estación,Kiosco La Estación,5493517000046,3,46,sabado,lunes,"Zona ZONA SUR - Jesús María ruta - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.433408,-64.167851,true
+47,Despensa Don Roberto,Despensa Don Roberto,5493517000047,4,47,sabado,lunes,"Zona ZONA SUR - Jesús María ruta - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.43046,-64.172507,true
+48,Maxikiosco Alta Córdoba,Maxikiosco Alta Córdoba,5493517000048,1,48,sabado,lunes,"Zona ZONA SUR - Jesús María ruta - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.425872,-64.169656,true
+49,Almacén El Nativo,Almacén El Nativo,5493517000049,2,49,sabado,lunes,"Zona ZONA SUR - Jesús María ruta - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.433902,-64.173017,true
+50,Kiosco El Cruce,Kiosco El Cruce,5493517000050,3,50,sabado,lunes,"Zona ZONA SUR - Jesús María ruta - Córdoba capital, Córdoba, Argentina",Diego Ferreyra,2,5,-31.433294,-64.168021,true

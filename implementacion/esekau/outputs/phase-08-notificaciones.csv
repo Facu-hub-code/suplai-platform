@@ -1,0 +1,19 @@
+ticket_ref,categoria,status,description,client_phone,mensaje_cruzado_incoming,created_at,closed_at,is_mock
+TKT-2615,Calidad,open,Reclamo por PILA AA X 4 DURACELL con entrega en mal estado o faltante parcial.,5493517000001,"Hola, me llego PILA AA X 4 DURACELL en mal estado y quiero hacer el reclamo.",2026-09-01 11:15:00,,true
+TKT-2616,Calidad,open,Reclamo por TERMA LIMON PET 1.35L con entrega en mal estado o faltante parcial.,5493517000002,"Hola, me llego TERMA LIMON PET 1.35L en mal estado y quiero hacer el reclamo.",2026-08-31 08:15:00,,true
+TKT-2617,Calidad,open,Reclamo por PANTENE 200ml SH LISO INFINITO con entrega en mal estado o faltante parcial.,5493517000004,"Hola, me llego PANTENE 200ml SH LISO INFINITO en mal estado y quiero hacer el reclamo.",2026-08-30 05:15:00,,true
+TKT-2618,Logistica,open,Demora en la entrega del pedido P-00082 de CHOCMAN BAÑO SEMIAMARGO 35 GR.,5493517000041,"Buen dia, sigo esperando el pedido P-00082 de CHOCMAN BAÑO SEMIAMARGO 35 GR y no llego.",2026-09-01 02:15:00,,true
+TKT-2619,Logistica,open,Demora en la entrega del pedido P-00084 de PAMPERS BABYDRY PEQ X8.,5493517000042,"Buen dia, sigo esperando el pedido P-00084 de PAMPERS BABYDRY PEQ X8 y no llego.",2026-08-31 11:15:00,,true
+TKT-2620,Logistica,open,Demora en la entrega del pedido P-00086 de Downy Bot Brisa Suave 350ml.,5493517000043,"Buen dia, sigo esperando el pedido P-00086 de Downy Bot Brisa Suave 350ml y no llego.",2026-08-30 08:15:00,,true
+TKT-2621,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Kiosco 24 Horas Nueva Córdoba.,5493517000001,,2026-09-01 05:15:00,,true
+TKT-2622,Administracion,open,Solicita corregir datos administrativos de Maxikiosco Plaza España en el sistema.,5493517000002,,2026-08-31 02:15:00,,true
+TKT-2623,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Almacén Doña Rosa.,5493517000004,,2026-08-30 11:15:00,,true
+TKT-2624,Administracion,open,Solicita corregir datos administrativos de Almacén La Tradición en el sistema.,5493517000041,,2026-09-01 08:15:00,,true
+TKT-2625,Comercial,open,Pide hablar con el encargado comercial por la cuenta de Kiosco Los Siete Hermanos.,5493517000042,,2026-08-31 05:15:00,,true
+TKT-2626,Administracion,closed,Solicita corregir datos administrativos de Kiosco Ruta 9 en el sistema.,5493517000043,,2026-08-16 05:15:00,2026-08-16 20:15:00,true
+TKT-2627,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Autoservicio Ruta 9.,5493517000044,,2026-08-15 11:15:00,2026-08-16 03:15:00,true
+TKT-2628,Logistica,closed,Demora en la entrega del pedido P-00104 de FERNET 1882 473ml CON COLA.,5493517000003,,2026-08-14 09:15:00,2026-08-15 02:15:00,true
+TKT-2629,Calidad,closed,Reclamo por DR LEMON 473ml LIMÓN 4º con entrega en mal estado o faltante parcial.,5493517000005,,2026-08-13 07:15:00,2026-08-14 01:15:00,true
+TKT-2630,Administracion,closed,Solicita corregir datos administrativos de Despensa Bv. Chacabuco en el sistema.,5493517000006,,2026-08-12 05:15:00,2026-08-13 00:15:00,true
+TKT-2631,Comercial,closed,Pide hablar con el encargado comercial por la cuenta de Almacén Jesús María.,5493517000045,,2026-08-27 11:15:00,2026-08-28 07:15:00,true
+TKT-2632,Logistica,closed,Demora en la entrega del pedido P-00092 de PILA AA X 2 DURACELL.,5493517000046,,2026-08-26 09:15:00,2026-08-27 06:15:00,true

@@ -1,0 +1,49 @@
+{
+  "modo": "demo",
+  "dominios": "mercadolibre.com.ar,jumbo.com.ar,carrefour.com.ar,cotodigital.com.ar,disco.com.ar",
+  "sufijo_fallback": "consumo masivo shampoo detergente amargo yerba argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS ESEKA-U (sucursal Córdoba — mayorista consumo masivo):\n1. TIPO OBLIGATORIO: shampoo, acondicionador, pasta dental, cepillo, pañal, toallitas, toalla femenina, suavizante, lavavajillas, jabón líquido, lavandina, desinfectante, amargo, fernet, ron, vodka, gaseosa, yerba, chocolate, pila, preservativo, máquina de afeitar o isotónica.\n2. MARCA: usá la del nombre (Pantene, Head & Shoulders, Oral-B, Pampers, Always, Downy, Prestobarba, Venus, Old Spice, Magistral, Zorro, Plusbelle, Ace, Ariel, Poett, Ayudín, Terma, Dr Lemon, Fernet 1882, Bacardi, Coca-Cola, Taragüi, Duracell, Prime). No inventes marcas.\n3. UMV: el precio es por UNIDAD. El PdV también pide CAJA/BULTO (caja xN del Excel). Alias: unidad, caja, bulto, código.\n4. FORMATO: incluí ml/L/g/talle si está en el nombre (200 ml, 1.35 L, 1/2 kg, talle P/M/G).\n5. PLB = Plusbelle. HS = Head & Shoulders. YM = yerba mate. PRESTO = Prestobarba. Coca/Sprite 1.5 CC = 1.5 L PET.\n6. NO ALUCINAR: no inventes ANMAT, % de activo, graduación ni beneficios si no están en el nombre.",
+  "fase_06": {
+    "historicos_por_cliente": 2,
+    "abiertos": 6,
+    "historicos_inicio": "2026-05-30",
+    "historicos_fin": "2026-08-29"
+  },
+  "fase_07": {
+    "clientes_live_feed": 10,
+    "clientes_quejas": 3
+  },
+  "red_comercial": {
+    "coordenadas_centro": [-31.4201, -64.1888],
+    "vendedores": [
+      {"nombre": "Juan Carlos Rodríguez", "telefono": "5493516128101", "email": "juan.rodriguez@suplaisales.mock", "zona": "CENTRO", "codigo_ruta": "R01"},
+      {"nombre": "María Paz Lucero", "telefono": "5493516128102", "email": "maria.lucero@suplaisales.mock", "zona": "NORTE", "codigo_ruta": "R02"},
+      {"nombre": "Diego Ferreyra", "telefono": "5493516128103", "email": "diego.ferreyra@suplaisales.mock", "zona": "SUR", "codigo_ruta": "R03"}
+    ],
+    "zonas": [
+      {"nombre": "ZONA CENTRO - Nueva Córdoba", "dia_visita": "lunes", "color": "#E74C3C", "codigo_ruta": "R01-A", "zone_type": "sales", "description": "Nueva Córdoba, bulevar Chacabuco y Plaza España.", "vendedor_idx": 0},
+      {"nombre": "ZONA CENTRO - Alberdi / Colón", "dia_visita": "martes", "color": "#3498DB", "codigo_ruta": "R01-B", "zone_type": "route", "description": "Alto Alberdi y avenida Colón.", "vendedor_idx": 0},
+      {"nombre": "ZONA NORTE - Cerro de las Rosas", "dia_visita": "miercoles", "color": "#2ECC71", "codigo_ruta": "R02-A", "zone_type": "sales", "description": "Cerro de las Rosas y Villa Belgrano.", "vendedor_idx": 1},
+      {"nombre": "ZONA NORTE - Marqués de Sobremonte", "dia_visita": "jueves", "color": "#F39C12", "codigo_ruta": "R02-B", "zone_type": "route", "description": "Marqués de Sobremonte y Av. Monseñor Pablo Cabrera.", "vendedor_idx": 1},
+      {"nombre": "ZONA SUR - Barrio Jardín", "dia_visita": "viernes", "color": "#9B59B6", "codigo_ruta": "R03-A", "zone_type": "sales", "description": "Barrio Jardín y Güemes.", "vendedor_idx": 2},
+      {"nombre": "ZONA SUR - Jesús María ruta", "dia_visita": "sabado", "color": "#1ABC9C", "codigo_ruta": "R03-B", "zone_type": "route", "description": "Ruta 9 norte hacia Jesús María, kioscos de ruta.", "vendedor_idx": 2}
+    ],
+    "nombres_comerciales": [
+      "Kiosco 24 Horas Nueva Córdoba", "Almacén Don Pedro", "Maxikiosco Colón", "Despensa El Cerro",
+      "Autoservicio Jardín", "Kiosco El Palacio", "Almacén Doña Rosa", "Maxikiosco Plaza España",
+      "Despensa Alberdi", "Kiosco Heladera Llena", "Almacén Villa Belgrano", "Maxikiosco Güemes",
+      "Despensa Marqués", "Kiosco Ruta 9", "Almacén Jesús María", "Autoservicio Chacabuco",
+      "Kiosco Los Andes", "Despensa El Familiar", "Maxikiosco Cerro", "Almacén Don Carlos",
+      "Kiosco La Esquina", "Despensa San Martín", "Autoservicio El Progreso", "Kiosco 9 de Julio",
+      "Almacén El Gaucho", "Maxikiosco Sobremonte", "Despensa La Unión", "Kiosco El Recreo",
+      "Almacén Barrio Sur", "Maxikiosco General Paz", "Despensa El Palito", "Kiosco Coca y Hielo",
+      "Almacén Doña Marta", "Autoservicio Nueva Córdoba 2", "Kiosco Los Siete Hermanos", "Despensa El Sauce",
+      "Maxikiosco Villa Cabrera", "Almacén La Tradición", "Kiosco El Paso", "Despensa San Vicente",
+      "Autoservicio Ruta 9", "Kiosco Central", "Almacén El Encuentro", "Maxikiosco Alta Córdoba",
+      "Despensa Don Roberto", "Kiosco La Estación", "Almacén El Nativo", "Maxikiosco Güemes 2",
+      "Despensa El Portal", "Kiosco 25 de Mayo", "Almacén La Cañada", "Maxikiosco Jardín Sur",
+      "Despensa El Nogal", "Kiosco El Cruce", "Almacén Don Mario"
+    ]
+  }
+}

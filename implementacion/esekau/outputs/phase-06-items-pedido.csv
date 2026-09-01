@@ -1,0 +1,263 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493517000001,25001,10053,FERNET 1882 750ml,1,8860.86,2,Pedido: 1 unidad (normalizado: 6 unidad; equiv: 1 unidad),true,false,false
+P-00001,5493517000001,25001,10043,DR LEMON 473ml VODKA 5º,1,2216.89,2,Pedido: 1 unidad (normalizado: 24 unidad; equiv: 1 unidad),true,false,false
+P-00002,5493517000001,25001,10105,TERMA CITRUS CERO PET 1.35L,1,2130.56,2,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00002,5493517000001,25001,1880,PASTA ORAL-B 150gr 123,2,5622.05,2,Pedido: 2 unidad (normalizado: 48 unidad; equiv: 2 unidad),true,false,false
+P-00002,5493517000001,25001,8105,CEP. ORAL-B 123 x1,4,1238.17,2,Pedido: 4 unidad (normalizado: 144 unidad; equiv: 4 unidad),true,false,false
+P-00003,5493517000002,25002,11282,SUEROX LIMONADA 630ML,5,1618.15,3,Pedido: 5 unidad (normalizado: 30 unidad; equiv: 5 unidad),true,false,false
+P-00003,5493517000002,25002,1191,PAMPERS BABYDRY MED x8,4,3456.76,3,Pedido: 4 unidad (normalizado: 64 unidad; equiv: 4 unidad),true,false,false
+P-00004,5493517000002,25002,18240,PLB SH X1LTR Brillo,1,3143.87,3,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00004,5493517000002,25002,17500,PANTENE CREM. PEIN. KERATINA X 300ML,1,7641.49,3,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00004,5493517000002,25002,18387,ZORRO SUAVIZ. X900ML DP Elegante,1,2444.08,3,Pedido: 1 unidad (normalizado: 14 unidad; equiv: 1 unidad),true,false,false
+P-00005,5493517000003,25003,18707,Okebon Leche 273g,1,1626.68,4,Pedido: 1 unidad (normalizado: 18 unidad; equiv: 1 unidad),true,false,false
+P-00005,5493517000003,25003,18400,ZORRO JAB. EN PAN X2 Clásico 150gs,5,1655.49,4,Pedido: 5 unidad (normalizado: 210 unidad; equiv: 5 unidad),true,false,false
+P-00006,5493517000003,25003,11300,PRINGLES ORIGINAL x 104GR,4,4102.13,4,Pedido: 4 unidad (normalizado: 72 unidad; equiv: 4 unidad),true,false,false
+P-00006,5493517000003,25003,1642,MAGISTRAL LIMON 500ML,1,3074.28,4,Pedido: 1 unidad (normalizado: 20 unidad; equiv: 1 unidad),true,false,false
+P-00006,5493517000003,25003,880,Downy Bot Brisa Suave 350ml,3,3699.08,4,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00007,5493517000004,25004,10017,MARTINI 1L ROSSO,3,6273.60,1,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00007,5493517000004,25004,18387,ZORRO SUAVIZ. X900ML DP Elegante,2,2715.64,1,Pedido: 2 unidad (normalizado: 28 unidad; equiv: 2 unidad),true,false,false
+P-00007,5493517000004,25004,220,PRESTO 3 BLISTER X8 UNI,2,20646.40,1,Pedido: 2 unidad (normalizado: 36 unidad; equiv: 2 unidad),true,false,false
+P-00007,5493517000004,25004,5603,FELFORT MENTITAS 30 X 16 GRS,4,17466.36,1,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00008,5493517000004,25004,15006,PANTENE 400ml SH LISO INFINITO,4,7401.32,1,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00009,5493517000005,25005,1095,DOWNY 500ml BRISA SUAVE,3,6597.19,2,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00010,5493517000005,25005,550,PRESTO ULTRA GRIP X UNIDAD (NUEVA),5,1288.84,2,Pedido: 5 unidad (normalizado: 2880 unidad; equiv: 5 unidad),true,false,false
+P-00010,5493517000005,25005,1003,FOAMY REGULAR X 312 GR,3,12084.22,2,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00010,5493517000005,25005,18367,Zorro BAÑO GAT LIMP. PROF. 500ml,2,3610.06,2,Pedido: 2 unidad (normalizado: 40 unidad; equiv: 2 unidad),true,false,false
+P-00010,5493517000005,25005,116,PANTENE 300ml SH KERATINA,4,7662.22,2,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00011,5493517000006,25006,550,PRESTO ULTRA GRIP X UNIDAD (NUEVA),2,1008.66,3,Pedido: 2 unidad (normalizado: 1152 unidad; equiv: 2 unidad),true,false,false
+P-00011,5493517000006,25006,1014,PILA AA X 2 DURACELL,1,2413.12,3,Pedido: 1 unidad (normalizado: 48 unidad; equiv: 1 unidad),true,false,false
+P-00011,5493517000006,25006,1880,PASTA ORAL-B 150gr 123,1,4399.87,3,Pedido: 1 unidad (normalizado: 24 unidad; equiv: 1 unidad),true,false,false
+P-00012,5493517000006,25006,10107,TERMA POMELO PET 1.35L,5,1667.39,3,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00012,5493517000006,25006,18353,ZORRO ULTRA DETERG. BOT300ml Limon Original Glicer,5,1192.75,3,Pedido: 5 unidad (normalizado: 80 unidad; equiv: 5 unidad),true,false,false
+P-00013,5493517000007,25007,18730,MAGISTRAL GATILLO X 500ml NARANJA ANTIGRASA,3,3579.95,4,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00013,5493517000007,25007,1016,PILA AAA X 2 DURACELL,5,2279.05,4,Pedido: 5 unidad (normalizado: 240 unidad; equiv: 5 unidad),true,false,false
+P-00013,5493517000007,25007,20035,LAVANDINA 1L MULTISUP GLACIAR AYUDIN,2,1565.89,4,Pedido: 2 unidad (normalizado: 30 unidad; equiv: 2 unidad),true,false,false
+P-00013,5493517000007,25007,11011,YM TARAGUI C/P 1/2 kg,3,2506.51,4,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00014,5493517000007,25007,2082,ARIEL Liquido DELICATES POUCH 800ML,5,2756.32,4,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00014,5493517000007,25007,20109,POETT 900ml ALEGRA TU DIA MULTIESP Desinf.,3,1734.11,4,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00014,5493517000007,25007,20104,POETT 900ml ESPIRITU MULTIESP Desinf.,3,1734.11,4,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00015,5493517000008,25008,11300,PRINGLES ORIGINAL x 104GR,2,4826.04,1,Pedido: 2 unidad (normalizado: 36 unidad; equiv: 2 unidad),true,false,false
+P-00015,5493517000008,25008,20104,POETT 900ml ESPIRITU MULTIESP Desinf.,5,2040.13,1,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00016,5493517000008,25008,1191,PAMPERS BABYDRY MED x8,2,3840.85,1,Pedido: 2 unidad (normalizado: 32 unidad; equiv: 2 unidad),true,false,false
+P-00016,5493517000008,25008,2248,VENUS MAQ. ORIGINAL x 1 UNID.,3,16128.42,1,Pedido: 3 unidad (normalizado: 108 unidad; equiv: 3 unidad),true,false,false
+P-00016,5493517000008,25008,1641,MAGISTRAL LIMON 300ML,4,2290.09,1,Pedido: 4 unidad (normalizado: 84 unidad; equiv: 4 unidad),true,false,false
+P-00017,5493517000009,25009,10109,TERMA SERRANO PET 1.35L,2,2130.56,2,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00017,5493517000009,25009,11282,SUEROX LIMONADA 630ML,4,2067.63,2,Pedido: 4 unidad (normalizado: 24 unidad; equiv: 4 unidad),true,false,false
+P-00018,5493517000009,25009,20032,LAVANDINA 1L MULTISUP LAVANDA AYUDIN,3,2118.55,2,Pedido: 3 unidad (normalizado: 45 unidad; equiv: 3 unidad),true,false,false
+P-00018,5493517000009,25009,116,PANTENE 300ml SH KERATINA,1,7662.22,2,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00019,5493517000010,25010,20410,TRENET POWER 120g DP POLVO,4,2054.98,3,Pedido: 4 unidad (normalizado: 96 unidad; equiv: 4 unidad),true,false,false
+P-00019,5493517000010,25010,10114,TERMA LIMON PET 1.35L,2,1667.39,3,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00020,5493517000010,25010,1430,PRESTO 3 BLISTER X 2 UNID,4,5428.21,3,Pedido: 4 unidad (normalizado: 288 unidad; equiv: 4 unidad),true,false,false
+P-00020,5493517000010,25010,1192,PAMPERS BABYDRY GDE X8,4,3456.76,3,Pedido: 4 unidad (normalizado: 64 unidad; equiv: 4 unidad),true,false,false
+P-00020,5493517000010,25010,116,PANTENE 300ml SH KERATINA,3,5996.52,3,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00020,5493517000010,25010,1643,MAGISTRAL LIMON 750ML,4,4882.74,3,Pedido: 4 unidad (normalizado: 72 unidad; equiv: 4 unidad),true,false,false
+P-00021,5493517000011,25011,20109,POETT 900ml ALEGRA TU DIA MULTIESP Desinf.,4,1734.11,4,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00021,5493517000011,25011,1088,ALWAYS Triple Protec Dia Seca 8 UNI.,4,4407.76,4,Pedido: 4 unidad (normalizado: 96 unidad; equiv: 4 unidad),true,false,false
+P-00021,5493517000011,25011,1079,PANTENE 200ml SH LISO INFINITO,2,3759.21,4,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00022,5493517000011,25011,18400,ZORRO JAB. EN PAN X2 Clásico 150gs,2,1655.49,4,Pedido: 2 unidad (normalizado: 84 unidad; equiv: 2 unidad),true,false,false
+P-00022,5493517000011,25011,1194,PAMPERS BABYDRY PEQ X8,2,3497.91,4,Pedido: 2 unidad (normalizado: 32 unidad; equiv: 2 unidad),true,false,false
+P-00023,5493517000012,25012,10112,TERMA CUYANO PET 1.35L,5,1852.66,1,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00024,5493517000012,25012,10109,TERMA SERRANO PET 1.35L,1,1852.66,1,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00024,5493517000012,25012,10065,BACARDI CARTA BLANCA 980ml PT 40°,2,21488.57,1,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00025,5493517000013,25013,10017,MARTINI 1L ROSSO,1,7214.64,2,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00025,5493517000013,25013,8006,PASTA ORAL-B 70g 123,4,2069.40,2,Pedido: 4 unidad (normalizado: 192 unidad; equiv: 4 unidad),true,false,false
+P-00026,5493517000013,25013,551,HS 375ml SH ANTICOMEZON,3,10977.52,2,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00026,5493517000013,25013,1014,PILA AA X 2 DURACELL,2,3083.43,2,Pedido: 2 unidad (normalizado: 96 unidad; equiv: 2 unidad),true,false,false
+P-00026,5493517000013,25013,18359,ZORRO ULTRA DETERG.BOT 500ml Limon Original Glicer,4,2383.06,2,Pedido: 4 unidad (normalizado: 80 unidad; equiv: 4 unidad),true,false,false
+P-00027,5493517000014,25014,5603,FELFORT MENTITAS 30 X 16 GRS,1,15719.72,3,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00027,5493517000014,25014,10112,TERMA CUYANO PET 1.35L,5,1667.39,3,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00027,5493517000014,25014,1003,FOAMY REGULAR X 312 GR,5,9457.22,3,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00027,5493517000014,25014,20410,TRENET POWER 120g DP POLVO,3,2054.98,3,Pedido: 3 unidad (normalizado: 72 unidad; equiv: 3 unidad),true,false,false
+P-00028,5493517000014,25014,1088,ALWAYS Triple Protec Dia Seca 8 UNI.,1,4667.04,3,Pedido: 1 unidad (normalizado: 24 unidad; equiv: 1 unidad),true,false,false
+P-00028,5493517000014,25014,10043,DR LEMON 473ml VODKA 5º,2,1734.96,3,Pedido: 2 unidad (normalizado: 48 unidad; equiv: 2 unidad),true,false,false
+P-00028,5493517000014,25014,18415,ACE POUCH X3000 ML,4,8374.50,3,Pedido: 4 unidad (normalizado: 16 unidad; equiv: 4 unidad),true,false,false
+P-00029,5493517000015,25015,11617,OLD SPICE DES. BARRA FRESH 50g,3,7235.76,4,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00029,5493517000015,25015,11071,YM MAÑANITA BCP 1/2 kg,4,2506.51,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00029,5493517000015,25015,20305,REPELENTE SELTON DIARIO 165ml,5,4772.84,4,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00030,5493517000015,25015,20104,POETT 900ml ESPIRITU MULTIESP Desinf.,1,1734.11,4,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00031,5493517000016,25016,1015,PILA AA X 4 DURACELL,1,4785.11,1,Pedido: 1 unidad (normalizado: 48 unidad; equiv: 1 unidad),true,false,false
+P-00031,5493517000016,25016,11797,ALWAYS XTRA NOCHES TRAN. SECAS X8,1,4168.69,1,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00031,5493517000016,25016,18400,ZORRO JAB. EN PAN X2 Clásico 150gs,4,1947.64,1,Pedido: 4 unidad (normalizado: 168 unidad; equiv: 4 unidad),true,false,false
+P-00032,5493517000016,25016,1642,MAGISTRAL LIMON 500ML,3,3616.80,1,Pedido: 3 unidad (normalizado: 60 unidad; equiv: 3 unidad),true,false,false
+P-00032,5493517000016,25016,2413,ALWAYS PROT. DIARIOS PERF X 40 NUEVO,2,4564.15,1,Pedido: 2 unidad (normalizado: 48 unidad; equiv: 2 unidad),true,false,false
+P-00033,5493517000017,25017,8106,CEP. ORAL-B 123 x2,4,3636.62,2,Pedido: 4 unidad (normalizado: 144 unidad; equiv: 4 unidad),true,false,false
+P-00033,5493517000017,25017,6320,PAMPERS TOALLITAS Limpeza Delicada x48 (.),5,6833.25,2,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00034,5493517000017,25017,4003,PRIME TEXTURADO,5,3761.20,2,Pedido: 5 unidad (normalizado: 120 unidad; equiv: 5 unidad),true,false,false
+P-00034,5493517000017,25017,551,HS 375ml SH ANTICOMEZON,1,10977.52,2,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00034,5493517000017,25017,18353,ZORRO ULTRA DETERG. BOT300ml Limon Original Glicer,3,1524.07,2,Pedido: 3 unidad (normalizado: 48 unidad; equiv: 3 unidad),true,false,false
+P-00035,5493517000018,25018,1015,PILA AA X 4 DURACELL,4,4306.60,3,Pedido: 4 unidad (normalizado: 192 unidad; equiv: 4 unidad),true,false,false
+P-00036,5493517000018,25018,10065,BACARDI CARTA BLANCA 980ml PT 40°,4,19339.71,3,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00036,5493517000018,25018,18415,ACE POUCH X3000 ML,5,8374.50,3,Pedido: 5 unidad (normalizado: 20 unidad; equiv: 5 unidad),true,false,false
+P-00037,5493517000019,25019,20102,POETT 900ml BEBE MULTIESP Desinf.,3,1734.11,4,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00037,5493517000019,25019,1003,FOAMY REGULAR X 312 GR,3,8931.82,4,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00037,5493517000019,25019,8106,CEP. ORAL-B 123 x2,3,2687.94,4,Pedido: 3 unidad (normalizado: 108 unidad; equiv: 3 unidad),true,false,false
+P-00038,5493517000019,25019,10114,TERMA LIMON PET 1.35L,1,1574.76,4,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00039,5493517000020,25020,18729,MAGISTRAL GATILLO X 500ml LIMON ANTIGRASA,2,4211.71,1,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00039,5493517000020,25020,10054,FERNET 1882 450ml,5,6249.16,1,Pedido: 5 unidad (normalizado: 30 unidad; equiv: 5 unidad),true,false,false
+P-00040,5493517000020,25020,10003,AMERICANO GANCIA 450ml 14°,2,4178.44,1,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00041,5493517000021,25021,20032,LAVANDINA 1L MULTISUP LAVANDA AYUDIN,4,2118.55,2,Pedido: 4 unidad (normalizado: 60 unidad; equiv: 4 unidad),true,false,false
+P-00042,5493517000021,25021,18729,MAGISTRAL GATILLO X 500ml LIMON ANTIGRASA,4,4843.47,2,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00043,5493517000022,25022,10003,AMERICANO GANCIA 450ml 14°,3,3760.60,3,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00043,5493517000022,25022,20102,POETT 900ml BEBE MULTIESP Desinf.,5,1836.12,3,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00043,5493517000022,25022,20104,POETT 900ml ESPIRITU MULTIESP Desinf.,3,1836.12,3,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00043,5493517000022,25022,10107,TERMA POMELO PET 1.35L,4,1667.39,3,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00044,5493517000022,25022,551,HS 375ml SH ANTICOMEZON,2,8591.10,3,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00045,5493517000023,25023,10107,TERMA POMELO PET 1.35L,4,1574.76,4,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00045,5493517000023,25023,18805,CHOCMAN BAÑO SEMIAMARGO 35 GR,2,595.10,4,Pedido: 2 unidad (normalizado: 36 unidad; equiv: 2 unidad),true,false,false
+P-00046,5493517000023,25023,1641,MAGISTRAL LIMON 300ML,4,1946.58,4,Pedido: 4 unidad (normalizado: 84 unidad; equiv: 4 unidad),true,false,false
+P-00046,5493517000023,25023,20109,POETT 900ml ALEGRA TU DIA MULTIESP Desinf.,3,1734.11,4,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00047,5493517000024,25024,20102,POETT 900ml BEBE MULTIESP Desinf.,1,2040.13,1,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00047,5493517000024,25024,17500,PANTENE CREM. PEIN. KERATINA X 300ML,1,8490.55,1,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00047,5493517000024,25024,18342,ZORRO JB LIQ DP Evol Quitamanchas 800ml,5,2654.98,1,Pedido: 5 unidad (normalizado: 70 unidad; equiv: 5 unidad),true,false,false
+P-00048,5493517000024,25024,18260,PLB CN X1LTR Brillo Corazón,4,3493.58,1,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00048,5493517000024,25024,18400,ZORRO JAB. EN PAN X2 Clásico 150gs,1,1947.64,1,Pedido: 1 unidad (normalizado: 42 unidad; equiv: 1 unidad),true,false,false
+P-00048,5493517000024,25024,5603,FELFORT MENTITAS 30 X 16 GRS,3,17466.36,1,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00048,5493517000024,25024,11282,SUEROX LIMONADA 630ML,4,1797.94,1,Pedido: 4 unidad (normalizado: 24 unidad; equiv: 4 unidad),true,false,false
+P-00049,5493517000025,25025,18400,ZORRO JAB. EN PAN X2 Clásico 150gs,5,2239.79,2,Pedido: 5 unidad (normalizado: 210 unidad; equiv: 5 unidad),true,false,false
+P-00049,5493517000025,25025,1192,PAMPERS BABYDRY GDE X8,4,4416.98,2,Pedido: 4 unidad (normalizado: 64 unidad; equiv: 4 unidad),true,false,false
+P-00049,5493517000025,25025,551,HS 375ml SH ANTICOMEZON,1,10977.52,2,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00050,5493517000025,25025,10240,MI CHANCES MALBEC-CABERNET 750cc,3,6238.23,2,Pedido: 3 unidad (normalizado: 18 unidad; equiv: 3 unidad),true,false,false
+P-00050,5493517000025,25025,10003,AMERICANO GANCIA 450ml 14°,2,4805.21,2,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00051,5493517000026,25026,10109,TERMA SERRANO PET 1.35L,4,1667.39,3,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00052,5493517000026,25026,10043,DR LEMON 473ml VODKA 5º,5,1734.96,3,Pedido: 5 unidad (normalizado: 120 unidad; equiv: 5 unidad),true,false,false
+P-00053,5493517000027,25027,18353,ZORRO ULTRA DETERG. BOT300ml Limon Original Glicer,5,1126.49,4,Pedido: 5 unidad (normalizado: 80 unidad; equiv: 5 unidad),true,false,false
+P-00054,5493517000027,25027,10044,DR LEMON 473ml LIMÓN 4º,3,1638.57,4,Pedido: 3 unidad (normalizado: 72 unidad; equiv: 3 unidad),true,false,false
+P-00054,5493517000027,25027,18389,ZORRO SUAVIZ. X3L DP Elegante,2,8300.67,4,Pedido: 2 unidad (normalizado: 8 unidad; equiv: 2 unidad),true,false,false
+P-00055,5493517000028,25028,8006,PASTA ORAL-B 70g 123,2,1799.48,1,Pedido: 2 unidad (normalizado: 96 unidad; equiv: 2 unidad),true,false,false
+P-00055,5493517000028,25028,18928,CHOCMAN COCO x 35G,3,700.12,1,Pedido: 3 unidad (normalizado: 54 unidad; equiv: 3 unidad),true,false,false
+P-00055,5493517000028,25028,10112,TERMA CUYANO PET 1.35L,2,1852.66,1,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00055,5493517000028,25028,10107,TERMA POMELO PET 1.35L,4,1852.66,1,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00056,5493517000028,25028,1192,PAMPERS BABYDRY GDE X8,5,3840.85,1,Pedido: 5 unidad (normalizado: 80 unidad; equiv: 5 unidad),true,false,false
+P-00056,5493517000028,25028,11011,YM TARAGUI C/P 1/2 kg,2,2948.83,1,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00056,5493517000028,25028,20305,REPELENTE SELTON DIARIO 165ml,5,5615.10,1,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00057,5493517000029,25029,1880,PASTA ORAL-B 150gr 123,4,5622.05,2,Pedido: 4 unidad (normalizado: 96 unidad; equiv: 4 unidad),true,false,false
+P-00057,5493517000029,25029,20410,TRENET POWER 120g DP POLVO,1,2625.81,2,Pedido: 1 unidad (normalizado: 24 unidad; equiv: 1 unidad),true,false,false
+P-00057,5493517000029,25029,11234,DOWNY 1L BRISA INTENSO,2,13111.03,2,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00057,5493517000029,25029,10065,BACARDI CARTA BLANCA 980ml PT 40°,1,24711.86,2,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00058,5493517000029,25029,11011,YM TARAGUI C/P 1/2 kg,5,3391.15,2,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00058,5493517000029,25029,8105,CEP. ORAL-B 123 x1,2,1238.17,2,Pedido: 2 unidad (normalizado: 72 unidad; equiv: 2 unidad),true,false,false
+P-00058,5493517000029,25029,11071,YM MAÑANITA BCP 1/2 kg,3,3391.15,2,Pedido: 3 unidad (normalizado: 30 unidad; equiv: 3 unidad),true,false,false
+P-00058,5493517000029,25029,20410,TRENET POWER 120g DP POLVO,2,2625.81,2,Pedido: 2 unidad (normalizado: 48 unidad; equiv: 2 unidad),true,false,false
+P-00059,5493517000030,25030,11685,GUANTE LATEX PATITO GDE,2,1749.75,3,Pedido: 2 unidad (normalizado: 288 unidad; equiv: 2 unidad),true,false,false
+P-00060,5493517000030,25030,20032,LAVANDINA 1L MULTISUP LAVANDA AYUDIN,1,1658.00,3,Pedido: 1 unidad (normalizado: 15 unidad; equiv: 1 unidad),true,false,false
+P-00061,5493517000031,25031,116,PANTENE 300ml SH KERATINA,2,5663.38,4,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00062,5493517000031,25031,116,PANTENE 300ml SH KERATINA,3,5663.38,4,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00062,5493517000031,25031,1014,PILA AA X 2 DURACELL,3,2279.05,4,Pedido: 3 unidad (normalizado: 144 unidad; equiv: 3 unidad),true,false,false
+P-00062,5493517000031,25031,18828,NUGATON LECHE X 27 GRS,2,649.68,4,Pedido: 2 unidad (normalizado: 576 unidad; equiv: 2 unidad),true,false,false
+P-00063,5493517000032,25032,1095,DOWNY 500ml BRISA SUAVE,1,5736.69,1,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00063,5493517000032,25032,10053,FERNET 1882 750ml,2,7705.10,1,Pedido: 2 unidad (normalizado: 12 unidad; equiv: 2 unidad),true,false,false
+P-00063,5493517000032,25032,1643,MAGISTRAL LIMON 750ML,2,5425.27,1,Pedido: 2 unidad (normalizado: 36 unidad; equiv: 2 unidad),true,false,false
+P-00063,5493517000032,25032,550,PRESTO ULTRA GRIP X UNIDAD (NUEVA),2,1120.73,1,Pedido: 2 unidad (normalizado: 1152 unidad; equiv: 2 unidad),true,false,false
+P-00064,5493517000032,25032,8006,PASTA ORAL-B 70g 123,3,1799.48,1,Pedido: 3 unidad (normalizado: 144 unidad; equiv: 3 unidad),true,false,false
+P-00064,5493517000032,25032,18342,ZORRO JB LIQ DP Evol Quitamanchas 800ml,4,2654.98,1,Pedido: 4 unidad (normalizado: 56 unidad; equiv: 4 unidad),true,false,false
+P-00064,5493517000032,25032,10043,DR LEMON 473ml VODKA 5º,4,1927.73,1,Pedido: 4 unidad (normalizado: 96 unidad; equiv: 4 unidad),true,false,false
+P-00064,5493517000032,25032,1098,DOWNY 1L BRISA SUAVE,2,11400.90,1,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00065,5493517000033,25033,17500,PANTENE CREM. PEIN. KERATINA X 300ML,4,9764.13,2,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00065,5493517000033,25033,10054,FERNET 1882 450ml,1,7186.53,2,Pedido: 1 unidad (normalizado: 6 unidad; equiv: 1 unidad),true,false,false
+P-00065,5493517000033,25033,1451,PANTENE 400ml AC RESTAURACION,2,8511.52,2,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00066,5493517000033,25033,1430,PRESTO 3 BLISTER X 2 UNID,2,6936.04,2,Pedido: 2 unidad (normalizado: 144 unidad; equiv: 2 unidad),true,false,false
+P-00067,5493517000034,25034,10105,TERMA CITRUS CERO PET 1.35L,3,1667.39,3,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00067,5493517000034,25034,10056,FERNET 1882 473ml CON COLA,2,1507.28,3,Pedido: 2 unidad (normalizado: 48 unidad; equiv: 2 unidad),true,false,false
+P-00067,5493517000034,25034,8106,CEP. ORAL-B 123 x2,2,2846.05,3,Pedido: 2 unidad (normalizado: 72 unidad; equiv: 2 unidad),true,false,false
+P-00067,5493517000034,25034,20193,ESPONJA LISA MORTIMER,5,663.68,3,Pedido: 5 unidad (normalizado: 480 unidad; equiv: 5 unidad),true,false,false
+P-00068,5493517000034,25034,20109,POETT 900ml ALEGRA TU DIA MULTIESP Desinf.,2,1836.12,3,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00068,5493517000034,25034,1191,PAMPERS BABYDRY MED x8,2,3456.76,3,Pedido: 2 unidad (normalizado: 32 unidad; equiv: 2 unidad),true,false,false
+P-00069,5493517000035,25035,10114,TERMA LIMON PET 1.35L,4,1574.76,4,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00069,5493517000035,25035,18828,NUGATON LECHE X 27 GRS,3,649.68,4,Pedido: 3 unidad (normalizado: 864 unidad; equiv: 3 unidad),true,false,false
+P-00069,5493517000035,25035,18415,ACE POUCH X3000 ML,1,7909.25,4,Pedido: 1 unidad (normalizado: 4 unidad; equiv: 1 unidad),true,false,false
+P-00069,5493517000035,25035,6320,PAMPERS TOALLITAS Limpeza Delicada x48 (.),2,5050.67,4,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00070,5493517000035,25035,1642,MAGISTRAL LIMON 500ML,2,3074.28,4,Pedido: 2 unidad (normalizado: 40 unidad; equiv: 2 unidad),true,false,false
+P-00070,5493517000035,25035,18389,ZORRO SUAVIZ. X3L DP Elegante,3,8300.67,4,Pedido: 3 unidad (normalizado: 12 unidad; equiv: 3 unidad),true,false,false
+P-00070,5493517000035,25035,1079,PANTENE 200ml SH LISO INFINITO,3,3759.21,4,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00070,5493517000035,25035,11071,YM MAÑANITA BCP 1/2 kg,4,2506.51,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00071,5493517000036,25036,10044,DR LEMON 473ml LIMÓN 4º,2,1927.73,1,Pedido: 2 unidad (normalizado: 48 unidad; equiv: 2 unidad),true,false,false
+P-00072,5493517000036,25036,1880,PASTA ORAL-B 150gr 123,4,4888.74,1,Pedido: 4 unidad (normalizado: 96 unidad; equiv: 4 unidad),true,false,false
+P-00072,5493517000036,25036,18342,ZORRO JB LIQ DP Evol Quitamanchas 800ml,3,2654.98,1,Pedido: 3 unidad (normalizado: 42 unidad; equiv: 3 unidad),true,false,false
+P-00072,5493517000036,25036,10065,BACARDI CARTA BLANCA 980ml PT 40°,5,21488.57,1,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00073,5493517000037,25037,18342,ZORRO JB LIQ DP Evol Quitamanchas 800ml,2,3053.23,2,Pedido: 2 unidad (normalizado: 28 unidad; equiv: 2 unidad),true,false,false
+P-00073,5493517000037,25037,1871,PANTENE SACHET SH RESTAURACION 10ML,2,228.80,2,Pedido: 2 unidad (normalizado: 1152 unidad; equiv: 2 unidad),true,false,false
+P-00073,5493517000037,25037,551,HS 375ml SH ANTICOMEZON,5,10977.52,2,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00073,5493517000037,25037,1098,DOWNY 1L BRISA SUAVE,5,13111.03,2,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00074,5493517000037,25037,1191,PAMPERS BABYDRY MED x8,2,4416.98,2,Pedido: 2 unidad (normalizado: 32 unidad; equiv: 2 unidad),true,false,false
+P-00074,5493517000037,25037,552,HS 180ml SH ANTICOMEZON,1,6168.28,2,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00074,5493517000037,25037,880,Downy Bot Brisa Suave 350ml,2,5004.64,2,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00074,5493517000037,25037,1194,PAMPERS BABYDRY PEQ X8,3,4732.47,2,Pedido: 3 unidad (normalizado: 48 unidad; equiv: 3 unidad),true,false,false
+P-00075,5493517000038,25038,552,HS 180ml SH ANTICOMEZON,3,4827.35,3,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00075,5493517000038,25038,18343,ZORRO JB LIQ DP Evol Quitamanchas 3L,1,8374.52,3,Pedido: 1 unidad (normalizado: 4 unidad; equiv: 1 unidad),true,false,false
+P-00075,5493517000038,25038,550,PRESTO ULTRA GRIP X UNIDAD (NUEVA),4,1008.66,3,Pedido: 4 unidad (normalizado: 2304 unidad; equiv: 4 unidad),true,false,false
+P-00076,5493517000038,25038,10112,TERMA CUYANO PET 1.35L,4,1667.39,3,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00076,5493517000038,25038,220,PRESTO 3 BLISTER X8 UNI,3,18581.76,3,Pedido: 3 unidad (normalizado: 54 unidad; equiv: 3 unidad),true,false,false
+P-00076,5493517000038,25038,11685,GUANTE LATEX PATITO GDE,2,1749.75,3,Pedido: 2 unidad (normalizado: 288 unidad; equiv: 2 unidad),true,false,false
+P-00076,5493517000038,25038,20032,LAVANDINA 1L MULTISUP LAVANDA AYUDIN,1,1658.00,3,Pedido: 1 unidad (normalizado: 15 unidad; equiv: 1 unidad),true,false,false
+P-00077,5493517000039,25039,10109,TERMA SERRANO PET 1.35L,2,1574.76,4,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00078,5493517000039,25039,18367,Zorro BAÑO GAT LIMP. PROF. 500ml,5,2668.30,4,Pedido: 5 unidad (normalizado: 100 unidad; equiv: 5 unidad),true,false,false
+P-00079,5493517000040,25040,18342,ZORRO JB LIQ DP Evol Quitamanchas 800ml,4,2654.98,1,Pedido: 4 unidad (normalizado: 56 unidad; equiv: 4 unidad),true,false,false
+P-00079,5493517000040,25040,10053,FERNET 1882 750ml,1,7705.10,1,Pedido: 1 unidad (normalizado: 6 unidad; equiv: 1 unidad),true,false,false
+P-00079,5493517000040,25040,18343,ZORRO JB LIQ DP Evol Quitamanchas 3L,3,9305.02,1,Pedido: 3 unidad (normalizado: 12 unidad; equiv: 3 unidad),true,false,false
+P-00079,5493517000040,25040,1192,PAMPERS BABYDRY GDE X8,2,3840.85,1,Pedido: 2 unidad (normalizado: 32 unidad; equiv: 2 unidad),true,false,false
+P-00080,5493517000040,25040,4003,PRIME TEXTURADO,3,3270.61,1,Pedido: 3 unidad (normalizado: 72 unidad; equiv: 3 unidad),true,false,false
+P-00081,5493517000041,0,880,Downy Bot Brisa Suave 350ml,4,5004.64,2,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00081,5493517000041,0,552,HS 180ml SH ANTICOMEZON,5,6168.28,2,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00082,5493517000041,0,18805,CHOCMAN BAÑO SEMIAMARGO 35 GR,1,805.14,2,Pedido: 1 unidad (normalizado: 18 unidad; equiv: 1 unidad),true,false,false
+P-00082,5493517000041,0,10017,MARTINI 1L ROSSO,2,7214.64,2,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00083,5493517000042,0,20109,POETT 900ml ALEGRA TU DIA MULTIESP Desinf.,5,1836.12,3,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00083,5493517000042,0,10056,FERNET 1882 473ml CON COLA,2,1507.28,3,Pedido: 2 unidad (normalizado: 48 unidad; equiv: 2 unidad),true,false,false
+P-00083,5493517000042,0,552,HS 180ml SH ANTICOMEZON,3,4827.35,3,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00084,5493517000042,0,1194,PAMPERS BABYDRY PEQ X8,1,3703.67,3,Pedido: 1 unidad (normalizado: 16 unidad; equiv: 1 unidad),true,false,false
+P-00085,5493517000043,0,18828,NUGATON LECHE X 27 GRS,3,649.68,4,Pedido: 3 unidad (normalizado: 864 unidad; equiv: 3 unidad),true,false,false
+P-00085,5493517000043,0,5603,FELFORT MENTITAS 30 X 16 GRS,1,14846.41,4,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00085,5493517000043,0,11071,YM MAÑANITA BCP 1/2 kg,5,2506.51,4,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00086,5493517000043,0,880,Downy Bot Brisa Suave 350ml,3,3699.08,4,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00087,5493517000044,0,18367,Zorro BAÑO GAT LIMP. PROF. 500ml,4,3139.18,1,Pedido: 4 unidad (normalizado: 80 unidad; equiv: 4 unidad),true,false,false
+P-00087,5493517000044,0,552,HS 180ml SH ANTICOMEZON,5,5363.72,1,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00087,5493517000044,0,10077,VODKA NIKOV TRADICIONAL 1L,1,6304.88,1,Pedido: 1 unidad (normalizado: 6 unidad; equiv: 1 unidad),true,false,false
+P-00088,5493517000044,0,20032,LAVANDINA 1L MULTISUP LAVANDA AYUDIN,5,1842.22,1,Pedido: 5 unidad (normalizado: 75 unidad; equiv: 5 unidad),true,false,false
+P-00088,5493517000044,0,4003,PRIME TEXTURADO,1,3270.61,1,Pedido: 1 unidad (normalizado: 24 unidad; equiv: 1 unidad),true,false,false
+P-00088,5493517000044,0,18707,Okebon Leche 273g,5,1913.74,1,Pedido: 5 unidad (normalizado: 90 unidad; equiv: 5 unidad),true,false,false
+P-00088,5493517000044,0,1003,FOAMY REGULAR X 312 GR,2,10508.02,1,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00089,5493517000045,0,20102,POETT 900ml BEBE MULTIESP Desinf.,3,2346.15,2,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00090,5493517000045,0,10056,FERNET 1882 473ml CON COLA,4,1925.96,2,Pedido: 4 unidad (normalizado: 96 unidad; equiv: 4 unidad),true,false,false
+P-00090,5493517000045,0,10065,BACARDI CARTA BLANCA 980ml PT 40°,3,24711.86,2,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00090,5493517000045,0,18828,NUGATON LECHE X 27 GRS,5,878.98,2,Pedido: 5 unidad (normalizado: 1440 unidad; equiv: 5 unidad),true,false,false
+P-00091,5493517000046,0,11282,SUEROX LIMONADA 630ML,1,1618.15,3,Pedido: 1 unidad (normalizado: 6 unidad; equiv: 1 unidad),true,false,false
+P-00091,5493517000046,0,2248,VENUS MAQ. ORIGINAL x 1 UNID.,5,14515.58,3,Pedido: 5 unidad (normalizado: 180 unidad; equiv: 5 unidad),true,false,false
+P-00091,5493517000046,0,20035,LAVANDINA 1L MULTISUP GLACIAR AYUDIN,1,1658.00,3,Pedido: 1 unidad (normalizado: 15 unidad; equiv: 1 unidad),true,false,false
+P-00091,5493517000046,0,1016,PILA AAA X 2 DURACELL,4,2413.12,3,Pedido: 4 unidad (normalizado: 192 unidad; equiv: 4 unidad),true,false,false
+P-00092,5493517000046,0,1014,PILA AA X 2 DURACELL,5,2413.12,3,Pedido: 5 unidad (normalizado: 240 unidad; equiv: 5 unidad),true,false,false
+P-00092,5493517000046,0,17500,PANTENE CREM. PEIN. KERATINA X 300ML,3,7641.49,3,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00092,5493517000046,0,11012,YM TARAGUI C/P 1 kg,4,5224.55,3,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00092,5493517000046,0,220,PRESTO 3 BLISTER X8 UNI,5,18581.76,3,Pedido: 5 unidad (normalizado: 90 unidad; equiv: 5 unidad),true,false,false
+P-00093,5493517000047,0,1192,PAMPERS BABYDRY GDE X8,1,3264.72,4,Pedido: 1 unidad (normalizado: 16 unidad; equiv: 1 unidad),true,false,false
+P-00093,5493517000047,0,1088,ALWAYS Triple Protec Dia Seca 8 UNI.,1,4407.76,4,Pedido: 1 unidad (normalizado: 24 unidad; equiv: 1 unidad),true,false,false
+P-00093,5493517000047,0,18359,ZORRO ULTRA DETERG.BOT 500ml Limon Original Glicer,1,1761.40,4,Pedido: 1 unidad (normalizado: 20 unidad; equiv: 1 unidad),true,false,false
+P-00093,5493517000047,0,1016,PILA AAA X 2 DURACELL,4,2279.05,4,Pedido: 4 unidad (normalizado: 192 unidad; equiv: 4 unidad),true,false,false
+P-00094,5493517000047,0,10040,DR LEMON 1L VODKA 5º - Sin Tacc,5,2764.08,4,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00094,5493517000047,0,10105,TERMA CITRUS CERO PET 1.35L,3,1574.76,4,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00095,5493517000048,0,10108,TERMA CITRUS 1.35L,2,1852.66,1,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00095,5493517000048,0,10044,DR LEMON 473ml LIMÓN 4º,5,1927.73,1,Pedido: 5 unidad (normalizado: 120 unidad; equiv: 5 unidad),true,false,false
+P-00095,5493517000048,0,20305,REPELENTE SELTON DIARIO 165ml,4,5615.10,1,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00095,5493517000048,0,552,HS 180ml SH ANTICOMEZON,3,5363.72,1,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00096,5493517000048,0,18416,ACE BOTELLA X 800ML,5,3013.09,1,Pedido: 5 unidad (normalizado: 75 unidad; equiv: 5 unidad),true,false,false
+P-00096,5493517000048,0,1088,ALWAYS Triple Protec Dia Seca 8 UNI.,4,5185.60,1,Pedido: 4 unidad (normalizado: 96 unidad; equiv: 4 unidad),true,false,false
+P-00096,5493517000048,0,1453,PANTENE 400ml SH RESTAURACION,5,7401.32,1,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00096,5493517000048,0,17500,PANTENE CREM. PEIN. KERATINA X 300ML,1,8490.55,1,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad),true,false,false
+P-00097,5493517000049,0,10108,TERMA CITRUS 1.35L,2,2130.56,2,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00097,5493517000049,0,18342,ZORRO JB LIQ DP Evol Quitamanchas 800ml,2,3053.23,2,Pedido: 2 unidad (normalizado: 28 unidad; equiv: 2 unidad),true,false,false
+P-00098,5493517000049,0,10053,FERNET 1882 750ml,3,8860.86,2,Pedido: 3 unidad (normalizado: 18 unidad; equiv: 3 unidad),true,false,false
+P-00099,5493517000050,0,10003,AMERICANO GANCIA 450ml 14°,3,3760.60,3,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,false,false
+P-00100,5493517000050,0,18367,Zorro BAÑO GAT LIMP. PROF. 500ml,5,2825.26,3,Pedido: 5 unidad (normalizado: 100 unidad; equiv: 5 unidad),true,false,false
+P-00100,5493517000050,0,10112,TERMA CUYANO PET 1.35L,4,1667.39,3,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,false,false
+P-00100,5493517000050,0,11685,GUANTE LATEX PATITO GDE,5,1749.75,3,Pedido: 5 unidad (normalizado: 720 unidad; equiv: 5 unidad),true,false,false
+P-00101,5493517000004,25004,1079,PANTENE 200ml SH LISO INFINITO,1,3759.21,1,Pedido: 1 unidad (normalizado: 12 unidad; equiv: 1 unidad) - promo fase 2,true,true,true
+P-00102,5493517000001,25001,1015,PILA AA X 4 DURACELL,2,5502.88,2,Pedido: 2 unidad (normalizado: 96 unidad; equiv: 2 unidad),true,true,false
+P-00102,5493517000001,25001,18805,CHOCMAN BAÑO SEMIAMARGO 35 GR,5,805.14,2,Pedido: 5 unidad (normalizado: 90 unidad; equiv: 5 unidad),true,true,false
+P-00102,5493517000001,25001,10114,TERMA LIMON PET 1.35L,5,2130.56,2,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,true,false
+P-00103,5493517000002,25002,10114,TERMA LIMON PET 1.35L,3,1667.39,3,Pedido: 3 unidad (normalizado: 36 unidad; equiv: 3 unidad),true,true,false
+P-00104,5493517000003,25003,10056,FERNET 1882 473ml CON COLA,1,1423.54,4,Pedido: 1 unidad (normalizado: 24 unidad; equiv: 1 unidad),true,true,false
+P-00104,5493517000003,25003,10040,DR LEMON 1L VODKA 5º - Sin Tacc,2,2764.08,4,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,true,false
+P-00104,5493517000003,25003,18260,PLB CN X1LTR Brillo Corazón,2,2969.54,4,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,true,false
+P-00105,5493517000005,25005,10044,DR LEMON 473ml LIMÓN 4º,4,2216.89,2,Pedido: 4 unidad (normalizado: 96 unidad; equiv: 4 unidad),true,true,false
+P-00105,5493517000005,25005,20102,POETT 900ml BEBE MULTIESP Desinf.,5,2346.15,2,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,true,false
+P-00106,5493517000006,25006,20032,LAVANDINA 1L MULTISUP LAVANDA AYUDIN,5,1658.00,3,Pedido: 5 unidad (normalizado: 75 unidad; equiv: 5 unidad),true,true,false
+P-00106,5493517000006,25006,1451,PANTENE 400ml AC RESTAURACION,4,6661.19,3,Pedido: 4 unidad (normalizado: 48 unidad; equiv: 4 unidad),true,true,false
+P-00106,5493517000006,25006,10053,FERNET 1882 750ml,2,6934.59,3,Pedido: 2 unidad (normalizado: 12 unidad; equiv: 2 unidad),true,true,false

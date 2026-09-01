@@ -1,0 +1,51 @@
+phone_number,razon_social,codigo_erp,whatsapp_estado,whatsapp_validado_at,etiqueta,is_prospect
+5493517000001,Kiosco 24 Horas Nueva Córdoba,25001,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000002,Maxikiosco Plaza España,25002,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000003,Autoservicio Chacabuco,25003,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000004,Almacén Doña Rosa,25004,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000005,Kiosco El Palacio,25005,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000006,Despensa Bv. Chacabuco,25006,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000007,Maxikiosco Nueva Córdoba,25007,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000008,Kiosco Los Andes,25008,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000009,Autoservicio Plaza España,25009,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000010,Despensa Alberdi,25010,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000011,Maxikiosco Colón,25011,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000012,Almacén Don Pedro,25012,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000013,Kiosco Heladera Llena,25013,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000014,Autoservicio Colón,25014,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000015,Despensa El Familiar,25015,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000016,Maxikiosco Alto Alberdi,25016,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000017,Kiosco La Estación Colón,25017,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000018,Almacén Doña Marta,25018,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000019,Despensa El Cerro,25019,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000020,Almacén Villa Belgrano,25020,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000021,Maxikiosco Cerro,25021,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000022,Kiosco La Esquina,25022,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000023,Almacén Don Carlos,25023,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000024,Despensa San Martín,25024,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000025,Autoservicio El Progreso,25025,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000026,Maxikiosco Villa Cabrera,25026,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000027,Maxikiosco Sobremonte,25027,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000028,Despensa Marqués,25028,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000029,Kiosco El Recreo,25029,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000030,Almacén El Gaucho,25030,validado,2026-09-01T13:12:51.371777+00:00,,false
+5493517000031,Maxikiosco General Paz,25031,existente,,,false
+5493517000032,Despensa La Unión,25032,existente,,,false
+5493517000033,Kiosco 9 de Julio,25033,existente,,,false
+5493517000034,Almacén Barrio Norte,25034,existente,,,false
+5493517000035,Autoservicio Jardín,25035,existente,,,false
+5493517000036,Maxikiosco Güemes,25036,existente,,,false
+5493517000037,Almacén Barrio Sur,25037,existente,,,false
+5493517000038,Kiosco El Paso,25038,existente,,,false
+5493517000039,Despensa El Sauce,25039,existente,,,false
+5493517000040,Maxikiosco Güemes 2,25040,existente,,,false
+5493517000041,Almacén La Tradición,0,no_validado,,PROSPECTO,true
+5493517000042,Kiosco Los Siete Hermanos,0,existente,,PROSPECTO,true
+5493517000043,Kiosco Ruta 9,0,no_validado,,PROSPECTO,true
+5493517000044,Autoservicio Ruta 9,0,existente,,PROSPECTO,true
+5493517000045,Almacén Jesús María,0,no_validado,,PROSPECTO,true
+5493517000046,Kiosco La Estación,0,validado,2026-09-01T13:12:51.371777+00:00,PROSPECTO,true
+5493517000047,Despensa Don Roberto,0,no_existente,,PROSPECTO,true
+5493517000048,Maxikiosco Alta Córdoba,0,no_validado,,PROSPECTO,true
+5493517000049,Almacén El Nativo,0,existente,,PROSPECTO,true
+5493517000050,Kiosco El Cruce,0,no_validado,,PROSPECTO,true

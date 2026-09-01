@@ -1,0 +1,4 @@
+nombre,telefono,email,zona,codigo_ruta,is_mock
+Juan Carlos Rodríguez,5493516128101,juan.rodriguez@suplaisales.mock,CENTRO,R01,true
+María Paz Lucero,5493516128102,maria.lucero@suplaisales.mock,NORTE,R02,true
+Diego Ferreyra,5493516128103,diego.ferreyra@suplaisales.mock,SUR,R03,true

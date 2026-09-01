@@ -1,0 +1,955 @@
+{
+  "schema": "esekau",
+  "products": [
+    {
+      "product_code": "10003",
+      "nombre": "AMERICANO GANCIA 450ml 14°",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Americano"
+      }
+    },
+    {
+      "product_code": "10017",
+      "nombre": "MARTINI 1L ROSSO",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Aperitivos",
+        "3": "Martini",
+        "4": "Rosso"
+      }
+    },
+    {
+      "product_code": "1003",
+      "nombre": "FOAMY REGULAR X 312 GR",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Afeitado",
+        "3": "Espuma",
+        "4": "Foamy"
+      }
+    },
+    {
+      "product_code": "10040",
+      "nombre": "DR LEMON 1L VODKA 5º - Sin Tacc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Ready to drink",
+        "3": "Dr Lemon",
+        "4": "Vodka 1 L"
+      }
+    },
+    {
+      "product_code": "10043",
+      "nombre": "DR LEMON 473ml VODKA 5º",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Ready to drink",
+        "3": "Dr Lemon",
+        "4": "Vodka 473 ml"
+      }
+    },
+    {
+      "product_code": "10044",
+      "nombre": "DR LEMON 473ml LIMÓN 4º",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Ready to drink",
+        "3": "Dr Lemon",
+        "4": "Limón 473 ml"
+      }
+    },
+    {
+      "product_code": "10050",
+      "nombre": "DR LEMON 1L LIMÓN 4% - Sin Tacc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Ready to drink",
+        "3": "Dr Lemon",
+        "4": "Limón 1 L"
+      }
+    },
+    {
+      "product_code": "10053",
+      "nombre": "FERNET 1882 750ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Fernet"
+      }
+    },
+    {
+      "product_code": "10054",
+      "nombre": "FERNET 1882 450ml",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Fernet"
+      }
+    },
+    {
+      "product_code": "10056",
+      "nombre": "FERNET 1882 473ml CON COLA",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Aperitivos",
+        "4": "Fernet con Cola"
+      }
+    },
+    {
+      "product_code": "10065",
+      "nombre": "BACARDI CARTA BLANCA 980ml PT 40°",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Destilados",
+        "3": "Ron",
+        "4": "Bacardi"
+      }
+    },
+    {
+      "product_code": "10069",
+      "nombre": "JAMAICA 1L GOLD RUM",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Destilados",
+        "3": "Ron",
+        "4": "Jamaica"
+      }
+    },
+    {
+      "product_code": "10077",
+      "nombre": "VODKA NIKOV TRADICIONAL 1L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Destilados",
+        "3": "Vodka",
+        "4": "Nikov"
+      }
+    },
+    {
+      "product_code": "10105",
+      "nombre": "TERMA CITRUS CERO PET 1.35L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Amargos",
+        "3": "Terma",
+        "4": "Citrus cero"
+      }
+    },
+    {
+      "product_code": "10107",
+      "nombre": "TERMA POMELO PET 1.35L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Amargos",
+        "3": "Terma",
+        "4": "Pomelo"
+      }
+    },
+    {
+      "product_code": "10108",
+      "nombre": "TERMA CITRUS 1.35L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Amargos",
+        "3": "Terma",
+        "4": "Citrus"
+      }
+    },
+    {
+      "product_code": "10109",
+      "nombre": "TERMA SERRANO PET 1.35L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Amargos",
+        "3": "Terma",
+        "4": "Serrano"
+      }
+    },
+    {
+      "product_code": "10112",
+      "nombre": "TERMA CUYANO PET 1.35L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Amargos",
+        "3": "Terma",
+        "4": "Cuyano"
+      }
+    },
+    {
+      "product_code": "10114",
+      "nombre": "TERMA LIMON PET 1.35L",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Amargos",
+        "3": "Terma",
+        "4": "Limón"
+      }
+    },
+    {
+      "product_code": "10132",
+      "nombre": "SPRITE x 1.5 CC",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Sprite",
+        "4": "1.5 L"
+      }
+    },
+    {
+      "product_code": "1014",
+      "nombre": "PILA AA X 2 DURACELL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Baterías",
+        "3": "Baterías Alcalinas",
+        "4": "Batería AA"
+      }
+    },
+    {
+      "product_code": "1015",
+      "nombre": "PILA AA X 4 DURACELL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Baterías",
+        "3": "Baterías Alcalinas",
+        "4": "Batería AA"
+      }
+    },
+    {
+      "product_code": "1016",
+      "nombre": "PILA AAA X 2 DURACELL",
+      "tags": {
+        "1": "Almacén",
+        "2": "Baterías",
+        "3": "Baterías Alcalinas",
+        "4": "Batería AAA"
+      }
+    },
+    {
+      "product_code": "10240",
+      "nombre": "MI CHANCES MALBEC-CABERNET 750cc",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas Alcohólicas",
+        "3": "Vinos",
+        "4": "Vino Tinto"
+      }
+    },
+    {
+      "product_code": "1079",
+      "nombre": "PANTENE 200ml SH LISO INFINITO",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Cuidado del Cabello",
+        "3": "Shampoo",
+        "4": "Shampoo"
+      }
+    },
+    {
+      "product_code": "1088",
+      "nombre": "ALWAYS Triple Protec Dia Seca 8 UNI.",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene Femenina",
+        "3": "Protección Femenina",
+        "4": "Compresas"
+      }
+    },
+    {
+      "product_code": "1095",
+      "nombre": "DOWNY 500ml BRISA SUAVE",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Suavizantes",
+        "3": "Downy",
+        "4": "Suavizante"
+      }
+    },
+    {
+      "product_code": "1098",
+      "nombre": "DOWNY 1L BRISA SUAVE",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Suavizantes",
+        "3": "Downy",
+        "4": "Suavizante"
+      }
+    },
+    {
+      "product_code": "11011",
+      "nombre": "YM TARAGUI C/P 1/2 kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Yerba mate",
+        "3": "Taragüi",
+        "4": "1/2 kg"
+      }
+    },
+    {
+      "product_code": "11012",
+      "nombre": "YM TARAGUI C/P 1 kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Yerba mate",
+        "3": "Taragüi",
+        "4": "1 kg"
+      }
+    },
+    {
+      "product_code": "11071",
+      "nombre": "YM MAÑANITA BCP 1/2 kg",
+      "tags": {
+        "1": "Almacén",
+        "2": "Yerba mate",
+        "3": "Mañanita",
+        "4": "1/2 kg"
+      }
+    },
+    {
+      "product_code": "11234",
+      "nombre": "DOWNY 1L BRISA INTENSO",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Suavizantes",
+        "3": "Downy",
+        "4": "Suavizante"
+      }
+    },
+    {
+      "product_code": "11279",
+      "nombre": "SUEROX MANZANA 630 ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Bebidas Saborizadas",
+        "4": "Bebida Saborizada"
+      }
+    },
+    {
+      "product_code": "11282",
+      "nombre": "SUEROX LIMONADA 630ML",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Bebidas No Alcohólicas",
+        "3": "Bebidas Saborizadas",
+        "4": "Bebida Saborizada"
+      }
+    },
+    {
+      "product_code": "11300",
+      "nombre": "PRINGLES ORIGINAL x 104GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Papas",
+        "4": "Pringles"
+      }
+    },
+    {
+      "product_code": "116",
+      "nombre": "PANTENE 300ml SH KERATINA",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Cuidado del Cabello",
+        "3": "Shampoo",
+        "4": "Shampoo"
+      }
+    },
+    {
+      "product_code": "11617",
+      "nombre": "OLD SPICE DES. BARRA FRESH 50g",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Desodorantes",
+        "3": "Desodorantes en Barra",
+        "4": "Desodorante"
+      }
+    },
+    {
+      "product_code": "11685",
+      "nombre": "GUANTE LATEX PATITO GDE",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Guantes",
+        "4": "Guante de Limpieza"
+      }
+    },
+    {
+      "product_code": "11797",
+      "nombre": "ALWAYS XTRA NOCHES TRAN. SECAS X8",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene Femenina",
+        "3": "Protección Femenina",
+        "4": "Compresas"
+      }
+    },
+    {
+      "product_code": "118",
+      "nombre": "PANTENE 250ml AC KERATINA",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Cuidado del Cabello",
+        "3": "Acondicionador",
+        "4": "Acondicionador"
+      }
+    },
+    {
+      "product_code": "1191",
+      "nombre": "PAMPERS BABYDRY MED x8",
+      "tags": {
+        "1": "Cuidado del Bebé",
+        "2": "Pañales",
+        "3": "Pañales Desechables",
+        "4": "Pañal"
+      }
+    },
+    {
+      "product_code": "1192",
+      "nombre": "PAMPERS BABYDRY GDE X8",
+      "tags": {
+        "1": "Cuidado del Bebé",
+        "2": "Pañales",
+        "3": "Pañales Desechables",
+        "4": "Pañal"
+      }
+    },
+    {
+      "product_code": "1194",
+      "nombre": "PAMPERS BABYDRY PEQ X8",
+      "tags": {
+        "1": "Cuidado del Bebé",
+        "2": "Pañales",
+        "3": "Pañales Desechables",
+        "4": "Pañal"
+      }
+    },
+    {
+      "product_code": "1430",
+      "nombre": "PRESTO 3 BLISTER X 2 UNID",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Afeitado",
+        "3": "Prestobarba",
+        "4": "3 hojas x2"
+      }
+    },
+    {
+      "product_code": "1451",
+      "nombre": "PANTENE 400ml AC RESTAURACION",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Cuidado del Cabello",
+        "3": "Acondicionador",
+        "4": "Acondicionador"
+      }
+    },
+    {
+      "product_code": "1453",
+      "nombre": "PANTENE 400ml SH RESTAURACION",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Cuidado del Cabello",
+        "3": "Shampoo",
+        "4": "Shampoo"
+      }
+    },
+    {
+      "product_code": "15006",
+      "nombre": "PANTENE 400ml SH LISO INFINITO",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Cuidado del Cabello",
+        "3": "Shampoo",
+        "4": "Shampoo"
+      }
+    },
+    {
+      "product_code": "1641",
+      "nombre": "MAGISTRAL LIMON 300ML",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Lavavajillas",
+        "3": "Magistral",
+        "4": "Limón 300 ml"
+      }
+    },
+    {
+      "product_code": "1642",
+      "nombre": "MAGISTRAL LIMON 500ML",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Lavavajillas",
+        "3": "Magistral",
+        "4": "Limón 500 ml"
+      }
+    },
+    {
+      "product_code": "1643",
+      "nombre": "MAGISTRAL LIMON 750ML",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Lavavajillas",
+        "3": "Magistral",
+        "4": "Limón 750 ml"
+      }
+    },
+    {
+      "product_code": "17500",
+      "nombre": "PANTENE CREM. PEIN. KERATINA X 300ML",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Cuidado del Cabello",
+        "3": "Pantene",
+        "4": "Crema de peinar"
+      }
+    },
+    {
+      "product_code": "18240",
+      "nombre": "PLB SH X1LTR Brillo",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Cuidado del Cabello",
+        "3": "Plusbelle",
+        "4": "Shampoo 1 L"
+      }
+    },
+    {
+      "product_code": "18260",
+      "nombre": "PLB CN X1LTR Brillo Corazón",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Cuidado del Cabello",
+        "3": "Plusbelle",
+        "4": "Acondicionador 1 L"
+      }
+    },
+    {
+      "product_code": "18342",
+      "nombre": "ZORRO JB LIQ DP Evol Quitamanchas 800ml",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Jabón líquido",
+        "3": "Zorro",
+        "4": "Quitamanchas 800 ml"
+      }
+    },
+    {
+      "product_code": "18343",
+      "nombre": "ZORRO JB LIQ DP Evol Quitamanchas 3L",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Jabón líquido",
+        "3": "Zorro",
+        "4": "Quitamanchas 3 L"
+      }
+    },
+    {
+      "product_code": "18353",
+      "nombre": "ZORRO ULTRA DETERG. BOT300ml Limon Original Glicer",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Detergente",
+        "4": "Detergente Líquido"
+      }
+    },
+    {
+      "product_code": "18359",
+      "nombre": "ZORRO ULTRA DETERG.BOT 500ml Limon Original Glicer",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Detergente",
+        "4": "Detergente Líquido"
+      }
+    },
+    {
+      "product_code": "18367",
+      "nombre": "Zorro BAÑO GAT LIMP. PROF. 500ml",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Limpiadores",
+        "4": "Limpiador"
+      }
+    },
+    {
+      "product_code": "18387",
+      "nombre": "ZORRO SUAVIZ. X900ML DP Elegante",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Suavizantes",
+        "4": "Suavizante"
+      }
+    },
+    {
+      "product_code": "18389",
+      "nombre": "ZORRO SUAVIZ. X3L DP Elegante",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Suavizantes",
+        "4": "Suavizante"
+      }
+    },
+    {
+      "product_code": "18400",
+      "nombre": "ZORRO JAB. EN PAN X2 Clásico 150gs",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Jabón",
+        "4": "Jabón en Pan"
+      }
+    },
+    {
+      "product_code": "18415",
+      "nombre": "ACE POUCH X3000 ML",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Detergente",
+        "4": "Detergente Líquido"
+      }
+    },
+    {
+      "product_code": "18416",
+      "nombre": "ACE BOTELLA X 800ML",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Detergente",
+        "4": "Detergente Líquido"
+      }
+    },
+    {
+      "product_code": "18707",
+      "nombre": "Okebon Leche 273g",
+      "tags": {
+        "1": "Almacén",
+        "2": "Galletitas",
+        "3": "Okebon",
+        "4": "Leche 273 g"
+      }
+    },
+    {
+      "product_code": "1871",
+      "nombre": "PANTENE SACHET SH RESTAURACION 10ML",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Cuidado del Cabello",
+        "3": "Shampoo",
+        "4": "Shampoo"
+      }
+    },
+    {
+      "product_code": "18729",
+      "nombre": "MAGISTRAL GATILLO X 500ml LIMON ANTIGRASA",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Limpiadores",
+        "4": "Limpiador Antigrasa"
+      }
+    },
+    {
+      "product_code": "18730",
+      "nombre": "MAGISTRAL GATILLO X 500ml NARANJA ANTIGRASA",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Limpiadores",
+        "4": "Limpiador Antigrasa"
+      }
+    },
+    {
+      "product_code": "1880",
+      "nombre": "PASTA ORAL-B 150gr 123",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene Oral",
+        "3": "Pasta Dental",
+        "4": "Pasta Dental"
+      }
+    },
+    {
+      "product_code": "18805",
+      "nombre": "CHOCMAN BAÑO SEMIAMARGO 35 GR",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chocolate",
+        "4": "Chocolate"
+      }
+    },
+    {
+      "product_code": "18828",
+      "nombre": "NUGATON LECHE X 27 GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chocolate",
+        "4": "Chocolate"
+      }
+    },
+    {
+      "product_code": "18928",
+      "nombre": "CHOCMAN COCO x 35G",
+      "tags": {
+        "1": "Almacén",
+        "2": "Snacks",
+        "3": "Chocolate",
+        "4": "Chocolate"
+      }
+    },
+    {
+      "product_code": "20032",
+      "nombre": "LAVANDINA 1L MULTISUP LAVANDA AYUDIN",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Desinfectantes",
+        "4": "Desinfectante"
+      }
+    },
+    {
+      "product_code": "20035",
+      "nombre": "LAVANDINA 1L MULTISUP GLACIAR AYUDIN",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Desinfectantes",
+        "4": "Desinfectante"
+      }
+    },
+    {
+      "product_code": "20102",
+      "nombre": "POETT 900ml BEBE MULTIESP Desinf.",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Desinfectantes",
+        "4": "Desinfectante"
+      }
+    },
+    {
+      "product_code": "20104",
+      "nombre": "POETT 900ml ESPIRITU MULTIESP Desinf.",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Desinfectantes",
+        "4": "Desinfectante"
+      }
+    },
+    {
+      "product_code": "20109",
+      "nombre": "POETT 900ml ALEGRA TU DIA MULTIESP Desinf.",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Desinfectantes",
+        "4": "Desinfectante"
+      }
+    },
+    {
+      "product_code": "20193",
+      "nombre": "ESPONJA LISA MORTIMER",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Accesorios de Limpieza",
+        "4": "Esponja"
+      }
+    },
+    {
+      "product_code": "20305",
+      "nombre": "REPELENTE SELTON DIARIO 165ml",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Repelentes",
+        "3": "Repelentes",
+        "4": "Repelente"
+      }
+    },
+    {
+      "product_code": "20410",
+      "nombre": "TRENET POWER 120g DP POLVO",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Detergente",
+        "4": "Detergente en Polvo"
+      }
+    },
+    {
+      "product_code": "2082",
+      "nombre": "ARIEL Liquido DELICATES POUCH 800ML",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Limpieza",
+        "3": "Detergente",
+        "4": "Detergente Líquido"
+      }
+    },
+    {
+      "product_code": "220",
+      "nombre": "PRESTO 3 BLISTER X8 UNI",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Afeitado",
+        "3": "Prestobarba",
+        "4": "3 hojas x8"
+      }
+    },
+    {
+      "product_code": "2248",
+      "nombre": "VENUS MAQ. ORIGINAL x 1 UNID.",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Afeitado",
+        "3": "Venus",
+        "4": "Máquina"
+      }
+    },
+    {
+      "product_code": "2413",
+      "nombre": "ALWAYS PROT. DIARIOS PERF X 40 NUEVO",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene Femenina",
+        "3": "Always",
+        "4": "Protectores diarios"
+      }
+    },
+    {
+      "product_code": "4003",
+      "nombre": "PRIME TEXTURADO",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Preservativos",
+        "3": "Prime",
+        "4": "Texturado"
+      }
+    },
+    {
+      "product_code": "508",
+      "nombre": "COCA COLA x 1.5 CC",
+      "tags": {
+        "1": "Bebidas",
+        "2": "Gaseosas",
+        "3": "Coca-Cola",
+        "4": "1.5 L"
+      }
+    },
+    {
+      "product_code": "550",
+      "nombre": "PRESTO ULTRA GRIP X UNIDAD (NUEVA)",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Afeitado",
+        "3": "Prestobarba",
+        "4": "Ultra Grip"
+      }
+    },
+    {
+      "product_code": "551",
+      "nombre": "HS 375ml SH ANTICOMEZON",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Cuidado del Cabello",
+        "3": "Head & Shoulders",
+        "4": "Shampoo 375 ml"
+      }
+    },
+    {
+      "product_code": "552",
+      "nombre": "HS 180ml SH ANTICOMEZON",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Cuidado del Cabello",
+        "3": "Head & Shoulders",
+        "4": "Shampoo 180 ml"
+      }
+    },
+    {
+      "product_code": "5603",
+      "nombre": "FELFORT MENTITAS 30 X 16 GRS",
+      "tags": {
+        "1": "Almacén",
+        "2": "Dulces",
+        "3": "Caramelos",
+        "4": "Mentitas"
+      }
+    },
+    {
+      "product_code": "6320",
+      "nombre": "PAMPERS TOALLITAS Limpeza Delicada x48 (.)",
+      "tags": {
+        "1": "Cuidado del Bebé",
+        "2": "Toallitas",
+        "3": "Pampers",
+        "4": "Limpieza delicada"
+      }
+    },
+    {
+      "product_code": "7636",
+      "nombre": "HS 375ml SH MANZANA FRESH",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Cuidado del Cabello",
+        "3": "Head & Shoulders",
+        "4": "Manzana"
+      }
+    },
+    {
+      "product_code": "8006",
+      "nombre": "PASTA ORAL-B 70g 123",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene Oral",
+        "3": "Oral-B",
+        "4": "Pasta 70 g"
+      }
+    },
+    {
+      "product_code": "8105",
+      "nombre": "CEP. ORAL-B 123 x1",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene Oral",
+        "3": "Oral-B",
+        "4": "Cepillo x1"
+      }
+    },
+    {
+      "product_code": "8106",
+      "nombre": "CEP. ORAL-B 123 x2",
+      "tags": {
+        "1": "Cuidado Personal",
+        "2": "Higiene Oral",
+        "3": "Oral-B",
+        "4": "Cepillo x2"
+      }
+    },
+    {
+      "product_code": "880",
+      "nombre": "Downy Bot Brisa Suave 350ml",
+      "tags": {
+        "1": "Cuidado del Hogar",
+        "2": "Suavizantes",
+        "3": "Downy",
+        "4": "Brisa suave 350 ml"
+      }
+    }
+  ]
+}
