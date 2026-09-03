@@ -163,7 +163,7 @@ CROSS_SELL_COMBO y REPOSICION_HABITO no se generarán hasta re-entrenar.
 ## Fase 7 — Conversaciones
 
 - 3–5 mensajes por cliente (subset); 10–15 con actividad “hoy”.
-- Tabla: `{tenant}.n8n_chat_histories`.
+- Tabla: `core.conversations` / `core.conversation_events`.
 - Sandbox: probar agente solo con datos del tenant en implementación.
 
 ## Fase 8 — Insights / notificaciones
@@ -245,10 +245,5 @@ Cada fase documenta **solo su CSV de salida** en `implementacion/{schema}/output
      - `client_locations`: Insertar un punto PostGIS para cada cliente con `location = ST_SetSRID(ST_MakePoint(longitude, latitude), 4326)` contenido dentro de su `geo_zone` (`ST_Within(location, geometry)`).
    - **Métricas Conversacionales del Funnel (`GET /{schema}/metricas/agente`)**:
      - Atribución de 48h: Requiere poblar `envios_plantillas` con dispatches para cada cliente (`session_id = client.phone_number`) en las fechas de los pedidos (~2 hs antes de `pedidos.fecha`).
-     - Respuestas de clientes: Poblar `n8n_chat_histories` con mensajes del usuario (`type = 'user'`) dentro de las 48 hs posteriores al dispatch.
+     - Respuestas de clientes: Poblar `core.conversation_events` con mensajes del usuario (`event_type = 'user_message'`) dentro de las 48 hs posteriores al dispatch.
    - **Memoria de Producto del Cliente (`client_product_memory`)**: Debe repopularse automáticamente vía el trigger `trg_pedido_confirmado_update_memory` o ejecutando el script de backfill tras sembrar pedidos históricos.
-
-
-
-
-
