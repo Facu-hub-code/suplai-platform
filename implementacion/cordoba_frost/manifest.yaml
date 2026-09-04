@@ -8,7 +8,7 @@ coordenadas_centro: [-31.417, -64.183]       # ★ [lat, lon] del centro geográ
 rubro: "Panadería congelada y helados"                    # ★ Descripción libre del rubro (ej: "carnicería / parrilla") — usado en Fase 4
 excel_input: "inputs/PRODUCTOS-GRAL.xlsx"
 sitio_web: "https://www.cordobafrost.com/"                # URL del sitio web del cliente (ej: https://alfuego.com.ar/)
-notas: "Distribuidora de panadería congelada y helados. Delta 2026-08-20: 3 combos helados agosto. Delta 2026-09-01: alta incremental PRODUCTOS GRAL — 279 SKUs reales (Lista General), is_mock=false. CSV: outputs/phase-01-productos-gral.csv. Combos helados y ENVIO-DOM conservados. El system prompt de Fase 1.3 todavía habla de 6 combos: hay que actualizarlo."
+notas: "Tenant productivo (delta, no implementación de 0). No inventar promos/clientes/pedidos mock. Foco 2026-09-01: catálogo GRAL, categorías, prompt y fotos. Combos helados y ENVIO-DOM conservados."
 
 blocked:
   is_mock_migration: false  # pasar a false tras aplicar docs/implementacion/migrations/20260615_add_is_mock_columns_demo_and_tenants.sql
@@ -28,6 +28,7 @@ fases:
     output_csv_extra: outputs/phase-01-combos-helados-agosto-2026.csv
     filas_csv: 279
     cargado_at: "2026-09-01T13:44:22Z"
+    notas: "279 SKUs GRAL + 3 combos panadería ya existían. Fotos 2026-09-01: 192 del Excel + 3 PNG combos helados = 195 image_url. 90 SKUs del Excel sin foto embebida."
   "01.1":
     nombre: tags
     estado: cargado
@@ -35,19 +36,24 @@ fases:
     cargado_at: "2026-09-01T14:17:01Z"
   "01.2":
     nombre: mejora_descripciones
-    estado: pendiente
+    estado: cargado
     output_csv: outputs/vista_previa_enriquecimiento.csv
+    filas_csv: 279
+    cargado_at: "2026-09-01T19:50:00Z"
+    notas: "279/279 descripciones aplicadas + 983 aliases upsert (SKUs del alta GRAL). Vectorize encolada HTTP 200. Combos helados y ENVIO-DOM no tocados."
   "01.3":
     nombre: prompt_agente
-    estado: pendiente
+    estado: cargado
     output_json: outputs/phase-01-3-prompt-config.json
-    cargado_at: null
+    cargado_at: "2026-09-01T21:37:10Z"
+    notas: "v2 system_prompt + agent_base_prompt_client + recepcionista. Catálogo ~285 SKUs (ya no solo 6 combos). Teléfono y reglas_negocio (fulfillment/notif) conservados."
   "02":
     nombre: promociones
-    estado: pendiente
+    estado: omitido
     output_csv: outputs/phase-02-promociones.csv
     filas_csv: 0
     cargado_at: null
+    notas: "Omitido 2026-09-01: no hay promociones semanales reales. No cargar mocks. Combos de campaña siguen como SKUs de catálogo."
   "03":
     nombre: cross_upsell
     estado: pendiente
