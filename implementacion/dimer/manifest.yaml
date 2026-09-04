@@ -13,6 +13,30 @@ notas: "Distribuidora mayorista de alimentos congelados en la Quinta Región de 
 blocked:
   is_mock_migration: false  # Ya verificado que existe la estructura
 
+litoral_7_vendedores:
+  estado: cargado
+  excel: inputs/Propuesta Litoral 7 Vendedores.xlsx
+  objetivo: "Comunicar vendedor + jefe zonal (Francisco Diaz) para descongestionar el teléfono de Cata"
+  filas_cartera: 1531
+  ruts: 1453
+  cambian_vendedor: 419
+  destinatarios_wa: 957
+  ya_en_dimer: 43
+  creados: 914
+  etiquetados_litoral: 957
+  jefe_zonal: "Francisco Diaz"
+  jefe_zonal_telefono: "56961916961"
+  output_vendedores: outputs/litoral-vendedores.csv
+  output_cartera: outputs/litoral-cartera.csv
+  output_whatsapp: outputs/litoral-destinatarios-whatsapp.csv
+  output_resumen: outputs/litoral-resumen-vendedores.csv
+  plantilla_propuesta: dimer_litoral_contacto_v1
+  plantilla_id: "06451607-48e3-4d84-b3d2-3409f3387611"
+  plantilla_meta_id: "1832889678122512"
+  plantilla_status: PENDING
+  csv_listo_at: "2026-09-01T19:53:00Z"
+  cargado_at: "2026-09-01T21:55:00Z"
+
 recuperacion_mccain:
   estado: cargado
   output_clientes: outputs/recuperacion-mccain-clientes.csv

@@ -1,0 +1,958 @@
+telefono,mobile_key,client_id,rut,razon_social,comuna,codigo_ruta,vendedor_nombre,vendedor_telefono,jefe_zonal_nombre,jefe_zonal_telefono,cambia,match,pdvs_mismo_telefono,accion
+56932015878,932015878,,7626339-6,AGUILERA SALAZAR VINCA DE LA CRUZ,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950828780,950828780,,15060737-K,AHUMADA PUENTES CRISTIAN MARCELO,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993598520,993598520,,8409429-3,ALARCON ALVAREZ ALEJANDRA ANDREA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956864040,956864040,,14490876-7,ALBERTO HORACIO CABELLO OPAZO,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56934814098,934814098,,78328866-4,ALMACÉN FRESIA DEL CARMEN CASTILLO JAQUE E.I.R.L.,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56949605126,949605126,,77643934-7,ALOJAMIENTO Y DE SERVICIO DE COMIDAS ERIC GAETE EIRL,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56967062003,967062003,,11590170-2,ALVAREZ QUIROZ MARGARITA VERONICA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992718962,992718962,,9485682-5,ANA ELIANA UYARCE TOBAR,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977032804,977032804,,12274688-7,ANA ELIZABETH CLAVERIA SOLIS,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56975448912,975448912,,8219915-2,ARAVENA CISTERNAS MARIA ELENA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56962057360,962057360,,76941727-3,ARTE LITORAL SPA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993174512,993174512,,15355705-5,ASTORGA MONTECINO JOCELYN MACARENA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971766514,971766514,,14547437-K,AVILA JIMENEZ MICHELL CAROLA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968062072,968062072,,11052420-K,BINDER FLORES MARITZA ALEJANDRA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56944578767,944578767,,19429474-3,BRAYAN NICOLAS GONZALEZ ARAVENA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56948990152,948990152,,15089091-8,CACERES BARCAZO MIGUEL HUMBERTO,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56941355290,941355290,,19024867-4,CACERES ROBLEDO ROMINA IGNACIA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56931457323,931457323,,11628226-7,CAMPOS TORRES CLAUDIA FABIOLA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997303660,997303660,,15484033-8,CAROLINA ANDREA DEL SOLAR ERAZO,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56965471024,965471024,,15708012-1,CAROLINA ANDREA GUZMAN FUENTEALBA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56981605503,981605503,119,14143988-K,CARVAJAL MUNOZ CRISTIAN EDUARDO,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56953079035,953079035,,8297617-5,CATALAN BARRA MARIA RITA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999742516,999742516,,11183917-4,CATALAN JARA HERNAN GONZALO,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56942186259,942186259,,7818432-9,CELINDA JEANNETTE CORVALAN SALINAS,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982504967,982504967,,14003780-K,CINTHIA CORNEJO CASTILLO,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56931960846,931960846,,13923197-K,CLAUDIA JOSEFINA SEPULVEDA PUNTARELLI,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56944524875,944524875,,76104341-2,COMERCIAL LA SOLUCION LTDA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56936449780,936449780,452,77633837-0,COMERCIAL VERA SPA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56993095281,993095281,,76717231-1,COMERCIALIZADORA DEKASA SPA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56931022778,931022778,,76620415-5,COMERCIALIZADORA Y DISTRIBUIDORA BASAURE CHANG LIMITADA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968087366,968087366,,12472459-7,CONTRERAS ARAYA MARCELO FABIAN,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964453591,964453591,,15581607-4,CONTRERAS VERA JACQUELINE KATHERINE,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56963303624,963303624,,10190936-0,CORREA CARCAMO CLAUDIO OMAR,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999810389,999810389,,11189542-2,CORTES ARAVENA MARLENE DEL CARMEN,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,3,crear_cliente_y_enviar
+56998530924,998530924,,15087802-0,CORTES PAILAMILLA GLADYS MARJORIE,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56932361063,932361063,,17732364-0,DAGOBERTO ARTURO LUENGO ORELLANA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56981512191,981512191,,14456379-4,DAVID ALEJANDRO JIMENEZ MIRA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56978579637,978579637,,76238734-4,DISTRIBUIDORA Y COMERCIALIZADORA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984493688,984493688,,77606263-4,EL KRUSTACEO KASKARUDO SPA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999477033,999477033,,78001951-4,ELABORACIÓN Y COMERCIALIZADORA CLAUDIO ALEJANDRO ALVAREZ CARO E.I.R.L.,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56965923639,965923639,,18830380-3,ESTRELLA LUCERO GONZALEZ GARRIDO,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959373614,959373614,,16458204-3,FERNANDO MIGUEL RAMIREZ SOTO,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995044572,995044572,,8347684-2,FIDELINA VICTORIA DURAN MALLET,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56988802220,988802220,,76313786-4,FRANCISCO JAVIER PEREZ MUNOZ,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56963162615,963162615,,10925819-9,FREDDY MAURICIO MINO JELDRES,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56934820925,934820925,,13546472-4,FUENTES BASUALTO DANIEL FELIPE,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56973945739,973945739,,10730882-2,GALLEGOS SILVA PATRICIA CARMEN,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956377367,956377367,,6909473-2,GAMBOA GAMBOA JUAN GUILLERMO,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957488571,957488571,,17456368-3,GARCIA CATALAN FRANCISCO JAVIER,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983412833,983412833,,11737119-0,GARCIA GARCIA FELIPE ESTEBAN,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56937053265,937053265,,26018836-4,GARCIA RIVAS CARLOS ALBERTO,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56920608191,920608191,515,14697218-7,GARCIA ZUNIGA EDITHA DEL SOCORRO,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56933189902,933189902,822,12785872-1,GARRIDO CABRERA JESSICA DEL CARMEN,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56932743431,932743431,,14524484-6,GARRIDO HINOJOSA SYLVIA MARIA EDITH,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999407367,999407367,,78175143-K,GASTRONOMICA SIMA SPA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992504029,992504029,,10463122-3,GIULIANI GIULIUCCI LEDDA ANTONELL,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999055088,999055088,,8966023-8,GOMEZ LOPEZ SONIA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997424891,997424891,,12830041-4,GONZALEZ GONZALEZ PATRICIO ALEJANDRO,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56930626660,930626660,,10120409-K,GUTIERREZ MORAN MYRIAM LUZ,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56991244374,991244374,,77163060-K,HERMANOS ARAYA ROJAS Y COMPANIA LIMITADA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56933790321,933790321,,12960458-1,HERNANDEZ REYES MARIELA JESSICA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56949794243,949794243,,16257832-4,HERNANDEZ STAVILE CARLA ANDREA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995188905,995188905,,96370000-8,HOTELERA COSTA SUR,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56997826284,997826284,,10074959-9,IBARRA VICHUNANTE VERONICA DEL PILAR,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972175372,972175372,,10907090-4,JACQUELINE MERCURIO INOSTROZA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56940064054,940064054,,6834775-0,JARA GUZMAN CLEMENTINA ADRIANA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56973541069,973541069,,16738580-K,JORGE ANDRES ARMIJO SALAZAR,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972011145,972011145,,15559328-8,JOSE GARCIA VEGA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56930950843,930950843,,77063339-7,JOSE SANTIS MOYA E HIJOS LTDA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999115606,999115606,,13913908-9,JUAN CARLOS GONZALEZ ACUNA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56962160482,962160482,,16122735-8,KAREM ANDREA HENRIQUEZ SALINAS,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956271266,956271266,453,11873748-2,LILIANA SOLEDAD NOVOA CONTRERAS,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56973776897,973776897,,16122589-4,LINDA HEYCER MEDEL HURTADO,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56981237941,981237941,,78100879-6,LIQUIDADORA LAS CRUCES SPA,Algarrobo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56968532456,968532456,,9018968-9,LUIS MANCILLA LOPEZ,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56939073710,939073710,,7745611-2,LUISA ISABEL ARAYA MORALES,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56953893583,953893583,,76068350-7,LUZ MARIA VIDAL ROJAS  Y CIA LTDA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56954116522,954116522,,26066180-9,MAKELY PRESILOS,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993923556,993923556,,17454819-6,MARCELA PAULINA MARTINEZ FLORES,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989676566,989676566,,9593739-K,MARCHANT VELASQUEZ VICTORIA MARISOL,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974368722,974368722,,8757023-1,MARIA ISABEL VELASQUEZ URRA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56942017534,942017534,,8416284-1,MELO ROJAS ELIZABETH DE LAS,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56965729899,965729899,,78077813-K,MINIMARKET EL BOLA LIMITADA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56975547227,975547227,753,12452605-1,MINIMARKET LA FAMILIA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56959574328,959574328,,77461428-1,MINIMARKET SOL SIRIO SPA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987537543,987537543,,19905964-5,MORAGA ARCE GISLAINE PRISCILA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996091519,996091519,,18750192-K,MUNOZ MERCURIO CAMILA ANDREA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998347442,998347442,227,7476240-9,MUNOZ SANCHEZ GLADYS ANGELA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56951864234,951864234,,9788125-1,NANCY DEL CARMEN FIGUEROA REYES,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964596251,964596251,607,77851848-1,NEKE SPA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56957395067,957395067,,76662527-4,OCHO MARKET,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56930960846,930960846,,6590247-8,OPAZO SILVA ESMERALDO ENRIQUE,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956123837,956123837,,5125483-K,ORELLANA SOTO SERGIO HERNAN,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992585737,992585737,,11198787-4,ORELLANA VILCHES MARCELA ANTONIETA,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56947464529,947464529,,5162703-2,PALMA ROMAN HAYDEE DE LAS MERCEDE,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990893085,990893085,,12242666-1,PATRICIA FILOMENA RIVERO PEREIRA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982068445,982068445,,4495973-9,PENA HUERTA ALFREDO,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950690075,950690075,,7367001-2,QUINTANILLA LILLO LUIS CANTALICIO,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977328399,977328399,,11314858-6,QUIROZ URRUTIA NANCY DEL CARMEN,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957049536,957049536,,78019767-6,RAFFAELE RESTO BAR LIMITADA,Valparaíso,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56978236518,978236518,,12189880-2,RAMIREZ FLORES LIDIA DEL ROSARIO,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56979038568,979038568,,6518626-8,RAMIREZ GONZALEZ RENE FERNANDO,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998359925,998359925,,76936048-4,RINCON TABINO RESTAURANTE Y BAZAR SPA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56955117183,955117183,,12958995-7,RIVEROS MORENO SUSANNE JEANNETTE,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56961586547,961586547,,6730414-4,ROBLERO MENARES ELIZABETH GLADYS,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968474885,968474885,,12825513-3,ROJAS CUADRO PATRICIA MARGARITA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56942495824,942495824,,6939922-3,ROSA ELENA CATALAN ROJAS,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56929502796,929502796,,25814216-0,SAINTIVE JEAN,San Antonio,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998505734,998505734,,12328401-1,SALGADO CASTILLO NANCY PILAR,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56949541640,949541640,610,8953393-7,SALVATIERRA AHUMADA ROSA EDELMIRA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,en_dimer,2,asignar_existente
+56977631889,977631889,,18356504-4,SEBASTIAN AYLINKO QUITRAL PENA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56934173619,934173619,,10069212-0,SEPULVEDA GODOY LUCIA DEL CARMEN,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994393297,994393297,,26484751-6,SERRANO AGUILAR DAY ANN ANABELL,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56962316154,962316154,,9156990-6,SILVA ROJAS MARIA ELIZABETH,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987629947,987629947,,8991748-4,SILVIA ALICIA FARIAS LABARCA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56944004548,944004548,,76487177-4,SOCIEDAD COMERCIAL BEACH AN FOODS SPA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56991581397,991581397,,76879652-1,SOCIEDAD COMERCIAL MALLOCO Y CIA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996444093,996444093,,77501305-2,SOCIEDAD COMERCIAL SANTIS MOYA Y CIA LTDA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56930571009,930571009,,76911531-5,SOCIEDAD COMERCIAL TORRES Y,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56963755583,963755583,,76874977-9,SOCIEDAD COMERCIALIZADORA DE,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56941388917,941388917,,76169822-2,SOCIEDAD HOTELERA GASTRONOMICA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977144032,977144032,,77382164-K,SOFIA GALVEZ ALMACEN E.I.R.L,Algarrobo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993573795,993573795,,53293490-7,SUCESION ALVAREZ SILVA ORFELIA DEL,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56948467213,948467213,,8345944-1,SUSANA DEL CARMEN MORALES MAULEN,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957562886,957562886,,10037835-3,TAPIA TORO MARIA ISABEL,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56951088436,951088436,,77094030-3,TERRA QUINCHO LIMITADA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56978747328,978747328,,18055080-1,VALDES LOBOS DANIELA FRANCISCA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56912545648,912545648,,8184539-5,VARGAS HUERTA KARINA DE FATIMA,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998520329,998520329,,7100601-8,VASQUEZ PAREDES JOSE GENARO,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56958280086,958280086,,5182824-0,VELASQUEZ MUNOZ ALEJANDRO,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56961737532,961737532,,12511158-0,VICTORIA JACQUELINE POHL TRONCOSO,El Tabo,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990072412,990072412,,12491989-4,VILLAGRAN FUENZALIDA VALERIA ISABEL,Cartagena,28,Doralisa Vivencio,56979888434,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992246816,992246816,,77858752-1,A&H SPA,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56961427847,961427847,,12958075-5,ABARCA MUGA PATRICIA DEL PILAR,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56962169240,962169240,,14551848-2,ABARCA QUIROZ FRESIA ISABEL,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985239618,985239618,,10200426-4,ACUNA NARANJO XIMENA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972154986,972154986,,76475199-K,ADMINISTRACIÓN DE CAFETERÍAS. MÓNICA VALDÉS GUZMÁN EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56967760963,967760963,,7884301-2,ALDO AQUILES TILLERIA FLORES,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974377791,974377791,,77203335-4,ALMACEN BEATRIZ DEL CARMEN VARGAS,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977576122,977576122,,77508733-1,ALMACEN MARIA EUGENIA AMESTICA MEZA E.I.R.L,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956406513,956406513,,78067261-7,ALMACÉN Y VERDULERIA DOÑA FLORENCIA SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56973382995,973382995,,76325623-5,AMASANDERIA SOFIA DE LAS MERCEDES,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56973743895,973743895,,15088274-5,ARAYA ESCOBAR AMANDA CAROLINA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994890584,994890584,,6827874-0,ARAYA VERA IRMA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992924691,992924691,,17815855-4,AYALA ZUNIGA CRISTOBAL ALEXIS,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956894466,956894466,,6322337-9,BARRAZA SANTIS MARGARITA DEL CARMEN,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989922634,989922634,,77123577-8,BOTILLERIA EL SEMAFORO SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56944895862,944895862,,77946812-7,BOTILLERIA ERNA GENOVEVA SOTO OPAZO E.I.R.L.,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995012812,995012812,,14003131-3,BUSTOS VERA BERNARDO RODRIGO,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989049887,989049887,,8157054-K,CABANAS FRANCE SILVIA ROSA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56963295110,963295110,,10413281-2,CARLOS RAFAEL MUNOZ OLGUIN,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992280971,992280971,,8686896-2,CARMEN LUZ VERGARA RODRIGUEZ,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968195862,968195862,,77018835-0,CASTLE SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56939246245,939246245,,77559861-1,CENTRO INTEGRAL DE BELLEZA UNIQUE STYLE SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989289211,989289211,,77602459-7,COMERCIAL ARROBA SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56954019573,954019573,,77981614-1,COMERCIAL BOTIMARKET SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997332093,997332093,,77075426-7,COMERCIAL FELIPE ANDRES ARRIAGADA ARAYA E.I.R.L,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968798904,968798904,,76633318-4,COMERCIAL GARRNAV LTDA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984898187,984898187,,78226546-6,COMERCIAL LAS AGUILAS SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56973310651,973310651,,77774492-5,COMERCIAL URRUTIA Y COMPANIA SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56979768819,979768819,,77301023-4,COMERCIALIZADORA DE LAS DELICIAS DE MI TIERRA SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993260033,993260033,,77241241-K,COMERCIALIZADORA LA NARANJA SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966480345,966480345,,77486961-1,COMERCIALIZADORA MARTIN TEILLERY BRAVO E.I.R.L,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56937462876,937462876,,78162655-4,COMIDA AL PASO PAOLA ANDREA ALARCÓN AEDO E.I.R.L.,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956443141,956443141,,77752937-4,DISTRIBUIDORA IMPERIO,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56953984738,953984738,,77396789-K,EL ROBLE SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971377224,971377224,,77535680-4,ENRIQUE OLMEDO Y COMPANIA LTDA,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56967159387,967159387,,76151483-0,ESTACION DE SERVICIO MASCO LTDA,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989652737,989652737,,9544605-1,FARIAS BERRIOS EUGENIO DEL CARMEN,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56946736508,946736508,,7887113-K,FERNANDO AUGUSTO TAPIA GALLEGUILLOS,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56940444320,940444320,,12570382-8,FLORES PERALTA RUTH ELIZABETH,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989522587,989522587,,12604060-1,FUENTES ABARCA JUANA ROSA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990119228,990119228,,10361209-8,GONZALEZ GONZALEZ LETICIA ADRIANA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56920421328,920421328,,10807659-3,GONZALEZ JUAN CARLOS,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987601318,987601318,,6120802-K,GUTIERREZ ULLOA JUAN,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56961010972,961010972,,18447049-7,HERNANDEZ MUGA BELEN MARISOL,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977197530,977197530,,8983859-2,HERNANDEZ VERA CELIA MARGARITA,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997039143,997039143,,8196875-6,HERRERA ANCAIN LUIS VICTOR,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959225052,959225052,,12825678-4,HINOJOSA JIMENEZ CARMEN RITA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971477710,971477710,,9286441-3,HORTENSIA INES NUÑEZ QUINTEROS,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56934428747,934428747,,17816932-7,HUERTA ALLENDES NICOL SUSANA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56947945456,947945456,,78077759-1,INVERSIONES N&H SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56955115890,955115890,,78081969-3,INVERSIONES SANCHEZ & HUERTA SPA,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990838947,990838947,,8134999-1,IVAN FRANCISCO BERRIOS GONZALEZ,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957204137,957204137,,12137631-8,JERIA GOMEZ MARTA INES,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989573996,989573996,,9157782-8,JUKIA ELISA CASTRO CERDA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974102448,974102448,,13186289-K,LAZO TRINCADO PAOLA ANDREA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56976138389,976138389,,13768630-9,LEIVA LEON SILVANA ELIZABETH,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950050730,950050730,,77492121-4,LIQUIDADORA A Y F SPA,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56963745011,963745011,,10053434-7,LUCIA ALEJANDRA ALLENDES FIGUEROA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56975585360,975585360,,10028992-K,LUIS ALBERTO BERRIOS CASTRO,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966174857,966174857,,11738683-K,LUZ ELIANA FLORES FUENTES,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56938708473,938708473,,9307390-8,MADRID FUENTES MARIA ANTONIETA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968957485,968957485,,13546717-0,MARIA ALEJANDRA RAMIREZ RODRIGUEZ,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56938580625,938580625,,8508587-5,MARIA RAQUEL GUZMAN OROZCO,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56947913067,947913067,,16145323-4,MILITZA DEL CARMEN JORQUERA MUNOZ,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983349399,983349399,,77547849-7,MINIMARKET CARLOS ALVAREZ EIRL,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977940794,977940794,,78347069-1,MINIMARKET EL CHUCKY SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56930240227,930240227,,77623436-2,MINIMARKET MARIA LUISA CORTES E.I.R.L.,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56933518912,933518912,,77671938-2,MINIMARKET SALOMON RUBEN SOLIS CIPRIANI E.I.R.L.,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966837425,966837425,,77551919-3,MINIMARKET VICTORIA SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56932834197,932834197,,77115001-2,MINIMARKET Y COMIDA AL PASO DAYANNE,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56932473185,932473185,,9058629-7,NUNEZ QUINTEROS CARLOS DIEGO,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950066148,950066148,,4933535-0,OLGUIN PINO JUANA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56938628176,938628176,,12315880-6,PALMENIA DEL CARMEN YANEZ CACERES,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992328156,992328156,,76936043-3,PAMELA GEOVANA GONZÁLEZ SILVA E HIJAS SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56978474299,978474299,,77001046-2,PANADERIA Y PASTELERIA EL TREBOL,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56949147783,949147783,,9987116-4,PARDO GONZALEZ ROSA ELIANA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56937533540,937533540,,77958136-5,PASTELERIA Y PANADERIA ROSSANA REYES E.I.R.L.,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56963453659,963453659,,11946429-3,PENA MESA JUAN RAMON,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56981858919,981858919,,6030311-8,PENALOZA MEZA JUAN,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56988694499,988694499,,11662963-1,PEREZ ARMIJO LUCIANO EDISON,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989602435,989602435,,15089728-9,PINA SEPULVEDA VIVIANA ANDREA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974987598,974987598,,15873408-7,RAQUEL DEL CARMEN CABRERA CALDERON,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56988866047,988866047,,6020374-1,REINALDO MONTECINO PENAILILLO,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968619564,968619564,,76812560-0,RESTAURANT KUNFO DOS LIMITADA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56961249495,961249495,,76215276-2,RESTAURANTE JIMMY ESPINOZA Y,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945797034,945797034,,77246847-4,RESTAURANTE SJMV LIMITADA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56955942315,955942315,,9083776-1,REYES ROMERO SANDRA YANET,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996708553,996708553,,9751641-3,RIQUELME GARCES MARIA INES,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56948569573,948569573,,15713135-4,RIQUELME HERRERA JOSE LUIS,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56939449327,939449327,,6881187-2,RIVEROS LOPEZ RODOLFO ANTONIO,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989516931,989516931,,14334400-2,RODRIGUEZ ALLENDES MARCELO,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989885059,989885059,,13768432-2,ROMAN RAMIREZ EVELYN PATRICIA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974989159,974989159,,13636730-7,ROSA ANDREA LOPEZ VALDENEGRO,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985281107,985281107,,6775146-9,SARA PATRICIA DEL CARMEN ARMIJO ABARCA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971057751,971057751,,11184305-8,SEPULVEDA ACEVEDO ERNESTINA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987565769,987565769,,89851600-8,SOC FARMACEUTICA LITORAL CENTRAL LIMITADA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56934360060,934360060,,76033460-K,SOC MANZO Y MANZO LIMITADA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993464399,993464399,,76785201-0,SOCIEDAD COMERCIAL CMS SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993099928,993099928,,76197916-7,SOCIEDAD COMERCIAL Y AGRICOLA PACIFICIO LIMITADA SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989612456,989612456,,78383286-0,SOCIEDAD CROISSANT SO LTDA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56939374860,939374860,,77954587-3,SORIANO Y ESPINOZA SPA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968067784,968067784,,8329567-8,SOTO BRICENO MARIA LORETO,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56979906980,979906980,,6783482-8,SOTO NUNEZ DOMINGA,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990834348,990834348,,6543929-8,SUAZO RIQUELME NORMA DEL ROSARIO,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982891658,982891658,,53324190-5,SUCESION IVONNE LUZ DE LA FUENTE,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996904572,996904572,,76814814-7,SUPERMERCADO FLORENCIA LIMITADA,Santo Domingo,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950047893,950047893,,11945232-5,SUSANA DEL PILAR PAILAMILLA MOYA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993715444,993715444,,16413448-2,TIMOTHY ADAM MUNOZ FREDES,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56976639424,976639424,,14275141-0,TOBAR AMESTICA CECILIA XIMENA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56953244391,953244391,,11946347-5,TORRES VENEGAS XIMENA LORETO,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983405625,983405625,,8072655-4,UGARTE GUZMAN VIVIANA EUGENIA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56932376705,932376705,,11184405-4,ULLOA FIGUEROA CLAUDIA ESTER,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957209624,957209624,,6317256-1,URIBE CUEVAS SILVIA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56981787261,981787261,,23248761-5,VALLADALES CANO DIANA MARCELA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994315481,994315481,,6572671-8,VELIZ ARAYA ROSALIA,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999238443,999238443,,17454493-K,Viviana Italia Aguirre perez,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56946334089,946334089,,6415280-7,YANEZ CARRENO MANUEL,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966855554,966855554,,10539003-3,YANEZ MALDONADO SILVIA DEL CARMEN,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972237966,972237966,,8390900-5,ZULETA QUINTEROS,San Antonio,29,Maryvonne Zárate,56964636942,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56961958780,961958780,,14380344-9,ABARCA MORALES SANDRA TATIANA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56955125525,955125525,,9535447-5,ACEVEDO PIZARRO MANUEL ANTONIO,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984027539,984027539,,8800979-7,ADOLFO DEL CARMEN ALMARZA JEREZ,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56965183174,965183174,,76043762-K,AGROCOMERCIAL SANTA ALICIA LTDA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993278365,993278365,,10552273-8,AGURTO SILVA LUIS,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966033667,966033667,,14379954-9,ALBRECHT SILVA FERNANDA,METROPOLITANA,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974546234,974546234,,8413616-6,ALLENDE CISTERNAS MARCO ALBERTO,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56955366891,955366891,,13560318-K,ALMARZA CACERES VIRGINIA DEL CARMEN,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999138655,999138655,,12178303-7,ALMARZA JEREZ MARIO RODRIGO,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56933557510,933557510,,10203755-3,ALVARADO LEON TERESA DE JESUS,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997270613,997270613,,8609242-5,ALVAREZ MANZO ALBERTINA DEL CARME,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968036944,968036944,,14008257-0,ALVIAL SANTIBANEZ KATHERINE IVONNE,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56946832651,946832651,,15405824-9,ANA KARINA LEIVA VASQUEZ,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56946621188,946621188,,16854987-3,ANA MARIA ACEITUNO URETA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999927535,999927535,,13145056-7,ANABALON RIVAS CLAUDIA ANDREA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999192611,999192611,,8968555-9,ARAOS LOPEZ MANUELA ISABEL,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984418281,984418281,,9220454-5,ARAVENA LASTRA GLORIA DEL CARMEN,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998833864,998833864,,5436854-2,ARIAS YANEZ JOSE MARIA EUGENIO,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987910002,987910002,,14379654-K,AROZ CARRENO MARITZA ISABEL,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974809263,974809263,,15404325-K,BERNARDITA DEL CARMEN PLAZA FIGUEROA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56962640644,962640644,,11443078-1,CARLOS ARTURO NEIRA PICEROS,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945697536,945697536,,11608091-5,CARLOS DOMINGO MUNOZ BERRIOS,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56926093842,926093842,,14204424-2,CARLOS IVAN CASTRO HIDALGO,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56967148884,967148884,,10911565-7,CARRASCO PINA FRESIA DEL CARMEN,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956653236,956653236,,8675408-8,CESPEDES RIQUELME GUILLERMINA LUI,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998746976,998746976,,8993502-4,CHAVEZ FARIAS AMPARO DE LOURDES,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56954388118,954388118,,15405995-4,CINTHIA CRISTINA ARMIJO HERNANDEZ,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56981572476,981572476,,77271265-0,COMERCIAL LUIS PATRICIO PARODI ORTEGA E. I. R. L.,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996819483,996819483,,77098271-5,COMERCIAL MARIA CECILIA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983765281,983765281,,78436661-8,COMERCIAL PALOMA ANDREA ALFARO E.I.R.L,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982909751,982909751,,78184438-1,COMERCIAL TOMAS MEZA PEREZ E.I.R.L.,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56930785621,930785621,,77492074-9,COMERCIAL Y MINIMERCADOS ALTO MAITEN SPA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56941542220,941542220,,76652171-1,COMERCIALIZADORA GONZALO ELEODORO IRARRAZABAL GAETE EMPRESA INDIVIDUAL,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992166583,992166583,,78370642-3,COMERCIALIZADORA VANESSA PAZ ROJAS NUNEZ E.I.R.L.,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996626437,996626437,,10247030-3,CONTRERAS AZUA JOSE VICENTE,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987476047,987476047,,10286208-2,CONTRERAS GUTIERREZ GEORGINA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989362031,989362031,,16292343-9,CORNEJO OSORIO ELIZABETH LORENA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993370056,993370056,,6664247-K,CORREA MARTA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56973845322,973845322,,8779493-8,CRISTINA DEL CARMEN PAIVA CAMPOS,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966358079,966358079,,77520343-9,ELECTRONICA JUAN OLMOS CASTRO E.I.R.L.,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983810476,983810476,,8553003-8,ESCARATE AGUILERA ANA PAULINA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56931190104,931190104,,11692347-5,EUGENIA DEL CARMEN BORQUEZ FUENTES,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997436924,997436924,,10809335-8,EUSTOLIA DEL PILAR LOPEZ JEREZ,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995652480,995652480,,18776976-0,EVELYN ROSEMARY TAPIA PLAZA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56942963545,942963545,,9466777-1,FIGUEROA ESPINOZA FLORINDA ROSA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984116096,984116096,,12474185-8,FUENTES GONZALEZ ELIANA CLARENCIA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977696581,977696581,,10470887-0,FUENTES LEIVA JACQUELINE,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966006595,966006595,,15389234-2,GABRIEL RICARDO VIDAL ARRIAGA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945541991,945541991,,18778687-8,GALLEGUILLOS GOMEZ JOSELYN,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56967263296,967263296,,7641146-8,GONZALEZ REYES JAIME VICENTE,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966993463,966993463,,14520882-3,GONZALEZ VARGAS JOSE ALBERTO,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950705011,950705011,,14245609-5,GUZMAN MALDONADO CLAUDIA YOLANDA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,4,crear_cliente_y_enviar
+56956652533,956652533,,17397544-9,HELEN ODETTE MORENO SANCHEZ,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56988374784,988374784,,7843696-4,HENRIQUEZ SEPULVEDA ELISA MABEL,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56930548060,930548060,,11066931-3,HERNANDEZ ZAMORANO REBECA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996361560,996361560,,22709912-7,HUAYTA FLORES HUBERT,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56950233333,950233333,,78293614-K,IMPACT SERVICIOS SPA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971528151,971528151,,9451527-0,JARA YANEZ MARIA MAGDALENA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997660429,997660429,,76488350-0,JC. PEREZ Y COMPANIA LIMITADA COPEC,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56935158420,935158420,,15867404-1,JENIFER MAGDALENA ABARCA PAILAMILLA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998712950,998712950,,8567121-9,JERIA GARRIDO MARIA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56935706554,935706554,,19245581-2,JOFRE BENAVIDES PAMELA ALEJANDRA,METROPOLITANA,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985901014,985901014,,12179318-0,JUAN CARLOS IBARRA VARGAS,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956465237,956465237,,12868348-8,JUAN CARLOS OROZTICA GONZALEZ,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56986537131,986537131,,16128687-7,JUAN MARCELO QUINTANILLA LIZAMA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56942805259,942805259,,9053333-9,JUAN VALENTIN HERNANDEZ ARAVENA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983209716,983209716,,16290679-8,LIDIA EUGENIA AGURTO BALBI,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56955212420,955212420,,16577007-2,LORETO MACARENA CAVIERES GUZMAN,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56991389332,991389332,,8906810-K,MALDONADO MEZA ARMANDO DEL CARMEN,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964494644,964494644,,11697598-K,MARAMBIO FUENZALIDA VALESKA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957354036,957354036,,17292739-4,MARIA ANDREA YANEZ MEZA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56986039163,986039163,,13559223-4,MARIA CRISTINA HERNANDEZ ADASME,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983788060,983788060,,14008119-1,MARIA JESUS FLORES MENDEZ,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982110579,982110579,,19183614-6,MARIA JOSE ESPINOZA SILVA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56965496125,965496125,,8091190-4,MARIA SARA HERNANDEZ GONZALEZ,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982168518,982168518,,14311750-2,MARTINEZ CHACON JUAN FRANCISCO,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968076138,968076138,,6391771-0,MARTINEZ JARA MIGUEL ANGEL,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992007282,992007282,,17402048-5,MASIP ARAP ESTEFANIA ALEJANDRA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982078001,982078001,,6654726-4,MASSOUD PATRICIO,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990132712,990132712,,14245660-5,MATURANA LAGOS JESSICA DEL CARMEN,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56958214122,958214122,,6300950-4,MESSEN CASTANEDA SADY,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56958072132,958072132,,77865712-0,MINIMARKET ANA MARIA ACEITUNO URETA EIRL,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993221579,993221579,,77827558-9,MINIMARKET ANDRES EDUARDO FRIAS ARMIJO E.I.R.L.,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56981865259,981865259,,18082057-4,MINIMARKET LAS PALMERAS,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945163966,945163966,,77586564-4,MINIMARKET MICHELLE DOMINIQUE BARRERA PINOCHET EIRL,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972161455,972161455,,76989488-8,MINIMARKET NATALIA PAZ CANDIA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56941800170,941800170,,76883599-3,MINIMARKET Y VIDRIERIA EL PONCHO LIMITADA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56936306343,936306343,,77283106-4,MIRANDA MARKET SPA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992490437,992490437,,7563332-7,MOLINA URREA MONICA VICTORIA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990977887,990977887,,13772579-7,MOYA ROJAS GABRIEL EDGARDO,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995790276,995790276,,8171947-0,MUNOZ SEPULVEDA JOSE DAVID,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56974357317,974357317,,9079626-7,OLMEDO FARIAS MAXIMO ENRIQUE,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971352229,971352229,,11608699-9,ORELLANA OSORIO ALFONSO ENRIQUE,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56953620688,953620688,,15405452-9,PADILLA JERIA JUAN PABLO,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983160853,983160853,,76449919-0,PANIFICADORA ROMERO SPA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945757649,945757649,,16197183-9,PAOLA DE LAS MERCEDES ROJAS PONCE,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983240960,983240960,,5206654-9,PARRA PARRA MIGUEL,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56946264869,946264869,,77240651-7,PASTELERIA Y COMERCIAL DON ALEX LTDA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999641795,999641795,,9075247-2,PINA BALLESTEROS AUGUSTO ALEJANDR,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987687757,987687757,,76580158-3,PIVU MARKET SPA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56978537579,978537579,,8819943-K,QUINTANILLA GONZALEZ AMALIA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992651225,992651225,,77593190-6,QUINTANILLA Y OTRO LIMITADA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956855693,956855693,,14497414-K,RAFAEL ESTEBAN PIZARRO REYES,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56969043357,969043357,,15481258-K,RAQUEL DEL PILAR MERINO FIGUEROA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945690809,945690809,,77852130-K,RESTAURANT PARRILLADAS ARGENTINA MELIPILLA LTDA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987482078,987482078,,14246340-7,RETAMALES PENAILILLO ALFREDO EMIL,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56978715044,978715044,,9786084-K,RIVAS NUNEZ MARIA ISABEL,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987731270,987731270,,24478667-7,ROJAS HERRERA CRISTHIAN MAURICIO,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56941396517,941396517,,79861120-8,ROMANINI GAINZA LIMITADA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,3,crear_cliente_y_enviar
+56987417851,987417851,,89184500-6,ROMANINI Y PETERMANN LIMITADA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56973424942,973424942,,10649344-8,ROMERO AGUILAR LUZMIRA ROSA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982624851,982624851,,11231445-8,ROSA VICTORIA MATELUNA NUNEZ,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993673703,993673703,,14008234-1,SALDANA OVIEDO INGRID BEATRIZ,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984082780,984082780,,5218501-7,SANDOVAL BUSTAMANTE AMADA TERESA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971829070,971829070,,79863670-7,SOCIEDAD ARTURO VASQUEZ,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982445240,982445240,,76231815-6,SOCIEDAD COMERCIAL PEREZ Y VERGARA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56953707742,953707742,,77908617-8,SOCIEDAD COMERCIAL PREZ ALARCN LTDA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56937366633,937366633,,10903717-6,SONIA ANGELICA CORREA RIQUELME,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987223320,987223320,,77897692-7,SUPERMERCADO CLAUDIO ANDRES QUINTANILLA LIZAMA E.I.R.L.,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999899655,999899655,,77072571-2,SUPERMERCADO FRANCISCO JAVIER,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987648182,987648182,,15623785-K,TOBAR MEDINA ELIZABETH NATALIA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56958237338,958237338,,12412430-1,UGARTE VELASQUEZ HAYDEE MACARENA,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56934857985,934857985,,18497795-8,URIBE BLEY NICOLAS ANDRES,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990546438,990546438,,14312437-1,VALDES CASTILLO FLORA DE LAS,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972487101,972487101,,15622498-7,VICTOR ALFREDO RIVERA MENARES,Melipilla,30,María Verónica Montes,56958142220,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994383148,994383148,,12130136-9,AGUILAR ZUNIGA ROSA LORENA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992657863,992657863,,11229544-5,AHUMADA PALACIOS SEGUNDO,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968480850,968480850,,77627100-4,ALIMENTOS PUANGUE LTDA,Casablanca,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56937382454,937382454,792,77944753-7,ALMACEN Y MINIMARKET ALEXI BALCAZAR BARBA E.I.R.L.,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56993027134,993027134,,6967550-6,ALVARADO GONZALEZ MARIA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966562223,966562223,,16204900-3,ALVARADO YANEZ LUCIA AURORA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968351180,968351180,,8008864-7,ALVAREZ LORCA MYRIAM VILMA DEL CARMEN,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999873309,999873309,781,9312908-3,ALVAREZ RIVERA GLORIA DEL CARMEN,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56977545883,977545883,,11170333-7,ANA MARIA SALVADOR DINAMARCA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945635795,945635795,,16751693-9,ANGELA FABIOLA TOGNARELLI BENUCCI,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56979980692,979980692,,10212252-6,ARANDA ARAOS LUIS ALBERTO,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56967295726,967295726,,19025127-6,ARIAS LUQUE CONSTANZA DEL C.,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987635594,987635594,,76600398-2,ARTESANIA HERNAN ARAYA EIRL,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998469038,998469038,,76352126-5,BANQUETE DE MARCELO LETELIER SIVORI EIRL,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56967266171,967266171,,12364697-5,CABRALES ROJAS MARIA ANGELICA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992829808,992829808,,12958967-1,CABRERA OROZCO MARIA MACARENA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956362475,956362475,,7964985-6,CABRERA TORO MARIA CAROLINA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56952343732,952343732,,10745709-7,CARDENAS FERNANDEZ PATRICIA INES,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56920837469,920837469,,15404665-8,CATALAN ALVAREZ NANCY JOHANA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56981200571,981200571,,10927696-0,CATALAN VILCHES LUZ ELIANA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999707650,999707650,,10653354-7,CECILIA DEL CARMEN LISPERGUER,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56951145296,951145296,,76066527-4,CENTRO TURISTICO EL QUILLAY S.A.,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993222924,993222924,,8733341-8,CISTERNAS VALLADARES MARIANELA,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956918315,956918315,,76297157-7,COMERCIAL FELIPE QUIROZ Y PENALOZA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993346118,993346118,,77705205-5,COMERCIAL IRIS ANGELICA ROJAS VERA EIRL,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956362545,956362545,,76187530-2,COMERCIAL MILLAHUE LTDA.,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56978060513,978060513,,77053243-4,COMERCIAL MONTECINOS HERRERA SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977395442,977395442,,77387027-6,COMERCIAL PAULINA JARA SILVA E.I.R.L.,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56975252957,975252957,,77115886-2,COMERCIAL VICTORIA PIÑEIRA MORALES E.I.R.L.,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56948749428,948749428,,77575654-3,COMERCIALIZADORA JULIAN MUÑOZ ESTROZ E.I.R.L.,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56941710317,941710317,300,76954302-3,COMERCIALIZADORA MONJE CASANOVA LIMITADA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56993816133,993816133,,77617006-2,COMIDA AL PASO DANIELA ELIZABETH MARTÍNEZ MARTÍNEZ E.I.R.L.,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989662185,989662185,,76610587-4,COMPRA VTA FRUTAS VERDURAS EDUARDO CESPEDES EIRL,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966815917,966815917,,78406601-0,CONGELA2 SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56940635641,940635641,,77521054-0,CONSTRUCTORA PABLO MENESES SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999574054,999574054,,11601254-5,CONTRERAS URQUETA RAMONA DE LAS MERCEDES,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56954662685,954662685,,12855709-1,CORNEJO GALVEZ FRESIA HERMINIA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56974378307,974378307,,15648950-6,DANIELA ALEJANDRA LEIVA OLMEDO,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56921130869,921130869,,11785637-2,DIAZ MEDINA ROSA ESTER,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992114292,992114292,,78154801-4,DISTRIBUIDORA 365 SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950837474,950837474,,10722854-3,DUARTE ARIAS  SANDRA VALESKA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56965401337,965401337,,10241409-8,DUARTE ARIAS DIONETH ANGELICA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987297391,987297391,,13837682-6,ELIZABETH ANDREA PEREZ DIAZ,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56932812481,932812481,,11239846-5,ELIZABETH DE LA LUZ VIGUERAS ROMA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974703473,974703473,,77350985-9,EMPORIO LAS PALMERAS SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966233352,966233352,,76509039-3,ERLE GOURMET S.P.A,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997311670,997311670,,14005021-0,ESCOBAR GONZALEZ MANUELA DEL PILAR,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56982369389,982369389,,9857080-2,FUENTES GONZALEZ ALICIA DE LAS MERCEDES,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964315076,964315076,,10949231-0,GALAZ RIQUELME MARIA ISABEL,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56933053660,933053660,,17986405-3,GALLEGUILLOS GONZALO MATIAS,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992742362,992742362,,5573158-6,GALVEZ PACHECO RUBEN ALAN,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56941745652,941745652,,12799081-6,GARATE GUZMAN  MARIA TERESA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56922071185,922071185,,77619339-9,GASTRONOMIA DAMARIS CASTRO VILLARROEL E.I.R.L.,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992523886,992523886,,8426811-9,GEORGINA DE LAS MERCEDES OLIVARES GAMBOA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974856127,974856127,,9214182-9,GLORIA ESTER JIMENEZ MENA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971779792,971779792,,9343526-5,GONZALEZ CORTES CIRIA DEL CARMEN,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56935222930,935222930,,9375085-3,GONZALEZ LOYOLA CARMEN JACQUELINE,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56979334443,979334443,340,17578815-8,GONZALEZ REBOLLEDO MARITZA LORENA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56989152014,989152014,,13041152-5,GONZALEZ VALDES MARTA LORENA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56934425839,934425839,,77090663-6,GUIMACO PAPELERÍA LIMITADA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56931935215,931935215,,12176567-5,GUTIERREZ FARFAN PAOLA ALEJANDRA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990877230,990877230,,10907043-2,HENRIQUEZ CATALAN JOSE EDUARDO,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971398279,971398279,,10454734-6,HERNAN BENITO CESPEDES VARGAS,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56947396232,947396232,,5042128-7,HERNANDEZ PARRA ZUNILDA DEL CARMEN,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56986369299,986369299,,78398172-6,HERRERA HERMANOS SPA,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56946177026,946177026,,6635851-8,HUERTA CATALAN GLORIA PATRICIA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984183522,984183522,,9794892-5,IBAÑEZ CORTES SANDRA JENNY,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56955362522,955362522,,77552896-6,INVERSIONES ABGAR  MARKET SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966562333,966562333,,77413621-5,INVERSIONES NAVARAN SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977088668,977088668,,78231251-0,INVERSIONES SYL SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56922482713,922482713,,26276913-5,JEAN JOSEPH JEUDY,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56967529516,967529516,,13499412-6,JEANNETTE ROCIO ARANEDA TAPIA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974457827,974457827,,76223130-1,JUAN DE COMBA Y CIA LTDA.,Casablanca,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56953218376,953218376,,11122342-4,LOPEZ DURAN MAURICIO DEL CARMEN,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950868710,950868710,,77390741-2,LOS OSITOS LIMITADA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56952085727,952085727,,12787980-K,LUCY ELENA VALLADARES MOYA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972163172,972163172,462,12487613-3,LUNA CACERES KAREM,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56994295917,994295917,,16529268-5,MARCHANT MORALES URSULA KORAL,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56962879576,962879576,,8394778-0,MARGARITA MARIELA LEIVA BUSTAMANTE,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950909880,950909880,,16529273-1,MARIA JOSE RETAMALES AMPUERO,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56962388446,962388446,,13056592-1,MARTINEZ DURAN CAROLINA ANDREA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982087499,982087499,,76769072-K,MASS DULCE SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996092946,996092946,,78377823-8,MASS TORO SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959829797,959829797,,10517598-1,MENESES CERDA RODRIGO ANDRES,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56960000000,960000000,,10244324-1,MENESES MARTINEZ BERNARDO JAVIER,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56937534906,937534906,,77153121-0,MIA KU SPA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56941545598,941545598,,25554002-5,MINOUCHE AGENA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994358968,994358968,,8003206-4,MIRANDA MORALES LUISA ALEJANDRA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997243427,997243427,,5242849-1,MORENO MORALES ARTURO,Casablanca,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56965298938,965298938,,15423443-8,MORENO VELIZ  MARIO ANDRES,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985053414,985053414,,10552984-8,MOYANO ROLDAN GEMA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56981296601,981296601,,6005072-4,MUNOZ ASTUDILLO ELSAMIRA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56951409793,951409793,,13340083-4,MUNOZ SALAZAR HUGO PATRICIO,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966353446,966353446,,12659291-4,MURILLO TOLEDO PABLO MAURICIO,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56988183227,988183227,,10811769-9,MUSRI HERNANDEZ PAULA ANDREA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984725615,984725615,,16529103-4,NUNEZ ESPINOZA FRANCISCO JAVIER,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56973411214,973411214,,11391192-1,NUNEZ GOMEZ ALICIA ESTER,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56973902594,973902594,,17121800-4,NUNEZ NUNEZ DAYANA MAKARENA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989435501,989435501,,10552990-2,NUNEZ SALAS EDITH,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982098051,982098051,,77756140-5,OSVALDO ROJAS E HIJOS LTDA,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56976199293,976199293,,10115213-8,OYANEDER FIGUEROA VERONICA PATRICIA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56948035113,948035113,,76312540-8,PANIFICADORA Y COMERCIALIZADORA CURACAVI LIMITADA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974824491,974824491,806,10274840-9,PEREZ PEREZ OSCAR ENRIQUE,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56932806762,932806762,673,10147001-6,PUEBLA CORREA LUIS ALBERTO,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56926015716,926015716,,77734477-3,PUNTO23 SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972776550,972776550,,8793377-6,QUILA RODRIGUEZ MARIA TERESA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968652713,968652713,,16576457-9,QUILHUICA ALIMENTOS,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982766799,982766799,,8542832-2,QUIROZ SARAOS ERNESTO ADOLFO,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974818633,974818633,,6565852-6,QUITRAL ALAVARADO JULIA NANCY,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972119002,972119002,,76670086-1,RAFAEL EDUARDO NUNEZ MARIN EIRL,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945336038,945336038,275,78109705-5,RESTORAN Y SERV MOVIL DE COMIDA RAPIDA CATHERINE GIL DURAN EIRL,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56966532322,966532322,,22408026-3,RODRIGUEZ BEJARANO ROGER ALFREDO,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56988554312,988554312,411,13334468-3,ROJAS CARRERA LINA DEL PILAR,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56989022904,989022904,,7615970-K,ROJAS CORDOVA OSCAR EMILIO,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56986048498,986048498,,5780475-0,ROSA BERNARDA INOSTROZA LEON,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950195483,950195483,,14380357-0,ROSA DEL CARMEN SANTIS DIAZ,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964942531,964942531,,10804112-9,ROSA INES ARRAMO PORTUGYEZ,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987920574,987920574,,10523028-1,ROSALES QUIVIRA BERNARDO EMILIO,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974362093,974362093,,11740695-4,RUBIO CHAVARRIA CAROLINA ANDREA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972695069,972695069,,16088499-1,SALAZAR CONTRERAS FRANCISCO ORLANDO,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56973294983,973294983,,11475594-K,SALDIAS OVALLE SONIA ELISA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964513023,964513023,,15930795-6,SANTIBANEZ UGALDE PATRICIO ANDRES,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56955376095,955376095,356,76818086-5,SERVICIOS GASTRONOMICOS R&H SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56956262780,956262780,410,10228600-6,SILVA AYALA MAX OCTAVIO,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56946705627,946705627,,26106119-8,SIMORNE JOCELYNE,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56937466290,937466290,,76422658-5,SOCIEDAD COMERCIAL CARRASCO LTDA,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56961408185,961408185,,76224491-8,SOCIEDAD COMERCIAL CHARLY LIMITAD,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956885248,956885248,,76526517-7,SOCIEDAD COMERCIALIZADORA DONA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999396506,999396506,,76877141-3,SOCIEDAD SCORPIO SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996553633,996553633,,77610928-2,SOCIEDAD VALLADARES SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964625704,964625704,,14912644-9,SONIA ELIZABETH RIVEROS MENA,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56967956221,967956221,427,10228594-8,SOTO CAROCA JIMENA ADENISA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56955423221,955423221,,16205002-8,STEPHANIE FRANCESCA SANCHEZ VASQUEZ,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56969168804,969168804,,53331836-3,SUCESION JUAN EDUARDO RIQUELME FARIAS,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56976985543,976985543,,76097758-6,SUPERMERCADO FUENTES GONZALEZ LIMITADA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56988497114,988497114,754,76359787-3,SUPERMERCADO LA AURORA SPA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56992728888,992728888,,76347665-0,SUPERMERCADOS SANTA TERESA SPA,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56991251555,991251555,,11397098-7,SYLVIA BEATRIZ MUNOZ MARAMBIO,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956325545,956325545,,9932345-0,TAPIA ALVAREZ JULIO ESTEBAN,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56958119393,958119393,,10461277-6,TORRES SAV REBECA PURISIMA,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56961723295,961723295,765,18663458-6,URRA BERGUNO ALEJANDRO RAFAEL,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56995397813,995397813,,16292105-3,VANESSA SONIA SEPULVEDA JEREZ,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972629538,972629538,,8381816-6,VARGAS MIRANDA JAQUELINE,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985768629,985768629,,11610356-7,VASQUEZ SILVA JEANNETTE DEL CARMEN,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56967229213,967229213,,12988817-2,WOLCHKOVICH VALENZUELA MARIA GISLEN,Curacaví,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964279995,964279995,,16290730-1,ZUNIGA LOYOLA BLANCA FRANCHESKA,Melipilla,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985088588,985088588,,10127260-5,ZUNIGA PEZOA MARIA MAGDALENA,María Pinto,31,Luis Torrealba,56958146252,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56986490030,986490030,598,10215929-2,ALCALDE PEREZ ANGELICA CONSUELO,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56932746425,932746425,,78152826-9,ALTAVISTA MINIMARKET SPA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987889931,987889931,,11330489-8,ALVARADO RIVEROS MARCELA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995443442,995443442,,10305690-K,ALVAREZ FUENTES CRISTIAN MANUEL,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957751091,957751091,,12489491-3,ALVAREZ MOLINA MACARENA DE LOS ANGELES,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994307041,994307041,,6258569-2,ARANDA MARIN OLFA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956901361,956901361,,12825898-1,ARANDA PEREZ CAROLINA ANDREA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56988550175,988550175,,11521568-K,BARRAZA ARANDA MARIA ELIZABETH,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56941368009,941368009,,77758325-5,BAZAR MINIMARKET CIRLENY LOPEZ,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56949812104,949812104,,3788376-K,BERRIOS ARANDA ISABEL,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966004432,966004432,,4423453-K,BERRIOS MALDONADO HIPOLITO CANCIANO,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971445040,971445040,,17455940-6,BERRIOS URRA NICOL ANDREA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996394532,996394532,,76644568-3,BOTILLERIA Y PROVISIONES PABLO,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997081418,997081418,,76683279-2,CAFETERIA CONSTANZA ANDREA VERA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56967159324,967159324,,14137541-5,CAMPOS CAMPOS SUSAN YURY,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992377059,992377059,,8584299-4,CAMPOS VENEGAS MARIA MIREYA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959463073,959463073,,15557661-8,CARBALLO LAGOS MARGARITA ISABEL,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56991355414,991355414,,19457244-1,CAROLINA ESTER ORTIZ MALDONADO,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994004555,994004555,,11223808-5,CARRASCO SANTIBANEZ BERNARDO CARMELO,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964076009,964076009,110,10246215-7,CARRERA GUZMAN JUAN ENRIQUE,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56974958600,974958600,716,10867844-5,CASTILLO VASQUEZ LILIANA DEL TRANSITO,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56981815704,981815704,,76640648-3,CATALAN Y PARTNERS SPA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56946811550,946811550,798,25605480-9,CHURA CALLISAYA MARIA EUGENIA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56957787227,957787227,,77941258-K,COMERCIAL 3B SPA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977943675,977943675,,77022752-6,COMERCIAL CARNES SAN JOSE SPA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993278769,993278769,,77314921-6,COMERCIAL DONA MARTA LIMITADA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974582802,974582802,,77275618-6,COMERCIAL LOS QUENES SPA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985499344,985499344,,77514310-K,COMERCIAL RODEO LTDA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56965942295,965942295,,96709380-7,COMERCIAL SAN AGUSTIN LTDA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56965956448,965956448,,77863207-1,COMERCIALIZADORA DE ALIMENTOS JOSÉ TOMÁS BARRALES FERRER E.I.R.L.,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999204953,999204953,,76695238-0,COMERCIALIZADORA DE CARNES PENA BLANCA L,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,4,crear_cliente_y_enviar
+56983602430,983602430,82,76553431-3,COMIDA RAPIDA LOS CABROS LOCOS LIMITADA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56961215908,961215908,272,77569256-1,COMIDA RÁPIDA MAURICIO CARTAGENA MATAMALA EIRL,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56958430311,958430311,,77612228-9,COMIDAS AL PASO PARA LLEVAR GLORIA PATRICIA GONZÁLEZ URIBE E.I.R. LTDA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957335367,957335367,,26652579-6,CORDERO ARRIECHE DANIELA CAROLINA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993302684,993302684,,10954816-2,CORREA CATALAN EDITH NANCY,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989409821,989409821,,10762599-2,CORREA EUGENIO,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992350956,992350956,,77324337-9,COSTA MARKET SPA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945167010,945167010,,78421252-1,CULTIVOS DEL VALLE SPA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56991242076,991242076,,77862288-2,D Y H SPA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982973864,982973864,,8781770-9,DANIEL HUMBERTO MARIN ALIAGA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56938773808,938773808,,77481777-8,DI GINO SPA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987909209,987909209,,76454970-8,DIST. Y COM. PROVIMARKET LTDA.,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974002463,974002463,,77916703-8,DISTRIBUCIÓN I&C SPA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996643456,996643456,,77940667-9,DON FLORO SPA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997140495,997140495,,77188752-K,DULCE GELATO SPA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964330123,964330123,,77991829-7,DUMCHE CHURRASQUERIA SPA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56933652815,933652815,120,77881809-4,EL EMPORIO SPA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56932447875,932447875,,5744094-5,FABRES PIECKERT OSCAR ALEJANDRO,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966706370,966706370,,16759733-5,FELIPE ALEJANDRO CATALAN FLORES,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992510499,992510499,,3232574-2,FERREIRA ROJAS JULIA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990874737,990874737,,11395185-0,FLORES LLANCA SANDRA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56979193536,979193536,,13431698-5,FUENTES CARRASCO RICHARD ENRIQUE,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,3,crear_cliente_y_enviar
+56991062087,991062087,,10849774-2,GALEA ROJAS LEONEL,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56961955470,961955470,,9143271-4,GONZALEZ GONZALEZ PATRICIA DOMINGA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959982990,959982990,,77880621-5,GUADALUPE ROSARIO ALCAINO GOMEZ COMERCIAL Y SERVICIOS ALIMENTICIOS EIRL,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998276558,998276558,,78812430-9,INMOBILIARIA EL PANGAL LIMITADA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990226303,990226303,,76340813-2,INVERSIONES SENORA ISABEL LIMITADA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56930660465,930660465,471,17142430-5,ITURRIETA NEIRA CARLA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56990807673,990807673,,10250712-6,JARA GARRIDO JUANA VERONICA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983496471,983496471,,76535371-8,JOAQUIN HECTOR VIVEDOS RAMIRES ELABORACION DE SHUSHU Y ALIMENTOS E.I.R.L.,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966482358,966482358,,12870935-5,JOEL ANDRES VELIZ LILLO,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977108338,977108338,,12583351-9,JORGE ANTONIO AZOCAR VERA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56978514763,978514763,,11807539-0,JUANA FARIAS JIMENEZ ADELA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56932742355,932742355,,6955529-2,JUICA BAHAMONDES MARGARITA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959302736,959302736,,8097348-9,KITTSTEINER BERRIOS ANGELINA ELISABETTA,Valparaíso,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56979763244,979763244,,78450471-9,LA SIN RIVAL SPA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992666181,992666181,,12775040-8,LAGOS CANCELO GABRIEL,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56944565523,944565523,,9609550-3,LAGOS VEGA RUTH DELIA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982428492,982428492,,22605485-5,LARA ROMERO ELIZABETH JULIETA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56955563625,955563625,,13396003-1,LIPAN QUILAHUEQUE NANCY VERONICA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56976462807,976462807,,12332730-6,LIPAN QUILAHUEQUE PEDRO ORLANDO,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56979400801,979400801,,15086228-0,LOYOLA LOYOLA MARIA TERESA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56955330062,955330062,326,25605490-6,MAGUENO CHOQUE ROBERTO MELITON,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56976183279,976183279,,10227751-1,MANUEL PATRICIO GUAICO FLORES,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56991628287,991628287,,6124441-7,MARCHANT CONCHA TERESITA DE JESUS,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966563323,966563323,,12227816-6,MARCHANT VASQUEZ MARIA JAVIERA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56942328428,942328428,,77432187-K,MARCHANT Y ABARCA SPA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56931094623,931094623,,78266856-0,MARCHANT Y ASOCIADOS SPA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968434963,968434963,,13333781-4,MARIA DE LOS ANGELES MORAGUES MUNOZ,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971702337,971702337,,12225848-3,MARIA PAZ VERGARA OSORIO,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995944322,995944322,,13754717-1,MARIN ORTIZ PIA CAROLINA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994349040,994349040,,7651353-8,MARIN SEPULVEDA FERNANDO ANTONIO,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56961683197,961683197,,6187859-9,MASIAS POZO RAQUEL EUGENIA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956219656,956219656,,17479156-2,MELISSA DE LOS ANGELES ROTTEN GOMEZ,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56939052329,939052329,,77093082-0,MERCADO TUNQUEN SPA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950928006,950928006,432,7708668-4,MESINA FIGUEROA MARIA ERIKA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,5,asignar_existente
+56932604873,932604873,,77747101-5,MINIMARKET EL FARO DE ALGARROBO SPA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56953141326,953141326,,77179939-6,MINIMARKET JORGE AURELIO VALENZUELA CUETO,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966563633,966563633,,76394396-8,MINIMARKET JOSE MANUEL LLANOS AGUILERA E,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56988686950,988686950,,77831613-7,MINIMARKET WALTER RODRIGUEZ ARANDA EMPRESA INDIVIDUAL DE RESPONSABILID,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959481170,959481170,,77563853-2,MINIMARKETS FRANCISCO SEGUNDO MUNOZ DURAN E.I.R.L,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56988322243,988322243,,13229904-8,MITZI ANDREA ZUNIGA ROMERO,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987379475,987379475,,15063244-7,MOLINA BAHAMONDES ALEJANDRA DELFINA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56975723788,975723788,,7064595-5,MOLINA QUIROZ MARIA ANGELICA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945961490,945961490,,78429258-4,MONICA RETAMAL SALAZAR VENTA DE ALIMENTOS E.I.R.L.,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56993419429,993419429,,11521369-5,MUNOZ PEREZ SONIA BEATRIZ,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994898483,994898483,,13766138-1,MUÑOZ PEREZ JOCELYN YASNA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56976428697,976428697,,14466357-8,NEIRA PEREIRA PATRICIA DEL ROSARIO,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56976323266,976323266,,11224037-3,NELLY HIPOLITA ROJAS BARRALES,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56952094558,952094558,,18163415-4,NICOLE BELEN CORREA CATALAN,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996393475,996393475,,12820595-0,OLGA CALDERON CORREA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56963512002,963512002,,15096324-9,OPAZO MORENO GISELA ALEJANDRA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956506314,956506314,739,12221303-K,PACHECO PACHECO JOSE RUPERTO,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56968141617,968141617,,7953730-6,PACHECO YANEZ ELIANA FRANCISCA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56979194733,979194733,,11395801-4,PADILLA ECHEVERRIA FABIOLA VANUSS,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994919408,994919408,,11390104-7,PAREDES ARANDA MARIA VERONICA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990107639,990107639,,9765410-7,PATRICIO SOTO TAMARIN,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993721516,993721516,,9116244-K,PEREZ VERA HILDA DEL CARMEN,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993631956,993631956,,10640011-3,QUEZADA MELLA AUDOLIA DEL TRANSITO,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56988850360,988850360,,5367270-1,QUEZADA TRONCOSO JUAN,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56944898207,944898207,,77975785-4,RAISE SPA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985635898,985635898,,7805317-8,RAQUEL SILVA SALAZAR,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956334555,956334555,,76900603-6,RESTAURANT LA CASONA DE BALLITA LIMITADA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987396149,987396149,,78135748-0,RESTAURANTE JUAN ALBERTO MORALES PINTO E.I.R.L.,Quilpué,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989344401,989344401,,7808146-5,RETAMALES MUNOZ MARIA IGEA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995371168,995371168,,15664760-8,REYES SEPULVEDA CLAUDIA ANDREA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972032409,972032409,,16708422-2,RICARDO AUGUSTO MUNOZ LEIVA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964847874,964847874,,10487205-0,RIVAS CISTERNA NILDA DE LA LUZ,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56953912208,953912208,,17456868-5,ROSA ESTER MELLA ROJAS,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56946162936,946162936,,25920479-8,SAINVAL JACQUELIN,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996447597,996447597,,10090458-6,SANCHEZ ESPINOZA JOSE,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989240348,989240348,,13545768-K,SANCHEZ REYES OSCAR ARIEL,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56981813140,981813140,,77827631-3,SANTA SOFIA SPA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996658823,996658823,,8184531-K,SEPULVEDA GRANDON RENE RUPERTO,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56935044421,935044421,,11804221-2,SEPULVEDA IRRIBARRA SONIA JANETH,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56986596666,986596666,,76382396-2,SOC COM Y DIST COMBUST SANTA MARIA LTDA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968258855,968258855,592,77284801-3,SOCIEDAD COMERCIAL BARRERA TORO E HIJOS LTDA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,2,asignar_existente
+56954341236,954341236,347,76775363-2,SOCIEDAD COMERCIAL SANTA LUISA LIMITADA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,2,asignar_existente
+56961110206,961110206,,78358466-2,SOCIEDAD COMERCIAL V & V SPA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985811511,985811511,,15090010-7,SONIA DE LAS MERCEDES MALDONADO MARIN,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56920391289,920391289,,53324238-3,SUCESION LUCRECIA MERCEDES ALVAREZ PEREZ,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56954306788,954306788,,78024765-7,SUMMER PARADISE SPA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984648364,984648364,,77646971-8,SUPERMERCADO MINERVA DE LAS MERCEDES GARCIA TAPIA E.I.R.L.,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56979358674,979358674,,12775086-6,TAPIA PENA PAOLA MARGARITA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56931950652,931950652,,77319951-5,TIENDAS ALMENDRA SPA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994850484,994850484,,4457340-7,TORREALBA SABINA DEL CARMEN,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56962010073,962010073,,5885675-4,TORREALBA VARGAS MARIA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945075472,945075472,,12953189-4,VALENCIA ROJAS ANGELINA LORETO,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994267131,994267131,392,15852153-9,VARGAS SEQUEIDA ESMERALDA DEL PILAR,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,en_dimer,1,asignar_existente
+56933198507,933198507,,16968746-3,VASQUEZ AHUMADA NANCY MAKARENA,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996359278,996359278,,16486465-0,VASQUEZ PEREZ MIGUEL ANGEL,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56959000479,959000479,,12175686-2,VELASQUEZ SANTI NURY,Valparaíso,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56954078335,954078335,,77821992-1,VENTAS AL POR MENOR N.C.P. JUAN JOSÉ FRANCISCO BELENGUER GONZÁLEZ E.I,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957888246,957888246,,17473889-0,VERDUGO ALVAREZ CONSTANZA MARISEL,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993793966,993793966,,10767209-5,VERDUGO AMIGO MARCELA DEL PILAR,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56991312061,991312061,,13754780-5,VICTOR OPAZO ARANDA,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56997234321,997234321,,10347465-5,VILLEGAS ALBILLAR LILIANA JEANNETTE,Casablanca,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977930713,977930713,,13333738-5,YANEZ LAGOS LEONARDO RODRIGO,Algarrobo,9,Gustavo López,56964037193,Francisco Diaz,56961916961,NO,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995805448,995805448,,14003256-5,ACEVEDO MENARES PAOLA ANDREA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56981749415,981749415,,10501509-7,ACUNA FARIAS MANUEL SALVADOR,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56967332902,967332902,,77574826-5,ALMACEN DANIELA FERNANDA ARAYA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997089334,997089334,,77607248-6,ALMACEN PATRICIO NAVARRETE GARRIDO E.I.R.L,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56948401095,948401095,,9684201-5,ALVAREZ MALDONADO PABLO ENRIQUE,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56940385137,940385137,,16758437-3,ANA DEL PILAR GOMEZ PAILAMILLA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985140775,985140775,,12161438-3,ANA GLORIA LAGOS ASTUDILLO,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56942181602,942181602,,11737929-9,ANDREA ELENA GONZALEZ ARCE,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56978301939,978301939,,15871782-4,ANTIVILO FERNANDEZ JENNIFER ANDREA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998876058,998876058,,7933029-9,BAEZA VASQUEZ JUANA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985615423,985615423,,10329348-0,BARRA ESPINOZA ALICIA LORENA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968008712,968008712,,11473613-9,BARRIOS SALGADO MARGARETH JULIE,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56947051691,947051691,,78374098-2,BLUE MARKET LIMITADA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966958912,966958912,,8047172-6,BORBALAN ZUNIGA MARIA ANTONIA,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972729304,972729304,,9044105-1,BUSTOS OPITZ ERNESTO FRANCISCO,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957799540,957799540,,19750121-9,CAMILA STEPHANIE CARTER AMPUERO,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993783696,993783696,,8767497-5,CAMPOS CABELLO MARIA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974684116,974684116,,14274916-5,CANCINO MUGA FABIOLA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56991959152,991959152,,9883338-2,CARMEN ROSA JODRE RIQUELME,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56933228583,933228583,,6442953-1,CATALAN SOTO EVA GILDA,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950019891,950019891,,11522530-8,CESPEDES CESPEDES EMILIO SALVADOR,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999134067,999134067,,76806473-3,COMERCIAL ANDRES DE LOS ANGELES,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56975132337,975132337,,77926433-5,COMERCIAL AVENDANO Y SOTO LIMITADA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56940302063,940302063,,77124367-3,COMERCIAL DRAF SPA,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992557014,992557014,,78356331-2,COMERCIAL LOS CHIQUILLOS SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985878804,985878804,,77583554-0,COMERCIAL RODRIGUEZ SPA,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985405623,985405623,366,77607706-2,COMERCIAL SAN VICENTE LIMITADA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,en_dimer,1,asignar_existente
+56950273041,950273041,,77313492-8,COMERCIAL SANTA ANA SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56940725938,940725938,,77754769-0,COMERCIAL Y BOTILLERIA EVITA SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56940254870,940254870,,76998453-4,COMERCIALIZADORA CLAUDIO PINTO BUSTAMANTE SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956330714,956330714,,77460306-9,COMERCIALIZADORA DOBRANA SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995815964,995815964,,6604141-7,CORDERO TRINCADO ANA ELVIRA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56951570660,951570660,,12604430-5,CORDOVA ROJAS CAROL ANDREA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56942824455,942824455,,18214476-2,CORRAL MARDONES CAROL ALEJANDRA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56961653625,961653625,,18760895-3,Carlos Alberto Mena Huerta,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56961461888,961461888,,14047359-6,DE LA FUENTE MESINA ARIEL ALEJANDRO,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56948551434,948551434,,78168356-6,DELICIAS DE CARLY SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964262065,964262065,,14409400-K,DORIS IVETTE POLITANO PIRAUD,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,3,crear_cliente_y_enviar
+56982868175,982868175,,13196458-7,EDITH ROXANA SERRANO NORAMBUENA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945149416,945149416,,11945983-4,ESCOBEDO CORDOVA ELIZABETH DEL CARMEN,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56931189959,931189959,,16045657-4,ESTEBAN AARON LAGOS MARTINEZ,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982068716,982068716,,7409858-4,GALVEZ VALENZUELA BLANCA LUISA,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56961746132,961746132,,12605043-7,GARCIA FARIAS OLGA DE LAS MERCEDES,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977317371,977317371,,77525374-6,GASTRONOMIA ERVIN IGNACIO BENAVIDES ACEVEDO E.I.R.L.,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998008102,998008102,,10468768-7,GEGORIO ANDRES GAICHE LOPEZ,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56963111716,963111716,,12248724-5,GONZALEZ MATURANA JESSICA PAOLA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994923470,994923470,,11360646-0,GONZALEZ SOTO ROBERTO ANDRES,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959414229,959414229,,77796609-K,GRAN ALMACEN WILKING CLAIRVIL E.I.R.L.,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56940913544,940913544,,77885649-2,HERMANAS AEDO LIMITADA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994232775,994232775,,18162079-K,HERNANDEZ BRISO JUAN JAVIER,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56978979891,978979891,,10468961-2,HERRERA GARCIA FERNANDO ANTONIO,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982908091,982908091,,77538859-5,HIDALGO Y UBEDA LIMITADA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56963947910,963947910,,77013310-6,HINOJOSA HERMANOS LTDA.,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56988322908,988322908,,77013121-9,IGNACIO ROMERO C EIRL LTDA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950075098,950075098,,77394936-0,INGENIERIA Y TECNOLOGIAS SAN ANTONIO SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56985365559,985365559,,78369579-0,INVERSIONES GAICHE SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977085315,977085315,,77336249-1,JAMAICA MINIMARKET ALMACEN,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989056896,989056896,,8255221-9,JERIA BUSTOS MIRIAN,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56962588851,962588851,,11522747-5,JESSICA GEOVANA CAMPOS GONZALEZ,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56979796599,979796599,,80584300-4,JOSE MANZO Y CIA LTDA.,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56942074081,942074081,,16509875-7,KAREN PAOLA TAPIA CALDERON,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959548816,959548816,,77557128-4,LA DESPENSA SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956472148,956472148,,15559227-3,LEIVA PINTO MONICA ANDREA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959563795,959563795,,25761006-3,LESLY LUCIEN,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987571367,987571367,,78356053-4,LIQUIDADORA EL OFERTAZO DE FABITO SPA,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964027996,964027996,,14004539-K,LIZANA ROMERO MAURICIO FERNANDO,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56949393066,949393066,,10362637-4,MAGALLANES BARAHONA LEONARDO,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56948162904,948162904,,11224917-6,MALHUE MALHUE NATACHA ANGELICA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995677640,995677640,,11846236-K,MANUEL ANTONIO OLGUIN CID,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56991202819,991202819,,10229722-9,MANUEL ARTURO GARRIDO BARRA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987912414,987912414,,21408304-3,MARCELA RESTO Y CAFE,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56953540038,953540038,,11184209-4,MARCO ANTONIO OLMEDO FLORES,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56946664028,946664028,,9473473-8,MARIA ELIZABETH RITTER BUSTAMANTE,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957282673,957282673,,15713541-4,MARIA MARGARITA MARTINEZ PAILAMILLA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56981528194,981528194,,77470780-8,MARIA SOTO DIAZ Y COMPANIA LIMITA,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984278683,984278683,,19403414-8,MARTIN SOTO GONZALEZ,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56981888148,981888148,,9704723-5,MEDINA GARCIA GHISLANYNE ARNOLDA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992386323,992386323,,4113237-K,MENARES SERRANO ELVIRA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989630345,989630345,,78445131-3,MINIMARKET ALLISON SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964850134,964850134,,78302097-1,MINIMARKET NICOLE PATRICIA ZUÑIGA QUINTERO E.I.R.L.,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987323415,987323415,,7009588-2,MINIMARKET ULI ANTO MAGDA SOFI Y FAMILIA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56958351428,958351428,,78468289-7,MONACO SPA,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983734570,983734570,,14389834-2,MORA SALVO CARMEN LUISA,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972078669,972078669,,15089297-K,MORALES RIVERA CLAUDIA ANDREA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56993226620,993226620,,11737177-8,MUNOZ NAVARRO ANA MABEL,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56975173564,975173564,,10388372-5,MUNOZ SOTO RUTH MARGOT,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999737832,999737832,,15603783-4,NELSON FABIAN GARCES BELTRAN,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56940796714,940796714,,77418066-4,OMERCIAL ELVIS ANTONIO NUNEZ VALDES E.I.R.L.,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996226675,996226675,,79953360-K,PANIFICADORA LA MARITIMA LIMITADA,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994021601,994021601,,11522181-7,PATRICIA DEL CARMEN MUÑOZ JERIA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983513601,983513601,,17454924-9,PAULO CESAR MORALES CUEVAS,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983813311,983813311,,7461789-1,PENALOZA LIZANA JUANA MARTA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983117277,983117277,,13195264-3,PINEDA VERGARA MARGARITA CLEMENTINA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983693947,983693947,,5910575-2,PINO MUNOZ ADRIANA,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984657953,984657953,,18761556-9,PIZARRO PIZARRO KHAREM MARINA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997267464,997267464,,13641965-K,POBLETE GODOY SOLEDAD ANGELICA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993600786,993600786,,15713436-1,RAUL ALEJANDRO SEGURA ROJAS,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56979002764,979002764,,76431019-5,RESTAURANT Y PIZZERIA MAS RICO SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56987979691,987979691,,5781381-4,RIVEROS BRAVO NORA NANCY,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994049752,994049752,,10435993-0,RIVEROS FAUNDEZ RICARDO FERNANDO,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56975223138,975223138,,8168563-0,ROJAS CABELLO NORA DEL CARMEN,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990799600,990799600,,10393941-0,ROJAS GOMEZ SIXTO,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971360870,971360870,,13546389-2,ROMERO ALVAREZ WALTER FERNANDO,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56963551883,963551883,,13768103-K,ROSA MARIA TORREALBA LIZANA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56951503365,951503365,,15423876-K,SABATINI CABRERA KATHERINE ANDREA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56997331680,997331680,,9494203-9,SAEZ MONARDES ALFONSO EDUARDO,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956377376,956377376,,16281903-8,SANCHEZ ZUNIGA DANIELA JOSE,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56928231606,928231606,,13767856-K,SILVA PIZARRO FERNANDO ANTONIO,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56931982807,931982807,,76001385-4,SOCIEDAD COMERCIAL ANTILHUE LTDA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56932368200,932368200,,78378476-9,SOCIEDAD COMERCIAL TIPANIE SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56932199720,932199720,,76020771-3,SOCIEDAD DE INVERSIONES DEPORTIVAS PATCHA LIMITADA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56958827320,958827320,,77546125-K,SOCIEDAD DE PRODUCTOS CONGELADOS,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974941243,974941243,,14142443-2,SOTO VALDERRAMA SALOME ELISA,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56930500986,930500986,,15089657-6,STELLA ADRIANA ACEVEDO MEZA,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994489608,994489608,,13291767-1,SUAREZ ARRIAGADA ANA DEL CARMEN,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993237596,993237596,,78068715-0,SUPERMARKET EL TORITO SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974321242,974321242,,76506615-8,TABITA DEBORA SOTO POBLETE COMERCIALIZADORA E.I.R.L.,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959290189,959290189,,11225048-4,TORO JERIA YOLANDA DORA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964615157,964615157,,76791091-6,TORO Y MERCADO SPA,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983191899,983191899,,12442883-1,TORRES OLAVE JAIME RODRIGO,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984548930,984548930,,16510505-2,URREA ESCORZA CINDY ISABEL,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968012108,968012108,,76985489-4,UTILES DE ASEO JORGE ISAIAS OGAZ CIFUENTES E.I.R.L.,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998185080,998185080,530,10401306-6,VASQUEZ CARRASCO INES DEL CARMEN,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,en_dimer,1,asignar_existente
+56982470372,982470372,,10132644-6,VERA GONZALEZ JACQUELINE DEL CARMEN,San Antonio,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56934955940,934955940,,13939967-6,YESENIA MAGDALENA ROJAS DRAGON,Cartagena,NUEVO1,Natalia Martinez,56958141749,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999585060,999585060,,14478935-0,ABARCA URBINA  GIOVANA ESTER,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994745043,994745043,,6815412-K,ABARCA VIDAL SERGIO SEGUNDO,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56965571859,965571859,,21103248-0,ACEVEDO MUNOZ VERONICA LEONTINA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56978554371,978554371,,17920346-4,ADI ELIZABETH NAVARRO RIVAS,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56975876968,975876968,,76883853-4,ALIMENTOS Y SERVICIOS SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56973016168,973016168,,77984221-5,ALMACEN SEBASTIAN MADRID RETAMAL E.I.R.L.,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56962730128,962730128,,10151256-8,ALVAREZ GORIGOITIA PATRICIO MIGUEL,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56958692652,958692652,,16509575-8,ANALIA ESTEFANI BARRERA GOMEZ,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56961571198,961571198,,14002451-1,ANDREA FUENTES CORTES,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56922337601,922337601,,14079480-5,ANDREA SORAYA QUINTRILEO SANHUEZA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56933148564,933148564,,12359661-7,ARAVENA GARCIA XIMENA ANGELICA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56983554090,983554090,,14498050-6,AZOCAR MOYANO KATTY DEL CARMEN,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990225286,990225286,,9549456-0,AZOCAR YANEZ ARTURO AELCIO,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56952056270,952056270,,76732435-9,BAZAR MARKET GOMEZ LOZANO CECIL CAROLINA E.I.R.L.,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994695860,994695860,,15089544-8,BERROETA ALVAREZ DAMIAN ESTEBAN,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992668073,992668073,,11044982-8,BIANCHI BERROETA MARIA MAGDALENA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56933033207,933033207,,11521653-8,BIANCHI DIAZ JOANA PAOLA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996003815,996003815,,11183754-6,BLANCO AMPUERO MARIA DE LAS,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964028738,964028738,,77485169-0,BRYAN RETAMAL REYES ALMACEN E.I.R.L,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956189388,956189388,,4651821-7,CACERES TRAPP MARIA SARA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992724425,992724425,,77815637-7,CAFETERIA CHRISTIAN MANUEL FIGUEROA SOTO E.I.R.L.,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972888077,972888077,,77911036-2,CAMILO VIDAL SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992586462,992586462,,6089541-4,CANTILLANA GRACIELA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971254836,971254836,,26026162-2,CARLERBE JOSEPH,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56962307791,962307791,,77903129-2,CARLITOS SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56932009438,932009438,,6492439-7,CARMEN ROSA HENRIQUEZ GALLEGOS,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993904255,993904255,,8779147-5,CARRANZA TOLEDO LUIS ANIBAL,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990561074,990561074,,12957888-2,CARRIEL HERNANDEZ CAROLINA DEL,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56947935706,947935706,,11863076-9,CASTRO OLIVARES MARCIA LORENA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56963350091,963350091,,13050168-0,CHAHUAN PIZARRO PAMELA ANISA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56971867727,971867727,,16509529-4,CISTERNA DELGADO ASTRID ALEJANDRA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959200983,959200983,,9774695-8,CISTERNA VIDAL CARLOS HECTOR,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56954517514,954517514,,76946117-5,COMERCIAL ALEXIS JONATHAN SAAVEDRA ALVAREZ E.I.R.L,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56949075285,949075285,,77186122-9,COMERCIAL TADEVA LTDA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56932632398,932632398,,77007094-5,COMERCIALIZADORA ATP SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56933464722,933464722,,78234573-7,COMERCIALIZADORA E&D SPA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,4,crear_cliente_y_enviar
+56962253526,962253526,,77928309-7,COMERCIALIZADORA GROUP FRIENDS LIMITADA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56935798111,935798111,,77968888-7,COMERCIALIZADORA JOVIN Y LYMA SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56934173618,934173618,,14417953-6,CORNEJO CONTRERAS MARCO ELEAZAR,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968331253,968331253,,77896731-6,COSTA MARKET DOS SPA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56978511742,978511742,,76204700-4,CRISTIAN AREVALO MORALES Y CIA LTDA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56964410597,964410597,,14731138-9,CULCAS ZAPATA CONSUELO,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995940202,995940202,,9095819-4,DAYANA MARGARITA RODRIGUEZ BRIONES,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990024869,990024869,,11654111-4,DIAZ ALVAREZ PAULA XIMENA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994261611,994261611,,9355581-3,DIAZ CORDOVA CARLOS MAURICIO,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950873690,950873690,,77187439-8,DISTRIBUIDORA MABEA SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56976877393,976877393,,26092243-2,EBELINDA MARTINA CARRILLO VILCA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982099359,982099359,,77061373-6,ECOEMPORIO SHANTI SPA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56975671971,975671971,,77903817-3,EL PERRO CALIENTE SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56978377782,978377782,,14527403-6,ELEONORA CARBAJAL BUSTAMANTE,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974867866,974867866,,10592129-2,ELIZABETH MARLENE MUNOZ,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56975505236,975505236,,16412471-1,ELIZABETH NATALI POBLETE DIAZ,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995295236,995295236,,77796109-8,ELYVERY BURGERS SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56991613614,991613614,,76031937-6,EMPRESA DE HOTELES Y RESTAURANT E INMOBILIARIA MIGUEL ANGEL ARRIAGADA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56978113099,978113099,,4943968-7,ERICES JOSE BARTOLO,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56978897794,978897794,,16509469-7,ERICK SEBASTIAN PENA VERA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56961658239,961658239,,77428062-6,EST DE SERV DIST Y COM CRISTOBAL NANJARI,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974348884,974348884,,77230191-K,FABRICA DE EMPANADAS DON CESAR SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56942341190,942341190,,10244016-1,FERRADA GONZALEZ FERNANDO HECTOR,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56944754078,944754078,,15058595-3,FLABIA CAROL ASPE TORO,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56950547110,950547110,,77814102-7,FLORES & ARMARIO SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56954094380,954094380,,14251064-2,FLORES CATALAN LUIS DANIEL,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999146069,999146069,,6809800-9,GALAZ VERA ELBA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971397304,971397304,,11390065-2,GALDAMES MIRANDA CLAUDIO ANDRES,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997366601,997366601,,14515931-8,GALLARDO AVILA PABLO CESAR,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56967117389,967117389,,78248968-2,GANADERA YERKO SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950381809,950381809,,25214715-2,GELIN VALSSAINT,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56986723052,986723052,,11123329-2,GONZALEZ CURIANTE JACQUELINE DEL,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56920285051,920285051,,11971100-2,GONZALEZ VIDAL MANUEL ALBERTO,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56975515934,975515934,,11737084-4,GONZALEZ VIDAL MARIA LUZ,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972027109,972027109,,13266403-K,GUERRA CONTRERAS SANDRA PAOLA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959003490,959003490,,78424587-K,HERMANAS ALVAREZ AMESTICA LIMITADA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56937379007,937379007,,76890795-1,INVERSIONES P Y J SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56936771570,936771570,,12234230-1,ITURRA CASTILLO LILIANA DEL CARMEN,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56931163023,931163023,,20899073-K,JAIRO ALEXIS ARTEAGA ALVAREZ,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56954508614,954508614,,16757923-K,JHON GARY FUENTES COLLAO,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984367624,984367624,,11224116-7,JOFRE DIAZ CARLOS MANUEL,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56958609581,958609581,,9584898-2,JOSE EDUARDO ALEGRIA JARPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56982078448,982078448,,11434655-1,JUAN ALFONSO REYES BURCE,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982672354,982672354,,9617732-1,JULIA ALEJANDRA SANTANDER FONSECA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995326855,995326855,,77895348-K,LAS DELICIAS DE LA ISLA SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983406244,983406244,,78409093-0,LAS DELICIAS SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56982810701,982810701,,78423123-2,LAS ITALIAS SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56975533666,975533666,,12957878-5,LEIVA MOLINA GARY OSVALDO,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56984265041,984265041,,6404622-5,LLANCA LIZANA ALBA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56999145957,999145957,,11654037-1,LOPEZ NORAMBUENA MARIBEL,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56932723949,932723949,,17079618-7,LUIS CRISTOBAL PARRAGUEZ VERA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998885076,998885076,,9121689-2,MADARIAGA MACKENZIE FELIPE SEBASTIAN,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56930061319,930061319,,16061099-9,MARGARITA ELIZABETH CARRASCO PEREZ,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994571745,994571745,,9295048-4,MARIA CAROLINA ALVAREZ CHACON,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945865618,945865618,,13257831-1,MARIA LUZ SANTIBANEZ JEREZ,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56989408474,989408474,,7953729-2,MARIN GAJARDO ELISEA DEL CARMEN,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56934266397,934266397,,16759677-0,MARIO EDUARDO ANDRADE GONZALEZ,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56940807447,940807447,,78194655-9,MARITZA DE LAS MERCEDES CABELLO LARA RESTAURANT E.I.R.L.,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998906695,998906695,,15736048-5,MAULEN PORTUS ZULEMA DE LA LUZ,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56973055782,973055782,310,77704149-5,MEGA CARNES SALAS SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,en_dimer,1,asignar_existente
+56950571704,950571704,,77427664-5,MEGA CARNES SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56940586678,940586678,,77991962-5,MINIMARKET NORMA CASTILLO SANDOVAL E.I.R.L.,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971400826,971400826,,78003897-7,MINIMARKET OLIVIA MIROSLAVA SANHUEZA TORRES E.I.R.L.,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974341618,974341618,,9107002-2,MONTECINO URBINA MARIA TERESA DEL,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56977031237,977031237,,14003356-1,MORALES PEREZ GABRIEL BORIS,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56935074442,935074442,113,14724783-4,MORI MATTOS ANGELICA RAFAELA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,en_dimer,1,asignar_existente
+56952927170,952927170,,6302122-9,MUNOZ OLGA ALEJANDRINA DE LAS M,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966863935,966863935,,15948303-7,NUNEZ ROMO JUAN PABLO,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56991403926,991403926,,7465437-1,OLIVARES MARCHANT ADRIANA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996960227,996960227,,8079026-0,ORMENO PICHUNANTE ANA MARITZA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56968188125,968188125,,12312771-4,ORTIZ TRONCOSO VICTOR MARCELO,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56984261046,984261046,,12887091-1,PACHECO PACHECO CLAUDIA CONSUELO,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56974980932,974980932,,12775050-5,PAILAQUEO PAILAQUEO MIREYA DEL,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56932632399,932632399,690,12775116-1,PAJARITO VARGAS JAIME FRANCISCO,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,en_dimer,6,asignar_existente
+56950005823,950005823,,76934863-8,PAMELA S PIZZA SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56948125352,948125352,,76997203-K,PANADERIA Y PASTELERIA IVETTE DEL,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56993501952,993501952,,18874655-1,PATRICIO ASCHLEY SANDOVAL VILUCRON,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56946214779,946214779,,11132169-8,PENA BRAVO JANETTE DEL TRANSITO,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56945313652,945313652,,76152699-5,PJ CHILE SPA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,5,crear_cliente_y_enviar
+56923756927,923756927,,77874833-9,PLAN COSTANERA SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56971361605,971361605,,16509306-2,PLAZA CORDOVA JUAN ANTONIO,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957829363,957829363,,77039171-7,RESTAURANT EDUARDO ALBERTO,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56954242800,954242800,,78100354-9,RESTAURANT EL MADROÑO SPA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56995029988,995029988,,77784157-2,RESTAURANT GUSTOSO SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56988889936,988889936,,76938991-1,RESTAURANTE VARADERO LIMITADA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992706670,992706670,,14332787-6,RETAMAL VALDES MIGUEL ANGEL,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,3,crear_cliente_y_enviar
+56973323738,973323738,,13470466-7,ROJAS ARQUEROS TAMARA ALEJANDRA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56959049597,959049597,,17080713-8,ROJAS CASTANEDA ROCIO ESTER,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957137453,957137453,,4445974-4,ROJAS DIAZ MOISES,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56945828917,945828917,,8521315-6,ROJAS DONOSO ARMANDO,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56972958698,972958698,,6172604-7,ROJAS GARCIA JULIO,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56996815998,996815998,,4992227-2,ROJAS GARCIA MANUEL GUSTAVO,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56979043489,979043489,,7442299-3,ROJAS ROJAS REGINA DEL CARMEN,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56956958518,956958518,,11457906-8,ROMERO URIBE HUGO HERNAN,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56957608717,957608717,,10215066-K,RUIZ DE GAMBOA ASTORGA JESSICA DE,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56994387311,994387311,,18839713-1,RUIZ DE GAMBOA AVILA FELIPE ANDRES,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56990404317,990404317,,9623783-9,SALINAS AGUILAR PATRICIA YOLANDA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56998054539,998054539,,78798960-8,SALINAS SILVA Y COMPANIA LIMITADA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984814292,984814292,,9096050-4,SAN MARTIN GAJARDO PATRICIA ORIETA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56977091710,977091710,,9356491-K,SAN MARTIN MANUEL ALBERTO GARCIA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984630362,984630362,,76696699-3,SERVICIOS INTEGRALES VALLE GRANDE SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966046733,966046733,,78213399-3,SOCIEDAD DE INVERSIONES VANEVALE SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56983834809,983834809,,76509148-9,SOCIEDAD GASTRONOMICA CORMORAN LIMITADA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56938739257,938739257,,76312219-0,SOCIEDAD INMOBILIARIA BERNIER LTDA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56949266893,949266893,,77128239-3,SOCIEDAD RUIZ DE GAMBOA LTDA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56953966113,953966113,,77860489-2,SUPERMERCADO JOSE MIGUEL SANHUEZA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56964004887,964004887,,77049128-2,SUPERMERCADO MAFRANIS SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56979892570,979892570,,77215721-5,SUPERMERCADO MONICA ARAVENA LOPEZ,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56946129088,946129088,,76254683-3,SUPERMERCADO RINGOSS SOCIEDAD DE,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56997491426,997491426,,11971073-1,TAPIA SOTO MARCELO FRANCISCO,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56984104098,984104098,,7962395-4,TORRES MIRANDA MARIA SOLEDAD,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56966112118,966112118,638,6322343-3,URBINA VIDAL IRMA DE LAS MERCEDES,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,en_dimer,1,asignar_existente
+56968463898,968463898,,21949572-2,VALENTINA MILLARAY SANHUEZA POBLETE,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56954492770,954492770,,12957808-4,VALERIA ALEJANDRA MEDINA CABEZAS,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950135049,950135049,,24450945-2,VALSSAINT GARY,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,2,crear_cliente_y_enviar
+56935754236,935754236,,24353240-K,VALSSAINT MUTHA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992412264,992412264,,12481636-K,VASQUEZ PEZOA RONALD,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56950463025,950463025,,8270891-K,VERA ARANDA MARIA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56916354798,916354798,,10500687-K,VERA VERA ASTRID MARIA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56944090887,944090887,,9261557-K,VERA VERA NORA AURORA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56920173967,920173967,,11232537-9,VILCHES VALDERRAMA CLAUDIA,Algarrobo,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56966876844,966876844,,6445239-8,YANEZ ESCOBEDO JUANA ADRIANA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56954014578,954014578,,76878673-9,YASVENE SPA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar
+56992991014,992991014,,9325647-6,ZUNIGA DELGADO SUSANA PATRICIA,El Quisco,NUEVO2,José Quero,56961816090,Francisco Diaz,56961916961,SI,nuevo_con_whatsapp,1,crear_cliente_y_enviar

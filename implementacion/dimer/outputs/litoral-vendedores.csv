@@ -1,0 +1,9 @@
+codigo_ruta,territorio,nombre,telefono,rol,es_territorio_nuevo,is_mock
+9,Casablanca / Algarrobo,Gustavo López,56964037193,vendedor,False,False
+NUEVO2,El Quisco / Isla Negra,José Quero,56961816090,vendedor,True,False
+28,El Tabo / Cartagena,Doralisa Vivencio,56979888434,vendedor,False,False
+NUEVO1,San Antonio Norte,Natalia Martinez,56958141749,vendedor,True,False
+29,San Antonio Sur / Sto. Domingo,Maryvonne Zárate,56964636942,vendedor,False,False
+30,Melipilla,María Verónica Montes,56958142220,vendedor,False,False
+31,Curacavi / Maria Pinto,Luis Torrealba,56958146252,vendedor,False,False
+JZ,Litoral,Francisco Diaz,56961916961,jefe_zonal,False,False

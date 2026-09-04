@@ -1,0 +1,23 @@
+{
+  "schema": "dimer",
+  "db": {
+    "created": 914,
+    "updated": 43,
+    "skipped_dup_phone": 0,
+    "counts": {
+      "vendedores_litoral": 8,
+      "clients": 1660,
+      "etq_litoral": 957,
+      "pdv": 1699
+    }
+  },
+  "template": {
+    "http": 200,
+    "meta": {
+      "id": "1832889678122512",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "db_id": "06451607-48e3-4d84-b3d2-3409f3387611"
+  }
+}
