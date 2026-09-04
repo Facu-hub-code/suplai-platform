@@ -22,6 +22,8 @@ Cada carpeta anterior (y `platform/`) es un **repositorio git independiente**; c
 
 **Flujo por defecto:** rama feature en el **hub** del repo (`backend/`, `backoffice/`, `agent/`, etc.). Los **worktrees solo** cuando el usuario pide hotfix aislado o explícitamente "creá worktree".
 
+**Excepción:** carga de datos o avance de un tenant en `implementacion/{schema}/` — sin rama, worktree ni PR (regla `suplai-implementation-no-branch`).
+
 Antes del **primer cambio de código** en un repo:
 
 1. **`git fetch origin`** en el directorio donde vas a editar (hub en rama feature, salvo worktree pedido).

@@ -16,6 +16,13 @@ Esta carpeta es tu **escritorio de trabajo** para cargar un distribuidor nuevo e
 
 5. Decile al agente: **"Implementar {nombre del schema}"** (ej. `colormix`).
 
+Credenciales demo del backoffice (siempre las mismas):
+
+- Email: `admin@{schema}.com`
+- Contraseña: **`Suplai2026`**
+
+En **demo agéntica** el catálogo que se carga son **80–100 productos** que representen el negocio (no el Excel entero). El universo queda en `inputs/catalogo-completo.csv`. Después se nutren esos SKUs (descripciones, aliases, Fase 1.2).
+
 ## Estructura por tenant
 
 Copiá `_template/` a una carpeta con el nombre del schema:
@@ -29,6 +36,7 @@ implementacion/colormix/
 
 ## Reglas de oro
 
+- **Sin rama git.** Abrí `implementacion/{schema}/` en el checkout actual; no hace falta `feat/` ni PR para cargar datos ni avanzar fases.
 - **Una fase a la vez.** No saltés la Fase 0.
 - **Siempre revisá el CSV** antes de decir "confirmar carga".
 - **Confirmá dos veces** el nombre del schema (`colormix`, etc.).

@@ -10,6 +10,7 @@ Poblar un tenant **recién registrado** (schema vacío) a partir del Excel de pr
 
 | Concepto | Valor |
 |----------|-------|
+| Catálogo demo | 80–100 SKUs descriptivos (marca líder + mix de líneas). Completo en `catalogo-completo.csv` |
 | Clientes mock | 50 (40 con código ERP + 10 prospectos) |
 | Vendedores mock | 3 |
 | Zonas geográficas | 6 (2 por vendedor) |

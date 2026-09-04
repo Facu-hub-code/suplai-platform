@@ -8,7 +8,14 @@ coordenadas_centro: []       # ★ [lat, lon] del centro geográfico (ej: [-31.3
 rubro: ""                    # ★ Descripción libre del rubro (ej: "carnicería / parrilla") — usado en Fase 4
 excel_input: "inputs/lista-productos.xlsx"
 sitio_web: ""                # URL del sitio web del cliente (ej: https://alfuego.com.ar/)
+admin_email: ""              # ★ admin@{schema_name}.com
+admin_password: "Suplai2026" # fija para todas las demos — no cambiar
 notas: ""                    # Descripción libre del negocio y sucursal
+modo: demo                   # demo = recorte 80–100 SKUs descriptivos; completo = Excel entero
+demo:
+  productos_cargados: 0      # 80–100 tras Fase 1 en modo demo
+  catalogo_completo_csv: inputs/catalogo-completo.csv
+  omitido: []                # en demo se puede omitir "09"; NO omitir "01.2"
 
 blocked:
   is_mock_migration: true  # pasar a false tras aplicar docs/implementacion/migrations/20260615_add_is_mock_columns_demo_and_tenants.sql

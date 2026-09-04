@@ -11,6 +11,7 @@ Aplica cuando trabajás en `implementacion/**` o el usuario pide implementar/onb
 ## Alcance
 
 - **MUST** trabajar solo en `implementacion/{schema_name}/` del tenant activo.
+- **MUST NOT** abrir rama git, worktree ni PR para carga de datos o avances de fase; la carpeta del tenant es el aislamiento (ver `suplai-implementation-no-branch`).
 - **MUST** ejecutar Fase 0 (preflight) antes de Fase 1; no saltar fases del pipeline.
 - **MUST** pedir `schema_name` al inicio y **repetirlo textualmente** antes del primer `INSERT`/`UPDATE`/`DELETE` en Supabase.
 - **MUST** generar el CSV de salida de la fase y pedir al implementador que lo revise **antes** de cargar a BD.

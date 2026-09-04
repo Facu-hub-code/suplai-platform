@@ -16,6 +16,8 @@ Cloud Agent / clon aparte    →  misma regla: rama propia; worktree no automát
 
 **Un chat = un repo path = una rama.**
 
+**Excepción:** carga de datos o avance de un tenant en `implementacion/{schema}/` — sin rama, worktree ni PR. La carpeta del tenant es el aislamiento. Regla: `.cursor/rules/suplai-implementation-no-branch.mdc`.
+
 ## Flujo diario (humano o agente)
 
 ### 1. Arrancar una feature

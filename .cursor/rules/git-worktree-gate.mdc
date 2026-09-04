@@ -34,6 +34,7 @@ Si ya hay worktree/rama para la misma tarea → **reutilizar** en lugar de dupli
 | Feature nueva (multi-commit, cross-repo) | Hub: `git checkout -b feat/<slug> origin/<troncal>` (o checkout rama existente) |
 | Continuar feature en curso | Hub en la rama ya abierta (`feat/b2c-post-confirm`, etc.) |
 | Revisión / lectura | Hub o path ya abierto; sin edits salvo pedido |
+| Carga de tenant / avance de implementación | Hub: `implementacion/{schema}/` — **sin** rama ni worktree |
 | Hotfix chico (1–3 archivos) | Hub: `fix/<slug>` salvo que pidan worktree |
 
 ## 3. Después de un PR con worktree — limpieza opcional

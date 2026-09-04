@@ -11,7 +11,9 @@ Referencia humana: `docs/dev/git-workflow.md`. Infra GitHub: `docs/dev/github-br
 
 ## 0. Principio — un chat, una rama, un directorio
 
-**Flujo por defecto:** hub del repo + **rama feature** (`feat/…` / `fix/…`). Los **worktrees son excepción** — solo hotfix con pedido explícito del usuario (ver `.cursor/rules/git-worktree-gate.mdc`).
+**Excepción — onboarding / carga de tenant:** si el trabajo es cargar datos o avanzar fases en `implementacion/**`, **MUST NOT** abrir rama feature, worktree ni PR. La carpeta `implementacion/{schema}/` alcanza. Ver `.cursor/rules/suplai-implementation-no-branch.mdc`.
+
+**Flujo por defecto (código de producto):** hub del repo + **rama feature** (`feat/…` / `fix/…`). Los **worktrees son excepción** — solo hotfix con pedido explícito del usuario (ver `.cursor/rules/git-worktree-gate.mdc`).
 
 - **MUST** anunciar al inicio de la implementación (antes del primer edit): **repo**, **path absoluto** (hub o worktree si aplica), **rama objetivo**.
 - **MUST NOT** implementar en troncal (`main` / `master`).
@@ -165,6 +167,7 @@ Si se usó worktree: `git worktree remove <path>` solo tras confirmación del us
 
 ## 5. Excepciones
 
+- **Carga de datos / implementación de tenant** (`implementacion/**`): no abrir rama, worktree ni PR; ver `.cursor/rules/suplai-implementation-no-branch.mdc`. Sí aplica rama + PR si el mismo pedido toca código de producto (`backend/`, `agent/`, skills, reglas).
 - Usuario pide explícitamente trabajar en troncal, sin pull, o **cambiar de rama en el checkout principal**.
 - Directorio sin `.git`: no aplicar fetch/pull; avisar si se esperaba un repo.
 - Operaciones **solo** de git pedidas por el usuario (status, diff, commit, PR): respetar user rules; antes de **nuevos** edits, repetir §0–§2.

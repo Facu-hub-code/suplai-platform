@@ -1,0 +1,31 @@
+---
+description: No abrir ramas git ni worktrees para carga de datos de tenant o avances de implementación; trabajar en implementacion/{schema}
+globs: implementacion/**
+alwaysApply: false
+---
+
+# Implementación — sin rama feature
+
+Aplica a **carga de datos de un tenant** y **avances de onboarding** (fases, CSV, `manifest.yaml`, scripts del tenant, writes MCP).
+
+La carpeta `implementacion/{schema_name}/` es el aislamiento. **No** hace falta rama git, worktree ni PR.
+
+## Obligatorio
+
+- **MUST** trabajar en el checkout actual del hub `suplai-platform` (la rama que ya esté abierta).
+- **MUST** limitar archivos a `implementacion/{schema_name}/` (y `_template/` solo al crear el tenant).
+- **MUST** anunciar al inicio: tenant `{schema_name}` y path `implementacion/{schema_name}/` — **sin** crear rama.
+
+## Prohibido
+
+- **MUST NOT** `git checkout -b`, `git switch -c` ni `git worktree add` por una implementación.
+- **MUST NOT** abrir PR ni pedir merge para CSV, manifest o avances de fase.
+- **MUST NOT** cambiar de rama en el hub para “aislar” un tenant.
+
+## Qué sí sigue pidiendo rama
+
+Cambios de **producto** (backend, agent, backoffice, skills, reglas Cursor): flujo normal `feat/` / `fix/` + PR. Esta excepción **no** cubre eso, aunque el pedido haya salido de un onboarding.
+
+## Relación
+
+Complementa `git-sync-and-feature-branch` (§5) y `suplai-implementation-guardrails`.

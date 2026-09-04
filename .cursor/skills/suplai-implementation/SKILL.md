@@ -12,7 +12,8 @@ Guía al **implementador no técnico** fase por fase. No mezclar fases en un sol
 1. Preguntar **`schema_name`** (ej. `colormix`) si no está claro.
 2. Verificar carpeta `implementacion/{schema_name}/`. Si no existe, copiar desde `implementacion/_template/`.
 3. Leer `implementacion/{schema_name}/manifest.yaml`.
-4. Aplicar reglas: `suplai-implementation-guardrails`, `suplai-implementation-mcp-writes`.
+4. Aplicar reglas: `suplai-implementation-guardrails`, `suplai-implementation-mcp-writes`, `suplai-implementation-no-branch`.
+5. **No abrir rama git** ni worktree: trabajar en el checkout actual, en `implementacion/{schema_name}/`.
 
 ## Credenciales demo (obligatorio)
 
