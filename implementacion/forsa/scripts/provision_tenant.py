@@ -20,7 +20,7 @@ from dotenv import load_dotenv
 SCHEMA = "forsa"  # confirmado: implementador + manifest
 SOURCE = "gonzales"
 ADMIN_EMAIL = "admin@forsa.com"
-ADMIN_PASSWORD = "ForsaDemo2026!"
+ADMIN_PASSWORD = "Suplai2026"
 HERE = Path(__file__).resolve()
 ROOT = HERE.parents[3]
 

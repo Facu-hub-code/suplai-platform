@@ -10,12 +10,13 @@ rubro: "mayorista de kiosco y almacén (limpieza, almacén, golosinas, snacks, c
 excel_input: "inputs/lista-precios-origen.csv"
 sitio_web: ""
 admin_email: "admin@forsa.com"
+admin_password: "Suplai2026"
 notas: |
   Demo rápida: 25 SKUs cargados. Catálogo completo (~412 SKUs válidos) en
   inputs/catalogo-completo.csv para la implementación real posterior.
   Origen: /Users/facundolorenzo/Desktop/FORSA/LISTA DE PRECIOS.xls
   Excel sin SKU ni ciudad: códigos F### generados; geo demo en Córdoba Capital.
-  Backoffice: admin@forsa.com (owner).
+  Backoffice: admin@forsa.com / Suplai2026 (owner).
   Marcas: Sedile, Esencial, Clow, Playadito, Takis, Marlboro, Bimbo, Pura Frutta.
 modo: demo
 demo:
