@@ -1,7 +1,7 @@
 # SPEC 013: Deprecar `n8n_chat_histories` — fuente única en `core.conversation_events`
 
-**Estado:** Listo para implementación (MVP same-day)  
-**Fecha:** 2026-06-24 · **Actualizado:** 2026-07-04 (plan simplificado)  
+**Estado:** COMPLETADA (100% migrado a core, backfill histórico completado en los 42 schemas, fallbacks eliminados)  
+**Fecha:** 2026-06-24 · **Actualizado:** 2026-09-03 (deprecación y backfill total completados)  
 **Epic cross-repo:** deprecación historial conversacional legacy  
 **Motivación:** El agente persiste en `core.conversation_events`, pero el backoffice lee `n8n_chat_histories` y parchea excepciones (podcast) con merge manual. Mantener ambas fuentes genera dual-write, sobre-ingeniería y conversaciones vacías en el panel tenant.
 
