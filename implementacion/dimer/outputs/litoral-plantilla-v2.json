@@ -1,0 +1,20 @@
+{
+  "schema": "dimer",
+  "template": {
+    "http": 200,
+    "meta": {
+      "id": "957496730723848",
+      "status": "PENDING",
+      "category": "MARKETING"
+    },
+    "db_id": "cf3ba37e-abae-44c3-961e-6f006d6de945",
+    "template_name": "dimer_litoral_contacto_v2",
+    "variable_columns": ["nombre", "vendedor", "email"]
+  },
+  "clientes": {
+    "litoral": 957,
+    "actualizados": 957,
+    "parche_telefonos_duplicados": [530, 638],
+    "csv": "implementacion/dimer/outputs/litoral-nombres-pila-v2.csv"
+  }
+}

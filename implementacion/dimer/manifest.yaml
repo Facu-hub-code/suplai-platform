@@ -30,10 +30,15 @@ litoral_7_vendedores:
   output_cartera: outputs/litoral-cartera.csv
   output_whatsapp: outputs/litoral-destinatarios-whatsapp.csv
   output_resumen: outputs/litoral-resumen-vendedores.csv
-  plantilla_propuesta: dimer_litoral_contacto_v1
-  plantilla_id: "06451607-48e3-4d84-b3d2-3409f3387611"
-  plantilla_meta_id: "1832889678122512"
+  plantilla_propuesta: dimer_litoral_contacto_v2
+  plantilla_id: "cf3ba37e-abae-44c3-961e-6f006d6de945"
+  plantilla_meta_id: "957496730723848"
   plantilla_status: PENDING
+  plantilla_v2_at: "2026-09-04T17:35:00Z"
+  output_nombres_pila: outputs/litoral-nombres-pila-v2.csv
+  plantilla_v1: dimer_litoral_contacto_v1
+  plantilla_v1_id: "06451607-48e3-4d84-b3d2-3409f3387611"
+  variable_columns: ["nombre", "vendedor", "email"]
   csv_listo_at: "2026-09-01T19:53:00Z"
   cargado_at: "2026-09-01T21:55:00Z"
 
