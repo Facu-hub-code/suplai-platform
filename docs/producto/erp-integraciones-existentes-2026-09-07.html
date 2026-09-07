@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Integraciones ERP existentes — Suplai · 7 sep 2026</title>
+  <style>
+    @page { size: A4 landscape; margin: 12mm 12mm 14mm 12mm; }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 10.5px;
+      line-height: 1.4;
+      color: #1a1a1a;
+      background: #fff;
+    }
+    .page { max-width: 100%; }
+    h1 { font-size: 22px; font-weight: 650; margin: 0 0 6px; letter-spacing: -0.02em; }
+    h2 { font-size: 14px; font-weight: 650; margin: 18px 0 6px; page-break-after: avoid; }
+    h3 { font-size: 12px; font-weight: 600; margin: 10px 0 4px; }
+    p { margin: 0 0 8px; }
+    .lede { color: #444; font-size: 12px; }
+    .meta { color: #666; font-size: 10px; margin-bottom: 12px; }
+    .callout {
+      border: 1px solid #d0d4d8;
+      padding: 8px 10px;
+      margin: 10px 0 14px;
+      page-break-inside: avoid;
+    }
+    .callout.info { border-left: 3px solid #2f6fed; }
+    .callout.warn { border-left: 3px solid #b86e00; }
+    .callout strong { display: block; margin-bottom: 3px; }
+    .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 10px 0 14px; }
+    .kpi {
+      border: 1px solid #e2e4e8;
+      padding: 8px 10px;
+      page-break-inside: avoid;
+    }
+    .kpi .v { font-size: 20px; font-weight: 650; letter-spacing: -0.03em; }
+    .kpi .l { color: #555; font-size: 10px; }
+    .kpi.warn .v { color: #9a5b00; }
+    .kpi.ok .v { color: #1b7f3a; }
+    table { width: 100%; border-collapse: collapse; margin: 4px 0 10px; font-size: 9.5px; }
+    th, td { border-bottom: 1px solid #e6e8eb; padding: 4px 5px; text-align: left; vertical-align: top; }
+    th { font-weight: 600; color: #333; border-bottom: 1px solid #c9cdd2; }
+    td.r, th.r { text-align: right; }
+    tbody tr:nth-child(even) { background: #f7f8f9; }
+    .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-right: 5px; vertical-align: middle; }
+    .ok { background: #1b7f3a; }
+    .warn { background: #b86e00; }
+    .info { background: #2f6fed; }
+    .bad { background: #b42318; }
+    .qs { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .q {
+      border: 1px solid #e2e4e8;
+      padding: 8px 10px;
+      page-break-inside: avoid;
+    }
+    .q h3 { margin: 0 0 4px; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+    .pill {
+      font-size: 9px;
+      font-weight: 600;
+      border: 1px solid #c9cdd2;
+      padding: 1px 6px;
+      white-space: nowrap;
+    }
+    .muted { color: #555; font-size: 10px; }
+    .split { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .chart { margin: 8px 0 4px; page-break-inside: avoid; }
+    .chart-row { display: grid; grid-template-columns: 92px 1fr; align-items: end; gap: 8px; margin-bottom: 7px; }
+    .chart-name { font-size: 10px; color: #333; padding-bottom: 2px; }
+    .bars { display: flex; align-items: flex-end; gap: 3px; height: 52px; }
+    .bar-col { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; flex: 1; min-width: 0; }
+    .bar { width: 100%; max-width: 28px; }
+    .bar.a { background: #2f6fed; }
+    .bar.b { background: #1b7f3a; }
+    .bar.c { background: #b86e00; }
+    .bar-val { font-size: 8px; color: #444; margin-top: 2px; }
+    .legend { display: flex; gap: 14px; font-size: 10px; color: #444; margin: 6px 0 8px; }
+    .legend i { display: inline-block; width: 9px; height: 9px; margin-right: 4px; vertical-align: -1px; }
+    footer {
+      margin-top: 16px;
+      padding-top: 6px;
+      border-top: 1px solid #e2e4e8;
+      color: #666;
+      font-size: 9px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Integraciones ERP existentes</h1>
+    <p class="lede">Qué ERPs están conectados, qué dato mapeamos y si alcanza para crear productos, inyectar pedidos, calcular métricas y disparar alertas.</p>
+    <p class="meta">Fuente: perfiles y configs en <code>core.erp_*</code> + espejos por tenant · proyecto Suplai-east · consulta 7 sep 2026. Solo lectura.</p>
+
+    <div class="callout info">
+      <strong>Suplai no reemplaza al ERP</strong>
+      Opera como capa comercial (agente, tienda, Field) con un espejo controlado. El job automático actualiza stock y precios de entidades ya vinculadas; no crea catálogo ni clientes. El alta ERP → Suplai es promoción humana (wizard / cola / promote bulk).
+    </div>
+
+    <div class="kpis">
+      <div class="kpi"><div class="v">5</div><div class="l">Tenants con ERP vivo</div></div>
+      <div class="kpi ok"><div class="v">5</div><div class="l">Conectores en producción</div></div>
+      <div class="kpi warn"><div class="v">2</div><div class="l">Stubs sin tenant (SAP, REST)</div></div>
+      <div class="kpi warn"><div class="v">430</div><div class="l">SKUs ERP aún no en catálogo</div></div>
+    </div>
+
+    <h2>Tenants conectados ahora</h2>
+    <p class="muted">Volúmenes de espejo vs tablas canónicas. Pedidos canónicos incluyen origen agente/tienda, no solo ERP.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Tenant</th><th>ERP</th><th>Sync</th><th>Push</th><th>Último sync</th>
+          <th class="r">Prod. espejo</th><th class="r">Catálogo</th><th class="r">Pend. alta</th>
+          <th class="r">Cli. espejo</th><th class="r">Cli. linked</th>
+          <th class="r">Ped. espejo</th><th class="r">Ped. canónicos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="dot ok"></span>benfresh</td><td>Odoo 19 JSON-RPC</td><td>6h</td><td>Sí</td><td>7 sep 00:00 UTC</td>
+          <td class="r">208</td><td class="r">202</td><td class="r">6</td>
+          <td class="r">519</td><td class="r">510 / 525</td>
+          <td class="r">1.693</td><td class="r">1.274</td>
+        </tr>
+        <tr>
+          <td><span class="dot ok"></span>el_gigante</td><td>Galileo (MySQL espejo)</td><td>6h</td><td>Sí</td><td>4 sep 12:00 UTC</td>
+          <td class="r">330</td><td class="r">235</td><td class="r">95</td>
+          <td class="r">2.494</td><td class="r">1.370 / 1.716</td>
+          <td class="r">8.133</td><td class="r">36.238</td>
+        </tr>
+        <tr>
+          <td><span class="dot warn"></span>gonzales</td><td>GEV / ArcorGev</td><td>6h</td><td>No</td><td>7 sep 00:00 UTC</td>
+          <td class="r">1.278</td><td class="r">1.032</td><td class="r">299</td>
+          <td class="r">0</td><td class="r">0 / 126</td>
+          <td class="r">0</td><td class="r">56</td>
+        </tr>
+        <tr>
+          <td><span class="dot warn"></span>del_corro</td><td>GESCOM on-prem (CSV)</td><td>1d ingest</td><td>No</td><td>6 sep 12:00 UTC</td>
+          <td class="r">1.122</td><td class="r">1.302</td><td class="r">30</td>
+          <td class="r">0</td><td class="r">0 / 6.361</td>
+          <td class="r">0</td><td class="r">17.107</td>
+        </tr>
+        <tr>
+          <td><span class="dot info"></span>cordoba_frost</td><td>Cianbox REST</td><td>24h</td><td>Sí</td><td>6 sep 06:00 UTC</td>
+          <td class="r">0</td><td class="r">286</td><td class="r">0</td>
+          <td class="r">0</td><td class="r">1 / 476</td>
+          <td class="r">0</td><td class="r">35</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Catálogo: espejo ERP vs productos Suplai</h2>
+    <p class="muted">SKUs por tenant. Córdoba Frost no pulea catálogo (Excel). Campi tiene más productos en Suplai que en el último ingest.</p>
+    <div class="legend">
+      <span><i style="background:#2f6fed"></i>Espejo ERP</span>
+      <span><i style="background:#1b7f3a"></i>Catálogo Suplai</span>
+      <span><i style="background:#b86e00"></i>Solo en ERP (pendiente de alta)</span>
+    </div>
+    <div class="chart">
+      <!-- max = 1302 -->
+      <div class="chart-row">
+        <div class="chart-name">BenFresh</div>
+        <div class="bars">
+          <div class="bar-col"><div class="bar a" style="height:8%"></div><div class="bar-val">208</div></div>
+          <div class="bar-col"><div class="bar b" style="height:16%"></div><div class="bar-val">202</div></div>
+          <div class="bar-col"><div class="bar c" style="height:0.5%"></div><div class="bar-val">6</div></div>
+        </div>
+      </div>
+      <div class="chart-row">
+        <div class="chart-name">El Gigante</div>
+        <div class="bars">
+          <div class="bar-col"><div class="bar a" style="height:25%"></div><div class="bar-val">330</div></div>
+          <div class="bar-col"><div class="bar b" style="height:18%"></div><div class="bar-val">235</div></div>
+          <div class="bar-col"><div class="bar c" style="height:7%"></div><div class="bar-val">95</div></div>
+        </div>
+      </div>
+      <div class="chart-row">
+        <div class="chart-name">Gonzales</div>
+        <div class="bars">
+          <div class="bar-col"><div class="bar a" style="height:98%"></div><div class="bar-val">1.278</div></div>
+          <div class="bar-col"><div class="bar b" style="height:79%"></div><div class="bar-val">1.032</div></div>
+          <div class="bar-col"><div class="bar c" style="height:23%"></div><div class="bar-val">299</div></div>
+        </div>
+      </div>
+      <div class="chart-row">
+        <div class="chart-name">Campi</div>
+        <div class="bars">
+          <div class="bar-col"><div class="bar a" style="height:86%"></div><div class="bar-val">1.122</div></div>
+          <div class="bar-col"><div class="bar b" style="height:100%"></div><div class="bar-val">1.302</div></div>
+          <div class="bar-col"><div class="bar c" style="height:2%"></div><div class="bar-val">30</div></div>
+        </div>
+      </div>
+      <div class="chart-row">
+        <div class="chart-name">Córdoba Frost</div>
+        <div class="bars">
+          <div class="bar-col"><div class="bar a" style="height:0.5%"></div><div class="bar-val">0</div></div>
+          <div class="bar-col"><div class="bar b" style="height:22%"></div><div class="bar-val">286</div></div>
+          <div class="bar-col"><div class="bar c" style="height:0.5%"></div><div class="bar-val">0</div></div>
+        </div>
+      </div>
+    </div>
+    <p class="muted">Fuente: <code>tenant.erp_products_raw</code> y <code>tenant.productos</code> · 7 sep 2026. Eje Y relativo al máximo (1.302 SKUs, Campi catálogo).</p>
+
+    <h2>Capacidades por conector</h2>
+    <p class="muted">Lo que declara <code>core.erp_connector_profiles</code> en producción (no el spec de julio 2026). SAP y Custom REST existen en código y no tienen tenant.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Conector</th>
+          <th>Pull productos</th>
+          <th>Pull precios</th>
+          <th>Pull clientes</th>
+          <th>Pull pedidos</th>
+          <th>Push pedidos</th>
+          <th>Alta clientes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><span class="dot ok"></span>Odoo</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Cola + load-customers</td></tr>
+        <tr><td><span class="dot ok"></span>Galileo</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Sí (staging MySQL)</td><td>Cola + vendedores</td></tr>
+        <tr><td><span class="dot warn"></span>GEV</td><td>Sí</td><td>Sí (+IVA 21%)</td><td>No (vacío)</td><td>No (vacío)</td><td>Código listo, flag OFF</td><td>No</td></tr>
+        <tr><td><span class="dot warn"></span>GESCOM on-prem</td><td>Ingest CSV</td><td>Ingest CSV</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
+        <tr><td><span class="dot info"></span>Cianbox</td><td>No (Excel)</td><td>No</td><td>No</td><td>Código sí / flag OFF</td><td>Sí (cliente genérico)</td><td>No</td></tr>
+        <tr><td>Custom REST</td><td>Sí (genérico)</td><td>Sí</td><td>Sí</td><td>No</td><td>POST /orders</td><td>Sin cola</td></tr>
+        <tr><td><span class="dot bad"></span>SAP</td><td>Stub</td><td>Stub</td><td>Stub</td><td>Vacío</td><td>Stub</td><td>No</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Las cuatro preguntas</h2>
+    <div class="qs">
+      <div class="q">
+        <h3>¿Crear productos con lo que hay? <span class="pill">Parcial</span></h3>
+        <p>Sí, como alta mínima. <code>POST /erp/promote-products-bulk</code> toma sku + nombre + stock del espejo, genera descripción y deja UMV = unidad / bulto = 1. No usa barcode, categoría, UOM ni <code>unidades_por_bulto</code> (Galileo sí las trae en extra).</p>
+        <p class="muted">Pendientes hoy: Gonzales 299 · El Gigante 95 · Campi 30 · BenFresh 6. Precios se pegan después, solo si el SKU ya existe y la lista tiene <code>erp_list_id</code>.</p>
+      </div>
+      <div class="q">
+        <h3>¿Inyectar pedidos? <span class="pill">Sí, 3 de 5</span></h3>
+        <p>Sí en Odoo (<code>sale.order</code>), Galileo (tablas PENDIENTES) y Cianbox (<code>POST /pedidos/alta</code> con cliente genérico “Suplai”). Disparo al confirmar, con cola de reintento.</p>
+        <p class="muted">GEV: el payload a <code>/ws_download/container/</code> está implementado, pero <code>capabilities.push_orders</code> y el toggle del tenant están en false. GESCOM: no hay canal de entrada acordado con el vendor.</p>
+      </div>
+      <div class="q">
+        <h3>¿Traer pedidos y métricas? <span class="pill">Sí, si proyecta</span></h3>
+        <p>El dashboard no lee <code>erp_orders_raw</code>. Lee pedidos canónicos en estado <code>confirmado</code> o <code>descargado</code>. Galileo proyecta solo tras el pull. Odoo deja el espejo; hay que llamar <code>/erp/orders-raw/project</code>.</p>
+        <p class="muted">El Gigante ya tiene 36.232 confirmados → métricas vivas. GEV y GESCOM no pulean pedidos. <code>enviado_erp</code> (85 BenFresh, 15 Córdoba Frost, 7 Gonzales) no entra al KPI.</p>
+      </div>
+      <div class="q">
+        <h3>¿Traer pedidos y alertas? <span class="pill">Misma regla</span></h3>
+        <p>Las alarmas (baja facturación, baja frecuencia, baja mix rentable, SKUs sin reposición vía sales-engine) usan la misma tabla <code>pedidos</code>. Si el pedido está proyectado y confirmado, la alerta corre.</p>
+        <p class="muted">No se alerta desde el espejo crudo. Sin cliente vinculado o SKU en catálogo, la proyección falla (<code>missing_customer</code> / <code>missing_product</code>) y ese historial no alimenta alarmas ni ML.</p>
+      </div>
+    </div>
+
+    <h2>Cómo mapeamos — productos</h2>
+    <p>Destino espejo: <code>sku</code>, <code>nombre</code>, <code>cantidad</code>, <code>raw_payload</code>. Clave operativa: <code>product_code = sku</code>. Sync de stock solo UPDATE; nunca INSERT en <code>productos</code> desde el job.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>ERP</th><th>Origen</th><th>SKU</th><th>Nombre</th><th>Stock</th>
+          <th>Extra que llega y no se usa en el alta</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Odoo</td><td>product.product (is_storable)</td><td>default_code</td><td>name</td><td>qty_available</td><td>barcode, categ_id, uom_id, list_price, odoo_id</td></tr>
+        <tr><td>Galileo</td><td>SUPLAI_PRODUCTOS activo=1</td><td>sku</td><td>nombre</td><td>stock_disponible</td><td>unidad_venta, unidades_por_bulto</td></tr>
+        <tr><td>GEV</td><td>GET /articulos/getArticulos/</td><td>CODIGO_ARTICULO</td><td>DESCRIPCION_ARTICULO</td><td>STOCK</td><td>Ninguno: la API no da empaque ni categoría</td></tr>
+        <tr><td>GESCOM</td><td>CSV Articulos + Stock vía agente Windows</td><td>sku</td><td>nombre</td><td>StockIni / cantidad</td><td>price_source / stock_source en payload</td></tr>
+        <tr><td>Cianbox</td><td>Excel / carga backoffice</td><td>product_code local</td><td>nombre local</td><td>manual</td><td>Push usa product_id_map código → id_producto</td></tr>
+      </tbody>
+    </table>
+    <p class="muted"><strong>Precios (no son el alta de producto).</strong> Odoo: <code>product.pricelist.item</code> con <code>compute_price=fixed</code> → lista_id = id Odoo. Galileo: <code>SUPLAI_PRECIOS.precio_unidad</code> + <code>SUPLAI_LISTAS_PRECIOS</code>. GEV: <code>PRECIO_NETO_SIN_IMPUESTOS × 1,21</code>. GESCOM: CSV de listas + detalle, luego <code>sync_prices_from_raw</code> si <code>apply_operational=true</code>. El sync solo escribe <code>precios_productos</code> cuando el SKU existe y la lista tiene <code>erp_list_id</code>. <code>auto_create_price_lists_on_sync</code> está false en todos los perfiles vivos.</p>
+
+    <h2>Cómo mapeamos — clientes</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ERP</th><th>ID externo</th><th>Nombre</th><th>Teléfono</th><th>Más datos</th><th>Cómo entra a clients</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Odoo</td><td>res.partner.id → partner_erp_id</td><td>name</td><td>phone del partner o hijo</td><td>email, vat, street+city, zip, pricelist</td><td>Espejo + cola approve, o load-customers (match id / tel / nombre)</td></tr>
+        <tr><td>Galileo</td><td>cliente_codigo</td><td>nombre_fantasia || razon_social</td><td>telefono</td><td>cuit, direccion, lista, vendedor_codigo</td><td>Igual que Odoo + sync vendedores (erp_codigo)</td></tr>
+        <tr><td>GEV</td><td>—</td><td>—</td><td>—</td><td>API no expuesta en el conector</td><td>No. Clientes de Gonzales son carga Suplai</td></tr>
+        <tr><td>GESCOM</td><td>—</td><td>—</td><td>—</td><td>El ingest no trae partners</td><td>No. Campi: 6.361 clients sin partner_erp_id</td></tr>
+        <tr><td>Cianbox</td><td>id_cliente_suplai=1 genérico</td><td>en observaciones del pedido</td><td>no mapeado 1-1</td><td>identificación real en notas</td><td>No hay pull. 1 cliente linked de 476</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Cómo mapeamos — pedidos</h2>
+    <div class="split">
+      <div>
+        <h3>Push (Suplai → ERP)</h3>
+        <table>
+          <thead><tr><th>ERP</th><th>Destino</th><th>Cliente</th><th>Ítems</th><th>Referencia</th></tr></thead>
+          <tbody>
+            <tr><td>Odoo</td><td>sale.order + order_line</td><td>partner_erp_id o teléfono</td><td>SKU, qty, price</td><td>client_order_ref SUPPLAI-{id}</td></tr>
+            <tr><td>Galileo</td><td>SUPLAI_PEDIDOS_PENDIENTES</td><td>customer_id = código Galileo</td><td>SKU, qty, price</td><td>suplai_pedido_id; el agente Galileo lo ingesta</td></tr>
+            <tr><td>Cianbox</td><td>POST /pedidos/alta</td><td>siempre el cliente genérico</td><td>id_producto via map o id=0 + detalle</td><td>referencia_externa = id Suplai</td></tr>
+            <tr><td>GEV</td><td>POST /ws_download/container/</td><td>ID_CUENTA 10 dígitos</td><td>CODIGO_ARTICULO + ID_LISTA_PRECIO</td><td>ID_PEDIDO = vendedor - id</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h3>Pull (ERP → espejo)</h3>
+        <table>
+          <thead><tr><th>ERP</th><th>Origen</th><th>Clave</th><th>Líneas</th><th>Proyección a pedidos</th></tr></thead>
+          <tbody>
+            <tr><td>Odoo</td><td>sale.order</td><td>erp_order_id = id</td><td>default_code, qty, price_unit</td><td>Manual: /orders-raw/project</td></tr>
+            <tr><td>Galileo</td><td>SUPLAI_PEDIDOS desde 2025-08-01</td><td>erp_pedido_id</td><td>SUPLAI_PEDIDO_ITEMS</td><td>Automática post-sync</td></tr>
+            <tr><td>Cianbox</td><td>GET /pedidos (código)</td><td>id Cianbox</td><td>codigo_interno, neto_uni</td><td>Flag pull_orders=false en prod</td></tr>
+            <tr><td>GEV / GESCOM</td><td>No implementado</td><td>—</td><td>—</td><td>Imposible hoy</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="callout warn">
+      <strong>Métricas y alertas ignoran enviado_erp</strong>
+      Facturación, cobertura, frecuencia, ticket, mix rentable y las alarmas comerciales filtran <code>estado IN (confirmado, descargado)</code>. Un pedido inyectado al ERP pasa a <code>enviado_erp</code> y desaparece del dashboard hasta que alguien lo marque de otro modo. El Gigante no sufre esto porque la proyección escribe <code>confirmado</code>. BenFresh sí: 85 pedidos enviados a Odoo quedan fuera del KPI.
+    </div>
+
+    <h2>Qué hace falta, por pregunta y tenant</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Tenant</th>
+          <th>Alta productos</th>
+          <th>Inyectar pedidos</th>
+          <th>Métricas desde ERP</th>
+          <th>Alertas desde ERP</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BenFresh / Odoo</td>
+          <td>Sí (6 SKUs sueltos). Extra Odoo no entra al alta.</td>
+          <td>Sí, en prod (85 enviado_erp).</td>
+          <td>Historial agente sí. Espejo 1.693 raw no se proyecta solo.</td>
+          <td>Sobre pedidos confirmados del agente. No sobre el espejo crudo.</td>
+        </tr>
+        <tr>
+          <td>El Gigante / Galileo</td>
+          <td>Sí, pero se pierde bulto (95 SKUs pendientes).</td>
+          <td>Sí, staging MySQL (1 enviado_erp; el resto vive en Galileo).</td>
+          <td>Sí: 36k confirmados proyectados. Sync de espejo un poco viejo (4 sep).</td>
+          <td>Sí, mismo historial. ML de reposición también.</td>
+        </tr>
+        <tr>
+          <td>Gonzales / GEV</td>
+          <td>Sí mínima para 299 SKUs. Sin empaque ni clientes ERP.</td>
+          <td>No en prod. Código listo; hay que prender capability + QA.</td>
+          <td>No: no hay pull de pedidos GEV.</td>
+          <td>No desde ERP. Solo los 47 confirmados/descargados locales.</td>
+        </tr>
+        <tr>
+          <td>Campi / GESCOM</td>
+          <td>Sí mínima para 30 SKUs del CSV. Clientes no vienen.</td>
+          <td>No. Falta canal vendor (archivo o SP).</td>
+          <td>No desde GESCOM. Los 17k pedidos son carga Suplai/histórica.</td>
+          <td>Sí sobre esa historia local, no sobre el ERP.</td>
+        </tr>
+        <tr>
+          <td>Córdoba Frost / Cianbox</td>
+          <td>No vía ERP (catálogo Excel). Map de ids para push.</td>
+          <td>Sí, 15 enviado_erp, cliente genérico.</td>
+          <td>No: pull de pedidos apagado (0 raw).</td>
+          <td>Casi no: 1 confirmado + 6 descargados. El push no cuenta.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Conectores en código sin tenant</h2>
+    <p>Custom REST espera GET <code>/products</code>, <code>/prices</code>, <code>/customers</code> y POST <code>/orders</code>. SAP lanza <code>NotImplementedError</code> en todos los fetch/push. Ninguno figura en <code>core.erp_connector_configs</code>.</p>
+
+    <footer>
+      Suplai Sales · Integraciones ERP existentes · 7 septiembre 2026 · datos de producción Suplai-east (cvlbietibaaehgeimxgw)
+    </footer>
+  </div>
+</body>
+</html>
