@@ -1,0 +1,33 @@
+{
+  "schema": "dimer",
+  "template": {
+    "name": "dimer_litoral_contacto_v2",
+    "status": "APPROVED",
+    "language": "es"
+  },
+  "send": {
+    "http": 200,
+    "accepted": true,
+    "message_id": "wamid.HBgNNTQ5MzU4NTA5ODY3MRUCABEYEkZBQzMwMkEyMzhBRUUzNUE2QQA=",
+    "meta_code": null,
+    "meta_subcode": null,
+    "meta_message": "",
+    "user_title": null,
+    "user_msg": null,
+    "params": [
+      "Facundo",
+      "María Verónica Montes",
+      "+56 9 5814 2220"
+    ],
+    "language": "es"
+  },
+  "agenda": {
+    "created": true,
+    "id": 3,
+    "hora_envio": "14:00:00",
+    "fecha_programada": "2026-09-07",
+    "activo": true,
+    "origen": "dimer-litoral-contacto-v2"
+  },
+  "verdict": "ok"
+}
