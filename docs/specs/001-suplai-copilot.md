@@ -34,6 +34,9 @@ Documento maestro que enlaza las specs anidadas. Implementación repartida en `b
 | `product-management-app` | [039-suplai-copilot-ui-artefactos.md](../../product-management-app/doc/specs/039-suplai-copilot-ui-artefactos.md) | Panel, bubble, canvas de artefactos, confirmación write |
 | `suplai-platform` | [014-suplai-copilot-supervisor-ritmo-ventas.md](./014-suplai-copilot-supervisor-ritmo-ventas.md) | **Epic Fase 2.5:** día de semana por vendedor, thought stream, follow-ups, evals CI |
 | `suplai-platform` | [027-copilot-hablar-con-datos.md](./027-copilot-hablar-con-datos.md) | **Rediseño v1:** acceso bajo Estrategias, ChatGPT UI, híbrido tools + NL→SQL, depreca artefactos ricos |
+| `suplai-platform` | [038-copilot-agentes-especialistas.md](./038-copilot-agentes-especialistas.md) | **Agentes especialistas** (Carlos, Lucía, Sofía, Martín, Nina, Omar): packs cerrados, misma pantalla de chats |
+| `suplai-platform` | [039-copilot-table-entity-links.md](./039-copilot-table-entity-links.md) | **Links en tablas Copilot:** click en ID y nombre → preview cliente / producto / agenda / pedido / grupo. El backend anota; no adivinar por columna "ID". Distinto del 039 de backoffice (UI de artefactos) |
+| `suplai-platform` | [040-copilot-table-export.md](./040-copilot-table-export.md) | **Export CSV/PDF** de cada tabla Copilot (cliente, artefactos visibles). Distinto del PDF de informe + Brevo |
 | `backend-supabase` | [043-suplai-copilot-sales-by-day-of-week.md](../../backend-supabase/docs/specs/043-suplai-copilot-sales-by-day-of-week.md) | Tool `sales_by_day_of_week` |
 | `backend-supabase` | [044-suplai-copilot-thought-stream-followups.md](../../backend-supabase/docs/specs/044-suplai-copilot-thought-stream-followups.md) | SSE progreso + follow-ups sugeridos |
 | `backend-supabase` | [045-suplai-copilot-evals-ci.md](../../backend-supabase/docs/specs/045-suplai-copilot-evals-ci.md) | Eval harness pytest por tenant |
@@ -48,6 +51,8 @@ Documento maestro que enlaza las specs anidadas. Implementación repartida en `b
 | **2** | Acciones write (agenda) con preview + confirmación + audit log |
 | **2.5** | Ritmo ventas supervisor: día de semana + vendedor, thought stream, follow-ups, evals CI |
 | **3** | Secuencias de seguimiento multi-paso (diseño + ejecución) |
+| **4** | Agentes especialistas (spec 038): un pack por oficio; crece sumando agentes |
+| **4.1** | Links de entidad en tablas Copilot (spec 039): ID + nombre clickeables → preview |
 
 ## Relación con productos existentes
 
