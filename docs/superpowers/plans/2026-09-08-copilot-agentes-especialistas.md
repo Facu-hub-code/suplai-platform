@@ -808,13 +808,13 @@ Descripciones OpenAI **explícitas**: `get_productos` es cobertura de catálogo/
 
 **Files:**
 - `suplai-platform/scripts/copilot-evals/` — los cases existentes asumen Copilot único; pasar `agent_slug=reportes` en el cliente de eval si pega a `/chat`
-- Modify: `docs/specs/038-copilot-agentes-especialistas.md` estado → Aprobado para implementación (si el humano ya lo validó)
+- Modify: `docs/specs/038-copilot-agentes-especialistas.md` estado → Implementado en ramas feat/copilot-agentes-especialistas (pendiente migración SQL 118 + merge)
 - Modify: `docs/specs/001-suplai-copilot.md` si faltó algún enlace
 
-- [ ] Correr evals demo que ya son `critical`
-- [ ] `pytest` copilot en backend verde
-- [ ] `npx tsc --noEmit` backoffice verde
-- [ ] Commit docs evals: `test(copilot): evals contra el pack reportes`
+- [ ] Correr evals demo que ya son `critical` — E2E bloqueado: falta `tests/copilot_evals/`
+- [x] `pytest` copilot en backend verde
+- [ ] `npx tsc --noEmit` backoffice verde — sigue en rojo (preexistente)
+- [x] Commit docs evals: `test(copilot): evals contra el pack reportes`
 
 ---
 

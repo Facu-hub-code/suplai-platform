@@ -87,9 +87,14 @@ Requisitos:
 
 ## Política CI
 
-- Job `copilot-evals` en `backend-supabase/.github/workflows/ci.yml`.  
-- Falla si cualquier caso con `"critical": true` en el caso o tenant falla.  
+El job `copilot-evals` está especificado en [spec 045](../../backend-supabase/docs/specs/045-suplai-copilot-evals-ci.md) y **aún no está presente** en `backend-supabase/.github/workflows/ci.yml`. Tampoco existe el runner `tests/copilot_evals/`.
+
+Cuando existan el runner y el job:
+
+- Falla si cualquier caso con `"critical": true` en el caso o tenant falla.
 - Skip (warn) si `min_confirmed_orders` no se cumple.
+
+Los casos `critical` del manifest (p. ej. `demo`) ya están listos para cuando el runner exista.
 
 ---
 
