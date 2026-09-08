@@ -2,6 +2,8 @@
 
 Suite de evaluación regresiva para **Suplai Copilot** (backend). Complementa `tests/test_copilot_sales_metrics.py` con casos end-to-end por tenant.
 
+Los casos actuales corren contra el pack `reportes` (Carlos). Toda conversación nueva que pegue a `POST /{schema}/copilot/chat` debe enviar `agent_slug: "reportes"` en `input`.
+
 **Spec:** [docs/specs/045-suplai-copilot-evals-ci.md](../../backend-supabase/docs/specs/045-suplai-copilot-evals-ci.md)  
 **Epic:** [docs/specs/014-suplai-copilot-supervisor-ritmo-ventas.md](../docs/specs/014-suplai-copilot-supervisor-ritmo-ventas.md)
 
@@ -31,7 +33,7 @@ scripts/copilot-evals/
 
 ## Ejecutar localmente
 
-Desde `backend-supabase/`:
+Cuando exista el runner `tests/copilot_evals/` en `backend-supabase/`, correr desde ese repo:
 
 ```bash
 export COPILOT_ENABLED=true
@@ -39,6 +41,8 @@ export COPILOT_EVAL_FORCE_HEURISTIC=1
 export COPILOT_EVAL_MANIFEST="../suplai-platform/scripts/copilot-evals/manifest.json"
 python -m pytest tests/copilot_evals/ -m copilot_eval -v
 ```
+
+Hoy ese directorio no existe en `backend-supabase`, así que los casos JSON quedan listos pero la ejecución E2E sigue bloqueada hasta agregar ese runner. Mientras tanto, la verificación mínima de la rama se hace con `python -m pytest tests/test_copilot*.py -q --tb=line`.
 
 Requisitos:
 
@@ -50,7 +54,7 @@ Requisitos:
 ## Alta de un tenant
 
 1. Crear carpeta `cases/{schema}/`.  
-2. Copiar `_template/case.template.json` y completar `input` / `expect`.  
+2. Copiar `_template/case.template.json` y completar `input` / `expect` manteniendo `agent_slug: "reportes"` salvo que el runner soporte otro pack explícitamente.  
 3. Añadir bloque en `manifest.json`:
 
 ```json

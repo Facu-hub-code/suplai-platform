@@ -4,7 +4,8 @@
   "critical": true,
   "input": {
     "message": "Mostrame las ventas por día de la semana desglosadas por vendedor en los últimos 90 días.",
-    "locale": "es"
+    "locale": "es",
+    "agent_slug": "reportes"
   },
   "expect": {
     "tools": [

@@ -4,7 +4,8 @@
   "critical": false,
   "input": {
     "message": "Mensaje del supervisor en español",
-    "locale": "es"
+    "locale": "es",
+    "agent_slug": "reportes"
   },
   "expect": {
     "tools": [

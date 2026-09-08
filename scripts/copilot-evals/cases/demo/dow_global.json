@@ -4,7 +4,8 @@
   "critical": true,
   "input": {
     "message": "¿Qué día de la semana se vende más en los últimos 90 días?",
-    "locale": "es"
+    "locale": "es",
+    "agent_slug": "reportes"
   },
   "expect": {
     "tools": [
