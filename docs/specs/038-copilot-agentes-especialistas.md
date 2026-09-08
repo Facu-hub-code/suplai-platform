@@ -150,6 +150,12 @@ OK mínimo del bootstrap (pasos 1–2): 1–4 y 6. Sofía/Martín/Nina/Omar se p
 
 ---
 
+## Relacionado
+
+Tablas accionables (click en ID/nombre → ficha): [039-copilot-table-entity-links.md](./039-copilot-table-entity-links.md). Export CSV/PDF de esas tablas: [040-copilot-table-export.md](./040-copilot-table-export.md). Fuera del pack 038; no cambia slugs ni tools.
+
+---
+
 ## Referencias
 
 - UI actual: `product-management-app/components/copilot/CopilotChatView.tsx`
