@@ -32,6 +32,7 @@ Caso canónico: *armar un grupo de quienes agregaron al carrito y no cerraron pe
 | Tracing | LangSmith **opcional** (`LANGCHAIN_TRACING_V2` + `LANGSMITH_API_KEY`) | Nada de LangSmith/Langfuse estaba en Copilot; LangGraph lo soporta nativo. Sin env, el grafo igual corre | Langfuse (otra SDK); tracing obligatorio |
 | Checkpointer | `MemorySaver` hidratado desde `core.copilot_orchestrator_runs` (bytea) | Railway tiene varios workers; interrupt exige checkpoint. JSON puro no serializa mensajes LangChain | Solo MemorySaver (se pierde el resume); pool extra de `langgraph-checkpoint-postgres` |
 | Stream | `astream_events(..., version="v2")` | Tokens del supervisor → `reasoning_delta`; cada item de transcript → `transcript_turn` | Seguir el stream post-hoc de 40 chars (no hay razonamiento en vivo) |
+| Audiencia ad-hoc (carrito, funnel, IDs) | Etiquetar esos `client_ids` y crear el grupo `mode=etiqueta` | `grupo_create` no acepta un set de IDs; `mode=lista` exige lista de precios + días de visita (ruta comercial), no una audiencia puntual. Copilot no crea etiquetas nuevas: reutiliza una existente (p. ej. Carrito) | `dynamic_condition=open_cart` en Copilot (la API de grupos ya lo tiene; la tool no lo expone); grupo por lista de precios |
 
 ---
 
@@ -42,7 +43,7 @@ Caso canónico: *armar un grupo de quienes agregaron al carrito y no cerraron pe
 - Pack `supervisor` (nombre default **Supervisor**) primero en `GET /agents`.
 - Seis wrappers `preguntar_a_{carlos,lucia,sofia,martin,nina,omar}` con Command + InjectedState + transcript.
 - Grafo ReAct: supervisor → (confirm si `es_escritura`) → tools → supervisor → END.
-- `interrupt()` antes de handoffs de escritura (grupo, etiquetas, agenda, crear plantilla).
+- `interrupt()` antes de handoffs de escritura (etiquetar, grupo por etiqueta, agenda, crear plantilla).
 - SSE: `reasoning_delta`, `employee_started`, `transcript_turn`, `confirmation_required` + eventos actuales (`text_delta`, `artifact`, `done`, `error`).
 - UI: bitácora Supervisor↔empleado, tarjeta de subagente en vivo con link al chat puente, razonamiento token a token, botones Sí/No del interrupt, 1:1 intacto.
 - Conversaciones puente ocultas en `GET /conversations`.
@@ -50,7 +51,7 @@ Caso canónico: *armar un grupo de quienes agregaron al carrito y no cerraron pe
 
 ### Fuera de alcance
 
-- Reescribir prompts/tools de los seis packs (`catalog.py` / `tools.py` de especialistas).
+- Reescribir el runtime de los seis packs. Sí se ajusta el prompt de Lucía y las descripciones de `grupo_create` / `etiquetas_assign_bulk` para el encadenado etiquetar → grupo por etiqueta.
 - Librería `langgraph_supervisor`.
 - Thought steps discretos del spec 050 / follow-up chips (el razonamiento del supervisor es texto en vivo, no `thought_step`).
 - Disparar sync ERP, campañas/estrategias, upload de catálogo.
@@ -87,7 +88,7 @@ Rollback: dropear tabla de runs, índice y columna `origin` (chats 1:1 siguen). 
 ## Plan de prueba en CI/CD
 
 - `tests/test_copilot_catalog.py`: los 6 slugs de especialistas no cambian; `list_packs()` empieza por `supervisor`.
-- `tests/test_copilot_supervisor_graph.py`: wrappers append transcript; `es_escritura` dispara interrupt; lectura no; caso carrito mockeado (Lucia → Sofía → Martín).
+- `tests/test_copilot_supervisor_graph.py`: wrappers append transcript; `es_escritura` dispara interrupt; lectura no; caso carrito mockeado (Lucía listar → etiquetar → grupo por etiqueta → Sofía → Martín).
 - Persistencia: `list_conversations` filtra `origin=user`; `ensure_bridge` reusa el mismo id.
 - Router: `GET /agents` incluye supervisor primero; chat con `agent_slug=supervisor` no llama `run_chat_turn` del pack genérico.
 - Checks existentes de dispatch por pack siguen verdes.
@@ -101,8 +102,8 @@ Rollback: dropear tabla de runs, índice y columna `origin` (chats 1:1 siguen). 
 
 1. Copilot → **Supervisor** (primero en la lista). Chip o pegar el prompt de carrito abandonado.
 2. Ver razonamiento en vivo (no esperar al final).
-3. Ver bitácora `Supervisor → Lucía` / `Lucía → Supervisor`, luego Sofía, luego Martín.
-4. Confirmación del supervisor **antes** de crear grupo/agenda/plantilla; después el `action_preview` o modal existentes.
+3. Ver bitácora `Supervisor → Lucía` (listar, después etiquetar, después grupo por etiqueta), luego Sofía, luego Martín.
+4. Confirmación del supervisor **antes** de etiquetar, de crear el grupo y de agenda/plantilla; después el `action_preview` o modal existentes. El grupo debe ser `mode=etiqueta`, no lista de precios.
 5. Cambiar a Lucía en la sidebar: no aparecen hilos puente; se le puede escribir 1:1.
 6. Sin `LANGSMITH_API_KEY`: el flujo igual. Con key: traza con tags `supervisor` / `employee:audiencia`.
 

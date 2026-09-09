@@ -42,10 +42,11 @@ Plantillas ya existentes para reutilizar (no hace falta crear otra):
 
 Secuencia esperada:
 
-1. Lucía lista la etapa carritos (~10 clientes) y etiqueta **Carrito**.
-2. Lucía crea un grupo por esa etiqueta.
-3. Sofía lista plantillas y reutiliza una de las de arriba (o abre el modal si no hay ninguna usable).
-4. Martín crea la agenda HSM contra ese grupo + plantilla (confirmación).
+1. Lucía lista la etapa carritos (~10 clientes, con `client_id`).
+2. Lucía lista etiquetas y asigna **Carrito** (`id = 19`) a esos clientes (`etiquetas_assign_bulk`).
+3. Lucía crea un grupo `mode=etiqueta` con esa etiqueta. No usa lista de precios.
+4. Sofía lista plantillas y reutiliza una de las de arriba (o abre el modal si no hay ninguna usable).
+5. Martín crea la agenda HSM contra ese grupo + plantilla (confirmación).
 
 ## Cómo volver a sembrar
 
