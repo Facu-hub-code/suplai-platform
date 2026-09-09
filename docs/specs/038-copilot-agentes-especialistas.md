@@ -62,7 +62,7 @@ Reemplazar el Copilot generalista por **varios agentes especialistas** en la mis
 - Subir archivos / imágenes al catálogo desde el chat.
 - Definición fina de “consultaron línea X” (se pule cuando toque Lucía).
 - Tenant que crea agentes custom.
-- Router/supervisor que elige el agente.
+- Router/supervisor que elige el agente — **v1**. Entrega posterior: [062-copilot-supervisor-langgraph.md](./062-copilot-supervisor-langgraph.md).
 - `nl_sql_query` fuera de Carlos.
 - Disparar sync ERP, PDF/mapa/charts deprecados, Sniffer/Kommo, Sales Engine.
 - Columna `timezone` por fila de agenda (solo si al implementar Martín no alcanza el TZ de tenant).
