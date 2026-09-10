@@ -36,6 +36,7 @@ Documento maestro que enlaza las specs anidadas. Implementación repartida en `b
 | `suplai-platform` | [027-copilot-hablar-con-datos.md](./027-copilot-hablar-con-datos.md) | **Rediseño v1:** acceso bajo Estrategias, ChatGPT UI, híbrido tools + NL→SQL, depreca artefactos ricos |
 | `suplai-platform` | [038-copilot-agentes-especialistas.md](./038-copilot-agentes-especialistas.md) | **Agentes especialistas** (Carlos, Lucía, Sofía, Martín, Nina, Omar): packs cerrados, misma pantalla de chats |
 | `suplai-platform` | [062-copilot-supervisor-langgraph.md](./062-copilot-supervisor-langgraph.md) | **Supervisor LangGraph:** orquesta los seis packs, transcript de handoffs, razonamiento en vivo, interrupt de escritura |
+| `suplai-platform` | [064-copilot-orchestrator-system-prompt.md](./064-copilot-orchestrator-system-prompt.md) | **System prompt del orquestador:** default en código + override por tenant editable en backoffice |
 | `suplai-platform` | [063-copilot-plantilla-draft-modal.md](./063-copilot-plantilla-draft-modal.md) | **Sofía:** `plantilla_create_draft` propone un borrador y el modal de Meta se pre-carga |
 | `suplai-platform` | [039-copilot-table-entity-links.md](./039-copilot-table-entity-links.md) | **Links en tablas Copilot:** click en ID y nombre → preview cliente / producto / agenda / pedido / grupo. El backend anota; no adivinar por columna "ID". Distinto del 039 de backoffice (UI de artefactos) |
 | `suplai-platform` | [040-copilot-table-export.md](./040-copilot-table-export.md) | **Export CSV/PDF** de cada tabla Copilot (cliente, artefactos visibles). Distinto del PDF de informe + Brevo |
@@ -56,6 +57,7 @@ Documento maestro que enlaza las specs anidadas. Implementación repartida en `b
 | **4** | Agentes especialistas (spec 038): un pack por oficio; crece sumando agentes |
 | **4.1** | Links de entidad en tablas Copilot (spec 039): ID + nombre clickeables → preview |
 | **4.2** | Supervisor LangGraph (spec 062): encadena especialistas, bitácora y confirmación de writes |
+| **4.2.1** | Prompt del orquestador configurable por tenant (spec 064) |
 | **4.3** | Sofía precarga el modal de plantillas (spec 063) |
 
 ## Relación con productos existentes

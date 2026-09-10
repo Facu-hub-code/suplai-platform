@@ -117,6 +117,10 @@ Rollback: dropear tabla de runs, índice y columna `origin` (chats 1:1 siguen). 
 - Escrituras no se delegan sin interrupt explícito.
 - Packs 038 intactos.
 
+## Prompt configurable (spec 064)
+
+El system prompt del Supervisor tiene **default en código** (`catalog.py`) y **override por tenant** en `core.copilot_agent_prompt_overrides`. Detalle: [064-copilot-orchestrator-system-prompt.md](./064-copilot-orchestrator-system-prompt.md).
+
 ## Referencias de código
 
 - Packs: `backend-supabase/services/copilot/catalog.py`
