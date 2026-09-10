@@ -121,6 +121,14 @@ Rollback: dropear tabla de runs, índice y columna `origin` (chats 1:1 siguen). 
 
 El system prompt del Supervisor tiene **default en código** (`catalog.py`) y **override por tenant** en `core.copilot_agent_prompt_overrides`. Detalle: [064-copilot-orchestrator-system-prompt.md](./064-copilot-orchestrator-system-prompt.md).
 
+## Cancelar / punto muerto (spec 065)
+
+Cancelar una escritura es un **freno**, no un 400. Si el preview tiene 0 destinatarios, el Supervisor advierte y termina. Detalle: [065-copilot-supervisor-cancel-deadlock.md](./065-copilot-supervisor-cancel-deadlock.md).
+
+## Playbooks (spec 066)
+
+El chip de carrito abierto usa un **intérprete + receta**, no el ReAct. Detalle: [066-copilot-supervisor-playbook.md](./066-copilot-supervisor-playbook.md).
+
 ## Referencias de código
 
 - Packs: `backend-supabase/services/copilot/catalog.py`
