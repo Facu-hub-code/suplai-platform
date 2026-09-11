@@ -11,7 +11,7 @@
 
 ## Objetivo
 
-Cuando el operador **cancela** una escritura del Supervisor (interrupt «Sí, delegar / Cancelar» o el Cancelar de un `action_preview`), eso es un **freno consciente** al proceso, no un error. El grafo no puede romperse. El Supervisor usa esa señal: o bien llama a un especialista para **corregir** el problema, o **advierte y termina**.
+Cuando el operador **cancela** una escritura del Supervisor (Reintentar/Cancelar de `object_choice`, spec 067, o el Cancelar de un `action_preview` de assign_bulk), eso es un **freno consciente** al proceso, no un error. El grafo no puede romperse. El Supervisor usa esa señal: o bien llama a un especialista para **corregir** el problema, o **advierte y termina**.
 
 Caso canónico visto en demo (carrito abandonado): el preview del grupo queda en **~0 clientes**. Cancelar esa escritura hoy tira un 400 de OpenAI y el chat muere. Lo correcto: si no hay audiencia, **no tiene sentido** etiquetar / crear grupo / plantilla / agenda. El Supervisor lo dice y cierra.
 
@@ -88,7 +88,7 @@ Copy de cierre (orientativa, no literal de UI):
 - Undo de una escritura **ya ejecutada** (`dry_run=false` post-confirm).
 - Modal extra «¿por qué?» con opciones fijas; v1 es texto en el hilo.
 - Reintentar automático sin el operador (el Supervisor no inventa audiencia).
-- Cambiar el modelo de HITL de dos capas (interrupt + `confirm_token`).
+- Undo de una escritura **ya ejecutada** (`dry_run=false` post-confirm). El HITL de crear/reusar es spec 067.
 - Evals CI nuevos (quedan tests unitarios del grafo).
 
 ---
@@ -150,5 +150,5 @@ Sin migración de BD. El checkpoint del grafo ya persiste mensajes; solo cambia 
 
 - Grafo: `backend-supabase/services/copilot/supervisor/graph.py` (`confirm_node`, `_NUDGE_USER`, `_continuation_hint`)
 - Stream: `backend-supabase/services/copilot/supervisor/stream.py` (`Command(resume={"confirmed": ...})`)
-- UI interrupt: `product-management-app/components/copilot/CopilotSupervisorConfirm.tsx`
+- UI interrupt: `product-management-app/components/copilot/CopilotObjectChoice.tsx` (reemplaza «Sí, delegar»)
 - UI preview: `product-management-app/components/copilot/CopilotArtifactActionPreview.tsx`

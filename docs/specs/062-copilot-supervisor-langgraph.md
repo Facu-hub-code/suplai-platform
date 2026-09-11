@@ -26,7 +26,7 @@ Caso canónico: *armar un grupo de quienes agregaron al carrito y no cerraron pe
 | Slug | `supervisor` en el mismo `POST /copilot/chat` | Reusa auth, SSE, persistencia y selector de agentes | Endpoint `/copilot/supervisor` aparte |
 | Conversación puente | Un hilo fijo `(tenant, user, employee_slug)` con `origin=supervisor_bridge` | El especialista recuerda handoffs previos del supervisor; no contamina la lista 1:1 | Invocar sin persistencia (pierde contexto); mezclar en el chat 1:1 del usuario |
 | Transcript | Campo `transcript` en el state + artefacto `handoff_transcript` | La UI solo pinta `user`/`assistant`; no hace falta cambiar el CHECK de `role` | Nuevo `role=handoff` (migración de constraint + UI) |
-| Escritura | Interrupt del supervisor **y** `confirm_token`/`opens_modal` del empleado | Interrupt = “¿delegar esta escritura?”; token = “¿ejecutar este payload?”. No se bypasea el HITL 038 | Solo interrupt (perdería preview de agenda/grupo); solo token (el usuario no ve el plan de cadena) |
+| Escritura | El especialista corre en dry-run y el interrupt es **después**, sobre `object_choice` (spec 067) | «Delegar permiso» no aportaba: el especialista es el único que escribe. El humano elige crear o reusar | Interrupt antes del empleado (`es_escritura`); ejecutar al confirmar la delegación |
 | Detección write | Arg `es_escritura: bool` en cada wrapper | Un tool por empleado (pedido); el LLM marca escritura. Lectura no pausa | 12 tools read/write (más ruido); heurística por keywords |
 | LLM | `ChatOpenAI` solo en el supervisor; empleados siguen httpx | Reusa `OPENAI_API_KEY` / `OPENAI_BASE_URL` / `OPENAI_MODEL` | Reescribir empleados a LangChain |
 | Tracing | LangSmith **opcional** (`LANGCHAIN_TRACING_V2` + `LANGSMITH_API_KEY`) | Nada de LangSmith/Langfuse estaba en Copilot; LangGraph lo soporta nativo. Sin env, el grafo igual corre | Langfuse (otra SDK); tracing obligatorio |
@@ -42,10 +42,10 @@ Caso canónico: *armar un grupo de quienes agregaron al carrito y no cerraron pe
 
 - Pack `supervisor` (nombre default **Supervisor**) primero en `GET /agents`.
 - Seis wrappers `preguntar_a_{carlos,lucia,sofia,martin,nina,omar}` con Command + InjectedState + transcript.
-- Grafo ReAct: supervisor → (confirm si `es_escritura`) → tools → supervisor → END.
-- `interrupt()` antes de handoffs de escritura (etiquetar, grupo por etiqueta, agenda, crear plantilla).
-- SSE: `reasoning_delta`, `employee_started`, `transcript_turn`, `confirmation_required` + eventos actuales (`text_delta`, `artifact`, `done`, `error`).
-- UI: bitácora Supervisor↔empleado, tarjeta de subagente en vivo con link al chat puente, razonamiento token a token, botones Sí/No del interrupt, 1:1 intacto.
+- Grafo ReAct: supervisor → tools (dry-run) → confirm si hay `object_choice` / preview → supervisor → END.
+- `interrupt()` **después** del empleado, sobre propuestas crear/reusar (spec 067). `etiquetas_assign_bulk` sigue en `action_preview`.
+- SSE: `reasoning_delta`, `employee_started`, `transcript_turn`, `object_choice` / `confirmation_required` + eventos actuales (`text_delta`, `artifact`, `done`, `error`).
+- UI: bitácora Supervisor↔empleado, card crear/reusar/reintentar (spec 067), razonamiento token a token, 1:1 intacto.
 - Conversaciones puente ocultas en `GET /conversations`.
 - Ejemplo documentado + test del caso carrito abandonado (empleados mockeados).
 
@@ -114,7 +114,7 @@ Rollback: dropear tabla de runs, índice y columna `origin` (chats 1:1 siguen). 
 - El usuario puede hablarle al Supervisor **o** a un especialista.
 - Cada invocación supervisor→empleado queda en transcript (emisor, receptor, consulta, respuesta, timestamp).
 - El razonamiento del supervisor streamea token a token.
-- Escrituras no se delegan sin interrupt explícito.
+- Escrituras no se ejecutan sin elegir crear o reusar (`object_choice`, spec 067). El interrupt ya no es «delegar permiso».
 - Packs 038 intactos.
 
 ## Prompt configurable (spec 064)
@@ -128,6 +128,10 @@ Cancelar una escritura es un **freno**, no un 400. Si el preview tiene 0 destina
 ## Playbooks (spec 066)
 
 El chip de carrito abierto usa un **intérprete + receta**, no el ReAct. Detalle: [066-copilot-supervisor-playbook.md](./066-copilot-supervisor-playbook.md).
+
+## Reuso vs creación (spec 067)
+
+Las tools puntúan objetos existentes y el HITL es una card crear/reusar/reintentar. Detalle: [067-copilot-object-choice.md](./067-copilot-object-choice.md).
 
 ## Referencias de código
 
