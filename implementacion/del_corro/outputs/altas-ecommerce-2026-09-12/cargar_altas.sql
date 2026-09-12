@@ -261,7 +261,7 @@ ins_clients AS (
     t.cuit,
     'CLIENTES_WEB',
     true,
-    'no_validado',
+    'no_validado'::core.whatsapp_estado_cliente_enum,
     false,
     t.datos_personales,
     t.metadata
