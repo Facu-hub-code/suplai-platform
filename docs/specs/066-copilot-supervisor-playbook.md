@@ -30,6 +30,8 @@ Caso canónico visto en demo (10 sep 2026): el operador canceló etiquetar y cre
 | Cancelar | Señal sobre el `current_step_id` (`skip` / `abort` / `ask`) | 065 pregunta «por qué» pero no tiene plan | Resetear `write_cancelled` y volver al ReAct |
 | Reintentos | Mismo `step_id`: máx. 2 intentos si `failed`; nunca si `done`/`skipped` | Corta el loop de etiquetar | `recursion_limit` por invoke (cada Sí es un invoke nuevo) |
 | Fallback | Pedido que no matchea → ReAct 062 | Carlos/Nina/Omar y ad-hoc no merecen receta | Forzar playbook en todo |
+| Agenda sin APPROVED | `crear_agenda` pide `grupo_id` + nombre o UUID (`requires_any`) | El operador acaba de mandar el draft a Meta; frenar por status bloquea el flujo | Exigir UUID APPROVED antes de Martín |
+| Grupo sin id | `crear_grupo` no queda `done` sin `grupo_id`; si falta, se reabre en vez de cerrar el playbook | Sin grupo Martín arma agenda unipersonal (1 cliente) | Cerrar con resumen y dejar que el ReAct invente un `client_id` |
 
 ---
 
@@ -42,7 +44,7 @@ Caso canónico visto en demo (10 sep 2026): el operador canceló etiquetar y cre
 - Matching del chip de Supervisor y de «carrito + grupo + (plantilla\|agenda)».
 - 0 `client_ids` → abort con el copy de 065; no llama a Sofía ni Martín.
 - Cancelar etiquetar + «ya están etiquetados» → `skipped`, sigue a grupo (etiqueta default `Carrito`).
-- Cancelar crear plantilla + «tenemos una» → `skipped`; si no hay APPROVED en `facts`, pregunta el nombre.
+- Cancelar crear plantilla + «tenemos una» → `skipped`; si no hay **nombre** de plantilla en `facts`, pregunta el nombre. No exige `APPROVED` ni UUID para despachar la agenda; avisa que el HSM puede fallar si Meta no la aprobó.
 - `facts` en el state: `client_ids`, `audience_count`, `etiqueta`, `grupo_id`, `plantilla`.
 - Tests unitarios del matching, observe, skip/abort, y un e2e del grafo con empleados mockeados.
 - Specs puntero en backend y backoffice. UI reusa interrupt + bitácora.
@@ -86,7 +88,9 @@ Sin migración de BD. `plan` y `facts` viven en el checkpoint del orquestador (`
   - 0 clientes → `aborted`, `invoke_employee` solo Lucía listar.
   - Cancelar etiquetar + «ya están etiquetados» → no reencola `etiquetar`; siguiente `crear_grupo`.
   - Sofía lista APPROVED `cart_open` → `crear_plantilla` queda `skipped`.
-  - `carrito_abandonado` PENDING no cuenta como usable.
+  - Nombre de plantilla sin UUID no bloquea `crear_agenda`; el copy de `ask_template` no exige APPROVED.
+  - `crear_grupo` sin id → `failed` / reabre; no resume el playbook.
+  - `carrito_abandonado` PENDING no cuenta como usable (reuso automático); si el operador la nombra, sí se usa.
   - Mismo `step_id` `done`/`skipped` no se despacha otra vez.
 - `tests/test_copilot_supervisor_graph.py` (062/065) sigue verde: pedidos que no matchean van al ReAct.
 - Gap: sin Playwright e2e obligatorio.
@@ -100,9 +104,10 @@ Sin migración de BD. `plan` y `facts` viven en el checkpoint del orquestador (`
 1. Copilot → Supervisor → chip de carrito abandonado.
 2. Si hay clientes: interrupt de etiquetar. Cancelar y escribir «creo que ya están etiquetados» → **no** vuelve a pedir etiquetar; pide grupo o avanza.
 3. Si Sofía lista una APPROVED usable: no pide crear plantilla.
-4. Si 0 clientes en el listado: advierte y **no** pide plantilla ni agenda.
-5. Un pedido tipo «¿qué vendimos este mes?» sigue el ReAct (Carlos), no el playbook.
-6. Chat 1:1 con Lucía intacto.
+4. Si creás una plantilla en el modal (PENDING): el Supervisor **sigue a la agenda** con el nombre; avisa que el envío puede fallar hasta que Meta apruebe. No vuelve a exigir APPROVED.
+5. Si 0 clientes en el listado: advierte y **no** pide plantilla ni agenda.
+6. Un pedido tipo «¿qué vendimos este mes?» sigue el ReAct (Carlos), no el playbook.
+7. Chat 1:1 con Lucía intacto.
 
 ---
 

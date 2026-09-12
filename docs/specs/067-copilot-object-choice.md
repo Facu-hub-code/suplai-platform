@@ -59,7 +59,7 @@ Los especialistas **buscan y puntúan** objetos existentes antes de crear. El HI
 
 **Grupo.** Útil si: activo, `mode=etiqueta`, y comparte `etiqueta_id` (o el nombre de etiqueta) con la audiencia actual. No útil: `lista` / geo / otra etiqueta.
 
-**Plantilla.** Útil si: status `APPROVED` y el nombre matchea el regex del caso (`carrito\|cart_open\|abandon` / `no_responden\|otro_momento\|callback`). PENDING no cuenta. Crear: `opens_modal` + draft (spec 063).
+**Plantilla.** Útil (reuso automático) si: status `APPROVED` y el nombre matchea el regex del caso (`carrito\|cart_open\|abandon` / `no_responden\|otro_momento\|callback`). PENDING no cuenta para reuso automático. Si el operador nombra una plantilla (o acaba de crearla), el playbook sigue a la agenda con ese nombre aunque no esté APPROVED y avisa que el HSM puede fallar. Crear: `opens_modal` + draft (spec 063).
 
 **Agenda.** Útil si: misma `grupo_id` + misma plantilla + `activo` y fecha futura o sin fecha vencida (no duplicar el HSM). Si no: dry-run de create.
 
@@ -117,7 +117,7 @@ Sin migración de BD. `object_choice` viaja en `artifacts` JSONB; el interrupt u
 
 1. Copilot → Supervisor → chip de quienes no responden.
 2. Lucía lista; aparece card crear/reusar etiqueta (si existe «No responden», ambas opciones). No hay «Sí, delegar».
-3. Sofía reusa APPROVED o abre el modal; al crear en Meta, chip Continuar → Martín propone agenda.
+3. Sofía reusa APPROVED o abre el modal; al crear en Meta (aunque quede PENDING), chip Continuar → Martín propone agenda y avisa que el envío puede fallar si Meta no aprobó.
 4. Razonamiento sin frases pegadas dos veces.
 5. Chat 1:1 con Lucía: misma card de 3 botones. No hay sheet «Ver chat».
 
