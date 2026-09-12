@@ -1,0 +1,443 @@
+pdv_id,client_id,codigo_excel,razon_social,zona_erp,dia_visita,accion,geo_zone_id
+724,31889,25137,Ramón Carnero,104,jueves,asignar_existente,72
+823,32102,19050,Gonzalez Liliana,84,jueves,asignar_existente,60
+1036,32814,15178,Gisela Veronica Yave ,195,viernes,asignar_existente,103
+1214,33021,17026,Fassi Maximiliano,82,martes,asignar_existente,58
+1217,33024,15108,Torino Maria Jose,62,martes,asignar_existente,46
+1227,33034,15596,Joaquín Barrionuevo,311,lunes,asignar_existente,123
+1405,33212,10249,SANCHEZ NOEMI,54,jueves,asignar_existente,42
+2053,35019,21446,La Granjita De Juani,226,sabado,asignar_existente,122
+2663,35656,15131,Patricia peralta,23,miercoles,asignar_existente,23
+2667,35660,15436,Melody Novo,316,sabado,asignar_existente,128
+2935,35928,15435,Gaspar Ventre ,313,miercoles,asignar_existente,125
+3699,36743,21257,Claudia Bernoy,94,jueves,asignar_existente,66
+3700,36744,21258,Julieta marquez,44,jueves,asignar_existente,36
+5801,62068,21851,Talabarteria Martinez,33,miercoles,asignar_existente,29
+5806,62073,15523,Guadalupe Rivarola,313,miercoles,asignar_existente,125
+5817,64002,14286,Claudia Gonzalez,93,miercoles,asignar_existente,65
+5818,64003,16806,RICARDO GABRIEL MONJES,13,miercoles,asignar_existente,17
+5819,64004,16807,CONSUELO FUNES Campus Siglo 21,205,viernes,asignar_existente,109
+5820,64005,16808,MONICA GOMEZ,174,jueves,crear_zona_y_asignar,137
+5821,64006,16809,MIS DOS SOLES,102,martes,asignar_existente,70
+5822,64007,16810,JS MINIMARKET,102,martes,asignar_existente,70
+5824,64009,21431,CRISTIAN MAXIMILIANO AGUIRRE,133,miercoles,asignar_existente,89
+5825,64010,21432,MAYORISTA DISTRIBUIDOR LAS PALMAS SOCIEDAD POR ACC,223,miercoles,asignar_existente,119
+5826,64011,16811,SALAS MARCELO,103,miercoles,asignar_existente,71
+5827,64012,15468,Nelson Lopez,311,lunes,asignar_existente,123
+5828,64013,21259,NADIA BELEN PAREDES,143,miercoles,crear_zona_y_asignar,130
+5829,64014,16881,Gonzalez Luciana,85,viernes,asignar_existente,61
+5830,64015,20686,ignacio sanchez,315,viernes,asignar_existente,127
+5831,64016,5374,ERMENINTO HECTOR JUAN,191,lunes,asignar_existente,99
+5833,64018,337,Medrano Fernando,212,martes,asignar_existente,112
+5836,64021,16291,kiosco la quini,101,lunes,asignar_existente,69
+5840,64025,15448,gianella olmos,311,lunes,asignar_existente,123
+5841,64026,15437,Fernando cordi,311,lunes,asignar_existente,123
+5843,64028,21299,DESPENSA OFFER,136,sabado,asignar_existente,92
+5844,64029,21371,JINMEI HUANG,134,jueves,asignar_existente,90
+5845,64030,21372,PATRICIA DEL VALLE LOPEZ,134,jueves,asignar_existente,90
+5846,64031,21373,EMILY SOLANGE VACA,134,jueves,asignar_existente,90
+5847,64032,21374,MARISOL INDRIANI,134,jueves,asignar_existente,90
+5848,64033,21375,DESPENSA YESICA S.A.S.,134,jueves,asignar_existente,90
+5849,64034,21376,CECILIA VERONICA SOSA,134,jueves,asignar_existente,90
+5850,64035,21377,JUAN MANUEL LLOPIS,134,jueves,asignar_existente,90
+5851,64036,21378,ELIANA ELIZABETH GARIGLIO,136,sabado,asignar_existente,92
+5852,64037,21379,MARTA CARINA GARCIA,146,sabado,crear_zona_y_asignar,133
+5853,64038,15421,moreno sergio,313,miercoles,asignar_existente,125
+5854,64039,15408,Alejandra montesi,314,jueves,asignar_existente,126
+5855,64040,21385,YAN HUANG,133,miercoles,asignar_existente,89
+5856,64041,21638,MARCELA PEREYRA,172,martes,crear_zona_y_asignar,135
+5857,64042,21641,MARIA FUNES,171,lunes,crear_zona_y_asignar,134
+5858,64043,21642,TREJO RAMIRO,171,lunes,crear_zona_y_asignar,134
+5859,64044,21643,KIOSCOS EL PANCO,171,lunes,crear_zona_y_asignar,134
+5860,64045,21644,SANGENEMI SAS,171,lunes,crear_zona_y_asignar,134
+5861,64046,21645,ADRIANA SORIA,171,lunes,crear_zona_y_asignar,134
+5862,64047,21647,JUAN VELVERDE,171,lunes,crear_zona_y_asignar,134
+5864,64049,21393,MINIMERCADO MIS SOLES,135,viernes,asignar_existente,91
+5865,64050,21394,NICOLAS MIGUEL FUSCO,145,viernes,crear_zona_y_asignar,132
+5866,64051,21395,CARINA ELIZABETH GIRI,135,viernes,asignar_existente,91
+5867,64052,21396,Matea ,145,viernes,crear_zona_y_asignar,132
+5868,64053,21397,MARIA CANDELA LAMBARRI,134,jueves,asignar_existente,90
+5869,64054,21398,CARINA LORENA MOYANO,136,sabado,asignar_existente,92
+5870,64055,21399,Punto M ,146,sabado,crear_zona_y_asignar,133
+5871,64056,21400,La picada ,146,sabado,crear_zona_y_asignar,133
+5872,64057,21401,CLAUDIA SUSANA FERNANDEZ,136,sabado,asignar_existente,92
+5873,64058,21402,Grabiel Esteban culasso,141,lunes,crear_zona_y_asignar,129
+5874,64059,16755,CECILIA ALEJANDRA RODRIGUEZ,203,miercoles,asignar_existente,107
+5875,64060,451,YAEL DAIANA FINZI,83,miercoles,asignar_existente,59
+5876,64061,452,LUCIA DEL CARMEN PISSONI,203,miercoles,asignar_existente,107
+5877,64062,16758,ELIANA PAOLA REARTES,203,miercoles,asignar_existente,107
+5878,64063,16756,NORBERTO DANIEL GELSO,206,sabado,asignar_existente,110
+5879,64064,16761,RODRIGO ISMAEL CARRIZO,53,miercoles,asignar_existente,41
+5881,64066,21637,EL REY,171,lunes,crear_zona_y_asignar,134
+5882,64067,21657,EL DANDY,171,lunes,crear_zona_y_asignar,134
+5883,64068,453,NATALIA SOLEDAD GARCIA,75,viernes,asignar_existente,55
+5884,64069,21723,LOS PRIMOS,173,miercoles,crear_zona_y_asignar,136
+5885,64070,21733,JAVIER TAVELLA,173,miercoles,crear_zona_y_asignar,136
+5887,64072,21799,PENELOPE VASQUES,175,viernes,crear_zona_y_asignar,138
+5888,64073,21803,JUAN CRUZ SALAS,175,viernes,crear_zona_y_asignar,138
+5889,64074,16752,Cañete Walter,11,lunes,asignar_existente,15
+5890,64075,15454,Eduardo Arce,314,jueves,asignar_existente,126
+5893,64078,21369,Mercadito Pablitos,132,martes,asignar_existente,88
+5894,64079,21386,Divino niño ,143,miercoles,crear_zona_y_asignar,130
+5895,64080,21368,Jonathan Nicolas Ferreyra,94,jueves,asignar_existente,66
+5896,64081,21650,JULIETA REVELLI,171,lunes,crear_zona_y_asignar,134
+5897,64082,21651,MONICA BOLEA,171,lunes,crear_zona_y_asignar,134
+5898,64083,21652,SANDRA NEGRO,171,lunes,crear_zona_y_asignar,134
+5899,64084,16753,ALMACEN NATANAEL,84,jueves,asignar_existente,60
+5900,64085,16754,MAXI KIOSCO MARTIN,55,viernes,asignar_existente,43
+5901,64086,15458,Silvana Valdez,312,martes,asignar_existente,124
+5902,64087,21387,Drugstore Ave Fenix,134,jueves,asignar_existente,90
+5903,64088,21388,HERNAN SEBASTIAN RUBINICH,134,jueves,asignar_existente,90
+5904,64089,21389,CAMILA VIDELA,134,jueves,asignar_existente,90
+5905,64090,21390,ADRIANA MARIEL CARPANZANO,134,jueves,asignar_existente,90
+5906,64091,21391,VILMA VICTORIA LOPEZ,134,jueves,asignar_existente,90
+5907,64092,21392,PABLO AGUSTIN GOMEZ,135,viernes,asignar_existente,91
+5908,64093,15449,María Salcedo,316,sabado,asignar_existente,128
+5909,64094,15450,jesus ponce,313,miercoles,asignar_existente,125
+5910,64095,15451,Leonardo Acosta,312,martes,asignar_existente,124
+5911,64096,19350,LA CUESTA S.A.S.,204,jueves,asignar_existente,108
+5912,64097,21654,JUAN NUÑEZ,171,lunes,crear_zona_y_asignar,134
+5913,64098,21655,DOMINGUEZ CINTIA,171,lunes,crear_zona_y_asignar,134
+5914,64099,31998,DEL PRADO AGUSTINA JULIETA,102,martes,asignar_existente,70
+5915,64100,32502,Florencia Campos,96,sabado,asignar_existente,68
+5916,64101,21335,"Nifú Nifá , un poco de todo y de todo un poco",135,viernes,asignar_existente,91
+5917,64102,21353,Autoservicio Miro,136,sabado,asignar_existente,92
+5918,64103,21357,Minimercado y Autoservicio Martínez,135,viernes,asignar_existente,91
+5919,64104,21362,CRISTIAN ARIEL NAVARRO,135,viernes,asignar_existente,91
+5920,64105,21659,PEDRO ACOSTA,171,lunes,crear_zona_y_asignar,134
+5921,64106,21661,NOELIA DELTELL,171,lunes,crear_zona_y_asignar,134
+5922,64107,21662,JOSE VALVERDE,171,lunes,crear_zona_y_asignar,134
+5923,64108,21663,JUAN DRASILE,171,lunes,crear_zona_y_asignar,134
+5924,64109,21664,MARISA GARCIA,171,lunes,crear_zona_y_asignar,134
+5925,64110,21695,PANADERIA,172,martes,crear_zona_y_asignar,135
+5926,64111,21696,MARIA LUISA GLOCQER,172,martes,crear_zona_y_asignar,135
+5927,64112,21698,MINI MERCADO CHANQUIA,172,martes,crear_zona_y_asignar,135
+5928,64113,21699,MERCEDES BASUALDO,172,martes,crear_zona_y_asignar,135
+5929,64114,21702,KIOSCO PAN DURO,172,martes,crear_zona_y_asignar,135
+5930,64115,21703,MARIA JOSE PARRA,172,martes,crear_zona_y_asignar,135
+5931,64116,21704,CONSUMDOR FINAL,172,martes,crear_zona_y_asignar,135
+5932,64117,21427,DAMARIS AYLEN NORIEGA,134,jueves,asignar_existente,90
+5933,64118,16770,OCHOA & HIJOS 1708 S.A.,204,jueves,asignar_existente,108
+5934,64119,16771,MAXIKIOSCO MARIPOSA,174,jueves,crear_zona_y_asignar,137
+5935,64120,16772,MONDINO IGNACIO,174,jueves,crear_zona_y_asignar,137
+5936,64121,456,JOSE LUIS GOMEZ,174,jueves,crear_zona_y_asignar,137
+5937,64122,16800,DANIELA VALVERDE,174,jueves,crear_zona_y_asignar,137
+5938,64123,16801,MARCELO INAUDI,171,lunes,crear_zona_y_asignar,134
+5939,64124,16802,SILVANA GUILLEN,105,viernes,asignar_existente,73
+5940,64125,21428,Despensa Silvia ,145,viernes,crear_zona_y_asignar,132
+5941,64126,21712,CONSUMDOR FINAL,172,martes,crear_zona_y_asignar,135
+5942,64127,21716,ALEXIS STRASORIER,172,martes,crear_zona_y_asignar,135
+5944,64129,21737,FLORENCIA GIANECHINNI,173,miercoles,crear_zona_y_asignar,136
+5945,64130,21740,MELANI GARCIA,173,miercoles,crear_zona_y_asignar,136
+5946,64131,21744,MARIANO HUSULIAK,174,jueves,crear_zona_y_asignar,137
+5947,64132,21745,MERCADITO AGUSTIN,174,jueves,crear_zona_y_asignar,137
+5948,64133,21748,DIST LA ESTACION 2,174,jueves,crear_zona_y_asignar,137
+5949,64134,21749,ADRIAN MATIAS MARTIN,174,jueves,crear_zona_y_asignar,137
+5950,64135,21762,CLAUDIO COLAZO,174,jueves,crear_zona_y_asignar,137
+5951,64136,21765,MORENO ANALIA,174,jueves,crear_zona_y_asignar,137
+5952,64137,21768,CINTIA GRACINI,174,jueves,crear_zona_y_asignar,137
+5953,64138,21773,FRANCO TISERA,174,jueves,crear_zona_y_asignar,137
+5954,64139,21783,DISTRIBUIDORA MAT-VAL,175,viernes,crear_zona_y_asignar,138
+5955,64140,21784,CONSUMIDOR FINAL,174,jueves,crear_zona_y_asignar,137
+5956,64141,21787,CONSUMIDOR FINAL,175,viernes,crear_zona_y_asignar,138
+5957,64142,21788,JOANA BANEGAS,175,viernes,crear_zona_y_asignar,138
+5959,64144,21809,CONSUMIDOR FINAL,175,viernes,crear_zona_y_asignar,138
+5960,64145,21812,MINI MERCADO MATI-MAR,175,viernes,crear_zona_y_asignar,138
+5961,64146,21815,DANIEL SUELDO,175,viernes,crear_zona_y_asignar,138
+5962,64147,21818,MAXIKIOSCO LELA,175,viernes,crear_zona_y_asignar,138
+5963,64148,21819,VIRGINIA GODOY,175,viernes,crear_zona_y_asignar,138
+5964,64149,21821,ELISEO CHAMORRO,175,viernes,crear_zona_y_asignar,138
+5965,64150,21822,ANTONELLA HUERTA,175,viernes,crear_zona_y_asignar,138
+5966,64151,21823,CHINO,175,viernes,crear_zona_y_asignar,138
+5967,64152,21827,CAIMEI WANG,176,sabado,crear_zona_y_asignar,139
+5968,64153,21832,SUCRE EDUARDO,176,sabado,crear_zona_y_asignar,139
+5969,64154,21833,SONIA MALDONADO,176,sabado,crear_zona_y_asignar,139
+5970,64155,21835,MONICA SANTILLAN,176,sabado,crear_zona_y_asignar,139
+5971,64156,21836,ERICA MORENO,176,sabado,crear_zona_y_asignar,139
+5972,64157,21838,Despensa Kar-Ale,176,sabado,crear_zona_y_asignar,139
+5973,64158,21839,DESPENSA EL CURLI,176,sabado,crear_zona_y_asignar,139
+5974,64159,21840,ROSA LIZARRAGA,176,sabado,crear_zona_y_asignar,139
+5975,64160,21842,MARIELA DOMINGUEZ,176,sabado,crear_zona_y_asignar,139
+5976,64161,21403,MARISA GABRIELA MONSERRAT,134,jueves,asignar_existente,90
+5977,64162,21404,Veronica Olmos,93,miercoles,asignar_existente,65
+5978,64163,21405,DAMARIS AYLEN NORIEGA,134,jueves,asignar_existente,90
+5979,64164,21409,ZHENFENG CHEN,135,viernes,asignar_existente,91
+5980,64165,21410,CHENGJIE ZHUANG,135,viernes,asignar_existente,91
+5981,64166,21411,ALEJANDRA DEL VALLE PERINAZZO,145,viernes,crear_zona_y_asignar,132
+5982,64167,15460,Evelyn Calabria,312,martes,asignar_existente,124
+5983,64168,16803,LUIS PERALTA,175,viernes,crear_zona_y_asignar,138
+5984,64169,457,BRIAN EZEQUIEL MARCATO,172,martes,crear_zona_y_asignar,135
+5988,64173,250556,Walter nicolas Bonansea ,315,viernes,asignar_existente,127
+6008,64193,21406,SILVIA DEL VALLE OVIEDO,135,viernes,asignar_existente,91
+6009,64194,21407,NADIA SOLEDAD RAGGIOTTI,135,viernes,asignar_existente,91
+6010,64195,21408,LIHUI ZHUANG,135,viernes,asignar_existente,91
+6027,64212,21033,LUCAS MOLINA,104,jueves,asignar_existente,72
+6033,64218,21667,NOELIA DIAS,171,lunes,crear_zona_y_asignar,134
+6034,64219,21668,LA NUEVA,171,lunes,crear_zona_y_asignar,134
+6035,64220,21669,CONSUMIDOR FINAL,171,lunes,crear_zona_y_asignar,134
+6036,64221,21670,VERONICA JUAREZ,171,lunes,crear_zona_y_asignar,134
+6041,64226,21367,PATRICIO MATIAS GONZALEZ MEDOLLA,125,viernes,asignar_existente,85
+6042,64227,21689,SONIA NEGRO,172,martes,crear_zona_y_asignar,135
+6043,64228,15464,julieta anabel brussa,312,martes,asignar_existente,124
+6044,64229,15466,Mayra Gómez,312,martes,asignar_existente,124
+6045,64230,15467,Yuliana esconar,313,miercoles,asignar_existente,125
+6046,64231,15452,Maretto Marcelo,313,miercoles,asignar_existente,125
+6047,64232,21671,YAMILA PEREYRA,171,lunes,crear_zona_y_asignar,134
+6048,64233,21674,ALTAMIRANO VANESA,171,lunes,crear_zona_y_asignar,134
+6049,64234,21675,KIOSCO LO DE PILA,171,lunes,crear_zona_y_asignar,134
+6050,64235,21380,CESAR HUGO MANCILLA,136,sabado,asignar_existente,92
+6051,64236,21381,Autoservicio mili,146,sabado,crear_zona_y_asignar,133
+6052,64237,21382,Magico cotillon,146,sabado,crear_zona_y_asignar,133
+6053,64238,21383,ZHITAO WENG,136,sabado,asignar_existente,92
+6054,64239,21384,Val_lu,146,sabado,crear_zona_y_asignar,133
+6055,64240,21680,NELIDA FERNADEZ,172,martes,crear_zona_y_asignar,135
+6056,64241,21370,Maria Jose Hernandez,94,jueves,asignar_existente,66
+6057,64242,21706,EL GALLEGO,172,martes,crear_zona_y_asignar,135
+6058,64243,21412,LUCIA ZAIRA CACERES,136,sabado,asignar_existente,92
+6059,64244,21413,LETICIA VERONICA MARQUEZ,146,sabado,crear_zona_y_asignar,133
+6060,64245,21415,SERGIO MIGUEL GARCIA,136,sabado,asignar_existente,92
+6062,64247,21248,ANALIA ALEJANDRA GARAY,61,lunes,asignar_existente,45
+6063,64248,16085,RITA BEATRIZ PETRUCELLI,131,lunes,asignar_existente,87
+6064,64249,21417,Brenda testa ,145,viernes,crear_zona_y_asignar,132
+6065,64250,21418,EDLIN BELINDA MIRANDA BAPTISTA,135,viernes,asignar_existente,91
+6066,64251,21419,Despensa Marce ,145,viernes,crear_zona_y_asignar,132
+6067,64252,21421,TREZERI S.R.L.,226,sabado,asignar_existente,122
+6068,64253,21422,SONGTING GUAN,136,sabado,asignar_existente,92
+6069,64254,21424,ELIANA DEL VALLE NANI,131,lunes,asignar_existente,87
+6070,64255,16760,PAMELA YAMILA HEINE,71,lunes,asignar_existente,51
+6071,64256,16759,Godoy Héctor ,74,jueves,asignar_existente,54
+6072,64257,21416,Mini market Roma ,144,jueves,crear_zona_y_asignar,131
+6073,64258,21425,MULTIMARKET STORES S.A.S.,131,lunes,asignar_existente,87
+6075,64260,16763,LILIANA CABRAL,101,lunes,asignar_existente,69
+6076,64261,16764,LA MONDIOLA,172,martes,crear_zona_y_asignar,135
+6078,64263,16766,KIOSCO PUNTO 4,173,miercoles,crear_zona_y_asignar,136
+6079,64264,16767,SANCHEZ MARISA LILIANA,173,miercoles,crear_zona_y_asignar,136
+6080,64265,16768,FRENCIA BRUNO,173,miercoles,crear_zona_y_asignar,136
+6081,64266,16769,BLANCO ENZO,173,miercoles,crear_zona_y_asignar,136
+6082,64267,21426,GABRIELA ALEJANDRA BENAVIDEZ,134,jueves,asignar_existente,90
+6083,64268,16804,DESPENSA CELIA,175,viernes,crear_zona_y_asignar,138
+6084,64269,16805,GABRIEL ALEXIS GOMEZ,175,viernes,crear_zona_y_asignar,138
+6085,64270,21429,Despensa mym,145,viernes,crear_zona_y_asignar,132
+6088,64273,21430,ORNELLA LUJAN HEREDIA,111,lunes,asignar_existente,75
+6089,64274,15463,jorge Garcia,316,sabado,asignar_existente,128
+6105,64292,15517,Quiosco,314,jueves,asignar_existente,126
+6110,64298,12077,Gustavo Curcio ,42,martes,asignar_existente,34
+6111,64299,11974,Ezequiel Arias,93,miercoles,asignar_existente,65
+6112,64300,12607,Diaz Javier Alejandro,92,martes,asignar_existente,64
+6113,64301,12489,Lin Yangguo,221,lunes,asignar_existente,117
+6114,64302,10546,Marina dicampli,22,martes,asignar_existente,22
+6115,64303,10609,Gabriela Yanet Falcón ,21,lunes,asignar_existente,21
+6116,64304,10612,FERNANDEZ RAUL,21,lunes,asignar_existente,21
+6117,64305,14833,Spartano Luciano ,41,lunes,asignar_existente,33
+6118,64306,12255,LIN YING,223,miercoles,asignar_existente,119
+6119,64307,15318,Lin fengying,222,martes,asignar_existente,118
+6120,64308,15733,Castro Miguel Dario ,75,viernes,asignar_existente,55
+6121,64309,12777,ALLENDE MARIA ELENA,113,miercoles,asignar_existente,77
+6122,64310,15473,Yesica nieto,314,jueves,asignar_existente,126
+6123,64311,21447,AGUSTIN SALVADOR RODRIGUEZ,41,lunes,asignar_existente,33
+6124,64312,22181,MAXIKIOSCODELTAJA 24HS,181,lunes,crear_zona_y_asignar,140
+6125,64313,22183,Kiosco Acuario,181,lunes,crear_zona_y_asignar,140
+6126,64314,13397,JOSE WETSZTEIN,313,miercoles,asignar_existente,125
+6127,64315,13473,Dana alexandra Nieto,314,jueves,asignar_existente,126
+6128,64316,13747,Rocio Ullua,315,viernes,asignar_existente,127
+6129,64317,13792,Cecilia Merigo,313,miercoles,asignar_existente,125
+6130,64318,13793,paula Toledo,313,miercoles,asignar_existente,125
+6131,64319,13794,Guadalupe Peralta,311,lunes,asignar_existente,123
+6132,64320,16835,YAMILA BRANDAN,171,lunes,crear_zona_y_asignar,134
+6133,64321,13795,milagros Pereyra,312,martes,asignar_existente,124
+6134,64322,21458,LENIS ANDREA TORRES LOPEZ,44,jueves,asignar_existente,36
+6135,64323,21459,ELENA VERONICA ROJAS,145,viernes,crear_zona_y_asignar,132
+6136,64324,21460,Despensa Gustavo ,145,viernes,crear_zona_y_asignar,132
+6137,64325,21461,Despensa bety,146,sabado,crear_zona_y_asignar,133
+6138,64326,16836,JEANNETTE SANCHEZ,176,sabado,crear_zona_y_asignar,139
+6139,64327,21462,ANGELES NAHIR BIANCIOTTI,141,lunes,crear_zona_y_asignar,129
+6140,64328,5681,MALDONADO JUAN MANUEL,65,viernes,asignar_existente,49
+6141,64329,5168,Flavia Ullua,42,martes,asignar_existente,34
+6142,64330,14422,Melina Amato,21,lunes,asignar_existente,21
+6143,64331,13340,MINIMERCADO FLORES,221,lunes,asignar_existente,117
+6144,64332,5217,Carlos Alberto Caballero ,24,jueves,asignar_existente,24
+6145,64333,5307,LOS LENJES S.A.S.,224,jueves,asignar_existente,120
+6146,64334,14971,MARIA ELENA MAZZETTO,25,viernes,asignar_existente,25
+6147,64335,6132,SANTIAGO ANDRES NICOLA,133,miercoles,asignar_existente,89
+6148,64336,6180,Autoservicio Pablito ,106,sabado,asignar_existente,74
+6149,64337,21450,CARLOS ALBERTO CABALLERO,44,jueves,asignar_existente,36
+6150,64338,413,IVON SOLEDAD PEREYRA (vendedora 20),205,viernes,asignar_existente,109
+6151,64339,15163,YAN CHEN,201,lunes,asignar_existente,105
+6152,64340,5591,Karen Gonzalez,42,martes,asignar_existente,34
+6153,64341,5715,Aldana Micaela Gudiño,26,sabado,asignar_existente,26
+6154,64342,5783,Gavotto Nancy ,43,miercoles,asignar_existente,35
+6155,64343,12949,celeste oviedo,314,jueves,asignar_existente,126
+6156,64344,12952,Milena Paez,311,lunes,asignar_existente,123
+6157,64345,13006,Carolina Pereyra,311,lunes,asignar_existente,123
+6158,64346,13117,Karen Dosantos,313,miercoles,asignar_existente,125
+6159,64347,13213,Daiana soledad Panico,315,viernes,asignar_existente,127
+6160,64348,21127,ALVAREZ CELIA,52,martes,asignar_existente,40
+6161,64349,21484,AGUSTINA AISICOVICH,73,miercoles,asignar_existente,53
+6162,64350,21485,CRISTIAN ADRIAN VILLARROEL,13,miercoles,asignar_existente,17
+6163,64351,21487,GABRIELA KARINA VILDOZA,84,jueves,asignar_existente,60
+6164,64352,21486,SUCOMAX S.A.S.,213,miercoles,asignar_existente,113
+6165,64353,21488,Carlin,74,jueves,asignar_existente,54
+6166,64354,21489,Kata y emi ,114,jueves,asignar_existente,78
+6167,64355,21495,RUTH VIVIANA CACERES,45,viernes,asignar_existente,37
+6168,64356,21492,Gladis Luna,65,viernes,asignar_existente,49
+6169,64357,21493,GEREMIAS MALDONADO,56,sabado,asignar_existente,44
+6170,64358,21494,MARCELO JAVIER VEGA,61,lunes,asignar_existente,45
+6171,64359,21499,Veronica Lescano ,111,lunes,asignar_existente,75
+6172,64360,21506,karina alejandra Fernandez ,111,lunes,asignar_existente,75
+6173,64361,2860,Nancy Gomez,172,martes,crear_zona_y_asignar,135
+6174,64362,21860,QINGYONG CHEN,173,miercoles,crear_zona_y_asignar,136
+6175,64363,21858,KIOSCO BERTA (faltan datos),101,lunes,asignar_existente,69
+6176,64364,21859,Kiosco Brocherito,71,lunes,asignar_existente,51
+6177,64365,21507,ANGELA LIN,213,miercoles,asignar_existente,113
+6178,64366,21862,PABLO WALTER SALAS GONZALEZ,124,jueves,asignar_existente,84
+6179,64367,21863,YRCELIS ALVARADO,104,jueves,asignar_existente,72
+6180,64368,21864,MARCELINO MARQUE,15,viernes,asignar_existente,19
+6181,64369,21865,DIEGO CUCHALLO ,105,viernes,asignar_existente,73
+6182,64370,21866,JORGE LUIS BAYLON ABAO,75,viernes,asignar_existente,55
+6183,64371,21510,FCSLII SRL,225,viernes,asignar_existente,121
+6184,64372,30050,Maria Victoria casas ,44,jueves,asignar_existente,36
+6185,64373,30105,Pollería Irma Sarria ,45,viernes,asignar_existente,37
+6186,64374,30418,Maria Eugenia Brussa,42,martes,asignar_existente,34
+6187,64375,30537,Eduardo zamora ,114,jueves,asignar_existente,78
+6188,64376,30595,MORENO ARIEL,65,viernes,asignar_existente,49
+6189,64377,31545,Humberto campos,114,jueves,asignar_existente,78
+6190,64378,31705,Ledesma Gisella,24,jueves,asignar_existente,24
+6191,64379,31915,Laura Pacheco ,23,miercoles,asignar_existente,23
+6192,64380,31965,Messikiosco ,76,sabado,asignar_existente,56
+6193,64381,31969,paz mikaela videla,115,viernes,asignar_existente,79
+6194,64382,32199,BRENDA JAQUELINA AMARANTO,85,viernes,asignar_existente,61
+6195,64383,32457,Soledad Guzmán ,104,jueves,asignar_existente,72
+6196,64384,32788,Valeria vaudano ,44,jueves,asignar_existente,36
+6197,64385,32846,María Ines,24,jueves,asignar_existente,24
+6198,64386,21491,LUCAS ZHENG,205,viernes,asignar_existente,109
+6199,64387,21358,MARIA VICTORIA FERRERO,134,jueves,asignar_existente,90
+6200,64388,22194,Despensa LAFAMILIA,181,lunes,crear_zona_y_asignar,140
+6201,64389,22195,Despensa dalinger,181,lunes,crear_zona_y_asignar,140
+6202,64390,22196,TIMI despensa,181,lunes,crear_zona_y_asignar,140
+6203,64391,22197,Despensa LOLI ....Brasil 1772,181,lunes,crear_zona_y_asignar,140
+6204,64392,22198,Autoservicio Madagascar,181,lunes,crear_zona_y_asignar,140
+6205,64393,22199,Despensa la pancha,181,lunes,crear_zona_y_asignar,140
+6206,64394,22200,Despensa Belaver,181,lunes,crear_zona_y_asignar,140
+6207,64395,22202,Kiosco Los Punis,181,lunes,crear_zona_y_asignar,140
+6208,64396,22206,Despensa LO DE MARY,181,lunes,crear_zona_y_asignar,140
+6209,64397,22207,Mateo Kiosco Despensa,181,lunes,crear_zona_y_asignar,140
+6210,64398,22208,Autoservicio González,181,lunes,crear_zona_y_asignar,140
+6211,64399,22209,"Kiosco ""El Gringo"" – Despensa",181,lunes,crear_zona_y_asignar,140
+6212,64400,22210,Kiosco magic,181,lunes,crear_zona_y_asignar,140
+6213,64401,22216,Autoservicio 70/30,181,lunes,crear_zona_y_asignar,140
+6214,64402,22218,DESPENSA MEDIALUNA,181,lunes,crear_zona_y_asignar,140
+6215,64403,16832,ANABELLA BEATRIZ CARAVETTA,105,viernes,asignar_existente,73
+6216,64404,16833,Lipecord,105,viernes,asignar_existente,73
+6217,64405,16834,KHANUT ,106,sabado,asignar_existente,74
+6218,64406,473,JUAN RAMON TORRES,106,sabado,asignar_existente,74
+6219,64407,22222,Autoservicio El Chiche,181,lunes,crear_zona_y_asignar,140
+6220,64408,22223,Market Guada,181,lunes,crear_zona_y_asignar,140
+6221,64409,22226,Despensa - El Flaco,181,lunes,crear_zona_y_asignar,140
+6222,64410,22227,Carrefour Express,181,lunes,crear_zona_y_asignar,140
+6223,64411,22228,Despensa Noe,181,lunes,crear_zona_y_asignar,140
+6224,64412,21451,Virgia Pupich,94,jueves,asignar_existente,66
+6225,64413,21452,LUIS ALBERTO OYOLA,145,viernes,crear_zona_y_asignar,132
+6226,64414,21453,Eliana Salgan,95,viernes,asignar_existente,67
+6227,64415,21454,Zoe Priscila Heredia ,145,viernes,crear_zona_y_asignar,132
+6228,64416,21455,Lizarraga Cristian ,145,viernes,crear_zona_y_asignar,132
+6229,64417,21456,MATIAS SEBASTIAN SAN RAME,135,viernes,asignar_existente,91
+6230,64418,21457,VERONICA HAYDEE DIAZ,146,sabado,crear_zona_y_asignar,133
+6231,64419,22233,Autoservicio 8-A,181,lunes,crear_zona_y_asignar,140
+6232,64420,22235,STop Almacen Kiosko 24 horas,181,lunes,crear_zona_y_asignar,140
+6233,64421,22239,Mega Despensa De todo un poco,181,lunes,crear_zona_y_asignar,140
+6234,64422,22241,Despensa ivana,181,lunes,crear_zona_y_asignar,140
+6235,64423,21785,GODOY VIRGINIA,175,viernes,crear_zona_y_asignar,138
+6236,64424,19939,DISTRIBUIDORA VERONITA S.R.L,223,miercoles,asignar_existente,119
+6237,64425,21497,EVA ALICIA ALFARO POMA,66,sabado,asignar_existente,50
+6238,64426,21861,ELISABETH TOMAS,103,miercoles,asignar_existente,71
+6239,64427,16846,BENJAMIN ALVARO VELIZ VELIZ,104,jueves,asignar_existente,72
+6240,64428,16847,MAKO POSADA,174,jueves,crear_zona_y_asignar,137
+6241,64429,16848,RAMON PEREZ,55,viernes,asignar_existente,43
+6242,64430,21474,Roxana,61,lunes,asignar_existente,45
+6243,64431,16850,JESICA DEL VALLE OLIVO,32,martes,asignar_existente,28
+6244,64432,16851,VERTINO ELENA,172,martes,crear_zona_y_asignar,135
+6246,64434,21101,Jose lucas monje ,103,miercoles,asignar_existente,71
+6247,64435,21102,HECTOR RUBEN CARDOSO,33,miercoles,asignar_existente,29
+6248,64436,21471,CLAUDIA EUGENIA AMAYA,45,viernes,asignar_existente,37
+6249,64437,21107,Jmb verdulería y almacen,105,viernes,asignar_existente,73
+6250,64438,21108,ROXANA BORIONI (LICEO MILITAR),56,sabado,asignar_existente,44
+6251,64439,21113,Gisela Funes,94,jueves,asignar_existente,66
+6252,64440,21479,Monica Nadaya,23,miercoles,asignar_existente,23
+6253,64441,21472,LOURDES YOHANA ALVAREZ,45,viernes,asignar_existente,37
+6254,64442,21496,JAVIER SEBASTIAN CESPEDES,61,lunes,asignar_existente,45
+6255,64443,21850,CRESPO LEONOR,52,martes,asignar_existente,40
+6256,64444,21498,EDUARDO ADRIAN ARIAS,62,martes,asignar_existente,46
+6257,64445,21851,Eduardo Martinez ,33,miercoles,asignar_existente,29
+6258,64446,21852,PANADERIA FATTU (B DOCTA),203,miercoles,asignar_existente,107
+6259,64447,21508,ZHEN LIN,224,jueves,asignar_existente,120
+6260,64448,21473,MARIANO ISMAEL CISNEROS,45,viernes,asignar_existente,37
+6261,64449,24010,Angel tomas gonzalez,143,miercoles,crear_zona_y_asignar,130
+6262,64450,24011,Belen,63,miercoles,asignar_existente,47
+6263,64451,21475,Giménez Elunay,94,jueves,asignar_existente,66
+6264,64452,21476,Mereta Ana karina,146,sabado,crear_zona_y_asignar,133
+6265,64453,13845,Lucia Martinez,25,viernes,asignar_existente,25
+6266,64454,16842,MARCELA PATRICIA MEDRANO,82,martes,asignar_existente,58
+6267,64455,13902,Francisco Moro,313,miercoles,asignar_existente,125
+6268,64456,21116,DANIEL DAVID PEREZ,55,viernes,asignar_existente,43
+6269,64457,21117,Camila cepeda,101,lunes,asignar_existente,69
+6270,64458,21118,Luisa Herrera ,101,lunes,asignar_existente,69
+6271,64459,21119,Marysol Oliva ,101,lunes,asignar_existente,69
+6272,64460,21120,Érika Gasalla ,101,lunes,asignar_existente,69
+6273,64461,21121,Saavedra Jorgelina ,51,lunes,asignar_existente,39
+6274,64462,16839,Zulma Ortiz ,31,lunes,asignar_existente,27
+6275,64463,16840,SAILLEN RICARD0,51,lunes,asignar_existente,39
+6276,64464,21468,MATIAS SEBASTIAN MORALES,42,martes,asignar_existente,34
+6277,64465,16841,Hot corner,102,martes,asignar_existente,70
+6278,64466,13900,Claudia Tita - El Anexo Carne,312,martes,asignar_existente,124
+6279,64467,13901,Maria Caglieri,313,miercoles,asignar_existente,125
+6280,64468,21469,Natalia Pugliese ,44,jueves,asignar_existente,36
+6281,64469,16837,VANESA DEL VALLE SENA,31,lunes,asignar_existente,27
+6282,64470,13796,Ignacio Perez,313,miercoles,asignar_existente,125
+6283,64471,13797,Maximiliano Moreyra,316,sabado,asignar_existente,128
+6284,64472,13798,Gerardo Gomez,313,miercoles,asignar_existente,125
+6285,64473,13799,dayan celiz,313,miercoles,asignar_existente,125
+6286,64474,13805,Adrian Moreno,311,lunes,asignar_existente,123
+6287,64475,16838,Panificadora las delicias ,172,martes,crear_zona_y_asignar,135
+6288,64476,21463,MARTIN ARIEL MOLINA,43,miercoles,asignar_existente,35
+6289,64477,21464,MARIANA GUTIERREZ,45,viernes,asignar_existente,37
+6290,64478,21465,WALTER FERNANDO ROJAS,135,viernes,asignar_existente,91
+6291,64479,21466,JORGE MARCELO PEREYRA BARRERA,135,viernes,asignar_existente,91
+6292,64480,21467,Montivero ribulgo benjamin,35,viernes,asignar_existente,31
+6293,64481,16843,POROTO ADIANI,104,jueves,asignar_existente,72
+6294,64482,16844,Erica Ayza,74,jueves,asignar_existente,54
+6295,64483,16845,FLOPY 2 MILAGROS BLESA,104,jueves,asignar_existente,72
+6296,64484,21470,Etel caminos,44,jueves,asignar_existente,36
+6297,64485,21110,Familia joyneld,101,lunes,asignar_existente,69
+6298,64486,21112,Almacen la paz ,103,miercoles,asignar_existente,71
+6299,64487,13903,Fabian Moyano,311,lunes,asignar_existente,123
+6300,64488,21114,Dof Daniel Oscar Fierro ,104,jueves,asignar_existente,72
+6301,64489,21115,El condor,104,jueves,asignar_existente,72
+6302,64490,21478,Yamila sosa,111,lunes,asignar_existente,75
+6303,64491,21111,ABASTO VIRTUAL S.A.S.,222,martes,asignar_existente,118
+6304,64492,21477,chiara Magliano ,113,miercoles,asignar_existente,77
+6305,64493,21480,MONICA VIVIANA GONZALEZ,45,viernes,asignar_existente,37
+6306,64494,21481,MAXIMILIANO CARLOS LUCA KALOUSTIAN,55,viernes,asignar_existente,43
+6307,64495,21482,MARIANA DANIELA NUÑEZ,113,miercoles,asignar_existente,77
+6308,64496,21483,GUSTAVO ARIEL CACERES,44,jueves,asignar_existente,36
+6309,64497,13904,Emiliano Ruiz,311,lunes,asignar_existente,123
+6310,64498,21853,JOSE MARTIN OCHOA,204,jueves,asignar_existente,108
+6311,64499,21854,DISTRIBUIDORA NyS,104,jueves,asignar_existente,72
+6312,64500,22180,"QUINIELA AGENCIA 1205 LOTERIA DE CORDOBA, DESPENSA",181,lunes,crear_zona_y_asignar,140
+6313,64501,21867,SALCEDO NATALIA,51,lunes,asignar_existente,39
+6314,64502,21868,LO DE PUPI,172,martes,crear_zona_y_asignar,135
+6315,64503,21511,Chiara Magliano ,112,martes,asignar_existente,76
+6316,64504,21512,CLAUDIA VERONICA SANCHEZ,62,martes,asignar_existente,46
+6317,64505,22193,SARIDAKIS 14 Kiosco-Libreria,181,lunes,crear_zona_y_asignar,140
+6318,64506,21448,Andrea Paola alam,23,miercoles,asignar_existente,23
+6319,64507,21449,MARIA CANDELARIA FREYTES,43,miercoles,asignar_existente,35
+6320,64508,16831,ARMACADA SAS,101,lunes,asignar_existente,69
+6321,64509,15489,Francisco Troncoso,311,lunes,asignar_existente,123
+6322,64510,22184,Kiosco MILKA,181,lunes,crear_zona_y_asignar,140
+6323,64511,22185,Quality Kiosco y Librería,181,lunes,crear_zona_y_asignar,140
+6324,64512,22186,Kiosco del hombre araña,181,lunes,crear_zona_y_asignar,140
+6325,64513,22187,AUTOSERVICIO EL OMBU 1 y AUTOSERVICIO EL OMBU 2!!,181,lunes,crear_zona_y_asignar,140
+6326,64514,22188,Maxi Kiosco Calabaza,181,lunes,crear_zona_y_asignar,140
+6327,64515,22189,Kiosco TOC TOC -Diarios Y Revistas,181,lunes,crear_zona_y_asignar,140
+6328,64516,22190,Maxikiosco TIO PELADO,181,lunes,crear_zona_y_asignar,140
+6329,64517,22191,Avenida maxi kiosco,181,lunes,crear_zona_y_asignar,140
+6330,64518,22192,Las Vias maxikiosco,181,lunes,crear_zona_y_asignar,140

@@ -1,0 +1,16 @@
+{
+  "schema": "del_corro",
+  "applied_at": "2026-09-12T13:41:04.164180+00:00",
+  "warning_pdvs_before": 1215,
+  "pdv_updated": 442,
+  "clients_updated": 442,
+  "cartera_inserted": 440,
+  "clients_dia_synced_from_pdv": 2,
+  "omitidos": 773,
+  "after": {
+    "pdv_sin_zona": 773,
+    "pdv_sin_dia": 575,
+    "pdv_warning": 773
+  },
+  "clients_sin_dia_after": 576
+}

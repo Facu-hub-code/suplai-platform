@@ -1,0 +1,13 @@
+{
+  "schema": "del_corro",
+  "round": 2,
+  "applied_at": "2026-09-12T13:47:24.257863+00:00",
+  "pdv_updated": 108,
+  "clients_updated": 108,
+  "cartera_inserted": 108,
+  "omitidos": 665,
+  "after": {
+    "pdv_sin_zona": 665,
+    "pdv_warning": 665
+  }
+}

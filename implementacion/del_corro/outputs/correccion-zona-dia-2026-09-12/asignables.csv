@@ -1,0 +1,443 @@
+pdv_id,client_id,codigo_bd,codigo_excel,razon_social,match_via,zona_erp,dia_visita,accion,geo_zone_id,geo_zone_name,vendedor_id,vendedor_codigo,venid_excel,vennom_excel,pdv_dia_antes,client_dia_antes
+724,31889,25137,25137,Ramón Carnero,codigo,104,jueves,asignar_existente,72,Zona 104 (V10 - Jueves),12,10,10,"MORENO, Martin",sábado,sábado
+823,32102,19050,19050,Gonzalez Liliana,codigo,84,jueves,asignar_existente,60,Zona 84 (V8 - Jueves),10,8,8,"HERRERA,Susana",jueves,jueves
+1036,32814,16168,15178,Gisela Veronica Yave ,phone,195,viernes,asignar_existente,103,Zona 195 (V19 - Viernes),18,19,19,Base de Datos,martes,martes
+1214,33021,17029,17026,Fassi Maximiliano,phone,82,martes,asignar_existente,58,Zona 82 (V8 - Martes),10,8,8,"HERRERA,Susana",martes,martes
+1217,33024,12816,15108,Torino Maria Jose,phone,62,martes,asignar_existente,46,Zona 62 (V6 - Martes),8,6,6,"ACEVEDO, Jorge",martes,martes
+1227,33034,15596,15596,Joaquín Barrionuevo,codigo,311,lunes,asignar_existente,123,Zona 311 (V31 - Lunes),22,31,31,"PERRICONE, Franca",miércoles,miercoles
+1405,33212,10249,10249,SANCHEZ NOEMI,codigo,54,jueves,asignar_existente,42,Zona 54 (V5 - Jueves),2,5,5,"LIBRACKEN, Mario",viernes,viernes
+2053,35019,,21446,La Granjita De Juani,phone,226,sabado,asignar_existente,122,Zona 226 (V22 - Sábado),21,22,22,"GOMEZ, Dylan",,
+2663,35656,15131,15131,Patricia peralta,codigo,23,miercoles,asignar_existente,23,Zona 23 (V2 - Miércoles),5,2,2,"FERNANDEZ, Sergio",,
+2667,35660,15436,15436,Melody Novo,codigo,316,sabado,asignar_existente,128,Zona 316 (V31 - Sábado),22,31,31,"PERRICONE, Franca",,
+2935,35928,15435,15435,Gaspar Ventre ,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",,
+3699,36743,21257,21257,Claudia Bernoy,codigo,94,jueves,asignar_existente,66,Zona 94 (V9 - Jueves),11,9,9,"PONCE, Facundo",,
+3700,36744,21258,21258,Julieta marquez,codigo,44,jueves,asignar_existente,36,Zona 44 (V4 - Jueves),7,4,4,"GONZALEZ, Fabrizio",,
+5801,62068,,21851,Talabarteria Martinez,phone,33,miercoles,asignar_existente,29,Zona 33 (V3 - Miércoles),6,3,3,"CHAVEZ, Rafael",,
+5806,62073,,15523,Guadalupe Rivarola,phone,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",,
+5817,64002,14286,14286,Claudia Gonzalez,codigo,93,miercoles,asignar_existente,65,Zona 93 (V9 - Miércoles),11,9,9,"PONCE, Facundo",miércoles,miércoles
+5818,64003,16806,16806,RICARDO GABRIEL MONJES,codigo,13,miercoles,asignar_existente,17,Zona 13 (V1 - Miércoles),4,1,1,"VACANTE,01",miércoles,miércoles
+5819,64004,16807,16807,CONSUELO FUNES Campus Siglo 21,codigo,205,viernes,asignar_existente,109,Zona 205 (V20 - Viernes),19,20,20,"PEREYRA, Ivon",viernes,viernes
+5820,64005,16808,16808,MONICA GOMEZ,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5821,64006,16809,16809,MIS DOS SOLES,codigo,102,martes,asignar_existente,70,Zona 102 (V10 - Martes),12,10,10,"MORENO, Martin",martes,martes
+5822,64007,16810,16810,JS MINIMARKET,codigo,102,martes,asignar_existente,70,Zona 102 (V10 - Martes),12,10,10,"MORENO, Martin",martes,martes
+5824,64009,21431,21431,CRISTIAN MAXIMILIANO AGUIRRE,codigo,133,miercoles,asignar_existente,89,Zona 133 (V13 - Miércoles),15,13,13,"DIAZ, Jose",miércoles,miércoles
+5825,64010,21432,21432,MAYORISTA DISTRIBUIDOR LAS PALMAS SOCIEDAD POR ACC,codigo,223,miercoles,asignar_existente,119,Zona 223 (V22 - Miércoles),21,22,22,"GOMEZ, Dylan",miércoles,miércoles
+5826,64011,16811,16811,SALAS MARCELO,codigo,103,miercoles,asignar_existente,71,Zona 103 (V10 - Miércoles),12,10,10,"MORENO, Martin",miércoles,miércoles
+5827,64012,15468,15468,Nelson Lopez,codigo,311,lunes,asignar_existente,123,Zona 311 (V31 - Lunes),22,31,31,"PERRICONE, Franca",lunes,lunes
+5828,64013,21259,21259,NADIA BELEN PAREDES,codigo,143,miercoles,crear_zona_y_asignar,,,,,14,"FAERMAN, David",miércoles,miércoles
+5829,64014,16881,16881,Gonzalez Luciana,codigo,85,viernes,asignar_existente,61,Zona 85 (V8 - Viernes),10,8,8,"HERRERA,Susana",viernes,viernes
+5830,64015,20686,20686,ignacio sanchez,codigo,315,viernes,asignar_existente,127,Zona 315 (V31 - Viernes),22,31,31,"PERRICONE, Franca",viernes,viernes
+5831,64016,5374,5374,ERMENINTO HECTOR JUAN,codigo,191,lunes,asignar_existente,99,Zona 191 (V19 - Lunes),18,19,19,Base de Datos,lunes,lunes
+5833,64018,337,337,Medrano Fernando,codigo,212,martes,asignar_existente,112,Zona 212 (V21 - Martes),20,21,21,"RAMALLO, Federico",,
+5836,64021,16291,16291,kiosco la quini,codigo,101,lunes,asignar_existente,69,Zona 101 (V10 - Lunes),12,10,10,"MORENO, Martin",lunes,lunes
+5840,64025,15448,15448,gianella olmos,codigo,311,lunes,asignar_existente,123,Zona 311 (V31 - Lunes),22,31,31,"PERRICONE, Franca",lunes,lunes
+5841,64026,15437,15437,Fernando cordi,codigo,311,lunes,asignar_existente,123,Zona 311 (V31 - Lunes),22,31,31,"PERRICONE, Franca",lunes,lunes
+5843,64028,21299,21299,DESPENSA OFFER,codigo,136,sabado,asignar_existente,92,Zona 136 (V13 - Sábado),15,13,13,"DIAZ, Jose",viernes,viernes
+5844,64029,21371,21371,JINMEI HUANG,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5845,64030,21372,21372,PATRICIA DEL VALLE LOPEZ,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5846,64031,21373,21373,EMILY SOLANGE VACA,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5847,64032,21374,21374,MARISOL INDRIANI,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5848,64033,21375,21375,DESPENSA YESICA S.A.S.,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5849,64034,21376,21376,CECILIA VERONICA SOSA,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5850,64035,21377,21377,JUAN MANUEL LLOPIS,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5851,64036,21378,21378,ELIANA ELIZABETH GARIGLIO,codigo,136,sabado,asignar_existente,92,Zona 136 (V13 - Sábado),15,13,13,"DIAZ, Jose",sábado,sábado
+5852,64037,21379,21379,MARTA CARINA GARCIA,codigo,146,sabado,crear_zona_y_asignar,,,,,14,"FAERMAN, David",sábado,sábado
+5853,64038,15421,15421,moreno sergio,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",miércoles,miércoles
+5854,64039,15408,15408,Alejandra montesi,codigo,314,jueves,asignar_existente,126,Zona 314 (V31 - Jueves),22,31,31,"PERRICONE, Franca",jueves,jueves
+5855,64040,21385,21385,YAN HUANG,codigo,133,miercoles,asignar_existente,89,Zona 133 (V13 - Miércoles),15,13,13,"DIAZ, Jose",miércoles,miércoles
+5856,64041,21638,21638,MARCELA PEREYRA,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",martes,martes
+5857,64042,21641,21641,MARIA FUNES,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5858,64043,21642,21642,TREJO RAMIRO,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5859,64044,21643,21643,KIOSCOS EL PANCO,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5860,64045,21644,21644,SANGENEMI SAS,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5861,64046,21645,21645,ADRIANA SORIA,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5862,64047,21647,21647,JUAN VELVERDE,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5864,64049,21393,21393,MINIMERCADO MIS SOLES,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",viernes,viernes
+5865,64050,21394,21394,NICOLAS MIGUEL FUSCO,codigo,145,viernes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",viernes,viernes
+5866,64051,21395,21395,CARINA ELIZABETH GIRI,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",viernes,viernes
+5867,64052,21396,21396,Matea ,codigo,145,viernes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",viernes,viernes
+5868,64053,21397,21397,MARIA CANDELA LAMBARRI,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5869,64054,21398,21398,CARINA LORENA MOYANO,codigo,136,sabado,asignar_existente,92,Zona 136 (V13 - Sábado),15,13,13,"DIAZ, Jose",sábado,sábado
+5870,64055,21399,21399,Punto M ,codigo,146,sabado,crear_zona_y_asignar,,,,,14,"FAERMAN, David",sábado,sábado
+5871,64056,21400,21400,La picada ,codigo,146,sabado,crear_zona_y_asignar,,,,,14,"FAERMAN, David",sábado,sábado
+5872,64057,21401,21401,CLAUDIA SUSANA FERNANDEZ,codigo,136,sabado,asignar_existente,92,Zona 136 (V13 - Sábado),15,13,13,"DIAZ, Jose",sábado,sábado
+5873,64058,21402,21402,Grabiel Esteban culasso,codigo,141,lunes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",lunes,lunes
+5874,64059,16755,16755,CECILIA ALEJANDRA RODRIGUEZ,codigo,203,miercoles,asignar_existente,107,Zona 203 (V20 - Miércoles),19,20,20,"PEREYRA, Ivon",miércoles,miércoles
+5875,64060,451,451,YAEL DAIANA FINZI,codigo,83,miercoles,asignar_existente,59,Zona 83 (V8 - Miércoles),10,8,8,"HERRERA,Susana",miércoles,miércoles
+5876,64061,452,452,LUCIA DEL CARMEN PISSONI,codigo,203,miercoles,asignar_existente,107,Zona 203 (V20 - Miércoles),19,20,20,"PEREYRA, Ivon",miércoles,miércoles
+5877,64062,16758,16758,ELIANA PAOLA REARTES,codigo,203,miercoles,asignar_existente,107,Zona 203 (V20 - Miércoles),19,20,20,"PEREYRA, Ivon",miércoles,miércoles
+5878,64063,16756,16756,NORBERTO DANIEL GELSO,codigo,206,sabado,asignar_existente,110,Zona 206 (V20 - Sábado),19,20,20,"PEREYRA, Ivon",sábado,sábado
+5879,64064,16761,16761,RODRIGO ISMAEL CARRIZO,codigo,53,miercoles,asignar_existente,41,Zona 53 (V5 - Miércoles),2,5,5,"LIBRACKEN, Mario",miércoles,miércoles
+5881,64066,21637,21637,EL REY,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5882,64067,21657,21657,EL DANDY,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5883,64068,453,453,NATALIA SOLEDAD GARCIA,codigo,75,viernes,asignar_existente,55,Zona 75 (V7 - Viernes),9,7,7,"MEALLA, Matias",viernes,viernes
+5884,64069,21723,21723,LOS PRIMOS,codigo,173,miercoles,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",miércoles,miércoles
+5885,64070,21733,21733,JAVIER TAVELLA,codigo,173,miercoles,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",miércoles,miércoles
+5887,64072,21799,21799,PENELOPE VASQUES,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",viernes,viernes
+5888,64073,21803,21803,JUAN CRUZ SALAS,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",viernes,viernes
+5889,64074,16752,16752,Cañete Walter,codigo,11,lunes,asignar_existente,15,Zona 11 (V1 - Lunes),4,1,1,"VACANTE,01",lunes,lunes
+5890,64075,15454,15454,Eduardo Arce,codigo,314,jueves,asignar_existente,126,Zona 314 (V31 - Jueves),22,31,31,"PERRICONE, Franca",jueves,jueves
+5893,64078,21369,21369,Mercadito Pablitos,codigo,132,martes,asignar_existente,88,Zona 132 (V13 - Martes),15,13,13,"DIAZ, Jose",martes,martes
+5894,64079,21386,21386,Divino niño ,codigo,143,miercoles,crear_zona_y_asignar,,,,,14,"FAERMAN, David",miércoles,miércoles
+5895,64080,21368,21368,Jonathan Nicolas Ferreyra,codigo,94,jueves,asignar_existente,66,Zona 94 (V9 - Jueves),11,9,9,"PONCE, Facundo",jueves,jueves
+5896,64081,21650,21650,JULIETA REVELLI,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5897,64082,21651,21651,MONICA BOLEA,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5898,64083,21652,21652,SANDRA NEGRO,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5899,64084,16753,16753,ALMACEN NATANAEL,codigo,84,jueves,asignar_existente,60,Zona 84 (V8 - Jueves),10,8,8,"HERRERA,Susana",jueves,jueves
+5900,64085,16754,16754,MAXI KIOSCO MARTIN,codigo,55,viernes,asignar_existente,43,Zona 55 (V5 - Viernes),2,5,5,"LIBRACKEN, Mario",viernes,viernes
+5901,64086,15458,15458,Silvana Valdez,codigo,312,martes,asignar_existente,124,Zona 312 (V31 - Martes),22,31,31,"PERRICONE, Franca",martes,martes
+5902,64087,21387,21387,Drugstore Ave Fenix,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5903,64088,21388,21388,HERNAN SEBASTIAN RUBINICH,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5904,64089,21389,21389,CAMILA VIDELA,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5905,64090,21390,21390,ADRIANA MARIEL CARPANZANO,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5906,64091,21391,21391,VILMA VICTORIA LOPEZ,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5907,64092,21392,21392,PABLO AGUSTIN GOMEZ,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",viernes,viernes
+5908,64093,15449,15449,María Salcedo,codigo,316,sabado,asignar_existente,128,Zona 316 (V31 - Sábado),22,31,31,"PERRICONE, Franca",sábado,sábado
+5909,64094,15450,15450,jesus ponce,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",miércoles,miércoles
+5910,64095,15451,15451,Leonardo Acosta,codigo,312,martes,asignar_existente,124,Zona 312 (V31 - Martes),22,31,31,"PERRICONE, Franca",martes,martes
+5911,64096,16750,19350,LA CUESTA S.A.S.,phone,204,jueves,asignar_existente,108,Zona 204 (V20 - Jueves),19,20,20,"PEREYRA, Ivon",jueves,jueves
+5912,64097,21654,21654,JUAN NUÑEZ,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5913,64098,21655,21655,DOMINGUEZ CINTIA,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+5914,64099,31998,31998,DEL PRADO AGUSTINA JULIETA,codigo,102,martes,asignar_existente,70,Zona 102 (V10 - Martes),12,10,10,"MORENO, Martin",martes,martes
+5915,64100,32502,32502,Florencia Campos,codigo,96,sabado,asignar_existente,68,Zona 96 (V9 - Sábado),11,9,9,"PONCE, Facundo",sábado,sábado
+5916,64101,21335,21335,"Nifú Nifá , un poco de todo y de todo un poco",codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",jueves,jueves
+5917,64102,21353,21353,Autoservicio Miro,codigo,136,sabado,asignar_existente,92,Zona 136 (V13 - Sábado),15,13,13,"DIAZ, Jose",viernes,viernes
+5918,64103,21357,21357,Minimercado y Autoservicio Martínez,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",jueves,jueves
+5919,64104,21362,21362,CRISTIAN ARIEL NAVARRO,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",viernes,viernes
+5920,64105,21659,21659,PEDRO ACOSTA,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5921,64106,21661,21661,NOELIA DELTELL,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5922,64107,21662,21662,JOSE VALVERDE,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5923,64108,21663,21663,JUAN DRASILE,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5924,64109,21664,21664,MARISA GARCIA,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5925,64110,21695,21695,PANADERIA,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+5926,64111,21696,21696,MARIA LUISA GLOCQER,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",martes,martes
+5927,64112,21698,21698,MINI MERCADO CHANQUIA,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",martes,martes
+5928,64113,21699,21699,MERCEDES BASUALDO,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+5929,64114,21702,21702,KIOSCO PAN DURO,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",martes,martes
+5930,64115,21703,21703,MARIA JOSE PARRA,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",martes,martes
+5931,64116,21704,21704,CONSUMDOR FINAL,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",martes,martes
+5932,64117,21427,21427,DAMARIS AYLEN NORIEGA,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5933,64118,16770,16770,OCHOA & HIJOS 1708 S.A.,codigo,204,jueves,asignar_existente,108,Zona 204 (V20 - Jueves),19,20,20,"PEREYRA, Ivon",jueves,jueves
+5934,64119,16771,16771,MAXIKIOSCO MARIPOSA,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5935,64120,16772,16772,MONDINO IGNACIO,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5936,64121,456,456,JOSE LUIS GOMEZ,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5937,64122,16800,16800,DANIELA VALVERDE,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5938,64123,16801,16801,MARCELO INAUDI,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+5939,64124,16802,16802,SILVANA GUILLEN,codigo,105,viernes,asignar_existente,73,Zona 105 (V10 - Viernes),12,10,10,"MORENO, Martin",viernes,viernes
+5940,64125,21428,21428,Despensa Silvia ,codigo,145,viernes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",viernes,viernes
+5941,64126,21712,21712,CONSUMDOR FINAL,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",martes,martes
+5942,64127,21716,21716,ALEXIS STRASORIER,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",martes,martes
+5944,64129,21737,21737,FLORENCIA GIANECHINNI,codigo,173,miercoles,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",miércoles,miércoles
+5945,64130,21740,21740,MELANI GARCIA,codigo,173,miercoles,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",miércoles,miércoles
+5946,64131,21744,21744,MARIANO HUSULIAK,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5947,64132,21745,21745,MERCADITO AGUSTIN,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5948,64133,21748,21748,DIST LA ESTACION 2,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5949,64134,21749,21749,ADRIAN MATIAS MARTIN,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5950,64135,21762,21762,CLAUDIO COLAZO,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5951,64136,21765,21765,MORENO ANALIA,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5952,64137,21768,21768,CINTIA GRACINI,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5953,64138,21773,21773,FRANCO TISERA,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5954,64139,21783,21783,DISTRIBUIDORA MAT-VAL,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",jueves,jueves
+5955,64140,21784,21784,CONSUMIDOR FINAL,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+5956,64141,21787,21787,CONSUMIDOR FINAL,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",viernes,viernes
+5957,64142,21788,21788,JOANA BANEGAS,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",viernes,viernes
+5959,64144,21809,21809,CONSUMIDOR FINAL,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",viernes,viernes
+5960,64145,21812,21812,MINI MERCADO MATI-MAR,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",viernes,viernes
+5961,64146,21815,21815,DANIEL SUELDO,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",viernes,viernes
+5962,64147,21818,21818,MAXIKIOSCO LELA,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+5963,64148,21819,21819,VIRGINIA GODOY,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+5964,64149,21821,21821,ELISEO CHAMORRO,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+5965,64150,21822,21822,ANTONELLA HUERTA,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",viernes,viernes
+5966,64151,21823,21823,CHINO,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",viernes,viernes
+5967,64152,21827,21827,CAIMEI WANG,codigo,176,sabado,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",sábado,sábado
+5968,64153,21832,21832,SUCRE EDUARDO,codigo,176,sabado,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",sábado,sábado
+5969,64154,21833,21833,SONIA MALDONADO,codigo,176,sabado,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",sábado,sábado
+5970,64155,21835,21835,MONICA SANTILLAN,codigo,176,sabado,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",sábado,sábado
+5971,64156,21836,21836,ERICA MORENO,codigo,176,sabado,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",sábado,sábado
+5972,64157,21838,21838,Despensa Kar-Ale,codigo,176,sabado,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",sábado,sábado
+5973,64158,21839,21839,DESPENSA EL CURLI,codigo,176,sabado,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",sábado,sábado
+5974,64159,21840,21840,ROSA LIZARRAGA,codigo,176,sabado,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",sábado,sábado
+5975,64160,21842,21842,MARIELA DOMINGUEZ,codigo,176,sabado,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+5976,64161,21403,21403,MARISA GABRIELA MONSERRAT,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5977,64162,21404,21404,Veronica Olmos,codigo,93,miercoles,asignar_existente,65,Zona 93 (V9 - Miércoles),11,9,9,"PONCE, Facundo",miércoles,miércoles
+5978,64163,21405,21405,DAMARIS AYLEN NORIEGA,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+5979,64164,21409,21409,ZHENFENG CHEN,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",viernes,viernes
+5980,64165,21410,21410,CHENGJIE ZHUANG,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",viernes,viernes
+5981,64166,21411,21411,ALEJANDRA DEL VALLE PERINAZZO,codigo,145,viernes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",viernes,viernes
+5982,64167,15460,15460,Evelyn Calabria,codigo,312,martes,asignar_existente,124,Zona 312 (V31 - Martes),22,31,31,"PERRICONE, Franca",martes,martes
+5983,64168,16803,16803,LUIS PERALTA,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",viernes,viernes
+5984,64169,457,457,BRIAN EZEQUIEL MARCATO,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",martes,martes
+5988,64173,250556,250556,Walter nicolas Bonansea ,codigo,315,viernes,asignar_existente,127,Zona 315 (V31 - Viernes),22,31,31,"PERRICONE, Franca",viernes,viernes
+6008,64193,21406,21406,SILVIA DEL VALLE OVIEDO,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",viernes,viernes
+6009,64194,21407,21407,NADIA SOLEDAD RAGGIOTTI,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",viernes,viernes
+6010,64195,21408,21408,LIHUI ZHUANG,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",viernes,viernes
+6027,64212,21033,21033,LUCAS MOLINA,codigo,104,jueves,asignar_existente,72,Zona 104 (V10 - Jueves),12,10,10,"MORENO, Martin",jueves,jueves
+6033,64218,21667,21667,NOELIA DIAS,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+6034,64219,21668,21668,LA NUEVA,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+6035,64220,21669,21669,CONSUMIDOR FINAL,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+6036,64221,21670,21670,VERONICA JUAREZ,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+6041,64226,21367,21367,PATRICIO MATIAS GONZALEZ MEDOLLA,codigo,125,viernes,asignar_existente,85,Zona 125 (V12 - Viernes),14,12,12,"CONTRERAS, Marina",viernes,viernes
+6042,64227,21689,21689,SONIA NEGRO,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",martes,martes
+6043,64228,15464,15464,julieta anabel brussa,codigo,312,martes,asignar_existente,124,Zona 312 (V31 - Martes),22,31,31,"PERRICONE, Franca",martes,martes
+6044,64229,15466,15466,Mayra Gómez,codigo,312,martes,asignar_existente,124,Zona 312 (V31 - Martes),22,31,31,"PERRICONE, Franca",martes,martes
+6045,64230,15467,15467,Yuliana esconar,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",miércoles,miércoles
+6046,64231,15452,15452,Maretto Marcelo,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",miércoles,miércoles
+6047,64232,21671,21671,YAMILA PEREYRA,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+6048,64233,21674,21674,ALTAMIRANO VANESA,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+6049,64234,21675,21675,KIOSCO LO DE PILA,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",lunes,lunes
+6050,64235,21380,21380,CESAR HUGO MANCILLA,codigo,136,sabado,asignar_existente,92,Zona 136 (V13 - Sábado),15,13,13,"DIAZ, Jose",sábado,sábado
+6051,64236,21381,21381,Autoservicio mili,codigo,146,sabado,crear_zona_y_asignar,,,,,14,"FAERMAN, David",sábado,sábado
+6052,64237,21382,21382,Magico cotillon,codigo,146,sabado,crear_zona_y_asignar,,,,,14,"FAERMAN, David",sábado,sábado
+6053,64238,21383,21383,ZHITAO WENG,codigo,136,sabado,asignar_existente,92,Zona 136 (V13 - Sábado),15,13,13,"DIAZ, Jose",sábado,sábado
+6054,64239,21384,21384,Val_lu,codigo,146,sabado,crear_zona_y_asignar,,,,,14,"FAERMAN, David",sábado,sábado
+6055,64240,21680,21680,NELIDA FERNADEZ,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",martes,martes
+6056,64241,21370,21370,Maria Jose Hernandez,codigo,94,jueves,asignar_existente,66,Zona 94 (V9 - Jueves),11,9,9,"PONCE, Facundo",jueves,jueves
+6057,64242,21706,21706,EL GALLEGO,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+6058,64243,21412,21412,LUCIA ZAIRA CACERES,codigo,136,sabado,asignar_existente,92,Zona 136 (V13 - Sábado),15,13,13,"DIAZ, Jose",sábado,sábado
+6059,64244,21413,21413,LETICIA VERONICA MARQUEZ,codigo,146,sabado,crear_zona_y_asignar,,,,,14,"FAERMAN, David",sábado,sábado
+6060,64245,21415,21415,SERGIO MIGUEL GARCIA,codigo,136,sabado,asignar_existente,92,Zona 136 (V13 - Sábado),15,13,13,"DIAZ, Jose",sábado,sábado
+6062,64247,21248,21248,ANALIA ALEJANDRA GARAY,codigo,61,lunes,asignar_existente,45,Zona 61 (V6 - Lunes),8,6,6,"ACEVEDO, Jorge",lunes,lunes
+6063,64248,16085,16085,RITA BEATRIZ PETRUCELLI,codigo,131,lunes,asignar_existente,87,Zona 131 (V13 - Lunes),15,13,13,"DIAZ, Jose",lunes,lunes
+6064,64249,21417,21417,Brenda testa ,codigo,145,viernes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",viernes,viernes
+6065,64250,21418,21418,EDLIN BELINDA MIRANDA BAPTISTA,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",viernes,viernes
+6066,64251,21419,21419,Despensa Marce ,codigo,145,viernes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",viernes,viernes
+6067,64252,21421,21421,TREZERI S.R.L.,codigo,226,sabado,asignar_existente,122,Zona 226 (V22 - Sábado),21,22,22,"GOMEZ, Dylan",sábado,sábado
+6068,64253,21422,21422,SONGTING GUAN,codigo,136,sabado,asignar_existente,92,Zona 136 (V13 - Sábado),15,13,13,"DIAZ, Jose",sábado,sábado
+6069,64254,21424,21424,ELIANA DEL VALLE NANI,codigo,131,lunes,asignar_existente,87,Zona 131 (V13 - Lunes),15,13,13,"DIAZ, Jose",lunes,lunes
+6070,64255,16760,16760,PAMELA YAMILA HEINE,codigo,71,lunes,asignar_existente,51,Zona 71 (V7 - Lunes),9,7,7,"MEALLA, Matias",martes,martes
+6071,64256,16759,16759,Godoy Héctor ,codigo,74,jueves,asignar_existente,54,Zona 74 (V7 - Jueves),9,7,7,"MEALLA, Matias",jueves,jueves
+6072,64257,21416,21416,Mini market Roma ,codigo,144,jueves,crear_zona_y_asignar,,,,,14,"FAERMAN, David",jueves,jueves
+6073,64258,21425,21425,MULTIMARKET STORES S.A.S.,codigo,131,lunes,asignar_existente,87,Zona 131 (V13 - Lunes),15,13,13,"DIAZ, Jose",lunes,lunes
+6075,64260,16763,16763,LILIANA CABRAL,codigo,101,lunes,asignar_existente,69,Zona 101 (V10 - Lunes),12,10,10,"MORENO, Martin",lunes,lunes
+6076,64261,16764,16764,LA MONDIOLA,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",martes,martes
+6078,64263,16766,16766,KIOSCO PUNTO 4,codigo,173,miercoles,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",miércoles,miércoles
+6079,64264,16767,16767,SANCHEZ MARISA LILIANA,codigo,173,miercoles,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",miércoles,miércoles
+6080,64265,16768,16768,FRENCIA BRUNO,codigo,173,miercoles,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",miércoles,miércoles
+6081,64266,16769,16769,BLANCO ENZO,codigo,173,miercoles,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",miércoles,miércoles
+6082,64267,21426,21426,GABRIELA ALEJANDRA BENAVIDEZ,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",jueves,jueves
+6083,64268,16804,16804,DESPENSA CELIA,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",viernes,viernes
+6084,64269,16805,16805,GABRIEL ALEXIS GOMEZ,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",viernes,viernes
+6085,64270,21429,21429,Despensa mym,codigo,145,viernes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",viernes,viernes
+6088,64273,21430,21430,ORNELLA LUJAN HEREDIA,codigo,111,lunes,asignar_existente,75,Zona 111 (V11 - Lunes),13,11,11,"IÑIGUEZ, Estiben",lunes,lunes
+6089,64274,15463,15463,jorge Garcia,codigo,316,sabado,asignar_existente,128,Zona 316 (V31 - Sábado),22,31,31,"PERRICONE, Franca",sábado,sábado
+6105,64292,,15517,Quiosco,phone,314,jueves,asignar_existente,126,Zona 314 (V31 - Jueves),22,31,31,"PERRICONE, Franca",,
+6110,64298,12077,12077,Gustavo Curcio ,codigo,42,martes,asignar_existente,34,Zona 42 (V4 - Martes),7,4,4,"GONZALEZ, Fabrizio",,
+6111,64299,11974,11974,Ezequiel Arias,codigo,93,miercoles,asignar_existente,65,Zona 93 (V9 - Miércoles),11,9,9,"PONCE, Facundo",,
+6112,64300,12607,12607,Diaz Javier Alejandro,codigo,92,martes,asignar_existente,64,Zona 92 (V9 - Martes),11,9,9,"PONCE, Facundo",,
+6113,64301,12489,12489,Lin Yangguo,codigo,221,lunes,asignar_existente,117,Zona 221 (V22 - Lunes),21,22,22,"GOMEZ, Dylan",,
+6114,64302,10546,10546,Marina dicampli,codigo,22,martes,asignar_existente,22,Zona 22 (V2 - Martes),5,2,2,"FERNANDEZ, Sergio",,
+6115,64303,10609,10609,Gabriela Yanet Falcón ,codigo,21,lunes,asignar_existente,21,Zona 21 (V2 - Lunes),5,2,2,"FERNANDEZ, Sergio",,
+6116,64304,10612,10612,FERNANDEZ RAUL,codigo,21,lunes,asignar_existente,21,Zona 21 (V2 - Lunes),5,2,2,"FERNANDEZ, Sergio",,
+6117,64305,14833,14833,Spartano Luciano ,codigo,41,lunes,asignar_existente,33,Zona 41 (V4 - Lunes),7,4,4,"GONZALEZ, Fabrizio",,
+6118,64306,12255,12255,LIN YING,codigo,223,miercoles,asignar_existente,119,Zona 223 (V22 - Miércoles),21,22,22,"GOMEZ, Dylan",,
+6119,64307,15318,15318,Lin fengying,codigo,222,martes,asignar_existente,118,Zona 222 (V22 - Martes),21,22,22,"GOMEZ, Dylan",,
+6120,64308,15733,15733,Castro Miguel Dario ,codigo,75,viernes,asignar_existente,55,Zona 75 (V7 - Viernes),9,7,7,"MEALLA, Matias",,
+6121,64309,12777,12777,ALLENDE MARIA ELENA,codigo,113,miercoles,asignar_existente,77,Zona 113 (V11 - Miércoles),13,11,11,"IÑIGUEZ, Estiben",,
+6122,64310,15473,15473,Yesica nieto,codigo,314,jueves,asignar_existente,126,Zona 314 (V31 - Jueves),22,31,31,"PERRICONE, Franca",,
+6123,64311,21447,21447,AGUSTIN SALVADOR RODRIGUEZ,codigo,41,lunes,asignar_existente,33,Zona 41 (V4 - Lunes),7,4,4,"GONZALEZ, Fabrizio",,
+6124,64312,22181,22181,MAXIKIOSCODELTAJA 24HS,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6125,64313,22183,22183,Kiosco Acuario,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6126,64314,13397,13397,JOSE WETSZTEIN,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",,
+6127,64315,13473,13473,Dana alexandra Nieto,codigo,314,jueves,asignar_existente,126,Zona 314 (V31 - Jueves),22,31,31,"PERRICONE, Franca",,
+6128,64316,13747,13747,Rocio Ullua,codigo,315,viernes,asignar_existente,127,Zona 315 (V31 - Viernes),22,31,31,"PERRICONE, Franca",,
+6129,64317,13792,13792,Cecilia Merigo,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",,
+6130,64318,13793,13793,paula Toledo,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",,
+6131,64319,13794,13794,Guadalupe Peralta,codigo,311,lunes,asignar_existente,123,Zona 311 (V31 - Lunes),22,31,31,"PERRICONE, Franca",,
+6132,64320,16835,16835,YAMILA BRANDAN,codigo,171,lunes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+6133,64321,13795,13795,milagros Pereyra,codigo,312,martes,asignar_existente,124,Zona 312 (V31 - Martes),22,31,31,"PERRICONE, Franca",,
+6134,64322,21458,21458,LENIS ANDREA TORRES LOPEZ,codigo,44,jueves,asignar_existente,36,Zona 44 (V4 - Jueves),7,4,4,"GONZALEZ, Fabrizio",,
+6135,64323,21459,21459,ELENA VERONICA ROJAS,codigo,145,viernes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",,
+6136,64324,21460,21460,Despensa Gustavo ,codigo,145,viernes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",,
+6137,64325,21461,21461,Despensa bety,codigo,146,sabado,crear_zona_y_asignar,,,,,14,"FAERMAN, David",,
+6138,64326,16836,16836,JEANNETTE SANCHEZ,codigo,176,sabado,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+6139,64327,21462,21462,ANGELES NAHIR BIANCIOTTI,codigo,141,lunes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",,
+6140,64328,5681,5681,MALDONADO JUAN MANUEL,codigo,65,viernes,asignar_existente,49,Zona 65 (V6 - Viernes),8,6,6,"ACEVEDO, Jorge",,
+6141,64329,5168,5168,Flavia Ullua,codigo,42,martes,asignar_existente,34,Zona 42 (V4 - Martes),7,4,4,"GONZALEZ, Fabrizio",,
+6142,64330,14422,14422,Melina Amato,codigo,21,lunes,asignar_existente,21,Zona 21 (V2 - Lunes),5,2,2,"FERNANDEZ, Sergio",,
+6143,64331,13340,13340,MINIMERCADO FLORES,codigo,221,lunes,asignar_existente,117,Zona 221 (V22 - Lunes),21,22,22,"GOMEZ, Dylan",,
+6144,64332,5217,5217,Carlos Alberto Caballero ,codigo,24,jueves,asignar_existente,24,Zona 24 (V2 - Jueves),5,2,2,"FERNANDEZ, Sergio",,
+6145,64333,5307,5307,LOS LENJES S.A.S.,codigo,224,jueves,asignar_existente,120,Zona 224 (V22 - Jueves),21,22,22,"GOMEZ, Dylan",,
+6146,64334,14971,14971,MARIA ELENA MAZZETTO,codigo,25,viernes,asignar_existente,25,Zona 25 (V2 - Viernes),5,2,2,"FERNANDEZ, Sergio",,
+6147,64335,6132,6132,SANTIAGO ANDRES NICOLA,codigo,133,miercoles,asignar_existente,89,Zona 133 (V13 - Miércoles),15,13,13,"DIAZ, Jose",,
+6148,64336,6180,6180,Autoservicio Pablito ,codigo,106,sabado,asignar_existente,74,Zona 106 (V10 - Sábado),12,10,10,"MORENO, Martin",,
+6149,64337,21450,21450,CARLOS ALBERTO CABALLERO,codigo,44,jueves,asignar_existente,36,Zona 44 (V4 - Jueves),7,4,4,"GONZALEZ, Fabrizio",,
+6150,64338,413,413,IVON SOLEDAD PEREYRA (vendedora 20),codigo,205,viernes,asignar_existente,109,Zona 205 (V20 - Viernes),19,20,20,"PEREYRA, Ivon",,
+6151,64339,15163,15163,YAN CHEN,codigo,201,lunes,asignar_existente,105,Zona 201 (V20 - Lunes),19,20,20,"PEREYRA, Ivon",,
+6152,64340,5591,5591,Karen Gonzalez,codigo,42,martes,asignar_existente,34,Zona 42 (V4 - Martes),7,4,4,"GONZALEZ, Fabrizio",,
+6153,64341,5715,5715,Aldana Micaela Gudiño,codigo,26,sabado,asignar_existente,26,Zona 26 (V2 - Sábado),5,2,2,"FERNANDEZ, Sergio",,
+6154,64342,5783,5783,Gavotto Nancy ,codigo,43,miercoles,asignar_existente,35,Zona 43 (V4 - Miércoles),7,4,4,"GONZALEZ, Fabrizio",,
+6155,64343,12949,12949,celeste oviedo,codigo,314,jueves,asignar_existente,126,Zona 314 (V31 - Jueves),22,31,31,"PERRICONE, Franca",,
+6156,64344,12952,12952,Milena Paez,codigo,311,lunes,asignar_existente,123,Zona 311 (V31 - Lunes),22,31,31,"PERRICONE, Franca",,
+6157,64345,13006,13006,Carolina Pereyra,codigo,311,lunes,asignar_existente,123,Zona 311 (V31 - Lunes),22,31,31,"PERRICONE, Franca",,
+6158,64346,13117,13117,Karen Dosantos,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",,
+6159,64347,13213,13213,Daiana soledad Panico,codigo,315,viernes,asignar_existente,127,Zona 315 (V31 - Viernes),22,31,31,"PERRICONE, Franca",,
+6160,64348,21127,21127,ALVAREZ CELIA,codigo,52,martes,asignar_existente,40,Zona 52 (V5 - Martes),2,5,5,"LIBRACKEN, Mario",,
+6161,64349,21484,21484,AGUSTINA AISICOVICH,codigo,73,miercoles,asignar_existente,53,Zona 73 (V7 - Miércoles),9,7,7,"MEALLA, Matias",,
+6162,64350,21485,21485,CRISTIAN ADRIAN VILLARROEL,codigo,13,miercoles,asignar_existente,17,Zona 13 (V1 - Miércoles),4,1,1,"VACANTE,01",,
+6163,64351,21487,21487,GABRIELA KARINA VILDOZA,codigo,84,jueves,asignar_existente,60,Zona 84 (V8 - Jueves),10,8,8,"HERRERA,Susana",,
+6164,64352,21486,21486,SUCOMAX S.A.S.,codigo,213,miercoles,asignar_existente,113,Zona 213 (V21 - Miércoles),20,21,21,"RAMALLO, Federico",,
+6165,64353,21488,21488,Carlin,codigo,74,jueves,asignar_existente,54,Zona 74 (V7 - Jueves),9,7,7,"MEALLA, Matias",,
+6166,64354,21489,21489,Kata y emi ,codigo,114,jueves,asignar_existente,78,Zona 114 (V11 - Jueves),13,11,11,"IÑIGUEZ, Estiben",,
+6167,64355,21495,21495,RUTH VIVIANA CACERES,codigo,45,viernes,asignar_existente,37,Zona 45 (V4 - Viernes),7,4,4,"GONZALEZ, Fabrizio",,
+6168,64356,21492,21492,Gladis Luna,codigo,65,viernes,asignar_existente,49,Zona 65 (V6 - Viernes),8,6,6,"ACEVEDO, Jorge",,
+6169,64357,21493,21493,GEREMIAS MALDONADO,codigo,56,sabado,asignar_existente,44,Zona 56 (V5 - Sábado),2,5,5,"LIBRACKEN, Mario",,
+6170,64358,21494,21494,MARCELO JAVIER VEGA,codigo,61,lunes,asignar_existente,45,Zona 61 (V6 - Lunes),8,6,6,"ACEVEDO, Jorge",,
+6171,64359,21499,21499,Veronica Lescano ,codigo,111,lunes,asignar_existente,75,Zona 111 (V11 - Lunes),13,11,11,"IÑIGUEZ, Estiben",,
+6172,64360,21506,21506,karina alejandra Fernandez ,codigo,111,lunes,asignar_existente,75,Zona 111 (V11 - Lunes),13,11,11,"IÑIGUEZ, Estiben",,
+6173,64361,2860,2860,Nancy Gomez,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+6174,64362,21860,21860,QINGYONG CHEN,codigo,173,miercoles,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+6175,64363,21858,21858,KIOSCO BERTA (faltan datos),codigo,101,lunes,asignar_existente,69,Zona 101 (V10 - Lunes),12,10,10,"MORENO, Martin",,
+6176,64364,21859,21859,Kiosco Brocherito,codigo,71,lunes,asignar_existente,51,Zona 71 (V7 - Lunes),9,7,7,"MEALLA, Matias",,
+6177,64365,21507,21507,ANGELA LIN,codigo,213,miercoles,asignar_existente,113,Zona 213 (V21 - Miércoles),20,21,21,"RAMALLO, Federico",,
+6178,64366,21862,21862,PABLO WALTER SALAS GONZALEZ,codigo,124,jueves,asignar_existente,84,Zona 124 (V12 - Jueves),14,12,12,"CONTRERAS, Marina",,
+6179,64367,21863,21863,YRCELIS ALVARADO,codigo,104,jueves,asignar_existente,72,Zona 104 (V10 - Jueves),12,10,10,"MORENO, Martin",,
+6180,64368,21864,21864,MARCELINO MARQUE,codigo,15,viernes,asignar_existente,19,Zona 15 (V1 - Viernes),4,1,1,"VACANTE,01",,
+6181,64369,21865,21865,DIEGO CUCHALLO ,codigo,105,viernes,asignar_existente,73,Zona 105 (V10 - Viernes),12,10,10,"MORENO, Martin",,
+6182,64370,21866,21866,JORGE LUIS BAYLON ABAO,codigo,75,viernes,asignar_existente,55,Zona 75 (V7 - Viernes),9,7,7,"MEALLA, Matias",,
+6183,64371,21510,21510,FCSLII SRL,codigo,225,viernes,asignar_existente,121,Zona 225 (V22 - Viernes),21,22,22,"GOMEZ, Dylan",,
+6184,64372,30050,30050,Maria Victoria casas ,codigo,44,jueves,asignar_existente,36,Zona 44 (V4 - Jueves),7,4,4,"GONZALEZ, Fabrizio",,
+6185,64373,30105,30105,Pollería Irma Sarria ,codigo,45,viernes,asignar_existente,37,Zona 45 (V4 - Viernes),7,4,4,"GONZALEZ, Fabrizio",,
+6186,64374,30418,30418,Maria Eugenia Brussa,codigo,42,martes,asignar_existente,34,Zona 42 (V4 - Martes),7,4,4,"GONZALEZ, Fabrizio",,
+6187,64375,30537,30537,Eduardo zamora ,codigo,114,jueves,asignar_existente,78,Zona 114 (V11 - Jueves),13,11,11,"IÑIGUEZ, Estiben",,
+6188,64376,30595,30595,MORENO ARIEL,codigo,65,viernes,asignar_existente,49,Zona 65 (V6 - Viernes),8,6,6,"ACEVEDO, Jorge",,
+6189,64377,31545,31545,Humberto campos,codigo,114,jueves,asignar_existente,78,Zona 114 (V11 - Jueves),13,11,11,"IÑIGUEZ, Estiben",,
+6190,64378,31705,31705,Ledesma Gisella,codigo,24,jueves,asignar_existente,24,Zona 24 (V2 - Jueves),5,2,2,"FERNANDEZ, Sergio",,
+6191,64379,31915,31915,Laura Pacheco ,codigo,23,miercoles,asignar_existente,23,Zona 23 (V2 - Miércoles),5,2,2,"FERNANDEZ, Sergio",,
+6192,64380,31965,31965,Messikiosco ,codigo,76,sabado,asignar_existente,56,Zona 76 (V7 - Sábado),9,7,7,"MEALLA, Matias",,
+6193,64381,31969,31969,paz mikaela videla,codigo,115,viernes,asignar_existente,79,Zona 115 (V11 - Viernes),13,11,11,"IÑIGUEZ, Estiben",,
+6194,64382,32199,32199,BRENDA JAQUELINA AMARANTO,codigo,85,viernes,asignar_existente,61,Zona 85 (V8 - Viernes),10,8,8,"HERRERA,Susana",,
+6195,64383,32457,32457,Soledad Guzmán ,codigo,104,jueves,asignar_existente,72,Zona 104 (V10 - Jueves),12,10,10,"MORENO, Martin",,
+6196,64384,32788,32788,Valeria vaudano ,codigo,44,jueves,asignar_existente,36,Zona 44 (V4 - Jueves),7,4,4,"GONZALEZ, Fabrizio",,
+6197,64385,32846,32846,María Ines,codigo,24,jueves,asignar_existente,24,Zona 24 (V2 - Jueves),5,2,2,"FERNANDEZ, Sergio",,
+6198,64386,21491,21491,LUCAS ZHENG,codigo,205,viernes,asignar_existente,109,Zona 205 (V20 - Viernes),19,20,20,"PEREYRA, Ivon",,
+6199,64387,21358,21358,MARIA VICTORIA FERRERO,codigo,134,jueves,asignar_existente,90,Zona 134 (V13 - Jueves),15,13,13,"DIAZ, Jose",,
+6200,64388,22194,22194,Despensa LAFAMILIA,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6201,64389,22195,22195,Despensa dalinger,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6202,64390,22196,22196,TIMI despensa,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6203,64391,22197,22197,Despensa LOLI ....Brasil 1772,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6204,64392,22198,22198,Autoservicio Madagascar,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6205,64393,22199,22199,Despensa la pancha,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6206,64394,22200,22200,Despensa Belaver,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6207,64395,22202,22202,Kiosco Los Punis,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6208,64396,22206,22206,Despensa LO DE MARY,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6209,64397,22207,22207,Mateo Kiosco Despensa,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6210,64398,22208,22208,Autoservicio González,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6211,64399,22209,22209,"Kiosco ""El Gringo"" – Despensa",codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6212,64400,22210,22210,Kiosco magic,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6213,64401,22216,22216,Autoservicio 70/30,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6214,64402,22218,22218,DESPENSA MEDIALUNA,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6215,64403,16832,16832,ANABELLA BEATRIZ CARAVETTA,codigo,105,viernes,asignar_existente,73,Zona 105 (V10 - Viernes),12,10,10,"MORENO, Martin",,
+6216,64404,16833,16833,Lipecord,codigo,105,viernes,asignar_existente,73,Zona 105 (V10 - Viernes),12,10,10,"MORENO, Martin",,
+6217,64405,16834,16834,KHANUT ,codigo,106,sabado,asignar_existente,74,Zona 106 (V10 - Sábado),12,10,10,"MORENO, Martin",,
+6218,64406,473,473,JUAN RAMON TORRES,codigo,106,sabado,asignar_existente,74,Zona 106 (V10 - Sábado),12,10,10,"MORENO, Martin",,
+6219,64407,22222,22222,Autoservicio El Chiche,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6220,64408,22223,22223,Market Guada,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6221,64409,22226,22226,Despensa - El Flaco,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6222,64410,22227,22227,Carrefour Express,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6223,64411,22228,22228,Despensa Noe,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6224,64412,21451,21451,Virgia Pupich,codigo,94,jueves,asignar_existente,66,Zona 94 (V9 - Jueves),11,9,9,"PONCE, Facundo",,
+6225,64413,21452,21452,LUIS ALBERTO OYOLA,codigo,145,viernes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",,
+6226,64414,21453,21453,Eliana Salgan,codigo,95,viernes,asignar_existente,67,Zona 95 (V9 - Viernes),11,9,9,"PONCE, Facundo",,
+6227,64415,21454,21454,Zoe Priscila Heredia ,codigo,145,viernes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",,
+6228,64416,21455,21455,Lizarraga Cristian ,codigo,145,viernes,crear_zona_y_asignar,,,,,14,"FAERMAN, David",,
+6229,64417,21456,21456,MATIAS SEBASTIAN SAN RAME,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",,
+6230,64418,21457,21457,VERONICA HAYDEE DIAZ,codigo,146,sabado,crear_zona_y_asignar,,,,,14,"FAERMAN, David",,
+6231,64419,22233,22233,Autoservicio 8-A,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6232,64420,22235,22235,STop Almacen Kiosko 24 horas,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6233,64421,22239,22239,Mega Despensa De todo un poco,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6234,64422,22241,22241,Despensa ivana,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6235,64423,21785,21785,GODOY VIRGINIA,codigo,175,viernes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+6236,64424,19939,19939,DISTRIBUIDORA VERONITA S.R.L,codigo,223,miercoles,asignar_existente,119,Zona 223 (V22 - Miércoles),21,22,22,"GOMEZ, Dylan",,
+6237,64425,21497,21497,EVA ALICIA ALFARO POMA,codigo,66,sabado,asignar_existente,50,Zona 66 (V6 - Sábado),8,6,6,"ACEVEDO, Jorge",,
+6238,64426,21861,21861,ELISABETH TOMAS,codigo,103,miercoles,asignar_existente,71,Zona 103 (V10 - Miércoles),12,10,10,"MORENO, Martin",,
+6239,64427,16846,16846,BENJAMIN ALVARO VELIZ VELIZ,codigo,104,jueves,asignar_existente,72,Zona 104 (V10 - Jueves),12,10,10,"MORENO, Martin",,
+6240,64428,16847,16847,MAKO POSADA,codigo,174,jueves,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+6241,64429,16848,16848,RAMON PEREZ,codigo,55,viernes,asignar_existente,43,Zona 55 (V5 - Viernes),2,5,5,"LIBRACKEN, Mario",,
+6242,64430,21474,21474,Roxana,codigo,61,lunes,asignar_existente,45,Zona 61 (V6 - Lunes),8,6,6,"ACEVEDO, Jorge",,
+6243,64431,16850,16850,JESICA DEL VALLE OLIVO,codigo,32,martes,asignar_existente,28,Zona 32 (V3 - Martes),6,3,3,"CHAVEZ, Rafael",,
+6244,64432,16851,16851,VERTINO ELENA,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+6246,64434,21101,21101,Jose lucas monje ,codigo,103,miercoles,asignar_existente,71,Zona 103 (V10 - Miércoles),12,10,10,"MORENO, Martin",,
+6247,64435,21102,21102,HECTOR RUBEN CARDOSO,codigo,33,miercoles,asignar_existente,29,Zona 33 (V3 - Miércoles),6,3,3,"CHAVEZ, Rafael",,
+6248,64436,21471,21471,CLAUDIA EUGENIA AMAYA,codigo,45,viernes,asignar_existente,37,Zona 45 (V4 - Viernes),7,4,4,"GONZALEZ, Fabrizio",,
+6249,64437,21107,21107,Jmb verdulería y almacen,codigo,105,viernes,asignar_existente,73,Zona 105 (V10 - Viernes),12,10,10,"MORENO, Martin",,
+6250,64438,21108,21108,ROXANA BORIONI (LICEO MILITAR),codigo,56,sabado,asignar_existente,44,Zona 56 (V5 - Sábado),2,5,5,"LIBRACKEN, Mario",,
+6251,64439,21113,21113,Gisela Funes,codigo,94,jueves,asignar_existente,66,Zona 94 (V9 - Jueves),11,9,9,"PONCE, Facundo",,
+6252,64440,21479,21479,Monica Nadaya,codigo,23,miercoles,asignar_existente,23,Zona 23 (V2 - Miércoles),5,2,2,"FERNANDEZ, Sergio",,
+6253,64441,21472,21472,LOURDES YOHANA ALVAREZ,codigo,45,viernes,asignar_existente,37,Zona 45 (V4 - Viernes),7,4,4,"GONZALEZ, Fabrizio",,
+6254,64442,21496,21496,JAVIER SEBASTIAN CESPEDES,codigo,61,lunes,asignar_existente,45,Zona 61 (V6 - Lunes),8,6,6,"ACEVEDO, Jorge",,
+6255,64443,21850,21850,CRESPO LEONOR,codigo,52,martes,asignar_existente,40,Zona 52 (V5 - Martes),2,5,5,"LIBRACKEN, Mario",,
+6256,64444,21498,21498,EDUARDO ADRIAN ARIAS,codigo,62,martes,asignar_existente,46,Zona 62 (V6 - Martes),8,6,6,"ACEVEDO, Jorge",,
+6257,64445,21851,21851,Eduardo Martinez ,codigo,33,miercoles,asignar_existente,29,Zona 33 (V3 - Miércoles),6,3,3,"CHAVEZ, Rafael",,
+6258,64446,21852,21852,PANADERIA FATTU (B DOCTA),codigo,203,miercoles,asignar_existente,107,Zona 203 (V20 - Miércoles),19,20,20,"PEREYRA, Ivon",,
+6259,64447,21508,21508,ZHEN LIN,codigo,224,jueves,asignar_existente,120,Zona 224 (V22 - Jueves),21,22,22,"GOMEZ, Dylan",,
+6260,64448,21473,21473,MARIANO ISMAEL CISNEROS,codigo,45,viernes,asignar_existente,37,Zona 45 (V4 - Viernes),7,4,4,"GONZALEZ, Fabrizio",,
+6261,64449,24010,24010,Angel tomas gonzalez,codigo,143,miercoles,crear_zona_y_asignar,,,,,14,"FAERMAN, David",,
+6262,64450,24011,24011,Belen,codigo,63,miercoles,asignar_existente,47,Zona 63 (V6 - Miércoles),8,6,6,"ACEVEDO, Jorge",,
+6263,64451,21475,21475,Giménez Elunay,codigo,94,jueves,asignar_existente,66,Zona 94 (V9 - Jueves),11,9,9,"PONCE, Facundo",,
+6264,64452,21476,21476,Mereta Ana karina,codigo,146,sabado,crear_zona_y_asignar,,,,,14,"FAERMAN, David",,
+6265,64453,13845,13845,Lucia Martinez,codigo,25,viernes,asignar_existente,25,Zona 25 (V2 - Viernes),5,2,2,"FERNANDEZ, Sergio",,
+6266,64454,16842,16842,MARCELA PATRICIA MEDRANO,codigo,82,martes,asignar_existente,58,Zona 82 (V8 - Martes),10,8,8,"HERRERA,Susana",,
+6267,64455,13902,13902,Francisco Moro,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",,
+6268,64456,21116,21116,DANIEL DAVID PEREZ,codigo,55,viernes,asignar_existente,43,Zona 55 (V5 - Viernes),2,5,5,"LIBRACKEN, Mario",,
+6269,64457,21117,21117,Camila cepeda,codigo,101,lunes,asignar_existente,69,Zona 101 (V10 - Lunes),12,10,10,"MORENO, Martin",,
+6270,64458,21118,21118,Luisa Herrera ,codigo,101,lunes,asignar_existente,69,Zona 101 (V10 - Lunes),12,10,10,"MORENO, Martin",,
+6271,64459,21119,21119,Marysol Oliva ,codigo,101,lunes,asignar_existente,69,Zona 101 (V10 - Lunes),12,10,10,"MORENO, Martin",,
+6272,64460,21120,21120,Érika Gasalla ,codigo,101,lunes,asignar_existente,69,Zona 101 (V10 - Lunes),12,10,10,"MORENO, Martin",,
+6273,64461,21121,21121,Saavedra Jorgelina ,codigo,51,lunes,asignar_existente,39,Zona 51 (V5 - Lunes),2,5,5,"LIBRACKEN, Mario",,
+6274,64462,16839,16839,Zulma Ortiz ,codigo,31,lunes,asignar_existente,27,Zona 31 (V3 - Lunes),6,3,3,"CHAVEZ, Rafael",,
+6275,64463,16840,16840,SAILLEN RICARD0,codigo,51,lunes,asignar_existente,39,Zona 51 (V5 - Lunes),2,5,5,"LIBRACKEN, Mario",,
+6276,64464,21468,21468,MATIAS SEBASTIAN MORALES,codigo,42,martes,asignar_existente,34,Zona 42 (V4 - Martes),7,4,4,"GONZALEZ, Fabrizio",,
+6277,64465,16841,16841,Hot corner,codigo,102,martes,asignar_existente,70,Zona 102 (V10 - Martes),12,10,10,"MORENO, Martin",lunes,lunes
+6278,64466,13900,13900,Claudia Tita - El Anexo Carne,codigo,312,martes,asignar_existente,124,Zona 312 (V31 - Martes),22,31,31,"PERRICONE, Franca",,
+6279,64467,13901,13901,Maria Caglieri,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",,
+6280,64468,21469,21469,Natalia Pugliese ,codigo,44,jueves,asignar_existente,36,Zona 44 (V4 - Jueves),7,4,4,"GONZALEZ, Fabrizio",,
+6281,64469,16837,16837,VANESA DEL VALLE SENA,codigo,31,lunes,asignar_existente,27,Zona 31 (V3 - Lunes),6,3,3,"CHAVEZ, Rafael",,
+6282,64470,13796,13796,Ignacio Perez,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",,
+6283,64471,13797,13797,Maximiliano Moreyra,codigo,316,sabado,asignar_existente,128,Zona 316 (V31 - Sábado),22,31,31,"PERRICONE, Franca",,
+6284,64472,13798,13798,Gerardo Gomez,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",,
+6285,64473,13799,13799,dayan celiz,codigo,313,miercoles,asignar_existente,125,Zona 313 (V31 - Miércoles),22,31,31,"PERRICONE, Franca",,
+6286,64474,13805,13805,Adrian Moreno,codigo,311,lunes,asignar_existente,123,Zona 311 (V31 - Lunes),22,31,31,"PERRICONE, Franca",,
+6287,64475,16838,16838,Panificadora las delicias ,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+6288,64476,21463,21463,MARTIN ARIEL MOLINA,codigo,43,miercoles,asignar_existente,35,Zona 43 (V4 - Miércoles),7,4,4,"GONZALEZ, Fabrizio",,
+6289,64477,21464,21464,MARIANA GUTIERREZ,codigo,45,viernes,asignar_existente,37,Zona 45 (V4 - Viernes),7,4,4,"GONZALEZ, Fabrizio",,
+6290,64478,21465,21465,WALTER FERNANDO ROJAS,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",,
+6291,64479,21466,21466,JORGE MARCELO PEREYRA BARRERA,codigo,135,viernes,asignar_existente,91,Zona 135 (V13 - Viernes),15,13,13,"DIAZ, Jose",,
+6292,64480,21467,21467,Montivero ribulgo benjamin,codigo,35,viernes,asignar_existente,31,Zona 35 (V3 - Viernes),6,3,3,"CHAVEZ, Rafael",,
+6293,64481,16843,16843,POROTO ADIANI,codigo,104,jueves,asignar_existente,72,Zona 104 (V10 - Jueves),12,10,10,"MORENO, Martin",,
+6294,64482,16844,16844,Erica Ayza,codigo,74,jueves,asignar_existente,54,Zona 74 (V7 - Jueves),9,7,7,"MEALLA, Matias",,
+6295,64483,16845,16845,FLOPY 2 MILAGROS BLESA,codigo,104,jueves,asignar_existente,72,Zona 104 (V10 - Jueves),12,10,10,"MORENO, Martin",,
+6296,64484,21470,21470,Etel caminos,codigo,44,jueves,asignar_existente,36,Zona 44 (V4 - Jueves),7,4,4,"GONZALEZ, Fabrizio",,
+6297,64485,21110,21110,Familia joyneld,codigo,101,lunes,asignar_existente,69,Zona 101 (V10 - Lunes),12,10,10,"MORENO, Martin",,
+6298,64486,21112,21112,Almacen la paz ,codigo,103,miercoles,asignar_existente,71,Zona 103 (V10 - Miércoles),12,10,10,"MORENO, Martin",,
+6299,64487,13903,13903,Fabian Moyano,codigo,311,lunes,asignar_existente,123,Zona 311 (V31 - Lunes),22,31,31,"PERRICONE, Franca",,
+6300,64488,21114,21114,Dof Daniel Oscar Fierro ,codigo,104,jueves,asignar_existente,72,Zona 104 (V10 - Jueves),12,10,10,"MORENO, Martin",,
+6301,64489,21115,21115,El condor,codigo,104,jueves,asignar_existente,72,Zona 104 (V10 - Jueves),12,10,10,"MORENO, Martin",,
+6302,64490,21478,21478,Yamila sosa,codigo,111,lunes,asignar_existente,75,Zona 111 (V11 - Lunes),13,11,11,"IÑIGUEZ, Estiben",,
+6303,64491,21111,21111,ABASTO VIRTUAL S.A.S.,codigo,222,martes,asignar_existente,118,Zona 222 (V22 - Martes),21,22,22,"GOMEZ, Dylan",,
+6304,64492,21477,21477,chiara Magliano ,codigo,113,miercoles,asignar_existente,77,Zona 113 (V11 - Miércoles),13,11,11,"IÑIGUEZ, Estiben",,
+6305,64493,21480,21480,MONICA VIVIANA GONZALEZ,codigo,45,viernes,asignar_existente,37,Zona 45 (V4 - Viernes),7,4,4,"GONZALEZ, Fabrizio",,
+6306,64494,21481,21481,MAXIMILIANO CARLOS LUCA KALOUSTIAN,codigo,55,viernes,asignar_existente,43,Zona 55 (V5 - Viernes),2,5,5,"LIBRACKEN, Mario",,
+6307,64495,21482,21482,MARIANA DANIELA NUÑEZ,codigo,113,miercoles,asignar_existente,77,Zona 113 (V11 - Miércoles),13,11,11,"IÑIGUEZ, Estiben",,
+6308,64496,21483,21483,GUSTAVO ARIEL CACERES,codigo,44,jueves,asignar_existente,36,Zona 44 (V4 - Jueves),7,4,4,"GONZALEZ, Fabrizio",,
+6309,64497,13904,13904,Emiliano Ruiz,codigo,311,lunes,asignar_existente,123,Zona 311 (V31 - Lunes),22,31,31,"PERRICONE, Franca",,
+6310,64498,21853,21853,JOSE MARTIN OCHOA,codigo,204,jueves,asignar_existente,108,Zona 204 (V20 - Jueves),19,20,20,"PEREYRA, Ivon",,
+6311,64499,21854,21854,DISTRIBUIDORA NyS,codigo,104,jueves,asignar_existente,72,Zona 104 (V10 - Jueves),12,10,10,"MORENO, Martin",,
+6312,64500,22180,22180,"QUINIELA AGENCIA 1205 LOTERIA DE CORDOBA, DESPENSA",codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6313,64501,21867,21867,SALCEDO NATALIA,codigo,51,lunes,asignar_existente,39,Zona 51 (V5 - Lunes),2,5,5,"LIBRACKEN, Mario",,
+6314,64502,21868,21868,LO DE PUPI,codigo,172,martes,crear_zona_y_asignar,,,,,17,"HERRERA, Maria",,
+6315,64503,21511,21511,Chiara Magliano ,codigo,112,martes,asignar_existente,76,Zona 112 (V11 - Martes),13,11,11,"IÑIGUEZ, Estiben",,
+6316,64504,21512,21512,CLAUDIA VERONICA SANCHEZ,codigo,62,martes,asignar_existente,46,Zona 62 (V6 - Martes),8,6,6,"ACEVEDO, Jorge",,
+6317,64505,22193,22193,SARIDAKIS 14 Kiosco-Libreria,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6318,64506,21448,21448,Andrea Paola alam,codigo,23,miercoles,asignar_existente,23,Zona 23 (V2 - Miércoles),5,2,2,"FERNANDEZ, Sergio",,
+6319,64507,21449,21449,MARIA CANDELARIA FREYTES,codigo,43,miercoles,asignar_existente,35,Zona 43 (V4 - Miércoles),7,4,4,"GONZALEZ, Fabrizio",,
+6320,64508,16831,16831,ARMACADA SAS,codigo,101,lunes,asignar_existente,69,Zona 101 (V10 - Lunes),12,10,10,"MORENO, Martin",,
+6321,64509,15489,15489,Francisco Troncoso,codigo,311,lunes,asignar_existente,123,Zona 311 (V31 - Lunes),22,31,31,"PERRICONE, Franca",,
+6322,64510,22184,22184,Kiosco MILKA,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6323,64511,22185,22185,Quality Kiosco y Librería,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6324,64512,22186,22186,Kiosco del hombre araña,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6325,64513,22187,22187,AUTOSERVICIO EL OMBU 1 y AUTOSERVICIO EL OMBU 2!!,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6326,64514,22188,22188,Maxi Kiosco Calabaza,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6327,64515,22189,22189,Kiosco TOC TOC -Diarios Y Revistas,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6328,64516,22190,22190,Maxikiosco TIO PELADO,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6329,64517,22191,22191,Avenida maxi kiosco,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,
+6330,64518,22192,22192,Las Vias maxikiosco,codigo,181,lunes,crear_zona_y_asignar,,,,,18,Vendedor 18,,

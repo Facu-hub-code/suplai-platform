@@ -1,0 +1,13 @@
+zona_erp,n_pts_gps,puede_crear,dia_visita,venid
+141,1,True,lunes,14
+143,2,True,miercoles,14
+144,1,True,jueves,14
+145,6,True,viernes,14
+146,7,True,sabado,14
+171,26,True,lunes,17
+172,13,True,martes,17
+173,8,True,miercoles,17
+174,9,True,jueves,17
+175,13,True,viernes,17
+176,9,True,sabado,17
+181,0,False,lunes,18

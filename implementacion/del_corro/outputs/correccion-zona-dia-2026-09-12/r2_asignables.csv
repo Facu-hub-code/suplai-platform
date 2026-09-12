@@ -1,0 +1,109 @@
+pdv_id,client_id,razon_social,match_via,codigo_excel,zona_erp,dia_visita,accion,venid
+92,31042,LUCAS DEL CORRO,nombre_unico,998,8881,lunes,crear_zona_y_asignar,888
+168,,Ignacio Perez,nombre_unico,13796,313,miercoles,asignar_existente,31
+175,31138,marisa del valle oliva,nombre_unico,14200,193,miercoles,asignar_existente,19
+650,31810,Diego González,nombre_unico,35270,151,lunes,asignar_existente,15
+891,32328,Cliente Codigo 1,codigo,999,8881,lunes,crear_zona_y_asignar,888
+892,32639,Reefer Contsiner SA,codigo,17637,99,lunes,crear_zona_y_asignar,99
+895,32642,Tienda SAS,codigo,17943,99,lunes,crear_zona_y_asignar,99
+902,32651,Tabarez Emma Del Valle,nombre_unico,16916,196,sabado,asignar_existente,19
+910,32661,VESINM S A I C Y F ,codigo,14690,99,lunes,crear_zona_y_asignar,99
+933,32687,Campi Oficina,codigo,211,99,lunes,crear_zona_y_asignar,99
+935,32689,Mailen Analia Barrios,codigo,182,99,lunes,crear_zona_y_asignar,99
+949,32708,Distribuidora Rene,codigo,14719,99,lunes,crear_zona_y_asignar,99
+972,32735,Gerardo Martini,codigo,186,99,lunes,crear_zona_y_asignar,99
+973,32736,Mario Fernandez,codigo,48,99,lunes,crear_zona_y_asignar,99
+1018,32787,BIASI EDGARDO ESTEBAN,codigo,96,98,lunes,crear_zona_y_asignar,30
+1041,32822,Diego Pucheta,codigo,94,98,lunes,crear_zona_y_asignar,30
+1052,32838,CONSTANTINO KARABITIAN Y MARIO TORIBIO KARABITIAN ,codigo,14174,99,lunes,crear_zona_y_asignar,99
+1088,32889,Molina María Florencia,codigo,17714,8882,martes,crear_zona_y_asignar,888
+1101,32903,Juan jose Bresso ,codigo,27500,40,lunes,crear_zona_y_asignar,40
+1102,32904,Henry Beltramo,codigo,21017,99,lunes,crear_zona_y_asignar,99
+1219,33026,Pablo Cobo Gordillo,codigo,14219,99,lunes,crear_zona_y_asignar,99
+1344,33151,Tini Deposito De Bebidas S.A.,codigo,22650,99,lunes,crear_zona_y_asignar,99
+1345,33152,Cecilia Lopez,nombre_unico,19692,132,martes,asignar_existente,13
+1766,34651,YOLANDA BALCAZAR BARRIOS,nombre_unico,22110,24,jueves,asignar_existente,2
+1808,34774,Feliz Dia Panadería heladería,nombre_unico,22031,103,miercoles,asignar_existente,10
+1834,34800,Distribuidora Danal,nombre_unico,22155,205,viernes,asignar_existente,20
+1853,34819,Minimercado Leo S.A.S,nombre_unico,15063,222,martes,asignar_existente,22
+1873,34839,Distribuidora Bicentenario,nombre_unico,15782,191,lunes,asignar_existente,19
+1883,34849,Supermercados Rufino,nombre_unico,22148,222,martes,asignar_existente,22
+1886,34852,Super Centro,nombre_unico,22149,214,jueves,asignar_existente,21
+1929,34895,Despensa noe,nombre_unico,22228,181,lunes,asignar_existente,18
+1933,34899,Maxi Kiosco La Esquina,nombre_unico,22108,24,jueves,asignar_existente,2
+1946,34912,Despensa Bull,nombre_unico,21328,135,viernes,asignar_existente,13
+1973,34939,Wau! Hay Un Super,nombre_unico,6153,216,sabado,asignar_existente,21
+1985,34951,Despensa La Gringa,nombre_unico,12515,13,miercoles,asignar_existente,1
+2020,34986,Despensa Papilo,nombre_unico,16370,74,jueves,asignar_existente,7
+2045,35011,Super Lucecita,nombre_unico,15101,224,jueves,asignar_existente,22
+2064,35030,Mercadito Dario,nombre_unico,21150,203,miercoles,asignar_existente,20
+2079,35045,Despensa Ramon,nombre_unico,19114,142,martes,crear_zona_y_asignar,14
+2080,35046,Su economía mercado,nombre_unico,21197,133,miercoles,asignar_existente,13
+2086,35052,Distribuidora Danal,nombre_unico,22155,205,viernes,asignar_existente,20
+2094,35060,Minimercado DeTodo Suc Plaza,nombre_unico,21217,142,martes,crear_zona_y_asignar,14
+2095,35061,minimercado 22 juan,nombre_unico,21235,142,martes,crear_zona_y_asignar,14
+2097,35063,Emir Centro de Compras,nombre_unico,21202,141,lunes,asignar_existente,14
+2099,35065,Autoservicio Sarmiento,nombre_unico,21230,132,martes,asignar_existente,13
+2103,35069,Despensa San Miguel,nombre_unico,21216,142,martes,crear_zona_y_asignar,14
+2106,35072,Kiosco cuatro vientos 24/siete,nombre_unico,21212,142,martes,crear_zona_y_asignar,14
+2108,35074,Pandora Multimarket,nombre_unico,25820,132,martes,asignar_existente,13
+2110,35076,Kiosco - Abasto Market,nombre_unico,21236,132,martes,asignar_existente,13
+2112,35078,Minimarket de Puerta,nombre_unico,21226,132,martes,asignar_existente,13
+2119,35085,Super Long Wang,nombre_unico,21225,132,martes,asignar_existente,13
+2120,35086,Minimercado Verduleria Robert%,nombre_unico,21208,132,martes,asignar_existente,13
+2141,35107,Kiosco Jesús,nombre_unico,15702,85,viernes,asignar_existente,8
+2144,35110,Despensa Leon,nombre_unico,21292,145,viernes,asignar_existente,14
+2155,35121,Mercado El 360°,nombre_unico,21250,144,jueves,asignar_existente,14
+2158,35124,Manjar VCP,nombre_unico,21193,131,lunes,asignar_existente,13
+2159,35125,Autoservicio del barrio,nombre_unico,21345,131,lunes,asignar_existente,13
+2160,35126,Distribuidora Gribaudo,nombre_unico,21192,131,lunes,asignar_existente,13
+2161,35127,Luis Tosi e hijos,nombre_unico,21196,141,lunes,asignar_existente,14
+2162,35128,"MAXI KIOSCO ""EL OASIS""",nombre_unico,21195,141,lunes,asignar_existente,14
+2165,35131,Almacén Del Sol,nombre_unico,21190,131,lunes,asignar_existente,13
+2167,35133,MULTIMARKET VILLA DEL LAGO,nombre_unico,21234,144,jueves,asignar_existente,14
+2169,35135,Kiosco de La Costa,nombre_unico,21200,141,lunes,asignar_existente,14
+2184,35150,"DESPENSA ""LA GRINGA""",nombre_unico,12515,13,miercoles,asignar_existente,1
+2198,35191,Autoservicio Michis II,nombre_unico,21198,131,lunes,asignar_existente,13
+2222,35215,Autoservicio Coca,nombre_unico,22177,224,jueves,asignar_existente,22
+2345,35338,SAJUR JULIO ALEJANDRO,codigo,14359,40,lunes,crear_zona_y_asignar,40
+2402,35395,Consorcio Rene,codigo,15647,98,lunes,crear_zona_y_asignar,30
+2443,35436, TAPIA EMANUEL,codigo,12517,40,lunes,crear_zona_y_asignar,40
+2484,35477,Mauricio Sánchez,codigo,17602,98,lunes,crear_zona_y_asignar,30
+2525,35518,Maria Cristina Bongiorno,codigo,179,8883,miercoles,crear_zona_y_asignar,888
+2777,35770,Liugua liliana,codigo,14913,1010,lunes,crear_zona_y_asignar,101
+2878,35871,Lucas rojas,codigo,18962,40,lunes,crear_zona_y_asignar,40
+2896,35889,Walter andreosi,codigo,19994,40,lunes,crear_zona_y_asignar,40
+2901,,TINI DEPOSITO DE BEBIDAS S.A.,codigo,22650,99,lunes,crear_zona_y_asignar,99
+2916,35909,Henry Beltramo,codigo,21017,99,lunes,crear_zona_y_asignar,99
+2917,35910,Juan jose Bresso ,codigo,27500,40,lunes,crear_zona_y_asignar,40
+3081,36074,Belen Salcedo,codigo,243,8884,jueves,crear_zona_y_asignar,888
+3745,36831,SILVESTRE DIEGO GERMAN,codigo,10399,40,lunes,crear_zona_y_asignar,40
+4031,38682,Gustavo altamirano,codigo,14519,40,lunes,crear_zona_y_asignar,40
+4110,39492,Marcelo Sandin,codigo,13818,40,lunes,crear_zona_y_asignar,40
+4151,39878,TIENDA SAS 15667,codigo,15667,40,lunes,crear_zona_y_asignar,40
+4202,40281,CARITAS ARQUIDIOCESANA DE CORDOBA,codigo,32952,40,lunes,crear_zona_y_asignar,40
+4291,40857,Maximiliano Jose Calderón ,codigo,16874,40,lunes,crear_zona_y_asignar,40
+4364,41122,Moreno Sofía,codigo,199,8881,lunes,crear_zona_y_asignar,888
+4380,41180,Alicia Beatriz lopez,codigo,180,8883,miercoles,crear_zona_y_asignar,888
+4381,41182,David Roberto Serafini,codigo,17496,40,lunes,crear_zona_y_asignar,40
+4409,41296,sofia vergara,codigo,218,8881,lunes,crear_zona_y_asignar,888
+4420,41331,Irene allende posse,codigo,17884,8881,lunes,crear_zona_y_asignar,888
+4448,41419,Ines Del Corro,codigo,228,8881,lunes,crear_zona_y_asignar,888
+4507,41627,ROGGIO - BBC - CONSORCIO DE COOPERACION,codigo,18093,40,lunes,crear_zona_y_asignar,40
+4528,41702,Mariana Miranda,codigo,265,8881,lunes,crear_zona_y_asignar,888
+4635,42185,Ezequiel Da Silva,codigo,19127,40,lunes,crear_zona_y_asignar,40
+4777,42826,MARTIN LOPEZ,codigo,21009,40,lunes,crear_zona_y_asignar,40
+4800,42942,GENG CHEN,codigo,21501,231,lunes,crear_zona_y_asignar,23
+5099,44013,SILVINA GABRIELA TADEO,codigo,66,1020,lunes,crear_zona_y_asignar,102
+5209,44471,micaela Diaz,codigo,156,8883,miercoles,crear_zona_y_asignar,888
+5242,44650,Florencia Brarda,codigo,172,8881,lunes,crear_zona_y_asignar,888
+5269,44766,Julieta fernandez,codigo,17685,8885,viernes,crear_zona_y_asignar,888
+5297,44885,SINDICATO PETROLERO DE CORDOBA,codigo,18150,40,lunes,crear_zona_y_asignar,40
+5388,45224,Lucas rojas,codigo,18962,40,lunes,crear_zona_y_asignar,40
+5778,46715,ASOCIACION CIVIL CON-TENEDOR,codigo,24836,40,lunes,crear_zona_y_asignar,40
+5813,62080,ANA MARIA LEON,codigo,20899,99,lunes,crear_zona_y_asignar,99
+5814,62081,Dricka Mayorista,codigo,21420,99,lunes,crear_zona_y_asignar,99
+5815,,Juan Jose Bresso,codigo,27500,40,lunes,crear_zona_y_asignar,40
+6106,64293,Jonathan Torres,nombre_unico,13835,13,miercoles,asignar_existente,1
+6346,,Claudia Bernoy,nombre_unico,21257,94,jueves,asignar_existente,9
+6359,,Santillán Mónica,nombre_unico,21835,176,sabado,asignar_existente,17

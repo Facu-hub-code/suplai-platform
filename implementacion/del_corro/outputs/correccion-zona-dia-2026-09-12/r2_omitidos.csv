@@ -1,0 +1,666 @@
+pdv_id,razon_social,motivo
+18,Marta Hernández ,sin_match_estricto
+19,Leria Griselda ,sin_match_estricto
+24,Zalazar Yaquelin,sin_match_estricto
+25,David Eduardo Gomez,sin_match_estricto
+37,Tejeda Mariana,sin_match_estricto
+88,FACUNDO LORENZO,interno_equipo
+89,CARLOS DOTTORI,interno_equipo
+90,FRANCA PERRICONE,interno_equipo
+91,JORGE BURKLE,interno_equipo
+93,MARIANO MILES,interno_equipo
+98,Giménez Graciela,sin_match_estricto
+155,Los Amigos SRL,sin_match_estricto
+156,Maximiliano Quiroga,sin_match_estricto
+159,silvia García,sin_match_estricto
+160,Ulises zarates,sin_match_estricto
+161,Daniela Emilse Sanchez,sin_match_estricto
+164,Lourdes Patiño,sin_match_estricto
+165,macarena bazan,sin_match_estricto
+166,Abigail López,sin_match_estricto
+167,claudia luna,sin_match_estricto
+169,Graciela osses,sin_match_estricto
+170,ema salce,sin_match_estricto
+171,azul roldan,sin_match_estricto
+173,Evelyn Prence,sin_match_estricto
+174,va Ferreyra,sin_match_estricto
+176,Fiorela Andrade,sin_match_estricto
+177,Jose eduardo Tassone,sin_match_estricto
+178,Eugenia Torres,sin_match_estricto
+180,romina Jimenez,sin_match_estricto
+181,Florencia Marín,sin_match_estricto
+182,Ebe Moreno,sin_match_estricto
+183,jonathan baracat,sin_match_estricto
+184,brenda avila,sin_match_estricto
+186,paloma cabanillas,sin_match_estricto
+187,maricel Elizabeth gonzalez,sin_match_estricto
+188,María Laura Lopez,sin_match_estricto
+189,macarena dardik,sin_match_estricto
+190,evelyn sagen,sin_match_estricto
+191,jonathan del valle,sin_match_estricto
+193,Victor Abriatta,sin_match_estricto
+194,Marcos Auchterlonie,sin_match_estricto
+251,Amparo caceres,sin_match_estricto
+252,Facundo Catriel Lopez,sin_match_estricto
+284,Feraud soledad,sin_match_estricto
+335,Nicolás Franzi,sin_match_estricto
+338,Gonzalo blaquez,sin_match_estricto
+347,Gladis Morales,sin_match_estricto
+374,Ferrara julieta,sin_match_estricto
+396,Ponte Yaniana,sin_match_estricto
+437,Mauricio mancilla,sin_match_estricto
+450,Marcela Díaz,sin_match_estricto
+463,Lucas Ricardo oio ,sin_match_estricto
+494,Zarate Stella,sin_match_estricto
+495,Oriza María Eugenia,sin_match_estricto
+500,Karina cuello,sin_match_estricto
+518,Cristian Lizondo,sin_match_estricto
+529,Kiosco La Esquina,sin_match_estricto
+550,OLARU S.A.S,sin_match_estricto
+558,Daniela Pereyra,sin_match_estricto
+568,LA VAQUITA,sin_match_estricto
+580,Palomeque Soledad,sin_match_estricto
+583,Erica Montiel,sin_match_estricto
+586,KIOSCO LOLA,sin_match_estricto
+592,Luna Ramona Viviana,sin_match_estricto
+611,Caceres Monica,sin_match_estricto
+631,Lis Barbosa,sin_match_estricto
+649,Ariel farias,sin_match_estricto
+673,Leandro gearratan,sin_match_estricto
+684,Leandro Maturano,sin_match_estricto
+697,Delia Sanchez,sin_match_estricto
+699,Mercedes Almada,sin_match_estricto
+701,Mabel Salinas,sin_match_estricto
+708,Genesio Gerardo,sin_match_estricto
+709,Ivan Manassero,sin_match_estricto
+712,Mara Aedo,sin_match_estricto
+714,Maria Soledad Veliz,sin_match_estricto
+719,Agustina Acosta ,sin_match_estricto
+826,Fabricio López ,sin_match_estricto
+841,Rodríguez Rosana,sin_match_estricto
+846,Osvaldo hugo,sin_match_estricto
+887,Agustin,sin_match_estricto
+888,Cliente Nuevo SA,sin_match_estricto
+889,Cliente DUP,sin_match_estricto
+890,Cliente OK Pisado,sin_match_estricto
+893,Daniela Liria,sin_match_estricto
+897,Marianelli Cintia,sin_match_estricto
+900,LUIS F JUNCOS,sin_match_estricto
+904,Barrionuevo Emilse,sin_match_estricto
+906,Lin Aifeng,sin_match_estricto
+907,Ariel (CÃ³rdoba Drinks),sin_match_estricto
+908,Arias Norma,sin_match_estricto
+909,AcuÃ±a Ofelia Lucrecia,sin_match_estricto
+911,Ruiz Ana Paula,sin_match_estricto
+914,Flores Rosa,sin_match_estricto
+918,Montoya Sonya,sin_match_estricto
+921,Toldos Violetas S. A.,sin_match_estricto
+922,Romero Claudio Gabriel,sin_match_estricto
+924,Frampi S.A,sin_match_estricto
+927,Martin Alejandra Monica,sin_match_estricto
+931,Guzman Maria,sin_match_estricto
+932,Tolosa Hector Marcelo,sin_match_estricto
+937,Joray Pablo Hector,sin_match_estricto
+939,Porcel Flavia,sin_match_estricto
+946,Pedraza Agustin,sin_match_estricto
+950,Benavidez Raul Andres,sin_match_estricto
+951,Ayres Yamila Estefania,sin_match_estricto
+954,Silvia Giudice,sin_match_estricto
+961,Castro Marcos Elias,sin_match_estricto
+963,Rodriguez Iris,sin_match_estricto
+969,Lujan Monica Alejandra,sin_match_estricto
+970,Fernandez Ariel Oscar,sin_match_estricto
+971,Ramon Domingo Decima,sin_match_estricto
+974,Dana Valdivia,sin_match_estricto
+979,Ontivero Nancy,sin_match_estricto
+984,Martinez Romina ,sin_match_estricto
+989,Salerno Lucas Maximiliano,sin_match_estricto
+994,Avalo Valeria,sin_match_estricto
+995,Escuela Sub Oficiales De La Policia,sin_match_estricto
+996,Carniceria Alem,sin_match_estricto
+998,Alejandra GuzmÃ¡n ,sin_match_estricto
+1007,Benega Laura,sin_match_estricto
+1008,Peralta Yanina,sin_match_estricto
+1010,Cintia Lorena Flores,sin_match_estricto
+1012,Yened Sebastian,sin_match_estricto
+1013,Lopez Maria Laura (Gustavo),sin_match_estricto
+1014,Sosa Eldo,sin_match_estricto
+1022,Lucas Ferreyra,sin_match_estricto
+1024,Deplacido Romina,sin_match_estricto
+1031,Gimena Cordero,sin_match_estricto
+1039,Mara Correa,sin_match_estricto
+1042,Romano Analia,sin_match_estricto
+1045,Castro Noelia ,sin_match_estricto
+1049,Carmen Brangi,sin_match_estricto
+1050,Despensa 24/7,sin_match_estricto
+1053,Ferreyra Juan Cruz,sin_match_estricto
+1054,Herrera Beatiz,sin_match_estricto
+1056,Daes,sin_match_estricto
+1057,Escuela 9 De Julio,sin_match_estricto
+1060,Carem Rivadero,sin_match_estricto
+1062,Castro Victoria ,sin_match_estricto
+1068,Santillan Luis Omar,sin_match_estricto
+1072,Analia Eloisa,sin_match_estricto
+1077,Vivas Florencia Nadina,sin_match_estricto
+1078,IbaÃ±es Vergara,sin_match_estricto
+1080,Bustos Lorena ,sin_match_estricto
+1082,Cabrera Pablo,sin_match_estricto
+1083,Nimo Paola Carolina,sin_match_estricto
+1084,Bertolo Hugo Alberto,sin_match_estricto
+1086,Sembini Julio Carlos,sin_match_estricto
+1087,Pietropaolo Noeli Soledad,sin_match_estricto
+1092,Sole Monica Marua,sin_match_estricto
+1096,Nahuel Barreto,sin_match_estricto
+1098,Verduleria 4 Hermanos,sin_match_estricto
+1099,Valeria Gonzalez,sin_match_estricto
+1100,Astrada Juan Pablo,sin_match_estricto
+1107,Eduardo alberto sabbadin,sin_match_estricto
+1120,Marcela Patricia Luque,sin_match_estricto
+1134,Franco Moreno,sin_match_estricto
+1164,Jennifer haustein,sin_match_estricto
+1187,BRUNETO ALEJANDRA,sin_match_estricto
+1215,Rocio Moya Suc 2,sin_match_estricto
+1250,Olmos Silvia ,sin_match_estricto
+1264,Josefina Cabrera,sin_match_estricto
+1292,Candela Butone,sin_match_estricto
+1303,MORENO ELIZABETH DEL VALLE,sin_match_estricto
+1317,SUPERNANI S.A.S.,sin_match_estricto
+1319,Amaya Lorena paola,sin_match_estricto
+1320,Gómez Analia,sin_match_estricto
+1341,Ramiro moyano,sin_match_estricto
+1346,Santini Viviana,sin_match_estricto
+1347,Jonatan,sin_match_estricto
+1348,Maximiliano Abaca,sin_match_estricto
+1349,Sofia Lezcano,sin_match_estricto
+1350,Sucesion De Elias Jose Antonio Suc 3,sin_match_estricto
+1351,Sucesion De Elias Jose Antonio Suc 2,sin_match_estricto
+1366,Velazquez Mariela,sin_match_estricto
+1404,Almiron Nelida,sin_match_estricto
+1408,Ríos María Alejandra ,sin_match_estricto
+1419,asda,sin_match_estricto
+1456,Adriana bertino,sin_match_estricto
+1476,Mariana Pedraza ,sin_match_estricto
+1632,Volpe Norma,sin_match_estricto
+1652,Yamila Judhit Albarracín ,sin_match_estricto
+1715,Feliciano Camila,sin_match_estricto
+1768,El mercado 88,sin_match_estricto
+1769,La Plaza Supermercado,sin_match_estricto
+1770,"Supermercado ""Liceo""",sin_match_estricto
+1772,Cereza Market,sin_match_estricto
+1773,Distribuidora Mil Mar,sin_match_estricto
+1774,Tio Ricco - Despensa - Maxikiosco - Rapipago - PickIt,sin_match_estricto
+1776,Despensa EL PATO,sin_match_estricto
+1777,Despensa Noe y Nati,sin_match_estricto
+1778,Al Campo,sin_match_estricto
+1779,Maxikiosco Genaro,sin_match_estricto
+1780,Mi sol,sin_match_estricto
+1781,Il Mercato,sin_match_estricto
+1782,Polirubros Edem I,sin_match_estricto
+1783,Autoservicio Gino,sin_match_estricto
+1784,Vanguardia Super de Barrio,sin_match_estricto
+1785,Supermarket Triumph,sin_match_estricto
+1786,Supermercado ABC,sin_match_estricto
+1787,Gianelli Distribuidora Mayorista,sin_match_estricto
+1788,Hiperleo,sin_match_estricto
+1789,Ruca Raunel Forrajería,sin_match_estricto
+1790,Kiosco Granada,sin_match_estricto
+1791,Supermercado AA,sin_match_estricto
+1792,Supermercado Marciano,sin_match_estricto
+1793,Fyp - Abastecimiento Gastronómico,sin_match_estricto
+1794,"DESPENSA ""THIAGUITO""",sin_match_estricto
+1795,Roticería Uriel,sin_match_estricto
+1796,Super Maxi -Cobro Express,sin_match_estricto
+1797,Finca las margaritas s.r.l,sin_match_estricto
+1798,Huevos Por Mayor Y Menor,sin_match_estricto
+1799,Distribuidora Magnano,sin_match_estricto
+1800,"Mini kiosco ""EMUNAH""",sin_match_estricto
+1801,Distri Malvi,sin_match_estricto
+1802,Quality Shop,sin_match_estricto
+1803,Distribuidora San Antonio,sin_match_estricto
+1804,Espacio Verde,sin_match_estricto
+1805,La Cuesta - Market - Supermarket,sin_match_estricto
+1806,Negocio de Maria (Ideas Locas),sin_match_estricto
+1807,Sol MiniMarket,sin_match_estricto
+1809,El Norte Supermercado,sin_match_estricto
+1810,Almacen Del Hippie,sin_match_estricto
+1811,Moda en Libertad,sin_match_estricto
+1812,LA HUEVERIA,sin_match_estricto
+1813,Abastecimiento LOURDES,sin_match_estricto
+1814,Distribuidora El mayorista,sin_match_estricto
+1815,Autoservicio El Trebol,sin_match_estricto
+1816,Cotillón el portón,sin_match_estricto
+1817,Despensa Mateo,sin_match_estricto
+1818,Romaneto,sin_match_estricto
+1819,DANK'E MARQUET,sin_match_estricto
+1820,Supermercado Verde Limon,sin_match_estricto
+1821,Fresh Market,sin_match_estricto
+1822,Super V&F,sin_match_estricto
+1823,Super VyF,sin_match_estricto
+1824,Almacén Faby,sin_match_estricto
+1825,EntreSano Av. Estrada,sin_match_estricto
+1826,Minimercado Sandi,sin_match_estricto
+1827,La Plaza Despensa,sin_match_estricto
+1828,La Herencia By Norma,sin_match_estricto
+1829,Mini Mercado,sin_match_estricto
+1830,Autoservicio La Vaquita,sin_match_estricto
+1831,Alto Tejeda,sin_match_estricto
+1832,Otus Market,sin_match_estricto
+1833,Maxi Kiosco El Encuentro,sin_match_estricto
+1835,La casa de la milanesa,sin_match_estricto
+1836,Maxi Kiosco Nahuel,sin_match_estricto
+1837,Jamón del medio verdulería,sin_match_estricto
+1838,Minimercado y Carnicería Pac Man,sin_match_estricto
+1839,Autoservicio Lanuevacridol,sin_match_estricto
+1840,La 14,sin_match_estricto
+1842,la casa del coco,sin_match_estricto
+1843,San Marino Market,sin_match_estricto
+1844,Super Top - La Carlota,sin_match_estricto
+1845,Laprida Market,sin_match_estricto
+1846,D.Y.F. S.A.S.,sin_match_estricto
+1848,Super Amor,sin_match_estricto
+1850,Mercado Procedencia,sin_match_estricto
+1851,Distribuidora Verona,sin_match_estricto
+1852,FRUTERIA Y VERDULERIA COQUITO E HIJOS,sin_match_estricto
+1854,Supermercado Muy Cerca,sin_match_estricto
+1855,Superverona,sin_match_estricto
+1856,Despensa la morena,sin_match_estricto
+1857,La Botica,sin_match_estricto
+1858,Ciudadela - Carnes - Rutas Y Verduras,sin_match_estricto
+1859,cocodrilo super,sin_match_estricto
+1860,Supermercado A&C,sin_match_estricto
+1861,Santa Ana Mayorista-Golosinas,sin_match_estricto
+1862,Distribuidora Salvador,sin_match_estricto
+1863,MARIACHI – Tacos & Lomos [Local con Delivery y Restorán: Barrio Las Flores],sin_match_estricto
+1864,Mercadito Javier,sin_match_estricto
+1865,Despensa Santi,sin_match_estricto
+1866,Distribuidora 968,sin_match_estricto
+1867,La finca,sin_match_estricto
+1868,Super Homero,sin_match_estricto
+1869,La Yerbatería,sin_match_estricto
+1870,Wau! Hay un super 27 de abril 1179,sin_match_estricto
+1871,Supermercado Bin,sin_match_estricto
+1872,Distribuidora Jerónimo - Mayorista y minorista,sin_match_estricto
+1874,EL ALMACEN DEL COCO,sin_match_estricto
+1875,QUETEC CORDOBA,sin_match_estricto
+1876,Mundo Natural,sin_match_estricto
+1877,Kiosco Despensa Ginebra,sin_match_estricto
+1879,M&G Maxikiosco,sin_match_estricto
+1880,Dulce tentación,sin_match_estricto
+1881,Supemercado Central Cordoba,sin_match_estricto
+1882,Cherry Market,sin_match_estricto
+1884,Max&Drinks,sin_match_estricto
+1885,Supermercado Gol,sin_match_estricto
+1887,Maverick mini market,sin_match_estricto
+1888,KIOSCO Los dos hermanos,sin_match_estricto
+1889,Autoservicio Lelia's,sin_match_estricto
+1890,Espacio Saludable,sin_match_estricto
+1891,PERINAWA Almacén y Dietética,sin_match_estricto
+1892,Mercado Urbano,sin_match_estricto
+1893,24/7 Minimarket,sin_match_estricto
+1894,Maxi kiosko y cafeteria al paso,sin_match_estricto
+1895,Gran Timoteo Fábrica De Sándwich,sin_match_estricto
+1896,Open 365,sin_match_estricto
+1897,Palta,sin_match_estricto
+1898,El Jvii,sin_match_estricto
+1899,Tienda Don Carlo SH,sin_match_estricto
+1900,Express,sin_match_estricto
+1901,Distribuidora Virgolini,sin_match_estricto
+1902,PACHI KIOSKO 24 hs,sin_match_estricto
+1903,Supermercado Santa Ana,sin_match_estricto
+1904,Montepaone Gran Almacen,sin_match_estricto
+1905,Lo de Ledesma,sin_match_estricto
+1906,EL CASERITO HAMBURGUESAS Y MILANESAS CASERAS,sin_match_estricto
+1907,Supermercado La Paz,sin_match_estricto
+1908,Super Ancona,sin_match_estricto
+1909,Distribuidora Fenix,sin_match_estricto
+1910,Supermercado San Antonio,sin_match_estricto
+1911,Pastroni,sin_match_estricto
+1912,Vanguardia Super de Barrio,sin_match_estricto
+1913,Distribuidora Niko'S,sin_match_estricto
+1914,MERCADITO LOS CELESTES,sin_match_estricto
+1916,Minimercado Moni,sin_match_estricto
+1917,kiosco Pamimas,sin_match_estricto
+1918,Distribuidora Puerto Caroya,sin_match_estricto
+1919,La Fuerza,sin_match_estricto
+1920,Super V&F,sin_match_estricto
+1921,Cipriano Victor Supermarket Wholesaler,sin_match_estricto
+1923,La Nueva,sin_match_estricto
+1924,Super Chino,sin_match_estricto
+1925,Verduleria Arias,sin_match_estricto
+1926,Supermercado Estrella,sin_match_estricto
+1927,Minimercado SPARK,sin_match_estricto
+1928,Minimercado Coco,sin_match_estricto
+1930,Kiosco Ma jo,sin_match_estricto
+1931,Super Delicatessen Armada,sin_match_estricto
+1932,Supermercado Marciano. Chino.,sin_match_estricto
+1934,Basualdo Mayorista,sin_match_estricto
+1935,Pollería Zuizer,sin_match_estricto
+1936,FABRICA DE CEREALES INFLADOS KALIMERA,sin_match_estricto
+1937,Maxikiosco Ema,sin_match_estricto
+1938,Supermercado Los Hermanos,sin_match_estricto
+1939,María Max Supermercado,sin_match_estricto
+1940,Verdulería Almacén,sin_match_estricto
+1941,Don Ardiles,sin_match_estricto
+1942,Supermercado Ema,sin_match_estricto
+1943,Maxi- Cor,sin_match_estricto
+1944,Don Luis,sin_match_estricto
+1945,San Cayetano,sin_match_estricto
+1947,Despensa Loly,sin_match_estricto
+1948,Verdulería Lili,sin_match_estricto
+1949,Capdevila Store,sin_match_estricto
+1950,Comidas Para Llevar Chela,sin_match_estricto
+1951,Distribuidora E.V.C.,sin_match_estricto
+1952,LA RURAL LOMITOS,sin_match_estricto
+1953,I Fratelli,sin_match_estricto
+1954,Carpas Casal,sin_match_estricto
+1955,Supermercado LA FAMILIA,sin_match_estricto
+1956,Supermercado 𝒞𝑜𝒻𝒾𝒸𝑜,sin_match_estricto
+1957,Super Kiosco Nico,sin_match_estricto
+1958,Super Farias,sin_match_estricto
+1960,Supermercado de la Plaza,sin_match_estricto
+1961,Aleo,sin_match_estricto
+1963,Fantástico,sin_match_estricto
+1964,Los Primos,sin_match_estricto
+1965,Super eco,sin_match_estricto
+1966,Productos Sin Gluten CA,sin_match_estricto
+1967,Julio M A Ugaz,sin_match_estricto
+1968,Supermercados La Máxima,sin_match_estricto
+1969,Supermercado Puma,sin_match_estricto
+1970,Super Flores,sin_match_estricto
+1971,Extra Supermercados,sin_match_estricto
+1972,Cordoba Nativa,sin_match_estricto
+1974,Despensa Los Pibes,sin_match_estricto
+1975,Moda en Libertad,sin_match_estricto
+1976,Nueva Era Mayorista,sin_match_estricto
+1977,Distribuidora Gloria,sin_match_estricto
+1978,EL ECONÓMICO,sin_match_estricto
+1979,El Progreso,sin_match_estricto
+1980,Supermercado Buen Corazón,sin_match_estricto
+1981,Mercamax Abastecimiento,sin_match_estricto
+1982,Verdulería-Polleria-Autoservicio Que Muslo,sin_match_estricto
+1983,Mi Despensa M&K,sin_match_estricto
+1984,Super Suerte,sin_match_estricto
+1986,Jerónimo Mayorista Minorista,sin_match_estricto
+1987,Supermercado Serrano,sin_match_estricto
+1988,Distri Blas,sin_match_estricto
+1989,VERDULERIA VERDE LIMA,sin_match_estricto
+1991,SUPER ZOOM,sin_match_estricto
+1993,Supermercado Ema,sin_match_estricto
+1994,El Super Tigre,sin_match_estricto
+1995,Distribuidora Velez Sarsfield,sin_match_estricto
+1996,Godo Supermercado,sin_match_estricto
+1997,Despensa Ocean,sin_match_estricto
+1998,"Los Ángeles ~ Frutas, Verduras y más... ~",sin_match_estricto
+1999,Eurolinea Insumos Para Panificación,sin_match_estricto
+2000,Distribuidora Elena,sin_match_estricto
+2001,Moda en Libertad,sin_match_estricto
+2002,Roncato Todo en Comestibles,sin_match_estricto
+2003,Norma Salinas,sin_match_estricto
+2004,Audiovision Productora de Tv,sin_match_estricto
+2006,La Esquina Del Mejor Precio,sin_match_estricto
+2007,Super Los Chinos,sin_match_estricto
+2008,Supermercado Provecho Real,sin_match_estricto
+2009,Romaneto,sin_match_estricto
+2010,El Almacén del Ángel,sin_match_estricto
+2011,Mini Mercado Gulemar,sin_match_estricto
+2012,The Bordalesas Supermarkets,sin_match_estricto
+2013,Long Hua,sin_match_estricto
+2014,Happy Market,sin_match_estricto
+2015,Super Mio,sin_match_estricto
+2016,Cereza Minimarket,sin_match_estricto
+2017,Distribuidora Agua del Sur,sin_match_estricto
+2018,Maxi Kiosco,sin_match_estricto
+2022,Lider,sin_match_estricto
+2023,ELMERCADITO de alberdi,sin_match_estricto
+2024,Fer Kiosco,sin_match_estricto
+2025,"Kiosco Despensa ""Los Nietos""",sin_match_estricto
+2026,La Proveeduria Cordoba,sin_match_estricto
+2027,Sano Sabor,sin_match_estricto
+2028,A.P.A.A.C. Asociación Pro Ayuda al Celíaco en Córdoba,sin_match_estricto
+2029,DE LA GRINGA ROTISERIA,sin_match_estricto
+2030,Lo de Sergio Comestibles,sin_match_estricto
+2031,Lafiam,sin_match_estricto
+2032,Yahve Jireh,sin_match_estricto
+2033,"Distribuidora ""La Tentación""",sin_match_estricto
+2034,Supermercado Maestro Vidal,sin_match_estricto
+2035,Despensa Azul,sin_match_estricto
+2036,Santa Clara Supermercado,sin_match_estricto
+2037,Mercadito del Cerro,sin_match_estricto
+2038,Minimercado,sin_match_estricto
+2039,Abastecimiento Alejandro el Grande,sin_match_estricto
+2040,Mercadito Online,sin_match_estricto
+2041,"""CuatrO ElementoS "" Almacén Gourmet Natural",sin_match_estricto
+2042,Kiosco almacen Adelita,sin_match_estricto
+2043,Supermercados,sin_match_estricto
+2044,super ji ni tai mei,sin_match_estricto
+2046,Dietetica La Pacha,sin_match_estricto
+2047,Evolución,sin_match_estricto
+2048,Pastas Granaderos,sin_match_estricto
+2049,Adrián,sin_match_estricto
+2050,Matute Choripan Y Hamburguesas.,sin_match_estricto
+2052,REFRESCA YA BEBIDAS - POR MAYOR O MENOR,sin_match_estricto
+2054,Mucho Más,sin_match_estricto
+2055,Polirubros San Cipriano,sin_match_estricto
+2056,MAXISHOP,sin_match_estricto
+2057,La casa de Lourdes,sin_match_estricto
+2059,Minimercado Lunita,sin_match_estricto
+2060,Polleria dean funes,sin_match_estricto
+2061,Wang Shuhua,sin_match_estricto
+2062,DESPENSA NANTES,sin_match_estricto
+2063,mercadito el tatita,sin_match_estricto
+2065,Macadamia Almacen Natural - Dietetica,sin_match_estricto
+2066,Mundo Ruedas cordoba sas,sin_match_estricto
+2067,Pescaderia Mercado de sabores,sin_match_estricto
+2069,Autoservicio MELI (Ex Joaquín),sin_match_estricto
+2070,Despensa Kiosco Fernando,sin_match_estricto
+2071,HH mayorista minorista,sin_match_estricto
+2072,La Curva Distribuidor Mayorista y Minorista,sin_match_estricto
+2073,Mamut,sin_match_estricto
+2075,Despensa El Pirata,sin_match_estricto
+2076,Súper loa,sin_match_estricto
+2077,Maxi Kiosco JL,sin_match_estricto
+2078,Distribuidora Tarquino,sin_match_estricto
+2081,Despensa La Esquina,sin_match_estricto
+2083,Kiosco Quiniela Juncal Y Cuba,sin_match_estricto
+2084,Proveduria De Alimentos FLIA TOMATIS,sin_match_estricto
+2085,Carda&Momo Almacén Saludable,sin_match_estricto
+2087,DISTRIBUIDORA TOTAL,sin_match_estricto
+2088,QHATU,sin_match_estricto
+2089,Distribuidora ARGENTINA,sin_match_estricto
+2090,Kiosco Maby,sin_match_estricto
+2091,Nuevo Mercadito Moreno,sin_match_estricto
+2093,Verduleria Minimercado Robert100%,sin_match_estricto
+2096,La Nueva Mantequita,sin_match_estricto
+2098,Kiosco tutti-frutti,sin_match_estricto
+2100,El tanito supermarket,sin_match_estricto
+2101,El Faro,sin_match_estricto
+2102,Kiosco Jimmy,sin_match_estricto
+2104,Magia Budines,sin_match_estricto
+2107,Despensa Camila,sin_match_estricto
+2109,Trini villa Carlos Paz,sin_match_estricto
+2113,Le Wet delicatessen,sin_match_estricto
+2115,Almacén De Sueltos,sin_match_estricto
+2116,Fabrica de Sandwiches Roma,sin_match_estricto
+2117,Byc De Las Sierras,sin_match_estricto
+2121,El Mundo Del Pollo,sin_match_estricto
+2122,Axion Shop,sin_match_estricto
+2123,Distribuidora Alma de Sabores,sin_match_estricto
+2124,Milalista vcp,sin_match_estricto
+2125,SÉSAMO,sin_match_estricto
+2127,Kiosco Leo,sin_match_estricto
+2128,Alfa & Omega Patas flambeadas,sin_match_estricto
+2129,El Kiosko de ALE,sin_match_estricto
+2130,Ale y Mony pollos (a la parrilla),sin_match_estricto
+2131,"""Despensa Agustina""",sin_match_estricto
+2132,La Rustika,sin_match_estricto
+2133,JS MiniMarket,sin_match_estricto
+2134,Parma sándwiches/ Sucursal Donato Alvarez 7914,sin_match_estricto
+2135,Distribuidora La Felicidad,sin_match_estricto
+2136,El Rastro de Mendiolaza,sin_match_estricto
+2137,Panadería Francesca,sin_match_estricto
+2138,Maxikiosco- Fiambrería Gr,sin_match_estricto
+2140,LAS MAS RICAS,sin_match_estricto
+2143,Despensa Felipe 1ro,sin_match_estricto
+2145,Kiosco Alma's,sin_match_estricto
+2146,Mercedito Del Velle,sin_match_estricto
+2147,"FORRAJERIA ""LOS ABUELOS""",sin_match_estricto
+2148,Distribuidora Mil Mar,sin_match_estricto
+2149,Gonzalo Barber,sin_match_estricto
+2150,La Beta,sin_match_estricto
+2151,Despensa Exodo,sin_match_estricto
+2152,Super Efa,sin_match_estricto
+2153,Kiosco Mis Pichones.,sin_match_estricto
+2154,Fabiana,sin_match_estricto
+2163,MULTIMARKET,sin_match_estricto
+2164,Raiz Tienda Saludable,sin_match_estricto
+2166,Quiosco B7 Bebidas Empanadas Sandwiches,sin_match_estricto
+2168,Kiosco Rosedal.2🌹🌹,sin_match_estricto
+2170,Seculini Amadeo S,sin_match_estricto
+2171,Distribuidora Mariano Fernandez Quilmes,sin_match_estricto
+2172,BERNARDO CANTINA DE PUEBLO,sin_match_estricto
+2173,Distribuidora Felisa,sin_match_estricto
+2174,Almacen Aurora boreal,sin_match_estricto
+2175,Bernarda Gluten Free Store,sin_match_estricto
+2176,LA LOMADA despensa,sin_match_estricto
+2177,"Fábrica De Pastas ""Don Carlos""",sin_match_estricto
+2178,Sandwiches Miga Freepan !,sin_match_estricto
+2179,Minimercado La Esquina,sin_match_estricto
+2180,CABRITERA ROJAS.,sin_match_estricto
+2181,Tomate tu Tiempo,sin_match_estricto
+2182,Kiosco Lolita,sin_match_estricto
+2185,Centro de Compras Los Sauces,sin_match_estricto
+2186,Super-Minimercado,sin_match_estricto
+2187,Maxikiosko,sin_match_estricto
+2188,Minimercado carlos paz sierras,sin_match_estricto
+2189,Despensa la kavala,sin_match_estricto
+2191,Distribuidora blunno,sin_match_estricto
+2192,Autoservicio Mily,sin_match_estricto
+2193,Autoservicio Irigoyen,sin_match_estricto
+2196,"Autoservicio ""El Trebol""",sin_match_estricto
+2197,Autoservicio El Gringo,sin_match_estricto
+2199,El paraiso autoservicio,sin_match_estricto
+2200,Autoservicio Maria De Lujan,sin_match_estricto
+2202,Autoservicio Ebenezer,sin_match_estricto
+2203,Autoservicio Pleno,sin_match_estricto
+2204,Autoservicio Maxi - Cobro Express,sin_match_estricto
+2205,Autoservicio Eric,sin_match_estricto
+2206,Mucho Más autoservicio,sin_match_estricto
+2207,Autoservicio Donato Mayorista-Minorista,sin_match_estricto
+2208,Autoservicio nc,sin_match_estricto
+2209,Autoservicio 70/30,sin_match_estricto
+2211,Autoservicio Ojalá,sin_match_estricto
+2212,Autoservicio RC Sucursal Independencia,sin_match_estricto
+2213,"Autoservicio ""Yaco""",sin_match_estricto
+2214,Stop Almacén Autoservicio,sin_match_estricto
+2215,Autoservicio Pugliese,sin_match_estricto
+2216,Autoservicio El 22,sin_match_estricto
+2217,Autoservicio llamarada,sin_match_estricto
+2218,Autoservicio,sin_match_estricto
+2219,Autoservicio Sinuhe,sin_match_estricto
+2220,Baco Autoservicio,sin_match_estricto
+2221,Autoservicio Vale y Cande,sin_match_estricto
+2223,Autoservicio García,sin_match_estricto
+2280,Raúl Oyola,sin_match_estricto
+2282,Carolina Martinez ,sin_match_estricto
+2625,Fernando Bravo,maestro_sin_zona
+2687,El Capi,sin_match_estricto
+2704,BER-SUR S.A.S.,sin_match_estricto
+2715,Romina Miodowsky,maestro_sin_zona
+2894,Ivan MOLCA,maestro_sin_zona
+2907,catalina del barco,maestro_sin_zona
+2908,dario ongaro,maestro_sin_zona
+3544,Caliva Maria Rosa,sin_match_estricto
+3545,Aylen oio,sin_match_estricto
+3547,Norma Altamirano ,sin_match_estricto
+3664,TOLDOS VIOLETAS S. A.,sin_match_estricto
+3681,Los Pirinchitos,sin_match_estricto
+3687,Estación Icho Cruz,sin_match_estricto
+3698,ivan loyola,maestro_sin_zona
+3761,Noemí Puccini,sin_match_estricto
+5798,Delicias de luna,sin_match_estricto
+5799,MEDUNA DI LIVENZA,sin_match_estricto
+5800,Distribuidora Heriberto,sin_match_estricto
+5802,kiosco meli,sin_match_estricto
+5803,Santa bárbara SA,sin_match_estricto
+5804,Lago Leandro Manuel,sin_match_estricto
+5805,Orlando Palacios,sin_match_estricto
+5807,Sandra,sin_match_estricto
+5808,Barrionuevo Fabian Alejandro,sin_match_estricto
+5809,comerciante,sin_match_estricto
+5810,Diego Prosdocimo,sin_match_estricto
+5811,Cerveza Golf Sof,sin_match_estricto
+5812,Kiosco,sin_match_estricto
+5823,norma salavagione,maestro_sin_zona
+5832,Juan Carlos Piña,maestro_sin_zona
+5834,TIZIANA BARRIONUEVO,maestro_sin_zona
+5835,Leonardo Dupraz,maestro_sin_zona
+5837,Gianina Baez,maestro_sin_zona
+5838,Mariana Ligorria,maestro_sin_zona
+5839,agustin tapia,maestro_sin_zona
+5842,Lucila mamani,maestro_sin_zona
+5863,CLAUDIO POZO ,maestro_sin_zona
+5880,Facundo Mamondi,maestro_sin_zona
+5886,TERESA GIMENEZ,sin_match_estricto
+5891,BURBANK S.A.S.,sin_match_estricto
+5892,enzo quinteros,maestro_sin_zona
+5943,CONSUMDOR FINAL,sin_match_estricto
+5958,POLLERIA Y DESPENSA,sin_match_estricto
+5985,Devora Instituto,maestro_sin_zona
+5986,FERNANDA VALERIA VARGAS,maestro_sin_zona
+5987,Javier torres,maestro_sin_zona
+6007,Gabriel Hassan,maestro_sin_zona
+6061,Angel Llavot,maestro_sin_zona
+6074,BRUNO GERENCIA,maestro_sin_zona
+6077,FERNANDEZ MAXIMO,sin_match_estricto
+6086,Kevin Lauber,maestro_sin_zona
+6087,Daiana Pravil,maestro_sin_zona
+6090,Tienda de alimentos,sin_match_estricto
+6091,Almacen las 24horas,sin_match_estricto
+6092,Luis Falcone,maestro_sin_zona
+6093,Agnelli Pablo Damián,sin_match_estricto
+6094,Planeta Pollo,sin_match_estricto
+6095,Almacén,sin_match_estricto
+6096,Toto,sin_match_estricto
+6097,COTAGRO (Cooperativa Agropecuaria Limitada),sin_match_estricto
+6098,Rista Enrique,sin_match_estricto
+6099,K 10,sin_match_estricto
+6100,Prospecto - 5.1 - Despensa Quique,sin_match_estricto
+6101,"Prospecto - 5.1 - Fiambrería ""Miguel""",sin_match_estricto
+6102,Prospecto - 5.1 - Kiosco Jorge 24 Hs,sin_match_estricto
+6103,Egdistribuciones,sin_match_estricto
+6107,Bien del Sur S.A.,sin_match_estricto
+6108,alexis martinez,sin_match_estricto
+6109,Flavia Andrada,sin_match_estricto
+6245,Leandro Rodríguez ,sin_match_estricto
+6331,Florencia Diaz,sin_match_estricto
+6332,Miguel,sin_match_estricto
+6333,Mariano Ferreyra,sin_match_estricto
+6334,Becker isaias,sin_match_estricto
+6335,Sánchez Susana,sin_match_estricto
+6336,emanuel juncos,sin_match_estricto
+6337,Yasmina,sin_match_estricto
+6338,Rossana Dellamaggiore,sin_match_estricto
+6339,Raúl Prieto,sin_match_estricto
+6340,Byzen,sin_match_estricto
+6341,Luciana Rearte,sin_match_estricto
+6342,Yamila Cáceres,sin_match_estricto
+6343,Matias lerin,sin_match_estricto
+6344,Reynares Cerezo Sabrina,sin_match_estricto
+6345,Héctor Daniel tortolo,sin_match_estricto
+6347,Lopez Carolina,sin_match_estricto
+6348,Shalom,sin_match_estricto
+6349,Maria noel suarez,sin_match_estricto
+6350,"La bocha, mini mercado",sin_match_estricto
+6351,Leandro,sin_match_estricto
+6352,Talavera Valeria,sin_match_estricto
+6353,El chapaco Leonardo burgos,sin_match_estricto
+6354,Ricardo,sin_match_estricto
+6355,Juan,sin_match_estricto
+6356,Santo Pecado,sin_match_estricto
+6357,Garcia Jorge Gustavo,sin_match_estricto
+6358,Mansilla Mónica,sin_match_estricto
+6360,ArguelloTatiana,sin_match_estricto
+6361,Manuel Orellano,sin_match_estricto
+6363,Minimarket js,sin_match_estricto
+6364,Liliana,sin_match_estricto
+6365,Suplai QA Conciliacion A,sin_match_estricto
