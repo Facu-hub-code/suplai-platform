@@ -1,0 +1,34 @@
+[
+  {
+    "excel_row": 108,
+    "codigo_erp": "cdo_000",
+    "codigo_centralo": 411905,
+    "nombre": "oriana lopez",
+    "direccion": "Sta Rosa 2533, X5000 Córdoba, Argentina",
+    "telefono_raw": "+543517364541",
+    "digits": "543517364541",
+    "suffix10": "3517364541",
+    "phone_canon": "5493517364541",
+    "email": "oriana1817@gmail.com",
+    "tipo_doc": "DNI",
+    "documento": "41481338",
+    "motivo": "telefono_duplicado_excel",
+    "keeper_centralo": 415375
+  },
+  {
+    "excel_row": 183,
+    "codigo_erp": "cdo_000",
+    "codigo_centralo": 188451,
+    "nombre": "Mariano (Prueba) Miles",
+    "direccion": "Damian Garat 2736, X5008 Córdoba, Argentina",
+    "telefono_raw": "+543513181621",
+    "digits": "543513181621",
+    "suffix10": "3513181621",
+    "phone_canon": "5493513181621",
+    "email": "miviajeheroico@gmail.com",
+    "tipo_doc": "DNI",
+    "documento": "25999999",
+    "motivo": "telefono_duplicado_excel",
+    "keeper_centralo": 402271
+  }
+]

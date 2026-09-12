@@ -96,21 +96,6 @@ def main() -> None:
         tipo = (r["tipo_doc"] or "").upper()
         cuit = r["documento"] if tipo == "CUIT" else None
         dni = r["documento"] if tipo == "DNI" else None
-        meta = {
-            "origen": "ecommerce_centralo",
-            "codigo_centralo": r["codigo_centralo"],
-            "import": "altas-ecommerce-2026-09-12",
-            "excel": "Users-2026-04-24",
-        }
-        datos = {
-            "origen": "ecommerce_centralo",
-            "codigo_centralo": r["codigo_centralo"],
-            "tipo_documento": r["tipo_doc"],
-        }
-        if dni:
-            datos["dni"] = dni
-        if cuit:
-            datos["cuit"] = cuit
         values_sql.append(
             "("
             + ", ".join(
@@ -122,8 +107,8 @@ def main() -> None:
                     sql_str(r["email"] or None),
                     sql_str(r["direccion"]),
                     sql_str(cuit),
-                    sql_json(datos),
-                    sql_json(meta),
+                    sql_str(dni),
+                    sql_str(r["tipo_doc"] or None),
                     str(int(r["codigo_centralo"])),
                 ]
             )
@@ -137,14 +122,31 @@ def main() -> None:
 -- Inserta solo suffix10 que NO existen (excluye dup-merged-*).
 -- Etiqueta y agrupa todos los destinos únicos para plantilla clientes_web.
 
-BEGIN;
-
-WITH excel(
+WITH excel_raw(
   suffix10, phone_canon, nombre, nombre_de_pila, email, direccion, cuit,
-  datos_personales, metadata, codigo_centralo
+  dni, tipo_doc, codigo_centralo
 ) AS (
   VALUES
   {excel_values}
+),
+excel AS (
+  SELECT
+    suffix10, phone_canon, nombre, nombre_de_pila, email, direccion, cuit,
+    jsonb_strip_nulls(jsonb_build_object(
+      'origen', 'ecommerce_centralo',
+      'codigo_centralo', codigo_centralo,
+      'tipo_documento', tipo_doc,
+      'dni', dni,
+      'cuit', cuit
+    )) AS datos_personales,
+    jsonb_build_object(
+      'origen', 'ecommerce_centralo',
+      'codigo_centralo', codigo_centralo,
+      'import', 'altas-ecommerce-2026-09-12',
+      'excel', 'Users-2026-04-24'
+    ) AS metadata,
+    codigo_centralo
+  FROM excel_raw
 ),
 existing AS (
   SELECT
@@ -155,7 +157,11 @@ existing AS (
     row_number() OVER (
       PARTITION BY e.suffix10
       ORDER BY
-        (c.phone_number LIKE '549%') DESC,
+        (
+          lower(COALESCE(c.nombre, '') || ' ' || COALESCE(c.razon_social, ''))
+          LIKE '%' || lower(split_part(e.nombre, ' ', 1)) || '%'
+        ) DESC,
+        (c.phone_number ~ '^549[1-9]') DESC,
         (c.codigo IS NOT NULL) DESC,
         c.id
     ) AS rn
@@ -219,14 +225,14 @@ to_migrate AS (
     c.dia_de_visita,
     c.dia_de_entrega,
     c.cuit,
-    cl.address_text AS direccion,
+    t.direccion,
     c.email,
     c.vendedor,
     c.activo_ai,
     row_number() OVER (ORDER BY c.id) AS rn
   FROM del_corro.clients c
   JOIN ins_clients ic ON ic.id = c.id
-  LEFT JOIN del_corro.client_locations cl ON cl.client_id = c.id AND cl.is_primary = true
+  JOIN to_insert t ON t.phone_canon = ic.phone_number
   WHERE c.pdv_id IS NULL
 ),
 inserted_pdv AS (
@@ -334,8 +340,6 @@ SELECT json_build_object(
   'grupo_id', (SELECT id FROM grupo),
   'agenda_id', (SELECT id FROM ins_agenda)
 ) AS resultado;
-
-COMMIT;
 """
 
     (OUT / "cargar_altas.sql").write_text(sql)
