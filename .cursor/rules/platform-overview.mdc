@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Suplai Platform — contexto del workspace
 
-Este workspace agrupa **ocho carpetas** de código + `platform/`:
+Este workspace agrupa **nueve carpetas** de código + `platform/`:
 
 | Carpeta | Repo real | Rol |
 |---------|-----------|-----|
@@ -17,6 +17,7 @@ Este workspace agrupa **ocho carpetas** de código + `platform/`:
 | `field-app/` | `field-app` | App mobile-first vendedores (Suplai Field) |
 | `sniffer/` | `sniffer-vendedores` | Espejo Kommo — análisis conversaciones vendedor |
 | `sales-engine/` | `sales-engine` | ML co-ocurrencia / frecuencia compra PdV |
+| `landing/` | `suplai-sales-landing` | Sitio público `suplaisales.com` (Vite) + `/novedades` GEO |
 
 ## Cuándo usar qué repo
 
@@ -27,6 +28,7 @@ Este workspace agrupa **ocho carpetas** de código + `platform/`:
 - **App vendedor, tareas gamificadas, torneos** → `field-app/` + `platform/docs/specs/003-suplai-field-app.md`
 - **Webhooks Kommo, patrones vendedor** → `sniffer/`
 - **Retrain modelo, predict-combo** → `sales-engine/`
+- **Landing, /novedades, llms.txt, SEO/GEO** → `landing/` (`suplai-sales-landing`) + skill `novedades-from-chat`
 - **Investigación cross-cutting** → `platform/docs/CROSS-REPO-QUERIES.md` + MCP
 
 ## Multi-tenant (Supabase principal)

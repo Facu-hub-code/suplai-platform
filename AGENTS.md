@@ -106,6 +106,7 @@ Migraciones oficiales viven en `backend/`.
 | `n8n-railway-mcp` | Operación n8n en Railway |
 | `enhance-descriptions` | Optimizar descripciones comerciales |
 | `feature-test-guide` | Guías de prueba de features |
+| `novedades-from-chat` | Borrador de novedad GEO para la landing a partir de un dump de chat |
 
 ### Vendor (skills.sh — no en git, lock sí)
 
