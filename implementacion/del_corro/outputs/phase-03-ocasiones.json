@@ -1,0 +1,79 @@
+{
+  "schema": "del_corro",
+  "tenant": "Campi",
+  "source": "conocimiento_comercial",
+  "erp_required": false,
+  "notes": "Campi no tiene estos combos mapeados en ERP. Las ocasiones salen de experiencia comercial. Los hubs se eligen por stock + en_catalogo, no por rotacion_index (casi todo en 0).",
+  "ocasiones": [
+    {
+      "id": "almuerzo_pastas",
+      "label": "Almuerzo: fideos + salsa de tomate",
+      "logic": "Complemento de consumo. Quien pide pasta suele necesitar salsa o puré.",
+      "families": {
+        "base": ["fideos"],
+        "related": ["salsa_pomarola", "salsa_fileto", "pure_tomate", "pulpa_tomate"]
+      },
+      "hubs": {
+        "base": [
+          { "product_code": "4060020", "nombre": "Fideos San Agustín Tirabuzón x 500g (B/12)", "stock": 4698 },
+          { "product_code": "4060060", "nombre": "Fideos San Agustín Tallarín x 500g (B/20)", "stock": 2948 },
+          { "product_code": "4060059", "nombre": "Fideos San Agustín Spaghetti 500g (B/20)", "stock": 1586 }
+        ],
+        "related": [
+          { "product_code": "1013445", "nombre": "Salsa Noel Pomarola 340g (B/24)", "stock": 168 },
+          { "product_code": "1000019", "nombre": "Puré de Tomate Noel 520g (B/12)", "stock": 1599 },
+          { "product_code": "1013447", "nombre": "Salsa Noel Fileto 340g (B/24)", "stock": 393 }
+        ]
+      },
+      "explode_on_load": true,
+      "explode_note": "Al cargar, todos los fideos en stock apuntan a los 2 hubs de salsa. Evita que un tallarín no dispare sugerencia porque solo mapeamos tirabuzón."
+    },
+    {
+      "id": "limpieza_hogar",
+      "label": "Limpieza: detergente + lavandina + ropa + piso",
+      "logic": "Canasta de reposición del hogar. Se piden juntos aunque no se consuman en la misma receta.",
+      "families": {
+        "base": ["detergente", "lavandina"],
+        "related": ["jabon_ropa", "suavizante", "limpiador_pisos"]
+      },
+      "hubs": {
+        "detergente": [{ "product_code": "404410", "nombre": "Detergente CIF 300ml Limón (B/12)", "stock": 266 }],
+        "lavandina": [{ "product_code": "002761044", "nombre": "Lavandina Ayudín 1000ml Clásica (B/15)", "stock": 1169 }],
+        "ropa": [{ "product_code": "42243", "nombre": "Jabón en Polvo Ala Matic Rosa Bicarbonato x 400g (B/24)", "stock": 872 }],
+        "piso": [{ "product_code": "61273", "nombre": "Limpiador de Pisos Gigante Fragancia Marina 900cc (B/15)", "stock": 293 }],
+        "suavizante": [{ "product_code": "60936", "nombre": "Suavizante Gigante Amarillo x 900cc (B/12)", "stock": 150 }]
+      },
+      "tag_warning": "Los tags Limpieza / Cuidado de la Ropa están sucios (mezclan arroz y cereales Molinos Ala). Filtrar por nombre, no solo por tag."
+    },
+    {
+      "id": "media_tarde_colegio",
+      "label": "Media tarde colegio: polvoritas + alfajores + galletas",
+      "logic": "Ocación kiosco/colegio. Mix de golosina de tarde, no almuerzo.",
+      "families": {
+        "base": ["polvoritas"],
+        "related": ["alfajores", "bizcochos_9_de_oro"]
+      },
+      "hubs": {
+        "polvorita": [{ "product_code": "1013916", "nombre": "Galletitas Polvorita Vainilla-Vainilla 81g (B/40)", "stock": 2586 }],
+        "alfajor": [
+          { "product_code": "1014413", "nombre": "Alfajor Hamlet Simple Dulce de Leche 36g (B/56)", "stock": 3445 },
+          { "product_code": "02117", "nombre": "Alfajor Tucabon Choc. Negro 38gr (B/45)", "stock": 1534 }
+        ],
+        "galleta": [{ "product_code": "4040003", "nombre": "Bizcochos 9 de Oro Agridulces 200g (B/20)", "stock": 33964 }]
+      }
+    }
+  ],
+  "up_sell": [
+    { "from": "1013916", "to": "1013919", "reason": "Mismo sabor Polvorita en formato 152g." },
+    { "from": "1013917", "to": "1013964", "reason": "Polvorita frutilla 81g a 152g." },
+    { "from": "4040004", "to": "4040003", "reason": "9 de Oro agridulce 100g a 200g." },
+    { "from": "4040003", "to": "4040005", "reason": "9 de Oro agridulce 200g a 420g." },
+    { "from": "4040127", "to": "4040356", "reason": "Pepas 9 de Oro 200g a 500g." },
+    { "from": "1014413", "to": "2029", "reason": "Alfajor Hamlet simple a Rasta negro 70g." }
+  ],
+  "replace_dummy_seed": {
+    "why": "El seed actual (gomitas → galletitas → aceite de oliva) es de prueba y ensucia las sugerencias del agente.",
+    "current_cross": 4,
+    "current_up": 3
+  }
+}
