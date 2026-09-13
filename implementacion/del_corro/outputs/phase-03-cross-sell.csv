@@ -1,0 +1,18 @@
+base_product_code,related_product_code,reason,is_mock,ocasion
+4060020,1013445,Fideos con salsa de tomate pomarola,false,almuerzo_pastas
+4060020,1000019,Fideos con puré de tomate para la salsa,false,almuerzo_pastas
+4060060,1013445,Tallarines con salsa pomarola,false,almuerzo_pastas
+4060059,1013445,Spaghetti con salsa de tomate,false,almuerzo_pastas
+1013445,4060020,Salsa pomarola con fideos tirabuzón,false,almuerzo_pastas
+1000019,4060020,Puré de tomate con fideos,false,almuerzo_pastas
+404410,002761044,Detergente con lavandina de reposición,false,limpieza_hogar
+404410,42243,Detergente con jabón en polvo para ropa,false,limpieza_hogar
+002761044,61273,Lavandina con limpiador de pisos,false,limpieza_hogar
+42243,60936,Jabón en polvo con suavizante,false,limpieza_hogar
+61273,404410,Limpiador de pisos con detergente,false,limpieza_hogar
+1013916,1014413,Polvoritas de media tarde con alfajor,false,media_tarde_colegio
+1013916,4040003,Polvoritas con bizcochos 9 de Oro para el colegio,false,media_tarde_colegio
+1014413,4040003,Alfajor con galletas para kiosco/colegio,false,media_tarde_colegio
+1014413,1013916,Alfajor con polvoritas de media tarde,false,media_tarde_colegio
+4040003,1013916,Bizcochos 9 de Oro con polvoritas,false,media_tarde_colegio
+02117,1013916,Alfajor de colegio con polvoritas,false,media_tarde_colegio
