@@ -46,7 +46,7 @@ fases:
     estado: cargado
     output_json: outputs/phase-01-3-prompt-config.json
     cargado_at: "2026-09-01T21:37:10Z"
-    notas: "v2 system_prompt + agent_base_prompt_client + recepcionista. Catálogo ~285 SKUs (ya no solo 6 combos). Teléfono y reglas_negocio (fulfillment/notif) conservados."
+    notas: "v2 system_prompt + agent_base_prompt_client + recepcionista. Catálogo ~285 SKUs (ya no solo 6 combos). Teléfono y reglas_negocio (fulfillment/notif) conservados. 2026-09-14: mínimo de compra $80.000 (order_policy.minimum_purchase enabled+block_confirm)."
   "02":
     nombre: promociones
     estado: omitido
