@@ -44,13 +44,13 @@ El oficio de mapa/Places/alta es un **agente nuevo**: slug `mapas`, nombre defau
 ### Incluido (v1)
 
 - Pack `mapas` (Juan): `zonas_list`, `territorio_resolve`, `leads_search`, `leads_create_batch`.
-- Chat 1:1 con Juan (lista `GET /agents`). Sin «invitar a comprar» **no** dispara la receta.
+- Juan **no** se lista en el picker ni tiene chip de Supervisor hasta que la receta esté estable. El Supervisor igual puede llamarlo (`preguntar_a_juan`) si el texto matchea la receta.
 - Wrapper Supervisor `preguntar_a_juan` (mismo patrón Command + transcript).
 - Receta `prospeccion_barrio`: territorio → Places → `lead_choice` (elige y da de alta) → Lucía etiqueta/grupo → Sofía MARKETING → Martín +7.
 - `kind: hitl` en el intérprete (paso `lead_choice`). El confirm del picker **es** el write de `leads_create_batch`; no hay segundo `object_choice` ni un paso Juan extra. Sí hay `object_choice` en etiqueta, grupo, plantilla y agenda.
 - Alta: `is_prospect=true`, teléfono, dirección, coords (`PUT client-locations`, mismo contrato que el modal de prospecto), `dia_de_visita` y vendedor de la zona, lista pública, `metadata.google_place_id`.
 - Filtro ya-clientes: teléfono normalizado **o** `metadata.google_place_id`.
-- Chip de Supervisor + keywords (`invitar` + `barrio` \| `mapa` \| `lead` \| `prospect` \| rubro típico).
+- Chip de Supervisor **oculto** en esta entrega (la receta todavía no está lista para operar). El match por texto (`invitar` + `barrio` \| `mapa` \| `lead` \| `prospect` \| rubro) sigue en código.
 - Tests de classify / observe / abort / e2e mockeado; UI `lead_choice`.
 - Specs puntero cortos en backend y backoffice al implementar.
 
