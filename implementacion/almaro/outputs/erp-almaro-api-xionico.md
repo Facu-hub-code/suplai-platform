@@ -26,8 +26,10 @@ Typo de IT: `almaro-api.dns-xionico.com.com` → un solo `.com`.
 | `getVendedores` | 200, 48 labels `CODIGO - NOMBRE` |
 | `getClientes/?id_vendedor=1463` | 200, 128 filas; clave `ID_CUENTA` numérica |
 | `getClientesDirecciones/?id_vendedor=1463` | 200, 128 filas |
-| `getDetallePrecios/?id_vendedor=1463` | no re-probado en esta nota; mismo contrato GG |
+| `getDetallePrecios/?id_vendedor=1463` | 51517 filas (vía `load-prices`, 2026-09-16) |
 
 ## Alta post-deploy (hecha)
 
 `POST /almaro/erp/connect` 200. `POST /almaro/erp/sync` 200 — 0 errores precios, 3244 stock del ERP. Mock de catálogo/clientes **no** se purgó. Clientes/vendedores los trae el job 6 h al espejo (`erp_customers_raw`), sin alta automática en `clients`.
+
+Catálogo/listas/precios promovidos: [erp-catalogo-gev.md](erp-catalogo-gev.md).
