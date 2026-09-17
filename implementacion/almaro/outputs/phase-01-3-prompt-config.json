@@ -9,5 +9,7 @@
     "zona": "Corrientes y alrededores",
     "marca_lider": "ARCOR"
   },
-  "agent_phone_number": "5493585033761"
+  "agent_phone_number": "5493795151208",
+  "preserve_reglas_negocio": true,
+  "preserve_agent_phone_number": true
 }

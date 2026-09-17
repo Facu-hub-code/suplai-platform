@@ -1,0 +1,21 @@
+tabla,filas_borradas,ok,notes
+items_pedido,180,true,is_mock
+core.conversation_events,105,true,tenant_id almaro is_mock payload
+almaro.conversations,24,true,clientes mock
+core.conversations,25,true,sesiones almaro sin eventos restantes
+pedidos,72,true,is_mock
+ia_tickets,18,true,is_mock
+client_locations,24,true,clientes mock
+clients,24,true,is_mock
+puntos_venta,24,true,is_mock
+vendedor_geo_zones,3,true,is_mock
+geo_zones,3,true,is_mock
+vendedores,2,true,is_mock Maria/Carlos
+promociones_semanales,4,true,is_mock
+precios_productos,3772,true,listas mock 1-4
+productos_aliases,126,true,SKUs mock-only
+product_categories,n/d,true,SKUs mock-only
+productos,56,true,mock-only no GEV; overlap 887 ya unmarked
+tenant_cross_sell_mappings,14,true,tenant almaro
+tenant_up_sell_mappings,10,true,tenant almaro
+listas_precios,4,true,ids 1-4 mock sin erp_list_id

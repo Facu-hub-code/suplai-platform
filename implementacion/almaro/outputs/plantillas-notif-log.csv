@@ -1,0 +1,10 @@
+paso,ok,detalle
+enable_order_notification,true,enabled=true strategy=all subscribers=[]
+enable_custom_ia_tickets_notification,true,enabled=true strategy=all subscribers=[]
+enable_system_errors_notification,true,enabled=true strategy=all subscribers=[]
+provision_suplai_nuevo_pedido_vendedor_v3,true,meta_plantilla_id=710b5ebf-e880-4466-95ee-e9e28e6862bf Meta POST 200
+provision_suplai_ticket_asistencia_vendedor_v1,true,meta_plantilla_id=d2879b7a-1218-4dbd-9d82-85d11bf79aa1 Meta POST 200
+provision_suplai_error_sistema_vendedor_v1,true,meta_plantilla_id=ffc2f266-f880-4e35-ae1c-d16c950e2709 Meta POST 200
+cross_upsell_preserved,true,reglas_negocio ? cross_upsell
+subscribers_vendedores,false,48 vendedores GEV con telefono erp-*; ninguno con WhatsApp numerico. subscribers vacio hasta cargar un WA de prueba.
+sync_waba,true,"Meta listo 4 nombres (incluye hello_world). Las 3 UTILITY recien creadas pueden tardar en APPROVED y en el listing."
