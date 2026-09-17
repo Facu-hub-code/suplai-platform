@@ -128,3 +128,66 @@ bash scripts/install-vendor-skills.sh
 | 3 Orquestación dev | `brainstorming`, `writing-plans`, `subagent-driven-development`, … | Solo Cursor |
 | 4 Evaluación | `llm-evaluation`, `eval-harness` (+ `agent-e2e-testing` Suplai) | Cursor + Antigravity |
 | 5 Testing web | `webapp-testing`, `agent-browser`, `web-design-guidelines` | Cursor + Antigravity |
+
+# Analytics Tracking — Mixpanel
+
+This workspace uses **Mixpanel** as the single source of truth for product analytics across backoffice, tienda, field and backend. Spec: `docs/specs/073-mixpanel-analytics.md`. Do not introduce other analytics tools without explicit instruction.
+
+## Before You Add or Modify Any Tracking
+
+⛔ **Do not write Mixpanel tracking code without reading spec 073 and the AGENTS.md Mixpanel section of the target repo.**
+
+### Mandatory checklist
+
+- [ ] Correct SDK: `mixpanel-browser` in Next apps (`lib/analytics.ts`); `mixpanel` Python in `backend-supabase/services/mixpanel_client.py`
+- [ ] No CDP — send events with the Mixpanel SDK, not Segment/RudderStack
+- [ ] Consent: v1 does not gate on EU/CA; do not add PII
+- [ ] Reuse the tracking plan in spec 073 — do not duplicate `pedido_confirmado` on the client
+
+## Tech Stack
+
+| Detail | Value |
+|---|---|
+| **Platform** | Next.js (backoffice, tienda, field) + FastAPI (`backend-supabase`) |
+| **Mixpanel SDK** | `mixpanel-browser` ^2.83.0; Python `mixpanel==4.10.1` |
+| **Tracking method** | client-side UI + server-side canonical business events |
+| **CDP (if any)** | none |
+| **Consent required** | no (Argentina B2B default) |
+| **Token location** | gitignored `.env.local` → `NEXT_PUBLIC_MIXPANEL_TOKEN`; backend `.env` → `MIXPANEL_TOKEN`. Same project token. Never commit the token. |
+
+## Mixpanel Identity
+
+`distinct_id`: `{app}:{schema}:{id}` — `backoffice` / `tienda` / `field`. Never phone or email.
+
+| Action | When | Where |
+|---|---|---|
+| identify | Auth resolved | backoffice `contexts/auth-context.tsx`; tienda `catalog-client.tsx`; field `FieldAuth.tsx` |
+| reset | Logout / session clear | same files |
+| guest tienda | anonymous until login | `login-form.tsx` init only |
+
+Business events (`pedido_confirmado`, `pedido_confirmado_field`, `tarea_completada`, `erp_pedido_enviado`) fire only from the backend.
+
+## Mixpanel Tracking Plan
+
+See spec 073 taxonomía. Quick Start pair:
+
+| Mixpanel Event | Trigger | Key Properties | File |
+|---|---|---|---|
+| `sign_up_completed` | Backoffice signup 2xx after identify | `sign_up_method`, `platform` | `product-management-app/contexts/auth-context.tsx` |
+| `pedido_confirmado` | Tienda confirm persistida | `pedido_id`, `total`, `items_count` | `backend-supabase/routers/tienda.py` |
+
+## How to Add a New Mixpanel Event
+
+1. Check spec 073 — reuse existing events.
+2. `snake_case`, past tense; track after success; no PII.
+3. Client: `track()` from `lib/analytics.ts`. Server: `services/mixpanel_client.py`.
+4. Update spec 073 and the repo `AGENTS.md`.
+5. Verify in Mixpanel Live View.
+
+## What Not to Do
+
+- Do not hardcode the project token.
+- Do not track PII.
+- Do not fire canonical order events from the browser.
+- Do not skip `reset` on logout.
+
