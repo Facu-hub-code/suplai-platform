@@ -1,0 +1,15 @@
+{
+  "schema_name": "almaro",
+  "nombre": "Almaro",
+  "migration": "system_prompt_v2",
+  "applied_note": "v2 on. Identidad Alma (ya no Maro). identidad/contexto quedan de archivo; el runtime usa system_prompt.",
+  "metadata_flag": {
+    "use_new_system_prompt": true
+  },
+  "agent_base_prompt_client": null,
+  "agent_base_prompt_seller": null,
+  "system_prompt_file": "phase-01-3-system-prompt-v2.md",
+  "identidad_legacy_stub": "Sos Alma, la asistente virtual de ventas de Almaro (ALMARO S.A.), distribuidora Arcor en Corrientes. Legacy desactivado: metadata.use_new_system_prompt=true.",
+  "preserve_reglas_negocio": true,
+  "preserve_agent_phone_number": true
+}

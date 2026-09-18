@@ -1,0 +1,3 @@
+nombre,zone_type,description,color,dia_visita,dias_visita,dias_de_entrega,codigo_ruta,active,is_mock,geometry_wkt
+Corrientes Capital,sales,"Visita y entrega en Corrientes Capital y periurbano. Lun-sáb. Corte 16:00: antes llega mañana hábil, después pasado mañana hábil.",#1E88E5,lunes,"lunes|martes|miercoles|jueves|viernes|sabado","lunes|martes|miercoles|jueves|viernes|sabado",R00-CAP,true,false,"SRID=4326;MULTIPOLYGON(((-58.860 -27.430, -58.790 -27.415, -58.740 -27.445, -58.720 -27.505, -58.740 -27.570, -58.810 -27.585, -58.875 -27.555, -58.890 -27.485, -58.860 -27.430)))"
+Prueba,sales,Zona de prueba desactivada. Reemplazada por Corrientes Capital.,#39FF14,lunes,lunes,,R-PRUEBA,false,false,

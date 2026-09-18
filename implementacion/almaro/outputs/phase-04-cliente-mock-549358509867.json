@@ -1,0 +1,16 @@
+{
+  "schema_name": "almaro",
+  "applied_at": "2026-09-18T13:00:00Z",
+  "phone_number": "549358509867",
+  "client_id": 84,
+  "pdv_id": 85,
+  "nombre_de_pila": "Facu",
+  "razon_social": "Facundo Aguirre Lorenzo",
+  "lista_precios_id": 20,
+  "lista": "TRADICIONAL",
+  "is_mock": true,
+  "activo_ai": true,
+  "whatsapp_estado": "existente",
+  "codigo": 900001,
+  "note": "El recepcionista marcó registration_completed client_id=83 pero el alta no persistió (max id era 82). El número quedó unknown y el grafo de registro contestó 'no tengo un nombre propio'. Distinct de Facu piloto 5493585098671 (client 79)."
+}

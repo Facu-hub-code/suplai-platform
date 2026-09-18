@@ -1,0 +1,13 @@
+{
+  "schema_name": "almaro",
+  "enabled": true,
+  "hora_de_corte": "16:00",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "dias_habiles": ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado"],
+  "regla": "Antes de las 16:00 llega el día hábil siguiente. Después de las 16:00 llega el subsiguiente día hábil. Sábado incluido. Domingo no.",
+  "mensaje_fuera_de_cobertura_whatsapp": "Tu dirección está fuera de la zona de reparto habitual de Almaro. Podemos preparar tu pedido para retiro en depósito (Ruta 12 km 1027, Corrientes).",
+  "mensaje_fuera_de_cobertura_tienda": "Tu dirección está fuera de la zona de cobertura de reparto a domicilio. El pedido queda preparado para retiro en depósito (Ruta 12 km 1027, Corrientes).",
+  "tool_opt_in": {
+    "resolve_delivery_schedule": true
+  }
+}

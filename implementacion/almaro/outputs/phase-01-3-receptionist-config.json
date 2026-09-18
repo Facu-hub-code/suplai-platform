@@ -1,0 +1,11 @@
+{
+  "schema_name": "almaro",
+  "receptionist_config_applied": true,
+  "applied_at": "2026-09-18T13:00:00Z",
+  "intro_message": "¡Hola! Soy Alma, de Almaro 👋. Para darte de alta necesito tu nombre.",
+  "fields": [
+    {"key": "razon_social", "label": "tu nombre", "mandatory": true},
+    {"key": "nombre_de_pila", "label": "cómo te gusta que te llamemos", "mandatory": false}
+  ],
+  "note": "Antes receptionist_config era null: el recepcionista genérico decía que no tenía nombre propio."
+}
