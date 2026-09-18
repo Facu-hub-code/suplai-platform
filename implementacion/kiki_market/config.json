@@ -1,0 +1,6 @@
+{
+  "dominios": "kikimarket.com.ar,mercadolibre.com.ar,farmacity.com.ar,jumbo.com.ar,carrefour.com.ar",
+  "sufijo_fallback": "suplemento naturista vitamina sin tacc argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS KIKI MARKET (tienda naturista Villa Carlos Paz):\n1. TIPO OBLIGATORIO: empezar con el sustantivo (vitamina, colágeno, proteína, omega 3, magnesio, té, aceite, galletitas, jabón, pasta dental, endulzante, condimento, semilla, harina, probiótico).\n2. MARCA: incluir la marca del nombre (Vitamin Way, Geonat, Sri Sri Tattva, Saint Gottard, Natufarma, Laur, Granix, Colabella, Nature's Truth, El Castillo, Hileret, Natural Seed). No inventar marcas.\n3. FORMATO: cápsulas, comprimidos, gomitas, polvo, ml, g, saquitos, pack xN si figura en el nombre.\n4. DIETA: si el nombre o categoría dice sin TACC, vegano u orgánico, incluirlo.\n5. PROHIBIDO: claims de salud, ANMAT, miligramos inventados, 'ideal', 'delicioso', 'descubre', consejo médico.\n6. ALIAS: marca, tipo, formato y sinónimos locales (sin tacc, sin gluten, vegano)."
+}
