@@ -142,6 +142,9 @@ Cliente, **después** de HTTP 2xx (el supervisor ya tiene JS).
 | Evento | Archivo | Props extra |
 |--------|---------|-------------|
 | `erp_pedido_enviado` | `routers/erp.py` `push_order_to_erp` | `pedido_id`, `conector`, `ok` (bool) |
+| `landing_waitlist_joined` | `services/landing_waitlist.py` signup Google en la landing | `locale`, `already_existed`, `already_customer` |
+
+`landing_waitlist_joined` usa `distinct_id = landing:waitlist:{user_id}` y **no** envía email ni nombre.
 
 El cliente **no** dispara `pedido_confirmado` ni `pedido_confirmado_field`.
 
@@ -194,7 +197,7 @@ Fire-and-forget (`asyncio.create_task` o thread); log warning si Mixpanel falla.
 - `RF-2`: `distinct_id` siempre namespaced `{app}:{schema}:{id}`.
 - `RF-3`: Invitado de tienda no se identifica; login posterior sí y fusiona.
 - `RF-4`: Eventos de la taxonomía v1 disparan en los puntos indicados, con las props extra.
-- `RF-5`: Backend emite `pedido_confirmado`, `pedido_confirmado_field`, `tarea_completada` y `erp_pedido_enviado`.
+- `RF-5`: Backend emite `pedido_confirmado`, `pedido_confirmado_field`, `tarea_completada`, `erp_pedido_enviado` y `landing_waitlist_joined`.
 - `RF-6`: Sin token, producto funciona igual.
 
 ## Requisitos no funcionales
