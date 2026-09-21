@@ -1,0 +1,15 @@
+{
+  "schema_name": "benfresh",
+  "enabled": true,
+  "hora_de_corte": "07:00",
+  "timezone": "America/New_York",
+  "permite_mismo_dia": true,
+  "dias_habiles": ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"],
+  "regla": "Antes de las 07:00 ET llega el mismo día. Después de las 07:00 ET llega el día siguiente. Los 7 días de la semana son hábiles.",
+  "mensaje_fuera_de_cobertura_whatsapp": "Your address is outside our regular delivery area. We can prepare your order for pickup at our warehouse.",
+  "mensaje_fuera_de_cobertura_tienda": "Your address is outside our regular delivery coverage. Your order will be prepared for pickup at our warehouse.",
+  "tool_opt_in": {
+    "resolve_delivery_schedule": true
+  },
+  "nota": "Activado 2026-09-21. Corte 07:00 America/New_York, permite_mismo_dia, lun-dom. Tool resolve_delivery_schedule on. 525 clientes con 7 días.",
+}
