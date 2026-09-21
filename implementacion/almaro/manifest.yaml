@@ -28,7 +28,7 @@ fases:
     output_csv_extra: outputs/phase-01-lista-precios-*.csv
     filas_csv: 943
     cargado_at: "2026-08-09T12:50:00Z"
-    notas: "Clon gonzales ERP_01. 943 productos, 4 listas, 3772 precios, 1942 aliases. Vectorize encolado 943."
+    notas: "Clon gonzales ERP_01. 943 productos, 4 listas, 3772 precios, 1942 aliases. Vectorize encolado 943. 2026-09-21: packing alta 1280 SKUs desde nombres GEV; luego 1749 SKUs corregidos con maestro Excel UMV (outputs/propuesta-packing-umv-excel-20260921.csv)."
   "01.1":
     nombre: tags
     estado: cargado

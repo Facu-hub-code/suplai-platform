@@ -1,0 +1,20 @@
+{
+  "apply": true,
+  "tokin_catalog_size": 1896,
+  "tokin_searched": 1681,
+  "tokin_matched_skus": 1,
+  "tokin_miss": 1680,
+  "tokin_errors": 0,
+  "almaro": {
+    "missing_before": 1635,
+    "to_update": 1,
+    "miss": 1634,
+    "csv": "/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/implementacion/almaro/outputs/tokin-imagenes-20260921.csv"
+  },
+  "gonzales": {
+    "missing_before": 79,
+    "to_update": 0,
+    "miss": 79,
+    "csv": "/Users/facundolorenzo/Documents/SuplaiSales/source/suplai-platform/implementacion/gonzales/outputs/tokin-imagenes-20260921.csv"
+  }
+}
