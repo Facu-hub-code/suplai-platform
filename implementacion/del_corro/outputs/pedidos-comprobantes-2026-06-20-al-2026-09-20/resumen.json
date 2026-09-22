@@ -1,0 +1,31 @@
+{
+  "schema": "del_corro",
+  "fuente": "detalle-comprobantes-2026-06-20-al-2026-09-20",
+  "filas_excel": 108091,
+  "filas_tipo_excluido": 7808,
+  "filas_qty_cero": 259,
+  "filas_sin_neto": 0,
+  "prefijos_incluidos": {
+    "FAA": 39857,
+    "PEX": 19352,
+    "FAB": 40583,
+    "NPX": 200,
+    "NPB": 2,
+    "NPA": 30
+  },
+  "prefijos_excluidos": {
+    "NCB": 4667,
+    "NCA": 3134,
+    "DEX": 7
+  },
+  "comprobantes_excel_incluidos": 15763,
+  "listos": 13366,
+  "items_listos": 85580,
+  "sin_cliente": 2397,
+  "ya_cargados": 0,
+  "skus_fuera_de_catalogo": 51,
+  "lineas_sku_fuera_de_catalogo": 825,
+  "total": "1364264060.66",
+  "fecha_min": "2026-06-22",
+  "fecha_max": "2026-09-19"
+}
