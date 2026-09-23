@@ -370,7 +370,7 @@ async def apply(conn: asyncpg.Connection, ready: list[dict]) -> tuple[int, int]:
                         'cod_ven', u.cod_ven
                     ),
                     false,
-                    'suplai'
+                    'erp'
                 FROM unnest($1::int[], $2::timestamp[], $3::numeric[], $4::text[], $7::text[])
                     AS u(cliente_id, fecha, total, comprobante, cod_ven)
                 RETURNING id, sync_metadata->>'comprobante' AS comprobante
