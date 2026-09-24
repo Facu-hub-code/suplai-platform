@@ -131,7 +131,7 @@ bash scripts/install-vendor-skills.sh
 
 # Analytics Tracking — Mixpanel
 
-This workspace uses **Mixpanel** as the single source of truth for product analytics across backoffice, tienda, field and backend. Spec: `docs/specs/073-mixpanel-analytics.md`. Do not introduce other analytics tools without explicit instruction.
+This workspace uses **Mixpanel** as the single source of truth for product events across backoffice, tienda, field and backend. Spec: `docs/specs/073-mixpanel-analytics.md`. **Microsoft Clarity** (`@microsoft/clarity`) covers session replay and heatmaps in the web frontends. Do not introduce other analytics tools without explicit instruction.
 
 ## Before You Add or Modify Any Tracking
 
@@ -154,6 +154,7 @@ This workspace uses **Mixpanel** as the single source of truth for product analy
 | **CDP (if any)** | none |
 | **Consent required** | no (Argentina B2B default) |
 | **Token location** | gitignored `.env.local` → `NEXT_PUBLIC_MIXPANEL_TOKEN`; backend `.env` → `MIXPANEL_TOKEN`. Same project token. Never commit the token. |
+| **Clarity** | `@microsoft/clarity` via `lib/analytics.ts` + `components/clarity-init.tsx`. Env: `NEXT_PUBLIC_CLARITY_PROJECT_ID` (Next apps) / `VITE_CLARITY_PROJECT_ID` (landing). |
 
 ## Mixpanel Identity
 
@@ -186,8 +187,9 @@ See spec 073 taxonomía. Quick Start pair:
 
 ## What Not to Do
 
-- Do not hardcode the project token.
+- Do not hardcode the project token or the Clarity project ID.
 - Do not track PII.
 - Do not fire canonical order events from the browser.
 - Do not skip `reset` on logout.
+- Do not duplicate Mixpanel business events with `Clarity.event`.
 
