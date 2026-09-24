@@ -59,8 +59,8 @@ Instrumentar Mixpanel con identidad namespaced, super properties multi-tenant y 
 
 ### Fuera de alcance
 
-- Autocapture, session replay, heatmaps.
-- Agente WhatsApp, landing, sales-engine, sniffer.
+- Autocapture, session replay y heatmaps de Mixpanel. Eso vive en **Microsoft Clarity** (`@microsoft/clarity`) en backoffice, tienda, field y landing: init en `components/clarity-init.tsx` (landing: `src/main.tsx`), identify/tags en `lib/analytics.ts` con el mismo `distinct_id`. Env: `NEXT_PUBLIC_CLARITY_PROJECT_ID` / `VITE_CLARITY_PROJECT_ID`.
+- Agente WhatsApp, sales-engine, sniffer.
 - Dashboards / insights / funnels ya armados en la UI de Mixpanel (se arman a mano post-deploy).
 - People con PII; group analytics por distribuidora.
 - Paquete npm compartido.
@@ -177,7 +177,7 @@ export function distinctId(app: AppName, schema: string, id: string | number): s
 Reglas:
 
 - Solo browser (`typeof window !== "undefined"`).
-- Sin `NEXT_PUBLIC_MIXPANEL_TOKEN` o string vacío: todas las funciones no-op.
+- Sin `NEXT_PUBLIC_MIXPANEL_TOKEN` o string vacío: Mixpanel no-op. Sin `NEXT_PUBLIC_CLARITY_PROJECT_ID`: Clarity no-op. Cada SDK es independiente.
 - `init` es idempotente.
 - Nunca throw hacia UI.
 
@@ -279,7 +279,7 @@ Fire-and-forget (`asyncio.create_task` o thread); log warning si Mixpanel falla.
 
 **Migraciones necesarias:** no.
 
-**Feature flag / env:** sí — `NEXT_PUBLIC_MIXPANEL_TOKEN` / `MIXPANEL_TOKEN`. Ausente = off.
+**Feature flag / env:** sí — `NEXT_PUBLIC_MIXPANEL_TOKEN` / `MIXPANEL_TOKEN`. Clarity: `NEXT_PUBLIC_CLARITY_PROJECT_ID` (Next) / `VITE_CLARITY_PROJECT_ID` (landing). Ausente = off.
 
 ---
 
