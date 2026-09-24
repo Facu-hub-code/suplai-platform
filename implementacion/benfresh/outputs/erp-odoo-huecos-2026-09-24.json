@@ -1,0 +1,267 @@
+{
+  "schema": "benfresh",
+  "apply": true,
+  "ran_at": "2026-09-24T08:23:54.185711+00:00",
+  "products": {
+    "dry_run": false,
+    "pending": 7,
+    "created": 7,
+    "vectorized": 7,
+    "errors": [],
+    "created_skus_sample": [
+      "0693635886929",
+      "0693635886950",
+      "0693635886967",
+      "0693635886981",
+      "89090214",
+      "89090215",
+      "89090216"
+    ]
+  },
+  "products_en_catalogo": 0,
+  "price_lists": [
+    {
+      "raw_id": 3937,
+      "dry_run": false,
+      "lista_precios_id": 47,
+      "stages": {
+        "list": {
+          "status": "created",
+          "lista_precios_id": 47
+        },
+        "products": {
+          "status": "already_ok",
+          "created": 0
+        },
+        "customers": {
+          "status": "ok",
+          "reassigned": 2,
+          "promoted": 0
+        },
+        "prices": {
+          "status": "synced",
+          "created": 2,
+          "updated": 0,
+          "unchanged": 0
+        },
+        "reconcile": {
+          "status": "ok"
+        }
+      }
+    },
+    {
+      "raw_id": 6387,
+      "dry_run": false,
+      "lista_precios_id": 48,
+      "stages": {
+        "list": {
+          "status": "created",
+          "lista_precios_id": 48
+        },
+        "products": {
+          "status": "already_ok",
+          "created": 0
+        },
+        "customers": {
+          "status": "ok",
+          "reassigned": 2,
+          "promoted": 0
+        },
+        "prices": {
+          "status": "synced",
+          "created": 42,
+          "updated": 0,
+          "unchanged": 0
+        },
+        "reconcile": {
+          "status": "ok"
+        }
+      }
+    }
+  ],
+  "customers_bulk": {
+    "dry_run": false,
+    "pending": 8,
+    "approved": 7,
+    "skipped": 11,
+    "synthetic_count": 5,
+    "orders_backfilled": 9,
+    "errors": [
+      {
+        "queue_id": "43",
+        "partner_odoo_id": "13914",
+        "error": "El tel\u00e9fono 17864398116 ya est\u00e1 asignado a otro partner ERP"
+      }
+    ],
+    "message": "Se dieron de alta 7 clientes (5 con tel\u00e9fono placeholder 999\u2026)."
+  },
+  "queue_resolve": {
+    "resolved": 12,
+    "examined": 12
+  },
+  "orders_reconcile": {
+    "examined": 0,
+    "linked": 0,
+    "still_missing_customer": 0
+  },
+  "orders_projection": [
+    {
+      "outcome": "partial",
+      "dry_run": false,
+      "examined": 721,
+      "ready_to_project": 605,
+      "projected": 605,
+      "already_projected": 0,
+      "skipped": 21,
+      "failed": 95,
+      "purged_from_mirror": 0,
+      "failed_raw_ids": [],
+      "issues": [
+        {
+          "code": "cancelled_status",
+          "category": "skipped",
+          "count": 1,
+          "sample_order_refs": [
+            "2026/03775"
+          ],
+          "sample_skus": []
+        },
+        {
+          "code": "invalid_quantity",
+          "category": "failure",
+          "count": 32,
+          "sample_order_refs": [
+            "2026/03084",
+            "2026/03085",
+            "2026/03157",
+            "2026/03169",
+            "2026/03214"
+          ],
+          "sample_skus": []
+        },
+        {
+          "code": "missing_product",
+          "category": "failure",
+          "count": 18,
+          "sample_order_refs": [
+            "2026/03198",
+            "2026/03212",
+            "2026/03302",
+            "2026/03398",
+            "2026/03482"
+          ],
+          "sample_skus": [
+            "89010007",
+            "Delivery_007"
+          ]
+        },
+        {
+          "code": "missing_sku",
+          "category": "failure",
+          "count": 58,
+          "sample_order_refs": [
+            "2026/03108",
+            "2026/03178",
+            "2026/03212",
+            "2026/03235",
+            "2026/03247"
+          ],
+          "sample_skus": []
+        },
+        {
+          "code": "pending_status",
+          "category": "skipped",
+          "count": 20,
+          "sample_order_refs": [
+            "2026/03147",
+            "2026/03356",
+            "2026/03478",
+            "2026/03492",
+            "2026/03519"
+          ],
+          "sample_skus": []
+        }
+      ],
+      "message": "605 pedidos proyectados; 0 ya vinculados; 21 omitidos y 95 con inconsistencias."
+    },
+    {
+      "outcome": "failed",
+      "dry_run": false,
+      "examined": 116,
+      "ready_to_project": 0,
+      "projected": 0,
+      "already_projected": 0,
+      "skipped": 21,
+      "failed": 95,
+      "purged_from_mirror": 0,
+      "failed_raw_ids": [],
+      "issues": [
+        {
+          "code": "cancelled_status",
+          "category": "skipped",
+          "count": 1,
+          "sample_order_refs": [
+            "2026/03775"
+          ],
+          "sample_skus": []
+        },
+        {
+          "code": "invalid_quantity",
+          "category": "failure",
+          "count": 32,
+          "sample_order_refs": [
+            "2026/03084",
+            "2026/03085",
+            "2026/03157",
+            "2026/03169",
+            "2026/03214"
+          ],
+          "sample_skus": []
+        },
+        {
+          "code": "missing_product",
+          "category": "failure",
+          "count": 18,
+          "sample_order_refs": [
+            "2026/03198",
+            "2026/03212",
+            "2026/03302",
+            "2026/03398",
+            "2026/03482"
+          ],
+          "sample_skus": [
+            "89010007",
+            "Delivery_007"
+          ]
+        },
+        {
+          "code": "missing_sku",
+          "category": "failure",
+          "count": 58,
+          "sample_order_refs": [
+            "2026/03108",
+            "2026/03178",
+            "2026/03212",
+            "2026/03235",
+            "2026/03247"
+          ],
+          "sample_skus": []
+        },
+        {
+          "code": "pending_status",
+          "category": "skipped",
+          "count": 20,
+          "sample_order_refs": [
+            "2026/03147",
+            "2026/03356",
+            "2026/03478",
+            "2026/03492",
+            "2026/03519"
+          ],
+          "sample_skus": []
+        }
+      ],
+      "message": "0 pedidos proyectados; 0 ya vinculados; 21 omitidos y 95 con inconsistencias."
+    }
+  ]
+}
