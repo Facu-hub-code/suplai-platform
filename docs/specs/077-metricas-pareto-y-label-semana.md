@@ -18,6 +18,10 @@ La query de clientes ya agrega facturación, pedidos, ticket y frecuencia histó
 
 ---
 
+## Actualización 2026-09-26 — cupo de 200
+
+“Solo importantes” marca hasta 200 clientes con más chance de comprar, no el 20% de la ventana. El día de visita de mañana prioriza y el ciclo de compra bloquea a quien ya compró. Quien no compró en el rango del gráfico igual puede entrar. El detalle vivo está en `docs/producto/supervisor-comercial.md`. El corte del 20% y la exclusión de quien tiene 0 pedidos en el rango, más abajo, quedan reemplazados por esta actualización.
+
 ## Objetivo
 
 1. Entre los clientes con frecuencia por debajo de la histórica, marcar el 20% de mayor ticket y mostrar el monto que esa franja deja de facturar si sostiene la brecha.

@@ -1,0 +1,20 @@
+---
+description: Usuario ideal de Suplai y cómo se elige a quién escribirle
+alwaysApply: true
+---
+
+# Supervisor comercial
+
+Suplai le vende al **supervisor comercial** de una distribuidora. Detalle en `docs/producto/supervisor-comercial.md`.
+
+- El supervisor responde al dueño, gestiona vendedores y su sueldo depende de que la distribuidora funcione. Reunión 6:00 (programa el día) y 18:00 (cierre).
+- El vendedor está mal pago, rota de trabajo y no llega a una ruta de ~30 clientes (15 min por visita).
+- El mensaje que hay que facilitarle: “mañana te visitan, pero igual podés hacer el pedido por acá”.
+
+## Filtro “Solo importantes” de Métricas
+
+Hasta 200 clientes con más chance de comprar. El día de visita de mañana (timezone de la agenda) es un boost, no un filtro duro: si ese día no alcanza, se completan los 200 con los mejores del resto. Si ya compró dentro de su ciclo, no entra. Con una sola compra, no entra si compró en los últimos 14 días.
+
+Cuenta todo pedido `confirmado` o `descargado`. `origen = erp` vale igual que `suplai`, `tienda` o null. No exige que el SKU esté en el catálogo ni que el agente haya creado el pedido. Los filtros de vendedor, zona, etiqueta y prioridad de la pantalla sí aplican.
+
+Armar la ruta o la audiencia de un PDV no puede fallar porque `clients.dia_de_visita` sea texto o esté vacío: comparar el día como texto, no contra el enum.
