@@ -8,6 +8,10 @@ description: Fase 1.1 Categorías jerárquicas — Consumir categorias/propose-t
 > [!IMPORTANT]
 > **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
 
+## Modo datos finales
+
+Opcional. Opera sobre el catálogo real (no inventa SKUs). Correr si el implementador la pide; si no → `omitido`.
+
 > **Nota:** A partir de SPEC-060, los nuevos tenants usan `categorias` + `product_categories` directamente.
 > La tabla `tags` es de uso **interno exclusivo** (backoffice, field objetivos, promociones) y NO se crea en esta fase.
 

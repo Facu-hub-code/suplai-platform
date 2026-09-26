@@ -1,12 +1,16 @@
 ﻿---
 name: suplai-implementation-phase-03
-description: Fase 3 cross-sell y up-sell — relaciones mock coherentes por marca. Usar tras Fase 1.
+description: Fase 3 cross-sell y up-sell — origen real en modo completo; pares mock solo en demo. Usar tras Fase 1.
 ---
 
 # Fase 3 — Cross-sell y Up-sell
 
 > [!IMPORTANT]
 > **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
+
+## Modo datos finales
+
+Si `manifest.modo = completo`: **MUST NOT** inventar pares. Cargar solo con origen real. Si no hay → `omitido`.
 
 ## Input
 

@@ -132,7 +132,7 @@ Cliente, **después** de HTTP 2xx (el supervisor ya tiene JS).
 |--------|---------|
 | `sign_up_completed` | `contexts/auth-context.tsx` signup OK (`sign_up_method`, `platform`) |
 | `promo_creada` | `components/promotions-modal.tsx` POST `/api/promociones` |
-| `estrategia_creada` | `components/estrategias/strategy-form-context.tsx` create OK |
+| `estrategia_creada` | `components/estrategias/strategy-form-context.tsx` create OK (`modo`: `simple` / `smart`, spec 081) |
 | `vendedor_alta` | `components/vendedores/use-vendedores-management.tsx` POST `/api/vendedores` |
 | `objetivo_creado` | `components/field/FieldObjetivosAdmin.tsx` create OK |
 | `copilot_pregunta_enviada` | `components/copilot/CopilotChatView.tsx` `sendMessage` del usuario |

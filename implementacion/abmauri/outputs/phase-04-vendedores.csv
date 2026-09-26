@@ -1,0 +1,11 @@
+seller_ref,nombre,telefono,email,activo,is_mock
+VP-01,Vendedor Piloto 01,5491109000001,vendedor01@suplaisales.mock,True,True
+VP-02,Vendedor Piloto 02,5491109000002,vendedor02@suplaisales.mock,True,True
+VP-03,Vendedor Piloto 03,5491109000003,vendedor03@suplaisales.mock,True,True
+VP-04,Vendedor Piloto 04,5491109000004,vendedor04@suplaisales.mock,True,True
+VP-05,Vendedor Piloto 05,5491109000005,vendedor05@suplaisales.mock,True,True
+VP-06,Vendedor Piloto 06,5491109000006,vendedor06@suplaisales.mock,True,True
+VP-07,Vendedor Piloto 07,5491109000007,vendedor07@suplaisales.mock,True,True
+VP-08,Vendedor Piloto 08,5491109000008,vendedor08@suplaisales.mock,True,True
+VP-09,Vendedor Piloto 09,5491109000009,vendedor09@suplaisales.mock,True,True
+VP-10,Vendedor Piloto 10,5491109000010,vendedor10@suplaisales.mock,True,True

@@ -1,0 +1,13 @@
+{
+  "schema": "abmauri",
+  "source_year": 2026,
+  "source_invoices": 25695,
+  "closed_orders": 22463,
+  "open_orders": 7,
+  "orders_total": 22470,
+  "items_total": 66568,
+  "quantity_rule": "1 por SKU único en comprobante",
+  "pricing_rule": "lista piloto asignada al cliente",
+  "is_mock": true,
+  "excluded_invoices": 3232
+}

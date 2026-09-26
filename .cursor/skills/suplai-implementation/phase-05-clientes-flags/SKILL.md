@@ -8,6 +8,10 @@ description: Fase 5 flags clientes — ERP, prospectos y estado WhatsApp. Usar t
 > [!IMPORTANT]
 > **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
 
+## Modo datos finales
+
+Si `manifest.modo = completo`: aplicar flags solo sobre clientes reales de Fase 4. Si Fase 4 está `omitido` → esta fase también `omitido`. **MUST NOT** inventar 40 ERP + 10 prospectos.
+
 ## Input
 
 - `phase-04-clientes.csv` (códigos cliente)

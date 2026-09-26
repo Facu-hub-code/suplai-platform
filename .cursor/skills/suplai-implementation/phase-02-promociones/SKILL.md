@@ -1,12 +1,16 @@
 ﻿---
 name: suplai-implementation-phase-02
-description: Fase 2 promociones — 4 promos mock activas desde top rotación. Usar tras Fase 1 cargada.
+description: Fase 2 promociones — origen real en modo completo; 4 promos mock solo en demo. Usar tras Fase 1 cargada.
 ---
 
 # Fase 2 — Promociones
 
 > [!IMPORTANT]
 > **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
+
+## Modo datos finales
+
+Si `manifest.modo = completo` (default): **MUST NOT** inventar las 4 promos de la matriz. Cargar solo si hay origen real (Excel/CSV de promociones vigentes). Si no hay origen → `estado: omitido`.
 
 ## Input
 

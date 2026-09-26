@@ -16,12 +16,14 @@ Esta carpeta es tu **escritorio de trabajo** para cargar un distribuidor nuevo e
 
 5. Decile al agente: **"Implementar {nombre del schema}"** (ej. `colormix`).
 
-Credenciales demo del backoffice (siempre las mismas):
+Credenciales del owner del backoffice (siempre las mismas):
 
-- Email: `admin@{schema}.com`
+- Email: `admin@{schema}.com` (o el dominio real del cliente si hace falta)
 - Contraseña: **`Suplai2026`**
 
-En **demo agéntica** el catálogo que se carga son **80–100 productos** que representen el negocio (no el Excel entero). El universo queda en `inputs/catalogo-completo.csv`. Después se nutren esos SKUs (descripciones, aliases, Fase 1.2).
+**Default: datos finales.** Se carga el catálogo completo (SKUs con Precio > 0), `is_mock=false`, las listas y fotos que existan. No se inventan vendedores, clientes, pedidos ni promociones: esas fases se omiten hasta tener origen real.
+
+La **demo agéntica** (recorte 80–100 SKUs + mocks) solo se usa si lo pedís explícitamente. En ese caso el universo queda en `inputs/catalogo-completo.csv`.
 
 ## Estructura por tenant
 
@@ -48,14 +50,11 @@ implementacion/colormix/
 |------|----------|---------------|
 | 0 | Verifica tenant vacío | `phase-00-preflight.csv` |
 | 1 | Catálogo desde Excel | `phase-01-productos.csv` |
-| 2 | 4 promociones mock | `phase-02-promociones.csv` |
-| 3 | Cross-sell y up-sell | `phase-03-cross-sell.csv`, `phase-03-up-sell.csv` |
-| 4 | Vendedores, zonas, 50 clientes | `phase-04-*.csv` |
-| 5 | Flags ERP y WhatsApp | `phase-05-clientes-flags.csv` |
-| 6 | Pedidos históricos y abiertos | `phase-06-*.csv` |
-| 7 | Historial de chats | `phase-07-conversaciones-resumen.csv` |
-| 8 | Alertas / insights | `phase-08-notificaciones.csv` |
-| 9 | Purga mock (opcional) | `phase-09-purga-log.csv` |
+| 1.2 | Mejora de descripciones | `vista_previa_enriquecimiento.csv` |
+| 1.3 | Prompt del agente | `phase-01-3-prompt-config.json` |
+| 2–8 | Promos, red, pedidos, chats (solo con origen real; en demo: mocks) | `phase-0N-*.csv` |
+| 9 | Pruebas E2E | `outputs/reporte_e2e_*.md` |
+| 10 | Purga mock (solo si hubo demo) | `phase-10-purga-log.csv` |
 
 Detalle técnico: [docs/implementacion/flujo-agentico-resumen.md](../docs/implementacion/flujo-agentico-resumen.md).
 

@@ -13,7 +13,8 @@ description: Fase 1 catálogo — Excel a CSV de productos enriquecidos y carga 
 - [ ] Excel en `implementacion/{schema}/inputs/`
 - [ ] Confirmar columna de precio: **Precio Final** (reventa) salvo que el implementador diga Neto
 - [ ] Para multi-hoja (Colormix): consolidar todas las hojas
-- [ ] Si `manifest.modo = demo`: recorte **80–100 SKUs** descriptivos (ver abajo). Catálogo completo → `inputs/catalogo-completo.csv`
+- [ ] Default `manifest.modo = completo`: cargar **todos** los SKUs con Precio > 0. `is_mock=false`.
+- [ ] Si `manifest.modo = demo` (solo si el implementador pidió demo agéntica): recorte **80–100 SKUs**. Catálogo completo → `inputs/catalogo-completo.csv`
 
 ## Output
 
@@ -31,14 +32,15 @@ description: Fase 1 catálogo — Excel a CSV de productos enriquecidos y carga 
 | NLP en nombre | `categoria_2`..`categoria_4` |
 | Top ~20% marcas líderes del rubro | `rotacion_index` 0.75–0.95 |
 | Resto | Pareto hacia 0.1 |
-| LLM | `aliases` (pipe-separated en CSV), `descripcion` (ver reglas abajo), `image_url` placeholder |
-| Sin stock en Excel | `stock` 10–500 según rotación |
-| Simulación | `is_mock=true` en CSV |
+| LLM | `aliases` (pipe-separated en CSV), `descripcion` (ver reglas abajo) |
+| Imagen | URL real si hay Excel/fotos; si no, vacío. **MUST NOT** placeholder |
+| Sin stock en Excel | `stock` 10–500 según rotación (estimación operativa, no lista inventada) |
+| Flag | `is_mock=false` en modo completo; `is_mock=true` solo en demo |
 
 
 ## Reglas estrictas para `descripcion` (generación inicial sin búsqueda web)
 
-> ⚠️ Esta descripción es provisoria. La Fase 1.2 la mejora con búsqueda web solo para los N productos seleccionados. Por eso la calidad inicial importa: el resto nunca se enriquecerá.
+> ⚠️ Esta descripción es provisoria. En modo completo la Fase 1.2 enriquece **todos** los cargados. En demo, enriquece el recorte completo.
 
 1. **Longitud**: 10 a 25 palabras. Una sola oración breve.
 2. **Cero fluff/marketing**: Prohibido usar palabras como `delicioso`, `irresistible`, `suave`, `ideal`, `perfecto`, `descubre`, `disfruta`, `cautivará`, `atractivo`, `rotación rápida`, ni mencionar kioscos, ventas o márgenes.
@@ -49,11 +51,12 @@ description: Fase 1 catálogo — Excel a CSV de productos enriquecidos y carga 
 4. **Contenido permitido**: marca, sabor, formato físico (peso, presentación, unidades por bulto). Sin adornos.
 5. **Sin contexto inventado**: No incluir afirmaciones sobre comportamiento del consumidor, sugerencias de venta ni beneficios percibidos.
 
-## Listas de precios mock
+## Listas de precios
 
-Crear 4 listas con multiplicadores 1.00, 1.15, 0.90, 0.85 sobre `precio_lista_1` por SKU.
+- **Modo completo:** crear solo las listas que existan en el origen (una columna de precio → **una** lista). `is_mock=false`.
+- **Modo demo:** crear 4 listas con multiplicadores 1.00, 1.15, 0.90, 0.85 sobre `precio_lista_1` por SKU (`is_mock=true`).
 
-## Modo demo — recorte 80–100 (obligatorio si `modo: demo`)
+## Modo demo — recorte 80–100 (solo si `modo: demo`)
 
 El CSV de carga **no** es el Excel entero. Elegir **entre 80 y 100** SKUs que permitan una demo de WhatsApp creíble (el PdV pide lo que vende el negocio, no un dump).
 
@@ -75,6 +78,7 @@ Anotar `manifest.demo.productos_cargados` y `filas_csv`. Fase 1.2 enriquece **es
 
 - SKUs únicos
 - `precio_lista_1` > 0
+- En completo: `filas` = todos los SKUs con Precio > 0
 - En demo: `80 ≤ filas ≤ 100` (o todos si el origen es más chico)
 - Contar filas → anotar en manifest
 
@@ -84,7 +88,7 @@ Pedir: **"Revisá phase-01-productos.csv y confirmá carga"**.
 
 Orden sugerido:
 
-1. `INSERT` `{schema}.listas_precios` (4 filas) — anotar IDs, todas deben ser visibles (`listas_precios.activa = true` AND `listas_precios.es_publica = true`)
+1. `INSERT` `{schema}.listas_precios` (las que existan; en demo 4 filas) — anotar IDs, todas deben ser visibles (`listas_precios.activa = true` AND `listas_precios.es_publica = true`)
 2. `INSERT` `{schema}.productos` en lotes
 3. `INSERT` `{schema}.precios_productos` desde cada uno de los archivos `phase-01-lista-precios-*.csv`
 4. `INSERT` `{schema}.productos_aliases` (un alias por fila o split)

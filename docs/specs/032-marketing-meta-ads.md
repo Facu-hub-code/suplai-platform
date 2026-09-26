@@ -1,6 +1,6 @@
 # Spec 032 — Módulo Marketing Meta Ads (Click-to-WhatsApp)
 
-**Estado:** In progress  
+**Estado:** Deprecado en UI ([spec 081](./081-backoffice-deprecar-marketing-estrategias-en-clientes.md)). La sección y los proxies del backoffice se borraron; siguen vivos el router `/{schema}/marketing/*` del backend, las tablas `marketing_*` y la atribución `ctwa_clid` del agente.  
 **Fecha:** 2026-08-05  
 **Tipo:** Cross-repo (platform docs + backend + agent + backoffice)  
 **Relaciona:** geo_zones (territorio), promociones_semanales, WhatsApp Cloud API / CTWA

@@ -1,0 +1,13 @@
+{
+  "schema": "abmauri",
+  "productos": 182,
+  "modelo": "gpt-4o-mini",
+  "perfil": "tecnico_ampliado",
+  "web_search": "unavailable_serper_no_credits",
+  "openai_responses": 182,
+  "fallback_descriptions": 98,
+  "api_batch_failures": 0,
+  "description_strategy": "conservadora_taxonomia_erp",
+  "proactive_description_corrections": 182,
+  "verified_web_claims_used": 0
+}

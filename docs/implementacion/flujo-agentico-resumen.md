@@ -4,9 +4,13 @@ Resumen operativo del documento *Flujo Agéntico de Implementación*. Fuente de 
 
 ## Objetivo
 
-Poblar un tenant **recién registrado** (schema vacío) a partir del Excel de productos/precios del distribuidor. El resto de funcionalidades se completa con **datos mock contextuales** ligados a ese catálogo, para que back office, tienda y agente se vean operativos en la primera sesión.
+Poblar un tenant **recién registrado** (schema vacío) a partir del Excel de productos/precios del cliente.
 
-## Constantes unificadas (addendum)
+**Default (`modo: completo`):** datos finales. Catálogo completo, `is_mock=false`, listas y fotos reales. Las fases 2–8 se cargan solo con origen real; si no hay, se omiten. No se inventan mocks.
+
+**Demo agéntica (`modo: demo`, solo si se pide):** recorte 80–100 SKUs y el resto de funcionalidades con **datos mock contextuales** ligados a ese catálogo.
+
+## Constantes unificadas (addendum — solo modo demo)
 
 | Concepto | Valor |
 |----------|-------|
@@ -53,7 +57,10 @@ Excel → Catálogo (F1) → Tags (F1.1) → Mejora Descripciones (F1.2) → Pro
 - Imagen placeholder por rubro
 - `en_catalogo = true` siempre
 
-### Listas de precios mock (si solo hay una columna de precio)
+### Listas de precios
+
+- **Completo:** una columna de precio → una lista (`is_mock=false`).
+- **Demo:** si solo hay una columna, 4 listas mock:
 
 | Lista | Multiplicador sobre Lista 1 |
 |-------|----------------------------|

@@ -1,0 +1,16 @@
+base_product_code,related_product_code,reason,is_mock
+63250144,73166143,Comprados juntos en 1002 comprobantes entre 2024 y 2026; 51.7% de los comprobantes del producto base incluyeron el sugerido; lift 10.90.,False
+63230490,73166143,Comprados juntos en 858 comprobantes entre 2024 y 2026; 52.1% de los comprobantes del producto base incluyeron el sugerido; lift 10.99.,False
+72471156,73166143,Comprados juntos en 1067 comprobantes entre 2024 y 2026; 48.6% de los comprobantes del producto base incluyeron el sugerido; lift 10.24.,False
+61010195,72471156,Comprados juntos en 764 comprobantes entre 2024 y 2026; 48.5% de los comprobantes del producto base incluyeron el sugerido; lift 15.93.,False
+73164145,72471156,Comprados juntos en 559 comprobantes entre 2024 y 2026; 45.9% de los comprobantes del producto base incluyeron el sugerido; lift 15.06.,False
+72831145,72471156,Comprados juntos en 393 comprobantes entre 2024 y 2026; 47.5% de los comprobantes del producto base incluyeron el sugerido; lift 15.61.,False
+72810145,63250144,Comprados juntos en 834 comprobantes entre 2024 y 2026; 38.2% de los comprobantes del producto base incluyeron el sugerido; lift 14.21.,False
+73180145,72401155,Comprados juntos en 349 comprobantes entre 2024 y 2026; 43.8% de los comprobantes del producto base incluyeron el sugerido; lift 14.74.,False
+73093145,72810145,Comprados juntos en 555 comprobantes entre 2024 y 2026; 39.5% de los comprobantes del producto base incluyeron el sugerido; lift 13.05.,False
+73181145,63250144,Comprados juntos en 514 comprobantes entre 2024 y 2026; 39.8% de los comprobantes del producto base incluyeron el sugerido; lift 14.79.,False
+73044144,72810145,Comprados juntos en 514 comprobantes entre 2024 y 2026; 39.5% de los comprobantes del producto base incluyeron el sugerido; lift 13.04.,False
+73135145,63250144,Comprados juntos en 526 comprobantes entre 2024 y 2026; 38.8% de los comprobantes del producto base incluyeron el sugerido; lift 14.45.,False
+73165145,61010195,Comprados juntos en 369 comprobantes entre 2024 y 2026; 40.6% de los comprobantes del producto base incluyeron el sugerido; lift 18.62.,False
+72818145,63257144,Comprados juntos en 156 comprobantes entre 2024 y 2026; 47.0% de los comprobantes del producto base incluyeron el sugerido; lift 47.02.,False
+21010144,72920022,Comprados juntos en 478 comprobantes entre 2024 y 2026; 38.4% de los comprobantes del producto base incluyeron el sugerido; lift 8.54.,False

@@ -8,6 +8,10 @@ description: Fase 8 insights — 15-20 tickets ia_tickets con efecto cruzado en 
 > [!IMPORTANT]
 > **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
 
+## Modo datos finales
+
+Si `manifest.modo = completo`: **MUST NOT** inventar 15–20 tickets. Si no hay tickets reales → `omitido`.
+
 ## Input
 
 - Catálogo real e información de la marca líder del tenant (mapeado dinámicamente)

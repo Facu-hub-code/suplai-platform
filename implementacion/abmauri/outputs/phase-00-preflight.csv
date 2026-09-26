@@ -1,0 +1,9 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id 32a7bc9f-2505-461e-a3ab-ae610ba8e2b3
+schema_existe,Tablas en abmauri,ok,71 tablas base clonadas desde gonzales
+productos_vacio,COUNT productos = 0,ok,0 productos encontrados
+clients_vacio,COUNT clients = 0,ok,0 clientes encontrados
+mcp_conectado,MCP supabase responde,ok,proyecto cvlbietibaaehgeimxgw
+carpeta_implementacion,manifest.yaml presente,ok,implementacion/abmauri/manifest.yaml
+is_mock_column,Columna is_mock en productos,ok,columna presente
+excel_presente,Archivo en inputs/,ok,inputs/2026 - ABMauri - Resumen 23_09.xlsx

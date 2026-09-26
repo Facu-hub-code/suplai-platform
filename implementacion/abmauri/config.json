@@ -1,0 +1,6 @@
+{
+  "dominios": "calsaprofesionales.com.ar,calsa.com.ar,abmauri.com,distribuidoraalpes.com.ar",
+  "sufijo_fallback": "Calsa AB Mauri ingrediente panificacion Argentina ficha tecnica",
+  "modo_contexto": "ampliado",
+  "instrucciones_extra": "REGLAS AB MAURI / CALSA:\n1. Describir de forma B2B técnica y factual, sin marketing.\n2. Expandir abreviaturas evidentes: LEV=levadura, MARG=margarina, PREM=premezcla, MEJ=mejorador, HOJ=hojaldre, CJ=caja y BOL=bolsa.\n3. Conservar marca o línea solo si aparece en el nombre original.\n4. Incluir presentación y cantidad únicamente cuando estén explícitas en el nombre.\n5. No inventar ingredientes, certificaciones, rendimientos, aplicaciones, sabores ni beneficios.\n6. Alias: incluir nombre normalizado, tipo de producto, línea explícita y forma local de pedido por caja, bolsa, bidón, paquete o balde cuando corresponda."
+}

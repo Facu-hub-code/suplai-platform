@@ -1,12 +1,16 @@
 ﻿---
 name: suplai-implementation-phase-04
-description: Fase 4 red comercial — 3 vendedores, 6 zonas, 50 clientes mock geolocalizados. Usar tras Fase 3.
+description: Fase 4 red comercial — vendedores/zonas/clientes reales en modo completo; 3/6/50 mock solo en demo. Usar tras Fase 3.
 ---
 
 # Fase 4 — Red comercial
 
 > [!IMPORTANT]
 > **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
+
+## Modo datos finales
+
+Si `manifest.modo = completo`: **MUST NOT** inventar 3 vendedores / 6 zonas / 50 clientes. Cargar solo con origen real (planilla de vendedores, zonas o PdVs). Si no hay → `omitido`. `is_mock=false`.
 
 ## Input (obligatorio)
 

@@ -1,0 +1,1831 @@
+{
+  "schema": "abmauri",
+  "generation_method": "reglas_normalizadas_desde_excel",
+  "backend_attempt": {
+    "returned": 22,
+    "expected": 182,
+    "status": "truncated"
+  },
+  "products": [
+    {
+      "product_code": "11016001",
+      "nombre": "VIRGEN LEV. FRESCA PAQ 500G 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Frescas",
+        "4": "Levadura Fresca Prensada"
+      }
+    },
+    {
+      "product_code": "32025093",
+      "nombre": "PASTELGRAS GRASA CJX20KG - 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Grasas para Panificación",
+        "4": "Grasa Refinada"
+      }
+    },
+    {
+      "product_code": "40154114",
+      "nombre": "MTK MARG. MASAS CJ4PILX5KG - 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Masas",
+        "4": "Margarina para Masas"
+      }
+    },
+    {
+      "product_code": "73166030",
+      "nombre": "I360 PREM. PAN DE QUESO. BOL2KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Pan de Queso"
+      }
+    },
+    {
+      "product_code": "11016082",
+      "nombre": "VIRGEN LEV. FRESCA CJ 20 PAQ 500G 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Frescas",
+        "4": "Levadura Fresca Prensada"
+      }
+    },
+    {
+      "product_code": "11058181",
+      "nombre": "CALSA LPF CLASICA CJ 4D/20FP/50G 100 A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Frescas",
+        "4": "Levadura Fresca Prensada"
+      }
+    },
+    {
+      "product_code": "40178014",
+      "nombre": "PREMIUM MASAS LOW TRANS CJ4PILX5KG 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Masas",
+        "4": "Margarina para Masas"
+      }
+    },
+    {
+      "product_code": "11081082",
+      "nombre": "LEUDEX LEV. FRESCA CJ 20 PAQ 500G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Frescas",
+        "4": "Levadura Fresca Prensada"
+      }
+    },
+    {
+      "product_code": "40153114",
+      "nombre": "MTK MARG. HOJAL CJ4PILX5KG- 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "73166143",
+      "nombre": "I360 PREM. PAN DE QUESO. CJ6X2KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Pan de Queso"
+      }
+    },
+    {
+      "product_code": "72920022",
+      "nombre": "LP KOLAROMA LIMON BIDON 1 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Saborizantes Concentrados",
+        "4": "Kolaroma"
+      }
+    },
+    {
+      "product_code": "72401129",
+      "nombre": "LP ESENCIA VAIN. BIDON 5 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "40123015",
+      "nombre": "PARATAPAS MARG. TAPAS CJ2PILX10KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Tapas",
+        "4": "Margarina para Tapas"
+      }
+    },
+    {
+      "product_code": "40040015",
+      "nombre": "SUPER MARG. HOJ. # ** CJ2PILX10KG - 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "72401155",
+      "nombre": "LP ESENCIA VAIN. CJ 4X5 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "72471156",
+      "nombre": "LP ESENCIA MANTECA CJ 6X2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "72930022",
+      "nombre": "LP KOLAROMA NARANJA BIDON 1 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Saborizantes Concentrados",
+        "4": "Kolaroma"
+      }
+    },
+    {
+      "product_code": "72810145",
+      "nombre": "LP CREMA PASTELERA CJ6X3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Pasteleras",
+        "4": "Crema Pastelera"
+      }
+    },
+    {
+      "product_code": "15017082",
+      "nombre": "MAURIPAN LEV. SECA MS CJ 20 PAQ 500G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Secas",
+        "4": "Levadura Seca Instantánea"
+      }
+    },
+    {
+      "product_code": "72471021",
+      "nombre": "LP ESENCIA MANTECA BIDON 2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "31316093",
+      "nombre": "CALSA GRASA OLEOMARGARINA CJX20KG - 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Grasas para Panificación",
+        "4": "Oleomargarina"
+      }
+    },
+    {
+      "product_code": "63250144",
+      "nombre": "LP MEJ. FORMULA UNO CJ2X10 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Mejoradores",
+        "3": "Mejoradores Comunes",
+        "4": "Mejorador para Panificación"
+      }
+    },
+    {
+      "product_code": "72401021",
+      "nombre": "LP ESENCIA VAIN. BIDON 2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "40171014",
+      "nombre": "PREMIUM HOJ LOW TRANS CJ4PILX5KG - 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "40148014",
+      "nombre": "SELECTA MELANGE MASAS 0 TRANS CJ4PILX5KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Masas",
+        "4": "Margarina para Masas"
+      }
+    },
+    {
+      "product_code": "11057182",
+      "nombre": "CALSA LPF CLASICA CJ 4D/10FP/100G 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Frescas",
+        "4": "Levadura Fresca Prensada"
+      }
+    },
+    {
+      "product_code": "40185014",
+      "nombre": "PREMIUM HOJALDRE LT CJ4PILX5KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "40021015",
+      "nombre": "SUPER MARG. HOJAL ** CJ2PILX10KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "72970022",
+      "nombre": "LP KOLAROMA MANTECA BIDON 1 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Saborizantes Concentrados",
+        "4": "Kolaroma"
+      }
+    },
+    {
+      "product_code": "40017015",
+      "nombre": "MILHOJAS MARG. HOJAL # ** CJ2PILX10KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "63230490",
+      "nombre": "LP MEJ.CONC. CALSA MAX CJ 4X1,5 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Mejoradores",
+        "3": "Mejoradores Concentrados",
+        "4": "Mejorador para Panificación"
+      }
+    },
+    {
+      "product_code": "40011015",
+      "nombre": "MILHOJAS MARG. HOJAL ** CJ2PILX10KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "40156014",
+      "nombre": "MTK MARG. MASAS LT CJ4PILX5KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Masas",
+        "4": "Margarina para Masas"
+      }
+    },
+    {
+      "product_code": "15112184",
+      "nombre": "MI PAN LSF INSTANTANEA CJ 4D/50S/10G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Secas",
+        "4": "Levadura Seca Instantánea"
+      }
+    },
+    {
+      "product_code": "63250042",
+      "nombre": "LP MEJ. FORMULA UNO BOL.10 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Mejoradores",
+        "3": "Mejoradores Comunes",
+        "4": "Mejorador para Panificación"
+      }
+    },
+    {
+      "product_code": "61010195",
+      "nombre": "LP POLVO PARA HORNEAR FLOR CJ4X4 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Aditivos e Ingredientes",
+        "3": "Polvos de Hornear",
+        "4": "Polvo de Hornear"
+      }
+    },
+    {
+      "product_code": "64009144",
+      "nombre": "LP MEJ. MEJORMIGA CJ2X10 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Mejoradores",
+        "3": "Mejoradores Específicos",
+        "4": "Mejorador para Panificación"
+      }
+    },
+    {
+      "product_code": "73732130",
+      "nombre": "LP BAÑO ALFAJ. SEMIAMARGO CJ X 3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Baños y Coberturas",
+        "4": "Baño de Repostería"
+      }
+    },
+    {
+      "product_code": "72809160",
+      "nombre": "FLEISCH. CREMA VEGETAL VAIN. CJ 12X1 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Vegetales",
+        "4": "Crema Vegetal"
+      }
+    },
+    {
+      "product_code": "73093145",
+      "nombre": "LP PREM. BIZCOCHUELO VAI. CJ6X3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Bizcochuelos"
+      }
+    },
+    {
+      "product_code": "40124015",
+      "nombre": "GOLF MARG. MASAS CJ2PILX10KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Masas",
+        "4": "Margarina para Masas"
+      }
+    },
+    {
+      "product_code": "22015066",
+      "nombre": "LP MEJ DIASTASICO BALDE X5KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Aditivos e Ingredientes",
+        "3": "Maltas",
+        "4": "Extracto de Malta"
+      }
+    },
+    {
+      "product_code": "73181032",
+      "nombre": "LP. PREM. BUDIN BASE HUM VAIN BOL 3K",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Budines"
+      }
+    },
+    {
+      "product_code": "73135145",
+      "nombre": "LP. PREM. AKTIVO CEREALES CJ6X3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Preparados de Panadería"
+      }
+    },
+    {
+      "product_code": "73181145",
+      "nombre": "LP. PREM. BUDIN BASE HUM VAIN CJ 6X3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Budines"
+      }
+    },
+    {
+      "product_code": "73044144",
+      "nombre": "LP PREM. FACTURAS Y MEDIALUNAS CJ2X10 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Facturas y Medialunas"
+      }
+    },
+    {
+      "product_code": "72421156",
+      "nombre": "LP ESENCIA LIMON CJ 6X2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "72980022",
+      "nombre": "LP KOLAROMA CHOCO. BIDON 1 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Saborizantes Concentrados",
+        "4": "Kolaroma"
+      }
+    },
+    {
+      "product_code": "73167145",
+      "nombre": "I360 PREM. BROWNIE. CJ6X3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Preparados de Pastelería"
+      }
+    },
+    {
+      "product_code": "72940022",
+      "nombre": "LP KOLAROMA FRUTILLA BIDON 1 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Saborizantes Concentrados",
+        "4": "Kolaroma"
+      }
+    },
+    {
+      "product_code": "21010144",
+      "nombre": "LP HAR. DE MALTA MALTARINA CJ2X10 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Aditivos e Ingredientes",
+        "3": "Maltas",
+        "4": "Harina de Malta"
+      }
+    },
+    {
+      "product_code": "72809169",
+      "nombre": "FLEISCH. CREMA VEGETAL VAIN. PACK X1 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Vegetales",
+        "4": "Crema Vegetal"
+      }
+    },
+    {
+      "product_code": "72690193",
+      "nombre": "LP CHIPS SEMIAMARGO CAJA 4X1 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Chocolates",
+        "4": "Chocolate para Repostería"
+      }
+    },
+    {
+      "product_code": "73164145",
+      "nombre": "I360 PREM. MUFFIN VAIN. CJ6X3K",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Muffins"
+      }
+    },
+    {
+      "product_code": "15018082",
+      "nombre": "MAURIPAN LEV. SECA MD CJ 20 PAQ 500G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Secas",
+        "4": "Levadura Seca Instantánea"
+      }
+    },
+    {
+      "product_code": "61010034",
+      "nombre": "LP POLVO PARA HORNEAR FLOR BOLSA X 4KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Aditivos e Ingredientes",
+        "3": "Polvos de Hornear",
+        "4": "Polvo de Hornear"
+      }
+    },
+    {
+      "product_code": "73038145",
+      "nombre": "LP PREM. BIZCOCHUELO CHOCO. CJ6X3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Bizcochuelos"
+      }
+    },
+    {
+      "product_code": "11054190",
+      "nombre": "LEV. PRENS. FAMILIAR c/MM -CJ/8D/10P/50",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Frescas",
+        "4": "Levadura Fresca Prensada"
+      }
+    },
+    {
+      "product_code": "72950022",
+      "nombre": "LP KOLAROMA VAIN. BIDON 1 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Saborizantes Concentrados",
+        "4": "Kolaroma"
+      }
+    },
+    {
+      "product_code": "11044181",
+      "nombre": "CALSA LPF AMASA FACIL CJ 4D/20FP/50G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Frescas",
+        "4": "Levadura Fresca Prensada"
+      }
+    },
+    {
+      "product_code": "22015112",
+      "nombre": "LP MEJ DIASTASICO BALDE X28KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Aditivos e Ingredientes",
+        "3": "Maltas",
+        "4": "Extracto de Malta"
+      }
+    },
+    {
+      "product_code": "73108208",
+      "nombre": "I360 PREM. PAN CON SEMILLAS CAJ 4x5 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Panificados"
+      }
+    },
+    {
+      "product_code": "40027015",
+      "nombre": "SUPER MARG. HOJAL ** CJ2PILX10KG - 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "73108157",
+      "nombre": "I360 PREM. PAN CON SEMILLAS BOL 5 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Panificados"
+      }
+    },
+    {
+      "product_code": "34322093",
+      "nombre": "LIBERTINA GRASA CJX20KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Grasas para Panificación",
+        "4": "Grasa Refinada"
+      }
+    },
+    {
+      "product_code": "32001093",
+      "nombre": "HORNITO GRASA AO CJX20KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Grasas para Panificación",
+        "4": "Grasa Refinada"
+      }
+    },
+    {
+      "product_code": "21010042",
+      "nombre": "LP HAR. DE MALTA MALTARINA BOL X10 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Aditivos e Ingredientes",
+        "3": "Maltas",
+        "4": "Harina de Malta"
+      }
+    },
+    {
+      "product_code": "72441156",
+      "nombre": "LP ESENCIA COCO CJ 6X2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "72411156",
+      "nombre": "LP ESENCIA NARAN. CJ 6X2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "40173014",
+      "nombre": "PREMIUM MASA C/MAN LOW TRANS CJ 4PILx5KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Masas",
+        "4": "Margarina para Masas"
+      }
+    },
+    {
+      "product_code": "72401156",
+      "nombre": "LP ESENCIA VAIN. CJ 6X2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "72810032",
+      "nombre": "LP CREMA PASTELERA BOL.3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Pasteleras",
+        "4": "Crema Pastelera"
+      }
+    },
+    {
+      "product_code": "73733130",
+      "nombre": "LP BAÑO ALFAJ. BLANCO CJ X 3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Baños y Coberturas",
+        "4": "Baño de Repostería"
+      }
+    },
+    {
+      "product_code": "73163145",
+      "nombre": "I360 PREM. MUFFIN CHOCO. CJ6X3KG 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Muffins"
+      }
+    },
+    {
+      "product_code": "72421021",
+      "nombre": "LP ESENCIA LIMON BIDON 2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "73165145",
+      "nombre": "I360 PREM. CROISSANT. CJ6X3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Preparados de Pastelería"
+      }
+    },
+    {
+      "product_code": "73093032",
+      "nombre": "LP PREM. BIZCOCHUELO VAI. BOL.3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Bizcochuelos"
+      }
+    },
+    {
+      "product_code": "73109208",
+      "nombre": "I360 PREM. PAN CON CEREALES CAJ 4x5KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Panificados"
+      }
+    },
+    {
+      "product_code": "11081001",
+      "nombre": "LEUDEX LEV. FRESCA PAQ 500G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Frescas",
+        "4": "Levadura Fresca Prensada"
+      }
+    },
+    {
+      "product_code": "73038032",
+      "nombre": "LP PREM. BIZCOCHUELO CHOCO. BOL.3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Bizcochuelos"
+      }
+    },
+    {
+      "product_code": "73164032",
+      "nombre": "I360 PREM. MUFFIN VAIN. BOL3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Muffins"
+      }
+    },
+    {
+      "product_code": "72831145",
+      "nombre": "LP CREMA CHANTILLY PREMIUM CJ6X3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Pasteleras",
+        "4": "Crema Pastelera"
+      }
+    },
+    {
+      "product_code": "73103032",
+      "nombre": "LP. PREM. BUDIN HUM VAI BOL 3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Budines"
+      }
+    },
+    {
+      "product_code": "73103145",
+      "nombre": "LP. PREM. BUDIN HUM VAI 6X3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Budines"
+      }
+    },
+    {
+      "product_code": "73180145",
+      "nombre": "LP. PREM. BUDIN BASE HUM CHOCO CJ 6X3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Budines"
+      }
+    },
+    {
+      "product_code": "61010200",
+      "nombre": "LP POLVO PARA HORNEAR FLOR CJ8X2 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Aditivos e Ingredientes",
+        "3": "Polvos de Hornear",
+        "4": "Polvo de Hornear"
+      }
+    },
+    {
+      "product_code": "63257144",
+      "nombre": "LP MEJ. FORMULA UNO CJ2X10 KG 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Mejoradores",
+        "3": "Mejoradores Comunes",
+        "4": "Mejorador para Panificación"
+      }
+    },
+    {
+      "product_code": "40229015",
+      "nombre": "FLOR MARG. HOJAL ** CJ2PILX10KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "15017001",
+      "nombre": "MAURIPAN LEV. SECA MS PAQ 500G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Secas",
+        "4": "Levadura Seca Instantánea"
+      }
+    },
+    {
+      "product_code": "73167032",
+      "nombre": "I360 PREM. BROWNIE. BOL3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Preparados de Pastelería"
+      }
+    },
+    {
+      "product_code": "73094032",
+      "nombre": "LP PREM. ROSCA-PAN DULCE DUAL BOL. 3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Rosca y Pan Dulce"
+      }
+    },
+    {
+      "product_code": "63257042",
+      "nombre": "LP MEJ. FORMULA UNO BOL.10 KG 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Mejoradores",
+        "3": "Mejoradores Comunes",
+        "4": "Mejorador para Panificación"
+      }
+    },
+    {
+      "product_code": "72411021",
+      "nombre": "LP ESENCIA NARANJA BIDON 2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "40157014",
+      "nombre": "MTK MARG. HOJAL LT CJ4PILX5KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "31301093",
+      "nombre": "BIZCOCHINA GRASA 35 CJX20KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Grasas para Panificación",
+        "4": "Grasa Refinada"
+      }
+    },
+    {
+      "product_code": "72690033",
+      "nombre": "LP CHIPS SEMIAMARGO BOL. X1 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Chocolates",
+        "4": "Chocolate para Repostería"
+      }
+    },
+    {
+      "product_code": "73180032",
+      "nombre": "LP. PREM. BUDIN BASE HUM CHOCO BOL 3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Budines"
+      }
+    },
+    {
+      "product_code": "63230486",
+      "nombre": "LP MEJ.CONC. CALSA MAX POTE X1,5 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Mejoradores",
+        "3": "Mejoradores Concentrados",
+        "4": "Mejorador para Panificación"
+      }
+    },
+    {
+      "product_code": "73094145",
+      "nombre": "LP PREM. ROSCA-PAN DULCE CJ6X3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Rosca y Pan Dulce"
+      }
+    },
+    {
+      "product_code": "62010132",
+      "nombre": "LP EMULSIONANTE GEL POTE X4 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Aditivos e Ingredientes",
+        "3": "Emulsionantes",
+        "4": "Emulsionante"
+      }
+    },
+    {
+      "product_code": "73135032",
+      "nombre": "LP PREM. AKTIVO CEREALES BOL.3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Preparados de Panadería"
+      }
+    },
+    {
+      "product_code": "11066082",
+      "nombre": "DUQUESA LEV. FRESCA CJ 20 PAQ 500G 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Frescas",
+        "4": "Levadura Fresca Prensada"
+      }
+    },
+    {
+      "product_code": "40184015",
+      "nombre": "GOLF MARG. MASAS LT CJ2PILX10KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Masas",
+        "4": "Margarina para Masas"
+      }
+    },
+    {
+      "product_code": "72910022",
+      "nombre": "LP KOLAROMA CAFÉ BIDON 1 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Saborizantes Concentrados",
+        "4": "Kolaroma"
+      }
+    },
+    {
+      "product_code": "73109157",
+      "nombre": "I360 PREM. PAN CON CEREALES BOL 5 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Panificados"
+      }
+    },
+    {
+      "product_code": "40190093",
+      "nombre": "MARG PREM. MASAS/BATIDOS 0%TRANS-Cajx20K",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Masas",
+        "4": "Margarina para Masas"
+      }
+    },
+    {
+      "product_code": "32402090",
+      "nombre": "RICABE GRASA CJ20SACHX1KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Grasas para Panificación",
+        "4": "Grasa Refinada"
+      }
+    },
+    {
+      "product_code": "63230493",
+      "nombre": "LP MEJ.CONC. CALSA MAX CJ 12X500 G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Mejoradores",
+        "3": "Mejoradores Concentrados",
+        "4": "Mejorador para Panificación"
+      }
+    },
+    {
+      "product_code": "32026093",
+      "nombre": "IDEALINA GRASA CJX20KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Grasas para Panificación",
+        "4": "Grasa Refinada"
+      }
+    },
+    {
+      "product_code": "73102145",
+      "nombre": "LP. PREM. BUDIN HUM CHOCO 6X3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Budines"
+      }
+    },
+    {
+      "product_code": "72830145",
+      "nombre": "LP CREMA CHANTILLY CLASSIC CJ6X3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Pasteleras",
+        "4": "Crema Pastelera"
+      }
+    },
+    {
+      "product_code": "61010030",
+      "nombre": "LP POLVO PARA HORNEAR FLOR BOLSA X 2KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Aditivos e Ingredientes",
+        "3": "Polvos de Hornear",
+        "4": "Polvo de Hornear"
+      }
+    },
+    {
+      "product_code": "72441021",
+      "nombre": "LP ESENCIA COCO BIDON 2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "73163032",
+      "nombre": "I360 PREM. MUFFIN CHOCO. BOL3KG 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Muffins"
+      }
+    },
+    {
+      "product_code": "72461156",
+      "nombre": "LP ESENCIA PAN DULCE CJ 6X2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "73165032",
+      "nombre": "I360 PREM. CROISSANT. BOL3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Preparados de Pastelería"
+      }
+    },
+    {
+      "product_code": "64009042",
+      "nombre": "LP MEJ. MEJORMIGA BOL.10 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Mejoradores",
+        "3": "Mejoradores Específicos",
+        "4": "Mejorador para Panificación"
+      }
+    },
+    {
+      "product_code": "73094144",
+      "nombre": "LP PREM. ROSCA-PAN DULCE CJ2X10 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Rosca y Pan Dulce"
+      }
+    },
+    {
+      "product_code": "31220093",
+      "nombre": "DELICROK ACEITE LT1 CJX20KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Aceites para Panificación",
+        "4": "Aceite Vegetal"
+      }
+    },
+    {
+      "product_code": "72818145",
+      "nombre": "LP CREMA PASTELERA CJ6X3 KG 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Pasteleras",
+        "4": "Crema Pastelera"
+      }
+    },
+    {
+      "product_code": "22030067",
+      "nombre": "LP EXT. DE MALTA EXTRAMALT BALDE X12 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Aditivos e Ingredientes",
+        "3": "Maltas",
+        "4": "Extracto de Malta"
+      }
+    },
+    {
+      "product_code": "40182014",
+      "nombre": "PREMIUM HOJ. C/MAN LT CJ 4PILx5KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "72461021",
+      "nombre": "LP ESENCIA PAN DULCE BIDON 2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "73102032",
+      "nombre": "LP. PREM. BUDIN HUM CHOCO BOL 3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Budines"
+      }
+    },
+    {
+      "product_code": "31521093",
+      "nombre": "MR. CHOC ACEITE 927 0 TRANS CJX20KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Aceites para Panificación",
+        "4": "Aceite Vegetal"
+      }
+    },
+    {
+      "product_code": "15018001",
+      "nombre": "MAURIPAN LEV. SECA MD PAQ 500G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Secas",
+        "4": "Levadura Seca Instantánea"
+      }
+    },
+    {
+      "product_code": "40172014",
+      "nombre": "PREMIUM HOJ. C/MAN LOW TRANS CJ 4PILx5KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "73126144",
+      "nombre": "LP PREM. MUFFIN VIN. CJ2X10 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Muffins"
+      }
+    },
+    {
+      "product_code": "72451156",
+      "nombre": "LP ESENCIA ALMENDRA CJ 6X2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "31520093",
+      "nombre": "MR. CHOC ACEITE 913 0 TRANS CJX20KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Aceites para Panificación",
+        "4": "Aceite Vegetal"
+      }
+    },
+    {
+      "product_code": "40179014",
+      "nombre": "PREMIUM MASAS LT CJ4PILX5KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Masas",
+        "4": "Margarina para Masas"
+      }
+    },
+    {
+      "product_code": "72451021",
+      "nombre": "LP ESENCIA ALMEN. BIDON 2 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Esencias y Colorantes",
+        "3": "Esencias",
+        "4": "Esencia Alimentaria"
+      }
+    },
+    {
+      "product_code": "40143114",
+      "nombre": "MTK MARG. HOJAL CJ4PILX5KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "73016179",
+      "nombre": "LP PREM. COOKIES CJ7X3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Cookies"
+      }
+    },
+    {
+      "product_code": "72804160",
+      "nombre": "LP CREMA VEG REFRIGERATTO CJ 12X1 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Vegetales",
+        "4": "Crema Vegetal"
+      }
+    },
+    {
+      "product_code": "72803160",
+      "nombre": "LP CREMA VEG CHOCOLATE UHT CJ 12X1 LT",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Vegetales",
+        "4": "Crema Vegetal"
+      }
+    },
+    {
+      "product_code": "72804169",
+      "nombre": "LP CREMA VEG REFRIGERATTO PACK X1",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Vegetales",
+        "4": "Crema Vegetal"
+      }
+    },
+    {
+      "product_code": "31310093",
+      "nombre": "BIZCOCHINA ACEITE 0% TRANS CJX20KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Aceites para Panificación",
+        "4": "Aceite Vegetal"
+      }
+    },
+    {
+      "product_code": "11054192",
+      "nombre": "LEV. PRENS. FAMILIAR C/MM -CJ/4D/10P/50",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Frescas",
+        "4": "Levadura Fresca Prensada"
+      }
+    },
+    {
+      "product_code": "11044196",
+      "nombre": "CALSA LPF AMASA FACIL CJ 2D/20FP/50G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Frescas",
+        "4": "Levadura Fresca Prensada"
+      }
+    },
+    {
+      "product_code": "73094042",
+      "nombre": "LP PREM. ROSCA-PAN DULCE DUAL BOLX10KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Rosca y Pan Dulce"
+      }
+    },
+    {
+      "product_code": "11085082",
+      "nombre": "VIRGEN LEV. FRESCA MECAN. CJ 20 PAQ 500G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Frescas",
+        "4": "Levadura Fresca Prensada"
+      }
+    },
+    {
+      "product_code": "73136145",
+      "nombre": "LP. PREM. EKILIBRIUM FIBRA CJ6X3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Preparados de Panadería"
+      }
+    },
+    {
+      "product_code": "72818032",
+      "nombre": "LP CREMA PASTELERA BOL.3 KG 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Pasteleras",
+        "4": "Crema Pastelera"
+      }
+    },
+    {
+      "product_code": "11056190",
+      "nombre": "CALSA LPF CLASICA CJ 8D/10FP/50G 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Frescas",
+        "4": "Levadura Fresca Prensada"
+      }
+    },
+    {
+      "product_code": "64020195",
+      "nombre": "LP MEJ. PANES BLANDOS CJ 4x4 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Preparados de Panadería"
+      }
+    },
+    {
+      "product_code": "72803169",
+      "nombre": "LP CREMA VEG CHOCOLATE UHT PACK X1",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Vegetales",
+        "4": "Crema Vegetal"
+      }
+    },
+    {
+      "product_code": "33717093",
+      "nombre": "FA 201 P3 - VER - CJ20KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Grasas para Panificación",
+        "4": "Grasa Refinada"
+      }
+    },
+    {
+      "product_code": "73016032",
+      "nombre": "LP PREM. COOKIES BOL.3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Cookies"
+      }
+    },
+    {
+      "product_code": "72760193",
+      "nombre": "LP BAÑO MOLDEO SEMIAMARGO CJ 4X1 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Baños y Coberturas",
+        "4": "Baño de Repostería"
+      }
+    },
+    {
+      "product_code": "72710130",
+      "nombre": "LP COBERTURA SEMIAMARGO CJ X 3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Chocolates",
+        "4": "Chocolate para Repostería"
+      }
+    },
+    {
+      "product_code": "73044042",
+      "nombre": "LP PREM. FACTURAS Y MEDIALUNAS BOL.10 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Facturas y Medialunas"
+      }
+    },
+    {
+      "product_code": "13010035",
+      "nombre": "VIRGEN LEV. ALIM. NATURAL BOLSA 25KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Alimenticias",
+        "4": "Levadura Alimenticia"
+      }
+    },
+    {
+      "product_code": "72740193",
+      "nombre": "LP BAÑO MOLDEO BLANCO CJ 4X1 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Baños y Coberturas",
+        "4": "Baño de Repostería"
+      }
+    },
+    {
+      "product_code": "40183015",
+      "nombre": "SUPER MARG. HOJAL LT# CJ2PILX10KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "73086145",
+      "nombre": "I360 PREM.BUDIN CON AVENA FRUTAS CJ6x3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Budines"
+      }
+    },
+    {
+      "product_code": "73084145",
+      "nombre": "I360 PREM. BUDIN CON GRANOLA CJ6X3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Budines"
+      }
+    },
+    {
+      "product_code": "13010105",
+      "nombre": "NUTRILEVA LEV. ALIM. NAT. CJ 36E/BOL500G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Alimenticias",
+        "4": "Levadura Alimenticia"
+      }
+    },
+    {
+      "product_code": "13010092",
+      "nombre": "NUTRILEVA LEV. ALIM. NAT. CJ 100E/BOL200",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Alimenticias",
+        "4": "Levadura Alimenticia"
+      }
+    },
+    {
+      "product_code": "13011092",
+      "nombre": "NUTRILEVA LEV ALIM. QUESO CJ 100E/BOL200",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Alimenticias",
+        "4": "Levadura Alimenticia"
+      }
+    },
+    {
+      "product_code": "73086032",
+      "nombre": "I360 PREM.BUDIN CON AVENA FRUTAS BOLx3KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Budines"
+      }
+    },
+    {
+      "product_code": "40181014",
+      "nombre": "PREMIUM MASA C/MAN LT CJ 4PILx5KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Masas",
+        "4": "Margarina para Masas"
+      }
+    },
+    {
+      "product_code": "73084032",
+      "nombre": "I360 PREM. BUDIN CON GRANOLA BOL. X3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Budines"
+      }
+    },
+    {
+      "product_code": "63240490",
+      "nombre": "LP MEJ.CONC. FORMULA N CJ 4X1,5 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Mejoradores",
+        "3": "Mejoradores Concentrados",
+        "4": "Mejorador para Panificación"
+      }
+    },
+    {
+      "product_code": "72740033",
+      "nombre": "LP BAÑO MOLDEO BLANCO BOL. X1 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Baños y Coberturas",
+        "4": "Baño de Repostería"
+      }
+    },
+    {
+      "product_code": "15017042",
+      "nombre": "MAURIPAN LEV. SECA MS PAQ 500G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Secas",
+        "4": "Levadura Seca Instantánea"
+      }
+    },
+    {
+      "product_code": "72760033",
+      "nombre": "LP BAÑO MOLDEO SEMIAMARGO BOL. X1 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Baños y Coberturas",
+        "4": "Baño de Repostería"
+      }
+    },
+    {
+      "product_code": "22018114",
+      "nombre": "LP EXT. DE MALTA B. VISC. TAMBOR x260KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Aditivos e Ingredientes",
+        "3": "Maltas",
+        "4": "Extracto de Malta"
+      }
+    },
+    {
+      "product_code": "15017097",
+      "nombre": "LEV. INSTANTANEA \"MAURI\" -CJ 20P.X500G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Secas",
+        "4": "Levadura Seca Instantánea"
+      }
+    },
+    {
+      "product_code": "73136032",
+      "nombre": "LP. PREM. EKILIBRIUM FIBRA BOL.3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Preparados de Panadería"
+      }
+    },
+    {
+      "product_code": "40024015",
+      "nombre": "SUPER MARG. HOJAL # ** CJ2PILX10KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Margarinas para Hojaldre",
+        "4": "Margarina para Hojaldre"
+      }
+    },
+    {
+      "product_code": "13012092",
+      "nombre": "NUTRILEVA LEV ALIM. MANZ. CJ 100E/BOL200",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Levaduras",
+        "3": "Levaduras Alimenticias",
+        "4": "Levadura Alimenticia"
+      }
+    },
+    {
+      "product_code": "63240486",
+      "nombre": "LP MEJ.CONC. FORMULA N POTE X1,5 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Mejoradores",
+        "3": "Mejoradores Concentrados",
+        "4": "Mejorador para Panificación"
+      }
+    },
+    {
+      "product_code": "32402033",
+      "nombre": "RICABE GRASA SACHX1KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Grasas y Margarinas",
+        "3": "Grasas para Panificación",
+        "4": "Grasa Refinada"
+      }
+    },
+    {
+      "product_code": "64020034",
+      "nombre": "LP MEJ. PANES BLANDOS BOL x 4KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Panadería",
+        "4": "Preparados de Panadería"
+      }
+    },
+    {
+      "product_code": "63230492",
+      "nombre": "LP MEJ.CONC. CALSA MAX POTE X500 G",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Mejoradores",
+        "3": "Mejoradores Concentrados",
+        "4": "Mejorador para Panificación"
+      }
+    },
+    {
+      "product_code": "72830032",
+      "nombre": "LP CREMA CHANTILLY CLASSIC BOL.3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Pasteleras",
+        "4": "Crema Pastelera"
+      }
+    },
+    {
+      "product_code": "72831032",
+      "nombre": "LP CREMA CHANTILLY PREMIUM BOL.3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Pasteleras",
+        "4": "Crema Pastelera"
+      }
+    },
+    {
+      "product_code": "10001106",
+      "nombre": "CALSA LEVADURA FLUIDA - PALECON",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Ingredientes de Pastelería",
+        "3": "Cremas Pasteleras",
+        "4": "Crema Pastelera"
+      }
+    },
+    {
+      "product_code": "73069032",
+      "nombre": "LP PREM. MUFFINS CHOCO. BOL.3 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Muffins"
+      }
+    },
+    {
+      "product_code": "73091180",
+      "nombre": "I360 PM. BUDIN GIRAS&YOG CJ7x2 KG 100A",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Budines"
+      }
+    },
+    {
+      "product_code": "73107208",
+      "nombre": "I360 PREM. PAN AVENA CAJ 4 x 5 KG",
+      "tags": {
+        "1": "Panificación y Pastelería",
+        "2": "Premezclas",
+        "3": "Premezclas de Pastelería",
+        "4": "Panificados"
+      }
+    }
+  ]
+}

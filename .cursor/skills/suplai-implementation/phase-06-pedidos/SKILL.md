@@ -8,6 +8,10 @@ description: Fase 6 pedidos — histórico cerrado y 6-7 pedidos abiertos. Usar 
 > [!IMPORTANT]
 > **MANDATORIO**: Antes de proceder con esta fase, el agente debe leer **SIEMPRE** el archivo `skill-guide.md` correspondiente a esta skill para asegurar la correcta ejecución del flujo y validación de los datos.
 
+## Modo datos finales
+
+Si `manifest.modo = completo`: cargar solo pedidos reales (ERP/Excel). Si no hay origen → `omitido`. **MUST NOT** inventar histórico ni bandeja abierta. `is_mock=false`.
+
 ## Input
 
 - Clientes con `lista_precios_id`

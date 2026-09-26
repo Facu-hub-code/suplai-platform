@@ -36,7 +36,8 @@ Antes de ejecutar la Fase 1, asegúrate de contar con los siguientes elementos:
 ### 1. Lectura y Consolidación del Excel
 - Leer el archivo Excel provisto.
 - En caso de hojas múltiples (por ejemplo, en el caso de distribuidores como Colormix), consolidar todas las filas en una única estructura de datos unificada, mapeando la hoja origen al campo `fuente_hoja`.
-- Si `manifest.modo = demo` y hay más de 100 SKUs con Precio Final > 0: **no cargar todos**. Guardar el universo en `inputs/catalogo-completo.csv` y recortar **80–100** SKUs descriptivos del negocio (marca líder / exclusivos, una muestra de cada línea, formatos que se piden por WhatsApp, marcas de zona y competencia). Completar cupos sin saturar una sola familia. Nutrir descripciones y aliases de **todo** el recorte; la Fase 1.2 los vuelve a enriquecer a todos.
+- Default `manifest.modo = completo`: cargar **todos** los SKUs con Precio Final > 0. `is_mock=false`. Una columna de precio → una lista. Fotos reales si existen; si no, `image_url` vacío (nunca placeholder).
+- Si `manifest.modo = demo` (solo si pidieron demo agéntica) y hay más de 100 SKUs con Precio Final > 0: **no cargar todos**. Guardar el universo en `inputs/catalogo-completo.csv` y recortar **80–100** SKUs descriptivos del negocio (marca líder / exclusivos, una muestra de cada línea, formatos que se piden por WhatsApp, marcas de zona y competencia). Completar cupos sin saturar una sola familia. Nutrir descripciones y aliases de **todo** el recorte; la Fase 1.2 los vuelve a enriquecer a todos.
 
 ### 2. Procesamiento e Inferencias Comerciales
 Por cada producto (fila), aplicar las siguientes reglas para completar los campos enriquecidos:
@@ -65,13 +66,14 @@ Por cada producto (fila), aplicar las siguientes reglas para completar los campo
        - ❌ `Descubre los irresistibles Ravioles DeViano, ideales para compartir en familia...`
     4. **Contenido permitido**: marca, sabor, formato físico (peso, presentación, unidades por bulto). Sin adornos.
     5. **Sin contexto inventado**: No incluir afirmaciones sobre comportamiento del consumidor, sugerencias de venta ni beneficios percibidos.
-  - > ⚠️ Esta descripción es provisoria. La Fase 1.2 la mejora con búsqueda web solo para los N productos seleccionados. El resto de los productos conservará esta descripción inicial de forma permanente.
-  - Asignar un `image_url` placeholder descriptivo basado en la categoría.
-- **Stock por Defecto**: Si el Excel no provee stock real, asignar valores simulados de stock entre `10` y `500` unidades según el índice de rotación.
-- **Flag de Simulación**: Establecer `is_mock = true` para diferenciar los datos de prueba de los reales de producción.
+  - > ⚠️ Esta descripción es provisoria. En modo completo la Fase 1.2 enriquece todos los cargados.
+  - `image_url`: URL real si hay fotos; si no, vacío. **MUST NOT** placeholder.
+- **Stock por Defecto**: Si el Excel no provee stock real, asignar valores estimados de stock entre `10` y `500` unidades según el índice de rotación.
+- **Flag**: `is_mock = false` en modo completo. `is_mock = true` solo en demo agéntica.
 
-### 3. Generación de Listas de Precios Mock
-Si el Excel solo incluye una columna de precio (Precio Lista 1), se deben simular **4 listas de precios independientes** aplicando multiplicadores fijos sobre el precio base:
+### 3. Listas de precios
+- **Modo completo:** una columna de precio → **una** lista (`is_mock=false`). No inventar 4 listas.
+- **Modo demo:** si el Excel solo incluye una columna de precio, simular **4 listas** con multiplicadores fijos:
 
 | ID de Lista | Nombre Comercial | Multiplicador sobre Lista 1 |
 |---|---|---|
@@ -99,7 +101,8 @@ Al finalizar el procesamiento, se deben escribir los siguientes archivos en la c
 Una vez que el implementador ha revisado y confirmado el contenido de los CSVs generados, el agente de IA debe aplicar la carga ejecutando las siguientes sentencias de inserción (vía Supabase MCP):
 
 ### 1. Inserción de Listas de Precios
-Asegurar la existencia de las 4 listas de precios en la tabla del esquema correspondiente:
+En modo completo: insertar **solo** las listas reales (ej. una `Lista única`, `is_mock=false`).
+En modo demo: las 4 listas simuladas:
 ```sql
 INSERT INTO {schema}.listas_precios (id, nombre, descripcion, is_mock) 
 VALUES 

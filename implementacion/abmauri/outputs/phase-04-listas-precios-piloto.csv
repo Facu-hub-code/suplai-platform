@@ -1,0 +1,4 @@
+id,nombre,descripcion,multiplicador,is_mock
+1,Piloto interno - Default,Precio estimado base del piloto interno,1.00,True
+2,Piloto interno - Minorista,Precio estimado minorista: 15% sobre lista default,1.15,True
+3,Piloto interno - Mayorista,Precio estimado mayorista: 10% bajo lista default,0.90,True

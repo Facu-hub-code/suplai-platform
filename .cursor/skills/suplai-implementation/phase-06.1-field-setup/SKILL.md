@@ -11,6 +11,10 @@ description: >
 > **MANDATORIO**: Leer `skill-guide.md` antes de ejecutar cualquier paso.
 > Esta fase modifica `public.distribuidoras.metadata` y crea datos en tablas `field_*`.
 
+## Modo datos finales
+
+Si `manifest.modo = completo`: no sembrar tareas, torneos ni pedidos Field mock. Ejecutar solo si hay vendedores reales y el cliente usa Field. Si no → `omitido`.
+
 ## Input
 
 - Fase 6 cargada (`pedidos` + `items_pedido` en BD).
