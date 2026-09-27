@@ -135,3 +135,15 @@ fases:
 
 marca_lider: "DPM"
 tenant_id: "cba04456-bd69-434c-b257-9e8fcf12b144"
+
+erp:
+  proveedor: "Sistel"
+  host: "asp12.selfip.net:3448"
+  auth: "JWT — POST /auth/login + Bearer"
+  usuario: "SuplaiSales"
+  credenciales: "implementacion/rawson/.env (SISTEL_PASS, fuera de git)"
+  alias_semilla: "raw_productos"
+  conector_backend: null
+  estado: "bloqueado — sin conectividad TCP al puerto 3448 (2026-09-26)"
+  plan: outputs/erp-rawson-api-sistel.md
+  probe: scripts/probe_sistel.py
