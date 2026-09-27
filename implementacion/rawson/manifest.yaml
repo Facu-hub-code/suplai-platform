@@ -150,3 +150,4 @@ erp:
   bloqueo: "pedir whitelist de la IP de salida; el host responde ICMP pero filtra 80/443/3448/8080"
   plan: outputs/erp-rawson-api-sistel.md
   probe: scripts/probe_sistel.py
+  handoff: outputs/handoff-erp-sistel.md   # sondeo delegado a un dev con salida en Argentina
