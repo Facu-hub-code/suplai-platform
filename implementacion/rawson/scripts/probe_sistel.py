@@ -42,6 +42,12 @@ USERNAME = os.environ.get("SISTEL_USER", "")
 PASSWORD = os.environ.get("SISTEL_PASS", "")
 TIMEOUT = int(os.environ.get("SISTEL_TIMEOUT", "30"))
 
+# El host es DNS dinámico (selfip.net, TTL 60) y algunos resolvers de ISP
+# devuelven la IP de parking en vez de la real. Resolvemos por DNS-over-HTTPS
+# y pegamos contra la IP con cabecera Host.
+HOST_REAL = urllib.parse.urlsplit(BASE_URL).hostname or ""
+IP_EFECTIVA = ""
+
 # Alias conocidos + candidatos a tantear si GET /vistas no los expone.
 ALIAS_SEMILLA = "raw_productos"
 ALIAS_CANDIDATOS = [
@@ -55,11 +61,74 @@ ALIAS_CANDIDATOS = [
 ]
 
 
+def resolver_doh(host: str) -> str:
+    """IP del host según Google DoH, ignorando el resolver del sistema."""
+    url = f"https://dns.google/resolve?name={urllib.parse.quote(host)}&type=A"
+    try:
+        import ssl
+
+        try:
+            import certifi
+
+            contexto = ssl.create_default_context(cafile=certifi.where())
+        except ImportError:
+            contexto = ssl.create_default_context()
+        with urllib.request.urlopen(url, timeout=10, context=contexto) as resp:
+            payload = json.load(resp)
+    except Exception as exc:
+        print(f"[dns] DoH falló ({type(exc).__name__}: {exc}) — se usa el resolver del sistema")
+        return ""
+    for respuesta in payload.get("Answer") or []:
+        if respuesta.get("type") == 1:
+            return respuesta.get("data", "")
+    return ""
+
+
+def preflight() -> None:
+    """Compara DNS local vs DoH y tantea el puerto antes de gastar el login."""
+    global IP_EFECTIVA
+
+    import socket
+
+    try:
+        ip_local = socket.gethostbyname(HOST_REAL)
+    except OSError as exc:
+        ip_local = f"error: {exc}"
+    ip_doh = resolver_doh(HOST_REAL)
+
+    print(f"[dns] {HOST_REAL} → local={ip_local}  doh={ip_doh or 'n/d'}")
+    if ip_doh and ip_doh != ip_local:
+        print(f"[dns] discrepancia: se fuerza {ip_doh} con cabecera Host: {HOST_REAL}")
+        IP_EFECTIVA = ip_doh
+
+    destino = IP_EFECTIVA or (ip_local if not ip_local.startswith("error") else "")
+    puerto = urllib.parse.urlsplit(BASE_URL).port or 80
+    if not destino:
+        return
+    sock = socket.socket()
+    sock.settimeout(8)
+    try:
+        sock.connect((destino, puerto))
+        print(f"[tcp] {destino}:{puerto} abierto")
+    except Exception as exc:
+        print(f"[tcp] {destino}:{puerto} sin conexión — {type(exc).__name__}: {exc}")
+        print("[tcp] el host filtra el puerto: pedir a Sistel whitelist de la IP de salida")
+    finally:
+        sock.close()
+
+
 def _request(method: str, path: str, *, token: str | None = None, body: dict | None = None):
-    url = f"{BASE_URL}{path}"
+    if IP_EFECTIVA:
+        partes = urllib.parse.urlsplit(BASE_URL)
+        autoridad = f"{IP_EFECTIVA}:{partes.port}" if partes.port else IP_EFECTIVA
+        url = f"{partes.scheme}://{autoridad}{path}"
+    else:
+        url = f"{BASE_URL}{path}"
     data = json.dumps(body).encode() if body is not None else None
     req = urllib.request.Request(url, data=data, method=method)
     req.add_header("Accept", "application/json")
+    if IP_EFECTIVA:
+        req.add_header("Host", HOST_REAL)
     if data is not None:
         req.add_header("Content-Type", "application/json")
     if token:
@@ -146,6 +215,7 @@ def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     print(f"Base: {BASE_URL}  usuario: {USERNAME}")
 
+    preflight()
     token = login()
     vistas = descubrir_vistas(token)
 

@@ -10,7 +10,8 @@
 | Campo | Valor |
 |---|---|
 | Host | `asp12.selfip.net:3448` |
-| `base_url` | `http://asp12.selfip.net:3448` (esquema a confirmar: ver bloqueo) |
+| IP real | `186.123.180.126` (DNS dinámico, TTL 60 — no cablearla) |
+| `base_url` | `http://asp12.selfip.net:3448` — **HTTP plano**, Sistel descartó HTTPS |
 | Auth | JWT — `POST /auth/login` → `access_token` + `refresh_token` |
 | Header | `Authorization: Bearer <access_token>` |
 | Usuario | `SuplaiSales` |
@@ -18,42 +19,63 @@
 | Alias semilla | `raw_productos` |
 | Conector Suplai | ninguno — `core.erp_connector_configs` sin fila para el tenant |
 
-## Estado del tenant (2026-09-26)
+## Estado del tenant (verificado 2026-09-27)
 
 La carga actual es la **demo agéntica** de 2026-08-21, no datos reales:
 
-| Tabla | Filas | Origen |
+| Tabla | Filas | `is_mock` |
 |---|---|---|
-| `rawson.productos` | 80 | mock demo (recorte de 148 del catálogo web) |
-| `rawson.clients` | 50 | mock |
-| `rawson.vendedores` | 3 | mock |
-| `rawson.listas_precios` | 4 | mock |
-| `rawson.pedidos` | 141 | mock |
+| `rawson.productos` | 80 | 80 — recorte de 148 del catálogo web |
+| `rawson.clients` | 50 | 50 |
+| `rawson.vendedores` | 3 | 3 |
+| `rawson.listas_precios` | 4 | sin flag |
+| `rawson.precios_productos` | 320 | sin flag |
+| `rawson.pedidos` | 141 | **139** — hay 2 pedidos sin marcar |
 
-Pasar a datos reales del ERP implica **purga previa** (Fase 10, frase `PURGE MOCK rawson`) antes de recargar Fases 1, 4 y 5.
+Pasar a datos reales del ERP implica **purga previa** (Fase 10, frase `PURGE MOCK rawson`) antes de recargar Fases 1, 4 y 5. Los 2 pedidos sin `is_mock` hay que revisarlos a mano antes de purgar: o son residuo de la demo sin marcar, o tráfico real de alguna prueba con el agente.
 
-## BLOQUEANTE — no hay conectividad al host
+## BLOQUEANTE — el host filtra nuestro tráfico TCP
 
-Sondeos del 2026-09-26 desde la red del implementador:
+Diagnóstico del 2026-09-27. Son **dos problemas distintos**, uno ya resuelto de nuestro lado:
+
+### 1. DNS envenenado (resuelto en el script)
+
+| Resolver | Respuesta |
+|---|---|
+| Resolver del sistema (Vodafone ES) | `208.91.112.55` — IP de parking de `selfip.net`, no es el servidor |
+| DoH Google y Cloudflare | `186.123.180.126` — IP real, TTL 60 |
+
+Coincide con lo que reportó Sistel por WhatsApp: su `ping` devolvía `186.123.180.126` y concluyeron *"algo está resolviendo mal tu cliente DNS"*. `asp12.selfip.net` es DNS dinámico con TTL 60; el resolver del ISP sirve la IP de parking.
+
+`probe_sistel.py` ya no depende del resolver del sistema: resuelve por DoH, pega contra la IP y manda `Host: asp12.selfip.net`. Como el servicio es HTTP plano, no hay TLS que valide el nombre.
+
+### 2. Firewall con whitelist de IP (bloqueante real)
+
+Contra la IP correcta, desde `46.25.71.106` (Vodafone España, Valencia):
 
 | Prueba | Resultado |
 |---|---|
-| `dig asp12.selfip.net` | resuelve a `208.91.112.55` |
-| TCP `asp12.selfip.net:3448` | timeout (sin `connection refused`: puerto filtrado o host caído) |
-| `POST http://…:3448/auth/login` | timeout a los 15 s |
-| `GET https://…:3448/vistas` | timeout a los 15 s |
+| `ping 186.123.180.126` | **responde** — 3/3 paquetes, 277 ms, ruta a Argentina |
+| TCP `186.123.180.126:3448` | timeout |
+| TCP puertos 80, 443, 8080 | timeout |
+| `POST /auth/login` (IP + Host header) | timeout |
 
-El puerto no rechaza la conexión, la descarta: es el patrón de **firewall con whitelist de IP** o de un **DNS dinámico desactualizado** (`selfip.net` es dominio de DNS dinámico; la IP devuelta tiene pinta de parking, no de servidor Sistel).
+El host está vivo y enrutable — contesta ICMP — pero **descarta en silencio todo TCP**, no solo el 3448. Descarte silencioso en todos los puertos con ICMP OK es firewall con lista blanca de IP de origen, muy probablemente restringido a Argentina. Encaja con que Sistel vea el `404 Cannot GET /` del servicio desde su red y nosotros no lleguemos.
 
-Hay que resolverlo con Sistel/Rawson antes de cualquier extracción. A pedir al proveedor:
+### Qué pedirle a Sistel
 
-1. ¿El host y puerto son correctos y el servicio está arriba ahora?
-2. ¿`http` o `https` en 3448?
-3. ¿Hay whitelist de IPs de origen? Si sí, habilitar la IP del implementador y la IP de salida de Railway (backend productivo) para el sync recurrente.
-4. ¿La API corre en **modo simple** o **flexible**? Cambia qué rutas y filtros están permitidos (manual §4).
-5. Tabla de alias `raw_*` → significado de negocio, y qué vistas existen además de `raw_productos` (clientes, vendedores, precios, listas, stock, pedidos).
-6. Límite máximo de `limit` por página.
-7. Si vamos a inyectar pedidos: alias y nombres de campos de `POST /operaciones/:alias` o `POST /deal`.
+Bloqueante:
+
+1. **Habilitar en el firewall la IP de salida** del implementador (`46.25.71.106`, dinámica de Vodafone: puede cambiar) y confirmar si la restricción es por IP o por geolocalización.
+2. Para el sync recurrente en producción hace falta una **IP de salida fija**. Railway no garantiza egress estático en el plan actual: hay que decidir entre proxy de salida con IP fija, VPN site-to-site, o que Sistel exponga el servicio con autenticación fuerte sin whitelist.
+
+Contrato (se pueden responder en paralelo, no bloquean la whitelist):
+
+3. ¿La API corre en **modo simple** o **flexible**? Cambia qué rutas y filtros están permitidos (manual §4).
+4. Tabla de alias `raw_*` → significado de negocio, y qué vistas existen además de `raw_productos` (clientes, vendedores, precios, listas, stock, pedidos).
+5. Límite máximo de `limit` por página.
+6. Si vamos a inyectar pedidos: alias y nombres de campos de `POST /operaciones/:alias` o `POST /deal`.
+7. Vigencia del `access_token` y si `POST /auth/refresh` está habilitado (define si cacheamos token o relogueamos por corrida).
 
 ## Contrato de la API (resumen del manual)
 
@@ -74,7 +96,9 @@ Hay que resolverlo con Sistel/Rawson antes de cualquier extracción. A pedir al 
 
 ### Etapa 0 — desbloquear la conexión (bloqueante)
 
-Resolver las 7 preguntas de arriba con Sistel. Verificación: `probe_sistel.py` llega a `[login] OK`.
+Conseguir la whitelist de IP (punto 1 de arriba). Verificación: `probe_sistel.py` imprime `[tcp] … abierto` y `[login] OK`.
+
+Si Sistel tarda, hay dos caminos para no frenar el descubrimiento: correr el probe desde una salida en Argentina (VPN o una VM), o pedirles un volcado de `GET /vistas` y 5 filas por alias para ir armando el mapeo a ciegas.
 
 ### Etapa 1 — descubrimiento y mapeo
 
@@ -103,13 +127,15 @@ Revisión humana de los CSV **antes** de tocar la base (guardrail de implementac
 ### Etapa 3 — purga del mock y carga real
 
 1. `manifest.yaml`: `modo: demo` → `modo: completo`.
-2. Fase 10 con la frase exacta `PURGE MOCK rawson` (80 productos, 50 clientes, 3 vendedores, 141 pedidos mock).
+2. Resolver los 2 pedidos sin `is_mock` (ver estado del tenant) y después Fase 10 con la frase exacta `PURGE MOCK rawson`.
 3. Recargar Fase 1 (catálogo completo, `is_mock=false`), Fase 1.1 categorías, Fase 1.2 descripciones, Fase 4 y Fase 5 desde los CSV del ERP.
 4. Verificar conteos CSV vs `COUNT(*)` y actualizar `manifest.yaml`.
 
 ### Etapa 4 — conector `sistel` en el backend (opcional, posterior)
 
-La extracción por script es una foto: no hay sync recurrente ni inyección de pedidos. Para eso hace falta un conector de producto en `backend-supabase`, que **sí requiere rama feature + PR** (es código de producto, no carga de tenant):
+La extracción por script es una foto: no hay sync recurrente ni inyección de pedidos. Para eso hace falta un conector de producto en `backend-supabase`, que **sí requiere rama feature + PR** (es código de producto, no carga de tenant).
+
+El conector genérico `custom_rest` no alcanza: solo acepta api_key, bearer estático o basic, y Sistel exige `POST /auth/login` para obtener el token. Hay que escribir uno nuevo.
 
 | Paso | Archivo |
 |---|---|
