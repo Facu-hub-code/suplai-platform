@@ -25,6 +25,8 @@ Credenciales del owner del backoffice (siempre las mismas):
 
 La **demo agéntica** (recorte 80–100 SKUs + mocks) solo se usa si lo pedís explícitamente. En ese caso el universo queda en `inputs/catalogo-completo.csv`.
 
+Campaña outbound del mapa: el precio de Google sale de la plataforma (`core.directory_provider`) y el mensaje sale por el **mismo WhatsApp del agente**. Al implementador hay que pedirle el **margen %**. Si no lo tiene, queda pendiente: no se inventa.
+
 ## Estructura por tenant
 
 Copiá `_template/` a una carpeta con el nombre del schema:

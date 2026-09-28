@@ -13,6 +13,9 @@ description: Fase 0 preflight — verificar tenant vacío y listo para implement
 - [ ] `schema_name` (ej. `colormix`)
 - [ ] Ruta del Excel en `implementacion/{schema}/inputs/` (o confirmar que lo copiará)
 - [ ] Confirmación verbal: "es un tenant nuevo / vacío"
+- [ ] WhatsApp del agente ya cargado (`whatsapp.phone_id`). El outbound sale por ese mismo número. No pedir otro.
+- [ ] `economia.margen_pct`: margen sobre la venta, en porcentaje. Si no lo sabe, anotar `pendiente`. No usar 15.
+- [ ] `outbound.quality`: solo si Meta ya informó que no es `HIGH`. Vacío significa que el producto asume `HIGH`.
 
 ## Output (único artefacto)
 
@@ -34,6 +37,8 @@ check_id,descripcion,resultado,evidencia
 | carpeta_implementacion | manifest.yaml presente | ok |
 | is_mock_column | Columna is_mock en productos | ok / pendiente |
 | excel_presente | Archivo en inputs/ | ok / pendiente |
+| agent_whatsapp | Existe `whatsapp.phone_id` del agente. El outbound usa ese número | ok / pendiente |
+| margen_pct | Margen sobre venta informado por el cliente | ok / pendiente |
 
 ## Procedimiento MCP
 

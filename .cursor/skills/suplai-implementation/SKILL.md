@@ -15,6 +15,28 @@ Guía al **implementador no técnico** fase por fase. No mezclar fases en un sol
 4. Aplicar reglas: `suplai-implementation-guardrails`, `suplai-implementation-mcp-writes`, `suplai-implementation-no-branch`.
 5. **No abrir rama git** ni worktree: trabajar en el checkout actual, en `implementacion/{schema_name}/`.
 
+## Campaña outbound del mapa
+
+El precio del directorio **no** se carga por tenant. Sale de `core.directory_provider` (`google_places`, SKU Text Search Enterprise). Un override en `metadata.places_providers.google_places.price_per_request_usd` solo si el contrato de esa distribuidora es otro precio. No inventar 0,032 ni 1,10.
+
+El outbound usa el mismo Phone Number ID del agente (`tenant_secrets` `whatsapp.phone_id`). No pedir un número aparte ni bloquear si coincide con el de atención.
+
+Pedir al implementador y guardar en `manifest.yaml` y en `public.distribuidoras.metadata` (solo con el valor que él confirme):
+
+| Variable | Dónde | Si no está |
+|---|---|---|
+| `economia.margen_pct` | Margen sobre la venta, en porcentaje | El funnel no muestra múltiplo. No usar 15. |
+| `outbound.quality` | `HIGH`, `MEDIUM` o `LOW` según Meta | Vacío: el producto asume `HIGH` y deja enviar. |
+
+Para publicar también hacen falta, de fases anteriores: lista de precios pública (Fase 1) y zona con vendedor principal (Fase 4). La plantilla se elige en la app de Plantillas; no se crea en el wizard.
+
+Reporte de huecos (no escribe teléfono ni margen):
+
+```bash
+cd backend && source venv/bin/activate
+python scripts/backfill_campana_outbound_config.py
+```
+
 ## Credenciales del owner (obligatorio)
 
 Al crear el owner del backoffice:
