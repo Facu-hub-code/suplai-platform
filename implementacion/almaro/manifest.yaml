@@ -28,7 +28,7 @@ fases:
     output_csv_extra: outputs/phase-01-lista-precios-*.csv
     filas_csv: 943
     cargado_at: "2026-08-09T12:50:00Z"
-    notas: "Clon gonzales ERP_01. 943 productos, 4 listas, 3772 precios, 1942 aliases. Vectorize encolado 943. 2026-09-21: packing alta 1280 SKUs desde nombres GEV; luego 1749 SKUs corregidos con maestro Excel UMV (outputs/propuesta-packing-umv-excel-20260921.csv)."
+    notas: "Clon gonzales ERP_01. 943 productos, 4 listas, 3772 precios, 1942 aliases. Vectorize encolado 943. 2026-09-21: packing alta 1280 SKUs desde nombres GEV; luego 1749 SKUs corregidos con maestro Excel UMV (outputs/propuesta-packing-umv-excel-20260921.csv). 2026-09-28: 92 SKUs con UM de ventas bulto pasaron a unidad_minima_de_venta=BULTO (helados 15285/15286/15287). 3043 productos quedaron en 78 categorías de la columna Segmento del Excel."
   "01.1":
     nombre: tags
     estado: cargado
@@ -36,7 +36,7 @@ fases:
     output_json_extra: outputs/phase-01-1-propuesta-tags.json
     filas_csv: 943
     cargado_at: "2026-08-09T13:30:00Z"
-    notas: "943 productos con tags+categorías. populate-from-tags HTTP 500 (bug categoria_ids) pero datos OK. RAG category_documents rebuild local OK."
+    notas: "2026-09-28: categorías reemplazadas por la columna Segmento del Excel (78 categorías, 3043 productos). La taxonomía de IA anterior quedó vacía y se borró."
   "01.2":
     nombre: mejora_descripciones
     estado: cargado
