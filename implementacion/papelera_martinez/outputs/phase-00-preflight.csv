@@ -1,0 +1,12 @@
+check_id,descripcion,resultado,evidencia
+distribuidora_existe,Registro en public.distribuidoras,ok,tenant_id: 690029e7-5400-4f39-b1c0-11f777edf24a
+schema_existe,Tablas en papelera_martinez,ok,78 tablas base verificadas via list_tables
+productos_vacio,COUNT productos = 0,ok,0 productos encontrados
+clients_vacio,COUNT clients = 0,ok,0 clientes encontrados
+mcp_conectado,MCP supabase responde,ok,conectado
+carpeta_implementacion,manifest.yaml presente,ok,implementacion/papelera_martinez/manifest.yaml
+is_mock_column,Columna is_mock en productos,ok,columna presente
+excel_presente,Archivo en inputs/,ok,inputs/lista-precios.pdf (31 paginas Lista 2)
+agent_whatsapp,Existe whatsapp.phone_id del agente. El outbound usa ese numero,pendiente,sin filas en public.tenant_secrets
+margen_pct,Margen sobre venta informado por el cliente,pendiente,no informado
+owner_backoffice,Owner demo creado,ok,admin@papeleramartinez.com
