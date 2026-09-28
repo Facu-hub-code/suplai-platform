@@ -1,4 +1,4 @@
-﻿---
+---
 name: suplai-implementation-phase-04
 description: Fase 4 red comercial — vendedores/zonas/clientes reales en modo completo; 3/6/50 mock solo en demo. Usar tras Fase 3.
 ---
@@ -38,6 +38,10 @@ Si `manifest.modo = completo`: **MUST NOT** inventar 3 vendedores / 6 zonas / 50
   - **Tipado Geométrico**: Representación espacial estrictamente formateada como `MultiPolygon` con SRID 4326: `SRID=4326;MULTIPOLYGON(((lon lat, lon lat, ...)))` para evitar fallas PostGIS.
   - **Enumerador `zone_type`**: Usar valores enums permitidos por el esquema (ej. `'sales'` o `'route'`). NO usar términos no soportados como `'territory'`.
 - Clientes: ferreterías/pinturerías/corralones si rubro pintura; `lista_precios_id` 1–4 distribuido; teléfonos únicos.
+
+## Campaña outbound
+
+Publicar una campaña de la zona exige `vendedor_principal` en esa zona. Sin ese vendedor el alta del prospecto no sale. No inventar un vendedor para destrabar el outbound.
 
 ## Campos OBLIGATORIOS en manifest.yaml (a partir de Fase 4)
 

@@ -14,7 +14,7 @@ Esta entrega es **solo el input outbound**. El anuncio de Meta (inbound) no se c
 
 ## Objetivo
 
-Desde el mapa comercial, el operador arma una **campaña outbound de una zona**: define el cliente ideal, busca comercios en un directorio, elige plantillas ya aprobadas y les escribe con un número de prospección. El panel de la zona y el funnel muestran si esa inversión se paga en margen.
+Desde el mapa comercial, el operador arma una **campaña outbound de una zona**: define el cliente ideal, busca comercios en un directorio, elige plantillas ya aprobadas y les escribe con el mismo número de WhatsApp del agente. El panel de la zona y el funnel muestran si esa inversión se paga en margen.
 
 El directorio de v1 es Google Places. El producto no puede quedar atado a ese precio ni a esa API: cambiar de proveedor no reescribe campaña, funnel ni atribución.
 
@@ -42,7 +42,7 @@ El directorio de v1 es Google Places. El producto no puede quedar atado a ese pr
 | % de respuesta | Dos números, siempre juntos y etiquetados | Meta cuenta su `replied` con sus reglas. Suplai cuenta un mensaje del comercio en nuestra conversación. No son el mismo hecho | Un solo % «de respuesta» mezclando las dos fuentes |
 | Funnel | Seis etapas del ciclo de vida, tasa **sobre la etapa anterior**, cohorte explícita. v1 abre solo la pestaña Outbound | El boceto ya lo pide («Qué mide» y «Fuente» siempre visibles). Sin cohorte los % no se pueden auditar | Un KPI suelto de «pedidos / mensajes»; calcular la tasa siempre sobre captación |
 | Alta | El prospecto se persiste **antes** del HSM, igual que 071 | Si Graph falla, el comercio ya está y el inbound no cae al recepcionista | Mandar el HSM y crear el cliente solo si responde |
-| Número | WhatsApp de prospección distinto del de atención. Tope 50 mensajes de plantilla nuevos por día (timezone del tenant). Pausa de envíos nuevos si la calidad del número no es alta | Resguardo del boceto y del Miro: un bloqueo de Meta no puede tumbar el canal de pedidos | Usar el número de atención; tope solo en el front |
+| Número | El mismo Phone Number ID del agente (`whatsapp.phone_id`). Tope 50 mensajes de plantilla nuevos por día (timezone del tenant). Pausa de envíos nuevos si la calidad del número no es alta | No hay un segundo número: el agente ya es el canal de la distribuidora. El tope y la pausa por calidad son el resguardo | Pedir un `outbound.phone_number_id` distinto y bloquear si coincide con el de atención |
 | Opt-out | Un «no» (o pedido de baja) corta esa campaña y bloquea el teléfono para todo outbound futuro del tenant | El Miro pide salida inmediata. Reescribirle quema el número | Opt-out solo de esa plantilla |
 | Margen | `margen_pct` del tenant. Si no está cargado, el resultado no inventa un múltiplo | En el Miro el 15% y los 6 meses son hipótesis. Mostrar «11,5x» sin margen configurado es falso | Usar 15% por defecto |
 | Decisor | Reusar `refer_decision_maker` (071). El toggle de la campaña lo habilita para esos prospectos | La tool ya existe. Este spec no redefine el swap de primario | Prospecto hijo en otra tabla desconectada del PDV |
@@ -89,7 +89,7 @@ Mismo panel lateral de la zona. Switch **Zona | Inbound | Outbound**. Inbound de
 
 Con outbound activo, el panel muestra:
 
-- Estado: «Outbound activo · número de prospección» (o el motivo por el que no se puede enviar).
+- Estado: «Outbound activo · número del agente» (o el motivo por el que no se puede enviar).
 - KPIs: comercios encontrados, primeros mensajes, tasa de respuesta **Suplai**, decisores identificados, pedidos, costo por cliente nuevo.
 - Prueba de plantillas: nombre corto, `% respuesta Suplai · N envíos`, pill Ganadora o En prueba. Debajo, en tipo más chico, `% respuesta Meta`.
 - Resguardos: tope diario, calidad del número, opt-out.
@@ -126,7 +126,7 @@ El toggle del boceto («Sumar outbound a esta campaña») no aplica: la campaña
 - Si no hay ninguna aprobada: estado vacío y link a Plantillas. Publicar queda deshabilitado.
 - Copy fijo: con dos plantillas, «Se envía al 50% de los prospectos». Con una, «Se envía al 100%».
 - Toggle **Identificar decisor**, con el texto del boceto.
-- Caja de resguardos, no editable: número de prospección separado, 50 mensajes por día, baja inmediata ante un no, pausa si la calidad baja de alta.
+- Caja de resguardos, no editable: mismo número del agente, 50 mensajes por día, baja inmediata ante un no, pausa si la calidad baja de alta.
 
 **Publicar**
 
@@ -248,7 +248,7 @@ Sin texto, o sin al menos un tipo, no hay búsqueda.
 
 ## Resguardos de envío
 
-- Número de prospección configurado en el tenant, distinto del número de atención. Sin esa config, publicar está bloqueado.
+- El envío usa el Phone Number ID del agente (`tenant_secrets` `whatsapp.phone_id`). Sin ese secreto, publicar está bloqueado.
 - Tope: 50 primeros mensajes de plantilla por día por ese número, timezone del tenant. La cola sigue al día siguiente. Un HSM de decisor cuenta para el mismo tope.
 - Calidad: si el rating del número en Meta no es el nivel alto (verde), se pausan los envíos nuevos y el panel lo dice. No se reintenta en loop.
 - Opt-out: frase de baja o tool de opt-out marca el teléfono en una lista del tenant. Ninguna campaña outbound futura lo incluye. La baja es inmediata, sin segundo mensaje.
@@ -349,7 +349,7 @@ Sin texto, o sin al menos un tipo, no hay búsqueda.
 ## Casos borde
 
 - `CB-1` Zona sin polígono o proveedor sin precio: no se busca; error accionable.
-- `CB-2` Sin número de prospección, o es el mismo que el de atención: publicar bloqueado.
+- `CB-2` Sin WhatsApp del agente: publicar bloqueado. Si el número existe, el outbound sale por ese mismo id.
 - `CB-3` Teléfono ya cliente o ya en opt-out: no entra a la lista tildeable.
 - `CB-4` Tope de 50 alcanzado: el resto queda en cola con fecha el día siguiente. No se fuerza el envío.
 - `CB-5` Plantilla con variables que el backend no llena: no aparece como elegible.
@@ -370,12 +370,14 @@ Tablas nuevas en el schema del tenant (nombres orientativos; la migración vive 
 - `funnel_daily`: `date`, `zone_id`, `campaign_id`, `channel`, conteos de las seis etapas más `activacion_observable` y `retencion_observable` (denominadores) y `margin_estimated`.
 - `outbound_opt_out`: `phone`, `campaign_id` de origen, `created_at`. Unique por teléfono en el tenant.
 
-Config en `public.distribuidoras.metadata` (jsonb ya existente):
+Config:
 
-- `prospeccion.icp_saved` se extiende con `provider_id` y `provider_types`. Los registros viejos de 071 se leen como `google_places`.
-- `economia.margen_pct` (nullable).
-- `outbound.phone_number_id` distinto del de atención.
-- `places_providers.google_places.price_per_request_usd`.
+- `core.directory_provider`: precio por request del directorio, igual para todos los tenants. `google_places` es el SKU Text Search Enterprise (teléfono + rating), US$ 0,035. Un override opcional vive en `metadata.places_providers.google_places.price_per_request_usd` solo si el contrato de esa distribuidora es otro.
+- `public.distribuidoras.metadata` (jsonb ya existente):
+  - `prospeccion.icp_saved` se extiende con `provider_id` y `provider_types`. Los registros viejos de 071 se leen como `google_places`.
+  - `economia.margen_pct` (nullable, dato del cliente; sin él no hay múltiplo).
+  - No hay `outbound.phone_number_id`. El envío usa `whatsapp.phone_id` del agente.
+  - `outbound.quality` opcional. Vacío se lee como `HIGH`.
 
 **Seed / backfill:** no se migran campañas históricas: 071 no creó entidad campaña. Los `google_place_id` viejos se interpretan al leer, sin backfill masivo.
 
@@ -424,7 +426,7 @@ Mixpanel: si se agregan eventos de UI, se documentan en el spec 073 en el mismo 
 
 ## Plan de prueba humana (antes del PR)
 
-**Servicios:** backend `8000`, backoffice `3000` (`BACKEND_URL=http://localhost:8000`). Tenant `demo` con una zona poligonal, lista pública, número de prospección distinto del de atención, y al menos una plantilla marketing `APPROVED`. `margen_pct` cargado en una pasada y vacío en otra.
+**Servicios:** backend `8000`, backoffice `3000` (`BACKEND_URL=http://localhost:8000`). Tenant `demo` con una zona poligonal, lista pública, WhatsApp del agente configurado, y al menos una plantilla marketing `APPROVED`. `margen_pct` cargado en una pasada y vacío en otra.
 
 1. Mapa → zona → pestaña Outbound vacía → **Nueva campaña outbound**.
 2. Escribir un ICP, sugerir tipos, confirmar el paso, cerrar. Reabrir: el ICP está prellenado.
