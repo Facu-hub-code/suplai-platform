@@ -6,7 +6,7 @@
 **Ramas sugeridas:** `feat/campana-outbound-mapas`  
 **Diseño:** [Suplai Sales · Campañas por zona](https://www.figma.com/design/kxhYfCkXazqA5JYElB4xvD/Suplai-Sales-%C2%B7-Campa%C3%B1as-por-zona) — pantallas `02 Panel de zona · Outbound` (`5:2`), `05 Wizard · Outbound` (`6:135`), `03 Funnel de la zona` (`5:128`) y modelo de datos (`8:195`).  
 **Contexto de negocio:** tablero Miro [Ciclo de vida del cliente](https://miro.com/app/board/uXjVHj-XzZA=/), etapa 2 del workflow de campaña.  
-**Relaciona:** [071](./071-maps-icp-prospeccion-decisor.md) (prospección, ICP guardado, alta antes del HSM, tool decisor), [070](./070-whatsapp-estado-webhook-agenda.md) (estados de plantilla), [073](./073-mixpanel-analytics.md).
+**Relaciona:** [071](./071-maps-icp-prospeccion-decisor.md) (prospección, ICP guardado, alta antes del HSM, tool decisor), [084](./084-agente-prospeccion-funnel.md) (agente que califica el chat y el kanban de Conversaciones; emite `qualified` y `decision_maker_found`), [070](./070-whatsapp-estado-webhook-agenda.md) (estados de plantilla), [073](./073-mixpanel-analytics.md).
 
 Esta entrega es **solo el input outbound**. El anuncio de Meta (inbound) no se construye acá.
 

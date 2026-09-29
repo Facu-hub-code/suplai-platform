@@ -4,7 +4,7 @@
 **Fecha:** 2026-09-18  
 **Repos:** `suplai-platform` (este doc), `backend-supabase`, `product-management-app`, `agente-conversacional-multi_tenant`  
 **Ramas sugeridas:** `feat/prospeccion-sofia-plantilla-picker` (wizard plantilla / hold cron); epic previa `feat/maps-icp-prospeccion`  
-**Relaciona:** mapa comercial / zonas blancas; alta PDV; plantillas Meta; [069](./069-copilot-prospeccion-barrio.md) (Copilot/Juan, **no** se modifica); [029](./029-client-memory-wizard-agendas-1a1.md); agent spec 066 (swap primario/secundario); agent spec 034 (opt-in de tools)
+**Relaciona:** mapa comercial / zonas blancas; alta PDV; plantillas Meta; [069](./069-copilot-prospeccion-barrio.md) (Copilot/Juan, **no** se modifica); [029](./029-client-memory-wizard-agendas-1a1.md); agent spec 066 (swap primario/secundario); agent spec 034 (opt-in de tools); [084](./084-agente-prospeccion-funnel.md) (el inbound de un prospecto sin handoff lo atiende el agente de prospección, no el vendedor)
 
 ---
 
