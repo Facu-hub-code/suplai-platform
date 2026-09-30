@@ -20,6 +20,9 @@ notas: |
   Implementación con datos finales (no demo agéntica): todos los SKUs con Precio > 0, is_mock=false.
   7 SKUs a precio 0 se excluyen. 2 SKUs duplicados se unifican.
   Fases 01.1 y 02–08 omitidas por falta de origen real (no se generan mocks).
+  2026-09-30: WhatsApp reubicado desde distribuidora_saffadi.
+  Canal del agente: 5493582430647 (antes 5493541607139, sin secretos Meta).
+  Secretos: whatsapp.client_id, client_secret, long_live_token, phone_id, waba.
 modo: completo
 demo:
   productos_cargados: 510
@@ -64,7 +67,7 @@ fases:
     estado: cargado
     output_json: outputs/phase-01-3-prompt-config.json
     cargado_at: "2026-09-17T14:30:00Z"
-    notas: "Kiki, WA 5493541607139. Lista única. Followups creados desactivados. Sin promociones."
+    notas: "Kiki, WA 5493582430647 (reubicado desde distribuidora_saffadi el 2026-09-30). Lista única. Followups creados desactivados. Sin promociones."
   "02":
     nombre: promociones
     estado: omitido

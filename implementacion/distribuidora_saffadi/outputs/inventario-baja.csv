@@ -1,0 +1,27 @@
+recurso,ubicacion,cantidad,accion,notas
+tenant,public.distribuidoras,1,eliminar,id=99e26d8d-81c6-4c10-904d-5d3d942714fb schema=distribuidora_saffadi
+schema,distribuidora_saffadi,78 tablas,DROP CASCADE,productos=857 clients=2469 pedidos=36 vendedores=9 vendedores_clientes=17325
+whatsapp.client_id,public.tenant_secrets,1,mover a kiki_market,value_enc sin descifrar
+whatsapp.client_secret,public.tenant_secrets,1,mover a kiki_market,value_enc sin descifrar
+whatsapp.long_live_token,public.tenant_secrets,1,mover a kiki_market,value_enc sin descifrar
+whatsapp.phone_id,public.tenant_secrets,1,mover a kiki_market,value_enc sin descifrar
+whatsapp.waba,public.tenant_secrets,1,mover a kiki_market,value_enc sin descifrar
+agent_phone_number,public.distribuidoras,5493582430647,reasignar a kiki_market,kiki tenia 5493541607139 sin secretos Meta
+meta_plantillas,public.meta_plantillas,7,reasignar a kiki_market,viven en el WABA
+followup_sequences,public.followup_sequences,3,eliminar,todos enabled=false
+sales_engine_retrain_logs,public.sales_engine_retrain_logs,70,eliminar,schema_name=distribuidora_saffadi
+implementation_projects,public.implementation_projects,1,eliminar,id=bc21723e-d43c-464f-a6c6-01d17d1084e6 hidden_from_board
+implementation_project_milestone_log,public.implementation_project_milestone_log,1,eliminar,hijo del project
+cross_sell,public.tenant_cross_sell_mappings,0,eliminar si hay,sin filas
+up_sell,public.tenant_up_sell_mappings,0,eliminar si hay,sin filas
+onboarding_catalog_jobs,public.onboarding_catalog_jobs,0,n/a,sin filas
+conversations,core.conversations,14,eliminar,no se migran a kiki
+conversation_events,core.conversation_events,831,eliminar,
+inbound_messages,core.inbound_messages,548,eliminar,
+message_buffers,core.message_buffers,8,eliminar,
+agent_tool_executions,core.agent_tool_executions,55,eliminar,
+seller_context,core.seller_context,7,eliminar,
+profiles,public.profiles,3,eliminar,owner + 2 users
+auth.users,auth.users,3,eliminar,mariano@saffadi.com; alejandro.saffadi@suplaisales.com; faculoren7@saffadi.com
+storage_bucket,storage.buckets,0,n/a,no hay bucket saffadi; kiki conserva products-kiki_market
+erp_webhook,railway n8n,1,fuera de alcance,https://primary-production-c1d08.up.railway.app/webhook/pedidos_saffadi queda huerfano

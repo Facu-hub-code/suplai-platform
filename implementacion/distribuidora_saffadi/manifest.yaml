@@ -1,0 +1,30 @@
+# Offboarding — Distribuidora Saffadi
+# Repo: suplai-platform hub | sin rama feature (solo implementacion/distribuidora_saffadi/)
+# Schema confirmado: distribuidora_saffadi
+# Destino WhatsApp: kiki_market
+
+schema_name: "distribuidora_saffadi"
+nombre_comercial: "Distribuidora Saffadi"
+tenant_id: "99e26d8d-81c6-4c10-904d-5d3d942714fb"
+destino_whatsapp_schema: "kiki_market"
+destino_whatsapp_tenant_id: "7fa7dee6-1aaa-48d1-b60c-46803820f0c1"
+agent_phone_number_origen: "5493582430647"
+admin_emails:
+  - "mariano@saffadi.com"
+  - "alejandro.saffadi@suplaisales.com"
+  - "faculoren7@saffadi.com"
+notas: |
+  Baja completa del tenant. Credenciales WhatsApp (5 secretos cifrados) y
+  7 plantillas Meta se reubican en kiki_market. El número 5493582430647
+  pasa a ruteo de Kiki. Schema, conversaciones, perfiles y usuarios Auth se eliminan.
+  Frase de autorización: ELIMINAR TENANT distribuidora_saffadi
+  (autorizada al implementar el plan aprobado el 2026-09-30).
+modo: offboarding
+
+offboarding:
+  estado: completado
+  output_csv: outputs/inventario-baja.csv
+  output_sql: outputs/offboard.sql
+  output_log: outputs/offboard-log.md
+  frase_confirmacion: "ELIMINAR TENANT distribuidora_saffadi"
+  confirmado_at: "2026-09-30T08:20:00Z"
