@@ -1,0 +1,1425 @@
+product_code,nombre,en_catalogo,visible_tienda,categoria,marca,origen_categoria,origen_marca
+4040351,9 de Oro Galleta Bañada Choc-menta 110g (B/18),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4010002,Aceite de Girasol Cañuelas 0.9L (B/12),True,True,Almacén,Cañuelas,excel,excel
+4010004,Aceite de Girasol Cañuelas 1.5L (B/12),True,True,Almacén,Cañuelas,excel,excel
+14106902159983,Aceite de Oliv Terranova Ext. Virg. 500cc (B/12),True,True,Almacén,,excel,
+40100073,Aceite de Oliva Clásico Cañuelas Lata 0.5L (B/6),True,True,Almacén,Cañuelas,excel,excel
+4010076,Aceite de Oliva Clásico Cañuelas Pet 0.5L (B/20),True,True,Almacén,Cañuelas,excel,excel
+40010078,Aceite de Oliva Intenso Cañuelas Pet x 500ml (B/6),True,True,Almacén,Cañuelas,excel,excel
+3015502,Aceite de Oliva La Posta del Olivo 250cc (B/6),True,True,Almacén,Cañuelas,excel,excel
+3015501,Aceite de Oliva La Posta del Olivo 500cc (B/6),True,True,Almacén,La Posta del Olivo,excel,excel
+4010080,Aceite de Oliva Suave Cañuelas Pet 500ml (B/6),True,True,Almacén,Cañuelas,excel,excel
+4000406,Aceite Doña Norita 900cc (B/12),True,True,Almacén,,excel,
+13080,Aceite Girasol Finca el Lazo 850cc (B/12),True,True,Almacén,Finca el Lazo,excel,excel
+40100077,Aceite Oliva Int. Canuelas Lata 0.5l (B/6),True,True,Almacén,Cañuelas,excel,excel
+7494,Adhesivo Instantáneo Gel Plus Candela 3g 6 (D/6),True,True,Perfumería y Varios,Candela,inferida,excel
+7493,Adhesivo Instantáneo Líquido Candela 2g 6 (D/6),True,True,Perfumería y Varios,Candela,inferida,excel
+40663,Adhesivo La Gotita 6 (D/6),True,True,Perfumería y Varios,La Gotita,inferida,excel
+40664,Adhesivo La Gotita Gel 6 (D/6),True,True,Perfumería y Varios,La Gotita,inferida,excel
+2001,Agregado,False,False,,,,
+101001,AGUA 500 ml sin gas x 12 u,True,True,Bebidas,,inferida,
+3013044,Agua de Mesa Vida 1500cc (B/6),True,True,Bebidas,Baggio Vida,excel,excel
+120706,Agua Mineral Rumipal Bidón 6L x 1,True,True,Bebidas,Rumipal,inferida,excel
+120303,Agua Mineral Rumipal Botella 6 x 2L,True,True,Bebidas,Rumipal,inferida,excel
+110205,Agua Mineral Rumipal Botella 9 x 500cc,True,True,Bebidas,Rumipal,inferida,excel
+33008602,Agua Saborizada Frutafiel Manzana 5L (B/2),True,True,Bebidas,Frutafiel,inferida,excel
+33008002,"Agua Saborizada Frutafiel Manzana 6 x 1,5L",True,True,Bebidas,Frutafiel,inferida,excel
+33008600,Agua Saborizada Frutafiel Naranja 5L (B/2),True,True,Bebidas,Frutafiel,inferida,excel
+33008000,"Agua Saborizada Frutafiel Naranja 6 x 1,5L",True,True,Bebidas,Frutafiel,inferida,excel
+33008500,Agua Saborizada Frutafiel Naranja 6 x 600cc,True,True,Bebidas,Frutafiel,inferida,excel
+33008003,"Agua Saborizada Frutafiel Pera 6 x 1,5L",True,True,Bebidas,Frutafiel,inferida,excel
+33008601,Agua Saborizada Frutafiel Pomelo 5L (B/2),True,True,Bebidas,Frutafiel,inferida,excel
+33008501,Agua Saborizada Frutafiel Pomelo 6 x 600cc,True,True,Bebidas,Frutafiel,inferida,excel
+122402,Agua Saborizada Rumipal Pomelo 9 x 500cc,True,True,Bebidas,Rumipal,inferida,excel
+122602,"Agua Saborizada Rumipal sin Gas Manzana 6 x 1,5L",True,True,Bebidas,Rumipal,inferida,excel
+122202,"Agua Saborizada Rumipal sin Gas Naranja 6 x 1,5L",True,True,Bebidas,Rumipal,inferida,excel
+122502,Agua Saborizada Rumipal sin Gas Naranja 9 x 500cc,True,True,Bebidas,Rumipal,inferida,excel
+122302,"Agua Saborizada Rumipal sin Gas Pomelo 6 x 1,5L",True,True,Bebidas,Rumipal,inferida,excel
+02082,Alf. Cordobes Choc La Quinta (B/36),True,True,Chocolates y Alfajores,La Quinta,excel,inferida
+00612,Alf. Cordobes ddl La Quinta (B/36),True,True,Chocolates y Alfajores,La Quinta,excel,inferida
+01940,Alf. Cordobes Memb. La Quinta (B/36),True,True,Chocolates y Alfajores,La Quinta,excel,inferida
+01941,Alf. Cordobes Pera La Quinta (B/36),True,True,Chocolates y Alfajores,La Quinta,excel,inferida
+9001834,Alf. Fulbito rell. Black 30gr (B/44),True,True,Chocolates y Alfajores,Fulbito,excel,excel
+9000880,Alf. Fulbito rell. chocolate 30gr (B/44),True,True,Chocolates y Alfajores,Fulbito,excel,inferida
+9000879,Alf. Fulbito rell. mani 30gr (B/40),True,True,Chocolates y Alfajores,Fulbito,excel,excel
+9001832,Alf. Fulbito rell. mani 30gr (B/44),True,True,Chocolates y Alfajores,Fulbito,excel,excel
+02061,Alf. La Mona Choc. La Quinta (B/18),True,True,Chocolates y Alfajores,La Quinta,excel,inferida
+02060,Alf. La Mona Choc. La Quinta (B/36),True,True,Chocolates y Alfajores,La Quinta,excel,inferida
+400002,Alfajor 9 de Oro Blanco Relleno Dulce de Leche (B/24),True,True,Chocolates y Alfajores,9 de Oro,excel,excel
+4000012,Alfajor 9 de Oro Chocolate al Rhum y Dulce de Leche (B/24),True,True,Chocolates y Alfajores,9 de Oro,excel,excel
+4000010,Alfajor 9 de Oro Chocolate Banana y Dulce de Leche (B/24),True,True,Chocolates y Alfajores,9 de Oro,excel,excel
+400001,Alfajor 9 de Oro Negro Relleno Dulce de Leche (B/24),True,True,Chocolates y Alfajores,9 de Oro,excel,excel
+400003,Alfajor 9 de Oro Negro Relleno Frutos Rojos (B/24),True,True,Chocolates y Alfajores,9 de Oro,excel,excel
+700037,Alfajor Cachafaz 72% Cacao sin Harina con Almendras 12 x 64g (B/6),True,True,Chocolates y Alfajores,Cachafaz,excel,excel
+700011,Alfajor Cachafaz Blanco 12 x 60g (B/6),True,True,Chocolates y Alfajores,Cachafaz,excel,excel
+700031,Alfajor Cachafaz Blanco 6 x 60g (B/12),True,True,Chocolates y Alfajores,Cachafaz,excel,excel
+700013,Alfajor Cachafaz Maicena 12 x 76g (B/6),True,True,Chocolates y Alfajores,Cachafaz,excel,excel
+700012,Alfajor Cachafaz Mousse 12 x 50g (B/6),True,True,Chocolates y Alfajores,Cachafaz,excel,excel
+700025,Alfajor Cachafaz Mousse 6 x 50g (B/6),True,True,Chocolates y Alfajores,Cachafaz,excel,excel
+700010,Alfajor Cachafaz Negro 12 x 60g (B/6),True,True,Chocolates y Alfajores,Cachafaz,excel,excel
+5002462,Alfajor Full Maní 45g (B/30),True,True,Chocolates y Alfajores,Georgalos,inferida,excel
+9001805,Alfajor Genio Triple rell. ddl Blanco 60gr (B/24),True,True,Chocolates y Alfajores,Genio,excel,excel
+9001804,Alfajor Genio Triple rell. ddl Negro 60gr (B/24),True,True,Chocolates y Alfajores,Genio,excel,excel
+1014414,"Alfajor Hamlet Mousse de Maní 34,5g (B/40)",True,True,Chocolates y Alfajores,Hamlet,excel,excel
+1014413,Alfajor Hamlet Simple Dulce de Leche 36g (B/56),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+70500601,Alfajor MOOD Blanco 65gr (B/24),True,True,Chocolates y Alfajores,Mood,excel,excel
+70500600,Alfajor MOOD Negro 65gr (B/24),True,True,Chocolates y Alfajores,Mood,excel,excel
+9000868,Alfajor Nevares ddl Blanco 40gr (B/40),True,True,Chocolates y Alfajores,Nevares,excel,excel
+9000869,Alfajor Nevares ddl Negro 40gr (B/40),True,True,Chocolates y Alfajores,Nevares,excel,excel
+12000001,Alfajor Pamela Negro con Dulce de Leche 35g (B/56),True,True,Chocolates y Alfajores,Pamela,excel,excel
+2042,Alfajor Rasta ArgenTrico 100g (B/14),True,True,Chocolates y Alfajores,Rasta,excel,excel
+0023,Alfajor Rasta Blanco x 70g (B/18),True,True,Chocolates y Alfajores,Rasta,excel,excel
+2029,Alfajor Rasta Negro x 70g (B/18),True,True,Chocolates y Alfajores,Rasta,excel,excel
+2041,Alfajor Rasta Triple Negro (B/14),True,True,Chocolates y Alfajores,Rasta,excel,excel
+9001821,Alfajor Smack Blanco rell. ddl 60gr (B/24),True,True,Chocolates y Alfajores,Smack,excel,inferida
+9001814,Alfajor Smack Negro/DDL Agrup. 6x60gr (B/12),True,True,Chocolates y Alfajores,Smack,excel,excel
+9001800,Alfajor Smack rell. choc. y mani 50gr (B/24),True,True,Chocolates y Alfajores,Smack,excel,inferida
+9001801,Alfajor Smack rell. ddl 60gr (B/24),True,True,Chocolates y Alfajores,Smack,excel,excel
+5002357,Alfajor Toddy Mousse x 50g (B/24),True,True,Chocolates y Alfajores,Toddy,inferida,excel
+5002349,Alfajor Toddy x 60g (B/24),True,True,Chocolates y Alfajores,Toddy,inferida,excel
+2037,Alfajor Triple Rasta Negro (B/14),True,True,Chocolates y Alfajores,Rasta,excel,excel
+02118,Alfajor Tucabon Choc. Blanco 38gr (B/45),True,True,Chocolates y Alfajores,Tucabon,excel,inferida
+02117,Alfajor Tucabon Choc. Negro 38gr (B/45),True,True,Chocolates y Alfajores,Tucabon,excel,inferida
+41886,Alikal Clásico x 30 sobres,True,True,Farmacia,,inferida,
+151516,Almacenamiento por M2 Diciembre,True,True,,,,
+44420306,Almohaditas rellenas Molinos Ala Cacao y Vainilla x 90g (B/18),True,True,Galletitas y Snacks,Molinos Ala,excel,excel
+44420305,Almohaditas rellenas Molinos Ala Frutilla x 90g (B/18),True,True,Galletitas y Snacks,Molinos Ala,excel,excel
+40048,Amoxicilina x 8 comprimidos (D/10),True,True,Farmacia,,inferida,
+33001000,Aqualoe 6x400ml,True,True,Bebidas,Aqualoe,inferida,excel
+33001001,Aqualoe S/Azuc 6x400ml,True,True,Bebidas,Aqualoe,inferida,excel
+70009528,AR Whiskas Adult Carne 1kg (B/10),True,True,Mascotas,,excel,
+70009518,AR Whiskas Adult Pescado 1kg (B/10),True,True,Mascotas,,excel,
+70003367,AR Whiskas Adult Pescado x500gr (B/20),True,True,Mascotas,,excel,
+70000031,AR Whiskas Adult Pollo 1kg (B/10),True,True,Mascotas,,excel,
+70003382,AR Whiskas Adult. Pescado 10kg,True,True,Mascotas,,excel,
+70001842,AR Whiskas Adult. Pescado 20kg,True,True,Mascotas,,excel,
+70001156,AR Whiskas Gatitos Carn. y Lech. 1kg (B/10),True,True,Mascotas,,excel,
+4080002,Arroz Cañuelas Doble Carolina x 500g (B/12),True,True,Almacén,Cañuelas,excel,excel
+4080006,Arroz Cañuelas Integral 500g (B/12),True,True,Almacén,Cañuelas,excel,excel
+4080003,Arroz Cañuelas Largo Fino 1kg (B/10),True,True,Almacén,Cañuelas,excel,excel
+4080004,Arroz Cañuelas Largo Fino 500g (B/12),True,True,Almacén,Cañuelas,excel,excel
+4080007,Arroz Cañuelas Parboil 1kg (B/10),True,True,Almacén,Cañuelas,excel,excel
+4080008,Arroz Cañuelas Parboil 500g (B/12),True,True,Almacén,Cañuelas,excel,excel
+401000140,Arroz con Mariscos Box x250gr (B/10),True,True,Almacén,MBOX,excel,excel
+44380030,Arroz M. Ala Lar Fino Selec 1kg (B/10),True,True,Almacén,Molinos Ala,excel,excel
+4010126,Arroz MBOX Primavera 85gr (B/12),True,True,Almacén,MBOX,excel,excel
+4010127,Arroz MBOX Quesos 85gr (B/12),True,True,Almacén,MBOX,excel,excel
+44380031,Arroz Molinos Ala Largo Fino Selección 500g (B/10),True,True,Almacén,Molinos Ala,excel,excel
+44420039,Arroz Molinos Ala Parboil Selección 500g (B/10),True,True,Almacén,Molinos Ala,excel,excel
+401000139,Arroz Verduras y Pollo box x250gr (B/10),True,True,Almacén,MBOX,excel,excel
+20,Artículo Libre,True,True,,,,
+5075600,Arvejas Inca x 350g (B/24),True,True,Almacén,Inca,inferida,excel
+1013240,Arvejas Secas Remojadas Noel 300g (B/24),True,True,Almacén,Noel,excel,excel
+40006,Aspirina Aspirineta x 14 comprimidos (D/7),True,True,Farmacia,,inferida,
+1014893,Atun Desmen Ac/Ag.Noel  Sin Tacc 170g (B/24),True,True,Almacén,Noel,excel,excel
+1014892,Atun Desmen Nat. Noel Sin Tacc 170g (B/24),True,True,Almacén,Noel,excel,excel
+1013082,Atún Desmenuzado al Aceite y Agua Noel 170g (B/24),True,True,Almacén,Noel,excel,excel
+1013081,Atún Desmenuzado al Natural Noel 170g (B/24),True,True,Almacén,Noel,excel,excel
+4050278,Avena Instantánea x 400g (B/12),True,True,Almacén,Cañuelas,excel,excel
+4010146,Avena MBOX  C. Frutos Rojos 64gr (B/12),True,True,Almacén,MBOX,excel,excel
+4050122,Avena Mbox Alm y Chip Choc 64gr (B/6),True,True,Almacén,MBOX,excel,excel
+4050124,Avena Mbox Arandanos 59gr (B/6),True,True,Almacén,MBOX,excel,excel
+4010143,Avena MBOX Banana y DDL 64gr (B/12),True,True,Almacén,MBOX,excel,excel
+4050123,Avena Mbox Manzana y canela 59gr (B/6),True,True,Almacén,MBOX,excel,excel
+4050132,Avena Mix Box Almendra y Chips de Chocolate 59g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070134,Avena Mix Box Arándanos 59g (B/12),True,True,Almacén,Cañuelas,excel,excel
+4050133,Avena Mix Box Manzana y Canela 59g (B/12),True,True,Almacén,Cañuelas,excel,excel
+4050277,Avena Tradicional x 400g (B/12),True,True,Almacén,Cañuelas,excel,excel
+13099,Azúcar Dulcy 10 x 1kg,True,True,Almacén,Dulcy,excel,excel
+1014404,Bañado de Chocolate Bananita Dolca 16 x 14g (B/12),True,True,Chocolates y Alfajores,Nescafé Dolca,excel,excel
+1014417,Bañado de Chocolate Bananita Dolca 16 x 30g (B/12),True,True,Chocolates y Alfajores,Nescafé Dolca,excel,excel
+500845,Bananita Split 30x20gr (B/12),True,True,Chocolates y Alfajores,Felfort,excel,excel
+101011,Bandeo Material POP,True,True,,,,
+50900,Barra de Cereal Fort 23g 24 (D/24),True,True,Galletitas y Snacks,Cereal Fort,excel,excel
+50910,Barra de Cereal Fort Action 23g 24 (D/24),True,True,Galletitas y Snacks,Cereal Fort,excel,excel
+50902,Barra de Cereal Fort Chocolate 19g 24 (D/24),True,True,Galletitas y Snacks,Cereal Fort,excel,excel
+50920,Barra de Cereal Fort Flekos 18g 24 (D/24),True,True,Galletitas y Snacks,Cereal Fort,excel,excel
+50917,Barra de Cereal Fort Frutos Rojos 19g 24 (D/24),True,True,Galletitas y Snacks,Cereal Fort,excel,excel
+50903,Barra de Cereal Fort Gran Rico 19g 24 (D/24),True,True,Galletitas y Snacks,Cereal Fort,excel,excel
+50916,Barra de Cereal Fort Kiwi y Manzana 19g 24 (D/24),True,True,Galletitas y Snacks,Cereal Fort,excel,excel
+50909,Barra de Cereal Fort Lady 19g 24 (D/24),True,True,Galletitas y Snacks,Cereal Fort,excel,excel
+50905,Barra de Cereal Fort Manzana 22g 24 (D/24),True,True,Galletitas y Snacks,Cereal Fort,excel,excel
+50921,Barra de Cereal Fort Yogur Ananá 19g 24 (D/24),True,True,Galletitas y Snacks,Cereal Fort,excel,excel
+50901,Barra de Cereal Nutri 21g 24 Felfort (D/24),True,True,Galletitas y Snacks,Cereal Fort,excel,excel
+61987,Barra Quitamanchas Gigante 75g 12 (D/12),True,True,Limpieza,Gigante,excel,excel
+9001320,Barra Smack Bar Rell. Leche Bañ. 12ux35gr (B/6),True,True,Chocolates y Alfajores,Smack,excel,inferida
+9001316,Barra Smack Bar Rell. Mousse 12ux35gr (B/6),True,True,Chocolates y Alfajores,Smack,excel,inferida
+51270,Barrita de Chocolate Diabfort 30 x 16g Felfort,True,True,Chocolates y Alfajores,Felfort,excel,excel
+40008,Bayaspirina x 10 comprimidos (D/3),True,True,Farmacia,,inferida,
+33008702,Bebida Vinto Limón 6 x 1L,True,True,Bebidas,Vinto,inferida,excel
+33008700,Bebida Vinto Naranja 6 x 1L,True,True,Bebidas,Vinto,inferida,excel
+33008701,Bebida Vinto Pomelo 6 x 1L,True,True,Bebidas,Vinto,inferida,excel
+4040003,Bizcochos 9 de Oro Agridulces 200g (B/20),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040005,Bizcochos 9 de Oro Agridulces 420g (B/15),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040004,Bizcochos 9 de Oro Agridulces x 100g (B/32),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040294,Bizcochos 9 de Oro Azucarados 210g (B/28),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040365,Bizcochos 9 de Oro Cara Sucia 200g (B/20),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040002,Bizcochos 9 de Oro Clásicos 100g (B/30),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040293,Bizcochos 9 de Oro Clásicos 200g (B/24),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040292,Bizcochos 9 de Oro Light 170g (B/24),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040291,Bizcochos 9 de Oro Salvado 200g (B/24),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040347,Bizcochos Granola Vitamina D 180g (B/20),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+9001508,Bizcochuelo Picnic c/rell ddl 38gr (B/40),True,True,Galletitas y Snacks,Picnic,excel,excel
+4000016,Blister de Alf. Surtido  9 de Oro 6x45gr (B/10),True,True,Chocolates y Alfajores,9 de Oro,excel,excel
+700024,Bocadito Gianduiot x36u (B/4),True,True,Chocolates y Alfajores,Gianduiot,excel,excel
+5001698,Bocadito Nucrem Bañado Georgalos 18 x 20g (B/12),True,True,Chocolates y Alfajores,Georgalos,inferida,excel
+1001571,Bocaditos Dancing Surtidos 50 x 8.5g (B/8),True,True,Chocolates y Alfajores,Dancing,excel,excel
+121213,Bolsón Grande,True,True,,,,
+50643,Bombón Cericet 24 x 19g Felfort,True,True,Chocolates y Alfajores,Felfort,excel,excel
+50750,Bombón Dos Corazones 20 x 26g Felfort,True,True,Chocolates y Alfajores,Felfort,excel,excel
+50695,Bombón Feeling 30 x 20g Felfort,True,True,Chocolates y Alfajores,Felfort,excel,excel
+5002450,Bombón Full Maní con Leche y Maní 24 x 9g (B/8),True,True,Chocolates y Alfajores,Full Maní,inferida,excel
+1015293,Bombon Hamlet Cook&Crem 30u x 15gr (B/12),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+1011918,Bombón Hamlet Leche 30 x 13g (B/12),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+50635,Bombón Jackelin 30 x 14g Felfort,True,True,Chocolates y Alfajores,Felfort,excel,excel
+50692,Bombón Kooky Bon 30 x 10g,True,True,Chocolates y Alfajores,Felfort,excel,excel
+50938,Bombón Licorfort Cherry 30 x 13g Felfort,True,True,Chocolates y Alfajores,Licorfort,excel,excel
+50932,Bombón Licorfort Whisky 15 x 13g Felfort,True,True,Chocolates y Alfajores,Licorfort,excel,excel
+50931,Bombón Licorfort Whisky 30 x 13g Felfort (B/12),True,True,Chocolates y Alfajores,Felfort,excel,excel
+50612,Bombón Marroc 20 x 14g Felfort (B/24),True,True,Chocolates y Alfajores,Marroc,excel,excel
+50610,Bombón Marroc 60 x 14g Felfort,True,True,Chocolates y Alfajores,Marroc,excel,excel
+700022,Bombón Marroc Cachafaz 54 x 14g (B/4),True,True,Chocolates y Alfajores,Cachafaz,excel,excel
+1001291,Bombón Sapito Chocolatoso 24 x 10.5g (B/8),True,True,Chocolates y Alfajores,Sapito,excel,excel
+1001391,Bombón Sapito Dulce de Leche 24 x 10g (B/8),True,True,Chocolates y Alfajores,Sapito,excel,excel
+1001272,Bombón Sapito Frutilla 24 x 10g (B/8),True,True,Chocolates y Alfajores,Sapito,excel,excel
+1001271,Bombón Sapito Maní 24 x 10g (B/8),True,True,Chocolates y Alfajores,Sapito,excel,excel
+1014188,Bombón Sapito Maní Blanco 24 x 10g (B/8),True,True,Chocolates y Alfajores,Sapito,excel,excel
+9001413,Bombon Smack c/mousse choc. 30ux16gr (B/6),True,True,Chocolates y Alfajores,Smack,excel,excel
+50980,Bombón Tivis 20 x 25g Felfort,True,True,Chocolates y Alfajores,Felfort,excel,excel
+5002217,Bombón Tokke Relleno Dulce de Leche 30 x 10g (B/6),True,True,Chocolates y Alfajores,Tokke,inferida,excel
+51335,Bombón Torroncino 23g 30 Felfort (D/30),True,True,Chocolates y Alfajores,Felfort,excel,excel
+9000945,Boquitas de Limon Nevares 45gr (B/32),True,True,Galletitas y Snacks,Aires de Lujan,excel,excel
+40700439,Brownie de Choc. 9 de Oro 8x45gr (B/3),True,True,Chocolates y Alfajores,9 de Oro,excel,excel
+40700407,Brownie de Chocolate 9 de Oro x 45g (B/21),True,True,Chocolates y Alfajores,9 de Oro,excel,excel
+4040280,Budín 9 de Oro Chocolate 170g (B/14),True,True,Panificados,9 de Oro,excel,excel
+4040281,Budín 9 de Oro Inglés x 170g (B/14),True,True,Panificados,9 de Oro,excel,excel
+4040283,Budín 9 de Oro Marmolado 170g (B/14),True,True,Panificados,9 de Oro,excel,excel
+4040285,Budin 9 de Oro relleno ddl 190g (B/14),True,True,Panificados,9 de Oro,excel,excel
+4040284,Budín 9 de Oro Vainilla 170g (B/14),True,True,Panificados,9 de Oro,excel,excel
+4040246,Budín Dulce Mamá Inglés 170g (B/14),True,True,Panificados,Dulce Mamá,excel,excel
+4040248,Budín Dulce Mamá Marmolado 170g (B/14),True,True,Panificados,Dulce Mamá,excel,excel
+4040249,Budín Dulce Mamá Vainilla 170g (B/14),True,True,Panificados,Dulce Mamá,excel,excel
+10500072,Budin Firenze c/Chips Choc x200g (B/12),True,True,Panificados,Firenze,excel,inferida
+1090073,Budin Firenze c/Frutas x200g (B/12),True,True,Panificados,Firenze,excel,inferida
+1090074,Budin Firenze s/Frutas x200g (B/12),True,True,Panificados,Firenze,excel,inferida
+10500081,Budin Pamela c/Chips x170g (B/18),True,True,Panificados,Pamela,excel,inferida
+79029,Bull Dog Regaliz Frutilla Aceitado x75g (B/24),True,True,Golosinas,Bull Dog,excel,inferida
+373443,Bull Dog Regaliz Sandia Manz. x360g (B/12),True,True,Golosinas,Bull Dog,excel,excel
+40002,Buscapina Compositum N x 10 cápsulas,True,True,Farmacia,,inferida,
+13942154,Cafe  Intenso Bonafide x125gr (B/12),True,True,Almacén,Bonafide,excel,excel
+47032,Café Dolca Frasco de Vidrio 100g (B/6),True,True,Almacén,Nescafé Dolca,inferida,excel
+47030,Café Dolca Frasco de Vidrio 170g (B/12),True,True,Almacén,Nescafé Dolca,inferida,excel
+47031,Café Dolca Repuesto 170g (B/12),True,True,Almacén,Nescafé Dolca,inferida,excel
+47038,Café Dolca Suave Frasco de Vidrio 100g (B/6),True,True,Almacén,Nescafé Dolca,inferida,excel
+47039,Café Dolca Suave Frasco de Vidrio 170g (B/12),True,True,Almacén,Nescafé Dolca,inferida,excel
+47037,Café Dolca Suave Frasco de Vidrio 200g (B/12),True,True,Almacén,Nescafé Dolca,inferida,excel
+407039,Café Dolca Suave Frasco de Vidrio 50g (B/6),True,True,Almacén,Nescafé Dolca,inferida,excel
+47036,Café Dolca Suave Repuesto 170g (B/12),True,True,Almacén,Nescafé Dolca,inferida,excel
+13940962,Cafe en Saq. Intenso Bonafide 18x5gr (B/24),True,True,Almacén,Bonafide,excel,excel
+13900306,Cafe Sens. Int. Bonafide x250gr (B/8),True,True,Almacén,Bonafide,excel,excel
+13951974,Cafe Sensaciones Intenso Bonafide x500gr (B/12),True,True,Almacén,Bonafide,excel,excel
+13951973,Cafe Sensaciones Suave Bonafide x500gr (B/12),True,True,Almacén,Bonafide,excel,excel
+13902147,Cafe Suave Bonafide x125gr (B/12),True,True,Almacén,Bonafide,excel,excel
+13942147,Cafe Suave Bonafide x150gr (B/12),True,True,Almacén,Bonafide,excel,excel
+13900305,Cafe Suave Bonafide x250gr (B/8),True,True,Almacén,Bonafide,excel,excel
+13953057,Cafe Tost. Molido Brasil x200gr (B/6),True,True,Almacén,Bonafide,excel,excel
+13953055,Cafe Tostado Equilibrado Bonafide x200gr (B/6),True,True,Almacén,Bonafide,excel,excel
+13953056,Cafe Tostado Intenso Bonafide x200gr (B/6),True,True,Almacén,Bonafide,excel,excel
+400014,Cafiaspirina x 10 comprimidos (D/3),True,True,Farmacia,,inferida,
+761955,Caja de Obsequios,False,False,,,,
+404570,Caldo Knorr Gallina x 12 cubos (B/80),True,True,Almacén,Knorr,excel,excel
+69614343,Caldo Knorr Verdura 24x2cub. (B/20),True,True,Almacén,Knorr,excel,excel
+404344,Caldo Knorr Verdura x 12 cubos (B/80),True,True,Almacén,Knorr,excel,excel
+20500016,Cápsulas Dolce Gusto Café con Leche x 16 (B/4),True,True,Almacén,Origen Sensations,inferida,excel
+205000016,Cápsulas Dolce Gusto Capuccino x 16 (B/4),True,True,Almacén,Origen Sensations,inferida,excel
+2050016,Cápsulas Dolce Gusto Extra Intenso x 16 (B/4),True,True,Almacén,Origen Sensations,inferida,excel
+205016,Cápsulas Dolce Gusto Intenso x 16 (B/4),True,True,Almacén,Origen Sensations,inferida,excel
+2050010,Cápsulas Nespresso Extra Intenso x 10 (B/12),True,True,Almacén,Origen Sensations,inferida,excel
+205010,Cápsulas Nespresso Intenso x 10 (B/12),True,True,Almacén,Origen Sensations,inferida,excel
+20500010,Cápsulas Nespresso Ristretto x 10 (B/12),True,True,Almacén,Origen Sensations,inferida,excel
+1015628,Car. Mini Sugus Stdo. Hallow. 500gr (B/8),True,True,Golosinas,Sugus,excel,inferida
+70106483,Caramelo Starburst x59gr (B/36),True,True,Golosinas,,excel,
+1010884,Caramelos Alka Ácido Surtido 10 x 800g (B/10),True,True,Golosinas,Alka,excel,excel
+1010880,Caramelos Alka Cherry 800g (B/10),True,True,Golosinas,Alka,excel,excel
+1011938,"Caramelos Alka Cherry Mentol Display 12 x 29,4g (B/12)",True,True,Golosinas,Alka,excel,excel
+1010744,Caramelos Alka Cremoso 800g (B/10),True,True,Golosinas,Alka,excel,excel
+1010882,Caramelos Alka Menta 800g (B/10),True,True,Golosinas,Alka,excel,excel
+1011936,"Caramelos Alka Menta Display 12 x 29,4g (B/12)",True,True,Golosinas,Alka,excel,excel
+1010883,Caramelos Alka Strong 800g (B/10),True,True,Golosinas,Alka,excel,excel
+1011937,"Caramelos Alka Strong Display 12 x 29,4g (B/12)",True,True,Golosinas,Alka,excel,excel
+170423,Caramelos Billiken Frutales 600g (B/12),True,True,Golosinas,Billiken,excel,excel
+170424,Caramelos Billiken Yogur 600g (B/12),True,True,Golosinas,Billiken,excel,excel
+7747,Caramelos Candy Safe 6 (D/6),True,True,Golosinas,Warheads,excel,excel
+6918,Caramelos Caty House 8 (D/8),True,True,Golosinas,Caty House,excel,excel
+5843,Caramelos Chicken Chat Fanáticos 8g 16 (D/16),True,True,Golosinas,Chat Fun,excel,excel
+226208,Caramelos de Goma Billiken Frutales 800g (B/8),True,True,Golosinas,Billiken,excel,excel
+226215,Caramelos de Goma Billiken Tutti Frutti x 800g (B/8),True,True,Golosinas,Billiken,excel,excel
+5050,Caramelos de Goma Doggie 9g 24 (D/24),True,True,Golosinas,Gummi,excel,excel
+370767,Caramelos de Goma Dropsy Piñata Redonditas x 700g,True,True,Golosinas,Piñata,excel,excel
+1006152,Caramelos de Goma Eucaliptus Misky 1Kg (B/6),True,True,Golosinas,Misky,excel,excel
+1013259,Caramelos de Goma Fantasía Misky 12 x 30g (B/12),True,True,Golosinas,Misky,excel,excel
+1006151,Caramelos de Goma Fantasía Misky 1Kg (B/6),True,True,Golosinas,Misky,excel,excel
+1014998,Caramelos de Goma Fantasía Misky Ácidos 500g (B/6),True,True,Golosinas,Misky,excel,excel
+5051,Caramelos de Goma Gummi Zone Burger 9g 24 (D/24),True,True,Golosinas,Gummi,excel,excel
+7395,Caramelos de Goma Gummi Zone Burger XXL x 28g 18 (D/18),True,True,Golosinas,Gummi,excel,excel
+7396,Caramelos de Goma Gummi Zone Doggie XXL x 28g 36 (D/36),True,True,Golosinas,Gummi,excel,excel
+7394,Caramelos de Goma Gummi Zone Pizza XXL x 21g 24 (D/24),True,True,Golosinas,Gummi,excel,excel
+1006401,Caramelos de Goma Jelly Roll Misky 1Kg (B/6),True,True,Golosinas,Misky,excel,excel
+1012205,Caramelos de Goma Misky Halloween 1Kg (B/6),True,True,Golosinas,Misky,excel,excel
+370782,Caramelos de Goma Piñata Anillos x 700g (B/8),True,True,Golosinas,Piñata,excel,excel
+370889,Caramelos de Goma Piñata Eucalipto x 700g (B/8),True,True,Golosinas,Piñata,excel,excel
+370784,Caramelos de Goma Piñata Huesos x 700g (B/8),True,True,Golosinas,Piñata,excel,excel
+370775,Caramelos de Goma Piñata Redonditas x 700g (B/8),True,True,Golosinas,Piñata,excel,excel
+370781,Caramelos de Goma Piñata Surtidas x 700g (B/8),True,True,Golosinas,Piñata,excel,excel
+5052,Caramelos de Goma Pizza 15g 24 (D/24),True,True,Golosinas,Gummi,excel,excel
+1014995,Caramelos de Goma Ricomas Anillos Frutilla 500g (B/6),True,True,Golosinas,Ricomás,excel,excel
+1013029,Caramelos de Goma Ricomas Botón Frutilla 500g (B/6),True,True,Golosinas,Ricomás,excel,excel
+1013030,Caramelos de Goma Ricomas Conito Frutilla 500g (B/6),True,True,Golosinas,Ricomás,excel,excel
+95039,Caramelos de Goma Yummy Animalitos 12 x 30g (B/12),True,True,Golosinas,Yummy,excel,excel
+95049,Caramelos de Goma Yummy Moritas 12 x 30g (B/12),True,True,Golosinas,Yummy,excel,excel
+95048,Caramelos de Goma Yummy Moritas x 500g (B/6),True,True,Golosinas,Yummy,excel,excel
+95035,Caramelos de Goma Yummy Ositos 12 x 30g (B/12),True,True,Golosinas,Yummy,excel,excel
+95058,Caramelos de Goma Yummy Ositos Ácidos 12 x 30g (B/12),True,True,Golosinas,Yummy,excel,excel
+95038,Caramelos de Goma Yummy Pececitos 12 x 30g (B/12),True,True,Golosinas,Yummy,excel,excel
+95055,Caramelos de Goma Yummy Sandía x 500g (B/6),True,True,Golosinas,Yummy,excel,excel
+1753,Caramelos Icebreaker Fruit Sours 42g (B/8),True,True,Golosinas,Icebreakers,excel,excel
+2304,Caramelos Icebreaker Wintergreen 42g (B/8),True,True,Golosinas,Icebreakers,excel,excel
+1012208,Caramelos Masticables Misky Halloween 800g (B/10),True,True,Golosinas,Misky,excel,excel
+1001781,Caramelos Masticables Surtidos Misky 800g (B/10),True,True,Golosinas,Misky,excel,excel
+1010044,Caramelos Masticables Zoo Salvaje 498g (B/12),True,True,Golosinas,Misky,excel,excel
+1013461,Caramelos Misky Café 675g (B/6),True,True,Golosinas,Misky,excel,excel
+1013593,Caramelos Misky Roll 12 x 35g (B/24),True,True,Golosinas,Misky,excel,excel
+1013627,Caramelos Monster Bag Halloween 395g (B/8),True,True,Golosinas,Misky,excel,excel
+7821,Caramelos PEZ Blister 1+3 Barbie (B/24),True,True,Golosinas,Pez,excel,excel
+2633,Caramelos PEZ Blister 1+3 Minion (B/24),True,True,Golosinas,Pez,excel,excel
+6124,Caramelos PEZ Blister 1+3 Peppa Pig (B/24),True,True,Golosinas,Pez,excel,excel
+5024,Caramelos PEZ Blister 1+3 Transformers (B/24),True,True,Golosinas,Pez,excel,excel
+105469,Caramelos PEZ blister 1+3 Trolls (B/24),True,True,Golosinas,Pez,excel,excel
+5730,Caramelos PEZ Nintendo 1+3 (B/24),True,True,Golosinas,Pez,excel,excel
+2411,Caramelos Pistolita Water Pop 8 (D/8),True,True,Golosinas,Water Pop,excel,excel
+5864,Caramelos Punchy Monkey 12g 8 (D/8),True,True,Golosinas,Fun,excel,excel
+6917,Caramelos Puppy House 2 8 (D/8),True,True,Golosinas,Puppy,excel,excel
+1001551,Caramelos Relleno de Fruta Misky 810g (B/6),True,True,Golosinas,Misky,excel,excel
+1011982,Caramelos Relleno de Miel Misky 675g (B/6),True,True,Golosinas,Misky,excel,excel
+1000560,Caramelos Sugus Confitados 50g (B/30),True,True,Golosinas,Sugus,excel,excel
+1014798,Caramelos Sugus Confitados Ácidos 50g (B/30),True,True,Golosinas,Sugus,excel,excel
+1000102,Caramelos Sugus Max Ananá 12 x 70 x 7.5g,True,True,Golosinas,Sugus,excel,excel
+1000104,Caramelos Sugus Max Frutilla 70 x 7.5g (B/12),True,True,Golosinas,Sugus,excel,excel
+1011843,Caramelos Sugus Max Halloween 750g (B/6),True,True,Golosinas,Sugus,excel,excel
+1013116,Caramelos Sugus Max Pintalengua 12 x 70,True,True,Golosinas,Sugus,excel,excel
+1014178,Caramelos Sugus Max Plegado Frutilla y Sandía 120g (B/24),True,True,Golosinas,Sugus,excel,excel
+1013967,"Caramelos Sugus Max Sandía 70 x 7,5g (B/12)",True,True,Golosinas,Sugus,excel,excel
+1000105,Caramelos Sugus Max Tutti Frutti 70 x 7.5g,True,True,Golosinas,Sugus,excel,excel
+1013860,Caramelos Sugus Plegado Surtido x 700g (B/8),True,True,Golosinas,Sugus,excel,excel
+1000606,Caramelos Sugus Plegados Frutales 150g (B/36),True,True,Golosinas,Sugus,excel,excel
+1013837,Caramelos Sugus Surtido Especial 223g (B/30) Nuevo,True,True,Galletitas y Snacks,Dancing,excel,excel
+1014179,Caramelos Sugus Surtido Especial 700g (B/8),True,True,Golosinas,Sugus,excel,excel
+1014742,Caramelos Toffees de Chocolate Misky 648g (B/8),True,True,Golosinas,Misky,excel,excel
+1011841,Caramelos Toffees de Leche Misky 648g (B/8),True,True,Golosinas,Misky,excel,excel
+1011836,Caramelos Transparentes Misky Cherry 405g (B/12),True,True,Golosinas,Misky,excel,excel
+1011837,Caramelos Transparentes Misky Menta 810g (B/6),True,True,Golosinas,Misky,excel,excel
+6915,Caramelos Wacky Monkey Band 8 (D/8),True,True,Golosinas,Wacky Monkey,excel,excel
+5256,Caramelos Xtreme Berry 25g 12 (D/12),True,True,Golosinas,Xtreme,excel,excel
+5257,Caramelos Xtreme Rainbow 25g 12 (D/12),True,True,Golosinas,Xtreme,excel,excel
+5259,Caramelos Xtreme Tropical 25g 12 (D/12),True,True,Golosinas,Xtreme,excel,excel
+151517,Carga/Descarga xUMM,True,True,,,,
+33002200,Cerveza Golden Saft 6 x 1L Pet,True,True,Bebidas,Golden Saft,inferida,excel
+33002202,Cerveza Golden Saft 6 x 473cc Pet,True,True,Bebidas,Golden Saft,inferida,excel
+500001,Cerveza Schin 12 x 473ml (B/1),True,True,Bebidas,,inferida,
+1013619,"Chicle Alka Fruta 20 x 6,7g (B/30)",True,True,Golosinas,Alka,excel,excel
+1013620,"Chicle Alka Menta 20 x 6,7g (B/30)",True,True,Golosinas,Alka,excel,excel
+6125,Chicle Bubble Roll 8 (D/8),True,True,Golosinas,Bubble Roll,excel,excel
+5879,Chicle Bubble Roll Tutti Frutti Pink Power 8 (D/8),True,True,Golosinas,Bubble Roll,excel,excel
+506,Choc. c/Leche Frases Deport. Latte 10x70gr (B/10),True,True,Chocolates y Alfajores,,excel,
+505,Choc. c/Leche Frases Latte 10x70gr (B/10),True,True,Chocolates y Alfajores,,excel,
+51510,Choc. Jack Leche Mafalda 20x14gr (B/4),True,True,Chocolates y Alfajores,Jack,excel,excel
+501439,Choc. Leche y Mani 10 x 75 gr (B/8),True,True,Chocolates y Alfajores,Felfort,excel,excel
+13940957,Choc. Taza Blanco Bonafide 12x100gr (B/6),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+139409571,Choc. Taza Blanco x100gr,True,True,Chocolates y Alfajores,Bonafide,excel,excel
+13940958,Choc. Taza Cacao 12x100gr (B/6),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+139409581,Choc. Taza Cacao x100gr,True,True,Chocolates y Alfajores,Bonafide,excel,excel
+1009837,Choclo Cremoso Noel 300g (B/24),True,True,Almacén,Noel,excel,excel
+1013243,Choclo entero Noel 300g (B/24),True,True,Almacén,Noel,excel,excel
+5075609,Choclo Grano Amarillo Inca x 350g (B/24),True,True,Almacén,Inca,inferida,excel
+13942135,Chocman Bonafide Baño Semiamargo x35gr (B/18),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+13942130,Chocman Bonafide Black x35gr (B/18),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+13942136,Chocman Bonafide Minitorta Baño Semiamargo x68gr (B/15),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+13942131,Chocman Bonafide Minitorta Black x68gr (B/15),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+13942138,Chocman Coco x35gr (B/18),True,True,Chocolates y Alfajores,Chocman,excel,excel
+90030217,Chocolatada LTN red. en lact. B1 y B6 1l (B/6),True,True,Lácteos,Las Tres Niñas,excel,excel
+1013094,Chocolate Blanco Misky 20 x 8g (B/40),True,True,Chocolates y Alfajores,Misky,excel,excel
+10061291,Chocolate Blanco Misky 25g (Unidad),True,True,Chocolates y Alfajores,Misky,excel,excel
+1006129,Chocolate Blanco Misky 30 x 25g (B/12),True,True,Chocolates y Alfajores,Misky,excel,excel
+1013095,Chocolate con Leche Misky 20 x 8g (B/40),True,True,Chocolates y Alfajores,Misky,excel,excel
+10061271,Chocolate con Leche Misky 25g (Unidad),True,True,Chocolates y Alfajores,Misky,excel,excel
+1006127,Chocolate con Leche Misky 30 x 25g (B/12),True,True,Chocolates y Alfajores,Misky,excel,excel
+30793,Chocolate en Polvo Toddy 180g (B/12),True,True,Almacén,Toddy,inferida,excel
+30780,Chocolate en Polvo Toddy Extremo 360g (B/14),True,True,Almacén,Toddy,inferida,excel
+30671,Chocolate en Polvo Toddy Extremo 800g (B/8),True,True,Almacén,Toddy,inferida,excel
+51331,Chocolate Fort con Maní 12 x 30g (B/12),True,True,Chocolates y Alfajores,Felfort,excel,excel
+5002475,Chocolate Full Maní con Leche y Maní 100g 10 (D/10),True,True,Chocolates y Alfajores,Full Maní,inferida,excel
+5002402,Chocolate Full Maní con Leche y Maní 160g 20 (D/20),True,True,Chocolates y Alfajores,Georgalos,inferida,excel
+5002440,Chocolate Full Maní con Maní 15 x 35g (B/8),True,True,Chocolates y Alfajores,Georgalos,inferida,excel
+1014693,Chocolate Misky Crunchy 30 x 25g (B/12),True,True,Chocolates y Alfajores,Misky,excel,excel
+51600,Chocolate Monedas Piratas 60 x 5g Felfort (B/24),True,True,Chocolates y Alfajores,Felfort,excel,excel
+50696,Chocolate Nobel 15 x 35g Felfort,True,True,Chocolates y Alfajores,Felfort,excel,excel
+50953,Chocolate Paraguitas 20 x 13g Felfort (B/24),True,True,Chocolates y Alfajores,Felfort,excel,excel
+50950,Chocolate Paraguitas 40 x 13g Felfort (B/12),True,True,Chocolates y Alfajores,Felfort,excel,excel
+1003108,Chocolate Semiamargo Taza Misky 100g (D/10),True,True,Chocolates y Alfajores,Misky,excel,excel
+13940672,Chocolate Taza Bonafide 12 x 100gr (B/6),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+139406721,Chocolate Taza Bonafide 12 x 100gr (B/6)x1,True,True,Chocolates y Alfajores,Bonafide,excel,excel
+5002219,Chocolate Tokke Blanco con Dulce de Leche 72g (B/24),True,True,Chocolates y Alfajores,Tokke,inferida,excel
+5002215,Chocolate Tokke con Dulce de Leche 30g (B/36),True,True,Chocolates y Alfajores,Tokke,inferida,excel
+5002210,Chocolate Tokke con Dulce de Leche 72g (B/24),True,True,Chocolates y Alfajores,Tokke,inferida,excel
+5002211,Chocolate Tokke con Leche 60g 24 (D/24),True,True,Chocolates y Alfajores,Tokke,inferida,excel
+5002214,Chocolate Tokke con Leche y Maní 120g 40 (D/40),True,True,Chocolates y Alfajores,Tokke,inferida,excel
+5002216,Chocolate Tokke con Leche y Maní 35g 40 (D/40),True,True,Chocolates y Alfajores,Tokke,inferida,excel
+5002212,Chocolate Tokke con Leche y Maní 62g 24 (D/24),True,True,Chocolates y Alfajores,Tokke,inferida,excel
+500513,Chocolatín Georgalos Blanco 40 x 8g (B/12),True,True,Chocolates y Alfajores,Georgalos,inferida,excel
+500514,Chocolatín Georgalos Leche 40 x 8g (B/12),True,True,Chocolates y Alfajores,Georgalos,inferida,excel
+1013875,Chupetín Bicolor Misky 50 x 12g (B/12),True,True,Golosinas,Combo,excel,excel
+373426,Chupetín Bull Dog Crazy + Polvo x 10 (B/12),True,True,Golosinas,Bull Dog,excel,excel
+2435,Chupetín Emoti Pop x 11g 9 (D/9),True,True,Golosinas,Emoti Pop,excel,excel
+2436,Chupetines Air Pop x 11g 9 (D/9),True,True,Golosinas,Air Pop,excel,excel
+1731,Chupetines Catch Pop 8 (D/8),True,True,Golosinas,Catch Pop,excel,excel
+7093,Chupetines Cats Pop 10g Tutti Frutti 6 (D/6),True,True,Golosinas,Catz Pop,excel,excel
+2229,Chupetines Cocodrilo POP 8 (D/8),True,True,Golosinas,Fun Pop,excel,excel
+1007903,Chupetines Cosmos Frutales 40 (B/14),True,True,Golosinas,Cosmos,excel,excel
+6479,Chupetines Crazy Pop Frutilla 10 (D/10),True,True,Golosinas,Crazy Pop,excel,excel
+6480,Chupetines Crazy Pop Naranja 10 (D/10),True,True,Golosinas,Crazy Pop,excel,excel
+6481,Chupetines Crazy Pop Sandía 10 (D/10),True,True,Golosinas,Crazy Pop,excel,excel
+6478,Chupetines Crazy Pop Uva 10 (D/10),True,True,Golosinas,Crazy Pop,excel,excel
+5868,Chupetines Doggy Pop 12g 6 (D/6),True,True,Golosinas,Doggy Pop,excel,excel
+1385,Chupetines Fun Pop Mix Stand 12 (D/12),True,True,Golosinas,Fun Pop,excel,excel
+1811,Chupetines Laser Pop Dancing 6 (D/6),True,True,Golosinas,Laser Pop,excel,excel
+6913,Chupetines Lion POP 8 (D/8),True,True,Golosinas,Lion Pop,excel,excel
+6914,Chupetines Shark Pop 8 (D/8),True,True,Golosinas,Shark Pop,excel,excel
+4871,Chupetines Sport Pop Surtido 12g 6 (D/6),True,True,Golosinas,Fun Pop,excel,excel
+1971,Chupetines Twister Pop Mix 8 (D/8),True,True,Golosinas,Pop,excel,excel
+6916,Chupetines Unicornio Pop 9 (D/9),True,True,Golosinas,Fun Pop,excel,excel
+7748,Chupetines Witches Pop 12g 6 (D/6),True,True,Golosinas,,excel,
+199,Cigarrillo Ruta 66 Convertible,True,True,Tabaquería,Ruta 66,inferida,inferida
+80,Cigarrillos Boxer Rojo,True,True,Tabaquería,Boxer,inferida,inferida
+91,Cigarrillos Boxer Rojo Box,True,True,Tabaquería,Boxer,inferida,inferida
+88,Cigarrillos Boxer Verde,True,True,Tabaquería,Boxer,inferida,inferida
+0081,Cigarrillos Boxer Verde Box,True,True,Tabaquería,Boxer,inferida,inferida
+136,Cigarrillos CJ GO!,True,True,Tabaquería,CJ,inferida,inferida
+132,Cigarrillos CJ Mentolado (Verde),True,True,Tabaquería,CJ,inferida,inferida
+97,Cigarrillos CJ Tradicional,True,True,Tabaquería,CJ,inferida,inferida
+73,Cigarrillos Dolchester Box Dorado,True,True,Tabaquería,Dolchester,inferida,inferida
+74,Cigarrillos Dolchester Box Plateado,True,True,Tabaquería,Dolchester,inferida,inferida
+127,Cigarrillos Euro,True,True,Tabaquería,Euro,inferida,inferida
+107,Cigarrillos Kiel,True,True,Tabaquería,Kiel,inferida,inferida
+70,Cigarrillos Liverpool (Rojo),True,True,Tabaquería,Liverpool,inferida,inferida
+180,Cigarrillos Liverpool Convertible Blue Pop,True,True,Tabaquería,Liverpool,inferida,inferida
+72,Cigarrillos Liverpool Menthol (Verde),True,True,Tabaquería,Liverpool,inferida,inferida
+71,Cigarrillos Liverpool Suave (Azul),True,True,Tabaquería,Liverpool,inferida,inferida
+92,Cigarrillos Milenio Box Convertible Mint,True,True,Tabaquería,Milenio,inferida,inferida
+131,Cigarrillos Pablo Emilio,True,True,Tabaquería,Pablo Emilio,inferida,inferida
+75,Cigarrillos Red Point,True,True,Tabaquería,Red Point,inferida,inferida
+87,Cigarrillos Red Point Convertible,True,True,Tabaquería,Red Point,inferida,inferida
+3300254,Colgate  Trip. Accion x90gr (B/144),True,True,Perfumería y Varios,Colgate,excel,excel
+5002421,Colmenita Chocolate Blanco Georgalos 24 x 25g (B/12),True,True,Chocolates y Alfajores,Georgalos,inferida,excel
+5002419,Colmenita Chocolate con Leche Georgalos 24 x 25g (B/12),True,True,Chocolates y Alfajores,Georgalos,inferida,excel
+5002471,Colmenita Chocolate Georgalos 60% Cacao 24 x 25g (B/12),True,True,Chocolates y Alfajores,Georgalos,inferida,excel
+121212,Combo Alimento,True,True,,,,
+161616,Combo Artículos de Limpieza y Desinfección,True,True,,,,
+7500,Combo Bandeja Blanca Arcor,True,True,,,,
+20002,Combo Bases,True,True,,,,
+20001,Combo Cajas,True,True,,,,
+3400,Combo Caramelos Masticables,False,False,,,,
+3000,Combo Chocolate y Golosinas A,False,False,,,,
+3100,Combo Chocolate y Golosinas B,False,False,,,,
+3200,Combo Chocolate y Golosinas C,False,False,,,,
+600,Combo Cobertura Alfajores & Galletas,True,True,,,,
+604,Combo Cobertura Alfajores & Galletas Autoservicio,True,True,,,,
+3602,Combo Cobertura Arcor Básico,False,False,,,,
+3600,Combo Cobertura Arcor Completo,False,False,,,,
+3601,Combo Cobertura Arcor Parcial,False,False,,,,
+702,Combo Cobertura L3N,True,True,,,,
+705,Combo Cobertura Molinos Ala Alimentos,True,True,,,,
+20003,Combo Distribución (ida),True,True,,,,
+20004,Combo Distribución (vuelta),True,True,,,,
+707,Combo Fel Fort,True,True,,,,
+7200,Combo Galletitas Paseo y Box,False,False,,,,
+181818,Combo Higiene (Lavandina + Detergente),True,True,,,,
+111111,Combo Kit Sanitizante,True,True,,,,
+700,Combo L3N Autoservicio,True,True,,,,
+706,Combo L3N Leche Proteina,True,True,,,,
+701,Combo L3N Tradicional,True,True,,,,
+131313,Combo Limpieza,True,True,,,,
+171717,Combo Limpieza de Pisos,True,True,,,,
+20000,Combo Logístico,True,True,,,,
+161617,Combo Mercadería por el Día del Trabajador,True,True,,,,
+703,Combo Pilaga Autoservicio,True,True,,,,
+704,Combo Pilaga Tradicional,True,True,,,,
+112234,Combo Productos Desinfección,True,True,,,,
+112233,Combo Productos Desinfección + Distribución,True,True,,,,
+3506,Combo Puré Noel + Fideos,False,False,,,,
+3507,Combo Puré Noel + Tallarines/Spaghetti,False,False,,,,
+605,Combo Semana de la Dulzura,True,True,,,,
+9097,"Combo Soda, Agua más Gaseosa 50%",True,True,,,,
+905,Combo Vino La Riojana,True,True,,,,
+700015,Conito Cachafaz Negro 12 x 30g (B/6),True,True,Chocolates y Alfajores,Cachafaz,excel,excel
+9000946,Coquitos Nevares 45gr (B/32),True,True,Galletitas y Snacks,Aires de Lujan,excel,excel
+44060004,Crema de Leche Las Tres Niñas Clásica para Cocinar 200cc (B/18),True,True,Lácteos,Las Tres Niñas,excel,excel
+44060002,Crema de Leche Las Tres Niñas Original para Batir 200cc (B/18),True,True,Lácteos,Las Tres Niñas,excel,excel
+5073319,Crema de Leche Sancor 200cc (B/12),False,False,Lácteos,Sancor,inferida,excel
+5073318,Crema de Leche Sancor 360cc (B/12),False,False,Lácteos,Sancor,inferida,excel
+40615,Crema Dental Colgate 70g (B/72),True,True,Perfumería y Varios,Colgate,inferida,excel
+6155,Crema Dental Colgate 90g (B/72),True,True,Perfumería y Varios,Colgate,inferida,excel
+42028,Crema Dental Kolynos Extra Fresh x 90g (B/72),True,True,Perfumería y Varios,Kolynos,inferida,excel
+46177,Crema Dental Kolynos Fresh 123 x 70g (B/72),True,True,Perfumería y Varios,Kolynos,inferida,excel
+40617,Crema Dental Kolynos x 70g (B/72),True,True,Perfumería y Varios,Kolynos,inferida,excel
+40616,Crema Dental Odol x 70g (B/72),True,True,Perfumería y Varios,Odol,inferida,excel
+44060003,Crema Las 3 Niñas Clas p/coc 500cc (B/12),True,True,Lácteos,Las Tres Niñas,excel,excel
+44060001,Crema Las 3 Niñas Orig p/batir  500cc (B/12),True,True,Lácteos,Las Tres Niñas,excel,excel
+970346,Crema Nucita Bicolor 48 x 10g (B/24),True,True,Golosinas,Nucita,excel,excel
+970347,Crema Nucita Frutilla 48 x 10g (B/24),True,True,Golosinas,Nucita,excel,excel
+970378,Crema Nucita Napolitano 48 x 10g (B/24),True,True,Golosinas,Nucita,excel,excel
+44060053,Crema Salsa 4 Quesos Las 3 Niñas 190cc (B/6),True,True,Lácteos,Las Tres Niñas,excel,excel
+44060055,Crema Salsa Champigñon Las 3 Niñas 190cc (B/6),True,True,Lácteos,Las Tres Niñas,excel,excel
+40400434,Crujitas Ceb. y Crem. x80gr (B/10),True,True,Galletitas y Snacks,Crujitas,excel,excel
+40400433,Crujitas Clasicas x80gr (B/10),True,True,Galletitas y Snacks,Crujitas,excel,excel
+40400436,Crujitas Hierbas x80gr (B/10),True,True,Galletitas y Snacks,Crujitas,excel,excel
+40400437,Crujitas Jamon x80gr (B/10),True,True,Galletitas y Snacks,Crujitas,excel,excel
+40400435,Crujitas Queso x80gr (B/16),True,True,Galletitas y Snacks,Crujitas,excel,excel
+9000398,Cubanito mousse choc Smack Nevares 25gr (B/48),True,True,Chocolates y Alfajores,Smack,excel,excel
+40150,Curitas Adhesivas x 8 (B/24),True,True,Perfumería y Varios,Curitas,inferida,excel
+20006,Descuentos Especiales,True,True,,,,
+002761035,Desodorante de Ambiente Poett 360cc Alegra tu Día (B/6),True,True,Limpieza,Poett,excel,excel
+002760887,Desodorante de Ambiente Poett 360cc Bebé Extra Fragancia (B/6),True,True,Limpieza,Poett,excel,excel
+002761033,Desodorante de Ambiente Poett 360cc Despertar Enérgico (B/6),True,True,Limpieza,Poett,excel,excel
+002761036,Desodorante de Ambiente Poett 360cc Espíritu Playa (B/6),True,True,Limpieza,Poett,excel,excel
+002760885,Desodorante de Ambiente Poett 360cc Flor de Lavanda (B/6),True,True,Limpieza,Poett,excel,excel
+002761034,Desodorante de Ambiente Poett 360cc Música de Primavera (B/6),True,True,Limpieza,Poett,excel,inferida
+002761032,Desodorante de Ambiente Poett 360cc Solo Para Ti (B/6),True,True,Limpieza,Poett,excel,excel
+055041062,Deterg. Conc. Sedile  Ultra Limon 300cc (B/18),True,True,Limpieza,Sedile,excel,inferida
+055045062,Deterg. Conc. Sedile  Ultra Limon 500cc (B/12),True,True,Limpieza,Sedile,excel,inferida
+055041063,Deterg. Conc. Sedile  Ultra Manzana 300cc (B/18),True,True,Limpieza,Sedile,excel,inferida
+055045063,Deterg. Conc. Sedile  Ultra Manzana 500cc (B/12),True,True,Limpieza,Sedile,excel,inferida
+055041064,Deterg. Conc. Sedile  Ultra Marina 300cc (B/18),True,True,Limpieza,Sedile,excel,inferida
+055045064,Deterg. Conc. Sedile  Ultra Marina 500cc (B/12),True,True,Limpieza,Sedile,excel,inferida
+053501054,Deterg. Lavav. Sedile Aloe Vera 750cc (B/15),True,True,Limpieza,Sedile,excel,inferida
+053051052,Deterg. Lavav. Sedile Colageno 750cc (B/15),True,True,Limpieza,Sedile,excel,inferida
+053051053,Deterg. Lavav. Sedile Glicerina 750cc (B/15),True,True,Limpieza,Sedile,excel,inferida
+053051056,Deterg. Lavav. Sedile Limon 750cc (B/15),True,True,Limpieza,Sedile,excel,inferida
+053051057,Deterg. Lavav. Sedile Marina 750cc (B/15),True,True,Limpieza,Sedile,excel,inferida
+053051051,Deterg. Lavav. Sedile Rosa Mosq. 750cc (B/15),True,True,Limpieza,Sedile,excel,inferida
+0068828916,Detergente CIF 300ml Bioactive Lima (B/12),True,True,Limpieza,Cif,excel,excel
+404410,Detergente CIF 300ml Limón (B/12),True,True,Limpieza,Cif,excel,excel
+61287,Detergente Gigante Antibacterial Amanecer 750cc (B/15),True,True,Limpieza,Gigante,excel,excel
+61289,Detergente Gigante Antibacterial Manzanilla 750cc (B/15),True,True,Limpieza,Gigante,excel,excel
+61288,Detergente Gigante Antibacterial Moras 750cc (B/15),True,True,Limpieza,Gigante,excel,excel
+61286,Detergente Gigante Cremoso Aloe 750ml (B/15),True,True,Limpieza,Gigante,excel,excel
+61285,Detergente Gigante Cremoso Glicerina 750cc (B/15),True,True,Limpieza,Gigante,excel,excel
+62389,Detergente Gigante Glicerina 500ml (B/24),True,True,Limpieza,Gigante,excel,excel
+62387,Detergente Gigante Limón 500ml (B/24),True,True,Limpieza,Gigante,excel,excel
+61284,Detergente Gigante Limón 750ml (B/15),True,True,Limpieza,Gigante,excel,excel
+61291,Detergente Gigante Toques de Almendra 750cc (B/15),True,True,Limpieza,Gigante,excel,excel
+61859,Detergente Gigante Ultra Concentrado 545cc (B/12),True,True,Limpieza,Gigante,excel,inferida
+61855,Detergente Gigante Ultra Concentrado Frutilla 273cc (B/12),True,True,Limpieza,Gigante,excel,excel
+62409,Detergente Gigante Ultra Concentrado Frutilla 445cc (B/12),True,True,Limpieza,Gigante,excel,excel
+61857,Detergente Gigante Ultra Concentrado Kiwi 273cc (B/12),True,True,Limpieza,Gigante,excel,excel
+62410,Detergente Gigante Ultra Concentrado Kiwi 445cc (B/12),True,True,Limpieza,Gigante,excel,excel
+61856,Detergente Gigante Ultra Concentrado Limón 273cc (B/12),True,True,Limpieza,Gigante,excel,excel
+62408,Detergente Gigante Ultra Concentrado Limón 445cc (B/12),True,True,Limpieza,Gigante,excel,excel
+61858,Detergente Gigante Ultra Concentrado Pomelo 273cc (B/12),True,True,Limpieza,Gigante,excel,excel
+62411,Detergente Gigante Ultra Concentrado Pomelo 445cc (B/12),True,True,Limpieza,Gigante,excel,excel
+62441,Detergente Magistral x 215ml (B/21),True,True,Limpieza,Magistral,inferida,excel
+42244,Detergente Magistral x 300ml (B/21),True,True,Limpieza,Magistral,inferida,excel
+41768,Diclofenac 100mg Kilab (D/36),True,True,Farmacia,,inferida,
+41767,Diclofenac 100mg x 15 cápsulas (D/50),True,True,Farmacia,,inferida,
+417681,Diclofenac 100mg x 15 cápsulas Genérico (D/50),True,True,Farmacia,,inferida,
+1015555,Dientes Misky x500gr (B/6),True,True,Golosinas,Misky,excel,excel
+1015570,Dinos Misky 12x25gr (B/12),True,True,Golosinas,Misky,excel,excel
+13942554,Donuts Blanca Bonafide x 52gr (B/24),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+13942557,Donuts Blanca Bonafide x 78gr (B/24),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+13942559,Donuts Leche Bonafide x 52gr (B/24),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+13942556,Donuts Leche Bonafide x 78gr (B/24),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+1014568,Dulce de Batata con Chocolate Noel 5 Kg,True,True,Almacén,Noel,excel,excel
+1014567,Dulce de Batata con Vainilla Noel 5 Kg,True,True,Almacén,Noel,excel,excel
+1006630,Dulce de Batata Noel lata 5Kg (B/2),True,True,Almacén,Noel,excel,excel
+5073119,Dulce de Leche Clásico 1kg Sancor (B/24),False,False,Lácteos,Sancor,inferida,excel
+5073186,Dulce de Leche Clásico x 400g Sancor (B/24),False,False,Lácteos,Sancor,inferida,excel
+991850,Dulce de Leche CreSer x380gr (B/12),True,True,Lácteos,CreSer,inferida,excel
+5073190,Dulce de Leche Repostero x 400g Sancor (B/24),False,False,Lácteos,Sancor,inferida,excel
+14045,Dulce de Membrillo 7 Días Cajón 5kg SIN TACC,True,True,Almacén,7 Días,excel,excel
+1006710,Dulce de Membrillo lata Noel 5kg (B/2),True,True,Almacén,Noel,excel,excel
+1000008,Dulce de Membrillo Noel 5 Kg,True,True,Almacén,Noel,excel,excel
+3012921,Dulce Membrillo DLH Cajon 2kg s/Gluten,True,True,Almacén,DLH,excel,excel
+50838,Dulech 20 x 21gr Fel Fort (B/8),True,True,Chocolates y Alfajores,Felfort,excel,excel
+4090015,Edulc. Cañ. Granu. Moreno Doypack 200gr (B/12),True,True,Almacén,,excel,
+4090013,Edulc. Cañuelas Granu. Moreno 60gr (B/12),True,True,Almacén,Cañuelas,excel,inferida
+4090014,Edulc. Cañuelas Granu. Stevia 60gr (B/12),True,True,Almacén,Cañuelas,excel,inferida
+3014516,Edulco Stevia Si-Diet 200cc (B/6),True,True,Almacén,Si Diet,excel,excel
+4090001,Edulcorante Cañuelas Clásico 200ml (B/6),True,True,Almacén,Cañuelas,excel,excel
+4090002,Edulcorante Cañuelas Clásico 500ml (B/6),True,True,Almacén,Cañuelas,excel,excel
+4090007,Edulcorante Cañuelas Clásico en sobres 100 x 80g (B/12),True,True,Almacén,Cañuelas,excel,excel
+4090005,Edulcorante Cañuelas Stevia 200ml (B/6),True,True,Almacén,Cañuelas,excel,excel
+4090008,Edulcorante Cañuelas Stevia en sobres 100 x 80g (B/12),True,True,Almacén,Cañuelas,excel,excel
+4090003,Edulcorante Cañuelas Sucralosa 200ml (B/6),True,True,Almacén,Cañuelas,excel,excel
+4090004,Edulcorante Cañuelas Sucralosa 500ml (B/6),True,True,Almacén,Cañuelas,excel,excel
+3023511,Edulcorante de Mesa Si-Light Stevia 500cc (B/6),True,True,Almacén,Si Light,excel,excel
+200501,Edulcorante Edulkony Clásico Líquido x 200ml (B/12),True,True,Almacén,Edulkony,inferida,excel
+200502,Edulcorante Edulkony Clásico Líquido x 500ml (B/6),True,True,Almacén,Trever Kony,inferida,excel
+200505,Edulcorante Edulkony Sucralosa 200ml (B/12),True,True,Almacén,Edulkony,inferida,excel
+200506,Edulcorante Edulkony Sucralosa 500ml (B/6),True,True,Almacén,Edulkony,inferida,excel
+3023509,Edulcorante Si Light Clásico 500ml (B/6),True,True,Almacén,Si Light,excel,excel
+3014507,Edulcorante Si-Diet 200cc (B/6),True,True,Almacén,Si Diet,excel,excel
+3014506,Edulcorante SI-DIET 250cc (B/6),True,True,Almacén,Si Diet,excel,excel
+3014504,Edulcorante Si-Diet 500cc (B/6),True,True,Almacén,Si Diet,excel,excel
+3014505,Edulcorante Si-Diet 600cc (B/6),True,True,Almacén,Si Diet,excel,excel
+4090006,Edulcorante Stevia Cañuelas 500ml (B/6),True,True,Almacén,Cañuelas,excel,excel
+3014515,Edulcorante Stevia Si-Diet 250cc (B/6),True,True,Almacén,Si Diet,excel,excel
+3014513,Edulcorante Stevia Si-Diet 500cc (B/6),True,True,Almacén,Si Diet,excel,excel
+3014514,Edulcorante Stevia Si-Diet 600cc (B/6),True,True,Almacén,Si Diet,excel,excel
+3300349,Encendedor Cancun/Taiyo x50u (B/20),True,True,Perfumería y Varios,Cancun,excel,excel
+459,Encendedor Candela Transparente 25,True,True,Perfumería y Varios,Candela,excel,excel
+401000137,Ensalada de Quinoa Box x230gr (B/8),True,True,Almacén,MBOX,excel,excel
+401000138,Ensalada Rusa c/Atun Box x240gr (B/8),True,True,Almacén,MBOX,excel,excel
+01998,Espiral Insecticida ECO x 10 (B/60),True,True,Limpieza,Eco,excel,excel
+41942,Espirales Insecticidas Raid Country 4 x 12 (B/4),True,True,Limpieza,Raid,inferida,excel
+41998,Espirales Insecticidas Raid Country x 12 (B/24),True,True,Limpieza,Raid,inferida,excel
+0050,Exhbidor Papas Murken,True,False,,,,
+500,Exhibidor Bonafide Choc. Leche Mani,True,False,,,,
+200005,Exhibidor Botadero de Turrones,False,False,,,,
+40407000,Exhibidor Cañuelas,False,False,,,,
+200004,Exhibidor Caramelos Sugus Mostrador,False,False,,,,
+200002,Exhibidor de Galletitas Paseo,False,False,,,,
+404,Exhibidor Dolchester Vertical,False,False,,,,
+711100,Exhibidor Harinas Pureza,False,False,,,,
+88100018,Exhibidor Krachitos Kiosco Plega 4 Bandejas,True,True,,,,
+79,Exhibidor Liverpool,False,False,,,,
+700060,Exhibidor M&M Skittles Snickers y Twix,True,False,,,,
+400,Exhibidor Pier Vertical,False,False,,,,
+700070711,Exhibidor Pleg. Pedigree y Whiskas,True,False,,,,
+200001,Exhibidor Tableta Hamlet Mostrador,False,False,,,,
+435,Exhibidor Vale,True,False,,,,
+0068,Exhibidor Valente,True,False,,,,
+33000200,Fernet Preparado F3 6 x 1L,True,True,Bebidas,F3,inferida,excel
+300600,Ferrero Rocher 3u x 16 tiras (B/6),True,True,Chocolates y Alfajores,Ferrero,excel,excel
+4060043,Fideos Integrales Nido Ancho 12 x 500g,True,True,Almacén,San Agustín,excel,excel
+4060044,Fideos Integrales Tirabuzón 12 x 500g,True,True,Almacén,San Agustín,excel,excel
+400056,Fideos Pureza Fusilli al Huevo Sémola x 500g (B/12),True,True,Almacén,Pureza,excel,excel
+400053,Fideos Pureza Fusilli Sémola Integral de Trigo x 500g (B/12),True,True,Almacén,Pureza,excel,excel
+400057,Fideos Pureza Rigatoni al Huevo Sémola x 500g (B/12),True,True,Almacén,Pureza,excel,excel
+400054,Fideos Pureza Rigatoni Sémola Integral de Trigo x 500g (B/12),True,True,Almacén,Pureza,excel,excel
+400058,Fideos Pureza Rigatti Al Huevo Sémola x 500g (B/12),True,True,Almacén,Pureza,excel,excel
+40400055,Fideos Pureza Rigatti Sémola Integral de Trigo x 500g (B/12),True,True,Almacén,Pureza,excel,excel
+4060033,Fideos San Agustín Ave María x 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+4060032,Fideos San Agustín Cabello de Ángel x 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+4060031,Fideos San Agustín Celentano x 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+4060030,Fideos San Agustín Codito x 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+4060029,Fideos San Agustín Dedalitos x 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+4060042,Fideos San Agustín Integral Mostachol 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+4060028,Fideos San Agustín Mostachol x 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+4060027,Fideos San Agustín Municiones x 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+4060026,Fideos San Agustín Nido Ancho x 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+4060025,Fideos San Agustín Nido Angosto x 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+4060024,Fideos San Agustín Ñoquis x 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+4060034,Fideos San Agustín Pamperito x 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+4060023,Fideos San Agustín Rigatti x 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+4060059,Fideos San Agustín Spaghetti 500g (B/20),True,True,Almacén,San Agustín,excel,excel
+4060060,Fideos San Agustín Tallarín x 500g (B/20),True,True,Almacén,San Agustín,excel,excel
+4060020,Fideos San Agustín Tirabuzón x 500g (B/12),True,True,Almacén,San Agustín,excel,excel
+1013197,Flan de Dulce de Leche Noel 8 x 25g (B/6),True,True,Almacén,Noel,excel,excel
+1013198,Flan de Vainilla Noel 8 x 25g (B/6),True,True,Almacén,Noel,excel,excel
+33008001,"Frutafiel Agua Sab. Pom 6x1,5L",True,True,Bebidas,Frutafiel,inferida,excel
+1015220,Frutigelatina Gusanito 12 x 25g (B/12),True,True,Golosinas,Frutigelatin,excel,excel
+1013092,Frutigelatina Saurios 12 x 25g (B/12),True,True,Golosinas,Misky,excel,excel
+1013093,Frutigelatina Truitos 12 x 25g (B/12),True,True,Golosinas,Misky,excel,excel
+10900076,Galletas Pamela Rellenas choc.x84gr (B/36),True,True,Galletitas y Snacks,Pamela,excel,excel
+9001575,Galletita Fulbito x120g (B/15),True,True,Galletitas y Snacks,Fulbito,excel,excel
+4040185,Galletitas 9 de Oro Anillitos de Chocolate 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040183,Galletitas 9 de Oro Anillitos de Coco 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040184,Galletitas 9 de Oro Anillitos de Vainilla 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040138,Galletitas 9 de Oro Anillitos de Vainilla 380g (B/12),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040265,Galletitas 9 de Oro Avena con Pasas 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040264,Galletitas 9 de Oro Avena y Miel 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040268,Galletitas 9 de Oro Avena y Yogur Frutilla 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040140,Galletitas 9 de Oro Bocaditos Sabor Banana (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040141,Galletitas 9 de Oro Bocaditos Sabor Frutilla (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040223,Galletitas 9 de Oro Brigitte Chocolate y Chocolate 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040222,Galletitas 9 de Oro Brigitte Chocolate y Limón 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040221,Galletitas 9 de Oro Brigitte Vainilla y Chocolate 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040220,Galletitas 9 de Oro Brigitte Vainilla y Limón x 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040269,Galletitas 9 de Oro Cookies con Chips 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040266,Galletitas 9 de Oro Cookies con Chips Blancos 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040267,Galletitas 9 de Oro Cookies con Chips de Colores x 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040417,Galletitas 9 de Oro Dulces con Canela 160g (B/10),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040127,Galletitas 9 de Oro Pepas de Membrillo 200g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040357,Galletitas 9 de Oro Pepas de Membrillo 350g (B/12),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040126,Galletitas 9 de Oro Pepas de Membrillo 380g (B/12),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040356,Galletitas 9 de Oro Pepas de Membrillo 500g (B/12),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040338,Galletitas 9 de Oro Rellenitas Vainilla y Dulce de Leche 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040339,Galletitas 9 de Oro Rellenitas Vainilla y Frutilla 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040008,Galletitas 9 de Oro Sconcitos 200g (B/20),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040128,Galletitas 9 de Oro Scons 180g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+9001570,Galletitas Aires de Lujan Choc. 180gr (B/15),True,True,Galletitas y Snacks,Aires de Lujan,excel,excel
+9001571,Galletitas Aires de Lujan de Manteca 180gr (B/15),True,True,Galletitas y Snacks,Aires de Lujan,excel,excel
+1014397,Galletitas Chocolia x 170g (B/40),True,True,Galletitas y Snacks,Lia,excel,excel
+10900049,Galletitas Chocopamelas x 170g (B/29),True,True,Galletitas y Snacks,Firenze,excel,excel
+10900050,Galletitas Chocopamelas x 220g (B/24),True,True,Galletitas y Snacks,Firenze,excel,excel
+4450049,Galletitas Crackers de Arroz Molinos Ala x 100g (B/10),True,True,Galletitas y Snacks,Molinos Ala,excel,excel
+4040413,Galletitas Crujitas Cebolla y Crema x 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040412,Galletitas Crujitas Clásicas x 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040416,Galletitas Crujitas de Jamón Serrano x 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040414,Galletitas Crujitas de Queso x 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040415,Galletitas Crujitas Hierbas de la Huerta x 120g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040262,Galletitas Dulce Mamá Pepas 350g (B/12),True,True,Galletitas y Snacks,Dulce Mamá,excel,excel
+1014454,Galletitas Hamlet Black 152g (B/36),True,True,Galletitas y Snacks,Hamlet,excel,excel
+1014453,Galletitas Hamlet Rellenas Chocolate 152g (B/36),True,True,Galletitas y Snacks,Hamlet,excel,excel
+1014416,Galletitas Hamlet Rellenas Vainilla 152g (B/36),True,True,Galletitas y Snacks,Hamlet,excel,excel
+700016,Galletitas Integrales Cachafaz Algarroba x 225g (B/21),True,True,Galletitas y Snacks,Cachafaz,excel,excel
+700017,Galletitas Integrales Cachafaz Avena y Pasas x 225g (B/21),True,True,Galletitas y Snacks,Cachafaz,excel,excel
+700018,Galletitas Integrales Cachafaz Chips de Chocolate x 225g (B/21),True,True,Galletitas y Snacks,Cachafaz,excel,excel
+700019,Galletitas Integrales Cachafaz Granola x 225g (B/21),True,True,Galletitas y Snacks,Cachafaz,excel,excel
+1014533,Galletitas Macucas 110g (B/36),True,True,Galletitas y Snacks,Macucas,excel,excel
+1014687,Galletitas Macucas 85g (B/40),True,True,Galletitas y Snacks,Macucas,excel,excel
+1015046,Galletitas Macucas Black Lía x 110g (B/36),True,True,Galletitas y Snacks,Macucas,excel,excel
+1013368,Galletitas Mediatarde 105g (B/42),True,True,Galletitas y Snacks,Mediatarde,excel,excel
+1014358,Galletitas Mediatarde 315g (B/14),True,True,Galletitas y Snacks,Mediatarde,excel,excel
+1008876,Galletitas Mediatarde Sándwich 321g (B/16),True,True,Galletitas y Snacks,Mediatarde,excel,excel
+1008879,Galletitas Mediatarde Sándwich 535g (B/8),True,True,Galletitas y Snacks,Mediatarde,excel,excel
+13000001,Galletitas Mini Criollitos Materos Pamela 180g (B/15),True,True,Galletitas y Snacks,Pamela,excel,excel
+10900021,Galletitas Mini Pamela Chips Chocolate 4 x 45g (B/8),True,True,Galletitas y Snacks,Pamela,excel,excel
+10900014,Galletitas Mini Pamela Chips Chocolate x 180g (B/15),True,True,Galletitas y Snacks,Pamela,excel,excel
+10900009,Galletitas Mini Pamela Chocolate x 180g (B/15),True,True,Galletitas y Snacks,Pamela,excel,excel
+10900019,Galletitas Mini Pamela Coco 4 x 45g (B/8),True,True,Galletitas y Snacks,Pamela,excel,excel
+10900011,Galletitas Mini Pamela Coco x 180g (B/15),True,True,Galletitas y Snacks,Pamela,excel,excel
+10900020,Galletitas Mini Pamela Limón 4 x 45g (B/8),True,True,Galletitas y Snacks,Pamela,excel,excel
+10900012,Galletitas Mini Pamela Limón x 180g (B/15),True,True,Galletitas y Snacks,Pamela,excel,excel
+10900010,Galletitas Mini Pamela Manteca x 180g (B/15),True,True,Galletitas y Snacks,Pamela,excel,excel
+10900013,Galletitas Mini Pamela Scones x 180g (B/15),True,True,Galletitas y Snacks,Pamela,excel,excel
+1013925,Galletitas Mini Polvorita Chocolate-Vainilla 152g (B/36),True,True,Galletitas y Snacks,Polvorita,excel,excel
+1013923,Galletitas Mini Polvorita Vainilla-Frutilla 152g (B/36),True,True,Galletitas y Snacks,Polvorita,excel,excel
+1013924,Galletitas Mini Polvorita Vainilla-Limón 152g (B/36),True,True,Galletitas y Snacks,Polvorita,excel,excel
+1013922,Galletitas Mini Polvorita Vainilla-Vainilla 152g (B/36),True,True,Galletitas y Snacks,Polvorita,excel,excel
+700020,Galletitas Orgánicas Cachafaz Avena y Miel x 170g (B/21),True,True,Galletitas y Snacks,Cachafaz,excel,excel
+700021,Galletitas Orgánicas Cachafaz Cacao y Miel x 170g (B/21),True,True,Galletitas y Snacks,Cachafaz,excel,excel
+10900023,Galletitas Pamela Rellenas Chocolate x 97g (B/36),True,True,Galletitas y Snacks,Pamela,excel,excel
+10900022,Galletitas Pamela Rellenas Vainilla x 97g (B/36),True,True,Galletitas y Snacks,Pamela,excel,excel
+4040162,Galletitas Paseo Cinco Semillas 150g (B/16),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040155,Galletitas Paseo Cinco Semillas 300g (B/14),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040160,Galletitas Paseo Crackers 150g (B/16),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040152,Galletitas Paseo Crackers 300g (B/14),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040404,Galletitas Paseo Crackers Oliva y Romero 250g (B/14),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040410,Galletitas Paseo Crackers Pizza 150g (B/16),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040405,Galletitas Paseo Crackers Pizza 250g (B/14),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040409,Galletitas Paseo Crackers Queso 150g (B/16),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040406,Galletitas Paseo Crackers Queso 250g (B/14),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040158,Galletitas Paseo Minimarineras 220g (B/14),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040154,Galletitas Paseo Multicereales 300g (B/14),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040153,Galletitas Paseo Salvado 300g (B/14),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040157,Galletitas Paseo Sésamo 300g (B/14),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040179,Galletitas Pepas de Membrillo Integrales 140g (B/16),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040263,Galletitas Pepas Dulce Mamá 200g (B/16),True,True,Galletitas y Snacks,Dulce Mamá,excel,excel
+1014614,Galletitas Polvorita Chocolate-Vainilla 152g (B/36),True,True,Galletitas y Snacks,Polvorita,excel,excel
+1013918,Galletitas Polvorita Chocolate-Vainilla 81g (B/40),True,True,Galletitas y Snacks,Polvorita,excel,excel
+1013964,Galletitas Polvorita Vainilla y Frutilla 152g (B/36),True,True,Galletitas y Snacks,Polvorita,excel,excel
+1013917,Galletitas Polvorita Vainilla-Frutilla 81g (B/40),True,True,Galletitas y Snacks,Polvorita,excel,excel
+1013919,Galletitas Polvorita Vainilla-Vainilla 152g (B/36),True,True,Galletitas y Snacks,Polvorita,excel,excel
+1013916,Galletitas Polvorita Vainilla-Vainilla 81g (B/40),True,True,Galletitas y Snacks,Polvorita,excel,excel
+1014902,Galletitas Surtido Lía x 400g (B/21),True,True,Galletitas y Snacks,Lia,excel,excel
+300046504,Galletitas Toddy Chispas de Chocolate 126g x 24,True,True,Galletitas y Snacks,Toddy,inferida,excel
+50050000,Galletitas Toddy Chocolate Air Combinado 10 x 60g (B/6),True,True,Galletitas y Snacks,Toddy,inferida,excel
+5002513,Galletitas Toddy Chocolate Blanco con Cookies 10 x 60g (B/6),True,True,Galletitas y Snacks,Toddy,inferida,excel
+43380,Galletitas Toddy con Chispas de Chocolate 126g (B/24),True,True,Galletitas y Snacks,Toddy,inferida,excel
+42348,Galletitas Toddy con Chispas Mini 50g (B/36),True,True,Galletitas y Snacks,Toddy,inferida,excel
+5002512,Galletitas Toddy rellenas de Leche 10 x 60g (B/6),True,True,Galletitas y Snacks,Toddy,inferida,excel
+5002511,Galletitas Toddy rellenas de Mousse de Chocolate 10 x 60g (B/6),True,True,Galletitas y Snacks,Toddy,inferida,excel
+1014613,Galletitas Vocación Acarameladas 145g (B/36),True,True,Galletitas y Snacks,Vocacion,excel,excel
+1014612,Galletitas Vocación Acarameladas 435g (B/12),True,True,Galletitas y Snacks,Vocacion,excel,excel
+1014638,Galletitas Vocación Clásicas 141g (B/36),True,True,Galletitas y Snacks,Vocacion,excel,excel
+1014362,Galletitas Vocación Clásicas 384g (B/12),True,True,Galletitas y Snacks,Vocacion,excel,excel
+33003221,Gaseosa Frutafiel Cola 6 x 3L,True,True,Bebidas,Frutafiel,inferida,excel
+33003321,Gaseosa Frutafiel Lima 6 x 3L,True,True,Bebidas,Frutafiel,inferida,excel
+33003121,Gaseosa Frutafiel Naranja 6 x 3L,True,True,Bebidas,Frutafiel,inferida,excel
+33003421,Gaseosa Frutafiel Pomelo 6 x 3L,True,True,Bebidas,Frutafiel,inferida,excel
+132702,"Gaseosa Rumipal Citrus 6 x 1,5L",True,True,Bebidas,Rumipal,inferida,excel
+132104,"Gaseosa Rumipal Cola 6 x 2,25L",True,True,Bebidas,Rumipal,inferida,excel
+132604,"Gaseosa Rumipal Lima Limón 6 x 2,25L",True,True,Bebidas,Rumipal,inferida,excel
+132504,"Gaseosa Rumipal Limón 6 x 2,25L",True,True,Bebidas,Rumipal,inferida,excel
+132204,"Gaseosa Rumipal Naranja 6 x 2,25L",True,True,Bebidas,Rumipal,inferida,excel
+133102,"Gaseosa Rumipal Pomelo 6 x 1,5L",True,True,Bebidas,Rumipal,inferida,excel
+132304,"Gaseosa Rumipal Pomelo 6 x 2,25L",True,True,Bebidas,Rumipal,inferida,excel
+133002,"Gaseosa Rumipal Tónica 6 x 1,5L",True,True,Bebidas,Rumipal,inferida,excel
+1013208,Gelatina Sabor Cereza Noel 8 x 25g (B/6),True,True,Almacén,Noel,excel,inferida
+1014557,Gelatina Sabor Cereza Noel 8 x 25g (B/6),True,True,Almacén,Noel,excel,inferida
+1014556,Gelatina Sabor Frutilla Noel 8 x 25g (B/6),True,True,Almacén,Noel,excel,inferida
+1015571,Gom Fantasia Misky 12x25g (B/12),True,True,Golosinas,Misky,excel,inferida
+1015247,Goma Ricomas Jelly Roll Frutal 500g (B/6),True,True,Golosinas,Ricomás,excel,excel
+370899,Gomas Piñata Miel Menta Limon x700gr (B/8),True,True,Golosinas,Piñata,excel,inferida
+370890,Gomas Piñata Pete x700gr (B/8),True,True,Golosinas,Piñata,excel,inferida
+1015558,Gomitas Sandias Misky x500gr (B/6),True,True,Golosinas,Misky,excel,excel
+78607,Gongys Corazon Frut. Vain. 28gr (B/48),True,True,Golosinas,Gongys,excel,inferida
+78560,Gongys Frutilla 28gr (B/48),True,True,Golosinas,Gongys,excel,inferida
+78561,Gongys Nubecita 28gr (B/48),True,True,Golosinas,Gongys,excel,inferida
+700405,Grisines Clásicos Veneziana x 180g (B/15),True,True,Panificados,Veneziana,excel,excel
+700407,Grisines con Salvado Veneziana x 180g (B/15),True,True,Panificados,Veneziana,excel,excel
+700406,Grisines Italianos Blancos Veneziana x 180g (B/15),True,True,Panificados,Veneziana,excel,excel
+700409,Grisines Multicereal Cormillot x 180g (B/15),True,True,Panificados,Veneziana,excel,excel
+700408,Grisines Trisalvado Light Cormillot x 180g (B/15),True,True,Panificados,Veneziana,excel,excel
+401000141,Guiso de Lenteja Box x300gr (B/10),True,True,Almacén,MBOX,excel,excel
+1015569,Gusanos Acidos Misky 12x25gr (B/12),True,True,Golosinas,Misky,excel,excel
+1015557,Gusanos Acidos Misky x500gr (B/6),True,True,Golosinas,Misky,excel,excel
+4050089,Harina  000 Pureza 1Kg (B/10),True,True,Almacén,Pureza,excel,excel
+4050096,Harina 0000 Pureza Ultra Refinada 1Kg (B/10),True,True,Almacén,Pureza,excel,excel
+4050221,Harina 100% Integral Pureza 1kg (B/10),True,True,Almacén,Pureza,excel,excel
+4050347,Harina c/Fibra Pureza 1Kg (B/10),True,True,Almacén,Pureza,excel,inferida
+4050258,Harina Cañuelas 000 Ultra Refinada Vitamina D 1kg (B/10),True,True,Almacén,Cañuelas,excel,excel
+4050097,Harina con Levadura Pureza Especial para Panes 1Kg (B/10),True,True,Almacén,Pureza,excel,excel
+4050090,Harina con Levadura Pureza para Pizza 1Kg (B/10),True,True,Almacén,Pureza,excel,excel
+4050294,Harina con Levadura Pureza para Pizza Masa Madre 1Kg (B/10),True,True,Almacén,Pureza,excel,excel
+11013307,Harina de Maíz Noel x 500g (B/30),True,True,Almacén,Noel,excel,excel
+4050276,Harina Leudante Pureza Ultra Refinada Vitamina D 1kg (B/10),True,True,Almacén,Pureza,excel,excel
+4050261,Harina Pureza 100% Integral Pizza con Levadura 1kg (B/10),True,True,Almacén,Pureza,excel,excel
+4050029,Harina Pureza Integral Leudante 1Kg (B/10),True,True,Almacén,Pureza,excel,excel
+4050339,Harina Pureza Multicereal Masa Madre 1kg (B/10),True,True,Almacén,Pureza,excel,excel
+1013336,Huevo de Chocolate Sapito con Confites 12 x 28g (B/8),True,True,Chocolates y Alfajores,Sapito,excel,excel
+51537,Huevo Jack Mafalda 10x14gr (B/10),True,True,Chocolates y Alfajores,Jack,excel,excel
+300500,Huevo Kinder Dragons x12u (B/8),True,True,Chocolates y Alfajores,Kinder,excel,excel
+300501,Huevo Kinder Rosa x12u (B/8),True,True,Chocolates y Alfajores,Kinder,excel,excel
+40400,Ibuprofeno 400mg HLB,True,True,Farmacia,,inferida,
+40164,Ibuprofeno 400mg x 10 comprimidos,True,True,Farmacia,,inferida,
+42108,Ibuprofeno 400mg x 10 comprimidos IbuMax (D/5),True,True,Farmacia,,inferida,
+40600,Ibuprofeno 600 mg HLB,True,True,Farmacia,,inferida,
+40104,Ibuprofeno 600mg x 10 comprimidos (D/50),True,True,Farmacia,,inferida,
+40310,Ibuprofeno 600mg x 10 comprimidos Fabopril,True,True,Farmacia,,inferida,
+40001,Ibuprofeno Actron 400mg x 10 cápsulas (D/2),True,True,Farmacia,,inferida,
+40081,Ibuprofeno Actron 600mg x 10 cápsulas (D/1),True,True,Farmacia,,inferida,
+40031,Ibuprofeno Evanol Rápida Acción x 10 cápsulas (D/2),True,True,Farmacia,,inferida,
+002761816,Insecticida Selton 360cc Rojo Acción Instantánea (B/6),True,True,Limpieza,Selton,excel,excel
+059061051,Jab. Liq. Lavar Ropa Sedile 800cc (B/12),True,True,Limpieza,Sedile,excel,inferida
+13011,Jabón Blanco Argentino x 200g (B/40),True,True,Limpieza,Argentino,inferida,excel
+53011,Jabón Blanco Argentino x 200g (B/40),True,True,Limpieza,Argentino,inferida,excel
+41888,Jabón Blanco Signo x 150g (B/70),True,True,Limpieza,Signo,inferida,excel
+62349,Jabón de Tocador Duc 3 x 110g (B/24),True,True,Perfumería y Varios,Duc,excel,excel
+62178,Jabón de Tocador DUC Armonic 110g (B/72),True,True,Perfumería y Varios,Duc,excel,excel
+62180,Jabón de Tocador DUC Citrus 110g (B/72),True,True,Perfumería y Varios,Duc,excel,excel
+62350,Jabón de Tocador Duc Citrus 3 x 110g (B/24),True,True,Perfumería y Varios,Duc,excel,excel
+62181,Jabón de Tocador DUC Hidrativa 110g (B/72),True,True,Perfumería y Varios,Duc,excel,excel
+62179,Jabón de Tocador DUC Relax 110g (B/72),True,True,Perfumería y Varios,Duc,excel,excel
+62162,Jabón de Tocador Kenia 3 x 80g (B/32),True,True,Perfumería y Varios,Kenia,excel,excel
+40710,Jabón de Tocador Lux x 125g (B/72),True,True,Perfumería y Varios,Lux,inferida,excel
+42352,Jabón de Tocador Nivea 3 x 125g (B/24),True,True,Perfumería y Varios,Nivea,inferida,excel
+90463,Jabón de Tocador Plusbelle x 125g (B/81),True,True,Perfumería y Varios,Plusbelle,inferida,excel
+0064327961,Jabón de Tocador Rexona Bamboo 120g (B/72),True,True,Perfumería y Varios,Rexona,excel,excel
+0064327962,Jabón de Tocador Rexona Cotton 120g (B/72),True,True,Perfumería y Varios,Rexona,excel,excel
+0065441225,Jabón de Tocador Rexona FIFA 120g (B/72),True,True,Perfumería y Varios,Rexona,excel,excel
+0064327963,Jabón de Tocador Rexona Fútbol 120g (B/72),True,True,Perfumería y Varios,Rexona,excel,excel
+0064327964,Jabón de Tocador Rexona Orchid 120g (B/72),True,True,Perfumería y Varios,Rexona,excel,excel
+0064327960,Jabón de Tocador Rexona Sensible 120g (B/72),True,True,Perfumería y Varios,Rexona,excel,excel
+40806,Jabón de Tocador Rexona x 125g (B/72),True,True,Perfumería y Varios,Rexona,inferida,excel
+61725,Jabón en Pan Gigante de Lavar BIO 150g (B/72),True,True,Limpieza,Gigante,excel,excel
+61271,Jabón en Pan Gigante Limpieza Clásica 200g (B/72),True,True,Limpieza,Gigante,excel,excel
+61272,Jabón en Pan Gigante Suave Ternura 200g (B/72),True,True,Limpieza,Gigante,excel,excel
+42243,Jabón en Polvo Ala Matic Rosa Bicarbonato x 400g (B/24),True,True,Limpieza,Ala,excel,excel
+42247,Jabón en Polvo Ala Regular Amarillo Mañana de Sol x 400g (B/24),True,True,Limpieza,Ala,excel,excel
+42249,Jabón en Polvo Ala Regular Azul Lavado a Mano x 400g (B/24),True,True,Limpieza,Ala,excel,excel
+42245,Jabón en Polvo Ala Regular Celeste Remueve Manchas x 400g (B/24),True,True,Limpieza,Ala,excel,excel
+62131,Jabón Gigante Puro Formato Económico (B/64),True,True,Limpieza,Gigante,excel,excel
+62317,Jabón Gigante Puro Formato Económico 2 x 120g (B/32),True,True,Limpieza,Gigante,excel,excel
+62316,Jabón Gigante Puro Fragancia Intensa 2 x 150g (B/36),True,True,Limpieza,Gigante,excel,excel
+69996573,Jabon Liq. Granby Rosas Doy Pack 800ml (B/12),True,True,Perfumería y Varios,Granby,inferida,excel
+0069996573,Jabon Liq. Granby Rosas Doy Pack 800ml (B/12),True,True,Limpieza,Granby,excel,inferida
+0068818369,Jabón Líquido Ala 800ml (B/12),True,True,Limpieza,Ala,excel,excel
+0069996571,Jabón Líquido Granby Limón Doy Pack 800ml (B/12),True,True,Limpieza,Granby,excel,excel
+23521,Jabón Nivea Cremoso x 125g (B/36),True,True,Perfumería y Varios,Nivea,inferida,excel
+1013254,Jardinera de Vegetales Noel 300g (B/24),True,True,Almacén,Noel,excel,excel
+3012898,Jugo Baggio Fresh Durazno 1000cc (B/8),True,True,Bebidas,Baggio Fresh,excel,excel
+3012877,Jugo Baggio Fresh Multifruta 200cc (B/18),True,True,Bebidas,Baggio Fresh,excel,excel
+3012871,Jugo Baggio Fresh Multifruta x 1000cc (B/8),True,True,Bebidas,Baggio Fresh,excel,excel
+3012720,Jugo Baggio Pronto Durazno 1000cc (B/8),True,True,Bebidas,Baggio,excel,excel
+3012610,Jugo Baggio Pronto Durazno 200cc (B/18),True,True,Bebidas,Baggio,excel,excel
+3012851,Jugo Baggio Pronto Durazno sin Azúcar 1000cc (B/8),True,True,Bebidas,Baggio,excel,excel
+3012855,Jugo Baggio Pronto Durazno sin Azúcar 200cc (B/18),True,True,Bebidas,Baggio,excel,excel
+3012717,Jugo Baggio Pronto Manzana 1000cc (B/8),True,True,Bebidas,Baggio,excel,excel
+3012607,Jugo Baggio Pronto Manzana 200cc (B/18),True,True,Bebidas,Baggio,excel,excel
+3012850,Jugo Baggio Pronto Manzana sin Azúcar 1000cc (B/8),True,True,Bebidas,Baggio,excel,excel
+3012854,Jugo Baggio Pronto Manzana sin Azúcar 200cc (B/18),True,True,Bebidas,Baggio,excel,excel
+30012852,Jugo Baggio Pronto Multifruta 1000cc (B/12),True,True,Bebidas,Baggio,excel,excel
+3012721,Jugo Baggio Pronto Multifruta 1000cc (B/8),True,True,Bebidas,Baggio,excel,excel
+3012611,Jugo Baggio Pronto Multifruta 200cc (B/18),True,True,Bebidas,Baggio,excel,excel
+3012852,Jugo Baggio Pronto Multifruta sin Azúcar 1000cc (B/8),True,True,Bebidas,Baggio,excel,excel
+3012856,Jugo Baggio Pronto Multifruta sin Azúcar 200cc (B/18),True,True,Bebidas,Baggio,excel,excel
+3012716,Jugo Baggio Pronto Naranja 1000cc (B/8),True,True,Bebidas,Baggio,excel,excel
+3012849,Jugo Baggio Pronto Naranja sin Azúcar 1000cc (B/8),True,True,Bebidas,Baggio,excel,excel
+3012853,Jugo Baggio Pronto Naranja sin Azúcar 200cc (B/18),True,True,Bebidas,Baggio,excel,excel
+3012718,Jugo Baggio Pronto Pera 1000cc (B/8),True,True,Bebidas,Baggio,excel,excel
+42182,Jugo en Polvo Clight Manzana Deliciosa x 20 (B/16),True,True,Almacén,Clight,inferida,excel
+42296,Jugo en Polvo Clight Naranja x 20 (B/16),True,True,Almacén,Clight,inferida,excel
+42324,Jugo en Polvo Clight Pomelo Rosado x 20 (B/16),True,True,Almacén,Clight,inferida,excel
+1014258,Jugo en Polvo Noel Ananá 18 x 16g (B/12),True,True,Almacén,Noel,excel,excel
+1014256,Jugo en Polvo Noel Limón 18 x 16g (B/12),True,True,Almacén,Noel,excel,excel
+1014255,Jugo en Polvo Noel Manzana 18 x 16g (B/12),True,True,Almacén,Noel,excel,excel
+1014257,Jugo en Polvo Noel Multifruta 18 x 16g (B/12),True,True,Almacén,Noel,excel,excel
+1014254,Jugo en Polvo Noel Naranja 18 x 16g (B/12),True,True,Almacén,Noel,excel,excel
+4275041,Jugo en Polvo Rinde Dos Ananá x 10 (B/24),True,True,Almacén,Rinde 2,excel,excel
+4275031,Jugo en Polvo Rinde Dos Durazno x 10 (B/24),True,True,Almacén,Rinde 2,excel,excel
+4275101,Jugo en Polvo Rinde Dos Frutilla x 10 (B/24),True,True,Almacén,Rinde 2,excel,excel
+4275081,Jugo en Polvo Rinde Dos Limón x 10 (B/24),True,True,Almacén,Rinde 2,excel,excel
+4275011,Jugo en Polvo Rinde Dos Manzana x 10 (B/24),True,True,Almacén,Rinde 2,excel,excel
+4275112,Jugo en Polvo Rinde Dos Multifruta x 10 (B/24),True,True,Almacén,Rinde 2,excel,excel
+4275001,Jugo en Polvo Rinde Dos Naranja x 10 (B/24),True,True,Almacén,Rinde 2,excel,excel
+4275091,Jugo en Polvo Rinde Dos Naranja-Banana x 10 (B/24),True,True,Almacén,Rinde 2,excel,excel
+4275051,Jugo en Polvo Rinde Dos Naranja-Durazno x 10 (B/24),True,True,Almacén,Rinde 2,excel,excel
+4275061,Jugo en Polvo Rinde Dos Naranja-Mango x 10 (B/24),True,True,Almacén,Rinde 2,excel,excel
+0015200,Jugo en Polvo Rinde Dos Pera x 10 (B/24),True,True,Almacén,Rinde 2,excel,excel
+42751111,Jugo en Polvo Rinde Dos Pomelo x 10 (B/24),True,True,Almacén,Rinde 2,excel,excel
+42090,Jugo en Polvo Tang Ananá x 20 (B/12),True,True,Almacén,Tang,inferida,excel
+42063,Jugo en Polvo Tang Durazno x 20 (B/12),True,True,Almacén,Tang,inferida,excel
+42078,Jugo en Polvo Tang Limón Dulce x 20 (B/12),True,True,Almacén,Tang,inferida,excel
+42070,Jugo en Polvo Tang Manzana x 20 (B/12),True,True,Almacén,Tang,inferida,excel
+42074,Jugo en Polvo Tang Naranja x 20 (B/12),True,True,Almacén,Tang,inferida,excel
+420094,Jugo en Polvo Tang Naranja-Durazno x 20 (B/12),True,True,Almacén,Tang,inferida,excel
+7669,Juguete Girafa 5g (B/6),True,True,Golosinas,Fun,excel,excel
+6508,Juguete La Gallina Coquita 8 (D/8),True,True,Golosinas,La Gallina Coquita,excel,excel
+6121,Juguete Squishy Ball 6 (D/6),True,True,Golosinas,Fun,excel,excel
+107801,Ketchup con Jalapeño Heinz Pet 397g (B/6),True,True,Almacén,Heinz,inferida,excel
+107800,Ketchup Heinz Pet 16 x 14oz 397g (B/16),True,True,Almacén,Heinz,inferida,excel
+401918,Ketchup Hellmanns 250g (B/24),True,True,Almacén,Hellmann's,excel,excel
+401920,Ketchup Hellmanns 60g (B/30),True,True,Almacén,Hellmann's,excel,excel
+40350,Ketorolac Microsules 20mg x 10 comprimidos (D/1),True,True,Farmacia,,inferida,
+300849,Kinder Bueno Dark 30ux43gr (B/4),True,True,Chocolates y Alfajores,Kinder,excel,inferida
+300851,Kinder Bueno leche 15ux43gr (B/4),True,True,Chocolates y Alfajores,Kinder,excel,excel
+300850,Kinder Bueno White 15ux43gr (B/4),True,True,Chocolates y Alfajores,Paseo,excel,excel
+141415,Kit Empresarial,True,True,,,,
+101010,Kit Regalo Empresarial,True,True,,,,
+7629,Lámpara LED 10W Luz Fría 5 (D/5),True,True,Perfumería y Varios,Candela,excel,excel
+6520,Lámpara LED 12W Luz Fría 5 (D/5),True,True,Perfumería y Varios,Candela,excel,excel
+6516,Lámpara LED 7W Luz Fría 5 (D/5),True,True,Perfumería y Varios,Candela,excel,excel
+6518,Lámpara LED 9W Luz Fría 5 (D/5),True,True,Perfumería y Varios,Candela,excel,excel
+050103051,Lav. Comun Sedile 1L (B/12),True,True,Limpieza,Sedile,excel,inferida
+050141051,Lav. Comun Sedile 2L (B/8),True,True,Limpieza,Sedile,excel,inferida
+002761044,Lavandina Ayudín 1000ml Clásica (B/15),True,True,Limpieza,Ayudín,excel,excel
+002760234,Lavandina en Gel Ayudín 700ml Cítrica (B/15),True,True,Limpieza,Ayudín,excel,excel
+002760233,Lavandina en Gel Ayudín 700ml Original (B/15),True,True,Limpieza,Ayudín,excel,excel
+62158,Lavandina Gigante Común Original 1000cc (B/15),True,True,Limpieza,Gigante,excel,excel
+62159,Lavandina Gigante Concentrada 1 Litro (B/15),True,True,Limpieza,Gigante,excel,excel
+3013516,Leche Baggio Chocolatada Semidescremada 1000cc Shake (B/8),True,True,Lácteos,Baggio Latte,excel,excel
+3013502,Leche Baggio Chocolatada Semidescremada 200cc Shake (B/18),True,True,Lácteos,Baggio Latte,excel,excel
+3014011,Leche Choco 7 Dias s/Des 200cc  (B/18),True,True,Lácteos,7 Días,excel,excel
+90506071,Leche Chocolatada Las Tres Niñas Libre de Sellos 200ml (B/12),True,True,Lácteos,Las Tres Niñas,excel,excel
+90506076,Leche Chocolatada Parcialmente Descremada Apóstoles 1L (B/6),True,True,Lácteos,Apostoles,excel,excel
+90506075,Leche Chocolatada Parcialmente Descremada Apóstoles 200ml (B/12),True,True,Lácteos,Apostoles,excel,excel
+5073746,Leche Chocolatada Sancor 200ml (B/30),False,False,Lácteos,Sancor,inferida,excel
+90506070,Leche Descremada UHT Las Tres Niñas 1L (B/12),True,True,Lácteos,Las Tres Niñas,excel,excel
+5074383,Leche en Polvo Sancor Instantánea Entera 800g (B/12),False,False,Lácteos,Sancor,inferida,excel
+5074418,Leche en Polvo Sancor Regim x 500g (B/12),False,False,Lácteos,San Regim,inferida,excel
+90506074,Leche Entera 2% UHT Las Tres Niñas 1L (B/12),True,True,Lácteos,Las Tres Niñas,excel,excel
+3013513,Leche Latte Baggio Entera 1 Litro (B/8),True,True,Lácteos,Baggio Latte,excel,excel
+3013517,Leche Latte Baggio Entera 1.5L (B/8),True,True,Lácteos,Baggio Latte,excel,excel
+3013586,Leche Latte Baggio Entera 200cc (B/18),True,True,Lácteos,Baggio Latte,excel,excel
+5073702,Leche Santa Brígida UAT 1L (B/8),True,True,Lácteos,Santa Brigida,inferida,excel
+90410010030235,Leche UAT con Proteina LTN 1L (B/6),True,True,Lácteos,Las Tres Niñas,excel,excel
+90410010030234,Leche UHT Stelo Parc. Desc. LTN 0% Lact. 1L (B/12),True,True,Lácteos,Las Tres Niñas,excel,excel
+5075603,Lentejas Inca x 350g (B/24),True,True,Almacén,Inca,inferida,excel
+2761576,Limp. Baño Ayudin Doypack 450ml (B/16),True,True,Limpieza,Ayudín,inferida,excel
+002761576,Limp. Baño Ayudin Doypack 450ml (B/16),True,True,Limpieza,Ayudín,excel,inferida
+68278451,Limp. Coc. CIF Bioact. Doy Pack 450ml (B/15),True,True,Limpieza,Cif,excel,excel
+2761577,Limp. Cocina Ayudin Doypack 450ml (B/16),True,True,Limpieza,Ayudín,inferida,excel
+002761577,Limp. Cocina Ayudin Doypack 450ml (B/16),True,True,Limpieza,Ayudín,excel,inferida
+057073053,Limp. Sedile Lavanda 900cc (B/15),True,True,Limpieza,Sedile,excel,inferida
+057073052,Limp. Sedile Limon 900cc (B/15),True,True,Limpieza,Sedile,excel,inferida
+057073055,Limp. Sedile Marina 900cc (B/15),True,True,Limpieza,Sedile,excel,inferida
+057073051,Limp. Sedile Pino 900cc (B/15),True,True,Limpieza,Sedile,excel,inferida
+61282,Limpiador de Pisos Antibacterial Frescura 900cc (B/15),True,True,Limpieza,Gigante,excel,excel
+61280,Limpiador de Pisos Antibacterial Jazmín 900cc (B/15),True,True,Limpieza,Gigante,excel,excel
+62026,Limpiador de Pisos Gigante Citronella 900cc (B/15),True,True,Limpieza,Gigante,excel,excel
+61276,Limpiador de Pisos Gigante Fragancia Algodón 900cc (B/15),True,True,Limpieza,Gigante,excel,excel
+61277,Limpiador de Pisos Gigante Fragancia Bebé 900cc (B/15),True,True,Limpieza,Gigante,excel,excel
+61274,Limpiador de Pisos Gigante Fragancia Limón 900cc (B/15),True,True,Limpieza,Gigante,excel,excel
+61273,Limpiador de Pisos Gigante Fragancia Marina 900cc (B/15),True,True,Limpieza,Gigante,excel,excel
+61275,Limpiador de Pisos Gigante Lavanda 900cc (B/15),True,True,Limpieza,Gigante,excel,excel
+002734342,Limpiador de Pisos Poett Alegra tu Día 900ml (B/12),True,True,Limpieza,Poett,excel,inferida
+002760386,Limpiador de Pisos Poett Espíritu Playa 900ml (B/12),True,True,Limpieza,Poett,excel,excel
+002734324,Limpiador de Pisos Poett Floral Primavera 900ml (B/12),True,True,Limpieza,Poett,excel,excel
+002734320,Limpiador de Pisos Poett Frescura de Lavanda 900ml (B/12),True,True,Limpieza,Poett,excel,excel
+002736001,Limpiador de Pisos Poett Frescura Tropical 900ml (B/12),True,True,Limpieza,Poett,excel,excel
+002734338,Limpiador de Pisos Poett Música de Primavera 900ml (B/12),True,True,Limpieza,Poett,excel,excel
+002734327,Limpiador de Pisos Poett Solo Para Ti 900ml (B/12),True,True,Limpieza,Poett,excel,excel
+002734336,Limpiador de Pisos Poett Suavidad de Algodón 900ml (B/12),True,True,Limpieza,Poett,excel,excel
+002734334,Limpiador de Pisos Poett Suavidad de Bebé 900ml (B/12),True,True,Limpieza,Poett,excel,inferida
+60159,Macarrones con Queso Kraft x 206g (B/35),True,True,Almacén,Kraft,inferida,excel
+4040139,Madalenas 9 de Oro Rellenas con Dulce de Leche 230g (B/10),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040337,Madalenas 9 de Oro Vainilla 200g (B/10),True,True,Panificados,9 de Oro,excel,excel
+4040145,Madalenas 9 de Oro Vainilla x 230g (B/10),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040307,Madalenas Dulce Mamá con Dulce de Leche 200g (B/10),True,True,Panificados,Dulce Mamá,excel,excel
+4040259,Madalenas Dulce Mamá Vainilla 200g (B/10),True,True,Galletitas y Snacks,Dulce Mamá,excel,excel
+78588,Malvaviscos Gongys 28g Trenza (B/48),True,True,Golosinas,Gongys,excel,excel
+78906,Malvaviscos Gongys Stick 18 x 12g (B/8),True,True,Golosinas,Gongys,excel,excel
+5071086,Manteca Sancor x 100g (B/20),False,False,Lácteos,Sancor,inferida,excel
+5071087,Manteca Sancor x 200g (B/10),False,False,Lácteos,Sancor,inferida,excel
+5002621,Mantecol Nucrem Clásico Georgalos 18 x 25g (B/12),True,True,Golosinas,Nucrem,inferida,excel
+5001691,Mantecol Nucrem Georgalos 16 x 43g (B/8),True,True,Golosinas,Georgalos,inferida,excel
+5002623,Mantecol Nucrem Georgalos 70g (B/40),True,True,Golosinas,Georgalos,inferida,excel
+5001692,Mantecol Nucrem Georgalos 84g (B/40),True,True,Golosinas,Georgalos,inferida,excel
+55599,Máquina de Afeitar Minora II Plus 20 (D/20),True,True,Perfumería y Varios,Minoria,inferida,excel
+40053,Máquina de Afeitar Prestobarba 24 (D/24),True,True,Perfumería y Varios,Gillette,inferida,excel
+40235,Máquina de Afeitar Prestobarba 3 Filos 10 (D/10),True,True,Perfumería y Varios,Gillette,inferida,excel
+40236,Máquina de Afeitar Prestobarba 3 Filos x 2 (D/6),True,True,Perfumería y Varios,Gillette,inferida,excel
+42036,Máquina de Afeitar Prestobarba Mujer Venus 8 (D/8),True,True,Perfumería y Varios,Venus,inferida,excel
+50611,Marroc Cric 60x14g Fel Fort,True,True,Chocolates y Alfajores,Felfort,excel,excel
+1015062,Mast. Acido Misky 800g (B/10),True,True,Golosinas,Misky,excel,inferida
+1012873,Masticables Ricomas Frutilla y Limón 280g (B/28),True,True,Golosinas,Ricomás,excel,excel
+1012883,Masticables Ricomas Naranja y Ananá 280g (B/28),True,True,Golosinas,Misky,excel,excel
+373817,Masticables Yum Yum Surtidos 300g (B/24),True,True,Golosinas,Yum Yum,excel,excel
+40305,Mate Cocido Playadito Saquitos 25 (D/10),True,True,Almacén,Playadito,excel,excel
+40306,Mate Cocido Playadito Saquitos 50 (D/5),True,True,Almacén,Playadito,excel,excel
+1010101010,Mayoleico 2750ml (B/4),True,True,Almacén,Cañuelas,excel,excel
+410001,Mayonesa Clásica Cañuelas 125ml (B/20),True,True,Almacén,Cañuelas,excel,excel
+410009,Mayonesa Clásica Cañuelas x 1000ml (B/8),True,True,Almacén,Cañuelas,excel,excel
+410002,Mayonesa Clásica Cañuelas x 250ml (B/12),True,True,Almacén,Cañuelas,excel,excel
+410004,Mayonesa Clásica Cañuelas x 2900ml (B/4),True,True,Almacén,Cañuelas,excel,excel
+410003,Mayonesa Clásica Cañuelas x 500ml (B/12),True,True,Almacén,Cañuelas,excel,excel
+4100010,Mayonesa Sang Mayoli Cañuelas x2750ml (B/4),True,True,Almacén,Cañuelas,inferida,excel
+13901489,Mecano  Bonafide Choc. Blanco 24x19gr (B/8),True,True,Chocolates y Alfajores,Mecano,excel,excel
+13940997,Mecano Choc. Negro 24x19gr (B/8),True,True,Chocolates y Alfajores,Mecano,excel,excel
+13901548,Mecano Nugaton Tuerca 24x19gr (B/8),True,True,Chocolates y Alfajores,Mecano,excel,excel
+50836,Medallón de Dulce de Leche 20 x 21g Felfort,True,True,Chocolates y Alfajores,Felfort,excel,excel
+141414,Menú Saludable,True,True,,,,
+3012883,Mermelada de Ciruela De La Huerta 454g (B/6),True,True,Almacén,Baggio De La Huerta,excel,excel
+1010509,Mermelada de Ciruela Light Noel 390g (B/12),True,True,Almacén,Noel,excel,excel
+1011978,Mermelada de Ciruela Noel 454g (B/12),True,True,Almacén,Noel,excel,excel
+1010507,Mermelada de Damasco Light Noel 390g (B/12),True,True,Almacén,Noel,excel,excel
+1011976,Mermelada de Damasco Noel 454g (B/12),True,True,Almacén,Noel,excel,excel
+3012880,Mermelada de Durazno De La Huerta 454g (B/6),True,True,Almacén,Baggio De La Huerta,excel,excel
+1010506,Mermelada de Durazno Light Noel 390g (B/12),True,True,Almacén,Noel,excel,excel
+1011975,Mermelada de Durazno Noel 454g (B/12),True,True,Almacén,Noel,excel,excel
+1010510,Mermelada de Frutilla Light Noel 390g (B/12),True,True,Almacén,Noel,excel,excel
+1011979,Mermelada de Frutilla Noel 454g (B/12),True,True,Almacén,Noel,excel,excel
+1010508,Mermelada de Naranja Light Noel 390g (B/12),True,True,Almacén,Noel,excel,excel
+1011977,Mermelada de Naranja Noel 454g (B/12),True,True,Almacén,Noel,excel,excel
+3012884,Mermelada Mix de Frutas 454g (B/6),True,True,Almacén,Baggio De La Huerta,excel,excel
+3509,Micro Combo Chocolate 1,False,False,,,,
+3510,Micro Combo Chocolate 2,False,False,,,,
+3511,Micro Combo Chocolate 3,False,False,,,,
+3504,Micro Combo Mediatarde + Galletitas Hamlet,False,False,,,,
+3508,Micro Combo Mediatarde + Polvoritas,False,False,,,,
+3505,Micro Combo Puré + 3 SKU,False,False,,,,
+40047,Migral 500 x 10 comprimidos redondos (D/10),True,True,Farmacia,,inferida,
+40045,Migral Compuesto x 10 comprimidos (D/10),True,True,Farmacia,,inferida,
+5061,Mini Alf. Rasta Blanco 6x35g (B/6),True,True,Chocolates y Alfajores,Rasta,excel,inferida
+5060,Mini Alf. Rasta Negro 6x35gr (B/6),True,True,Chocolates y Alfajores,Rasta,excel,inferida
+700014,Mini Alfajor Cachafaz Negro 24 x 27g (B/1),True,True,Chocolates y Alfajores,Cachafaz,excel,excel
+4010401,Mini Grisines Clasicos 180gr (B/12),True,True,Panificados,Paseo,excel,excel
+4010402,Mini Grisines Multicereal 180gr (B/12),True,True,Panificados,Paseo,excel,excel
+9000561,Mini Torta Rapsodia x80gr (B/24),True,True,Chocolates y Alfajores,Rapsodia,excel,excel
+40401451,Minibudín de Vainilla 210g (B/10),False,False,Panificados,9 de Oro,inferida,excel
+70106477,MM Camarelo x40gr (B/24),True,True,Chocolates y Alfajores,,excel,
+70105915,MM Choc. x48gr (B/36),True,True,Chocolates y Alfajores,,excel,
+70105917,MM Mani x49gr (B/48),True,True,Chocolates y Alfajores,,excel,
+70105921,MM Mantequilla de mani x40gr (B/24),True,True,Chocolates y Alfajores,,excel,
+70106479,MM Tubo x31gr (B/24),True,True,Chocolates y Alfajores,,excel,
+13941514,Monedas Fantasia Bonafide x 88gr (B/32),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+1111200,Mostaza Heinz Pet 397g (B/12),True,True,Almacén,Heinz,inferida,excel
+111199,Mostaza Heinz Pet 8oz (B/12),True,True,Almacén,Heinz,inferida,excel
+400819,Mostaza Savora 250g (B/24),True,True,Almacén,Savora,excel,excel
+405815,Mostaza Savora 60g (B/30),True,True,Almacén,Savora,excel,excel
+40095,Novalgina x 10 comprimidos,True,True,Farmacia,,inferida,
+13940706,Nugaton Black Bonafide 24 x 27gr (B/12),True,True,Chocolates y Alfajores,Bonafide,excel,inferida
+13940705,Nugaton Blanco Bonafide 24 x 27gr (B/12),True,True,Chocolates y Alfajores,Nugaton,excel,excel
+13940704,Nugaton Leche Bonafide 24 x 27gr (B/12),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+300801,Nutella chico x140gr (B/10),True,True,Chocolates y Alfajores,Nutella,excel,excel
+4040108,Oblea Doble Vainilla con Naranja 100g (B/28),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+1013835,Oblea Hamleton 16 x 28g (B/8),True,True,Galletitas y Snacks,Hamlet,excel,excel
+4040325,Obleas 9 de Oro Cuadradas Vainilla y Chocolate 140g (B/36),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+4040167,Obleas 9 de Oro Frutilla y Vainilla 100g (B/28),True,True,Galletitas y Snacks,9 de Oro,excel,excel
+41878,Omeprazol Genérico 20mg 15 comprimidos (D/50),True,True,Perfumería y Varios,,excel,
+41781,Omeprazol Kilab x 14 cápsulas,True,True,Farmacia,,inferida,
+41789,Omeprazol x 14 cápsulas (D/35),True,True,Farmacia,,inferida,
+1015554,Ositos Misky 12x25gr (B/12),True,True,Golosinas,Misky,excel,excel
+10,Pago con Tarjeta de Crédito,False,False,,,,
+9000949,Palmeritas Nevares 45gr (B/32),True,True,Galletitas y Snacks,Aires de Lujan,excel,excel
+761141,Pan de Campo Veneziana 400g,True,True,Panificados,Veneziana,excel,excel
+10100035,Pan Dulce Firenze c/Chips x500g (B/8),True,True,Panificados,Firenze,excel,excel
+1090034,Pan Dulce Firenze c/Frutas x500g (B/8),True,True,Panificados,Firenze,excel,excel
+10100037,Pan Dulce Firenze s/Frutas x500g (B/8),True,True,Panificados,Firenze,excel,excel
+10100167,Pan Dulce France c/Chips Choc x400g (B/8),True,True,Panificados,France,excel,inferida
+1090038,Pan Dulce France c/Frutas x400g (B/8),True,True,Panificados,France,excel,excel
+1090075,Pan Dulce Principito c/Frutas x400g (B/8),True,True,Panificados,El Principito,excel,excel
+1090076,Pan Dulce Steinhauser 850g (B/6),True,True,Panificados,,excel,
+700147,Pan Integral con Salvado Cormillot 630g,True,True,Panificados,Veneziana,excel,excel
+700143,Pan Integral Cormillot 360g,True,True,Panificados,Veneziana,excel,excel
+700144,Pan Lacteado Familiar Veneziana 600g,True,True,Panificados,Veneziana,excel,excel
+761145,Pan Lacteado Veneziana 400g,True,True,Panificados,Veneziana,excel,excel
+700155,Pan Multicereal Cormillot 410gr,True,True,Panificados,Cormillot,excel,excel
+19000413,Pan para Hamburguesa con Sésamo Veneziana 210g / 4 (B/21),True,True,Panificados,Veneziana,excel,excel
+700159,Pan para Hamburguesa Veneziana 210g / 4,True,True,Panificados,Veneziana,excel,excel
+700163,Pan para Pancho Veneziana 210g / 6,True,True,Panificados,Veneziana,excel,excel
+4070133,Pan Rallado con Ajo y Perejil x 500g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070237,Pan Rallado Mamá Cocina 1kg (B/10),True,True,Almacén,Mamá Cocina,excel,excel
+4070236,Pan Rallado Mamá Cocina 500g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070294,Pan Rallado Mamá Cocina Libre de Gluten 350g (B/20),True,True,Almacén,Mamá Cocina,excel,excel
+700148,Pan Trisalvado Light Cormillot 360g,True,True,Panificados,Cormillot,excel,excel
+201700706,Papas Murken Clasicas Cort. Ame. 80gr (B/16),True,True,Galletitas y Snacks,,excel,
+201700705,Papas Murken Clasicas Corte Liso  80gr (B/16),True,True,Galletitas y Snacks,,excel,
+201700703,Papas Murken Crema Ciboulette 115gr (B/16),True,True,Galletitas y Snacks,,excel,
+201700704,Papas Murken Jamon Serrano 115gr (B/16),True,True,Galletitas y Snacks,,excel,
+201700701,Papas Murken Rust. Albahaca y Oliv. 115gr (B/16),True,True,Galletitas y Snacks,,excel,
+201700699,Papas Murken Rust. Cebolla Car. 115gr (B/16),True,True,Galletitas y Snacks,,excel,
+201700698,Papas Murken Rust. Queso y Oreg. 115gr (B/16),True,True,Galletitas y Snacks,,excel,
+201700697,Papas Murken Rust. Sal de Mar 115gr (B/16),True,True,Galletitas y Snacks,,excel,
+42186,Paracetamol 500mg,True,True,Farmacia,,inferida,
+42212,Paracetamol Bayer x 30 comprimidos,True,True,Farmacia,,inferida,
+40700432,Paseo Mini Cracker Cebolla 250gr (B/14),True,True,Galletitas y Snacks,Paseo,excel,excel
+40700431,Paseo Mini Cracker Jamon 250gr (B/14),True,True,Galletitas y Snacks,Paseo,excel,excel
+4040156,PASEO SIN SAL 14X300GR,True,True,Galletitas y Snacks,Paseo,excel,excel
+373438,Past Bull Dog Mix 12x30g Tutti/Limon (B/12),True,True,Golosinas,Bull Dog,excel,inferida
+373436,Past Bull Dog Mix 12x30g Uva (B/12),True,True,Golosinas,Bull Dog,excel,inferida
+373437,Past Bull Dog Mix 12x30g Uva/Mand (B/12),True,True,Golosinas,Bull Dog,excel,inferida
+4020002,Pasta Box Bolognesa Vaso x64g (B/12),True,True,Almacén,Cañuelas,excel,excel
+4020001,Pasta Box Fileto Vaso x64g (B/12),True,True,Almacén,Cañuelas,excel,excel
+4020003,Pasta Box Queso Vaso  x64g (B/12),True,True,Almacén,Cañuelas,excel,excel
+4020005,Pasta Box Rosa Vaso x64g (B/12),True,True,Almacén,Cañuelas,excel,excel
+9000976,Pasta Frola de memb. Aires de Lujan 50gr (B/40),True,True,Galletitas y Snacks,Aires de Lujan,excel,excel
+9000979,Pasta Frola Frut. Rojos Aires de Lujan 50gr (B/40),True,True,Galletitas y Snacks,Aires de Lujan,excel,inferida
+40100083,Pasta MBOX Brocoli Vaso 64g (B/12),True,True,Almacén,MBOX,excel,excel
+4010112,Pasta MBOX Brocoli Vaso 64g (B/6),True,True,Almacén,MBOX,excel,excel
+373402,Pastillas Bull Dog 12 x 30g Sandía (B/12),True,True,Golosinas,Bull Dog,excel,excel
+372403,Pastillas Bull Dog 12 x 30g Tutti Frutti (B/12),True,True,Golosinas,Bull Dog,excel,excel
+373433,Pastillas Bull Dog Mix 12 x 30g Sandía/Manzana (B/12),True,True,Golosinas,Bull Dog,excel,excel
+50830,Pastillas Mentitas 30 x 16g Felfort,True,True,Chocolates y Alfajores,Felfort,excel,excel
+94000,Pastillas Yapa 36 (B/18),True,True,Golosinas,La Yapa,excel,excel
+70009526,Ped. Adult. RP Sobr. Pollo en Salsa 100gr (B/12),True,True,Mascotas,,excel,
+70001621,Pedigree Adult Carne Pollo y Cereales 21kg,True,True,Mascotas,,excel,
+70001742,Pedigree Adult. Carne Pollo y Cer. 1.5kg (B/9),True,True,Mascotas,,excel,
+70001745,Pedigree Adult. Raza Peq. 1.5kg (B/9),True,True,Mascotas,,excel,
+70001840,Pedigree Adult. Raza Peq. 21kg,True,True,Mascotas,,excel,
+70001763,Pedigree Adult. Sobr. Carne en Salsa 100gr (B/12),True,True,Mascotas,,excel,
+7000109112,Pedigree Adult. Sobr. Cord. en Salsa 100gr (B/12),True,True,Mascotas,,excel,
+7000109111,Pedigree Adult. Sobr. Salmon en Salsa 100gr (B/12),True,True,Mascotas,,excel,
+70001470,Pedigree Cach. Carne  1.5kg (B/9),True,True,Mascotas,,excel,
+70001625,Pedigree Cach. Carne 21kg,True,True,Mascotas,,excel,
+70003732,Pedigree Cach. Sobr. Carne en Salsa 85gr (B/12),True,True,Mascotas,,excel,
+70004114,Pedigree RP Sobr. Carne en Salsa 100gr (B/12),True,True,Mascotas,,excel,
+70001764,Pedigree RP Sobr. Pollo en Salsa 100gr (B/12),True,True,Mascotas,,excel,
+9001561,Pepas de membrillo Aires de Lujan x180gr (B/15),True,True,Galletitas y Snacks,Aires de Lujan,excel,excel
+5469,Pez Trolls Blister 1+3 Pastillitas,True,True,Golosinas,,excel,
+007500,Pila Candela Alcalina AA Troquelada 10 (D/10),True,True,Perfumería y Varios,Candela,excel,excel
+007501,Pila Candela Alcalina AAA Troquelada 10 (D/10),True,True,Perfumería y Varios,Candela,excel,excel
+700402,Pionono Dulce Veneziana 180g (B/35),True,True,Panificados,Veneziana,excel,excel
+700403,Pionono Salado Veneziana 180g (B/35),True,True,Panificados,Veneziana,excel,excel
+700023,Pistachino Cachafaz x36u (B/4),True,True,Chocolates y Alfajores,Cachafaz,excel,excel
+90070411100002,Polenta Instantanea M. Ala x 500gr (B/10),True,True,Almacén,,excel,
+4020065,Polenta Mamá Cocina Tradicional 500g (B/7),True,True,Almacén,Mamá Cocina,excel,excel
+1013683,Postre Cabsha Navideño 110g 12 (D/12),True,True,Chocolates y Alfajores,Cabsha,excel,excel
+700181,Pre-pizza Veneziana 500g / 2,True,True,Panificados,Veneziana,excel,excel
+4010265,Pre. Pizza Gourmet Pureza x550gr (B/12),True,True,Almacén,Pureza,excel,excel
+4070321,Prem. Leud. Pureza Lib. de Gluten 500gr (B/14),True,True,Almacén,Pureza,excel,inferida
+4070206,Premezcla Bizcochuelo Chocolate Mamá Cocina Vitamina D 540g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070282,Premezcla Bizcochuelo Chocolate Semiamargo Mamá Cocina 540g (B/10),True,True,Almacén,Mamá Cocina,excel,excel
+4070252,Premezcla Bizcochuelo Chocolate SIN TACC Mamá Cocina 450g (B/16),True,True,Almacén,Mamá Cocina,excel,excel
+4070207,Premezcla Bizcochuelo Limón Mamá Cocina Vitamina D 540g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070247,Premezcla Bizcochuelo Naranja Mamá Cocina Vitamina D 540g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070283,Premezcla Bizcochuelo Vainilla Mamá Cocina Estuche 540g (B/10),True,True,Almacén,Mamá Cocina,excel,excel
+4070208,Premezcla Bizcochuelo Vainilla Mamá Cocina Vitamina D 540g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070251,Premezcla Bizcochuelo Vainilla SIN TACC Mamá Cocina 450g (B/16),True,True,Almacén,Mamá Cocina,excel,excel
+4070204,Premezcla Brownies Vitamina D Mamá Cocina 425g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+40700027,Premezcla Buñuelos Espinaca Mamá Cocina 400g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070061,Premezcla Chipá Mamá Cocina Plus 250g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070305,Premezcla Chipá Pureza Libre de Gluten 250g (B/16),True,True,Almacén,Pureza,excel,excel
+40700172,Premezcla Cookies con Chips Mamá Cocina 300g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070070,Premezcla Ñoquis de Espinaca Mamá Cocina 400g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4071069,Premezcla Ñoquis de Papa Mamá Cocina 200g (B/14),True,True,Almacén,Mamá Cocina,excel,excel
+4070069,Premezcla Ñoquis de Papa Mamá Cocina 400g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070306,Premezcla Pan Dulce Mamá Cocina x 400g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070030,Premezcla Panqueques Integrales 300g (B/12),True,True,Almacén,Mamá Cocina,inferida,excel
+4071022,Premezcla Pizza Mamá Cocina 250g (B/14),True,True,Almacén,Mamá Cocina,excel,excel
+4070022,Premezcla Pizza Mamá Cocina Plus 500g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070266,Premezcla Pizza y Pan Pureza SIN TACC x 500g (B/14),True,True,Almacén,Pureza,excel,excel
+10500,Preparado Mocoretá Naranja 1.5l (B/6),True,True,Almacén,Mocoretá,excel,excel
+13001,Pres Playboy Mix 12x3u (B/40),True,True,Perfumería y Varios,Playboy,excel,excel
+3300204,Prestobarba Gillette x2 filos (D/24),True,True,Perfumería y Varios,Gillette,excel,excel
+2099,Prime Anatomico x3u (D/24),True,True,Perfumería y Varios,,excel,
+2011,Prime Espermicida x3u (D24),True,True,Perfumería y Varios,,excel,
+2002,Prime Extralubricado x3u (D/24),True,True,Perfumería y Varios,,excel,
+2010,Prime Retardante x3u (D/24),True,True,Perfumería y Varios,,excel,
+2012,Prime Superfino x3u (D24),True,True,Perfumería y Varios,,excel,
+2006,Prime Tachas x3u (D/24),True,True,Perfumería y Varios,,excel,
+2004,Prime Texturado x3u (D/24),True,True,Perfumería y Varios,,excel,
+061902053,PromoPack Sedile Lavav. Lavand. y Limp. (B/5),True,True,Limpieza,Sedile,inferida,inferida
+3014074,Pulpa de Tomate 7 Días 1018g (B/8),True,True,Almacén,7 Días,excel,excel
+3014072,Pulpa de Tomate 7 Días 205g (B/18),True,True,Almacén,7 Días,excel,excel
+3014073,Pulpa de Tomate 7 Días 520g (B/12),True,True,Almacén,7 Días,excel,excel
+3012902,Pulpa de Tomate De La Huerta 205g (B/18),True,True,Almacén,Baggio De La Huerta,excel,excel
+3012903,Pulpa de Tomate De La Huerta 520g (B/12),True,True,Almacén,Baggio De La Huerta,excel,excel
+4020024,Puré de Papa Mamá Cocina con Carne 125g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4020069,Puré de Papa Mamá Cocina Receta Completa 100g (B/15),True,True,Almacén,Mamá Cocina,excel,excel
+4020022,Puré de Papa Mamá Cocina Receta Completa 125g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4020021,Puré de Papa Mamá Cocina Tradicional 125g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4020068,Puré de Papa Molinos Cañuelas Receta Tradicional 100g (B/15),True,True,Almacén,Mamá Cocina,excel,excel
+3014006,Puré de Tomate 7 Días 210cc (B/18),True,True,Almacén,7 Días,excel,excel
+3012792,Puré de Tomate De La Huerta 1030cc (B/8),True,True,Almacén,Baggio De La Huerta,excel,excel
+3012757,Puré de Tomate De La Huerta 133cc (B/18),True,True,Almacén,Baggio De La Huerta,excel,excel
+3012500,Puré de Tomate De La Huerta 210cc (B/18),True,True,Almacén,Baggio De La Huerta,excel,excel
+3012777,Puré de Tomate De La Huerta 530cc Slim (B/12),True,True,Almacén,Baggio De La Huerta,excel,excel
+1012928,Puré de Tomate Noel 210g (B/24),True,True,Almacén,Noel,excel,excel
+1000019,Puré de Tomate Noel 520g (B/12),True,True,Almacén,Noel,excel,excel
+1013885,Puré de Tomate Noel 530g (B/12),True,True,Almacén,Noel,excel,inferida
+4020023,Puré Pastel de Papa Mamá Cocina con Panceta 125g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+5071513,Quesabores Hebras 4 Quesos 150g (B/12),True,True,Lácteos,Quesabores Sancor,inferida,excel
+5071520,Quesabores Hebras 4 Quesos Light 150g (B/12),True,True,Lácteos,Quesabores Sancor,inferida,excel
+5072513,Queso 4 Quesos Chelita Horma 4kg aprox (B/3),True,True,Lácteos,Chelita,inferida,excel
+5072514,Queso Cheddar Chelita Horma Entera 4kg aprox (B/3),True,True,Lácteos,Chelita,inferida,excel
+5074006,Queso Crema Mendicrim Light Sancor 290g (B/12),False,False,Lácteos,Mendicrim,inferida,excel
+5074004,Queso Crema Mendicrim Sancor 290g (B/12),False,False,Lácteos,Mendicrim,inferida,excel
+5074005,Queso Crema Original Mendicrim Sancor 290g (B/12),False,False,Lácteos,Mendicrim,inferida,excel
+5072421,Queso Cremoso Sancor Horma Entera 4kg aprox (B/4),False,False,Lácteos,Sancor,inferida,inferida
+5071846,Queso Danbo en Fetas Sancor 200g (B/24),False,False,Lácteos,Finlandia,inferida,excel
+5071986,Queso Danbo Sancor Horma Entera 3.5kg aprox (B/6),False,False,Lácteos,Sancor,inferida,excel
+410010010012,Queso en Barra  Danbo LTN 3kg aprox (B/5),True,True,Lácteos,,excel,
+410010010032,Queso en Barra  Pategras LTN 3kg aprox. (B/5),True,True,Lácteos,,excel,
+5071738,Queso Fontina Sancor Horma Entera 8kg aprox (B/2),False,False,Lácteos,Sancor,inferida,inferida
+5071987,Queso Fontina Trozado Sancor 240g (B/12),False,False,Lácteos,Sancor,inferida,excel
+5071959,Queso Gouda Trozado Sancor 260g (B/12),False,False,Lácteos,Sancor,inferida,excel
+5071899,Queso Pategrás Sancor Horma Entera 4kg aprox (B/4),False,False,Lácteos,Sancor,inferida,inferida
+5071695,Queso Pategrás Trozado Sancor 240g (B/12),False,False,Lácteos,Sancor,inferida,excel
+5071855,Queso Port Salut Sancor Horma Entera 4kg aprox (B/4),False,False,Lácteos,Sancor,inferida,excel
+5071473,Queso Rallado Reggianito Sancor 500g (B/12),False,False,Lácteos,Sancor,inferida,excel
+5071469,Queso Rallado Reggianito x 100g Sancor (B/30),False,False,Lácteos,Sancor,inferida,excel
+5071361,Queso Reggianito Trozado Sancor 230g (B/12),False,False,Lácteos,Sancor,inferida,excel
+5071322,Queso Sardo Sancor Horma Entera 4kg aprox (B/4),False,False,Lácteos,Sancor,inferida,inferida
+5072672,Queso Tholem Tent. 4 Quesos 190gr (B/12),True,True,Lácteos,Tholem,inferida,excel
+5072269,Queso Tholem Tent. Clasico 190gr (B/12),True,True,Lácteos,Tholem,inferida,excel
+5072670,Queso Tholem Tent. Jamon de sierra 190gr (B/12),True,True,Lácteos,Tholem,inferida,excel
+5072676,Queso Tholem Tent. Salame Milan 190gr (B/12),True,True,Lácteos,Tholem,inferida,excel
+5072607,Queso Unt. Psalut Light Sancor 190gr (B/12),False,False,Lácteos,Sancor,inferida,excel
+5072790,Queso Untable Sancor 4 Quesos 190g (B/12),False,False,Lácteos,Sancor,inferida,excel
+5072793,Queso Untable Sancor Cheddar 190g (B/12),False,False,Lácteos,Sancor,inferida,excel
+5072792,Queso Untable Sancor Jamón 190g (B/12),False,False,Lácteos,Sancor,inferida,excel
+40171,Qura Plus x 10 comprimidos (D/2),True,True,Farmacia,,inferida,
+300599,Raffaello 3u x 16 tiras (B/4),True,True,Chocolates y Alfajores,Rafaello,excel,excel
+4070238,Rebozador para Freír Mamá Cocina 500g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070240,Rebozador para Horno Mamá Cocina 500g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4070246,Rebozador Tipo Panko Mamá Cocina 400g (B/10),True,True,Almacén,Mamá Cocina,excel,excel
+79018,Regaliz Bull Dog Cintas Surtidas Ácidas x 60g (B/24),True,True,Golosinas,Bull Dog,excel,excel
+79007,Regaliz Bull Dog Frambuesa x 360g (B/12),True,True,Golosinas,Bull Dog,excel,excel
+378556,Regaliz Bull Dog Frambuesa x 75g (B/24),True,True,Golosinas,Bull Dog,excel,excel
+78996,Regaliz Bull Dog Frutilla 360g (B/12),True,True,Golosinas,Bull Dog,excel,excel
+78997,Regaliz Bull Dog Frutilla Aceitado x 360g (B/12),True,True,Golosinas,Bull Dog,excel,excel
+79019,Regaliz Bull Dog Frutilla Aceitado x 70g (B/24),True,True,Golosinas,Bull Dog,excel,excel
+378554,Regaliz Bull Dog Frutilla x 75g (B/24),True,True,Golosinas,Bull Dog,excel,excel
+79022,Regaliz Bull Dog Picante x 18g (B/12),True,True,Golosinas,Bull Dog,excel,excel
+79008,Regaliz Bull Dog Sandía x 360g (B/12),True,True,Golosinas,Bull Dog,excel,excel
+378557,Regaliz Bull Dog Sandía x 75g (B/24),True,True,Golosinas,Bull Dog,excel,excel
+79005,Regaliz Bull Dog Tutti Frutti x 360g (B/12),True,True,Golosinas,Bull Dog,excel,excel
+378555,Regaliz Bull Dog Tutti-Frutti x 75g (B/24),True,True,Golosinas,Bull Dog,excel,excel
+4120,Repelente Off Aerosol x 165g (B/12),True,True,Perfumería y Varios,Off,inferida,excel
+62414,Repuesto Detergente Gigante Ultra Limón 430ml (B/12),True,True,Limpieza,Gigante,excel,excel
+40010151,Risotto MBOX Calabaza 85gr (B/12),True,True,Almacén,MBOX,excel,excel
+4010150,Risotto MBOX Calabaza 85gr (B/6),True,True,Almacén,MBOX,excel,excel
+40010152,Risotto MBOX Hongo 85gr (B/6),True,True,Almacén,MBOX,excel,excel
+4010153,Risotto MBOX Hongos 85gr (B/12),True,True,Almacén,MBOX,excel,excel
+4010130,Rocío Vegetal Girasol Alto Oleico 150g (B/12),True,True,Almacén,Cañuelas,excel,excel
+4010137,Rocío Vegetal Manteca con Harina 150g (B/12),True,True,Almacén,Mamá Cocina,excel,excel
+4010129,Rocío Vegetal Oliva Extra Virgen 150g (B/12),True,True,Almacén,Cañuelas,excel,excel
+761073,Rosca de Pascua Veneziana x 400g (B/6),True,True,Panificados,Veneziana,excel,excel
+70003482,Sabr. Gato Adult. Mix P. C. y V. 10kg,True,True,Mascotas,,excel,
+70003939,Sabr. Gato Adult. Mix P. C. y V. 20kg,True,True,Mascotas,,excel,
+70003883,Sabr. Perro  Carne Cer. y Veg. 3kg (B/4),True,True,Mascotas,,excel,
+70001413,Sabr. Perro Adult. M. Peq. Carne y C. 1.5kg (B/6),True,True,Mascotas,,excel,
+70001465,Sabr. Perro Adult. M. Peq. Carne y C. 3kg (B/4),True,True,Mascotas,,excel,
+70003433,Sabr. Perro Cach. Mix C. C. y V. 10kg,True,True,Mascotas,,excel,
+70003885,Sabr. Perro Cachorro C. C. y V. 1.5kg (B/6),True,True,Mascotas,,excel,
+70003755,Sabr. Perro Cachorro C. C. y V. 3kg (B/4),True,True,Mascotas,,excel,
+70001717,Sabr. Perro Mix C. C. y V. 18kg + 2kg,True,True,Mascotas,,excel,
+70004124,Sabr. Perro Mix C. C. y V. 8kg,True,True,Mascotas,,excel,
+70004100,Sabr. Perro Variedades 3kg (B/4),True,True,Mascotas,,excel,
+70009533,Sabrositos Gato Adult. Mix P C y V 1kg (B/9),True,True,Mascotas,,excel,
+70003957,Sabrositos Gato Adult. Mix P C y V 500gr (B/9),True,True,Mascotas,,excel,
+70002550,Sabrositos Gato Pescado 1kg (B/9),True,True,Mascotas,,excel,
+70003928,Sabrositos Gato Pescado x500gr (B/9),True,True,Mascotas,,excel,
+70003395,Sabrositos Perro Mix C C y V 1.5kg (B/6),True,True,Mascotas,,excel,
+70004135,Sabrositos Perro Variedades 1.5kg (B/6),True,True,Mascotas,,excel,
+148100,Salsa Barbacoa Bull's-Eye Heinz Original 510g (B/12),True,True,Almacén,Bull's Eye,inferida,excel
+60102,Salsa Barbacoa Heinz Pet x 606g (B/6),True,True,Almacén,Heinz,inferida,excel
+148101,Salsa Barbacoa Kraft Original Pet 510g (B/12),True,True,Almacén,Kraft,inferida,excel
+59056,Salsa Inglesa Lea & Perrins 148ml (B/24),True,True,Almacén,Lea & Perrins,inferida,excel
+1013447,Salsa Noel Fileto 340g (B/24),True,True,Almacén,Noel,excel,excel
+1013445,Salsa Noel Pomarola 340g (B/24),True,True,Almacén,Noel,excel,excel
+1013448,Salsa Noel Portuguesa 340g (B/24),True,True,Almacén,Noel,excel,excel
+1013446,Salsa para Pizza Noel 340g (B/24),True,True,Almacén,Noel,excel,excel
+60112,Salsa Sweet Relish Heinz Pet 375ml (B/12),True,True,Almacén,Heinz,inferida,excel
+1015416,Sapito Chocolate Mundial 24u x10gr (B/8),True,True,Chocolates y Alfajores,Sapito,excel,excel
+1004043,Sapito Confites 24 x 15g (B/12),True,True,Chocolates y Alfajores,Sapito,excel,excel
+40061,Sertal Compuesto x 10 comprimidos (D/1),True,True,Farmacia,,inferida,
+40297,Sertal Perlas x 10 cápsulas (D/10),True,True,Farmacia,,inferida,
+20005,Servicio de Logística y Almacenaje,True,True,,,,
+151515,Servicio de Logística y Almacenaje de Combos,True,True,,,,
+40346,Sildenafil Almaximo 100mg 2 (D/10),True,True,Farmacia,,inferida,
+43761,Sildenafil Viagra HLB 100mg 2 (D/15),True,True,Farmacia,,inferida,
+70105929,Skittles Gomitas Orig. x50gr (B/10),True,True,Golosinas,,excel,
+70107914,Skittles Gomitas Wildberry x50gr (B/10),True,True,Golosinas,,excel,
+70105923,Skittles Original x61gr (B/36),True,True,Golosinas,,excel,
+70105925,Skittles Wildberry x61gr (B/36),True,True,Golosinas,,excel,
+9001318,Smack Oblea rell/choc y mani x33gr (B/48),True,True,Chocolates y Alfajores,Smack,excel,excel
+4460850,Snacks de Arroz Molinos Ala Sabor Queso x 80g (B/12),True,True,Galletitas y Snacks,Molinos Ala,excel,excel
+4460851,Snacks de Arroz Molinos Ala Sabor Queso x 80g (B/12),True,True,Galletitas y Snacks,Molinos Ala,excel,excel
+70105933,Snickers Almendras x40gr (B/24),True,True,Golosinas,,excel,
+70105931,Snickers x48gr (B/48),True,True,Golosinas,,excel,
+3012868,Soda Baggio Fresh 2225ml (B/6),True,True,Bebidas,Baggio Fresh,excel,excel
+110302,"Soda Rumipal Botella 6 x 1,5L",True,True,Bebidas,Rumipal,inferida,excel
+110305,Soda Rumipal Botella 9 x 500cc,True,True,Bebidas,Rumipal,inferida,excel
+110203,Soda Rumipal Sifón 6 x 2L,True,True,Bebidas,Rumipal,inferida,excel
+68796829,Sopa Knorr Arv. c/Chile 64gr (B/10),True,True,Almacén,Knorr,excel,excel
+62736859,Sopa Knorr Choclo c/Puerro 70gr (B/10),True,True,Almacén,Knorr,excel,excel
+67331951,Sopa Knorr Crema de Veg 60gr (B/10),True,True,Almacén,Knorr,excel,excel
+67341184,Sopa Knorr Pollo c/fideo C. Angel 105gr (B/10),True,True,Almacén,Knorr,excel,excel
+68796816,Sopa Knorr Pollo c/fideo Dedal Int. 80gr (B/10),True,True,Almacén,Knorr,excel,excel
+67341181,Sopa Knorr Veg. c/fideos Letras 107gr (B/10),True,True,Almacén,Knorr,excel,excel
+68736812,Sopa Knorr Veg. c/Pasta Tricolor 107gr (B/10),True,True,Almacén,Knorr,excel,excel
+68796828,Sopa Knorr Zap. c/Nuez Moscada 70gr (B/10),True,True,Almacén,Knorr,excel,excel
+4010092,Sopa MBOX  Veg. Ramen 45gr (B/12),True,True,Almacén,MBOX,excel,excel
+4010091,Sopa MBOX Veg. Anillitos 45gr (B/12),True,True,Almacén,MBOX,excel,excel
+4020163,Sopa MBOX Vegetales 50gr (B/6),True,True,Almacén,MBOX,excel,inferida
+060074052,Suav. Sedile Cal. de Bosq. Doy pack 900cc (B/16),True,True,Limpieza,Sedile,excel,inferida
+060074051,Suav. Sedile Frag. Mont. Doy pack 900cc (B/16),True,True,Limpieza,Sedile,excel,inferida
+60936,Suavizante Gigante Amarillo x 900cc (B/12),True,True,Limpieza,Gigante,excel,excel
+62128,Suavizante Gigante Económico 800cc (B/12),True,True,Limpieza,Gigante,excel,excel
+61520,Suavizante Gigante Económico 900cc (B/12),True,True,Limpieza,Gigante,excel,excel
+60845,Suavizante Gigante Lila x 900cc (B/12),True,True,Limpieza,Gigante,excel,excel
+60844,Suavizante Gigante Rosa x 900cc (B/12) Sueño,True,True,Limpieza,Gigante,excel,excel
+60966,Suavizante Gigante Turquesa x 900cc (B/12),True,True,Limpieza,Gigante,excel,excel
+60937,Suavizante Gigante Verde x 900cc (B/12),True,True,Limpieza,Gigante,excel,excel
+60965,Suavizante Rocío de Primavera x 900cc (B/12),True,True,Limpieza,Gigante,excel,excel
+1013652,Sugus Agrupados Max Ananá 12 x 6 (B/12),True,True,Golosinas,Sugus,excel,excel
+1013651,Sugus Agrupados Max Frutilla 12 x 6 (B/12),True,True,Golosinas,Sugus,excel,excel
+1015451,Sugus Confitado Mundial 50gr (B/30),True,True,Golosinas,Sugus,excel,excel
+13941622,Tabl. Bonafide Crispy 14x72gr (B/4),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+13941623,Tabl. Bonafide Crispy 20x25gr (B/6),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+13941620,Tabl. Bonafide Leche y Mani 14x90gr (B/4),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+13941621,Tabl. Bonafide Leche y Mani 20x30gr (B/6),True,True,Chocolates y Alfajores,Bonafide,excel,excel
+139416201,Tabl. Bonafide Leche y Mani x90gr,True,True,Chocolates y Alfajores,Bonafide,excel,excel
+139015061,Tabl. Choc. Vizzio 60% Cacao x90gr,True,True,Chocolates y Alfajores,Vizzio,excel,excel
+139015001,Tabl. Choc. Vizzio Blanco x90gr,True,True,Chocolates y Alfajores,Vizzio,excel,excel
+13901507,Tabl. Choc. Vizzio Bonafide 60% Cacao 12x50gr (B/8),True,True,Chocolates y Alfajores,Vizzio,excel,excel
+13901506,Tabl. Choc. Vizzio Bonafide 60% Cacao 12x90gr (B/6),True,True,Chocolates y Alfajores,Vizzio,excel,excel
+13901500,Tabl. Choc. Vizzio Bonafide Blanco 12x90gr (B/6),True,True,Chocolates y Alfajores,Vizzio,excel,excel
+13901503,Tabl. Choc. Vizzio Leche 12x90gr (B/6),True,True,Chocolates y Alfajores,Vizzio,excel,excel
+139015031,Tabl. Choc. Vizzio Leche x90gr,True,True,Chocolates y Alfajores,Vizzio,excel,excel
+13941510,Tabl. Mecano Leche c/ddl 12x45gr (B/8),True,True,Chocolates y Alfajores,Mecano,excel,excel
+13941116,Tabl. Vizzio Bonafide c/Leche Alm. 20x35gr (B/8),True,True,Chocolates y Alfajores,Vizzio,excel,excel
+13941114,Tabl. Vizzio c/Leche Alm. 12x100gr (B/6),True,True,Chocolates y Alfajores,Vizzio,excel,excel
+139411141,Tabl. Vizzio c/Leche Alm. x100gr,True,True,Chocolates y Alfajores,Vizzio,excel,excel
+1003280,Tableta Chocolate Blanco Misky 21 x 50g (B/8),True,True,Chocolates y Alfajores,Misky,excel,excel
+1003279,Tableta Chocolate con Leche Misky 21 x 50g (B/8),True,True,Chocolates y Alfajores,Misky,excel,excel
+10032801,Tableta de Chocolate Blanco Misky 50g (Unidad),True,True,Chocolates y Alfajores,Misky,excel,excel
+10032791,Tableta de Chocolate con Leche Misky 50g (Unidad),True,True,Chocolates y Alfajores,Misky,excel,excel
+1010146,Tableta Hamlet Almendra y Maní 21 x 45g (B/8),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+10101461,Tableta Hamlet Almendra y Maní x 45g (Unidad),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+1004910,Tableta Hamlet Bicolor 21 x 42g (B/8),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+10049101,Tableta Hamlet Bicolor x 42g (Unidad),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+1010149,Tableta Hamlet Blanco y Cookies 21 x 48g (B/8),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+10101491,Tableta Hamlet Blanco y Cookies 48g (Unidad),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+1010148,Tableta Hamlet Chocolatoso 21 x 43g (B/8),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+10101481,Tableta Hamlet Chocolatoso 43g (Unidad),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+1010147,Tableta Hamlet Leche y Cookies 21 x 45g (B/8),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+10101471,Tableta Hamlet Leche y Cookies x 45g (Unidad),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+1011592,Tableta Hamlet Megamaní 165g (D/18),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+1013836,Tableta Hamlet Megamaní 21 x 40g (B/12),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+1010113,Tableta Hamlet Way 21 x 30g (B/12),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+1010150,Tableta Hamlet Yogur Frutilla 21 x 43g (B/8),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+10101501,Tableta Hamlet Yogur Frutilla 43g (Unidad),True,True,Chocolates y Alfajores,Hamlet,excel,excel
+41486,Tafirol Plus x 8 comprimidos (D/2),True,True,Farmacia,,inferida,
+40068,Tafirol x 10 comprimidos (D/40),True,True,Farmacia,,inferida,
+0051,Tira Exhibidor Papas Murken,True,False,,,,
+1000039,Tomate Noel Pelado Entero 400g (B/24),True,True,Almacén,Noel,excel,excel
+700415,Torta con Cáscara de Naranja Veneziana x 400g (B/15),True,True,Panificados,Veneziana,excel,excel
+700417,Torta con Chips de Chocolate Veneziana x 400g (B/6),True,True,Panificados,Veneziana,excel,excel
+700416,Torta con Dulce Veneziana x 450g (B/6),True,True,Panificados,Veneziana,excel,excel
+700414,Torta de Limón Veneziana x 400g (B/6),True,True,Panificados,Veneziana,excel,excel
+9001321,Torta Smack bizc. dob. rell. ddl 70gr (B/24),True,True,Chocolates y Alfajores,Smack,excel,excel
+761752,Tortilla Practirica Espinaca Venezina 165g (B/36),True,True,Panificados,Veneziana,excel,excel
+761751,Tortilla Practirica Integral Cormillot 165g,True,True,Panificados,Veneziana,excel,excel
+91000027,Tortilla Practirica Picantes Venezina 165g (B/36),True,True,Panificados,Veneziana,excel,excel
+761750,Tortilla Practirica Veneziana 165g,True,True,Panificados,Veneziana,excel,excel
+4450047,Tost. de Arroz M. Ala Veggie Garbanzo 150g (B/24),True,True,Galletitas y Snacks,Molinos Ala,excel,excel
+19000430,Tostadas con Sal Light Veneziana 200g (B/12),True,True,Panificados,Veneziana,excel,excel
+700429,Tostadas con Salvado Cormillot 200g (B/12),True,True,Panificados,Veneziana,excel,excel
+800006,Tostadas de Arroz Libera Clásica 140g (B/12),True,True,Panificados,Libera,inferida,excel
+800007,Tostadas de Arroz Libera Dulce 140g (B/12),True,True,Panificados,Libera,inferida,excel
+800008,Tostadas de Arroz Libera sin Sal 140g (B/12),True,True,Panificados,Libera,inferida,excel
+4450040,Tostadas de Arroz M. Ala Integ s/Sal 150g (B/24),True,True,Galletitas y Snacks,Molinos Ala,excel,excel
+4450038,Tostadas de Arroz Molinos Ala Clásicas 150g (B/24),True,True,Galletitas y Snacks,Molinos Ala,excel,excel
+4450039,Tostadas de Arroz Molinos Ala Integrales 150g (B/24),True,True,Galletitas y Snacks,Molinos Ala,excel,excel
+4070353,Tostadas de Arroz Paseo 120g (B/12),True,True,Galletitas y Snacks,Paseo,excel,excel
+4070354,Tostadas de Arroz sin Sal Paseo 120g (B/12),True,True,Galletitas y Snacks,Paseo,excel,excel
+700432,Tostadas Dulces Veneziana 200g (B/12),True,True,Panificados,Veneziana,excel,excel
+10300041,Tostadas Firenze con Gluten x 180g (B/20),True,True,Panificados,Firenze,excel,excel
+10300033,Tostadas Firenze con Gluten x 920g fraccionado (B/5),True,True,Panificados,Firenze,excel,excel
+10300043,Tostadas Firenze Dulces 180g (B/20),True,True,Panificados,Firenze,excel,excel
+10300034,Tostadas Firenze Dulces x 920g fraccionado (B/5),True,True,Panificados,Firenze,excel,excel
+10300052,Tostadas Firenze Light x 920g fraccionado (B/5),True,True,Panificados,Firenze,excel,excel
+10300042,Tostadas Firenze sin Sal x 180g (B/20),True,True,Panificados,Firenze,excel,excel
+700428,Tostadas Multicereal Cormillot 200g (B/12),True,True,Panificados,Veneziana,excel,excel
+4040255,Tostadas Paseo Clásicas 200g (B/12),True,True,Panificados,Paseo,excel,excel
+4040256,Tostadas Paseo Dulces 200g (B/12),True,True,Panificados,Paseo,excel,excel
+4040257,Tostadas Paseo Light 200g (B/12),True,True,Panificados,Paseo,excel,excel
+4040258,Tostadas Paseo Salvado 200g (B/12),True,True,Panificados,Paseo,excel,excel
+700427,Tostadas sin Sal Light Cormillot 200g (B/12),True,True,Panificados,Veneziana,excel,excel
+800009,Tostaditas de Arroz Libera Clásica 100g (B/12),True,True,Panificados,Libera,inferida,excel
+800010,Tostaditas de Arroz Libera sin Sal 100g (B/12),True,True,Panificados,Libera,inferida,excel
+4450010,Tostaditas de Arroz Molinos Ala Clásicas 100g (B/20),True,True,Galletitas y Snacks,Molinos Ala,excel,excel
+151518,Transporte,True,True,,,,
+111112,Transporte,True,True,,,,
+1004014,Turrón de Maní Misky 50 x 25g (B/4),True,True,Golosinas,Misky,excel,excel
+9000365,Turron Fulbito c/relleno mousse 50x25gr,True,True,Golosinas,Fulbito,excel,excel
+70105927,Twix Caramel Sing x49gr (B/36),True,True,Golosinas,,excel,
+40071,Uvasal x 15 sobres,True,True,Farmacia,,inferida,
+40019,Vick Té Forte x 1 sobre (D/50),True,True,Farmacia,,inferida,
+40079,Vick Té x 1 sobre (D/50),True,True,Farmacia,,inferida,
+3019552,Vino Bodega Privada Blanco Dulce 6 x 750ml,True,True,Bebidas,Bodega Privada,excel,excel
+3019509,Vino Bodega Privada Cabernet Sauvignon 6 x 750cc,True,True,Bebidas,Bodega Privada,excel,excel
+3019502,Vino Bodega Privada Cabernet Sauvignon Tradicional 6 x 750cc,True,True,Bebidas,Bodega Privada,excel,excel
+3019510,Vino Bodega Privada Malbec 6 x 750cc,True,True,Bebidas,Bodega Privada,excel,excel
+3019568,Vino Bodega Privada Malbec Épico Reserva 6 x 750cc,True,True,Bebidas,Bodega Privada,excel,excel
+3019503,Vino Bodega Privada Malbec Tradicional 6 x 750cc,True,True,Bebidas,Bodega Privada,excel,excel
+3019537,Vino Bodega Privada Rosado Dulce 6 x 750ml,True,True,Bebidas,Bodega Privada,excel,excel
+3017000,Vino Cavic Blanco 1000cc (B/12),True,True,Bebidas,Cavic,excel,excel
+3017001,Vino Cavic Tinto 1000cc (B/12),True,True,Bebidas,Cavic,excel,excel
+7005504,Vino Club de Playa Blanco Dulce 6 x 750ml,True,True,Bebidas,Club De Playa,excel,excel
+7035504,Vino Club de Playa Rosé Dulce 6 x 750ml,True,True,Bebidas,Club De Playa,excel,excel
+3019519,Vino Esp. Blco. Extra Brut B. Priv. 6x750ml (B/6),True,True,Bebidas,Bodega Privada,excel,excel
+3023001,Vino Malbec Ricordi 6 x 750cc,True,True,Bebidas,Ricordi,excel,excel
+7005255,Vino Santa Florentina Bivarietal Syrah/Malbec 6 x 750ml,True,True,Bebidas,Santa Florentina,excel,excel
+7005355,Vino Santa Florentina Bivarietal Torrontés/Chardonnay 6 x 750ml,True,True,Bebidas,Santa Florentina,excel,excel
+7000355,Vino Santa Florentina Malbec 6 x 750ml,True,True,Bebidas,Santa Florentina,excel,excel
+7005342,Vino Tilimuqui Espumante Zero Alcohol 6 x 750ml,True,True,Bebidas,La Riojana,excel,excel
+7001309,Vino Tilimuqui Varietal Bonarda 6 x 750ml,True,True,Bebidas,La Riojana,excel,excel
+7001106,Vino Tilimuqui Varietal Torrontés/Riojano 6 x 750ml,True,True,Bebidas,La Riojana,excel,excel
+3016008,Vino Uvita Blanco 1000cc (B/12),True,True,Bebidas,Uvita,excel,excel
+3016009,Vino Uvita Tinto 1000cc (B/12),True,True,Bebidas,Uvita,excel,excel
+16054,Vino Uvita Tinto 1125cc x 6,True,True,Bebidas,Uvita,excel,excel
+3018035,Vino Viña Mayo Blend Tinto 6 x 700cc,True,True,Bebidas,Viña Mayor,excel,excel
+7005620,Vino Viñas Riojanas Blanco Dulce Tetra x 1L (B/12),True,True,Bebidas,Viñas Riojanas,excel,excel
+7000620,Vino Viñas Riojanas Blanco Tetra x 1L (B/12),True,True,Bebidas,Viñas Riojanas,excel,excel
+7005920,Vino Viñas Riojanas Tinto Tetra x 1L (B/12),True,True,Bebidas,Viñas Riojanas,excel,excel
+70004113,Whi.  Adult. Sob. Carne en Sals. 85gr (B/12),True,True,Mascotas,,excel,
+70004296,Whi.  Adult. Sob. Sardina en Sals. 85gr (B/12),True,True,Mascotas,,excel,
+70009519,Whi.  Gatitos Sob. Carne en Sals. 85gr (B/12),True,True,Mascotas,,excel,
+7000108401,Whi. Cast. Adult. Sob. Carne en Sals. 85gr (B/12),True,True,Mascotas,,excel,
+70003362,Whi. Cast. Adult. Sob. Pavo en Sals. 85gr (B/12),True,True,Mascotas,,excel,
+7000108402,Whi. Cast. Adult. Sob. Pesc. en Sals. 85gr (B/12),True,True,Mascotas,,excel,
+70004080,Whi. Cast. Adult. Sob. Pollo en Sals. 85gr (B/12),True,True,Mascotas,,excel,
+70004081,Whi. Cast. Adult. Sob. Salmon en Sals. 85gr (B/12),True,True,Mascotas,,excel,
+500008,Yerba Barao 1kg (B/10),True,True,Almacén,Barao,excel,excel
+500009,Yerba Barao 500gr (B/20),True,True,Almacén,Barao,excel,excel
+500010,Yerba Barao Compuesta 500gr (B/10),True,True,Almacén,Barao,excel,excel
+71121,Yerba Mate Canarias 1kg (B/20),True,True,Almacén,Canarias,excel,excel
+7111,Yerba Mate Canarias 500g (B/20),True,True,Almacén,Canarias,excel,excel
+7304,Yerba Mate Canarias Serena 500g (B/20),True,True,Almacén,Canarias,excel,excel
+40021,Yerba Mate Playadito 1000g (B/5),True,True,Almacén,Playadito,excel,excel
+40022,Yerba Mate Playadito 500g (B/10),True,True,Almacén,Playadito,excel,excel
+40007,Yerba Mate Playadito Sin Palo 500g (B/10),True,True,Almacén,Playadito,excel,inferida
+90506073,Yogur Las Tres Niñas Frutilla x 190g (B/12),True,True,Lácteos,Las Tres Niñas,excel,excel
+90506072,Yogur Las Tres Niñas Vainilla x 190g (B/12),True,True,Lácteos,Las Tres Niñas,excel,excel
+378621,Yummy Dientes 500gr (B/6),True,True,Golosinas,Yummy,excel,inferida
+95076,Yummy Frutilla c/Crema 12x30gr (B/12),True,True,Golosinas,Yummy,excel,inferida
+95047,Yummy Frutilla c/Crema 500gr (B/6),True,True,Golosinas,Yummy,excel,inferida
+370896,Yummy Huevos Fritos 500gr (B/6),True,True,Golosinas,Yummy,excel,inferida
+95041,Yummy Ositos 500gr (B/6),True,True,Golosinas,Yummy,excel,inferida
+95059,Yummy Ositos Acidos 500gr (B/6),True,True,Golosinas,Yummy,excel,inferida
+95044,Yummy Piecitos Acidos 12x30gr (B/12),True,True,Golosinas,Yummy,excel,inferida

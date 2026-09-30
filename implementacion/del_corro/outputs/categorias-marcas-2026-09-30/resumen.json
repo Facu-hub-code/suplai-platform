@@ -1,0 +1,27 @@
+{
+  "productos_db": 1424,
+  "visibles_tienda": 1358,
+  "con_categoria": 1347,
+  "con_marca": 1224,
+  "visibles_sin_categoria": 42,
+  "visibles_sin_marca": 165,
+  "categoria_inferida": 255,
+  "marca_sin_categoria": 0,
+  "codigos_excel_sin_producto": 83,
+  "por_categoria": {
+    "Almacén": 308,
+    "Chocolates y Alfajores": 200,
+    "Golosinas": 182,
+    "Galletitas y Snacks": 168,
+    "Limpieza": 108,
+    "Bebidas": 90,
+    "(sin categoría)": 77,
+    "Panificados": 71,
+    "Lácteos": 64,
+    "Perfumería y Varios": 55,
+    "Mascotas": 45,
+    "Farmacia": 36,
+    "Tabaquería": 20
+  },
+  "marcas_distintas": 196
+}
