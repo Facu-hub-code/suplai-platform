@@ -145,9 +145,11 @@ erp:
   usuario: "SuplaiSales"
   credenciales: "implementacion/rawson/.env (SISTEL_PASS, fuera de git)"
   alias_semilla: "raw_productos"
-  conector_backend: null
-  estado: "bloqueado — firewall de Sistel descarta TCP desde nuestra IP (2026-09-27)"
-  bloqueo: "pedir whitelist de la IP de salida; el host responde ICMP pero filtra 80/443/3448/8080"
+  alias_publicados: ["raw_productos"]
+  productos_erp: 562
+  conector_backend: sistel
+  estado: "conectado 2026-09-30 — espejo productos 562 / precios 560. Sin pedidos (decisión 2026-09-30). clientes 0"
+  bloqueo: "Purga mock pendiente de PURGE MOCK rawson. Pedidos fuera de esta tanda"
   plan: outputs/erp-rawson-api-sistel.md
   probe: scripts/probe_sistel.py
-  handoff: outputs/handoff-erp-sistel.md   # sondeo delegado a un dev con salida en Argentina
+  handoff: outputs/handoff-erp-sistel.md

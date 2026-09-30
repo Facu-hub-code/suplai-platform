@@ -48,16 +48,39 @@ TIMEOUT = int(os.environ.get("SISTEL_TIMEOUT", "30"))
 HOST_REAL = urllib.parse.urlsplit(BASE_URL).hostname or ""
 IP_EFECTIVA = ""
 
-# Alias conocidos + candidatos a tantear si GET /vistas no los expone.
+# GET /vistas hoy solo publica raw_productos. Se tantean alias aw_* (Postman)
+# y raw_* (nombre interno dbo.EndPoint_RAW_*).
 ALIAS_SEMILLA = "raw_productos"
 ALIAS_CANDIDATOS = [
     "raw_productos",
+    "aw_productos",
     "raw_clientes",
+    "aw_clientes",
+    "raw_cliente",
+    "raw_cuentas",
     "raw_vendedores",
+    "aw_vendedores",
+    "raw_vendedor",
     "raw_precios",
+    "aw_precios",
     "raw_listas_precios",
+    "raw_listaprecios",
+    "raw_listas",
     "raw_stock",
     "raw_pedidos",
+    "aw_pedidos",
+    "raw_pedido",
+    "raw_ventas",
+    "raw_facturas",
+    "raw_comprobantes",
+    "raw_items_pedido",
+    "raw_items",
+    "raw_detalle_pedidos",
+    "raw_detalle",
+    "clientes",
+    "productos",
+    "pedidos",
+    "vendedores",
 ]
 
 
@@ -219,7 +242,10 @@ def main() -> None:
     token = login()
     vistas = descubrir_vistas(token)
 
-    alias_a_probar = list(vistas) if vistas else ALIAS_CANDIDATOS
+    alias_a_probar: list[str] = []
+    for alias in list(vistas) + ALIAS_CANDIDATOS:
+        if alias not in alias_a_probar:
+            alias_a_probar.append(alias)
     if ALIAS_SEMILLA not in alias_a_probar:
         alias_a_probar.insert(0, ALIAS_SEMILLA)
 

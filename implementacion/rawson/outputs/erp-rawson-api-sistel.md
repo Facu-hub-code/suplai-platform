@@ -2,8 +2,70 @@
 
 **Tenant:** `rawson`
 **Tenant id:** `cba04456-bd69-434c-b257-9e8fcf12b144`
-**Fecha:** 2026-09-26
+**Fecha:** 2026-09-26 (probe OK 2026-09-30)
 **Fuente:** `Manual Sistel API Rawson.pdf` (manual de uso para clientes e integradores, 6 páginas)
+
+## Probe 2026-09-30
+
+Login JWT OK desde esta red. TCP `186.123.180.126:3448` abierto. El firewall que bloqueaba el 27/09 ya no aplica.
+
+`GET /vistas` publica **un solo alias**: `raw_productos` → `dbo.EndPoint_RAW_Productos`.
+
+| Alias | Resultado |
+|---|---|
+| `raw_productos` | modo simple, 562 filas, `limit` máx. 100, 16 columnas, incluye `PrecioFinal` |
+| `aw_productos` y el resto de candidatos (`raw_clientes`, `raw_pedidos`, …) | HTTP 200 con `[]` — alias no registrado (la API no hace 404) |
+
+La captura de Postman (`aw_productos`, SKU 23144 GUANTES DE NITRILO) es la misma fila que `raw_productos`. El prefijo real es `raw_*`.
+
+### Mapeo productos (`raw_productos` → DTO Suplai)
+
+| Columna ERP | Campo Suplai |
+|---|---|
+| `IDProducto` | `sku` (estable; `Codigo` a veces es texto libre o EAN) |
+| `Concepto` | `nombre` |
+| `Stock` | `cantidad` |
+| `PrecioFinal` | precio de la lista sintética `1` / "Lista Sistel" |
+| `Codigo`, `CodBar`, `Marca`, `Rubro`, `SubRubro`, `Familia`, `UxB`, `MedidaStock` | `extra` |
+
+Muestra: SKU `23144` · GUANTES DE NITRILO · EUROMIX · stock 36 · $8864.09.
+
+### Clientes y pedidos
+
+Sistel todavía no publicó vistas. Re-sondeo 2026-09-30 (post connect):
+
+| Ruta | Resultado |
+|---|---|
+| `GET /vistas` | solo `raw_productos` |
+| `GET /vistas/raw_pedidos` (y ~40 alias) | 200 `[]` — alias no registrado |
+| `POST /operaciones/:alias` | 200 `"Operación no configurada"` |
+| `POST /deal` | 500 `"Configuración de deal no encontrada"` (eso es push, no pull) |
+
+El conector ya implementa `fetch_orders` contra `raw_pedidos` + `raw_items_pedido`. Hasta que Sistel registre esas vistas, el pull da 0.
+
+Pedir a Sistel (mismo patrón que `dbo.EndPoint_RAW_Productos`):
+
+1. Alias `raw_pedidos` — cabecera: `IDPedido`, `IDCliente`, `Fecha`, `Total`, `Cliente`/`RazonSocial`.
+2. Alias `raw_items_pedido` — líneas: `IDPedido`, `IDProducto`, `Cantidad`, `Precio`/`PrecioFinal`, `Concepto`.
+3. Opcional: `raw_clientes` (`IDCliente`, `RazonSocial`, `Telefono`).
+
+Con eso el job 6 h y `POST /rawson/erp/sync-orders` llenan `erp_orders_raw` sin redeploy.
+
+**Decisión 2026-09-30:** esta tanda sigue **sin pedidos**. No se espera a Sistel. El operativo se arma con productos (+ precios). Clientes quedan para cuando exista `raw_clientes`.
+
+### Espejo cargado 2026-09-30
+
+`core.erp_connector_configs`: `sistel` · `http://asp12.selfip.net:3448` · `6h`.
+
+| Tabla | Filas |
+|---|---|
+| `erp_products_raw` | 562 (SKU `23144` GUANTES DE NITRILO, stock 36) |
+| `erp_price_lists_raw` | 1 (`erp_list_id=1`, Lista Sistel) |
+| `erp_prices_raw` | 560 (2 SKUs sin `PrecioFinal` > 0) |
+| `erp_customers_raw` | 0 |
+| `erp_orders_raw` | 0 |
+
+Operativo mock intacto (80 productos). Promote queda detrás de `PURGE MOCK rawson`.
 
 ## Host y auth
 
@@ -16,8 +78,8 @@
 | Header | `Authorization: Bearer <access_token>` |
 | Usuario | `SuplaiSales` |
 | Contraseña | fuera de git — `implementacion/rawson/.env` (`SISTEL_PASS`) |
-| Alias semilla | `raw_productos` |
-| Conector Suplai | ninguno — `core.erp_connector_configs` sin fila para el tenant |
+| Alias semilla | `raw_productos` (562 SKUs). Clientes/pedidos: no publicados |
+| Conector Suplai | `sistel` — `erp/connectors/sistel.py` |
 
 ## Estado del tenant (verificado 2026-09-27)
 
@@ -34,7 +96,11 @@ La carga actual es la **demo agéntica** de 2026-08-21, no datos reales:
 
 Pasar a datos reales del ERP implica **purga previa** (Fase 10, frase `PURGE MOCK rawson`) antes de recargar Fases 1, 4 y 5. Los 2 pedidos sin `is_mock` hay que revisarlos a mano antes de purgar: o son residuo de la demo sin marcar, o tráfico real de alguna prueba con el agente.
 
-## BLOQUEANTE — el host filtra nuestro tráfico TCP
+## Histórico — firewall TCP (resuelto 2026-09-30)
+
+El 2026-09-27 el host descartaba TCP desde España. El 2026-09-30 el puerto 3448 responde y el login entra. Se deja el diagnóstico por si Railway no llega (whitelist de egress).
+
+### Diagnóstico original 2026-09-27
 
 Diagnóstico del 2026-09-27. Son **dos problemas distintos**, uno ya resuelto de nuestro lado:
 
