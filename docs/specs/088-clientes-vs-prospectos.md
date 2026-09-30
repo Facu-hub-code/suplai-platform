@@ -29,7 +29,7 @@ En la sección Clientes, el supervisor tiene que ver **por un lado su cartera** 
 ## Diagnóstico (datos de producción, septiembre 2026)
 
 - No hay tabla de prospectos. El prospecto es una fila de `{schema}.clients` con `etiqueta = 'prospect'` (texto libre). Se escribe en `clientes_service.py` y `pdv_service.py` cuando llega `is_prospect = true`.
-- La etiqueta no es consistente. En `demo`: 66 filas sin etiqueta, 169 `prospect` y 14 `PROSPECTO`.
+- La etiqueta no es consistente. En `demo`: 67 filas sin etiqueta y 183 con grafías de prospecto (`prospect`, `PROSPECTO`); 14 de esas ya tienen pedido confirmado.
 - **No hay promoción.** En `demo`, 14 filas marcadas como prospecto ya tienen pedidos `confirmado` o `descargado` y siguen como prospecto.
 - La audiencia de Conversaciones (`backend-supabase/data_access/conversaciones.py`) ya separa prospecto, cliente y vendedor: `etiqueta = 'prospect'` o fila en `campaign_prospect`. El router del agente (`app/agent/prospect/store.py`) usa la misma regla.
 - **11 tablas del tenant tienen FK a `clients`:** `agenda`, `client_locations`, `client_operating_profiles`, `cliente_producto_favorito`, `clientes_aliases`, `estrategia_cohort_members`, `estrategia_dispatch_replies`, `estrategia_dispatches`, `estrategia_member_state`, `estrategia_schedule_decisions` y `field_tasks`. Además, sin FK declarada: `pedidos.cliente_id`, `conversations.client_id` y `campaign_prospect.customer_id`.
@@ -100,7 +100,7 @@ Tu propuesta fue trabajar los prospectos en tablas distintas. Hay dos formas de 
 
 ### Toggle
 
-En la franja de la tabla: `Clientes (80) | Prospectos (169)` (valores de `demo` después del backfill). Default: Clientes. El toggle queda en la URL (`?vista=prospectos`) para poder compartir el link.
+En la franja de la tabla: `Clientes (81) | Prospectos (169)` (valores de `demo` después del backfill). Default: Clientes. El toggle queda en la URL (`?vista=prospectos`) para poder compartir el link.
 
 ### Vista Prospectos
 
@@ -145,9 +145,9 @@ La tabla de hoy, con la misma lista de columnas, leyendo `v_cartera`. Una column
 
 ### `AC-1` Separación por defecto
 
-- **Given** `demo` después del backfill: 80 clientes (66 sin etiqueta más 14 prospectos que ya compraron) y 169 prospectos.
+- **Given** `demo` después del backfill: 81 clientes (67 sin etiqueta más 14 prospectos que ya compraron) y 169 prospectos.
 - **When** se abre Clientes.
-- **Then** se ven 80 y el toggle dice `Prospectos (169)`.
+- **Then** el toggle dice `Clientes (81) | Prospectos (169)` y la tabla solo trae cartera.
 
 ### `AC-2` Promoción
 
@@ -208,6 +208,43 @@ En cada tenant:
 
 **Riesgo:** una consulta de cartera que no pase a `v_cartera` sigue mezclando. Mitigación: buscar en backend todas las lecturas de `clients` para Métricas, grupos, estrategias y Field, y listarlas en el PR.
 
+**Riesgo — vistas atadas a `clients`:** `v_cartera` y `v_prospectos` son `SELECT *`, así que dependen de todas las columnas de `clients`. Una migración futura con `ALTER COLUMN … TYPE`, `DROP COLUMN` o `RENAME COLUMN` falla o deja la vista desfasada si no borra y recrea las dos vistas en la misma migración. Nunca destrabar con `CASCADE`. Documentado en `backend-supabase/docs/db-structure/clients-lifecycle.md`, en la cabecera de `sql/138` y en la regla `.cursor/rules/clients-lifecycle-views.mdc`.
+
+**Riesgo — tenants nuevos:** el alta de tenants clona con `LIKE … INCLUDING ALL`, que no copia triggers, FKs ni vistas. `core/tenancy.py::install_clients_lifecycle_objects` los instala; sin eso un tenant nuevo no promovería prospectos con el primer pedido.
+
+---
+
+## Implementación (desvíos y decisiones tomadas al construir)
+
+| Decisión | Por qué | Alternativa descartada |
+|----------|---------|------------------------|
+| Trigger `BEFORE INSERT OR UPDATE` en `clients` que deriva `lifecycle` y `origen_alta` de la etiqueta | Todos los caminos de alta (backend, agente, scripts de onboarding) escriben `etiqueta = 'prospect'`. El trigger cubre los que no se tocaron y se retira junto con el paso 4 | Cambiar cada `INSERT` y dejar huecos |
+| El mismo trigger no deja volver de `client` a `prospect` | CB-2 y «dejar de comprar es churn» | Chequearlo en cada servicio |
+| RF-3 se resuelve en el trigger: un prospecto que **recibe** `codigo` o `partner_erp_id` pasa a `client` con `promoted_by = 'erp'` | El sync del ERP no necesita cambios. Se mira el cambio (de vacío a valor), no la presencia, para no promover en cada `UPDATE` por datos que ya estaban | Tocar `erp_sync_service` |
+| Los predicados usan `c.lifecycle = 'client'` en lugar de leer `v_cartera` | Es el mismo filtro, las consultas quedan con su alias y joins, y el diff es de una línea por consulta. Las vistas quedan para SQL manual y dashboards | Reescribir cada `FROM clients` como `FROM v_cartera` |
+| Las lecturas que entran por `pedidos` confirmados no se tocan | Por el trigger de promoción, todo comercio con pedido confirmado ya es `client` | Filtrar dos veces |
+| El vínculo prospecto ↔ campaña usa `customer_id` o, si falta, `provider_place_id = metadata.google_place_id` | En `demo` `campaign_prospect.customer_id` está vacío en las 34 filas; por `place_id` casan las 34 | Backfill de `customer_id` (queda: el agente lo completa al guardar la etapa) |
+| El alta por el agente nace `prospect` con `origen_alta = 'agente'` salvo que dé código de cliente; el router solo manda al grafo `prospect` a los que tienen campaña u origen `directorio` / `decisor` | CB-4 pide que aparezcan en Prospectos, pero quien escribió solo vino a comprar y tiene que atenderlo el vendedor. Con el primer pedido se promueve | Mandar todo prospecto al grafo de calificación |
+| «Pasar a cliente» guarda `promoted_by = 'operador:<email>'` | El backend no tiene usuario autenticado en los routers; el backoffice manda el email del operador logueado | Columna nueva para el actor |
+| `GET /bff/clients` sin `lifecycle` sigue trayendo todo | El backend se deploya antes que el backoffice; la pantalla actual no cambia hasta que llega el toggle | Default `client` en backend |
+| Filtros de la vista Prospectos en v1: búsqueda. El endpoint ya acepta campaña, etapa, «respondieron» y «necesitan a alguien» | La UI de filtros va con 089/091, cuando haya encaje ICP y WhatsApp validado | Hacer la barra completa ahora |
+| El pedido de prospectos explícitos en grupos y estrategias (RF-5, segunda parte) queda para después | Nadie lo pide hoy y el default seguro es cartera | — |
+
+### Consumidores que pasan a cartera (`lifecycle = 'client'`)
+
+| Archivo | Consultas |
+|---------|-----------|
+| `data_access/comercial_metrics.py` | `prioridad_universe` (resumen, series, detalle y candidatos de «Solo importantes»), `assigned_clients` |
+| `data_access/pdvs_metrics.py` | `assigned_clients` (métricas por PDV y resumen) |
+| `data_access/vendedores_metrics.py` | cartera asignada por vendedor |
+| `data_access/comercial_alarms.py` | universo de prioridad y listas de alarmas |
+| `routers/grupos.py` | preview y miembros por etiqueta, lista y días, zona, condición dinámica y conteos (los ids explícitos no se filtran: el operador los eligió) |
+| `services/copilot/grupo_action.py` | preview de grupo del copiloto |
+| `services/estrategias_service.py`, `services/estrategias_cycle_service.py` | `_GROUP_CLIENTS_SQL` (audiencia de la estrategia) |
+| `services/agenda_sender.py` | audiencia por zona y por filtros (ids explícitos sin filtro) |
+| `services/vendedor_app_service.py` | cartera del vendedor en Field |
+| `services/conversacion_audiencia.py`, `data_access/conversaciones.py` | tipo de contacto `prospect` / `client` por `lifecycle` |
+
 ---
 
 ## Orden de implementación
@@ -235,7 +272,7 @@ Se puede hacer en paralelo con 087 a 092. Las columnas de 089 y 091 aparecen vac
 
 **Servicios:** backend `8000`, backoffice `3000` (`BACKEND_URL=http://localhost:8000`), agente local. Tenant `demo`.
 
-1. Correr la migración en `demo`. Contar: 80 en Clientes (66 más los 14 promovidos) y 169 en Prospectos.
+1. Correr la migración en `demo`. Contar: 81 en Clientes (67 más los 14 promovidos) y 169 en Prospectos.
 2. Abrir Clientes: por defecto se ven solo clientes; el toggle muestra los dos contadores.
 3. Pasar a Prospectos: ver campaña, etapa, decisor y WhatsApp.
 4. Con un prospecto de prueba, hacer un pedido por la tienda y confirmarlo. Recargar: pasó a Clientes con «Llegó por Suplai».
