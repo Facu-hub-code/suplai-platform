@@ -1,0 +1,26 @@
+{
+  "schema": "dimer",
+  "company_id": 1,
+  "apply": true,
+  "steps": [
+    "prices"
+  ],
+  "started_at": "2026-09-30T00:40:36.669180+00:00",
+  "prices": {
+    "raw": {
+      "loaded": 5177,
+      "elapsed_ms": 10721
+    },
+    "synced": {
+      "created": 4788,
+      "updated": 0,
+      "unchanged": 374,
+      "blocked_missing_price_list": 0,
+      "blocked_missing_product": 0,
+      "errors": 0,
+      "lista_precios_id": null,
+      "message": "4788 creados, 0 actualizados, 374 sin cambio; 0 bloqueados por dependencias."
+    }
+  },
+  "finished_at": "2026-09-30T00:40:53.551905+00:00"
+}

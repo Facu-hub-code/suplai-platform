@@ -146,3 +146,33 @@ marca_lider: "Savory"  # ★ Completar tras Fase 1 — marca principal del tenan
                  #   Usada en Fase 2 (promo 1) y Fase 8 (insights de calidad)
 tenant_id: "02a0c4e0-8ac7-4bf1-aee9-19b44a14f66a"    # ★ UUID de public.distribuidoras.id — completar en Fase 0
                  #   Usado en Fases 03, y siguientes para mapeos en tablas public.*
+
+erp_odoo:
+  estado: conectado
+  instancia: "https://dimerltda.odoo.com"
+  odoo_version: "18.0+e"
+  db: "portizm-dimerltda-main-24257253"
+  username: admin
+  company_id: 1
+  company_name: "DIMER S.A"
+  compute_formula_prices: true
+  otras_sociedades:
+    - {id: 2, name: "DIAZ Y MERINO LTDA"}
+    - {id: 3, name: "ASESORIAS E INVERSIONES DIMERI LIMITADA"}
+  push_orders_enabled: true
+  sync_frequency: 6h
+  orders_sync_days_inicial: 30
+  script: scripts/integrar_odoo.py
+  output: outputs/erp-odoo-dimer-2026-09-30.json
+  clientes: 4970
+  clientes_mapeados: 4669
+  pedidos: 17046
+  pedidos_raw: 18850
+  precios: 6030
+  cola_pendiente: 2691
+  notas: >
+    3A+2B+1B. Alta solo de partners con compra en 30 días. Precios fórmula
+    gated (compute_formula_prices) para no cambiar benfresh. Benfresh sigue
+    en benfresh-llc1.odoo.com y su job 6h corrió el 2026-09-30 00:02 UTC.
+    Lista DIMER cubre 235 SKUs; reglas base=pricelist quedan fuera de v1.
+  cargado_at: "2026-09-30T00:40:53Z"

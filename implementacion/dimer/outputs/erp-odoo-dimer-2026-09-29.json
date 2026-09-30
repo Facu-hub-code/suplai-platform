@@ -1,0 +1,17 @@
+{
+  "schema": "dimer",
+  "company_id": 1,
+  "apply": true,
+  "steps": [
+    "orders"
+  ],
+  "started_at": "2026-09-29T23:30:44.902462+00:00",
+  "orders": {
+    "synced": 18841,
+    "days": 30,
+    "since": "2026-08-30T23:30:51.042731+00:00",
+    "fecha_min": "2025-08-01",
+    "sync_mode": "incremental"
+  },
+  "finished_at": "2026-09-29T23:44:57.328551+00:00"
+}
