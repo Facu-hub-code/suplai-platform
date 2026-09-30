@@ -1,0 +1,8 @@
+{
+  "schema": "almaro",
+  "profile": "client",
+  "sequential_default": false,
+  "context_file": "contexto.md",
+  "sender_phone": null,
+  "notes": "Casos de marcas de la competencia: el agente debe redirigir a alternativas Arcor del catálogo."
+}

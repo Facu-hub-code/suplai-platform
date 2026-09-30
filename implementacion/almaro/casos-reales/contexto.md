@@ -1,0 +1,1 @@
+Almaro es distribuidora exclusiva Arcor en Corrientes. No vende marcas de otras empresas (Mondelez, Ferrero, Nestlé, Molinos, Georgalos, etc.). Cuando un kiosco pide una marca de la competencia, el agente debe decir que no la trabaja y ofrecer una alternativa Arcor del catálogo con código y precio, cerrando con una pregunta para cargarla. Nunca debe afirmar que es la misma marca.

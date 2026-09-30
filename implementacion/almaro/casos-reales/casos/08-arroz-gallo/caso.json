@@ -1,0 +1,16 @@
+{
+  "name": "[Competencia] Arroz Gallo (sin equivalente)",
+  "sequential_order": 8,
+  "message": "tenés arroz gallo de 1kg?",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products",
+    "search_products_by_category"
+  ],
+  "expected_skus": [],
+  "expected_behavior": "Debe decir que no trabaja arroz (no inventar un arroz Arcor), y ofrecer algo complementario del catálogo como condimento para arroz o salsa Arcor, con código y precio, cerrando con una pregunta. No debe crear pedido.",
+  "tags": [
+    "competencia",
+    "sin-equivalente"
+  ]
+}

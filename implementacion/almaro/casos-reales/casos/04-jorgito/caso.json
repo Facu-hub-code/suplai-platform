@@ -1,0 +1,16 @@
+{
+  "name": "[Competencia] Jorgito",
+  "sequential_order": 4,
+  "message": "Tenés alfajores Jorgito?",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products",
+    "search_products_by_category"
+  ],
+  "expected_skus": [],
+  "expected_behavior": "Debe aclarar en una frase que no trabaja Jorgito, NO decir que tiene Jorgito ni que la alternativa es la misma marca, buscar con search_products y ofrecer 1-2 alternativas Arcor reales (alfajor Tofi, BYN triple o Cofler Block) con código y precio, y cerrar con una pregunta para cargarla. No debe crear el pedido sin confirmación.",
+  "tags": [
+    "competencia",
+    "jorgito"
+  ]
+}

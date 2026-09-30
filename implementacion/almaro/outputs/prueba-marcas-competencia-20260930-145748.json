@@ -1,0 +1,194 @@
+[
+  {
+    "caso": "01-halls",
+    "mensaje": "¿Tenés Halls? Necesito para el kiosco",
+    "esperado": "Debe aclarar en una frase que no trabaja Halls, NO decir que tiene Halls ni que la alternativa es la misma marca, buscar con search_products y ofrecer 1-2 alternativas Arcor reales (Menthoplus) con código y precio, y cerrar con una pregunta para cargarla. No debe crear el pedido sin confirmación.",
+    "status": 200,
+    "segundos": 8.0,
+    "respuesta": {
+      "ok": true,
+      "tenant_schema": "almaro",
+      "tenant_id": "98f02431-a66f-40bf-9551-9bf66faf204d",
+      "echo": "Tengo estas opciones de Menthoplus para vos:\n\n1. MENTHO PLUS CHERRY 12X12X29.4G (Cód: 10129) - $5,735.76\n2. MENTHO PLUS MENTHOL 12X12X29.4G (Cód: 10128) - $5,735.76\n3. MENTHO PLUS MENTA 12X12X29.4G (Cód: 10132) - $5,735.76\n\n¿Te cargo alguno de estos displays para el kiosco?",
+      "messages": [
+        "Tengo estas opciones de Menthoplus para vos:\n\n1. MENTHO PLUS CHERRY 12X12X29.4G (Cód: 10129) - $5,735.76\n2. MENTHO PLUS MENTHOL 12X12X29.4G (Cód: 10128) - $5,735.76\n3. MENTHO PLUS MENTA 12X12X29.4G (Cód: 10132) - $5,735.76\n\n¿Te cargo alguno de estos displays para el kiosco?"
+      ],
+      "append_messages": []
+    },
+    "busquedas": [
+      [
+        "10129 MENTHO PLUS CHERRY 12X12X29.4G",
+        "10128 MENTHO PLUS MENTHOL 12X12X29.4G",
+        "10132 MENTHO PLUS MENTA 12X12X29.4G",
+        "1751 MENTHO PLUS MENTOL 12X12X30.6G",
+        "12316 MENTHOPLUS 2 MENTOL 12X12X28G"
+      ]
+    ]
+  },
+  {
+    "caso": "02-oreo-cantidad",
+    "mensaje": "mandame 2 cajas de Oreo",
+    "esperado": "Debe aclarar en una frase que no trabaja Oreo, NO decir que tiene Oreo ni que la alternativa es la misma marca, buscar con search_products y ofrecer 1-2 alternativas Arcor reales (Mana rellena o galletas Cofler rellenas; proponer 2 unidades de la alternativa) con código y precio, y cerrar con una pregunta para cargarla. No debe crear el pedido sin confirmación.",
+    "status": 200,
+    "segundos": 2.3,
+    "respuesta": {
+      "ok": true,
+      "tenant_schema": "almaro",
+      "tenant_id": "98f02431-a66f-40bf-9551-9bf66faf204d",
+      "echo": "No trabajamos con la marca Oreo, pero tengo una alternativa que se vende muy bien. Te puedo ofrecer las galletas Mana rellena chocolate vainilla o las galletas Cofler rellenas. ¿Te gustaría que te cargue alguna de estas opciones?",
+      "messages": [
+        "No trabajamos con la marca Oreo, pero tengo una alternativa que se vende muy bien. Te puedo ofrecer las galletas Mana rellena chocolate vainilla o las galletas Cofler rellenas. ¿Te gustaría que te cargue alguna de estas opciones?"
+      ],
+      "append_messages": []
+    },
+    "busquedas": []
+  },
+  {
+    "caso": "03-nutella",
+    "mensaje": "hola, tenés Nutella?",
+    "esperado": "Debe aclarar en una frase que no trabaja Nutella, NO decir que tiene Nutella ni que la alternativa es la misma marca, buscar con search_products y ofrecer 1-2 alternativas Arcor reales (relleno untable Bon o Bon o Águila Nut) con código y precio, y cerrar con una pregunta para cargarla. No debe crear el pedido sin confirmación.",
+    "status": 200,
+    "segundos": 5.2,
+    "respuesta": {
+      "ok": true,
+      "tenant_schema": "almaro",
+      "tenant_id": "98f02431-a66f-40bf-9551-9bf66faf204d",
+      "echo": "Tengo el relleno untable Bon o Bon en forma de tableta. Aquí te dejo una opción:\n\n1. **TABLETA BON O BON 2 ALVEOLOS 4X16X48G** (Cód: 15127) - $1,819.78\n\n¿Te cargo una unidad?",
+      "messages": [
+        "Tengo el relleno untable Bon o Bon en forma de tableta. Aquí te dejo una opción:\n\n1. **TABLETA BON O BON 2 ALVEOLOS 4X16X48G** (Cód: 15127) - $1,819.78\n\n¿Te cargo una unidad?"
+      ],
+      "append_messages": []
+    },
+    "busquedas": [
+      [
+        "15127 TABLETA BON O BON 2 ALVEOLOS 4X16X48G",
+        "95001 OBLEA BON O BON X1",
+        "11269 BON O BON LECH.POTE",
+        "15292 BON O BON  COOKIE & CREAM 16X18X16,5GR",
+        "14610 TABLETA BON O BON 4X10X160G"
+      ]
+    ]
+  },
+  {
+    "caso": "04-jorgito",
+    "mensaje": "Tenés alfajores Jorgito?",
+    "esperado": "Debe aclarar en una frase que no trabaja Jorgito, NO decir que tiene Jorgito ni que la alternativa es la misma marca, buscar con search_products y ofrecer 1-2 alternativas Arcor reales (alfajor Tofi, BYN triple o Cofler Block) con código y precio, y cerrar con una pregunta para cargarla. No debe crear el pedido sin confirmación.",
+    "status": 200,
+    "segundos": 4.4,
+    "respuesta": {
+      "ok": true,
+      "tenant_schema": "almaro",
+      "tenant_id": "98f02431-a66f-40bf-9551-9bf66faf204d",
+      "echo": "Tengo una alternativa que se vende muy bien: el Alfajor Tofi Triple. Aquí te dejo los detalles:\n\n1. **ALF TOFI TRIPLE 21 X 73G** (Cód: 15491) - $1,303.71\n\n¿Te cargo uno?",
+      "messages": [
+        "Tengo una alternativa que se vende muy bien: el Alfajor Tofi Triple. Aquí te dejo los detalles:\n\n1. **ALF TOFI TRIPLE 21 X 73G** (Cód: 15491) - $1,303.71\n\n¿Te cargo uno?"
+      ],
+      "append_messages": []
+    },
+    "busquedas": [
+      [
+        "15491 ALF TOFI TRIPLE 21 X 73G",
+        "11714 ALF TOFI NEGRO 16X6X46G",
+        "3312 ALFAJOR TATIN NEGRO 56X33G",
+        "11665 ALF TOFI GLASE MINI 16X6X22G",
+        "11584 AIREADO COFLER RELLENO TOFI 8X10X70G"
+      ]
+    ]
+  },
+  {
+    "caso": "05-milka",
+    "mensaje": "precio de chocolate Milka",
+    "esperado": "Debe aclarar en una frase que no trabaja Milka, NO decir que tiene Milka ni que la alternativa es la misma marca, buscar con search_products y ofrecer 1-2 alternativas Arcor reales (tableta Cofler o Águila) con código y precio, y cerrar con una pregunta para cargarla. No debe crear el pedido sin confirmación.",
+    "status": 200,
+    "segundos": 5.7,
+    "respuesta": {
+      "ok": true,
+      "tenant_schema": "almaro",
+      "tenant_id": "98f02431-a66f-40bf-9551-9bf66faf204d",
+      "echo": "Aquí tenés algunas opciones de tabletas Cofler que podrían interesarte:\n\n1. **COFLER 3 PLACERES 12x10x55G** (Cód: 10770) - $2,818.67\n2. **TABLETA COFLER EXTRA COOKIE&CREAM 4X10X165GR** (Cód: 15408) - $6,275.69\n3. **TABLETA COFLER EXTRA COOKIE&CREAM 4X16X46GR** (Cód: 15407) - $1,793.05\n4. **TABLETA COFLER EXTRA CHOCOTORTA 4X10X165GR** (Cód: 15412) - $6,275.69\n5. **TABLETA COFLER EXTRA CHOCOTORTA 4X16X46GR** (Cód: 15411) - $1,793.05\n\n¿Te gustaría que te cargue alguna de estas opciones al pedido?",
+      "messages": [
+        "Aquí tenés algunas opciones de tabletas Cofler que podrían interesarte:\n\n1. **COFLER 3 PLACERES 12x10x55G** (Cód: 10770) - $2,818.67\n2. **TABLETA COFLER EXTRA COOKIE&CREAM 4X10X165GR** (Cód: 15408) - $6,275.69\n3. **TABLETA COFLER EXTRA COOKIE&CREAM 4X16X46GR** (Cód: 15407) - $1,793.05\n4. **TABLETA COFLER EXTRA CHOCOTORTA 4X10X165GR** (Cód: 15412) - $6,275.69\n5. **TABLETA COFLER EXTRA CHOCOTORTA 4X16X46GR** (Cód: 15411) - $1,793.05\n\n¿Te gustaría que te cargue alguna de estas opciones al pedido?"
+      ],
+      "append_messages": []
+    },
+    "busquedas": [
+      [
+        "10770 COFLER 3 PLACERES 12x10x55G",
+        "15408 TABLETA COFLER EXTRA COOKIE&CREAM 4X10X165GR",
+        "15407 TABLETA COFLER EXTRA COOKIE&CREAM 4X16X46GR",
+        "15412 TABLETA COFLER EXTRA  CHOCOTORTA 4X10X165GR",
+        "15411 TABLETA COFLER  EXTRA CHOCOTORTA 4X16X46GR"
+      ]
+    ]
+  },
+  {
+    "caso": "06-kinder",
+    "mensaje": "tenes huevito kinder sorpresa?",
+    "esperado": "Debe aclarar en una frase que no trabaja Kinder, NO decir que tiene Kinder ni que la alternativa es la misma marca, buscar con search_products y ofrecer 1-2 alternativas Arcor reales (huevo Bon o Bon o huevo Cofler) con código y precio, y cerrar con una pregunta para cargarla. No debe crear el pedido sin confirmación.",
+    "status": 200,
+    "segundos": 4.2,
+    "respuesta": {
+      "ok": true,
+      "tenant_schema": "almaro",
+      "tenant_id": "98f02431-a66f-40bf-9551-9bf66faf204d",
+      "echo": "Tengo una alternativa que se vende muy bien: el **Huevo Bon o Bon Blanco de 55 gramos** (Cód: 5880) a $612.76. ¿Te gustaría que te cargue uno?",
+      "messages": [
+        "Tengo una alternativa que se vende muy bien: el **Huevo Bon o Bon Blanco de 55 gramos** (Cód: 5880) a $612.76. ¿Te gustaría que te cargue uno?"
+      ],
+      "append_messages": []
+    },
+    "busquedas": [
+      [
+        "5880 HUEVO BON O BON BLANCO * 55 GR",
+        "3249 HUEVO BON O BON LECHE * 20 GRS",
+        "12328 HUEVO SURTIDO BON O",
+        "13693 HUEVITO BON O BON 27X20X7.8G",
+        "10255 HUEVO CHOCOL BON O B"
+      ]
+    ]
+  },
+  {
+    "caso": "07-lucchetti",
+    "mensaje": "necesito fideos Lucchetti tirabuzón",
+    "esperado": "Debe aclarar en una frase que no trabaja Lucchetti, NO decir que tiene Lucchetti ni que la alternativa es la misma marca, buscar con search_products y ofrecer 1-2 alternativas Arcor reales (pasta tirabuzón Arcor o La Campagnola) con código y precio, y cerrar con una pregunta para cargarla. No debe crear el pedido sin confirmación.",
+    "status": 200,
+    "segundos": 5.0,
+    "respuesta": {
+      "ok": true,
+      "tenant_schema": "almaro",
+      "tenant_id": "98f02431-a66f-40bf-9551-9bf66faf204d",
+      "echo": "No tenemos fideos Lucchetti, pero te puedo ofrecer una alternativa de La Campagnola o Arcor. Aquí te dejo dos opciones:\n\n1. **PASTA TIRABUZÓN LC 15x500G** (Cód: 13472) - $1,386.80\n2. **PASTA TIRABUZÓN ARCOR 15X500G** (Cód: 14233) - $1,260.73\n\nPodés ver todos los productos y precios actualizados en la tienda online desde este enlace:\nhttps://tienda.suplaisales.com/almaro?wp=549358509867&view=search&q=pasta+tirabuz%C3%B3n&ref=86c8a5abbb1e&source=agent&v=1\n\n¿Te cargo alguna de estas opciones?",
+      "messages": [
+        "No tenemos fideos Lucchetti, pero te puedo ofrecer una alternativa de La Campagnola o Arcor. Aquí te dejo dos opciones:\n\n1. **PASTA TIRABUZÓN LC 15x500G** (Cód: 13472) - $1,386.80\n2. **PASTA TIRABUZÓN ARCOR 15X500G** (Cód: 14233) - $1,260.73\n\nPodés ver todos los productos y precios actualizados en la tienda online desde este enlace:\nhttps://tienda.suplaisales.com/almaro?wp=549358509867&view=search&q=pasta+tirabuz%C3%B3n&ref=86c8a5abbb1e&source=agent&v=1\n\n¿Te cargo alguna de estas opciones?"
+      ],
+      "append_messages": []
+    },
+    "busquedas": [
+      [
+        "13472 PASTA TIRABUZON LC 15x500G",
+        "14233 PASTA TIRABUZON ARCOR 15X500G",
+        "13475 PASTA PENNE LC 15x500G",
+        "13473 PASTA CODITO LC 15x500G",
+        "12604 PIZZA SIN TACC 12X500G"
+      ]
+    ]
+  },
+  {
+    "caso": "08-arroz-gallo",
+    "mensaje": "tenés arroz gallo de 1kg?",
+    "esperado": "Debe decir que no trabaja arroz (no inventar un arroz Arcor), y ofrecer algo complementario del catálogo como condimento para arroz o salsa Arcor, con código y precio, cerrando con una pregunta. No debe crear pedido.",
+    "status": 200,
+    "segundos": 2.6,
+    "respuesta": {
+      "ok": true,
+      "tenant_schema": "almaro",
+      "tenant_id": "98f02431-a66f-40bf-9551-9bf66faf204d",
+      "echo": "No trabajamos con la marca Arroz Gallo. Sin embargo, puedo ofrecerte condimentos para arroz y salsas de Arcor que se venden muy bien. ¿Te gustaría que te muestre algunas opciones?",
+      "messages": [
+        "No trabajamos con la marca Arroz Gallo. Sin embargo, puedo ofrecerte condimentos para arroz y salsas de Arcor que se venden muy bien. ¿Te gustaría que te muestre algunas opciones?"
+      ],
+      "append_messages": []
+    },
+    "busquedas": []
+  }
+]

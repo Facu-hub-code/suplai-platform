@@ -1,0 +1,16 @@
+{
+  "name": "[Competencia] Kinder",
+  "sequential_order": 6,
+  "message": "tenes huevito kinder sorpresa?",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products",
+    "search_products_by_category"
+  ],
+  "expected_skus": [],
+  "expected_behavior": "Debe aclarar en una frase que no trabaja Kinder, NO decir que tiene Kinder ni que la alternativa es la misma marca, buscar con search_products y ofrecer 1-2 alternativas Arcor reales (huevo Bon o Bon o huevo Cofler) con código y precio, y cerrar con una pregunta para cargarla. No debe crear el pedido sin confirmación.",
+  "tags": [
+    "competencia",
+    "kinder"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "[Competencia] Oreo",
+  "sequential_order": 2,
+  "message": "mandame 2 cajas de Oreo",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products",
+    "search_products_by_category"
+  ],
+  "expected_skus": [],
+  "expected_behavior": "Debe aclarar en una frase que no trabaja Oreo, NO decir que tiene Oreo ni que la alternativa es la misma marca, buscar con search_products y ofrecer 1-2 alternativas Arcor reales (Mana rellena o galletas Cofler rellenas; proponer 2 unidades de la alternativa) con código y precio, y cerrar con una pregunta para cargarla. No debe crear el pedido sin confirmación.",
+  "tags": [
+    "competencia",
+    "oreo"
+  ]
+}
