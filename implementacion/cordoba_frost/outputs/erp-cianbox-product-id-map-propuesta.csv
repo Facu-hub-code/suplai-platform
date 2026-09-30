@@ -1,0 +1,28 @@
+product_code_suplai,nombre_suplai,cianbox_id_producto,cianbox_codigo_interno,nombre_cianbox,confianza,nota
+COM-HEL-INICIAL,Combo Inicial (Helados),2027,CBX-2027,Combo Inicial Palitos,alta,Confirmado: el vendedor lo corrigio a mano en Cianbox (pedido 283 y captura del pedido 00026034)
+COM-HEL-MEDIO,Combo Medio (Helados),2034,CBX-2034,Combo Palitos Medio,media,Por nombre; confirmar con Cordoba Frost
+COM-HEL-PREMIUM,Combo Premium (Helados),2035,CBX-2035,Combo Palitos Premium,media,Por nombre; confirmar con Cordoba Frost
+COM-RIC-20013,Combo: 12 hamburguesas MAS GRANDES + 12 panes hamburguesas,2011,CBX-2011,Combo: 12 hamburguesas MAS GRANDES + 12 panes hamburguesas,alta,Nombre identico
+IMP-LOM-20003,Balde Irresistible Cereza x 750cc,2030,CBX-2030,Balde Irresistible Cereza x 750cc,alta,Nombre identico
+IMP-LOM-20004,Balde Irresistible Dulce de Leche x 750 cc,2028,CBX-2028,Balde Irresistible Dulce de Leche x 750 cc,alta,Nombre identico
+IMP-LOM-20005,Balde Irresistible Frutilla x 750 cc,2029,CBX-2029,Balde Irresistible Frutilla x 750 cc,alta,Nombre identico
+IMP-LOM-20006,Balde x 1kg bana bana Cereza/Granizado/DDL,2031,CBX-2031,Balde x 2 LITROS  bana bana Cereza/Granizado/DDL,media,Mismos gustos pero Suplai dice 1kg y Cianbox 2 litros; confirmar presentacion
+IMP-LOM-20007,Balde x 1kg bana bana Choco/Limon/Frutilla,2032,CBX-2032,Balde x 2 LITROS  bana bana Choco/Limon/Frutilla,media,Mismos gustos pero Suplai dice 1kg y Cianbox 2 litros; confirmar presentacion
+INS-INS-01898,Obleas para decorar x 500g,1898,-INS-01898,Obleas para decorar x 500g,alta,codigo_interno truncado en Cianbox
+INS-INS-01899,Obleas GRANDES para decorar x 5u,1899,-INS-01899,Obleas GRANDES para decorar x 5u,alta,codigo_interno truncado en Cianbox
+INS-INS-01900,Mini Rocklets x 200g,1900,-INS-01900,Mini Rocklets x 200g,alta,codigo_interno truncado en Cianbox
+INS-INS-01901,Mani Crocante x Kg,1901,-INS-01901,Mani Crocante x Kg,alta,codigo_interno truncado en Cianbox
+MED-RIC-20014,Medallon Carne Riccisima 9x12 de 65g,2017,CBX-2017,Medallon Carne Riccisima 9x12 de 65g,alta,Nombre identico
+PAN-LCH-01962,Churros Precocidos Rellenos Dulce de Leche Congelados x 5 doc,1962,PAN-LA -01962,Churros Precocidos Rellenos Dulce de Leche Congelados x 5 doc,alta,codigo_interno mal formado en Cianbox
+PAN-PAN-01812,Pan de Molde blanco caja x 6 unidades x 540 gr,1812,-PAN-01812,Pan de Molde  blanco caja x  6 unidades x 540 gr,alta,codigo_interno truncado en Cianbox
+PAN-PAN-01813,Pan Molde Salvado caja x 6 unid x 540 gr,1813,-PAN-01813,Pan Molde Salvado caja x 6 unid x 540 gr,alta,codigo_interno truncado en Cianbox
+PAN-PRI-20009,Gran Medialuna 65g x 90u,2007,CBX-2007,Gran Medialuna 65g x 90u,alta,Nombre identico
+PAP-RAN-20010,Papas baston caja x 15 kg,2025,CBX-2025,Papas baston caja x 15 kg,alta,Nombre identico
+PAP-RAN-20011,Papas baston caja x 2,5 kg,2026,CBX-2026,Papas baston caja x 2,5 kg,alta,Nombre identico
+PIZ-QP-01941,Pizza de Jamon y Queso x 5u,1941,PIZ-Q' -01941,Pizza de Jamon y Queso x 5u,alta,codigo_interno mal formado en Cianbox
+PIZ-QP-01942,Pizza de Muzzarela x 5u,1942,PIZ-Q' -01942,Pizza de Muzzarela x 5u,alta,codigo_interno mal formado en Cianbox
+REB-SJO-20015,Caja de Milanesa San Jose x30 paquetes SURTIDAS de 6u c/u,2024,CBX-2024,Caja de Milanesa San Jose x30 paquetes SURTIDAS de 6u c/u,alta,Nombre identico
+REB-SJO-20016,Milanesa de Soja Surtida de 300g x 6u,2022,CBX-2022,Milanesa de Soja Surtida de 300g x 6u,alta,Nombre identico
+SIN-CRE-20002,Pizza de Muzzarela 4p 400g SIN TACC,2014,CBX-2014,Pizza de Muzzarela 4p 400g SIN TACC,alta,Nombre identico
+COM-RIC-20012,COMBO: 12 hamburguesas FLOW + 12 panes de hamburguesas,,,,sin_match,No existe en Cianbox; hay que darlo de alta alli o sacarlo del catalogo
+PAN-COR-20001,Pan Mignon Crudo Congelado caja x14kg,,,,sin_match,No existe en Cianbox; hay que darlo de alta alli o sacarlo del catalogo
