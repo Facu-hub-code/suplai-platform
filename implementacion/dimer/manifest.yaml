@@ -71,8 +71,9 @@ fases:
   "01.1":
     nombre: tags
     estado: cargado
-    output_json: outputs/phase-01-1-propuesta-tags.json
-    cargado_at: "2026-06-24T14:43:00Z"
+    output_json: outputs/phase-01-1-propuesta-categorias.json
+    cargado_at: "2026-09-30T12:30:33Z"
+    notas: "Reasignación por tipo de producto. 547/547 SKUs con 4 niveles. 175 nodos, 2188 product_categories. 176 que estaban sin categoría (equipamiento + SKUs ERP) quedaron asignados. Árbol: Equipamiento, Helados, Papas, Frutas, Vegetales, Pescados, Aves, Carnes, Comidas, Lácteos, Bebidas, Abarrotes."
   "01.2":
     nombre: mejora_descripciones
     estado: cargado
