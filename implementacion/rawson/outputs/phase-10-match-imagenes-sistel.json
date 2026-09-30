@@ -1,0 +1,26 @@
+{
+  "local_con_imagen": 148,
+  "sistel_productos": 562,
+  "matches_auto": 85,
+  "unmatched": 63,
+  "reverts": [
+    "40267 BANDEJA EXP 618 — no era el 180",
+    "45655 PLATO Nº15 100U — el local era 50U"
+  ],
+  "manual_extra": ["24083", "24085", "24066", "45589"],
+  "erp_with_image": 89,
+  "sistel_customers": 0,
+  "alias_counts": {
+    "fetch_customers": 0,
+    "raw_clientes": 0,
+    "aw_clientes": 0,
+    "raw_cliente": 0,
+    "raw_cuentas": 0,
+    "clientes": 0,
+    "cuentas": 0
+  },
+  "db_mock_clients": 50,
+  "db_real_clients": 0,
+  "match_csv": "implementacion/rawson/outputs/phase-10-match-imagenes-sistel.csv",
+  "purga": "pendiente — falta frase PURGE MOCK rawson"
+}

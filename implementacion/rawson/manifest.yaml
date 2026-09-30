@@ -128,10 +128,11 @@ fases:
     notas: "Omitido en modo demo — smoke chat manual si hace falta."
   "10":
     nombre: purga_mock
-    estado: bloqueado
+    estado: cargado
     output_csv: outputs/phase-10-purga-log.csv
-    filas_csv: 0
-    cargado_at: null
+    filas_csv: 26
+    cargado_at: "2026-09-30T13:18:38Z"
+    notas: "PURGE MOCK rawson. Quedaron 562 SKUs Sistel (89 con foto), lista 6, 560 precios. Clients/pedidos/vendedores mock=0."
 
 marca_lider: "DPM"
 tenant_id: "cba04456-bd69-434c-b257-9e8fcf12b144"
@@ -148,8 +149,8 @@ erp:
   alias_publicados: ["raw_productos"]
   productos_erp: 562
   conector_backend: sistel
-  estado: "conectado 2026-09-30 — espejo productos 562 / precios 560. Sin pedidos (decisión 2026-09-30). clientes 0"
-  bloqueo: "Purga mock pendiente de PURGE MOCK rawson. Pedidos fuera de esta tanda"
+  estado: "conectado 2026-09-30 — espejo 562/560. Lista Sistel id=6. 89 SKUs ERP con foto cruzada desde web. Clientes ERP 0 (vista no publicada). Sin pedidos."
+  bloqueo: null
   plan: outputs/erp-rawson-api-sistel.md
   probe: scripts/probe_sistel.py
   handoff: outputs/handoff-erp-sistel.md

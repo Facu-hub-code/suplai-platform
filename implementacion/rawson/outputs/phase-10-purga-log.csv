@@ -1,0 +1,27 @@
+tabla,filas_borradas,ok,notes
+rawson.items_pedido,378,true,
+rawson.items_pedido,3,true,hijos de pedidos mock o cliente mock
+core.conversation_events,222,true,
+core.conversations,46,true,conversaciones demo sin eventos restantes
+rawson.pedidos,139,true,
+rawson.pedidos,2,true,pedidos de clientes mock (is_mock=false)
+rawson.ia_tickets,18,true,
+rawson.ia_tickets,8,true,tickets operativos de clientes mock
+rawson.vendedor_geo_zones,6,true,
+rawson.puntos_venta,50,true,
+rawson.client_operating_profiles,0,true,hijos de clients mock
+rawson.cliente_producto_favorito,0,true,hijos mock
+rawson.client_locations,50,true,hijos de clients mock
+rawson.clientes_aliases,0,true,hijos de clients mock
+rawson.clients,50,true,
+rawson.geo_zones,6,true,
+rawson.vendedores,3,true,
+rawson.promociones_semanales,4,true,
+rawson.precios_productos,0,true,
+rawson.product_tags,160,true,tags de productos mock
+rawson.productos_aliases,597,true,
+rawson.documents,80,true,vectores de productos mock
+rawson.productos,80,true,
+public.tenant_cross_sell_mappings,12,true,
+public.tenant_up_sell_mappings,6,true,
+_verify,0,true,"{'productos_mock': 0, 'productos_reales': 562, 'productos_con_foto': 89, 'clients': 0, 'pedidos': 0, 'items_pedido': 0, 'ia_tickets': 0, 'precios': 560, 'listas': 2}"

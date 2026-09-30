@@ -220,6 +220,22 @@ El conector genérico `custom_rest` no alcanza: solo acepta api_key, bearer est�
   "push_orders": false, "customer_onboarding_queue": true }
 ```
 
+## Lista operativa (2026-09-30)
+
+Promoción hecha en `implementacion/rawson/` (sin rama). Script: `scripts/promote_sistel_price_list.py`.
+
+| Paso | Resultado |
+|---|---|
+| Promote productos | 562 creados, 562 vectorizados, 0 errores |
+| Link lista | `listas_precios.id=6` · Lista Sistel · `erp_list_id=1` |
+| Sync precios | 560 en lista 6 (SKU `23144` = $8864.09) |
+| Reasignación | 50 clients + 50 PdV + 4 promos → lista 6 |
+| Borrado mock | listas 1–4 y 320 precios mock |
+| Default (id 5) | inactiva, no pública (no era mock) |
+| Productos mock | 80 ocultos (`en_catalogo=false`); no se purgaron |
+
+Catálogo visible: 562 SKUs Sistel. Purga de mock restante sigue gated a `PURGE MOCK rawson`.
+
 ## Referencias
 
 - Conectores existentes y patrón JWT: `backend-supabase/erp/connectors/cianbox.py`
