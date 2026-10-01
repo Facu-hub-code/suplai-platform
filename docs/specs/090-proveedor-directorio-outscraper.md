@@ -1,7 +1,7 @@
 # 090 — Proveedor de directorio: Outscraper, Google Places o scraper propio
 
-**Estado:** Borrador  
-**Fecha:** 2026-09-30  
+**Estado:** Implementado en ramas `feat/directorio-outscraper`. Falta aplicar la migración 140 y cargar `OUTSCRAPER_API_KEY`  
+**Fecha:** 2026-09-30 (implementación 2026-10-01)  
 **Repos:** `suplai-platform` (este doc), `backend-supabase`, `product-management-app`  
 **Ramas sugeridas:** `feat/directorio-outscraper`  
 **Serie:** Prospección outbound v2 (087 a 092). Se decide junto con [092](./092-directorio-compartido-suplai.md): el proveedor define qué datos podemos guardar.  
@@ -76,6 +76,25 @@ Con 40 tenants y una campaña de 1.000 a 3.000 comercios por mes cada uno, estam
 | Asíncrono | `async=true` con `webhook` hacia el backend. Si el webhook no llega, polling a `/requests/{id}` | Las consultas tardan minutos; no se puede tener el request del wizard abierto | `async=false` |
 | Precio | En `core.directory_provider`: `price_unit = place`, `price_usd = 0,003` | 083 asumía precio por request. Outscraper cobra por comercio | Precio fijo en código |
 
+### Decisiones de implementación (2026-10-01)
+
+| Decisión | Elección | Por qué | Alternativa descartada |
+|----------|----------|---------|------------------------|
+| Un pedido por celda | Cada celda es un `POST /google-maps-search` con todos los tipos como `query` y `coordinates = "lat,lng"` del centro | Outscraper acepta una sola coordenada por pedido. Así una zona de 12 celdas son 12 pedidos | Un pedido por celda y por tipo (más pedidos, mismo costo) |
+| Celdas | Grilla de 1 km sobre el rectángulo. Solo se piden las celdas cuyo cuadrado toca el polígono (`ST_Intersects` en PostGIS) | Sin dependencias nuevas (no H3 ni Shapely). Las celdas de afuera no se pagan | H3 |
+| `limit` por consulta | 100 (`organizationsPerQueryLimit`) | Un kiosco de barrio no tiene más de 100 iguales por km². Mantiene el tope de costo bajo | 400 o 500 |
+| Interfaz | `DirectoryProvider` (`submit`, `fetch`) en `services/directory_outscraper.py`, con `OutscraperProvider` y `FakeOutscraper` | El `PlaceDirectoryProvider` de 083 nunca llegó al código: Places se llama directo desde `calculate_white_zones` | Refactorizar Places detrás de la interfaz en este PR |
+| Resultados guardados en el job | Al terminar cada pedido, los comercios se copian a `core.directory_search_job.collected` | Outscraper guarda los resultados solo 2 horas. Además, los campos extra quedan para 092 | Volver a pedirlos a Outscraper |
+| Quién avanza el job | El polling del wizard (cada 4 s, `GET .../search/{job_id}`) y el webhook. El cierre es un `UPDATE … WHERE status = 'running'` | Sin worker nuevo. El que llega primero cierra y cobra una sola vez | Worker en el scheduler |
+| Webhook | `POST /directory/outscraper/webhook/{OUTSCRAPER_WEBHOOK_SECRET}`. Se manda solo si están el secreto y `PUBLIC_BACKEND_URL` | RNF-3. Sin secreto, alcanza con el polling | Firma HMAC (Outscraper no firma) |
+| Proveedor default | `core.directory_provider.is_default` (único). Override por tenant en `metadata.places_providers.default`, si el proveedor está `enabled` | Rollback de plataforma con un `UPDATE`, sin deploy | Default en código |
+| Sin key | Outscraper es default para todos ya. Sin `OUTSCRAPER_API_KEY`, la búsqueda devuelve 409 `DIRECTORY_PROVIDER_UNAVAILABLE` con mensaje accionable | Decisión del usuario. Igual que RF-6: no se cae a Places | Dejar Places como default hasta tener key |
+| Cantidad de resultados | Outscraper sin el tope de 40 de Places: hasta 2.000 prospectos por búsqueda | 2.000 es el máximo que valida 089. El copiloto de mapas y Places siguen con 40 | Mantener 40 |
+| Cobro | `places_cost` se suma al terminar: comercios devueltos × precio. Antes de buscar solo hay tope | Outscraper cobra por comercio devuelto, no por pedido | Cobrar el tope por adelantado |
+| Teléfono | Normalizado a E.164 con +54 en el parser (`normalize_phone_ar`) | CB-4. 089 valida E.164 | Normalizar en 089 |
+| Enriquecimientos | Ninguno en v1 | 089 ya valida WhatsApp; `phones_enricher` no hace falta | Prender `phones_enricher_service` |
+| Mapa de zonas blancas | Sigue con Places, sincrónico, sin cambios | Es otra pantalla y otro flujo; no hace falta tocarla en v1 | Pasarla a Outscraper |
+
 ---
 
 ## Alcance explícito
@@ -111,7 +130,7 @@ Con 40 tenants y una campaña de 1.000 a 3.000 comercios por mes cada uno, estam
 ## Requisitos no funcionales
 
 - `RNF-1` La API key de Outscraper vive en config de plataforma. Nunca en el front.
-- `RNF-2` Las consultas de un barrido van en lotes (hasta 1.000 por request de Outscraper).
+- `RNF-2` Las consultas de un barrido van en lotes: todos los tipos de una celda en un pedido (Outscraper acepta hasta 250 consultas, pero una sola coordenada por pedido).
 - `RNF-3` El webhook de Outscraper se valida con un secreto en la URL.
 - `RNF-4` Logs con `zone_id`, `provider_id`, celdas, consultas, devueltos, dentro del polígono y costo.
 
@@ -156,11 +175,15 @@ Con 40 tenants y una campaña de 1.000 a 3.000 comercios por mes cada uno, estam
 
 ## Migración de base de datos
 
-- `core.directory_provider`: `price_unit` text (`request` | `place`, default `request`). Seed de `outscraper_maps`: US$ 0,003 por comercio, `enabled = true`. `google_places` queda con `enabled = true` y no es default.
-- `core.directory_search_job`: `id`, `schema_name`, `zone_id`, `campaign_id`, `provider_id`, `provider_request_id`, `status`, `cells`, `queries`, `returned`, `inside_polygon`, `cost_usd`, `created_at`, `finished_at`.
+Archivo: `backend-supabase/sql/140_directory_outscraper.sql`. Solo toca `core`; no hay cambios por tenant.
+
+- `core.directory_provider`: columnas `price_unit` text (`request` | `place`, default `request`), `enabled` boolean (default `true`) e `is_default` boolean (default `false`), con índice único parcial para que haya un solo default. Seed de `outscraper_maps`: US$ 0,003 por comercio, `price_unit = place`, `enabled = true`, `is_default = true`. `google_places` queda `enabled = true` y `is_default = false`.
+- `core.directory_search_job`: `id`, `schema_name`, `zone_id`, `campaign_id`, `provider_id`, `provider_request_ids text[]`, `status` (`running` | `done` | `failed` | `timeout`), `cells`, `queries`, `query_limit`, `returned`, `inside_polygon`, `price_usd`, `cost_usd`, `collected jsonb`, `results jsonb`, `error`, `last_polled_at`, `webhook_at`, `created_at`, `finished_at`. Índices por `(schema_name, campaign_id, created_at)` y GIN en `provider_request_ids` para el webhook.
 - `{schema}.campaign_prospect`: sin columnas nuevas. `provider_id = outscraper_maps` y `provider_place_id` es el `place_id` de Google que devuelve Outscraper, que sirve para dedupe con los datos viejos.
 
-**Rollback:** poner `google_places` como default en config. No hay datos que revertir.
+**Orden:** aplicar la 140 antes del deploy del backend. Sin la 140, el backend nuevo falla al crear campañas (lee `enabled` e `is_default`).
+
+**Rollback:** `UPDATE core.directory_provider SET is_default = (provider_id = 'google_places')`. Las campañas nuevas vuelven a Places sin deploy. Las tablas nuevas se pueden dejar.
 
 ---
 
@@ -168,19 +191,25 @@ Con 40 tenants y una campaña de 1.000 a 3.000 comercios por mes cada uno, estam
 
 | # | Repo | Rama | Qué |
 |---|------|------|-----|
-| 1 | `suplai-platform` | `feat/prospeccion-outbound-v2` | Este spec y 092 |
-| 2 | `backend-supabase` | `feat/directorio-outscraper` | Provider, barrido, job, webhook, precio por comercio |
-| 3 | `product-management-app` | `feat/directorio-outscraper` | Progreso asíncrono y tope de costo en el wizard |
+| 1 | `backend-supabase` | `feat/directorio-outscraper` | Migración 140, provider, barrido, job, webhook, precio por comercio |
+| 2 | `product-management-app` | `feat/directorio-outscraper` | Progreso asíncrono, tope de costo, confirmación de zona grande, reintentar |
+| 3 | `suplai-platform` | `feat/directorio-outscraper` | Este spec |
 
-Conviene que 089 esté antes o en el mismo release: la lista que devuelve este spec pasa por la validación.
+Deploy: migración 140 → variables `OUTSCRAPER_API_KEY` y `OUTSCRAPER_WEBHOOK_SECRET` en Railway → backend → backoffice. 089 ya está en producción.
 
 ---
 
 ## Plan de prueba en CI/CD
 
-- **Backend:** partición de la zona en celdas con un polígono de fixture. Filtro `ST_Within`. Dedupe. Estimación con precio por comercio. Webhook con respuesta guardada de Outscraper. 402 no hace fallback.
-- **Backoffice:** `tsc --noEmit`.
-- Gap: Outscraper no se llama en CI.
+- **Backend** (`tests/test_directory_outscraper.py`, con `FakeOutscraper` y el store del job en memoria):
+  - grilla de una zona de 3 × 4 km da 12 celdas; parser de la respuesta guardada de Outscraper; normalización de teléfonos;
+  - dedupe y exclusión de cerrados; tope de AC-2 (US$ 10,80) sin llamar al proveedor;
+  - flujo completo: polígono, clientes actuales, opt-out, costo real cobrado una vez;
+  - 402 y falta de key dan `DIRECTORY_PROVIDER_UNAVAILABLE` sin fallback; zona de más de 200 celdas pide confirmación; timeout; doble cierre no cobra dos veces;
+  - secreto y URL del webhook; elección del proveedor (plataforma, override del tenant, proveedor apagado); campaña Outscraper no llama a Places.
+- Suite completa: 1805 passed; la única falla es previa (`test_admin_lab_endpoints`).
+- **Backoffice:** `tsc --noEmit` sin errores nuevos (91 previos).
+- Gap: Outscraper real, el SQL de celdas (`ST_Intersects`) y el filtro por polígono no corren en CI. Se cubren en la prueba humana.
 
 ## Plan de prueba humana (antes del PR)
 
@@ -192,9 +221,12 @@ Conviene que 089 esté antes o en el mismo release: la lista que devuelve este s
 4. Cruzar por `place_id`: cuántos trae uno y no el otro, y cuántos teléfonos coinciden.
 5. Si Outscraper no trae al menos el doble con teléfono, o si el costo por comercio con teléfono no baja, parar y revisar la decisión.
 
-**Después de implementar:** backend `8000`, backoffice `3000` (`BACKEND_URL=http://localhost:8000`), tenant `demo` con zona.
+**Después de implementar:** migración 140 aplicada, backend `8000` con `OUTSCRAPER_API_KEY` (cuenta gratuita alcanza para una zona chica), backoffice `3000` (`BACKEND_URL=http://localhost:8000`), tenant `demo` con una zona de barrio. En local no hay webhook (Outscraper no llega a localhost): avanza el polling.
 
-1. Wizard outbound: ver el tope de costo antes de buscar.
-2. Buscar: ver el progreso y la lista al terminar.
-3. Confirmar que no hay comercios fuera del polígono ni clientes actuales.
-4. Ver el costo real en el panel de la campaña.
+1. Sin key: el wizard, al confirmar la búsqueda, dice que falta la API key de Outscraper y no busca con Places.
+2. Con key: en el paso 2 se ve «hasta US$ X» con celdas y consultas. En la base, no hay pedidos a Outscraper todavía.
+3. Confirmar búsqueda: se ve «Buscando comercios en N celdas… k de N listas» y al terminar la lista, con «Costo real» menor o igual al tope.
+4. Abrir los comercios en el mapa: ninguno fuera del polígono, ninguno que ya sea cliente.
+5. `core.directory_search_job` del job: `status = done`, `returned`, `inside_polygon`, `cost_usd`; y `campaign_cost_daily.places_cost` sumó ese costo una sola vez.
+6. Zona grande (más de 200 celdas): el botón queda deshabilitado hasta tildar la confirmación.
+7. Rollback: `UPDATE core.directory_provider SET is_default = (provider_id = 'google_places')` y una campaña nueva vuelve a buscar con Places.
