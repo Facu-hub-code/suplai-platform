@@ -1,6 +1,6 @@
 # 089 — Validar el WhatsApp antes del primer envío
 
-**Estado:** Borrador  
+**Estado:** Implementado (falta la API key de checknumber y aplicar la migración 139)  
 **Fecha:** 2026-09-30  
 **Repos:** `suplai-platform` (este doc), `backend-supabase`, `product-management-app`  
 **Ramas sugeridas:** `feat/validacion-whatsapp-previa`  
@@ -52,13 +52,20 @@ Fuente: sitio y documentación pública, septiembre 2026. Hay que confirmarlo co
 
 | Decisión | Elección | Por qué | Alternativa descartada |
 |----------|----------|---------|------------------------|
-| Interfaz | `PhoneValidationProvider` con `validate_batch(phones) -> results`. v1 implementa `checknumber` | Mismo criterio que el directorio en 083: el precio y la disponibilidad de un proveedor no oficial pueden cambiar | Llamar a checknumber desde el servicio de campaña |
+| Interfaz | `PhoneValidationProvider` con `submit(phones) -> task_id` y `poll(task_id) -> estado + resultados + costo` (`services/whatsapp_check_provider.py`). v1 implementa `CheckNumberProvider` y un `FakeProvider` para tests | Mismo criterio que el directorio en 083: el precio y la disponibilidad de un proveedor no oficial pueden cambiar. Partir en submit y poll calza con la API asíncrona de checknumber | Un `validate_batch` bloqueante; llamar a checknumber desde el servicio de campaña |
+| Avance del job | Sin tarea en background: cada `GET .../validate-phones/{job_id}` del wizard avanza el job un paso (como mucho un poll al proveedor cada 3 s, tomado con un `UPDATE` condicional). Tope de 10 min, después `timeout` | Sobrevive a reinicios y a varios workers del backend sin cola externa. El `UPDATE` condicional evita que dos GET simultáneos cobren dos veces | `asyncio.create_task` en el proceso; una cola tipo Celery |
+| Teléfono válido | Solo E.164: el texto del directorio empieza con `+` y tiene entre 8 y 15 dígitos. La clave de caché son los dígitos | Google Places da `internationalPhoneNumber` con `+`. Sin prefijo no sabemos el país y adivinarlo manda números ajenos al proveedor | Asumir `+54` cuando falta el prefijo |
+| Costo del lote | `actual_amount` que devuelve el proveedor; si no viene, precio de `core.phone_validation_provider` × teléfonos enviados | El proveedor cobra solo los chequeos exitosos: el monto real es el correcto. El precio de config cubre el caso en que no lo informe | Siempre precio × cantidad |
+| Formato del resultado | El parser acepta zip, xlsx o csv y las variantes de columna (`activated`/`whatsapp`, `business`/`whatsapp_business`, `activedays`/`whatsapp_days`) | La doc de checknumber avisa que el schema del export puede cambiar | Atarse a un único formato |
+| Cola del primer mensaje | Job diario `outbound_queue` (10:00 hora AR) que manda los `queued` dentro del cupo de 087, revalidando antes los vencidos. Un `no` pasa a `skipped_no_whatsapp` y no gasta cupo. Sin proveedor no manda nada | En 083 `publish` dejaba prospectos en `queued` pero nada los mandaba. Es el único lugar donde un resultado puede vencer con el prospecto esperando | Revalidar dentro de `publish` (un HTTP del wizard esperando hasta 10 min) |
+| Desacuerdo con Meta (CB-4) | Se deriva: `campaign_prospect.whatsapp_check = 'yes'` y el cliente quedó `no_existente`. Se muestra como KPI `whatsapp_desacuerdos` en el panel | Ya están los dos datos. No hace falta tocar el webhook del agente ni sumar una tabla de eventos | Un evento nuevo desde el webhook `131026` |
+| Flag de rollback | Env `PHONE_VALIDATION_BYPASS=true` en el backend vuelve al flujo de 083: se puede tildar y publicar sin validar | El spec pide que sin proveedor no se publique, salvo un flag explícito de plataforma | Bypass automático si falta la key |
 | Momento | Después de la búsqueda en el directorio y antes de que la lista se pueda tildar | El operador tiene que ver cuántos comercios son contactables de verdad antes de publicar. Validar recién al enviar esconde el número real | Validar al publicar; validar en el momento del envío de cada HSM |
 | Tipo de tarea | `ws_active` | Trae si es Business y la actividad por muy poca diferencia de precio | `ws` pelado; `ws_avatar` |
 | Sin resultado | Un teléfono sin resultado del proveedor no se puede tildar | La regla del usuario: no se envía sin corroborar el número | Dejarlo tildar con un aviso |
 | Caché | Resultado guardado con fecha. Vigencia 90 días para `sí` y 30 días para `no` | Un número con WhatsApp suele seguir teniéndolo. Un `no` puede pasar a `sí` si el comercio instala WhatsApp Business | Validar siempre; guardar para siempre |
-| Dónde se guarda | En el directorio compartido de 092 (`core.places`) cuando existe; mientras tanto, en `campaign_prospect` y en `clients` | El resultado depende del teléfono, no del tenant. Validar el mismo número para dos distribuidoras es pagar dos veces | Solo por tenant |
-| Relación con 070 | La validación escribe `whatsapp_estado = existente` o `no_existente` con `whatsapp_existencia_verificada_at` y fuente `checknumber`. El webhook sigue pudiendo cambiarlo | Un solo estado de WhatsApp por cliente, el mismo que ya lee el resto del producto | Un estado paralelo solo para prospectos |
+| Dónde se guarda | Caché `core.phone_whatsapp_check`, una fila por teléfono, compartida entre tenants. Se copia a `campaign_prospect` (columnas `whatsapp_*`) y a `clients`. Cuando exista 092, `core.places` la absorbe | El resultado depende del teléfono, no del tenant. Validar el mismo número para dos distribuidoras es pagar dos veces. 092 todavía no existe | Solo por tenant; esperar a 092 |
+| Relación con 070 | La validación escribe `whatsapp_estado = existente` o `no_existente` con `whatsapp_existencia_verificada_at`. **No** pisa `validado` (lo dijo una persona; queda un log `whatsapp_check_conflicto_validado`) ni un `no_existente` cuando el proveedor dice `sí` (ese vino de Meta, gana Meta). La fuente queda en `core.phone_whatsapp_check.provider_id` | Un solo estado de WhatsApp por cliente, el mismo que ya lee el resto del producto. Sin columna nueva en `clients`, no hay que recrear `v_cartera` / `v_prospectos` (regla de 088) | Un estado paralelo solo para prospectos; una columna `whatsapp_existencia_fuente` |
 | Business vs personal | Se muestra en la lista y sirve de filtro. No bloquea | Hay kioscos que usan el WhatsApp personal. Bloquearlos deja afuera clientes reales | Validar solo cuentas Business |
 | Costo | Columna `validation_cost` en `campaign_cost_daily` | El costo por cliente nuevo de 083 tiene que incluir todo lo que se gasta | Absorberlo sin mostrarlo |
 
@@ -72,9 +79,11 @@ Fuente: sitio y documentación pública, septiembre 2026. Hay que confirmarlo co
 - Paso de validación en la búsqueda del wizard de 083, con progreso («Validando WhatsApp de 312 comercios…»).
 - Columna en la lista del wizard: WhatsApp (sí, no, sin validar) y Business (sí o no).
 - Filtro «Solo WhatsApp Business».
-- Caché con vigencia y lectura desde `core.places` si 092 ya existe.
-- Costo de validación en la campaña.
-- Revalidar antes de enviar si el resultado venció mientras el prospecto estaba en la cola.
+- Caché con vigencia en `core.phone_whatsapp_check`.
+- Costo de validación en la campaña (panel, inversión del funnel y costo por cliente nuevo).
+- Job diario que manda la cola dentro del cupo y revalida antes los vencidos.
+- KPI de desacuerdo entre el proveedor y Meta en el panel de la zona.
+- Corrección de 083: el opt-out y el `customer_id` del prospecto se comparan por dígitos (antes comparaban `+34 96 …` contra dígitos y nunca coincidían).
 
 ### Fuera de alcance
 
@@ -82,6 +91,8 @@ Fuente: sitio y documentación pública, septiembre 2026. Hay que confirmarlo co
 - Validar teléfonos que un comercio pasa en el chat (el decisor de 084). Ese número ya vino de una persona, y el HSM del decisor es uno solo.
 - Un segundo proveedor implementado. La interfaz queda lista.
 - Datos de edad, género o foto.
+- Escribir en `core.places` (llega con 092).
+- Teléfonos sin prefijo `+`: figuran «Teléfono inválido». Si 090 trae números nacionales, hay que normalizarlos ahí con el país de la zona.
 
 ---
 
@@ -103,20 +114,20 @@ Si el lote no termina en 10 minutos, los que no tienen resultado quedan «sin va
 
 ## Requisitos funcionales
 
-- `RF-1` `POST /{schema}/campanas-outbound/{id}/validate-phones` arranca la validación del resultado de búsqueda y devuelve un `job_id`. `GET .../validate-phones/{job_id}` devuelve progreso y resultados.
+- `RF-1` `POST /{schema}/outbound-campaigns/{id}/validate-phones` con `{"phones": [...]}` (los teléfonos del resultado de búsqueda, hasta 2.000) arranca la validación y devuelve `job_id`, `status`, `invalid` y `results` por teléfono en dígitos. `GET .../validate-phones/{job_id}` avanza el job y devuelve lo mismo. Se usa la ruta `outbound-campaigns` de 083, no `campanas-outbound`.
 - `RF-2` Antes de llamar al proveedor, se descartan los teléfonos con resultado vigente en caché.
-- `RF-3` Un prospecto sin `whatsapp = sí` vigente no se puede tildar ni entrar a la cola.
-- `RF-4` Al publicar, si un resultado venció, se revalida ese teléfono antes del HSM. Si da `no`, sale de la cola.
-- `RF-5` El resultado actualiza `whatsapp_estado` y `whatsapp_existencia_verificada_at` del cliente prospecto, con fuente `checknumber`. Nunca pisa `validado` (regla de 070).
+- `RF-3` Un prospecto sin `whatsapp = sí` vigente no se puede tildar ni entrar a la cola. `publish` lo rechaza también del lado del servidor: `409 PHONE_NOT_VALIDATED` si falta o venció el resultado, `409 NO_WHATSAPP` si dio `no`.
+- `RF-4` Si un resultado vence con el prospecto en la cola, el job de cola lo revalida antes del HSM. Si da `no`, sale de la cola (`skipped_no_whatsapp`). Si el proveedor no responde, ese día no sale nada de la cola. En `publish` un resultado vencido no se revalida en línea: devuelve `PHONE_NOT_VALIDATED` y el wizard vuelve a validar.
+- `RF-5` El resultado actualiza `whatsapp_estado` y `whatsapp_existencia_verificada_at` del cliente con ese teléfono. Nunca pisa `validado` (regla de 070) ni un `no_existente` cuando el proveedor dice `sí`.
 - `RF-6` El costo del lote se suma a `campaign_cost_daily.validation_cost` con el precio vigente del proveedor.
 - `RF-7` Proveedor caído o sin saldo: error accionable en el wizard («No pudimos validar los números. No se va a enviar nada hasta validar.»). No se publica.
 
 ## Requisitos no funcionales
 
-- `RNF-1` La API key vive en config de plataforma, no en el front ni en el tenant.
+- `RNF-1` La API key vive en la env var `CHECKNUMBER_API_KEY` del backend, no en el front ni en el tenant.
 - `RNF-2` Un lote por búsqueda, no un request por teléfono.
 - `RNF-3` Logs con `campaign_id`, cantidad y resultado agregado. Sin teléfonos.
-- `RNF-4` El precio del proveedor sale de `core.directory_provider` (o una tabla hermana), editable sin deploy.
+- `RNF-4` El precio del proveedor sale de `core.phone_validation_provider`, editable sin deploy.
 
 ---
 
@@ -159,22 +170,29 @@ Si el lote no termina en 10 minutos, los que no tienen resultado quedan «sin va
 - `CB-1` Teléfono fijo sin WhatsApp: el proveedor dice `no`. Se muestra «Fijo o sin WhatsApp».
 - `CB-2` Teléfono mal formado en el directorio: no se manda al proveedor, figura «Teléfono inválido».
 - `CB-3` Lote a medio terminar: los que ya tienen resultado se guardan, el resto queda «sin validar».
-- `CB-4` El proveedor dice `sí` y Meta después devuelve `131026`: gana Meta (070 lo marca `no_existente`) y se registra el desacuerdo para medir la precisión del proveedor.
+- `CB-4` El proveedor dice `sí` y Meta después devuelve `131026`: gana Meta (070 lo marca `no_existente`, la validación no lo vuelve a `existente`) y el desacuerdo se cuenta en el KPI `whatsapp_desacuerdos` del panel para medir la precisión del proveedor.
+- `CB-5` El proveedor rechaza el lote con 400 por «muy pocos números válidos»: el wizard muestra el error accionable. Hay que confirmar el mínimo con la cuenta de prueba.
 
 ---
 
 ## Migración de base de datos
 
-- `{schema}.campaign_prospect`: `whatsapp_check` text (`yes` | `no` | `unknown`), `whatsapp_business` boolean null, `whatsapp_active_days` int null, `whatsapp_checked_at` timestamptz, `whatsapp_check_provider` text.
+Archivo: `backend-supabase/sql/139_phone_validation.sql`.
+
+- `core.phone_validation_provider`: `provider_id` PK, `task_type`, `price_per_check_usd`, `currency`, `enabled`, `source_url`, `effective_on`. Seed `checknumber`, US$ 0,00018, `ws_active`.
+- `core.phone_whatsapp_check`: `phone` PK (E.164 en dígitos), `has_whatsapp`, `is_business`, `active_days`, `provider_id`, `checked_at`. Es la caché compartida.
+- `core.phone_validation_job`: `id`, `schema_name`, `campaign_id`, `provider_id`, `provider_task_id`, `status` (`running` | `done` | `failed` | `timeout`), `phones`, `submitted_phones`, `invalid_phones`, `total`, `cached`, `done`, `cost_usd`, `error`, `last_polled_at`, `created_at`, `finished_at`.
+- `{schema}.campaign_prospect` (loop por tenant activo): `whatsapp_check` text con check (`yes` | `no` | `unknown`), `whatsapp_business` boolean, `whatsapp_active_days` int, `whatsapp_checked_at` timestamptz, `whatsapp_check_provider` text. Índice `(send_status, queued_for)` para la cola.
 - `{schema}.campaign_cost_daily`: `validation_cost numeric NOT NULL DEFAULT 0`.
-- `core.phone_validation_provider`: `id`, `price_per_check_usd`, `task_type`, `enabled`. Seed `checknumber`, US$ 0,00018, `ws_active`.
-- `core.phone_validation_job`: `id`, `schema_name`, `campaign_id`, `provider_id`, `provider_task_id`, `status`, `total`, `done`, `created_at`, `finished_at`.
-- `clients.whatsapp_validado_por` o la fuente de existencia: sumar el valor `checknumber` al enum o check si lo tiene.
-- Cuando exista 092, el resultado se escribe también en `core.places`.
+- `send_status` suma los valores `skipped_no_whatsapp`, `skipped_invalid_phone` y `opt_out` (la columna es text sin check).
+- `clients`: sin cambios de schema. No hay que recrear las vistas de 088.
+- Tenants nuevos: `provision_schema_from_template` copia `campaign_prospect` y `campaign_cost_daily` de `gonzales` con `LIKE … INCLUDING ALL`, que la migración ya cubre.
 
 **Backfill:** ninguno. Los prospectos ya enviados tienen el resultado real de Meta.
 
-**Rollback:** apagar el provider (`enabled = false`) vuelve al flujo de 083 **solo** con un flag explícito de plataforma; sin flag, sin proveedor no se publica.
+**Orden:** aplicar 139 antes de deployar el backend. El job de cola solo corre en schemas que ya tienen `campaign_prospect.whatsapp_check`.
+
+**Rollback:** apagar el provider (`enabled = false`) o no tener `CHECKNUMBER_API_KEY` vuelve al flujo de 083 **solo** con `PHONE_VALIDATION_BYPASS=true`; sin flag, sin proveedor no se publica. Ojo: al deployar el backend sin key ni flag, el outbound queda frenado. Las tablas y columnas nuevas se pueden dejar; no las lee nadie más.
 
 ---
 
@@ -182,9 +200,11 @@ Si el lote no termina en 10 minutos, los que no tienen resultado quedan «sin va
 
 | # | Repo | Rama | Qué |
 |---|------|------|-----|
-| 1 | `suplai-platform` | `feat/prospeccion-outbound-v2` | Este spec |
-| 2 | `backend-supabase` | `feat/validacion-whatsapp-previa` | Migración, provider, job, caché, revalidación en la cola |
-| 3 | `product-management-app` | `feat/validacion-whatsapp-previa` | Progreso, columnas y filtro en el wizard outbound |
+| 1 | `suplai-platform` | `feat/validacion-whatsapp-previa` | Este spec |
+| 2 | `backend-supabase` | `feat/validacion-whatsapp-previa` | Migración 139, provider, job, caché, gate en `publish`, job de cola, costo y KPI en el panel |
+| 3 | `product-management-app` | `feat/validacion-whatsapp-previa` | Progreso, columnas y filtro en el wizard outbound; costo y desacuerdos en el panel. Usa el proxy genérico `app/api/outbound/[...path]`, sin rutas nuevas |
+
+Antes del deploy del backend: aplicar 139 y cargar `CHECKNUMBER_API_KEY` en Railway (o `PHONE_VALIDATION_BYPASS=true` mientras no esté la key).
 
 No depende de 087, pero conviene mergear 087 antes: juntos son los dos resguardos del número.
 
@@ -192,9 +212,16 @@ No depende de 087, pero conviene mergear 087 antes: juntos son los dos resguardo
 
 ## Plan de prueba en CI/CD
 
-- **Backend:** provider fake (lote de 5, 2 `no`). Caché vigente evita la llamada. Vencido revalida. 500 del proveedor bloquea la publicación. `validado` no se pisa. Costo sumado con el precio de config.
-- **Backoffice:** `tsc --noEmit`. Filas `no` y `unknown` no tildables.
-- Gap: checknumber no se llama en CI.
+- **Backend** (`tests/test_whatsapp_check.py`, `tests/test_campana_outbound_whatsapp_gate.py`, 28 tests):
+  - Parser: csv, zip con csv, xlsx, zip con xlsx y variantes de columna.
+  - Fake provider: lote de 5 con 2 `no`; caché vigente evita la llamada; vencidos (91 días `sí`, 31 días `no`) revalidan; teléfono sin `+` sale como inválido.
+  - Errores: 500 del proveedor da `409 PHONE_VALIDATION_UNAVAILABLE` sin job ni costo; falla a mitad del job queda `failed` sin costo; sin proveedor bloquea; con bypass pasa; timeout a los 10 min.
+  - Costo: `actual_amount` gana sobre el precio de config.
+  - `publish` rechaza sin validar, sin WhatsApp y opt-out por dígitos.
+  - Cola: un `no` sale sin gastar cupo, un sin validar queda en cola, proveedor caído no manda nada, guard bloqueado no manda nada.
+  - El SQL de `clients` no pisa `validado` ni `no_existente`.
+- **Backoffice:** `tsc --noEmit` sin errores nuevos (los 91 previos siguen).
+- Gap: checknumber no se llama en CI y la migración no tiene smoke automático.
 
 ## Plan de prueba humana (antes del PR)
 
@@ -204,5 +231,8 @@ No depende de 087, pero conviene mergear 087 antes: juntos son los dos resguardo
 2. Medir la latencia de un lote de 300.
 3. En el wizard, buscar en una zona. Ver el progreso de validación y las columnas WhatsApp y Business.
 4. Intentar tildar un «Sin WhatsApp»: no se puede.
-5. Repetir la búsqueda: no se vuelve a cobrar la validación.
-6. Poner una API key inválida: el wizard muestra el error y no deja publicar.
+5. Repetir la búsqueda: no se vuelve a cobrar la validación (`validation_cost` no sube en `campaign_cost_daily`).
+6. Poner una API key inválida: el wizard muestra el error, el botón «Reintentar validación» y no deja publicar.
+7. Sin `CHECKNUMBER_API_KEY` y con `PHONE_VALIDATION_BYPASS=true`: el wizard avisa «Validación apagada por plataforma» y deja tildar como en 083.
+8. Publicar más que el cupo del día: el panel muestra «N en cola». Correr a mano `run_outbound_queue_job()` y ver que manda solo dentro del cupo y que un `no` queda `skipped_no_whatsapp`.
+9. En `core.phone_whatsapp_check` hay una fila por teléfono validado y en `demo.clients` los prospectos nuevos quedan `existente` o `no_existente`, nunca pisando un `validado`.
