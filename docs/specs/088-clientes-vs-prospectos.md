@@ -112,8 +112,8 @@ En la franja de la tabla: `Clientes (81) | Prospectos (169)` (valores de `demo` 
 | Etapa del chat | `campaign_prospect.chat_stage` (084) |
 | Decisor | nombre y rol (084) |
 | WhatsApp | `whatsapp_estado` y si es Business (089) |
-| Encaje con el ICP | `icp_fit` (091) |
-| Primer mensaje | `template_sent_at` |
+| Encaje con el ICP | `campaign_prospect.icp_fit` (091) |
+| Primer mensaje | Cuerpo interpolado (`rendered_body`) + `template_sent_at` + fuente del saludo (`greeting_name_source`) (091). Si no hay cuerpo guardado, solo la fecha. |
 
 Filtros: campaña, zona, etapa, encaje, «respondieron», «necesitan a alguien».
 

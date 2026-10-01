@@ -241,7 +241,9 @@ Sin texto, o sin al menos un tipo, no hay búsqueda.
 - Origen único: la app de Plantillas (`public.meta_plantillas` del tenant).
 - El wizard solo selecciona. Persiste `template_variant.meta_plantilla_id` (UUID local) y el nombre de Meta.
 - Publicar exige la variante A en `APPROVED`. B, si está, también. Una plantilla que pasa a otro estado después de publicar no recibe envíos nuevos; los ya aceptados siguen en el funnel.
-- Variables: el backend solo llena las que ya sabe (`distribuidora`, y si la plantilla la pide, nombre del comercio). Si la plantilla tiene otra cantidad de variables, no se puede elegir. No se manda texto libre.
+- Variables: el backend solo llena las que ya sabe. Marca e ICP como hasta ahora. Un slot `nombre` / `nombre_de_pila` / `nombre_contacto` es **persona** (091): solo si el clasificador pasa. Si A o B tienen ese slot, el wizard **avisa** (no bloquea) y sugiere una plantilla reserva sin él. Sin reserva, el slot se llena con la marca. No se manda el nombre de Places como si fuera una persona. No se manda texto libre generado.
+- Publicar: un solo `POST` con todos los tildados. Graph sigue siendo un mensaje por teléfono.
+- Al aceptar Meta se guardan plantilla, params y cuerpo interpolado en `campaign_prospect` (091).
 - Asignación A/B: hash estable de `campaign_id + teléfono`, 50/50. No es `random()` por request.
 
 ---
