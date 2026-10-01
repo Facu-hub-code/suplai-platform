@@ -1,0 +1,3 @@
+# Dumps crudos de la API (pueden ser grandes). El token no se guarda acá.
+*.json
+_detalle_page.json

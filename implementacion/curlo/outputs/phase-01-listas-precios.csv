@@ -1,1 +1,4 @@
-lista_precios_id,nombre,multiplicador_sobre_lista_1,product_code,precio_unidad,is_mock
+lista_precios_id,nombre,activa,es_publica,is_mock,erp_list_id,filas_precio
+1,Lista 1,true,true,false,1,928
+2,Lista 2,true,true,false,2,315
+3,Lista 3,true,true,false,3,246

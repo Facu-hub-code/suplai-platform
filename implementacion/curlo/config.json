@@ -2,5 +2,9 @@
   "fase_07": {
     "fecha_base": "2026-08-10",
     "clientes_live_feed": 12
-  }
+  },
+  "dominios": "curlomayorista.com.ar",
+  "sufijo_fallback": "insumo heladeria reposteria cucurucho envase argentina",
+  "modo_contexto": "reducido",
+  "instrucciones_extra": "REGLAS CURLO (mayorista heladería/repostería Cipolletti). FUENTE DE VERDAD = ERP:\n1. El nombre, marca, categoría, subcategoría, SKU y formato los da el ERP. No los contradigas ni inventes otra marca.\n2. TIPO al inicio: cucurucho, vaso, envase, balde, barquillo, cobertura, pasta, grana, pulpa, salsa, base, bandeja, pirotín, chocolate, accesorio, etc. según el nombre ERP.\n3. Incluí marca ERP si viene. Si el ERP dice ALTA ROTACION u otra línea, usala; no la reemplaces por una marca famosa.\n4. Formato solo si está en el nombre ERP (kg, g, litros, x N unidades). No inventes peso ni unidades.\n5. PROHIBIDO: precios, stock, 'ideal', 'delicioso', claims de venta, orígenes o certificaciones que no estén en el ERP.\n6. ALIAS: nombre corto, SKU, marca, sinónimos locales (cono, cucurucho, vaso, bulto, caja, unidad). Nada de choclo."
 }

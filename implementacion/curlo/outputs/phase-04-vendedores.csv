@@ -1,4 +1,7 @@
-nombre,telefono,email,zona,codigo_ruta,is_mock
-Martín Herrera,5493519620594,martin.herrera@suplaisales.mock,NORTE,R01,true
-Valeria Díaz,5493874588077,valeria.diaz@suplaisales.mock,SUR,R02,true
-Pablo Romero,5493418906003,pablo.romero@suplaisales.mock,CENTRO-ESTE,R03,true
+vendedor_codigo,nombre,telefono,email,activo,is_mock,clientes_12m
+12,MELLADO FACUNDO,,,true,false,445
+4,ALEGRIA ESTEBAN,,,true,false,94
+11,PATRICIA CURLO,,,true,false,16
+15,ARIAS MACARENA,,,true,false,7
+16,AGUILERA MOLINA LUCAS JD,,,true,false,4
+100001,GUTIERREZ VERONICA INES,,,true,false,4

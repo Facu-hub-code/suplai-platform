@@ -1,0 +1,393 @@
+pedido_ref,cliente_phone,cliente_codigo,product_code,nombre,cantidad_solicitada,precio_unitario,lista_precios_id,notas,is_mock,es_pedido_abierto,promo_aplicada
+P-00001,5493587905250,25001,2502,GRANA MIX CIRCULO AMARILLO-AZUL X 1 KG,4,7353.03,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00001,5493587905250,25001,2919,DROPS MIX OJITOS X 30 GR,2,1923.90,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00001,5493587905250,25001,1191,HUESITOS FRUTALES X 1 KG,2,5911.02,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00001,5493587905250,25001,1708,AZUCAR IMPALPABLE EXTRA X 5 KG,3,13049.85,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00002,5493587905250,25001,1179,CRISPIN DE ARROZ MIXTO X KG,4,13099.75,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00003,5493587905250,25001,2865,GRANIZADO SUPERLAY 56-43 X 10 KG,3,144228.12,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00004,5493582641213,25002,2698,VELA SET DONAS X 5 PIEZAS,5,2965.71,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00004,5493582641213,25002,2896,MICKY PASTA UNTABLE FRUTILLA X CAJA 6U 450 GRS,4,23871.88,3,Pedido: 4 unidad (normalizado: 24 unidad; equiv: 4 unidad),true,false,false
+P-00004,5493582641213,25002,2163,PASTA MARACUYA X 5 KG,4,90338.49,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00004,5493582641213,25002,1438,PASTA CREMA CELESTE X 1 KG,5,10357.75,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00005,5493582641213,25002,2510,VELA LARGA ROSA LUNARES RAYA/ PLATA X 10 UNI,2,2455.98,3,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00005,5493582641213,25002,2260,SALSA JAMER P/ HELADOS X 500 GRS CHOCOLATE,5,5430.82,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00006,5493582641213,25002,2828,VASO CAFE 8 OZ DOBLE PARED KRAFT X 360 U C/TAPA,1,89380.39,3,Pedido: 1 unidad (normalizado: 360 unidad; equiv: 1 unidad),true,false,false
+P-00007,5492991227644,25003,1452,PASTA MERENGUE X 1 KG,5,13086.83,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00007,5492991227644,25003,2102,PASTA ANANA BALDE,2,51639.12,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00008,5492991227644,25003,2676,MINI CUCURUCHON BIOCUPS X 240 UNI,4,49778.71,4,Pedido: 4 unidad (normalizado: 960 unidad; equiv: 4 unidad),true,false,false
+P-00008,5492991227644,25003,2032,ESENCIA DE LIMON FLEIBOR X 30 CC.,2,1607.78,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00008,5492991227644,25003,2296,COLORANTE PASTA ROSA C X 15 GR,4,2216.60,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00008,5492991227644,25003,2526,VELA GIBRE CELESTE Nº 7,3,1124.08,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00009,5492991227644,25003,1256,MICKY PASTA UNTABLE CHOCOLATE X 450 GRS,4,7646.64,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00009,5492991227644,25003,1767,SERVILLETERO ACERO INOXIDABLE X UNIDAD,5,9183.90,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00009,5492991227644,25003,2316,COCO RALLADO ALZOL X 1 KG ROSA,4,15680.88,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00010,5493418277249,25004,1440,PASTA BANANITA HELADA X 1 KG,2,12427.01,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00010,5493418277249,25004,2507,GRANA STICK MIX BLCO ROJO X 900 GRS,2,7353.03,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00011,5493418277249,25004,2301,COLORANTE PASTA AZUL T X 15 GR,1,2128.38,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00011,5493418277249,25004,2330,PASTA BALLINA COLOR AZUL X 500 GR,4,4525.14,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00011,5493418277249,25004,2735,PIROTINES Nº10 COLORES FLUO X 200 UNI,4,24723.85,1,Pedido: 4 unidad (normalizado: 800 unidad; equiv: 4 unidad),true,false,false
+P-00012,5493418277249,25004,2317,COCO RALLADO ALZOL X 1 KG CELESTE,4,15680.88,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00012,5493418277249,25004,1991,CUCHARITA EUROPEA X KG,2,10968.05,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00012,5493418277249,25004,2569,COCO RALLADO HIGH FAT X 1 KG SIN TACC,5,22144.51,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00012,5493418277249,25004,1210,BOMBONITO CLASICO SEMI AMARGO X 3 KG,1,38931.52,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00013,5493587747641,25005,2685,GRANA MIX CORAZON SMILE BLANCO-CELESTE-ROSA X 1 KG,1,7353.03,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00014,5493587747641,25005,2712,ESENCIA DE BANANA EN POLVO X 28 G.,5,3704.33,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00015,5493587747641,25005,2353,LIPOSOLUBLE EN POLVO VERDE X 5 GRS,3,2063.42,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00015,5493587747641,25005,2723,DISCO PASTEL DE 26 CM X10 UNI,5,7490.61,2,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00015,5493587747641,25005,2961,FLEIGEL AZUL X 15 GR,3,1851.30,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00016,5492614053074,25006,2213,SERVILLETAS ZIG ZAG P/HEL. X 10.000 UDS 9 DE JULIO,2,45112.15,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00016,5492614053074,25006,1533,PASTA MENTA VERDE X 5 KG,5,77749.61,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00016,5492614053074,25006,2759,POTE POLIPAPEL DE 240 CC X 300 U DISEñO GENERICO,5,55757.45,3,Pedido: 5 unidad (normalizado: 1500 unidad; equiv: 5 unidad),true,false,false
+P-00017,5492614053074,25006,2471,GRANA COLOR ROJA X 1 KG,2,4132.60,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00018,5492614053074,25006,2645,MAPSACUBER CELESTE X 1 KG,2,14019.43,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00019,5493514079279,25007,1189,LENTEJAS DE CHOCOLATE SURTIDAS X 1 KG,1,15862.01,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00019,5493514079279,25007,2600,POLVO PARA HELADOS SOFT JAMER X 9 KG YOGURT FRUTILLA,2,95311.57,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00019,5493514079279,25007,2799,VELA FINITA GIBRE CELESTE X 12 UNIDADES,2,3609.58,4,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00020,5493514079279,25007,2224,GOTA/DROPS BLANCA REPOSTERA X 3 KG,3,29719.04,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00020,5493514079279,25007,2614,GRANA FLOR MULTICOLOR X 1 KG,4,6684.57,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00021,5493514079279,25007,2939,GELATINA SABOR FRUTILLA X 1KG,2,11234.85,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00021,5493514079279,25007,2798,VELA FINITA GIBRE BLANCA X 12 UNIDADES,5,3609.58,4,Pedido: 5 unidad (normalizado: 60 unidad; equiv: 5 unidad),true,false,false
+P-00022,5493876914178,25008,2421,VASO PARA BATIDO TOLEDO 325 CC C/ TAPA X 80U,5,51350.12,1,Pedido: 5 unidad (normalizado: 400 unidad; equiv: 5 unidad),true,false,false
+P-00022,5493876914178,25008,2767,CUCURUCHON GLUTEN FREE X 100 U,4,50067.38,1,Pedido: 4 unidad (normalizado: 400 unidad; equiv: 4 unidad),true,false,false
+P-00022,5493876914178,25008,2803,GRANA MIX CORAZON AMARILLO-AZUL X 1 KG,1,7353.03,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00023,5493876914178,25008,2177,PASTA NARANJA X BALDE,5,67220.81,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00023,5493876914178,25008,2651,TAPA CRISTAL P/POTE 390 CC CAJA X 580,2,54246.05,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00024,5493876914178,25008,1302,CHOCOLATE MOUSSE P/HELADOS X 5 KG,4,290304.44,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00024,5493876914178,25008,2733,PIROTINES Nº10 SURTIDOS LUNAR GRANDE X 500 UNI,4,28126.27,1,Pedido: 4 unidad (normalizado: 2000 unidad; equiv: 4 unidad),true,false,false
+P-00025,5492617175545,25009,1241,MICKY PASTA UNTABLE CHOCOLATE 4 KG,4,55376.21,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00025,5492617175545,25009,2130,BANDEJA RECTANGULAR DORADA 20X30 CM X10 UNI,1,5061.84,2,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00025,5492617175545,25009,1202,MAPSACUBER SEMI AMARGO X 1 KG,1,14019.43,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00026,5492617175545,25009,2511,VELA MAGICA CELESTE X 10 UNI,5,1167.75,2,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00026,5492617175545,25009,2833,"BRILLANTINA COMESTIBLE, CELESTE PACK X 4",3,1815.00,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00026,5492617175545,25009,2569,COCO RALLADO HIGH FAT X 1 KG SIN TACC,3,22144.51,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00026,5492617175545,25009,2230,PASTA DURAZNO (MELOCOTON) X BALDE,5,56248.95,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00027,5492617175545,25009,2176,PASTA SAMBAYON X 4.5 KG,5,67914.29,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00028,5493818437953,25010,2510,VELA LARGA ROSA LUNARES RAYA/ PLATA X 10 UNI,2,2455.98,3,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00028,5493818437953,25010,2796,BENGALAS HOLOGRAFICAS X 4 UNI 12 CM ROSA,5,2316.96,3,Pedido: 5 unidad (normalizado: 20 unidad; equiv: 5 unidad),true,false,false
+P-00028,5493818437953,25010,1958,MERENGUE MED. BLANCO X CAJA 3 KG A GRANEL,5,33347.00,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00029,5493818437953,25010,2311,COLORANTE PASTA VERDE Y X 15 GR,1,2216.60,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00030,5493818437953,25010,1526,PASTA CANELA X BALDE,4,51933.11,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00030,5493818437953,25010,1157,CONO DE PASTA Nº 70 X 270 U EREVAN,1,29939.03,3,Pedido: 1 unidad (normalizado: 270 unidad; equiv: 1 unidad),true,false,false
+P-00030,5493818437953,25010,1938,BICARBONATO DE SODIO ALZOL X 1 KG,1,3847.77,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00030,5493818437953,25010,2293,COLORANTE PASTA ROSA X 15 GR,4,2216.60,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00031,5493582132179,25011,2693,TRIPACK OREO REGULAR X 354 GR,1,4893.95,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00031,5493582132179,25011,1279,CHOCOLATE PARA SUBMARINO 50 UDS X 14 GRS,1,29986.57,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00031,5493582132179,25011,2360,COLORANTE PASTA AZUL M X 15 GR,3,2128.38,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00031,5493582132179,25011,2464,GRANA COLOR LILA X 1 KG,3,4132.60,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00032,5493582132179,25011,1167,CONO 0 X 1700 UNIDADES APROX,2,38805.43,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00032,5493582132179,25011,1457,PASAS UVAS AL RON X 900 GRS,2,11243.48,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00032,5493582132179,25011,2516,"VELA FINITAS17 CM X 24 UNI TORNEADA, VARON",5,1455.05,4,Pedido: 5 unidad (normalizado: 120 unidad; equiv: 5 unidad),true,false,false
+P-00033,5493582132179,25011,2306,COLORANTE PASTA VIOLETA B X 15 GR,4,2216.60,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00033,5493582132179,25011,1331,"BANANA GB020 X 7,5 KG",3,157225.67,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00034,5493872845902,25012,2305,COLORANTE PASTA VIOLETA L X 15 GR,2,2216.60,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00034,5493872845902,25012,2849,SALSA JAMER P/ HELADOS X 500 GRS FRUTOS DEL BOSQUE,5,5052.56,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00034,5493872845902,25012,1266,COB AMARGA 99% 57-99 CACAO X 5 KG GRANEL,1,209808.13,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00034,5493872845902,25012,2658,COLORANTE PASTA X 250 GR ROSA,3,31619.72,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00035,5493872845902,25012,2081,PASTA BALLINA CHOCOLATE X 500 GR,5,3795.26,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00035,5493872845902,25012,2836,"BRILLANTINA COMESTIBLE, LILA PACK X 4",3,1815.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00035,5493872845902,25012,2161,DISCO SOL DORADO DE 34 CM X10 UNI,2,12837.72,1,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00035,5493872845902,25012,2277,SIROPPI POMO X 900 GRS MENTA,5,9773.29,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00036,5493872845902,25012,2210,VARY ROMANOF X 4.5 KG,3,82916.90,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00037,5492997670210,25013,2441,GRANA ESTRELLA MULTICOLOR X 1 KG,2,6684.57,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00037,5492997670210,25013,1998,POLVO DE HORNEAR ALZOL X 1 KG,1,6570.30,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00038,5492997670210,25013,2081,PASTA BALLINA CHOCOLATE X 500 GR,1,3795.26,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00038,5492997670210,25013,2834,"BRILLANTINA COMESTIBLE, DORADO PACK X 4",2,1815.00,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00038,5492997670210,25013,1705,LICOR RHUM X 1 LT,3,9409.99,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00038,5492997670210,25013,1257,MICKY PASTA UNTABLE FRUTILLA X 450 GRS,2,4376.34,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00039,5492997670210,25013,1753,EST. CHOCOLATE BLANCO 2000 (2285-9) X 5.800 KG,4,236537.94,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00039,5492997670210,25013,1243,MICKY PASTA UNTABLE AVELLANA 4 KG,4,71096.45,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00040,5493811657614,25014,2268,SALSA JAMER P/ HELADOS X 900 GRS DULCE DE LECHE,2,7828.92,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00041,5493811657614,25014,1452,PASTA MERENGUE X 1 KG,5,13086.83,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00042,5493811657614,25014,2176,PASTA SAMBAYON X 4.5 KG,4,67914.29,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00043,5492994145193,25015,2767,CUCURUCHON GLUTEN FREE X 100 U,1,50067.38,4,Pedido: 1 unidad (normalizado: 100 unidad; equiv: 1 unidad),true,false,false
+P-00043,5492994145193,25015,2676,MINI CUCURUCHON BIOCUPS X 240 UNI,5,49778.71,4,Pedido: 5 unidad (normalizado: 1200 unidad; equiv: 5 unidad),true,false,false
+P-00043,5492994145193,25015,2580,VELA SET DINO X 5 UNI,3,2886.96,4,Pedido: 3 unidad (normalizado: 15 unidad; equiv: 3 unidad),true,false,false
+P-00044,5492994145193,25015,1867,PASTA PISTACHO X 5 KG,4,132100.93,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00044,5492994145193,25015,2055,BARRA AP 19X12X12 UNI,3,905.08,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00045,5492994145193,25015,1743,POLVO FLAN VAINILLA INDUS. ( 7810- 2 ) X 6 KG,5,70404.40,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00045,5492994145193,25015,2099,STRACCIATELLA X 10 KG,5,167704.01,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00045,5492994145193,25015,1263,BAÑO BOMBON INDUS BLANCO 2111 X 10 KG,5,120812.65,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00046,5493515971311,25016,2516,"VELA FINITAS17 CM X 24 UNI TORNEADA, VARON",3,1455.05,1,Pedido: 3 unidad (normalizado: 72 unidad; equiv: 3 unidad),true,false,false
+P-00046,5493515971311,25016,1469,PASTA VAINILLA CON YEMA X 900 GRS,1,10404.78,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00046,5493515971311,25016,2241,COBBL COBERTURA BLANCA 5703 X 5 KG,2,95796.89,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00046,5493515971311,25016,2802,GRANA MIX CIRCULO AZUL-BLANCO-ROJO X 1 KG,1,7353.03,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00047,5493515971311,25016,2546,VELA C/ PORTAVELA ROSA X 24 UNIDADES,3,351.74,1,Pedido: 3 unidad (normalizado: 72 unidad; equiv: 3 unidad),true,false,false
+P-00047,5493515971311,25016,2571,COCO RALLADO HIGH FAT X 4 KG SIN TACC,1,73960.18,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00048,5493515971311,25016,2846,"VARY CRISTAL MINT X 4,5 KILOS",4,31126.26,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00048,5493515971311,25016,2309,COLORANTE PASTA VERDE M X 15 GR,1,2216.60,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00048,5493515971311,25016,1463,PASTA MARROC X 900 GRS,3,11754.60,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00048,5493515971311,25016,2812,GRANA MIX CORAZON NEGRO-ROJO X 1 KG,5,7353.03,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00049,5492994228106,25017,2406,PIROTINES Nº 8 BLANCO X 500 UNI,4,15083.74,2,Pedido: 4 unidad (normalizado: 2000 unidad; equiv: 4 unidad),true,false,false
+P-00050,5492994228106,25017,2953,GRANULADO CHUNKS BLANCO CAJA X 1 KG,5,14241.75,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00051,5492994228106,25017,2600,POLVO PARA HELADOS SOFT JAMER X 9 KG YOGURT FRUTILLA,4,95311.57,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00052,5492998718887,25018,2896,MICKY PASTA UNTABLE FRUTILLA X CAJA 6U 450 GRS,1,23871.88,3,Pedido: 1 unidad (normalizado: 6 unidad; equiv: 1 unidad),true,false,false
+P-00053,5492998718887,25018,2031,ESENCIA DE FRUTILLA FLEIBOR X 30 CC.,2,1607.78,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00053,5492998718887,25018,2036,ESENCIA DE BANANA FLEIBOR X 30CC,2,1607.78,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00053,5492998718887,25018,2758,BOMBONITO LUXURY S/A X 11 KG A GRANEL,2,154604.64,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00054,5492998718887,25018,2662,POTE POLIPAPEL 390 CC 1/4 KG X 4 TIRAS 116 U BLANCO,2,31990.46,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00054,5492998718887,25018,2360,COLORANTE PASTA AZUL M X 15 GR,4,2128.38,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00054,5492998718887,25018,2859,PASTA SABOR PISTACHO FRASCO X 1 KG,1,36664.03,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00054,5492998718887,25018,2825,MICROGALLETITA BLANCA X 1 KILO,1,14810.40,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00055,5492995028869,25019,2736,PIROTINES Nº10 MOTIVOS VARIOS X 510 UNI,5,26190.36,4,Pedido: 5 unidad (normalizado: 2550 unidad; equiv: 5 unidad),true,false,false
+P-00055,5492995028869,25019,2737,PIROTINES Nº 8 MOTIVOS VARIOS X 510 UNI,4,22082.75,4,Pedido: 4 unidad (normalizado: 2040 unidad; equiv: 4 unidad),true,false,false
+P-00055,5492995028869,25019,2820,PULPA FRUTILLA P/SEMBRAR FACHY X1 KG BOLSA,2,7368.73,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00055,5492995028869,25019,1244,MICKY PASTA UNTABLE MANI 4 KG,2,37625.87,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00056,5492995028869,25019,1742,PASTA DE NUEZ PURA ( 3940-1 ) X 5 KG,5,161604.02,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00057,5492995028869,25019,2560,GRANA STICK MIX AMARILLO-AZUL X 900 GR,3,7353.03,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00057,5492995028869,25019,1747,GHELCOCREM ( 7887-6 )X 11 KG,4,493795.60,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00057,5492995028869,25019,1272,MAPTELLINA PARA SEMBRAR X 4 KG,4,108376.19,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00058,5493517304254,25020,2384,COLORANTE PASTA VIOLETA N X 15 GR,4,2128.40,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00058,5493517304254,25020,2691,CREMA CHANTILLY JAMER X 200 GR,4,4029.44,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00059,5493517304254,25020,2924,OREO SIN GLUTEN X 95 GR,1,3301.01,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00060,5493517304254,25020,2469,GRANA COLOR NEGRA X 1 KG,2,4253.82,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00060,5493517304254,25020,2310,COLORANTE PASTA VERDE A X 15 GR,3,2216.60,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00060,5493517304254,25020,2832,"BRILLANTINA COMESTIBLE, BLANCO PACK X 4",5,1815.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00061,5493416986538,25021,1241,MICKY PASTA UNTABLE CHOCOLATE 4 KG,1,55376.21,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00061,5493416986538,25021,2691,CREMA CHANTILLY JAMER X 200 GR,2,4029.44,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00061,5493416986538,25021,2787,PIROTINES Nº 8 METALIZADO DORADO X 200 UNI,3,26386.07,2,Pedido: 3 unidad (normalizado: 600 unidad; equiv: 3 unidad),true,false,false
+P-00062,5493416986538,25021,1431,PASTA BOMBON IRLANDES X 1 KG,3,17670.11,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00062,5493416986538,25021,1662,CUCHARITA PARA HELADOS A. PLAST X KG,4,27112.45,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00063,5493416986538,25021,2097,"EXTRACTO DE MALTA, FLEIBOR X 60 GRS",4,2679.64,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00063,5493416986538,25021,2026,ESENCIA DE CHOCOLATE FLEIBOR X 30 CC.,2,1607.78,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00063,5493416986538,25021,2275,SIROPPI POMO X 900 GRS BANANA,1,9773.29,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00063,5493416986538,25021,1453,PASTA NARANJA X 1 KG,1,14457.70,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00064,5492619239862,25022,2210,VARY ROMANOF X 4.5 KG,2,82916.90,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00064,5492619239862,25022,2147,CUADRADO METALIZADO / COLOR 16 X 16 PACK 10 UNIDADES,4,3031.19,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00064,5492619239862,25022,2051,RECTANGULO DORADO C/ SOLAPA (15 X 10) X 10 UN.,1,2923.97,3,Pedido: 1 unidad (normalizado: 15 unidad; equiv: 1 unidad),true,false,false
+P-00065,5492619239862,25022,2392,ILUMINADOR ROJO X 3 GRS,1,2305.31,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00066,5492619239862,25022,1714,SERVILLETAS ZIG ZAG P/HELADERIA X 10.000 UDS SER BOL,3,51788.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00066,5492619239862,25022,2576,VELA FINITA GIBRE ROSA X 12 UNIDADES,2,3609.58,3,Pedido: 2 unidad (normalizado: 24 unidad; equiv: 2 unidad),true,false,false
+P-00066,5492619239862,25022,2915,REDONDELA BOMBON DULCE DE LECHE X 1 KILO,4,16863.16,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00067,5493513952681,25023,2895,MICKY PASTA UNTABLE CHOCOLATE X CAJA 6U 450 GRS,3,41707.68,4,Pedido: 3 unidad (normalizado: 18 unidad; equiv: 3 unidad),true,false,false
+P-00068,5493513952681,25023,2801,VELA FINITAS DE 17 CM X 24 UNI TORNEADAS NENA,5,1455.05,4,Pedido: 5 unidad (normalizado: 120 unidad; equiv: 5 unidad),true,false,false
+P-00069,5493513952681,25023,1129,TERMICOS PARA 1/2 KG X UNIDAD,4,359.37,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00070,5493414799650,25024,2691,CREMA CHANTILLY JAMER X 200 GR,2,4029.44,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00070,5493414799650,25024,2380,LICOR MARASCHINO X 1 LT,5,9409.99,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00070,5493414799650,25024,2770,MICROGALLETITA BLANCA X5 KG,5,61710.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00070,5493414799650,25024,1711,DULCE DE LECHE HELADERO LA AGUSTINA X 10 KG (COD7002),3,52593.72,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00071,5493414799650,25024,2042,PASTA BALLINA DE GOMA X 500 GR,3,4931.21,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00071,5493414799650,25024,2736,PIROTINES Nº10 MOTIVOS VARIOS X 510 UNI,2,26190.36,1,Pedido: 2 unidad (normalizado: 1020 unidad; equiv: 2 unidad),true,false,false
+P-00072,5493414799650,25024,2206,VINO OPORTO X 950,5,13794.00,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00072,5493414799650,25024,1520,PASTA ABACHOC X 5 KG,3,62801.64,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00072,5493414799650,25024,2290,COLORANTE PASTA ROJO R X 15 GR,3,2216.60,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00072,5493414799650,25024,2937,GELATINA SABOR MANZANA X 1KG,5,11234.85,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00073,5492992500733,25025,2204,COLORANTE P.COBALTO COMESTIBLE X 4 GR,1,7018.51,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00073,5492992500733,25025,2269,SALSA JAMER P/ HELADOS X 900 GRS FRUTOS PATAGONICOS,1,7306.82,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00073,5492992500733,25025,2808,DROPS PERLAS MEDIANAS DORADAS X 35 GR,1,1923.90,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00073,5492992500733,25025,1346,SAMBAYON GB020 X 5 KG,2,199520.33,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00074,5492992500733,25025,2663,GRANA MIX CIRCULO BLANCOO- CELESTE X 1 KG,3,7353.03,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00074,5492992500733,25025,2838,"BRILLANTINA COMESTIBLE, PLATEADO PACK X 4",4,1815.00,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00074,5492992500733,25025,2390,ILUMINADOR VERDE P X 3 GRS,2,2305.31,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00075,5492992500733,25025,2939,GELATINA SABOR FRUTILLA X 1KG,4,11234.85,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00075,5492992500733,25025,2145,GRANULADO DE CHOCOLATE S/AMARGO GRM3 X 3 KG,1,84741.25,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00075,5492992500733,25025,1157,CONO DE PASTA Nº 70 X 270 U EREVAN,2,29939.03,2,Pedido: 2 unidad (normalizado: 540 unidad; equiv: 2 unidad),true,false,false
+P-00075,5492992500733,25025,1228,MOUSSE DE CHOCOLATE P/ DECORACION Y RELLENO X 1 KG,4,20605.39,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00076,5492615139305,25026,2384,COLORANTE PASTA VIOLETA N X 15 GR,4,2128.40,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00076,5492615139305,25026,2928,BARQUILLO BUBA CUPS 32 BLISTER X 3 U,2,20479.01,3,Pedido: 2 unidad (normalizado: 6 unidad; equiv: 2 unidad),true,false,false
+P-00077,5492615139305,25026,1429,PASTA AVELLANA X 800 GRS,4,36699.87,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00077,5492615139305,25026,1324,"KRESTOCREM, CREMA VEGETAL X 10 KG",3,149099.73,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00077,5492615139305,25026,2831,"BRILLANTINA COMESTIBLE, AZUL PACK X 4",1,1815.00,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00078,5492615139305,25026,2601,POLVO PARA HEL. SOFT JAMER X 9 KG YOGURT NATURAL,1,85624.25,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00078,5492615139305,25026,2255,SALSA JAMER P/ HELADOS X 120 GRS CHOCOLATE,5,2652.04,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00079,5492618861463,25027,2879,DULCE DE LECHE REPOSTERO LA AGUSTINA PREMIUM X 10 KG (BALDE PLAST),3,55015.89,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00080,5492618861463,25027,2724,DISCO PASTEL DE 24 CM X10 UNI,5,6432.84,4,Pedido: 5 unidad (normalizado: 50 unidad; equiv: 5 unidad),true,false,false
+P-00080,5492618861463,25027,2454,GRANA STICK MIX AZUL BLCO ROJO X 900 GRS,3,7353.03,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00080,5492618861463,25027,2858,PASTA SABOR MARACUYA FRASCO X 1 KG,1,32441.34,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00080,5492618861463,25027,2869,MICKY PASTA UNTABLE PISTACHO 4 KG,1,69742.25,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00081,5492618861463,25027,2864,BAÑO BOMBON SUPERLAY S/A X 10 KG,1,139339.99,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00081,5492618861463,25027,2128,DISCO DORADO DE 30 CM X10 UNI,4,10055.83,4,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00081,5492618861463,25027,1437,PASTA COCO X 900 GRS,2,12352.83,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00082,5493812941974,25028,2535,VELA GIBRE ROSA Nº 6,2,1124.08,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00082,5493812941974,25028,1222,CREMA CHANTILLY FACILMIX EN POLVO X 1 KG,3,22254.39,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00082,5493812941974,25028,2822,PULPA FRUTILLA S/ENTERA FACHY X1 KG BOLSA,4,6553.37,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00083,5493812941974,25028,2554,PASTA BUTTERCOL X 4.5 KG,1,56586.91,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00083,5493812941974,25028,2604,POTE POLIPAPEL 390 CC 1/4 KG CAJA X 580 U BLANCO,3,133293.60,1,Pedido: 3 unidad (normalizado: 1740 unidad; equiv: 3 unidad),true,false,false
+P-00084,5493812941974,25028,2812,GRANA MIX CORAZON NEGRO-ROJO X 1 KG,2,7353.03,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00084,5493812941974,25028,2502,GRANA MIX CIRCULO AMARILLO-AZUL X 1 KG,1,7353.03,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00084,5493812941974,25028,1525,PASTA CAFE (MOKA) X BALDE,3,103252.98,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00085,5493817404433,25029,1493,VARY ROMANOF X 900 GRS,1,17096.27,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00085,5493817404433,25029,2304,COLORANTE PASTA VIOLETA X 15 GR,3,2216.60,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00086,5493817404433,25029,1677,BALDES PARA 10 LTS C/TAPA X UNIDAD,2,7605.54,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00086,5493817404433,25029,2860,STRACCIATELLA PISTACHO X 10 KG,5,167704.01,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00086,5493817404433,25029,1374,NEUTRO USO GENERAL GB020 X 3 KG,1,32775.90,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00086,5493817404433,25029,2299,COLORANTE PASTA AZUL F X 15 GR,3,2128.38,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00087,5493817404433,25029,1261,MICKY PASTA UNTABLE MANI X 450 GRS,4,5186.82,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00088,5493419686914,25030,2651,TAPA CRISTAL P/POTE 390 CC CAJA X 580,1,54246.05,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00088,5493419686914,25030,2935,DULCE DE LECHE P/SEMBRAR MATINAL X 10 KG (CO2012),1,48833.10,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00089,5493419686914,25030,2874,VELA LARGA GIBRE BICOLOR CELESTE X 16 UNI,2,5658.26,3,Pedido: 2 unidad (normalizado: 32 unidad; equiv: 2 unidad),true,false,false
+P-00089,5493419686914,25030,1247,MICKY PASTA UNTABLE BANANITA 4 KG,2,31671.97,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00089,5493419686914,25030,2167,COLORANTE P.ROJO RUBI COMESTIBLE X 4 GR,1,7018.51,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00089,5493419686914,25030,2190,MEDIA BOLA MBB ACERO INOX. 40 GRS X UNIDAD,3,51747.47,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00090,5493419686914,25030,2792,CUCHARITA COMESTIBLE SIN TACC X 250 U,2,14255.31,3,Pedido: 2 unidad (normalizado: 500 unidad; equiv: 2 unidad),true,false,false
+P-00090,5493419686914,25030,2025,ESENCIA DE ALMENDRAS AMARGAS FLEIBOR X 30 CC.,4,1607.78,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00090,5493419686914,25030,2363,SIROPPI POMO X 900 GRS MARACUYA,2,9773.29,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00091,5493518648263,25031,2930,DROPS MIX BABY X 30 GR,3,1923.90,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00092,5493518648263,25031,2260,SALSA JAMER P/ HELADOS X 500 GRS CHOCOLATE,1,5430.82,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00092,5493518648263,25031,2892,MAPSACUBER FRUTILLA X CAJA 3 KG,1,38800.48,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00092,5493518648263,25031,1708,AZUCAR IMPALPABLE EXTRA X 5 KG,4,13049.85,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00092,5493518648263,25031,2470,GRANA COLOR PLATA X 1 KG,1,5105.92,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00093,5493518648263,25031,1502,VARY LIMONITA X 900 GRS,1,13019.32,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00093,5493518648263,25031,1491,VARY PISTACHO X 1 KG,5,13340.99,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00093,5493518648263,25031,1396,AZUL HE. X 1 LT,5,11613.07,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00093,5493518648263,25031,1933,ESPATULA DE ALUMINIO MBB,4,5111.04,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00094,5493516216782,25032,2453,GRANA STICK MIX AZUL X 900 GRS,5,7353.03,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00094,5493516216782,25032,2308,COLORANTE PASTA VERDE H X 15 GR,3,2128.38,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00094,5493516216782,25032,2255,SALSA JAMER P/ HELADOS X 120 GRS CHOCOLATE,2,2652.04,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00094,5493516216782,25032,1736,SULTANINAS AL RHUM ( 5014-1 ) X 900 GRS,5,16834.66,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00095,5493516216782,25032,1723,COMPLEMENTO ACIDO (750-2) X 1 LITRO,4,16383.85,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00095,5493516216782,25032,2518,VELA GIBRE CELESTE Nº 0,1,1124.08,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00095,5493516216782,25032,2294,COLORANTE PASTA ROSA N X 15 GR,3,2128.38,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00095,5493516216782,25032,1130,TERMICOS PARA 1/4 KG X UNIDAD,4,239.58,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00096,5493516216782,25032,2950,GRANULADO CHUNKS S/AMARGO X 1 KG,4,14241.75,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00096,5493516216782,25032,2284,COLORANTE PASTA AMARILLO X 15 GR,2,2128.38,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00096,5493516216782,25032,1958,MERENGUE MED. BLANCO X CAJA 3 KG A GRANEL,1,33347.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00097,5492612780568,25033,2391,ILUMINADOR NACAR X 3 GRS,4,2305.31,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00097,5492612780568,25033,2099,STRACCIATELLA X 10 KG,1,167704.01,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00097,5492612780568,25033,2923,EST. SAMBAYON 2000 ( 2233-9 ) X 5.8 KG,5,225248.04,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00098,5492612780568,25033,2643,ACIDO CITRICO X 1 KG,5,7768.20,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00098,5492612780568,25033,2529,VELA GIBRE ROSA Nº 0,4,1124.08,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00098,5492612780568,25033,2176,PASTA SAMBAYON X 4.5 KG,4,67914.29,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00098,5492612780568,25033,1590,ESENCIA DE AROMA MANTECA FLEIBOR X 30 C.C.,2,1607.78,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00099,5492612780568,25033,1500,VARY BLACK CRACK X 900 GRS,2,17001.88,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00099,5492612780568,25033,2477,GRANA COLOR VERDE CLARO X 1 KG,4,4132.60,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00100,5493582639964,25034,2883,MOUSSE DE CHOCOLATE P/ DECORACION Y RELLENO X CAJA 4 KG,4,76316.29,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00100,5493582639964,25034,1590,ESENCIA DE AROMA MANTECA FLEIBOR X 30 C.C.,3,1607.78,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00101,5493582639964,25034,2304,COLORANTE PASTA VIOLETA X 15 GR,3,2216.60,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00102,5493582639964,25034,2038,PASTA BALLINA CHOCOLATE X 3 KG,2,20451.05,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00102,5493582639964,25034,1473,PASTA MASCARPONE X 1 KG,4,11667.99,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00103,5493814729528,25035,2650,SORBETE PAPEL 8 MM-BLANCO 400 UNI,2,15488.00,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00104,5493814729528,25035,2158,P.B. LECHE CONDENSADA X 7.5 KG,4,57748.34,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00104,5493814729528,25035,2737,PIROTINES Nº 8 MOTIVOS VARIOS X 510 UNI,3,22082.75,4,Pedido: 3 unidad (normalizado: 1530 unidad; equiv: 3 unidad),true,false,false
+P-00104,5493814729528,25035,2808,DROPS PERLAS MEDIANAS DORADAS X 35 GR,1,1923.90,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00105,5493814729528,25035,1838,REDONDELA BOMBON BANANITA X 3 KG A GRANEL,4,36009.99,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00105,5493814729528,25035,2249,EST. NEUTRO CON EMULSIONANTE ( 7650-9 ) 7 KG,5,263167.36,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00105,5493814729528,25035,1152,VASO DE PASTA Nº 90 HEXAGONAL X 261 UNIDADES,3,23609.48,4,Pedido: 3 unidad (normalizado: 783 unidad; equiv: 3 unidad),true,false,false
+P-00105,5493814729528,25035,2351,LIPOSOLUBLE EN POLVO AZUL X 5 GRS,1,2063.42,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00106,5493876922419,25036,1421,PASTA CEREZA X 1 KG,2,12965.46,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00106,5493876922419,25036,2935,DULCE DE LECHE P/SEMBRAR MATINAL X 10 KG (CO2012),3,48833.10,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00106,5493876922419,25036,2348,LIPOSOLUBLE EN POLVO NJA X 5 GRS,1,2063.42,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00107,5493876922419,25036,2838,"BRILLANTINA COMESTIBLE, PLATEADO PACK X 4",3,1815.00,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00107,5493876922419,25036,2879,DULCE DE LECHE REPOSTERO LA AGUSTINA PREMIUM X 10 KG (BALDE PLAST),5,55015.89,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00107,5493876922419,25036,1938,BICARBONATO DE SODIO ALZOL X 1 KG,1,3847.77,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00108,5493876922419,25036,2701,MICRO GOTA BLANCA X 3 KG,3,31776.52,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00109,5492618889598,25037,2511,VELA MAGICA CELESTE X 10 UNI,4,1167.75,2,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00109,5492618889598,25037,1819,"EST PISTACHO GB020 X 7,5 KG",5,81003.39,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00109,5492618889598,25037,2478,GRANA COLOR VERDE OSCURO X 1 KG,4,4132.60,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00109,5492618889598,25037,2269,SALSA JAMER P/ HELADOS X 900 GRS FRUTOS PATAGONICOS,1,7306.82,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00110,5492618889598,25037,2131,BANDEJA PIONERA 20X34 CM X 10 UNIDADES,2,6338.86,2,Pedido: 2 unidad (normalizado: 20 unidad; equiv: 2 unidad),true,false,false
+P-00111,5492618889598,25037,2470,GRANA COLOR PLATA X 1 KG,3,5105.92,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00111,5492618889598,25037,2260,SALSA JAMER P/ HELADOS X 500 GRS CHOCOLATE,2,5430.82,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00111,5492618889598,25037,2600,POLVO PARA HELADOS SOFT JAMER X 9 KG YOGURT FRUTILLA,3,95311.57,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00111,5492618889598,25037,2840,"BRILLANTINA COMESTIBLE, ROSA PACK X 4",1,1815.00,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00112,5492615021286,25038,2850,SALSA JAMER P/ HELADOS X 500 GRS CEREZA,5,4490.33,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00112,5492615021286,25038,2256,SALSA JAMER P/ HELADOS X 120 GRS FRUTILLA,4,2476.03,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00113,5492615021286,25038,1784,BOMBONITO LUXURY SEMIAMARGO X 3 KG,1,44412.17,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00113,5492615021286,25038,2192,COLORANTE P.ORO ROSA COMESTIBLE X 4 GR,5,7018.51,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00113,5492615021286,25038,2681,GRANA MIX CORAZON BLANCO-ROJO X 1 KG,3,7353.03,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00113,5492615021286,25038,1874,CUCHARITA CONCAVAS P/HELADOS X 5 KG,5,68200.44,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00114,5492615021286,25038,1479,VARY CRISTAL MINT X 900 GRS,1,6952.67,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00115,5493813520000,25039,2344,MINI GOTA BLANCA X 3 KG,2,31776.52,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00115,5493813520000,25039,2542,VELA LUNARES ROSA,4,1127.54,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00116,5493813520000,25039,1531,PASTA MARROC X 4.5 KG,1,50746.28,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00116,5493813520000,25039,2115,CUADRADO METALIZADO / COLOR 14 X 14 PACK 10 UNIDADES,5,2649.90,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00116,5493813520000,25039,1736,SULTANINAS AL RHUM ( 5014-1 ) X 900 GRS,1,16834.66,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00116,5493813520000,25039,2827,MAPSACUBER SIN AZUCAR X 1KG,4,24804.31,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00117,5493813520000,25039,2573,VELAS LARGAS METALIZADAS ROSA GOLD X 8 UDS,1,750.05,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00117,5493813520000,25039,1280,CHOCOLATE FAMILIAR 10 UDS X 100 GRS,2,42837.96,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00117,5493813520000,25039,2460,GRANA COLOR AMARILLA X 1 KG,5,4132.60,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00117,5493813520000,25039,1689,HIGOS ENTEROS EN ALMIBAR FACHY X 4.600 KG,5,42838.91,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00118,5492997489876,25040,2560,GRANA STICK MIX AMARILLO-AZUL X 900 GR,1,7353.03,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00118,5492997489876,25040,1866,VARY PISTACHO X 5 KG,1,64703.79,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00118,5492997489876,25040,1333,"CHANTILLY GB020 X 7,5 KG",3,160305.80,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00119,5492997489876,25040,1939,CMC ALZOL X 1 KG,4,32307.00,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00119,5492997489876,25040,2388,LIPOSOLUBLE EN POLVO BLANCO X 5 GRS,3,2063.42,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00120,5492997489876,25040,1130,TERMICOS PARA 1/4 KG X UNIDAD,5,239.58,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00120,5492997489876,25040,2542,VELA LUNARES ROSA,1,1127.54,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00121,5492612928724,0,2266,SALSA JAMER P/ HELADOS X 900 GRS CHOCOLATE,4,8487.77,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00121,5492612928724,0,1690,QUINOTOS EN ALMIBAR FACHY X 4.600 KG,3,38332.22,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00121,5492612928724,0,2849,SALSA JAMER P/ HELADOS X 500 GRS FRUTOS DEL BOSQUE,1,5052.56,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00121,5492612928724,0,1266,COB AMARGA 99% 57-99 CACAO X 5 KG GRANEL,5,209808.13,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00122,5492612928724,0,1242,MICKY PASTA UNTABLE FRUTILLA 4 KG,5,33361.65,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00123,5492612928724,0,2681,GRANA MIX CORAZON BLANCO-ROJO X 1 KG,1,7353.03,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00124,5492617236955,0,2467,GRANA COLOR MULTICOLOR X 1 KG,2,4132.60,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00125,5492617236955,0,2257,SALSA JAMER P/ HELADOS X 120 GRS CARAMELO,3,2465.34,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00125,5492617236955,0,2105,MEDIA LUNA PLASTICA BAJA HIELO,1,2410.32,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00125,5492617236955,0,1244,MICKY PASTA UNTABLE MANI 4 KG,1,37625.87,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00125,5492617236955,0,2126,DISCO DORADO DE 24 CM X10 UNI,4,6739.10,1,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00126,5492617236955,0,1936,VELA FINITAS DE 17 CM X 24 UNI TORNEADAS MULTICOLOR,3,1455.05,1,Pedido: 3 unidad (normalizado: 72 unidad; equiv: 3 unidad),true,false,false
+P-00126,5492617236955,0,2770,MICROGALLETITA BLANCA X5 KG,1,61710.00,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00126,5492617236955,0,2314,COCO RALLADO ALZOL X 1 KG AZUL,1,15680.88,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00127,5492617413812,0,2257,SALSA JAMER P/ HELADOS X 120 GRS CARAMELO,3,2465.34,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00127,5492617413812,0,1197,CHOCOLATE TAZA SEMI AMARGA X 5 KG GRANEL (BARRITA DE 100 GR ),5,127193.81,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00127,5492617413812,0,2677,GRAGEA Nº 2 CELESTE X 1 KG,2,7570.60,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00128,5492617413812,0,2866,COBBL PARA BAÑAR BLANCA X 10 KG (2511),3,208922.39,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00128,5492617413812,0,2759,POTE POLIPAPEL DE 240 CC X 300 U DISEñO GENERICO,2,55757.45,4,Pedido: 2 unidad (normalizado: 600 unidad; equiv: 2 unidad),true,false,false
+P-00128,5492617413812,0,2410,POLVO PARA HELADOS SOFT JAMER X 9 KG FRUTILLA,4,80451.62,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00129,5492617413812,0,2585,COB S/AMARGA 70% 5711 BOTON X 3 KG,1,93764.84,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00129,5492617413812,0,2915,REDONDELA BOMBON DULCE DE LECHE X 1 KILO,4,16863.16,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00129,5492617413812,0,2767,CUCURUCHON GLUTEN FREE X 100 U,2,50067.38,4,Pedido: 2 unidad (normalizado: 200 unidad; equiv: 2 unidad),true,false,false
+P-00129,5492617413812,0,1347,TIRAMISU GB020 X 6 KG,4,192875.10,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00130,5492998066543,0,2823,PULPA FRUTILLA S/ENTERA FACHY X5 KG BOLSA,2,30455.49,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00130,5492998066543,0,2770,MICROGALLETITA BLANCA X5 KG,4,61710.00,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00130,5492998066543,0,1228,MOUSSE DE CHOCOLATE P/ DECORACION Y RELLENO X 1 KG,5,20605.39,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00130,5492998066543,0,2554,PASTA BUTTERCOL X 4.5 KG,5,56586.91,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00131,5492998066543,0,2036,ESENCIA DE BANANA FLEIBOR X 30CC,5,1607.78,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00132,5492998066543,0,1479,VARY CRISTAL MINT X 900 GRS,1,6952.67,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00133,5492999435946,0,1695,VINO MARSALA X 950 C.C.,3,13794.00,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00134,5492999435946,0,2571,COCO RALLADO HIGH FAT X 4 KG SIN TACC,3,73960.18,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00134,5492999435946,0,1179,CRISPIN DE ARROZ MIXTO X KG,5,13099.75,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00134,5492999435946,0,2307,COLORANTE PASTA VERDE X 15 GR,1,2216.60,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00135,5492999435946,0,2582,VELA FINITAS DE 17 CM X 24 UNI TORNEADAS ROSA,5,1455.05,3,Pedido: 5 unidad (normalizado: 120 unidad; equiv: 5 unidad),true,false,false
+P-00135,5492999435946,0,2911,"MANTECA DE CACAO X 3,5 KG",1,388053.89,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00136,5493416524997,0,2255,SALSA JAMER P/ HELADOS X 120 GRS CHOCOLATE,3,2652.04,1,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00136,5493416524997,0,1331,"BANANA GB020 X 7,5 KG",2,157225.67,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00136,5493416524997,0,2924,OREO SIN GLUTEN X 95 GR,5,3301.01,1,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00137,5493416524997,0,2133,DISCO DORADO DE 10 CM X10 UNI,4,1372.31,1,Pedido: 4 unidad (normalizado: 40 unidad; equiv: 4 unidad),true,false,false
+P-00138,5493416524997,0,1258,MICKY PASTA UNTABLE TIRAMISU X 450 GRS,4,4043.40,1,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00139,5493517632424,0,1998,POLVO DE HORNEAR ALZOL X 1 KG,1,6570.30,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00140,5493517632424,0,2860,STRACCIATELLA PISTACHO X 10 KG,3,167704.01,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00140,5493517632424,0,2056,BARRA AP 26X10X9 UNI,3,1059.36,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00140,5493517632424,0,1246,MICKY PASTA UNTABLE MENTA 4 KG,5,34674.15,4,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00141,5493517632424,0,2518,VELA GIBRE CELESTE Nº 0,3,1124.08,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00142,5493519107005,0,2935,DULCE DE LECHE P/SEMBRAR MATINAL X 10 KG (CO2012),4,48833.10,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00143,5493519107005,0,1451,PASTA MENTA VERDE X 1 KG,2,16816.53,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00143,5493519107005,0,2218,VASO DE PASTA Nº50 X 300 UNIDADES,2,24065.88,2,Pedido: 2 unidad (normalizado: 600 unidad; equiv: 2 unidad),true,false,false
+P-00143,5493519107005,0,2025,ESENCIA DE ALMENDRAS AMARGAS FLEIBOR X 30 CC.,2,1607.78,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00144,5493519107005,0,1941,FECULA ALZOL X 1 KG,4,3049.20,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00144,5493519107005,0,2571,COCO RALLADO HIGH FAT X 4 KG SIN TACC,4,73960.18,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00144,5493519107005,0,2703,PULPA DE DURAZNO ( 5003-1) X 900GR,4,14754.62,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00144,5493519107005,0,2097,"EXTRACTO DE MALTA, FLEIBOR X 60 GRS",3,2679.64,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00145,5493874104594,0,1256,MICKY PASTA UNTABLE CHOCOLATE X 450 GRS,5,7646.64,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00145,5493874104594,0,1304,FRAMBUESA MOUSSE P/ HELADOS X 5 KG,5,242353.66,3,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00145,5493874104594,0,2807,DROPS PERLAS MEDIANAS BLANCAS X 35 GR,3,1923.90,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,false,false
+P-00146,5493874104594,0,1347,TIRAMISU GB020 X 6 KG,2,192875.10,3,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00146,5493874104594,0,2446,GRANA MIX FIESTA X 1 KG,4,4637.05,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00146,5493874104594,0,2786,PIROTINES Nº 8 METALIZADO PLATA X 200 UNI,4,26386.07,3,Pedido: 4 unidad (normalizado: 800 unidad; equiv: 4 unidad),true,false,false
+P-00147,5493874104594,0,2720,DISCO SOL DORADO DE 28 CM X10 UNI,1,8783.71,3,Pedido: 1 unidad (normalizado: 10 unidad; equiv: 1 unidad),true,false,false
+P-00147,5493874104594,0,2812,GRANA MIX CORAZON NEGRO-ROJO X 1 KG,1,7353.03,3,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,false,false
+P-00148,5493876499570,0,2527,VELA GIBRE CELESTE Nº 8,2,1124.08,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00149,5493876499570,0,2803,GRANA MIX CORAZON AMARILLO-AZUL X 1 KG,2,7353.03,2,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,false,false
+P-00149,5493876499570,0,1967,VELA ZIG ZAG X 8 UNIDADES,2,2450.25,2,Pedido: 2 unidad (normalizado: 16 unidad; equiv: 2 unidad),true,false,false
+P-00149,5493876499570,0,1306,LIMON MOUSSE P/ HELADOS X 5 KG,4,242353.66,2,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,false,false
+P-00149,5493876499570,0,2479,GRANA COLOR VIOLETA X 1 KG,5,4132.60,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00150,5493876499570,0,2189,PASTA BALLINA P/ MODELAR X 500 GR,5,4687.49,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,false,false
+P-00151,5493587905250,25001,2962,FLEIGEL NARANJA X 15 GR,3,1851.30,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00152,5493582641213,25002,2938,GELATINA SABOR NARANJA X 1KG,3,11234.85,3,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00152,5493582641213,25002,2447,GRANA MIX BLCO CELEST LILA X 1 KG,4,4545.85,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00152,5493582641213,25002,2261,SALSA JAMER P/ HELADOS X 500 GRS DULCE DE LECHE,4,4983.08,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00152,5493582641213,25002,2658,COLORANTE PASTA X 250 GR ROSA,4,31619.72,3,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00153,5492991227644,25003,1532,PASTA MASCARPONE X 5 KG,2,53931.48,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00153,5492991227644,25003,2935,DULCE DE LECHE P/SEMBRAR MATINAL X 10 KG (CO2012),2,48833.10,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00153,5492991227644,25003,2770,MICROGALLETITA BLANCA X5 KG,4,61710.00,4,Pedido: 4 unidad (normalizado: 4 unidad; equiv: 4 unidad),true,true,false
+P-00153,5492991227644,25003,2145,GRANULADO DE CHOCOLATE S/AMARGO GRM3 X 3 KG,2,84741.25,4,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00154,5493418277249,25004,1951,MINI MERENGUITOS BLANCO X 12 PAQ,1,21157.09,1,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00154,5493418277249,25004,1538,VARY ABACHOC X 5 KG,2,53974.94,1,Pedido: 2 unidad (normalizado: 2 unidad; equiv: 2 unidad),true,true,false
+P-00154,5493418277249,25004,2003,PIROTINES Nº 8 SURTIDO LUNAR GRANDE X 500 UNI,4,18972.28,1,Pedido: 4 unidad (normalizado: 2000 unidad; equiv: 4 unidad),true,true,false
+P-00155,5493587747641,25005,2195,VELA SET FELIZ CUMPLE X 11 PIEZAS,5,4390.03,2,Pedido: 5 unidad (normalizado: 5 unidad; equiv: 5 unidad),true,true,false
+P-00155,5493587747641,25005,1995,CUCHARITA SUNDAE FP X CAJA (APROX 1000 U),1,21603.39,2,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00155,5493587747641,25005,2645,MAPSACUBER CELESTE X 1 KG,3,14019.43,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00155,5493587747641,25005,1324,"KRESTOCREM, CREMA VEGETAL X 10 KG",3,149099.73,2,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
+P-00156,5492614053074,25006,2739,PIROTINES Nº 8 METALIZADO NAVIDEÑO X 200 UNI,1,26386.07,3,Pedido: 1 unidad (normalizado: 200 unidad; equiv: 1 unidad),true,true,false
+P-00157,5493514079279,25007,1716,POLVO PARA HELADOS SOFT JAMER X 9 KG CHOCOLATE,1,87850.65,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00157,5493514079279,25007,2410,POLVO PARA HELADOS SOFT JAMER X 9 KG FRUTILLA,1,80451.62,4,Pedido: 1 unidad (normalizado: 1 unidad; equiv: 1 unidad),true,true,false
+P-00157,5493514079279,25007,2651,TAPA CRISTAL P/POTE 390 CC CAJA X 580,3,54246.05,4,Pedido: 3 unidad (normalizado: 3 unidad; equiv: 3 unidad),true,true,false
