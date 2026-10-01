@@ -1,0 +1,58 @@
+[
+  {
+    "step": "clientes",
+    "at": "2026-10-01T11:21:34",
+    "schema": "almaro",
+    "resultado": {
+      "crear": 22,
+      "actualizar": 22,
+      "omitir_telefono_duplicado_excel": 2,
+      "actualizar_stub_erp": 4
+    },
+    "clients_total": 509
+  },
+  {
+    "step": "purga",
+    "at": "2026-10-01T11:22:51",
+    "schema": "almaro",
+    "resultado": {
+      "items_pedido_por_pedido": 7893,
+      "field_task_events_por_pedido": 0,
+      "erp_orders_raw": 666,
+      "pedidos": 657,
+      "agenda": 0,
+      "client_locations": 0,
+      "client_product_memory": 0,
+      "clientes_aliases": 0,
+      "clientes_etiquetas": 0,
+      "conversations": 0,
+      "ia_tickets": 0,
+      "routes_clients": 0,
+      "vendedores_clientes": 453,
+      "field_tasks": 0,
+      "items_pedido": 18,
+      "clients": 453,
+      "puntos_venta": 0
+    },
+    "clients_total": 56
+  },
+  {
+    "step": "pedidos",
+    "at": "2026-10-01T11:46:00",
+    "schema": "almaro",
+    "resultado": {
+      "desde": "2026-08-18",
+      "dias_fallidos": [],
+      "projection": {
+        "examined": 60,
+        "projected": 59,
+        "failed": 1,
+        "issue": "missing_customer ZARATE PATRICIA (253681, omitida por celular duplicado)"
+      },
+      "pedidos_erp_total": 69,
+      "clientes_con_pedidos": 29,
+      "stubs_nuevos": 0
+    },
+    "nota": "proceso colgado post-proyección; log escrito a mano"
+  }
+]

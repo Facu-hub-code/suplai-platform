@@ -264,8 +264,8 @@ async def step_clientes(conn, plan: list[dict]) -> dict:
                 "canal": r["canal"],
                 "id_cuenta": r["codigo"],
             }
-            vend_id = int(r["vendedor_id"]) if r["vendedor_id"] != "" else None
-            pdv_id = int(r["pdv_actual"]) if r["pdv_actual"] != "" else None
+            vend_id = int(r["vendedor_id"]) if r["vendedor_id"] not in ("", None) else None
+            pdv_id = int(r["pdv_actual"]) if r["pdv_actual"] not in ("", None) else None
             if pdv_id is None:
                 pdv_id = await conn.fetchval(
                     f"""
@@ -289,7 +289,7 @@ async def step_clientes(conn, plan: list[dict]) -> dict:
                     INSERT INTO "{SCHEMA}".clients (
                       phone_number, nombre, razon_social, lista_precios_id, codigo,
                       activo_ai, vendedor, is_primary, is_mock, partner_erp_id, pdv_id, metadata
-                    ) VALUES ($1, $2, $2, $3, $4, true, $5, true, false, $4, $6, $7::jsonb)
+                    ) VALUES ($1, $2, $2, $3, $4::bigint, true, $5, true, false, $4::bigint, $6, $7::jsonb)
                     RETURNING id
                     """,
                     r["phone"], r["nombre"], r["lista_precios_id"], r["codigo_int"],
@@ -418,7 +418,22 @@ async def step_pedidos(conn, codes: list[int], desde: date) -> dict:
             "proyectar ahora crearía clientes stub. Correr 'purga' primero."
         )
     connector = await get_connector_for_schema(SCHEMA)
-    orders = await connector.fetch_orders(since=desde)
+    orders: list[dict] = []
+    failed_days: list[str] = []
+    day = desde
+    while day <= date.today():
+        for attempt in range(3):
+            try:
+                batch = await connector._fetch_orders_window(day, day)
+                orders.extend(batch)
+                print(f"[pedidos] {day} {len(batch)}", flush=True)
+                break
+            except Exception as exc:
+                print(f"[pedidos] {day} intento {attempt + 1} {type(exc).__name__}", flush=True)
+                await asyncio.sleep(5)
+        else:
+            failed_days.append(day.isoformat())
+        day = date.fromordinal(day.toordinal() + 1)
     code_set = set(codes)
     mine = [
         o for o in orders
@@ -433,6 +448,7 @@ async def step_pedidos(conn, codes: list[int], desde: date) -> dict:
         await _upsert_erp_orders_raw_batch(conn, SCHEMA, mine[i : i + 200], cliente_by_partner)
     projection = await project_orders_raw(SCHEMA, dry_run=False, limit=2000)
     return {
+        "dias_fallidos": failed_days,
         "gev_orders_total": len(orders),
         "gev_orders_piloto": len(mine),
         "clientes_con_pedidos": len(set(partner_ids)),
