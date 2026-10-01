@@ -9,6 +9,7 @@ Before making any changes, you **MUST** locate, read, and strictly follow the ru
 - **`suplai-implementation-guardrails.mdc`**: Safety rules for tenant onboardings.
 - **`suplai-implementation-no-branch.mdc`**: No feature branch/PR for tenant data load or implementation progress; work in `implementacion/{schema}/`.
 - **`suplai-implementation-mcp-writes.mdc`**: Protocol for Supabase database writes.
+- **`clients-lifecycle-views.mdc`**: Migraciones sobre `{tenant}.clients` — recrear `v_cartera`/`v_prospectos`, nunca `CASCADE`; tenants nuevos vía `install_clients_lifecycle_objects`.
 - **`backoffice-local-dev-port.mdc`**: Backoffice local dev must use port 3000 (Google Maps SDK referrer whitelist).
 
 ---

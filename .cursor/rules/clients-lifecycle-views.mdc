@@ -1,0 +1,16 @@
+---
+description: Migraciones sobre {tenant}.clients — vistas v_cartera / v_prospectos y tenants nuevos (spec 088)
+alwaysApply: true
+---
+
+# `clients.lifecycle` — vistas dependientes
+
+Desde `backend/sql/138_clients_lifecycle.sql` cada tenant tiene `v_cartera` y `v_prospectos` (`SELECT * FROM clients WHERE lifecycle = …`). Dependen de **todas** las columnas de `{tenant}.clients`.
+
+- **`MUST`**: cualquier migración que haga `ALTER COLUMN … TYPE`, `DROP COLUMN` o `RENAME COLUMN` en `clients` hace, en la misma migración y por tenant: `DROP VIEW IF EXISTS v_cartera, v_prospectos` → el cambio → recrear las dos vistas como en `sql/138`. Si no, la migración falla (`cannot alter type of a column used by a view`).
+- **`MUST NOT`**: destrabar con `DROP … CASCADE`. Borra las vistas en silencio.
+- **`SHOULD`**: después de `ADD COLUMN` en `clients`, `CREATE OR REPLACE VIEW` de las dos vistas para que la columna aparezca.
+- **`MUST`**: si cambian los triggers o las vistas de `sql/138`, actualizar también `backend/core/tenancy.py::install_clients_lifecycle_objects`. El alta de tenants clona con `LIKE … INCLUDING ALL`, que no copia triggers, FKs ni vistas.
+- **`MUST`**: toda consulta nueva de cartera (Métricas, grupos, estrategias, agenda, Field) filtra `c.lifecycle = 'client'`.
+
+Detalle: `backend/docs/db-structure/clients-lifecycle.md` y `docs/specs/088-clientes-vs-prospectos.md`.
