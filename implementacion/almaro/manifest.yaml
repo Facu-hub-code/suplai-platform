@@ -28,7 +28,7 @@ fases:
     output_csv_extra: outputs/phase-01-lista-precios-*.csv
     filas_csv: 943
     cargado_at: "2026-08-09T12:50:00Z"
-    notas: "Clon gonzales ERP_01. 943 productos, 4 listas, 3772 precios, 1942 aliases. Vectorize encolado 943. 2026-09-21: packing alta 1280 SKUs desde nombres GEV; luego 1749 SKUs corregidos con maestro Excel UMV (outputs/propuesta-packing-umv-excel-20260921.csv). 2026-09-28: 92 SKUs con UM de ventas bulto pasaron a unidad_minima_de_venta=BULTO (helados 15285/15286/15287). 3043 productos quedaron en 78 categorías de la columna Segmento del Excel. 2026-10-01: 407 SKUs que GEV vende por display (getArticulos UNIDAD_VENTA=DI) y estaban como unidad pasaron a umv display, mínimo 1 (outputs/propuesta-umv-display-gev-20261001.csv). Quedaron 233 DI como unidad por precio GEV desactualizado (<2025-06) o display < $500."
+    notas: "Clon gonzales ERP_01. 943 productos, 4 listas, 3772 precios, 1942 aliases. Vectorize encolado 943. 2026-09-21: packing alta 1280 SKUs desde nombres GEV; luego 1749 SKUs corregidos con maestro Excel UMV (outputs/propuesta-packing-umv-excel-20260921.csv). 2026-09-28: 92 SKUs con UM de ventas bulto pasaron a unidad_minima_de_venta=BULTO (helados 15285/15286/15287). 3043 productos quedaron en 78 categorías de la columna Segmento del Excel. 2026-10-01: 407 SKUs que GEV vende por display (getArticulos UNIDAD_VENTA=DI) y estaban como unidad pasaron a umv display, mínimo 1 (outputs/propuesta-umv-display-gev-20261001.csv). Quedaron 233 DI como unidad por precio GEV desactualizado (<2025-06) o display < $500. 2026-10-01: 1624 descripciones reescritas para no mezclar display y bulto (outputs/propuesta-descripciones-unidades-20261001.csv)."
   "01.1":
     nombre: tags
     estado: cargado
