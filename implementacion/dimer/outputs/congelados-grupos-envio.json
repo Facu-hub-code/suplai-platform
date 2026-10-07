@@ -1,0 +1,172 @@
+{
+  "at": "2026-10-06T12:22:23.145326+00:00",
+  "clients_with_day": 1372,
+  "day_dist": {
+    "jueves": 248,
+    "martes": 298,
+    "lunes": 277,
+    "miercoles": 291,
+    "viernes": 258
+  },
+  "grupos": [
+    {
+      "grupo_id": 21,
+      "nombre": "Congelados - Lunes 1/2",
+      "dia": "lunes",
+      "part": 1,
+      "total_parts": 2,
+      "clientes": 200
+    },
+    {
+      "grupo_id": 22,
+      "nombre": "Congelados - Lunes 2/2",
+      "dia": "lunes",
+      "part": 2,
+      "total_parts": 2,
+      "clientes": 77
+    },
+    {
+      "grupo_id": 23,
+      "nombre": "Congelados - Martes 1/2",
+      "dia": "martes",
+      "part": 1,
+      "total_parts": 2,
+      "clientes": 200
+    },
+    {
+      "grupo_id": 24,
+      "nombre": "Congelados - Martes 2/2",
+      "dia": "martes",
+      "part": 2,
+      "total_parts": 2,
+      "clientes": 98
+    },
+    {
+      "grupo_id": 25,
+      "nombre": "Congelados - Miércoles 1/2",
+      "dia": "miercoles",
+      "part": 1,
+      "total_parts": 2,
+      "clientes": 200
+    },
+    {
+      "grupo_id": 26,
+      "nombre": "Congelados - Miércoles 2/2",
+      "dia": "miercoles",
+      "part": 2,
+      "total_parts": 2,
+      "clientes": 91
+    },
+    {
+      "grupo_id": 27,
+      "nombre": "Congelados - Jueves 1/2",
+      "dia": "jueves",
+      "part": 1,
+      "total_parts": 2,
+      "clientes": 200
+    },
+    {
+      "grupo_id": 28,
+      "nombre": "Congelados - Jueves 2/2",
+      "dia": "jueves",
+      "part": 2,
+      "total_parts": 2,
+      "clientes": 48
+    },
+    {
+      "grupo_id": 29,
+      "nombre": "Congelados - Viernes 1/2",
+      "dia": "viernes",
+      "part": 1,
+      "total_parts": 2,
+      "clientes": 200
+    },
+    {
+      "grupo_id": 30,
+      "nombre": "Congelados - Viernes 2/2",
+      "dia": "viernes",
+      "part": 2,
+      "total_parts": 2,
+      "clientes": 58
+    }
+  ],
+  "verify": [
+    {
+      "id": 27,
+      "nombre": "Congelados - Jueves 1/2",
+      "n": 200,
+      "dias": "{jueves}"
+    },
+    {
+      "id": 28,
+      "nombre": "Congelados - Jueves 2/2",
+      "n": 48,
+      "dias": "{jueves}"
+    },
+    {
+      "id": 21,
+      "nombre": "Congelados - Lunes 1/2",
+      "n": 200,
+      "dias": "{lunes}"
+    },
+    {
+      "id": 22,
+      "nombre": "Congelados - Lunes 2/2",
+      "n": 77,
+      "dias": "{lunes}"
+    },
+    {
+      "id": 23,
+      "nombre": "Congelados - Martes 1/2",
+      "n": 200,
+      "dias": "{martes}"
+    },
+    {
+      "id": 24,
+      "nombre": "Congelados - Martes 2/2",
+      "n": 98,
+      "dias": "{martes}"
+    },
+    {
+      "id": 25,
+      "nombre": "Congelados - Miércoles 1/2",
+      "n": 200,
+      "dias": "{miercoles}"
+    },
+    {
+      "id": 26,
+      "nombre": "Congelados - Miércoles 2/2",
+      "n": 91,
+      "dias": "{miercoles}"
+    },
+    {
+      "id": 29,
+      "nombre": "Congelados - Viernes 1/2",
+      "n": 200,
+      "dias": "{viernes}"
+    },
+    {
+      "id": 30,
+      "nombre": "Congelados - Viernes 2/2",
+      "n": 58,
+      "dias": "{viernes}"
+    }
+  ],
+  "vendedor_api": {
+    "campo": "res.partner.user_id (Salesperson)",
+    "tiene_nombre_persona": false,
+    "nota": "En Odoo el salesperson es la cuenta de ruta ('13 - Congelados Interior'), no el nombre de pila. No hay otro campo de vendedor persona en res.partner."
+  },
+  "visita_api": {
+    "campos": [
+      "lunes",
+      "martes",
+      "miercoles",
+      "jueves",
+      "viernes",
+      "sabado",
+      "domingo"
+    ],
+    "cobertura": "1372/1372"
+  }
+}

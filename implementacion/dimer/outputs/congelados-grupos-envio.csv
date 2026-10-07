@@ -1,0 +1,11 @@
+grupo_id,nombre,dia,part,total_parts,clientes
+21,Congelados - Lunes 1/2,lunes,1,2,200
+22,Congelados - Lunes 2/2,lunes,2,2,77
+23,Congelados - Martes 1/2,martes,1,2,200
+24,Congelados - Martes 2/2,martes,2,2,98
+25,Congelados - Miércoles 1/2,miercoles,1,2,200
+26,Congelados - Miércoles 2/2,miercoles,2,2,91
+27,Congelados - Jueves 1/2,jueves,1,2,200
+28,Congelados - Jueves 2/2,jueves,2,2,48
+29,Congelados - Viernes 1/2,viernes,1,2,200
+30,Congelados - Viernes 2/2,viernes,2,2,58

@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-06T09:40:22.379069+00:00",
+  "rutas_odoo": 10,
+  "asignados": 1372,
+  "verify": {
+    "etiquetados": 1372,
+    "con_vc": 1372,
+    "nombre_es_ruta": 1348,
+    "con_nombre_persona": 24
+  },
+  "nota": "Odoo no tiene nombre de pila: el salesperson es la ruta. Completar nombre+teléfono real en congelados-vendedores-odoo.csv antes de enviar plantilla Meta.",
+  "by_ruta": {
+    "13 - Congelados Interior": {
+      "asignados": 221,
+      "pendiente_nombre_persona": 221
+    },
+    "16 - Especializado Litoral": {
+      "asignados": 40,
+      "con_nombre_persona": 24,
+      "pendiente_nombre_persona": 16
+    },
+    "17 - Limache/Olmue": {
+      "asignados": 113,
+      "pendiente_nombre_persona": 113
+    },
+    "18 - Los Andes/San Felipe": {
+      "asignados": 74,
+      "pendiente_nombre_persona": 74
+    },
+    "19 - Tabolango - Papudo": {
+      "asignados": 119,
+      "pendiente_nombre_persona": 119
+    },
+    "2 - Valparaiso C": {
+      "asignados": 218,
+      "pendiente_nombre_persona": 218
+    },
+    "20 - HORECA": {
+      "asignados": 189,
+      "pendiente_nombre_persona": 189
+    },
+    "34 - Quillota / La Calera": {
+      "asignados": 93,
+      "pendiente_nombre_persona": 93
+    },
+    "35 - Recreo/Forestal": {
+      "asignados": 138,
+      "pendiente_nombre_persona": 138
+    },
+    "8 - Santa Ines/Villa Hermosa": {
+      "asignados": 167,
+      "pendiente_nombre_persona": 167
+    }
+  },
+  "email_hints": {
+    "13 - Congelados Interior": "ecaceres",
+    "16 - Especializado Litoral": "wtebres",
+    "17 - Limache/Olmue": "gperez",
+    "18 - Los Andes/San Felipe": "fportilla",
+    "2 - Valparaiso C": "laranda"
+  }
+}

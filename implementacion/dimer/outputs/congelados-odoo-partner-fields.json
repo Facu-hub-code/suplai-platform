@@ -1,0 +1,616 @@
+{
+  "interesting": {
+    "activity_user_id": {
+      "string": "Responsible User",
+      "type": "many2one",
+      "relation": "res.users",
+      "selection": null
+    },
+    "user_id": {
+      "string": "Salesperson",
+      "type": "many2one",
+      "relation": "res.users",
+      "selection": null
+    },
+    "user_ids": {
+      "string": "Users",
+      "type": "one2many",
+      "relation": "res.users",
+      "selection": null
+    },
+    "partner_share": {
+      "string": "Share Partner",
+      "type": "boolean",
+      "relation": null,
+      "selection": null
+    },
+    "property_product_pricelist": {
+      "string": "Pricelist",
+      "type": "many2one",
+      "relation": "product.pricelist",
+      "selection": null
+    },
+    "days_sales_outstanding": {
+      "string": "Days Sales Outstanding (DSO)",
+      "type": "float",
+      "relation": null,
+      "selection": null
+    },
+    "debit": {
+      "string": "Total Payable",
+      "type": "monetary",
+      "relation": null,
+      "selection": null
+    },
+    "property_payment_term_id": {
+      "string": "Customer Payment Terms",
+      "type": "many2one",
+      "relation": "account.payment.term",
+      "selection": null
+    },
+    "property_supplier_payment_term_id": {
+      "string": "Vendor Payment Terms",
+      "type": "many2one",
+      "relation": "account.payment.term",
+      "selection": null
+    },
+    "supplier_invoice_count": {
+      "string": "# Vendor Bills",
+      "type": "integer",
+      "relation": null,
+      "selection": null
+    },
+    "invoice_warn": {
+      "string": "Invoice",
+      "type": "selection",
+      "relation": null,
+      "selection": [
+        [
+          "no-message",
+          "No Message"
+        ],
+        [
+          "warning",
+          "Warning"
+        ],
+        [
+          "block",
+          "Blocking Message"
+        ]
+      ]
+    },
+    "property_outbound_payment_method_line_id": {
+      "string": "Property Outbound Payment Method Line",
+      "type": "many2one",
+      "relation": "account.payment.method.line",
+      "selection": null
+    },
+    "property_stock_supplier": {
+      "string": "Vendor Location",
+      "type": "many2one",
+      "relation": "stock.location",
+      "selection": null
+    },
+    "picking_warn": {
+      "string": "Stock Picking",
+      "type": "selection",
+      "relation": null,
+      "selection": [
+        [
+          "no-message",
+          "No Message"
+        ],
+        [
+          "warning",
+          "Warning"
+        ],
+        [
+          "block",
+          "Blocking Message"
+        ]
+      ]
+    },
+    "purchase_warn": {
+      "string": "Purchase Order Warning",
+      "type": "selection",
+      "relation": null,
+      "selection": [
+        [
+          "no-message",
+          "No Message"
+        ],
+        [
+          "warning",
+          "Warning"
+        ],
+        [
+          "block",
+          "Blocking Message"
+        ]
+      ]
+    },
+    "receipt_reminder_email": {
+      "string": "Receipt Reminder",
+      "type": "boolean",
+      "relation": null,
+      "selection": null
+    },
+    "sale_order_ids": {
+      "string": "Sales Order",
+      "type": "one2many",
+      "relation": "sale.order",
+      "selection": null
+    },
+    "sale_warn": {
+      "string": "Sales Warnings",
+      "type": "selection",
+      "relation": null,
+      "selection": [
+        [
+          "no-message",
+          "No Message"
+        ],
+        [
+          "warning",
+          "Warning"
+        ],
+        [
+          "block",
+          "Blocking Message"
+        ]
+      ]
+    },
+    "sale_warn_msg": {
+      "string": "Message for Sales Order",
+      "type": "text",
+      "relation": null,
+      "selection": null
+    },
+    "lunes": {
+      "string": "Lunes",
+      "type": "boolean",
+      "relation": null,
+      "selection": null
+    },
+    "martes": {
+      "string": "Martes",
+      "type": "boolean",
+      "relation": null,
+      "selection": null
+    },
+    "cliente_visitado": {
+      "string": "Cliente visitado",
+      "type": "boolean",
+      "relation": null,
+      "selection": null
+    },
+    "secuencia": {
+      "string": "Secuencia Visita",
+      "type": "char",
+      "relation": null,
+      "selection": null
+    },
+    "secuencia_lunes": {
+      "string": "Secuencia Lunes",
+      "type": "char",
+      "relation": null,
+      "selection": null
+    },
+    "secuencia_martes": {
+      "string": "Secuencia Martes",
+      "type": "char",
+      "relation": null,
+      "selection": null
+    },
+    "route_id": {
+      "string": "Ruta IPR",
+      "type": "many2one",
+      "relation": "ipr.route",
+      "selection": null
+    },
+    "days_extension": {
+      "string": "Días de extensión",
+      "type": "integer",
+      "relation": null,
+      "selection": null
+    }
+  },
+  "sample": [
+    {
+      "id": 66234,
+      "activity_user_id": false,
+      "cliente_visitado": false,
+      "comment": false,
+      "days_extension": 0,
+      "days_sales_outstanding": 0.0,
+      "email": false,
+      "function": false,
+      "invoice_warn": "no-message",
+      "lunes": false,
+      "martes": false,
+      "name": "TORRES PLAZA LEIDI YOHANA",
+      "partner_share": true,
+      "phone": "982346963",
+      "picking_warn": "no-message",
+      "property_outbound_payment_method_line_id": false,
+      "property_payment_term_id": [
+        23,
+        "Transferencia Contra Entrega"
+      ],
+      "property_product_pricelist": [
+        5273,
+        "Lista DIMER (CLP)"
+      ],
+      "property_stock_supplier": [
+        4,
+        "Partners/Vendors"
+      ],
+      "property_supplier_payment_term_id": false,
+      "purchase_warn": "no-message",
+      "receipt_reminder_email": false,
+      "route_id": false,
+      "sale_order_ids": [],
+      "sale_warn": "no-message",
+      "sale_warn_msg": false,
+      "secuencia": false,
+      "secuencia_lunes": false,
+      "secuencia_martes": false,
+      "supplier_invoice_count": 0,
+      "user_id": [
+        118,
+        "34 - Quillota / La Calera"
+      ],
+      "user_ids": [],
+      "vat": "25284528-3"
+    },
+    {
+      "id": 65918,
+      "activity_user_id": false,
+      "cliente_visitado": false,
+      "comment": false,
+      "days_extension": 0,
+      "days_sales_outstanding": 0.0,
+      "email": "berroetasotonicole@gmail.com",
+      "function": false,
+      "invoice_warn": "no-message",
+      "lunes": false,
+      "martes": true,
+      "name": "STRAWBERRIESCREAM LIMITADA",
+      "partner_share": true,
+      "phone": "+56 9 2025 0997",
+      "picking_warn": "no-message",
+      "property_outbound_payment_method_line_id": false,
+      "property_payment_term_id": [
+        23,
+        "Transferencia Contra Entrega"
+      ],
+      "property_product_pricelist": [
+        5273,
+        "Lista DIMER (CLP)"
+      ],
+      "property_stock_supplier": [
+        4,
+        "Partners/Vendors"
+      ],
+      "property_supplier_payment_term_id": false,
+      "purchase_warn": "no-message",
+      "receipt_reminder_email": false,
+      "route_id": [
+        30,
+        "Litoral"
+      ],
+      "sale_order_ids": [],
+      "sale_warn": "no-message",
+      "sale_warn_msg": false,
+      "secuencia": false,
+      "secuencia_lunes": false,
+      "secuencia_martes": false,
+      "supplier_invoice_count": 0,
+      "user_id": [
+        94,
+        "28 - El Tabo / Cartagena"
+      ],
+      "user_ids": [],
+      "vat": "78040114-1"
+    },
+    {
+      "id": 65808,
+      "activity_user_id": false,
+      "cliente_visitado": false,
+      "comment": false,
+      "days_extension": 0,
+      "days_sales_outstanding": 0.0,
+      "email": false,
+      "function": false,
+      "invoice_warn": "no-message",
+      "lunes": false,
+      "martes": true,
+      "name": "BRAVO FIGUEROA MARIELA PAZ",
+      "partner_share": true,
+      "phone": "+56 9 9270 6928",
+      "picking_warn": "no-message",
+      "property_outbound_payment_method_line_id": false,
+      "property_payment_term_id": [
+        23,
+        "Transferencia Contra Entrega"
+      ],
+      "property_product_pricelist": [
+        5273,
+        "Lista DIMER (CLP)"
+      ],
+      "property_stock_supplier": [
+        4,
+        "Partners/Vendors"
+      ],
+      "property_supplier_payment_term_id": false,
+      "purchase_warn": "no-message",
+      "receipt_reminder_email": false,
+      "route_id": [
+        44,
+        "OlivarVillaD"
+      ],
+      "sale_order_ids": [],
+      "sale_warn": "no-message",
+      "sale_warn_msg": false,
+      "secuencia": false,
+      "secuencia_lunes": false,
+      "secuencia_martes": false,
+      "supplier_invoice_count": 0,
+      "user_id": [
+        28,
+        "5 - Forestal/El Olivar"
+      ],
+      "user_ids": [],
+      "vat": "17354739-0"
+    },
+    {
+      "id": 65797,
+      "activity_user_id": false,
+      "cliente_visitado": false,
+      "comment": false,
+      "days_extension": 0,
+      "days_sales_outstanding": 0.0,
+      "email": false,
+      "function": false,
+      "invoice_warn": "no-message",
+      "lunes": false,
+      "martes": false,
+      "name": "BARATOMAX SPA",
+      "partner_share": true,
+      "phone": "978608986",
+      "picking_warn": "no-message",
+      "property_outbound_payment_method_line_id": false,
+      "property_payment_term_id": [
+        17,
+        "Cobro Vendedor 15 días"
+      ],
+      "property_product_pricelist": [
+        5271,
+        "Lista Mayorista nuevo (CLP)"
+      ],
+      "property_stock_supplier": [
+        4,
+        "Partners/Vendors"
+      ],
+      "property_supplier_payment_term_id": false,
+      "purchase_warn": "no-message",
+      "receipt_reminder_email": false,
+      "route_id": false,
+      "sale_order_ids": [],
+      "sale_warn": "no-message",
+      "sale_warn_msg": false,
+      "secuencia": "39",
+      "secuencia_lunes": false,
+      "secuencia_martes": false,
+      "supplier_invoice_count": 0,
+      "user_id": [
+        14,
+        "15 - Villa Alemana"
+      ],
+      "user_ids": [],
+      "vat": "77443023-7"
+    },
+    {
+      "id": 65723,
+      "activity_user_id": false,
+      "cliente_visitado": false,
+      "comment": false,
+      "days_extension": 0,
+      "days_sales_outstanding": 0.0,
+      "email": "ROGELIOMPEÑA@GMAIL.COM",
+      "function": false,
+      "invoice_warn": "no-message",
+      "lunes": false,
+      "martes": false,
+      "name": "ROGELIO MARCET PEÑA",
+      "partner_share": true,
+      "phone": false,
+      "picking_warn": "no-message",
+      "property_outbound_payment_method_line_id": false,
+      "property_payment_term_id": [
+        24,
+        "Transportistas 15 días"
+      ],
+      "property_product_pricelist": [
+        5273,
+        "Lista DIMER (CLP)"
+      ],
+      "property_stock_supplier": [
+        4,
+        "Partners/Vendors"
+      ],
+      "property_supplier_payment_term_id": false,
+      "purchase_warn": "no-message",
+      "receipt_reminder_email": false,
+      "route_id": [
+        5,
+        "Concon"
+      ],
+      "sale_order_ids": [],
+      "sale_warn": "no-message",
+      "sale_warn_msg": false,
+      "secuencia": false,
+      "secuencia_lunes": false,
+      "secuencia_martes": false,
+      "supplier_invoice_count": 0,
+      "user_id": [
+        90,
+        "Clientes Inactivos"
+      ],
+      "user_ids": [],
+      "vat": "8779238-2"
+    },
+    {
+      "id": 65682,
+      "activity_user_id": false,
+      "cliente_visitado": false,
+      "comment": false,
+      "days_extension": 0,
+      "days_sales_outstanding": 0.0,
+      "email": "whezhong@gmail.com",
+      "function": false,
+      "invoice_warn": "no-message",
+      "lunes": false,
+      "martes": false,
+      "name": "INVERSIONES FORTUNA SPA",
+      "partner_share": true,
+      "phone": "+56 9 8833 6717",
+      "picking_warn": "no-message",
+      "property_outbound_payment_method_line_id": false,
+      "property_payment_term_id": [
+        12,
+        "Cheque al día 0 días"
+      ],
+      "property_product_pricelist": [
+        5234,
+        "Lista de 20% (CLP)"
+      ],
+      "property_stock_supplier": [
+        4,
+        "Partners/Vendors"
+      ],
+      "property_supplier_payment_term_id": false,
+      "purchase_warn": "no-message",
+      "receipt_reminder_email": false,
+      "route_id": [
+        23,
+        "Viña"
+      ],
+      "sale_order_ids": [],
+      "sale_warn": "no-message",
+      "sale_warn_msg": false,
+      "secuencia": false,
+      "secuencia_lunes": false,
+      "secuencia_martes": false,
+      "supplier_invoice_count": 0,
+      "user_id": [
+        29,
+        "6 - Viña Plan"
+      ],
+      "user_ids": [],
+      "vat": "78308948-3"
+    },
+    {
+      "id": 65598,
+      "activity_user_id": false,
+      "cliente_visitado": false,
+      "comment": false,
+      "days_extension": 0,
+      "days_sales_outstanding": 4.326821580413429,
+      "email": "MARIBELY97@GMAIL.COM",
+      "function": false,
+      "invoice_warn": "no-message",
+      "lunes": false,
+      "martes": false,
+      "name": "MARIBEL DEL CARMEN YAÑEZ YAÑEZ ",
+      "partner_share": true,
+      "phone": "+56 9 5872 4729",
+      "picking_warn": "no-message",
+      "property_outbound_payment_method_line_id": false,
+      "property_payment_term_id": [
+        14,
+        "Cobro Centralizado 30 días"
+      ],
+      "property_product_pricelist": [
+        5244,
+        "Lista empleados (CLP)"
+      ],
+      "property_stock_supplier": [
+        4,
+        "Partners/Vendors"
+      ],
+      "property_supplier_payment_term_id": false,
+      "purchase_warn": "no-message",
+      "receipt_reminder_email": false,
+      "route_id": false,
+      "sale_order_ids": [
+        133484,
+        109355,
+        108585,
+        108465
+      ],
+      "sale_warn": "no-message",
+      "sale_warn_msg": false,
+      "secuencia": false,
+      "secuencia_lunes": false,
+      "secuencia_martes": false,
+      "supplier_invoice_count": 0,
+      "user_id": [
+        61,
+        "Empleados"
+      ],
+      "user_ids": [],
+      "vat": "17792149-1"
+    },
+    {
+      "id": 65551,
+      "activity_user_id": false,
+      "cliente_visitado": false,
+      "comment": false,
+      "days_extension": 0,
+      "days_sales_outstanding": 0.0,
+      "email": "BOTILLERIALAFE@GMAIL.COM",
+      "function": false,
+      "invoice_warn": "no-message",
+      "lunes": false,
+      "martes": false,
+      "name": "BOTILLERIA Y MINIMARKET LUNA GERALDINE GORMAZ MENA EIRL",
+      "partner_share": true,
+      "phone": false,
+      "picking_warn": "no-message",
+      "property_outbound_payment_method_line_id": false,
+      "property_payment_term_id": [
+        23,
+        "Transferencia Contra Entrega"
+      ],
+      "property_product_pricelist": [
+        5273,
+        "Lista DIMER (CLP)"
+      ],
+      "property_stock_supplier": [
+        4,
+        "Partners/Vendors"
+      ],
+      "property_supplier_payment_term_id": false,
+      "purchase_warn": "no-message",
+      "receipt_reminder_email": false,
+      "route_id": [
+        67,
+        "Melipilla"
+      ],
+      "sale_order_ids": [],
+      "sale_warn": "no-message",
+      "sale_warn_msg": false,
+      "secuencia": false,
+      "secuencia_lunes": false,
+      "secuencia_martes": false,
+      "supplier_invoice_count": 0,
+      "user_id": [
+        97,
+        "31 - Curacavi/Maria Pinto"
+      ],
+      "user_ids": [],
+      "vat": "78118262-1"
+    }
+  ]
+}

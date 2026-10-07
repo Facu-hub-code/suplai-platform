@@ -1,0 +1,11 @@
+vendedor_id,codigo_ruta,ruta_odoo,nombre_en_suplai,nombre_es_ruta,email,email_hint,telefono,telefono_placeholder,odoo_user_id,clientes_asignados,pendiente_nombre_persona
+23,13,13 - Congelados Interior,13 - Congelados Interior,True,dimer.ecaceres@gmail.com,ecaceres,56900000013,True,12,221,221
+24,16,16 - Especializado Litoral,16 - Especializado Litoral,True,dimer.wtebres@gmail.com,wtebres,56900000016,True,115,40,16
+25,17,17 - Limache/Olmue,17 - Limache/Olmue,True,dimer.gperez@gmail.com,gperez,56900000017,True,15,113,113
+26,18,18 - Los Andes/San Felipe,18 - Los Andes/San Felipe,True,dimer.fportilla@gmail.com,fportilla,56900000018,True,16,74,74
+27,19,19 - Tabolango - Papudo,19 - Tabolango - Papudo,True,,,56900000019,True,17,119,119
+28,2,2 - Valparaiso C,2 - Valparaiso C,True,dimer.laranda@gmail.com,laranda,56900000002,True,18,218,218
+29,20,20 - HORECA,20 - HORECA,True,,,56900000020,True,19,189,189
+30,34,34 - Quillota / La Calera,34 - Quillota / La Calera,True,,,56900000034,True,118,93,93
+31,35,35 - Recreo/Forestal,35 - Recreo/Forestal,True,,,56900000035,True,119,138,138
+32,8,8 - Santa Ines/Villa Hermosa,8 - Santa Ines/Villa Hermosa,True,dimer.,,56900000008,True,31,167,167

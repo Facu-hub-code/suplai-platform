@@ -1,0 +1,147 @@
+[
+  {
+    "odoo_user_id": 12,
+    "ruta": "13 - Congelados Interior",
+    "login": "v13",
+    "email": "dimer.ecaceres@gmail.com",
+    "phone_odoo": "",
+    "email_hint": "ecaceres",
+    "partners_same_email": [
+      [
+        41,
+        "13 - Congelados Interior",
+        false
+      ]
+    ]
+  },
+  {
+    "odoo_user_id": 115,
+    "ruta": "16 - Especializado Litoral",
+    "login": "v16",
+    "email": "dimer.wtebres@gmail.com",
+    "phone_odoo": "",
+    "email_hint": "wtebres",
+    "partners_same_email": [
+      [
+        66058,
+        "16 - Especializado Litoral",
+        false
+      ]
+    ]
+  },
+  {
+    "odoo_user_id": 15,
+    "ruta": "17 - Limache/Olmue",
+    "login": "v17",
+    "email": "dimer.gperez@gmail.com",
+    "phone_odoo": "",
+    "email_hint": "gperez",
+    "partners_same_email": [
+      [
+        44,
+        "17 - Limache/Olmue",
+        false
+      ],
+      [
+        39787,
+        "SANCHEZ LARGACHA FENIX MARIELA",
+        "920681325"
+      ],
+      [
+        39906,
+        "SOCIEDAD GASTRONOMICA KODOGIANNIS SPA",
+        "56947300368"
+      ],
+      [
+        52782,
+        "TENDENCIAS RESTOBAR SPA",
+        "935603712"
+      ],
+      [
+        39904,
+        "TENDENCIAS RESTOBAR SPA",
+        "935603712"
+      ]
+    ]
+  },
+  {
+    "odoo_user_id": 16,
+    "ruta": "18 - Los Andes/San Felipe",
+    "login": "v18",
+    "email": "dimer.fportilla@gmail.com",
+    "phone_odoo": "",
+    "email_hint": "fportilla",
+    "partners_same_email": [
+      [
+        45,
+        "18 - Los Andes/San Felipe",
+        false
+      ],
+      [
+        39092,
+        "SOCIEDAD GASTRONÓMICA LA RUCA DE CURIMÓN SPA ",
+        "994488474"
+      ]
+    ]
+  },
+  {
+    "odoo_user_id": 17,
+    "ruta": "19 - Tabolango - Papudo",
+    "login": "v19",
+    "email": ".",
+    "phone_odoo": "",
+    "email_hint": "",
+    "partners_same_email": []
+  },
+  {
+    "odoo_user_id": 18,
+    "ruta": "2 - Valparaiso C",
+    "login": "v2",
+    "email": "dimer.laranda@gmail.com",
+    "phone_odoo": "",
+    "email_hint": "laranda",
+    "partners_same_email": [
+      [
+        47,
+        "2 - Valparaiso C",
+        false
+      ]
+    ]
+  },
+  {
+    "odoo_user_id": 19,
+    "ruta": "20 - HORECA",
+    "login": "v20",
+    "email": ".",
+    "phone_odoo": "",
+    "email_hint": "",
+    "partners_same_email": []
+  },
+  {
+    "odoo_user_id": 118,
+    "ruta": "34 - Quillota / La Calera",
+    "login": "v34",
+    "email": "",
+    "phone_odoo": "",
+    "email_hint": "",
+    "partners_same_email": []
+  },
+  {
+    "odoo_user_id": 119,
+    "ruta": "35 - Recreo/Forestal",
+    "login": "v35",
+    "email": "",
+    "phone_odoo": "",
+    "email_hint": "",
+    "partners_same_email": []
+  },
+  {
+    "odoo_user_id": 31,
+    "ruta": "8 - Santa Ines/Villa Hermosa",
+    "login": "v8",
+    "email": "dimer.",
+    "phone_odoo": "",
+    "email_hint": "",
+    "partners_same_email": []
+  }
+]

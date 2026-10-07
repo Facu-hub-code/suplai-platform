@@ -54,6 +54,46 @@ recuperacion_mccain:
   agenda_hora_operacional: "11:00"
   cargado_at: "2026-08-14T17:37:10Z"
 
+congelados_etiqueta:
+  estado: etiquetado_y_vendedores_sync
+  excel: inputs/Clientes Congelados_dimer.xlsx
+  etiqueta: Congelados
+  etiqueta_id: 25
+  grupo: Congelados
+  grupo_id: 20
+  filas_excel: 1825
+  ruts_unicos: 1737
+  matcheados_filas: 1457
+  etiquetados_unicos: 1372
+  sin_match_en_suplai: 368
+  vendedores_odoo_sync:
+    estado: cargado
+    rutas: 10
+    asignados_vc: 1372
+    con_nombre_persona: 24
+    pendiente_nombre_persona: 1348
+    nota: "Odoo user_id (Salesperson) es la ruta, no el nombre de pila. No hay otro campo persona en res.partner. Día de visita sí: booleanos lunes..domingo."
+    output_vendedores: outputs/congelados-vendedores-odoo.csv
+    output_sync: outputs/congelados-vendedores-sync.json
+    script: scripts/sync_vendedores_congelados_odoo.py
+    synced_at: "2026-10-06T09:40:22Z"
+  visitas_y_grupos_envio:
+    estado: cargado
+    cobertura_dia: "1372/1372"
+    campos_odoo: ["lunes","martes","miercoles","jueves","viernes","sabado","domingo"]
+    day_dist: {lunes: 277, martes: 298, miercoles: 291, jueves: 248, viernes: 258}
+    grupos: 10
+    chunk: 200
+    output_visitas: outputs/congelados-odoo-visitas.csv
+    output_grupos: outputs/congelados-grupos-envio.csv
+    output_json: outputs/congelados-grupos-envio.json
+    script: scripts/armar_grupos_congelados_por_dia.py
+    cargado_at: "2026-10-06T12:22:23Z"
+  output_match: outputs/congelados-match-ok.csv
+  output_missing: outputs/congelados-match-missing.csv
+  output_resumen: outputs/congelados-resumen-vendedores.csv
+  etiquetado_at: "2026-10-06T09:20:00Z"
+
 fases:
   "00":
     nombre: preflight
