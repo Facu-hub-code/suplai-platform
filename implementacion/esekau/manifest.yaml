@@ -57,10 +57,10 @@ fases:
     notas: "1215/1215 descripciones + 3081 aliases. Parches: Magistral=lavavajillas, Prime=preservativos, Zorro/Ace/Ariel=detergente (no lavandina), Gummi Zone=gomitas. Vectorize encolado 200."
   "01.3":
     nombre: prompt_agente
-    estado: pendiente
+    estado: cargado
     output_json: outputs/phase-01-3-prompt-config.json
-    cargado_at: null
-    notas: "Prompt demo (Ese, 95 SKUs, WA viejo 5493516904472) hay que actualizarlo al catálogo real y al 5493517064896."
+    cargado_at: "2026-10-07T07:25:00Z"
+    notas: "Ese, catálogo 1215, WA 5493517064896. Una lista pública. Radios Aguilar. Followups default desactivados."
   "02":
     nombre: promociones
     estado: omitido
