@@ -10,7 +10,7 @@ excel_input: "inputs/aab2edb57_curlo_products.csv"
 sitio_web: "https://curlomayorista.com.ar/"
 modo: completo
 origen_datos: "api_erp_httpshare"
-notas: "Distribuidora en Cipolletti (RN). Clientes: reposterías y heladerías. 2026-10-01: mock reemplazado por API ERP (schema curlo). Catálogo 929 / 871 en_catalogo, 3 listas, 1664 clientes (847 WhatsApp), 5762 pedidos 12m + 31943 ítems. Vectorize 929 OK. Promos/field/chats/tickets mock se purgaron con la carga."
+notas: "Distribuidora en Cipolletti (RN). Clientes: reposterías y heladerías. 2026-10-01: mock reemplazado por API ERP (schema curlo). Catálogo 929 / 871 en_catalogo, 3 listas, 1664 clientes (847 WhatsApp), 5762 pedidos 12m + 31943 ítems. Vectorize 929 OK. 2026-10-07: residuos mock de agosto (50 chats + mappings) purgados; ERP intacto."
 
 blocked:
   is_mock_migration: false  # is_mock presente en productos/clients y tablas clave
@@ -106,7 +106,7 @@ fases:
     output_csv: outputs/phase-07-conversaciones-resumen.csv
     filas_csv: 0
     cargado_at: null
-    notas: "50 chats mock borrados. Sin origen real de conversaciones."
+    notas: "2026-10-07: 50 chats + 259 events mock de agosto borrados. Sin origen real."
   "08":
     nombre: insights
     estado: omitido
@@ -121,11 +121,11 @@ fases:
     cargado_at: null
   "10":
     nombre: purga_mock
-    estado: omitido
+    estado: cargado
     output_csv: outputs/phase-10-purga-log.csv
-    filas_csv: 0
-    cargado_at: "2026-10-01T14:31:00Z"
-    notas: "No aplica: la carga ERP reemplazó el mock (clients/pedidos/productos is_mock=false)."
+    filas_csv: 7
+    cargado_at: "2026-10-07T07:50:00Z"
+    notas: "Residuos ago-2026: 50 conv + 259 events + 14 xsell + 10 upsell. ERP no tocado (0 is_mock en productos/clients/pedidos)."
 
 marca_lider: "BRIGEL"
 tenant_id: "e67ea0ca-ce05-4608-884d-227440e3f5db"

@@ -1,0 +1,8 @@
+tabla,filas_borradas,ok,notas
+core.conversation_events,259,true,Chats mock ago-2026 + 2 sandbox sobre esos mismos session_id
+core.conversations,50,true,Ninguno coincidia con phone_number de clients ERP
+public.tenant_cross_sell_mappings,14,true,is_mock=true tenant curlo
+public.tenant_up_sell_mappings,10,true,is_mock=true tenant curlo
+curlo.productos,0,true,Sin mock; 929 ERP intactos
+curlo.clients,0,true,Sin mock; 1664 ERP intactos
+curlo.pedidos,0,true,Sin mock; 5762 ERP intactos
