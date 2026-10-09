@@ -233,9 +233,9 @@ Reentrenar el modelo de sales-engine, reescribir el system prompt y disparar el 
 |---|---|---|
 | [094 — Manual del conector](../specs/094-claude-mcp-manual.md) | 0 | Nada |
 | [095 — Carga de clientes y productos](../specs/095-claude-mcp-carga-clientes-productos.md) | 1 | Reglas de escritura de este doc. El plugin se mergea después del backend |
-| Plantillas: explicar, crear, medir, y la regla de la promoción | 2 | 0. La parte de promo puede esperar a tener listas (caso 1) si el tenant carga por Excel |
-| Grupos y agendas sobre una plantilla | 2.1 | 2. El conteo del grupo es más útil si el caso 1 ya cargó clientes |
-| ERP: estado y promoción | 3 | Reglas de escritura. La lectura no espera al caso 1 |
-| Estrategias, conversaciones y aliases | 4 | 1, 2 y 2.1 |
+| [096 — Plantillas de WhatsApp](../specs/096-claude-mcp-plantillas.md) | 2 | 0. La parte de promo puede esperar a tener listas (caso 1) si el tenant carga por Excel |
+| [097 — Grupos y agendas](../specs/097-claude-mcp-grupos-agendas.md) | 2.1 | 2. El conteo del grupo es más útil si el caso 1 ya cargó clientes |
+| [098 — Estado del ERP y promoción](../specs/098-claude-mcp-erp.md) | 3 | Reglas de escritura. La lectura no espera al caso 1 |
+| [099 — Estrategias, conversaciones y aliases](../specs/099-claude-mcp-estrategias-aliases.md) | 4 | 1, 2 y 2.1 |
 
 Al redactar cada spec, usar las secciones obligatorias del workspace (decisiones, alcance, orden, migración, prueba en CI y prueba humana).
