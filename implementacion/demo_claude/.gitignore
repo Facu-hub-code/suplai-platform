@@ -1,0 +1,3 @@
+outputs/reviewer-credentials.local.md
+outputs/*.local.*
+.DS_Store

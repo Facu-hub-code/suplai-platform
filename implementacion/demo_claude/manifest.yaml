@@ -1,0 +1,18 @@
+schema_name: demo_claude
+nombre_comercial: Demo Claude
+ciudad_base: Córdoba capital, Córdoba, Argentina
+coordenadas_centro: [-31.4201, -64.1888]
+rubro: distribuidora demo para revisores del directorio de Claude
+excel_input: ""
+sitio_web: https://www.suplaisales.com/claude
+admin_email: reviewer@demo-claude.suplaisales.com
+admin_password: Suplai2026
+notas: "Tenant aislado para revisores de Anthropic. Copia anonimizada y recortada de del_corro. Sin datos reales de clientes."
+modo: demo
+demo:
+  productos_cargados: 0
+  omitido: ["07", "08", "09"]
+fases:
+  "00":
+    nombre: preflight
+    estado: en_curso
