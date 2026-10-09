@@ -21,8 +21,24 @@
       "path": "../wholesale-catalog-app"
     },
     {
+      "name": "field-app",
+      "path": "../field-app"
+    },
+    {
+      "name": "sniffer",
+      "path": "../sniffer-vendedores"
+    },
+    {
       "name": "sales-engine",
       "path": "../sales-engine"
+    },
+    {
+      "name": "landing",
+      "path": "../suplai-sales-landing"
+    },
+    {
+      "name": "claude",
+      "path": "../suplai-sales-claude-plugin"
     }
   ],
   "settings": {
