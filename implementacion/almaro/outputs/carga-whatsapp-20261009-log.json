@@ -1,0 +1,77 @@
+[
+  {
+    "step": "clientes",
+    "at": "2026-10-09T09:19:55",
+    "schema": "almaro",
+    "clientes": {
+      "crear": 91,
+      "cargados": 91,
+      "omitir_telefono_de_otro_cliente": 2,
+      "omitir_telefono_duplicado_excel": 1
+    },
+    "clients_total": 149
+  },
+  {
+    "step": "grupos",
+    "at": "2026-10-09T09:46:05",
+    "schema": "almaro",
+    "grupos": {
+      "clientes_sendable": 91,
+      "day_dist": {
+        "sin_dia": 91
+      },
+      "grupos": [
+        {
+          "grupo_id": 2,
+          "nombre": "WhatsApp Oct 2026 - Sin día",
+          "dia": "sin_dia",
+          "part": 1,
+          "total_parts": 1,
+          "clientes": 91
+        }
+      ]
+    },
+    "clients_total": 149
+  },
+  {
+    "step": "enviar",
+    "at": "2026-10-09T09:49:24",
+    "schema": "almaro",
+    "grupos": {
+      "clientes_sendable": 91,
+      "day_dist": {
+        "sin_dia": 91
+      },
+      "grupos": [
+        {
+          "grupo_id": 3,
+          "nombre": "WhatsApp Oct 2026 - Sin día",
+          "dia": "sin_dia",
+          "part": 1,
+          "total_parts": 1,
+          "clientes": 91
+        }
+      ]
+    },
+    "enviar": {
+      "template_status": "APPROVED",
+      "language": "es",
+      "hora": "04:30:00",
+      "agendas": [
+        {
+          "grupo_id": 3,
+          "agenda_id": 2,
+          "nombre": "WhatsApp Oct 2026 - Sin día",
+          "destinatarios": 91,
+          "ok": 91,
+          "fail": 0,
+          "skipped": 0,
+          "errors": []
+        }
+      ],
+      "ok_total": 91,
+      "fail_total": 0
+    },
+    "clients_total": 149
+  }
+]

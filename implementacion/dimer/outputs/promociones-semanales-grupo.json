@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-09T07:19:14.666948+00:00",
+  "schema": "dimer",
+  "skus_originales": [
+    "54165",
+    "54164",
+    "5003139",
+    "5003181",
+    "110A18951",
+    "158385",
+    "176139",
+    "H02029000075"
+  ],
+  "target": 250,
+  "seleccionados": 250,
+  "prioridad_1_originales": 76,
+  "prioridad_2_fill": 174,
+  "whatsapp_existente": 195,
+  "etiqueta_id": 26,
+  "etiqueta": "Promociones semanales",
+  "etiquetados": 250,
+  "grupo_id": 31,
+  "grupo": "Promociones semanales — lunes",
+  "grupo_n": 250,
+  "plantilla": "promociones_semanales",
+  "plantilla_id": "398055bb-abcd-42fd-b4aa-98c4a841c179",
+  "agenda": {
+    "created": true,
+    "id": 4,
+    "hora_envio": "11:00:00",
+    "fecha_programada": "2026-10-12",
+    "activo": true,
+    "origen": "dimer-promociones-semanales-lunes"
+  },
+  "csv": "implementacion/dimer/outputs/promociones-semanales-grupo-250.csv"
+}

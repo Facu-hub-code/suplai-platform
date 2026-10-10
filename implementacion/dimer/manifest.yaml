@@ -94,6 +94,28 @@ congelados_etiqueta:
   output_resumen: outputs/congelados-resumen-vendedores.csv
   etiquetado_at: "2026-10-06T09:20:00Z"
 
+promociones_semanales_lunes:
+  estado: cargado
+  objetivo: "Grupo 250 para plantilla promociones_semanales. Prioridad: compradores de SKU original + WA, luego cualquier WA."
+  skus_originales: ["54165", "54164", "5003139", "5003181", "110A18951", "158385", "176139", "H02029000075"]
+  target: 250
+  prioridad_1_originales: 76
+  prioridad_2_fill: 174
+  whatsapp_existente: 195
+  etiqueta: Promociones semanales
+  etiqueta_id: 26
+  grupo: "Promociones semanales — lunes"
+  grupo_id: 31
+  plantilla: promociones_semanales
+  plantilla_id: "398055bb-abcd-42fd-b4aa-98c4a841c179"
+  agenda_id: 4
+  agenda_fecha: "2026-10-12"
+  agenda_hora: "11:00"
+  output_csv: outputs/promociones-semanales-grupo-250.csv
+  output_json: outputs/promociones-semanales-grupo.json
+  script: scripts/armar_grupo_promociones_semanales.py
+  cargado_at: "2026-10-09T07:19:14Z"
+
 fases:
   "00":
     nombre: preflight

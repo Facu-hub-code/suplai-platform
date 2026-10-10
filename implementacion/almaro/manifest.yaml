@@ -7,7 +7,7 @@ coordenadas_centro: [-27.4687, -58.8312]  # Centro Corrientes (OSM); ops en Ruta
 rubro: "distribuidora Arcor — golosinas, chocolates, galletas, alimentos"
 excel_input: "inputs/fuente_gonzales_erp01.txt"  # Clon desde gonzales.listas_precios id=74 (ERP_01)
 sitio_web: "http://www.almaro.com.ar"
-notas: "ALMARO S.A. — Ruta 12 km 1027, Corrientes. 2026-09-17: catálogo GEV real, default TRADICIONAL (20), 22 clientes piloto, prompt Maro, plantillas UTILITY de sistema."
+notas: "ALMARO S.A. — Ruta 12 km 1027, Corrientes. 2026-10-09: 91 clientes del Excel WhatsApp (Desktop/almaro.xlsx), grupo 'WhatsApp Oct 2026 - Sin día', plantilla prueba2 91/91 aceptados por Meta. GEV sin día de visita. Pedidos: 12 proyectados / 10 clientes (varias ventanas GEV timeout). 2026-09-17: catálogo GEV real, default TRADICIONAL (20), 22 clientes piloto, prompt Maro, plantillas UTILITY de sistema."
 
 blocked:
   is_mock_migration: false  # is_mock presente en productos y clients
@@ -75,7 +75,7 @@ fases:
     output_json: outputs/phase-04-fixed-delivery-schedule.json
     filas_csv: 24
     cargado_at: "2026-09-18T12:55:00Z"
-    notas: "2026-09-18: FDS B2B on, corte 16:00, zona Corrientes Capital lun-sáb. Tienda: 46 merch fuera de catálogo + vitrina 20 golosinas con foto. 2026-09-17: 22 clientes piloto."
+    notas: "2026-10-09: +91 clientes reales Excel WhatsApp (outputs/propuesta-clientes-whatsapp-20261009.csv). 3 omitidos por teléfono ya usado. 2026-09-18: FDS B2B on, corte 16:00, zona Corrientes Capital lun-sáb. Tienda: 46 merch fuera de catálogo + vitrina 20 golosinas con foto. 2026-09-17: 22 clientes piloto."
   "05":
     nombre: clientes_flags
     estado: cargado

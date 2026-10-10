@@ -1,0 +1,35 @@
+excel_row,codigo_ruta,ruta_excel,zona_excel,nombre,supervisor,negocio,rutas,telefono_excel,telefono,email
+2,1,1 - Valparaiso H,Valparaiso H,Diego Rodriguez,Jose Ignacio Vergara,Helados,"Centro de Valparaíso, Cerros de Valparaíso",+56 9 7988 5480,56979885480,dimer.drodriguez@gmail.com
+3,2,2 - Congelados Valparaiso,Congelados Valparaiso,Gonzalo Perez,Gustavo Hernandez,Congelados/Helados,Playa Ancha - Laguna Verde (H) - Centro Valparaíso - Baron Rodelillo - Placilla,+56 9 5814 9710,56958149710,dimer.laranda@gmail.com
+4,3,3 - Placilla/P.Ancha,Placilla/P.Ancha,Jose Crespo,Jose Ignacio Vergara,Helados,Placilla/Curauma - Playa Ancha - Quintay (H),+56 9 6305 8385,56963058385,dimer.osoto@gmail.com
+5,4,4 - Recreo - Baron,Recreo - Baron,Luis Traviezo,Jose Ignacio Vergara,Helados,Baron - Rodelillo - Placeres - Esperanza - Portales - San Roque,+56 9 7988 5648,56979885648,dimer.etorres@gmail.com
+6,5,5 - Forestal/El Olivar,Forestal/El Olivar,Isaac Soto,Jose Ignacio Vergara,Helados,Forestal - Canal Beagle - Olivar - Villa Independencia - Chorrillos - Nueva Aurora - Villa Dulce - Limonares,+56 9 7988 5264,56979885264,dimer.isoto@gmail.com
+7,6,6 - Viña Plan,Viña Plan,Luis Malave,Jose Ignacio Vergara,Helados,Sub Centro (Quillota a Chorrillos) - Centro de Viña de 1 a 15 norte incluye las salinas - Reñaca,+56 9 6406 4740,56964064740,dimer.lmalave2@gmail.com
+8,7,7 - Achupalla/Reñaca Alto,Achupalla/Reñaca Alto,Christian Aguila,Jose Ignacio Vergara,Helados,Achupallas - Santa Julia - Reñaca Alto - Gomez Carreño - Glorias Navales - Granadilla,+56 9 5814 7657,56958147657,dimer.mmañes@gmail.com
+9,8,8 - Congelados Viña,Congelados Viña,Daniel Sepulveda,Gustavo Hernandez,Congelados,Miraflores - Reñaca Alto - Santa Julia - Achupallas - Santa Ines - Gomez Carreño - Glorias Navales,+56 9 8328 9239,56983289239,dimer.sruiz@gmail.com
+10,9,9 - Curacavi/Litoral,Curacavi/Litoral,Gustavo Lopez,Francisco Diaz,Congelados/Helados,Casablanca - Algarrobo,+56 9 6403 7193,56964037193,dimer.gplopez@gmail.com
+11,10,10 - Concon - Miraflores,Concon - Miraflores,Jose Luis Osorio,Jose Ignacio Vergara,Helados,ConCon - Borgoño - Reñaca,+56 9 5659 1863,56956591863,dimer.josorio@gmail.com
+12,11,11 - Quilpue Centro,Quilpue Centro,Cristian Fredez,Jose Ignacio Vergara,Helados,Centro Quilpue - Los Pinos -  Los Carreras - Pompeya - Villa Olimpica - Villa Hermosa - Los Lunes,+56 9 7988 7974,56979887974,dimer.cfredez@gmail.com
+13,12,12 - Belloto,Belloto,Marcelo Romero,Jose Ignacio Vergara,Helados,Belloto Norte - Centro - Sur,+56 9 7622 6575,56976226575,dimer.mromero@gmail.com
+14,13,13 - Congelados Interior,Congelados Interior,Luis Aranda,Gustavo Hernandez,Congelados/Helados,Congelados Quilpue - Belloto - Villa Alemena (Centro y Norte) - Peñablanca - Colliguay,+56 9 5835 0457,56958350457,dimer.ecaceres@gmail.com
+15,14,14 - Limache/Olmue,Limache/Olmue,Christian Ravest,Jose Ignacio Vergara,Helados,Limache - Olmue - Quebrada Alvarado,+56 9 7988 4917,56979884917,dimer.cravest@gmail.com
+16,15,15 - Villa Alemana,Villa Alemana,Diego Castillo,Jose Ignacio Vergara,Helados,Centro Villa Alemana - Huanhuali - Villa Alemana Sur - Troncos Viejos,+56 9 7988 4955,56979884955,dimer.rsepulveda@gmail.com
+17,16,16 - Especializado Litoral,Especializado Litoral,Wilber Tebres,Gustavo Hernandez,Congelados,Algarrobo - El Quisco - El Tabo - Las Cruces - San Antonio - Santo Domingo,+56 9 7988 5722,56979885722,dimer.wtebres@gmail.com
+18,17,17 - Peñablanca/Quillota/Calera,Peñablanca/Quillota/Calera,Anibal Sanchez,Gustavo Hernandez,Congelados,Limache - Olmué - Quebrada Alvarado,+56 9 7620 2743,56976202743,dimer.asanchez@gmail.com
+19,18,18 - San Felipe - Los Andes,San Felipe - Los Andes,Fernanda Portilla,Gustavo Hernandez,Congelados,Los Andes - San Felipe - Rinconada - San Esteban,+56 9 7367 6911,56973676911,dimer.fportilla@gmail.com
+20,19,19 - Tabolango - Papudo,Tabolango - Papudo,Luis Montino,Gustavo Hernandez,Congelados,Tabolango - Quintero - Ventana - Horcón - Puchuncavi,+56 9 9255 1422,56992551422,dimer.mramos@gmail.com
+21,20,20 - HORECA,HORECA,Enrique Vargas,Gustavo Hernandez,Congelados/Helados,HORECA - 1 a 15 norte - Reñaca - Concon -  Viña Centro,+56 9 7367 0511,56973670511,dimer.evargas@gmail.com
+22,22,22 - Miraflores/Limache,Miraflores/Limache,Cesar Barraza,Jose Ignacio Vergara,Helados,Recreo - Miraflores - Santa Ines - Limache,+56 9 5811 4071,56958114071,dimer.cbarraza@gmail.com
+23,26,26 - La Ligua/Putaendo,La Ligua/Putaendo,Serafin Orellana,Gustavo Hernandez,Congelados,Catemu - Panquehue - LlaiLlay - La Ligua - Cabildo - Hijuelas - Melon - Nogales,+56 9 5814 7399,56958147399,dimer.mravest@gmail.com
+24,28,28 - El Tabo / Cartagena,El Tabo / Cartagena,Doralisa Vivencio,Francisco Diaz,Congelados/Helados,Cartagena - El Tabo - San Sebastian,+56 9 7988 8434,56979888434,dimer.macevedo@gpail.com
+25,29,29 - San Antonio Sur / Sto. Domingo,San Antonio Sur / Sto. Domingo,Maryvonne Zárate,Francisco Diaz,Congelados/Helados,Llolleo - San Antonio Sur - Santo Domingo,+56 9 6463 6942,56964636942,dimer.fgonzalez@gmail.com
+26,30,30 - Melipilla,Melipilla,Maria Veronica Montes,Francisco Diaz,Congelados/Helados,Melipilla,+56 9 5814 2220,56958142220,dimer.vmontes@gmail.com
+27,31,31 - Curacavi/Maria Pinto,Curacavi/Maria Pinto,Luis Garcia,Francisco Diaz,Congelados/Helados,Curacavi - Maria Pinto - Melipilla,+56 9 5814 6252,56958146252,dimer.lgarcia@gmail.com
+28,32,32 - El Quisco / Isla Negra,El Quisco / Isla Negra,José Quero,Francisco Diaz,Congelados/Helados,Isla Nagra - Punta Tralca - El Quisco - Algarrobo,+56 9 6181 6090,56961816090,dimer.jquero@gmail.com
+29,33,33 - San Antonio Norte,San Antonio Norte,Natalia Martinez,Francisco Diaz,Congelados/Helados,San Antonio Norte - Barrancas,+56 9 5814 1749,56958141749,dimer.nmartinez@gmail.com
+30,34,34 - Quillota / La Calera,Quillota / La Calera,Javier Pinto,Gustavo Hernandez,Congelados,Quillota - La Calera - La Cruz,+56 9 5815 0192,56958150192,dimer.jpinto@gmail.com
+31,35,35 - Recreo/Forestal,Recreo/Forestal,Christian Barahona,Gustavo Hernandez,Congelados,Placeres - Forestal - Agua Santa - Nueva Aurora - Chorrillos,+56 9 6190 3852,56961903852,dimercbarahona@gmail.com
+33,,Supervisor,Supervisor,Ignacio Vergara,,Supervisor,,+56 9 5659 1864,56956591864,jvergara@dimerltda.cl
+34,,Gerente de Ventas,Gerente de Ventas,Catalina Merino,,Gerente de Ventas,,+56 9 8839 8680,56988398680,cmerino@dimerltda.cl
+35,,Supervisor,Supervisor,Gustavo Hernandez,,Supervisor,,+56 9 9255 4833,56992554833,ghernandez@dimerltda.cl
+36,,Supervisor,Supervisor,Francisco Diaz,,Supervisor,,+56 9 6191 6961,56961916961,dimer.fdiaz@gmail.com
