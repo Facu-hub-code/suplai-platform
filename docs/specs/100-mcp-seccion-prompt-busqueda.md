@@ -3,7 +3,7 @@
 **Estado:** Borrador  
 **Fecha:** 2026-10-10  
 **Repos:** `agente-conversacional-multi_tenant` (turno de laboratorio con prompt en memoria), `backend-supabase` (tools, receta, arreglo del diagnóstico)  
-**Ramas sugeridas:** `feat/seccion-prompt-lab` en el agente, `feat/seccion-prompt` en el backend  
+**Ramas sugeridas:** `feat/spec-seccion-prompt` en el agente y en el backend  
 **Relaciona:** [099](./099-claude-mcp-estrategias-aliases.md) (el prompt quedaba en el backoffice), `services/system_prompt_builder.py`, `probar_agente`, `diagnosticar_busqueda`.
 
 ---
@@ -106,8 +106,8 @@ Errores de negocio, con el tema `seccion-prompt`: texto vacío, más de 800 cara
 
 | Orden | Repo | Rama | Qué |
 |---|---|---|---|
-| 1 | `agente-conversacional-multi_tenant` | `feat/seccion-prompt-lab` | `system_prompt` opcional en `simulate-turn`, `replace` en memoria, test de que no persiste |
-| 2 | `backend-supabase` | `feat/seccion-prompt` | Tools, receta, `flow_hint`, aliases del diagnóstico, `preview_id` en `probar_agente` |
+| 1 | `agente-conversacional-multi_tenant` | `feat/spec-seccion-prompt` | `system_prompt` opcional en `simulate-turn`, `replace` en memoria, test de que no persiste |
+| 2 | `backend-supabase` | `feat/spec-seccion-prompt` | Tools, receta, `flow_hint`, aliases del diagnóstico, `preview_id` en `probar_agente` |
 
 Merge del agente antes que el del backend. Si el backend llega primero, `probar_agente` con `preview_id` responde que el laboratorio no acepta el prompt de ensayo, y confirmar igual puede guardar. No es el camino de esta entrega.
 
