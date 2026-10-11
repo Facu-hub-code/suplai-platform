@@ -136,6 +136,10 @@ Cliente, **después** de HTTP 2xx (el supervisor ya tiene JS).
 | `vendedor_alta` | `components/vendedores/use-vendedores-management.tsx` POST `/api/vendedores` |
 | `objetivo_creado` | `components/field/FieldObjetivosAdmin.tsx` create OK |
 | `copilot_pregunta_enviada` | `components/copilot/CopilotChatView.tsx` `sendMessage` del usuario |
+| `claude_section_viewed` | `components/claude/suplai-en-claude-view.tsx` al cargar la sección (`requiere_reconexion`) |
+| `claude_connect_clicked` | mismo archivo, click del botón del hero (`estado`: `conectar`, `reconectar`, `abrir`) |
+| `claude_prompt_copied` | mismo archivo, copia exitosa (`caso`, `receta`). No incluye el texto del prompt |
+| `claude_tool_searched` | mismo archivo, búsqueda de tools con debounce (`texto`, recortado a 80) |
 
 ### Backend extra
 
@@ -263,6 +267,7 @@ Fire-and-forget (`asyncio.create_task` o thread); log warning si Mixpanel falla.
 - `CB-3`: `confirmar_pedido` Field ya confirmado (`already_confirmed`) → no re-emitir `pedido_confirmado_field` ni `tarea_completada`.
 - `CB-4`: `tareas_completadas` vacío → no emitir `tarea_completada`.
 - `CB-5`: Copilot `sendMessage` de sistema / bot → no emitir `copilot_pregunta_enviada`.
+- `CB-5b`: búsqueda de tools con menos de 2 caracteres → no emitir `claude_tool_searched`. `claude_prompt_copied` no lleva el texto del prompt.
 - `CB-6`: Dispositivo compartido en Field: logout hace `reset`; el siguiente vendedor no hereda el distinct.
 
 ---
