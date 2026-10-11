@@ -38,7 +38,7 @@ El conector deja de asumir que las listas y las promos ya existen. Claude puede 
 | Eliminar promo | `previsualizar_eliminar_promocion` + `DELETE` del servicio del backoffice | El backoffice ya borra la fila. No hay columna `activa`. Mentir un soft-delete dejaría la promo en el listado. | Poner `fecha_fin=now()`. |
 | Scope de promo | Solo `single_sku`. Un `sku_group` se rechaza al editar | v1 no abre combos. El backoffice tiene otro flujo. | Editar grupos. |
 | Permiso | `carga:escribir` / `carga:leer` como el resto del catálogo | No obliga a reconectar Claude. | Scope nuevo. |
-| Preview | Tipos `lista_precios` y `eliminar_promocion` en `mcp_accion_previews`, 30 min | Confirmar dos veces no vuelve a crear ni a borrar. | Write directo. |
+| Preview | Tipos `lista_precios` y `eliminar_promocion` en `mcp_accion_previews`, 30 min. El CHECK tiene que listarlos (sql/155) | Confirmar dos veces no vuelve a crear ni a borrar. Un tipo nuevo sin migración cae en CheckViolationError. | Write directo. Dejar el CHECK viejo. |
 
 ---
 
@@ -78,17 +78,21 @@ Un solo PR de `backend-supabase`. El spec vive en `suplai-platform`.
 
 ## Migración de base de datos
 
-Sin migración de BD. Se reutilizan `{schema}.listas_precios`, `{schema}.precios_productos` y `{schema}.promociones_semanales`. Tipos nuevos solo en `public.mcp_accion_previews.tipo`.
+`sql/155_mcp_accion_previews_lista_promo.sql`: amplia `mcp_accion_previews_tipo_check` con `lista_precios` y `eliminar_promocion`. Sin eso el preview cae en `CheckViolationError` y Claude no puede crear listas ni borrar promos.
+
+Se reutilizan `{schema}.listas_precios`, `{schema}.precios_productos` y `{schema}.promociones_semanales`. Sin columnas nuevas.
+
+Rollback: restaurar el check de `sql/153` (sin esos dos tipos). Las listas o promos ya confirmadas no se revierten.
 
 ---
 
 ## Plan de prueba en CI/CD
 
 - `tests/test_mcp_pantallas.py`: varios precios, `tamano` llega al listado, cliente con lista.
-- `tests/test_mcp_qa_conector.py` / catalogo: preview de lista vacía y clonada; promo con `promocion_id`; eliminar.
+- `tests/test_mcp_qa_conector.py` / catalogo: preview de lista vacía y clonada; promo con `promocion_id`; eliminar; el SQL del check cubre `_HANDLERS` + `_ERP`.
 - `tests/test_mcp_superficie.py`: catálogo visible = 41.
 - `tests/test_mcp_olas.py`: tools nuevas registradas.
-- Checks existentes verdes. Sin smoke de migración.
+- Checks existentes verdes. Smoke: `SELECT pg_get_constraintdef` de `mcp_accion_previews_tipo_check` incluye `lista_precios` y `eliminar_promocion`.
 
 ---
 
