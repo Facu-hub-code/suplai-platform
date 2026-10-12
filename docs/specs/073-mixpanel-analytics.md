@@ -141,6 +141,17 @@ Cliente, **después** de HTTP 2xx (el supervisor ya tiene JS).
 | `claude_prompt_copied` | mismo archivo, copia exitosa (`caso`, `receta`). No incluye el texto del prompt |
 | `claude_tool_searched` | mismo archivo, búsqueda de tools con debounce (`texto`, recortado a 80) |
 
+### Claude, mapa de zonas (`app=claude`)
+
+El iframe del mapa trackea con `mixpanel-browser`. `distinct_id` = `claude:{schema}:{usuario_id}`. Sin teléfono, mail ni nombre de comercio.
+
+| Evento | Cuándo | Props |
+|--------|--------|-------|
+| `mapa_abierto` | El mapa recibe el resultado | `tenant_schema`, `metrica`, `zonas` |
+| `zona_clickeada` | Click en un polígono | `tenant_schema`, `geozona_id`, `metrica` |
+| `chip_usado` | Chip de análisis | `tenant_schema`, `geozona_id`, `chip` |
+| `accionar_usado` | Botón de clientes en riesgo | `tenant_schema`, `geozona_id` |
+
 ### Backend extra
 
 | Evento | Archivo | Props extra |
