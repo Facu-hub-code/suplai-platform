@@ -58,7 +58,7 @@ Aplica a: `create_order`, `edit_order`, `create_order_for_client`, `edit_order_f
 
 | Tool | Sin stock |
 |------|-----------|
-| `search_products` / `search_products_by_category` | **Sí se muestran**, con `disponible: false`. El agente debe informar, no prometer entrega. |
+| `search_products` | **Sí se muestran**, con `disponible: false`. El agente debe informar, no prometer entrega. |
 | `get_product_by_code` | Match exacto; si stock ≤ 0 → **error** “sin stock” (con datos del producto). |
 | Carga a pedido | Rechazo → `missing` (ver §2.1). |
 | `suggest_order_boost` | Solo sugiere candidatos con stock disponible (o stock NULL). |
@@ -121,8 +121,8 @@ Leyenda perfiles: **C** = client/PdV · **S** = seller · **R** = reception · *
 
 | Tool | Perfil | Qué hace | Reglas / notas |
 |------|--------|----------|----------------|
-| `search_products` | C S ★ | Búsqueda semántica (RAG) | Incluye sin stock (`disponible: false`). Usar SKU solo si hay stock para pedir. |
-| `search_products_by_category` | C S ★ | Productos por categoría/tags | Disponibilidad booleana; sin cantidades de stock. |
+| `search_products` | C S ★ | Búsqueda semántica (RAG) | Incluye sin stock (`disponible: false`). Usar SKU solo si hay stock para pedir. Una familia entra por acá. |
+| `search_products_by_category` | — | En desuso | La familia va por `search_products`. La ficha queda para logs viejos. |
 | `get_product_by_code` | C S ★ | Lookup exacto por SKU | Sin stock → error (no “ok con warning”). |
 | `get_catalog_link` | C | Link tienda `tienda.suplaisales.com/{schema}?wp=…` | Deriva a catálogo web. |
 | `list_promotions` | C | Promos vigentes de la lista del cliente | Requiere cliente; filtro opcional por SKU. |

@@ -1,6 +1,6 @@
 # 109 — Mitigación: fusionar la búsqueda y sacar `search_products_by_category` de prompts, backoffice y vendedor
 
-**Estado:** Borrador  
+**Estado:** Implementado en `feat/busqueda-categoria` (agente, backend, backoffice y platform). Sin merge. El `UPDATE` de prompts está en `backend/scripts/109_reescribir_prompt_busqueda_categoria.sql` y no se corrió: va el día del deploy.  
 **Fecha:** 2026-10-12  
 **Repos:** `agente-conversacional-multi_tenant`, `backend-supabase`, `product-management-app`, `suplai-platform` (e2e y docs de producto)  
 **Ramas sugeridas:** si [108](./108-agente-busqueda-por-categoria.md) sigue sin merge, la misma `feat/busqueda-categoria` en agente y backend, y `feat/mitigacion-busqueda-categoria` en backoffice. Si el 108 ya está en la troncal, rama nueva con el mismo slug en los tres repos.  

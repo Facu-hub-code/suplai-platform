@@ -697,9 +697,9 @@ def validate_test_suite(test_cases: list, valid_skus: set, valid_tools: set, pro
                     errors.append(f"{prefix} Debe esperar la herramienta 'search_products' para desambiguar productos por nombre.")
             elif case_id == 5:
                 # Atributo semántico
-                semantic_tools = ["search_products", "search_products_by_category"]
-                if not any(t in expected_tools for t in semantic_tools):
-                    errors.append(f"{prefix} Debe esperar 'search_products' o 'search_products_by_category' para búsqueda semántica/atributo.")
+                semantic_tools = ["search_products"]
+                if "search_products" not in expected_tools:
+                    errors.append(f"{prefix} Debe esperar 'search_products' para búsqueda semántica/atributo.")
             elif case_id == 6:
                 # Producto por código
                 code_tools = ["get_product_by_code", "create_order", "load_seller_order_text"]
@@ -750,7 +750,7 @@ Línea temporal secuencial que DEBES seguir estrictamente:
    - expected_tools: ["search_products"]
    - expected_skus: [Al menos 2 SKUs del catálogo que compartan el término vago]
 5. Atributo semántico / Categoría: El usuario busca productos de una categoría del catálogo. DEBES elegir y usar uno de los nombres de categorías/tags reales que se te proveen en la lista de tags. No uses términos ausentes de la lista de tags para evitar ambigüedades.
-   - expected_tools: ["search_products"] o ["search_products_by_category"]
+   - expected_tools: ["search_products"]
    - expected_skus: [Al menos 1 SKU de producto que cumpla con el tag seleccionado]
 6. Producto por código: El usuario pide agregar un producto D usando su product_code SKU directo de forma explícita (ej. "cargame 12 unidades del código [SKU de D]").
    - expected_tools: ["get_product_by_code"], ["create_order"], ["load_seller_order_text"] o ["load_seller_order_text"]
@@ -786,7 +786,7 @@ Tipologías de los 10 casos:
    - expected_tools: Debe contener exactamente ["search_products"].
    - expected_skus: Al menos 2 SKUs reales que compartan ese término vago.
 5. Atributo semántico / Categoría: Búsqueda por un tag o categoría real provisto en la lista de tags. No uses términos ausentes de la lista de tags para evitar ambigüedades.
-   - expected_tools: ["search_products"] o ["search_products_by_category"].
+   - expected_tools: ["search_products"].
    - expected_skus: Al menos 1 SKU real de un producto que comparta el tag seleccionado.
 6. Producto por código: Pedir o consultar usando el product_code / SKU directo (ej. "Cargá el código [SKU] x 12 unidades").
    - expected_tools: ["get_product_by_code"], ["create_order"], ["load_seller_order_text"] o ["load_seller_order_text"].
