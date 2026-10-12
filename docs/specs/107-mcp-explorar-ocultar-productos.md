@@ -1,9 +1,9 @@
 # 107 — Conector: ocultar de a lotes incompletos, origen ERP real, y explorar liviano
 
-**Estado:** Borrador  
+**Estado:** Implementado en `feat/busqueda-categoria` (backend), la misma rama del 108. Sin merge.  
 **Fecha:** 2026-10-12  
 **Repos:** `backend-supabase` (tools de pantallas, listado de productos, tests)  
-**Rama sugerida:** `feat/mcp-explorar-ocultar`  
+**Rama:** `feat/busqueda-categoria` (el borrador proponía `feat/mcp-explorar-ocultar`; se implementó junto con el 108)  
 **Relaciona:** [095](./095-claude-mcp-carga-clientes-productos.md), [101](./101-mcp-listas-precios-promos.md) (`precios[]` y `tamano` hasta 100), [075](./075-filtro-productos-imagen.md) (`en_erp_staging`), [108](./108-agente-busqueda-por-categoria.md) (pesos que usa `probar_agente`)  
 **Tenant que lo pidió:** `almaro`
 
@@ -99,7 +99,7 @@ Tres huecos del conector impiden trabajar el catálogo de Almaro desde Claude.
 
 ## Orden de implementación
 
-Un solo PR de `backend-supabase`, rama `feat/mcp-explorar-ocultar` desde `origin/main`.
+Quedó en un commit de `backend-supabase` sobre `feat/busqueda-categoria`, la misma rama del 108.
 
 1. `get_productos`: booleano `en_erp` en cada fila, `WHERE` de unidad, camino de solo `COUNT` cuando el llamador pide conteo, y salto del `JSON_AGG` de precios cuando el detalle no es completo.
 2. `explorar_productos` y `previsualizar_ocultar_producto`: parámetros, shape y descripciones (`pantallas_tools.py`, `descripciones.py` si la tool está ahí).
