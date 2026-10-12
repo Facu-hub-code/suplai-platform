@@ -132,10 +132,18 @@ Checks existentes del backend en verde. No hay migración que smokear.
 
 ## Plan de prueba humana
 
-Tenant: `almaro`. Conector con permiso de carga. No hace falta el backoffice.
+Después de desplegar el backend de esta rama. El conector de Claude tiene que apuntar a ese backend y el token tiene que tener permiso de carga. Tenant: `almaro`. No hace falta el backoffice ni la tienda.
 
-1. `explorar_productos` con `origen=todos`, `texto=AG299991`, `detalle=liviano`. Anotar `en_erp` y `total`.
-2. La misma llamada con `origen=en_erp`. `en_erp` del SKU queda igual. El `total` de Almaro no tiene que bajar: todos los SKU están en el staging.
-3. `unidad=bulto` y `detalle=conteo`. El `total` es 106 (foto del 2026-10-12; si el catálogo se movió, contrastar con `caja_semantica = 'bulto'`).
-4. `unidad=unidad` y `detalle=liviano`, `tamano=100`. La respuesta trae códigos y no trae listas de precios. Cabe en el chat.
-5. `previsualizar_ocultar_producto` con un código real de Almaro y varios códigos que no existen (más de 10). El preview nombra solo el real. `inexistentes` trae el resto entero. Confirmar y ver `en_catalogo=false` solo en el real. Volver a mostrarlo con `visible=true` si ese SKU tenía que seguir publicado.
+Si se prueba en local antes del deploy: backend en `8000` y el conector apuntando a `http://localhost:8000`.
+
+| Paso | Qué hacer | OK si |
+|---|---|---|
+| 1 | `explorar_productos` con `origen=todos`, `texto=AG299991`, `detalle=liviano` | La fila de `AG299991` trae `en_erp: true`. Anotar el `total`. La fila no trae `precios`. |
+| 2 | La misma llamada con `origen=en_erp` | `en_erp` de `AG299991` sigue en `true`. El `total` de Almaro no baja: el 2026-10-12 todos los SKU estaban en `erp_products_raw`. |
+| 3 | `unidad=bulto`, `detalle=conteo` | `filas` es `[]`, `csv` es vacío y `total` es 106. Si el catálogo se movió, contrastar con `SELECT count(*) FROM almaro.productos WHERE lower(btrim(caja_semantica)) = 'bulto'`. |
+| 4 | `unidad=unidad`, `detalle=liviano`, `tamano=100` | Hasta 100 códigos, sin el array `precios`. La respuesta cabe en el chat. |
+| 5 | `detalle=completo`, `tamano=1`, un texto que devuelva un SKU | La fila trae `precios` con las listas. El default no cambió. |
+| 6 | `previsualizar_ocultar_producto` con un código real de Almaro (por ejemplo `AG299991`) y 12 códigos que no existen, `visible=false` | `aceptados` es 1. `productos` nombra solo el real. `inexistentes` trae los 12, sin corte en 10. Hay `preview_id`. |
+| 7 | Confirmar ese preview | `en_catalogo=false` solo en el código real. Los 12 inexistentes no aparecen como error de tool. |
+| 8 | `previsualizar_ocultar_producto` del mismo código real con `visible=true`, y confirmar | El SKU vuelve a `en_catalogo=true` si tenía que seguir publicado. |
+| 9 | Un lote de 101 códigos | Sigue siendo error: como máximo 100. |

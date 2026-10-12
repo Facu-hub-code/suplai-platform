@@ -162,15 +162,29 @@ Checks actuales de los cuatro repos en verde. No hace falta un smoke de Almaro e
 
 ## Plan de prueba humana
 
-Antes del SQL de prompts, con backend en `8000` y backoffice en `3000`.
+Dos momentos. El primero se puede hacer con backend y backoffice locales, después de la migración 162. El segundo es el día del deploy del agente, después de correr a mano `backend/scripts/109_reescribir_prompt_busqueda_categoria.sql`. Ese script no va en el deploy automático.
 
-1. En la pantalla de tools de Almaro, `search_products_by_category` se ve «en desuso» y no hay interruptor que la pase a activa. `search_products` sigue prendible.
-2. En el editor de prompt, pegar la viñeta vieja de Almaro y guardar. El guardado no entra y el mensaje nombra `search_products`.
-3. Sacar esa viñeta del borrador y guardar un cambio inocuo del mismo prompt. Entra.
+### Antes del SQL de prompts
 
-El día del deploy del agente, después del `UPDATE` revisado:
+Backend en `8000`. Backoffice en `3000` (`BACKEND_URL=http://localhost:8000`). Tenant: `almaro`.
 
-4. Prompt ensamblado de Almaro (v2, lee `system_prompt`) y de colormix (legacy, lee `contexto`): no aparece el nombre viejo. Ruggeri tampoco. benfresh, con v2, no lo tiene en `system_prompt`; el `contexto` reescrito tampoco lo tiene, por si el flag se apaga.
-5. `probar_agente` en Almaro, turno de cliente, «golosinas». La traza llama `search_products`. La respuesta no pide elegir categoría. Un turno de vendedor arma tools sin `search_products_by_category`.
-6. Una marca que ya funcionaba (Halls u Oreo en los casos de Almaro) sigue encontrándose por nombre.
-7. A las 48 h, `core.agent_tool_executions` no tiene filas nuevas de esa tool con error de tool desconocida. Las filas anteriores a la ventana siguen abriendo la ficha en el backoffice.
+| Paso | Qué hacer | OK si |
+|---|---|---|
+| 1 | Pantalla de tools de Almaro, buscar `search_products_by_category` | Se ve el badge «en desuso». No hay interruptor que la pase a activa. `search_products` sigue con interruptor. |
+| 2 | Abrir un log viejo de esa tool, si hay uno | La ficha abre. No queda una fila huérfana. |
+| 3 | Editor de prompt. Pegar la viñeta vieja: `Categoría amplia («golosinas») → search_products_by_category`. Guardar | No entra. El mensaje dice que esa tool ya no se ofrece y nombra `search_products`. |
+| 4 | Sacar esa viñeta del borrador y guardar un cambio inocuo del mismo prompt (un espacio o una frase que no nombre la tool) | Entra. |
+| 5 | Canvas de tools, perfil cliente y perfil vendedor | La tool no aparece conectada a ninguno de los dos. |
+
+### El día del deploy del agente
+
+Correr el script de prompts y confirmar que el `DO` final no lista ningún schema. Después:
+
+| Paso | Qué hacer | OK si |
+|---|---|---|
+| 6 | Prompt ensamblado de Almaro (v2, lee `system_prompt`) | La categoría amplia apunta a `search_products`. No aparece `search_products_by_category`. |
+| 7 | Prompt que lee colormix (legacy, `contexto`) y el de Ruggeri (`system_prompt`) | Tampoco aparece el nombre viejo. La frase del link de catálogo sigue, ahora sobre `search_products`. |
+| 8 | `contexto` de benfresh | Reescrito aunque el turno v2 no lo lea. Si alguien apaga el flag, el nombre viejo no vuelve. |
+| 9 | `probar_agente` en Almaro, turno de cliente, «golosinas» | La traza llama `search_products`. No pide elegir categoría. Los primeros tienen stock y son de esa familia. |
+| 10 | Un turno de vendedor en Almaro | La lista de tools no incluye `search_products_by_category`. |
+| 11 | A las 48 h, `core.agent_tool_executions` filtrado por esa tool | No hay filas nuevas con error de tool desconocida. Las filas anteriores a la ventana siguen abriendo la ficha. |

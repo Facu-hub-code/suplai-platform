@@ -142,13 +142,16 @@ Checks actuales de ambos repos en verde. No hace falta un smoke de datos de Alma
 
 ## Plan de prueba humana
 
-Después de desplegar agente y backend, y de aplicar el `UPDATE` de prompts del [109](./109-mitigacion-fusion-busqueda-categoria.md).
+Después de desplegar el agente y el backend de esta rama. La columna `productos.evento` ya está aplicada (migración 161). El `UPDATE` de prompts es el del [109](./109-mitigacion-fusion-busqueda-categoria.md) y corre el mismo día del deploy del agente, no antes. Sin ese `UPDATE`, los pasos 4 a 6 le piden al modelo una tool que el turno ya no tiene.
 
-Servicios: agente de laboratorio o `probar_agente` contra el schema `almaro`. No hace falta la tienda.
+Tenant: `almaro`. Tool: `probar_agente` o el laboratorio de implementación. No hace falta la tienda ni el backoffice.
 
-1. Confirmar en el prompt ensamblado que la categoría amplia apunta a `search_products` y que la tool `search_products_by_category` no está en la lista del turno.
-2. `diagnosticar_busqueda` con consulta `golosinas` y un `product_code` con stock bajo `GOMITAS` (hija de 1870). El desglose trae `categoria_token` mayor a 0, el token no figura como ausente y no sugiere un alias.
-3. La misma tool con `navidad` y un SKU de `NAVIDAD GOLOSINAS` o `NAVIDAD CHOCOLATES` con stock.
-4. Turno de cliente, cuatro frases, cada una en limpio: «golosinas», «navidad», «pan dulce navidad», «snacks».
-5. En cada una, los primeros productos tienen stock y pertenecen a esa familia. La respuesta no pide elegir entre categorías.
-6. Una marca puntual que ya funcionaba (por ejemplo un SKU de los casos reales de Almaro, Halls u Oreo) sigue encontrándose por nombre. El recorte de `similarity` no la saca del top.
+| Paso | Qué hacer | OK si |
+|---|---|---|
+| 1 | `diagnosticar_busqueda` con consulta `golosinas` y un `product_code` con stock bajo `GOMITAS` (hija de `GOLOSINAS` 1870) | El desglose trae `categoria_token` mayor a 0. El token no figura como ausente. No sugiere un alias. |
+| 2 | La misma tool con consulta `navidad` y un SKU con stock de `NAVIDAD GOLOSINAS` o `NAVIDAD CHOCOLATES` | `categoria_token` mayor a 0. El producto no queda afuera por no tener «navidad» en el nombre. |
+| 3 | La misma tool con consulta `pan dulce navidad` y un pan dulce cuya categoría o `evento` dice navidad | `name_token` cubre pan y dulce. `categoria_token` es mayor a 0 por navidad. |
+| 4 | Después del `UPDATE` de prompts: turno de cliente, frase en limpio, «golosinas» | La traza llama `search_products`. No llama `search_products_by_category`. Los primeros productos tienen stock y están bajo `GOLOSINAS` o sus hijas (`GOMITAS`, `CARAMELOS DE GOMA`, `CHUPETINES`). La respuesta no pide elegir categoría. |
+| 5 | Igual, frases separadas: «navidad», «pan dulce navidad», «snacks» | «navidad» trae `NAVIDAD *`. «pan dulce navidad» pone arriba el pan dulce de esa familia. «snacks» trae `SNACKS DE COPETIN`, `SNACKS HORNEADOS` o `SNACKS SALUDABLES`, con stock. |
+| 6 | Turno de cliente: «¿Tenés Halls?» o «oreo» | Sigue encontrando la marca por nombre. El recorte de `similarity` no la saca del top. |
+| 7 | Un turno de vendedor en Almaro | La lista de tools del turno no incluye `search_products_by_category`. |
