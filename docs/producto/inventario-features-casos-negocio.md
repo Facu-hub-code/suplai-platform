@@ -337,7 +337,7 @@ Sistema: agente, backend.
 
 - **Grafo conversacional ReAct (perfil cliente)** — loop LLM → tools → LLM con set de tools y prompt de cliente. Sistema: agente. Evidencia: `app/agent/runtime.py` (`build_graph`, `run_turn(actor_type=client)`).
 - **Búsqueda semántica de productos (RAG)** — pgvector + embeddings; devuelve SKU, precio según lista del cliente, disponibilidad. Sistema: agente. Evidencia: `app/agent/tools/rag.py` (`search_products`).
-- **Búsqueda por categoría/tags** — RAG de categorías + SQL ordenable (rotación, stock, precio). Sistema: agente. Evidencia: `app/agent/tools/categories.py` (`search_products_by_category`).
+- **Búsqueda de una familia** — `search_products` pesa categoría, padre y evento. `search_products_by_category` está en desuso. Sistema: agente. Evidencia: `app/agent/tools/rag.py`.
 - **Lookup por código de producto** — resolución exacta por SKU. Sistema: agente. Evidencia: `app/agent/tools/products.py` (`get_product_by_code`).
 - **Política "solo productos en catálogo"** — filtra `en_catalogo=true` en búsquedas y recomendaciones. Sistema: agente. Evidencia: `app/agent/tools/catalog_policy.py`.
 - **Crear pedido / carrito** — crea o reutiliza pedido abierto y carga ítems con normalización de unidades (UMV, caja, bulto, display, pallet). Sistema: agente / backend. Evidencia: `app/agent/tools/orders.py` (`create_order`).
