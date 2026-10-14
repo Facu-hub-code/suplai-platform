@@ -14,8 +14,8 @@ Cerrar lo que el spec 111 dejó a medias y sumar, en el mismo conector, las oper
 
 ### Criterios de aceptación
 
-- Con `MCP_MAPA_SCHEMAS` vacío, `guia_suplai` tema `zonas` dice que el mapa no está habilitado en esa distribuidora y no nombra `listar_geozonas` ni `mapa_zonas`. Las descripciones de `consultar_pedidos`, `explorar_clientes` y `metricas_conversaciones` tampoco nombran `geozona_id`, `agrupar_por geozona` ni `estado_compra`.
-- Con el schema en la allowlist, la receta y las descripciones vuelven a las del 111. Los chips del mapa nombran `estado_compra en_riesgo` y `metricas_conversaciones`. Comparar dispara `chip_usado`. Hay un control de pantalla completa. Los chips miden 44 px.
+- El mapa y las tools de zona están habilitados en todas las distribuidoras. No existe `MCP_MAPA_SCHEMAS`. La receta `zonas` nombra `listar_geozonas` y `mapa_zonas`. Las descripciones conservan `geozona_id`, `agrupar_por geozona` y `estado_compra`.
+- Los chips del mapa nombran `estado_compra en_riesgo` y `metricas_conversaciones`. Comparar dispara `chip_usado`. Hay un control de pantalla completa. Los chips miden 44 px.
 - Crear, agrandar, achicar, asignar vendedores, asignar clientes y desactivar una zona se escribe recién en `confirmar`. El preview no toca la base.
 - Una zona nueva armada con el anillo de clientes es el `ST_ConvexHull` de las ubicaciones primarias, cerrado, con el buffer en metros que se pidió.
 - Agrandar o achicar usa `ST_Buffer` en metros sobre la geometría guardada. Si el achique deja el polígono vacío, el preview es inválido y no hay `preview_id`.
@@ -97,8 +97,8 @@ La agenda fija (`fixed_delivery_schedule`) no está prendida. El mensaje que ve 
 | Asignación de clientes | El recompute que ya existe: `ST_Contains` de `client_locations` primaria, menor área, y no toca `geo_zone_asignacion = manual` | Es la misma regla que el botón del backoffice. El bulk por latitud y longitud ya está escrito. | Un `UPDATE` que pise también los manuales. Una asignación a mano dejaría de respetarse. |
 | Escritura | Preview y `confirmar`, igual que vendedores. Las funciones son las de `GeoZonesService` y `TerritorioService`. | El conector no escribe geometría en la primera llamada. El backoffice y Claude quedan en la misma regla. | Un tool que haga el `INSERT` directo. |
 | Scope | `vendedores:escribir` para las cinco tools de escritura. La lectura sigue en `pedidos:leer`. | El territorio ya vive con los vendedores (spec 040) y el scope existe. Un scope `zonas:escribir` obliga a otro consentimiento. | Scope nuevo. |
-| Receta con la allowlist apagada | Si el schema no está en `MCP_MAPA_SCHEMAS`, el tema `zonas` responde que el mapa no está habilitado y no lista las tools. Las descripciones de las tres tools de lectura tampoco nombran los argumentos ocultos. | Es lo que vimos con Campi: la receta manda a llamar tools que el listado no tiene. | Dejar la receta siempre visible, como pedía el 111. El 111 no previó el desvío. |
-| Allowlist | No se abre a todos los schemas en este spec. `esekau` primero, con la key de Maps, y Frost entra cuando el recorrido del 111 esté visto. | El 111 frenó la publicación hasta tener capturas. Este spec no las saltea. | Poner `del_corro` y `cordoba_frost` el día del deploy. |
+| Receta | El tema `zonas` nombra las tools en todas las distribuidoras. Las descripciones conservan `geozona_id`, `agrupar_por geozona` y `estado_compra`. | Sin allowlist no hay tools ocultas que la receta pudiera nombrar de más. | Una receta corta que diga que el mapa no está habilitado. |
+| Allowlist | No hay. `MCP_MAPA_SCHEMAS` se elimina. Todas las distribuidoras ven el mapa y las tools de zona. | El filtro dejaba a Campi y a Frost sin el mapa que ya usan en el backoffice. | Abrir de a un schema (`esekau`, después Frost). |
 | Vértices a mano | Fuera de esta entrega | El backoffice ya dibuja el polígono. El conector agrega el anillo y el buffer. | Un tool que reciba el anillo coordenada por coordenada. |
 | Iframe | `listar_geozonas`, `mapa_zonas`, las cinco previsualizaciones y `confirmar` de una zona devuelven el mapa. El HTML pinta el polígono propuesto en azul. | El supervisor tiene que ver el anillo antes de decir que sí, no solo el texto. | Mostrar el mapa solo cuando piden `mapa_zonas`. |
 | Pantalla de permisos | Cuatro frases: ver, editar, ensayar y reportar. `offline_access` no se lista. | Claude pide todos los scopes y la pantalla era un recuadro por permiso. | Un scope nuevo de zonas, que alargaba el consentimiento otra vez. |
@@ -149,7 +149,7 @@ Todas devuelven `valido`, un resumen en castellano y, si `valido` es true, `prev
 | 1 | `suplai-platform` | `feat/mcp-zonas-escritura` | Este spec. |
 | 2 | `backend-supabase` | `feat/mcp-zonas-escritura` | Primero el cierre del 111 (receta, descripciones, HTML, tests). Después los grants. Después el servicio de anillo y buffer. Después las tools. Al final `quote_delivery`. |
 | 3 | `suplai-sales-claude-plugin` | `feat/mcp-zonas-escritura` | La skill de `zonas` nombra las tools de preview y recuerda que `confirmar` escribe. |
-| 4 | Operación | — | Key y Map ID en el servicio MCP. `MCP_MAPA_SCHEMAS=esekau`. Capturas. Recién ahí se evalúa sumar `cordoba_frost`. |
+| 4 | Operación | — | Key y Map ID de Google Maps en el servicio MCP, para que el iframe pinte en todas las distribuidoras. |
 
 El agente no cambia: ya muestra el `message` de `quote_delivery`.
 
@@ -175,10 +175,10 @@ Riesgo: bajo. No reescribe polígonos al aplicar el grant. El primer polígono c
 
 En `backend-supabase`, junto a `tests/test_mcp_geozonas.py`:
 
-- Allowlist vacía: la receta `zonas` no nombra `listar_geozonas` ni `mapa_zonas`, y las descripciones de las tres tools de lectura no nombran `geozona_id`. Con `MCP_MAPA_SCHEMAS=esekau`, la receta vuelve a nombrarlas.
+- Sin variable de allowlist, `mapa_habilitado` es true para `del_corro` y para `cordoba_frost`. El listado conserva `mapa_zonas`, `previsualizar_zona` y el argumento `geozona_id`. La receta nombra las tools.
 - El monto y la cantidad de una zona en el armado de `mapa_zonas` son los de `consultar_pedidos` con el mismo id y el mismo período.
 - La suma de `agrupar_por=geozona`, incluida la fila «Sin zona», cierra con `total_pedidos`.
-- El catálogo del admin incluye `listar_geozonas` y `mapa_zonas` cuando el schema está en la allowlist, y no las incluye cuando no está.
+- El catálogo incluye `listar_geozonas` y `mapa_zonas` para cualquier schema.
 - Hull de tres puntos: el polígono contiene los tres. Un punto a 100 m afuera queda afuera con `metros = 0` y adentro con `metros = 200`.
 - Buffer negativo que vacía el polígono: `valido` es false y no hay `preview_id`.
 - Recompute: un punto `auto` dentro del polígono cambia de zona; uno `manual` no.
@@ -189,10 +189,10 @@ En `backend-supabase`, junto a `tests/test_mcp_geozonas.py`:
 
 ## Plan de prueba humana
 
-Backoffice en `3000`, backend en `8000`, MCP en `8100`. `MCP_MAPA_SCHEMAS=esekau` para el mapa. La escritura se prueba en un schema de prueba, no en Frost, hasta tener el preview a la vista.
+Backoffice en `3000`, backend en `8000`, MCP en `8100`. No hace falta `MCP_MAPA_SCHEMAS`. La escritura se confirma solo en una zona de prueba, y se desactiva al final. En Frost no se confirma ninguna escritura.
 
-1. Con un tenant que no esté en la allowlist, pedir «mostrame las zonas». Claude no llama `listar_geozonas`. La receta dice que el mapa no está habilitado.
-2. En `esekau`, «¿cómo viene la zona …?» no abre el mapa y sí filtra por `geozona_id`. «Mostrame el mapa» carga polígonos, sin error de CSP. El chip de recuperar nombra `en_riesgo`. El del agente nombra `metricas_conversaciones`. Comparar dos zonas y accionar llegan a un mensaje, sin confirmar envío.
+1. En Campi y en Córdoba Frost, pedir «mostrame las zonas». Claude llama `listar_geozonas` en las dos. La receta nombra las tools.
+2. «¿cómo viene la zona …?» filtra por `geozona_id`. «Mostrame el mapa» carga polígonos, sin error de CSP. El chip de recuperar nombra `en_riesgo`. El del agente nombra `metricas_conversaciones`. Comparar dos zonas y accionar llegan a un mensaje, sin confirmar envío.
 3. En el schema de prueba, nombrar tres clientes con coordenada y pedir una zona de reparto con 500 metros de margen. El preview muestra el área. Recién el sí escribe la fila. El mapa del backoffice muestra el polígono nuevo.
 4. Pedir achicar esa zona 5 km. Si el preview dice que desaparece, no hay botón de confirmar útil: `valido` es false.
 5. Asignar un vendedor y correr la asignación de clientes. Un cliente `manual` no se mueve.
