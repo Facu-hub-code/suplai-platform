@@ -106,6 +106,7 @@ Migraciones oficiales viven en `backend/`.
 | `n8n-railway-mcp` | Operación n8n en Railway |
 | `enhance-descriptions` | Optimizar descripciones comerciales |
 | `feature-test-guide` | Guías de prueba de features |
+| `agregar-erp-mcp` | Sumar un ERP al MCP: lectura cruda y carga de faltantes |
 | `novedades-from-chat` | Borrador de novedad GEO para la landing a partir de un dump de chat |
 | `validar-telefonos-checknumber` | Validar en bulk los teléfonos de `{schema}.clients` con checknumber.ai |
 
