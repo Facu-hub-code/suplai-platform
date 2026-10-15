@@ -1,0 +1,29 @@
+---
+description: Capas del backend — MCP, API, dominio y acceso a datos. Código nuevo no cruza la dirección.
+alwaysApply: true
+---
+
+# Backend — capas y dirección
+
+Repo `backend/`. Cuatro capas. El código nuevo respeta la dirección. La deuda vieja no es el patrón a copiar.
+
+| Capa | Dónde | Hace | No hace |
+|---|---|---|---|
+| MCP | `mcp_server/` | Scope, auditoría, texto de la tool, `preview_id` | SQL de negocio, match, INSERT, reglas de precio o estado |
+| API | `routers/` | HTTP: body, status, auth del request | SQL nuevo. No es la fachada que llama el MCP |
+| Dominio | `services/` (no el adaptador MCP) | Valida, decide, orquesta efectos. Lo usan API, MCP, tienda y Field | Importar `routers` |
+| Datos | `data_access/` | SQL. Ver el docstring del paquete | FastAPI, `ToolError`, decidir si una fila es válida |
+
+Dirección: `mcp_server` → servicio → `data_access` → `core.db`. El router entra al mismo servicio, nunca al revés.
+
+`services/mcp_*` es adaptador del conector: guarda el preview de sesión (`public.mcp_carga_previews`) y traduce errores. La decisión de negocio vive en el servicio de dominio. El adaptador no reimplementa el INSERT ni importa un router.
+
+- **MUST**: una tool nueva llama un servicio. Si hoy la única implementación está en un router con SQL, extraer servicio + `data_access` en el mismo cambio, y que el router quede delegando.
+- **MUST NOT**: `from routers…` dentro de `services/`.
+- **MUST NOT**: SQL de tablas de tenant en `mcp_server/` (la excepción existente es `mcp_auditoria` y textos de tools).
+- **MUST NOT**: copiar el atajo de `services/mcp_carga.py`, que importa `routers.productos` y escribe SQL en el servicio.
+- **SHOULD**: código viejo que ya cruza capas se deja. No hay refactor masivo dentro del PR de una feature.
+
+Referencia que sí cierra: `routers` delega en `services/pedidos_delete_service.py`, y ese servicio llama `data_access/pedidos_delete.py`.
+
+`tienda_confirm_pedido_core` y `tienda_patch_pedido` son del canal tienda: exigen teléfono, resuelven el cliente por ese teléfono y, al confirmar, escriben el mensaje de WhatsApp. Field los envuelve y encima dispara tareas y Mixpanel. Una tool MCP que identifica al cliente por `codigo` no los llama directo: pasa por una función de dominio que no pida el teléfono del canal.

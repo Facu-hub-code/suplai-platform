@@ -1,0 +1,21 @@
+---
+description: Conciliación ERP del conector MCP. Lectura cruda por el conector, escritura en la tool de carga. Cómo sumar un ERP nuevo.
+alwaysApply: true
+---
+
+# ERP en el MCP — lectura y carga
+
+Spec índice: `docs/specs/117-mcp-canal-erp-o-carga.md`. Skill: `.cursor/skills/agregar-erp-mcp/SKILL.md`. Capas: `backend-capas.mdc`.
+
+Dos canales. La escritura de pedidos es una sola (`previsualizar_carga_pedidos`). La lectura existe solo si hay API.
+
+- **MUST**: `traer_pedidos_erp`, `traer_clientes_erp`, `traer_productos_erp`, `traer_precios_erp` y `traer_promociones_erp` llaman `services/erp_lectura_service.py`, y ese servicio llama `fetch_*` del conector. No escriben `erp_*_raw` ni `pedidos_externos`.
+- **MUST**: `vista=claves` tiene tope 5000 e incluye los ids del ERP que todavía no están en Suplai. `vista=detalle` pide `ids`, con tope 100, y ahí sí viaja el `extra`.
+- **MUST**: al cargar, el dominio rechaza el pedido si el cliente no coincide o si un producto del renglón no está en `productos`. Rechaza el precio si el producto o la `lista_id` no coinciden. Rechaza la promo si no trae lista vinculada o si un producto del combo no coincide. La respuesta trae `faltantes` con esos ids. El confirmar no inserta la entidad que falta.
+- **MUST NOT**: usar `sync_orders_to_raw`, `sync_prices_for_schema` ni `sync_customers_to_raw` desde esas tools. El job de las 6 horas sigue: precio y stock según `sync_frequency`, y el resto según la capability del perfil.
+- **MUST**: el conector nuevo implementa `fetch_products`, `fetch_prices`, `fetch_customers` y `fetch_orders`. Pone el documento del vendor en `extra` del DTO. Si no hay promociones, `fetch_promotions` devuelve `[]` y la tool dice que no están soportadas.
+- **MUST NOT**: mapear campos de Odoo, GEV u otro vendor dentro de `mcp_server/` ni de `services/mcp_*`.
+- **MUST**: sin fila en `core.erp_connector_configs`, o con `gescom_onprem`, las tools de lectura dicen que no hay API. No tratan el `[]` de GESCOM como “el ERP está vacío”.
+- **MUST**: la carga de faltantes entra por el [116](../../docs/specs/116-mcp-pedidos-crud.md), también cuando la fila la armó Claude a partir de `traer_pedidos_erp`.
+- **MUST NOT**: en esta conciliación, crear o editar un pedido Suplai `abierto`, ni llamar `tienda_confirm_pedido_core`, ni cambiar `push_orders_enabled`.
+- **MUST**: un ERP nuevo suma sub-spec, tenant de prueba real (uno por tipo) y entrada en la skill antes del PR.
