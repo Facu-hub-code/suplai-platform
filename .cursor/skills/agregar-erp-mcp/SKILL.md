@@ -13,7 +13,7 @@ Leé la regla `.cursor/rules/erp-mcp-conciliacion.mdc` y el spec `docs/specs/117
 
 ## Qué tiene que pasar
 
-Claude llama `traer_*`, ve el dato del ERP y después llama la tool de carga que ya existe, solo con lo que falta. La lectura no escribe el espejo.
+Claude llama `traer_*` para clientes, productos, precios y promociones. Los pedidos de un ERP con API no se leen por tool: los baja el job y Claude los consulta con `consultar_pedidos` (`origen` = `erp`, `suplai` o `tienda`). La lectura no escribe el espejo.
 
 ## Checklist
 
@@ -35,8 +35,8 @@ Claude llama `traer_*`, ve el dato del ERP y después llama la tool de carga que
 
 En el tenant de ese tipo, con el MCP de prueba:
 
-1. `traer_pedidos_erp`, `traer_clientes_erp`, `traer_productos_erp`, `traer_precios_erp`, `traer_promociones_erp`.
-2. Confirmar que no aparecieron filas nuevas en `erp_orders_raw` ni en `pedidos_externos` por esa lectura.
+1. `traer_clientes_erp`, `traer_productos_erp`, `traer_precios_erp`, `traer_promociones_erp`. Los pedidos se miran con `consultar_pedidos` y el campo `origen`.
+2. Confirmar que esa lectura no escribió filas nuevas en `erp_orders_raw` ni en `pedidos_externos`.
 3. Armar un lote de una fila faltante y previsualizar la carga. Confirmar solo si la persona dice que sí.
 4. Si el ERP no tiene API, el paso 1 tiene que decirlo, y la carga sale de un Excel.
 

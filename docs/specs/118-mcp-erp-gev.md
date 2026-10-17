@@ -15,7 +15,7 @@
 
 ### Criterios de aceptación
 
-- `traer_pedidos_erp` devuelve `ErpOrder` y, en `extra`, la fila original de GEV.
+- Los pedidos de GEV entran por el job a `erp_orders_raw` y la proyección los escribe en `pedidos` con `origen=erp`. Claude los ve con `consultar_pedidos`.
 - `traer_precios_erp` sale de `getListaPrecios` y `getDetallePrecios` con el `id_vendedor` del conector.
 - `traer_promociones_erp` devuelve combos, porque GEV implementa `fetch_promotions`.
 - Ninguna de esas llamadas escribe `erp_orders_raw` ni `pedidos_externos`.
@@ -72,7 +72,7 @@ Sin migración.
 
 ## Plan de prueba en CI/CD
 
-Una fila GEV con neto 100 llega al DTO en 121. `traer_pedidos_erp` no llama `sync_orders_to_raw`.
+Una fila GEV con neto 100 llega al DTO en 121. La lectura del MCP no llama `sync_orders_to_raw` ni `fetch_orders`.
 
 ---
 
@@ -83,7 +83,7 @@ Tenant `gonzales`. El mismo recorrido sirve en `almaro`: los dos son GEV. MCP de
 1. `traer_productos_erp` en claves. El maestro entero, si entra en 5000, llega en un llamado, incluidos los sku que Suplai no tiene.
 2. `traer_precios_erp` en claves para una lista. Previsualizar la carga de esos precios. Si faltan productos, la respuesta trae los sku en `faltantes.productos` y no inserta la lista ni el producto.
 3. Con esos sku, `traer_productos_erp` en detalle. Previsualizar el alta de productos. Confirmar solo con un sí. Repetir la lista de precios: esos sku ya no salen en `faltantes`.
-4. `traer_pedidos_erp` y `traer_clientes_erp`. Un precio de muestra tiene que ser el final, no el neto.
+4. `consultar_pedidos` muestra filas `origen=erp`. `traer_clientes_erp`. Un precio de muestra tiene que ser el final, no el neto.
 5. `traer_promociones_erp`. Si GEV devolvió combos, se ven. Si la API vino vacía, la tool dice lista vacía con `soportado: true`.
 6. Las lecturas no agregan filas en `erp_orders_raw` ni en `pedidos_externos`.
 7. Elegir un comprobante que no esté en Suplai. `previsualizar_carga_pedidos` con esa sola fila. Si el cliente o un producto faltan, vienen en `faltantes`. Confirmar el pedido solo cuando ya coinciden, y solo con un sí.
