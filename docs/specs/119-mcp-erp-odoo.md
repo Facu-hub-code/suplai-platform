@@ -19,7 +19,7 @@ Gonzales no se prueba acá. Es GEV.
 
 - `erp_list_id` es el id numérico de `product.pricelist`, con moneda.
 - Un ítem de precio fijo llega con ese importe, sin IVA de GEV.
-- `traer_pedidos_erp` no escribe `erp_orders_raw` ni llama `push_order`.
+- Los pedidos de Odoo entran por el job. `consultar_pedidos` los muestra con `origen=erp`. La lectura del MCP no escribe `erp_orders_raw` ni llama `push_order`.
 - `traer_promociones_erp` responde `soportado: false`.
 
 ## Claves, página y validación
@@ -83,7 +83,7 @@ Un `product.pricelist` falso con precio fijo 80 llega al DTO en 80. `traer_promo
 Tenant `benfresh`. Solo lectura, y como máximo una fila de carga.
 
 1. `traer_precios_erp`. El nombre de la lista es el de Odoo y trae moneda.
-2. `traer_pedidos_erp`. En `extra` se reconoce un `sale.order` (id, name, amount_total o el campo que el conector haya guardado).
+2. `consultar_pedidos` con `origen=erp`. El documento `sale.order` queda en el espejo, no en una tool de lectura.
 3. `traer_clientes_erp` y `traer_productos_erp`.
 4. `traer_promociones_erp` dice que no están soportadas.
 5. Esas lecturas no agregan filas a `erp_orders_raw` ni a `pedidos_externos`.
