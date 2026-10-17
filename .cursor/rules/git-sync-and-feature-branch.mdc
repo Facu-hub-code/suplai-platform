@@ -153,6 +153,7 @@ Cuando el agente termina cambios (o el usuario pide subirlos):
 
 - `gh pr merge` o merge desde CLI.
 - Push directo a `main` / `master` (salvo pedido explícito).
+- Hard push o push directo a `staging` en backend y agente. El camino es un PR con base `staging` (`.cursor/rules/git-staging-pr.mdc`).
 - `git checkout` / `git switch` a **troncal** en medio de una feature sin avisar al usuario.
 
 Si ya existe un PR para la rama, **actualizarlo** (push a la misma rama) en lugar de duplicar.
