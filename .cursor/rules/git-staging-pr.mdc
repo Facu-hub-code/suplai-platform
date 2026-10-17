@@ -1,0 +1,36 @@
+---
+description: Staging de backend y agente entra por PR. Prohibido el hard push que pisa commits de otro dev.
+alwaysApply: true
+---
+
+# Git — staging entra por PR
+
+`staging` en **backend** (`backend-supabase`) y **agente** (`agente-conversacional-multi_tenant`) la usan varios devs. Railway de staging despliega esa rama. Un hard push la deja igual a `main` / `master` y borra los commits del otro.
+
+Complementa `.cursor/rules/git-sync-and-feature-branch.mdc`. La troncal de producto sigue siendo `main` / `master`. Esta regla aplica cuando el destino pedido es **staging**.
+
+## Prohibido
+
+- `git push --force`, `--force-with-lease` o `+refs/heads/staging` hacia `staging`.
+- `git push origin HEAD:staging`, `git push origin +HEAD:refs/heads/staging` o cualquier push que mueva `staging` a tu HEAD.
+- Volver a agregar el workflow que hace `git push origin +HEAD:refs/heads/staging`. Esos archivos se sacaron: `sync-staging-with-main.yml` en backend y `sync-staging-with-master.yml` en agente.
+
+## Cómo probar en staging
+
+La rama feature sale de `main` (en el agente, de `master`) y no se le mete `staging` encima. Si se mergea `origin/staging` en la feature, los commits del otro dev entran al PR hacia la troncal.
+
+1. Seguir en la rama feature (`feat/…` / `fix/…`). No commitear en `staging`.
+2. Push solo de la rama feature: `git push -u origin HEAD`.
+3. PR con base `staging`: `gh pr create --base staging`. GitHub suma solo los commits de la feature encima de lo que ya está en `staging`.
+4. Si hay conflictos, se resuelven en ese PR. El merge queda en `staging`. No se trae `staging` de vuelta a la feature.
+5. Entregar la URL. El humano mergea. El agente no hace `gh pr merge`.
+
+Si ya hay un PR de esa rama hacia `staging`, actualizar la rama. No abrir otro ni pushear encima de `staging`.
+
+## Si el cambio está bien
+
+Otro PR de la misma rama hacia `main` o `master`. Esa rama sigue basada en la troncal, así que el otro dev no entra a producción.
+
+## Cuando la troncal avanza
+
+`main` y `master` ya no se copian solos a `staging`. Para llevar la troncal a staging, un PR con base `staging` y head `main` (en el agente, `master`). Es un merge, no un reset. Los commits que solo viven en `staging` se quedan.
