@@ -13,7 +13,7 @@
 
 Una sola tool persiste los pedidos del ERP que todavía no están en Suplai, y da de baja los que esta misma carga había guardado y ya no vienen en la fuente.
 
-Sin API, Claude lee el Excel y arma el lote. Con API, Claude lee `traer_pedidos_erp` y arma el lote solo con los faltantes. El confirmar no sabe de cuál de los dos salió.
+Sin API, Claude lee el Excel y arma el lote. Con API, los pedidos entran por el job y la proyección, y Claude los ve con `consultar_pedidos` (`origen=erp`). Esta tool no es el camino de las métricas.
 
 ### Criterios de aceptación
 
@@ -21,7 +21,7 @@ Sin API, Claude lee el Excel y arma el lote. Con API, Claude lee `traer_pedidos_
 - Confirmar dos veces el mismo `preview_id` no inserta de nuevo.
 - `accion: baja` solo borra filas de `pedidos_externos` de ese schema. No borra un pedido `origen` suplai, tienda o erp.
 - La tool no llama `sync_orders_to_raw` ni `tienda_confirm_pedido_core`.
-- Sirve en `del_corro` y en `gonzales`. En Gonzales el lote lo arma Claude después de `traer_pedidos_erp`, no un pull que escriba el espejo.
+- Sirve en `del_corro`, donde no hay API. En un tenant con API el histórico no se carga por esta tool: lo escribe la proyección.
 
 ---
 
@@ -47,7 +47,7 @@ El adaptador no importa `routers` ni un conector ERP. No copia `services/mcp_car
 | Baja | `accion: baja` con `numero_comprobante`. Solo si la fila está en `pedidos_externos` | El Excel nuevo puede no traer un comprobante que se cargó antes | Borrar `pedidos` de la tienda o de Field |
 | Ya existe | Mismo comprobante en el lote, en `pedidos_externos`, o en `pedidos.erp_reference_id` | La proyección vieja del ERP ya pudo ocupar ese número | Insertar igual |
 | Código | `clients.codigo` es `numeric` en los 40 schemas. Se compara numérico | `"0012"` y `12` son el mismo código | Tratarlo como texto libre |
-| Formato | `fecha`, `codigo` o `erp_partner_id`, `total`, `numero_comprobante`. Renglones con `product_code` y `cantidad` cuando el comprobante los trae. Opcionales: `estado`, `canal` | El cliente y cada producto se validan por identificador. Claude lo arma desde el Excel o desde el detalle de `traer_pedidos_erp` | Pedirle al conector que escriba esta tabla |
+| Formato | `fecha`, `codigo` o `erp_partner_id`, `total`, `numero_comprobante`. Renglones con `product_code` y `cantidad` cuando el comprobante los trae. Opcionales: `estado`, `canal` | El cliente y cada producto se validan por identificador. Sin API, Claude lo arma desde el Excel | Pedirle al conector que escriba esta tabla |
 | Coincidencia | El cliente resuelve a `clients` (`codigo` numérico o `partner_erp_id`). Cada `product_code` existe en `productos.product_code`. Si no, la fila se rechaza y `faltantes` lista esos ids | Claude puede pedir el detalle en el ERP y cargar el cliente o el producto antes de repetir el pedido. El confirmar de pedidos no los crea | Aceptar la fila y dejar el renglón colgado, o insertar el producto dentro del mismo confirmar |
 | Tope | 5000 filas por preview. La respuesta al chat no repite las aceptadas: conteos, `faltantes` y hasta 100 motivos | Diez mil pedidos en tandas de 100 son cien idas al MCP. La fila de cabecera es chica. Lo pesado es devolverle a Claude cada aceptada | Dejar el tope en 100, o devolver las 5000 filas aceptadas en el chat |
 | Scope | `pedidos:escribir`, fuera del bypass `CONECTOR_ACEPTA_TOOLS_NUEVAS` | Cargar comprobantes es otro consentimiento que leer | Darlo por concedido a quien ya tiene `pedidos:leer` |
@@ -66,7 +66,7 @@ El adaptador no importa `routers` ni un conector ERP. No copia `services/mcp_car
 ### Fuera de alcance
 
 - Crear, editar o confirmar un pedido `abierto` de Suplai.
-- `traer_pedidos_erp` (está en el [117](./117-mcp-canal-erp-o-carga.md)).
+- Bajar pedidos del ERP por MCP. Con API los escribe el job ([117](./117-mcp-canal-erp-o-carga.md)).
 - Push al ERP y `sync_orders_to_raw`.
 - Borrar un pedido de tienda, Field o del agente.
 
@@ -74,7 +74,7 @@ El adaptador no importa `routers` ni un conector ERP. No copia `services/mcp_car
 
 ## Orden de implementación
 
-Después de que `traer_pedidos_erp` exista. Un PR en `backend-supabase`: migración, `data_access`, dominio, adaptador, tool.
+Un PR en `backend-supabase`: migración, `data_access`, dominio, adaptador, tool. No depende de una tool de lectura de pedidos.
 
 ---
 
@@ -120,4 +120,4 @@ Pytest de servicio, sin MCP real:
 
 ## Plan de prueba humana
 
-La corrida por tenant está en el sub-spec de cada ERP. En todas: previsualizar, no confirmar hasta ver el preview, confirmar una sola fila de prueba, confirmar otra vez y ver que no duplica. En `del_corro` la fuente es un Excel de 3 filas (una con código malo). En `gonzales` la fuente es `traer_pedidos_erp` y el lote es un faltante, no el histórico.
+La corrida por tenant está en el sub-spec de cada ERP. En todas: previsualizar, no confirmar hasta ver el preview, confirmar una sola fila de prueba, confirmar otra vez y ver que no duplica. En `del_corro` la fuente es un Excel de 3 filas (una con código malo). En un tenant con API, los pedidos de métricas se miran con `consultar_pedidos`, no se cargan por esta tool.

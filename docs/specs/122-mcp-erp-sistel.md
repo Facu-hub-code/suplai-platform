@@ -17,7 +17,7 @@
 
 - Con vista, `erp_list_id` sale de `IDLista`.
 - Sin vista, el preview de precios dice que la lista es sintética.
-- `traer_pedidos_erp` no escribe el espejo.
+- Los pedidos de Sistel entran por el job. `consultar_pedidos` los muestra con `origen=erp`. La lectura del MCP no escribe el espejo.
 - `traer_promociones_erp` responde `soportado: false`.
 
 ## Claves, página y validación
@@ -72,7 +72,7 @@ Con vista, `PrecioFinal` 50 llega como 50. Sin vista, `extra.synthetic` es verda
 Tenant `rawson`.
 
 1. `traer_precios_erp`. Anotar si la lista es de la vista o sintética.
-2. `traer_pedidos_erp`, `traer_clientes_erp`, `traer_productos_erp`.
+2. `consultar_pedidos` (`origen=erp`), `traer_clientes_erp`, `traer_productos_erp`.
 3. `traer_promociones_erp` dice que no están soportadas.
 4. Sin filas nuevas en `erp_orders_raw` ni en `pedidos_externos`.
 5. Una fila faltante por el [116](./116-mcp-pedidos-crud.md), confirmar solo con un sí.

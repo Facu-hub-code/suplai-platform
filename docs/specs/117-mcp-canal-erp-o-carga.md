@@ -11,16 +11,16 @@
 
 ## Objetivo
 
-Claude puede saber si Suplai tiene al día los clientes, productos, precios, promociones y pedidos del ERP, y cargar solo lo que falta.
+Claude puede saber si Suplai tiene al día los clientes, productos, precios y promociones del ERP, y cargar solo lo que falta. Los pedidos de un ERP con API no se piden por tool.
 
-Sin API, la fuente es el Excel. Con API, la fuente es una tool de lectura que llama al conector y devuelve el dato. En los dos casos la escritura de pedidos es la misma tool, la del [116](./116-mcp-pedidos-crud.md). Esa lectura no corre `sync_orders_to_raw` ni escribe `erp_orders_raw`.
+Sin API, la fuente de comprobantes es el Excel y la escritura es la tool del [116](./116-mcp-pedidos-crud.md). Con API, el job baja los pedidos a `erp_orders_raw` y la proyección los escribe en `pedidos`. Claude los consulta con `consultar_pedidos`. Cada fila trae `origen` (`erp`, `suplai` o `tienda`). Esa lectura de clientes, productos, precios y promociones no corre `sync_orders_to_raw` ni escribe el espejo.
 
 ### Criterios de aceptación
 
-- En Del Corro, `traer_pedidos_erp` dice que no hay API y no llama `fetch_orders`.
-- En Gonzales, `traer_pedidos_erp` devuelve pedidos de GEV y no inserta en `pedidos_externos` ni en `erp_orders_raw`.
-- Claude, con ese resultado, llama `previsualizar_carga_pedidos` solo con los que faltan. Confirmar persiste esos.
-- `traer_clientes_erp`, `traer_productos_erp`, `traer_precios_erp` y `traer_promociones_erp` siguen la misma regla: leen, no escriben.
+- No existe `traer_pedidos_erp`. Pedirle pedidos al MCP no llama `fetch_orders`.
+- En Gonzales, `consultar_pedidos` devuelve filas con `origen=erp` que escribió la proyección, no una lectura en vivo de GEV.
+- Sin API, Claude arma el lote del [116](./116-mcp-pedidos-crud.md) desde un archivo.
+- `traer_clientes_erp`, `traer_productos_erp`, `traer_precios_erp` y `traer_promociones_erp` leen y no escriben.
 - Un ERP sin promociones devuelve lista vacía y lo dice. No inventa combos.
 
 ---
@@ -57,10 +57,10 @@ El resto de las bajadas no mira `sync_frequency`. Si la capability del perfil es
 | Listas al espejo | `erp_price_lists_raw` | `pull_price_list_headers` | Todos los perfiles, incluido GESCOM. El fetch de GESCOM vuelve vacío |
 | Precios al espejo | espejo de precios | Encima, `pull_prices` | Igual que las cabeceras |
 | Pedidos al espejo | `erp_orders_raw` | `pull_orders` | GEV, Odoo, Cianbox, Galileo, Sistel. No GESCOM |
-| Pedidos proyectados | `pedidos` | Después del pull, solo si el conector está en la proyección automática | Galileo, Odoo, GEV, Sistel. Cianbox baja el espejo y no proyecta |
+| Pedidos proyectados | `pedidos` | Después del pull, si el conector está en la proyección automática | Galileo, Odoo, GEV, Sistel y Cianbox |
 | Clientes al espejo | `erp_customers_raw` | `pull_customers` | Los mismos que bajan pedidos, menos el matiz de GESCOM que está apagado. No crea `clients` |
 | Cola de clientes nuevos | cola de onboarding | `customer_onboarding_queue` | Odoo, Galileo, Sistel |
-| Stub de cliente al proyectar | `clients` con teléfono `gev-*` | `create_stub_customers_on_project` | El perfil GEV lo tiene prendido. Almaro lo apaga en el override. Gonzales lo deja prendido |
+| Stub de cliente al proyectar | `clients` con teléfono sintético, `activo_ai` en falso | `create_stub_customers_on_project` | GEV y Cianbox lo tienen prendido. Almaro lo apaga en el override. Gonzales lo deja prendido |
 | Vendedores | vendedores y cartera | `pull_sellers` | GEV, Galileo, Sistel |
 | Promociones | promos de GEV | `pull_promotions` y conector `gev` | Gonzales y Almaro |
 | Push de pedidos Suplai | el ERP | `push_orders_enabled` en la config, no en la capability | Córdoba Frost, El Gigante, Benfresh, Dimer. Apagado en GEV, Sistel y GESCOM |
@@ -90,13 +90,12 @@ Todas con `erp:leer`, `readOnlyHint = true`. Los topes están en límites y par�
 
 | Tool | Método del conector |
 |---|---|
-| `traer_pedidos_erp` | `fetch_orders` |
 | `traer_clientes_erp` | `fetch_customers` |
 | `traer_productos_erp` | `fetch_products` |
 | `traer_precios_erp` | `fetch_price_list_headers` y `fetch_prices` |
 | `traer_promociones_erp` | `fetch_promotions` |
 
-Sin API (`gescom_onprem` o sin config) las cinco responden que no hay endpoint. No disfrazan el `[]` de GESCOM como “el ERP no tiene pedidos”.
+Sin API (`gescom_onprem` o sin config) las cuatro responden que no hay endpoint. No disfrazan el `[]` de GESCOM como “el ERP está vacío”. Los pedidos de quien tiene API no salen de estas tools: los escribe el job.
 
 ### Límites y parámetros
 
@@ -117,7 +116,6 @@ La lectura de claves y el detalle no tienen el mismo tope. Una clave es un ident
 | `traer_clientes_erp` | `erp_partner_id` y, si el conector lo tiene, `codigo` |
 | `traer_precios_erp` | `product_sku`, `lista_id` |
 | `traer_promociones_erp` | `codigo_combo`, `lista_id`, `sku` de cada ítem |
-| `traer_pedidos_erp` | `erp_order_id`, identificador de cliente, `sku` de cada renglón |
 
 Sin nombres, sin montos y sin `extra` en `claves`.
 
@@ -182,7 +180,7 @@ La escritura de clientes y productos sigue en el [095](./095-claude-mcp-carga-cl
 |---|---|
 | 1 | `erp_lectura_service` + tools de lectura + compuerta. Tests sin red |
 | 2 | [116](./116-mcp-pedidos-crud.md), la carga compartida |
-| 3 | Cada sub-spec solo si el conector todavía no llena `extra` o no expone una de las cinco lecturas |
+| 3 | Cada sub-spec solo si el conector todavía no llena `extra` o no expone clientes, productos, precios o promociones |
 
 El 095 y el 098 no se reescriben.
 
@@ -198,8 +196,8 @@ Sin migración para la lectura. La tabla de la carga está en el [116](./116-mcp
 
 Pytest sin red y sin rol `mcp_connector`:
 
-- `gev` → `traer_pedidos_erp` llama `fetch_orders` y no llama `sync_orders_to_raw`.
-- `gescom_onprem` → no llama `fetch_orders` y el texto dice que no hay API.
+- Pedir la entidad `pedidos` a `erp_lectura_service` es error y no llama `fetch_orders`.
+- `gescom_onprem` → no llama al fetch y el texto dice que no hay API.
 - `traer_promociones_erp` con el default de la base devuelve `soportado: false` y lista vacía.
 - `vista=claves` con 1200 sku devuelve las 1200 en un llamado, `hay_mas` en falso. Con 6000 devuelve 5000, `hay_mas` y un `cursor`. `vista=detalle` sin `ids` no llama al conector. `vista=detalle` con 101 ids se rechaza.
 - Un precio cuyo sku no está en `productos` sale `rechazada` y `faltantes.productos` trae ese sku. Un pedido con cliente o renglón desconocido llena `faltantes.clientes` o `faltantes.productos`. Una promo sin lista o sin producto hace lo mismo. El confirmar de precios no inserta en `productos`.

@@ -16,7 +16,7 @@
 ### Criterios de aceptación
 
 - La cabecera trae el id de Cianbox como `erp_list_id`.
-- `traer_pedidos_erp` no escribe el espejo ni llama `push_order`.
+- Los pedidos de Cianbox entran por el job y la proyección automática los escribe en `pedidos`. `consultar_pedidos` los muestra con `origen=erp`. La lectura del MCP no escribe el espejo ni llama `push_order`.
 - `traer_promociones_erp` responde `soportado: false`.
 
 ## Claves, página y validación
@@ -30,7 +30,8 @@ Misma página del [117](./117-mcp-canal-erp-o-carga.md): hasta 5000 claves, deta
 | Listas | `/productos/listas` dentro de `CianboxConnector` | El campo se llama `lista`, no `name` ni `DESCRIPCION_LISTA_PRECIO` | Un mapeo genérico en la tool |
 | Precios | Embebidos en `/productos`, normalizados en el conector | No hay detalle por vendedor | `getDetallePrecios` |
 | Promociones | No implementadas | El default de la base es `[]` | Inventarlas |
-| Escritura | [116](./116-mcp-pedidos-crud.md) | Misma carga | `sync_orders_to_raw` desde el MCP |
+| Escritura | El job y la proyección | `consultar_pedidos` lee `pedidos` | `sync_orders_to_raw` desde el MCP |
+| Estado | `en reparto*`, `ruta-*`, `retiro`, `cobrado` y `preparado` se proyectan como venta | Cianbox no manda `confirmado` | Tratar `pendiente` y `preparar` como venta |
 
 ---
 
@@ -70,7 +71,7 @@ Una lista y un producto de muestra producen cabecera y precio sin × 1.21 y sin 
 Tenant `cordoba_frost`.
 
 1. `traer_precios_erp`. El nombre coincide con Cianbox.
-2. `traer_pedidos_erp`, `traer_clientes_erp`, `traer_productos_erp`.
+2. `consultar_pedidos` (`origen=erp`), `traer_clientes_erp`, `traer_productos_erp`.
 3. `traer_promociones_erp` dice que no están soportadas.
 4. Sin filas nuevas en `erp_orders_raw` ni en `pedidos_externos`.
 5. Una fila faltante por el [116](./116-mcp-pedidos-crud.md), confirmar solo con un sí.

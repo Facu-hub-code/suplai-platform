@@ -15,9 +15,9 @@ Del Corro no tiene endpoint que Railway pueda consultar. `GescomOnpremConnector.
 
 ### Criterios de aceptación
 
-- `traer_pedidos_erp` en `del_corro` no llama `fetch_orders`.
+- En `del_corro` no hay API: las tools de lectura lo dicen y no llaman `fetch_orders`.
 - Un Excel de 3 pedidos (uno con código malo) previsualiza aceptada, rechazada y, si aplica, ya existe.
-- La misma carga, en `gonzales`, también existe, pero la fuente es `traer_pedidos_erp`, no este Excel.
+- En `gonzales` los pedidos de métricas no salen de este Excel: los escribe la proyección y se consultan con `consultar_pedidos`.
 
 ## Claves, página y validación
 
@@ -71,8 +71,8 @@ La de `pedidos_externos` está en el [116](./116-mcp-pedidos-crud.md). Este sub-
 
 Tenant `del_corro`. Excel de 3 comprobantes: uno válido y nuevo, uno con código que no está en `clients`, uno repetido o ya cargado si hay datos.
 
-1. `traer_pedidos_erp` (y el resto de `traer_*`). La respuesta dice que no hay API.
+1. `traer_clientes_erp` (y el resto de `traer_*`). La respuesta dice que no hay API.
 2. Subir el Excel. Ver el preview: el código malo rechazado, el válido aceptado.
 3. No confirmar. `pedidos_externos` no tiene la fila.
 4. Confirmar. Ver la fila. Confirmar otra vez: no duplica.
-5. `traer_pedidos_erp` en `gonzales` sí devuelve pedidos. Eso prueba que la compuerta no se quedó pegada en “sin API”.
+5. `traer_clientes_erp` en `gonzales` sí devuelve clientes. Eso prueba que la compuerta no se quedó pegada en “sin API”.

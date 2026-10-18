@@ -16,7 +16,7 @@
 ### Criterios de aceptación
 
 - Las listas activas (`activa = 1`) aparecen como cabeceras.
-- `traer_pedidos_erp` no escribe `erp_orders_raw`.
+- Los pedidos de Galileo entran por el job. `consultar_pedidos` los muestra con `origen=erp`. La lectura del MCP no escribe `erp_orders_raw`.
 - `traer_promociones_erp` responde `soportado: false`.
 
 ## Claves, página y validación
@@ -71,7 +71,7 @@ Un cursor falso devuelve solo listas activas. La tool no importa `aiomysql`. La 
 Tenant `el_gigante`.
 
 1. `traer_precios_erp`. Solo listas activas.
-2. `traer_pedidos_erp`, `traer_clientes_erp`, `traer_productos_erp`.
+2. `consultar_pedidos` (`origen=erp`), `traer_clientes_erp`, `traer_productos_erp`.
 3. `traer_promociones_erp` dice que no están soportadas.
 4. Sin filas nuevas en `erp_orders_raw` ni en `pedidos_externos`.
 5. Una fila faltante por el [116](./116-mcp-pedidos-crud.md), confirmar solo con un sí.
