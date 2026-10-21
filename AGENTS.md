@@ -109,6 +109,7 @@ Migraciones oficiales viven en `backend/`.
 | `agregar-erp-mcp` | Sumar un ERP al MCP: lectura cruda y carga de faltantes |
 | `novedades-from-chat` | Borrador de novedad GEO para la landing a partir de un dump de chat |
 | `validar-telefonos-checknumber` | Validar en bulk los teléfonos de `{schema}.clients` con checknumber.ai |
+| `validar-umv-tokin` | Contrastar la UMV del alta automática (spec 127) contra la conversión de Tokin |
 
 ### Vendor (skills.sh — no en git, lock sí)
 
