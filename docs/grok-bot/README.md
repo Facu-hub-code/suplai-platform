@@ -9,6 +9,7 @@ Pack para el Grok Bot que ya tiene el MCP de Supabase. Sirve para preguntas oper
 | Regla corta (siempre en contexto) | Cursor Dashboard → Team Rules → scope **Grok Bot** | [TEAM-RULE.md](TEAM-RULE.md) |
 | Skill MCP | Grok Bot → guardar skill / Plugins → Yours → enable | `.grok/skills/suplai-supabase-mcp/SKILL.md` |
 | Skill envíos HSM | igual | `.grok/skills/check-hsm-sends/` (`SKILL.md` + `reference.md`) |
+| Skill enriquecer ficha (ETL alta catálogo) | igual | `.grok/skills/enriquecer-ficha/SKILL.md` |
 
 Si el Bot tiene el repo en su computadora cloud, Grok descubre skills en `.grok/skills/` al trabajar en este directorio.
 
@@ -39,6 +40,14 @@ Hoy a las 15, ¿salió la agenda puntual del carrusel de Gonzales?
 
 ```
 Compará envíos del carrusel de Gonzales entre ayer y anteayer.
+```
+
+### Alta catálogo ETL (MCP privado)
+
+El worker tiene que estar con `CATALOGO_ETL_MODELO=off` durante esta prueba (ver spec 128). Usá un `{code}` que el promote acaba de crear, no uno de los 13 ya cargados.
+
+```
+Hay un alta abierto en almaro para el producto {code}. Seguí la skill enriquecer-ficha. No escribas SQL. No uses el MCP de Supabase para actualizar productos.
 ```
 
 ## MCP

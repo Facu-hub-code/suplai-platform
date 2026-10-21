@@ -1,6 +1,6 @@
 # 127 — Alta automática del catálogo ERP
 
-**Estado:** Borrador  
+**Estado:** Borrador. El enriquecimiento con Tokin, la categoría y la imagen de un producto nuevo pasan al [128](./128-etl-alta-catalogo.md). Este spec sigue siendo el contrato de Extraer y Transformar: unidad, precio, checklist y avisos.  
 **Fecha:** 2026-10-20  
 **Repos:** `backend-supabase` (`erp/connectors/gev.py`, `erp/services/erp_product_promote_service.py`, `erp/services/erp_sync_service.py`)  
 **Rama sugerida:** `feat/erp-alta-catalogo-automatica`  
