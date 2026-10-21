@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] atun lc natural g",
+  "slug": "top100-021-atun-lc-natural-g",
+  "sequential_order": 121,
+  "message": "Cuánto sale atun lc natural g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "13136"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 13136 (ATUN LC NATURAL 24X170G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

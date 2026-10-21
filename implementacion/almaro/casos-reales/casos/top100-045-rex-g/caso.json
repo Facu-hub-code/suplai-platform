@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] rex g",
+  "slug": "top100-045-rex-g",
+  "sequential_order": 145,
+  "message": "Cuánto sale rex g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "14412"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 14412 (REX 15X225G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

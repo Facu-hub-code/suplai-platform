@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] hogareñas 7 semillas por",
+  "slug": "top100-070-hogarenas-7-semillas-por",
+  "sequential_order": 170,
+  "message": "Cuánto sale hogareñas 7 semillas por",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "13607"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 13607 (HOGAREÑAS 7 SEMILLAS POR 3 12X3X189G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

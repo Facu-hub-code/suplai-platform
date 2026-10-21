@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] opera simple g",
+  "slug": "top100-054-opera-simple-g",
+  "sequential_order": 154,
+  "message": "Cuánto sale opera simple g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "9341"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 9341 (OPERA SIMPLE 28X92G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

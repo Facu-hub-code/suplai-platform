@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] topline seven x plosive menta gr",
+  "slug": "top100-039-topline-seven-x-plosive-menta-gr",
+  "sequential_order": 139,
+  "message": "Cuánto sale topline seven x plosive menta gr",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "15406"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 15406 (TOPLINE SEVEN X-PLOSIVE MENTA 20X16X14GR) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

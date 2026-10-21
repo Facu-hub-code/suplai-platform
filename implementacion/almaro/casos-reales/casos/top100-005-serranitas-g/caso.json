@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] serranitas g",
+  "slug": "top100-005-serranitas-g",
+  "sequential_order": 105,
+  "message": "Cuánto sale serranitas g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "14361"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 14361 (SERRANITAS 14X3X105G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

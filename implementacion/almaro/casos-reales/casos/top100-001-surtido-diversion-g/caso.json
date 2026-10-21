@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] surtido diversion g",
+  "slug": "top100-001-surtido-diversion-g",
+  "sequential_order": 101,
+  "message": "Cuánto sale surtido diversion g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "14336"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 14336 (SURTIDO DIVERSION 21x400G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

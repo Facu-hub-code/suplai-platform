@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] mana vainilla g",
+  "slug": "top100-038-mana-vainilla-g",
+  "sequential_order": 138,
+  "message": "Cuánto sale mana vainilla g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "13783"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 13783 (MANA VAINILLA 36X136G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

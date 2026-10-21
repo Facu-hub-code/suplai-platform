@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] jugo polvo arcor naranja banana g",
+  "slug": "top100-055-jugo-polvo-arcor-naranja-banana-g",
+  "sequential_order": 155,
+  "message": "Cuánto sale jugo polvo arcor naranja banana g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "14435"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 14435 (JUGO POLVO ARCOR NARANJA BANANA 12X18X15G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

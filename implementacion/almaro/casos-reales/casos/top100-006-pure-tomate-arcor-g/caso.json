@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] pure tomate arcor g",
+  "slug": "top100-006-pure-tomate-arcor-g",
+  "sequential_order": 106,
+  "message": "Cuánto sale pure tomate arcor g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "14611"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 14611 (PURE TOMATE ARCOR 12X520G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

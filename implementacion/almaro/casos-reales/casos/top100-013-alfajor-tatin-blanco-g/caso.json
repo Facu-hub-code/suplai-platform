@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] alfajor tatin blanco g",
+  "slug": "top100-013-alfajor-tatin-blanco-g",
+  "sequential_order": 113,
+  "message": "Cuánto sale alfajor tatin blanco g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "3313"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 3313 (ALFAJOR TATIN BLANCO 56X33G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

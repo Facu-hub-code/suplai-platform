@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] pure tomate lc g",
+  "slug": "top100-092-pure-tomate-lc-g",
+  "sequential_order": 192,
+  "message": "Cuánto sale pure tomate lc g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "13886"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 13886 (PURE TOMATE LC 12x530G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

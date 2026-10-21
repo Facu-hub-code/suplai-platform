@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] traviata con kesitas g",
+  "slug": "top100-026-traviata-con-kesitas-g",
+  "sequential_order": 126,
+  "message": "Cuánto sale traviata con kesitas g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "14394"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 14394 (TRAVIATA CON KESITAS 36X96G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

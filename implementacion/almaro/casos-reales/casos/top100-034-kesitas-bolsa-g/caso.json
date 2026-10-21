@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] kesitas bolsa g",
+  "slug": "top100-034-kesitas-bolsa-g",
+  "sequential_order": 134,
+  "message": "Cuánto sale kesitas bolsa g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "14403"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 14403 (KESITAS BOLSA 15X250G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

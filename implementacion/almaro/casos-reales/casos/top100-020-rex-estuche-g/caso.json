@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] rex estuche g",
+  "slug": "top100-020-rex-estuche-g",
+  "sequential_order": 120,
+  "message": "Cuánto sale rex estuche g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "7198"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 7198 (REX ESTUCHE 16X125G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}
