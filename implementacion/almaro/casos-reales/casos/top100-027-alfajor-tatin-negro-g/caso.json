@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] alfajor tatin negro g",
+  "slug": "top100-027-alfajor-tatin-negro-g",
+  "sequential_order": 127,
+  "message": "Cuánto sale alfajor tatin negro g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "3312"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 3312 (ALFAJOR TATIN NEGRO 56X33G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

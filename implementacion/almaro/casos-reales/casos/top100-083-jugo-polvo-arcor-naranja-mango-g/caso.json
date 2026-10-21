@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] jugo polvo arcor naranja mango g",
+  "slug": "top100-083-jugo-polvo-arcor-naranja-mango-g",
+  "sequential_order": 183,
+  "message": "Cuánto sale jugo polvo arcor naranja mango g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "14437"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 14437 (JUGO POLVO ARCOR NARANJA MANGO 12X18X15G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

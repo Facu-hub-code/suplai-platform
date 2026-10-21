@@ -1,0 +1,16 @@
+{
+  "name": "[Top 100] topline seven strawberry g",
+  "slug": "top100-060-topline-seven-strawberry-g",
+  "sequential_order": 160,
+  "message": "Cuánto sale topline seven strawberry g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [],
+  "expected_behavior": "El código 5111 está sin stock. Tiene que buscar con search_products y ofrecer un hermano con stock de la misma línea, o decir que ese formato no tiene stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

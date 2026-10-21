@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] oblea bon o bon leche g",
+  "slug": "top100-095-oblea-bon-o-bon-leche-g",
+  "sequential_order": 195,
+  "message": "Cuánto sale oblea bon o bon leche g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "3465"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 3465 (OBLEA BON O BON LECHE 8X20X30G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] chocolinas g",
+  "slug": "top100-037-chocolinas-g",
+  "sequential_order": 137,
+  "message": "Cuánto sale chocolinas g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "14322"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 14322 (CHOCOLINAS 40X170G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

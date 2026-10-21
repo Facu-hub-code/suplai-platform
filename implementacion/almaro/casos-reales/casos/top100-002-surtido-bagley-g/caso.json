@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] surtido bagley g",
+  "slug": "top100-002-surtido-bagley-g",
+  "sequential_order": 102,
+  "message": "Cuánto sale surtido bagley g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "14772"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 14772 (SURTIDO BAGLEY 21X400G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

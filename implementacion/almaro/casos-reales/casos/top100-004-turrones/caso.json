@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] turrones",
+  "slug": "top100-004-turrones",
+  "sequential_order": 104,
+  "message": "Cuánto sale turrones",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "4013"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 4013 (TURRON OBLEA ARCOR 4X50X27G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}

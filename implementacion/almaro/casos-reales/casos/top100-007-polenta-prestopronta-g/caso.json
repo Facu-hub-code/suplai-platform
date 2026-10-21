@@ -1,0 +1,18 @@
+{
+  "name": "[Top 100] polenta prestopronta g",
+  "slug": "top100-007-polenta-prestopronta-g",
+  "sequential_order": 107,
+  "message": "Cuánto sale polenta prestopronta g",
+  "expected_tools": [],
+  "expected_tools_any": [
+    "search_products"
+  ],
+  "expected_skus": [
+    "13873"
+  ],
+  "expected_behavior": "Tiene que buscar con search_products y ofrecer el código 13873 (POLENTA PRESTOPRONTA 30X490G) o un hermano de la misma línea con stock. No debe cotizar una marca distinta.",
+  "tags": [
+    "top100",
+    "busqueda"
+  ]
+}
