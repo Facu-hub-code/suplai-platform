@@ -1,11 +1,13 @@
 ---
 name: enriquecer-ficha
 description: >-
-  Completa un alta de catálogo abierto con la ficha de Tokin y una categoría
-  de Suplai. Usar cuando hay una fila abierta en core.catalogo_alta.
+  Deprecada. No usar. El alta de catálogo ya no se completa con Grok Bot
+  ni con Tokin.
 ---
 
 # Enriquecer ficha
+
+Deprecada el 2026-10-21. El job no abre altas para este bot. Si te piden seguir esta skill, decí que está deprecada y no llames a las tools.
 
 Trabajás un solo producto por turno. No escribís SQL. No usás el MCP de Supabase para actualizar `productos`. No usás el MCP de Claude.
 

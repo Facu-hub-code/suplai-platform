@@ -18,3 +18,20 @@ Task 11: complete (commits c9c7aca..757e384, review after latest last_sync_at; d
 Task 12: complete (platform 757b663..f736df7, review after docs alignment; E2E evals blocked — no tests/copilot_evals; tsc pre-existing red)
 Final-review fix: complete (backend 0b34e87 Omar chips+Carlos prompt+pack tests; front 0b3f200 stale list race; re-review approved)
 
+
+# SDD Progress — ETL alta catálogo
+
+- Plan: docs/superpowers/plans/2026-10-21-etl-alta-catalogo.md
+- Spec: docs/specs/128-etl-alta-catalogo.md
+- Backend: /Users/facundolorenzo/Documents/SuplaiSales/source/backend-supabase branch feat/erp-alta-catalogo-automatica base 87b44d5
+- Platform: feat/erp-alta-catalogo-automatica
+
+Task 1: complete (commits 87b44d5..e4e9e52, review clean)
+Task 2: complete (commits e4e9e52..1ff329e, review clean; minor: fixture path depends on cwd, PLAYBOOKS untested, conversion param hints)
+Task 3: complete (commits 1ff329e..455c966, review clean; minor: escrito asserts omit upd/caja, alias cap and empty description untested, precio hueco duplicated)
+Task 4: complete (commits 455c966..08f9676, review clean)
+Task 5: complete (commits 08f9676..6a318a2, review clean; minor: no 200 test, tenant SELECTs live in the service adapter)
+Task 6: complete (commits 6a318a2..1560b7f, review clean; minor: leer_faltantes marked read-only though it claims; tool imports the router adapter)
+Task 7: complete (commits 1560b7f..1ac0ee9, review clean after releasing a claimed row)
+Task 8: complete (platform b651081, review clean; follow-up: README still points the bot only at Supabase MCP, spec 127 body still describes the category queue)
+Deprecado el 2026-10-21: el job no llama al worker. La categoría volvió al alta del spec 127.

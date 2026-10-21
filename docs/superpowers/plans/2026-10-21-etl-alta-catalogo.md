@@ -1,5 +1,7 @@
 # ETL de alta de catálogo — plan de implementación
 
+> **Deprecado el 2026-10-21.** No retomar estas tareas. El job no llama al worker. La categoría volvió al alta del spec 127.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Un SKU nuevo abre una fila de pipeline, un playbook (Tokin en Almaro) completa la ficha vía una sola API, y el catálogo se prende solo si el checklist cierra.

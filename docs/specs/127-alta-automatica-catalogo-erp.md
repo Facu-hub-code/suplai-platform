@@ -1,6 +1,6 @@
 # 127 — Alta automática del catálogo ERP
 
-**Estado:** Borrador. El enriquecimiento con Tokin, la categoría y la imagen de un producto nuevo pasan al [128](./128-etl-alta-catalogo.md). Este spec sigue siendo el contrato de Extraer y Transformar: unidad, precio, checklist y avisos.  
+**Estado:** Borrador. El [128](./128-etl-alta-catalogo.md) quedó deprecado. La categoría de un producto nuevo la elige este alta, entre las que ya existen y solo si la confianza es alta. Si no hay una, el producto queda apagado y se avisa. La imagen no se carga y no apaga el catálogo.  
 **Fecha:** 2026-10-20  
 **Repos:** `backend-supabase` (`erp/connectors/gev.py`, `erp/services/erp_product_promote_service.py`, `erp/services/erp_sync_service.py`)  
 **Rama sugerida:** `feat/erp-alta-catalogo-automatica`  
@@ -27,7 +27,7 @@ Para un producto, los datos clave son la unidad de venta y el precio. El bulto y
 - Ningún alta de un producto `UN` escribe `unidades_por_bulto = 1` como relleno. Si el nombre trae el bulto, se escribe ese número. Si no lo trae, el factor queda null. En un `BU`, el 1 es el factor real: el precio ya es el bulto.
 - Si el precio está en una lista que no existe, el job la crea y después escribe el precio. Si el detalle no trae precio, el SKU no se promueve.
 - En el mismo ciclo, ese SKU recibe el precio.
-- Después del alta, la cola de categoría le asigna una categoría existente, o lo deja para el ciclo siguiente si la IA no elige un id válido.
+- En el mismo alta, la IA elige una categoría que ya existe. Solo se guarda si la confianza es alta y el id está en la lista. Si no, el producto queda apagado y se avisa. No hay una cola para el ciclo siguiente.
 - `image_url` queda vacío.
 - Si OpenAI no responde, la descripción es el nombre recortado a 15 palabras. El alta no falla por eso.
 - Un artículo con `ACTIVO` distinto de `"1"` se crea con `en_catalogo = false`.
@@ -132,7 +132,7 @@ Los productos ya curados no se pisan, aunque el nombre y Tokin digan otra cosa. 
 | Productos que ya existen | No se actualizan nombre, descripción, alias, imagen ni UMV | El top 100 ya está curado. Pisar `2987` lo cambiaría de 12 a 21 sin una revisión humana | Backfill de UMV sobre las tres mil filas |
 | UMV default vieja | Un pase único sobre filas que siguen en `unidad`, bulto 1 y sin display. Se les aplica la misma función. Si el nombre no trae pack, el 1 de un `UN` pasa a null | Esas filas las escribió el promote viejo | Corregir también las UMV ya curadas |
 | Precio y lista | Hay alta si hay precio. Si la lista no está vinculada, el job la crea con el encabezado de `getListaPrecios` y después escribe el precio del SKU nuevo | El importe no se inventa. La lista sí se puede crear con los datos que ya llegan | Dejar el producto afuera hasta vincular la lista a mano, o crear todas las listas del ERP |
-| Categoría | Cola después del alta. La IA elige una categoría existente (id, nombre, padre). Si el id no está en la lista, no se inserta y sigue en la cola | Sin categoría no se navega en la tienda. `ID_RUBRO` no tiene nombre | Crear una categoría por cada id de rubro |
+| Categoría | En el mismo alta. La IA elige una categoría existente (id, nombre, padre). Solo confianza alta. Si el id no está en la lista, no se inserta, el producto queda apagado y se avisa | Sin categoría no se navega en la tienda. `ID_RUBRO` no tiene nombre | Crear una categoría por cada id de rubro. Dejar la categoría para un agente externo |
 | Imagen | `image_url` queda null | La tienda ya muestra un placeholder | Copiar o scrapear fotos en este PR |
 | Regla del 022 | Se automatiza el producto cuando hay unidad, y la lista cuando hace falta para escribir el precio. El cliente sigue manual | Inventar teléfono o un importe es peor que el hueco | Mantener la prohibición total |
 | Otros ERP | Sin `extra` de unidad no se promueve. Esta entrega solo llena ese extra en GEV | Sin unidad, el alta caería en unidad × 1 | Promover igual con el default |
@@ -209,7 +209,7 @@ Un solo PR en `backend-supabase`, rama `feat/erp-alta-catalogo-automatica` desde
 3. Cola de lista: si el precio del SKU nuevo apunta a un `erp_list_id` sin fila, el job crea la lista y después escribe el precio. Sin precio, el producto se crea apagado.
 4. `run_erp_sync_job` llama al promote al final de la bajada de productos y de precios.
 5. Pase único de UMV sobre el default viejo, con la misma función.
-6. Cola de categoría.
+6. Categoría en el mismo alta, con confianza alta.
 
 No hay PR de backoffice ni del agente. La skill vive en este repo (`platform`).
 
@@ -245,7 +245,7 @@ Además:
 - `ACTIVO` distinto de `"1"` inserta con `en_catalogo = false`.
 - Sin fila de precio, no inserta.
 - Precio en una lista no vinculada: se crea esa lista, se escribe el precio, y el producto entra. No se crea una lista que ningún SKU nuevo usa.
-- La cola de categoría persiste el id que devuelve el doble de la IA si ese id está en la lista. Si devuelve un id que no está, no inserta.
+- La categoría persiste el id que devuelve la IA si la confianza es alta y ese id está en la lista. Si no, no inserta y el producto queda apagado.
 - `image_url` del insert es null.
 - `fetch_products` afirma en `extra` unidad de venta, cantidad, unidad mínima, activo, código, nombre y stock.
 - El job no llama alta de clientes.
@@ -267,5 +267,5 @@ Los doce tienen que salir `ok`. `7208` tiene que salir `diff`.
 2. En staging, o con el job a mano en `almaro`: anotar un SKU que esté en el espejo y no en `productos` (o borrar uno de prueba).
 3. Correr la bajada y el promote. Si el nombre es `N x peso` y GEV dice `UN`, el bulto es N. Si GEV dice `DI` con cantidad 18 y el nombre no trae bulto, queda display 18 y bulto null. Si dice `BU` con cantidad 30, `unidades_por_bulto` es 1, no 30.
 4. Si el precio está en una lista que Almaro no tiene, esa lista aparece y el precio del SKU también, en el mismo ciclo. Sin precio en el detalle, el SKU no entra a `productos`.
-5. `image_url` queda vacío. La categoría queda asignada o en la cola, no inventada.
+5. `image_url` queda vacío. La categoría queda asignada en el mismo alta, o el producto queda apagado. No se inventa una categoría.
 6. `5312` y `4013` conservan descripción, alias y la UMV que ya tenían.

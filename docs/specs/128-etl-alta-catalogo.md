@@ -1,6 +1,6 @@
 # 128 — ETL de alta de catálogo
 
-**Estado:** Borrador  
+**Estado:** Deprecado el 2026-10-21. El job de las 6 horas no llama a Grok ni abre filas en `core.catalogo_alta`. La categoría la elige otra vez el alta del [127](./127-alta-automatica-catalogo-erp.md), entre las que ya existen y solo con confianza alta. El código del worker, la API interna y el MCP privado quedan en el repo y no se usan.  
 **Fecha:** 2026-10-21  
 **Repos:** `backend-supabase` (pipeline, API, MCP privado, worker) y `suplai-platform` (skill del Grok Bot)  
 **Rama sugerida:** `feat/erp-alta-catalogo-automatica` en los dos repos, desde `origin/main`  
