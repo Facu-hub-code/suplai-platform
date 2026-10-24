@@ -1,6 +1,6 @@
 # 132 — MCP de Suplai Sales para agentes y humanos
 
-**Estado:** Borrador para revisión.
+**Estado:** Aprobado el diseño (24/10/2026). Pendiente de implementar.
 **Fecha:** 2026-10-24
 **Repos:** `backend-supabase` (`mcp_server/`, `services/mcp_*`, `services/oauth/`), `suplai-platform` (este spec).
 **Relaciona:** [094](./094-claude-mcp-manual.md) (MCP manual), [038](./038-copilot-agentes-especialistas.md) (agentes especialistas en el Copilot), [116](./116-mcp-pedidos-crud.md) (pedidos), [117](./117-mcp-canal-erp-o-carga.md)–[123](./123-mcp-erp-gescom.md) (ERP), [126](./126-mcp-una-agenda.md) (una agenda).
@@ -17,11 +17,12 @@ Hoy el MCP está pensado para una persona que conversa con Claude: 52 tools con 
 Este spec define:
 
 1. Quién usa el MCP y con qué permisos.
-2. Una convención de nombres única y el catálogo nuevo (de 52 a 37 tools).
+2. Una convención de nombres única y el catálogo nuevo (de 52 a 40 tools).
 3. El contrato de lectura (campos y filtros en la firma, origen Suplai o ERP).
-4. El contrato de escritura (borrador, riesgo, confirmar, aprobación del dueño).
+4. El contrato de escritura (borrador, riesgo, confirmar, lotes que aprueba el dueño por email).
 5. El gobierno: autonomía, límites, auditoría y kill switch, aplicados en el servidor y no en el prompt.
 6. La memoria del tenant y los eventos que despiertan a los agentes.
+7. Cómo aprueba el dueño: por email, en un lote por semana.
 
 ---
 
@@ -29,7 +30,8 @@ Este spec define:
 
 ```mermaid
 flowchart TD
-  D[Dueño de la distribuidora<br/>reportes y aprobaciones por WhatsApp] --> G[Capa de gobierno<br/>autonomía, límites, auditoría, kill switch]
+  D[Dueño de la distribuidora<br/>reportes y aprobaciones por email] <--> B[Bot de correo<br/>lee el buzón y reparte pedidos]
+  B --> G[Capa de gobierno<br/>autonomía, límites, auditoría, kill switch]
   G --> J[Jefe de cuenta<br/>agenda diaria, semanal y por eventos]
   J --> A[Analista<br/>ventas y churn]
   J --> S[Supervisor<br/>QA del agente]
@@ -45,12 +47,15 @@ flowchart TD
 
 | Actor | Qué hace con el MCP | Volumen |
 |---|---|---|
-| **Jefe de cuenta** (orquestador) | Lee eventos, memoria y resultados. Arma la agenda y reparte trabajo. Casi no escribe: delega. | Alto, en lectura |
+| **Bot de correo** | Lee el buzón de la distribuidora. Pasa los pedidos del dueño al jefe de cuenta, manda los reportes y lotes por email, y registra en el MCP lo que el dueño aprueba o rechaza. | Bajo, con escrituras de gobierno |
+| **Jefe de cuenta** (orquestador) | Lee eventos, memoria y resultados. Arma la agenda, reparte trabajo, confirma lo que proponen los especialistas y arma el lote de la semana. | Alto |
 | **Analista** | Ventas, churn, clientes en riesgo, rendimiento por zona y vendedor. Escribe resultados en la memoria. | Alto, solo lectura |
 | **Supervisor** | Lee conversaciones, prueba el agente, diagnostica búsquedas, propone cambios al prompt y a los productos (alias, descripciones). | Medio, con escrituras de riesgo |
 | **Catálogo** | Precios, stock, productos y promos. Compara con el ERP e importa. | Medio, con escrituras frecuentes |
 | **Activador** | Plantillas, grupos, agendas, secuencias y promos. Mide envíos. | Medio, con escrituras que llegan a clientes |
-| **Humano** (dueño, operador de Suplai) | Preguntas puntuales, aprobaciones y ajustes a mano. | Bajo |
+| **Humano** (dueño, operador de Suplai) | Preguntas puntuales y ajustes a mano. El dueño aprueba por email, no desde el MCP. | Bajo |
+
+El dueño no usa el MCP para aprobar: recibe un email y responde. Los PDFs y los emails los arman y mandan los bots; el MCP solo guarda el estado (borradores, lotes, aprobaciones) y lo hace cumplir.
 
 El MCP es el único camino de los agentes hacia los datos y las acciones. Ningún agente toca la base ni la API del core por fuera del MCP: así el gobierno y la auditoría valen para todos.
 
@@ -85,15 +90,17 @@ El MCP es el único camino de los agentes hacia los datos y las acciones. Ningú
 
 ---
 
-## Catálogo de tools (37)
+## Catálogo de tools (40)
 
 ### Orientación y gobierno
 
 | Tool | Qué hace |
 |---|---|
 | `guia_suplai` | Recetas por tema. Para el humano y para el arranque de un agente. |
-| `confirmar` | Ejecuta un borrador si el gobierno lo permite; si no, pide aprobación al dueño. |
-| `buscar_borradores` | Borradores del tenant y su estado: pendiente, aprobado, rechazado, vencido, aplicado. |
+| `confirmar` | Ejecuta un borrador si el gobierno lo permite; si necesita aprobación, lo deja pendiente para el lote. |
+| `buscar_borradores` | Borradores del tenant con su estado (pendiente, en lote, aprobado, rechazado, vencido, aplicado), el agente que lo propuso y su lote. |
+| `buscar_lotes` / `editar_lotes` | El lote que se le manda al dueño: la estrategia de la semana y los borradores que piden aprobación. `editar_lotes` arma, cierra y resuelve (ver «Aprobación por lotes»). |
+| `editar_gobierno` | Pausar y reanudar (kill switch), y cambiar límites y autonomía. |
 | `buscar_eventos` | Lo que pasó desde un cursor: pedido nuevo, sin stock, cliente en riesgo, envío fallido, reclamo en una charla, sync de ERP. |
 | `ver_memoria` / `editar_memoria` | Playbook, objetivos y resultados del tenant. |
 | `reportar_problema` | Reporte a soporte de Suplai. Reemplaza `previsualizar_reporte`, que se confundía con el reporte de ventas. |
@@ -163,7 +170,7 @@ El MCP es el único camino de los agentes hacia los datos y las acciones. Ningú
 | `buscar_notificaciones` | `tipo`: canal, pedido o envío. Para la distribuidora: vendedores y administrativos. |
 | `editar_notificaciones` | Quién recibe qué aviso y por qué canal. |
 
-Los reportes y aprobaciones al dueño por WhatsApp salen por la capa de gobierno, no por estas tools.
+Los reportes y aprobaciones del dueño van por email (ver «Aprobación por lotes»), no por estas tools.
 
 ---
 
@@ -207,10 +214,34 @@ Toda escritura pide `agente` (quién) y `motivo` (por qué, en una frase). Para 
 
 1. Revisa el kill switch del tenant y del agente.
 2. Revisa los límites (ver gobierno).
-3. Si la autonomía de esa acción es `auto`, aplica. Si es `aprobar`, manda el pedido de aprobación al dueño por WhatsApp y devuelve `estado: pendiente_aprobacion`. Si es `prohibido`, rechaza.
+3. Si la autonomía de esa acción es `auto`, aplica. Si es `aprobar`, deja el borrador pendiente para el próximo lote y devuelve `estado: pendiente_aprobacion`, salvo que una estrategia ya aprobada lo cubra (ver «Aprobación por lotes»). Si es `prohibido`, rechaza.
 4. Registra el resultado en la auditoría.
 
 `clave_idempotencia` evita que un reintento del agente aplique dos veces.
+
+### Quién confirma
+
+- Cada especialista confirma sus borradores de autonomía `auto`.
+- El jefe de cuenta confirma cualquier borrador de un especialista: es el orquestador. Los límites y la autonomía valen igual para él; lo que pide aprobación va al lote.
+- El bot de correo no confirma borradores: solo resuelve lotes con la respuesta del dueño.
+
+### Aprobación por lotes
+
+El dueño recibe **un email por lote**, no uno por borrador.
+
+1. Durante la semana, los borradores que piden aprobación quedan `pendiente_aprobacion`.
+2. El jefe de cuenta arma el lote con `editar_lotes(accion="armar")`: la estrategia de la semana en texto, los borradores pendientes y, si quiere, un **presupuesto** (por ejemplo, «hasta 300 envíos de la campaña de turrones» o «cambios de precio de hasta 5 % en bebidas»).
+3. Lo cierra con `editar_lotes(accion="cerrar")`. El bot de correo lo lee con `buscar_lotes`, arma el email (y el PDF, si hace falta) y se lo manda al dueño.
+4. El dueño responde. Puede aprobar todo, rechazar todo o aprobar una parte.
+5. El bot de correo registra la respuesta con `editar_lotes(accion="resolver", decision, borrador_ids, evidencia)`.
+6. Los borradores aprobados se aplican. El presupuesto aprobado queda vigente hasta el fin de la semana: lo que entre en él se confirma sin volver a preguntar.
+
+**Seguridad del canal:**
+
+- Solo el token del bot de correo tiene el scope `aprobaciones:resolver`.
+- Las direcciones que pueden aprobar están en `metadata.gobierno.aprobadores`. Un email de otra dirección, o que no pasa SPF y DKIM, no aprueba nada.
+- `evidencia` guarda el id del mensaje y el remitente; queda en la auditoría.
+- Un lote vence a los 7 días sin respuesta. Sus borradores vencen con él.
 
 ### Escritura de pedidos
 
@@ -238,7 +269,8 @@ Cada agente tiene su token OAuth por tenant con un paquete de scopes. Los scopes
 
 | Rol | Lee | Escribe |
 |---|---|---|
-| Jefe de cuenta | todo | memoria |
+| Bot de correo | lotes, borradores, gobierno | resolver lotes, pausar y reanudar |
+| Jefe de cuenta | todo | memoria, lotes, confirmar borradores de los especialistas |
 | Analista | pedidos, productos, clientes, conversaciones, vendedores, zonas, eventos | memoria (resultados) |
 | Supervisor | conversaciones, productos, prompt | productos (alias, descripción), prompt, búsqueda |
 | Catálogo | productos, promos, listas, ERP | productos, promos, listas |
@@ -258,7 +290,7 @@ Un agente no ve las tools que su token no alcanza (igual que hoy con `filtrar_vi
 | Precios por encima del límite, bajas de productos, prompt | `aprobar` |
 | Baja de pedidos, mezcla con ERP | `aprobar` |
 
-El dueño cambia los defaults desde el admin. Un humano con el scope alcanza para aprobar.
+El dueño cambia los defaults desde el admin o pidiéndolo por email. Un operador de Suplai con el scope puede aprobar a mano en una emergencia; queda auditado igual.
 
 ### Límites
 
@@ -271,14 +303,14 @@ Ejemplos de límites por tenant, validados en `confirmar`:
 
 ### Auditoría
 
-Cada llamada queda en `public.mcp_auditoria` con agente, motivo, borrador, riesgo y quién aprobó. El dueño recibe un resumen diario por WhatsApp: qué hizo cada agente, qué quedó pendiente de aprobar, qué se rechazó.
+Cada llamada queda en `public.mcp_auditoria` con agente, motivo, borrador, riesgo y quién aprobó. El dueño recibe por email un reporte de lo que hizo cada agente, lo que quedó pendiente y lo que se rechazó; lo arman y lo mandan los bots.
 
 ### Kill switch
 
 - `gobierno.pausado` frena todas las escrituras del tenant.
 - `gobierno.agentes_pausados` frena las de un agente.
 - Las lecturas siguen andando, para poder diagnosticar.
-- Lo puede activar el dueño por WhatsApp («pausar agentes») o desde el admin.
+- Lo activa el dueño por email («pausar agentes»: el bot de correo llama a `editar_gobierno`) o desde el admin. Pausar no espera lote: es inmediato.
 
 ---
 
@@ -292,7 +324,7 @@ Cada llamada queda en `public.mcp_auditoria` con agente, motivo, borrador, riesg
 | Objetivos | Metas del período: ventas, reactivación, cobertura por zona. | Humano y jefe de cuenta |
 | Resultados | Qué se hizo y qué dio: campañas, cambios de precio, pruebas del agente. | Cada agente al terminar una tarea |
 
-**Eventos** (`buscar_eventos`): cola por tenant con cursor, para que el jefe de cuenta no tenga que recorrer todo. Tipos iniciales: `pedido_nuevo`, `pedido_error_erp`, `sin_stock`, `cliente_en_riesgo`, `envio_fallido`, `reclamo_en_charla`, `sync_erp`, `borrador_aprobado`, `borrador_rechazado`.
+**Eventos** (`buscar_eventos`): cola por tenant con cursor, para que el jefe de cuenta no tenga que recorrer todo. Tipos iniciales: `pedido_nuevo`, `pedido_error_erp`, `sin_stock`, `cliente_en_riesgo`, `envio_fallido`, `reclamo_en_charla`, `sync_erp`, `borrador_aprobado`, `borrador_rechazado`, `lote_resuelto`, `pedido_del_dueno` (lo que el dueño pide por email, para que el jefe de cuenta lo agende).
 
 ---
 
@@ -336,19 +368,21 @@ Cada llamada queda en `public.mcp_auditoria` con agente, motivo, borrador, riesg
 | `previsualizar_reporte` | `reportar_problema` |
 | `guia_suplai`, `confirmar` | Igual |
 
-Los nombres viejos quedan como alias ocultos hasta que pasen las evals con los nuevos; después se borran.
+Sin convivencia: el MCP nuevo reemplaza al viejo en un solo despliegue. Los nombres viejos no quedan como alias.
 
 ---
 
 ## Etapas
 
+Todo se desarrolla en una rama del backend y sale en **un solo despliegue**: el MCP nuevo reemplaza al viejo, sin convivencia.
+
 | Etapa | Qué | Listo cuando |
 |---|---|---|
 | 1. Lectura | Los `buscar_*` con `campos`, `filtros`, `orden`, `cursor` y `origen`. `ver_*`. | Toda consulta de hoy sale con las tools nuevas. |
 | 2. Escritura | `editar_*`, borrador con riesgo, `confirmar` con idempotencia. Pedidos seguros. Re-vectorizado al editar productos. | Todo borrador de hoy anda con los nombres nuevos. |
-| 3. Gobierno | Autonomía, límites, kill switch, aprobación por WhatsApp, auditoría con agente y motivo, `buscar_borradores`. | Un agente no puede pasar un límite ni escribir con el tenant pausado. |
-| 4. Agentes | Tokens por rol, `buscar_eventos`, memoria del tenant. Evals por rol. | El jefe de cuenta corre una agenda diaria en un tenant de prueba. |
-| 5. Limpieza | Borrar las 52, actualizar guías, scopes y evals. | Evals verdes solo con las 37. |
+| 3. Gobierno | Autonomía, límites, kill switch (`editar_gobierno`), lotes con presupuesto (`buscar_lotes`, `editar_lotes`), auditoría con agente, motivo y evidencia. | Un agente no pasa un límite ni escribe con el tenant pausado; un lote se resuelve con la respuesta del dueño. |
+| 4. Agentes | Tokens por rol (incluido el bot de correo), `buscar_eventos`, memoria del tenant. Evals por rol. | El jefe de cuenta corre una semana en un tenant de prueba: arma el lote, el dueño lo aprueba por email y se aplica. |
+| 5. Corte | Borrar las 52 tools viejas, actualizar guías, scopes y evals, desplegar. | Evals verdes solo con las 40. |
 
 Arcor primero: las etapas 1 a 3 se prueban con almaro y gonzales.
 
@@ -356,32 +390,39 @@ Arcor primero: las etapas 1 a 3 se prueban con almaro y gonzales.
 
 ## Base de datos
 
-Este spec necesita guardar borradores con estado, eventos, memoria y la configuración de gobierno. Las columnas y tablas nuevas se piden con permiso antes de crearlas (regla del equipo). Propuesta a revisar:
+**Aprobado por Facundo el 24/10/2026:** tablas propias para este enfoque. Se crean con migraciones en `backend-supabase/sql/`.
 
-| Qué | Dónde | Alternativa sin migración |
-|---|---|---|
-| Configuración de gobierno | `public.distribuidoras.metadata.gobierno` | Ya es JSON: no hace falta columna |
-| Agente, motivo, riesgo y aprobación en la auditoría | Columnas en `public.mcp_auditoria` | Dentro de `parametros` (JSON), menos consultable |
-| Borradores con estado | Tabla `core.mcp_borradores` | Los previews de hoy, sin estado de aprobación |
-| Eventos | Tabla `core.mcp_eventos` | Leer de las tablas de origen en cada llamada, más lento |
-| Memoria | Tabla `core.tenant_memoria` | `metadata.memoria` (JSON), con un límite de tamaño |
+| Tabla | Qué guarda |
+|---|---|
+| `core.mcp_borradores` | Cada borrador: tenant, tool, acción, efecto, riesgo, agente, motivo, estado, lote, vencimiento, clave de idempotencia. |
+| `core.mcp_lotes` | Cada lote: tenant, semana, estrategia en texto, presupuesto, estado, quién resolvió, evidencia del email. |
+| `core.mcp_eventos` | La cola de eventos por tenant, con cursor. |
+| `core.tenant_memoria` | Playbook, objetivos y resultados por tenant, con autor y fecha. |
+
+La configuración de gobierno (autonomía, límites, aprobadores, pausa) va en `public.distribuidoras.metadata.gobierno`, que ya es JSON.
+
+**Pendiente de confirmar al implementar la etapa 3:** columnas nuevas en `public.mcp_auditoria` (agente, motivo, borrador, riesgo, aprobación). La alternativa es guardarlas en `parametros` (JSON), que es menos consultable.
 
 ---
 
 ## Fuera de alcance
 
 - Los agentes en sí (prompts, agenda del jefe de cuenta, cómo corren). Este spec es la superficie que usan.
+- El buzón de email, los PDFs y el envío de reportes: los hacen los bots. El MCP guarda el estado de borradores y lotes y lo hace cumplir.
 - SQL libre o NL→SQL desde el MCP.
 - Agentes creados por el tenant: los roles son producto de Suplai, como en 038.
 
 ---
 
-## Decisiones abiertas
+## Decisiones tomadas
 
-1. **Aprobación del dueño:** ¿un mensaje por borrador o un lote por día?
-2. **Escritura del jefe de cuenta:** ¿solo delega o puede confirmar lo que un especialista le propone?
-3. **Memoria:** ¿tabla propia o JSON en `metadata`, para arrancar?
-4. **Alias de los nombres viejos:** ¿cuánto tiempo conviven?
+| Tema | Decisión |
+|---|---|
+| Canal del dueño | Email. Recibe reportes y lotes, y aprueba respondiendo. Un bot de correo lee el buzón y reparte los pedidos. |
+| Aprobación | Un email por lote. El dueño puede aprobar la estrategia de toda la semana, con un presupuesto que cubre lo que venga dentro de él. |
+| Jefe de cuenta | Confirma lo que proponen los especialistas: es el orquestador. Los límites valen igual para él. |
+| Almacenamiento | Tablas propias para borradores, lotes, eventos y memoria. |
+| Nombres viejos | No conviven. El MCP nuevo reemplaza al viejo en un solo despliegue. |
 
 ---
 
@@ -391,11 +432,14 @@ Este spec necesita guardar borradores con estado, eventos, memoria y la configur
 
 - Una eval por rol con su token: el agente ve solo sus tools, elige la tool correcta por el verbo y no pasa los límites.
 - Contrato: todo `buscar_*` acepta los mismos parámetros, todo `editar_*` devuelve borrador con riesgo, `confirmar` respeta idempotencia, kill switch y límites.
+- Lotes: un borrador `aprobar` queda pendiente; al resolver el lote se aplica; lo que entra en el presupuesto aprobado se confirma sin volver a preguntar; un lote vencido no aprueba nada.
+- Seguridad: `editar_lotes(accion="resolver")` sin el scope `aprobaciones:resolver`, o con un remitente que no está en `aprobadores`, se rechaza.
 - Migración: cada caso de las evals actuales tiene su equivalente con las tools nuevas.
 
 **Prueba humana:**
 
 1. Un humano pregunta «¿qué vendió la zona norte este mes?» y lo resuelve en una llamada.
-2. El Activador arma un envío a 500 clientes con un límite de 300: el borrador avisa y `confirmar` pide aprobación.
-3. El dueño responde «pausar agentes» por WhatsApp: las escrituras se frenan y las lecturas siguen.
-4. El Catálogo compara precios con `origen="comparar"` e importa los que difieren: queda auditado con agente y motivo.
+2. El Activador arma un envío a 500 clientes con un límite de 300: el borrador queda pendiente y entra en el lote.
+3. El jefe de cuenta cierra el lote con la estrategia de la semana; el dueño recibe el email, aprueba todo respondiendo, y los borradores se aplican.
+4. El dueño manda «pausar agentes» por email: las escrituras se frenan en el momento y las lecturas siguen.
+5. El Catálogo compara precios con `origen="comparar"` e importa los que difieren: queda auditado con agente y motivo.
