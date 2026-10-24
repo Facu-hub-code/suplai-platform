@@ -107,7 +107,9 @@ El sync real con este código corrió de 09:32 a 09:53 UTC. Después se revirti�
 | Pendiente | Detalle |
 |---|---|
 | Caja Navidad Mediana `111271` | La tienda muestra $23.568,00 y el Excel $23.141,41. No hay pedido real para comparar. |
-| Stock entre canales | La tienda deja agregar `AG14356` con stock 0; el agente no. Hay que alinear. |
+| Stock entre canales | Resuelto el 24/10. El stock del combo usa el factor de unidad del renglón (`AG14356` pasó de 0 a 29 combos) y la tienda bloquea un combo sin stock con el stock que trae la promo. |
+| «Antes» de combos con unidad suelta | `AG14356` muestra «antes $4.518.477» contra $799,99: suma 16 bolsas en vez de 16 caramelos. La referencia correcta (~$9.493) ya se calcula en el sync (`precio_referencia`), pero el CHECK de `promociones_semanales` no admite un % en `fixed_price`. Propuesta: columna nueva `precio_referencia numeric NULL`, **pendiente de permiso**. |
+| Stock más seguido (nice to have) | Hoy el stock se trae cada 6 h. Idea: una regla que dispare el sync antes según los pedidos entrantes en esas 6 h, o una consulta a la API de GEV a demanda cuando el stock de un combo está cerca de cero. No es para ahora. |
 | Inyección real | `push_orders_enabled = false` en almaro y gonzales. El payload se validó sin enviar. Falta un pedido real a GEV con un combo. |
 | Ambigüedad de sabores | «jugo de manzana» encuentra Arcor y BC. El agente pregunta, y está bien. |
 | Línea suelta tras el cambio | La línea `4013` × 25 del pedido 945 quedó a precio de lista. Con el revert vuelve el 15 % en la próxima edición del pedido. |
