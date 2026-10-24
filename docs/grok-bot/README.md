@@ -2,6 +2,10 @@
 
 Pack para el Grok Bot que ya tiene el MCP de Supabase. Sirve para preguntas operativas del estilo: *¿ayer salieron los envíos del carrusel de Gonzales?*
 
+## Plantel de agentes con el MCP de Suplai
+
+El prompt de inicio del equipo (jefe de cuenta, analista y catálogo), versionado: [plantel-v1.md](plantel-v1.md).
+
 ## Qué cargar
 
 | Pieza | Dónde | Archivo |
