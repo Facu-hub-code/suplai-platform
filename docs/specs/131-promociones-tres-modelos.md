@@ -107,7 +107,10 @@ El sync real con este código corrió de 09:32 a 09:53 UTC. Después se revirti�
 | Pendiente | Detalle |
 |---|---|
 | Caja Navidad Mediana `111271` | La tienda muestra $23.568,00 y el Excel $23.141,41. No hay pedido real para comparar. |
-| Stock entre canales | La tienda deja agregar `AG14356` con stock 0; el agente no. Hay que alinear. |
+| Stock entre canales | Resuelto el 24/10. El stock del combo usa el factor de unidad del renglón (`AG14356` pasó de 0 a 29 combos) y la tienda bloquea un combo sin stock con el stock que trae la promo. |
+| «Antes» de combos con unidad suelta | Resuelto el 24/10 con la columna `promociones_semanales.precio_referencia` (migración 173, aprobada por Facundo). El sync la llena con lista × factor de GEV; `AG14356` muestra «antes $9.493,32». |
+| Búsqueda «pan dulce» | `search_products` no trae `12727` PD ARCOR C/FRUTA (el del combo y el de más stock) en los 5 primeros. Además, después de un listado de promos, «dame 2 del pan dulce» no llamó a ninguna tool. |
+| Stock más seguido (nice to have) | Hoy el stock se trae cada 6 h. Idea: una regla que dispare el sync antes según los pedidos entrantes en esas 6 h, o una consulta a la API de GEV a demanda cuando el stock de un combo está cerca de cero. No es para ahora. |
 | Inyección real | `push_orders_enabled = false` en almaro y gonzales. El payload se validó sin enviar. Falta un pedido real a GEV con un combo. |
 | Ambigüedad de sabores | «jugo de manzana» encuentra Arcor y BC. El agente pregunta, y está bien. |
 | Línea suelta tras el cambio | La línea `4013` × 25 del pedido 945 quedó a precio de lista. Con el revert vuelve el 15 % en la próxima edición del pedido. |
@@ -224,7 +227,7 @@ Todo va sobre esas tres ramas, sin abrir ramas nuevas: al final hay un solo PR p
 
 ## Migración de base de datos
 
-Sin migración de BD. Todo usa columnas existentes:
+Una sola columna nueva: `promociones_semanales.precio_referencia numeric NULL` (migración 173), para el «antes» de los combos con unidades sueltas. El resto usa columnas existentes:
 
 - `productos`: la descripción con el prefijo `Combo GEV` marca la fila como combo.
 - `precios_productos`.
