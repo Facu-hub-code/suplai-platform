@@ -208,6 +208,25 @@ Toda tool `buscar_*` acepta los mismos parámetros:
 
 Toda escritura pide `agente` (quién) y `motivo` (por qué, en una frase). Para el humano los completa el servidor.
 
+### Razonamiento
+
+Los agentes de escritura también mandan `razonamiento`, para que el reporte al dueño muestre cómo pensaron y no solo qué hicieron:
+
+| Campo | Qué es | Ejemplo |
+|---|---|---|
+| `observacion` | Qué vio en los datos. | «12 clientes de zona norte no compran hace 30 días; antes compraban cada 10.» |
+| `evidencia` | Las consultas o ids que lo respaldan: tool, filtros y resultado. | `buscar_clientes(estado_compra=en_riesgo, zona=3)` → 12 filas |
+| `hipotesis` | Por qué cree que pasa. | «La competencia bajó el precio de la yerba 1 kg.» |
+| `propuesta` | Qué hace y por qué eso y no otra cosa. | «Combo yerba con 10 % a esos 12 clientes.» |
+| `alternativas` | Qué descartó y por qué. | «Bajar el precio de lista: afecta a 400 clientes.» |
+| `impacto_esperado` | Qué espera que cambie y cómo se va a medir. | «6 pedidos en 7 días; se mide con `buscar_pedidos`.» |
+| `confianza` | `baja`, `media` o `alta`. | `media` |
+
+- El MCP guarda el razonamiento con el borrador y lo devuelve en `buscar_borradores` y `buscar_lotes`. El lote junta los razonamientos de la semana con la estrategia del jefe de cuenta.
+- Los bots arman con eso el email y el PDF: qué se propone, por qué, con qué datos, qué se descartó y qué se espera.
+- Al cerrar la semana, el agente escribe en la memoria (`resultados`) qué pasó contra lo esperado. El reporte siguiente puede decir «la semana pasada esperábamos 6 pedidos y hubo 4».
+- El razonamiento es obligatorio en lo que va a un lote y opcional en lo `auto`.
+
 ### Confirmar
 
 `confirmar(borrador_id, clave_idempotencia)`:
@@ -394,7 +413,7 @@ Arcor primero: las etapas 1 a 3 se prueban con almaro y gonzales.
 
 | Tabla | Qué guarda |
 |---|---|
-| `core.mcp_borradores` | Cada borrador: tenant, tool, acción, efecto, riesgo, agente, motivo, estado, lote, vencimiento, clave de idempotencia. |
+| `core.mcp_borradores` | Cada borrador: tenant, tool, acción, efecto, riesgo, agente, motivo, razonamiento, estado, lote, vencimiento, clave de idempotencia. |
 | `core.mcp_lotes` | Cada lote: tenant, semana, estrategia en texto, presupuesto, estado, quién resolvió, evidencia del email. |
 | `core.mcp_eventos` | La cola de eventos por tenant, con cursor. |
 | `core.tenant_memoria` | Playbook, objetivos y resultados por tenant, con autor y fecha. |
