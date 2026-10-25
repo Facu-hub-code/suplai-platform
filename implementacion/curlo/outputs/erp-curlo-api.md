@@ -1,5 +1,7 @@
 # CURLO — datos desde API ERP
 
+**Baja 2026-10-24.** El schema `curlo` ya no existe. Este archivo es solo nota histórica. El reporte está en `outputs/offboard-log.md`. Los dumps de `inputs/erp/` se borraron del disco.
+
 **Tenant:** `curlo`  
 **Fecha:** 2026-10-01  
 **Path:** `implementacion/curlo/` (sin rama)  
