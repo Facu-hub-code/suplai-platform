@@ -84,7 +84,6 @@ async def limpiar_demo(conn: asyncpg.Connection) -> None:
         f"DELETE FROM {SCHEMA}.routes_clients",
         f"DELETE FROM {SCHEMA}.agenda",
         f"DELETE FROM {SCHEMA}.ia_tickets",
-        f"DELETE FROM {SCHEMA}.conversations",
         f"DELETE FROM {SCHEMA}.campaign_prospect",
         f"DELETE FROM {SCHEMA}.campaign_cost_daily",
         f"DELETE FROM {SCHEMA}.funnel_daily",
