@@ -1,74 +1,118 @@
 # 133 — El agente como preventista: los de siempre + novedades
 
-**Estado:** Borrador para retomar después de mergear el MCP (spec 132) y levantar el primer plantel de bots. Es la base del brainstorming de las skills de venta.
-**Fecha:** 2026-10-24
-**Repos:** `agente-conversacional-multi_tenant`, `wholesale-catalog-app`, `backend-supabase`, `suplai-platform` (este spec).
-**Relaciona:** [132](./132-mcp-para-agentes-y-humanos.md) (los bots que cuidan la configuración), [131](./131-promociones-tres-modelos.md) (promos), dry run de almaro `implementacion/almaro/outputs/dry-run-preventista-20261024.md`.
+**Estado:** v2, borrador para aprobar. El MCP del spec 132 ya está en producción (etapas 1 a 5) y los bots ya calculan los habituales.
+**Fecha:** 2026-10-25 (v1: 2026-10-24)
+**Repos:** `agente-conversacional-multi_tenant`, `backend-supabase`, `wholesale-catalog-app` (tienda), `suplai-platform` (este spec).
+**Relaciona:** [132](./132-mcp-para-agentes-y-humanos.md) (los bots que cuidan la configuración), [131](./131-promociones-tres-modelos.md) (promos), 081 del agente (`agente-conversacional-multi_tenant/docs/specs/081-repeat-last-order-deterministic.md`, repetir pedido), [073](./073-mixpanel-analytics.md) (métricas), dry run de almaro `implementacion/almaro/outputs/dry-run-preventista-20261024.md`.
 
 ---
 
 ## Objetivo
 
-Que el agente no solo tome pedidos bien sino que venda como un buen preventista: llega con el pedido de siempre armado y suma algo nuevo.
+Que el agente venda como un buen preventista: llega con el pedido de siempre armado y suma algo nuevo.
 
-**Meta mínima de cada pedido:** el pedido habitual del cliente + al menos una novedad o una promoción.
-
----
-
-## Lógica del preventista
-
-1. **Los de siempre.** El agente sabe qué compra cada cliente y en qué cantidad. Ofrece cargarlo de una vez («¿te armo lo de siempre?») y el cliente solo corrige.
-2. **Novedades.** Productos que entraron hace poco, con foto. Se muestran después de armar lo de siempre, uno o dos, elegidos por afinidad con lo que el cliente ya compra.
-3. **Promociones.** Las vigentes para la lista del cliente, empezando por las que llevan productos que ya compra (un combo de un producto habitual vende más que uno de algo nuevo).
-4. **Cierre.** Si el pedido no llegó a la meta mínima, el agente ofrece una novedad o una promo antes de confirmar, una sola vez y sin insistir.
+**Meta mínima de cada pedido:** lo de siempre + al menos una novedad o una promoción.
 
 ---
 
-## Qué tiene que tener cada cliente
+## Qué hace hoy el agente
 
-Todo cliente tiene, en la tienda y en el agente:
-
-| Qué | De dónde sale | Regla |
+| Qué | Cómo | Límite |
 |---|---|---|
-| **Favoritos** | Los que marca en la tienda + los habituales de su historial | Si no marcó ninguno, se arman con el historial. Si no tiene historial en Suplai, con el del ERP. |
-| **Cantidad habitual** | La mediana de lo que pidió de cada producto | No es fija: depende del cliente y del producto (ver dry run). |
-| **Novedades** | Los últimos ingresos del catálogo con stock, foto y precio en su lista | Sin foto no se muestra como novedad. |
-| **Promociones** | Las vigentes de su lista de precios | Toda lista con clientes tiene promos; si no, se avisa. |
-
-En la tienda: la sección Favoritos arranca llena con los habituales, con un botón «Repetir lo de siempre» que carga cada producto en su cantidad habitual. Novedades y Promociones ya existen.
-
----
-
-## Cantidad habitual
-
-La idea inicial era «de a 1 o de a 3 según el cliente». El dry run de almaro muestra que no alcanza con eso: la cantidad que más se repite por cliente y producto es de 4 a 6 unidades (37 %), y 1 y 3 son el 17 % cada una.
-
-Regla propuesta:
-
-- `cantidad_habitual` = mediana de la cantidad pedida de ese producto por ese cliente, en la unidad de venta (unidad o display).
-- Solo para productos que pidió 2 veces o más; los que pidió una vez son «ocasionales» y no entran en lo de siempre.
-- Se recalcula con cada pedido confirmado y vive en `clients.metadata.top_products` (hoy guarda el total, no la mediana: hay que sumarla).
+| Repetir | `repeat_order` clona el último pedido confirmado (hasta 60 días). | Es el último pedido, no lo de siempre: si el último fue chico o raro, repite eso. |
+| Historial | `list_recent_orders`. | Lo lee el modelo; no hay cantidades habituales. |
+| Promos | `list_promotions` (páginas de 5, como la tienda). | Solo si el cliente pregunta. No elige la que conviene a ese cliente. |
+| Cross y up sell | `suggest_order_boost_for_client`, `tenant_*_sell_mappings`. | Solo para el vendedor (Field), no para el cliente. |
+| Habituales | `clients.metadata.top_products` (spec 132: mediana, frecuencia, origen Suplai y ERP). | El agente del cliente no lo lee. Solo lo usa `seller_field`. |
+| Novedades | La tienda las muestra por `created_at`. | El agente no las conoce. |
 
 ---
 
-## Quién lo cuida: los bots
+## Cómo vende
 
-Los agentes del spec 132 se ocupan de que esto esté bien configurado:
+### 1. Lo de siempre
 
-| Bot | Qué revisa |
+- El agente recibe en el prompt un bloque corto por cliente: hasta 8 habituales (`habitual=true`) con su cantidad habitual, la última compra y cada cuántos días los pide. Si un habitual ya pasó su frecuencia, va marcado «le toca».
+- Al primer «hola» de un cliente con habituales, ofrece armar lo de siempre en una línea: «¿Te armo lo de siempre? (yerba x6, azúcar x4…)».
+- `repeat_order` suma `base`: `habitual` (nuevo, default si hay habituales) o `ultimo` (lo de hoy). Con `habitual` arma cada producto en su cantidad habitual, saca los que no tienen stock y lo dice.
+- Si no tiene habituales, sigue como hoy (último pedido o pedido libre).
+
+### 2. Una sugerencia, elegida para ese cliente
+
+Una tool nueva del agente, `sugerir_para_cliente`, devuelve hasta 3 candidatos con el motivo, en este orden:
+
+1. **Promo de un habitual:** una promo vigente de su lista que lleva un producto que ya compra.
+2. **Novedad afín:** una novedad (últimos ingresos, con foto, stock y precio en su lista) de una categoría que ya compra.
+3. **Cross sell:** el mapeo del tenant para algo que tiene en el carrito.
+
+El agente ofrece **una**, después de armar lo de siempre, con su motivo en una frase («entró el set matero, va con la yerba que llevás»).
+
+### 3. No cansar
+
+- Una sugerencia por pedido. Nunca antes de que esté armado lo de siempre o lo que pidió.
+- Si dice que no, esa sugerencia no vuelve en 14 días (`clients.metadata.sugerencias`, JSON que ya existe: sin columnas nuevas).
+- No sugiere si el cliente pidió algo puntual con apuro («solo 2 cocas y listo») ni si está en un reclamo.
+
+### 4. Cierre
+
+Antes de `confirm_order`, si el pedido no llegó a la meta mínima y todavía no se ofreció nada, ofrece una sola vez. Si ya se ofreció, confirma sin insistir.
+
+---
+
+## La tienda
+
+- La sección Favoritos arranca llena con los habituales (los que marcó el cliente primero).
+- Botón «Repetir lo de siempre»: carga cada habitual en su cantidad habitual. Lee los habituales de un endpoint del backend (`/{schema}/tienda/habituales`).
+
+---
+
+## Quién lo mantiene
+
+Los bots del spec 132, con el prompt del plantel (`docs/grok-bot/`):
+
+| Bot | Qué hace |
 |---|---|
-| Catálogo | Novedades sin foto (las pide), sin stock o sin precio en alguna lista con clientes. |
-| Analista | Clientes sin favoritos o sin historial; recalcula los habituales; mide cuántos pedidos llegan a la meta mínima. |
-| Activador | Listas con clientes y sin promos; promos de productos habituales que conviene empujar. |
-| Supervisor | Que el agente ofrezca lo de siempre y una novedad o promo en las conversaciones reales. |
-| Jefe de cuenta | Junta los hallazgos en el lote de la semana, con la estrategia. |
+| Analista | Recalcula los habituales todos los días (`editar_clientes cambio=habituales`). Mide la meta mínima. |
+| Catálogo | Novedades con foto y descripción. Sin foto no se sugieren. |
+| Activador | Toda lista con clientes tiene promos; si no, lo avisa. |
+| Supervisor | Lee charlas reales: ¿ofreció lo de siempre? ¿una sola sugerencia? ¿insistió? |
 
 ---
 
-## Pendientes antes de implementar
+## Si se acaba el crédito de un proveedor
 
-1. Brainstorming de las skills de venta: cuándo ofrecer, cómo elegir la novedad, cómo no cansar al cliente.
-2. Traer el historial de pedidos del ERP para los clientes que no compraron por Suplai (en almaro son 108 de 150).
-3. Sumar la mediana y la frecuencia a `top_products`, y correr el cálculo para todos los clientes.
-4. Botón «Repetir lo de siempre» en la tienda y en el agente.
-5. Métrica: % de pedidos con lo de siempre + al menos una novedad o promo.
+Pedido de Facundo (24/10/2026): el agente no puede quedarse mudo porque se terminó el saldo de OpenAI o de Anthropic.
+
+- `llm_factory.build_chat_model` arma, además del modelo del tenant, uno de respaldo del otro proveedor: `gpt-4o` ↔ `claude-sonnet-5-5`, `gpt-4o-mini` ↔ `claude-haiku-5-5`.
+- Solo cambia por errores de saldo o cuota: OpenAI `insufficient_quota` (429) y Anthropic «credit balance is too low» (400). Un error común o un timeout se reintenta como hoy.
+- Al cambiar, el proveedor caído queda fuera 15 minutos para todos los tenants, y se avisa a Suplai (log de error y notificación `error_sistema`).
+- Si falta la clave del otro proveedor, no hay respaldo y queda como hoy.
+- Con Claude se pide la tool por prompt (sin `tool_choice` forzado), como ya hace `supports_forced_tool_choice`.
+
+---
+
+## Métricas (Mixpanel, spec 073)
+
+- `pedido_confirmado` y `pedido_confirmado_field` suman `uso_lo_de_siempre`, `sugerencia_ofrecida`, `sugerencia_aceptada` y `tipo_sugerencia` (promo, novedad, cross_sell). Salen del backend, como hoy.
+- Métrica: % de pedidos con lo de siempre + al menos una novedad o promo, por tenant y por semana.
+
+---
+
+## Etapas
+
+| Etapa | Qué | Listo cuando |
+|---|---|---|
+| 1 | Fallback de proveedores. | Con la clave de OpenAI sin saldo, el agente contesta con Claude y avisa. |
+| 2 | Bloque «lo de siempre» en el prompt y `repeat_order base=habitual`. | El cliente 79 de almaro pide «lo de siempre» y recibe sus habituales en su cantidad. |
+| 3 | `sugerir_para_cliente`, una sugerencia y no cansar. | En 20 charlas de prueba ofrece una sola vez y nunca antes de armar el pedido. |
+| 4 | Tienda: Favoritos con habituales y «Repetir lo de siempre». | El botón carga lo mismo que el agente. |
+| 5 | Métricas en Mixpanel. | La meta mínima se ve por tenant en Live View. |
+
+---
+
+## Decisiones para aprobar
+
+1. **¿Extender `repeat_order` con `base` o una tool aparte?** Propuesta: extender, para no sumar tools al agente.
+2. **¿Cuántos días sin repetir una sugerencia rechazada?** Propuesta: 14.
+3. **¿El fallback cambia para todos los tenants o solo para el que falló?** Propuesta: para todos, porque el saldo es de la cuenta y no del tenant.
+4. **¿Arranca en almaro solo, con un flag por tenant?** Propuesta: sí, `metadata.preventista_activo`, y después gonzales.
