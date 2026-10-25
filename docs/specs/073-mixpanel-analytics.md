@@ -78,6 +78,7 @@ Formato: `{app}:{schema}:{id}`
 | Backoffice | `backoffice` | `A` | `profile.id` (UUID supervisor) | Auth resuelta (`AuthProvider`) |
 | Tienda | `tienda` | `B` | `cliente.id` (int interno, **nunca** el teléfono) | Login por teléfono OK |
 | Field | `field` | `C` | `vendedor.id` | Login por teléfono OK |
+| Agente (WhatsApp) | `agente` | `B` | `cliente.id` | No hay `identify`: solo eventos de backend (spec 133) |
 
 Invitado tienda: no llamar `identify`. Mixpanel usa el distinct anónimo del dispositivo. Al login, `identify('tienda:{schema}:{cliente.id}')` une el historial anónimo al PdV.
 
@@ -112,7 +113,8 @@ Propiedades listadas = extra al super set.
 | `modo_invitado_iniciado` | Cliente | `components/login-form.tsx` (rama guest) | — |
 | `producto_agregado_carrito` | Cliente | `components/catalog-client.tsx` `addToCart` | `sku`, `cantidad` |
 | `pedido_repetido` | Cliente | `onRepeatPedido` (historial) | `pedido_origen_id` |
-| `pedido_confirmado` | Backend | `routers/tienda.py` `confirmar_pedido_tienda` | `pedido_id`, `total`, `items_count` |
+| `lo_de_siempre_cargado` | Cliente | `components/favorites/repeat-usual-button.tsx` | `items_count`, `sin_stock` |
+| `pedido_confirmado` | Backend | `routers/tienda.py` `confirmar_pedido_tienda` | `pedido_id`, `total`, `items_count` + [preventista](#preventista-spec-133) |
 
 ### Field (`app=field`)
 
@@ -121,8 +123,28 @@ Propiedades listadas = extra al super set.
 | `ruta_abierta` | Cliente | `app/[schema]/home/page.tsx` (carga OK) | `pdv_count` |
 | `pdv_visitado` | Cliente | `app/[schema]/pdv/[id]/page.tsx` | `cliente_id` |
 | `torneo_visto` | Cliente | `app/[schema]/torneo/page.tsx` | `torneo_id` (si hay activo) |
-| `pedido_confirmado_field` | Backend | `services/vendedor_pedidos_service.py` `confirmar_pedido` | `pedido_id`, `cliente_id`, `total` |
+| `pedido_confirmado_field` | Backend | `services/vendedor_pedidos_service.py` `confirmar_pedido` | `pedido_id`, `cliente_id`, `total` + [preventista](#preventista-spec-133) |
 | `tarea_completada` | Backend | mismo confirm, un evento por ítem de `tareas_completadas` | `tarea_id`, `tipo`, `pedido_id` |
+
+### Agente (`app=agente`)
+
+| Evento | Fuente | Archivo | Props extra |
+|--------|--------|---------|-------------|
+| `pedido_confirmado_agente` | Backend | `routers/notifications.py`, webhook `order_confirmed` del agente | `pedido_id`, `cliente_id`, `total`, `items_count` + [preventista](#preventista-spec-133) |
+
+Los tenants con confirmación diferida (`pendiente_armado`) no pasan por ese webhook y no emiten este evento.
+
+### Preventista (spec 133)
+
+Solo con `metadata.preventista_activo`. Se calculan al confirmar en `services/preventista_metricas.py`, sin marca en el pedido:
+
+| Prop | Qué es |
+|------|--------|
+| `uso_lo_de_siempre` | El pedido lleva al menos la mitad de los habituales del cliente (hasta 8). |
+| `tiene_novedad` | Lleva alguno de los últimos 40 ingresos del catálogo. |
+| `tiene_promo` | Lleva un producto con promo vigente (SKU o grupo). |
+| `meta_minima` | Lo de siempre + novedad o promo. |
+| `sugerencia_ofrecida` / `sugerencia_aceptada` / `tipo_sugerencia` | Lo que ofreció el agente en ese pedido (`clients.metadata.sugerencias`) y si lo compró. |
 
 ### Backoffice (`app=backoffice`)
 

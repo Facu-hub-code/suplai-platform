@@ -1,6 +1,6 @@
 # 133 — El agente como preventista: los de siempre + novedades
 
-**Estado:** v2, borrador para aprobar. El MCP del spec 132 ya está en producción (etapas 1 a 5) y los bots ya calculan los habituales.
+**Estado:** v2, implementado (etapas 1 a 5) en PRs abiertos; falta la prueba con charlas reales de almaro. Decisiones aprobadas con la propuesta del spec (25/10/2026).
 **Fecha:** 2026-10-25 (v1: 2026-10-24)
 **Repos:** `agente-conversacional-multi_tenant`, `backend-supabase`, `wholesale-catalog-app` (tienda), `suplai-platform` (este spec).
 **Relaciona:** [132](./132-mcp-para-agentes-y-humanos.md) (los bots que cuidan la configuración), [131](./131-promociones-tres-modelos.md) (promos), 081 del agente (`agente-conversacional-multi_tenant/docs/specs/081-repeat-last-order-deterministic.md`, repetir pedido), [073](./073-mixpanel-analytics.md) (métricas), dry run de almaro `implementacion/almaro/outputs/dry-run-preventista-20261024.md`.
@@ -85,7 +85,7 @@ Pedido de Facundo (24/10/2026): el agente no puede quedarse mudo porque se termi
 
 - `llm_factory.build_chat_model` arma, además del modelo del tenant, uno de respaldo del otro proveedor: `gpt-4o` ↔ `claude-sonnet-5-5`, `gpt-4o-mini` ↔ `claude-haiku-5-5`.
 - Solo cambia por errores de saldo o cuota: OpenAI `insufficient_quota` (429) y Anthropic «credit balance is too low» (400). Un error común o un timeout se reintenta como hoy.
-- Al cambiar, el proveedor caído queda fuera 15 minutos para todos los tenants, y se avisa a Suplai (log de error y notificación `error_sistema`).
+- Al cambiar, el proveedor caído queda fuera 15 minutos para todos los tenants y se loguea `LLM_PROVEEDOR_SIN_SALDO` como error (lo ve Suplai en Grafana; no va a los tickets de la distribuidora, porque el saldo es de Suplai).
 - Si falta la clave del otro proveedor, no hay respaldo y queda como hoy.
 - Con Claude se pide la tool por prompt (sin `tool_choice` forzado), como ya hace `supports_forced_tool_choice`.
 
@@ -93,7 +93,8 @@ Pedido de Facundo (24/10/2026): el agente no puede quedarse mudo porque se termi
 
 ## Métricas (Mixpanel, spec 073)
 
-- `pedido_confirmado` y `pedido_confirmado_field` suman `uso_lo_de_siempre`, `sugerencia_ofrecida`, `sugerencia_aceptada` y `tipo_sugerencia` (promo, novedad, cross_sell). Salen del backend, como hoy.
+- `pedido_confirmado`, `pedido_confirmado_field` y el nuevo `pedido_confirmado_agente` suman `uso_lo_de_siempre`, `tiene_novedad`, `tiene_promo`, `meta_minima`, `sugerencia_ofrecida`, `sugerencia_aceptada` y `tipo_sugerencia`. Salen del backend y se calculan al confirmar, sin columnas nuevas (ver spec 073).
+- En la tienda, `lo_de_siempre_cargado` cuando el cliente usa el botón.
 - Métrica: % de pedidos con lo de siempre + al menos una novedad o promo, por tenant y por semana.
 
 ---
