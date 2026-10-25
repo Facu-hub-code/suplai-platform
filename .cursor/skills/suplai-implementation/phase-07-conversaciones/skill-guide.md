@@ -63,8 +63,7 @@ El cargador:
 - Limpia eventos mock previos (`core.conversation_events` con `event_payload->>'is_mock' = 'true'`).
 - Crea/reutiliza `core.conversations` por `session_id` (ON CONFLICT tenant_id+session_id).
 - Inserta cada mensaje como evento (`user_message` / `assistant_message`) con `event_payload.text` y `event_payload.is_mock = true`.
-- **Espeja el inbox**: upsert en `{schema}.conversations` por `phone_number` con `client_id` resuelto desde `{schema}.clients` (el backoffice lista esta tabla; sin espejo solo se ve el chat real/E2E).
-- Actualiza `started_at` / `updated_at` del espejo con el rango temporal de los mensajes mock de esa sesión.
+- No hace falta espejo en el tenant: la bandeja del backoffice lee `core.conversations` y resuelve el cliente por teléfono (`{schema}.clients.phone_number = session_id`).
 - Verifica conteos y que el último evento por sesión haya quedado en `assistant_message`.
 
 **Nota:** `session_id` suele coincidir con el número telefónico del cliente sin el símbolo `+`.
@@ -81,7 +80,7 @@ WHERE c.schema_name = '{schema}'
   AND ev.event_payload->>'is_mock' = 'true';
 
 -- Inbox backoffice (debe ≈ sesiones mock):
-SELECT COUNT(*) FROM {schema}.conversations;
+SELECT COUNT(*) FROM core.conversations WHERE schema_name = '{schema}';
 ```
 
 Adicionalmente, el script reporta si alguna conversación termina en `user_message`.

@@ -63,7 +63,7 @@ Indicar al implementador: probar agente en backoffice/lab con datos del tenant; 
 ## Verificación
 
 - COUNT eventos core mock > 0
-- COUNT `{schema}.conversations` ≈ cantidad de sesiones mock del resumen (inbox visible)
+- COUNT `core.conversations` del tenant ≈ cantidad de sesiones mock del resumen (inbox visible)
 - 10–15 clientes con `live_feed=true` en CSV resumen
 - Ninguna conversación finaliza con `user_message` (último evento debe ser `assistant_message`).
 

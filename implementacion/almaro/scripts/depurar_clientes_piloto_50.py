@@ -60,7 +60,6 @@ TABLAS_POR_CLIENT_ID = [
     ("client_product_memory", "client_id"),
     ("clientes_aliases", "client_id"),
     ("clientes_etiquetas", "client_id"),
-    ("conversations", "client_id"),
     ("ia_tickets", "client_id"),
     ("routes_clients", "client_id"),
     ("vendedores_clientes", "cliente_id"),
@@ -198,7 +197,8 @@ async def build_plan(conn) -> tuple[list[dict], list[dict], dict]:
           UNION SELECT unnest($2::int[])
           UNION SELECT DISTINCT cliente_id FROM "{SCHEMA}".pedidos
                 WHERE cliente_id IS NOT NULL AND coalesce(origen, '') <> 'erp'
-          UNION SELECT DISTINCT client_id FROM "{SCHEMA}".conversations
+          UNION SELECT cli.id FROM "{SCHEMA}".clients cli
+                JOIN core.conversations cc ON cc.schema_name = '{SCHEMA}' AND cc.session_id = cli.phone_number
         )
         SELECT c.id, c.nombre, c.codigo, c.phone_number, c.is_mock, c.pdv_id,
                c.metadata->>'origen' AS origen,

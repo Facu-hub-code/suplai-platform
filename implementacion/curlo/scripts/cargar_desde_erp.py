@@ -86,7 +86,6 @@ async def limpiar_mock(conn: asyncpg.Connection) -> None:
         f"DELETE FROM {SCHEMA}.clientes_etiquetas",
         f"DELETE FROM {SCHEMA}.routes_clients",
         f"DELETE FROM {SCHEMA}.ia_tickets",
-        f"DELETE FROM {SCHEMA}.conversations",
         f"DELETE FROM {SCHEMA}.clients",
         f"DELETE FROM {SCHEMA}.puntos_venta",
         f"DELETE FROM {SCHEMA}.precios_productos",
