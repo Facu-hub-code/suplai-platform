@@ -12,7 +12,8 @@
 #   TRABAJO_ID=<uuid> ./lanzar.sh almaro catalogo      # otro run del mismo trabajo
 #
 # ADJUNTO: un .xlsx (se convierte a CSV acá, hoja por hoja) o un archivo de texto. Hasta 1 MB.
-# Variables opcionales: BACKEND_URL, ADMIN_EMAIL, MODELO, TIEMPO_MAX_MIN, REGION, PROYECTO.
+# Variables opcionales: BACKEND_URL, ADMIN_EMAIL, MODELO, TIEMPO_MAX_MIN, TOPE_USD, MAX_TURNOS,
+# REGION, PROYECTO.
 set -euo pipefail
 
 SCHEMA="${1:?Falta el schema (por ejemplo almaro)}"
@@ -22,6 +23,8 @@ BACKEND_URL="${BACKEND_URL:-https://web-production-f544f.up.railway.app}"
 ADMIN_EMAIL="${ADMIN_EMAIL:-facundo@suplaisales.com}"
 MODELO="${MODELO:-claude-opus-5-5}"
 TIEMPO_MAX_MIN="${TIEMPO_MAX_MIN:-60}"
+TOPE_USD="${TOPE_USD:-8}"
+MAX_TURNOS="${MAX_TURNOS:-80}"
 REGION="${REGION:-us-east4}"
 PROYECTO="${PROYECTO:-suplai-agentes}"
 
@@ -65,9 +68,16 @@ print(json.dumps(b))
 ')
 unset ADMIN_PASSWORD
 
-RESP=$(curl -sS --fail-with-body -X POST "${BACKEND_URL}/admin/agentes/runs/lanzar" \
+# Sin --fail: si el backend rechaza, se muestra su detalle (nunca trae el token).
+RESP=$(curl -sS -w '\n%{http_code}' -X POST "${BACKEND_URL}/admin/agentes/runs/lanzar" \
   -H "Content-Type: application/json" --data-binary @- <<<"$BODY")
 unset BODY
+CODIGO=${RESP##*$'\n'}
+RESP=${RESP%$'\n'*}
+if [[ "$CODIGO" != 2* ]]; then
+  echo "El backend respondió ${CODIGO}: ${RESP}" >&2
+  exit 1
+fi
 
 campo() { python3 -c "import json,sys; print(json.load(sys.stdin)['$1'])" <<<"$RESP"; }
 RUN_ID=$(campo run_id)
@@ -77,10 +87,10 @@ TOKEN=$(campo token)
 unset RESP
 
 echo "Trabajo ${TRABAJO}"
-echo "Run     ${RUN_ID} (${ROL}, ${MODELO})"
+echo "Run     ${RUN_ID} (${ROL}, ${MODELO}, tope US\$ ${TOPE_USD}, ${MAX_TURNOS} turnos)"
 
 gcloud run jobs execute agente-run \
   --project="$PROYECTO" --region="$REGION" --async \
-  --update-env-vars="RUN_ID=${RUN_ID},TRABAJO_ID=${TRABAJO},BOT_ROL=${ROL},MODELO=${MODELO},MCP_URL=${MCP_URL},MCP_TOKEN=${TOKEN}" \
+  --update-env-vars="RUN_ID=${RUN_ID},TRABAJO_ID=${TRABAJO},BOT_ROL=${ROL},MODELO=${MODELO},TOPE_USD=${TOPE_USD},MAX_TURNOS=${MAX_TURNOS},MCP_URL=${MCP_URL},MCP_TOKEN=${TOKEN}" \
   --format="value(metadata.name)" | sed 's/^/Ejecución /'
 unset TOKEN

@@ -23,9 +23,9 @@ variable "anthropic_hosts" {
 }
 
 variable "imagen_run" {
-  description = "Imagen del contenedor del run, fijada por digest. agente-run:harness-v1 = Claude Agent SDK sin MCP."
+  description = "Imagen del contenedor del run, fijada por digest. agente-run:harness-v2 = Claude Agent SDK conectado a /agentes/mcp."
   type        = string
-  default     = "us-east4-docker.pkg.dev/suplai-agentes/agentes/agente-run@sha256:6fe1fd3b7105672a83b781593abedbe6aff958b036b093c88bdf26481afd3496"
+  default     = "us-east4-docker.pkg.dev/suplai-agentes/agentes/agente-run@sha256:0dcc180abaffca0d048f4b98e974a9ea41e3fad0baa350d643ac05f8f961fa6e"
 }
 
 variable "proveedor_modelo" {

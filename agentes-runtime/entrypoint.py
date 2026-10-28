@@ -1,8 +1,9 @@
 """Entrypoint del contenedor de un run (spec 138).
 
-Versión 1: harness sin MCP. Arranca Claude Agent SDK con bash y archivos, le da un
-pedido y registra en los logs cada tool que usa, el resultado y el costo. Sirve para
-probar en GCP el modelo, el harness y la ejecución de código antes de sumar el MCP.
+Versión 2: Claude Agent SDK con bash y archivos, conectado al MCP de agentes
+(/agentes/mcp) con el token del run. El bot arranca leyendo sus instrucciones del MCP y
+deja cada paso en la traza; los logs registran cada tool, el resultado y el costo.
+Sin MCP_URL ni MCP_TOKEN corre como la versión 1: un pedido suelto, sin MCP.
 
 Variables de la ejecución:
   PROVEEDOR_MODELO  anthropic (API directa) o vertex (Claude en Vertex)
@@ -11,6 +12,8 @@ Variables de la ejecución:
   PEDIDO            lo que tiene que hacer el bot
   TOPE_USD          corta el run si el costo estimado llega a este valor
   MAX_TURNOS        corta el run después de esta cantidad de vueltas del loop
+  MCP_URL, MCP_TOKEN, RUN_ID, TRABAJO_ID, BOT_ROL
+                    los pasa lanzar.sh como override de la ejecución
 """
 
 from __future__ import annotations
@@ -24,13 +27,26 @@ import urllib.request
 from pathlib import Path
 
 import anyio
-from claude_agent_sdk import AssistantMessage, ClaudeAgentOptions, ResultMessage, ToolUseBlock, query
+from claude_agent_sdk import (
+    AssistantMessage,
+    ClaudeAgentOptions,
+    ResultMessage,
+    SystemMessage,
+    ToolUseBlock,
+    query,
+)
 
 PROVEEDOR = os.environ.get("PROVEEDOR_MODELO", "anthropic")
 MODELO = os.environ.get("MODELO", "claude-opus-5-5")
 TOPE_USD = float(os.environ.get("TOPE_USD", "1.0"))
 MAX_TURNOS = int(os.environ.get("MAX_TURNOS", "20"))
 TRABAJO = Path.home() / "trabajo"
+MCP_URL = os.environ.get("MCP_URL", "")
+# Se saca del entorno para que no lo herede el bash del bot: solo lo usa el cliente MCP.
+MCP_TOKEN = os.environ.pop("MCP_TOKEN", "")
+RUN_ID = os.environ.get("RUN_ID", "")
+BOT_ROL = os.environ.get("BOT_ROL", "")
+CON_MCP = bool(MCP_URL and MCP_TOKEN)
 
 PEDIDO = os.environ.get(
     "PEDIDO",
@@ -44,6 +60,15 @@ INSTRUCCIONES = (
     "Sos un analista de ventas que trabaja en segundo plano para una distribuidora. "
     "Trabajás en tu carpeta de trabajo con bash y Python. Calculá siempre con código; "
     "no inventes números. No tenés acceso a internet. Respondé en español rioplatense, corto."
+)
+
+
+INSTRUCCIONES_EQUIPO = (
+    "Sos un bot del equipo de agentes de Suplai Sales y trabajás en segundo plano, sin una "
+    "persona mirando. Tus instrucciones, el pedido y los adjuntos están en el MCP suplai: "
+    "empezá siempre llamando a leer_instrucciones y seguilas. Trabajás en tu carpeta con bash "
+    "y Python; calculá siempre con código. No tenés acceso a internet. Lo que importa queda "
+    "en la traza con registrar_traza, en una línea corta en español rioplatense."
 )
 
 
@@ -80,13 +105,21 @@ def entorno_harness() -> dict[str, str]:
     return env
 
 
+def servidores_mcp() -> dict:
+    if not CON_MCP:
+        return {}
+    return {"suplai": {"type": "http", "url": MCP_URL, "headers": {"Authorization": f"Bearer {MCP_TOKEN}"}}}
+
+
 async def correr() -> int:
     TRABAJO.mkdir(exist_ok=True)
     opciones = ClaudeAgentOptions(
         model=MODELO,
-        system_prompt=INSTRUCCIONES,
+        system_prompt=INSTRUCCIONES_EQUIPO if CON_MCP else INSTRUCCIONES,
         cwd=str(TRABAJO),
         tools=["Bash", "Read", "Write", "Edit", "Glob", "Grep"],
+        mcp_servers=servidores_mcp(),
+        allowed_tools=["mcp__suplai"] if CON_MCP else [],
         disallowed_tools=["WebFetch", "WebSearch"],
         permission_mode="bypassPermissions",  # nadie aprueba nada: el límite lo pone el entorno
         max_turns=MAX_TURNOS,
@@ -95,11 +128,18 @@ async def correr() -> int:
     )
 
     resultado: ResultMessage | None = None
-    async for mensaje in query(prompt=PEDIDO, options=opciones):
-        if isinstance(mensaje, AssistantMessage):
+    prompt = "Arrancá: llamá a leer_instrucciones y hacé el trabajo." if CON_MCP else PEDIDO
+    async for mensaje in query(prompt=prompt, options=opciones):
+        if isinstance(mensaje, SystemMessage) and mensaje.subtype == "init":
+            servidores = mensaje.data.get("mcp_servers") or []
+            log(evento="mcp", servidores=[{"nombre": m.get("name"), "estado": m.get("status")} for m in servidores])
+            if CON_MCP and not any(m.get("status") == "connected" for m in servidores):
+                log(evento="fin", ok=False, motivo="no conectó con el MCP de agentes")
+                return 1
+        elif isinstance(mensaje, AssistantMessage):
             for bloque in mensaje.content:
                 if isinstance(bloque, ToolUseBlock):
-                    entrada = bloque.input.get("command") or bloque.input.get("file_path") or ""
+                    entrada = bloque.input.get("command") or bloque.input.get("file_path") or bloque.input or ""
                     log(evento="tool", tool=bloque.name, detalle=str(entrada)[:300])
         elif isinstance(mensaje, ResultMessage):
             resultado = mensaje
@@ -122,7 +162,16 @@ async def correr() -> int:
 
 
 def main() -> int:
-    log(evento="inicio", proveedor=PROVEEDOR, modelo=MODELO, tope_usd=TOPE_USD, max_turnos=MAX_TURNOS)
+    log(
+        evento="inicio",
+        proveedor=PROVEEDOR,
+        modelo=MODELO,
+        tope_usd=TOPE_USD,
+        max_turnos=MAX_TURNOS,
+        run_id=RUN_ID,
+        rol=BOT_ROL,
+        mcp=MCP_URL or None,
+    )
     log(evento="red_lista", espera_seg=esperar_red())
     return anyio.run(correr)
 

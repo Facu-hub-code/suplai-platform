@@ -1,5 +1,5 @@
 # Imagen del contenedor de un run (spec 138).
-# Versión 1: Claude Agent SDK con bash, archivos y Python, sin MCP todavía.
+# Versión 2: Claude Agent SDK con bash, archivos y Python, conectado al MCP de agentes.
 
 FROM python:3.12-slim
 
