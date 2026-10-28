@@ -1,0 +1,7 @@
+# Plugins que baja terraform init. El .terraform.lock.hcl sí va al repo.
+.terraform/
+# El estado vive en el bucket; nunca en el repo.
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log

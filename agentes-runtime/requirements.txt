@@ -1,0 +1,5 @@
+# Versiones fijas: un rebuild no cambia el comportamiento del bot sin que lo sepamos.
+claude-agent-sdk==0.2.174  # trae el CLI de Claude Code adentro del wheel
+anyio==4.11.0
+pandas==2.3.3              # para que el analista calcule sobre los archivos
+numpy==2.3.4
