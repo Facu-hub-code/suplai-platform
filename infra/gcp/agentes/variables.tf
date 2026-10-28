@@ -16,10 +16,22 @@ variable "mcp_hosts" {
   default     = ["mcp.suplaisales.com", "htqgvspo.up.railway.app"]
 }
 
+variable "anthropic_hosts" {
+  description = "API de Anthropic. Destino temporal mientras Vertex no tenga cuota de Claude."
+  type        = list(string)
+  default     = ["api.anthropic.com"]
+}
+
 variable "imagen_run" {
-  description = "Imagen del contenedor del run, fijada por digest. agente-run:prueba-red-v2 = prueba de red sin harness, espera la red al arrancar."
+  description = "Imagen del contenedor del run, fijada por digest. agente-run:harness-v1 = Claude Agent SDK sin MCP."
   type        = string
-  default     = "us-east4-docker.pkg.dev/suplai-agentes/agentes/agente-run@sha256:ed3ca7ef3f0a2fe58546103d3bb9cf072f0d477dcee167ea58154757bda11e14"
+  default     = "us-east4-docker.pkg.dev/suplai-agentes/agentes/agente-run@sha256:6fe1fd3b7105672a83b781593abedbe6aff958b036b093c88bdf26481afd3496"
+}
+
+variable "proveedor_modelo" {
+  description = "anthropic (API directa, mientras Vertex no tenga cuota de Claude) o vertex."
+  type        = string
+  default     = "anthropic"
 }
 
 variable "terraform_sa" {

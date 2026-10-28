@@ -134,6 +134,24 @@ resource "google_compute_network_firewall_policy_rule" "mcp" {
   }
 }
 
+resource "google_compute_network_firewall_policy_rule" "anthropic" {
+  project         = var.project_id
+  firewall_policy = google_compute_network_firewall_policy.salida.name
+  priority        = 1200
+  direction       = "EGRESS"
+  action          = "allow"
+  description     = "API de Anthropic, mientras Vertex no tenga cuota de Claude. Se borra al volver a Vertex."
+  enable_logging  = false
+
+  match {
+    dest_fqdns = var.anthropic_hosts
+    layer4_configs {
+      ip_protocol = "tcp"
+      ports       = ["443"]
+    }
+  }
+}
+
 resource "google_compute_network_firewall_policy_rule" "bloquear_resto" {
   project         = var.project_id
   firewall_policy = google_compute_network_firewall_policy.salida.name

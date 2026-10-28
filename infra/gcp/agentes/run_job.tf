@@ -20,6 +20,36 @@ resource "google_cloud_run_v2_job" "agente_run" {
       containers {
         image = var.imagen_run
 
+        # Defaults de cada run. El backend los pisa con overrides al lanzar.
+        env {
+          name  = "PROVEEDOR_MODELO"
+          value = var.proveedor_modelo
+        }
+        env {
+          name  = "MODELO"
+          value = "claude-opus-5-5"
+        }
+        env {
+          name  = "TOPE_USD"
+          value = "1.0"
+        }
+        env {
+          name  = "MCP_HOST"
+          value = var.mcp_hosts[0]
+        }
+
+        # La clave la busca Cloud Run en Secret Manager al arrancar cada ejecución.
+        # En la configuración del job solo queda la referencia, nunca el valor.
+        env {
+          name = "ANTHROPIC_API_KEY"
+          value_source {
+            secret_key_ref {
+              secret  = google_secret_manager_secret.anthropic_api_key.secret_id
+              version = "latest"
+            }
+          }
+        }
+
         resources {
           limits = {
             cpu    = "2"
@@ -42,6 +72,7 @@ resource "google_cloud_run_v2_job" "agente_run" {
   depends_on = [
     google_project_service.apis,
     google_compute_network_firewall_policy_association.salida,
+    google_secret_manager_secret_iam_member.anthropic_agente_run,
   ]
 }
 

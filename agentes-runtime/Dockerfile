@@ -1,17 +1,18 @@
 # Imagen del contenedor de un run (spec 138).
-# Versión 0: sin harness. Solo prueba la red cerrada y los permisos de agente-run.
+# Versión 1: Claude Agent SDK con bash, archivos y Python, sin MCP todavía.
 
-# Base chica con Python. La versión fija evita que un rebuild cambie algo sin aviso.
 FROM python:3.12-slim
 
-# Usuario sin privilegios: lo que corra el bot no puede tocar el sistema del contenedor.
+# Usuario sin privilegios. Además, el harness no acepta bypassPermissions como root.
 RUN useradd --create-home --uid 10001 agente
 WORKDIR /home/agente/app
 
-# Solo librería estándar de Python en esta versión: no hay requirements todavía.
-COPY prueba_red.py .
+# Dependencias con versión fija. El wheel de claude-agent-sdk trae el CLI de Claude Code.
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY entrypoint.py prueba_red.py ./
 
 USER agente
 
-# Lo que corre cuando Cloud Run arranca la ejecución. Cuando termina, termina el run.
-ENTRYPOINT ["python", "-u", "prueba_red.py"]
+ENTRYPOINT ["python", "-u", "entrypoint.py"]
