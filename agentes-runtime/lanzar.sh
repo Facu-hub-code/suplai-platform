@@ -7,9 +7,11 @@
 # El token nunca se imprime ni se guarda en disco. La contraseña de admin se pide por teclado.
 #
 # Uso:
-#   ./lanzar.sh almaro catalogo "Corregí las unidades de venta según el Excel"
+#   ADJUNTO=../implementacion/almaro/inputs/productos_display_1_unidad.xlsx \
+#     ./lanzar.sh almaro catalogo "Corregí las unidades de venta según el Excel de Vale"
 #   TRABAJO_ID=<uuid> ./lanzar.sh almaro catalogo      # otro run del mismo trabajo
 #
+# ADJUNTO: un .xlsx (se convierte a CSV acá, hoja por hoja) o un archivo de texto. Hasta 1 MB.
 # Variables opcionales: BACKEND_URL, ADMIN_EMAIL, MODELO, TIEMPO_MAX_MIN, REGION, PROYECTO.
 set -euo pipefail
 
@@ -28,7 +30,7 @@ echo
 
 BODY=$(ADMIN_EMAIL="$ADMIN_EMAIL" ADMIN_PASSWORD="$ADMIN_PASSWORD" SCHEMA="$SCHEMA" ROL="$ROL" \
   PEDIDO="$PEDIDO" MODELO="$MODELO" TIEMPO_MAX_MIN="$TIEMPO_MAX_MIN" TRABAJO_ID="${TRABAJO_ID:-}" \
-  python3 -c '
+  ADJUNTO="${ADJUNTO:-}" python3 -c '
 import json, os
 b = {
     "admin_email": os.environ["ADMIN_EMAIL"],
@@ -42,6 +44,23 @@ if os.environ["TRABAJO_ID"]:
     b["trabajo_id"] = os.environ["TRABAJO_ID"]
 else:
     b["pedido"] = os.environ["PEDIDO"]
+    ruta = os.environ["ADJUNTO"]
+    if ruta:
+        import csv, io, pathlib
+        p = pathlib.Path(ruta)
+        if p.suffix.lower() in (".xlsx", ".xlsm"):
+            import openpyxl
+            wb = openpyxl.load_workbook(p, read_only=True, data_only=True)
+            b["adjuntos"] = []
+            for ws in wb.worksheets:
+                out = io.StringIO()
+                w = csv.writer(out)
+                for fila in ws.iter_rows(values_only=True):
+                    w.writerow(["" if v is None else v for v in fila])
+                sufijo = "" if len(wb.worksheets) == 1 else "-" + ws.title.replace("/", "-")
+                b["adjuntos"].append({"nombre": f"{p.stem}{sufijo}.csv", "tipo": "text/csv", "contenido": out.getvalue()})
+        else:
+            b["adjuntos"] = [{"nombre": p.name, "tipo": "text/plain", "contenido": p.read_text(encoding="utf-8")}]
 print(json.dumps(b))
 ')
 unset ADMIN_PASSWORD
