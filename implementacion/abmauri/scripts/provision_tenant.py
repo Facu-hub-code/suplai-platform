@@ -100,26 +100,26 @@ async def fix_sequence_defaults(conn: asyncpg.Connection) -> int:
 
 
 async def grant_schema(conn: asyncpg.Connection) -> None:
-    await conn.execute(f'GRANT USAGE ON SCHEMA "{SCHEMA}" TO anon, authenticated, service_role')
+    await conn.execute(f'GRANT USAGE ON SCHEMA "{SCHEMA}" TO service_role')
     await conn.execute(
         f'GRANT ALL ON ALL TABLES IN SCHEMA "{SCHEMA}" '
-        "TO postgres, service_role, anon, authenticated"
+        "TO postgres, service_role"
     )
     await conn.execute(
         f'GRANT ALL ON ALL SEQUENCES IN SCHEMA "{SCHEMA}" '
-        "TO postgres, service_role, anon, authenticated"
+        "TO postgres, service_role"
     )
     await conn.execute(
         f'GRANT ALL ON ALL FUNCTIONS IN SCHEMA "{SCHEMA}" '
-        "TO postgres, service_role, anon, authenticated"
+        "TO postgres, service_role"
     )
     await conn.execute(
         f'ALTER DEFAULT PRIVILEGES IN SCHEMA "{SCHEMA}" '
-        "GRANT ALL ON TABLES TO postgres, service_role, anon, authenticated"
+        "GRANT ALL ON TABLES TO postgres, service_role"
     )
     await conn.execute(
         f'ALTER DEFAULT PRIVILEGES IN SCHEMA "{SCHEMA}" '
-        "GRANT ALL ON SEQUENCES TO postgres, service_role, anon, authenticated"
+        "GRANT ALL ON SEQUENCES TO postgres, service_role"
     )
 
 

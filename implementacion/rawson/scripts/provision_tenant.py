@@ -103,21 +103,21 @@ async def fix_sequence_defaults(conn: asyncpg.Connection, new_schema: str, templ
 
 
 async def grant_schema(conn: asyncpg.Connection, schema: str) -> None:
-    await conn.execute(f'GRANT USAGE ON SCHEMA "{schema}" TO anon, authenticated, service_role')
+    await conn.execute(f'GRANT USAGE ON SCHEMA "{schema}" TO service_role')
     await conn.execute(
-        f'GRANT ALL ON ALL TABLES IN SCHEMA "{schema}" TO postgres, service_role, anon, authenticated'
+        f'GRANT ALL ON ALL TABLES IN SCHEMA "{schema}" TO postgres, service_role'
     )
     await conn.execute(
-        f'GRANT ALL ON ALL SEQUENCES IN SCHEMA "{schema}" TO postgres, service_role, anon, authenticated'
+        f'GRANT ALL ON ALL SEQUENCES IN SCHEMA "{schema}" TO postgres, service_role'
     )
     await conn.execute(
-        f'GRANT ALL ON ALL FUNCTIONS IN SCHEMA "{schema}" TO postgres, service_role, anon, authenticated'
+        f'GRANT ALL ON ALL FUNCTIONS IN SCHEMA "{schema}" TO postgres, service_role'
     )
     await conn.execute(
-        f'ALTER DEFAULT PRIVILEGES IN SCHEMA "{schema}" GRANT ALL ON TABLES TO postgres, service_role, anon, authenticated'
+        f'ALTER DEFAULT PRIVILEGES IN SCHEMA "{schema}" GRANT ALL ON TABLES TO postgres, service_role'
     )
     await conn.execute(
-        f'ALTER DEFAULT PRIVILEGES IN SCHEMA "{schema}" GRANT ALL ON SEQUENCES TO postgres, service_role, anon, authenticated'
+        f'ALTER DEFAULT PRIVILEGES IN SCHEMA "{schema}" GRANT ALL ON SEQUENCES TO postgres, service_role'
     )
 
 
