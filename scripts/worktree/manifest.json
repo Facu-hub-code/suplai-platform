@@ -24,7 +24,7 @@
       "stack": "python",
       "dev_port": 8000,
       "dev_command": "source venv/bin/activate && uvicorn main:app --reload --host 0.0.0.0 --port 8000",
-      "env_files": [".env"],
+      "env_files": [".env", "AGENTS.md"],
       "env_template": "env.example",
       "venv_dir": "venv",
       "requirements": "requirements.txt"

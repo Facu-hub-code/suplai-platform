@@ -19,19 +19,18 @@ is_linked_worktree() {
   [[ -n "$git_dir" && -n "$git_common" && "$git_dir" != "$git_common" ]]
 }
 
+# El hub es el checkout principal: siempre la primera entrada, esté en la rama que esté.
 hub_worktree_path() {
   local target="$1"
-  git -C "$target" worktree list --porcelain | awk '
-    $1 == "worktree" { path = $2 }
-    $1 == "branch" && $2 == "refs/heads/main" { print path; exit }
-    $1 == "branch" && $2 == "refs/heads/master" { print path; exit }
-  '
+  git -C "$target" worktree list --porcelain | sed -n '1s/^worktree //p'
 }
 
 resolve_repo_key() {
   local target abs_target repo_dir abs_repo
   target="$(cd "$1" && pwd)"
-  python3 - <<'PY' "$MANIFEST" "$target"
+  # Un worktree fuera de la carpeta del repo se reconoce por su .git común.
+  common="$(cd "$target" && cd "$(git rev-parse --git-common-dir 2>/dev/null)" 2>/dev/null && dirname "$(pwd)")"
+  python3 - <<'PY' "$MANIFEST" "${common:-$target}"
 import json, os, sys
 manifest_path, target = sys.argv[1], os.path.realpath(sys.argv[2])
 with open(manifest_path, encoding="utf-8") as f:
@@ -101,6 +100,8 @@ ensure_env_from_template() {
   local f target_file template_file
   template_file="${target}/${template}"
   for f in "${files[@]}"; do
+    # La plantilla es de variables de entorno: no sirve para otros archivos (AGENTS.md).
+    [[ "$(basename "$f")" == .env* ]] || continue
     target_file="${target}/${f}"
     [[ -e "$target_file" ]] && continue
     if [[ -f "$template_file" ]]; then
@@ -110,12 +111,33 @@ ensure_env_from_template() {
   done
 }
 
+# Puerto libre para un worktree: el hub usa el del manifest, cada worktree el siguiente que no
+# esté escuchando ni anotado en el .worktree-dev.env de otro worktree del mismo repo.
+free_dev_port() {
+  local target="$1"
+  local base="$2"
+  local p wt taken
+  for ((p = base + 1; p <= base + 50; p++)); do
+    lsof -nP -iTCP:"$p" -sTCP:LISTEN >/dev/null 2>&1 && continue
+    taken=0
+    while IFS= read -r wt; do
+      [[ "$wt" == "$target" ]] && continue
+      grep -qx "SUPLAI_DEV_PORT=${p}" "${wt}/.worktree-dev.env" 2>/dev/null && { taken=1; break; }
+    done < <(git -C "$target" worktree list --porcelain | sed -n 's/^worktree //p')
+    [[ "$taken" == 0 ]] && { echo "$p"; return; }
+  done
+  echo "$base"
+}
+
 write_dev_env_file() {
   local target="$1"
   local repo_key="$2"
-  local port dev_cmd
-  port="$(manifest_get "$repo_key" dev_port)"
+  local base port dev_cmd
+  base="$(manifest_get "$repo_key" dev_port)"
+  port="$(free_dev_port "$target" "$base")"
   dev_cmd="$(manifest_get "$repo_key" dev_command)"
+  dev_cmd="${dev_cmd//--port ${base}/--port ${port}}"
+  dev_cmd="${dev_cmd//-p ${base}/-p ${port}}"
   cat > "${target}/.worktree-dev.env" <<EOF
 # Generado por platform/scripts/worktree/setup-worktree.sh — no commitear
 SUPLAI_REPO=${repo_key}

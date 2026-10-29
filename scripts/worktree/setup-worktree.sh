@@ -84,5 +84,5 @@ write_dev_env_file "$TARGET" "$REPO_KEY"
 touch_stamp "$TARGET"
 
 log "Listo. Comando sugerido:"
-dev_cmd="$(manifest_get "$REPO_KEY" dev_command)"
+dev_cmd="$(sed -n 's/^SUPLAI_DEV_COMMAND=//p' "${TARGET}/.worktree-dev.env")"
 printf '  cd %s\n  %s\n' "$TARGET" "$dev_cmd"
