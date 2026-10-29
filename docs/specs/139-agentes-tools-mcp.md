@@ -184,6 +184,17 @@ La decisión en la Bandeja aplica el borrador con el mismo camino que `confirmar
 
 En el MVP la única escritura de los bots es `editar_memoria` (resultados L5, playbook L3).
 
+### Decisión abierta: quién aplica una propuesta aprobada (29/10/2026)
+
+En la prueba de almaro el curador propone con `proponer_cambios_productos` y la aprobación la aplica `POST /admin/agentes/propuestas/resolver` (`services/agentes_catalogo.resolver_propuesta`). Es código, sin modelo: toma el lock de la propuesta, verifica que no esté resuelta y aplica cada producto solo si sigue como estaba al proponerlo; los que cambiaron quedan como `salteados`. Faka planteó que lo aplique el agente, no un código. Queda sin decidir entre:
+
+| Opción | Cómo | A favor | En contra |
+|--------|------|---------|-----------|
+| A. Híbrido (recomendada) | El backend aplica el diff aprobado tal cual. La decisión emite `contexto.aportado` (ya previsto arriba) y un run nuevo del bot verifica el resultado, vuelve a proponer los `salteados` y cierra el trabajo con su resumen | Lo aplicado es exactamente lo aprobado. El criterio queda en el bot. Aplicar no espera un contenedor | Un run extra por propuesta |
+| B. Lo aplica el bot | Aprobar le da al bot un permiso de una sola vez atado a esa propuesta (productos y valores). Un run nuevo lo ejecuta | El agente hace todo el trabajo | El servidor igual tiene que validar que lo escrito coincide con lo aprobado (principio 1): termina siendo un merge más lento y más caro |
+
+Se decide antes de construir la Bandeja del [135](./135-backoffice-agentico.md). Con cualquiera de las dos, la pantalla Equipo de agentes (rama `feat/agentes-panel` en backend y backoffice) sigue llamando a `resolver`.
+
 ---
 
 ## Errores
