@@ -54,7 +54,7 @@ Más adelante se suman las implementaciones de clientes nuevos como proyectos de
 
 ### Una sesión por proyecto, sub-sesiones por issue
 - Cada sesión de Claude atiende **un solo proyecto** de Linear y es su orquestadora. No toma issues de otros proyectos: si aparece algo de otro, lo anota (ver "Anotar al pasar") y lo deja para la sesión de ese proyecto.
-- Para las issues puntuales, la sesión crea **sub-sesiones** (subagentes o sesiones hijas), una por issue, cada una en su rama y su worktree.
+- Para las issues puntuales, la sesión crea **sub-sesiones**, una por issue, cada una en su rama y su worktree. Son **sesiones hijas**, visibles anidadas bajo la sesión del proyecto, para que Faka pueda abrirlas, seguirlas y escribirles. No se usan subagentes ocultos.
 - **Máximo 3 sub-sesiones a la vez.** El límite lo pone lo que Faka puede revisar y entender, no la velocidad de los agentes. Se eligen para que no toquen los mismos archivos, y solo una puede tener migraciones a la vez.
 - Las sub-sesiones no escriben en producción ni mergean. Abren su PR, comentan el link en la issue y la pasan a `In Review`.
 - Cuando una sub-sesión termina, la sesión padre verifica el PR (CI, conflictos, que haga lo que dice). Después **le pide permiso a Faka para mergear** y le avisa qué tiene que revisar él: riesgos, decisiones del agente, pasos en producción, variables de entorno. Sin un sí explícito para esos PRs, no mergea.
