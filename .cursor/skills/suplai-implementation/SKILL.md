@@ -118,6 +118,23 @@ SI catálogo + prompt cargados y el resto omitido o cargado:
   → ofrecer sandbox agente + Fase 9 (E2E). Fase 10 solo si hay is_mock=true
 ```
 
+## Gate "Listo para enviar"
+
+Antes de prender la primera agenda de un tenant, antes de cada envío masivo a un grupo nuevo y después de cada carga de clientes. Fuente: documento de Linear **"Checklist: tenant listo para enviar"** (reglas A1–A3 en "Reglas de integración ERP", §4.0).
+
+Solo lectura (MCP Supabase o `buscar_*` del conector) sobre los destinatarios del grupo o agenda. Devolver un semáforo por condición:
+
+| # | Condición | Verde | Rojo / amarillo |
+|---|-----------|-------|-----------------|
+| 1 | Nombre de pila | Todos con `nombre_de_pila` | Rojo: vacío (sale "Hola Cliente") |
+| 2 | Teléfono con WhatsApp | `existente` / `validado`, característica válida | Amarillo: `no_validado` o fuera de área. Rojo: característica inexistente |
+| 3 | Habituales | Vinculados con `metadata.top_products` | Amarillo: sin calcular |
+| 4 | Lista de precios | Activa, igual a la del ERP, precios > 0 | Rojo: inactiva, distinta o sin precios |
+| 5 | Promo y plantilla | Plantilla `APPROVED`; promo vigente, con stock, precio que cierra contra la lista | Rojo: plantilla no aprobada, promo vencida o sin stock |
+| 6 | Destinatarios | Conteo correcto, sin envío previo si es "sin mensaje", clientes de prueba identificados | Amarillo: prueba incluidos o envíos previos |
+
+Rojo frena el envío. Amarillo se avisa y decide el implementador. Las correcciones (backfill de nombres, barrido de WhatsApp y de habituales) se proponen con preview y se aplican solo con "confirmar".
+
 ## Actualizar manifest
 
 Tras cada fase:
