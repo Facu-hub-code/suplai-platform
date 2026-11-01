@@ -39,7 +39,7 @@ python scripts/fase-09-e2e/healthcheck_schema.py --schema <nombre_esquema> --fix
 
 ### Validaciones que realiza:
 1. **Teléfono del Agente:** Que `agent_phone_number` en `public.distribuidoras` esté configurado.
-2. **Productos Activos con Stock:** Que haya filas en `{esquema}.productos` con `en_catalogo = true` y `stock > 0`.
+2. **Productos Activos con Stock:** Que haya filas en `{esquema}.productos` con `en_catalogo = true` y `stock > 0`. Si el Excel no trajo stock y no hay ERP, esta validación falla: es esperado. No se estima stock para pasarla; se pide a la distribuidora o se espera el sync del ERP.
 3. **Descripciones:** Que los productos tengan descripción comercial (sin fluff publicitario).
 4. **Categorías (Tags):** Que los productos tengan al menos una categoría asociada en `{esquema}.product_tags`.
 5. **RAG de Productos y Categorías:** Que los productos y categorías activas estén vectorizados en la base de datos.
