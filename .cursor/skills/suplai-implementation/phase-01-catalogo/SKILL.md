@@ -34,7 +34,7 @@ description: Fase 1 catálogo — Excel a CSV de productos enriquecidos y carga 
 | Resto | Pareto hacia 0.1 |
 | LLM | `aliases` (pipe-separated en CSV), `descripcion` (ver reglas abajo) |
 | Imagen | URL real si hay Excel/fotos; si no, vacío. **MUST NOT** placeholder |
-| Sin stock en Excel | `stock` 10–500 según rotación (estimación operativa, no lista inventada) |
+| Stock en Excel | El valor del Excel (entero ≥ 0). Sin stock en Excel → `stock` vacío. **MUST NOT** estimar stock: llega del ERP en cada sync o la distribuidora lo carga a mano |
 | Flag | `is_mock=false` en modo completo; `is_mock=true` solo en demo |
 
 

@@ -68,7 +68,7 @@ Por cada producto (fila), aplicar las siguientes reglas para completar los campo
     5. **Sin contexto inventado**: No incluir afirmaciones sobre comportamiento del consumidor, sugerencias de venta ni beneficios percibidos.
   - > ⚠️ Esta descripción es provisoria. En modo completo la Fase 1.2 enriquece todos los cargados.
   - `image_url`: URL real si hay fotos; si no, vacío. **MUST NOT** placeholder.
-- **Stock por Defecto**: Si el Excel no provee stock real, asignar valores estimados de stock entre `10` y `500` unidades según el índice de rotación.
+- **Stock**: cargar solo el stock real del Excel (entero ≥ 0). Si el Excel no lo trae, dejar `stock` vacío. **MUST NOT** asignar un stock estimado, ni por rotación ni para la demo. Con ERP, el stock llega en cada sync; sin ERP, la distribuidora lo carga a mano (receta MCP `actualizar-stock` o backoffice).
 - **Flag**: `is_mock = false` en modo completo. `is_mock = true` solo en demo agéntica.
 
 ### 3. Listas de precios
