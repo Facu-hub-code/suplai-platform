@@ -1,0 +1,71 @@
+name: Monitor de caídas
+
+# DEV-20: chequea /health del backend, el agente y el MCP desde fuera de Railway.
+# Script y secrets: infra/monitor-caidas/README.md
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Solo mostrar qué haría (no crea issues ni manda mails)"
+        type: boolean
+        default: true
+      url_backend:
+        description: "Pisar la URL del backend (para probar una caída)"
+        required: false
+      url_agente:
+        description: "Pisar la URL del agente"
+        required: false
+      url_mcp:
+        description: "Pisar la URL del MCP"
+        required: false
+  pull_request:
+    paths:
+      - "infra/monitor-caidas/**"
+      - ".github/workflows/monitor-caidas.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: monitor-caidas-${{ github.event_name == 'pull_request' && github.ref || 'main' }}
+  cancel-in-progress: false
+
+jobs:
+  tests:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m unittest discover -s infra/monitor-caidas -v
+
+  chequeo:
+    # El cron solo corre si Faka activó la variable MONITOR_CAIDAS_ENABLED=true.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'schedule' && vars.MONITOR_CAIDAS_ENABLED == 'true')
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Chequear servicios
+        env:
+          LINEAR_API_KEY: ${{ secrets.LINEAR_API_KEY }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          LINEAR_TEAM_ID: ${{ vars.LINEAR_TEAM_ID }}
+          LINEAR_PROJECT_ID: ${{ vars.LINEAR_PROJECT_ID }}
+          BREVO_SENDER_EMAIL: ${{ vars.BREVO_SENDER_EMAIL }}
+          MONITOR_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '' }}
+          MONITOR_URL_BACKEND: ${{ inputs.url_backend }}
+          MONITOR_URL_AGENTE: ${{ inputs.url_agente }}
+          MONITOR_URL_MCP: ${{ inputs.url_mcp }}
+          MONITOR_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python infra/monitor-caidas/monitor.py
