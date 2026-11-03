@@ -6,6 +6,14 @@ Pack para el Grok Bot que ya tiene el MCP de Supabase. Sirve para preguntas oper
 
 El prompt de inicio del equipo (jefe de cuenta, analista y catálogo), versionado: [plantel-v1.md](plantel-v1.md).
 
+## Equipo de novedades (Grok Bot, computadora compartida)
+
+Jefe, vigía, catálogo y probador, que dejan listos los productos nuevos de dimer, almaro y gonzales para el agente. No usan el MCP de Suplai. Proyecto de Linear P-DEV-13.
+
+- [plantel-v2.md](plantel-v2.md): reglas compartidas, prompts, Auto Review, routines y puesta en marcha.
+- [novedad-lista.md](novedad-lista.md): qué es una novedad lista, cómo se re-vectoriza y línea base.
+- Skills: `.grok/skills/suplai-jefe-linear`, `suplai-vigia-novedades`, `suplai-catalogo-novedades`, `suplai-probador-whatsapp`.
+
 ## Qué cargar
 
 | Pieza | Dónde | Archivo |
