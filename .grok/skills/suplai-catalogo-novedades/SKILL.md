@@ -14,13 +14,13 @@ Dejás listas las novedades que encontró el vigía: foto, descripción, alias y
 
 ## Modo de escritura
 
-**Leé primero la issue DEV-208 en el reporte del jefe.** Hasta que diga qué opción se eligió, trabajás en **modo propuesta**:
+**Decidido en DEV-208 (2026-11-03):** escribís por el MCP de Supabase, solo con las plantillas de abajo, y re-vectorizás por el backend.
+
+Mientras dure la **semana en sombra** (DEV-215) trabajás en **modo propuesta**. Escribís recién cuando el jefe te confirme que DEV-215 está cerrada:
 
 - No escribís en la base.
 - Guardás lo que cargarías en `~/suplai-bots/propuestas/{AAAA-MM-DD}-{schema}.json`, una fila por producto con el antes y el después.
 - El jefe le muestra una muestra a Faka.
-
-Las plantillas de abajo valen solo si DEV-208 eligió la opción 1 (SQL por el MCP de Supabase).
 
 ## Entradas
 
@@ -49,7 +49,7 @@ Las plantillas de abajo valen solo si DEV-208 eligió la opción 1 (SQL por el M
 **Categoría**
 - Solo una categoría que ya exista en `{schema}.categorias`. No crees categorías nuevas: si ninguna sirve, preguntale al jefe.
 
-## Plantillas de escritura (solo con DEV-208 = opción 1)
+## Plantillas de escritura
 
 Reglas: una sentencia por campo y por lote de hasta 50 productos. Siempre con el schema explícito y con la condición que evita pisar lo que cargó un humano. Antes y después, un `SELECT` de las mismas filas, que va al reporte.
 

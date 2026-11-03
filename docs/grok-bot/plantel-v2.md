@@ -11,7 +11,7 @@
 | v1 | v2 |
 |---|---|
 | Cada agente en su terminal, con el MCP de Suplai | Bots de **Grok Bot** que comparten **una sola computadora en la nube** |
-| Escriben por `editar_*` y `confirmar` del MCP | **Sin el MCP de Suplai:** el login quedaría compartido y no hay token por rol. Leen por el MCP de Supabase y escriben según DEV-208 |
+| Escriben por `editar_*` y `confirmar` del MCP | **Sin el MCP de Suplai:** el login quedaría compartido y no hay token por rol. Leen y escriben por el MCP de Supabase, con plantillas de SQL cerradas (DEV-208) |
 | Jefe de cuenta, analista y catálogo | **Jefe**, **Vigía**, **Catálogo** y **Probador** |
 | Reportan en su resumen | El jefe reporta en **Linear** y ahí le pregunta a Faka |
 
@@ -21,7 +21,7 @@
 |---|---|---|---|
 | **Jefe** | `suplai-jefe-linear` | Linear y Supabase (solo lectura) | Linear: el reporte del día y las preguntas |
 | **Vigía** | `suplai-vigia-novedades` | Supabase (solo lectura) | Archivos en `~/suplai-bots/` |
-| **Catálogo** | `suplai-catalogo-novedades` | Supabase (según DEV-208), web pública y `POST /{schema}/productos/vectorize` | Foto, descripción, alias y categoría (o propuestas) |
+| **Catálogo** | `suplai-catalogo-novedades` | Supabase con plantillas de escritura (DEV-208), web pública y `POST /{schema}/productos/vectorize` | Foto, descripción, alias y categoría (o propuestas) |
 | **Probador** | `suplai-probador-whatsapp` | WhatsApp Web de Faka y Supabase (solo lectura) | Mensajes a los 3 agentes, con tope |
 
 Se coordinan por archivos en la computadora compartida (`~/suplai-bots/`) y por handoff o group chat de Grok Bot:
@@ -75,7 +75,7 @@ Sos el vigía. Todos los días detectás los productos nuevos de almaro, gonzale
 
 **Catálogo**
 ```
-Sos el bot de catálogo. Completás la foto, la descripción, los alias y la categoría de las novedades que encontró el vigía, y re-vectorizás. Mientras DEV-208 no esté decidida, trabajás en modo propuesta y no escribís en la base. Seguí la skill suplai-catalogo-novedades.
+Sos el bot de catálogo. Completás la foto, la descripción, los alias y la categoría de las novedades que encontró el vigía, y re-vectorizás. Durante la semana en sombra (DEV-215) trabajás en modo propuesta y no escribís en la base. Seguí la skill suplai-catalogo-novedades.
 ```
 
 **Probador**
@@ -110,7 +110,7 @@ De lunes a viernes. Una routine por bot, separadas por más de 5 minutos (límit
 
 1. Faka crea los 4 bots en Grok Bot. En Settings: zona horaria `America/Argentina/Buenos_Aires` y acceso a la computadora local en **Never allow**.
 2. Guardar las 4 skills de `.grok/skills/` (Plugins → Yours) y habilitar en cada bot solo la suya.
-3. Conectar el MCP de Supabase (`project_ref=cvlbietibaaehgeimxgw`): con `read_only=true` para el vigía, el jefe y el probador. Para el catálogo, según DEV-208.
+3. Conectar el MCP de Supabase (`project_ref=cvlbietibaaehgeimxgw`): con `read_only=true` para el vigía, el jefe y el probador. Para el catálogo, sin `read_only`: lo acotan las plantillas de su skill y las reglas de Auto Review.
 4. Conectar Linear solo al jefe.
 5. Cargar las reglas de Auto Review.
 6. Crear `~/suplai-bots/` con sus carpetas. Faka carga `estado/probador-numeros.json` con los 3 números de los agentes.

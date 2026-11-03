@@ -33,7 +33,7 @@ Stock y precio los trae el ERP: si faltan, el bot **no** los inventa. Los report
 
 - `{schema}.productos` no tiene triggers: un `UPDATE` directo de la descripción o los alias **no** actualiza el embedding.
 - El embedding lo arma el backend con `vectorizar_productos` → `upsert_documento_producto`. Se dispara por `POST /{schema}/productos/vectorize` con la lista de códigos en el body (`backend-supabase/routers/productos.py`), o solo al confirmar un borrador del MCP de Suplai.
-- Si los bots escriben con SQL (DEV-208, opción 1), igual necesitan esa llamada al backend después de cada lote.
+- Los bots escriben con SQL (decidido en DEV-208), así que igual necesitan esa llamada al backend después de cada lote.
 
 ## Línea base (2026-11-03, últimos 30 días)
 
