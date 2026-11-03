@@ -109,6 +109,7 @@ Migraciones oficiales viven en `backend/`.
 | `agregar-erp-mcp` | Sumar un ERP al MCP: lectura cruda y carga de faltantes |
 | `novedades-from-chat` | Borrador de novedad GEO para la landing a partir de un dump de chat |
 | `validar-telefonos-checknumber` | Validar en bulk los teléfonos de `{schema}.clients` con checknumber.ai |
+| `atencion-nivel-3` | Orquestar el backlog de P3 (nivel 3): triage, sesiones hijas, merge con permiso y cierre con aviso al cliente |
 
 ### Vendor (skills.sh — no en git, lock sí)
 
