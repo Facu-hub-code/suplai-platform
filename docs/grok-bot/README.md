@@ -1,3 +1,5 @@
+> **Lo vigente está en [`agentes/`](../../agentes/README.md).** Este directorio (plantel v1 y v2, cuatro bots) queda como historia. Las skills de `.grok/skills/` se siguen usando.
+
 # Grok Bot — reglas y skills Suplai (Supabase)
 
 Pack para el Grok Bot que ya tiene el MCP de Supabase. Sirve para preguntas operativas del estilo: *¿ayer salieron los envíos del carrusel de Gonzales?*
