@@ -1,0 +1,30 @@
+product_code,nombre,marca,ean,prioridad,estado,motivo,candidata_url,fuente,nombre_fuente
+510,GASEOSA POMELO x 1.5 L,Gaseosa,,combo,no_encontrada,sin EAN en el catálogo,,,
+10240,MI CHANCES MALBEC-CABERNET 750cc,Mi,7798051303326,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+10242,MI CHANCES TORRON-CHENIN-MALB DUL 750cc,Mi,7798051303340,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+10129,TACCONI 1.5L POMELO PET,Tacconi,7790950807165,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+1124,DOWNY 450ml MISTICO (VEN),Downy,7500435207232,combo,dudosa,"tamaño distinto ([('ml', 450)] vs [('ml', 500)])",https://jumboargentina.vteximg.com.br/arquivos/ids/777173/Suavizante-Downy-Perfume-Mistico-Botella-500ml-1-892684.jpg,jumbo.com.ar,Downy Perfume Místico Suavizante De Telas Concentrado Para Ropa 500ml
+197,PANTENE 300ml SH ANTIQUIEBRE,Pantene,7500435248037,combo,dudosa,variante: la tienda no dice ['antiquiebre'],https://carrefourar.vteximg.com.br/arquivos/ids/978212/7500435248037_02.jpg,carrefour.com.ar,Shampoo Pantene Prov Miracles anticaida 300 ml
+5010,HS SH SACHET ANTIITCH 10ML,Hs,7500435247689,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+5011,HS SH SACHET ROMERO ANTICAIDA 10ML,Hs,7500435256575,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+1088,ALWAYS Triple Protec Dia Seca 8 UNI.,Always,7500435250542,combo,dudosa,variante: la tienda no dice ['dia'],https://carrefourar.vteximg.com.br/arquivos/ids/877320/7500435250542_01.jpg,carrefour.com.ar,Toallas Femeninas Always Ultrafina Seca Talla M 8 uni
+1047,PRESTOBARBA ULT GRIP MUJER X UNIDAD,Prestobarba,7500435157476,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+1100,PAMPERS SSC (1x) GDE x8,Pampers,7790073034844,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+1192,PAMPERS BABYDRY GDE X8,Pampers,7790073034523,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+1101,PAMPERS SSC (1x) XGD x8,Pampers,7790073034851,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+1102,PAMPERS BABYDRY XGDE X8,Pampers,7790073034530,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+1103,PAMPERS SSC (1x) XXG x8,Pampers,7790073034868,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+7610,HS 180ml SH NUTRICION PROFUNDA,Hs,7500435159241,combo,dudosa,"revisión visual: la imagen es HS Crece fuerte desde la raíz, no Nutrición profunda",https://carrefourar.vteximg.com.br/arquivos/ids/239754/7500435159241_01.jpg,carrefour.com.ar,Shampoo fuerza de raíz Head & Shoulders 180 cc.
+18894,REPELENTE AEROSOL ABOVE x 150 ml,Repelente,7899674023293,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+1154,VENUS ROSA CARTEL 8 x UNID,Venus,7702018072439,combo,dudosa,variante: la tienda no dice ['rosa'],https://carrefourar.vteximg.com.br/arquivos/ids/170505/7702018072439_02.jpg,carrefour.com.ar,Máquina desechable simply3 venus Gillette x 1 uni
+11565,BOMBON FERRERO COLLECION T7,Ferrero,,combo,no_encontrada,sin EAN en el catálogo,,,
+10043,DR LEMON 473ml VODKA 5º,Dr Lemon,7790950102093,combo,dudosa,"tamaño distinto ([('ml', 473)] vs [('ml', 275)])",https://carrefourar.vteximg.com.br/arquivos/ids/821158/7790950102093_02.jpg,carrefour.com.ar,Aperitivo con alcohol Dr Lemon vodka 275 cc.
+171,PILA PHILCO AA x 1,Pila,7799111033467,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+173,PILA PHILCO AAA x 1,Pila,7799111033481,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+11286,ASTRA X UNIDAD,Astra,7500435144841,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+508,COCA COLA x 1.5 CC,Coca Cola,,combo,no_encontrada,sin EAN en el catálogo,,,
+1801,PANTENE SACHET AC RESTAURACION 10ML,Pantene,7506309803784,combo,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+509,PASO DE LOS TOROS POMELO x 1.5 L,Paso,,combo,no_encontrada,sin EAN en el catálogo,,,
+1876,PANTENE SACHET AC LISO EXTREMO 10ML (.),Pantene,7506295378709,marca:Pantene,no_encontrada,EAN sin resultados en Carrefour/Jumbo/Más Online/Cordiez,,,
+18214,PLB Jab Toc. Flores Rosas vita glic x120g...,Plb,7790990000816,marca:Plb,dudosa,revisión visual: la imagen es Plusbelle Radiante Peonías y frutos rojos; Flores rosas es otro envase (ver 18225),https://jumboargentina.vteximg.com.br/arquivos/ids/698219/Jabon-Tocador-Plusbelle-Radiante-120g-1-887927.jpg,jumbo.com.ar,Jabón de Tocador Radiante Peonias y Frutos Rojos 120 Grs Plusbelle
+18224,PLB 3X Jab Toc. Lavanda vita glic x120g,Plb,7790990000885,marca:Plb,dudosa,"tamaño distinto ([('g', 120)] vs [('g', 125)])",https://carrefourar.vteximg.com.br/arquivos/ids/241767/7790990000885_02.jpg,carrefour.com.ar,Jabón Plusbelle de relajación 125 g. x 3 uni
