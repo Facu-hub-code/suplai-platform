@@ -91,7 +91,7 @@ En Settings, con Auto Review prendido. Reglas *Ask first* (frenan y piden OK):
 2. Cualquier `apply_migration` o llamada a tools de Supabase que no sean `execute_sql` o `list_tables`.
 3. Cualquier request HTTP al backend de Suplai que no sea `POST /{schema}/productos/vectorize`.
 4. Cualquier mensaje de WhatsApp a un chat que no esté en `probador-numeros.json`, o cualquier envío de archivos, links o reenvíos.
-5. Cualquier acción en Linear que no sea crear o comentar una issue del proyecto P-DEV-13.
+5. Cualquier acción en Linear que no sea crear, comentar o mover una issue del proyecto P-DEV-13, o comentar y mover una issue con label `Grok` del proyecto P-DEV-3 (ver [protocolo-claude.md](protocolo-claude.md)).
 
 Durante la semana en sombra (DEV-215), la regla 1 queda en **Deny** para todos: nadie escribe.
 
@@ -122,4 +122,5 @@ De lunes a viernes. Una routine por bot, separadas por más de 5 minutos (límit
 
 | Versión | Fecha | Cambios |
 |---|---|---|
+| v2.1 | 2026-11-04 | El jefe toma las tareas de Claude (issues con label `Grok`) y lee el [protocolo](protocolo-claude.md) cada día. La regla 5 de Auto Review suma P-DEV-3 (DEV-257). |
 | v2 | 2026-11-03 | Grok Bot con computadora compartida, sin el MCP de Suplai. Jefe, vigía, catálogo y probador para las novedades de dimer, almaro y gonzales. Coordinación por archivos y Linear. |

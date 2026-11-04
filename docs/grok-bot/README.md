@@ -8,9 +8,11 @@ El prompt de inicio del equipo (jefe de cuenta, analista y catálogo), versionad
 
 ## Equipo de novedades (Grok Bot, computadora compartida)
 
-Jefe, vigía, catálogo y probador, que dejan listos los productos nuevos de dimer, almaro y gonzales para el agente. No usan el MCP de Suplai. Proyecto de Linear P-DEV-13.
+Jefe, vigía, catálogo y probador, que dejan listos los productos nuevos de dimer, almaro y gonzales para el agente. No usan el MCP de Suplai. Proyecto de Linear P-DEV-13. Los dirige la sesión padre de Claude del proyecto P3 (P-DEV-3).
 
 - [plantel-v2.md](plantel-v2.md): reglas compartidas, prompts, Auto Review, routines y puesta en marcha.
+- [protocolo-claude.md](protocolo-claude.md): cómo Claude les deja tareas (issues con label `Grok`), cómo reportan, dudas, archivos en Drive y control.
+- [aprendizajes-equipo.md](aprendizajes-equipo.md): reglas de proceso que salen de revisar el trabajo. El jefe las lee cada día.
 - [novedad-lista.md](novedad-lista.md): qué es una novedad lista, cómo se re-vectoriza y línea base.
 - Skills: `.grok/skills/suplai-jefe-linear`, `suplai-vigia-novedades`, `suplai-catalogo-novedades`, `suplai-probador-whatsapp`.
 
