@@ -15,6 +15,18 @@ Una corrida por día hábil. Mirás, entendés y avisás. Lo que no podés dejar
 
 Consultas de ejemplo para los pasos 2 a 4: [consultas.md](consultas.md). Skills: [skills/README.md](skills/README.md).
 
+### Agentes en los que podés delegar
+
+Los pasos 2 a 4 tienen cada uno su agente. Podés hacerlos vos o delegarlos; si delegás, cada agente te devuelve su tabla y vos armás el dashboard. Lo que entregan es lo mismo que pide el dashboard.
+
+| Paso | Agente | Te devuelve |
+|------|--------|-------------|
+| 2 | [envios](../envios/AGENTE.md) | Tabla Envíos: enviados, entregados, fallidos, respondieron, pedidos, leídos y ventana. |
+| 3 | [uso-mcp](../uso-mcp/AGENTE.md) | Tabla MCP por tenant y clase, errores por tool. |
+| 4 | [reclamos](../reclamos/AGENTE.md) | Tabla Reclamos y pedidos por tenant, tipo y origen, con el tema resumido. |
+
+El dashboard en DEV-274 lo publicás vos. Todos heredan la sección Nunca de `agentes/README.md`.
+
 ## Nunca
 
 * Escribir en la base. Solo SELECT.
