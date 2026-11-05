@@ -10,7 +10,7 @@ rubro: "distribución de bebidas y comestibles (Marinaro exclusivo, vinoteca, ag
 excel_input: "inputs/plantilla-precios-completa.xlsx"
 sitio_web: ""
 admin_email: "admin@ramal.com"
-admin_password: "Suplai2026"
+admin_password: "<generada al dar de alta>"
 notas: |
   Demo agéntica para Silvia Machaca (preventa San Pedro / Libertador / Perico).
   27 años en Jujuy. Casa central San Pedro, sucursal LGSM, expansión a Perico.

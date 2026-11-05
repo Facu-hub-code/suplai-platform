@@ -27,8 +27,8 @@ Aplica cuando trabajás en `implementacion/**` o el usuario pide implementar/onb
 
 ## Credenciales del owner
 
-- **MUST** usar email `admin@{schema_name}.com` (o el dominio real del cliente si `{schema}.com` es inválido) y contraseña **`Suplai2026`** al crear el owner.
-- **MUST NOT** inventar otra password (`ForsaDemo2026!`, `{Tenant}Demo2026!`, etc.) salvo pedido explícito.
+- **MUST** usar email `admin@{schema_name}.com` (o el dominio real del cliente si `{schema}.com` es inválido) al crear el owner. La contraseña la genera el alta, una por tenant (`secrets.token_urlsafe`), y se muestra una sola vez en la terminal.
+- **MUST NOT** usar una contraseña fija ni compartida entre tenants, ni escribirla en `manifest.yaml`, scripts, logs, `outputs/` ni ningún archivo del repo (DEV-321). Si el implementador necesita una propia, la pasa por la variable `TENANT_ADMIN_PASSWORD` al correr el alta.
 
 ## Modo por defecto — datos finales
 

@@ -3,7 +3,7 @@
 Tienda naturista en Villa Carlos Paz. Catálogo desde export Tienda Nube.
 
 - **Schema:** `kiki_market`
-- **Owner:** `admin@kikimarket.com` / `Suplai2026`
+- **Owner:** `admin@kikimarket.com` (contraseña fuera del repo)
 - **Sitio:** https://kikimarket.com.ar
 - **Precio:** lista única = precio Tienda Nube × 0.60
 - **Modo:** completo (sin recorte demo)

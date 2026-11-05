@@ -6,7 +6,7 @@ rubro: distribuidora demo para revisores del directorio de Claude
 excel_input: ""
 sitio_web: https://www.suplaisales.com/claude
 admin_email: reviewer@demo-claude.suplaisales.com
-admin_password: Suplai2026
+admin_password: "<generada al dar de alta>"
 notas: "Tenant aislado para revisores de Anthropic. Copia anonimizada y recortada de del_corro. Sin datos reales de clientes."
 modo: demo
 demo:

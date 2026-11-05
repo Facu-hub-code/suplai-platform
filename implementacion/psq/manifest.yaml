@@ -10,7 +10,7 @@ rubro: "fabricación y distribución de artículos de limpieza y descartables (g
 excel_input: "inputs/LISTA-B.pdf"
 sitio_web: "https://psqargentina.com/"
 admin_email: "admin@psq.com"
-admin_password: "Suplai2026"
+admin_password: "<generada al dar de alta>"
 notas: |
   Demo agéntica para Tadeo (socio comercial/admin; el otro socio sale a la calle).
   Córdoba capital (Nueva Córdoba, zona norte, zona sur, La Calera). La ficha decía BA y estaba mal.

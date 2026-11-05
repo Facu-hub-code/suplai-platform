@@ -19,6 +19,11 @@ schema = "valaice"
 core_skus = ["421", "422", "425", "440"]
 
 async def main():
+    # DEV-321: sin valor por defecto; se valida antes de tocar la base.
+    api_key = os.getenv("SALES_ENGINE_API_KEY")
+    if not api_key:
+        print("[FAIL] Falta SALES_ENGINE_API_KEY en el entorno (.env). No hay valor por defecto.")
+        sys.exit(1)
     db_url = os.getenv("SUPABASE_DB_URL")
     if not db_url:
         print("[FAIL] SUPABASE_DB_URL not found.")
@@ -98,7 +103,6 @@ async def main():
 
         # Trigger sales-engine retrain
         print(f"[*] Solicitando reentrenamiento de sales-engine en producción para '{schema}'...")
-        api_key = os.getenv("SALES_ENGINE_API_KEY", "a20f45cf132fb6f3f39519a43c3597bab44eb1212233b4bf")
         req = urllib.request.Request(
             "https://sales-engine-production-f6bd.up.railway.app/v1/tenants/valaice/models/retrain",
             method="POST",

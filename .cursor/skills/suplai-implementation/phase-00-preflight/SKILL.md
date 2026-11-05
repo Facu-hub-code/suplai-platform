@@ -54,7 +54,7 @@ check_id,descripcion,resultado,evidencia
 ## Owner backoffice (si se provisiona el tenant)
 
 - Email: `admin@{schema}.com`
-- Contraseña: **`Suplai2026`** (fija para todas las demos; no inventar otra).
+- Contraseña: la genera el alta con `secrets.token_urlsafe` (una por tenant) y la muestra una sola vez en la terminal. No se guarda en ningún archivo. Para fijar una, usar la variable `TENANT_ADMIN_PASSWORD`.
 
 ## Cierre
 

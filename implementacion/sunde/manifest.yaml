@@ -10,7 +10,7 @@ rubro: "artículos de limpieza, bazar, jardinería, aromatización y sahumerios 
 excel_input: "inputs/lista-precios-21-08-26.xls"
 sitio_web: ""
 admin_email: "admin@sunde.com"
-admin_password: "Suplai2026"
+admin_password: "<generada al dar de alta>"
 notas: |
   Demo agéntica para Cintia (dueña, tercera generación). Empresa familiar de Río Cuarto, +60 años.
   2 preventistas. Cobertura: sur de Córdoba, San Luis, La Pampa, Neuquén, Ruta 3 hasta Caleta Olivia.

@@ -6,6 +6,7 @@ import asyncio
 import json
 import os
 import re
+import secrets
 import sys
 from pathlib import Path
 from uuid import uuid4
@@ -17,7 +18,10 @@ from dotenv import load_dotenv
 SCHEMA = "abmauri"
 SOURCE = "gonzales"
 ADMIN_EMAIL = "admin@abmauri.com"
-ADMIN_PASSWORD = "Suplai2026"
+# DEV-321: sin contraseña fija en el repo. Se toma de TENANT_ADMIN_PASSWORD o se genera
+# una por corrida; se muestra una sola vez en la terminal y no se guarda en ningún archivo.
+ADMIN_PASSWORD = os.getenv("TENANT_ADMIN_PASSWORD") or secrets.token_urlsafe(16)
+ADMIN_PASSWORD_GENERATED = not os.getenv("TENANT_ADMIN_PASSWORD")
 HERE = Path(__file__).resolve()
 ROOT = HERE.parents[3]
 
@@ -150,6 +154,8 @@ def create_auth_user() -> str:
     user_id = response.json().get("id")
     if not user_id:
         raise RuntimeError("Supabase Auth no devolvió id")
+    if ADMIN_PASSWORD_GENERATED:
+        print(f"[!] Contraseña del admin (se muestra una sola vez, no se guarda): {ADMIN_PASSWORD}")
     return str(user_id)
 
 

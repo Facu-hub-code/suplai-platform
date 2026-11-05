@@ -11,6 +11,7 @@ import asyncio
 import json
 import os
 import re
+import secrets
 import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -23,7 +24,10 @@ from dotenv import load_dotenv
 SCHEMA = "demo_claude"
 SOURCE = "del_corro"
 ADMIN_EMAIL = "reviewer@demo-claude.suplaisales.com"
-ADMIN_PASSWORD = "Suplai2026"
+# DEV-321: sin contraseña fija en el repo. Se toma de TENANT_ADMIN_PASSWORD o se genera
+# una por corrida; se muestra una sola vez en la terminal y no se guarda en ningún archivo.
+ADMIN_PASSWORD = os.getenv("TENANT_ADMIN_PASSWORD") or secrets.token_urlsafe(16)
+ADMIN_PASSWORD_GENERATED = not os.getenv("TENANT_ADMIN_PASSWORD")
 CLIENT_LIMIT = 50
 HERE = Path(__file__).resolve()
 ROOT = HERE.parents[3]
@@ -140,6 +144,8 @@ def create_or_get_auth_user() -> str:
     if not user_id:
         raise RuntimeError("auth no devolvió id")
     print(f"[*] auth.users creado {ADMIN_EMAIL} id={user_id}")
+    if ADMIN_PASSWORD_GENERATED:
+        print(f"[!] Contraseña del admin (se muestra una sola vez, no se guarda): {ADMIN_PASSWORD}")
     return str(user_id)
 
 
@@ -367,7 +373,7 @@ async def main() -> int:
             f"""# Credenciales revisor Claude — NO COMMITEAR
 
 Email: {ADMIN_EMAIL}
-Contraseña: {ADMIN_PASSWORD}
+Contraseña: (se mostró una sola vez en la terminal al crear el usuario)
 Rol: gerente
 Distribuidora: Demo Claude (`{SCHEMA}`)
 Tenant id: {tenant_id}

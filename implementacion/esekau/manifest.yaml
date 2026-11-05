@@ -10,7 +10,7 @@ rubro: "distribución mayorista de consumo masivo (P&G, Dreamco, Clorox, Cepas/b
 excel_input: "inputs/Lista de Precios.xlsx"
 sitio_web: ""
 admin_email: "admin@esekau.com"
-admin_password: "Suplai2026"
+admin_password: "<generada al dar de alta>"
 notas: |
   Paso de demo a producción el 2026-10-05.
   Catálogo: inputs/Lista de Precios.xlsx — 1215 SKUs vendibles, 1 lista pública
