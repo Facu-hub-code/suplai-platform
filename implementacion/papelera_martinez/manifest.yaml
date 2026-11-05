@@ -10,7 +10,7 @@ rubro: "papelera / descartables / embalaje / librería / take away y packaging d
 excel_input: "inputs/lista-precios.pdf"
 sitio_web: "https://papeleramartinez.mitiendanube.com"
 admin_email: "admin@papeleramartinez.com"
-admin_password: "Suplai2026"
+admin_password: "<generada al dar de alta>"
 outbound:
   quality: ""
 economia:

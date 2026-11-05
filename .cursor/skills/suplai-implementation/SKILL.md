@@ -42,9 +42,9 @@ python scripts/backfill_campana_outbound_config.py
 Al crear el owner del backoffice:
 
 - **Email:** `admin@{schema_name}.com` (ej. `admin@kikimarket.com` si el dominio `{schema}.com` es inválido, usar el dominio real del cliente).
-- **Contraseña:** `Suplai2026` — **siempre**. No inventar otra clave por tenant.
+- **Contraseña:** la genera el alta, una distinta por tenant, con `secrets.token_urlsafe(16)`. Se muestra **una sola vez** en la terminal para pasársela al cliente. Nunca se escribe en `manifest.yaml`, en scripts, en logs ni en `outputs/`. Si el implementador quiere fijar una, la pasa por la variable de entorno `TENANT_ADMIN_PASSWORD` (no se commitea).
 
-Guardar `admin_email` en `manifest.yaml`. No inventar otra password salvo pedido explícito del implementador. Alineado con spec 036 (onboarding guiado).
+Guardar `admin_email` en `manifest.yaml`; `admin_password` queda con el marcador `<generada al dar de alta>`. El repo es público: ninguna contraseña va al árbol (DEV-321). Alineado con spec 036 (onboarding guiado).
 
 ## Modo por defecto — datos finales
 

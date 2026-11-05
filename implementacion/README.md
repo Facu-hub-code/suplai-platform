@@ -16,10 +16,10 @@ Esta carpeta es tu **escritorio de trabajo** para cargar un distribuidor nuevo e
 
 5. Decile al agente: **"Implementar {nombre del schema}"** (ej. `colormix`).
 
-Credenciales del owner del backoffice (siempre las mismas):
+Credenciales del owner del backoffice:
 
 - Email: `admin@{schema}.com` (o el dominio real del cliente si hace falta)
-- Contraseña: **`Suplai2026`**
+- Contraseña: la genera el alta, una por tenant (`secrets.token_urlsafe`), y se muestra una sola vez en la terminal. No se escribe en `manifest.yaml` ni en ningún archivo: el repo es público. Para fijar una propia, `TENANT_ADMIN_PASSWORD=... python scripts/provision_tenant.py`.
 
 **Default: datos finales.** Se carga el catálogo completo (SKUs con Precio > 0), `is_mock=false`, las listas y fotos que existan. No se inventan vendedores, clientes, pedidos ni promociones: esas fases se omiten hasta tener origen real.
 

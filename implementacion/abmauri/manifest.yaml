@@ -10,7 +10,7 @@ rubro: "ingredientes de panadería y pastelería: levadura, mejoradores, premezc
 excel_input: "inputs/2026 - ABMauri - Resumen 23_09.xlsx"
 sitio_web: "https://www.calsa.com.ar"
 admin_email: "admin@abmauri.com"
-admin_password: "Suplai2026"
+admin_password: "<generada al dar de alta>"
 notas: |
   Origen: escritorio "2026 - ABMauri - Resumen 23_09.xlsx" (corte 23/09/2026).
   Oficina regional: Mariscal Antonio José de Sucre 632, CABA. Planta Lanús Este y levadura en Tucumán.

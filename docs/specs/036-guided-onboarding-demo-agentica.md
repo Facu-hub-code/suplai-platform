@@ -14,7 +14,7 @@ Que un tenant recién registrado **no entre a un ecosistema vacío**. Tras el al
 Criterios de aceptación:
 
 - El signup pide nombre de persona, nombre de empresa, ubicación (Google Maps) y teléfono `549…`. **No** pide email ni contraseña.
-- El owner queda con `admin@{schema_name}.com` / `Suplai2026`, se auto-loguea y ve esas credenciales una vez.
+- El owner queda con `admin@{schema_name}.com` / `<contraseña generada>`, se auto-loguea y ve esas credenciales una vez.
 - `schema_name` no contiene la palabra `distribuidora`. Si el slug ya existe, el siguiente es `{slug}_01`, luego `_02`.
 - Tras el alta se entra a `/onboarding` (paso Productos), no al dashboard vacío.
 - El catálogo se **propone** (job), se **previsualiza** y recién se **persiste** al confirmar, con `is_mock=true` y 4 listas (1.00 / 1.15 / 0.90 / 0.85).
@@ -29,7 +29,7 @@ Criterios de aceptación:
 |----------|----------|---------|------------------------|
 | Wizard vs BulkUploadWizard | Wizard propio en `/onboarding` | El bulk operativo no setea `is_mock`, no inventa listas/taxonomía y pide mapeo manual (fricción) | Reusar `BulkUploadWizard` |
 | Propuesta vs persistencia | Job `propose` → preview → `confirm` | El usuario pidió ver SKUs/categorías/listas y poder regenerar antes de guardar | Guardar en caliente y editar después |
-| Credenciales | Generadas en backend (`admin@{schema}.com` / `Suplai2026`) | Evitar que olviden una password que ellos eligieron; el login posterior usa esas claves | Seguir pidiendo email/password en el form |
+| Credenciales | Generadas en backend (`admin@{schema}.com` / `<contraseña generada>`) | Evitar que olviden una password que ellos eligieron; el login posterior usa esas claves | Seguir pidiendo email/password en el form |
 | Colisión de schema | Sufijo `_01`, `_02` | Pedido explícito (`del_corro_01`); el `_2` actual no coincide | Seguir con `_2`, `_3` |
 | Slug | Strip `distribuidora(s)`, `distribucion(es)`, `s.a.`, `srl`; fallback `empresa` | Evitar schemas `distribuidora_acme`; nunca usar la palabra como ident | Slug literal del nombre comercial |
 | Ubicación | Places Autocomplete (`HqLocationInput`) → `metadata.hq` + `ciudad_base` | Ya existe el control; el mapa comercial y la red futura reutilizan HQ | Texto libre de ciudad |
@@ -148,7 +148,7 @@ Fuentes `source`: `excel` | `pdf` | `url` | `invent`.
 Servicios: backend `localhost:8000`, backoffice `localhost:3000` (Maps).
 
 1. Signup con empresa que ya exista (probar `_01`), Maps (Córdoba), teléfono `54911…`.
-2. Ver tarjeta `admin@{schema}.com` / `Suplai2026` y poder copiar. Continuar a `/onboarding`.
+2. Ver tarjeta `admin@{schema}.com` / `<contraseña generada>` y poder copiar. Continuar a `/onboarding`.
 3. Productos: (a) Excel/CSV chico, (b) PDF, (c) URL que falle → inventar, (d) sin archivo + rubro “fiambres”.
 4. Preview → Regenerar → Confirmar. Ver productos y 4 listas en el backoffice. Filas nuevas con `is_mock` si la columna existe.
 5. Logout y login con las credenciales generadas.

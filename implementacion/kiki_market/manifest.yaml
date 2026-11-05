@@ -11,7 +11,7 @@ excel_input: "inputs/tiendanube-catalogo.csv"
 excel_fotos: "inputs/KIKI_MARKET_catalogo_con_fotos_incrustadas.xlsx"
 sitio_web: "https://kikimarket.com.ar"
 admin_email: "admin@kikimarket.com"
-admin_password: "Suplai2026"
+admin_password: "<generada al dar de alta>"
 notas: |
   Tenant nuevo desde catálogo Tienda Nube (store 6706048).
   Origen: /Users/facundolorenzo/Desktop/tiendanube-6706048-17895744365392055221321200347.csv

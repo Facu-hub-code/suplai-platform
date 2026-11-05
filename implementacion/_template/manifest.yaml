@@ -9,7 +9,7 @@ rubro: ""                    # ★ Descripción libre del rubro (ej: "carnicerí
 excel_input: "inputs/lista-productos.xlsx"
 sitio_web: ""                # URL del sitio web del cliente (ej: https://alfuego.com.ar/)
 admin_email: ""              # ★ admin@{schema_name}.com
-admin_password: "Suplai2026" # fija — no cambiar
+admin_password: "<generada al dar de alta>"  # no se guarda: el alta genera una por tenant (secrets.token_urlsafe) y la muestra una sola vez
 outbound:
   quality: ""                # HIGH | MEDIUM | LOW. Vacío = el producto asume HIGH. El envío usa whatsapp.phone_id del agente.
 economia:

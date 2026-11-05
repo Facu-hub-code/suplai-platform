@@ -10,7 +10,7 @@ rubro: "fábrica y distribución de productos de limpieza (línea propia + compl
 excel_input: "inputs/LISTA DE PRECIOS BLANCA AGOSTO 2026.pdf"
 sitio_web: "https://www.dinamicquim.com"
 admin_email: "admin@dinamic.com"
-admin_password: "Suplai2026"
+admin_password: "<generada al dar de alta>"
 notas: |
   Demo agéntica para Luciano Scarafoni (socio con hermano y padre).
   PyME familiar de Casilda. Produce parte de lo que vende. 2 preventistas + Luciano.
