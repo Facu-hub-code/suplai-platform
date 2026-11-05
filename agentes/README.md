@@ -13,9 +13,12 @@ agentes/
     AGENTE.md            rol, tareas diarias, dashboard y sección Nunca
     consultas.md         SQL de ejemplo para el dashboard (solo conteos)
     skills/README.md     qué skills de .grok/skills/ usa
+  envios/AGENTE.md       plantillas: enviados, entregados, fallidos, respuestas y pedidos (paso 2)
+  uso-mcp/AGENTE.md      uso del MCP por tenant y clase (paso 3)
+  reclamos/AGENTE.md     reclamos, pedidos de features y preguntas sin respuesta (paso 4)
 ```
 
-El Analista es el punto de partida. Grok puede proponer los agentes que crea necesarios, cada uno con su carpeta `agentes/{nombre}/`, y dejarlos investigar con libertad dentro de estas reglas.
+El Analista es el punto de partida y puede delegar los pasos 2 a 4 en `envios`, `uso-mcp` y `reclamos`. Grok puede proponer los agentes que crea necesarios, cada uno con su carpeta `agentes/{nombre}/`, y dejarlos investigar con libertad dentro de estas reglas.
 
 ## Quién escribe qué
 

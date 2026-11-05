@@ -35,7 +35,7 @@ env as (
 ),
 ped as (
   select regexp_replace(cl.phone_number, '\D', '', 'g') as tel,
-         p.fecha at time zone 'America/Argentina/Buenos_Aires' as fecha, p.origen
+         p.fecha at time zone 'UTC' as fecha, p.origen  -- pedidos.fecha está en UTC sin zona (DEV-33)
   from <schema>.pedidos p join <schema>.clients cl on cl.id = p.cliente_id
   where p.deleted_at is null
 )
